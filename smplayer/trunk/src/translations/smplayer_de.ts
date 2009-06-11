@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de_DE">
+<!DOCTYPE TS><TS version="1.1" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -3374,7 +3373,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3484,7 +3483,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -7083,52 +7082,52 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../smplayer.cpp" line="328"/>
+        <location filename="../smplayer.cpp" line="372"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Das ist SMPlayer v.%1 running on %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspielliste benendet ist.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="164"/>
         <source>will show this message and then will exit.</source>
         <translation>Zeigt diesen Hinweis und wird beendet.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="131"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>versucht, eine Beziehung zu einem anderen laufenden Prozeß herzustellen und zu ihm die spezifizierte Aktionen zu schicken. Beispiel: -action pause Die restlichen Optionen (falls vorhanden) werden ignoriert und die Anwendung beendet. Der Status bringt 0 für Erfolg oder -1 für Ausfall zurück.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list ist eine Liste der Aktionen, die durch Leerzeichen (Space) getrennt werden. Die Aktionen werden gleich nach dem Laden der Datei (falls vorhanden) in dem Auftrag durchgeführt, der zuvor eingetragen wurde. Für wählbare Aktionen kann true (wahr) oder false (falsch) als Parameter angegeben werden. Beispiel:  -actions &quot;fullscreen compact true&quot;. Anführungsstriche müßen bei mehr als einer Aktion gesetzt werden.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>Media</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="163"/>
+        <location filename="../clhelp.cpp" line="170"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>Falls ein weiterer Prozess läuft, Medien werden dort in die Playlist eingefügt. Läuft kein weiterer Prozess, die Option wird ingnoriert und Dateien werden mit einem neuen Prozess geöffnet.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>Das Hauptfenster wird geschlossen wenn die Datei/Abspielliste benendet ist.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="149"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>das Video wird im Vollbildmodus abgespielt.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>the video will be played in window mode.</source>
         <translation>das Video wird im Fenstermodus abgespielt.</translation>
     </message>
@@ -7138,22 +7137,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Einreihen in SMPlayer</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>Öffnet die Mini-Gui, anstelle der Standard-Gui.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Stellt die alten Zuordnungen wieder her und bereinigt die Registry.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;Media&apos; ist jede Art von Datei die SMPlayer öffnen kann. Das kann eine lokale Datei sein, eine DVD (e.g. dvd://1), ein Internetstream (e.g. mms://....) oder eine lokale Abspielliste im Format m3u. Wenn die Option Abspielliste in Gebrach ist, das heißt SMPlayer gibt die Abspiellisten-Option an MPlayer weiter, MPlayer verarbeitet die Abspielliste, nicht SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>Anwendung:</translation>
     </message>
@@ -7173,7 +7172,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Aktion_Liste</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>Öffnet die Standard GUI.</translation>
     </message>
@@ -7183,7 +7182,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Untertitel_Datei</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="155"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>Spezifiziert die zu ladende Untertiteldatei für das erste Video.</translation>
     </message>
@@ -7209,7 +7208,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>%1 und %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>Spezifiziert das Verzeichnis, wo SMPlayer die eigenen Konfigurationsdateien speichert  (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -7232,9 +7231,29 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <translation>Unbekannt</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
         <translation>öffnet die MPC GUI.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="158"/>
+        <source>specifies the coordinates where the main window will be displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="161"/>
+        <source>specifies the size of the main window.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

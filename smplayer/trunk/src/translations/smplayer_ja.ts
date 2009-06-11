@@ -7060,52 +7060,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="164"/>
         <source>will show this message and then will exit.</source>
         <translation>このメッセージを表示して次に終了します。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>メイン ウィンドウはファイル/プレイリストの完了時に閉じられます。</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="328"/>
+        <location filename="../smplayer.cpp" line="372"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>これは %2 で実行中の SMPlayer v. %1 です</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="131"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>別の実行中のインスタンスへの接続と指定された動作の送信を試行します。例: -send-action pause 残りのオプションは (あれば) 無視されてアプリケーションは終了します。成功時には 0 または 失敗時には -1 を返します。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>[動作の一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメーターとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つより多くの動作を渡す場合に必要です。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>メディア</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="163"/>
+        <location filename="../clhelp.cpp" line="170"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>別の実行中のインスタンスがある場合、メディアはそのインスタンスのプレイリストに追加されます。その他のインスタンスがない場合、このオプションは無視されてファイルは新しいインスタンスで開かれます。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>メイン ウィンドウはファイル/プレイリストの完了時に閉じられません。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="149"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>ビデオは全画面モードで再生されます。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>the video will be played in window mode.</source>
         <translation>ビデオはウィンドウ モードで再生されます。</translation>
     </message>
@@ -7115,22 +7115,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SMPlayer でエンキュー</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>既定のものの代わりにミニ gui を開きます。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>古い関連付けを復元してレジストリをクリーンアップします。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;メディア&apos; はあらゆる SMPlayer が開けるファイルです。ローカル ファイル、DVD (例: dvd://1)、インターネット ストリーム (例: mms://....) または m3u または pls フォーマットのローカル プレイリストにできます。 -playlist オプションが使用されている場合、それは SMPlayer ではなく、MPlayer がプレイリストをハンドルするように、SMPlayer が MPlayer へ -playlist オプションを渡すことを意味します。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>使用法:</translation>
     </message>
@@ -7150,7 +7150,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>動作の一覧</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>デフォルト gui を開きます。</translation>
     </message>
@@ -7160,7 +7160,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>subtitle_file</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="155"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>最初のビデオに読み込まれる字幕ファイルを指定します。</translation>
     </message>
@@ -7184,7 +7184,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 と %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>smplayer が構成ファイル (smplayer.ini、smplayer_files.ini...) を格納するディレクトリを指定します</translation>
     </message>
@@ -7207,9 +7207,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>不明</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
         <translation>mpc gui を開きます。</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="158"/>
+        <source>specifies the coordinates where the main window will be displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="161"/>
+        <source>specifies the size of the main window.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

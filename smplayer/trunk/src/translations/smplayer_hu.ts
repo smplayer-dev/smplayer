@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hu_HU">
+<!DOCTYPE TS><TS version="1.1" language="hu_HU">
 <context>
     <name>About</name>
     <message>
@@ -3369,7 +3368,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Marshall-szigeteki</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmal</translation>
@@ -3479,7 +3478,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -7059,52 +7058,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="164"/>
         <source>will show this message and then will exit.</source>
         <translation>megjeleníti ezt az üzenetet és kilép.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>a főablak bezáródik, ha a fájl/lejátszási lista véget ért.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="328"/>
+        <location filename="../smplayer.cpp" line="372"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ez az SMPlayer v. %1 ami %2 -n fut</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="131"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>megpróbál kapcsolódni egy másik futó példányhoz és elküldeni neki a megadott műveletet. Példa: -send-action pause A többi opció (ha van) figyelmen kívül lesz hagyva és az alkalmazás kilép. Siker esetén 0-t, hiba esetén -1-t ad vissza.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list szóközökkel elválasztott műveletek listája. A műveletek a fájl (ha van) betöltése után kerülnek végrehajtásra a megadott sorrendben. Váltható műveletekhez true vagy false küldhető paraméterként. Példa: -actions &quot;fullscreen compact true&quot;. Idézőjelek szükségesek ha egynél több paramétert küld.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>média</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="163"/>
+        <location filename="../clhelp.cpp" line="170"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>ha fut másik példány, a média annak a példánynak a lejátszási listájába kerül. Ha nincs másik példány, ez az opció figyelmen kívül lesz hagyva és a fájl új példányban nyílik meg.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>a főablak nem zárul be, ha a fájl/lejátszási lista véget ér.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="149"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>a videó teljes képernyős módban lesz lejátszva.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>the video will be played in window mode.</source>
         <translation>a videó ablakos módban lesz lejátszva.</translation>
     </message>
@@ -7114,22 +7113,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sorba állítás az SMPlayerben</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>a Mini felületet nyitja meg az Alap helyett.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Visszaállítja a régi társításokat és kitakarítja a regisztrációs adatbázist.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;media&apos; bármely fájl amit az SMPlayer meg tud nyitni. Lehet egy helyi fájl, egy DVD (pl. dvd://1), egy internet adatfolyam (pl. mms://....) vagy egy helyi lejátszási lista m3u vagy pls formátumban. Ha a -playlist opció van használva, azt jelenti hogy az SMPlayer átadja a -playlist opciót az MPlayernek, így az MPlayer fogja kezelni a listát az SMPlayer helyett.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>Használat:</translation>
     </message>
@@ -7149,7 +7148,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>művelet_lista</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>megnyitja az Alap felületet.</translation>
     </message>
@@ -7159,7 +7158,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>felirat_fájl</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="155"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>meghatározza az első videóhoz betöltendő felirat fájlt.</translation>
     </message>
@@ -7183,7 +7182,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 és %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>meghatározza a könyvtárat ahol az SMPlayer a konfigurációs fájljait (smplayer.ini, smplayer_files.ini...) tárolni fogja</translation>
     </message>
@@ -7206,9 +7205,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ismeretlen</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
         <translation>megnyitja az MPC felületet.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="158"/>
+        <source>specifies the coordinates where the main window will be displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="161"/>
+        <source>specifies the size of the main window.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

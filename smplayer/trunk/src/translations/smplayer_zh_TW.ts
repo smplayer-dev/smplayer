@@ -7029,52 +7029,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="164"/>
         <source>will show this message and then will exit.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="328"/>
+        <location filename="../smplayer.cpp" line="372"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>這是 SMPlayer v. %1 運行於 %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="131"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>媒體</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="163"/>
+        <location filename="../clhelp.cpp" line="170"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>如果另一個實例正在執行, 媒體將加到那個實例的播放清單中。如果沒有其他實例, 這個選項將被忽略, 檔案將會在新的實例中開啟。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>主視窗在檔案或播放清單結束後不關閉。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="149"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>視訊將會在全螢幕模式播放</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>the video will be played in window mode.</source>
         <translation>視訊將會在視窗模式播放</translation>
     </message>
@@ -7084,22 +7084,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>在 SMPlayer 裡儲入佇列</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation type="unfinished">開啟微型圖形使用者界面而不是預設的。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>還原舊的檔案關聯並清除註冊表。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation type="unfinished">&apos;媒體&apos;是 SMPlayer 可以開啟的任意一種檔案格式。它可以是一個本地檔案，DVD(例如 dvd://1)，網際網路串流(例如 mms://....) 或一個 m3u 格式的本地播放清單。如果設定了 -playlist，那意味着 SMPlayer 將將 -playlist 這個選項傳給 MPlayer，所以處理播放清單的將是 MPlayer 不是 SMPlayer。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>用法:</translation>
     </message>
@@ -7119,7 +7119,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>動作清單</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>開啟預設的圖形使用者界面</translation>
     </message>
@@ -7129,7 +7129,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="155"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7153,7 +7153,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">%1 和 %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7176,8 +7176,28 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="158"/>
+        <source>specifies the coordinates where the main window will be displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="161"/>
+        <source>specifies the size of the main window.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

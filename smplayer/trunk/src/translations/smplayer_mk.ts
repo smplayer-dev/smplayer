@@ -7030,52 +7030,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="164"/>
         <source>will show this message and then will exit.</source>
         <translation>ќе се прикаже оваа порака и ќе се исклучи.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>главниот прозорец ќе биде затворен кога датотеката/листата со нумери ќе заврши.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="328"/>
+        <location filename="../smplayer.cpp" line="372"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ова е SMPlayer в.%1 која работи на %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="131"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>се обидува да се поврзе со друг прозорец и да му ја испрати специфираната акција. Пример: -send-action pause Останатите опции (доколку ги има) ќе бидат игнорирани и апликацијата ќе се исклучи. Ќе испрати 0 за успех или -1 за неуспех.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list е листа на акции одделени со празно место. Акциите ќе бидат извршени откако ќе внесете датотека (доколку има) во истиот редослед кои сте го внесле. За променливи акции можете да дефинирате точно или неточно како параметар. Пример -actions &quot;fullscreen compact true&quot;. Наводници се неопходни доколку имате повеќе од една акција.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>медиум</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="163"/>
+        <location filename="../clhelp.cpp" line="170"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>доколку работи уште еден прозорец, датотеката ќе биде додадена на листата на тој прозорец. Доколку не работи друг прозорец, оваа опција ќе биде игнорирана и датотеките ќе бидат отворени во нов прозорец.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>главниот прозорец нема да биде затворен кога датотеката/листата со нумери ќе заврши.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="149"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>видеото ќе биде пуштено на цел екран.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>the video will be played in window mode.</source>
         <translation>видеото ќе биде пуштено во прозорец.</translation>
     </message>
@@ -7085,22 +7085,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Стави во ред со нумери во SMPlayer</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>го отвара минијатурниот интерфејс наместо основното.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Ги враќа старите асоцијации и го чисти регистарот.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&quot;медиум&quot; е тип на датотека која SMPlayer може да ја отвори. Тоа може да биде локална датотека, DVD (пр. dvd://1), интернет поток (пр. mms://....) или локална листа за пуштање доколку -playlist опцијата е користена, тоа значи дека SMPlayer ќе ја предаде опцијата на MPlayer, така што MPlayer ќе се справи со листата, а не SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>Користење:</translation>
     </message>
@@ -7120,7 +7120,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>листа_на_акции</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>Го отвара основниот интерфејс.</translation>
     </message>
@@ -7130,7 +7130,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Датотека со поднаслов</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="155"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>Го одредува поднасловот кој ќе биде вчитан за првото видео.</translation>
     </message>
@@ -7156,7 +7156,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 и %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>Ја одредува папката каде smplayer ќе ги чува поставувањата (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -7179,9 +7179,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Непознато</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
         <translation>Го отвара интерфејсот за mpc.</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="158"/>
+        <source>specifies the coordinates where the main window will be displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="161"/>
+        <source>specifies the size of the main window.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

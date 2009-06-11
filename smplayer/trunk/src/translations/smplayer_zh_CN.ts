@@ -7059,52 +7059,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="164"/>
         <source>will show this message and then will exit.</source>
         <translation>将显现这条信息然后退出。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="142"/>
+        <location filename="../clhelp.cpp" line="143"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>当文件或播放列表结束时将关闭主窗口。</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="328"/>
+        <location filename="../smplayer.cpp" line="372"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>这是运行在 %2 上的 SMPlayer v. %1 </translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="131"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>尝试连接到另一个运行着的实例并发送指定的操作。例如: -send-action pause 其它选项(如果有的话)将被忽略，程序将自动退出。它成功将返回0，失败-1。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list 是一系列用空格分隔的操作。加载完文件后将马上按您给定的顺序执行这些操作。对于选项操作您可以用 true 或 false 作为参数。例如：-actions &quot;fullscreen compact true&quot;。将有多个操作时引号是必须。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>媒体</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="163"/>
+        <location filename="../clhelp.cpp" line="170"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>如果另一个实例正在运行, 媒体将加到那个实例的播放列表中。如果没有其它实例, 这个选项将被忽略, 文件将来新的实例中打开。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="145"/>
+        <location filename="../clhelp.cpp" line="146"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>主窗口在文件或播放列表结束后不能关闭。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="149"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>视频将在全屏模式中播放。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="152"/>
         <source>the video will be played in window mode.</source>
         <translation>视频将在窗口模式中播放。</translation>
     </message>
@@ -7114,22 +7114,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>在 SMPlayer 里排队</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>打开 mini 界面而不是默认界面。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>恢复旧的文件关联并清理注册表。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation>&apos;媒体&apos;是 SMPlayer 可以打开的任意一种文件格式。它可以是一个本地文件，DVD(例如 dvd://1)，流媒体(例如 mms://....) 或一个 m3u 格式的本地播放列表。如果设定了 -playlist，那意味着 SMPlayer 将将 -playlist 这个选项传给 MPlayer，所以处理播放列表的将是 MPlayer 不是 SMPlayer。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="105"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>用法:</translation>
     </message>
@@ -7149,7 +7149,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>动作列表</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>打开默认界面。</translation>
     </message>
@@ -7159,7 +7159,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>字幕文件</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="155"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>指定第一个视频的字幕文件。</translation>
     </message>
@@ -7183,7 +7183,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 和 %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>指定 SMPlayer 存放配置文件(smplayer.ini, smplayer_files.ini...)的目录</translation>
     </message>
@@ -7206,9 +7206,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
         <translation>打开 mpc 界面。</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="97"/>
+        <source>height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="158"/>
+        <source>specifies the coordinates where the main window will be displayed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="161"/>
+        <source>specifies the size of the main window.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
