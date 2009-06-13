@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="de_DE">
+<!DOCTYPE TS>
+<TS version="2.0" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -756,7 +757,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1455"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Aspect Ratio</translation>
+        <translation>&amp;Seitenverhältnis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1458"/>
@@ -1223,7 +1224,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1299"/>
         <source>Add &amp;black borders</source>
-        <translation>&amp;Schwarze Rahmen hinzufügen</translation>
+        <translation>&amp;Schwarze Ränder hinzufügen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1300"/>
@@ -1445,7 +1446,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1405"/>
         <source>Next aspect ratio</source>
-        <translation>Nächster Aspect Ratio</translation>
+        <translation>Nächstes Seitenverhältnis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1285"/>
@@ -1661,7 +1662,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Aspect ratio: %1</source>
-        <translation>Aspect Ratio: %1</translation>
+        <translation>Seitenverhältnis: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3602"/>
@@ -1696,22 +1697,22 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../core.cpp" line="3318"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle Mauszeigerposition</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3321"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>Jetzt wird die Lautstärke per Mausrad geändert</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3324"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>Jetzt wird der Zomm-Level per Mausrad geändert</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3327"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>Jetzt wird die Geschwindigkeit per Mausrad geändert</translation>
     </message>
 </context>
 <context>
@@ -2281,7 +2282,7 @@ Bitte die Berechtigung für den Ordner überprüfen.</translation>
     <message>
         <location filename="../infofile.cpp" line="104"/>
         <source>Aspect ratio</source>
-        <translation>Aspect Ratio</translation>
+        <translation>Seitenverhältnis</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
@@ -3393,7 +3394,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3503,7 +3504,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -3992,7 +3993,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="347"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>Auswahl Aspect Ratio des Monitors.</translation>
+        <translation>Auswahl Seitenverhältnis des Monitors.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="349"/>
@@ -4984,7 +4985,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="856"/>
         <source>Add black borders on fullscreen</source>
-        <translation>Schwarze Rahmen im Vollbildmodus hinzufügen</translation>
+        <translation>Schwarze Ränder im Vollbildmodus hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="859"/>
@@ -4994,7 +4995,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="503"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Schwarze Rahmen im Vollbildmodus hinzufügen</translation>
+        <translation>&amp;Schwarze Ränder im Vollbildmodus hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="106"/>
@@ -5572,62 +5573,62 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändern der Mausrad Funktion</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="505"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Media Positionierung</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoom Video</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrolle Lautstärke</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Geschwindigkeit ändern</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Mausrad Funktionen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="333"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren damit Positionierung eine Funktion wird.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren damit Kontrolle Lautstärke eine Funktion wird.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren damit zoomen eine Funktion wird.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren damit Geschwindigkeit ändern eine Funktion wird.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="483"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mausrad Funktionen</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="495"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl der Aktion die ausgeführt werden soll, bei Anwendung der Option- &quot; Ändern der Mausrad Funktion&quot;.</translation>
     </message>
 </context>
 <context>
@@ -7587,7 +7588,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="386"/>
         <source>Aspect ratio: %1</source>
-        <translation>Aspect Ratio: %1</translation>
+        <translation>Seitenverhältnis: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="322"/>
@@ -7680,7 +7681,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
         <source>&amp;Aspect ratio:</source>
-        <translation>&amp;Aspect Ratio:</translation>
+        <translation>&amp;Seitenverhältnis:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
