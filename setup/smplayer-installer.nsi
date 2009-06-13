@@ -1,32 +1,5 @@
-/*
-** NSIS Script for SMPlayer
-** by redxii (redxii1234 ( at ) hotmail.com)
-** Requires NSIS 2.x
-**
-** This Script is set up to compile two different setups:
-** - SMPlayer including MPlayer files
-** - SMPlayer that downloads MPlayer from a remote server
-**
-** To create an installer that downloads MPlayer, no need to
-** do anything special, it will default to that installer.
-**
-** To create an installer with the MPlayer files you need to define WITH_MPLAYER:
-** makensis.exe /DWITH_MPLAYER smplayer-installer.nsi
-** 
-** MakeNSISW (GUI Compiler): Tools -> Settings. Add WITH_MPLAYER in Symbol Name and add to the list.
-** You need to have the smplayer-build\mplayer files present
-**
-** Other required files:
-** - 7za.exe (http://www.7zip.org)
-** - inetc plugin (http://nsis.sourceforge.net/Inetc_plug-in)
-**
-** Other required defines:
-** VER_MAJOR
-** VER_MINOR
-** VER_BUILD
-** VER_REVISION (only if non-zero)
-**
-*/
+; Installer script for win32 SMPlayer
+; Written by redxii <redxii1234@hotmail.com>
 
 ;--------------------------------
 ;Compressor
