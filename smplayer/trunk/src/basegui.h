@@ -444,6 +444,7 @@ protected:
 	MyAction * resetAudioEqualizerAct;
 	MyAction * showContextMenuAct;
 	MyAction * nextAspectAct;
+	MyAction * nextWheelFunc;
 
 	// Moving and zoom
 	MyAction * moveUpAct;

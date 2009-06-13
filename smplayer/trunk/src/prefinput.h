@@ -20,6 +20,7 @@
 #define _PREFINPUT_H_
 
 #include "ui_prefinput.h"
+#include "preferences.h"
 #include "prefwidget.h"
 #include <QStringList>
 
@@ -70,6 +71,9 @@ protected:
 
 	void setWheelFunction(int function);
 	int wheelFunction();
+
+	void setWheelFunctionCycle(QFlags<Preferences::WheelFunctions> flags);
+	QFlags<Preferences::WheelFunctions> wheelFunctionCycle();
 
 protected:
 	virtual void retranslateStrings();
