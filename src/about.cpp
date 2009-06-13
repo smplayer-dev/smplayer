@@ -111,6 +111,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		"Simon <hackykid@users.sourceforge.net>\n"
 		"Stanislav Maslovski <s_i_m@users.sourceforge.net>\n"
 		"Tanguy Krotoff <tkrotoff@gmail.com>\n"
+		"Stivo <helifan@users.sourceforge.net>\n"
 		).replace("<", "&lt;").replace(">", "&gt;") + 
 		"</pre>" +
 		tr("If there's any omission, please report.")

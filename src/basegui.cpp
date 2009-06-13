@@ -794,6 +794,9 @@ void BaseGui::createActions() {
 	connect( nextAspectAct, SIGNAL(triggered()), 
              core, SLOT(nextAspectRatio()) );
 
+	nextWheelFunc = new MyAction(this, "change_wheel");
+	connect( nextWheelFunc, SIGNAL(triggered()),
+			 core, SLOT(nextWheelFunc()) );
 
 	// Group actions
 

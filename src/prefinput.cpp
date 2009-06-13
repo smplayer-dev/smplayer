@@ -19,7 +19,6 @@
 
 #include "prefinput.h"
 #include "images.h"
-#include "preferences.h"
 #include "config.h"
 #include "guiconfig.h"
 
@@ -83,6 +82,7 @@ void PrefInput::createMouseCombos() {
 	left_click_combo->addItem( tr("Show video equalizer"), "video_equalizer" );
 	left_click_combo->addItem( tr("Show audio equalizer"), "audio_equalizer" );
 	left_click_combo->addItem( tr("Show context menu"), "show_context_menu" );
+	left_click_combo->addItem( tr("Change function of wheel"), "change_wheel" );
 #if DVDNAV_SUPPORT
 	left_click_combo->addItem( tr("Activate option under mouse in DVD menus"), "dvdnav_mouse" );
 	left_click_combo->addItem( tr("Return to main DVD menu"), "dvdnav_menu" );
@@ -146,6 +146,11 @@ void PrefInput::retranslateStrings() {
 	wheel_function_combo->addItem( tr("Change speed"), Preferences::ChangeSpeed );
 	wheel_function_combo->setCurrentIndex(wheel_function);
 
+	wheel_function_seek->setText( tr("Media &seeking") );
+	wheel_function_zoom->setText( tr("&Zoom video") );
+	wheel_function_volume->setText( tr("&Volume control") );
+	wheel_function_speed->setText( tr("&Change speed") );
+
 #if !USE_SHORTCUTGETTER
 	actioneditor_desc->setText( 
 		tr("Here you can change any key shortcut. To do it double click or "
@@ -165,6 +170,7 @@ void PrefInput::setData(Preferences * pref) {
 	setXButton1ClickFunction( pref->mouse_xbutton1_click_function );
 	setXButton2ClickFunction( pref->mouse_xbutton2_click_function );
 	setWheelFunction( pref->wheel_function );
+	setWheelFunctionCycle(pref->wheel_function_cycle);
 }
 
 void PrefInput::getData(Preferences * pref) {
@@ -177,6 +183,7 @@ void PrefInput::getData(Preferences * pref) {
 	pref->mouse_xbutton1_click_function = xButton1ClickFunction();
 	pref->mouse_xbutton2_click_function = xButton2ClickFunction();
 	pref->wheel_function = wheelFunction();
+	pref->wheel_function_cycle = wheelFunctionCycle();
 }
 
 /*
@@ -256,6 +263,34 @@ int PrefInput::wheelFunction() {
 	return wheel_function_combo->itemData(wheel_function_combo->currentIndex()).toInt();
 }
 
+void PrefInput::setWheelFunctionCycle(QFlags<Preferences::WheelFunctions> flags){
+	wheel_function_seek->setChecked(flags.testFlag(Preferences::Seeking));
+	wheel_function_volume->setChecked(flags.testFlag(Preferences::Volume));
+	wheel_function_zoom->setChecked(flags.testFlag(Preferences::Zoom));
+	wheel_function_speed->setChecked(flags.testFlag(Preferences::ChangeSpeed));
+}
+
+QFlags<Preferences::WheelFunctions> PrefInput::wheelFunctionCycle(){
+	QFlags<Preferences::WheelFunctions> seekflags (QFlag ((int) Preferences::Seeking)) ;
+	QFlags<Preferences::WheelFunctions> volumeflags (QFlag ((int) Preferences::Volume)) ;
+	QFlags<Preferences::WheelFunctions> zoomflags (QFlag ((int) Preferences::Zoom)) ;
+	QFlags<Preferences::WheelFunctions> speedflags (QFlag ((int) Preferences::ChangeSpeed)) ;
+	QFlags<Preferences::WheelFunctions> out (QFlag (0));
+	if(wheel_function_seek->isChecked()){
+		out = out | seekflags;
+	}
+	if(wheel_function_volume->isChecked()){
+		out = out | volumeflags;
+	}
+	if(wheel_function_zoom->isChecked()){
+		out = out | zoomflags;
+	}
+	if(wheel_function_speed->isChecked()){
+		out = out | speedflags;
+	}
+	return out;
+}
+
 void PrefInput::createHelp() {
 	clearHelp();
 
@@ -291,6 +326,21 @@ void PrefInput::createHelp() {
 
 	setWhatsThis(wheel_function_combo, tr("Wheel function"),
 		tr("Select the action for the mouse wheel.") );
+
+	addSectionTitle(tr("Mouse wheel functions"));
+
+	setWhatsThis(wheel_function_seek, tr("Media seeking"),
+		tr("Check it to enable seeking as one function.") );
+
+	setWhatsThis(wheel_function_volume, tr("Volume control"),
+		tr("Check it to enable changing volume as one function.") );
+
+	setWhatsThis(wheel_function_zoom, tr("Zoom video"),
+		tr("Check it to enable zooming as one function.") );
+
+	setWhatsThis(wheel_function_speed, tr("Change speed"),
+		tr("Check it to enable changing speed as one function.") );
+
 }
 
 #include "moc_prefinput.cpp"

@@ -1,5 +1,11 @@
 [b]Version 0.6.8[/b]:
 
+(2009-06-12)
+ * Applied (with a few changes) the patch wheelfunctionpatch4.txt by
+   Stivo (helifan at users.sourceforge.net).
+   It adds the possibility to change the function of the mouse wheel with
+   a mouse click.
+
 (2009-06-02)
  * (Windows) smplayer should recognize now Windows 7, if using Qt 4.5.1 
    (untested).

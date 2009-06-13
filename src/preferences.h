@@ -41,10 +41,12 @@ public:
 	enum Resize { Never = 0, Always = 1, Afterload = 2 };
 	enum Priority { Realtime = 0, High = 1, AboveNormal = 2, Normal = 3,
                     BelowNormal = 4, Idle = 5 };
-	enum WheelFunction { Seeking = 0, Volume = 1, Zoom = 2, DoNothing = 3,
-                         ChangeSpeed = 4 };
+	enum WheelFunction { DoNothing = 1, Seeking = 2, Volume = 4, Zoom = 8,
+                         ChangeSpeed = 16 };
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 	enum H264LoopFilter { LoopDisabled = 0, LoopEnabled = 1, LoopDisabledOnHD = 2 };
+
+	Q_DECLARE_FLAGS(WheelFunctions, WheelFunction);
 
 	Preferences();
 	virtual ~Preferences();
@@ -292,6 +294,9 @@ public:
 	QString mouse_xbutton2_click_function;
 	int wheel_function;
 
+	QFlags<WheelFunctions> wheel_function_cycle;
+
+
 	// Configurable seeking
 	int seeking1; // By default 10s
 	int seeking2; // By default 1m
@@ -438,5 +443,6 @@ public:
        ******* */
 	Filters * filters;
 };
+Q_DECLARE_OPERATORS_FOR_FLAGS(Preferences::WheelFunctions)
 
 #endif

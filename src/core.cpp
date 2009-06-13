@@ -3295,6 +3295,41 @@ void Core::nextAspectRatio() {
 	updateWidgets();
 }
 
+void Core::nextWheelFunc() {
+	int a = pref->wheel_function;
+
+	bool done = false;
+	if(((int ) pref->wheel_function_cycle)==0)
+		return;
+	while(!done){
+		// get next a
+
+		a = a*2;
+		if(a==32)
+			a = 2;
+		// See if we are done
+		if(pref->wheel_function_cycle.testFlag(QFlag(a)))
+			done = true;
+	}
+	pref->wheel_function = a;
+	QString m = "";
+	switch(a){
+	case Preferences::Seeking:
+		m = tr("Mouse wheel seeks now");
+		break;
+	case Preferences::Volume:
+		m = tr("Mouse wheel changes volume now");
+		break;
+	case Preferences::Zoom:
+		m = tr("Mouse wheel changes zoom level now");
+		break;
+	case Preferences::ChangeSpeed:
+		m = tr("Mouse wheel changes speed now");
+		break;
+	}
+	displayMessage(m);
+}
+
 void Core::changeLetterbox(bool b) {
 	qDebug("Core::changeLetterbox: %d", b);
 
