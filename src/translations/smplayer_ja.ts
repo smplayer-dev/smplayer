@@ -1580,7 +1580,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1338"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕の可視性(&amp;V)</translation>
     </message>
 </context>
 <context>
@@ -1686,32 +1686,32 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2788"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕 オン</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2790"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕 オフ</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3318"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>今マウス ホイールするとシークします</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3321"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>今マウス ホイールすると音量を変更します</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3324"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>今マウス ホイールすると拡大率を変更します</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3327"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>今マウス ホイールすると速度を変更します</translation>
     </message>
 </context>
 <context>
@@ -5566,62 +5566,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>ホイールの機能の変更</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="505"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>メディアのシーク(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオの拡大と縮小(&amp;Z)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>ボリューム コントロール(&amp;V)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>速度の変更(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>マウス ホイールの機能</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="333"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 つの機能としてシークを有効にするにはチェックします。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 つの機能として音量の変更を有効にするにはチェックします。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 つの機能として拡大と縮小を有効にするにはチェックします。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 つの機能として速度の変更を有効にするにはチェックします。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="483"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>マウス ホイールの機能(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="495"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;ホイールの機能の変更&quot; オプションの使用時に循環させる動作を選択します。</translation>
     </message>
 </context>
 <context>
@@ -7294,22 +7294,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>width</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>height</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="158"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>メイン ウィンドウが表示される座標を指定します。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="161"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>メイン ウィンドウのサイズを指定します。</translation>
     </message>
 </context>
 <context>
