@@ -297,6 +297,7 @@ void Preferences::reset() {
 	mouse_xbutton1_click_function = "";
 	mouse_xbutton2_click_function = "";
 	wheel_function = Seeking;
+	wheel_function_cycle = Seeking | Volume | Zoom | ChangeSpeed;
 
 	seeking1 = 10;
 	seeking2 = 60;

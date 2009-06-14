@@ -250,7 +250,7 @@ public slots:
 	void nextAspectRatio();
 	void changeOSD(int);
 	void nextOSD();
-	void nextWheelFunc();
+	void nextWheelFunction();
 
 	void changeSize(int); // Size of the window
 	void toggleDoubleSize();

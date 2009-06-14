@@ -3295,7 +3295,7 @@ void Core::nextAspectRatio() {
 	updateWidgets();
 }
 
-void Core::nextWheelFunc() {
+void Core::nextWheelFunction() {
 	int a = pref->wheel_function;
 
 	bool done = false;
