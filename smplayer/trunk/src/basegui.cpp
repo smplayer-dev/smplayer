@@ -794,9 +794,9 @@ void BaseGui::createActions() {
 	connect( nextAspectAct, SIGNAL(triggered()), 
              core, SLOT(nextAspectRatio()) );
 
-	nextWheelFunc = new MyAction(this, "change_wheel");
-	connect( nextWheelFunc, SIGNAL(triggered()),
-			 core, SLOT(nextWheelFunc()) );
+	nextWheelFunctionAct = new MyAction(this, "next_wheel_function");
+	connect( nextWheelFunctionAct, SIGNAL(triggered()),
+			 core, SLOT(nextWheelFunction()) );
 
 	// Group actions
 
@@ -1403,6 +1403,7 @@ void BaseGui::retranslateStrings() {
 	resetAudioEqualizerAct->change( tr("Reset audio equalizer") );
 	showContextMenuAct->change( tr("Show context menu") );
 	nextAspectAct->change( Images::icon("next_aspect"), tr("Next aspect ratio") );
+	nextWheelFunctionAct->change( Images::icon("next_wheel_function"), tr("Next wheel function") );
 
 
 	// Action groups
