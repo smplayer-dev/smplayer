@@ -8,7 +8,7 @@ Standards-Version: 3.7.2
 Package: smplayer
 Architecture: any
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: ${shlibs:Depends}, mplayer | mplayer-nogui
+Depends: ${shlibs:Depends}, mplayer | mplayer-nogui | mplayer-mt
 Recommends: smplayer-themes, alsa-utils, x11-utils
 Replaces: smplayer-translations
 Provides: smplayer-translations
