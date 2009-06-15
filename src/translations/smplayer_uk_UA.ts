@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -290,7 +291,7 @@
     <message>
         <location filename="../about.cpp" line="206"/>
         <source>Estonian</source>
-        <translation type="unfinished">Естонська</translation>
+        <translation>Естонська</translation>
     </message>
 </context>
 <context>
@@ -1580,7 +1581,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1338"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Видимість субтитрів</translation>
     </message>
 </context>
 <context>
@@ -1686,32 +1687,32 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2788"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>Субтитри увімкнені</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2790"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>Субтитри вимкнені</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3318"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3321"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3324"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>Тепер колесо миші змінює масштаб</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3327"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
 </context>
 <context>
@@ -3392,7 +3393,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3502,7 +3503,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4180,7 +4181,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Докладно</translation>
     </message>
 </context>
 <context>
@@ -4574,7 +4575,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="302"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>&amp;Активувати післяобробку за замовчуванням</translation>
+        <translation>&amp;Увімкнути післяобробку за замовчуванням</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="823"/>
@@ -5140,47 +5141,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="940"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Автосинхронізація звука/відео</translation>
+        <translation>Автосинхронізація звука/відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Поступове регулювання A/V синхронізації, основане на розмірах звукових затримок.</translation>
+        <translation>Поступове регулювання синхронізації аудіо-відео, основане на розмірах звукових затримок.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Корегування синхронізації аудіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>Найбільше значення корегування аудіо-відео на кадр (с)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="833"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Синхронізація</translation>
+        <translation>Синхронізація</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="853"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>Автосинхронізація аудіо-&amp;відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="879"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Коефіцієнт:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="915"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Корегування синхронізації аудіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Найбільше корегування:</translation>
     </message>
 </context>
 <context>
@@ -5528,7 +5529,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation>Активувати опцію меню DVD під мишкою</translation>
+        <translation>Увімкнути опцію меню DVD під мишкою</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
@@ -5563,67 +5564,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation>Активувати підсвічену опцію в меню DVD</translation>
+        <translation>Увімкнути опцію підсвічування в меню DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінити призначення колеса</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="505"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Здійснення переходу по медіа</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінювати &amp;масштаб зображення</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>Керування &amp;гучністю</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Змінювати &amp;швидкість</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Призначення колеса миші</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="333"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть, щоб увімкнути переміщення як одне з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть, щоб увімкнути зміну гучності як одну з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть, щоб увімкнути зміну масштабу як одну з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть, щоб увімкнути зміну швидкості як одну з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="483"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Призначення &amp;колеса миші</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="495"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть дію, яка буде змінюватись, коли використовується опція &quot;Змінити призначення колеса&quot;.</translation>
     </message>
 </context>
 <context>
@@ -5701,7 +5702,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="683"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>&amp;Активувати віддалене керування SMPlayer</translation>
+        <translation>&amp;Використовувати тільки один запущений екземпляр SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="182"/>
@@ -7300,22 +7301,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>ширина</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>висота</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="158"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>визначає координати, де буде відображене головне вікно</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="161"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>визначає розміри головного вікна</translation>
     </message>
 </context>
 <context>
