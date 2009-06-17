@@ -511,7 +511,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1423"/>
         <source>&amp;Help</source>
-        <translation>A&amp;juda</translation>
+        <translation>&amp;Ajuda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1227"/>
@@ -1696,22 +1696,22 @@ A janela de configuração irá ser mostrada agora para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="3318"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>Agora, com a roda pesquisa</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3321"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>Agora, com a roda altera o volume</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3324"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>Agora, com a roda altera o nível de zoom</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3327"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>Agora, com a roda altera a velocidade</translation>
     </message>
 </context>
 <context>
@@ -2310,7 +2310,7 @@ Verifique as permissões de escrita dessa pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Initial Audio Stream</source>
-        <translation>Faixa de áudio inicial</translation>
+        <translation>Transmissão Inicial de Áudio</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="116"/>
@@ -2330,7 +2330,7 @@ Verifique as permissões de escrita dessa pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="123"/>
         <source>Audio Streams</source>
-        <translation>Faixas de áudio</translation>
+        <translation>Transmissões Áudio</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="152"/>
@@ -2367,12 +2367,12 @@ Verifique as permissões de escrita dessa pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="91"/>
         <source>Stream title</source>
-        <translation>Título do Stream</translation>
+        <translation>Título da transmissão</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="92"/>
         <source>Stream URL</source>
-        <translation>URL do Stream</translation>
+        <translation>URL da Transmissão</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="65"/>
@@ -4523,7 +4523,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="67"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>Lemb&amp;rar definições para todos os ficheiros (faixa de áudio, legendas...)</translation>
+        <translation>Lemb&amp;rar definições para todos os ficheiros (faixa áudio, legendas...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1096"/>
@@ -4698,7 +4698,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Especifica as faixas áudio a serem usadas ao reproduzir novos ficheiros. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; the &lt;i&gt;&quot;Idioma preferencial áudio&quot;&lt;/i&gt; tem prioridade sobre esta opção.</translation>
+        <translation>Especifica as faixas áudio a serem usadas ao reproduzir novos ficheiros. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a opção &lt;i&gt;&quot;Idioma preferencial de áudio&quot;&lt;/i&gt; tem prioridade sobre a primeira.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="975"/>
@@ -4708,12 +4708,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="979"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Especifica as faixas de legendas a serem usadas ao reproduzir novos ficheiros. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; the &lt;i&gt;&quot;Idioma preferencial de legendas&quot;&lt;/i&gt; tem prioridade sobre esta opção.</translation>
+        <translation>Especifica as faixas de legendas a serem usadas ao reproduzir novos ficheiros. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a opção &lt;i&gt;&quot;Idioma preferencial de legendas&quot;&lt;/i&gt; tem prioridade sobre esta.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1217"/>
         <source>Or choose a track number:</source>
-        <translation>Ou escolha o número de faixa:</translation>
+        <translation>Ou escolha o número da faixa:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1158"/>
@@ -4738,7 +4738,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="134"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui pode digitar o idioma preferencial para streams áudio e legendas. Quando um ficheiro com múltiplas legendas ou streams de áudio forem encontradas, SMPlayer tentará usar o seu idioma preferido. Apenas funciona com ficheiros que ofereçam informação sobre os idiomas ou legendas, como por exemplo DVDs ou MKVs.&lt;br&gt;Estes ficheiros aceitam expressões regulares. Exemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará as faixas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui pode introduzir o idioma preferencial para as transmissões de áudio e de legendas. Quando um ficheiro com múltiplas legendas ou áudio for encontrado, o SMPlayer irá tentar usar o seu idioma preferido. Isto apenas funciona com ficheiros que ofereçam informação sobre os idiomas ou legendas, como os DVDs ou MKVs.&lt;br&gt;Estes ficheiros aceitam expressões regulares. Exemplo: Se inserir &lt;b&gt;es|esp|spa&lt;/b&gt;, seleccionará as faixas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1004"/>
@@ -4945,7 +4945,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="768"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Normalmente smplayer irá lembrar-se das definições para cada ficheiro que reproduza (faixa de áudio, volume, filtros...). Desmarque esta opção se não desejar esta funcionalidade.</translation>
+        <translation>Normalmente o SMPlayer irá lembrar-se das definições para cada ficheiro que reproduza (faixa áudio, volume, filtros...). Desactive esta opção se não gostar desta funcionalidade.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="800"/>
@@ -4960,12 +4960,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui pode introduzir o idioma preferido para a faixa de áudio. Quando um vídeo com múltiplas faixas de áudio é encontrado, smplayer tentará usar o seu idioma preferido.&lt;br&gt;Isto só será possível com vídeos que ofereçam informação acerca do idioma das faixas de áudio,tal como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões regulares. Exemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará a pista de áudio se coincide com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui pode introduzir o idioma preferido para as transmissões áudio. Quando um vídeo com múltiplas transmissões de áudio é encontrado, o SMPlayer irá tentar usar o seu idioma preferido.&lt;br&gt;Isto apenas funciona com ficheiros que ofereçam informação acerca do idioma das transmissões áudio, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões regulares. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, seleccionará as faixas de áudios que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui pode introduzir o idioma preferido para as legendas. Quando um vídeo com múltiplas legendas for encontrado, smplayer tentará usar o seu idioma preferido.&lt;br&gt;Isto só será possível com vídeos que ofereçam informação acerca do idioma das legendas, tal como DVDs ou ficheiros mkv.&lt;br&gt;               Este campo aceita expressões regulares. Exemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará a legenda se coincide com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui pode introduzir o idioma preferido para as legendas. Quando um vídeo com múltiplas legendas é encontrado, o SMPlayer irá tentar usar o seu idioma preferido.&lt;br&gt;Isto apenas funciona com ficheiros que ofereçam informação acerca do idioma das legendas, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões regulares. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, seleccionará as legendas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="562"/>
@@ -5218,17 +5218,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="332"/>
         <source>Media seeking</source>
-        <translation>Procura</translation>
+        <translation>Pesquisar por media</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="335"/>
         <source>Volume control</source>
-        <translation>Controle de volume</translation>
+        <translation>Controlar volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="338"/>
         <source>Zoom video</source>
-        <translation>Zoom vídeo</translation>
+        <translation>Ajuste de zoom</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
@@ -5378,7 +5378,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="341"/>
         <source>Change speed</source>
-        <translation>Alterar volume</translation>
+        <translation>Alterar velocidade</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="78"/>
@@ -5568,62 +5568,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Alterar a função da roda do rato</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="505"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Pe&amp;squisar por media</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustar &amp;Zoom do Vídeo</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlar &amp;Volume</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Alterar a Velocidade</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funções da roda do rato</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="333"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marque para activar a pesquisa como uma função.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marque para activar alteração de volume como uma função.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marque para activar ajuste de zoom como uma função.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marque para activar alteração de velocidade como uma função.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="483"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funções da r&amp;oda do rato</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="495"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccione as acções que podem ser executadas ao utilizar a opção &quot;Mudar função da roda do rato&quot;.</translation>
     </message>
 </context>
 <context>
@@ -6154,7 +6154,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="263"/>
         <source>Fast audio track switching</source>
-        <translation>Mudança rápida da faixa de áudio</translation>
+        <translation>Mudança rápida da faixa áudio</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="273"/>
@@ -6209,7 +6209,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="319"/>
         <source>&amp;Fast audio track switching</source>
-        <translation>Mudança r&amp;ápida da faixa de áudio</translation>
+        <translation>Mudança r&amp;ápida da faixa áudio</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="347"/>
@@ -6234,7 +6234,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="270"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Valores possíveis: &lt;br&gt; &lt;b&gt; Sim &lt;/b&gt;: ele tentará o método mais rápido para alternar a faixa de áudio (pode não funcionar com alguns formatos). &lt;br&gt; &lt;b&gt; Não &lt;/b&gt;: o processo MPlayer será reiniciado sempre que você altera a faixa de áudio. &lt;br&gt; &lt;b&gt; Automatica &lt;/b&gt;: SMPlayer decidirá o que fazer, de acordo com para a versão MPlayer.</translation>
+        <translation>Valores possíveis: &lt;br&gt; &lt;b&gt; Sim &lt;/b&gt;: ele tentará o método mais rápido para alternar a faixa áudio (pode não funcionar com alguns formatos). &lt;br&gt; &lt;b&gt; Não &lt;/b&gt;: o processo MPlayer será reiniciado sempre que você alterar a faixa áudio. &lt;br&gt; &lt;b&gt; Automática &lt;/b&gt;: SMPlayer decidirá o que fazer, de acordo com para a versão MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="280"/>
@@ -6249,7 +6249,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="284"/>
         <source>Cache for streams</source>
-        <translation>Cache para streams</translation>
+        <translation>Cache para transmissões</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
@@ -6284,7 +6284,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="463"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Cache para &amp;streams:</translation>
+        <translation>Cache para tran&amp;smissões:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="64"/>
@@ -6560,12 +6560,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="68"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation>Carregar au&amp;tomaticamente ficheiros de legendas(*.srt, *.sub...):</translation>
+        <translation>Carregar au&amp;tomaticamente ficheiros de legendas (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="81"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation>S&amp;eleccione a primeira legenda disponível</translation>
+        <translation>S&amp;eleccionar a primeira legenda disponível</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="149"/>
@@ -6650,7 +6650,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="420"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>Se houver um ou mais faixas do subtítulo disponíveis, uma delas será automaticamente seleccionada, geralmente a primeiro mas, se uma delas corresponder ao idioma preferencial do utilizador esta será a utilizada.</translation>
+        <translation>Se houver um ou mais faixas do legendas disponíveis, uma delas será automaticamente seleccionada, geralmente a primeira, mas se uma delas corresponder ao idioma preferencial do utilizador esta será a utilizada.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
@@ -7209,7 +7209,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="178"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation>media é qualquer tipo de ficheiro que o SMPlayer consiga abrir. Pode ser um ficheiro local, um DVD (e.g. dvd://1), um stream Internet (e.g. mms://....) ou uma lista de reprodução local no formato m3u ou pls. Se a opção -lista de reprodução for usada, isto significa que o SMPlayer passará estas opções para o MPlayer, de modo a que este faça a getão da mesma, ao invés do SMPlayer.</translation>
+        <translation>media é qualquer tipo de ficheiro que o SMPlayer consiga abrir. Pode ser um ficheiro local, um DVD (e.g. dvd://1), uma transmissão na Internet (e.g. mms://....) ou uma lista de reprodução local no formato m3u ou pls. Se a opção -lista de reprodução for usada, isto significa que o SMPlayer transmitirá estas opções para o MPlayer, de modo a que este faça a sua gestão.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="106"/>
@@ -7298,22 +7298,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>largura</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>altura</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="158"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>especifica as coordenadas de apresentação da janela principal.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="161"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>especifica o tamanho da janela principal.</translation>
     </message>
 </context>
 <context>
