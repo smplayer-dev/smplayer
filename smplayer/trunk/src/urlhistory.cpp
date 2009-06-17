@@ -21,6 +21,7 @@
 
 URLHistory::URLHistory() : Recents() 
 {
+	setMaxItems(50);
 }
 
 URLHistory::~URLHistory() {
