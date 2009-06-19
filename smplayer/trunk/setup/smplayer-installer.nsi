@@ -13,7 +13,7 @@
   !addplugindir plugins
 
 ;--------------------------------
-;Defines & includes
+;Misc Defines
 
   !define PRODUCT_NAME "SMPlayer"
 !ifdef VER_REVISION
@@ -23,8 +23,6 @@
 !endif
   !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
   !define PRODUCT_STARTMENU_GROUP "SMPlayer"
-  !define MEMENTO_REGISTRY_ROOT HKLM
-  !define MEMENTO_REGISTRY_KEY Software\SMPlayer
 
   ; Fallback versions
   !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
@@ -32,15 +30,18 @@
   !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
 !endif
 
+;--------------------------------
+;Include Modern UI and functions
+
   !include MUI2.nsh
   !include Sections.nsh
   !include Memento.nsh
   !include WinVer.nsh
 
 ;--------------------------------
-;Configuration
+;General
 
-  ;General
+  ;Name and file
   Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
   BrandingText "SMPlayer for Windows v${PRODUCT_VERSION}"
 !ifdef WITH_MPLAYER
@@ -66,13 +67,13 @@
   VIAddVersionKey "FileVersion" "${PRODUCT_VERSION}"
   VIAddVersionKey "LegalCopyright" ""
 
-  /* Sets default install dir to $PROGRAMFILES\SMPlayer.
-  If InstallDirRegKey exists (from a previous installation),
-  it will default to that directory instead. */
+  ;Default installation folder
   InstallDir "$PROGRAMFILES\SMPlayer"
+
+  ;Get installation folder from registry if available
   InstallDirRegKey HKLM "Software\SMPlayer" "Path"
 
-  ;Put on a show
+  ;Show details
   ShowInstDetails show
   ShowUnInstDetails show
 
@@ -80,7 +81,7 @@
   RequestExecutionLevel admin
 
 ;--------------------------------
-;Installer Variables
+;Variables
 
   Var CODEC_VERSION
   Var IS_ADMIN
@@ -104,20 +105,23 @@
   !define MUI_FINISHPAGE_SHOWREADME_TEXT "View Release Notes"
   !define MUI_WELCOMEFINISHPAGE_BITMAP "${NSISDIR}\Contrib\Graphics\Wizard\orange.bmp"
 
-  # Installer/Uninstaller icons
+  ;Installer/Uninstaller icons
   !define MUI_ICON "${NSISDIR}\Contrib\Graphics\Icons\orange-install.ico"
   !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\orange-uninstall.ico"
 
-  # Language Selection Dialog Settings
+  ;Language Selection Dialog Settings
   !define MUI_LANGDLL_REGISTRY_ROOT HKLM
   !define MUI_LANGDLL_REGISTRY_KEY "${PRODUCT_UNINST_KEY}"
   !define MUI_LANGDLL_REGISTRY_VALUENAME "NSIS:Language"
 
+  ;Memento Settings
+  !define MEMENTO_REGISTRY_ROOT HKLM
+  !define MEMENTO_REGISTRY_KEY Software\SMPlayer
+
 ;--------------------------------
 ;Pages
-;MUI_PAGE_WELCOME should always be first and MUI_PAGE_FINISH should be last
 
-  # Install Pages
+  ;Install pages
   !insertmacro MUI_PAGE_WELCOME
   !insertmacro MUI_PAGE_LICENSE "smplayer-build\Copying.txt"
   !insertmacro MUI_PAGE_COMPONENTS
@@ -125,7 +129,7 @@
   !insertmacro MUI_PAGE_INSTFILES
   !insertmacro MUI_PAGE_FINISH
 
-  # UnInstall Pages
+  ;Uninstall pages
   !insertmacro MUI_UNPAGE_CONFIRM
   !insertmacro MUI_UNPAGE_INSTFILES
 
@@ -193,7 +197,6 @@
 
 ;--------------------------------
 ;Installer Types
-;First in list is #1, second in list in #2, etc
 
   InstType "Recommended"
   InstType "Minimum"
@@ -213,15 +216,15 @@ Section SMPlayer SMPlayer
   File /r "smplayer-build\imageformats"
   File /r "smplayer-build\shortcuts"
 
-  # UnInstall file
+  ;Uninstall file
   WriteUninstaller "$INSTDIR\uninst.exe"
 
-  # Store installed path
+  ;Store installed path
   WriteRegStr HKLM "Software\SMPlayer" "Path" "$INSTDIR"
 
   # Windows Vista+ Default Programs registration
   ${If} ${AtLeastWinVista}
-  # HKEY_CLASSES_ROOT ProgId registration
+    ;HKEY_CLASSES_ROOT ProgId registration
     WriteRegStr HKCR "MPlayerFileVideo\DefaultIcon" "" '"$INSTDIR\smplayer.exe",1'
     WriteRegStr HKCR "MPlayerFileVideo\shell\enqueue" "" "Enqueue in SMPlayer"
     WriteRegStr HKCR "MPlayerFileVideo\shell\enqueue\command" "" '"$INSTDIR\smplayer.exe" -add-to-playlist "%1"'
@@ -269,7 +272,7 @@ Section SMPlayer SMPlayer
     WriteRegStr HKLM "Software\RegisteredApplications" "SMPlayer" "Software\Clients\Media\SMPlayer\Capabilities"
   ${EndIf}
 
-  # Registry Uninstall information
+  ;Registry Uninstall information
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
@@ -281,7 +284,7 @@ Section SMPlayer SMPlayer
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoRepair" "1"
 
-  # Initialize to 0 if don't exist (based on error flag)
+  ;Initialize to 0 if don't exist (based on error flag)
   ClearErrors
   ReadRegDWORD $R0 HKLM Software\SMPlayer Installed_MPlayer
   ${If} ${Errors}
@@ -293,7 +296,6 @@ Section SMPlayer SMPlayer
     WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
   ${EndIf}
 
-  # Copy 7zip to installer's temp directory
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
 
@@ -375,19 +377,18 @@ SectionGroup /e "MPlayer Components"
       inetc::get /timeout 30000 /resume "" /caption $(MPLAYER_IS_DOWNLOADING) /banner "Downloading $MPLAYER_VERSION.7z" \
       "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
       "$PLUGINSDIR\$MPLAYER_VERSION.7z"
-      # Result of download; for inetc should equal "OK" if successful
       Pop $R0
       StrCmp $R0 OK 0 check_mplayer
 
-      # Extract
+      ;Extract
       nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -y -o"$PLUGINSDIR"'
 
-      # Copy
+      ;Copy
       CreateDirectory "$INSTDIR\mplayer"
       CopyFiles /SILENT "$PLUGINSDIR\$MPLAYER_VERSION\*" "$INSTDIR\mplayer"
 
     check_mplayer:
-      # This label does not necessarily mean there was a download error, so check first
+      ;This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
         DetailPrint "$(MPLAYER_DL_FAILED) $R0."
       ${EndIf}
@@ -426,12 +427,12 @@ SectionGroup /e "MPlayer Components"
 
           IfErrors 0 done_ver_info
             DetailPrint $(VERINFO_IS_MISSING)
-            # Default Value if version-info exists but version string is missing from version-info
+            ;Default Value if version-info exists but version string is missing from version-info
             StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
             Goto done_ver_info
 
         noVerInfo:
-          # Default Value if version-info doesn't exist
+          ;Default Value if version-info doesn't exist
           StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
 
     done_ver_info:
@@ -440,19 +441,18 @@ SectionGroup /e "MPlayer Components"
       inetc::get /timeout 30000 /resume "" /caption $(CODECS_IS_DOWNLOADING) /banner "Downloading $CODEC_VERSION.zip" \
       "http://www.mplayerhq.hu/MPlayer/releases/codecs/$CODEC_VERSION.zip" \
       "$PLUGINSDIR\$CODEC_VERSION.zip"
-      # Result of download; for inetc should equal "OK" if successful
       Pop $R0
       StrCmp $R0 OK 0 check_codecs
 
-      # Extract
+      ;Extract
       nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -y -o"$PLUGINSDIR"'
 
-      # Copy
+      ;Copy
       CreateDirectory "$INSTDIR\mplayer\codecs"
       CopyFiles /SILENT "$PLUGINSDIR\$CODEC_VERSION\*" "$INSTDIR\mplayer\codecs"
 
     check_codecs:
-      # This label does not necessarily mean there was a download error, so check first
+      ;This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
         DetailPrint "$(CODECS_DL_FAILED) $R0."
       ${EndIf}
@@ -464,7 +464,6 @@ SectionGroup /e "MPlayer Components"
         codecsInstFailed:
           DetailPrint $(CODECS_INST_FAILED)
           WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
-          # Pause for 5 seconds to see the error message
           Sleep 5000
 
     done:
