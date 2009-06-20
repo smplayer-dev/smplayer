@@ -3064,7 +3064,7 @@ void Core::changeVideo(int ID, bool allow_restart) {
 		bool need_restart = false;
 		if (allow_restart) {
 			// afaik lavf doesn't require to restart, any other?
-			need_restart = (mdat.demuxer != "lavf");
+			need_restart = ((mdat.demuxer != "lavf") && (mdat.demuxer != "mpegts"));
 		}
 
 		if (need_restart) {
