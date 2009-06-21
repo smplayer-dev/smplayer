@@ -64,6 +64,9 @@ public:
 
 	void list();
 
+#if PROGRAM_SWITCH
+	Tracks programs;
+#endif
 	Tracks videos;
 	Tracks audios;
 	TitleTracks titles; // for DVDs

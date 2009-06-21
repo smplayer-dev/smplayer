@@ -1635,6 +1635,18 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-forcedsubsonly");
 	}
 
+#if PROGRAM_SWITCH
+	if ( (mset.current_program_id != MediaSettings::NoneSelected) /*&& 
+         (mset.current_video_id == MediaSettings::NoneSelected) && 
+         (mset.current_audio_id == MediaSettings::NoneSelected)*/ )
+	{
+		proc->addArgument("-tsprog");
+		proc->addArgument( QString::number( mset.current_program_id ) );
+	}
+	// Don't set video and audio track if using -tsprog
+	else {
+#endif
+
 	if (mset.current_video_id != MediaSettings::NoneSelected) {
 		proc->addArgument("-vid");
 		proc->addArgument( QString::number( mset.current_video_id ) );
@@ -1647,6 +1659,10 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addArgument( QString::number( mset.current_audio_id ) );
 		}
 	}
+
+#if PROGRAM_SWITCH
+	}
+#endif
 
 	if (!initial_subtitle.isEmpty()) {
 		mset.external_subtitles = initial_subtitle;
@@ -3096,6 +3112,32 @@ void Core::nextVideo() {
 	}
 }
 
+#if PROGRAM_SWITCH
+void Core::changeProgram(int ID) {
+	qDebug("Core::changeProgram: %d", ID);
+
+	if (ID != mset.current_program_id) {
+		mset.current_program_id = ID;
+		tellmp("set_property switch_program " + QString::number(ID) );
+
+		tellmp("get_property switch_audio");
+		tellmp("get_property switch_video");
+
+		/*
+		mset.current_video_id = MediaSettings::NoneSelected;
+		mset.current_audio_id = MediaSettings::NoneSelected;
+
+		updateWidgets();
+		*/
+	}
+}
+
+void Core::nextProgram() {
+	qDebug("Core::nextProgram");
+	// Not implemented yet
+}
+
+#endif
 
 void Core::changeTitle(int ID) {
 	if (mdat.type == TYPE_VCD) {

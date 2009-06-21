@@ -1,5 +1,11 @@
 [b]Version 0.6.8[/b]:
 
+(2009-06-21)
+ * Added the new menu Program under the Browse menu. It allows to change
+   the program track for ts files. Known issue: when a program changes, the 
+   video and audio track will probably change too but the video and audio menus
+   doesn't show that change.
+
 (2009-06-12)
  * Applied (with a few changes) the patch wheelfunctionpatch4.txt by
    Stivo (helifan at users.sourceforge.net).

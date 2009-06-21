@@ -930,6 +930,13 @@ void BaseGui::createActions() {
              core, SLOT(changeAdapter(int)) );
 #endif
 
+#if PROGRAM_SWITCH
+	// Program track
+	programTrackGroup = new MyActionGroup(this);
+	connect( programTrackGroup, SIGNAL(activated(int)), 
+	         core, SLOT(changeProgram(int)) );
+#endif
+
 	// Video track
 	videoTrackGroup = new MyActionGroup(this);
 	connect( videoTrackGroup, SIGNAL(activated(int)), 
@@ -1552,6 +1559,12 @@ void BaseGui::retranslateStrings() {
 	angles_menu->menuAction()->setText( tr("&Angle") );
 	angles_menu->menuAction()->setIcon( Images::icon("angle") );
 
+#if PROGRAM_SWITCH
+	programtrack_menu->menuAction()->setText( tr("P&rogram", "program") );
+	programtrack_menu->menuAction()->setIcon( Images::icon("program_track") );
+#endif
+
+
 #if DVDNAV_SUPPORT
 	dvdnavUpAct->change(Images::icon("dvdnav_up"), tr("DVD menu, move up"));
 	dvdnavDownAct->change(Images::icon("dvdnav_down"), tr("DVD menu, move down"));
@@ -2114,6 +2127,15 @@ void BaseGui::createMenus() {
 	browseMenu->addAction(dvdnavPrevAct);
 #endif
 
+#if PROGRAM_SWITCH
+	programtrack_menu = new QMenu(this);
+	programtrack_menu->menuAction()->setObjectName("programtrack_menu");
+
+	browseMenu->addSeparator();
+	browseMenu->addMenu(programtrack_menu);
+#endif
+
+
 	// OPTIONS MENU
 	optionsMenu->addAction(showPropertiesAct);
 	optionsMenu->addAction(showPlaylistAct);
@@ -2611,6 +2633,23 @@ void BaseGui::initializeMenus() {
 	}
 	audiotrack_menu->addActions( audioTrackGroup->actions() );
 
+#if PROGRAM_SWITCH
+	// Program
+	programTrackGroup->clear(true);
+	if (core->mdat.programs.numItems()==0) {
+		QAction * a = programTrackGroup->addAction( tr("<empty>") );
+		a->setEnabled(false);
+	} else {
+		for (n=0; n < core->mdat.programs.numItems(); n++) {
+			QAction *a = new QAction(programTrackGroup);
+			a->setCheckable(true);
+			a->setText(core->mdat.programs.itemAt(n).displayName());
+			a->setData(core->mdat.programs.itemAt(n).ID());
+		}
+	}
+	programtrack_menu->addActions( programTrackGroup->actions() );
+#endif
+
 	// Video
 	videoTrackGroup->clear(true);
 	if (core->mdat.videos.numItems()==0) {
@@ -2760,6 +2799,11 @@ void BaseGui::updateWidgets() {
 	stereoGroup->setChecked( core->mset.stereo_mode );
 	// Disable the unload audio file action if there's no external audio file
 	unloadAudioAct->setEnabled( !core->mset.external_audio.isEmpty() );
+
+#if PROGRAM_SWITCH
+	// Program menu
+	programTrackGroup->setChecked( core->mset.current_program_id );
+#endif
 
 	// Video menu
 	videoTrackGroup->setChecked( core->mset.current_video_id );

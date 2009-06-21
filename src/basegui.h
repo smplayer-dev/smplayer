@@ -541,6 +541,9 @@ protected:
 	MyAction * rightChannelAct;
 
 	// Other groups
+#if PROGRAM_SWITCH
+	MyActionGroup * programTrackGroup;
+#endif
 	MyActionGroup * videoTrackGroup;
 	MyActionGroup * audioTrackGroup;
 	MyActionGroup * subtitleTrackGroup;
@@ -570,6 +573,9 @@ protected:
 	QMenu *helpMenu;
 
 	QMenu * subtitlestrack_menu;
+#if PROGRAM_SWITCH
+	QMenu * programtrack_menu;
+#endif
 	QMenu * videotrack_menu;
 	QMenu * audiotrack_menu;
 	QMenu * titles_menu;
