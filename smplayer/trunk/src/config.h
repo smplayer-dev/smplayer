@@ -108,6 +108,12 @@
 #define DVDNAV_SUPPORT 1
 
 
+// PROGRAM_SWITCH
+// support for program switch in ts files
+
+#define PROGRAM_SWITCH 1
+
+
 // Adds or not the "Repaint the background of the video window" option.
 //#ifndef Q_OS_WIN
 #define REPAINT_BACKGROUND_OPTION 1

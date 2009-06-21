@@ -138,6 +138,10 @@ static QRegExp rx_audio("^ID_AUDIO_ID=(\\d+)");
 static QRegExp rx_audio_info("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
 #endif
 
+#if PROGRAM_SWITCH
+static QRegExp rx_program("^PROGRAM_ID=(\\d+)");
+#endif
+
 //Clip info
 static QRegExp rx_clip_name("^ (name|title): (.*)", Qt::CaseInsensitive);
 static QRegExp rx_clip_artist("^ artist: (.*)", Qt::CaseInsensitive);
@@ -443,6 +447,16 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.audios.addName(ID, lang);
 			else
 				md.audios.addLang(ID, lang);
+		}
+		else
+#endif
+
+#if PROGRAM_SWITCH
+		// Program
+		if (rx_program.indexIn(line) > -1) {
+			int ID = rx_program.cap(1).toInt();
+			qDebug("MplayerProcess::parseLine: Program: ID: %d", ID);
+			md.programs.addID( ID );
 		}
 		else
 #endif

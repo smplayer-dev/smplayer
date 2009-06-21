@@ -34,6 +34,9 @@ void MediaSettings::reset() {
 	current_sec = 0;
 	//current_sub_id = SubNone; 
 	current_sub_id = NoneSelected;
+#if PROGRAM_SWITCH
+	current_program_id = NoneSelected;
+#endif
 	current_video_id = NoneSelected;
 	current_audio_id = NoneSelected;
 	current_title_id = NoneSelected;
@@ -161,6 +164,9 @@ void MediaSettings::list() {
 
 	qDebug("  current_sec: %f", current_sec);
 	qDebug("  current_sub_id: %d", current_sub_id);
+#if PROGRAM_SWITCH
+	qDebug("  current_program_id: %d", current_program_id);
+#endif
 	qDebug("  current_video_id: %d", current_video_id);
 	qDebug("  current_audio_id: %d", current_audio_id);
 	qDebug("  current_title_id: %d", current_title_id);
@@ -242,6 +248,9 @@ void MediaSettings::save(QSettings * set) {
 
 	set->setValue( "current_sec", current_sec );
 	set->setValue( "current_sub_id", current_sub_id );
+#if PROGRAM_SWITCH
+	set->setValue( "current_program_id", current_program_id );
+#endif
 	set->setValue( "current_video_id", current_video_id );
 	set->setValue( "current_audio_id", current_audio_id );
 	set->setValue( "current_title_id", current_title_id );
@@ -326,6 +335,9 @@ void MediaSettings::load(QSettings * set) {
 
 	current_sec = set->value( "current_sec", current_sec).toDouble();
 	current_sub_id = set->value( "current_sub_id", current_sub_id ).toInt();
+#if PROGRAM_SWITCH
+	current_program_id = set->value( "current_program_id", current_program_id ).toInt();
+#endif
 	current_video_id = set->value( "current_video_id", current_video_id ).toInt();
 	current_audio_id = set->value( "current_audio_id", current_audio_id ).toInt();
 	current_title_id = set->value( "current_title_id", current_title_id ).toInt();
