@@ -1031,6 +1031,9 @@ void Core::finishRestart() {
 	// Toggle subtitle visibility
 	changeSubVisibility(pref->sub_visibility);
 
+	// Initialize the OSD level
+	QTimer::singleShot(3000, this, SLOT(initializeOSD()));
+
 	emit mediaLoaded();
 	emit mediaInfoChanged();
 
@@ -1039,6 +1042,9 @@ void Core::finishRestart() {
 	qDebug("Core::finishRestart: --- end ---");
 }
 
+void Core::initializeOSD() {
+	changeOSD(pref->osd);
+}
 
 void Core::stop()
 {
@@ -1828,8 +1834,10 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( seek ) );
 	}
 
+	// Enable the OSD later, to avoid a lot of messages to be
+	// printed on startup
 	proc->addArgument("-osdlevel");
-	proc->addArgument( QString::number( pref->osd ) );
+	proc->addArgument( 0 );
 
 	if (pref->use_idx) {
 		proc->addArgument("-idx");
