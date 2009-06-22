@@ -356,6 +356,8 @@ protected slots:
 	void dvdTitleIsMovie();
 #endif
 
+	void initializeOSD();
+
 protected:
 	void playNewFile(QString file, int seek=-1);
 	void restartPlay();

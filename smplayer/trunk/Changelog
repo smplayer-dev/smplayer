@@ -5,6 +5,8 @@
    the program track for ts files. Known issue: when a program changes, the 
    video and audio track will probably change too but the video and audio menus
    doesn't show that change.
+ * The OSD is not shown until 3 seconds after the video started to play. This
+   avoid a lot of messages being printed on the OSD at startup.
 
 (2009-06-12)
  * Applied (with a few changes) the patch wheelfunctionpatch4.txt by
