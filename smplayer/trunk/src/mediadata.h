@@ -38,6 +38,7 @@
 #define TYPE_STREAM 2
 #define TYPE_VCD 3
 #define TYPE_AUDIO_CD 4
+#define TYPE_TV 5
 
 class MediaData {
 

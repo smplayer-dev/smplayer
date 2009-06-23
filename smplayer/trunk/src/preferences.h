@@ -163,6 +163,7 @@ public:
 	int cache_for_dvds;
 	int cache_for_vcds;
 	int cache_for_audiocds;
+	int cache_for_tv;
 
 
 	/* *********

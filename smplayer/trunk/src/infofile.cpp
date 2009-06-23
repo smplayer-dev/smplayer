@@ -47,6 +47,7 @@ QString InfoFile::getInfo(MediaData md) {
 		case TYPE_DVD	: 	icon = "type_dvd.png"; break;
 		case TYPE_VCD	: 	icon = "type_vcd.png"; break;
 		case TYPE_AUDIO_CD	: 	icon = "type_vcd.png"; break;
+		case TYPE_TV	: 	icon = "type_tv.png"; break;
 		case TYPE_STREAM : 	icon = "type_url.png"; break;
 		default 		: 	icon = "type_unknown.png";
 	}

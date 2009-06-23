@@ -60,6 +60,9 @@ protected:
 	void setCacheForVCDs(int n);
 	int cacheForVCDs();
 
+	void setCacheForTV(int n);
+	int cacheForTV();
+
 	void setPriority(int n);
 	int priority();
 
