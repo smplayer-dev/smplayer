@@ -1585,13 +1585,13 @@ A janela de configuração irá ser mostrada agora para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1413"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Próxima função da roda do rato</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;rograma</translation>
     </message>
 </context>
 <context>
