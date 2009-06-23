@@ -169,6 +169,7 @@ void Preferences::reset() {
 	cache_for_dvds = 0; // not recommended to use cache for dvds
 	cache_for_vcds = 1000;
 	cache_for_audiocds = 1000;
+	cache_for_tv = 3000;
 
 
     /* *********
@@ -552,6 +553,7 @@ void Preferences::save() {
 	set->setValue("cache_for_dvds", cache_for_dvds);
 	set->setValue("cache_for_vcds", cache_for_vcds);
 	set->setValue("cache_for_audiocds", cache_for_audiocds);
+	set->setValue("cache_for_tv", cache_for_tv);
 
 	set->endGroup(); // performance
 
@@ -943,6 +945,7 @@ void Preferences::load() {
 	cache_for_dvds = set->value("cache_for_dvds", cache_for_dvds).toInt();
 	cache_for_vcds = set->value("cache_for_vcds", cache_for_vcds).toInt();
 	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
+	cache_for_tv = set->value("cache_for_tv", cache_for_tv).toInt();
 
 	set->endGroup(); // performance
 

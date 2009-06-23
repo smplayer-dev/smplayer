@@ -1,5 +1,13 @@
 [b]Version 0.6.8[/b]:
 
+(2009-06-23)
+ * Initial support for TV (dvb:// and tv://):
+    - You can open dvb channels through commandline (smplayer 
+      dvb://CHANNEL_NAME). It may also work with tv:// but it's untested.
+    - There's an option under Preferences->Performance to set the cache for TV.
+    - The view info and properties dialog recognizes dvb:// and tv:// and
+      display a TV icon for them. 
+
 (2009-06-21)
  * Added the new menu Program under the Browse menu. It allows to change
    the program track for ts files. Known issue: when a program changes, the 

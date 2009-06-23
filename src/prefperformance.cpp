@@ -77,6 +77,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setCacheForDVDs( pref->cache_for_dvds );
 	setCacheForAudioCDs( pref->cache_for_audiocds );
 	setCacheForVCDs( pref->cache_for_vcds );
+	setCacheForTV( pref->cache_for_tv );
 
 	setPriority( pref->priority );
 	setFrameDrop( pref->frame_drop );
@@ -98,6 +99,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->cache_for_dvds, cacheForDVDs());
 	TEST_AND_SET(pref->cache_for_audiocds, cacheForAudioCDs());
 	TEST_AND_SET(pref->cache_for_vcds, cacheForVCDs());
+	TEST_AND_SET(pref->cache_for_tv, cacheForTV());
 
 	TEST_AND_SET(pref->priority, priority());
 	TEST_AND_SET(pref->frame_drop, frameDrop());
@@ -149,6 +151,14 @@ void PrefPerformance::setCacheForVCDs(int n) {
 
 int PrefPerformance::cacheForVCDs() {
 	return cache_vcds_spin->value();
+}
+
+void PrefPerformance::setCacheForTV(int n) {
+	cache_tv_spin->setValue(n);
+}
+
+int PrefPerformance::cacheForTV() {
+	return cache_tv_spin->value();
 }
 
 void PrefPerformance::setPriority(int n) {

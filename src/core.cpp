@@ -477,6 +477,11 @@ void Core::open(QString file, int seek) {
 			openAudioCD();
 		}
 	}
+	else
+	if ((file.toLower().startsWith("dvb:")) || (file.toLower().startsWith("tv:"))) {
+		qDebug("Core::open: * identified as TV");
+		openTV(file);
+	}
 	else {
 		qDebug("Core::open: * not identified, playing as stream");
 		openStream(file);
@@ -706,6 +711,30 @@ void Core::openDVD(QString dvd_url) {
 	mset.current_chapter_id = dvdFirstChapter();
 #endif
 	mset.current_angle_id = 1;
+
+	/* initializeMenus(); */
+
+	initPlaying();
+}
+
+void Core::openTV(QString channel_id) {
+	qDebug("Core::openTV: '%s'", channel_id.toUtf8().constData());
+
+	if (proc->isRunning()) {
+		stopMplayer();
+		we_are_restarting = false;
+	}
+
+	// Save data of previous file:
+#ifndef NO_USE_INI_FILES
+	saveMediaInfo();
+#endif
+
+	mdat.reset();
+	mdat.filename = channel_id;
+	mdat.type = TYPE_TV;
+
+	mset.reset();
 
 	/* initializeMenus(); */
 
@@ -1813,6 +1842,7 @@ void Core::startMplayer( QString file, double seek ) {
 		case TYPE_STREAM 	: cache = pref->cache_for_streams; break;
 		case TYPE_VCD 		: cache = pref->cache_for_vcds; break;
 		case TYPE_AUDIO_CD	: cache = pref->cache_for_audiocds; break;
+		case TYPE_TV		: cache = pref->cache_for_tv; break;
 		default: cache = 0;
 	}
 
@@ -1828,10 +1858,12 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( mset.speed ) );
 	}
 
-	// If seek < 5 it's better to allow the video to start from the beginning
-	if ((seek >= 5) && (!pref->loop)) {
-		proc->addArgument("-ss");
-		proc->addArgument( QString::number( seek ) );
+	if (mdat.type != TYPE_TV) {
+		// If seek < 5 it's better to allow the video to start from the beginning
+		if ((seek >= 5) && (!pref->loop)) {
+			proc->addArgument("-ss");
+			proc->addArgument( QString::number( seek ) );
+		}
 	}
 
 	// Enable the OSD later, to avoid a lot of messages to be
