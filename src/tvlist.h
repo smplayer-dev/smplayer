@@ -26,12 +26,17 @@ class TVList : public Favorites
 	Q_OBJECT
 
 public:
-	TVList(QString filename, QObject * parent = 0);
+	enum Service { TV = 1, Radio = 2, Data = 4 };
+	Q_DECLARE_FLAGS(Services, Service);
+
+	TVList(Services services, QString filename, QObject * parent = 0);
 	~TVList();
 
 protected:
-	void parse_channels_conf();
+	void parse_channels_conf(Services services);
 };
+
+Q_DECLARE_OPERATORS_FOR_FLAGS(TVList::Services)
 
 #endif
 

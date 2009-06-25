@@ -21,15 +21,16 @@
 #include <QDir>
 #include <QTextStream>
 
-TVList::TVList(QString filename, QObject * parent) : Favorites(filename,parent)
+TVList::TVList(Services services, QString filename, QObject * parent) 
+	: Favorites(filename,parent)
 {
-	parse_channels_conf();
+	parse_channels_conf(services);
 }
 
 TVList::~TVList() {
 }
 
-void TVList::parse_channels_conf() {
+void TVList::parse_channels_conf(Services services) {
 	qDebug("TVList::parse_channels_conf");
 
 	QString file = QDir::homePath() + "/.mplayer/channels.conf";
@@ -44,11 +45,21 @@ void TVList::parse_channels_conf() {
 		QString line = in.readLine();
 		qDebug("TVList::parse_channels_conf: '%s'", line.toUtf8().constData());
 		QString channel = line.section(':', 0, 0);
+		QString video_pid = line.section(':', 10, 10);
+		QString audio_pid = line.section(':', 11, 11);
+		bool is_radio = (video_pid == "0" && audio_pid != "0");
+		bool is_data = (video_pid == "0" && audio_pid == "0");
+		bool is_tv = (!is_radio && !is_data);
 		if (!channel.isEmpty()) {
-			qDebug("TVList::parse_channels_conf: channel: '%s'", channel.toUtf8().constData());
+			qDebug("TVList::parse_channels_conf: channel: '%s' video_pid: %s audio_pid: %s", channel.toUtf8().constData(),video_pid.toUtf8().constData(),audio_pid.toUtf8().constData());
 			QString channel_id = "dvb://"+channel;
 			if (findFile(channel_id) == -1) {
-				f_list.append( Favorite(channel, channel_id) );
+				if ( (services.testFlag(TVList::TV) && is_tv) || 
+                     (services.testFlag(TVList::Radio) && is_radio) || 
+                     (services.testFlag(TVList::Data) && is_data) )
+				{
+					f_list.append( Favorite(channel, channel_id) );
+				}
 			}
 		}
 	}
