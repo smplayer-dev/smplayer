@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="uk">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1585,13 +1586,13 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1413"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступна функція колеса</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;рограма</translation>
     </message>
 </context>
 <context>
