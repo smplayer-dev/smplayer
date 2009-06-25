@@ -3425,7 +3425,7 @@ void Core::changeOSD(int v) {
 	qDebug("Core::changeOSD: %d", v);
 
 	pref->osd = v;
-	tellmp("osd " + QString::number( pref->osd ) );
+	tellmp( pausing_prefix() + " osd " + QString::number( pref->osd ) );
 	updateWidgets();
 }
 
