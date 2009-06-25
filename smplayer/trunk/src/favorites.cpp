@@ -51,10 +51,25 @@ void Favorites::createMenu() {
 	_menu->addAction(editAct);
 	_menu->addSeparator();
 
+	populateMenu();
+}
+
+void Favorites::populateMenu() {
 	for (int n = 0; n < f_list.count(); n++) {
 		QAction * a = _menu->addAction( f_list[n].name() );
 		a->setData( f_list[n].file() );
 	}
+}
+
+void Favorites::updateMenu() {
+	// Remove all except the first 2 items
+	while (_menu->actions().count() > 2) {
+		QAction * a = _menu->actions()[2];
+		_menu->removeAction( a );
+		a->deleteLater();
+	}
+
+	populateMenu();
 }
 
 void Favorites::triggered_slot(QAction * action) {
@@ -113,7 +128,7 @@ void Favorites::edit() {
 
 	if (e.exec() == QDialog::Accepted) {
 		f_list = e.data();
-
+		updateMenu();
 		/*
 		for (int n = 0; n < f_list.count(); n++) {
 			qDebug("item %d: name: '%s' file: '%s'", n, f_list[n].name().toUtf8().constData(), f_list[n].file().toUtf8().constData());
