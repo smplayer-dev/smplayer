@@ -100,6 +100,7 @@ HEADERS += guiconfig.h \
 	videopreview/videopreviewconfigdialog.h \
 	favorites.h \
 	tvlist.h \
+	favoriteeditor.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -194,6 +195,7 @@ SOURCES	+= version.cpp \
 	videopreview/videopreviewconfigdialog.cpp \
 	favorites.cpp \
 	tvlist.cpp \
+	favoriteeditor.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
@@ -217,7 +219,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
-        prefplaylist.ui \
+        prefplaylist.ui favoriteeditor.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         playlistpreferences.ui filechooser.ui \
         findsubtitles/findsubtitleswindow.ui findsubtitles/findsubtitlesconfigdialog.ui \

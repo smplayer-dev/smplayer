@@ -17,6 +17,7 @@
 */
 
 #include "favorites.h"
+#include "favoriteeditor.h"
 #include <QMenu>
 #include <QAction>
 #include <QSettings>
@@ -102,7 +103,23 @@ void Favorites::load() {
 }
 
 void Favorites::edit() {
-	qDebug("Favorites::edit: not implemented yet");
+	qDebug("Favorites::edit");
+
+	FavoriteEditor e;
+	e.setWindowTitle(tr("Favorite editor"));
+	e.setCaption("<b>" + tr("Favorite list") + "</b>");
+
+	e.setData(f_list);
+
+	if (e.exec() == QDialog::Accepted) {
+		f_list = e.data();
+
+		/*
+		for (int n = 0; n < f_list.count(); n++) {
+			qDebug("item %d: name: '%s' file: '%s'", n, f_list[n].name().toUtf8().constData(), f_list[n].file().toUtf8().constData());
+		}
+		*/
+	}
 }
 
 #include "moc_favorites.cpp"
