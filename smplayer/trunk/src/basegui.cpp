@@ -155,8 +155,11 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
     mplayer_log_window = new LogWindow(0);
 	smplayer_log_window = new LogWindow(0);
 
-	tvlist = new TVList(Paths::configPath() + "/tv.fav", this);
+	tvlist = new TVList(TVList::TV, Paths::configPath() + "/tv.fav", this);
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+
+	radiolist = new TVList(TVList::Radio, Paths::configPath() + "/radio.fav", this);
+	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	createActions();
 	createMenus();
@@ -255,6 +258,7 @@ BaseGui::~BaseGui() {
 	delete smplayer_log_window;
 
 	delete tvlist;
+	delete radiolist;
 
 //#if !DOCK_PLAYLIST
 	if (playlist) {
@@ -1456,6 +1460,9 @@ void BaseGui::retranslateStrings() {
 	tvlist->menu()->menuAction()->setText( tr("&TV") );
 	tvlist->menu()->menuAction()->setIcon( Images::icon("open_tv") );
 
+	radiolist->menu()->menuAction()->setText( tr("Radi&o") );
+	radiolist->menu()->menuAction()->setIcon( Images::icon("open_radio") );
+
 	// Menu Play
 	speed_menu->menuAction()->setText( tr("Sp&eed") );
 	speed_menu->menuAction()->setIcon( Images::icon("speed") );
@@ -1883,6 +1890,7 @@ void BaseGui::createMenus() {
 	openMenu->addAction(openAudioCDAct);
 	openMenu->addAction(openURLAct);
 	openMenu->addMenu(tvlist->menu());
+	openMenu->addMenu(radiolist->menu());
 
 	openMenu->addSeparator();
 	openMenu->addAction(exitAct);

@@ -622,6 +622,7 @@ protected:
 	MyServer * server;
 
 	TVList * tvlist;
+	TVList * radiolist;
 
 	QStringList actions_list;
 
