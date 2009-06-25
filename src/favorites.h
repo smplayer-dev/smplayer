@@ -63,6 +63,8 @@ protected:
 	void save();
 	void load();
 	void createMenu();
+	void updateMenu();
+	void populateMenu();
 
 	int findFile(QString filename);
 
