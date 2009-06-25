@@ -98,6 +98,7 @@ HEADERS += guiconfig.h \
 	findsubtitles/findsubtitleswindow.h \
 	videopreview/videopreview.h \
 	videopreview/videopreviewconfigdialog.h \
+	favorites.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -190,6 +191,7 @@ SOURCES	+= version.cpp \
 	findsubtitles/findsubtitleswindow.cpp \
 	videopreview/videopreview.cpp \
 	videopreview/videopreviewconfigdialog.cpp \
+	favorites.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
