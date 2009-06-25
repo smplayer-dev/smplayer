@@ -62,6 +62,8 @@ protected:
 	void load();
 	void createMenu();
 
+	int findFile(QString filename);
+
 protected slots:
 	void triggered_slot(QAction * action);
 	void edit();

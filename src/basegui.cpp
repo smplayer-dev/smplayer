@@ -75,7 +75,7 @@
 
 #include "myserver.h"
 
-#include "favorites.h"
+#include "tvlist.h"
 
 #include "preferencesdialog.h"
 #ifndef NO_USE_INI_FILES
@@ -154,6 +154,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
     mplayer_log_window = new LogWindow(0);
 	smplayer_log_window = new LogWindow(0);
+
+	tvlist = new TVList(Paths::configPath() + "/tv.fav", this);
+	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	createActions();
 	createMenus();
@@ -250,6 +253,8 @@ BaseGui::~BaseGui() {
 	delete core; // delete before mplayerwindow, otherwise, segfault...
 	delete mplayer_log_window;
 	delete smplayer_log_window;
+
+	delete tvlist;
 
 //#if !DOCK_PLAYLIST
 	if (playlist) {
@@ -1448,6 +1453,9 @@ void BaseGui::retranslateStrings() {
 	recentfiles_menu->menuAction()->setIcon( Images::icon("recents") );
 	clearRecentsAct->change( Images::icon("delete"), tr("&Clear") );
 
+	tvlist->menu()->menuAction()->setText( tr("&TV") );
+	tvlist->menu()->menuAction()->setIcon( Images::icon("open_tv") );
+
 	// Menu Play
 	speed_menu->menuAction()->setText( tr("Sp&eed") );
 	speed_menu->menuAction()->setIcon( Images::icon("speed") );
@@ -1874,6 +1882,7 @@ void BaseGui::createMenus() {
 	openMenu->addAction(openVCDAct);
 	openMenu->addAction(openAudioCDAct);
 	openMenu->addAction(openURLAct);
+	openMenu->addMenu(tvlist->menu());
 
 	openMenu->addSeparator();
 	openMenu->addAction(exitAct);
@@ -2160,12 +2169,11 @@ void BaseGui::createMenus() {
 
 	optionsMenu->addAction(showPreferencesAct);
 
-	if (0) {
-		Favorites * fav = new Favorites(Paths::configPath() + "/test.fav", this);
-		connect(fav, SIGNAL(activated(QString)), this, SLOT(open(QString)));
-		optionsMenu->addMenu( fav->menu() )->setText("Favorites");
-	}
-
+	/*
+	Favorites * fav = new Favorites(Paths::configPath() + "/test.fav", this);
+	connect(fav, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+	optionsMenu->addMenu( fav->menu() )->setText("Favorites");
+	*/
 
 	// HELP MENU
 	helpMenu->addAction(showFAQAct);
