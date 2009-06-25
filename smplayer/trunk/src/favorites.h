@@ -45,6 +45,8 @@ protected:
 	QString _name, _file, _icon;
 };
 
+typedef QList<Favorite> FavoriteList;
+
 class Favorites : public QObject
 {
 	Q_OBJECT
@@ -69,7 +71,7 @@ protected slots:
 	void edit();
 
 protected:
-	QList<Favorite> f_list;
+	FavoriteList f_list;
 	QString _filename;
 	QMenu * _menu;
 	QAction * editAct;
