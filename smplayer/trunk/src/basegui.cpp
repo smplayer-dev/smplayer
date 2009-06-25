@@ -75,6 +75,8 @@
 
 #include "myserver.h"
 
+#include "favorites.h"
+
 #include "preferencesdialog.h"
 #ifndef NO_USE_INI_FILES
 #include "prefgeneral.h"
@@ -2157,6 +2159,12 @@ void BaseGui::createMenus() {
 	optionsMenu->addMenu(logs_menu);
 
 	optionsMenu->addAction(showPreferencesAct);
+
+	if (0) {
+		Favorites * fav = new Favorites(Paths::configPath() + "/test.fav", this);
+		connect(fav, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+		optionsMenu->addMenu( fav->menu() )->setText("Favorites");
+	}
 
 
 	// HELP MENU
