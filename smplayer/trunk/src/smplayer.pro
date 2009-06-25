@@ -99,6 +99,7 @@ HEADERS += guiconfig.h \
 	videopreview/videopreview.h \
 	videopreview/videopreviewconfigdialog.h \
 	favorites.h \
+	tvlist.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -192,6 +193,7 @@ SOURCES	+= version.cpp \
 	videopreview/videopreview.cpp \
 	videopreview/videopreviewconfigdialog.cpp \
 	favorites.cpp \
+	tvlist.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \

@@ -62,6 +62,13 @@ void Favorites::triggered_slot(QAction * action) {
 	}
 }
 
+int Favorites::findFile(QString filename) {
+	for (int n = 0; n < f_list.count(); n++) {
+		if (f_list[n].file() == filename) return n;
+	}
+	return -1;
+}
+
 void Favorites::save() {
 	qDebug("Favorites::save");
 
