@@ -101,7 +101,7 @@ void Favorites::save() {
 		for (int n = 0; n < f_list.count(); n++) {
 			stream << "#EXTINF:0,";
 			stream << f_list[n].name() << ",";
-			stream << f_list[n].iconFile() << "\n";
+			stream << f_list[n].icon() << "\n";
 			stream << f_list[n].file() << "\n";
 		}
         f.close();
@@ -135,7 +135,7 @@ void Favorites::load() {
 			else
 			if (info.indexIn(line) != -1) {
 				fav.setName( info.cap(2) );
-				fav.setIconFile( info.cap(3) );
+				fav.setIcon( info.cap(3) );
 			} 
 			else
 			if (line.startsWith("#")) {

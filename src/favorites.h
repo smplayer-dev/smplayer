@@ -31,16 +31,16 @@ class Favorite
 {
 public:
 	Favorite() {}
-	Favorite(QString name, QString file, QString icon_file = QString::null) { _name = name; _file = file; _icon = icon_file; };
+	Favorite(QString name, QString file, QString icon = QString::null) { _name = name; _file = file; _icon = icon; };
 	virtual ~Favorite() {};
 
 	void setName(QString name) { _name = name; };
 	void setFile(QString file) { _file = file; };
-	void setIconFile(QString file) { _icon = file; };
+	void setIcon(QString file) { _icon = file; };
 
 	QString name() { return _name; };
 	QString file() { return _file; }
-	QString iconFile() { return _icon; };
+	QString icon() { return _icon; };
 
 protected:
 	QString _name, _file, _icon;

@@ -54,7 +54,7 @@ void FavoriteEditor::setData( FavoriteList list ) {
 
 	for (int n = 0; n < list.count(); n++) {
 		QTableWidgetItem * icon_item = new QTableWidgetItem;
-		icon_item->setIcon( QIcon(list[n].iconFile()) );
+		icon_item->setIcon( QIcon(list[n].icon()) );
 
 		QTableWidgetItem * name_item = new QTableWidgetItem;
 		name_item->setText( list[n].name() );
