@@ -155,10 +155,10 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
     mplayer_log_window = new LogWindow(0);
 	smplayer_log_window = new LogWindow(0);
 
-	tvlist = new TVList(TVList::TV, Paths::configPath() + "/tv.fav", this);
+	tvlist = new TVList(TVList::TV, Paths::configPath() + "/tv.m3u8", this);
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
-	radiolist = new TVList(TVList::Radio, Paths::configPath() + "/radio.fav", this);
+	radiolist = new TVList(TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	createActions();

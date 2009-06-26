@@ -21,6 +21,8 @@
 #include <QMenu>
 #include <QAction>
 #include <QSettings>
+#include <QFile>
+#include <QTextStream>
 
 Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 {
@@ -86,36 +88,66 @@ int Favorites::findFile(QString filename) {
 	return -1;
 }
 
+
 void Favorites::save() {
 	qDebug("Favorites::save");
 
-	QSettings s(_filename, QSettings::IniFormat);
-	s.setValue("items", f_list.count());
+	QFile f( _filename );
+    if ( f.open( QIODevice::WriteOnly ) ) {
+        QTextStream stream( &f );
+		stream.setCodec("UTF-8");
 
-	for (int n = 0; n < f_list.count(); n++) {
-		QString t = "item_"+QString::number(n);
-		s.setValue( t + "_name", f_list[n].name() );
-		s.setValue( t + "_file", f_list[n].file() );
-		s.setValue( t + "_icon", f_list[n].iconFile() );
-    }
+		stream << "#EXTM3U" << "\n";
+		for (int n = 0; n < f_list.count(); n++) {
+			stream << "#EXTINF:0,";
+			stream << f_list[n].name() << ",";
+			stream << f_list[n].iconFile() << "\n";
+			stream << f_list[n].file() << "\n";
+		}
+        f.close();
+	}
 }
 
 void Favorites::load() {
 	qDebug("Favorites::load");
 
-	QSettings s(_filename, QSettings::IniFormat);
-	int items = s.value("items", 0).toInt();
+	QRegExp m3u_id("^#EXTM3U|^#M3U");
+	QRegExp info("^#EXTINF:(.*),(.*),(.*)");
 
-	f_list.clear();
+    QFile f( _filename );
+    if ( f.open( QIODevice::ReadOnly ) ) {
 
-	for (int n = 0; n < items; n++) {
-		QString t = "item_"+QString::number(n);
-		Favorite f;
-		f.setName( s.value( t + "_name", "").toString() );
-		f.setFile( s.value( t + "_file", "").toString() );
-		f.setIconFile( s.value( t + "_icon", "").toString() );
-		f_list.append(f);
-    }
+		f_list.clear();
+
+		Favorite fav;
+
+        QTextStream stream( &f );
+		stream.setCodec("UTF-8");
+
+        QString line;
+        while ( !stream.atEnd() ) {
+            line = stream.readLine(); // line of text excluding '\n'
+            qDebug( " * line: '%s'", line.toUtf8().data() );
+			if (m3u_id.indexIn(line)!=-1) {
+				//#EXTM3U
+				// Ignore line
+			}
+			else
+			if (info.indexIn(line) != -1) {
+				fav.setName( info.cap(2) );
+				fav.setIconFile( info.cap(3) );
+			} 
+			else
+			if (line.startsWith("#")) {
+				// Comment
+				// Ignore
+			} else {
+				fav.setFile( line );
+				f_list.append(fav);
+			}
+        }
+        f.close();
+	}
 }
 
 void Favorites::edit() {
