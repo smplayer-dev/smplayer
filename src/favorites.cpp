@@ -22,10 +22,11 @@
 #include <QAction>
 #include <QSettings>
 
-Favorites::Favorites(QString filename, QObject * parent) : QObject(parent)
+Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 {
 	_filename = filename;
 	_menu = 0;
+	parent_widget = parent;
 
 	editAct = new QAction( tr("Edit..."), this);
 	connect(editAct, SIGNAL(triggered()), this, SLOT(edit()));
@@ -120,7 +121,7 @@ void Favorites::load() {
 void Favorites::edit() {
 	qDebug("Favorites::edit");
 
-	FavoriteEditor e;
+	FavoriteEditor e(parent_widget);
 	e.setWindowTitle(tr("Favorite editor"));
 	e.setCaption("<b>" + tr("Favorite list") + "</b>");
 

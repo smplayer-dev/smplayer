@@ -21,6 +21,8 @@
 
 #include "favorites.h"
 
+class QWidget;
+
 class TVList : public Favorites
 {
 	Q_OBJECT
@@ -29,7 +31,7 @@ public:
 	enum Service { TV = 1, Radio = 2, Data = 4 };
 	Q_DECLARE_FLAGS(Services, Service);
 
-	TVList(Services services, QString filename, QObject * parent = 0);
+	TVList(Services services, QString filename, QWidget * parent = 0);
 	~TVList();
 
 protected:

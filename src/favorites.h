@@ -25,6 +25,7 @@
 
 class QMenu;
 class QAction;
+class QWidget;
 
 class Favorite 
 {
@@ -51,7 +52,7 @@ class Favorites : public QObject
 {
 	Q_OBJECT
 public:
-	Favorites(QString filename, QObject * parent = 0);
+	Favorites(QString filename, QWidget * parent = 0);
 	~Favorites();
 
 	QMenu * menu();
@@ -77,6 +78,7 @@ protected:
 	QString _filename;
 	QMenu * _menu;
 	QAction * editAct;
+	QWidget * parent_widget;
 };
 
 #endif
