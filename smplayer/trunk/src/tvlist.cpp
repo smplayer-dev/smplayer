@@ -21,7 +21,7 @@
 #include <QDir>
 #include <QTextStream>
 
-TVList::TVList(Services services, QString filename, QObject * parent) 
+TVList::TVList(Services services, QString filename, QWidget * parent) 
 	: Favorites(filename,parent)
 {
 	parse_channels_conf(services);
