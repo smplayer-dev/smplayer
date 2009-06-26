@@ -18,6 +18,7 @@
 
 #include "favoriteeditor.h"
 #include <QHeaderView>
+#include <QFileDialog>
 
 #define COL_ICON 0
 #define COL_NAME 1
@@ -36,6 +37,8 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 
 	table->setSelectionBehavior(QAbstractItemView::SelectRows);
 	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
+
+	connect(table, SIGNAL(cellActivated(int,int)), this, SLOT(edit_icon(int,int)));
 }
 
 FavoriteEditor::~FavoriteEditor() {
@@ -68,6 +71,8 @@ void FavoriteEditor::setData( FavoriteList list ) {
 		table->setItem(n, COL_NAME, name_item);
 		table->setItem(n, COL_FILE, file_item);
 	}
+
+	table->setCurrentCell(0, 0);
 }
 
 FavoriteList FavoriteEditor::data() {
@@ -166,6 +171,30 @@ void FavoriteEditor::setRow(int row, const QList<QTableWidgetItem*>& rowItems)
 	for (int col = 0; col < table->columnCount(); ++col)
 	{
 		table->setItem(row, col, rowItems.at(col));
+	}
+}
+
+void FavoriteEditor::edit_icon(int row, int column ) {
+	qDebug("FavoriteEditor::edit_icon: %d, %d", row, column);
+
+	if (column != COL_ICON) return;
+
+	QTableWidgetItem * i = table->item(row, column);
+	QString icon_filename = i->data(Qt::UserRole).toString();
+
+	qDebug("FavoriteEditor::edit_icon: icon file: '%s'", icon_filename.toUtf8().constData());
+
+	QString dir = icon_filename;
+	if (dir.isEmpty()) dir = last_dir;
+
+	QString res = QFileDialog::getOpenFileName(this, tr("Select an icon file"),
+                                               dir,
+                                               tr("Images") + " (*.png *.xpm *.jpg)");
+	if (!res.isEmpty()) {
+		i->setIcon( QIcon(res) );
+		i->setData( Qt::UserRole, res );
+
+		last_dir = QFileInfo(res).absolutePath();
 	}
 }
 
