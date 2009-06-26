@@ -55,6 +55,8 @@ void FavoriteEditor::setData( FavoriteList list ) {
 	for (int n = 0; n < list.count(); n++) {
 		QTableWidgetItem * icon_item = new QTableWidgetItem;
 		icon_item->setIcon( QIcon(list[n].icon()) );
+		icon_item->setData( Qt::UserRole, list[n].icon() );
+		icon_item->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 
 		QTableWidgetItem * name_item = new QTableWidgetItem;
 		name_item->setText( list[n].name() );
@@ -75,6 +77,7 @@ FavoriteList FavoriteEditor::data() {
 		Favorite f;
 		f.setName( table->item(n, COL_NAME)->text() );
 		f.setFile( table->item(n, COL_FILE)->text() );
+		f.setIcon( table->item(n, COL_ICON)->data(Qt::UserRole).toString() );
 
 		list.append(f);
 	}
@@ -103,7 +106,10 @@ void FavoriteEditor::on_add_button_clicked() {
 	row++;
 	table->insertRow(row);
 
-	table->setItem(row, COL_ICON, new QTableWidgetItem);
+	QTableWidgetItem * icon_item = new QTableWidgetItem;
+	icon_item->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
+
+	table->setItem(row, COL_ICON, icon_item);
 	table->setItem(row, COL_NAME, new QTableWidgetItem);
 	table->setItem(row, COL_FILE, new QTableWidgetItem);
 

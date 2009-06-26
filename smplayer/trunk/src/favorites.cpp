@@ -61,6 +61,7 @@ void Favorites::populateMenu() {
 	for (int n = 0; n < f_list.count(); n++) {
 		QAction * a = _menu->addAction( f_list[n].name() );
 		a->setData( f_list[n].file() );
+		a->setIcon( QIcon( f_list[n].icon() ) );
 	}
 }
 
