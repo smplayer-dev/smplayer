@@ -43,9 +43,13 @@ protected slots:
 	void on_delete_all_button_clicked();
 	void on_add_button_clicked();
 
+	void edit_icon( int row, int column ); 
+
 protected:
 	QList<QTableWidgetItem*> takeRow(int row);
 	void setRow(int row, const QList<QTableWidgetItem*>& rowItems);
+
+	QString last_dir;
 };
 
 #endif
