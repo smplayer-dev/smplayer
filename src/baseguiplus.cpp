@@ -23,6 +23,10 @@
 #include "images.h"
 #include "playlist.h"
 
+#ifndef Q_OS_WIN
+#include "tvlist.h"
+#endif
+
 #include "widgetactions.h"
 
 #include <QMenu>
@@ -87,6 +91,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	context_menu->addAction(openDirectoryAct);
 	context_menu->addAction(openDVDAct);
 	context_menu->addAction(openURLAct);
+#ifndef Q_OS_WIN
+	context_menu->addMenu(tvlist->menu());
+	context_menu->addMenu(radiolist->menu());
+#endif
 	context_menu->addSeparator();
 	context_menu->addAction(playOrPauseAct);
 	context_menu->addAction(stopAct);
