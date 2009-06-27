@@ -155,14 +155,6 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
     mplayer_log_window = new LogWindow(0);
 	smplayer_log_window = new LogWindow(0);
 
-	tvlist = new TVList(TVList::TV, Paths::configPath() + "/tv.m3u8", this);
-	tvlist->menu()->menuAction()->setObjectName( "tv_menu" );
-	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
-
-	radiolist = new TVList(TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
-	radiolist->menu()->menuAction()->setObjectName( "radio_menu" );
-	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
-
 	createActions();
 	createMenus();
 #if AUTODISABLE_ACTIONS
@@ -324,6 +316,15 @@ void BaseGui::createActions() {
 
 	clearRecentsAct = new MyAction( this, "clear_recents" );
 	connect( clearRecentsAct, SIGNAL(triggered()), this, SLOT(clearRecentsList()) );
+
+	// TV and Radio
+	tvlist = new TVList(TVList::TV, Paths::configPath() + "/tv.m3u8", this);
+	tvlist->menu()->menuAction()->setObjectName( "tv_menu" );
+	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+
+	radiolist = new TVList(TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
+	radiolist->menu()->menuAction()->setObjectName( "radio_menu" );
+	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 
 	// Menu Play
