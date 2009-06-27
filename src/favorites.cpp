@@ -144,6 +144,7 @@ void Favorites::load() {
 				// Ignore
 			} else {
 				fav.setFile( line );
+				if (fav.name().isEmpty()) fav.setName(line);
 				f_list.append(fav);
 			}
         }
