@@ -30,7 +30,7 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 	_menu = 0;
 	parent_widget = parent;
 
-	editAct = new QAction( tr("Edit..."), this);
+	editAct = new QAction( "Edit...", this);
 	connect(editAct, SIGNAL(triggered()), this, SLOT(edit()));
 
 	load();
@@ -47,7 +47,7 @@ QMenu * Favorites::menu() {
 }
 
 void Favorites::createMenu() {
-	_menu = new QMenu;
+	_menu = new QMenu(parent_widget);
 	connect( _menu, SIGNAL(triggered(QAction *)),
              this, SLOT(triggered_slot(QAction *)) );
 

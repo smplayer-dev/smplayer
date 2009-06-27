@@ -156,9 +156,11 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	smplayer_log_window = new LogWindow(0);
 
 	tvlist = new TVList(TVList::TV, Paths::configPath() + "/tv.m3u8", this);
+	tvlist->menu()->menuAction()->setObjectName( "tv_menu" );
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	radiolist = new TVList(TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
+	radiolist->menu()->menuAction()->setObjectName( "radio_menu" );
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	createActions();
@@ -1251,6 +1253,10 @@ void BaseGui::retranslateStrings() {
 	openDVDFolderAct->change( Images::icon("dvd_hd"), tr("D&VD from folder...") );
 	openURLAct->change( Images::icon("url"), tr("&URL...") );
 	exitAct->change( Images::icon("close"), tr("C&lose") );
+
+	// TV & Radio submenus
+	tvlist->editAction()->setText( tr("&Edit...") );
+	radiolist->editAction()->setText( tr("&Edit...") );
 
 	// Menu Play
 	playAct->change( tr("P&lay") );

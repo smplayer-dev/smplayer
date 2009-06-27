@@ -56,6 +56,7 @@ public:
 	~Favorites();
 
 	QMenu * menu();
+	QAction * editAction() { return editAct; };
 
 signals:
 	void activated(QString filemane);
