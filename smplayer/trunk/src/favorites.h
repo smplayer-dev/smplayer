@@ -70,6 +70,9 @@ protected:
 
 	int findFile(QString filename);
 
+	// Mark current action in the menu
+	void markCurrent();
+
 protected slots:
 	void triggered_slot(QAction * action);
 	void edit();
@@ -80,6 +83,9 @@ protected:
 	QMenu * _menu;
 	QAction * editAct;
 	QWidget * parent_widget;
+
+	// Current (or last) file clicked
+	QString current_file;
 };
 
 #endif

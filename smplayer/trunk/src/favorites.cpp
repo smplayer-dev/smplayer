@@ -28,7 +28,9 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 {
 	_filename = filename;
 	_menu = 0;
+
 	parent_widget = parent;
+	current_file = QString::null;
 
 	editAct = new QAction( "Edit...", this);
 	connect(editAct, SIGNAL(triggered()), this, SLOT(edit()));
@@ -74,11 +76,31 @@ void Favorites::updateMenu() {
 	}
 
 	populateMenu();
+	markCurrent();
 }
 
 void Favorites::triggered_slot(QAction * action) {
 	if (action->data().isValid()) {
-		emit activated(action->data().toString());
+		QString file = action->data().toString();
+		emit activated( file );
+		current_file = file;;
+		markCurrent();
+	}
+}
+
+void Favorites::markCurrent() {
+	for (int n = 2; n < _menu->actions().count(); n++) {
+		QAction * a = _menu->actions()[n];
+		QString file = a->data().toString();
+		QFont f = a->font();
+
+		if (file == current_file) {
+			f.setBold(true);
+			a->setFont( f );
+		} else {
+			f.setBold(false);
+			a->setFont( f );
+		}
 	}
 }
 
