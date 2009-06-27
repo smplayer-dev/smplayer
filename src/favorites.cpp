@@ -128,7 +128,7 @@ void Favorites::load() {
         QString line;
         while ( !stream.atEnd() ) {
             line = stream.readLine(); // line of text excluding '\n'
-            qDebug( " * line: '%s'", line.toUtf8().data() );
+            //qDebug( " * line: '%s'", line.toUtf8().data() );
 			if (m3u_id.indexIn(line)!=-1) {
 				//#EXTM3U
 				// Ignore line
@@ -145,7 +145,13 @@ void Favorites::load() {
 			} else {
 				fav.setFile( line );
 				if (fav.name().isEmpty()) fav.setName(line);
+				//qDebug("Favorites::load: adding '%s' '%s'", fav.name().toUtf8().constData(), fav.file().toUtf8().constData());
 				f_list.append(fav);
+
+				// Clear data
+				fav.setName("");
+				fav.setFile("");
+				fav.setIcon("");
 			}
         }
         f.close();
