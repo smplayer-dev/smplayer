@@ -34,9 +34,11 @@ public:
 	TVList(Services services, QString filename, QWidget * parent = 0);
 	~TVList();
 
+#ifndef Q_OS_WIN
 protected:
 	void parse_channels_conf(Services services);
 };
+#endif
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(TVList::Services)
 

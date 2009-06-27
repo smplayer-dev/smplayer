@@ -24,12 +24,15 @@
 TVList::TVList(Services services, QString filename, QWidget * parent) 
 	: Favorites(filename,parent)
 {
+#ifndef Q_OS_WIN
 	parse_channels_conf(services);
+#endif
 }
 
 TVList::~TVList() {
 }
 
+#ifndef Q_OS_WIN
 void TVList::parse_channels_conf(Services services) {
 	qDebug("TVList::parse_channels_conf");
 
@@ -64,5 +67,6 @@ void TVList::parse_channels_conf(Services services) {
 		}
 	}
 }
+#endif
 
 #include "moc_tvlist.cpp"
