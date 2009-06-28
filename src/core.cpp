@@ -3245,7 +3245,8 @@ void Core::changeChapter(int ID) {
 }
 
 int Core::firstChapter() {
-	if (MplayerVersion::isMplayerAtLeast(25391)) 
+	if ( (MplayerVersion::isMplayerAtLeast(25391)) && 
+         (!MplayerVersion::isMplayerAtLeast(29407)) ) 
 		return 1;
 	else
 		return 0;
