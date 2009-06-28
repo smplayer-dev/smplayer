@@ -352,6 +352,14 @@ void Preferences::reset() {
 	add_to_playlist_consecutive_files = false;
 
 
+    /* ********
+       TV (dvb)
+       ******** */
+
+	check_channels_conf_on_startup = true;
+	initial_tv_deinterlace = MediaSettings::Yadif_1;
+
+
     /* ***********
        Directories
        *********** */
@@ -730,6 +738,15 @@ void Preferences::save() {
 
 	set->endGroup(); // gui
 
+
+    /* ********
+       TV (dvb)
+       ******** */
+
+	set->beginGroup( "tv");
+	set->setValue("check_channels_conf_on_startup", check_channels_conf_on_startup);
+	set->setValue("initial_tv_deinterlace", initial_tv_deinterlace);
+	set->endGroup(); // tv
 
     /* ***********
        Directories
@@ -1126,6 +1143,16 @@ void Preferences::load() {
 	add_to_playlist_consecutive_files = set->value("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files).toBool();
 
 	set->endGroup(); // gui
+
+
+    /* ********
+       TV (dvb)
+       ******** */
+
+	set->beginGroup( "tv");
+	check_channels_conf_on_startup = set->value("check_channels_conf_on_startup", check_channels_conf_on_startup).toBool();
+	initial_tv_deinterlace = set->value("initial_tv_deinterlace", initial_tv_deinterlace).toInt();
+	set->endGroup(); // tv
 
 
     /* ***********

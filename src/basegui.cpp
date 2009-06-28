@@ -318,11 +318,13 @@ void BaseGui::createActions() {
 	connect( clearRecentsAct, SIGNAL(triggered()), this, SLOT(clearRecentsList()) );
 
 	// TV and Radio
-	tvlist = new TVList(TVList::TV, Paths::configPath() + "/tv.m3u8", this);
+	tvlist = new TVList(pref->check_channels_conf_on_startup, 
+                        TVList::TV, Paths::configPath() + "/tv.m3u8", this);
 	tvlist->menu()->menuAction()->setObjectName( "tv_menu" );
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
-	radiolist = new TVList(TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
+	radiolist = new TVList(pref->check_channels_conf_on_startup, 
+                           TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
 	radiolist->menu()->menuAction()->setObjectName( "radio_menu" );
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 

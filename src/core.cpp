@@ -736,6 +736,9 @@ void Core::openTV(QString channel_id) {
 
 	mset.reset();
 
+	// Set the default deinterlacer for TV
+	mset.current_deinterlacer = pref->initial_tv_deinterlace;
+
 	/* initializeMenus(); */
 
 	initPlaying();

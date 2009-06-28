@@ -31,7 +31,7 @@ public:
 	enum Service { TV = 1, Radio = 2, Data = 4 };
 	Q_DECLARE_FLAGS(Services, Service);
 
-	TVList(Services services, QString filename, QWidget * parent = 0);
+	TVList(bool check_channels_conf, Services services, QString filename, QWidget * parent = 0);
 	~TVList();
 
 #ifndef Q_OS_WIN

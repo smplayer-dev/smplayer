@@ -355,6 +355,14 @@ public:
 	bool add_to_playlist_consecutive_files;
 
 
+    /* ********
+       TV (dvb)
+       ******** */
+
+	bool check_channels_conf_on_startup;
+	int initial_tv_deinterlace;
+	
+
     /* ***********
        Directories
        *********** */
