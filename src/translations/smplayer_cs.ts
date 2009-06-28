@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="cs">
+<!DOCTYPE TS>
+<TS version="2.0" language="cs">
 <context>
     <name>About</name>
     <message>
@@ -1585,13 +1586,13 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1413"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Další funkce kolečka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;rogram</translation>
     </message>
 </context>
 <context>
@@ -1707,22 +1708,22 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="3360"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolečko myši nyní seekuje</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3363"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolečko myši nyní mění hlasitost</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3366"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolečko myši nyní zoomuje</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3369"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolečko myši nyní mění rychlost</translation>
     </message>
 </context>
 <context>
@@ -3403,7 +3404,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Marshallese</source>
         <translation>Maršálština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3513,7 +3514,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Venda</source>
         <translation>Luvendština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -5091,7 +5092,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation>Adresář:</translation>
+        <translation>&amp;Adresář:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="920"/>
@@ -5574,62 +5575,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Změnit funkci kolečka</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="505"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Seekování</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoom</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hlasitos</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rychlost</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkce kolečka myši</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="333"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaškrtnutím přidá funkci seekování.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaškrtnutím přidá funkci změny hlasitosti.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaškrtnutím přidá funkci zoomování.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaškrtnutím přidá funkci změny rychlosti.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="483"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;unkce kolečka myši</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="495"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte akce, které je možné cyklicky přepínat funkcí &quot;Změnit funkci kolečka&quot;.</translation>
     </message>
 </context>
 <context>
@@ -7306,22 +7307,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>šířka</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>výška</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="158"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>udává souřadnice, kde má být vykresleno hlavní okno.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="161"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>udává velikost hlavního okna.</translation>
     </message>
 </context>
 <context>
