@@ -21,11 +21,13 @@
 #include <QDir>
 #include <QTextStream>
 
-TVList::TVList(Services services, QString filename, QWidget * parent) 
+TVList::TVList(bool check_channels_conf, Services services, QString filename, QWidget * parent) 
 	: Favorites(filename,parent)
 {
 #ifndef Q_OS_WIN
-	parse_channels_conf(services);
+	if (check_channels_conf) {
+		parse_channels_conf(services);
+	}
 #endif
 }
 
