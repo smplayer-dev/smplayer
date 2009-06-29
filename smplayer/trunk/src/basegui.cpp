@@ -793,7 +793,7 @@ void BaseGui::createActions() {
 	nextVideoAct = new MyAction( this, "next_video");
 	connect( nextVideoAct, SIGNAL(triggered()), core, SLOT(nextVideo()) );
 
-	nextAudioAct = new MyAction( Qt::Key_H, this, "next_audio");
+	nextAudioAct = new MyAction( Qt::Key_K, this, "next_audio");
 	connect( nextAudioAct, SIGNAL(triggered()), core, SLOT(nextAudio()) );
 
 	nextSubtitleAct = new MyAction( Qt::Key_J, this, "next_subtitle");
