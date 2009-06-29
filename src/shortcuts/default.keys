@@ -8,6 +8,10 @@ open_dvd_folder
 open_url	Ctrl+U
 close	Ctrl+X
 clear_recents	
+next_tv	H
+previous_tv	L
+next_radio	Shift+H
+previous_radio	Shift+L
 play	
 play_or_pause	Media Play
 pause	Space
@@ -72,6 +76,7 @@ inc_sub_step	Y
 use_ass_lib	
 use_closed_caption	
 use_forced_subs_only	
+subtitle_visibility	V
 show_find_sub_dialog	
 upload_subtitles	
 show_playlist	Ctrl+L
@@ -111,7 +116,7 @@ inc_saturation	8
 dec_gamma	
 inc_gamma	
 next_video	
-next_audio	H
+next_audio	K
 next_subtitle	J
 next_chapter	@
 prev_chapter	!
@@ -120,6 +125,7 @@ reset_video_equalizer
 reset_audio_equalizer	
 show_context_menu	
 next_aspect	A
+next_wheel_function	
 osd_none	
 osd_seek	
 osd_timer	
@@ -149,13 +155,15 @@ stereo
 left_channel	
 right_channel	
 aspect_detect	
+aspect_1:1	
+aspect_3:2	
 aspect_4:3	
 aspect_5:4	
 aspect_14:9	
+aspect_14:10	
 aspect_16:9	
 aspect_16:10	
 aspect_2.35:1	
-aspect_1:1	
 aspect_none	
 rotate_none	
 rotate_clockwise_flip	
