@@ -56,7 +56,13 @@ public:
 	~Favorites();
 
 	QMenu * menu();
-	QAction * editAction() { return editAct; };
+	QAction * editAct() { return edit_act; };
+	QAction * nextAct() { return next_act; };
+	QAction * previousAct() { return previous_act; };
+
+public slots:
+	void next();
+	void previous();
 
 signals:
 	void activated(QString filemane);
@@ -81,7 +87,10 @@ protected:
 	FavoriteList f_list;
 	QString _filename;
 	QMenu * _menu;
-	QAction * editAct;
+	QAction * edit_act;
+	QAction * next_act;
+	QAction * previous_act;
+
 	QWidget * parent_widget;
 
 	// Current (or last) file clicked

@@ -321,11 +321,23 @@ void BaseGui::createActions() {
 	tvlist = new TVList(pref->check_channels_conf_on_startup, 
                         TVList::TV, Paths::configPath() + "/tv.m3u8", this);
 	tvlist->menu()->menuAction()->setObjectName( "tv_menu" );
+	addAction(tvlist->nextAct());
+	addAction(tvlist->previousAct());
+	tvlist->nextAct()->setShortcut( Qt::Key_H );
+	tvlist->previousAct()->setShortcut( Qt::Key_L );
+	tvlist->nextAct()->setObjectName("next_tv");
+	tvlist->previousAct()->setObjectName("previous_tv");
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	radiolist = new TVList(pref->check_channels_conf_on_startup, 
                            TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
 	radiolist->menu()->menuAction()->setObjectName( "radio_menu" );
+	addAction(radiolist->nextAct());
+	addAction(radiolist->previousAct());
+	radiolist->nextAct()->setShortcut( Qt::SHIFT | Qt::Key_H );
+	radiolist->previousAct()->setShortcut( Qt::SHIFT | Qt::Key_L );
+	radiolist->nextAct()->setObjectName("next_radio");
+	radiolist->previousAct()->setObjectName("previous_radio");
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 
@@ -1258,8 +1270,13 @@ void BaseGui::retranslateStrings() {
 	exitAct->change( Images::icon("close"), tr("C&lose") );
 
 	// TV & Radio submenus
-	tvlist->editAction()->setText( tr("&Edit...") );
-	radiolist->editAction()->setText( tr("&Edit...") );
+	tvlist->editAct()->setText( tr("&Edit...") );
+	radiolist->editAct()->setText( tr("&Edit...") );
+	tvlist->nextAct()->setText( tr("Next TV channel") );
+	tvlist->previousAct()->setText( tr("Previous TV channel") );
+	radiolist->nextAct()->setText( tr("Next radio channel") );
+	radiolist->previousAct()->setText( tr("Previous radio channel") );
+
 
 	// Menu Play
 	playAct->change( tr("P&lay") );

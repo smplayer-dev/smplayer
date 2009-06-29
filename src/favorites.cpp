@@ -32,8 +32,14 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 	parent_widget = parent;
 	current_file = QString::null;
 
-	editAct = new QAction( "Edit...", this);
-	connect(editAct, SIGNAL(triggered()), this, SLOT(edit()));
+	edit_act = new QAction( "Edit...", this);
+	connect(edit_act, SIGNAL(triggered()), this, SLOT(edit()));
+
+	next_act = new QAction(this);
+	connect(next_act, SIGNAL(triggered()), this, SLOT(next()));
+
+	previous_act = new QAction(this);
+	connect(previous_act, SIGNAL(triggered()), this, SLOT(previous()));
 
 	load();
 }
@@ -53,7 +59,7 @@ void Favorites::createMenu() {
 	connect( _menu, SIGNAL(triggered(QAction *)),
              this, SLOT(triggered_slot(QAction *)) );
 
-	_menu->addAction(editAct);
+	_menu->addAction(edit_act);
 	_menu->addSeparator();
 
 	populateMenu();
@@ -111,6 +117,35 @@ int Favorites::findFile(QString filename) {
 	return -1;
 }
 
+void Favorites::next() {
+	qDebug("Favorites::next");
+
+	int current = findFile(current_file);
+	//if (current < 0) current = 0;
+
+	current++;
+	if (current >= f_list.count()) current = 0;
+
+	QAction * a = _menu->actions()[current+2]; // Skip "edit" and separator
+	if (a != 0) {
+		a->trigger();
+	}
+}
+
+void Favorites::previous() {
+	qDebug("Favorites::previous");
+
+	int current = findFile(current_file);
+	//if (current < 0) current = 0;
+
+	current--;
+	if (current < 0) current = f_list.count()-1;
+
+	QAction * a = _menu->actions()[current+2]; // Skip "edit" and separator
+	if (a != 0) {
+		a->trigger();
+	}
+}
 
 void Favorites::save() {
 	qDebug("Favorites::save");
