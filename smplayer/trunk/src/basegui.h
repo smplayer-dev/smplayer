@@ -174,6 +174,7 @@ protected slots:
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
+	virtual void togglePlayAction(Core::State);
 #endif
 
 	virtual void resizeWindow(int w, int h);

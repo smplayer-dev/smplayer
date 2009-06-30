@@ -1156,6 +1156,8 @@ void BaseGui::enableActionsOnPlaying() {
 
 	setActionsEnabled(true);
 
+	playAct->setEnabled(false);
+
 	// Screenshot option
 	bool screenshots_enabled = ( (pref->use_screenshot) && 
                                  (!pref->screenshot_directory.isEmpty()) &&
@@ -1250,6 +1252,14 @@ void BaseGui::disableActionsOnStop() {
 	playAct->setEnabled(true);
 	playOrPauseAct->setEnabled(true);
 	stopAct->setEnabled(true);
+}
+
+void BaseGui::togglePlayAction(Core::State state) {
+	qDebug("BaseGui::togglePlayAction");
+	if (state == Core::Playing)
+		playAct->setEnabled(false);
+	else
+		playAct->setEnabled(true);
 }
 #endif // AUTODISABLE_ACTIONS
 
@@ -1718,6 +1728,9 @@ void BaseGui::createCore() {
              this, SLOT(disableActionsOnStop()) );
 	connect( core, SIGNAL(mediaStoppedByUser()),
              this, SLOT(disableActionsOnStop()) );
+
+	connect( core, SIGNAL(stateChanged(Core::State)),
+             this, SLOT(togglePlayAction(Core::State)) );
 
 	connect( core, SIGNAL(mediaStartPlay()),
              this, SLOT(newMediaLoaded()), Qt::QueuedConnection );
