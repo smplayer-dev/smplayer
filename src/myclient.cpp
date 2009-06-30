@@ -98,9 +98,10 @@ bool MyClient::sendFiles( const QStringList & files, bool addToPlaylist) {
 		line = readLine();
 	} while (!line.isNull());
 
-
+	/*
 	socket->disconnectFromHost();
 	socket->waitForDisconnected( timeout );
+	*/
 
 	return true;
 }
@@ -112,8 +113,25 @@ bool MyClient::sendAction( const QString & action ) {
 	line = readLine();
 	if (!line.startsWith("OK")) return false;
 
+	/*
 	socket->disconnectFromHost();
 	socket->waitForDisconnected( timeout );
+	*/
 
 	return true;
+}
+
+bool MyClient::sendSubtitleFile(const QString & file) {
+	QString line;
+
+	writeLine("load_sub " + file + "\r\n");
+	line = readLine();
+	if (!line.startsWith("OK")) return false;
+
+	return true;
+}
+
+void MyClient::closeConnection() {
+	socket->disconnectFromHost();
+	socket->waitForDisconnected( timeout );
 }

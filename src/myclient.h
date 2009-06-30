@@ -45,10 +45,15 @@ public:
 
 	//! Return true if it can open a connection to another instance.
 	bool openConnection();
+	void closeConnection();
+
 	//! Send the list of files to the other instance. Return true on success.
 	bool sendFiles( const QStringList & files, bool addToPlaylist = false);
+
 	//! Pass an action (pause, fullscreen...) to GUI.
 	bool sendAction( const QString & action );
+
+	bool sendSubtitleFile(const QString & file);
 
 protected:
 	QString readLine();

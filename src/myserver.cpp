@@ -57,6 +57,7 @@ void Connection::parseLine(QString str) {
 	QRegExp rx_open("^open (.*)");
 	QRegExp rx_open_files("(^open_files|^add_files) (.*)");
 	QRegExp rx_function("^(function|f) (.*)");
+	QRegExp rx_loadsub("^load_sub (.*)");
 
 
 	if (str.toLower() == "hello") {
@@ -89,6 +90,13 @@ void Connection::parseLine(QString str) {
 		qDebug("Connection::parseLine: asked to open '%s'", file.toUtf8().data());
 		sendText("OK, file sent to GUI");
 		emit receivedOpen(file);
+	} 
+	else 
+	if (rx_loadsub.indexIn(str) > -1) {
+		QString file = rx_loadsub.cap(1);
+		qDebug("Connection::parseLine: asked to load subtitle '%s'", file.toUtf8().data());
+		sendText("OK, subtitle file sent to GUI");
+		emit receivedLoadSubtitle(file);
 	} 
 	else
 	if ( (str.toLower() == "open_files_start") ||
@@ -152,6 +160,8 @@ void MyServer::newConnection_slot() {
             this, SIGNAL(receivedAddFiles(QStringList)));
 	connect(c, SIGNAL(receivedFunction(QString)),
             this, SIGNAL(receivedFunction(QString)));
+	connect(c, SIGNAL(receivedLoadSubtitle(QString)),
+            this, SIGNAL(receivedLoadSubtitle(QString)));
 }
 
 #include "moc_myserver.cpp"

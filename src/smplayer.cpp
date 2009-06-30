@@ -280,18 +280,26 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 					return NoAction;
 				}
 			}
-			else	
-			if (!files_to_play.isEmpty()) {
-				if (c->sendFiles(files_to_play, add_to_playlist)) {
-					qDebug("SMPlayer::processArgs: files sent successfully to the running instance");
-	    	        qDebug("SMPlayer::processArgs: exiting.");
-				} else {
-					qDebug("SMPlayer::processArgs: files couldn't be sent to another instance");
+			else {
+				if (!subtitle_file.isEmpty()) {
+					if (c->sendSubtitleFile(subtitle_file)) {
+						qDebug("SMPlayer::processArgs: subtitle file sent successfully to the running instance");
+					} else {
+						qDebug("SMPlayer::processArgs: subtitle file couldn't be sent to another instance");
+					}
+				}
+
+				if (!files_to_play.isEmpty()) {
+					if (c->sendFiles(files_to_play, add_to_playlist)) {
+						qDebug("SMPlayer::processArgs: files sent successfully to the running instance");
+		    	        qDebug("SMPlayer::processArgs: exiting.");
+					} else {
+						qDebug("SMPlayer::processArgs: files couldn't be sent to another instance");
+					}
 				}
 			}
-
+			c->closeConnection();
 			return NoError;
-
 		} else {
 			if (!action.isEmpty()) {
 				printf("Error: no running instance found\r\n");
