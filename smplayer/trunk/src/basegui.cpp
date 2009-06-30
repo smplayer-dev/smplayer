@@ -202,7 +202,9 @@ void BaseGui::initializeGui() {
 	connect(server, SIGNAL(receivedAddFiles(QStringList)),
             this, SLOT(remoteAddFiles(QStringList)));
 	connect(server, SIGNAL(receivedFunction(QString)),
-            this, SLOT(processFunction(QString)));		
+            this, SLOT(processFunction(QString)));	
+	connect(server, SIGNAL(receivedLoadSubtitle(QString)),	
+            this, SLOT(remoteLoadSubtitle(QString)));
 
 	if (pref->use_single_instance) {
 		int port = 0;
@@ -244,6 +246,16 @@ void BaseGui::remoteAddFiles(QStringList files) {
 
 	playlist->addFiles(files);
 	//open(files[0]);
+}
+
+void BaseGui::remoteLoadSubtitle(QString file) {
+	qDebug("BaseGui::remoteLoadSubtitle: '%s'", file.toUtf8().data());
+
+	setInitialSubtitle(file);
+
+	if (core->state() != Core::Stopped) {
+		core->loadSub(file);
+	}
 }
 
 BaseGui::~BaseGui() {

@@ -222,6 +222,7 @@ protected slots:
 	virtual void remoteOpen(QString file);
 	virtual void remoteOpenFiles(QStringList files);
 	virtual void remoteAddFiles(QStringList files);
+	virtual void remoteLoadSubtitle(QString file);
 
 	//! Called when core can't parse the mplayer version and there's no
 	//! version supplied by the user

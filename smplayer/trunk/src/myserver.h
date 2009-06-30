@@ -49,6 +49,7 @@ signals:
 	void receivedOpenFiles(QStringList);
 	void receivedAddFiles(QStringList);
 	void receivedFunction(QString);
+	void receivedLoadSubtitle(QString);
 
 protected slots:
 	void readData();
@@ -99,6 +100,9 @@ signals:
 
 	//! Emitted when the client request to perform an action.
 	void receivedFunction(QString);
+
+	//! Emitted when the client requests to load an external subtitle file.
+	void receivedLoadSubtitle(QString);
 
 protected slots:
 	void newConnection_slot();
