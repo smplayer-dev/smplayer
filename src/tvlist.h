@@ -38,6 +38,9 @@ public:
 protected:
 	void parse_channels_conf(Services services);
 #endif
+
+protected slots:
+	virtual void edit();
 };
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(TVList::Services)

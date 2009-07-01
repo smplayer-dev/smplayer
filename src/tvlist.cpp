@@ -17,6 +17,9 @@
 */
 
 #include "tvlist.h"
+#include "favoriteeditor.h"
+#include "images.h"
+
 #include <QFile>
 #include <QDir>
 #include <QTextStream>
@@ -70,5 +73,22 @@ void TVList::parse_channels_conf(Services services) {
 	}
 }
 #endif
+
+void TVList::edit() {
+	qDebug("TVList::edit");
+
+	FavoriteEditor e(parent_widget);
+
+	e.setWindowTitle( tr("Channel editor") );
+	e.setCaption( tr("TV/Radio list") );
+	e.setDialogIcon( Images::icon("open_tv") );
+
+	e.setData(f_list);
+
+	if (e.exec() == QDialog::Accepted) {
+		f_list = e.data();
+		updateMenu();
+	}
+}
 
 #include "moc_tvlist.cpp"
