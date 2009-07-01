@@ -464,302 +464,302 @@ Valóban felül akarja írni?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1234"/>
+        <location filename="../basegui.cpp" line="1284"/>
         <source>&amp;File...</source>
         <translation>&amp;Fájl...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1235"/>
+        <location filename="../basegui.cpp" line="1285"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Könyvtár...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1236"/>
+        <location filename="../basegui.cpp" line="1286"/>
         <source>&amp;Playlist...</source>
         <translation>Lejátszási li&amp;sta...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1239"/>
+        <location filename="../basegui.cpp" line="1289"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD lejátszás </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1240"/>
+        <location filename="../basegui.cpp" line="1290"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD lejátszás könyvtárból...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1241"/>
+        <location filename="../basegui.cpp" line="1291"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1245"/>
+        <location filename="../basegui.cpp" line="1304"/>
         <source>P&amp;lay</source>
         <translation>Le&amp;játszás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1251"/>
+        <location filename="../basegui.cpp" line="1310"/>
         <source>&amp;Pause</source>
         <translation>&amp;Szünet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1252"/>
+        <location filename="../basegui.cpp" line="1311"/>
         <source>&amp;Stop</source>
         <translation>&amp;Megállít</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1253"/>
+        <location filename="../basegui.cpp" line="1312"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Képkocka léptetés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1265"/>
+        <location filename="../basegui.cpp" line="1324"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ismétlés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1269"/>
+        <location filename="../basegui.cpp" line="1328"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;Normál sebesség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1270"/>
+        <location filename="../basegui.cpp" line="1329"/>
         <source>&amp;Halve speed</source>
         <translation>&amp;Fél sebesség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1271"/>
+        <location filename="../basegui.cpp" line="1330"/>
         <source>&amp;Double speed</source>
         <translation>&amp;Dupla sebesség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1272"/>
+        <location filename="../basegui.cpp" line="1331"/>
         <source>Speed &amp;-10%</source>
         <translation>Sebesség&amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1273"/>
+        <location filename="../basegui.cpp" line="1332"/>
         <source>Speed &amp;+10%</source>
         <translation>Sebesség &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1450"/>
+        <location filename="../basegui.cpp" line="1515"/>
         <source>Sp&amp;eed</source>
         <translation>&amp;Sebesség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1280"/>
+        <location filename="../basegui.cpp" line="1339"/>
         <source>&amp;Fullscreen</source>
         <translation>&amp;Teljes képernyő</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1281"/>
+        <location filename="../basegui.cpp" line="1340"/>
         <source>&amp;Compact mode</source>
         <translation>&amp;Kompakt mód</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1282"/>
+        <location filename="../basegui.cpp" line="1341"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;Kiegyenlítő (EQ)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1283"/>
+        <location filename="../basegui.cpp" line="1342"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;Pillanatkép</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1475"/>
+        <location filename="../basegui.cpp" line="1540"/>
         <source>S&amp;tay on top</source>
         <translation>Mindig &amp;felül</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1301"/>
+        <location filename="../basegui.cpp" line="1360"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Utófeldolgozás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1302"/>
+        <location filename="../basegui.cpp" line="1361"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Automatikus fázis érzékelés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1303"/>
+        <location filename="../basegui.cpp" line="1362"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1304"/>
+        <location filename="../basegui.cpp" line="1363"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1305"/>
+        <location filename="../basegui.cpp" line="1364"/>
         <source>Add n&amp;oise</source>
         <translation>N&amp;oise hozzáadása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1469"/>
+        <location filename="../basegui.cpp" line="1534"/>
         <source>F&amp;ilters</source>
         <translation>S&amp;zűrők</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1313"/>
+        <location filename="../basegui.cpp" line="1372"/>
         <source>&amp;Mute</source>
         <translation>&amp;Némítás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1314"/>
+        <location filename="../basegui.cpp" line="1373"/>
         <source>Volume &amp;-</source>
         <translation>Hangerő &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1315"/>
+        <location filename="../basegui.cpp" line="1374"/>
         <source>Volume &amp;+</source>
         <translation>Hangerő &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1316"/>
+        <location filename="../basegui.cpp" line="1375"/>
         <source>&amp;Delay -</source>
         <translation>K&amp;ésleltetés -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1317"/>
+        <location filename="../basegui.cpp" line="1376"/>
         <source>D&amp;elay +</source>
         <translation>Ké&amp;sleltetés +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1323"/>
+        <location filename="../basegui.cpp" line="1382"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Extra sztereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1324"/>
+        <location filename="../basegui.cpp" line="1383"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1530"/>
+        <location filename="../basegui.cpp" line="1595"/>
         <source>&amp;Filters</source>
         <translation>&amp;Szűrők</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1328"/>
+        <location filename="../basegui.cpp" line="1387"/>
         <source>&amp;Load...</source>
         <translation>&amp;Betöltés...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1330"/>
+        <location filename="../basegui.cpp" line="1389"/>
         <source>Delay &amp;-</source>
         <translation>Késleltetés &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1331"/>
+        <location filename="../basegui.cpp" line="1390"/>
         <source>Delay &amp;+</source>
         <translation>Késleltetés &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1333"/>
+        <location filename="../basegui.cpp" line="1392"/>
         <source>&amp;Up</source>
         <translation>&amp;Fel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1334"/>
+        <location filename="../basegui.cpp" line="1393"/>
         <source>&amp;Down</source>
         <translation>&amp;Le</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1351"/>
+        <location filename="../basegui.cpp" line="1410"/>
         <source>&amp;Playlist</source>
         <translation>Lejátszási l&amp;ista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1354"/>
+        <location filename="../basegui.cpp" line="1413"/>
         <source>&amp;Show frame counter</source>
         <translation>&amp;Képkocka számláló megjelenítése</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1357"/>
+        <location filename="../basegui.cpp" line="1416"/>
         <source>P&amp;references</source>
         <translation>&amp;Beállítások</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1583"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>&amp;View logs</source>
         <translation>&amp;Naplók megjelenítése</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1367"/>
+        <location filename="../basegui.cpp" line="1426"/>
         <source>About &amp;Qt</source>
         <translation>&amp;Qt névjegye</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1368"/>
+        <location filename="../basegui.cpp" line="1427"/>
         <source>About &amp;SMPlayer</source>
         <translation>&amp;SMPlayer névjegye</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1424"/>
+        <location filename="../basegui.cpp" line="1483"/>
         <source>&amp;Open</source>
         <translation>&amp;Megnyitás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1425"/>
+        <location filename="../basegui.cpp" line="1484"/>
         <source>&amp;Play</source>
         <translation>&amp;Lejátszás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1426"/>
+        <location filename="../basegui.cpp" line="1485"/>
         <source>&amp;Video</source>
         <translation>&amp;Videó</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1427"/>
+        <location filename="../basegui.cpp" line="1486"/>
         <source>&amp;Audio</source>
         <translation>&amp;Hang</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1428"/>
+        <location filename="../basegui.cpp" line="1487"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Feliratok</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1429"/>
+        <location filename="../basegui.cpp" line="1488"/>
         <source>&amp;Browse</source>
         <translation>&amp;Tallózás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1430"/>
+        <location filename="../basegui.cpp" line="1489"/>
         <source>Op&amp;tions</source>
         <translation>&amp;Opciók</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1431"/>
+        <location filename="../basegui.cpp" line="1490"/>
         <source>&amp;Help</source>
         <translation>&amp;Segítség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1445"/>
+        <location filename="../basegui.cpp" line="1504"/>
         <source>&amp;Recent files</source>
         <translation>&amp;Utoljára megnyitott fájlok</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1447"/>
+        <location filename="../basegui.cpp" line="1506"/>
         <source>&amp;Clear</source>
         <translation>&amp;Ürítés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1457"/>
+        <location filename="../basegui.cpp" line="1522"/>
         <source>Si&amp;ze</source>
         <translation>&amp;Méret</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1463"/>
+        <location filename="../basegui.cpp" line="1528"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;Méretarány</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1466"/>
+        <location filename="../basegui.cpp" line="1531"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Deinterlace</translation>
     </message>
@@ -784,845 +784,880 @@ Valóban felül akarja írni?</translation>
         <translation type="obsolete">4:3 &amp;-&gt; 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2610"/>
+        <location filename="../basegui.cpp" line="2685"/>
         <source>&amp;None</source>
         <translation>&amp;Nincs</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1501"/>
+        <location filename="../basegui.cpp" line="1566"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1504"/>
+        <location filename="../basegui.cpp" line="1569"/>
         <source>Linear &amp;Blend</source>
         <translation>Lineáris &amp;keverés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1533"/>
+        <location filename="../basegui.cpp" line="1598"/>
         <source>&amp;Channels</source>
         <translation>&amp;Csatornák</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1536"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>&amp;Stereo mode</source>
         <translation>&amp;Sztereó mód</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1544"/>
+        <location filename="../basegui.cpp" line="1609"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Sztereó</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1541"/>
+        <location filename="../basegui.cpp" line="1606"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1542"/>
+        <location filename="../basegui.cpp" line="1607"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1545"/>
+        <location filename="../basegui.cpp" line="1610"/>
         <source>&amp;Left channel</source>
         <translation>&amp;Bal csatorna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1546"/>
+        <location filename="../basegui.cpp" line="1611"/>
         <source>&amp;Right channel</source>
         <translation>&amp;Jobb csatorna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1549"/>
+        <location filename="../basegui.cpp" line="1614"/>
         <source>&amp;Select</source>
         <translation>&amp;Kiválaszt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1553"/>
+        <location filename="../basegui.cpp" line="1618"/>
         <source>&amp;Title</source>
         <translation>&amp;Cím</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1556"/>
+        <location filename="../basegui.cpp" line="1621"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Fejezet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1559"/>
+        <location filename="../basegui.cpp" line="1624"/>
         <source>&amp;Angle</source>
         <translation>&amp;Szög</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1580"/>
+        <location filename="../basegui.cpp" line="1645"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1498"/>
+        <location filename="../basegui.cpp" line="1563"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Kikapcsolva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1418"/>
+        <location filename="../basegui.cpp" line="1477"/>
         <source>&amp;Seek bar</source>
         <translation>&amp;Keresősáv</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1419"/>
+        <location filename="../basegui.cpp" line="1478"/>
         <source>&amp;Time</source>
         <translation>&amp;Idő</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1420"/>
+        <location filename="../basegui.cpp" line="1479"/>
         <source>Time + T&amp;otal time</source>
         <translation>Idő + &amp;Teljes idő</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1591"/>
+        <location filename="../basegui.cpp" line="1656"/>
         <source>SMPlayer - mplayer log</source>
         <translation>SMPlayer - MPlayer napló</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1592"/>
+        <location filename="../basegui.cpp" line="1657"/>
         <source>SMPlayer - smplayer log</source>
         <translation>SMPlayer - SMPlayer napló</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2774"/>
+        <location filename="../basegui.cpp" line="2849"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;üres&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3138"/>
+        <location filename="../basegui.cpp" line="3213"/>
         <source>Video</source>
         <translation>Videó</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3329"/>
+        <location filename="../basegui.cpp" line="3404"/>
         <source>Audio</source>
         <translation>Hang</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3140"/>
+        <location filename="../basegui.cpp" line="3215"/>
         <source>Playlists</source>
         <translation>Lejátszási listák</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3330"/>
+        <location filename="../basegui.cpp" line="3405"/>
         <source>All files</source>
         <translation>Minden fájl</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3327"/>
+        <location filename="../basegui.cpp" line="3402"/>
         <source>Choose a file</source>
         <translation>Válasszon egy fájlt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3188"/>
+        <location filename="../basegui.cpp" line="3263"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Információ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3191"/>
+        <location filename="../basegui.cpp" line="3266"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>A CDROM / DVD meghajtó nincs még beállítva.
 A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3272"/>
+        <location filename="../basegui.cpp" line="3347"/>
         <source>Choose a directory</source>
         <translation>Válasszon egy könyvtárat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3308"/>
+        <location filename="../basegui.cpp" line="3383"/>
         <source>Subtitles</source>
         <translation>Feliratok</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3360"/>
+        <location filename="../basegui.cpp" line="3435"/>
         <source>About Qt</source>
         <translation>Qt névjegye</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3813"/>
+        <location filename="../basegui.cpp" line="3888"/>
         <source>Playing %1</source>
         <translation>%1 lejátszása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3814"/>
+        <location filename="../basegui.cpp" line="3889"/>
         <source>Pause</source>
         <translation>Szünet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3815"/>
+        <location filename="../basegui.cpp" line="3890"/>
         <source>Stop</source>
         <translation>Megállítás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1255"/>
+        <location filename="../basegui.cpp" line="1314"/>
         <source>Play / Pause</source>
         <translation>Lejátszás / Szünet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1261"/>
+        <location filename="../basegui.cpp" line="1320"/>
         <source>Pause / Frame step</source>
         <translation>Szünet / Képkocka léptetés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1329"/>
+        <location filename="../basegui.cpp" line="1388"/>
         <source>U&amp;nload</source>
         <translation>&amp;Kiürítés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1237"/>
+        <location filename="../basegui.cpp" line="1287"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1242"/>
+        <location filename="../basegui.cpp" line="1292"/>
         <source>C&amp;lose</source>
         <translation>Be&amp;zár</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1352"/>
+        <location filename="../basegui.cpp" line="1411"/>
         <source>View &amp;info and properties...</source>
         <translation>&amp;Információk és tulajdonságok megjelenítése...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1289"/>
+        <location filename="../basegui.cpp" line="1348"/>
         <source>Zoom &amp;-</source>
         <translation>Kicsinyítés &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1290"/>
+        <location filename="../basegui.cpp" line="1349"/>
         <source>Zoom &amp;+</source>
         <translation>Nagyítás &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1291"/>
+        <location filename="../basegui.cpp" line="1350"/>
         <source>&amp;Reset</source>
         <translation>Ala&amp;phelyzet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1295"/>
+        <location filename="../basegui.cpp" line="1354"/>
         <source>Move &amp;left</source>
         <translation>Mozgatás &amp;balra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1296"/>
+        <location filename="../basegui.cpp" line="1355"/>
         <source>Move &amp;right</source>
         <translation>Mozgatás &amp;jobbra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1297"/>
+        <location filename="../basegui.cpp" line="1356"/>
         <source>Move &amp;up</source>
         <translation>Mozgatás &amp;felfelé</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1298"/>
+        <location filename="../basegui.cpp" line="1357"/>
         <source>Move &amp;down</source>
         <translation>Mozgatás &amp;lefelé</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1460"/>
+        <location filename="../basegui.cpp" line="1525"/>
         <source>&amp;Pan &amp;&amp; scan</source>
         <translation>&amp;Pan &amp;&amp; scan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1338"/>
+        <location filename="../basegui.cpp" line="1397"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>&amp;Előző sor a feliratban</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1340"/>
+        <location filename="../basegui.cpp" line="1399"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>&amp;Következő sor a feliratban</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1606"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1610"/>
+        <location filename="../basegui.cpp" line="1675"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1386"/>
+        <location filename="../basegui.cpp" line="1445"/>
         <source>Dec volume (2)</source>
         <translation>Kevesebb hangerő (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1387"/>
+        <location filename="../basegui.cpp" line="1446"/>
         <source>Inc volume (2)</source>
         <translation>Több hangerő (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1390"/>
+        <location filename="../basegui.cpp" line="1449"/>
         <source>Exit fullscreen</source>
         <translation>Kilépés a teljes képernyőből</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1392"/>
+        <location filename="../basegui.cpp" line="1451"/>
         <source>OSD - Next level</source>
         <translation>OSD - Következő szint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1393"/>
+        <location filename="../basegui.cpp" line="1452"/>
         <source>Dec contrast</source>
         <translation>Kevesebb kontraszt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1394"/>
+        <location filename="../basegui.cpp" line="1453"/>
         <source>Inc contrast</source>
         <translation>Több kontraszt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1395"/>
+        <location filename="../basegui.cpp" line="1454"/>
         <source>Dec brightness</source>
         <translation>Kevesebb fényerő</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1396"/>
+        <location filename="../basegui.cpp" line="1455"/>
         <source>Inc brightness</source>
         <translation>Több fényerő</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1397"/>
+        <location filename="../basegui.cpp" line="1456"/>
         <source>Dec hue</source>
         <translation>Kevesebb telítettség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1398"/>
+        <location filename="../basegui.cpp" line="1457"/>
         <source>Inc hue</source>
         <translation>Több telítettség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1399"/>
+        <location filename="../basegui.cpp" line="1458"/>
         <source>Dec saturation</source>
         <translation>Kevesebb telítettség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1401"/>
+        <location filename="../basegui.cpp" line="1460"/>
         <source>Dec gamma</source>
         <translation>Kevesebb gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1404"/>
+        <location filename="../basegui.cpp" line="1463"/>
         <source>Next audio</source>
         <translation>Következő hang</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1405"/>
+        <location filename="../basegui.cpp" line="1464"/>
         <source>Next subtitle</source>
         <translation>Következő felirat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1406"/>
+        <location filename="../basegui.cpp" line="1465"/>
         <source>Next chapter</source>
         <translation>Következő fejezet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1407"/>
+        <location filename="../basegui.cpp" line="1466"/>
         <source>Previous chapter</source>
         <translation>Előző fejezet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1400"/>
+        <location filename="../basegui.cpp" line="1459"/>
         <source>Inc saturation</source>
         <translation>Több telítettség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1402"/>
+        <location filename="../basegui.cpp" line="1461"/>
         <source>Inc gamma</source>
         <translation>Több gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1319"/>
+        <location filename="../basegui.cpp" line="1378"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Külső fájl betöltése...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1505"/>
+        <location filename="../basegui.cpp" line="1570"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1502"/>
+        <location filename="../basegui.cpp" line="1567"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normál)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1503"/>
+        <location filename="../basegui.cpp" line="1568"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (dupla képkockaszám)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1371"/>
+        <location filename="../basegui.cpp" line="1430"/>
         <source>&amp;Next</source>
         <translation>&amp;Következő</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1372"/>
+        <location filename="../basegui.cpp" line="1431"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Előző</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1325"/>
+        <location filename="../basegui.cpp" line="1384"/>
         <source>Volume &amp;normalization</source>
         <translation>Hangerő &amp;normalizálás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1238"/>
+        <location filename="../basegui.cpp" line="1288"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Hanglemez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1508"/>
+        <location filename="../basegui.cpp" line="1573"/>
         <source>Denoise nor&amp;mal</source>
         <translation>Denoise nor&amp;mál</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1509"/>
+        <location filename="../basegui.cpp" line="1574"/>
         <source>Denoise &amp;soft</source>
         <translation>Denoise &amp;lágy</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1507"/>
+        <location filename="../basegui.cpp" line="1572"/>
         <source>Denoise o&amp;ff</source>
         <translation>Denoise &amp;ki</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1341"/>
+        <location filename="../basegui.cpp" line="1400"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>SSA/&amp;ASS könyvtár használata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1286"/>
+        <location filename="../basegui.cpp" line="1345"/>
         <source>Flip i&amp;mage</source>
         <translation>Kép &amp;tükrözése</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1408"/>
+        <location filename="../basegui.cpp" line="1467"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;Dupla méretre vált</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1335"/>
+        <location filename="../basegui.cpp" line="1394"/>
         <source>S&amp;ize -</source>
         <translation>&amp;Méret -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1336"/>
+        <location filename="../basegui.cpp" line="1395"/>
         <source>Si&amp;ze +</source>
         <translation>Mé&amp;ret +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1306"/>
+        <location filename="../basegui.cpp" line="1365"/>
         <source>Add &amp;black borders</source>
         <translation>&amp;Fekete szegélyek hozzáadása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1307"/>
+        <location filename="../basegui.cpp" line="1366"/>
         <source>Soft&amp;ware scaling</source>
         <translation>Szoft&amp;veres méretezés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1364"/>
+        <location filename="../basegui.cpp" line="1423"/>
         <source>&amp;FAQ</source>
         <translation>&amp;GYIK</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1356"/>
+        <location filename="../basegui.cpp" line="1415"/>
         <source>Visualize &amp;motion vectors</source>
         <translation>Mo&amp;zgásvektorok mutatása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1365"/>
+        <location filename="../basegui.cpp" line="1424"/>
         <source>&amp;Command line options</source>
         <translation>&amp;Parancssori opciók</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3345"/>
+        <location filename="../basegui.cpp" line="3420"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer parancssori opciók</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1342"/>
+        <location filename="../basegui.cpp" line="1401"/>
         <source>Enable &amp;closed caption</source>
         <translation>Feliratok gyengén &amp;hallóknak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1343"/>
+        <location filename="../basegui.cpp" line="1402"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Csak &amp;kényszerített feliratok</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1409"/>
+        <location filename="../basegui.cpp" line="1468"/>
         <source>Reset video equalizer</source>
         <translation>Video kiegyenlítő (EQ) alaphelyzet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4208"/>
+        <location filename="../basegui.cpp" line="4283"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Az MPlayer váratlanul leállt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4209"/>
+        <location filename="../basegui.cpp" line="4284"/>
         <source>Exit code: %1</source>
         <translation>Visszatérési érték: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4226"/>
+        <location filename="../basegui.cpp" line="4301"/>
         <source>MPlayer failed to start.</source>
         <translation>Az MPlayer nem tudott elindulni.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4227"/>
+        <location filename="../basegui.cpp" line="4302"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Ellenőrizze az MPlayer elérési útvonalát a beállításokban.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4229"/>
+        <location filename="../basegui.cpp" line="4304"/>
         <source>MPlayer has crashed.</source>
         <translation>Az MPlayer összeomlott.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4230"/>
+        <location filename="../basegui.cpp" line="4305"/>
         <source>See the log for more info.</source>
         <translation>Több információért nézze meg a naplót.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1472"/>
+        <location filename="../basegui.cpp" line="1537"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Forgatás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1511"/>
+        <location filename="../basegui.cpp" line="1576"/>
         <source>&amp;Off</source>
         <translation>&amp;Ki</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1512"/>
+        <location filename="../basegui.cpp" line="1577"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;Forgatás 90 fokkal jobbra és tükrözés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1513"/>
+        <location filename="../basegui.cpp" line="1578"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>Forgatás 90 fokkal &amp;jobbra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1514"/>
+        <location filename="../basegui.cpp" line="1579"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>Forgatás 90 fokkal &amp;balra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1515"/>
+        <location filename="../basegui.cpp" line="1580"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Forgatás 90 fokkal balra és &amp;tükrözés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1266"/>
+        <location filename="../basegui.cpp" line="1325"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;Ugrás...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1411"/>
+        <location filename="../basegui.cpp" line="1470"/>
         <source>Show context menu</source>
         <translation>Helyi menü mutatása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3137"/>
+        <location filename="../basegui.cpp" line="3212"/>
         <source>Multimedia</source>
         <translation>Multimédia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1310"/>
+        <location filename="../basegui.cpp" line="1369"/>
         <source>E&amp;qualizer</source>
         <translation>Han&amp;gszínszabályzó</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1410"/>
+        <location filename="../basegui.cpp" line="1469"/>
         <source>Reset audio equalizer</source>
         <translation>Hang kiegyenlítő alaphelyzet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1347"/>
+        <location filename="../basegui.cpp" line="1406"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Feliratok keresése az &amp;OpenSubtitles.org-on...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1348"/>
+        <location filename="../basegui.cpp" line="1407"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Feliratok feltöltése az OpenSu&amp;btitles.org-ra...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1366"/>
+        <location filename="../basegui.cpp" line="1425"/>
         <source>&amp;Tips</source>
         <translation>&amp;Tippek</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1488"/>
+        <location filename="../basegui.cpp" line="1553"/>
         <source>&amp;Auto</source>
         <translation>&amp;Auto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1274"/>
+        <location filename="../basegui.cpp" line="1333"/>
         <source>Speed -&amp;4%</source>
         <translation>Sebesség -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1275"/>
+        <location filename="../basegui.cpp" line="1334"/>
         <source>&amp;Speed +4%</source>
         <translation>Sebesség +&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1276"/>
+        <location filename="../basegui.cpp" line="1335"/>
         <source>Speed -&amp;1%</source>
         <translation>Sebesség -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1277"/>
+        <location filename="../basegui.cpp" line="1336"/>
         <source>S&amp;peed +1%</source>
         <translation>Sebesség +&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1479"/>
+        <location filename="../basegui.cpp" line="1544"/>
         <source>Scree&amp;n</source>
         <translation>Képer&amp;nyő</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1523"/>
+        <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;Default</source>
         <translation>&amp;Alapértelmezés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1287"/>
+        <location filename="../basegui.cpp" line="1346"/>
         <source>Mirr&amp;or image</source>
         <translation>Tükr&amp;özés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1403"/>
+        <location filename="../basegui.cpp" line="1462"/>
         <source>Next video</source>
         <translation>Következő videó</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1454"/>
+        <location filename="../basegui.cpp" line="1519"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Sáv</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1527"/>
+        <location filename="../basegui.cpp" line="1592"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Hangsáv</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3643"/>
+        <location filename="../basegui.cpp" line="3718"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Figyelem - Régi MPlayer használata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3647"/>
+        <location filename="../basegui.cpp" line="3722"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>A feltelepített %1 verziójú MPlayer elavult. Az SMPlayer nem tud vele jól együttműködni: egyes opciók nem fognak működni, felirat kiválasztás hibás lehet...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3650"/>
+        <location filename="../basegui.cpp" line="3725"/>
         <source>Please, update your MPlayer.</source>
         <translation>Kérem frissítse az MPlayert.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3651"/>
+        <location filename="../basegui.cpp" line="3726"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Ez a figyelmeztetés többet nem jelenik meg)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1412"/>
+        <location filename="../basegui.cpp" line="1471"/>
         <source>Next aspect ratio</source>
         <translation>Következő méretarány</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1292"/>
+        <location filename="../basegui.cpp" line="1351"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;Auto nagyítás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1293"/>
+        <location filename="../basegui.cpp" line="1352"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Nagyítás &amp;16:9-hez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1294"/>
+        <location filename="../basegui.cpp" line="1353"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Nagyítás &amp;2.35:1-hez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1285"/>
+        <location filename="../basegui.cpp" line="1344"/>
         <source>Pre&amp;view...</source>
         <translation>Elő&amp;nézet...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1517"/>
+        <location filename="../basegui.cpp" line="1582"/>
         <source>&amp;Always</source>
         <translation>&amp;Mindig</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1518"/>
+        <location filename="../basegui.cpp" line="1583"/>
         <source>&amp;Never</source>
         <translation>&amp;Soha</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1519"/>
+        <location filename="../basegui.cpp" line="1584"/>
         <source>While &amp;playing</source>
         <translation>&amp;Lejátszás közben</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1638"/>
         <source>DVD &amp;menu</source>
         <translation>DVD &amp;menü</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1575"/>
+        <location filename="../basegui.cpp" line="1640"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD &amp;előző menü</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1569"/>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>DVD menu, move up</source>
         <translation>DVD menü, fel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1570"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>DVD menu, move down</source>
         <translation>DVD menü, le</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1571"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>DVD menu, move left</source>
         <translation>DVD menü, balra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1637"/>
         <source>DVD menu, move right</source>
         <translation>DVD menü, jobbra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>DVD menu, select option</source>
         <translation>DVD menü, kiválasztás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1641"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD menü, egér kattintás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1318"/>
+        <location filename="../basegui.cpp" line="1377"/>
         <source>Set dela&amp;y...</source>
         <translation>Késleltetés &amp;beállítása...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1332"/>
+        <location filename="../basegui.cpp" line="1391"/>
         <source>Se&amp;t delay...</source>
         <translation>Késlel&amp;tetés beállítása...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3365"/>
+        <location filename="../basegui.cpp" line="3440"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Ugrás:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3366"/>
+        <location filename="../basegui.cpp" line="3441"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Keresés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3376"/>
+        <location filename="../basegui.cpp" line="3451"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Hang késleltetés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3377"/>
+        <location filename="../basegui.cpp" line="3452"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Hang késleltetés (ezredmásodpercben):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3386"/>
+        <location filename="../basegui.cpp" line="3461"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Felirat késleltetés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3387"/>
+        <location filename="../basegui.cpp" line="3462"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Felirat késleltetés (ezredmásodpercben):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1520"/>
+        <location filename="../basegui.cpp" line="1585"/>
         <source>Toggle stay on top</source>
         <translation>Mindig felül váltása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3942"/>
+        <location filename="../basegui.cpp" line="4017"/>
         <source>Jump to %1</source>
         <translation>Ugrás %1-re</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1284"/>
+        <location filename="../basegui.cpp" line="1343"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Pillanatkép rö&amp;gzítés kezdete/vége</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1345"/>
+        <location filename="../basegui.cpp" line="1404"/>
         <source>Subtitle &amp;visibility</source>
         <translation>Felirat &amp;láthatóság</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1413"/>
+        <location filename="../basegui.cpp" line="1472"/>
         <source>Next wheel function</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1563"/>
+        <location filename="../basegui.cpp" line="1628"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1296"/>
+        <source>&amp;Edit...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1297"/>
+        <source>Next TV channel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1298"/>
+        <source>Previous TV channel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1299"/>
+        <source>Next radio channel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1300"/>
+        <source>Previous radio channel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1508"/>
+        <source>&amp;TV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1511"/>
+        <source>Radi&amp;o</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="170"/>
+        <location filename="../baseguiplus.cpp" line="178"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer még mindig fut itt</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="191"/>
+        <location filename="../baseguiplus.cpp" line="199"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Tálca&amp;ikon megjelenítése</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="202"/>
+        <location filename="../baseguiplus.cpp" line="210"/>
         <source>&amp;Hide</source>
         <translation>&amp;Elrejt</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="204"/>
+        <location filename="../baseguiplus.cpp" line="212"/>
         <source>&amp;Restore</source>
         <translation>&amp;Visszaállít</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="190"/>
+        <location filename="../baseguiplus.cpp" line="198"/>
         <source>&amp;Quit</source>
         <translation>&amp;Kilépés</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="196"/>
+        <location filename="../baseguiplus.cpp" line="204"/>
         <source>Playlist</source>
         <translation>Lejátszási lista</translation>
     </message>
@@ -1630,97 +1665,97 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2447"/>
+        <location filename="../core.cpp" line="2490"/>
         <source>Brightness: %1</source>
         <translation>Fényerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2462"/>
+        <location filename="../core.cpp" line="2505"/>
         <source>Contrast: %1</source>
         <translation>Kontraszt: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2476"/>
+        <location filename="../core.cpp" line="2519"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2490"/>
+        <location filename="../core.cpp" line="2533"/>
         <source>Hue: %1</source>
         <translation>Színárnyalat: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2504"/>
+        <location filename="../core.cpp" line="2547"/>
         <source>Saturation: %1</source>
         <translation>Telítettség: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2633"/>
+        <location filename="../core.cpp" line="2676"/>
         <source>Volume: %1</source>
         <translation>Hangerő: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3442"/>
+        <location filename="../core.cpp" line="3486"/>
         <source>Zoom: %1</source>
         <translation>Nagyítás: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2761"/>
+        <location filename="../core.cpp" line="2804"/>
         <source>Font scale: %1</source>
         <translation>Betű méret: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3313"/>
+        <location filename="../core.cpp" line="3357"/>
         <source>Aspect ratio: %1</source>
         <translation>Méretarány: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3688"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Betűkészlet gyorsítótár frissítése. Eltarthat pár másodpercig...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2675"/>
+        <location filename="../core.cpp" line="2718"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Felirat késleltetés: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2692"/>
+        <location filename="../core.cpp" line="2735"/>
         <source>Audio delay: %1 ms</source>
         <translation>Hang késleltetés: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2558"/>
+        <location filename="../core.cpp" line="2601"/>
         <source>Speed: %1</source>
         <translation>Sebesség: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2804"/>
+        <location filename="../core.cpp" line="2847"/>
         <source>Subtitles on</source>
         <translation>Felirat be</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2806"/>
+        <location filename="../core.cpp" line="2849"/>
         <source>Subtitles off</source>
         <translation>Felirat ki</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3360"/>
+        <location filename="../core.cpp" line="3404"/>
         <source>Mouse wheel seeks now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3363"/>
+        <location filename="../core.cpp" line="3407"/>
         <source>Mouse wheel changes volume now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3366"/>
+        <location filename="../core.cpp" line="3410"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3369"/>
+        <location filename="../core.cpp" line="3413"/>
         <source>Mouse wheel changes speed now</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1792,6 +1827,79 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <location filename="../errordialog.ui" line="67"/>
         <source>Error</source>
         <translation>Hiba</translation>
+    </message>
+</context>
+<context>
+    <name>FavoriteEditor</name>
+    <message>
+        <location filename="../favoriteeditor.cpp" line="35"/>
+        <source>Icon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.cpp" line="35"/>
+        <source>Name</source>
+        <translation type="unfinished">Név</translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.cpp" line="35"/>
+        <source>Media</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.cpp" line="45"/>
+        <source>Favorite editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.ui" line="34"/>
+        <source>Favorite list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.cpp" line="49"/>
+        <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.cpp" line="222"/>
+        <source>Select an icon file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.cpp" line="224"/>
+        <source>Images</source>
+        <translation type="unfinished">Képek</translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.ui" line="18"/>
+        <source>icon</source>
+        <translation type="unfinished">ikon</translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.ui" line="51"/>
+        <source>&amp;New</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.ui" line="71"/>
+        <source>D&amp;elete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.ui" line="78"/>
+        <source>Delete &amp;all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.ui" line="98"/>
+        <source>&amp;Up</source>
+        <translation type="unfinished">&amp;Fel</translation>
+    </message>
+    <message>
+        <location filename="../favoriteeditor.ui" line="105"/>
+        <source>&amp;Down</source>
+        <translation type="unfinished">&amp;Le</translation>
     </message>
 </context>
 <context>
@@ -2191,199 +2299,199 @@ Please check the permissions of that folder.</source>
 <context>
     <name>InfoFile</name>
     <message>
-        <location filename="../infofile.cpp" line="62"/>
+        <location filename="../infofile.cpp" line="63"/>
         <source>General</source>
         <translation>Általános</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="66"/>
+        <location filename="../infofile.cpp" line="67"/>
         <source>Size</source>
         <translation>Méret</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="66"/>
+        <location filename="../infofile.cpp" line="67"/>
         <source>%1 KB (%2 MB)</source>
         <translation>%1 KB (%2 MB)</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="73"/>
+        <location filename="../infofile.cpp" line="74"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="75"/>
+        <location filename="../infofile.cpp" line="76"/>
         <source>Length</source>
         <translation>Hossz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="76"/>
+        <location filename="../infofile.cpp" line="77"/>
         <source>Demuxer</source>
         <translation>Demuxer</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="152"/>
+        <location filename="../infofile.cpp" line="153"/>
         <source>Name</source>
         <translation>Név</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="82"/>
+        <location filename="../infofile.cpp" line="83"/>
         <source>Artist</source>
         <translation>Előadó</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="83"/>
+        <location filename="../infofile.cpp" line="84"/>
         <source>Author</source>
         <translation>Szerző</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="84"/>
+        <location filename="../infofile.cpp" line="85"/>
         <source>Album</source>
         <translation>Album</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="85"/>
+        <location filename="../infofile.cpp" line="86"/>
         <source>Genre</source>
         <translation>Műfaj</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="86"/>
+        <location filename="../infofile.cpp" line="87"/>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="87"/>
+        <location filename="../infofile.cpp" line="88"/>
         <source>Track</source>
         <translation>Sáv</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="88"/>
+        <location filename="../infofile.cpp" line="89"/>
         <source>Copyright</source>
         <translation>Copyright</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="89"/>
+        <location filename="../infofile.cpp" line="90"/>
         <source>Comment</source>
         <translation>Megjegyzés</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="90"/>
+        <location filename="../infofile.cpp" line="91"/>
         <source>Software</source>
         <translation>Szoftver</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="95"/>
+        <location filename="../infofile.cpp" line="96"/>
         <source>Clip info</source>
         <translation>Klipp infó</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="102"/>
+        <location filename="../infofile.cpp" line="103"/>
         <source>Video</source>
         <translation>Videó</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="103"/>
+        <location filename="../infofile.cpp" line="104"/>
         <source>Resolution</source>
         <translation>Felbontás</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="104"/>
+        <location filename="../infofile.cpp" line="105"/>
         <source>Aspect ratio</source>
         <translation>Méretarány</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="114"/>
+        <location filename="../infofile.cpp" line="115"/>
         <source>Format</source>
         <translation>Formátum</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="115"/>
+        <location filename="../infofile.cpp" line="116"/>
         <source>Bitrate</source>
         <translation>Bitráta</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="115"/>
+        <location filename="../infofile.cpp" line="116"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="107"/>
+        <location filename="../infofile.cpp" line="108"/>
         <source>Frames per second</source>
         <translation>Képkocka / másodperc</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="118"/>
+        <location filename="../infofile.cpp" line="119"/>
         <source>Selected codec</source>
         <translation>Kiválasztott kodek</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="113"/>
+        <location filename="../infofile.cpp" line="114"/>
         <source>Initial Audio Stream</source>
         <translation>Elsődleges hang adatfolyam</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="116"/>
+        <location filename="../infofile.cpp" line="117"/>
         <source>Rate</source>
         <translation>Érték</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="116"/>
+        <location filename="../infofile.cpp" line="117"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="117"/>
+        <location filename="../infofile.cpp" line="118"/>
         <source>Channels</source>
         <translation>Csatornák</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="123"/>
+        <location filename="../infofile.cpp" line="124"/>
         <source>Audio Streams</source>
         <translation>Hang adatfolyamok</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="152"/>
+        <location filename="../infofile.cpp" line="153"/>
         <source>Language</source>
         <translation>Nyelv</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="167"/>
+        <location filename="../infofile.cpp" line="168"/>
         <source>empty</source>
         <translation>üres</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="147"/>
+        <location filename="../infofile.cpp" line="148"/>
         <source>Subtitles</source>
         <translation>Feliratok</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="151"/>
+        <location filename="../infofile.cpp" line="152"/>
         <source>Type</source>
         <translation>Típus</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="153"/>
+        <location filename="../infofile.cpp" line="154"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
         <translation>Azonosító</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="150"/>
+        <location filename="../infofile.cpp" line="151"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="91"/>
+        <location filename="../infofile.cpp" line="92"/>
         <source>Stream title</source>
         <translation>Adatfolyam címe</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="92"/>
+        <location filename="../infofile.cpp" line="93"/>
         <source>Stream URL</source>
         <translation>Adatfolyam URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="65"/>
+        <location filename="../infofile.cpp" line="66"/>
         <source>File</source>
         <translation>Fájl</translation>
     </message>
@@ -6079,7 +6187,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="223"/>
+        <location filename="../prefperformance.cpp" line="233"/>
         <source>Performance</source>
         <translation>Teljesítmény</translation>
     </message>
@@ -6129,22 +6237,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>tétlen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="278"/>
+        <location filename="../prefperformance.cpp" line="288"/>
         <source>Cache</source>
         <translation>Gyorsítótár</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="550"/>
+        <location filename="../prefperformance.ui" line="586"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="443"/>
+        <location filename="../prefperformance.ui" line="374"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Gyorsítótár beállítása növelheti a teljesítményt lassú média esetén</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="233"/>
+        <location filename="../prefperformance.cpp" line="243"/>
         <source>Allow frame drop</source>
         <translation>Kép eldobás engedélyezése</translation>
     </message>
@@ -6159,27 +6267,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Automatikus hang/videó szinkronizálás</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="263"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>Fast audio track switching</source>
         <translation>Gyors hangsávváltás</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="273"/>
+        <location filename="../prefperformance.cpp" line="283"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Gyors léptetés a fejezetekhez DVD-ken</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Néhány képkocka elhagyása az A/V szinkron megtartásához lassú rendszereken.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="236"/>
+        <location filename="../prefperformance.cpp" line="246"/>
         <source>Allow hard frame drop</source>
         <translation>Engedélyezi a durva kép eldobást </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenzívebb képdobás (rontja a dekódolást). Képtorzuláshoz vezet!</translation>
     </message>
@@ -6224,12 +6332,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Gyors &amp;léptetés a fejezetekhez DVD-ken</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="285"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Ha bejelöli, a leggyorsabb módszerrel lesz megkísérelve a fejezet léptetés, de néhány lemeznél nem működik.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="257"/>
         <source>Skip loop filter</source>
         <translation>Hurokszűrő kihagyása</translation>
     </message>
@@ -6239,37 +6347,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="280"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Lehetséges értékek:&lt;br&gt; &lt;b&gt;Igen&lt;/b&gt;: hangsávváltás a leggyorsabb módszerrel (néhány formátumnál nem működik).&lt;br&gt; &lt;b&gt;Nem&lt;/b&gt;: az MPlayer folyamat újraindul minden hangsávváltáskor.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: az SMPlayer dönti el az MPlayer verzió alapján.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="280"/>
+        <location filename="../prefperformance.cpp" line="290"/>
         <source>Cache for files</source>
         <translation>Fájl gyorsítótár</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="292"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Ez az opció határozza meg, mennyi memória legyen használva fájlok buffereléséhez (kBájtban).</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="294"/>
         <source>Cache for streams</source>
         <translation>Adatfolyam gyorsítótár</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Ez az opció határozza meg, mennyi memória legyen használva URL-ek buffereléséhez (kBájtban).</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="288"/>
+        <location filename="../prefperformance.cpp" line="298"/>
         <source>Cache for DVDs</source>
         <translation>DVD gyorsítótár</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="301"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Ez az opció határozza meg, mennyi memória (kBájtban) legyen használva DVDk buffereléséhez.&lt;br&gt;&lt;b&gt;Figyelem:&lt;/b&gt; Előfordulhat, hogy a keresés (illetve a fejezetváltás) nem fog megfelelően működni DVD gyorsítótár használatakor.</translation>
     </message>
@@ -6279,17 +6387,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Gyorsítótár</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="433"/>
+        <location filename="../prefperformance.ui" line="458"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>&amp;DVD gyorsítótár:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="453"/>
+        <location filename="../prefperformance.ui" line="384"/>
         <source>Cache for &amp;local files:</source>
         <translation>&amp;Helyi fájl gyorsítótár:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="463"/>
+        <location filename="../prefperformance.ui" line="421"/>
         <source>Cache for &amp;streams:</source>
         <translation>&amp;Adatfolyam gyorsítótár:</translation>
     </message>
@@ -6314,67 +6422,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Hurok&amp;szűrő</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="254"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Ez az opció lehetővé teszi a hurokszűrő (deblocking) kihagyását H.264 dekódoláskor. Mivel a szűrt képkocka a referencia a tőle függő képkockák dekódolásához, ezért ez rosszabb hatással van a minőségre, mint a deblocking kihagyása pl. MPEG-2 videón. De legalább magas bitrátájú HDTV esetén ez nagy sebességnövekedést ad látható minőségromlás nélkül.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Possible values:</source>
         <translation>Lehetséges értékek:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="266"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Engedélyezve&lt;/b&gt;: a hurokszűrő nincs kihagyva</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="258"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Kihagy (mindig)&lt;/b&gt;: a hurokszűrő a videó felbontásától függetlenül kihagyva</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="261"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Kihagyás HD videó esetén&lt;/b&gt;: a hurokszűrő csak %1 vagy nagyobb magasságú videók esetén lesz kihagyva.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="303"/>
         <source>Cache for audio CDs</source>
         <translation>Audió CD gyorsítótár</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="305"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Ez az opció határozza meg, mennyi memória legyen használva audió CD-k buffereléséhez (kBájtban).</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="533"/>
+        <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>Audió &amp;CD gyorsítótár:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Cache for VCDs</source>
         <translation>VCD gyorsítótár</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Ez az opció határozza meg, mennyi memória legyen használva VCD-k buffereléséhez (kBájtban).</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="577"/>
+        <location filename="../prefperformance.ui" line="532"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>&amp;VCD gyorsítótár:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="240"/>
+        <location filename="../prefperformance.cpp" line="250"/>
         <source>Threads for decoding</source>
         <translation>Dekódolási szálak</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="242"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Beállítja a dekódoláshoz használt szálak számát. Csak MPEG-1/2 és H.264 esetén</translation>
     </message>
@@ -6384,17 +6492,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Dekódolási szálak (csak MPEG-1/2 és H.264 esetén):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="230"/>
+        <location filename="../prefperformance.cpp" line="240"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Állítsa be az MPlayer folyamat prioritását a Windowsban meghatározott prioritásoknak megfelelően.&lt;br&gt;&lt;b&gt;Figyelem:&lt;/b&gt; A valós idejű prioritás használata rendszerlefagyást okozhat.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="254"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>CoreAVC használata ha nincs más kodek beállítva</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="255"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation>A nem szabad szoftver CoreAVC kodek használata ha nincs más kodek beállítva és nem VDPAU video kimenet van kiválasztva. CoreAVC-t támogató MPlayer buildet igényel.</translation>
     </message>
@@ -6402,6 +6510,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="292"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation>&amp;CoreAVC használata ha nincs más kodek beállítva</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="569"/>
+        <source>Cache for &amp;TV:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7159,7 +7272,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>a főablak bezáródik, ha a fájl/lejátszási lista véget ért.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="372"/>
+        <location filename="../smplayer.cpp" line="380"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ez az SMPlayer v. %1 ami %2 -n fut</translation>
     </message>
@@ -7391,6 +7504,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
         <translation>Minden kijelölés törlése</translation>
+    </message>
+</context>
+<context>
+    <name>TVList</name>
+    <message>
+        <location filename="../tvlist.cpp" line="82"/>
+        <source>Channel editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tvlist.cpp" line="83"/>
+        <source>TV/Radio list</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
