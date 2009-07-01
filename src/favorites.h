@@ -81,7 +81,7 @@ protected:
 
 protected slots:
 	void triggered_slot(QAction * action);
-	void edit();
+	virtual void edit();
 
 protected:
 	FavoriteList f_list;

@@ -18,6 +18,7 @@
 
 #include "favorites.h"
 #include "favoriteeditor.h"
+
 #include <QMenu>
 #include <QAction>
 #include <QSettings>
@@ -219,8 +220,6 @@ void Favorites::edit() {
 	qDebug("Favorites::edit");
 
 	FavoriteEditor e(parent_widget);
-	e.setWindowTitle(tr("Favorite editor"));
-	e.setCaption("<b>" + tr("Favorite list") + "</b>");
 
 	e.setData(f_list);
 

@@ -11,11 +11,34 @@
   </property>
   <layout class="QVBoxLayout" >
    <item>
-    <widget class="QLabel" name="title_label" >
-     <property name="text" >
-      <string>Favorite list</string>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" >
+     <item>
+      <widget class="QLabel" name="dialog_icon" >
+       <property name="text" >
+        <string>icon</string>
+       </property>
+       <property name="alignment" >
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="title_label" >
+       <property name="sizePolicy" >
+        <sizepolicy vsizetype="Preferred" hsizetype="Expanding" >
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text" >
+        <string>Favorite list</string>
+       </property>
+       <property name="wordWrap" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
    <item>
     <widget class="QTableWidget" name="table" />
@@ -104,6 +127,15 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>table</tabstop>
+  <tabstop>add_button</tabstop>
+  <tabstop>delete_button</tabstop>
+  <tabstop>delete_all_button</tabstop>
+  <tabstop>up_button</tabstop>
+  <tabstop>down_button</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>
