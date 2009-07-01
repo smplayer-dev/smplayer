@@ -22,6 +22,8 @@
 #include "ui_favoriteeditor.h"
 #include "favorites.h"
 
+class QPixmap;
+
 class FavoriteEditor : public QDialog, public Ui::FavoriteEditor
 {
 	Q_OBJECT
@@ -33,8 +35,14 @@ public:
 	void setCaption(const QString & caption);
 	QString caption();
 
+	void setIntro(const QString & intro);
+	QString intro();
+
 	void setData( FavoriteList list );
 	FavoriteList data();
+
+	void setDialogIcon( const QPixmap & icon );
+	const QPixmap * dialogIcon() const;
 
 protected slots:
 	void on_up_button_clicked();
@@ -49,6 +57,9 @@ protected:
 	QList<QTableWidgetItem*> takeRow(int row);
 	void setRow(int row, const QList<QTableWidgetItem*>& rowItems);
 
+	void updateTitleLabel();
+
+	QString caption_text, intro_text;
 	QString last_dir;
 };
 

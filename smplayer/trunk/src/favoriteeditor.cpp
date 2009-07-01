@@ -17,6 +17,8 @@
 */
 
 #include "favoriteeditor.h"
+#include "images.h"
+
 #include <QHeaderView>
 #include <QFileDialog>
 
@@ -30,7 +32,7 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 	setupUi(this);
 
 	table->setColumnCount(3);
-	table->setHorizontalHeaderLabels(QStringList() << tr("Icon") << tr("Name") << tr("File") );
+	table->setHorizontalHeaderLabels(QStringList() << tr("Icon") << tr("Name") << tr("Media") );
 
 	table->setAlternatingRowColors(true);
 	table->horizontalHeader()->setResizeMode(COL_FILE, QHeaderView::Stretch);
@@ -39,17 +41,47 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
 
 	connect(table, SIGNAL(cellActivated(int,int)), this, SLOT(edit_icon(int,int)));
+
+	setWindowTitle( tr("Favorite editor") );
+
+	setCaption( tr("Favorite list") );
+	setIntro( tr("You can edit, delete, sort or add new items. Double click on "
+                 "a cell to edit its contents.") );
+
+	setDialogIcon( Images::icon("favorite") );
 }
 
 FavoriteEditor::~FavoriteEditor() {
 }
 
 void FavoriteEditor::setCaption(const QString & caption) {
-	title_label->setText(caption);
+	caption_text = caption;
+	updateTitleLabel();
 }
 
 QString FavoriteEditor::caption() {
-	return title_label->text();
+	return caption_text;
+}
+
+void FavoriteEditor::setIntro(const QString & intro) {
+	intro_text = intro;
+	updateTitleLabel();
+}
+
+QString FavoriteEditor::intro() {
+	return intro_text;
+}
+
+void FavoriteEditor::updateTitleLabel() {
+	title_label->setText( "<h1>" + caption_text + "</h1>" + intro_text );
+}
+
+void FavoriteEditor::setDialogIcon( const QPixmap & icon ) {
+	dialog_icon->setPixmap(icon);
+}
+
+const QPixmap * FavoriteEditor::dialogIcon() const {
+	return dialog_icon->pixmap();
 }
 
 void FavoriteEditor::setData( FavoriteList list ) {
