@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -1601,37 +1602,37 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1296"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Editar...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1297"/>
         <source>Next TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Siguiente canal de TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1298"/>
         <source>Previous TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Anterior canal de TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1299"/>
         <source>Next radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Siguiente canal de radio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1300"/>
         <source>Previous radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Anterior canal de radio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1511"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>Radi&amp;o</translation>
     </message>
 </context>
 <context>
@@ -1839,72 +1840,72 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Icono</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Name</source>
-        <translation type="unfinished">Nombre</translation>
+        <translation>Nombre</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Medio</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="45"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Editor de favoritos</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de favoritos</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="49"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puedes editar, borrar, ordenar o añadir nuevos elementos. Haz doble click en una celda para editar su contenido.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="222"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona una imagen para el icono</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="224"/>
         <source>Images</source>
-        <translation type="unfinished">Imágenes</translation>
+        <translation>Imágenes</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished">icon</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nuevo</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Borrar</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrar &amp;todo</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="98"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">&amp;Arriba</translation>
+        <translation>&amp;Arriba</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">A&amp;bajo</translation>
+        <translation>Aba&amp;jo</translation>
     </message>
 </context>
 <context>
@@ -6523,7 +6524,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="569"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>Caché para &amp;TV:</translation>
     </message>
 </context>
 <context>
@@ -7537,12 +7538,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="82"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Editor de canales</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="83"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de TV/Radio</translation>
     </message>
 </context>
 <context>
