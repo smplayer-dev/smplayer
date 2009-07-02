@@ -821,7 +821,8 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(deinterlace_combo, tr("Deinterlace by default"),
         tr("Select the deinterlace filter that you want to be used for new "
-           "videos opened.") );
+           "videos opened.") +" "+ 
+        tr("<b>Note:</b> This option won't be used for TV channels.") );
 
 	setWhatsThis(zoom_spin, tr("Default zoom"),
 		tr("This option sets the default zoom which will be used for "

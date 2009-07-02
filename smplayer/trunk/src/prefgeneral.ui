@@ -361,7 +361,7 @@
          <item>
           <widget class="QLabel" name="label_7" >
            <property name="text" >
-            <string>Dei&amp;nterlace by default:</string>
+            <string>Dei&amp;nterlace by default (except for TV):</string>
            </property>
            <property name="buddy" >
             <cstring>deinterlace_combo</cstring>
