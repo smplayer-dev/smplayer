@@ -39,6 +39,7 @@ class PrefInterface;
 class PrefInput;
 class PrefAdvanced;
 class PrefPlaylist;
+class PrefTV;
 class PrefAssociations;
 
 class Preferences;
@@ -96,6 +97,7 @@ protected:
 	PrefInterface * page_interface;
 	PrefInput * page_input;
 	PrefPlaylist * page_playlist;
+	PrefTV * page_tv;
 	PrefAdvanced * page_advanced;
 
 #if USE_ASSOCIATIONS
