@@ -1860,7 +1860,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="49"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Bearbeiten, löschen, sortieren, oder einen neuen Begriff hinzufügen. Doppelklick auf eine Zelle um den Inhalt zu bearbeiten.</translation>
+        <translation>Bearbeiten, löschen, sortieren, oder einen neuen Eintrag hinzufügen. Doppelklick auf eine Zelle, um den Inhalt zu bearbeiten.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="222"/>
@@ -1880,7 +1880,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New</source>
-        <translation>&amp;neu</translation>
+        <translation>&amp;Neu</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
