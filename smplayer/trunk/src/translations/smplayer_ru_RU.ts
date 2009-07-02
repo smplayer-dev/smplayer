@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -1596,37 +1597,37 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1296"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Редактировать...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1297"/>
         <source>Next TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующий ТВ канал</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1298"/>
         <source>Previous TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущий ТВ канал</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1299"/>
         <source>Next radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующий канал радио</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1300"/>
         <source>Previous radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущий канал радио</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ТВ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1511"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Радио</translation>
     </message>
 </context>
 <context>
@@ -1834,72 +1835,72 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Значок</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Name</source>
-        <translation type="unfinished">Имя</translation>
+        <translation>Имя</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="45"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор списков избранного</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>Список избранного</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="49"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы можете редактировать, удалять, сортировать и добавлять новые пункты. Двойной клик на ячейке для редактирования её содержимого.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="222"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>Выбрать файл значка</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="224"/>
         <source>Images</source>
-        <translation type="unfinished">Изображения</translation>
+        <translation>Изображения</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished">значок</translation>
+        <translation>значок</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Добавить</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Удалить</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить &amp;все</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="98"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">В&amp;верх</translation>
+        <translation>В&amp;верх</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">В&amp;низ</translation>
+        <translation>В&amp;низ</translation>
     </message>
 </context>
 <context>
@@ -3511,7 +3512,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3621,7 +3622,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -6518,7 +6519,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="569"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кэш для &amp;ТВ:</translation>
     </message>
 </context>
 <context>
@@ -7519,12 +7520,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="82"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор каналов</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="83"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>Список ТВ/Радио</translation>
     </message>
 </context>
 <context>
