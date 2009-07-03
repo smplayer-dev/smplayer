@@ -1585,48 +1585,48 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1472"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>次のホイール機能</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1628"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>プログラム(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1296"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>編集(&amp;E)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1297"/>
         <source>Next TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>次の TV チャンネル</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1298"/>
         <source>Previous TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>前の TV チャンネル</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1299"/>
         <source>Next radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>次のラジオ チャンネル</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1300"/>
         <source>Previous radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>前のラジオ チャンネル</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>TV(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1511"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>ラジオ(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -1834,72 +1834,72 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>アイコン</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Name</source>
-        <translation type="unfinished">名前</translation>
+        <translation>名前</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>メディア</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="45"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>お気に入りエディター</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>お気に入りの一覧</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="49"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>編集、削除、整列または新しいアイテムを追加できます。内容を編集するにはセル上でダブル クリックします。</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="222"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>アイコン ファイルの選択</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="224"/>
         <source>Images</source>
-        <translation type="unfinished">イメージ</translation>
+        <translation>イメージ</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished">icon</translation>
+        <translation>icon</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>新規(&amp;N)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>削除(&amp;E)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>すべて削除(&amp;A)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="98"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">上へ(&amp;U)</translation>
+        <translation>上へ(&amp;U)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">下へ(&amp;D)</translation>
+        <translation>下へ(&amp;D)</translation>
     </message>
 </context>
 <context>
@@ -5302,12 +5302,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="825"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;注意:&lt;/b&gt; このオプションは TV チャンネルには使用されません。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="364"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation type="unfinished"></translation>
+        <translation>既定でのインターレース解除 (TV を除く)(&amp;N):</translation>
     </message>
 </context>
 <context>
@@ -6526,7 +6526,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="569"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>TV のキャッシュ(&amp;T):</translation>
     </message>
 </context>
 <context>
@@ -7243,72 +7243,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>TV とラジオ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished">なし</translation>
+        <translation>なし</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished">Lowpass5</translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished">Yadif (通常)</translation>
+        <translation>Yadif (通常)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished">Yadif (ダブル フレームレート)</translation>
+        <translation>Yadif (ダブル フレームレート)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished">リニア ブレンド</translation>
+        <translation>リニア ブレンド</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished">Kerndeint</translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 用の既定でのインターレース解除</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>TV チャンネルに使用したいインターレース解除フィルターを選択します。</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>起動時に ~/.mplayer/channels.conf を再スキャンする</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、SMPlayer は ~/.mplayer/channels.conf から新しい TV およびラジオ チャンネルを検索します。</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>TV とラジオ(&amp;T)</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 用の既定でのインターレース解除(&amp;N):</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>起動時に ~/.mplayer/channels.conf を再スキャンする(&amp;R)</translation>
     </message>
 </context>
 <context>
@@ -7596,12 +7596,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="82"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>チャンネル エディター</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="83"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>TV/ラジオの一覧</translation>
     </message>
 </context>
 <context>
