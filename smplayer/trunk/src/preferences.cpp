@@ -116,7 +116,7 @@ void Preferences::reset() {
 	mc_value = 0;
 
 	loop = false;
-	osd = None;
+	osd = Seek;
 
 	file_settings_method = "hash"; // Possible values: normal & hash
 
