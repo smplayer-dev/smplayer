@@ -419,6 +419,7 @@ protected:
 
 #ifndef NO_USE_INI_FILES
 	FileSettingsBase * file_settings;
+	FileSettingsBase * tv_settings;
 #endif
 
 #ifdef Q_OS_WIN
