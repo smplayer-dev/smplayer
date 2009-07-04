@@ -48,6 +48,7 @@
 #ifndef NO_USE_INI_FILES
 #include "filesettings.h"
 #include "filesettingshash.h"
+#include "tvsettings.h"
 #endif
 
 using namespace Global;
@@ -74,6 +75,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	// Create file_settings
 	file_settings = 0;
 	changeFileSettingsMethod(pref->file_settings_method);
+
+	// TV settings
+	tv_settings = new TVSettings(Paths::iniPath());
 #endif
 
     proc = new MplayerProcess(this);
@@ -234,6 +238,7 @@ Core::~Core() {
 
 #ifndef NO_USE_INI_FILES
 	delete file_settings;
+	delete tv_settings;
 #endif
 
 #ifdef Q_OS_WIN
@@ -302,6 +307,10 @@ void Core::saveMediaInfo() {
 
 	if ( (mdat.type == TYPE_FILE) && (!mdat.filename.isEmpty()) ) {
 		file_settings->saveSettingsFor(mdat.filename, mset);
+	}
+	else
+	if ( (mdat.type == TYPE_TV) && (!mdat.filename.isEmpty()) ) {
+		tv_settings->saveSettingsFor(mdat.filename, mset);
 	}
 }
 #endif // NO_USE_INI_FILES
@@ -675,6 +684,19 @@ void Core::openTV(QString channel_id) {
 
 	// Set the default deinterlacer for TV
 	mset.current_deinterlacer = pref->initial_tv_deinterlace;
+
+#ifndef NO_USE_INI_FILES
+	if (!pref->dont_remember_media_settings) {
+		// Check if we already have info about this file
+		if (tv_settings->existSettingsFor(channel_id)) {
+			qDebug("Core::openTV: we have settings for this file!!!");
+
+			// In this case we read info from config
+			tv_settings->loadSettingsFor(channel_id, mset);
+			qDebug("Core::openTV: media settings read");
+		}
+	}
+#endif
 
 	/* initializeMenus(); */
 
