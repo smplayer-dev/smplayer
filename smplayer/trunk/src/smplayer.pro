@@ -43,7 +43,7 @@ HEADERS += guiconfig.h \
 	preferences.h \
 	filesettingsbase.h \
 	filesettings.h \
-	filesettingshash.cpp \
+	filesettingshash.h \
 	images.h \
 	inforeader.h \
 	deviceinfo.h \
