@@ -214,12 +214,6 @@ Section SMPlayer SMPlayer
   File /r "smplayer-build\imageformats"
   File /r "smplayer-build\shortcuts"
 
-  ;Uninstall file
-  WriteUninstaller "$INSTDIR\uninst.exe"
-
-  ;Store installed path
-  WriteRegStr HKLM "Software\SMPlayer" "Path" "$INSTDIR"
-
   ;Initialize to 0 if don't exist (based on error flag)
   ClearErrors
   ReadRegDWORD $R0 HKLM Software\SMPlayer Installed_MPlayer
@@ -299,12 +293,12 @@ SectionGroup /e "MPlayer Components"
 
           IfErrors 0 done_ver_info
             DetailPrint $(VERINFO_IS_MISSING)
-            # Default Value if version-info exists but version string is missing from version-info
+            ;Default Value if version-info exists but version string is missing from version-info
             StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
             Goto done_ver_info
 
         noVerInfo:
-          # Default Value if version-info doesn't exist
+          ;Default Value if version-info doesn't exist
           StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
 
     done_ver_info:
@@ -430,6 +424,13 @@ ${MementoSectionEnd}
 
 Section -Post
 
+  ;Uninstall file
+  WriteUninstaller "$INSTDIR\uninst.exe"
+
+  ;Store installed path
+  WriteRegStr HKLM "Software\SMPlayer" "Path" "$INSTDIR"
+  WriteRegStr HKLM "Software\SMPlayer" "Version" "${PRODUCT_VERSION}"
+
   ${If} ${AtLeastWinVista}
     Call defaultProgramsReg
   ${EndIf}
@@ -439,10 +440,10 @@ Section -Post
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forums"
+  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "Publisher" "RVM"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
   WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "Publisher" "RVM"
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoRepair" "1"
 
@@ -489,7 +490,7 @@ Function .onInit
   /* Privileges Check */
   Call CheckUserRights
 
-  # Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
+  ;Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
   ${If} $IS_ADMIN == 0
     MessageBox MB_OK|MB_ICONSTOP $(SMPLAYER_INSTALLER_NO_ADMIN)
     Abort
@@ -604,80 +605,81 @@ FunctionEnd
 ;End Installer Sections
 ;------------------------------------------------------------------------------------------------
 
-;------------------------------------------------------------------------------------------------
-;Shared Functions
+/************************************************************************************************
+************************************** Shared Functions *****************************************
+************************************************************************************************/
 !macro CheckUserRightsMacro un
-  Function ${un}CheckUserRights
+Function ${un}CheckUserRights
 
-    ClearErrors
-    UserInfo::GetName
-    ${If} ${Errors}
+  ClearErrors
+  UserInfo::GetName
+  ${If} ${Errors}
+    StrCpy $IS_ADMIN 1
+    Return
+  ${EndIf}
+
+  Pop $USERNAME
+  UserInfo::GetAccountType
+  Pop $R0
+  ${Switch} $R0
+    ${Case} "Admin"
+    ${Case} "Power"
       StrCpy $IS_ADMIN 1
-      Return
-    ${EndIf}
+      ${Break}
+    ${Default}
+      StrCpy $IS_ADMIN 0
+      ${Break}
+  ${EndSwitch}
 
-    Pop $USERNAME
-    UserInfo::GetAccountType
-    Pop $R0
-    ${Switch} $R0
-      ${Case} "Admin"
-      ${Case} "Power"
-        StrCpy $IS_ADMIN 1
-        ${Break}
-      ${Default}
-        StrCpy $IS_ADMIN 0
-        ${Break}
-    ${EndSwitch}
-
-  FunctionEnd
+FunctionEnd
 !macroend
 !insertmacro CheckUserRightsMacro ""
 !insertmacro CheckUserRightsMacro "un."
 
 !macro UninstallSMPlayerMacro un
-  Function ${un}UninstallSMPlayer
+Function ${un}UninstallSMPlayer
 
-    # Delete registry keys
-    SetDetailsPrint textonly
-    DetailPrint "Deleting Registry Keys..."
-    SetDetailsPrint listonly
+  ;Delete registry keys
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Registry Keys..."
+  SetDetailsPrint listonly
 
-    DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
-    DeleteRegKey HKCR "MPlayerFileVideo"
-    DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
-    DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
-    DeleteRegKey HKLM "Software\SMPlayer"
+  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
+  DeleteRegKey HKCR "MPlayerFileVideo"
+  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
+  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
+  DeleteRegKey HKLM "Software\SMPlayer"
 
-    # Delete desktop and start menu shortcuts
-    SetDetailsPrint textonly
-    DetailPrint "Deleting Shortcuts..."
-    SetDetailsPrint listonly
+  ;Delete desktop and start menu shortcuts
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Shortcuts..."
+  SetDetailsPrint listonly
 
-    SetShellVarContext all
-    Delete "$DESKTOP\SMPlayer.lnk"
-    RMDir /r "$SMPROGRAMS\SMPlayer"
+  SetShellVarContext all
+  Delete "$DESKTOP\SMPlayer.lnk"
+  RMDir /r "$SMPROGRAMS\SMPlayer"
 
-    # Delete directories recursively except for main directory
-    # Do not recursively delete $INSTDIR
-    SetDetailsPrint textonly
-    DetailPrint "Deleting Files..."
-    SetDetailsPrint listonly
+  ;Delete directories recursively except for main directory
+  ;Do not recursively delete $INSTDIR
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Files..."
+  SetDetailsPrint listonly
 
-    RMDir /r "$INSTDIR\docs"
-    RMDir /r "$INSTDIR\imageformats"
-    RMDir /r "$INSTDIR\mplayer"
-    RMDir /r "$INSTDIR\shortcuts"
-    RMDir /r "$INSTDIR\themes"
-    RMDir /r "$INSTDIR\translations"
-    Delete "$INSTDIR\*.txt"
-    Delete "$INSTDIR\mingwm10.dll"
-    Delete "$INSTDIR\Q*.dll"
-    Delete "$INSTDIR\smplayer.exe"
-    Delete "$INSTDIR\dxlist.exe"
+  RMDir /r "$INSTDIR\docs"
+  RMDir /r "$INSTDIR\imageformats"
+  RMDir /r "$INSTDIR\mplayer"
+  RMDir /r "$INSTDIR\shortcuts"
+  RMDir /r "$INSTDIR\themes"
+  RMDir /r "$INSTDIR\translations"
+  Delete "$INSTDIR\*.txt"
+  Delete "$INSTDIR\mingwm10.dll"
+  Delete "$INSTDIR\Q*.dll"
+  Delete "$INSTDIR\smplayer.exe"
+  Delete "$INSTDIR\dxlist.exe"
 
-    SetDetailsPrint both
+  SetDetailsPrint both
 
-  FunctionEnd
+FunctionEnd
 !macroend
 !insertmacro UninstallSMPlayerMacro ""
 !insertmacro UninstallSMPlayerMacro "un."
@@ -685,8 +687,9 @@ FunctionEnd
 ;End Shared Functions
 ;------------------------------------------------------------------------------------------------
 
-;------------------------------------------------------------------------------------------------
-;UnInstaller
+/************************************************************************************************
+**************************************** Uninstaller ********************************************
+************************************************************************************************/
 
 ;--------------------------------
 ;UnInstaller Sections
