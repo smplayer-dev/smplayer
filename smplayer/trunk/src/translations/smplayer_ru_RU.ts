@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -3511,7 +3512,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3621,7 +3622,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -5304,12 +5305,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="825"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Внимание:&lt;/b&gt; Эта опция не будет использоваться для ТВ-каналов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="364"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Удаление гребёнки по умолчанию (кроме ТВ):</translation>
     </message>
 </context>
 <context>
@@ -7245,72 +7246,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>ТВ и радио</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished">Ничего</translation>
+        <translation>Ничего</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished">Lowpass5</translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished">Yadif (обычный)</translation>
+        <translation>Yadif (обычный)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished">Yadif (2× частота кадров)</translation>
+        <translation>Yadif (2× частота кадров)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished">Линейное смешивание</translation>
+        <translation>Линейное смешивание</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished">Адаптивное (mplayer)</translation>
+        <translation>Адаптивное (mplayer)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>Удаление гребёнки по умолчанию для ТВ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите фильтр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать для ТВ-каналов.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Пересканировать ~/.mplayer/channels.conf при старте</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, SMPlayer при старте будет искать новые ТВ- и радиоканалы в ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ТВ и радио</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Удаление гребёнки по умоланию для ТВ:</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Пере&amp;сканировать ~/.mplayer/channels при старте</translation>
     </message>
 </context>
 <context>
