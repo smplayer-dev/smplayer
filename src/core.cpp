@@ -1995,6 +1995,16 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("screenshot");
 	}
 
+
+	// VDPAU doesn't allow any video filters!
+#ifndef Q_OS_WIN
+	if (pref->vo.startsWith("vdpau")) {
+		proc->addArgument("-vf-clr");
+		qDebug("Core::startMplayer: vdpau doesn't allow any video filter. All have been removed.");
+	}
+#endif
+
+
 	// slices
 	if ((pref->use_slices) && (!force_noslices)) {
 		proc->addArgument("-slices");
