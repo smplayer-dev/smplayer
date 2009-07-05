@@ -80,6 +80,8 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 #endif
 	play_files_from_start = true;
 
+	automatically_play_next = true;
+
 	row_spacing = -1; // Default height
 
 	modified = false;
@@ -122,6 +124,11 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	srand( t.hour() * 3600 + t.minute() * 60 + t.second() );
 
 	loadSettings();
+
+	// Ugly hack to avoid to play next item automatically
+	if (!automatically_play_next) {
+		disconnect( core, SIGNAL(mediaFinished()), this, SLOT(playNext()) );
+	}
 
 	// Save config every 5 minutes.
 	save_timer = new QTimer(this);
@@ -1251,6 +1258,7 @@ void Playlist::saveSettings() {
 	set->setValue( "recursive_add_directory", recursive_add_directory );
 	set->setValue( "save_playlist_in_config", save_playlist_in_config );
 	set->setValue( "play_files_from_start", play_files_from_start );
+	set->setValue( "automatically_play_next", automatically_play_next );
 
 	set->setValue( "row_spacing", row_spacing );
 
@@ -1292,6 +1300,7 @@ void Playlist::loadSettings() {
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
 	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
+	automatically_play_next = set->value( "automatically_play_next", automatically_play_next ).toBool();
 
 	row_spacing = set->value( "row_spacing", row_spacing ).toInt();
 

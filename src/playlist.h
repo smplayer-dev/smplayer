@@ -218,6 +218,8 @@ private:
 	bool save_playlist_in_config;
 	bool play_files_from_start; 
 	int row_spacing;
+
+	bool automatically_play_next;
 };
 
 

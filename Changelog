@@ -3,6 +3,9 @@
 (2009-07-05)
  * (Linux) vdpau doesn't allow to use any video filter (mplayer would crash)
    so now smplayer will clear the filter list if vdpau is used.
+ * New option for smplayer.ini (section [playlist]): automatically_play_next.
+   If set to false the playlist won't play the next item when the current one
+   finishes.
 
 (2009-07-04)
  * The settings of TV channels are saved on ~/.config/smplayer/smplayer_tv.ini.
