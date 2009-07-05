@@ -7311,7 +7311,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation>Пере&amp;сканировать ~/.mplayer/channels при старте</translation>
+        <translation type="unfinished">Пере&amp;сканировать ~/.mplayer/channels.conf при старте</translation>
     </message>
 </context>
 <context>
