@@ -23,9 +23,13 @@
   !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
   ; Fallback versions
+!ifndef DEFAULT_CODECS_VERSION
   !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
+!endif
 !ifndef WITH_MPLAYER
+!ifndef DEFAULT_MPLAYER_VERSION
   !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
+!endif
 !endif
 
 ;--------------------------------
