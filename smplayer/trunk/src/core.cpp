@@ -676,6 +676,20 @@ void Core::openTV(QString channel_id) {
 	saveMediaInfo();
 #endif
 
+	// Use last channel if the name is just "dvb://" or "tv://"
+	if ((channel_id == "dvb://") && (!pref->last_dvb_channel.isEmpty())) {
+		channel_id = pref->last_dvb_channel;
+	}
+	else
+	if ((channel_id == "tv://") && (!pref->last_tv_channel.isEmpty())) {
+		channel_id = pref->last_tv_channel;
+	}
+
+	// Save last channel
+	if (channel_id.startsWith("dvb://")) pref->last_dvb_channel = channel_id;
+	else
+	if (channel_id.startsWith("tv://")) pref->last_tv_channel = channel_id;
+
 	mdat.reset();
 	mdat.filename = channel_id;
 	mdat.type = TYPE_TV;

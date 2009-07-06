@@ -1,5 +1,9 @@
 [b]Version 0.6.8[/b]:
 
+(2009-07-06)
+ * Save the last TV channel, which will be used when "dvb://" or "tv://" is
+   opened.
+
 (2009-07-05)
  * (Linux) vdpau doesn't allow to use any video filter (mplayer would crash)
    so now smplayer will clear the filter list if vdpau is used.

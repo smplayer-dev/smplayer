@@ -361,6 +361,8 @@ public:
 
 	bool check_channels_conf_on_startup;
 	int initial_tv_deinterlace;
+	QString last_dvb_channel;
+	QString last_tv_channel;
 	
 
     /* ***********
