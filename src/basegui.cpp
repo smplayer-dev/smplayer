@@ -3641,6 +3641,8 @@ void BaseGui::processFunction(QString function) {
 void BaseGui::runActions(QString actions) {
 	qDebug("BaseGui::runActions");
 
+	actions = actions.simplified(); // Remove white space
+
 	QAction * action;
 	QStringList l = actions.split(" ");
 
