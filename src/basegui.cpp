@@ -339,6 +339,7 @@ void BaseGui::createActions() {
 	tvlist->previousAct()->setShortcut( Qt::Key_L );
 	tvlist->nextAct()->setObjectName("next_tv");
 	tvlist->previousAct()->setObjectName("previous_tv");
+	tvlist->editAct()->setObjectName("edit_tv_list");
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	radiolist = new TVList(pref->check_channels_conf_on_startup, 
@@ -350,6 +351,7 @@ void BaseGui::createActions() {
 	radiolist->previousAct()->setShortcut( Qt::SHIFT | Qt::Key_L );
 	radiolist->nextAct()->setObjectName("next_radio");
 	radiolist->previousAct()->setObjectName("previous_radio");
+	radiolist->editAct()->setObjectName("edit_radio_list");
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 
