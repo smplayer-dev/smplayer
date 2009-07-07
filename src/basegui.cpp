@@ -2833,6 +2833,7 @@ void BaseGui::updateRecents() {
 
 	if (pref->history_recents->count() > 0) {
 		for (int n=0; n < pref->history_recents->count(); n++) {
+			QString i = QString::number( n+1 );
 			QString fullname = pref->history_recents->item(n);
 			QString filename = fullname;
 			QFileInfo fi(fullname);
@@ -2841,7 +2842,7 @@ void BaseGui::updateRecents() {
 			// Let's see if it looks like a file (no dvd://1 or something)
 			if (fullname.indexOf(QRegExp("^.*://.*")) == -1) filename = fi.fileName();
 
-			QAction * a = recentfiles_menu->addAction( filename );
+			QAction * a = recentfiles_menu->addAction( QString("%1. " + filename ).arg( i.insert( i.size()-1, '&' ), 3, ' ' ));
 			a->setStatusTip(fullname);
 			a->setData(n);
 			connect(a, SIGNAL(triggered()), this, SLOT(openRecent()));
