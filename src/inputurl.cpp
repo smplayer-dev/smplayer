@@ -76,7 +76,7 @@ void InputURL::textChanged(const QString & new_text) {
 		return;
 	}
 	*/
-	QRegExp rx("\\.ram$|\\.asx$|\\.m3u$", Qt::CaseInsensitive);
+	QRegExp rx("\\.ram$|\\.asx$|\\.m3u$|\\.pls$", Qt::CaseInsensitive);
 	setPlaylist( (rx.indexIn(s) != -1) );
 }
 
