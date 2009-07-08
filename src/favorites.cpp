@@ -68,9 +68,12 @@ void Favorites::createMenu() {
 
 void Favorites::populateMenu() {
 	for (int n = 0; n < f_list.count(); n++) {
-		QAction * a = _menu->addAction( f_list[n].name() );
+		QString i = QString::number(n+1);
+		QString name = QString("%1 - " + f_list[n].name() ).arg( i.insert( i.size()-1, '&' ), 3, ' ' );
+		QAction * a = _menu->addAction( name );
 		a->setData( f_list[n].file() );
 		a->setIcon( QIcon( f_list[n].icon() ) );
+		a->setStatusTip( f_list[n].file() );
 	}
 }
 
