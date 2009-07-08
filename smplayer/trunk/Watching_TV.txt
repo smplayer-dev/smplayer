@@ -1,0 +1,126 @@
+Since 0.6.8 it's possible to watch the TV in smplayer (dvb:// and tv://).
+
+This document provides some info about how to do it.
+
+INTRO:
+
+smplayer doesn't include any option to scan for channels, so mplayer must be 
+configured to tune to TV channels.
+
+That means that the following:
+
+mplayer dvb://
+or
+mplayer tv://
+
+should work (should display a TV channel).
+
+And the following should tune to the specified channel:
+
+mplayer dvb://Channel_name
+or
+mplayer tv://Channel_name
+
+
+DVB:
+
+The support for dvb in smplayer is intented for dvb-t (terrestrial). It can 
+work with dvb-c and dvb-s (cable and satellite) but it hasn't been tested.
+
+smplayer will look for the file ~/.mplayer/channels.conf, and if it exists the
+menus Open->TV and Open->Radio will be populated with the channels there
+(the menu Open->Radio will show the channels without video pid. Notice that
+for dvb-s and dvb-c the check for audio and video pids will probably fail and
+all channels will end up in the TV menu).
+
+If you don't have a ~/.mplayer/channels.conf you can create with scan (in
+ubuntu is in the dvb-apps package):
+
+scan initial_file > ~/.mplayer/channels.conf 
+
+The initial_file contains info about the frequencies that have to be scanned,
+you'll find a lot in /usr/share/dvb/dvb-t/ (use the one for your town).
+
+You can also use w_scan, which doesn't require any initial file.
+
+
+TV:
+
+The support for analog TV (tv://) in smplayer is very basic  (it can recognize
+a tv:// stream as being a TV channel, but that's all) and configuration
+has to be done manually.
+
+First you need some lines in your ~/.mplayer/config with the TV configuration
+(driver, norms, frequencies...). Example:
+
+tv=driver=v4l:input=0:width=768:height=576:device=/dev/video0:audiorate=48000:n
+orm=PAL:chanlist=europe-west:channels=46-TV_1,43-TV_2,50-TV_3,53-TV_4
+
+For more info take a look at the mplayer manpage.
+
+After that you have to introduce all channels in smplayer (Open->TV->Edit).
+
+
+THE CHANNEL EDITOR:
+
+The channel editor allows you to add, modify and remove TV channels. You'll
+see a table with all channels. Each channel contains 3 fields: icon, name
+and stream. The name will appear in the menu, the stream is what mplayer will
+open to tune the channel. Examples:
+
+ICON   NAME          STREAM
+       CNN           dvb://CNN
+       BBC           tv://TV_1
+       Webcam        tv://
+
+The list of TV channels is saved to ~/.config/smplayer/tv.m3u8, while the
+list of radio is saved to ~/.config/smplayer/radio.m3u8.
+
+Note 1: by default smplayer will scan the file ~/.mplayer/channels.conf on every
+startup and will add the new channels it finds there. That means that if you
+delete dvb channels from the editor they will appear again in the next session
+(smplayer will think they are new). To avoid that, there's an option in 
+Preferences->TV to disable the scanning of the channels.conf file.
+
+Note 2: it's possible to set an icon for each channel. The icon will be 
+displayed in the menus. Currently it's possible to set an icon, change it
+but there's now way to remove it... (unless you edit manually the *.m3u8 files)
+
+
+OPTIONS FOR TV
+
+Some options have been added for TV:
+
+ * there's a new section for TV in Preferences, which allows for instance to
+   set the default deinterlacer to be use with TV channels.
+ * it's possible to set a cache for TV in Preferences -> Performance -> Cache
+
+
+REMEMBERING THE TV SETTINGS
+
+One nice thing: the settings of TV channels are remembered. That means that
+filters, options (like zoom) and so on will be remembered when you tune that
+channel again.
+
+
+(ADVANCED) ADDITIONAL AUDIO TRACKS IN DVB CHANNELS
+
+You'll notice that when you tune a dvb channel only the first audio track is
+available. To fix the problem you need to add manually the additional audio pids
+to channels.conf.
+
+For instance, take a look at this line taken from ~/.mplayer/channels.conf:
+
+ANTENA.NEOX:858000000:INVERSION_AUTO:BANDWIDTH_8_MHZ:FEC_2_3:FEC_2_3:QAM_64:TRANSMISSION_MODE_8K:GUARD_INTERVAL_1_4:HIERARCHY_NONE:501:503:141
+
+Let's see the 3 last fields:
+501:503:141
+
+501 is the video pid, 503 is the audio pid (and 141 I think is the teletext pid)
+Several audio pids can be added separated by "+". For instance:
+
+501:503+504:141
+
+This way the 2nd audio track (504) will be available when you watch that channel
+in smplayer. Notice that to be able to actually switch audio tracks in dvb 
+channels you need a recent version of mplayer (r29381).
