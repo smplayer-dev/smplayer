@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+<title>SMPlayer GYIK</title>
+</head>
+
+<body>
+<h1>SMPlayer - Gyakran Ismételt Kérdések</h1>
+
+<ol>
+<li><a href="#smplayer_mplayer">Néha azt olvasom SMPlayer, máskor MPlayer, mik ezek? Ugyan azok?</a></li>
+<li><a href="#dvd_menus">DVD menük, hol vannak?</a></li>
+<li><a href="#output_drivers">Kimeneti meghajtók (directx, xv, x11, gl, alsa, oss...) 
+mik ezek? Melyik a legjobb?</a></li>
+<li><a href="#screenshot">Pillanatképet próbálok készíteni, de az opció tiltva van, miért?</a></li>
+<li><a href="#audio_track">Hangsávot próbálok váltani, de nem működik, 
+a hang ugyanaz marad. Meg kell állítanom a videót és újra elindítani, hogy megváltozzon. Miért?</a></li>
+<li><a href="#shortcuts">Hogyan tudom megváltoztatni a gyorsgombokat?</a></li>
+<li><a href="#qt">Olvastam valamit a Qt-ről, mi az?</a></li>
+<li><a href="#codecs">Némely videó formátumnál csak hangot kapok, képet nem. Miért? Valamilyen kodekre van szükségem?</a></li>
+<li><a href="#open_quit">Mi a különbség a Megnyitás -> Bezár és a 
+Megnyitás -> Kilépés között? Ugyanazt csinálják?</a></li>
+<li><a href="#audio_cd">Hogyan tudok audio CD-t lejátszani?</a></li>
+<li><a href="#bookmark">Hol a könyvjelző?</a></li>
+<li><a href="#mplayer_errors">Megpróbálok lejátszani egy fájlt, de semmi sem történik. 
+Miért?</a></li>
+<!--
+<li><a href="#preferences_delay">Amikor először nyitom meg a beállítások párbeszédablakot, pár másodpercbe telik míg megjelenik, miért?</a></li>
+-->
+<li><a href="#tv">Lesz hozzáadva TV támogatás?</a></li>
+<li><a href="#mplayer_restart">Sok menü opciótól egy pillanatra elsötétül a videó. Miért?</a></li>
+<li><a href="#crash">Az SMPlayer összeomlott, de a hang nem állt meg, miért?</a></li>
+<li><a href="#playlist_problem">Ha egy lejátszási listát játszok le, mikor egy fájl véget ér
+az SMPlayer nem lép automatikusan a következőre, miért?</a></li>
+<li><a href="#mplayer_recommended">Melyik MPlayer verzió a javasolt?</a></li>
+<li><a href="#subtitles_border">A feliratokat a fekete csíkokban szeretném látni a kép helyett,
+ hogyan lehetséges?</a></li>
+<li><a href="#expand_filter">A feliratokat a fekete csíkokban szeretném látni 
+MINDEN videónál, lehetséges?</a></li>
+<li><a href="#monitors">(Windows) A videó csak az első monitoron látható a másodikon nem,
+ miért?</a></li>
+<li><a href="#screensaver1">A képernyővédő nem kapcsol ki, miért?</a></li>
+<li><a href="#volume_loud">A hangerő túl magas a videók elején, hogyan lehet ezen segíteni?</a></li>
+<li><a href="#vista">(Windows) Windows Vistát használok és minden videó lejátszásakor letiltódik az
+ Aero felület, miért?</a></li>
+<li><a href="#config_file">Hol a konfigurációs fájl?</a></li>
+</ol>
+
+<hr>
+
+<ol>
+<li><a name="smplayer_mplayer"></a>
+<b>Néha azt olvasom SMPlayer, máskor MPlayer, mik ezek? Ugyan azok?</b>
+<p>
+Nem, két különböző alkalmazás. Az MPlayer egy multimédia lejátszó, amelyet
+eredetileg linuxra fejlesztettek, majd más operációs rendszerekre is portolták.
+Nagyon jó, majdnem mindent lejátszik, például sok szűrője van és így tovább.
+De a legtöbb felhasználónak nehezére esik használni.
+<p>
+Szerencsére az MPlayer együtt tud működni más alkalmazásokkal (a videó ablak
+beágyazható a másik alkalmazás felületébe, engedelmeskedik az alkalmazás
+által küldött parancsoknak). Így az SMPlayer csak egy felület, ami valójában
+az MPlayert használja a videók lejátszásához.
+<p>
+Az SMPlayer az ablak, amit lát, a menük a beállítások párbeszédablak...
+(továbbá más dolgok, amiket nem lát, mint az MPlayert vezérlő funkciók).
+De az SMPlayer semmit sem tud a fájlok lejátszásáról. Azt sem tudja mi
+az a kodek. Ellenben az MPlayer megnyitja a fájlokat, dekódolja őket,
+megjeleníti a videót és lejátssza a hangot. A feliratokat is az MPlayer
+olvassa be, dolgozza fel és jeleníti meg a képernyőn.
+</li>
+
+<li><a name="dvd_menus"></a>
+<b>DVD menük, hol vannak?</b>
+<p>
+Jelenleg az SMPlayer nem támogatja a DVD menüket... de fejlesztés alatt van.
+
+Minden esetre még ha nincsenek is DVD menük, akkor is kiválaszthatja a kívánt
+címet, fejezetet, hangsávot, feliratot... az SMPlayer menüjében.
+</li>
+
+<li><a name="output_drivers"></a>
+<b>Kimeneti meghajtók (directx, xv, x11, gl, alsa, oss...) 
+mik ezek? Melyik a legjobb?</b>
+<p>
+Az MPlayernek számos kimeneti meghajtója van, videó és hang számára. Az
+SMPlayer lehetővé teszi, hogy kiválassza a használni kívántat közülük
+(<i>Beállítások -> Általános -> Videó/Hang</i>).
+<p>
+A videóhoz ajánlott az xv (linux) vagy a directx (windows) használata.
+Hardveres gyorsítást használnak és a legjobb teljesítményt nyújtják.
+
+A directx hátránya Windows Vista használók számára, hogy letiltja az Aero
+felületet. 
+<p>
+Az x11 és directx:noaccel hardveres gyorsítás nélküli meghajtók. A
+legrosszabb teljesítményt nyújtják. Továbbá a directx:noaccel rossz
+minőségű teljes képernyős módban.
+<p>
+A gl és gl2 a videókártya 3D gyorsítását használják. Jobb teljesítményt
+nyújtanak mint a directx:noaccel és x11, de nem annyira mint a directx vagy
+az xv. A gl/gl2 hasznos lehet Windows Vistát használóknak.
+<p>
+A hanghoz linux alatt általában oss vagy alsa ajánlott. Az esd vagy arts
+jobban terhelik a CPU-t.
+<p>
+Windowsban a hang meghajtók a dsound és a win32. Azt olvastam, hogy a dsound
+néha audió-videó szinkron problémát okozhat. Ha ilyen problémát észlel,
+próbálja meg a win32-t helyette.
+<p>
+Más meghajtók lehetővé teszik a videó elmentését képfájlokba vagy a hang
+lemezre írását. ezeket a meghajtókat az SMPlayer nem támogatja hivatalosan.
+Csak akkor használja ezeket, ha tudja, mit csinál.
+</li>
+
+<li><a name="screenshot"></a>
+<b>Pillanatképet próbálok készíteni de az opció tiltva van, miért?</b>
+<p>
+Nem választott ki könyvtárat a pillanatképek tárolására. Tegye meg a
+<i>Beállítások -> Általános</i>-ban, és a pillanatkép opció engedélyezve lesz.
+</li>
+
+<li><a name="audio_track"></a>
+<b>Hangsávot próbálok váltani, de nem működik, a hang ugyanaz marad. Meg kell
+állítanom a videót és újra elindítani hogy megváltozzon. Miért?</b>
+<p>
+Némely formátum esetén (mint pl. mp4 vagy ogm), az MPlayer nem tud hangsávot
+váltani futás közben. A "Gyors hangsávváltás" opció tiltásával 
+(<i>Beállítások -> Teljesítmény</i>) képes lesz hangsávot váltani ezekben a
+formátumokban.
+</li>
+
+<li><a name="shortcuts"></a>
+<b>Hogyan tudom megváltoztatni a gyorsgombokat?</b>
+<p>
+<i>Beállítások -> Billentyűzet és egér</i>. Megváltoztathatja a legtöbb gomb
+hozzárendelést.
+</li>
+
+<li><a name="qt"></a>
+<b>Olvastam valamit a Qt-ről, mi az?</b>
+<p>
+Az SMPlayer fejlesztése a Qt használatával történik, ami egy C++ könyvtár amely
+lehetővé teszi a többplatformos fejlesztést. Ugyanaz a forráskód fordítható
+Windows, Linux és Mac OS rendszereken.  
+További információ: 
+<a href="http://trolltech.com/products/qt">http://trolltech.com/products/qt</a>
+</li>
+
+<li><a name="codecs"></a>
+<b>Némely videó formátumnál csak hangot kapok, képet nem. Miért? Valamilyen
+kodekre van szükségem?</b>
+<p>
+Az MPlayer a legtöbb gyakori formátumot alapból le tudja játszani. De a natívan
+még nem támogatott kodekekhez szükséges egy bináris kodekcsomag telepítésére.
+Beszerezheti az <a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer
+letöltési oldalról</a>.
+<p> 
+Windowson telepítse a kodekeket az mplayer/codecs alkönyvtárba.
+Linuxon a csomag hagyományos csomagként is elérhető lehet, talán w32codecs
+vagy valami hasonló néven.
+</li>
+
+<li><a name="open_quit"></a>
+<b>Mi a különbség a <i>Megnyitás -> Bezár</i> és a 
+<i>Megnyitás -> Kilépés</i> között? Ugyanazt csinálják?</b>
+<p>
+Ha a "Tálcaikon megjelenítése" (az Opciók menüben) nincs bekapcsolva,
+akkor igen, a két opció ugyanazt csinálja: kilépnek az alkalmazásból.
+<p>
+De ha az az opció be van kapcsolva, akkor a <i>Megnyitás -> Bezár</i> csak
+elrejti az alkalmazást (és leállítja az aktuális fájlt), de az SMPlayer tovább
+fut.
+<i>Megnyitás -> Kilépés</i> valóban kilép az alkalmazásból, függetlenül attól,
+hogy a tálcaikon engedélyezve van-e.
+</li>
+
+<li><a name="audio_cd"></a>
+<b>Hogyan tudok audio CD-t lejátszani?</b>
+<p>
+Audio CD támogatás a 0.5.18 verzióban lett hozzáadva.
+<p>
+Windows alatt még nem lehetséges audio CDk lejátszása.
+</li>
+
+<li><a name="bookmark"></a>
+<b>Hol a könyvjelző?</b>
+<p>
+Még nincs megvalósítva.
+</li>
+
+<li><a name="mplayer_errors"></a>
+<b>Megpróbálok lejátszani egy fájlt, de semmi sem történik. Miért?</b>
+<p>
+Valószínűleg az MPlayer nem tudta lejátszani a fájlt. Nyissa meg az MPlayer
+(<i>Opciók -> Naplók megjelenítése -> MPlayer</i>), valószínűleg megtalálja
+a hibaüzenetet az utolsó sorokban.
+<p>
+Windowson elég gyakori hogy egyes MPlayer buildek nem működnek, mert az
+olyan funkciók támogatása nélkül lettek fordítva amelyeket az SMPlayer
+használni próbál. A hibaüzenet segíthet. ha a gyorsítótárral kapcsolatos,
+próbálja meg letiltani a <i>Beállítások -> Teljesítmény</i>-ben. Ha a
+fontconfiggal kapcsolatos, próbáljon egy ttf betűkészletet használni rendszer
+betűkészlet helyett.
+</li>
+
+<!--
+<li><a name="preferences_delay"></a>
+<b>Amikor először nyitom meg a beállítások párbeszédablakot, pár másodpercbe
+telik míg megjelenik, miért?</b>
+<p>
+Abban a pillanatban az SMPlayer meghívja az MPlayert hogy információkat kapjon
+tőle (a kimeneti meghajtókat például). Ugyanez történik az <i>Opciók -> 
+Információk és tulajdonságok megtekintése...</i> esetén is.
+</li>
+-->
+
+<li><a name="tv"></a>
+<b>Lesz hozzáadva TV támogatás?</b>
+<p>
+Jó lenne, de egyelőre nincs TV támogatás tervbe véve. Jelenleg nincs TV
+kártyám, így nem tudom megvalósítani.
+</li>
+
+<li><a name="mplayer_restart"></a>
+<b>Sok menü opciótól egy pillanatra elsötétül a videó. Miért?</b>
+<p>
+Némely opció az MPlayer folyamat megállítását és új paraméterekkel való
+elindítását igényli. Emiatt szakad meg a lejátszás egy pillanatra.
+</li>
+
+<li><a name="crash"></a>
+<b>Az SMPlayer összeomlott, de a hang nem állt meg, miért?</b>
+<p>
+Az SMPlayer összeomlott, de az MPlayer még mindig fut. Állítsa le az MPlayer
+folyamatot a feladatkezelőben.
+<p>
+Mindenesetre, ha az SMPlayer összeomlik az komoly hiba, amit ki kell javítani.
+Jelentse.
+</li>
+
+<li><a name="playlist_problem"></a>
+<b>Ha egy lejátszási listát játszok le, mikor egy fájl véget ér az SMPlayer
+nem lép automatikusan a következőre, miért?</b>
+<p>
+Használjon legalább SMPlayer 0.6.5 és MPlayer SVN r28066 verziót.
+</li>
+
+<li><a name="mplayer_recommended"></a>
+<b>Melyik MPlayer verzió a javasolt?</b>
+<p>
+Legalább az MPlayer SVN r25843 verziót ajánlom (2008-01-23-ról), bár egy
+frissebb SVN verzió jobb lenne.
+<p>
+Az SMPlayer megpróbál a lehető legjobban együttműködni régebbi verziókkal,
+de néhány opció nem működhet.
+</li>
+
+<li><a name="subtitles_border"></a>
+<b>A feliratokat a fekete csíkokban szeretném látni a kép helyett,
+ hogyan lehetséges?</b>
+<p>
+<i>Videó szűrők -> Fekete szegélyek hozzáadása</i>
+</li>
+
+<li><a name="expand_filter"></a>
+<b>A feliratokat a fekete csíkokban szeretném látni MINDEN videónál,
+lehetséges?</b>
+<p>
+Hozzáadhat egy videó szűrőt mint pl. 
+<b>expand=:::::4/3</b> a <i>Beállítások -> Bővített -> MPlayer opciók</i>-ba.
+<p>Más lehetőségek: 
+<ul>
+<li>jelölje be a <b>Fekete szegélyek hozzáadása teljes képernyős módban</b>-t a 
+<i>Beállítások -> Általános -> Videó</i>-ban</li>
+<li>Adja hozzá az <b>add_letterbox true</b>-t a műveletek listája mezőbe a 
+<i>Beállítások -> Bővített</i>-ben</li>
+</ul>
+</li>
+
+<li><a name="monitors"></a>
+<b>(Windows) A videó csak az első monitoron látható a másodikon nem, miért?</b>
+<p>
+Amikor a <i>directx</i> videó meghajtót használja (<i>Beállítások -> Általános
+ -> Videó</i>), a videó csak egy monitoron jeleníthető meg. Ha ehelyett a 
+<i>gl</i>, <i>gl2</i> vagy <i>direct3d</i> meghajtókat használja, a videó
+bármely monitoron megjeleníthető.
+<p>
+Ha a <i>directx</i>-et szeretné használni, kiválaszthatja melyik képernyő
+jelenítse meg a videót a <i>Videó -> Képernyő</i> menüben.
+</li>
+
+<li><a name="screensaver1"></a>
+<b>A képernyővédő nem kapcsol ki, miért?</b>
+<p>
+Ha egy friss MPlayer verziót használ lehet hogy hozzá kell adnia egy ilyen
+sort a ~/.mplayer/config -ba:
+<p>
+(gnome) 
+<pre>heartbeat-cmd="gnome-screensaver-command -p &>/dev/null"</pre>
+<p>
+(kde)
+<pre>heartbeat-cmd="dcop kdesktop KScreensaverIface enable false &>/dev/null && dcop kdesktop KScreensaverIface enable true &>/dev/null"</pre>
+
+<p>Nézze meg az MPlayer manpage-et további információért.
+</li>
+
+<li><a name="volume_loud"></a>
+<b>A hangerő túl magas a videók elején, hogyan lehet ezen segíteni?</b>
+<p>
+Engedélyezze a <i>Hangerő változtatása közvetlenül a lejátszás előtt</i>
+opciót a <i>Beállítások -> Általános -> Hang</i>-ban.
+<p>
+Ez az opció legalább MPlayer SVN r27872 verziót igényel.
+</li>
+
+<li><a name="vista"></a>
+<b>(Windows) Windows Vistát használok és minden videó lejátszásakor letiltódik az
+ Aero felület, miért?</b>
+<p>
+Ez akkor történik, ha a <i>directx</i> videó meghajtót használja 
+(<i>Beállítások -> Általános -> Videó</i>). Megváltoztathatja <i>gl</i>, 
+<i>gl2</i> vagy <i>direct3d</i> valamelyikére.
+</li>
+
+<li><a name="config_file"></a>
+<b>Hol a konfigurációs fájl?</b>
+<p>
+Az SMPlayer két <i>ini</i> fájlt használ: smplayer.ini és smplayer_files.ini.
+Alapértelmezés szerint mindkettő a <i>$HOME/.config/smplayer</i> (Linux) vagy
+<i>C:\Documents and Settings\felhasználó_neve\.smplayer</i> (Windows XP) található.
+<p>
+Megtalálhatja az SMPlayer naplóban (<i>Opciók -> Naplók megjelenítése</i>) is,
+keressen egy ilyen sort:
+<pre>
+ * ini path: '/home/ricardo/.config/smplayer'
+</pre>
+Az <i>smplayer.ini</i> az SMPlayer beállításait tárolja, míg az 
+<i>smplayer_files.ini</i> a lejátszott fájlok beállításait tárolja.
+</li>
+
+</ol>
+
+</body>
+</html>
