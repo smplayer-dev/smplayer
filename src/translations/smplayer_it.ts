@@ -792,7 +792,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1609"/>
         <source>&amp;Stereo</source>
-        <translation>&amp;Stereo</translation>
+        <translation>Stere&amp;o</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1606"/>
@@ -1180,7 +1180,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1400"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation>Usa &amp;la &amp;libreria SSA/ASS</translation>
+        <translation>&amp;Usa la libreria SSA/ASS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1345"/>
@@ -1235,7 +1235,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1401"/>
         <source>Enable &amp;closed caption</source>
-        <translation>Abilita &amp;closed caption</translation>
+        <translation>Abilita i so&amp;ttotitoli forzati</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1402"/>
@@ -1340,7 +1340,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1407"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Up&amp;load sottotitoli su Opensubtitles.org...</translation>
+        <translation>Invia sottotitoli a O&amp;pensubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1425"/>
@@ -1808,12 +1808,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../errordialog.cpp" line="55"/>
         <source>Hide log</source>
-        <translation>Nascondi registro</translation>
+        <translation>&amp;Nascondi registro</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
         <source>Show log</source>
-        <translation>Mostra registro</translation>
+        <translation>&amp;Mostra registro</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="13"/>
@@ -2022,7 +2022,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="71"/>
         <source>Cancel</source>
-        <translation>Cancella</translation>
+        <translation>Annulla</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
@@ -7367,7 +7367,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>action_list è una lista di opzioni separate da spazi. Le azioni saranno eseguite subito dopo il caricamento di un file (se richiesto), nello stesso ordine di immissione. Per le azioni a scelta si possono passare true o false come parametri. Esempio:  -actions &quot;fullscreen compact true&quot;. Le doppie virgolette sono necessarie in caso si passi più di una azione.</translation>
+        <translation>lista_di_azioni è una lista di opzioni separate da spazi. Le azioni saranno eseguite subito dopo il caricamento di un file (se richiesto), nello stesso ordine di immissione. Per le azioni a scelta si possono passare true o false come parametri. Esempio:  -actions &quot;fullscreen compact true&quot;. Le doppie virgolette sono necessarie in caso si passi più di una azione.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
@@ -7427,22 +7427,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>action_name</source>
-        <translation>action_name</translation>
+        <translation>nome_dell_azione</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="95"/>
         <source>action_list</source>
-        <translation>action_list</translation>
+        <translation>lista_di_azioni</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
-        <translation>Apre l&apos;interfaccia predefinita.</translation>
+        <translation>apre l&apos;interfaccia predefinita.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation>subtitle_file</translation>
+        <translation>file_di_sottotitoli</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="155"/>
