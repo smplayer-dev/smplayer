@@ -1,5 +1,9 @@
 [b]Version 0.6.8[/b]:
 
+(2009-07-09)
+ * Added the new option "Jump" to the TV and radio menus. It displays a dialog
+   which allows the user to enter the number of the channel to open.
+
 (2009-07-07)
  * Applied patch numbered_recent_files.diff by greenest 
    (greenest at users.sourceforge.net). It adds numbers in front of the recent 
