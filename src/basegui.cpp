@@ -333,6 +333,8 @@ void BaseGui::createActions() {
 	tvlist = new TVList(pref->check_channels_conf_on_startup, 
                         TVList::TV, Paths::configPath() + "/tv.m3u8", this);
 	tvlist->menu()->menuAction()->setObjectName( "tv_menu" );
+	addAction(tvlist->editAct());
+	addAction(tvlist->jumpAct());
 	addAction(tvlist->nextAct());
 	addAction(tvlist->previousAct());
 	tvlist->nextAct()->setShortcut( Qt::Key_H );
@@ -340,11 +342,14 @@ void BaseGui::createActions() {
 	tvlist->nextAct()->setObjectName("next_tv");
 	tvlist->previousAct()->setObjectName("previous_tv");
 	tvlist->editAct()->setObjectName("edit_tv_list");
+	tvlist->jumpAct()->setObjectName("jump_tv_list");
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	radiolist = new TVList(pref->check_channels_conf_on_startup, 
                            TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
 	radiolist->menu()->menuAction()->setObjectName( "radio_menu" );
+	addAction(radiolist->editAct());
+	addAction(radiolist->jumpAct());
 	addAction(radiolist->nextAct());
 	addAction(radiolist->previousAct());
 	radiolist->nextAct()->setShortcut( Qt::SHIFT | Qt::Key_H );
@@ -352,6 +357,7 @@ void BaseGui::createActions() {
 	radiolist->nextAct()->setObjectName("next_radio");
 	radiolist->previousAct()->setObjectName("previous_radio");
 	radiolist->editAct()->setObjectName("edit_radio_list");
+	radiolist->jumpAct()->setObjectName("jump_radio_list");
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 
@@ -1296,6 +1302,8 @@ void BaseGui::retranslateStrings() {
 	// TV & Radio submenus
 	tvlist->editAct()->setText( tr("&Edit...") );
 	radiolist->editAct()->setText( tr("&Edit...") );
+	tvlist->jumpAct()->setText( tr("&Jump...") );
+	radiolist->jumpAct()->setText( tr("&Jump...") );
 	tvlist->nextAct()->setText( tr("Next TV channel") );
 	tvlist->previousAct()->setText( tr("Previous TV channel") );
 	radiolist->nextAct()->setText( tr("Next radio channel") );
