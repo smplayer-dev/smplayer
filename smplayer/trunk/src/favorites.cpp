@@ -25,6 +25,8 @@
 #include <QFile>
 #include <QTextStream>
 
+#define FIRST_MENU_ENTRY 2
+
 Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 {
 	_filename = filename;
@@ -79,8 +81,8 @@ void Favorites::populateMenu() {
 
 void Favorites::updateMenu() {
 	// Remove all except the first 2 items
-	while (_menu->actions().count() > 2) {
-		QAction * a = _menu->actions()[2];
+	while (_menu->actions().count() > FIRST_MENU_ENTRY) {
+		QAction * a = _menu->actions()[FIRST_MENU_ENTRY];
 		_menu->removeAction( a );
 		a->deleteLater();
 	}
@@ -99,7 +101,7 @@ void Favorites::triggered_slot(QAction * action) {
 }
 
 void Favorites::markCurrent() {
-	for (int n = 2; n < _menu->actions().count(); n++) {
+	for (int n = FIRST_MENU_ENTRY; n < _menu->actions().count(); n++) {
 		QAction * a = _menu->actions()[n];
 		QString file = a->data().toString();
 		QFont f = a->font();
@@ -130,7 +132,7 @@ void Favorites::next() {
 	current++;
 	if (current >= f_list.count()) current = 0;
 
-	QAction * a = _menu->actions()[current+2]; // Skip "edit" and separator
+	QAction * a = _menu->actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
 	if (a != 0) {
 		a->trigger();
 	}
@@ -145,7 +147,7 @@ void Favorites::previous() {
 	current--;
 	if (current < 0) current = f_list.count()-1;
 
-	QAction * a = _menu->actions()[current+2]; // Skip "edit" and separator
+	QAction * a = _menu->actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
 	if (a != 0) {
 		a->trigger();
 	}
