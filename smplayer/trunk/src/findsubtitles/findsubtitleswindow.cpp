@@ -241,10 +241,14 @@ void FindSubtitlesWindow::refresh() {
 }
 
 void FindSubtitlesWindow::updateRefreshButton() {
+	qDebug("FindSubtitlesWindow::updateRefreshButton: state: %d", downloader->state());
+/*
 	QString file = file_chooser->lineEdit()->text();
 	bool enabled = ( (!file.isEmpty()) && (QFile::exists(file)) && 
                      (downloader->state()==QHttp::Unconnected) );
 	refresh_button->setEnabled(enabled);
+*/
+	refresh_button->setEnabled(true);
 }
 
 void FindSubtitlesWindow::currentItemChanged(const QModelIndex & current, const QModelIndex & /*previous*/) {
