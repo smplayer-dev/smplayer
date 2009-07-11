@@ -276,6 +276,8 @@ QString FindSubtitlesWindow::language() {
 }
 
 void FindSubtitlesWindow::showError(QString error) {
+	status->setText( tr("Download failed") );
+
 	QMessageBox::information(this, tr("Error"),
                              tr("Download failed: %1.")
                              .arg(error));
