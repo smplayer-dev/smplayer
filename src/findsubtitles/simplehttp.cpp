@@ -58,7 +58,7 @@ void SimpleHttp::readResponseHeader(const QHttpResponseHeader &responseHeader) {
 }
 
 void SimpleHttp::httpRequestFinished(int request_id, bool error) {
-	qDebug("SimpleHttp::httpRequestFinished: %d, %d", request_id, error);
+	qDebug("SimpleHttp::httpRequestFinished: http_get_id: %d request_id: %d, error: %d", http_get_id, request_id, error);
 
     if (request_id != http_get_id) return;
 
