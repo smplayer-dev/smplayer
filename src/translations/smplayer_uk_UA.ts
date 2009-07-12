@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -1596,37 +1597,37 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1296"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Редагувати...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1297"/>
         <source>Next TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступний канал ТБ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1298"/>
         <source>Previous TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередній канал ТБ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1299"/>
         <source>Next radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступний канал радіо</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1300"/>
         <source>Previous radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередній канал радіо</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ТБ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1511"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Радіо</translation>
     </message>
 </context>
 <context>
@@ -1834,72 +1835,72 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Піктограма</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Name</source>
-        <translation type="unfinished">Назва</translation>
+        <translation>Назва</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Медіа</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="45"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор улюблених</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>Перелік улюблених</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="49"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви можете редагувати, видаляти або додавати нові елементи. Подвійний клік по комірці, щоб редагувати її вміст.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="222"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть файл з піктограмою</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="224"/>
         <source>Images</source>
-        <translation type="unfinished">Зображення</translation>
+        <translation>Зображення</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished">піктограма</translation>
+        <translation>піктограма</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Новий</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Видалити</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>Видалити в&amp;сі</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="98"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">В&amp;гору</translation>
+        <translation>В&amp;гору</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">В&amp;низ</translation>
+        <translation>В&amp;низ</translation>
     </message>
 </context>
 <context>
@@ -3511,7 +3512,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3621,7 +3622,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -5304,12 +5305,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="825"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примітка:&lt;/b&gt; Ця опція не буде використана для каналів ТБ.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="364"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation type="unfinished"></translation>
+        <translation>Деін&amp;терлейсинг за замовчуванням (крім ТБ):</translation>
     </message>
 </context>
 <context>
@@ -5707,7 +5708,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <source>&amp;Zoom video</source>
-        <translation>Змінювати &amp;масштаб зображення</translation>
+        <translation>Зміна &amp;масштабу зображення</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
@@ -5717,7 +5718,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation>Змінювати &amp;швидкість</translation>
+        <translation>Зміна &amp;швидкісті</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
@@ -6528,7 +6529,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="569"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>Кеш для &amp;ТБ:</translation>
     </message>
 </context>
 <context>
@@ -7245,72 +7246,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>ТБ та радіо</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished">Нічого</translation>
+        <translation>Немає</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished">Lowpass5</translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished">Yadif (простий)</translation>
+        <translation>Yadif (простий)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished">Yadif (подвійна частота кадрів)</translation>
+        <translation>Yadif (подвійна частота кадрів)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished">Лінійне змішування</translation>
+        <translation>Лінійне змішування</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished">Ядерний деінтерлейсер</translation>
+        <translation>Ядерний деінтерлейсер</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>Деінтерлейсинг за замовчуванням для ТБ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть фільтр деінтерлейсингу, який ви хочете використати для каналів ТБ.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Перечитати ~/.mplayer/channels.conf після запуску</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнені, SMPlayer буде шукати нові канали ТБ та радіо у ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ТБ та радіо</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Деінтерлейсинг за замовчуванням для ТБ:</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Перечитати ~/.mplayer/channels.conf після запуску</translation>
     </message>
 </context>
 <context>
@@ -7602,12 +7603,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="82"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор каналів</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="83"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>Перелік ТБ/Радіо</translation>
     </message>
 </context>
 <context>
