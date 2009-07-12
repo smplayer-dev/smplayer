@@ -21,6 +21,8 @@
 
 SimpleHttp::SimpleHttp( QObject * parent ) : QHttp(parent)
 {
+	http_get_id = -1;
+
 	connect( this, SIGNAL(requestFinished(int, bool)),
              this, SLOT(httpRequestFinished(int, bool)) );
 
