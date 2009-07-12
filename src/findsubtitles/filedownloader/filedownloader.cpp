@@ -24,6 +24,7 @@
 
 FileDownloader::FileDownloader(QWidget *parent) : QProgressDialog(parent)
 {
+	http_get_id = -1;
 	setMinimumDuration(0);
 
 	http = new QHttp(this);
