@@ -38,7 +38,6 @@ void SimpleHttp::download(const QString & url) {
 
 	QUrl u(url);
 	setHost( u.host() );
-	current_host = u.host();
 	http_get_id = get( u.path() );
 
 	emit connecting(u.host());
@@ -53,15 +52,12 @@ void SimpleHttp::readResponseHeader(const QHttpResponseHeader &responseHeader) {
 		download(new_url);
 	}
 	else
-	/*
 	if (responseHeader.statusCode() == 302)  {
 		QString location = responseHeader.value("Location");
 		qDebug("SimpleHttp::readResponseHeader: Location: '%s'", location.toLatin1().constData());
-		qDebug("Host: '%s'", current_host.toUtf8().constData());
-		if (!current_host.isEmpty()) download(current_host + location);
+		http_get_id = get( location );
 	}
 	else
-	*/
 	if (responseHeader.statusCode() != 200) {
 		qDebug("SimpleHttp::readResponseHeader: error: '%s'", responseHeader.reasonPhrase().toLatin1().constData());
 		emit downloadFailed(responseHeader.reasonPhrase());
