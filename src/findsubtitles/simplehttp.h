@@ -46,7 +46,6 @@ protected slots:
 protected:
 	QByteArray downloaded_text;
 	int http_get_id;
-	QString current_host;
 };
 
 #endif
