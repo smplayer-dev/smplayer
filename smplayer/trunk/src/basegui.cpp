@@ -497,6 +497,12 @@ void BaseGui::createActions() {
 	connect( mirrorAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleMirror(bool)) );
 
+	motionVectorsAct = new MyAction( this, "motion_vectors" );
+	motionVectorsAct->setCheckable( true );
+	connect( motionVectorsAct, SIGNAL(toggled(bool)),
+             core, SLOT(visualizeMotionVectors(bool)) );
+
+
 	// Submenu filter
 	postProcessingAct = new MyAction( this, "postprocessing" );
 	postProcessingAct->setCheckable( true );
@@ -684,11 +690,6 @@ void BaseGui::createActions() {
 	frameCounterAct->setCheckable( true );
 	connect( frameCounterAct, SIGNAL(toggled(bool)),
              this, SLOT(toggleFrameCounter(bool)) );
-
-	motionVectorsAct = new MyAction( this, "motion_vectors" );
-	motionVectorsAct->setCheckable( true );
-	connect( motionVectorsAct, SIGNAL(toggled(bool)),
-             core, SLOT(visualizeMotionVectors(bool)) );
 
 	showPreferencesAct = new MyAction( QKeySequence("Ctrl+P"), this, "show_preferences" );
 	connect( showPreferencesAct, SIGNAL(triggered()),
@@ -1354,6 +1355,8 @@ void BaseGui::retranslateStrings() {
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
 	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
+	motionVectorsAct->change( Images::icon("motion_vectors"), 
+                              tr("Visualize &motion vectors") );
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
@@ -1421,8 +1424,6 @@ void BaseGui::retranslateStrings() {
 	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
 	frameCounterAct->change( Images::icon("frame_counter"),
                              tr("&Show frame counter") );
-	motionVectorsAct->change( Images::icon("motion_vectors"), 
-                              tr("Visualize &motion vectors") );
 	showPreferencesAct->change( Images::icon("prefs"), tr("P&references") );
 
 	// Submenu Logs
@@ -2100,6 +2101,8 @@ void BaseGui::createMenus() {
 
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoPreviewAct);
+	videoMenu->addSeparator();
+	videoMenu->addAction(motionVectorsAct);
 
 
     // AUDIO MENU
@@ -2220,7 +2223,6 @@ void BaseGui::createMenus() {
 	optionsMenu->addAction(showPropertiesAct);
 	optionsMenu->addAction(showPlaylistAct);
 	optionsMenu->addAction(frameCounterAct);
-	optionsMenu->addAction(motionVectorsAct);
 
 	// OSD submenu
 	osd_menu = new QMenu(this);
