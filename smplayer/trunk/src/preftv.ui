@@ -87,7 +87,7 @@
        <item>
         <widget class="QCheckBox" name="rescan_check" >
          <property name="text" >
-          <string>&amp;Rescan ~/.mplayer/channels.conf on startup</string>
+          <string>&amp;Check for new channels on startup</string>
          </property>
         </widget>
        </item>
