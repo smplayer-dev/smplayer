@@ -544,10 +544,15 @@ void Playlist::load_m3u(QString file) {
 void Playlist::load_pls(QString file) {
 	qDebug("Playlist::load_pls");
 
+	if (!QFile::exists(file)) {
+		qDebug("Playlist::load_pls: '%s' doesn't exist, doing nothing", file.toUtf8().constData());
+		return;
+	}
+
 	playlist_path = QFileInfo(file).path();
 
 	QSettings set(file, QSettings::IniFormat);
-	set.beginGroup( "playlist");
+	set.beginGroup("playlist");
 
 	if (set.status() == QSettings::NoError) {
 		clear();
