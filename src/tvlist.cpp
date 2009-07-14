@@ -41,7 +41,13 @@ TVList::~TVList() {
 void TVList::parse_channels_conf(Services services) {
 	qDebug("TVList::parse_channels_conf");
 
-	QString file = QDir::homePath() + "/.mplayer/channels.conf";
+	QString file = QDir::homePath() + "/.mplayer/channels.conf.ter";
+
+	if (!QFile::exists(file)) {
+		qDebug("VList::parse_channels_conf: %s doesn't exist", file.toUtf8().constData());
+		file = QDir::homePath() + "/.mplayer/channels.conf";
+	}
+
 	QFile f( file );
 	if (!f.open(QIODevice::ReadOnly | QIODevice::Text)) {
 		qDebug("TVList::parse_channels_conf: can't open %s", file.toUtf8().constData());

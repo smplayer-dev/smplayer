@@ -108,7 +108,7 @@ void PrefTV::createHelp() {
 #ifndef Q_OS_WIN
 	setWhatsThis(rescan_check, tr("Rescan ~/.mplayer/channels.conf on startup"),
 		tr("If this option is enabled, SMPlayer will look for new TV and radio "
-           "channels on ~/.mplayer/channels.conf.") );
+           "channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.") );
 #endif
 }
 
