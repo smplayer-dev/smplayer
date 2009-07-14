@@ -1484,10 +1484,10 @@ void BaseGui::retranslateStrings() {
 
 
 	// Action groups
-	osdNoneAct->change( tr("&Disabled") );
-	osdSeekAct->change( tr("&Seek bar") );
-	osdTimerAct->change( tr("&Time") );
-	osdTotalAct->change( tr("Time + T&otal time") );
+	osdNoneAct->change( tr("Subtitles onl&y") );
+	osdSeekAct->change( tr("Volume + &Seek") );
+	osdTimerAct->change( tr("Volume + Seek + &Timer") );
+	osdTotalAct->change( tr("Volume + Seek + Timer + T&otal time") );
 
 
 	// MENUS
