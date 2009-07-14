@@ -1,3 +1,18 @@
+Version 0.6.8.
+
+Most important changes since 0.6.7:
+
+* Added support for TV (more info in Watching_TV.txt).
+* New option to enable a global volume.
+* (Linux) Support for vdpau.
+* New option to take consecutive screenshots.
+* Possibility to add some of the submenus to the toolbars.
+* Better support for *.ts files (requires mplayer >= r29381).
+* Added the Vietnamese translation.
+* Added the Estonian translation.
+* (Windows) New options to try to disable the screensaver.
+
+
 Version 0.6.7.
 
 Most important changes since 0.6.6:
