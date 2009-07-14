@@ -26,7 +26,8 @@
 #include <QTextStream>
 #include <QInputDialog>
 
-#define FIRST_MENU_ENTRY 3
+//#define FIRST_MENU_ENTRY 3
+#define FIRST_MENU_ENTRY 2
 
 Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 {
@@ -69,7 +70,7 @@ void Favorites::createMenu() {
              this, SLOT(triggered_slot(QAction *)) );
 
 	_menu->addAction(edit_act);
-	_menu->addAction(jump_act);
+	//_menu->addAction(jump_act);
 	_menu->addSeparator();
 
 	populateMenu();
