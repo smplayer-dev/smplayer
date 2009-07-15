@@ -27,11 +27,12 @@ DVB:
 The support for dvb in smplayer is intented for dvb-t (terrestrial). It can 
 work with dvb-c and dvb-s (cable and satellite) but it hasn't been tested.
 
-smplayer will look for the file ~/.mplayer/channels.conf, and if it exists the
-menus Open->TV and Open->Radio will be populated with the channels there
-(the menu Open->Radio will show the channels without video pid. Notice that
-for dvb-s and dvb-c the check for audio and video pids will probably fail and
-all channels will end up in the TV menu).
+smplayer will look for the file ~/.mplayer/channels.conf.ter (or 
+~/.mplayer/channels.conf if that doesn't exist), and the menus Open->TV and 
+Open->Radio will be populated with the channels there (the menu Open->Radio 
+will show the channels without video pid. Notice that for dvb-s and dvb-c the 
+check for audio and video pids will probably fail and all channels will end up 
+in the TV menu).
 
 If you don't have a ~/.mplayer/channels.conf you can create with scan (in
 ubuntu is in the dvb-apps package):
@@ -85,6 +86,10 @@ Preferences->TV to disable the scanning of the channels.conf file.
 Note 2: it's possible to set an icon for each channel. The icon will be 
 displayed in the menus. Currently it's possible to set an icon, change it
 but there's now way to remove it... (unless you edit manually the *.m3u8 files)
+
+Note 3: the tv and radio lists can be "misused" as favorite lists, you can
+enter any other kind of media (internet streams, local files...) not only tv
+channels.
 
 
 OPTIONS FOR TV
