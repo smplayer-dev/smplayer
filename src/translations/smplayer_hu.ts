@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="hu_HU">
+<!DOCTYPE TS>
+<TS version="2.0" language="hu_HU">
 <context>
     <name>About</name>
     <message>
@@ -851,7 +852,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;Angle</source>
-        <translation>&amp;Szög</translation>
+        <translation>&amp;Kamera látószög</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1656"/>
@@ -1203,7 +1204,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1356"/>
         <source>Flip i&amp;mage</source>
-        <translation>Kép &amp;tükrözése</translation>
+        <translation>V. &amp;tükrözés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1478"/>
@@ -1308,7 +1309,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation>&amp;Forgatás 90 fokkal jobbra és tükrözés</translation>
+        <translation>&amp;Forgatás 90 fokkal jobbra és v. tükrözés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1589"/>
@@ -1323,7 +1324,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1591"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation>Forgatás 90 fokkal balra és &amp;tükrözés</translation>
+        <translation>Forgatás 90 fokkal balra és v. &amp;tükrözés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1336"/>
@@ -1403,7 +1404,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1357"/>
         <source>Mirr&amp;or image</source>
-        <translation>Tükr&amp;özés</translation>
+        <translation>F. tükr&amp;özés</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1473"/>
@@ -1631,27 +1632,27 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1307"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ugrás...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Csak felirat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hangerő + Keresősáv</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangerő + &amp;Keresősáv + Pozíció</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Hangerő + Keresősáv + &amp;Időpozíció + Összidő</translation>
     </message>
 </context>
 <context>
@@ -1932,12 +1933,12 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../favorites.cpp" line="254"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>Elemhez ugrás</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="255"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>Adja meg az ugrás célpontjának számát a listában:</translation>
     </message>
 </context>
 <context>
@@ -3545,7 +3546,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Marshall-szigeteki</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmal</translation>
@@ -3655,7 +3656,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -7349,12 +7350,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció engedélyezve van, az SMPlayer új TV és rádió csatornákat fog keresni a ~/.mplayer/channels.conf.ter vagy ~/.mplayer/channels.conf fájlokban.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Új &amp;csatornák keresése indításkor</translation>
     </message>
 </context>
 <context>
