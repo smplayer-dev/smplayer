@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="it">
+<!DOCTYPE TS>
+<TS version="2.0" language="it">
 <context>
     <name>About</name>
     <message>
@@ -1632,27 +1633,27 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1307"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Salta a...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Solo sottotitoli</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Volume + Ricerca</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume + Ricerca + &amp;Tempo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume + Ricerc&amp;a + Tempo + Tempo totale</translation>
     </message>
 </context>
 <context>
@@ -1933,12 +1934,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../favorites.cpp" line="254"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>Salta a</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="255"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserisci il numero dell&apos;elemento della lista che vuoi riprodurre:</translation>
     </message>
 </context>
 <context>
@@ -2043,7 +2044,7 @@ Esempio: scale=512:-2,eq2=1.1</translation>
         <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>E, per finire, i filtri audio. Stesse regole che per i filtri video.
+        <translation>E per finire, i filtri audio. Stesse regole che per i filtri video.
 Esempio: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -3550,11 +3551,6 @@ Controllarne i relativi permessi.</translation>
         <translation>Marshallese</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="136"/>
-        <source>Bokm&#xe5;l</source>
-        <translation type="obsolete">Bokmål</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
         <translation>Ndebele</translation>
@@ -3660,24 +3656,19 @@ Controllarne i relativi permessi.</translation>
         <translation>Venda</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="200"/>
-        <source>Volap&#xfc;k</source>
-        <translation type="obsolete">Volapük</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
         <translation>Walloon</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>Bokmål</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapük</translation>
     </message>
 </context>
 <context>
@@ -4082,12 +4073,12 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="590"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Salva l&apos;output di &amp;SMPlayer</translation>
+        <translation>Abilita il registro di &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="691"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>&amp;Filtri per i registri di SMPlayer:</translation>
+        <translation>&amp;Filtro per i registri di SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="262"/>
@@ -4102,7 +4093,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="597"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>Salva l&apos;output di &amp;MPlayer</translation>
+        <translation>Abilita il registro di &amp;MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
@@ -4112,7 +4103,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>Autosave MPlayer log</source>
-        <translation>Salva automaticamente l&apos;output di MPlayer</translation>
+        <translation>Salva automaticamente il registro di MPlayer su file</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="449"/>
@@ -4132,7 +4123,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="645"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>Salva au&amp;tomaticamente l&apos;output di MPlayer su file</translation>
+        <translation>Salva au&amp;tomaticamente il registro di MPlayer su file</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="375"/>
@@ -6481,7 +6472,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>Cache for audio CDs</source>
-        <translation>Cache per audio CD</translation>
+        <translation>Cache per i CD audio</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="305"/>
@@ -6491,7 +6482,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="495"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Cache per &amp;audio CD:</translation>
+        <translation>Cache per i CD &amp;audio:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -7358,12 +7349,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è attiva, SMPlayer cercherà nuovi canali TV e radio in ~/.mplayer/channels.conf.ter oppure ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
