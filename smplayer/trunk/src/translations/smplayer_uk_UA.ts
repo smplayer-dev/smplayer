@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -651,7 +652,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2697"/>
         <source>&amp;None</source>
-        <translation>&amp;Нічого</translation>
+        <translation>&amp;Немає</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1577"/>
@@ -891,7 +892,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2862"/>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;нічого&gt;</translation>
+        <translation>&lt;немає&gt;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3226"/>
@@ -1540,7 +1541,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3454"/>
         <source>SMPlayer - Seek</source>
-        <translation>SMPlayer - Пошук</translation>
+        <translation>SMPlayer - Переміщення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3464"/>
@@ -1631,27 +1632,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1307"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Перейти...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Тільки &amp;субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність + &amp;Переміщення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність + Переміщення + &amp;Час</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Гучність + Переміщення + Час + &amp;Загальний час</translation>
     </message>
 </context>
 <context>
@@ -1932,12 +1933,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="254"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти до елементу</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="255"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть номер елементу у цьому переліку до якого необхідно перейти:</translation>
     </message>
 </context>
 <context>
@@ -2343,7 +2344,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="63"/>
         <source>General</source>
-        <translation>Головне</translation>
+        <translation>Загальна</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="67"/>
@@ -3549,7 +3550,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3659,7 +3660,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4327,7 +4328,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="362"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується прокрутка (тобто не stdin, pipe та ін.).&lt;br&gt; &lt;b&gt;Примітка:&lt;/b&gt; створення індекса займає деякий час.</translation>
+        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи прокрутку. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює тільки якщо в даному медіа підтримується переміщення (тобто не stdin, pipe та ін.).&lt;br&gt; &lt;b&gt;Примітка:&lt;/b&gt; створення індекса займає деякий час.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="138"/>
@@ -4501,12 +4502,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="755"/>
         <source>General</source>
-        <translation>Головне</translation>
+        <translation>Загальні</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;General</source>
-        <translation>&amp;Головне</translation>
+        <translation>&amp;Загальне</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="41"/>
@@ -4932,7 +4933,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="96"/>
         <source>None</source>
-        <translation>Нічого</translation>
+        <translation>Немає</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="97"/>
@@ -5380,7 +5381,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="332"/>
         <source>Media seeking</source>
-        <translation>Прокрутка</translation>
+        <translation>Переміщення по медіа</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="335"/>
@@ -5395,7 +5396,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>None</source>
-        <translation>Нічого</translation>
+        <translation>Немає</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -5755,7 +5756,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation>Зміна &amp;швидкісті</translation>
+        <translation>Зміна &amp;швидкості</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
@@ -5923,12 +5924,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="592"/>
         <source>Seek to position while dragging</source>
-        <translation>Шукати позицію при перетягуванні</translation>
+        <translation>Здійснювати переміщення при перетягуванні</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="597"/>
         <source>Seek to position when released</source>
-        <translation>Шукати позицію після відпускання</translation>
+        <translation>Здійснювати переміщення на позицію після відпускання</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="659"/>
@@ -5938,7 +5939,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="464"/>
         <source>&amp;Seeking</source>
-        <translation>&amp;Пошук</translation>
+        <translation>&amp;Переміщення</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="621"/>
@@ -6003,7 +6004,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="530"/>
         <source>Seeking</source>
-        <translation>Пошук</translation>
+        <translation>Переміщення</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="532"/>
@@ -6366,7 +6367,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="347"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>Швидкий &amp;пошук звукових доріжок</translation>
+        <translation>Швидке &amp;переміщення по звуковим доріжкам в DVD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="273"/>
@@ -6376,12 +6377,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="283"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>Швидкий пошук глав для DVD</translation>
+        <translation>Швидке переміщення по розділам в DVD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="285"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>Якщо увімкнено, буде використовуватись найшвидший метод для пошуку розділів, але не працює з деякими дисками.</translation>
+        <translation>Якщо увімкнено, буде використовуватись найшвидший метод для переміщення по розділам, але може не працювати з деякими дисками.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="257"/>
@@ -6426,7 +6427,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування DVD.&lt;br&gt;&lt;b&gt;Увага:&lt;/b&gt; Пошук не може працювати правильно (включаючи перемикання глав) при використанні кешу для DVD.</translation>
+        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прекешування DVD.&lt;br&gt;&lt;b&gt;Увага:&lt;/b&gt; Переміщення може не працювати правильно (включаючи перемикання розділів) при використанні кешу для DVD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="368"/>
@@ -6945,7 +6946,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation>непрозорий прямокутник</translation>
+        <translation>Непрозорий прямокутник</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
@@ -7353,12 +7354,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, SMPlayer шукатиме нові канали ТБ та радіо у ~/.mplayer/channels.conf.ter або у ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Перевіряти на нові канали під час запуску</translation>
     </message>
 </context>
 <context>
@@ -7565,12 +7566,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="158"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation>визначає координати, де буде відображене головне вікно</translation>
+        <translation>визначає координати, де буде відображене головне вікно.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="161"/>
         <source>specifies the size of the main window.</source>
-        <translation>визначає розміри головного вікна</translation>
+        <translation>визначає розміри головного вікна.</translation>
     </message>
 </context>
 <context>
