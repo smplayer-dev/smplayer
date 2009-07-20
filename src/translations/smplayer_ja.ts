@@ -1631,27 +1631,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1307"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>ジャンプ(&amp;J)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕のみ(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>音量 + シーク(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>音量 + シーク + タイマー(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>音量 + シーク + タイマー + 合計時間(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -1932,12 +1932,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="254"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>アイテムへジャンプ</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="255"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>ジャンプする一覧のアイテムの番号を入力します:</translation>
     </message>
 </context>
 <context>
@@ -7351,12 +7351,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、SMPlayer は ~/.mplayer/channels.conf.ter または ~/.mplayer/channels.conf から新しい TV およびラジオ チャンネルを検索します。</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>起動時に新しいチャンネルをチェックする(&amp;C)</translation>
     </message>
 </context>
 <context>
