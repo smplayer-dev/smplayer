@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="nl">
+<!DOCTYPE TS>
+<TS version="2.0" language="nl">
 <context>
     <name>About</name>
     <message>
@@ -285,12 +286,12 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">Viëtnamees</translation>
+        <translation>Viëtnamees</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="206"/>
         <source>Estonian</source>
-        <translation type="unfinished">Ests</translation>
+        <translation>Ests</translation>
     </message>
 </context>
 <context>
@@ -1596,62 +1597,62 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1305"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>B&amp;ewerken...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1308"/>
         <source>Next TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgend TV-kanaal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1309"/>
         <source>Previous TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorig TV-kanaal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1310"/>
         <source>Next radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgend radiokanaal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1311"/>
         <source>Previous radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorig radiokanaal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1519"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1522"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>Radi&amp;o</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1307"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Springen...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Alleen ondert&amp;itels</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume + &amp;Zoeken</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume + Zoeken + &amp;Timer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume + Zoeken + Timer + T&amp;otale tijd</translation>
     </message>
 </context>
 <context>
@@ -1752,17 +1753,17 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../core.cpp" line="2576"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Snelheid: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2822"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertiteling aan</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2824"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertiteling uit</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3379"/>
@@ -3548,7 +3549,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
         <source>Marshallese</source>
         <translation type="unfinished"></translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation type="unfinished"></translation>
@@ -3658,7 +3659,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
         <source>Venda</source>
         <translation type="unfinished"></translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation type="unfinished"></translation>
