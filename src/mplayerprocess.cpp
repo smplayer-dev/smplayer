@@ -326,8 +326,11 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		// Subtitles
 		if ((rx_subtitle.indexIn(line) > -1) || (rx_sid.indexIn(line) > -1) || (rx_subtitle_file.indexIn(line) > -1)) {
 			int r = subs.parse(line);
+			//qDebug("MplayerProcess::parseLine: result of parse: %d", r);
 			subtitle_info_received = true;
-			subtitle_info_changed = ((r == SubTracks::SubtitleAdded) || (r == SubTracks::SubtitleChanged));
+			if (!subtitle_info_changed) {
+				subtitle_info_changed = ((r == SubTracks::SubtitleAdded) || (r == SubTracks::SubtitleChanged));
+			}
 		}
 #endif
 
