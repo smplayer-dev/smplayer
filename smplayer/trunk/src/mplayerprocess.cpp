@@ -328,9 +328,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			int r = subs.parse(line);
 			//qDebug("MplayerProcess::parseLine: result of parse: %d", r);
 			subtitle_info_received = true;
-			if (!subtitle_info_changed) {
-				subtitle_info_changed = ((r == SubTracks::SubtitleAdded) || (r == SubTracks::SubtitleChanged));
-			}
+			if ((r == SubTracks::SubtitleAdded) || (r == SubTracks::SubtitleChanged)) subtitle_info_changed = true;
 		}
 #endif
 
