@@ -1029,7 +1029,7 @@ void Core::finishRestart() {
 	changeSubVisibility(pref->sub_visibility);
 
 	// Initialize the OSD level
-	QTimer::singleShot(3000, this, SLOT(initializeOSD()));
+	QTimer::singleShot(pref->osd_delay, this, SLOT(initializeOSD()));
 
 	emit mediaLoaded();
 	emit mediaInfoChanged();

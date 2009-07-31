@@ -117,6 +117,7 @@ void Preferences::reset() {
 
 	loop = false;
 	osd = Seek;
+	osd_delay = 2200;
 
 	file_settings_method = "hash"; // Possible values: normal & hash
 
@@ -510,6 +511,7 @@ void Preferences::save() {
 
 	set->setValue("loop", loop);
 	set->setValue("osd", osd);
+	set->setValue("osd_delay", osd_delay);
 
 	set->setValue("file_settings_method", file_settings_method);
 
@@ -913,6 +915,7 @@ void Preferences::load() {
 
 	loop = set->value("loop", loop).toBool();
 	osd = set->value("osd", osd).toInt();
+	osd_delay = set->value("osd_delay", osd_delay).toInt();
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 
