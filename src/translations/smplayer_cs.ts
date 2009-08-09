@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="cs">
+<!DOCTYPE TS>
+<TS version="2.0" language="cs">
 <context>
     <name>About</name>
     <message>
@@ -1631,27 +1632,27 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1307"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jdi na...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Pouze titulk&amp;y</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlasitost a &amp;seekování</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlasitost, seekování a &amp;pozice</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Hlasitost, seekování, pozice a &amp;délka</translation>
     </message>
 </context>
 <context>
@@ -1932,12 +1933,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../favorites.cpp" line="254"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>Jdi na položku</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="255"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zadejte počet položek, o kolik skočit v seznamu:</translation>
     </message>
 </context>
 <context>
@@ -3549,7 +3550,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Marshallese</source>
         <translation>Maršálština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3659,7 +3660,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Venda</source>
         <translation>Luvendština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -7348,12 +7349,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato položka zaškrtnuta, SMPlayer bude hledat nové kanály pro TV a rádio v ~/.mplayer/channels.conf.ter nebo ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hledat nové kanály po startu</translation>
     </message>
 </context>
 <context>
