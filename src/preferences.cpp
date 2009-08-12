@@ -1250,10 +1250,13 @@ void Preferences::load() {
        ******* */
 
 	set->beginGroup("history");
+
+	history_recents->setMaxItems( set->value("recents/max_items", history_recents->maxItems()).toInt() );
 	history_recents->fromStringList( set->value("recents", history_recents->toStringList()).toStringList() );
-	history_recents->setMaxItems( set->value("recents/max_items", history_recents->maxItems()).toInt() );;
+
+	history_urls->setMaxItems( set->value("urls/max_items", history_urls->maxItems()).toInt() );
 	history_urls->fromStringList( set->value("urls", history_urls->toStringList()).toStringList() );
-	history_urls->setMaxItems( set->value("urls/max_items", history_urls->maxItems()).toInt() );;
+
 	set->endGroup(); // history
 
 
