@@ -1,3 +1,21 @@
+[b]Version 0.6.9[/b]:
+
+(2009-08-16)
+ * All video filters in the Video menu will be shown disabled if using vdpau.
+
+(2009-08-12)
+ * Bugfix: some of the items in the the recents menu may be lost.
+
+(2009-07-31)
+ * The default cache for local files is 0.
+ * New option for smplayer.ini: osd_delay. It specifies the delay in 
+   milliseconds to show the OSD (default 2200).
+
+(2009-07-30)
+ * If using vdpau, don't pass any video filter to mplayer (instead of passing 
+   them and then clear them with -vf-clr)
+
+
 [b]Version 0.6.8[/b]:
 
 (2009-07-14)
