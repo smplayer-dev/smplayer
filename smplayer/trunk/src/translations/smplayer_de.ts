@@ -7906,17 +7906,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Video bitrate: %1</source>
-        <translation>Video Bitrate: %1 kbps</translation>
+        <translation>Video Bitrate: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="390"/>
         <source>Audio bitrate: %1</source>
-        <translation>Audio Bitrate: %1 kbps</translation>
+        <translation>Audio Bitrate: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="391"/>
         <source>Audio rate: %1</source>
-        <translation>Audiorate: %1 Hz</translation>
+        <translation>Audiorate: %1</translation>
     </message>
 </context>
 <context>
