@@ -1867,15 +1867,6 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
-	bool force_noslices = false;
-
-#ifndef Q_OS_WIN
-	if (pref->vo.startsWith("vdpau")) {
-		qDebug("Core::startMplayer: vdpau doesn't allow any video filter. All have been removed.");
-		goto end_video_filters;
-	}
-#endif
-
 	// Video filters:
 	// Phase
 	if (mset.phase_filter) {
@@ -1976,6 +1967,8 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( pref->mplayer_additional_video_filters );
 	}
 
+	bool force_noslices = false;
+
 	// Filters for subtitles on screenshots
 	if ((screenshot_enabled) && (pref->subtitles_on_screenshots)) 
 	{
@@ -2015,8 +2008,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-vf-add");
 		proc->addArgument("screenshot");
 	}
-
-end_video_filters:
 
 	// slices
 	if ((pref->use_slices) && (!force_noslices)) {

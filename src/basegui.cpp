@@ -1251,29 +1251,6 @@ void BaseGui::enableActionsOnPlaying() {
 	screenGroup->setActionsEnabled(pref->vo.startsWith(OVERLAY_VO));
 #endif
 
-#ifndef Q_OS_WIN
-	// Disable video filters if using vdpau
-	if (pref->vo.startsWith("vdpau")) {
-		screenshotAct->setEnabled(false);
-		screenshotsAct->setEnabled(false);
-		flipAct->setEnabled(false);
-		mirrorAct->setEnabled(false);
-		postProcessingAct->setEnabled(false);
-		phaseAct->setEnabled(false);
-		deblockAct->setEnabled(false);
-		deringAct->setEnabled(false);
-		addNoiseAct->setEnabled(false);
-		addLetterboxAct->setEnabled(false);
-		upscaleAct->setEnabled(false);
-
-		deinterlaceGroup->setActionsEnabled(false);
-		rotateGroup->setActionsEnabled(false);
-		denoiseGroup->setActionsEnabled(false);
-
-		displayMessage( tr("Video filters are disabled when using vdpau") );
-	}
-#endif
-
 #if DVDNAV_SUPPORT
 	if (!core->mdat.filename.startsWith("dvdnav:")) {
 		dvdnavUpAct->setEnabled(false);
