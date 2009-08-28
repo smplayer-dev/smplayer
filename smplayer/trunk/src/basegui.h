@@ -596,7 +596,7 @@ protected:
 	QMenu * videofilter_menu;
 	QMenu * audiofilter_menu;
 	QMenu * logs_menu;
-	QMenu * panscan_menu;
+	QMenu * zoom_menu;
 	QMenu * rotate_menu;
 	QMenu * ontop_menu;
 #if USE_ADAPTER

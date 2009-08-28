@@ -1023,7 +1023,7 @@ void Core::finishRestart() {
 	emit videoEqualizerNeedsUpdate();
 	emit audioEqualizerNeedsUpdate();
 
-	changePanscan(mset.panscan_factor);
+	changeZoom(mset.zoom_factor);
 
 	// Toggle subtitle visibility
 	changeSubVisibility(pref->sub_visibility);
@@ -2243,7 +2243,7 @@ void Core::wheelUp() {
 	qDebug("Core::wheelUp");
 	switch (pref->wheel_function) {
 		case Preferences::Volume : incVolume(); break;
-		case Preferences::Zoom : incPanscan(); break;
+		case Preferences::Zoom : incZoom(); break;
 		case Preferences::Seeking : forward( pref->seeking4 ); break;
 		case Preferences::ChangeSpeed : incSpeed10(); break;
 		default : {} // do nothing
@@ -2254,7 +2254,7 @@ void Core::wheelDown() {
 	qDebug("Core::wheelDown");
 	switch (pref->wheel_function) {
 		case Preferences::Volume : decVolume(); break;
-		case Preferences::Zoom : decPanscan(); break;
+		case Preferences::Zoom : decZoom(); break;
 		case Preferences::Seeking : rewind( pref->seeking4 ); break;
 		case Preferences::ChangeSpeed : decSpeed10(); break;
 		default : {} // do nothing
@@ -3442,20 +3442,20 @@ void Core::toggleDoubleSize() {
 		changeSize(200);
 }
 
-void Core::changePanscan(double p) {
-	qDebug("Core::changePanscan: %f", p);
+void Core::changeZoom(double p) {
+	qDebug("Core::changeZoom: %f", p);
 	if (p < ZOOM_MIN) p = ZOOM_MIN;
 
-	mset.panscan_factor = p;
+	mset.zoom_factor = p;
 	mplayerwindow->setZoom(p);
-	displayMessage( tr("Zoom: %1").arg(mset.panscan_factor) );
+	displayMessage( tr("Zoom: %1").arg(mset.zoom_factor) );
 }
 
-void Core::resetPanscan() {
-	changePanscan(1.0);
+void Core::resetZoom() {
+	changeZoom(1.0);
 }
 
-void Core::autoPanscan() {
+void Core::autoZoom() {
 	double video_aspect = mset.aspectToNum( (MediaSettings::Aspect) mset.aspect_ratio_id);
 
 	if (video_aspect <= 0) {
@@ -3471,15 +3471,15 @@ void Core::autoPanscan() {
 	else
 		zoom_factor = screen_aspect / video_aspect;
 
-	qDebug("Core::autoPanscan: video_aspect: %f", video_aspect);
-	qDebug("Core::autoPanscan: screen_aspect: %f", screen_aspect);
-	qDebug("Core::autoPanscan: zoom_factor: %f", zoom_factor);
+	qDebug("Core::autoZoom: video_aspect: %f", video_aspect);
+	qDebug("Core::autoZoom: screen_aspect: %f", screen_aspect);
+	qDebug("Core::autoZoom: zoom_factor: %f", zoom_factor);
 
-	changePanscan(zoom_factor);
+	changeZoom(zoom_factor);
 }
 
-void Core::autoPanscanFromLetterbox(double aspect) {
-	qDebug("Core::autoPanscanFromLetterbox: %f", aspect);
+void Core::autoZoomFromLetterbox(double aspect) {
+	qDebug("Core::autoZoomFromLetterbox: %f", aspect);
 
 	// Probably there's a much easy way to do this, but I'm not good with maths...
 
@@ -3501,37 +3501,37 @@ void Core::autoPanscanFromLetterbox(double aspect) {
 		video.setHeight( (int) (video.width() / video_aspect) );
 	}
 
-	qDebug("Core::autoPanscanFromLetterbox: max. size of video: %d %d", video.width(), video.height());
+	qDebug("Core::autoZoomFromLetterbox: max. size of video: %d %d", video.width(), video.height());
 
 	// Calculate the size of the actual video inside the letterbox
 	QSize actual_video;
 	actual_video.setWidth( video.width() );
 	actual_video.setHeight( (int) (actual_video.width() / aspect) );
 
-	qDebug("Core::autoPanscanFromLetterbox: calculated size of actual video for aspect %f: %d %d", aspect, actual_video.width(), actual_video.height());
+	qDebug("Core::autoZoomFromLetterbox: calculated size of actual video for aspect %f: %d %d", aspect, actual_video.width(), actual_video.height());
 
 	double zoom_factor = (double) desktop.height() / actual_video.height();
 
-	qDebug("Core::autoPanscanFromLetterbox: calculated zoom factor: %f", zoom_factor);
-	changePanscan(zoom_factor);	
+	qDebug("Core::autoZoomFromLetterbox: calculated zoom factor: %f", zoom_factor);
+	changeZoom(zoom_factor);	
 }
 
-void Core::autoPanscanFor169() {
-	autoPanscanFromLetterbox((double) 16 / 9);
+void Core::autoZoomFor169() {
+	autoZoomFromLetterbox((double) 16 / 9);
 }
 
-void Core::autoPanscanFor235() {
-	autoPanscanFromLetterbox(2.35);
+void Core::autoZoomFor235() {
+	autoZoomFromLetterbox(2.35);
 }
 
-void Core::incPanscan() {
-	qDebug("Core::incPanscan");
-	changePanscan( mset.panscan_factor + ZOOM_STEP );
+void Core::incZoom() {
+	qDebug("Core::incZoom");
+	changeZoom( mset.zoom_factor + ZOOM_STEP );
 }
 
-void Core::decPanscan() {
-	qDebug("Core::decPanscan");
-	changePanscan( mset.panscan_factor - ZOOM_STEP );
+void Core::decZoom() {
+	qDebug("Core::decZoom");
+	changeZoom( mset.zoom_factor - ZOOM_STEP );
 }
 
 void Core::changeUseAss(bool b) {

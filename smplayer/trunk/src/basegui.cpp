@@ -747,22 +747,22 @@ void BaseGui::createActions() {
 	connect( moveRightAct, SIGNAL(triggered()), mplayerwindow, SLOT(moveRight()) );
 
 	incZoomAct = new MyAction(Qt::Key_E, this, "inc_zoom");
-	connect( incZoomAct, SIGNAL(triggered()), core, SLOT(incPanscan()) );
+	connect( incZoomAct, SIGNAL(triggered()), core, SLOT(incZoom()) );
 
 	decZoomAct = new MyAction(Qt::Key_W, this, "dec_zoom");
-	connect( decZoomAct, SIGNAL(triggered()), core, SLOT(decPanscan()) );
+	connect( decZoomAct, SIGNAL(triggered()), core, SLOT(decZoom()) );
 
 	resetZoomAct = new MyAction(Qt::SHIFT | Qt::Key_E, this, "reset_zoom");
-	connect( resetZoomAct, SIGNAL(triggered()), core, SLOT(resetPanscan()) );
+	connect( resetZoomAct, SIGNAL(triggered()), core, SLOT(resetZoom()) );
 
 	autoZoomAct = new MyAction(Qt::SHIFT | Qt::Key_W, this, "auto_zoom");
-	connect( autoZoomAct, SIGNAL(triggered()), core, SLOT(autoPanscan()) );
+	connect( autoZoomAct, SIGNAL(triggered()), core, SLOT(autoZoom()) );
 
 	autoZoom169Act = new MyAction(Qt::SHIFT | Qt::Key_A, this, "zoom_169");
-	connect( autoZoom169Act, SIGNAL(triggered()), core, SLOT(autoPanscanFor169()) );
+	connect( autoZoom169Act, SIGNAL(triggered()), core, SLOT(autoZoomFor169()) );
 
 	autoZoom235Act = new MyAction(Qt::SHIFT | Qt::Key_S, this, "zoom_235");
-	connect( autoZoom235Act, SIGNAL(triggered()), core, SLOT(autoPanscanFor235()) );
+	connect( autoZoom235Act, SIGNAL(triggered()), core, SLOT(autoZoomFor235()) );
 
 
 	// Actions not in menus or buttons
@@ -1353,7 +1353,7 @@ void BaseGui::retranslateStrings() {
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	screenshotsAct->change( Images::icon("screenshots"), tr("Start/stop takin&g screenshots") );
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
-	flipAct->change( Images::icon("flip"), tr("Flip i&mage") );
+	flipAct->change( Images::icon("flip"), tr("Fli&p image") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
 	motionVectorsAct->change( Images::icon("motion_vectors"), 
                               tr("Visualize &motion vectors") );
@@ -1533,8 +1533,12 @@ void BaseGui::retranslateStrings() {
 	videosize_menu->menuAction()->setText( tr("Si&ze") );
 	videosize_menu->menuAction()->setIcon( Images::icon("video_size") );
 
+	/*
 	panscan_menu->menuAction()->setText( tr("&Pan && scan") );
 	panscan_menu->menuAction()->setIcon( Images::icon("panscan") );
+	*/
+	zoom_menu->menuAction()->setText( tr("Zoo&m") );
+	zoom_menu->menuAction()->setIcon( Images::icon("zoom") );
 
 	aspect_menu->menuAction()->setText( tr("&Aspect ratio") );
 	aspect_menu->menuAction()->setIcon( Images::icon("aspect") );
@@ -2023,24 +2027,24 @@ void BaseGui::createMenus() {
 	videosize_menu->addAction(doubleSizeAct);
 	videoMenu->addMenu(videosize_menu);
 
-	// Panscan submenu
-	panscan_menu = new QMenu(this);
-	panscan_menu->menuAction()->setObjectName("panscan_menu");
-	panscan_menu->addAction(resetZoomAct);
-	panscan_menu->addSeparator();
-	panscan_menu->addAction(autoZoomAct);
-	panscan_menu->addAction(autoZoom169Act);
-	panscan_menu->addAction(autoZoom235Act);
-	panscan_menu->addSeparator();
-	panscan_menu->addAction(decZoomAct);
-	panscan_menu->addAction(incZoomAct);
-	panscan_menu->addSeparator();
-	panscan_menu->addAction(moveLeftAct);
-	panscan_menu->addAction(moveRightAct);
-	panscan_menu->addAction(moveUpAct);
-	panscan_menu->addAction(moveDownAct);
+	// Zoom submenu
+	zoom_menu = new QMenu(this);
+	zoom_menu->menuAction()->setObjectName("zoom_menu");
+	zoom_menu->addAction(resetZoomAct);
+	zoom_menu->addSeparator();
+	zoom_menu->addAction(autoZoomAct);
+	zoom_menu->addAction(autoZoom169Act);
+	zoom_menu->addAction(autoZoom235Act);
+	zoom_menu->addSeparator();
+	zoom_menu->addAction(decZoomAct);
+	zoom_menu->addAction(incZoomAct);
+	zoom_menu->addSeparator();
+	zoom_menu->addAction(moveLeftAct);
+	zoom_menu->addAction(moveRightAct);
+	zoom_menu->addAction(moveUpAct);
+	zoom_menu->addAction(moveDownAct);
 
-	videoMenu->addMenu(panscan_menu);
+	videoMenu->addMenu(zoom_menu);
 
 	// Aspect submenu
 	aspect_menu = new QMenu(this);
