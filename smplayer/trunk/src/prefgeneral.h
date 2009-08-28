@@ -24,6 +24,7 @@
 #include "inforeader.h"
 #include "deviceinfo.h"
 #include "preferences.h"
+#include "config.h"
 
 #ifdef Q_OS_WIN
 #define USE_DSOUND_DEVICES 1
@@ -156,8 +157,10 @@ protected:
 	void setInitialDeinterlace(int ID);
 	int initialDeinterlace();
 
+#if !USE_MPLAYER_PANSCAN
 	void setInitialZoom(double v);
 	double initialZoom();
+#endif
 
 	void setDirectRendering(bool b);
 	bool directRendering();

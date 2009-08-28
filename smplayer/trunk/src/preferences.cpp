@@ -386,7 +386,9 @@ void Preferences::reset() {
 
 	initial_audio_equalizer << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0;
 
+#if !USE_MPLAYER_PANSCAN
 	initial_zoom_factor = 1.0;
+#endif
 	initial_sub_pos = 100; // 100%
 
 	initial_postprocessing = false;
@@ -781,7 +783,9 @@ void Preferences::save() {
 
 	set->setValue("initial_audio_equalizer", initial_audio_equalizer);
 
+#if !USE_MPLAYER_PANSCAN
 	set->setValue("initial_zoom_factor", initial_zoom_factor);
+#endif
 	set->setValue("initial_sub_pos", initial_sub_pos);
 
 	set->setValue("initial_volnorm", initial_volnorm);
@@ -1191,7 +1195,9 @@ void Preferences::load() {
 
 	initial_audio_equalizer = set->value("initial_audio_equalizer", initial_audio_equalizer).toList();
 
+#if !USE_MPLAYER_PANSCAN
 	initial_zoom_factor = set->value("initial_zoom_factor", initial_zoom_factor).toDouble();
+#endif
 	initial_sub_pos = set->value("initial_sub_pos", initial_sub_pos).toInt();
 
 	initial_volnorm = set->value("initial_volnorm", initial_volnorm).toBool();

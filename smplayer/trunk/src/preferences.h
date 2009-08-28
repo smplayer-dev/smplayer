@@ -390,7 +390,9 @@ public:
 	AudioEqualizerList initial_audio_equalizer;
 
 	//! Default value for zoom (1.0 = no zoom)
+#if !USE_MPLAYER_PANSCAN
 	double initial_zoom_factor;
+#endif
 
 	//! Default value for position of subtitles on screen
 	//! 100 = 100% at the bottom

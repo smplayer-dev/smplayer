@@ -450,6 +450,7 @@ protected:
 	MyAction * nextWheelFunctionAct;
 
 	// Moving and zoom
+#if !USE_MPLAYER_PANSCAN
 	MyAction * moveUpAct;
 	MyAction * moveDownAct;
 	MyAction * moveLeftAct;
@@ -460,6 +461,7 @@ protected:
 	MyAction * autoZoomAct;
 	MyAction * autoZoom169Act;
 	MyAction * autoZoom235Act;
+#endif
 
 #if USE_MPLAYER_PANSCAN
 	MyAction * incPanscanAct;
@@ -601,7 +603,9 @@ protected:
 	QMenu * videofilter_menu;
 	QMenu * audiofilter_menu;
 	QMenu * logs_menu;
+#if !USE_MPLAYER_PANSCAN
 	QMenu * zoom_menu;
+#endif
 	QMenu * rotate_menu;
 	QMenu * ontop_menu;
 #if USE_ADAPTER
