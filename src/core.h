@@ -271,6 +271,12 @@ public slots:
 	void autoZoomFor169();
 	void autoZoomFor235();
 
+#if USE_MPLAYER_PANSCAN
+	void changePanscan(double);
+	void incPanscan();
+	void decPanscan();
+#endif
+
 	void changeUseAss(bool);
 	void toggleClosedCaption(bool);
 	void toggleForcedSubsOnly(bool);

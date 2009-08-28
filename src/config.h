@@ -135,4 +135,10 @@
 #endif
 
 
+// If 1, smplayer will add support for the mplayer slave command
+// "panscan".
+
+#define USE_MPLAYER_PANSCAN 1
+
+
 #endif

@@ -3534,6 +3534,28 @@ void Core::decZoom() {
 	changeZoom( mset.zoom_factor - ZOOM_STEP );
 }
 
+#if USE_MPLAYER_PANSCAN
+void Core::changePanscan(double p) {
+	 qDebug("Core::changePanscan: %f", p);
+
+	if (p < 0) p = 0;
+	if (p > 1) p = 1;
+
+	mset.panscan_factor = p;
+	tellmp(QString("panscan %1 1").arg(mset.panscan_factor));
+	displayMessage( QString("Panscan: %1").arg(mset.panscan_factor) );
+}
+
+void Core::incPanscan() {
+	changePanscan(mset.panscan_factor + .1);
+}
+
+void Core::decPanscan() {
+	changePanscan(mset.panscan_factor - .1);
+}
+#endif
+
+
 void Core::changeUseAss(bool b) {
 	qDebug("Core::changeUseAss: %d", b);
 

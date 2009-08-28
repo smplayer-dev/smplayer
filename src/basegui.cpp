@@ -764,6 +764,14 @@ void BaseGui::createActions() {
 	autoZoom235Act = new MyAction(Qt::SHIFT | Qt::Key_S, this, "zoom_235");
 	connect( autoZoom235Act, SIGNAL(triggered()), core, SLOT(autoZoomFor235()) );
 
+#if USE_MPLAYER_PANSCAN
+	incPanscanAct = new MyAction(Qt::SHIFT | Qt::Key_M, this, "inc_panscan");
+	connect( incPanscanAct, SIGNAL(triggered()), core, SLOT(incPanscan()) );
+
+	decPanscanAct = new MyAction(Qt::SHIFT | Qt::Key_N, this, "dec_panscan");
+	connect( decPanscanAct, SIGNAL(triggered()), core, SLOT(decPanscan()) );
+#endif
+
 
 	// Actions not in menus or buttons
 	// Volume 2
@@ -1368,6 +1376,11 @@ void BaseGui::retranslateStrings() {
 	moveRightAct->change( tr("Move &right") );
 	moveUpAct->change( tr("Move &up") );
 	moveDownAct->change( tr("Move &down") );
+
+#if USE_MPLAYER_PANSCAN
+	decPanscanAct->change( "Panscan -" );
+	incPanscanAct->change( "Panscan +" );
+#endif
 
 	// Submenu Filters
 	postProcessingAct->change( tr("&Postprocessing") );
