@@ -138,7 +138,7 @@
 // If 1, smplayer will add support for the mplayer slave command
 // "panscan".
 
-#define USE_MPLAYER_PANSCAN 1
+#define USE_MPLAYER_PANSCAN 0
 
 
 #endif

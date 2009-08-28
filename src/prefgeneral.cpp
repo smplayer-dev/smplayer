@@ -59,6 +59,12 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	screensaver_group->hide();
 #endif
 
+	//Zoom
+#if USE_MPLAYER_PANSCAN
+	zoom_label->hide();
+	zoom_spin->hide();
+#endif
+
 	// Channels combo
 	channels_combo->addItem( "2", MediaSettings::ChStereo );
 	channels_combo->addItem( "4", MediaSettings::ChSurround );
@@ -181,7 +187,9 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAmplification( pref->softvol_max );
 	setInitialPostprocessing( pref->initial_postprocessing );
 	setInitialDeinterlace( pref->initial_deinterlace );
+#if !USE_MPLAYER_PANSCAN
 	setInitialZoom( pref->initial_zoom_factor );
+#endif
 	setDirectRendering( pref->use_direct_rendering );
 	setDoubleBuffer( pref->use_double_buffer );
 	setUseSlices( pref->use_slices );
@@ -256,7 +264,9 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->softvol_max, amplification());
 	pref->initial_postprocessing = initialPostprocessing();
 	pref->initial_deinterlace = initialDeinterlace();
+#if !USE_MPLAYER_PANSCAN
 	pref->initial_zoom_factor = initialZoom();
+#endif
 	TEST_AND_SET(pref->use_direct_rendering, directRendering());
 	TEST_AND_SET(pref->use_double_buffer, doubleBuffer());
 	TEST_AND_SET(pref->use_slices, useSlices());
@@ -619,6 +629,7 @@ int PrefGeneral::initialDeinterlace() {
 	}
 }
 
+#if !USE_MPLAYER_PANSCAN
 void PrefGeneral::setInitialZoom(double v) {
 	zoom_spin->setValue(v);
 }
@@ -626,6 +637,7 @@ void PrefGeneral::setInitialZoom(double v) {
 double PrefGeneral::initialZoom() {
 	return zoom_spin->value();
 }
+#endif
 
 void PrefGeneral::setDirectRendering(bool b) {
 	direct_rendering_check->setChecked(b);
@@ -824,9 +836,11 @@ void PrefGeneral::createHelp() {
            "videos opened.") +" "+ 
         tr("<b>Note:</b> This option won't be used for TV channels.") );
 
+#if !USE_MPLAYER_PANSCAN
 	setWhatsThis(zoom_spin, tr("Default zoom"),
 		tr("This option sets the default zoom which will be used for "
            "new videos.") );
+#endif
 
 	setWhatsThis(eq2_check, tr("Software video equalizer"),
 		tr("You can check this option if video equalizer is not supported by "
