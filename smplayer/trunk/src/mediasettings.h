@@ -114,6 +114,10 @@ public:
 
 	double zoom_factor; // mplayerwindow zoom
 
+#if USE_MPLAYER_PANSCAN
+	double panscan_factor;
+#endif
+
 	int rotate;
 	bool flip; //!< Flip image
 	bool mirror; //!< Mirrors the image on the Y axis.

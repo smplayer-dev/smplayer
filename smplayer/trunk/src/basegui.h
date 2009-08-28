@@ -461,6 +461,11 @@ protected:
 	MyAction * autoZoom169Act;
 	MyAction * autoZoom235Act;
 
+#if USE_MPLAYER_PANSCAN
+	MyAction * incPanscanAct;
+	MyAction * decPanscanAct;
+#endif
+
 	// OSD Action Group 
 	MyActionGroup * osdGroup;
 	MyAction * osdNoneAct;
