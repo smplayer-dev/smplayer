@@ -3946,7 +3946,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="32"/>
         <source>&amp;Add files in directories recursively</source>
-        <translation>&amp;Dateien rekursiv in Verzeichnisse einfügen</translation>
+        <translation>&amp;Dateien aus untergeordneten Verzeichnissen einfügen (~rekursiv)</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.cpp" line="39"/>
