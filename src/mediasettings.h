@@ -112,7 +112,7 @@ public:
 	int audio_use_channels;
 	int stereo_mode;
 
-	double panscan_factor; // mplayerwindow zoom
+	double zoom_factor; // mplayerwindow zoom
 
 	int rotate;
 	bool flip; //!< Flip image

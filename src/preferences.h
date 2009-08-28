@@ -389,8 +389,8 @@ public:
 
 	AudioEqualizerList initial_audio_equalizer;
 
-	//! Default value for panscan (1.0 = no zoom)
-	double initial_panscan_factor;
+	//! Default value for zoom (1.0 = no zoom)
+	double initial_zoom_factor;
 
 	//! Default value for position of subtitles on screen
 	//! 100 = 100% at the bottom

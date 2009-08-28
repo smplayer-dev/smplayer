@@ -181,7 +181,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAmplification( pref->softvol_max );
 	setInitialPostprocessing( pref->initial_postprocessing );
 	setInitialDeinterlace( pref->initial_deinterlace );
-	setInitialZoom( pref->initial_panscan_factor );
+	setInitialZoom( pref->initial_zoom_factor );
 	setDirectRendering( pref->use_direct_rendering );
 	setDoubleBuffer( pref->use_double_buffer );
 	setUseSlices( pref->use_slices );
@@ -256,7 +256,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->softvol_max, amplification());
 	pref->initial_postprocessing = initialPostprocessing();
 	pref->initial_deinterlace = initialDeinterlace();
-	pref->initial_panscan_factor = initialZoom();
+	pref->initial_zoom_factor = initialZoom();
 	TEST_AND_SET(pref->use_direct_rendering, directRendering());
 	TEST_AND_SET(pref->use_double_buffer, doubleBuffer());
 	TEST_AND_SET(pref->use_slices, useSlices());
