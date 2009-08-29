@@ -330,9 +330,7 @@ void Preferences::reset() {
 
 	pause_when_hidden = false;
 
-#if !USE_MPLAYER_PANSCAN
 	allow_video_movement = false;
-#endif
 
 	gui = "DefaultGui";
 
@@ -388,9 +386,7 @@ void Preferences::reset() {
 
 	initial_audio_equalizer << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0;
 
-#if !USE_MPLAYER_PANSCAN
 	initial_zoom_factor = 1.0;
-#endif
 	initial_sub_pos = 100; // 100%
 
 	initial_postprocessing = false;
@@ -722,9 +718,7 @@ void Preferences::save() {
 
 	set->setValue("pause_when_hidden", pause_when_hidden);
 
-#if !USE_MPLAYER_PANSCAN
 	set->setValue("allow_video_movement", allow_video_movement);
-#endif
 
 	set->setValue("gui", gui);
 
@@ -787,9 +781,7 @@ void Preferences::save() {
 
 	set->setValue("initial_audio_equalizer", initial_audio_equalizer);
 
-#if !USE_MPLAYER_PANSCAN
 	set->setValue("initial_zoom_factor", initial_zoom_factor);
-#endif
 	set->setValue("initial_sub_pos", initial_sub_pos);
 
 	set->setValue("initial_volnorm", initial_volnorm);
@@ -1135,9 +1127,7 @@ void Preferences::load() {
 
 	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
 
-#if !USE_MPLAYER_PANSCAN
 	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
-#endif
 
 	gui = set->value("gui", gui).toString();
 
@@ -1201,9 +1191,7 @@ void Preferences::load() {
 
 	initial_audio_equalizer = set->value("initial_audio_equalizer", initial_audio_equalizer).toList();
 
-#if !USE_MPLAYER_PANSCAN
 	initial_zoom_factor = set->value("initial_zoom_factor", initial_zoom_factor).toDouble();
-#endif
 	initial_sub_pos = set->value("initial_sub_pos", initial_sub_pos).toInt();
 
 	initial_volnorm = set->value("initial_volnorm", initial_volnorm).toBool();

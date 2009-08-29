@@ -112,9 +112,7 @@ public:
 	int audio_use_channels;
 	int stereo_mode;
 
-#if !USE_MPLAYER_PANSCAN
 	double zoom_factor; // mplayerwindow zoom
-#endif
 
 #if USE_MPLAYER_PANSCAN
 	double panscan_factor;

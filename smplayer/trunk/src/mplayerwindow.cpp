@@ -201,15 +201,11 @@ void MplayerLayer::playingStopped() {
 /* ---------------------------------------------------------------------- */
 
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f) 
-	: Screen(parent, f)
+	: Screen(parent, f) , allow_video_movement(false)
 {
-#if !USE_MPLAYER_PANSCAN
 	offset_x = 0;
 	offset_y = 0;
 	zoom_factor = 1.0;
-
-	allow_video_movement = false;
-#endif
 
 	setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
@@ -292,33 +288,23 @@ void MplayerWindow::resizeEvent( QResizeEvent * /* e */)
 	   e->size().width(), e->size().height() );*/
 
 #if !DELAYED_RESIZE
-#if !USE_MPLAYER_PANSCAN
 	offset_x = 0;
 	offset_y = 0;
-#endif
+
     updateVideoWindow();
-
-#if !USE_MPLAYER_PANSCAN
 	setZoom(zoom_factor);
-#endif
-
-#else // DELAYED_RESIZE
+#else
 	resize_timer->start();
 #endif
 }
 
 #if DELAYED_RESIZE
 void MplayerWindow::resizeLater() {
-#if !USE_MPLAYER_PANSCAN
 	offset_x = 0;
 	offset_y = 0;
-#endif
 
     updateVideoWindow();
-
-#if !USE_MPLAYER_PANSCAN
 	setZoom(zoom_factor);
-#endif
 }
 #endif
 
@@ -377,12 +363,10 @@ void MplayerWindow::updateVideoWindow()
     mplayerlayer->move(x,y);
     mplayerlayer->resize(w, h);
 
-#if !USE_MPLAYER_PANSCAN
 	orig_x = x;
 	orig_y = y;
 	orig_width = w;
 	orig_height = h;
-#endif
     
     //qDebug( "w_width: %d, w_height: %d", w_width, w_height);
     //qDebug("w: %d, h: %d", w,h);
@@ -470,7 +454,6 @@ QSize MplayerWindow::minimumSizeHint () const {
 	return QSize(0,0);
 }
 
-#if !USE_MPLAYER_PANSCAN
 void MplayerWindow::setOffsetX( int d) {
 	offset_x = d;
 	mplayerlayer->move( orig_x + offset_x, mplayerlayer->y() );
@@ -546,7 +529,6 @@ void MplayerWindow::decZoom() {
 	if (zoom < ZOOM_MIN) zoom = ZOOM_MIN;
 	setZoom( zoom );
 }
-#endif
 
 // Language change stuff
 void MplayerWindow::changeEvent(QEvent *e) {

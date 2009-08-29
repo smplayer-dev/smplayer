@@ -255,6 +255,7 @@ public slots:
 
 	void changeSize(int); // Size of the window
 	void toggleDoubleSize();
+	void changeZoom(double); // Zoom on mplayerwindow
 
 	void changeRotate(int r);
 
@@ -262,8 +263,6 @@ public slots:
 	void changeAdapter(int n);
 #endif
 
-#if !USE_MPLAYER_PANSCAN
-	void changeZoom(double); // Zoom on mplayerwindow
 	void incZoom();
 	void decZoom();
 	void resetZoom();
@@ -271,7 +270,6 @@ public slots:
 	void autoZoomFromLetterbox(double video_aspect);
 	void autoZoomFor169();
 	void autoZoomFor235();
-#endif
 
 #if USE_MPLAYER_PANSCAN
 	void changePanscan(double);

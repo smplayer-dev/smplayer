@@ -86,9 +86,7 @@ void MediaSettings::reset() {
 	audio_use_channels = pref->initial_audio_channels; //ChDefault; // (0)
 	stereo_mode = pref->initial_stereo_mode; //Stereo; // (0)
 
-#if !USE_MPLAYER_PANSCAN
 	zoom_factor = pref->initial_zoom_factor; // 1.0;
-#endif
 
 #if USE_MPLAYER_PANSCAN
 	panscan_factor = 0;
@@ -218,12 +216,10 @@ void MediaSettings::list() {
 	qDebug("  audio_use_channels: %d", audio_use_channels);
 	qDebug("  stereo_mode: %d", stereo_mode);
 
-#if !USE_MPLAYER_PANSCAN
 	qDebug("  zoom_factor: %f", zoom_factor);
-#endif
 
 #if USE_MPLAYER_PANSCAN
-	qDebug("  panscan_factor: %f", panscan_factor);
+	qDebug("  panscan_factor: %f", zoom_factor);
 #endif
 
 	qDebug("  rotate: %d", rotate);
@@ -310,12 +306,10 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "audio_use_channels", audio_use_channels);
 	set->setValue( "stereo_mode", stereo_mode);
 
-#if !USE_MPLAYER_PANSCAN
 	set->setValue( "zoom_factor", zoom_factor);
-#endif
 
 #if USE_MPLAYER_PANSCAN
-	set->setValue( "panscan_factor", panscan_factor);
+	set->setValue( "panscan_factor", zoom_factor);
 #endif
 
 	set->setValue( "rotate", rotate );
@@ -403,9 +397,7 @@ void MediaSettings::load(QSettings * set) {
 	audio_use_channels = set->value( "audio_use_channels", audio_use_channels).toInt();
 	stereo_mode = set->value( "stereo_mode", stereo_mode).toInt();
 
-#if !USE_MPLAYER_PANSCAN
 	zoom_factor = set->value( "zoom_factor", zoom_factor).toDouble();
-#endif
 
 #if USE_MPLAYER_PANSCAN
 	panscan_factor = set->value( "panscan_factor", panscan_factor).toDouble();
