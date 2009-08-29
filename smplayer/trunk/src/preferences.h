@@ -333,7 +333,9 @@ public:
 	bool pause_when_hidden; 
 
 	//!< Allow frre movement of the video window
+#if !USE_MPLAYER_PANSCAN
 	bool allow_video_movement;
+#endif
 
 	QString gui; //!< The name of the GUI to use
 

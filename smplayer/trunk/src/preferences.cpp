@@ -330,7 +330,9 @@ void Preferences::reset() {
 
 	pause_when_hidden = false;
 
+#if !USE_MPLAYER_PANSCAN
 	allow_video_movement = false;
+#endif
 
 	gui = "DefaultGui";
 
@@ -720,7 +722,9 @@ void Preferences::save() {
 
 	set->setValue("pause_when_hidden", pause_when_hidden);
 
+#if !USE_MPLAYER_PANSCAN
 	set->setValue("allow_video_movement", allow_video_movement);
+#endif
 
 	set->setValue("gui", gui);
 
@@ -1131,7 +1135,9 @@ void Preferences::load() {
 
 	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
 
+#if !USE_MPLAYER_PANSCAN
 	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
+#endif
 
 	gui = set->value("gui", gui).toString();
 

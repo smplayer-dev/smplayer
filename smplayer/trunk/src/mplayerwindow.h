@@ -148,6 +148,7 @@ public:
 	void setColorKey(QColor c);
 #endif
 
+#if !USE_MPLAYER_PANSCAN
 	void setOffsetX( int );
 	int offsetX();
 
@@ -159,12 +160,14 @@ public:
 
 	void allowVideoMovement(bool b) { allow_video_movement = b; };
 	bool isVideoMovementAllowed() { return allow_video_movement; };
+#endif
 
 	virtual QSize sizeHint () const;
 	virtual QSize minimumSizeHint() const;
 
 	virtual bool eventFilter( QObject * watched, QEvent * event );
 
+#if !USE_MPLAYER_PANSCAN
 public slots:
 	void moveLeft();
 	void moveRight();
@@ -172,6 +175,7 @@ public slots:
 	void moveDown();
 	void incZoom();
 	void decZoom();
+#endif
 
 #if DELAYED_RESIZE
 protected slots:
@@ -210,6 +214,7 @@ protected:
 	QLabel * logo;
 
 	// Zoom and moving
+#if !USE_MPLAYER_PANSCAN
 	int offset_x, offset_y;
 	double zoom_factor;
 
@@ -219,6 +224,7 @@ protected:
 	int orig_width, orig_height;
 
 	bool allow_video_movement;
+#endif
 
 #if DELAYED_RESIZE
 	QTimer * resize_timer;
