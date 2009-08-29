@@ -1299,7 +1299,12 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-fs");
 	} else {
 		// No mplayer fullscreen mode
+#if !USE_MPLAYER_PANSCAN
 		proc->addArgument("-nofs");
+#else
+		// The command 'panscan' requires -fs
+		proc->addArgument("-fs");
+#endif
 	}
 
 	proc->addArgument("-nomouseinput");
@@ -3546,7 +3551,7 @@ void Core::decZoom() {
 void Core::changePanscan(double p) {
 	 qDebug("Core::changePanscan: %f", p);
 
-	if (p < 0) p = 0;
+	if (p < 0.1) p = 0;
 	if (p > 1) p = 1;
 
 	mset.panscan_factor = p;
