@@ -396,7 +396,7 @@
        <item>
         <layout class="QHBoxLayout" >
          <item>
-          <widget class="QLabel" name="zoom_label" >
+          <widget class="QLabel" name="label_8" >
            <property name="text" >
             <string>Default &amp;zoom:</string>
            </property>

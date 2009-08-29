@@ -1023,9 +1023,7 @@ void Core::finishRestart() {
 	emit videoEqualizerNeedsUpdate();
 	emit audioEqualizerNeedsUpdate();
 
-#if !USE_MPLAYER_PANSCAN
 	changeZoom(mset.zoom_factor);
-#endif
 
 	// Toggle subtitle visibility
 	changeSubVisibility(pref->sub_visibility);
@@ -2250,9 +2248,7 @@ void Core::wheelUp() {
 	qDebug("Core::wheelUp");
 	switch (pref->wheel_function) {
 		case Preferences::Volume : incVolume(); break;
-#if !USE_MPLAYER_PANSCAN
 		case Preferences::Zoom : incZoom(); break;
-#endif
 		case Preferences::Seeking : forward( pref->seeking4 ); break;
 		case Preferences::ChangeSpeed : incSpeed10(); break;
 		default : {} // do nothing
@@ -2263,9 +2259,7 @@ void Core::wheelDown() {
 	qDebug("Core::wheelDown");
 	switch (pref->wheel_function) {
 		case Preferences::Volume : decVolume(); break;
-#if !USE_MPLAYER_PANSCAN
 		case Preferences::Zoom : decZoom(); break;
-#endif
 		case Preferences::Seeking : rewind( pref->seeking4 ); break;
 		case Preferences::ChangeSpeed : decSpeed10(); break;
 		default : {} // do nothing
@@ -3453,7 +3447,6 @@ void Core::toggleDoubleSize() {
 		changeSize(200);
 }
 
-#if !USE_MPLAYER_PANSCAN
 void Core::changeZoom(double p) {
 	qDebug("Core::changeZoom: %f", p);
 	if (p < ZOOM_MIN) p = ZOOM_MIN;
@@ -3545,7 +3538,6 @@ void Core::decZoom() {
 	qDebug("Core::decZoom");
 	changeZoom( mset.zoom_factor - ZOOM_STEP );
 }
-#endif
 
 #if USE_MPLAYER_PANSCAN
 void Core::changePanscan(double p) {

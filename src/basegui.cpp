@@ -734,7 +734,6 @@ void BaseGui::createActions() {
 
 
 	// Move video window and zoom
-#if !USE_MPLAYER_PANSCAN
 	moveUpAct = new MyAction(Qt::ALT | Qt::Key_Up, this, "move_up");
 	connect( moveUpAct, SIGNAL(triggered()), mplayerwindow, SLOT(moveUp()) );
 
@@ -764,7 +763,6 @@ void BaseGui::createActions() {
 
 	autoZoom235Act = new MyAction(Qt::SHIFT | Qt::Key_S, this, "zoom_235");
 	connect( autoZoom235Act, SIGNAL(triggered()), core, SLOT(autoZoomFor235()) );
-#endif
 
 #if USE_MPLAYER_PANSCAN
 	incPanscanAct = new MyAction(Qt::SHIFT | Qt::Key_M, this, "inc_panscan");
@@ -1147,7 +1145,6 @@ void BaseGui::setActionsEnabled(bool b) {
 	doubleSizeAct->setEnabled(b);
 
 	// Moving and zoom
-#if !USE_MPLAYER_PANSCAN
 	moveUpAct->setEnabled(b);
 	moveDownAct->setEnabled(b);
 	moveLeftAct->setEnabled(b);
@@ -1158,7 +1155,6 @@ void BaseGui::setActionsEnabled(bool b) {
 	autoZoomAct->setEnabled(b);
 	autoZoom169Act->setEnabled(b);
 	autoZoom235Act->setEnabled(b);
-#endif
 
 #if DVDNAV_SUPPORT
 	dvdnavUpAct->setEnabled(b);
@@ -1238,7 +1234,6 @@ void BaseGui::enableActionsOnPlaying() {
 		doubleSizeAct->setEnabled(false);
 
 		// Moving and zoom
-#if !USE_MPLAYER_PANSCAN
 		moveUpAct->setEnabled(false);
 		moveDownAct->setEnabled(false);
 		moveLeftAct->setEnabled(false);
@@ -1249,7 +1244,6 @@ void BaseGui::enableActionsOnPlaying() {
 		autoZoomAct->setEnabled(false);
 		autoZoom169Act->setEnabled(false);
 		autoZoom235Act->setEnabled(false);
-#endif
 
 		denoiseGroup->setActionsEnabled(false);
 		sizeGroup->setActionsEnabled(false);
@@ -1372,7 +1366,6 @@ void BaseGui::retranslateStrings() {
 	motionVectorsAct->change( Images::icon("motion_vectors"), 
                               tr("Visualize &motion vectors") );
 
-#if !USE_MPLAYER_PANSCAN
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
 	resetZoomAct->change( tr("&Reset") );
@@ -1383,7 +1376,6 @@ void BaseGui::retranslateStrings() {
 	moveRightAct->change( tr("Move &right") );
 	moveUpAct->change( tr("Move &up") );
 	moveDownAct->change( tr("Move &down") );
-#endif
 
 #if USE_MPLAYER_PANSCAN
 	decPanscanAct->change( "Panscan -" );
@@ -1558,10 +1550,8 @@ void BaseGui::retranslateStrings() {
 	panscan_menu->menuAction()->setText( tr("&Pan && scan") );
 	panscan_menu->menuAction()->setIcon( Images::icon("panscan") );
 	*/
-#if !USE_MPLAYER_PANSCAN
 	zoom_menu->menuAction()->setText( tr("Zoo&m") );
 	zoom_menu->menuAction()->setIcon( Images::icon("zoom") );
-#endif
 
 	aspect_menu->menuAction()->setText( tr("&Aspect ratio") );
 	aspect_menu->menuAction()->setIcon( Images::icon("aspect") );
@@ -1822,9 +1812,7 @@ void BaseGui::createMplayerWindow() {
 #if USE_COLORKEY
 	mplayerwindow->setColorKey( pref->color_key );
 #endif
-#if !USE_MPLAYER_PANSCAN
 	mplayerwindow->allowVideoMovement( pref->allow_video_movement );
-#endif
 
 	QHBoxLayout * layout = new QHBoxLayout;
 	layout->setSpacing(0);
@@ -2053,7 +2041,6 @@ void BaseGui::createMenus() {
 	videoMenu->addMenu(videosize_menu);
 
 	// Zoom submenu
-#if !USE_MPLAYER_PANSCAN
 	zoom_menu = new QMenu(this);
 	zoom_menu->menuAction()->setObjectName("zoom_menu");
 	zoom_menu->addAction(resetZoomAct);
@@ -2071,7 +2058,6 @@ void BaseGui::createMenus() {
 	zoom_menu->addAction(moveDownAct);
 
 	videoMenu->addMenu(zoom_menu);
-#endif
 
 	// Aspect submenu
 	aspect_menu = new QMenu(this);

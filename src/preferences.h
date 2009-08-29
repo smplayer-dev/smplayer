@@ -333,9 +333,7 @@ public:
 	bool pause_when_hidden; 
 
 	//!< Allow frre movement of the video window
-#if !USE_MPLAYER_PANSCAN
 	bool allow_video_movement;
-#endif
 
 	QString gui; //!< The name of the GUI to use
 
@@ -392,9 +390,7 @@ public:
 	AudioEqualizerList initial_audio_equalizer;
 
 	//! Default value for zoom (1.0 = no zoom)
-#if !USE_MPLAYER_PANSCAN
 	double initial_zoom_factor;
-#endif
 
 	//! Default value for position of subtitles on screen
 	//! 100 = 100% at the bottom
