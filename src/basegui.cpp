@@ -1822,7 +1822,9 @@ void BaseGui::createMplayerWindow() {
 #if USE_COLORKEY
 	mplayerwindow->setColorKey( pref->color_key );
 #endif
+#if !USE_MPLAYER_PANSCAN
 	mplayerwindow->allowVideoMovement( pref->allow_video_movement );
+#endif
 
 	QHBoxLayout * layout = new QHBoxLayout;
 	layout->setSpacing(0);
