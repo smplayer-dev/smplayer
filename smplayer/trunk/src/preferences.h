@@ -96,6 +96,10 @@ public:
 	bool disable_screensaver;
 #endif
 
+#ifndef Q_OS_WIN
+	bool disable_video_filters_with_vdpau;
+#endif
+
 	// Audio
 	bool use_soft_vol;
 	int softvol_max;
