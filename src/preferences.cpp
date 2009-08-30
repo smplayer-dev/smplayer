@@ -99,6 +99,10 @@ void Preferences::reset() {
 	disable_screensaver = true;
 #endif
 
+#ifndef Q_OS_WIN
+	disable_video_filters_with_vdpau = true;
+#endif
+
 	use_soft_vol = true;
 	softvol_max = 110; // 110 = default value in mplayer
 	use_scaletempo = Detect;
@@ -491,6 +495,10 @@ void Preferences::save() {
 	set->setValue("avoid_screensaver", avoid_screensaver);
 #else
 	set->setValue("disable_screensaver", disable_screensaver);
+#endif
+
+#ifndef Q_OS_WIN
+	set->setValue("disable_video_filters_with_vdpau", disable_video_filters_with_vdpau);
 #endif
 
 	set->setValue("use_soft_vol", use_soft_vol);
@@ -895,6 +903,10 @@ void Preferences::load() {
 	avoid_screensaver = set->value("avoid_screensaver", avoid_screensaver).toBool();
 #else
 	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
+#endif
+
+#ifndef Q_OS_WIN
+	disable_video_filters_with_vdpau = set->value("disable_video_filters_with_vdpau", disable_video_filters_with_vdpau).toBool();
 #endif
 
 	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();

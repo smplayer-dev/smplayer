@@ -1875,7 +1875,7 @@ void Core::startMplayer( QString file, double seek ) {
 	bool force_noslices = false;
 
 #ifndef Q_OS_WIN
-	if (pref->vo.startsWith("vdpau")) {
+	if ((pref->disable_video_filters_with_vdpau) && (pref->vo.startsWith("vdpau"))) {
 		qDebug("Core::startMplayer: vdpau doesn't allow any video filter. All have been removed.");
 		goto end_video_filters;
 	}
