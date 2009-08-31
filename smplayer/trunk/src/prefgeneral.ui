@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>486</width>
-    <height>503</height>
+    <height>533</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -265,6 +265,13 @@
           </spacer>
          </item>
         </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="vdpau_filters_check" >
+         <property name="text" >
+          <string>Disable video filters when using vd&amp;pau</string>
+         </property>
+        </widget>
        </item>
        <item>
         <widget class="Line" name="line_5" >
@@ -1263,6 +1270,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>pause_if_hidden_check</tabstop>
   <tabstop>vo_combo</tabstop>
   <tabstop>vo_user_defined_edit</tabstop>
+  <tabstop>vdpau_filters_check</tabstop>
   <tabstop>postprocessing_check</tabstop>
   <tabstop>autoq_spin</tabstop>
   <tabstop>deinterlace_combo</tabstop>
