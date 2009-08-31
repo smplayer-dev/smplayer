@@ -117,6 +117,11 @@ protected:
 	bool disableScreensaver();
 #endif
 
+#ifndef Q_OS_WIN
+	void setDisableFiltersWithVdpau(bool b);
+	bool disableFiltersWithVdpau();
+#endif
+
 	void setBlackbordersOnFullscreen(bool b);
 	bool blackbordersOnFullscreen();
 

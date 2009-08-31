@@ -59,6 +59,10 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	screensaver_group->hide();
 #endif
 
+#ifdef Q_OS_WIN
+	vdpau_filters_check->hide();
+#endif
+
 	// Channels combo
 	channels_combo->addItem( "2", MediaSettings::ChStereo );
 	channels_combo->addItem( "4", MediaSettings::ChSurround );
@@ -196,6 +200,10 @@ void PrefGeneral::setData(Preferences * pref) {
 	setDisableScreensaver( pref->disable_screensaver );
 #endif
 
+#ifndef Q_OS_WIN
+	setDisableFiltersWithVdpau( pref->disable_video_filters_with_vdpau );
+#endif
+
 	setAudioChannels( pref->initial_audio_channels );
 	setScaleTempoFilter( pref->use_scaletempo );
 
@@ -272,6 +280,10 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->turn_screensaver_off, turnScreensaverOff());
 #else
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
+#endif
+
+#ifndef Q_OS_WIN
+	TEST_AND_SET(pref->disable_video_filters_with_vdpau, disableFiltersWithVdpau());
 #endif
 
 	pref->initial_audio_channels = audioChannels();
@@ -711,6 +723,16 @@ bool PrefGeneral::disableScreensaver() {
 }
 #endif
 
+#ifndef Q_OS_WIN
+void PrefGeneral::setDisableFiltersWithVdpau(bool b) {
+	vdpau_filters_check->setChecked(b);
+}
+
+bool PrefGeneral::disableFiltersWithVdpau() {
+	return vdpau_filters_check->isChecked();
+}
+#endif
+
 void PrefGeneral::setBlackbordersOnFullscreen(bool b) {
 	blackborders_on_fs_check->setChecked(b);
 }
@@ -810,6 +832,12 @@ void PrefGeneral::createHelp() {
 		  .arg("<b><i>xv</i></b>")
 #endif
 		);
+
+#ifndef Q_OS_WIN
+	setWhatsThis(vdpau_filters_check, tr("Disable video filters when using vdpau"),
+		tr("Usually video filters won't work when using vdpau as video output "
+           "driver, so it's wise to keep this option checked.") );
+#endif
 
 	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),
 		tr("Postprocessing will be used by default on new opened files.") );
