@@ -1657,17 +1657,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1281"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>I filtri video vengono disabilitati se si usa vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1387"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>Rib&amp;alta l'immagine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoo&amp;m</translation>
     </message>
 </context>
 <context>
@@ -2697,7 +2697,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Bihari</source>
-        <translation></translation>
+        <translation>Bihari</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="40"/>
@@ -2922,7 +2922,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="110"/>
         <source>Kashmiri</source>
-        <translation></translation>
+        <translation>Kashmiro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="233"/>
@@ -2992,7 +2992,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <source>Malay</source>
-        <translation></translation>
+        <translation>Malay</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
@@ -3032,7 +3032,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Oriya</source>
-        <translation></translation>
+        <translation>Oriya</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="236"/>
@@ -3047,7 +3047,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Quechua</source>
-        <translation></translation>
+        <translation>Quechua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="239"/>
@@ -3062,7 +3062,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Kinyarwanda</source>
-        <translation></translation>
+        <translation>Kinyarwanda</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="162"/>
@@ -3072,7 +3072,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="164"/>
         <source>Sindhi</source>
-        <translation></translation>
+        <translation>Sindhi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="241"/>
@@ -3092,7 +3092,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>Shona</source>
-        <translation></translation>
+        <translation>Shona</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="172"/>
@@ -3137,17 +3137,17 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Tajik</source>
-        <translation></translation>
+        <translation>Tajik</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <source>Thai</source>
-        <translation></translation>
+        <translation>Tailandese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Tigrinya</source>
-        <translation></translation>
+        <translation>Tigrinya</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="185"/>
@@ -3162,7 +3162,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Tonga</source>
-        <translation></translation>
+        <translation>Tonga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="267"/>
@@ -3172,12 +3172,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="190"/>
         <source>Tsonga</source>
-        <translation></translation>
+        <translation>Tsonga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Tatar</source>
-        <translation></translation>
+        <translation>Tatar</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="192"/>
@@ -3187,7 +3187,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Uighur</source>
-        <translation></translation>
+        <translation>Uighur</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="246"/>
@@ -3197,7 +3197,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Urdu</source>
-        <translation></translation>
+        <translation>Urdu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
@@ -3227,12 +3227,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>Yoruba</source>
-        <translation></translation>
+        <translation>Yoruba</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Zhuang</source>
-        <translation></translation>
+        <translation>Zhuang</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
@@ -4317,7 +4317,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="406"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation></translation>
+        <translation>Limite: le azioni vengono eseguite solo quando un file viene aperto e non quando il processo di mplayer viene riavviato (p.es: viene applicato un filtro audio o video)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="422"/>
@@ -5192,7 +5192,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="953"/>
         <source>This option also applies for the mute control.</source>
-        <translation></translation>
+        <translation>Questa opzione si applica anche al controllo di muto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="755"/>
@@ -5207,7 +5207,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="898"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation></translation>
+        <translation>Questa opzione disabilita il salvaschermo non appena comincia la riproduzione e lo riabilita quando termina. Se l'opzione è attiva, il salvaschermo non si attiverà neppure quando si ascoltano file sonori o quando la riproduzione è in pausa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="900"/>
@@ -5217,7 +5217,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="905"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation></translation>
+        <translation>Quando questa opzione è abilitata, SMPlayer cercherà di impedire al salvaschermo di attivarsi quando viene riprodotto un file video. Il salvaschermo si potrà attivare quando si ascolta un file sonoro o la riproduzione è in pausa. Questo funzionerà solo se la finestra di SMPlayer si trova in primo piano.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="524"/>
@@ -5367,17 +5367,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="837"/>
         <source>Disable video filters when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Disabilita i filtri video quando è in uso vdpau</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente i filtri video non funzioneranno quando vdpau è in uso come driver di uscita, quindi è saggio mantenere questa opzione abilitata.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
         <source>Disable video filters when using vd&amp;pau</source>
-        <translation type="unfinished"></translation>
+        <translation>Disabilita i filtri video quando vd&amp;pau è in uso</translation>
     </message>
 </context>
 <context>
@@ -6614,7 +6614,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="86"/>
         <source>Add consecutive files</source>
-        <translation></translation>
+        <translation>Aggiunge file consecutivi</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="89"/>
@@ -6987,7 +6987,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation>Imposta lo stile di bordo. Valori possibili: contorno e casella opaca.</translation>
+        <translation>Imposta lo stile di bordo. Valori possibili: contorno e riquadro opaco.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="552"/>
@@ -7125,7 +7125,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation>Casella opaca</translation>
+        <translation>Riquadro opaco</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="550"/>
@@ -7225,7 +7225,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation></translation>
+        <translation>Premi il pulsante per abilitare la nuova libreria SSA/ASS. Permette di mostrare sottotitoli tramite l'utilizzo di più colori, tipi di carattere..</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
@@ -7255,12 +7255,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation></translation>
+        <translation>Inserisci qui il tuo stile SSA/ASS personalizzato</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation></translation>
+        <translation>Cancellane il contenuto per disabilitare lo stile personalizzato</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -7383,7 +7383,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation></translation>
+        <translation>&amp;Controlla se ci sono nuovi canali all'avvio</translation>
     </message>
 </context>
 <context>
@@ -7895,7 +7895,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="368"/>
         <source>No info</source>
-        <translation></translation>
+        <translation>Nessuna informazione</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
