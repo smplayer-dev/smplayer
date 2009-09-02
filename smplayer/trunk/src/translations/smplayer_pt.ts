@@ -1656,17 +1656,17 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1281"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Os filtros de vídeo são desactivados se usar vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1387"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>In&amp;verter imagem</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoo&amp;m</translation>
     </message>
 </context>
 <context>
@@ -5367,17 +5367,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="837"/>
         <source>Disable video filters when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivar filtros de vídeo ao usar vdpau</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Habitualmente os filtros de vídeo não funcionam se usar vdpau como controlador, logo é sensato deixar esta opção seleccionada.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
         <source>Disable video filters when using vd&amp;pau</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivar filtros de vídeo ao usar vd&amp;pau</translation>
     </message>
 </context>
 <context>
