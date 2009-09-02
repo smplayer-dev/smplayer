@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -438,12 +439,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Встановити значення за замовчуванням</translation>
+        <translation>&amp;Встановити типове значення</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Використовувати поточні значення як за замовчуванням для нових кліпів.</translation>
+        <translation>Використовувати поточні значення як типові для нових кліпів.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
@@ -458,7 +459,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Поточні значення збережені, щоб використовуватись за замовчуванням.</translation>
+        <translation>Поточні значення збережені, щоб використовуватись як типові.</translation>
     </message>
 </context>
 <context>
@@ -1403,7 +1404,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1639"/>
         <source>&amp;Default</source>
-        <translation>За &amp;замовчуванням</translation>
+        <translation>&amp;Типові</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1509"/>
@@ -1656,17 +1657,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1281"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Фільтри відео вимкнені, коли використовується vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1387"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернути з&amp;ображення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Масштаб</translation>
     </message>
 </context>
 <context>
@@ -3564,7 +3565,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3674,7 +3675,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4473,7 +4474,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.ui" line="56"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>SMPlayer не вибирає жодного CD чи DVD пристрою за замовчуванням. Тому перед відтворенням CD чи DVD Ви повині вказати який пристрій хочете використовувати (це може бути один і той самий).</translation>
+        <translation>Типово SMPlayer не вибирає жодного CD чи DVD пристрою. Тому перед відтворенням CD чи DVD Ви повині вказати який пристрій хочете використовувати (це може бути один і той самий).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="187"/>
@@ -4746,12 +4747,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="309"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>&amp;Увімкнути післяобробку за замовчуванням</translation>
+        <translation>Типово &amp;увімкнути післяобробку</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="830"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>Нормалізація &amp;гучності за замовчуванням</translation>
+        <translation>Типова нормалізація &amp;гучності</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="815"/>
@@ -4781,7 +4782,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="657"/>
         <source>C&amp;hannels by default:</source>
-        <translation>К&amp;анали за замовчуванням:</translation>
+        <translation>Типові к&amp;анали:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="196"/>
@@ -4796,7 +4797,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="842"/>
         <source>Enable postprocessing by default</source>
-        <translation>Увімкнути післяобробку за замовчуванням</translation>
+        <translation>Типово увімкнути післяобробку</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="959"/>
@@ -4811,7 +4812,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="966"/>
         <source>Volume normalization by default</source>
-        <translation>Нормалізація гучності за замовчуванням</translation>
+        <translation>Типова нормалізація гучності</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
@@ -4831,12 +4832,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>Channels by default</source>
-        <translation>Канали за замовчуванням</translation>
+        <translation>Типові канали</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="964"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Встановлює максимальний рівень підсилення у відсотках (за замовчуванням: 110). Значення 200 дозволить Вам зільшити гучність вдвічі від поточного значення. Зі значенням менше 100 початкова гучність (тобто 100%) буде вище максимуму, який неправильно відображається екранною індикацією.</translation>
+        <translation>Встановлює максимальний рівень підсилення у відсотках (типово: 110). Значення 200 дозволить Вам зільшити гучність вдвічі від поточного значення. Зі значенням менше 100 початкова гучність (тобто 100%) буде вище максимуму, який неправильно відображається екранною індикацією.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
@@ -4982,7 +4983,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="850"/>
         <source>Deinterlace by default</source>
-        <translation>Деінтерлейсинг за замовчуванням</translation>
+        <translation>Типовий деінтерлейсинг</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="852"/>
@@ -5077,17 +5078,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="855"/>
         <source>Default zoom</source>
-        <translation>Масштаб за замовчуванням</translation>
+        <translation>Типовий масштаб</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="857"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Ця опція встановлює масштаб за замовчуванням, який буде застосовуватись для нових відеофайлів.</translation>
+        <translation>Ця опція встановлює типовий масштаб, який буде застосовуватись для нових відеофайлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="408"/>
         <source>Default &amp;zoom:</source>
-        <translation>&amp;Масштаб за замовчуванням:</translation>
+        <translation>Типовий &amp;масштаб:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="783"/>
@@ -5217,7 +5218,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="943"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення відео із звуком AC3 (як DVD). В цьому випадку liba52 декодує за замовчуванням та правильно змішує звук в необхідну кількість каналів. &lt;b&gt;Примітка:&lt;/b&gt; Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виведення звуку (принаймні OSS).</translation>
+        <translation>Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення відео із звуком AC3 (як DVD). В цьому випадку liba52 декодує типово та правильно змішує звук в необхідну кількість каналів. &lt;b&gt;Примітка:&lt;/b&gt; Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виведення звуку (принаймні OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="806"/>
@@ -5362,22 +5363,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="371"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation>Деін&amp;терлейсинг за замовчуванням (крім ТБ):</translation>
+        <translation>Типовий деін&amp;терлейсинг (крім ТБ):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="837"/>
         <source>Disable video filters when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути фільтри відео, коли використовується vdpau</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зазвичай фільтри відео працюватимуть, коли використовується vdpau у якості драйвера виведення відео, тому розумно, щоб опція була увімкнена.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
         <source>Disable video filters when using vd&amp;pau</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнути &amp;фільтри відео, коли використовується vdpau</translation>
     </message>
 </context>
 <context>
@@ -5838,7 +5839,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="149"/>
         <source>Default</source>
-        <translation>За замовчуванням</translation>
+        <translation>Типовий</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="35"/>
@@ -5938,7 +5939,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="427"/>
         <source>Default font:</source>
-        <translation>Шрифт за замовчуванням:</translation>
+        <translation>Типовий шрифт:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="441"/>
@@ -6023,7 +6024,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="527"/>
         <source>Default font</source>
-        <translation>Шрифт за замовчуванням</translation>
+        <translation>Типовий Шрифт</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="528"/>
@@ -6113,7 +6114,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="154"/>
         <source>Default GUI</source>
-        <translation>Графічний інтерфейс за замовчуванням</translation>
+        <translation>Типовий графічний інтерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="155"/>
@@ -6762,7 +6763,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="149"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation>&amp;Кодування субтитрів за замовчуванням:</translation>
+        <translation>Типове &amp;кодування субтитрів:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="581"/>
@@ -6807,7 +6808,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Default subtitle encoding</source>
-        <translation>Кодування субтитрів за замовчуванням</translation>
+        <translation>Типове кодування субтитрів</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
@@ -6862,7 +6863,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation>Виберіть кодування, яке буде використовуватись для файлів субтитрів за замовчуванням.</translation>
+        <translation>Виберіть кодування, яке буде використовуватись типово для файлів субтитрів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
@@ -6872,7 +6873,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="431"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation>При увімкненні цієї опції буде здійснено спробу автоматичного визначення кодування для субтитрів для даної мови. При невдалому автовизначенні кодування буде повернуте за замовчанням. Ця опція потребує версії MPlayer, зібраного з підтримкою ENCA.</translation>
+        <translation>При увімкненні цієї опції буде здійснено спробу автоматичного визначення кодування для субтитрів для даної мови. При невдалому автовизначенні кодування буде повернуте типове. Ця опція потребує версії MPlayer зібраного з підтримкою ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
@@ -7170,12 +7171,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Default scale</source>
-        <translation>Масштаб за замовчуванням</translation>
+        <translation>Типовий масштаб</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="483"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation>Ця опція визначає масштаб шрифту за замовчуванням для звичайних субтитрів, що буде застосований для нових відкритий файлів.</translation>
+        <translation>Ця опція визначає типовий масштаб шрифту для звичайних субтитрів, що буде застосований для нових відкритий файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
@@ -7185,7 +7186,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation>Ця опція визначає масштаб шрифту за замовчуванням для субтитрів SSA/ASS, що буде застосований для нових відкритий файлів.</translation>
+        <translation>Ця опція визначає типовий масштаб шрифту для субтитрів SSA/ASS, що буде застосований для нових відкритий файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
@@ -7215,12 +7216,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="544"/>
         <source>Default s&amp;cale:</source>
-        <translation>Ма&amp;сштаб за замовчуванням:</translation>
+        <translation>Типовий &amp;масштаб:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="725"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>&amp;Масштаб за замовчуванням:</translation>
+        <translation>Типовий &amp;масштаб:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="764"/>
@@ -7348,7 +7349,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation>Деінтерлейсинг за замовчуванням для ТБ</translation>
+        <translation>Типовий деінтерлейсинг для ТБ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
@@ -7373,7 +7374,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation>&amp;Деінтерлейсинг за замовчуванням для ТБ:</translation>
+        <translation>Типовий &amp;деінтерлейсинг для ТБ:</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -7484,7 +7485,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>відкрити міні-інтерфейс замість за замовчуванням.</translation>
+        <translation>відкриває міні-інтерфейс замість типового.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="112"/>
@@ -7519,7 +7520,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
-        <translation>відкрити інтерфейс за замовчуванням.</translation>
+        <translation>відкрити типовий інтерфейс.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
@@ -7754,12 +7755,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="93"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Встановити значення за замовчуванням</translation>
+        <translation>&amp;Встановити типове значення</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="97"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Використовувати поточні значення як за замовчуванням для нових кліпів.</translation>
+        <translation>Використовувати поточні значення як типові для нових кліпів.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="99"/>
@@ -7779,7 +7780,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="120"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Поточні значення збережені, щоб використовуватись за замовчуванням.</translation>
+        <translation>Поточні значення збережені, щоб використовуватись як типові.</translation>
     </message>
 </context>
 <context>
@@ -7935,7 +7936,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation>За замовчуванням</translation>
+        <translation>Типові</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
