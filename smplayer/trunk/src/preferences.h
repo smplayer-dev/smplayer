@@ -302,6 +302,7 @@ public:
 
 	QFlags<WheelFunctions> wheel_function_cycle;
 
+	bool wheel_function_seeking_reverse;
 
 	// Configurable seeking
 	int seeking1; // By default 10s

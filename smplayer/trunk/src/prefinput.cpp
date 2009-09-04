@@ -171,6 +171,7 @@ void PrefInput::setData(Preferences * pref) {
 	setXButton2ClickFunction( pref->mouse_xbutton2_click_function );
 	setWheelFunction( pref->wheel_function );
 	setWheelFunctionCycle(pref->wheel_function_cycle);
+	setWheelFunctionSeekingReverse(pref->wheel_function_seeking_reverse);
 }
 
 void PrefInput::getData(Preferences * pref) {
@@ -184,6 +185,7 @@ void PrefInput::getData(Preferences * pref) {
 	pref->mouse_xbutton2_click_function = xButton2ClickFunction();
 	pref->wheel_function = wheelFunction();
 	pref->wheel_function_cycle = wheelFunctionCycle();
+	pref->wheel_function_seeking_reverse = wheelFunctionSeekingReverse();
 }
 
 /*
@@ -291,6 +293,14 @@ QFlags<Preferences::WheelFunctions> PrefInput::wheelFunctionCycle(){
 	return out;
 }
 
+void PrefInput::setWheelFunctionSeekingReverse(bool b) {
+	wheel_function_seeking_reverse_check->setChecked(b);
+}
+
+bool PrefInput::wheelFunctionSeekingReverse() {
+	return wheel_function_seeking_reverse_check->isChecked();
+}
+
 void PrefInput::createHelp() {
 	clearHelp();
 
@@ -340,6 +350,9 @@ void PrefInput::createHelp() {
 
 	setWhatsThis(wheel_function_speed, tr("Change speed"),
 		tr("Check it to enable changing speed as one function.") );
+
+	setWhatsThis(wheel_function_seeking_reverse_check, tr("Reverse mouse wheel seeking"),
+		tr("Check it to seek in the opposite direction.") );
 
 }
 
