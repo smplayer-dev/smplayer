@@ -2258,7 +2258,7 @@ void Core::wheelUp() {
 	switch (pref->wheel_function) {
 		case Preferences::Volume : incVolume(); break;
 		case Preferences::Zoom : incZoom(); break;
-		case Preferences::Seeking : forward( pref->seeking4 ); break;
+		case Preferences::Seeking : pref->wheel_function_seeking_reverse ? rewind( pref->seeking4 ) : forward( pref->seeking4 ); break;
 		case Preferences::ChangeSpeed : incSpeed10(); break;
 		default : {} // do nothing
 	}
@@ -2269,7 +2269,7 @@ void Core::wheelDown() {
 	switch (pref->wheel_function) {
 		case Preferences::Volume : decVolume(); break;
 		case Preferences::Zoom : decZoom(); break;
-		case Preferences::Seeking : rewind( pref->seeking4 ); break;
+		case Preferences::Seeking : pref->wheel_function_seeking_reverse ? forward( pref->seeking4 ) : rewind( pref->seeking4 ); break;
 		case Preferences::ChangeSpeed : decSpeed10(); break;
 		default : {} // do nothing
 	}

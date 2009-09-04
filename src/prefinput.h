@@ -75,6 +75,9 @@ protected:
 	void setWheelFunctionCycle(QFlags<Preferences::WheelFunctions> flags);
 	QFlags<Preferences::WheelFunctions> wheelFunctionCycle();
 
+	void setWheelFunctionSeekingReverse(bool b);
+	bool wheelFunctionSeekingReverse();
+
 protected:
 	virtual void retranslateStrings();
 };

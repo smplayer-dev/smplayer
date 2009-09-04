@@ -425,6 +425,13 @@
            </property>
           </spacer>
          </item>
+         <item row="2" column="0" colspan="2" >
+          <widget class="QCheckBox" name="wheel_function_seeking_reverse_check" >
+           <property name="text" >
+            <string>R&amp;everse wheel media seeking</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
        <item row="1" column="2" >
