@@ -5122,7 +5122,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="790"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Normalerweise erinnert sich SMPlayer an die EInstellungen für jede Datei die abgespielt wurde (die gewählte Audio-Spur, Lautstärke, Filter ...). Falls dieses Feature nicht gewünscht wird, kann die Option deaktiviert werden.</translation>
+        <translation>Normalerweise erinnert sich SMPlayer an die Einstellungen für jede Datei die abgespielt wurde (die gewählte Audio-Spur, Lautstärke, Filter ...). Falls dieses Feature nicht gewünscht wird, kann die Option deaktiviert werden.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="822"/>
