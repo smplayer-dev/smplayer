@@ -35,4 +35,8 @@ LangString VERINFO_IS_MISSING ${LANG_HUNGARIAN} "A verzió fájlból hiányzik a ver
 
 ; Uninstaller
 LangString UNINSTALL_NO_ADMIN ${LANG_HUNGARIAN} "A telepítés eltávolításhoz rendszergazdai jogosultságok szükségesek."
+LangString UNINSTALL_ABORTED ${LANG_HUNGARIAN} "Uninstall aborted by user."
 LangString SMPLAYER_NOT_INSTALLED ${LANG_HUNGARIAN} "Nem úgy néz ki, mintha az SMPlayer ebbe a könyvtárba lett volna telepítve: '$INSTDIR'.$\r$\nMégis folytassam (nem ajánlott)?"
+
+; Vista & Later Default Programs Registration
+LangString APPLICATION_DESCRIPTION ${LANG_HUNGARIAN} "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."

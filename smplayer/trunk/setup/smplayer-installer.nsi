@@ -60,7 +60,6 @@
 !endif
   VIAddVersionKey "ProductName" "SMPlayer"
   VIAddVersionKey "ProductVersion" "${PRODUCT_VERSION}"
-  VIAddVersionKey "Comments" "This installation was built with NSIS."
 !ifdef WITH_MPLAYER
   VIAddVersionKey "FileDescription" "SMPlayer Installer (w/ MPlayer)"
 !else
@@ -140,8 +139,6 @@
 
   !insertmacro MUI_LANGUAGE "Basque"
   !insertmacro MUI_LANGUAGE "Catalan"
-  !insertmacro MUI_LANGUAGE "SimpChinese"
-  !insertmacro MUI_LANGUAGE "TradChinese"
   !insertmacro MUI_LANGUAGE "Czech"
   !insertmacro MUI_LANGUAGE "Danish"
   !insertmacro MUI_LANGUAGE "Dutch"
@@ -152,7 +149,6 @@
   !insertmacro MUI_LANGUAGE "Hebrew"
   !insertmacro MUI_LANGUAGE "Hungarian"
   !insertmacro MUI_LANGUAGE "Italian"
-  !insertmacro MUI_LANGUAGE "Japanese"
   !insertmacro MUI_LANGUAGE "Norwegian"
   !insertmacro MUI_LANGUAGE "Polish"
   !insertmacro MUI_LANGUAGE "Portuguese"
@@ -166,8 +162,6 @@
 
   !include "translations\basque.nsh"
   !include "translations\catalan.nsh"
-  !include "translations\chinese-simp.nsh"
-  !include "translations\chinese-trad.nsh"
   !include "translations\czech.nsh"
   !include "translations\danish.nsh"
   !include "translations\dutch.nsh"
@@ -178,7 +172,6 @@
   !include "translations\hebrew.nsh"
   !include "translations\hungarian.nsh"
   !include "translations\italian.nsh"
-  !include "translations\japanese.nsh"
   !include "translations\norwegian.nsh"
   !include "translations\polish.nsh"
   !include "translations\portuguese.nsh"
@@ -553,7 +546,7 @@ Function defaultProgramsReg
   WriteRegStr HKCR "MPlayerFileVideo\shell\open" "FriendlyAppName" "SMPlayer Media Player"
   WriteRegStr HKCR "MPlayerFileVideo\shell\open\command" "" '"$INSTDIR\smplayer.exe" "%1"'
 
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities" "ApplicationDescription" "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities" "ApplicationDescription" $(APPLICATION_DESCRIPTION)
   WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities" "ApplicationName" "SMPlayer"
   WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".3gp" "MPlayerFileVideo"
   WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ac3" "MPlayerFileVideo"
@@ -703,7 +696,7 @@ Section Uninstall
   ;Make sure SMPlayer is installed from where the uninstaller is being executed.
   IfFileExists $INSTDIR\smplayer.exe smplayer_installed
     MessageBox MB_YESNO $(SMPLAYER_NOT_INSTALLED) IDYES smplayer_installed
-    Abort "Uninstall aborted by user."
+    Abort $(UNINSTALL_ABORTED)
 
   smplayer_installed:
 

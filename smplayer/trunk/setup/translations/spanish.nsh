@@ -35,4 +35,8 @@ LangString VERINFO_IS_MISSING ${LANG_SPANISH} "Version file missing version info
 
 ; Uninstaller
 LangString UNINSTALL_NO_ADMIN ${LANG_SPANISH} "This installation can only be uninstalled by a user with administrator privileges."
+LangString UNINSTALL_ABORTED ${LANG_SPANISH} "Uninstall aborted by user."
 LangString SMPLAYER_NOT_INSTALLED ${LANG_SPANISH} "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
+
+; Vista & Later Default Programs Registration
+LangString APPLICATION_DESCRIPTION ${LANG_SPANISH} "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
