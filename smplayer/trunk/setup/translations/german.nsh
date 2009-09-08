@@ -35,8 +35,8 @@ LangString VERINFO_IS_MISSING ${LANG_GERMAN} "Versionsdatei fehlen Informationen
 
 ; Uninstaller
 LangString UNINSTALL_NO_ADMIN ${LANG_GERMAN} "Administratorrechte sind nötig um dieses Programm zu deinstallieren."
-LangString UNINSTALL_ABORTED ${LANG_GERMAN} "Uninstall aborted by user."
+LangString UNINSTALL_ABORTED ${LANG_GERMAN} "Deinstallieren vom Benutzer abgebrochen."
 LangString SMPLAYER_NOT_INSTALLED ${LANG_GERMAN} "Es scheint, das SMPlayer nicht in dem Verzeichnis installiert ist '$INSTDIR'.$\r$\nTrotzdem fortfahren (nicht empfohlen)?"
 
 ; Vista & Later Default Programs Registration
-LangString APPLICATION_DESCRIPTION ${LANG_GERMAN} "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+LangString APPLICATION_DESCRIPTION ${LANG_GERMAN} "SMPlayer ist eine komplettes Front-End für MPlayer, von grundlegenden Funktionen, wie das Abspielen von Videos, DVDs, VCDs, bis erweiterte Funktionen wie die Unterstützung für MPlayer Filter, edl-Listen und vieles mehr.."
