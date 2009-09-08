@@ -9,7 +9,7 @@
 
 ; Startup
 LangString SMPLAYER_INSTALLER_IS_RUNNING ${LANG_HUNGARIAN} "A telepíto már fut."
-LangString SMPLAYER_INSTALLER_UNSUPPORTED_OS ${LANG_HUNGARIAN} "Nem támogatott operációs rendszer.$\n$(^Name) legalább Windows 2000-et igényel és lehet hogy nem fog megfeleloen muködni a rendszerén.$\nBiztosan folytatni akarja a telepítést?"
+LangString SMPLAYER_INSTALLER_UNSUPPORTED_OS ${LANG_HUNGARIAN} "Nem támogatott operációs rendszer.$\n$(^Name) legalább Windows 2000-et igényel és lehet, hogy nem fog megfeleloen muködni a rendszerén.$\nBiztosan folytatni akarja a telepítést?"
 LangString SMPLAYER_INSTALLER_NO_ADMIN ${LANG_HUNGARIAN} "Rendszergazdaként kell bejelentkeznie a program telepítéséhez."
 LangString SMPLAYER_INSTALLER_PREV_VERSION ${LANG_HUNGARIAN} "Az SMPlayer már telepítve van.$\nEl akarja távolítani az elozo verziót $(^Name) telepítése elott?"
 
@@ -34,9 +34,9 @@ LangString VERINFO_DL_FAILED ${LANG_HUNGARIAN} "Verzió információ letöltése nem 
 LangString VERINFO_IS_MISSING ${LANG_HUNGARIAN} "A verzió fájlból hiányzik a verzió információ. A telepítõ egy alapértelmezett verziót fog használni."
 
 ; Uninstaller
-LangString UNINSTALL_NO_ADMIN ${LANG_HUNGARIAN} "A telepítés eltávolításhoz rendszergazdai jogosultságok szükségesek."
-LangString UNINSTALL_ABORTED ${LANG_HUNGARIAN} "Uninstall aborted by user."
+LangString UNINSTALL_NO_ADMIN ${LANG_HUNGARIAN} "A telepítés eltávolításhoz rendszergazdai jogosultság szükséges."
+LangString UNINSTALL_ABORTED ${LANG_HUNGARIAN} "Az eltávolítást a felhasználó megszakította."
 LangString SMPLAYER_NOT_INSTALLED ${LANG_HUNGARIAN} "Nem úgy néz ki, mintha az SMPlayer ebbe a könyvtárba lett volna telepítve: '$INSTDIR'.$\r$\nMégis folytassam (nem ajánlott)?"
 
 ; Vista & Later Default Programs Registration
-LangString APPLICATION_DESCRIPTION ${LANG_HUNGARIAN} "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+LangString APPLICATION_DESCRIPTION ${LANG_HUNGARIAN} "Az SMPlayer egy komplett felület az MPlayerhez, mindent támogat az alap funkcióktól kezdve, mint a videók, DVDk, VCDk lejátszása, haladó funkciókig, mint az MPlayer szûrõk, edl listák és még sok más."
