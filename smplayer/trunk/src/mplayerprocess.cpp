@@ -154,7 +154,8 @@ static QRegExp rx_clip_copyright("^ copyright: (.*)", Qt::CaseInsensitive);
 static QRegExp rx_clip_comment("^ comment: (.*)", Qt::CaseInsensitive);
 static QRegExp rx_clip_software("^ software: (.*)", Qt::CaseInsensitive);
 
-static QRegExp rx_stream_title("^.* StreamTitle='(.*)';StreamUrl='(.*)';");
+static QRegExp rx_stream_title("^.* StreamTitle='(.*)';");
+static QRegExp rx_stream_title_and_url("^.* StreamTitle='(.*)';StreamUrl='(.*)';");
 
 
 void MplayerProcess::parseLine(QByteArray ba) {
@@ -312,14 +313,21 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		}
 
 		// Stream title
-		if (rx_stream_title.indexIn(line) > -1) {
-			QString s = rx_stream_title.cap(1);
-			QString url = rx_stream_title.cap(2);
+		if (rx_stream_title_and_url.indexIn(line) > -1) {
+			QString s = rx_stream_title_and_url.cap(1);
+			QString url = rx_stream_title_and_url.cap(2);
 			qDebug("MplayerProcess::parseLine: stream_title: '%s'", s.toUtf8().data());
 			qDebug("MplayerProcess::parseLine: stream_url: '%s'", url.toUtf8().data());
 			md.stream_title = s;
 			md.stream_url = url;
 			emit receivedStreamTitleAndUrl( s, url );
+		}
+		else
+		if (rx_stream_title.indexIn(line) > -1) {
+			QString s = rx_stream_title.cap(1);
+			qDebug("MplayerProcess::parseLine: stream_title: '%s'", s.toUtf8().data());
+			md.stream_title = s;
+			emit receivedStreamTitle( s );
 		}
 
 #if NOTIFY_SUB_CHANGES

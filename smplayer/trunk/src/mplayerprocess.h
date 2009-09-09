@@ -64,6 +64,7 @@ signals:
 	void receivedScreenshot(QString);
 	void receivedUpdatingFontCache();
 
+	void receivedStreamTitle(QString);
 	void receivedStreamTitleAndUrl(QString,QString);
 
 	void failedToParseMplayerVersion(QString line_with_mplayer_version);

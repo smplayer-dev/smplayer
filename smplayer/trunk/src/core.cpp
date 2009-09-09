@@ -151,6 +151,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedStartingTime(double)),
              this, SLOT(gotStartingTime(double)) );
 
+	connect( proc, SIGNAL(receivedStreamTitle(QString)),
+             this, SLOT(streamTitleChanged(QString)) );
+
 	connect( proc, SIGNAL(receivedStreamTitleAndUrl(QString,QString)),
              this, SLOT(streamTitleAndUrlChanged(QString,QString)) );
 
@@ -3743,6 +3746,11 @@ void Core::gotAO(QString ao) {
 		qDebug("Core::gotAO: saving ao");
 		pref->ao = ao;
 	}
+}
+
+void Core::streamTitleChanged(QString title) {
+	mdat.stream_title = title;
+	emit mediaInfoChanged();
 }
 
 void Core::streamTitleAndUrlChanged(QString title, QString url) {

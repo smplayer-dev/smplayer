@@ -331,6 +331,7 @@ protected slots:
 	void displayScreenshotName(QString filename);
 	void displayUpdatingFontCache();
 
+	void streamTitleChanged(QString);
 	void streamTitleAndUrlChanged(QString,QString);
 	
 	void watchState(Core::State state);
