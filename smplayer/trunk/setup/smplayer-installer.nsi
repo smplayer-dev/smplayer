@@ -28,7 +28,7 @@
 !endif
 !ifndef WITH_MPLAYER
 !ifndef DEFAULT_MPLAYER_VERSION
-  !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311"
+  !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311-2"
 !endif
 !endif
 
@@ -654,7 +654,10 @@ Function ${un}UninstallSMPlayer
 
   SetShellVarContext all
   Delete "$DESKTOP\SMPlayer.lnk"
-  RMDir /r "$SMPROGRAMS\SMPlayer"
+  Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
+  Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
+  Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
+  RMDir "$SMPROGRAMS\SMPlayer"
 
   ;Delete directories recursively except for main directory
   ;Do not recursively delete $INSTDIR
