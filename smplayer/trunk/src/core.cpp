@@ -2091,8 +2091,13 @@ end_video_filters:
 	}
 
 	if (!af.isEmpty()) {
-		proc->addArgument("-af");
-		proc->addArgument( af );
+		// Don't use audio filters if using the S/PDIF output
+		if (pref->use_hwac3) {
+			qDebug("Core::startMplayer: audio filters are disabled when using the S/PDIF output!");
+		} else {
+			proc->addArgument("-af");
+			proc->addArgument( af );
+		}
 	}
 
 	if (pref->use_soft_vol) {
