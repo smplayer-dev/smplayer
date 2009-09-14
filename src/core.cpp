@@ -3577,6 +3577,9 @@ void Core::decPanscan() {
 }
 #endif
 
+void Core::showFilenameOnOSD() {
+	tellmp("osd_show_property_text \"${filename}\" 3000 0");
+}
 
 void Core::changeUseAss(bool b) {
 	qDebug("Core::changeUseAss: %d", b);

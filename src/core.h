@@ -277,6 +277,8 @@ public slots:
 	void decPanscan();
 #endif
 
+	void showFilenameOnOSD();
+
 	void changeUseAss(bool);
 	void toggleClosedCaption(bool);
 	void toggleForcedSubsOnly(bool);
