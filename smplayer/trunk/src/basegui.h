@@ -449,6 +449,8 @@ protected:
 	MyAction * nextAspectAct;
 	MyAction * nextWheelFunctionAct;
 
+	MyAction * showFilenameAct;
+
 	// Moving and zoom
 	MyAction * moveUpAct;
 	MyAction * moveDownAct;

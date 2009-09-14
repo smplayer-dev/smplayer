@@ -855,6 +855,10 @@ void BaseGui::createActions() {
 	connect( nextWheelFunctionAct, SIGNAL(triggered()),
 			 core, SLOT(nextWheelFunction()) );
 
+	showFilenameAct = new MyAction(Qt::SHIFT | Qt::Key_I, this, "show_filename");
+	connect( showFilenameAct, SIGNAL(triggered()), core, SLOT(showFilenameOnOSD()) );
+
+
 	// Group actions
 
 	// OSD
@@ -1517,6 +1521,8 @@ void BaseGui::retranslateStrings() {
 	showContextMenuAct->change( tr("Show context menu") );
 	nextAspectAct->change( Images::icon("next_aspect"), tr("Next aspect ratio") );
 	nextWheelFunctionAct->change( Images::icon("next_wheel_function"), tr("Next wheel function") );
+
+	showFilenameAct->change( tr("Show filename on OSD") );
 
 
 	// Action groups
