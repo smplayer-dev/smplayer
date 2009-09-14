@@ -8,8 +8,12 @@ open_dvd_folder
 open_url	Ctrl+U
 close	Ctrl+X
 clear_recents	
+edit_tv_list	
+jump_tv_list	
 next_tv	H
 previous_tv	L
+edit_radio_list	
+jump_radio_list	
 next_radio	Shift+H
 previous_radio	Shift+L
 play	
@@ -43,6 +47,7 @@ multiple_screenshots	Shift+D
 video_preview	
 flip	
 mirror	
+motion_vectors	
 postprocessing	
 autodetect_phase	
 deblock	
@@ -82,7 +87,6 @@ upload_subtitles
 show_playlist	Ctrl+L
 show_file_properties	Ctrl+I
 frame_counter	
-motion_vectors	
 show_preferences	Ctrl+P
 show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
@@ -126,6 +130,7 @@ reset_audio_equalizer
 show_context_menu	
 next_aspect	A
 next_wheel_function	
+show_filename	Shift+I
 osd_none	
 osd_seek	
 osd_timer	
