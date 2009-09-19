@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="fr">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -285,12 +286,12 @@
     <message>
         <location filename="../about.cpp" line="205"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="206"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1495,143 +1496,143 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, Monter</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1686"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, Descendre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1687"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, Aller à gauche</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1688"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, Aller à droite</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1690"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, choisir option</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1692"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>Menu DVD, Click souris</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1426"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>Définir déla&amp;i...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1440"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>Défi&amp;nir délai...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3493"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Sauter à :</translation>
+        <translation>&amp;Sauter à :</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3494"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished">SMPlayer - Recherche</translation>
+        <translation>SMPlayer - Recherche</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3504"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Délai audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3505"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Délai audio (en miliseconde) :</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3514"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Délai sous-titre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3515"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Délai sous-titre (en miliseconde) :</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1636"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Basculer &quot;Rester au premier plan&quot;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4072"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauter à %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1385"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Commencer/Arrêter de prendre des ca&amp;ptures d&apos;écran</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1453"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visibilité sous-titre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1519"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonction molette avant</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;rogramme</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1336"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Modifier...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1339"/>
         <source>Next TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Chaine TV suivante</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1340"/>
         <source>Previous TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Chaine TV précédente</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1341"/>
         <source>Next radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Radio suivante</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1342"/>
         <source>Previous radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Radio précédente</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>Radi&amp;o</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1338"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sauter...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1523"/>
@@ -7300,37 +7301,37 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>TV et radio</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished">Aucun</translation>
+        <translation>Aucun</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished">Lowpass5</translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished">Yadif (normal)</translation>
+        <translation>Yadif (normal)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished">Yadif (double framerate)</translation>
+        <translation>Yadif (double framerate)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished">Linear Blend</translation>
+        <translation>Linear Blend</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished">Kerndeint</translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -7511,71 +7512,71 @@ Aucune information pour le moment.</translation>
     <message numerus="yes">
         <location filename="../helper.cpp" line="83"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 seconde(s)</numerusform>
+            <numerusform>%1 seconde(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 minute(s)</numerusform>
+            <numerusform>%1 minute(s)</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1 et %2</translation>
+        <translation>%1 et %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="125"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>spécifie le dossier où smplayer stockera ses fichiers de configuration (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="149"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished">désactivé</translation>
+        <translation>désactivé</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="159"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="160"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>inconnu</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>ouvre le GUI MPC.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>largeur</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>hauteur</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="158"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>spécifie les coordonnées où la principale fenêtre sera affichée.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="161"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>spécifie la taille de la fenêtre principale.</translation>
     </message>
 </context>
 <context>
@@ -7583,7 +7584,7 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ZIP/UNZIP API erreur %1</translation>
     </message>
 </context>
 <context>
@@ -7632,22 +7633,22 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélection des sous-titres</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette archive contient plus d&apos;un fichier sous-titre. Veuillez sélectionner celui que vous désirez extraire.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">Tous les sélectionner</translation>
+        <translation>Tous les sélectionner</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">Sélectionner aucun</translation>
+        <translation>Sélectionner aucun</translation>
     </message>
 </context>
 <context>
@@ -7655,12 +7656,12 @@ Aucune information pour le moment.</translation>
     <message>
         <location filename="../tvlist.cpp" line="88"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Editeur de chaînes</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="89"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste TV/Radio</translation>
     </message>
 </context>
 <context>
