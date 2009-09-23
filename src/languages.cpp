@@ -231,6 +231,7 @@ QMap<QString,QString> Languages::translations() {
 	m["ka"] = tr("Georgian");
 	m["ko"] = tr("Korean");
 	m["ku"] = tr("Kurdish");
+	m["lt"] = tr("Lithuanian");
 	m["mk"] = tr("Macedonian");
 	m["nl"] = tr("Dutch");
 	m["pl"] = tr("Polish");

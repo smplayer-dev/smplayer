@@ -204,6 +204,7 @@ QString About::getTranslators() {
 		trad(tr("Galician"), "Miguel Branco <mgl.branco@gmail.com>") +
 		trad(tr("Vietnamese"), QString::fromUtf8("Lê Xuân Thảo <thaolx@gmail.com>")) +
 		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi <olav.magi@hotmail.com>")) +
+                trad(tr("Lithuanian"), "Freemail <ricka_g@freemail.lt>") +
 #ifndef TRANS_TABLE
         "</ul>");
 #else
