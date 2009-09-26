@@ -13,14 +13,18 @@
   !addplugindir plugins
 
 ;--------------------------------
-;Misc Defines
+;Defines
 
 !ifdef VER_REVISION
-  !define PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.${VER_REVISION}"
-!else
-  !define PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}"
+  !define SMPLAYER_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.${VER_REVISION}"
+  !define SMPLAYER_PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.${VER_REVISION}"
+!else ifndef VER_REVISION
+  !define SMPLAYER_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}"
+  !define SMPLAYER_PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.0"
 !endif
-  !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
+
+  !define SMPLAYER_REG_KEY "Software\SMPlayer"
+  !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
   ; Fallback versions
 !ifndef DEFAULT_CODECS_VERSION
@@ -44,35 +48,31 @@
 ;General
 
   ;Name and file
-  Name "SMPlayer ${PRODUCT_VERSION}"
-  BrandingText "SMPlayer for Windows v${PRODUCT_VERSION}"
+  Name "SMPlayer ${SMPLAYER_VERSION}"
+  BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WITH_MPLAYER
-  OutFile "smplayer-${PRODUCT_VERSION}-win32.exe"
-!else
-  OutFile "smplayer-${PRODUCT_VERSION}-win32-webdl.exe"
+  OutFile "smplayer-${SMPLAYER_VERSION}-win32.exe"
+!else ifndef WITH_MPLAYER
+  OutFile "smplayer-${SMPLAYER_VERSION}-win32-webdl.exe"
 !endif
 
   ;Version tab properties
-!ifdef VER_REVISION
-  VIProductVersion "${PRODUCT_VERSION}"
-!else
-  VIProductVersion "${PRODUCT_VERSION}.0"
-!endif
+  VIProductVersion "${SMPLAYER_PRODUCT_VERSION}"
   VIAddVersionKey "ProductName" "SMPlayer"
-  VIAddVersionKey "ProductVersion" "${PRODUCT_VERSION}"
+  VIAddVersionKey "ProductVersion" "${SMPLAYER_VERSION}"
+  VIAddVersionKey "FileVersion" "${SMPLAYER_VERSION}"
+  VIAddVersionKey "LegalCopyright" ""
 !ifdef WITH_MPLAYER
   VIAddVersionKey "FileDescription" "SMPlayer Installer (w/ MPlayer)"
-!else
+!else ifndef WITH_MPLAYER
   VIAddVersionKey "FileDescription" "SMPlayer Installer (MPlayer Web Downloader)"
 !endif
-  VIAddVersionKey "FileVersion" "${PRODUCT_VERSION}"
-  VIAddVersionKey "LegalCopyright" ""
 
   ;Default installation folder
   InstallDir "$PROGRAMFILES\SMPlayer"
 
   ;Get installation folder from registry if available
-  InstallDirRegKey HKLM "Software\SMPlayer" "Path"
+  InstallDirRegKey HKLM "${SMPLAYER_REG_KEY}" "Path"
 
   ;Show details
   ShowInstDetails show
@@ -94,9 +94,13 @@
 ;--------------------------------
 ;Interface Settings
 
-  !define MUI_ABORTWARNING
-  !define MUI_COMPONENTSPAGE_SMALLDESC
+  ; License page
   !define MUI_LICENSEPAGE_RADIOBUTTONS
+
+  ; Components page
+  !define MUI_COMPONENTSPAGE_SMALLDESC
+
+  ; Finish page
   !define MUI_FINISHPAGE_NOREBOOTSUPPORT
   !define MUI_FINISHPAGE_RUN $INSTDIR\smplayer.exe
   !define MUI_FINISHPAGE_RUN_NOTCHECKED
@@ -104,7 +108,10 @@
   !define MUI_FINISHPAGE_SHOWREADME $INSTDIR\Release_notes.txt
   !define MUI_FINISHPAGE_SHOWREADME_NOTCHECKED
   !define MUI_FINISHPAGE_SHOWREADME_TEXT "View Release Notes"
+
+  ; Misc
   !define MUI_WELCOMEFINISHPAGE_BITMAP "${NSISDIR}\Contrib\Graphics\Wizard\orange.bmp"
+  !define MUI_ABORTWARNING
 
   ;Installer/Uninstaller icons
   !define MUI_ICON "${NSISDIR}\Contrib\Graphics\Icons\orange-install.ico"
@@ -112,12 +119,12 @@
 
   ;Language Selection Dialog Settings
   !define MUI_LANGDLL_REGISTRY_ROOT HKLM
-  !define MUI_LANGDLL_REGISTRY_KEY "${PRODUCT_UNINST_KEY}"
+  !define MUI_LANGDLL_REGISTRY_KEY "${SMPLAYER_UNINST_KEY}"
   !define MUI_LANGDLL_REGISTRY_VALUENAME "NSIS:Language"
 
   ;Memento Settings
   !define MEMENTO_REGISTRY_ROOT HKLM
-  !define MEMENTO_REGISTRY_KEY Software\SMPlayer
+  !define MEMENTO_REGISTRY_KEY "${SMPLAYER_REG_KEY}"
 
 ;--------------------------------
 ;Pages
@@ -213,14 +220,14 @@ Section SMPlayer SMPlayer
 
   ;Initialize to 0 if don't exist (based on error flag)
   ClearErrors
-  ReadRegDWORD $R0 HKLM Software\SMPlayer Installed_MPlayer
+  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
   ${If} ${Errors}
-    WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x0
+    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x0
   ${EndIf}
   ClearErrors
-  ReadRegDWORD $R0 HKLM Software\SMPlayer Installed_Codecs
+  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
   ${If} ${Errors}
-    WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
+    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
   ${EndIf}
 
   SetOutPath "$PLUGINSDIR"
@@ -266,15 +273,15 @@ SectionGroup /e "MPlayer Components"
     SetOutPath "$INSTDIR"
     File /r "smplayer-build\mplayer"
 
-    WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
+    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
   SectionEnd
-!else
+!else ifndef WITH_MPLAYER
   Section MPlayer MPlayer
     SectionIn 1 2 3 RO
     AddSize 15300
 
-    ReadRegDWORD $0 HKLM Software\SMPlayer Installed_MPlayer
+    ReadRegDWORD $0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
 
     IntCmp $0 1 mplayerInstalled mplayerNotInstalled
       mplayerInstalled:
@@ -322,7 +329,7 @@ SectionGroup /e "MPlayer Components"
 
       IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
         mplayerInstSuccess:
-          WriteRegDWORD HKLM Software\SMPlayer Installed_MPlayer 0x1
+          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
           Goto done
         mplayerInstFailed:
           Abort $(MPLAYER_INST_FAILED)
@@ -338,7 +345,7 @@ SectionGroup /e "MPlayer Components"
     SectionIn 3
     AddSize 22300
 
-    ReadRegDWORD $1 HKLM Software\SMPlayer Installed_Codecs
+    ReadRegDWORD $1 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
 
     IntCmp $1 1 mplayerCodecsInstalled mplayerCodecsNotInstalled
       mplayerCodecsInstalled:
@@ -386,11 +393,11 @@ SectionGroup /e "MPlayer Components"
 
       IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
         codecsInstSuccess:
-          WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x1
+          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
           Goto done
         codecsInstFailed:
           DetailPrint $(CODECS_INST_FAILED)
-          WriteRegDWORD HKLM Software\SMPlayer Installed_Codecs 0x0
+          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
           Sleep 5000
 
     done:
@@ -425,24 +432,24 @@ Section -Post
   WriteUninstaller "$INSTDIR\uninst.exe"
 
   ;Store installed path
-  WriteRegStr HKLM "Software\SMPlayer" "Path" "$INSTDIR"
-  WriteRegStr HKLM "Software\SMPlayer" "Version" "${PRODUCT_VERSION}"
+  WriteRegStr HKLM "${SMPLAYER_REG_KEY}" "Path" "$INSTDIR"
+  WriteRegStr HKLM "${SMPLAYER_REG_KEY}" "Version" "${SMPLAYER_VERSION}"
 
   ${If} ${AtLeastWinVista}
     Call defaultProgramsReg
   ${EndIf}
 
   ;Registry Uninstall information
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayName" "$(^Name)"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "DisplayVersion" "${PRODUCT_VERSION}"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forums"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "Publisher" "RVM"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
-  WriteRegStr HKLM "${PRODUCT_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
-  WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoModify" "1"
-  WriteRegDWORD HKLM "${PRODUCT_UNINST_KEY}" "NoRepair" "1"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name)"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forums"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "Publisher" "RVM"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
+  WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
+  WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
 
 SectionEnd
 
@@ -456,7 +463,7 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${StartMenuIcon} "Creates start menu shortcuts."
 !ifdef WITH_MPLAYER
   !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "The engine behind SMPlayer, required for playback."
-!else
+!else ifndef WITH_MPLAYER
   !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "Downloads/installs mplayer; requires an active internet connection. Required for playback."
 !endif
   !insertmacro MUI_DESCRIPTION_TEXT ${Codecs} "Downloads/installs optional codecs for mplayer; requires an active internet connection."
@@ -494,7 +501,7 @@ Function .onInit
   ${EndIf}
 
   /* Uninstall previous version */
-  ReadRegStr $R0 HKLM "${PRODUCT_UNINST_KEY}" "UninstallString"
+  ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
   StrCmp $R0 "" nouninst
 
   MessageBox MB_YESNO|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_PREV_VERSION) IDNO nouninst
@@ -636,17 +643,6 @@ FunctionEnd
 !macro UninstallSMPlayerMacro un
 Function ${un}UninstallSMPlayer
 
-  ;Delete registry keys
-  SetDetailsPrint textonly
-  DetailPrint "Deleting Registry Keys..."
-  SetDetailsPrint listonly
-
-  DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
-  DeleteRegKey HKCR "MPlayerFileVideo"
-  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
-  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
-  DeleteRegKey HKLM "Software\SMPlayer"
-
   ;Delete desktop and start menu shortcuts
   SetDetailsPrint textonly
   DetailPrint "Deleting Shortcuts..."
@@ -676,6 +672,17 @@ Function ${un}UninstallSMPlayer
   Delete "$INSTDIR\Q*.dll"
   Delete "$INSTDIR\smplayer.exe"
   Delete "$INSTDIR\dxlist.exe"
+
+  ;Delete registry keys
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Registry Keys..."
+  SetDetailsPrint listonly
+
+  DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
+  DeleteRegKey HKLM "${SMPLAYER_UNINST_KEY}"
+  DeleteRegKey HKCR "MPlayerFileVideo"
+  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
+  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
 
   SetDetailsPrint both
 
