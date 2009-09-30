@@ -10,7 +10,7 @@
 ; Startup
 LangString SMPLAYER_INSTALLER_IS_RUNNING ${LANG_ITALIAN} "Il programma di installazione è già in esecuzione."
 LangString SMPLAYER_INSTALLER_UNSUPPORTED_OS ${LANG_ITALIAN} "Sistema operativo non supportato.$\n$(^Name) richiede come minimo Windows 2000 e potrebbe non funzionare correttamente sul tuo sistema.$\nVuoi continuare ugualmente l'installazione?"
-LangString SMPLAYER_INSTALLER_NO_ADMIN ${LANG_ITALIAN} "Devi essere autenticato come amministratore per installare questo programma."
+LangString SMPLAYER_INSTALLER_PREV_ALL_USERS ${LANG_ITALIAN} "SMPlayer has been previously installed for all users.$\nPlease restart the installer with Administrator privileges."
 LangString SMPLAYER_INSTALLER_PREV_VERSION ${LANG_ITALIAN} "SMPlayer è già stato installato.$\nVuoi rimuovere la versione precedente prima dell'installazione di $(^Name)?"
 
 ; Components Page
@@ -34,8 +34,8 @@ LangString VERINFO_DL_FAILED ${LANG_ITALIAN} "Scaricamento delle informazioni di
 LangString VERINFO_IS_MISSING ${LANG_ITALIAN} "Il file di versione non contiene informazioni di versione. Verrà utilizzata una versione predefinita."
 
 ; Uninstaller
-LangString UNINSTALL_NO_ADMIN ${LANG_ITALIAN} "La disinstallazione può essere effettuata solo da un utente con permessi amministrativi."
 LangString UNINSTALL_ABORTED ${LANG_ITALIAN} "Uninstall aborted by user."
+LangString UNINSTALL_INSTALLED_ALL_USERS ${LANG_ITALIAN} "SMPlayer has been installed for all users.$\nPlease restart the uninstaller with Administrator privileges to remove it."
 LangString SMPLAYER_NOT_INSTALLED ${LANG_ITALIAN} "Sembra che SMPlayer non sia installato nel direttorio '$INSTDIR'.$\r$\nContinua comunque (non raccomandato)?"
 
 ; Vista & Later Default Programs Registration

@@ -10,7 +10,7 @@
 ; Startup
 LangString SMPLAYER_INSTALLER_IS_RUNNING ${LANG_HUNGARIAN} "A telepíto már fut."
 LangString SMPLAYER_INSTALLER_UNSUPPORTED_OS ${LANG_HUNGARIAN} "Nem támogatott operációs rendszer.$\n$(^Name) legalább Windows 2000-et igényel és lehet, hogy nem fog megfeleloen muködni a rendszerén.$\nBiztosan folytatni akarja a telepítést?"
-LangString SMPLAYER_INSTALLER_NO_ADMIN ${LANG_HUNGARIAN} "Rendszergazdaként kell bejelentkeznie a program telepítéséhez."
+LangString SMPLAYER_INSTALLER_PREV_ALL_USERS ${LANG_HUNGARIAN} "SMPlayer has been previously installed for all users.$\nPlease restart the installer with Administrator privileges."
 LangString SMPLAYER_INSTALLER_PREV_VERSION ${LANG_HUNGARIAN} "Az SMPlayer már telepítve van.$\nEl akarja távolítani az elozo verziót $(^Name) telepítése elott?"
 
 ; Components Page
@@ -34,8 +34,8 @@ LangString VERINFO_DL_FAILED ${LANG_HUNGARIAN} "Verzió információ letöltése nem 
 LangString VERINFO_IS_MISSING ${LANG_HUNGARIAN} "A verzió fájlból hiányzik a verzió információ. A telepítõ egy alapértelmezett verziót fog használni."
 
 ; Uninstaller
-LangString UNINSTALL_NO_ADMIN ${LANG_HUNGARIAN} "A telepítés eltávolításhoz rendszergazdai jogosultság szükséges."
 LangString UNINSTALL_ABORTED ${LANG_HUNGARIAN} "Az eltávolítást a felhasználó megszakította."
+LangString UNINSTALL_INSTALLED_ALL_USERS ${LANG_HUNGARIAN} "SMPlayer has been installed for all users.$\nPlease restart the uninstaller with Administrator privileges to remove it."
 LangString SMPLAYER_NOT_INSTALLED ${LANG_HUNGARIAN} "Nem úgy néz ki, mintha az SMPlayer ebbe a könyvtárba lett volna telepítve: '$INSTDIR'.$\r$\nMégis folytassam (nem ajánlott)?"
 
 ; Vista & Later Default Programs Registration
