@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="cs">
+<!DOCTYPE TS>
+<TS version="2.0" language="cs">
 <context>
     <name>About</name>
     <message>
@@ -766,7 +767,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../basegui.cpp" line="1579"/>
         <source>&amp;Aspect ratio</source>
-        <translation>Po&amp;měr stran</translation>
+        <translation>Poměr str&amp;an</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1582"/>
@@ -1656,17 +1657,17 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1281"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Vydeo filtry budou vypnuty při použití VDPAU</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1387"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>Převrátit obra&amp;z</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoo&amp;m</translation>
     </message>
 </context>
 <context>
@@ -3564,7 +3565,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Marshallese</source>
         <translation>Maršálština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3674,7 +3675,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Venda</source>
         <translation>Luvendština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -5367,17 +5368,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="837"/>
         <source>Disable video filters when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnout video filtry při použití VDPAU</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Video filtry většinou nefungují při použití VDPAU výstupu, je vhodné toto nastavení nevypínat.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
         <source>Disable video filters when using vd&amp;pau</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnout video filtry při použití VD&amp;PAU</translation>
     </message>
 </context>
 <context>
