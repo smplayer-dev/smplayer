@@ -37,14 +37,6 @@
 !endif
 
 ;--------------------------------
-;Include Modern UI and functions
-
-  !include MUI2.nsh
-  !include Sections.nsh
-  !include Memento.nsh
-  !include WinVer.nsh
-
-;--------------------------------
 ;General
 
   ;Name and file
@@ -68,27 +60,25 @@
   VIAddVersionKey "FileDescription" "SMPlayer Installer (MPlayer Web Downloader)"
 !endif
 
-  ;Default installation folder
-  InstallDir "$PROGRAMFILES\SMPlayer"
-
-  ;Get installation folder from registry if available
-  InstallDirRegKey HKLM "${SMPLAYER_REG_KEY}" "Path"
-
   ;Show details
   ShowInstDetails show
   ShowUnInstDetails show
 
   ;Vista+ XML manifest, does not affect older OSes
-  RequestExecutionLevel admin
+  RequestExecutionLevel user
 
 ;--------------------------------
 ;Variables
 
+  Var ALL_USERS
   Var CODEC_VERSION
   Var IS_ADMIN
 !ifndef WITH_MPLAYER
   Var MPLAYER_VERSION
 !endif
+  Var PREVIOUS_INSTALLDIR
+  Var PREVIOUS_INSTALLMODE
+  Var PREVIOUS_VERSION
   Var USERNAME
 
 ;--------------------------------
@@ -118,13 +108,32 @@
   !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\orange-uninstall.ico"
 
   ;Language Selection Dialog Settings
-  !define MUI_LANGDLL_REGISTRY_ROOT HKLM
+  !define MUI_LANGDLL_REGISTRY_ROOT SHELL_CONTEXT
   !define MUI_LANGDLL_REGISTRY_KEY "${SMPLAYER_UNINST_KEY}"
   !define MUI_LANGDLL_REGISTRY_VALUENAME "NSIS:Language"
 
   ;Memento Settings
-  !define MEMENTO_REGISTRY_ROOT HKLM
+  !define MEMENTO_REGISTRY_ROOT SHELL_CONTEXT
   !define MEMENTO_REGISTRY_KEY "${SMPLAYER_REG_KEY}"
+
+  ;Multiuser settings
+  !define MULTIUSER_EXECUTIONLEVEL Highest
+  !define MULTIUSER_INSTALLMODE_COMMANDLINE
+  !define MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_KEY "${SMPLAYER_REG_KEY}"
+  !define MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_VALUENAME "Path"
+  !define MULTIUSER_INSTALLMODE_INSTDIR "SMPlayer"
+  !define MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_KEY "${SMPLAYER_REG_KEY}"
+  !define MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_VALUENAME "Path"
+  !define MULTIUSER_MUI
+
+;--------------------------------
+;Include Modern UI and functions
+
+  !include MUI2.nsh
+  !include Sections.nsh
+  !include Memento.nsh
+  !include MultiUser.nsh
+  !include WinVer.nsh
 
 ;--------------------------------
 ;Pages
@@ -132,6 +141,8 @@
   ;Install pages
   !insertmacro MUI_PAGE_WELCOME
   !insertmacro MUI_PAGE_LICENSE "smplayer-build\Copying.txt"
+  !define MUI_PAGE_CUSTOMFUNCTION_PRE CheckPrevInstallMode
+  !insertmacro MULTIUSER_PAGE_INSTALLMODE
   !insertmacro MUI_PAGE_COMPONENTS
   !insertmacro MUI_PAGE_DIRECTORY
   !insertmacro MUI_PAGE_INSTFILES
@@ -220,14 +231,14 @@ Section SMPlayer SMPlayer
 
   ;Initialize to 0 if don't exist (based on error flag)
   ClearErrors
-  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
+  ReadRegDWORD $R0 SHCTX "${SMPLAYER_REG_KEY}" Installed_MPlayer
   ${If} ${Errors}
-    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x0
+    WriteRegDWORD SHCTX "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x0
   ${EndIf}
   ClearErrors
-  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
+  ReadRegDWORD $R0 SHCTX "${SMPLAYER_REG_KEY}" Installed_Codecs
   ${If} ${Errors}
-    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
+    WriteRegDWORD SHCTX "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
   ${EndIf}
 
   SetOutPath "$PLUGINSDIR"
@@ -241,7 +252,6 @@ ${MementoSection} "Desktop Shortcut" DesktopIcon
   SectionIn 1 3
 
   SetOutPath "$INSTDIR"
-  SetShellVarContext all
   CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
 
 ${MementoSectionEnd}
@@ -252,7 +262,6 @@ ${MementoSection} "Start Menu Shortcut" StartMenuIcon
   SectionIn 1 3
 
   SetOutPath "$INSTDIR"
-  SetShellVarContext all
   CreateDirectory "$SMPROGRAMS\SMPlayer"
   CreateShortCut "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
   WriteINIStr    "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sf.net"
@@ -273,7 +282,7 @@ SectionGroup /e "MPlayer Components"
     SetOutPath "$INSTDIR"
     File /r "smplayer-build\mplayer"
 
-    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
+    WriteRegDWORD SHCTX "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
   SectionEnd
 !else ifndef WITH_MPLAYER
@@ -281,14 +290,14 @@ SectionGroup /e "MPlayer Components"
     SectionIn 1 2 3 RO
     AddSize 15300
 
-    ReadRegDWORD $0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
+    ReadRegDWORD $0 SHCTX "${SMPLAYER_REG_KEY}" Installed_MPlayer
 
     IntCmp $0 1 mplayerInstalled mplayerNotInstalled
       mplayerInstalled:
         MessageBox MB_YESNO $(MPLAYER_IS_INSTALLED) /SD IDNO IDYES mplayerNotInstalled IDNO done
       mplayerNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
-          Call getVerInfo
+          Call GetVerInfo
         ${EndIf}
 
         IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
@@ -329,7 +338,7 @@ SectionGroup /e "MPlayer Components"
 
       IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
         mplayerInstSuccess:
-          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
+          WriteRegDWORD SHCTX "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
           Goto done
         mplayerInstFailed:
           Abort $(MPLAYER_INST_FAILED)
@@ -345,14 +354,14 @@ SectionGroup /e "MPlayer Components"
     SectionIn 3
     AddSize 22300
 
-    ReadRegDWORD $1 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
+    ReadRegDWORD $1 SHCTX "${SMPLAYER_REG_KEY}" Installed_Codecs
 
     IntCmp $1 1 mplayerCodecsInstalled mplayerCodecsNotInstalled
       mplayerCodecsInstalled:
         MessageBox MB_YESNO $(CODECS_IS_INSTALLED) /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
       mplayerCodecsNotInstalled:
         ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
-          Call getVerInfo
+          Call GetVerInfo
         ${EndIf}
 
         IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
@@ -393,11 +402,11 @@ SectionGroup /e "MPlayer Components"
 
       IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
         codecsInstSuccess:
-          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
+          WriteRegDWORD SHCTX "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
           Goto done
         codecsInstFailed:
           DetailPrint $(CODECS_INST_FAILED)
-          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
+          WriteRegDWORD SHCTX "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
           Sleep 5000
 
     done:
@@ -432,24 +441,25 @@ Section -Post
   WriteUninstaller "$INSTDIR\uninst.exe"
 
   ;Store installed path
-  WriteRegStr HKLM "${SMPLAYER_REG_KEY}" "Path" "$INSTDIR"
-  WriteRegStr HKLM "${SMPLAYER_REG_KEY}" "Version" "${SMPLAYER_VERSION}"
+  WriteRegStr SHCTX "${SMPLAYER_REG_KEY}" "Path" "$INSTDIR"
+  WriteRegStr SHCTX "${SMPLAYER_REG_KEY}" "Version" "${SMPLAYER_VERSION}"
 
   ${If} ${AtLeastWinVista}
-    Call defaultProgramsReg
+  ${AndIf} $MultiUser.InstallMode == "AllUsers"
+    Call DefaultProgramsReg
   ${EndIf}
 
   ;Registry Uninstall information
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name)"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forums"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "Publisher" "RVM"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
-  WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
-  WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name)"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forums"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "Publisher" "RVM"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "UninstallString" "$INSTDIR\uninst.exe"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
+  WriteRegStr SHCTX "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
+  WriteRegDWORD SHCTX "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
+  WriteRegDWORD SHCTX "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
 
 SectionEnd
 
@@ -471,7 +481,7 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${Translations} "Translations for SMPlayer."
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
-;--------------------------------
+;------------------------------------------------------------------------------------------------
 ;Installer Functions
 
 Function .onInit
@@ -491,26 +501,23 @@ Function .onInit
     installonoldwindows:
   ${EndUnless}
 
-  /* Privileges Check */
-  Call CheckUserRights
+  Call GetUserInfo
+  Call ReadPreviousVersion
 
-  ;Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
-  ${If} $IS_ADMIN == 0
-    MessageBox MB_OK|MB_ICONSTOP $(SMPLAYER_INSTALLER_NO_ADMIN)
-    Abort
+  ${If} $ALL_USERS == 1
+    ${If} $IS_ADMIN == 0
+      ${If} $PREVIOUS_VERSION != ""
+        MessageBox MB_OK|MB_ICONSTOP $(SMPLAYER_INSTALLER_PREV_ALL_USERS) /SD IDOK
+        Abort
+      ${EndIf}
+    ${EndIf}
   ${EndIf}
 
-  /* Uninstall previous version */
-  ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
-  StrCmp $R0 "" nouninst
-
-  MessageBox MB_YESNO|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_PREV_VERSION) IDNO nouninst
-
-  ClearErrors
-  ExecWait '$R0 _?=$INSTDIR' ;Do not copy the uninstaller to a temp file
-  nouninst:
+  !insertmacro MULTIUSER_INIT
 
   !insertmacro MUI_LANGDLL_DISPLAY
+
+  Call RemovePreviousVersion
 
   ${MementoSectionRestore}
 
@@ -544,7 +551,7 @@ Function .onSelChange
 
 FunctionEnd
 
-Function defaultProgramsReg
+Function DefaultProgramsReg
 
   ;HKEY_CLASSES_ROOT ProgId registration
   WriteRegStr HKCR "MPlayerFileVideo\DefaultIcon" "" '"$INSTDIR\smplayer.exe",1'
@@ -595,25 +602,48 @@ Function defaultProgramsReg
 
 FunctionEnd
 
-Function getVerInfo
+Function CheckPrevInstallDirExists
 
-  DetailPrint $(VERINFO_IS_DOWNLOADING)
-  inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
-  "$PLUGINSDIR\version-info"
-  Pop $R0
-  StrCmp $R0 OK +2
-    DetailPrint "$(VERINFO_DL_FAILED) $R0."
+  ${If} $PREVIOUS_INSTALLDIR != ""
+
+    ; Make sure directory is valid
+    Push $R0
+    Push $R1
+    StrCpy $R0 "$PREVIOUS_INSTALLDIR" "" -1
+    ${If} $R0 == '\'
+    ${OrIf} $R0 == '/'
+      StrCpy $R0 $PREVIOUS_INSTALLDIR*.*
+    ${Else}
+      StrCpy $R0 $PREVIOUS_INSTALLDIR\*.*
+    ${EndIf}
+    ${IfNot} ${FileExists} $R0
+      StrCpy $PREVIOUS_INSTALLDIR ""
+    ${EndIf}
+    Pop $R1
+    Pop $R0
+
+  ${EndIf}
 
 FunctionEnd
 
-;End Installer Sections
-;------------------------------------------------------------------------------------------------
+Function CheckPrevInstallMode
 
-/************************************************************************************************
-************************************** Shared Functions *****************************************
-************************************************************************************************/
-!macro CheckUserRightsMacro un
-Function ${un}CheckUserRights
+  /* Detects previous install mode and hides the selection page.
+     Abort skips the page, it does not abort the installer. */
+
+  ReadRegStr $PREVIOUS_INSTALLMODE HKLM "${SMPLAYER_REG_KEY}" "Path"
+  ${If} $PREVIOUS_INSTALLMODE != ""
+    Abort
+  ${EndIf}
+
+  ReadRegStr $PREVIOUS_INSTALLMODE HKCU "${SMPLAYER_REG_KEY}" "Path"
+  ${If} $PREVIOUS_INSTALLMODE != ""
+    Abort
+  ${EndIf}
+
+FunctionEnd
+
+Function GetUserInfo
 
   ClearErrors
   UserInfo::GetName
@@ -636,31 +666,71 @@ Function ${un}CheckUserRights
   ${EndSwitch}
 
 FunctionEnd
-!macroend
-!insertmacro CheckUserRightsMacro ""
-!insertmacro CheckUserRightsMacro "un."
 
-!macro UninstallSMPlayerMacro un
-Function ${un}UninstallSMPlayer
+Function GetVerInfo
 
-  ;Delete desktop and start menu shortcuts
-  SetDetailsPrint textonly
-  DetailPrint "Deleting Shortcuts..."
-  SetDetailsPrint listonly
+  DetailPrint $(VERINFO_IS_DOWNLOADING)
+  inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
+  "$PLUGINSDIR\version-info"
+  Pop $R0
+  StrCmp $R0 OK +2
+    DetailPrint "$(VERINFO_DL_FAILED) $R0."
 
-  SetShellVarContext all
-  Delete "$DESKTOP\SMPlayer.lnk"
-  Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
-  Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
-  Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
-  RMDir "$SMPROGRAMS\SMPlayer"
+FunctionEnd
+
+Function ReadPreviousVersion
+
+  ReadRegStr $PREVIOUS_INSTALLDIR HKLM "${SMPLAYER_REG_KEY}" "Path"
+
+  Call CheckPrevInstallDirExists
+
+  ${If} $PREVIOUS_INSTALLDIR != ""
+    ;Detect version
+    ReadRegStr $PREVIOUS_VERSION HKLM "${SMPLAYER_REG_KEY}" "Version"
+    ${If} $PREVIOUS_VERSION != ""
+      StrCpy $ALL_USERS 1
+      Call MultiUser.InstallMode.AllUsers
+      return
+    ${EndIf}
+  ${EndIf}
+  
+  ReadRegStr $PREVIOUS_INSTALLDIR HKCU "${SMPLAYER_REG_KEY}" "Path"
+
+  Call CheckPrevInstallDirExists
+
+  ${If} $PREVIOUS_INSTALLDIR != ""
+    ;Detect version
+    ReadRegStr $PREVIOUS_VERSION HKCU "${SMPLAYER_REG_KEY}" "Version"
+    ${If} $PREVIOUS_VERSION != ""
+      StrCpy $ALL_USERS 0
+      Call MultiUser.InstallMode.CurrentUser
+      return
+    ${EndIf}
+  ${EndIf}
+ 
+FunctionEnd
+
+Function RemovePreviousVersion
+
+  ${If} $MultiUser.InstallMode == "AllUsers"
+    ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
+  ${ElseIf} $MultiUser.InstallMode == "CurrentUser"
+    ReadRegStr $R0 HKCU "${SMPLAYER_UNINST_KEY}" "UninstallString"
+  ${EndIf}
+  StrCmp $R0 "" nouninst
+
+  MessageBox MB_YESNO|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_PREV_VERSION) IDNO nouninst
+
+  ClearErrors
+  ExecWait '$R0 _?=$INSTDIR' ;Do not copy the uninstaller to a temp file
+  nouninst:
+
+FunctionEnd
+
+Function UninstallSMPlayer
 
   ;Delete directories recursively except for main directory
   ;Do not recursively delete $INSTDIR
-  SetDetailsPrint textonly
-  DetailPrint "Deleting Files..."
-  SetDetailsPrint listonly
-
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
@@ -673,32 +743,48 @@ Function ${un}UninstallSMPlayer
   Delete "$INSTDIR\smplayer.exe"
   Delete "$INSTDIR\dxlist.exe"
 
-  ;Delete registry keys
-  SetDetailsPrint textonly
-  DetailPrint "Deleting Registry Keys..."
-  SetDetailsPrint listonly
+  ;Delete registry keys & shortcuts
+  ${If} $MultiUser.InstallMode == "AllUsers"
+    SetShellVarContext all
+    Delete "$DESKTOP\SMPlayer.lnk"
 
-  DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
-  DeleteRegKey HKLM "${SMPLAYER_UNINST_KEY}"
-  DeleteRegKey HKCR "MPlayerFileVideo"
-  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
-  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
+    Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
+    RMDir "$SMPROGRAMS\SMPlayer"
 
-  SetDetailsPrint both
+    DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
+    DeleteRegKey HKLM "${SMPLAYER_UNINST_KEY}"
+    DeleteRegKey HKCR "MPlayerFileVideo"
+    DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
+    DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
+  ${EndIf}
+  ${If} $MultiUser.InstallMode == "CurrentUser"
+    SetShellVarContext current
+    Delete "$DESKTOP\SMPlayer.lnk"
+
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
+    Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
+    RMDir "$SMPROGRAMS\SMPlayer"
+
+    DeleteRegKey HKCU "${SMPLAYER_REG_KEY}"
+    DeleteRegKey HKCU "${SMPLAYER_UNINST_KEY}"
+  ${EndIf}
 
 FunctionEnd
-!macroend
-!insertmacro UninstallSMPlayerMacro ""
-!insertmacro UninstallSMPlayerMacro "un."
-
-;End Shared Functions
-;------------------------------------------------------------------------------------------------
 
 /************************************************************************************************
 **************************************** Uninstaller ********************************************
 ************************************************************************************************/
 
 ;--------------------------------
+;Uninstaller Variables
+
+  Var un.REMOVE_ALL_USERS
+  Var un.REMOVE_CURRENT_USER
+
+;------------------------------------------------------------------------------------------------
 ;UnInstaller Sections
 
 Section Uninstall
@@ -710,33 +796,138 @@ Section Uninstall
 
   smplayer_installed:
 
-  SetDetailsPrint textonly
-  DetailPrint "Restoring file associations..."
-  SetDetailsPrint listonly
-
   ExecWait '"$INSTDIR\smplayer.exe" -uninstall'
 
-  Call un.UninstallSMPlayer
+  ;Delete directories recursively except for main directory
+  ;Do not recursively delete $INSTDIR
+  RMDir /r "$INSTDIR\docs"
+  RMDir /r "$INSTDIR\imageformats"
+  RMDir /r "$INSTDIR\mplayer"
+  RMDir /r "$INSTDIR\shortcuts"
+  RMDir /r "$INSTDIR\themes"
+  RMDir /r "$INSTDIR\translations"
+  Delete "$INSTDIR\*.txt"
+  Delete "$INSTDIR\mingwm10.dll"
+  Delete "$INSTDIR\Q*.dll"
+  Delete "$INSTDIR\smplayer.exe"
+  Delete "$INSTDIR\dxlist.exe"
+
+  ;Delete registry keys & shortcuts
+  ${If} $un.REMOVE_ALL_USERS == 1
+    SetShellVarContext all
+    Delete "$DESKTOP\SMPlayer.lnk"
+
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
+    Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
+    RMDir "$SMPROGRAMS\SMPlayer"
+
+    DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
+    DeleteRegKey HKLM "${SMPLAYER_UNINST_KEY}"
+    DeleteRegKey HKCR "MPlayerFileVideo"
+    DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
+    DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
+  ${EndIf}
+  ${If} $un.REMOVE_CURRENT_USER == 1
+    SetShellVarContext current
+    Delete "$DESKTOP\SMPlayer.lnk"
+
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
+    Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
+    Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
+    RMDir "$SMPROGRAMS\SMPlayer"
+
+    DeleteRegKey HKCU "${SMPLAYER_REG_KEY}"
+    DeleteRegKey HKCU "${SMPLAYER_UNINST_KEY}"
+  ${EndIf}
 
   Delete "$INSTDIR\uninst.exe"
   RMDir "$INSTDIR"
 
 SectionEnd
 
-;--------------------------------
+;------------------------------------------------------------------------------------------------
 ;UnInstaller Functions
 
 Function un.onInit
 
-  Call un.CheckUserRights
+  Call un.GetUserInfo
+  Call un.ReadPreviousVersion
 
-  ;Check for admin (mimic old Inno Setup behavior... non-admin installation maybe later..)
-  ${If} $IS_ADMIN == 0
-    MessageBox MB_OK|MB_ICONSTOP $(UNINSTALL_NO_ADMIN)
+  ${If} $un.REMOVE_ALL_USERS == 1
+  ${AndIf} $IS_ADMIN == 0
+    MessageBox MB_OK|MB_ICONSTOP $(UNINSTALL_INSTALLED_ALL_USERS) /SD IDOK
     Abort
   ${EndIf}
 
-  ;Get the stored language preference
+  !insertmacro MULTIUSER_UNINIT
+
   !insertmacro MUI_UNGETLANGUAGE
+
+FunctionEnd
+
+Function un.GetUserInfo
+
+  ClearErrors
+  UserInfo::GetName
+  ${If} ${Errors}
+    StrCpy $IS_ADMIN 1
+    Return
+  ${EndIf}
+
+  Pop $USERNAME
+  UserInfo::GetAccountType
+  Pop $R0
+  ${Switch} $R0
+    ${Case} "Admin"
+    ${Case} "Power"
+      StrCpy $IS_ADMIN 1
+      ${Break}
+    ${Default}
+      StrCpy $IS_ADMIN 0
+      ${Break}
+  ${EndSwitch}
+
+FunctionEnd
+
+Function un.ReadPreviousVersion
+
+  ReadRegStr $R0 HKLM "${SMPLAYER_REG_KEY}" "Path"
+
+  ${If} $R0 != ""
+    ;Detect version
+    ReadRegStr $R2 HKLM "${SMPLAYER_REG_KEY}" "Version"
+    ${If} $R2 == ""
+      StrCpy $R0 ""
+    ${EndIf}
+  ${EndIf}
+
+  ReadRegStr $R1 HKCU "${SMPLAYER_REG_KEY}" "Path"
+  
+  ${If} $R1 != ""
+    ;Detect version
+    ReadRegStr $R2 HKCU "${SMPLAYER_REG_KEY}" "Version"
+    ${If} $R2 == ""
+      StrCpy $R1 ""
+    ${EndIf}
+  ${EndIf}
+
+  ${If} $R1 == $INSTDIR
+    Strcpy $un.REMOVE_CURRENT_USER 1
+  ${EndIf}
+  ${If} $R0 == $INSTDIR
+    Strcpy $un.REMOVE_ALL_USERS 1
+  ${EndIf}
+  ${If} $un.REMOVE_CURRENT_USER != 1
+  ${AndIf} $un.REMOVE_ALL_USERS != 1
+    ${If} $R1 != ""
+      Strcpy $un.REMOVE_CURRENT_USER 1
+      ${If} $R0 == $R1
+        Strcpy $un.REMOVE_ALL_USERS 1
+      ${EndIf}
+    ${Else}
+      StrCpy $un.REMOVE_ALL_USERS = 1
+    ${EndIf}
+  ${EndIf}
 
 FunctionEnd
