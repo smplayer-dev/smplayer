@@ -34,9 +34,9 @@ LangString VERINFO_DL_FAILED ${LANG_CZECH} "Nepovedlo se st·hnout informace o ve
 LangString VERINFO_IS_MISSING ${LANG_CZECH} "VerzovacÌ soubor neobsahuje spr·vnÈ informace. Bude pouûita v˝chozÌ verze."
 
 ; Uninstaller
-LangString UNINSTALL_ABORTED ${LANG_CZECH} "Uninstall aborted by user."
+LangString UNINSTALL_ABORTED ${LANG_CZECH} "Odinstalace p¯eruöena uûivatelem."
 LangString UNINSTALL_INSTALLED_ALL_USERS ${LANG_CZECH} "SMPlayer byl nainstalov·n pro vöechny uûivatele.$\nProsÌm spusùte odinstal·tor znovu s pr·vy Administr·tora."
-LangString SMPLAYER_NOT_INSTALLED ${LANG_CZECH} "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
+LangString SMPLAYER_NOT_INSTALLED ${LANG_CZECH} "V adres·¯i '$INSTDIR' nenÌ SMPlayer nainstalov·n .$\r$\nPokraËovat (nedoporuËeno)?"
 
 ; Vista & Later Default Programs Registration
 LangString APPLICATION_DESCRIPTION ${LANG_CZECH} "SMPlayer je kompletnÌ frontend pro MPlayer, podporuje vöe od z·kladnÌch funkcÌ jako p¯ehr·v·nÌ videÌ, DVD, VCD aû po pokroËilÈ funkce jako filtry MPlayeru, edl a vÌce."
