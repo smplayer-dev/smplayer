@@ -666,7 +666,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1582"/>
         <source>&amp;Deinterlace</source>
-        <translation>反拉丝(&amp;D)</translation>
+        <translation>反交错(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1409"/>
@@ -681,17 +681,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1411"/>
         <source>&amp;Deblock</source>
-        <translation>&amp;Deblock</translation>
+        <translation>去马赛克(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1412"/>
         <source>De&amp;ring</source>
-        <translation>De&amp;ring</translation>
+        <translation>去环状块(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1413"/>
         <source>Add n&amp;oise</source>
-        <translation>Add n&amp;oise</translation>
+        <translation>升噪(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1585"/>
@@ -1440,7 +1440,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3781"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation>(This warning won&apos;t be displayed anymore)</translation>
+        <translation>这些警告信息将不会再显示</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1518"/>
@@ -1580,93 +1580,78 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1453"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕可见(&amp;V)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1519"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>下一个滚轮动作</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>程序(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1336"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1339"/>
         <source>Next TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>下一个电视频道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1340"/>
         <source>Previous TV channel</source>
-        <translation type="unfinished"></translation>
+        <translation>上一个电视频道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1341"/>
         <source>Next radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>下一个广播频道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1342"/>
         <source>Previous radio channel</source>
-        <translation type="unfinished"></translation>
+        <translation>上一个广播频道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>电视(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>广播(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1338"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>跳转至...(&amp;J)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1523"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>仅字幕(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1524"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>声音+定位条(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1525"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>声音+定位条+播放时间(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1526"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1281"/>
-        <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1387"/>
-        <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1576"/>
-        <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>声音+定位条+播放时间+总时间(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -1772,32 +1757,32 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2826"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>开启字幕</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2828"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭字幕</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3383"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>鼠标滚轮定位</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3386"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>鼠标滚轮改变音量</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3389"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>鼠标滚轮缩放</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3392"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>鼠标滚轮改变速度</translation>
     </message>
 </context>
 <context>
@@ -1874,72 +1859,72 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>图标</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Name</source>
-        <translation type="unfinished">名字</translation>
+        <translation>名字</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="35"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>媒体</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="45"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>最爱编辑器</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>最爱播放列表</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="49"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>你可以编辑，删除，排列或添加新项目。双击窗格编辑内容。</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="222"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>选择一个图标文件</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="224"/>
         <source>Images</source>
-        <translation type="unfinished">图像</translation>
+        <translation>图像</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished">图标</translation>
+        <translation>图标</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>新建(&amp;N)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>删除(&amp;E)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>删除全部(&amp;A)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="98"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">上移(&amp;U)</translation>
+        <translation>上移(&amp;U)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">下移(&amp;D)</translation>
+        <translation>下移(&amp;D)</translation>
     </message>
 </context>
 <context>
@@ -1947,12 +1932,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="254"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>跳转至对象</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="255"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>输入播放列表中需跳转至的对象序号:</translation>
     </message>
 </context>
 <context>
@@ -2086,27 +2071,27 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="31"/>
         <source>add noise</source>
-        <translation type="unfinished">升噪</translation>
+        <translation>升噪</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>去马赛克</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>normal denoise</source>
-        <translation type="unfinished">降噪(正常)</translation>
+        <translation>降噪(正常)</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
         <source>soft denoise</source>
-        <translation type="unfinished">降噪(软件)</translation>
+        <translation>降噪(软件)</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>volume normalization</source>
-        <translation type="unfinished">规范化声音</translation>
+        <translation>规范化声音</translation>
     </message>
 </context>
 <context>
@@ -4349,7 +4334,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="638"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>详细日志(&amp;V)</translation>
     </message>
 </context>
 <context>
@@ -4989,17 +4974,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="364"/>
         <source>Dei&amp;nterlace by default:</source>
-        <translation type="obsolete">默认反拉丝(&amp;N):</translation>
+        <translation type="obsolete">默认反交错(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="850"/>
+        <location filename="../prefgeneral.cpp" line="822"/>
         <source>Deinterlace by default</source>
-        <translation>默认反拉丝</translation>
+        <translation>默认反交错</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="852"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>选择一个应用在所有新打开的视频上的反拉丝过滤器。</translation>
+        <translation>选择一个应用在所有新打开的视频上的反交错过滤器。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="792"/>
@@ -5319,62 +5304,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>A-V同步修正</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="974"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>最大A-V每帧同步修正(秒)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="840"/>
         <source>Synchronization</source>
-        <translation type="unfinished">同步</translation>
+        <translation>同步</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="860"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>音频/视频自动同步(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>因子(&amp;F):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="922"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>A-V同步修正(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="945"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>最大修正(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="853"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>注意:这一选项不能用于电视频道。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="371"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="837"/>
-        <source>Disable video filters when using vdpau</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="839"/>
-        <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="272"/>
-        <source>Disable video filters when using vd&amp;pau</source>
-        <translation type="unfinished"></translation>
+        <translation>默认反交错(电视除外)(&amp;N):</translation>
     </message>
 </context>
 <context>
@@ -5762,32 +5732,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>切换滚轮功能</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="505"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>媒体定位(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>缩放视频(&amp;Z)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>音量控制(&amp;V)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>改变速度(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>滚轮功能</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="333"/>
@@ -5812,12 +5782,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="483"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>滚轮功能(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="495"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择用于切换滚轮功能的循环动作。</translation>
     </message>
 </context>
 <context>
@@ -6593,7 +6563,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="569"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>电视缓存(&amp;T)</translation>
     </message>
 </context>
 <context>
@@ -7310,12 +7280,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>电视和广播</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished">无</translation>
+        <translation>无</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
@@ -7345,12 +7315,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>默认电视反交错</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择默认电视反交错过滤器</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -7360,12 +7330,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>电视和广播(&amp;T)</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>默认电视反交错(&amp;N)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="111"/>
@@ -7578,12 +7548,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="158"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定主窗口显示时的坐标。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="161"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>指定主窗口的大小。</translation>
     </message>
 </context>
 <context>
@@ -7663,12 +7633,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="88"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>频道编辑器</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="89"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>电视/广播 列表</translation>
     </message>
 </context>
 <context>
