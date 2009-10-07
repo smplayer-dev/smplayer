@@ -1,5 +1,5 @@
 smplayer-installer.nsi is the script for NSIS (Nullsoft Scriptable Install System), which allows to create
-the installer for Windows. This script requires requires NSIS 2.x available freely from http://nsis.sourceforge.net.
+the installer for Windows. This script requires requires NSIS Unicode 2.45 available freely from http://www.scratchpaper.com/home/downloads.
 It is intended to be ran one directory up from 'smplayer-build'.
 
 The SMPlayer NSIS script is set up to compile two different setups:
@@ -14,7 +14,7 @@ MakeNSISW (GUI Compiler): Tools -> Settings. Add WITH_MPLAYER in Symbol Name and
 
 Other required files:
 - 7za.exe (http://www.7zip.org)
-- inetc plugin (http://nsis.sourceforge.net/Inetc_plug-in)
+- Unicode inetc plugin (http://nsis.sourceforge.net/Inetc_plug-in)
 
 Other required defines w/ values:
 VER_MAJOR
@@ -23,4 +23,4 @@ VER_BUILD
 VER_REVISION (only if non-zero)
 
 To build v0.6.8 that includes MPlayer files:
-C:\Program Files\NSIS\makensis.exe /DWITH_MPLAYER /DVER_MAJOR=0 /DVER_MINOR=6 /DVER_BUILD=8 smplayer-installer.nsi
+C:\Program Files\NSIS\Unicode\makensis.exe /DWITH_MPLAYER /DVER_MAJOR=0 /DVER_MINOR=6 /DVER_BUILD=8 smplayer-installer.nsi
