@@ -1,0 +1,1 @@
+inetc.dll is a Unicode build of the NSIS Inetc plugin (http://nsis.sourceforge.net/Inetc_plug-in)

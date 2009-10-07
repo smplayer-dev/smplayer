@@ -10,7 +10,7 @@
 ;--------------------------------
 ;Additional plugin folders
 
-  !addplugindir plugins
+  !addplugindir .
 
 ;--------------------------------
 ;Defines
@@ -487,19 +487,12 @@ ${MementoSectionDone}
 Function .onInit
 
   /* Check if setup is already running */
-  System::Call 'kernel32::CreateMutexA(i 0, i 0, t "MPlayerSMPlayer") i .r1 ?e'
+  System::Call 'kernel32::CreateMutexW(i 0, i 0, t "MPlayerSMPlayer") i .r1 ?e'
   Pop $R0
 
   StrCmp $R0 0 +3
     MessageBox MB_OK|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_IS_RUNNING)
     Abort
-
-  /* Check unsupported Windows OSes */
-  ${Unless} ${AtLeastWin2000}
-    MessageBox MB_YESNO|MB_ICONSTOP $(SMPLAYER_INSTALLER_UNSUPPORTED_OS) /SD IDNO IDYES installonoldwindows
-    Abort
-    installonoldwindows:
-  ${EndUnless}
 
   Call GetUserInfo
   Call ReadPreviousVersion
