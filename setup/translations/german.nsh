@@ -2,7 +2,7 @@
 ;;  german.nsh
 ;;
 ;;  German language strings for the Windows SMPlayer NSIS installer.
-;;  Save file with UTF-16LE/UCS-2 Little Endian encoding
+;;  Save file as UTF-8
 ;;
 
 ; Startup
