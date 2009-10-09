@@ -15,6 +15,7 @@ MakeNSISW (GUI Compiler): Tools -> Settings. Add WITH_MPLAYER in Symbol Name and
 Other required files:
 - 7za.exe (http://www.7zip.org)
 - Unicode inetc plugin (http://nsis.sourceforge.net/Inetc_plug-in)
+Also available in: ftp://ftp.berlios.de/pub/smplayer/tools/nsis/
 
 Other required defines w/ values:
 VER_MAJOR
