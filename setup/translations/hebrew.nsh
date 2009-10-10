@@ -1,39 +1,42 @@
-﻿;;
-;;  Hebrew.nsh
-;;
-;;  Hebrew language strings for the Windows SMPlayer NSIS installer.
-;;  Save file as UTF-8
-;;
+﻿;Language: Hebrew (1037)
+;Hebrew language strings for the Windows SMPlayer NSIS installer.
+;
+;Save file as UTF-8 w/ BOM
+;
+
+!insertmacro LANGFILE "Hebrew" "עברית"
 
 ; Startup
-LangString SMPLAYER_INSTALLER_IS_RUNNING ${LANG_HEBREW} "The installer is already running."
-LangString SMPLAYER_INSTALLER_PREV_ALL_USERS ${LANG_HEBREW} "SMPlayer has been previously installed for all users.$\nPlease restart the installer with Administrator privileges."
-LangString SMPLAYER_INSTALLER_PREV_VERSION ${LANG_HEBREW} "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing $(^Name)?"
+${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "The installer is already running."
+${LangFileString} SMPLAYER_INSTALLER_PREV_ALL_USERS "SMPlayer has been previously installed for all users.$\nPlease restart the installer with Administrator privileges."
+${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing $(^Name)?"
 
 ; Components Page
-LangString MPLAYER_CODEC_INFORMATION ${LANG_HEBREW} "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 
 ; MPlayer Section
-LangString MPLAYER_IS_INSTALLED ${LANG_HEBREW} "MPlayer is already installed. Re-Download?"
-LangString MPLAYER_IS_DOWNLOADING ${LANG_HEBREW} "Downloading MPlayer..."
-LangString MPLAYER_DL_FAILED ${LANG_HEBREW} "Failed to download MPlayer:"
-LangString MPLAYER_INST_FAILED ${LANG_HEBREW} "Failed to install MPlayer. MPlayer is required for playback."
+!ifndef WITH_MPLAYER
+  ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer is already installed. Re-Download?"
+  ${LangFileString} MPLAYER_IS_DOWNLOADING "Downloading MPlayer..."
+  ${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer:"
+  ${LangFileString} MPLAYER_INST_FAILED "Failed to install MPlayer. MPlayer is required for playback."
+!endif
 
 ; Codecs Section
-LangString CODECS_IS_INSTALLED ${LANG_HEBREW} "MPlayer codecs are already installed. Re-Download?"
-LangString CODECS_IS_DOWNLOADING ${LANG_HEBREW} "Downloading MPlayer codecs..."
-LangString CODECS_DL_FAILED ${LANG_HEBREW} "Failed to download MPlayer codecs:"
-LangString CODECS_INST_FAILED ${LANG_HEBREW} "Failed to install MPlayer codecs."
+${LangFileString} CODECS_IS_INSTALLED "MPlayer codecs are already installed. Re-Download?"
+${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer codecs..."
+${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs:"
+${LangFileString} CODECS_INST_FAILED "Failed to install MPlayer codecs."
 
 ; Version information
-LangString VERINFO_IS_DOWNLOADING ${LANG_HEBREW} "Downloading version information..."
-LangString VERINFO_DL_FAILED ${LANG_HEBREW} "Failed to download version info:"
-LangString VERINFO_IS_MISSING ${LANG_HEBREW} "Version file missing version information. Setup will use a default version."
+${LangFileString} VERINFO_IS_DOWNLOADING "Downloading version information..."
+${LangFileString} VERINFO_DL_FAILED "Failed to download version info:"
+${LangFileString} VERINFO_IS_MISSING "Version file missing version information. Setup will use a default version."
 
 ; Uninstaller
-LangString UNINSTALL_ABORTED ${LANG_HEBREW} "Uninstall aborted by user."
-LangString UNINSTALL_INSTALLED_ALL_USERS ${LANG_HEBREW} "SMPlayer has been installed for all users.$\nPlease restart the uninstaller with Administrator privileges to remove it."
-LangString SMPLAYER_NOT_INSTALLED ${LANG_HEBREW} "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
+${LangFileString} UNINSTALL_ABORTED "Uninstall aborted by user."
+${LangFileString} UNINSTALL_INSTALLED_ALL_USERS "SMPlayer has been installed for all users.$\nPlease restart the uninstaller with Administrator privileges to remove it."
+${LangFileString} SMPLAYER_NOT_INSTALLED "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
 
 ; Vista & Later Default Programs Registration
-LangString APPLICATION_DESCRIPTION ${LANG_HEBREW} "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+${LangFileString} APPLICATION_DESCRIPTION "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
