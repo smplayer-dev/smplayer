@@ -175,28 +175,27 @@
   !insertmacro MUI_LANGUAGE "Slovenian"
   !insertmacro MUI_LANGUAGE "Spanish"
 
-;--------------------------------
-; Translations for setup
+; Custom translations for setup
 
-  !include "translations\basque.nsh"
-  !include "translations\catalan.nsh"
-  !include "translations\czech.nsh"
-  !include "translations\danish.nsh"
-  !include "translations\dutch.nsh"
-  !include "translations\english.nsh"
-  !include "translations\finnish.nsh"
-  !include "translations\french.nsh"
-  !include "translations\german.nsh"
-  !include "translations\hebrew.nsh"
-  !include "translations\hungarian.nsh"
-  !include "translations\italian.nsh"
-  !include "translations\norwegian.nsh"
-  !include "translations\polish.nsh"
-  !include "translations\portuguese.nsh"
-  !include "translations\russian.nsh"
-  !include "translations\slovak.nsh"
-  !include "translations\slovenian.nsh"
-  !include "translations\spanish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\catalan.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\czech.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\danish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\dutch.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\english.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\finnish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\french.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\german.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\hebrew.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\hungarian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\italian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\norwegian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\polish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\portuguese.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\russian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\slovak.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\slovenian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\spanish.nsh"
 
 ;--------------------------------
 ;Reserve Files
@@ -211,8 +210,8 @@
 ;--------------------------------
 ;Installer Types
 
-  InstType "Recommended"
-  InstType "Minimum"
+  InstType "Typical"
+  InstType "Compact"
   InstType "Full"
 
 ;------------------------------------------------------------------------------------------------
