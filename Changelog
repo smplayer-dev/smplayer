@@ -1,5 +1,34 @@
 [b]Version 0.6.9[/b]:
 
+(2009-10-03)
+ * Applied patch smplayer-3270-mandriva-mplayer-version.patch by Anssi Hannula 
+   (http://sourceforge.net/users/anssih/). Makes SMPlayer detect the mplayer 
+   version strings in Mandriva.
+
+(2009-09-14)
+ * New action "show_filename" (assigned to Shift+I). It displays the filename
+   in the OSD.
+
+(2009-09-13)
+ * Don't pass to mplayer any audio filter (-af ...) when using -afm hwac3.
+
+(2009-09-09)
+ * (Streams) Added support to 'StreamTitle' without 'StreamUrl'
+
+(2009-09-04)
+ * Applied patch mousewheel_seekalt_checkbox_r3257.patch by Steven Eastland
+   (grassmonk at users.sourceforge.net). It adds the possibility to reverse
+   the direction of seeking with the mouse wheel.
+
+(2009-08-31)
+ * Added the checkbox "Disable video filters when using vdpau" in Preferences ->
+   General -> Video.
+
+(2009-08-30)
+ * (Linux) New option for smplayer.ini: disable_video_filters_with_vdpau. If 
+    set to true /the default) all video filters will be disabled when using 
+    the vdpau vo.
+
 (2009-08-16)
  * All video filters in the Video menu will be shown disabled if using vdpau.
 
