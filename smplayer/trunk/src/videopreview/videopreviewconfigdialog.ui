@@ -170,7 +170,11 @@
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="initial_step_spin" />
+      <widget class="QSpinBox" name="initial_step_spin" >
+       <property name="maximum" >
+        <number>9999</number>
+       </property>
+      </widget>
      </item>
      <item>
       <spacer>
