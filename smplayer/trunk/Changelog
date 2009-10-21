@@ -1,5 +1,9 @@
 [b]Version 0.6.9[/b]:
 
+(2009-10-20)
+ * Bugfix: pad the hash for opensubtitles with zeroes. This bug caused that
+   sometimes smplayer couldn't find any subtitles for a given file.
+
 (2009-10-03)
  * Applied patch smplayer-3270-mandriva-mplayer-version.patch by Anssi Hannula 
    (http://sourceforge.net/users/anssih/). Makes SMPlayer detect the mplayer 

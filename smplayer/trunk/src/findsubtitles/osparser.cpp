@@ -99,8 +99,7 @@ QString OSParser::calculateHash(QString filename) {
 		in >> a ; hash += a;
 	};
 
-	QString hexhash("");
-	hexhash.setNum(hash,16);
+	QString hexhash = QString("%1").arg(hash, 16, 16, QChar('0'));
 
 	return hexhash;
 }
