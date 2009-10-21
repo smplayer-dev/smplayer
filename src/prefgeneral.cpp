@@ -929,7 +929,9 @@ void PrefGeneral::createHelp() {
 		tr("Check this option if you want to use the audio equalizer.") );
 
 	setWhatsThis(hwac3_check, tr("AC3/DTS pass-through S/PDIF"),
-		tr("Uses hardware AC3 passthrough") );
+		tr("Uses hardware AC3 passthrough.") + "<br>" +
+        tr("<b>Note:</b> none of the audio filters will be used when this "
+           "option is enabled.") );
 
 	setWhatsThis(channels_combo, tr("Channels by default"),
 		tr("Requests the number of playback channels. MPlayer "
