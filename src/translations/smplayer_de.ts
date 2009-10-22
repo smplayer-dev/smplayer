@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="de_DE">
+<!DOCTYPE TS>
+<TS version="2.0" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="207"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Litauisch</translation>
+        <translation>Litauisch</translation>
     </message>
 </context>
 <context>
@@ -1676,7 +1677,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1525"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD Dateinamen anzeigen</translation>
     </message>
 </context>
 <context>
@@ -3575,7 +3576,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3685,7 +3686,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -5396,12 +5397,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutze Hardware AC3 Durchlauf.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Anmerkung&lt;/b&gt; keiner der Audiofilter wird angewendet, wenn diese Option aktiviert ist.</translation>
     </message>
 </context>
 <context>
@@ -5849,17 +5850,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Gegenläufiges Mausrad Verhalten</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfen der entgegengesetzten Richtung.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gegenläufige Media Positionierung</translation>
     </message>
 </context>
 <context>
