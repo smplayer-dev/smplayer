@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS><TS version="1.1" language="es">
+<defaultcodec></defaultcodec>
 <context>
     <name>About</name>
     <message>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="207"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Lituano</translation>
+        <translation>Lituano</translation>
     </message>
 </context>
 <context>
@@ -1666,22 +1667,22 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="1285"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Los filtros de vídeo se desactivan cuando se usa vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1391"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagen &amp;boca abajo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1582"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zoom</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1525"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar nombre de fichero en OSD</translation>
     </message>
 </context>
 <context>
@@ -5382,27 +5383,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="837"/>
         <source>Disable video filters when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivar filtros de vídeo al usar vdpau</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="839"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente los filtros de vídeo no funciona cuado se usa vdpau como driver de vídeo, por tanto es buena idea mantener activada esta opción.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
         <source>Disable video filters when using vd&amp;pau</source>
-        <translation type="unfinished"></translation>
+        <translation>Desactivar filtros de vídeo al usar vd&amp;pau</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar pasarela hardware AC3.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota:&lt;/b&gt; no se usarán ninguno de los filtros de audio cuando está opción esté activada.</translation>
     </message>
 </context>
 <context>
@@ -5850,17 +5851,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Invertir la rueda del ratón en los desplazamientos por el medio</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Márcala para desplazarse en dirección contraria.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Invertir la rueda del ratón en los desplazamientos por el medio</translation>
     </message>
 </context>
 <context>
