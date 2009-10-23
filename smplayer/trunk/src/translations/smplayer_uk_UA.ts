@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="207"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Литовська</translation>
+        <translation>Литовська</translation>
     </message>
 </context>
 <context>
@@ -471,7 +472,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1713"/>
         <source>SMPlayer - mplayer log</source>
-        <translation>SMPlayer - журнали mplayer</translation>
+        <translation>SMPlayer - журнал mplayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1714"/>
@@ -1676,7 +1677,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1525"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Показувати назву файла у екранній індикації</translation>
     </message>
 </context>
 <context>
@@ -3574,7 +3575,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3684,7 +3685,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -5392,12 +5393,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати апаратну передачу AC3.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Примітка:&lt;/b&gt; жоден з фільтрів аудіо не буде використовуватить, коли ця опція увімкнена.</translation>
     </message>
 </context>
 <context>
@@ -5595,7 +5596,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="351"/>
         <source>Change speed</source>
-        <translation>Змінити швидкість</translation>
+        <translation>Зміна швидкості</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="78"/>
@@ -5845,17 +5846,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Переміщувати колесом миші в зворотньому напрямку</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть, щоб переміщуватись в зворотньому напрямку.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Переміщувати колесом миші в &amp;зворотньому напрямку</translation>
     </message>
 </context>
 <context>
