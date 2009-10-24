@@ -295,7 +295,7 @@
     <message>
         <location filename="../about.cpp" line="207"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Lituano</translation>
+        <translation>Lituano</translation>
     </message>
 </context>
 <context>
@@ -1288,7 +1288,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="4363"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation>Por favor verifique o caminho do MPlayer em Preferências.</translation>
+        <translation>Por favor verifique o caminho do MPlayer nas Preferências.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4365"/>
@@ -1676,7 +1676,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1525"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar nome do ficheiro em OSD</translation>
     </message>
 </context>
 <context>
@@ -4056,7 +4056,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="386"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Seleccionando esta opção pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja mostrado correctamente.</translation>
+        <translation>Seleccionando esta opção pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja apresentado correctamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
@@ -4131,7 +4131,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="449"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Se seleccionar esta opção, os registos do MPlayer serão guardados no ficheiro especificado cada vez que reproduzir um novo ficheiro. É direccionado para as aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
+        <translation>Se seleccionar esta opção, os registos do MPlayer serão guardados no ficheiro especificado cada vez que reproduzir um novo ficheiro. É vocacionada para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="451"/>
@@ -4156,7 +4156,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="379"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>Actualmente o MPlayer não abre ficheiros que contenham caracteres fora do código local. Ao seleccionar esta opção fará com que o SMPlayer direccione para o MPlayer uma versão abreviada dos ficheiros e assim já os conseguirá abrir.</translation>
+        <translation>Actualmente o MPlayer não abre ficheiros que contenham caracteres fora do código local. Ao seleccionar esta opção, fará com que o SMPlayer direccione para o MPlayer uma versão abreviada dos ficheiros e assim já os conseguirá abrir.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="166"/>
@@ -4374,7 +4374,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.cpp" line="185"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>Nem todos os ficheiros foram associados, Verifique as permissões de segurança e tente novamente.</translation>
+        <translation>Nem todos os ficheiros foram associados. Verifique as permissões de segurança e tente novamente.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="192"/>
@@ -4389,7 +4389,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.cpp" line="210"/>
         <source>Check all file types in the list</source>
-        <translation>Marcar todos os tipos de ficheiros da lista</translation>
+        <translation>Seleccionar todos os tipos de ficheiros na lista</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="213"/>
@@ -5137,7 +5137,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="910"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Seleccione esta opção para desactivar a protecção de ecrã durante a reprodução.&lt;br&gt;A protecção de ecrã será novamente activada ao terminar a reprodução.</translation>
+        <translation>Seleccione esta opção para desactivar a protecção de ecrã ao reproduzir.&lt;br&gt;A protecção de ecrã será reactivada ao terminar a reprodução.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="988"/>
@@ -5392,12 +5392,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Usa passagem de hardware AC3.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota:&lt;/b&gt;nenhum dos filtros áudio será usado se esta opção estiver activa.</translation>
     </message>
 </context>
 <context>
@@ -5435,7 +5435,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Media seeking</source>
-        <translation>Pesquisar por media</translation>
+        <translation>Procurar media</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="345"/>
@@ -5790,7 +5790,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>Media &amp;seeking</source>
-        <translation>Pe&amp;squisar por media</translation>
+        <translation>Pro&amp;curar media</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
@@ -5815,7 +5815,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation>Marque para activar a pesquisa como uma função.</translation>
+        <translation>Marque para activar procura como uma função.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
@@ -5845,17 +5845,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Procura invertida com a roda do rato</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marque para procurar na direcção oposta.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Procura inv&amp;ertida com a roda do rato</translation>
     </message>
 </context>
 <context>
@@ -6138,7 +6138,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="556"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation>Seleccione esta opção se pretende usar a instância do SMPlayer em execução, ao abrir outros ficheiros.</translation>
+        <translation>Seleccione esta opção se pretende usar a instância do SMPlayer em execução ao abrir outros ficheiros.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="566"/>
@@ -6391,7 +6391,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="283"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>Selecção rápida de capítulos em dvds</translation>
+        <translation>Procura rápida de capítulos em dvds</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="244"/>
@@ -6446,7 +6446,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="347"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>Selecção rápida de cap&amp;ítulos em dvds</translation>
+        <translation>Procura rápida de cap&amp;ítulos em dvds</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="285"/>
@@ -6496,7 +6496,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Esta opção especifica a quantidade de memória (em kBytes) a ser usada ao pôr em cache um DVD. &lt;br&gt; &lt;b&gt; AVISO: &lt;/b&gt; Procura pode não funcionar correctamente (incluindo alterar capítulo) ao usar cache para DVDs.</translation>
+        <translation>Esta opção especifica a quantidade de memória (em kBytes) a ser usada ao pôr um DVD em cache. &lt;br&gt; &lt;b&gt; AVISO: &lt;/b&gt; Procura pode não funcionar correctamente (incluindo alteração de capítulo) ao usar cache para DVDs.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="368"/>
