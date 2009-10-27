@@ -1,5 +1,14 @@
 [b]Version 0.6.9[/b]:
 
+(2009-10-26)
+ * Added a new option for smplayer.ini: fast_load_sub
+   If true (the default) loading an external subtitle will be fast
+   because it will be done by using a slave command (which is nice but it
+   has the problem that smplayer may restore the wrong subtitle after a
+   restart of the video). If false, the subtitle will be loaded by
+   restarting mplayer (which is a little bit slower but doesn't have the
+   mentioned problem).
+
 (2009-10-20)
  * Bugfix: pad the hash for opensubtitles with zeroes. This bug caused that
    sometimes smplayer couldn't find any subtitles for a given file.

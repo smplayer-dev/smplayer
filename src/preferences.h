@@ -200,6 +200,11 @@ public:
 	OptionState use_new_sub_commands; 
 	OptionState change_sub_scale_should_restart;
 
+	//! If true, loading an external subtitle will be done
+	//! by using the sub_load slave command. Otherwise
+	//! mplayer will be restarted.
+	bool fast_load_sub;
+
 	// ASS styles
 	AssStyles ass_styles;
 	bool force_ass_styles; // Use ass styles even for ass files
