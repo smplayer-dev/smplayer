@@ -204,6 +204,8 @@ void Preferences::reset() {
 	use_new_sub_commands = Detect;
 	change_sub_scale_should_restart = Detect;
 
+	fast_load_sub = true;
+
 	// ASS styles
 	// Nothing to do, default values are given in
 	// AssStyles constructor
@@ -607,6 +609,8 @@ void Preferences::save() {
 
 	set->setValue("use_new_sub_commands", use_new_sub_commands);
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
+
+	set->setValue("fast_load_sub", fast_load_sub);
 
 	// ASS styles
 	ass_styles.save(set);
@@ -1017,6 +1021,8 @@ void Preferences::load() {
 
 	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
+
+	fast_load_sub = set->value("fast_load_sub", fast_load_sub).toBool();
 
 	// ASS styles
 	ass_styles.load(set);
