@@ -1845,7 +1845,7 @@ void Core::startMplayer( QString file, double seek ) {
 	// Enable the OSD later, to avoid a lot of messages to be
 	// printed on startup
 	proc->addArgument("-osdlevel");
-	proc->addArgument( 0 );
+	proc->addArgument( "0" );
 
 	if (pref->use_idx) {
 		proc->addArgument("-idx");
