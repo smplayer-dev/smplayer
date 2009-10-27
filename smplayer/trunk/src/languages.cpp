@@ -279,6 +279,7 @@ QMap<QString,QString> Languages::encodings() {
 	l["CP1251"] = tr( "Cyrillic Windows");
 	l["CP1250"] = tr( "Slavic/Central European Windows");
 	l["CP1256"] = tr( "Arabic Windows");
+	l["CP1253"] = tr("Modern Greek Windows");
 
 	return l;
 }
