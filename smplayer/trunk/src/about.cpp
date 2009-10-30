@@ -157,7 +157,9 @@ QString About::getTranslators() {
 #endif
          trad(tr("German"), "Henrikx <henrikx@users.sourceforge.net>") + 
 		 trad(tr("Slovak"), "Sweto <peter.mendel@gmail.com>") +
-		 trad(tr("Italian"), "Giancarlo Scola <scola.giancarlo@libero.it>") +
+		 trad(tr("Italian"), QStringList()
+                        << "greengreat <gmeildeno@gmail.com>"
+			<< "Giancarlo Scola <scola.giancarlo@libero.it>") +
          trad(tr("French"), QStringList() 
 			<< "Olivier g <1got@caramail.com>"
 			<< "Temet <goondy@free.fr>"
