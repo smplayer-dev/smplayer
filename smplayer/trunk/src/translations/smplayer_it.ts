@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="it">
+<!DOCTYPE TS>
+<TS version="2.0" language="it">
 <context>
     <name>About</name>
     <message>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="207"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Lituano</translation>
+        <translation>Lituano</translation>
     </message>
 </context>
 <context>
@@ -1677,7 +1678,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1525"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra il nome del file su OSD</translation>
     </message>
 </context>
 <context>
@@ -3684,12 +3685,12 @@ Controllarne i relativi permessi.</translation>
         <source>Walloon</source>
         <translation>Walloon</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4327,7 +4328,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="406"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>Limite: le azioni vengono eseguite solo quando un file viene aperto e non quando il processo di mplayer viene riavviato (p.es: viene applicato un filtro audio o video)</translation>
+        <translation>Limite: le azioni vengono eseguite solo quando un file viene aperto e non quando il processo di mplayer viene riavviato (p.es: viene applicato un filtro audio o video).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="422"/>
@@ -5202,7 +5203,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="955"/>
         <source>This option also applies for the mute control.</source>
-        <translation>Questa opzione si applica anche al controllo di muto</translation>
+        <translation>Questa opzione si applica anche al controllo di muto.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="755"/>
@@ -5392,12 +5393,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizza l&apos;hardware per riprodurre AC3.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nota:&lt;/b&gt; nessun filtro audio verrà usato se l&apos;opzione è abilitata.</translation>
     </message>
 </context>
 <context>
@@ -5840,17 +5841,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Funzione di ricerca con la rotella del mouse invertita</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita per effettuare ricerche nella direzione opposta.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Ric&amp;erca invertita con la rotellina</translation>
     </message>
 </context>
 <context>
@@ -7260,7 +7261,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Premi il pulsante per abilitare la nuova libreria SSA/ASS. Permette di mostrare sottotitoli tramite l&apos;utilizzo di più colori, tipi di carattere..</translation>
+        <translation>Premi il pulsante per abilitare la nuova libreria SSA/ASS. Permette di mostrare sottotitoli tramite l&apos;utilizzo di più colori, tipi di carattere...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
@@ -7290,12 +7291,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation>Inserisci qui il tuo stile SSA/ASS personalizzato</translation>
+        <translation>Inserisci qui il tuo stile SSA/ASS personalizzato.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation>Cancellane il contenuto per disabilitare lo stile personalizzato</translation>
+        <translation>Cancellane il contenuto per disabilitare lo stile personalizzato.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
