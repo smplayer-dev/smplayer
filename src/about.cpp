@@ -193,7 +193,7 @@ QString About::getTranslators() {
          trad(tr("Romanian"), "DoruH <DoruHushHush@gmail.com>") + 
          trad(tr("Portuguese - Portugal"), QStringList()
 			<< "Waxman <waxman.pt@gmail.com>"
-			<< QString::fromUtf8("Sérgio Marques <contatica@netcabo.pt>") ) +
+			<< QString::fromUtf8("Sérgio Marques <smarquespt@gmail.com>") ) +
 		trad(tr("Greek"), "my80s <wamy80s@gmail.com>") +
 		trad(tr("Finnish"), "peeaivo <peeaivo@gmail.com>") +
 		trad(tr("Korean"), "Heesu Yoon <imsu30@gmail.com>") +
