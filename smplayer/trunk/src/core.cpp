@@ -343,6 +343,17 @@ void Core::tellmp(const QString & command) {
     }
 }
 
+void Core::displayTextOnOSD(QString text, int duration, int level, QString prefix) {
+	qDebug("Core::displayTextOnOSD: '%s'", text.toUtf8().constData());
+
+	if (proc->isRunning()) {
+		QString str = QString("osd_show_text \"%1\" %2 %3\n").arg(text.toUtf8().constData()).arg(duration).arg(level);
+		if (!prefix.isEmpty()) str = prefix + " " + str;
+		qDebug("Core::displayTextOnOSD: command: '%s'", str.toUtf8().constData());
+		proc->write(str.toAscii());
+	}
+}
+
 // Generic open, autodetect type
 void Core::open(QString file, int seek) {
 	qDebug("Core::open: '%s'", file.toUtf8().data());
@@ -1144,9 +1155,7 @@ void Core::screenshot() {
 		qDebug("Core::screenshot: taken screenshot");
 	} else {
 		qDebug("Core::screenshot: error: directory for screenshots not valid");
-		QString text = "Screenshot NOT taken, folder not configured";
-		tellmp("osd_show_text \"" + text + "\" 3000 1");
-		emit showMessage(text);
+		emit showMessage( tr("Screenshot NOT taken, folder not configured") );
 	}
 }
 
@@ -1159,9 +1168,7 @@ void Core::screenshots() {
 		tellmp( "screenshot 1");
 	} else {
 		qDebug("Core::screenshots: error: directory for screenshots not valid");
-		QString text = "Screenshots NOT taken, folder not configured";
-		tellmp("osd_show_text \"" + text + "\" 3000 1");
-		emit showMessage(text);
+		emit showMessage( tr("Screenshots NOT taken, folder not configured") );
 	}
 }
 
@@ -3673,7 +3680,7 @@ void Core::displayMessage(QString text) {
 	emit showMessage(text);
 
 	if ((pref->fullscreen) && (state() != Paused)) {
-		tellmp("osd_show_text \"" + text + "\" 3000 1");
+		displayTextOnOSD( text );
 	}
 }
 
@@ -3683,13 +3690,13 @@ void Core::displayScreenshotName(QString filename) {
 	QString text = QString("Screenshot saved as %1").arg(filename);
 
 	if (MplayerVersion::isMplayerAtLeast(27665)) {
-		tellmp( "pausing_keep_force osd_show_text \"" + text + "\" 3000 1");
+		displayTextOnOSD(text, 3000, 1, "pausing_keep_force");
 	}
 	else
 	if (state() != Paused) {
 		// Dont' show the message on OSD while in pause, otherwise
 		// the video goes forward a frame.
-		tellmp("pausing_keep osd_show_text \"" + text + "\" 3000 1");
+		displayTextOnOSD(text, 3000, 1, "pausing_keep");
 	}
 
 	emit showMessage(text);

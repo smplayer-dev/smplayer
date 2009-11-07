@@ -4079,7 +4079,7 @@ void BaseGui::displayGotoTime(int t) {
 	statusBar()->showMessage( s, 1000 );
 
 	if (pref->fullscreen) {
-		core->tellmp("osd_show_text \"" + s + "\" 3000 1");
+		core->displayTextOnOSD( s );
 	}
 }
 

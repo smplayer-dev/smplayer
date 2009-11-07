@@ -300,6 +300,10 @@ public slots:
     // Pass a command to mplayer by stdin:
     void tellmp(const QString & command);
 
+	//! Wrapper for the osd_show_text slave command
+	void displayTextOnOSD(QString text, int duration = 3000, int level = 1, 
+                          QString prefix = QString::null);
+
 public:
 	//! Returns the number of the first chapter in 
 	//! files. In some versions of mplayer is 0, in others 1
