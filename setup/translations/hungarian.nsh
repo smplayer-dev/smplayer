@@ -8,7 +8,7 @@
 
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "A telepíto már fut."
-${LangFileString} SMPLAYER_INSTALLER_PREV_ALL_USERS "SMPlayer has been previously installed for all users.$\nPlease restart the installer with Administrator privileges."
+${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Rendszergazdaként kell bejelentkeznie a program telepítéséhez."
 ${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "Az SMPlayer már telepítve van.$\nEl akarja távolítani az elozo verziót $(^Name) telepítése elott?"
 
 ; Components Page
@@ -34,8 +34,8 @@ ${LangFileString} VERINFO_DL_FAILED "Verzió információ letöltése nem siker�
 ${LangFileString} VERINFO_IS_MISSING "A verzió fájlból hiányzik a verzió információ. A telepítő egy alapértelmezett verziót fog használni."
 
 ; Uninstaller
+${LangFileString} UNINSTALL_NO_ADMIN "A telepítés eltávolításhoz rendszergazdai jogosultságok szükségesek."
 ${LangFileString} UNINSTALL_ABORTED "Az eltávolítást a felhasználó megszakította."
-${LangFileString} UNINSTALL_INSTALLED_ALL_USERS "SMPlayer has been installed for all users.$\nPlease restart the uninstaller with Administrator privileges to remove it."
 ${LangFileString} SMPLAYER_NOT_INSTALLED "Nem úgy néz ki, mintha az SMPlayer ebbe a könyvtárba lett volna telepítve: '$INSTDIR'.$\r$\nMégis folytassam (nem ajánlott)?"
 
 ; Vista & Later Default Programs Registration

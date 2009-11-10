@@ -8,7 +8,7 @@
 
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Il programma di installazione è già in esecuzione."
-${LangFileString} SMPLAYER_INSTALLER_PREV_ALL_USERS "SMPlayer has been previously installed for all users.$\nPlease restart the installer with Administrator privileges."
+${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Devi essere autenticato come amministratore per installare questo programma."
 ${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "SMPlayer è già stato installato.$\nVuoi rimuovere la versione precedente prima dell'installazione di $(^Name)?"
 
 ; Components Page
@@ -34,8 +34,8 @@ ${LangFileString} VERINFO_DL_FAILED "Scaricamento delle informazioni di versione
 ${LangFileString} VERINFO_IS_MISSING "Il file di versione non contiene informazioni di versione. Verrà utilizzata una versione predefinita."
 
 ; Uninstaller
+${LangFileString} UNINSTALL_NO_ADMIN "La disinstallazione può essere effettuata solo da un utente con permessi amministrativi."
 ${LangFileString} UNINSTALL_ABORTED "Uninstall aborted by user."
-${LangFileString} UNINSTALL_INSTALLED_ALL_USERS "SMPlayer has been installed for all users.$\nPlease restart the uninstaller with Administrator privileges to remove it."
 ${LangFileString} SMPLAYER_NOT_INSTALLED "Sembra che SMPlayer non sia installato nel direttorio '$INSTDIR'.$\r$\nContinua comunque (non raccomandato)?"
 
 ; Vista & Later Default Programs Registration

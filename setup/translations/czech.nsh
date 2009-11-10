@@ -8,7 +8,7 @@
 
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Instalátor již běží."
-${LangFileString} SMPLAYER_INSTALLER_PREV_ALL_USERS "SMPlayer byl minule nainstalován pro všechny uživatele.$\nProsím spusťte instalátor znovu s právy Administrátora."
+${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an administrator when installing this program."
 ${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "SMPlayer je již nainstalován.$\nPřejete si odstranit předchozí verzi před spuštěním instalace $(^Name)?"
 
 ; Components Page
@@ -34,8 +34,8 @@ ${LangFileString} VERINFO_DL_FAILED "Nepovedlo se stáhnout informace o verzích
 ${LangFileString} VERINFO_IS_MISSING "Verzovací soubor neobsahuje správné informace. Bude použita výchozí verze."
 
 ; Uninstaller
+${LangFileString} UNINSTALL_NO_ADMIN "This installation can only be uninstalled by a user with administrator privileges."
 ${LangFileString} UNINSTALL_ABORTED "Odinstalace přerušena uživatelem."
-${LangFileString} UNINSTALL_INSTALLED_ALL_USERS "SMPlayer byl nainstalován pro všechny uživatele.$\nProsím spusťte odinstalátor znovu s právy Administrátora."
 ${LangFileString} SMPLAYER_NOT_INSTALLED "V adresáři '$INSTDIR' není SMPlayer nainstalován .$\r$\nPokračovat (nedoporučeno)?"
 
 ; Vista & Later Default Programs Registration
