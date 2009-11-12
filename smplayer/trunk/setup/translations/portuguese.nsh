@@ -8,7 +8,7 @@
 
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "O instalador já está em execução."
-${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an administrator when installing this program."
+${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Tem que iniciar a sessão como administrador para instalar este programa."
 ${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "O SMPlayer já foi instalado.$\nDeseja remover a versão anterior antes de instalar $(^Name)?"
 
 ; Components Page
@@ -34,7 +34,7 @@ ${LangFileString} VERINFO_DL_FAILED "Falha ao transferir informações sobre a v
 ${LangFileString} VERINFO_IS_MISSING "Informação sobre a versão em falta. A configuração irá utilizar a versão padrão."
 
 ; Uninstaller
-${LangFileString} UNINSTALL_NO_ADMIN "This installation can only be uninstalled by a user with administrator privileges."
+${LangFileString} UNINSTALL_NO_ADMIN "Esta aplicação apenas pode ser desinstalada no modo de administrador."
 ${LangFileString} UNINSTALL_ABORTED "Desinstalação cancelada pelo utilizador."
 ${LangFileString} SMPLAYER_NOT_INSTALLED "Parece que o SMPlayer não está instalado no directório '$INSTDIR'.$\r$\nContinuar mesmo assim (não recomendado)?"
 
