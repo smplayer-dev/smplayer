@@ -242,6 +242,7 @@ public:
 	bool log_smplayer;
 	QString log_filter;
 	bool verbose_log;
+	bool save_smplayer_log;
 
     //mplayer log autosaving
     bool autosave_mplayer_log;
