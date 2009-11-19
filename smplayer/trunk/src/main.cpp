@@ -42,6 +42,8 @@ using namespace Global;
 
 BaseGui * basegui_instance = 0;
 
+QFile output_log;
+
 void myMessageOutput( QtMsgType type, const char *msg ) {
 	static QStringList saved_lines;
 	static QString orig_line;
@@ -104,6 +106,22 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 	} else {
 		// GUI is not created yet, save lines for later
 		saved_lines.append(line2);
+	}
+
+	if (pref) {
+		if (pref->save_smplayer_log) {
+			// Save log to file
+			if (!output_log.isOpen()) {
+				// FIXME: the config path may not be initialized if USE_LOCKS is not defined
+				output_log.setFileName( Paths::configPath() + "/smplayer_log.txt" );
+				output_log.open(QIODevice::WriteOnly);
+			}
+			if (output_log.isOpen()) {
+				QString l = line2 + "\n";
+				output_log.write(l.toUtf8().constData());
+				output_log.flush();
+			}
+		}
 	}
 }
 
@@ -266,6 +284,8 @@ int main( int argc, char ** argv )
 
 	basegui_instance = 0;
 	delete smplayer;
+
+	if (output_log.isOpen()) output_log.close();
 
 	return r;
 }
