@@ -20,6 +20,7 @@
 #include "prefadvanced.h"
 #include "images.h"
 #include "preferences.h"
+#include "paths.h"
 #include <QColorDialog>
 
 PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
@@ -100,6 +101,8 @@ void PrefAdvanced::setData(Preferences * pref) {
     setSaveMplayerLog( pref->autosave_mplayer_log );
     setMplayerLogName( pref->mplayer_log_saveto );
 
+	setSaveSmplayerLog( pref->save_smplayer_log );
+
 	setUseShortNames( pref->use_short_pathnames );
 }
 
@@ -149,6 +152,8 @@ void PrefAdvanced::getData(Preferences * pref) {
 	pref->log_filter = logFilter();
     pref->autosave_mplayer_log = saveMplayerLog();
     pref->mplayer_log_saveto = mplayerLogName();
+
+	pref->save_smplayer_log = saveSmplayerLog();
 
 	pref->use_short_pathnames = useShortNames();
 }
@@ -337,6 +342,14 @@ QString PrefAdvanced::mplayerLogName() {
     return log_mplayer_save_name->text();
 }
 
+void PrefAdvanced::setSaveSmplayerLog(bool b) {
+	log_smplayer_save_check->setChecked(b);
+}
+
+bool PrefAdvanced::saveSmplayerLog(){
+    return log_smplayer_save_check->isChecked();
+}
+
 
 void PrefAdvanced::createHelp() {
 	clearHelp();
@@ -435,6 +448,10 @@ void PrefAdvanced::createHelp() {
            "(you can see the log in <b>Options -> View logs -> SMPlayer</b>). "
            "This information can be very useful for the developer in case "
            "you find a bug." ) );
+
+	setWhatsThis(log_smplayer_save_check, tr("Save SMPlayer log to file"),
+		tr("If this option is checked, the SMPlayer log wil be recorded to %1")
+          .arg( "<i>"+ Paths::configPath() + "/smplayer_log.txt</i>" ) );
 
 	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
 		tr("If checked, SMPlayer will store the output of MPlayer "

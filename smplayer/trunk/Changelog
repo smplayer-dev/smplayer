@@ -1,5 +1,11 @@
 [b]Version 0.6.9[/b]:
 
+(2009-11-19)
+ * Added the new option "Save SMPlayer log to file" in Preferences -> Advanced
+   -> Logs. If the option is checked, the smplayer logs will be saved to
+   to a file named smplayer_log.txt in the smplayer config file (in linux
+   $HOME/.config/smplayer/).
+
 (2009-11-06)
  * Pass the text for the slave command osd_show_text in utf8. Should fix
    bug #2854097 (incorrect charset in OSD texts). 
