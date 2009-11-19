@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>511</width>
-    <height>466</height>
+    <height>469</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -592,6 +592,50 @@ Example: resample=44100:0:0,volnorm</string>
         </widget>
        </item>
        <item>
+        <widget class="QWidget" native="1" name="smplayer_log_container" >
+         <property name="enabled" >
+          <bool>false</bool>
+         </property>
+         <layout class="QHBoxLayout" >
+          <property name="leftMargin" >
+           <number>0</number>
+          </property>
+          <property name="topMargin" >
+           <number>0</number>
+          </property>
+          <property name="rightMargin" >
+           <number>0</number>
+          </property>
+          <property name="bottomMargin" >
+           <number>0</number>
+          </property>
+          <item>
+           <spacer>
+            <property name="orientation" >
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType" >
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" >
+             <size>
+              <width>21</width>
+              <height>41</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="log_smplayer_save_check" >
+            <property name="text" >
+             <string>Sa&amp;ve SMPlayer log to a file</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="log_mplayer_check" >
          <property name="text" >
           <string>Log MPlayer &amp;output</string>
@@ -708,8 +752,8 @@ Example: resample=44100:0:0,volnorm</string>
          </property>
          <property name="sizeHint" >
           <size>
-           <width>20</width>
-           <height>40</height>
+           <width>489</width>
+           <height>184</height>
           </size>
          </property>
         </spacer>
@@ -749,6 +793,7 @@ Example: resample=44100:0:0,volnorm</string>
   <tabstop>ipv4_button</tabstop>
   <tabstop>ipv6_button</tabstop>
   <tabstop>log_smplayer_check</tabstop>
+  <tabstop>log_smplayer_save_check</tabstop>
   <tabstop>log_mplayer_check</tabstop>
   <tabstop>verbose_check</tabstop>
   <tabstop>log_mplayer_save_check</tabstop>
@@ -786,6 +831,22 @@ Example: resample=44100:0:0,volnorm</string>
     <hint type="destinationlabel" >
      <x>255</x>
      <y>143</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>log_smplayer_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>smplayer_log_container</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>255</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>255</x>
+     <y>86</y>
     </hint>
    </hints>
   </connection>

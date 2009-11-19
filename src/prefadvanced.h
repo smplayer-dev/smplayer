@@ -114,6 +114,9 @@ protected:
     void setMplayerLogName(QString filter);
     QString mplayerLogName();
 
+	void setSaveSmplayerLog(bool b);
+	bool saveSmplayerLog();
+
 protected:
 	virtual void retranslateStrings();
 
