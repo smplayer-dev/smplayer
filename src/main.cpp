@@ -117,7 +117,7 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 				output_log.open(QIODevice::WriteOnly);
 			}
 			if (output_log.isOpen()) {
-				QString l = line2 + "\n";
+				QString l = line2 + "\r\n";
 				output_log.write(l.toUtf8().constData());
 				output_log.flush();
 			}
