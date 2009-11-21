@@ -5223,7 +5223,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="868"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Indien aangevinkt wordt direct renderen gebruikt (niet ondersteund voor alle videouitvoer)&lt;br&gt;&lt;b&gt;Waarschuwing:&lt;/b&gt; Kan corruptie van OSD/Ondertitels veroorzaken!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
@@ -5233,7 +5233,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="806"/>
         <source>Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermafdrukken inschakelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="808"/>
@@ -5248,27 +5248,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
         <source>&amp;MPlayer executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;MPlayer uitvoerbaar bestand:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermafdrukken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Sch&amp;ermafdrukken inschakelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Map:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="951"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Globaal volume</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="954"/>
@@ -5283,7 +5283,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="755"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Glo&amp;baal volume</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
@@ -5298,7 +5298,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="900"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermbeveiliging vermijden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="905"/>
@@ -5308,27 +5308,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="524"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermbeveiliging</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermbeveiliging uits&amp;chakelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="537"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schermbeveiliging vermijden</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="971"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Automatische audio/video synchronisatie</translation>
+        <translation>Automatische audio/video synchronisatie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Geleidelijk A/V sync bijstellen, gebaseerd op gemeten audio-vertaging.</translation>
+        <translation>Geleidelijk A/V sync bijstellen, gebaseerd op gemeten audio-vertaging.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="975"/>
@@ -5343,7 +5343,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="840"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Synchronisatie</translation>
+        <translation>Synchronisatie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="860"/>
