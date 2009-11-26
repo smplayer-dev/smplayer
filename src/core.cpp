@@ -133,6 +133,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedUpdatingFontCache()),
              this, SLOT(displayUpdatingFontCache()) );
 	
+	connect( proc, SIGNAL(receivedScanningFont(QString)),
+			 this, SLOT(displayMessage(QString)) );
+	
 	connect( proc, SIGNAL(receivedWindowResolution(int,int)),
              this, SLOT(gotWindowResolution(int,int)) );
 

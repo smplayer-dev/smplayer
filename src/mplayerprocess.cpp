@@ -114,6 +114,7 @@ static QRegExp rx_endoffile("^Exiting... \\(End of file\\)|^ID_EXIT=EOF");
 static QRegExp rx_mkvchapters("\\[mkv\\] Chapter (\\d+) from");
 static QRegExp rx_aspect2("^Movie-Aspect is ([0-9,.]+):1");
 static QRegExp rx_fontcache("^\\[ass\\] Updating font cache|^\\[ass\\] Init");
+static QRegExp rx_scanning_font("Scanning file");
 #if DVDNAV_SUPPORT
 static QRegExp rx_dvdnav_switch_title("^DVDNAV, switched to title: (\\d+)");
 static QRegExp rx_dvdnav_length("^ANS_length=(.*)");
@@ -676,6 +677,10 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_fontcache.indexIn(line) > -1) {
 			//qDebug("MplayerProcess::parseLine: updating font cache");
 			emit receivedUpdatingFontCache();
+		}
+		else
+		if (rx_scanning_font.indexIn(line) > -1) {
+			emit receivedScanningFont(line);
 		}
 		else
 
