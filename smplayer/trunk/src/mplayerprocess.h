@@ -63,6 +63,7 @@ signals:
 	void receivedResolvingMessage(QString);
 	void receivedScreenshot(QString);
 	void receivedUpdatingFontCache();
+	void receivedScanningFont(QString);
 
 	void receivedStreamTitle(QString);
 	void receivedStreamTitleAndUrl(QString,QString);
