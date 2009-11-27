@@ -1,5 +1,8 @@
 [b]Version 0.6.9[/b]:
 
+(2009-11-26)
+ * Added icons for the buttons in the find subtitles window.
+
 (2009-11-19)
  * Added the new option "Save SMPlayer log to file" in Preferences -> Advanced
    -> Logs. If the option is checked, the smplayer logs will be saved to
