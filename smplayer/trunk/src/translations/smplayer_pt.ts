@@ -33,122 +33,122 @@
         <translation>Italiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="163"/>
         <source>French</source>
         <translation>Francês</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="225"/>
+        <location filename="../about.cpp" line="227"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 e %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Simplified-Chinese</source>
         <translation>Chinês Simplificado</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Russo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="224"/>
+        <location filename="../about.cpp" line="226"/>
         <source>%1 and %2</source>
         <translation>%1 e %2 </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Hungarian</source>
         <translation>Húngaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Polish</source>
         <translation>Polaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Japanese</source>
         <translation>Japonês</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Dutch</source>
         <translation>Holandês</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="180"/>
         <source>Ukrainian</source>
         <translation>Ucraniano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Portuguese - Brazil</source>
         <translation>Português - Brasil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Georgian</source>
         <translation>Georgiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Czech</source>
         <translation>Checo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="188"/>
         <source>Bulgarian</source>
         <translation>Búlgaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="190"/>
         <source>Swedish</source>
         <translation>Sueco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="189"/>
+        <location filename="../about.cpp" line="191"/>
         <source>Serbian</source>
         <translation>Sérvio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
+        <location filename="../about.cpp" line="192"/>
         <source>Traditional Chinese</source>
         <translation>Chinês Tradicional</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
+        <location filename="../about.cpp" line="193"/>
         <source>Romanian</source>
         <translation>Romeno</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="194"/>
         <source>Portuguese - Portugal</source>
         <translation>Português - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="197"/>
         <source>Greek</source>
         <translation>Grego</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="198"/>
         <source>Finnish</source>
         <translation>Finlândes</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="247"/>
+        <location filename="../about.cpp" line="249"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="268"/>
+        <location filename="../about.cpp" line="270"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -203,17 +203,17 @@
         <translation>Mais informação</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="199"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
+        <location filename="../about.cpp" line="200"/>
         <source>Macedonian</source>
         <translation>Macedónio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
+        <location filename="../about.cpp" line="201"/>
         <source>Basque</source>
         <translation>Basco</translation>
     </message>
@@ -223,7 +223,7 @@
         <translation>Usando MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
+        <location filename="../about.cpp" line="202"/>
         <source>Catalan</source>
         <translation>Catalão</translation>
     </message>
@@ -238,22 +238,22 @@
         <translation>Usando Qt %1 (compilado com Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="203"/>
         <source>Slovenian</source>
         <translation>Esloveno</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="202"/>
+        <location filename="../about.cpp" line="204"/>
         <source>Arabic</source>
         <translation>Árabe</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="203"/>
+        <location filename="../about.cpp" line="205"/>
         <source>Kurdish</source>
         <translation>Curdo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="204"/>
+        <location filename="../about.cpp" line="206"/>
         <source>Galician</source>
         <translation>Galego</translation>
     </message>
@@ -273,27 +273,27 @@
         <translation>Logo SMPlayer por %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="226"/>
+        <location filename="../about.cpp" line="228"/>
         <source>%1, %2, %3 and %4</source>
         <translation>%1, %2, %3 e %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="227"/>
+        <location filename="../about.cpp" line="229"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation>%1, %2, %3, %4 e %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="205"/>
+        <location filename="../about.cpp" line="207"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="206"/>
+        <location filename="../about.cpp" line="208"/>
         <source>Estonian</source>
         <translation>Estónio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="207"/>
+        <location filename="../about.cpp" line="209"/>
         <source>Lithuanian</source>
         <translation>Lituano</translation>
     </message>
@@ -1715,99 +1715,109 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2477"/>
+        <location filename="../core.cpp" line="2487"/>
         <source>Brightness: %1</source>
         <translation>Brilho: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2492"/>
+        <location filename="../core.cpp" line="2502"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2506"/>
+        <location filename="../core.cpp" line="2516"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2520"/>
+        <location filename="../core.cpp" line="2530"/>
         <source>Hue: %1</source>
         <translation>Tonalidade: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2534"/>
+        <location filename="../core.cpp" line="2544"/>
         <source>Saturation: %1</source>
         <translation>Saturação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2663"/>
+        <location filename="../core.cpp" line="2673"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3473"/>
+        <location filename="../core.cpp" line="3483"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2791"/>
+        <location filename="../core.cpp" line="2801"/>
         <source>Font scale: %1</source>
         <translation>Escala de fontes:%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3344"/>
+        <location filename="../core.cpp" line="3354"/>
         <source>Aspect ratio: %1</source>
         <translation>Tamanho de vídeo : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3700"/>
+        <location filename="../core.cpp" line="3710"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Actualizando cache de fontes. Pode demorar alguns segundos...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2705"/>
+        <location filename="../core.cpp" line="2715"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Atraso de legendas : %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2722"/>
+        <location filename="../core.cpp" line="2732"/>
         <source>Audio delay: %1 ms</source>
         <translation>Atraso de áudio : %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2588"/>
+        <location filename="../core.cpp" line="2598"/>
         <source>Speed: %1</source>
         <translation>Velocidade: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2834"/>
+        <location filename="../core.cpp" line="2844"/>
         <source>Subtitles on</source>
         <translation>Activar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2836"/>
+        <location filename="../core.cpp" line="2846"/>
         <source>Subtitles off</source>
         <translation>Desactivar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3391"/>
+        <location filename="../core.cpp" line="3401"/>
         <source>Mouse wheel seeks now</source>
         <translation>Agora, a procura é com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3394"/>
+        <location filename="../core.cpp" line="3404"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Agora, altera o volume com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3397"/>
+        <location filename="../core.cpp" line="3407"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Agora, altera o nível de zoom com a roda </translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3400"/>
+        <location filename="../core.cpp" line="3410"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Agora, altera a velocidade com a roda </translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="1161"/>
+        <source>Screenshot NOT taken, folder not configured</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="1174"/>
+        <source>Screenshots NOT taken, folder not configured</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2205,42 +2215,42 @@ Exemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="186"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="192"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="186"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="192"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="187"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="193"/>
         <source>Format</source>
         <translation>Formato</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="187"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="193"/>
         <source>Files</source>
         <translation>Ficheiros</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="187"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="193"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="187"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="193"/>
         <source>Uploaded by</source>
         <translation>Enviado por</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="203"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="209"/>
         <source>All</source>
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="209"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Close</source>
         <translation>Fechar</translation>
     </message>
@@ -2250,42 +2260,42 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Transferir</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="214"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Copiar ligação para Área de Transferência</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="285"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="301"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="287"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <source>Download failed: %1.</source>
         <translation>Falha ao transferir:%1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="291"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="307"/>
         <source>Connecting to %1...</source>
         <translation>Ligando a %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="297"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="313"/>
         <source>Downloading...</source>
         <translation>Transferindo...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="321"/>
         <source>Done.</source>
         <translation>Concluído.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="351"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="367"/>
         <source>%1 files available</source>
         <translation>%1 ficheiro disponível</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="360"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
         <source>Failed to parse the received data.</source>
         <translation>Falha ao analisar os dados recebidos.</translation>
     </message>
@@ -2310,12 +2320,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Refrescar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="505"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <source>Subtitle saved as %1</source>
         <translation>Legenda guardada como %1</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="528"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
         <source>%1 subtitle(s) extracted</source>
         <translation>
             <numerusform>%1 legenda extraída</numerusform>
@@ -2323,22 +2333,22 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="542"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="558"/>
         <source>Overwrite?</source>
         <translation>Substituir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="543"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="559"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>O ficheiro %1 já existe, substituir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="460"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="476"/>
         <source>Error saving file</source>
         <translation>Erro ao guardar o ficheiro</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="463"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="479"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2347,12 +2357,12 @@ na pasta %1
 Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="454"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="470"/>
         <source>Download failed</source>
         <translation>Falha ao transferir</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="438"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="454"/>
         <source>Temporary file %1</source>
         <translation>Ficheiro temporário %1</translation>
     </message>
@@ -3693,6 +3703,11 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <source>Walloon</source>
         <translation>Walloon</translation>
     </message>
+    <message>
+        <location filename="../languages.cpp" line="282"/>
+        <source>Modern Greek Windows</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>LogWindow</name>
@@ -3994,12 +4009,12 @@ Deseja substituí-lo?</translation>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="344"/>
+        <location filename="../prefadvanced.cpp" line="357"/>
         <source>Advanced</source>
         <translation>Avançado</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="72"/>
+        <location filename="../prefadvanced.cpp" line="73"/>
         <source>Auto</source>
         <translation>Automático</translation>
     </message>
@@ -4039,27 +4054,27 @@ Example: resample=44100:0:0,volnorm</source>
 Exemplo: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="439"/>
+        <location filename="../prefadvanced.cpp" line="456"/>
         <source>Log MPlayer output</source>
         <translation>Guardar registos de saída do MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="432"/>
+        <location filename="../prefadvanced.cpp" line="445"/>
         <source>Log SMPlayer output</source>
         <translation>Guardar registos de saída do SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="681"/>
+        <location filename="../prefadvanced.ui" line="725"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Esta opção serve para depurar (debug) a aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="386"/>
+        <location filename="../prefadvanced.cpp" line="399"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Seleccionando esta opção pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja apresentado correctamente.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="455"/>
+        <location filename="../prefadvanced.cpp" line="472"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtro para registos do SMPlayer</translation>
     </message>
@@ -4099,7 +4114,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Guardar registos de saída do &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="691"/>
+        <location filename="../prefadvanced.ui" line="735"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>&amp;Filtro para registos do SMPlayer:</translation>
     </message>
@@ -4109,12 +4124,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Al&amp;terar...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="430"/>
+        <location filename="../prefadvanced.cpp" line="443"/>
         <source>Logs</source>
         <translation>Registos</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="597"/>
+        <location filename="../prefadvanced.ui" line="641"/>
         <source>Log MPlayer &amp;output</source>
         <translation>Guardar os regist&amp;os de saída do MPlayer</translation>
     </message>
@@ -4124,37 +4139,37 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Opções do MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="445"/>
+        <location filename="../prefadvanced.cpp" line="462"/>
         <source>Autosave MPlayer log</source>
         <translation>Guardar automaticamente os registos do Mplayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="449"/>
+        <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Se seleccionar esta opção, os registos do MPlayer serão guardados no ficheiro especificado cada vez que reproduzir um novo ficheiro. É vocacionada para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="451"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Guardar automaticamente registos do Mplayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="453"/>
+        <location filename="../prefadvanced.cpp" line="470"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Introduza aqui o caminho e o nome do ficheiro para guardar os registos do MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="645"/>
+        <location filename="../prefadvanced.ui" line="689"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>Guardar a&amp;utomaticamente os registos MPlayer no ficheiro</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="375"/>
+        <location filename="../prefadvanced.cpp" line="388"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Passar nome de ficheiros curtos (8+3) para o MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="379"/>
+        <location filename="../prefadvanced.cpp" line="392"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>Actualmente o MPlayer não abre ficheiros que contenham caracteres fora do código local. Ao seleccionar esta opção, fará com que o SMPlayer direccione para o MPlayer uma versão abreviada dos ficheiros e assim já os conseguirá abrir.</translation>
     </message>
@@ -4164,72 +4179,72 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Passar nome de ficheiros curtos (8+3) para o MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="346"/>
+        <location filename="../prefadvanced.cpp" line="359"/>
         <source>Monitor aspect</source>
         <translation>Aspecto do Monitor</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="347"/>
+        <location filename="../prefadvanced.cpp" line="360"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Seleccione o rácio do seu monitor.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="349"/>
+        <location filename="../prefadvanced.cpp" line="362"/>
         <source>Run MPlayer in its own window</source>
         <translation>Executar o MPlayer na sua janela</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="355"/>
+        <location filename="../prefadvanced.cpp" line="368"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Se seleccionar esta opção, a janela do MPlayer não será incorporada na janela principal do SMPlayer mas sim na sua . Note que o rato e o teclado serão geridos directamente pelo MPlayer, o que significa que as teclas de atalho e cliques no rato não deverão funcionar correctamente.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="390"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Colorkey</source>
         <translation>Conjunto de cores</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="393"/>
+        <location filename="../prefadvanced.cpp" line="406"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Se verificar que existem partes do vídeo noutra janela, pode alterar o conjunto de cores para reparar. Tente uma cor próxima de preto.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="408"/>
+        <location filename="../prefadvanced.cpp" line="421"/>
         <source>Options for MPlayer</source>
         <translation>Opções do MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="410"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Options</source>
         <translation>Opções</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="412"/>
+        <location filename="../prefadvanced.cpp" line="425"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Aqui pode digitar as opções para o MPlayer. Escreva-as separadas por espaços.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="414"/>
+        <location filename="../prefadvanced.cpp" line="427"/>
         <source>Video filters</source>
         <translation>Filtros de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="416"/>
+        <location filename="../prefadvanced.cpp" line="429"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Aqui  pode adicionar filtros vídeo para o MPlayer.Escreva-as separadas por vírgulas. Não use espaços!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="418"/>
+        <location filename="../prefadvanced.cpp" line="431"/>
         <source>Audio filters</source>
         <translation>Filtros de áudio</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="420"/>
+        <location filename="../prefadvanced.cpp" line="433"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Aqui  pode adicionar filtros áudio para o MPlayer.Escreva-as separadas por vírgulas. Não use espaços!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="384"/>
+        <location filename="../prefadvanced.cpp" line="397"/>
         <source>Repaint the background of the video window</source>
         <translation>Redesenhar o fundo da janela de vídeo</translation>
     </message>
@@ -4239,22 +4254,22 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Redesenhar o fun&amp;do da janela de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="424"/>
+        <location filename="../prefadvanced.cpp" line="437"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="425"/>
+        <location filename="../prefadvanced.cpp" line="438"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>Usar IPv4 nas ligações de rede. Retorna a IPv6 automaticamente.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="427"/>
+        <location filename="../prefadvanced.cpp" line="440"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="428"/>
+        <location filename="../prefadvanced.cpp" line="441"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>Usar IPv6 nas ligações de rede. Retorna a IPv4 automaticamente.</translation>
     </message>
@@ -4279,7 +4294,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Re&amp;gistos</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="357"/>
+        <location filename="../prefadvanced.cpp" line="370"/>
         <source>Rebuild index if needed</source>
         <translation>Se necessário, reconstruir índice </translation>
     </message>
@@ -4289,47 +4304,47 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Se necessár&amp;io, reconstruir índice </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="437"/>
+        <location filename="../prefadvanced.cpp" line="450"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Se seleccionar esta opção, o SMPlayer irá guardar as mensagens de depuração que o software emite (pode visualizar o registo em &lt;b&gt;Opções-&gt;Ver registos-&gt;SMPlayer&lt;/b&gt;). Esta informação poderá ser útil para o programador no caso de encontrar um problema.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="460"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Se seleccionada, o SMPlayer irá guardar a informação de saída do MPlayer (pode visualiza-la em&lt;b&gt; Opções-&gt;Ver registos-&gt;MPlayer&lt;/b&gt;). Em caso de problemas, este registo poderá conter informação importante, por isso recomenda-se manter a opção activa.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="459"/>
+        <location filename="../prefadvanced.cpp" line="476"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Esta opção permite filtrar as mensagens do SMPlayer que vão ser guardadas no registo. Aqui pode escrever uma expressão regular. &lt;br&gt;Por exemplo: &lt;i&gt;^Core::.*&lt;/i&gt; irá mostrar somente as linhas que começem com &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="364"/>
+        <location filename="../prefadvanced.cpp" line="377"/>
         <source>Correct pts</source>
         <translation>Corrigir pts</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="372"/>
+        <location filename="../prefadvanced.cpp" line="385"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Muda MPlayer para o modo experimental em que as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS activadas. Sem os correctos pts, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona correctamente com alguns demuxers e codificadores.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="396"/>
+        <location filename="../prefadvanced.cpp" line="409"/>
         <source>Actions list</source>
         <translation>Lista de acções</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="402"/>
+        <location filename="../prefadvanced.cpp" line="415"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Aqui pode especificar uma lista de &lt;i&gt;acções&lt;/i&gt; que serão executadas cada vez que um ficheiro for aberto. Poderá encontrar as acções disponíveis no editor de atalhos na secção &lt;b&gt;Teclado e Rato&lt;/b&gt;. As acções têm que estar separadas por espaços e podem anteceder &lt;i&gt;true&lt;/i&gt; ou &lt;i&gt;false&lt;/i&gt; para as activar ou desactivar.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="406"/>
+        <location filename="../prefadvanced.cpp" line="419"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation>Limitações: as acções só serão executadas quando o ficheiro for aberto e não ao reiniciar o MPlayer (ex: ao seleccionar um filtro áudio ou vídeo).</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="422"/>
+        <location filename="../prefadvanced.cpp" line="435"/>
         <source>Network</source>
         <translation>Rede</translation>
     </message>
@@ -4344,12 +4359,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Repor</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="403"/>
+        <location filename="../prefadvanced.cpp" line="416"/>
         <source>Example:</source>
         <translation>Exemplo:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="362"/>
+        <location filename="../prefadvanced.cpp" line="375"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>Reconstrói índice de ficheiros se nenhum for encontrado, permitindo a procura. Útil com transferências corrompidas/incompletas ou ficheiros mal criados. Esta opção só funciona se o vídeo subjacente suportar busca (i.e., não com stdin, pipe, etc.). &lt;br&gt; &lt;b&gt;Nota:&lt;/b&gt; a criação do índice pode levar algum tempo.</translation>
     </message>
@@ -4359,9 +4374,24 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>C&amp;orrigir PTS: </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="638"/>
+        <location filename="../prefadvanced.ui" line="682"/>
         <source>&amp;Verbose</source>
         <translation>&amp;Detalhe</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="452"/>
+        <source>Save SMPlayer log to file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="454"/>
+        <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="631"/>
+        <source>Sa&amp;ve SMPlayer log to a file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
