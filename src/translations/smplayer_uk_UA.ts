@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -1812,12 +1813,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1161"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Знімок екрану не був зроблений, оскільки тека не налаштована</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1174"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Знімки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
 </context>
 <context>
@@ -3584,7 +3585,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3694,7 +3695,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -3707,7 +3708,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="282"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Сучасне грецьке Windows</translation>
     </message>
 </context>
 <context>
@@ -4382,17 +4383,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберегти журнал SMPlayer у файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо опція увімкнена, журнал SMPlayer записуватиметься у %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="631"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Зберегти журнал SMPlayer у файл</translation>
     </message>
 </context>
 <context>
