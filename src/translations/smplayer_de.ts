@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="de_DE">
+<!DOCTYPE TS>
+<TS version="2.0" language="de_DE">
 <context>
     <name>About</name>
     <message>
@@ -1812,12 +1813,12 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../core.cpp" line="1161"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Kein Bildschirmfoto, Order ist nicht konfiguriert</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1174"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Kein Bildschirmfoto, Order ist nicht konfiguriert</translation>
     </message>
 </context>
 <context>
@@ -3585,7 +3586,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3695,7 +3696,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -3708,7 +3709,7 @@ Auswahl des Ordners, der das VIDEO_TS und das AUDIO_TS Verzeichnis enthält.</tr
     <message>
         <location filename="../languages.cpp" line="282"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Griechisch (Modern) Windows</translation>
     </message>
 </context>
 <context>
@@ -4384,17 +4385,17 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer Dateilog speichern</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, SMPlayer Log-Datei wird in %1 erfasst</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="631"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;SMPlayer Dateilog speichern</translation>
     </message>
 </context>
 <context>
