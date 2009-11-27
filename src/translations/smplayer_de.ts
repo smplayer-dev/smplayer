@@ -4165,7 +4165,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="689"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>&amp;Automatisches speichern von MPlayer Log zu Datei</translation>
+        <translation>&amp;MPlayer Dateilog automatisch speichern</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="388"/>
