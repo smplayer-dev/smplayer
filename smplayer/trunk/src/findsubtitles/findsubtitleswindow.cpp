@@ -42,6 +42,12 @@
 #include <QBuffer>
 #endif
 
+//#define NO_SMPLAYER_SUPPORT
+
+#ifndef NO_SMPLAYER_SUPPORT
+#include "images.h"
+#endif
+
 #define COL_LANG 0
 #define COL_NAME 1
 #define COL_FORMAT 2
@@ -212,6 +218,16 @@ void FindSubtitlesWindow::retranslateStrings() {
 	// Actions
 	downloadAct->setText( tr("&Download") );
 	copyLinkAct->setText( tr("&Copy link to clipboard") );
+
+	// Icons
+#ifndef NO_SMPLAYER_SUPPORT
+	download_button->setIcon( Images::icon("download_subs") );
+	configure_button->setIcon( Images::icon("prefs") );
+	refresh_button->setIcon( Images::icon("refresh") );
+
+	downloadAct->setIcon( Images::icon("download_subs") );
+	copyLinkAct->setIcon( Images::icon("copy") );
+#endif
 }
 
 void FindSubtitlesWindow::setMovie(QString filename) {
