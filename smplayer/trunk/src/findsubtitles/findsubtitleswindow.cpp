@@ -221,11 +221,11 @@ void FindSubtitlesWindow::retranslateStrings() {
 
 	// Icons
 #ifndef NO_SMPLAYER_SUPPORT
-	download_button->setIcon( Images::icon("download_subs") );
+	download_button->setIcon( Images::icon("download") );
 	configure_button->setIcon( Images::icon("prefs") );
 	refresh_button->setIcon( Images::icon("refresh") );
 
-	downloadAct->setIcon( Images::icon("download_subs") );
+	downloadAct->setIcon( Images::icon("download") );
 	copyLinkAct->setIcon( Images::icon("copy") );
 #endif
 }
