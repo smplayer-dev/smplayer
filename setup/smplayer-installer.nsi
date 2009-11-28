@@ -23,6 +23,7 @@
   !define SMPLAYER_PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.0"
 !endif
 
+  !define SMPLAYER_DEFPROGRAMS_KEY "Software\Clients\Media\SMPlayer\Capabilities"
   !define SMPLAYER_REG_KEY "Software\SMPlayer"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
@@ -496,7 +497,7 @@ Function .onInit
   ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
   StrCmp $R0 "" nouninst
 
-  MessageBox MB_YESNO|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_PREV_VERSION) IDNO nouninst
+  MessageBox MB_YESNO|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_PREV_VERSION) /SD IDNO IDNO nouninst
 
   ClearErrors
   ExecWait '$R0 _?=$INSTDIR' ;Do not copy the uninstaller to a temp file
@@ -546,55 +547,55 @@ Function DefaultProgramsReg
   WriteRegStr HKCR "MPlayerFileVideo\shell\open" "FriendlyAppName" "SMPlayer Media Player"
   WriteRegStr HKCR "MPlayerFileVideo\shell\open\command" "" '"$INSTDIR\smplayer.exe" "%1"'
 
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities" "ApplicationDescription" $(APPLICATION_DESCRIPTION)
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities" "ApplicationName" "SMPlayer"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".3gp" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ac3" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ape" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".asf" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".avi" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".bin" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".dat" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".divx" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".dv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".dvr-ms" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".flac" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".flv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".iso" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".m1v" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".m2t" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".m2ts" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".m2v" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".m3u" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".m3u8" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".m4v" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mkv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mov" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mp3" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mp4" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mpeg" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mpg" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mpv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".mqv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".nsv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ogg" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ogm" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ogv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".pls" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ra" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ram" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".rec" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".rm" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".rmvb" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".swf" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".ts" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".vcd" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".vfw" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".vob" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".wav" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".wma" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\Clients\Media\SMPlayer\Capabilities\FileAssociations" ".wmv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\RegisteredApplications" "SMPlayer" "Software\Clients\Media\SMPlayer\Capabilities"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}" "ApplicationDescription" $(APPLICATION_DESCRIPTION)
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}" "ApplicationName" "SMPlayer"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".3gp" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ac3" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ape" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".asf" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".avi" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".bin" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".dat" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".divx" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".dv" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".dvr-ms" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".flac" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".flv" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".iso" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m1v" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m2t" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m2ts" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m2v" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m3u" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m3u8" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m4v" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mkv" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mov" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mp3" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mp4" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mpeg" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mpg" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mpv" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mqv" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".nsv" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ogg" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ogm" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ogv" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".pls" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ra" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ram" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".rec" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".rm" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".rmvb" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".swf" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ts" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".vcd" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".vfw" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".vob" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".wav" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".wma" "MPlayerFileVideo"
+  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".wmv" "MPlayerFileVideo"
+  WriteRegStr HKLM "Software\RegisteredApplications" "SMPlayer" "${SMPLAYER_DEFPROGRAMS_KEY}"
 
 FunctionEnd
 
@@ -700,7 +701,7 @@ Section Uninstall
 
   ;Make sure SMPlayer is installed from where the uninstaller is being executed.
   IfFileExists $INSTDIR\smplayer.exe smplayer_installed
-    MessageBox MB_YESNO $(SMPLAYER_NOT_INSTALLED) IDYES smplayer_installed
+    MessageBox MB_YESNO $(SMPLAYER_NOT_INSTALLED) /SD IDNO IDYES smplayer_installed
     Abort $(UNINSTALL_ABORTED)
 
   smplayer_installed:
