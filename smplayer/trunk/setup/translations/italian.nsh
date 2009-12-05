@@ -9,7 +9,6 @@
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Il programma di installazione è già in esecuzione."
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Devi essere autenticato come amministratore per installare questo programma."
-${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "SMPlayer è già stato installato.$\nVuoi rimuovere la versione precedente prima dell'installazione di $(^Name)?"
 
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "I pacchetti di codec binari forniscono il supporto per i codec che non sono stati ancora implementati nativamente, per esempio per le varianti di RealVideo e anche un sacco di formati poco utilizzati.$\nNota che non sono richiesti per riprodurre i formati più comuni come DVD, MPEG-1/2/4, ecc."

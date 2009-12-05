@@ -9,7 +9,6 @@
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "The installer is already running."
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an administrator when installing this program."
-${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "SMPlayer has already been installed.$\nDo you want to remove the previous version before installing $(^Name)?"
 
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."

@@ -9,7 +9,6 @@
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Instalátor již běží."
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an administrator when installing this program."
-${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "SMPlayer je již nainstalován.$\nPřejete si odstranit předchozí verzi před spuštěním instalace $(^Name)?"
 
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "Binární kodeky podporují formáty, které zatím nejsou implementovány nativne, napr. novejší varianty RealVideo a jiné málo používané formáty.$\nPro vetšinu bežných formátu nejsou potreba (DVD, MPEG-1/2/4, apod.)."

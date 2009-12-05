@@ -9,7 +9,6 @@
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "A telepíto már fut."
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Rendszergazdaként kell bejelentkeznie a program telepítéséhez."
-${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "Az SMPlayer már telepítve van.$\nEl akarja távolítani az elozo verziót $(^Name) telepítése elott?"
 
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.$\nNem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, MPEG-1/2/4, stb."

@@ -9,7 +9,6 @@
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Программа установки уже запущена."
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an administrator when installing this program."
-${LangFileString} SMPLAYER_INSTALLER_PREV_VERSION "SMPlayer уже установлен.$\nВы хотите удалить предыдущую версию перед установкой $(^Name)?"
 
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "Пакеты с бинарными кодеками добавляют поддержку кодеков, не встроенных в mplayer, например, RealVideo и других нестандартных форматов.$\nОбратите внимание, что эти кодеки не нужны для воспроизведения большинства обычных форматов вроде DVD, MPEG-1/2/4 и т.п."
