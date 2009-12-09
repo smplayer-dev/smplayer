@@ -17,20 +17,21 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "A bináris kodek csomagok támogat�
 !ifndef WITH_MPLAYER
   ${LangFileString} MPLAYER_IS_INSTALLED "Az MPlayer már telepítve van. Újra letöltsem?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Az MPlayer letöltése..."
-  ${LangFileString} MPLAYER_DL_FAILED "Az MPlayer letöltése nem sikerült:"
+  ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
+  ${LangFileString} MPLAYER_DL_FAILED "Az MPlayer letöltése nem sikerült: '$R0'."
   ${LangFileString} MPLAYER_INST_FAILED "Az MPlayer telepítése nem sikerült. Az MPlayerre szükség van a lejátszáshoz."
 !endif
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_INSTALLED "Az MPlayer kodekek már telepítve vannak. Újra letöltsem?"
 ${LangFileString} CODECS_IS_DOWNLOADING "MPlayer kodekek letöltése..."
-${LangFileString} CODECS_DL_FAILED "Az MPlayer kodekek letöltése nem sikerült:"
+${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
+${LangFileString} CODECS_DL_FAILED "Az MPlayer kodekek letöltése nem sikerült: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Az MPlayer kodekek telepítése nem sikerült."
 
 ; Version information
 ${LangFileString} VERINFO_IS_DOWNLOADING "Verzió információ letöltése..."
-${LangFileString} VERINFO_DL_FAILED "Verzió információ letöltése nem sikerült:"
-${LangFileString} VERINFO_IS_MISSING "A verzió fájlból hiányzik a verzió információ. A telepítő egy alapértelmezett verziót fog használni."
+${LangFileString} VERINFO_DL_FAILED "Verzió információ letöltése nem sikerült: '$R0'. Using a default version."
 
 ; Uninstaller
 ${LangFileString} UNINSTALL_NO_ADMIN "A telepítés eltávolításhoz rendszergazdai jogosultságok szükségesek."
