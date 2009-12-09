@@ -1,5 +1,5 @@
 ; Installer script for win32 SMPlayer
-; Written by redxii
+; Written by redxii (redxii@users.sourceforge.net)
 
 ;--------------------------------
 ;Compressor
@@ -296,27 +296,20 @@ SectionGroup /e "MPlayer Components"
 
     ReadRegDWORD $0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
 
-    IntCmp $0 1 mplayerInstalled mplayerNotInstalled
-      mplayerInstalled:
-        MessageBox MB_YESNO $(MPLAYER_IS_INSTALLED) /SD IDNO IDYES mplayerNotInstalled IDNO done
+    IntCmp $0 1 0 mplayerNotInstalled
+      MessageBox MB_YESNO $(MPLAYER_IS_INSTALLED) /SD IDNO IDYES mplayerNotInstalled IDNO done
       mplayerNotInstalled:
-        ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
-          Call GetVerInfo
-        ${EndIf}
 
-        IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
-          ClearErrors
-          ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
+      Call GetVerInfo
 
-          IfErrors 0 done_ver_info
-            DetailPrint $(VERINFO_IS_MISSING)
-            ;Default Value if version-info exists but version string is missing from version-info
-            StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
-            Goto done_ver_info
+      IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
+        ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
+        Goto done_ver_info
 
-        noVerInfo:
-          ;Default Value if version-info doesn't exist
-          StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
+      noVerInfo:
+
+        ;Default Value if version-info doesn't exist
+        StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
 
     done_ver_info:
 
@@ -337,7 +330,7 @@ SectionGroup /e "MPlayer Components"
     check_mplayer:
       ;This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
-        DetailPrint "$(MPLAYER_DL_FAILED) $R0."
+        DetailPrint $(MPLAYER_DL_FAILED)
       ${EndIf}
 
       IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
@@ -345,6 +338,7 @@ SectionGroup /e "MPlayer Components"
           WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
           Goto done
         mplayerInstFailed:
+          MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPLAYER_DL_RETRY) /SD IDCANCEL IDRETRY done_ver_info
           Abort $(MPLAYER_INST_FAILED)
 
     done:
@@ -360,27 +354,20 @@ SectionGroup /e "MPlayer Components"
 
     ReadRegDWORD $1 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
 
-    IntCmp $1 1 mplayerCodecsInstalled mplayerCodecsNotInstalled
-      mplayerCodecsInstalled:
-        MessageBox MB_YESNO $(CODECS_IS_INSTALLED) /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
+    IntCmp $1 1 0 mplayerCodecsNotInstalled
+      MessageBox MB_YESNO $(CODECS_IS_INSTALLED) /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
       mplayerCodecsNotInstalled:
-        ${IfNot} ${FileExists} "$PLUGINSDIR\version-info"
-          Call GetVerInfo
-        ${EndIf}
 
-        IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
-          ClearErrors
-          ReadINIStr $CODEC_VERSION "$PLUGINSDIR\version-info" smplayer mplayercodecs
+      Call GetVerInfo
 
-          IfErrors 0 done_ver_info
-            DetailPrint $(VERINFO_IS_MISSING)
-            ;Default Value if version-info exists but version string is missing from version-info
-            StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
-            Goto done_ver_info
+      IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
+        ReadINIStr $CODEC_VERSION "$PLUGINSDIR\version-info" smplayer mplayercodecs
+        Goto done_ver_info
 
-        noVerInfo:
-          ;Default Value if version-info doesn't exist
-          StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
+      noVerInfo:
+
+        ;Default Value if version-info doesn't exist
+        StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
 
     done_ver_info:
 
@@ -401,7 +388,7 @@ SectionGroup /e "MPlayer Components"
     check_codecs:
       ;This label does not necessarily mean there was a download error, so check first
       ${If} $R0 != "OK"
-        DetailPrint "$(CODECS_DL_FAILED) $R0."
+        DetailPrint $(CODECS_DL_FAILED)
       ${EndIf}
 
       IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
@@ -409,6 +396,7 @@ SectionGroup /e "MPlayer Components"
           WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
           Goto done
         codecsInstFailed:
+          MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(CODECS_DL_RETRY) /SD IDCANCEL IDRETRY done_ver_info
           DetailPrint $(CODECS_INST_FAILED)
           WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
           Sleep 5000
@@ -644,12 +632,15 @@ FunctionEnd
 
 Function GetVerInfo
 
-  DetailPrint $(VERINFO_IS_DOWNLOADING)
-  inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
-  "$PLUGINSDIR\version-info"
-  Pop $R0
-  StrCmp $R0 OK +2
-    DetailPrint "$(VERINFO_DL_FAILED) $R0."
+  IfFileExists "$PLUGINSDIR\version-info" end_dl_ver_info 0
+    DetailPrint $(VERINFO_IS_DOWNLOADING)
+    inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
+    "$PLUGINSDIR\version-info"
+    Pop $R0
+    StrCmp $R0 OK +2
+      DetailPrint $(VERINFO_DL_FAILED)
+
+  end_dl_ver_info:
 
 FunctionEnd
 
@@ -880,6 +871,11 @@ Section Uninstall
   DetailPrint "Restoring file associations..."
   SetDetailsPrint listonly
 
+  ;Don't restore file associations if reinstalling
+  ${un.GetParameters} $R0
+  ${un.GetOptions} $R0 "/frominstall" $R1
+
+  IfErrors 0 +2
   ExecWait '"$INSTDIR\smplayer.exe" -uninstall'
 
   Call un.UninstallSMPlayer
