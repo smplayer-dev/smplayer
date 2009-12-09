@@ -17,20 +17,21 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "I pacchetti di codec binari fornisc
 !ifndef WITH_MPLAYER
   ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer è già stato installato. Ri-scarico?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Sto scaricando MPlayer..."
-  ${LangFileString} MPLAYER_DL_FAILED "Scaricamento di MPlayer fallito:"
+  ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
+  ${LangFileString} MPLAYER_DL_FAILED "Scaricamento di MPlayer fallito: '$R0'."
   ${LangFileString} MPLAYER_INST_FAILED "Installazione di MPlayer fallita. MPlayer è un componente necessario per la riproduzione multimediale."
 !endif
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_INSTALLED "I codec di MPlayer sono già stati installati. Ri-scarico?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Sto scaricando i codec di MPlayer..."
-${LangFileString} CODECS_DL_FAILED "Scaricamento dei codec di MPlayer fallito:"
+${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
+${LangFileString} CODECS_DL_FAILED "Scaricamento dei codec di MPlayer fallito: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Installazione dei codec di MPlayer fallita."
 
 ; Version information
 ${LangFileString} VERINFO_IS_DOWNLOADING "Sto scaricando le informazioni di versione..."
-${LangFileString} VERINFO_DL_FAILED "Scaricamento delle informazioni di versione fallito:"
-${LangFileString} VERINFO_IS_MISSING "Il file di versione non contiene informazioni di versione. Verrà utilizzata una versione predefinita."
+${LangFileString} VERINFO_DL_FAILED "Scaricamento delle informazioni di versione fallito: '$R0'. Using a default version."
 
 ; Uninstaller
 ${LangFileString} UNINSTALL_NO_ADMIN "La disinstallazione può essere effettuata solo da un utente con permessi amministrativi."

@@ -17,20 +17,21 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binární kodeky podporují formát
 !ifndef WITH_MPLAYER
   ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer je již nainstalován. Stáhnout znovu?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Stahuji MPlayer..."
-  ${LangFileString} MPLAYER_DL_FAILED "Nepovedlo se stáhnout MPlayer:"
+  ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
+  ${LangFileString} MPLAYER_DL_FAILED "Nepovedlo se stáhnout MPlayer: '$R0'."
   ${LangFileString} MPLAYER_INST_FAILED "Nepovedlo se nainstalovat MPlayer. MPlayer je potrebný pro prehrávání."
 !endif
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_INSTALLED "Kodeky MPlayeru jsou již nainstalovány. Stáhnout znovu?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Instaluji kodeky MPlayeru..."
-${LangFileString} CODECS_DL_FAILED "Nepovedlo se stáhnout kodeky MPlayeru:"
+${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
+${LangFileString} CODECS_DL_FAILED "Nepovedlo se stáhnout kodeky MPlayeru: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Nepovedlo se nainstalovat kodeky MPlayeru."
 
 ; Version information
 ${LangFileString} VERINFO_IS_DOWNLOADING "Stahuji informace o verzích..."
-${LangFileString} VERINFO_DL_FAILED "Nepovedlo se stáhnout informace o verzích:"
-${LangFileString} VERINFO_IS_MISSING "Verzovací soubor neobsahuje správné informace. Bude použita výchozí verze."
+${LangFileString} VERINFO_DL_FAILED "Nepovedlo se stáhnout informace o verzích: '$R0'. Using a default version."
 
 ; Uninstaller
 ${LangFileString} UNINSTALL_NO_ADMIN "This installation can only be uninstalled by a user with administrator privileges."

@@ -17,20 +17,21 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binäre Codec-Pakete werden eingese
 !ifndef WITH_MPLAYER
   ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer ist bereits installiert. Erneut herunterladen?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Lade MPlayer herunter..."
-  ${LangFileString} MPLAYER_DL_FAILED "Fehler beim Herunterladen von MPlayer:"
+  ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
+  ${LangFileString} MPLAYER_DL_FAILED "Fehler beim Herunterladen von MPlayer: '$R0'."
   ${LangFileString} MPLAYER_INST_FAILED "Fehler beim Installieren von MPlayer. MPlayer ist erforderlich für die Wiedergabe."
 !endif
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_INSTALLED "MPlayer-Codecs sind bereits installiert. Erneut herunterladen?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Lade MPlayer Codecs runter..."
-${LangFileString} CODECS_DL_FAILED "Fehler beim Herunterladen der MPlayer Codecs:"
+${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
+${LangFileString} CODECS_DL_FAILED "Fehler beim Herunterladen der MPlayer Codecs: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Fehler beim Installieren der MPlayer Codecs."
 
 ; Version information
 ${LangFileString} VERINFO_IS_DOWNLOADING "Lade Informationen der Version runter..."
-${LangFileString} VERINFO_DL_FAILED "Fehler beim Herunterladen der Versionsinfo:"
-${LangFileString} VERINFO_IS_MISSING "Versionsdatei fehlen Informationen über die Version. Setup nimmt Standardversion."
+${LangFileString} VERINFO_DL_FAILED "Fehler beim Herunterladen der Versionsinfo: '$R0'. Using a default version."
 
 ; Uninstaller
 ${LangFileString} UNINSTALL_NO_ADMIN "Administratorrechte sind nötig um dieses Programm zu deinstallieren."

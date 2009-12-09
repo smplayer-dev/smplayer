@@ -17,20 +17,21 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Пакеты с бинарными 
 !ifndef WITH_MPLAYER
   ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer уже установлен. Загрузить заново?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Загрузка MPlayer..."
-  ${LangFileString} MPLAYER_DL_FAILED "Не удалось загрузить MPlayer:"
+  ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
+  ${LangFileString} MPLAYER_DL_FAILED "Не удалось загрузить MPlayer: '$R0'."
   ${LangFileString} MPLAYER_INST_FAILED "Ошибка при установке MPlayer. MPlayer требуется для воспроизведения."
 !endif
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_INSTALLED "Бинарные кодеки для MPlayer уже установлены. Загрузить заново?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Загрузка бинарных кодеков для MPlayer..."
-${LangFileString} CODECS_DL_FAILED "Не удалось загрузить бинарные кодеки для MPlayer:"
+${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
+${LangFileString} CODECS_DL_FAILED "Не удалось загрузить бинарные кодеки для MPlayer: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Ошибка при установке бинарных кодеков для MPlayer."
 
 ; Version information
 ${LangFileString} VERINFO_IS_DOWNLOADING "Загрузка информации о версии..."
-${LangFileString} VERINFO_DL_FAILED "Не удалось загрузить информацию о версии:"
-${LangFileString} VERINFO_IS_MISSING "Файл версии не содержит нужной информации. Программа установки будет использовать версию по умолчанию."
+${LangFileString} VERINFO_DL_FAILED "Не удалось загрузить информацию о версии: '$R0'. Using a default version."
 
 ; Uninstaller
 ${LangFileString} UNINSTALL_NO_ADMIN "This installation can only be uninstalled by a user with administrator privileges."
