@@ -17,7 +17,7 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "O pacote de codecs binários adicio
 !ifndef WITH_MPLAYER
   ${LangFileString} MPLAYER_IS_INSTALLED "O MPlayer já está instalado. Transferir novamente?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Transferindo MPlayer..."
-  ${LangFileString} MPLAYER_DL_RETRY "MPlayer nãoi foi correctamente instalado. Tentar novamente?"
+  ${LangFileString} MPLAYER_DL_RETRY "MPlayer não foi correctamente instalado. Tentar novamente?"
   ${LangFileString} MPLAYER_DL_FAILED "Falha ao transferir MPlayer: '$R0'."
   ${LangFileString} MPLAYER_INST_FAILED "Falha ao instalar MPlayer. O MPlayer é necessário para reproduzir."
 !endif
@@ -25,7 +25,7 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "O pacote de codecs binários adicio
 ; Codecs Section
 ${LangFileString} CODECS_IS_INSTALLED "Os codecs MPlayer já estão instalados. Transferir novamente?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Transferindo codecs MPlayer..."
-${LangFileString} CODECS_DL_RETRY "Os codecs MPlayer não forma correctamente instalados. Tentar novamente?"
+${LangFileString} CODECS_DL_RETRY "Os codecs MPlayer não foram correctamente instalados. Tentar novamente?"
 ${LangFileString} CODECS_DL_FAILED "Falha ao transferir os codecs MPlayer: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Falha ao instalar os codecs MPlayer."
 
