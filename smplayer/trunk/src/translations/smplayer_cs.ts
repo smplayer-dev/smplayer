@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="cs">
+<!DOCTYPE TS>
+<TS version="2.0" language="cs">
 <context>
     <name>About</name>
     <message>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Litevština</translation>
+        <translation>Litevština</translation>
     </message>
 </context>
 <context>
@@ -1676,7 +1677,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1525"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit jméno souboru v OSD</translation>
     </message>
 </context>
 <context>
@@ -1812,12 +1813,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="1161"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Snímek nepořízen! Není nastaven adresář</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1174"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Snímky nepořízeny! Není nastaven adresář</translation>
     </message>
 </context>
 <context>
@@ -3584,7 +3585,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Marshallese</source>
         <translation>Maršálština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3694,7 +3695,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Venda</source>
         <translation>Luvendština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -3707,7 +3708,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../languages.cpp" line="282"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Moderní Řecké Windows</translation>
     </message>
 </context>
 <context>
@@ -4382,17 +4383,17 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit log SMPlayeru do souboru</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato položka zaškrtnuta, log SMPlayeru se uloží do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="631"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ul&amp;ožit log SMPlayeru do souboru</translation>
     </message>
 </context>
 <context>
@@ -5422,12 +5423,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Využívá hardwareový AC3 passthrough.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Poznámka:&lt;/b&gt; žádný audio filtr nepůjde použít, je-li toto nastavení aktivní.</translation>
     </message>
 </context>
 <context>
@@ -5870,17 +5871,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolečko seekuje opačně</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaškrtněte, má li kolečko prohodit směry.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;olečko seekuje opačně</translation>
     </message>
 </context>
 <context>
