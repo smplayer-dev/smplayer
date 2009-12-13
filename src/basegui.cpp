@@ -3023,7 +3023,7 @@ void BaseGui::updateWidgets() {
 	volnormAct->setChecked( core->mset.volnorm_filter );
 
 	// Repeat menu option
-	repeatAct->setChecked( pref->loop );
+	repeatAct->setChecked( core->mset.loop );
 
 	// Fullscreen action
 	fullscreenAct->setChecked( pref->fullscreen );

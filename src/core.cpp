@@ -1846,7 +1846,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (mdat.type != TYPE_TV) {
 		// If seek < 5 it's better to allow the video to start from the beginning
-		if ((seek >= 5) && (!pref->loop)) {
+		if ((seek >= 5) && (!mset.loop)) {
 			proc->addArgument("-ss");
 			proc->addArgument( QString::number( seek ) );
 		}
@@ -2170,7 +2170,7 @@ end_video_filters:
 	proc->addArgument( file );
 
 	// It seems the loop option must be after the filename
-	if (pref->loop) {
+	if (mset.loop) {
 		proc->addArgument("-loop");
 		proc->addArgument("0");
 	}
@@ -2296,17 +2296,17 @@ void Core::wheelDown() {
 
 void Core::toggleRepeat() {
 	qDebug("Core::toggleRepeat");
-	toggleRepeat( !pref->loop );
+	toggleRepeat( !mset.loop );
 }
 
 void Core::toggleRepeat(bool b) {
 	qDebug("Core::toggleRepeat: %d", b);
-	if ( pref->loop != b ) {
-		pref->loop = b;
+	if ( mset.loop != b ) {
+		mset.loop = b;
 		if (MplayerVersion::isMplayerAtLeast(23747)) {
 			// Use slave command
 			int v = -1; // no loop
-			if (pref->loop) v = 0; // infinite loop
+			if (mset.loop) v = 0; // infinite loop
 			tellmp( QString("loop %1 1").arg(v) );
 		} else {
 			// Restart mplayer
