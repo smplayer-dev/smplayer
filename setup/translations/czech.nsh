@@ -1,4 +1,4 @@
-;Language: Czech (1029)
+﻿;Language: Czech (1029)
 ;Czech language strings for the Windows SMPlayer NSIS installer.
 ;
 ;Save file as UTF-8 w/ BOM
