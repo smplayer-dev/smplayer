@@ -1379,11 +1379,12 @@ void BaseGui::retranslateStrings() {
 
 	setJumpTexts(); // Texts for rewind*Act and forward*Act
 
-	setAMarkerAct->change( Images::icon("a_marker"), tr("Set A marker") );
-	setBMarkerAct->change( Images::icon("b_marker"), tr("Set B marker") );
-	clearABMarkersAct->change( Images::icon("clear_markers"), tr("Clear A-B markers") );
-
+	// Submenu A-B
+	setAMarkerAct->change( Images::icon("a_marker"), tr("Set &A marker") );
+	setBMarkerAct->change( Images::icon("b_marker"), tr("Set &B marker") );
+	clearABMarkersAct->change( Images::icon("clear_markers"), tr("&Clear A-B markers") );
 	repeatAct->change( Images::icon("repeat"), tr("&Repeat") );
+
 	gotoAct->change( Images::icon("jumpto"), tr("&Jump to...") );
 
 	// Submenu speed
@@ -1583,6 +1584,9 @@ void BaseGui::retranslateStrings() {
 	// Menu Play
 	speed_menu->menuAction()->setText( tr("Sp&eed") );
 	speed_menu->menuAction()->setIcon( Images::icon("speed") );
+
+	ab_menu->menuAction()->setText( tr("&A-B section") );
+	ab_menu->menuAction()->setIcon( Images::icon("ab_menu") );
 
 	// Menu Video
 	videotrack_menu->menuAction()->setText( tr("&Track", "video") );
@@ -2053,11 +2057,18 @@ void BaseGui::createMenus() {
 
 	playMenu->addMenu(speed_menu);
 
+	// A-B submenu
+	ab_menu = new QMenu(this);
+	ab_menu->menuAction()->setObjectName("ab_menu");
+	ab_menu->addAction(setAMarkerAct);
+	ab_menu->addAction(setBMarkerAct);
+	ab_menu->addAction(clearABMarkersAct);
+	ab_menu->addSeparator();
+	ab_menu->addAction(repeatAct);
+
 	playMenu->addSeparator();
-	playMenu->addAction(setAMarkerAct);
-	playMenu->addAction(setBMarkerAct);
-	playMenu->addAction(clearABMarkersAct);
-	playMenu->addAction(repeatAct);
+	playMenu->addMenu(ab_menu);
+
 	playMenu->addSeparator();
 	playMenu->addAction(gotoAct);
 	playMenu->addSeparator();

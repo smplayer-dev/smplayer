@@ -603,6 +603,7 @@ protected:
 	QMenu * stereomode_menu;
 
 	QMenu * speed_menu;
+	QMenu * ab_menu; // A-B menu
 	QMenu * videofilter_menu;
 	QMenu * audiofilter_menu;
 	QMenu * logs_menu;
