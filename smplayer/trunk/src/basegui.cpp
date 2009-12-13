@@ -410,6 +410,18 @@ void BaseGui::createActions() {
 	connect( forward3Act, SIGNAL(triggered()),
              core, SLOT(fastforward()) );
 
+	setAMarkerAct = new MyAction( this, "set_a_marker" );
+	connect( setAMarkerAct, SIGNAL(triggered()),
+             core, SLOT(setAMarker()) );
+
+	setBMarkerAct = new MyAction( this, "set_b_marker" );
+	connect( setBMarkerAct, SIGNAL(triggered()),
+             core, SLOT(setBMarker()) );
+
+	clearABMarkersAct = new MyAction( this, "clear_ab_markers" );
+	connect( clearABMarkersAct, SIGNAL(triggered()),
+             core, SLOT(clearABMarkers()) );
+
 	repeatAct = new MyAction( this, "repeat" );
 	repeatAct->setCheckable( true );
 	connect( repeatAct, SIGNAL(toggled(bool)),
@@ -1367,6 +1379,10 @@ void BaseGui::retranslateStrings() {
 
 	setJumpTexts(); // Texts for rewind*Act and forward*Act
 
+	setAMarkerAct->change( Images::icon("a_marker"), tr("Set A marker") );
+	setBMarkerAct->change( Images::icon("b_marker"), tr("Set B marker") );
+	clearABMarkersAct->change( Images::icon("clear_markers"), tr("Clear A-B markers") );
+
 	repeatAct->change( Images::icon("repeat"), tr("&Repeat") );
 	gotoAct->change( Images::icon("jumpto"), tr("&Jump to...") );
 
@@ -2037,6 +2053,10 @@ void BaseGui::createMenus() {
 
 	playMenu->addMenu(speed_menu);
 
+	playMenu->addSeparator();
+	playMenu->addAction(setAMarkerAct);
+	playMenu->addAction(setBMarkerAct);
+	playMenu->addAction(clearABMarkersAct);
 	playMenu->addAction(repeatAct);
 	playMenu->addSeparator();
 	playMenu->addAction(gotoAct);

@@ -112,6 +112,14 @@ public slots:
 #endif
     void goToSec( double sec );
 
+	void setAMarker(); //!< Set A marker to current sec
+	void setAMarker(int sec);
+
+	void setBMarker(); //!< Set B marker to current sec
+	void setBMarker(int sec);
+
+	void clearABMarkers();
+
 	void toggleRepeat();
 	void toggleRepeat(bool b);
 
