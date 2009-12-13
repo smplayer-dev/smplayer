@@ -1,5 +1,34 @@
 [b]Version 0.6.9[/b]:
 
+(2009-12-13)
+ * Added the possibility to mark an A-B section. When the A-B section has been
+   selected only that section will be played. If the option Play->Repeat is 
+   enabled, the A-B section will be repeated.
+   A new submenu "A-B section" has been added to the "Play" menu, with the
+   following options:
+     - set A marker
+     - set B marker
+     - clear A-B markers
+     - repeat
+   This is exactly how it works: 
+    - the "set A marker" option allows to mark the beginning of the section. 
+      If the B marker has previously been set, the file will be restarted so 
+      the change can take effect.
+    - the "set B marker" option allows to mark the end of the section.
+      If the A marker has previously been set, the file will be restarted so 
+      the change can take effect.
+    - the "clear A-B markers" option deletes the A and B markers and restarts
+      the playback so the change can take effect. If the A and B markers 
+      weren't set, this option does nothing.
+    - if the "repeat" option is enabled, the A-B section will played back once
+      and again (If no A-B section is set, the whole file will be repeated). 
+      If the "repeat" option is not enabled, when the playback gets to the B 
+      marker, the file will be stopped. 
+
+   Notice: as a side effect, when an A-B section has been set, any action which
+   requires to restart mplayer, will start the playback at the A marker and not
+   at the point it was previously!
+
 (2009-11-26)
  * Added icons for the buttons in the find subtitles window.
 
