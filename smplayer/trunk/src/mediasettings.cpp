@@ -98,6 +98,8 @@ void MediaSettings::reset() {
 	flip = false;
 	mirror = false;
 
+	loop = false;
+
 	is264andHD = false;
 
 	forced_demuxer="";
@@ -226,6 +228,8 @@ void MediaSettings::list() {
 	qDebug("  flip: %d", flip);
 	qDebug("  mirror: %d", mirror);
 
+	qDebug("  loop: %d", loop);
+
 	qDebug("  forced_demuxer: '%s'", forced_demuxer.toUtf8().data());
 	qDebug("  forced_video_codec: '%s'", forced_video_codec.toUtf8().data());
 	qDebug("  forced_audio_codec: '%s'", forced_video_codec.toUtf8().data());
@@ -315,6 +319,8 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "rotate", rotate );
 	set->setValue( "flip", flip);
 	set->setValue( "mirror", mirror);
+
+	set->setValue( "loop", loop);
 
 	set->setValue( "forced_demuxer", forced_demuxer);
 	set->setValue( "forced_video_codec", forced_video_codec);
@@ -406,6 +412,8 @@ void MediaSettings::load(QSettings * set) {
 	rotate = set->value( "rotate", rotate).toInt();
 	flip = set->value( "flip", flip).toBool();
 	mirror = set->value( "mirror", mirror).toBool();
+
+	loop = set->value( "loop", loop).toBool();
 
 	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
 	forced_video_codec = set->value( "forced_video_codec", forced_video_codec).toString();

@@ -120,7 +120,6 @@ public:
 	double mc_value;
 
 	// Misc
-	bool loop; 	//!< Loop. If true repeat the file
 	int osd;
 	int osd_delay; //<! Delay in ms to show the OSD.
 
