@@ -1845,6 +1845,14 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	if (mdat.type != TYPE_TV) {
+		// Play A - B
+		if ((mset.A_marker > -1) && (mset.B_marker > mset.A_marker)) {
+			proc->addArgument("-ss");
+			proc->addArgument( QString::number( mset.A_marker ) );
+			proc->addArgument("-endpos");
+			proc->addArgument( QString::number( mset.B_marker - mset.A_marker ) );
+		}
+		else
 		// If seek < 5 it's better to allow the video to start from the beginning
 		if ((seek >= 5) && (!mset.loop)) {
 			proc->addArgument("-ss");
@@ -2293,6 +2301,46 @@ void Core::wheelDown() {
 	}
 }
 
+void Core::setAMarker() {
+	setAMarker((int)mset.current_sec);
+}
+
+void Core::setAMarker(int sec) {
+	qDebug("Core::setAMarker: %d", sec);
+
+	mset.A_marker = sec;
+	displayMessage( tr("\"A\" marker set to %1").arg(Helper::formatTime(sec)) );
+
+	if (mset.B_marker > mset.A_marker) {
+		restartPlay();
+	}
+}
+
+void Core::setBMarker() {
+	setBMarker((int)mset.current_sec);
+}
+
+void Core::setBMarker(int sec) {
+	qDebug("Core::setBMarker: %d", sec);
+
+	mset.B_marker = sec;
+	displayMessage( tr("\"B\" marker set to %1").arg(Helper::formatTime(sec)) );
+
+	if ((mset.A_marker > -1) && (mset.A_marker < mset.B_marker)) {
+		restartPlay();
+	}
+}
+
+void Core::clearABMarkers() {
+	qDebug("Core::clearABMarkers");
+
+	if ((mset.A_marker != -1) && (mset.B_marker != -1)) {
+		mset.A_marker = -1;
+		mset.B_marker = -1;
+		displayMessage( tr("A-B markers cleared") );
+		restartPlay();
+	}
+}
 
 void Core::toggleRepeat() {
 	qDebug("Core::toggleRepeat");

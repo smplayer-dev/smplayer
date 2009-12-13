@@ -337,6 +337,9 @@ protected:
 	MyAction * forward2Act;
 	MyAction * forward3Act;
 	MyAction * repeatAct;
+	MyAction * setAMarkerAct;
+	MyAction * setBMarkerAct;
+	MyAction * clearABMarkersAct;
 	MyAction * gotoAct;
 
 	// Menu Speed

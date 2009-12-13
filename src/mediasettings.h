@@ -123,6 +123,8 @@ public:
 	bool mirror; //!< Mirrors the image on the Y axis.
 
 	bool loop; //!< Loop. If true repeat the file
+	int A_marker;
+	int B_marker;
 
 	// This a property of the video and it should be
     // in mediadata, but we have to save it to preserve 

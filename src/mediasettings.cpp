@@ -99,6 +99,8 @@ void MediaSettings::reset() {
 	mirror = false;
 
 	loop = false;
+	A_marker = -1;
+	B_marker = -1;
 
 	is264andHD = false;
 
@@ -229,6 +231,8 @@ void MediaSettings::list() {
 	qDebug("  mirror: %d", mirror);
 
 	qDebug("  loop: %d", loop);
+	qDebug("  A_marker: %d", A_marker);
+	qDebug("  B_marker: %d", B_marker);
 
 	qDebug("  forced_demuxer: '%s'", forced_demuxer.toUtf8().data());
 	qDebug("  forced_video_codec: '%s'", forced_video_codec.toUtf8().data());
@@ -321,6 +325,8 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "mirror", mirror);
 
 	set->setValue( "loop", loop);
+	set->setValue( "A_marker", A_marker);
+	set->setValue( "B_marker", B_marker);
 
 	set->setValue( "forced_demuxer", forced_demuxer);
 	set->setValue( "forced_video_codec", forced_video_codec);
@@ -414,6 +420,8 @@ void MediaSettings::load(QSettings * set) {
 	mirror = set->value( "mirror", mirror).toBool();
 
 	loop = set->value( "loop", loop).toBool();
+	A_marker = set->value( "A_marker", A_marker).toInt();
+	B_marker = set->value( "B_marker", B_marker).toInt();
 
 	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
 	forced_video_codec = set->value( "forced_video_codec", forced_video_codec).toString();
