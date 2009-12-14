@@ -1790,6 +1790,9 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(showFrame(int)),
              this, SIGNAL(frameChanged(int)) );
 
+	connect( core, SIGNAL(ABMarkersChanged(int,int)),
+             this, SIGNAL(ABMarkersChanged(int,int)) );
+
 	connect( core, SIGNAL(showTime(double)),
              this, SLOT(gotCurrentTime(double)) );
 

@@ -253,6 +253,7 @@ protected slots:
 
 signals:
 	void frameChanged(int);
+	void ABMarkersChanged(int secs_a, int secs_b);
 	void timeChanged(QString time_ready_to_print);
 
 	void cursorNearTop(QPoint);
