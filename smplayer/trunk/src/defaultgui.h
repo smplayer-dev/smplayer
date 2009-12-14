@@ -79,6 +79,7 @@ protected slots:
 	virtual void updateWidgets();
 	virtual void displayTime(QString text);
 	virtual void displayFrame(int frame);
+	virtual void displayABSection(int secs_a, int secs_b);
 
 	virtual void showFloatingControl(QPoint p);
 	virtual void showFloatingMenu(QPoint p);
@@ -93,6 +94,7 @@ protected slots:
 protected:
 	QLabel * time_display;
 	QLabel * frame_display;
+	QLabel * ab_section_display;
 
 	QToolBar * controlwidget;
 	QToolBar * controlwidget_mini;

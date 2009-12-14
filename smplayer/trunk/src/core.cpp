@@ -1045,6 +1045,9 @@ void Core::finishRestart() {
 	// Toggle subtitle visibility
 	changeSubVisibility(pref->sub_visibility);
 
+	// A-B marker
+	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
+
 	// Initialize the OSD level
 	QTimer::singleShot(pref->osd_delay, this, SLOT(initializeOSD()));
 
@@ -2314,6 +2317,8 @@ void Core::setAMarker(int sec) {
 	if (mset.B_marker > mset.A_marker) {
 		restartPlay();
 	}
+
+	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
 }
 
 void Core::setBMarker() {
@@ -2329,6 +2334,8 @@ void Core::setBMarker(int sec) {
 	if ((mset.A_marker > -1) && (mset.A_marker < mset.B_marker)) {
 		restartPlay();
 	}
+
+	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
 }
 
 void Core::clearABMarkers() {
@@ -2340,6 +2347,8 @@ void Core::clearABMarkers() {
 		displayMessage( tr("A-B markers cleared") );
 		restartPlay();
 	}
+
+	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
 }
 
 void Core::toggleRepeat() {

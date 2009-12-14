@@ -54,6 +54,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              this, SLOT(displayTime(QString)) );
     connect( this, SIGNAL(frameChanged(int)),
              this, SLOT(displayFrame(int)) );
+	connect( this, SIGNAL(ABMarkersChanged(int,int)),
+             this, SLOT(displayABSection(int,int)) );
 
 	connect( this, SIGNAL(cursorNearBottom(QPoint)), 
              this, SLOT(showFloatingControl(QPoint)) );
@@ -353,6 +355,12 @@ void DefaultGui::createStatusBar() {
 	frame_display->setText("88888888");
 	frame_display->setMinimumSize(frame_display->sizeHint());
 
+	ab_section_display = new QLabel( statusBar() );
+	ab_section_display->setAlignment(Qt::AlignRight);
+	ab_section_display->setFrameShape(QFrame::NoFrame);
+//	ab_section_display->setText("A:0:00:00 B:0:00:00");
+//	ab_section_display->setMinimumSize(ab_section_display->sizeHint());
+
 	statusBar()->setAutoFillBackground(TRUE);
 
 	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
@@ -363,6 +371,8 @@ void DefaultGui::createStatusBar() {
 	ColorUtils::setForegroundColor( frame_display, QColor(255,255,255) );
 	statusBar()->setSizeGripEnabled(FALSE);
 
+	statusBar()->addPermanentWidget( ab_section_display );
+
     statusBar()->showMessage( tr("Welcome to SMPlayer") );
 	statusBar()->addPermanentWidget( frame_display, 0 );
 	frame_display->setText( "0" );
@@ -372,6 +382,7 @@ void DefaultGui::createStatusBar() {
 
 	time_display->show();
 	frame_display->hide();
+	ab_section_display->show();
 }
 
 void DefaultGui::retranslateStrings() {
@@ -400,6 +411,16 @@ void DefaultGui::displayFrame(int frame) {
 	if (frame_display->isVisible()) {
 		frame_display->setNum( frame );
 	}
+}
+
+void DefaultGui::displayABSection(int secs_a, int secs_b) {
+	QString a_marker;
+	if (secs_a > -1) a_marker = QString("A:%1").arg(Helper::formatTime(secs_a));
+
+	QString b_marker;
+	if (secs_b > -1) b_marker = QString("B:%1").arg(Helper::formatTime(secs_b));
+
+	ab_section_display->setText( a_marker + " " + b_marker );
 }
 
 void DefaultGui::updateWidgets() {
