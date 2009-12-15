@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -160,7 +161,7 @@
     <message>
         <location filename="../about.ui" line="32"/>
         <source>&amp;Info</source>
-        <translation>&amp;Інфо</translation>
+        <translation>&amp;Відомості</translation>
     </message>
     <message>
         <location filename="../about.ui" line="220"/>
@@ -200,7 +201,7 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>More info</source>
-        <translation>Більше інформації</translation>
+        <translation>Більше відомостей</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="199"/>
@@ -458,7 +459,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation>Інформація</translation>
+        <translation>Відомості</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
@@ -926,7 +927,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="3356"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Інформація</translation>
+        <translation>SMPlayer - Відомості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3359"/>
@@ -993,7 +994,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1481"/>
         <source>View &amp;info and properties...</source>
-        <translation>Дивитсь &amp;інфо та властивості...</translation>
+        <translation>Переглянути &amp;відомості та властивості...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1413"/>
@@ -1333,7 +1334,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4400"/>
         <source>See the log for more info.</source>
-        <translation>Дивіться журнал для детальної інформації.</translation>
+        <translation>Дивіться журнал для детальніших відомостей.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1538"/>
@@ -1681,22 +1682,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1383"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити мітку &amp;А</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1384"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити мітку &amp;Б</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1385"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Вилучити &amp;мітки А-Б</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>Ділянка &amp;А-Б</translation>
     </message>
 </context>
 <context>
@@ -1842,17 +1843,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2315"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2332"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2347"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>Мітки А-Б вилучені</translation>
     </message>
 </context>
 <context>
@@ -2033,7 +2034,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="33"/>
         <source>&amp;Information</source>
-        <translation>&amp;Інформація</translation>
+        <translation>&amp;Відомості</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="53"/>
@@ -2493,7 +2494,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="96"/>
         <source>Clip info</source>
-        <translation>Інформація про кліп</translation>
+        <translation>Відомості про кліп</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="103"/>
@@ -3362,7 +3363,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="267"/>
         <source>Modern Greek</source>
-        <translation>Грецька нова</translation>
+        <translation>Сучасна грецька</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="269"/>
@@ -3619,7 +3620,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3729,7 +3730,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4029,7 +4030,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlistpreferences.ui" line="39"/>
         <source>Automatically get &amp;info about files added</source>
-        <translation>Автоматично отримувати &amp;інформацію про додані файли</translation>
+        <translation>Автоматично отримувати &amp;відомості про додані файли</translation>
     </message>
     <message>
         <location filename="../playlistpreferences.ui" line="46"/>
@@ -4182,7 +4183,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Якщо увімкнено, журнал MPlayer буде збережений у вказаний файл кожного разу при початку відтворення нового файлу. Це призначене для зовнішніх програм, які таким чином можуть отримати інформацію про файл, що відтворюється.</translation>
+        <translation>Якщо увімкнено, журнал MPlayer буде збережений у вказаний файл кожного разу при початку відтворення нового файлу. Це призначене для зовнішніх програм, які таким чином можуть отримати відомості про файл, що відтворюється.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -4342,12 +4343,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="450"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Якщо увімкнено, SMPlayer зберігатиме повідомлення зневадження (ви можете переглянути журнал в &lt;b&gt;Налаштування -&gt; Дивитись журнали -&gt; SMPlayer&lt;/b&gt;). Ця інформація може бути корисною для розробників у випадку, коли ви знайдете помилку.</translation>
+        <translation>Якщо увімкнено, SMPlayer зберігатиме повідомлення зневадження (ви можете переглянути журнал в &lt;b&gt;Налаштування -&gt; Дивитись журнали -&gt; SMPlayer&lt;/b&gt;). Ці відомості можуть бути корисними для розробників у випадку, коли ви знайдете помилку.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Якщо увімкнено, SMPlayer буде зберігати повідомлення MPlayer (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись журнали-&gt;mplayer&lt;/b&gt;). У випадку проблем ці журнали можут містити важливу інформацію, так що радимо увімкнути.</translation>
+        <translation>Якщо увімкнено, SMPlayer буде зберігати повідомлення MPlayer (їх можна побачити у &lt;b&gt;Налаштування-&gt;Дивитись журнали-&gt;mplayer&lt;/b&gt;). У випадку проблем ці журнали можут містити важливі відомості, так що радимо увімкнути.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="476"/>
@@ -4971,7 +4972,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="138"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медіа з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати Вашу бажану мову. Це працює лише з медіа, які надають інформацію про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медіа з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати Вашу бажану мову. Це працює лише з медіа, які надають відомості про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1011"/>
@@ -5207,12 +5208,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="988"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Тут Ви можете вказати мову для звукових доріжок. При знаходженні декількох звукових доріжок SMPlayer буде намагатися використовувати вказану Вами мову.&lt;br&gt;Це працює тільки для форматів, які надають інформацію про мови для звукових доріжок, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Тут Ви можете вказати мову для звукових доріжок. При знаходженні декількох звукових доріжок SMPlayer буде намагатися використовувати вказану Вами мову.&lt;br&gt;Це працює тільки для форматів, які надають відомості про мови для звукових доріжок, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="998"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Тут Ви можете вказати мову для звукових субтитрів. При знаходженні субтитрів для SMPlayer буде намагатись використати бажану для вас мову.&lt;br&gt;Це працює тільки для форматів, які надають інформацію про мови для субтитрів, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; призначить звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Тут Ви можете вказати мову для звукових субтитрів. При знаходженні субтитрів для SMPlayer буде намагатись використати бажану для вас мову.&lt;br&gt;Це працює тільки для форматів, які надають відомості про мови для субтитрів, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; призначить звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="569"/>
@@ -5267,7 +5268,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="804"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation>Останній спосіб може бути швидшим, якщо є інформація для багатьох файлів.</translation>
+        <translation>Останній спосіб може бути швидшим, якщо є відомості для багатьох файлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="113"/>
@@ -7874,7 +7875,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="118"/>
         <source>Information</source>
-        <translation>Інформація</translation>
+        <translation>Відомості</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="120"/>
@@ -7982,7 +7983,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation>Процес mplayer не запустився під час спроби отримання інформації про відео</translation>
+        <translation>Процес mplayer не запустився під час спроби отримання відомостей про відео</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="200"/>
@@ -8002,7 +8003,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="368"/>
         <source>No info</source>
-        <translation>Немає інформації</translation>
+        <translation>Немає відомостей</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
