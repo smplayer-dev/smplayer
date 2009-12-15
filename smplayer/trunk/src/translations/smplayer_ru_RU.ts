@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -1681,22 +1682,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1383"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Установить маркер &amp;A</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1384"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Установить маркер &amp;B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1385"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Очи&amp;стить маркеры A-B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>Секция &amp;A-B</translation>
     </message>
 </context>
 <context>
@@ -1832,27 +1833,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1164"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Скриншот не получен, каталог не настроен</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1177"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Скриншоты не получены, каталог не настроен</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2315"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Маркер &quot;A&quot; установлен в %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2332"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Маркер &quot;B&quot; установлен в %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2347"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>Маркеры A-B очищены</translation>
     </message>
 </context>
 <context>
@@ -3619,7 +3620,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3729,7 +3730,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -3742,7 +3743,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="282"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Новогреческий язык Windows</translation>
     </message>
 </context>
 <context>
@@ -4417,17 +4418,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранять отчёт SMPlayer в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, отчёт SMPlayer будет записан в %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="631"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Сохранять отчёт SMPlayer в файл</translation>
     </message>
 </context>
 <context>
