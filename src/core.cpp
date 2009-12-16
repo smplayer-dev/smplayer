@@ -2315,7 +2315,7 @@ void Core::setAMarker(int sec) {
 	displayMessage( tr("\"A\" marker set to %1").arg(Helper::formatTime(sec)) );
 
 	if (mset.B_marker > mset.A_marker) {
-		restartPlay();
+		if (proc->isRunning()) restartPlay();
 	}
 
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
@@ -2332,7 +2332,7 @@ void Core::setBMarker(int sec) {
 	displayMessage( tr("\"B\" marker set to %1").arg(Helper::formatTime(sec)) );
 
 	if ((mset.A_marker > -1) && (mset.A_marker < mset.B_marker)) {
-		restartPlay();
+		if (proc->isRunning()) restartPlay();
 	}
 
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
@@ -2345,7 +2345,7 @@ void Core::clearABMarkers() {
 		mset.A_marker = -1;
 		mset.B_marker = -1;
 		displayMessage( tr("A-B markers cleared") );
-		restartPlay();
+		if (proc->isRunning()) restartPlay();
 	}
 
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);

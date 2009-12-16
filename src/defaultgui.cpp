@@ -369,6 +369,8 @@ void DefaultGui::createStatusBar() {
 	ColorUtils::setForegroundColor( time_display, QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( frame_display, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( frame_display, QColor(255,255,255) );
+	ColorUtils::setBackgroundColor( ab_section_display, QColor(0,0,0) );
+	ColorUtils::setForegroundColor( ab_section_display, QColor(255,255,255) );
 	statusBar()->setSizeGripEnabled(FALSE);
 
 	statusBar()->addPermanentWidget( ab_section_display );
@@ -414,13 +416,17 @@ void DefaultGui::displayFrame(int frame) {
 }
 
 void DefaultGui::displayABSection(int secs_a, int secs_b) {
-	QString a_marker;
-	if (secs_a > -1) a_marker = QString("A:%1").arg(Helper::formatTime(secs_a));
+	QString s;
+	if (secs_a > -1) s = tr("A:%1").arg(Helper::formatTime(secs_a));
 
-	QString b_marker;
-	if (secs_b > -1) b_marker = QString("B:%1").arg(Helper::formatTime(secs_b));
+	if (secs_b > -1) {
+		if (!s.isEmpty()) s += " ";
+		s += tr("B:%1").arg(Helper::formatTime(secs_b));
+	}
 
-	ab_section_display->setText( a_marker + " " + b_marker );
+	ab_section_display->setText( s );
+
+	ab_section_display->setShown( !s.isEmpty() );
 }
 
 void DefaultGui::updateWidgets() {
