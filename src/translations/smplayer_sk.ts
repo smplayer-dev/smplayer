@@ -1858,34 +1858,44 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="376"/>
+        <location filename="../defaultgui.cpp" line="378"/>
         <source>Welcome to SMPlayer</source>
         <translation>Vitajte v programe SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="400"/>
+        <location filename="../defaultgui.cpp" line="402"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="401"/>
+        <location filename="../defaultgui.cpp" line="403"/>
         <source>Subtitle</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="394"/>
+        <location filename="../defaultgui.cpp" line="396"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hlavný panel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="397"/>
+        <location filename="../defaultgui.cpp" line="399"/>
         <source>&amp;Language toolbar</source>
         <translation>Panel &amp;jazykov</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="391"/>
+        <location filename="../defaultgui.cpp" line="393"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Panely</translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="420"/>
+        <source>A:%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="424"/>
+        <source>B:%1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

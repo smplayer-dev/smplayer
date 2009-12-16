@@ -1858,34 +1858,44 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="376"/>
+        <location filename="../defaultgui.cpp" line="378"/>
         <source>Welcome to SMPlayer</source>
         <translation>Bienvenue dans SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="400"/>
+        <location filename="../defaultgui.cpp" line="402"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="401"/>
+        <location filename="../defaultgui.cpp" line="403"/>
         <source>Subtitle</source>
         <translation>Sous-titres</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="394"/>
+        <location filename="../defaultgui.cpp" line="396"/>
         <source>&amp;Main toolbar</source>
         <translation>Barre d&apos;outils pri&amp;ncipale</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="397"/>
+        <location filename="../defaultgui.cpp" line="399"/>
         <source>&amp;Language toolbar</source>
         <translation>Barre de &amp;langues</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="391"/>
+        <location filename="../defaultgui.cpp" line="393"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Barre d&apos;outils</translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="420"/>
+        <source>A:%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="424"/>
+        <source>B:%1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

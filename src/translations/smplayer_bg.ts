@@ -1853,34 +1853,44 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="376"/>
+        <location filename="../defaultgui.cpp" line="378"/>
         <source>Welcome to SMPlayer</source>
         <translation>Добре дошли в SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="394"/>
+        <location filename="../defaultgui.cpp" line="396"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Главна лента</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="397"/>
+        <location filename="../defaultgui.cpp" line="399"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Езикова лента</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="391"/>
+        <location filename="../defaultgui.cpp" line="393"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Ленти</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="400"/>
+        <location filename="../defaultgui.cpp" line="402"/>
         <source>Audio</source>
         <translation>Аудио</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="401"/>
+        <location filename="../defaultgui.cpp" line="403"/>
         <source>Subtitle</source>
         <translation>Субтитри</translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="420"/>
+        <source>A:%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="424"/>
+        <source>B:%1</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
