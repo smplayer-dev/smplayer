@@ -2341,7 +2341,7 @@ void Core::setBMarker(int sec) {
 void Core::clearABMarkers() {
 	qDebug("Core::clearABMarkers");
 
-	if ((mset.A_marker != -1) && (mset.B_marker != -1)) {
+	if ((mset.A_marker != -1) || (mset.B_marker != -1)) {
 		mset.A_marker = -1;
 		mset.B_marker = -1;
 		displayMessage( tr("A-B markers cleared") );
