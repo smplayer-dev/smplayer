@@ -23,8 +23,10 @@
   !define SMPLAYER_PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.0"
 !endif
 
+  !define SMPLAYER_APP_PATHS_KEY "Software\Microsoft\Windows\CurrentVersion\App Paths\smplayer.exe"
   !define SMPLAYER_DEFPROGRAMS_KEY "Software\Clients\Media\SMPlayer\Capabilities"
   !define SMPLAYER_REG_KEY "Software\SMPlayer"
+
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
@@ -438,6 +440,9 @@ Section -Post
   WriteRegStr HKLM "${SMPLAYER_REG_KEY}" "Path" "$INSTDIR"
   WriteRegStr HKLM "${SMPLAYER_REG_KEY}" "Version" "${SMPLAYER_VERSION}"
 
+  ;Allows user to use 'start smplayer.exe'
+  WriteRegStr HKLM "${SMPLAYER_APP_PATHS_KEY}" "" "$INSTDIR\smplayer.exe"
+
   ;Registry entries needed for Default Programs in Vista & later
   ${If} ${AtLeastWinVista}
     Call DefaultProgramsReg
@@ -844,6 +849,7 @@ Function ${un}UninstallSMPlayer
   SetDetailsPrint listonly
 
   DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
+  DeleteRegKey HKLM "${SMPLAYER_APP_PATHS_KEY}"
   DeleteRegKey HKLM "${SMPLAYER_UNINST_KEY}"
   DeleteRegKey HKCR "MPlayerFileVideo"
   DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
