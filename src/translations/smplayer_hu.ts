@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="hu_HU">
+<!DOCTYPE TS>
+<TS version="2.0" language="hu_HU">
 <context>
     <name>About</name>
     <message>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Litván</translation>
+        <translation>Litván</translation>
     </message>
 </context>
 <context>
@@ -1676,27 +1677,27 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlnév mutatása az OSD-n</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1383"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;A jelölő rögzítése</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1384"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;B jelölő rögzítése</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1385"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B &amp;jelölők törlése</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B &amp;rész</translation>
     </message>
 </context>
 <context>
@@ -1832,27 +1833,27 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../core.cpp" line="1164"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Pillanatkép NEM lett mentve, célkönyvtár nincs beállítva</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1177"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Pillanatképek NEM lettek mentve, célkönyvtár nincs beállítva</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2315"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;A&quot; jelölő helyzete: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2332"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;B&quot; jelölő helyzete: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2347"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B jelölők törölve</translation>
     </message>
 </context>
 <context>
@@ -1890,12 +1891,12 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="420"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="424"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -3625,7 +3626,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Marshall-szigeteki</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmal</translation>
@@ -3735,7 +3736,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -3748,7 +3749,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="282"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows modern görög</translation>
     </message>
 </context>
 <context>
@@ -4423,17 +4424,17 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer napló mentése fájlba</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha ez az opció be van jelölve, az SMPlayer napló el lesz mentve ide: %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="631"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer napló mentése &amp;fájlba</translation>
     </message>
 </context>
 <context>
@@ -5463,12 +5464,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardveres AC3 átengedést használ.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Megjegyzés:&lt;/b&gt; ha ez az opció engedélyezve van, egyik audioszűrő sem lesz használva.</translation>
     </message>
 </context>
 <context>
@@ -5916,17 +5917,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Egérgörgő megfordítása tekerésnél</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jelölje be az ellenkező irányba tekeréshez.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Egérgörgő megfordítása &amp;tekerésnél</translation>
     </message>
 </context>
 <context>
