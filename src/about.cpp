@@ -61,7 +61,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         link("http://smplayer.berlios.de") + "<br>" + 
         link("http://smplayer.sf.net") + 
         "<br><br>" +
-		tr("Get help in our forum:") +"<br>" + link("http://smplayer.berlios.de/forums") +
+		tr("Get help in our forum:") +"<br>" + link("http://smplayer.berlios.de/forum") +
         "<br><br>" +
 		tr("You can support SMPlayer by making a donation.") +" "+
 		link("https://sourceforge.net/donate/index.php?group_id=185512", tr("More info"))
