@@ -160,7 +160,7 @@
   !insertmacro MUI_UNPAGE_FINISH
 
 ;--------------------------------
-; Languages
+;Languages
 
   !insertmacro MUI_LANGUAGE "Basque"
   !insertmacro MUI_LANGUAGE "Catalan"
@@ -225,15 +225,24 @@
 ;Installer Sections
 
 ;--------------------------------
-; Main SMPlayer files
+;Main SMPlayer files
 Section SMPlayer SMPlayer
 
   SectionIn 1 2 3 RO
   SetOutPath "$INSTDIR"
   File "smplayer-build\*"
-  File /r "smplayer-build\docs"
-  File /r "smplayer-build\imageformats"
-  File /r "smplayer-build\shortcuts"
+
+  ;SMPlayer docs
+  SetOutPath "$INSTDIR\docs"
+  File /r "smplayer-build\docs\*.*"
+
+  ;Qt imageformats
+  SetOutPath "$INSTDIR\imageformats"
+  File /r "smplayer-build\imageformats\*.*"
+
+  ;SMPlayer key shortcuts
+  SetOutPath "$INSTDIR\shortcuts"
+  File /r "smplayer-build\shortcuts\*.*"
 
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
@@ -253,7 +262,7 @@ Section SMPlayer SMPlayer
 SectionEnd
 
 ;--------------------------------
-; Desktop shortcut
+;Desktop shortcut
 ${MementoSection} "Desktop Shortcut" DesktopIcon
   SectionIn 1 3
 
@@ -285,8 +294,8 @@ SectionGroup /e "MPlayer Components"
   Section MPlayer MPlayer
     SectionIn 1 2 3 RO
 
-    SetOutPath "$INSTDIR"
-    File /r "smplayer-build\mplayer"
+    SetOutPath "$INSTDIR\mplayer"
+    File /r "smplayer-build\mplayer\*.*"
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
@@ -414,8 +423,8 @@ SectionGroupEnd
 ${MementoSection} "Icon Themes" Themes
 
   SectionIn 1 3
-  SetOutPath "$INSTDIR"
-  File /r "smplayer-build\themes"
+  SetOutPath "$INSTDIR\themes"
+  File /r "smplayer-build\themes\*.*"
 
 ${MementoSectionEnd}
 
@@ -424,13 +433,13 @@ ${MementoSectionEnd}
 ${MementoSection} Translations Translations
 
   SectionIn 1 3
-  SetOutPath "$INSTDIR"
-  File /r "smplayer-build\translations"
+  SetOutPath "$INSTDIR\translations"
+  File /r "smplayer-build\translations\*.*"
 
 ${MementoSectionEnd}
 
 ;--------------------------------
-; Install/Uninstall information
+;Install/Uninstall information
 Section -Post
 
   ;Uninstall file
