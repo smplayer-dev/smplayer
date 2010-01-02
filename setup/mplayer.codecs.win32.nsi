@@ -21,7 +21,7 @@
 ;General
 
   ;Name and file
-  Name "SMPlayer Extra Codecs ${PRODUCT_VERSION}"
+  Name "MPlayer Binary Codecs ${PRODUCT_VERSION}"
   OutFile "smplayer_codecs_${PRODUCT_VERSION}.exe"
 
   ;Show details
@@ -35,6 +35,9 @@
 
 ;--------------------------------
 ;Variables
+
+  Var IS_ADMIN
+  Var USERNAME
 
 ;--------------------------------
 ;Interface Settings
@@ -63,6 +66,12 @@
 ;--------------------------------
 ;Reserve Files
 
+  ;These files should be inserted before other files in the data block
+  ;Keep these lines before any File command
+  ;Only for solid compression (by default, solid compression is enabled for BZIP2 and LZMA)
+
+  ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
+
 ;------------------------------------------------------------------------------------------------
 ;Installer Sections
 
@@ -84,6 +93,15 @@ SectionEnd
 
 Function .onInit
 
+  /* Privileges Check */
+  Call CheckUserRights
+
+  ;Check for admin (mimic old Inno Setup behavior)
+  ${If} $IS_ADMIN == 0
+    MessageBox MB_OK|MB_ICONSTOP "You must be logged in as an administrator when installing this program."
+    Abort
+  ${EndIf}
+
   ClearErrors
   ReadRegStr $0 HKLM Software\SMPlayer "Path"
   IfErrors 0 +2
@@ -96,6 +114,30 @@ Function .onVerifyInstDir
   IfFileExists $INSTDIR\smplayer.exe PathGood
     Abort ; if $INSTDIR is not a smplayer directory, don't let us install there
   PathGood:
+
+FunctionEnd
+
+Function CheckUserRights
+
+  ClearErrors
+  UserInfo::GetName
+  ${If} ${Errors}
+    StrCpy $IS_ADMIN 1
+    Return
+  ${EndIf}
+
+  Pop $USERNAME
+  UserInfo::GetAccountType
+  Pop $R0
+  ${Switch} $R0
+    ${Case} "Admin"
+    ${Case} "Power"
+      StrCpy $IS_ADMIN 1
+      ${Break}
+    ${Default}
+      StrCpy $IS_ADMIN 0
+      ${Break}
+  ${EndSwitch}
 
 FunctionEnd
 
