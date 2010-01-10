@@ -255,7 +255,7 @@ QMap<QString,QString> Languages::translations() {
 QMap<QString,QString> Languages::encodings() {
 	QMap<QString,QString> l;
 
-	l["Unicode"] = tr("Unicode");
+	l["UTF-16"] = tr("Unicode");
 	l["UTF-8"] = tr("UTF-8");
 	l["ISO-8859-1"] = tr("Western European Languages");
 	l["ISO-8859-15"] = tr("Western European Languages with Euro");
