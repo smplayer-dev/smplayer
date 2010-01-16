@@ -475,7 +475,7 @@ void Preferences::save() {
 
 	set->setValue("mplayer_bin", mplayer_bin);
 	set->setValue("driver/vo", vo);
-	set->setValue("driver/ao", ao);
+	set->setValue("driver/audio_output", ao);
 
 	set->setValue("use_screenshot", use_screenshot);
 	set->setValue("screenshot_directory", screenshot_directory);
@@ -885,7 +885,7 @@ void Preferences::load() {
 
 	mplayer_bin = set->value("mplayer_bin", mplayer_bin).toString();
 	vo = set->value("driver/vo", vo).toString();
-	ao = set->value("driver/ao", ao).toString();
+	ao = set->value("driver/audio_output", ao).toString();
 
 	use_screenshot = set->value("use_screenshot", use_screenshot).toBool();
 	screenshot_directory = set->value("screenshot_directory", screenshot_directory).toString();
