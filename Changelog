@@ -1,5 +1,13 @@
 [b]Version 0.6.9[/b]:
 
+(2010-01-15)
+ * (Linux) Use pulse as default audio output instead of alsa, as alsa is
+   causing problems (at least) in Ubuntu 9.10 when seeking on a video (image
+   freezes).
+
+(2010-01-10)
+ * Fix: the "unicode" encoding for subtitles works now on Windows.
+
 (2009-12-13)
  * Added the possibility to mark an A-B section. When the A-B section has been
    selected only that section will be played. If the option Play->Repeat is 
