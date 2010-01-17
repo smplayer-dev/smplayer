@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="pt_PT">
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_PT">
 <context>
     <name>About</name>
     <message>
@@ -1388,12 +1389,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="basegui.cpp" line="1398"/>
         <source>Speed -&amp;1%</source>
-        <translation>Velocidade -&amp;4%</translation>
+        <translation>Velocidade -&amp;1%</translation>
     </message>
     <message>
         <location filename="basegui.cpp" line="1399"/>
         <source>S&amp;peed +1%</source>
-        <translation>Velocidade -&amp;4%</translation>
+        <translation>Velocidade -&amp;1%</translation>
     </message>
     <message>
         <location filename="basegui.cpp" line="1621"/>
@@ -3628,7 +3629,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3738,7 +3739,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
