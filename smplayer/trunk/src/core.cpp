@@ -1439,12 +1439,6 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( "-ao");
 		proc->addArgument( pref->ao );
 	}
-#ifndef Q_OS_WIN
-	else {
-		proc->addArgument( "-ao");
-		proc->addArgument( "pulse," );
-	}
-#endif
 
 #ifndef Q_OS_WIN
 	if (pref->vo.startsWith("x11")) {

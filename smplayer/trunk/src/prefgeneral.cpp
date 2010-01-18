@@ -161,9 +161,6 @@ void PrefGeneral::setData(Preferences * pref) {
 	setVO( vo );
 
 	QString ao = pref->ao;
-#ifndef Q_OS_WIN
-	if (ao.isEmpty()) ao = "pulse,";
-#endif
 	setAO( ao );
 
 	setRememberSettings( !pref->dont_remember_media_settings );
