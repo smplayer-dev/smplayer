@@ -426,10 +426,12 @@ QString PrefGeneral::VO() {
 	QString vo = vo_combo->itemData(vo_combo->currentIndex()).toString();
 	if (vo == "user_defined") {
 		vo = vo_user_defined_edit->text();
+		/*
 		if (vo.isEmpty()) {
 			vo = vo_combo->itemData(0).toString();
 			qDebug("PrefGeneral::VO: user defined vo is empty, using %s", vo.toUtf8().constData());
 		}
+		*/
 	}
 	return vo;
 }
@@ -438,10 +440,12 @@ QString PrefGeneral::AO() {
 	QString ao = ao_combo->itemData(ao_combo->currentIndex()).toString();
 	if (ao == "user_defined") {
 		ao = ao_user_defined_edit->text();
+		/*
 		if (ao.isEmpty()) {
 			ao = ao_combo->itemData(0).toString();
 			qDebug("PrefGeneral::AO: user defined ao is empty, using %s", ao.toUtf8().constData());
 		}
+		*/
 	}
 	return ao;
 }
