@@ -110,6 +110,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	ignore_show_hide_events = false;
 
 	arg_close_on_finish = -1;
+	arg_start_in_fullscreen = -1;
 
 	setWindowTitle( "SMPlayer" );
 
@@ -3960,8 +3961,12 @@ void BaseGui::wheelEvent( QWheelEvent * e ) {
 
 // Called when a video has started to play
 void BaseGui::enterFullscreenOnPlay() {
-	if ( (pref->start_in_fullscreen) && (!pref->fullscreen) ) {
-		toggleFullscreen(TRUE);
+	qDebug("BaseGui::enterFullscreenOnPlay: arg_start_in_fullscreen: %d, pref->start_in_fullscreen: %d", arg_start_in_fullscreen, pref->start_in_fullscreen);
+
+	if (arg_start_in_fullscreen != 0) {
+		if ( (arg_start_in_fullscreen == 1) || (pref->start_in_fullscreen) ) {
+			if (!pref->fullscreen) toggleFullscreen(TRUE);
+		}
 	}
 }
 

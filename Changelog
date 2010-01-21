@@ -3,6 +3,8 @@
 (2010-01-20)
  * Now the command line options -close-at-end and -no-close-at-end don't
    modify the preference's option "close when finished playback".
+ * Now the command line options -fullscreen and -no-fullscreen don't
+   modify the preference's option "start videos in fullscreen".
 
 (2010-01-15)
  * (Linux) Use pulse as default audio output instead of alsa, as alsa is

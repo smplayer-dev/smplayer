@@ -61,6 +61,7 @@ private:
 
 	// Options to pass to gui
 	int close_at_end; // -1 = not set, 1 = true, 0 false
+	int start_in_fullscreen; // -1 = not set, 1 = true, 0 false
 };
 
 #endif
