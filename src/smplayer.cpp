@@ -49,6 +49,8 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	main_window = 0;
 	gui_to_use = "DefaultGui";
 
+	close_at_end = -1; // Not set
+
 	move_gui = false;
 	resize_gui = false;
 
@@ -92,6 +94,8 @@ BaseGui * SMPlayer::gui() {
 			qDebug("SMPlayer::gui: resizing main window to %dx%d", gui_size.width(), gui_size.height());
 			main_window->resize(gui_size);
 		}
+
+		main_window->setForceCloseOnFinish(close_at_end);
 	}
 
 	return main_window;
@@ -105,7 +109,6 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 
 
     QString action; // Action to be passed to running instance
-	int close_at_end = -1; // -1 = not set, 1 = true, 0 false
 	int start_in_fullscreen = -1;
 	bool show_help = false;
 
@@ -312,10 +315,6 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		QFont f;
 		f.fromString(pref->default_font);
 		qApp->setFont(f);
-	}
-
-	if (close_at_end != -1) {
-		pref->close_on_finish = close_at_end;
 	}
 
 	if (start_in_fullscreen != -1) {
