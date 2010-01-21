@@ -140,6 +140,10 @@ public slots:
 	void setForceCloseOnFinish(int n) { arg_close_on_finish = n; };
 	int forceCloseOnFinish() { return arg_close_on_finish; };
 
+	void setForceStartInFullscreen(int n) { arg_start_in_fullscreen = n; };
+	int forceStartInFullscreen() { return arg_start_in_fullscreen; };
+
+
 protected slots:
 	virtual void closeWindow();
 
@@ -647,6 +651,7 @@ protected:
 
 	// Force settings from command line
 	int arg_close_on_finish; // -1 = not set, 1 = true, 0 = false
+	int arg_start_in_fullscreen; // -1 = not set, 1 = true, 0 = false
 
 private:
 	QString default_style;
