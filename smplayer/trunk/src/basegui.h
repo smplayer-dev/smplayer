@@ -137,6 +137,9 @@ public slots:
 	virtual void toggleFrameCounter();
 	virtual void toggleFrameCounter(bool);
 
+	void setForceCloseOnFinish(int n) { arg_close_on_finish = n; };
+	int forceCloseOnFinish() { return arg_close_on_finish; };
+
 protected slots:
 	virtual void closeWindow();
 
@@ -641,6 +644,9 @@ protected:
 	QStringList actions_list;
 
 	QString pending_actions_to_run;
+
+	// Force settings from command line
+	int arg_close_on_finish; // -1 = not set, 1 = true, 0 = false
 
 private:
 	QString default_style;

@@ -109,6 +109,8 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #endif
 	ignore_show_hide_events = false;
 
+	arg_close_on_finish = -1;
+
 	setWindowTitle( "SMPlayer" );
 
 	// Not created objects
@@ -3974,7 +3976,11 @@ void BaseGui::playlistHasFinished() {
 	qDebug("BaseGui::playlistHasFinished");
 	exitFullscreenOnStop();
 
-	if (pref->close_on_finish) exitAct->trigger();
+	qDebug("BaseGui::playlistHasFinished: arg_close_on_finish: %d, pref->close_on_finish: %d", arg_close_on_finish, pref->close_on_finish);
+
+	if (arg_close_on_finish != 0) {
+		if ((arg_close_on_finish == 1) || (pref->close_on_finish)) exitAct->trigger();
+	}
 }
 
 void BaseGui::displayState(Core::State state) {
