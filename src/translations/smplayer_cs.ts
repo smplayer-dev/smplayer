@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="cs">
+<!DOCTYPE TS>
+<TS version="2.0" language="cs">
 <context>
     <name>About</name>
     <message>
@@ -1681,22 +1682,22 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1383"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit značku &amp;A</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1384"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavit značku &amp;B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1385"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Smazat značky A-B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;A-B sekce</translation>
     </message>
 </context>
 <context>
@@ -1842,17 +1843,17 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="2315"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Značka &quot;A&quot; je na %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2332"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Značka &quot;B&quot; je na %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2347"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B značky smazány</translation>
     </message>
 </context>
 <context>
@@ -1890,12 +1891,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="420"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>A:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="424"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>B:%1</translation>
     </message>
 </context>
 <context>
@@ -3629,7 +3630,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Marshallese</source>
         <translation>Maršálština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3739,7 +3740,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Venda</source>
         <translation>Luvendština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
