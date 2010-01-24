@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="lt_LT">
+<!DOCTYPE TS>
+<TS version="2.0" language="lt_LT">
 <context>
     <name>About</name>
     <message>
@@ -45,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>Simplified-Chinese</source>
-        <translation>Kinų supaprastinta</translation>
+        <translation>Supaprastinta kinų</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -295,7 +296,7 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Lietuvių</translation>
+        <translation>Lietuvių</translation>
     </message>
 </context>
 <context>
@@ -1631,27 +1632,27 @@ Nustatymo diaogas bus parodytas - galima tai padaryti.</translation>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodyti failo vardą OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1383"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Nustatyti &amp;A žymę</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1384"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Nustatyti &amp;B žymę</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1385"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;švalyti A-B žymes</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;A-B sekcija</translation>
     </message>
 </context>
 <context>
@@ -1787,27 +1788,27 @@ Nustatymo diaogas bus parodytas - galima tai padaryti.</translation>
     <message>
         <location filename="../core.cpp" line="1164"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Momentinis vaizdas NEpadarytas, neparinktas katalogas</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1177"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Momentiniai vaizdai NEpadaryti, neparinktas katalogas</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2315"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;A&quot; žymė nustatyta %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2332"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;B&quot; žymė nustatyta %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2347"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B žymės išvalytos</translation>
     </message>
 </context>
 <context>
@@ -1845,12 +1846,12 @@ Nustatymo diaogas bus parodytas - galima tai padaryti.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="420"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>A:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="424"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>B:%1</translation>
     </message>
 </context>
 <context>
@@ -3272,7 +3273,7 @@ Patiktinti priėjimo prie katalogo teises.</translation>
     <message>
         <location filename="../languages.cpp" line="249"/>
         <source>Simplified-Chinese</source>
-        <translation>Kinų supaprastinta</translation>
+        <translation>Supaprastinta kinų</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="250"/>
@@ -3579,7 +3580,7 @@ Patiktinti priėjimo prie katalogo teises.</translation>
         <source>Marshallese</source>
         <translation>Maršaliečių</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Norvegų bokmål</translation>
@@ -3689,7 +3690,7 @@ Patiktinti priėjimo prie katalogo teises.</translation>
         <source>Venda</source>
         <translation>Vendų</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapiukas</translation>
@@ -3702,7 +3703,7 @@ Patiktinti priėjimo prie katalogo teises.</translation>
     <message>
         <location filename="../languages.cpp" line="282"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows moderni graikų</translation>
     </message>
 </context>
 <context>
@@ -4377,17 +4378,17 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Išsaugoti SMPlayer&apos;io ataskaitą į failą</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Jei pažymėta, SMPlayer&apos;io ataskaita bus išsaugota kaip %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="631"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Iš&amp;saugoti SMPlayer&apos;io ataskaitą į failą</translation>
     </message>
 </context>
 <context>
@@ -4822,11 +4823,6 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
         <location filename="../prefgeneral.cpp" line="966"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Nustato maksimalų pagarsinimą procentais (pirminė reikšmė 110). Reikšmė 200 padidins dabartinį garsą dvigubai. Esant žemesnėms už 100 reikšmėms, pradinis garso lygis (100%) bus didesnis už maksimumą, t.y. OSD rodys neteisingą informaciją.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="932"/>
-        <source>Uses hardware AC3 passthrough</source>
-        <translation type="obsolete">Naudoti aparatinį AC3</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="843"/>
@@ -5342,12 +5338,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naudoti aparatinį AC3.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Pastaba:&lt;/b&gt; Jei pažymėta,joks audio filtras nebus naudojamas.</translation>
     </message>
 </context>
 <context>
@@ -5790,17 +5786,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Priešingas pelės ratuko veikimas</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pažymėkite tam, kad sukti į preišingą pusę.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Pri&amp;ešingas pelės ratuko veikimas</translation>
     </message>
 </context>
 <context>
@@ -6652,12 +6648,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="665"/>
         <source>Top</source>
-        <translation>Iš viršaus</translation>
+        <translation>Viršuje</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Bottom</source>
-        <translation>Iš apačios</translation>
+        <translation>Apačioje</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="804"/>
@@ -7061,7 +7057,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation>Iš apačios</translation>
+        <translation>Apačioje</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
@@ -7073,7 +7069,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation>Iš viršaus</translation>
+        <translation>Viršuje</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
