@@ -52,6 +52,13 @@
 
 #define SEEKBAR_RESOLUTION 1000
 
+#ifdef SEEKBAR_RESOLUTION
+// RELATIVE_SEEK
+// if RELATIVE_SEEK is defined, seeking will be done using a
+// percentage (with fractions) instead of time
+#define RELATIVE_SEEK 1
+#endif
+
 
 // SMART_DVD_CHAPTERS
 // if set to 1, the slave command "chapter" will use if not using a cache,
