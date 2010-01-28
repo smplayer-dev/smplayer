@@ -107,6 +107,7 @@ public slots:
 
 #ifdef SEEKBAR_RESOLUTION
     void goToPosition( int value );
+    void goToPos( double perc );
 #else
     void goToPos( int perc );
 #endif

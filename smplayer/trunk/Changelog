@@ -1,5 +1,11 @@
 [b]Version 0.6.9[/b]:
 
+(2010-01-28)
+ * (Experimental) Now the slider seeks again by percentage instead of time, but
+   this time the percentage uses fractions so it should be as accurate as
+   before, and makes seeking work better when the length reported by mplayer is
+   wrong.
+
 (2010-01-20)
  * Now the command line options -close-at-end and -no-close-at-end don't
    modify the preference's option "close when finished playback".
