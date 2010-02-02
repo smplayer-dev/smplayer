@@ -119,6 +119,7 @@ protected:
 	FloatingWidget * floating_control;
 	TimeLabelAction * time_label_action;
 
+	MyAction * viewFrameCounterAct;
 	MyAction * viewVideoInfoAct;
 
 	QMenu * toolbar_menu;

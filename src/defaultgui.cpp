@@ -130,6 +130,10 @@ void DefaultGui::createActions() {
 	connect( viewVideoInfoAct, SIGNAL(toggled(bool)),
              video_info_display, SLOT(setVisible(bool)) );
 
+	viewFrameCounterAct = new MyAction( this, "toggle_frame_counter" );
+	viewFrameCounterAct->setCheckable( true );
+	connect( viewFrameCounterAct, SIGNAL(toggled(bool)),
+             frame_display, SLOT(setVisible(bool)) );
 }
 
 #if AUTODISABLE_ACTIONS
@@ -159,6 +163,7 @@ void DefaultGui::createMenus() {
 
 	statusbar_menu = new QMenu(this);
 	statusbar_menu->addAction(viewVideoInfoAct);
+	statusbar_menu->addAction(viewFrameCounterAct);
 
 	optionsMenu->addMenu(statusbar_menu);
 }
@@ -428,6 +433,7 @@ void DefaultGui::retranslateStrings() {
 	select_subtitle->setText( tr("Subtitle") );
 
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
+	viewFrameCounterAct->change( Images::icon("frame_counter"), tr("&Frame counter") );
 }
 
 
@@ -464,9 +470,6 @@ void DefaultGui::updateWidgets() {
 	qDebug("DefaultGui::updateWidgets");
 
 	BaseGuiPlus::updateWidgets();
-
-	// Frame counter
-	frame_display->setVisible( pref->show_frame_counter );
 
 	panel->setFocus();
 }
@@ -616,6 +619,7 @@ void DefaultGui::saveConfig() {
 	set->beginGroup( "default_gui");
 
 	set->setValue("video_info", viewVideoInfoAct->isChecked());
+	set->setValue("frame_counter", viewFrameCounterAct->isChecked());
 
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible);
@@ -650,6 +654,7 @@ void DefaultGui::loadConfig() {
 	set->beginGroup( "default_gui");
 
 	viewVideoInfoAct->setChecked(set->value("video_info", false).toBool());
+	viewFrameCounterAct->setChecked(set->value("frame_counter", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	fullscreen_toolbar2_was_visible = set->value("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible).toBool();

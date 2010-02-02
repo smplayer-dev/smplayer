@@ -3,6 +3,9 @@
 (2010-02-01)
  * Added an option (Options -> Statusbar) to display the video resolution and
    fps in the statusbar.
+ * For consistency, moved the option to show the frame counter to the submenu
+   Options -> Statusbar. (Which by the way required to remove the old and ugly
+   implementation and create a new one)
 
 (2010-01-28)
  * (Experimental) Now the slider seeks again by percentage instead of time, but

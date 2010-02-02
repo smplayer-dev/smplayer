@@ -293,7 +293,6 @@ public:
 #if STYLE_SWITCHING
 	QString style; 	//!< SMPlayer look
 #endif
-	bool show_frame_counter;
 	bool show_motion_vectors;
 
 	// Function of mouse buttons:

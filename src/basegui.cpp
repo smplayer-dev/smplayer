@@ -183,7 +183,6 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 void BaseGui::initializeGui() {
 	if (pref->compact_mode) toggleCompactMode(TRUE);
 	changeStayOnTop(pref->stay_on_top);
-	toggleFrameCounter( pref->show_frame_counter );
 
 #if ALLOW_CHANGE_STYLESHEET
 	changeStyleSheet(pref->iconset);
@@ -700,11 +699,6 @@ void BaseGui::createActions() {
 	showPropertiesAct = new MyAction( QKeySequence("Ctrl+I"), this, "show_file_properties" );
 	connect( showPropertiesAct, SIGNAL(triggered()),
              this, SLOT(showFilePropertiesDialog()) );
-
-	frameCounterAct = new MyAction( this, "frame_counter" );
-	frameCounterAct->setCheckable( true );
-	connect( frameCounterAct, SIGNAL(toggled(bool)),
-             this, SLOT(toggleFrameCounter(bool)) );
 
 	showPreferencesAct = new MyAction( QKeySequence("Ctrl+P"), this, "show_preferences" );
 	connect( showPreferencesAct, SIGNAL(triggered()),
@@ -1482,8 +1476,6 @@ void BaseGui::retranslateStrings() {
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
 	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
-	frameCounterAct->change( Images::icon("frame_counter"),
-                             tr("&Show frame counter") );
 	showPreferencesAct->change( Images::icon("prefs"), tr("P&references") );
 
 	// Submenu Logs
@@ -2305,7 +2297,6 @@ void BaseGui::createMenus() {
 	// OPTIONS MENU
 	optionsMenu->addAction(showPropertiesAct);
 	optionsMenu->addAction(showPlaylistAct);
-	optionsMenu->addAction(frameCounterAct);
 
 	// OSD submenu
 	osd_menu = new QMenu(this);
@@ -3088,9 +3079,6 @@ void BaseGui::updateWidgets() {
 	showPlaylistAct->setChecked( playlist->isVisible() );
 #endif
 
-	// Frame counter
-	frameCounterAct->setChecked( pref->show_frame_counter );
-
 	// Motion vectors
 	motionVectorsAct->setChecked( pref->show_motion_vectors );
 
@@ -3660,15 +3648,6 @@ void BaseGui::aboutToExitFullscreen() {
 		menuBar()->show();
 		statusBar()->show();
 	}
-}
-
-void BaseGui::toggleFrameCounter() {
-	toggleFrameCounter( !pref->show_frame_counter );
-}
-
-void BaseGui::toggleFrameCounter(bool b) {
-    pref->show_frame_counter = b;
-    updateWidgets();
 }
 
 
