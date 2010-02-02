@@ -2652,6 +2652,8 @@ void BaseGui::updateMediaInfo() {
 	}
 
 	setWindowCaption( core->mdat.displayName() + " - SMPlayer" );
+
+	emit videoInfoChanged(core->mdat.video_width, core->mdat.video_height, core->mdat.video_fps.toDouble());
 }
 
 void BaseGui::newMediaLoaded() {
