@@ -465,7 +465,7 @@ void MpcGui::updateWidgets() {
     BaseGui::updateWidgets();
 
 	// Frame counter
-	frame_display->setVisible( pref->show_frame_counter );
+	/* frame_display->setVisible( pref->show_frame_counter ); */
 }
 
 #include "moc_mpcgui.cpp"

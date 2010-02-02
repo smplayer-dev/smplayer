@@ -134,9 +134,6 @@ public slots:
 	virtual void checkStayOnTop(Core::State);
 	void toggleStayOnTop();
 
-	virtual void toggleFrameCounter();
-	virtual void toggleFrameCounter(bool);
-
 	void setForceCloseOnFinish(int n) { arg_close_on_finish = n; };
 	int forceCloseOnFinish() { return arg_close_on_finish; };
 
@@ -415,7 +412,6 @@ protected:
 	// Menu Options
 	MyAction * showPlaylistAct;
 	MyAction * showPropertiesAct;
-	MyAction * frameCounterAct;
 	MyAction * motionVectorsAct;
 	MyAction * showPreferencesAct;
 	MyAction * showLogMplayerAct;

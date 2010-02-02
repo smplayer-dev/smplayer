@@ -291,7 +291,6 @@ void Preferences::reset() {
 	style="";
 #endif
 
-	show_frame_counter = FALSE;
 	show_motion_vectors = false;
 
 #if DVDNAV_SUPPORT
@@ -695,7 +694,6 @@ void Preferences::save() {
 	set->setValue("style", style);
 #endif
 
-	set->setValue("show_frame_counter", show_frame_counter);
 	set->setValue("show_motion_vectors", show_motion_vectors);
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
@@ -1110,7 +1108,6 @@ void Preferences::load() {
 	style = set->value("style", style).toString();
 #endif
 
-	show_frame_counter = set->value("show_frame_counter", show_frame_counter).toBool();
 	show_motion_vectors = set->value("show_motion_vectors", show_motion_vectors).toBool();
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
