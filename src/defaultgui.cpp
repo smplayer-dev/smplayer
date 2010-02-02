@@ -56,6 +56,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              this, SLOT(displayFrame(int)) );
 	connect( this, SIGNAL(ABMarkersChanged(int,int)),
              this, SLOT(displayABSection(int,int)) );
+	connect( this, SIGNAL(videoInfoChanged(int,int,double)),
+             this, SLOT(displayVideoInfo(int,int,double)) );
 
 	connect( this, SIGNAL(cursorNearBottom(QPoint)), 
              this, SLOT(showFloatingControl(QPoint)) );
@@ -121,6 +123,13 @@ void DefaultGui::createActions() {
 	forwardbutton_action = new SeekingButton(forward_actions, this);
 	forwardbutton_action->setObjectName("forwardbutton_action");
 #endif
+
+	// Statusbar
+	viewVideoInfoAct = new MyAction(this, "toggle_video_info" );
+	viewVideoInfoAct->setCheckable(true);
+	connect( viewVideoInfoAct, SIGNAL(toggled(bool)),
+             video_info_display, SLOT(setVisible(bool)) );
+
 }
 
 #if AUTODISABLE_ACTIONS
@@ -147,6 +156,11 @@ void DefaultGui::createMenus() {
 	toolbar_menu->addAction(toolbar2->toggleViewAction());
 	optionsMenu->addSeparator();
 	optionsMenu->addMenu(toolbar_menu);
+
+	statusbar_menu = new QMenu(this);
+	statusbar_menu->addAction(viewVideoInfoAct);
+
+	optionsMenu->addMenu(statusbar_menu);
 }
 
 QMenu * DefaultGui::createPopupMenu() {
@@ -361,6 +375,10 @@ void DefaultGui::createStatusBar() {
 //	ab_section_display->setText("A:0:00:00 B:0:00:00");
 //	ab_section_display->setMinimumSize(ab_section_display->sizeHint());
 
+	video_info_display = new QLabel( statusBar() );
+	video_info_display->setAlignment(Qt::AlignRight);
+	video_info_display->setFrameShape(QFrame::NoFrame);
+
 	statusBar()->setAutoFillBackground(TRUE);
 
 	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
@@ -371,8 +389,11 @@ void DefaultGui::createStatusBar() {
 	ColorUtils::setForegroundColor( frame_display, QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( ab_section_display, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( ab_section_display, QColor(255,255,255) );
+	ColorUtils::setBackgroundColor( video_info_display, QColor(0,0,0) );
+	ColorUtils::setForegroundColor( video_info_display, QColor(255,255,255) );
 	statusBar()->setSizeGripEnabled(FALSE);
 
+	statusBar()->addPermanentWidget( video_info_display );
 	statusBar()->addPermanentWidget( ab_section_display );
 
     statusBar()->showMessage( tr("Welcome to SMPlayer") );
@@ -385,6 +406,7 @@ void DefaultGui::createStatusBar() {
 	time_display->show();
 	frame_display->hide();
 	ab_section_display->show();
+	video_info_display->hide();
 }
 
 void DefaultGui::retranslateStrings() {
@@ -392,6 +414,9 @@ void DefaultGui::retranslateStrings() {
 
 	toolbar_menu->menuAction()->setText( tr("&Toolbars") );
 	toolbar_menu->menuAction()->setIcon( Images::icon("toolbars") );
+
+	statusbar_menu->menuAction()->setText( tr("Status&bar") );
+	statusbar_menu->menuAction()->setIcon( Images::icon("statusbar") );
 
 	toolbar1->setWindowTitle( tr("&Main toolbar") );
 	toolbar1->toggleViewAction()->setIcon(Images::icon("main_toolbar"));
@@ -401,6 +426,8 @@ void DefaultGui::retranslateStrings() {
 
 	select_audio->setText( tr("Audio") );
 	select_subtitle->setText( tr("Subtitle") );
+
+	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
 }
 
 
@@ -427,6 +454,10 @@ void DefaultGui::displayABSection(int secs_a, int secs_b) {
 	ab_section_display->setText( s );
 
 	ab_section_display->setShown( !s.isEmpty() );
+}
+
+void DefaultGui::displayVideoInfo(int width, int height, double fps) {
+	video_info_display->setText(tr("%1x%2 %3 fps", "width + height + fps").arg(width).arg(height).arg(fps));
 }
 
 void DefaultGui::updateWidgets() {
@@ -584,6 +615,8 @@ void DefaultGui::saveConfig() {
 
 	set->beginGroup( "default_gui");
 
+	set->setValue("video_info", viewVideoInfoAct->isChecked());
+
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
@@ -615,6 +648,8 @@ void DefaultGui::loadConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "default_gui");
+
+	viewVideoInfoAct->setChecked(set->value("video_info", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	fullscreen_toolbar2_was_visible = set->value("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible).toBool();

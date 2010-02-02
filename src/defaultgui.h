@@ -32,6 +32,7 @@ class TimeSliderAction;
 class VolumeSliderAction;
 class FloatingWidget;
 class TimeLabelAction;
+class MyAction;
 
 #if MINI_ARROW_BUTTONS
 class SeekingButton;
@@ -80,6 +81,7 @@ protected slots:
 	virtual void displayTime(QString text);
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
+	virtual void displayVideoInfo(int width, int height, double fps);
 
 	virtual void showFloatingControl(QPoint p);
 	virtual void showFloatingMenu(QPoint p);
@@ -95,6 +97,7 @@ protected:
 	QLabel * time_display;
 	QLabel * frame_display;
 	QLabel * ab_section_display;
+	QLabel * video_info_display;
 
 	QToolBar * controlwidget;
 	QToolBar * controlwidget_mini;
@@ -116,7 +119,10 @@ protected:
 	FloatingWidget * floating_control;
 	TimeLabelAction * time_label_action;
 
+	MyAction * viewVideoInfoAct;
+
 	QMenu * toolbar_menu;
+	QMenu * statusbar_menu;
 
 	int last_second;
 
