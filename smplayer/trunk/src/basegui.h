@@ -458,6 +458,7 @@ protected:
 	MyAction * nextWheelFunctionAct;
 
 	MyAction * showFilenameAct;
+	MyAction * toggleDeinterlaceAct;
 
 	// Moving and zoom
 	MyAction * moveUpAct;

@@ -287,6 +287,7 @@ public slots:
 #endif
 
 	void showFilenameOnOSD();
+	void toggleDeinterlace();
 
 	void changeUseAss(bool);
 	void toggleClosedCaption(bool);

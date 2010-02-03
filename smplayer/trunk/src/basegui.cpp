@@ -867,6 +867,9 @@ void BaseGui::createActions() {
 	showFilenameAct = new MyAction(Qt::SHIFT | Qt::Key_I, this, "show_filename");
 	connect( showFilenameAct, SIGNAL(triggered()), core, SLOT(showFilenameOnOSD()) );
 
+	toggleDeinterlaceAct = new MyAction(Qt::Key_D, this, "toggle_deinterlacing");
+	connect( toggleDeinterlaceAct, SIGNAL(triggered()), core, SLOT(toggleDeinterlace()) );
+
 
 	// Group actions
 
@@ -1535,6 +1538,7 @@ void BaseGui::retranslateStrings() {
 	nextWheelFunctionAct->change( Images::icon("next_wheel_function"), tr("Next wheel function") );
 
 	showFilenameAct->change( tr("Show filename on OSD") );
+	toggleDeinterlaceAct->change( tr("Toggle deinterlacing") );
 
 
 	// Action groups

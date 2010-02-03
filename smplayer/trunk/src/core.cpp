@@ -3651,6 +3651,12 @@ void Core::showFilenameOnOSD() {
 	tellmp("osd_show_property_text \"${filename}\" 3000 0");
 }
 
+void Core::toggleDeinterlace() {
+	qDebug("Core::toggleDeinterlace");
+
+	tellmp("step_property deinterlace");
+}
+
 void Core::changeUseAss(bool b) {
 	qDebug("Core::changeUseAss: %d", b);
 
