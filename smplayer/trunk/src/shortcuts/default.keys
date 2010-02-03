@@ -28,6 +28,9 @@ rewind3	PgDown
 forward1	Right
 forward2	Up
 forward3	PgUp
+set_a_marker	
+set_b_marker	
+clear_ab_markers	
 repeat	
 jump_to	Ctrl+J
 normal_speed	Backspace
@@ -86,7 +89,6 @@ show_find_sub_dialog
 upload_subtitles	
 show_playlist	Ctrl+L
 show_file_properties	Ctrl+I
-frame_counter	
 show_preferences	Ctrl+P
 show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
@@ -131,6 +133,7 @@ show_context_menu
 next_aspect	A
 next_wheel_function	
 show_filename	Shift+I
+toggle_deinterlacing	D
 osd_none	
 osd_seek	
 osd_timer	
@@ -206,5 +209,7 @@ pl_add_directory
 pl_remove_selected	
 pl_remove_all	
 pl_edit	
+toggle_video_info	
+toggle_frame_counter	
 show_main_toolbar	F5
 show_language_toolbar	F6
