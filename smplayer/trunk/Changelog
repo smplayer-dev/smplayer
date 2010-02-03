@@ -4,6 +4,7 @@
  * Added a new action to toggle deinterlacing (assigned to key D). It just 
    runs the mplayer slave command "step_property deinterlace". It toggles 
    deinterlacing on/off. Requires the yadif or kerndeint filters.
+   Note: when using this action, the deinterlace menu is not updated.
 
 (2010-02-01)
  * Added an option (Options -> Statusbar) to display the video resolution and
