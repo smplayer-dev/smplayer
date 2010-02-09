@@ -1,5 +1,10 @@
 [b]Version 0.6.9[/b]:
 
+(2010-02-09)
+ * Fix: using now -af channels to select the left or right audio channel, as 
+   it seems the -stereo option in mplayer doesn't work as expected.
+   Should fix bug #1962349.
+
 (2010-02-02)
  * Added a new action to toggle deinterlacing (assigned to key D). It just 
    runs the mplayer slave command "step_property deinterlace". It toggles 

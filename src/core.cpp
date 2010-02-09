@@ -2064,16 +2064,18 @@ end_video_filters:
 		proc->addArgument( QString::number( mset.audio_use_channels ) );
 	}
 
-	// Stereo mode
-	if (mset.stereo_mode != 0) {
-		proc->addArgument("-stereo");
-		proc->addArgument( QString::number( mset.stereo_mode ) );
-	}
-
 	// Audio filters
 	QString af="";
 	if (mset.karaoke_filter) {
 		af="karaoke";
+	}
+
+	// Stereo mode
+	if (mset.stereo_mode != 0) {
+		if (mset.stereo_mode == MediaSettings::Left) 
+			af += "channels=2:2:0:1:0:0";
+		else
+			af += "channels=2:2:1:0:1:1";
 	}
 
 	if (mset.extrastereo_filter) {
