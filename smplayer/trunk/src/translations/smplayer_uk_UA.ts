@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
-<defaultcodec></defaultcodec>
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -2384,9 +2384,9 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
         <source>%1 subtitle(s) extracted</source>
         <translation>
-            <numerusform>Витягнений %1 субтитр</numerusform>
-            <numerusform>Витягнені %1 субтитри</numerusform>
-            <numerusform>Витягнені %1 субтитрів</numerusform>
+            <numerusform>%1 субтитр витягнуто</numerusform>
+            <numerusform>%1 субтитра витягнуто</numerusform>
+            <numerusform>%1 субтитрів витягнуто</numerusform>
         </translation>
     </message>
     <message>
@@ -3630,7 +3630,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3740,7 +3740,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
