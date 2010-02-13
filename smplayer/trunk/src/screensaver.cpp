@@ -18,6 +18,7 @@
 
 #include "screensaver.h"
 #include <Qt>
+#include <QSysInfo>
 #include <windows.h>
 
 WinScreenSaver::WinScreenSaver() {
@@ -35,8 +36,11 @@ void WinScreenSaver::retrieveState() {
 	qDebug("WinScreenSaver::retrieveState");
 	
 	if (!state_saved) {
-		SystemParametersInfo(SPI_GETLOWPOWERTIMEOUT, 0, &lowpower, 0);
-		SystemParametersInfo(SPI_GETPOWEROFFTIMEOUT, 0, &poweroff, 0);
+		if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+			// Not supported on Windows Vista
+			SystemParametersInfo(SPI_GETLOWPOWERTIMEOUT, 0, &lowpower, 0);
+			SystemParametersInfo(SPI_GETPOWEROFFTIMEOUT, 0, &poweroff, 0);
+		}
 		SystemParametersInfo(SPI_GETSCREENSAVETIMEOUT, 0, &screensaver, 0);
 		state_saved = true;
 		
@@ -48,8 +52,11 @@ void WinScreenSaver::retrieveState() {
 
 void WinScreenSaver::restoreState() {
 	if (state_saved) {
-		SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, lowpower, NULL, 0);
-		SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, poweroff, NULL, 0);
+		if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+			// Not supported on Windows Vista
+			SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, lowpower, NULL, 0);
+			SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, poweroff, NULL, 0);
+		}
 		SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, screensaver, NULL, 0);
 		
 		qDebug("WinScreenSaver::restoreState: lowpower: %d, poweroff: %d, screensaver: %d", lowpower, poweroff, screensaver);
@@ -61,8 +68,11 @@ void WinScreenSaver::restoreState() {
 void WinScreenSaver::disable() {
 	qDebug("WinScreenSaver::disable");
 
-	SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 0, NULL, 0);
-	SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
+	if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+		// Not supported on Windows Vista
+		SystemParametersInfo(SPI_SETLOWPOWERTIMEOUT, 0, NULL, 0);
+		SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
+	}
 	SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 0, NULL, 0);
 }
 
