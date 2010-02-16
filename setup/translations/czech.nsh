@@ -15,7 +15,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binární kodeky podporují formát
 
 ; MPlayer Section
 !ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer je již nainstalován. Stáhnout znovu?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Stahuji MPlayer..."
   ${LangFileString} MPLAYER_DL_RETRY "MPlayer se nepovedlo nainstalovat. Zkusit znovu?"
   ${LangFileString} MPLAYER_DL_FAILED "Nepovedlo se stáhnout MPlayer: '$R0'."
@@ -23,7 +22,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binární kodeky podporují formát
 !endif
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "Kodeky MPlayeru jsou již nainstalovány. Stáhnout znovu?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Instaluji kodeky MPlayeru..."
 ${LangFileString} CODECS_DL_RETRY "Kodeky MPlayeru se nepovedlo nainstalovat. Zkusit znovu?"
 ${LangFileString} CODECS_DL_FAILED "Nepovedlo se stáhnout kodeky MPlayeru: '$R0'."

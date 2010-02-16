@@ -15,7 +15,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add suppo
 
 ; MPlayer Section
 !ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer is already installed. Re-Download?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Downloading MPlayer..."
   ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
   ${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer: '$R0'."
@@ -23,7 +22,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add suppo
 !endif
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "MPlayer codecs are already installed. Re-Download?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer codecs..."
 ${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
 ${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs: '$R0'."

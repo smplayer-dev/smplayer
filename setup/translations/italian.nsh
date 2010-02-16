@@ -15,7 +15,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "I pacchetti di codec binari fornisc
 
 ; MPlayer Section
 !ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer è già stato installato. Ri-scarico?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Sto scaricando MPlayer..."
   ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
   ${LangFileString} MPLAYER_DL_FAILED "Scaricamento di MPlayer fallito: '$R0'."
@@ -23,7 +22,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "I pacchetti di codec binari fornisc
 !endif
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "I codec di MPlayer sono già stati installati. Ri-scarico?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Sto scaricando i codec di MPlayer..."
 ${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
 ${LangFileString} CODECS_DL_FAILED "Scaricamento dei codec di MPlayer fallito: '$R0'."

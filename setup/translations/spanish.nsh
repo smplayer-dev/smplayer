@@ -15,7 +15,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "El paquete de códecs binarios aña
 
 ; MPlayer Section
 !ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_INSTALLED "El MPlayer ya está instalado. ¿Descargar de nuevo?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Descargando el MPlayer..."
   ${LangFileString} MPLAYER_DL_RETRY "El MPlayer no se ha instalado correctamente. ¿Reintentar?"
   ${LangFileString} MPLAYER_DL_FAILED "Ha fallado la descarga del MPlayer: '$R0'."
@@ -23,7 +22,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "El paquete de códecs binarios aña
 !endif
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "Los códecs del MPlayer ya están instalados. ¿Descargar de nuevo?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Descargando los códecs del MPlayer..."
 ${LangFileString} CODECS_DL_RETRY "Los códecs del MPlayer no se han instalado correctamente. ¿Reintentar?"
 ${LangFileString} CODECS_DL_FAILED "Ha fallado la descarga de los códecs del MPlayer: '$R0'."
