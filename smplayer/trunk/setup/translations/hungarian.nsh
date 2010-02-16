@@ -15,7 +15,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "A bináris kodek csomagok támogat�
 
 ; MPlayer Section
 !ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_INSTALLED "Az MPlayer már telepítve van. Újra letöltsem?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Az MPlayer letöltése..."
   ${LangFileString} MPLAYER_DL_RETRY "Az MPlayer telepítése nem sikerült. Újra próbáljam?"
   ${LangFileString} MPLAYER_DL_FAILED "Az MPlayer letöltése nem sikerült: '$R0'."
@@ -23,7 +22,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "A bináris kodek csomagok támogat�
 !endif
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "Az MPlayer kodekek már telepítve vannak. Újra letöltsem?"
 ${LangFileString} CODECS_IS_DOWNLOADING "MPlayer kodekek letöltése..."
 ${LangFileString} CODECS_DL_RETRY "Az MPlayer kodekek telepítése nem sikerült. Újra próbáljam?"
 ${LangFileString} CODECS_DL_FAILED "Az MPlayer kodekek letöltése nem sikerült: '$R0'."

@@ -15,7 +15,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Пакеты с бинарными 
 
 ; MPlayer Section
 !ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer уже установлен. Загрузить заново?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Загрузка MPlayer..."
   ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
   ${LangFileString} MPLAYER_DL_FAILED "Не удалось загрузить MPlayer: '$R0'."
@@ -23,7 +22,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Пакеты с бинарными 
 !endif
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "Бинарные кодеки для MPlayer уже установлены. Загрузить заново?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Загрузка бинарных кодеков для MPlayer..."
 ${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
 ${LangFileString} CODECS_DL_FAILED "Не удалось загрузить бинарные кодеки для MPlayer: '$R0'."

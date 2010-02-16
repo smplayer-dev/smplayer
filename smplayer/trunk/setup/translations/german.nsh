@@ -15,7 +15,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binäre Codec-Pakete werden eingese
 
 ; MPlayer Section
 !ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_INSTALLED "MPlayer ist bereits installiert. Erneut herunterladen?"
   ${LangFileString} MPLAYER_IS_DOWNLOADING "Lade MPlayer herunter..."
   ${LangFileString} MPLAYER_DL_RETRY "MPlayer wurde nicht erfolgreich installiert. Wiederholung?"
   ${LangFileString} MPLAYER_DL_FAILED "Fehler beim Herunterladen von MPlayer: '$R0'."
@@ -23,7 +22,6 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binäre Codec-Pakete werden eingese
 !endif
 
 ; Codecs Section
-${LangFileString} CODECS_IS_INSTALLED "MPlayer-Codecs sind bereits installiert. Erneut herunterladen?"
 ${LangFileString} CODECS_IS_DOWNLOADING "Lade MPlayer Codecs runter..."
 ${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
 ${LangFileString} CODECS_DL_FAILED "Fehler beim Herunterladen der MPlayer Codecs: '$R0'."
