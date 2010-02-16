@@ -30,7 +30,9 @@
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
-  ; Fallback versions
+  ;Fallback versions
+  ;These can be changed in the compiler, otherwise
+  ;if not defined the values shown here will be used.
 !ifndef DEFAULT_CODECS_VERSION
   !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
 !endif
@@ -305,52 +307,45 @@ SectionGroup /e "MPlayer Components"
     SectionIn 1 2 3 RO
     AddSize 15300
 
-    ReadRegDWORD $0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
+    Call GetVerInfo
 
-    IntCmp $0 1 0 mplayerNotInstalled
-      MessageBox MB_YESNO $(MPLAYER_IS_INSTALLED) /SD IDNO IDYES mplayerNotInstalled IDNO done
-      mplayerNotInstalled:
+    ;Read from version-info
+    ;If it was unable to download, set version to that defined in DEFAULT_MPLAYER_VERSION
+    ${If} ${FileExists} "$PLUGINSDIR\version-info"
+      ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
+    ${Else}
+      StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
+    ${EndIf}
 
-      Call GetVerInfo
+    retry_mplayer:
 
-      IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
-        ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
-        Goto done_ver_info
+    DetailPrint $(MPLAYER_IS_DOWNLOADING)
+    inetc::get /timeout 30000 /resume "" /caption $(MPLAYER_IS_DOWNLOADING) /banner "Downloading $MPLAYER_VERSION.7z" \
+    "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
+    "$PLUGINSDIR\$MPLAYER_VERSION.7z"
+    Pop $R0
+    StrCmp $R0 OK 0 check_mplayer
 
-      noVerInfo:
+    ;Extract
+    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -y -o"$PLUGINSDIR"'
 
-        ;Default Value if version-info doesn't exist
-        StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
-
-    done_ver_info:
-
-      DetailPrint $(MPLAYER_IS_DOWNLOADING)
-      inetc::get /timeout 30000 /resume "" /caption $(MPLAYER_IS_DOWNLOADING) /banner "Downloading $MPLAYER_VERSION.7z" \
-      "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
-      "$PLUGINSDIR\$MPLAYER_VERSION.7z"
-      Pop $R0
-      StrCmp $R0 OK 0 check_mplayer
-
-      ;Extract
-      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -y -o"$PLUGINSDIR"'
-
-      ;Copy
-      CreateDirectory "$INSTDIR\mplayer"
-      CopyFiles /SILENT "$PLUGINSDIR\$MPLAYER_VERSION\*" "$INSTDIR\mplayer"
+    ;Copy
+    CreateDirectory "$INSTDIR\mplayer"
+    CopyFiles /SILENT "$PLUGINSDIR\$MPLAYER_VERSION\*" "$INSTDIR\mplayer"
 
     check_mplayer:
-      ;This label does not necessarily mean there was a download error, so check first
-      ${If} $R0 != "OK"
-        DetailPrint $(MPLAYER_DL_FAILED)
-      ${EndIf}
+    ;This label does not necessarily mean there was a download error, so check first
+    ${If} $R0 != "OK"
+      DetailPrint $(MPLAYER_DL_FAILED)
+    ${EndIf}
 
-      IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
-        mplayerInstSuccess:
-          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
-          Goto done
-        mplayerInstFailed:
-          MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPLAYER_DL_RETRY) /SD IDCANCEL IDRETRY done_ver_info
-          Abort $(MPLAYER_INST_FAILED)
+    IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
+      mplayerInstSuccess:
+        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
+        Goto done
+      mplayerInstFailed:
+        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPLAYER_DL_RETRY) /SD IDCANCEL IDRETRY retry_mplayer
+        Abort $(MPLAYER_INST_FAILED)
 
     done:
 
@@ -363,54 +358,47 @@ SectionGroup /e "MPlayer Components"
     SectionIn 3
     AddSize 22300
 
-    ReadRegDWORD $1 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
+    Call GetVerInfo
 
-    IntCmp $1 1 0 mplayerCodecsNotInstalled
-      MessageBox MB_YESNO $(CODECS_IS_INSTALLED) /SD IDNO IDYES mplayerCodecsNotInstalled IDNO done
-      mplayerCodecsNotInstalled:
+    ;Read from version-info
+    ;If it was unable to download, set version to that defined in DEFAULT_CODECS_VERSION
+    ${If} ${FileExists} "$PLUGINSDIR\version-info"
+      ReadINIStr $CODEC_VERSION "$PLUGINSDIR\version-info" smplayer mplayercodecs
+    ${Else}
+      StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
+    ${EndIf}
 
-      Call GetVerInfo
+    retry_codecs:
 
-      IfFileExists "$PLUGINSDIR\version-info" 0 noVerInfo
-        ReadINIStr $CODEC_VERSION "$PLUGINSDIR\version-info" smplayer mplayercodecs
-        Goto done_ver_info
+    DetailPrint $(CODECS_IS_DOWNLOADING)
+    inetc::get /timeout 30000 /resume "" /caption $(CODECS_IS_DOWNLOADING) /banner "Downloading $CODEC_VERSION.zip" \
+    "http://www.mplayerhq.hu/MPlayer/releases/codecs/$CODEC_VERSION.zip" \
+    "$PLUGINSDIR\$CODEC_VERSION.zip"
+    Pop $R0
+    StrCmp $R0 OK 0 check_codecs
 
-      noVerInfo:
+    ;Extract
+    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -y -o"$PLUGINSDIR"'
 
-        ;Default Value if version-info doesn't exist
-        StrCpy $CODEC_VERSION ${DEFAULT_CODECS_VERSION}
-
-    done_ver_info:
-
-      DetailPrint $(CODECS_IS_DOWNLOADING)
-      inetc::get /timeout 30000 /resume "" /caption $(CODECS_IS_DOWNLOADING) /banner "Downloading $CODEC_VERSION.zip" \
-      "http://www.mplayerhq.hu/MPlayer/releases/codecs/$CODEC_VERSION.zip" \
-      "$PLUGINSDIR\$CODEC_VERSION.zip"
-      Pop $R0
-      StrCmp $R0 OK 0 check_codecs
-
-      ;Extract
-      nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$CODEC_VERSION.zip" -y -o"$PLUGINSDIR"'
-
-      ;Copy
-      CreateDirectory "$INSTDIR\mplayer\codecs"
-      CopyFiles /SILENT "$PLUGINSDIR\$CODEC_VERSION\*" "$INSTDIR\mplayer\codecs"
+    ;Copy
+    CreateDirectory "$INSTDIR\mplayer\codecs"
+    CopyFiles /SILENT "$PLUGINSDIR\$CODEC_VERSION\*" "$INSTDIR\mplayer\codecs"
 
     check_codecs:
-      ;This label does not necessarily mean there was a download error, so check first
-      ${If} $R0 != "OK"
-        DetailPrint $(CODECS_DL_FAILED)
-      ${EndIf}
+    ;This label does not necessarily mean there was a download error, so check first
+    ${If} $R0 != "OK"
+      DetailPrint $(CODECS_DL_FAILED)
+    ${EndIf}
 
-      IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
-        codecsInstSuccess:
-          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
-          Goto done
-        codecsInstFailed:
-          MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(CODECS_DL_RETRY) /SD IDCANCEL IDRETRY done_ver_info
-          DetailPrint $(CODECS_INST_FAILED)
-          WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
-          Sleep 5000
+    IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
+      codecsInstSuccess:
+        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
+        Goto done
+      codecsInstFailed:
+        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(CODECS_DL_RETRY) /SD IDCANCEL IDRETRY retry_codecs
+        DetailPrint $(CODECS_INST_FAILED)
+        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
+        Sleep 5000
 
     done:
 
@@ -660,7 +648,7 @@ FunctionEnd
 
 Function LoadPreviousSettings
 
-  ;MPlayer codecs section doesn't use Memento
+  ;MPlayer codecs section doesn't use Memento so we need to restore it manually
   ReadRegStr $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_Codecs"
   ${If} $R0 == 1
     !insertmacro SelectSection ${Codecs}
@@ -677,7 +665,7 @@ Function PageReinstall
   ${EndIf}
 
   nsDialogs::Create /NOUNLOAD 1018
-  Pop $2
+  Pop $0
 
   ${If} $PREVIOUS_VERSION_STATE == 2
 
