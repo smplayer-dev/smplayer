@@ -23,13 +23,13 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binäre Codec-Pakete werden eingese
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_DOWNLOADING "Lade MPlayer Codecs runter..."
-${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
+${LangFileString} CODECS_DL_RETRY "MPlayer-Codecs wurden nicht erfolgreich installiert.. Wiederholung?"
 ${LangFileString} CODECS_DL_FAILED "Fehler beim Herunterladen der MPlayer Codecs: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Fehler beim Installieren der MPlayer Codecs."
 
 ; Version information
 ${LangFileString} VERINFO_IS_DOWNLOADING "Lade Informationen der Version runter..."
-${LangFileString} VERINFO_DL_FAILED "Fehler beim Herunterladen der Versionsinfo: '$R0'. Using a default version."
+${LangFileString} VERINFO_DL_FAILED "Fehler beim Herunterladen der Versionsinfo: '$R0'. Standard-Version wird genommen."
 
 ; Uninstaller
 ${LangFileString} UNINSTALL_NO_ADMIN "Administratorrechte sind nötig um dieses Programm zu deinstallieren."
@@ -37,4 +37,4 @@ ${LangFileString} UNINSTALL_ABORTED "Deinstallieren vom Benutzer abgebrochen."
 ${LangFileString} SMPLAYER_NOT_INSTALLED "Es scheint, das SMPlayer nicht in dem Verzeichnis installiert ist '$INSTDIR'.$\r$\nTrotzdem fortfahren (nicht empfohlen)?"
 
 ; Vista & Later Default Programs Registration
-${LangFileString} APPLICATION_DESCRIPTION "SMPlayer ist eine komplettes Front-End für MPlayer, von grundlegenden Funktionen, wie das Abspielen von Videos, DVDs, VCDs, bis erweiterte Funktionen wie die Unterstützung für MPlayer Filter, edl-Listen und vieles mehr.."
+${LangFileString} APPLICATION_DESCRIPTION "SMPlayer ist ein komplettes Front-End für MPlayer, von grundlegenden Funktionen, wie das Abspielen von Videos, DVDs, VCDs, bis zu erweiterten Funktionen wie die Unterstützung für MPlayer Filter, edl-Listen und vieles mehr.."
