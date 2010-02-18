@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<!DOCTYPE TS><TS version="1.1" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -470,52 +469,52 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>SMPlayer - mplayer log</source>
         <translation>SMPlayer - журнал mplayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1734"/>
+        <location filename="../basegui.cpp" line="1733"/>
         <source>SMPlayer - smplayer log</source>
         <translation>SMPlayer - журнали smplayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1553"/>
+        <location filename="../basegui.cpp" line="1552"/>
         <source>&amp;Open</source>
         <translation>&amp;Відкрити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1554"/>
+        <location filename="../basegui.cpp" line="1553"/>
         <source>&amp;Play</source>
         <translation>Від&amp;творити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1555"/>
+        <location filename="../basegui.cpp" line="1554"/>
         <source>&amp;Video</source>
         <translation>&amp;Зображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1556"/>
+        <location filename="../basegui.cpp" line="1555"/>
         <source>&amp;Audio</source>
         <translation>Зв&amp;ук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1557"/>
+        <location filename="../basegui.cpp" line="1556"/>
         <source>&amp;Subtitles</source>
         <translation>Су&amp;бтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1558"/>
+        <location filename="../basegui.cpp" line="1557"/>
         <source>&amp;Browse</source>
         <translation>Ог&amp;ляд</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1559"/>
+        <location filename="../basegui.cpp" line="1558"/>
         <source>Op&amp;tions</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1560"/>
+        <location filename="../basegui.cpp" line="1559"/>
         <source>&amp;Help</source>
         <translation>До&amp;відка</translation>
     </message>
@@ -550,12 +549,12 @@ Do you want to overwrite?</source>
         <translation>&amp;URL-адреса...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1575"/>
         <source>&amp;Clear</source>
         <translation>&amp;Очистити</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1573"/>
         <source>&amp;Recent files</source>
         <translation>Ос&amp;танні файли</translation>
     </message>
@@ -605,7 +604,7 @@ Do you want to overwrite?</source>
         <translation>Швидкість &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1585"/>
+        <location filename="../basegui.cpp" line="1584"/>
         <source>Sp&amp;eed</source>
         <translation>Шв&amp;идкість</translation>
     </message>
@@ -625,7 +624,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Стислий режим</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1595"/>
+        <location filename="../basegui.cpp" line="1594"/>
         <source>Si&amp;ze</source>
         <translation>Ро&amp;змір</translation>
     </message>
@@ -650,7 +649,7 @@ Do you want to overwrite?</source>
         <translation type="obsolete">4:3 &amp;до 16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1605"/>
+        <location filename="../basegui.cpp" line="1604"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;Співвідношення сторін</translation>
     </message>
@@ -660,17 +659,17 @@ Do you want to overwrite?</source>
         <translation>&amp;Немає</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1643"/>
+        <location filename="../basegui.cpp" line="1642"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1646"/>
+        <location filename="../basegui.cpp" line="1645"/>
         <source>Linear &amp;Blend</source>
         <translation>Лінійне &amp;змішування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1608"/>
+        <location filename="../basegui.cpp" line="1607"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Деінтерлейсинг</translation>
     </message>
@@ -700,7 +699,7 @@ Do you want to overwrite?</source>
         <translation>Додати ш&amp;ум</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1611"/>
+        <location filename="../basegui.cpp" line="1610"/>
         <source>F&amp;ilters</source>
         <translation>Ф&amp;ільтри</translation>
     </message>
@@ -715,7 +714,7 @@ Do you want to overwrite?</source>
         <translation>Знімок &amp;екрану</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1617"/>
+        <location filename="../basegui.cpp" line="1616"/>
         <source>S&amp;tay on top</source>
         <translation>З&amp;алишатись зверху</translation>
     </message>
@@ -730,42 +729,42 @@ Do you want to overwrite?</source>
         <translation>&amp;Караоке</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>&amp;Filters</source>
         <translation>&amp;Фільтри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1686"/>
+        <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Стерео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1683"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 оточення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1683"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 оточення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1674"/>
         <source>&amp;Channels</source>
         <translation>&amp;Канали</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1687"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>&amp;Left channel</source>
         <translation>&amp;Лівий канал</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>&amp;Right channel</source>
         <translation>&amp;Правий канал</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1677"/>
         <source>&amp;Stereo mode</source>
         <translation>&amp;Стерео режим</translation>
     </message>
@@ -795,7 +794,7 @@ Do you want to overwrite?</source>
         <translation>З&amp;атримка +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1690"/>
         <source>&amp;Select</source>
         <translation>&amp;Вибрати</translation>
     </message>
@@ -825,17 +824,17 @@ Do you want to overwrite?</source>
         <translation>В&amp;низ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1694"/>
         <source>&amp;Title</source>
         <translation>&amp;Заголовок</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1698"/>
+        <location filename="../basegui.cpp" line="1697"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Розділ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1701"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>&amp;Angle</source>
         <translation>&amp;Ракурс</translation>
     </message>
@@ -847,10 +846,10 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1483"/>
         <source>&amp;Show frame counter</source>
-        <translation>&amp;Показати лічильник кадрів</translation>
+        <translation type="obsolete">&amp;Показати лічильник кадрів</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1640"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Вимкнено</translation>
     </message>
@@ -870,27 +869,27 @@ Do you want to overwrite?</source>
         <translation type="obsolete">Час + З&amp;агальний час</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;OSD</source>
         <translation>Екранна &amp;індикація</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1725"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;View logs</source>
         <translation>&amp;Дивитись журнали</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1484"/>
+        <location filename="../basegui.cpp" line="1482"/>
         <source>P&amp;references</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1494"/>
+        <location filename="../basegui.cpp" line="1492"/>
         <source>About &amp;Qt</source>
         <translation>Про &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1495"/>
+        <location filename="../basegui.cpp" line="1493"/>
         <source>About &amp;SMPlayer</source>
         <translation>Про &amp;SMPlayer</translation>
     </message>
@@ -900,69 +899,69 @@ Do you want to overwrite?</source>
         <translation>&lt;немає&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3306"/>
+        <location filename="../basegui.cpp" line="3303"/>
         <source>Video</source>
         <translation>Зображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3497"/>
+        <location filename="../basegui.cpp" line="3494"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3308"/>
+        <location filename="../basegui.cpp" line="3305"/>
         <source>Playlists</source>
         <translation>Переліки відтворення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3498"/>
+        <location filename="../basegui.cpp" line="3495"/>
         <source>All files</source>
         <translation>Всі файли</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3495"/>
+        <location filename="../basegui.cpp" line="3492"/>
         <source>Choose a file</source>
         <translation>Вибрати файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3356"/>
+        <location filename="../basegui.cpp" line="3353"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Відомості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3359"/>
+        <location filename="../basegui.cpp" line="3356"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводи CD/DVD ще не налаштовані.
 Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3440"/>
+        <location filename="../basegui.cpp" line="3437"/>
         <source>Choose a directory</source>
         <translation>Вибрати теку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3476"/>
+        <location filename="../basegui.cpp" line="3473"/>
         <source>Subtitles</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3528"/>
+        <location filename="../basegui.cpp" line="3525"/>
         <source>About Qt</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3983"/>
+        <location filename="../basegui.cpp" line="3979"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3984"/>
+        <location filename="../basegui.cpp" line="3980"/>
         <source>Pause</source>
         <translation>Призупинений</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3985"/>
+        <location filename="../basegui.cpp" line="3981"/>
         <source>Stop</source>
         <translation>Зупинений</translation>
     </message>
@@ -1047,102 +1046,102 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Н&amp;аступний рядок в субтитрах</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1747"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1751"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1513"/>
+        <location filename="../basegui.cpp" line="1511"/>
         <source>Dec volume (2)</source>
         <translation>Зменшення гучності (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1514"/>
+        <location filename="../basegui.cpp" line="1512"/>
         <source>Inc volume (2)</source>
         <translation>Збільшення гучності (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1517"/>
+        <location filename="../basegui.cpp" line="1515"/>
         <source>Exit fullscreen</source>
         <translation>Вийти з повноекранного режиму</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1519"/>
+        <location filename="../basegui.cpp" line="1517"/>
         <source>OSD - Next level</source>
         <translation>Екранна індікація - наступний рівень</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1520"/>
+        <location filename="../basegui.cpp" line="1518"/>
         <source>Dec contrast</source>
         <translation>Зменшення контрасту</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1521"/>
+        <location filename="../basegui.cpp" line="1519"/>
         <source>Inc contrast</source>
         <translation>Збільшення контрасту</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1522"/>
+        <location filename="../basegui.cpp" line="1520"/>
         <source>Dec brightness</source>
         <translation>Зменшення яскравості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1523"/>
+        <location filename="../basegui.cpp" line="1521"/>
         <source>Inc brightness</source>
         <translation>Збільшення яскравості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1524"/>
+        <location filename="../basegui.cpp" line="1522"/>
         <source>Dec hue</source>
         <translation>Зменшення кольору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1525"/>
+        <location filename="../basegui.cpp" line="1523"/>
         <source>Inc hue</source>
         <translation>Збільшення кольору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1526"/>
+        <location filename="../basegui.cpp" line="1524"/>
         <source>Dec saturation</source>
         <translation>Зменшення насиченості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1528"/>
+        <location filename="../basegui.cpp" line="1526"/>
         <source>Dec gamma</source>
         <translation>Зменшення гами</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1531"/>
+        <location filename="../basegui.cpp" line="1529"/>
         <source>Next audio</source>
         <translation>Наступне аудіо</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1532"/>
+        <location filename="../basegui.cpp" line="1530"/>
         <source>Next subtitle</source>
         <translation>Наступні субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1533"/>
+        <location filename="../basegui.cpp" line="1531"/>
         <source>Next chapter</source>
         <translation>Наступний розділ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1534"/>
+        <location filename="../basegui.cpp" line="1532"/>
         <source>Previous chapter</source>
         <translation>Попередній розділ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1527"/>
+        <location filename="../basegui.cpp" line="1525"/>
         <source>Inc saturation</source>
         <translation>Збільшення насиченості</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1529"/>
+        <location filename="../basegui.cpp" line="1527"/>
         <source>Inc gamma</source>
         <translation>Збільшення гами</translation>
     </message>
@@ -1152,27 +1151,27 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Завантажити зовнішній файл...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1647"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Ядерний деінтерлейсер</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1643"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (простий)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1645"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (подвійна частота кадрів)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1498"/>
+        <location filename="../basegui.cpp" line="1496"/>
         <source>&amp;Next</source>
         <translation>&amp;Наступний</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1499"/>
+        <location filename="../basegui.cpp" line="1497"/>
         <source>Pre&amp;vious</source>
         <translation>Поп&amp;ередній</translation>
     </message>
@@ -1187,17 +1186,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Звуковий CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1650"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>Denoise nor&amp;mal</source>
         <translation>Усунення шуму (зви&amp;чайний)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1651"/>
+        <location filename="../basegui.cpp" line="1650"/>
         <source>Denoise &amp;soft</source>
         <translation>Усунення шуму (&amp;програмний)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1649"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>Denoise o&amp;ff</source>
         <translation>Б&amp;ез усунення шуму</translation>
     </message>
@@ -1212,7 +1211,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">Повернути з&amp;ображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1533"/>
         <source>&amp;Toggle double size</source>
         <translation>Перемкнути по&amp;двійний розмір</translation>
     </message>
@@ -1237,7 +1236,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Про&amp;грамне масштабування</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1491"/>
+        <location filename="../basegui.cpp" line="1489"/>
         <source>&amp;FAQ</source>
         <translation>&amp;ЧаПи</translation>
     </message>
@@ -1247,12 +1246,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Візуалізувати &amp;вектори руху</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1492"/>
+        <location filename="../basegui.cpp" line="1490"/>
         <source>&amp;Command line options</source>
         <translation>&amp;Опції командного рядка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3513"/>
+        <location filename="../basegui.cpp" line="3510"/>
         <source>SMPlayer command line options</source>
         <translation>Опції командного рядка SMPlayer</translation>
     </message>
@@ -1272,77 +1271,77 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Субтитри тільки &amp;примусово</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1536"/>
+        <location filename="../basegui.cpp" line="1534"/>
         <source>Reset video equalizer</source>
         <translation>Скинути еквалайзер відео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1614"/>
+        <location filename="../basegui.cpp" line="1613"/>
         <source>&amp;Rotate</source>
         <translation>По&amp;вернути</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1653"/>
+        <location filename="../basegui.cpp" line="1652"/>
         <source>&amp;Off</source>
         <translation>&amp;Вимк</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1654"/>
+        <location filename="../basegui.cpp" line="1653"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;90 градусів за годинниковою стрілкою та переворот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1655"/>
+        <location filename="../basegui.cpp" line="1654"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>90 градусів за &amp;годинниковою стрілкою</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1656"/>
+        <location filename="../basegui.cpp" line="1655"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>90 градусів &amp;проти годинникової стрілки</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1657"/>
+        <location filename="../basegui.cpp" line="1656"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>90 градусів проти &amp;годинникової стрілки та переворот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4378"/>
+        <location filename="../basegui.cpp" line="4374"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Несподіване завершення MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4379"/>
+        <location filename="../basegui.cpp" line="4375"/>
         <source>Exit code: %1</source>
         <translation>Код виходу: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4396"/>
+        <location filename="../basegui.cpp" line="4392"/>
         <source>MPlayer failed to start.</source>
         <translation>Помилка старту MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4397"/>
+        <location filename="../basegui.cpp" line="4393"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Перевірте шлях до MPlayer у налаштуваннях.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4399"/>
+        <location filename="../basegui.cpp" line="4395"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer зламався.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4400"/>
+        <location filename="../basegui.cpp" line="4396"/>
         <source>See the log for more info.</source>
         <translation>Дивіться журнал для детальніших відомостей.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1536"/>
         <source>Show context menu</source>
         <translation>Показати контекстне меню</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3305"/>
+        <location filename="../basegui.cpp" line="3302"/>
         <source>Multimedia</source>
         <translation>Мультимедіа</translation>
     </message>
@@ -1352,7 +1351,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Еквалайзер</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1537"/>
+        <location filename="../basegui.cpp" line="1535"/>
         <source>Reset audio equalizer</source>
         <translation>Скинути аудіоеквалайзер</translation>
     </message>
@@ -1367,7 +1366,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Завантажити субтитри на OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1493"/>
+        <location filename="../basegui.cpp" line="1491"/>
         <source>&amp;Tips</source>
         <translation>&amp;Підказки</translation>
     </message>
@@ -1397,59 +1396,59 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Від&amp;дзеркалити зображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1621"/>
+        <location filename="../basegui.cpp" line="1620"/>
         <source>Scree&amp;n</source>
         <translation>&amp;Екран</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1629"/>
         <source>&amp;Auto</source>
         <translation>&amp;Автоматично</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1665"/>
+        <location filename="../basegui.cpp" line="1664"/>
         <source>&amp;Default</source>
         <translation>&amp;Типові</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1530"/>
+        <location filename="../basegui.cpp" line="1528"/>
         <source>Next video</source>
         <translation>Наступне відео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1592"/>
+        <location filename="../basegui.cpp" line="1591"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Доріжка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1668"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Доріжка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3813"/>
+        <location filename="../basegui.cpp" line="3801"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Застереження: використовується старий MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3817"/>
+        <location filename="../basegui.cpp" line="3805"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Збірка MPlayer (%1), що встановлена у вашій системі, застаріла. SMPlayer не може вірно працювати з нею: деякі опції не будуть працювати, вибір субтитрів може бути невдалим...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3820"/>
+        <location filename="../basegui.cpp" line="3808"/>
         <source>Please, update your MPlayer.</source>
         <translation>Будь ласка, оновіть ваш MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3821"/>
+        <location filename="../basegui.cpp" line="3809"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Це застереження не буде більше показуватись)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1539"/>
+        <location filename="../basegui.cpp" line="1537"/>
         <source>Next aspect ratio</source>
         <translation>Нове співвідношення сторін</translation>
     </message>
@@ -1474,57 +1473,57 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Попередній перегляд...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1659"/>
+        <location filename="../basegui.cpp" line="1658"/>
         <source>&amp;Always</source>
         <translation>&amp;Завжди</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1660"/>
+        <location filename="../basegui.cpp" line="1659"/>
         <source>&amp;Never</source>
         <translation>&amp;Ніколи</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1661"/>
+        <location filename="../basegui.cpp" line="1660"/>
         <source>While &amp;playing</source>
         <translation>Коли &amp;відтворюється</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>DVD &amp;menu</source>
         <translation>&amp;Меню DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>DVD &amp;previous menu</source>
         <translation>&amp;Попереднє меню DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1711"/>
+        <location filename="../basegui.cpp" line="1710"/>
         <source>DVD menu, move up</source>
         <translation>Меню DVD, вгору</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1711"/>
         <source>DVD menu, move down</source>
         <translation>Меню DVD, вниз</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1712"/>
         <source>DVD menu, move left</source>
         <translation>Меню DVD, вліво</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1713"/>
         <source>DVD menu, move right</source>
         <translation>Меню DVD, вправо</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>DVD menu, select option</source>
         <translation>Меню DVD, вибрати опцію</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>DVD menu, mouse click</source>
         <translation>Меню DVD, клік мишкою</translation>
     </message>
@@ -1539,42 +1538,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Вста&amp;новити затримку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3533"/>
+        <location filename="../basegui.cpp" line="3530"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Перейти до:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3534"/>
+        <location filename="../basegui.cpp" line="3531"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Переміщення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3544"/>
+        <location filename="../basegui.cpp" line="3541"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - затримка звуку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3545"/>
+        <location filename="../basegui.cpp" line="3542"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Затримка звуку (в мілісекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3554"/>
+        <location filename="../basegui.cpp" line="3551"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - затримка субтитрів</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3555"/>
+        <location filename="../basegui.cpp" line="3552"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Затримка субтитрів (в мілісекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1662"/>
+        <location filename="../basegui.cpp" line="1661"/>
         <source>Toggle stay on top</source>
         <translation>Завжди зверху</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4112"/>
+        <location filename="../basegui.cpp" line="4108"/>
         <source>Jump to %1</source>
         <translation>Перейти до %1</translation>
     </message>
@@ -1589,12 +1588,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Видимість субтитрів</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1540"/>
+        <location filename="../basegui.cpp" line="1538"/>
         <source>Next wheel function</source>
         <translation>Наступна функція колеса</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1705"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>П&amp;рограма</translation>
@@ -1625,12 +1624,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Попередній канал радіо</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1577"/>
         <source>&amp;TV</source>
         <translation>&amp;ТБ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1581"/>
+        <location filename="../basegui.cpp" line="1580"/>
         <source>Radi&amp;o</source>
         <translation>&amp;Радіо</translation>
     </message>
@@ -1640,22 +1639,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Перейти...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1546"/>
+        <location filename="../basegui.cpp" line="1545"/>
         <source>Subtitles onl&amp;y</source>
         <translation>Тільки &amp;субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1547"/>
+        <location filename="../basegui.cpp" line="1546"/>
         <source>Volume + &amp;Seek</source>
         <translation>Гучність + &amp;Переміщення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1548"/>
+        <location filename="../basegui.cpp" line="1547"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Гучність + Переміщення + &amp;Час</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1549"/>
+        <location filename="../basegui.cpp" line="1548"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Гучність + Переміщення + Час + &amp;Загальний час</translation>
     </message>
@@ -1670,12 +1669,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Повернути з&amp;ображення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1602"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>Zoo&amp;m</source>
         <translation>&amp;Масштаб</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1542"/>
+        <location filename="../basegui.cpp" line="1540"/>
         <source>Show filename on OSD</source>
         <translation>Показувати назву файла у екранній індикації</translation>
     </message>
@@ -1695,9 +1694,14 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Вилучити &amp;мітки А-Б</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1588"/>
+        <location filename="../basegui.cpp" line="1587"/>
         <source>&amp;A-B section</source>
         <translation>Ділянка &amp;А-Б</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1541"/>
+        <source>Toggle deinterlacing</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1736,97 +1740,97 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2544"/>
+        <location filename="../core.cpp" line="2549"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2559"/>
+        <location filename="../core.cpp" line="2564"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2573"/>
+        <location filename="../core.cpp" line="2578"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2587"/>
+        <location filename="../core.cpp" line="2592"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2601"/>
+        <location filename="../core.cpp" line="2606"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2730"/>
+        <location filename="../core.cpp" line="2735"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3540"/>
+        <location filename="../core.cpp" line="3545"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2858"/>
+        <location filename="../core.cpp" line="2863"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3411"/>
+        <location filename="../core.cpp" line="3416"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3767"/>
+        <location filename="../core.cpp" line="3778"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2772"/>
+        <location filename="../core.cpp" line="2777"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2789"/>
+        <location filename="../core.cpp" line="2794"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2655"/>
+        <location filename="../core.cpp" line="2660"/>
         <source>Speed: %1</source>
         <translation>Швидкість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2901"/>
+        <location filename="../core.cpp" line="2906"/>
         <source>Subtitles on</source>
         <translation>Субтитри увімкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2903"/>
+        <location filename="../core.cpp" line="2908"/>
         <source>Subtitles off</source>
         <translation>Субтитри вимкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3458"/>
+        <location filename="../core.cpp" line="3463"/>
         <source>Mouse wheel seeks now</source>
         <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3461"/>
+        <location filename="../core.cpp" line="3466"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3464"/>
+        <location filename="../core.cpp" line="3469"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Тепер колесо миші змінює масштаб</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3467"/>
+        <location filename="../core.cpp" line="3472"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
@@ -1841,17 +1845,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Знімки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2315"/>
+        <location filename="../core.cpp" line="2320"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2332"/>
+        <location filename="../core.cpp" line="2337"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2347"/>
+        <location filename="../core.cpp" line="2352"/>
         <source>A-B markers cleared</source>
         <translation>Мітки А-Б вилучені</translation>
     </message>
@@ -1859,44 +1863,65 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="378"/>
+        <location filename="../defaultgui.cpp" line="404"/>
         <source>Welcome to SMPlayer</source>
         <translation>Ласкаво просимо до SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="402"/>
+        <location filename="../defaultgui.cpp" line="432"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="403"/>
+        <location filename="../defaultgui.cpp" line="433"/>
         <source>Subtitle</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="396"/>
+        <location filename="../defaultgui.cpp" line="426"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Головна панель</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="399"/>
+        <location filename="../defaultgui.cpp" line="429"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Панель мов</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="393"/>
+        <location filename="../defaultgui.cpp" line="420"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панелі</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="420"/>
+        <location filename="../defaultgui.cpp" line="453"/>
         <source>A:%1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="424"/>
+        <location filename="../defaultgui.cpp" line="457"/>
         <source>B:%1</source>
         <translation></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="423"/>
+        <source>Status&amp;bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="435"/>
+        <source>&amp;Video info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="436"/>
+        <source>&amp;Frame counter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../defaultgui.cpp" line="466"/>
+        <source>%1x%2 %3 fps</source>
+        <comment>width + height + fps</comment>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3630,7 +3655,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3740,7 +3765,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4600,7 +4625,7 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="777"/>
+        <location filename="../prefgeneral.cpp" line="778"/>
         <source>General</source>
         <translation>Загальні</translation>
     </message>
@@ -4620,12 +4645,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Налаштування медіа</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="881"/>
+        <location filename="../prefgeneral.cpp" line="882"/>
         <source>Start videos in fullscreen</source>
         <translation>Стартувати відео на повний екран</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="907"/>
+        <location filename="../prefgeneral.cpp" line="908"/>
         <source>Disable screensaver</source>
         <translation>Придушити скринсейвер</translation>
     </message>
@@ -4650,77 +4675,77 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Виберіть теку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="779"/>
+        <location filename="../prefgeneral.cpp" line="780"/>
         <source>MPlayer executable</source>
         <translation>Виконуваний файл MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="810"/>
+        <location filename="../prefgeneral.cpp" line="811"/>
         <source>Screenshots folder</source>
         <translation>Тека знімків екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="827"/>
+        <location filename="../prefgeneral.cpp" line="828"/>
         <source>Video output driver</source>
         <translation>Пристрій виведення відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
+        <location filename="../prefgeneral.cpp" line="917"/>
         <source>Audio output driver</source>
         <translation>Пристрій виведення звуку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="918"/>
+        <location filename="../prefgeneral.cpp" line="919"/>
         <source>Select the audio output driver.</source>
         <translation>Виберіть драйвер виведення звуку.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="787"/>
+        <location filename="../prefgeneral.cpp" line="788"/>
         <source>Remember settings</source>
         <translation>Запам&apos;ятати налаштування</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="980"/>
+        <location filename="../prefgeneral.cpp" line="981"/>
         <source>Preferred audio language</source>
         <translation>Бажана мова аудіо</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="990"/>
+        <location filename="../prefgeneral.cpp" line="991"/>
         <source>Preferred subtitle language</source>
         <translation>Бажана мова субтитрів</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="859"/>
+        <location filename="../prefgeneral.cpp" line="860"/>
         <source>Software video equalizer</source>
         <translation>Програмний відеоеквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="863"/>
+        <location filename="../prefgeneral.cpp" line="864"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Ви можете спробувати ці опції, якщо відеоеквалайзер не підтримується Вашою відеокартою чи вибраним драйвером виведення відео.&lt;br&gt;&lt;b&gt;Примітка:&lt;/b&gt; ці опції можуть бути несумісними з деякими драйверами виведення відео.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="883"/>
+        <location filename="../prefgeneral.cpp" line="884"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Якщо Ви виберете цю опцію, всі відеофайли будуть стартувати на весь екран.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="957"/>
+        <location filename="../prefgeneral.cpp" line="958"/>
         <source>Software volume control</source>
         <translation>Програмне керування гучності</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="959"/>
+        <location filename="../prefgeneral.cpp" line="960"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Перевірте ці опції для використання програмного мікшера замість апаратного мікшера звукової карти.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="845"/>
+        <location filename="../prefgeneral.cpp" line="846"/>
         <source>Postprocessing quality</source>
         <translation>Якість післяобробки</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="848"/>
+        <location filename="../prefgeneral.cpp" line="849"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Динамічна зміна рівня післяобробки в залежності від вільного процесорного часу. Число, яке Ви вкажете, буде використано як максимальний рівень. Звичайно можна вказати досить велике значення.</translation>
     </message>
@@ -4805,12 +4830,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Передача &amp;AC3/DTS на S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="865"/>
+        <location filename="../prefgeneral.cpp" line="866"/>
         <source>Direct rendering</source>
         <translation>Пряме відтворення</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="870"/>
+        <location filename="../prefgeneral.cpp" line="871"/>
         <source>Double buffering</source>
         <translation>Подвійна буферизація</translation>
     </message>
@@ -4825,7 +4850,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Под&amp;війна буферизація</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="873"/>
+        <location filename="../prefgeneral.cpp" line="874"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Подвійна буферизація виправляє мерехтіння тримаючи два кадри в пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
     </message>
@@ -4840,12 +4865,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Типова нормалізація &amp;гучності</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="815"/>
+        <location filename="../prefgeneral.cpp" line="816"/>
         <source>Close when finished</source>
         <translation>Вийти по закінченню</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="817"/>
+        <location filename="../prefgeneral.cpp" line="818"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Ця опція активує автоматичний вихід з програми по закінченню відтворення файлу чи переліку.</translation>
     </message>
@@ -4875,32 +4900,32 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Призупинити при мінімізації</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="819"/>
+        <location filename="../prefgeneral.cpp" line="820"/>
         <source>Pause when minimized</source>
         <translation>Призупинити при мінімізації</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="842"/>
+        <location filename="../prefgeneral.cpp" line="843"/>
         <source>Enable postprocessing by default</source>
         <translation>Типово увімкнути післяобробку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="961"/>
+        <location filename="../prefgeneral.cpp" line="962"/>
         <source>Max. Amplification</source>
         <translation>Максимальне підсилення</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="931"/>
+        <location filename="../prefgeneral.cpp" line="932"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>Передача AC3/DTS на S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="968"/>
+        <location filename="../prefgeneral.cpp" line="969"/>
         <source>Volume normalization by default</source>
         <translation>Типова нормалізація гучності</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="969"/>
+        <location filename="../prefgeneral.cpp" line="970"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Максимізація гучності без спотворення звуку.</translation>
     </message>
@@ -4915,12 +4940,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">Встановити початкову гучність для всіх нових файлів.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="936"/>
+        <location filename="../prefgeneral.cpp" line="937"/>
         <source>Channels by default</source>
         <translation>Типові канали</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="966"/>
+        <location filename="../prefgeneral.cpp" line="967"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Встановлює максимальний рівень підсилення у відсотках (типово: 110). Значення 200 дозволить Вам зільшити гучність вдвічі від поточного значення. Зі значенням менше 100 початкова гучність (тобто 100%) буде вище максимуму, який неправильно відображається екранною індикацією.</translation>
     </message>
@@ -4930,27 +4955,27 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">Використовувати апаратну передачу AC3</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="843"/>
+        <location filename="../prefgeneral.cpp" line="844"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Післяобробка буде використовуватись для всіх нових файлів.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="1001"/>
         <source>Audio track</source>
         <translation>Звукова доріжка</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1005"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Задає звукову доріжку, яка буде використовуватись при відкритті нових файлів. Якщо доріжка не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Примітка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова звуку&quot;&lt;/i&gt; має перевагу над цією опцією.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="1007"/>
         <source>Subtitle track</source>
         <translation>Доріжка субтитрів</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="1011"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Задає доріжку субтитрів, яка буде використовуватись при відкритті нових файлів. Якщо доріжка не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Примітка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова субтитрів&quot;&lt;/i&gt; має перевагу над цією опцією.</translation>
     </message>
@@ -4996,12 +5021,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Висока швидкість &amp;відтворення без зміни кроку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="947"/>
+        <location filename="../prefgeneral.cpp" line="948"/>
         <source>High speed playback without altering pitch</source>
         <translation>Висока швидкість відтворення без зміни кроку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="949"/>
+        <location filename="../prefgeneral.cpp" line="950"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Дозволяє змінювати швидкість відтворення без зміни кроку. Потрібен принаймні MPlayer dev-SVN-r24924.</translation>
     </message>
@@ -5061,27 +5086,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ядерний деінтерлейсер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="825"/>
+        <location filename="../prefgeneral.cpp" line="826"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="850"/>
+        <location filename="../prefgeneral.cpp" line="851"/>
         <source>Deinterlace by default</source>
         <translation>Типовий деінтерлейсинг</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="852"/>
+        <location filename="../prefgeneral.cpp" line="853"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Виберіть фільтр деінтерлейсингу, який буде застосовано до нових відео при відкритті.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="914"/>
+        <location filename="../prefgeneral.cpp" line="915"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="978"/>
+        <location filename="../prefgeneral.cpp" line="979"/>
         <source>Preferred audio and subtitles</source>
         <translation>Бажані звук та субтитри</translation>
     </message>
@@ -5091,7 +5116,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Деін&amp;терлейсинг за замовчуванням:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="792"/>
+        <location filename="../prefgeneral.cpp" line="793"/>
         <source>Remember time position</source>
         <translation>Запам&apos;ятати позицію часу</translation>
     </message>
@@ -5106,42 +5131,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Змінити &amp;гучність безпосередньо перед відтворенням</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="335"/>
+        <location filename="../prefgeneral.cpp" line="332"/>
         <source>fast</source>
         <translation>швидко</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="331"/>
+        <location filename="../prefgeneral.cpp" line="328"/>
         <source>slow</source>
         <translation>повільно</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="336"/>
+        <location filename="../prefgeneral.cpp" line="333"/>
         <source>fast - ATI cards</source>
         <translation>швидко - карти ATI</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="376"/>
+        <location filename="../prefgeneral.cpp" line="373"/>
         <source>User defined...</source>
         <translation>Визначені користувачем...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="875"/>
+        <location filename="../prefgeneral.cpp" line="876"/>
         <source>Draw video using slices</source>
         <translation>Промальовувати відео смугами</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="879"/>
+        <location filename="../prefgeneral.cpp" line="880"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Ввімкнути/вимкнути промальовування відео смугами, висотою 16 пікселів. Якщо вимкнено, то цілий кадр малюється за раз. Може бути швидше або повільніше, в залежності відеокарти та наявного кешу. Діє лише з кодеками libmpeg2 та libavcodec.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="928"/>
+        <location filename="../prefgeneral.cpp" line="929"/>
         <source>Enable the audio equalizer</source>
         <translation>Ввімкнути аудіоеквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="929"/>
+        <location filename="../prefgeneral.cpp" line="930"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Виберіть цю опцію, якщо ви бажаєте використавувати аудіоеквалайзер.</translation>
     </message>
@@ -5161,12 +5186,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Ввімкнути аудіоеквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="855"/>
+        <location filename="../prefgeneral.cpp" line="856"/>
         <source>Default zoom</source>
         <translation>Типовий масштаб</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="857"/>
+        <location filename="../prefgeneral.cpp" line="858"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Ця опція встановлює типовий масштаб, який буде застосовуватись для нових відеофайлів.</translation>
     </message>
@@ -5176,12 +5201,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Типовий &amp;масштаб:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="783"/>
+        <location filename="../prefgeneral.cpp" line="784"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
         <translation>Тут Вам потрібно вказати виконуваний файл mplayer, який SMPlayer буде використовувати.&lt;br&gt;SMPlayer потрібна версія mplayer щонайменше 1.0rc1 (рекомендується з svn).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="785"/>
+        <location filename="../prefgeneral.cpp" line="786"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Якщо ці налаштування невірні, SMPlayer не зможе нічого програти!</translation>
     </message>
@@ -5191,37 +5216,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Тут Ви можете вказати теку, куди будуть зберігатися знімки екрану, зроблені SMPlayer. Якщо це поле буде пустим, можливість буде вимкнена.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="829"/>
+        <location filename="../prefgeneral.cpp" line="830"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
         <translation>Виберіть драйвер виведення відео. %1 забезпечує найкращу швидкодію.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="922"/>
+        <location filename="../prefgeneral.cpp" line="923"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
         <translation>%1 рекомендований. Спробуйте прибрати %2 та %3, вони повільні та можуть вплинути на швидкодію.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="790"/>
+        <location filename="../prefgeneral.cpp" line="791"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>SMPlayer зазвичай запам&apos;ятовує налаштування для кожного файлу (вибрані доріжки, гучність, фільтри...). Вимкніть цю опцію, якщо вам це не подобається.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="822"/>
+        <location filename="../prefgeneral.cpp" line="823"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Якщо ця опція увімкнена, файл буде призупинений, коли головне вікно сховане. Коли вікно відновиться, відтворення буде відновлене.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="910"/>
+        <location filename="../prefgeneral.cpp" line="911"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Встановіть цю опцію, щоб вимкнути зберігач екрану під час відтворення.&lt;br&gt;Зберігач екрану увімкнеться знову, коли відтворення завершиться.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="988"/>
+        <location filename="../prefgeneral.cpp" line="989"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Тут Ви можете вказати мову для звукових доріжок. При знаходженні декількох звукових доріжок SMPlayer буде намагатися використовувати вказану Вами мову.&lt;br&gt;Це працює тільки для форматів, які надають відомості про мови для звукових доріжок, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="998"/>
+        <location filename="../prefgeneral.cpp" line="999"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Тут Ви можете вказати мову для звукових субтитрів. При знаходженні субтитрів для SMPlayer буде намагатись використати бажану для вас мову.&lt;br&gt;Це працює тільки для форматів, які надають відомості про мови для субтитрів, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; призначить звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
@@ -5236,12 +5261,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Якщо увімкнено, початкова гучність буде встановлена прямо перед початком програвання. Це усуне високу гучність на початку. Портебує щонайменш MPlayer SVN r27872.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="885"/>
+        <location filename="../prefgeneral.cpp" line="886"/>
         <source>Add black borders on fullscreen</source>
         <translation>Додати чорні границі при повному екрані</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="888"/>
+        <location filename="../prefgeneral.cpp" line="889"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Ящо ця опція увімкнена, границі будуть додані до зображення при повному екрані. Це дозволить відображати субтитри на чорних границях.</translation>
     </message>
@@ -5261,22 +5286,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>багатьох файлах ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="797"/>
+        <location filename="../prefgeneral.cpp" line="798"/>
         <source>Method to store the file settings</source>
         <translation>Спосіб збереження файлів налаштувань</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="799"/>
+        <location filename="../prefgeneral.cpp" line="800"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Ця опція дозволить змінити спосіб, у який будуть зберігатися файли налаштувань. Доступні наступні опції:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="801"/>
+        <location filename="../prefgeneral.cpp" line="802"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;один файл ini&lt;/b&gt;: налаштування всіх відтворюваних файлів зберігатимуться в одному файлі ini (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="804"/>
+        <location filename="../prefgeneral.cpp" line="805"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Останній спосіб може бути швидшим, якщо є відомості для багатьох файлів.</translation>
     </message>
@@ -5286,37 +5311,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Зберігати налаштування в</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="803"/>
+        <location filename="../prefgeneral.cpp" line="804"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;багато файлів ini&lt;/b&gt;: буде використано один файл ini для кожного відтворюваного файлу. Ці файли ini будуть збережені у теці %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="795"/>
+        <location filename="../prefgeneral.cpp" line="796"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Якщо ви виберете цю опцію, SMPlayer пам&apos;ятатиме останнє положення файлу, коли ви відкриєте його знову. Ця опція працює тільки зі звичайними файлами (не з DVD, CD, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="868"/>
+        <location filename="../prefgeneral.cpp" line="869"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Якщо увімкнено, вмикається пряме відтворення (підтримується не всіми кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="945"/>
+        <location filename="../prefgeneral.cpp" line="946"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення відео із звуком AC3 (як DVD). В цьому випадку liba52 декодує типово та правильно змішує звук в необхідну кількість каналів. &lt;b&gt;Примітка:&lt;/b&gt; Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виведення звуку (принаймні OSS).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="806"/>
+        <location filename="../prefgeneral.cpp" line="807"/>
         <source>Enable screenshots</source>
         <translation>Увімкнути знімки екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="808"/>
+        <location filename="../prefgeneral.cpp" line="809"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Ви можете використати цю опцію, щоб увімкнути чи вимкнути можливість робити знімки екрану.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="813"/>
+        <location filename="../prefgeneral.cpp" line="814"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Тут ви можете вказати теку, де будуть зберігатися знімки екрану зроблені SMPlayer. Якщо тека вказана невірно, знімки екрану будуть вимкнені.</translation>
     </message>
@@ -5341,17 +5366,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Тека:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="951"/>
+        <location filename="../prefgeneral.cpp" line="952"/>
         <source>Global volume</source>
         <translation>Загальна гучність</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="954"/>
+        <location filename="../prefgeneral.cpp" line="955"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Якщо ця опція увімкнена, один і той же рівень гучності буде використаний для відтворення всіх файлів. Якщо вимкнена, кожен файл буде мати свою гучність.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="955"/>
+        <location filename="../prefgeneral.cpp" line="956"/>
         <source>This option also applies for the mute control.</source>
         <translation>Ця опція також застосовується для керування вимкненням звуку.</translation>
     </message>
@@ -5361,22 +5386,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Загальна гучність</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="894"/>
+        <location filename="../prefgeneral.cpp" line="895"/>
         <source>Switch screensaver off</source>
         <translation>Вимкнути зберігач екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="898"/>
+        <location filename="../prefgeneral.cpp" line="899"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Ця опція вимикає зберігач екрану тільки перед програванням файлу та вмикає його, коли програвання буде завершене. Якщо ця опція увімкнена, зберігач екрану не з&apos;являтиметься навіть коли програються аудіофайли або програвання призупинене.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="900"/>
+        <location filename="../prefgeneral.cpp" line="901"/>
         <source>Avoid screensaver</source>
         <translation>Уникати запуск зберігача екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="905"/>
+        <location filename="../prefgeneral.cpp" line="906"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Якщо ця опція увімкнена, SMPlayer намагатиметься попередити показ зберігача екрану під час відтворення відеофайлу. Показ зберігача екрану буде дозволений, якщо відтворюється аудіофайл або відтворення призупинене. Ця опція працює тільки якщо вікно SMPlayer розрорнуте.</translation>
     </message>
@@ -5396,22 +5421,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Уникати запуск зберігача екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="971"/>
+        <location filename="../prefgeneral.cpp" line="972"/>
         <source>Audio/video auto synchronization</source>
         <translation>Автосинхронізація звука/відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="973"/>
+        <location filename="../prefgeneral.cpp" line="974"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Поступове регулювання синхронізації аудіо-відео, основане на розмірах звукових затримок.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="975"/>
+        <location filename="../prefgeneral.cpp" line="976"/>
         <source>A-V sync correction</source>
         <translation>Корегування синхронізації аудіо-відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="976"/>
+        <location filename="../prefgeneral.cpp" line="977"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Найбільше значення корегування аудіо-відео на кадр (с)</translation>
     </message>
@@ -5441,7 +5466,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Найбільше корегування:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="853"/>
+        <location filename="../prefgeneral.cpp" line="854"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Примітка:&lt;/b&gt; Ця опція не буде використана для каналів ТБ.</translation>
     </message>
@@ -5451,12 +5476,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Типовий деін&amp;терлейсинг (крім ТБ):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="837"/>
+        <location filename="../prefgeneral.cpp" line="838"/>
         <source>Disable video filters when using vdpau</source>
         <translation>Вимкнути фільтри відео, коли використовується vdpau</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="839"/>
+        <location filename="../prefgeneral.cpp" line="840"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
         <translation>Зазвичай фільтри відео працюватимуть, коли використовується vdpau у якості драйвера виведення відео, тому розумно, щоб опція була увімкнена.</translation>
     </message>
@@ -5466,12 +5491,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Вимкнути &amp;фільтри відео, коли використовується vdpau</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="932"/>
+        <location filename="../prefgeneral.cpp" line="933"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Використовувати апаратну передачу AC3.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="934"/>
+        <location filename="../prefgeneral.cpp" line="935"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Примітка:&lt;/b&gt; жоден з фільтрів аудіо не буде використовуватить, коли ця опція увімкнена.</translation>
     </message>
@@ -7538,7 +7563,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../smplayer.cpp" line="380"/>
+        <location filename="../smplayer.cpp" line="376"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Це SMPlayer v. %1 запущений на %2</translation>
     </message>
