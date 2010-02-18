@@ -1227,14 +1227,16 @@ void Core::fileReachedEnd() {
 #if SEEKBAR_RESOLUTION
 void Core::goToPosition(int value) {
 	qDebug("Core::goToPosition: value: %d", value);
-#if RELATIVE_SEEK
-	goToPos( (double) value / (SEEKBAR_RESOLUTION / 100) );
-#else
-	if (mdat.duration > 0) {
-		int jump_time = (int) mdat.duration * value / SEEKBAR_RESOLUTION;
-		goToSec(jump_time);
+
+	if (pref->relative_seeking) {
+		goToPos( (double) value / (SEEKBAR_RESOLUTION / 100) );
 	}
-#endif
+	else {
+		if (mdat.duration > 0) {
+			int jump_time = (int) mdat.duration * value / SEEKBAR_RESOLUTION;
+			goToSec(jump_time);
+		}
+	}
 }
 
 void Core::goToPos(double perc) {

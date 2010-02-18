@@ -318,6 +318,11 @@ public:
 #if ENABLE_DELAYED_DRAGGING	
 	int time_slider_drag_delay;
 #endif
+#if SEEKBAR_RESOLUTION
+	//! If true, seeking will be done using a
+	//! percentage (with fractions) instead of time.
+	bool relative_seeking;  
+#endif
 
 	QString language;
 	QString iconset;
