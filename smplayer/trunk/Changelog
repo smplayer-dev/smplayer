@@ -1,5 +1,11 @@
 [b]Version 0.6.9[/b]:
 
+(2010-02-18)
+ * New option for smplayer.ini: relative_seeking (section [gui]). If true
+   seeking (with the time slider) will be done by using a percentage. If false
+   seeking will be done using an absolute time. The default value for this
+   option is true.
+
 (2010-02-09)
  * Fix: using now -af channels to select the left or right audio channel, as 
    it seems the -stereo option in mplayer doesn't work as expected.
