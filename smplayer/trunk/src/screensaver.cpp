@@ -24,6 +24,7 @@
 WinScreenSaver::WinScreenSaver() {
 	lowpower = poweroff = screensaver = 0;
 	state_saved = false;
+	modified = false;
 	
 	retrieveState();
 }
@@ -51,6 +52,11 @@ void WinScreenSaver::retrieveState() {
 }
 
 void WinScreenSaver::restoreState() {
+	if (!modified) {
+		qDebug("WinScreenSaver::restoreState: state did not change, doing nothing");
+		return;
+	}
+	
 	if (state_saved) {
 		if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
 			// Not supported on Windows Vista
@@ -74,6 +80,8 @@ void WinScreenSaver::disable() {
 		SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
 	}
 	SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 0, NULL, 0);
+
+	modified = true;
 }
 
 void WinScreenSaver::enable() {
