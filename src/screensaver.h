@@ -36,7 +36,7 @@ private:
 
 private:
 	int lowpower, poweroff, screensaver;
-	bool state_saved;
+	bool state_saved, modified;
 };
 
 #endif
