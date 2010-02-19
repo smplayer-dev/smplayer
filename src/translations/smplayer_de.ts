@@ -1911,7 +1911,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="435"/>
         <source>&amp;Video info</source>
-        <translation>&amp;Video Info</translation>
+        <translation>&amp;Video Information</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="436"/>
