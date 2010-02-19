@@ -38,7 +38,7 @@ http://smplayer.berlios.de
 http://smplayer.sourceforge.net
 
 Forum:
-http://smplayer.berlios.de/forums
+http://smplayer.berlios.de/forum
 
     -------------------------------------------------------------------------
 
