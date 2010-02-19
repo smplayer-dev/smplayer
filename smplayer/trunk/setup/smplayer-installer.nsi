@@ -354,7 +354,7 @@ SectionGroup /e "MPlayer Components"
 
 ;--------------------------------
 ;MPlayer codecs
-  Section /o "Optional Codecs" Codecs
+  Section /o "Binary Codecs" Codecs
     SectionIn 3
     AddSize 22300
 
@@ -470,11 +470,11 @@ ${MementoSectionDone}
 !ifdef WITH_MPLAYER
   !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "The engine behind SMPlayer, required for playback."
 !else ifndef WITH_MPLAYER
-  !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "Downloads/installs mplayer; requires an active internet connection. Required for playback."
+  !insertmacro MUI_DESCRIPTION_TEXT ${MPlayer} "Downloads/installs MPlayer; requires an active internet connection. Required for playback."
 !endif
-  !insertmacro MUI_DESCRIPTION_TEXT ${Codecs} "Downloads/installs optional codecs for mplayer; requires an active internet connection."
-  !insertmacro MUI_DESCRIPTION_TEXT ${Themes} "Stylish icon themes for SMPlayer."
-  !insertmacro MUI_DESCRIPTION_TEXT ${Translations} "Translations for SMPlayer."
+  !insertmacro MUI_DESCRIPTION_TEXT ${Codecs} "Downloads/installs optional binary codecs for MPlayer; requires an active internet connection."
+  !insertmacro MUI_DESCRIPTION_TEXT ${Themes} "Additional icon themes for SMPlayer."
+  !insertmacro MUI_DESCRIPTION_TEXT ${Translations} "Translations for the SMPlayer interface && help into 30+ additional languages."
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ;--------------------------------
