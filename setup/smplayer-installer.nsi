@@ -305,7 +305,7 @@ SectionGroup /e "MPlayer Components"
 !else ifndef WITH_MPLAYER
   Section MPlayer MPlayer
     SectionIn 1 2 3 RO
-    AddSize 15300
+    AddSize 16800
 
     Call GetVerInfo
 
