@@ -1,3 +1,19 @@
+Version 0.6.9.
+
+Most important changes since 0.6.8:
+
+* A serious bug has been fixed: sometimes smplayer failed to find subtitles 
+  in opensubtitles.org.
+* Implemented the possibility to mark an A-B section, to play a part of the
+  file only.
+* (Linux) smplayer doesn't use alsa as default audio driver anymore. It should
+  fix freezing problems on Ubuntu.
+* Possibility to display the video resolution and frames per second in the
+  status bar.
+* Audio: selection of left or right channel does work now.
+* (Linux) Improved support for vdpau.
+
+
 Version 0.6.8.
 
 Most important changes since 0.6.7:
