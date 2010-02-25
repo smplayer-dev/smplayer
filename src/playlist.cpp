@@ -175,6 +175,10 @@ void Playlist::createTable() {
 
 	connect( listView, SIGNAL(cellActivated(int,int)),
              this, SLOT(itemDoubleClicked(int)) );
+
+	// EDIT BY NEO -->
+	connect( listView->horizontalHeader(), SIGNAL(sectionClicked(int)), this, SLOT(sortBy(int)));
+	// <--
 }
 
 void Playlist::createActions() {
@@ -472,6 +476,97 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 		qDebug("Playlist::addItem: item not added, already in the list");
 	}
 }
+
+// EDIT BY NEO -->
+void Playlist::sortBy(int section) {
+	qDebug("Playlist::sortBy");
+
+	sortBy(section, false, 0);
+}
+
+void Playlist::sortBy(int section, bool revert, int count) {
+    // Bubble sort
+    bool swaped = false;
+
+    for ( int n = 0; n < (pl.count() - count); n++) {
+
+      int last = n - 1;
+      int current = n;
+
+      // Revert the sort
+      if (revert) {
+          last = n;
+          current = n - 1;
+      }
+
+      if (n > 0) {
+          int compare = 0;
+
+          if (section == 0) {
+              // Sort by played
+              bool lastItem = pl[last].played();
+              bool currentItem = pl[current].played();
+
+              if (!lastItem && currentItem) {
+                  compare = 1;
+              } else if (lastItem && currentItem) {
+                  if (last == current_item) {
+                     compare = 1;
+                 } else {
+                     compare = -1;
+                 }
+              } else {
+                  compare = -1;
+              }
+          }
+          else if (section == 1) {
+              // Sort alphabetically
+              QString lastItem = pl[last].name();
+              QString currentItem = pl[current].name();
+              compare = lastItem.compare(currentItem);
+          } else if (section == 2) {
+              // Sort by duration
+              double lastItem = pl[last].duration();
+              double currentItem = pl[current].duration();
+
+              if (lastItem == currentItem) {
+                  compare = 0;
+              } else if (lastItem > currentItem) {
+                  compare = 1;
+              } else {
+                  compare = -1;
+              }
+          }
+
+          // Swap items
+          if(compare > 0) {
+              swapItems(n, n - 1);
+
+              if (current_item == (n - 1)) {
+                  current_item = n;
+              } else if (current_item == n) {
+                  current_item = n - 1;
+              }
+
+              listView->clearSelection();
+              listView->setCurrentCell(n - 1, 0);
+
+              swaped = true;
+          }
+      }
+    }
+
+    if ((count == 0) && !swaped && !revert) {
+        // Revert sort
+        sortBy(section, true, 0);
+    }else if(swaped) {
+        // Sort until there is nothing to sort
+        sortBy(section, revert, ++count);
+    } else {
+        updateView();
+    }
+}
+// <--
 
 void Playlist::load_m3u(QString file) {
 	qDebug("Playlist::load_m3u");

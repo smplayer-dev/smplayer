@@ -106,6 +106,10 @@ public slots:
 	// Adds a directory, maybe with recursion (depends on user config)
 	virtual void addDirectory(QString dir);
 
+	// EDIT BY NEO -->
+	virtual void sortBy(int section);
+	// <--
+
 	void editPreferences();
 
 	virtual bool maybeSave();
@@ -139,6 +143,9 @@ protected:
 	void clearPlayedTag();
 	int chooseRandomItem();
 	void swapItems(int item1, int item2 );
+	// EDIT BY NEO -->
+	void sortBy(int section, bool revert, int count);
+	// <--
 	QString lastDir();
 
 protected slots:
