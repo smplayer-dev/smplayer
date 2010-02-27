@@ -649,7 +649,7 @@ FunctionEnd
 Function LoadPreviousSettings
 
   ;MPlayer codecs section doesn't use Memento so we need to restore it manually
-  ReadRegStr $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_Codecs"
+  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_Codecs"
   ${If} $R0 == 1
     !insertmacro SelectSection ${Codecs}
   ${EndIf}
