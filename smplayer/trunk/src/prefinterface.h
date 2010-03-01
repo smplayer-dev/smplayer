@@ -96,6 +96,9 @@ protected:
 	void setUpdateWhileDragging(bool);
 	bool updateWhileDragging();
 
+	void setRelativeSeeking(bool);
+	bool relativeSeeking();
+
 	void setDefaultFont(QString font_desc);
 	QString defaultFont();
 
