@@ -317,7 +317,7 @@ void Preferences::reset() {
 	time_slider_drag_delay = 100;
 #endif
 #if SEEKBAR_RESOLUTION
-	relative_seeking = true;
+	relative_seeking = false;
 #endif
 
 	language = "";
