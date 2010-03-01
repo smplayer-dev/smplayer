@@ -1,5 +1,9 @@
 [b]Version 0.6.10[/b]:
 
+(2010-03-01)
+ * Added the possibility to select the seeking method (absolute or relative) in
+   Preferences -> Interface.
+
 (2010-02-25)
  * Possibility to sort the items of the playlist. Implemented by 
    Neo254 <manuel.ohrndorf@gmx.net> 
