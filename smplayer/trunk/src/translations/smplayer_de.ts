@@ -6341,7 +6341,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="563"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Legt die Positionierungsmethode des Schiebereglers fest. Absolute Positionierung ist eventuell etwas akkurater, relative Positionierung arbeitet wahrscheinlich besser bei Dateien mit flascher Laufzeit.</translation>
+        <translation>Legt die Positionierungsmethode des Schiebereglers fest. Absolute Positionierung ist eventuell etwas akkurater, relative Positionierung arbeitet wahrscheinlich besser bei Dateien mit falscher Laufzeit.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
