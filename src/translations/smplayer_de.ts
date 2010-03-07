@@ -6208,12 +6208,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="601"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Absolute Positionierung</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Relative Positionierung</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6336,12 +6336,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
         <location filename="../prefinterface.cpp" line="562"/>
         <location filename="../prefinterface.ui" line="589"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Positionierungsmethode</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="563"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Legt die Positionierungsmethode des Schiebereglers fest. Absolute Positionierung ist eventuell etwas akkurater, relative Positionierung arbeitet wahrscheinlich besser bei Dateien mit flascher Laufzeit.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
