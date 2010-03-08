@@ -1,5 +1,10 @@
 ; Installer script for win32 SMPlayer
 ; Written by redxii (redxii@users.sourceforge.net)
+; Tested/Developed with Unicode NSIS 2.45.1
+
+!ifndef VER_MAJOR | VER_MINOR | VER_BUILD
+  !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
+!endif
 
 ;--------------------------------
 ;Compressor
@@ -36,10 +41,18 @@
 !ifndef DEFAULT_CODECS_VERSION
   !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
 !endif
+
 !ifndef WITH_MPLAYER
-!ifndef DEFAULT_MPLAYER_VERSION
-  !define DEFAULT_MPLAYER_VERSION "mplayer-svn-28311-2"
+
+  !ifndef DEFAULT_MPLAYER_VERSION
+    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-30369"
+  !endif
+
 !endif
+
+  ;Version control
+!ifndef VERSION_FILE_URL
+  !define VERSION_FILE_URL "http://smplayer.sourceforge.net/mplayer-version-info"
 !endif
 
 ;--------------------------------
@@ -164,12 +177,12 @@
 ;--------------------------------
 ;Languages
 
+  !insertmacro MUI_LANGUAGE "English"
   !insertmacro MUI_LANGUAGE "Basque"
   !insertmacro MUI_LANGUAGE "Catalan"
   !insertmacro MUI_LANGUAGE "Czech"
   !insertmacro MUI_LANGUAGE "Danish"
   !insertmacro MUI_LANGUAGE "Dutch"
-  !insertmacro MUI_LANGUAGE "English"
   !insertmacro MUI_LANGUAGE "Finnish"
   !insertmacro MUI_LANGUAGE "French"
   !insertmacro MUI_LANGUAGE "German"
@@ -186,12 +199,12 @@
 
 ; Custom translations for setup
 
+  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\english.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\basque.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\catalan.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\czech.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\danish.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\dutch.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\english.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\finnish.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\french.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\german.nsh"
@@ -450,7 +463,7 @@ Section -Post
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.berlios.de/forum"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "Publisher" "RVM"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "Publisher" "Ricardo Villalba"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString" "$INSTDIR\${SMPLAYER_UNINST_EXE}"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
@@ -530,7 +543,7 @@ Function .onSelChange
     StrCpy $R1 $R0
     IntOp $R0 $R0 & ${SF_SELECTED}
   ${If} $R0 == ${SF_SELECTED}
-    MessageBox MB_OK $(MPLAYER_CODEC_INFORMATION)
+    MessageBox MB_OK|MB_ICONINFORMATION $(MPLAYER_CODEC_INFORMATION)
   ${EndIf}
   ${EndIf}
 
@@ -636,8 +649,7 @@ Function GetVerInfo
 
   IfFileExists "$PLUGINSDIR\version-info" end_dl_ver_info 0
     DetailPrint $(VERINFO_IS_DOWNLOADING)
-    inetc::get /timeout 30000 /resume "" /silent "http://smplayer.sourceforge.net/mplayer-version-info" \
-    "$PLUGINSDIR\version-info"
+    inetc::get /timeout 30000 /resume "" /silent ${VERSION_FILE_URL} "$PLUGINSDIR\version-info"
     Pop $R0
     StrCmp $R0 OK +2
       DetailPrint $(VERINFO_DL_FAILED)
