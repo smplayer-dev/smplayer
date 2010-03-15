@@ -3711,6 +3711,12 @@ void BaseGui::processFunction(QString function) {
 
 	if (action) {
 		qDebug("BaseGui::processFunction: action found");
+
+		if (!action->isEnabled()) {
+			qDebug("BaseGui::processFunction: action is disabled, doing nothing");
+			return;
+		}
+
 		if (action->isCheckable()) 
 			//action->toggle();
 			action->trigger();
