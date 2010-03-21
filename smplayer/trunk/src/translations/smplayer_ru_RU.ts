@@ -6091,12 +6091,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="601"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Абсолютное позиционирование</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Относительное позиционирование</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6219,12 +6219,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="562"/>
         <location filename="../prefinterface.ui" line="589"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Способ позиционирования</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="563"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Установка метода, используемого при позиционировании ползунка перемотки. Абсолютное позиционирование более точное, но отностиельное может работать лучше с файлами с неправильной длительностью.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
