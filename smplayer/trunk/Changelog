@@ -4,6 +4,7 @@
  * For consistency, the playlist preferences have been moved to the
    playlist section in the main preferences dialog (and the playlist own
    preferences dialog has been deleted).
+ * Added the Danish translation, by Martin Schlander <mschlander@opensuse.org>
 
 (2010-03-01)
  * Added the possibility to select the seeking method (absolute or relative) in
