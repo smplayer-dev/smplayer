@@ -72,11 +72,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 {
 	save_playlist_in_config = true;
 	recursive_add_directory = false;
-#ifdef Q_OS_WIN
 	automatically_get_info = false;
-#else
-	automatically_get_info = true;
-#endif
 	play_files_from_start = true;
 
 	automatically_play_next = true;
