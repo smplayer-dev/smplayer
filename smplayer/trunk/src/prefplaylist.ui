@@ -76,14 +76,55 @@
         </layout>
        </item>
        <item>
+        <widget class="Line" name="line" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="orientation" >
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="play_from_start_check" >
+         <property name="text" >
+          <string>P&amp;lay files from start</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="recursive_check" >
+         <property name="text" >
+          <string>Add files in directories &amp;recursively</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="getinfo_check" >
+         <property name="text" >
+          <string>Get &amp;info automatically about files added (slow)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="autosave_on_exit_check" >
+         <property name="text" >
+          <string>&amp;Save copy of playlist on exit</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>
          </property>
          <property name="sizeHint" >
           <size>
-           <width>20</width>
-           <height>40</height>
+           <width>354</width>
+           <height>61</height>
           </size>
          </property>
         </spacer>

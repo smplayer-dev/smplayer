@@ -126,6 +126,18 @@ public slots:
 
 	void setModified(bool);
 
+	// Preferences
+	void setDirectoryRecursion(bool b) { recursive_add_directory = b; };
+	void setAutoGetInfo(bool b) { automatically_get_info = b; };
+	void setSavePlaylistOnExit(bool b) { save_playlist_in_config = b; };
+	void setPlayFilesFromStart(bool b) { play_files_from_start = b; };
+
+public:
+	bool directoryRecursion() { return recursive_add_directory; };
+	bool autoGetInfo() { return automatically_get_info; };
+	bool savePlaylistOnExit() { return save_playlist_in_config; };
+	bool playFilesFromStart() { return play_files_from_start; };
+
 /*
 public:
 	MyAction * playPrevAct() { return prevAct; };

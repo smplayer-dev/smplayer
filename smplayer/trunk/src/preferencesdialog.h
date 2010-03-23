@@ -60,6 +60,7 @@ public:
 	PrefInterface * mod_interface() { return page_interface; };
 	PrefInput * mod_input() { return page_input; };
 	PrefAdvanced * mod_advanced() { return page_advanced; };
+	PrefPlaylist * mod_playlist() { return page_playlist; };
 
 	void addSection(PrefWidget *w);
 
