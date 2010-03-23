@@ -110,8 +110,6 @@ public slots:
 	virtual void sortBy(int section);
 	// <--
 
-	void editPreferences();
-
 	virtual bool maybeSave();
     virtual void load();
     virtual bool save();
@@ -214,7 +212,6 @@ protected:
 	MyAction * nextAct;
 	MyAction * repeatAct;
 	MyAction * shuffleAct;
-	MyAction * preferencesAct;
 
 	MyAction * moveUpAct;
 	MyAction * moveDownAct;

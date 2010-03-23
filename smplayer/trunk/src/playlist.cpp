@@ -51,7 +51,6 @@
 #include "core.h"
 #include "extensions.h"
 #include "guiconfig.h"
-#include "playlistpreferences.h"
 
 #include <stdlib.h>
 
@@ -209,9 +208,6 @@ void Playlist::createActions() {
 	shuffleAct = new MyAction(this, "pl_shuffle", false);
 	shuffleAct->setCheckable(true);
 
-	preferencesAct = new MyAction(this, "pl_preferences", false);
-	connect( preferencesAct, SIGNAL(triggered()), this, SLOT(editPreferences()) );
-
 	// Add actions
 	addCurrentAct = new MyAction(this, "pl_add_current", false);
 	connect( addCurrentAct, SIGNAL(triggered()), this, SLOT(addCurrentFile()) );
@@ -274,7 +270,6 @@ void Playlist::createToolbar() {
 	toolbar->addAction(moveUpAct);
 	toolbar->addAction(moveDownAct);
 	toolbar->addSeparator();
-	toolbar->addAction(preferencesAct);
 
 	// Popup menu
 	popup = new QMenu(this);
@@ -313,8 +308,6 @@ void Playlist::retranslateStrings() {
 
 	repeatAct->change( Images::icon("repeat"), tr("&Repeat") );
 	shuffleAct->change( Images::icon("shuffle"), tr("S&huffle") );
-
-	preferencesAct->change( Images::icon("prefs"), tr("Preferences") );
 
 	// Add actions
 	addCurrentAct->change( tr("Add &current file") );
@@ -1260,22 +1253,6 @@ void Playlist::editItem(int item) {
 
 		setModified( true );
     } 
-}
-
-void Playlist::editPreferences() {
-	PlaylistPreferences d(this);
-
-	d.setDirectoryRecursion(recursive_add_directory);
-	d.setAutoGetInfo(automatically_get_info);
-	d.setSavePlaylistOnExit(save_playlist_in_config);
-	d.setPlayFilesFromStart(play_files_from_start);
-
-	if (d.exec() == QDialog::Accepted) {
-		recursive_add_directory = d.directoryRecursion();
-		automatically_get_info = d.autoGetInfo();
-		save_playlist_in_config = d.savePlaylistOnExit();
-		play_files_from_start = d.playFilesFromStart();
-	}
 }
 
 // Drag&drop
