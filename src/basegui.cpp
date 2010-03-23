@@ -84,6 +84,7 @@
 #include "prefinterface.h"
 #include "prefinput.h"
 #include "prefadvanced.h"
+#include "prefplaylist.h"
 
 #include "myaction.h"
 #include "myactiongroup.h"
@@ -2439,6 +2440,14 @@ void BaseGui::showPreferencesDialog() {
 #if !DOCK_PLAYLIST
 	pref_dialog->mod_input()->actions_editor->addActions(playlist);
 #endif
+
+	// Set playlist preferences
+	PrefPlaylist * pl = pref_dialog->mod_playlist();
+	pl->setDirectoryRecursion(playlist->directoryRecursion());
+	pl->setAutoGetInfo(playlist->autoGetInfo());
+	pl->setSavePlaylistOnExit(playlist->savePlaylistOnExit());
+	pl->setPlayFilesFromStart(playlist->playFilesFromStart());
+
 	pref_dialog->show();
 }
 
@@ -2514,6 +2523,14 @@ void BaseGui::applyNewPreferences() {
 	if (advanced->monitorAspectChanged()) {
 		mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 	}
+
+	// Update playlist preferences
+	PrefPlaylist * pl = pref_dialog->mod_playlist();
+	playlist->setDirectoryRecursion(pl->directoryRecursion());
+	playlist->setAutoGetInfo(pl->autoGetInfo());
+	playlist->setSavePlaylistOnExit(pl->savePlaylistOnExit());
+	playlist->setPlayFilesFromStart(pl->playFilesFromStart());
+
 
 	if (need_update_language) {
 		translator->load(pref->language);

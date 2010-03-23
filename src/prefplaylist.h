@@ -41,6 +41,19 @@ public:
     // Apply changes
     void getData(Preferences * pref);
 
+
+	void setDirectoryRecursion(bool b);
+	bool directoryRecursion();
+
+	void setAutoGetInfo(bool b);
+	bool autoGetInfo();
+
+	void setSavePlaylistOnExit(bool b);
+	bool savePlaylistOnExit();
+
+	void setPlayFilesFromStart(bool b);
+	bool playFilesFromStart();
+
 protected:
 	virtual void createHelp();
 
