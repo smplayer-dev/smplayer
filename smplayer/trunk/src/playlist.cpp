@@ -265,7 +265,6 @@ void Playlist::createToolbar() {
 	toolbar->addSeparator();
 	toolbar->addAction(moveUpAct);
 	toolbar->addAction(moveDownAct);
-	toolbar->addSeparator();
 
 	// Popup menu
 	popup = new QMenu(this);
