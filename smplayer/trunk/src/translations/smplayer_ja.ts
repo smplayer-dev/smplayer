@@ -300,7 +300,7 @@
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>Danish</source>
-        <translation type="unfinished">デンマーク語</translation>
+        <translation>デンマーク語</translation>
     </message>
 </context>
 <context>
@@ -1706,7 +1706,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
         <source>Toggle deinterlacing</source>
-        <translation type="unfinished"></translation>
+        <translation>インターレース解除の切り替え</translation>
     </message>
 </context>
 <context>
@@ -1900,33 +1900,33 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="453"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>A:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="457"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>B:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="423"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished"></translation>
+        <translation>ステータス バー(&amp;B)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="435"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ情報(&amp;V)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="436"/>
         <source>&amp;Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>フレーム数(&amp;F)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="466"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1x%2 %3 fps</translation>
     </message>
 </context>
 <context>
@@ -5654,7 +5654,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Frame counter</source>
-        <translation>フレーム カウンター</translation>
+        <translation>フレーム数</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="76"/>
@@ -6122,12 +6122,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="601"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>絶対シーク(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>相対シーク(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6247,12 +6247,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="589"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>シーク方法</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="565"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>スライダーでのシーク時に使用される方法を設定します。絶対シークは少し正確で、相対シークは間違った長さのファイルでもよく動作する可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
@@ -6803,42 +6803,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>再帰的にディレクトリのファイルを追加する</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished">ディレクトリの追加が再帰的にサブディレクトリのファイルも追加することがよい場合はこのオプションをチェックします。でなければ選択されたディレクトリのファイルのみ追加されます。</translation>
+        <translation>ディレクトリの追加が再帰的にサブディレクトリのファイルも追加することがよい場合はこのオプションをチェックします。でなければ選択されたディレクトリのファイルのみ追加されます。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>追加されるファイルについて自動的に情報を取得する</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished">いくつかの情報をプレイリストに追加されるファイルに問い合わせるにはこのオプションをチェックします。それはファイルのタイトル名 (利用可能なら) と長さの表示を許可します。でなければこの情報はファイルが実際に再生されるまで利用できません。用心: このオプションは特に多くのファイルを追加する場合、低速になることがあります。</translation>
+        <translation>プレイリストに追加されるファイルにいくつかの情報を問い合わせるにはこのオプションをチェックします。それはファイルのタイトル名 (利用可能なら) と長さの表示を許可します。でなければこの情報はファイルが実際に再生されるまで利用できません。用心: このオプションは特に多くのファイルを追加する場合、低速になることがあります。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>開始からファイルを再生する(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>再帰的にディレクトリのファイルを追加する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>追加されるファイルについて自動的に情報を取得する (低速)(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished">終了時にプレイリストのコピーを保存する(&amp;S)</translation>
+        <translation>終了時にプレイリストのコピーを保存する(&amp;S)</translation>
     </message>
 </context>
 <context>
