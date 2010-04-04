@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="cs">
+<!DOCTYPE TS>
+<TS version="2.0" language="cs">
 <context>
     <name>About</name>
     <message>
@@ -300,7 +301,7 @@
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>Danish</source>
-        <translation type="unfinished">Dánština</translation>
+        <translation>Dánština</translation>
     </message>
 </context>
 <context>
@@ -3660,7 +3661,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Marshallese</source>
         <translation>Maršálština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3770,7 +3771,7 @@ Zkontrolujte přístupová práva.</translation>
         <source>Venda</source>
         <translation>Luvendština</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -6119,12 +6120,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="601"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Absolutní</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Relativní</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6244,12 +6245,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="589"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Metoda seekování</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="565"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastaví metodu, která se použije při seekování pomocí posuvníku. Absolutní metoda může být přesnější, relativní metoda funguje lépe pro soubory s chybnou délkou videa.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
@@ -6800,42 +6801,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidá soubory v adresářích rekurzivně</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished">Zaškrtněte tuto volbu, poud chcete po přídání adresáře také rekurzivně přidat všechny podadresáře. Jinak se přidají pouze soubory ve vybraném adresáři.</translation>
+        <translation>Zaškrtněte tuto volbu, poud chcete po přidání adresáře také rekurzivně přidat všechny podadresáře. Jinak se přidají pouze soubory ve vybraném adresáři.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Načíst informace o přidaných souborech</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished">Zaškrtněte tuto volbu pro načtení informací o přidávaných souborech. To umožní zobrazit název titulu (pokud je obsažen) a délku přehrávání souboru. Jinak se tato informace zobrazí až se soubor začne přehrávat. Pozor: může způsobit zpomalení, obzvláště při velkém množství souborů.</translation>
+        <translation>Zaškrtněte tuto volbu pro načtení informací o přidávaných souborech. To umožní zobrazit název titulu (pokud je obsažen) a délku přehrávání souboru. Jinak se tato informace zobrazí až se soubor začne přehrávat. Pozor: může způsobit zpomalení, obzvláště při velkém množství souborů.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Přehrát &amp;soubory od počátku</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat soubory v adresářích &amp;rekurzivně</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaticky dodat &amp;informace o souborech (pomalé)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished">&amp;Uložit kopii playlistu při ukončení</translation>
+        <translation>&amp;Uložit kopii playlistu při ukončení</translation>
     </message>
 </context>
 <context>
