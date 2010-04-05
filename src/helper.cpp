@@ -205,7 +205,7 @@ QStringList Helper::searchForConsecutiveFiles(const QString & initial_file) {
 	QString extension = fi.suffix();
 	QString path = fi.absolutePath();
 
-	QRegExp rx("^.*(\\d+)");
+	QRegExp rx("^.*\\D(\\d+)");
 
 	if ( rx.indexIn(basename) > -1) {
 		int digits = rx.cap(1).length();
