@@ -13,13 +13,30 @@ ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Rendszergazdaként kell bejelentk
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.$\nNem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, MPEG-1/2/4, stb."
 
+; Upgrade/Reinstall Page
+# MUI Headers
+${LangFileString} REINSTALL_HEADER_TEXT "Already Installed"
+${LangFileString} REINSTALL_HEADER_SUBTEXT "Choose how you want to install SMPlayer."
+${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Choose the maintenance option to perform."
+# Misc
+${LangFileString} REINSTALL_CHGSETTINGS "Change settings (advanced)"
+${LangFileString} REINSTALL_UNKNOWN_VALUE "Unknown value of PREVIOUS_VERSION_STATE, aborting"
+# Older version detected
+${LangFileString} REINSTALL_OLDVER_DESCRIPTION "An older version of SMPlayer is installed on your system. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_OLDVER_UPGRADE "Upgrade SMPlayer using previous settings (recommended)"
+# Newer version detected
+${LangFileString} REINSTALL_NEWVER_DESCRIPTION "A newer version of SMPlayer is already installed! It is not recommended that you downgrade to an older version. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Downgrade SMPlayer using previous settings (recommended)"
+# Same version detected
+${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} is already installed. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Add/Remove/Reinstall components"
+${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Uninstall SMPlayer"
+
 ; MPlayer Section
-!ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_DOWNLOADING "Az MPlayer letöltése..."
-  ${LangFileString} MPLAYER_DL_RETRY "Az MPlayer telepítése nem sikerült. Újra próbáljam?"
-  ${LangFileString} MPLAYER_DL_FAILED "Az MPlayer letöltése nem sikerült: '$R0'."
-  ${LangFileString} MPLAYER_INST_FAILED "Az MPlayer telepítése nem sikerült. Az MPlayerre szükség van a lejátszáshoz."
-!endif
+${LangFileString} MPLAYER_IS_DOWNLOADING "Az MPlayer letöltése..."
+${LangFileString} MPLAYER_DL_RETRY "Az MPlayer telepítése nem sikerült. Újra próbáljam?"
+${LangFileString} MPLAYER_DL_FAILED "Az MPlayer letöltése nem sikerült: '$R0'."
+${LangFileString} MPLAYER_INST_FAILED "Az MPlayer telepítése nem sikerült. Az MPlayerre szükség van a lejátszáshoz."
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_DOWNLOADING "MPlayer kodekek letöltése..."
