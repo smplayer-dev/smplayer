@@ -13,13 +13,30 @@ ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an admin
 ; Components Page
 ${LangFileString} MPLAYER_CODEC_INFORMATION "Пакеты с бинарными кодеками добавляют поддержку кодеков, не встроенных в mplayer, например, RealVideo и других нестандартных форматов.$\nОбратите внимание, что эти кодеки не нужны для воспроизведения большинства обычных форматов вроде DVD, MPEG-1/2/4 и т.п."
 
+; Upgrade/Reinstall Page
+# MUI Headers
+${LangFileString} REINSTALL_HEADER_TEXT "Already Installed"
+${LangFileString} REINSTALL_HEADER_SUBTEXT "Choose how you want to install SMPlayer."
+${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Choose the maintenance option to perform."
+# Misc
+${LangFileString} REINSTALL_CHGSETTINGS "Change settings (advanced)"
+${LangFileString} REINSTALL_UNKNOWN_VALUE "Unknown value of PREVIOUS_VERSION_STATE, aborting"
+# Older version detected
+${LangFileString} REINSTALL_OLDVER_DESCRIPTION "An older version of SMPlayer is installed on your system. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_OLDVER_UPGRADE "Upgrade SMPlayer using previous settings (recommended)"
+# Newer version detected
+${LangFileString} REINSTALL_NEWVER_DESCRIPTION "A newer version of SMPlayer is already installed! It is not recommended that you downgrade to an older version. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Downgrade SMPlayer using previous settings (recommended)"
+# Same version detected
+${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} is already installed. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Add/Remove/Reinstall components"
+${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Uninstall SMPlayer"
+
 ; MPlayer Section
-!ifndef WITH_MPLAYER
-  ${LangFileString} MPLAYER_IS_DOWNLOADING "Загрузка MPlayer..."
-  ${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
-  ${LangFileString} MPLAYER_DL_FAILED "Не удалось загрузить MPlayer: '$R0'."
-  ${LangFileString} MPLAYER_INST_FAILED "Ошибка при установке MPlayer. MPlayer требуется для воспроизведения."
-!endif
+${LangFileString} MPLAYER_IS_DOWNLOADING "Загрузка MPlayer..."
+${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
+${LangFileString} MPLAYER_DL_FAILED "Не удалось загрузить MPlayer: '$R0'."
+${LangFileString} MPLAYER_INST_FAILED "Ошибка при установке MPlayer. MPlayer требуется для воспроизведения."
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_DOWNLOADING "Загрузка бинарных кодеков для MPlayer..."
