@@ -15,22 +15,22 @@ ${LangFileString} MPLAYER_CODEC_INFORMATION "Binäre Codec-Pakete werden eingese
 
 ; Upgrade/Reinstall Page
 # MUI Headers
-${LangFileString} REINSTALL_HEADER_TEXT "Already Installed"
-${LangFileString} REINSTALL_HEADER_SUBTEXT "Choose how you want to install SMPlayer."
-${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Choose the maintenance option to perform."
+${LangFileString} REINSTALL_HEADER_TEXT "Bereits installiert"
+${LangFileString} REINSTALL_HEADER_SUBTEXT "Auswahl wie SMPLayer installiert werden soll."
+${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Auswahl der auszuführenden Wartungsoption."
 # Misc
-${LangFileString} REINSTALL_CHGSETTINGS "Change settings (advanced)"
-${LangFileString} REINSTALL_UNKNOWN_VALUE "Unknown value of PREVIOUS_VERSION_STATE, aborting"
+${LangFileString} REINSTALL_CHGSETTINGS "Einstellungen ändern (Fortgeschritten)"
+${LangFileString} REINSTALL_UNKNOWN_VALUE "Unbekannter Zustandswert der vorangehenden Version, Abbruch."
 # Older version detected
-${LangFileString} REINSTALL_OLDVER_DESCRIPTION "An older version of SMPlayer is installed on your system. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_OLDVER_UPGRADE "Upgrade SMPlayer using previous settings (recommended)"
+${LangFileString} REINSTALL_OLDVER_DESCRIPTION "Eine ältere Version von SMPlayer ist auf diesem System installiert. Auswahl der Operation die durchführt werden soll und auf Weiter klicken, um fortzufahren."
+${LangFileString} REINSTALL_OLDVER_UPGRADE "Aktualisieren von SMPlayer mit vorherigen Einstellungen (empfohlen)"
 # Newer version detected
-${LangFileString} REINSTALL_NEWVER_DESCRIPTION "A newer version of SMPlayer is already installed! It is not recommended that you downgrade to an older version. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Downgrade SMPlayer using previous settings (recommended)"
+${LangFileString} REINSTALL_NEWVER_DESCRIPTION "Eine neuere Version von SMPlayer ist bereits installiert! Es wird nicht empfohlen eine ältere Version zu installieren. Auswahl der Operation die durchführt werden soll und auf Weiter klicken, um fortzufahren."
+${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Herabstufung von SMPlayer mit vorherigen Einstellungen (empfohlen)"
 # Same version detected
-${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} is already installed. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Add/Remove/Reinstall components"
-${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Uninstall SMPlayer"
+${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} ist bereits installiert. Auswahl der Operation die durchführt werden soll und auf Weiter klicken, um fortzufahren."
+${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Hinzufügen/Entfernen/Neuinstalllation der Komponenten"
+${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "SMPlayer deinstallieren"
 
 ; MPlayer Section
 ${LangFileString} MPLAYER_IS_DOWNLOADING "Lade MPlayer herunter..."
