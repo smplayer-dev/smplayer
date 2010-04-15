@@ -1,5 +1,10 @@
 [b]Version 0.6.10[/b]:
 
+(2010-04-14)
+ * (Experimental) If using mplayer svn r31030, the audio filters (karaoke, 
+   extrastereo and volnorm) are changed without restarting mplayer, using the
+   new slave commands af_add and af_del.
+
 (2010-03-22)
  * For consistency, the playlist preferences have been moved to the
    playlist section in the main preferences dialog (and the playlist own

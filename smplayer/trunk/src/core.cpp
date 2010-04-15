@@ -2417,7 +2417,12 @@ void Core::toggleKaraoke(bool b) {
 	qDebug("Core::toggleKaraoke: %d", b);
 	if (b != mset.karaoke_filter) {
 		mset.karaoke_filter = b;
-		restartPlay();
+		if (MplayerVersion::isMplayerAtLeast(31030)) {
+			// Change filter without restarting
+			if (b) tellmp("af_add karaoke"); else tellmp("af_del karaoke");
+		} else {
+			restartPlay();
+		}
 	}
 }
 
@@ -2429,7 +2434,12 @@ void Core::toggleExtrastereo(bool b) {
 	qDebug("Core::toggleExtrastereo: %d", b);
 	if (b != mset.extrastereo_filter) {
 		mset.extrastereo_filter = b;
-		restartPlay();
+		if (MplayerVersion::isMplayerAtLeast(31030)) {
+			// Change filter without restarting
+			if (b) tellmp("af_add extrastereo"); else tellmp("af_del extrastereo");
+		} else {
+			restartPlay();
+		}
 	}
 }
 
@@ -2441,7 +2451,13 @@ void Core::toggleVolnorm(bool b) {
 	qDebug("Core::toggleVolnorm: %d", b);
 	if (b != mset.volnorm_filter) {
 		mset.volnorm_filter = b;
-		restartPlay();
+		if (MplayerVersion::isMplayerAtLeast(31030)) {
+			// Change filter without restarting
+			QString f = pref->filters->item("volnorm").filter();
+			if (b) tellmp("af_add " + f); else tellmp("af_del volnorm");
+		} else {
+			restartPlay();
+		}
 	}
 }
 
