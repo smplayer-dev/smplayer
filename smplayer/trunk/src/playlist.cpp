@@ -990,9 +990,11 @@ void Playlist::addCurrentFile() {
 }
 
 void Playlist::addFiles() {
+	Extensions e;
 	QStringList files = MyFileDialog::getOpenFileNames(
                             this, tr("Select one or more files to open"), 
                             lastDir(),
+                            tr("Multimedia") + e.multimedia().forFilter() + ";;" +
                             tr("All files") +" (*.*)" );
 
 	if (files.count()!=0) addFiles(files);  
