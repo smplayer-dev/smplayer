@@ -29,7 +29,6 @@
 !endif
 
   !define SMPLAYER_APP_PATHS_KEY "Software\Microsoft\Windows\CurrentVersion\App Paths\smplayer.exe"
-  !define SMPLAYER_DEFPROGRAMS_KEY "Software\Clients\Media\SMPlayer\Capabilities"
   !define SMPLAYER_REG_KEY "Software\SMPlayer"
 
   !define SMPLAYER_UNINST_EXE "uninst.exe"
@@ -491,6 +490,108 @@ ${MementoSectionDone}
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ;--------------------------------
+;Macros
+
+!macro MacroAllExtensions _action
+  !insertmacro ${_action} ".3gp"
+  !insertmacro ${_action} ".ac3"
+  !insertmacro ${_action} ".ape"
+  !insertmacro ${_action} ".asf"
+  !insertmacro ${_action} ".avi"
+  !insertmacro ${_action} ".bin"
+  !insertmacro ${_action} ".dat"
+  !insertmacro ${_action} ".divx"
+  !insertmacro ${_action} ".dv"
+  !insertmacro ${_action} ".dvr-ms"
+  !insertmacro ${_action} ".f4v"
+  !insertmacro ${_action} ".flac"
+  !insertmacro ${_action} ".flv"
+  !insertmacro ${_action} ".iso"
+  !insertmacro ${_action} ".m1v"
+  !insertmacro ${_action} ".m2t"
+  !insertmacro ${_action} ".m2ts"
+  !insertmacro ${_action} ".m2v"
+  !insertmacro ${_action} ".m3u"
+  !insertmacro ${_action} ".m3u8"
+  !insertmacro ${_action} ".m4v"
+  !insertmacro ${_action} ".mkv"
+  !insertmacro ${_action} ".mov"
+  !insertmacro ${_action} ".mp3"
+  !insertmacro ${_action} ".mp4"
+  !insertmacro ${_action} ".mpeg"
+  !insertmacro ${_action} ".mpg"
+  !insertmacro ${_action} ".mpv"
+  !insertmacro ${_action} ".mqv"
+  !insertmacro ${_action} ".nsv"
+  !insertmacro ${_action} ".ogg"
+  !insertmacro ${_action} ".ogm"
+  !insertmacro ${_action} ".ogv"
+  !insertmacro ${_action} ".pls"
+  !insertmacro ${_action} ".ra"
+  !insertmacro ${_action} ".ram"
+  !insertmacro ${_action} ".rec"
+  !insertmacro ${_action} ".rm"
+  !insertmacro ${_action} ".rmvb"
+  !insertmacro ${_action} ".swf"
+  !insertmacro ${_action} ".ts"
+  !insertmacro ${_action} ".vcd"
+  !insertmacro ${_action} ".vfw"
+  !insertmacro ${_action} ".vob"
+  !insertmacro ${_action} ".wav"
+  !insertmacro ${_action} ".wma"
+  !insertmacro ${_action} ".wmv"
+!macroend
+
+!macro WriteRegStrSupportedTypes EXT
+  WriteRegStr HKLM  "${SMPLAYER_REG_KEY}\Capabilities\FileAssociations" ${EXT} "MPlayerFileVideo"
+!macroend
+
+!macro MacroRemoveSMPlayer
+  ;Delete desktop and start menu shortcuts
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Shortcuts..."
+  SetDetailsPrint listonly
+
+  SetShellVarContext all
+  Delete "$DESKTOP\SMPlayer.lnk"
+  Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
+  Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
+  Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
+  RMDir "$SMPROGRAMS\SMPlayer"
+
+  ;Delete directories recursively except for main directory
+  ;Do not recursively delete $INSTDIR
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Files..."
+  SetDetailsPrint listonly
+
+  RMDir /r "$INSTDIR\docs"
+  RMDir /r "$INSTDIR\imageformats"
+  RMDir /r "$INSTDIR\mplayer"
+  RMDir /r "$INSTDIR\shortcuts"
+  RMDir /r "$INSTDIR\themes"
+  RMDir /r "$INSTDIR\translations"
+  Delete "$INSTDIR\*.txt"
+  Delete "$INSTDIR\mingwm10.dll"
+  Delete "$INSTDIR\Q*.dll"
+  Delete "$INSTDIR\smplayer.exe"
+  Delete "$INSTDIR\dxlist.exe"
+
+  ;Delete registry keys
+  SetDetailsPrint textonly
+  DetailPrint "Deleting Registry Keys..."
+  SetDetailsPrint listonly
+
+  DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
+  DeleteRegKey HKLM "${SMPLAYER_APP_PATHS_KEY}"
+  DeleteRegKey HKLM "${SMPLAYER_UNINST_KEY}"
+  DeleteRegKey HKCR "MPlayerFileVideo"
+  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
+
+  SetDetailsPrint both
+!macroend
+
+;--------------------------------
 ;Installer functions
 
 Function .onInit
@@ -529,7 +630,7 @@ FunctionEnd
 
 Function .onInstFailed
 
-  Call UninstallSMPlayer
+  !insertmacro MacroRemoveSMPlayer
 
   Delete "$INSTDIR\${SMPLAYER_UNINST_EXE}"
   RMDir "$INSTDIR"
@@ -593,55 +694,11 @@ Function DefaultProgramsReg
   WriteRegStr HKCR "MPlayerFileVideo\shell\open" "FriendlyAppName" "SMPlayer Media Player"
   WriteRegStr HKCR "MPlayerFileVideo\shell\open\command" "" '"$INSTDIR\smplayer.exe" "%1"'
 
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}" "ApplicationDescription" $(APPLICATION_DESCRIPTION)
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}" "ApplicationName" "SMPlayer"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".3gp" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ac3" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ape" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".asf" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".avi" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".bin" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".dat" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".divx" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".dv" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".dvr-ms" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".flac" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".flv" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".iso" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m1v" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m2t" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m2ts" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m2v" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m3u" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m3u8" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".m4v" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mkv" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mov" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mp3" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mp4" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mpeg" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mpg" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mpv" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".mqv" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".nsv" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ogg" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ogm" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ogv" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".pls" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ra" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ram" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".rec" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".rm" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".rmvb" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".swf" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".ts" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".vcd" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".vfw" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".vob" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".wav" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".wma" "MPlayerFileVideo"
-  WriteRegStr HKLM "${SMPLAYER_DEFPROGRAMS_KEY}\FileAssociations" ".wmv" "MPlayerFileVideo"
-  WriteRegStr HKLM "Software\RegisteredApplications" "SMPlayer" "${SMPLAYER_DEFPROGRAMS_KEY}"
+  ;Modify the list of extensions added in the MacroAllExtensions macro
+  WriteRegStr HKLM "${SMPLAYER_REG_KEY}\Capabilities" "ApplicationDescription" $(APPLICATION_DESCRIPTION)
+  WriteRegStr HKLM "${SMPLAYER_REG_KEY}\Capabilities" "ApplicationName" "SMPlayer"
+  WriteRegStr HKLM "Software\RegisteredApplications" "SMPlayer" "${SMPLAYER_REG_KEY}\Capabilities"
+  !insertmacro MacroAllExtensions WriteRegStrSupportedTypes
 
 FunctionEnd
 
@@ -816,61 +873,6 @@ Function RunUninstaller
 
 FunctionEnd
 
-;--------------------------------
-;Shared functions
-
-!macro UninstallSMPlayerMacro un
-Function ${un}UninstallSMPlayer
-
-  ;Delete desktop and start menu shortcuts
-  SetDetailsPrint textonly
-  DetailPrint "Deleting Shortcuts..."
-  SetDetailsPrint listonly
-
-  SetShellVarContext all
-  Delete "$DESKTOP\SMPlayer.lnk"
-  Delete "$SMPROGRAMS\SMPlayer\SMPlayer.lnk" 
-  Delete "$SMPROGRAMS\SMPlayer\SMPlayer on the Web.url"
-  Delete "$SMPROGRAMS\SMPlayer\Uninstall SMPlayer.lnk"
-  RMDir "$SMPROGRAMS\SMPlayer"
-
-  ;Delete directories recursively except for main directory
-  ;Do not recursively delete $INSTDIR
-  SetDetailsPrint textonly
-  DetailPrint "Deleting Files..."
-  SetDetailsPrint listonly
-
-  RMDir /r "$INSTDIR\docs"
-  RMDir /r "$INSTDIR\imageformats"
-  RMDir /r "$INSTDIR\mplayer"
-  RMDir /r "$INSTDIR\shortcuts"
-  RMDir /r "$INSTDIR\themes"
-  RMDir /r "$INSTDIR\translations"
-  Delete "$INSTDIR\*.txt"
-  Delete "$INSTDIR\mingwm10.dll"
-  Delete "$INSTDIR\Q*.dll"
-  Delete "$INSTDIR\smplayer.exe"
-  Delete "$INSTDIR\dxlist.exe"
-
-  ;Delete registry keys
-  SetDetailsPrint textonly
-  DetailPrint "Deleting Registry Keys..."
-  SetDetailsPrint listonly
-
-  DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
-  DeleteRegKey HKLM "${SMPLAYER_APP_PATHS_KEY}"
-  DeleteRegKey HKLM "${SMPLAYER_UNINST_KEY}"
-  DeleteRegKey HKCR "MPlayerFileVideo"
-  DeleteRegKey HKLM "Software\Clients\Media\SMPlayer"
-  DeleteRegValue HKLM "Software\RegisteredApplications" "SMPlayer"
-
-  SetDetailsPrint both
-
-FunctionEnd
-!macroend
-!insertmacro UninstallSMPlayerMacro ""
-!insertmacro UninstallSMPlayerMacro "un."
-
 /*************************************** Uninstaller *******************************************/
 
 Section Uninstall
@@ -893,7 +895,7 @@ Section Uninstall
   IfErrors 0 +2
   ExecWait '"$INSTDIR\smplayer.exe" -uninstall'
 
-  Call un.UninstallSMPlayer
+  !insertmacro MacroRemoveSMPlayer
 
   Delete "$INSTDIR\${SMPLAYER_UNINST_EXE}"
   RMDir "$INSTDIR"
