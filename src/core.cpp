@@ -3668,7 +3668,7 @@ void Core::decPanscan() {
 #endif
 
 void Core::showFilenameOnOSD() {
-	tellmp("osd_show_property_text \"${filename}\" 3000 0");
+	tellmp("osd_show_property_text \"${filename}\" 5000 0");
 }
 
 void Core::toggleDeinterlace() {
