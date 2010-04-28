@@ -506,6 +506,7 @@ ${MementoSectionDone}
   !insertmacro ${_action} ".f4v"
   !insertmacro ${_action} ".flac"
   !insertmacro ${_action} ".flv"
+  !insertmacro ${_action} ".hdmov"
   !insertmacro ${_action} ".iso"
   !insertmacro ${_action} ".m1v"
   !insertmacro ${_action} ".m2t"
