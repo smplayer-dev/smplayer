@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -300,7 +301,7 @@
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>Danish</source>
-        <translation type="unfinished">Датский</translation>
+        <translation>Датский</translation>
     </message>
 </context>
 <context>
@@ -1591,7 +1592,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1355"/>
         <source>&amp;Jump...</source>
-        <translation>&amp;Перейти...:</translation>
+        <translation>&amp;Перейти...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1546"/>
@@ -1611,7 +1612,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1549"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation>Громкость + Перемотка + Время + Общее время</translation>
+        <translation>Громкость + Перемотка + Время + &amp;Общее время</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1298"/>
@@ -2354,9 +2355,9 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
         <source>%1 subtitle(s) extracted</source>
         <translation>
-            <numerusform>%1 субтитр(а,ов) извлечено</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform>%1 субтитр извлечён</numerusform>
+            <numerusform>%1 субтитра извлечено</numerusform>
+            <numerusform>%1 субтитров извлечено</numerusform>
         </translation>
     </message>
     <message>
@@ -3605,7 +3606,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3715,7 +3716,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -5358,7 +5359,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
         <source>Disable video filters when using vd&amp;pau</source>
-        <translation>Отключить видеофильтры при использовании vdpau</translation>
+        <translation>Отключить видеофильтры при исп&amp;ользовании vdpau</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
@@ -6640,42 +6641,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить файлы в каталогах рекурсивно</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished">Выберите эту опцию, если вы хотите, чтобы при добавлении каталога подкаталоги тоже добавлялись рекурсивно. Иначе будут добавлены только файлы из текущего каталога.</translation>
+        <translation>Выберите эту опцию, если вы хотите, чтобы при добавлении каталога подкаталоги тоже добавлялись рекурсивно. Иначе будут добавлены только файлы из текущего каталога.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически добавить информацию о добавленных файлах</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished">Выберите эту опцию, чтобы извлечь из добавляемых в список файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может замедлить работу, особенно при большом количестве добавляемых файлов.</translation>
+        <translation>Выберите эту опцию, чтобы извлечь из добавляемых в список файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может замедлить работу, особенно при большом количестве добавляемых файлов.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Воспроизводить файлы с &amp;начала</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавлять файлы из каталогов &amp;рекурсивно</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>Автополучение &amp;информации о добавленных файлах (медленно)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished">Сохранять &amp;копию списка воспроизведения при выходе</translation>
+        <translation>Сохранять &amp;копию списка воспроизведения при выходе</translation>
     </message>
 </context>
 <context>
@@ -6928,7 +6929,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="198"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation>А&amp;втоматически определить для языка</translation>
+        <translation>А&amp;втоматически определить для языка:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
@@ -7028,7 +7029,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation>Определяет стиль границы. Возможные значения: контур и непрозрачный</translation>
+        <translation>Определяет стиль границы. Возможные значения: контур и непрозрачный.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="552"/>
@@ -7088,12 +7089,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="1070"/>
         <source>Alignment</source>
-        <translation>Выравнивание:</translation>
+        <translation>Выравнивание</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
-        <translation>&amp;Горизонтальное</translation>
+        <translation>&amp;Горизонтальное:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1104"/>
@@ -8041,7 +8042,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation>Добавить&amp; время на миниатюрах</translation>
+        <translation>Добавить &amp;время на миниатюрах</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
