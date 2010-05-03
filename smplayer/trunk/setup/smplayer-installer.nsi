@@ -123,8 +123,8 @@
   !define MUI_FINISHPAGE_SHOWREADME_TEXT "View Release Notes"
 
   ; Misc
-  !define MUI_WELCOMEFINISHPAGE_BITMAP "smplayer-wizard.bmp"
-  !define MUI_UNWELCOMEFINISHPAGE_BITMAP "smplayer-wizard-uninstall.bmp"
+  !define MUI_WELCOMEFINISHPAGE_BITMAP "smplayer-orange-wizard.bmp"
+  !define MUI_UNWELCOMEFINISHPAGE_BITMAP "smplayer-orange-wizard-un.bmp"
   !define MUI_ABORTWARNING
 
   ;Installer/Uninstaller icons
