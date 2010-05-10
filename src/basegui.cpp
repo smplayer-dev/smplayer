@@ -3618,19 +3618,8 @@ void BaseGui::toggleFullscreen(bool b) {
 
 		aboutToEnterFullscreen();
 
-		#ifdef Q_OS_WIN
-		// Avoid the video to pause
-		if (!pref->pause_when_hidden) hide();
-		#endif
-
 		showFullScreen();
-
 	} else {
-		#ifdef Q_OS_WIN
-		// Avoid the video to pause
-		if (!pref->pause_when_hidden) hide();
-		#endif
-
 		showNormal();
 
 		if (was_maximized) showMaximized(); // It has to be called after showNormal()
