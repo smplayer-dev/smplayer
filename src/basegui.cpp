@@ -95,6 +95,7 @@
 
 #ifdef Q_OS_WIN
 #include "deviceinfo.h"
+#include <QSysInfo>
 #endif
 
 using namespace Global;
@@ -3618,7 +3619,15 @@ void BaseGui::toggleFullscreen(bool b) {
 
 		aboutToEnterFullscreen();
 
+		#ifdef Q_OS_WIN
+		// Hack to avoid the windows taskbar to be visible on Windows XP
+		if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+			if (!pref->pause_when_hidden) hide();
+		}
+		#endif
+
 		showFullScreen();
+
 	} else {
 		showNormal();
 
