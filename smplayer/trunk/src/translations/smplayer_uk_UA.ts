@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="uk">
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -300,7 +301,7 @@
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>Danish</source>
-        <translation type="unfinished">Данська</translation>
+        <translation>Данська</translation>
     </message>
 </context>
 <context>
@@ -1900,12 +1901,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="453"/>
         <source>A:%1</source>
-        <translation></translation>
+        <translation>А:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="457"/>
         <source>B:%1</source>
-        <translation></translation>
+        <translation>Б:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="423"/>
@@ -3660,7 +3661,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршульська</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3770,7 +3771,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -6114,12 +6115,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="601"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Абсолютне переміщення</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Відносне переміщення</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6244,12 +6245,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="589"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Спосіб переміщення</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="565"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановлює спосіб переміщення, що використовуватиметься коли переміщення здіййснюється повзунком. Абсолютне переміщення може бути трішки точнішим, тоді як відносне переміщення може працювати краще з файлами з неправильною довжиною.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="567"/>
@@ -6805,42 +6806,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати файли в теці рекурсивно</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished">Виберіть цю опцію, якщо хочете, щоб додавання теки також додавало підтеки рекурсивно. Інакше будуть додані лише файли у вибраній теці.</translation>
+        <translation>Виберіть цю опцію, якщо хочете, щоб додавання теки також додавало файли в підтеках рекурсивно. Інакше будуть додані лише файли у вибраній теці.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати автоматично відомості про додані файли</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished">Виберіть цю опцію, щоб витягти з файлів, які будуть додані до переліку програвання, деякі подробиці. Це дозволить показувати назву (якщо наявна) та довжину файлів. Інакше ці подробиці не будуть доступні доки файл не буде дійсно програватися. Пам&apos;ятайте: ця опція може бути повільною, особливо, якщо ви додаєте багато файлів.</translation>
+        <translation>Виберіть цю опцію, щоб витягти з файлів, які будуть додані до переліку програвання, деякі подробиці. Це дозволить показувати назву (якщо наявна) та довжину файлів. Інакше ці подробиці не будуть доступні доки файл не буде дійсно програватися. Пам&apos;ятайте: ця опція може бути повільною, особливо, якщо ви додаєте багато файлів.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Програвати файли з &amp;початку</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати файли в теках &amp;рекурсивно</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично отримувати &amp;відомості про додані файли (повільно)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished">&amp;Зберегти копію переліку програвання під час виходу</translation>
+        <translation>&amp;Зберегти копію переліку програвання під час виходу</translation>
     </message>
 </context>
 <context>
