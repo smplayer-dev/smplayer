@@ -206,13 +206,17 @@
   !insertmacro MUI_LANGUAGE "Hebrew"
   !insertmacro MUI_LANGUAGE "Hungarian"
   !insertmacro MUI_LANGUAGE "Italian"
+  !insertmacro MUI_LANGUAGE "Japanese"
+  !insertmacro MUI_LANGUAGE "Korean"
   !insertmacro MUI_LANGUAGE "Norwegian"
   !insertmacro MUI_LANGUAGE "Polish"
   !insertmacro MUI_LANGUAGE "Portuguese"
   !insertmacro MUI_LANGUAGE "Russian"
+  !insertmacro MUI_LANGUAGE "SimpChinese"
   !insertmacro MUI_LANGUAGE "Slovak"
   !insertmacro MUI_LANGUAGE "Slovenian"
   !insertmacro MUI_LANGUAGE "Spanish"
+  !insertmacro MUI_LANGUAGE "TradChinese"
 
 ; Custom translations for setup
 
@@ -228,13 +232,17 @@
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\hebrew.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\hungarian.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\italian.nsh"
+  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\japanese.nsh"
+  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\korean.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\norwegian.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\polish.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\portuguese.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\russian.nsh"
+  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\simpchinese.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\slovak.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\slovenian.nsh"
   !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\spanish.nsh"
+  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\tradchinese.nsh"
 
 ;--------------------------------
 ;Reserve Files
