@@ -1861,7 +1861,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="423"/>
         <source>Status&amp;bar</source>
-        <translation>Панеь с&amp;татуса</translation>
+        <translation>Панель с&amp;татуса</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="435"/>
