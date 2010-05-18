@@ -21,6 +21,7 @@
 #include <QFileInfo>
 #include <QRegExp>
 #include <QTextStream>
+#include <QUrl>
 
 #include <cmath>
 
@@ -360,6 +361,11 @@ void Core::displayTextOnOSD(QString text, int duration, int level, QString prefi
 // Generic open, autodetect type
 void Core::open(QString file, int seek) {
 	qDebug("Core::open: '%s'", file.toUtf8().data());
+
+	if (file.startsWith("file:")) {
+		file = QUrl(file).toLocalFile();
+		qDebug("Core::open: converting url to local file: %s", file.toUtf8().constData());
+	}
 
 	QFileInfo fi(file);
 
