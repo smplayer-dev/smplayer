@@ -259,7 +259,7 @@
 
 ;--------------------------------
 ;Main SMPlayer files
-Section "SMPlayer (required)" SecSMPlayer
+Section $(SMPLAYER_SECSMPLAYER_TITLE) SecSMPlayer
 
   SectionIn RO
 
@@ -297,16 +297,16 @@ SectionEnd
 
 ;--------------------------------
 ;Shortcuts
-SectionGroup /e "Shortcuts"
+SectionGroup /e $(SMPLAYER_SHORTCUTGROUP_TITLE)
 
-  ${MementoSection} "Desktop" SecDesktopShortcut
+  ${MementoSection} $(SMPLAYER_SECDESKTOPSHORTCUT_TITLE) SecDesktopShortcut
 
     SetOutPath "$INSTDIR"
     CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
 
   ${MementoSectionEnd}
 
-  ${MementoSection} "Start Menu" SecStartMenuShortcut
+  ${MementoSection} $(SMPLAYER_SECSTARTMENU_TITLE) SecStartMenuShortcut
 
     SetOutPath "$INSTDIR"
     !insertmacro MUI_STARTMENU_WRITE_BEGIN SMP_SMenu
@@ -322,10 +322,10 @@ SectionGroupEnd
 
 ;--------------------------------
 ;MPlayer & MPlayer Codecs
-SectionGroup "MPlayer Components"
+SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
 
 !ifdef WITH_MPLAYER
-  Section "MPlayer (required)" SecMPlayer
+  Section $(SMPLAYER_SECMPLAYER_TITLE) SecMPlayer
 
     SectionIn RO
 
@@ -336,7 +336,7 @@ SectionGroup "MPlayer Components"
 
   SectionEnd
 !else ifndef WITH_MPLAYER
-  Section "MPlayer (required)" SecMPlayer
+  Section $(SMPLAYER_SECMPLAYER_TITLE) SecMPlayer
 
     SectionIn RO
     AddSize 16800
@@ -385,7 +385,7 @@ SectionGroup "MPlayer Components"
   SectionEnd
 !endif
 
-  Section /o "Binary Codecs" SecCodecs
+  Section /o $(SMPLAYER_SECCODECS_TITLE) SecCodecs
 
     AddSize 22300
 
@@ -438,7 +438,7 @@ SectionGroupEnd
 
 ;--------------------------------
 ;Icon themes
-${MementoSection} "Icon Themes" SecThemes
+${MementoSection} $(SMPLAYER_SECTHEMES_TITLE) SecThemes
 
   SetOutPath "$INSTDIR\themes"
   File /r "smplayer-build\themes\*.*"
@@ -447,7 +447,7 @@ ${MementoSectionEnd}
 
 ;--------------------------------
 ;Translations
-${MementoSection} "Localizations" SecTranslations
+${MementoSection} $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
 
   SetOutPath "$INSTDIR\translations"
   File /r "smplayer-build\translations\*.*"
@@ -492,17 +492,17 @@ ${MementoSectionDone}
 ;--------------------------------
 ;Section descriptions
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecSMPlayer} "SMPlayer, shared libraries, and documentation."
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktopShortcut} "Creates a shortcut to SMPlayer on the desktop."
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} "Create a Start Menu entry for SMPlayer."
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecSMPlayer} $(SMPLAYER_SECSMPLAYER_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktopShortcut} $(SMPLAYER_SECDESKTOPSHORTCUT_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(SMPLAYER_SECSTARTMENU_DESC)
 !ifdef WITH_MPLAYER
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} "MPlayer; required for playback."
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(SMPLAYER_SECMPLAYER_DESC)
 !else ifndef WITH_MPLAYER
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} "MPlayer; required for playback. (Internet Connection required for installation)"
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(SMPLAYER_SECMPLAYER_DESC)
 !endif
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecCodecs} "Optional codecs for MPlayer. (Internet Connection required for installation)"
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} "Additional icon themes for SMPlayer."
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} "Non-English localizations."
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecCodecs} $(SMPLAYER_SECCODECS_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(SMPLAYER_SECTHEMES_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(SMPLAYER_SECTRANSLATIONS_DESC)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ;--------------------------------
