@@ -16,9 +16,9 @@ ${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, shared libraries, and doc
 
 ${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "ショートカット"
 ${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "デスクトップ"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Creates a shortcut to SMPlayer on the desktop."
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "デスクトップに SMPlayer のショートカットを作成する。"
 ${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "スタートメニュー"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Create a Start Menu entry for SMPlayer."
+${LangFileString} SMPLAYER_SECSTARTMENU_DESC "スタートメニューに SMPlayer の項目を作成する。"
 
 ${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayerのコンポネント"
 ${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (必須)"
