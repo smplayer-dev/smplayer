@@ -12,29 +12,29 @@ ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "このプログラムのインス
 
 ; Components Page
 ${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (必須)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, shared libraries, and documentation."
+${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer、共有ライブラリ、およびドキュメントです。"
 
 ${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "ショートカット"
 ${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "デスクトップ"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "デスクトップに SMPlayer のショートカットを作成する。"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "デスクトップに SMPlayer へのショートカットを作成します。"
 ${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "スタートメニュー"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "スタートメニューに SMPlayer の項目を作成する。"
+${LangFileString} SMPLAYER_SECSTARTMENU_DESC "SMPlayer の [スタート] メニュー エントリを作成します。"
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayerのコンポネント"
+${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer コンポーネント"
 ${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (必須)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback."
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "再生のために必要な MPlayer です。"
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "再生のために必要な MPlayer です。(インストールにはインターネット接続が必要です)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
-${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECCODECS_TITLE "バイナリ コーデック"
+${LangFileString} SMPLAYER_SECCODECS_DESC "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."
+${LangFileString} SMPLAYER_SECTHEMES_TITLE "アイコン テーマ"
+${LangFileString} SMPLAYER_SECTHEMES_DESC "SMPlayer の追加アイコン テーマです。"
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Localizations"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English localizations."
+${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "ローカライズ"
+${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "非英語のローカライズです。"
 
 ${LangFileString} MPLAYER_CODEC_INFORMATION "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
 
@@ -50,7 +50,7 @@ ${LangFileString} REINSTALL_OLDVER_DESCRIPTION "お使いのシステムには S
 ${LangFileString} REINSTALL_OLDVER_UPGRADE "以前の設定を使用して SMPlayer をアップグレードする (推奨)"
 
 ${LangFileString} REINSTALL_NEWVER_DESCRIPTION "SMPlayer の新しいバージョンが既にインストールされています! 古いバージョンへのダウングレードは推奨されません。続行するには実行したい操作を選択して [次へ] をクリックします。"
-${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Downgrade SMPlayer using previous settings (recommended)"
+${LangFileString} REINSTALL_NEWVER_DOWNGRADE "以前の設定を使用して SMPlayer をダウングレードする (推奨)"
 
 ${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} が既にインストールされています。続行するには実行したい操作を選択して [次へ] をクリックします。"
 ${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "コンポーネントを追加/削除/再インストールする"
@@ -73,7 +73,7 @@ ${LangFileString} VERINFO_IS_DOWNLOADING "バージョン情報をダウンロ�
 ${LangFileString} VERINFO_DL_FAILED "バージョン情報のダウンロードに失敗しました: '$R0'。既定のバージョンを使用しています。"
 
 ; Uninstaller
-${LangFileString} UNINSTALL_NO_ADMIN "このインストールは管理者権限のあるユーザーによってのみアンインストールできます。"
+${LangFileString} UNINSTALL_NO_ADMIN "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
 ${LangFileString} UNINSTALL_ABORTED "アンインストールはユーザーによって注視されました。"
 ${LangFileString} SMPLAYER_NOT_INSTALLED "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。$\r$\nこのまま続行しますか (推奨されません)?"
 
