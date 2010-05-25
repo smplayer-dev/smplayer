@@ -11,36 +11,36 @@ ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Installationsprogramm läuft be
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Administratorrechte sind nötig um dieses Programm zu installieren."
 
 ; Components Page
-${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (required)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, shared libraries, and documentation."
+${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (erforderlich)"
+${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, Laufzeit-Bibliotheken und Dokumentation."
 
-${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Shortcuts"
+${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Verknüpfung"
 ${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Desktop"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Creates a shortcut to SMPlayer on the desktop."
-${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Start Menu"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Create a Start Menu entry for SMPlayer."
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Erstellt eine Verknüpfung zu SMPlayer auf dem Desktop."
+${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Startmenü"
+${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Erstellt einen Startmenü Eintrag für SMPlayer."
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer Components"
-${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (required)"
+${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer Komponenten"
+${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (erforderlich)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback."
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; benötigt für die Wiedergabe."
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; benötigt für die Wiedergabe. (Internet Verbindung benötigt für Installation)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
-${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECCODECS_TITLE "Binärcodecs"
+${LangFileString} SMPLAYER_SECCODECS_DESC "Optionale Codecs für MPlayer. (Internet Verbindung benötigt für Installation)"
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."
+${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themen"
+${LangFileString} SMPLAYER_SECTHEMES_DESC "Weitere Icon-Themen für SMPlayer."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Localizations"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English localizations."
+${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Lokalisierungen"
+${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English Lokalisierungen."
 
-${LangFileString} MPLAYER_CODEC_INFORMATION "Binäre Codec-Pakete werden eingesetzt für Codecs, die noch nicht nativ implementiert sind, wie neuere Varianten von RealVideo und viele ungewöhnliche Formate.$\nAchtung, nicht notwendig um die gängisten Formate wiederzugeben, wie DVD, MPEG-1/2/4 , etc."
+${LangFileString} MPLAYER_CODEC_INFORMATION "Binäre Codec-Pakete werden eingesetzt für Codecs, die noch nicht nativ implementiert sind, wie neuere Varianten von RealVideo und viele ungewöhnliche Formate.$\nAchtung, nicht notwendig um die gängigsten Formate wiederzugeben, wie DVD, MPEG-1/2/4 , etc."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} REINSTALL_HEADER_TEXT "Bereits installiert"
-${LangFileString} REINSTALL_HEADER_SUBTEXT "Auswahl wie SMPLayer installiert werden soll."
+${LangFileString} REINSTALL_HEADER_SUBTEXT "Auswahl wie SMPlayer installiert werden soll."
 ${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Auswahl der auszuführenden Wartungsoption."
 
 ${LangFileString} REINSTALL_CHGSETTINGS "Einstellungen ändern (Fortgeschritten)"
@@ -53,7 +53,7 @@ ${LangFileString} REINSTALL_NEWVER_DESCRIPTION "Eine neuere Version von SMPlayer
 ${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Herabstufung von SMPlayer mit vorherigen Einstellungen (empfohlen)"
 
 ${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} ist bereits installiert. Auswahl der Operation die durchführt werden soll und auf Weiter klicken, um fortzufahren."
-${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Hinzufügen/Entfernen/Neuinstalllation der Komponenten"
+${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Hinzufügen/Entfernen/Neuinstallation der Komponenten"
 ${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "SMPlayer deinstallieren"
 
 ; MPlayer Section
