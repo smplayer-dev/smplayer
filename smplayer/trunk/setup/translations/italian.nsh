@@ -1,4 +1,4 @@
-;Language: Italian (1040)
+﻿;Language: Italian (1040)
 ;Italian language strings for the Windows SMPlayer NSIS installer.
 ;
 ;Save file as UTF-8 w/ BOM
