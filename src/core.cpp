@@ -1357,7 +1357,7 @@ void Core::startMplayer( QString file, double seek ) {
 	else {
 		if (pref->vo.startsWith("vdpau")) {
 			proc->addArgument("-vc");
-			proc->addArgument("ffh264vdpau,ffmpeg12vdpau,ffwmv3vdpau,ffvc1vdpau,");
+			proc->addArgument("ffh264vdpau,ffmpeg12vdpau,ffodivxvdpau,ffwmv3vdpau,ffvc1vdpau,");
 		}
 #endif	
 		else {
