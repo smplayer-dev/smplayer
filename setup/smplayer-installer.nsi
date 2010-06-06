@@ -324,21 +324,16 @@ SectionGroupEnd
 ;MPlayer & MPlayer Codecs
 SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
 
-!ifdef WITH_MPLAYER
   Section $(SMPLAYER_SECMPLAYER_TITLE) SecMPlayer
 
     SectionIn RO
 
+!ifdef WITH_MPLAYER
     SetOutPath "$INSTDIR\mplayer"
     File /r "smplayer-build\mplayer\*.*"
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
-
-  SectionEnd
 !else ifndef WITH_MPLAYER
-  Section $(SMPLAYER_SECMPLAYER_TITLE) SecMPlayer
-
-    SectionIn RO
     AddSize 16800
 
     Call GetVerInfo
@@ -381,9 +376,8 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
         Abort $(MPLAYER_INST_FAILED)
 
     done:
-
-  SectionEnd
 !endif
+  SectionEnd
 
   Section /o $(SMPLAYER_SECCODECS_TITLE) SecCodecs
 
