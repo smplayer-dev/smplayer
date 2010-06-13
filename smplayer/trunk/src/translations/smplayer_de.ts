@@ -2375,7 +2375,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
         <source>Failed to parse the received data.</source>
-        <translation>Fehler beim Parsen der empfangenen Daten.</translation>
+        <translation>Fehler beim Analysieren  der empfangenen Daten.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
@@ -5571,12 +5571,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.ui" line="314"/>
         <source>&amp;Left click</source>
-        <translation>&amp;Click links</translation>
+        <translation>&amp;Klick links</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="172"/>
         <source>&amp;Double click</source>
-        <translation>&amp;Doppel Click</translation>
+        <translation>&amp;Doppelklick</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="392"/>
@@ -5596,22 +5596,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="322"/>
         <source>Left click</source>
-        <translation>Click links</translation>
+        <translation>Klick links</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="323"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>Auswahl der Aktion, oder links Click mit der Maus.</translation>
+        <translation>Auswahl der Aktion, oder links Klick mit der Maus.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="325"/>
         <source>Double click</source>
-        <translation>Doppel Click</translation>
+        <translation>Doppelklick</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="326"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>Aktion für Doppel Click der Maus auswählen.</translation>
+        <translation>Aktion für Doppelklick der Maus auswählen.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="337"/>
@@ -5726,17 +5726,17 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="328"/>
         <source>Middle click</source>
-        <translation>Click Mitte</translation>
+        <translation>Klick mitte</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="329"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation>Auswahl der Mausaktion für Click Mitte.</translation>
+        <translation>Auswahl der Mausaktion für Klick Mitte.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="217"/>
         <source>M&amp;iddle click</source>
-        <translation>&amp;Click mitte</translation>
+        <translation>&amp;Klick Mitte</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="243"/>
@@ -5791,7 +5791,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.ui" line="450"/>
         <source>&amp;Right click</source>
-        <translation>&amp;Click rechts</translation>
+        <translation>&amp;Klick rechts</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
@@ -7125,22 +7125,22 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="512"/>
         <source>Bold</source>
-        <translation>Bold</translation>
+        <translation>Fett</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation>Wenn diese Option aktiviert ist, wird der Text in &lt;b&gt;bold&lt;/b&gt; angezeigt.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird der Text in &lt;b&gt;fett&lt;/b&gt; angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="515"/>
         <source>Italic</source>
-        <translation>Italic</translation>
+        <translation>Kursiv</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation>Wenn diese Option aktiviert ist, wird der Text in &lt;i&gt;italic&lt;/i&gt; angezeigt.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird der Text in &lt;i&gt;kursiv&lt;/i&gt; angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="527"/>
@@ -7215,12 +7215,12 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="873"/>
         <source>Bol&amp;d</source>
-        <translation>Bol&amp;d</translation>
+        <translation>&amp;Fett</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="880"/>
         <source>&amp;Italic</source>
-        <translation>&amp;Italic</translation>
+        <translation>&amp;Kursiv</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="892"/>
