@@ -517,7 +517,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1370"/>
         <source>&amp;Stop</source>
-        <translation>&amp;Stop</translation>
+        <translation>&amp;Stopp</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1371"/>
@@ -969,7 +969,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4004"/>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>Stopp</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1373"/>
@@ -1586,7 +1586,7 @@ Das kann im folgenden Konfigurationsdialog gemacht werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1407"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>&amp;Start/Stop Aufnahme Bildschirmfoto</translation>
+        <translation>&amp;Start/Stopp Aufnahme Bildschirmfoto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1475"/>
@@ -5636,7 +5636,7 @@ Benötigt mindestens MPlayer dev SVN - r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>Stopp</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
