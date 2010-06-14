@@ -11,30 +11,30 @@ ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "O instalador já está em execu
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Tem que iniciar a sessão como administrador para instalar este programa."
 
 ; Components Page
-${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (required)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, shared libraries, and documentation."
+${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (obrigatório)"
+${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, bibliotecas partilhadas e documentação."
 
-${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Shortcuts"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Desktop"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Creates a shortcut to SMPlayer on the desktop."
-${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Start Menu"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Create a Start Menu entry for SMPlayer."
+${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Atalhos"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Ambiente de Trabalho"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Cria um atalho para o SMPlayer no ambiente de trabalho."
+${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Menu Iniciar"
+${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Cria uma entrada no Menu Iniciar para o SMPlayer."
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer Components"
-${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (required)"
+${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "Componentes MPlayer"
+${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (obrigatório)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback."
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; necessário para a reprodução."
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; necessário para a reprodução. (Precisa de uma ligação à Internet)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
-${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECCODECS_TITLE "Binários dos Codificadores"
+${LangFileString} SMPLAYER_SECCODECS_DESC "Codificadores opcionais para o MPlayer. (Precisa de uma ligação à Internet)"
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."
+${LangFileString} SMPLAYER_SECTHEMES_TITLE "Conjuntos de Ícones"
+${LangFileString} SMPLAYER_SECTHEMES_DESC "Ícones adicionais para o SMPlayer."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Localizations"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English localizations."
+${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Localizações"
+${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Localizações Diferentes de Inglês."
 
 ${LangFileString} MPLAYER_CODEC_INFORMATION "O pacote de codecs binários adiciona suporte para os codecs que ainda não foram implementados, tais como as novas variantes RealVideo e alguns formatos não usuais.$\nNote que estes não serão necessários para os formatos mais comuns como DVDs, MPEG-1/2/4, etc."
 
