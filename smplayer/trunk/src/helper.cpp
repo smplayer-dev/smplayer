@@ -199,34 +199,46 @@ QStringList Helper::searchForConsecutiveFiles(const QString & initial_file) {
 	qDebug("Helper::searchForConsecutiveFiles: initial_file: '%s'", initial_file.toUtf8().constData());
 
 	QStringList files_to_add;
+	QStringList matching_files;
 
 	QFileInfo fi(initial_file);
 	QString basename = fi.completeBaseName();
 	QString extension = fi.suffix();
 	QString path = fi.absolutePath();
 
-	QRegExp rx("^.*\\D(\\d+)");
+	QDir dir(path);
+	dir.setFilter(QDir::Files);
+	dir.setSorting(QDir::Name);
 
-	if ( rx.indexIn(basename) > -1) {
-		int digits = rx.cap(1).length();
-		int current_number = rx.cap(1).toInt();
+	QRegExp rx("(\\d+)");
 
-		//qDebug("Helper::searchForConsecutiveFiles: filename ends with a number (%s)", rx.cap(1).toUtf8().constData());
-		qDebug("Helper::searchForConsecutiveFiles: filename ends with a number (%d)", current_number);
-		qDebug("Helper::searchForConsecutiveFiles: trying to find consecutive files");
+	int digits;
+	int current_number;
+	int pos = 0;
+	QString next_name;
+	bool next_found = false;
+	qDebug("Helper::searchForConsecutiveFiles: trying to find consecutive files");
+	while  ( ( pos = rx.indexIn(basename, pos) ) != -1 ) {
+		digits = rx.cap(1).length();
+		current_number = rx.cap(1).toInt() + 1;
+		next_name = basename.left(pos) + QString("%1").arg(current_number, digits, 10, QLatin1Char('0')) + "*." + extension;
+		matching_files = dir.entryList((QStringList)next_name);
 
-		QString template_name = path + "/" + basename.left(basename.length() - digits);
-		//qDebug("BaseGui::newMediaLoaded: name without digits: '%s'", template_name.toUtf8().constData());
+		if ( !matching_files.isEmpty() ) {
+			next_found = true;
+			break;
+		}
+		pos  += digits;
+	}
 
-		current_number++;
-		QString next_name = template_name + QString("%1").arg(current_number, digits, 10, QLatin1Char('0')) +"."+ extension;
-		qDebug("Helper::searchForConsecutiveFiles: looking for '%s'", next_name.toUtf8().constData());
-
-		while (QFile::exists(next_name)) {
-			qDebug("Helper::searchForConsecutiveFiles: '%s' exists, added to the list", next_name.toUtf8().constData());
-			files_to_add.append(next_name);
+	if (next_found) {
+		qDebug("Helper::searchForConsecutiveFiles: adding consecutive files");
+		while ( !matching_files.isEmpty() ) {
+			qDebug("Helper::searchForConsecutiveFiles: '%s' exists, added to the list", matching_files[0].toUtf8().constData());
+			files_to_add << path  + "/" + matching_files[0];
 			current_number++;
-			next_name = template_name + QString("%1").arg(current_number, digits, 10, QLatin1Char('0')) +"."+ extension;
+			next_name = basename.left(pos) + QString("%1").arg(current_number, digits, 10, QLatin1Char('0')) + "*." + extension;
+			matching_files = dir.entryList((QStringList)next_name);
 			qDebug("Helper::searchForConsecutiveFiles: looking for '%s'", next_name.toUtf8().constData());
 		}
 	}
