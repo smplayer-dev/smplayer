@@ -5,7 +5,7 @@ echo.
 echo Warning: it will only work with sources from the SVN and the command svn has to be in the path
 echo.
 
-set /P QTVER="Qt Version (press enter for default value): "
+set /P QTVER="Qt Version (Default: 4.5.1): "
 if "%QTVER%"=="" set QTVER=4.5.1
 
 set OUTPUT_DIR=smplayer-build
@@ -30,6 +30,9 @@ copy %QT_DIR%\bin\QtGui4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtNetwork4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtXml4.dll %OUTPUT_DIR%
 copy %MINGW_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
+if %QTVER% geq 4.6.0 (
+copy %MINGW_DIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
+)
 
 mkdir %OUTPUT_DIR%\imageformats
 copy %QT_DIR%\plugins\imageformats\qjpeg4.dll %OUTPUT_DIR%\imageformats\

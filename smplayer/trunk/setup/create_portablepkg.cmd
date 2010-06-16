@@ -67,7 +67,7 @@ copy /y .\smplayer-portable.exe %SMPLAYER_DIR%\smplayer.exe
 echo.
 echo ######  Creating portable package  #######
 echo.
-7za a -t7z smplayer-portable-%SMPLAYER_VER%.7z %SMPLAYER_DIR% -xr!*.bak -mx7
+7za a -t7z smplayer-portable-%SMPLAYER_VER%.7z %SMPLAYER_DIR% -xr!*.bak -xr!qxtcore.dll -mx7
 
 echo.
 echo ######   Cleanup and restoration   #######
