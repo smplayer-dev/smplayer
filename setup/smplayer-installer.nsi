@@ -44,7 +44,7 @@
 !ifndef WITH_MPLAYER
 
   !ifndef DEFAULT_MPLAYER_VERSION
-    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-30369"
+    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-31170"
   !endif
 
 !endif
@@ -342,24 +342,25 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
     If it was unable to download, set version to that defined in the
     beginning of the script. */
     ${If} ${FileExists} "$PLUGINSDIR\version-info"
-      ReadINIStr $MPLAYER_VERSION "$PLUGINSDIR\version-info" smplayer mplayer
+      ReadINIStr $MPlayer_Version "$PLUGINSDIR\version-info" smplayer mplayer
     ${Else}
-      StrCpy $MPLAYER_VERSION ${DEFAULT_MPLAYER_VERSION}
+      StrCpy $MPlayer_Version ${DEFAULT_MPLAYER_VERSION}
     ${EndIf}
 
     retry_mplayer:
 
     DetailPrint $(MPLAYER_IS_DOWNLOADING)
-    inetc::get /timeout 30000 /resume "" /caption $(MPLAYER_IS_DOWNLOADING) /banner "Downloading $MPLAYER_VERSION.7z" \
-    "http://downloads.sourceforge.net/smplayer/$MPLAYER_VERSION.7z?big_mirror=0" \
-    "$PLUGINSDIR\$MPLAYER_VERSION.7z" /end
+    inetc::get /timeout 30000 /resume "" /caption $(MPLAYER_IS_DOWNLOADING) /banner "Downloading $MPlayer_Version.7z" \
+    "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
+    "$PLUGINSDIR\$MPlayer_Version.7z" /end
     Pop $R0
     StrCmp $R0 OK 0 check_mplayer
 
-    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPLAYER_VERSION.7z" -y -o"$PLUGINSDIR"'
+    DetailPrint "Extracting files..."
+    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPlayer_Version.7z" -y -o"$PLUGINSDIR"'
 
     CreateDirectory "$INSTDIR\mplayer"
-    CopyFiles /SILENT "$PLUGINSDIR\$MPLAYER_VERSION\*" "$INSTDIR\mplayer"
+    CopyFiles /SILENT "$PLUGINSDIR\$MPlayer_Version\*" "$INSTDIR\mplayer"
 
     check_mplayer:
     ;This label does not necessarily mean there was a download error, so check first
@@ -403,6 +404,7 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
     Pop $R0
     StrCmp $R0 OK 0 check_codecs
 
+    DetailPrint "Extracting files..."
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$Codec_Version.zip" -y -o"$PLUGINSDIR"'
 
     CreateDirectory "$INSTDIR\mplayer\codecs"
@@ -583,6 +585,7 @@ ${MementoSectionDone}
   RMDir /r "$INSTDIR\themes"
   RMDir /r "$INSTDIR\translations"
   Delete "$INSTDIR\*.txt"
+  Delete "$INSTDIR\libgcc_s_dw2-1.dll"
   Delete "$INSTDIR\mingwm10.dll"
   Delete "$INSTDIR\Q*.dll"
   Delete "$INSTDIR\smplayer.exe"
