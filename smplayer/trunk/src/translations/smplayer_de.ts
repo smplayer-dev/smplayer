@@ -11,12 +11,12 @@
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Dieses Programm ist freie Software; Sie können es weitergeben und/oder es unter den Bedingungen der allgemeinen  GNU Lizenz verändern, wie es durch die Free Software-Foundation festgelegt wurde; entweder Version 2 der Lizenz, oder (nach ihrer Wahl) eine neuere Version.</translation>
+        <translation>Dieses Programm ist freie Software; Sie können es weitergeben und/oder es unter den Bedingungen der allgemeinen  GNU-Lizenz verändern, wie es durch die Free Software-Foundation festgelegt wurde; entweder Version 2 der Lizenz, oder (nach ihrer Wahl) eine neuere Version.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>The following people have contributed with translations:</source>
-        <translation>Die folgenden Leute haben an der Übersetzung mitgewirkt:</translation>
+        <translation>Folgenden Leute haben an der Übersetzung mitgewirkt:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="158"/>
@@ -46,7 +46,7 @@
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>Simplified-Chinese</source>
-        <translation>Vereinfachtes Chinesisch</translation>
+        <translation>Chinesisch (Kurzzeichen)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -76,7 +76,7 @@
     <message>
         <location filename="../about.cpp" line="176"/>
         <source>Dutch</source>
-        <translation>Niederländisch </translation>
+        <translation>Niederländisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -86,7 +86,7 @@
     <message>
         <location filename="../about.cpp" line="183"/>
         <source>Portuguese - Brazil</source>
-        <translation>Portugiesisch - Brasilien</translation>
+        <translation>Portugiesisch – Brasilien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -121,17 +121,17 @@
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>Traditional Chinese</source>
-        <translation>Traditionelles Chinesisch</translation>
+        <translation>Chinesisch (Langzeichen)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Romanian</source>
-        <translation>Romanisch</translation>
+        <translation>Rumänisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Portuguese - Portugal</source>
-        <translation>Portugiesisch - Portugal</translation>
+        <translation>Portugiesisch – Portugal</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="197"/>
@@ -156,7 +156,7 @@
     <message>
         <location filename="../about.ui" line="13"/>
         <source>About SMPlayer</source>
-        <translation>Über  SMPlayer</translation>
+        <translation>Über SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.ui" line="32"/>
@@ -166,7 +166,7 @@
     <message>
         <location filename="../about.ui" line="220"/>
         <source>icon</source>
-        <translation>Icon</translation>
+        <translation>Symbol</translation>
     </message>
     <message>
         <location filename="../about.ui" line="88"/>
@@ -186,7 +186,7 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Visit our web for updates:</source>
-        <translation>Besuchen sie unser Web für Updates:</translation>
+        <translation>Besuchen Sie unsere Webseite für Aktualisierungen:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="64"/>
@@ -261,7 +261,7 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation>Die folgenden Leute haben mit Patches mitgewirkt (für Details siehe Changelog):</translation>
+        <translation>Folgenden Leute haben mit Patches mitgewirkt (für Details siehe Changelog):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
@@ -271,7 +271,7 @@
     <message>
         <location filename="../about.cpp" line="96"/>
         <source>SMPlayer logo by %1</source>
-        <translation>SMPlayer Logo von %1</translation>
+        <translation>SMPlayer-Logo von %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="229"/>
@@ -344,7 +344,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="439"/>
         <source>Confirm overwrite?</source>
-        <translation>Überschreiben bestätigen ?</translation>
+        <translation>Überschreiben bestätigen?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="441"/>
@@ -366,17 +366,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="453"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>Die Datei konnte nicht gespeichert werden</translation>
+        <translation>Die Datei kann nicht gespeichert werden</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="487"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>Die Datei konnte nicht geladen werden</translation>
+        <translation>Die Datei kann nicht geladen werden</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="216"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Tastaturkurzbefehl ändern...</translation>
+        <translation>&amp;Tastaturkurzbefehl ändern…</translation>
     </message>
 </context>
 <context>
@@ -384,7 +384,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation>Audio Equalizer</translation>
+        <translation>Audio-Equalizer</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
@@ -449,22 +449,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Als Standard Wert einstellen</translation>
+        <translation>&amp;Als Standardwert einstellen</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Die jetzigen Werte als Standardwerte für neue Videos.</translation>
+        <translation>Die jetzigen Werte als Standardwerte für neue Videos verwenden.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>Set all controls to zero.</source>
-        <translation>Alle Steuerungen auf Null.</translation>
+        <translation>Alle Regler auf Null setzen.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>Informationen</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
@@ -482,7 +482,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1342"/>
         <source>D&amp;irectory...</source>
-        <translation>V&amp;erzeichnis...</translation>
+        <translation>V&amp;erzeichnis…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1343"/>
