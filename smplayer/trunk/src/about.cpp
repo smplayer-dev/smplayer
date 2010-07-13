@@ -155,7 +155,7 @@ QString About::getTranslators() {
 #else
          "<table>" +
 #endif
-         trad(tr("German"), "Henrikx <henrikx@users.sourceforge.net>") + 
+         trad(tr("German"), "Panagiotis Papadopoulos <pano_90@gmx.net>") + 
 		 trad(tr("Slovak"), "Sweto <peter.mendel@gmail.com>") +
 		 trad(tr("Italian"), QStringList()
                         << "greengreat <gmeildeno@gmail.com>"
