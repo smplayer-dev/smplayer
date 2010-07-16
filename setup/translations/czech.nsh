@@ -11,50 +11,50 @@ ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Instalátor již běží."
 ${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Instalaci tohoto programu je potřeba provést s právy administrátora."
 
 ; Components Page
-${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (required)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, shared libraries, and documentation."
+${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (vyžadován)"
+${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, sdílené knihovny a dokumentace."
 
-${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Shortcuts"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Desktop"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Creates a shortcut to SMPlayer on the desktop."
-${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Start Menu"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Create a Start Menu entry for SMPlayer."
+${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Zástupci"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Plocha"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Vytvoří zástupce SMPlayeru na ploše."
+${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Nabídka Start"
+${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Vytvoří zástupce SMPlayeru v nabídce Start."
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer Components"
-${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (required)"
+${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "Součásti MPlayeru"
+${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (vyžadován)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback."
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; vyžadován pro přehrávání."
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; vyžadován pro přehrávání. (Pro instalaci je potřeba připojení k Internetu)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
-${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECCODECS_TITLE "Binární kodeky"
+${LangFileString} SMPLAYER_SECCODECS_DESC "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."
+${LangFileString} SMPLAYER_SECTHEMES_TITLE "Témata ikon"
+${LangFileString} SMPLAYER_SECTHEMES_DESC "Přídavná témata ikon pro SMPlayer."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Localizations"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English localizations."
+${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Lokalizace"
+${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Neanglické lokalizace."
 
 ${LangFileString} MPLAYER_CODEC_INFORMATION "Binární kodeky podporují formáty, které zatím nejsou implementovány nativně, např. novější varianty RealVideo a jiné málo používané formáty.$\nPro většinu běžných formátů nejsou potřeba (DVD, MPEG-1/2/4, apod.)."
 
 ; Upgrade/Reinstall Page
-${LangFileString} REINSTALL_HEADER_TEXT "Already Installed"
-${LangFileString} REINSTALL_HEADER_SUBTEXT "Choose how you want to install SMPlayer."
-${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Choose the maintenance option to perform."
+${LangFileString} REINSTALL_HEADER_TEXT "Již nainstalováno"
+${LangFileString} REINSTALL_HEADER_SUBTEXT "Zvolte si, jak chce SMPlayer nainstalovat."
+${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Zvolte metodu údržby."
 
-${LangFileString} REINSTALL_CHGSETTINGS "Change settings (advanced)"
-${LangFileString} REINSTALL_UNKNOWN_VALUE "Unknown value of PREVIOUS_VERSION_STATE, aborting"
+${LangFileString} REINSTALL_CHGSETTINGS "Změna nastavení (pokročilé)"
+${LangFileString} REINSTALL_UNKNOWN_VALUE "Neznámá hodnota PREVIOUS_VERSION_STATE, ukončuji"
 
-${LangFileString} REINSTALL_OLDVER_DESCRIPTION "An older version of SMPlayer is installed on your system. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_OLDVER_UPGRADE "Upgrade SMPlayer using previous settings (recommended)"
+${LangFileString} REINSTALL_OLDVER_DESCRIPTION "Na vašem systému je nainstalována starší verze SMPlayeru. Vyberte jednu z možností a stikněte Další."
+${LangFileString} REINSTALL_OLDVER_UPGRADE "Provést upgrade pomocí předchozích nastavení (doporučeno)"
 
-${LangFileString} REINSTALL_NEWVER_DESCRIPTION "A newer version of SMPlayer is already installed! It is not recommended that you downgrade to an older version. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Downgrade SMPlayer using previous settings (recommended)"
+${LangFileString} REINSTALL_NEWVER_DESCRIPTION "Máte nainstalovánu novější verzi SMPlayeru! Downgrade na starší verzi se nedoporučuje. Vyberte jednu z možností a stikněte Další."
+${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Provést downgrade pomocí předchozích nastavení (doporučeno)"
 
-${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} is already installed. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Add/Remove/Reinstall components"
-${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Uninstall SMPlayer"
+${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer verze ${SMPLAYER_VERSION} je již nainstalován. Vyberte jednu z možností a stikněte Další."
+${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Přidat/Odstranit/reinstalovat součásti"
+${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Odinstalovat SMPlayer"
 
 ; MPlayer Section
 ${LangFileString} MPLAYER_IS_DOWNLOADING "Stahuji MPlayer..."
