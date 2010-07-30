@@ -54,7 +54,7 @@ Extensions::Extensions()
            << "ts" << "rmvb" << "dvr-ms" << "m2t" << "m2ts" << "rec"
            << "f4v" << "hdmov" ;
 
-	_audio << "mp3" << "ogg" << "wav" << "wma" <<  "ac3" << "ra" << "ape" << "flac";
+	_audio << "mp3" << "ogg" << "wav" << "wma" <<  "ac3" << "ra" << "ape" << "flac" << "thd";
 
 	_subtitles << "srt" << "sub" << "ssa" << "ass" << "idx" << "txt" << "smi"
                << "rt" << "utf" << "aqt";

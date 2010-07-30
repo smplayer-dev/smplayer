@@ -1,5 +1,8 @@
 [b]Version 0.6.10[/b]:
 
+(2010-07-30)
+ * Added thd to the list of extensions (for audio).
+
 (2010-04-28)
  * Added hdmov to the list of extensions (for video).
 
