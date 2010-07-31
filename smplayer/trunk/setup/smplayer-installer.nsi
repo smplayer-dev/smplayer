@@ -546,6 +546,7 @@ ${MementoSectionDone}
   !insertmacro ${_action} ".rm"
   !insertmacro ${_action} ".rmvb"
   !insertmacro ${_action} ".swf"
+  !insertmacro ${_action} ".thd"
   !insertmacro ${_action} ".ts"
   !insertmacro ${_action} ".vcd"
   !insertmacro ${_action} ".vfw"
