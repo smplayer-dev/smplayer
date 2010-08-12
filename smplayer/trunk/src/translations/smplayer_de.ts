@@ -632,12 +632,12 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1446"/>
         <source>&amp;Delay -</source>
-        <translation>&amp;Delay −</translation>
+        <translation>&amp;Verzögerung −</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1447"/>
         <source>D&amp;elay +</source>
-        <translation>D&amp;elay +</translation>
+        <translation>V&amp;erzögerung +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1453"/>
@@ -662,12 +662,12 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1460"/>
         <source>Delay &amp;-</source>
-        <translation>Delay &amp;−</translation>
+        <translation>Verzögerung &amp;−</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1461"/>
         <source>Delay &amp;+</source>
-        <translation>Delay &amp;+</translation>
+        <translation>Verzögerung &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1463"/>
@@ -683,11 +683,6 @@ Möchten Sie sie Überschreiben?</translation>
         <location filename="../basegui.cpp" line="1481"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Abspielliste</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1480"/>
-        <source>&amp;Show frame counter</source>
-        <translation type="obsolete">&amp;Anzahl der Einzelbilder anzeigen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1483"/>
@@ -775,26 +770,6 @@ Möchten Sie sie Überschreiben?</translation>
         <translation>&amp;Deinterlacing</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1607"/>
-        <source>4:3 &amp;Letterbox</source>
-        <translation type="obsolete">4:3 &amp;Letterbox</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1607"/>
-        <source>16:9 L&amp;etterbox</source>
-        <translation type="obsolete">16:9 L&amp;etterbox</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1607"/>
-        <source>4:3 &amp;Panscan</source>
-        <translation type="obsolete">4:3 &amp;Pan &amp;&amp; Scan</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1607"/>
-        <source>4:3 &amp;to 16:9</source>
-        <translation type="obsolete">4:3 &amp;zu 16:9</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="2794"/>
         <source>&amp;None</source>
         <translation>&amp;Keines</translation>
@@ -873,21 +848,6 @@ Möchten Sie sie Überschreiben?</translation>
         <location filename="../basegui.cpp" line="1640"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Ausgeschaltet</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1639"/>
-        <source>&amp;Seek bar</source>
-        <translation type="obsolete">&amp;Zeitleiste</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1639"/>
-        <source>&amp;Time</source>
-        <translation type="obsolete">&amp;Zeit</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1639"/>
-        <source>Time + T&amp;otal time</source>
-        <translation type="obsolete">Zeit + Zeit t&amp;otal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
@@ -1035,11 +995,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1423"/>
         <source>Move &amp;down</source>
         <translation>&amp;Runter bewegen</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1422"/>
-        <source>&amp;Pan &amp;&amp; scan</source>
-        <translation type="obsolete">&amp;Pan &amp;&amp; Scan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1468"/>
@@ -1210,11 +1165,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1471"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>SSA/&amp;ASS-Programmbibliothek verwenden</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1470"/>
-        <source>Flip i&amp;mage</source>
-        <translation type="obsolete">&amp;Bild spiegeln</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1534"/>
@@ -1536,12 +1486,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1448"/>
         <source>Set dela&amp;y...</source>
-        <translation>Dela&amp;y einstellen …</translation>
+        <translation>Ver&amp;zögerung einstellen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1462"/>
         <source>Se&amp;t delay...</source>
-        <translation>Delay eins&amp;tellen …</translation>
+        <translation>Verzögerung eins&amp;tellen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3547"/>
@@ -1556,22 +1506,22 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="3558"/>
         <source>SMPlayer - Audio delay</source>
-        <translation>SMPlayer – Audio-Delay</translation>
+        <translation>SMPlayer – Audioverzögerung</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3559"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation>Audio-Delay (in Millisekunden):</translation>
+        <translation>Audioverzögerung (in Millisekunden):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3568"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation>SMPlayer – Untertitel-Delay</translation>
+        <translation>SMPlayer – Untertitelverzögerung</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3569"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation>Untertitel-Delay (in Millisekunden):</translation>
+        <translation>Untertitelverzögerung (in Millisekunden):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1662"/>
@@ -1709,6 +1659,56 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <source>Toggle deinterlacing</source>
         <translation>Deinterlacing ein-/ausschalten</translation>
     </message>
+    <message>
+        <location filename="../basegui.cpp" line="1480"/>
+        <source>&amp;Show frame counter</source>
+        <translation type="obsolete">&amp;Anzahl der Einzelbilder anzeigen</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1607"/>
+        <source>4:3 &amp;Letterbox</source>
+        <translation type="obsolete">4:3 &amp;Letterbox</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1607"/>
+        <source>16:9 L&amp;etterbox</source>
+        <translation type="obsolete">16:9 L&amp;etterbox</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1607"/>
+        <source>4:3 &amp;Panscan</source>
+        <translation type="obsolete">4:3 &amp;Pan &amp;&amp; Scan</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1607"/>
+        <source>4:3 &amp;to 16:9</source>
+        <translation type="obsolete">4:3 &amp;zu 16:9</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1639"/>
+        <source>&amp;Seek bar</source>
+        <translation type="obsolete">&amp;Zeitleiste</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1639"/>
+        <source>&amp;Time</source>
+        <translation type="obsolete">&amp;Zeit</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1639"/>
+        <source>Time + T&amp;otal time</source>
+        <translation type="obsolete">Zeit + Zeit t&amp;otal</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1422"/>
+        <source>&amp;Pan &amp;&amp; scan</source>
+        <translation type="obsolete">&amp;Pan &amp;&amp; Scan</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1470"/>
+        <source>Flip i&amp;mage</source>
+        <translation type="obsolete">&amp;Bild spiegeln</translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1798,12 +1798,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../core.cpp" line="2779"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation>Untertitel-Delay: %1 ms</translation>
+        <translation>Untertitelverzögerung: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2796"/>
         <source>Audio delay: %1 ms</source>
-        <translation>Audio-Delay: %1 ms</translation>
+        <translation>Audioverzögerung: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2662"/>
@@ -2325,7 +2325,8 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="209"/>
         <source>All</source>
-        <translatorcomment>Alle Sprachen</translatorcomment>
+        <translatorcomment>Alle Sprachen
+</translatorcomment>
         <translation>Alle</translation>
     </message>
     <message>
@@ -2521,7 +2522,8 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infofile.cpp" line="89"/>
         <source>Copyright</source>
-        <translatorcomment>Urheberrecht passt hier nicht wirklich mMn</translatorcomment>
+        <translatorcomment>Urheberrecht passt hier nicht wirklich mMn
+</translatorcomment>
         <translation>Copyright</translation>
     </message>
     <message>
@@ -2709,14 +2711,14 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
         <translation>1.0rc2</translation>
     </message>
     <message>
-        <location filename="../inputmplayerversion.ui" line="118"/>
-        <source>Greater than 1.0rc2</source>
-        <translation type="obsolete">Jünger als 1.0rc2</translation>
-    </message>
-    <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
         <translation>1.0rc3 oder neuer</translation>
+    </message>
+    <message>
+        <location filename="../inputmplayerversion.ui" line="118"/>
+        <source>Greater than 1.0rc2</source>
+        <translation type="obsolete">Jünger als 1.0rc2</translation>
     </message>
 </context>
 <context>
@@ -3664,7 +3666,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message>
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3774,7 +3776,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message>
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4047,44 +4049,6 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../playlist.cpp" line="317"/>
         <source>Preferences</source>
         <translation type="obsolete">Einstellungen</translation>
-    </message>
-</context>
-<context>
-    <name>PlaylistPreferences</name>
-    <message>
-        <location filename="../playlistpreferences.ui" line="13"/>
-        <source>Playlist - Preferences</source>
-        <translation type="obsolete">Abspielliste - Einstellungen</translation>
-    </message>
-    <message>
-        <location filename="../playlistpreferences.cpp" line="30"/>
-        <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="obsolete">Mit dieser Option werden Dateien auch in Unterverzeichnissen rekursiv hinzugefügt. Ansonsten nur zum ausgewählten Verzeichnis.</translation>
-    </message>
-    <message>
-        <location filename="../playlistpreferences.ui" line="32"/>
-        <source>&amp;Add files in directories recursively</source>
-        <translation type="obsolete">&amp;Dateien aus untergeordneten Verzeichnissen einfügen (~rekursiv)</translation>
-    </message>
-    <message>
-        <location filename="../playlistpreferences.cpp" line="35"/>
-        <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="obsolete">Diese Option erlaubt Infos anzuzeigen in der Abspielliste zu den hinzugefügten Dateien. Dies erlaubt die Anzeige der Titel Name (wenn verfügbar) und die Länge der Dateien. Andernfalls werden diese Informationen nicht zur Verfügung stehen, bis die Datei tatsächlich gespielt wird. Achtung: Diese Option kann langsam sein, speziell  bei vielen Dateien.</translation>
-    </message>
-    <message>
-        <location filename="../playlistpreferences.ui" line="39"/>
-        <source>Automatically get &amp;info about files added</source>
-        <translation type="obsolete">&amp;Automatische Infos über alle hinzugefügten Dateien erhalten</translation>
-    </message>
-    <message>
-        <location filename="../playlistpreferences.ui" line="46"/>
-        <source>&amp;Save copy of playlist on exit</source>
-        <translation type="obsolete">&amp;Speichere Kopie der Abspielliste beim Beenden</translation>
-    </message>
-    <message>
-        <location filename="../playlistpreferences.ui" line="25"/>
-        <source>&amp;Play files from start</source>
-        <translation type="obsolete">&amp;Wiedergabe der Dateien von Anfang an</translation>
     </message>
 </context>
 <context>
@@ -4645,11 +4609,6 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <translation>All&amp;gemein</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="35"/>
-        <source>Paths</source>
-        <translation type="obsolete">Pfade</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="61"/>
         <source>Media settings</source>
         <translation>Medien-Einstellungen</translation>
@@ -4780,36 +4739,6 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <translation>Ändert dynamisch das Niveau der Nachbearbeitung, abhängig von der vorhandenen CPU-Auslastung. Die angegebene Zahl, ist das maximal zu benutzende Niveau. Normalerweise kann eine große Zahl angeben werden.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="847"/>
-        <source>Change volume</source>
-        <translation type="obsolete">Lautstärke ändern</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="847"/>
-        <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
-        <translation type="obsolete">Falls aktiviert, erinnert sich SMPlayer an die Lautstärke für jede Datei und stellt sie wieder her, sobald die Datei gespielt wird. Für neue Dateien gilt die Standard-Lautstärke.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="847"/>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="847"/>
-        <source>&amp;Change volume on every file</source>
-        <translation type="obsolete">&amp;Lautstärke für jede Datei ändern</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="847"/>
-        <source>Select the &amp;MPlayer executable:</source>
-        <translation type="obsolete">&amp;Die ausführbare Mplayer-Datei auswählen:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="847"/>
-        <source>&amp;Folder for storing screenshots:</source>
-        <translation type="obsolete">&amp;Verzeichnis für Bilschirmfotos:</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="1084"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Ton:</translation>
@@ -4838,11 +4767,6 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Disable &amp;screensaver</source>
         <translation>Bild&amp;schirmschoner abschalten</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="517"/>
-        <source>&amp;Default volume:</source>
-        <translation type="obsolete">&amp;Standard Lautstärke:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="779"/>
@@ -4955,16 +4879,6 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <translation>Maximiert die Lautstärke, ohne den Ton zu verzerren.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="970"/>
-        <source>Default volume</source>
-        <translation type="obsolete">Standard Lautstärke</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="970"/>
-        <source>Sets the initial volume that new files will use.</source>
-        <translation type="obsolete">Ausgangslautstärke für neue Dateien festlegen.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="937"/>
         <source>Channels by default</source>
         <translation>Voreingestellte Kanäle</translation>
@@ -4973,11 +4887,6 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <location filename="../prefgeneral.cpp" line="967"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Stellt das maximale Verstärkungsniveau ein (Standard: 110). Ein Wert von 200 erlaubt Ihnen, die Standard-Lautstärke auf bis zu dem doppelten Niveau des jetzigen Niveaus anzupassen. Mit Werten unter 100 ist die Anfangslautstärke, die 100 % beträgt, über dem Maximum, was z. B. das OSD nicht richtig anzeigen kann.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="963"/>
-        <source>Uses hardware AC3 passthrough</source>
-        <translation type="obsolete">Benutze Hardware AC3 Durchlauf</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="844"/>
@@ -5058,11 +4967,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="949"/>
-        <source>Change volume just before playing</source>
-        <translation type="obsolete">Änderung der Lautstärke kurz vor der Wiedergabe</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>&amp;Video</source>
         <translation>&amp;Video</translation>
@@ -5113,11 +5017,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="105"/>
-        <source>Dei&amp;nterlace by default:</source>
-        <translation type="obsolete">&amp;Deinterlacing als Standard:</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="851"/>
         <source>Deinterlace by default</source>
         <translation>Standardmäßiges Deinterlacing</translation>
@@ -5136,11 +5035,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <location filename="../prefgeneral.ui" line="101"/>
         <source>Remember &amp;time position</source>
         <translation>&amp;Zeitposition beibehalten</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="101"/>
-        <source>Change volume just before p&amp;laying</source>
-        <translation type="obsolete">&amp;Änderung der Lautstärke kurz vor der Wiedergabe</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="929"/>
@@ -5195,7 +5089,8 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="373"/>
         <source>User defined...</source>
-        <translatorcomment>Ellipse nicht wirklich nötig hier … Sollte vllt. auch im Original geändert werden.</translatorcomment>
+        <translatorcomment>Ellipse nicht wirklich nötig hier … Sollte vllt. auch im Original geändert werden.
+</translatorcomment>
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
@@ -5222,11 +5117,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <location filename="../prefgeneral.cpp" line="786"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Wenn diese Einstellung falsch ist, wird SMPlayer nicht funktionieren!</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="785"/>
-        <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="obsolete">Hier wird der Order zur Speicherung der Bildschirmfotos festgelegt. Ohne Eingabe wird die Funktion abgeschaltet.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="830"/>
@@ -5267,11 +5157,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <location filename="../prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
         <translation>Ausgabe-&amp;Treiber:</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.ui" line="569"/>
-        <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="obsolete">Ist diese Option aktiviert, wird die Anfangslautstärke kurz vor der Wiedergabe bestimmt. Dadurch wird eine laute Wiedergabe beim Start vermieden. Benötigt mindestens MPlayer SVN-r27872. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="886"/>
@@ -5441,7 +5326,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="974"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation>Passt die A/V-Synchronisation, basierend auf Messungen von Audiodelays, stufenweise an.</translation>
+        <translation>Passt die A/V-Synchronisation, basierend auf Messungen von Audioverzögerungen, stufenweise an.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="976"/>
@@ -5512,6 +5397,86 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <location filename="../prefgeneral.cpp" line="935"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Hinweis:&lt;/b&gt; keiner der Audiofilter wird angewendet, wenn diese Option aktiviert ist.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="35"/>
+        <source>Paths</source>
+        <translation type="obsolete">Pfade</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="847"/>
+        <source>Change volume</source>
+        <translation type="obsolete">Lautstärke ändern</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="847"/>
+        <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
+        <translation type="obsolete">Falls aktiviert, erinnert sich SMPlayer an die Lautstärke für jede Datei und stellt sie wieder her, sobald die Datei gespielt wird. Für neue Dateien gilt die Standard-Lautstärke.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="847"/>
+        <source>0</source>
+        <translation type="obsolete">0</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="847"/>
+        <source>&amp;Change volume on every file</source>
+        <translation type="obsolete">&amp;Lautstärke für jede Datei ändern</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="847"/>
+        <source>Select the &amp;MPlayer executable:</source>
+        <translation type="obsolete">&amp;Die ausführbare Mplayer-Datei auswählen:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="847"/>
+        <source>&amp;Folder for storing screenshots:</source>
+        <translation type="obsolete">&amp;Verzeichnis für Bilschirmfotos:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="517"/>
+        <source>&amp;Default volume:</source>
+        <translation type="obsolete">&amp;Standard Lautstärke:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="970"/>
+        <source>Default volume</source>
+        <translation type="obsolete">Standard Lautstärke</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="970"/>
+        <source>Sets the initial volume that new files will use.</source>
+        <translation type="obsolete">Ausgangslautstärke für neue Dateien festlegen.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="963"/>
+        <source>Uses hardware AC3 passthrough</source>
+        <translation type="obsolete">Benutze Hardware AC3 Durchlauf</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="949"/>
+        <source>Change volume just before playing</source>
+        <translation type="obsolete">Änderung der Lautstärke kurz vor der Wiedergabe</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="105"/>
+        <source>Dei&amp;nterlace by default:</source>
+        <translation type="obsolete">&amp;Deinterlacing als Standard:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="101"/>
+        <source>Change volume just before p&amp;laying</source>
+        <translation type="obsolete">&amp;Änderung der Lautstärke kurz vor der Wiedergabe</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="785"/>
+        <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
+        <translation type="obsolete">Hier wird der Order zur Speicherung der Bildschirmfotos festgelegt. Ohne Eingabe wird die Funktion abgeschaltet.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="569"/>
+        <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
+        <translation type="obsolete">Ist diese Option aktiviert, wird die Anfangslautstärke kurz vor der Wiedergabe bestimmt. Dadurch wird eine laute Wiedergabe beim Start vermieden. Benötigt mindestens MPlayer SVN-r27872. </translation>
     </message>
 </context>
 <context>
@@ -5729,7 +5694,8 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="328"/>
         <source>Middle click</source>
-        <translatorcomment>Mittelklick?</translatorcomment>
+        <translatorcomment>Mittelklick?
+</translatorcomment>
         <translation>Klick mit der mittleren Maustaste</translation>
     </message>
     <message>
@@ -5853,11 +5819,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <translation>Während des Abspielens im Vordergrund</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
-        <source>Activate option in DVD menus</source>
-        <translation type="obsolete">Aktivieren der Option in DVD-Menüs</translation>
-    </message>
-    <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>Option unter dem Mauszeiger in DVD-Menüs aktivieren</translation>
@@ -5971,6 +5932,11 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
         <translation>&amp;Entgegengesetztes Spulen mit dem Mausrad</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="72"/>
+        <source>Activate option in DVD menus</source>
+        <translation type="obsolete">Aktivieren der Option in DVD-Menüs</translation>
     </message>
 </context>
 <context>
@@ -6510,16 +6476,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Überspringen von Bildern erlauben</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="243"/>
-        <source>Synchronization</source>
-        <translation type="obsolete">Synchronisation</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="243"/>
-        <source>Audio/video auto synchronization</source>
-        <translation type="obsolete">Automatische Audio/Video Synchronisation</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="273"/>
         <source>Fast audio track switching</source>
         <translation>Schneller Tonspurwechsel</translation>
@@ -6545,11 +6501,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Intensivere Einzelbildprünge (Lässt das Dekodieren fehlschlagen). Führt zu Bildverzerrungen.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
-        <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="obsolete">Justiert stufenweise die A/V Synchronisierung, die auf Audioverzögerungen (Delay) basiert.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="104"/>
         <source>Priorit&amp;y:</source>
         <translation>&amp;Priorität:</translation>
@@ -6563,16 +6514,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefperformance.ui" line="179"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
         <translation>&amp;Verstärktes überspringen von Bildern erlauben. (Kann zu Bildverzerrungen führen)</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="179"/>
-        <source>Audio/&amp;video auto synchronization</source>
-        <translation type="obsolete">&amp;Automatische Audio/Video Synchronisation</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="179"/>
-        <source>Fact&amp;or:</source>
-        <translation type="obsolete">&amp;Faktor:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="319"/>
@@ -6769,6 +6710,31 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <source>Cache for &amp;TV:</source>
         <translation>Zwischenspeicher für &amp;TV:</translation>
     </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="243"/>
+        <source>Synchronization</source>
+        <translation type="obsolete">Synchronisation</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="243"/>
+        <source>Audio/video auto synchronization</source>
+        <translation type="obsolete">Automatische Audio/Video Synchronisation</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="247"/>
+        <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
+        <translation type="obsolete">Justiert stufenweise die A/V Synchronisierung, die auf Audioverzögerungen (Delay) basiert.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="179"/>
+        <source>Audio/&amp;video auto synchronization</source>
+        <translation type="obsolete">&amp;Automatische Audio/Video Synchronisation</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="179"/>
+        <source>Fact&amp;or:</source>
+        <translation type="obsolete">&amp;Faktor:</translation>
+    </message>
 </context>
 <context>
     <name>PrefPlaylist</name>
@@ -6825,7 +6791,8 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translatorcomment>Ergänze Info automatisch über hinzugefügte Dateien</translatorcomment>
+        <translatorcomment>Ergänze Info automatisch über hinzugefügte Dateien
+</translatorcomment>
         <translation>Informationen über hinzugefügte Dateien automatisch hinzufügen</translation>
     </message>
     <message>
@@ -7295,7 +7262,8 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="504"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translatorcomment>besseres Wort/besserer Ausdruck für gestylt?</translatorcomment>
+        <translatorcomment>besseres Wort/besserer Ausdruck für gestylt?
+</translatorcomment>
         <translation>Die folgenden Optionen definieren den zu verwendenden Stil, für nicht gestylte Untertitel (srt, sub …).</translation>
     </message>
     <message>
@@ -7590,11 +7558,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>~/.mplayer/channels.conf beim Start neu einlesen</translation>
     </message>
     <message>
-        <location filename="../preftv.cpp" line="109"/>
-        <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.</source>
-        <translation type="obsolete">Bei aktivierter Option sucht SMPlayer nache einer neuen TV- und Radioliste in ~/.mplayer/channels.conf.</translation>
-    </message>
-    <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
         <translation>&amp;TV und Radio</translation>
@@ -7605,11 +7568,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Deinterlacing immer druchführen bei TV:</translation>
     </message>
     <message>
-        <location filename="../preftv.ui" line="55"/>
-        <source>&amp;Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="obsolete">&amp;Rescan ~/.mplayer/channels.conf beim Start</translation>
-    </message>
-    <message>
         <location filename="../preftv.cpp" line="111"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
         <translation>Wenn diese Option aktiviert ist, wird SMPlayer, in den Dateien ~/.mplayer/channels.conf.ter oder ~/.mplayer/channels.conf, nach neuen TV- und Radiosendern suchen.</translation>
@@ -7618,6 +7576,16 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
         <translation>Beim Start na&amp;ch neuen Sendern suchen</translation>
+    </message>
+    <message>
+        <location filename="../preftv.cpp" line="109"/>
+        <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.</source>
+        <translation type="obsolete">Bei aktivierter Option sucht SMPlayer nache einer neuen TV- und Radioliste in ~/.mplayer/channels.conf.</translation>
+    </message>
+    <message>
+        <location filename="../preftv.ui" line="55"/>
+        <source>&amp;Rescan ~/.mplayer/channels.conf on startup</source>
+        <translation type="obsolete">&amp;Rescan ~/.mplayer/channels.conf beim Start</translation>
     </message>
 </context>
 <context>
@@ -7894,13 +7862,15 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translatorcomment>Alle Untertitel auswählen</translatorcomment>
+        <translatorcomment>Alle Untertitel auswählen
+</translatorcomment>
         <translation>Alle auswählen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translatorcomment>Keine Untertitel auswählen</translatorcomment>
+        <translatorcomment>Keine Untertitel auswählen
+</translatorcomment>
         <translation>Keine auswählen</translation>
     </message>
 </context>
@@ -7920,14 +7890,14 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
 <context>
     <name>TimeDialog</name>
     <message>
-        <location filename="../tvlist.cpp" line="89"/>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Positionierung</translation>
-    </message>
-    <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Sprung zu:</translation>
+    </message>
+    <message>
+        <location filename="../tvlist.cpp" line="89"/>
+        <source>SMPlayer - Seek</source>
+        <translation type="obsolete">SMPlayer - Positionierung</translation>
     </message>
 </context>
 <context>
@@ -8278,6 +8248,44 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../widgetactions.cpp" line="182"/>
         <source>Volume</source>
         <translation>Lautstärke</translation>
+    </message>
+</context>
+<context>
+    <name>PlaylistPreferences</name>
+    <message>
+        <location filename="../playlistpreferences.ui" line="13"/>
+        <source>Playlist - Preferences</source>
+        <translation type="obsolete">Abspielliste - Einstellungen</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.cpp" line="30"/>
+        <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
+        <translation type="obsolete">Mit dieser Option werden Dateien auch in Unterverzeichnissen rekursiv hinzugefügt. Ansonsten nur zum ausgewählten Verzeichnis.</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="32"/>
+        <source>&amp;Add files in directories recursively</source>
+        <translation type="obsolete">&amp;Dateien aus untergeordneten Verzeichnissen einfügen (~rekursiv)</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.cpp" line="35"/>
+        <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
+        <translation type="obsolete">Diese Option erlaubt Infos anzuzeigen in der Abspielliste zu den hinzugefügten Dateien. Dies erlaubt die Anzeige der Titel Name (wenn verfügbar) und die Länge der Dateien. Andernfalls werden diese Informationen nicht zur Verfügung stehen, bis die Datei tatsächlich gespielt wird. Achtung: Diese Option kann langsam sein, speziell  bei vielen Dateien.</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="39"/>
+        <source>Automatically get &amp;info about files added</source>
+        <translation type="obsolete">&amp;Automatische Infos über alle hinzugefügten Dateien erhalten</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="46"/>
+        <source>&amp;Save copy of playlist on exit</source>
+        <translation type="obsolete">&amp;Speichere Kopie der Abspielliste beim Beenden</translation>
+    </message>
+    <message>
+        <location filename="../playlistpreferences.ui" line="25"/>
+        <source>&amp;Play files from start</source>
+        <translation type="obsolete">&amp;Wiedergabe der Dateien von Anfang an</translation>
     </message>
 </context>
 </TS>
