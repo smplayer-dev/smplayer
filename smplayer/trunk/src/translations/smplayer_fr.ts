@@ -1825,7 +1825,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../core.cpp" line="3465"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>La molette de la souris permet maintenand le déplacement dans le fichier</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3468"/>
@@ -5162,7 +5162,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="880"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer/désactiver le rendu vidéo par tranches de 16 pixels. Si cette option est désactivée, l&apos;image entière est rendu en une seul passe. Peut être plus rapide ou plus lent, selon la carte vidéo et le cache disponible. Cette option n&apos;a d&apos;effet que les codecs libmpeg2 et libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="483"/>
@@ -5212,7 +5212,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="784"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici vous devez spécifier l&apos;exécutable mplayer que SMPlayer utilisera. &lt;br&gt;SMPlayer nécessite au moins la version 1.0rc1 de mplayer (même si une révision SVN récente est fortement recommandé).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="786"/>
@@ -5237,7 +5237,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="823"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est activée, le fichier sera mis en pause lorsque la fenêtre principale est cachée. Lorsque la fenêtre est restaurée, la lecture sera reprise.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5267,7 +5267,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="889"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est activée, des bandes noires seront ajoutées à l&apos;image en mode plein écran. Cela permet d&apos;afficher les sous-titres sur ces bordures noires.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="510"/>
@@ -5342,7 +5342,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="814"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vous pouvez spécifier ici un dossier où les captures d&apos;écran prises par SMPlayer seront stockées. Si le dossier n&apos;est pas valide la fonctionnalité de capture d&apos;écran sera désactivée.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
@@ -5372,7 +5372,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="955"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est cochée, le même niveau de volume sera utilisé pour tous les fichiers que vous jouez. Si l&apos;option n&apos;est pas cochée chaque fichier utilise son propre niveau de volume.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="956"/>
@@ -5392,7 +5392,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="899"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette option désactive l&apos;économiseur d&apos;écran juste avant de commencer à lire un fichier et l&apos;active à nouveau quand la lecture est terminée. Si cette option est activée, l&apos;écran de veille ne s&apos;affichera pas, même lors de la lecture de fichiers audio ou quand un fichier est en pause.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="901"/>
@@ -6243,7 +6243,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="565"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Définit la méthode à utiliser lorsqu&apos;on se déplace dans la vidéo avec le curseur. Le déplacement absolut peut-être un peu plus précis, tandis que le déplacement relatif peut mieux fonctionner avec des fichiers avec une durée incorrecte.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="570"/>
@@ -6348,7 +6348,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="599"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cette option définit l&apos;espacement en pixels entre le contrôle flottant et le bas de l&apos;écran. Utile lorsque l&apos;écran est une télévision et que l&apos;overscan empêche d&apos;afficher le contrôle flottant.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="601"/>
@@ -6363,7 +6363,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="610"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Si cette option est cochée, le contrôle est affiché sans passer par le gestionnaire de fenêtres. Désactivez cette option si le contrôle flottant ne fonctionne pas bien avec votre gestionnaire de fenêtres.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="811"/>
@@ -6373,7 +6373,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="817"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation>Le panneau de contrôle s&apos;affiche en mode plein écran lorsque la souris est déplacée vers le bas de l&apos;écran.</translation>
+        <translation type="unfinished">Le contrôle flottant s&apos;affiche en mode plein écran lorsque la souris est déplacée vers le bas de l&apos;écran.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="827"/>
@@ -6408,7 +6408,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="604"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Si cette option est activée, le contrôle flottant apparaîtra en mode compact. &lt;b&gt;Avertissement:&lt;/b&gt; le contrôle flottant n&apos;a pas été conçu pour le mode compact et il pourrait ne pas fonctionner correctement.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
