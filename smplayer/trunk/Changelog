@@ -1,5 +1,8 @@
 [b]Version 0.6.10[/b]:
 
+(2010-09-03)
+ * Added webm and vp8 to the list of extensions (for video).
+
 (2010-07-30)
  * Added thd to the list of extensions (for audio).
 
