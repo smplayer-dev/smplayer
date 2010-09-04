@@ -52,7 +52,7 @@ Extensions::Extensions()
            << "mkv" << "nsv" << "ram" << "flv"
            << "rm" << "swf"
            << "ts" << "rmvb" << "dvr-ms" << "m2t" << "m2ts" << "rec"
-           << "f4v" << "hdmov" ;
+           << "f4v" << "hdmov" << "webm" << "vp8" ;
 
 	_audio << "mp3" << "ogg" << "wav" << "wma" <<  "ac3" << "ra" << "ape" << "flac" << "thd";
 
