@@ -34,7 +34,7 @@ build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
-	$(MAKE) PREFIX=/usr/local QMAKE=qmake-qt4 LRELEASE=lrelease-qt4 \
+	$(MAKE) PREFIX=/usr QMAKE=qmake-qt4 LRELEASE=lrelease-qt4 \
             DOC_PATH="\\\"/usr/share/doc/smplayer\\\"" \
             QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
 
@@ -57,7 +57,7 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/smplayer.
-	$(MAKE) PREFIX=/usr/local DOC_PATH=/usr/share/doc/smplayer \
+	$(MAKE) PREFIX=/usr DOC_PATH=/usr/share/doc/smplayer \
             DESTDIR=$(CURDIR)/debian/smplayer install
 
 
@@ -94,7 +94,7 @@ binary-arch: build install
 	dh_shlibdeps
 	dh_gencontrol
 	dh_md5sums
-	dh_builddeb
+	dh_builddeb -- -Z lzma
 
 binary: binary-indep binary-arch
 .PHONY: build clean binary-indep binary-arch binary install configure
