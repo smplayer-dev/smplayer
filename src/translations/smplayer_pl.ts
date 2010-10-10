@@ -2405,9 +2405,9 @@ Przykład: resample=44100:0:0,volnorm</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
         <source>%1 subtitle(s) extracted</source>
         <translation>
-            <numerusform>%1 napisy(ów) wypakowano</numerusform>
-            <numerusform>%1 napisy(ów) wypakowano</numerusform>
-            <numerusform>%1 napisy(ów) wypakowano</numerusform>
+            <numerusform>Wypakowane napisy: %1</numerusform>
+            <numerusform>Wypakowane napisy: %1</numerusform>
+            <numerusform>Wypakowane napisy: %1</numerusform>
         </translation>
     </message>
     <message>
@@ -5297,7 +5297,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="800"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta pozwala na zmianę formy zapisywania ustawień dla plików. Dostępne opcje to:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="802"/>
@@ -5307,7 +5307,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="805"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ostatnia z opcji może być szybsza, jeśli jest wiele danych o plikach.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="113"/>
@@ -5332,7 +5332,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="946"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Podaję ilość kanałów do odtworzenia. Mplayer zapyta dekoder, aby ten zdekodował dzwięk w tak wiel kanałach, ile jest podane. Zadaniem dekodera jest wypełnienie wymagań. Zwykle opcja ta jest ważna tylko podczas odtwarzania filmów z dźwiekiem AC3 (np DVD). W takim wypadku liba52 zajmuje się dekodowaniem domyślnie i poprawnie miksuje ścieżkę audio do wymaganej ilości kanałów. &lt;b&gt;Uwaga&lt;/b&gt;: Opcja ta jest honorowana przez kodeki (tylko AC3), filtry (surround) i wyjścia dzwięku (co najmniej OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="807"/>
@@ -5342,7 +5342,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="809"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Użyj tej opcji, jeśli chcesz mieć możliwość robienia zrzutów ekranu w filmach.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="814"/>
@@ -5377,12 +5377,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="955"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcje została zaznaczona, każdy z plików będzie odtwarzany z taką samą głośnością, w przeciwnym wypadku każdy plik będzie miał swoje własne ustawienia głośności.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="956"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta odnosi sie również do wyciszenia.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="755"/>
@@ -5397,7 +5397,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="899"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta wyłącza wygaszacz ekranu w momencie rozpoczęcia odtwarzania filmów i włacza go, gdy odtwarzanie dobiegnie końca. Gdy ta opcja jest zaznaczona wygaszacz ekranu nie pojawi się nawet w momencie odtwarzania plików audio, czy podczas pauzy filmu.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="901"/>
@@ -5407,7 +5407,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="906"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gdy ta opcja jest zaznaczona SMPlayer będzie starał się unikać włączenia wygaszacza ekranu podczas odtwarzania filmu, jednakże będzie on wyświetlay podczas gdy odtwarzasz plik audio, badż w trybie pauzy. Opcja ta działa tylko jeśli okno SMPlayera jest na wierzchu.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="524"/>
@@ -5487,7 +5487,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="840"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwykle filtry wideo nie działaja, podczas gdy używane jest vdpau jako sterownik wyjścia, więc dobrze jest mieć tą opcję zaznaczoną.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="272"/>
@@ -7360,7 +7360,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta &lt;b&gt;NIE&lt;/b&gt; zmienia rozmiaru napisów w obecnym filmie. Aby tego dokonać, użyj opcji &lt;i&gt;Rozmiar +&lt;/i&gt; i &lt;i&gt;Rozmiar -&lt;/i&gt; w menu napisów.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
@@ -7370,7 +7370,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.cpp" line="483"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta określa domyslną skalę czcionki, która zostanie użyta dla nowo otwartych plików.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
@@ -7380,7 +7380,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta określa domyslną skalę czcionki dla napisów SSA/ASS, która zostanie użyta dla nowo otwartych plików.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
@@ -7495,7 +7495,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja zostanie zaznaczona styl wybrany powyżej zostanie zastosowany również dla napisów ass.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
@@ -7720,18 +7720,18 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../helper.cpp" line="83"/>
         <source>%1 second(s)</source>
         <translation>
-            <numerusform>%1 sekund (a,y)</numerusform>
-            <numerusform>%1 sekund (a,y)</numerusform>
-            <numerusform>%1 sekund (a,y)</numerusform>
+            <numerusform>%1 sekunda</numerusform>
+            <numerusform>%1 sekundy</numerusform>
+            <numerusform>%1 sekund</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <source>%1 minute(s)</source>
         <translation>
-            <numerusform>%1 minut (a,y)</numerusform>
-            <numerusform>%1 minut (a,y)</numerusform>
-            <numerusform>%1 minut (a,y)</numerusform>
+            <numerusform>%1 minuta</numerusform>
+            <numerusform>%1 minuty</numerusform>
+            <numerusform>%1 minut</numerusform>
         </translation>
     </message>
     <message>
@@ -8160,7 +8160,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Podgląd zostanie stworzony dla filmu wideo, który tu wybrałeś.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
@@ -8170,37 +8170,37 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcje określa lość kolumn w tabeli.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcje określa lość wierszy w tabeli.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli zaznaczysz tą opcję, na każdej z klatek filmu będzie widoczny jej czas.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli współczynnik proporcji filmu jest błędnie ustawiony, możesz wybrać prawidłowy.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwykle kilka pierwszych klatek jest czarnych, więc dobrze jest ominąć kilka początkowych sekund filmu. Opcja ta określa ile sekund zostanie pominiętych.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja ta określa maksymalną szerokość (w pikselach), jaka bedzie miał wygenerowany obrazek.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Do stworzenia podglądu zostaną wykorzystane klatki z filmu. Tutaj możesz wybrać format obrazu dla wyeksportowanych klatek. PNG zwykle daje najlepszą jakość.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
