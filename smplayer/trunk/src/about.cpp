@@ -171,7 +171,8 @@ QString About::getTranslators() {
 			<< "CyberDragon <cyberdragon777@gmail.com>") + 
          trad(tr("Polish"), QStringList()
 			<< "qla <qla0@vp.pl>"
-			<< "Jarek <ajep9691@wp.pl>" ) +
+			<< "Jarek <ajep9691@wp.pl>"
+			<< "sake12 <sake12@gmail.com>" ) +
          trad(tr("Japanese"), "Nardog <nardog@e2umail.com>") + 
          trad(tr("Dutch"), QStringList()
 			<< "profoX <wesley@ubuntu-nl.org>"
