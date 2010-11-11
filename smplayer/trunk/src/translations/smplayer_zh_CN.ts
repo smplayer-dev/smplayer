@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="zh">
+<!DOCTYPE TS>
+<TS version="2.0" language="zh">
 <context>
     <name>About</name>
     <message>
@@ -235,7 +236,7 @@
     <message>
         <location filename="../about.cpp" line="58"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation>便用 Qt %1 (由 Qt %2 编译)</translation>
+        <translation>使用 Qt %1 (由 Qt %2 编译)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="203"/>
@@ -290,17 +291,17 @@
     <message>
         <location filename="../about.cpp" line="208"/>
         <source>Estonian</source>
-        <translation type="unfinished">爱沙尼亚语</translation>
+        <translation>爱沙尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">立陶宛语</translation>
+        <translation>立陶宛语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>Danish</source>
-        <translation type="unfinished">丹麦语</translation>
+        <translation>丹麦语</translation>
     </message>
 </context>
 <context>
@@ -1505,32 +1506,32 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished">DVD 菜单, 上移</translation>
+        <translation>DVD 菜单, 上移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished">DVD 菜单, 下移</translation>
+        <translation>DVD 菜单, 下移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1713"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished">DVD 菜单, 左移</translation>
+        <translation>DVD 菜单, 左移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1714"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished">DVD 菜单, 右移</translation>
+        <translation>DVD 菜单, 右移</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished">DVD 菜单, 选项</translation>
+        <translation>DVD 菜单, 选项</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1718"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished">DVD 菜单, 鼠标点击</translation>
+        <translation>DVD 菜单, 鼠标点击</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1448"/>
@@ -1641,7 +1642,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1355"/>
         <source>&amp;Jump...</source>
-        <translation>跳转至...(&amp;J)</translation>
+        <translation>跳转至(&amp;J)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1546"/>
@@ -1671,17 +1672,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1409"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>垂直翻转(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>在 OSD 显示文件名</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1602"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>缩放(&amp;m)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1384"/>
@@ -1842,12 +1843,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1164"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>无法截图,请先设置保存截图的目录</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1177"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>无法截图,请先设置保存截图的目录</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2322"/>
@@ -2404,7 +2405,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
         <source>%1 subtitle(s) extracted</source>
         <translation>
-            <numerusform>%1 个字幕被提取</numerusform>
+            <numerusform>提取了 %1 个字幕</numerusform>
         </translation>
     </message>
     <message>
@@ -3657,7 +3658,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>马绍尔语</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>巴克摩语</translation>
@@ -3767,7 +3768,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>文达语</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>沃拉普克语</translation>
@@ -4455,17 +4456,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>将 SMPlayer 日志保存成文件</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此选项, SMPlayer 的日志将被保存到 %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="631"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>保存 SMPlayer 日志文件 (&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -7769,12 +7770,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>宽</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>高</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="158"/>
