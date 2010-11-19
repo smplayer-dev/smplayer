@@ -3793,7 +3793,7 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     <message>
         <location filename="../logwindow.cpp" line="99"/>
         <source>Choose a filename to save under</source>
-        <translation>Choisissez un nom de fichier pour sauver</translation>
+        <translation>Choisissez un nom de fichier pour sauvegarder sous</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="105"/>
@@ -3815,7 +3815,7 @@ Voulez-vous le remplacer ?</translation>
     <message>
         <location filename="../logwindow.cpp" line="126"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>Le fichier de log n&apos;a pas pu être sauvegardé</translation>
+        <translation>Le fichier de journal n&apos;a pas pu être sauvegardé</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="100"/>
@@ -3828,12 +3828,12 @@ Voulez-vous le remplacer ?</translation>
     <message>
         <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Log Window</translation>
+        <translation>Fenêtre de journal</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
-        <translation>Sauver</translation>
+        <translation>Sauvegarder</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="70"/>
@@ -4135,12 +4135,12 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
         <source>Log MPlayer output</source>
-        <translation>Log de sortie MPlayer</translation>
+        <translation>Journal de sortie MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>Log SMPlayer output</source>
-        <translation>Log de sortie SMPlayer</translation>
+        <translation>Journal de sortie SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="725"/>
@@ -4185,7 +4185,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="239"/>
         <source>&amp;Colorkey:</source>
-        <translation>Clé de &amp;couleur :</translation>
+        <translation>Couleur &amp;clé :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="590"/>
@@ -5297,12 +5297,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="802"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;un fichier ini&lt;/b&gt; : les paramètres pour tous les fichiers joués seront sauvegardés dans un fichier (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="805"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cette méthode pourrait être plus rapide si il ya des infos sur un grand nombre de fichiers.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="113"/>
@@ -5312,7 +5312,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="804"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;plusieurs fichiers ini&lt;/b&gt; : Un fichier ini sera utilisé pour chaque fichier joué. Ces fichiers ini seront sauvegardés dans le dossier %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="796"/>
@@ -7794,12 +7794,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../seekwidget.ui" line="22"/>
         <source>icon</source>
-        <translation>Icône</translation>
+        <translation>icône</translation>
     </message>
     <message>
         <location filename="../seekwidget.ui" line="40"/>
         <source>label</source>
-        <translation>Label</translation>
+        <translation>label</translation>
     </message>
 </context>
 <context>
