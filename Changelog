@@ -1,5 +1,9 @@
 [b]Version 0.6.10[/b]:
 
+(2010-12-07)
+ * Added a submenu to select the closed caption channel. 
+   Requires mplayer >= r32607.
+
 (2010-09-03)
  * Added webm and vp8 to the list of extensions (for video).
 

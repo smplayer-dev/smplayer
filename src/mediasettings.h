@@ -90,6 +90,8 @@ public:
 	double sub_scale;
 	double sub_scale_ass;
 
+	int closed_caption_channel; // 0 = disabled
+
 	double speed; // Speed of playback: 1.0 = normal speed
 
 	int current_deinterlacer;

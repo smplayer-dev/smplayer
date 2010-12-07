@@ -1662,11 +1662,12 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
-/*
-	if (pref->use_closed_caption_subs) {
+	if (mset.closed_caption_channel > 0) {
 		proc->addArgument("-subcc");
+		if (MplayerVersion::isMplayerAtLeast(32607)) {
+			proc->addArgument( QString::number( mset.closed_caption_channel ) );
+		}
 	}
-*/
 
 	if (pref->use_forced_subs_only) {
 		proc->addArgument("-forcedsubsonly");
@@ -3705,6 +3706,30 @@ void Core::toggleForcedSubsOnly(bool b) {
 		tellmp( QString("forced_subs_only %1").arg(v) );
 	}
 }
+
+void Core::changeClosedCaptionChannel(int c) {
+	qDebug("Core::changeClosedCaptionChannel: %d", c);
+	if (c != mset.closed_caption_channel) {
+		mset.closed_caption_channel = c;
+		if (proc->isRunning()) restartPlay();
+	}
+}
+
+/*
+void Core::nextClosedCaptionChannel() {
+	int c = mset.closed_caption_channel;
+	c++;
+	if (c > 4) c = 0;
+	changeClosedCaptionChannel(c);
+}
+
+void Core::prevClosedCaptionChannel() {
+	int c = mset.closed_caption_channel;
+	c--;
+	if (c < 0) c = 4;
+	changeClosedCaptionChannel(c);
+}
+*/
 
 void Core::visualizeMotionVectors(bool b) {
 	qDebug("Core::visualizeMotionVectors: %d", b);

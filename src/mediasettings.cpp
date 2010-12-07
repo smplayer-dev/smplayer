@@ -56,6 +56,8 @@ void MediaSettings::reset() {
 	sub_scale = pref->initial_sub_scale; 
 	sub_scale_ass = pref->initial_sub_scale_ass;
 
+	closed_caption_channel = 0; // disabled
+
 	brightness = pref->initial_brightness;
 	contrast = pref->initial_contrast;
 	gamma = pref->initial_gamma;
@@ -193,6 +195,8 @@ void MediaSettings::list() {
 	qDebug("  sub_scale: %f", sub_scale);
 	qDebug("  sub_scale_ass: %f", sub_scale_ass);
 
+	qDebug("  closed_caption_channel: %d", closed_caption_channel);
+
 	qDebug("  brightness: %d", brightness);
 	qDebug("  contrast: %d", contrast);
 	qDebug("  gamma: %d", gamma);
@@ -284,6 +288,8 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "sub_pos", sub_pos);
 	set->setValue( "sub_scale", sub_scale);
 	set->setValue( "sub_scale_ass", sub_scale_ass);
+
+	set->setValue( "closed_caption_channel", closed_caption_channel);
 
 	set->setValue( "brightness", brightness);
 	set->setValue( "contrast", contrast);
@@ -379,6 +385,8 @@ void MediaSettings::load(QSettings * set) {
 	sub_pos = set->value( "sub_pos", sub_pos).toInt();
 	sub_scale = set->value( "sub_scale", sub_scale).toDouble();
 	sub_scale_ass = set->value( "sub_scale_ass", sub_scale_ass).toDouble();
+
+	closed_caption_channel = set->value( "closed_caption_channel", closed_caption_channel).toInt();
 
 	brightness = set->value( "brightness", brightness).toInt();
 	contrast = set->value( "contrast", contrast).toInt();

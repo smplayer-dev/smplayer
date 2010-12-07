@@ -1023,6 +1023,15 @@ void BaseGui::createActions() {
     connect( subtitleTrackGroup, SIGNAL(activated(int)), 
 	         core, SLOT(changeSubtitle(int)) );
 
+	ccGroup = new MyActionGroup(this);
+	ccNoneAct = new MyActionGroupItem(this, ccGroup, "cc_none", 0);
+	ccChannel1Act = new MyActionGroupItem(this, ccGroup, "cc_ch_1", 1);
+	ccChannel2Act = new MyActionGroupItem(this, ccGroup, "cc_ch_2", 2);
+	ccChannel3Act = new MyActionGroupItem(this, ccGroup, "cc_ch_3", 3);
+	ccChannel4Act = new MyActionGroupItem(this, ccGroup, "cc_ch_4", 4);
+	connect( ccGroup, SIGNAL(activated(int)),
+             core, SLOT(changeClosedCaptionChannel(int)) );
+
 	// Titles
 	titleGroup = new MyActionGroup(this);
 	connect( titleGroup, SIGNAL(activated(int)),
@@ -1473,6 +1482,12 @@ void BaseGui::retranslateStrings() {
 	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("Find subtitles on &OpenSubtitles.org...") );
 	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to OpenSubtitles.org...") );
 
+	ccNoneAct->change( tr("&Off") );
+	ccChannel1Act->change( "&1" );
+	ccChannel2Act->change( "&2" );
+	ccChannel3Act->change( "&3" );
+	ccChannel4Act->change( "&4" );
+
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
 	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
@@ -1686,6 +1701,9 @@ void BaseGui::retranslateStrings() {
 	// Menu Subtitle
 	subtitlestrack_menu->menuAction()->setText( tr("&Select") );
 	subtitlestrack_menu->menuAction()->setIcon( Images::icon("sub") );
+
+	closed_captions_menu->menuAction()->setText( tr("&Closed captions") );
+	closed_captions_menu->menuAction()->setIcon( Images::icon("closed_caption") );
 
 	// Menu Browse 
 	titles_menu->menuAction()->setText( tr("&Title") );
@@ -2237,6 +2255,17 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addAction(loadSubsAct);
 	subtitlesMenu->addAction(unloadSubsAct);
 	subtitlesMenu->addSeparator();
+
+	closed_captions_menu = new QMenu(this);
+	closed_captions_menu->menuAction()->setObjectName("closed_captions_menu");
+	closed_captions_menu->addAction( ccNoneAct);
+	closed_captions_menu->addAction( ccChannel1Act);
+	closed_captions_menu->addAction( ccChannel2Act);
+	closed_captions_menu->addAction( ccChannel3Act);
+	closed_captions_menu->addAction( ccChannel4Act);
+	subtitlesMenu->addMenu(closed_captions_menu);
+	subtitlesMenu->addSeparator();
+
 	subtitlesMenu->addAction(decSubDelayAct);
 	subtitlesMenu->addAction(incSubDelayAct);
 	subtitlesMenu->addSeparator();
@@ -2972,6 +3001,9 @@ void BaseGui::updateWidgets() {
 
 	// Disable the unload subs action if there's no external subtitles
 	unloadSubsAct->setEnabled( !core->mset.external_subtitles.isEmpty() );
+
+	// Closed caption menu
+	ccGroup->setChecked( core->mset.closed_caption_channel );
 	
 	// Audio menu
 	audioTrackGroup->setChecked( core->mset.current_audio_id );
@@ -3123,9 +3155,7 @@ void BaseGui::updateWidgets() {
 	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&
               (core->mset.current_sub_id != MediaSettings::NoneSelected));
 
-	/*
-	if (pref->use_closed_caption_subs) e = true; // Enable if using closed captions
-	*/
+	if (core->mset.closed_caption_channel !=0 ) e = true; // Enable if using closed captions
 
 	decSubDelayAct->setEnabled(e);
 	incSubDelayAct->setEnabled(e);

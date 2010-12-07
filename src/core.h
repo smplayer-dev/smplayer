@@ -292,6 +292,12 @@ public slots:
 	void changeUseAss(bool);
 	void toggleForcedSubsOnly(bool);
 
+	void changeClosedCaptionChannel(int);
+	/*
+	void nextClosedCaptionChannel();
+	void prevClosedCaptionChannel();
+	*/
+
 	void visualizeMotionVectors(bool);
 
 #if DVDNAV_SUPPORT
