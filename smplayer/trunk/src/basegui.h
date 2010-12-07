@@ -545,6 +545,15 @@ protected:
 	MyAction * screenDefaultAct;
 #endif
 
+	// Closed Captions Group
+	MyActionGroup * ccGroup;
+	MyAction * ccNoneAct;
+	MyAction * ccChannel1Act;
+	MyAction * ccChannel2Act;
+	MyAction * ccChannel3Act;
+	MyAction * ccChannel4Act;
+
+
 	// Audio Channels Action Group
 	MyActionGroup * channelsGroup;
 	/* MyAction * channelsDefaultAct; */
@@ -618,6 +627,7 @@ protected:
 #if USE_ADAPTER
 	QMenu * screen_menu;
 #endif
+	QMenu * closed_captions_menu;
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
