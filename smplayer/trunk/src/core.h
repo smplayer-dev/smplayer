@@ -290,7 +290,6 @@ public slots:
 	void toggleDeinterlace();
 
 	void changeUseAss(bool);
-	void toggleClosedCaption(bool);
 	void toggleForcedSubsOnly(bool);
 
 	void visualizeMotionVectors(bool);

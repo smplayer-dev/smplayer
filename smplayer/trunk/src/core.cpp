@@ -1662,9 +1662,11 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+/*
 	if (pref->use_closed_caption_subs) {
 		proc->addArgument("-subcc");
 	}
+*/
 
 	if (pref->use_forced_subs_only) {
 		proc->addArgument("-forcedsubsonly");
@@ -3688,15 +3690,6 @@ void Core::changeUseAss(bool b) {
 
 	if (pref->use_ass_subtitles != b) {
 		pref->use_ass_subtitles = b;
-		if (proc->isRunning()) restartPlay();
-	}
-}
-
-void Core::toggleClosedCaption(bool b) {
-	qDebug("Core::toggleClosedCaption: %d", b);
-
-	if (pref->use_closed_caption_subs != b) {
-		pref->use_closed_caption_subs = b;
 		if (proc->isRunning()) restartPlay();
 	}
 }

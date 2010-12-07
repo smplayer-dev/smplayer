@@ -403,7 +403,6 @@ protected:
 	MyAction * incSubScaleAct;
 	MyAction * decSubScaleAct;
 	MyAction * useAssAct;
-	MyAction * useClosedCaptionAct;
 	MyAction * useForcedSubsOnlyAct;
 	MyAction * subVisibilityAct;
 	MyAction * showFindSubtitlesDialogAct;
