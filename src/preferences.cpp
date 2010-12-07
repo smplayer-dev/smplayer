@@ -193,7 +193,6 @@ void Preferences::reset() {
 	use_ass_subtitles = true;
 	ass_line_spacing = 0;
 
-	use_closed_caption_subs = false;
 	use_forced_subs_only = false;
 
 	sub_visibility = true;
@@ -601,7 +600,6 @@ void Preferences::save() {
 
 	set->setValue("use_ass_subtitles", use_ass_subtitles);
 	set->setValue("ass_line_spacing", ass_line_spacing);
-	set->setValue("use_closed_caption_subs", use_closed_caption_subs);
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
 	set->setValue("sub_visibility", sub_visibility);
@@ -1015,7 +1013,6 @@ void Preferences::load() {
 	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
 	ass_line_spacing = set->value("ass_line_spacing", ass_line_spacing).toInt();
 
-	use_closed_caption_subs = set->value("use_closed_caption_subs", use_closed_caption_subs).toBool();
 	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();
 
 	sub_visibility = set->value("sub_visibility", sub_visibility).toBool();

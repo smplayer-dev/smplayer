@@ -187,7 +187,6 @@ public:
 	bool use_ass_subtitles;
 	int ass_line_spacing;
 
-	bool use_closed_caption_subs;
 	bool use_forced_subs_only;
 
 	bool sub_visibility;

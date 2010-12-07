@@ -671,10 +671,6 @@ void BaseGui::createActions() {
 	useAssAct->setCheckable(true);
 	connect( useAssAct, SIGNAL(toggled(bool)), core, SLOT(changeUseAss(bool)) );
 
-	useClosedCaptionAct = new MyAction(this, "use_closed_caption");
-	useClosedCaptionAct->setCheckable(true);
-	connect( useClosedCaptionAct, SIGNAL(toggled(bool)), core, SLOT(toggleClosedCaption(bool)) );
-
 	useForcedSubsOnlyAct = new MyAction(this, "use_forced_subs_only");
 	useForcedSubsOnlyAct->setCheckable(true);
 	connect( useForcedSubsOnlyAct, SIGNAL(toggled(bool)), core, SLOT(toggleForcedSubsOnly(bool)) );
@@ -1470,7 +1466,6 @@ void BaseGui::retranslateStrings() {
 	incSubStepAct->change( Images::icon("inc_sub_step"), 
                            tr("N&ext line in subtitles") );
 	useAssAct->change( Images::icon("use_ass_lib"), tr("Use SSA/&ASS library") );
-	useClosedCaptionAct->change( Images::icon("closed_caption"), tr("Enable &closed caption") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
 	subVisibilityAct->change( Images::icon("sub_visibility"), tr("Subtitle &visibility") );
@@ -2256,7 +2251,6 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addAction(decSubStepAct);
 	subtitlesMenu->addAction(incSubStepAct);
 	subtitlesMenu->addSeparator();
-	subtitlesMenu->addAction(useClosedCaptionAct);
 	subtitlesMenu->addAction(useForcedSubsOnlyAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(subVisibilityAct);
@@ -3119,8 +3113,7 @@ void BaseGui::updateWidgets() {
 	// Use ass lib
 	useAssAct->setChecked( pref->use_ass_subtitles );
 
-	// Closed caption and forces subs
-	useClosedCaptionAct->setChecked( pref->use_closed_caption_subs );
+	// Forced subs
 	useForcedSubsOnlyAct->setChecked( pref->use_forced_subs_only );
 
 	// Subtitle visibility
@@ -3130,7 +3123,9 @@ void BaseGui::updateWidgets() {
 	bool e = ((core->mset.current_sub_id != MediaSettings::SubNone) &&
               (core->mset.current_sub_id != MediaSettings::NoneSelected));
 
+	/*
 	if (pref->use_closed_caption_subs) e = true; // Enable if using closed captions
+	*/
 
 	decSubDelayAct->setEnabled(e);
 	incSubDelayAct->setEnabled(e);
