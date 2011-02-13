@@ -128,7 +128,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	include_lang_on_filename = true;
 
 	file_downloader = new FileDownloader(this);
-	file_downloader->setModal(true);
+        file_downloader->setModal(false);
 	connect( file_downloader, SIGNAL(downloadFailed(QString)),
              this, SLOT(showError(QString)), Qt::QueuedConnection );
 	connect( file_downloader, SIGNAL(downloadFinished(const QByteArray &)),

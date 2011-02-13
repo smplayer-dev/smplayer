@@ -61,7 +61,7 @@ void FileDownloader::download(QUrl url) {
 		http->setUser(url.userName(), url.password());
 
 	http_request_aborted = false;
-	http_get_id = http->get(url.path(), &buffer);
+        http_get_id = http->get(url.path());
 
 	setLabelText(tr("Downloading %1").arg(url.toString()));
 }
@@ -86,7 +86,7 @@ void FileDownloader::httpRequestFinished(int request_id, bool error) {
 	if (error) {
 		emit downloadFailed(http->errorString());
 	} else {
-		emit downloadFinished(buffer.data());
+                emit downloadFinished(http->readAll());
 	}
 }
 

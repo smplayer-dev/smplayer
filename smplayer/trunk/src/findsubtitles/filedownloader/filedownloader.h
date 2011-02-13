@@ -23,7 +23,6 @@
 
 #include <QProgressDialog>
 #include <QUrl>
-#include <QBuffer>
 #include <QNetworkProxy>
 
 class QHttp;
@@ -56,7 +55,7 @@ private:
 	QHttp * http;
 	int http_get_id;
 	bool http_request_aborted;
-	QBuffer buffer;
+
 };
 
 #endif
