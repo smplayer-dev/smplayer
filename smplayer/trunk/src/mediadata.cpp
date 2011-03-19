@@ -20,6 +20,9 @@
 #include <QFileInfo>
 #include <cmath>
 
+#include "preferences.h"
+#include "global.h"
+using namespace Global;
 
 MediaData::MediaData() {
 	reset();
@@ -89,9 +92,11 @@ void MediaData::reset() {
 }
 
 QString MediaData::displayName() {
-	if (!clip_name.isEmpty()) return clip_name;
-	else
-	if (!stream_title.isEmpty()) return stream_title;
+	if (pref->show_tag_in_title) {
+		if (!clip_name.isEmpty()) return clip_name;
+		else
+		if (!stream_title.isEmpty()) return stream_title;
+	}
 
 	QFileInfo fi(filename);
 	if (fi.exists()) 
