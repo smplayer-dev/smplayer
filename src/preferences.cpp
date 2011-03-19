@@ -338,6 +338,8 @@ void Preferences::reset() {
 
 	pause_when_hidden = false;
 
+	show_tag_in_title = true;
+
 	allow_video_movement = false;
 
 	gui = "DefaultGui";
@@ -733,6 +735,8 @@ void Preferences::save() {
 	set->setValue("default_font", default_font);
 
 	set->setValue("pause_when_hidden", pause_when_hidden);
+
+	set->setValue("show_tag_in_title", show_tag_in_title);
 
 	set->setValue("allow_video_movement", allow_video_movement);
 
@@ -1150,6 +1154,8 @@ void Preferences::load() {
 	default_font = set->value("default_font", default_font).toString();
 
 	pause_when_hidden = set->value("pause_when_hidden", pause_when_hidden).toBool();
+
+	show_tag_in_title = set->value("show_tag_in_title", show_tag_in_title).toBool();
 
 	allow_video_movement = set->value("allow_video_movement", allow_video_movement).toBool();
 

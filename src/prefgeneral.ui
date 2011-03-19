@@ -198,6 +198,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="show_tag_in_title_check" >
+         <property name="text" >
+          <string>Show tag &amp;info in window title</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>
@@ -1268,6 +1275,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>screenshot_edit</tabstop>
   <tabstop>close_on_finish_check</tabstop>
   <tabstop>pause_if_hidden_check</tabstop>
+  <tabstop>show_tag_in_title_check</tabstop>
   <tabstop>vo_combo</tabstop>
   <tabstop>vo_user_defined_edit</tabstop>
   <tabstop>vdpau_filters_check</tabstop>

@@ -172,6 +172,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setSubtitleTrack( pref->initial_subtitle_track );
 	setCloseOnFinish( pref->close_on_finish );
 	setPauseWhenHidden( pref->pause_when_hidden );
+	setShowTagInTitle( pref->show_tag_in_title );
 
 	setEq2( pref->use_soft_video_eq );
 	setUseAudioEqualizer( pref->use_audio_equalizer );
@@ -251,6 +252,7 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	pref->close_on_finish = closeOnFinish();
 	pref->pause_when_hidden = pauseWhenHidden();
+	TEST_AND_SET(pref->show_tag_in_title, showTagInTitle());
 
 	TEST_AND_SET(pref->use_soft_video_eq, eq2());
 	TEST_AND_SET(pref->use_soft_vol, softVol());
@@ -523,6 +525,14 @@ void PrefGeneral::setPauseWhenHidden(bool b) {
 
 bool PrefGeneral::pauseWhenHidden() {
 	return pause_if_hidden_check->isChecked();
+}
+
+void PrefGeneral::setShowTagInTitle(bool b) {
+	show_tag_in_title_check->setChecked(b);
+}
+
+bool PrefGeneral::showTagInTitle() {
+	return show_tag_in_title_check->isChecked();
 }
 
 
@@ -821,6 +831,10 @@ void PrefGeneral::createHelp() {
 		tr("If this option is enabled, the file will be paused when the "
            "main window is hidden. When the window is restored, playback "
            "will be resumed.") );
+
+	setWhatsThis(show_tag_in_title_check, tr("Show tag info in window title"),
+		tr("If this option is enabled, information from tags will be "
+           "shown in  window title.") );
 
 	// Video tab
 	addSectionTitle(tr("Video"));
