@@ -2940,7 +2940,10 @@ void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
 	mset.audio_equalizer = values;
 
 	if (!restart) {
-		tellmp( "af_eq_set_bands " + Helper::equalizerListToString(values) );
+		const char *command = "af_cmdline equalizer ";
+		if (!MplayerVersion::isMplayerAtLeast(32505))
+			command = "af_eq_set_bands ";
+		tellmp( command + Helper::equalizerListToString(values) );
 	} else {
 		restartPlay();
 	}
