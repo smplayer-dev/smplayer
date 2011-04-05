@@ -1,6 +1,6 @@
 ; Installer script for win32 SMPlayer
 ; Written by redxii (redxii@users.sourceforge.net)
-; Tested/Developed with Unicode NSIS 2.45.1/2.46
+; Tested/Developed with Unicode NSIS 2.46
 
 !ifndef VER_MAJOR | VER_MINOR | VER_BUILD
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
@@ -16,6 +16,7 @@
 ;Additional plugin folders
 
   !addplugindir .
+  !addincludedir .
 
 ;--------------------------------
 ;Defines
@@ -44,7 +45,7 @@
 !ifndef WITH_MPLAYER
 
   !ifndef DEFAULT_MPLAYER_VERSION
-    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-31170"
+    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-33216"
   !endif
 
 !endif
@@ -61,9 +62,9 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WITH_MPLAYER
-  OutFile "smplayer-${SMPLAYER_VERSION}-win32.exe"
+  OutFile "smplayer-${SMPLAYER_VERSION}-offline.exe"
 !else ifndef WITH_MPLAYER
-  OutFile "smplayer-${SMPLAYER_VERSION}-win32-webdl.exe"
+  OutFile "smplayer-${SMPLAYER_VERSION}.exe"
 !endif
 
   ;Version tab properties
@@ -94,6 +95,7 @@
 ;Variables
 
   Var Codec_Version
+  Var Dialog_Reinstall
   Var Is_Admin
 !ifndef WITH_MPLAYER
   Var MPlayer_Version
@@ -163,6 +165,10 @@
 ;Pages
 
   ;Install pages
+!ifdef PRE_RELEASE
+  #Pre-release Information
+  Page custom PagePrereleaseInformation
+!endif
   #Welcome
   !insertmacro MUI_PAGE_WELCOME
   #License
@@ -220,29 +226,29 @@
 
 ; Custom translations for setup
 
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\english.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\basque.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\catalan.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\czech.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\danish.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\dutch.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\finnish.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\french.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\german.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\hebrew.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\hungarian.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\italian.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\japanese.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\korean.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\norwegian.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\polish.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\portuguese.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\russian.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\simpchinese.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\slovak.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\slovenian.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\spanish.nsh"
-  !insertmacro LANGFILE_INCLUDE "svn\smplayer\setup\translations\tradchinese.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\english.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\catalan.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\czech.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\danish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\dutch.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\finnish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\french.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\german.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\hebrew.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\hungarian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\italian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\japanese.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\korean.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\norwegian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\polish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\portuguese.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\russian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\simpchinese.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\slovak.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\slovenian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\spanish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\tradchinese.nsh"
 
 ;--------------------------------
 ;Reserve Files
@@ -629,12 +635,12 @@ Function .onInit
     Abort
   ${EndIf}
 
+  Call LoadPreviousSettings
+
   ;Setup language selection
   !insertmacro MUI_LANGDLL_DISPLAY
 
   Call CheckPreviousVersion
-
-  Call LoadPreviousSettings
 
   SetShellVarContext all
 
@@ -652,19 +658,6 @@ Function .onInstFailed
 
   Delete "$INSTDIR\${SMPLAYER_UNINST_EXE}"
   RMDir "$INSTDIR"
-
-FunctionEnd
-
-Function .onSelChange
-
-  SectionGetFlags ${SecCodecs} $R0
-  ${If} $R0 != $R1
-    StrCpy $R1 $R0
-    IntOp $R0 $R0 & ${SF_SELECTED}
-  ${If} $R0 == ${SF_SELECTED}
-    MessageBox MB_OK|MB_ICONINFORMATION $(MPLAYER_CODEC_INFORMATION)
-  ${EndIf}
-  ${EndIf}
 
 FunctionEnd
 
@@ -732,6 +725,45 @@ Function LoadPreviousSettings
 
 FunctionEnd
 
+!ifdef PRE_RELEASE
+Function PagePrereleaseInformation
+
+  Var /GLOBAL AgreeCheckbox
+  Var /GLOBAL AgreeCheckbox_State
+  Var /GLOBAL NextButton
+
+  GetDlgItem $NextButton $HWNDPARENT 1
+  EnableWindow $NextButton 0
+
+  nsDialogs::Create /NOUNLOAD 1018
+  Pop $0
+
+  !insertmacro MUI_HEADER_TEXT "Pre-release Information" "This is a pre-release version of SMPlayer"
+
+  ${NSD_CreateLabel} 0 0 100% 20u "You are about to install a pre-release version of SMPlayer that is only meant to be used for testing purposes."
+  ${NSD_CreateLabel} 0 25u 100% 20u "If you have a previous version of SMPlayer installed, you should back up your settings before you continue. If you do not, you may lose them."
+  ${NSD_CreateLabel} 0 50u 100% 20u "The latest stable release of SMPlayer can be found on the SMPlayer website, is safer and more reliable, and is recommended for most users."
+  ${NSD_CreateLabel} 0 75u 100% 20u "Please report any issues in the SMPlayer forum."
+  ${NSD_CreateCheckBox} 0 125u 100% 10u "I understand and would like to continue installing the pre-release version of SMPlayer."
+  Pop $AgreeCheckbox
+  ${NSD_OnClick} $AgreeCheckbox PagePrereleaseInformationUpdate
+
+  nsDialogs::Show
+
+FunctionEnd
+
+Function PagePrereleaseInformationUpdate
+
+  ${NSD_GetState} $AgreeCheckbox $AgreeCheckbox_State
+  ${If} $AgreeCheckbox_State == ${BST_CHECKED}
+    EnableWindow $NextButton 1
+  ${ElseIf} $AgreeCheckbox_State == ${BST_UNCHECKED}
+    EnableWindow $NextButton 0
+  ${EndIf}
+
+FunctionEnd
+!endif
+
 Function PageReinstall
 
   ${If} $Previous_Version == ""
@@ -739,7 +771,7 @@ Function PageReinstall
   ${EndIf}
 
   nsDialogs::Create /NOUNLOAD 1018
-  Pop $0
+  Pop $Dialog_Reinstall
 
   nsDialogs::SetRTL $(^RTL)
 
