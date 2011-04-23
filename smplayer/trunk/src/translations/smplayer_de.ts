@@ -266,7 +266,7 @@
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation>Wenn es irgendeine Nichtberücksichtigung gibt, bitte melden.</translation>
+        <translation>Falls es zu einer Nichtberücksichtigung gekommen ist, melden Sie sich bitte.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
@@ -1526,7 +1526,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1662"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished">In den Vordergrund/Hintergrund wechseln</translation>
+        <translation>In den Vordergrund/Hintergrund wechseln</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4131"/>
@@ -4217,7 +4217,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>Zurzeit kann MPlayer keine Dateinamen öffnen, die Zeichen außerhalb des lokalen Zeichensatzes enthalten. Das Aktivieren dieser Option veranlasst SMPlayer dazu, die kurze Version der Dateinamen an MPlayer weiterzugeben. Somit wird MPlayer in der Lage sein, diese Dateien zu öffnen.</translation>
+        <translation>Zurzeit kann MPlayer keine Dateinamen öffnen, die Zeichen außerhalb des lokalen Zeichensatzes enthalten. Das Aktivieren dieser Option veranlasst SMPlayer dazu, die kurze Version der Dateinamen an MPlayer weiterzugeben. Somit wird MPlayer in der Lage sein diese Dateien zu öffnen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="166"/>
@@ -6683,7 +6683,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.ui" line="203"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>&amp;Threads zur Dekodierung (MPEG-1/2 and H.264):</translation>
+        <translation>&amp;Threads zur Dekodierung (MPEG-1/2 und H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="240"/>
