@@ -1,4 +1,4 @@
-; Installer script for win32 SMPlayer
+﻿; Installer script for win32 SMPlayer
 ; Written by redxii (redxii@users.sourceforge.net)
 ; Tested/Developed with Unicode NSIS 2.46
 
@@ -62,9 +62,9 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WITH_MPLAYER
-  OutFile "smplayer-${SMPLAYER_VERSION}-offline.exe"
+  OutFile "smplayer-${SMPLAYER_VERSION}-win32.exe"
 !else ifndef WITH_MPLAYER
-  OutFile "smplayer-${SMPLAYER_VERSION}.exe"
+  OutFile "smplayer-${SMPLAYER_VERSION}-webdl.exe"
 !endif
 
   ;Version tab properties
@@ -449,12 +449,196 @@ ${MementoSectionEnd}
 
 ;--------------------------------
 ;Translations
-${MementoSection} $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
+SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
 
-  SetOutPath "$INSTDIR\translations"
-  File /r "smplayer-build\translations\*.*"
+  ${MementoSection} "العربية" SecLang_ARSY
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ar_SY.qm"
+  ${MementoSectionEnd}
 
-${MementoSectionEnd}
+  ${MementoSection} "Български език" SecLang_BG
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_bg.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Català" SecLang_CA
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ca.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Čeština" SecLang_CS
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_cs.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Dansk" SecLang_DA
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_da.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Deutsch" SecLang_DE
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_de.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Ελληνικά" SecLang_ELGR
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_el_GR.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "English (United States)" SecLang_ENUS
+    SectionIn RO
+
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_en_US.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Español" SecLang_ES
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_es.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Eesti Keel" SecLang_ET
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_et.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Euskara" SecLang_EU
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_eu.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Suomi" SecLang_FI
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_fi.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Français" SecLang_FR
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_fr.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Galego" SecLang_GL
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_gl.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Magyar" SecLang_HU
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_hu.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Italiano" SecLang_IT
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_it.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "日本語" SecLang_JA
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ja.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "ქართული" SecLang_KA
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ka.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "한국어" SecLang_KO
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ko.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "كوردی" SecLang_KU
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ku.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Lietuvių Kalba" SecLang_LT
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_lt.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Македонски јазик" SecLang_MK
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_mk.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Nederlands" SecLang_NL
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_nl.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Polszczyzna" SecLang_PL
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_pl.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Português (Portugal)" SecLang_PT
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_pt.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Português (Brasil)" SecLang_PTBR
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_pt_BR.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Română" SecLang_roRO
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ro_RO.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Pусский язык" SecLang_ruRU
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_ru_RU.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Slovenčina" SecLang_SK
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_sk.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Slovenščina" SecLang_SLSI
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_sl_SI.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Cрпски" SecLang_SR
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_sr.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Svenska" SecLang_SV
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_sv.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Türkçe" SecLang_TR
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_tr.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Yкраїнська мова" SecLang_UKUA
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_uk_UA.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "Tiếng Việt" SecLang_VIVN
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_vi_VN.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "简化字" SecLang_ZHCN
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_zh_CN.qm"
+  ${MementoSectionEnd}
+
+  ${MementoSection} "漢語(繁體)" SecLang_ZHTW
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_zh_TW.qm"
+  ${MementoSectionEnd}
+
+SectionGroupEnd
 
 ;--------------------------------
 ;Install/Uninstall information
