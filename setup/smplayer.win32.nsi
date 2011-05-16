@@ -451,12 +451,19 @@ ${MementoSectionEnd}
 ;Translations
 SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
 
+  Section "English" SecLang_ENUS
+    SectionIn RO
+
+    SetOutPath "$INSTDIR\translations"
+    File /r "smplayer-build\translations\smplayer_en_US.qm"
+  SectionEnd
+
   ${MementoSection} "العربية" SecLang_ARSY
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_ar_SY.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "Български език" SecLang_BG
+  ${MementoSection} "български" SecLang_BG
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_bg.qm"
   ${MementoSectionEnd}
@@ -484,13 +491,6 @@ SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
   ${MementoSection} "Ελληνικά" SecLang_ELGR
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_el_GR.qm"
-  ${MementoSectionEnd}
-
-  ${MementoSection} "English (United States)" SecLang_ENUS
-    SectionIn RO
-
-    SetOutPath "$INSTDIR\translations"
-    File /r "smplayer-build\translations\smplayer_en_US.qm"
   ${MementoSectionEnd}
 
   ${MementoSection} "Español" SecLang_ES
@@ -553,12 +553,12 @@ SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
     File /r "smplayer-build\translations\smplayer_ku.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "Lietuvių Kalba" SecLang_LT
+  ${MementoSection} "Lietuvių" SecLang_LT
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_lt.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "Македонски јазик" SecLang_MK
+  ${MementoSection} "Mакедонски" SecLang_MK
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_mk.qm"
   ${MementoSectionEnd}
@@ -568,12 +568,12 @@ SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
     File /r "smplayer-build\translations\smplayer_nl.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "Polszczyzna" SecLang_PL
+  ${MementoSection} "Polski" SecLang_PL
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_pl.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "Português (Portugal)" SecLang_PT
+  ${MementoSection} "Português" SecLang_PT
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_pt.qm"
   ${MementoSectionEnd}
@@ -588,7 +588,7 @@ SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
     File /r "smplayer-build\translations\smplayer_ro_RO.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "Pусский язык" SecLang_ruRU
+  ${MementoSection} "Pусский" SecLang_ruRU
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_ru_RU.qm"
   ${MementoSectionEnd}
@@ -618,7 +618,7 @@ SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
     File /r "smplayer-build\translations\smplayer_tr.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "Yкраїнська мова" SecLang_UKUA
+  ${MementoSection} "Yкраїнська" SecLang_UKUA
     SetOutPath "$INSTDIR\translations"
     File /r "smplayer-build\translations\smplayer_uk_UA.qm"
   ${MementoSectionEnd}
