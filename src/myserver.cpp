@@ -58,7 +58,12 @@ void Connection::parseLine(QString str) {
 	QRegExp rx_open_files("(^open_files|^add_files) (.*)");
 	QRegExp rx_function("^(function|f) (.*)");
 	QRegExp rx_loadsub("^load_sub (.*)");
-
+	QRegExp rx_playItem("^play item ([0-9]+)");
+	QRegExp rx_moveItem("^move item ([0-9]+) ([+-]?[0-9]+)");
+	QRegExp rx_removeItem("^remove item (\\*|[0-9]+)");
+	QRegExp rx_seek("^seek ([0-9]*\\.*[0-9]*)");
+	QRegExp rx_get("^get (.*)");
+	QRegExp rx_setVol("^set volume ([0-9]+)");
 
 	if (str.toLower() == "hello") {
 		sendText(QString("Hello, this is SMPlayer %1").arg(smplayerVersion()));
@@ -72,6 +77,18 @@ void Connection::parseLine(QString str) {
 		sendText(" function [function_name]");
 		sendText(" f [function_name]");
 		sendText(" open [file]");
+		sendText(" open_files_start \\n open_files [file1] \\n open_files [file2]  \\n ... open_files_end");
+		sendText(" add_files_start  \\n  add_files [file1] \\n  add_files [file2]  \\n ...  add_files_end");
+		sendText(" remove item [index]");
+		sendText(" play item [index]");
+		sendText(" move item [index] [shift]");
+		sendText(" view playlist");
+		sendText(" view status");
+		sendText(" view clip info");
+		sendText(" seek [position]");
+		sendText(" get [action]");
+		sendText(" get volume");
+		sendText(" set volume [value]");
 	}
 	else
 	if (str.toLower() == "quit") {
@@ -84,7 +101,29 @@ void Connection::parseLine(QString str) {
 			sendText( actions_list[n] );
 		}
 	}
-	else 
+	else
+	if (rx_playItem.indexIn(str) > -1) {
+		QString index = rx_playItem.cap(1);
+		qDebug("Connection::parseLine: asked to play file #%s.", index.toUtf8().data());
+		sendText("OK, command sent to GUI.");
+		emit receivedPlayItem(index.toInt());
+	}
+	else
+	if (rx_removeItem.indexIn(str) > -1) {
+		QString index = rx_removeItem.cap(1);
+		qDebug("Connection::parseLine: asked to remove file %s.", index.toUtf8().data());
+		sendText("OK, command sent to GUI.");
+		emit receivedRemoveItem(index == "*" ? -1 : index.toInt());
+	}
+	else
+	if (rx_moveItem.indexIn(str) > -1) {
+		QString index = rx_moveItem.cap(1);
+		QString shift = rx_moveItem.cap(2);
+		qDebug("Connection::parseLine: asked to move file %s %s.", index.toUtf8().data(), shift.toUtf8().data());
+		sendText("OK, command sent to GUI.");
+		emit receivedMoveItem(index.toInt(), shift.toInt());
+	}
+	else
 	if (rx_open.indexIn(str) > -1) {
 		QString file = rx_open.cap(1);
 		qDebug("Connection::parseLine: asked to open '%s'", file.toUtf8().data());
@@ -133,6 +172,52 @@ void Connection::parseLine(QString str) {
 		sendText("OK, function sent to GUI");
 		emit receivedFunction(function);
 	}
+	else
+	if(str.toLower() == "get volume"){
+		int output = 0;
+		emit receivedGetVolume(&output);
+		sendText(QString::number(output));
+
+	}
+	else
+	if(rx_setVol.indexIn(str) > -1){
+		int value = rx_setVol.cap(1).toInt();
+		emit receivedSetVolume(value);
+
+	}
+	else
+	if(str.toLower() == "view playlist"){
+		QString output = "";
+		emit receivedViewPlaylist(&output);
+		sendText(output);
+
+	}
+	else
+	if(str.toLower() == "view status"){
+		QString output = "";
+		emit receivedViewStatus(&output);
+		sendText(output);
+
+	}
+	else
+	if(str.toLower() == "view clip info"){
+		QString output = "";
+		emit receivedViewClipInfo(&output);
+		sendText(output);
+
+	}
+	else
+	if(rx_seek.indexIn(str) > -1){
+		qDebug("Connection::parseLine: asked to seek to %s", rx_seek.cap(1).toUtf8().data());
+		emit receivedSeek(rx_seek.cap(1).toDouble());
+	}
+	else
+	if(rx_get.indexIn(str) > -1){
+		qDebug("Connection::parseLine: asked to get state of action '%s'", rx_get.cap(1).toUtf8().data());
+		QString value = "";
+		emit receivedGetChecked(rx_get.cap(1), &value);
+		sendText(value);
+	}
 	else {
 		sendText("Unknown command");
 	}
@@ -152,8 +237,12 @@ void MyServer::newConnection_slot() {
 	Connection * c = new Connection( nextPendingConnection() );
 	c->setActionsList( actionsList() );
 
+	connect(c, SIGNAL(receivedPlayItem(int)),
+			this, SIGNAL(receivedPlayItem(int)));
+	connect(c, SIGNAL(receivedRemoveItem(int)),
+			this, SIGNAL(receivedRemoveItem(int)));
 	connect(c, SIGNAL(receivedOpen(QString)),
-            this, SIGNAL(receivedOpen(QString)));
+			this, SIGNAL(receivedOpen(QString)));
 	connect(c, SIGNAL(receivedOpenFiles(QStringList)),
             this, SIGNAL(receivedOpenFiles(QStringList)));
 	connect(c, SIGNAL(receivedAddFiles(QStringList)),
@@ -162,6 +251,22 @@ void MyServer::newConnection_slot() {
             this, SIGNAL(receivedFunction(QString)));
 	connect(c, SIGNAL(receivedLoadSubtitle(QString)),
             this, SIGNAL(receivedLoadSubtitle(QString)));
+	connect(c, SIGNAL(receivedViewPlaylist(QString*)),
+			this, SIGNAL(receivedViewPlaylist(QString*)));
+	connect(c, SIGNAL(receivedViewStatus(QString*)),
+			this, SIGNAL(receivedViewStatus(QString*)));
+	connect(c, SIGNAL(receivedViewClipInfo(QString*)),
+			this, SIGNAL(receivedViewClipInfo(QString*)));
+	connect(c, SIGNAL(receivedSeek(double)),
+			this, SIGNAL(receivedSeek(double)));
+	connect(c, SIGNAL(receivedGetChecked(QString,QString*)),
+			this, SIGNAL(receivedGetChecked(QString,QString*)));
+	connect(c, SIGNAL(receivedMoveItem(int,int)),
+			this, SIGNAL(receivedMoveItem(int,int)));
+	connect(c, SIGNAL(receivedGetVolume(int*)),
+			this, SIGNAL(receivedGetVolume(int*)));
+	connect(c, SIGNAL(receivedSetVolume(int)),
+			this, SIGNAL(receivedSetVolume(int)));
 }
 
 #include "moc_myserver.cpp"

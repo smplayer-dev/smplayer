@@ -88,6 +88,7 @@
 
 #include "myaction.h"
 #include "myactiongroup.h"
+#include "playlist.h"
 
 #include "constants.h"
 
@@ -209,6 +210,26 @@ void BaseGui::initializeGui() {
             this, SLOT(processFunction(QString)));	
 	connect(server, SIGNAL(receivedLoadSubtitle(QString)),	
             this, SLOT(remoteLoadSubtitle(QString)));
+	connect(server, SIGNAL(receivedPlayItem(int)),
+			this, SLOT(remotePlayItem(int)));
+	connect(server, SIGNAL(receivedRemoveItem(int)),
+			this, SLOT(remoteRemoveItem(int)));
+	connect(server, SIGNAL(receivedViewPlaylist(QString*)),
+			this, SLOT(remoteViewPlaylist(QString*)));
+	connect(server, SIGNAL(receivedViewStatus(QString*)),
+			this, SLOT(remoteViewStatus(QString*)));
+	connect(server, SIGNAL(receivedViewClipInfo(QString*)),
+			this, SLOT(remoteViewClipInfo(QString*)));
+	connect(server, SIGNAL(receivedSeek(double)),
+			this, SLOT(remoteSeek(double)));
+	connect(server, SIGNAL(receivedGetChecked(QString,QString*)),
+			this, SLOT(remoteGetChecked(QString,QString*)));
+	connect(server, SIGNAL(receivedMoveItem(int,int)),
+			this, SLOT(remoteMoveItem(int,int)));
+	connect(server, SIGNAL(receivedGetVolume(int*)),
+			this, SLOT(remoteGetVolume(int*)));
+	connect(server, SIGNAL(receivedSetVolume(int)),
+			core, SLOT(setVolume(int)));
 
 	if (pref->use_single_instance) {
 		int port = 0;
@@ -221,6 +242,45 @@ void BaseGui::initializeGui() {
 			qWarning("BaseGui::initializeGui: server couldn't be started");
 		}
 	}
+}
+
+void BaseGui::remotePlayItem(int index){
+	qDebug("BaseGui::remotePlay: '%s'", QString::number((index)).toUtf8().data());
+	if (isMinimized()) showNormal();
+	if (!isVisible()) show();
+	raise();
+	activateWindow();
+	playlist->playItem(index);
+}
+
+void BaseGui::remoteRemoveItem(int index){
+	qDebug("BaseGui::remoteRemove: '%s'", QString::number((index)).toUtf8().data());
+	if (isMinimized()) showNormal();
+	if (!isVisible()) show();
+	raise();
+	activateWindow();
+
+	if(index == -1)
+		playlist->removeAll();
+	else
+		playlist->remove(index);
+}
+
+void BaseGui::remoteMoveItem(int index, int shift){
+	qDebug("BaseGui::remoteRemove: '%s'", QString::number((index)).toUtf8().data());
+	if (isMinimized()) showNormal();
+	if (!isVisible()) show();
+	raise();
+	activateWindow();
+
+	int step = shift / abs(shift);
+	for(int i = index; i != (index + shift); i += step){
+		if(step == -1 && index == 0) break;
+		if(step == +1 && index == (playlist->count() - 1)) break;
+
+		if(step == -1) playlist->moveItemUp(index);
+		if(step == +1) playlist->moveItemDown(index);
+	} //end for
 }
 
 void BaseGui::remoteOpen(QString file) {
@@ -260,6 +320,55 @@ void BaseGui::remoteLoadSubtitle(QString file) {
 	if (core->state() != Core::Stopped) {
 		core->loadSub(file);
 	}
+}
+
+void BaseGui::remoteViewPlaylist(QString * output){
+	qDebug("BaseGui::remoteViewPlaylist");
+	*output += playlist->print("\t");
+}
+
+void BaseGui::remoteViewStatus(QString * output){
+	qDebug("BaseGui::remoteViewStatus");
+	*output = core->stateToString();
+}
+
+void BaseGui::remoteViewClipInfo(QString * output){
+	qDebug("BaseGui::remoteViewClipInfo");
+
+	*output += QString("%1\t%2\r\n").arg("Filename", core->mdat.filename);
+	*output += QString("%1\t%2\r\n").arg("Position", QString::number(core->mset.current_sec));
+	*output += QString("%1\t%2\r\n").arg("Duration", QString::number(core->mdat.duration));
+
+	*output += QString("%1\t%2\r\n").arg("Title", core->mdat.clip_name);
+	*output += QString("%1\t%2\r\n").arg("Artist", core->mdat.clip_artist);
+	*output += QString("%1\t%2\r\n").arg("Author", core->mdat.clip_author);
+	*output += QString("%1\t%2\r\n").arg("Album", core->mdat.clip_album);
+	*output += QString("%1\t%2\r\n").arg("Genre", core->mdat.clip_genre);
+	*output += QString("%1\t%2\r\n").arg("Date", core->mdat.clip_date);
+	*output += QString("%1\t%2\r\n").arg("Track", core->mdat.clip_track);
+	*output += QString("%1\t%2\r\n").arg("Copyright", core->mdat.clip_copyright);
+	*output += QString("%1\t%2\r\n").arg("Comment", core->mdat.clip_comment);
+	*output += QString("%1\t%2\r\n").arg("Software", core->mdat.clip_software);
+}
+
+void BaseGui::remoteSeek(double sec){
+	qDebug("BaseGui::remoteSeek");
+	core->goToSec(sec);
+}
+
+void BaseGui::remoteGetChecked(QString function, QString* output){
+	qDebug("BaseGui::remoteGet");
+
+	QAction* action = ActionsEditor::findAction(this, function);
+	if(! action) action = ActionsEditor::findAction(playlist, function);
+	if(! action) return;
+
+	bool value = (action->isCheckable() ? action->isChecked() : action->isEnabled());
+	*output = (value ? "true" : "false");
+}
+
+void BaseGui::remoteGetVolume(int *vol){
+	*vol = (pref->global_volume ? pref->volume : core->mset.volume);
 }
 
 BaseGui::~BaseGui() {
@@ -3746,6 +3855,17 @@ void BaseGui::xbutton2ClickFunction() {
 void BaseGui::processFunction(QString function) {
 	qDebug("BaseGui::processFunction: '%s'", function.toUtf8().data());
 
+	//parse args for checkable actions
+	QRegExp func_rx("(.*) (true|false)");
+	bool value = false;
+	bool checkableFunction = false;
+
+	if(func_rx.indexIn(function) > -1){
+		function = func_rx.cap(1);
+		value = (func_rx.cap(2) == "true");
+		checkableFunction = true;
+	} //end if
+
 	QAction * action = ActionsEditor::findAction(this, function);
 	if (!action) action = ActionsEditor::findAction(playlist, function);
 
@@ -3757,11 +3877,15 @@ void BaseGui::processFunction(QString function) {
 			return;
 		}
 
-		if (action->isCheckable()) 
-			//action->toggle();
+		if (action->isCheckable()){
+			if(checkableFunction)
+				action->setChecked(value);
+			else
+				//action->toggle();
+				action->trigger();
+		}else{
 			action->trigger();
-		else
-			action->trigger();
+		}
 	}
 }
 
@@ -3771,25 +3895,26 @@ void BaseGui::runActions(QString actions) {
 	actions = actions.simplified(); // Remove white space
 
 	QAction * action;
-	QStringList l = actions.split(" ");
+	QStringList actionsList = actions.split(" ");
 
-	for (int n = 0; n < l.count(); n++) {
-		QString a = l[n];
-		QString par = "";
+	for (int n = 0; n < actionsList.count(); n++) {
+		QString actionStr = actionsList[n];
+		QString par = ""; //the parameter which the action takes
 
-		if ( (n+1) < l.count() ) {
-			if ( (l[n+1].toLower() == "true") || (l[n+1].toLower() == "false") ) {
-				par = l[n+1].toLower();
+		//set par if the next word is a boolean value
+		if ( (n+1) < actionsList.count() ) {
+			if ( (actionsList[n+1].toLower() == "true") || (actionsList[n+1].toLower() == "false") ) {
+				par = actionsList[n+1].toLower();
 				n++;
-			}
-		}
+			} //end if
+		} //end if
 
-		action = ActionsEditor::findAction(this, a);
-		if (!action) action = ActionsEditor::findAction(playlist, a);
+		action = ActionsEditor::findAction(this, actionStr);
+		if (!action) action = ActionsEditor::findAction(playlist, actionStr);
 
 		if (action) {
 			qDebug("BaseGui::runActions: running action: '%s' (par: '%s')",
-                   a.toUtf8().data(), par.toUtf8().data() );
+				   actionStr.toUtf8().data(), par.toUtf8().data() );
 
 			if (action->isCheckable()) {
 				if (par.isEmpty()) {
@@ -3797,15 +3922,14 @@ void BaseGui::runActions(QString actions) {
 					action->trigger();
 				} else {
 					action->setChecked( (par == "true") );
-				}
-			}
-			else {
+				} //end if
+			} else {
 				action->trigger();
-			}
+			} //end if
 		} else {
-			qWarning("BaseGui::runActions: action: '%s' not found",a.toUtf8().data());
-		}
-	}
+			qWarning("BaseGui::runActions: action: '%s' not found",actionStr.toUtf8().data());
+		} //end if
+	} //end for
 }
 
 void BaseGui::checkPendingActionsToRun() {
