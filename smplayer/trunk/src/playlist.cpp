@@ -338,6 +338,19 @@ void Playlist::list() {
 	}
 }
 
+
+QString Playlist::print(QString seperator){
+	qDebug("Playlist::print");
+	QString output = "";
+
+	PlaylistItemList::iterator it;
+	for ( it = pl.begin(); it != pl.end(); ++it ) {
+		output += it->filename() + seperator + it->name() + seperator + QString::number(it->duration()) + "\r\n";
+	}
+
+	return output;
+}
+
 void Playlist::updateView() {
 	qDebug("Playlist::updateView");
 
@@ -412,6 +425,16 @@ void Playlist::clear() {
 	setCurrentItem(0);
 
 	setModified( false );
+}
+
+void Playlist::remove(int i){
+	if(i > -1 && i < pl.count()){
+		pl.removeAt(i);
+		if(current_item == i && i == (pl.count() - 1))
+			setCurrentItem(i - 1);
+		setModified(false);
+		updateView();
+	} //end if
 }
 
 int Playlist::count() {
@@ -1197,6 +1220,22 @@ void Playlist::upItem() {
 	int current = listView->currentRow();
 	qDebug(" currentRow: %d", current );
 
+	moveItemUp(current);
+
+}
+
+void Playlist::downItem() {
+	qDebug("Playlist::downItem");
+
+	int current = listView->currentRow();
+	qDebug(" currentRow: %d", current );
+
+	moveItemDown(current);
+}
+
+void Playlist::moveItemUp(int current){
+	qDebug("Playlist::moveItemUp");
+
 	if (current >= 1) {
 		swapItems( current, current-1 );
 		if (current_item == (current-1)) current_item = current;
@@ -1207,12 +1246,8 @@ void Playlist::upItem() {
 		listView->setCurrentCell( current-1, 0);
 	}
 }
-
-void Playlist::downItem() {
-	qDebug("Playlist::downItem");
-
-	int current = listView->currentRow();
-	qDebug(" currentRow: %d", current );
+void Playlist::moveItemDown(int current	){
+	qDebug("Playlist::moveItemDown");
 
 	if ( (current > -1) && (current < (pl.count()-1)) ) {
 		swapItems( current, current+1 );

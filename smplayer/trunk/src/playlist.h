@@ -75,6 +75,7 @@ public:
 	void list();
 	int count();
 	bool isEmpty();
+	QString print(QString seperator);
 
 	bool isModified() { return modified; };
 
@@ -92,6 +93,10 @@ public slots:
 
 	virtual void removeSelected();
 	virtual void removeAll();
+	virtual void remove(int);
+
+	virtual void moveItemUp(int);
+	virtual void moveItemDown(int);
 
 	virtual void addCurrentFile();
 	virtual void addFiles();
@@ -135,6 +140,8 @@ public:
 	bool autoGetInfo() { return automatically_get_info; };
 	bool savePlaylistOnExit() { return save_playlist_in_config; };
 	bool playFilesFromStart() { return play_files_from_start; };
+
+	QList<PlaylistItem> playlist(){return pl;};
 
 /*
 public:
