@@ -303,7 +303,7 @@ SectionEnd
 
 ;--------------------------------
 ;Shortcuts
-SectionGroup /e $(SMPLAYER_SHORTCUTGROUP_TITLE)
+SectionGroup $(SMPLAYER_SHORTCUTGROUP_TITLE)
 
   ${MementoSection} $(SMPLAYER_SECDESKTOPSHORTCUT_TITLE) SecDesktopShortcut
 
