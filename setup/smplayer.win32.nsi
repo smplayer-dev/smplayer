@@ -165,10 +165,6 @@
 ;Pages
 
   ;Install pages
-!ifdef PRE_RELEASE
-  #Pre-release Information
-  Page custom PagePrereleaseInformation
-!endif
   #Welcome
   !insertmacro MUI_PAGE_WELCOME
   #License
@@ -356,20 +352,19 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
     retry_mplayer:
 
     DetailPrint $(MPLAYER_IS_DOWNLOADING)
-    inetc::get /timeout 30000 /resume "" /caption $(MPLAYER_IS_DOWNLOADING) /banner "Downloading $MPlayer_Version.7z" \
-    "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
+    inetc::get /timeout 30000 /resume "" /silent "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
     "$PLUGINSDIR\$MPlayer_Version.7z" /end
     Pop $R0
     StrCmp $R0 OK 0 check_mplayer
 
-    DetailPrint "Extracting files..."
+    DetailPrint $(INFO_FILE_EXTRACT)
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPlayer_Version.7z" -y -o"$PLUGINSDIR"'
 
     CreateDirectory "$INSTDIR\mplayer"
     CopyFiles /SILENT "$PLUGINSDIR\$MPlayer_Version\*" "$INSTDIR\mplayer"
 
     check_mplayer:
-    ;This label does not necessarily mean there was a download error, so check first
+
     ${If} $R0 != "OK"
       DetailPrint $(MPLAYER_DL_FAILED)
     ${EndIf}
@@ -404,20 +399,19 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
     retry_codecs:
 
     DetailPrint $(CODECS_IS_DOWNLOADING)
-    inetc::get /timeout 30000 /resume "" /caption $(CODECS_IS_DOWNLOADING) /banner "Downloading $Codec_Version.zip" \
-    "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
+    inetc::get /timeout 30000 /resume "" /silent "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
     "$PLUGINSDIR\$Codec_Version.zip" /end
     Pop $R0
     StrCmp $R0 OK 0 check_codecs
 
-    DetailPrint "Extracting files..."
+    DetailPrint $(INFO_FILE_EXTRACT)
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$Codec_Version.zip" -y -o"$PLUGINSDIR"'
 
     CreateDirectory "$INSTDIR\mplayer\codecs"
     CopyFiles /SILENT "$PLUGINSDIR\$Codec_Version\*" "$INSTDIR\mplayer\codecs"
 
     check_codecs:
-    ;This label does not necessarily mean there was a download error, so check first
+
     ${If} $R0 != "OK"
       DetailPrint $(CODECS_DL_FAILED)
     ${EndIf}
@@ -451,7 +445,7 @@ ${MementoSectionEnd}
 ;Translations
 SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
 
-  Section "English" SecLang_ENUS
+  Section "English (United States)" SecLang_ENUS
     SectionIn RO
 
     SetOutPath "$INSTDIR\translations"
@@ -654,7 +648,7 @@ Section -Post
   ;Allows user to use 'start smplayer.exe'
   WriteRegStr HKLM "${SMPLAYER_APP_PATHS_KEY}" "" "$INSTDIR\smplayer.exe"
 
-  ;Registry entries needed for Default Programs in Vista & later
+  ;Default Programs Registration (Vista & later)
   ${If} ${AtLeastWinVista}
     Call RegisterDefaultPrograms
   ${EndIf}
@@ -755,7 +749,7 @@ ${MementoSectionDone}
 !macro MacroRemoveSMPlayer
   ;Delete desktop and start menu shortcuts
   SetDetailsPrint textonly
-  DetailPrint "Deleting Shortcuts..."
+  DetailPrint $(INFO_DEL_SHORTCUTS)
   SetDetailsPrint listonly
 
   SetShellVarContext all
@@ -768,7 +762,7 @@ ${MementoSectionDone}
   ;Delete directories recursively except for main directory
   ;Do not recursively delete $INSTDIR
   SetDetailsPrint textonly
-  DetailPrint "Deleting Files..."
+  DetailPrint $(INFO_DEL_FILES)
   SetDetailsPrint listonly
 
   RMDir /r "$INSTDIR\docs"
@@ -786,7 +780,7 @@ ${MementoSectionDone}
 
   ;Delete registry keys
   SetDetailsPrint textonly
-  DetailPrint "Deleting Registry Keys..."
+  DetailPrint $(INFO_DEL_REGISTRY)
   SetDetailsPrint listonly
 
   DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
@@ -803,15 +797,19 @@ ${MementoSectionDone}
 
 Function .onInit
 
+  !ifdef PRE_RELEASE
+    MessageBox MB_OK|MB_ICONINFORMATION "This is a pre-release version of SMPlayer. Please report all issues."
+  !endif
+
   ;Check if setup is already running
-  System::Call 'kernel32::CreateMutexW(i 0, i 0, t "MPlayerSMPlayer") i .r1 ?e'
+  System::Call 'kernel32::CreateMutexW(i 0, i 0, t "SMPlayerSetup") i .r1 ?e'
   Pop $R0
 
   StrCmp $R0 0 +3
     MessageBox MB_OK|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_IS_RUNNING)
     Abort
 
-  ;Check for admin (mimic old Inno Setup behavior)
+  ;Check for admin on older OSes
   Call CheckUserRights
 
   ${If} $Is_Admin == 0
@@ -908,45 +906,6 @@ Function LoadPreviousSettings
   ${MementoSectionRestore}
 
 FunctionEnd
-
-!ifdef PRE_RELEASE
-Function PagePrereleaseInformation
-
-  Var /GLOBAL AgreeCheckbox
-  Var /GLOBAL AgreeCheckbox_State
-  Var /GLOBAL NextButton
-
-  GetDlgItem $NextButton $HWNDPARENT 1
-  EnableWindow $NextButton 0
-
-  nsDialogs::Create /NOUNLOAD 1018
-  Pop $0
-
-  !insertmacro MUI_HEADER_TEXT "Pre-release Information" "This is a pre-release version of SMPlayer"
-
-  ${NSD_CreateLabel} 0 0 100% 20u "You are about to install a pre-release version of SMPlayer that is only meant to be used for testing purposes."
-  ${NSD_CreateLabel} 0 25u 100% 20u "If you have a previous version of SMPlayer installed, you should back up your settings before you continue. If you do not, you may lose them."
-  ${NSD_CreateLabel} 0 50u 100% 20u "The latest stable release of SMPlayer can be found on the SMPlayer website, is safer and more reliable, and is recommended for most users."
-  ${NSD_CreateLabel} 0 75u 100% 20u "Please report any issues in the SMPlayer forum."
-  ${NSD_CreateCheckBox} 0 125u 100% 10u "I understand and would like to continue installing the pre-release version of SMPlayer."
-  Pop $AgreeCheckbox
-  ${NSD_OnClick} $AgreeCheckbox PagePrereleaseInformationUpdate
-
-  nsDialogs::Show
-
-FunctionEnd
-
-Function PagePrereleaseInformationUpdate
-
-  ${NSD_GetState} $AgreeCheckbox $AgreeCheckbox_State
-  ${If} $AgreeCheckbox_State == ${BST_CHECKED}
-    EnableWindow $NextButton 1
-  ${ElseIf} $AgreeCheckbox_State == ${BST_UNCHECKED}
-    EnableWindow $NextButton 0
-  ${EndIf}
-
-FunctionEnd
-!endif
 
 Function PageReinstall
 
@@ -1136,7 +1095,7 @@ Section Uninstall
   smplayer_installed:
 
   SetDetailsPrint textonly
-  DetailPrint "Restoring file associations..."
+  DetailPrint $(INFO_REST_ASSOC)
   SetDetailsPrint listonly
 
   ;Don't restore file associations if reinstalling

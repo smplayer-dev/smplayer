@@ -63,7 +63,7 @@ ${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer: '$R0'."
 ${LangFileString} MPLAYER_INST_FAILED "Failed to install MPlayer. MPlayer is required for playback."
 
 ; Codecs Section
-${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer codecs..."
+${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer Codecs..."
 ${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
 ${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Failed to install MPlayer codecs."
@@ -79,3 +79,10 @@ ${LangFileString} SMPLAYER_NOT_INSTALLED "It does not appear that SMPlayer is in
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} APPLICATION_DESCRIPTION "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+
+; Misc
+${LangFileString} INFO_DEL_FILES "Deleting Files..."
+${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
+${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
+${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
+${LangFileString} INFO_FILE_EXTRACT "Extracting files..."
