@@ -79,3 +79,10 @@ ${LangFileString} SMPLAYER_NOT_INSTALLED "Sembra che SMPlayer non sia installato
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} APPLICATION_DESCRIPTION "SMPlayer è un'interfaccia completa per MPlayer, fornisce funzionalità di base come la riproduzione di video, DVD, VCD e funzionalità più avanzate come il supporto dei filtri di MPlayer, le liste edl e altro ancora."
+
+; Misc
+${LangFileString} INFO_DEL_FILES "Deleting Files..."
+${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
+${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
+${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
+${LangFileString} INFO_FILE_EXTRACT "Extracting files..."

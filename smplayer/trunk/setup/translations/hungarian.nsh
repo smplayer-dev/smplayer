@@ -79,3 +79,10 @@ ${LangFileString} SMPLAYER_NOT_INSTALLED "Nem úgy néz ki, mint ha az SMPlayer 
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} APPLICATION_DESCRIPTION "Az SMPlayer egy komplett felület az MPlayerhez, mindent támogat az alap funkcióktól kezdve, mint a videók, DVDk, VCDk lejátszása, haladó funkciókig, mint az MPlayer szűrők, edl listák és még sok más."
+
+; Misc
+${LangFileString} INFO_DEL_FILES "Deleting Files..."
+${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
+${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
+${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
+${LangFileString} INFO_FILE_EXTRACT "Extracting files..."

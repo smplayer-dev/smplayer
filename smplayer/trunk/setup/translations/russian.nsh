@@ -79,3 +79,10 @@ ${LangFileString} SMPLAYER_NOT_INSTALLED "Не похоже, что SMPlayer у�
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} APPLICATION_DESCRIPTION "SMPlayer - полноценная оболочка для MPlayer, начиная от базовых функций вроде воспроизведения видеофайлов, DVD, VCD и заканчивая более продвинутыми вроде поддержки фильтров MPlayer, списков и т.д."
+
+; Misc
+${LangFileString} INFO_DEL_FILES "Deleting Files..."
+${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
+${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
+${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
+${LangFileString} INFO_FILE_EXTRACT "Extracting files..."

@@ -79,3 +79,10 @@ ${LangFileString} SMPLAYER_NOT_INSTALLED "V adresáři '$INSTDIR' není SMPlayer
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} APPLICATION_DESCRIPTION "SMPlayer je kompletní frontend pro MPlayer, podporuje vše od základních funkcí jako přehrávání videí, DVD, VCD až po pokročilé funkce jako filtry MPlayeru, edl a více."
+
+; Misc
+${LangFileString} INFO_DEL_FILES "Deleting Files..."
+${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
+${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
+${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
+${LangFileString} INFO_FILE_EXTRACT "Extracting files..."
