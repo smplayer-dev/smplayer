@@ -29,6 +29,9 @@ ${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Int
 !endif
 ${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
 ${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Optional codecs for MPlayer."
+
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
 ${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."

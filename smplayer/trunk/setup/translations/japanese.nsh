@@ -29,6 +29,9 @@ ${LangFileString} SMPLAYER_SECMPLAYER_DESC "再生のために必要な MPlayer 
 !endif
 ${LangFileString} SMPLAYER_SECCODECS_TITLE "バイナリ コーデック"
 ${LangFileString} SMPLAYER_SECCODECS_DESC "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "MPlayer のオプション コーデックです。"
+
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} SMPLAYER_SECTHEMES_TITLE "アイコン テーマ"
 ${LangFileString} SMPLAYER_SECTHEMES_DESC "SMPlayer の追加アイコン テーマです。"

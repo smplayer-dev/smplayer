@@ -29,6 +29,9 @@ ${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; vyžadován pro přehrává
 !endif
 ${LangFileString} SMPLAYER_SECCODECS_TITLE "Binární kodeky"
 ${LangFileString} SMPLAYER_SECCODECS_DESC "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Přídavné kodeky MPlayeru."
+
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} SMPLAYER_SECTHEMES_TITLE "Témata ikon"
 ${LangFileString} SMPLAYER_SECTHEMES_DESC "Přídavná témata ikon pro SMPlayer."

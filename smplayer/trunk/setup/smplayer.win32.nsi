@@ -445,7 +445,7 @@ ${MementoSectionEnd}
 ;Translations
 SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
 
-  Section "English (United States)" SecLang_ENUS
+  Section "English" SecLang_ENUS
     SectionIn RO
 
     SetOutPath "$INSTDIR\translations"
@@ -835,6 +835,10 @@ Function .onInstSuccess
 FunctionEnd
 
 Function .onInstFailed
+
+  SetDetailsPrint textonly
+  DetailPrint "Rolling back changes..."
+  SetDetailsPrint listonly
 
   !insertmacro MacroRemoveSMPlayer
 

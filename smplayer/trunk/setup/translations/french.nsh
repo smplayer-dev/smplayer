@@ -29,12 +29,15 @@ ${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Int
 !endif
 ${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
 ${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Optional codecs for MPlayer."
+
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
 ${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Localizations"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English localizations."
+${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Languages"
+${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English language files for SMPlayer."
 
 ${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 

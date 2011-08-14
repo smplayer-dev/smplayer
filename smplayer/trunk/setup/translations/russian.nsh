@@ -8,63 +8,66 @@
 
 ; Startup
 ${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Программа установки уже запущена."
-${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Для установки этой программы необходимы права администратора."
+${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an administrator when installing this program."
 
 ; Components Page
-${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (необходимо)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, общие библиотеки и документация."
+${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (required)"
+${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, shared libraries, and documentation."
 
-${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Ярлыки"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Рабочий стол"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Создаёт ярлык SMPlayer на рабочем столе."
-${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Стартовое меню"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Создать пункт в стартовом меню для SMPlayer."
+${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Shortcuts"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Desktop"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Creates a shortcut to SMPlayer on the desktop."
+${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Start Menu"
+${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Create a Start Menu entry for SMPlayer."
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "Компоненты MPlayer"
-${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (необходимо)"
+${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer Components"
+${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (required)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; требуется для воспроизведения."
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback."
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; требуется для воспроизведение. (для установки нужно соединение с Internet)"
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Internet Connection required for installation)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary кодеки"
-${LangFileString} SMPLAYER_SECCODECS_DESC "Дополнительные кодеки для MPlayer. (для установки нужно соединение с Internet)"
+${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
+${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Optional codecs for MPlayer."
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "Темы иконок"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "Дополнительные темы иконок для SMPlayer."
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Локализации"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Отличные от английской локализации."
+${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
+${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."
+
+${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Languages"
+${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English language files for SMPlayer."
 
 ${LangFileString} MPLAYER_CODEC_INFORMATION "Пакеты с бинарными кодеками добавляют поддержку кодеков, не встроенных в mplayer, например, RealVideo и других нестандартных форматов.$\nОбратите внимание, что эти кодеки не нужны для воспроизведения большинства обычных форматов вроде DVD, MPEG-1/2/4 и т.п."
 
 ; Upgrade/Reinstall Page
-${LangFileString} REINSTALL_HEADER_TEXT "Уже установлено"
-${LangFileString} REINSTALL_HEADER_SUBTEXT "Выберите что вам нужно для установки SMPlayer."
-${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Отметьте необходимые вам опции."
+${LangFileString} REINSTALL_HEADER_TEXT "Already Installed"
+${LangFileString} REINSTALL_HEADER_SUBTEXT "Choose how you want to install SMPlayer."
+${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Choose the maintenance option to perform."
 
-${LangFileString} REINSTALL_CHGSETTINGS "Изменить настройки (для продвинутых)"
-${LangFileString} REINSTALL_UNKNOWN_VALUE "Неизвестное значение PREVIOUS_VERSION_STATE, прерывание"
+${LangFileString} REINSTALL_CHGSETTINGS "Change settings (advanced)"
+${LangFileString} REINSTALL_UNKNOWN_VALUE "Unknown value of PREVIOUS_VERSION_STATE, aborting"
 
-${LangFileString} REINSTALL_OLDVER_DESCRIPTION "На вашей системе установлена старая версия SMPlayer. Выберите необходимую операцию и нажмите Далее для продолжения."
-${LangFileString} REINSTALL_OLDVER_UPGRADE "Обновить SMPlayer, используя предыдущие настройки (рекомендуется)"
+${LangFileString} REINSTALL_OLDVER_DESCRIPTION "An older version of SMPlayer is installed on your system. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_OLDVER_UPGRADE "Upgrade SMPlayer using previous settings (recommended)"
 
-${LangFileString} REINSTALL_NEWVER_DESCRIPTION "Более новая версия SMPlayer уже установлена! Не рекомендуется переход к более старой версии. Выберите необходимую операцию и нажмите Далее для продолжения."
-${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Понизить версию SMPlayer, используя предыдущие настройки (рекомендуется)"
+${LangFileString} REINSTALL_NEWVER_DESCRIPTION "A newer version of SMPlayer is already installed! It is not recommended that you downgrade to an older version. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Downgrade SMPlayer using previous settings (recommended)"
 
-${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} уже установлен. Выберите необходимую операцию и нажмите Далее для продолжения."
-${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Добавить/Удалить/Изменить компоненты"
-${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Удалить SMPlayer"
+${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} is already installed. Select the operation you want to perform and click Next to continue."
+${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Add/Remove/Reinstall components"
+${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Uninstall SMPlayer"
 
 ; MPlayer Section
 ${LangFileString} MPLAYER_IS_DOWNLOADING "Загрузка MPlayer..."
-${LangFileString} MPLAYER_DL_RETRY "MPlayer не был успешно установлен. Повторить?"
+${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
 ${LangFileString} MPLAYER_DL_FAILED "Не удалось загрузить MPlayer: '$R0'."
 ${LangFileString} MPLAYER_INST_FAILED "Ошибка при установке MPlayer. MPlayer требуется для воспроизведения."
 
 ; Codecs Section
 ${LangFileString} CODECS_IS_DOWNLOADING "Загрузка бинарных кодеков для MPlayer..."
-${LangFileString} CODECS_DL_RETRY "Кодеки для MPlayer не были успешно установлены. Повторить?"
+${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
 ${LangFileString} CODECS_DL_FAILED "Не удалось загрузить бинарные кодеки для MPlayer: '$R0'."
 ${LangFileString} CODECS_INST_FAILED "Ошибка при установке бинарных кодеков для MPlayer."
 
@@ -73,7 +76,7 @@ ${LangFileString} VERINFO_IS_DOWNLOADING "Загрузка информации 
 ${LangFileString} VERINFO_DL_FAILED "Не удалось загрузить информацию о версии: '$R0'. Using a default version."
 
 ; Uninstaller
-${LangFileString} UNINSTALL_NO_ADMIN "Эта установка может быть удалена только пользователем с правами администратора."
+${LangFileString} UNINSTALL_NO_ADMIN "This installation can only be uninstalled by a user with administrator privileges."
 ${LangFileString} UNINSTALL_ABORTED "Удаление прервано пользователем."
 ${LangFileString} SMPLAYER_NOT_INSTALLED "Не похоже, что SMPlayer установлен в каталог '$INSTDIR'.$\r$\nПродолжить всё равно (не рекомендуется)?"
 
@@ -81,8 +84,8 @@ ${LangFileString} SMPLAYER_NOT_INSTALLED "Не похоже, что SMPlayer у�
 ${LangFileString} APPLICATION_DESCRIPTION "SMPlayer - полноценная оболочка для MPlayer, начиная от базовых функций вроде воспроизведения видеофайлов, DVD, VCD и заканчивая более продвинутыми вроде поддержки фильтров MPlayer, списков и т.д."
 
 ; Misc
-${LangFileString} INFO_DEL_FILES "Удаление файлов..."
-${LangFileString} INFO_DEL_REGISTRY "Удаление ключей реестра..."
-${LangFileString} INFO_DEL_SHORTCUTS "Удаление ярлыков..."
-${LangFileString} INFO_REST_ASSOC "Восстановление ассоциаций файлов..."
-${LangFileString} INFO_FILE_EXTRACT "Распаковка файлов..."
+${LangFileString} INFO_DEL_FILES "Deleting Files..."
+${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
+${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
+${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
+${LangFileString} INFO_FILE_EXTRACT "Extracting files..."
