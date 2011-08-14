@@ -29,6 +29,9 @@ ${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; wymagany do odtwarzania fil
 !endif
 ${LangFileString} SMPLAYER_SECCODECS_TITLE "Kodeki"
 ${LangFileString} SMPLAYER_SECCODECS_DESC "Opcjonalne kodeki do MPlayera. (Wymagane połączenie z internetem)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Opcjonalne kodeki do MPlayera."
+
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} SMPLAYER_SECTHEMES_TITLE "Zesatwy Ikon"
 ${LangFileString} SMPLAYER_SECTHEMES_DESC "Dodatkowe zestawy ikon do SMPlayera."

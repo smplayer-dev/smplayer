@@ -29,6 +29,9 @@ ${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; necessário para a reprodu�
 !endif
 ${LangFileString} SMPLAYER_SECCODECS_TITLE "Binários dos Codificadores"
 ${LangFileString} SMPLAYER_SECCODECS_DESC "Codificadores opcionais para o MPlayer. (Precisa de uma ligação à Internet)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Codificadores opcionais para o MPlayer."
+
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} SMPLAYER_SECTHEMES_TITLE "Conjuntos de Ícones"
 ${LangFileString} SMPLAYER_SECTHEMES_DESC "Ícones adicionais para o SMPlayer."

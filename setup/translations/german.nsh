@@ -29,6 +29,9 @@ ${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer – benötigt für die Wiede
 !endif
 ${LangFileString} SMPLAYER_SECCODECS_TITLE "Binärcodecs"
 ${LangFileString} SMPLAYER_SECCODECS_DESC "Optionale Codecs für MPlayer. (Internetverbindung benötigt für Installation)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Optionale Codecs für MPlayer."
+
+${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} SMPLAYER_SECTHEMES_TITLE "Symboldesigns"
 ${LangFileString} SMPLAYER_SECTHEMES_DESC "Weitere Symboldesigns für SMPlayer."
