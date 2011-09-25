@@ -7,85 +7,85 @@
 !insertmacro LANGFILE "Basque" "Euskera"
 
 ; Startup
-${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "The installer is already running."
-${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "You must be logged in as an administrator when installing this program."
+${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Ezartzailea jadanik lanean dago."
+${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Administratzaile bezala saioa hasita egon behar duzu programa hau ezartzerakoan."
 
 ; Components Page
-${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (required)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, shared libraries, and documentation."
+${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (beharrezkoa)"
+${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, elkarbanatutako liburutegiak, eta agiritza."
 
-${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Shortcuts"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Desktop"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Creates a shortcut to SMPlayer on the desktop."
-${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Start Menu"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Create a Start Menu entry for SMPlayer."
+${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Lasterbideak"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Mahigaina"
+${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Sortu SMPlayer lasterbide bat mahigainean."
+${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Hasiera Menua"
+${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Sortu SMPlayer sarrera bat Hasiera Menuan."
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer Components"
-${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (required)"
+${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer Osagaiak"
+${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (beharrezkoa)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback."
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; beharrezkoa irakurketarako."
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; required for playback. (Internet Connection required for installation)"
+${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer; beharrezkoa irakurketarako. (Internet Elkarketa beharrezkoa da ezarpenerako)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "Binary Codecs"
-${LangFileString} SMPLAYER_SECCODECS_DESC "Optional codecs for MPlayer. (Internet Connection required for installation)"
-${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Optional codecs for MPlayer."
+${LangFileString} SMPLAYER_SECCODECS_TITLE "Kodek Binarioak"
+${LangFileString} SMPLAYER_SECCODECS_DESC "Aukerazko kodekak MPlayerrentzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
+${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Aukerazko kodekak MPlayerrentzat."
 
-${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} SMPLAYER_SECMENCODER_DESC "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak"
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "Icon Themes"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "Additional icon themes for SMPlayer."
+${LangFileString} SMPLAYER_SECTHEMES_TITLE "Ikono Gaiak"
+${LangFileString} SMPLAYER_SECTHEMES_DESC "SMPlayer-entzako ikono gai gehigarriak."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Languages"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Non-English language files for SMPlayer."
+${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Hizkuntzak"
+${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "SMPlayer-entzako Ez Ingelerazko hizkuntza agiriak."
 
-${LangFileString} MPLAYER_CODEC_INFORMATION "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPLAYER_CODEC_INFORMATION "Kodek binario paketeek jatorrizkoan ez dauden kodek sostengua gehitzen dute, RealVideo aldaera berrienak eta formato ez arrunt asko bezalakoak.$\nOhartu hauek ez direla beharrezkoak formato arruntenak irakurtzeko, DVD, MPEG-1/2/4, etab."
 
 ; Upgrade/Reinstall Page
-${LangFileString} REINSTALL_HEADER_TEXT "Already Installed"
-${LangFileString} REINSTALL_HEADER_SUBTEXT "Choose how you want to install SMPlayer."
-${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Choose the maintenance option to perform."
+${LangFileString} REINSTALL_HEADER_TEXT "Jadanik Ezarrita"
+${LangFileString} REINSTALL_HEADER_SUBTEXT "Hautatu nola nahi duzun ezartzea SMPlayer."
+${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Hautatu mantenimendu aukera egintzarako."
 
-${LangFileString} REINSTALL_CHGSETTINGS "Change settings (advanced)"
-${LangFileString} REINSTALL_UNKNOWN_VALUE "Unknown value of PREVIOUS_VERSION_STATE, aborting"
+${LangFileString} REINSTALL_CHGSETTINGS "Aldatu ezarpenak (aurreratua)"
+${LangFileString} REINSTALL_UNKNOWN_VALUE "Balio ezezaguna PREVIOUS_VERSION_STATE, ezarpena uzten"
 
-${LangFileString} REINSTALL_OLDVER_DESCRIPTION "An older version of SMPlayer is installed on your system. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_OLDVER_UPGRADE "Upgrade SMPlayer using previous settings (recommended)"
+${LangFileString} REINSTALL_OLDVER_DESCRIPTION "SMPlayer bertsio zaharrago bat dago ezarrita zure sisteman. Hautatu egitea nahi duzun eragiketa eta klikatu Hurrengoa jarraitzeko."
+${LangFileString} REINSTALL_OLDVER_UPGRADE "Eguneratu SMPlayer aurreko ezarpenak erabiliz (gomendatua)"
 
-${LangFileString} REINSTALL_NEWVER_DESCRIPTION "A newer version of SMPlayer is already installed! It is not recommended that you downgrade to an older version. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Downgrade SMPlayer using previous settings (recommended)"
+${LangFileString} REINSTALL_NEWVER_DESCRIPTION "SMPlayer bertsio berriena jadanink ezarrita dago! Ez da gomendagarria bertsio zaharrago batera eguneratzea. Hautatu egitea nahi duzun eragiketa eta klikatu Hurrengoa jarraitzeko."
+${LangFileString} REINSTALL_NEWVER_DOWNGRADE "Eguneratu SMPlayer aurreko ezarpenak erabiliz (gomendatua)"
 
-${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} is already installed. Select the operation you want to perform and click Next to continue."
-${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Add/Remove/Reinstall components"
-${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Uninstall SMPlayer"
+${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} jadanik ezarrita dago. Hautatu egitea nahi duzun eragiketa eta klikatu Hurrengoa jarraitzeko."
+${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Gehitu/Kendu/Birrezarri osagaiak"
+${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "Kendu SMPlayer"
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_DOWNLOADING "Downloading MPlayer..."
-${LangFileString} MPLAYER_DL_RETRY "MPlayer was not successfully installed. Retry?"
-${LangFileString} MPLAYER_DL_FAILED "Failed to download MPlayer: '$R0'."
-${LangFileString} MPLAYER_INST_FAILED "Failed to install MPlayer. MPlayer is required for playback."
+${LangFileString} MPLAYER_IS_DOWNLOADING "MPlayer jeisten..."
+${LangFileString} MPLAYER_DL_RETRY "MPlayer ez da ongi ezarri. Berriro saiatu?"
+${LangFileString} MPLAYER_DL_FAILED "Hutsegitea MPlayer: '$R0'. jeisterakoan"
+${LangFileString} MPLAYER_INST_FAILED "Hutsegitea MPlayer ezartzerakoan. MPlayer beharrezkoa da irakurketarako"
 
 ; Codecs Section
-${LangFileString} CODECS_IS_DOWNLOADING "Downloading MPlayer codecs..."
-${LangFileString} CODECS_DL_RETRY "MPlayer codecs were not successfully installed. Retry?"
-${LangFileString} CODECS_DL_FAILED "Failed to download MPlayer codecs: '$R0'."
-${LangFileString} CODECS_INST_FAILED "Failed to install MPlayer codecs."
+${LangFileString} CODECS_IS_DOWNLOADING "MPlayer kodekak jeisten..."
+${LangFileString} CODECS_DL_RETRY "MPlayer kodekak ez dira ongi ezarri. Berriro saiatu?"
+${LangFileString} CODECS_DL_FAILED "Hutsegitea MPlayer kodekak: '$R0'. jeisterakoan."
+${LangFileString} CODECS_INST_FAILED "Hutsegitea MPlayer kodekak ezartzerakoan."
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "Downloading version information..."
-${LangFileString} VERINFO_DL_FAILED "Failed to download version info: '$R0'. Using a default version."
+${LangFileString} VERINFO_IS_DOWNLOADING "Bertsio argibideak jeisten..."
+${LangFileString} VERINFO_DL_FAILED "Hutsegitea bertsio argibideak jeisterakoan: '$R0'. Berezko bertsioa erabiltzen."
 
 ; Uninstaller
-${LangFileString} UNINSTALL_NO_ADMIN "This installation can only be uninstalled by a user with administrator privileges."
-${LangFileString} UNINSTALL_ABORTED "Uninstall aborted by user."
-${LangFileString} SMPLAYER_NOT_INSTALLED "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
+${LangFileString} UNINSTALL_NO_ADMIN "Ezarpen hau administrari eskubidea duen erabiltzaileak bakarrik kendu dezake."
+${LangFileString} UNINSTALL_ABORTED "Kentzea erabiltzaileak utzita."
+${LangFileString} SMPLAYER_NOT_INSTALLED "Ez da agertzen SMPlayer zuzenbidean ezarrita dagoenik '$INSTDIR'.$\r$\nJarraitu horrela ere (ez da gomendagarria)?"
 
 ; Vista & Later Default Programs Registration
-${LangFileString} APPLICATION_DESCRIPTION "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+${LangFileString} APPLICATION_DESCRIPTION "SMPlayer aurrealde-amaiera oso bat da MPlayer-entzat, ohinarrizko eginkizunetatik: Bideo, DVD, VCD irakurketatik, eginkizun aurreratuenetarainok: MPlayer iragazkiak, edl zerrenda, eta gehiago."
 
 ; Misc
-${LangFileString} INFO_DEL_FILES "Deleting Files..."
-${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
-${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
-${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
-${LangFileString} INFO_FILE_EXTRACT "Extracting files..."
+${LangFileString} INFO_DEL_FILES "Agiriak Ezabatzen..."
+${LangFileString} INFO_DEL_REGISTRY "Erresgistro Giltzak Ezabatzen..."
+${LangFileString} INFO_DEL_SHORTCUTS "Lasterbideak Ezabatzen..."
+${LangFileString} INFO_REST_ASSOC "Agiri elkarketak birrezartzen..."
+${LangFileString} INFO_FILE_EXTRACT "Agiriak ateratzen..."
