@@ -323,7 +323,7 @@
     <message>
         <location filename="smplayer-0.6.9/src/actionseditor.cpp" line="212"/>
         <source>&amp;Load</source>
-        <translation>&amp;Gertatu</translation>
+        <translation>G&amp;ertatu</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/actionseditor.cpp" line="480"/>
@@ -486,7 +486,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1553"/>
         <source>&amp;Play</source>
-        <translation>I&amp;rakurri</translation>
+        <translation>&amp;Irakurri</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1554"/>
@@ -501,12 +501,12 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1556"/>
         <source>&amp;Subtitles</source>
-        <translation>A&amp;zpidatziak</translation>
+        <translation>Az&amp;pidatziak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1557"/>
         <source>&amp;Browse</source>
-        <translation>&amp;Bilatu</translation>
+        <translation>Bila&amp;tu</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1558"/>
@@ -521,7 +521,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1340"/>
         <source>&amp;File...</source>
-        <translation>A&amp;giria...</translation>
+        <translation>&amp;Agiria...</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1341"/>
@@ -556,7 +556,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1573"/>
         <source>&amp;Recent files</source>
-        <translation>&amp;Azken agiriak</translation>
+        <translation>Az&amp;ken agiriak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1362"/>
@@ -651,7 +651,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1604"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Ikuspegi neurria</translation>
+        <translation>Ik&amp;uspegi neurria</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="2777"/>
@@ -701,22 +701,22 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1610"/>
         <source>F&amp;ilters</source>
-        <translation>&amp;Iragazkiak</translation>
+        <translation>I&amp;ragazkiak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1404"/>
         <source>&amp;Equalizer</source>
-        <translation>&amp;Ekualizagailua</translation>
+        <translation>Ekualiza&amp;gailua</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1405"/>
         <source>&amp;Screenshot</source>
-        <translation>&amp;Ikusleiho-argazkia</translation>
+        <translation>Iku&amp;sleiho-argazkia</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1616"/>
         <source>S&amp;tay on top</source>
-        <translation>Edu&amp;ki goian</translation>
+        <translation>E&amp;duki goian</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1452"/>
@@ -731,7 +731,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1671"/>
         <source>&amp;Filters</source>
-        <translation>&amp;Iragazkiak</translation>
+        <translation>I&amp;ragazkiak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1685"/>
@@ -751,12 +751,12 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1674"/>
         <source>&amp;Channels</source>
-        <translation>&amp;Bideak</translation>
+        <translation>Bidea&amp;k</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1686"/>
         <source>&amp;Left channel</source>
-        <translation>&amp;Ezker bidea</translation>
+        <translation>E&amp;zker bidea</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1687"/>
@@ -766,7 +766,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1677"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;Stereo modua</translation>
+        <translation>E&amp;stereo modua</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1442"/>
@@ -836,7 +836,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1700"/>
         <source>&amp;Angle</source>
-        <translation>&amp;Angelua</translation>
+        <translation>A&amp;ngelua</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1480"/>
@@ -881,7 +881,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1482"/>
         <source>P&amp;references</source>
-        <translation>H&amp;obespenak</translation>
+        <translation>&amp;Hobespenak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1492"/>
@@ -978,7 +978,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1458"/>
         <source>U&amp;nload</source>
-        <translation>E&amp;zgertatu</translation>
+        <translation>&amp;Ezgertatu</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1343"/>
@@ -988,7 +988,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1348"/>
         <source>C&amp;lose</source>
-        <translation>I&amp;txi</translation>
+        <translation>It&amp;xi</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1481"/>
@@ -1043,7 +1043,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1469"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>Azpidatzietako &amp;hurrengo lerroa</translation>
+        <translation>Azpidatzietako hurrengo &amp;lerroa</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1747"/>
@@ -1183,7 +1183,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1344"/>
         <source>&amp;Audio CD</source>
-        <translation>&amp;Audio CD-a</translation>
+        <translation>Audi&amp;o CD-a</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1649"/>
@@ -1198,12 +1198,12 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1648"/>
         <source>Denoise o&amp;ff</source>
-        <translation>Zaratakentzea e&amp;zgaituta</translation>
+        <translation>Zara&amp;takentzea ezgaituta</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1470"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation>Erabili SSA/&amp;ASS liburutegia</translation>
+        <translation>Erabili &amp;SSA/ASS liburutegia</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1356"/>
@@ -1223,12 +1223,12 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1465"/>
         <source>Si&amp;ze +</source>
-        <translation>&amp;Neurria +</translation>
+        <translation>Ne&amp;urria +</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1435"/>
         <source>Add &amp;black borders</source>
-        <translation>Gehitu hertz &amp;beltzak</translation>
+        <translation>Gehitu &amp;hertz beltzak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1436"/>
@@ -1263,7 +1263,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1472"/>
         <source>&amp;Forced subtitles only</source>
-        <translation>&amp;Behartu azpidatziak bakarrik</translation>
+        <translation>Behartu azpidatziak bakarri&amp;k</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1534"/>
@@ -1303,7 +1303,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1613"/>
         <source>&amp;Rotate</source>
-        <translation>&amp;Itzulikatu</translation>
+        <translation>I&amp;tzulikatu</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1652"/>
@@ -1318,17 +1318,17 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1654"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation>&amp;Itzulikatu 90 gradu &amp;ordulari norabidean</translation>
+        <translation>I&amp;tzulikatu 90 gradu &amp;ordulari norabidean</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1655"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation>&amp;Itzulikatu 90 gradu ordulari &amp;norabide aurka</translation>
+        <translation>It&amp;zulikatu 90 gradu ordulari norabide aurka</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1656"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation>&amp;Itzulikatu 90 gradu ordulari norabide aurka eta itzulikatu</translation>
+        <translation>Itz&amp;ulikatu 90 gradu ordulari norabide aurka eta itzulikatu</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1388"/>
@@ -1348,7 +1348,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1439"/>
         <source>E&amp;qualizer</source>
-        <translation>E&amp;kualizagailua</translation>
+        <translation>Ek&amp;ualizagailua</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1535"/>
@@ -1363,7 +1363,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1477"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Igo azpidatziak &amp;hemendik: OpenSubtitles.org...</translation>
+        <translation>Igo azpidatziak he&amp;mendik: OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1491"/>
@@ -1378,7 +1378,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1396"/>
         <source>Speed -&amp;4%</source>
-        <translation>&amp;Abiadura -&amp;4%</translation>
+        <translation>Abiadura -&amp;4%</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1397"/>
@@ -1393,12 +1393,12 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1399"/>
         <source>S&amp;peed +1%</source>
-        <translation>A&amp;biadura +1%</translation>
+        <translation>Ab&amp;iadura +1% </translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1620"/>
         <source>Scree&amp;n</source>
-        <translation>Ikus&amp;lehoa</translation>
+        <translation>I&amp;kus&amp;eihoa</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1664"/>
@@ -1425,7 +1425,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1668"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation>B&amp;idea</translation>
+        <translation>&amp;Bidea</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="3801"/>
@@ -1470,7 +1470,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1407"/>
         <source>Pre&amp;view...</source>
-        <translation>Au&amp;rrekoa...</translation>
+        <translation>Aurrekoa&amp;...</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1658"/>
@@ -1530,7 +1530,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1447"/>
         <source>Set dela&amp;y...</source>
-        <translation>Ezarri a&amp;tzerapena...</translation>
+        <translation>Ezarri atzera&amp;pena...</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1461"/>
@@ -1585,7 +1585,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1474"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>Azpidatzien i&amp;kusgarritasuna</translation>
+        <translation>Azpi&amp;datzien ikusgarritasuna</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1538"/>
@@ -1666,12 +1666,12 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1408"/>
         <source>Fli&amp;p image</source>
-        <translation>It&amp;zulikatu irudia</translation>
+        <translation>Itzu&amp;likatu irudia</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1601"/>
         <source>Zoo&amp;m</source>
-        <translation>Zoo&amp;ma</translation>
+        <translation>&amp;Zooma</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1540"/>
@@ -1729,7 +1729,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="smplayer-0.6.9/src/baseguiplus.cpp" line="198"/>
         <source>&amp;Quit</source>
-        <translation>&amp;Amaitu</translation>
+        <translation>A&amp;maitu</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/baseguiplus.cpp" line="204"/>
@@ -2383,7 +2383,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
-        <translation>&amp;Hizkuntza:</translation>
+        <translation>Hiz&amp;kuntza:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/findsubtitles/findsubtitleswindow.ui" line="126"/>
@@ -4152,12 +4152,12 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="65"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>&amp;Monitore ikuspegia:</translation>
+        <translation>Monitore &amp;ikuspegia:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="122"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>&amp;Abiarazi MPlayer bere leihoan</translation>
+        <translation>Abiarazi M&amp;Player bere leihoan</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="357"/>
@@ -4177,7 +4177,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="239"/>
         <source>&amp;Colorkey:</source>
-        <translation>&amp;Margogiltza:</translation>
+        <translation>Margogil&amp;tza:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="590"/>
@@ -4207,7 +4207,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="304"/>
         <source>Options for MP&amp;layer</source>
-        <translation>MP&amp;layer aukerak</translation>
+        <translation>&amp;MPlayer aukerak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.cpp" line="462"/>
@@ -4322,7 +4322,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="173"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Birmargotu bideo leihoaren ba&amp;rrena</translation>
+        <translation>Birmar&amp;gotu bideo leihoaren barrena</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.cpp" line="437"/>
@@ -4362,7 +4362,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="584"/>
         <source>Lo&amp;gs</source>
-        <translation>O&amp;harrak</translation>
+        <translation>&amp;Oharrak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.cpp" line="370"/>
@@ -4372,7 +4372,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.ui" line="129"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation>Birreraiki &amp;aurkibidetzea beharrezkoa bada</translation>
+        <translation>Bir&amp;reraiki aurkibidetzea beharrezkoa bada</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefadvanced.cpp" line="450"/>
@@ -4801,7 +4801,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="503"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Hasi bideoak &amp;ikusleiho-osoan</translation>
+        <translation>&amp;Hasi bideoak ikusleiho-osoan</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="517"/>
@@ -4841,12 +4841,12 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="469"/>
         <source>D&amp;irect rendering</source>
-        <translation>Errender&amp;izazio zuzena</translation>
+        <translation>Errenderizazio zuzen&amp;a</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="476"/>
         <source>Dou&amp;ble buffering</source>
-        <translation>&amp;Buferreratze bikoitza</translation>
+        <translation>Bu&amp;ferreratze bikoitza</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.cpp" line="874"/>
@@ -4856,7 +4856,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="309"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>Gaitu postprozesatz&amp;ea lehenespen bezala</translation>
+        <translation>&amp;Gaitu postprozesatzea lehenespen bezala</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="830"/>
@@ -5043,7 +5043,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="462"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>S&amp;oftware bideo ekualizagailua erabili</translation>
+        <translation>&amp;Software bideo ekualizagailua erabili</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="561"/>
@@ -5153,7 +5153,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="189"/>
         <source>&amp;Close when finished playback</source>
-        <translation>&amp;Itxi irakurketa amaitutakoan</translation>
+        <translation>It&amp;xi irakurketa amaitutakoan</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.cpp" line="332"/>
@@ -5238,7 +5238,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
-        <translation>Ir&amp;teera kontrolatzailea:</translation>
+        <translation>&amp;Irteera kontrolatzailea:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.cpp" line="886"/>
@@ -5253,7 +5253,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="510"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Gehitu hertz beltzak ikusleiho-osoan</translation>
+        <translation>Gehit&amp;u hertz beltzak ikusleiho-osoan</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.cpp" line="110"/>
@@ -5338,7 +5338,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation>Gaitu &amp;Ikusleiho-argazkiak</translation>
+        <translation>Gai&amp;tu Ikusleiho-argazkiak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="166"/>
@@ -5363,7 +5363,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="755"/>
         <source>Glo&amp;bal volume</source>
-        <translation>&amp;Bolumen globala</translation>
+        <translation>Bo&amp;lumen globala</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.cpp" line="895"/>
@@ -5398,7 +5398,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="537"/>
         <source>Avoid &amp;screensaver</source>
-        <translation>Sahiestu &amp;ikusleihobabeslea</translation>
+        <translation>Sahiestu ikusleiho&amp;-babeslea</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.cpp" line="972"/>
@@ -5428,7 +5428,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="860"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation>Audio/bideo berez &amp;aldiberetzea</translation>
+        <translation>Audio/bideo berez al&amp;diberetzea</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefgeneral.ui" line="886"/>
@@ -5866,7 +5866,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefinput.ui" line="512"/>
         <source>Media &amp;seeking</source>
-        <translation>Multimedia &amp;bilaketa</translation>
+        <translation>&amp;Multimedia bilaketa</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefinput.ui" line="526"/>
@@ -5911,7 +5911,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefinput.ui" line="490"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation>Sa&amp;gu gurpilaren eginkizunak</translation>
+        <translation>Sagu &amp;gurpilaren eginkizunak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefinput.ui" line="502"/>
@@ -5989,7 +5989,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.cpp" line="124"/>
         <source>&amp;Short jump</source>
-        <translation> Jauzi &amp;laburra</translation>
+        <translation> Jauzi lab&amp;urra</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.cpp" line="125"/>
@@ -6004,7 +6004,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.cpp" line="127"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation> Sagu &amp;gurpil jauzia</translation>
+        <translation> Sagu gurpil &amp;jauzia</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.ui" line="683"/>
@@ -6019,7 +6019,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.ui" line="313"/>
         <source>St&amp;yle:</source>
-        <translation>Est&amp;iloa:</translation>
+        <translation>Esti&amp;loa:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.ui" line="267"/>
@@ -6084,7 +6084,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.ui" line="621"/>
         <source>Ins&amp;tances</source>
-        <translation>Eska&amp;bideak</translation>
+        <translation>E&amp;skabideak</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefinterface.cpp" line="495"/>
@@ -6740,7 +6740,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Irakur-zerrenda</translation>
+        <translation>Irakur-&amp;zerrenda</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefplaylist.ui" line="38"/>
@@ -6868,7 +6868,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="81"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation>Hautatu l&amp;ehenengo azpidatzi erabilgarria</translation>
+        <translation>Hautatu &amp;lehenengo azpidatzi erabilgarria</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="149"/>
@@ -7168,12 +7168,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
-        <translation>&amp;Etzanda:</translation>
+        <translation>Etz&amp;anda:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="1104"/>
         <source>&amp;Vertical:</source>
-        <translation>&amp;Zutika:</translation>
+        <translation>Zuti&amp;ka:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="1125"/>
@@ -7188,7 +7188,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="1171"/>
         <source>Shado&amp;w:</source>
-        <translation>I&amp;tzala:</translation>
+        <translation>Itzala&amp;:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.cpp" line="504"/>
@@ -7331,7 +7331,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="725"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>Bere&amp;zko neurria:</translation>
+        <translation>&amp;Berezko neurria:</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="764"/>
@@ -7416,7 +7416,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="smplayer-0.6.9/src/prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>E&amp;zarri estilo ass agiriei ere</translation>
+        <translation>Ezarri estiloa a&amp;ss agiriei ere</translation>
     </message>
 </context>
 <context>
