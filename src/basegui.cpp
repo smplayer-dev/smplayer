@@ -622,11 +622,6 @@ void BaseGui::createActions() {
 	connect( mirrorAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleMirror(bool)) );
 
-	motionVectorsAct = new MyAction( this, "motion_vectors" );
-	motionVectorsAct->setCheckable( true );
-	connect( motionVectorsAct, SIGNAL(toggled(bool)),
-             core, SLOT(visualizeMotionVectors(bool)) );
-
 
 	// Submenu filter
 	postProcessingAct = new MyAction( this, "postprocessing" );
@@ -1523,8 +1518,6 @@ void BaseGui::retranslateStrings() {
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
 	flipAct->change( Images::icon("flip"), tr("Fli&p image") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
-	motionVectorsAct->change( Images::icon("motion_vectors"), 
-                              tr("Visualize &motion vectors") );
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
@@ -2304,8 +2297,6 @@ void BaseGui::createMenus() {
 
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoPreviewAct);
-	videoMenu->addSeparator();
-	videoMenu->addAction(motionVectorsAct);
 
 
     // AUDIO MENU
@@ -3235,9 +3226,6 @@ void BaseGui::updateWidgets() {
 #if DOCK_PLAYLIST
 	showPlaylistAct->setChecked( playlist->isVisible() );
 #endif
-
-	// Motion vectors
-	motionVectorsAct->setChecked( pref->show_motion_vectors );
 
 	// Compact mode
 	compactAct->setChecked( pref->compact_mode );

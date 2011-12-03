@@ -420,7 +420,6 @@ protected:
 	// Menu Options
 	MyAction * showPlaylistAct;
 	MyAction * showPropertiesAct;
-	MyAction * motionVectorsAct;
 	MyAction * showPreferencesAct;
 	MyAction * showLogMplayerAct;
 	MyAction * showLogSmplayerAct;

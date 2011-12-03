@@ -1,5 +1,9 @@
 [b]Version 0.6.10[/b]:
 
+(2011-12-03)
+ * Removed the option "Visualize motion vectors". It caused problems to many
+   people when activated by mistake.
+
 (2010-12-07)
  * Added a submenu to select the closed caption channel. 
    Requires mplayer >= r32607.

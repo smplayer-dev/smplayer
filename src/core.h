@@ -298,8 +298,6 @@ public slots:
 	void prevClosedCaptionChannel();
 	*/
 
-	void visualizeMotionVectors(bool);
-
 #if DVDNAV_SUPPORT
 	// dvdnav buttons
 	void dvdnavUp();
