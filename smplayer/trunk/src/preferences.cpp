@@ -290,7 +290,6 @@ void Preferences::reset() {
 	style="";
 #endif
 
-	show_motion_vectors = false;
 
 #if DVDNAV_SUPPORT
 	mouse_left_click_function = "dvdnav_mouse";
@@ -696,8 +695,6 @@ void Preferences::save() {
 #if STYLE_SWITCHING
 	set->setValue("style", style);
 #endif
-
-	set->setValue("show_motion_vectors", show_motion_vectors);
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
 	set->setValue("mouse_right_click_function", mouse_right_click_function);
@@ -1114,8 +1111,6 @@ void Preferences::load() {
 #if STYLE_SWITCHING
 	style = set->value("style", style).toString();
 #endif
-
-	show_motion_vectors = set->value("show_motion_vectors", show_motion_vectors).toBool();
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
 	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();

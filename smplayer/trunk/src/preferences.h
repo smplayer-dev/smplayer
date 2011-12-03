@@ -292,7 +292,6 @@ public:
 #if STYLE_SWITCHING
 	QString style; 	//!< SMPlayer look
 #endif
-	bool show_motion_vectors;
 
 	// Function of mouse buttons:
 	QString mouse_left_click_function;

@@ -1386,11 +1386,6 @@ void Core::startMplayer( QString file, double seek ) {
 		lavdopts += "skiploopfilter=all";
 	}
 
-	if (pref->show_motion_vectors) {
-		if (!lavdopts.isEmpty()) lavdopts += ":";
-		lavdopts += "vismv=7";
-	}
-
 	if (pref->threads > 1) {
 		if (!lavdopts.isEmpty()) lavdopts += ":";
 		lavdopts += "threads=" + QString::number(pref->threads);
@@ -3733,15 +3728,6 @@ void Core::prevClosedCaptionChannel() {
 	changeClosedCaptionChannel(c);
 }
 */
-
-void Core::visualizeMotionVectors(bool b) {
-	qDebug("Core::visualizeMotionVectors: %d", b);
-
-	if (pref->show_motion_vectors != b) {
-		pref->show_motion_vectors = b;
-		if (proc->isRunning()) restartPlay();
-	}
-}
 
 #if DVDNAV_SUPPORT
 // dvdnav buttons
