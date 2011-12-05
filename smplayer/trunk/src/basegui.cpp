@@ -1683,56 +1683,111 @@ void BaseGui::retranslateStrings() {
 	helpMenuAct->setIcon( Images::icon("help_menu") );
 	*/
 
+	#ifdef FORCE_ICONS_IN_MENUS
+	openMenu->menuAction()->setIconVisibleInMenu(true);
+	playMenu->menuAction()->setIconVisibleInMenu(true);
+	videoMenu->menuAction()->setIconVisibleInMenu(true);
+	audioMenu->menuAction()->setIconVisibleInMenu(true);
+	subtitlesMenu->menuAction()->setIconVisibleInMenu(true);
+	browseMenu->menuAction()->setIconVisibleInMenu(true);
+	optionsMenu->menuAction()->setIconVisibleInMenu(true);
+	helpMenu->menuAction()->setIconVisibleInMenu(true);
+	#endif
+
+
 	// Menu Open
 	recentfiles_menu->menuAction()->setText( tr("&Recent files") );
 	recentfiles_menu->menuAction()->setIcon( Images::icon("recents") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	recentfiles_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 	clearRecentsAct->change( Images::icon("delete"), tr("&Clear") );
 
 	tvlist->menu()->menuAction()->setText( tr("&TV") );
 	tvlist->menu()->menuAction()->setIcon( Images::icon("open_tv") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	tvlist->menu()->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	radiolist->menu()->menuAction()->setText( tr("Radi&o") );
 	radiolist->menu()->menuAction()->setIcon( Images::icon("open_radio") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	radiolist->menu()->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	// Menu Play
 	speed_menu->menuAction()->setText( tr("Sp&eed") );
 	speed_menu->menuAction()->setIcon( Images::icon("speed") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	speed_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	ab_menu->menuAction()->setText( tr("&A-B section") );
 	ab_menu->menuAction()->setIcon( Images::icon("ab_menu") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	ab_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	// Menu Video
 	videotrack_menu->menuAction()->setText( tr("&Track", "video") );
 	videotrack_menu->menuAction()->setIcon( Images::icon("video_track") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	videotrack_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	videosize_menu->menuAction()->setText( tr("Si&ze") );
 	videosize_menu->menuAction()->setIcon( Images::icon("video_size") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	videosize_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	/*
 	panscan_menu->menuAction()->setText( tr("&Pan && scan") );
 	panscan_menu->menuAction()->setIcon( Images::icon("panscan") );
 	*/
+
 	zoom_menu->menuAction()->setText( tr("Zoo&m") );
 	zoom_menu->menuAction()->setIcon( Images::icon("zoom") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	zoom_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	aspect_menu->menuAction()->setText( tr("&Aspect ratio") );
 	aspect_menu->menuAction()->setIcon( Images::icon("aspect") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	aspect_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	deinterlace_menu->menuAction()->setText( tr("&Deinterlace") );
 	deinterlace_menu->menuAction()->setIcon( Images::icon("deinterlace") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	deinterlace_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	videofilter_menu->menuAction()->setText( tr("F&ilters") );
 	videofilter_menu->menuAction()->setIcon( Images::icon("video_filters") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	videofilter_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	rotate_menu->menuAction()->setText( tr("&Rotate") );
 	rotate_menu->menuAction()->setIcon( Images::icon("rotate") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	rotate_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	ontop_menu->menuAction()->setText( tr("S&tay on top") );
 	ontop_menu->menuAction()->setIcon( Images::icon("ontop") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	ontop_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 #if USE_ADAPTER
 	screen_menu->menuAction()->setText( tr("Scree&n") );
 	screen_menu->menuAction()->setIcon( Images::icon("screen") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	screen_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 #endif
 
 	/*
@@ -1781,15 +1836,29 @@ void BaseGui::retranslateStrings() {
 	// Menu Audio
 	audiotrack_menu->menuAction()->setText( tr("&Track", "audio") );
 	audiotrack_menu->menuAction()->setIcon( Images::icon("audio_track") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	audiotrack_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
+
 
 	audiofilter_menu->menuAction()->setText( tr("&Filters") );
 	audiofilter_menu->menuAction()->setIcon( Images::icon("audio_filters") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	audiofilter_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	audiochannels_menu->menuAction()->setText( tr("&Channels") );
 	audiochannels_menu->menuAction()->setIcon( Images::icon("audio_channels") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	audiochannels_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
+
 
 	stereomode_menu->menuAction()->setText( tr("&Stereo mode") );
 	stereomode_menu->menuAction()->setIcon( Images::icon("stereo_mode") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	stereomode_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	/* channelsDefaultAct->change( tr("&Default") ); */
 	channelsStereoAct->change( tr("&Stereo") );
@@ -1803,23 +1872,41 @@ void BaseGui::retranslateStrings() {
 	// Menu Subtitle
 	subtitlestrack_menu->menuAction()->setText( tr("&Select") );
 	subtitlestrack_menu->menuAction()->setIcon( Images::icon("sub") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	subtitlestrack_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	closed_captions_menu->menuAction()->setText( tr("&Closed captions") );
 	closed_captions_menu->menuAction()->setIcon( Images::icon("closed_caption") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	closed_captions_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	// Menu Browse 
 	titles_menu->menuAction()->setText( tr("&Title") );
 	titles_menu->menuAction()->setIcon( Images::icon("title") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	titles_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	chapters_menu->menuAction()->setText( tr("&Chapter") );
 	chapters_menu->menuAction()->setIcon( Images::icon("chapter") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	chapters_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 	angles_menu->menuAction()->setText( tr("&Angle") );
 	angles_menu->menuAction()->setIcon( Images::icon("angle") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	angles_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 #if PROGRAM_SWITCH
 	programtrack_menu->menuAction()->setText( tr("P&rogram", "program") );
 	programtrack_menu->menuAction()->setIcon( Images::icon("program_track") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	programtrack_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 #endif
 
 
@@ -1837,9 +1924,16 @@ void BaseGui::retranslateStrings() {
 	// Menu Options
 	osd_menu->menuAction()->setText( tr("&OSD") );
 	osd_menu->menuAction()->setIcon( Images::icon("osd") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	osd_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
+
 
 	logs_menu->menuAction()->setText( tr("&View logs") );
 	logs_menu->menuAction()->setIcon( Images::icon("logs") );
+	#ifdef FORCE_ICONS_IN_MENUS
+	logs_menu->menuAction()->setIconVisibleInMenu(true);
+	#endif
 
 
 	// To be sure that the "<empty>" string is translated
