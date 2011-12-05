@@ -170,6 +170,11 @@ int main( int argc, char ** argv )
 	a.setQuitOnLastWindowClosed(false);
 	//a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
+#if QT_VERSION >= 0x040400
+	// Enable icons in menus
+	QCoreApplication::setAttribute(Qt::AA_DontShowIconsInMenus, false);
+#endif
+
 	// Sets the config path
 	QString config_path;
 
