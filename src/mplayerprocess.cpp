@@ -78,17 +78,74 @@ bool MplayerProcess::start() {
 #endif
 
 	MyProcess::start();
+
+#if !defined(Q_OS_OS2)
 	return waitForStarted();
+#else
+	bool r = waitForStarted();
+	if (r) {
+		pidMP = QProcess::pid();
+		qDebug("MPlayer PID %i", pidMP);
+		MPpipeOpen();
+	}
+	return r;
+#endif
 }
 
 void MplayerProcess::writeToStdin(QString text) {
 	if (isRunning()) {
 		//qDebug("MplayerProcess::writeToStdin");
+#if !defined(Q_OS_OS2)
 		write( text.toLocal8Bit() + "\n");
+#else
+		MPpipeWrite( text.toLocal8Bit() + "\n");
+#endif
 	} else {
 		qWarning("MplayerProcess::writeToStdin: process not running");
 	}
+#ifdef Q_OS_OS2
+	if (text == "quit" || text == "quit\n") {
+		MPpipeClose();
+	}
+#endif
 }
+
+#ifdef Q_OS_OS2
+void MplayerProcess::MPpipeOpen() {
+	char szPipeName[ 100 ];
+	sprintf( szPipeName, "\\PIPE\\MPLAYER\\%x", pidMP );
+	DosCreateNPipe( szPipeName, &hpipe, NP_ACCESS_DUPLEX, 1, 1024, 1024, 0 );
+}
+
+void MplayerProcess::MPpipeClose( void ) {
+	DosClose( hpipe );
+}
+
+void MplayerProcess::MPpipeWrite( const QByteArray text ) {
+	// MPlayer quitted ?
+	if ( !isRunning() )
+		return;
+
+// as things could hang when pipe communication is done direct here, i do a seperate thread for it
+	pipeThread = new PipeThread(text, hpipe);
+    
+	pipeThread->start();
+	while (!pipeThread->isRunning() && !pipeThread->isFinished()) {
+		qDebug("we sleep");
+		DosSleep(10);
+	}
+// we wait for max 2 seconds for the thread to be ended (we to this with max 20 loops)
+	int count = 0;
+	while (!pipeThread->wait(100) && count < 20) {
+		count ++;
+	}
+	if (count >= 20) {
+		pipeThread->terminate();
+		qDebug("pipe communication terminated");
+	}
+	delete pipeThread;
+}
+#endif
 
 static QRegExp rx_av("^[AV]: *([0-9,:.-]+)");
 static QRegExp rx_frame("^[AV]:.* (\\d+)\\/.\\d+");// [0-9,.]+");
@@ -810,5 +867,32 @@ void MplayerProcess::processFinished(int exitCode, QProcess::ExitStatus exitStat
 void MplayerProcess::gotError(QProcess::ProcessError error) {
 	qDebug("MplayerProcess::gotError: %d", (int) error);
 }
+
+#ifdef Q_OS_OS2
+PipeThread::PipeThread(const QByteArray t, const HPIPE pipe) {
+	text = t;
+	hpipe = pipe;
+}
+
+PipeThread::~PipeThread() {
+}
+
+void PipeThread::run() {
+	ULONG cbActual;
+	APIRET rc = NO_ERROR; 
+
+	rc = DosConnectNPipe( hpipe );
+	if (rc != NO_ERROR) 
+		return;
+
+//	qDebug("pipe connected");    
+	DosWrite( hpipe, text.data(), strlen( text.data() ), &cbActual );
+
+	// Wait for ACK
+	DosRead( hpipe, &cbActual, sizeof( ULONG ), &cbActual );
+	DosDisConnectNPipe( hpipe );
+	return;
+}
+#endif
 
 #include "moc_mplayerprocess.cpp"

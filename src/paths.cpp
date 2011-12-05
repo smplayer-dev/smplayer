@@ -133,7 +133,7 @@ QString Paths::configPath() {
 #ifdef PORTABLE_APP
 		return appPath();
 #else
-		#ifndef Q_OS_WIN
+		#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 		const char * XDG_CONFIG_HOME = getenv("XDG_CONFIG_HOME");
 		if (XDG_CONFIG_HOME!=NULL) {
 			qDebug("Paths::configPath: XDG_CONFIG_HOME: %s", XDG_CONFIG_HOME);

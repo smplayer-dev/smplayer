@@ -21,6 +21,10 @@
 #ifndef _WINSCREENSAVER_H_
 #define _WINSCREENSAVER_H_
 
+#ifdef Q_OS_OS2
+#include <QLibrary>
+#endif
+
 class WinScreenSaver
 {
 public:
@@ -33,9 +37,19 @@ public:
 private:
 	void retrieveState();
 	void restoreState();
+#ifdef Q_OS_OS2
+	void unload();
+#endif
 
 private:
+#ifndef Q_OS_OS2
 	int lowpower, poweroff, screensaver;
+#else
+	QLibrary *SSaver;
+	typedef int (*FuncPtr) (void);
+	FuncPtr SSCore_TempDisable;
+	FuncPtr SSCore_TempEnable;
+#endif
 	bool state_saved, modified;
 };
 

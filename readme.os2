@@ -1,0 +1,317 @@
+SMPlayer _VERSION_ _BUILD_ README
+
+(W) Christian Hennecke, Oct 5, 2009
+last update Jan 29, 2010
+
+
+0. CONTENTS OF THIS FILE
+========================
+
+1. INTRODUCTION
+
+2. REQUIREMENTS
+
+3. INSTALLATION
+
+4. LICENSE, COPYRIGHT, DISCLAIMER
+
+5. CONTACT
+
+6. CREDITS
+
+7. SUPPORT AND DONATIONS
+
+8. HISTORY
+
+
+1. INTRODUCTION
+===============
+
+Welcome to SMPlayer _VERSION_ _BUILD_ for OS/2 and eComStation.
+
+SMPlayer is a GUI front-end for MPlayer, a command-line movie player that is
+available for many systems and supports a wide range of formats and codecs,
+either natively or via Win32 DLL codecs. For instance, you can watch VideoCD,
+SVCD, DVD, 3ivx, DivX 3/4/5, WMV, and even H.264 movies.
+
+SMPlayer intends to be a complete front-end for MPlayer, from basic features
+like playing videos, DVDs, and VCDs to more advanced features like support for
+MPlayer filters and more.
+
+One of the most interesting features of SMPlayer: it remembers the settings of
+all files you play. So you start to watch a movie but you have to leave...
+don't worry, when you open that movie again it will resume at the same point
+you left it, and with the same settings: audio track, subtitles, volume...
+
+Other additional interesting features:
+
+  * Configurable subtitles. You can choose font and size, and even colors for
+    the subtitles.
+  * Audio track switching. You can choose the audio track you want to listen.
+    Works with avi and mkv. And of course with DVDs.
+  * Seeking by mouse wheel. You can use your mouse wheel to go forward or
+    backward in the video.
+  * Video equalizer, allows you to adjust the brightness, contrast, hue,
+    saturation and gamma of the video image.
+  * Multiple speed playback. You can play at 2X, 4X... and even in slow motion.
+  * Filters. Several filters are available: deinterlace, postprocessing,
+    denoise... and even a karaoke filter (voice removal).
+  * Audio and subtitles delay adjustment. Allows you to sync audio and
+    subtitles.
+  * Advanced options, such as selecting a demuxer or video & audio codecs.
+  * Playlist. Allows you to enqueue several files to be played one after each
+    other. Autorepeat and shuffle supported too.
+  * Preferences dialog. You can easily configure every option of SMPlayer by
+    using a nice preferences dialog.
+  * Possibility to search automatically for subtitles in opensubtitles.org.
+  * Translations: currently SMPlayer is translated into more than 20 languages,
+    including Spanish, German, French, Italian, Russian, Chinese, Japanese....
+  * It's multiplatform. Binaries available for Windows, Linux, and now OS/2.
+  * SMPlayer is under the GPL license.
+
+
+2. REQUIREMENTS
+===============
+
+* klibc 0.6.3 or later
+
+    ftp://ftp.netlabs.org/pub/gcc/libc-0_6_3-csd3.wpi
+
+* Qt4 dll
+
+    see http://svn.netlabs.org/qt4 for more information whats needed
+
+* MPlayer
+
+    http://hobbes.nmsu.edu/h-search.php?key=mplayer&pushbutton=Search
+
+  WARNING: To use the combination of SMPlayer and MPlayer to its full extent,
+           at least version mplayer-dev-SVN-r27724-OS2-4.3.2.zip is required.
+           Earlier versions do not support scaling, i.e., you will always
+           see a video in its original size, regardless of the zoom setting
+           or fullscreen mode.
+
+* Win32 codecs (optional)
+
+    http://www.mplayerhq.hu/design7/dload.html#binary_codecs
+
+  MPlayer is able to use Win32 codec DLLs for codecs it does not support
+  natively.
+
+
+3. INSTALLATION
+===============
+       
+To install SMPlayer, do the following:
+
+klibc
+-----
+
+  1. Download klibc 0.6.3 csd3 or later.
+  2. Install the package by double-clicking on the WPI file.
+
+
+Qt4 dll
+-------
+
+  1. Download the package
+  2. Extract all dll to your libpath. preferable x:\ecs\dll or x:\os2\dll where x: is your boot drive
+  3. Install the xsystray plugin as noted in the readme.os2 and also in readme.xsystray
+
+
+MPlayer
+-------
+
+  1. Download a recent version of MPlayer.
+  2. Create a new directory for MPlayer.
+  3. Extract the MPlayer package to the new directory.
+  4. Copy the .mplayer subdirectory -- if included -- to your HOME directory.
+  4. To be able to use subtitles, copy a TrueType font of your choice to the
+     %HOME%\.mplayer directory and rename it to subfont.ttf.
+
+
+Win32 codecs
+------------
+
+  1. Download the codec package from the MPlayer site.
+  2. Go to the directory where you installed MPlayer and create a "codecs"
+     subdirectory.
+  3. Extract the package to the "codecs" subdirectory.
+  4. Add a SET MPLAYER_CODECS_DIR statement to your CONFIG.SYS, and point it
+     to the "codecs" subdirectory you create above.
+
+
+SMPlayer
+--------
+
+  1. Create a directory for SMPlayer. This will be called x:\smplayer below.
+  2. Extract the SMPlayer package to the new directory.
+  3. Create a WPS object for smplayer.exe
+  4. Start SMPlayer by double-clicking on the WPS object.
+  5. Open the settings dialog via "Options > Settings."
+  6. In the left pane, choose "General."
+  7. On the "General" tab in the "Paths" group, press the "Browse" button and
+     locate the MPlayer executable mplayer.exe.
+  8. In the "Output Device Driver" group, choose "kva" for "Video" and "dart"
+     for "Audio."
+  9. In the left pane, choose "Drives."
+ 10. Under "Drives," select your CD-ROM and DVD drives.
+ 11. In the left pane, go to "Subtitles."
+ 12. On the "Font" tab in the "Font" group, you can either directly choose a
+     font file to use or select one of the fonts installed in your system:
+     * To select a specific font file, select the "TTF Font" radio button, press
+       "Browse," and locate the font file of the TrueType font you would like to
+       use for subtitles.
+     * To select an installed font, select the "System Font" radio button, press
+       "Choose," and select a TrueType font you would like to use for subtitles.
+       CAUTION: mplayer.exe will crash if you select a non-TrueType font!
+ 13. To get prettier fonts, go to the "SSA/ASS Library" tab and enable the
+     option "Use SSA/ASS library for subtitle rendering." Optionally adjust the
+     color and font attributes.
+ 14. Press OK to exit the settings dialog.
+
+If you have a slow machine, also do the following:
+
+  1. In the left pane, choose "Performance."
+  2. In the "Cache" group, enable the "Use cache" option.
+  3. Enable the "Skip frames" option.
+
+If you have a sound card that does not support 48kHz sampling rate, also do the
+following:
+
+  1. In the left pane, choose "Advanced."
+  2. In the "Audio Filter" entry field, enter:
+
+       resample=44100:0:1
+
+
+4. LICENSE, COPYRIGHT, DISCLAIMER
+=================================
+
+SMPlayer is copyright (C) 2006 - 2011 RVM <rvm@escomposlinux.org>.
+
+The OS/2 port is copyright (c) 2008, 2010 Silvan Scherrer.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as contained in
+the file COPYING in the installation directory.
+
+The original source code is available at:
+
+  http://smplayer.sourceforge.net
+
+Changes for the OS/2 version are included in the file:
+
+  smplayer.diff (not included in the beta)
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+For details, refer to the file COPYING.
+
+
+5. CONTACT
+==========
+
+Please send bugreports to:
+
+  ecs@aroa.ch
+
+Only bug reports with a reproducable bug are accepted. :-)
+
+Please enclose the error.log file that is produced with the setup described
+above under INSTALLATION.
+
+
+6. CREDITS
+==========
+
+The port was done by:
+
+Silvan Scherrer aka _diver
+
+Thanks go to:
+
+  * Yuri Dario
+  * Doodle
+  * KO Myung-Hun
+  * Herwig Bauernfeind
+  * Christian Hennecke
+
+They either helped me when I had some nasty questions or did some testing for
+me.
+
+
+7. SUPPORT AND DONATIONS
+========================
+
+SMPlayer is based on volunteer work. If you would like to support further
+development, you can do so in one of the following ways:
+
+  * Donate to the Qt4 project: see http://qt.netlabs.org for more information
+
+  * Contribute to the project: Besides actual development, this also includes
+    maintaining the documentation and the project web site as well as help
+    for users.
+
+
+8. HISTORY
+==========
+
+2010-06-30
+  * fixed a nasty 1 second delay
+
+2010-04-29
+  * updated to Qt4 4.6.2
+  * added support for mplayer -ao kai (latest mplayer version)
+
+2010-01-29
+  * updated to latest Qt4 source
+  * enabled colorkey (thanks to KO Myung-Hun)
+
+2009-11-11
+
+  * fixed hang with broken media
+  * changed to Qt4 beta4
+
+2009-10-22
+
+  * removed requirement for MPlayer DLLs to be in PATH or SMPlayer directory
+    (fixed in Qt)
+  * removed requirement for C:\PSFONTS\helv.pfb (fixed in Qt)
+  * added Screensaver functionality for Doodle Screensaver
+
+2009-10-02
+
+  * beta1 of newest smplayer version with Qt4 support
+
+2009-01-22
+
+  * fixed a crash when playing audio files
+
+2008-11-24
+
+  * added french and german readme (done by Guillaume Gay and Christian Hennecke)
+  * added nice looking icons for exe and folder (done by David Graser)
+  * updated Qt DLL with newest version from SVN
+
+2008-11-04
+
+  * fixed a bug in Qt DLL which occured when playing from playlist
+  * renamed icon files to match wps behaviour
+
+2008-10-27
+
+  * with newest mplayer from hobbes the resizing problem is fixed
+  * fixed a bug introduced when adding more file extensions
+
+2008-10-20
+
+  * switched to custom-built Qt DLL sqt.dll (latest version from svn.netlabs.org/qt)
+  * added a couple more file extensions to the open file dialog
+
+2008-10-14
+
+  * initial release
+

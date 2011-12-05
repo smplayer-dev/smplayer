@@ -448,7 +448,7 @@ bool Playlist::isEmpty() {
 void Playlist::addItem(QString filename, QString name, double duration) {
 	qDebug("Playlist::addItem: '%s'", filename.toUtf8().data());
 
-	#ifdef Q_OS_WIN
+	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
 	#endif
 
@@ -702,7 +702,7 @@ bool Playlist::save_m3u(QString file) {
 	QString dir_path = QFileInfo(file).path();
 	if (!dir_path.endsWith("/")) dir_path += "/";
 
-	#ifdef Q_OS_WIN
+	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	dir_path = Helper::changeSlashes(dir_path);
 	#endif
 
@@ -727,7 +727,7 @@ bool Playlist::save_m3u(QString file) {
 		PlaylistItemList::iterator it;
 		for ( it = pl.begin(); it != pl.end(); ++it ) {
 			filename = (*it).filename();
-			#ifdef Q_OS_WIN
+			#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 			filename = Helper::changeSlashes(filename);
 			#endif
 			stream << "#EXTINF:";
@@ -755,7 +755,7 @@ bool Playlist::save_pls(QString file) {
 	QString dir_path = QFileInfo(file).path();
 	if (!dir_path.endsWith("/")) dir_path += "/";
 
-	#ifdef Q_OS_WIN
+	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	dir_path = Helper::changeSlashes(dir_path);
 	#endif
 
@@ -769,7 +769,7 @@ bool Playlist::save_pls(QString file) {
 	PlaylistItemList::iterator it;
 	for ( int n=0; n < pl.count(); n++ ) {
 		filename = pl[n].filename();
-		#ifdef Q_OS_WIN
+		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		filename = Helper::changeSlashes(filename);
 		#endif
 
@@ -963,7 +963,7 @@ void Playlist::getMediaInfo() {
 	QString name = core->mdat.clip_name;
 	QString artist = core->mdat.clip_artist;
 
-	#ifdef Q_OS_WIN
+	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
 	#endif
 

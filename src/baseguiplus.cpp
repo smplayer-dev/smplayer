@@ -76,7 +76,14 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	showTrayAct->setCheckable(true);
 	connect( showTrayAct, SIGNAL(toggled(bool)),
              tray, SLOT(setVisible(bool)) );
+
+#ifndef Q_OS_OS2
 	optionsMenu->addAction(showTrayAct);
+#else
+	trayAvailable();
+	connect( optionsMenu, SIGNAL(aboutToShow()),
+             this, SLOT(trayAvailable()) );
+#endif
 
 	showAllAct = new MyAction(this, "restore/hide");
 	connect( showAllAct, SIGNAL(triggered()),
@@ -148,7 +155,7 @@ BaseGuiPlus::~BaseGuiPlus() {
 }
 
 bool BaseGuiPlus::startHidden() {
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	return false;
 #else
 	if ( (!showTrayAct->isChecked()) || (mainwindow_visible) ) 
@@ -605,5 +612,17 @@ VolumeSliderAction * BaseGuiPlus::createVolumeSliderAction(QWidget * parent) {
 
 	return volumeslider_action;
 }
+
+#ifdef Q_OS_OS2
+// we test if xcenter is available at all. if not disable the tray action. this is possible when xcenter is not opened or crashed
+void BaseGuiPlus::trayAvailable() {
+	if (!tray->isSystemTrayAvailable()) {
+			optionsMenu->removeAction(showTrayAct);
+	}
+	else {
+		optionsMenu->addAction(showTrayAct);
+	}
+}
+#endif
 
 #include "moc_baseguiplus.cpp"

@@ -348,8 +348,8 @@ void DefaultGui::createFloatingControl() {
 
 #endif // USE_CONFIGURABLE_TOOLBARS
 
-#ifdef Q_OS_WIN
-	// To make work the ESC key (exit fullscreen) and Ctrl-X (close) in Windows
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	// To make work the ESC key (exit fullscreen) and Ctrl-X (close) in Windows and OS2
 	floating_control->addAction(exitFullscreenAct);
 	floating_control->addAction(exitAct);
 #endif

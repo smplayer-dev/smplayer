@@ -24,8 +24,28 @@
 #include "mediadata.h"
 #include "config.h"
 
+#ifdef Q_OS_OS2
+#include <QThread>
+#include <qt_os2.h>
+#endif
+
 #define NOTIFY_SUB_CHANGES 1
 #define NOTIFY_AUDIO_CHANGES 1
+
+#ifdef Q_OS_OS2
+class PipeThread : public QThread
+{
+public:
+	PipeThread(const QByteArray t, const HPIPE pipe);
+	~PipeThread();
+	void run();
+
+private:
+	HPIPE hpipe;
+	QByteArray text;
+};
+#endif
+
 
 class QStringList;
 
@@ -94,6 +114,12 @@ protected slots:
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
 	void gotError(QProcess::ProcessError);
 
+#if defined(Q_OS_OS2)
+	void MPpipeOpen();
+	void MPpipeClose();
+	void MPpipeWrite(const QByteArray text);
+#endif
+
 private:
 	bool notified_mplayer_is_running;
 	bool received_end_of_file;
@@ -101,6 +127,12 @@ private:
 	MediaData md;
 
 	int last_sub_id;
+
+#if defined(Q_OS_OS2) 
+	PipeThread *pipeThread;       
+	HPIPE hpipe;
+	PID pidMP;
+#endif
 
 	int mplayer_svn;
 

@@ -130,7 +130,7 @@
 
 // If 1, smplayer will check if mplayer is old
 // and in that case it will report to the user
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 #define REPORT_OLD_MPLAYER 1
 #endif
 

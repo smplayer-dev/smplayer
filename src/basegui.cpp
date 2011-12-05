@@ -106,7 +106,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 		near_top(false),
 		near_bottom(false)
 {
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	/* Disable screensaver by event */
 	just_stopped = false;
 #endif
@@ -4140,7 +4140,7 @@ void BaseGui::displayState(Core::State state) {
 	}
 	if (state == Core::Stopped) setWindowCaption( "SMPlayer" );
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	/* Disable screensaver by event */
 	just_stopped = false;
 	
@@ -4655,7 +4655,9 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 	}
 	return false;
 }
+#endif
 
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 void BaseGui::clear_just_stopped() {
 	qDebug("BaseGui::clear_just_stopped");
 	just_stopped = false;
