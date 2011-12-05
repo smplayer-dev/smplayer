@@ -250,7 +250,7 @@ protected slots:
 	virtual void changeStyleSheet(QString style);
 #endif
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	/* Disable screensaver by event */
 	void clear_just_stopped();
 #endif
@@ -680,7 +680,7 @@ private:
 	QSize win_size;
 	bool was_maximized;
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	/* Disable screensaver by event */
 	bool just_stopped;
 #endif

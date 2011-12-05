@@ -463,7 +463,11 @@ void PrefSubtitles::createHelp() {
 #ifdef Q_OS_WIN
         .arg("<i>C:\\Windows\\Fonts\\</i>")
 #else
+#ifdef Q_OS_OS2
+        .arg("<i>C:\\PSFONTS</i>")
+#else
         .arg("<i>/usr/X11R6/lib/X11/fonts/truetype/</i>")
+#endif
 #endif
         );
 

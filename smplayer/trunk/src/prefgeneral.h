@@ -32,6 +32,10 @@
 #define USE_XV_ADAPTORS 1
 #endif
 
+#ifdef Q_OS_OS2
+#define MPLAYER_KAI_VERSION 30994
+#endif
+
 class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
 {
 	Q_OBJECT
@@ -109,7 +113,7 @@ protected:
 	void setStartInFullscreen(bool b);
 	bool startInFullscreen();
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	void setAvoidScreensaver(bool b);
 	bool avoidScreensaver();
 	

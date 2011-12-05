@@ -1,5 +1,9 @@
 [b]Version 0.6.10[/b]:
 
+(2011-12-05)
+ * Patch by Silvan Scherrer <silvan.scherrer@aroa.ch> to add support for
+   eCS, OS/2.
+
 (2011-12-03)
  * Removed the option "Visualize motion vectors". It caused problems to many
    people when activated by mistake.

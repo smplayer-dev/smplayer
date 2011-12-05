@@ -34,7 +34,7 @@ class MplayerProcess;
 class MplayerWindow;
 class QSettings;
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 class WinScreenSaver;
 #endif
@@ -449,7 +449,7 @@ protected:
 	FileSettingsBase * tv_settings;
 #endif
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 	WinScreenSaver * win_screensaver;
 #endif

@@ -53,13 +53,13 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 	// Screensaver
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	screensaver_check->hide();
 #else
 	screensaver_group->hide();
 #endif
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	vdpau_filters_check->hide();
 #endif
 
@@ -120,7 +120,7 @@ void PrefGeneral::retranslateStrings() {
 	*/
 
 	mplayerbin_edit->setCaption(tr("Select the mplayer executable"));
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	mplayerbin_edit->setFilter(tr("Executables") +" (*.exe)");
 #else
 	mplayerbin_edit->setFilter(tr("All files") +" (*)");
@@ -155,12 +155,27 @@ void PrefGeneral::setData(Preferences * pref) {
 			vo = "directx,";
 		}
 #else
+#ifdef Q_OS_OS2
+		vo = "kva";
+#else
 		vo = "xv,";
+#endif
 #endif
 	}
 	setVO( vo );
 
 	QString ao = pref->ao;
+
+#ifdef Q_OS_OS2
+	if (ao.isEmpty()) {
+		if (pref->mplayer_detected_version >= MPLAYER_KAI_VERSION) {
+			ao = "kai";
+		} else {
+			ao = "dart";
+		}
+	}
+#endif
+
 	setAO( ao );
 
 	setRememberSettings( !pref->dont_remember_media_settings );
@@ -191,14 +206,14 @@ void PrefGeneral::setData(Preferences * pref) {
 	setBlackbordersOnFullscreen( pref->add_blackborders_on_fullscreen );
 	setAutoq( pref->autoq );
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	setAvoidScreensaver( pref->avoid_screensaver );
 	setTurnScreensaverOff( pref->turn_screensaver_off );
 #else
 	setDisableScreensaver( pref->disable_screensaver );
 #endif
 
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	setDisableFiltersWithVdpau( pref->disable_video_filters_with_vdpau );
 #endif
 
@@ -226,6 +241,11 @@ void PrefGeneral::getData(Preferences * pref) {
 		i.getInfo(); 
 		// Update the drivers list at the same time
 		//setDrivers( i.voList(), i.aoList() );
+#ifdef Q_OS_OS2
+		vo_list = i.voList();
+		ao_list = i.aoList();
+		updateDriverCombos();
+#endif
 	}
 
 	TEST_AND_SET(pref->use_screenshot, useScreenshots());
@@ -274,14 +294,14 @@ void PrefGeneral::getData(Preferences * pref) {
 	}
 	TEST_AND_SET(pref->autoq, autoq());
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	pref->avoid_screensaver = avoidScreensaver();
 	TEST_AND_SET(pref->turn_screensaver_off, turnScreensaverOff());
 #else
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
 #endif
 
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	TEST_AND_SET(pref->disable_video_filters_with_vdpau, disableFiltersWithVdpau());
 #endif
 
@@ -312,6 +332,14 @@ void PrefGeneral::updateDriverCombos() {
 		}
 		else
 #else
+#ifdef Q_OS_OS2
+		if ( vo == "kva") {
+			vo_combo->addItem( "kva (" + tr("fast") + ")", "kva" );
+			vo_combo->addItem( "kva (" + tr("snap mode") + ")", "kva:snap" );
+			vo_combo->addItem( "kva (" + tr("slower dive mode") + ")", "kva:dive" );
+		}
+		else
+#else
 		/*
 		if (vo == "xv") vo_combo->addItem( "xv (" + tr("fastest") + ")", vo);
 		else
@@ -326,6 +354,7 @@ void PrefGeneral::updateDriverCombos() {
 		}
 		else
 #endif // USE_XV_ADAPTORS
+#endif
 #endif
 		if (vo == "x11") vo_combo->addItem( "x11 (" + tr("slow") + ")", vo);
 		else
@@ -355,6 +384,12 @@ void PrefGeneral::updateDriverCombos() {
 	for ( int n = 0; n < ao_list.count(); n++) {
 		ao = ao_list[n].name();
 		ao_combo->addItem( ao, ao );
+#ifdef Q_OS_OS2
+		if ( ao == "kai") {
+			ao_combo->addItem( "kai (" + tr("uniaud mode") + ")", "kai:uniaud" );
+			ao_combo->addItem( "kai (" + tr("dart mode") + ")", "kai:dart" );
+		}
+#endif
 #if USE_ALSA_DEVICES
 		if ((ao == "alsa") && (!alsa_devices.isEmpty())) {
 			for (int n=0; n < alsa_devices.count(); n++) {
@@ -708,7 +743,7 @@ bool PrefGeneral::startInFullscreen() {
 	return start_fullscreen_check->isChecked();
 }
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 void PrefGeneral::setAvoidScreensaver(bool b) {
 	avoid_screensaver_check->setChecked(b);
 }
@@ -734,7 +769,7 @@ bool PrefGeneral::disableScreensaver() {
 }
 #endif
 
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 void PrefGeneral::setDisableFiltersWithVdpau(bool b) {
 	vdpau_filters_check->setChecked(b);
 }
@@ -844,11 +879,15 @@ void PrefGeneral::createHelp() {
 #ifdef Q_OS_WIN
 		  .arg("<b><i>directx</i></b>")
 #else
+#ifdef Q_OS_OS2
+		  .arg("<b><i>kva</i></b>")
+#else
 		  .arg("<b><i>xv</i></b>")
+#endif
 #endif
 		);
 
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	setWhatsThis(vdpau_filters_check, tr("Disable video filters when using vdpau"),
 		tr("Usually video filters won't work when using vdpau as video output "
            "driver, so it's wise to keep this option checked.") );
@@ -905,7 +944,7 @@ void PrefGeneral::createHelp() {
            "some video drivers (like gl) are already able to display the "
            "subtitles automatically in the black borders.") */ );
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	setWhatsThis(turn_screensaver_off_check, tr("Switch screensaver off"),
 		tr("This option switches the screensaver off just before starting to "
            "play a file and switches it on when playback finishes. If this "
@@ -931,12 +970,20 @@ void PrefGeneral::createHelp() {
 	setWhatsThis(ao_combo, tr("Audio output driver"),
 		tr("Select the audio output driver.") 
 #ifndef Q_OS_WIN
+#ifdef Q_OS_OS2
+        + " " +
+		tr("%1 is the recommended one. %2 is only available on older MPlayer (before version %3)")
+           .arg("<b><i>kai</i></b>")
+           .arg("<b><i>dart</i></b>")
+           .arg(MPLAYER_KAI_VERSION)
+#else
         + " " + 
 		tr("%1 is the recommended one. Try to avoid %2 and %3, they are slow "
            "and can have an impact on performance.")
            .arg("<b><i>alsa</i></b>")
            .arg("<b><i>esd</i></b>")
            .arg("<b><i>arts</i></b>")
+#endif
 #endif
 		);
 

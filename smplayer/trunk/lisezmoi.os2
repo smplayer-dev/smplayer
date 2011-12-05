@@ -1,0 +1,351 @@
+SMPlayer _VERSION_ _BUILD_ LISEZMOI
+
+(W) Christian Hennecke, Oct 28, 2008
+Traduction franáaise.: Guillaume Gay <guillaume.gay@bigfoot.com>
+Version..............: 2010-01-29
+
+0. CONTENU DU FICHIER
+=====================
+
+1. INTRODUCTION
+
+2. PRêREQUIS
+
+3. INSTALLATION
+
+4. LICENCE, COPYRIGHT, RêCLAMATIONS
+
+5. CONTACT
+
+6. TABLEAU D'HONNEUR
+
+7. SUPPORT ET DONS
+
+8. HISTORIQUE DES VERSIONS
+
+
+1. INTRODUCTION
+===============
+
+Bienvenue dans SMPlayer _VERSION_ _BUILD_ pour OS/2 et eComStation.
+
+SMPlayer est une interface graphique pour MPlayer, un lecteur vidÇo en
+ligne de commandes disponible pour divers systämes et prenant en charge
+une large gamme de formats et de codecs, soit de maniäre "native" soit
+via des codecs Win32. Par exemple, vous pouvez visionner des VideoCD,
+des SVCD, des DVD, des fichiers 3ivx, DivX 3/4/5, WMV et màme des films
+H.264.
+
+SMPlayer est destinÇ Ö àtre une interface compläte pour MPLayer, pour
+les fonctionnalitÇs de base comme la lecture de vidÇos, de DVD et VCD,
+comme pour les fonctionnalitÇs plus avancÇes comme la prise en charge
+des filtres MPlayer et autres. 
+
+L'une des fonctionnalitÇs les plus intÇressantes de SMPlayer : il se
+rappelle des paramätres de tous les fichiers que vous avez lus. Vous
+pouvez donc commencer Ö regarder un film, mais vous devez vous
+absenter... ne vous en faites pas : lorsque vous rouvrirez le film, il
+reprendra Ö l'endroit oó vous vous Çtiez arràtÇ et avec les màmes
+paramätres pour la piste audio, les sous-titres, le volume... 
+
+Autres fonctionnalitÇs supplÇmentaires intÇressantes : 
+
+  * Sous-titres paramÇtrables. Vous pouvez choisir les taille et type de
+    police et màme la couleur pour les sous-titres. 
+  * Commutation de piste audio. Vous pouvez choisir la piste audio Ö
+    Çcouter. Cela fonctionne avec les AVI et MKV, mais aussi bien-sñr
+    avec les DVD. 
+  * Recherche Ö la molette de souris. Vous pouvez utiliser votre molette
+    de souris pour effectuer une avance ou un retour rapide dans une
+    vidÇo. 
+  * L'Çgaliseur vidÇo vous permet d'ajuster la luminositÇ, le contraste,
+    la teinte, la saturation et la correction gamma de l'image vidÇo. 
+  * Diverses vitesses de lectures rapides. Vous pouvez visionner un film
+    Ö 2x, 4x, ... sa vitesse, et màme au ralenti. 
+  * Filtres. Plusieurs filtres sont disponibles : dÇsentrelacement,
+    post-traitement, filtrage du bruit... et màme un filtre karaokÇ
+    (suppression des voix). 
+  * Ajustement du dÇlai pour l'audio et les sous-titres. Vous permet de
+    synchroniser l'audio et les sous-titres. 
+  * Options avancÇes, comme la sÇlection d'un demuxer ou de codecs vidÇo
+    et audio. 
+  * Liste de lecture. Vous permet de mettre en enfilade plusieurs
+    fichiers pour qu'ils puissent àtre lus l'un apräs l'autre. La
+    rÇpÇtition en boucle et la lecture alÇatoire sont aussi pris en
+    charge. 
+  * Boåte de dialogue des prÇfÇrences. Vous pouvez facilement configurer
+    chaque option de SMPlayer par le biais de d'une sympathique boåte de
+    dialogue des prÇfÇrences. 
+  * PossibilitÇ de lancer automatiquement une recherche de sous-titres
+    sur opensubtitles.org. 
+  * Traductions : SMPlayer est actuellement traduit dans plus de 20
+    langues, parmis lesquelles l'allemand, le chinois, l'espagnol, le
+    franáais, l'italien, le japonais, le russe, ... 
+  * Il est multiplateformes. Les fichiers binaires sont disponibles pour
+    Windows, Linux et maintenant OS/2. 
+  * SMPlayer est sous licence GPL. 
+
+Si vous allez voir la page web de SMPlayer, vous remarquerez que le
+portage pour OS/2 ne correspond pas Ö la version la plus rÇcente du code. 
+Nous avons dñ choisir cette version parceque SMPlayer utilise la
+bibliothäque de widgets Qt, et qu'il s'agit de la derniäre version de
+SMPlayer utilisant Qt3. Les versions plus rÇcentes utilisent Qt4 qui
+n'est pas disponible pour OS/2. Si elle le devenait un jour, nous
+effectuerons le portage Ö partir de la version la plus rÇcente de
+SMPlayer. 
+
+
+2. PRêREQUIS
+============
+
+* klibc 0.6.3 ou ultÇrieure
+
+    ftp://ftp.netlabs.org/pub/gcc/libc-0_6_3-csd3.wpi
+
+* Qt4 dll
+
+    see http://svn.netlabs.org/qt4 for more information whats needed
+
+* MPlayer
+
+    http://hobbes.nmsu.edu/h-search.php?key=mplayer&pushbutton=Search
+
+  AVERTISSEMENT : afin d'utiliser le couple (SMPlayer, Mplayer) de
+                  maniäre optimale, la version la plus rÇcente de
+                  MPlayer (mplayer-dev-SVN-r27724-OS2-4.3.2.zip) est
+                  requise. Les versions antÇrieures ne prennent pas
+                  en charge la mise Ö l'Çchelle, autrement dit, vous
+                  verrez toujours une vidÇo dans sa taille originale,
+                  quel que soit le paramätrage de zoom ou de mode
+                  plein Çcran. 
+
+* Win32 codecs (optionnels)
+
+    http://www.mplayerhq.hu/design7/dload.html#binary_codecs
+
+  MPlayer est capable d'utiliser les DLL Win32 pour les codecs qu'il
+  ne prend pas en charge nativement. 
+
+
+3. INSTALLATION
+===============
+          
+Pour installer SMPlayer, procÇdez comme suit : 
+
+klibc
+-----
+
+  1. TÇlÇchargez klibc 0.6.3 csd3 ou ultÇrieure. 
+  2. Installez le paquetage en double-cliquant sur le fichier WPI. 
+
+Qt4 dll
+-------
+
+  1. Download the package
+  2. Extract all dll to your libpath. preferable x:\ecs\dll or x:\os2\dll where x: is your boot drive
+  3. Install the xsystray plugin as noted in the readme.os2 and also in readme.xsystray
+
+MPlayer
+-------
+
+  1. TÇlÇchargez une version rÇcente de MPlayer. 
+  2. CrÇez un nouveau rÇpertoire pour MPlayer. 
+  3. Extrayez le contenu du paquetage de MPlayer dans ce nouveau
+     rÇpertoire. 
+  4. Copiez le sous-rÇpertoire .mplayer -- si prÇsent -- dans votre
+     rÇpertoire HOME. 
+  4. Pour pouvoir utiliser les sous-titres, copiez une police TrueType
+     de votre choix vers le rÇpertoire %HOME%\.mplayer puis renommez-la
+     en subfont.ttf. 
+
+Codecs Win32
+------------
+
+  1. TÇlÇchargez le paquetage de codecs depuis le site de MPlayer. 
+  2. Placez-vous dans le rÇpertoire d'installation de MPlayer et crÇez
+     un sous-rÇpertoire "codecs". 
+  3. Extrayez le contenu du paquetage tÇlÇchargÇ dans ce rÇpertoire
+     "codecs". 
+
+
+SMPlayer
+--------
+
+  1. CrÇez un rÇpertoire pour SMPlayer. 
+  2. Extrayez le contenu du paquetage de SMPlayer dans ce nouveau
+     rÇpertoire. 
+  3. CrÇez un objet WPS pour le programme smplayer.exe. 
+  4. Lancez SMPlayer. 
+  5. Ouvrez la boåte de dialogue des prÇfÇrences via "Options" >
+     "PrÇfÇrences". 
+  6. Dans le panneau de gauche, sÇlectionnez "GÇnÇral". 
+  7. Sur l'onglet "GÇnÇral", dans le groupe "Chemins", appuyez sur le
+     bouton "Rechercher..." et localisez le fichier exÇcutable
+     mplayer.exe de MPlayer. 
+  8. Dans le groupe "Pilotes de sortie", choisissez "kva" pour "VidÇo"
+     et "dart" pour "Audio". 
+  9. Dans le panneau de gauche, choisissez "Lecteurs". 
+ 10. Dans "Lecteurs", sÇlectionnez vos lecteurs de CD-ROM et de DVD. 
+ 11. Dans le panneau de gauche, sÇlectionnez "Sous-titres". 
+ 12. Dans l'onglet "Police" et dans le groupe "Police", vous pouvez
+     soit choisir directement un fichier de police, soit sÇlectionner
+     l'une des polices installÇes dans votre systäme : 
+     * pour sÇlectionner un fichier de police particulier, sÇlectionnez
+       le bouton radio "Police TTF", cliquez sur "Rechercher..." et
+       localisez le fichier de police TTF que vous voulez utiliser pour
+       les sous-titres. 
+     * Pour sÇlectionner une police installÇe, sÇlectionnez le bouton
+       radio "Police du systäme", cliquez sur "Choisir..." et
+       sÇlectionnez la police que vous voulez utiliser pour les
+       sous-titres. 
+ 13. Pour de plus jolies polices, allez dans l'onglet "Bibliothäque
+     SSA/ASS" et activez l'opton "Utiliser SSA/ASS pour le rendu".
+     Modifiez Çventuellement les attributs de couleurs et de style. 
+ 14. Appuyez sur OK pour quitter la boåte de dialogue des prÇfÇrences. 
+
+Si votre machine est un peu lente, effectuez aussi les manipulations
+suivantes : 
+
+  1. Dans le panneau de gauche des prÇfÇrences, sÇlectionnez
+     "Performance". 
+  2. Dans le groupe "Cache", activez l'option "Utiliser le cache". 
+  3. Cochez l'option "Autoriser le saut d'images". 
+
+Si vous avez une carte son qui ne prend pas en charge l'Çchantillonnage
+Ö 48kHz, effectuez aussi les rÇglages suivants : 
+
+  1. Dans le panneau de gauche des prÇfÇrences, sÇlectionnez "AvancÇ". 
+  2. Dans le champ d'entrÇe "Filtres audio" de l'onglet "AvancÇ",
+     entrez :
+
+       resample=44100:0:1
+
+
+4. LICENCE, COPYRIGHT, RêCLAMATIONS
+===================================
+
+SMPlayer est un copyright (C) 2006 - 2011 de RVM <rvm@escomposlinux.org>.
+
+Le portage OS/2 est un copyright (C) 2008 de Silvan Scherrer.
+
+Ce programme est un gratuiciel ; vous pouvez le redistribuer et/ou
+le modifier selon les termes de la licence Publique GÇnÇrale GNU
+contenue dans le fichier COPYING situÇ dans rÇpertoire d'installation. 
+
+Le code source original est disponible sur : 
+
+  http://smplayer.sourceforge.net
+
+Les modifications pour la version OS/2 sont incluses dans le fichier : 
+
+  smplayer.diff 
+
+Ce programme est distribuÇ dans l'espoir qu'il sera utile Ö quelque
+chose, mais SANS AUCUNE GARANTIE ; sans màme la garantie implicite de
+COMMERCIALISATION ou d'ADêQUATION ∑ UN BUT PARTICULIER. 
+
+Pour plus de dÇtails, veuillez vous rÇfÇrer au fichier COPYING. 
+
+
+5. CONTACT
+==========
+
+Veuillez faire parvenir vos rapports de bogues Ö : 
+
+  ecs@aroa.ch
+
+Seuls les rapports de bogues reproductibles seront acceptÇs ! :-)
+
+
+6. TABLEAU D'HONNEUR
+====================
+
+Le portage a ÇtÇ rÇalisÇ par : 
+
+Silvan Scherrer aka _diver
+
+Mes remerciements Ö : 
+
+  * Yuri Dario
+  * Doodle
+  * KO Myung-Hun
+  * Herwig Bauernfeind
+  * Christian Hennecke
+
+Soit ils m'ont aidÇ Ö rÇpondre Ö mes questions hardues, soit ils ont
+effectuÇ des tests pour moi. 
+
+
+7. SUPPORT ET DONS
+==================
+
+SMPlayer est basÇ sur le volontariat. Si vous voulez supporter les
+dÇveloppements futurs, vous pouvez le faire de l'une des maniäres
+suivantes : 
+
+  * Donate to the Qt4 project: see http://qt.netlabs.org for more information
+
+  * Contribuez au projet : outre le dÇveloppement pur, cela comprend
+    aussi la maintenance de la documentation et du site web du projet,
+    ainsi que l'aide aux utilisateurs. 
+
+
+8. HISTORIQUE DES VERSIONS
+==========================
+
+2010-06-30
+  * fixed a nasty 1 second delay
+
+2010-04-29
+  * updated to Qt4 4.6.2
+  * added support for mplayer -ao kai (latest mplayer version)
+
+2010-01-29
+  * updated to latest Qt4 source
+  * enabled colorkey (thanks to KO Myung-Hun)
+
+2009-11-11
+
+  * fixed hang with broken media
+  * changed to Qt4 beta4
+
+2009-10-22
+
+  * removed requirement for MPlayer DLLs to be in PATH or SMPlayer directory
+    (fixed in Qt)
+  * removed requirement for C:\PSFONTS\helv.pfb (fixed in Qt)
+  * added Screensaver functionality for Doodle Screensaver
+
+2009-10-02
+
+  * beta1 of newest smplayer version with Qt4 support
+
+2009-01-22
+
+  * Correction du plantage lors de la lecture de fichiers audio
+
+2008-11-24
+
+   * Ajout des fichiers readme en allemand et en franáais (traductions de Christian Hennecke et Guillaume Gay respectivement)
+   * Ajout de sympatiques icìnes pour l'exÇcutable et le dossier (rÇalisÇes par David Graser)
+   * Mise Ö jour de la DLL de Qt avec la plus rÇcente version sur SVN
+
+2008-11-04
+
+  * Correction d'un bug dans la DLL Qt qui survenait lors de la lecture depuis une liste de lecture
+  * Renommage des fichiers d'icìnes pour une correspondance avec le comportement du WPS
+
+2008-10-27
+
+  * Avec la version de mplayer la plus rÇcente sur Hobbes, le probläme de redimensionnement a ÇtÇ corrigÇ
+  * Correction d'un bug introduit lors de l'ajout de plus d'extensions de fichiers
+
+2008-10-20
+
+  * Basculement sur une DLL Qt sqt.dll "faite maison" (la derniäre disponible sur svn.netlabs.org/qt)
+  * Ajout de deux autres extensions Ö la boåte de dialogue d'ouverture de fichiers
+
+2008-10-14
+
+  * Version initiale
+

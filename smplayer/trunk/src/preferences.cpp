@@ -59,7 +59,7 @@ void Preferences::reset() {
        General
        ******* */
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	mplayer_bin= "mplayer/mplayer.exe";
 #else
 	mplayer_bin = "mplayer";
@@ -92,7 +92,7 @@ void Preferences::reset() {
 	autoq = 6;
 	add_blackborders_on_fullscreen = false;
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	turn_screensaver_off = false;
 	avoid_screensaver = true;
 #else
@@ -323,7 +323,7 @@ void Preferences::reset() {
 
 	balloon_count = 5;
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	restore_pos_after_fullscreen = true;
 #else
 	restore_pos_after_fullscreen = false;
@@ -495,7 +495,7 @@ void Preferences::save() {
 	set->setValue("autoq", autoq);
 	set->setValue("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen);
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	set->setValue("turn_screensaver_off", turn_screensaver_off);
 	set->setValue("avoid_screensaver", avoid_screensaver);
 #else
@@ -907,7 +907,7 @@ void Preferences::load() {
 	autoq = set->value("autoq", autoq).toInt();
 	add_blackborders_on_fullscreen = set->value("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen).toBool();
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	turn_screensaver_off = set->value("turn_screensaver_off", turn_screensaver_off).toBool();
 	avoid_screensaver = set->value("avoid_screensaver", avoid_screensaver).toBool();
 #else

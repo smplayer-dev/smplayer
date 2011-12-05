@@ -336,3 +336,12 @@ win32 {
 #	}
 }
 
+os2 {
+	DEFINES += SCREENSAVER_OFF
+	INCLUDEPATH += .
+	contains( DEFINES, SCREENSAVER_OFF ) {
+		HEADERS += screensaver.h
+		SOURCES += screensaver.cpp
+	}
+	RC_FILE = smplayer_os2.rc
+}

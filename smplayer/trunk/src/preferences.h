@@ -89,7 +89,7 @@ public:
 	int autoq; 	//!< Postprocessing quality
 	bool add_blackborders_on_fullscreen;
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	bool turn_screensaver_off;
 	bool avoid_screensaver;
 #else

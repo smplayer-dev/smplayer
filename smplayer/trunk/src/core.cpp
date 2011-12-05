@@ -38,9 +38,11 @@
 #include "discname.h"
 #include "filters.h"
 
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
 #include <QSysInfo> // To get Windows version
+#endif
 #ifdef SCREENSAVER_OFF
 #include "screensaver.h"
 #endif
@@ -221,9 +223,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
-#ifdef Q_OS_WIN
+#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
-	// Windows screensaver
+	// Windows or OS2 screensaver
 	win_screensaver = new WinScreenSaver();
 #endif
 #endif
@@ -248,7 +250,7 @@ Core::~Core() {
 	delete tv_settings;
 #endif
 
-#ifdef Q_OS_WIN
+#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 	delete win_screensaver;
 #endif
@@ -1188,9 +1190,9 @@ void Core::processFinished()
 {
     qDebug("Core::processFinished");
 
-#ifdef Q_OS_WIN
+#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
-	// Restores the Windows screensaver
+	// Restores the Windows or OS2 screensaver
 	if (pref->turn_screensaver_off) {
 		win_screensaver->enable();
 	}
@@ -1270,9 +1272,9 @@ void Core::startMplayer( QString file, double seek ) {
 		return;
     } 
 
-#ifdef Q_OS_WIN
+#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
-	// Disable the Windows screensaver
+	// Disable the Windows or OS2 screensaver
 	if (pref->turn_screensaver_off) {
 		win_screensaver->disable();
 	}
@@ -1452,7 +1454,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( pref->ao );
 	}
 
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	if (pref->vo.startsWith("x11")) {
 		proc->addArgument( "-zoom");
 	}
@@ -1516,7 +1518,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-nodouble");
 	}
 
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	if (!pref->use_mplayer_window) {
 		proc->addArgument( "-input" );
 		if (MplayerVersion::isMplayerAtLeast(29058)) {
@@ -1537,11 +1539,16 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (!pref->use_mplayer_window) {
 		proc->addArgument("-wid");
+#if defined(Q_OS_OS2)
+		#define WINIDFROMHWND(hwnd) ( ( hwnd ) - 0x80000000UL )
+		proc->addArgument( QString::number( WINIDFROMHWND( (int) mplayerwindow->videoLayer()->winId() ) ));
+#else
 		proc->addArgument( QString::number( (int) mplayerwindow->videoLayer()->winId() ) );
+#endif
 
 #if USE_COLORKEY
-		#ifdef Q_OS_WIN
-		if ((pref->vo.startsWith("directx")) || (pref->vo.isEmpty())) {
+		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+		if ((pref->vo.startsWith("directx")) || (pref->vo.startsWith("kva")) || (pref->vo.isEmpty())) {
 			proc->addArgument("-colorkey");
 			//proc->addArgument( "0x"+QString::number(pref->color_key, 16) );
 			proc->addArgument( ColorUtils::colorToRGB(pref->color_key) );
@@ -1549,7 +1556,7 @@ void Core::startMplayer( QString file, double seek ) {
 		#endif
 			qDebug("Core::startMplayer: * not using -colorkey for %s", pref->vo.toUtf8().data());
 			qDebug("Core::startMplayer: * report if you can't see the video"); 
-		#ifdef Q_OS_WIN
+		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		}
 		#endif
 #endif
@@ -1599,11 +1606,13 @@ void Core::startMplayer( QString file, double seek ) {
 			}
 		}
 		// Use the same font for OSD
+#if !defined(Q_OS_OS2)
 		if (!pref->ass_styles.fontname.isEmpty()) {
 			proc->addArgument("-fontconfig");
 			proc->addArgument("-font");
 			proc->addArgument( pref->ass_styles.fontname );
 		}
+#endif
 		// Set the size of OSD
 		if (pref->freetype_support) {
 			proc->addArgument("-subfont-autoscale");
@@ -1616,13 +1625,13 @@ void Core::startMplayer( QString file, double seek ) {
 	} else {
 		// NO ASS:
 		if (pref->freetype_support) proc->addArgument("-noass");
-
+#if !defined(Q_OS_OS2)
 		if ( (pref->use_fontconfig) && (!pref->font_name.isEmpty()) ) {
 			proc->addArgument("-fontconfig");
 			proc->addArgument("-font");
 			proc->addArgument( pref->font_name );
 		}
-
+#endif
 		if ( (!pref->use_fontconfig) && (!pref->font_file.isEmpty()) ) {
 			proc->addArgument("-font");
 			proc->addArgument( pref->font_file );

@@ -114,7 +114,7 @@ void MyProcess::genericRead(QByteArray buffer) {
 		QByteArray line = ba.mid(start, pos-start);
 		//ba = ba.mid(pos+1);
 		from_pos = pos + 1;
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		if ((from_pos < ba.size()) && (ba.at(from_pos)=='\n')) from_pos++;
 #endif
 		start = from_pos;

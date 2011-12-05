@@ -48,8 +48,8 @@ void Translator::load(QString locale) {
 	QString trans_path = Paths::translationPath();
 	QString qt_trans_path = Paths::qtTranslationPath();
 
-#ifdef Q_OS_WIN
-	// In windows try to load the qt translation from the app path, as
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	// In windows and OS2 try to load the qt translation from the app path, as
     // most users won't have Qt installed.
 	loadCatalog(qt_trans, "qt", locale, trans_path );
 #else
