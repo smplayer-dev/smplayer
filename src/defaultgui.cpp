@@ -419,15 +419,9 @@ void DefaultGui::retranslateStrings() {
 
 	toolbar_menu->menuAction()->setText( tr("&Toolbars") );
 	toolbar_menu->menuAction()->setIcon( Images::icon("toolbars") );
-	#ifdef FORCE_ICONS_IN_MENUS
-	toolbar_menu->menuAction()->setIconVisibleInMenu(true);
-	#endif
 
 	statusbar_menu->menuAction()->setText( tr("Status&bar") );
 	statusbar_menu->menuAction()->setIcon( Images::icon("statusbar") );
-	#ifdef FORCE_ICONS_IN_MENUS
-	statusbar_menu->menuAction()->setIconVisibleInMenu(true);
-	#endif
 
 	toolbar1->setWindowTitle( tr("&Main toolbar") );
 	toolbar1->toggleViewAction()->setIcon(Images::icon("main_toolbar"));

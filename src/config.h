@@ -141,8 +141,4 @@
 #define USE_MPLAYER_PANSCAN 0
 
 
-#if QT_VERSION >= 0x040400
-#define FORCE_ICONS_IN_MENUS
-#endif
-
 #endif
