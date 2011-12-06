@@ -214,7 +214,7 @@ void PrefGeneral::setData(Preferences * pref) {
 #endif
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-	setDisableFiltersWithVdpau( pref->disable_video_filters_with_vdpau );
+	setDisableFiltersWithVdpau( pref->vdpau_disable_video_filters );
 #endif
 
 	setAudioChannels( pref->initial_audio_channels );
@@ -302,7 +302,7 @@ void PrefGeneral::getData(Preferences * pref) {
 #endif
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-	TEST_AND_SET(pref->disable_video_filters_with_vdpau, disableFiltersWithVdpau());
+	TEST_AND_SET(pref->vdpau_disable_video_filters, disableFiltersWithVdpau());
 #endif
 
 	pref->initial_audio_channels = audioChannels();
