@@ -97,12 +97,14 @@ public:
 #endif
 
 #ifndef Q_OS_WIN
-	bool vdpau_ffh264vdpau;
-	bool vdpau_ffmpeg12vdpau;
-	bool vdpau_ffwmv3vdpau;
-	bool vdpau_ffvc1vdpau;
-	bool vdpau_ffodivxvdpau;
-	bool vdpau_disable_video_filters;
+	struct VDPAU_settings {
+		bool ffh264vdpau;
+		bool ffmpeg12vdpau;
+		bool ffwmv3vdpau;
+		bool ffvc1vdpau;
+		bool ffodivxvdpau;
+		bool disable_video_filters;
+	} vdpau;
 #endif
 
 	// Audio

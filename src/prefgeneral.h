@@ -124,11 +124,6 @@ protected:
 	bool disableScreensaver();
 #endif
 
-#ifndef Q_OS_WIN
-	void setDisableFiltersWithVdpau(bool b);
-	bool disableFiltersWithVdpau();
-#endif
-
 	void setBlackbordersOnFullscreen(bool b);
 	bool blackbordersOnFullscreen();
 
@@ -193,6 +188,10 @@ protected slots:
 	void vo_combo_changed(int);
 	void ao_combo_changed(int);
 
+#ifndef Q_OS_WIN
+	void on_vdpau_button_clicked();
+#endif
+
 protected:
 	virtual void retranslateStrings();
 	void updateDriverCombos();
@@ -213,6 +212,11 @@ protected:
 
 private:
 	bool filesettings_method_changed;
+
+#ifndef Q_OS_WIN
+	struct Preferences::VDPAU_settings vdpau;
+#endif
+
 };
 
 #endif

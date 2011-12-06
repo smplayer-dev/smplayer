@@ -6,7 +6,7 @@
     <x>0</x>
     <y>0</y>
     <width>486</width>
-    <height>533</height>
+    <height>554</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -259,6 +259,13 @@
           <widget class="QLineEdit" name="vo_user_defined_edit" />
          </item>
          <item>
+          <widget class="QPushButton" name="vdpau_button" >
+           <property name="text" >
+            <string>Configure...</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <spacer>
            <property name="orientation" >
             <enum>Qt::Horizontal</enum>
@@ -272,13 +279,6 @@
           </spacer>
          </item>
         </layout>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="vdpau_filters_check" >
-         <property name="text" >
-          <string>Disable video filters when using vd&amp;pau</string>
-         </property>
-        </widget>
        </item>
        <item>
         <widget class="Line" name="line_5" >
@@ -1278,7 +1278,6 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>show_tag_in_title_check</tabstop>
   <tabstop>vo_combo</tabstop>
   <tabstop>vo_user_defined_edit</tabstop>
-  <tabstop>vdpau_filters_check</tabstop>
   <tabstop>postprocessing_check</tabstop>
   <tabstop>autoq_spin</tabstop>
   <tabstop>deinterlace_combo</tabstop>

@@ -100,12 +100,12 @@ void Preferences::reset() {
 #endif
 
 #ifndef Q_OS_WIN
-	vdpau_ffh264vdpau = true;
-	vdpau_ffmpeg12vdpau = true;
-	vdpau_ffwmv3vdpau = true;
-	vdpau_ffvc1vdpau = true;
-	vdpau_ffodivxvdpau = false;
-	vdpau_disable_video_filters = true;
+	vdpau.ffh264vdpau = true;
+	vdpau.ffmpeg12vdpau = true;
+	vdpau.ffwmv3vdpau = true;
+	vdpau.ffvc1vdpau = true;
+	vdpau.ffodivxvdpau = false;
+	vdpau.disable_video_filters = true;
 #endif
 
 	use_soft_vol = true;
@@ -508,12 +508,12 @@ void Preferences::save() {
 #endif
 
 #ifndef Q_OS_WIN
-	set->setValue("vdpau_ffh264vdpau", vdpau_ffh264vdpau);
-	set->setValue("vdpau_ffmpeg12vdpau", vdpau_ffmpeg12vdpau);
-	set->setValue("vdpau_ffwmv3vdpau", vdpau_ffwmv3vdpau);
-	set->setValue("vdpau_ffvc1vdpau", vdpau_ffvc1vdpau);
-	set->setValue("vdpau_ffodivxvdpau", vdpau_ffodivxvdpau);
-	set->setValue("vdpau_disable_video_filters", vdpau_disable_video_filters);
+	set->setValue("vdpau_ffh264vdpau", vdpau.ffh264vdpau);
+	set->setValue("vdpau_ffmpeg12vdpau", vdpau.ffmpeg12vdpau);
+	set->setValue("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau);
+	set->setValue("vdpau_ffvc1vdpau", vdpau.ffvc1vdpau);
+	set->setValue("vdpau_ffodivxvdpau", vdpau.ffodivxvdpau);
+	set->setValue("vdpau_disable_video_filters", vdpau.disable_video_filters);
 #endif
 
 	set->setValue("use_soft_vol", use_soft_vol);
@@ -925,12 +925,12 @@ void Preferences::load() {
 #endif
 
 #ifndef Q_OS_WIN
-	vdpau_ffh264vdpau = set->value("vdpau_ffh264vdpau", vdpau_ffh264vdpau).toBool();
-	vdpau_ffmpeg12vdpau = set->value("vdpau_ffmpeg12vdpau", vdpau_ffmpeg12vdpau).toBool();
-	vdpau_ffwmv3vdpau = set->value("vdpau_ffwmv3vdpau", vdpau_ffwmv3vdpau).toBool();
-	vdpau_ffvc1vdpau = set->value("vdpau_ffvc1vdpau", vdpau_ffvc1vdpau).toBool();
-	vdpau_ffodivxvdpau = set->value("vdpau_ffodivxvdpau", vdpau_ffodivxvdpau).toBool();
-	vdpau_disable_video_filters = set->value("vdpau_disable_video_filters", vdpau_disable_video_filters).toBool();
+	vdpau.ffh264vdpau = set->value("vdpau_ffh264vdpau", vdpau.ffh264vdpau).toBool();
+	vdpau.ffmpeg12vdpau = set->value("vdpau_ffmpeg12vdpau", vdpau.ffmpeg12vdpau).toBool();
+	vdpau.ffwmv3vdpau = set->value("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau).toBool();
+	vdpau.ffvc1vdpau = set->value("vdpau_ffvc1vdpau", vdpau.ffvc1vdpau).toBool();
+	vdpau.ffodivxvdpau = set->value("vdpau_ffodivxvdpau", vdpau.ffodivxvdpau).toBool();
+	vdpau.disable_video_filters = set->value("vdpau_disable_video_filters", vdpau.disable_video_filters).toBool();
 #endif
 
 	use_soft_vol = set->value("use_soft_vol", use_soft_vol).toBool();

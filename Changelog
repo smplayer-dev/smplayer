@@ -1,5 +1,9 @@
 [b]Version 0.6.10[/b]:
 
+(2011-12-06)
+ * Added a vdpau configuration dialog, now it's possible to select which 
+   vdpau codecs to use.
+
 (2011-12-05)
  * Patch by Silvan Scherrer <silvan.scherrer@aroa.ch> to add support for
    eCS, OS/2.
