@@ -23,6 +23,7 @@
 #include "images.h"
 #include "mediasettings.h"
 #include "paths.h"
+#include "vdpauproperties.h"
 
 #if USE_ALSA_DEVICES || USE_DSOUND_DEVICES
 #include "deviceinfo.h"
@@ -60,7 +61,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-	vdpau_filters_check->hide();
+	vdpau_button->hide();
 #endif
 
 	// Channels combo
@@ -214,7 +215,7 @@ void PrefGeneral::setData(Preferences * pref) {
 #endif
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-	setDisableFiltersWithVdpau( pref->vdpau_disable_video_filters );
+	vdpau = pref->vdpau;
 #endif
 
 	setAudioChannels( pref->initial_audio_channels );
@@ -302,7 +303,7 @@ void PrefGeneral::getData(Preferences * pref) {
 #endif
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-	TEST_AND_SET(pref->vdpau_disable_video_filters, disableFiltersWithVdpau());
+	pref->vdpau = vdpau;
 #endif
 
 	pref->initial_audio_channels = audioChannels();
@@ -769,16 +770,6 @@ bool PrefGeneral::disableScreensaver() {
 }
 #endif
 
-#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-void PrefGeneral::setDisableFiltersWithVdpau(bool b) {
-	vdpau_filters_check->setChecked(b);
-}
-
-bool PrefGeneral::disableFiltersWithVdpau() {
-	return vdpau_filters_check->isChecked();
-}
-#endif
-
 void PrefGeneral::setBlackbordersOnFullscreen(bool b) {
 	blackborders_on_fs_check->setChecked(b);
 }
@@ -808,6 +799,11 @@ void PrefGeneral::vo_combo_changed(int idx) {
 	bool visible = (vo_combo->itemData(idx).toString() == "user_defined");
 	vo_user_defined_edit->setShown(visible);
 	vo_user_defined_edit->setFocus();
+
+#ifndef Q_OS_WIN
+	bool vdpau_button_visible = (vo_combo->itemData(idx).toString() == "vdpau");
+	vdpau_button->setShown(vdpau_button_visible);
+#endif
 }
 
 void PrefGeneral::ao_combo_changed(int idx) {
@@ -816,6 +812,32 @@ void PrefGeneral::ao_combo_changed(int idx) {
 	ao_user_defined_edit->setShown(visible);
 	ao_user_defined_edit->setFocus();
 }
+
+#ifndef Q_OS_WIN
+void PrefGeneral::on_vdpau_button_clicked() {
+	qDebug("PrefGeneral::on_vdpau_button_clicked");
+
+	VDPAUProperties d(this);
+
+	d.setffh264vdpau(vdpau.ffh264vdpau);
+	d.setffmpeg12vdpau(vdpau.ffmpeg12vdpau);
+	d.setffwmv3vdpau(vdpau.ffwmv3vdpau);
+	d.setffvc1vdpau(vdpau.ffvc1vdpau);
+	d.setffodivxvdpau(vdpau.ffodivxvdpau);
+
+	d.setDisableFilters(vdpau.disable_video_filters);
+
+	if (d.exec() == QDialog::Accepted) {
+		vdpau.ffh264vdpau = d.ffh264vdpau();
+		vdpau.ffmpeg12vdpau = d.ffmpeg12vdpau();
+		vdpau.ffwmv3vdpau = d.ffwmv3vdpau();
+		vdpau.ffvc1vdpau = d.ffvc1vdpau();
+		vdpau.ffodivxvdpau = d.ffodivxvdpau();
+
+		vdpau.disable_video_filters = d.disableFilters();
+	}
+}
+#endif
 
 void PrefGeneral::createHelp() {
 	clearHelp();
@@ -888,9 +910,11 @@ void PrefGeneral::createHelp() {
 		);
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
+	/*
 	setWhatsThis(vdpau_filters_check, tr("Disable video filters when using vdpau"),
 		tr("Usually video filters won't work when using vdpau as video output "
            "driver, so it's wise to keep this option checked.") );
+	*/
 #endif
 
 	setWhatsThis(postprocessing_check, tr("Enable postprocessing by default"),

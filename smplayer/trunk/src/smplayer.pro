@@ -58,6 +58,7 @@ HEADERS += guiconfig.h \
 	shortcutgetter.h \
 	actionseditor.h \
 	filechooser.h \
+	vdpauproperties.h \
 	preferencesdialog.h \
 	mycombobox.h \
 	tristatecombo.h \
@@ -154,6 +155,7 @@ SOURCES	+= version.cpp \
 	shortcutgetter.cpp \
 	actionseditor.cpp \
 	filechooser.cpp \
+	vdpauproperties.cpp \
 	preferencesdialog.cpp \
 	mycombobox.cpp \
 	tristatecombo.cpp \
@@ -218,7 +220,7 @@ contains(DEFINES, USE_QXT) {
 }
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
-        eqslider.ui seekwidget.ui inputurl.ui \
+        eqslider.ui seekwidget.ui inputurl.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui favoriteeditor.ui \

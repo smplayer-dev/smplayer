@@ -1360,11 +1360,11 @@ void Core::startMplayer( QString file, double seek ) {
 		/* if (pref->vo.startsWith("x11")) { */ // My card doesn't support vdpau, I use x11 to test
 		if (pref->vo.startsWith("vdpau")) {
 			QString c;
-			if (pref->vdpau_ffh264vdpau) c += "ffh264vdpau,";
-			if (pref->vdpau_ffmpeg12vdpau) c += "ffmpeg12vdpau,";
-			if (pref->vdpau_ffwmv3vdpau) c += "ffwmv3vdpau,";
-			if (pref->vdpau_ffvc1vdpau) c += "ffvc1vdpau,";
-			if (pref->vdpau_ffodivxvdpau) c += "ffodivxvdpau,";
+			if (pref->vdpau.ffh264vdpau) c += "ffh264vdpau,";
+			if (pref->vdpau.ffmpeg12vdpau) c += "ffmpeg12vdpau,";
+			if (pref->vdpau.ffwmv3vdpau) c += "ffwmv3vdpau,";
+			if (pref->vdpau.ffvc1vdpau) c += "ffvc1vdpau,";
+			if (pref->vdpau.ffodivxvdpau) c += "ffodivxvdpau,";
 			if (!c.isEmpty()) {
 				proc->addArgument("-vc");
 				proc->addArgument(c);
@@ -1926,7 +1926,7 @@ void Core::startMplayer( QString file, double seek ) {
 	bool force_noslices = false;
 
 #ifndef Q_OS_WIN
-	if ((pref->vdpau_disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
+	if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
 		qDebug("Core::startMplayer: using vdpau, video filters are ignored");
 		goto end_video_filters;
 	}
