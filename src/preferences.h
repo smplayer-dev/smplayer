@@ -97,7 +97,12 @@ public:
 #endif
 
 #ifndef Q_OS_WIN
-	bool disable_video_filters_with_vdpau;
+	bool vdpau_ffh264vdpau;
+	bool vdpau_ffmpeg12vdpau;
+	bool vdpau_ffwmv3vdpau;
+	bool vdpau_ffvc1vdpau;
+	bool vdpau_ffodivxvdpau;
+	bool vdpau_disable_video_filters;
 #endif
 
 	// Audio

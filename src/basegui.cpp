@@ -1388,7 +1388,7 @@ void BaseGui::enableActionsOnPlaying() {
 
 #ifndef Q_OS_WIN
 	// Disable video filters if using vdpau
-	if ((pref->disable_video_filters_with_vdpau) && (pref->vo.startsWith("vdpau"))) {
+	if ((pref->vdpau_disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
 		screenshotAct->setEnabled(false);
 		screenshotsAct->setEnabled(false);
 		flipAct->setEnabled(false);
