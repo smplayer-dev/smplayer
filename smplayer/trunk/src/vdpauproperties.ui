@@ -16,7 +16,7 @@
    <item>
     <widget class="QLabel" name="label" >
      <property name="text" >
-      <string>Select the hardware codecs to use. Not all of them may work.</string>
+      <string>Select the vdpau codecs to use. Not all of them may work.</string>
      </property>
      <property name="wordWrap" >
       <bool>true</bool>
@@ -68,7 +68,7 @@
    <item>
     <widget class="QCheckBox" name="disable_filters_check" >
      <property name="text" >
-      <string>&amp;Disable video filters</string>
+      <string>&amp;Disable software video filters</string>
      </property>
     </widget>
    </item>
