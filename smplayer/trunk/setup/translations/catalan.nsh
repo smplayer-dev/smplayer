@@ -31,10 +31,13 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback. (Interne
 !endif
 
 ${LangFileString} Section_MPlayerCodecs "Binary Codecs"
+!ifdef WITH_CODECS
+${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer."
+!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
-${LangFileString} Section_MPlayerCodecs_Desc_2 "Optional codecs for MPlayer."
+!endif
 
-${LangFileString} Section_MEncoder "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} Section_IconThemes "Icon Themes"
 ${LangFileString} Section_IconThemes_Desc "Additional icon themes for SMPlayer."

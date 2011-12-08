@@ -31,10 +31,13 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; vyžadován pro přehrávání.
 !endif
 
 ${LangFileString} Section_MPlayerCodecs "Binární kodeky"
+!ifdef WITH_CODECS
+${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru."
+!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
-${LangFileString} Section_MPlayerCodecs_Desc_2 "Přídavné kodeky MPlayeru."
+!endif
 
-${LangFileString} Section_MEncoder "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} Section_IconThemes "Témata ikon"
 ${LangFileString} Section_IconThemes_Desc "Přídavná témata ikon pro SMPlayer."
