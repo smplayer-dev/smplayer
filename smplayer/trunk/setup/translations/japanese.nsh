@@ -7,85 +7,84 @@
 !insertmacro LANGFILE "Japanese" "日本語"
 
 ; Startup
-${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "インストーラーは既に実行中です。"
-${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "このプログラムのインストール時には管理者としてログインする必要があります。"
+${LangFileString} Installer_Is_Running "インストーラーは既に実行中です。"
+${LangFileString} Installer_No_Admin "このプログラムのインストール時には管理者としてログインする必要があります。"
 
 ; Components Page
-${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (必須)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer、共有ライブラリ、およびドキュメントです。"
+${LangFileString} ShortcutGroupTitle "ショートカット"
+${LangFileString} MPlayerGroupTitle "MPlayer コンポーネント"
 
-${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "ショートカット"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "デスクトップ"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "デスクトップに SMPlayer へのショートカットを作成します。"
-${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "スタートメニュー"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "SMPlayer の [スタート] メニュー エントリを作成します。"
+${LangFileString} Section_SMPlayer "SMPlayer (必須)"
+${LangFileString} Section_SMPlayer_Desc "SMPlayer、共有ライブラリ、およびドキュメントです。"
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer コンポーネント"
-${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (必須)"
+${LangFileString} Section_DesktopShortcut "デスクトップ"
+${LangFileString} Section_DesktopShortcut_Desc "デスクトップに SMPlayer へのショートカットを作成します。"
+
+${LangFileString} Section_StartMenu "スタートメニュー"
+${LangFileString} Section_StartMenu_Desc "SMPlayer の [スタート] メニュー エントリを作成します。"
+
+${LangFileString} Section_MPlayer "MPlayer (必須)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "再生のために必要な MPlayer です。"
+${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer です。"
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "再生のために必要な MPlayer です。(インストールにはインターネット接続が必要です)"
+${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer です。(インストールにはインターネット接続が必要です)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "バイナリ コーデック"
-${LangFileString} SMPLAYER_SECCODECS_DESC "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
-${LangFileString} SMPLAYER_SECCODECS_DESC_2 "MPlayer のオプション コーデックです。"
 
-${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MPlayerCodecs "バイナリ コーデック"
+${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
+${LangFileString} Section_MPlayerCodecs_Desc_2 "MPlayer のオプション コーデックです。"
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "アイコン テーマ"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "SMPlayer の追加アイコン テーマです。"
+${LangFileString} Section_MEncoder "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "ローカライズ"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "非英語のローカライズです。"
+${LangFileString} Section_IconThemes "アイコン テーマ"
+${LangFileString} Section_IconThemes_Desc "SMPlayer の追加アイコン テーマです。"
 
-${LangFileString} MPLAYER_CODEC_INFORMATION "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
+${LangFileString} Section_Translations "ローカライズ"
+${LangFileString} Section_Translations_Desc "非英語のローカライズです。"
+
+${LangFileString} MPlayer_Codec_Msg "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
 
 ; Upgrade/Reinstall Page
-${LangFileString} REINSTALL_HEADER_TEXT "既にインストールされています"
-${LangFileString} REINSTALL_HEADER_SUBTEXT "SMPlayer をインストールする方法を選択します。"
-${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "実行するメンテナンス オプションを選択します。"
+${LangFileString} Reinstall_Header_Text "Select Install Type"
+${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
 
-${LangFileString} REINSTALL_CHGSETTINGS "設定の変更 (詳細設定)"
-${LangFileString} REINSTALL_UNKNOWN_VALUE "不明な PREVIOUS_VERSION_STATE の値です、中止しています"
+${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
+${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
+${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
+${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
+${LangFileString} Reinstall_Msg3 "Click Start when ready to proceed."
 
-${LangFileString} REINSTALL_OLDVER_DESCRIPTION "お使いのシステムには SMPlayer の古いバージョンがインストールされています。続行するには実行したい操作を選択して [次へ] をクリックします。"
-${LangFileString} REINSTALL_OLDVER_UPGRADE "以前の設定を使用して SMPlayer をアップグレードする (推奨)"
-
-${LangFileString} REINSTALL_NEWVER_DESCRIPTION "SMPlayer の新しいバージョンが既にインストールされています! 古いバージョンへのダウングレードは推奨されません。続行するには実行したい操作を選択して [次へ] をクリックします。"
-${LangFileString} REINSTALL_NEWVER_DOWNGRADE "以前の設定を使用して SMPlayer をダウングレードする (推奨)"
-
-${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} が既にインストールされています。続行するには実行したい操作を選択して [次へ] をクリックします。"
-${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "コンポーネントを追加/削除/再インストールする"
-${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "SMPlayer をアンインストールする"
+${LangFileString} Type_Reinstall "reinstall"
+${LangFileString} Type_Downgrade "downgrade"
+${LangFileString} Type_Upgrade "upgrade"
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_DOWNLOADING "MPlayer をダウンロードしています..."
-${LangFileString} MPLAYER_DL_RETRY "MPlayer は正常にインストールされませんでした。再試行しますか?"
-${LangFileString} MPLAYER_DL_FAILED "MPlayer のダウンロードに失敗しました: '$R0'。"
-${LangFileString} MPLAYER_INST_FAILED "MPlayer のインストールに失敗しました。MPlayer は再生に必要です。"
+${LangFileString} MPlayer_DL_Msg "MPlayer をダウンロードしています..."
+${LangFileString} MPlayer_DL_Retry "MPlayer は正常にインストールされませんでした。再試行しますか?"
+${LangFileString} MPlayer_DL_Failed "MPlayer のダウンロードに失敗しました: '$R0'。"
+${LangFileString} MPlayer_Inst_Failed "MPlayer のインストールに失敗しました。MPlayer は再生に必要です。"
 
 ; Codecs Section
-${LangFileString} CODECS_IS_DOWNLOADING "MPlayer コーデックをダウンロードしています..."
-${LangFileString} CODECS_DL_RETRY "MPlayer コーデックは正常にインストールされませんでした。再試行しますか?"
-${LangFileString} CODECS_DL_FAILED "MPlayer コーデックのダウンロードに失敗しました: '$R0'。"
-${LangFileString} CODECS_INST_FAILED "MPlayer コーデックのインストールに失敗しました。"
+${LangFileString} Codecs_DL_Msg "MPlayer コーデックをダウンロードしています..."
+${LangFileString} Codecs_DL_Retry "MPlayer コーデックは正常にインストールされませんでした。再試行しますか?"
+${LangFileString} Codecs_DL_Failed "MPlayer コーデックのダウンロードに失敗しました: '$R0'。"
+${LangFileString} Codecs_Inst_Failed "MPlayer コーデックのインストールに失敗しました。"
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "バージョン情報をダウンロードしています..."
-${LangFileString} VERINFO_DL_FAILED "バージョン情報のダウンロードに失敗しました: '$R0'。既定のバージョンを使用しています。"
+${LangFileString} VerInfo_DL_Msg "バージョン情報をダウンロードしています..."
+${LangFileString} VerInfo_DL_Failed "バージョン情報のダウンロードに失敗しました: '$R0'。既定のバージョンを使用しています。"
 
 ; Uninstaller
-${LangFileString} UNINSTALL_NO_ADMIN "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
-${LangFileString} UNINSTALL_ABORTED "アンインストールはユーザーによって注視されました。"
-${LangFileString} SMPLAYER_NOT_INSTALLED "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。$\r$\nこのまま続行しますか (推奨されません)?"
+${LangFileString} Uninstaller_No_Admin "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
+${LangFileString} Uninstaller_Aborted "アンインストールはユーザーによって注視されました。"
+${LangFileString} Uninstaller_NotInstalled "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。$\r$\nこのまま続行しますか (推奨されません)?"
 
 ; Vista & Later Default Programs Registration
-${LangFileString} APPLICATION_DESCRIPTION "SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィルター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロントエンドです。"
+${LangFileString} Application_Description "SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィルター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロントエンドです。"
 
 ; Misc
-${LangFileString} INFO_DEL_FILES "Deleting Files..."
-${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
-${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
-${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
-${LangFileString} INFO_FILE_EXTRACT "Extracting files..."
+${LangFileString} Info_Del_Files "Deleting Files..."
+${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
+${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
+${LangFileString} Info_Rest_Assoc "Restoring file associations..."
+${LangFileString} Info_Files_Extract "Extracting files..."

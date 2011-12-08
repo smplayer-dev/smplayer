@@ -96,15 +96,20 @@
 
   Var Codec_Version
   Var Dialog_Reinstall
+  Var Inst_Type
   Var Is_Admin
 !ifndef WITH_MPLAYER
   Var MPlayer_Version
 !endif
   Var Previous_Version
   Var Previous_Version_State
+  Var Reinstall_OverwriteButton
+  Var Reinstall_OverwriteButton_State
   Var Reinstall_Uninstall
   Var Reinstall_UninstallButton
-  Var SMP_StartMenuFolder
+  Var Reinstall_UninstallButton_State
+  Var SMPlayer_Path
+  Var SMPlayer_StartMenuFolder
   Var UserName
 
 ;--------------------------------
@@ -165,25 +170,25 @@
 ;Pages
 
   ;Install pages
-  #Welcome
   !insertmacro MUI_PAGE_WELCOME
-  #License
   !insertmacro MUI_PAGE_LICENSE "smplayer-build\Copying.txt"
+
   #Upgrade/Reinstall
   Page custom PageReinstall PageLeaveReinstall
+
   #Components
   !define MUI_PAGE_CUSTOMFUNCTION_PRE PageComponentsPre
   !insertmacro MUI_PAGE_COMPONENTS
+
   #Install Directory
   !define MUI_PAGE_CUSTOMFUNCTION_PRE PageDirectoryPre
   !insertmacro MUI_PAGE_DIRECTORY
+
   #Start Menu
   !define MUI_PAGE_CUSTOMFUNCTION_PRE PageStartMenuPre
-  !insertmacro MUI_PAGE_STARTMENU "SMP_SMenu" $SMP_StartMenuFolder
-  #Install
-  !define MUI_PAGE_CUSTOMFUNCTION_SHOW PageInstfilesShow
+  !insertmacro MUI_PAGE_STARTMENU "SMP_SMenu" $SMPlayer_StartMenuFolder
+
   !insertmacro MUI_PAGE_INSTFILES
-  #Finish
   !insertmacro MUI_PAGE_FINISH
 
   ;Uninstall pages
@@ -261,9 +266,22 @@
 
 ;--------------------------------
 ;Main SMPlayer files
-Section $(SMPLAYER_SECSMPLAYER_TITLE) SecSMPlayer
+Section $(Section_SMPlayer) SecSMPlayer
 
   SectionIn RO
+
+  ${If} $Reinstall_Uninstall == 1
+
+    ReadRegStr $R0 HKLM ${SMPLAYER_REG_KEY} "Path"
+
+    ${If} $Reinstall_UninstallButton_State == 1
+      Exec '"$R0\uninst.exe" /X'
+      Quit
+    ${ElseIf} $Reinstall_OverwriteButton_State == 1
+      ExecWait '"$R0\uninst.exe" /S /frominstall _?=$INSTDIR'
+    ${EndIf}
+
+  ${EndIf}
 
   SetOutPath "$INSTDIR"
   File "smplayer-build\*"
@@ -284,12 +302,11 @@ Section $(SMPLAYER_SECSMPLAYER_TITLE) SecSMPlayer
   File 7za.exe
 
   ;Initialize to 0 if don't exist (based on error flag)
-  ClearErrors
   ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
   ${If} ${Errors}
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x0
   ${EndIf}
-  ClearErrors
+
   ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
   ${If} ${Errors}
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
@@ -299,23 +316,23 @@ SectionEnd
 
 ;--------------------------------
 ;Shortcuts
-SectionGroup $(SMPLAYER_SHORTCUTGROUP_TITLE)
+SectionGroup $(ShortcutGroupTitle)
 
-  ${MementoSection} $(SMPLAYER_SECDESKTOPSHORTCUT_TITLE) SecDesktopShortcut
+  ${MementoSection} $(Section_DesktopShortcut) SecDesktopShortcut
 
     SetOutPath "$INSTDIR"
     CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
 
   ${MementoSectionEnd}
 
-  ${MementoSection} $(SMPLAYER_SECSTARTMENU_TITLE) SecStartMenuShortcut
+  ${MementoSection} $(Section_StartMenu) SecStartMenuShortcut
 
     SetOutPath "$INSTDIR"
     !insertmacro MUI_STARTMENU_WRITE_BEGIN SMP_SMenu
-      CreateDirectory "$SMPROGRAMS\$SMP_StartMenuFolder"
-      CreateShortCut "$SMPROGRAMS\$SMP_StartMenuFolder\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
-      WriteINIStr    "$SMPROGRAMS\$SMP_StartMenuFolder\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sf.net"
-      CreateShortCut "$SMPROGRAMS\$SMP_StartMenuFolder\Uninstall SMPlayer.lnk" "$INSTDIR\${SMPLAYER_UNINST_EXE}"
+      CreateDirectory "$SMPROGRAMS\$SMPlayer_StartMenuFolder"
+      CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
+      WriteINIStr    "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sf.net"
+      CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\Uninstall SMPlayer.lnk" "$INSTDIR\${SMPLAYER_UNINST_EXE}"
     !insertmacro MUI_STARTMENU_WRITE_END
 
   ${MementoSectionEnd}
@@ -324,9 +341,9 @@ SectionGroupEnd
 
 ;--------------------------------
 ;MPlayer & MPlayer Codecs
-SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
+SectionGroup $(MPlayerGroupTitle)
 
-  Section $(SMPLAYER_SECMPLAYER_TITLE) SecMPlayer
+  Section $(Section_MPlayer) SecMPlayer
 
     SectionIn RO
 
@@ -351,13 +368,13 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
 
     retry_mplayer:
 
-    DetailPrint $(MPLAYER_IS_DOWNLOADING)
+    DetailPrint $(MPlayer_DL_Msg)
     inetc::get /timeout 30000 /resume "" /silent "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
     "$PLUGINSDIR\$MPlayer_Version.7z" /end
     Pop $R0
     StrCmp $R0 OK 0 check_mplayer
 
-    DetailPrint $(INFO_FILE_EXTRACT)
+    DetailPrint $(Info_Files_Extract)
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPlayer_Version.7z" -y -o"$PLUGINSDIR"'
 
     CreateDirectory "$INSTDIR\mplayer"
@@ -366,7 +383,7 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
     check_mplayer:
 
     ${If} $R0 != "OK"
-      DetailPrint $(MPLAYER_DL_FAILED)
+      DetailPrint $(MPlayer_DL_Failed)
     ${EndIf}
 
     IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
@@ -374,14 +391,14 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
         Goto done
       mplayerInstFailed:
-        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPLAYER_DL_RETRY) /SD IDCANCEL IDRETRY retry_mplayer
-        Abort $(MPLAYER_INST_FAILED)
+        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPlayer_DL_Retry) /SD IDCANCEL IDRETRY retry_mplayer
+        Abort $(MPlayer_Inst_Failed)
 
     done:
 !endif
   SectionEnd
 
-  Section /o $(SMPLAYER_SECCODECS_TITLE) SecCodecs
+  Section /o $(Section_MPlayerCodecs) SecCodecs
 
     AddSize 22300
 
@@ -398,13 +415,13 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
 
     retry_codecs:
 
-    DetailPrint $(CODECS_IS_DOWNLOADING)
+    DetailPrint $(Codecs_DL_Msg)
     inetc::get /timeout 30000 /resume "" /silent "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
     "$PLUGINSDIR\$Codec_Version.zip" /end
     Pop $R0
     StrCmp $R0 OK 0 check_codecs
 
-    DetailPrint $(INFO_FILE_EXTRACT)
+    DetailPrint $(Info_Files_Extract)
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$Codec_Version.zip" -y -o"$PLUGINSDIR"'
 
     CreateDirectory "$INSTDIR\mplayer\codecs"
@@ -413,7 +430,7 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
     check_codecs:
 
     ${If} $R0 != "OK"
-      DetailPrint $(CODECS_DL_FAILED)
+      DetailPrint $(Codecs_DL_Failed)
     ${EndIf}
 
     IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
@@ -421,8 +438,8 @@ SectionGroup $(SMPLAYER_MPLAYERGROUP_TITLE)
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
         Goto done
       codecsInstFailed:
-        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(CODECS_DL_RETRY) /SD IDCANCEL IDRETRY retry_codecs
-        DetailPrint $(CODECS_INST_FAILED)
+        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(Codecs_DL_Retry) /SD IDCANCEL IDRETRY retry_codecs
+        DetailPrint $(Codecs_Inst_Failed)
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
         Sleep 5000
 
@@ -434,7 +451,7 @@ SectionGroupEnd
 
 ;--------------------------------
 ;Icon themes
-${MementoSection} $(SMPLAYER_SECTHEMES_TITLE) SecThemes
+${MementoSection} $(Section_IconThemes) SecThemes
 
   SetOutPath "$INSTDIR\themes"
   File /r "smplayer-build\themes\*.*"
@@ -443,7 +460,7 @@ ${MementoSectionEnd}
 
 ;--------------------------------
 ;Translations
-SectionGroup $(SMPLAYER_SECTRANSLATIONS_TITLE) SecTranslations
+SectionGroup $(Section_Translations) SecTranslations
 
   Section "English" SecLang_ENUS
     SectionIn RO
@@ -672,17 +689,17 @@ ${MementoSectionDone}
 ;--------------------------------
 ;Section descriptions
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecSMPlayer} $(SMPLAYER_SECSMPLAYER_DESC)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktopShortcut} $(SMPLAYER_SECDESKTOPSHORTCUT_DESC)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(SMPLAYER_SECSTARTMENU_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecSMPlayer} $(Section_SMPlayer_Desc)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktopShortcut} $(Section_DesktopShortcut_Desc)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(Section_StartMenu_Desc)
 !ifdef WITH_MPLAYER
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(SMPLAYER_SECMPLAYER_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(Section_MPlayer_Desc)
 !else ifndef WITH_MPLAYER
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(SMPLAYER_SECMPLAYER_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(Section_MPlayer_Desc)
 !endif
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecCodecs} $(SMPLAYER_SECCODECS_DESC)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(SMPLAYER_SECTHEMES_DESC)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(SMPLAYER_SECTRANSLATIONS_DESC)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecCodecs} $(Section_MPlayerCodecs_Desc)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(Section_IconThemes_Desc)
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(Section_Translations_Desc)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ;--------------------------------
@@ -749,20 +766,20 @@ ${MementoSectionDone}
 !macro MacroRemoveSMPlayer
   ;Delete desktop and start menu shortcuts
   SetDetailsPrint textonly
-  DetailPrint $(INFO_DEL_SHORTCUTS)
+  DetailPrint $(Info_Del_Shortcuts)
   SetDetailsPrint listonly
 
   SetShellVarContext all
   Delete "$DESKTOP\SMPlayer.lnk"
-  Delete "$SMPROGRAMS\$SMP_StartMenuFolder\SMPlayer.lnk" 
-  Delete "$SMPROGRAMS\$SMP_StartMenuFolder\SMPlayer on the Web.url"
-  Delete "$SMPROGRAMS\$SMP_StartMenuFolder\Uninstall SMPlayer.lnk"
-  RMDir "$SMPROGRAMS\$SMP_StartMenuFolder"
+  Delete "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer.lnk"
+  Delete "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer on the Web.url"
+  Delete "$SMPROGRAMS\$SMPlayer_StartMenuFolder\Uninstall SMPlayer.lnk"
+  RMDir "$SMPROGRAMS\$SMPlayer_StartMenuFolder"
 
   ;Delete directories recursively except for main directory
   ;Do not recursively delete $INSTDIR
   SetDetailsPrint textonly
-  DetailPrint $(INFO_DEL_FILES)
+  DetailPrint $(Info_Del_Files)
   SetDetailsPrint listonly
 
   RMDir /r "$INSTDIR\docs"
@@ -780,7 +797,7 @@ ${MementoSectionDone}
 
   ;Delete registry keys
   SetDetailsPrint textonly
-  DetailPrint $(INFO_DEL_REGISTRY)
+  DetailPrint $(Info_Del_Registry)
   SetDetailsPrint listonly
 
   DeleteRegKey HKLM "${SMPLAYER_REG_KEY}"
@@ -806,14 +823,14 @@ Function .onInit
   Pop $R0
 
   StrCmp $R0 0 +3
-    MessageBox MB_OK|MB_ICONEXCLAMATION $(SMPLAYER_INSTALLER_IS_RUNNING)
+    MessageBox MB_OK|MB_ICONEXCLAMATION $(Installer_Is_Running)
     Abort
 
   ;Check for admin on older OSes
   Call CheckUserRights
 
   ${If} $Is_Admin == 0
-    MessageBox MB_OK|MB_ICONSTOP $(SMPLAYER_INSTALLER_NO_ADMIN)
+    MessageBox MB_OK|MB_ICONSTOP $(Installer_No_Admin)
     Abort
   ${EndIf}
 
@@ -850,12 +867,21 @@ FunctionEnd
 Function CheckPreviousVersion
 
   ReadRegStr $Previous_Version HKLM "${SMPLAYER_REG_KEY}" "Version"
+  ReadRegStr $SMPlayer_Path HKLM "${SMPLAYER_REG_KEY}" "Path"
 
   /* $Previous_Version_State Assignments:
   $Previous_Version_State=0  This installer is the same version as the installed copy
   $Previous_Version_State=1  A newer version than this installer is already installed
   $Previous_Version_State=2  An older version than this installer is already installed */
   ${VersionCompare} $Previous_Version ${SMPLAYER_VERSION} $Previous_Version_State
+
+  ${If} $Previous_Version_State == 0
+    StrCpy $Inst_Type $(Type_Reinstall)
+  ${ElseIf} $Previous_Version_State == 1
+    StrCpy $Inst_Type $(Type_Downgrade)
+  ${ElseIf} $Previous_Version_State == 2
+    StrCpy $Inst_Type $(Type_Upgrade)
+  ${EndIf}
 
 FunctionEnd
 
@@ -886,11 +912,11 @@ FunctionEnd
 Function GetVerInfo
 
   IfFileExists "$PLUGINSDIR\version-info" end_dl_ver_info 0
-    DetailPrint $(VERINFO_IS_DOWNLOADING)
+    DetailPrint $(VerInfo_DL_Msg)
     inetc::get /timeout 30000 /resume "" /silent ${VERSION_FILE_URL} "$PLUGINSDIR\version-info" /end
     Pop $R0
     StrCmp $R0 OK +2
-      DetailPrint $(VERINFO_DL_FAILED)
+      DetailPrint $(VerInfo_DL_Failed)
 
   end_dl_ver_info:
 
@@ -905,7 +931,7 @@ Function LoadPreviousSettings
   ${EndIf}
 
   ;Gets start menu folder name
-  !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMP_StartMenuFolder
+  !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
 
   ${MementoSectionRestore}
 
@@ -914,6 +940,7 @@ FunctionEnd
 Function PageReinstall
 
   ${If} $Previous_Version == ""
+  ${OrIf} $SMPlayer_Path == ""
     Abort
   ${EndIf}
 
@@ -922,62 +949,35 @@ Function PageReinstall
 
   nsDialogs::SetRTL $(^RTL)
 
-  ${If} $Previous_Version_State == 2
+  !insertmacro MUI_HEADER_TEXT $(Reinstall_Header_Text) $(Reinstall_Header_SubText)
 
-    !insertmacro MUI_HEADER_TEXT $(REINSTALL_HEADER_TEXT) $(REINSTALL_HEADER_SUBTEXT)
-    nsDialogs::CreateItem /NOUNLOAD STATIC ${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS} 0 0 0 100% 24u $(REINSTALL_OLDVER_DESCRIPTION)
-    Pop $R0
-    nsDialogs::CreateItem /NOUNLOAD BUTTON ${BS_AUTORADIOBUTTON}|${BS_VCENTER}|${BS_MULTILINE}|${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS}|${WS_GROUP}|${WS_TABSTOP} 0 10u 34u 250u 10u $(REINSTALL_OLDVER_UPGRADE)
-    Pop $Reinstall_UninstallButton
-    nsDialogs::CreateItem /NOUNLOAD BUTTON ${BS_AUTORADIOBUTTON}|${BS_TOP}|${BS_MULTILINE}|${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS} 0 10u 46u 250u 10u $(REINSTALL_CHGSETTINGS)
-    Pop $R0
+  ${NSD_CreateLabel} 0 0 225u 8u $(Reinstall_Msg1)
 
-    ${If} $Reinstall_Uninstall == ""
-      StrCpy $Reinstall_Uninstall 1
-    ${EndIf}
+  ${NSD_CreateText} 10u 15u 290u 14u "$SMPlayer_Path"
+  Pop $R0
 
-  ${ElseIf} $Previous_Version_State == 1
+  ${NSD_CreateLabel} 0 40u 100u 8u $(Reinstall_Msg2)
 
-    !insertmacro MUI_HEADER_TEXT $(REINSTALL_HEADER_TEXT) $(REINSTALL_HEADER_SUBTEXT)
-    nsDialogs::CreateItem /NOUNLOAD STATIC ${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS} 0 0 0 100% 24u $(REINSTALL_NEWVER_DESCRIPTION)
-    Pop $R0
-    nsDialogs::CreateItem /NOUNLOAD BUTTON ${BS_AUTORADIOBUTTON}|${BS_VCENTER}|${BS_MULTILINE}|${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS}|${WS_GROUP}|${WS_TABSTOP} 0 10u 34u 250u 10u $(REINSTALL_NEWVER_DOWNGRADE)
-    Pop $Reinstall_UninstallButton
-    nsDialogs::CreateItem /NOUNLOAD BUTTON ${BS_AUTORADIOBUTTON}|${BS_TOP}|${BS_MULTILINE}|${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS} 0 10u 46u 250u 10u $(REINSTALL_CHGSETTINGS)
-    Pop $R0
+  ${NSD_CreateRadioButton} 10u 58u 200u 8u $(Reinstall_Overwrite)
+  Pop $Reinstall_OverwriteButton
+  ${NSD_CreateRadioButton} 10u 73u 200u 8u $(Reinstall_Uninstall)
+  Pop $Reinstall_UninstallButton
 
-    ${If} $Reinstall_Uninstall == ""
-      StrCpy $Reinstall_Uninstall 1
-    ${EndIf}
+  ${NSD_CreateLabel} 0 115u 100% 16u $(Reinstall_Msg3)
 
-  ${ElseIf} $Previous_Version_State == 0
+  SendMessage $Reinstall_OverwriteButton ${BM_SETCHECK} 1 0
+  EnableWindow $R0 0
 
-    !insertmacro MUI_HEADER_TEXT $(REINSTALL_HEADER_TEXT) $(REINSTALL_HEADER_SUBTEXT_MAINT)
-    nsDialogs::CreateItem /NOUNLOAD STATIC ${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS} 0 0 0 100% 24u $(REINSTALL_SAMEVER_DESCRIPTION)
-    Pop $R0
-    nsDialogs::CreateItem /NOUNLOAD BUTTON ${BS_AUTORADIOBUTTON}|${BS_VCENTER}|${BS_MULTILINE}|${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS}|${WS_GROUP}|${WS_TABSTOP} 0 10u 34u 250u 10u $(REINSTALL_SAMEVER_ADDREMREINST)
-    Pop $R0
-    nsDialogs::CreateItem /NOUNLOAD BUTTON ${BS_AUTORADIOBUTTON}|${BS_TOP}|${BS_MULTILINE}|${WS_VISIBLE}|${WS_CHILD}|${WS_CLIPSIBLINGS} 0 10u 46u 250u 10u $(REINSTALL_SAMEVER_UNINSTSMP)
-    Pop $Reinstall_UninstallButton
-
-    ${If} $Reinstall_Uninstall == ""
-      StrCpy $Reinstall_Uninstall 2
-    ${EndIf}
-
-  ${Else}
-
-    MessageBox MB_ICONSTOP $(REINSTALL_UNKNOWN_VALUE) /SD IDOK
-    Abort
-
-  ${EndIf}
-
-  ${If} $Reinstall_Uninstall == 1
-    SendMessage $Reinstall_UninstallButton ${BM_SETCHECK} 1 0
-  ${Else}
-    SendMessage $R0 ${BM_SETCHECK} 1 0
-  ${EndIf}
+  StrCpy $Reinstall_Uninstall 1
 
   nsDialogs::Show
+
+FunctionEnd
+
+Function PageLeaveReinstall
+
+  ${NSD_GetState} $Reinstall_OverwriteButton $Reinstall_OverwriteButton_State
+  ${NSD_GetState} $Reinstall_UninstallButton $Reinstall_UninstallButton_State
 
 FunctionEnd
 
@@ -1009,37 +1009,6 @@ Function PageStartMenuPre
 
 FunctionEnd
 
-Function PageInstfilesShow
-
-  ${If} $Reinstall_Uninstall != ""
-    Call RunUninstaller
-    BringToFront
-  ${EndIf}
-
-FunctionEnd
-
-Function PageLeaveReinstall
-
-  SendMessage $Reinstall_UninstallButton ${BM_GETCHECK} 0 0 $R0
-  ${If} $R0 == 1
-    ; Option to uninstall old version selected
-    StrCpy $Reinstall_Uninstall 1
-  ${Else}
-    ; Custom up/downgrade or add/remove/reinstall
-    StrCpy $Reinstall_Uninstall 2
-  ${EndIf}
-
-  ${If} $Reinstall_Uninstall == 1
-    ${If} $Previous_Version_State == 0
-      Call RunUninstaller
-      Quit
-    ${Else}
-  ${EndIf}
-
-  ${EndIf}
-
-FunctionEnd
-
 Function RegisterDefaultPrograms
 
   WriteRegStr HKCR "MPlayerFileVideo\DefaultIcon" "" '"$INSTDIR\smplayer.exe",1'
@@ -1049,41 +1018,10 @@ Function RegisterDefaultPrograms
   WriteRegStr HKCR "MPlayerFileVideo\shell\open\command" "" '"$INSTDIR\smplayer.exe" "%1"'
 
   ;Modify the list of extensions added in the MacroAllExtensions macro
-  WriteRegStr HKLM "${SMPLAYER_REG_KEY}\Capabilities" "ApplicationDescription" $(APPLICATION_DESCRIPTION)
+  WriteRegStr HKLM "${SMPLAYER_REG_KEY}\Capabilities" "ApplicationDescription" $(Application_Description)
   WriteRegStr HKLM "${SMPLAYER_REG_KEY}\Capabilities" "ApplicationName" "SMPlayer"
   WriteRegStr HKLM "Software\RegisteredApplications" "SMPlayer" "${SMPLAYER_REG_KEY}\Capabilities"
   !insertmacro MacroAllExtensions WriteRegStrSupportedTypes
-
-FunctionEnd
-
-Function RunUninstaller
-
-  ReadRegStr $R1 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
-
-  ${If} $R1 == ""
-    Return
-  ${EndIf}
-
-  ;Run uninstaller
-  HideWindow
-
-  ClearErrors
-
-  ${If} $Previous_Version_State == 0
-  ${AndIf} $Reinstall_Uninstall == 1
-    ExecWait '$R1 _?=$INSTDIR'
-  ${Else}
-    ExecWait '$R1 /frominstall _?=$INSTDIR'
-  ${EndIf}
-
-  IfErrors no_remove_uninstaller
-
-  IfFileExists "$INSTDIR\${SMPLAYER_UNINST_EXE}" 0 no_remove_uninstaller
-
-    Delete "$R1"
-    RMDir $INSTDIR
-
- no_remove_uninstaller:
 
 FunctionEnd
 
@@ -1093,13 +1031,13 @@ Section Uninstall
 
   ;Make sure SMPlayer is installed from where the uninstaller is being executed.
   IfFileExists $INSTDIR\smplayer.exe smplayer_installed
-    MessageBox MB_YESNO $(SMPLAYER_NOT_INSTALLED) /SD IDNO IDYES smplayer_installed
-    Abort $(UNINSTALL_ABORTED)
+    MessageBox MB_YESNO $(Uninstaller_NotInstalled) /SD IDNO IDYES smplayer_installed
+    Abort $(Uninstaller_Aborted)
 
   smplayer_installed:
 
   SetDetailsPrint textonly
-  DetailPrint $(INFO_REST_ASSOC)
+  DetailPrint $(Info_Rest_Assoc)
   SetDetailsPrint listonly
 
   ;Don't restore file associations if reinstalling
@@ -1131,12 +1069,12 @@ Function un.onInit
   Call un.CheckUserRights
 
   ${If} $Is_Admin == 0
-    MessageBox MB_OK|MB_ICONSTOP $(UNINSTALL_NO_ADMIN)
+    MessageBox MB_OK|MB_ICONSTOP $(Uninstaller_No_Admin)
     Abort
   ${EndIf}
 
   ;Gets start menu folder name
-  !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMP_StartMenuFolder
+  !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
 
   ;Get the stored language preference
   !insertmacro MUI_UNGETLANGUAGE
@@ -1171,7 +1109,7 @@ Function un.ConfirmPagePre
 
   ${un.GetParameters} $R0
 
-  ${un.GetOptions} $R0 "/frominstall" $R1
+  ${un.GetOptionsS} $R0 "/X" $R1
   ${Unless} ${Errors}
     Abort
   ${EndUnless}
@@ -1182,7 +1120,7 @@ Function un.FinishPagePre
 
   ${un.GetParameters} $R0
 
-  ${un.GetOptions} $R0 "/frominstall" $R1
+  ${un.GetOptionsS} $R0 "/X" $R1
   ${Unless} ${Errors}
     Abort
   ${EndUnless}
