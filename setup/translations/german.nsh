@@ -7,85 +7,84 @@
 !insertmacro LANGFILE "German" "Deutsch"
 
 ; Startup
-${LangFileString} SMPLAYER_INSTALLER_IS_RUNNING "Das Installationsprogramm läuft bereits."
-${LangFileString} SMPLAYER_INSTALLER_NO_ADMIN "Es sind Administratorrechte nötig, um dieses Programm zu installieren."
+${LangFileString} Installer_Is_Running "Das Installationsprogramm läuft bereits."
+${LangFileString} Installer_No_Admin "Es sind Administratorrechte nötig, um dieses Programm zu installieren."
 
 ; Components Page
-${LangFileString} SMPLAYER_SECSMPLAYER_TITLE "SMPlayer (erforderlich)"
-${LangFileString} SMPLAYER_SECSMPLAYER_DESC "SMPlayer, dynamische Bibliotheken und Dokumentation."
+${LangFileString} ShortcutGroupTitle "Verknüpfung"
+${LangFileString} MPlayerGroupTitle "MPlayer-Komponenten"
 
-${LangFileString} SMPLAYER_SHORTCUTGROUP_TITLE "Verknüpfung"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_TITLE "Desktop"
-${LangFileString} SMPLAYER_SECDESKTOPSHORTCUT_DESC "Erstellt eine Verknüpfung für SMPlayer auf dem Desktop."
-${LangFileString} SMPLAYER_SECSTARTMENU_TITLE "Startmenü"
-${LangFileString} SMPLAYER_SECSTARTMENU_DESC "Erstellt einen Startmenü-Eintrag für SMPlayer."
+${LangFileString} Section_SMPlayer "SMPlayer (erforderlich)"
+${LangFileString} Section_SMPlayer_Desc "SMPlayer, dynamische Bibliotheken und Dokumentation."
 
-${LangFileString} SMPLAYER_MPLAYERGROUP_TITLE "MPlayer-Komponenten"
-${LangFileString} SMPLAYER_SECMPLAYER_TITLE "MPlayer (erforderlich)"
+${LangFileString} Section_DesktopShortcut "Desktop"
+${LangFileString} Section_DesktopShortcut_Desc "Erstellt eine Verknüpfung für SMPlayer auf dem Desktop."
+
+${LangFileString} Section_StartMenu "Startmenü"
+${LangFileString} Section_StartMenu_Desc "Erstellt einen Startmenü-Eintrag für SMPlayer."
+
+${LangFileString} Section_MPlayer "MPlayer (erforderlich)"
 !ifdef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer – benötigt für die Wiedergabe."
+${LangFileString} Section_MPlayer_Desc "MPlayer – benötigt für die Wiedergabe."
 !else ifndef WITH_MPLAYER
-${LangFileString} SMPLAYER_SECMPLAYER_DESC "MPlayer – benötigt für die Wiedergabe. (Internetverbindung benötigt für Installation)"
+${LangFileString} Section_MPlayer_Desc "MPlayer – benötigt für die Wiedergabe. (Internetverbindung benötigt für Installation)"
 !endif
-${LangFileString} SMPLAYER_SECCODECS_TITLE "Binärcodecs"
-${LangFileString} SMPLAYER_SECCODECS_DESC "Optionale Codecs für MPlayer. (Internetverbindung benötigt für Installation)"
-${LangFileString} SMPLAYER_SECCODECS_DESC_2 "Optionale Codecs für MPlayer."
 
-${LangFileString} SMPLAYER_SECMENCODER_DESC "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MPlayerCodecs "Binärcodecs"
+${LangFileString} Section_MPlayerCodecs_Desc "Optionale Codecs für MPlayer. (Internetverbindung benötigt für Installation)"
+${LangFileString} Section_MPlayerCodecs_Desc_2 "Optionale Codecs für MPlayer."
 
-${LangFileString} SMPLAYER_SECTHEMES_TITLE "Symboldesigns"
-${LangFileString} SMPLAYER_SECTHEMES_DESC "Weitere Symboldesigns für SMPlayer."
+${LangFileString} Section_MEncoder "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
-${LangFileString} SMPLAYER_SECTRANSLATIONS_TITLE "Lokalisierungen"
-${LangFileString} SMPLAYER_SECTRANSLATIONS_DESC "Nicht englische Lokalisierungen."
+${LangFileString} Section_IconThemes "Symboldesigns"
+${LangFileString} Section_IconThemes_Desc "Weitere Symboldesigns für SMPlayer."
 
-${LangFileString} MPLAYER_CODEC_INFORMATION "Binärcodec-Pakete werden eingesetzt für Codecs, die noch nicht nativ implementiert sind – wie neuere Varianten von RealVideo und viele ungewöhnliche Formate.$\nHinweis: Die Pakete sind nicht notwendig, um die gängigsten Formate wiederzugeben (DVD, MPEG-1/2/4, etc.)"
+${LangFileString} Section_Translations "Lokalisierungen"
+${LangFileString} Section_Translations_Desc "Nicht englische Lokalisierungen."
+
+${LangFileString} MPlayer_Codec_Msg "Binärcodec-Pakete werden eingesetzt für Codecs, die noch nicht nativ implementiert sind – wie neuere Varianten von RealVideo und viele ungewöhnliche Formate.$\nHinweis: Die Pakete sind nicht notwendig, um die gängigsten Formate wiederzugeben (DVD, MPEG-1/2/4, etc.)"
 
 ; Upgrade/Reinstall Page
-${LangFileString} REINSTALL_HEADER_TEXT "Bereits installiert"
-${LangFileString} REINSTALL_HEADER_SUBTEXT "Wählen Sie aus, wie SMPlayer installiert werden soll."
-${LangFileString} REINSTALL_HEADER_SUBTEXT_MAINT "Wählen Sie die auszuführende Wartungsoption aus."
+${LangFileString} Reinstall_Header_Text "Select Install Type"
+${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
 
-${LangFileString} REINSTALL_CHGSETTINGS "Einstellungen ändern (Fortgeschritten)"
-${LangFileString} REINSTALL_UNKNOWN_VALUE "Unbekannter Wert von PREVIOUS_VERSION_STATE – Abbruch."
+${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
+${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
+${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
+${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
+${LangFileString} Reinstall_Msg3 "Click Start when ready to proceed."
 
-${LangFileString} REINSTALL_OLDVER_DESCRIPTION "Eine ältere Version von SMPlayer ist auf diesem System installiert. Wählen Sie die Aktion aus, die durchgeführt werden soll und klicken Sie auf Weiter, um fortzufahren."
-${LangFileString} REINSTALL_OLDVER_UPGRADE "SMPlayer mit vorherigen Einstellungen aktualisieren (empfohlen)"
-
-${LangFileString} REINSTALL_NEWVER_DESCRIPTION "Eine neuere Version von SMPlayer ist bereits installiert! Es wird nicht empfohlen eine ältere Version zu installieren. Wählen Sie die Aktion aus, die durchgeführt werden soll und klicken Sie auf Weiter, um fortzufahren."
-${LangFileString} REINSTALL_NEWVER_DOWNGRADE "SMPlayer mit vorherigen Einstellungen herabstufen (downgrade) (empfohlen)"
-
-${LangFileString} REINSTALL_SAMEVER_DESCRIPTION "SMPlayer ${SMPLAYER_VERSION} ist bereits installiert. Wählen Sie die Aktion aus, die durchgeführt werden soll und klicken Sie auf Weiter, um fortzufahren."
-${LangFileString} REINSTALL_SAMEVER_ADDREMREINST "Hinzufügen/Entfernen/Neuinstallation von Komponenten"
-${LangFileString} REINSTALL_SAMEVER_UNINSTSMP "SMPlayer deinstallieren"
+${LangFileString} Type_Reinstall "reinstall"
+${LangFileString} Type_Downgrade "downgrade"
+${LangFileString} Type_Upgrade "upgrade"
 
 ; MPlayer Section
-${LangFileString} MPLAYER_IS_DOWNLOADING "MPlayer herunterladen …"
-${LangFileString} MPLAYER_DL_RETRY "MPlayer ist nicht erfolgreich installiert worden. Erneut versuchen?"
-${LangFileString} MPLAYER_DL_FAILED "Fehler beim Herunterladen von MPlayer: '$R0'."
-${LangFileString} MPLAYER_INST_FAILED "Fehler beim Installieren von MPlayer. MPlayer ist erforderlich für die Wiedergabe."
+${LangFileString} MPlayer_DL_Msg "MPlayer herunterladen …"
+${LangFileString} MPlayer_DL_Retry "MPlayer ist nicht erfolgreich installiert worden. Erneut versuchen?"
+${LangFileString} MPlayer_DL_Failed "Fehler beim Herunterladen von MPlayer: '$R0'."
+${LangFileString} MPlayer_Inst_Failed "Fehler beim Installieren von MPlayer. MPlayer ist erforderlich für die Wiedergabe."
 
 ; Codecs Section
-${LangFileString} CODECS_IS_DOWNLOADING "MPlayer-Codecs herunterladen …"
-${LangFileString} CODECS_DL_RETRY "Die MPlayer-Codecs sind nicht erfolgreich installiert worden. Erneut versuchen?"
-${LangFileString} CODECS_DL_FAILED "Fehler beim Herunterladen der MPlayer-Codecs: '$R0'."
-${LangFileString} CODECS_INST_FAILED "Fehler beim Installieren der MPlayer-Codecs."
+${LangFileString} Codecs_DL_Msg "MPlayer-Codecs herunterladen …"
+${LangFileString} Codecs_DL_Retry "Die MPlayer-Codecs sind nicht erfolgreich installiert worden. Erneut versuchen?"
+${LangFileString} Codecs_DL_Failed "Fehler beim Herunterladen der MPlayer-Codecs: '$R0'."
+${LangFileString} Codecs_Inst_Failed "Fehler beim Installieren der MPlayer-Codecs."
 
 ; Version information
-${LangFileString} VERINFO_IS_DOWNLOADING "Informationen der Version herunterladen …"
-${LangFileString} VERINFO_DL_FAILED "Fehler beim Herunterladen der Versionsinfo: '$R0'. Standard-Version wird genommen."
+${LangFileString} VerInfo_DL_Msg "Informationen der Version herunterladen …"
+${LangFileString} VerInfo_DL_Failed "Fehler beim Herunterladen der Versionsinfo: '$R0'. Standard-Version wird genommen."
 
 ; Uninstaller
-${LangFileString} UNINSTALL_NO_ADMIN "Es sind Administratorrechte nötig, um dieses Programm zu deinstallieren."
-${LangFileString} UNINSTALL_ABORTED "Die Deinstallation ist vom Benutzer abgebrochen worden."
-${LangFileString} SMPLAYER_NOT_INSTALLED "Es scheint, dass SMPlayer nicht im Verzeichnis '$INSTDIR' installiert ist.$\r$\nTrotzdem fortfahren (nicht empfohlen)?"
+${LangFileString} Uninstaller_No_Admin "Es sind Administratorrechte nötig, um dieses Programm zu deinstallieren."
+${LangFileString} Uninstaller_Aborted "Die Deinstallation ist vom Benutzer abgebrochen worden."
+${LangFileString} Uninstaller_NotInstalled "Es scheint, dass SMPlayer nicht im Verzeichnis '$INSTDIR' installiert ist.$\r$\nTrotzdem fortfahren (nicht empfohlen)?"
 
 ; Vista & Later Default Programs Registration
-${LangFileString} APPLICATION_DESCRIPTION "SMPlayer ist ein komplettes grafische Oberfläche für MPlayer, von grundlegenden Funktionen, wie das Abspielen von Videos, DVDs, VCDs, bis zu erweiterten Funktionen, wie die Unterstützung für MPlayer-Filter, edl-Listen und vielem mehr."
+${LangFileString} Application_Description "SMPlayer ist ein komplettes grafische Oberfläche für MPlayer, von grundlegenden Funktionen, wie das Abspielen von Videos, DVDs, VCDs, bis zu erweiterten Funktionen, wie die Unterstützung für MPlayer-Filter, edl-Listen und vielem mehr."
 
 ; Misc
-${LangFileString} INFO_DEL_FILES "Deleting Files..."
-${LangFileString} INFO_DEL_REGISTRY "Deleting Registry Keys..."
-${LangFileString} INFO_DEL_SHORTCUTS "Deleting Shortcuts..."
-${LangFileString} INFO_REST_ASSOC "Restoring file associations..."
-${LangFileString} INFO_FILE_EXTRACT "Extracting files..."
+${LangFileString} Info_Del_Files "Deleting Files..."
+${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
+${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
+${LangFileString} Info_Rest_Assoc "Restoring file associations..."
+${LangFileString} Info_Files_Extract "Extracting files..."
