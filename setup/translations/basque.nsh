@@ -31,10 +31,13 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; beharrezkoa irakurketarako. (In
 !endif
 
 ${LangFileString} Section_MPlayerCodecs "Kodek Binarioak"
+!ifdef WITH_CODECS
+${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayerrentzat."
+!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayerrentzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
-${LangFileString} Section_MPlayerCodecs_Desc_2 "Aukerazko kodekak MPlayerrentzat."
+!endif
 
-${LangFileString} Section_MEncoder "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak"
+${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
 
 ${LangFileString} Section_IconThemes "Ikono Gaiak"
 ${LangFileString} Section_IconThemes_Desc "SMPlayer-entzako ikono gai gehigarriak."

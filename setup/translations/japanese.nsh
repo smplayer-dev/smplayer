@@ -31,10 +31,13 @@ ${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer で�
 !endif
 
 ${LangFileString} Section_MPlayerCodecs "バイナリ コーデック"
+!ifdef WITH_CODECS
+${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。"
+!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
-${LangFileString} Section_MPlayerCodecs_Desc_2 "MPlayer のオプション コーデックです。"
+!endif
 
-${LangFileString} Section_MEncoder "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} Section_IconThemes "アイコン テーマ"
 ${LangFileString} Section_IconThemes_Desc "SMPlayer の追加アイコン テーマです。"

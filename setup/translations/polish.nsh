@@ -31,10 +31,13 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; wymagany do odtwarzania filmów
 !endif
 
 ${LangFileString} Section_MPlayerCodecs "Kodeki"
+!ifdef WITH_CODECS
+${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera."
+!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera. (Wymagane połączenie z internetem)"
-${LangFileString} Section_MPlayerCodecs_Desc_2 "Opcjonalne kodeki do MPlayera."
+!endif
 
-${LangFileString} Section_MEncoder "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
 ${LangFileString} Section_IconThemes "Zesatwy Ikon"
 ${LangFileString} Section_IconThemes_Desc "Dodatkowe zestawy ikon do SMPlayera."
