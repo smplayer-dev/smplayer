@@ -61,6 +61,8 @@ ${LangFileString} Type_Reinstall "reinstall"
 ${LangFileString} Type_Downgrade "downgrade"
 ${LangFileString} Type_Upgrade "upgrade"
 
+${LangFileString} StartBtn "Start"
+
 ; MPlayer Section
 ${LangFileString} MPlayer_DL_Msg "Descargando el MPlayer..."
 ${LangFileString} MPlayer_DL_Retry "El MPlayer no se ha instalado correctamente. ¿Reintentar?"
