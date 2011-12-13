@@ -61,6 +61,8 @@ ${LangFileString} Type_Reinstall "reinstall"
 ${LangFileString} Type_Downgrade "downgrade"
 ${LangFileString} Type_Upgrade "upgrade"
 
+${LangFileString} StartBtn "スタート"
+
 ; MPlayer Section
 ${LangFileString} MPlayer_DL_Msg "MPlayer をダウンロードしています..."
 ${LangFileString} MPlayer_DL_Retry "MPlayer は正常にインストールされませんでした。再試行しますか?"

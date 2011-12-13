@@ -278,7 +278,7 @@ Section $(Section_SMPlayer) SecSMPlayer
       Exec '"$R0\uninst.exe" /X'
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
-      ExecWait '"$R0\uninst.exe" /S /frominstall _?=$INSTDIR'
+      ExecWait '"$R0\uninst.exe" /S /R _?=$INSTDIR'
     ${EndIf}
 
   ${EndIf}
@@ -964,6 +964,9 @@ Function PageReinstall
   SendMessage $Reinstall_OverwriteButton ${BM_SETCHECK} 1 0
   EnableWindow $R0 0
 
+  GetDlgItem $R0 $HWNDPARENT 1
+  SendMessage $R0 ${WM_SETTEXT} 0 "STR:$(StartBtn)"
+
   StrCpy $Reinstall_Uninstall 1
 
   nsDialogs::Show
@@ -1038,7 +1041,7 @@ Section Uninstall
 
   ;Don't restore file associations if reinstalling
   ${un.GetParameters} $R0
-  ${un.GetOptions} $R0 "/frominstall" $R1
+  ${un.GetOptionsS} $R0 "/R" $R1
 
   IfErrors 0 +2
   ExecWait '"$INSTDIR\smplayer.exe" -uninstall'
