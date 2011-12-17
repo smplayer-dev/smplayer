@@ -261,7 +261,7 @@
          <item>
           <widget class="QPushButton" name="vdpau_button" >
            <property name="text" >
-            <string>Configure...</string>
+            <string>Configu&amp;re...</string>
            </property>
           </widget>
          </item>
@@ -1278,6 +1278,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>show_tag_in_title_check</tabstop>
   <tabstop>vo_combo</tabstop>
   <tabstop>vo_user_defined_edit</tabstop>
+  <tabstop>vdpau_button</tabstop>
   <tabstop>postprocessing_check</tabstop>
   <tabstop>autoq_spin</tabstop>
   <tabstop>deinterlace_combo</tabstop>
