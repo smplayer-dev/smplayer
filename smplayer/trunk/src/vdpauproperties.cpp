@@ -22,6 +22,8 @@ VDPAUProperties::VDPAUProperties(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f) 
 {
 	setupUi(this);
+
+	layout()->setSizeConstraint(QLayout::SetFixedSize);
 }
 
 VDPAUProperties::~VDPAUProperties() {
