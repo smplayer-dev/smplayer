@@ -55,7 +55,10 @@ ${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer 
 ${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
 ${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
 ${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
-${LangFileString} Reinstall_Msg3 "Click Start when ready to proceed."
+${LangFileString} Reinstall_Msg3_1 "Click Start when ready to proceed."
+${LangFileString} Reinstall_Msg3_2 "Click Next when ready to proceed."
+${LangFileString} Reinstall_Msg3_3 "Click Uninstall when ready to proceed."
+${LangFileString} Reinstall_Msg4 "Change Installation Settings"
 
 ${LangFileString} Type_Reinstall "reinstall"
 ${LangFileString} Type_Downgrade "downgrade"
