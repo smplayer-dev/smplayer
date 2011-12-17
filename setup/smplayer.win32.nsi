@@ -281,7 +281,11 @@ Section $(Section_SMPlayer) SecSMPlayer
       Exec '"$R0\uninst.exe" /X'
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
-      ExecWait '"$R0\uninst.exe" /S /R'
+      ${If} "$INSTDIR" == "$R0"
+        ExecWait '"$R0\uninst.exe" /S /R _?=$R0'
+      ${Else}
+        ExecWait '"$R0\uninst.exe" /S /R'
+      ${EndIf}
     ${EndIf}
 
   ${EndIf}
