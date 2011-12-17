@@ -103,6 +103,9 @@
 !endif
   Var Previous_Version
   Var Previous_Version_State
+  Var Reinstall_ChgSettings
+  Var Reinstall_ChgSettings_State
+  Var Reinstall_Message
   Var Reinstall_OverwriteButton
   Var Reinstall_OverwriteButton_State
   Var Reinstall_Uninstall
@@ -174,7 +177,7 @@
   !insertmacro MUI_PAGE_LICENSE "smplayer-build\Copying.txt"
 
   #Upgrade/Reinstall
-  Page custom PageReinstall PageLeaveReinstall
+  Page custom PageReinstall PageReinstallLeave
 
   #Components
   !define MUI_PAGE_CUSTOMFUNCTION_PRE PageComponentsPre
@@ -278,7 +281,7 @@ Section $(Section_SMPlayer) SecSMPlayer
       Exec '"$R0\uninst.exe" /X'
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
-      ExecWait '"$R0\uninst.exe" /S /R _?=$INSTDIR'
+      ExecWait '"$R0\uninst.exe" /S /R'
     ${EndIf}
 
   ${EndIf}
@@ -959,13 +962,24 @@ Function PageReinstall
   ${NSD_CreateRadioButton} 10u 73u 200u 8u $(Reinstall_Uninstall)
   Pop $Reinstall_UninstallButton
 
-  ${NSD_CreateLabel} 0 115u 100% 16u $(Reinstall_Msg3)
+  ${NSD_CreateCheckBox} 0 90u 100% 8u $(Reinstall_Msg4)
+  Pop $Reinstall_ChgSettings
+
+  ${NSD_CreateLabel} 0 115u 100% 16u 
+  Pop $Reinstall_Message
 
   SendMessage $Reinstall_OverwriteButton ${BM_SETCHECK} 1 0
   EnableWindow $R0 0
 
-  GetDlgItem $R0 $HWNDPARENT 1
-  SendMessage $R0 ${WM_SETTEXT} 0 "STR:$(StartBtn)"
+  ${If} $Reinstall_ChgSettings_State == 1
+    SendMessage $Reinstall_ChgSettings ${BM_SETCHECK} 1 0
+  ${Endif}
+
+  ${NSD_OnClick} $Reinstall_OverwriteButton PageReinstallUpdate
+  ${NSD_OnClick} $Reinstall_UninstallButton PageReinstallUpdate
+  ${NSD_OnClick} $Reinstall_ChgSettings PageReinstallUpdate
+
+  Call PageReinstallUpdate
 
   StrCpy $Reinstall_Uninstall 1
 
@@ -973,16 +987,51 @@ Function PageReinstall
 
 FunctionEnd
 
-Function PageLeaveReinstall
+Function PageReinstallLeave
 
   ${NSD_GetState} $Reinstall_OverwriteButton $Reinstall_OverwriteButton_State
   ${NSD_GetState} $Reinstall_UninstallButton $Reinstall_UninstallButton_State
+  ${NSD_GetState} $Reinstall_ChgSettings $Reinstall_ChgSettings_State
+
+FunctionEnd
+
+Function PageReinstallUpdate
+
+  ${NSD_GetState} $Reinstall_OverwriteButton $Reinstall_OverwriteButton_State
+  ${NSD_GetState} $Reinstall_UninstallButton $Reinstall_UninstallButton_State
+  ${NSD_GetState} $Reinstall_ChgSettings $Reinstall_ChgSettings_State
+
+  ${If} $Reinstall_OverwriteButton_State == 1
+
+    EnableWindow $Reinstall_ChgSettings 1
+
+    GetDlgItem $R0 $HWNDPARENT 1
+    ${If} $Reinstall_ChgSettings_State != 1
+      SendMessage $R0 ${WM_SETTEXT} 0 "STR:$(StartBtn)"
+      ${NSD_SetText} $Reinstall_Message $(Reinstall_Msg3_1)
+    ${ElseIf} $Reinstall_ChgSettings_State == 1
+      SendMessage $R0 ${WM_SETTEXT} 0 "STR:$(^NextBtn)"
+      ${NSD_SetText} $Reinstall_Message $(Reinstall_Msg3_2)
+    ${EndIf}
+
+  ${ElseIf} $Reinstall_UninstallButton_State == 1
+
+    EnableWindow $Reinstall_ChgSettings 0
+    ${NSD_SetState} $Reinstall_ChgSettings 0
+
+    GetDlgItem $R0 $HWNDPARENT 1
+    SendMessage $R0 ${WM_SETTEXT} 0 "STR:$(^UninstallBtn)"
+
+    ${NSD_SetText} $Reinstall_Message $(Reinstall_Msg3_3)
+
+  ${EndIf}
 
 FunctionEnd
 
 Function PageComponentsPre
 
   ${If} $Reinstall_Uninstall == 1
+  ${AndIf} $Reinstall_ChgSettings_State != 1
     Abort
   ${EndIf}
 
@@ -991,6 +1040,7 @@ FunctionEnd
 Function PageDirectoryPre
 
   ${If} $Reinstall_Uninstall == 1
+  ${AndIf} $Reinstall_ChgSettings_State != 1
     Abort
   ${EndIf}
 
@@ -999,6 +1049,7 @@ FunctionEnd
 Function PageStartMenuPre
 
   ${If} $Reinstall_Uninstall == 1
+  ${AndIf} $Reinstall_ChgSettings_State != 1
     Abort
   ${EndIf}
 
