@@ -828,6 +828,10 @@ void BaseGui::createActions() {
 	connect( showTipsAct, SIGNAL(triggered()),
              this, SLOT(helpTips()) );
 
+	donateAct = new MyAction( this, "donate" );
+	connect( donateAct, SIGNAL(triggered()),
+             this, SLOT(helpDonate()) );
+
 	aboutQtAct = new MyAction( this, "about_qt" );
 	connect( aboutQtAct, SIGNAL(triggered()),
              this, SLOT(helpAboutQt()) );
@@ -1603,6 +1607,7 @@ void BaseGui::retranslateStrings() {
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showTipsAct->change( Images::icon("tips"), tr("&Tips") );
+	donateAct->change( Images::icon("donate"), tr("&Donate") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
@@ -2453,6 +2458,7 @@ void BaseGui::createMenus() {
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addAction(showTipsAct);
+	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
@@ -3654,6 +3660,15 @@ void BaseGui::helpCLOptions() {
 
 void BaseGui::helpTips() {
 	QDesktopServices::openUrl( QUrl("http://smplayer.berlios.de/forum/viewforum.php?f=12") );
+}
+
+void BaseGui::helpDonate() {
+	QMessageBox d(QMessageBox::NoIcon, tr("Donate"), 
+		tr("If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.") + "<br>" +
+        tr("You can send your donation using %1.").arg("<a href=\"https://sourceforge.net/donate/index.php?group_id=185512\">"+tr("this form")),
+		QMessageBox::Ok, this);
+	d.setIconPixmap( Images::icon("logo", 64) );
+	d.exec();
 }
 
 void BaseGui::helpAbout() {

@@ -60,11 +60,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		tr("Visit our web for updates:") +"<br>"+ 
         link("http://smplayer.sf.net") + 
         "<br><br>" +
-		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forum") +
-        "<br><br>" +
-		tr("You can support SMPlayer by making a donation.") +" "+
-		link("https://sourceforge.net/donate/index.php?group_id=185512", tr("More info"))
-		//link("http://www.qt-apps.org/content/donate.php?content=61041", tr("More info"))
+		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forum")
 	);
 
 
