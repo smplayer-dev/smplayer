@@ -1732,7 +1732,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="3667"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation>Si te gusta SMPlayer, una buena manera de apoyarlo es mediante una donación, incluso la más pequeña es enormemente apreciada.</translation>
+        <translation>Si te gusta SMPlayer, una buena manera de incentivar su desarrollo es haciendo una donación, incluso la más pequeña se agradece enormemente.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3668"/>
