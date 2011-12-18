@@ -4064,7 +4064,7 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="357"/>
+        <location filename="../prefadvanced.cpp" line="368"/>
         <source>Advanced</source>
         <translation>高级</translation>
     </message>
@@ -4084,7 +4084,7 @@ Do you want to overwrite?</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="325"/>
+        <location filename="../prefadvanced.ui" line="332"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -4093,7 +4093,7 @@ Example: -flip -nosound</source>
 实例：-flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="394"/>
+        <location filename="../prefadvanced.ui" line="401"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -4102,34 +4102,34 @@ Example: scale=512:-2,eq2=1.1</source>
 实例：scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="463"/>
+        <location filename="../prefadvanced.ui" line="470"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>最后是音频滤镜。和视频滤镜的规则一样。
 实例：resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="456"/>
+        <location filename="../prefadvanced.cpp" line="472"/>
         <source>Log MPlayer output</source>
         <translation>记录 MPlayer 输出</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="445"/>
+        <location filename="../prefadvanced.cpp" line="461"/>
         <source>Log SMPlayer output</source>
         <translation>记录 SMPlayer 输出</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="725"/>
+        <location filename="../prefadvanced.ui" line="732"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>这个选项主要用于调试应用程序。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="399"/>
+        <location filename="../prefadvanced.cpp" line="410"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>选中此选项可能会减少闪烁，但它也可能导致视频无法正确显示。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="472"/>
+        <location filename="../prefadvanced.cpp" line="488"/>
         <source>Filter for SMPlayer logs</source>
         <translation>过滤 SMPlayer 日志</translation>
     </message>
@@ -4144,17 +4144,17 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>让 MPlayer 在自己的窗口中运行(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="357"/>
+        <location filename="../prefadvanced.ui" line="364"/>
         <source>&amp;Options:</source>
         <translation>选项(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="426"/>
+        <location filename="../prefadvanced.ui" line="433"/>
         <source>V&amp;ideo filters:</source>
         <translation>视频滤镜(&amp;I):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="494"/>
+        <location filename="../prefadvanced.ui" line="501"/>
         <source>Audio &amp;filters:</source>
         <translation>音频滤镜(&amp;F):</translation>
     </message>
@@ -4164,12 +4164,12 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>色键(&amp;C):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="590"/>
+        <location filename="../prefadvanced.ui" line="597"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>记录 SMPlayer 输出(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="735"/>
+        <location filename="../prefadvanced.ui" line="742"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>过滤 SMPlayer 日志(&amp;F):</translation>
     </message>
@@ -4179,52 +4179,52 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>更改(&amp;H)...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="459"/>
         <source>Logs</source>
         <translation>日志</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="641"/>
+        <location filename="../prefadvanced.ui" line="648"/>
         <source>Log MPlayer &amp;output</source>
         <translation>记录 MPlayer 输出(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="304"/>
+        <location filename="../prefadvanced.ui" line="311"/>
         <source>Options for MP&amp;layer</source>
         <translation>MPlayer 选项(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="462"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>Autosave MPlayer log</source>
         <translation>自动保存 MPlayer 日志</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="466"/>
+        <location filename="../prefadvanced.cpp" line="482"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>如果这个选项被选中，每次开始播放新文件时 MPlayer 日志将被保存到指定的文件。它是用于外部程序的，这样外部程序可以获取有关您正在播放文件的信息。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="468"/>
+        <location filename="../prefadvanced.cpp" line="484"/>
         <source>Autosave MPlayer log filename</source>
         <translation>自动保存 MPlayer 日志的文件名</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="470"/>
+        <location filename="../prefadvanced.cpp" line="486"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>在此输入将被用于保存 MPlayer 日志的路径和文件名。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="689"/>
+        <location filename="../prefadvanced.ui" line="696"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>自动保存 MPlayer 日志到文件(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="388"/>
+        <location filename="../prefadvanced.cpp" line="399"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>传送短文件名（8+3）至 MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="392"/>
+        <location filename="../prefadvanced.cpp" line="403"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>目前 MPlayer 无法打开包含本地代码页以外字符的文件名。选中此选项 SMPlayer 将生成短文版的文件名传送至 MPlayer，从而使其能够打开它们。</translation>
     </message>
@@ -4234,72 +4234,72 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>传送短文件名（8+3）至 MPlayer (&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="359"/>
+        <location filename="../prefadvanced.cpp" line="370"/>
         <source>Monitor aspect</source>
         <translation>显示器纵横比</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="360"/>
+        <location filename="../prefadvanced.cpp" line="371"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>选择您的显示器的纵横比。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="362"/>
+        <location filename="../prefadvanced.cpp" line="373"/>
         <source>Run MPlayer in its own window</source>
         <translation>让 MPlayer 在自己的窗口中运行</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="379"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>如果选中此选项，MPlayer 的视频窗口将不会被嵌入到 SMPlayer 的主窗口中，它会使用其自己的窗口。请注意，鼠标和键盘事件将可直接由 MPlayer 处理，这意味着当焦点在 MPlayer 窗口时快捷键和鼠标点击动作很可能无法按预期工作。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="403"/>
+        <location filename="../prefadvanced.cpp" line="414"/>
         <source>Colorkey</source>
         <translation>色键</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="406"/>
+        <location filename="../prefadvanced.cpp" line="417"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>如果您看到视频部分出现在任何其他窗口上，您可以通过更改色键来修复它。请尽量选中接近黑色的颜色。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="421"/>
+        <location filename="../prefadvanced.cpp" line="437"/>
         <source>Options for MPlayer</source>
         <translation>MPlayer 选项</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="423"/>
+        <location filename="../prefadvanced.cpp" line="439"/>
         <source>Options</source>
         <translation>选项</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="425"/>
+        <location filename="../prefadvanced.cpp" line="441"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>您可以在这里键入 MPlayer 选项。请用空格分开写入它们。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="427"/>
+        <location filename="../prefadvanced.cpp" line="443"/>
         <source>Video filters</source>
         <translation>视频滤镜</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="429"/>
+        <location filename="../prefadvanced.cpp" line="445"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>您可以在这里添加 MPlayer 视频滤镜。请用逗号分开写入它们。不要使用空格!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="431"/>
+        <location filename="../prefadvanced.cpp" line="447"/>
         <source>Audio filters</source>
         <translation>音频滤镜</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="433"/>
+        <location filename="../prefadvanced.cpp" line="449"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>您可以在这里添加 MPlayer 音频滤镜。请用逗号分开写入它们。不要使用空格!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="397"/>
+        <location filename="../prefadvanced.cpp" line="408"/>
         <source>Repaint the background of the video window</source>
         <translation>重绘视频窗口背景</translation>
     </message>
@@ -4309,47 +4309,47 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>重绘视频窗口背景(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="437"/>
+        <location filename="../prefadvanced.cpp" line="453"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="438"/>
+        <location filename="../prefadvanced.cpp" line="454"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>使用 IPv4 网络连接。失败后自动使用 IPv6。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="456"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="441"/>
+        <location filename="../prefadvanced.cpp" line="457"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>使用 IPv6 网络连接。失败后自动使用 IPv4。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="532"/>
+        <location filename="../prefadvanced.ui" line="539"/>
         <source>Network Connection</source>
         <translation>网络连接</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="553"/>
+        <location filename="../prefadvanced.ui" line="560"/>
         <source>IPv&amp;4</source>
         <translation>IPv4(&amp;4)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="560"/>
+        <location filename="../prefadvanced.ui" line="567"/>
         <source>IPv&amp;6</source>
         <translation>IPv6(&amp;6)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="584"/>
+        <location filename="../prefadvanced.ui" line="591"/>
         <source>Lo&amp;gs</source>
         <translation>日志(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="370"/>
+        <location filename="../prefadvanced.cpp" line="381"/>
         <source>Rebuild index if needed</source>
         <translation>需要时重建索引</translation>
     </message>
@@ -4359,47 +4359,47 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>需要时重建索引(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="450"/>
+        <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>如果这个选项被选中，SMPlayer 将存储其输出的调试信息（您可以通过打开&lt;b&gt;选项-&gt;查看日志-&gt;SMPlayer&lt;/b&gt;看到它）。如果您找到了一个 Bug，这些信息将对开发人员很有用。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="460"/>
+        <location filename="../prefadvanced.cpp" line="476"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>如果选中，SMPlayer 将存储 MPlayer 的输出（您可以通过打开&lt;b&gt;选项-&gt;查看日志-&gt;MPlayer&lt;/b&gt;看到它)。如果出现问题，这个日志中包含有可备查用的重要信息，因此建议保留选中此选项。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="476"/>
+        <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>此选项允许过滤将要被存储在日志中的 SMPlayer 信息。您可以在这里写入任何正则表达式。&lt;br&gt;例如：&lt;i&gt;^Core::..*&lt;/i&gt; 将只显示以 &lt;i&gt;Core::&lt;/i&gt; 开始的行</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="377"/>
+        <location filename="../prefadvanced.cpp" line="388"/>
         <source>Correct pts</source>
         <translation>修正 PTS</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="385"/>
+        <location filename="../prefadvanced.cpp" line="396"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>切换 MPlayer 到试验模式，其中视频帧的时间戳计算不同，且支持视频滤镜添加新的帧或修改已有的时间戳。可以看到更精确的时间戳，例如通过启用 SSA/ASS 库修改播放字幕与场景同步。如果没有修正 PTS，字幕同步通常会被某些帧关闭。此选项不能与某些分离器和编解码器一起正常工作。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="409"/>
+        <location filename="../prefadvanced.cpp" line="420"/>
         <source>Actions list</source>
         <translation>动作列表</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="415"/>
+        <location filename="../prefadvanced.cpp" line="426"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>在这里您可以指定在每个文件被打开时将执行的&lt;i&gt;动作&lt;/i&gt;列表。您可以在&lt;b&gt;鼠标和键盘&lt;/b&gt;的快捷键编辑器中查找所有可用的动作。动作之间必需用空格隔开。可以在动作后面用 &lt;i&gt;true&lt;/i&gt; 或 &lt;i&gt;false&lt;/i&gt; 来启用或禁用它们。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="419"/>
+        <location filename="../prefadvanced.cpp" line="430"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation>限制：只有当文件被打开时才会执行动作，MPlayer 进程重启时动作是无效的（例如您选择音频或视频滤镜时）。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="435"/>
+        <location filename="../prefadvanced.cpp" line="451"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
@@ -4409,17 +4409,17 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>每次打开文件时执行以下动作。动作之间必需用空格隔开(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="526"/>
+        <location filename="../prefadvanced.ui" line="533"/>
         <source>&amp;Network</source>
         <translation>网络(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="416"/>
+        <location filename="../prefadvanced.cpp" line="427"/>
         <source>Example:</source>
         <translation>实例:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="375"/>
+        <location filename="../prefadvanced.cpp" line="386"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>在没有找到索引的情况下重建索引文件，从而允许定位。对于损坏、未完成下载或制作低劣的文件有用。此选项仅对原本支持定位的媒体有效（即不能是 stdin、pipe 等）。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt;创建索引可能需要一些时间。</translation>
     </message>
@@ -4429,24 +4429,39 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>修正 PTS(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="682"/>
+        <location filename="../prefadvanced.ui" line="689"/>
         <source>&amp;Verbose</source>
         <translation>详细信息(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="452"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Save SMPlayer log to file</source>
         <translation>保存 SMPlayer 日志到文件</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="454"/>
+        <location filename="../prefadvanced.cpp" line="470"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>如果这个选项被选中，SMPlayer 日志将被记录到 %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="631"/>
+        <location filename="../prefadvanced.ui" line="638"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
         <translation>保存 SMPlayer 日志到一个文件(&amp;V)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="432"/>
+        <source>Show tag info in window title</source>
+        <translation type="unfinished">窗口标题中显示标签信息</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="435"/>
+        <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="287"/>
+        <source>Show tag in&amp;fo in window title</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4608,7 +4623,7 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="845"/>
+        <location filename="../prefgeneral.cpp" line="835"/>
         <source>General</source>
         <translation>常规</translation>
     </message>
@@ -4623,27 +4638,27 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>媒体设置</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1064"/>
+        <location filename="../prefgeneral.cpp" line="1050"/>
         <source>Preferred audio and subtitles</source>
         <translation>首选音频和字幕</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="897"/>
+        <location filename="../prefgeneral.cpp" line="883"/>
         <source>Video</source>
         <translation>视频</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="959"/>
+        <location filename="../prefgeneral.cpp" line="945"/>
         <source>Start videos in fullscreen</source>
         <translation>以全屏启动视频</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="985"/>
+        <location filename="../prefgeneral.cpp" line="971"/>
         <source>Disable screensaver</source>
         <translation>禁用屏幕保护程序</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="992"/>
+        <location filename="../prefgeneral.cpp" line="978"/>
         <source>Audio</source>
         <translation>音频</translation>
     </message>
@@ -4668,92 +4683,92 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>选择一个目录</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="847"/>
+        <location filename="../prefgeneral.cpp" line="837"/>
         <source>MPlayer executable</source>
         <translation>MPlayer 可执行文件</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="878"/>
+        <location filename="../prefgeneral.cpp" line="868"/>
         <source>Screenshots folder</source>
         <translation>屏幕截图文件夹</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="892"/>
         <source>Show tag info in window title</source>
-        <translation>窗口标题中显示标签信息</translation>
+        <translation type="obsolete">窗口标题中显示标签信息</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
         <source>If this option is enabled, information from tags will be shown in  window title.</source>
-        <translation>如果启用该选项，标签信息将被显示在窗口标题上。</translation>
+        <translation type="obsolete">如果启用该选项，标签信息将被显示在窗口标题上。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="899"/>
+        <location filename="../prefgeneral.cpp" line="885"/>
         <source>Video output driver</source>
         <translation>视频输出驱动</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="994"/>
+        <location filename="../prefgeneral.cpp" line="980"/>
         <source>Audio output driver</source>
         <translation>音频输出驱动</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="996"/>
+        <location filename="../prefgeneral.cpp" line="982"/>
         <source>Select the audio output driver.</source>
         <translation>选择音频输出驱动。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="855"/>
+        <location filename="../prefgeneral.cpp" line="845"/>
         <source>Remember settings</source>
         <translation>记住设置</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1066"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Preferred audio language</source>
         <translation>首选音频语言</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>Preferred subtitle language</source>
         <translation>首选字幕语言</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="937"/>
+        <location filename="../prefgeneral.cpp" line="923"/>
         <source>Software video equalizer</source>
         <translation>软件视频均衡器</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="941"/>
+        <location filename="../prefgeneral.cpp" line="927"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>如果您的显示卡或选择的视频输出驱动不支持视频均衡器，您可以选中此选项。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt;此选项可能与某些视频输出驱动不兼容。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="961"/>
+        <location filename="../prefgeneral.cpp" line="947"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>如果这个选项被选中，所有视频将以全屏模式启动播放。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1043"/>
+        <location filename="../prefgeneral.cpp" line="1029"/>
         <source>Software volume control</source>
         <translation>软件音量控制</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>选中此选项可使用软件混音器，这将替代声卡混音器。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="923"/>
+        <location filename="../prefgeneral.cpp" line="909"/>
         <source>Postprocessing quality</source>
         <translation>后处理品质</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="926"/>
+        <location filename="../prefgeneral.cpp" line="912"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>根据可用的 CPU 空闲时间动态更改后处理的级别。您指定的数字将被作为最高级别使用。通常您可以使用大一些的数字以提高级别。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1091"/>
+        <location filename="../prefgeneral.ui" line="1084"/>
         <source>&amp;Audio:</source>
         <translation>音频(&amp;A):</translation>
     </message>
@@ -4763,87 +4778,87 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>记住所有文件的设置（音轨，字幕...）(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1110"/>
+        <location filename="../prefgeneral.ui" line="1103"/>
         <source>Su&amp;btitles:</source>
         <translation>字幕(&amp;B):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="336"/>
+        <location filename="../prefgeneral.ui" line="329"/>
         <source>&amp;Quality:</source>
         <translation>品质(&amp;Q):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="203"/>
         <source>Show tag &amp;info in window title</source>
-        <translation>窗口标题中显示标签信息(&amp;I)</translation>
+        <translation type="obsolete">窗口标题中显示标签信息(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="510"/>
+        <location filename="../prefgeneral.ui" line="503"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>以全屏启动视频(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="524"/>
+        <location filename="../prefgeneral.ui" line="517"/>
         <source>Disable &amp;screensaver</source>
         <translation>禁用屏幕保护程序(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="786"/>
+        <location filename="../prefgeneral.ui" line="779"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>使用软件音量控制(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="809"/>
+        <location filename="../prefgeneral.ui" line="802"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>最大放大率(&amp;X):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="640"/>
+        <location filename="../prefgeneral.ui" line="633"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS 通过 S/PDIF 输出(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="943"/>
+        <location filename="../prefgeneral.cpp" line="929"/>
         <source>Direct rendering</source>
         <translation>直接渲染</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="948"/>
+        <location filename="../prefgeneral.cpp" line="934"/>
         <source>Double buffering</source>
         <translation>双缓冲</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="476"/>
+        <location filename="../prefgeneral.ui" line="469"/>
         <source>D&amp;irect rendering</source>
         <translation>直接渲染(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="483"/>
+        <location filename="../prefgeneral.ui" line="476"/>
         <source>Dou&amp;ble buffering</source>
         <translation>双缓冲(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="951"/>
+        <location filename="../prefgeneral.cpp" line="937"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>双缓冲通过在内存中存储两帧来解决闪烁问题，在显示一帧的同时解码另一帧。如果禁用它会负面影响 OSD，但常常能去除 OSD 的闪烁。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="316"/>
+        <location filename="../prefgeneral.ui" line="309"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>默认启用后处理(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="837"/>
+        <location filename="../prefgeneral.ui" line="830"/>
         <source>Volume &amp;normalization by default</source>
         <translation>默认音量标准化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="883"/>
+        <location filename="../prefgeneral.cpp" line="873"/>
         <source>Close when finished</source>
         <translation>完成后关闭</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="885"/>
+        <location filename="../prefgeneral.cpp" line="875"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>如果这个选项被选中，主窗口将在当前文件/播放列表播放完成后自动关闭。</translation>
     </message>
@@ -4863,7 +4878,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>6（5.1 环绕）</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="664"/>
+        <location filename="../prefgeneral.ui" line="657"/>
         <source>C&amp;hannels by default:</source>
         <translation>默认通道(&amp;H):</translation>
     </message>
@@ -4873,92 +4888,92 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>最小化时暂停(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="887"/>
+        <location filename="../prefgeneral.cpp" line="877"/>
         <source>Pause when minimized</source>
         <translation>最小化时暂停</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="920"/>
+        <location filename="../prefgeneral.cpp" line="906"/>
         <source>Enable postprocessing by default</source>
         <translation>默认启用后处理</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>Max. Amplification</source>
         <translation>最大放大率</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1017"/>
+        <location filename="../prefgeneral.cpp" line="1003"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS 通过 S/PDIF 输出</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1054"/>
+        <location filename="../prefgeneral.cpp" line="1040"/>
         <source>Volume normalization by default</source>
         <translation>默认音量标准化</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1041"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>声音没有失真的最大音量。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="1008"/>
         <source>Channels by default</source>
         <translation>默认通道</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1052"/>
+        <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>以百分比设置最大放大率级别（默认：110）。该值为200时允许您调整的音量最大达到目前级别的两倍。该值低于100时，初始音量（为100%）会高于设置的最大值，这时例如 OSD 将不能正确显示。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="921"/>
+        <location filename="../prefgeneral.cpp" line="907"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>新打开文件时后处理将被默认使用。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Audio track</source>
         <translation>音轨</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1076"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>指定播放新文件时将被使用的默认音轨。如果所选轨道不存在，将使用第一个轨道。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt;&lt;i&gt;“首选音频语言”&lt;/i&gt;优先于此选项。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1092"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Subtitle track</source>
         <translation>字幕轨道</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>指定播放新文件时将被使用的默认字幕轨道。如果所选轨道不存在，将使用第一个轨道。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt;&lt;i&gt;“首选字幕语言”优先于此选项。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1231"/>
+        <location filename="../prefgeneral.ui" line="1224"/>
         <source>Or choose a track number:</source>
         <translation>或选择一个轨道号:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1172"/>
+        <location filename="../prefgeneral.ui" line="1165"/>
         <source>Audi&amp;o:</source>
         <translation>音频(&amp;O):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1126"/>
+        <location filename="../prefgeneral.ui" line="1119"/>
         <source>Preferred language:</source>
         <translation>首选语言:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="997"/>
+        <location filename="../prefgeneral.ui" line="990"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>首选音频和字幕(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1185"/>
+        <location filename="../prefgeneral.ui" line="1178"/>
         <source>&amp;Subtitle:</source>
         <translation>字幕(&amp;S):</translation>
     </message>
@@ -4968,43 +4983,43 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>在这里可以键入您的音频和字幕流的首选语言。当在媒体中发现多重音频或字幕流时，SMPlayer 将尝试使用您的首选语言。这仅工作于提供有关音频和字幕流语言信息的媒体，比如 DVD 或 MKV 文件。&lt;br&gt;这些字段接受正则表达式。实例：&lt;b&gt;es|esp|spa&lt;/b&gt; 将选择匹配 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; 或 &lt;i&gt;spa&lt;/i&gt; 的轨道。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1018"/>
+        <location filename="../prefgeneral.ui" line="1011"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="709"/>
+        <location filename="../prefgeneral.ui" line="702"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>高速播放（不改变间隔）(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1019"/>
         <source>High speed playback without altering pitch</source>
         <translation>高速播放（不改变间隔）</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1035"/>
+        <location filename="../prefgeneral.cpp" line="1021"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>允许改变播放速度（不改变间隔）。至少需要 MPlayer dev-SVN-r24924。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="227"/>
+        <location filename="../prefgeneral.ui" line="220"/>
         <source>&amp;Video</source>
         <translation>视频(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="469"/>
+        <location filename="../prefgeneral.ui" line="462"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>使用软件视频均衡器(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="568"/>
+        <location filename="../prefgeneral.ui" line="561"/>
         <source>A&amp;udio</source>
         <translation>音频(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="744"/>
+        <location filename="../prefgeneral.ui" line="737"/>
         <source>Volume</source>
         <translation>音量</translation>
     </message>
@@ -5039,17 +5054,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint 自适应去隔行</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="928"/>
+        <location filename="../prefgeneral.cpp" line="914"/>
         <source>Deinterlace by default</source>
         <translation>默认去隔行</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="930"/>
+        <location filename="../prefgeneral.cpp" line="916"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>选择您想在打开新视频时使用的去隔行滤镜。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="860"/>
+        <location filename="../prefgeneral.cpp" line="850"/>
         <source>Remember time position</source>
         <translation>记住时间位置</translation>
     </message>
@@ -5059,32 +5074,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>记住时间位置(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>Enable the audio equalizer</source>
         <translation>启用音频均衡器</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="1001"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>如果您想使用音频均衡器请选中此项。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="633"/>
+        <location filename="../prefgeneral.ui" line="626"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation>启用音频均衡器(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="953"/>
+        <location filename="../prefgeneral.cpp" line="939"/>
         <source>Draw video using slices</source>
         <translation>使用切片方式绘制视频</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="957"/>
+        <location filename="../prefgeneral.cpp" line="943"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>启用/禁用 16-像素高的 片/带 方式绘制视频。如果禁用，将一次运行绘制整个帧。可能更快或更慢，这取决于显卡和可用的缓存。它只对 libmpeg2 和 libavcodec 编解码器有效果。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="490"/>
+        <location filename="../prefgeneral.ui" line="483"/>
         <source>Dra&amp;w video using slices</source>
         <translation>使用切片方式绘制视频(&amp;W)</translation>
     </message>
@@ -5094,102 +5109,102 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>完成播放后关闭(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="364"/>
+        <location filename="../prefgeneral.cpp" line="362"/>
         <source>fast</source>
         <translation>快速</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="360"/>
+        <location filename="../prefgeneral.cpp" line="358"/>
         <source>slow</source>
         <translation>慢速</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="365"/>
+        <location filename="../prefgeneral.cpp" line="363"/>
         <source>fast - ATI cards</source>
         <translation>快速 - ATI 卡</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="411"/>
+        <location filename="../prefgeneral.cpp" line="409"/>
         <source>User defined...</source>
         <translation>用户定义...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="933"/>
+        <location filename="../prefgeneral.cpp" line="919"/>
         <source>Default zoom</source>
         <translation>默认缩放</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="935"/>
+        <location filename="../prefgeneral.cpp" line="921"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>这个选项可设置将被新视频使用的默认缩放。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="415"/>
+        <location filename="../prefgeneral.ui" line="408"/>
         <source>Default &amp;zoom:</source>
         <translation>默认缩放(&amp;Z):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="851"/>
+        <location filename="../prefgeneral.cpp" line="841"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
         <translation>在这里您必须指定 SMPlayer 将使用的 MPlayer 可执行文件。&lt;br&gt;SMPlayer 至少需要 MPlayer 1.0rc1（但是强烈推荐 SVN 最新修订版）。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="853"/>
+        <location filename="../prefgeneral.cpp" line="843"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>如果此设置是错误的，SMPlayer 将不能播放任何东西!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="901"/>
+        <location filename="../prefgeneral.cpp" line="887"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
         <translation>选择视频输出驱动。%1 可提供最佳性能。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1007"/>
+        <location filename="../prefgeneral.cpp" line="993"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
         <translation>%1 是建议之一。尽量避免 %2 和 %3 ，它们速度很慢，且会影响性能。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="858"/>
+        <location filename="../prefgeneral.cpp" line="848"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>通常 SMPlayer 会记住您播放每个文件的设置（音轨选择、音量、滤镜...）。如果您不喜欢这个功能可禁用此选项。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="890"/>
+        <location filename="../prefgeneral.cpp" line="880"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>如果这个选项被启用，当主窗口被隐藏时文件将被暂停播放。窗口还原时，将恢复播放。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="988"/>
+        <location filename="../prefgeneral.cpp" line="974"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>选中此选项可在播放时禁用屏幕保护程序。&lt;br&gt;播放完成后将再次启用屏幕保护程序。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>在这里您可以键入您的音频流首选语言。当在媒体中发现多重音频流时，SMPlayer 将尝试使用您的首选语言。&lt;br&gt;这仅工作于提供有关音频流语言信息的媒体，比如 DVD 或 MKV 文件。&lt;br&gt;这些字段接受正则表达式。实例：&lt;b&gt;es|esp|spa&lt;/b&gt; 将选择匹配 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; 或 &lt;i&gt;spa&lt;/i&gt; 的音轨。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1070"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>在这里您可以键入您的字幕流首选语言。当在媒体中发现多重字幕流时，SMPlayer 将尝试使用您的首选语言。&lt;br&gt;这仅工作于提供有关字幕流语言信息的媒体，比如 DVD 或 MKV 文件。&lt;br&gt;这些字段接受正则表达式。实例：&lt;b&gt;es|esp|spa&lt;/b&gt; 将选择匹配 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; 或 &lt;i&gt;spa&lt;/i&gt; 的字幕流。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="576"/>
+        <location filename="../prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
         <translation>输出驱动(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="963"/>
+        <location filename="../prefgeneral.cpp" line="949"/>
         <source>Add black borders on fullscreen</source>
         <translation>全屏时添加黑色边框</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="966"/>
+        <location filename="../prefgeneral.cpp" line="952"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>如果这个选项被启用，黑色边框将被添加到全屏模式的图像中。这将允许字幕在黑色边框上显示。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="517"/>
+        <location filename="../prefgeneral.ui" line="510"/>
         <source>&amp;Add black borders on fullscreen</source>
         <translation>全屏时添加黑色边框(&amp;A)</translation>
     </message>
@@ -5204,22 +5219,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>多个 ini 文件</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="865"/>
+        <location filename="../prefgeneral.cpp" line="855"/>
         <source>Method to store the file settings</source>
         <translation>存储文件设置的方法</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="867"/>
+        <location filename="../prefgeneral.cpp" line="857"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>这个选项允许更改将要存储文件设置的方法。下列选项可用:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="869"/>
+        <location filename="../prefgeneral.cpp" line="859"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;单个 ini 文件&lt;/b&gt;：所有播放文件的设置将被保存在单个 ini 文件中 (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="872"/>
+        <location filename="../prefgeneral.cpp" line="862"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>如果有大量文件的信息，后一种方法可以更快。</translation>
     </message>
@@ -5229,37 +5244,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>存储设置于(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="871"/>
+        <location filename="../prefgeneral.cpp" line="861"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;多个 ini 文件&lt;/b&gt;：每个播放的文件将被分别保存于其 ini 文件中。这些 ini 文件将被保存在文件夹 %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="863"/>
+        <location filename="../prefgeneral.cpp" line="853"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>如果选中此选项，SMPlayer 将记住文件的最后播放位置，当您再次打开它时可由此位置开始播放。此选项仅可用于常规文件（不包括 DVD、CD、URL地址...）。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="946"/>
+        <location filename="../prefgeneral.cpp" line="932"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>如果选中，将打开直接渲染（还不被所有的编解码器和视频输出支持）&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt;可能导致 OSD/字幕 损坏!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1031"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>请求播放的声道数。MPlayer 要求解码器把音频解码到指定数量的声道。然后由解码器来实现这个要求。此选项通常只有在播放带 AC-3 音频（比如 DVD）的视频时才显得重要。在那时默认使用 liba52 解码并把音频正确地混合到需要的声道数。&lt;b&gt;注意&lt;/b&gt;：此选项可以被解码器（仅适用于 AC3）、滤镜（环绕立体声）和音频输出驱动（至少 OSS 可以）接受。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="874"/>
+        <location filename="../prefgeneral.cpp" line="864"/>
         <source>Enable screenshots</source>
         <translation>启用屏幕截图</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="876"/>
+        <location filename="../prefgeneral.cpp" line="866"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>您可以使用该选项启用或禁用是否可以进行屏幕截图。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="881"/>
+        <location filename="../prefgeneral.cpp" line="871"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>在这里您可以指定一个将被 SMPlayer 用来存储屏幕截图的文件夹。如果该文件夹是无效的，屏幕截图功能将被禁用。</translation>
     </message>
@@ -5284,112 +5299,112 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>文件夹(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1023"/>
         <source>Global volume</source>
         <translation>全局音量</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>如果这个选项被选中，您播放的所有文件都将使用相同的音量。如果该选项未被选中，每个文件将使用自己的音量。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1041"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>This option also applies for the mute control.</source>
         <translation>这个选项同样适用于静音控制。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="762"/>
+        <location filename="../prefgeneral.ui" line="755"/>
         <source>Glo&amp;bal volume</source>
         <translation>全局音量(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="972"/>
+        <location filename="../prefgeneral.cpp" line="958"/>
         <source>Switch screensaver off</source>
         <translation>切换关闭屏幕保护程序</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="976"/>
+        <location filename="../prefgeneral.cpp" line="962"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>此选项在开始播放文件之前切换关闭屏幕保护程序，当播放完成后切换开启屏幕保护程序。如果启用该选项，即使播放音频文件或文件暂停时屏幕保护程序都不会出现。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="978"/>
+        <location filename="../prefgeneral.cpp" line="964"/>
         <source>Avoid screensaver</source>
         <translation>避免屏幕保护程序</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="983"/>
+        <location filename="../prefgeneral.cpp" line="969"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>当这个选项被选中，SMPlayer 将试图阻止屏幕保护程序在播放视频文件时显示。如果播放音频文件或处于暂停模式，屏幕保护程序将被允许显示。此选项仅在 SMPlayer 窗口位于前台时有效。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="531"/>
+        <location filename="../prefgeneral.ui" line="524"/>
         <source>Screensaver</source>
         <translation>屏幕保护程序</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="537"/>
+        <location filename="../prefgeneral.ui" line="530"/>
         <source>Swit&amp;ch screensaver off</source>
         <translation>切换关闭屏幕保护程序(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="544"/>
+        <location filename="../prefgeneral.ui" line="537"/>
         <source>Avoid &amp;screensaver</source>
         <translation>避免屏幕保护程序(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1057"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>Audio/video auto synchronization</source>
         <translation>音频/视频 自动同步</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>基于音频延迟的检测逐步调整 A/V 同步。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>A-V sync correction</source>
         <translation>A-V 同步修正</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1048"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>每帧的最大 A-V 同步修正（以秒为单位）</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="847"/>
+        <location filename="../prefgeneral.ui" line="840"/>
         <source>Synchronization</source>
         <translation>同步</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="867"/>
+        <location filename="../prefgeneral.ui" line="860"/>
         <source>Audio/video auto &amp;synchronization</source>
         <translation>音频/视频 自动同步(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="893"/>
+        <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Factor:</source>
         <translation>因子(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="929"/>
+        <location filename="../prefgeneral.ui" line="922"/>
         <source>A-V sync &amp;correction</source>
         <translation>A-V 同步修正(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="952"/>
+        <location filename="../prefgeneral.ui" line="945"/>
         <source>&amp;Max. correction:</source>
         <translation>最大修正(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="931"/>
+        <location filename="../prefgeneral.cpp" line="917"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;注意：&lt;/b&gt;此选项不会被用于电视频道。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="378"/>
+        <location filename="../prefgeneral.ui" line="371"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
         <translation>默认去隔行（电视除外）(&amp;N):</translation>
     </message>
@@ -5409,42 +5424,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">使用 VDPAU 时禁用视频滤镜(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1018"/>
+        <location filename="../prefgeneral.cpp" line="1004"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>使用 AC3 通过 S/PDIF 输出。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1020"/>
+        <location filename="../prefgeneral.cpp" line="1006"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;注意：&lt;/b&gt;当该选项被启用时将不会使用音频滤镜。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="339"/>
+        <location filename="../prefgeneral.cpp" line="337"/>
         <source>snap mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="340"/>
+        <location filename="../prefgeneral.cpp" line="338"/>
         <source>slower dive mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="390"/>
+        <location filename="../prefgeneral.cpp" line="388"/>
         <source>uniaud mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="391"/>
+        <location filename="../prefgeneral.cpp" line="389"/>
         <source>dart mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="986"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="264"/>
+        <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
         <translation type="unfinished"></translation>
     </message>
