@@ -94,6 +94,7 @@ public slots:
 	virtual void helpFAQ();
 	virtual void helpCLOptions();
 	virtual void helpTips();
+	virtual void helpDonate();
 	virtual void helpAbout();
 	virtual void helpAboutQt();
 
@@ -428,6 +429,7 @@ protected:
 	MyAction * showFAQAct;
 	MyAction * showCLOptionsAct; // Command line options
 	MyAction * showTipsAct;
+	MyAction * donateAct;
 	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 
