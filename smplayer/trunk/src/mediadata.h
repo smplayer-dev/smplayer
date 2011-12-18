@@ -113,7 +113,7 @@ public:
 	QString audio_codec;
 
 	/*QString info();*/
-	QString displayName();
+	QString displayName(bool show_tag = true);
 };
 
 #endif
