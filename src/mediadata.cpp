@@ -88,10 +88,12 @@ void MediaData::reset() {
 	audio_codec="";
 }
 
-QString MediaData::displayName() {
-	if (!clip_name.isEmpty()) return clip_name;
-	else
-	if (!stream_title.isEmpty()) return stream_title;
+QString MediaData::displayName(bool show_tag) {
+	if (show_tag) {
+		if (!clip_name.isEmpty()) return clip_name;
+		else
+		if (!stream_title.isEmpty()) return stream_title;
+	}
 
 	QFileInfo fi(filename);
 	if (fi.exists()) 

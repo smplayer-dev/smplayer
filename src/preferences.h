@@ -283,6 +283,9 @@ public:
 
 	QString actions_to_run; //!< List of actions to run every time a video loads.
 
+	//! Show file tag in window title
+	bool show_tag_in_window_title;
+
 
 	/* *********
 	   GUI stuff

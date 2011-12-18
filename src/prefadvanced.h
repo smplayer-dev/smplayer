@@ -95,6 +95,9 @@ protected:
 	void setActionsToRun(QString actions);
 	QString actionsToRun();
 
+	void setShowTagInTitle(bool b);
+	bool showTagInTitle();
+
 	// Log options
 	void setLogMplayer(bool b);
 	bool logMplayer();

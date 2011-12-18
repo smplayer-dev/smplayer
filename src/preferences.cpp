@@ -278,6 +278,8 @@ void Preferences::reset() {
 
 	actions_to_run = "";
 
+	show_tag_in_window_title = true;
+
 
     /* *********
        GUI stuff
@@ -682,6 +684,8 @@ void Preferences::save() {
 	set->setValue("correct_pts", use_correct_pts);
 
 	set->setValue("actions_to_run", actions_to_run);
+
+	set->setValue("show_tag_in_window_title", show_tag_in_window_title);
 
 	set->endGroup(); // advanced
 
@@ -1101,6 +1105,8 @@ void Preferences::load() {
 	use_correct_pts = (OptionState) set->value("correct_pts", use_correct_pts).toInt();
 
 	actions_to_run = set->value("actions_to_run", actions_to_run).toString();
+
+	show_tag_in_window_title = set->value("show_tag_in_window_title", show_tag_in_window_title).toBool();
 
 	set->endGroup(); // advanced
 
