@@ -3659,7 +3659,7 @@ void BaseGui::helpCLOptions() {
 }
 
 void BaseGui::helpTips() {
-	QDesktopServices::openUrl( QUrl("http://smplayer.berlios.de/forum/viewforum.php?f=12") );
+	QDesktopServices::openUrl( QUrl("http://smplayer.sf.net/forum/viewforum.php?f=12") );
 }
 
 void BaseGui::helpDonate() {
