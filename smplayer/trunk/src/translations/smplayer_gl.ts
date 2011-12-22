@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="gl_ES">
+<!DOCTYPE TS>
+<TS version="2.0" language="gl_ES">
 <context>
     <name>About</name>
     <message>
@@ -1711,32 +1712,32 @@ Vaise mostrar o diálogo de configuración agora, para que o poida facer.</trans
     <message>
         <location filename="../basegui.cpp" line="1610"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Doar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1812"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>Lendas pe&amp;chadas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3666"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Doar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3667"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se lle gusta SMPlayer, un bo xeito de apoialo é mediante o envío dunha doazón, incluso as máis pequenas son moi apreciadas.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3668"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pode enviar a doazón usando %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3668"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>este formulario</translation>
     </message>
 </context>
 <context>
@@ -3512,7 +3513,7 @@ Por favor verifique os permisos dese cartafol.</translation>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Belarusian</source>
-        <translation>Bieloruso</translation>
+        <translation>Bielorruso</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
@@ -3684,7 +3685,7 @@ Por favor verifique os permisos dese cartafol.</translation>
         <source>Marshallese</source>
         <translation>Marshalés</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Noruegués</translation>
@@ -3794,7 +3795,7 @@ Por favor verifique os permisos dese cartafol.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4071,7 +4072,7 @@ Desexa sobrescribilo?</translation>
     <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimedia</translation>
+        <translation>Multimedia</translation>
     </message>
 </context>
 <context>
@@ -4502,17 +4503,17 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar a etiqueta no título da xanela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opción está activada, a información das etiquetas mostrarase no título da xanela. Noutro caso, unicamente se mostrará o nome do ficheiro.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="287"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar a etiqueta no &amp;título da xanela</translation>
     </message>
 </context>
 <context>
@@ -5562,7 +5563,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="388"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>modo uniaud</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
@@ -5572,12 +5573,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 é o recomendado. %2 está só dispoñíbel en MPlayer antigos (anteriores á versión %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;onfigurar...</translation>
     </message>
 </context>
 <context>
@@ -7977,42 +7978,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Propiedades de VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccione os códecs vdpau. Posíbelmente non todos funcionen.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Desactivar filtros de vídeo por software</translation>
     </message>
 </context>
 <context>
