@@ -376,7 +376,7 @@ SectionGroup $(MPlayerGroupTitle)
     retry_mplayer:
 
     DetailPrint $(MPlayer_DL_Msg)
-    inetc::get /timeout 30000 /resume "" /silent "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
+    inetc::get /timeout 30000 /resume "" /banner $(MPlayer_DL_Msg) /caption $(MPlayer_DL_Msg) "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
     "$PLUGINSDIR\$MPlayer_Version.7z" /end
     Pop $R0
     StrCmp $R0 OK 0 check_mplayer
@@ -423,7 +423,7 @@ SectionGroup $(MPlayerGroupTitle)
     retry_codecs:
 
     DetailPrint $(Codecs_DL_Msg)
-    inetc::get /timeout 30000 /resume "" /silent "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
+    inetc::get /timeout 30000 /resume "" /banner $(Codecs_DL_Msg) /caption $(Codecs_DL_Msg) "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
     "$PLUGINSDIR\$Codec_Version.zip" /end
     Pop $R0
     StrCmp $R0 OK 0 check_codecs
