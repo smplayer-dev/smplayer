@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -1661,27 +1662,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1610"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>По&amp;жертвовать</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3666"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Пожертвовать</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3667"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если вам нравится SMPlayer, хороший способ поддержать его - сделать пожертвование, даже небольшой вклад высоко ценится.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3668"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы можете отправить ваше пожертвование, используя %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3668"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>эту форму</translation>
     </message>
 </context>
 <context>
@@ -3630,7 +3631,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3740,7 +3741,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -4405,17 +4406,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished">Отображать информацию из тегов в заголовке окна</translation>
+        <translation>Отображать информацию из тегов в заголовке окна</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если опция включена, в заголовке окна будет отображаться информация из тегов. В противном случае будет показано только имя файла.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="287"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображать &amp;информацию из тегов в заголовке окна</translation>
     </message>
 </context>
 <context>
@@ -5390,32 +5391,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="337"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим снимков</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="338"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим медленных скачков</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="388"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим uniaud</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим рывков</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 рекомендуемыйй режим. %2 доступен только на старых версиях MPlayer (до версии %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Настройка</translation>
     </message>
 </context>
 <context>
@@ -7792,42 +7793,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите используемые кодеки vdpau. Могут работать не все из них.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Отключить программные фильтры видео</translation>
     </message>
 </context>
 <context>
