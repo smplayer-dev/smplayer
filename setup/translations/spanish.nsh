@@ -1,4 +1,4 @@
-﻿;Language: Spanish (1034)
+;Language: Spanish (1034)
 ;Spanish language strings for the Windows SMPlayer NSIS installer.
 ;
 ;Save file as UTF-8 w/ BOM
@@ -11,60 +11,60 @@ ${LangFileString} Installer_Is_Running "La instalación ya se está ejecutando."
 ${LangFileString} Installer_No_Admin "Debes tener permisos de administrador para instalar este programa."
 
 ; Components Page
-${LangFileString} ShortcutGroupTitle "Shortcuts"
-${LangFileString} MPlayerGroupTitle "MPlayer Components"
+${LangFileString} ShortcutGroupTitle "Accesos"
+${LangFileString} MPlayerGroupTitle "Componentes de MPlayer"
 
-${LangFileString} Section_SMPlayer "SMPlayer (required)"
-${LangFileString} Section_SMPlayer_Desc "SMPlayer, shared libraries, and documentation."
+${LangFileString} Section_SMPlayer "SMPlayer (requerido)"
+${LangFileString} Section_SMPlayer_Desc "SMPlayer, librerías compartidas y documentación."
 
-${LangFileString} Section_DesktopShortcut "Desktop"
-${LangFileString} Section_DesktopShortcut_Desc "Creates a shortcut to SMPlayer on the desktop."
+${LangFileString} Section_DesktopShortcut "Escritorio"
+${LangFileString} Section_DesktopShortcut_Desc "Crea un acceso directo a SMPlayer en el escritorio."
 
-${LangFileString} Section_StartMenu "Start Menu"
-${LangFileString} Section_StartMenu_Desc "Create a Start Menu entry for SMPlayer."
+${LangFileString} Section_StartMenu "Menú Inicio"
+${LangFileString} Section_StartMenu_Desc "Crea una entrada en el Menú Inicio para SMPlayer."
 
-${LangFileString} Section_MPlayer "MPlayer (required)"
+${LangFileString} Section_MPlayer "MPlayer (requerido)"
 !ifdef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback."
+${LangFileString} Section_MPlayer_Desc "MPlayer; requerido para la reproducción multimedia."
 !else ifndef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback. (Internet Connection required for installation)"
+${LangFileString} Section_MPlayer_Desc "MPlayer; requerido para la reproducción multimedia. (Se necesita conexión a internet para la instalación)"
 !endif
 
-${LangFileString} Section_MPlayerCodecs "Binary Codecs"
+${LangFileString} Section_MPlayerCodecs "Códecs Binarios"
 !ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer."
+${LangFileString} Section_MPlayerCodecs_Desc "Códecs opcionales para MPlayer."
 !else ifndef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} Section_MPlayerCodecs_Desc "Códecs opcionales para MPlayer. (Se necesita conexión a internet para la instalación)"
 !endif
 
-${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "Un programa opcional que puede ser usado para recodificar vídeos."
 
-${LangFileString} Section_IconThemes "Icon Themes"
-${LangFileString} Section_IconThemes_Desc "Additional icon themes for SMPlayer."
+${LangFileString} Section_IconThemes "Temas de Iconos"
+${LangFileString} Section_IconThemes_Desc "Temas de iconos adicionales para SMPlayer."
 
-${LangFileString} Section_Translations "Languages"
-${LangFileString} Section_Translations_Desc "Non-English language files for SMPlayer."
+${LangFileString} Section_Translations "Idiomas"
+${LangFileString} Section_Translations_Desc "Ficheros de idiomas para SMPlayer."
 
 ${LangFileString} MPlayer_Codec_Msg "El paquete de códecs binarios añade soporte para códecs que todavía no se han implementado nativamente, como como las nuevas variantes de RealVideo y algunos formatos poco comunes.$\nTen en cuenta de que no son necesarios para reproducir los formatos más comunes como DVDs, MPEG-1/2/4, etc."
 
 ; Upgrade/Reinstall Page
-${LangFileString} Reinstall_Header_Text "Select Install Type"
-${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
+${LangFileString} Reinstall_Header_Text "Selecciona el tipo de instalación"
+${LangFileString} Reinstall_Header_SubText "Selecciona Sobreescribir o Desinstalar."
 
-${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
-${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
-${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
-${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
-${LangFileString} Reinstall_Msg3_1 "Click Start when ready to proceed."
-${LangFileString} Reinstall_Msg3_2 "Click Next when ready to proceed."
-${LangFileString} Reinstall_Msg3_3 "Click Uninstall when ready to proceed."
-${LangFileString} Reinstall_Msg4 "Change Installation Settings"
+${LangFileString} Reinstall_Msg1 "SMPlayer ya está instalado en esta carpeta:"
+${LangFileString} Reinstall_Msg2 "Selecciona qué hacer:"
+${LangFileString} Reinstall_Overwrite "Sobreescribir ($Inst_Type) la instalación existente"
+${LangFileString} Reinstall_Uninstall "Desinstalar (borrar) la instalación existente"
+${LangFileString} Reinstall_Msg3_1 "Pulsa en Comenzar cuando estés listo."
+${LangFileString} Reinstall_Msg3_2 "Pulsa Continuar cuando estés listo."
+${LangFileString} Reinstall_Msg3_3 "Pulsa Desinstalar cuando estés listo."
+${LangFileString} Reinstall_Msg4 "Cambiar las opciones de instalación"
 
-${LangFileString} Type_Reinstall "reinstall"
-${LangFileString} Type_Downgrade "downgrade"
-${LangFileString} Type_Upgrade "upgrade"
+${LangFileString} Type_Reinstall "reinstalar"
+${LangFileString} Type_Downgrade "desactualizar"
+${LangFileString} Type_Upgrade "actualizar"
 
-${LangFileString} StartBtn "Start"
+${LangFileString} StartBtn "Comenzar"
 
 ; MPlayer Section
 ${LangFileString} MPlayer_DL_Msg "Descargando el MPlayer..."
@@ -91,8 +91,8 @@ ${LangFileString} Uninstaller_NotInstalled "No parece que el SMPlayer esté inst
 ${LangFileString} Application_Description "SMPlayer pretende ser un interfaz completo para MPlayer, con opciones para cosas básicas, como reproducir vídeos, DVDs y VCDs hasta opciones más avanzadas como soporte para los filtros del MPlayer y mucho más."
 
 ; Misc
-${LangFileString} Info_Del_Files "Deleting Files..."
-${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
-${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
-${LangFileString} Info_Rest_Assoc "Restoring file associations..."
-${LangFileString} Info_Files_Extract "Extracting files..."
+${LangFileString} Info_Del_Files "Borrando ficheros..."
+${LangFileString} Info_Del_Registry "Borrando claves del registro..."
+${LangFileString} Info_Del_Shortcuts "Borrande accesos..."
+${LangFileString} Info_Rest_Assoc "Restaurando asociaciones de ficheros..."
+${LangFileString} Info_Files_Extract "Extrayendo ficheros..."
