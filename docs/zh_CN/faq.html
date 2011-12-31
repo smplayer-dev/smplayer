@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=gb2312">
+<title>SMPlayer FAQ</title>
+</head>
+
+<body>
+<h1>SMPlayer - 常见问题解答</h1>
+
+<ol>
+<li><a href="#smplayer_mplayer">SMPlayer 和 MPlayer 之间的关系是什么? 它们是一样的吗?</a></li>
+<li><a href="#dvd_menus">DVD 菜单在哪里?</a></li>
+<li><a href="#output_drivers">“输出驱动”(directx, xv, x11, gl, alsa, oss...) 是什么? 选哪个最好?</a></li>
+<li><a href="#screenshot">我尝试截图，但该选项被禁用，为什么?</a></li>
+<li><a href="#audio_track">我尝试更改音轨，但没有效果，音频仍然没变。我要停止视频并再次播放才可以更改音频。为什么?</a></li>
+<li><a href="#shortcuts">我如何更改快捷键?</a></li>
+<li><a href="#qt">我看到一些关于 Qt 的东西，那是什么?</a></li>
+<li><a href="#codecs">对于某些视频格式我只能听到音频，没有视频。为什么? 我需要一些编解码器?</a></li>
+<li><a href="#open_quit">“打开->关闭”和“打开->退出”之间有什么区别?它们一样吗?</a></li>
+<li><a href="#audio_cd">我可以播放音频CD吗?</a></li>
+<li><a href="#bookmark">书签在哪里?</a></li>
+<li><a href="#mplayer_errors">我尝试播放一个文件但没有任何反应，为什么?</a></li>
+<li><a href="#preferences_delay">当我首次打开首选项对话框时，需要数秒才能显示出来，为什么?</a></li>
+<li><a href="#tv">你要增加支持电视吗?</a></li>
+<li><a href="#mplayer_restart">很多菜单选项会让正在播放的视频瞬间变成空白。为什么?</a></li>
+<li><a href="#crash">SMPlayer 崩溃以后，音频还没有停止，为什么?</a></li>
+<li><a href="#playlist_problem">我在播放一个播放列表，当一个文件播放结束时，SMPlayer 不自动播放下一个文件，为什么?</a></li>
+<li><a href="#mplayer_recommended">建议使用哪个 MPlayer 版本?</a></li>
+<li><a href="#subtitles_border">我想让字幕在黑色边框上显示，而不是图像上，我该怎么办?</a></li>
+<li><a href="#expand_filter">我想让所有视频的字幕都显示在黑色边框上，这可能吗?</a></li>
+<li><a href="#monitors">(Windows) 视频只显示在第一显示器，无法显示在第二显示器上，为什么?</a></li>
+<li><a href="#screensaver1">屏幕保护程序没有关闭，为什么?</a></li>
+<li><a href="#vista">(Windows) 我用的是 Windows Vista，每次播放视频时 Aero 会被禁用，为什么?</a></li>
+<li><a href="#config_file">配置文件在哪里?</a></li>
+</ol>
+
+<hr>
+
+<ol>
+<li><a name="smplayer_mplayer"></a>
+<b>SMPlayer 和 MPlayer 之间的关系是什么? 它们是一样的吗?</b>
+<p>不，它们是两个不同的应用程序。MPlayer 是一个多媒体播放器，最初是为 Linux 开发的，后来被移植到其他的操作系统。它非常棒，它几乎可以播放一切，并且它有很多功能(例如过滤器)。但大多数用户可能会发现很难使用它。</p>
+<p>幸运的是 MPlayer 可以与其他应用程序一起工作(它的视频窗口可以被嵌入到其他应用程序的图形用户界面中，它还能执行该应用程序发送的命令)，因此 SMPlayer 只是一个使用 MPlayer 播放视频的前端程序。</p>
+<p>SMPlayer 就是您所看到的窗口、菜单和首选项对话框...(还有其他您没有看到的东西，例如控制 MPlayer 的功能)，但 SMPlayer 对于正在播放的文件一无所知，它甚至不知道什么是编解码器。另一方面，MPlayer 则在打开文件、解码它们、显示视频和播放音频，并读取和分析字幕，将它们显示在屏幕上。</p>
+</li>
+
+<li><a name="dvd_menus"></a>
+<b>DVD 菜单在哪里?</b>
+<p>目前 DVD 菜单功能还在开发测试中，您可以从“<i>首选项 -> 驱动器</i>”选项卡中启用 DVD 菜单，但请注意如果您现在启用它可能会遇到很多问题。</p>
+<p>无论如何，即使没有 DVD 菜单，您依然可以通过 SMPlayer 菜单选择您想要播放/查看的标题、章节、音轨和字幕等...</p>
+</li>
+
+<li><a name="output_drivers"></a>
+<b>“输出驱动”(directx, xv, x11, gl, alsa, oss...)是什么? 选哪个最好?</b>
+<p>MPlayer 有一些用于视频和音频的输出驱动。SMPlayer 允许您在其中选择一个(<i>首选项 -> 常规 -> 视频/音频</i>)。</p>
+<p>对于视频，建议您使用 xv (Linux) 或 directx (Windows)。它们使用硬件加速，可以获得最佳的性能。但这对于 Windows Vista 用户不便的是，使用 directx 会导致禁用 Aero，然而您可以尝试使用 direct3d。</p> 
+<p>x11 和 directx (禁用加速) 驱动都没有硬件加速，它们的性能最差，此外 directx (禁用加速)在全屏模式下的质量也很差。</p>
+<p>gl 和 gl2 将使用图形卡的 3D 加速，它们提供的性能优于 directx (禁用加速)和 x11，但逊色于 directx 或 xv 。Windows Vista 用户可以使用 gl/gl2，除此之外还可以尝试 direct3d (也许这是更好的选择)。</p>
+<p>对于声音，在 Linux 中您通常应该使用 oss 或 alsa。我不喜欢 esd 或 arts，它们需要使用更多的 CPU。</p>
+<p>在 Windows 中的声音驱动是 dsound 和 win32。我了解到 dsound 有时可能会导致“音频-视频 (A-V)”同步的问题，如果您发现此问题，请尝试使用 win32 代替。</p>
+<p>其他驱动允许您保存视频为图像文件或将声音写入到磁盘。SMPlayer 不正式支持这些驱动。请在您知道自己在做什么的情况下使用它们。</p>
+</li>
+
+<li><a name="screenshot"></a>
+<b>我尝试截图，但该选项被禁用，为什么?</b>
+<p>您没有选择一个用于存储屏幕截图的文件夹。在 <i>首选项 -> 常规</i> 中设置后，截图选项将被启用。</p>
+</li>
+
+<li><a name="audio_track"></a>
+<b>我尝试更改音轨，但没有效果，音频仍然没变。我要停止视频并再次播放才可以更改音频。为什么?</b>
+<p>对于某些格式(例如 mp4 或 ogm)，MPlayer 无法在运行时更改音轨。通过将“快速切换音轨”(<i>首选项 -> 首选项</i>)选项设置为“自动”或“否”，您就可以更改这些格式的音频。</p>
+</li>
+
+<li><a name="shortcuts"></a>
+<b>我如何更改快捷键?</b>
+<p>您可以在 <i>首选项 -> 键盘和鼠标</i> 中设置快捷键。</p>
+</li>
+
+<li><a name="qt"></a>
+<b>我看到一些关于 Qt 的东西，那是什么?</b>
+<p>SMPlayer 是使用 Qt 开发的，这是一个允许跨平台开发的 C++ 库。 它提供了单一源代码可在 Windows、Linux 和 Mac OS 多系统平台上编译的可移植性。更多信息: <a href="http://trolltech.com/products/qt">http://trolltech.com/products/qt</a></p>
+</li>
+
+<li><a name="codecs"></a>
+<b>对于某些视频格式我只能听到音频，没有视频。为什么? 我需要一些编解码器?</b>
+<p>MPlayer 可以“开箱即用”播放常见的格式。但对于那些原本未支持的格式，必须安装二进制编解码器包。您可以从 <a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer 下载页面</a> 上获取。</p>
+<p>在 Windows 系统环境下，请在下载后请将编解码器安装到 mplayer/codecs 子目录。在 Linux 系统环境，发行版的软件包中常封装有它，它可能是 w32codecs 或类似的名称。</p>
+</li>
+
+<li><a name="open_quit"></a>
+<b><i>打开->关闭</i> 和 <i>打开->退出</i> 之间有什么区别? 它们一样吗?</b>
+<p>如果“在系统托盘上显示图标”(在 <i>选项</i> 菜单中)选项没有被选中，那么是的，这两个选项都相同: 退出应用程序。</p>
+<p>但如果该选项被启用，<i>打开 -> 关闭</i> 将只隐藏应用程序(并停止当前正在播放的文件)，但 SMPlayer 仍在运行。这时使用 <i>打开 -> 退出</i> 才能退出应用程序，无论“在系统托盘上显示图标”选项是否启用。</p>
+</li>
+
+<li><a name="audio_cd"></a>
+<b>我可以播放音频CD吗?</b>
+<p>0.5.18 (或以上版本)已增加对音频 CD 的支持</p>
+<p>但在 Windows 下它可能无法播放音频CD。</p>
+</li>
+
+<li><a name="bookmark"></a>
+<b>书签在哪里?</b>
+<p>尚未实现。</p>
+</li>
+
+<li><a name="mplayer_errors"></a>
+<b>我尝试播放一个文件但没有任何反应，为什么?</b>
+<p>可能是 MPlayer 无法播放该文件。打开 MPlayer 日志(<i>选项 -> 查看日志 -> MPlayer</i>)，在最新的行中您可能会找到一条错误信息。</p>
+<p>一些无效的 MPlayer 编译版 在 Windows 中相当普遍，因为它们在编译时没有支持一些 SMPlayer 尝试使用的功能，该错误信息可能会给您一些线索。如果是缓存 (cache) 问题，您可以尝试在 <i>首选项 -> 首选项 -> 缓存</i> 中禁用缓存。如果是字体配置 (fontconfig) 的问题，请使用一个系统中的 TTF 字体代替(<i>首选项 -> 字幕 -> 字体和颜色</i>)。</p>
+</li>
+
+
+<li><a name="preferences_delay"></a>
+<b>当我首次打开首选项对话框时，需要数秒才能显示出来，为什么?</b>
+<p>那一刻 SMPlayer 在调用从 MPlayer 得到的一些信息(例如 输出驱动)。在打开 <i>选项 -> 查看信息和属性...</i> 对话框时也是如此。</p>
+</li>
+
+<li><a name="tv"></a>
+<b>你要增加支持电视吗?</b>
+<p>那听起来很好，但电视支持并不是现在的计划。目前我没有电视卡，所以我无法实现它。</p>
+</li>
+
+<li><a name="mplayer_restart"></a>
+<b>很多菜单选项会让正在播放的视频瞬间变成空白。为什么?</b>
+<p>一些选项需要停止 MPlayer 进程，并以新的参数重新启动它。这就是为什么播放时会瞬间中断。</p>
+</li>
+
+<li><a name="crash"></a>
+<b>SMPlayer 崩溃以后，音频还没有停止，为什么?</b>
+<p>因为 SMPlayer 崩溃后，MPlayer 仍在运行。您可以在任务管理器中结束 MPlayer 进程。</p>
+<p>无论如何，如果 SMPlayer 崩溃，说明这是一个严重的错误 (bug)，它应该被修复。请报告它。</p>
+</li>
+
+<li><a name="playlist_problem"></a>
+<b>我在播放一个播放列表，当一个文件播放结束时，SMPlayer 不自动播放下一个文件，为什么?</b>
+<p>请确保您至少使用的是 SMPlayer 0.6.5 和 MPlayer SVN r28066 。</p>
+</li>
+
+<li><a name="mplayer_recommended"></a>
+<b>建议使用哪个 MPlayer 版本?</b>
+<p>我建议至少使用 MPlayer SVN r25843 (2008-01-23)，虽然 SVN 中的最新版本会更好。</p>
+<p>SMPlayer 将尝试兼容旧的版本，但有些选项可能无法工作。</p>
+</li>
+
+<li><a name="subtitles_border"></a>
+<b>我想让字幕在黑色边框上显示，而不是图像上，我该怎么办?</b>
+<p><i>视频 -> 过滤器 -> 添加黑色边框</i></p>
+</li>
+
+<li><a name="expand_filter"></a>
+<b>我想让所有视频的字幕都显示在黑色边框上，这可能吗?</b>
+<p>您可以在 <i>首选项 -> 高级 -> MPlayer 选项</i> 中添加一个视频过滤器，例如 <b>expand=:::::4/3</b>。</p>
+<p>其他选项/方法:
+<ul>
+<li>打开 <i>首选项 -> 常规 -> 视频</i>，选中 <b>全屏时添加黑色边框</b></li>
+<li>在 <i>首选项 -> 高级 -> 高级</i> 中的动作列表文本框中添加 <b>add_letterbox true</b></li>
+</ul></p>
+</li>
+
+<li><a name="monitors"></a>
+<b>(Windows) 视频只显示在第一显示器，无法显示在第二显示器上，为什么?</b>
+<p>当您使用 <i>directx</i> 作为视频驱动(<i>首选项 -> 常规 -> 视频</i>)时，视频只能被显示在一台显示器上。如果您使用 <i>gl</i>、<i>gl2</i> 或 <i>direct3d</i> 代替，视频将可以被显示在任何显示器。</p>
+<p>无论如何，如果您更喜欢使用 <i>directx</i>，您可以通过菜单(<i>视频 -> 屏幕</i>)选择要显示视频的显示器。</p>
+</li>
+
+<li><a name="screensaver1"></a>
+<b>屏幕保护程序没有关闭，为什么?</b>
+<p>如果您使用的是最新版本的 MPlayer，您可以需要在您的 ~/.mplayer/config 中添加这样一行:</p>
+<p>(GNOME 环境)<pre>heartbeat-cmd="gnome-screensaver-command -p &>/dev/null" </pre></p>
+<p>(KDE 环境)<pre>heartbeat-cmd="dcop kdesktop KScreensaverIface enable false &>/dev/null && dcop kdesktop KScreensaverIface enable true &>/dev/null" </pre></p>
+<p>更多信息请到 MPlayer 的联机帮助中看一下。</p>
+</li>
+
+<li><a name="vista"></a>
+<b>(Windows) 我用的是 Windows Vista，每次播放视频时 Aero 会被禁用，为什么?</b>
+<p>这种情况会在您使用 <i>directx</i> 作为视频驱动(<i>首选项 -> 常规 -> 视频</i>)时发生。您可以将它更改为 <i>gl</i>、<i>gl2</i> 或 <i>direct3d</i>。</p>
+</li>
+
+<li><a name="config_file"></a>
+<b>配置文件在哪里?</b>
+<p>SMPlayer 使用两个 <i>ini</i> 文件: smplayer.ini 和 smplayer_files.ini。默认情况下都存储在 <i>$HOME/.config/smplayer</i> (Linux) 或 <i>C:\Documents and Settings\您的用户名\.smplayer</i> (Windows XP)、<i>C:\Users\您的用户名</i>\.smplayer (Windows Vista、7)。</p>
+<p>您也可以在 SMPlayer 日志(<i>选项 -> 查看日志 -> SMPlayer</i>) 中看到它的路径，就像这行: <pre> * ini path: '/home/ricardo/.config/smplayer' </pre>
+<i>smplayer.ini</i> 存储 SMPlayer 的配置，同时 <i>smplayer_files.ini</i> 存储您播放过的文件的设置。</p>
+</li>
+
+</ol>
+
+</body>
+</html>

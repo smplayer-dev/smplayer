@@ -159,7 +159,9 @@ QString About::getTranslators() {
 			<< "Olivier g <1got@caramail.com>"
 			<< "Temet <goondy@free.fr>"
 			<< "Erwann MEST <kud.gray@gmail.com>") +
-		 trad(tr("Simplified-Chinese"), "Tim Green <iamtimgreen@gmail.com>") +
+         trad(tr("Simplified-Chinese"), QStringList()
+			<< "Tim Green <iamtimgreen@gmail.com>"
+			<< "OpenBDH <opensource@bendihua.org>") +
          trad(tr("Russian"), QString::fromUtf8("Белый Владимир <wiselord1983@gmail.com>"))+ 
          trad(tr("Hungarian"), QStringList()
 			<< "Charles Barcza <kbarcza@blackpanther.hu>"
