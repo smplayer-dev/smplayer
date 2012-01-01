@@ -1,4 +1,4 @@
-;Language: Spanish (1034)
+﻿;Language: Spanish (1034)
 ;Spanish language strings for the Windows SMPlayer NSIS installer.
 ;
 ;Save file as UTF-8 w/ BOM

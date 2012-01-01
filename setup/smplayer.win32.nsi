@@ -376,8 +376,9 @@ SectionGroup $(MPlayerGroupTitle)
     retry_mplayer:
 
     DetailPrint $(MPlayer_DL_Msg)
-    inetc::get /timeout 30000 /resume "" /banner $(MPlayer_DL_Msg) /caption $(MPlayer_DL_Msg) "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
-    "$PLUGINSDIR\$MPlayer_Version.7z" /end
+    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(MPlayer_DL_Msg) /CAPTION $(MPlayer_DL_Msg) \
+    "http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
+    "$PLUGINSDIR\$MPlayer_Version.7z" /END
     Pop $R0
     StrCmp $R0 OK 0 check_mplayer
 
@@ -423,8 +424,9 @@ SectionGroup $(MPlayerGroupTitle)
     retry_codecs:
 
     DetailPrint $(Codecs_DL_Msg)
-    inetc::get /timeout 30000 /resume "" /banner $(Codecs_DL_Msg) /caption $(Codecs_DL_Msg) "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
-    "$PLUGINSDIR\$Codec_Version.zip" /end
+    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(Codecs_DL_Msg) /CAPTION $(Codecs_DL_Msg) \
+    "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
+    "$PLUGINSDIR\$Codec_Version.zip" /END
     Pop $R0
     StrCmp $R0 OK 0 check_codecs
 
@@ -916,7 +918,7 @@ Function GetVerInfo
 
   IfFileExists "$PLUGINSDIR\version-info" end_dl_ver_info 0
     DetailPrint $(VerInfo_DL_Msg)
-    inetc::get /timeout 30000 /resume "" /silent ${VERSION_FILE_URL} "$PLUGINSDIR\version-info" /end
+    inetc::get /CONNECTTIMEOUT 15000 /SILENT ${VERSION_FILE_URL} "$PLUGINSDIR\version-info" /END
     Pop $R0
     StrCmp $R0 OK +2
       DetailPrint $(VerInfo_DL_Failed)
