@@ -1,3 +1,14 @@
+Version 0.6.10.
+
+Most important changes since 0.6.9:
+
+* New vdpau configuration dialog, which allow to select the vdpau codecs to use.
+* Port for eCS, OS/2 (by Silvan Scherrer).
+* New menu to select the closed caption channel (requires mplayer >= r32607).
+* Possibility to select the seeking method (absolute or relative).
+* Possibility to sort the items of the playlist.
+
+
 Version 0.6.9.
 
 Most important changes since 0.6.8:
