@@ -28,6 +28,8 @@
 
 using namespace Global;
 
+#define TOO_CHAPTERS_WORKAROUND
+
 MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent) 
 {
 #if NOTIFY_SUB_CHANGES
@@ -844,6 +846,13 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			else
 			if (tag == "ID_CHAPTERS") {
 				md.chapters = value.toInt();
+				#ifdef TOO_CHAPTERS_WORKAROUND
+				if (md.chapters > 1000) {
+					qDebug("MplayerProcess::parseLine: warning too many chapters: %d", md.chapters);
+					qDebug("                           chapters will be ignored"); 
+					md.chapters = 0;
+				}
+				#endif
 			}
 			else
 			if (tag == "ID_DVD_CURRENT_TITLE") {
