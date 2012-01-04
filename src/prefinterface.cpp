@@ -183,6 +183,8 @@ void PrefInterface::setData(Preferences * pref) {
 
 	setDefaultFont(pref->default_font);
 
+	setHideVideoOnAudioFiles(pref->hide_video_window_on_audio_files);
+
 #if STYLE_SWITCHING
 	setStyle( pref->style );
 #endif
@@ -245,6 +247,8 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->relative_seeking= relativeSeeking();
 
 	pref->default_font = defaultFont();
+
+	pref->hide_video_window_on_audio_files = hideVideoOnAudioFiles();
 
 #if STYLE_SWITCHING
     if ( pref->style != style() ) {
@@ -455,6 +459,14 @@ void PrefInterface::changeInstanceImages() {
 		instances_icon->setPixmap( Images::icon("instance2") );
 }
 
+void PrefInterface::setHideVideoOnAudioFiles(bool b) {
+	hide_video_window_on_audio_check->setChecked(b);
+}
+
+bool PrefInterface::hideVideoOnAudioFiles() {
+	return hide_video_window_on_audio_check->isChecked();
+}
+
 // Floating tab
 void PrefInterface::setFloatingAnimated(bool b) {
 	floating_animated_check->setChecked(b);
@@ -510,6 +522,9 @@ void PrefInterface::createHelp() {
 	setWhatsThis(save_size_check, tr("Remember position and size"),
         tr("If you check this option, the position and size of the main "
            "window will be saved and restored when you run SMPlayer again.") );
+
+	setWhatsThis(hide_video_window_on_audio_check, tr("Hide video window when playing audio files"),
+        tr("If this option is enabled the video window will be hidden when playing audio files.") );
 
 	setWhatsThis(recents_max_items_spin, tr("Recent files"),
         tr("Select the maximum number of items that will be shown in the "

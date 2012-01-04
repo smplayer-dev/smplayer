@@ -102,6 +102,9 @@ protected:
 	void setDefaultFont(QString font_desc);
 	QString defaultFont();
 
+	void setHideVideoOnAudioFiles(bool b);
+	bool hideVideoOnAudioFiles();
+
 	// Floating tab
 	void setFloatingAnimated(bool b);
 	bool floatingAnimated();
