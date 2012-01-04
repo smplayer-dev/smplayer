@@ -4249,6 +4249,7 @@ void BaseGui::hidePanel() {
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	if (!pref->hide_video_window_on_audio_files) {
+		//panel->show();
 		mplayerwindow->showLogo(true);
 	}
 	else
