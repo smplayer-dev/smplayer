@@ -240,7 +240,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 #if YOUTUBE_SUPPORT
 	yt = new RetrieveYoutubeUrl(this);
-	yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
+	/* yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality ); */
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
 #endif
 }
@@ -768,6 +768,7 @@ void Core::openStream(QString name) {
 #if YOUTUBE_SUPPORT
 	if (name.startsWith("http://www.youtube.com/watch?v=")) {
 		qDebug("Core::openStream: youtube url detected");
+		yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
 		yt->fetchPage(name);
 		return;
 	}
