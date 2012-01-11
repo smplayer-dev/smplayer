@@ -1,5 +1,9 @@
 [b]Version 0.7.0[/b]:
 
+(2012-01-11)
+ * Added a very basic support for youtube. Now you can open urls like
+   http://www.youtube.com/watch?v=dq4Oj5quskI
+
 (2012-01-04)
  * New option "Hide video window when playing audio files" in 
    preferences -> interface.

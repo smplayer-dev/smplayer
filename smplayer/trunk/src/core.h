@@ -40,6 +40,10 @@ class WinScreenSaver;
 #endif
 #endif
 
+#if YOUTUBE_SUPPORT
+class RetrieveYoutubeUrl;
+#endif
+
 class Core : public QObject
 {
     Q_OBJECT
@@ -79,6 +83,10 @@ public slots:
 	void openVCD(int title = -1);
 	void openAudioCD(int title = -1);
 	void openTV(QString channel_id);
+
+#if YOUTUBE_SUPPORT
+	void openYT(const QString & url);
+#endif
 
 	void loadSub(const QString & sub);
 	void unloadSub();
@@ -453,6 +461,10 @@ protected:
 #ifdef SCREENSAVER_OFF
 	WinScreenSaver * win_screensaver;
 #endif
+#endif
+
+#if YOUTUBE_SUPPORT
+	RetrieveYoutubeUrl * yt;
 #endif
     
 private:

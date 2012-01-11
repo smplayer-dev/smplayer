@@ -7,8 +7,8 @@ QT += network xml
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += findsubtitles videopreview mpcgui
-DEPENDPATH += findsubtitles videopreview mpcgui
+INCLUDEPATH += findsubtitles videopreview mpcgui youtube
+DEPENDPATH += findsubtitles videopreview mpcgui youtube
 
 #DEFINES += USE_QXT
 
@@ -50,6 +50,7 @@ HEADERS += guiconfig.h \
 	deviceinfo.h \
 	recents.h \
 	urlhistory.h \
+	youtube/retrieveyoutubeurl.h \
 	core.h \
 	logwindow.h \
 	infofile.h \
@@ -147,6 +148,7 @@ SOURCES	+= version.cpp \
 	deviceinfo.cpp \
 	recents.cpp \
 	urlhistory.cpp \
+	youtube/retrieveyoutubeurl.cpp \
 	core.cpp \
 	logwindow.cpp \
 	infofile.cpp \
