@@ -1,8 +1,13 @@
 [b]Version 0.7.0[/b]:
 
 (2012-01-11)
+ * Added an option in preferences -> performance to select the desired
+   quality for youtube videos.
+
+(2012-01-11)
  * Added a very basic support for youtube. Now you can open urls like
-   http://www.youtube.com/watch?v=dq4Oj5quskI
+   http://www.youtube.com/watch?v=dq4Oj5quskI in smplayer (Open -> URL). 
+   You can also drag and drop a link from a browser to the smplayer window.
 
 (2012-01-04)
  * New option "Hide video window when playing audio files" in 
