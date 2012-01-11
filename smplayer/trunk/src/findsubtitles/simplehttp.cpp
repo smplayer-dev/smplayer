@@ -34,11 +34,20 @@ SimpleHttp::~SimpleHttp() {
 }
 
 void SimpleHttp::download(const QString & url) {
+	qDebug("SimpleHttp::download: %s", url.toLatin1().constData());
+
 	downloaded_text.clear();
 
 	QUrl u(url);
 	setHost( u.host() );
-	http_get_id = get( u.path() );
+
+	qDebug("u.path: %s", u.path().toLatin1().constData());
+	qDebug("u.query: %s", u.encodedQuery().constData());
+
+	QString p = u.path();
+	if (!u.encodedQuery().isEmpty()) p += "?" + u.encodedQuery();
+
+	http_get_id = get( p );
 
 	emit connecting(u.host());
 }
