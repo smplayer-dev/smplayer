@@ -30,6 +30,10 @@
 #include <QDir>
 #include <QLocale>
 
+#if YOUTUBE_SUPPORT
+#include "retrieveyoutubeurl.h"
+#endif
+
 using namespace Global;
 
 Preferences::Preferences() {
@@ -179,6 +183,10 @@ void Preferences::reset() {
 	cache_for_vcds = 1000;
 	cache_for_audiocds = 1000;
 	cache_for_tv = 3000;
+
+#if YOUTUBE_SUPPORT
+	yt_quality = RetrieveYoutubeUrl::MP4_360p;
+#endif
 
 
     /* *********
@@ -588,6 +596,10 @@ void Preferences::save() {
 	set->setValue("cache_for_vcds", cache_for_vcds);
 	set->setValue("cache_for_audiocds", cache_for_audiocds);
 	set->setValue("cache_for_tv", cache_for_tv);
+
+#if YOUTUBE_SUPPORT
+	set->setValue("youtube_quality", yt_quality);
+#endif
 
 	set->endGroup(); // performance
 
@@ -1005,6 +1017,10 @@ void Preferences::load() {
 	cache_for_vcds = set->value("cache_for_vcds", cache_for_vcds).toInt();
 	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
 	cache_for_tv = set->value("cache_for_tv", cache_for_tv).toInt();
+
+#if YOUTUBE_SUPPORT
+	yt_quality = set->value("youtube_quality", yt_quality).toInt();
+#endif
 
 	set->endGroup(); // performance
 

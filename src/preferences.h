@@ -176,6 +176,10 @@ public:
 	int cache_for_audiocds;
 	int cache_for_tv;
 
+#if YOUTUBE_SUPPORT
+	int yt_quality;
+#endif
+
 
 	/* *********
 	   Subtitles

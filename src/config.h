@@ -141,4 +141,9 @@
 #define USE_MPLAYER_PANSCAN 0
 
 
+// Compile youtube support or not
+
+#define YOUTUBE_SUPPORT 1
+
+
 #endif

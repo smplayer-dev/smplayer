@@ -88,6 +88,8 @@ QPixmap Images::icon(QString name, int size, bool png) {
 
 	QString icon_name = Images::filename(name,png);
 
+	//qDebug("%s", icon_name.toUtf8().constData());
+
 	QPixmap p = Images::loadIcon( icon_name );
 	bool ok = !p.isNull();
 

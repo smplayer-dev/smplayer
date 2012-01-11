@@ -54,6 +54,10 @@
 #include "tvsettings.h"
 #endif
 
+#if YOUTUBE_SUPPORT
+#include "retrieveyoutubeurl.h"
+#endif
+
 using namespace Global;
 
 Core::Core( MplayerWindow *mpw, QWidget* parent ) 
@@ -233,6 +237,12 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #if DISCNAME_TEST
 	DiscName::test();
 #endif
+
+#if YOUTUBE_SUPPORT
+	yt = new RetrieveYoutubeUrl(this);
+	yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
+	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
+#endif
 }
 
 
@@ -254,6 +264,10 @@ Core::~Core() {
 #ifdef SCREENSAVER_OFF
 	delete win_screensaver;
 #endif
+#endif
+
+#if YOUTUBE_SUPPORT
+	delete yt;
 #endif
 }
 
@@ -471,6 +485,12 @@ void Core::openFile(QString filename, int seek) {
 	}
 }
 
+#if YOUTUBE_SUPPORT
+void Core::openYT(const QString & url) {
+	qDebug("Core::openYT: %s", url.toUtf8().constData());
+	openStream(url);
+}
+#endif
 
 void Core::loadSub(const QString & sub ) {
     if ( (!sub.isEmpty()) && (QFile::exists(sub)) ) {
@@ -744,6 +764,14 @@ void Core::openTV(QString channel_id) {
 
 void Core::openStream(QString name) {
 	qDebug("Core::openStream: '%s'", name.toUtf8().data());
+
+#if YOUTUBE_SUPPORT
+	if (name.startsWith("http://www.youtube.com/watch?v=")) {
+		qDebug("Core::openStream: youtube url detected");
+		yt->fetchPage(name);
+		return;
+	}
+#endif
 
 	if (proc->isRunning()) {
 		stopMplayer();
