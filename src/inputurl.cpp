@@ -24,6 +24,10 @@ InputURL::InputURL( QWidget* parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 
+	//setMinimumSize( QSize(500,100) );
+	setMaximumSize( QSize(510,120) );
+	//layout()->setSizeConstraint(QLayout::SetFixedSize);
+
 	url_icon->setPixmap( Images::icon("url_big") );
 	url_edit->setFocus();
 
