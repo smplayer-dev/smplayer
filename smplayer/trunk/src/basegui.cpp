@@ -3405,10 +3405,21 @@ void BaseGui::openURL() {
 	InputURL d(this);
 
 	for (int n=0; n < pref->history_urls->count(); n++) {
+		#if AUTO_PLAYLIST
+		d.setURL( pref->history_urls->url(n) );
+		#else
 		d.setURL( pref->history_urls->url(n), pref->history_urls->isPlaylist(n) );
+		#endif
 	}
 
 	if (d.exec() == QDialog::Accepted ) {
+		#if AUTO_PLAYLIST
+		QString url = d.url();
+		if (!url.isEmpty()) {
+			pref->history_urls->addUrl(url);
+			openURL(url);
+		}
+		#else
 		QString url = d.url();
 		bool is_playlist = d.isPlaylist();
 		if (!url.isEmpty()) {
@@ -3416,6 +3427,7 @@ void BaseGui::openURL() {
 			if (is_playlist) url = url + IS_PLAYLIST_TAG;
 			openURL(url);
 		}
+		#endif
 	}
 }
 

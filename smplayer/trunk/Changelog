@@ -1,5 +1,9 @@
 [b]Version 0.7.0[/b]:
 
+(2012-01-12)
+ * Detect asx, m3u, pls, and ram streams and pass -playlist to mplayer, so
+   the user doesn't have to indicate if a url is a playlist.
+
 (2012-01-11)
  * Added an option in preferences -> performance to select the desired
    quality for youtube videos.

@@ -20,6 +20,7 @@
 #define _URLHISTORY_H_
 
 #include "recents.h"
+#include "config.h"
 
 class URLHistory : public Recents
 {
@@ -27,18 +28,24 @@ public:
 	URLHistory();
 	virtual ~URLHistory();
 
+#if AUTO_PLAYLIST
+	virtual void addUrl(QString url);
+#else
 	virtual void addUrl(QString url, bool is_playlist);
 
 	//! Adds an URL, autodetects if it's a playlist
 	virtual void addUrl(QString url);
+#endif
 
 	//! Returns the URL, without the playlist tag
 	virtual QString url(int n);
 
+#if !AUTO_PLAYLIST
 	//! Returns if the item at pos n is a playlist
 	virtual bool isPlaylist(int n);
 
 	static bool isPlaylist(QString url);
+#endif
 };
 
 #endif

@@ -31,6 +31,9 @@ InputURL::InputURL( QWidget* parent, Qt::WindowFlags f )
 	url_icon->setPixmap( Images::icon("url_big") );
 	url_edit->setFocus();
 
+#if AUTO_PLAYLIST
+	playlist_check->hide();
+#else
 	playlist_check->setWhatsThis( 
 		tr("If this option is checked, the URL will be treated as a playlist: "
         "it will be opened as text and will play the URLs in it.") );
@@ -38,19 +41,27 @@ InputURL::InputURL( QWidget* parent, Qt::WindowFlags f )
 	connect(url_edit, SIGNAL(editTextChanged(const QString &)), this, SLOT(textChanged(const QString &)));
 	connect(url_edit, SIGNAL(currentIndexChanged(int)), this, SLOT(indexChanged(int)));
 	connect(playlist_check, SIGNAL(stateChanged(int)), this, SLOT(playlistChanged(int)));
+#endif
 }
 
 InputURL::~InputURL() {
 }
 
+#if AUTO_PLAYLIST
+void InputURL::setURL(QString url) {
+	url_edit->addItem(url);
+}
+#else
 void InputURL::setURL(QString url, bool is_playlist) {
 	url_edit->addItem(url, is_playlist);
 }
+#endif
 
 QString InputURL::url() {
 	return url_edit->currentText().trimmed();
 }
 
+#if !AUTO_PLAYLIST
 void InputURL::setPlaylist(bool b) {
 	playlist_check->setChecked(b);
 	/*
@@ -93,5 +104,6 @@ void InputURL::playlistChanged(int state) {
 	}
 	*/
 }
+#endif
 
 #include "moc_inputurl.cpp"
