@@ -75,10 +75,17 @@ void Favorites::populateMenu() {
 	for (int n = 0; n < f_list.count(); n++) {
 		QString i = QString::number(n+1);
 		QString name = QString("%1 - " + f_list[n].name() ).arg( i.insert( i.size()-1, '&' ), 3, ' ' );
-		QAction * a = _menu->addAction( name );
-		a->setData( f_list[n].file() );
-		a->setIcon( QIcon( f_list[n].icon() ) );
-		a->setStatusTip( f_list[n].file() );
+		if (f_list[n].isSubentry()) {
+			Favorites * new_fav = new Favorites(f_list[n].file(), parent_widget);
+			QAction * a = _menu->addMenu(new_fav->menu());
+			a->setText( name );
+			a->setIcon( QIcon( f_list[n].icon() ) );
+		} else {
+			QAction * a = _menu->addAction( name );
+			a->setData( f_list[n].file() );
+			a->setIcon( QIcon( f_list[n].icon() ) );
+			a->setStatusTip( f_list[n].file() );
+		}
 	}
 }
 
@@ -168,7 +175,8 @@ void Favorites::save() {
 		for (int n = 0; n < f_list.count(); n++) {
 			stream << "#EXTINF:0,";
 			stream << f_list[n].name() << ",";
-			stream << f_list[n].icon() << "\n";
+			stream << f_list[n].icon() << ",";
+			stream << f_list[n].isSubentry() << "\n";
 			stream << f_list[n].file() << "\n";
 		}
         f.close();
@@ -179,7 +187,8 @@ void Favorites::load() {
 	qDebug("Favorites::load");
 
 	QRegExp m3u_id("^#EXTM3U|^#M3U");
-	QRegExp info("^#EXTINF:(.*),(.*),(.*)");
+	QRegExp info1("^#EXTINF:(.*),(.*),(.*)");
+	QRegExp info2("^#EXTINF:(.*),(.*),(.*),(.*)");
 
     QFile f( _filename );
     if ( f.open( QIODevice::ReadOnly ) ) {
@@ -194,15 +203,25 @@ void Favorites::load() {
         QString line;
         while ( !stream.atEnd() ) {
             line = stream.readLine(); // line of text excluding '\n'
+			//qDebug("info2.indexIn: %d", info2.indexIn(line));
+			//qDebug("info1.indexIn: %d", info1.indexIn(line));
             //qDebug( " * line: '%s'", line.toUtf8().data() );
 			if (m3u_id.indexIn(line)!=-1) {
 				//#EXTM3U
 				// Ignore line
 			}
 			else
-			if (info.indexIn(line) != -1) {
-				fav.setName( info.cap(2) );
-				fav.setIcon( info.cap(3) );
+			if (info2.indexIn(line) != -1) {
+				fav.setName( info2.cap(2) );
+				fav.setIcon( info2.cap(3) );
+				fav.setSubentry( info2.cap(4).toInt() == 1 );
+			} 
+			else
+			// Compatibility with old files
+			if (info1.indexIn(line) != -1) {
+				fav.setName( info1.cap(2) );
+				fav.setIcon( info1.cap(3) );
+				fav.setSubentry( false );
 			} 
 			else
 			if (line.startsWith("#")) {
@@ -218,6 +237,7 @@ void Favorites::load() {
 				fav.setName("");
 				fav.setFile("");
 				fav.setIcon("");
+				fav.setSubentry(false);
 			}
         }
         f.close();
