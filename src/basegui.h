@@ -52,6 +52,7 @@ class MyActionGroup;
 class PreferencesDialog;
 class MyServer;
 
+class Favorites;
 class TVList;
 
 class BaseGui : public QMainWindow
@@ -658,6 +659,8 @@ protected:
 	MplayerWindow *mplayerwindow;
 
 	MyServer * server;
+
+	Favorites * favorites;
 
 	TVList * tvlist;
 	TVList * radiolist;

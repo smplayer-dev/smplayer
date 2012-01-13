@@ -376,6 +376,7 @@ BaseGui::~BaseGui() {
 	delete mplayer_log_window;
 	delete smplayer_log_window;
 
+	delete favorites;
 	delete tvlist;
 	delete radiolist;
 
@@ -441,6 +442,15 @@ void BaseGui::createActions() {
 
 	clearRecentsAct = new MyAction( this, "clear_recents" );
 	connect( clearRecentsAct, SIGNAL(triggered()), this, SLOT(clearRecentsList()) );
+
+	// Favorites
+	favorites = new Favorites(Paths::configPath() + "/favorites.m3u8", this);
+	favorites->menu()->menuAction()->setObjectName( "favorites_menu" );
+	addAction(favorites->editAct());
+	addAction(favorites->jumpAct());
+	addAction(favorites->nextAct());
+	addAction(favorites->previousAct());
+	connect(favorites, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 
 	// TV and Radio
 	tvlist = new TVList(pref->check_channels_conf_on_startup, 
@@ -1462,6 +1472,9 @@ void BaseGui::retranslateStrings() {
 	openURLAct->change( Images::icon("url"), tr("&URL...") );
 	exitAct->change( Images::icon("close"), tr("C&lose") );
 
+	// Favorites
+	favorites->editAct()->setText( tr("&Edit...") );
+
 	// TV & Radio submenus
 	tvlist->editAct()->setText( tr("&Edit...") );
 	radiolist->editAct()->setText( tr("&Edit...") );
@@ -1692,6 +1705,9 @@ void BaseGui::retranslateStrings() {
 	recentfiles_menu->menuAction()->setText( tr("&Recent files") );
 	recentfiles_menu->menuAction()->setIcon( Images::icon("recents") );
 	clearRecentsAct->change( Images::icon("delete"), tr("&Clear") );
+
+	favorites->menu()->menuAction()->setText( tr("&Favorites") );
+	favorites->menu()->menuAction()->setIcon( Images::icon("open_favorites") );
 
 	tvlist->menu()->menuAction()->setText( tr("&TV") );
 	tvlist->menu()->menuAction()->setIcon( Images::icon("open_tv") );
@@ -2121,7 +2137,7 @@ void BaseGui::createMenus() {
 	videoMenu = menuBar()->addMenu("Video");
 	audioMenu = menuBar()->addMenu("Audio");
 	subtitlesMenu = menuBar()->addMenu("Subtitles");
-	browseMenu = menuBar()->addMenu("Browwse");
+	browseMenu = menuBar()->addMenu("Browse");
 	optionsMenu = menuBar()->addMenu("Options");
 	helpMenu = menuBar()->addMenu("Help");
 
@@ -2141,6 +2157,7 @@ void BaseGui::createMenus() {
 	openMenu->addAction(openVCDAct);
 	openMenu->addAction(openAudioCDAct);
 	openMenu->addAction(openURLAct);
+	openMenu->addMenu(favorites->menu());
 	openMenu->addMenu(tvlist->menu());
 	openMenu->addMenu(radiolist->menu());
 
