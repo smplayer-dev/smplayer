@@ -21,6 +21,7 @@
 #include <QCoreApplication>
 #include "discname.h"
 #include "constants.h"
+#include "config.h"
 #include "images.h"
 
 
@@ -68,9 +69,11 @@ QString InfoFile::getInfo(MediaData md) {
                                   .arg(fi.size()/1048576) );
 	} else {
 		QString url = md.filename;
+#if !AUTO_PLAYLIST
 		if (url.endsWith(IS_PLAYLIST_TAG)) {
 			url = url.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
 		}
+#endif
 		s += addItem( tr("URL"), url );
 	}
 	s += addItem( tr("Length"), Helper::formatTime((int)md.duration) );

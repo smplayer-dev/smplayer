@@ -20,6 +20,7 @@
 #include <QObject>
 #include <QApplication>
 #include <QFileInfo>
+#include "config.h"
 
 QString CLHelp::formatText(QString s, int col) {
 	QString res = "";
@@ -88,7 +89,11 @@ QString CLHelp::help(bool html) {
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
                         "[-sub %5] [-pos x y] [-size %6 %7] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
+						#if AUTO_PLAYLIST
+                        "[%8] [%8]...")
+						#else
                         "[[-playlist] %8] [[-playlist] %8]...")
+						#endif
                         .arg(app_name)
                         .arg(QObject::tr("directory"))
                         .arg(QObject::tr("action_name"))
@@ -169,6 +174,12 @@ QString CLHelp::help(bool html) {
         "this option will be ignored and the "
         "files will be opened in a new instance."), html );
 
+#if AUTO_PLAYLIST
+	s += formatHelp( QObject::tr("media"), QObject::tr(
+		"'media' is any kind of file that SMPlayer can open. It can "
+        "be a local file, a DVD (e.g. dvd://1), an Internet stream "
+        "(e.g. mms://....) or a local playlist in format m3u or pls."), html );
+#else
 	s += formatHelp( QObject::tr("media"), QObject::tr(
 		"'media' is any kind of file that SMPlayer can open. It can "
         "be a local file, a DVD (e.g. dvd://1), an Internet stream "
@@ -176,6 +187,7 @@ QString CLHelp::help(bool html) {
         "If the -playlist option is used, that means that SMPlayer "
         "will pass the -playlist option to MPlayer, so MPlayer will "
         "handle the playlist, not SMPlayer."), html );
+#endif
 
 	if (html) s += "</table>";
 
