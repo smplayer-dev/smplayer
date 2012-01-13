@@ -37,13 +37,9 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 	parent_widget = parent;
 
 	current_file = QString::null;
-	last_item = 1;
 
 	edit_act = new QAction( "Edit...", this);
 	connect(edit_act, SIGNAL(triggered()), this, SLOT(edit()));
-
-	jump_act = new QAction( "Jump...", this);
-	connect(jump_act, SIGNAL(triggered()), this, SLOT(jump()));
 
 	next_act = new QAction(this);
 	connect(next_act, SIGNAL(triggered()), this, SLOT(next()));
@@ -70,7 +66,6 @@ void Favorites::createMenu() {
              this, SLOT(triggered_slot(QAction *)) );
 
 	_menu->addAction(edit_act);
-	//_menu->addAction(jump_act);
 	_menu->addSeparator();
 
 	populateMenu();
@@ -244,20 +239,6 @@ void Favorites::edit() {
 			qDebug("item %d: name: '%s' file: '%s'", n, f_list[n].name().toUtf8().constData(), f_list[n].file().toUtf8().constData());
 		}
 		*/
-	}
-}
-
-void Favorites::jump() {
-	qDebug("Favorites::jump");
-
-	bool ok;
-	int item = QInputDialog::getInteger(parent_widget, tr("Jump to item"),
-                          tr("Enter the number of the item in the list to jump:"), 
-                          last_item, 1, f_list.count(), 1, &ok);
-	if (ok) {
-		last_item = item;
-		item--;
-		_menu->actions()[item+FIRST_MENU_ENTRY]->trigger();
 	}
 }
 
