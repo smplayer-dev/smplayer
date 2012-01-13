@@ -17,7 +17,6 @@
 */
 
 #include "urlhistory.h"
-#include "constants.h"
 
 URLHistory::URLHistory() : Recents() 
 {
@@ -27,22 +26,13 @@ URLHistory::URLHistory() : Recents()
 URLHistory::~URLHistory() {
 }
 
-#if AUTO_PLAYLIST
 void URLHistory::addUrl(QString url) {
-#else
-void URLHistory::addUrl(QString url, bool is_playlist) {
-#endif
 	qDebug("Recents::addItem: '%s'", url.toUtf8().data());
 
 	// Delete duplicates
 	QStringList::iterator iterator = l.begin();
 	while (iterator != l.end()) {
 		QString s = (*iterator);
-#if !AUTO_PLAYLIST
-		if (isPlaylist(s)) {
-			s = s.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
-		}
-#endif
 		if (s == url) 
 			iterator = l.erase(iterator);
 		else
@@ -50,37 +40,13 @@ void URLHistory::addUrl(QString url, bool is_playlist) {
 	}
 
 	// Add new item to list
-#if !AUTO_PLAYLIST
-	if (is_playlist) url = url + IS_PLAYLIST_TAG;
-#endif
 	l.prepend(url);
 
 	if (l.count() > max_items) l.removeLast();
 }
 
-#if !AUTO_PLAYLIST
-void URLHistory::addUrl(QString url) {
-
-	bool is_playlist = isPlaylist(url);
-	if (is_playlist) url = url.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
-	addUrl(url, is_playlist);
-}
-#endif
-
 QString URLHistory::url(int n) {
 	QString s = l[n];
-#if !AUTO_PLAYLIST
-	if (isPlaylist(n)) s = s.remove( QRegExp(IS_PLAYLIST_TAG_RX) );
-#endif
 	return s;
 }
 
-#if !AUTO_PLAYLIST
-bool URLHistory::isPlaylist(int n) {
-	return isPlaylist(l[n]);
-}
-
-bool URLHistory::isPlaylist(QString url) {
-	return url.endsWith(IS_PLAYLIST_TAG);
-}
-#endif
