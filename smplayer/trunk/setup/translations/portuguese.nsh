@@ -1,4 +1,4 @@
-;Language: Portuguese (2070)
+﻿;Language: Portuguese (2070)
 ;Portuguese language strings for the Windows SMPlayer NSIS installer.
 ;
 ;Save file as UTF-8 w/ BOM
@@ -69,7 +69,7 @@ ${LangFileString} StartBtn "Iniciar"
 ; MPlayer Section
 ${LangFileString} MPlayer_DL_Msg "A transferir o MPlayer..."
 ${LangFileString} MPlayer_DL_Retry "O MPlayer não foi instalado corretamente. Tentar novamente?"
-${LangFileString} MPlayer_DL_Failed "Falha ao transferir o MPlayer: "$R0"."
+${LangFileString} MPlayer_DL_Failed "Falha ao transferir o MPlayer: '$R0'."
 ${LangFileString} MPlayer_Inst_Failed "Falha ao instalar o MPlayer. O MPlayer é necessário para reproduzir ficheiros."
 
 ; Codecs Section
@@ -80,12 +80,12 @@ ${LangFileString} Codecs_Inst_Failed "Falha ao instalar os codificadores MPlayer
 
 ; Version information
 ${LangFileString} VerInfo_DL_Msg "A transferir informações da versão..."
-${LangFileString} VerInfo_DL_Failed "Ocorreu um erro ao transferir ao informações da versão: "$R0". A utilizar versão padrão."
+${LangFileString} VerInfo_DL_Failed "Ocorreu um erro ao transferir ao informações da versão: '$R0'. A utilizar versão padrão."
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Esta aplicação só pode ser desinstalada no modo de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalação cancelada pelo utilizador."
-${LangFileString} Uninstaller_NotInstalled "Parece que o SMPlayer não está instalado no diretório "$INSTDIR".$\r$\nContinuar (não recomendado)?"
+${LangFileString} Uninstaller_NotInstalled "Parece que o SMPlayer não está instalado no diretório '$INSTDIR'.$\r$\nContinuar (não recomendado)?"
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "O SMPlayer é um interface gráfico para o MPlayer, com funções simples como a reprodução de vídeos, DVDs e VCDs bem como outras mais avançadas(suporte a filtros MPlayer, listas e mais)."
