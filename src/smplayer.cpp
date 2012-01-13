@@ -24,7 +24,6 @@
 #include "paths.h"
 #include "translator.h"
 #include "version.h"
-#include "constants.h"
 #include "config.h"
 #include "myclient.h"
 #include "clhelp.h"
@@ -117,10 +116,6 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	if (!pref->gui.isEmpty()) gui_to_use = pref->gui;
 	bool add_to_playlist = false;
 
-#if !AUTO_PLAYLIST
-	bool is_playlist = false;
-#endif
-
 #ifdef Q_OS_WIN
 	if (args.contains("-uninstall")){
 #if USE_ASSOCIATIONS
@@ -201,12 +196,6 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 				return ErrorArgument;
 			}
 		}
-#if !AUTO_PLAYLIST
-		else
-		if (argument == "-playlist") {
-			is_playlist = true;
-		}
-#endif
 		else
 		if ((argument == "--help") || (argument == "-help") ||
             (argument == "-h") || (argument == "-?") ) 
@@ -250,12 +239,6 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			if (QFile::exists( argument )) {
 				argument = QFileInfo(argument).absoluteFilePath();
 			}
-			#if !AUTO_PLAYLIST
-			if (is_playlist) {
-				argument = argument + IS_PLAYLIST_TAG;
-				is_playlist = false;
-			}
-			#endif
 			files_to_play.append( argument );
 		}
 	}

@@ -21,7 +21,6 @@
 
 #include "ui_inputurl.h"
 #include <QDialog>
-#include "config.h"
 
 class InputURL : public QDialog, public Ui::InputURL
 {
@@ -31,22 +30,8 @@ public:
 	InputURL( QWidget* parent = 0, Qt::WindowFlags f = 0 );
 	~InputURL();
 
-#if AUTO_PLAYLIST
 	void setURL(QString url);
-#else
-	void setURL(QString url, bool is_playlist);
-#endif
 	QString url();
-
-#if !AUTO_PLAYLIST
-	void setPlaylist(bool b);
-	bool isPlaylist();
-
-protected slots:
-	void indexChanged(int);
-	void textChanged(const QString &);
-	void playlistChanged(int);
-#endif
 };
 
 #endif

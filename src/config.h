@@ -146,13 +146,4 @@
 #define YOUTUBE_SUPPORT 1
 
 
-// If 1, smplayer will pass the option -playlist to mplayer
-// if the file extension is pls, m3u, ram or asx.
-
-#define AUTO_PLAYLIST 1
-#if !AUTO_PLAYLIST
-#define IS_PLAYLIST_TAG "|smplayer:isplaylist"
-#define IS_PLAYLIST_TAG_RX "\\|smplayer\\:isplaylist$"
-#endif
-
 #endif
