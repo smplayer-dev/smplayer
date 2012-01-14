@@ -1699,7 +1699,7 @@ void BaseGui::retranslateStrings() {
 	recentfiles_menu->menuAction()->setIcon( Images::icon("recents") );
 	clearRecentsAct->change( Images::icon("delete"), tr("&Clear") );
 
-	favorites->menu()->menuAction()->setText( tr("&Favorites") );
+	favorites->menu()->menuAction()->setText( tr("Favorit&es") );
 	favorites->menu()->menuAction()->setIcon( Images::icon("open_favorites") );
 
 	tvlist->menu()->menuAction()->setText( tr("&TV") );
