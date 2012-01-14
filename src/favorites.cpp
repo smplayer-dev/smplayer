@@ -39,10 +39,10 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 	current_file = QString::null;
 	last_item = 1;
 
-	edit_act = new QAction( "Edit...", this);
+	edit_act = new QAction( tr("&Edit..."), this);
 	connect(edit_act, SIGNAL(triggered()), this, SLOT(edit()));
 
-	jump_act = new QAction( "Jump...", this);
+	jump_act = new QAction( tr("&Jump..."), this);
 	connect(jump_act, SIGNAL(triggered()), this, SLOT(jump()));
 
 	next_act = new QAction(this);
@@ -258,6 +258,7 @@ void Favorites::edit() {
 
 	if (e.exec() == QDialog::Accepted) {
 		f_list = e.data();
+		save();
 		updateMenu();
 		/*
 		for (int n = 0; n < f_list.count(); n++) {
