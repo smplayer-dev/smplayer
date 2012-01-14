@@ -655,7 +655,7 @@ SectionGroup $(Section_Translations) SecTranslations
     File "smplayer-build\translations\smplayer_vi_VN.qm"
   ${MementoSectionEnd}
 
-  ${MementoSection} "简化字" SecLang_ZHCN
+  ${MementoSection} "简体中文" SecLang_ZHCN
     SetOutPath "$INSTDIR\translations"
     File "smplayer-build\translations\smplayer_zh_CN.qm"
   ${MementoSectionEnd}
