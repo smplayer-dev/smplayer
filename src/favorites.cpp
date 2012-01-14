@@ -25,6 +25,7 @@
 #include <QFile>
 #include <QTextStream>
 #include <QInputDialog>
+#include <QFileInfo>
 
 //#define FIRST_MENU_ENTRY 3
 #define FIRST_MENU_ENTRY 2
@@ -265,6 +266,7 @@ void Favorites::edit() {
 	FavoriteEditor e(parent_widget);
 
 	e.setData(f_list);
+	e.setStorePath( QFileInfo(_filename).absolutePath() );
 
 	if (e.exec() == QDialog::Accepted) {
 		f_list = e.data();

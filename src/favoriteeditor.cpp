@@ -97,6 +97,7 @@ void FavoriteEditor::setData( FavoriteList list ) {
 		name_item->setText( list[n].name() );
 
 		QTableWidgetItem * file_item = new QTableWidgetItem;
+		file_item->setData( Qt::ToolTipRole, list[n].file() );
 		file_item->setData( Qt::UserRole, list[n].isSubentry() );
 		if (list[n].isSubentry()) {
 			file_item->setFlags(0);
@@ -161,6 +162,44 @@ void FavoriteEditor::on_add_button_clicked() {
 	table->setItem(row, COL_ICON, icon_item);
 	table->setItem(row, COL_NAME, new QTableWidgetItem);
 	table->setItem(row, COL_FILE, new QTableWidgetItem);
+
+	table->setCurrentCell(row, table->currentColumn());
+}
+
+void FavoriteEditor::on_add_submenu_button_clicked() {
+	qDebug("FavoriteEditor::on_add_submenu_button_clicked");
+	qDebug("FavoriteEditor::on_add_submenu_button_clicked: store_path: '%s'", store_path.toUtf8().constData());
+
+	QString filename;
+	//QString s;
+	int n = 1;
+	do {
+		filename = QString("favorites%1.m3u8").arg(n, 4, 10, QChar('0'));
+		if (!store_path.isEmpty()) filename = store_path +"/"+ filename;
+		qDebug("FavoriteEditor::on_add_submenu_button_clicked: filename: '%s'", filename.toUtf8().constData());
+		n++;
+	} while (QFile::exists(filename));
+
+	qDebug("FavoriteEditor::on_add_submenu_button_clicked: choosen filename: '%s'", filename.toUtf8().constData());
+
+
+	int row = table->currentRow();
+	row++;
+	table->insertRow(row);
+
+	QTableWidgetItem * icon_item = new QTableWidgetItem;
+	icon_item->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
+
+	table->setItem(row, COL_ICON, icon_item);
+	table->setItem(row, COL_NAME, new QTableWidgetItem);
+
+	QTableWidgetItem * file_item = new QTableWidgetItem;
+	file_item->setData( Qt::UserRole, true );
+	file_item->setFlags(0);
+	file_item->setData( Qt::UserRole + 1, filename );
+	file_item->setText( tr("Favorite list") );
+	file_item->setData( Qt::ToolTipRole, filename );
+	table->setItem(row, COL_FILE, file_item);
 
 	table->setCurrentCell(row, table->currentColumn());
 }
