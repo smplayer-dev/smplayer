@@ -63,6 +63,7 @@ public:
 
 	QMenu * menu();
 	QAction * editAct() { return edit_act; };
+	QAction * jumpAct() { return jump_act; };
 	QAction * nextAct() { return next_act; };
 	QAction * previousAct() { return previous_act; };
 
@@ -88,12 +89,14 @@ protected:
 protected slots:
 	void triggered_slot(QAction * action);
 	virtual void edit();
+	virtual void jump();
 
 protected:
 	FavoriteList f_list;
 	QString _filename;
 	QMenu * _menu;
 	QAction * edit_act;
+	QAction * jump_act;
 	QAction * next_act;
 	QAction * previous_act;
 
@@ -101,6 +104,9 @@ protected:
 
 	// Current (or last) file clicked
 	QString current_file;
+
+	// Last item selected in the jump dialog
+	int last_item;
 };
 
 #endif
