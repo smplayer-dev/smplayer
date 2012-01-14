@@ -31,6 +31,13 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 
+	add_button->setIcon( Images::icon("bookmark_add") );
+	add_submenu_button->setIcon( Images::icon("bookmark_folder") );
+	delete_button->setIcon( Images::icon("delete") );
+	delete_all_button->setIcon( Images::icon("trash") );
+	up_button->setIcon( Images::icon("up") );
+	down_button->setIcon( Images::icon("down") );
+
 	table->setColumnCount(3);
 	table->setHorizontalHeaderLabels(QStringList() << tr("Icon") << tr("Name") << tr("Media") );
 
@@ -188,6 +195,8 @@ void FavoriteEditor::on_add_submenu_button_clicked() {
 	table->insertRow(row);
 
 	QTableWidgetItem * icon_item = new QTableWidgetItem;
+	icon_item->setData( Qt::UserRole, ":/icons-png/openfolder.png");
+	icon_item->setIcon( QIcon(":/icons-png/openfolder.png") );
 	icon_item->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 
 	table->setItem(row, COL_ICON, icon_item);

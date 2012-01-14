@@ -118,6 +118,9 @@
         <file>icons-png/a_marker.png</file>
         <file>icons-png/b_marker.png</file>
         <file>icons-png/donate.png</file>
+        <file>icons-png/bookmark_add.png</file>
+        <file>icons-png/bookmark_folder.png</file>
+        <file>icons-png/trash.png</file>
         <file>mpcgui/mpc_toolbar.png</file>
         <file>mpcgui/mpc_mono.png</file>
         <file>mpcgui/mpc_stereo.png</file>
