@@ -107,6 +107,10 @@ protected:
 
 	// Last item selected in the jump dialog
 	int last_item;
+
+	/*
+	QList<Favorites*> childs;
+	*/
 };
 
 #endif

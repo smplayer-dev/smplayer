@@ -55,7 +55,14 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 }
 
 Favorites::~Favorites() {
+	qDebug("Favorites::~Favorites");
+
 	save();
+	/*
+	for (int n=0; n < childs.count(); n++) {
+		delete childs[n];
+	}
+	*/
 	if (_menu != 0) delete _menu;
 }
 
@@ -82,6 +89,9 @@ void Favorites::populateMenu() {
 		QString name = QString("%1 - " + f_list[n].name() ).arg( i.insert( i.size()-1, '&' ), 3, ' ' );
 		if (f_list[n].isSubentry()) {
 			Favorites * new_fav = new Favorites(f_list[n].file(), parent_widget);
+			/*
+			childs.push_back(new_fav);
+			*/
 			QAction * a = _menu->addMenu(new_fav->menu());
 			a->setText( name );
 			a->setIcon( QIcon( f_list[n].icon() ) );
