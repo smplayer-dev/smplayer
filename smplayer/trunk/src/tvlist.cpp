@@ -90,6 +90,7 @@ void TVList::edit() {
 	e.setDialogIcon( Images::icon("open_tv") );
 
 	e.setData(f_list);
+	e.setStorePath( QFileInfo(_filename).absolutePath() );
 
 	if (e.exec() == QDialog::Accepted) {
 		f_list = e.data();

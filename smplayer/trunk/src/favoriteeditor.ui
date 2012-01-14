@@ -5,8 +5,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>515</width>
-    <height>422</height>
+    <width>562</width>
+    <height>504</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" >
@@ -44,67 +44,106 @@
     <widget class="QTableWidget" name="table" />
    </item>
    <item>
-    <layout class="QHBoxLayout" >
-     <item>
+    <layout class="QGridLayout" >
+     <item row="0" column="0" >
       <widget class="QPushButton" name="add_button" >
        <property name="text" >
-        <string>&amp;New</string>
+        <string>&amp;New item</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="0" column="1" >
       <spacer>
        <property name="orientation" >
         <enum>Qt::Horizontal</enum>
        </property>
        <property name="sizeHint" >
         <size>
-         <width>21</width>
-         <height>20</height>
+         <width>171</width>
+         <height>31</height>
         </size>
        </property>
       </spacer>
      </item>
-     <item>
+     <item row="0" column="2" >
       <widget class="QPushButton" name="delete_button" >
        <property name="text" >
         <string>D&amp;elete</string>
        </property>
       </widget>
      </item>
-     <item>
-      <widget class="QPushButton" name="delete_all_button" >
-       <property name="text" >
-        <string>Delete &amp;all</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <spacer>
-       <property name="orientation" >
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeHint" >
-        <size>
-         <width>31</width>
-         <height>31</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item>
+     <item row="0" column="4" >
       <widget class="QPushButton" name="up_button" >
        <property name="text" >
         <string>&amp;Up</string>
        </property>
       </widget>
      </item>
-     <item>
+     <item row="1" column="0" >
+      <widget class="QPushButton" name="add_submenu_button" >
+       <property name="text" >
+        <string>New &amp;submenu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" >
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>171</width>
+         <height>31</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="2" >
+      <widget class="QPushButton" name="delete_all_button" >
+       <property name="text" >
+        <string>Delete &amp;all</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4" >
       <widget class="QPushButton" name="down_button" >
        <property name="text" >
         <string>&amp;Down</string>
        </property>
       </widget>
+     </item>
+     <item row="0" column="3" >
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType" >
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="3" >
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType" >
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
      </item>
     </layout>
    </item>

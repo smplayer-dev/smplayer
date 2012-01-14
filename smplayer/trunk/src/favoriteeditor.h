@@ -44,12 +44,17 @@ public:
 	void setDialogIcon( const QPixmap & icon );
 	const QPixmap * dialogIcon() const;
 
+	//! The editor will give a filename to subentries (submenus), using this path.
+	void setStorePath(const QString & path) { store_path = path; }
+	QString storePath() { return store_path; }
+
 protected slots:
 	void on_up_button_clicked();
 	void on_down_button_clicked();
 	void on_delete_button_clicked();
 	void on_delete_all_button_clicked();
 	void on_add_button_clicked();
+	void on_add_submenu_button_clicked();
 
 	void edit_icon( int row, int column ); 
 
@@ -61,6 +66,7 @@ protected:
 
 	QString caption_text, intro_text;
 	QString last_dir;
+	QString store_path;
 };
 
 #endif
