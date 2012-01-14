@@ -226,6 +226,7 @@ QMap<QString,QString> Languages::translations() {
 	m["fi"] = tr("Finnish");
 	m["fr"] = tr("French");
 	m["gl"] = tr("Galician");
+	m["hr"] = tr("Croatian");
 	m["hu"] = tr("Hungarian");
 	m["it"] = tr("Italian");
 	m["ja"] = tr("Japanese");

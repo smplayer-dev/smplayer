@@ -1,4 +1,7 @@
-[b]Version 0.7.0[/b]:
+[b]Version 0.6.11[/b]:
+
+(2012-01-14)
+ * Added the Croatian translation, by jk <marshsmello@gmail.com>
 
 (2012-01-12)
  * Detect asx, m3u, pls, and ram streams and pass -playlist to mplayer, so
