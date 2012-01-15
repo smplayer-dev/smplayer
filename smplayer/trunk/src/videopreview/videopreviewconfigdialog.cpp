@@ -24,7 +24,7 @@ VideoPreviewConfigDialog::VideoPreviewConfigDialog( QWidget* parent, Qt::WindowF
 {
 	setupUi(this);
 
-	connect(filename_edit->lineEdit(), SIGNAL(textChanged(const QString &)),
+	connect(filename_edit, SIGNAL(textChanged(const QString &)),
             this, SLOT(filenameChanged(const QString &)) );
 
 	dvd_device_label->setVisible(false);

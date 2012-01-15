@@ -62,13 +62,13 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 
 	set = 0; // settings
 
-	subtitles_for_label->setBuddy(file_chooser->lineEdit());
+	subtitles_for_label->setBuddy(file_chooser);
 
 	progress->hide();
 
 	connect( file_chooser, SIGNAL(fileChanged(QString)),
              this, SLOT(setMovie(QString)) );
-	connect( file_chooser->lineEdit(), SIGNAL(textChanged(const QString &)),
+	connect( file_chooser, SIGNAL(textChanged(const QString &)),
              this, SLOT(updateRefreshButton()) );
 
 	connect( refresh_button, SIGNAL(clicked()),
