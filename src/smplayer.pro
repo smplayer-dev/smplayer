@@ -61,6 +61,7 @@ HEADERS += guiconfig.h \
 	filechooser.h \
 	vdpauproperties.h \
 	preferencesdialog.h \
+	mylineedit.h \
 	mycombobox.h \
 	tristatecombo.h \
 	languages.h \
@@ -159,6 +160,7 @@ SOURCES	+= version.cpp \
 	filechooser.cpp \
 	vdpauproperties.cpp \
 	preferencesdialog.cpp \
+	mylineedit.cpp \
 	mycombobox.cpp \
 	tristatecombo.cpp \
 	languages.cpp \
