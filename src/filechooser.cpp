@@ -17,6 +17,8 @@
 */
 
 #include "filechooser.h"
+#include <QToolButton>
+#include <QStyle>
 
 //#define NO_SMPLAYER_SUPPORT
 
@@ -27,40 +29,45 @@
 #include <QFileDialog>
 #endif
 
-FileChooser::FileChooser(QWidget * parent) : QWidget(parent) 
+FileChooser::FileChooser(QWidget * parent) : QLineEdit(parent) 
 {
-	setupUi(this);
-
-#ifndef NO_SMPLAYER_SUPPORT
-	button->setIcon(Images::icon("find"));
-#else
-	button->setIcon(QIcon(":/find"));
-#endif
-
 	setDialogType(GetFileName);
 	setOptions(0);
+
+    browse_button = new QToolButton(this);
+#ifdef NO_SMPLAYER_SUPPORT
+	QPixmap pixmap(":/find");
+#else
+    QPixmap pixmap = Images::icon("find");
+#endif
+    browse_button->setIcon(QIcon(pixmap));
+    //browse_button->setIconSize(pixmap.size());
+    browse_button->setCursor(Qt::ArrowCursor);
+    browse_button->setStyleSheet("QToolButton { border: none; padding: 0px; }");
+
+    connect(browse_button, SIGNAL(clicked()), this, SLOT(openFileDialog()));
+    int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
+    setStyleSheet(QString("QLineEdit { padding-right: %1px; } ").arg(browse_button->sizeHint().width() + frameWidth + 1));
+    /*
+    QSize msz = minimumSizeHint();
+    setMinimumSize(qMax(msz.width(), browse_button->sizeHint().height() + frameWidth * 2 + 2),
+                   qMax(msz.height(), browse_button->sizeHint().height() + frameWidth * 2 + 2));
+    */
 }
 
 FileChooser::~FileChooser() {
 }
 
-QLineEdit * FileChooser::lineEdit() {
-	return line_edit;
+void FileChooser::resizeEvent(QResizeEvent *) {
+    QSize sz = browse_button->sizeHint();
+    int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
+    browse_button->move(rect().right() - frameWidth - sz.width(),
+                      (rect().bottom() + 1 - sz.height())/2);
 }
 
-QToolButton * FileChooser::toolButton() {
-	return button;
-}
+void FileChooser::openFileDialog() {
+	qDebug("FileChooser::openFileDialog");
 
-QString FileChooser::text() const {
-	return line_edit->text();
-}
-
-void FileChooser::setText(const QString & text) {
-	line_edit->setText(text);
-}
-
-void FileChooser::on_button_clicked() {
 	QString result;
 	QString f;
 
@@ -74,7 +81,7 @@ void FileChooser::on_button_clicked() {
 		result = QFileDialog::getOpenFileName( 
 #endif
                         this, caption(),
-                        line_edit->text(),
+                        text(),
                         filter(), &f, opts );
 	}
 	else
@@ -88,12 +95,12 @@ void FileChooser::on_button_clicked() {
 		result = QFileDialog::getExistingDirectory(
 #endif
                     this, caption(),
-                    line_edit->text(), opts );
+                    text(), opts );
 	}
 
 	if (!result.isEmpty()) {
-		QString old_file = line_edit->text();
-		line_edit->setText(result);
+		QString old_file = text();
+		setText(result);
 		if (old_file != result) emit fileChanged(result);
 	}
 }

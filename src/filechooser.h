@@ -19,10 +19,12 @@
 #ifndef _FILECHOOSER_H_
 #define _FILECHOOSER_H_
 
-#include "ui_filechooser.h"
+#include <QLineEdit>
 #include <QFileDialog>
 
-class FileChooser : public QWidget, public Ui::FileChooser
+class QToolButton;
+
+class FileChooser : public QLineEdit
 {
     Q_OBJECT
 	Q_PROPERTY(QString text READ text WRITE setText)
@@ -37,17 +39,12 @@ public:
     FileChooser( QWidget* parent = 0 );
     ~FileChooser();
 
-	QLineEdit * lineEdit();
-	QToolButton * toolButton();
-
-	QString text() const;
 	QString caption() const { return _caption; };
 	QString filter() const { return _filter; };
 	DialogType dialogType() const { return _type; };
 	QFileDialog::Options options() const { return _options; };
 
 public slots:
-	void setText(const QString & text);
 	void setCaption(const QString & caption) { _caption = caption; };
 	void setFilter(const QString & filter) { _filter = filter; };
 	void setDialogType( DialogType type) { _type = type; };
@@ -56,14 +53,20 @@ public slots:
 signals:
 	void fileChanged(QString file);
 
+protected:
+    void resizeEvent(QResizeEvent *);
+
 protected slots:
-	virtual void on_button_clicked();
+	virtual void openFileDialog();
 
 protected:
 	QString _caption;
 	QString _filter;
 	DialogType _type;
 	QFileDialog::Options _options;
+
+private:
+    QToolButton * browse_button;
 };
 
 #endif
