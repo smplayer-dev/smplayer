@@ -29,40 +29,25 @@
 #include <QFileDialog>
 #endif
 
-FileChooser::FileChooser(QWidget * parent) : QLineEdit(parent) 
+FileChooser::FileChooser(QWidget * parent) : LineEditWithIcon(parent) 
 {
 	setDialogType(GetFileName);
 	setOptions(0);
 
-    browse_button = new QToolButton(this);
-#ifdef NO_SMPLAYER_SUPPORT
-	QPixmap pixmap(":/find");
-#else
-    QPixmap pixmap = Images::icon("find");
-#endif
-    browse_button->setIcon(QIcon(pixmap));
-    //browse_button->setIconSize(pixmap.size());
-    browse_button->setCursor(Qt::ArrowCursor);
-    browse_button->setStyleSheet("QToolButton { border: none; padding: 0px; }");
+	setupButton();
 
-    connect(browse_button, SIGNAL(clicked()), this, SLOT(openFileDialog()));
-    int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
-    setStyleSheet(QString("QLineEdit { padding-right: %1px; } ").arg(browse_button->sizeHint().width() + frameWidth + 1));
-    /*
-    QSize msz = minimumSizeHint();
-    setMinimumSize(qMax(msz.width(), browse_button->sizeHint().height() + frameWidth * 2 + 2),
-                   qMax(msz.height(), browse_button->sizeHint().height() + frameWidth * 2 + 2));
-    */
+	connect(button, SIGNAL(clicked()), this, SLOT(openFileDialog()));
 }
 
 FileChooser::~FileChooser() {
 }
 
-void FileChooser::resizeEvent(QResizeEvent *) {
-    QSize sz = browse_button->sizeHint();
-    int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
-    browse_button->move(rect().right() - frameWidth - sz.width(),
-                      (rect().bottom() + 1 - sz.height())/2);
+void FileChooser::setupButton() {
+#ifdef NO_SMPLAYER_SUPPORT
+	setIcon( QPixmap(":/find") );
+#else
+	setIcon( Images::icon("find") );
+#endif
 }
 
 void FileChooser::openFileDialog() {
@@ -106,4 +91,3 @@ void FileChooser::openFileDialog() {
 }
 
 #include "moc_filechooser.cpp"
-

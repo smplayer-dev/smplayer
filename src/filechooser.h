@@ -19,12 +19,12 @@
 #ifndef _FILECHOOSER_H_
 #define _FILECHOOSER_H_
 
-#include <QLineEdit>
+#include "lineedit_with_icon.h"
 #include <QFileDialog>
 
 class QToolButton;
 
-class FileChooser : public QLineEdit
+class FileChooser : public LineEditWithIcon
 {
     Q_OBJECT
 	Q_PROPERTY(QString text READ text WRITE setText)
@@ -54,7 +54,7 @@ signals:
 	void fileChanged(QString file);
 
 protected:
-    void resizeEvent(QResizeEvent *);
+	virtual void setupButton();
 
 protected slots:
 	virtual void openFileDialog();
@@ -64,9 +64,6 @@ protected:
 	QString _filter;
 	DialogType _type;
 	QFileDialog::Options _options;
-
-private:
-    QToolButton * browse_button;
 };
 
 #endif

@@ -16,26 +16,30 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef MYLINEEDIT_H
-#define MYLINEEDIT_H
+#ifndef LINEEDIT_WITH_ICON_H
+#define LINEEDIT_WITH_ICON_H
 
-#include "lineedit_with_icon.h"
+#include <QLineEdit>
 
 class QToolButton;
 
-class MyLineEdit : public LineEditWithIcon
+class LineEditWithIcon : public QLineEdit
 {
     Q_OBJECT
 
 public:
-    MyLineEdit(QWidget *parent = 0);
+    LineEditWithIcon(QWidget *parent = 0);
+
+	void setIcon(const QPixmap & pixmap);
 
 protected:
+    void resizeEvent(QResizeEvent *);
+	virtual void changeEvent(QEvent *);
 	virtual void setupButton();
 
-private slots:
-    void updateCloseButton(const QString &text);
+protected:
+    QToolButton *button;
 };
 
-#endif // MYLINEEDIT_H
+#endif
 
