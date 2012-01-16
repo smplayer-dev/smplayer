@@ -140,7 +140,7 @@ void Favorites::markCurrent() {
 		QString file = a->data().toString();
 		QFont f = a->font();
 
-		if (file == current_file) {
+		if ((!file.isEmpty()) && (file == current_file)) {
 			f.setBold(true);
 			a->setFont( f );
 		} else {
