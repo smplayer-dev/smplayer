@@ -80,6 +80,7 @@ protected:
 	virtual void createMenu();
 	virtual void updateMenu();
 	virtual void populateMenu();
+	virtual Favorites * createNewObject(QString filename, QWidget * parent);
 
 	int findFile(QString filename);
 

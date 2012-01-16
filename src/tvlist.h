@@ -39,6 +39,9 @@ protected:
 	void parse_channels_conf(Services services);
 #endif
 
+protected:
+	virtual Favorites * createNewObject(QString filename, QWidget * parent);
+
 protected slots:
 	virtual void edit();
 };

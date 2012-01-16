@@ -37,6 +37,10 @@ TVList::TVList(bool check_channels_conf, Services services, QString filename, QW
 TVList::~TVList() {
 }
 
+Favorites * TVList::createNewObject(QString filename, QWidget * parent) {
+	return new TVList(false, TV, filename, parent);
+}
+
 #ifndef Q_OS_WIN
 void TVList::parse_channels_conf(Services services) {
 	qDebug("TVList::parse_channels_conf");
