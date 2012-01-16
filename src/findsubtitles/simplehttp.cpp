@@ -41,8 +41,10 @@ void SimpleHttp::download(const QString & url) {
 	QUrl u(url);
 	setHost( u.host() );
 
+	/*
 	qDebug("u.path: %s", u.path().toLatin1().constData());
 	qDebug("u.query: %s", u.encodedQuery().constData());
+	*/
 
 	QString p = u.path();
 	if (!u.encodedQuery().isEmpty()) p += "?" + u.encodedQuery();
