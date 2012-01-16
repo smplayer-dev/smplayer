@@ -53,6 +53,7 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 	connect(previous_act, SIGNAL(triggered()), this, SLOT(previous()));
 
 	add_current_act = new QAction( "Add current media", this);
+	add_current_act->setEnabled(false);
 	connect(add_current_act, SIGNAL(triggered()), SLOT(addCurrentPlaying()));
 
 	load();
@@ -196,10 +197,15 @@ void Favorites::previous() {
 
 void Favorites::getCurrentMedia(const QString & filename, const QString & title) {
 	qDebug("Favorites::getCurrentMedia: '%s', '%s'", filename.toUtf8().constData(), title.toUtf8().constData());
-	received_file_playing = filename;
-	received_title = title;
 
-	emit sendCurrentMedia(filename, title);
+	if (!filename.isEmpty()) {
+		received_file_playing = filename;
+		received_title = title;
+
+		emit sendCurrentMedia(filename, title);
+
+		add_current_act->setEnabled(true);
+	}
 }
 
 void Favorites::addCurrentPlaying() {
