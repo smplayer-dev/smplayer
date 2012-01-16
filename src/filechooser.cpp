@@ -44,9 +44,9 @@ FileChooser::~FileChooser() {
 
 void FileChooser::setupButton() {
 #ifdef NO_SMPLAYER_SUPPORT
-	setIcon( QPixmap(":/find") );
+	setIcon( QPixmap(":/folder_open") );
 #else
-	setIcon( Images::icon("find") );
+	setIcon( Images::icon("folder_open") );
 #endif
 }
 
