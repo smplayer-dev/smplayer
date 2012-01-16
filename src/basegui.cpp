@@ -451,6 +451,8 @@ void BaseGui::createActions() {
 	addAction(favorites->nextAct());
 	addAction(favorites->previousAct());
 	connect(favorites, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+	connect(core, SIGNAL(mediaPlaying(const QString &, const QString &)),
+            favorites, SLOT(getCurrentMedia(const QString &, const QString &)));
 
 	// TV and Radio
 	tvlist = new TVList(pref->check_channels_conf_on_startup, 
@@ -467,6 +469,8 @@ void BaseGui::createActions() {
 	tvlist->editAct()->setObjectName("edit_tv_list");
 	tvlist->jumpAct()->setObjectName("jump_tv_list");
 	connect(tvlist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+	connect(core, SIGNAL(mediaPlaying(const QString &, const QString &)),
+            tvlist, SLOT(getCurrentMedia(const QString &, const QString &)));
 
 	radiolist = new TVList(pref->check_channels_conf_on_startup, 
                            TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
@@ -482,6 +486,8 @@ void BaseGui::createActions() {
 	radiolist->editAct()->setObjectName("edit_radio_list");
 	radiolist->jumpAct()->setObjectName("jump_radio_list");
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+	connect(core, SIGNAL(mediaPlaying(const QString &, const QString &)),
+            radiolist, SLOT(getCurrentMedia(const QString &, const QString &)));
 
 
 	// Menu Play
@@ -1474,10 +1480,13 @@ void BaseGui::retranslateStrings() {
 
 	// Favorites
 	favorites->editAct()->setText( tr("&Edit...") );
+	favorites->addCurrentAct()->setText( tr("&Add current media") );
 
 	// TV & Radio submenus
 	tvlist->editAct()->setText( tr("&Edit...") );
 	radiolist->editAct()->setText( tr("&Edit...") );
+	tvlist->addCurrentAct()->setText( tr("&Add current media") );
+	radiolist->addCurrentAct()->setText( tr("&Add current media") );
 	tvlist->jumpAct()->setText( tr("&Jump...") );
 	radiolist->jumpAct()->setText( tr("&Jump...") );
 	tvlist->nextAct()->setText( tr("Next TV channel") );
