@@ -84,12 +84,16 @@ void Favorites::createMenu() {
 	populateMenu();
 }
 
+Favorites * Favorites::createNewObject(QString filename, QWidget * parent) {
+	return new Favorites(filename, parent);
+}
+
 void Favorites::populateMenu() {
 	for (int n = 0; n < f_list.count(); n++) {
 		QString i = QString::number(n+1);
 		QString name = QString("%1 - " + f_list[n].name() ).arg( i.insert( i.size()-1, '&' ), 3, ' ' );
 		if (f_list[n].isSubentry()) {
-			Favorites * new_fav = new Favorites(f_list[n].file(), parent_widget);
+			Favorites * new_fav = createNewObject(f_list[n].file(), parent_widget);
 			/*
 			childs.push_back(new_fav);
 			*/
