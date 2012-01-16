@@ -107,7 +107,7 @@ void FavoriteEditor::setData( FavoriteList list ) {
 		file_item->setData( Qt::ToolTipRole, list[n].file() );
 		file_item->setData( Qt::UserRole, list[n].isSubentry() );
 		if (list[n].isSubentry()) {
-			file_item->setFlags(0);
+			file_item->setFlags(Qt::ItemIsSelectable);
 			file_item->setData( Qt::UserRole + 1, list[n].file() );
 			file_item->setText( tr("Favorite list") );
 		} else {
@@ -204,7 +204,7 @@ void FavoriteEditor::on_add_submenu_button_clicked() {
 
 	QTableWidgetItem * file_item = new QTableWidgetItem;
 	file_item->setData( Qt::UserRole, true );
-	file_item->setFlags(0);
+	file_item->setFlags(Qt::ItemIsSelectable);
 	file_item->setData( Qt::UserRole + 1, filename );
 	file_item->setText( tr("Favorite list") );
 	file_item->setData( Qt::ToolTipRole, filename );
