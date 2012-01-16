@@ -35,6 +35,7 @@ FileChooser::FileChooser(QWidget * parent) : LineEditWithIcon(parent)
 	setOptions(0);
 
 	setupButton();
+	button->setCursor( Qt::PointingHandCursor );
 
 	connect(button, SIGNAL(clicked()), this, SLOT(openFileDialog()));
 }
@@ -48,6 +49,7 @@ void FileChooser::setupButton() {
 #else
 	setIcon( Images::icon("folder_open") );
 #endif
+	button->setToolTip( tr("Click to select a file or folder") );
 }
 
 void FileChooser::openFileDialog() {
