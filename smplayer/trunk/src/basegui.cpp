@@ -1715,8 +1715,11 @@ void BaseGui::retranslateStrings() {
 	recentfiles_menu->menuAction()->setIcon( Images::icon("recents") );
 	clearRecentsAct->change( Images::icon("delete"), tr("&Clear") );
 
+	favorites->menu()->menuAction()->setText( tr("&Favorites") );
+	/*
 	favorites->menu()->menuAction()->setText( tr("Favorit&es") );
-	favorites->menu()->menuAction()->setIcon( Images::icon("open_favorites") );
+	favorites->menu()->menuAction()->setIcon( Images::icon("open_favorites") ); 
+	*/
 
 	tvlist->menu()->menuAction()->setText( tr("&TV") );
 	tvlist->menu()->menuAction()->setIcon( Images::icon("open_tv") );
@@ -2146,6 +2149,7 @@ void BaseGui::createMenus() {
 	videoMenu = menuBar()->addMenu("Video");
 	audioMenu = menuBar()->addMenu("Audio");
 	subtitlesMenu = menuBar()->addMenu("Subtitles");
+	menuBar()->addMenu(favorites->menu());
 	browseMenu = menuBar()->addMenu("Browse");
 	optionsMenu = menuBar()->addMenu("Options");
 	helpMenu = menuBar()->addMenu("Help");
@@ -2166,7 +2170,7 @@ void BaseGui::createMenus() {
 	openMenu->addAction(openVCDAct);
 	openMenu->addAction(openAudioCDAct);
 	openMenu->addAction(openURLAct);
-	openMenu->addMenu(favorites->menu());
+	/* openMenu->addMenu(favorites->menu()); */
 	openMenu->addMenu(tvlist->menu());
 	openMenu->addMenu(radiolist->menu());
 
@@ -2500,6 +2504,7 @@ void BaseGui::createMenus() {
 	popup->addMenu( videoMenu );
 	popup->addMenu( audioMenu );
 	popup->addMenu( subtitlesMenu );
+	popup->addMenu(favorites->menu());
 	popup->addMenu( browseMenu );
 	popup->addMenu( optionsMenu );
 
