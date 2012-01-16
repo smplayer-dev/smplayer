@@ -229,7 +229,6 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui favoriteeditor.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
-        filechooser.ui \
         findsubtitles/findsubtitleswindow.ui findsubtitles/findsubtitlesconfigdialog.ui \
         videopreview/videopreviewconfigdialog.ui
 
