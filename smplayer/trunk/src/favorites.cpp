@@ -40,10 +40,10 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 	current_file = QString::null;
 	last_item = 1;
 
-	edit_act = new QAction( tr("&Edit..."), this);
+	edit_act = new QAction( "Edit...", this);
 	connect(edit_act, SIGNAL(triggered()), this, SLOT(edit()));
 
-	jump_act = new QAction( tr("&Jump..."), this);
+	jump_act = new QAction( "Jump...", this);
 	connect(jump_act, SIGNAL(triggered()), this, SLOT(jump()));
 
 	next_act = new QAction(this);
@@ -94,6 +94,10 @@ void Favorites::populateMenu() {
 		QString name = QString("%1 - " + f_list[n].name() ).arg( i.insert( i.size()-1, '&' ), 3, ' ' );
 		if (f_list[n].isSubentry()) {
 			Favorites * new_fav = createNewObject(f_list[n].file(), parent_widget);
+			new_fav->editAct()->setText( editAct()->text() );
+			new_fav->jumpAct()->setText( jumpAct()->text() );
+			new_fav->nextAct()->setText( nextAct()->text() );
+			new_fav->previousAct()->setText( previousAct()->text() );
 			/*
 			childs.push_back(new_fav);
 			*/
