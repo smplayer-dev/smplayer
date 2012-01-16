@@ -1,9 +1,9 @@
 CONFIG += debug
 
-HEADERS = ../filechooser.h videopreviewconfigdialog.h videopreview.h 
-SOURCES = ../filechooser.cpp videopreviewconfigdialog.cpp videopreview.cpp main.cpp
+HEADERS = ../lineedit_with_icon.h ../filechooser.h videopreviewconfigdialog.h videopreview.h 
+SOURCES = ../lineedit_with_icon.cpp ../filechooser.cpp videopreviewconfigdialog.cpp videopreview.cpp main.cpp
 
-FORMS = ../filechooser.ui videopreviewconfigdialog.ui
+FORMS = videopreviewconfigdialog.ui
 
 INCLUDEPATH += ..
 DEPENDPATH += ..
