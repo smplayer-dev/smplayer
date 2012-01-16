@@ -66,13 +66,18 @@ public:
 	QAction * jumpAct() { return jump_act; };
 	QAction * nextAct() { return next_act; };
 	QAction * previousAct() { return previous_act; };
+	QAction * addCurrentAct() { return add_current_act; };
 
 public slots:
 	void next();
 	void previous();
 
+	void getCurrentMedia(const QString & filename, const QString & title);
+
 signals:
 	void activated(QString filemane);
+	//! Signal to resend the data to child
+	void sendCurrentMedia(const QString & filename, const QString & title);
 
 protected:
 	virtual void save();
@@ -91,6 +96,7 @@ protected slots:
 	void triggered_slot(QAction * action);
 	virtual void edit();
 	virtual void jump();
+	virtual void addCurrentPlaying(); // Adds to menu current (or last played) file
 
 protected:
 	FavoriteList f_list;
@@ -100,6 +106,7 @@ protected:
 	QAction * jump_act;
 	QAction * next_act;
 	QAction * previous_act;
+	QAction * add_current_act;
 
 	QWidget * parent_widget;
 
@@ -108,6 +115,9 @@ protected:
 
 	// Last item selected in the jump dialog
 	int last_item;
+
+	QString received_file_playing;
+	QString received_title;
 
 	/*
 	QList<Favorites*> childs;

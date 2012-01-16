@@ -203,6 +203,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( this, SIGNAL(stateChanged(Core::State)), 
 	         this, SLOT(watchState(Core::State)) );
 
+	connect( this, SIGNAL(mediaInfoChanged()), this, SLOT(sendMediaInfo()) );
+
 	connect( proc, SIGNAL(error(QProcess::ProcessError)), 
              this, SIGNAL(mplayerFailed(QProcess::ProcessError)) );
 
@@ -3928,6 +3930,11 @@ void Core::streamTitleAndUrlChanged(QString title, QString url) {
 	mdat.stream_title = title;
 	mdat.stream_url = url;
 	emit mediaInfoChanged();
+}
+
+void Core::sendMediaInfo() {
+	qDebug("Core::sendMediaInfo");
+	emit mediaPlaying(mdat.filename, mdat.displayName(pref->show_tag_in_window_title));
 }
 
 //!  Called when the state changes

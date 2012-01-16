@@ -360,6 +360,9 @@ protected slots:
 
 	void streamTitleChanged(QString);
 	void streamTitleAndUrlChanged(QString,QString);
+
+	// Catches mediaInfoChanged and sends mediaPlaying signal
+	void sendMediaInfo();
 	
 	void watchState(Core::State state);
 
@@ -412,6 +415,8 @@ signals:
 	void aboutToStartPlaying(); // Signal emited just before to start mplayer
 	void mediaLoaded();
 	void mediaInfoChanged();
+	//! Sends the filename and title of the stream playing in this moment
+	void mediaPlaying(const QString & filename, const QString & title);
     void stateChanged(Core::State state);
 	void mediaStartPlay();
 	void mediaFinished(); // Media has arrived to the end.
