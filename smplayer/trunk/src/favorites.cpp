@@ -63,12 +63,18 @@ Favorites::~Favorites() {
 	qDebug("Favorites::~Favorites");
 
 	save();
-	/*
-	for (int n=0; n < childs.count(); n++) {
-		delete childs[n];
-	}
-	*/
+
+	delete_children();
+
 	if (_menu != 0) delete _menu;
+}
+
+void Favorites::delete_children() {
+	for (int n=0; n < child.count(); n++) {
+		if (child[n]) delete child[n];
+		child[n] = 0;
+	}
+	child.clear();
 }
 
 QMenu * Favorites::menu() {
@@ -106,9 +112,9 @@ void Favorites::populateMenu() {
 			new_fav->nextAct()->setText( nextAct()->text() );
 			new_fav->previousAct()->setText( previousAct()->text() );
 			new_fav->addCurrentAct()->setText( addCurrentAct()->text() );
-			/*
-			childs.push_back(new_fav);
-			*/
+			
+			child.push_back(new_fav);
+			
 			QAction * a = _menu->addMenu(new_fav->menu());
 			a->setText( name );
 			a->setIcon( QIcon( f_list[n].icon() ) );
@@ -128,6 +134,8 @@ void Favorites::updateMenu() {
 		_menu->removeAction( a );
 		a->deleteLater();
 	}
+
+	delete_children();
 
 	populateMenu();
 	markCurrent();
