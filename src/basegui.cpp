@@ -445,7 +445,7 @@ void BaseGui::createActions() {
 
 	// Favorites
 	favorites = new Favorites(Paths::configPath() + "/favorites.m3u8", this);
-	favorites->menu()->menuAction()->setObjectName( "favorites_menu" );
+	favorites->menuAction()->setObjectName( "favorites_menu" );
 	addAction(favorites->editAct());
 	addAction(favorites->jumpAct());
 	addAction(favorites->nextAct());
@@ -457,7 +457,7 @@ void BaseGui::createActions() {
 	// TV and Radio
 	tvlist = new TVList(pref->check_channels_conf_on_startup, 
                         TVList::TV, Paths::configPath() + "/tv.m3u8", this);
-	tvlist->menu()->menuAction()->setObjectName( "tv_menu" );
+	tvlist->menuAction()->setObjectName( "tv_menu" );
 	addAction(tvlist->editAct());
 	addAction(tvlist->jumpAct());
 	addAction(tvlist->nextAct());
@@ -474,7 +474,7 @@ void BaseGui::createActions() {
 
 	radiolist = new TVList(pref->check_channels_conf_on_startup, 
                            TVList::Radio, Paths::configPath() + "/radio.m3u8", this);
-	radiolist->menu()->menuAction()->setObjectName( "radio_menu" );
+	radiolist->menuAction()->setObjectName( "radio_menu" );
 	addAction(radiolist->editAct());
 	addAction(radiolist->jumpAct());
 	addAction(radiolist->nextAct());
@@ -1479,10 +1479,13 @@ void BaseGui::retranslateStrings() {
 	exitAct->change( Images::icon("close"), tr("C&lose") );
 
 	// Favorites
+	/*
 	favorites->editAct()->setText( tr("&Edit...") );
 	favorites->addCurrentAct()->setText( tr("&Add current media") );
+	*/
 
 	// TV & Radio submenus
+	/*
 	tvlist->editAct()->setText( tr("&Edit...") );
 	radiolist->editAct()->setText( tr("&Edit...") );
 	tvlist->addCurrentAct()->setText( tr("&Add current media") );
@@ -1493,7 +1496,7 @@ void BaseGui::retranslateStrings() {
 	tvlist->previousAct()->setText( tr("Previous TV channel") );
 	radiolist->nextAct()->setText( tr("Next radio channel") );
 	radiolist->previousAct()->setText( tr("Previous radio channel") );
-
+	*/
 
 	// Menu Play
 	playAct->change( tr("P&lay") );
@@ -1715,17 +1718,17 @@ void BaseGui::retranslateStrings() {
 	recentfiles_menu->menuAction()->setIcon( Images::icon("recents") );
 	clearRecentsAct->change( Images::icon("delete"), tr("&Clear") );
 
-	favorites->menu()->menuAction()->setText( tr("&Favorites") );
+	favorites->menuAction()->setText( tr("&Favorites") );
 	/*
-	favorites->menu()->menuAction()->setText( tr("Favorit&es") );
-	favorites->menu()->menuAction()->setIcon( Images::icon("open_favorites") ); 
+	favorites->menuAction()->setText( tr("Favorit&es") );
+	favorites->menuAction()->setIcon( Images::icon("open_favorites") ); 
 	*/
 
-	tvlist->menu()->menuAction()->setText( tr("&TV") );
-	tvlist->menu()->menuAction()->setIcon( Images::icon("open_tv") );
+	tvlist->menuAction()->setText( tr("&TV") );
+	tvlist->menuAction()->setIcon( Images::icon("open_tv") );
 
-	radiolist->menu()->menuAction()->setText( tr("Radi&o") );
-	radiolist->menu()->menuAction()->setIcon( Images::icon("open_radio") );
+	radiolist->menuAction()->setText( tr("Radi&o") );
+	radiolist->menuAction()->setIcon( Images::icon("open_radio") );
 
 	// Menu Play
 	speed_menu->menuAction()->setText( tr("Sp&eed") );
@@ -2149,7 +2152,7 @@ void BaseGui::createMenus() {
 	videoMenu = menuBar()->addMenu("Video");
 	audioMenu = menuBar()->addMenu("Audio");
 	subtitlesMenu = menuBar()->addMenu("Subtitles");
-	menuBar()->addMenu(favorites->menu());
+	menuBar()->addMenu(favorites);
 	browseMenu = menuBar()->addMenu("Browse");
 	optionsMenu = menuBar()->addMenu("Options");
 	helpMenu = menuBar()->addMenu("Help");
@@ -2171,8 +2174,8 @@ void BaseGui::createMenus() {
 	openMenu->addAction(openAudioCDAct);
 	openMenu->addAction(openURLAct);
 	/* openMenu->addMenu(favorites->menu()); */
-	openMenu->addMenu(tvlist->menu());
-	openMenu->addMenu(radiolist->menu());
+	openMenu->addMenu(tvlist);
+	openMenu->addMenu(radiolist);
 
 	openMenu->addSeparator();
 	openMenu->addAction(exitAct);
@@ -2504,7 +2507,7 @@ void BaseGui::createMenus() {
 	popup->addMenu( videoMenu );
 	popup->addMenu( audioMenu );
 	popup->addMenu( subtitlesMenu );
-	popup->addMenu(favorites->menu());
+	popup->addMenu( favorites );
 	popup->addMenu( browseMenu );
 	popup->addMenu( optionsMenu );
 

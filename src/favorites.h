@@ -19,11 +19,10 @@
 #ifndef _FAVORITES_H_
 #define _FAVORITES_H_
 
-#include <QObject>
+#include <QMenu>
 #include <QString>
 #include <QList>
 
-class QMenu;
 class QAction;
 class QWidget;
 
@@ -54,14 +53,13 @@ protected:
 
 typedef QList<Favorite> FavoriteList;
 
-class Favorites : public QObject
+class Favorites : public QMenu
 {
 	Q_OBJECT
 public:
 	Favorites(QString filename, QWidget * parent = 0);
 	~Favorites();
 
-	QMenu * menu();
 	QAction * editAct() { return edit_act; };
 	QAction * jumpAct() { return jump_act; };
 	QAction * nextAct() { return next_act; };
@@ -82,7 +80,6 @@ signals:
 protected:
 	virtual void save();
 	virtual void load();
-	virtual void createMenu();
 	virtual void updateMenu();
 	virtual void populateMenu();
 	virtual Favorites * createNewObject(QString filename, QWidget * parent);
@@ -100,9 +97,12 @@ protected slots:
 	virtual void addCurrentPlaying(); // Adds to menu current (or last played) file
 
 protected:
+    virtual void retranslateStrings();
+    virtual void changeEvent(QEvent * event);
+
+protected:
 	FavoriteList f_list;
 	QString _filename;
-	QMenu * _menu;
 	QAction * edit_act;
 	QAction * jump_act;
 	QAction * next_act;

@@ -19,7 +19,6 @@
 #include "favorites.h"
 #include "favoriteeditor.h"
 
-#include <QMenu>
 #include <QAction>
 #include <QSettings>
 #include <QFile>
@@ -30,10 +29,9 @@
 //#define FIRST_MENU_ENTRY 4
 #define FIRST_MENU_ENTRY 3
 
-Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
+Favorites::Favorites(QString filename, QWidget * parent) : QMenu(parent)
 {
 	_filename = filename;
-	_menu = 0;
 
 	parent_widget = parent;
 
@@ -56,7 +54,20 @@ Favorites::Favorites(QString filename, QWidget * parent) : QObject(parent)
 	add_current_act->setEnabled(false);
 	connect(add_current_act, SIGNAL(triggered()), SLOT(addCurrentPlaying()));
 
+	retranslateStrings();
+
 	load();
+
+	connect( this, SIGNAL(triggered(QAction *)),
+             this, SLOT(triggered_slot(QAction *)) );
+
+	addAction(edit_act);
+	addAction(add_current_act);
+	//addAction(jump_act);
+	addSeparator();
+
+	populateMenu();
+
 }
 
 Favorites::~Favorites() {
@@ -65,8 +76,6 @@ Favorites::~Favorites() {
 	save();
 
 	delete_children();
-
-	if (_menu != 0) delete _menu;
 }
 
 void Favorites::delete_children() {
@@ -77,22 +86,12 @@ void Favorites::delete_children() {
 	child.clear();
 }
 
-QMenu * Favorites::menu() {
-	if (_menu == 0) createMenu();
-	return _menu;
-}
-
-void Favorites::createMenu() {
-	_menu = new QMenu(parent_widget);
-	connect( _menu, SIGNAL(triggered(QAction *)),
-             this, SLOT(triggered_slot(QAction *)) );
-
-	_menu->addAction(edit_act);
-	_menu->addAction(add_current_act);
-	//_menu->addAction(jump_act);
-	_menu->addSeparator();
-
-	populateMenu();
+void Favorites::retranslateStrings() {
+	edit_act->setText( tr("&Edit...") );
+	jump_act->setText( tr("&Jump...") );
+	next_act->setText( tr("&Next") );
+	previous_act->setText( tr("&Previous") );
+	add_current_act->setText( tr("&Add current media") );
 }
 
 Favorites * Favorites::createNewObject(QString filename, QWidget * parent) {
@@ -107,19 +106,21 @@ void Favorites::populateMenu() {
 			Favorites * new_fav = createNewObject(f_list[n].file(), parent_widget);
 			connect(this, SIGNAL(sendCurrentMedia(const QString &, const QString &)), 
                     new_fav, SLOT(getCurrentMedia(const QString &, const QString &)));
+			/*
 			new_fav->editAct()->setText( editAct()->text() );
 			new_fav->jumpAct()->setText( jumpAct()->text() );
 			new_fav->nextAct()->setText( nextAct()->text() );
 			new_fav->previousAct()->setText( previousAct()->text() );
 			new_fav->addCurrentAct()->setText( addCurrentAct()->text() );
-			
+			*/
+
 			child.push_back(new_fav);
 			
-			QAction * a = _menu->addMenu(new_fav->menu());
+			QAction * a = addMenu( new_fav );
 			a->setText( name );
 			a->setIcon( QIcon( f_list[n].icon() ) );
 		} else {
-			QAction * a = _menu->addAction( name );
+			QAction * a = addAction( name );
 			a->setData( f_list[n].file() );
 			a->setIcon( QIcon( f_list[n].icon() ) );
 			a->setStatusTip( f_list[n].file() );
@@ -129,9 +130,9 @@ void Favorites::populateMenu() {
 
 void Favorites::updateMenu() {
 	// Remove all except the first 2 items
-	while (_menu->actions().count() > FIRST_MENU_ENTRY) {
-		QAction * a = _menu->actions()[FIRST_MENU_ENTRY];
-		_menu->removeAction( a );
+	while (actions().count() > FIRST_MENU_ENTRY) {
+		QAction * a = actions()[FIRST_MENU_ENTRY];
+		removeAction( a );
 		a->deleteLater();
 	}
 
@@ -151,8 +152,8 @@ void Favorites::triggered_slot(QAction * action) {
 }
 
 void Favorites::markCurrent() {
-	for (int n = FIRST_MENU_ENTRY; n < _menu->actions().count(); n++) {
-		QAction * a = _menu->actions()[n];
+	for (int n = FIRST_MENU_ENTRY; n < actions().count(); n++) {
+		QAction * a = actions()[n];
 		QString file = a->data().toString();
 		QFont f = a->font();
 
@@ -182,7 +183,7 @@ void Favorites::next() {
 	current++;
 	if (current >= f_list.count()) current = 0;
 
-	QAction * a = _menu->actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
+	QAction * a = actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
 	if (a != 0) {
 		a->trigger();
 	}
@@ -197,7 +198,7 @@ void Favorites::previous() {
 	current--;
 	if (current < 0) current = f_list.count()-1;
 
-	QAction * a = _menu->actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
+	QAction * a = actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
 	if (a != 0) {
 		a->trigger();
 	}
@@ -340,7 +341,16 @@ void Favorites::jump() {
 	if (ok) {
 		last_item = item;
 		item--;
-		_menu->actions()[item+FIRST_MENU_ENTRY]->trigger();
+		actions()[item+FIRST_MENU_ENTRY]->trigger();
+	}
+}
+
+// Language change stuff
+void Favorites::changeEvent(QEvent *e) {
+	if (e->type() == QEvent::LanguageChange) {
+		retranslateStrings();
+	} else {
+		QWidget::changeEvent(e);
 	}
 }
 
