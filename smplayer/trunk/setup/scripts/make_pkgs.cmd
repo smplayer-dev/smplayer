@@ -15,30 +15,25 @@ echo 2 - Create SMPlayer Package w/o MPlayer
 echo 3 - Create MPlayer Package
 echo.
 
-set SMPLAYER_DIR=..\smplayer-build
-set MPLAYER_DIR=..\mplayer
-set OUTPUT_DIR=..\output
-set PORTABLE_EXE_DIR=..\portable
+set TOP_LEVEL_DIR=..
+
+set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
+set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
+set OUTPUT_DIR=%TOP_LEVEL_DIR%\output
+set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
 
 :reask
 set /P USER_CHOICE="Choose an action: "
 echo.
 
-IF %USER_CHOICE%==1 (
-goto user_choice1
-) ELSE IF %USER_CHOICE%==2 (
-goto user_choice2
-) ELSE IF %USER_CHOICE%==3 (
-goto user_choice3
-)
+if "%USER_CHOICE%" == "1"     goto portable
+if "%USER_CHOICE%" == "2"     goto nomplayer
+if "%USER_CHOICE%" == "3"     goto mplayer
+if "%USER_CHOICE%" == ""      goto end
 
-:user_choice1
+:portable
 echo.
-echo ******************************************
-echo *                                        *
-echo *   Creating SMPlayer Portable Package   *
-echo *                                        *
-echo ******************************************
+echo --- Creating SMPlayer Portable Package ---
 echo.
 
 set /P SMPLAYER_VER="SMPlayer Version: "
@@ -46,7 +41,7 @@ if "%SMPLAYER_VER%"=="" exit
 echo.
 
 ren %SMPLAYER_DIR% smplayer-portable-%SMPLAYER_VER%
-set SMPLAYER_DIR=..\smplayer-portable-%SMPLAYER_VER%
+set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-portable-%SMPLAYER_VER%
 
 echo.
 echo ######      Backing up files       #######
@@ -116,13 +111,9 @@ ren %SMPLAYER_DIR% smplayer-build
 
 goto end
 
-:user_choice2
+:nomplayer
 echo.
-echo ******************************************
-echo *                                        *
-echo *  Creating SMPlayer w/o MPlayer Package *
-echo *                                        *
-echo ******************************************
+echo --- Creating SMPlayer w/o MPlayer Package ---
 echo.
 
 set /P SMPLAYER_VER="SMPlayer Version: "
@@ -130,7 +121,7 @@ if "%SMPLAYER_VER%"=="" exit
 echo.
 
 ren %SMPLAYER_DIR% smplayer-%SMPLAYER_VER%
-set SMPLAYER_DIR=..\smplayer-%SMPLAYER_VER%
+set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-%SMPLAYER_VER%
 
 7za a -t7z %OUTPUT_DIR%\smplayer-%SMPLAYER_VER%_without_mplayer.7z %SMPLAYER_DIR% -xr!mplayer -mx9
 
@@ -141,19 +132,15 @@ echo Restoring source folder(s) back to its original state....
 
 goto end
 
-:user_choice3
+:mplayer
 echo.
-echo ******************************************
-echo *                                        *
-echo *        Creating MPlayer Package        *
-echo *                                        *
-echo ******************************************
+echo --- Creating MPlayer Package ---
 echo.
 
 set /P MP_REV="MPlayer Revision: "
 
 ren %MPLAYER_DIR% mplayer-svn-%MP_REV%
-set MPLAYER_DIR=..\mplayer-svn-%MP_REV%
+set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer-svn-%MP_REV%
 
 echo.
 echo ######  Creating MPlayer SVN Package  #######
@@ -161,7 +148,7 @@ echo.
 7za a -t7z %OUTPUT_DIR%\mplayer-svn-%MP_REV%.7z %MPLAYER_DIR% -mx9
 
 ren %MPLAYER_DIR% mplayer
-set MPLAYER_DIR=..\mplayer
+set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
 
 echo.
 echo Restoring source folder(s) back to its original state...
