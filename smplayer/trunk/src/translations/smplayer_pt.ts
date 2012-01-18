@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="pt_PT">
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_PT">
 <context>
     <name>About</name>
     <message>
@@ -2108,27 +2109,27 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">&amp;Editar...</translation>
+        <translation>&amp;Editar...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Ir...</translation>
+        <translation>&amp;Ir...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">Segui&amp;nte</translation>
+        <translation>Segui&amp;nte</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>An&amp;terior</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="94"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished">&amp;Adicionar multimédia atual</translation>
+        <translation>&amp;Adicionar multimédia atual</translation>
     </message>
 </context>
 <context>
@@ -3747,7 +3748,7 @@ Verifique as permissões da pasta.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3857,7 +3858,7 @@ Verifique as permissões da pasta.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -4255,7 +4256,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="122"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>Executa&amp;r o MPlayer na sua janela</translation>
+        <translation>&amp;Executar o MPlayer na sua janela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="364"/>
@@ -4628,7 +4629,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
         <source>Select All</source>
-        <translation>Selecionar todos</translation>
+        <translation>Marcar todos</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="98"/>
@@ -5140,8 +5141,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../prefgeneral.ui" line="1011"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation>&lt;Aqui it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</translation>
+        <translation>&lt;Here it goes an explanation text&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
@@ -5699,7 +5699,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui, pode alterar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente também pode guardar a lista para a partilhar com outras pessoas ou utilizá-la noutro computador.</translation>
+        <translation>Aqui, pode alterar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente, pode guardar a lista para a partilhar com outras pessoas ou utilizar noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="314"/>
