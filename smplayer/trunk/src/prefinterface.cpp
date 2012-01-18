@@ -71,6 +71,9 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	floating_bypass_wm_check->hide();
 #endif
 
+	// This option has some issues, so it will be hidden for now...
+	hide_video_window_on_audio_check->hide();
+
 	retranslateStrings();
 }
 
