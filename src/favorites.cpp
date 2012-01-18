@@ -104,6 +104,7 @@ void Favorites::populateMenu() {
 		QString name = QString("%1 - " + f_list[n].name() ).arg( i.insert( i.size()-1, '&' ), 3, ' ' );
 		if (f_list[n].isSubentry()) {
 			Favorites * new_fav = createNewObject(f_list[n].file(), parent_widget);
+			new_fav->getCurrentMedia(received_file_playing, received_title);
 			connect(this, SIGNAL(sendCurrentMedia(const QString &, const QString &)), 
                     new_fav, SLOT(getCurrentMedia(const QString &, const QString &)));
 			/*
