@@ -46,7 +46,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	QRegExp rx_title(".*<title>(.*)</title>.*");
 	if (rx_title.indexIn(replyString) != -1) {
 		url_title = rx_title.cap(1).simplified();
-		url_title = QString(url_title).replace("&amp;","&").replace("&gt;", ">").replace("&lt;", "<")/*.replace(" - YouTube", "")*/;
+		url_title = QString(url_title).replace("&amp;","&").replace("&gt;", ">").replace("&lt;", "<").replace("&quot;","\"")/*.replace(" - YouTube", "")*/;
 		qDebug("RetrieveYoutubeUrl::parse: title '%s'", url_title.toUtf8().constData());
 	} else {
 		url_title = "Youtube video";
