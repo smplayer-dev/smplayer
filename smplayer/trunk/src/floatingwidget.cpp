@@ -21,7 +21,7 @@
 #include <QTimer>
 #include <QHBoxLayout>
 
-#if QT_VERSION >= 0x040600
+#ifndef OLD_ANIMATION
 #include <QPropertyAnimation>
 #endif
 
@@ -29,6 +29,10 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 	: QWidget( parent, Qt::Window | Qt::FramelessWindowHint |
                        Qt::WindowStaysOnTopHint )
 {
+#ifndef OLD_ANIMATION
+	animation = 0;
+#endif
+
 	setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Minimum );
 
 	tb = new QToolBar;
@@ -43,16 +47,20 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 
 	_margin = 0;
 	_animated = false;
+#ifdef OLD_ANIMATION
 	animation_timer = new QTimer(this);
 	animation_timer->setInterval(2);
 	connect( animation_timer, SIGNAL(timeout()), this, SLOT(animate()) );
-
+#endif
 	connect( &auto_hide_timer, SIGNAL(timeout()), 
              this, SLOT(checkUnderMouse()) );
 	setAutoHide(true);
 }
 
 FloatingWidget::~FloatingWidget() {
+#ifndef OLD_ANIMATION
+	if (animation) delete animation;
+#endif
 }
 
 #ifndef Q_OS_WIN
@@ -108,9 +116,11 @@ void FloatingWidget::showOver(QWidget * widget, int size, Place place) {
 }
 
 void FloatingWidget::showAnimated(QPoint final_position, Movement movement) {
-#if QT_VERSION >= 0x040600
+#ifndef OLD_ANIMATION
 	show();
-	animation = new QPropertyAnimation(this, "pos");
+	if (!animation) {
+		animation = new QPropertyAnimation(this, "pos");
+	}
 	animation->setDuration(300);
 	animation->setEasingCurve(QEasingCurve::OutBounce);
 	animation->setEndValue(final_position);
@@ -140,6 +150,7 @@ void FloatingWidget::showAnimated(QPoint final_position, Movement movement) {
 #endif
 }
 
+#ifdef OLD_ANIMATION
 void FloatingWidget::animate() {
 	if (current_y == final_y) {
 		animation_timer->stop();
@@ -148,6 +159,7 @@ void FloatingWidget::animate() {
 		move(x(), current_y);
 	}
 }
+#endif
 
 void FloatingWidget::checkUnderMouse() {
 	if (auto_hide) {
