@@ -21,6 +21,10 @@
 #include <QTimer>
 #include <QHBoxLayout>
 
+#if QT_VERSION >= 0x040600
+#include <QPropertyAnimation>
+#endif
+
 FloatingWidget::FloatingWidget( QWidget * parent )
 	: QWidget( parent, Qt::Window | Qt::FramelessWindowHint |
                        Qt::WindowStaysOnTopHint )
@@ -104,6 +108,22 @@ void FloatingWidget::showOver(QWidget * widget, int size, Place place) {
 }
 
 void FloatingWidget::showAnimated(QPoint final_position, Movement movement) {
+#if QT_VERSION >= 0x040600
+	show();
+	animation = new QPropertyAnimation(this, "pos");
+	animation->setDuration(300);
+	animation->setEasingCurve(QEasingCurve::OutBounce);
+	animation->setEndValue(final_position);
+	QPoint initial_position = final_position;
+	if (movement == Upward) {
+		initial_position.setY( initial_position.y() + height() );
+	} else {
+		initial_position.setY( initial_position.y() - height() );
+	}
+	animation->setStartValue(initial_position);
+
+	animation->start();
+#else
 	current_movement = movement;
 	final_y = final_position.y();
 
@@ -117,6 +137,7 @@ void FloatingWidget::showAnimated(QPoint final_position, Movement movement) {
 	show();
 
 	animation_timer->start();
+#endif
 }
 
 void FloatingWidget::animate() {
