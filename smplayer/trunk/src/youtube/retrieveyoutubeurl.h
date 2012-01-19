@@ -42,6 +42,10 @@ public:
 	static QString findPreferredUrl(const QMap<int, QString>& urlMap, Quality q);
 	QString findPreferredUrl();
 
+	QString urlTitle() { return url_title; }
+	QString latestPreferredUrl() { return latest_preferred_url; }
+	QString origUrl() { return orig_url; }
+
 signals:
 	void gotUrls(const QMap<int, QString>&);
 	void gotPreferredUrl(const QString &);
@@ -54,6 +58,9 @@ protected:
 	void htmlDecode(QString& string);
 
 	QMap<int, QString> urlMap;
+	QString url_title;
+	QString orig_url;
+	QString latest_preferred_url;
 
 	Quality preferred_quality;
 };
