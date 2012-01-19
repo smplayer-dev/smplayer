@@ -33,6 +33,7 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 	download(url);
+	orig_url = url;
 }
 
 void RetrieveYoutubeUrl::parse(QByteArray text) {
@@ -40,7 +41,17 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 	urlMap.clear();
 
-    QString replyString = QString::fromUtf8(text.constData(), text.size());        
+    QString replyString = QString::fromUtf8(text.constData(), text.size());
+
+	QRegExp rx_title(".*<title>(.*)</title>.*");
+	if (rx_title.indexIn(replyString) != -1) {
+		url_title = rx_title.cap(1).simplified();
+		url_title = QString(url_title).replace("&amp;","&").replace("&gt;", ">").replace("&lt;", "<")/*.replace(" - YouTube", "")*/;
+		qDebug("RetrieveYoutubeUrl::parse: title '%s'", url_title.toUtf8().constData());
+	} else {
+		url_title = "Youtube video";
+	}
+
     QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
     regex.indexIn(replyString);
     QString fmtArray = regex.cap(1);    
@@ -63,7 +74,8 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 }
 
 QString RetrieveYoutubeUrl::findPreferredUrl() {
-	return findPreferredUrl(urlMap, preferred_quality);
+	latest_preferred_url = findPreferredUrl(urlMap, preferred_quality);
+	return latest_preferred_url;
 }
 
 QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Quality q) {
