@@ -904,6 +904,15 @@ void Core::newMediaPlaying() {
 	mdat.filename = file;
 	mdat.type = type;
 
+#if YOUTUBE_SUPPORT
+	// Dar el cambiazo
+	if (mdat.type == TYPE_STREAM) {
+		//qDebug("************* filename: '%s'\n************* yt->latestPreferredUrl: '%s'", mdat.filename.toUtf8().constData(), yt->latestPreferredUrl().toUtf8().constData());
+		mdat.filename = yt->origUrl();
+		mdat.stream_title = yt->urlTitle();
+	}
+#endif
+
 	initializeMenus(); // Old
 
 	// Video
