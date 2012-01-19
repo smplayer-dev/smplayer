@@ -24,6 +24,10 @@
 
 class QToolBar;
 
+#if QT_VERSION >= 0x040600
+class QPropertyAnimation;
+#endif
+
 class FloatingWidget : public QWidget
 {
 	Q_OBJECT
@@ -73,6 +77,11 @@ private:
 	QTimer auto_hide_timer;
 
 	int _margin;
+
+#if QT_VERSION >= 0x040600
+	QPropertyAnimation * animation;
+#endif
+
 };
 
 #endif
