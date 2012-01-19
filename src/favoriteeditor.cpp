@@ -119,7 +119,8 @@ void FavoriteEditor::setData( FavoriteList list ) {
 		table->setItem(n, COL_FILE, file_item);
 	}
 
-	table->setCurrentCell(0, 0);
+	//table->setCurrentCell(0, 0);
+	table->setCurrentCell(table->rowCount()-1, 0);
 }
 
 FavoriteList FavoriteEditor::data() {
