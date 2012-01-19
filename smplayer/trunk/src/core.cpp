@@ -1302,6 +1302,13 @@ void Core::goToPos(int perc) {
 void Core::startMplayer( QString file, double seek ) {
 	qDebug("Core::startMplayer");
 
+#if YOUTUBE_SUPPORT
+	// Avoid to pass to mplayer the youtube page url
+	if (file == yt->origUrl()) {
+		file = yt->latestPreferredUrl();
+	}
+#endif
+
 	if (file.isEmpty()) {
 		qWarning("Core:startMplayer: file is empty!");
 		return;
