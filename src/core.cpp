@@ -890,6 +890,15 @@ void Core::initPlaying(int seek) {
 	int start_sec = (int) mset.current_sec;
 	if (seek > -1) start_sec = seek;
 
+#if YOUTUBE_SUPPORT
+	// Avoid to pass to mplayer the youtube page url
+	if (mdat.type == TYPE_STREAM) {
+		if (mdat.filename == yt->origUrl()) {
+			mdat.filename = yt->latestPreferredUrl();
+		}
+	}
+#endif
+
 	startMplayer( mdat.filename, start_sec );
 }
 
@@ -903,16 +912,6 @@ void Core::newMediaPlaying() {
 	mdat = proc->mediaData();
 	mdat.filename = file;
 	mdat.type = type;
-
-#if YOUTUBE_SUPPORT
-	// Change the real url with the youtube page url and set the title
-	if (mdat.type == TYPE_STREAM) {
-		if (mdat.filename == yt->latestPreferredUrl()) {
-			mdat.filename = yt->origUrl();
-			mdat.stream_title = yt->urlTitle();
-		}
-	}
-#endif
 
 	initializeMenus(); // Old
 
@@ -1010,6 +1009,16 @@ void Core::finishRestart() {
 		mdat.audio_codec = proc->mediaData().audio_codec;
 		mdat.demuxer = proc->mediaData().demuxer;
 	}
+
+#if YOUTUBE_SUPPORT
+	// Change the real url with the youtube page url and set the title
+	if (mdat.type == TYPE_STREAM) {
+		if (mdat.filename == yt->latestPreferredUrl()) {
+			mdat.filename = yt->origUrl();
+			mdat.stream_title = yt->urlTitle();
+		}
+	}
+#endif
 
 #if !NOTIFY_SUB_CHANGES
 	// Subtitles
@@ -1302,13 +1311,6 @@ void Core::goToPos(int perc) {
 
 void Core::startMplayer( QString file, double seek ) {
 	qDebug("Core::startMplayer");
-
-#if YOUTUBE_SUPPORT
-	// Avoid to pass to mplayer the youtube page url
-	if (file == yt->origUrl()) {
-		file = yt->latestPreferredUrl();
-	}
-#endif
 
 	if (file.isEmpty()) {
 		qWarning("Core:startMplayer: file is empty!");
