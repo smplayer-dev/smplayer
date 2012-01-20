@@ -50,6 +50,10 @@ Third-party:
    This library also includes code by Gilles Vollant, with the same
    license as zlib. See src/findsubtitles/quazip/zip.h for details.
 
+ * QtLockedFile from Qt Solutions.
+   url: http://qt.gitorious.org/qt-solutions
+   license: BSD (see src/qtlockedfile/qtlockedfile.h)
+
 I took some icons from:
 
  * nuvoX

@@ -1,5 +1,10 @@
 [b]Version 0.6.11[/b]:
 
+(2012-01-20)
+ * Use QtLockedFile instead of QxtFileLock, so we can get rid of the libqxt
+   dependency on windows.
+   The QtLockedFile is under the BSD license.
+
 (2012-01-19)
  * The title of youtube videos is displayed correctly. And the stream url is 
    replaced by the url of the youtube page.
