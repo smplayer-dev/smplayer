@@ -178,12 +178,17 @@ void Favorites::next() {
 	qDebug("Favorites::next");
 
 	int current = findFile(current_file);
-	//if (current < 0) current = 0;
 
-	current++;
-	if (current >= f_list.count()) current = 0;
+	int i = current;
+	if (current < 0) current = 0;
 
-	QAction * a = actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
+	do {
+		i++;
+		if (i == current) break;
+		if (i >= f_list.count()) i = 0;
+	} while (f_list[i].isSubentry());
+
+	QAction * a = actions()[i+FIRST_MENU_ENTRY]; // Skip "edit" and separator
 	if (a != 0) {
 		a->trigger();
 	}
@@ -193,12 +198,17 @@ void Favorites::previous() {
 	qDebug("Favorites::previous");
 
 	int current = findFile(current_file);
-	//if (current < 0) current = 0;
 
-	current--;
-	if (current < 0) current = f_list.count()-1;
+	int i = current;
+	if (current < 0) current = 0;
 
-	QAction * a = actions()[current+FIRST_MENU_ENTRY]; // Skip "edit" and separator
+	do {
+		i--;
+		if (i == current) break;
+		if (i < 0) i = f_list.count()-1;
+	} while (f_list[i].isSubentry());
+
+	QAction * a = actions()[i+FIRST_MENU_ENTRY]; // Skip "edit" and separator
 	if (a != 0) {
 		a->trigger();
 	}
