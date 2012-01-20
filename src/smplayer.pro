@@ -10,7 +10,7 @@ RESOURCES = icons.qrc
 INCLUDEPATH += findsubtitles videopreview mpcgui youtube
 DEPENDPATH += findsubtitles videopreview mpcgui youtube
 
-#DEFINES += USE_QXT
+DEFINES += USE_QTLOCKEDFILE
 
 DEFINES += DOWNLOAD_SUBS
 
@@ -219,10 +219,11 @@ SOURCES	+= version.cpp \
 	smplayer.cpp \
 	main.cpp
 
-#libqxt
-contains(DEFINES, USE_QXT) {
-	CONFIG  += qxt
-	QXT     += core
+contains(DEFINES, USE_QTLOCKEDFILE) {
+	HEADERS += qtlockedfile/qtlockedfile.h
+	SOURCES += qtlockedfile/qtlockedfile.cpp
+	unix:SOURCES += qtlockedfile/qtlockedfile_unix.cpp
+	win32:SOURCES += qtlockedfile/qtlockedfile_win.cpp
 }
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
