@@ -65,7 +65,7 @@ protected:
 	void updateTitleLabel();
 
 	QString caption_text, intro_text;
-	QString last_dir;
+	static QString last_dir;
 	QString store_path;
 };
 

@@ -75,6 +75,7 @@ void FEDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const 
 	}
 }
 
+QString FavoriteEditor::last_dir;
 
 FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 	: QDialog(parent, f)
