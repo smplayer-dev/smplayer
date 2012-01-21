@@ -30,10 +30,10 @@
 
 #include <QItemDelegate>
 
-class FileDelegate : public QItemDelegate 
+class FEDelegate : public QItemDelegate 
 {
 public:
-	FileDelegate(QObject *parent = 0);
+	FEDelegate(QObject *parent = 0);
 
 	QWidget *createEditor(QWidget *parent, const QStyleOptionViewItem &option,
                            const QModelIndex &index) const;
@@ -41,25 +41,37 @@ public:
                               const QModelIndex & index ) const;
 };
 
-FileDelegate::FileDelegate(QObject *parent) : QItemDelegate(parent) {
+FEDelegate::FEDelegate(QObject *parent) : QItemDelegate(parent) {
 }
 
-QWidget * FileDelegate::createEditor(QWidget *parent, const QStyleOptionViewItem & option, const QModelIndex & index) const {
-	//qDebug("FileDelegate::createEditor");
+QWidget * FEDelegate::createEditor(QWidget *parent, const QStyleOptionViewItem & option, const QModelIndex & index) const {
+	//qDebug("FEDelegate::createEditor");
 
 	if (index.column() == COL_FILE) {
 		FileChooser * fch = new FileChooser(parent);
 		fch->setText( index.model()->data(index, Qt::DisplayRole).toString() );
 		return fch;
-	} else {
+	} 
+	else 
+	if (index.column() == COL_NAME) {
+		QLineEdit * e = new QLineEdit(parent);
+		e->setText( index.model()->data(index, Qt::DisplayRole).toString() );
+		return e;
+	}
+	else {
 		return QItemDelegate::createEditor(parent, option, index);
 	}
 }
 
-void FileDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const QModelIndex &index) const {
+void FEDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, const QModelIndex &index) const {
 	if (index.column() == COL_FILE) {
 		FileChooser * fch = static_cast<FileChooser*>(editor);
 		model->setData(index, fch->text() );
+	} 
+	else 
+	if (index.column() == COL_NAME) {
+		QLineEdit * e = static_cast<QLineEdit*>(editor);
+		model->setData(index, e->text() );
 	}
 }
 
@@ -85,7 +97,8 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 	table->setSelectionBehavior(QAbstractItemView::SelectRows);
 	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
 
-	table->setItemDelegateForColumn( COL_FILE, new FileDelegate(table) );
+	table->setItemDelegateForColumn( COL_NAME, new FEDelegate(table) );
+	table->setItemDelegateForColumn( COL_FILE, new FEDelegate(table) );
 
 	connect(table, SIGNAL(cellActivated(int,int)), this, SLOT(edit_icon(int,int)));
 
