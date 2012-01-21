@@ -135,8 +135,6 @@ public:
     MplayerWindow( QWidget* parent = 0, Qt::WindowFlags f = 0);
     ~MplayerWindow();
     
-	void showLogo( bool b);
-
 	MplayerLayer * videoLayer() { return mplayerlayer; };
 
 	void setResolution( int w, int h);
@@ -166,6 +164,10 @@ public:
 	virtual bool eventFilter( QObject * watched, QEvent * event );
 
 public slots:
+	void setLogoVisible(bool b);
+	void showLogo() { setLogoVisible(true); };
+	void hideLogo() { setLogoVisible(false); };
+
 	void moveLeft();
 	void moveRight();
 	void moveUp();
