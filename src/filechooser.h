@@ -64,6 +64,8 @@ protected:
 	QString _filter;
 	DialogType _type;
 	QFileDialog::Options _options;
+
+	static QString last_dir;
 };
 
 #endif

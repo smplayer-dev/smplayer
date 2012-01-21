@@ -29,6 +29,8 @@
 #include <QFileDialog>
 #endif
 
+QString FileChooser::last_dir;
+
 FileChooser::FileChooser(QWidget * parent) : LineEditWithIcon(parent) 
 {
 	setDialogType(GetFileName);
@@ -62,19 +64,26 @@ void FileChooser::openFileDialog() {
 		QFileDialog::Options opts = options();
 		if (opts == 0) opts = QFileDialog::DontResolveSymlinks;
 
+		QString dir = QFileInfo(text()).absolutePath();
+		if (dir.isEmpty()) dir = last_dir;
+
 #ifndef NO_SMPLAYER_SUPPORT
 		result = MyFileDialog::getOpenFileName( 
 #else
 		result = QFileDialog::getOpenFileName( 
 #endif
                         this, caption(),
-                        text(),
+                        dir,
                         filter(), &f, opts );
+		if (!result.isEmpty()) last_dir = QFileInfo(result).absolutePath();
 	}
 	else
 	if (dialogType() == GetDirectory) {
 		QFileDialog::Options opts = options();
 		if (opts == 0) opts = QFileDialog::ShowDirsOnly;
+
+		QString dir = text();
+		if (dir.isEmpty()) dir = last_dir;
 
 #ifndef NO_SMPLAYER_SUPPORT
 		result = MyFileDialog::getExistingDirectory(
@@ -82,7 +91,8 @@ void FileChooser::openFileDialog() {
 		result = QFileDialog::getExistingDirectory(
 #endif
                     this, caption(),
-                    text(), opts );
+                    dir, opts );
+		if (!result.isEmpty()) last_dir = result;
 	}
 
 	if (!result.isEmpty()) {
