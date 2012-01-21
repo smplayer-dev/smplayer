@@ -881,7 +881,7 @@ void Core::initPlaying(int seek) {
 
 	/* updateWidgets(); */
 
-	mplayerwindow->showLogo(FALSE);
+	mplayerwindow->hideLogo();
 
 	if (proc->isRunning()) {
 		stopMplayer();

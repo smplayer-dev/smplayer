@@ -1997,8 +1997,15 @@ void BaseGui::createCore() {
              this, SLOT(showExitCodeFromMplayer(int)) );
 
 	// Hide mplayer window
-	connect( core, SIGNAL(noVideo()),
-             this, SLOT(hidePanel()) );
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	if (pref->hide_video_window_on_audio_files) {
+		connect( core, SIGNAL(noVideo()), this, SLOT(hidePanel()) );
+	} else {
+		connect( core, SIGNAL(noVideo()), mplayerwindow, SLOT(showLogo()) );
+	}
+#else
+	connect( core, SIGNAL(noVideo()), this, SLOT(hidePanel()) );
+#endif
 
 	// Log mplayer output
 	connect( core, SIGNAL(aboutToStartPlaying()),
@@ -2672,6 +2679,20 @@ void BaseGui::applyNewPreferences() {
 			}
 		}
 	}
+
+#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
+	if (pref->hide_video_window_on_audio_files) {
+		connect( core, SIGNAL(noVideo()), this, SLOT(hidePanel()) );
+		disconnect( core, SIGNAL(noVideo()), mplayerwindow, SLOT(hideLogo()) );
+	} else {
+		disconnect( core, SIGNAL(noVideo()), this, SLOT(hidePanel()) );
+		connect( core, SIGNAL(noVideo()), mplayerwindow, SLOT(showLogo()) );
+		if (!panel->isVisible()) {
+			resize( width(), height() + 200);
+			panel->show();
+		}
+	}
+#endif
 
 	PrefAdvanced *advanced = pref_dialog->mod_advanced();
 #if REPAINT_BACKGROUND_OPTION
@@ -4278,14 +4299,6 @@ void BaseGui::resizeWindow(int w, int h) {
 
 void BaseGui::hidePanel() {
 	qDebug("BaseGui::hidePanel");
-
-#if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
-	if (!pref->hide_video_window_on_audio_files) {
-		//panel->show();
-		mplayerwindow->showLogo(true);
-	}
-	else
-#endif
 
 	if (panel->isVisible()) {
 		// Exit from fullscreen mode 

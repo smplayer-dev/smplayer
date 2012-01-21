@@ -71,9 +71,6 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	floating_bypass_wm_check->hide();
 #endif
 
-	// This option has some issues, so it will be hidden for now...
-	hide_video_window_on_audio_check->hide();
-
 	retranslateStrings();
 }
 
@@ -526,10 +523,8 @@ void PrefInterface::createHelp() {
         tr("If you check this option, the position and size of the main "
            "window will be saved and restored when you run SMPlayer again.") );
 
-	/*
 	setWhatsThis(hide_video_window_on_audio_check, tr("Hide video window when playing audio files"),
         tr("If this option is enabled the video window will be hidden when playing audio files.") );
-	*/
 
 	setWhatsThis(recents_max_items_spin, tr("Recent files"),
         tr("Select the maximum number of items that will be shown in the "
