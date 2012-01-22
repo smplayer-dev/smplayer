@@ -1,3 +1,15 @@
+Version 0.6.11.
+
+Most important changes since 0.6.10:
+
+* New favorite menu, where you can add your favorite videos, music, streams,
+  youtube videos... It's also possible to add submenus.
+* Support for youtube. Now you can open urls like 
+  http://www.youtube.com/watch?v=..... using the Open -> URL dialog or 
+  dragging a link from a browser to the smplayer window.
+* New translation: croatian.
+
+
 Version 0.6.10.
 
 Most important changes since 0.6.9:

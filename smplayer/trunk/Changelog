@@ -1,5 +1,9 @@
 [b]Version 0.6.11[/b]:
 
+(2012-01-13 - 2012-01-21)
+ * New favorite menu, where you can add your favorite videos, music, streams,
+   youtube videos... It's also possible to add submenus.
+
 (2012-01-20)
  * Use QtLockedFile instead of QxtFileLock, so we can get rid of the libqxt
    dependency on windows.
