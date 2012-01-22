@@ -23,7 +23,9 @@
 #include "images.h"
 #include "playlist.h"
 
-#ifndef Q_OS_WIN
+#ifdef Q_OS_WIN
+#include "favorites.h"
+#else
 #include "tvlist.h"
 #endif
 
