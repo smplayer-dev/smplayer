@@ -1,5 +1,9 @@
 [b]Version 0.6.11[/b]:
 
+(2012-01-22)
+ * Don't show in Windows the tv and radio menus, as they were intended for dvb-t and as far as I know
+   mplayer doesn't support it on Windows. 
+
 (2012-01-13 - 2012-01-21)
  * New favorite menu, where you can add your favorite videos, music, streams,
    youtube videos... It's also possible to add submenus.

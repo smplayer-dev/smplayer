@@ -2181,9 +2181,10 @@ void BaseGui::createMenus() {
 	openMenu->addAction(openAudioCDAct);
 	openMenu->addAction(openURLAct);
 	/* openMenu->addMenu(favorites->menu()); */
+#ifndef Q_OS_WIN
 	openMenu->addMenu(tvlist);
 	openMenu->addMenu(radiolist);
-
+#endif
 	openMenu->addSeparator();
 	openMenu->addAction(exitAct);
 	
