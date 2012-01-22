@@ -64,6 +64,9 @@ public slots:
 	void selectNoneClicked(bool); 
 	void listItemClicked(QListWidgetItem* item); 
 	void listItemPressed(QListWidgetItem* item); 
+	
+protected:
+	bool something_changed;
 };
 
 #endif
