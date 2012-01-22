@@ -10,9 +10,17 @@ echo Configure your build environment at the beginning of this script.
 echo.
 echo 7zip command-line (http://7zip.org) is required by this script.
 echo.
-echo 1 - Create Portable SMPlayer Package
-echo 2 - Create SMPlayer Package w/o MPlayer
-echo 3 - Create MPlayer Package
+echo * Release Packages
+echo.
+echo 1 - Portable SMPlayer Package
+echo 2 - SMPlayer Package w/o MPlayer
+echo 3 - MPlayer Package
+echo.
+echo * Update Packages
+echo.
+echo 4 - SMPlayer SVN Update Package
+echo 5 - Qt DLL Package
+
 echo.
 
 set TOP_LEVEL_DIR=..
@@ -21,6 +29,7 @@ set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
 set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
 set OUTPUT_DIR=%TOP_LEVEL_DIR%\output
 set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
+set QT_DIR=C:\Qt\%QTVER%
 
 :reask
 set /P USER_CHOICE="Choose an action: "
@@ -29,6 +38,8 @@ echo.
 if "%USER_CHOICE%" == "1"     goto portable
 if "%USER_CHOICE%" == "2"     goto nomplayer
 if "%USER_CHOICE%" == "3"     goto mplayer
+if "%USER_CHOICE%" == "4"     goto svn_updpkg
+if "%USER_CHOICE%" == "5"     goto qtdlls
 if "%USER_CHOICE%" == ""      goto end
 
 :portable
@@ -142,9 +153,6 @@ set /P MP_REV="MPlayer Revision: "
 ren %MPLAYER_DIR% mplayer-svn-%MP_REV%
 set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer-svn-%MP_REV%
 
-echo.
-echo ######  Creating MPlayer SVN Package  #######
-echo.
 7za a -t7z %OUTPUT_DIR%\mplayer-svn-%MP_REV%.7z %MPLAYER_DIR% -mx9
 
 ren %MPLAYER_DIR% mplayer
@@ -155,5 +163,30 @@ echo Restoring source folder(s) back to its original state...
 
 goto end
 
+:svn_updpkg
+echo.
+echo ---  Creating SVN Update Package  ---
+echo.
+
+set /P SMPLAYER_SVN="SMPlayer SVN Revision: "
+if "%SMPLAYER_SVN%"=="" exit
+
+7za a -t7z %OUTPUT_DIR%\smplayer_update_svn_r%SMPLAYER_SVN%.7z %SMPLAYER_DIR%\smplayer.exe %SMPLAYER_DIR%\translations -mx9
+
+goto end
+
+:qtdlls
+
+set /P QTVER="Qt Version: "
+if "%QTVER%"=="" exit
+
+echo.
+echo ---  Creating Qt DLL Package  ---
+echo.
+7za a -t7z %OUTPUT_DIR%\qt_%QTVER%_dlls.7z %QT_DIR%\%QTVER%\bin\libgcc_s_dw2-1.dll %QT_DIR%\%QTVER%\bin\mingwm10.dll %QT_DIR%\%QTVER%\bin\QtCore4.dll %QT_DIR%\%QTVER%\bin\QtGui4.dll %QT_DIR%\%QTVER%\bin\QtNetwork4.dll %QT_DIR%\%QTVER%\bin\QtXml4.dll -mx9
+
+goto end
+
 :end
+
 pause
