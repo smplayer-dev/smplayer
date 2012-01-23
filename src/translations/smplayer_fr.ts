@@ -305,7 +305,7 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Croate</translation>
     </message>
 </context>
 <context>
@@ -1656,17 +1656,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1690"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Volume + Avancement</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1691"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume + Avancement + &amp;Position</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1692"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Volume + Avancement + Position + &amp;Durée</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1428"/>
@@ -1716,37 +1716,37 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Don</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1843"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;ctiver le mode sourd et malentendant</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3698"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Don</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3699"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si vous aimez SMPlayer, faire un don est une bonne façon de soutenir le projet, même le plus petit qui soit sera grandement apprécié.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3700"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vous pouvez faire un don en utilisant %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3700"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>ce formulaire</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;Favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Favoris</translation>
     </message>
 </context>
 <context>
@@ -2080,12 +2080,12 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nouvel élément</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouveau &amp;sous-menu</translation>
     </message>
 </context>
 <context>
@@ -2103,27 +2103,27 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">&amp;Modifier...</translation>
+        <translation>&amp;Modifier…</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Sauter...</translation>
+        <translation>&amp;Sauter…</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Suivant</translation>
+        <translation>&amp;Suivant</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Précédent</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="94"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Ajouter le fichier courant</translation>
     </message>
 </context>
 <context>
@@ -2131,7 +2131,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../filechooser.cpp" line="52"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Cliquez pour sélectionner un fichier ou un dossier</translation>
     </message>
 </context>
 <context>
@@ -2817,7 +2817,7 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     <message>
         <location filename="../inputurl.cpp" line="32"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation type="obsolete">Si cette option est cochée, l&apos;URL sera traitée comme une liste de lecture : celà l&apos;ouvrira en tant que texte et jouera les URLs dedans.</translation>
+        <translation type="obsolete">Si cette option est cochée, l&apos;URL sera traitée comme une liste de lecture : celà l&apos;ouvrira en tant que texte et jouera les URL dedans.</translation>
     </message>
 </context>
 <context>
@@ -4129,7 +4129,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimédia</translation>
+        <translation>Multimédia</translation>
     </message>
 </context>
 <context>
@@ -4560,17 +4560,17 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher les métadonnées sur la barre de titre</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est cochée, les informations provenant des métadonnées contenues dans le fichier seront affichées dans la barre de titre. Autrement, seul le nom du fichier sera affiché.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="287"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Afficher les métadonnées sur la barre de titre</translation>
     </message>
 </context>
 <context>
@@ -4666,7 +4666,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="187"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation>Choississez votre lecteur CD. Il sera utilisé pour lire les VCDs et CDs Audio.</translation>
+        <translation>Choississez votre lecteur CD. Il sera utilisé pour lire les VCD et CD audio.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="189"/>
@@ -4676,7 +4676,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="190"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
-        <translation>Choississez votre lecteur DVD. Il sera utilisé pour lire les DVDs.</translation>
+        <translation>Choississez votre lecteur DVD. Il sera utilisé pour lire les DVD.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="113"/>
@@ -4701,7 +4701,7 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="196"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Si cette option est cochée, smplayer jouera les DVDs en utilisant dvdnav. Nécessite une version récente de mplayer compilée avec le support dvdnav.</translation>
+        <translation>Si cette option est cochée, smplayer jouera les DVD en utilisant dvdnav. Nécessite une version récente de mplayer compilée avec le support dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="197"/>
@@ -5131,13 +5131,13 @@ Exemple : resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="139"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Ici, vous pouvez choisir votre langue préférée pour l&apos;audio et le sous-titrage du stream. Quand un média est trouvé avec un ou plusieurs audio ou sous-titres, SMPlayer essayera d&apos;utiliser votre langue préférée.  Ceci marche uniquement lorsqu&apos;un média propose assez d&apos;informations à propos de l&apos;audio ou du sous-titrage, comme les DVDs ou fichiers .mkv. Ces champs acceptent les expresssions régulières. Exemple : &lt;b&gt;es|esp|spa&lt;/b&gt; sélectionnera la piste qui comprend &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Ici, vous pouvez choisir votre langue préférée pour l&apos;audio et le sous-titrage pour chaque piste. Quand un média est trouvé avec un ou plusieurs flux audio ou sous-titres, SMPlayer essayera d&apos;utiliser votre langue préférée. Ceci marche uniquement lorsqu&apos;un média propose assez d&apos;informations à propos de l&apos;audio ou du sous-titrage, comme les DVD ou fichiers .mkv. Ces champs acceptent les expressions régulières. Exemple : &lt;b&gt;es|esp|spa&lt;/b&gt; sélectionnera la piste qui comprend &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1011"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
@@ -5347,12 +5347,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1060"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici, vous pouvez choisir votre langue préférée pour l&apos;audio. Quand un média est trouvé avec un ou plusieurs flux audio, SMPlayer essayera d&apos;utiliser votre langue préférée. Ceci marche uniquement lorsqu&apos;un média propose assez d&apos;informations à propos de l&apos;audio, comme les DVD ou fichiers .mkv. Ces champs acceptent les expressions régulières. Exemple : &lt;b&gt;es|esp|spa&lt;/b&gt; sélectionnera la piste qui comprend &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1070"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ici, vous pouvez choisir votre langue préférée pour les sous-titres. Quand un média est trouvé avec une ou plusieurs piste de sous-titres, SMPlayer essayera d&apos;utiliser votre langue préférée. Ceci marche uniquement lorsqu&apos;un média propose assez d&apos;informations à propos du sous-titrage, comme les DVD ou fichiers .mkv. Ces champs acceptent les expressions régulières. Exemple : &lt;b&gt;es|esp|spa&lt;/b&gt; sélectionnera la piste qui comprend &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="569"/>
@@ -5417,7 +5417,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="853"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation>Si vous cochez cette option, SMPlayer se souviendra de la dernière position dans le fichier lorsque vous le réouvrirez de nouveau. Cette option ne fonctionne qu&apos;avec les fichiers ordinaires (non pas avec les DVD, CD, URLs...).</translation>
+        <translation>Si vous cochez cette option, SMPlayer se souviendra de la dernière position dans le fichier lorsque vous le réouvrirez de nouveau. Cette option ne fonctionne qu&apos;avec les fichiers ordinaires (non pas avec les DVD, CD, URL…).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
@@ -5427,7 +5427,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1017"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Choisissez le nombre de canaux en sortie. MPlayer demandera au codec d&apos;utiliser le nombre de canaux spécifié. Il lui appartient de répondre à la demande. Cette option est seulement utile lors de la lecture de fichier avec une piste en AC3 (comme les DVD). Dans ce cas, liba52 abaissera le nombre de canaux en fonction du choix. &lt;b&gt;Note&lt;/b&gt; : Cette option ne concerne que le codec AC3, le filtre &lt;i&gt;surround&lt;/i&gt; et le pilote de sortie OSS (ou mieux).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="864"/>
@@ -5622,12 +5622,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 est l&apos;option recommanée. %2 est seulement disponible sur les anciennes versions de MPlayer (avant la version %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>Configu&amp;rer…</translation>
     </message>
 </context>
 <context>
@@ -5970,7 +5970,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer l&apos;option sous le pointeur dans les menu d&apos;un DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
@@ -6005,7 +6005,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer l&apos;option surlignée dans le menu d&apos;un DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -6015,7 +6015,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Navigation temporelle</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
@@ -6040,22 +6040,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cochez pour activer la fonction de navigation</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cochez pour activer la fonction de contrôle du volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="349"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cochez pour activer la fonction de zoom</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="352"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cochez pour activer la fonction de changement de la vitesse de lecture</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="490"/>
@@ -6070,17 +6070,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Inverser le sens de la roulette</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inverser le sens de la roulette</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;nverser le sens de la roulette</translation>
     </message>
 </context>
 <context>
@@ -6238,17 +6238,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="471"/>
         <source>&amp;Seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Navigation</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="608"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Position absolue</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="621"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Position relative</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="645"/>
@@ -6368,12 +6368,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="596"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode de navigation</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="580"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished">Définit la méthode à utiliser lorsqu&apos;on se déplace dans la vidéo avec le curseur. Le déplacement absolut peut-être un peu plus précis, tandis que le déplacement relatif peut mieux fonctionner avec des fichiers avec une durée incorrecte.</translation>
+        <translation>Défini la méthode à utiliser lorsque l&apos;on se déplace dans la vidéo avec le curseur. Le déplacement absolu peut être un peu plus précis, tandis que le déplacement relatif peut mieux fonctionner avec des fichiers ayant une durée incorrecte.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="585"/>
@@ -6478,7 +6478,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="614"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished">Cette option définit l&apos;espacement en pixels entre le contrôle flottant et le bas de l&apos;écran. Utile lorsque l&apos;écran est une télévision et que l&apos;overscan empêche d&apos;afficher le contrôle flottant.</translation>
+        <translation>Cette option définit l&apos;espacement en pixel entre le contrôle flottant et le bas de l&apos;écran. Utile lorsque l&apos;écran est une télévision et que le zoom empêche d&apos;afficher le contrôle flottant.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="616"/>
@@ -6493,7 +6493,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="625"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished">Si cette option est cochée, le contrôle est affiché sans passer par le gestionnaire de fenêtres. Désactivez cette option si le contrôle flottant ne fonctionne pas bien avec votre gestionnaire de fenêtres.</translation>
+        <translation>Si cette option est cochée, le contrôle est affiché sans passer par le gestionnaire de fenêtres. Désactivez cette option si le contrôle flottant ne fonctionne pas bien avec votre gestionnaire de fenêtres.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="818"/>
@@ -6503,7 +6503,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="824"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished">Le contrôle flottant s&apos;affiche en mode plein écran lorsque la souris est déplacée vers le bas de l&apos;écran.</translation>
+        <translation>Le contrôle flottant s&apos;affiche en mode plein écran lorsque la souris est déplacée vers le bas de l&apos;écran.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="834"/>
@@ -6538,7 +6538,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="619"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished">Si cette option est activée, le contrôle flottant apparaîtra en mode compact. &lt;b&gt;Avertissement:&lt;/b&gt; le contrôle flottant n&apos;a pas été conçu pour le mode compact et il pourrait ne pas fonctionner correctement.</translation>
+        <translation>Si cette option est activée, le contrôle flottant apparaîtra également en mode compact. &lt;b&gt;Attention :&lt;/b&gt; le contrôle flottant n&apos;a pas été conçu pour le mode compact et il pourrait ne pas fonctionner correctement !</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="156"/>
@@ -6548,17 +6548,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="526"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Cacher la fenêtre vidéo lors de la lecture de fichier audio</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="527"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si cette option est activée, la fenêtre vidéo va être cachée lors de la lecture de fichier audio.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="143"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Cacher la &amp;fenêtre vidéo lors de la lecture de fichier audio</translation>
     </message>
 </context>
 <context>
@@ -6751,7 +6751,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="347"/>
         <source>Cache for DVDs</source>
-        <translation>Cache pour les DVDs</translation>
+        <translation>Cache pour les DVD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="350"/>
@@ -6766,7 +6766,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="480"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>Cache pour les &amp;DVDs :</translation>
+        <translation>Cache pour les &amp;DVD :</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="406"/>
@@ -6826,7 +6826,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
         <source>Cache for audio CDs</source>
-        <translation>Cache pour les CDs audios</translation>
+        <translation>Cache pour les CD audio</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
@@ -6836,12 +6836,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="517"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Cache pour les CDs &amp;audios :</translation>
+        <translation>Cache pour les CD &amp;audio :</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
         <source>Cache for VCDs</source>
-        <translation>Cache pour les VCDs</translation>
+        <translation>Cache pour les VCD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="358"/>
@@ -6851,7 +6851,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="554"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation>Cache pour les &amp;VCDs :</translation>
+        <translation>Cache pour les &amp;VCD :</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
@@ -6896,17 +6896,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Qualité pour Youtube</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionnez la qualité préférée pour les vidéos Youtube.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Qualité pour &amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -7943,7 +7943,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="175"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>« media » est n&apos;importe quel fichier que SMPlayer peut ouvrir. Cela peut être un fichier local, un DVD (ex :  dvd://1), un flux internet (ex : mms://…) ou une liste de lecture locale au format M3U ou PLS. Si l&apos;option « -playlist » est utilisée, cela veut dire que SMPlayer donnera l&apos;option « -playlist » à MPlayer, alors MPlayer comprendra la liste de lecture, non pas SMPlayer.</translation>
     </message>
 </context>
 <context>
@@ -8067,42 +8067,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Propriétés de VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner les codecs VDPAU à utiliser. Il n&apos;est pas obligatoire de tous les choisir.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Désactiver les filtres vidéos logiciels</translation>
     </message>
 </context>
 <context>
