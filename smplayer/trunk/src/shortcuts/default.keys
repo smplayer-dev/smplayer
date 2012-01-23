@@ -50,7 +50,6 @@ multiple_screenshots	Shift+D
 video_preview	
 flip	
 mirror	
-motion_vectors	
 postprocessing	
 autodetect_phase	
 deblock	
@@ -82,7 +81,6 @@ inc_sub_scale	Shift+T
 dec_sub_step	G
 inc_sub_step	Y
 use_ass_lib	
-use_closed_caption	
 use_forced_subs_only	
 subtitle_visibility	V
 show_find_sub_dialog	
@@ -95,6 +93,7 @@ show_smplayer_log	Ctrl+S
 faq	
 cl_options	
 tips	
+donate	
 about_qt	
 about_smplayer	
 play_next	>
@@ -182,6 +181,11 @@ on_top_always
 on_top_never	
 on_top_playing	
 toggle_stay_on_top	
+cc_none	
+cc_ch_1	
+cc_ch_2	
+cc_ch_3	
+cc_ch_4	
 dvdnav_up	Shift+Up
 dvdnav_down	Shift+Down
 dvdnav_left	Shift+Left
@@ -190,7 +194,7 @@ dvdnav_menu	Shift+Return
 dvdnav_select	Return
 dvdnav_prev	Shift+Esc
 dvdnav_mouse	
-quit	
+quit	Ctrl+Q
 show_tray_icon	
 restore/hide	
 pl_open	
@@ -202,7 +206,6 @@ pl_move_up
 pl_move_down	
 pl_repeat	
 pl_shuffle	
-pl_preferences	
 pl_add_current	
 pl_add_files	
 pl_add_directory	
