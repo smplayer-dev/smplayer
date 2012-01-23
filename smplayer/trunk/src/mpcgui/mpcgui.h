@@ -35,7 +35,7 @@ class MpcGui : public BaseGuiPlus
 	Q_OBJECT
 
 public:
-	MpcGui( QWidget* parent = 0, Qt::WindowFlags flags = 0 );
+	MpcGui( bool use_server, QWidget* parent = 0, Qt::WindowFlags flags = 0 );
 	~MpcGui();
 
 #if USE_MPCMUMSIZE

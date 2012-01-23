@@ -101,7 +101,7 @@
 
 using namespace Global;
 
-BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
+BaseGui::BaseGui( bool use_server, QWidget* parent, Qt::WindowFlags flags ) 
 	: QMainWindow( parent, flags ),
 		near_top(false),
 		near_bottom(false)
@@ -114,6 +114,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 	arg_close_on_finish = -1;
 	arg_start_in_fullscreen = -1;
+	use_control_server = use_server;
 
 	setWindowTitle( "SMPlayer" );
 
@@ -199,47 +200,49 @@ void BaseGui::initializeGui() {
 	QTimer::singleShot(20, this, SLOT(loadActions()));
 
 	// Single instance
-	server = new MyServer(this);
-	connect(server, SIGNAL(receivedOpen(QString)),
-            this, SLOT(remoteOpen(QString)));
-	connect(server, SIGNAL(receivedOpenFiles(QStringList)),
-            this, SLOT(remoteOpenFiles(QStringList)));
-	connect(server, SIGNAL(receivedAddFiles(QStringList)),
-            this, SLOT(remoteAddFiles(QStringList)));
-	connect(server, SIGNAL(receivedFunction(QString)),
-            this, SLOT(processFunction(QString)));	
-	connect(server, SIGNAL(receivedLoadSubtitle(QString)),	
-            this, SLOT(remoteLoadSubtitle(QString)));
-	connect(server, SIGNAL(receivedPlayItem(int)),
-			this, SLOT(remotePlayItem(int)));
-	connect(server, SIGNAL(receivedRemoveItem(int)),
-			this, SLOT(remoteRemoveItem(int)));
-	connect(server, SIGNAL(receivedViewPlaylist(QString*)),
-			this, SLOT(remoteViewPlaylist(QString*)));
-	connect(server, SIGNAL(receivedViewStatus(QString*)),
-			this, SLOT(remoteViewStatus(QString*)));
-	connect(server, SIGNAL(receivedViewClipInfo(QString*)),
-			this, SLOT(remoteViewClipInfo(QString*)));
-	connect(server, SIGNAL(receivedSeek(double)),
-			this, SLOT(remoteSeek(double)));
-	connect(server, SIGNAL(receivedGetChecked(QString,QString*)),
-			this, SLOT(remoteGetChecked(QString,QString*)));
-	connect(server, SIGNAL(receivedMoveItem(int,int)),
-			this, SLOT(remoteMoveItem(int,int)));
-	connect(server, SIGNAL(receivedGetVolume(int*)),
-			this, SLOT(remoteGetVolume(int*)));
-	connect(server, SIGNAL(receivedSetVolume(int)),
-			core, SLOT(setVolume(int)));
+	if (use_control_server) {
+		server = new MyServer(this);
+		connect(server, SIGNAL(receivedOpen(QString)),
+	            this, SLOT(remoteOpen(QString)));
+		connect(server, SIGNAL(receivedOpenFiles(QStringList)),
+	            this, SLOT(remoteOpenFiles(QStringList)));
+		connect(server, SIGNAL(receivedAddFiles(QStringList)),
+	            this, SLOT(remoteAddFiles(QStringList)));
+		connect(server, SIGNAL(receivedFunction(QString)),
+	            this, SLOT(processFunction(QString)));	
+		connect(server, SIGNAL(receivedLoadSubtitle(QString)),	
+	            this, SLOT(remoteLoadSubtitle(QString)));
+		connect(server, SIGNAL(receivedPlayItem(int)),
+				this, SLOT(remotePlayItem(int)));
+		connect(server, SIGNAL(receivedRemoveItem(int)),
+				this, SLOT(remoteRemoveItem(int)));
+		connect(server, SIGNAL(receivedViewPlaylist(QString*)),
+				this, SLOT(remoteViewPlaylist(QString*)));
+		connect(server, SIGNAL(receivedViewStatus(QString*)),
+				this, SLOT(remoteViewStatus(QString*)));
+		connect(server, SIGNAL(receivedViewClipInfo(QString*)),
+				this, SLOT(remoteViewClipInfo(QString*)));
+		connect(server, SIGNAL(receivedSeek(double)),
+				this, SLOT(remoteSeek(double)));
+		connect(server, SIGNAL(receivedGetChecked(QString,QString*)),
+				this, SLOT(remoteGetChecked(QString,QString*)));
+		connect(server, SIGNAL(receivedMoveItem(int,int)),
+				this, SLOT(remoteMoveItem(int,int)));
+		connect(server, SIGNAL(receivedGetVolume(int*)),
+				this, SLOT(remoteGetVolume(int*)));
+		connect(server, SIGNAL(receivedSetVolume(int)),
+				core, SLOT(setVolume(int)));
 
-	if (pref->use_single_instance) {
-		int port = 0;
-		if (!pref->use_autoport) port = pref->connection_port;
-		if (server->listen(port)) {
-			pref->autoport = server->serverPort();
-			pref->save();
-			qDebug("BaseGui::initializeGui: server running on port %d", pref->autoport);
-		} else {
-			qWarning("BaseGui::initializeGui: server couldn't be started");
+		if (pref->use_single_instance) {
+			int port = 0;
+			if (!pref->use_autoport) port = pref->connection_port;
+			if (server->listen(port)) {
+				pref->autoport = server->serverPort();
+				pref->save();
+				qDebug("BaseGui::initializeGui: server running on port %d", pref->autoport);
+			} else {
+				qWarning("BaseGui::initializeGui: server couldn't be started");
+			}
 		}
 	}
 }
@@ -2618,6 +2621,9 @@ void BaseGui::showPreferencesDialog() {
 	pl->setSavePlaylistOnExit(playlist->savePlaylistOnExit());
 	pl->setPlayFilesFromStart(playlist->playFilesFromStart());
 
+	PrefInterface * pi = pref_dialog->mod_interface();
+	pi->setSingleInstanceTabEnabled( use_control_server );
+
 	pref_dialog->show();
 }
 
@@ -2656,25 +2662,27 @@ void BaseGui::applyNewPreferences() {
 #endif
 	}
 
-	if (!pref->use_single_instance && server->isListening()) {
-		server->close();
-		qDebug("BaseGui::applyNewPreferences: server closed");
-	}
-	else
-	{
-		bool server_requires_restart = _interface->serverPortChanged();
-		if (pref->use_single_instance && !server->isListening()) 
-			server_requires_restart=true;
-
-		if (server_requires_restart) {
+	if (use_control_server) {
+		if (!pref->use_single_instance && server->isListening()) {
 			server->close();
-			int port = 0;
-			if (!pref->use_autoport) port = pref->connection_port;
-			if (server->listen(port)) {
-				pref->autoport = server->serverPort();
-				qDebug("BaseGui::applyNewPreferences: server running on port %d", pref->autoport);
-			} else {
-				qWarning("BaseGui::applyNewPreferences: server couldn't be started");
+			qDebug("BaseGui::applyNewPreferences: server closed");
+		}
+		else
+		{
+			bool server_requires_restart = _interface->serverPortChanged();
+			if (pref->use_single_instance && !server->isListening()) 
+				server_requires_restart=true;
+
+			if (server_requires_restart) {
+				server->close();
+				int port = 0;
+				if (!pref->use_autoport) port = pref->connection_port;
+				if (server->listen(port)) {
+					pref->autoport = server->serverPort();
+					qDebug("BaseGui::applyNewPreferences: server running on port %d", pref->autoport);
+				} else {
+					qWarning("BaseGui::applyNewPreferences: server couldn't be started");
+				}
 			}
 		}
 	}
@@ -4525,8 +4533,7 @@ void BaseGui::loadActions() {
 	actions_list += ActionsEditor::actionsNames(playlist);
 #endif
 
-	//if (server)
-		server->setActionsList( actions_list );
+	if (server) server->setActionsList( actions_list );
 }
 
 void BaseGui::saveActions() {

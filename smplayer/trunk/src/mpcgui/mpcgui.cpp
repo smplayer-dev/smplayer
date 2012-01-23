@@ -37,8 +37,8 @@
 using namespace Global;
 
 
-MpcGui::MpcGui( QWidget * parent, Qt::WindowFlags flags )
-	: BaseGuiPlus( parent, flags )
+MpcGui::MpcGui( bool use_server, QWidget * parent, Qt::WindowFlags flags )
+	: BaseGuiPlus( use_server, parent, flags )
 {
 	createActions();
 	createControlWidget();

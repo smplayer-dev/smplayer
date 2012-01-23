@@ -1,6 +1,11 @@
 [b]Version 0.6.11[/b]:
 
 (2012-01-23)
+ * New option for command-line: -disable-server. This option disables the 
+   server used to communicate with other instances. This, of course, disables 
+   too the possibility to use a single instance.
+
+(2012-01-23)
  * Move the favorite menu to the open menu, and add an icon to the toolbar.
 
 (2012-01-22)

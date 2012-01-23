@@ -47,8 +47,8 @@
 
 using namespace Global;
 
-DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
-	: BaseGuiPlus( parent, flags )
+DefaultGui::DefaultGui( bool use_server, QWidget * parent, Qt::WindowFlags flags )
+	: BaseGuiPlus( use_server, parent, flags )
 {
 	createStatusBar();
 

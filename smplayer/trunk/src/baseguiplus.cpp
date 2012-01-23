@@ -46,8 +46,8 @@
 
 using namespace Global;
 
-BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
-	: BaseGui( parent, flags )
+BaseGuiPlus::BaseGuiPlus( bool use_server, QWidget * parent, Qt::WindowFlags flags)
+	: BaseGui( use_server, parent, flags )
 {
 	// Initialize variables
 	mainwindow_visible = true;

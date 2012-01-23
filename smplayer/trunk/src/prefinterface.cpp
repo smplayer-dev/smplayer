@@ -29,6 +29,8 @@
 #include <QStyleFactory>
 #include <QFontDialog>
 
+#define SINGLE_INSTANCE_TAB 2
+
 PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
@@ -367,6 +369,14 @@ void PrefInterface::setUseAutoPort(bool b) {
 
 bool PrefInterface::useAutoPort() {
 	return automatic_port_button->isChecked();
+}
+
+void PrefInterface::setSingleInstanceTabEnabled(bool b) {
+	tabWidget->setTabEnabled(SINGLE_INSTANCE_TAB, b);
+}
+
+bool PrefInterface::singleInstanceTabEnabled() {
+	return tabWidget->isTabEnabled(SINGLE_INSTANCE_TAB);
 }
 
 void PrefInterface::setRecentsMaxItems(int n) {
