@@ -70,7 +70,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags )
 	connect( tray, SIGNAL(activated(QSystemTrayIcon::ActivationReason)), 
              this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
 
-	quitAct = new MyAction(this, "quit");
+	quitAct = new MyAction(QKeySequence("Ctrl+Q"), this, "quit");
     connect( quitAct, SIGNAL(triggered()), this, SLOT(quit()) );
 	openMenu->addAction(quitAct);
 
