@@ -51,6 +51,7 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 
 	close_at_end = -1; // Not set
 	start_in_fullscreen = -1; // Not set
+	use_control_server = true;
 
 	move_gui = false;
 	resize_gui = false;
@@ -80,12 +81,12 @@ BaseGui * SMPlayer::gui() {
 		qDebug("SMPlayer::gui: current directory: %s", QDir::currentPath().toUtf8().data());
 		
 		if (gui_to_use.toLower() == "minigui") 
-			main_window = new MiniGui(0);
+			main_window = new MiniGui(use_control_server, 0);
 		else 
 		if (gui_to_use.toLower() == "mpcgui")
-			main_window = new MpcGui(0);
+			main_window = new MpcGui(use_control_server, 0);
 		else
-			main_window = new DefaultGui(0);
+			main_window = new DefaultGui(use_control_server, 0);
 
 		if (move_gui) {
 			qDebug("SMPlayer::gui: moving main window to %d %d", gui_position.x(), gui_position.y());
@@ -217,6 +218,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		else
 		if (argument == "-no-fullscreen") {
 			start_in_fullscreen = 0;
+		}
+		else
+		if (argument == "-disable-server") {
+			use_control_server = false;
 		}
 		else
 		if (argument == "-add-to-playlist") {

@@ -47,6 +47,9 @@ public:
 	bool styleChanged() { return style_changed; };
 	bool serverPortChanged() { return port_changed; };
 
+	void setSingleInstanceTabEnabled(bool b);
+	bool singleInstanceTabEnabled();
+
 protected:
 	virtual void createHelp();
 	void createLanguageCombo();

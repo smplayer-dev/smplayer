@@ -43,7 +43,7 @@ class DefaultGui : public BaseGuiPlus
 	Q_OBJECT
 
 public:
-	DefaultGui( QWidget* parent = 0, Qt::WindowFlags flags = 0 );
+	DefaultGui( bool use_server, QWidget* parent = 0, Qt::WindowFlags flags = 0 );
 	~DefaultGui();
 
 #if USE_MINIMUMSIZE
