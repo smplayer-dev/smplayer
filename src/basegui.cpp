@@ -1721,8 +1721,11 @@ void BaseGui::retranslateStrings() {
 	recentfiles_menu->menuAction()->setIcon( Images::icon("recents") );
 	clearRecentsAct->change( Images::icon("delete"), tr("&Clear") );
 
+	disc_menu->menuAction()->setText( tr("&Disc") );
+	disc_menu->menuAction()->setIcon( Images::icon("open_disc") );
+
 	/* favorites->menuAction()->setText( tr("&Favorites") ); */
-	favorites->menuAction()->setText( tr("Favorit&es") );
+	favorites->menuAction()->setText( tr("F&avorites") );
 	favorites->menuAction()->setIcon( Images::icon("open_favorites") ); 
 
 	tvlist->menuAction()->setText( tr("&TV") );
@@ -2173,14 +2176,20 @@ void BaseGui::createMenus() {
 	recentfiles_menu->addSeparator();
 
 	openMenu->addMenu( recentfiles_menu );
-
 	openMenu->addMenu(favorites);
 	openMenu->addAction(openDirectoryAct);
 	openMenu->addAction(openPlaylistAct);
-	openMenu->addAction(openDVDAct);
-	openMenu->addAction(openDVDFolderAct);
-	openMenu->addAction(openVCDAct);
-	openMenu->addAction(openAudioCDAct);
+
+	// Disc submenu
+	disc_menu = new QMenu(this);
+	disc_menu->menuAction()->setObjectName("disc_menu");
+	disc_menu->addAction(openDVDAct);
+	disc_menu->addAction(openDVDFolderAct);
+	disc_menu->addAction(openVCDAct);
+	disc_menu->addAction(openAudioCDAct);
+
+	openMenu->addMenu(disc_menu);
+
 	openMenu->addAction(openURLAct);
 /* #ifndef Q_OS_WIN */
 	openMenu->addMenu(tvlist);
