@@ -2182,10 +2182,10 @@ void BaseGui::createMenus() {
 	openMenu->addAction(openVCDAct);
 	openMenu->addAction(openAudioCDAct);
 	openMenu->addAction(openURLAct);
-#ifndef Q_OS_WIN
+/* #ifndef Q_OS_WIN */
 	openMenu->addMenu(tvlist);
 	openMenu->addMenu(radiolist);
-#endif
+/* #endif */
 	openMenu->addSeparator();
 	openMenu->addAction(exitAct);
 	
