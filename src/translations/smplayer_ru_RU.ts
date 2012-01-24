@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -305,7 +306,7 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Croatian</source>
-        <translation type="unfinished">Хорватский</translation>
+        <translation>Хорватский</translation>
     </message>
 </context>
 <context>
@@ -1691,7 +1692,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;Favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Избранное</translation>
     </message>
 </context>
 <context>
@@ -2025,12 +2026,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Новый элемент</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Новое &amp;подменю</translation>
     </message>
 </context>
 <context>
@@ -2048,27 +2049,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">&amp;Редактировать...</translation>
+        <translation>&amp;Редактировать...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Перейти...</translation>
+        <translation>&amp;Перейти...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">С&amp;ледующий</translation>
+        <translation>С&amp;ледующий</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Пре&amp;дыдущий</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="94"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить &amp;текущий элемент</translation>
     </message>
 </context>
 <context>
@@ -2076,7 +2077,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filechooser.cpp" line="52"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Щёлкните для выбора файла или каталога</translation>
     </message>
 </context>
 <context>
@@ -3683,7 +3684,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3793,7 +3794,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -6389,17 +6390,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="526"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Прятать окно видео при воспроизведении аудиофайлов</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="527"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция выбрана, окно видео будет спрятано при воспроизведении аудиофайлов.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="143"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Прятать окно видео при воспроизведении аудиофайлов</translation>
     </message>
 </context>
 <context>
@@ -6712,17 +6713,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Качество Youtube-видео</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите предпочтительное качество для видео с Youtube.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Ка&amp;чество Youtube-видео</translatorcomment>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -7761,7 +7763,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="175"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;элемент&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный плейлист в формате m3u или pls.</translation>
     </message>
 </context>
 <context>
