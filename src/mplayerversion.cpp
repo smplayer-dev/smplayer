@@ -24,12 +24,18 @@
 
 using namespace Global;
 
+QString MplayerVersion::mplayer2_version;
+bool MplayerVersion::is_mplayer2 = false;
+
 int MplayerVersion::mplayerVersion(QString string) {
+	//qDebug("MplayerVersion::mplayerVersion: '%s'", string.toUtf8().constData());
+
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
 	static QRegExp rx_mplayer_revision("^MPlayer (.*)[-\\.]r(\\d+)(.*)");
 	static QRegExp rx_mplayer_version("^MPlayer ([a-z,0-9,.]+)-(.*)");
 	static QRegExp rx_mplayer_git("^MPlayer GIT(.*)", Qt::CaseInsensitive);
 	static QRegExp rx_mplayer_version_final("1.0rc([0-9])");
+	static QRegExp rx_mplayer2_version("^MPlayer2 (.*) \\(C\\).*");
 #ifndef Q_OS_WIN
 	static QRegExp rx_mplayer_version_ubuntu("^MPlayer (\\d):(\\d)\\.(\\d)~(.*)");
 	static QRegExp rx_mplayer_version_mandriva("^MPlayer ([a-z0-9\\.]+)-\\d+\\.([a-z0-9]+)\\.[\\d\\.]+[a-z]+[\\d\\.]+-(.*)");
@@ -92,6 +98,13 @@ int MplayerVersion::mplayerVersion(QString string) {
 		else
 			qWarning("MplayerVersion::mplayerVersion: unknown MPlayer version");
 
+	}
+	else
+	if (rx_mplayer2_version.indexIn(string) > -1) {
+		mplayer2_version = rx_mplayer2_version.cap(1);
+		qDebug("MplayerVersion::mplayerVersion: MPlayer2 version found: %s", mplayer2_version.toUtf8().data());
+		is_mplayer2 = true;
+		mplayer_svn = MPLAYER_1_0_RC4_SVN; // simulates mplayer 1.0rc4
 	}
 
 	if (pref) {
