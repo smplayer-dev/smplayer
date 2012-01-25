@@ -305,7 +305,7 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Croatian</source>
-        <translation type="unfinished">Chorwacki</translation>
+        <translation>Chorwacki</translation>
     </message>
 </context>
 <context>
@@ -1716,37 +1716,37 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wspomóż</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1843"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Napisy na ekranie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3698"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Wspomóż</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3699"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli SMPlayer przypadł ci do gustu wspomóż nas wysyłając dotację, nawet małe kwoty są mile widziane.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3700"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Możesz nas wspomóc za pomocą %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3700"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>tego formularza</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;Favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ulubione</translation>
     </message>
 </context>
 <context>
@@ -2080,12 +2080,12 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nowy</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Nowe &amp;podmenu</translation>
     </message>
 </context>
 <context>
@@ -2103,27 +2103,27 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">&amp;Edycja...</translation>
+        <translation>&amp;Edycja...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Skok...</translation>
+        <translation>&amp;Skok...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Następny</translation>
+        <translation>&amp;Następny</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Pop&amp;rzedni</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="94"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;bieżące media</translation>
     </message>
 </context>
 <context>
@@ -2131,7 +2131,7 @@ Zobaczysz zaraz dialog konfiguracji i możesz dokonać ustaweń.</translation>
     <message>
         <location filename="../filechooser.cpp" line="52"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknij, aby wybrać plik bądź folder</translation>
     </message>
 </context>
 <context>
@@ -3297,7 +3297,7 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
     <message>
         <location filename="../languages.cpp" line="247"/>
         <source>Swedish</source>
-        <translation>Szwecki</translation>
+        <translation>Szwedzki</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
@@ -3467,7 +3467,7 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
     <message>
         <location filename="../languages.cpp" line="264"/>
         <source>Slavic/Central European Languages</source>
-        <translation>Jężyk Słowacki/Centralny Europejki</translation>
+        <translation>Języki Słowiańskie/Środkowoeuropejskie</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -3542,7 +3542,7 @@ Wybierz katalog, w którym jest VIDEO_TS i AUDIO_TS.</translation>
     <message>
         <location filename="../languages.cpp" line="282"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Jężyk Słowacki/Centralny Europejki - Windows</translation>
+        <translation>Słowiański/Środkowoeuropejski - Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="283"/>
@@ -4132,7 +4132,7 @@ odtwarzania :</translation>
     <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimedia</translation>
+        <translation>Multimedia</translation>
     </message>
 </context>
 <context>
@@ -4563,17 +4563,17 @@ Przykład: resample=44100:0:0,</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokazuj informacje z tagów w tytule okna</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli zaznaczysz tą opcję, informacje zawarte w tagach będą pokazywane na belce tytułowej okna. W przeciwnym wypadku wyświetlana będzie tylko nazwa pliku.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="287"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokazuj in&amp;formacje z tagów w tytule okna</translation>
     </message>
 </context>
 <context>
@@ -5629,12 +5629,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 jest wersją zalecaną. %2 jest dostępny przy starszych wersjach MPlayera (przed wersją %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigu&amp;ruj...</translation>
     </message>
 </context>
 <context>
@@ -6555,17 +6555,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="526"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukryj okno do wyświetlania obrazu podczas odtwarzania pliku audio</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="527"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja zostanie zaznaczono okno do wyświetlania obazu z filmów zostanie ukryte podczas odtwarzania plików audio.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="143"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ukryj okno do wyświetlania obrazu podczas odtwarzania pliku audio</translation>
     </message>
 </context>
 <context>
@@ -6903,17 +6903,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Jakość filmów Youtube</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz preferowaną jakość dla filmów wideo z serwisu Youtube.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja&amp;kość filmów Youtube</translation>
     </message>
 </context>
 <context>
@@ -7952,7 +7952,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../clhelp.cpp" line="175"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć. Może to być plik lokalny, DVD (n.p. dvd://1), strumień internetowy (n.p. mms://1) lub lista odtwarzania w formacie m3u lub pls.</translation>
     </message>
 </context>
 <context>
@@ -8076,42 +8076,42 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustawienia VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz kodeki vdpau ktorych zamierzasz używać. Nie wszystkie mogą działać.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Wyłącz pro&amp;gramowe filtry obrazu</translation>
     </message>
 </context>
 <context>
