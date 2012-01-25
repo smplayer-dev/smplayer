@@ -429,6 +429,8 @@ void Preferences::reset() {
 
 	mplayer_detected_version = -1; //None version parsed yet
 	mplayer_user_supplied_version = -1;
+	mplayer_is_mplayer2 = false;
+	mplayer2_detected_version = QString::null;
 
 
     /* *********
@@ -844,6 +846,8 @@ void Preferences::save() {
 	set->beginGroup( "mplayer_info");
 	set->setValue("mplayer_detected_version", mplayer_detected_version);
 	set->setValue("mplayer_user_supplied_version", mplayer_user_supplied_version);
+	set->setValue("is_mplayer2", mplayer_is_mplayer2);
+	set->setValue("mplayer2_detected_version", mplayer2_detected_version);
 	set->endGroup(); // mplayer_info
 
 
@@ -1271,6 +1275,9 @@ void Preferences::load() {
 	set->beginGroup( "mplayer_info");
 	mplayer_detected_version = set->value("mplayer_detected_version", mplayer_detected_version).toInt();
 	mplayer_user_supplied_version = set->value("mplayer_user_supplied_version", mplayer_user_supplied_version).toInt();
+	mplayer_is_mplayer2 = set->value("is_mplayer2", mplayer_is_mplayer2).toBool();
+	mplayer2_detected_version = set->value("mplayer2_detected_version", mplayer2_detected_version).toString();
+
 	set->endGroup(); // mplayer_info
 
 

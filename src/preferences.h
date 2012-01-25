@@ -444,6 +444,9 @@ public:
 	//! the version can't be parsed from mplayer output
 	int mplayer_user_supplied_version;
 
+	bool mplayer_is_mplayer2; //! True if the detected version is mplayer2
+	QString mplayer2_detected_version;
+
 
     /* *********
        Instances

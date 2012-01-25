@@ -28,8 +28,6 @@ QString MplayerVersion::mplayer2_version;
 bool MplayerVersion::is_mplayer2 = false;
 
 int MplayerVersion::mplayerVersion(QString string) {
-	//qDebug("MplayerVersion::mplayerVersion: '%s'", string.toUtf8().constData());
-
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
 	static QRegExp rx_mplayer_revision("^MPlayer (.*)[-\\.]r(\\d+)(.*)");
 	static QRegExp rx_mplayer_version("^MPlayer ([a-z,0-9,.]+)-(.*)");
@@ -42,6 +40,8 @@ int MplayerVersion::mplayerVersion(QString string) {
 #endif
 
 	int mplayer_svn = 0;
+	mplayer2_version = QString::null;
+	is_mplayer2 = false;
 
 #ifdef Q_OS_WIN
 	// Hack to recognize mplayer 1.0rc2 from CCCP:
@@ -109,6 +109,8 @@ int MplayerVersion::mplayerVersion(QString string) {
 
 	if (pref) {
 		pref->mplayer_detected_version = mplayer_svn;
+		pref->mplayer_is_mplayer2 = is_mplayer2;
+		pref->mplayer2_detected_version = mplayer2_version;
 	}
 
 	return mplayer_svn;
