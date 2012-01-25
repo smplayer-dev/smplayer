@@ -38,7 +38,13 @@ public:
 
 	static bool isMplayerAtLeast(int svn_revision);
 
+	static bool isMplayer2() { return is_mplayer2; };
+
 	static QString toString(int mplayer_svn);
+
+protected:
+	static QString mplayer2_version;
+	static bool is_mplayer2; 
 };
 
 #endif
