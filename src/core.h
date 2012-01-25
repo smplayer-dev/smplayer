@@ -340,6 +340,7 @@ public:
 protected:
 	//! Returns the prefix to keep pausing on slave commands
 	QString pausing_prefix();
+	QString seek_cmd(int secs, int mode);
 
 protected slots:
     void changeCurrentSec(double sec);

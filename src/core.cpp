@@ -1299,12 +1299,12 @@ void Core::goToPosition(int value) {
 
 void Core::goToPos(double perc) {
 	qDebug("Core::goToPos: per: %f", perc);
-	tellmp( "seek " + QString::number(perc) + " 1");
+	tellmp( seek_cmd(perc, 1) );
 }
 #else
 void Core::goToPos(int perc) {
 	qDebug("Core::goToPos: per: %d", perc);
-	tellmp( "seek " + QString::number(perc) + " 1");
+	tellmp( seek_cmd(perc, 1) );
 }
 #endif
 
@@ -2313,15 +2313,21 @@ void Core::goToSec( double sec ) {
 
     if (sec < 0) sec = 0;
     if (sec > mdat.duration ) sec = mdat.duration - 20;
-    tellmp("seek " + QString::number(sec) + " 2");
+    tellmp( seek_cmd(sec, 2) );
 }
 
 
 void Core::seek(int secs) {
 	qDebug("Core::seek: %d", secs);
 	if ( (proc->isRunning()) && (secs!=0) ) {
-		tellmp("seek " + QString::number(secs) + " 0");
+		tellmp( seek_cmd(secs, 0) );
 	}
+}
+
+QString Core::seek_cmd(int secs, int mode) {
+	QString s = QString("seek %1 %2").arg(secs).arg(mode);
+	if (MplayerVersion::isMplayer2()) s += " 1"; // hr-seek
+	return s;
 }
 
 void Core::sforward() {
