@@ -61,7 +61,7 @@ QString PrefAdvanced::sectionName() {
 }
 
 QPixmap PrefAdvanced::sectionIcon() {
-    return Images::icon("pref_advanced");
+    return Images::icon("pref_advanced", 22);
 }
 
 

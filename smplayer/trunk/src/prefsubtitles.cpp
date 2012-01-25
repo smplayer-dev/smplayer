@@ -52,7 +52,7 @@ QString PrefSubtitles::sectionName() {
 }
 
 QPixmap PrefSubtitles::sectionIcon() {
-    return Images::icon("pref_subtitles");
+    return Images::icon("pref_subtitles", 22);
 }
 
 

@@ -75,7 +75,7 @@ QString PrefPerformance::sectionName() {
 }
 
 QPixmap PrefPerformance::sectionIcon() {
-    return Images::icon("pref_performance");
+    return Images::icon("pref_performance", 22);
 }
 
 

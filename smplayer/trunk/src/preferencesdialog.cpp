@@ -96,6 +96,7 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	page_advanced = new PrefAdvanced;
 	addSection( page_advanced );
 
+	//sections->setIconSize( QSize(22,22) );
 	sections->setCurrentRow(General);
 
 	//adjustSize();
