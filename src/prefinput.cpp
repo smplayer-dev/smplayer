@@ -39,7 +39,7 @@ QString PrefInput::sectionName() {
 }
 
 QPixmap PrefInput::sectionIcon() {
-    return Images::icon("input_devices");
+    return Images::icon("input_devices", 22);
 }
 
 void PrefInput::createMouseCombos() {
