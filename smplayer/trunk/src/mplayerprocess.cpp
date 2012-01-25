@@ -474,7 +474,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			return;
 		}
 
-		if ( (mplayer_svn == -1) && (line.startsWith("MPlayer ")) ) {
+		if ( (mplayer_svn == -1) && ((line.startsWith("MPlayer ")) || (line.startsWith("MPlayer2 "))) ) {
 			mplayer_svn = MplayerVersion::mplayerVersion(line);
 			qDebug("MplayerProcess::parseLine: MPlayer SVN: %d", mplayer_svn);
 			if (mplayer_svn <= 0) {
