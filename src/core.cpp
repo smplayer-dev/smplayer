@@ -3875,6 +3875,10 @@ void Core::displayScreenshotName(QString filename) {
 	//QString text = tr("Screenshot saved as %1").arg(filename);
 	QString text = QString("Screenshot saved as %1").arg(filename);
 
+	if (MplayerVersion::isMplayer2) {
+		displayTextOnOSD(text, 3000, 1, "");
+	}
+	else
 	if (MplayerVersion::isMplayerAtLeast(27665)) {
 		displayTextOnOSD(text, 3000, 1, "pausing_keep_force");
 	}
@@ -4219,6 +4223,10 @@ void Core::dvdTitleIsMovie() {
 QString Core::pausing_prefix() {
 	qDebug("Core::pausing_prefix");
 
+	if (MplayerVersion::isMplayer2()) {
+		return QString::null;
+	}
+	else
 	if ( (pref->use_pausing_keep_force) && 
          (MplayerVersion::isMplayerAtLeast(27665)) ) 
 	{
