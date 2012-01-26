@@ -335,6 +335,7 @@ public:
 	//! percentage (with fractions) instead of time.
 	bool relative_seeking;  
 #endif
+	bool precise_seeking; //! Enable precise_seeking (only available with mplayer2)
 
 	QString language;
 	QString iconset;

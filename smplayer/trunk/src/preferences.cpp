@@ -332,6 +332,7 @@ void Preferences::reset() {
 #if SEEKBAR_RESOLUTION
 	relative_seeking = false;
 #endif
+	precise_seeking = true;
 
 	language = "";
 	iconset = "";
@@ -744,6 +745,7 @@ void Preferences::save() {
 #if SEEKBAR_RESOLUTION
 	set->setValue("relative_seeking", relative_seeking);
 #endif
+	set->setValue("precise_seeking", precise_seeking);
 
 	set->setValue("language", language);
 	set->setValue("iconset", iconset);
@@ -1172,6 +1174,7 @@ void Preferences::load() {
 #if SEEKBAR_RESOLUTION
 	relative_seeking = set->value("relative_seeking", relative_seeking).toBool();
 #endif
+	precise_seeking = set->value("precise_seeking", precise_seeking).toBool();
 
 	language = set->value("language", language).toString();
 	iconset= set->value("iconset", iconset).toString();
