@@ -393,6 +393,11 @@ protected slots:
 
 	void initializeOSD();
 
+#if YOUTUBE_SUPPORT
+	void connectingToYT(QString host);
+	void YTFailed(QString error);
+#endif
+
 protected:
 	void playNewFile(QString file, int seek=-1);
 	void restartPlay();
