@@ -102,6 +102,9 @@ protected:
 	void setRelativeSeeking(bool);
 	bool relativeSeeking();
 
+	void setPreciseSeeking(bool);
+	bool preciseSeeking();
+
 	void setDefaultFont(QString font_desc);
 	QString defaultFont();
 

@@ -625,7 +625,7 @@
          </layout>
         </widget>
        </item>
-       <item row="4" column="0" colspan="2" >
+       <item row="5" column="0" colspan="2" >
         <spacer>
          <property name="orientation" >
           <enum>Qt::Vertical</enum>
@@ -637,6 +637,13 @@
           </size>
          </property>
         </spacer>
+       </item>
+       <item row="4" column="0" >
+        <widget class="QCheckBox" name="precise_seeking_check" >
+         <property name="text" >
+          <string>&amp;Precise seeking</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -965,6 +972,7 @@
   <tabstop>timeslider_behaviour_combo</tabstop>
   <tabstop>absolute_seeking_button</tabstop>
   <tabstop>relative_seeking_button</tabstop>
+  <tabstop>precise_seeking_check</tabstop>
   <tabstop>single_instance_check</tabstop>
   <tabstop>automatic_port_button</tabstop>
   <tabstop>manual_port_button</tabstop>

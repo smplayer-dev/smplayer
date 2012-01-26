@@ -182,6 +182,7 @@ void PrefInterface::setData(Preferences * pref) {
 
 	setUpdateWhileDragging(pref->update_while_seeking);
 	setRelativeSeeking(pref->relative_seeking);
+	setPreciseSeeking(pref->precise_seeking);
 
 	setDefaultFont(pref->default_font);
 
@@ -247,6 +248,7 @@ void PrefInterface::getData(Preferences * pref) {
 
 	pref->update_while_seeking = updateWhileDragging();
 	pref->relative_seeking= relativeSeeking();
+	pref->precise_seeking = preciseSeeking();
 
 	pref->default_font = defaultFont();
 
@@ -439,6 +441,14 @@ bool PrefInterface::relativeSeeking() {
 	return relative_seeking_button->isChecked();
 }
 
+void PrefInterface::setPreciseSeeking(bool b) {
+	precise_seeking_check->setChecked(b);
+}
+
+bool PrefInterface::preciseSeeking() {
+	return precise_seeking_check->isChecked();
+}
+
 void PrefInterface::setDefaultFont(QString font_desc) {
 	default_font_edit->setText(font_desc);
 }
@@ -588,6 +598,11 @@ void PrefInterface::createHelp() {
 		tr("Sets the method to be used when seeking with the slider. "
            "Absolute seeking may be a little bit more accurate, while "
            "relative seeking may work better with files with a wrong length.") );
+
+	setWhatsThis(precise_seeking_check, tr("Precise seeking"),
+		tr("If this option is enabled, seeks are more accurate but they "
+           "can be a little bit slower. May not work with some video formats.") +"<br>"+
+		tr("Note: this option only works with MPlayer2") );
 
 	addSectionTitle(tr("Instances"));
 

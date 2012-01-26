@@ -3,6 +3,7 @@
 (2012-01-25)
  * Detect mplayer2.
  * Use precise seeking is using mplayer2.
+ * Add an option in preferences -> interface to enable or not precise seeking.
 
 (2012-01-24)
  * Move the open dvd, vcd and audio cd to a submenu.
