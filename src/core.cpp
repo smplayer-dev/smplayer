@@ -2324,7 +2324,7 @@ void Core::seek(int secs) {
 	}
 }
 
-QString Core::seek_cmd(int secs, int mode) {
+QString Core::seek_cmd(double secs, int mode) {
 	QString s = QString("seek %1 %2").arg(secs).arg(mode);
 	if (MplayerVersion::isMplayer2()) s += " 1"; // hr-seek
 	return s;
