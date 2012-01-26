@@ -83,7 +83,9 @@ void SimpleHttp::httpRequestFinished(int request_id, bool error) {
 
 	downloaded_text += readAll();
 
-	if (!downloaded_text.isEmpty()) {
+	//qDebug("downloaded_text: '%s'", downloaded_text.constData());
+
+	if ((!error) && (!downloaded_text.isEmpty())) {
 		emit downloadFinished(downloaded_text);
 	}
 }

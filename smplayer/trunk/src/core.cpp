@@ -242,8 +242,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 #if YOUTUBE_SUPPORT
 	yt = new RetrieveYoutubeUrl(this);
-	/* yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality ); */
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
+	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
+	connect(yt, SIGNAL(downloadFailed(QString)), this, SLOT(YTFailed(QString)));
 #endif
 }
 
@@ -491,6 +492,15 @@ void Core::openFile(QString filename, int seek) {
 void Core::openYT(const QString & url) {
 	qDebug("Core::openYT: %s", url.toUtf8().constData());
 	openStream(url);
+	yt->close();
+}
+
+void Core::connectingToYT(QString host) {
+	showMessage( tr("Connecting to %1").arg(host) );
+}
+
+void Core::YTFailed(QString /*error*/) {
+	showMessage( tr("Unable to retrieve youtube page") );
 }
 #endif
 
@@ -1320,7 +1330,15 @@ void Core::startMplayer( QString file, double seek ) {
 	if (proc->isRunning()) {
 		qWarning("Core::startMplayer: MPlayer still running!");
 		return;
-    } 
+    }
+
+#if YOUTUBE_SUPPORT
+	// Stop any pending request
+	qDebug("Core::startMplayer: yt state: %d", yt->state());	
+	if (yt->state() != QHttp::Unconnected) {
+		//yt->abort(); /* Make the app to crash, don't know why */
+	}
+#endif
 
 #if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
