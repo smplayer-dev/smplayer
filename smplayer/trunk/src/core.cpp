@@ -3875,7 +3875,7 @@ void Core::displayScreenshotName(QString filename) {
 	//QString text = tr("Screenshot saved as %1").arg(filename);
 	QString text = QString("Screenshot saved as %1").arg(filename);
 
-	if (MplayerVersion::isMplayer2) {
+	if (MplayerVersion::isMplayer2()) {
 		displayTextOnOSD(text, 3000, 1, "");
 	}
 	else
