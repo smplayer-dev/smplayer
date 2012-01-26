@@ -453,7 +453,7 @@ void BaseGui::createActions() {
 	addAction(favorites->jumpAct());
 	addAction(favorites->nextAct());
 	addAction(favorites->previousAct());
-	connect(favorites, SIGNAL(activated(QString)), this, SLOT(open(QString)));
+	connect(favorites, SIGNAL(activated(QString)), this, SLOT(openFavorite(QString)));
 	connect(core, SIGNAL(mediaPlaying(const QString &, const QString &)),
             favorites, SLOT(getCurrentMedia(const QString &, const QString &)));
 
@@ -3449,6 +3449,12 @@ void BaseGui::openFiles(QStringList files) {
 			open(files[0]);
 		}
 	}
+}
+
+void BaseGui::openFavorite(QString file) {
+	qDebug("BaseGui::openFavorite");
+
+	openFiles(QStringList() << file);
 }
 
 void BaseGui::openURL() {

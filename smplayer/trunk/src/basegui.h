@@ -82,6 +82,7 @@ public slots:
 	virtual void openFile();
 	virtual void openFile(QString file);
 	virtual void openFiles(QStringList files);
+	virtual void openFavorite(QString file);
 	virtual void openURL();
 	virtual void openURL(QString url);
 	virtual void openVCD();
