@@ -1,5 +1,8 @@
 [b]Version 0.6.11[/b]:
 
+(2012-01-27)
+ * Simplify the about dialog.
+
 (2012-01-25)
  * Detect mplayer2.
  * Use precise seeking is using mplayer2.
