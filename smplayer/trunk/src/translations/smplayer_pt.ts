@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="pt_PT">
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_PT">
 <context>
     <name>About</name>
     <message>
@@ -310,7 +311,7 @@
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A utilizar o MPlayer2 %1</translation>
     </message>
 </context>
 <context>
@@ -1761,12 +1762,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Disco</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1728"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;avoritos</translation>
     </message>
 </context>
 <context>
@@ -1927,12 +1928,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="499"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>A ligar a %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="503"/>
         <source>Unable to retrieve youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Incapaz de obter a página youtube</translation>
     </message>
 </context>
 <context>
@@ -3772,7 +3773,7 @@ Verifique as permissões da pasta.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3882,7 +3883,7 @@ Verifique as permissões da pasta.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -6606,22 +6607,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="602"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Procura precisa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="604"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativa, a procura é mais precisa. No entanto, pode ser um pouco mais lenta. Pode não funcionar com alguns formatos de vídeo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="605"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: esta opção só funciona com o MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="644"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Procura precisa</translation>
     </message>
 </context>
 <context>
@@ -8021,7 +8022,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="174"/>
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inativa o servidor utilizado para a comunicação com outras instâncias. Também desativa a possibilidade de só utilizar uma instância.</translation>
     </message>
 </context>
 <context>
