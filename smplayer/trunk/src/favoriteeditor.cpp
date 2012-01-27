@@ -152,6 +152,7 @@ void FavoriteEditor::setData( FavoriteList list ) {
 		QTableWidgetItem * icon_item = new QTableWidgetItem;
 		icon_item->setIcon( QIcon(list[n].icon()) );
 		icon_item->setData( Qt::UserRole, list[n].icon() );
+		icon_item->setData( Qt::ToolTipRole, list[n].icon() );
 		icon_item->setFlags(Qt::ItemIsEnabled | Qt::ItemIsSelectable);
 
 		QTableWidgetItem * name_item = new QTableWidgetItem;
