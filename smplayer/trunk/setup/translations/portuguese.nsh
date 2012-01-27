@@ -9,6 +9,7 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "O instalador já está em execução."
 ${LangFileString} Installer_No_Admin "Tem que iniciar a sessão como administrador para instalar este programa."
+${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Atalhos"
@@ -95,4 +96,5 @@ ${LangFileString} Info_Del_Files "A eliminar ficheiros..."
 ${LangFileString} Info_Del_Registry "A eliminar chaves de registo..."
 ${LangFileString} Info_Del_Shortcuts "A eliminar atalhos..."
 ${LangFileString} Info_Rest_Assoc "A restaurar as associações de ficheiros..."
+${LangFileString} Info_RollBack "Rolling back changes..."
 ${LangFileString} Info_Files_Extract "A extrair ficheiros..."

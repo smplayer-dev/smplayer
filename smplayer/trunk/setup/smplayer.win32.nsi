@@ -265,6 +265,7 @@
 
   !insertmacro MUI_RESERVEFILE_LANGDLL
   ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
+  ReserveFile "FindProcDLL.dll"
 
 ;--------------------------------
 ;Installer Sections
@@ -477,7 +478,7 @@ SectionGroup $(Section_Translations) SecTranslations
     SectionIn RO
 
     SetOutPath "$INSTDIR\translations"
-    File /r "smplayer-build\translations\smplayer_en_US.qm"
+    File "smplayer-build\translations\smplayer_en_US.qm"
   SectionEnd
 
   ${MementoSection} "العربية" SecLang_ARSY
@@ -822,6 +823,51 @@ ${MementoSectionDone}
 !macroend
 
 ;--------------------------------
+;Shared functions
+
+!macro CheckUserRightsMacro UN
+Function ${UN}CheckUserRights
+
+  ClearErrors
+  UserInfo::GetName
+  ${If} ${Errors}
+    StrCpy $Is_Admin 1
+    Return
+  ${EndIf}
+
+  Pop $UserName
+  UserInfo::GetAccountType
+  Pop $R0
+  ${Switch} $R0
+    ${Case} "Admin"
+    ${Case} "Power"
+      StrCpy $Is_Admin 1
+      ${Break}
+    ${Default}
+      StrCpy $Is_Admin 0
+      ${Break}
+  ${EndSwitch}
+
+FunctionEnd
+!macroend
+!insertmacro CheckUserRightsMacro ""
+!insertmacro CheckUserRightsMacro "un."
+
+!macro RunCheckMacro UN
+Function ${UN}RunCheck
+
+  retry_runcheck:
+  FindProcDLL::FindProc "smplayer.exe"
+  IntCmp $R0 1 0 +3
+    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
+    Abort
+
+FunctionEnd
+!macroend
+!insertmacro RunCheckMacro ""
+!insertmacro RunCheckMacro "un."
+
+;--------------------------------
 ;Installer functions
 
 Function .onInit
@@ -837,6 +883,9 @@ Function .onInit
   StrCmp $R0 0 +3
     MessageBox MB_OK|MB_ICONEXCLAMATION $(Installer_Is_Running)
     Abort
+
+  ;Check if SMPlayer is running
+  Call RunCheck
 
   ;Check for admin on older OSes
   Call CheckUserRights
@@ -866,7 +915,7 @@ FunctionEnd
 Function .onInstFailed
 
   SetDetailsPrint textonly
-  DetailPrint "Rolling back changes..."
+  DetailPrint $(Info_RollBack)
   SetDetailsPrint listonly
 
   !insertmacro MacroRemoveSMPlayer
@@ -894,30 +943,6 @@ Function CheckPreviousVersion
   ${ElseIf} $Previous_Version_State == 2
     StrCpy $Inst_Type $(Type_Upgrade)
   ${EndIf}
-
-FunctionEnd
-
-Function CheckUserRights
-
-  ClearErrors
-  UserInfo::GetName
-  ${If} ${Errors}
-    StrCpy $Is_Admin 1
-    Return
-  ${EndIf}
-
-  Pop $UserName
-  UserInfo::GetAccountType
-  Pop $R0
-  ${Switch} $R0
-    ${Case} "Admin"
-    ${Case} "Power"
-      StrCpy $Is_Admin 1
-      ${Break}
-    ${Default}
-      StrCpy $Is_Admin 0
-      ${Break}
-  ${EndSwitch}
 
 FunctionEnd
 
@@ -1136,35 +1161,14 @@ Function un.onInit
     Abort
   ${EndIf}
 
+  ;Check if SMPlayer is running
+  Call un.RunCheck
+
   ;Gets start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
 
   ;Get the stored language preference
   !insertmacro MUI_UNGETLANGUAGE
-
-FunctionEnd
-
-Function un.CheckUserRights
-
-  ClearErrors
-  UserInfo::GetName
-  ${If} ${Errors}
-    StrCpy $Is_Admin 1
-    Return
-  ${EndIf}
-
-  Pop $UserName
-  UserInfo::GetAccountType
-  Pop $R0
-  ${Switch} $R0
-    ${Case} "Admin"
-    ${Case} "Power"
-      StrCpy $Is_Admin 1
-      ${Break}
-    ${Default}
-      StrCpy $Is_Admin 0
-      ${Break}
-  ${EndSwitch}
 
 FunctionEnd
 

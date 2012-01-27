@@ -9,6 +9,7 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "Das Installationsprogramm läuft bereits."
 ${LangFileString} Installer_No_Admin "Es sind Administratorrechte nötig, um dieses Programm zu installieren."
+${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Verknüpfung"
@@ -95,4 +96,5 @@ ${LangFileString} Info_Del_Files "Deleting Files..."
 ${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
 ${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
 ${LangFileString} Info_Rest_Assoc "Restoring file associations..."
+${LangFileString} Info_RollBack "Rolling back changes..."
 ${LangFileString} Info_Files_Extract "Extracting files..."

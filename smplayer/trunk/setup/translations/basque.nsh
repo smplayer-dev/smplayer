@@ -9,6 +9,7 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "Ezartzailea jadanik lanean dago."
 ${LangFileString} Installer_No_Admin "Administratzaile bezala saioa hasita egon behar duzu programa hau ezartzerakoan."
+${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Lasterbideak"
@@ -95,4 +96,5 @@ ${LangFileString} Info_Del_Files "Agiriak Ezabatzen..."
 ${LangFileString} Info_Del_Registry "Erresgistro Giltzak Ezabatzen..."
 ${LangFileString} Info_Del_Shortcuts "Lasterbideak Ezabatzen..."
 ${LangFileString} Info_Rest_Assoc "Agiri elkarketak birrezartzen..."
+${LangFileString} Info_RollBack "Rolling back changes..."
 ${LangFileString} Info_Files_Extract "Agiriak ateratzen..."
