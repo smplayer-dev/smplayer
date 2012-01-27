@@ -102,7 +102,7 @@ QString Paths::qtTranslationPath() {
 	return QLibraryInfo::location(QLibraryInfo::TranslationsPath);
 }
 
-QString Paths::doc(QString file, QString locale) {
+QString Paths::doc(QString file, QString locale, bool english_fallback) {
 	if (locale.isEmpty()) {
 		locale = QLocale::system().name();
 	}
@@ -118,8 +118,12 @@ QString Paths::doc(QString file, QString locale) {
 		if (QFile::exists(f)) return f;
 	}
 
-	f = docPath() + "/en/" + file;
-	return f;
+	if (english_fallback) {
+		f = docPath() + "/en/" + file;
+		return f;
+	}
+
+	return QString::null;
 }
 
 void Paths::setConfigPath(QString path) {

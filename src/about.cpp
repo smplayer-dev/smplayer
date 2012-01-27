@@ -33,12 +33,12 @@
 using namespace Global;
 
 About::About(QWidget * parent, Qt::WindowFlags f)
-	: QDialog(parent, f) 
+	: QDialog(parent, f)
 {
 	setupUi(this);
 	setWindowIcon( Images::icon("logo", 64) );
 
-	logo->setPixmap( Images::icon("logo", 64) );
+	logo->setPixmap( QPixmap(":/icons-png/logo.png").scaledToHeight(64, Qt::SmoothTransformation) );
 	contrib_icon->setPixmap( Images::icon("contributors" ) );
 	translators_icon->setPixmap( Images::icon("translators" ) );
 	license_icon->setPixmap( Images::icon("license" ) );
@@ -53,8 +53,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		mplayer_version += "<br><br>";
 	}
 
-	info->setText( 
-		"<b>SMPlayer</b> &copy; 2006-2012 Ricardo Villalba &lt;rvm@escomposlinux.org&gt;<br><br>"
+	info->setText(
+		"<b>SMPlayer</b> &copy; 2006-2012 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;<br><br>"
 		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b>" +
 #if PORTABLE_APP
                 " (" + tr("Portable Edition") + ")" +
@@ -62,59 +62,40 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<br>" +
         tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br><br>" +
 		mplayer_version +
-		tr("Visit our web for updates:") +"<br>"+ 
-        link("http://smplayer.sf.net") + 
+		tr("Visit our web for updates:") +"<br>"+
+        link("http://smplayer.sf.net") +
         "<br><br>" +
-		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forum")
+		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forum") + 
+        "<br><br>" + 
+		tr("SMPlayer uses the award-winning MPlayer as playback engine. See %1")
+		   .arg("<a href=\"http://www.mplayerhq.hu\">http://www.mplayerhq.hu</a>")
 	);
 
 
-	QString license_file = Paths::doc("gpl.html", pref->language);
-	if (QFile::exists(license_file)) {
-		QFont fixed_font;
-		fixed_font.setStyleHint(QFont::TypeWriter);
-		fixed_font.setFamily("Courier");
-		license->setFont(fixed_font);
-
-		QFile f(license_file);
-		if (f.open(QIODevice::ReadOnly)) {
-			license->setText(QString::fromUtf8(f.readAll().constData()));
-		}
-		f.close();
-	} else {
-		license->setText(
-		"<i>" +
-		tr("This program is free software; you can redistribute it and/or modify "
+	QString license_file = Paths::doc("gpl.html", "en");
+	QString license_text =
+		"<i>"
+		"This program is free software; you can redistribute it and/or modify "
 	    "it under the terms of the GNU General Public License as published by "
 	    "the Free Software Foundation; either version 2 of the License, or "
-  	    "(at your option) any later version.") + "</i>");
+  	    "(at your option) any later version."  "</i><br><br>" +
+		QString("<a href=\"%1\">%2</a>").arg(license_file).arg(tr("Read the entire license"));
+
+	if ((pref->language != "en") && (pref->language != "en_US")) {
+		QString license_trans_file = Paths::doc("gpl.html", pref->language, false);
+		qDebug("license_trans_file: %s", license_trans_file.toUtf8().constData());
+		if (QFile::exists(license_trans_file)) {
+			license_text += QString("<br><a href=\"%1\">%2</a>").arg(license_trans_file).arg(tr("Read a translation"));
+		}
 	}
+	license->setText(license_text);
 
 	translators->setHtml( getTranslators() );
 
 	contributions->setText(
         tr("SMPlayer logo by %1").arg("Charles Barcza &lt;kbarcza@blackpanther.hu&gt;") + "<br><br>" +
-		tr("The following people have contributed with patches "
-		   "(see the changelog for details):") +
-		"<pre>" +
-        QString(
-		"corentin1234 <corentin1234@hotmail.com>\n"
-		"Florin Braghis <florin@libertv.ro>\n"
-		"Francesco Cosoleto <cosoleto@users.sourceforge.net>\n"
-		"Glaydus <glaydus@gmail.com>\n"
-		"Kamil Dziobek <turbos11@gmail.com>\n"
-		"LoRd_MuldeR (http://forum.doom9.org/member.php?u=78667)\n"
-		"Matthias Petri <matt@endboss.org>\n"
-		"profoX <wesley@ubuntu.com>\n"
-		"redxii <redxii1234@gmail.com>\n"
-		"Sikon <sikon@users.sourceforge.net>\n"
-		"Simon <hackykid@users.sourceforge.net>\n"
-		"Stanislav Maslovski <s_i_m@users.sourceforge.net>\n"
-		"Tanguy Krotoff <tkrotoff@gmail.com>\n"
-		"Stivo <helifan@users.sourceforge.net>\n"
-		).replace("<", "&lt;").replace(">", "&gt;") + 
-		"</pre>" +
-		tr("If there's any omission, please report.")
+		tr("Packages for Windows created by %1").arg("redxii &lt;redxii@users.sourceforge.net&gt;") + "<br><br>" +
+		tr("Many other people contributed with patches. See the Changelog for details.")
 	);
 
 	// Copy the background color ("window") of the tab widget to the "base" color of the qtextbrowsers
@@ -123,15 +104,15 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	contributions_tab->setAutoFillBackground(true);
 	translations_tab->setAutoFillBackground(true);
 	license_tab->setAutoFillBackground(true);
-	
+
 	QPalette pal = info_tab->palette();
 	pal.setColor(QPalette::Window, palette().color(QPalette::Window) );
-	
+
 	info_tab->setPalette(pal);
 	contributions_tab->setPalette(pal);
 	translations_tab->setPalette(pal);
 	license_tab->setPalette(pal);
-	
+
 	QPalette p = info->palette();
 	//p.setBrush(QPalette::Base, info_tab->palette().window());
 	p.setColor(QPalette::Base, info_tab->palette().color(QPalette::Window));
@@ -139,7 +120,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	info->setPalette(p);
 	contributions->setPalette(p);
 	translators->setPalette(p);
-	//license->setPalette(p);
+	license->setPalette(p);
 
 	adjustSize();
 }
@@ -149,33 +130,33 @@ About::~About() {
 
 QString About::getTranslators() {
 	return QString(
-		 tr("The following people have contributed with translations:") + 
+		 tr("The following people have contributed with translations:") +
 #ifndef TRANS_TABLE
          "<ul>" +
 #else
          "<table>" +
 #endif
-         trad(tr("German"), "Panagiotis Papadopoulos <pano_90@gmx.net>") + 
+         trad(tr("German"), "Panagiotis Papadopoulos <pano_90@gmx.net>") +
 		 trad(tr("Slovak"), "Sweto <peter.mendel@gmail.com>") +
 		 trad(tr("Italian"), QStringList()
 			<< "greengreat <gmeildeno@gmail.com>"
 			<< "Giancarlo Scola <scola.giancarlo@libero.it>") +
-         trad(tr("French"), QStringList() 
+         trad(tr("French"), QStringList()
 			<< "Olivier g <1got@caramail.com>"
 			<< "Temet <goondy@free.fr>"
 			<< "Erwann MEST <kud.gray@gmail.com>") +
          trad(tr("Simplified-Chinese"), QStringList()
 			<< "Tim Green <iamtimgreen@gmail.com>"
 			<< "OpenBDH <opensource@bendihua.org>") +
-         trad(tr("Russian"), QString::fromUtf8("Белый Владимир <wiselord1983@gmail.com>"))+ 
+         trad(tr("Russian"), QString::fromUtf8("Белый Владимир <wiselord1983@gmail.com>"))+
          trad(tr("Hungarian"), QStringList()
 			<< "Charles Barcza <kbarcza@blackpanther.hu>"
-			<< "CyberDragon <cyberdragon777@gmail.com>") + 
+			<< "CyberDragon <cyberdragon777@gmail.com>") +
          trad(tr("Polish"), QStringList()
 			<< "qla <qla0@vp.pl>"
 			<< "Jarek <ajep9691@wp.pl>"
 			<< "sake12 <sake12@gmail.com>" ) +
-         trad(tr("Japanese"), "Nardog <nardog@e2umail.com>") + 
+         trad(tr("Japanese"), "Nardog <nardog@e2umail.com>") +
          trad(tr("Dutch"), QStringList()
 			<< "profoX <wesley@ubuntu-nl.org>"
 			<< "BalaamsMiracle"
@@ -183,17 +164,17 @@ QString About::getTranslators() {
          trad(tr("Ukrainian"), QStringList()
 			<< "Motsyo Gennadi <drool@altlinux.ru>"
 			<< "Oleksandr Kovalenko <alx.kovalenko@gmail.com>" ) +
-         trad(tr("Portuguese - Brazil"), "Ventura <ventura.barbeiro@terra.com.br>") + 
-         trad(tr("Georgian"), "George Machitidze <giomac@gmail.com>") + 
+         trad(tr("Portuguese - Brazil"), "Ventura <ventura.barbeiro@terra.com.br>") +
+         trad(tr("Georgian"), "George Machitidze <giomac@gmail.com>") +
          trad(tr("Czech"), QStringList()
 			<< QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>")
 			<< QString::fromUtf8("Jaromír Smrček <jaromir.smrcek@zoner.com>") ) +
          trad(tr("Bulgarian"), "<marzeliv@mail.bg>") +
          trad(tr("Turkish"), "alper er <alperer@gmail.com>") +
          trad(tr("Swedish"), "Leif Larsson <leif.larsson@gmail.com>") +
-         trad(tr("Serbian"), "Kunalagon Umuhanik <kunalagon@gmail.com>") + 
-         trad(tr("Traditional Chinese"), "Hoopoe <dai715.tw@yahoo.com.tw>") + 
-         trad(tr("Romanian"), "DoruH <DoruHushHush@gmail.com>") + 
+         trad(tr("Serbian"), "Kunalagon Umuhanik <kunalagon@gmail.com>") +
+         trad(tr("Traditional Chinese"), "Hoopoe <dai715.tw@yahoo.com.tw>") +
+         trad(tr("Romanian"), "DoruH <DoruHushHush@gmail.com>") +
          trad(tr("Portuguese - Portugal"), QStringList()
 			<< "Waxman <waxman.pt@gmail.com>"
 			<< QString::fromUtf8("Sérgio Marques <smarquespt@gmail.com>") ) +
@@ -211,7 +192,7 @@ QString About::getTranslators() {
 		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi <olav.magi@hotmail.com>")) +
         trad(tr("Lithuanian"), "Freemail <ricka_g@freemail.lt>") +
         trad(tr("Danish"), "Martin Schlander <mschlander@opensuse.org>") +
-        trad(tr("Croatian"), "jk <marshsmello@gmail.com>") +
+        trad(tr("Croatian"), QString::fromUtf8("Josip Kujundžija <marshsmello@gmail.com>")) +
 #ifndef TRANS_TABLE
         "</ul>");
 #else
