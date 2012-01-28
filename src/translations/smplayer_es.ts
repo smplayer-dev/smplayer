@@ -316,7 +316,7 @@
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation>SMPlayer usa el laureado MPlayer como motor de reproducción. Más información en %1</translation>
+        <translation>SMPlayer usa el MPlayer como motor de reproducción. Más información en %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="82"/>
