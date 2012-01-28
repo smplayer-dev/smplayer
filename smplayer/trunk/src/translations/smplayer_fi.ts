@@ -10,145 +10,145 @@
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Tämä ohjelma on vapaa; tätä ohjelmaa on sallittu levittää edelleen ja muuttaa GNU yleisen lisenssin (GPL lisenssin) ehtojen mukaan sellaisina kuin Free Software Foundation on ne julkaissut; joko Lisenssin version 2, tai (valinnan mukaan) minkä tahansa myöhemmän version mukaisesti.</translation>
+        <translation type="obsolete">Tämä ohjelma on vapaa; tätä ohjelmaa on sallittu levittää edelleen ja muuttaa GNU yleisen lisenssin (GPL lisenssin) ehtojen mukaan sellaisina kuin Free Software Foundation on ne julkaissut; joko Lisenssin version 2, tai (valinnan mukaan) minkä tahansa myöhemmän version mukaisesti.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="134"/>
         <source>The following people have contributed with translations:</source>
         <translation>Seuraavat henkilöt ovat auttaneet käännöksillään:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="139"/>
         <source>German</source>
         <translation>Saksa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="140"/>
         <source>Slovak</source>
         <translation>Slovakia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="141"/>
         <source>Italian</source>
         <translation>Italia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="144"/>
         <source>French</source>
         <translation>Ranska</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="232"/>
+        <location filename="../about.cpp" line="213"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 ja %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="148"/>
         <source>Simplified-Chinese</source>
         <translation>Yksinkertaistettu kiina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Russian</source>
         <translation>Venäjä</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="231"/>
+        <location filename="../about.cpp" line="212"/>
         <source>%1 and %2</source>
         <translation>%1 ja %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Hungarian</source>
         <translation>Unkari</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Polish</source>
         <translation>Puola</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Japanese</source>
         <translation>Japani</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Dutch</source>
         <translation>Hollanti</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Ukrainian</source>
         <translation>Ukraina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Portuguese - Brazil</source>
         <translation>Brasilian portugali</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Georgian</source>
         <translation>Georgia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Czech</source>
         <translation>Tsekki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Bulgarian</source>
         <translation>Bulgaria</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
         <translation>Turkki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Swedish</source>
         <translation>Ruotsi</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Serbian</source>
         <translation>Serbia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
         <translation>Perinteinen kiina</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Romanian</source>
         <translation>Romania</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugali</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
+        <location filename="../about.cpp" line="181"/>
         <source>Greek</source>
         <translation>Kreikka</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="182"/>
         <source>Finnish</source>
         <translation>Suomi</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="254"/>
+        <location filename="../about.cpp" line="235"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="275"/>
+        <location filename="../about.cpp" line="256"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -203,17 +203,17 @@
         <translation type="obsolete">Lisätietoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="202"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Korean</source>
         <translation>Korea</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="203"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Macedonian</source>
         <translation>Makedonia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="204"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Basque</source>
         <translation>Baski</translation>
     </message>
@@ -223,7 +223,7 @@
         <translation>Käytössä MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="205"/>
+        <location filename="../about.cpp" line="186"/>
         <source>Catalan</source>
         <translation>Katalaani</translation>
     </message>
@@ -238,34 +238,34 @@
         <translation>Käytössä Qt %1 (käänetty Qt:n versiolla %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="206"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Slovenian</source>
         <translation>Slovenia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="207"/>
+        <location filename="../about.cpp" line="188"/>
         <source>Arabic</source>
         <translation>Arabia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="208"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Kurdish</source>
         <translation>Kurdi</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="209"/>
+        <location filename="../about.cpp" line="190"/>
         <source>Galician</source>
         <translation>Galisia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation>Seuraavat henkilöt ovat tehneet korjauksia (katso changelog:sta lisätietoa):</translation>
+        <translation type="obsolete">Seuraavat henkilöt ovat tehneet korjauksia (katso changelog:sta lisätietoa):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation>Jos siellä on jotain pois jäänyttä, niin raportoi.</translation>
+        <translation type="obsolete">Jos siellä on jotain pois jäänyttä, niin raportoi.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
@@ -273,43 +273,68 @@
         <translation>SMPlayerin logo %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="233"/>
+        <location filename="../about.cpp" line="214"/>
         <source>%1, %2, %3 and %4</source>
         <translation>%1, %2, %3 ja %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="234"/>
+        <location filename="../about.cpp" line="215"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation>%1, %2, %3, %4 ja %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="210"/>
+        <location filename="../about.cpp" line="191"/>
         <source>Vietnamese</source>
         <translation>Vietnami</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="192"/>
         <source>Estonian</source>
         <translation>Viro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="212"/>
+        <location filename="../about.cpp" line="193"/>
         <source>Lithuanian</source>
         <translation>Liettua</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="213"/>
+        <location filename="../about.cpp" line="194"/>
         <source>Danish</source>
         <translation type="unfinished">tanskan kieli</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="214"/>
+        <location filename="../about.cpp" line="195"/>
         <source>Croatian</source>
         <translation type="unfinished">kroaatti</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Using MPlayer2 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="71"/>
+        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="82"/>
+        <source>Read the entire license</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="88"/>
+        <source>Read a translation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="97"/>
+        <source>Packages for Windows created by %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="99"/>
+        <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

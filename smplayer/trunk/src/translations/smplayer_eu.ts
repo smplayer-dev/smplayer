@@ -10,145 +10,145 @@
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation>Programa hau software askea da: berau zabaldu eta/edo aldatu dezakezu Free Software Foundation-ek argitaratutako GNU baimen publiko orokorraren baldintzetan; edo baimenaren 2. bertsioan, edo (zure aukeran) edozein bertsio berriagoan.</translation>
+        <translation type="obsolete">Programa hau software askea da: berau zabaldu eta/edo aldatu dezakezu Free Software Foundation-ek argitaratutako GNU baimen publiko orokorraren baldintzetan; edo baimenaren 2. bertsioan, edo (zure aukeran) edozein bertsio berriagoan.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
+        <location filename="../about.cpp" line="134"/>
         <source>The following people have contributed with translations:</source>
         <translation>Hurrengo jendeak itzulpenekin lagundu du:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="139"/>
         <source>German</source>
         <translation>Alemaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="140"/>
         <source>Slovak</source>
         <translation>Eslobakiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
+        <location filename="../about.cpp" line="141"/>
         <source>Italian</source>
         <translation>Italiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="144"/>
         <source>French</source>
         <translation>Frantziera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="232"/>
+        <location filename="../about.cpp" line="213"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 eta %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="148"/>
         <source>Simplified-Chinese</source>
         <translation>Txinera Arrunta</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Russian</source>
         <translation>Errusiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="231"/>
+        <location filename="../about.cpp" line="212"/>
         <source>%1 and %2</source>
         <translation>%1 eta %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Hungarian</source>
         <translation>Hungariera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="155"/>
         <source>Polish</source>
         <translation>Poloniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Japanese</source>
         <translation>Japoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Dutch</source>
         <translation>Herbeherera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Ukrainian</source>
         <translation>Ukraniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Portuguese - Brazil</source>
         <translation>Potugalera - Brazilgoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Georgian</source>
         <translation>Georgiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="169"/>
         <source>Czech</source>
         <translation>Txekiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
+        <location filename="../about.cpp" line="172"/>
         <source>Bulgarian</source>
         <translation>Bulgariera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
         <translation>Turkiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Swedish</source>
         <translation>Suediera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Serbian</source>
         <translation>Serbiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
         <translation>Txinera-tradizionala</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Romanian</source>
         <translation>Errumaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugalera - Portugalgoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
+        <location filename="../about.cpp" line="181"/>
         <source>Greek</source>
         <translation>Greziera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="182"/>
         <source>Finnish</source>
         <translation>Finlandiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="254"/>
+        <location filename="../about.cpp" line="235"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="275"/>
+        <location filename="../about.cpp" line="256"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -203,17 +203,17 @@
         <translation type="obsolete">Argibide gehiago</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="202"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Korean</source>
         <translation>Koreera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="203"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Macedonian</source>
         <translation>Mazedoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="204"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Basque</source>
         <translation>Euskara</translation>
     </message>
@@ -223,7 +223,7 @@
         <translation>MPlayer %1 erabiltzen </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="205"/>
+        <location filename="../about.cpp" line="186"/>
         <source>Catalan</source>
         <translation>Kataluniera</translation>
     </message>
@@ -238,34 +238,34 @@
         <translation>Erabiltzen Qt %1 (bilduta honekin Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="206"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Slovenian</source>
         <translation>Eslobeniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="207"/>
+        <location filename="../about.cpp" line="188"/>
         <source>Arabic</source>
         <translation>Arabiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="208"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Kurdish</source>
         <translation>Kurduera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="209"/>
+        <location filename="../about.cpp" line="190"/>
         <source>Galician</source>
         <translation>Galiziera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation>Hurrengo jendeak lagundu du helburuekin (ikusi aldaketa-oharra xehetasunetarako):</translation>
+        <translation type="obsolete">Hurrengo jendeak lagundu du helburuekin (ikusi aldaketa-oharra xehetasunetarako):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation>Akatsen bat badago, mesedez jakinarazi.</translation>
+        <translation type="obsolete">Akatsen bat badago, mesedez jakinarazi.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
@@ -273,43 +273,68 @@
         <translation>SMPlayer logoaren egilea: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="233"/>
+        <location filename="../about.cpp" line="214"/>
         <source>%1, %2, %3 and %4</source>
         <translation>%1, %2, %3 eta %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="234"/>
+        <location filename="../about.cpp" line="215"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation>%1, %2, %3, %4 eta %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="210"/>
+        <location filename="../about.cpp" line="191"/>
         <source>Vietnamese</source>
         <translation>Vietnamiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="192"/>
         <source>Estonian</source>
         <translation>Estoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="212"/>
+        <location filename="../about.cpp" line="193"/>
         <source>Lithuanian</source>
         <translation>Lituaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="213"/>
+        <location filename="../about.cpp" line="194"/>
         <source>Danish</source>
         <translation type="unfinished">Daniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="214"/>
+        <location filename="../about.cpp" line="195"/>
         <source>Croatian</source>
         <translation type="unfinished">Kroaziera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Using MPlayer2 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="71"/>
+        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="82"/>
+        <source>Read the entire license</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="88"/>
+        <source>Read a translation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="97"/>
+        <source>Packages for Windows created by %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="99"/>
+        <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
