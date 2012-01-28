@@ -8,7 +8,7 @@
         <translation>Bertsioa: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="90"/>
+        <location filename="../about.cpp" line="85"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation type="obsolete">Programa hau software askea da: berau zabaldu eta/edo aldatu dezakezu Free Software Foundation-ek argitaratutako GNU baimen publiko orokorraren baldintzetan; edo baimenaren 2. bertsioan, edo (zure aukeran) edozein bertsio berriagoan.</translation>
     </message>
@@ -258,12 +258,12 @@
         <translation>Galiziera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="99"/>
+        <location filename="../about.cpp" line="94"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
         <translation type="obsolete">Hurrengo jendeak lagundu du helburuekin (ikusi aldaketa-oharra xehetasunetarako):</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="113"/>
         <source>If there&apos;s any omission, please report.</source>
         <translation type="obsolete">Akatsen bat badago, mesedez jakinarazi.</translation>
     </message>
@@ -300,12 +300,12 @@
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Danish</source>
-        <translation type="unfinished">Daniera</translation>
+        <translation>Daniera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Croatian</source>
-        <translation type="unfinished">Kroaziera</translation>
+        <translation>Kroaziera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
@@ -841,7 +841,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="../basegui.cpp" line="1598"/>
         <source>&amp;Load...</source>
-        <translation>&amp;Igo...</translation>
+        <translation>&amp;Gertatu...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1600"/>
@@ -1188,7 +1188,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../basegui.cpp" line="1589"/>
         <source>&amp;Load external file...</source>
-        <translation>&amp;Igo kanpoko agiria...</translation>
+        <translation>&amp;Gertatu kanpoko agiria...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1800"/>
@@ -1278,7 +1278,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;FAQ</translation>
+        <translation>&amp;SEG</translation>
     </message>
     <message>
         <location filename="smplayer-0.6.9/src/basegui.cpp" line="1411"/>
@@ -1403,7 +1403,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../basegui.cpp" line="1617"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Igo azpidatziak he&amp;mendik: OpenSubtitles.org...</translation>
+        <translation>Igo a&amp;zpidatziak hona: OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
@@ -1746,32 +1746,37 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin &amp;Donazio bat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1847"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ezkutuko giro-azpidatziak</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3741"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Egin Donazio Bat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3742"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>SM Irakurgailua atsegin baduzu, sostengatzeko bide on bat donazio bat bidaltzea da, txikia izanda ere asko eskertzen da.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3743"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zure donazioa bidali dezakezu %1 erabiliz.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3743"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>forma  hau</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1721"/>
+        <source>&amp;Favorites</source>
+        <translation type="obsolete">&amp;Gogokoenak</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
@@ -2125,12 +2130,12 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>Gai &amp;berria</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Azpi&amp;menu berria</translation>
     </message>
 </context>
 <context>
@@ -2148,27 +2153,27 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">&amp;Editatu...</translation>
+        <translation>&amp;Editatu...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Jauzi...</translation>
+        <translation>&amp;Jauzi...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hurrengoa</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;urrekoa</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gehitu uneko multimedia</translation>
     </message>
 </context>
 <context>
@@ -2176,7 +2181,7 @@ Itxurapen morroia ikusiko da orain, egin ahal izan dezazun.</translation>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikatu agiria edo agiritegia hautatzeko</translation>
     </message>
 </context>
 <context>
@@ -2315,7 +2320,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filters.cpp" line="32"/>
         <source>deblock</source>
-        <translation>deblokeatu</translation>
+        <translation>desblokeatu</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="33"/>
@@ -4174,7 +4179,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimedia</translation>
+        <translation>Multimedia</translation>
     </message>
 </context>
 <context>
@@ -4605,17 +4610,17 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi argibide etiketa leihoaren izenburuan</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaituta badago, etiketen argibideak leihoaren izenburan erakutsiko dira. Besteal agirizena bakarrik erakutsiko da.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="287"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi eti&amp;keta argibideak leihoaren izenburuan</translation>
     </message>
 </context>
 <context>
@@ -5636,32 +5641,32 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.cpp" line="337"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>argazki modua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="338"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>murgiltze astiroago modua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="388"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>uniaud modua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Gezi modua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 gomendatua da. %2 MPlayer zaharragoetan bakarrik dago eskuragarri (%3 bertsioa baino lehengokoak)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>It&amp;xuratu...</translation>
     </message>
 </context>
 <context>
@@ -5714,12 +5719,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Hemen edozein lastertekla aldatu dezakezu. Egiteko klik bikoitza egin edo enter sakatu lastertekla gelaxka batean. Aukeran zerrenda gorde dezakezu beste jendearekin partekatu edo beste ordenagailu batean igotzeko.</translation>
+        <translation>Hemen edozein lastertekla aldatu dezakezu. Egiteko klik bikoitza egin edo enter sakatu lastertekla gelaxka batean. Aukeran zerrenda gorde dezakezu beste jendearekin partekatu edo beste ordenagailu batean gertatzeko.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="159"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Hemen edozein lastertekla aldatu dezakezu. Egiteko klik bikoitza egin edo idazten hasi lastertekla gelaxka batean. Aukeran zerrenda gorde dezakezu beste jendearekin partekatu edo beste ordenagailu batean igotzeko.</translation>
+        <translation>Hemen edozein lastertekla aldatu dezakezu. Egiteko klik bikoitza egin edo idazten hasi lastertekla gelaxka batean. Aukeran zerrenda gorde dezakezu beste jendearekin partekatu edo beste ordenagailu batean gertatzeko.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="314"/>
@@ -6152,7 +6157,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="128"/>
         <source>Only after loading a new video</source>
-        <translation>Bideo berri bat igotzean bakarrik</translation>
+        <translation>Bideo berri bat gertatu ondoren bakarrik</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="168"/>
@@ -6562,37 +6567,37 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="596"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilaketa metodoa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="600"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarri irriskariarekin bilatzerakoan erabiltzeko metodoa. Bilaketa osoa apur bat zehatzagoa izan daiteke, bilaketa erlatiboak aldiz hobeto lan egin dezake luzera okerreko agiriekin.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="608"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilaketa &amp;osoa</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="621"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilaketa &amp;erlatiboa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="546"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezkutatu bideo leihoa audio agiriak irakurtzerakoan</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="547"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaituta badago bideo leihoa ezkutatu egingo da audio agiriak irakurtzerakoan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="143"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;zkutatu bideo leihoa audio agiriak irakurtzerakoan</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="602"/>
@@ -6950,17 +6955,17 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube kalitatea</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu youtube bideoentzako kalitate hobetsia.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube &amp;kalitatea</translation>
     </message>
 </context>
 <context>
@@ -7008,42 +7013,42 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehitu agiriak zuzenbidetan jarraian</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished">Hautatu aukera hau zuzenbidera gehitzea nahi baduzu agiriak azpidzuzenbidetan gehitzeaz gain. Bestela hautatutako zuzenbideko agiriak bakarrik gehituko dira.</translation>
+        <translation>Hautatu aukera hau zuzenbidera gehitzea nahi baduzu agiriak azpidzuzenbidetan gehitzeaz gain. Bestela hautatutako zuzenbideko agiriak bakarrik gehituko dira.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehitutako agirien argibideak berezgaitasunez gehitu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished">Hautatu aukera hau aztertzeko irakur-zerrendara gehitu diren agiriak argibide gehiagorako. Honek ahalbidetzen du erakustea izenburu izena (eskuragarria bada) eta agirien iraupena. Bestela argibide hauek ez dira eskuragarriak izango agiria irakurtzen egon arte. Adi: aukera hau geldoa izan daiteke, bereziki agiri asko gehitzen badituzu.</translation>
+        <translation>Hautatu aukera hau aztertzeko irakur-zerrendara gehitu diren agiriak argibide gehiagorako. Honek ahalbidetzen du erakustea izenburu izena (eskuragarria bada) eta agirien iraupena. Bestela argibide hauek ez dira eskuragarriak izango agiria irakurtzen egon arte. Adi: aukera hau geldoa izan daiteke, bereziki agiri asko gehitzen badituzu.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Irakurri agiriak hasieratik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehitu agiriak zuzenbideetan &amp;jarrian</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lortu &amp;berezgaitasunez gehitutako agirien argibideak (motela)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished">&amp;Gorde irakur-zerrendaren kopia bat irtetzerakoan</translation>
+        <translation>&amp;Gorde irakur-zerrendaren kopia bat irtetzerakoan</translation>
     </message>
 </context>
 <context>
@@ -7071,7 +7076,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
         <source>Autoload</source>
-        <translation>Berez-igo</translation>
+        <translation>Berez-gertatu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="89"/>
@@ -7156,7 +7161,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.ui" line="68"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation>&amp;Berezgaitasunez igo azpidatzi agiriak (*.srt, *.sub...):</translation>
+        <translation>&amp;Berez-gertatu azpidatzi agiriak (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="81"/>
@@ -7923,7 +7928,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../clhelp.cpp" line="155"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation>Adierazten dut lehen bideoarentzat igoko den azpidatzi agiria.</translation>
+        <translation>Adierazten dut lehen bideoarentzat gertatuko den azpidatzi agiria.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="83"/>
@@ -7997,7 +8002,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../clhelp.cpp" line="179"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;multimedia&apos; SM Irakurgailuak ireki dezakeen edozein agiri heuskarri da. Izan daiteke tokiko agiri bat, DVD bat (adib.. dvd://1), Internet jario bat (adib. mms://....) edo tokiko irakur-zerrenda bat m3u edo pls heuskarrian.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="174"/>
@@ -8121,42 +8126,42 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>VDPAU Ezaugarriak</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hautatu erabiltzeko vdpau kodekak. Denek ezin dute lanik egin.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ezgaitu software bidezko bideo iragazkiak</translation>
     </message>
 </context>
 <context>
@@ -8312,7 +8317,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../videopreview/videopreview.cpp" line="322"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation>%1 agiria ezin da igo</translation>
+        <translation>%1 agiria ezin da gertatu</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="421"/>
