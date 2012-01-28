@@ -67,10 +67,16 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
         urlMap[url.queryItemValue("itag").toInt()] = code.remove(QRegExp("&itag=\\d+$"));
     }
 
-	emit gotUrls(urlMap);
+	qDebug("RetrieveYoutubeUrl::parse: url count: %d", urlMap.count());
 
-	QString p_url = findPreferredUrl();
-	if (!p_url.isNull()) emit gotPreferredUrl(p_url);
+	if (urlMap.count() < 1) {
+		emit gotEmptyList();
+	} else {
+		emit gotUrls(urlMap);
+
+		QString p_url = findPreferredUrl();
+		if (!p_url.isNull()) emit gotPreferredUrl(p_url);
+	}
 }
 
 QString RetrieveYoutubeUrl::findPreferredUrl() {
