@@ -396,6 +396,7 @@ protected slots:
 #if YOUTUBE_SUPPORT
 	void connectingToYT(QString host);
 	void YTFailed(QString error);
+	void YTNoVideoUrl();
 #endif
 
 protected:

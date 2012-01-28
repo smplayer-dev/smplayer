@@ -245,6 +245,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
 	connect(yt, SIGNAL(downloadFailed(QString)), this, SLOT(YTFailed(QString)));
+	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
 #endif
 }
 
@@ -496,11 +497,15 @@ void Core::openYT(const QString & url) {
 }
 
 void Core::connectingToYT(QString host) {
-	showMessage( tr("Connecting to %1").arg(host) );
+	emit showMessage( tr("Connecting to %1").arg(host) );
 }
 
 void Core::YTFailed(QString /*error*/) {
-	showMessage( tr("Unable to retrieve youtube page") );
+	emit showMessage( tr("Unable to retrieve youtube page") );
+}
+
+void Core::YTNoVideoUrl() {
+	emit showMessage( tr("Unable to locate the url of the video") );
 }
 #endif
 

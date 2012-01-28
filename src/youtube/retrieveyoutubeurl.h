@@ -49,6 +49,7 @@ public:
 signals:
 	void gotUrls(const QMap<int, QString>&);
 	void gotPreferredUrl(const QString &);
+	void gotEmptyList();
 
 protected slots:
 	void parse(QByteArray text);
