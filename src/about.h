@@ -23,6 +23,8 @@
 
 #include <QDialog>
 
+class QUrl;
+
 //! Shows the about smplayer dialog
 
 /*!
@@ -51,6 +53,9 @@ protected:
 
 	//! Return a formatted string with the contributor and what he did
 	QString contr(const QString & author, const QString & thing);
+
+protected slots:
+	void openLink(const QUrl & link);
 };
 
 #endif
