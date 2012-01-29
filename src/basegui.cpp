@@ -843,9 +843,9 @@ void BaseGui::createActions() {
 	connect( showCLOptionsAct, SIGNAL(triggered()),
              this, SLOT(helpCLOptions()) );
 
-	showTipsAct = new MyAction( this, "tips" );
-	connect( showTipsAct, SIGNAL(triggered()),
-             this, SLOT(helpTips()) );
+	showCheckUpdatesAct = new MyAction( this, "check_updates" );
+	connect( showCheckUpdatesAct, SIGNAL(triggered()),
+             this, SLOT(helpCheckUpdates()) );
 
 	donateAct = new MyAction( this, "donate" );
 	connect( donateAct, SIGNAL(triggered()),
@@ -1634,7 +1634,7 @@ void BaseGui::retranslateStrings() {
 	// Menu Help
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
-	showTipsAct->change( Images::icon("tips"), tr("&Tips") );
+	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 	donateAct->change( Images::icon("donate"), tr("&Donate") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
@@ -2508,7 +2508,7 @@ void BaseGui::createMenus() {
 	// HELP MENU
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
-	helpMenu->addAction(showTipsAct);
+	helpMenu->addAction(showCheckUpdatesAct);
 	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
@@ -3733,8 +3733,10 @@ void BaseGui::helpCLOptions() {
 	clhelp_window->show();
 }
 
-void BaseGui::helpTips() {
-	QDesktopServices::openUrl( QUrl("http://smplayer.sf.net/forum/viewforum.php?f=12") );
+void BaseGui::helpCheckUpdates() {
+	QString url = "http://smplayer.sourceforge.net/latest.php";
+	if (!pref->language.isEmpty()) url += QString("?tr_lang=%1").arg(pref->language);
+	QDesktopServices::openUrl( QUrl(url) );
 }
 
 void BaseGui::helpDonate() {
