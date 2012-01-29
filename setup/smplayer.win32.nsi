@@ -278,16 +278,14 @@ Section $(Section_SMPlayer) SecSMPlayer
 
   ${If} $Reinstall_Uninstall == 1
 
-    ReadRegStr $R0 HKLM ${SMPLAYER_REG_KEY} "Path"
-
     ${If} $Reinstall_UninstallButton_State == 1
-      Exec '"$R0\uninst.exe" /X'
+      Exec '"$SMPlayer_Path\uninst.exe" /X'
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
-      ${If} "$INSTDIR" == "$R0"
-        ExecWait '"$R0\uninst.exe" /S /R _?=$R0'
+      ${If} "$INSTDIR" == "$SMPlayer_Path"
+        ExecWait '"$SMPlayer_Path\uninst.exe" /S /R _?=$SMPlayer_Path'
       ${Else}
-        ExecWait '"$R0\uninst.exe" /S /R'
+        ExecWait '"$SMPlayer_Path\uninst.exe" /S /R'
       ${EndIf}
     ${EndIf}
 
@@ -927,8 +925,13 @@ FunctionEnd
 
 Function CheckPreviousVersion
 
+  ClearErrors
   ReadRegStr $Previous_Version HKLM "${SMPLAYER_REG_KEY}" "Version"
   ReadRegStr $SMPlayer_Path HKLM "${SMPLAYER_REG_KEY}" "Path"
+
+  ${IfNot} ${Errors}
+    StrCpy $Reinstall_Uninstall 1
+  ${EndIf}
 
   /* $Previous_Version_State Assignments:
   $Previous_Version_State=0  This installer is the same version as the installed copy
@@ -976,8 +979,7 @@ FunctionEnd
 
 Function PageReinstall
 
-  ${If} $Previous_Version == ""
-  ${OrIf} $SMPlayer_Path == ""
+  ${If} $Reinstall_Uninstall != 1
     Abort
   ${EndIf}
 
@@ -1018,8 +1020,6 @@ Function PageReinstall
   ${NSD_OnClick} $Reinstall_ChgSettings PageReinstallUpdate
 
   Call PageReinstallUpdate
-
-  StrCpy $Reinstall_Uninstall 1
 
   nsDialogs::Show
 
