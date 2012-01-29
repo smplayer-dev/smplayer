@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="pt_PT">
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_PT">
 <context>
     <name>About</name>
     <message>
@@ -315,27 +316,27 @@
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>O SMPlayer utiliza o MPlayer para reproduzir os ficheiros multimédia. Consulte %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="82"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>Ler a licença na íntegra</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Ler uma tradução</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Os pacotes Windows são criados por %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muitas outras pessoas ajudaram no desenvolvimento. Consulte o registo de alterações.</translation>
     </message>
 </context>
 <context>
@@ -1796,7 +1797,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Proc&amp;urar atualizações</translation>
     </message>
 </context>
 <context>
@@ -1967,7 +1968,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="508"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Não foi possível localizar o url do vídeo</translation>
     </message>
 </context>
 <context>
@@ -3807,7 +3808,7 @@ Verifique as permissões da pasta.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3917,7 +3918,7 @@ Verifique as permissões da pasta.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
