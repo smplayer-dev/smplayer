@@ -14,6 +14,7 @@
         <file>icons-png/copy.png</file>
         <file>icons-png/delete.png</file>
         <file>icons-png/down.png</file>
+        <file>icons-png/open_disc.png</file>
         <file>icons-png/dvd.png</file>
         <file>icons-png/dvd_drive.png</file>
         <file>icons-png/dvd_hd.png</file>
@@ -89,7 +90,7 @@
         <file>icons-png/license.png</file>
         <file>icons-png/faq.png</file>
         <file>icons-png/qt.png</file>
-        <file>icons-png/tips.png</file>
+        <file>icons-png/check_updates.png</file>
         <file>icons-png/instance1.png</file>
         <file>icons-png/instance2.png</file>
         <file>icons-png/equalizer.png</file>
