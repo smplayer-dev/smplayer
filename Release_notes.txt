@@ -1,4 +1,4 @@
-Version 0.6.11.
+Version 0.7.0.
 
 Most important changes since 0.6.10:
 
@@ -7,6 +7,9 @@ Most important changes since 0.6.10:
 * Support for youtube. Now you can open urls like 
   http://www.youtube.com/watch?v=..... using the Open -> URL dialog or 
   dragging a link from a browser to the smplayer window.
+* Support for mplayer2 (http://www.mplayer2.org). It's a fork of mplayer with
+  interesting features like precise seeking, ordered chapters in mkv videos and
+  better pause handling (e.g. seek works while the video is paused).
 * New translation: croatian.
 
 
