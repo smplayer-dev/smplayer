@@ -25,6 +25,7 @@
 #include "mplayerversion.h"
 
 #include <QFile>
+#include <QDesktopServices>
 
 //#define TRANS_ORIG
 #define TRANS_LIST
@@ -72,23 +73,31 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	);
 
 
-	QString license_file = Paths::doc("gpl.html", "en");
 	QString license_text =
 		"<i>"
 		"This program is free software; you can redistribute it and/or modify "
 	    "it under the terms of the GNU General Public License as published by "
 	    "the Free Software Foundation; either version 2 of the License, or "
-  	    "(at your option) any later version."  "</i><br><br>" +
-		QString("<a href=\"%1\">%2</a>").arg(license_file).arg(tr("Read the entire license"));
+  	    "(at your option) any later version."  "</i><br><br>";
+		
+	QString license_file = Paths::doc("gpl.html", "en");
+	if (QFile::exists(license_file)) {
+		license_file = QUrl::fromLocalFile(license_file).toString();
+		license_text += QString("<a href=\"%1\">%2</a>").arg(license_file).arg(tr("Read the entire license"));
+	}
 
 	if ((pref->language != "en") && (pref->language != "en_US")) {
 		QString license_trans_file = Paths::doc("gpl.html", pref->language, false);
 		qDebug("license_trans_file: %s", license_trans_file.toUtf8().constData());
 		if (QFile::exists(license_trans_file)) {
+			license_trans_file = QUrl::fromLocalFile(license_trans_file).toString();
 			license_text += QString("<br><a href=\"%1\">%2</a>").arg(license_trans_file).arg(tr("Read a translation"));
 		}
 	}
 	license->setText(license_text);
+	license->setOpenLinks(false);
+	license->setOpenExternalLinks(false);
+	connect(license, SIGNAL(anchorClicked(const QUrl &)), this, SLOT(openLink(const QUrl&)));
 
 	translators->setHtml( getTranslators() );
 
@@ -258,6 +267,11 @@ QString About::contr(const QString & author, const QString & thing) {
 
 QSize About::sizeHint () const {
 	return QSize(518, 326);
+}
+
+void About::openLink(const QUrl & link) {
+	qDebug("About::openLink: '%s'", link.toString().toUtf8().constData());
+	QDesktopServices::openUrl(link);
 }
 
 #include "moc_about.cpp"
