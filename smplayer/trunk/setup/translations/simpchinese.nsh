@@ -9,7 +9,7 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "安装程序已经运行。"
 ${LangFileString} Installer_No_Admin "安装本程序时，您必须以管理员身份登录。"
-${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+${LangFileString} SMPlayer_Is_Running "一个 SMPlayer 实例正在运行。请退出 SMPlayer，然后再试一次。"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "快捷方式"
@@ -96,5 +96,5 @@ ${LangFileString} Info_Del_Files "正在删除文件..."
 ${LangFileString} Info_Del_Registry "正在删除注册表项..."
 ${LangFileString} Info_Del_Shortcuts "正在删除快捷方式..."
 ${LangFileString} Info_Rest_Assoc "正在恢复文件关联..."
-${LangFileString} Info_RollBack "Rolling back changes..."
+${LangFileString} Info_RollBack "正在回滚更改..."
 ${LangFileString} Info_Files_Extract "正在提取文件..."
