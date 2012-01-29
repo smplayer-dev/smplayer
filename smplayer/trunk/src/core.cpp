@@ -1369,13 +1369,18 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Check URL playlist
-	QUrl url(file);
-	qDebug("Core::startMplayer: checking if stream is a playlist");
-	qDebug("Core::startMplayer: url path: '%s'", url.path().toUtf8().constData());
+	bool url_is_playlist = false;
+	if (file.endsWith("|playlist")) {
+		url_is_playlist = true;
+		file = file.remove("|playlist");
+	} else {
+		QUrl url(file);
+		qDebug("Core::startMplayer: checking if stream is a playlist");
+		qDebug("Core::startMplayer: url path: '%s'", url.path().toUtf8().constData());
 
-	QRegExp rx("\\.ram$|\\.asx$|\\.m3u$|\\.pls$", Qt::CaseInsensitive);
-	bool url_is_playlist = (rx.indexIn(url.path()) != -1);
-
+		QRegExp rx("\\.ram$|\\.asx$|\\.m3u$|\\.pls$", Qt::CaseInsensitive);
+		url_is_playlist = (rx.indexIn(url.path()) != -1);
+	}
 	qDebug("Core::startMplayer: url_is_playlist: %d", url_is_playlist);
 
 
