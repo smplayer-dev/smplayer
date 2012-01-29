@@ -4917,7 +4917,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="947"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Wenn diese Option aktiviert ist, wird die Wiedergabe aller Videos Vollbild-Modus erfolgen.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird die Wiedergabe von Videos im Vollbildmodus gestartet.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1029"/>
