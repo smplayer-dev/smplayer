@@ -2,118 +2,118 @@ smplayer (0.6.10) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Tue, 27 Dec 2011 23:52:32 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 27 Dec 2011 23:52:32 +0100
 
 smplayer (0.6.9) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Mon, 22 Feb 2010 11:59:41 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 22 Feb 2010 11:59:41 +0100
 
 smplayer (0.6.8) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Mon, 20 Jul 2009 12:32:59 +0200
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 20 Jul 2009 12:32:59 +0200
 
 smplayer (0.6.7) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Tue, 10 Mar 2009 00:35:35 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 10 Mar 2009 00:35:35 +0100
 
 smplayer (0.6.6) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Wed, 31 Dec 2008 13:56:36 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 31 Dec 2008 13:56:36 +0100
 
 smplayer (0.6.5.1) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Thu, 13 Nov 2008 02:11:24 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Thu, 13 Nov 2008 02:11:24 +0100
 
 smplayer (0.6.5) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Wed, 12 Nov 2008 02:35:29 +0100
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 12 Nov 2008 02:35:29 +0100
 
 smplayer (0.6.4) hardy; urgency=low
 
   * New release
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Fri, 24 Oct 2008 17:45:16 +0200
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 24 Oct 2008 17:45:16 +0200
 
 smplayer (0.6.3) hardy; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Thu, 25 Sep 2008 00:11:17 +0200
+ -- ricardo <rvm@users.sourceforge.net>  Thu, 25 Sep 2008 00:11:17 +0200
 
 smplayer (0.6.2) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Wed, 13 Aug 2008 23:49:11 +0200
+ -- ricardo <rvm@users.sourceforge.net>  Wed, 13 Aug 2008 23:49:11 +0200
 
 smplayer (0.6.1) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Wed, 28 May 2008 02:05:23 +0200
+ -- ricardo <rvm@users.sourceforge.net>  Wed, 28 May 2008 02:05:23 +0200
 
 smplayer (0.6.0final) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Tue, 13 May 2008 01:07:20 +0200
+ -- ricardo <rvm@users.sourceforge.net>  Tue, 13 May 2008 01:07:20 +0200
 
 smplayer (0.6.0rc4) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Tue, 15 Apr 2008 01:17:56 +0200
+ -- ricardo <rvm@users.sourceforge.net>  Tue, 15 Apr 2008 01:17:56 +0200
 
 smplayer (0.6.0rc3) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Sat, 22 Mar 2008 13:16:15 +0100
+ -- ricardo <rvm@users.sourceforge.net>  Sat, 22 Mar 2008 13:16:15 +0100
 
 smplayer (0.6.0rc2) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Wed, 13 Feb 2008 01:17:06 +0100
+ -- ricardo <rvm@users.sourceforge.net>  Wed, 13 Feb 2008 01:17:06 +0100
 
 smplayer (0.6.0rc1) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Thu, 31 Jan 2008 00:54:26 +0100
+ -- ricardo <rvm@users.sourceforge.net>  Thu, 31 Jan 2008 00:54:26 +0100
 
 smplayer (0.5.62) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Sat, 17 Nov 2007 00:35:49 +0100
+ -- ricardo <rvm@users.sourceforge.net>  Sat, 17 Nov 2007 00:35:49 +0100
 
 smplayer (0.5.61) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Wed, 10 Oct 2007 01:10:40 +0200
+ -- ricardo <rvm@users.sourceforge.net>  Wed, 10 Oct 2007 01:10:40 +0200
 
 smplayer (0.5.60) feisty; urgency=low
 
   * New release
 
- -- ricardo <rvm@escomposlinux.org>  Wed, 19 Sep 2007 22:29:06 +0200
+ -- ricardo <rvm@users.sourceforge.net>  Wed, 19 Sep 2007 22:29:06 +0200
 
 smplayer (0.5.59) unstable; urgency=low
 
   * Initial Release.
 
- -- Ricardo Villalba <rvm@escomposlinux.org>  Wed, 08 Aug 2007 01:02:48 +0200
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 08 Aug 2007 01:02:48 +0200
