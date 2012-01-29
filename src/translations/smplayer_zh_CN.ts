@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="zh_CN">
+<!DOCTYPE TS>
+<TS version="2.0" language="zh_CN">
 <context>
     <name>About</name>
     <message>
@@ -65,12 +66,12 @@
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>Get help in our forum:</source>
-        <translation>从我们的论坛获取帮助:</translation>
+        <translation>获取帮助:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="obsolete">本程序是自由软件; 您可以根据自由软件基金会发行的 GNU General Public License 第2版或任意后续版本的条款，再发行和/或修改它。</translation>
+        <translation>本程序是自由软件; 您可以根据自由软件基金会发行的 GNU General Public License 第2版或任意后续版本的条款，再发行和/或修改它。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="96"/>
@@ -80,12 +81,12 @@
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="obsolete">以下人员贡献了补丁(详见更新日志):</translation>
+        <translation>以下人员贡献了补丁(详见更新日志):</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>If there&apos;s any omission, please report.</source>
-        <translation type="obsolete">如有任何遗漏，请告之。</translation>
+        <translation>如有任何遗漏，请告之。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="134"/>
@@ -305,27 +306,27 @@
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 使用屡获殊荣的 MPlayer 作为播放引擎。详见 %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="82"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>阅读整个许可协议</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>阅读翻译</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>用于 Windows 的软件包由 %1 创建</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>许多其他人贡献了补丁。详见变更日志。</translation>
     </message>
 </context>
 <context>
@@ -941,7 +942,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Tips</source>
-        <translation type="obsolete">小贴士(&amp;T)</translation>
+        <translation>小贴士(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
@@ -1686,7 +1687,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>检查更新(&amp;U)</translation>
     </message>
 </context>
 <context>
@@ -1847,17 +1848,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="500"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>正在连接到 1%</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="504"/>
         <source>Unable to retrieve youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>无法检索 Youtube 页面</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="508"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>无法确定视频的 URL</translation>
     </message>
 </context>
 <context>
@@ -3316,7 +3317,7 @@ Please check the permissions of that folder.</source>
         <source>Nauru</source>
         <translation>瑙鲁语</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>波克莫尔语</translation>
@@ -3626,7 +3627,7 @@ Please check the permissions of that folder.</source>
         <source>Vietnamese</source>
         <translation>越南语</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>沃拉普克语</translation>
