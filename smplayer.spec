@@ -30,7 +30,7 @@ Release:        %{release}
 
 Source0:        %{name}-%{version}.tar.bz2
 
-Packager:       Ricardo Villalba <rvm@escomposlinux.org>
+Packager:       Ricardo Villalba <rvm@users.sourceforge.net>
 Distribution:   %{distr}
 BuildRoot:      %{_tmppath}/%{name}-buildroot
 Autoreqprov:    On
@@ -62,9 +62,9 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Wed May 7 2008 iSage
  - adapted for some distros
-* Sun May 20 2007 Ricardo Villalba <rvm@escomposlinux.org>
+* Sun May 20 2007 Ricardo Villalba <rvm@users.sourceforge.net>
   - use DESTDIR in make install
-* Sat May 5 2007 Ricardo Villalba <rvm@escomposlinux.org>
+* Sat May 5 2007 Ricardo Villalba <rvm@users.sourceforge.net>
   - fixed some typos
-* Mon Feb 12 2007 Ricardo Villalba <rvm@escomposlinux.org>
+* Mon Feb 12 2007 Ricardo Villalba <rvm@users.sourceforge.net>
   - first spec file

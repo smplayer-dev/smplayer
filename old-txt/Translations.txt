@@ -67,7 +67,7 @@ phrases.
 It seems a lot of people is having problems to find my e-mail address...
 (it's on the about dialog). 
 
-You can send your translations to: rvm@escomposlinux.org 
+You can send your translations to: rvm@users.sourceforge.net 
 
 By the way, if you're planning to make a translation maybe it's a good
 idea if you first tell me or announce it here, to avoid duplications. 
