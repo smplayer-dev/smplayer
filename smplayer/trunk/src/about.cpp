@@ -88,7 +88,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
 	if ((pref->language != "en") && (pref->language != "en_US")) {
 		QString license_trans_file = Paths::doc("gpl.html", pref->language, false);
-		qDebug("license_trans_file: %s", license_trans_file.toUtf8().constData());
+		//qDebug("license_trans_file: %s", license_trans_file.toUtf8().constData());
 		if (QFile::exists(license_trans_file)) {
 			license_trans_file = QUrl::fromLocalFile(license_trans_file).toString();
 			license_text += QString("<br><a href=\"%1\">%2</a>").arg(license_trans_file).arg(tr("Read a translation"));
