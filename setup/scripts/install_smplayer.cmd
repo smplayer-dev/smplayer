@@ -52,12 +52,7 @@ copy %SMPLAYER_DIR%\src\translations\*.qm %OUTPUT_DIR%\translations
 echo.
 echo ######       Qt Translations       #######
 echo.
-copy %QT_DIR%\translations\qt_de.qm %OUTPUT_DIR%\translations
-copy %QT_DIR%\translations\qt_es.qm %OUTPUT_DIR%\translations
-copy %QT_DIR%\translations\qt_ru.qm %OUTPUT_DIR%\translations
-copy %QT_DIR%\translations\qt_sk.qm %OUTPUT_DIR%\translations
-copy %QT_DIR%\translations\qt_sv.qm %OUTPUT_DIR%\translations
-copy %QT_DIR%\translations\qt_zh_CN.qm %OUTPUT_DIR%\translations
+copy %QT_DIR%\translations\*.qm %OUTPUT_DIR%\translations
 
 echo.
 echo ######         Shortcuts           #######
