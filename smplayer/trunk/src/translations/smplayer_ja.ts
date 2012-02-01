@@ -305,37 +305,37 @@
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Croatian</source>
-        <translation type="unfinished">クロアチア語</translation>
+        <translation>クロアチア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="49"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer2 %1 を使用しています</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer は再生エンジンとして数々の賞を受賞した MPlayer を使用しています。こちらをご覧ください %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="82"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>ライセンスの全文を読む</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="88"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>翻訳を読む</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="97"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows 用パッケージ: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="99"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>その他多くの方々にパッチでのご協力をいただきました。詳細は Changelog をご覧ください。</translation>
     </message>
 </context>
 <context>
@@ -1475,7 +1475,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4055"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>お使いのシステムにインストールされている MPlayer のバージョン (%1) は古いです。SMPlayer はよく動作できません: いくつかのオプションは動作しません、字幕の選択は失敗する可能性があります...</translation>
+        <translation>お使いのシステムにインストールされている MPlayer のバージョン (%1) は古いです。SMPlayer はよく動作できません: 一部のオプションは動作しません、字幕の選択は失敗する可能性があります...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4058"/>
@@ -1625,7 +1625,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1614"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>字幕の可視性(&amp;V)</translation>
+        <translation>字幕の表示(&amp;V)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
@@ -1746,47 +1746,47 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>寄付(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1847"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>クローズド キャプション(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3743"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>寄付</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3744"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer がお好みでしたら、それを支援する最善の方法は寄付を送っていただくことです、小額でも大変喜ばれます。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3745"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 を使用して寄付を送ることができます。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3745"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>このフォーム</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>ディスク(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1728"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>お気に入り(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>更新のチェック(&amp;U)</translation>
     </message>
 </context>
 <context>
@@ -1947,17 +1947,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="500"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 へ接続しています</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="504"/>
         <source>Unable to retrieve youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>youtube ページを取得することができません</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="508"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオの URL を見つけることができません</translation>
     </message>
 </context>
 <context>
@@ -2135,12 +2135,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいアイテム(&amp;N)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいサブメニュー(&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -2158,27 +2158,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">編集(&amp;E)...</translation>
+        <translation>編集(&amp;E)...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">ジャンプ(&amp;J)...</translation>
+        <translation>ジャンプ(&amp;J)...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">次へ(&amp;N)</translation>
+        <translation>次へ(&amp;N)</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>前へ(&amp;P)</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のメディアを追加(&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -2186,7 +2186,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルまたはフォルダを選択するにはクリックします</translation>
     </message>
 </context>
 <context>
@@ -4183,7 +4183,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
-        <translation type="unfinished">マルチメディア</translation>
+        <translation>マルチメディア</translation>
     </message>
 </context>
 <context>
@@ -4289,7 +4289,7 @@ Example: scale=512:-2,eq2=1.1</source>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
-例: resample=44100:0:0,volnorm</translation>
+例: resample=44100:0:0,volnorm<byte value="x9"/></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="732"/>
@@ -4544,7 +4544,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="396"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>ビデオ フレームのタイムスタンプが異なって計算され新しいフレームを追加するか既存のものを変更するビデオ フィルターがサポートされている試験的なモードへ MPlayer を切り替えます。より正確なタイムスタンプはたとえば SSA/ASS ライブラリが有効でシーンの変更に合わせられた字幕を再生するときに可視にできます。pts の修正なしでは字幕のタイミングが通常いくつかのフレームでオフになります。このオプションはいくつかのデミュクサーとコーデックでは動作しません。</translation>
+        <translation>ビデオ フレームのタイムスタンプが異なって計算され新しいフレームを追加するか既存のものを変更するビデオ フィルターがサポートされている試験的なモードへ MPlayer を切り替えます。より正確なタイムスタンプはたとえば SSA/ASS ライブラリが有効でシーンの変更に合わせられた字幕を再生するときに可視にできます。pts の修正なしでは字幕のタイミングが通常いくつかのフレームでオフになります。このオプションは一部のデミュクサーとコーデックでは動作しません。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="420"/>
@@ -4614,17 +4614,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="432"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウ タイトルにタグ情報を表示する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、タグからの情報がウィンドウ タイトルに表示されます。でなければファイル名のみ表示されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="287"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウ タイトルにタグ情報を表示する(&amp;I)</translation>
     </message>
 </context>
 <context>
@@ -4858,7 +4858,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="927"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>ビデオ イコライザーがお使いのグラフィック カードまたは選択されたビデオの出力ドライバーによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションはいくつかのビデオの出力ドライバーとは互換性がないことがあります。</translation>
+        <translation>ビデオ イコライザーがお使いのグラフィック カードまたは選択されたビデオの出力ドライバーによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは一部のビデオの出力ドライバーとは互換性がないことがあります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="909"/>
@@ -5664,32 +5664,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="337"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>スナップ モード</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="338"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>高速ダイブ モード</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="388"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>uniaud モード</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>dart モード</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 が推奨されます。%2 は古い MPlayer (バージョン %3 より前) でのみ利用できます</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>構成(&amp;R)...</translation>
     </message>
 </context>
 <context>
@@ -6615,37 +6615,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="546"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ ファイルの再生中にビデオ ウィンドウを非表示にする</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="547"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合ウィンドウはオーディオ ファイルの再生中に非表示になります。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="143"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>オーディオ ファイルの再生中にビデオ ウィンドウを非表示にする(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="602"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>正確なシーク</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="604"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、シークはより正確になりますがやや遅くなることがあります。一部のビデオ フォーマットでは動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="605"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>注意: このオプションは MPlayer2 でのみ動作します</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="644"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>正確なシーク(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -6673,7 +6673,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>いくつかのフレームの表示をスキップして遅いシステムでの A/V 同期を維持させます。</translation>
+        <translation>一部のフレームの表示をスキップして遅いシステムでの A/V 同期を維持させます。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
@@ -6798,7 +6798,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>チェックされている場合、チャプターへのシークに最速の方法を試行しますがいくつかのディスクでは動作しない可能性があります。</translation>
+        <translation>チェックされている場合、チャプターへのシークに最速の方法を試行しますが一部のディスクでは動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
@@ -6813,7 +6813,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="324"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>可能な値:&lt;br&gt; &lt;b&gt;はい&lt;/b&gt;: オーディオ トラックの切り替えに最速の方法を試行します (いくつかのフォーマットでは動作しない可能性があります).&lt;br&gt; &lt;b&gt;いいえ&lt;/b&gt;: MPlayer プロセスはオーディオ トラックの切り替え時にいつも再起動されます。&lt;br&gt; &lt;b&gt;自動&lt;/b&gt;: SMPlayer は MPlayer バージョンによってどうするかを決定します。</translation>
+        <translation>可能な値:&lt;br&gt; &lt;b&gt;はい&lt;/b&gt;: オーディオ トラックの切り替えに最速の方法を試行します (一部のフォーマットでは動作しない可能性があります).&lt;br&gt; &lt;b&gt;いいえ&lt;/b&gt;: MPlayer プロセスはオーディオ トラックの切り替え時にいつも再起動されます。&lt;br&gt; &lt;b&gt;自動&lt;/b&gt;: SMPlayer は MPlayer バージョンによってどうするかを決定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="339"/>
@@ -6983,17 +6983,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube の品質</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>youtube ビデオの優先される品質を選択します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube の品質(&amp;Q)</translation>
     </message>
 </context>
 <context>
@@ -7149,12 +7149,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="665"/>
         <source>Top</source>
-        <translation>先頭へ</translation>
+        <translation>上</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Bottom</source>
-        <translation>末尾へ</translation>
+        <translation>下</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
@@ -7687,7 +7687,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>このオプションがチェックされている場合、字幕はスクリーンショットに表示されます。&lt;b&gt;注意:&lt;/b&gt; ときどきいくつかのトラブルを引き起こします。</translation>
+        <translation>このオプションがチェックされている場合、字幕はスクリーンショットに表示されます。&lt;b&gt;注意:&lt;/b&gt; ときどき何らかのトラブルを引き起こします。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="560"/>
@@ -8038,12 +8038,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="179"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;media&apos; は SMPlayer が開けるあらゆるファイルです。ローカル ファイル、DVD (例: dvd://1)、インターネット ストリーム (例: mms://....) または m3u や pls のフォーマットのローカル プレイリストになれます。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="174"/>
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>他のインスタンスとの通信に使用されるサーバーを無効にします。これは 1 つのみのインスタンスを使用できることも無効にします。</translation>
     </message>
 </context>
 <context>
@@ -8167,42 +8167,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>VDPAU のプロパティ</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用する vdpau コーデックを選択します。すべてが動作するとは限りません。</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh264vdpau(&amp;2)</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffmpeg12vdpau(&amp;M)</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffwmv3vdpau(&amp;W)</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffvc1vdpau(&amp;V)</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodivxvdpau(&amp;X)</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>ソフトウェアのビデオ フィルターを無効にする(&amp;D)</translation>
     </message>
 </context>
 <context>
