@@ -69,13 +69,12 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 	qDebug("RetrieveYoutubeUrl::parse: url count: %d", urlMap.count());
 
-	if (urlMap.count() < 1) {
-		emit gotEmptyList();
-	} else {
+	QString p_url = findPreferredUrl();
+	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
-
-		QString p_url = findPreferredUrl();
-		if (!p_url.isNull()) emit gotPreferredUrl(p_url);
+		emit gotPreferredUrl(p_url);
+	} else {
+		 emit gotEmptyList();
 	}
 }
 
