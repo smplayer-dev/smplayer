@@ -49,7 +49,14 @@ void SimpleHttp::download(const QString & url) {
 	QString p = u.path();
 	if (!u.encodedQuery().isEmpty()) p += "?" + u.encodedQuery();
 
-	http_get_id = get( p );
+	if (user_agent.isEmpty()) {
+		http_get_id = get( p );
+	} else {
+		QHttpRequestHeader header("GET", p);
+		header.setValue("Host", u.host());
+		header.setValue("User-Agent", user_agent);
+		http_get_id = request(header);
+	}
 
 	emit connecting(u.host());
 }
