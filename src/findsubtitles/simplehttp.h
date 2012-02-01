@@ -34,6 +34,9 @@ public:
 
 	void download(const QString & url);
 
+	void setUserAgent(const QString & s) { user_agent = s; };
+	QString userAgent() { return user_agent; };
+
 signals:
 	void connecting(QString host);
 	void downloadFinished(QByteArray downloaded_text);
@@ -46,6 +49,7 @@ protected slots:
 protected:
 	QByteArray downloaded_text;
 	int http_get_id;
+	QString user_agent;
 };
 
 #endif
