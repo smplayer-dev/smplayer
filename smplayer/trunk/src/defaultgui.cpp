@@ -546,7 +546,11 @@ void DefaultGui::showFloatingControl(QPoint /*p*/) {
 	qDebug("DefaultGui::showFloatingControl");
 
 #if CONTROLWIDGET_OVER_VIDEO
-	floating_control->setAnimated( pref->floating_control_animated );
+	if ((pref->compact_mode) && (!pref->fullscreen)) {
+		floating_control->setAnimated( false );
+	} else {
+		floating_control->setAnimated( pref->floating_control_animated );
+	}
 	floating_control->setMargin(pref->floating_control_margin);
 #ifndef Q_OS_WIN
 	floating_control->setBypassWindowManager(pref->bypass_window_manager);
