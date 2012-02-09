@@ -57,7 +57,8 @@ STRIP = $(PREFIX)strip
 CP = cp -fp
 # If GNU install is available, replace $(CP) with install.
 INSTALL = $(CP)
-RM = rm -f
+#RM = rm -f
+RM = del
 
 prefix ?= /usr/local
 exec_prefix = $(prefix)
