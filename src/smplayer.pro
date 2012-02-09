@@ -283,8 +283,8 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	LIBS += -lz
 	
 	win32 {
-		INCLUDEPATH += c:\\development\\zlib-1.2.3
-		LIBS += -Lc:\\development\\zlib-1.2.3
+		INCLUDEPATH += ..\\zlib-1.2.6
+		LIBS += -L..\\zlib-1.2.6
 	}
 }
 
