@@ -612,6 +612,7 @@ ${MementoSectionDone}
   Delete "$INSTDIR\*.txt"
   Delete "$INSTDIR\libgcc_s_dw2-1.dll"
   Delete "$INSTDIR\mingwm10.dll"
+  Delete "$INSTDIR\zlib1.dll"
   Delete "$INSTDIR\Q*.dll"
   Delete "$INSTDIR\smplayer.exe"
   Delete "$INSTDIR\dxlist.exe"
