@@ -30,7 +30,7 @@ copy %QT_DIR%\bin\QtNetwork4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtXml4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
 if %QTVER% geq 4.6.0 (
-copy %QTDIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
+copy %QT_DIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
 )
 
 mkdir %OUTPUT_DIR%\imageformats
@@ -47,6 +47,7 @@ echo.
 echo ######       Qt Translations       #######
 echo.
 copy %QT_DIR%\translations\qt_*.qm %OUTPUT_DIR%\translations
+del %OUTPUT_DIR%\translations\qt_help_*.qm
 
 echo.
 echo ######         Shortcuts           #######
