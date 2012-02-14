@@ -29,7 +29,9 @@ TVList::TVList(bool check_channels_conf, Services services, QString filename, QW
 {
 #ifndef Q_OS_WIN
 	if (check_channels_conf) {
+		/* f_list.clear(); */
 		parse_channels_conf(services);
+		updateMenu();
 	}
 #endif
 }
