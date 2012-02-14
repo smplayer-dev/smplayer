@@ -8,8 +8,8 @@
 
 ; Startup
 ${LangFileString} Installer_Is_Running "インストーラーは既に実行中です。"
-${LangFileString} Installer_No_Admin "このプログラムのインストール時には管理者としてログインする必要があります。"
-${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+${LangFileString} Installer_No_Admin "このプログラムをインストールするときは管理者としてログインする必要があります。"
+${LangFileString} SMPlayer_Is_Running "SMPlayer のインスタンスが実行中です。SMPlayer を終了してやり直してください。"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "ショートカット"
@@ -21,7 +21,7 @@ ${LangFileString} Section_SMPlayer_Desc "SMPlayer、共有ライブラリ、お�
 ${LangFileString} Section_DesktopShortcut "デスクトップ"
 ${LangFileString} Section_DesktopShortcut_Desc "デスクトップに SMPlayer へのショートカットを作成します。"
 
-${LangFileString} Section_StartMenu "スタートメニュー"
+${LangFileString} Section_StartMenu "[スタート] メニュー"
 ${LangFileString} Section_StartMenu_Desc "SMPlayer の [スタート] メニュー エントリを作成します。"
 
 ${LangFileString} Section_MPlayer "MPlayer (必須)"
@@ -38,34 +38,34 @@ ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コー�
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
 !endif
 
-${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
 
 ${LangFileString} Section_IconThemes "アイコン テーマ"
 ${LangFileString} Section_IconThemes_Desc "SMPlayer の追加アイコン テーマです。"
 
-${LangFileString} Section_Translations "ローカライズ"
-${LangFileString} Section_Translations_Desc "非英語のローカライズです。"
+${LangFileString} Section_Translations "言語"
+${LangFileString} Section_Translations_Desc "SMPlayer の英語以外のの言語ファイルです。"
 
-${LangFileString} MPlayer_Codec_Msg "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
+${LangFileString} MPlayer_Codec_Msg "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4 などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
 
 ; Upgrade/Reinstall Page
-${LangFileString} Reinstall_Header_Text "Select Install Type"
-${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
+${LangFileString} Reinstall_Header_Text "インストールの種類の選択"
+${LangFileString} Reinstall_Header_SubText "上書きまたはアンインストール モードを選択します。"
 
-${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
-${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
-${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
-${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
-${LangFileString} Reinstall_Msg3_1 "Click Start when ready to proceed."
-${LangFileString} Reinstall_Msg3_2 "Click Next when ready to proceed."
-${LangFileString} Reinstall_Msg3_3 "Click Uninstall when ready to proceed."
-${LangFileString} Reinstall_Msg4 "Change Installation Settings"
+${LangFileString} Reinstall_Msg1 "以下のフォルダーに既存 SMPlayer のインストールがあります:"
+${LangFileString} Reinstall_Msg2 "続行する方法を選択してください:"
+${LangFileString} Reinstall_Overwrite "既存のインストールを上書き ($Inst_Type) する"
+${LangFileString} Reinstall_Uninstall "既存のインストールをアンインストール (削除) する"
+${LangFileString} Reinstall_Msg3_1 "続行するには [開始] をクリックします。"
+${LangFileString} Reinstall_Msg3_2 "続行するには [次へ] をクリックします。"
+${LangFileString} Reinstall_Msg3_3 "続行するには [アンインストール] をクリックします。"
+${LangFileString} Reinstall_Msg4 "インストールの設定の変更"
 
-${LangFileString} Type_Reinstall "reinstall"
-${LangFileString} Type_Downgrade "downgrade"
-${LangFileString} Type_Upgrade "upgrade"
+${LangFileString} Type_Reinstall "再インストール"
+${LangFileString} Type_Downgrade "ダウングレード"
+${LangFileString} Type_Upgrade "アップグレード"
 
-${LangFileString} StartBtn "スタート"
+${LangFileString} StartBtn "開始"
 
 ; MPlayer Section
 ${LangFileString} MPlayer_DL_Msg "MPlayer をダウンロードしています..."
@@ -81,20 +81,20 @@ ${LangFileString} Codecs_Inst_Failed "MPlayer コーデックのインストー�
 
 ; Version information
 ${LangFileString} VerInfo_DL_Msg "バージョン情報をダウンロードしています..."
-${LangFileString} VerInfo_DL_Failed "バージョン情報のダウンロードに失敗しました: '$R0'。既定のバージョンを使用しています。"
+${LangFileString} VerInfo_DL_Failed "バージョン情報のダウンロードに失敗しました: '$R0'。既定のバージョンを使用します。"
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
-${LangFileString} Uninstaller_Aborted "アンインストールはユーザーによって注視されました。"
+${LangFileString} Uninstaller_Aborted "アンインストールはユーザーによって中止されました。"
 ${LangFileString} Uninstaller_NotInstalled "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。$\r$\nこのまま続行しますか (推奨されません)?"
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィルター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロントエンドです。"
 
 ; Misc
-${LangFileString} Info_Del_Files "Deleting Files..."
-${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
-${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
-${LangFileString} Info_Rest_Assoc "Restoring file associations..."
-${LangFileString} Info_RollBack "Rolling back changes..."
-${LangFileString} Info_Files_Extract "Extracting files..."
+${LangFileString} Info_Del_Files "ファイルを削除しています..."
+${LangFileString} Info_Del_Registry "レジストリ キーを削除しています..."
+${LangFileString} Info_Del_Shortcuts "ショートカットを削除しています..."
+${LangFileString} Info_Rest_Assoc "ファイルの関連付けを復元しています..."
+${LangFileString} Info_RollBack "変更を元に戻しています..."
+${LangFileString} Info_Files_Extract "ファイルを展開しています..."
