@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="lt">
+<!DOCTYPE TS>
+<TS version="2.0" language="lt">
 <context>
     <name>About</name>
     <message>
@@ -8,7 +9,7 @@
         <translation>Versija: %1</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../about.cpp" line="7471221"/>
         <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
         <translation type="obsolete">Tai nemokama programinė įranga. Vadovaudamiesi antra ar vėlesne (savo nuožiūra) GNU General Public License, publikuota Free Software Foundation, jūs galite platinti ir/arba keisti šią programinę įrangą.</translation>
     </message>
@@ -193,12 +194,12 @@
         <translation>Gaukite pagalbą mūsų forume:</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../about.cpp" line="7471221"/>
         <source>You can support SMPlayer by making a donation.</source>
         <translation type="obsolete">Jūs galite palaikyti „SMPlayer“ paaukodami.</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../about.cpp" line="7471221"/>
         <source>More info</source>
         <translation type="obsolete">Daugiau informacijos</translation>
     </message>
@@ -258,12 +259,12 @@
         <translation>Galisų</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../about.cpp" line="7471221"/>
         <source>The following people have contributed with patches (see the changelog for details):</source>
         <translation type="obsolete">Šie žmonės prisidėjo savo pataisymais (detaliau žr. pakeitimų sąrašą):</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../about.cpp" line="7471221"/>
         <source>If there&apos;s any omission, please report.</source>
         <translation type="obsolete">Jei ką nors praleidome - praneškite.</translation>
     </message>
@@ -864,7 +865,7 @@ Norite perrašyti?</translation>
         <translation>&amp;Grojaraštis</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>&amp;Show frame counter</source>
         <translation type="obsolete">&amp;Rodyti kadrų skaitiklį</translation>
     </message>
@@ -1236,7 +1237,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;DUK</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>Visualize &amp;motion vectors</source>
         <translation type="obsolete">Vizualizuoti &amp;judesio vektorius</translation>
     </message>
@@ -1251,7 +1252,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>„SMPlayer“ komandinės eilutės nuostatos</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>Enable &amp;closed caption</source>
         <translation type="obsolete">Įjungti paslėptus sub&amp;titrus</translation>
     </message>
@@ -1361,7 +1362,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Įkelti su&amp;btitrus į OpenSubtitles.org tinklalapį...</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>&amp;Tips</source>
         <translation type="obsolete">Pa&amp;tarimai</translation>
     </message>
@@ -1594,27 +1595,27 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>P&amp;rograma</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>&amp;Edit...</source>
         <translation type="obsolete">R&amp;edaguoti...</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>Next TV channel</source>
         <translation type="obsolete">Kitas TV kanalas</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>Previous TV channel</source>
         <translation type="obsolete">Ankstesnis TV kanalas</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>Next radio channel</source>
         <translation type="obsolete">Kitas radijo kanalas</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>Previous radio channel</source>
         <translation type="obsolete">Ankstesnis radijo kanalas</translation>
     </message>
@@ -1629,7 +1630,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Radijas</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../basegui.cpp" line="7471221"/>
         <source>&amp;Jump...</source>
         <translation type="obsolete">&amp;Peršokti...</translation>
     </message>
@@ -2063,7 +2064,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>piktograma</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../favoriteeditor.ui" line="7471221"/>
         <source>&amp;New</source>
         <translation type="obsolete">&amp;Nauja</translation>
     </message>
@@ -2496,10 +2497,10 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="544"/>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%1 subtitrai išgauti</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+            <numerusform>%1 subtitrai išgauti</numerusform>
+            <numerusform>%1 subtitrai išgauti</numerusform>
         </translation>
     </message>
     <message>
@@ -2816,12 +2817,12 @@ Patikrinkite prieigos teises.</translation>
         <translation>&amp;URL:</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../inputurl.ui" line="7471221"/>
         <source>It&apos;s a &amp;playlist</source>
         <translation type="obsolete">Tai yra &amp;grojaraštis</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../inputurl.ui" line="7471221"/>
         <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
         <translation type="obsolete">Jei pažymėta, URL bus suprastas kaip grojaraštis: jis bus atidarytas kaip tekstas ir bus atkuriami adresai iš jo.</translation>
     </message>
@@ -3748,9 +3749,9 @@ Patikrinkite prieigos teises.</translation>
         <source>Marshallese</source>
         <translation>Maršaliečių</translation>
     </message>
-    <message>
-        <location filename="" line="7471221"/>
-        <source>Bokm&#xe5;l</source>
+    <message utf8="both">
+        <location filename="../languages.cpp" line="7471221"/>
+        <source>Bokmål</source>
         <translation type="obsolete">Norvegų (Bokmål)</translation>
     </message>
     <message>
@@ -3858,9 +3859,9 @@ Patikrinkite prieigos teises.</translation>
         <source>Venda</source>
         <translation>Vendų</translation>
     </message>
-    <message>
-        <location filename="" line="7471221"/>
-        <source>Volap&#xfc;k</source>
+    <message utf8="both">
+        <location filename="../languages.cpp" line="7471221"/>
+        <source>Volapük</source>
         <translation type="obsolete">Volapük</translation>
     </message>
     <message>
@@ -3872,16 +3873,6 @@ Patikrinkite prieigos teises.</translation>
         <location filename="../languages.cpp" line="284"/>
         <source>Modern Greek Windows</source>
         <translation>Windows moderni graikų</translation>
-    </message>
-    <message encoding="UTF-8">
-        <location filename="../languages.cpp" line="136"/>
-        <source>Bokmål</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message encoding="UTF-8">
-        <location filename="../languages.cpp" line="200"/>
-        <source>Volapük</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4138,7 +4129,7 @@ Norite perrašyti?</translation>
         <translation>Yra neišsaugotų pakeitimų, išsaugoti grojaraštį?</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>Preferences</source>
         <translation type="obsolete">Nuostatos</translation>
     </message>
@@ -4151,37 +4142,37 @@ Norite perrašyti?</translation>
 <context>
     <name>PlaylistPreferences</name>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>Playlist - Preferences</source>
         <translation type="obsolete">Grojaraščio - nuostatos</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation type="obsolete">Pažymėkite, jei norite kad pridedant katalogą būtų pridėti ir jo pakatalogiai. Priešingu atveju bus pridėti  failai tik iš pažymėto katalogo.</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>&amp;Add files in directories recursively</source>
         <translation type="obsolete">Pridėti f&amp;ailus ir iš pokatalogių</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation type="obsolete">Pažymėkite, jei norite į grojaraštį pridėti papildomą informaciją iš failų. Tai leidžia rodyti failo pavadinimą ir trukmę. Priešingu atveju ši informacija bus prieinama tik pradėjus atkurti failą. Atsargiai - ši nuostata gali sulėtinti darbą, ypač jei įkeliama daug failų.</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>Automatically get &amp;info about files added</source>
         <translation type="obsolete">Automatiškai gauti &amp;informaciją apie pridėtus failus</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>&amp;Save copy of playlist on exit</source>
         <translation type="obsolete">Iš&amp;saugoti grojaraščio kopiją baigiant darbą</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../playlist.cpp" line="7471221"/>
         <source>&amp;Play files from start</source>
         <translation type="obsolete">Atkurti failus nuo &amp;pradžios</translation>
     </message>
@@ -5519,17 +5510,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pašalinti „šukas“ &amp;neklausiant (išskyrus TV):</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../prefgeneral.ui" line="7471221"/>
         <source>Disable video filters when using vdpau</source>
         <translation type="obsolete">Išjungia video filtrus naudojant vdpau</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../prefgeneral.ui" line="7471221"/>
         <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
         <translation type="obsolete">Naudojant vdpau kaip video išvesties tvarkyklę, paprastai video filtrai neveikia, todėl būtų protinga šią parinktį palikti įjungtą.</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../prefgeneral.ui" line="7471221"/>
         <source>Disable video filters when using vd&amp;pau</source>
         <translation type="obsolete">Išjungia video filtrus naudojant vd&amp;pau</translation>
     </message>
@@ -7771,7 +7762,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Atstato senas asociacijas ir išvalo registrą.</translation>
     </message>
     <message>
-        <location filename="" line="7471221"/>
+        <location filename="../clhelp.cpp" line="7471221"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
         <translation type="obsolete">„media“ yra bet kokios rūšies failas, kurį gali atverti SMPlayer.Tai gali būti vietinis failas, DVD (t.y. dvd://1), internetinis srautas (t.y. mms://....) ar lokalus m3u ar pls formato grojaraštis. Jei naudojama parinktis&lt;i&gt;-playlist&lt;/i&gt;, tai reiškia, kad SMPlayer ją perduos MPlayer ir ją priims jis, o ne SMPlayer.</translation>
     </message>
@@ -7813,19 +7804,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message numerus="yes">
         <location filename="../helper.cpp" line="83"/>
         <source>%1 second(s)</source>
-        <translation type="unfinished">
-            <numerusform>%1 sekundė(-ės)</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 sekundė</numerusform>
+            <numerusform>%1 sekundės</numerusform>
+            <numerusform>%1 sekundžių</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <source>%1 minute(s)</source>
-        <translation type="unfinished">
-            <numerusform>%1 minutė(-ės)</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 minutė</numerusform>
+            <numerusform>%1 minutės</numerusform>
+            <numerusform>%1 minučių</numerusform>
         </translation>
     </message>
     <message>
