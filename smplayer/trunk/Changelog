@@ -3,7 +3,8 @@
 (2012-02-19)
  * Store by default the screenshots in a folder inside the user's pictures 
    folder. (Requires Qt 4.4)
-
+ * Bugfix: don't try to create the lock file if the config dir doesn't exist.
+   This caused a 10sec delay when smplayer is run for the first time.
 
 [b]Version 0.7.0[/b]:
 

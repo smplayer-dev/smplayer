@@ -19,6 +19,7 @@
 #include <QApplication>
 #include <QFile>
 #include <QTime>
+#include <QDir>
 
 #include "smplayer.h"
 #include "global.h"
@@ -183,22 +184,24 @@ int main( int argc, char ** argv )
 	QtLockedFile lk(lock_file);
 	lk.open(QFile::ReadWrite);
 
-	bool lock_ok = lk.lock(QtLockedFile::WriteLock, false);
+	if (QDir().exists(Paths::iniPath())) {
+		bool lock_ok = lk.lock(QtLockedFile::WriteLock, false);
 
-	if (!lock_ok) {
-		//lock failed
-		qDebug("main: lock failed");
+		if (!lock_ok) {
+			//lock failed
+			qDebug("main: lock failed");
 
-		// Wait 10 secs max.
-		int n = 100;
-		while ( n > 0) {
-			Helper::msleep(100); // wait 100 ms
+			// Wait 10 secs max.
+			int n = 100;
+			while ( n > 0) {
+				Helper::msleep(100); // wait 100 ms
 
-			if (lk.lock(QtLockedFile::WriteLock, false)) break;
-			n--;
-			if ((n % 10) == 0) qDebug("main: waiting %d...", n);
+				if (lk.lock(QtLockedFile::WriteLock, false)) break;
+				n--;
+				if ((n % 10) == 0) qDebug("main: waiting %d...", n);
+			}
+			// Continue startup
 		}
-		// Continue startup
 	}
 #endif // USE_LOCKS
 
