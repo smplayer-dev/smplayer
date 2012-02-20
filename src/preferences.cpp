@@ -30,6 +30,10 @@
 #include <QDir>
 #include <QLocale>
 
+#if QT_VERSION >= 0x040400
+#include <QDesktopServices>
+#endif
+
 #if YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
 #endif
@@ -77,8 +81,17 @@ void Preferences::reset() {
 #ifdef PORTABLE_APP
 	screenshot_directory= "./screenshots";
 #else
-	if (QFile::exists(Paths::configPath() + "/screenshots")) {
-		screenshot_directory = Paths::configPath() + "/screenshots";
+	#if QT_VERSION >= 0x040400
+	QString default_screenshot_path = QDesktopServices::storageLocation(QDesktopServices::PicturesLocation) 
+		+ "/smplayer_screenshots";
+	if (!QFile::exists(default_screenshot_path)) {
+		QDir().mkpath(default_screenshot_path);
+	}
+	#else
+	QString default_screenshot_path = Paths::configPath() + "/screenshots";
+	#endif
+	if (QFile::exists(default_screenshot_path)) {
+		screenshot_directory = default_screenshot_path;
 	}
 #endif
 
@@ -496,7 +509,11 @@ void Preferences::save() {
 	set->setValue("driver/audio_output", ao);
 
 	set->setValue("use_screenshot", use_screenshot);
+	#if QT_VERSION >= 0x040400
+	set->setValue("screenshot_folder", screenshot_directory);
+	#else
 	set->setValue("screenshot_directory", screenshot_directory);
+	#endif
 
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
 	set->setValue("dont_remember_time_pos", dont_remember_time_pos);
@@ -919,7 +936,11 @@ void Preferences::load() {
 	ao = set->value("driver/audio_output", ao).toString();
 
 	use_screenshot = set->value("use_screenshot", use_screenshot).toBool();
+	#if QT_VERSION >= 0x040400
+	screenshot_directory = set->value("screenshot_folder", screenshot_directory).toString();
+	#else
 	screenshot_directory = set->value("screenshot_directory", screenshot_directory).toString();
+	#endif
 
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
 	dont_remember_time_pos = set->value("dont_remember_time_pos", dont_remember_time_pos).toBool();
