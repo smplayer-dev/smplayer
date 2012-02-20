@@ -340,10 +340,13 @@ void SMPlayer::createConfigDirectory() {
 		if (!d.mkdir(Paths::configPath())) {
 			qWarning("SMPlayer::createConfigDirectory: can't create %s", Paths::configPath().toUtf8().data());
 		}
+		// Screenshot folder already created in preferences.cpp if Qt >= 4.4
+		#if QT_VERSION < 0x040400 
 		QString s = Paths::configPath() + "/screenshots";
 		if (!d.mkdir(s)) {
 			qWarning("SMPlayer::createHomeDirectory: can't create %s", s.toUtf8().data());
 		}
+		#endif
 	}
 }
 #endif

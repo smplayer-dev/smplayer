@@ -1,3 +1,10 @@
+[b]Version 0.8.0[/b]:
+
+(2012-02-19)
+ * Store by default the screenshots in a folder inside the user's pictures 
+   folder. (Requires Qt 4.4)
+
+
 [b]Version 0.7.0[/b]:
 
 (2012-01-28)
