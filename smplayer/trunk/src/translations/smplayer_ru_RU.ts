@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -310,32 +311,32 @@
     <message>
         <location filename="../about.cpp" line="50"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Используется MPlayer2 %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="72"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer использует отмеченный наградами MPlayer для воспроизведения. Смотрите %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>Прочесть полную лицензию</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Прочесть перевод</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Пакеты для Windows созданы %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="108"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Многие люди внесли вклад своими патчами. Смотрите Changelog для подробностей.</translation>
     </message>
 </context>
 <context>
@@ -1726,17 +1727,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Диск</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1728"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Избранное</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверить &amp;обновления</translation>
     </message>
 </context>
 <context>
@@ -1897,17 +1898,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="500"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Соединение с %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="504"/>
         <source>Unable to retrieve youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно извлечь страницу youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="508"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно определить url видео</translation>
     </message>
 </context>
 <context>
@@ -3743,7 +3744,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3853,7 +3854,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -6464,22 +6465,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="602"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Точное позиционирование</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="604"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если опция включена, перемотка будет более точной, но может быть немного медленнее. Может не работать с некоторыми форматами видео.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="605"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>Внимание: эта опция работает только с MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="644"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>То&amp;чное позиционирование</translation>
     </message>
 </context>
 <context>
@@ -7846,7 +7847,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="174"/>
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключает сервер, используемый для связи с другими экземплярами приложения. Также отключается возможность использовать один экземпляр.</translation>
     </message>
 </context>
 <context>
