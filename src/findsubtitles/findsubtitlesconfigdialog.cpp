@@ -42,6 +42,14 @@ FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::Windo
 FindSubtitlesConfigDialog::~FindSubtitlesConfigDialog() {
 }
 
+void FindSubtitlesConfigDialog::setServer(QString server) {
+	server_edit->setText(server);
+}
+
+QString FindSubtitlesConfigDialog::server() {
+	return server_edit->text();
+}
+
 void FindSubtitlesConfigDialog::setUseProxy(bool b) {
 	use_proxy_check->setChecked(b);
 }

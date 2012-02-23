@@ -120,6 +120,9 @@ protected:
 	bool include_lang_on_filename;
 #endif
 
+	// Opensubtitles server
+	QString os_server;
+
 	// Proxy
 	bool use_proxy;
 	int proxy_type;

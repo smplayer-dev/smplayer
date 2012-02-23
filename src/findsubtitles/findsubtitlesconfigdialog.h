@@ -29,6 +29,10 @@ public:
 	FindSubtitlesConfigDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
 	~FindSubtitlesConfigDialog();
 
+	// Server
+	void setServer(QString server);
+	QString server();
+
 	// Proxy
 	void setUseProxy(bool b);
 	bool useProxy();
