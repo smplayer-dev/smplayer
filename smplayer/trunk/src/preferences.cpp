@@ -82,8 +82,11 @@ void Preferences::reset() {
 	screenshot_directory= "./screenshots";
 #else
 	#if QT_VERSION >= 0x040400
-	QString default_screenshot_path = QDesktopServices::storageLocation(QDesktopServices::PicturesLocation) 
-		+ "/smplayer_screenshots";
+	QString pdir = QDesktopServices::storageLocation(QDesktopServices::PicturesLocation);
+	if (pdir.isEmpty()) pdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
+	if (pdir.isEmpty()) pdir = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
+	if (pdir.isEmpty()) pdir = "/tmp";
+	QString default_screenshot_path = pdir + "/smplayer_screenshots";
 	if (!QFile::exists(default_screenshot_path)) {
 		QDir().mkpath(default_screenshot_path);
 	}
