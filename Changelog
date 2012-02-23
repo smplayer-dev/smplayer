@@ -2,6 +2,7 @@
 
 (2012-02-22)
  * Now it's possible to change the opensubtitles server.
+ * Opensubtitles: fix download link.
 
 (2012-02-19)
  * Store by default the screenshots in a folder inside the user's pictures 

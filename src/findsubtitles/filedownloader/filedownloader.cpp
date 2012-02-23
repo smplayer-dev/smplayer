@@ -56,12 +56,12 @@ void FileDownloader::setProxy(QNetworkProxy proxy) {
 void FileDownloader::download(QUrl url) {
 	QHttp::ConnectionMode mode = url.scheme().toLower() == "https" ? QHttp::ConnectionModeHttps : QHttp::ConnectionModeHttp;
 	http->setHost(url.host(), mode, url.port() == -1 ? 0 : url.port());
-    
+
 	if (!url.userName().isEmpty())
 		http->setUser(url.userName(), url.password());
 
 	http_request_aborted = false;
-        http_get_id = http->get(url.path());
+	http_get_id = http->get(url.path());
 
 	setLabelText(tr("Downloading %1").arg(url.toString()));
 }

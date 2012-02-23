@@ -54,7 +54,12 @@ bool OSParser::parseXml(QByteArray text) {
 			OSSubtitle sub;
 
 			sub.releasename = subtitle.firstChildElement("releasename").text();
-			sub.link = base_url + subtitle.firstChildElement("download").text();
+			QString path = subtitle.firstChildElement("download").text();
+			if (path.contains("http://")) {
+				sub.link = subtitle.firstChildElement("download").text();
+			} else {
+				sub.link = base_url + subtitle.firstChildElement("download").text();
+			}
 			sub.detail = subtitle.firstChildElement("detail").text();
 			sub.date = subtitle.firstChildElement("subadddate").text();
 			sub.rating = subtitle.firstChildElement("subrating").text();
