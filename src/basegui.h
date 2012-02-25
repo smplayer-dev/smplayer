@@ -109,6 +109,7 @@ public slots:
 	virtual void openUploadSubtitlesPage(); //turbos
 
 	virtual void showVideoPreviewDialog();
+	virtual void showTubeBrowser();
 
 	virtual void showPlaylist();
 	virtual void showPlaylist(bool b);
@@ -424,6 +425,7 @@ protected:
 	MyAction * showPlaylistAct;
 	MyAction * showPropertiesAct;
 	MyAction * showPreferencesAct;
+	MyAction * showTubeBrowserAct;
 	MyAction * showLogMplayerAct;
 	MyAction * showLogSmplayerAct;
 

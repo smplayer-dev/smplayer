@@ -1,5 +1,9 @@
 [b]Version 0.7.1[/b]:
 
+(2012-02-25)
+ * New option in the menu Options to run the smplayer youtube browser
+   (if installed).
+
 (2012-02-22)
  * Now it's possible to change the opensubtitles server.
  * Opensubtitles: fix download link.
