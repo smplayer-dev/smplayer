@@ -3,6 +3,7 @@
 (2012-02-25)
  * New option in the menu Options to run the smplayer youtube browser
    (if installed).
+ * The single instance is enabled by default on windows.
 
 (2012-02-22)
  * Now it's possible to change the opensubtitles server.
