@@ -454,13 +454,7 @@ void Preferences::reset() {
        Instances
        ********* */
 
-#ifdef Q_OS_WIN
-	// Some people reported smplayer doesn't start with this option enabled
-	// So now it's disabled by default on Windows
-	use_single_instance = false; 
-#else
 	use_single_instance = true;
-#endif
 	use_autoport = true;
 	connection_port = 8000;
 	autoport = 0;
@@ -878,7 +872,7 @@ void Preferences::save() {
        ********* */
 
 	set->beginGroup("instances");
-	set->setValue("use_single_instance", use_single_instance);
+	set->setValue("single_instance_enabled", use_single_instance);
 	set->setValue("connection_port", connection_port);
 	set->setValue("use_autoport", use_autoport);
 	set->setValue("temp/autoport", autoport);
@@ -1313,7 +1307,7 @@ void Preferences::load() {
        ********* */
 
 	set->beginGroup("instances");
-	use_single_instance = set->value("use_single_instance", use_single_instance).toBool();
+	use_single_instance = set->value("single_instance_enabled", use_single_instance).toBool();
 	connection_port = set->value("connection_port", connection_port).toInt();
 	use_autoport = set->value("use_autoport", use_autoport).toBool();
 	autoport = set->value("temp/autoport", autoport).toInt();
