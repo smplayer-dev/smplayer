@@ -1,13 +1,11 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>About</name>
     <message>
         <source>Version: %1</source>
         <translation>Verzija: %1</translation>
-    </message>
-    <message>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="obsolete">Ovaj program je slobodni software; možete ga redistribuirati i/ili modificirati pod uvjetima GNU General Public Licence onako kako je izdana od Free Software Foundation i to po verziji 2 Licence, ili (po vašem izboru) nekoj kasnijoj verziji. </translation>
     </message>
     <message>
         <source>The following people have contributed with translations:</source>
@@ -197,14 +195,6 @@
     <message>
         <source>Galician</source>
         <translation>Galicijski</translation>
-    </message>
-    <message>
-        <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="obsolete">Slijedeće osobe su doprinijele patchevima (vidi changelog za detalje):</translation>
-    </message>
-    <message>
-        <source>If there&apos;s any omission, please report.</source>
-        <translation type="obsolete">Ako ste primijetili kakvu omašku, molimo Vas da nas obavijestite.</translation>
     </message>
     <message>
         <source>SMPlayer logo by %1</source>
@@ -1071,10 +1061,6 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>Pošalji &amp;titlove na OpenSubtitles.org...</translation>
     </message>
     <message>
-        <source>&amp;Tips</source>
-        <translation type="obsolete">&amp;Savjeti</translation>
-    </message>
-    <message>
         <source>&amp;Auto</source>
         <translation>&amp;Auto</translation>
     </message>
@@ -1258,36 +1244,12 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>P&amp;rogram</translation>
     </message>
     <message>
-        <source>&amp;Edit...</source>
-        <translation type="obsolete">&amp;Uredi...</translation>
-    </message>
-    <message>
-        <source>Next TV channel</source>
-        <translation type="obsolete">Slijedeći TV kanal</translation>
-    </message>
-    <message>
-        <source>Previous TV channel</source>
-        <translation type="obsolete">Prethodni TV kanal</translation>
-    </message>
-    <message>
-        <source>Next radio channel</source>
-        <translation type="obsolete">Slijedeći radio kanal</translation>
-    </message>
-    <message>
-        <source>Previous radio channel</source>
-        <translation type="obsolete">Prethodni radio kanal</translation>
-    </message>
-    <message>
         <source>&amp;TV</source>
         <translation>&amp;TV</translation>
     </message>
     <message>
         <source>Radi&amp;o</source>
         <translation>R&amp;adio</translation>
-    </message>
-    <message>
-        <source>&amp;Jump...</source>
-        <translation type="obsolete">&amp;Skoči na...</translation>
     </message>
     <message>
         <source>Subtitles onl&amp;y</source>
@@ -1376,6 +1338,18 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     <message>
         <source>Check for &amp;updates</source>
         <translation>&amp;Provjeri za nadogradnje</translation>
+    </message>
+    <message>
+        <source>&amp;YouTube browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An error happened - SMPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The YouTube Browser couldn&apos;t be launched</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1637,10 +1611,6 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>ikone</translation>
     </message>
     <message>
-        <source>&amp;New</source>
-        <translation type="obsolete">&amp;Novo</translation>
-    </message>
-    <message>
         <source>D&amp;elete</source>
         <translation>&amp;Obriši</translation>
     </message>
@@ -1896,6 +1866,14 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <source>&amp;Type:</source>
         <translation>&amp;Tip:</translation>
     </message>
+    <message>
+        <source>Server</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Opensubtitles server:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FindSubtitlesWindow</name>
@@ -1987,10 +1965,12 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Titlovi spremljeni kao %1</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
-        <translation>%1 titl(ova) otpakirano
+        <translation type="unfinished">
+            <numerusform>%1 titl(ova) otpakirano
         
+        </numerusform>
         </translation>
     </message>
     <message>
@@ -2246,14 +2226,6 @@ Molim provjerite dozvole za taj folder.</translation>
     <message>
         <source>&amp;URL:</source>
         <translation>&amp;URL:</translation>
-    </message>
-    <message>
-        <source>It&apos;s a &amp;playlist</source>
-        <translation type="obsolete">To je &amp;playlista</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation type="obsolete">Ako je ova opcija odabrana, URL će biti tretiran kao playlista.</translation>
     </message>
 </context>
 <context>
@@ -2994,7 +2966,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3082,7 +3054,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -6175,10 +6147,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Vraća stara pridruživanja datoteka i čisti registry.</translation>
     </message>
     <message>
-        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="obsolete">&apos;medij&apos; je svaka vrsta datoteka koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD (npr.: dvd://1), internet streaming (npr.: mms://....) ili lokalna playlista u m3u formatu ili pls. Ako se koristi opcija -playlist to znači da se upravljanje playlistama prebacuje na Mplayer a ne SMPlayer.</translation>
-    </message>
-    <message>
         <source>Usage:</source>
         <translation>Upotreba:</translation>
     </message>
@@ -6205,17 +6173,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>određuje koja datoteka titlova će biti učitana za prvi video.</translation>
-    </message>
-    <message>
-        <source>%1 second(s)</source>
-        <translation>%1 sekundi
-        </translation>
-    </message>
-    <message>
-        <source>%1 minute(s)</source>
-        <translation>%1 minuta
-        
-        </translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -6267,6 +6224,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
         <translation>Onemogućuje server koji se koristi za komunikaciju s ostalim instancama. Ovo također onemogućuje korištenje jedne instance.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
 </context>
 <context>
