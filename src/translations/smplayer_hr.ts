@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0">
+<!DOCTYPE TS><TS>
 <context>
     <name>About</name>
     <message>
@@ -1341,15 +1339,15 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>&amp;YouTube browser</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube preglednik</translation>
     </message>
     <message>
         <source>An error happened - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Došlo je do pogreške - SMPlayer</translation>
     </message>
     <message>
         <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokretanje YouTube preglednika nije uspjelo</translation>
     </message>
 </context>
 <context>
@@ -1868,11 +1866,11 @@ Primjer: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Server</translation>
     </message>
     <message>
         <source>&amp;Opensubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opensubtitles server:</translation>
     </message>
 </context>
 <context>
@@ -1965,12 +1963,11 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Titlovi spremljeni kao %1</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>%1 titl(ova) otpakirano
+        <translation>%1 titl(ova) otpakirano
         
-        </numerusform>
+        
         </translation>
     </message>
     <message>
@@ -2966,7 +2963,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3054,7 +3051,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -6225,16 +6222,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
         <translation>Onemogućuje server koji se koristi za komunikaciju s ostalim instancama. Ovo također onemogućuje korištenje jedne instance.</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>%n sekundi
         </translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>%n minuta
         </translation>
     </message>
 </context>
