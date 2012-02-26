@@ -74,13 +74,13 @@ QString Helper::timeForJumps(int secs) {
 	int seconds = secs % 60;
 
 	if (minutes==0) {
-		return QObject::tr("%1 second(s)", "", seconds).arg(seconds);
+		return QObject::tr("%n second(s)", "", seconds);
 	} else {
 		if (seconds==0) 
-			return QObject::tr("%1 minute(s)", "", minutes).arg(minutes);
+			return QObject::tr("%n minute(s)", "", minutes);
 		else {
-			QString m = QObject::tr("%1 minute(s)", "", minutes).arg(minutes);
-			QString s = QObject::tr("%1 second(s)", "", seconds).arg(seconds);
+			QString m = QObject::tr("%n minute(s)", "", minutes);
+			QString s = QObject::tr("%n second(s)", "", seconds);
 			return QObject::tr("%1 and %2").arg(m).arg(s);
 		}
 	}
