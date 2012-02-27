@@ -105,7 +105,8 @@ QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Q
 	if (q==MP4_720p) {
 		p_url = urlMap.value(MP4_720p, QString());
 		if (p_url.isNull()) p_url= urlMap.value(WEBM_720p, QString());
-		if (p_url.isNull()) q = FLV_480p;
+		if (p_url.isNull()) p_url = urlMap.value(WEBM_480p, QString());
+		if (p_url.isNull()) q = MP4_360p;
 	}
 
 	if (q==WEBM_720p) {
@@ -114,36 +115,31 @@ QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Q
 		if (p_url.isNull()) q = WEBM_480p;
 	}
 
-	if (q==FLV_480p) {
-		p_url = urlMap.value(FLV_480p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(WEBM_480p, QString());
-		if (p_url.isNull()) q = FLV_360p;
-	}
-
 	if (q==WEBM_480p) {
 		p_url = urlMap.value(WEBM_480p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(FLV_480p, QString());
-		if (p_url.isNull()) q = FLV_360p;
-	}
-
-	if (q==FLV_360p) {
-		p_url = urlMap.value(FLV_360p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(MP4_360p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(WEBM_360p, QString());
-		if (p_url.isNull()) q = FLV_240p;
+		if (p_url.isNull()) q = WEBM_360p;
 	}
 
 	if (q==MP4_360p) {
 		p_url = urlMap.value(MP4_360p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(FLV_360p, QString());
 		if (p_url.isNull()) p_url= urlMap.value(WEBM_360p, QString());
-		if (p_url.isNull()) q = FLV_240p;
+		if (p_url.isNull()) q = FLV_360p;
 	}
 
 	if (q==WEBM_360p) {
 		p_url = urlMap.value(WEBM_360p, QString());
 		if (p_url.isNull()) p_url= urlMap.value(MP4_360p, QString());
-		if (p_url.isNull()) p_url= urlMap.value(FLV_360p, QString());
+		if (p_url.isNull()) q = FLV_360p;
+	}
+
+	// FLV, low priority
+	if (q==FLV_480p) {
+		p_url = urlMap.value(FLV_480p, QString());
+		if (p_url.isNull()) q = FLV_360p;
+	}
+
+	if (q==FLV_360p) {
+		p_url = urlMap.value(FLV_360p, QString());
 		if (p_url.isNull()) q = FLV_240p;
 	}
 
