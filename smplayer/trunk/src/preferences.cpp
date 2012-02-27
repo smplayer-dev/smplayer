@@ -86,9 +86,16 @@ void Preferences::reset() {
 	if (pdir.isEmpty()) pdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
 	if (pdir.isEmpty()) pdir = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
 	if (pdir.isEmpty()) pdir = "/tmp";
+	if (!QFile::exists(pdir)) {
+		qWarning("Preferences::reset: folder '%s' does not exist. Using /tmp as fallback", pdir.toUtf8().constData());
+		pdir = "/tmp";
+	}
 	QString default_screenshot_path = pdir + "/smplayer_screenshots";
 	if (!QFile::exists(default_screenshot_path)) {
-		QDir().mkpath(default_screenshot_path);
+		qDebug("Preferences::reset: creating '%s'", default_screenshot_path.toUtf8().constData());
+		if (!QDir().mkdir(default_screenshot_path)) {
+			qWarning("Preferences::reset: failed to create '%s'", default_screenshot_path.toUtf8().constData());
+		}
 	}
 	#else
 	QString default_screenshot_path = Paths::configPath() + "/screenshots";
