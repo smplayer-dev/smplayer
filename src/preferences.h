@@ -59,6 +59,7 @@ public:
 #endif
 
 	double monitor_aspect_double();
+	void setupScreenshotFolder();
 
 
 
