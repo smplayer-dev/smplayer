@@ -11,6 +11,8 @@
 (2012-02-22)
  * Now it's possible to change the opensubtitles server.
  * Opensubtitles: fix download link.
+ * Fix a crash in the favorite editor if the KDE open dialog is used 
+   (now it uses the Qt dialog).
 
 (2012-02-19)
  * Store by default the screenshots in a folder inside the user's pictures 

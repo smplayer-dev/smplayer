@@ -1,3 +1,27 @@
+Version 0.7.1.
+
+This version include some bug fixes, some of them important. It's highly
+recommended to update.
+
+Fixes:
+ * SMPlayer took more than 10 seconds to show when running for the very
+   first time.
+ * The links to download subtitles from Opensubtitles were wrong.
+ * SMPlayer crashed in the favorite editor when trying to select a file if
+   the KDE open dialog was used.
+ * Some translations were missing in the Windows package.
+
+New:
+ * By default the screenshots are saved in the user's pictures folder instead
+   of the SMPlayer's config folder.
+ * Now it's possible to change the opensubtitles server.
+ * Youtube: seeking is slow with flv videos, so now flv videos have the 
+   lowest priority.
+ * Youtube: now it's possible to search and download videos from youtube.
+   This is provided by an external application (in linux you have to install
+   an independent package: smtube).
+
+
 Version 0.7.0.
 
 Most important changes since 0.6.10:
