@@ -66,6 +66,7 @@ void FileChooser::openFileDialog() {
 
 		QString dir = QFileInfo(text()).absolutePath();
 		if (dir.isEmpty()) dir = last_dir;
+		if (dir.isEmpty()) dir = QDir::homePath();
 
 #ifndef NO_SMPLAYER_SUPPORT
 		result = MyFileDialog::getOpenFileName( 
@@ -84,6 +85,7 @@ void FileChooser::openFileDialog() {
 
 		QString dir = text();
 		if (dir.isEmpty()) dir = last_dir;
+		if (dir.isEmpty()) dir = QDir::homePath();
 
 #ifndef NO_SMPLAYER_SUPPORT
 		result = MyFileDialog::getExistingDirectory(
