@@ -59,7 +59,7 @@ ${LangFileString} Reinstall_Uninstall "既存のインストールをアンイ�
 ${LangFileString} Reinstall_Msg3_1 "続行するには [開始] をクリックします。"
 ${LangFileString} Reinstall_Msg3_2 "続行するには [次へ] をクリックします。"
 ${LangFileString} Reinstall_Msg3_3 "続行するには [アンインストール] をクリックします。"
-${LangFileString} Reinstall_Msg4 "インストールの設定の変更"
+${LangFileString} Reinstall_Msg4 "インストール設定を変更する"
 
 ${LangFileString} Type_Reinstall "再インストール"
 ${LangFileString} Type_Downgrade "ダウングレード"
