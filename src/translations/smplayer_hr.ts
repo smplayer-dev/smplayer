@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1963,11 +1965,13 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Titlovi spremljeni kao %1</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
-        <translation>%1 titl(ova) otpakirano
+        <translation type="unfinished">
+            <numerusform>%1 titl(ova) otpakirano
         
         
+        </numerusform>
         </translation>
     </message>
     <message>
@@ -2963,7 +2967,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3051,7 +3055,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -6222,14 +6226,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
         <translation>Onemogućuje server koji se koristi za komunikaciju s ostalim instancama. Ovo također onemogućuje korištenje jedne instance.</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n second(s)</source>
-        <translation>%n sekundi
+        <translation type="unfinished">
+            <numerusform>%n sekundi
+        </numerusform>
         </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation>%n minuta
+        <translation type="unfinished">
+            <numerusform>%n minuta
+        </numerusform>
         </translation>
     </message>
 </context>
