@@ -594,6 +594,7 @@ ${MementoSectionDone}
   SetShellVarContext all
   Delete "$DESKTOP\SMPlayer.lnk"
   Delete "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer.lnk"
+  Delete "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMTube.lnk"
   Delete "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer on the Web.url"
   Delete "$SMPROGRAMS\$SMPlayer_StartMenuFolder\Uninstall SMPlayer.lnk"
   RMDir "$SMPROGRAMS\$SMPlayer_StartMenuFolder"
