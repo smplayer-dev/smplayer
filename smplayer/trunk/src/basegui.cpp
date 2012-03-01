@@ -825,7 +825,7 @@ void BaseGui::createActions() {
 	connect( showPreferencesAct, SIGNAL(triggered()),
              this, SLOT(showPreferencesDialog()) );
 
-	showTubeBrowserAct = new MyAction( this, "show_tube_browser" );
+	showTubeBrowserAct = new MyAction( Qt::Key_F11, this, "show_tube_browser" );
 	connect( showTubeBrowserAct, SIGNAL(triggered()),
              this, SLOT(showTubeBrowser()) );
 

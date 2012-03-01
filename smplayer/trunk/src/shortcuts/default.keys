@@ -88,6 +88,7 @@ upload_subtitles
 show_playlist	Ctrl+L
 show_file_properties	Ctrl+I
 show_preferences	Ctrl+P
+show_tube_browser	F11
 show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
 faq	
