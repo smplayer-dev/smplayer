@@ -30,6 +30,7 @@
 
 #include <QDir>
 #include <QApplication>
+#include <QUrl>
 
 #include <stdio.h>
 
@@ -241,6 +242,11 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		}
 		else {
 			// File
+			QUrl fUrl = QUrl::fromUserInput(argument);
+			if (fUrl.isValid() && fUrl.scheme().toLower() == "file") {
+			    argument = fUrl.toLocalFile();
+			}
+
 			if (QFile::exists( argument )) {
 				argument = QFileInfo(argument).absoluteFilePath();
 			}

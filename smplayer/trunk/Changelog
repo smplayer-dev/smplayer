@@ -1,5 +1,9 @@
 [b]Version 0.7.1[/b]:
 
+(2012-03-01)
+ * Apply handle_local_urls.diff 
+   (https://sourceforge.net/tracker/?func=detail&aid=3294481&group_id=185512&atid=913575)
+
 (2012-02-27)
  * Youtube: flv videos now have the lowest priority.
 
