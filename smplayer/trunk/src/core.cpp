@@ -1637,7 +1637,7 @@ void Core::startMplayer( QString file, double seek ) {
 		#define WINIDFROMHWND(hwnd) ( ( hwnd ) - 0x80000000UL )
 		proc->addArgument( QString::number( WINIDFROMHWND( (int) mplayerwindow->videoLayer()->winId() ) ));
 #else
-		proc->addArgument( QString::number( (int) mplayerwindow->videoLayer()->winId() ) );
+		proc->addArgument( QString::number( (qint64) mplayerwindow->videoLayer()->winId() ) );
 #endif
 
 #if USE_COLORKEY
