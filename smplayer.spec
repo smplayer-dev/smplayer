@@ -1,5 +1,5 @@
 %define name    smplayer
-%define version 0.7.0
+%define version 0.7.1
 %define release rvm
 
 %define is_mandrake %(test -e /etc/mandrake-release && echo 1 || echo 0)
