@@ -199,7 +199,9 @@ QString About::getTranslators() {
 		trad(tr("Galician"), "Miguel Branco <mgl.branco@gmail.com>") +
 		trad(tr("Vietnamese"), QString::fromUtf8("Lê Xuân Thảo <thaolx@gmail.com>")) +
 		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi <olav.magi@hotmail.com>")) +
-        trad(tr("Lithuanian"), "Freemail <ricka_g@freemail.lt>") +
+        trad(tr("Lithuanian"), QStringList() 
+			<< "Freemail <ricka_g@freemail.lt>"
+			<< QString::fromUtf8("Algimantas Margevičius <margevicius.algimantas@gmail.com>") ) +
         trad(tr("Danish"), "Martin Schlander <mschlander@opensuse.org>") +
         trad(tr("Croatian"), QString::fromUtf8("Josip Kujundžija <marshsmello@gmail.com>")) +
 #ifndef TRANS_TABLE
