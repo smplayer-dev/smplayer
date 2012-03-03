@@ -783,8 +783,10 @@ void Core::openStream(QString name) {
 	qDebug("Core::openStream: '%s'", name.toUtf8().data());
 
 #if YOUTUBE_SUPPORT
-	if (name.startsWith("http://www.youtube.com/watch?v=")) {
+	if (name.contains("youtube.com/watch", Qt::CaseInsensitive)) {
 		qDebug("Core::openStream: youtube url detected");
+		if (name.startsWith("www.youtube.com")) name = "http://" + name;
+		if (name.startsWith("youtube.com")) name = "http://www." + name;
 		yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
 		yt->fetchPage(name);
 		return;
