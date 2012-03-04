@@ -637,34 +637,6 @@ ${MementoSectionDone}
 ;--------------------------------
 ;Shared functions
 
-!macro CheckUserRightsMacro UN
-Function ${UN}CheckUserRights
-
-  ClearErrors
-  UserInfo::GetName
-  ${If} ${Errors}
-    StrCpy $Is_Admin 1
-    Return
-  ${EndIf}
-
-  Pop $UserName
-  UserInfo::GetAccountType
-  Pop $R0
-  ${Switch} $R0
-    ${Case} "Admin"
-    ${Case} "Power"
-      StrCpy $Is_Admin 1
-      ${Break}
-    ${Default}
-      StrCpy $Is_Admin 0
-      ${Break}
-  ${EndSwitch}
-
-FunctionEnd
-!macroend
-!insertmacro CheckUserRightsMacro ""
-!insertmacro CheckUserRightsMacro "un."
-
 !macro RunCheckMacro UN
 Function ${UN}RunCheck
 
@@ -699,10 +671,10 @@ Function .onInit
   ;Check if SMPlayer is running
   Call RunCheck
 
-  ;Check for admin on older OSes
-  Call CheckUserRights
-
-  ${If} $Is_Admin == 0
+  ;Check for admin on < Vista
+  UserInfo::GetAccountType
+  Pop $R0
+  ${If} $R0 != "admin"
     MessageBox MB_OK|MB_ICONSTOP $(Installer_No_Admin)
     Abort
   ${EndIf}
@@ -967,10 +939,10 @@ SectionEnd
 
 Function un.onInit
 
-  ;Check for admin (mimic old Inno Setup behavior)
-  Call un.CheckUserRights
-
-  ${If} $Is_Admin == 0
+  ;Check for admin on < Vista
+  UserInfo::GetAccountType
+  Pop $R0
+  ${If} $R0 != "admin"
     MessageBox MB_OK|MB_ICONSTOP $(Uninstaller_No_Admin)
     Abort
   ${EndIf}
