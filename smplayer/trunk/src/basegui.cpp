@@ -4721,7 +4721,9 @@ void BaseGui::showVideoPreviewDialog() {
 
 void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");
-	if (!QProcess::startDetached("smtube", QStringList())) {
+	QString exec = Paths::appPath() + "/smtube";
+	qDebug("BaseGui::showTubeBrowser: '%s'", exec.toUtf8().constData());
+	if (!QProcess::startDetached(exec, QStringList())) {
 		QMessageBox::warning(this, tr("An error happened - SMPlayer"), tr("The YouTube Browser couldn't be launched"));
 	}
 }
