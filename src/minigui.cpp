@@ -31,8 +31,8 @@
 
 using namespace Global;
 
-MiniGui::MiniGui( bool use_server, QWidget * parent, Qt::WindowFlags flags )
-	: BaseGuiPlus( use_server, parent, flags )
+MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
+	: BaseGuiPlus( parent, flags )
 {
 	createActions();
 	createControlWidget();

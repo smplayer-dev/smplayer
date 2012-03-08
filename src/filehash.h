@@ -16,34 +16,16 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _SELECTCOLORBUTTON_H_
-#define _SELECTCOLORBUTTON_H_
+#ifndef FILEHASH_H
+#define FILEHASH_H
 
-#include <QPushButton>
+#include <QString>
 
-class SelectColorButton : public QPushButton
+class FileHash
 {
-	Q_OBJECT
-
 public:
-	SelectColorButton ( QWidget * parent = 0 );
-	~SelectColorButton();
 
-	QColor color() { return _color;} ;
-
-public slots:
-	void setColor(QColor c);
-
-private slots:
-	void selectColor();
-
-private:
-	QColor _color;
-
-	bool ignore_change_event;
-	
-protected:
-	virtual void changeEvent ( QEvent * event ) ;
+	static QString calculateHash(QString filename);
 };
 
 #endif

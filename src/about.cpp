@@ -60,6 +60,9 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 #if PORTABLE_APP
                 " (" + tr("Portable Edition") + ")" +
 #endif
+#ifdef EXPERIMENTAL
+        "<br>Experimental branch<br>"
+#endif
         "<br>" +
         tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br><br>" +
 		mplayer_version +

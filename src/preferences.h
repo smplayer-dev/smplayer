@@ -177,7 +177,7 @@ public:
 	int cache_for_audiocds;
 	int cache_for_tv;
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	int yt_quality;
 #endif
 
@@ -453,11 +453,9 @@ public:
     /* *********
        Instances
        ********* */
-
+#ifdef SINGLE_INSTANCE
 	bool use_single_instance;
-	int connection_port; // Manual port
-	bool use_autoport;
-	int autoport; // Port automatically chosen by Qt
+#endif
 
 
     /* ****************

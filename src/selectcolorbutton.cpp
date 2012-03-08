@@ -19,20 +19,15 @@
 #include "selectcolorbutton.h"
 #include "colorutils.h"
 #include <QColorDialog>
-
-#ifdef Q_OS_WIN
 #include <QApplication>
 #include <QStyle>
-#endif
 
 SelectColorButton::SelectColorButton( QWidget * parent ) 
 	: QPushButton(parent)
 {
 	connect(this, SIGNAL(clicked()), this, SLOT(selectColor()));
-	
-#ifdef Q_OS_WIN
+
 	ignore_change_event = false;
-#endif
 }
 
 SelectColorButton::~SelectColorButton() {
@@ -41,24 +36,26 @@ SelectColorButton::~SelectColorButton() {
 void SelectColorButton::setColor(QColor c) {
 	_color = c;
 
-#ifdef Q_OS_WIN
 	QString current_style = qApp->style()->objectName();
 	qDebug("SelectColorButton::setColor: current style name: %s", current_style.toUtf8().constData());
 
 	ignore_change_event = true;
-	
+#ifdef Q_OS_WIN
 	if ((current_style.startsWith("windowsxp")) || (current_style.startsWith("windowsvista"))) {
-		setStyleSheet( "border-width: 1px; border-style: solid; border-color: #000000; background: #" + ColorUtils::colorToRRGGBB(_color.rgb()) + ";");
+#else
+	if (current_style.startsWith("gtk")) {
+#endif
+		setStyleSheet(
+			QString("background-color: #%1; border-style: outset; "
+                    "border-width: 2px; border-radius: 5px; "
+                    "border-color: grey; padding: 3px; min-width: 4ex; min-height: 1.2ex;"
+                    ).arg(ColorUtils::colorToRRGGBB(_color.rgb())) );
 	} else {
 		setStyleSheet("");
 		ColorUtils::setBackgroundColor( this, _color );
 	}
-		
+
 	ignore_change_event = false;
-#else
-	//setAutoFillBackground(true);
-	ColorUtils::setBackgroundColor( this, _color );
-#endif
 }
 
 void SelectColorButton::selectColor() {
@@ -68,7 +65,6 @@ void SelectColorButton::selectColor() {
 	}
 }
 
-#ifdef Q_OS_WIN
 void SelectColorButton::changeEvent(QEvent *e) {
 
 	QPushButton::changeEvent(e);
@@ -78,6 +74,5 @@ void SelectColorButton::changeEvent(QEvent *e) {
 	}
 
 }
-#endif
 
 #include "moc_selectcolorbutton.cpp"

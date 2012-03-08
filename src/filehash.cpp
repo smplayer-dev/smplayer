@@ -16,35 +16,36 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _SELECTCOLORBUTTON_H_
-#define _SELECTCOLORBUTTON_H_
+#include "filehash.h"
+#include <QFile>
+#include <QDataStream>
 
-#include <QPushButton>
+// From the patch by Kamil Dziobek turbos11(at)gmail.com
+// (c) Kamil Dziobek turbos11(at)gmail.com | BSD or GPL or public domain
+QString FileHash::calculateHash(QString filename) {
+	QFile file(filename);
 
-class SelectColorButton : public QPushButton
-{
-	Q_OBJECT
+	if (!file.exists()) {
+		qWarning("OSParser:calculateHash: error hashing file. File doesn't exist.");
+		return QString();
+	}
 
-public:
-	SelectColorButton ( QWidget * parent = 0 );
-	~SelectColorButton();
+	file.open(QIODevice::ReadOnly);
+	QDataStream in(&file);
+	in.setByteOrder(QDataStream::LittleEndian);
+	quint64 size=file.size ();
+	quint64 hash=size; 
+	quint64 a;
+	for(int i = 0; i < 8192; i++) {
+		in >> a ; hash += a;
+	};
+	file.seek(size-65536);
+	for(int i = 0; i < 8192; i++) {
+		in >> a ; hash += a;
+	};
 
-	QColor color() { return _color;} ;
+	QString hexhash = QString("%1").arg(hash, 16, 16, QChar('0'));
 
-public slots:
-	void setColor(QColor c);
-
-private slots:
-	void selectColor();
-
-private:
-	QColor _color;
-
-	bool ignore_change_event;
-	
-protected:
-	virtual void changeEvent ( QEvent * event ) ;
-};
-
-#endif
+	return hexhash;
+}
 

@@ -18,7 +18,7 @@
 
 #include "filesettingshash.h"
 #include "mediasettings.h"
-#include "osparser.h" // hash function
+#include "filehash.h" // hash function
 #include <QSettings>
 #include <QFile>
 #include <QDir>
@@ -35,7 +35,7 @@ FileSettingsHash::~FileSettingsHash() {
 QString FileSettingsHash::configFile(const QString & filename, QString * output_dir) {
 	QString res;
 
-	QString hash = OSParser::calculateHash(filename);
+	QString hash = FileHash::calculateHash(filename);
 	if (!hash.isEmpty()) {
 		if (output_dir != 0) (*output_dir) = hash[0];
 		res = base_dir +"/"+ hash[0] +"/"+ hash + ".ini";

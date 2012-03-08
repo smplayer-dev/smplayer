@@ -40,7 +40,7 @@ class WinScreenSaver;
 #endif
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 class RetrieveYoutubeUrl;
 #endif
 
@@ -84,7 +84,7 @@ public slots:
 	void openAudioCD(int title = -1);
 	void openTV(QString channel_id);
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	void openYT(const QString & url);
 #endif
 
@@ -393,7 +393,7 @@ protected slots:
 
 	void initializeOSD();
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	void connectingToYT(QString host);
 	void YTFailed(QString error);
 	void YTNoVideoUrl();
@@ -475,7 +475,7 @@ protected:
 #endif
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	RetrieveYoutubeUrl * yt;
 #endif
     

@@ -1,18 +1,22 @@
 TEMPLATE = app
 LANGUAGE = C++
 
-CONFIG += qt warn_on release
+CONFIG += qt warn_on
+CONFIG += release
+#CONFIG += debug
 
 QT += network xml
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += findsubtitles videopreview mpcgui youtube
-DEPENDPATH += findsubtitles videopreview mpcgui youtube
+INCLUDEPATH += mpcgui
+DEPENDPATH += mpcgui
 
-DEFINES += USE_QTLOCKEDFILE
-
-DEFINES += DOWNLOAD_SUBS
+DEFINES += EXPERIMENTAL
+DEFINES += FIND_SUBTITLES
+DEFINES += YOUTUBE_SUPPORT
+DEFINES += SINGLE_INSTANCE
+DEFINES += VIDEOPREVIEW
 
 HEADERS += guiconfig.h \
 	config.h \
@@ -44,13 +48,13 @@ HEADERS += guiconfig.h \
 	filesettingsbase.h \
 	filesettings.h \
 	filesettingshash.h \
+	filehash.h \
 	tvsettings.h \
 	images.h \
 	inforeader.h \
 	deviceinfo.h \
 	recents.h \
 	urlhistory.h \
-	youtube/retrieveyoutubeurl.h \
 	core.h \
 	logwindow.h \
 	infofile.h \
@@ -67,6 +71,7 @@ HEADERS += guiconfig.h \
 	tristatecombo.h \
 	languages.h \
 	selectcolorbutton.h \
+	simplehttp.h \
 	prefwidget.h \
 	prefgeneral.h \
 	prefdrives.h \
@@ -90,19 +95,11 @@ HEADERS += guiconfig.h \
 	inputurl.h \
 	myaction.h \
 	myactiongroup.h \
-	myserver.h \
-	myclient.h \
 	filedialog.h \
 	inputmplayerversion.h \
 	about.h \
 	errordialog.h \
 	timedialog.h \
-	findsubtitles/simplehttp.h \
-	findsubtitles/osparser.h \
-	findsubtitles/findsubtitlesconfigdialog.h \
-	findsubtitles/findsubtitleswindow.h \
-	videopreview/videopreview.h \
-	videopreview/videopreviewconfigdialog.h \
 	favorites.h \
 	tvlist.h \
 	favoriteeditor.h \
@@ -144,13 +141,13 @@ SOURCES	+= version.cpp \
 	filesettingsbase.cpp \
 	filesettings.cpp \
 	filesettingshash.cpp \
+	filehash.cpp \
 	tvsettings.cpp \
 	images.cpp \
 	inforeader.cpp \
 	deviceinfo.cpp \
 	recents.cpp \
 	urlhistory.cpp \
-	youtube/retrieveyoutubeurl.cpp \
 	core.cpp \
 	logwindow.cpp \
 	infofile.cpp \
@@ -167,6 +164,7 @@ SOURCES	+= version.cpp \
 	tristatecombo.cpp \
 	languages.cpp \
 	selectcolorbutton.cpp \
+	simplehttp.cpp \
 	prefwidget.cpp \
 	prefgeneral.cpp \
 	prefdrives.cpp \
@@ -190,19 +188,11 @@ SOURCES	+= version.cpp \
 	inputurl.cpp \
 	myaction.cpp \
 	myactiongroup.cpp \
-	myserver.cpp \
-	myclient.cpp \
 	filedialog.cpp \
 	inputmplayerversion.cpp \
 	about.cpp \
 	errordialog.cpp \
 	timedialog.cpp \
-	findsubtitles/simplehttp.cpp \
-	findsubtitles/osparser.cpp \
-	findsubtitles/findsubtitlesconfigdialog.cpp \
-	findsubtitles/findsubtitleswindow.cpp \
-	videopreview/videopreview.cpp \
-	videopreview/videopreviewconfigdialog.cpp \
 	favorites.cpp \
 	tvlist.cpp \
 	favoriteeditor.cpp \
@@ -219,42 +209,35 @@ SOURCES	+= version.cpp \
 	smplayer.cpp \
 	main.cpp
 
-contains(DEFINES, USE_QTLOCKEDFILE) {
-	HEADERS += qtlockedfile/qtlockedfile.h
-	SOURCES += qtlockedfile/qtlockedfile.cpp
-	unix:SOURCES += qtlockedfile/qtlockedfile_unix.cpp
-	win32:SOURCES += qtlockedfile/qtlockedfile_win.cpp
-}
-
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui favoriteeditor.ui \
-        about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
-        findsubtitles/findsubtitleswindow.ui findsubtitles/findsubtitlesconfigdialog.ui \
-        videopreview/videopreviewconfigdialog.ui
+        about.ui inputmplayerversion.ui errordialog.ui timedialog.ui
 
-TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
-               translations/smplayer_sk.ts translations/smplayer_it.ts \
-               translations/smplayer_fr.ts translations/smplayer_zh_CN.ts \
-               translations/smplayer_ru_RU.ts translations/smplayer_hu.ts \
-               translations/smplayer_en_US.ts translations/smplayer_pl.ts \
-               translations/smplayer_ja.ts translations/smplayer_nl.ts \
-               translations/smplayer_uk_UA.ts translations/smplayer_pt_BR.ts \
-               translations/smplayer_ka.ts translations/smplayer_cs.ts \
-               translations/smplayer_bg.ts translations/smplayer_tr.ts \
-               translations/smplayer_sv.ts translations/smplayer_sr.ts \
-               translations/smplayer_zh_TW.ts translations/smplayer_ro_RO.ts \
-               translations/smplayer_pt.ts translations/smplayer_el_GR.ts \
-               translations/smplayer_fi.ts translations/smplayer_ko.ts \
-               translations/smplayer_mk.ts translations/smplayer_eu.ts \
-               translations/smplayer_ca.ts translations/smplayer_sl_SI.ts \
-               translations/smplayer_ar_SY.ts translations/smplayer_ku.ts \
-               translations/smplayer_gl.ts translations/smplayer_vi_VN.ts \
-               translations/smplayer_et.ts translations/smplayer_lt.ts \
-               translations/smplayer_da.ts translations/smplayer_hr.ts
+# qtsingleapplication
+contains( DEFINES, SINGLE_INSTANCE ) {
+	INCLUDEPATH += qtsingleapplication
+	DEPENDPATH += qtsingleapplication
 
+	SOURCES += qtsingleapplication.cpp qtlocalpeer.cpp
+	HEADERS += qtsingleapplication.h qtlocalpeer.h
+}
+
+# Find subtitles dialog
+contains( DEFINES, FIND_SUBTITLES ) {
+	DEFINES += DOWNLOAD_SUBS
+
+	INCLUDEPATH += findsubtitles
+	DEPENDPATH += findsubtitles
+
+	HEADERS += osparser.h findsubtitlesconfigdialog.h findsubtitleswindow.h
+	SOURCES += osparser.cpp findsubtitlesconfigdialog.cpp findsubtitleswindow.cpp
+	FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
+}
+
+# Download subtitles
 contains( DEFINES, DOWNLOAD_SUBS ) {
 	INCLUDEPATH += findsubtitles/filedownloader findsubtitles/quazip
 	DEPENDPATH += findsubtitles/filedownloader findsubtitles/quazip
@@ -288,6 +271,26 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	}
 }
 
+# Youtube support
+contains( DEFINES, YOUTUBE_SUPPORT ) {
+	INCLUDEPATH += youtube
+	DEPENDPATH += youtube
+
+	HEADERS += retrieveyoutubeurl.h
+	SOURCES += retrieveyoutubeurl.cpp
+}
+
+# Videopreview
+contains( DEFINES, VIDEOPREVIEW ) {
+	INCLUDEPATH += videopreview
+	DEPENDPATH += videopreview
+
+	HEADERS += videopreview.h videopreviewconfigdialog.h
+	SOURCES += videopreview.cpp videopreviewconfigdialog.cpp
+
+	FORMS += videopreviewconfigdialog.ui
+}
+
 unix {
 	UI_DIR = .ui
 	MOC_DIR = .moc
@@ -299,19 +302,6 @@ unix {
 	DEFINES += THEMES_PATH=$(THEMES_PATH)
 	DEFINES += SHORTCUTS_PATH=$(SHORTCUTS_PATH)
 	#DEFINES += NO_DEBUG_ON_CONSOLE
-
-	#DEFINES += KDE_SUPPORT
-	#INCLUDEPATH += /opt/kde3/include/
-	#LIBS += -lkio -L/opt/kde3/lib/
-
-	#contains( DEFINES, KDE_SUPPORT) {
-	# HEADERS += mysystemtrayicon.h
-	# SOURCES += mysystemtrayicon.cpp
-	#}
-
-	#HEADERS += prefassociations.h winfileassoc.h
-	#SOURCES += prefassociations.cpp winfileassoc.cpp
-	#FORMS += prefassociations.ui
 }
 
 win32 {
@@ -353,3 +343,24 @@ os2 {
 	}
 	RC_FILE = smplayer_os2.rc
 }
+
+
+TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
+               translations/smplayer_sk.ts translations/smplayer_it.ts \
+               translations/smplayer_fr.ts translations/smplayer_zh_CN.ts \
+               translations/smplayer_ru_RU.ts translations/smplayer_hu.ts \
+               translations/smplayer_en_US.ts translations/smplayer_pl.ts \
+               translations/smplayer_ja.ts translations/smplayer_nl.ts \
+               translations/smplayer_uk_UA.ts translations/smplayer_pt_BR.ts \
+               translations/smplayer_ka.ts translations/smplayer_cs.ts \
+               translations/smplayer_bg.ts translations/smplayer_tr.ts \
+               translations/smplayer_sv.ts translations/smplayer_sr.ts \
+               translations/smplayer_zh_TW.ts translations/smplayer_ro_RO.ts \
+               translations/smplayer_pt.ts translations/smplayer_el_GR.ts \
+               translations/smplayer_fi.ts translations/smplayer_ko.ts \
+               translations/smplayer_mk.ts translations/smplayer_eu.ts \
+               translations/smplayer_ca.ts translations/smplayer_sl_SI.ts \
+               translations/smplayer_ar_SY.ts translations/smplayer_ku.ts \
+               translations/smplayer_gl.ts translations/smplayer_vi_VN.ts \
+               translations/smplayer_et.ts translations/smplayer_lt.ts \
+               translations/smplayer_da.ts translations/smplayer_hr.ts

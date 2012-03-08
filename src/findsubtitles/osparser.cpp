@@ -18,8 +18,8 @@
 
 #include "osparser.h"
 #include <QDomDocument>
-#include <QFile>
-#include <QDataStream>
+//#include <QFile>
+//#include <QDataStream>
 
 OSParser::OSParser() {
 }
@@ -78,34 +78,5 @@ bool OSParser::parseXml(QByteArray text) {
 	}
 
 	return true;
-}
-
-// From the patch by Kamil Dziobek turbos11(at)gmail.com
-// (c) Kamil Dziobek turbos11(at)gmail.com | BSD or GPL or public domain
-QString OSParser::calculateHash(QString filename) {
-	QFile file(filename);
-
-	if (!file.exists()) {
-		qWarning("OSParser:calculateHash: error hashing file. File doesn't exist.");
-		return QString();
-	}
-
-	file.open(QIODevice::ReadOnly);
-	QDataStream in(&file);
-	in.setByteOrder(QDataStream::LittleEndian);
-	quint64 size=file.size ();
-	quint64 hash=size; 
-	quint64 a;
-	for(int i = 0; i < 8192; i++) {
-		in >> a ; hash += a;
-	};
-	file.seek(size-65536);
-	for(int i = 0; i < 8192; i++) {
-		in >> a ; hash += a;
-	};
-
-	QString hexhash = QString("%1").arg(hash, 16, 16, QChar('0'));
-
-	return hexhash;
 }
 

@@ -54,7 +54,7 @@
 #include "tvsettings.h"
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
 #endif
 
@@ -240,7 +240,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	DiscName::test();
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	yt = new RetrieveYoutubeUrl(this);
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
@@ -270,7 +270,7 @@ Core::~Core() {
 #endif
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	delete yt;
 #endif
 }
@@ -489,7 +489,7 @@ void Core::openFile(QString filename, int seek) {
 	}
 }
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 void Core::openYT(const QString & url) {
 	qDebug("Core::openYT: %s", url.toUtf8().constData());
 	openStream(url);
@@ -782,7 +782,7 @@ void Core::openTV(QString channel_id) {
 void Core::openStream(QString name) {
 	qDebug("Core::openStream: '%s'", name.toUtf8().data());
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	if (name.contains("youtube.com/watch", Qt::CaseInsensitive)) {
 		qDebug("Core::openStream: youtube url detected");
 		if (name.startsWith("www.youtube.com")) name = "http://" + name;
@@ -907,7 +907,7 @@ void Core::initPlaying(int seek) {
 	int start_sec = (int) mset.current_sec;
 	if (seek > -1) start_sec = seek;
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	// Avoid to pass to mplayer the youtube page url
 	if (mdat.type == TYPE_STREAM) {
 		if (mdat.filename == yt->origUrl()) {
@@ -1027,7 +1027,7 @@ void Core::finishRestart() {
 		mdat.demuxer = proc->mediaData().demuxer;
 	}
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	// Change the real url with the youtube page url and set the title
 	if (mdat.type == TYPE_STREAM) {
 		if (mdat.filename == yt->latestPreferredUrl()) {
@@ -1339,7 +1339,7 @@ void Core::startMplayer( QString file, double seek ) {
 		return;
     }
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	// Stop any pending request
 	qDebug("Core::startMplayer: yt state: %d", yt->state());	
 	if (yt->state() != QHttp::Unconnected) {

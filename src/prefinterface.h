@@ -45,10 +45,6 @@ public:
 	bool iconsetChanged() { return iconset_changed; };
 	bool recentsChanged() { return recents_changed; };
 	bool styleChanged() { return style_changed; };
-	bool serverPortChanged() { return port_changed; };
-
-	void setSingleInstanceTabEnabled(bool b);
-	bool singleInstanceTabEnabled();
 
 protected:
 	virtual void createHelp();
@@ -72,14 +68,10 @@ protected:
 	void setStyle(QString style);
 	QString style();
 
+#ifdef SINGLE_INSTANCE
 	void setUseSingleInstance(bool b);
 	bool useSingleInstance();
-
-	void setServerPort(int port);
-	int serverPort();
-
-	void setUseAutoPort(bool b);
-	bool useAutoPort();
+#endif
 
 	void setRecentsMaxItems(int n);
 	int recentsMaxItems();
@@ -131,7 +123,9 @@ protected:
 
 protected slots:
 	void on_changeFontButton_clicked();
+#ifdef SINGLE_INSTANCE
 	void changeInstanceImages();
+#endif
 
 protected:
 	virtual void retranslateStrings();
@@ -141,7 +135,6 @@ private:
 	bool iconset_changed;
 	bool recents_changed;
 	bool style_changed;
-	bool port_changed;
 };
 
 #endif
