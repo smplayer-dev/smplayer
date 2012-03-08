@@ -42,9 +42,10 @@ void SelectColorButton::setColor(QColor c) {
 	ignore_change_event = true;
 
 	setStyleSheet(
-		QString("background-color: #%1; border-style: outset; "
+		QString("QPushButton { background-color: #%1; border-style: outset; "
                 "border-width: 2px; border-radius: 5px; "
-                "border-color: grey; padding: 3px; min-width: 4ex; min-height: 1.2ex;"
+                "border-color: grey; padding: 3px; min-width: 4ex; min-height: 1.2ex; } "
+                "QPushButton:pressed { border-style: inset; }"
                 ).arg(ColorUtils::colorToRRGGBB(_color.rgb())) );
 
 	ignore_change_event = false;
