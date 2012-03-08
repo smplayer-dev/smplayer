@@ -1,5 +1,15 @@
 [b]Version 0.7.2[/b]:
 
+(2012-03-08)
+ * Use QtSingleApplication instead of the old client/server code to use a 
+   single instance and communication with other instances.
+ * Possibility (smplayer.pro) to disable the build of some parts of the
+   code (QtSingleApplication, Youtube support, Find subtitles and 
+   video preview).
+ * Fix: the buttons to select the color of the subtiles in preferences ->
+   subtitles may not change the background color with some styles. Now the
+   color is changed using a stylesheet, so it should work with all styles.
+
 (2012-03-03)
  * Improve detection of youtube urls.
 
