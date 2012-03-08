@@ -20,6 +20,7 @@
 #include "findsubtitlesconfigdialog.h"
 #include "simplehttp.h"
 #include "osparser.h"
+#include "filehash.h"
 #include "languages.h"
 #include <QStandardItemModel>
 #include <QSortFilterProxyModel>
@@ -243,7 +244,7 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 	file_chooser->setText(filename);
 	table->setRowCount(0);
 
-	QString hash = OSParser::calculateHash(filename);
+	QString hash = FileHash::calculateHash(filename);
 	if (hash.isEmpty()) {
 		qWarning("FindSubtitlesWindow::setMovie: hash invalid. Doing nothing.");
 	} else {

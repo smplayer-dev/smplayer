@@ -34,7 +34,7 @@
 #include <QDesktopServices>
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
 #endif
 
@@ -191,7 +191,7 @@ void Preferences::reset() {
 	cache_for_audiocds = 1000;
 	cache_for_tv = 3000;
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	yt_quality = RetrieveYoutubeUrl::MP4_360p;
 #endif
 
@@ -444,11 +444,9 @@ void Preferences::reset() {
     /* *********
        Instances
        ********* */
-
+#ifdef SINGLE_INSTANCE
 	use_single_instance = true;
-	use_autoport = true;
-	connection_port = 8000;
-	autoport = 0;
+#endif
 
 
     /* ****************
@@ -605,7 +603,7 @@ void Preferences::save() {
 	set->setValue("cache_for_audiocds", cache_for_audiocds);
 	set->setValue("cache_for_tv", cache_for_tv);
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	set->setValue("youtube_quality", yt_quality);
 #endif
 
@@ -861,13 +859,11 @@ void Preferences::save() {
     /* *********
        Instances
        ********* */
-
+#ifdef SINGLE_INSTANCE
 	set->beginGroup("instances");
 	set->setValue("single_instance_enabled", use_single_instance);
-	set->setValue("connection_port", connection_port);
-	set->setValue("use_autoport", use_autoport);
-	set->setValue("temp/autoport", autoport);
 	set->endGroup(); // instances
+#endif
 
 
     /* ****************
@@ -1034,7 +1030,7 @@ void Preferences::load() {
 	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
 	cache_for_tv = set->value("cache_for_tv", cache_for_tv).toInt();
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	yt_quality = set->value("youtube_quality", yt_quality).toInt();
 #endif
 
@@ -1297,13 +1293,11 @@ void Preferences::load() {
     /* *********
        Instances
        ********* */
-
+#ifdef SINGLE_INSTANCE
 	set->beginGroup("instances");
 	use_single_instance = set->value("single_instance_enabled", use_single_instance).toBool();
-	connection_port = set->value("connection_port", connection_port).toInt();
-	use_autoport = set->value("use_autoport", use_autoport).toBool();
-	autoport = set->value("temp/autoport", autoport).toInt();
 	set->endGroup(); // instances
+#endif
 
 
     /* ****************

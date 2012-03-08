@@ -42,15 +42,20 @@ class QLabel;
 class FilePropertiesDialog;
 class VideoEqualizer;
 class AudioEqualizer;
-class FindSubtitlesWindow;
-class VideoPreview;
 class Playlist;
+#ifdef FIND_SUBTITLES
+class FindSubtitlesWindow;
+#endif
+
+#ifdef VIDEOPREVIEW
+class VideoPreview;
+#endif
+
 
 class MyAction;
 class MyActionGroup;
 
 class PreferencesDialog;
-class MyServer;
 
 class Favorites;
 class TVList;
@@ -60,7 +65,7 @@ class BaseGui : public QMainWindow
     Q_OBJECT
     
 public:
-    BaseGui( bool use_server, QWidget* parent = 0, Qt::WindowFlags flags = 0 );
+    BaseGui( QWidget* parent = 0, Qt::WindowFlags flags = 0 );
 	~BaseGui();
 
 	/* Return true if the window shouldn't show on startup */
@@ -105,10 +110,15 @@ public slots:
 
 	void setInitialSubtitle(const QString & subtitle_file);
 
+#ifdef FIND_SUBTITLES
 	virtual void showFindSubtitlesDialog();
 	virtual void openUploadSubtitlesPage(); //turbos
+#endif
 
+#ifdef VIDEOPREVIEW
 	virtual void showVideoPreviewDialog();
+#endif
+
 	virtual void showTubeBrowser();
 
 	virtual void showPlaylist();
@@ -226,20 +236,9 @@ protected slots:
 	virtual void checkMousePos( QPoint );
 
 	// Single instance stuff
-	// Another instance request open a file
-	virtual void remoteOpen(QString);
-	virtual void remoteOpenFiles(QStringList);
-	virtual void remoteAddFiles(QStringList);
-	virtual void remoteLoadSubtitle(QString);
-	virtual void remotePlayItem(int);
-	virtual void remoteRemoveItem(int);
-	virtual void remoteMoveItem(int, int);
-	virtual void remoteViewPlaylist(QString*);
-	virtual void remoteViewStatus(QString*);
-	virtual void remoteViewClipInfo(QString*);
-	virtual void remoteSeek(double);
-	virtual void remoteGetChecked(QString, QString*);
-	virtual void remoteGetVolume(int*);
+#ifdef SINGLE_INSTANCE
+	void handleMessageFromOtherInstances(const QString& message);
+#endif
 
 	//! Called when core can't parse the mplayer version and there's no
 	//! version supplied by the user
@@ -378,7 +377,9 @@ protected:
 	MyAction * videoEqualizerAct;
 	MyAction * screenshotAct;
 	MyAction * screenshotsAct;
+#ifdef VIDEOPREVIEW
 	MyAction * videoPreviewAct;
+#endif
 	MyAction * flipAct;
 	MyAction * mirrorAct;
 	MyAction * postProcessingAct;
@@ -418,8 +419,10 @@ protected:
 	MyAction * useAssAct;
 	MyAction * useForcedSubsOnlyAct;
 	MyAction * subVisibilityAct;
+#ifdef FIND_SUBTITLES
 	MyAction * showFindSubtitlesDialogAct;
 	MyAction * openUploadSubtitlesPageAct;//turbos  
+#endif
 
 	// Menu Options
 	MyAction * showPlaylistAct;
@@ -656,13 +659,15 @@ protected:
 	Playlist * playlist;
 	VideoEqualizer * video_equalizer;
 	AudioEqualizer * audio_equalizer;
+#ifdef FIND_SUBTITLES
 	FindSubtitlesWindow * find_subs_dialog;
+#endif
+#ifdef VIDEOPREVIEW
 	VideoPreview * video_preview;
+#endif
 
 	Core * core;
 	MplayerWindow *mplayerwindow;
-
-	MyServer * server;
 
 	Favorites * favorites;
 
@@ -676,7 +681,6 @@ protected:
 	// Force settings from command line
 	int arg_close_on_finish; // -1 = not set, 1 = true, 0 = false
 	int arg_start_in_fullscreen; // -1 = not set, 1 = true, 0 = false
-	bool use_control_server;
 
 private:
 	QString default_style;

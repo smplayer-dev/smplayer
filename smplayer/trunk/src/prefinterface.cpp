@@ -66,8 +66,12 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		}
 	}
 
+#ifdef SINGLE_INSTANCE
 	connect(single_instance_check, SIGNAL(toggled(bool)), 
             this, SLOT(changeInstanceImages()));
+#else
+	tabWidget->setTabEnabled(SINGLE_INSTANCE_TAB, false);
+#endif
 
 #ifdef Q_OS_WIN
 	floating_bypass_wm_check->hide();
@@ -120,7 +124,9 @@ void PrefInterface::retranslateStrings() {
 	resize_window_icon->setPixmap( Images::icon("resize_window") );
 	/* volume_icon->setPixmap( Images::icon("speaker") ); */
 
+#ifdef SINGLE_INSTANCE
 	changeInstanceImages();
+#endif
 
 	// Seek widgets
 	seek1->setLabel( tr("&Short jump") );
@@ -170,9 +176,9 @@ void PrefInterface::setData(Preferences * pref) {
 
 	setResizeMethod( pref->resize_method );
 	setSaveSize( pref->save_window_size_on_exit );
+#ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
-	setServerPort(pref->connection_port);
-	setUseAutoPort(pref->use_autoport);
+#endif
 	setRecentsMaxItems(pref->history_recents->maxItems());
 
 	setSeeking1(pref->seeking1);
@@ -208,7 +214,6 @@ void PrefInterface::getData(Preferences * pref) {
 	language_changed = false;
 	iconset_changed = false;
 	recents_changed = false;
-	port_changed = false;
 	style_changed = false;
 
 	if (pref->language != language()) {
@@ -225,16 +230,9 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->resize_method = resizeMethod();
 	pref->save_window_size_on_exit = saveSize();
 
+#ifdef SINGLE_INSTANCE
 	pref->use_single_instance = useSingleInstance();
-	if (pref->connection_port != serverPort()) {
-		pref->connection_port = serverPort();
-		port_changed = true;
-	}
-
-	if (pref->use_autoport != useAutoPort()) {
-		pref->use_autoport = useAutoPort();
-		port_changed = true;
-	}
+#endif
 
 	if (pref->history_recents->maxItems() != recentsMaxItems()) {
 		pref->history_recents->setMaxItems( recentsMaxItems() );
@@ -347,6 +345,7 @@ QString PrefInterface::GUI() {
 	return gui_combo->itemData(gui_combo->currentIndex()).toString();
 }
 
+#ifdef SINGLE_INSTANCE
 void PrefInterface::setUseSingleInstance(bool b) {
 	single_instance_check->setChecked(b);
 	//singleInstanceButtonToggled(b);
@@ -355,31 +354,7 @@ void PrefInterface::setUseSingleInstance(bool b) {
 bool PrefInterface::useSingleInstance() {
 	return single_instance_check->isChecked();
 }
-
-void PrefInterface::setServerPort(int port) {
-	server_port_spin->setValue(port);
-}
-
-int PrefInterface::serverPort() {
-	return server_port_spin->value();
-}
-
-void PrefInterface::setUseAutoPort(bool b) {
-	automatic_port_button->setChecked(b);
-	manual_port_button->setChecked(!b);
-}
-
-bool PrefInterface::useAutoPort() {
-	return automatic_port_button->isChecked();
-}
-
-void PrefInterface::setSingleInstanceTabEnabled(bool b) {
-	tabWidget->setTabEnabled(SINGLE_INSTANCE_TAB, b);
-}
-
-bool PrefInterface::singleInstanceTabEnabled() {
-	return tabWidget->isTabEnabled(SINGLE_INSTANCE_TAB);
-}
+#endif
 
 void PrefInterface::setRecentsMaxItems(int n) {
 	recents_max_items_spin->setValue(n);
@@ -472,12 +447,14 @@ void PrefInterface::on_changeFontButton_clicked() {
 	}
 }
 
+#ifdef SINGLE_INSTANCE
 void PrefInterface::changeInstanceImages() {
 	if (single_instance_check->isChecked())
 		instances_icon->setPixmap( Images::icon("instance1") );
 	else
 		instances_icon->setPixmap( Images::icon("instance2") );
 }
+#endif
 
 void PrefInterface::setHideVideoOnAudioFiles(bool b) {
 	hide_video_window_on_audio_check->setChecked(b);
@@ -604,24 +581,14 @@ void PrefInterface::createHelp() {
            "can be a little bit slower. May not work with some video formats.") +"<br>"+
 		tr("Note: this option only works with MPlayer2") );
 
+#ifdef SINGLE_INSTANCE
 	addSectionTitle(tr("Instances"));
 
 	setWhatsThis(single_instance_check, 
         tr("Use only one running instance of SMPlayer"),
         tr("Check this option if you want to use an already running instance "
            "of SMPlayer when opening other files.") );
-
-	setWhatsThis(automatic_port_button, tr("Automatic port"),
-        tr("SMPlayer needs to listen to a port to receive commands from other "
-           "instances. If you select this option, a port will be "
-           "automatically chosen.") );
-
-	setWhatsThis(server_port_spin, tr("Manual port"),
-        tr("SMPlayer needs to listen to a port to receive commands from other "
-           "instances. You can change the port in case the default one is "
-           "used by another application.") );
-
-	manual_port_button->setWhatsThis( server_port_spin->whatsThis() );
+#endif
 
 	addSectionTitle(tr("Floating control"));
 

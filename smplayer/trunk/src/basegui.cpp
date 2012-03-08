@@ -66,14 +66,18 @@
 #include "errordialog.h"
 #include "timedialog.h"
 #include "clhelp.h"
-#include "findsubtitleswindow.h"
-#include "videopreview.h"
 #include "mplayerversion.h"
+
+#ifdef FIND_SUBTITLES
+#include "findsubtitleswindow.h"
+#endif
+
+#ifdef VIDEOPREVIEW
+#include "videopreview.h"
+#endif
 
 #include "config.h"
 #include "actionseditor.h"
-
-#include "myserver.h"
 
 #include "tvlist.h"
 
@@ -101,7 +105,7 @@
 
 using namespace Global;
 
-BaseGui::BaseGui( bool use_server, QWidget* parent, Qt::WindowFlags flags ) 
+BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
 	: QMainWindow( parent, flags ),
 		near_top(false),
 		near_bottom(false)
@@ -114,18 +118,20 @@ BaseGui::BaseGui( bool use_server, QWidget* parent, Qt::WindowFlags flags )
 
 	arg_close_on_finish = -1;
 	arg_start_in_fullscreen = -1;
-	use_control_server = use_server;
 
 	setWindowTitle( "SMPlayer" );
 
 	// Not created objects
-	server = 0;
 	popup = 0;
 	pref_dialog = 0;
 	file_dialog = 0;
 	clhelp_window = 0;
+#ifdef FIND_SUBTITLES
 	find_subs_dialog = 0;
+#endif
+#ifdef VIDEOPREVIEW
 	video_preview = 0;
+#endif
 
 	// Create objects:
 	createPanel();
@@ -200,179 +206,47 @@ void BaseGui::initializeGui() {
 	QTimer::singleShot(20, this, SLOT(loadActions()));
 
 	// Single instance
-	if (use_control_server) {
-		server = new MyServer(this);
-		connect(server, SIGNAL(receivedOpen(QString)),
-	            this, SLOT(remoteOpen(QString)));
-		connect(server, SIGNAL(receivedOpenFiles(QStringList)),
-	            this, SLOT(remoteOpenFiles(QStringList)));
-		connect(server, SIGNAL(receivedAddFiles(QStringList)),
-	            this, SLOT(remoteAddFiles(QStringList)));
-		connect(server, SIGNAL(receivedFunction(QString)),
-	            this, SLOT(processFunction(QString)));	
-		connect(server, SIGNAL(receivedLoadSubtitle(QString)),	
-	            this, SLOT(remoteLoadSubtitle(QString)));
-		connect(server, SIGNAL(receivedPlayItem(int)),
-				this, SLOT(remotePlayItem(int)));
-		connect(server, SIGNAL(receivedRemoveItem(int)),
-				this, SLOT(remoteRemoveItem(int)));
-		connect(server, SIGNAL(receivedViewPlaylist(QString*)),
-				this, SLOT(remoteViewPlaylist(QString*)));
-		connect(server, SIGNAL(receivedViewStatus(QString*)),
-				this, SLOT(remoteViewStatus(QString*)));
-		connect(server, SIGNAL(receivedViewClipInfo(QString*)),
-				this, SLOT(remoteViewClipInfo(QString*)));
-		connect(server, SIGNAL(receivedSeek(double)),
-				this, SLOT(remoteSeek(double)));
-		connect(server, SIGNAL(receivedGetChecked(QString,QString*)),
-				this, SLOT(remoteGetChecked(QString,QString*)));
-		connect(server, SIGNAL(receivedMoveItem(int,int)),
-				this, SLOT(remoteMoveItem(int,int)));
-		connect(server, SIGNAL(receivedGetVolume(int*)),
-				this, SLOT(remoteGetVolume(int*)));
-		connect(server, SIGNAL(receivedSetVolume(int)),
-				core, SLOT(setVolume(int)));
+	/* Deleted */
+}
 
-		if (pref->use_single_instance) {
-			int port = 0;
-			if (!pref->use_autoport) port = pref->connection_port;
-			if (server->listen(port)) {
-				pref->autoport = server->serverPort();
-				pref->save();
-				qDebug("BaseGui::initializeGui: server running on port %d", pref->autoport);
-			} else {
-				qWarning("BaseGui::initializeGui: server couldn't be started");
+#ifdef SINGLE_INSTANCE
+void BaseGui::handleMessageFromOtherInstances(const QString& message) {
+	qDebug("BaseGui::handleMessageFromOtherInstances: '%s'", message.toUtf8().constData());
+
+	int pos = message.indexOf(' ');
+	if (pos > -1) {
+		QString command = message.left(pos);
+		QString arg = message.mid(pos+1);
+		qDebug("command: '%s'", command.toUtf8().constData());
+		qDebug("arg: '%s'", arg.toUtf8().constData());
+
+		if (command == "open_file") {
+			open(arg);
+		} 
+		else
+		if (command == "open_files") {
+			QStringList file_list = arg.split(" <<sep>> ");
+			openFiles(file_list);
+		}
+		else
+		if (command == "add_to_playlist") {
+			QStringList file_list = arg.split(" <<sep>> ");
+			playlist->addFiles(file_list);
+		}
+		else
+		if (command == "action") {
+			processFunction(arg);
+		}
+		else
+		if (command == "load_sub") {
+			setInitialSubtitle(arg); 
+			if (core->state() != Core::Stopped) {
+				core->loadSub(arg);
 			}
 		}
 	}
 }
-
-void BaseGui::remotePlayItem(int index){
-	qDebug("BaseGui::remotePlay: '%s'", QString::number((index)).toUtf8().data());
-	if (isMinimized()) showNormal();
-	if (!isVisible()) show();
-	raise();
-	activateWindow();
-	playlist->playItem(index);
-}
-
-void BaseGui::remoteRemoveItem(int index){
-	qDebug("BaseGui::remoteRemove: '%s'", QString::number((index)).toUtf8().data());
-	if (isMinimized()) showNormal();
-	if (!isVisible()) show();
-	raise();
-	activateWindow();
-
-	if(index == -1)
-		playlist->removeAll();
-	else
-		playlist->remove(index);
-}
-
-void BaseGui::remoteMoveItem(int index, int shift){
-	qDebug("BaseGui::remoteRemove: '%s'", QString::number((index)).toUtf8().data());
-	if (isMinimized()) showNormal();
-	if (!isVisible()) show();
-	raise();
-	activateWindow();
-
-	int step = shift / abs(shift);
-	for(int i = index; i != (index + shift); i += step){
-		if(step == -1 && index == 0) break;
-		if(step == +1 && index == (playlist->count() - 1)) break;
-
-		if(step == -1) playlist->moveItemUp(index);
-		if(step == +1) playlist->moveItemDown(index);
-	} //end for
-}
-
-void BaseGui::remoteOpen(QString file) {
-	qDebug("BaseGui::remoteOpen: '%s'", file.toUtf8().data());
-	if (isMinimized()) showNormal();
-	if (!isVisible()) show();
-	raise();
-	activateWindow();
-	open(file);
-}
-
-void BaseGui::remoteOpenFiles(QStringList files) {
-	qDebug("BaseGui::remoteOpenFiles");
-	if (isMinimized()) showNormal();
-	if (!isVisible()) show();
-	raise();
-	activateWindow();
-	openFiles(files);
-}
-
-void BaseGui::remoteAddFiles(QStringList files) {
-	qDebug("BaseGui::remoteAddFiles");
-	if (isMinimized()) showNormal();
-	if (!isVisible()) show();
-	raise();
-	activateWindow();
-
-	playlist->addFiles(files);
-	//open(files[0]);
-}
-
-void BaseGui::remoteLoadSubtitle(QString file) {
-	qDebug("BaseGui::remoteLoadSubtitle: '%s'", file.toUtf8().data());
-
-	setInitialSubtitle(file);
-
-	if (core->state() != Core::Stopped) {
-		core->loadSub(file);
-	}
-}
-
-void BaseGui::remoteViewPlaylist(QString * output){
-	qDebug("BaseGui::remoteViewPlaylist");
-	*output += playlist->print("\t");
-}
-
-void BaseGui::remoteViewStatus(QString * output){
-	qDebug("BaseGui::remoteViewStatus");
-	*output = core->stateToString();
-}
-
-void BaseGui::remoteViewClipInfo(QString * output){
-	qDebug("BaseGui::remoteViewClipInfo");
-
-	*output += QString("%1\t%2\r\n").arg("Filename", core->mdat.filename);
-	*output += QString("%1\t%2\r\n").arg("Position", QString::number(core->mset.current_sec));
-	*output += QString("%1\t%2\r\n").arg("Duration", QString::number(core->mdat.duration));
-
-	*output += QString("%1\t%2\r\n").arg("Title", core->mdat.clip_name);
-	*output += QString("%1\t%2\r\n").arg("Artist", core->mdat.clip_artist);
-	*output += QString("%1\t%2\r\n").arg("Author", core->mdat.clip_author);
-	*output += QString("%1\t%2\r\n").arg("Album", core->mdat.clip_album);
-	*output += QString("%1\t%2\r\n").arg("Genre", core->mdat.clip_genre);
-	*output += QString("%1\t%2\r\n").arg("Date", core->mdat.clip_date);
-	*output += QString("%1\t%2\r\n").arg("Track", core->mdat.clip_track);
-	*output += QString("%1\t%2\r\n").arg("Copyright", core->mdat.clip_copyright);
-	*output += QString("%1\t%2\r\n").arg("Comment", core->mdat.clip_comment);
-	*output += QString("%1\t%2\r\n").arg("Software", core->mdat.clip_software);
-}
-
-void BaseGui::remoteSeek(double sec){
-	qDebug("BaseGui::remoteSeek");
-	core->goToSec(sec);
-}
-
-void BaseGui::remoteGetChecked(QString function, QString* output){
-	qDebug("BaseGui::remoteGet");
-
-	QAction* action = ActionsEditor::findAction(this, function);
-	if(! action) action = ActionsEditor::findAction(playlist, function);
-	if(! action) return;
-
-	bool value = (action->isCheckable() ? action->isChecked() : action->isEnabled());
-	*output = (value ? "true" : "false");
-}
-
-void BaseGui::remoteGetVolume(int *vol){
-	*vol = (pref->global_volume ? pref->volume : core->mset.volume);
-}
+#endif
 
 BaseGui::~BaseGui() {
 	delete core; // delete before mplayerwindow, otherwise, segfault...
@@ -390,14 +264,18 @@ BaseGui::~BaseGui() {
 	}
 //#endif
 
+#ifdef FIND_SUBTITLES
 	if (find_subs_dialog) {
 		delete find_subs_dialog;
 		find_subs_dialog = 0; // Necessary?
 	}
+#endif
 
+#ifdef VIDEOPREVIEW
 	if (video_preview) {
 		delete video_preview;
 	}
+#endif
 }
 
 void BaseGui::createActions() {
@@ -627,9 +505,11 @@ void BaseGui::createActions() {
 	connect( screenshotsAct, SIGNAL(triggered()),
              core, SLOT(screenshots()) );
 
+#ifdef VIDEOPREVIEW
 	videoPreviewAct = new MyAction( this, "video_preview" );
 	connect( videoPreviewAct, SIGNAL(triggered()),
              this, SLOT(showVideoPreviewDialog()) );
+#endif
 
 	flipAct = new MyAction( this, "flip" );
 	flipAct->setCheckable( true );
@@ -802,6 +682,7 @@ void BaseGui::createActions() {
 	subVisibilityAct->setCheckable(true);
 	connect( subVisibilityAct, SIGNAL(toggled(bool)), core, SLOT(changeSubVisibility(bool)) );
 
+#ifdef FIND_SUBTITLES
 	showFindSubtitlesDialogAct = new MyAction( this, "show_find_sub_dialog" );
 	connect( showFindSubtitlesDialogAct, SIGNAL(triggered()), 
              this, SLOT(showFindSubtitlesDialog()) );
@@ -809,7 +690,7 @@ void BaseGui::createActions() {
 	openUploadSubtitlesPageAct = new MyAction( this, "upload_subtitles" );		//turbos
 	connect( openUploadSubtitlesPageAct, SIGNAL(triggered()),					//turbos
              this, SLOT(openUploadSubtitlesPage()) );							//turbos
-
+#endif
 
 	// Menu Options
 	showPlaylistAct = new MyAction( QKeySequence("Ctrl+L"), this, "show_playlist" );
@@ -1551,7 +1432,9 @@ void BaseGui::retranslateStrings() {
 	videoEqualizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	screenshotsAct->change( Images::icon("screenshots"), tr("Start/stop takin&g screenshots") );
+#ifdef VIDEOPREVIEW
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
+#endif
 	flipAct->change( Images::icon("flip"), tr("Fli&p image") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
 
@@ -1617,8 +1500,10 @@ void BaseGui::retranslateStrings() {
 
 	subVisibilityAct->change( Images::icon("sub_visibility"), tr("Subtitle &visibility") );
 
+#ifdef FIND_SUBTITLES
 	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("Find subtitles on &OpenSubtitles.org...") );
 	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to OpenSubtitles.org...") );
+#endif
 
 	ccNoneAct->change( tr("&Off") );
 	ccChannel1Act->change( "&1" );
@@ -2356,8 +2241,10 @@ void BaseGui::createMenus() {
 
 	videoMenu->addMenu(ontop_menu);
 
+#ifdef VIDEOPREVIEW
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoPreviewAct);
+#endif
 
 
     // AUDIO MENU
@@ -2446,9 +2333,11 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addAction(subVisibilityAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useAssAct);
+#ifdef FIND_SUBTITLES
 	subtitlesMenu->addSeparator(); //turbos
 	subtitlesMenu->addAction(showFindSubtitlesDialogAct);
 	subtitlesMenu->addAction(openUploadSubtitlesPageAct); //turbos
+#endif
 
 	// BROWSE MENU
 	// Titles submenu
@@ -2648,9 +2537,6 @@ void BaseGui::showPreferencesDialog() {
 	pl->setSavePlaylistOnExit(playlist->savePlaylistOnExit());
 	pl->setPlayFilesFromStart(playlist->playFilesFromStart());
 
-	PrefInterface * pi = pref_dialog->mod_interface();
-	pi->setSingleInstanceTabEnabled( use_control_server );
-
 	pref_dialog->show();
 }
 
@@ -2687,31 +2573,6 @@ void BaseGui::applyNewPreferences() {
 #if ALLOW_CHANGE_STYLESHEET
 		changeStyleSheet(pref->iconset);
 #endif
-	}
-
-	if (use_control_server) {
-		if (!pref->use_single_instance && server->isListening()) {
-			server->close();
-			qDebug("BaseGui::applyNewPreferences: server closed");
-		}
-		else
-		{
-			bool server_requires_restart = _interface->serverPortChanged();
-			if (pref->use_single_instance && !server->isListening()) 
-				server_requires_restart=true;
-
-			if (server_requires_restart) {
-				server->close();
-				int port = 0;
-				if (!pref->use_autoport) port = pref->connection_port;
-				if (server->listen(port)) {
-					pref->autoport = server->serverPort();
-					qDebug("BaseGui::applyNewPreferences: server running on port %d", pref->autoport);
-				} else {
-					qWarning("BaseGui::applyNewPreferences: server couldn't be started");
-				}
-			}
-		}
 	}
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
@@ -4567,8 +4428,6 @@ void BaseGui::loadActions() {
 #if !DOCK_PLAYLIST
 	actions_list += ActionsEditor::actionsNames(playlist);
 #endif
-
-	if (server) server->setActionsList( actions_list );
 }
 
 void BaseGui::saveActions() {
@@ -4661,6 +4520,7 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 }
 
 
+#ifdef FIND_SUBTITLES
 void BaseGui::showFindSubtitlesDialog() {
 	qDebug("BaseGui::showFindSubtitlesDialog");
 
@@ -4683,7 +4543,9 @@ void BaseGui::openUploadSubtitlesPage() {
 	//QDesktopServices::openUrl( QUrl("http://www.opensubtitles.com/upload") );
 	QDesktopServices::openUrl( QUrl("http://www.opensubtitles.org/uploadjava") );
 }
+#endif
 
+#ifdef VIDEOPREVIEW
 void BaseGui::showVideoPreviewDialog() {
 	qDebug("BaseGui::showVideoPreviewDialog");
 
@@ -4718,6 +4580,7 @@ void BaseGui::showVideoPreviewDialog() {
 		video_preview->adjustWindowSize();
 	}
 }
+#endif
 
 void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");

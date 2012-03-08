@@ -22,7 +22,7 @@
 #include "global.h"
 #include "preferences.h"
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
 #endif
 
@@ -42,7 +42,7 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	fast_chapter_check->hide();
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	yt_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
 
 	yt_quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
@@ -115,7 +115,7 @@ void PrefPerformance::setData(Preferences * pref) {
 	setFastAudioSwitching( pref->fast_audio_change );
 	setThreads( pref->threads );
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	setYTQuality( pref->yt_quality );
 #endif
 }
@@ -141,7 +141,7 @@ void PrefPerformance::getData(Preferences * pref) {
 	pref->fast_audio_change = fastAudioSwitching();
 	TEST_AND_SET(pref->threads, threads());
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	pref->yt_quality = YTQuality();
 #endif
 }
@@ -260,7 +260,7 @@ int PrefPerformance::threads() {
 	return threads_spin->value();
 }
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 void PrefPerformance::setYTQuality(int q) {
 	yt_quality_combo->setCurrentIndex(yt_quality_combo->findData(q));
 }
@@ -329,7 +329,7 @@ void PrefPerformance::createHelp() {
            "but it might not work with some discs.") );
 #endif
 
-#if YOUTUBE_SUPPORT
+#ifdef YOUTUBE_SUPPORT
 	setWhatsThis(yt_quality_combo, tr("Youtube quality"),
 		tr("Select the preferred quality for youtube videos.") );
 #endif

@@ -10,6 +10,7 @@ DEPENDPATH += ..
 
 HEADERS += simplehttp.h \
            osparser.h \
+           ../filehash.h \
            ../lineedit_with_icon.h \
            ../filechooser.h \
            ../languages.h \
@@ -18,6 +19,7 @@ HEADERS += simplehttp.h \
 
 SOURCES += simplehttp.cpp \
            osparser.cpp \
+           ../filehash.cpp \
            ../lineedit_with_icon.cpp \
            ../filechooser.cpp \
            ../languages.cpp \

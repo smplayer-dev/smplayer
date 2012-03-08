@@ -87,7 +87,7 @@ QString CLHelp::help(bool html) {
                         "[-send-action %3] [-actions %4] "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
                         "[-sub %5] [-pos x y] [-size %6 %7] "
-                        "[-add-to-playlist] [-disable-server] [-help|--help|-h|-?] "
+                        "[-add-to-playlist] [-help|--help|-h|-?] "
                         "[%8] [%8]...")
                         .arg(app_name)
                         .arg(QObject::tr("directory"))
@@ -168,10 +168,6 @@ QString CLHelp::help(bool html) {
         "to that instance's playlist. If there's no other instance, "
         "this option will be ignored and the "
         "files will be opened in a new instance."), html );
-
-	s += formatHelp( "-disable-server", QObject::tr(
-		"Disables the server used to communicate with other instances. "
-		"This disables too the possibility to use a single instance."), html );
 
 	s += formatHelp( QObject::tr("media"), QObject::tr(
 		"'media' is any kind of file that SMPlayer can open. It can "

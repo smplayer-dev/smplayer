@@ -35,7 +35,7 @@ class MiniGui : public BaseGuiPlus
 	Q_OBJECT
 
 public:
-	MiniGui( bool use_server, QWidget* parent = 0, Qt::WindowFlags flags = 0 );
+	MiniGui( QWidget* parent = 0, Qt::WindowFlags flags = 0 );
 	~MiniGui();
 
 #if USE_MINIMUMSIZE
