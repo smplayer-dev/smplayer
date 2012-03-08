@@ -17,73 +17,69 @@
 
     -------------------------------------------------------------------------
 
-SMPlayer intends to be a complete front-end for MPlayer, from basic
-features like playing videos, DVDs, and VCDs to more advanced features
-like support for MPlayer filters and more.
+    SMPlayer intends to be a complete front-end for MPlayer, from basic
+    features like playing videos, DVDs, and VCDs to more advanced features
+    like support for MPlayer filters and more.
 
-...
+    Well, you've probably read the rest in the web, haven't you?
 
-Well, you've probably read the rest in the web, haven't you?
+    To know how to compile and install smplayer please read Install.txt.
 
-To the point:
+    There's available an optional package called smplayer-themes. It contains
+    some icon themes for smplayer and it's highly recommended that you install
+    it too.
 
-To know how to compile and install smplayer please read Install.txt.
+    Visit the web for updates:
+    http://smplayer.berlios.de
+    http://smplayer.sourceforge.net
 
-There's available an optional package called smplayer-themes. It contains
-some icon themes for smplayer and it's highly recommended that you install it 
-too.
-
-Visit the web for updates:
-http://smplayer.berlios.de
-http://smplayer.sourceforge.net
-
-Forum:
-http://smplayer.berlios.de/forum
+    Forum:
+    http://smplayer.berlios.de/forum
 
     -------------------------------------------------------------------------
 
-Third-party:
+    Third-party:
 
- * QuaZIP (a library to open Zip files) by Sergey A. Tachenov
-   url: http://quazip.sourceforge.net/
-   license: GPL (see src/findsubtitles/quazip/COPYING.readme for details)
-   This library also includes code by Gilles Vollant, with the same
-   license as zlib. See src/findsubtitles/quazip/zip.h for details.
+     * QuaZIP (a library to open Zip files) by Sergey A. Tachenov
+       url: http://quazip.sourceforge.net/
+       license: GPL (see src/findsubtitles/quazip/COPYING.readme for details)
+       This library also includes code by Gilles Vollant, with the same
+       license as zlib. See src/findsubtitles/quazip/zip.h for details.
 
- * QtLockedFile from Qt Solutions.
-   url: http://qt.gitorious.org/qt-solutions
-   license: BSD (see src/qtlockedfile/qtlockedfile.h)
+     * QtSingleApplication from Qt Solutions.
+       url: http://qt.gitorious.org/qt-solutions
+       license: BSD (see src/qtsingleapplication/qtsingleapplication.h)
 
-I took some icons from:
+    I took some icons from:
 
- * nuvoX
-   url: http://www.kde-look.org/content/show.php/nuvoX?content=38467
-   license: GPL
+     * nuvoX
+       url: http://www.kde-look.org/content/show.php/nuvoX?content=38467
+       license: GPL
 
- * Vista-Inspirate 
-    url: http://www.kde-look.org/content/show.php/Vista-Inspirate?content=31585
-    license: GPL
+     * Vista-Inspirate 
+        url: http://www.kde-look.org/content/show.php/Vista-Inspirate?content=31585
+        license: GPL
 
- * Crystal Clear
-    url: http://www.kde-look.org/content/show.php/Crystal+Clear?content=25668
-    license: LGPL
+     * Crystal Clear
+        url: http://www.kde-look.org/content/show.php/Crystal+Clear?content=25668
+        license: LGPL
 
- * ricebowl-0.2.0
-    url: http://www.deviantart.com/deviation/22605468/
-    license: LGPL 
+     * ricebowl-0.2.0
+        url: http://www.deviantart.com/deviation/22605468/
+        license: LGPL 
 
- * rulesPlayer
-   url: http://www.dsource.org/projects/rulesplayer
-   license: "use without restrictions at your own risk"
+     * rulesPlayer
+       url: http://www.dsource.org/projects/rulesplayer
+       license: "use without restrictions at your own risk"
 
- * mplayer (gmplayer)
-   url: http://www.mplayerhq.hu/design7/news.html
-   license: GPL
+     * mplayer (gmplayer)
+       url: http://www.mplayerhq.hu/design7/news.html
+       license: GPL
 
- * kplayer
-   url: http://kplayer.sourceforge.net/
-   license: GPL
+     * kplayer
+       url: http://kplayer.sourceforge.net/
+       license: GPL
 
- * Gimp
-   url: http://www.gimp.org/
-   license: GPL
+     * Gimp
+       url: http://www.gimp.org/
+       license: GPL
