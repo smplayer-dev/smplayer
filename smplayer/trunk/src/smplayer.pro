@@ -13,10 +13,10 @@ INCLUDEPATH += mpcgui
 DEPENDPATH += mpcgui
 
 #DEFINES += EXPERIMENTAL
-DEFINES += FIND_SUBTITLES
-DEFINES += YOUTUBE_SUPPORT
 DEFINES += SINGLE_INSTANCE
+DEFINES += FIND_SUBTITLES
 DEFINES += VIDEOPREVIEW
+DEFINES += YOUTUBE_SUPPORT
 
 HEADERS += guiconfig.h \
 	config.h \
@@ -112,8 +112,9 @@ HEADERS += guiconfig.h \
 	minigui.h \
 	mpcgui/mpcgui.h \
 	mpcgui/mpcstyles.h \
+	clhelp.h \
 	smplayer.h \
-	clhelp.h
+	myapplication.h
 
 
 SOURCES	+= version.cpp \
@@ -207,6 +208,7 @@ SOURCES	+= version.cpp \
 	mpcgui/mpcstyles.cpp \
 	clhelp.cpp \
 	smplayer.cpp \
+	myapplication.cpp \
 	main.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \

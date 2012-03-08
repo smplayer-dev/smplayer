@@ -16,14 +16,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifdef SINGLE_INSTANCE
-#include "QtSingleApplication"
-#define APPLICATION_PARENT QtSingleApplication
-#else
-#include <QApplication>
-#define APPLICATION_PARENT QApplication
-#endif
-
+#include "myapplication.h"
 #include <QFile>
 #include <QTime>
 #include <QDir>
@@ -122,19 +115,9 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 	}
 }
 
-
-class MyApplication : public APPLICATION_PARENT
-{
-public:
-	MyApplication ( int & argc, char ** argv ) : APPLICATION_PARENT(argc, argv) {};
-	virtual void commitData ( QSessionManager & /*manager*/ ) {
-		// Nothing to do, let the application to close
-	}
-};
-
 int main( int argc, char ** argv ) 
 {
-	MyApplication a( argc, argv );
+	MyApplication a( "smplayer", argc, argv );
 	/*
 	if (a.isRunning()) { 
 		qDebug("Another instance is running. Exiting.");
