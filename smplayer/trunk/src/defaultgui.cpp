@@ -136,6 +136,13 @@ void DefaultGui::createActions() {
 	viewFrameCounterAct->setCheckable( true );
 	connect( viewFrameCounterAct, SIGNAL(toggled(bool)),
              frame_display, SLOT(setVisible(bool)) );
+
+#ifdef TOOLBAR_EDITOR
+	editToolbarAct = new MyAction( Qt::Key_F12, this, "edit_toolbar" );
+	editToolbarAct->change( "toolbar editor" );
+	connect( editToolbarAct, SIGNAL(triggered()),
+             this, SLOT(editToolbar()) );
+#endif
 }
 
 #if AUTODISABLE_ACTIONS
@@ -168,6 +175,10 @@ void DefaultGui::createMenus() {
 	statusbar_menu->addAction(viewFrameCounterAct);
 
 	optionsMenu->addMenu(statusbar_menu);
+
+#ifdef TOOLBAR_EDITOR
+	optionsMenu->addAction(editToolbarAct);
+#endif
 }
 
 QMenu * DefaultGui::createPopupMenu() {
@@ -761,5 +772,18 @@ void DefaultGui::loadConfig() {
 		
 	updateWidgets();
 }
+
+#ifdef TOOLBAR_EDITOR
+void DefaultGui::editToolbar() {
+	qDebug("DefaultGui::editToolbar");
+
+	QList<QAction *> actions_list = findChildren<QAction *>();
+
+	ToolbarEditor e(this);
+	e.setAllActions(actions_list);
+	e.setActiveActions(toolbar1->actions());
+	e.exec();
+}
+#endif
 
 #include "moc_defaultgui.cpp"

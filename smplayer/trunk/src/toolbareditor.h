@@ -23,20 +23,33 @@
 #include <QWidget>
 #include <QList>
 #include <QAction>
+#include "ui_toolbareditor.h"
 
-class ToolbarEditor 
+class QListWidget;
+
+class ToolbarEditor : public QDialog, public Ui::ToolbarEditor
 {
+	Q_OBJECT
+
 public:
+
+	ToolbarEditor( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	~ToolbarEditor();
+
+	void setAllActions(QList<QAction *> actions_list);
+	void setActiveActions(QList<QAction *> actions_list);
 
 	//! Save the widget's list of actions into a QStringList 
 	static QStringList save(QWidget *w);
 
-	//! Added to the widget the actions specified in l. actions_list is
+	//! Add to the widget the actions specified in l. actions_list is
 	//! the list of all available actions
 	static void load(QWidget *w, QStringList l, QList<QAction *> actions_list);
 
 protected:
 	static QAction * findAction(QString s, QList<QAction *> actions_list);
+
+	void populateList(QListWidget * w, QList<QAction *> actions_list);
 };
 
 #endif
