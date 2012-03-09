@@ -17,6 +17,7 @@ DEFINES += SINGLE_INSTANCE
 DEFINES += FIND_SUBTITLES
 DEFINES += VIDEOPREVIEW
 DEFINES += YOUTUBE_SUPPORT
+DEFINES += TOOLBAR_EDITOR
 
 HEADERS += guiconfig.h \
 	config.h \
@@ -216,7 +217,8 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui favoriteeditor.ui \
-        about.ui inputmplayerversion.ui errordialog.ui timedialog.ui
+        about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
+        toolbareditor.ui
 
 # qtsingleapplication
 contains( DEFINES, SINGLE_INSTANCE ) {

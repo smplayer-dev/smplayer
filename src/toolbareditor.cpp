@@ -21,6 +21,45 @@
 #include <QToolBar>
 #include <QToolButton>
 
+#include "images.h"
+
+ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
+	: QDialog(parent, f)
+{
+	setupUi(this);
+
+	up_button->setIcon(Images::icon("up"));
+	down_button->setIcon(Images::icon("down"));
+}
+
+ToolbarEditor::~ToolbarEditor() {
+}
+
+void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list) {
+	w->clear();
+
+	QAction * action;
+	for (int n = 0; n < actions_list.count(); n++) {
+		action = static_cast<QAction*> (actions_list[n]);
+		if (!action->objectName().isEmpty()) {
+			QListWidgetItem * i = new QListWidgetItem(w);
+			QString text = action->text().replace("&", "");
+			i->setText(text + " ("+ action->objectName() +")");
+			i->setIcon(action->icon());
+			i->setData(Qt::UserRole, action->objectName());
+			w->addItem(i);
+		}
+	}
+}
+
+void ToolbarEditor::setAllActions(QList<QAction *> actions_list) {
+	populateList(all_actions_list, actions_list);
+}
+
+void ToolbarEditor::setActiveActions(QList<QAction *> actions_list) {
+	populateList(active_actions_list, actions_list);
+}
+
 QStringList ToolbarEditor::save(QWidget * w) {
 	qDebug("ToolbarEditor::save: '%s'", w->objectName().toUtf8().data());
 
@@ -92,3 +131,4 @@ QAction * ToolbarEditor::findAction(QString s, QList<QAction *> actions_list) {
 	return 0;
 }
 
+#include "moc_toolbareditor.cpp"
