@@ -35,7 +35,7 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
 ToolbarEditor::~ToolbarEditor() {
 }
 
-void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list) {
+void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list, bool add_separators) {
 	w->clear();
 
 	QAction * action;
@@ -49,15 +49,40 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list)
 			i->setData(Qt::UserRole, action->objectName());
 			w->addItem(i);
 		}
+		else
+		if ((action->isSeparator()) && (add_separators)) {
+			QListWidgetItem * i = new QListWidgetItem(w);
+			i->setText(tr("(separator)"));
+			i->setData(Qt::UserRole, "separator");
+			w->addItem(i);
+		}
 	}
 }
 
 void ToolbarEditor::setAllActions(QList<QAction *> actions_list) {
-	populateList(all_actions_list, actions_list);
+	populateList(all_actions_list, actions_list, false);
 }
 
 void ToolbarEditor::setActiveActions(QList<QAction *> actions_list) {
-	populateList(active_actions_list, actions_list);
+	populateList(active_actions_list, actions_list, true);
+
+	// Delete actions from the "all list" which are in the active list
+	for (int n = 0; n < active_actions_list->count(); n++) {
+		int row = findItem( active_actions_list->item(n)->data(Qt::UserRole).toString(), all_actions_list );
+		if (row > -1) {
+			qDebug("found: %s", active_actions_list->item(n)->data(Qt::UserRole).toString().toUtf8().constData());
+			all_actions_list->takeItem(row);
+		}
+	}
+}
+
+int ToolbarEditor::findItem(const QString & action_name, QListWidget * w) {
+	for (int n = 0; n < w->count(); n++) {
+		if (w->item(n)->data(Qt::UserRole).toString() == action_name) {
+			return n;
+		}
+	}
+	return -1;
 }
 
 void ToolbarEditor::on_up_button_clicked() {
@@ -98,7 +123,9 @@ void ToolbarEditor::on_left_button_clicked() {
 
 	if (row > -1) {
 		QListWidgetItem * current = active_actions_list->takeItem(row);
-		all_actions_list->addItem(current);
+		if (current->data(Qt::UserRole).toString() != "separator") {
+			all_actions_list->addItem(current);
+		}
 	}
 }
 
