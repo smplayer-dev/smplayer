@@ -60,6 +60,28 @@ void ToolbarEditor::setActiveActions(QList<QAction *> actions_list) {
 	populateList(active_actions_list, actions_list);
 }
 
+void ToolbarEditor::on_up_button_clicked() {
+	int row = active_actions_list->currentRow();
+	qDebug("ToolbarEditor::on_up_button_clicked: current_row: %d", row);
+
+	if (row == 0) return;
+
+	QListWidgetItem * current = active_actions_list->takeItem(row);
+	active_actions_list->insertItem(row-1, current);
+	active_actions_list->setCurrentRow(row-1);
+}
+
+void ToolbarEditor::on_down_button_clicked() {
+	int row = active_actions_list->currentRow();
+	qDebug("ToolbarEditor::on_down_button_clicked: current_row: %d", row);
+
+	if ((row+1) >= active_actions_list->count()) return;
+
+	QListWidgetItem * current = active_actions_list->takeItem(row);
+	active_actions_list->insertItem(row+1, current);
+	active_actions_list->setCurrentRow(row+1);
+}
+
 QStringList ToolbarEditor::save(QWidget * w) {
 	qDebug("ToolbarEditor::save: '%s'", w->objectName().toUtf8().data());
 
