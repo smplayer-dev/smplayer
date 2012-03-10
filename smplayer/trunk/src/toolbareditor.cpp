@@ -82,6 +82,26 @@ void ToolbarEditor::on_down_button_clicked() {
 	active_actions_list->setCurrentRow(row+1);
 }
 
+void ToolbarEditor::on_right_button_clicked() {
+	int row = all_actions_list->currentRow();
+	qDebug("ToolbarEditor::on_right_button_clicked: current_row: %d", row);
+
+	if (row > -1) {
+		QListWidgetItem * current = all_actions_list->takeItem(row);
+		active_actions_list->addItem(current);
+	}
+}
+
+void ToolbarEditor::on_left_button_clicked() {
+	int row = active_actions_list->currentRow();
+	qDebug("ToolbarEditor::on_left_button_clicked: current_row: %d", row);
+
+	if (row > -1) {
+		QListWidgetItem * current = active_actions_list->takeItem(row);
+		all_actions_list->addItem(current);
+	}
+}
+
 QStringList ToolbarEditor::save(QWidget * w) {
 	qDebug("ToolbarEditor::save: '%s'", w->objectName().toUtf8().data());
 
