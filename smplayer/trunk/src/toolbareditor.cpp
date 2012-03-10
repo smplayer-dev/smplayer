@@ -49,7 +49,7 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 	for (int n = 0; n < actions_list.count(); n++) {
 		action = static_cast<QAction*> (actions_list[n]);
 		if (!action->objectName().isEmpty()) {
-			QListWidgetItem * i = new QListWidgetItem(w);
+			QListWidgetItem * i = new QListWidgetItem;
 			QString text = action->text().replace("&", "");
 			i->setText(text + " ("+ action->objectName() +")");
 			i->setIcon(action->icon());
@@ -58,7 +58,7 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 		}
 		else
 		if ((action->isSeparator()) && (add_separators)) {
-			QListWidgetItem * i = new QListWidgetItem(w);
+			QListWidgetItem * i = new QListWidgetItem;
 			i->setText(tr("(separator)"));
 			i->setData(Qt::UserRole, "separator");
 			w->addItem(i);
@@ -143,6 +143,21 @@ void ToolbarEditor::on_left_button_clicked() {
 				all_actions_list->addItem(current);
 			}
 		}
+	}
+}
+
+void ToolbarEditor::on_separator_button_clicked() {
+	qDebug("ToolbarEditor::on_separator_button_clicked");
+
+	QListWidgetItem * i = new QListWidgetItem;
+	i->setText(tr("(separator)"));
+	i->setData(Qt::UserRole, "separator");
+
+	int row = active_actions_list->currentRow();
+	if (row > -1) {
+		active_actions_list->insertItem(row+1, i);
+	} else {
+		active_actions_list->addItem(i);
 	}
 }
 
