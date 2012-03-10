@@ -146,6 +146,14 @@ void ToolbarEditor::on_left_button_clicked() {
 	}
 }
 
+QStringList ToolbarEditor::activeActionsToStringList() {
+	QStringList o;
+	for (int n = 0; n < active_actions_list->count(); n++) {
+		o << active_actions_list->item(n)->data(Qt::UserRole).toString();
+	}
+	return o;
+}
+
 QStringList ToolbarEditor::save(QWidget * w) {
 	qDebug("ToolbarEditor::save: '%s'", w->objectName().toUtf8().data());
 
