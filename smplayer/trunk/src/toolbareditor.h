@@ -55,7 +55,8 @@ protected slots:
 protected:
 	static QAction * findAction(QString s, QList<QAction *> actions_list);
 
-	void populateList(QListWidget * w, QList<QAction *> actions_list);
+	static void populateList(QListWidget * w, QList<QAction *> actions_list, bool add_separators = false);
+	static int findItem(const QString & action_name, QListWidget * w);
 };
 
 #endif
