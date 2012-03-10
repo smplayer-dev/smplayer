@@ -120,7 +120,12 @@ void ToolbarEditor::on_right_button_clicked() {
 
 	if (row > -1) {
 		QListWidgetItem * current = all_actions_list->takeItem(row);
-		active_actions_list->addItem(current);
+		int dest_row = active_actions_list->currentRow();
+		if (dest_row > -1) {
+			active_actions_list->insertItem(dest_row+1, current);
+		} else {
+			active_actions_list->addItem(current);
+		}
 	}
 }
 
@@ -131,7 +136,12 @@ void ToolbarEditor::on_left_button_clicked() {
 	if (row > -1) {
 		QListWidgetItem * current = active_actions_list->takeItem(row);
 		if (current->data(Qt::UserRole).toString() != "separator") {
-			all_actions_list->addItem(current);
+			int dest_row = all_actions_list->currentRow();
+			if (dest_row > -1) {
+				all_actions_list->insertItem(dest_row+1, current);
+			} else {
+				all_actions_list->addItem(current);
+			}
 		}
 	}
 }
