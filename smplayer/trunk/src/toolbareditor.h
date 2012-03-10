@@ -46,6 +46,10 @@ public:
 	//! the list of all available actions
 	static void load(QWidget *w, QStringList l, QList<QAction *> actions_list);
 
+protected slots:
+	void on_up_button_clicked();
+	void on_down_button_clicked();
+
 protected:
 	static QAction * findAction(QString s, QList<QAction *> actions_list);
 
