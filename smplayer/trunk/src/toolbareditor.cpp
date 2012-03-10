@@ -20,6 +20,7 @@
 
 #include <QToolBar>
 #include <QToolButton>
+#include <QMatrix>
 
 #include "images.h"
 
@@ -30,6 +31,12 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
 
 	up_button->setIcon(Images::icon("up"));
 	down_button->setIcon(Images::icon("down"));
+
+	QMatrix matrix;
+	matrix.rotate(90);
+
+	right_button->setIcon( Images::icon("up").transformed(matrix) );
+	left_button->setIcon( Images::icon("down").transformed(matrix) );
 }
 
 ToolbarEditor::~ToolbarEditor() {
