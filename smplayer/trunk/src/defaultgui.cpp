@@ -782,7 +782,12 @@ void DefaultGui::editToolbar() {
 	ToolbarEditor e(this);
 	e.setAllActions(actions_list);
 	e.setActiveActions(toolbar1->actions());
-	e.exec();
+	if (e.exec() == QDialog::Accepted) {
+		QStringList r = e.activeActionsToStringList();
+		qDebug("list: %s", r.join(",").toUtf8().constData());
+		toolbar1->clear();
+		ToolbarEditor::load(toolbar1, r, actions_list );
+	}
 }
 #endif
 

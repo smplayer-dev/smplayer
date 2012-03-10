@@ -39,6 +39,8 @@ public:
 	void setAllActions(QList<QAction *> actions_list);
 	void setActiveActions(QList<QAction *> actions_list);
 
+	QStringList activeActionsToStringList();
+
 	//! Save the widget's list of actions into a QStringList 
 	static QStringList save(QWidget *w);
 
