@@ -26,6 +26,7 @@
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
 #include <QStatusBar>
+#include <QMenu>
 
 using namespace Global;
 
@@ -37,7 +38,11 @@ MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 	createFloatingControl();
 
 #if USE_CONFIGURABLE_TOOLBARS
+	connect( editControlAct, SIGNAL(triggered()),
+             controlwidget, SLOT(edit()) );
 	floating_control->toolbar()->takeAvailableActionsFrom(this);
+	connect( editFloatingControlAct, SIGNAL(triggered()),
+             floating_control->toolbar(), SLOT(edit()) );
 #endif
 
 	connect( this, SIGNAL(cursorNearBottom(QPoint)),
@@ -61,6 +66,15 @@ MiniGui::~MiniGui() {
 	saveConfig();
 }
 
+#if USE_CONFIGURABLE_TOOLBARS
+QMenu * MiniGui::createPopupMenu() {
+	QMenu * m = new QMenu(this);
+	m->addAction(editControlAct);
+	m->addAction(editFloatingControlAct);
+	return m;
+}
+#endif
+
 void MiniGui::createActions() {
 	timeslider_action = createTimeSliderAction(this);
 	timeslider_action->disable();
@@ -75,6 +89,11 @@ void MiniGui::createActions() {
 
 	connect( this, SIGNAL(timeChanged(QString)),
              time_label_action, SLOT(setText(QString)) );
+
+#if USE_CONFIGURABLE_TOOLBARS
+	editControlAct = new MyAction( this, "edit_control_minigui" );
+	editFloatingControlAct = new MyAction( this, "edit_floating_control_minigui" );
+#endif
 }
 
 
@@ -136,6 +155,11 @@ void MiniGui::retranslateStrings() {
 	BaseGuiPlus::retranslateStrings();
 
 	controlwidget->setWindowTitle( tr("Control bar") );
+
+#if USE_CONFIGURABLE_TOOLBARS
+	editControlAct->change( tr("Edit &control bar") );
+	editFloatingControlAct->change( tr("Edit &floating control") );
+#endif
 }
 
 #if AUTODISABLE_ACTIONS
