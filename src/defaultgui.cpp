@@ -78,6 +78,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 #if USE_CONFIGURABLE_TOOLBARS
 	connect( editToolbar1Act, SIGNAL(triggered()),
              toolbar1, SLOT(edit()) );
+	connect( editControl1Act, SIGNAL(triggered()),
+             controlwidget, SLOT(edit()) );
 #endif
 
 	retranslateStrings();
@@ -144,6 +146,7 @@ void DefaultGui::createActions() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
+	editControl1Act = new MyAction( this, "edit_control1" );
 #endif
 }
 
@@ -183,6 +186,7 @@ QMenu * DefaultGui::createPopupMenu() {
 	QMenu * m = new QMenu(this);
 #if USE_CONFIGURABLE_TOOLBARS
 	m->addAction(editToolbar1Act);
+	m->addAction(editControl1Act);
 #else
 	m->addAction(toolbar1->toggleViewAction());
 	m->addAction(toolbar2->toggleViewAction());
@@ -281,7 +285,7 @@ void DefaultGui::createControlWidgetMini() {
 void DefaultGui::createControlWidget() {
 	qDebug("DefaultGui::createControlWidget");
 
-	controlwidget = new QToolBar( this );
+	controlwidget = new EditableToolbar( this );
 	controlwidget->setObjectName("controlwidget");
 	//controlwidget->setResizeEnabled(false);
 	controlwidget->setMovable(false);
@@ -452,6 +456,7 @@ void DefaultGui::retranslateStrings() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit &main toolbar") );
+	editControl1Act->change( tr("Edit &control bar") );
 #endif
 }
 
