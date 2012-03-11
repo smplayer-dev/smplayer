@@ -24,6 +24,7 @@
 #include <QPoint>
 
 class QToolBar;
+class EditableToolbar;
 class QPushButton;
 class QResizeEvent;
 class MyAction;
@@ -110,7 +111,7 @@ protected:
 	QToolBar * controlwidget;
 	QToolBar * controlwidget_mini;
 
-	QToolBar * toolbar1;
+	EditableToolbar * toolbar1;
 	QToolBar * toolbar2;
 
 	QPushButton * select_audio;

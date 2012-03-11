@@ -109,6 +109,7 @@ HEADERS += guiconfig.h \
 	floatingwidget.h \
 	widgetactions.h \
 	toolbareditor.h \
+	editabletoolbar.h \
 	defaultgui.h \
 	minigui.h \
 	mpcgui/mpcgui.h \
@@ -203,6 +204,7 @@ SOURCES	+= version.cpp \
 	floatingwidget.cpp \
 	widgetactions.cpp \
 	toolbareditor.cpp \
+	editabletoolbar.cpp \
 	defaultgui.cpp \
 	minigui.cpp \
 	mpcgui/mpcgui.cpp \

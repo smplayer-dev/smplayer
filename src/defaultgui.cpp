@@ -29,13 +29,13 @@
 #include "floatingwidget.h"
 #include "toolbareditor.h"
 #include "desktopinfo.h"
+#include "editabletoolbar.h"
 
 #if DOCK_PLAYLIST
 #include "playlistdock.h"
 #endif
 
 #include <QMenu>
-#include <QToolBar>
 #include <QSettings>
 #include <QLabel>
 #include <QStatusBar>
@@ -189,7 +189,7 @@ QMenu * DefaultGui::createPopupMenu() {
 }
 
 void DefaultGui::createMainToolBars() {
-	toolbar1 = new QToolBar( this );
+	toolbar1 = new EditableToolbar( this );
 	toolbar1->setObjectName("toolbar1");
 	//toolbar1->setMovable(false);
 	addToolBar(Qt::TopToolBarArea, toolbar1);
@@ -777,6 +777,7 @@ void DefaultGui::loadConfig() {
 void DefaultGui::editToolbar() {
 	qDebug("DefaultGui::editToolbar");
 
+/*
 	QList<QAction *> actions_list = findChildren<QAction *>();
 
 	ToolbarEditor e(this);
@@ -785,9 +786,11 @@ void DefaultGui::editToolbar() {
 	if (e.exec() == QDialog::Accepted) {
 		QStringList r = e.activeActionsToStringList();
 		qDebug("list: %s", r.join(",").toUtf8().constData());
-		toolbar1->clear();
-		ToolbarEditor::load(toolbar1, r, actions_list );
+		toolbar1->setActionsFromStringList(r);
 	}
+*/
+
+	toolbar1->edit();
 }
 #endif
 

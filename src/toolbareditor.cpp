@@ -48,20 +48,22 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 	QAction * action;
 	for (int n = 0; n < actions_list.count(); n++) {
 		action = static_cast<QAction*> (actions_list[n]);
-		if (!action->objectName().isEmpty()) {
-			QListWidgetItem * i = new QListWidgetItem;
-			QString text = action->text().replace("&", "");
-			i->setText(text + " ("+ action->objectName() +")");
-			i->setIcon(action->icon());
-			i->setData(Qt::UserRole, action->objectName());
-			w->addItem(i);
-		}
-		else
-		if ((action->isSeparator()) && (add_separators)) {
-			QListWidgetItem * i = new QListWidgetItem;
-			i->setText(tr("(separator)"));
-			i->setData(Qt::UserRole, "separator");
-			w->addItem(i);
+		if (action) {
+			if (!action->objectName().isEmpty()) {
+				QListWidgetItem * i = new QListWidgetItem;
+				QString text = action->text().replace("&", "");
+				i->setText(text + " ("+ action->objectName() +")");
+				i->setIcon(action->icon());
+				i->setData(Qt::UserRole, action->objectName());
+				w->addItem(i);
+			}
+			else
+			if ((action->isSeparator()) && (add_separators)) {
+				QListWidgetItem * i = new QListWidgetItem;
+				i->setText(tr("(separator)"));
+				i->setData(Qt::UserRole, "separator");
+				w->addItem(i);
+			}
 		}
 	}
 }
