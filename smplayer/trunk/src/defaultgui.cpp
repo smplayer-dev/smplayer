@@ -80,8 +80,9 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              toolbar1, SLOT(edit()) );
 	connect( editControl1Act, SIGNAL(triggered()),
              controlwidget, SLOT(edit()) );
+	floating_control->toolbar()->takeAvailableActionsFrom(this);
 	connect( editFloatingControlAct, SIGNAL(triggered()),
-             this, SLOT(editFloatingControl()) );
+             floating_control->toolbar(), SLOT(edit()) );
 #endif
 
 	retranslateStrings();
@@ -788,14 +789,5 @@ void DefaultGui::loadConfig() {
 		
 	updateWidgets();
 }
-
-#if USE_CONFIGURABLE_TOOLBARS
-// The toolbar in the floating control can't get the list
-// of all available actions, so it's necessary to pass it.
-void DefaultGui::editFloatingControl() {
-	floating_control->toolbar()->setAvailableActions(findChildren<QAction *>());
-	floating_control->toolbar()->edit();
-}
-#endif
 
 #include "moc_defaultgui.cpp"
