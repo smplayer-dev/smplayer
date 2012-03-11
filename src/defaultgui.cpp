@@ -80,6 +80,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              toolbar1, SLOT(edit()) );
 	connect( editControl1Act, SIGNAL(triggered()),
              controlwidget, SLOT(edit()) );
+	connect( editControl2Act, SIGNAL(triggered()),
+             controlwidget_mini, SLOT(edit()) );
 	floating_control->toolbar()->takeAvailableActionsFrom(this);
 	connect( editFloatingControlAct, SIGNAL(triggered()),
              floating_control->toolbar(), SLOT(edit()) );
@@ -150,6 +152,7 @@ void DefaultGui::createActions() {
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
 	editControl1Act = new MyAction( this, "edit_control1" );
+	editControl2Act = new MyAction( this, "edit_control2" );
 	editFloatingControlAct = new MyAction( this, "edit_floating_control" );
 #endif
 }
@@ -191,6 +194,7 @@ QMenu * DefaultGui::createPopupMenu() {
 #if USE_CONFIGURABLE_TOOLBARS
 	m->addAction(editToolbar1Act);
 	m->addAction(editControl1Act);
+	m->addAction(editControl2Act);
 	m->addAction(editFloatingControlAct);
 #else
 	m->addAction(toolbar1->toggleViewAction());
@@ -259,7 +263,7 @@ void DefaultGui::createMainToolBars() {
 void DefaultGui::createControlWidgetMini() {
 	qDebug("DefaultGui::createControlWidgetMini");
 
-	controlwidget_mini = new QToolBar( this );
+	controlwidget_mini = new EditableToolbar( this );
 	controlwidget_mini->setObjectName("controlwidget_mini");
 	//controlwidget_mini->setResizeEnabled(false);
 	controlwidget_mini->setMovable(false);
@@ -462,6 +466,7 @@ void DefaultGui::retranslateStrings() {
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit &main toolbar") );
 	editControl1Act->change( tr("Edit &control bar") );
+	editControl2Act->change( tr("Edit m&ini control bar") );
 	editFloatingControlAct->change( tr("Edit &floating control") );
 #endif
 }
