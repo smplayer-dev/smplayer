@@ -1541,6 +1541,22 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
     </message>
+    <message>
+        <source>Edit main &amp;toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &amp;control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit m&amp;ini control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &amp;floating control</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>EqSlider</name>
@@ -3123,6 +3139,14 @@ Norite perrašyti?</translation>
     <message>
         <source>Control bar</source>
         <translation>Kontrolinė juosta</translation>
+    </message>
+    <message>
+        <source>Edit &amp;control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &amp;floating control</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4987,7 +5011,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation>Komandų iš kitų egzempliorių gavimui, SMPlayer reikalingas jungties praklausymas. Galima pakeisti jungtį, jei ją jau naudoja kita programa.</translation>
+        <translation type="obsolete">Komandų iš kitų egzempliorių gavimui, SMPlayer reikalingas jungties praklausymas. Galima pakeisti jungtį, jei ją jau naudoja kita programa.</translation>
     </message>
     <message>
         <source>Default GUI</source>
@@ -5011,27 +5035,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Automatic port</source>
-        <translation>Automatinis prievadas</translation>
+        <translation type="obsolete">Automatinis prievadas</translation>
     </message>
     <message>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation>Komandų iš kitų egzempliorių gavimui, SMPlayer reikalingas prievado klausymas. Jei pažymėta ši parinktis, prievadas bus pasirinktas automatiškai.</translation>
+        <translation type="obsolete">Komandų iš kitų egzempliorių gavimui, SMPlayer reikalingas prievado klausymas. Jei pažymėta ši parinktis, prievadas bus pasirinktas automatiškai.</translation>
     </message>
     <message>
         <source>Manual port</source>
-        <translation>Nurodyti prievadą</translation>
+        <translation type="obsolete">Nurodyti prievadą</translation>
     </message>
     <message>
         <source>Port to listen</source>
-        <translation>Prievadas klausymui</translation>
+        <translation type="obsolete">Prievadas klausymui</translation>
     </message>
     <message>
         <source>&amp;Automatic</source>
-        <translation>&amp;Automatiškai</translation>
+        <translation type="obsolete">&amp;Automatiškai</translation>
     </message>
     <message>
         <source>&amp;Manual</source>
-        <translation>&amp;Rankiniu būdu</translation>
+        <translation type="obsolete">&amp;Rankiniu būdu</translation>
     </message>
     <message>
         <source>Floating control</source>
@@ -6232,7 +6256,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation>Išjungia serverį skirtą bendrauti su kitomis kopijomis. Taipogi tai išjungia galimybę naudoti tik vieną kopiją.</translation>
+        <translation type="obsolete">Išjungia serverį skirtą bendrauti su kitomis kopijomis. Taipogi tai išjungia galimybę naudoti tik vieną kopiją.</translation>
     </message>
 </context>
 <context>
@@ -6311,6 +6335,45 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>&amp;Jump to:</source>
         <translation>&amp;Šokti į:</translation>
+    </message>
+</context>
+<context>
+    <name>ToolbarEditor</name>
+    <message>
+        <source>Toolbar Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Available actions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Down</source>
+        <translation type="unfinished">&amp;Žemyn</translation>
+    </message>
+    <message>
+        <source>&amp;Up</source>
+        <translation type="unfinished">A&amp;ukštyn</translation>
+    </message>
+    <message>
+        <source>Curre&amp;nt actions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add &amp;separator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(separator)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

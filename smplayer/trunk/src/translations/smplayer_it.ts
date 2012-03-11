@@ -9,7 +9,7 @@
         <translation>Versione: %1</translation>
     </message>
     <message>
-        <location line="+83"/>
+        <location line="+86"/>
         <source>The following people have contributed with translations:</source>
         <translation>Le seguenti persone hanno contribuito con le traduzioni:</translation>
     </message>
@@ -34,12 +34,12 @@
         <translation>Francese</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+71"/>
         <source>%1, %2 and %3</source>
         <translation>%1, %2 e %3</translation>
     </message>
     <message>
-        <location line="-65"/>
+        <location line="-67"/>
         <source>Simplified-Chinese</source>
         <translation>Cinese semplificato</translation>
     </message>
@@ -49,12 +49,12 @@
         <translation>Russo</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+63"/>
         <source>%1 and %2</source>
         <translation>%1 e %2</translation>
     </message>
     <message>
-        <location line="-60"/>
+        <location line="-62"/>
         <source>Hungarian</source>
         <translation>Ungherese</translation>
     </message>
@@ -139,7 +139,7 @@
         <translation>Finlandese</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+44"/>
         <location line="+11"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
@@ -183,7 +183,7 @@
         <translation>&amp;Licenza</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="-199"/>
+        <location filename="../about.cpp" line="-201"/>
         <source>Visit our web for updates:</source>
         <translation>Visita il nostro sito per aggiornamenti:</translation>
     </message>
@@ -208,22 +208,22 @@
         <translation>Basco</translation>
     </message>
     <message>
-        <location line="-142"/>
+        <location line="-145"/>
         <source>Using MPlayer %1</source>
         <translation>MPlayer %1 in uso</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+146"/>
         <source>Catalan</source>
         <translation>Catalano</translation>
     </message>
     <message>
-        <location line="-134"/>
+        <location line="-137"/>
         <source>Portable Edition</source>
         <translation>Edizione portabile</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Qt %1 in uso (compilato con Qt %2)</translation>
     </message>
@@ -253,7 +253,7 @@
         <translation>Logo di SMPlayer creato da %1</translation>
     </message>
     <message>
-        <location line="+118"/>
+        <location line="+120"/>
         <source>%1, %2, %3 and %4</source>
         <translation>%1, %2, %3 e %4</translation>
     </message>
@@ -263,7 +263,7 @@
         <translation>%1, %2, %3, %4 e %5</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-26"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
     </message>
@@ -278,7 +278,7 @@
         <translation>Lituano</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Danish</source>
         <translation>Danese</translation>
     </message>
@@ -288,12 +288,12 @@
         <translation type="unfinished">Croato</translation>
     </message>
     <message>
-        <location line="-154"/>
+        <location line="-159"/>
         <source>Using MPlayer2 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+24"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -491,7 +491,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="+1478"/>
+        <location filename="../basegui.cpp" line="+1359"/>
         <source>&amp;File...</source>
         <translation>&amp;File...</translation>
     </message>
@@ -571,12 +571,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>Velocità &amp;+10%</translation>
     </message>
     <message>
-        <location line="+201"/>
+        <location line="+205"/>
         <source>Sp&amp;eed</source>
         <translation>V&amp;elocità</translation>
     </message>
     <message>
-        <location line="-194"/>
+        <location line="-198"/>
         <source>&amp;Fullscreen</source>
         <translation>T&amp;utto schermo</translation>
     </message>
@@ -596,12 +596,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Schermata</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+227"/>
         <source>S&amp;tay on top</source>
         <translation>Tieni s&amp;opra le altre</translation>
     </message>
     <message>
-        <location line="-200"/>
+        <location line="-202"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Postprocessing</translation>
     </message>
@@ -626,12 +626,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>Aggiungi r&amp;umore</translation>
     </message>
     <message>
-        <location line="+190"/>
+        <location line="+192"/>
         <source>F&amp;ilters</source>
         <translation>&amp;Filtri</translation>
     </message>
     <message>
-        <location line="-182"/>
+        <location line="-184"/>
         <source>&amp;Mute</source>
         <translation>&amp;Muto</translation>
     </message>
@@ -666,12 +666,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location line="+232"/>
+        <location line="+234"/>
         <source>&amp;Filters</source>
         <translation>&amp;Filtri</translation>
     </message>
     <message>
-        <location line="-228"/>
+        <location line="-230"/>
         <source>&amp;Load...</source>
         <translation>&amp;Apri...</translation>
     </message>
@@ -696,7 +696,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Giù</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+24"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Lista di riproduzione</translation>
     </message>
@@ -792,12 +792,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+34"/>
-        <location line="+1213"/>
+        <location line="+1189"/>
         <source>&amp;None</source>
         <translation>&amp;Nessuno</translation>
     </message>
     <message>
-        <location line="-1212"/>
+        <location line="-1188"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
@@ -868,7 +868,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>OS&amp;D</translation>
     </message>
     <message>
-        <location line="+2842"/>
+        <location line="+2822"/>
         <source>An error happened - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -878,7 +878,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-2927"/>
+        <location line="-2907"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -893,7 +893,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1132"/>
+        <location line="+1108"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -978,7 +978,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2730"/>
+        <location line="-2710"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -988,13 +988,13 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Pausa / Per fotogramma</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+71"/>
         <location line="+9"/>
         <source>U&amp;nload</source>
         <translation>&amp;Rimuovi</translation>
     </message>
     <message>
-        <location line="-122"/>
+        <location line="-124"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
@@ -1004,12 +1004,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>C&amp;hiudi</translation>
     </message>
     <message>
-        <location line="+145"/>
+        <location line="+149"/>
         <source>View &amp;info and properties...</source>
         <translation>&amp;Informazioni e proprietà...</translation>
     </message>
     <message>
-        <location line="-73"/>
+        <location line="-75"/>
         <source>Zoom &amp;-</source>
         <translation>Zoom &amp;-</translation>
     </message>
@@ -1054,7 +1054,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Linea succ&amp;essiva nei sottotitoli</translation>
     </message>
     <message>
-        <location line="+293"/>
+        <location line="+295"/>
         <location line="+1"/>
         <location line="+1"/>
         <source>-%1</source>
@@ -1158,12 +1158,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Aumenta gamma</translation>
     </message>
     <message>
-        <location line="-86"/>
+        <location line="-88"/>
         <source>&amp;Load external file...</source>
         <translation>Apri file &amp;esterno...</translation>
     </message>
     <message>
-        <location line="+212"/>
+        <location line="+214"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
@@ -1188,17 +1188,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>P&amp;recedente</translation>
     </message>
     <message>
-        <location line="-50"/>
+        <location line="-52"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;Normalizzazione volume</translation>
     </message>
     <message>
-        <location line="-117"/>
+        <location line="-119"/>
         <source>&amp;Audio CD</source>
         <translation>CD &amp;Audio</translation>
     </message>
     <message>
-        <location line="+326"/>
+        <location line="+330"/>
         <source>Denoise nor&amp;mal</source>
         <translation>Denoise nor&amp;male</translation>
     </message>
@@ -1213,17 +1213,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Nessun denoise</translation>
     </message>
     <message>
-        <location line="-192"/>
+        <location line="-194"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>&amp;Usa la libreria SSA/ASS</translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+72"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;Grandezza doppia</translation>
     </message>
     <message>
-        <location line="-76"/>
+        <location line="-78"/>
         <source>S&amp;ize -</source>
         <translation>Gran&amp;dezza -</translation>
     </message>
@@ -1243,7 +1243,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ridimensionamento soft&amp;ware</translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+61"/>
         <source>&amp;FAQ</source>
         <translation>&amp;FAQ</translation>
     </message>
@@ -1253,22 +1253,22 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2108"/>
+        <location line="+2084"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2133"/>
+        <location line="-2111"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+72"/>
         <source>Reset video equalizer</source>
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+2948"/>
+        <location line="+2922"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1298,7 +1298,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-2884"/>
+        <location line="-2858"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1329,32 +1329,32 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ruo&amp;ta di 90° in senso antiorario e ribalta</translation>
     </message>
     <message>
-        <location line="-280"/>
+        <location line="-284"/>
         <source>&amp;Jump to...</source>
         <translation>Sal&amp;ta a...</translation>
     </message>
     <message>
-        <location line="+153"/>
+        <location line="+157"/>
         <source>Show context menu</source>
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1853"/>
+        <location line="+1829"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-1957"/>
+        <location line="-1935"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+105"/>
         <source>Reset audio equalizer</source>
         <translation>Reinizializza equalizzatore audio</translation>
     </message>
     <message>
-        <location line="-67"/>
+        <location line="-68"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Trova sottotitoli su &amp;Opensubtitles.org...</translation>
     </message>
@@ -1364,12 +1364,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Invia sottotitoli a O&amp;pensubtitles.org...</translation>
     </message>
     <message>
-        <location line="+167"/>
+        <location line="+168"/>
         <source>&amp;Auto</source>
         <translation>&amp;Automatico</translation>
     </message>
     <message>
-        <location line="-245"/>
+        <location line="-249"/>
         <source>Speed -&amp;4%</source>
         <translation>Velocità -&amp;4%</translation>
     </message>
@@ -1389,7 +1389,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Velocità &amp;+1%</translation>
     </message>
     <message>
-        <location line="+233"/>
+        <location line="+237"/>
         <source>Scree&amp;n</source>
         <translation>Sche&amp;rmo</translation>
     </message>
@@ -1399,12 +1399,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Predefinito</translation>
     </message>
     <message>
-        <location line="-267"/>
+        <location line="-269"/>
         <source>Mirr&amp;or image</source>
         <translation>Specc&amp;hia immagine</translation>
     </message>
     <message>
-        <location line="+124"/>
+        <location line="+126"/>
         <source>Next video</source>
         <translation>Prossimo video</translation>
     </message>
@@ -1421,7 +1421,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2242"/>
+        <location line="+2218"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1441,12 +1441,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2388"/>
+        <location line="-2364"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
     <message>
-        <location line="-128"/>
+        <location line="-130"/>
         <source>&amp;Auto zoom</source>
         <translation>Zoom &amp;automatico</translation>
     </message>
@@ -1461,12 +1461,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Zoom per &amp;2,35:1</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-10"/>
         <source>Pre&amp;view...</source>
         <translation>A&amp;nteprima...</translation>
     </message>
     <message>
-        <location line="+263"/>
+        <location line="+266"/>
         <source>&amp;Always</source>
         <translation>&amp;Sempre</translation>
     </message>
@@ -1521,7 +1521,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Menu DVD, clic del mouse</translation>
     </message>
     <message>
-        <location line="-287"/>
+        <location line="-289"/>
         <source>Set dela&amp;y...</source>
         <translation>Imposta ritar&amp;do...</translation>
     </message>
@@ -1531,7 +1531,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2174"/>
+        <location line="+2152"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1561,27 +1561,27 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-1982"/>
+        <location line="-1958"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2549"/>
+        <location line="+2525"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-2816"/>
+        <location line="-2796"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+67"/>
         <source>Subtitle &amp;visibility</source>
         <translation>&amp;Visualizza sottotitolo</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+74"/>
         <source>Next wheel function</source>
         <translation>Funzione successiva della rotellina</translation>
     </message>
@@ -1622,17 +1622,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Volume + Ricerc&amp;a + Tempo + Tempo totale</translation>
     </message>
     <message>
-        <location line="-265"/>
+        <location line="-269"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>I filtri video vengono disabilitati se si usa vdpau</translation>
     </message>
     <message>
-        <location line="+120"/>
+        <location line="+122"/>
         <source>Fli&amp;p image</source>
         <translation>Rib&amp;alta l&apos;immagine</translation>
     </message>
     <message>
-        <location line="+205"/>
+        <location line="+207"/>
         <source>Zoo&amp;m</source>
         <translation>Zoo&amp;m</translation>
     </message>
@@ -1642,7 +1642,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra il nome del file su OSD</translation>
     </message>
     <message>
-        <location line="-162"/>
+        <location line="-166"/>
         <source>Set &amp;A marker</source>
         <translation>Imposta il marcatore &amp;A</translation>
     </message>
@@ -1657,7 +1657,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Rimuovi i mar&amp;catori A-B</translation>
     </message>
     <message>
-        <location line="+214"/>
+        <location line="+218"/>
         <source>&amp;A-B section</source>
         <translation>Sezione &amp;A-B</translation>
     </message>
@@ -1677,7 +1677,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1909"/>
+        <location line="+1885"/>
         <source>Donate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1697,7 +1697,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-2034"/>
+        <location line="-2010"/>
         <source>&amp;Disc</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1748,7 +1748,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="+2683"/>
+        <location filename="../core.cpp" line="+2685"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
@@ -1869,7 +1869,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Marcatori A-B rimossi</translation>
     </message>
     <message>
-        <location line="-1970"/>
+        <location line="-1972"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1887,7 +1887,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="+406"/>
+        <location filename="../defaultgui.cpp" line="+480"/>
         <source>Welcome to SMPlayer</source>
         <translation>Benvenuto in  SMPlayer</translation>
     </message>
@@ -1917,7 +1917,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Barre s&amp;trumenti</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+40"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
@@ -1927,7 +1927,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation></translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-41"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Barra di stato</translation>
     </message>
@@ -1942,7 +1942,27 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Contatore di &amp;Frame</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+3"/>
+        <source>Edit main &amp;toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Edit &amp;control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Edit m&amp;ini control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Edit &amp;floating control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -2364,7 +2384,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+195"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+196"/>
         <source>Language</source>
         <translation>Lingua</translation>
     </message>
@@ -3964,9 +3984,19 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="+125"/>
+        <location filename="../minigui.cpp" line="+157"/>
         <source>Control bar</source>
         <translation>Barra dei controlli</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Edit &amp;control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Edit &amp;floating control</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6009,34 +6039,34 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="+84"/>
-        <location line="+452"/>
+        <location filename="../prefinterface.cpp" line="+88"/>
+        <location line="+425"/>
         <source>Interface</source>
         <translation>Interfaccia</translation>
     </message>
     <message>
-        <location line="-437"/>
+        <location line="-410"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Automatico&gt;</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+51"/>
         <location line="+3"/>
         <source>Default</source>
         <translation>Predefinito</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+35"/>
+        <location filename="../prefinterface.ui" line="+27"/>
         <source>&amp;Interface</source>
         <translation>&amp;Interfaccia</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+425"/>
+        <location filename="../prefinterface.cpp" line="+396"/>
         <source>Seeking</source>
         <translation>Ricerca</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+83"/>
+        <location filename="../prefinterface.ui" line="+56"/>
         <source>Never</source>
         <translation>Mai</translation>
     </message>
@@ -6067,12 +6097,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Qui è possibile modificare la lingua dell&apos;applicazione.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+53"/>
         <source>Instances</source>
         <translation>Istanze</translation>
     </message>
     <message>
-        <location line="-481"/>
+        <location line="-453"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Salto corto</translation>
     </message>
@@ -6092,17 +6122,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Salto &amp;rotellina</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+546"/>
+        <location filename="../prefinterface.ui" line="+451"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;Usa una sola istanza di SMPlayer</translation>
     </message>
     <message>
-        <location line="-525"/>
+        <location line="-439"/>
         <source>Ma&amp;x. items</source>
         <translation>Numero massimo di &amp;elementi</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+119"/>
         <source>St&amp;yle:</source>
         <translation>St&amp;ile:</translation>
     </message>
@@ -6117,12 +6147,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lingu&amp;a:</translation>
     </message>
     <message>
-        <location line="-205"/>
+        <location line="-166"/>
         <source>Main window</source>
         <translation>Finestra principale</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+27"/>
         <source>Auto&amp;resize:</source>
         <translation>&amp;Ridimensionamento automatico:</translation>
     </message>
@@ -6132,7 +6162,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ricorda posizione &amp;e dimensione</translation>
     </message>
     <message>
-        <location line="+298"/>
+        <location line="+268"/>
         <source>Default font:</source>
         <translation>Carattere predefinito:</translation>
     </message>
@@ -6142,7 +6172,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Cambia...</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+85"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>Comportamento nella &amp;barra temporale:</translation>
     </message>
@@ -6157,18 +6187,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cerca posizione al rilascio</translation>
     </message>
     <message>
-        <location line="-496"/>
-        <location line="+613"/>
+        <location line="-439"/>
+        <location line="+526"/>
         <source>TextLabel</source>
         <translation>Etichetta testo</translation>
     </message>
     <message>
-        <location line="-219"/>
+        <location line="-171"/>
         <source>&amp;Seeking</source>
         <translation>&amp;Ricerca</translation>
     </message>
     <message>
-        <location line="+137"/>
+        <location line="+119"/>
         <source>&amp;Absolute seeking</source>
         <translation>Ricerca &amp;assoluta</translation>
     </message>
@@ -6183,7 +6213,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Is&amp;tanze</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+409"/>
+        <location filename="../prefinterface.cpp" line="+380"/>
         <source>Autoresize</source>
         <translation>Ridimensionamento automatico</translation>
     </message>
@@ -6306,7 +6336,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Imposta il metodo da usare quando si ricerca tramite lo slider. La ricerca assoluta può essere più precisa, invece la ricerca relativa potrebbe funzionare meglio con file di durata errata.</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Usa una sola istanza di SMPlayer</translation>
     </message>
@@ -6316,12 +6346,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare questa opzione se si vuole usare una istanza di SMPlayer già esistente all&apos;apertura di nuovi file.</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation>SMPlayer deve essere in ascolto su una porta per ricevere comandi da altre istanza. Puoi cambiare la porta predefinita in caso essa sia in uso da parte di un&apos;altra applicazione.</translation>
+        <translation type="obsolete">SMPlayer deve essere in ascolto su una porta per ricevere comandi da altre istanza. Puoi cambiare la porta predefinita in caso essa sia in uso da parte di un&apos;altra applicazione.</translation>
     </message>
     <message>
-        <location line="-464"/>
+        <location line="-427"/>
         <source>Default GUI</source>
         <translation>Interfaccia predefinita</translation>
     </message>
@@ -6331,7 +6360,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Interfaccia minimale</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+377"/>
         <source>GUI</source>
         <translation>Interfaccia</translation>
     </message>
@@ -6341,42 +6370,36 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare l&apos;interfaccia preferita per l&apos;applicazione. Attualmente ce ne sono disponibili due: predefinita e minimale.&lt;br&gt;L&apos;&lt;b&gt;interfaccia predefinita&lt;/b&gt; fornisce una interfaccia tradizionale, con la barra degli strumenti e di controllo. L&apos;&lt;b&gt;interfaccia minimale&lt;/b&gt; fornisce una interfaccia più semplice, senza barra degli strumenti e con la barra di controllo con meno bottoni.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; questa opzione avrà effetto al prossimo riavvio.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="-227"/>
+        <location filename="../prefinterface.ui" line="-200"/>
         <source>&amp;GUI</source>
         <translation>&amp;Interfaccia</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+50"/>
         <source>Automatic port</source>
-        <translation>Porta automatica</translation>
+        <translation type="obsolete">Porta automatica</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation>SMPlayer deve essere in ascolto su una porta per ricevere comandi da altre istanze. Selezionando questa opzione, ne sarà scelta una automaticamente.</translation>
+        <translation type="obsolete">SMPlayer deve essere in ascolto su una porta per ricevere comandi da altre istanze. Selezionando questa opzione, ne sarà scelta una automaticamente.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Manual port</source>
-        <translation>Porta manuale</translation>
+        <translation type="obsolete">Porta manuale</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+355"/>
         <source>Port to listen</source>
-        <translation>Porta in ascolto</translation>
+        <translation type="obsolete">Porta in ascolto</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Automatic</source>
-        <translation>&amp;Automatico</translation>
+        <translation type="obsolete">&amp;Automatico</translation>
     </message>
     <message>
-        <location line="+24"/>
         <source>&amp;Manual</source>
-        <translation>&amp;Manuale</translation>
+        <translation type="obsolete">&amp;Manuale</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+7"/>
+        <location filename="../prefinterface.cpp" line="+52"/>
         <source>Floating control</source>
         <translation>Controllo fluttuante</translation>
     </message>
@@ -6426,7 +6449,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Con questa opzione abilitata, il controllo è visualizzato bypassando il window manager. Disabilita questa opzione se il controllo fluttuante non lavora bene con il window manager usato.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+56"/>
+        <location filename="../prefinterface.ui" line="+307"/>
         <source>&amp;Floating control</source>
         <translation>Controllo &amp;fluttuante</translation>
     </message>
@@ -6472,12 +6495,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Se questa opzione è abilitata, il controllo fluttuante apparirà anche nella modalità compatta. &lt;b&gt;Fare attenzione&lt;/b&gt;: il controllo fluttuante non è stato progettato per la modalità compatta e potrebbe non lavorare in modo appropriato.</translation>
     </message>
     <message>
-        <location line="-484"/>
+        <location line="-445"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location line="+388"/>
+        <location line="+359"/>
         <source>Hide video window when playing audio files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6487,7 +6510,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="-782"/>
+        <location filename="../prefinterface.ui" line="-612"/>
         <source>&amp;Hide video window when playing audio files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6507,7 +6530,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+501"/>
+        <location filename="../prefinterface.ui" line="+453"/>
         <source>&amp;Precise seeking</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7718,7 +7741,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="+373"/>
+        <location filename="../smplayer.cpp" line="+358"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>
@@ -7734,12 +7757,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location line="-36"/>
-        <location line="+78"/>
+        <location line="+74"/>
         <source>media</source>
         <translation>media</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="-6"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>Se è presente un altra istanza, il file sarà aggiunto alla lista di riproduzione di quella istanza, altrimenti questa opzione verrà ignorata e il file verrà aperto in una nuova istanza.</translation>
     </message>
@@ -7879,13 +7902,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>specifica la dimensione della finestra principale.</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+12"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-4"/>
-        <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7980,6 +7998,55 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../timedialog.ui" line="+54"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
+    </message>
+</context>
+<context>
+    <name>ToolbarEditor</name>
+    <message>
+        <location filename="../toolbareditor.ui" line="+14"/>
+        <source>Toolbar Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>&amp;Available actions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>&amp;Left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&amp;Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&amp;Down</source>
+        <translation type="unfinished">&amp;Giù</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&amp;Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Curre&amp;nt actions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Add &amp;separator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../toolbareditor.cpp" line="+63"/>
+        <location line="+92"/>
+        <source>(separator)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
