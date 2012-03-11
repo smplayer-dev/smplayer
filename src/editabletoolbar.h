@@ -39,6 +39,8 @@ public:
 
 	void setAvailableActions(QList<QAction *> available_actions) { all_actions = available_actions; }
 
+	void takeAvailableActionsFrom(QWidget * w) { widget = w; }
+
 public slots:
 	void edit();
 
@@ -46,7 +48,7 @@ protected:
 	QList<QAction *> allActions();
 
 	QList<QAction *> all_actions;
-	QWidget * _parent;
+	QWidget * widget;
 };
 
 #endif

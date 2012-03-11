@@ -22,7 +22,7 @@
 
 EditableToolbar::EditableToolbar(QWidget * parent) : QToolBar(parent)
 {
-	_parent = parent;
+	widget = parent;
 }
 
 EditableToolbar::~EditableToolbar() {
@@ -32,8 +32,8 @@ QList<QAction *> EditableToolbar::allActions() {
 	if (!all_actions.isEmpty()) return all_actions;
 
 	QList<QAction *> actions;
-	if (_parent) {
-		actions = _parent->findChildren<QAction *>();
+	if (widget) {
+		actions = widget->findChildren<QAction *>();
 	}
 	return actions;
 }
@@ -50,7 +50,7 @@ QStringList EditableToolbar::actionsToStringList() {
 void EditableToolbar::edit() {
 	qDebug("EditableToolbar::edit");
 
-	ToolbarEditor e(_parent);
+	ToolbarEditor e(this);
 	e.setAllActions(allActions());
 	e.setActiveActions(this->actions());
 
