@@ -178,6 +178,13 @@ void DefaultGui::createMenus() {
 	toolbar_menu = new QMenu(this);
 	toolbar_menu->addAction(toolbar1->toggleViewAction());
 	toolbar_menu->addAction(toolbar2->toggleViewAction());
+#if USE_CONFIGURABLE_TOOLBARS
+	toolbar_menu->addSeparator();
+	toolbar_menu->addAction(editToolbar1Act);
+	toolbar_menu->addAction(editControl1Act);
+	toolbar_menu->addAction(editControl2Act);
+	toolbar_menu->addAction(editFloatingControlAct);
+#endif
 	optionsMenu->addSeparator();
 	optionsMenu->addMenu(toolbar_menu);
 
@@ -505,7 +512,7 @@ void DefaultGui::retranslateStrings() {
 	viewFrameCounterAct->change( Images::icon("frame_counter"), tr("&Frame counter") );
 
 #if USE_CONFIGURABLE_TOOLBARS
-	editToolbar1Act->change( tr("Edit &main toolbar") );
+	editToolbar1Act->change( tr("Edit main &toolbar") );
 	editControl1Act->change( tr("Edit &control bar") );
 	editControl2Act->change( tr("Edit m&ini control bar") );
 	editFloatingControlAct->change( tr("Edit &floating control") );
