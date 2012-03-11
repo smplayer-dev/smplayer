@@ -39,10 +39,6 @@ class MyAction;
 class SeekingButton;
 #endif
 
-#ifdef TOOLBAR_EDITOR
-class ToolbarEditor;
-#endif
-
 class DefaultGui : public BaseGuiPlus
 {
 	Q_OBJECT
@@ -92,10 +88,6 @@ protected slots:
 	virtual void showFloatingMenu(QPoint p);
 	virtual void hideFloatingControls();
 
-#ifdef TOOLBAR_EDITOR
-	void editToolbar();
-#endif
-
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
@@ -131,8 +123,8 @@ protected:
 	MyAction * viewFrameCounterAct;
 	MyAction * viewVideoInfoAct;
 
-#ifdef TOOLBAR_EDITOR
-	MyAction * editToolbarAct;
+#if USE_CONFIGURABLE_TOOLBARS
+	MyAction * editToolbar1Act;
 #endif
 
 	QMenu * toolbar_menu;
