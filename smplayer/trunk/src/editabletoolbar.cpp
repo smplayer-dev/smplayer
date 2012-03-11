@@ -48,6 +48,8 @@ QStringList EditableToolbar::actionsToStringList() {
 }
 
 void EditableToolbar::edit() {
+	qDebug("EditableToolbar::edit");
+
 	ToolbarEditor e(_parent);
 	e.setAllActions(allActions());
 	e.setActiveActions(this->actions());

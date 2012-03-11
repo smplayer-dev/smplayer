@@ -25,8 +25,7 @@
 #include "helper.h"
 #include "toolbareditor.h"
 #include "desktopinfo.h"
-
-#include <QToolBar>
+#include "editabletoolbar.h"
 #include <QStatusBar>
 
 using namespace Global;
