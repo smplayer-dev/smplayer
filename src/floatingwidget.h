@@ -22,7 +22,7 @@
 #include <QWidget>
 #include <QTimer>
 
-class QToolBar;
+class EditableToolbar;
 
 #if QT_VERSION < 0x040600
 #define OLD_ANIMATION
@@ -48,7 +48,7 @@ public:
 
 	void showAnimated(QPoint final_position, Movement movement);
 
-	QToolBar * toolbar() { return tb; };
+	EditableToolbar * toolbar() { return tb; };
 
 	bool isAnimated() { return _animated; };
 	bool autoHide() { return auto_hide; };
@@ -63,7 +63,7 @@ public slots:
 #endif
 
 protected:
-	QToolBar * tb;
+	EditableToolbar * tb;
 
 private slots:
 #ifdef OLD_ANIMATION

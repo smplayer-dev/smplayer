@@ -17,7 +17,7 @@
 */
 
 #include "floatingwidget.h"
-#include <QToolBar>
+#include "editabletoolbar.h"
 #include <QTimer>
 #include <QHBoxLayout>
 
@@ -35,7 +35,7 @@ FloatingWidget::FloatingWidget( QWidget * parent )
 
 	setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Minimum );
 
-	tb = new QToolBar;
+	tb = new EditableToolbar;
 	tb->setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Minimum );
 
 	QHBoxLayout *layout = new QHBoxLayout;

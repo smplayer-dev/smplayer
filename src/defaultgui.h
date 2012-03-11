@@ -94,6 +94,10 @@ protected slots:
 	virtual void disableActionsOnStop();
 #endif
 
+#if USE_CONFIGURABLE_TOOLBARS
+	void editFloatingControl();
+#endif
+
 protected:
 	QLabel * time_display;
 	QLabel * frame_display;
@@ -126,6 +130,7 @@ protected:
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;
 	MyAction * editControl1Act;
+	MyAction * editFloatingControlAct;
 #endif
 
 	QMenu * toolbar_menu;

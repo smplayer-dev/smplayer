@@ -80,6 +80,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              toolbar1, SLOT(edit()) );
 	connect( editControl1Act, SIGNAL(triggered()),
              controlwidget, SLOT(edit()) );
+	connect( editFloatingControlAct, SIGNAL(triggered()),
+             this, SLOT(editFloatingControl()) );
 #endif
 
 	retranslateStrings();
@@ -147,6 +149,7 @@ void DefaultGui::createActions() {
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
 	editControl1Act = new MyAction( this, "edit_control1" );
+	editFloatingControlAct = new MyAction( this, "edit_floating_control" );
 #endif
 }
 
@@ -187,6 +190,7 @@ QMenu * DefaultGui::createPopupMenu() {
 #if USE_CONFIGURABLE_TOOLBARS
 	m->addAction(editToolbar1Act);
 	m->addAction(editControl1Act);
+	m->addAction(editFloatingControlAct);
 #else
 	m->addAction(toolbar1->toggleViewAction());
 	m->addAction(toolbar2->toggleViewAction());
@@ -457,6 +461,7 @@ void DefaultGui::retranslateStrings() {
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit &main toolbar") );
 	editControl1Act->change( tr("Edit &control bar") );
+	editFloatingControlAct->change( tr("Edit &floating control") );
 #endif
 }
 
@@ -783,5 +788,14 @@ void DefaultGui::loadConfig() {
 		
 	updateWidgets();
 }
+
+#if USE_CONFIGURABLE_TOOLBARS
+// The toolbar in the floating control can't get the list
+// of all available actions, so it's necessary to pass it.
+void DefaultGui::editFloatingControl() {
+	floating_control->toolbar()->setAvailableActions(findChildren<QAction *>());
+	floating_control->toolbar()->edit();
+}
+#endif
 
 #include "moc_defaultgui.cpp"
