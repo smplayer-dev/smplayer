@@ -27,7 +27,6 @@
 #include "myaction.h"
 #include "images.h"
 #include "floatingwidget.h"
-#include "toolbareditor.h"
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
 
@@ -719,7 +718,6 @@ void DefaultGui::loadConfig() {
 	}
 
 #if USE_CONFIGURABLE_TOOLBARS
-	QList<QAction *> actions_list = findChildren<QAction *>();
 	QStringList toolbar1_actions;
 	toolbar1_actions << "open_file" << "open_dvd" << "open_url" << "favorites_menu" << "separator" << "compact" << "fullscreen"
                      << "separator" << "screenshot" << "separator" << "show_file_properties" << "show_playlist" 
@@ -770,14 +768,14 @@ void DefaultGui::loadConfig() {
 	set->beginGroup( "actions" );
 	int toolbar_version = set->value("toolbar1_version", 0).toInt();
 	if (toolbar_version >= TOOLBAR_VERSION) {
-		ToolbarEditor::load(toolbar1, set->value("toolbar1", toolbar1_actions).toStringList(), actions_list );
+		toolbar1->setActionsFromStringList( set->value("toolbar1", toolbar1_actions).toStringList() );
 	} else {
 		qDebug("DefaultGui::loadConfig: toolbar too old, loading default one");
-		ToolbarEditor::load(toolbar1, toolbar1_actions, actions_list );
+		toolbar1->setActionsFromStringList( toolbar1_actions );
 	}
-	ToolbarEditor::load(controlwidget, set->value("controlwidget", controlwidget_actions).toStringList(), actions_list );
-	ToolbarEditor::load(controlwidget_mini, set->value("controlwidget_mini", controlwidget_mini_actions).toStringList(), actions_list );
-	ToolbarEditor::load(floating_control->toolbar(), set->value("floating_control", floatingcontrol_actions).toStringList(), actions_list );
+	controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget_actions).toStringList() );
+	controlwidget_mini->setActionsFromStringList( set->value("controlwidget_mini", controlwidget_mini_actions).toStringList() );
+	floating_control->toolbar()->setActionsFromStringList( set->value("floating_control", floatingcontrol_actions).toStringList() );
     floating_control->adjustSize();
 	set->endGroup();
 #endif
