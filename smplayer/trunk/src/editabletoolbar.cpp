@@ -50,7 +50,7 @@ QStringList EditableToolbar::actionsToStringList() {
 void EditableToolbar::edit() {
 	qDebug("EditableToolbar::edit");
 
-	ToolbarEditor e(this);
+	ToolbarEditor e(widget);
 	e.setAllActions(allActions());
 	e.setActiveActions(this->actions());
 
