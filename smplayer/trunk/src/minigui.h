@@ -28,7 +28,7 @@ class TimeSliderAction;
 class VolumeSliderAction;
 class TimeLabelAction;
 class FloatingWidget;
-class QToolBar;
+class EditableToolbar;
 
 class MiniGui : public BaseGuiPlus
 {
@@ -69,7 +69,7 @@ protected:
 	virtual void aboutToExitCompactMode();
 
 protected:
-	QToolBar * controlwidget;
+	EditableToolbar * controlwidget;
 
 	FloatingWidget * floating_control;
 

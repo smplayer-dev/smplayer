@@ -23,7 +23,6 @@
 #include "mplayerwindow.h"
 #include "global.h"
 #include "helper.h"
-#include "toolbareditor.h"
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
 #include <QStatusBar>
@@ -36,6 +35,10 @@ MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 	createActions();
 	createControlWidget();
 	createFloatingControl();
+
+#if USE_CONFIGURABLE_TOOLBARS
+	floating_control->toolbar()->takeAvailableActionsFrom(this);
+#endif
 
 	connect( this, SIGNAL(cursorNearBottom(QPoint)),
              this, SLOT(showFloatingControl(QPoint)) );
@@ -76,13 +79,18 @@ void MiniGui::createActions() {
 
 
 void MiniGui::createControlWidget() {
-	controlwidget = new QToolBar( this );
+	controlwidget = new EditableToolbar( this );
 	controlwidget->setObjectName("controlwidget");
 	controlwidget->setMovable(true);
 	controlwidget->setAllowedAreas(Qt::TopToolBarArea | Qt::BottomToolBarArea);
 	addToolBar(Qt::BottomToolBarArea, controlwidget);
 
-#if !USE_CONFIGURABLE_TOOLBARS
+#if USE_CONFIGURABLE_TOOLBARS
+	QStringList controlwidget_actions;
+	controlwidget_actions << "play_or_pause" << "stop" << "separator" << "timeslider_action" << "separator"
+                          << "fullscreen" << "mute" << "volumeslider_action";
+	controlwidget->setDefaultActions(controlwidget_actions);
+#else
 	controlwidget->addAction(playOrPauseAct);
 	controlwidget->addAction(stopAct);
 	controlwidget->addSeparator();
@@ -90,11 +98,9 @@ void MiniGui::createControlWidget() {
 	controlwidget->addSeparator();
 	controlwidget->addAction(fullscreenAct);
 	controlwidget->addAction(muteAct);
-
-#if USE_VOLUME_BAR
+	#if USE_VOLUME_BAR
 	controlwidget->addAction(volumeslider_action);
-#endif
-
+	#endif
 #endif // USE_CONFIGURABLE_TOOLBARS
 }
 
@@ -102,7 +108,16 @@ void MiniGui::createFloatingControl() {
 	// Floating control
 	floating_control = new FloatingWidget(this);
 
-#if !USE_CONFIGURABLE_TOOLBARS
+#if USE_CONFIGURABLE_TOOLBARS
+	QStringList floatingcontrol_actions;
+	floatingcontrol_actions << "play_or_pause" << "stop" << "separator" << "timeslider_action" << "separator"
+                            << "fullscreen" << "mute";
+	#if USE_VOLUME_BAR
+	floatingcontrol_actions << "volumeslider_action";
+	#endif
+	floatingcontrol_actions << "separator" << "timelabel_action";
+	floating_control->toolbar()->setDefaultActions(floatingcontrol_actions);
+#else
 	floating_control->toolbar()->addAction(playOrPauseAct);
 	floating_control->toolbar()->addAction(stopAct);
 	floating_control->toolbar()->addSeparator();
@@ -110,10 +125,9 @@ void MiniGui::createFloatingControl() {
 	floating_control->toolbar()->addSeparator();
 	floating_control->toolbar()->addAction(fullscreenAct);
 	floating_control->toolbar()->addAction(muteAct);
-#if USE_VOLUME_BAR
+	#if USE_VOLUME_BAR
 	floating_control->toolbar()->addAction(volumeslider_action);
-#endif
-
+	#endif
 	floating_control->adjustSize();
 #endif // USE_CONFIGURABLE_TOOLBARS
 }
@@ -214,8 +228,8 @@ void MiniGui::saveConfig() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
-	set->setValue("controlwidget", ToolbarEditor::save(controlwidget) );
-	set->setValue("floating_control", ToolbarEditor::save(floating_control->toolbar()) );
+	set->setValue("controlwidget", controlwidget->actionsToStringList() );
+	set->setValue("floating_control", floating_control->toolbar()->actionsToStringList() );
 	set->endGroup();
 #endif
 
@@ -245,23 +259,9 @@ void MiniGui::loadConfig() {
 	}
 
 #if USE_CONFIGURABLE_TOOLBARS
-	QList<QAction *> actions_list = findChildren<QAction *>();
-	QStringList controlwidget_actions;
-	controlwidget_actions << "play_or_pause" << "stop" << "separator" << "timeslider_action" << "separator"
-                          << "fullscreen" << "mute" << "volumeslider_action";
-
-	QStringList floatingcontrol_actions;
-	floatingcontrol_actions << "play_or_pause" << "stop" << "separator" << "timeslider_action" << "separator"
-                            << "fullscreen" << "mute";
-#if USE_VOLUME_BAR
-	floatingcontrol_actions << "volumeslider_action";
-#endif
-
-	floatingcontrol_actions << "separator" << "timelabel_action";
-
 	set->beginGroup( "actions" );
-	ToolbarEditor::load(controlwidget, set->value("controlwidget", controlwidget_actions).toStringList(), actions_list );
-	ToolbarEditor::load(floating_control->toolbar(), set->value("floating_control", floatingcontrol_actions).toStringList(), actions_list );
+	controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget->defaultActions()).toStringList() );
+	floating_control->toolbar()->setActionsFromStringList( set->value("floating_control", floating_control->toolbar()->defaultActions()).toStringList() );
 	floating_control->adjustSize();
 	set->endGroup();
 #endif
