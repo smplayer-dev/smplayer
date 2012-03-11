@@ -1541,6 +1541,22 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
     </message>
+    <message>
+        <source>Edit main &amp;toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &amp;control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit m&amp;ini control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &amp;floating control</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>EqSlider</name>
@@ -3125,6 +3141,14 @@ Do you want to overwrite?</source>
     <message>
         <source>Control bar</source>
         <translation>Kontrolna traka</translation>
+    </message>
+    <message>
+        <source>Edit &amp;control bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &amp;floating control</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4991,7 +5015,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation>SMPlayer mora slušati portove da bi primio komande za ostale instance. Možete promijeniti port u slučaju da je zadani zauzet od druge aplikacije.</translation>
+        <translation type="obsolete">SMPlayer mora slušati portove da bi primio komande za ostale instance. Možete promijeniti port u slučaju da je zadani zauzet od druge aplikacije.</translation>
     </message>
     <message>
         <source>Default GUI</source>
@@ -5015,27 +5039,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Automatic port</source>
-        <translation>Automatski port</translation>
+        <translation type="obsolete">Automatski port</translation>
     </message>
     <message>
         <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation>SMPlayer mora slušati portove da bi primio komande za ostale instance. Ovom opcijom port će biti automatski odabran.</translation>
+        <translation type="obsolete">SMPlayer mora slušati portove da bi primio komande za ostale instance. Ovom opcijom port će biti automatski odabran.</translation>
     </message>
     <message>
         <source>Manual port</source>
-        <translation>Ručni port</translation>
+        <translation type="obsolete">Ručni port</translation>
     </message>
     <message>
         <source>Port to listen</source>
-        <translation>Port koji će se slušati</translation>
+        <translation type="obsolete">Port koji će se slušati</translation>
     </message>
     <message>
         <source>&amp;Automatic</source>
-        <translation>&amp;Automatski</translation>
+        <translation type="obsolete">&amp;Automatski</translation>
     </message>
     <message>
         <source>&amp;Manual</source>
-        <translation>&amp;Ručno</translation>
+        <translation type="obsolete">&amp;Ručno</translation>
     </message>
     <message>
         <source>Floating control</source>
@@ -6224,7 +6248,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation>Onemogućuje server koji se koristi za komunikaciju s ostalim instancama. Ovo također onemogućuje korištenje jedne instance.</translation>
+        <translation type="obsolete">Onemogućuje server koji se koristi za komunikaciju s ostalim instancama. Ovo također onemogućuje korištenje jedne instance.</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
@@ -6317,6 +6341,45 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>&amp;Jump to:</source>
         <translation>&amp;Skoči na:</translation>
+    </message>
+</context>
+<context>
+    <name>ToolbarEditor</name>
+    <message>
+        <source>Toolbar Editor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Available actions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Down</source>
+        <translation type="unfinished">&amp;Dolje</translation>
+    </message>
+    <message>
+        <source>&amp;Up</source>
+        <translation type="unfinished">&amp;Gore</translation>
+    </message>
+    <message>
+        <source>Curre&amp;nt actions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add &amp;separator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(separator)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
