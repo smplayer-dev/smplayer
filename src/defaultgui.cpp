@@ -75,6 +75,11 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	createFloatingControl();
 	createMenus();
 
+#if USE_CONFIGURABLE_TOOLBARS
+	connect( editToolbar1Act, SIGNAL(triggered()),
+             toolbar1, SLOT(edit()) );
+#endif
+
 	retranslateStrings();
 
 	loadConfig();
@@ -137,11 +142,8 @@ void DefaultGui::createActions() {
 	connect( viewFrameCounterAct, SIGNAL(toggled(bool)),
              frame_display, SLOT(setVisible(bool)) );
 
-#ifdef TOOLBAR_EDITOR
-	editToolbarAct = new MyAction( Qt::Key_F12, this, "edit_toolbar" );
-	editToolbarAct->change( "toolbar editor" );
-	connect( editToolbarAct, SIGNAL(triggered()),
-             this, SLOT(editToolbar()) );
+#if USE_CONFIGURABLE_TOOLBARS
+	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
 #endif
 }
 
@@ -175,16 +177,16 @@ void DefaultGui::createMenus() {
 	statusbar_menu->addAction(viewFrameCounterAct);
 
 	optionsMenu->addMenu(statusbar_menu);
-
-#ifdef TOOLBAR_EDITOR
-	optionsMenu->addAction(editToolbarAct);
-#endif
 }
 
 QMenu * DefaultGui::createPopupMenu() {
 	QMenu * m = new QMenu(this);
+#if USE_CONFIGURABLE_TOOLBARS
+	m->addAction(editToolbar1Act);
+#else
 	m->addAction(toolbar1->toggleViewAction());
 	m->addAction(toolbar2->toggleViewAction());
+#endif
 	return m;
 }
 
@@ -447,6 +449,10 @@ void DefaultGui::retranslateStrings() {
 
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
 	viewFrameCounterAct->change( Images::icon("frame_counter"), tr("&Frame counter") );
+
+#if USE_CONFIGURABLE_TOOLBARS
+	editToolbar1Act->change( tr("Edit &main toolbar") );
+#endif
 }
 
 
@@ -772,26 +778,5 @@ void DefaultGui::loadConfig() {
 		
 	updateWidgets();
 }
-
-#ifdef TOOLBAR_EDITOR
-void DefaultGui::editToolbar() {
-	qDebug("DefaultGui::editToolbar");
-
-/*
-	QList<QAction *> actions_list = findChildren<QAction *>();
-
-	ToolbarEditor e(this);
-	e.setAllActions(actions_list);
-	e.setActiveActions(toolbar1->actions());
-	if (e.exec() == QDialog::Accepted) {
-		QStringList r = e.activeActionsToStringList();
-		qDebug("list: %s", r.join(",").toUtf8().constData());
-		toolbar1->setActionsFromStringList(r);
-	}
-*/
-
-	toolbar1->edit();
-}
-#endif
 
 #include "moc_defaultgui.cpp"
