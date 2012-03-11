@@ -100,7 +100,7 @@ protected:
 	QLabel * ab_section_display;
 	QLabel * video_info_display;
 
-	QToolBar * controlwidget;
+	EditableToolbar * controlwidget;
 	QToolBar * controlwidget_mini;
 
 	EditableToolbar * toolbar1;
@@ -125,6 +125,7 @@ protected:
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;
+	MyAction * editControl1Act;
 #endif
 
 	QMenu * toolbar_menu;
