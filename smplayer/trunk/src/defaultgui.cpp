@@ -675,10 +675,10 @@ void DefaultGui::saveConfig() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
-	set->setValue("toolbar1", ToolbarEditor::save(toolbar1) );
-	set->setValue("controlwidget", ToolbarEditor::save(controlwidget) );
-	set->setValue("controlwidget_mini", ToolbarEditor::save(controlwidget_mini) );
-	set->setValue("floating_control", ToolbarEditor::save(floating_control->toolbar()) );
+	set->setValue("toolbar1", toolbar1->actionsToStringList() );
+	set->setValue("controlwidget", controlwidget->actionsToStringList() );
+	set->setValue("controlwidget_mini", controlwidget_mini->actionsToStringList() );
+	set->setValue("floating_control", floating_control->toolbar()->actionsToStringList() );
 	set->setValue("toolbar1_version", TOOLBAR_VERSION);
 	set->endGroup();
 #endif
