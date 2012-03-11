@@ -19,7 +19,10 @@
      <item>
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>Available actions:</string>
+        <string>&amp;Available actions:</string>
+       </property>
+       <property name="buddy">
+        <cstring>all_actions_list</cstring>
        </property>
       </widget>
      </item>
@@ -48,28 +51,28 @@
        <item row="1" column="0">
         <widget class="QToolButton" name="left_button">
          <property name="text">
-          <string>Left</string>
+          <string>&amp;Left</string>
          </property>
         </widget>
        </item>
        <item row="1" column="2">
         <widget class="QToolButton" name="right_button">
          <property name="text">
-          <string>Right</string>
+          <string>&amp;Right</string>
          </property>
         </widget>
        </item>
        <item row="2" column="1">
         <widget class="QToolButton" name="down_button">
          <property name="text">
-          <string>Down</string>
+          <string>&amp;Down</string>
          </property>
         </widget>
        </item>
        <item row="0" column="1" colspan="2">
         <widget class="QToolButton" name="up_button">
          <property name="text">
-          <string>Up</string>
+          <string>&amp;Up</string>
          </property>
         </widget>
        </item>
@@ -95,7 +98,10 @@
      <item>
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>Current actions:</string>
+        <string>Curre&amp;nt actions:</string>
+       </property>
+       <property name="buddy">
+        <cstring>active_actions_list</cstring>
        </property>
       </widget>
      </item>
@@ -122,7 +128,7 @@
      <item>
       <widget class="QPushButton" name="separator_button">
        <property name="text">
-        <string>&amp;Insert separator</string>
+        <string>Add &amp;separator</string>
        </property>
       </widget>
      </item>
@@ -147,6 +153,16 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>all_actions_list</tabstop>
+  <tabstop>active_actions_list</tabstop>
+  <tabstop>left_button</tabstop>
+  <tabstop>up_button</tabstop>
+  <tabstop>right_button</tabstop>
+  <tabstop>down_button</tabstop>
+  <tabstop>separator_button</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>
