@@ -41,6 +41,9 @@ public:
 
 	void takeAvailableActionsFrom(QWidget * w) { widget = w; }
 
+	void setDefaultActions(QStringList action_names) { default_actions = action_names; }
+	QStringList defaultActions() { return default_actions; }
+
 public slots:
 	void edit();
 
@@ -49,6 +52,8 @@ protected:
 
 	QList<QAction *> all_actions;
 	QWidget * widget;
+
+	QStringList default_actions;
 };
 
 #endif
