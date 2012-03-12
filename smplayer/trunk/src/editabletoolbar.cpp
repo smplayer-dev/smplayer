@@ -53,6 +53,7 @@ void EditableToolbar::edit() {
 	ToolbarEditor e(widget);
 	e.setAllActions(allActions());
 	e.setActiveActions(this->actions());
+	e.setDefaultActions(defaultActions());
 
 	if (e.exec() == QDialog::Accepted) {
 		QStringList r = e.activeActionsToStringList();

@@ -70,6 +70,7 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 
 void ToolbarEditor::setAllActions(QList<QAction *> actions_list) {
 	populateList(all_actions_list, actions_list, false);
+	all_actions_copy = actions_list;
 }
 
 void ToolbarEditor::setActiveActions(QList<QAction *> actions_list) {
@@ -161,6 +162,26 @@ void ToolbarEditor::on_separator_button_clicked() {
 	} else {
 		active_actions_list->addItem(i);
 	}
+}
+
+void ToolbarEditor::on_default_button_clicked() {
+	qDebug("ToolbarEditor::on_default_button_clicked");
+	populateList(all_actions_list, all_actions_copy, false);
+
+	// Create list of actions
+	QList<QAction *> actions;
+	QAction * a = 0;
+	for (int n = 0; n < default_actions.count(); n++) {
+		if (default_actions[n] == "separator") {
+			QAction * sep = new QAction(this);
+			sep->setSeparator(true);
+			actions.push_back(sep);
+		} else {
+			a = findAction(default_actions[n], all_actions_copy);
+			if (a) actions.push_back(a);
+		}
+	}
+	setActiveActions(actions);
 }
 
 QStringList ToolbarEditor::activeActionsToStringList() {

@@ -41,6 +41,9 @@ public:
 
 	QStringList activeActionsToStringList();
 
+	void setDefaultActions(QStringList action_names) { default_actions = action_names; }
+	QStringList defaultActions() { return default_actions; }
+
 	//! Save the widget's list of actions into a QStringList 
 	static QStringList save(QWidget *w);
 
@@ -54,12 +57,16 @@ protected slots:
 	void on_right_button_clicked();
 	void on_left_button_clicked();
 	void on_separator_button_clicked();
+	void on_default_button_clicked();
 
 protected:
 	static QAction * findAction(QString s, QList<QAction *> actions_list);
 
 	static void populateList(QListWidget * w, QList<QAction *> actions_list, bool add_separators = false);
 	static int findItem(const QString & action_name, QListWidget * w);
+
+	QList<QAction *> all_actions_copy;
+	QStringList default_actions;
 };
 
 #endif
