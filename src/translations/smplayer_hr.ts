@@ -6381,6 +6381,10 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>D&amp;efaults</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>TristateCombo</name>

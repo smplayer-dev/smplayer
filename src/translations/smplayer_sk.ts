@@ -8014,13 +8014,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="131"/>
+        <location filename="../toolbareditor.ui" line="118"/>
+        <source>D&amp;efaults</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../toolbareditor.ui" line="138"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="155"/>
+        <location filename="../toolbareditor.cpp" line="156"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

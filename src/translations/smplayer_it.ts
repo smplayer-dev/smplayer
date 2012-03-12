@@ -8038,13 +8038,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+17"/>
+        <source>D&amp;efaults</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="+63"/>
-        <location line="+92"/>
+        <location line="+93"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>
