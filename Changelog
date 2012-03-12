@@ -1,5 +1,18 @@
 [b]Version 0.7.2[/b]:
 
+(2012-03-13)
+ * Toolbar editor. If you right click on any toolbar you'll get a menu
+   with options to edit the toolbars (including the control bars).
+   That will show a new dialog, with two list. On the left you'll see
+   all available actions (mainly buttons, but also volume or seek sliders) 
+   and on the right the current actions.
+   The left and right buttons allow to move actions from one list to the
+   other. The up and down buttons move the selected action in the current
+   actions' list.
+   The "add separator" button allows to add more separators.
+   The "defaults" button removes all your changes in the current actions' 
+   list and sets the default actions for the toolbar.
+
 (2012-03-08)
  * Use QtSingleApplication instead of the old client/server code to use a 
    single instance and communication with other instances.
