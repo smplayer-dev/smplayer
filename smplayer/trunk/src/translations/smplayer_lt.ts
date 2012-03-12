@@ -1555,8 +1555,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     </message>
     <message>
         <source>Edit &amp;floating control</source>
-        <translatorcomment>Keisti &amp;plaukiojantį valdymą</translatorcomment>
-        <translation></translation>
+        <translation>Keisti &amp;plaukiojantį valdymą</translation>
     </message>
 </context>
 <context>
