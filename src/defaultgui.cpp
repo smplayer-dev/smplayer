@@ -216,8 +216,8 @@ void DefaultGui::createMainToolBars() {
 	addToolBar(Qt::TopToolBarArea, toolbar1);
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList toolbar1_actions;
-	toolbar1_actions << "open_file" << "open_dvd" << "open_url" << "favorites_menu" << "separator" << "compact" << "fullscreen"
-                     << "separator" << "screenshot" << "separator" << "show_file_properties" << "show_playlist" 
+	toolbar1_actions << "open_file" << "open_url" << "favorites_menu" << "separator"
+                     << "screenshot" << "separator" << "show_file_properties" << "show_playlist"
                      << "show_preferences" << "separator" << "play_prev" << "play_next";
 	toolbar1->setDefaultActions(toolbar1_actions);
 #else
