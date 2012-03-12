@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="lt_LT">
 <context>
     <name>About</name>
     <message>
@@ -1543,19 +1543,20 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     </message>
     <message>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Keisti pagrindinę į&amp;rankių juostą</translation>
     </message>
     <message>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Keisti &amp;valdymo juostą</translation>
     </message>
     <message>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Keisti &amp;mini valdymo juostą</translation>
     </message>
     <message>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Keisti &amp;plaukiojantį valdymą</translatorcomment>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -1983,9 +1984,10 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>
-            </numerusform>
+        <translation>
+            <numerusform>%1 subtitras išgautas</numerusform>
+            <numerusform>%1 subtitrai išgauti</numerusform>
+            <numerusform>%1 subtitrų išgauta</numerusform>
         </translation>
     </message>
     <message>
@@ -3142,11 +3144,11 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Keisti &amp;valdymo juostą</translation>
     </message>
     <message>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Keisti &amp;plaukiojantį valdymą</translation>
     </message>
 </context>
 <context>
@@ -6197,14 +6199,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n sekundė(-ės)</numerusform>
+        <translation>
+            <numerusform>%n sekundė</numerusform>
+            <numerusform>%n sekundės</numerusform>
+            <numerusform>%n sekundžių</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n minutė(-ės)</numerusform>
+        <translation>
+            <numerusform>%n minutė</numerusform>
+            <numerusform>%n minutės</numerusform>
+            <numerusform>%n minučių</numerusform>
         </translation>
     </message>
     <message>
@@ -6341,39 +6347,39 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>ToolbarEditor</name>
     <message>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Įrankių juostos redaktorius</translation>
     </message>
     <message>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Galimi veiksmai:</translation>
     </message>
     <message>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kairėn</translation>
     </message>
     <message>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dešinėn</translation>
     </message>
     <message>
         <source>&amp;Down</source>
-        <translation type="unfinished">&amp;Žemyn</translation>
+        <translation>&amp;Žemyn</translation>
     </message>
     <message>
         <source>&amp;Up</source>
-        <translation type="unfinished">A&amp;ukštyn</translation>
+        <translation>A&amp;ukštyn</translation>
     </message>
     <message>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dabartiniai &amp;veiksmai:</translation>
     </message>
     <message>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridėti &amp;skirtuką</translation>
     </message>
     <message>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(skirtukas)</translation>
     </message>
 </context>
 <context>
