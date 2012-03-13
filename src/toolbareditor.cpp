@@ -45,6 +45,13 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
             this, SLOT(checkRowsAllList(int)));
 	connect(active_actions_list, SIGNAL(currentRowChanged(int)),
             this, SLOT(checkRowsActiveList(int)));
+
+	active_actions_list->setSelectionMode(QAbstractItemView::SingleSelection);
+	active_actions_list->setDragEnabled(true);
+	active_actions_list->viewport()->setAcceptDrops(true);
+	active_actions_list->setDropIndicatorShown(true);
+	//active_actions_list->setDefaultDropAction(Qt::MoveAction); // Qt 4.6
+	active_actions_list->setDragDropMode(QAbstractItemView::InternalMove);
 }
 
 ToolbarEditor::~ToolbarEditor() {
