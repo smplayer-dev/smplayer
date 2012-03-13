@@ -40,6 +40,11 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
 
 	QPushButton * restore = buttonBox->button(QDialogButtonBox::RestoreDefaults);
 	connect(restore, SIGNAL(clicked()), this, SLOT(restoreDefaults()));
+
+	connect(all_actions_list, SIGNAL(currentRowChanged(int)),
+            this, SLOT(checkRowsAllList(int)));
+	connect(active_actions_list, SIGNAL(currentRowChanged(int)),
+            this, SLOT(checkRowsActiveList(int)));
 }
 
 ToolbarEditor::~ToolbarEditor() {
@@ -193,6 +198,23 @@ QStringList ToolbarEditor::activeActionsToStringList() {
 		o << active_actions_list->item(n)->data(Qt::UserRole).toString();
 	}
 	return o;
+}
+
+void ToolbarEditor::checkRowsAllList(int currentRow) {
+	qDebug("ToolbarEditor::checkRowsAllList: current row: %d", currentRow);
+	right_button->setEnabled(currentRow > -1);
+}
+
+void ToolbarEditor::checkRowsActiveList(int currentRow) {
+	qDebug("ToolbarEditor::checkRowsActiveList: current row: %d", currentRow);
+	left_button->setEnabled(currentRow > -1);
+	if (currentRow == -1) {
+		up_button->setEnabled(false);
+		down_button->setEnabled(false);
+	} else {
+		up_button->setEnabled((currentRow > 0));
+		down_button->setEnabled((currentRow < active_actions_list->count()-1));
+	}
 }
 
 QStringList ToolbarEditor::save(QWidget * w) {
