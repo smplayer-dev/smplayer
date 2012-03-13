@@ -58,6 +58,8 @@ protected slots:
 	void on_left_button_clicked();
 	void on_separator_button_clicked();
 	void restoreDefaults();
+	void checkRowsAllList(int currentRow);
+	void checkRowsActiveList(int currentRow);
 
 protected:
 	static QAction * findAction(QString s, QList<QAction *> actions_list);
