@@ -1943,22 +1943,22 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../defaultgui.cpp" line="515"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Edi&amp;tar barra principal</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="516"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar barra de &amp;controlo</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="517"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ed&amp;itar barra de controlo pequena</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="518"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar controlo &amp;flutuante</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="549"/>
@@ -3990,12 +3990,12 @@ Substituir?</translation>
     <message>
         <location filename="../minigui.cpp" line="160"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar barra de &amp;controlo</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="161"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar controlo &amp;flutuante</translation>
     </message>
 </context>
 <context>
@@ -7978,48 +7978,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Editor da barra de ferramentas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ações disponíveis:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="54"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Esquerda</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="61"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Direita</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="68"/>
         <source>&amp;Down</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Baixo</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="75"/>
         <source>&amp;Up</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cima</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="101"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ações a&amp;tuais:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar &amp;separador</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="66"/>
         <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(separador)</translation>
     </message>
 </context>
 <context>
