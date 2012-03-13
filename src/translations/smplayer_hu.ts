@@ -6342,10 +6342,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Jelölje be, ha egy már futó SMPlayer példányt kíván használni más fájlok megnyitásához.</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">Az SMPlayernek figyelnie kell egy portot hogy parancsokat kaphasson más példányoktól. Megváltoztathatja a portot ha az alapértelmezettet más alkalmazás használja.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="162"/>
         <source>Default GUI</source>
         <translation>Alap felület</translation>
@@ -6369,30 +6365,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="313"/>
         <source>&amp;GUI</source>
         <translation>Fel&amp;ület</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Automatikus port</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">Az SMPlayernek figyelnie kell egy portot hogy parancsokat kaphasson más példányoktól. Ezen opció használatával automatikusan lesz kiválasztva egy port.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Kézi port</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Figyelendő port</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Automatikus</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Kézi</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="593"/>
@@ -8034,18 +8006,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

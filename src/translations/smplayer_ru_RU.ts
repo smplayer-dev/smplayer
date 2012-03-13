@@ -6346,10 +6346,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Выберите эту опцию, если хотите использовать уже запущенную копию SMPlayer при открытии новых файлов.</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">SMPlayer требует прослушивания порта для получения команд от других экземпляров. Если значение по умолчанию используется другим приложением, вы можете изменить его.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="162"/>
         <source>Default GUI</source>
         <translation>По умолчанию</translation>
@@ -6373,30 +6369,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="313"/>
         <source>&amp;GUI</source>
         <translation>&amp;Интерфейс</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Порт автоматически</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">SMPlayer требует прослушивания порта для получения команд от других экземпляров. Если вы отметите эту опцию, порт будет выбран автоматически.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Указание порта вручную</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Порт для прослушивания</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Автоматически</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Вручную</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="593"/>
@@ -7910,10 +7882,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;элемент&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный плейлист в формате m3u или pls.</translation>
     </message>
-    <message>
-        <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="obsolete">Отключает сервер, используемый для связи с другими экземплярами приложения. Также отключается возможность использовать один экземпляр.</translation>
-    </message>
 </context>
 <context>
     <name>QuaZipFile</name>
@@ -8046,18 +8014,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

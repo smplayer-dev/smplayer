@@ -6371,18 +6371,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Port kuulamiseks</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Automaatne</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Manuaalne</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="593"/>
         <source>Floating control</source>
         <translation type="unfinished"></translation>
@@ -8024,18 +8012,13 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

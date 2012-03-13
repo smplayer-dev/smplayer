@@ -9,10 +9,6 @@
         <translation>Version: %1</translation>
     </message>
     <message>
-        <source>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</source>
-        <translation type="obsolete">Dieses Programm ist freie Software; Sie können es weitergeben und/oder es unter den Bedingungen der allgemeinen  GNU-Lizenz verändern, wie es durch die Free Software-Foundation festgelegt wurde; entweder Version 2 der Lizenz, oder (nach ihrer Wahl) eine neuere Version.</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="145"/>
         <source>The following people have contributed with translations:</source>
         <translation>Folgende Leute haben an der Übersetzung mitgewirkt:</translation>
@@ -197,14 +193,6 @@
         <translation>Holen Sie sich Hilfe in unserem Forum:</translation>
     </message>
     <message>
-        <source>You can support SMPlayer by making a donation.</source>
-        <translation type="obsolete">Sie können SMPlayer durch eine Spende unterstützen.</translation>
-    </message>
-    <message>
-        <source>More info</source>
-        <translation type="obsolete">Mehr Info</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="195"/>
         <source>Korean</source>
         <translation>Koreanisch</translation>
@@ -258,14 +246,6 @@
         <location filename="../about.cpp" line="202"/>
         <source>Galician</source>
         <translation>Galizisch</translation>
-    </message>
-    <message>
-        <source>The following people have contributed with patches (see the changelog for details):</source>
-        <translation type="obsolete">Folgende Leute haben mit Patches mitgewirkt (für Details siehe Changelog):</translation>
-    </message>
-    <message>
-        <source>If there&apos;s any omission, please report.</source>
-        <translation type="obsolete">Falls es zu einer Nichtberücksichtigung gekommen ist, melden Sie sich bitte.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="108"/>
@@ -1267,10 +1247,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>&amp;Häufig gestellte Fragen</translation>
     </message>
     <message>
-        <source>Visualize &amp;motion vectors</source>
-        <translation type="obsolete">&amp;Bewegungsvektoren visualisieren</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1526"/>
         <source>&amp;Command line options</source>
         <translation>&amp;Befehlszeilenoptionen</translation>
@@ -1279,10 +1255,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="3610"/>
         <source>SMPlayer command line options</source>
         <translation>Befehlszeilenoptionen für SMPlayer</translation>
-    </message>
-    <message>
-        <source>Enable &amp;closed caption</source>
-        <translation type="obsolete">&amp;Optionale Untertitel (closed caption) aktivieren</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1499"/>
@@ -1389,10 +1361,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1505"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>&amp;Untertitel auf OpenSubtitles.org hochladen …</translation>
-    </message>
-    <message>
-        <source>&amp;Tips</source>
-        <translation type="obsolete">&amp;Tipps</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1673"/>
@@ -1623,26 +1591,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>&amp;Programm</translation>
     </message>
     <message>
-        <source>&amp;Edit...</source>
-        <translation type="obsolete">&amp;Bearbeiten …</translation>
-    </message>
-    <message>
-        <source>Next TV channel</source>
-        <translation type="obsolete">Nächster Fernsehsender</translation>
-    </message>
-    <message>
-        <source>Previous TV channel</source>
-        <translation type="obsolete">Vorheriger Fernsehsender</translation>
-    </message>
-    <message>
-        <source>Next radio channel</source>
-        <translation type="obsolete">Nächster Radiosender</translation>
-    </message>
-    <message>
-        <source>Previous radio channel</source>
-        <translation type="obsolete">Vorheriger Radiosender</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1621"/>
         <source>&amp;TV</source>
         <translation>&amp;TV</translation>
@@ -1651,10 +1599,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1624"/>
         <source>Radi&amp;o</source>
         <translation>&amp;Radio</translation>
-    </message>
-    <message>
-        <source>&amp;Jump...</source>
-        <translation type="obsolete">&amp;Sprung …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1582"/>
@@ -1720,46 +1664,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1578"/>
         <source>Toggle deinterlacing</source>
         <translation>Deinterlacing ein-/ausschalten</translation>
-    </message>
-    <message>
-        <source>&amp;Show frame counter</source>
-        <translation type="obsolete">&amp;Anzahl der Einzelbilder anzeigen</translation>
-    </message>
-    <message>
-        <source>4:3 &amp;Letterbox</source>
-        <translation type="obsolete">4:3 &amp;Letterbox</translation>
-    </message>
-    <message>
-        <source>16:9 L&amp;etterbox</source>
-        <translation type="obsolete">16:9 L&amp;etterbox</translation>
-    </message>
-    <message>
-        <source>4:3 &amp;Panscan</source>
-        <translation type="obsolete">4:3 &amp;Pan &amp;&amp; Scan</translation>
-    </message>
-    <message>
-        <source>4:3 &amp;to 16:9</source>
-        <translation type="obsolete">4:3 &amp;zu 16:9</translation>
-    </message>
-    <message>
-        <source>&amp;Seek bar</source>
-        <translation type="obsolete">&amp;Zeitleiste</translation>
-    </message>
-    <message>
-        <source>&amp;Time</source>
-        <translation type="obsolete">&amp;Zeit</translation>
-    </message>
-    <message>
-        <source>Time + T&amp;otal time</source>
-        <translation type="obsolete">Zeit + Zeit t&amp;otal</translation>
-    </message>
-    <message>
-        <source>&amp;Pan &amp;&amp; scan</source>
-        <translation type="obsolete">&amp;Pan &amp;&amp; Scan</translation>
-    </message>
-    <message>
-        <source>Flip i&amp;mage</source>
-        <translation type="obsolete">&amp;Bild spiegeln</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1528"/>
@@ -2149,10 +2053,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
         <translation>Symbol</translation>
-    </message>
-    <message>
-        <source>&amp;New</source>
-        <translation type="obsolete">&amp;Neu</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
@@ -2916,10 +2816,6 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
         <source>1.0rc3 or newer</source>
         <translation>1.0rc3 oder neuer</translation>
     </message>
-    <message>
-        <source>Greater than 1.0rc2</source>
-        <translation type="obsolete">Jünger als 1.0rc2</translation>
-    </message>
 </context>
 <context>
     <name>InputURL</name>
@@ -2932,14 +2828,6 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
         <location filename="../inputurl.ui" line="64"/>
         <source>&amp;URL:</source>
         <translation>&amp;URL:</translation>
-    </message>
-    <message>
-        <source>It&apos;s a &amp;playlist</source>
-        <translation type="obsolete">&amp;Es ist ein Abspielliste</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the URL will be treated as a playlist: it will be opened as text and will play the URLs in it.</source>
-        <translation type="obsolete">Falls die Option aktiviert ist, wird die URL als Abspielliste behandelt: Sie wird als Textdatei geöffnet und die in ihr befindlichen URLs werden abgespielt.</translation>
     </message>
 </context>
 <context>
@@ -4300,44 +4188,9 @@ Möchten Sie sie überschreiben?</translation>
         <translation>Es sind noch ungespeicherte Änderungen vorhanden. Möchten Sie die Abspielliste speichern?</translation>
     </message>
     <message>
-        <source>Preferences</source>
-        <translation type="obsolete">Einstellungen</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
-    </message>
-</context>
-<context>
-    <name>PlaylistPreferences</name>
-    <message>
-        <source>Playlist - Preferences</source>
-        <translation type="obsolete">Abspielliste - Einstellungen</translation>
-    </message>
-    <message>
-        <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="obsolete">Mit dieser Option werden Dateien auch in Unterverzeichnissen rekursiv hinzugefügt. Ansonsten nur zum ausgewählten Verzeichnis.</translation>
-    </message>
-    <message>
-        <source>&amp;Add files in directories recursively</source>
-        <translation type="obsolete">&amp;Dateien aus untergeordneten Verzeichnissen einfügen (~rekursiv)</translation>
-    </message>
-    <message>
-        <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="obsolete">Diese Option erlaubt Infos anzuzeigen in der Abspielliste zu den hinzugefügten Dateien. Dies erlaubt die Anzeige der Titel Name (wenn verfügbar) und die Länge der Dateien. Andernfalls werden diese Informationen nicht zur Verfügung stehen, bis die Datei tatsächlich gespielt wird. Achtung: Diese Option kann langsam sein, speziell  bei vielen Dateien.</translation>
-    </message>
-    <message>
-        <source>Automatically get &amp;info about files added</source>
-        <translation type="obsolete">&amp;Automatische Infos über alle hinzugefügten Dateien erhalten</translation>
-    </message>
-    <message>
-        <source>&amp;Save copy of playlist on exit</source>
-        <translation type="obsolete">&amp;Speichere Kopie der Abspielliste beim Beenden</translation>
-    </message>
-    <message>
-        <source>&amp;Play files from start</source>
-        <translation type="obsolete">&amp;Wiedergabe der Dateien von Anfang an</translation>
     </message>
 </context>
 <context>
@@ -5685,18 +5538,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <translation>Dei&amp;nterlacing immer durchführen (außer für TV):</translation>
     </message>
     <message>
-        <source>Disable video filters when using vdpau</source>
-        <translation type="obsolete">Videofilter bei Anwendung von vdpau deaktivieren</translation>
-    </message>
-    <message>
-        <source>Usually video filters won&apos;t work when using vdpau as video output driver, so it&apos;s wise to keep this option checked.</source>
-        <translation type="obsolete">Wenn vdpau als Videoausgabetreiber aktiv ist, funktionieren Video-Filter in der Regel nicht. Deshalb ist es ratsam, diese Option zu aktivieren.</translation>
-    </message>
-    <message>
-        <source>Disable video filters when using vd&amp;pau</source>
-        <translation type="obsolete">Videofilter bei Anwendung von vd&amp;pau deaktivieren</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1004"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Hardware-AC3-Passthrough verwenden.</translation>
@@ -5705,70 +5546,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <location filename="../prefgeneral.cpp" line="1005"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Hinweis:&lt;/b&gt; keiner der Audiofilter wird angewendet, wenn diese Option aktiviert ist.</translation>
-    </message>
-    <message>
-        <source>Paths</source>
-        <translation type="obsolete">Pfade</translation>
-    </message>
-    <message>
-        <source>Change volume</source>
-        <translation type="obsolete">Lautstärke ändern</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will remember the volume for every file and will restore it when played again. For new files the default volume will be used.</source>
-        <translation type="obsolete">Falls aktiviert, erinnert sich SMPlayer an die Lautstärke für jede Datei und stellt sie wieder her, sobald die Datei gespielt wird. Für neue Dateien gilt die Standard-Lautstärke.</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Change volume on every file</source>
-        <translation type="obsolete">&amp;Lautstärke für jede Datei ändern</translation>
-    </message>
-    <message>
-        <source>Select the &amp;MPlayer executable:</source>
-        <translation type="obsolete">&amp;Die ausführbare Mplayer-Datei auswählen:</translation>
-    </message>
-    <message>
-        <source>&amp;Folder for storing screenshots:</source>
-        <translation type="obsolete">&amp;Verzeichnis für Bilschirmfotos:</translation>
-    </message>
-    <message>
-        <source>&amp;Default volume:</source>
-        <translation type="obsolete">&amp;Standard Lautstärke:</translation>
-    </message>
-    <message>
-        <source>Default volume</source>
-        <translation type="obsolete">Standard Lautstärke</translation>
-    </message>
-    <message>
-        <source>Sets the initial volume that new files will use.</source>
-        <translation type="obsolete">Ausgangslautstärke für neue Dateien festlegen.</translation>
-    </message>
-    <message>
-        <source>Uses hardware AC3 passthrough</source>
-        <translation type="obsolete">Benutze Hardware AC3 Durchlauf</translation>
-    </message>
-    <message>
-        <source>Change volume just before playing</source>
-        <translation type="obsolete">Änderung der Lautstärke kurz vor der Wiedergabe</translation>
-    </message>
-    <message>
-        <source>Dei&amp;nterlace by default:</source>
-        <translation type="obsolete">&amp;Deinterlacing als Standard:</translation>
-    </message>
-    <message>
-        <source>Change volume just before p&amp;laying</source>
-        <translation type="obsolete">&amp;Änderung der Lautstärke kurz vor der Wiedergabe</translation>
-    </message>
-    <message>
-        <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If this field is empty the screenshot feature will be disabled.</source>
-        <translation type="obsolete">Hier wird der Order zur Speicherung der Bildschirmfotos festgelegt. Ohne Eingabe wird die Funktion abgeschaltet.</translation>
-    </message>
-    <message>
-        <source>If this option is checked the initial volume will be set just before playback starts. This avoids a loud volume on startup. Requires at least MPlayer SVN r27872.</source>
-        <translation type="obsolete">Ist diese Option aktiviert, wird die Anfangslautstärke kurz vor der Wiedergabe bestimmt. Dadurch wird eine laute Wiedergabe beim Start vermieden. Benötigt mindestens MPlayer SVN-r27872. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="337"/>
@@ -6262,10 +6039,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <source>R&amp;everse wheel media seeking</source>
         <translation>&amp;Entgegengesetztes Spulen mit dem Mausrad</translation>
     </message>
-    <message>
-        <source>Activate option in DVD menus</source>
-        <translation type="obsolete">Aktivieren der Option in DVD-Menüs</translation>
-    </message>
 </context>
 <context>
     <name>PrefInterface</name>
@@ -6578,10 +6351,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Aktivieren Sie diese Option, wenn Sie einen bereits laufenden Prozess von SMPlayer, beim Öffnen von anderen Dateien, verwenden möchten.</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">SMPlayer muss einen Port abfragen, um Befehle von einem anderen Prozess zu erhalten. Der Port kann geändert werden, falls der Standard-Port von einem anderen Programm benutzt wird.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="162"/>
         <source>Default GUI</source>
         <translation>Standard-Oberfläche</translation>
@@ -6605,30 +6374,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefinterface.ui" line="313"/>
         <source>&amp;GUI</source>
         <translation>O&amp;berfläche</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Port automatisch</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">SMPlayer muss einen Port abfragen, um Befehle von anderen Prozessen zu erhalten. Mit dieser Option wird der Port automatisch gewählt.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Port manuell</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Abzufragender Port</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Automatisch</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Manuell</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="593"/>
@@ -7080,26 +6825,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefperformance.ui" line="591"/>
         <source>Cache for &amp;TV:</source>
         <translation>Zwischenspeicher für &amp;TV:</translation>
-    </message>
-    <message>
-        <source>Synchronization</source>
-        <translation type="obsolete">Synchronisation</translation>
-    </message>
-    <message>
-        <source>Audio/video auto synchronization</source>
-        <translation type="obsolete">Automatische Audio/Video Synchronisation</translation>
-    </message>
-    <message>
-        <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="obsolete">Justiert stufenweise die A/V Synchronisierung, die auf Audioverzögerungen (Delay) basiert.</translation>
-    </message>
-    <message>
-        <source>Audio/&amp;video auto synchronization</source>
-        <translation type="obsolete">&amp;Automatische Audio/Video Synchronisation</translation>
-    </message>
-    <message>
-        <source>Fact&amp;or:</source>
-        <translation type="obsolete">&amp;Faktor:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
@@ -7873,18 +7598,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <source>Custo&amp;mize...</source>
         <translation>&amp;Anpassen …</translation>
     </message>
-    <message>
-        <source>Apply style to ASS files too</source>
-        <translation type="obsolete">Stil für ASS-Dateien ebenfalls übernehmen</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the style defined above will be applied to ASS subtitles too.</source>
-        <translation type="obsolete">Bei aktivierter Option, wird der oben definierte Stil auf ASS Untertitel angewendet.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ASS files too</source>
-        <translation type="obsolete">&amp;Stil für ASS-Dateien ebenfalls übernehmen</translation>
-    </message>
 </context>
 <context>
     <name>PrefTV</name>
@@ -7957,14 +7670,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
         <translation>Beim Start na&amp;ch neuen Sendern suchen</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.</source>
-        <translation type="obsolete">Bei aktivierter Option sucht SMPlayer nache einer neuen TV- und Radioliste in ~/.mplayer/channels.conf.</translation>
-    </message>
-    <message>
-        <source>&amp;Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="obsolete">&amp;Rescan ~/.mplayer/channels.conf beim Start</translation>
     </message>
 </context>
 <context>
@@ -8070,10 +7775,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Stellt die alten Zuordnungen wieder her und bereinigt die Registry.</translation>
     </message>
     <message>
-        <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls. If the -playlist option is used, that means that SMPlayer will pass the -playlist option to MPlayer, so MPlayer will handle the playlist, not SMPlayer.</source>
-        <translation type="obsolete">Medien sind jede Art von Dateien, die SMPlayer öffnen kann. Dies kann eine lokale Datei sein, eine DVD (z. B. dvd://1), ein Internetstream (z. B. mms://…) oder eine lokale Abspielliste im Format m3u oder pls. Wenn die Option „-playlist“ in Gebrauch ist, was bedeutet, dass SMPlayer die Option „-playlist“ an MPlayer weitergibt, verarbeitet MPlayer die Abspielliste, nicht SMPlayer.</translation>
-    </message>
-    <message>
         <location filename="../clhelp.cpp" line="103"/>
         <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
@@ -8108,20 +7809,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../clhelp.cpp" line="154"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>Gibt die zu ladende Untertiteldatei für das erste Video an.</translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 second(s)</source>
-        <translation type="obsolete">
-            <numerusform>%1 Sekunde</numerusform>
-            <numerusform>%1 Sekunden</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 minute(s)</source>
-        <translation type="obsolete">
-            <numerusform>%1 Minute</numerusform>
-            <numerusform>%1 Minuten</numerusform>
-        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="77"/>
@@ -8198,10 +7885,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../clhelp.cpp" line="172"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;Medien&apos; sind alle Dateien, die SMPlayer öffnen kann. Es kann eine lokale Datei, eine DVD (z. B. dvd://1), ein Internet-Stream (z. B. mms://...) oder eine lokale Playlist in den Formaten m3u oder pls sein.</translation>
-    </message>
-    <message>
-        <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="obsolete">Deaktiviert den Server, der zur Kommunikation mit anderen Instanzen verwendet wird. Dies deaktiviert auch die Möglichkeit, eine einzelne Instanz zu benutzen.</translation>
     </message>
 </context>
 <context>
@@ -8296,10 +7979,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <source>&amp;Jump to:</source>
         <translation>&amp;Sprung zu:</translation>
     </message>
-    <message>
-        <source>SMPlayer - Seek</source>
-        <translation type="obsolete">SMPlayer - Positionierung</translation>
-    </message>
 </context>
 <context>
     <name>ToolbarEditor</name>
@@ -8339,18 +8018,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

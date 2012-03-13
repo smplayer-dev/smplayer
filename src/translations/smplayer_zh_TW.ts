@@ -6368,22 +6368,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>圖形使用者界面 (&amp;GUI)</translation>
     </message>
     <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">自動的連接埠</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">手動的連接埠</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">自動(&amp;A)</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">手動(&amp;M)</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="593"/>
         <source>Floating control</source>
         <translation type="unfinished"></translation>
@@ -8023,18 +8007,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>
