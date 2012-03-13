@@ -57,7 +57,7 @@ protected slots:
 	void on_right_button_clicked();
 	void on_left_button_clicked();
 	void on_separator_button_clicked();
-	void on_default_button_clicked();
+	void restoreDefaults();
 
 protected:
 	static QAction * findAction(QString s, QList<QAction *> actions_list);

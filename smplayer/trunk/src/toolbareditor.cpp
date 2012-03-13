@@ -37,6 +37,9 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
 
 	right_button->setIcon( Images::icon("up").transformed(matrix) );
 	left_button->setIcon( Images::icon("down").transformed(matrix) );
+
+	QPushButton * restore = buttonBox->button(QDialogButtonBox::RestoreDefaults);
+	connect(restore, SIGNAL(clicked()), this, SLOT(restoreDefaults()));
 }
 
 ToolbarEditor::~ToolbarEditor() {
@@ -164,8 +167,8 @@ void ToolbarEditor::on_separator_button_clicked() {
 	}
 }
 
-void ToolbarEditor::on_default_button_clicked() {
-	qDebug("ToolbarEditor::on_default_button_clicked");
+void ToolbarEditor::restoreDefaults() {
+	qDebug("ToolbarEditor::restoreDefaults");
 	populateList(all_actions_list, all_actions_copy, false);
 
 	// Create list of actions
