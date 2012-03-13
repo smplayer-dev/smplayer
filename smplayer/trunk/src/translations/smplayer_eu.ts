@@ -6325,10 +6325,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Hautatu aukera hau nahi baduzu erabiltzea jadanik ekinean dagoen SMPlayerren eskabide bat beste agiri batzuk irekitzerakoan.</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">SMPlayerrek behar du ataka bat aditzea beste eskabide batzuetatik komandoak jasotzeko. Ataka aldatu dezakezu berezkoetako bat  beste aplikazio batek erabiltzen badu.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="162"/>
         <source>Default GUI</source>
         <translation>Lehenetsitako GUI</translation>
@@ -6352,30 +6348,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../prefinterface.ui" line="313"/>
         <source>&amp;GUI</source>
         <translation>G&amp;UI</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Berezgaitasunezko ataka</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">SMPlayerrek behar du ataka bat aditzea beste eskabide batzuetatik komandoak jasotzeko. Aukera hau hautatzen baduzu, berezgaitasunez hautatuko da ataka bat.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Eskuzko ataka</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Aditze ataka</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Berezgaitasunez</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Eskuz</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="593"/>
@@ -8040,18 +8012,13 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

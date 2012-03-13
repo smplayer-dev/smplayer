@@ -6344,10 +6344,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>その他のファイルを開くときにすでに実行中の SMPlayer のインスタンスを使用したい場合はこのオプションをチェックします。</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">SMPlayer はその他のインスタンスからコマンドを受信するのにポートの聴取を必要とします。既定のものが別のアプリケーションによって使用されている場合はポートを変更できます。</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="162"/>
         <source>Default GUI</source>
         <translation>デフォルト GUI</translation>
@@ -6371,30 +6367,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="313"/>
         <source>&amp;GUI</source>
         <translation>GUI(&amp;G)</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">自動ポート</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">SMPlayer はその他のインスタンスからコマンドを受信するのにポートの聴取を必要とします。このオプションを選択すると、ポートは自動的に選択されます。</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">手動ポート</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">聴取するポート</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">自動(&amp;A)</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">手動(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="593"/>
@@ -7904,10 +7876,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;media&apos; は SMPlayer が開けるあらゆるファイルです。ローカル ファイル、DVD (例: dvd://1)、インターネット ストリーム (例: mms://....) または m3u や pls のフォーマットのローカル プレイリストになれます。</translation>
     </message>
-    <message>
-        <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="obsolete">他のインスタンスとの通信に使用されるサーバーを無効にします。これは 1 つのみのインスタンスを使用できることも無効にします。</translation>
-    </message>
 </context>
 <context>
     <name>QuaZipFile</name>
@@ -8040,18 +8008,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

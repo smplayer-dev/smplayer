@@ -6346,10 +6346,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare questa opzione se si vuole usare una istanza di SMPlayer già esistente all&apos;apertura di nuovi file.</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">SMPlayer deve essere in ascolto su una porta per ricevere comandi da altre istanza. Puoi cambiare la porta predefinita in caso essa sia in uso da parte di un&apos;altra applicazione.</translation>
-    </message>
-    <message>
         <location line="-427"/>
         <source>Default GUI</source>
         <translation>Interfaccia predefinita</translation>
@@ -6373,30 +6369,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="-200"/>
         <source>&amp;GUI</source>
         <translation>&amp;Interfaccia</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Porta automatica</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">SMPlayer deve essere in ascolto su una porta per ricevere comandi da altre istanze. Selezionando questa opzione, ne sarà scelta una automaticamente.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Porta manuale</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Porta in ascolto</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Automatico</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Manuale</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="+52"/>
@@ -8038,17 +8010,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+20"/>
+        <location line="+30"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="+63"/>
+        <location filename="../toolbareditor.cpp" line="+66"/>
         <location line="+93"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>

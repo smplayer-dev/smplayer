@@ -6349,10 +6349,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Zaznacz tę opcję, jeśli chcesz otwierać inne pliki przez aktualnie uruchomioną kopię programu SMPlayer.</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">SMPlayer wymaga portu nasłuchu w celu otrzymywania komend od innych przypadków. Możesz zmienić port w wypadku gdy port domyślny używany jest przez inny program.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="162"/>
         <source>Default GUI</source>
         <translation>Domyślne GUI</translation>
@@ -6376,30 +6372,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../prefinterface.ui" line="313"/>
         <source>&amp;GUI</source>
         <translation>&amp;GUI</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Port automatycznie</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">SMPlayer wymaga portu nasłuchu w celu otrzymywania komend od innych przypadków. Jeśli zaznaczysz tę opcję, port zostanie wybrany automatycznie.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Port ręcznie</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Port nasłuchu</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Automatycznie</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Ręcznie</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="593"/>
@@ -8045,18 +8017,13 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="118"/>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="138"/>
+        <location filename="../toolbareditor.ui" line="131"/>
         <source>Add &amp;separator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="63"/>
-        <location filename="../toolbareditor.cpp" line="156"/>
+        <location filename="../toolbareditor.cpp" line="66"/>
+        <location filename="../toolbareditor.cpp" line="159"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>

@@ -5011,10 +5011,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pažymėkite, jei naujų failų atvėrimui norite naudoti jau veikiančią SMPlayer kopiją.</translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">Komandų iš kitų egzempliorių gavimui, SMPlayer reikalingas jungties praklausymas. Galima pakeisti jungtį, jei ją jau naudoja kita programa.</translation>
-    </message>
-    <message>
         <source>Default GUI</source>
         <translation>Įprastinė aplinka</translation>
     </message>
@@ -5033,30 +5029,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>&amp;GUI</source>
         <translation>&amp;Aplinka</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Automatinis prievadas</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">Komandų iš kitų egzempliorių gavimui, SMPlayer reikalingas prievado klausymas. Jei pažymėta ši parinktis, prievadas bus pasirinktas automatiškai.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Nurodyti prievadą</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Prievadas klausymui</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Automatiškai</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Rankiniu būdu</translation>
     </message>
     <message>
         <source>Floating control</source>
@@ -6259,10 +6231,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>„media“ yra betkokios rūšies failas kurį SMPlayer gali atverti. Tai gali būti vietinis failas pvz. DVD (dvd://1), interneto srautas (pvz. mms://....) arba vietinis grojaraštis, m3u ar pls formatu.</translation>
     </message>
-    <message>
-        <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="obsolete">Išjungia serverį skirtą bendrauti su kitomis kopijomis. Taipogi tai išjungia galimybę naudoti tik vieną kopiją.</translation>
-    </message>
 </context>
 <context>
     <name>QuaZipFile</name>
@@ -6379,10 +6347,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>(separator)</source>
         <translation>(skirtukas)</translation>
-    </message>
-    <message>
-        <source>D&amp;efaults</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

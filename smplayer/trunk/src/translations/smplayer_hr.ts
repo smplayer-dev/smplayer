@@ -5014,10 +5014,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Odaberi ovu opciju ako želite koristiti samo jednu pokrenutu kopiju SMPlayera istovremeno dok otvarate druge datoteke. </translation>
     </message>
     <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. You can change the port in case the default one is used by another application.</source>
-        <translation type="obsolete">SMPlayer mora slušati portove da bi primio komande za ostale instance. Možete promijeniti port u slučaju da je zadani zauzet od druge aplikacije.</translation>
-    </message>
-    <message>
         <source>Default GUI</source>
         <translation>Normalno grafičko sučelje</translation>
     </message>
@@ -5036,30 +5032,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>&amp;GUI</source>
         <translation>&amp;Grafičko sučelje</translation>
-    </message>
-    <message>
-        <source>Automatic port</source>
-        <translation type="obsolete">Automatski port</translation>
-    </message>
-    <message>
-        <source>SMPlayer needs to listen to a port to receive commands from other instances. If you select this option, a port will be automatically chosen.</source>
-        <translation type="obsolete">SMPlayer mora slušati portove da bi primio komande za ostale instance. Ovom opcijom port će biti automatski odabran.</translation>
-    </message>
-    <message>
-        <source>Manual port</source>
-        <translation type="obsolete">Ručni port</translation>
-    </message>
-    <message>
-        <source>Port to listen</source>
-        <translation type="obsolete">Port koji će se slušati</translation>
-    </message>
-    <message>
-        <source>&amp;Automatic</source>
-        <translation type="obsolete">&amp;Automatski</translation>
-    </message>
-    <message>
-        <source>&amp;Manual</source>
-        <translation type="obsolete">&amp;Ručno</translation>
     </message>
     <message>
         <source>Floating control</source>
@@ -6246,10 +6218,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
-    <message>
-        <source>Disables the server used to communicate with other instances. This disables too the possibility to use a single instance.</source>
-        <translation type="obsolete">Onemogućuje server koji se koristi za komunikaciju s ostalim instancama. Ovo također onemogućuje korištenje jedne instance.</translation>
-    </message>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
@@ -6379,10 +6347,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>D&amp;efaults</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
