@@ -46,12 +46,21 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
 	connect(active_actions_list, SIGNAL(currentRowChanged(int)),
             this, SLOT(checkRowsActiveList(int)));
 
+#if QT_VERSION >= 0x040600
+	all_actions_list->setSelectionMode(QAbstractItemView::SingleSelection);
+	all_actions_list->setDragEnabled(true);
+	all_actions_list->viewport()->setAcceptDrops(true);
+	all_actions_list->setDropIndicatorShown(true);
+	all_actions_list->setDefaultDropAction(Qt::MoveAction); // Qt 4.6
+	//all_actions_list->setDragDropMode(QAbstractItemView::InternalMove);
+
 	active_actions_list->setSelectionMode(QAbstractItemView::SingleSelection);
 	active_actions_list->setDragEnabled(true);
 	active_actions_list->viewport()->setAcceptDrops(true);
 	active_actions_list->setDropIndicatorShown(true);
-	//active_actions_list->setDefaultDropAction(Qt::MoveAction); // Qt 4.6
-	active_actions_list->setDragDropMode(QAbstractItemView::InternalMove);
+	active_actions_list->setDefaultDropAction(Qt::MoveAction); // Qt 4.6
+	//active_actions_list->setDragDropMode(QAbstractItemView::InternalMove);
+#endif
 }
 
 ToolbarEditor::~ToolbarEditor() {
