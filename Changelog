@@ -1,4 +1,10 @@
-[b]Version 0.7.2[/b]:
+[b]Version 0.8.0[/b]:
+
+(2012-03-15)
+ * Add gradfun to video -> filters.
+
+(2012-03-14)
+ * Support for drag and drop in the toolbar editor.
 
 (2012-03-13)
  * Toolbar editor. If you right click on any toolbar you'll get a menu
