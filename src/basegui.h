@@ -386,6 +386,7 @@ protected:
 	MyAction * phaseAct;
 	MyAction * deblockAct;
 	MyAction * deringAct;
+	MyAction * gradfunAct;
 	MyAction * addNoiseAct;
 	MyAction * addLetterboxAct;
 	MyAction * upscaleAct;

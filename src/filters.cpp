@@ -30,6 +30,7 @@ void Filters::init() {
 	// Video
 	list["noise"] = Filter(tr("add noise"), "noise", "9ah:5ah");
 	list["deblock"] = Filter(tr("deblock"), "pp", "vb/hb");
+	list["gradfun"] = Filter(tr("gradfun"), "gradfun");
 	list["denoise_normal"] = Filter(tr("normal denoise"), "hqdn3d");
 	list["denoise_soft"] = Filter(tr("soft denoise"), "hqdn3d", "2:1:2");
 

@@ -2060,6 +2060,12 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( "pp=dr" );
 	}
 
+	// Gradfun
+	if (mset.gradfun_filter) {
+		proc->addArgument("-vf-add");
+		proc->addArgument( pref->filters->item("gradfun").filter() );
+	}
+
 	// Upscale
 	if (mset.upscaling_filter) {
 		int width = DesktopInfo::desktop_size(mplayerwindow).width();
@@ -2629,6 +2635,18 @@ void Core::toggleDering(bool b) {
 	qDebug("Core::toggleDering: %d", b);
 	if ( b != mset.dering_filter) {
 		mset.dering_filter = b;
+		restartPlay();
+	}
+}
+
+void Core::toggleGradfun() {
+	toggleGradfun( !mset.gradfun_filter );
+}
+
+void Core::toggleGradfun(bool b) {
+	qDebug("Core::toggleGradfun: %d", b);
+	if ( b != mset.gradfun_filter) {
+		mset.gradfun_filter = b;
 		restartPlay();
 	}
 }
