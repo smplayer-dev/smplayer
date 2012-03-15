@@ -103,6 +103,7 @@ public:
 	int current_denoiser;
 	bool deblock_filter;
 	bool dering_filter;
+	bool gradfun_filter;
 	bool noise_filter;
 	bool postprocessing_filter;
 	bool upscaling_filter; //!< Software scaling

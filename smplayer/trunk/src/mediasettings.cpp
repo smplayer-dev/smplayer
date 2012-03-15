@@ -72,6 +72,7 @@ void MediaSettings::reset() {
     current_denoiser = NoDenoise;
     deblock_filter = false;
 	dering_filter = false;
+	gradfun_filter = false;
 	noise_filter = false;
 	postprocessing_filter = pref->initial_postprocessing;
 	upscaling_filter = false;
@@ -209,6 +210,7 @@ void MediaSettings::list() {
 	qDebug("  current_denoiser: %d", current_denoiser);
 	qDebug("  deblock_filter: %d", deblock_filter);
 	qDebug("  dering_filter: %d", dering_filter);
+	qDebug("  gradfun_filter: %d", gradfun_filter);
 	qDebug("  noise_filter: %d", noise_filter);
 	qDebug("  postprocessing_filter: %d", postprocessing_filter);
 	qDebug("  upscaling_filter: %d", upscaling_filter);
@@ -305,6 +307,7 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "current_denoiser", current_denoiser);
 	set->setValue( "deblock_filter", deblock_filter);
 	set->setValue( "dering_filter", dering_filter);
+	set->setValue( "gradfun_filter", gradfun_filter);
 	set->setValue( "noise_filter", noise_filter);
 	set->setValue( "postprocessing_filter", postprocessing_filter);
 	set->setValue( "upscaling_filter", upscaling_filter);
@@ -402,6 +405,7 @@ void MediaSettings::load(QSettings * set) {
 	current_denoiser = set->value( "current_denoiser", current_denoiser).toInt();
 	deblock_filter = set->value( "deblock_filter", deblock_filter).toBool();
 	dering_filter = set->value( "dering_filter", dering_filter).toBool();
+	gradfun_filter = set->value( "gradfun_filter", gradfun_filter).toBool();
 	noise_filter = set->value( "noise_filter", noise_filter).toBool();
 	postprocessing_filter = set->value( "postprocessing_filter", postprocessing_filter).toBool();
 	upscaling_filter = set->value( "upscaling_filter", upscaling_filter).toBool();

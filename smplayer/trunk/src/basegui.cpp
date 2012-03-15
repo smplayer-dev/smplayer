@@ -543,6 +543,11 @@ void BaseGui::createActions() {
 	connect( deringAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleDering(bool)) );
 
+	gradfunAct = new MyAction( this, "gradfun" );
+	gradfunAct->setCheckable( true );
+	connect( gradfunAct, SIGNAL(toggled(bool)),
+             core, SLOT(toggleGradfun(bool)) );
+
 	addNoiseAct = new MyAction( this, "add_noise" );
 	addNoiseAct->setCheckable( true );
 	connect( addNoiseAct, SIGNAL(toggled(bool)),
@@ -1126,6 +1131,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	phaseAct->setEnabled(b);
 	deblockAct->setEnabled(b);
 	deringAct->setEnabled(b);
+	gradfunAct->setEnabled(b);
 	addNoiseAct->setEnabled(b);
 	addLetterboxAct->setEnabled(b);
 	upscaleAct->setEnabled(b);
@@ -1263,6 +1269,7 @@ void BaseGui::enableActionsOnPlaying() {
 		phaseAct->setEnabled(false);
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
+		gradfunAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
 		addLetterboxAct->setEnabled(false);
 		upscaleAct->setEnabled(false);
@@ -1305,6 +1312,7 @@ void BaseGui::enableActionsOnPlaying() {
 		phaseAct->setEnabled(false);
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
+		gradfunAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
 		addLetterboxAct->setEnabled(false);
 		upscaleAct->setEnabled(false);
@@ -1459,6 +1467,7 @@ void BaseGui::retranslateStrings() {
 	phaseAct->change( tr("&Autodetect phase") );
 	deblockAct->change( tr("&Deblock") );
 	deringAct->change( tr("De&ring") );
+	gradfunAct->change( tr("Debanding (&gradfun)") );
 	addNoiseAct->change( tr("Add n&oise") );
 	addLetterboxAct->change( Images::icon("letterbox"), tr("Add &black borders") );
 	upscaleAct->change( Images::icon("upscaling"), tr("Soft&ware scaling") );
@@ -2202,12 +2211,13 @@ void BaseGui::createMenus() {
 	videofilter_menu = new QMenu(this);
 	videofilter_menu->menuAction()->setObjectName("videofilter_menu");
 	videofilter_menu->addAction(postProcessingAct);
-	videofilter_menu->addAction(phaseAct);
 	videofilter_menu->addAction(deblockAct);
 	videofilter_menu->addAction(deringAct);
+	videofilter_menu->addAction(gradfunAct);
 	videofilter_menu->addAction(addNoiseAct);
 	videofilter_menu->addAction(addLetterboxAct);
 	videofilter_menu->addAction(upscaleAct);
+	videofilter_menu->addAction(phaseAct);
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(denoiseGroup->actions());
 
@@ -3112,6 +3122,9 @@ void BaseGui::updateWidgets() {
 
 	// Dering
 	deringAct->setChecked( core->mset.dering_filter );
+
+	// Gradfun
+	gradfunAct->setChecked( core->mset.gradfun_filter );
 
 	// Add noise
 	addNoiseAct->setChecked( core->mset.noise_filter );
