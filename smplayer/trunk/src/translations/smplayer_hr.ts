@@ -1351,6 +1351,18 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>Pokretanje YouTube preglednika nije uspjelo</translation>
     </message>
+    <message>
+        <source>Debanding (&amp;gradfun)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>B&amp;lur</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>S&amp;harpen</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1814,6 +1826,18 @@ Primjer: resample=44100:0:0,volnorm</translation>
     <message>
         <source>volume normalization</source>
         <translation>normalizacija zvuka</translation>
+    </message>
+    <message>
+        <source>gradfun</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>blur</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sharpen</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
