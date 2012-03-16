@@ -2,6 +2,7 @@
 
 (2012-03-15)
  * Add gradfun to video -> filters.
+ * Add blur and sharpen filters.
 
 (2012-03-14)
  * Support for drag and drop in the toolbar editor.

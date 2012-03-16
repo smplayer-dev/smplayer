@@ -387,6 +387,8 @@ protected:
 	MyAction * deblockAct;
 	MyAction * deringAct;
 	MyAction * gradfunAct;
+	MyAction * blurAct;
+	MyAction * sharpenAct;
 	MyAction * addNoiseAct;
 	MyAction * addLetterboxAct;
 	MyAction * upscaleAct;
