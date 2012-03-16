@@ -158,6 +158,10 @@ public slots:
 	void toggleDering(bool b);
 	void toggleGradfun();
 	void toggleGradfun(bool b);
+	void toggleBlur();
+	void toggleBlur(bool b);
+	void toggleSharpen();
+	void toggleSharpen(bool b);
 	void toggleNoise();
 	void toggleNoise(bool b);
 	void togglePostprocessing();

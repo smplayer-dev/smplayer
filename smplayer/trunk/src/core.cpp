@@ -2066,6 +2066,18 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( pref->filters->item("gradfun").filter() );
 	}
 
+	// Blur
+	if (mset.blur_filter) {
+		proc->addArgument("-vf-add");
+		proc->addArgument( pref->filters->item("blur").filter() );
+	}
+
+	// Sharpen
+	if (mset.sharpen_filter) {
+		proc->addArgument("-vf-add");
+		proc->addArgument( pref->filters->item("sharpen").filter() );
+	}
+
 	// Upscale
 	if (mset.upscaling_filter) {
 		int width = DesktopInfo::desktop_size(mplayerwindow).width();
@@ -2647,6 +2659,30 @@ void Core::toggleGradfun(bool b) {
 	qDebug("Core::toggleGradfun: %d", b);
 	if ( b != mset.gradfun_filter) {
 		mset.gradfun_filter = b;
+		restartPlay();
+	}
+}
+
+void Core::toggleBlur() {
+	toggleBlur( !mset.blur_filter );
+}
+
+void Core::toggleBlur(bool b) {
+	qDebug("Core::toggleBlur: %d", b);
+	if ( b != mset.blur_filter) {
+		mset.blur_filter = b;
+		restartPlay();
+	}
+}
+
+void Core::toggleSharpen() {
+	toggleSharpen( !mset.sharpen_filter );
+}
+
+void Core::toggleSharpen(bool b) {
+	qDebug("Core::toggleSharpen: %d", b);
+	if ( b != mset.sharpen_filter) {
+		mset.sharpen_filter = b;
 		restartPlay();
 	}
 }

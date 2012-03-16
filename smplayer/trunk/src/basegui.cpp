@@ -548,6 +548,16 @@ void BaseGui::createActions() {
 	connect( gradfunAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleGradfun(bool)) );
 
+	blurAct = new MyAction( this, "blur" );
+	blurAct->setCheckable( true );
+	connect( blurAct, SIGNAL(toggled(bool)),
+             core, SLOT(toggleBlur(bool)) );
+
+	sharpenAct = new MyAction( this, "sharpen" );
+	sharpenAct->setCheckable( true );
+	connect( sharpenAct, SIGNAL(toggled(bool)),
+             core, SLOT(toggleSharpen(bool)) );
+
 	addNoiseAct = new MyAction( this, "add_noise" );
 	addNoiseAct->setCheckable( true );
 	connect( addNoiseAct, SIGNAL(toggled(bool)),
@@ -1132,6 +1142,8 @@ void BaseGui::setActionsEnabled(bool b) {
 	deblockAct->setEnabled(b);
 	deringAct->setEnabled(b);
 	gradfunAct->setEnabled(b);
+	blurAct->setEnabled(b);
+	sharpenAct->setEnabled(b);
 	addNoiseAct->setEnabled(b);
 	addLetterboxAct->setEnabled(b);
 	upscaleAct->setEnabled(b);
@@ -1270,6 +1282,8 @@ void BaseGui::enableActionsOnPlaying() {
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
 		gradfunAct->setEnabled(false);
+		blurAct->setEnabled(false);
+		sharpenAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
 		addLetterboxAct->setEnabled(false);
 		upscaleAct->setEnabled(false);
@@ -1313,6 +1327,8 @@ void BaseGui::enableActionsOnPlaying() {
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
 		gradfunAct->setEnabled(false);
+		blurAct->setEnabled(false);
+		sharpenAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
 		addLetterboxAct->setEnabled(false);
 		upscaleAct->setEnabled(false);
@@ -1468,6 +1484,8 @@ void BaseGui::retranslateStrings() {
 	deblockAct->change( tr("&Deblock") );
 	deringAct->change( tr("De&ring") );
 	gradfunAct->change( tr("Debanding (&gradfun)") );
+	blurAct->change( tr("B&lur") );
+	sharpenAct->change( tr("S&harpen") );
 	addNoiseAct->change( tr("Add n&oise") );
 	addLetterboxAct->change( Images::icon("letterbox"), tr("Add &black borders") );
 	upscaleAct->change( Images::icon("upscaling"), tr("Soft&ware scaling") );
@@ -2214,6 +2232,8 @@ void BaseGui::createMenus() {
 	videofilter_menu->addAction(deblockAct);
 	videofilter_menu->addAction(deringAct);
 	videofilter_menu->addAction(gradfunAct);
+	videofilter_menu->addAction(blurAct);
+	videofilter_menu->addAction(sharpenAct);
 	videofilter_menu->addAction(addNoiseAct);
 	videofilter_menu->addAction(addLetterboxAct);
 	videofilter_menu->addAction(upscaleAct);
@@ -3125,6 +3145,12 @@ void BaseGui::updateWidgets() {
 
 	// Gradfun
 	gradfunAct->setChecked( core->mset.gradfun_filter );
+
+	// Blur
+	blurAct->setChecked( core->mset.blur_filter );
+
+	// Sharpen
+	sharpenAct->setChecked( core->mset.sharpen_filter );
 
 	// Add noise
 	addNoiseAct->setChecked( core->mset.noise_filter );
