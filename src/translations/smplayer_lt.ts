@@ -1351,6 +1351,18 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <source>Check for &amp;updates</source>
         <translation>&amp;Ieškoti atnaujinimų</translation>
     </message>
+    <message>
+        <source>Debanding (&amp;gradfun)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>B&amp;lur</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>S&amp;harpen</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1814,6 +1826,18 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <source>volume normalization</source>
         <translation>garso lygio sulyginimas</translation>
+    </message>
+    <message>
+        <source>gradfun</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>blur</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sharpen</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
