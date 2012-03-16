@@ -1059,17 +1059,17 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1486"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>B&amp;lur</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Turvar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>S&amp;harpen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Acentuar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1545"/>
@@ -2289,7 +2289,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>gradfun</source>
-        <translation type="unfinished"></translation>
+        <translation>gradfun</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
@@ -2304,12 +2304,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filters.cpp" line="36"/>
         <source>blur</source>
-        <translation type="unfinished"></translation>
+        <translation>turvar</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>sharpen</source>
-        <translation type="unfinished"></translation>
+        <translation>acentuar</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="40"/>
