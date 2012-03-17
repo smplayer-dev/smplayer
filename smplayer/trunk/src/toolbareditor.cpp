@@ -75,7 +75,7 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 		if (action) {
 			if (!action->objectName().isEmpty()) {
 				QListWidgetItem * i = new QListWidgetItem;
-				QString text = action->text().replace("&", "");
+				QString text = fixname(action->text(), action->objectName());
 				i->setText(text + " ("+ action->objectName() +")");
 				i->setIcon(action->icon());
 				i->setData(Qt::UserRole, action->objectName());
@@ -231,6 +231,21 @@ void ToolbarEditor::checkRowsActiveList(int currentRow) {
 		up_button->setEnabled((currentRow > 0));
 		down_button->setEnabled((currentRow < active_actions_list->count()-1));
 	}
+}
+
+QString ToolbarEditor::fixname(const QString & name, const QString & action_name) {
+	QString s = name;
+	s = s.replace("&", "");
+	if (action_name == "timeslider_action") s = tr("Time slider");
+	else
+	if (action_name == "volumeslider_action") s = tr("Volume slider");
+	else
+	if (action_name == "timelabel_action") s = tr("Display time");
+	else
+	if (action_name == "rewindbutton_action") s = tr("Popup button for rewind");
+	else
+	if (action_name == "forwardbutton_action") s = tr("Popup button for forward");
+	return s;
 }
 
 QStringList ToolbarEditor::save(QWidget * w) {
