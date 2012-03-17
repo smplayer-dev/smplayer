@@ -2048,6 +2048,16 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+	// Unsharp
+	if (mset.current_unsharp != 0) {
+		proc->addArgument("-vf-add");
+		if (mset.current_unsharp == 1) {
+			proc->addArgument( pref->filters->item("blur").filter() );
+		} else {
+			proc->addArgument( pref->filters->item("sharpen").filter() );
+		}
+	}
+
 	// Deblock
 	if (mset.deblock_filter) {
 		proc->addArgument("-vf-add");
@@ -2064,18 +2074,6 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mset.gradfun_filter) {
 		proc->addArgument("-vf-add");
 		proc->addArgument( pref->filters->item("gradfun").filter() );
-	}
-
-	// Blur
-	if (mset.blur_filter) {
-		proc->addArgument("-vf-add");
-		proc->addArgument( pref->filters->item("blur").filter() );
-	}
-
-	// Sharpen
-	if (mset.sharpen_filter) {
-		proc->addArgument("-vf-add");
-		proc->addArgument( pref->filters->item("sharpen").filter() );
 	}
 
 	// Upscale
@@ -2663,30 +2661,6 @@ void Core::toggleGradfun(bool b) {
 	}
 }
 
-void Core::toggleBlur() {
-	toggleBlur( !mset.blur_filter );
-}
-
-void Core::toggleBlur(bool b) {
-	qDebug("Core::toggleBlur: %d", b);
-	if ( b != mset.blur_filter) {
-		mset.blur_filter = b;
-		restartPlay();
-	}
-}
-
-void Core::toggleSharpen() {
-	toggleSharpen( !mset.sharpen_filter );
-}
-
-void Core::toggleSharpen(bool b) {
-	qDebug("Core::toggleSharpen: %d", b);
-	if ( b != mset.sharpen_filter) {
-		mset.sharpen_filter = b;
-		restartPlay();
-	}
-}
-
 void Core::toggleNoise() {
 	toggleNoise( !mset.noise_filter );
 }
@@ -2715,6 +2689,14 @@ void Core::changeDenoise(int id) {
 	qDebug( "Core::changeDenoise: %d", id );
 	if (id != mset.current_denoiser) {
 		mset.current_denoiser = id;
+		restartPlay();
+	}
+}
+
+void Core::changeUnsharp(int id) {
+	qDebug( "Core::changeUnsharp: %d", id );
+	if (id != mset.current_unsharp) {
+		mset.current_unsharp = id;
 		restartPlay();
 	}
 }

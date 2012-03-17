@@ -387,8 +387,6 @@ protected:
 	MyAction * deblockAct;
 	MyAction * deringAct;
 	MyAction * gradfunAct;
-	MyAction * blurAct;
-	MyAction * sharpenAct;
 	MyAction * addNoiseAct;
 	MyAction * addLetterboxAct;
 	MyAction * upscaleAct;
@@ -508,6 +506,12 @@ protected:
 	MyAction * denoiseNoneAct;
 	MyAction * denoiseNormalAct;
 	MyAction * denoiseSoftAct;
+
+	// Blur-sharpen group
+	MyActionGroup * unsharpGroup;
+	MyAction * unsharpNoneAct;
+	MyAction * blurAct;
+	MyAction * sharpenAct;
 
 	// Window Size Action Group
 	MyActionGroup * sizeGroup;

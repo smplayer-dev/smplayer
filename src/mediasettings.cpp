@@ -69,15 +69,14 @@ void MediaSettings::reset() {
 	speed = 1.0;
 
 	phase_filter = false;
-    current_denoiser = NoDenoise;
-    deblock_filter = false;
+	deblock_filter = false;
 	dering_filter = false;
 	gradfun_filter = false;
-	blur_filter = false;
-	sharpen_filter = false;
 	noise_filter = false;
 	postprocessing_filter = pref->initial_postprocessing;
 	upscaling_filter = false;
+	current_denoiser = NoDenoise;
+	current_unsharp = 0;
 
 	//current_deinterlacer = NoDeinterlace;
 	current_deinterlacer = pref->initial_deinterlace;
@@ -209,15 +208,14 @@ void MediaSettings::list() {
 	qDebug("  speed: %f", speed);
 
 	qDebug("  phase_filter: %d", phase_filter);
-	qDebug("  current_denoiser: %d", current_denoiser);
 	qDebug("  deblock_filter: %d", deblock_filter);
 	qDebug("  dering_filter: %d", dering_filter);
 	qDebug("  gradfun_filter: %d", gradfun_filter);
-	qDebug("  blur_filter: %d", blur_filter);
-	qDebug("  sharpen_filter: %d", sharpen_filter);
 	qDebug("  noise_filter: %d", noise_filter);
 	qDebug("  postprocessing_filter: %d", postprocessing_filter);
 	qDebug("  upscaling_filter: %d", upscaling_filter);
+	qDebug("  current_denoiser: %d", current_denoiser);
+	qDebug("  current_unsharp: %d", current_unsharp);
 
 	qDebug("  current_deinterlacer: %d", current_deinterlacer);
 
@@ -303,20 +301,19 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "hue", hue);
 	set->setValue( "saturation", saturation);
 
-    set->setValue("audio_equalizer", audio_equalizer );
+	set->setValue("audio_equalizer", audio_equalizer );
 
 	set->setValue( "speed", speed);
 
 	set->setValue( "phase_filter", phase_filter);
-	set->setValue( "current_denoiser", current_denoiser);
 	set->setValue( "deblock_filter", deblock_filter);
 	set->setValue( "dering_filter", dering_filter);
 	set->setValue( "gradfun_filter", gradfun_filter);
-	set->setValue( "blur_filter", blur_filter);
-	set->setValue( "sharpen_filter", sharpen_filter);
 	set->setValue( "noise_filter", noise_filter);
 	set->setValue( "postprocessing_filter", postprocessing_filter);
 	set->setValue( "upscaling_filter", upscaling_filter);
+	set->setValue( "current_denoiser", current_denoiser);
+	set->setValue( "current_unsharp", current_unsharp);
 
 	set->setValue( "current_deinterlacer", current_deinterlacer);
 
@@ -408,15 +405,14 @@ void MediaSettings::load(QSettings * set) {
 	speed = set->value( "speed", speed ).toDouble();
 
 	phase_filter = set->value( "phase_filter", phase_filter ).toBool();
-	current_denoiser = set->value( "current_denoiser", current_denoiser).toInt();
 	deblock_filter = set->value( "deblock_filter", deblock_filter).toBool();
 	dering_filter = set->value( "dering_filter", dering_filter).toBool();
 	gradfun_filter = set->value( "gradfun_filter", gradfun_filter).toBool();
-	blur_filter = set->value( "blur_filter", blur_filter).toBool();
-	sharpen_filter = set->value( "sharpen_filter", sharpen_filter).toBool();
 	noise_filter = set->value( "noise_filter", noise_filter).toBool();
 	postprocessing_filter = set->value( "postprocessing_filter", postprocessing_filter).toBool();
 	upscaling_filter = set->value( "upscaling_filter", upscaling_filter).toBool();
+	current_denoiser = set->value( "current_denoiser", current_denoiser).toInt();
+	current_unsharp = set->value( "current_unsharp", current_unsharp).toInt();
 
 	current_deinterlacer = set->value( "current_deinterlacer", current_deinterlacer ).toInt();
 
