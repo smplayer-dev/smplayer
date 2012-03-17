@@ -942,15 +942,15 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     </message>
     <message>
         <source>Denoise nor&amp;mal</source>
-        <translation>Pašalinti triukšmą (no&amp;rmaliai)</translation>
+        <translation type="obsolete">Pašalinti triukšmą (no&amp;rmaliai)</translation>
     </message>
     <message>
         <source>Denoise &amp;soft</source>
-        <translation>Pašalinti triukšmą (&amp;švelniai)</translation>
+        <translation type="obsolete">Pašalinti triukšmą (&amp;švelniai)</translation>
     </message>
     <message>
         <source>Denoise o&amp;ff</source>
-        <translation>&amp;Triukšmų pašalinimas išjungtas</translation>
+        <translation type="obsolete">&amp;Triukšmų pašalinimas išjungtas</translation>
     </message>
     <message>
         <source>Use SSA/&amp;ASS library</source>
@@ -1356,11 +1356,46 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>B&amp;lur</source>
+        <source>&amp;Off</source>
+        <comment>closed captions menu</comment>
+        <translation type="unfinished">Iš&amp;jungti</translation>
+    </message>
+    <message>
+        <source>De&amp;noise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>S&amp;harpen</source>
+        <source>Blur/S&amp;harp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Off</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished">Iš&amp;jungti</translation>
+    </message>
+    <message>
+        <source>&amp;Normal</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Soft</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;None</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished">&amp;Nieko</translation>
+    </message>
+    <message>
+        <source>&amp;Blur</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Sharpen</source>
+        <comment>unsharp menu</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>
