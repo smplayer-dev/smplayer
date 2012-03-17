@@ -192,7 +192,7 @@ void Preferences::reset() {
 	cache_for_tv = 3000;
 
 #ifdef YOUTUBE_SUPPORT
-	yt_quality = RetrieveYoutubeUrl::MP4_360p;
+	yt_quality = RetrieveYoutubeUrl::MP4_720p;
 #endif
 
 
