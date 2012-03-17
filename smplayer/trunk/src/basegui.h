@@ -636,7 +636,8 @@ protected:
 	QMenu * aspect_menu;
 	QMenu * osd_menu;
 	QMenu * deinterlace_menu;
-	//QMenu * denoise_menu;
+	QMenu * denoise_menu;
+	QMenu * unsharp_menu;
 	QMenu * videosize_menu;
 	QMenu * audiochannels_menu;
 	QMenu * stereomode_menu;
