@@ -603,27 +603,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1482"/>
         <source>&amp;Postprocessing</source>
-        <translation>&amp;Постобработка</translation>
+        <translation>Включить &amp;постобработку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1483"/>
         <source>&amp;Autodetect phase</source>
-        <translation>&amp;Автоопределение фазы</translation>
+        <translation>&amp;Автоопределять фазу</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1484"/>
         <source>&amp;Deblock</source>
-        <translation>Смазывание границ &amp;квадратов</translation>
+        <translation>Смазывать границы &amp;квадратов</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1485"/>
         <source>De&amp;ring</source>
-        <translation>Удаление к&amp;раевых артефактов</translation>
+        <translation>Удалять к&amp;раевые артефакты</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Add n&amp;oise</source>
-        <translation>Добавление &amp;шума</translation>
+        <translation>Добавить &amp;шумы</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
@@ -718,17 +718,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1486"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Убрать поло&amp;сатость (gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>B&amp;lur</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить размы&amp;тие</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>S&amp;harpen</source>
-        <translation type="unfinished"></translation>
+        <translation>Повысить ре&amp;зкость</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1545"/>
@@ -1259,7 +1259,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1491"/>
         <source>Soft&amp;ware scaling</source>
-        <translation>Про&amp;граммное масштабирование</translation>
+        <translation>Масштабировать про&amp;граммно</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1552"/>
@@ -1958,22 +1958,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="515"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать &amp;главную панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="516"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать панель &amp;управления</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="517"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать &amp;мини-панель управления</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="518"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать &amp;плавающую панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="549"/>
@@ -2289,7 +2289,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="33"/>
         <source>gradfun</source>
-        <translation type="unfinished"></translation>
+        <translation>фильтр gradfun</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="34"/>
@@ -2304,12 +2304,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filters.cpp" line="36"/>
         <source>blur</source>
-        <translation type="unfinished"></translation>
+        <translation>размытие</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="37"/>
         <source>sharpen</source>
-        <translation type="unfinished"></translation>
+        <translation>повышение резкости</translation>
     </message>
     <message>
         <location filename="../filters.cpp" line="40"/>
@@ -4021,12 +4021,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="160"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать панель &amp;управления</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="161"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактировать &amp;плавающую панель</translation>
     </message>
 </context>
 <context>
@@ -8011,48 +8011,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор панелей инструментов</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Доступные действия:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>В&amp;лево</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>В&amp;право</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">В&amp;низ</translation>
+        <translation>В&amp;низ</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">В&amp;верх</translation>
+        <translation>В&amp;верх</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Текущие действия:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить &amp;разделитель</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(разделитель)</translation>
     </message>
 </context>
 <context>
