@@ -100,15 +100,15 @@ public:
 
 	// Filters in menu
 	bool phase_filter;
-	int current_denoiser;
 	bool deblock_filter;
 	bool dering_filter;
 	bool gradfun_filter;
-	bool blur_filter;
-	bool sharpen_filter;
 	bool noise_filter;
 	bool postprocessing_filter;
 	bool upscaling_filter; //!< Software scaling
+
+	int current_denoiser;
+	int current_unsharp;
 
 	bool karaoke_filter;
 	bool extrastereo_filter;

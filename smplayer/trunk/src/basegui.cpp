@@ -548,15 +548,6 @@ void BaseGui::createActions() {
 	connect( gradfunAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleGradfun(bool)) );
 
-	blurAct = new MyAction( this, "blur" );
-	blurAct->setCheckable( true );
-	connect( blurAct, SIGNAL(toggled(bool)),
-             core, SLOT(toggleBlur(bool)) );
-
-	sharpenAct = new MyAction( this, "sharpen" );
-	sharpenAct->setCheckable( true );
-	connect( sharpenAct, SIGNAL(toggled(bool)),
-             core, SLOT(toggleSharpen(bool)) );
 
 	addNoiseAct = new MyAction( this, "add_noise" );
 	addNoiseAct->setCheckable( true );
@@ -913,6 +904,13 @@ void BaseGui::createActions() {
 	denoiseSoftAct = new MyActionGroupItem(this, denoiseGroup, "denoise_soft", MediaSettings::DenoiseSoft);
 	connect( denoiseGroup, SIGNAL(activated(int)), core, SLOT(changeDenoise(int)) );
 
+	// Unsharp group
+	unsharpGroup = new MyActionGroup(this);
+	unsharpNoneAct = new MyActionGroupItem(this, unsharpGroup, "unsharp_off", 0);
+	blurAct = new MyActionGroupItem(this, unsharpGroup, "blur", 1);
+	sharpenAct = new MyActionGroupItem(this, unsharpGroup, "sharpen", 2);
+	connect( unsharpGroup, SIGNAL(activated(int)), core, SLOT(changeUnsharp(int)) );
+
 	// Video size
 	sizeGroup = new MyActionGroup(this);
 	size50 = new MyActionGroupItem(this, sizeGroup, "5&0%", "size_50", 50);
@@ -1142,8 +1140,6 @@ void BaseGui::setActionsEnabled(bool b) {
 	deblockAct->setEnabled(b);
 	deringAct->setEnabled(b);
 	gradfunAct->setEnabled(b);
-	blurAct->setEnabled(b);
-	sharpenAct->setEnabled(b);
 	addNoiseAct->setEnabled(b);
 	addLetterboxAct->setEnabled(b);
 	upscaleAct->setEnabled(b);
@@ -1222,6 +1218,7 @@ void BaseGui::setActionsEnabled(bool b) {
 
 	// Groups
 	denoiseGroup->setActionsEnabled(b);
+	unsharpGroup->setActionsEnabled(b);
 	sizeGroup->setActionsEnabled(b);
 	deinterlaceGroup->setActionsEnabled(b);
 	aspectGroup->setActionsEnabled(b);
@@ -1282,8 +1279,6 @@ void BaseGui::enableActionsOnPlaying() {
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
 		gradfunAct->setEnabled(false);
-		blurAct->setEnabled(false);
-		sharpenAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
 		addLetterboxAct->setEnabled(false);
 		upscaleAct->setEnabled(false);
@@ -1302,6 +1297,7 @@ void BaseGui::enableActionsOnPlaying() {
 		autoZoom235Act->setEnabled(false);
 
 		denoiseGroup->setActionsEnabled(false);
+		unsharpGroup->setActionsEnabled(false);
 		sizeGroup->setActionsEnabled(false);
 		deinterlaceGroup->setActionsEnabled(false);
 		aspectGroup->setActionsEnabled(false);
@@ -1327,8 +1323,6 @@ void BaseGui::enableActionsOnPlaying() {
 		deblockAct->setEnabled(false);
 		deringAct->setEnabled(false);
 		gradfunAct->setEnabled(false);
-		blurAct->setEnabled(false);
-		sharpenAct->setEnabled(false);
 		addNoiseAct->setEnabled(false);
 		addLetterboxAct->setEnabled(false);
 		upscaleAct->setEnabled(false);
@@ -1336,6 +1330,7 @@ void BaseGui::enableActionsOnPlaying() {
 		deinterlaceGroup->setActionsEnabled(false);
 		rotateGroup->setActionsEnabled(false);
 		denoiseGroup->setActionsEnabled(false);
+		unsharpGroup->setActionsEnabled(false);
 
 		displayMessage( tr("Video filters are disabled when using vdpau") );
 	}
@@ -1484,8 +1479,6 @@ void BaseGui::retranslateStrings() {
 	deblockAct->change( tr("&Deblock") );
 	deringAct->change( tr("De&ring") );
 	gradfunAct->change( tr("Debanding (&gradfun)") );
-	blurAct->change( tr("B&lur") );
-	sharpenAct->change( tr("S&harpen") );
 	addNoiseAct->change( tr("Add n&oise") );
 	addLetterboxAct->change( Images::icon("letterbox"), tr("Add &black borders") );
 	upscaleAct->change( Images::icon("upscaling"), tr("Soft&ware scaling") );
@@ -1719,6 +1712,10 @@ void BaseGui::retranslateStrings() {
 	denoiseNoneAct->change( tr("Denoise o&ff") );
 	denoiseNormalAct->change( tr("Denoise nor&mal") );
 	denoiseSoftAct->change( tr("Denoise &soft") );
+
+	unsharpNoneAct->change( tr("Blur/Sharpen off") );
+	blurAct->change( tr("B&lur") );
+	sharpenAct->change( tr("S&harpen") );
 
 	rotateNoneAct->change( tr("&Off") );
 	rotateClockwiseFlipAct->change( tr("&Rotate by 90 degrees clockwise and flip") );
@@ -2232,14 +2229,14 @@ void BaseGui::createMenus() {
 	videofilter_menu->addAction(deblockAct);
 	videofilter_menu->addAction(deringAct);
 	videofilter_menu->addAction(gradfunAct);
-	videofilter_menu->addAction(blurAct);
-	videofilter_menu->addAction(sharpenAct);
 	videofilter_menu->addAction(addNoiseAct);
 	videofilter_menu->addAction(addLetterboxAct);
 	videofilter_menu->addAction(upscaleAct);
 	videofilter_menu->addAction(phaseAct);
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(denoiseGroup->actions());
+	videofilter_menu->addSeparator();
+	videofilter_menu->addActions(unsharpGroup->actions());
 
 	videoMenu->addMenu(videofilter_menu);
 
@@ -3146,12 +3143,6 @@ void BaseGui::updateWidgets() {
 	// Gradfun
 	gradfunAct->setChecked( core->mset.gradfun_filter );
 
-	// Blur
-	blurAct->setChecked( core->mset.blur_filter );
-
-	// Sharpen
-	sharpenAct->setChecked( core->mset.sharpen_filter );
-
 	// Add noise
 	addNoiseAct->setChecked( core->mset.noise_filter );
 
@@ -3167,6 +3158,9 @@ void BaseGui::updateWidgets() {
 
 	// Denoise submenu
 	denoiseGroup->setChecked( core->mset.current_denoiser );
+
+	// Unsharp submenu
+	unsharpGroup->setChecked( core->mset.current_unsharp );
 
 	/*
 	// Fullscreen button

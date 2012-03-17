@@ -1,5 +1,10 @@
 [b]Version 0.8.0[/b]:
 
+(2012-03-17)
+ * Move the blur and sharpen filters to a group, so only one can be activated.
+   It doesn't make much sense to be able to enable the blur and sharpen
+   at the same time.
+
 (2012-03-15)
  * Add gradfun to video -> filters.
  * Add blur and sharpen filters.
