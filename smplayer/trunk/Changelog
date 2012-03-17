@@ -4,6 +4,10 @@
  * Move the blur and sharpen filters to a group, so only one can be activated.
    It doesn't make much sense to be able to enable the blur and sharpen
    at the same time.
+ * Move the denoise and blur/sharpen options to submenus.
+ * Youtube quality by default is now mp4/720p.
+ * The default width of the floating control is now 70%.
+ * Toolbar editor: give a name to the widget actions (time slider and so on).
 
 (2012-03-15)
  * Add gradfun to video -> filters.
