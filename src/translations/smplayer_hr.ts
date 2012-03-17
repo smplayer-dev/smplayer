@@ -930,15 +930,15 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>Denoise nor&amp;mal</source>
-        <translation>Uklanjanje šuma - &amp;normal</translation>
+        <translation type="obsolete">Uklanjanje šuma - &amp;normal</translation>
     </message>
     <message>
         <source>Denoise &amp;soft</source>
-        <translation>Uklanjanje šuma - bla&amp;go</translation>
+        <translation type="obsolete">Uklanjanje šuma - bla&amp;go</translation>
     </message>
     <message>
         <source>Denoise o&amp;ff</source>
-        <translation>Uklanjanje šuma - &amp;isključeno</translation>
+        <translation type="obsolete">Uklanjanje šuma - &amp;isključeno</translation>
     </message>
     <message>
         <source>Use SSA/&amp;ASS library</source>
@@ -1356,11 +1356,46 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>B&amp;lur</source>
+        <source>&amp;Off</source>
+        <comment>closed captions menu</comment>
+        <translation type="unfinished">&amp;Isključi</translation>
+    </message>
+    <message>
+        <source>De&amp;noise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>S&amp;harpen</source>
+        <source>Blur/S&amp;harp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Off</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished">&amp;Isključi</translation>
+    </message>
+    <message>
+        <source>&amp;Normal</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Soft</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;None</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished">&amp;Nikakvo</translation>
+    </message>
+    <message>
+        <source>&amp;Blur</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Sharpen</source>
+        <comment>unsharp menu</comment>
         <translation type="unfinished"></translation>
     </message>
 </context>
