@@ -4,7 +4,7 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="+59"/>
+        <location filename="../about.cpp" line="+55"/>
         <source>Version: %1</source>
         <translation>Versione: %1</translation>
     </message>
@@ -14,7 +14,12 @@
         <translation>Le seguenti persone hanno contribuito con le traduzioni:</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+2"/>
+        <source>Spanish</source>
+        <translation type="unfinished">Spagnolo</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>German</source>
         <translation>Tedesco</translation>
     </message>
@@ -34,12 +39,11 @@
         <translation>Francese</translation>
     </message>
     <message>
-        <location line="+73"/>
         <source>%1, %2 and %3</source>
-        <translation>%1, %2 e %3</translation>
+        <translation type="obsolete">%1, %2 e %3</translation>
     </message>
     <message>
-        <location line="-69"/>
+        <location line="+4"/>
         <source>Simplified-Chinese</source>
         <translation>Cinese semplificato</translation>
     </message>
@@ -49,12 +53,11 @@
         <translation>Russo</translation>
     </message>
     <message>
-        <location line="+65"/>
         <source>%1 and %2</source>
-        <translation>%1 e %2</translation>
+        <translation type="obsolete">%1 e %2</translation>
     </message>
     <message>
-        <location line="-64"/>
+        <location line="+1"/>
         <source>Hungarian</source>
         <translation>Ungherese</translation>
     </message>
@@ -139,13 +142,11 @@
         <translation>Finlandese</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <location line="+11"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+41"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -183,7 +184,7 @@
         <translation>&amp;Licenza</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="-203"/>
+        <location filename="../about.cpp" line="-163"/>
         <source>Visit our web for updates:</source>
         <translation>Visita il nostro sito per aggiornamenti:</translation>
     </message>
@@ -193,7 +194,7 @@
         <translation>Cerca aiuto nel nostro forum:</translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+120"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
@@ -208,17 +209,17 @@
         <translation>Basco</translation>
     </message>
     <message>
-        <location line="-145"/>
+        <location line="-142"/>
         <source>Using MPlayer %1</source>
         <translation>MPlayer %1 in uso</translation>
     </message>
     <message>
-        <location line="+148"/>
+        <location line="+145"/>
         <source>Catalan</source>
         <translation>Catalano</translation>
     </message>
     <message>
-        <location line="-139"/>
+        <location line="-136"/>
         <source>Portable Edition</source>
         <translation>Edizione portabile</translation>
     </message>
@@ -228,7 +229,7 @@
         <translation>Qt %1 in uso (compilato con Qt %2)</translation>
     </message>
     <message>
-        <location line="+134"/>
+        <location line="+131"/>
         <source>Slovenian</source>
         <translation>Sloveno</translation>
     </message>
@@ -248,22 +249,20 @@
         <translation>Galiziano</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-93"/>
         <source>SMPlayer logo by %1</source>
         <translation>Logo di SMPlayer creato da %1</translation>
     </message>
     <message>
-        <location line="+122"/>
         <source>%1, %2, %3 and %4</source>
-        <translation>%1, %2, %3 e %4</translation>
+        <translation type="obsolete">%1, %2, %3 e %4</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation>%1, %2, %3, %4 e %5</translation>
+        <translation type="obsolete">%1, %2, %3, %4 e %5</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="+94"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
     </message>
@@ -288,7 +287,7 @@
         <translation type="unfinished">Croato</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-158"/>
         <source>Using MPlayer2 %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8086,6 +8085,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../toolbareditor.cpp" line="+87"/>
         <location line="+93"/>
         <source>(separator)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+59"/>
+        <source>Time slider</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Volume slider</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Display time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Popup button for rewind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Popup button for forward</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

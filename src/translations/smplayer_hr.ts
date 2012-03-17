@@ -29,7 +29,7 @@
     </message>
     <message>
         <source>%1, %2 and %3</source>
-        <translation>%1, %2 i %3</translation>
+        <translation type="obsolete">%1, %2 i %3</translation>
     </message>
     <message>
         <source>Simplified-Chinese</source>
@@ -41,7 +41,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 i %2</translation>
+        <translation type="obsolete">%1 i %2</translation>
     </message>
     <message>
         <source>Hungarian</source>
@@ -114,7 +114,7 @@
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
@@ -202,11 +202,11 @@
     </message>
     <message>
         <source>%1, %2, %3 and %4</source>
-        <translation>%1, %2, %3 i %4</translation>
+        <translation type="obsolete">%1, %2, %3 i %4</translation>
     </message>
     <message>
         <source>%1, %2, %3, %4 and %5</source>
-        <translation>%1, %2, %3, %4 i %5</translation>
+        <translation type="obsolete">%1, %2, %3, %4 i %5</translation>
     </message>
     <message>
         <source>Vietnamese</source>
@@ -251,6 +251,10 @@
     <message>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Mnoge druge osobe su doprinijele svojim dodacima i popravcima. Pogledaj Changelog za detalje.</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation type="unfinished">Spanish</translation>
     </message>
 </context>
 <context>
@@ -6406,6 +6410,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>(separator)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time slider</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Volume slider</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Display time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Popup button for rewind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Popup button for forward</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
