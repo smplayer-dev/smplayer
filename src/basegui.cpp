@@ -1525,7 +1525,7 @@ void BaseGui::retranslateStrings() {
 	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to OpenSubtitles.org...") );
 #endif
 
-	ccNoneAct->change( tr("&Off") );
+	ccNoneAct->change( tr("&Off", "closed captions menu") );
 	ccChannel1Act->change( "&1" );
 	ccChannel2Act->change( "&2" );
 	ccChannel3Act->change( "&3" );
@@ -1685,10 +1685,11 @@ void BaseGui::retranslateStrings() {
 	screen_menu->menuAction()->setIcon( Images::icon("screen") );
 #endif
 
-	/*
 	denoise_menu->menuAction()->setText( tr("De&noise") );
 	denoise_menu->menuAction()->setIcon( Images::icon("denoise") );
-	*/
+
+	unsharp_menu->menuAction()->setText( tr("Blur/S&harp") );
+	unsharp_menu->menuAction()->setIcon( Images::icon("unsharp") );
 
 	aspectDetectAct->change( tr("&Auto") );
 	aspect11Act->change( "1&:1" );
@@ -1709,13 +1710,13 @@ void BaseGui::retranslateStrings() {
 	deinterlaceLBAct->change( tr("Linear &Blend") );
 	deinterlaceKernAct->change( tr("&Kerndeint") );
 
-	denoiseNoneAct->change( tr("Denoise o&ff") );
-	denoiseNormalAct->change( tr("Denoise nor&mal") );
-	denoiseSoftAct->change( tr("Denoise &soft") );
+	denoiseNoneAct->change( tr("&Off", "denoise menu") );
+	denoiseNormalAct->change( tr("&Normal","denoise menu") );
+	denoiseSoftAct->change( tr("&Soft", "denoise menu") );
 
-	unsharpNoneAct->change( tr("Blur/Sharpen off") );
-	blurAct->change( tr("B&lur") );
-	sharpenAct->change( tr("S&harpen") );
+	unsharpNoneAct->change( tr("&None", "unsharp menu") );
+	blurAct->change( tr("&Blur", "unsharp menu") );
+	sharpenAct->change( tr("&Sharpen", "unsharp menu") );
 
 	rotateNoneAct->change( tr("&Off") );
 	rotateClockwiseFlipAct->change( tr("&Rotate by 90 degrees clockwise and flip") );
@@ -2233,19 +2234,25 @@ void BaseGui::createMenus() {
 	videofilter_menu->addAction(addLetterboxAct);
 	videofilter_menu->addAction(upscaleAct);
 	videofilter_menu->addAction(phaseAct);
+
+	// Denoise submenu
+	denoise_menu = new QMenu(this);
+	denoise_menu->menuAction()->setObjectName("denoise_menu");
+	denoise_menu->addActions(denoiseGroup->actions());
+	videofilter_menu->addMenu(denoise_menu);
+
+	// Unsharp submenu
+	unsharp_menu = new QMenu(this);
+	unsharp_menu->menuAction()->setObjectName("unsharp_menu");
+	unsharp_menu->addActions(unsharpGroup->actions());
+	videofilter_menu->addMenu(unsharp_menu);
+	/*
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(denoiseGroup->actions());
 	videofilter_menu->addSeparator();
 	videofilter_menu->addActions(unsharpGroup->actions());
-
-	videoMenu->addMenu(videofilter_menu);
-
-	// Denoise submenu
-	/*
-	denoise_menu = new QMenu(this);
-	denoise_menu->addActions(denoiseGroup->actions());
-	videoMenu->addMenu(denoise_menu);
 	*/
+	videoMenu->addMenu(videofilter_menu);
 
 	// Rotate submenu
 	rotate_menu = new QMenu(this);
