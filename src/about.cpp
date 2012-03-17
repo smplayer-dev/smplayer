@@ -140,6 +140,7 @@ QString About::getTranslators() {
 	return QString(
 		 tr("The following people have contributed with translations:") +
 		"<p>" + 
+         trad(tr("Spanish"), "Ricardo Villalba <rvm@users.sourceforge.net>") +
          trad(tr("German"), "Panagiotis Papadopoulos <pano_90@gmx.net>") +
 		 trad(tr("Slovak"), "Sweto <peter.mendel@gmail.com>") +
 		 trad(tr("Italian"), QStringList()
