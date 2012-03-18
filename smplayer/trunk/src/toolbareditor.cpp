@@ -242,9 +242,9 @@ QString ToolbarEditor::fixname(const QString & name, const QString & action_name
 	else
 	if (action_name == "timelabel_action") s = tr("Display time");
 	else
-	if (action_name == "rewindbutton_action") s = tr("Popup button for rewind");
+	if (action_name == "rewindbutton_action") s = tr("3 in 1 rewind");
 	else
-	if (action_name == "forwardbutton_action") s = tr("Popup button for forward");
+	if (action_name == "forwardbutton_action") s = tr("3 in 1 forward");
 	return s;
 }
 
