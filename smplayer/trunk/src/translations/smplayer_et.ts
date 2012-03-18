@@ -8106,12 +8106,12 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
-        <source>Popup button for rewind</source>
+        <source>3 in 1 rewind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
-        <source>Popup button for forward</source>
+        <source>3 in 1 forward</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
