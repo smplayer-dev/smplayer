@@ -6425,11 +6425,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Popup button for rewind</source>
+        <source>3 in 1 rewind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Popup button for forward</source>
+        <source>3 in 1 forward</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
