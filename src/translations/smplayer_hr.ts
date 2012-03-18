@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0">
+<!DOCTYPE TS><TS>
 <context>
     <name>About</name>
     <message>
@@ -254,7 +252,7 @@
     </message>
     <message>
         <source>Spanish</source>
-        <translation type="unfinished">Spanish</translation>
+        <translation>Španjolski</translation>
     </message>
 </context>
 <context>
@@ -1357,50 +1355,50 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished">&amp;Isključi</translation>
+        <translation>&amp;Isključi</translation>
     </message>
     <message>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>De&amp;noise</translation>
     </message>
     <message>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Blur/S&amp;harp</translation>
     </message>
     <message>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">&amp;Isključi</translation>
+        <translation>&amp;Isključi</translation>
     </message>
     <message>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normal</translation>
     </message>
     <message>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Meko</translation>
     </message>
     <message>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;Nikakvo</translation>
+        <translation>&amp;Nikakav</translation>
     </message>
     <message>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blur</translation>
     </message>
     <message>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sharpen</translation>
     </message>
 </context>
 <context>
@@ -1594,19 +1592,19 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi glavnu alatnu  &amp;traku</translation>
     </message>
     <message>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi &amp;kontrolnu traku</translation>
     </message>
     <message>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi m&amp;ini kontrolnu traku</translation>
     </message>
     <message>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi &amp;lebdeći panel</translation>
     </message>
 </context>
 <context>
@@ -1868,15 +1866,15 @@ Primjer: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>gradfun</source>
-        <translation type="unfinished"></translation>
+        <translation>gradfun</translation>
     </message>
     <message>
         <source>blur</source>
-        <translation type="unfinished"></translation>
+        <translation>zamućenje</translation>
     </message>
     <message>
         <source>sharpen</source>
-        <translation type="unfinished"></translation>
+        <translation>pooštrenje</translation>
     </message>
 </context>
 <context>
@@ -2044,13 +2042,12 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Titlovi spremljeni kao %1</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>%1 titl(ova) otpakirano
+        <translation>%1 titl(ova) otpakirano
         
         
-        </numerusform>
+        
         </translation>
     </message>
     <message>
@@ -3046,7 +3043,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3134,7 +3131,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -3207,11 +3204,11 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi &amp;kontrolnu traku</translation>
     </message>
     <message>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi &amp;lebdeći panel</translation>
     </message>
 </context>
 <context>
@@ -6281,18 +6278,16 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n sekundi
-        </numerusform>
+        <translation>%n sekundi
+        
         </translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n minuta
-        </numerusform>
+        <translation>%n minuta
+        
         </translation>
     </message>
 </context>
@@ -6378,59 +6373,59 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>ToolbarEditor</name>
     <message>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Uređivač alatne trake</translation>
     </message>
     <message>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostupne &amp;akcije:</translation>
     </message>
     <message>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lijevo</translation>
     </message>
     <message>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Desno</translation>
     </message>
     <message>
         <source>&amp;Down</source>
-        <translation type="unfinished">&amp;Dolje</translation>
+        <translation>&amp;Dolje</translation>
     </message>
     <message>
         <source>&amp;Up</source>
-        <translation type="unfinished">&amp;Gore</translation>
+        <translation>&amp;Gore</translation>
     </message>
     <message>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tre&amp;nutne akcije:</translation>
     </message>
     <message>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj &amp;separator</translation>
     </message>
     <message>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(separator)</translation>
     </message>
     <message>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Vremenska traka</translation>
     </message>
     <message>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Pojačalo zvuka</translation>
     </message>
     <message>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži vrijeme</translation>
     </message>
     <message>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3 u 1 premotavanje</translation>
     </message>
     <message>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3 u 1 naprijed</translation>
     </message>
 </context>
 <context>
