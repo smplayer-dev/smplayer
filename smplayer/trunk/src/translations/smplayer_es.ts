@@ -8114,13 +8114,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
-        <source>Popup button for rewind</source>
-        <translation>Botón emergente para retroceder</translation>
+        <source>3 in 1 rewind</source>
+        <translation>Botón retroceder 3 en 1</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
+        <source>3 in 1 forward</source>
+        <translation>Botón avanzar 3 en 1</translation>
+    </message>
+    <message>
+        <source>Popup button for rewind</source>
+        <translation type="obsolete">Botón emergente para retroceder</translation>
+    </message>
+    <message>
         <source>Popup button for forward</source>
-        <translation>Botón emergente para avanzar</translation>
+        <translation type="obsolete">Botón emergente para avanzar</translation>
     </message>
 </context>
 <context>
