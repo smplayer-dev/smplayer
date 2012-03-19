@@ -16,7 +16,7 @@
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Spanish</source>
-        <translation type="unfinished">Espanhol</translation>
+        <translation>Espanhol</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
@@ -628,7 +628,7 @@ Substituir?</translation>
         <location filename="../basegui.cpp" line="1528"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished">Desligad&amp;o</translation>
+        <translation>Desligad&amp;o</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1648"/>
@@ -1157,48 +1157,48 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1688"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Red&amp;ução de ruído</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1691"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Turvar/&amp;Acentuar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1713"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">Desligad&amp;o</translation>
+        <translation>Desligad&amp;o</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1714"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Suave</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;Nenhum</translation>
+        <translation>&amp;Nenhum</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1718"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Turvar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1719"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Acentuar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4630"/>
@@ -8099,27 +8099,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursor de tempo</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Curso de volume</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Exibir tempo</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Recuar 3 em 1</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Avançar 3 em 1</translation>
     </message>
 </context>
 <context>
