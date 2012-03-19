@@ -26,17 +26,11 @@
 #include "version.h"
 #include "config.h"
 #include "clhelp.h"
+#include "myapplication.h"
 
 #include <QDir>
 #include <QUrl>
 #include <QTime>
-
-#ifdef SINGLE_INSTANCE
-#include "QtSingleApplication"
-#else
-#include <QApplication>
-#endif
-
 #include <stdio.h>
 
 #ifdef Q_OS_WIN
@@ -131,7 +125,7 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 #endif
 
 #if SINGLE_INSTANCE
-	QtSingleApplication * app = static_cast<QtSingleApplication*>(qApp);
+	MyApplication * app = MyApplication::instance();
 	connect(app, SIGNAL(messageReceived(const QString&)),
             gui, SLOT(handleMessageFromOtherInstances(const QString&)));
 	app->setActivationWindow(gui);
@@ -311,7 +305,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 #ifdef SINGLE_INSTANCE
 	if (pref->use_single_instance) {
 		// Single instance
-		QtSingleApplication * a = static_cast<QtSingleApplication*>(qApp);
+		MyApplication * a = MyApplication::instance();
 		if (a->isRunning()) {
 			a->sendMessage("Hello");
 
