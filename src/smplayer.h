@@ -53,11 +53,11 @@ private:
 #endif
 	void showInfo();
 
-	BaseGui * main_window;
+	static BaseGui * main_window;
 
-    QStringList files_to_play;
-    QString subtitle_file;
-    QString actions_list; //!< Actions to be run on startup
+	QStringList files_to_play;
+	QString subtitle_file;
+	QString actions_list; //!< Actions to be run on startup
 	QString gui_to_use;
 
 	// Change position and size
@@ -70,6 +70,12 @@ private:
 	// Options to pass to gui
 	int close_at_end; // -1 = not set, 1 = true, 0 false
 	int start_in_fullscreen; // -1 = not set, 1 = true, 0 false
+
+#ifdef LOG_SMPLAYER
+	// Output log
+	static QFile output_log;
+	static void myMessageOutput( QtMsgType type, const char *msg );
+#endif
 };
 
 #endif
