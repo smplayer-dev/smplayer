@@ -727,7 +727,7 @@ Example: resample=44100:0:0,volnorm</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="textLabel1_17" >
+        <widget class="QLabel" name="smplayer_log_label1" >
          <property name="text" >
           <string>This option is mainly intended for debugging the application.</string>
          </property>
@@ -737,7 +737,7 @@ Example: resample=44100:0:0,volnorm</string>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="textLabel2_10" >
+        <widget class="QLabel" name="smplayer_log_label2" >
          <property name="text" >
           <string>&amp;Filter for SMPlayer logs:</string>
          </property>

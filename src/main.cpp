@@ -30,6 +30,7 @@
 
 using namespace Global;
 
+#ifdef LOG_SMPLAYER
 BaseGui * basegui_instance = 0;
 
 QFile output_log;
@@ -114,6 +115,7 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 		}
 	}
 }
+#endif
 
 int main( int argc, char ** argv ) 
 {
@@ -162,7 +164,7 @@ int main( int argc, char ** argv )
 		}
 	}
 
-#ifndef GUI_CHANGE_ON_RUNTIME
+#if defined(LOG_SMPLAYER) && !defined(GUI_CHANGE_ON_RUNTIME)
     qInstallMsgHandler( myMessageOutput );
 #endif
 
@@ -172,15 +174,22 @@ int main( int argc, char ** argv )
 		return c;
 	}
 
+#ifdef LOG_SMPLAYER
 	basegui_instance = smplayer->gui();
+#endif
 	smplayer->start();
 
 	int r = a.exec();
 
+#ifdef LOG_SMPLAYER
 	basegui_instance = 0;
+#endif
+
 	delete smplayer;
 
+#ifdef LOG_SMPLAYER
 	if (output_log.isOpen()) output_log.close();
+#endif
 
 	return r;
 }

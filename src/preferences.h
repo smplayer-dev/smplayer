@@ -254,9 +254,11 @@ public:
 	bool autosave_mplayer_log;
 	QString mplayer_log_saveto;
 #endif
+#ifdef LOG_SMPLAYER
 	bool log_smplayer;
 	QString log_filter;
 	bool save_smplayer_log;
+#endif
 
 #if REPAINT_BACKGROUND_OPTION
 	//! If true, mplayerlayer erases its background
