@@ -45,18 +45,11 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 #ifndef LOG_MPLAYER
-	log_mplayer_check->hide();
-	verbose_check->hide();
-	log_mplayer_save_check->hide();
-	log_mplayer_save_name->hide();
+	mplayer_log_box->hide();
 #endif
 
 #ifndef LOG_SMPLAYER
-	log_smplayer_check->hide();
-	log_smplayer_save_check->hide();
-	log_filter_edit->hide();
-	smplayer_log_label1->hide();
-	smplayer_log_label2->hide();
+	smplayer_log_box->hide();
 #endif
 
 #if !defined(LOG_MPLAYER) && !defined(LOG_SMPLAYER)
