@@ -26,6 +26,8 @@
 
 class SMPlayer : public QObject
 {
+	Q_OBJECT
+
 public:
 	enum ExitCode { ErrorArgument = -3, NoAction = -2, NoRunningInstance = -1, NoError = 0, NoExit = 1 };
 
@@ -39,7 +41,13 @@ public:
 
 	void start();
 
+#ifdef GUI_CHANGE_ON_RUNTIME
+private slots:
+	void changeGUI(QString new_gui);
+#endif
+
 private:
+	BaseGui * createGUI(QString gui_name);
 #ifndef PORTABLE_APP
 	void createConfigDirectory();
 #endif

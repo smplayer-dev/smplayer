@@ -162,7 +162,9 @@ int main( int argc, char ** argv )
 		}
 	}
 
+#ifndef GUI_CHANGE_ON_RUNTIME
     qInstallMsgHandler( myMessageOutput );
+#endif
 
 	SMPlayer * smplayer = new SMPlayer(config_path);
 	SMPlayer::ExitCode c = smplayer->processArgs( args );
@@ -171,12 +173,6 @@ int main( int argc, char ** argv )
 	}
 
 	basegui_instance = smplayer->gui();
-	a.connect(smplayer->gui(), SIGNAL(quitSolicited()), &a, SLOT(quit()));
-#if SINGLE_INSTANCE
-	a.connect(&a, SIGNAL(messageReceived(const QString&)),
-              smplayer->gui(), SLOT(handleMessageFromOtherInstances(const QString&)));
-	a.setActivationWindow(smplayer->gui());
-#endif
 	smplayer->start();
 
 	int r = a.exec();
