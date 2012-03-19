@@ -2694,7 +2694,7 @@ void BaseGui::applyNewPreferences() {
 #endif
 
     // Restart the video if needed
-    if (pref_dialog->requiresRestart())
+	if (pref_dialog->requiresRestart())
 		core->restart();
 
 	// Update actions
@@ -2702,7 +2702,7 @@ void BaseGui::applyNewPreferences() {
 	saveActions();
 
 #ifndef NO_USE_INI_FILES
-    pref->save();
+	pref->save();
 #endif
 
 
@@ -2711,8 +2711,8 @@ void BaseGui::applyNewPreferences() {
 		core->stop();
 		emit guiChanged(pref->gui);
 #else
-	QMessageBox::information(this, tr("Information"),
-		tr("You need to restart SMPlayer to use the new GUI.") );
+		QMessageBox::information(this, tr("Information"),
+			tr("You need to restart SMPlayer to use the new GUI.") );
 #endif
 	}
 }
