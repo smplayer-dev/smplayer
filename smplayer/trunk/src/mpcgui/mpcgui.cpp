@@ -24,7 +24,6 @@
 #include "mplayerwindow.h"
 #include "global.h"
 #include "helper.h"
-#include "toolbareditor.h"
 #include "desktopinfo.h"
 #include "colorutils.h"
 
@@ -132,6 +131,7 @@ void MpcGui::retranslateStrings() {
 	BaseGuiPlus::retranslateStrings();
 
 	controlwidget->setWindowTitle( tr("Control bar") );
+	timeslidewidget->setWindowTitle( tr("Seek bar") );
 
     setupIcons();
 }
@@ -217,14 +217,6 @@ void MpcGui::saveConfig() {
 	}
 
 	set->setValue( "toolbars_state", saveState(Helper::qtVersion()) );
-
-/*
-#if USE_CONFIGURABLE_TOOLBARS
-	set->beginGroup( "actions" );
-	set->setValue("controlwidget", ToolbarEditor::save(controlwidget) );
-	set->endGroup();
-#endif
-*/
 
 	set->endGroup();
 }
