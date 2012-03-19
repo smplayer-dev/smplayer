@@ -24,12 +24,18 @@
 
 class MyApplication : public QtSingleApplication
 {
+	Q_OBJECT
+
 public:
 	MyApplication ( const QString & appId, int & argc, char ** argv ) 
 		: QtSingleApplication(appId, argc, argv) {};
 
 	virtual void commitData ( QSessionManager & /*manager*/ ) {
 		// Nothing to do, let the application to close
+	}
+
+	inline static MyApplication * instance() {
+		return qobject_cast<MyApplication*>(QApplication::instance());
 	}
 };
 
@@ -38,6 +44,8 @@ public:
 
 class MyApplication : public QApplication
 {
+	Q_OBJECT
+
 public:
 	MyApplication ( const QString & appId, int & argc, char ** argv ) : QApplication(argc, argv) {};
 

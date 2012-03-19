@@ -18,3 +18,5 @@
 
 #include "myapplication.h"
 
+#include "moc_myapplication.cpp"
+
