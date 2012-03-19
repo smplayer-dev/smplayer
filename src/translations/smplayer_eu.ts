@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="eu">
+<!DOCTYPE TS>
+<TS version="2.0" language="eu">
 <context>
     <name>About</name>
     <message>
@@ -38,7 +39,6 @@
         <translation>Frantziera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>%1, %2 and %3</source>
         <translation type="obsolete">%1, %2 eta %3</translation>
     </message>
@@ -53,7 +53,6 @@
         <translation>Errusiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
         <source>%1 and %2</source>
         <translation type="obsolete">%1 eta %2</translation>
     </message>
@@ -143,7 +142,6 @@
         <translation>Finlandiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -163,6 +161,9 @@
         <translation>&amp;Argibideak</translation>
     </message>
     <message>
+        <location filename="../about.ui" line="52"/>
+        <location filename="../about.ui" line="108"/>
+        <location filename="../about.ui" line="164"/>
         <location filename="../about.ui" line="220"/>
         <source>icon</source>
         <translation>ikurra</translation>
@@ -253,12 +254,10 @@
         <translation>SMPlayer logoaren egilea: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
         <source>%1, %2, %3 and %4</source>
         <translation type="obsolete">%1, %2, %3 eta %4</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation type="obsolete">%1, %2, %3, %4 eta %5</translation>
     </message>
@@ -346,6 +345,7 @@
         <translation>Ge&amp;rtatu</translation>
     </message>
     <message>
+        <location filename="../actionseditor.cpp" line="430"/>
         <location filename="../actionseditor.cpp" line="480"/>
         <source>Key files</source>
         <translation>Giltza agiriak</translation>
@@ -373,6 +373,7 @@ Gainidatzi nahi duzu?</translation>
         <translation>Hautatu agiri bat</translation>
     </message>
     <message>
+        <location filename="../actionseditor.cpp" line="452"/>
         <location filename="../actionseditor.cpp" line="486"/>
         <source>Error</source>
         <translation>Akatsa</translation>
@@ -489,1269 +490,1301 @@ Gainidatzi nahi duzu?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
         <source>SMPlayer - mplayer log</source>
-        <translation>SMPlayer - mplayer oharra</translation>
+        <translation type="obsolete">SMPlayer - mplayer oharra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
         <source>SMPlayer - smplayer log</source>
-        <translation>SMPlayer - smplayer oharra</translation>
+        <translation type="obsolete">SMPlayer - smplayer oharra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1609"/>
+        <location filename="../basegui.cpp" line="1625"/>
         <source>&amp;Open</source>
         <translation>&amp;Ireki</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1610"/>
+        <location filename="../basegui.cpp" line="1626"/>
         <source>&amp;Play</source>
         <translation>I&amp;rakurri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1611"/>
+        <location filename="../basegui.cpp" line="1627"/>
         <source>&amp;Video</source>
         <translation>&amp;Bideoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1612"/>
+        <location filename="../basegui.cpp" line="1628"/>
         <source>&amp;Audio</source>
         <translation>&amp;Audioa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1613"/>
+        <location filename="../basegui.cpp" line="1629"/>
         <source>&amp;Subtitles</source>
         <translation>Az&amp;pidatziak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1614"/>
+        <location filename="../basegui.cpp" line="1630"/>
         <source>&amp;Browse</source>
         <translation>Bila&amp;tu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1615"/>
+        <location filename="../basegui.cpp" line="1631"/>
         <source>Op&amp;tions</source>
         <translation>Au&amp;kerak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1616"/>
+        <location filename="../basegui.cpp" line="1632"/>
         <source>&amp;Help</source>
         <translation>La&amp;guntza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1378"/>
+        <location filename="../basegui.cpp" line="1390"/>
         <source>&amp;File...</source>
         <translation>&amp;Agiria...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1379"/>
+        <location filename="../basegui.cpp" line="1391"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Zuzenbidea...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1380"/>
+        <location filename="../basegui.cpp" line="1392"/>
         <source>&amp;Playlist...</source>
         <translation>I&amp;rakur-zerrenda...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1383"/>
+        <location filename="../basegui.cpp" line="1395"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD-a gailutik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1384"/>
+        <location filename="../basegui.cpp" line="1396"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD-a agiritegitik...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1385"/>
+        <location filename="../basegui.cpp" line="1397"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL-a...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1632"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>&amp;Clear</source>
         <translation>&amp;Garbitu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>&amp;Recent files</source>
         <translation>Az&amp;ken agiriak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1409"/>
+        <location filename="../basegui.cpp" line="1421"/>
         <source>P&amp;lay</source>
         <translation>&amp;Irakurri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1415"/>
+        <location filename="../basegui.cpp" line="1427"/>
         <source>&amp;Pause</source>
         <translation>&amp;Pausatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1416"/>
+        <location filename="../basegui.cpp" line="1428"/>
         <source>&amp;Stop</source>
         <translation>&amp;Gelditu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1417"/>
+        <location filename="../basegui.cpp" line="1429"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Frame urratsa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1438"/>
+        <location filename="../basegui.cpp" line="1450"/>
         <source>&amp;Normal speed</source>
         <translation>Abiadura &amp;normala</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1439"/>
+        <location filename="../basegui.cpp" line="1451"/>
         <source>&amp;Halve speed</source>
         <translation>Abiadura &amp;erdia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1440"/>
+        <location filename="../basegui.cpp" line="1452"/>
         <source>&amp;Double speed</source>
         <translation>Abiadura &amp;bikoitza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1441"/>
+        <location filename="../basegui.cpp" line="1453"/>
         <source>Speed &amp;-10%</source>
         <translation>Abiadura &amp;-10% </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1442"/>
+        <location filename="../basegui.cpp" line="1454"/>
         <source>Speed &amp;+10%</source>
         <translation>Abiadura &amp;+10% </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1528"/>
+        <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>E&amp;tenda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1648"/>
+        <location filename="../basegui.cpp" line="1664"/>
         <source>Sp&amp;eed</source>
         <translation>A&amp;biadura</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1433"/>
+        <location filename="../basegui.cpp" line="1445"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Birrirakurri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1449"/>
+        <location filename="../basegui.cpp" line="1461"/>
         <source>&amp;Fullscreen</source>
         <translation>I&amp;kusleiho-osoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1450"/>
+        <location filename="../basegui.cpp" line="1462"/>
         <source>&amp;Compact mode</source>
         <translation>&amp;Modu trinkoan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1658"/>
+        <location filename="../basegui.cpp" line="1674"/>
         <source>Si&amp;ze</source>
         <translation>&amp;Neurria</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1668"/>
+        <location filename="../basegui.cpp" line="1684"/>
         <source>&amp;Aspect ratio</source>
         <translation>Ik&amp;uspegi maila</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2908"/>
+        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="2951"/>
         <source>&amp;None</source>
         <translation>&amp;Bat ere ez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1723"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1710"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>Linear &amp;Blend</source>
         <translation>Na&amp;haste linearra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1671"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>&amp;Deinterlace</source>
         <translation>Ez&amp;-elkarlotuta</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1477"/>
+        <location filename="../basegui.cpp" line="1489"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Postprozesatzen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1478"/>
+        <location filename="../basegui.cpp" line="1490"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Berez-atzeman fasea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1479"/>
+        <location filename="../basegui.cpp" line="1491"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Desblokeatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1480"/>
+        <location filename="../basegui.cpp" line="1492"/>
         <source>De&amp;ring</source>
         <translation>E&amp;zeraztundu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1482"/>
+        <location filename="../basegui.cpp" line="1494"/>
         <source>Add n&amp;oise</source>
         <translation>Gehitu za&amp;rata</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1690"/>
         <source>F&amp;ilters</source>
         <translation>I&amp;ragazkiak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1451"/>
+        <location filename="../basegui.cpp" line="1463"/>
         <source>&amp;Equalizer</source>
         <translation>Ekualiza&amp;gailua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1452"/>
+        <location filename="../basegui.cpp" line="1464"/>
         <source>&amp;Screenshot</source>
         <translation>Iku&amp;sleiho-argazkia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1680"/>
+        <location filename="../basegui.cpp" line="1696"/>
         <source>S&amp;tay on top</source>
         <translation>E&amp;duki goian</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1500"/>
+        <location filename="../basegui.cpp" line="1512"/>
         <source>&amp;Extrastereo</source>
         <translation>E&amp;straestereoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1501"/>
+        <location filename="../basegui.cpp" line="1513"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Karaokea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1740"/>
+        <location filename="../basegui.cpp" line="1756"/>
         <source>&amp;Filters</source>
         <translation>I&amp;ragazkiak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1754"/>
+        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>&amp;Stereo</source>
         <translation>Es&amp;tereoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1751"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 Ingurunea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 Ingurunea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1743"/>
+        <location filename="../basegui.cpp" line="1759"/>
         <source>&amp;Channels</source>
         <translation>Bidea&amp;k</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>&amp;Left channel</source>
         <translation>E&amp;zker bidea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1756"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Right channel</source>
         <translation>E&amp;skuin bidea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1746"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>&amp;Stereo mode</source>
         <translation>E&amp;stereo modua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1490"/>
+        <location filename="../basegui.cpp" line="1502"/>
         <source>&amp;Mute</source>
         <translation>&amp;Mututu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1491"/>
+        <location filename="../basegui.cpp" line="1503"/>
         <source>Volume &amp;-</source>
         <translation>Bolumena &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1492"/>
+        <location filename="../basegui.cpp" line="1504"/>
         <source>Volume &amp;+</source>
         <translation>Bolumena &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1493"/>
+        <location filename="../basegui.cpp" line="1505"/>
         <source>&amp;Delay -</source>
         <translation>A&amp;tzerapena -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1494"/>
+        <location filename="../basegui.cpp" line="1506"/>
         <source>D&amp;elay +</source>
         <translation>At&amp;zerapena +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>&amp;Select</source>
         <translation>&amp;Hautatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1505"/>
+        <location filename="../basegui.cpp" line="1517"/>
         <source>&amp;Load...</source>
         <translation>&amp;Gertatu...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1507"/>
+        <location filename="../basegui.cpp" line="1519"/>
         <source>Delay &amp;-</source>
         <translation>Atzerapena &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1508"/>
+        <location filename="../basegui.cpp" line="1520"/>
         <source>Delay &amp;+</source>
         <translation>Atzerapena &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1510"/>
+        <location filename="../basegui.cpp" line="1522"/>
         <source>&amp;Up</source>
         <translation>&amp;Gora</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1511"/>
+        <location filename="../basegui.cpp" line="1523"/>
         <source>&amp;Down</source>
         <translation>&amp;Behera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>&amp;Title</source>
         <translation>&amp;Izenburura</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Atala</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1788"/>
         <source>&amp;Angle</source>
         <translation>A&amp;ngelua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1547"/>
         <source>&amp;Playlist</source>
         <translation>I&amp;rakur-zerrenda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1704"/>
+        <location filename="../basegui.cpp" line="1720"/>
         <source>&amp;Disabled</source>
         <translation>E&amp;zgaiturik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1813"/>
         <source>&amp;View logs</source>
         <translation>&amp;Ikusi oharrak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1537"/>
+        <location filename="../basegui.cpp" line="1549"/>
         <source>P&amp;references</source>
         <translation>&amp;Hobespenak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1549"/>
+        <location filename="../basegui.cpp" line="1565"/>
         <source>About &amp;Qt</source>
         <translation>&amp;Qt-ri buruz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1550"/>
+        <location filename="../basegui.cpp" line="1566"/>
         <source>About &amp;SMPlayer</source>
         <translation>&amp;SMPlayerri buruz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3073"/>
+        <location filename="../basegui.cpp" line="2965"/>
+        <location filename="../basegui.cpp" line="2981"/>
+        <location filename="../basegui.cpp" line="2997"/>
+        <location filename="../basegui.cpp" line="3012"/>
+        <location filename="../basegui.cpp" line="3034"/>
+        <location filename="../basegui.cpp" line="3058"/>
+        <location filename="../basegui.cpp" line="3080"/>
+        <location filename="../basegui.cpp" line="3116"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;hutsik&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3443"/>
+        <location filename="../basegui.cpp" line="3486"/>
         <source>Video</source>
         <translation>Bideoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3634"/>
+        <location filename="../basegui.cpp" line="3487"/>
+        <location filename="../basegui.cpp" line="3677"/>
         <source>Audio</source>
         <translation>Audioa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3445"/>
+        <location filename="../basegui.cpp" line="3488"/>
         <source>Playlists</source>
         <translation>Irakur-zerrendak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3635"/>
+        <location filename="../basegui.cpp" line="3489"/>
+        <location filename="../basegui.cpp" line="3657"/>
+        <location filename="../basegui.cpp" line="3678"/>
         <source>All files</source>
         <translation>Agiri guztiak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3632"/>
+        <location filename="../basegui.cpp" line="3484"/>
+        <location filename="../basegui.cpp" line="3654"/>
+        <location filename="../basegui.cpp" line="3675"/>
         <source>Choose a file</source>
         <translation>Hautatu agiri bat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3493"/>
+        <location filename="../basegui.cpp" line="3536"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Argibideak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3494"/>
+        <location filename="../basegui.cpp" line="3537"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD gailurik ez dago oraindik itxuraturik.
 Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3577"/>
+        <location filename="../basegui.cpp" line="3620"/>
         <source>Choose a directory</source>
         <translation>Hautatu zuzenbide bat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3613"/>
+        <location filename="../basegui.cpp" line="3656"/>
         <source>Subtitles</source>
         <translation>Azpidatziak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3676"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>About Qt</source>
         <translation>Qt-ri buruz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4148"/>
+        <location filename="../basegui.cpp" line="4191"/>
         <source>Playing %1</source>
         <translation>%1 irakurtzen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4149"/>
+        <location filename="../basegui.cpp" line="4192"/>
         <source>Pause</source>
         <translation>Pausatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4150"/>
+        <location filename="../basegui.cpp" line="4193"/>
         <source>Stop</source>
         <translation>Gelditu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1419"/>
+        <location filename="../basegui.cpp" line="1431"/>
         <source>Play / Pause</source>
         <translation>Irakurri / Pausatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1425"/>
+        <location filename="../basegui.cpp" line="1437"/>
         <source>Pause / Frame step</source>
         <translation>Pausa / Frame urratsa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1506"/>
+        <location filename="../basegui.cpp" line="1509"/>
+        <location filename="../basegui.cpp" line="1518"/>
         <source>U&amp;nload</source>
         <translation>Ezge&amp;rtatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1381"/>
+        <location filename="../basegui.cpp" line="1393"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1386"/>
+        <location filename="../basegui.cpp" line="1398"/>
         <source>C&amp;lose</source>
         <translation>It&amp;xi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1536"/>
+        <location filename="../basegui.cpp" line="1548"/>
         <source>View &amp;info and properties...</source>
         <translation>Ikusi ar&amp;gibideak eta ezaugarriak...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1460"/>
+        <location filename="../basegui.cpp" line="1472"/>
         <source>Zoom &amp;-</source>
         <translation>Zooma &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1461"/>
+        <location filename="../basegui.cpp" line="1473"/>
         <source>Zoom &amp;+</source>
         <translation>Zooma &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1462"/>
+        <location filename="../basegui.cpp" line="1474"/>
         <source>&amp;Reset</source>
         <translation>Bi&amp;rrezarri</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1466"/>
+        <location filename="../basegui.cpp" line="1478"/>
         <source>Move &amp;left</source>
         <translation>Mugitu e&amp;zkerrera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1467"/>
+        <location filename="../basegui.cpp" line="1479"/>
         <source>Move &amp;right</source>
         <translation>Mugitu e&amp;skuinera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1468"/>
+        <location filename="../basegui.cpp" line="1480"/>
         <source>Move &amp;up</source>
         <translation>Mugitu &amp;gora</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1469"/>
+        <location filename="../basegui.cpp" line="1481"/>
         <source>Move &amp;down</source>
         <translation>Mugitu &amp;behera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1515"/>
+        <location filename="../basegui.cpp" line="1527"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>Azpidatzietako &amp;aurreko lerroa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1517"/>
+        <location filename="../basegui.cpp" line="1529"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>Azpidatzietako hurrengo &amp;lerroa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
+        <location filename="../basegui.cpp" line="1838"/>
+        <location filename="../basegui.cpp" line="1839"/>
+        <location filename="../basegui.cpp" line="1840"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1823"/>
+        <location filename="../basegui.cpp" line="1842"/>
+        <location filename="../basegui.cpp" line="1843"/>
+        <location filename="../basegui.cpp" line="1844"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1568"/>
+        <location filename="../basegui.cpp" line="1584"/>
         <source>Dec volume (2)</source>
         <translation>Jeitsi bolumena (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1481"/>
+        <location filename="../basegui.cpp" line="1493"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Bandak txikitu (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1481"/>
         <source>B&amp;lur</source>
         <translation type="obsolete">&amp;Lausotu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1481"/>
         <source>S&amp;harpen</source>
         <translation type="obsolete">&amp;Garbitu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1550"/>
         <source>&amp;YouTube browser</source>
         <translation>&amp;YouTube bilatzailea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1569"/>
+        <location filename="../basegui.cpp" line="1585"/>
         <source>Inc volume (2)</source>
         <translation>Igo bolumena (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1588"/>
         <source>Exit fullscreen</source>
         <translation>Irten ikusleiho-osotik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1590"/>
         <source>OSD - Next level</source>
         <translation>OSD - Hurrengo maila</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1575"/>
+        <location filename="../basegui.cpp" line="1591"/>
         <source>Dec contrast</source>
         <translation>Gut. zuribeltztasuna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1592"/>
         <source>Inc contrast</source>
         <translation>Geh. zuribeltztasuna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1577"/>
+        <location filename="../basegui.cpp" line="1593"/>
         <source>Dec brightness</source>
         <translation>Gut. dizdira</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1594"/>
         <source>Inc brightness</source>
         <translation>Geh. dizdira</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1579"/>
+        <location filename="../basegui.cpp" line="1595"/>
         <source>Dec hue</source>
         <translation>Gut. nabardura</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1580"/>
+        <location filename="../basegui.cpp" line="1596"/>
         <source>Inc hue</source>
         <translation>Geh. nabardura</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1581"/>
+        <location filename="../basegui.cpp" line="1597"/>
         <source>Dec saturation</source>
         <translation>Gut. margoasetasuna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1583"/>
+        <location filename="../basegui.cpp" line="1599"/>
         <source>Dec gamma</source>
         <translation>Geh. gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1586"/>
+        <location filename="../basegui.cpp" line="1602"/>
         <source>Next audio</source>
         <translation>Hurrengo audioa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1587"/>
+        <location filename="../basegui.cpp" line="1603"/>
         <source>Next subtitle</source>
         <translation>Hurrengo azpidatzia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1588"/>
+        <location filename="../basegui.cpp" line="1604"/>
         <source>Next chapter</source>
         <translation>Hurrengo atala</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1589"/>
+        <location filename="../basegui.cpp" line="1605"/>
         <source>Previous chapter</source>
         <translation>Aurreko atala</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>De&amp;noise</source>
         <translation>&amp;Zaratakentzea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1707"/>
         <source>Blur/S&amp;harp</source>
         <translation>Lauso/&amp;Garbi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1729"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>E&amp;tenda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;Arrunta</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;Biguna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
+        <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Bat ere ez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Lausoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1719"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Garbia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4630"/>
+        <location filename="../basegui.cpp" line="1822"/>
+        <source>SMPlayer - MPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1825"/>
+        <source>SMPlayer - SMPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2714"/>
+        <source>Information</source>
+        <translation type="unfinished">Argibideak</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2715"/>
+        <source>You need to restart SMPlayer to use the new GUI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4677"/>
         <source>An error happened - SMPlayer</source>
         <translation>Akats bat gertatu da - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4630"/>
+        <location filename="../basegui.cpp" line="4677"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>YouTube Bilatzailea ezin da abiarazi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1582"/>
+        <location filename="../basegui.cpp" line="1598"/>
         <source>Inc saturation</source>
         <translation>Geh. margoasetasuna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1584"/>
+        <location filename="../basegui.cpp" line="1600"/>
         <source>Inc gamma</source>
         <translation>Geh. gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1496"/>
+        <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Gertatu kanpoko agiria...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1711"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1708"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normala)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1709"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (frameneurri bikoitza)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1553"/>
+        <location filename="../basegui.cpp" line="1569"/>
         <source>&amp;Next</source>
         <translation>Hurre&amp;ngoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1554"/>
+        <location filename="../basegui.cpp" line="1570"/>
         <source>Pre&amp;vious</source>
         <translation>A&amp;urrekoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1502"/>
+        <location filename="../basegui.cpp" line="1514"/>
         <source>Volume &amp;normalization</source>
         <translation>Bolumen &amp;normalkuntza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1382"/>
+        <location filename="../basegui.cpp" line="1394"/>
         <source>&amp;Audio CD</source>
         <translation>Audi&amp;o CD-a</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1382"/>
         <source>Denoise nor&amp;mal</source>
         <translation type="obsolete">Zaratakentze nor&amp;mala</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1382"/>
         <source>Denoise &amp;soft</source>
         <translation type="obsolete">Zaratakentze &amp;biguna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1382"/>
         <source>Denoise o&amp;ff</source>
         <translation type="obsolete">Zara&amp;takentzea ezgaituta</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1518"/>
+        <location filename="../basegui.cpp" line="1530"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>Erabili &amp;SSA/ASS liburutegia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1590"/>
+        <location filename="../basegui.cpp" line="1606"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;Aldatu neurri bikoitza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1512"/>
+        <location filename="../basegui.cpp" line="1524"/>
         <source>S&amp;ize -</source>
         <translation>&amp;Neurria -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1513"/>
+        <location filename="../basegui.cpp" line="1525"/>
         <source>Si&amp;ze +</source>
         <translation>Ne&amp;urria +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1483"/>
+        <location filename="../basegui.cpp" line="1495"/>
         <source>Add &amp;black borders</source>
         <translation>Gehitu &amp;hertz beltzak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1484"/>
+        <location filename="../basegui.cpp" line="1496"/>
         <source>Soft&amp;ware scaling</source>
         <translation>Soft&amp;ware eskalatzea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1545"/>
+        <location filename="../basegui.cpp" line="1561"/>
         <source>&amp;FAQ</source>
         <translation>SE&amp;G</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1546"/>
+        <location filename="../basegui.cpp" line="1562"/>
         <source>&amp;Command line options</source>
         <translation>&amp;Komando lerroko aukerak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3650"/>
+        <location filename="../basegui.cpp" line="3693"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer-en komando lerroko aukerak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1519"/>
+        <location filename="../basegui.cpp" line="1531"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Behartu azpidatziak bakarri&amp;k</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1591"/>
+        <location filename="../basegui.cpp" line="1607"/>
         <source>Reset video equalizer</source>
         <translation>Birrezarri bideo ekulizagailua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4533"/>
+        <location filename="../basegui.cpp" line="4576"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayerrek ustekabean amaitu du.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4534"/>
+        <location filename="../basegui.cpp" line="4577"/>
         <source>Exit code: %1</source>
         <translation>Irteera kodea: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4551"/>
+        <location filename="../basegui.cpp" line="4596"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayerrek huts egin du abiaratzerakoan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4552"/>
+        <location filename="../basegui.cpp" line="4597"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Mesedez egiaztatu Mplayer helburua hobespenetan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4554"/>
+        <location filename="../basegui.cpp" line="4599"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayerrek huts egin du.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4555"/>
+        <location filename="../basegui.cpp" line="4600"/>
         <source>See the log for more info.</source>
         <translation>Ikusi oharrak argibide gehiagorako.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1677"/>
+        <location filename="../basegui.cpp" line="1693"/>
         <source>&amp;Rotate</source>
         <translation>I&amp;tzulikatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1737"/>
         <source>&amp;Off</source>
         <translation>E&amp;tenda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1738"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;Itzulikatu 90 gradu ordulari norabidean eta itzulikatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1739"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>I&amp;tzulikatu 90 gradu &amp;ordulari norabidean</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1724"/>
+        <location filename="../basegui.cpp" line="1740"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>It&amp;zulikatu 90 gradu ordulari norabide aurka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1725"/>
+        <location filename="../basegui.cpp" line="1741"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Itz&amp;ulikatu 90 gradu ordulari norabide aurka eta itzulikatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1435"/>
+        <location filename="../basegui.cpp" line="1447"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;Jauzi egin hona...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1593"/>
+        <location filename="../basegui.cpp" line="1609"/>
         <source>Show context menu</source>
         <translation>Erakutsi menua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3442"/>
+        <location filename="../basegui.cpp" line="3485"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1487"/>
+        <location filename="../basegui.cpp" line="1499"/>
         <source>E&amp;qualizer</source>
         <translation>Ek&amp;ualizagailua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1592"/>
+        <location filename="../basegui.cpp" line="1608"/>
         <source>Reset audio equalizer</source>
         <translation>Birrezarri audio ekualizagailua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1524"/>
+        <location filename="../basegui.cpp" line="1536"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Bilatu azpidatziak hemen: &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1525"/>
+        <location filename="../basegui.cpp" line="1537"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Igo a&amp;zpidatziak hona: OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1710"/>
         <source>&amp;Auto</source>
         <translation>&amp;Berez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1443"/>
+        <location filename="../basegui.cpp" line="1455"/>
         <source>Speed -&amp;4%</source>
         <translation>Abiadura -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1444"/>
+        <location filename="../basegui.cpp" line="1456"/>
         <source>&amp;Speed +4%</source>
         <translation>&amp;Abiadura +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1445"/>
+        <location filename="../basegui.cpp" line="1457"/>
         <source>Speed -&amp;1%</source>
         <translation>Abiadura -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1446"/>
+        <location filename="../basegui.cpp" line="1458"/>
         <source>S&amp;peed +1%</source>
         <translation>Ab&amp;iadura +1% </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>Scree&amp;n</source>
         <translation>&amp;Ikusleihoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>&amp;Default</source>
         <translation>&amp;Berezkoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1458"/>
+        <location filename="../basegui.cpp" line="1470"/>
         <source>Mirr&amp;or image</source>
         <translation>Iz&amp;pilu irudia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1585"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>Next video</source>
         <translation>Hurrengo bideoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1655"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Bidea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1737"/>
+        <location filename="../basegui.cpp" line="1753"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Bidea</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3970"/>
+        <location filename="../basegui.cpp" line="4013"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Kontuz - MPlayer zaharra erabiltzen ari zara</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3971"/>
+        <location filename="../basegui.cpp" line="4014"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Zure erabidean ezarritako MPlayer (%1) bertsioa zaharkitua dago. SMPlayerrek ezin du ongi lan egin horrekin: aukera batzuk ez dute lan egiten, azpidatzi hautaketak huts egin dezake... </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3976"/>
+        <location filename="../basegui.cpp" line="4019"/>
         <source>Please, update your MPlayer.</source>
         <translation>Mesedez, eguneratu zure MPlayerra.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3978"/>
+        <location filename="../basegui.cpp" line="4021"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Ohar hau ez da berriro erakutsiko)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1594"/>
+        <location filename="../basegui.cpp" line="1610"/>
         <source>Next aspect ratio</source>
         <translation>Hurrengo ikuspegi maila</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1463"/>
+        <location filename="../basegui.cpp" line="1475"/>
         <source>&amp;Auto zoom</source>
         <translation>Berez &amp;zooma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1464"/>
+        <location filename="../basegui.cpp" line="1476"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Zooma &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1465"/>
+        <location filename="../basegui.cpp" line="1477"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zooma &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1455"/>
+        <location filename="../basegui.cpp" line="1467"/>
         <source>Pre&amp;view...</source>
         <translation>Aurrekoa&amp;...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1743"/>
         <source>&amp;Always</source>
         <translation>Be&amp;tik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1728"/>
+        <location filename="../basegui.cpp" line="1744"/>
         <source>&amp;Never</source>
         <translation>I&amp;noiz ez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1729"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>While &amp;playing</source>
         <translation>Irakurketan &amp;zehar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1786"/>
+        <location filename="../basegui.cpp" line="1802"/>
         <source>DVD &amp;menu</source>
         <translation>DVD &amp;menua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1788"/>
+        <location filename="../basegui.cpp" line="1804"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD a&amp;urreko menua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>DVD menu, move up</source>
         <translation>DVD menua, mugitu gora</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>DVD menu, move down</source>
         <translation>DVD menua, mugitu behera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>DVD menu, move left</source>
         <translation>DVD menua, mugitu ezkerrera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1801"/>
         <source>DVD menu, move right</source>
         <translation>DVD menua, mugitu eskuinera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1787"/>
+        <location filename="../basegui.cpp" line="1803"/>
         <source>DVD menu, select option</source>
         <translation>DVD menua, hautatu aukera</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1805"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD menua, sagu klikaketa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1495"/>
+        <location filename="../basegui.cpp" line="1507"/>
         <source>Set dela&amp;y...</source>
         <translation>Ezarri atzera&amp;pena...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1509"/>
+        <location filename="../basegui.cpp" line="1521"/>
         <source>Se&amp;t delay...</source>
         <translation>Ezarri atzera&amp;pena...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3681"/>
+        <location filename="../basegui.cpp" line="3724"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Jauzi hona:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3682"/>
+        <location filename="../basegui.cpp" line="3725"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Bilatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3692"/>
+        <location filename="../basegui.cpp" line="3735"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Audio atzerapena</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3693"/>
+        <location filename="../basegui.cpp" line="3736"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Audio atzerapena (segundumilaenetan):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3702"/>
+        <location filename="../basegui.cpp" line="3745"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Azpidatziaren atzerapena</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3703"/>
+        <location filename="../basegui.cpp" line="3746"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Azpidatziaren atzerapena (segundumilaenetan):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1730"/>
+        <location filename="../basegui.cpp" line="1746"/>
         <source>Toggle stay on top</source>
         <translation>Aldatu eduki goianra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4270"/>
+        <location filename="../basegui.cpp" line="4313"/>
         <source>Jump to %1</source>
         <translation>Jauzi hona %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1453"/>
+        <location filename="../basegui.cpp" line="1465"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Hasi/gelditu ikusleiho-argazkiak &amp;hartuz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1521"/>
+        <location filename="../basegui.cpp" line="1533"/>
         <source>Subtitle &amp;visibility</source>
         <translation>Azpi&amp;datzien ikusgarritasuna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1595"/>
+        <location filename="../basegui.cpp" line="1611"/>
         <source>Next wheel function</source>
         <translation>Hurrengo gurpil eginkizuna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1776"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>E&amp;gitaraua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1657"/>
         <source>&amp;TV</source>
         <translation>&amp;TB</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1660"/>
         <source>Radi&amp;o</source>
         <translation>&amp;Irratia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1602"/>
+        <location filename="../basegui.cpp" line="1618"/>
         <source>Subtitles onl&amp;y</source>
         <translation>Azpidatziak ba&amp;karrik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1603"/>
+        <location filename="../basegui.cpp" line="1619"/>
         <source>Volume + &amp;Seek</source>
         <translation>Bolumena + &amp;Bilatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1604"/>
+        <location filename="../basegui.cpp" line="1620"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Bolumena + Bilatu + &amp;Denbora</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1605"/>
+        <location filename="../basegui.cpp" line="1621"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Bolumena + Bilatu + Denbora + Denbora &amp;guztira</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1335"/>
+        <location filename="../basegui.cpp" line="1347"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Bideo iragazkiak ezgaituta daude vdpau erabiltzean</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1457"/>
+        <location filename="../basegui.cpp" line="1469"/>
         <source>Fli&amp;p image</source>
         <translation>Itzu&amp;likatu irudia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1665"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>Zoo&amp;m</source>
         <translation>&amp;Zooma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1597"/>
+        <location filename="../basegui.cpp" line="1613"/>
         <source>Show filename on OSD</source>
         <translation>Erakutsi agirizena OSD-an</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1430"/>
+        <location filename="../basegui.cpp" line="1442"/>
         <source>Set &amp;A marker</source>
         <translation>Ezarri &amp;A marka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1431"/>
+        <location filename="../basegui.cpp" line="1443"/>
         <source>Set &amp;B marker</source>
         <translation>Ezarri &amp;B marka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1432"/>
+        <location filename="../basegui.cpp" line="1444"/>
         <source>&amp;Clear A-B markers</source>
         <translation>&amp;Garbitu A-B markak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1651"/>
+        <location filename="../basegui.cpp" line="1667"/>
         <source>&amp;A-B section</source>
         <translation>&amp;A-B atalak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1598"/>
+        <location filename="../basegui.cpp" line="1614"/>
         <source>Toggle deinterlacing</source>
         <translation>Aldatu ezelkarlotu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1548"/>
+        <location filename="../basegui.cpp" line="1564"/>
         <source>&amp;Donate</source>
         <translation>Eman &amp;Dirulaguntza bat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;Ezkutuko giro-azpidatziak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3662"/>
+        <location filename="../basegui.cpp" line="3705"/>
         <source>Donate</source>
         <translation>Egin Donazio Bat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3663"/>
+        <location filename="../basegui.cpp" line="3706"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
         <translation>SM Irakurgailua atsegin baduzu, sostengatzeko bide on bat dirulaguntza bat bidaltzea da, txikia izanda ere asko eskertzen da.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3664"/>
+        <location filename="../basegui.cpp" line="3707"/>
         <source>You can send your donation using %1.</source>
         <translation>Zure donazioa bidali dezakezu %1 erabiliz.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3664"/>
+        <location filename="../basegui.cpp" line="3707"/>
         <source>this form</source>
         <translation>forma  hau</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1634"/>
+        <location filename="../basegui.cpp" line="1650"/>
         <source>&amp;Disc</source>
         <translation>&amp;Diska</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1638"/>
+        <location filename="../basegui.cpp" line="1654"/>
         <source>F&amp;avorites</source>
         <translation>&amp;Gogokoenak</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1547"/>
+        <location filename="../basegui.cpp" line="1563"/>
         <source>Check for &amp;updates</source>
         <translation>Egiaztatu &amp;Eguneraketak</translation>
     </message>
@@ -1792,97 +1825,98 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2721"/>
+        <location filename="../core.cpp" line="2723"/>
         <source>Brightness: %1</source>
         <translation>Dizdira: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2736"/>
+        <location filename="../core.cpp" line="2738"/>
         <source>Contrast: %1</source>
         <translation>Zuribeltztasuna: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2750"/>
+        <location filename="../core.cpp" line="2752"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2764"/>
+        <location filename="../core.cpp" line="2766"/>
         <source>Hue: %1</source>
         <translation>Nabardura: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2778"/>
+        <location filename="../core.cpp" line="2780"/>
         <source>Saturation: %1</source>
         <translation>Margoasetasuna: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2907"/>
+        <location filename="../core.cpp" line="2909"/>
         <source>Volume: %1</source>
         <translation>Bolumena: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3720"/>
+        <location filename="../core.cpp" line="3722"/>
         <source>Zoom: %1</source>
         <translation>Zooma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3035"/>
+        <location filename="../core.cpp" line="3025"/>
+        <location filename="../core.cpp" line="3037"/>
         <source>Font scale: %1</source>
         <translation>Hizki neurria: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3591"/>
+        <location filename="../core.cpp" line="3593"/>
         <source>Aspect ratio: %1</source>
         <translation>Ikuspegi maila: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3963"/>
+        <location filename="../core.cpp" line="3965"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Hizki katxea eguneratzen. Honek segundu batzuk hartu ditzake...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2949"/>
+        <location filename="../core.cpp" line="2951"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Azpidatzi atzerapena: %1 sm</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2966"/>
+        <location filename="../core.cpp" line="2968"/>
         <source>Audio delay: %1 ms</source>
         <translation>Audio atzerapena: %1 sm</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2832"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Speed: %1</source>
         <translation>Abiadura: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3078"/>
+        <location filename="../core.cpp" line="3080"/>
         <source>Subtitles on</source>
         <translation>Azpidatziak eraginda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3080"/>
+        <location filename="../core.cpp" line="3082"/>
         <source>Subtitles off</source>
         <translation>Azpidatziak etenda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3638"/>
+        <location filename="../core.cpp" line="3640"/>
         <source>Mouse wheel seeks now</source>
         <translation>Sagu gurpilak orain bilaketa egiten du</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3641"/>
+        <location filename="../core.cpp" line="3643"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Sagu gurpilak orain bolumena aldatzen du</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3644"/>
+        <location filename="../core.cpp" line="3646"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Sagu gurpilak orain zoom maila aldatzen du</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3647"/>
+        <location filename="../core.cpp" line="3649"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Sagu gurpilak orain abiadura aldatzen du</translation>
     </message>
@@ -1897,17 +1931,17 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Ikusleiho-argazkiak EZ dira hartu, agiritegia itxuratugabe dago</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2456"/>
+        <location filename="../core.cpp" line="2458"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; marka ezarri hemen: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2473"/>
+        <location filename="../core.cpp" line="2475"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; marka ezarri hemen: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2488"/>
+        <location filename="../core.cpp" line="2490"/>
         <source>A-B markers cleared</source>
         <translation>A-B markak garbituta</translation>
     </message>
@@ -2027,6 +2061,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Ezkutatu oharra</translation>
     </message>
     <message>
+        <location filename="../errordialog.ui" line="87"/>
         <location filename="../errordialog.cpp" line="57"/>
         <source>Show log</source>
         <translation>Erakutsi oharra</translation>
@@ -2070,6 +2105,9 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Gogokoenen editatzailea</translation>
     </message>
     <message>
+        <location filename="../favoriteeditor.ui" line="34"/>
+        <location filename="../favoriteeditor.cpp" line="109"/>
+        <location filename="../favoriteeditor.cpp" line="168"/>
         <location filename="../favoriteeditor.cpp" line="268"/>
         <source>Favorite list</source>
         <translation>Gogokoenen zerrenda</translation>
@@ -2207,6 +2245,8 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>&amp;Hautatu agiri honentzat erabiliko den demultiplexatzailea:</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.ui" line="105"/>
+        <location filename="../filepropertiesdialog.ui" line="167"/>
         <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
         <translation>&amp;Garbitu</translation>
@@ -2476,6 +2516,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
         <translation>Itxi</translation>
     </message>
     <message>
+        <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="223"/>
         <source>&amp;Download</source>
         <translation>&amp;Jeitsi</translation>
@@ -2578,6 +2619,7 @@ Please check the permissions of that folder.</source>
 Mesedez egiaztatu agiritegiaren baimenak.</translation>
     </message>
     <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>Download failed</source>
         <translation>Jeisketak huts egin du</translation>
@@ -2626,6 +2668,8 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Demultiplexatzailea</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="78"/>
+        <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Name</source>
         <translation>Izena</translation>
@@ -2696,16 +2740,19 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Ikuspegi maila</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="102"/>
         <location filename="../infofile.cpp" line="111"/>
         <source>Format</source>
         <translation>Heuskarria</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>Bitrate</source>
         <translation>Bitneurria</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
@@ -2716,6 +2763,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Frame segunduko</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="105"/>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
         <translation>Hautaturiko kodeka</translation>
@@ -2746,11 +2794,15 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Audio Jarioak</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Language</source>
         <translation>Hizkuntza</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="131"/>
+        <location filename="../infofile.cpp" line="133"/>
+        <location filename="../infofile.cpp" line="162"/>
         <location filename="../infofile.cpp" line="164"/>
         <source>empty</source>
         <translation>hutsik</translation>
@@ -2766,12 +2818,14 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Mota</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="125"/>
         <location filename="../infofile.cpp" line="150"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
         <translation>ID-a</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="123"/>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
@@ -2890,6 +2944,8 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Amharicera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="31"/>
+        <location filename="../languages.cpp" line="215"/>
         <location filename="../languages.cpp" line="268"/>
         <source>Arabic</source>
         <translation>Arabiera</translation>
@@ -2915,6 +2971,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Bashkirera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="38"/>
         <location filename="../languages.cpp" line="216"/>
         <source>Bulgarian</source>
         <translation>Bulgariera</translation>
@@ -2945,6 +3002,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Bretainiera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="46"/>
         <location filename="../languages.cpp" line="217"/>
         <source>Catalan</source>
         <translation>Katalaniera</translation>
@@ -2955,6 +3013,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Korsikera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="50"/>
         <location filename="../languages.cpp" line="218"/>
         <source>Czech</source>
         <translation>Txekiera</translation>
@@ -2965,21 +3024,25 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Galesera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="54"/>
         <location filename="../languages.cpp" line="219"/>
         <source>Danish</source>
         <translation>Daniera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="55"/>
         <location filename="../languages.cpp" line="220"/>
         <source>German</source>
         <translation>Alemaniera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="59"/>
         <location filename="../languages.cpp" line="221"/>
         <source>Greek</source>
         <translation>Greziera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="60"/>
         <location filename="../languages.cpp" line="222"/>
         <source>English</source>
         <translation>Ingelera</translation>
@@ -2990,16 +3053,19 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Esperantoera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="62"/>
         <location filename="../languages.cpp" line="223"/>
         <source>Spanish</source>
         <translation>Gaztelera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="63"/>
         <location filename="../languages.cpp" line="224"/>
         <source>Estonian</source>
         <translation>Estoniera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="64"/>
         <location filename="../languages.cpp" line="225"/>
         <source>Basque</source>
         <translation>Euskara</translation>
@@ -3010,6 +3076,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Persiera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="67"/>
         <location filename="../languages.cpp" line="226"/>
         <source>Finnish</source>
         <translation>Finlandiera</translation>
@@ -3020,6 +3087,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Faroera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="70"/>
         <location filename="../languages.cpp" line="227"/>
         <source>French</source>
         <translation>Frantziera</translation>
@@ -3035,6 +3103,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Irlandera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="74"/>
         <location filename="../languages.cpp" line="228"/>
         <source>Galician</source>
         <translation>Galiziera</translation>
@@ -3065,11 +3134,13 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Hindiera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="82"/>
         <location filename="../languages.cpp" line="229"/>
         <source>Croatian</source>
         <translation>Kroaziera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="84"/>
         <location filename="../languages.cpp" line="230"/>
         <source>Hungarian</source>
         <translation>Hungariera</translation>
@@ -3100,6 +3171,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Islandiera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="96"/>
         <location filename="../languages.cpp" line="231"/>
         <source>Italian</source>
         <translation>Italiera</translation>
@@ -3110,6 +3182,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Inuktituera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="98"/>
         <location filename="../languages.cpp" line="232"/>
         <source>Japanese</source>
         <translation>Japoniera</translation>
@@ -3120,6 +3193,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Javaera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="100"/>
         <location filename="../languages.cpp" line="233"/>
         <source>Georgian</source>
         <translation>Georgiera</translation>
@@ -3140,6 +3214,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Kannadera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="108"/>
         <location filename="../languages.cpp" line="234"/>
         <source>Korean</source>
         <translation>Koreaera</translation>
@@ -3150,6 +3225,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Kashmiriera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="111"/>
         <location filename="../languages.cpp" line="235"/>
         <source>Kurdish</source>
         <translation>Kurdistanera</translation>
@@ -3170,6 +3246,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Lingalera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="121"/>
         <location filename="../languages.cpp" line="236"/>
         <source>Lithuanian</source>
         <translation>Lituaniera</translation>
@@ -3190,6 +3267,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Maoriera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="127"/>
         <location filename="../languages.cpp" line="237"/>
         <source>Macedonian</source>
         <translation>Mazedoniera</translation>
@@ -3240,11 +3318,13 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Nepalera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="238"/>
         <source>Dutch</source>
         <translation>Herbeherera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="141"/>
         <location filename="../languages.cpp" line="142"/>
         <source>Norwegian</source>
         <translation>Norbegiera</translation>
@@ -3260,6 +3340,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Oriyera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="153"/>
         <location filename="../languages.cpp" line="239"/>
         <source>Polish</source>
         <translation>Poloniera</translation>
@@ -3275,11 +3356,14 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Quechuera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="159"/>
         <location filename="../languages.cpp" line="242"/>
         <source>Romanian</source>
         <translation>Errumaniera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="160"/>
+        <location filename="../languages.cpp" line="243"/>
         <location filename="../languages.cpp" line="274"/>
         <source>Russian</source>
         <translation>Errusiera</translation>
@@ -3300,11 +3384,13 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Sindhiera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="168"/>
         <location filename="../languages.cpp" line="244"/>
         <source>Slovak</source>
         <translation>Eslovakiera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="245"/>
         <source>Slovenian</source>
         <translation>Esloveniera</translation>
@@ -3330,6 +3416,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Albaniera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="174"/>
         <location filename="../languages.cpp" line="246"/>
         <source>Serbian</source>
         <translation>Serbiera</translation>
@@ -3340,6 +3427,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Sundanera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="178"/>
         <location filename="../languages.cpp" line="247"/>
         <source>Swedish</source>
         <translation>Suediera</translation>
@@ -3390,6 +3478,8 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Tongaera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="189"/>
+        <location filename="../languages.cpp" line="248"/>
         <location filename="../languages.cpp" line="270"/>
         <source>Turkish</source>
         <translation>Turkiera</translation>
@@ -3415,6 +3505,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Uighurrera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="195"/>
         <location filename="../languages.cpp" line="249"/>
         <source>Ukrainian</source>
         <translation>Ukraniera</translation>
@@ -3430,6 +3521,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Uzbekiera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="199"/>
         <location filename="../languages.cpp" line="250"/>
         <source>Vietnamese</source>
         <translation>Vietnamera</translation>
@@ -3789,12 +3881,13 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <source>Marshallese</source>
         <translation>Marshallera</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmålera</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
         <translation>Ndebelera</translation>
@@ -3899,7 +3992,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <source>Venda</source>
         <translation>Vendaera</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapükera</translation>
@@ -3958,11 +4051,13 @@ Gainidaztea nahi duzu?</translation>
         <translation>Ohar Leihoa</translation>
     </message>
     <message>
+        <location filename="../logwindowbase.ui" line="57"/>
         <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
         <translation>Gorde</translation>
     </message>
     <message>
+        <location filename="../logwindowbase.ui" line="67"/>
         <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
         <translation>Kopiatu gakora</translation>
@@ -3999,17 +4094,26 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="133"/>
         <source>Control bar</source>
         <translation>Aginte-barra</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="437"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <source>Seek bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="427"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="428"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="429"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="441"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -4037,6 +4141,7 @@ Gainidaztea nahi duzu?</translation>
         <translation>&amp;Editatu</translation>
     </message>
     <message>
+        <location filename="../playlist.cpp" line="806"/>
         <location filename="../playlist.cpp" line="824"/>
         <source>Playlists</source>
         <translation>Irakur-zerrendak</translation>
@@ -4187,27 +4292,28 @@ Gainidaztea nahi duzu?</translation>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="368"/>
+        <location filename="../prefadvanced.cpp" line="74"/>
+        <location filename="../prefadvanced.cpp" line="392"/>
         <source>Advanced</source>
         <translation>Aurreratua</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="73"/>
+        <location filename="../prefadvanced.cpp" line="87"/>
         <source>Auto</source>
         <translation>Berez</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="32"/>
+        <location filename="../prefadvanced.ui" line="24"/>
         <source>&amp;Advanced</source>
         <translation>&amp;Aurreratua</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="55"/>
+        <location filename="../prefadvanced.ui" line="38"/>
         <source>icon</source>
         <translation>ikurra</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="332"/>
+        <location filename="../prefadvanced.ui" line="297"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -4216,7 +4322,7 @@ Zuriunez bereizirik idatzi.
 Adibidez: -flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="401"/>
+        <location filename="../prefadvanced.ui" line="357"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -4225,66 +4331,76 @@ Bereizi itzazu &quot;,&quot; bidez. Ez erabili zuriunerik
 Adibidez: scale=512:-2.eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="470"/>
+        <location filename="../prefadvanced.ui" line="417"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>Eta baita audio iragazkiak. Bideo iragazkien arau berdinekin.
 Adibidea: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="472"/>
+        <location filename="../prefadvanced.cpp" line="499"/>
         <source>Log MPlayer output</source>
         <translation>Ohartu MPlayer irteera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="461"/>
+        <location filename="../prefadvanced.cpp" line="486"/>
         <source>Log SMPlayer output</source>
         <translation>Ohartu SMPlayer irteera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="732"/>
+        <location filename="../prefadvanced.ui" line="658"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Aukera hau aplikazio garbiketarako jarria izan da nagusiki.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="409"/>
+        <location filename="../prefadvanced.cpp" line="433"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Aukera hau hautatuz dirdira gutxitu dezakezu, baina bideoa behar bezala ez ikustea eragin dezake.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="488"/>
+        <location filename="../prefadvanced.cpp" line="517"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer oharren iragazkia</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="65"/>
+        <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
         <translation>Monitore &amp;ikuspegia:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="122"/>
+        <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
         <translation>Abiarazi M&amp;Player bere leihoan</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="364"/>
+        <location filename="../prefadvanced.ui" line="320"/>
         <source>&amp;Options:</source>
         <translation>&amp;Aukerak:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="433"/>
+        <location filename="../prefadvanced.ui" line="380"/>
         <source>V&amp;ideo filters:</source>
         <translation>B&amp;ideo iragazkiak:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="501"/>
+        <location filename="../prefadvanced.ui" line="439"/>
         <source>Audio &amp;filters:</source>
         <translation>Audio ira&amp;gazkiak:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="239"/>
+        <location filename="../prefadvanced.ui" line="213"/>
         <source>&amp;Colorkey:</source>
         <translation>Margogil&amp;tza:</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="526"/>
+        <source>MPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="591"/>
+        <source>SMPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="597"/>
@@ -4292,297 +4408,297 @@ Adibidea: resample=44100:0:0,volnorm</translation>
         <translation>Ohartu &amp;SMPlayer irteera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="742"/>
+        <location filename="../prefadvanced.ui" line="668"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>SMPlayer oharren &amp;iragazkia:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="262"/>
+        <location filename="../prefadvanced.ui" line="236"/>
         <source>C&amp;hange...</source>
         <translation>A&amp;ldatu...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="459"/>
+        <location filename="../prefadvanced.cpp" line="483"/>
         <source>Logs</source>
         <translation>Oharrak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="648"/>
+        <location filename="../prefadvanced.ui" line="532"/>
         <source>Log MPlayer &amp;output</source>
         <translation>Ohartu MPlayer &amp;irteera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="311"/>
+        <location filename="../prefadvanced.ui" line="285"/>
         <source>Options for MP&amp;layer</source>
         <translation>&amp;MPlayer aukerak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="478"/>
+        <location filename="../prefadvanced.cpp" line="505"/>
         <source>Autosave MPlayer log</source>
         <translation>MPlayer oharrak berezgaitasunez gorde</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="479"/>
+        <location filename="../prefadvanced.cpp" line="506"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Aukera hau hautaturik badago MPlayer oharra ezarritako agirian gordeko da agiri berri bat irakurtzen hasten den bakoitzean. Hau kanpo aplikazioentzat da beraiek irakurtzen ari zaren agiriaren argibideak izan ditzaten.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="484"/>
+        <location filename="../prefadvanced.cpp" line="511"/>
         <source>Autosave MPlayer log filename</source>
         <translation>Berezgaitasunez gorde MPlayer ohar agirizena</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="485"/>
+        <location filename="../prefadvanced.cpp" line="512"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Idatzi hemen MPlayer oharrak gordetzeko erabiliko den helburua eta agirizena.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="696"/>
+        <location filename="../prefadvanced.ui" line="571"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>&amp;Berezgaitasunez gorde MPlayer oharra agirian</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="399"/>
+        <location filename="../prefadvanced.cpp" line="423"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Bidali agirizen laburrak (8+3) MPlyaerri</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="400"/>
+        <location filename="../prefadvanced.cpp" line="424"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>Oraingoz MPlayerrek ezin du tokiko orrialde-kodetik kanpoko hizkirik duen agiririk irakurri. Aukera hau hautatuz SMPlayerrek MPlayerri agirizen bertsio laburra bidaliko dio eta hauek irekitzeko gai izan beharko litzake.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="166"/>
+        <location filename="../prefadvanced.ui" line="149"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation>&amp;Bidali agirizen laburrak (8+3) MPlyaerri</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="370"/>
+        <location filename="../prefadvanced.cpp" line="394"/>
         <source>Monitor aspect</source>
         <translation>Monitore ikuspegia</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="371"/>
+        <location filename="../prefadvanced.cpp" line="395"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>Hautatu zure monitorearentzako ikuspegi maila.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="373"/>
+        <location filename="../prefadvanced.cpp" line="397"/>
         <source>Run MPlayer in its own window</source>
         <translation>Ekin MPlayer bere leihoan</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="374"/>
+        <location filename="../prefadvanced.cpp" line="398"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Aukera hau hautatzen baduzu, MPlayerren bideo leihoa ez da SMPlayerren leiho nagusian barneratuko baina ordez bere leihoa erabiliko du. Nabaritu sagua eta teklatua zuzenean kudeatu daitezkela MPlayerretik, honek esanahi du lasterbide teklak eta sagu klikak zihurrenik ez dutela nahi bezala lan egingo MPlayerren leihoa fokutua dagoenean.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="414"/>
+        <location filename="../prefadvanced.cpp" line="438"/>
         <source>Colorkey</source>
         <translation>Margogiltza</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="415"/>
+        <location filename="../prefadvanced.cpp" line="439"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Bideoaren zati batzuk beste leiho baten gainetik ikusten badituzu, margogiltza aldatu dezakezu zuzentzeko. Saiatu beltzetik hurbil dagoen margo bat hautatzen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="437"/>
+        <location filename="../prefadvanced.cpp" line="461"/>
         <source>Options for MPlayer</source>
         <translation>MPlayer aukerak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="439"/>
+        <location filename="../prefadvanced.cpp" line="463"/>
         <source>Options</source>
         <translation>Aukerak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="464"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Hemen MPlayerrentzako aukerak idatzi ditzakezu. Idatzi itzazu tarte batez bananduta.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Video filters</source>
         <translation>Bideo iragazkiak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="444"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Hemen MPlayerrentzako bideo iragazkiak gehitu ditzakezu. Idatzi itzazu kakotxaz banandute. Ez erabili tarterik!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="447"/>
+        <location filename="../prefadvanced.cpp" line="471"/>
         <source>Audio filters</source>
         <translation>Audio iragazkiak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="448"/>
+        <location filename="../prefadvanced.cpp" line="472"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Hemen MPlayerrentzako audio iragazkiak gehitu ditzakezu. Idatzi itzazu kakotxaz banandute. Ez erabili tarterik!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="408"/>
+        <location filename="../prefadvanced.cpp" line="432"/>
         <source>Repaint the background of the video window</source>
         <translation>Birmargotu bideo leihoaren barrena</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="173"/>
+        <location filename="../prefadvanced.ui" line="156"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Birmar&amp;gotu bideo leihoaren barrena</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="453"/>
+        <location filename="../prefadvanced.cpp" line="477"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="454"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>Erabili IPv4 sare elkarketatan. IPv6 erabiltzen du berezgaitasunez.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="456"/>
+        <location filename="../prefadvanced.cpp" line="480"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="457"/>
+        <location filename="../prefadvanced.cpp" line="481"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>Erabili IPv6 sare elkarketatan. IPv4 erabiltzen du berezgaitasunez.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="539"/>
+        <location filename="../prefadvanced.ui" line="477"/>
         <source>Network Connection</source>
         <translation>Sare Elkarketa</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="560"/>
+        <location filename="../prefadvanced.ui" line="489"/>
         <source>IPv&amp;4</source>
         <translation>IPv&amp;4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="567"/>
+        <location filename="../prefadvanced.ui" line="496"/>
         <source>IPv&amp;6</source>
         <translation>IPv&amp;6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="591"/>
+        <location filename="../prefadvanced.ui" line="520"/>
         <source>Lo&amp;gs</source>
         <translation>&amp;Oharrak</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="381"/>
+        <location filename="../prefadvanced.cpp" line="405"/>
         <source>Rebuild index if needed</source>
         <translation>Birreraiki aurkibidetzea beharrezkoa bada</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="129"/>
+        <location filename="../prefadvanced.ui" line="112"/>
         <source>Rebuild &amp;index if needed</source>
         <translation>Bir&amp;reraiki aurkibidetzea beharrezkoa bada</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="462"/>
+        <location filename="../prefadvanced.cpp" line="487"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Aukera hau gaiturik badago, SMPlayerrek irteerako garbiketa mezuak biltegiratuko ditu (oharra hemen ikusi dezakezu: &lt;b&gt;Aukerak -&gt; Ikusi oharrak -&gt; SMPlayer&lt;/b&gt;). Argibide hauek oso erabilgarriak izan daitezke garatzailearentzako okerren bat aurkitzen baduzu.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="473"/>
+        <location filename="../prefadvanced.cpp" line="500"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Hautatua bada, SMPlayerrek MPlayerren irteera biltegiratuko du (ikusi dezakezu &lt;b&gt;Aukerak -&gt; Ikusi oharrak -&gt; MPlayer&lt;/b&gt;). Arazoak badira ohar honek argibide garrantzitsuak lortzen lagundu dezake, hortaz aukera hau gaituta edukitzea gomendatzen da.  </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="489"/>
+        <location filename="../prefadvanced.cpp" line="518"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Aukera honek ahalbidetzen du iragaztea oharren gordeko diren SMPlayerren mezuak. Hemen edozein adierazpen arrunt idatzi dezakezu.&lt;br&gt;Eskabidea: &lt;i&gt;^Core::.*&lt;/i&gt; honela hitz horrekin hasten diren lerroak bakarrik erakutsiko ditu &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="388"/>
+        <location filename="../prefadvanced.cpp" line="412"/>
         <source>Correct pts</source>
         <translation>Pts zuzena</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="389"/>
+        <location filename="../prefadvanced.cpp" line="413"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Aldatzen du MPlayer modu esperimental batera non bideo framentzako denbora markak ezberdin kalkulatzen diren eta bideo iragazkiek frame berriak gehitzen dituzte edo denbora markak aldatzea sostengatuta dagoen. Denbora marka zehatzagoak ikusi daitezke adibidez azpidatziak irakurtzen denboratuta agerraldi aldaketetarako SSA/ASS liburutegia gaiturik. Pts zuzen gabe azpidatzien denboratzea frame batzuetan aldiberetugabe joango da. Aukera honek ez du zuzen lan egiten demultiplexatzaile eta kodek batzuekin.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="420"/>
+        <location filename="../prefadvanced.cpp" line="444"/>
         <source>Actions list</source>
         <translation>Ekintza zerrenda</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="421"/>
+        <location filename="../prefadvanced.cpp" line="445"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Hemen adierazi dezakezu &lt;i&gt;ekintza&lt;/i&gt; zerrenda bat agiri bat irekitzen den bakoitzean ekiteko. Ekintza eskuragarri guztiak aurkituko dituzu editorearen lasterbidean &lt;b&gt;Teklatua eta sagua&lt;/b&gt; atalean. Ekintzak tartez banandu behar dira. Ekintza hautagarriak hurrengoak izan daitezke  &lt;i&gt;egia&lt;/i&gt; edo &lt;i&gt;gezurra&lt;/i&gt; gaitzeko edo ezgaitzeko ekintza.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="428"/>
+        <location filename="../prefadvanced.cpp" line="452"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation>Mugapena: ekintzek agiri bat irekita denean bakarrik ekiten dute eta ez mplayer birrabiaraztean (adib. audio edo bideo iragazki bat hautatzen duzunean).</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="451"/>
+        <location filename="../prefadvanced.cpp" line="475"/>
         <source>Network</source>
         <translation>Sarea</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="193"/>
+        <location filename="../prefadvanced.ui" line="176"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
         <translation>E&amp;kin hurrengo ekintzak agiri bat irekia den bakoitzean. Ekintzak tartez banandu behar dira:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="533"/>
+        <location filename="../prefadvanced.ui" line="471"/>
         <source>&amp;Network</source>
         <translation>&amp;Sarea</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="427"/>
+        <location filename="../prefadvanced.cpp" line="451"/>
         <source>Example:</source>
         <translation>Adibidea:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="382"/>
+        <location filename="../prefadvanced.cpp" line="406"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>Agirien aurkibidetze birreraiketa ez badago aurkibideturik, hurrengo bilaketan. Erabilgarria jeisketa hondatu/osatugabeetan, edo gaizki sortutako agirietan. Aukera honek lan egiten du bakarrik azpiko multimedia sostengu bilaketan (ez stdin, pipe, etab.-ekin). &lt;br&gt; &lt;b&gt;Oharra:&lt;/b&gt; aurkibidearen sortzeak denbora apur bat hartu dezake.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="138"/>
+        <location filename="../prefadvanced.ui" line="121"/>
         <source>C&amp;orrect PTS:</source>
         <translation>PTS zu&amp;zena:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="689"/>
+        <location filename="../prefadvanced.ui" line="564"/>
         <source>&amp;Verbose</source>
         <translation>&amp;Hitzjarioa</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="468"/>
+        <location filename="../prefadvanced.cpp" line="493"/>
         <source>Save SMPlayer log to file</source>
         <translation>Gorde SMPlayer oharra agirian</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="469"/>
+        <location filename="../prefadvanced.cpp" line="494"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>Aukera hau hautatua bada, SMPlayer oharr hemen grabatuko da: %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="638"/>
+        <location filename="../prefadvanced.ui" line="629"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
         <translation>&amp;Gorde SMPlayer oharra agiri batean</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="432"/>
+        <location filename="../prefadvanced.cpp" line="456"/>
         <source>Show tag info in window title</source>
         <translation>Erakutsi argibide etiketa leihoaren izenburuan</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="433"/>
+        <location filename="../prefadvanced.cpp" line="457"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
         <translation>Aukera hau gaituta badago, etiketen argibideak leihoaren izenburan erakutsiko dira. Besteal agirizena bakarrik erakutsiko da.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="287"/>
+        <location filename="../prefadvanced.ui" line="261"/>
         <source>Show tag in&amp;fo in window title</source>
         <translation>Erakutsi eti&amp;keta argibideak leihoaren izenburuan</translation>
     </message>
@@ -4663,11 +4779,13 @@ Adibidea: resample=44100:0:0,volnorm</translation>
 <context>
     <name>PrefDrives</name>
     <message>
+        <location filename="../prefdrives.ui" line="35"/>
         <location filename="../prefdrives.cpp" line="73"/>
         <source>Drives</source>
         <translation>Kontrolatzaileak</translation>
     </message>
     <message>
+        <location filename="../prefdrives.ui" line="86"/>
         <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
         <translation>ikurra</translation>
@@ -4746,6 +4864,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
 <context>
     <name>PrefGeneral</name>
     <message>
+        <location filename="../prefgeneral.cpp" line="85"/>
         <location filename="../prefgeneral.cpp" line="835"/>
         <source>General</source>
         <translation>Orokorra</translation>
@@ -5115,7 +5234,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.ui" line="737"/>
         <source>Volume</source>
-        <translation>Bolumena<byte value="x9"/></translation>
+        <translation>Bolumena	</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
@@ -5218,11 +5337,14 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>It&amp;xi irakurketa amaitutakoan</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="329"/>
+        <location filename="../prefgeneral.cpp" line="336"/>
         <location filename="../prefgeneral.cpp" line="362"/>
         <source>fast</source>
         <translation>azkar</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="330"/>
         <location filename="../prefgeneral.cpp" line="358"/>
         <source>slow</source>
         <translation>astiro</translation>
@@ -5233,6 +5355,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>azkar - ATI txartelak</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="380"/>
         <location filename="../prefgeneral.cpp" line="409"/>
         <source>User defined...</source>
         <translation>Erabiltzaileak zehazturik...</translation>
@@ -5298,6 +5421,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Hemen azpidatzien jariorako hizkuntza hobetsia idatzi dezakezu. Azpidatzi jario anitz dituen multimedia bat aurkitzen denean, SMPlayer saiatuko da erabiltzen zuk hobetsitako hizkuntza. &lt;br&gt;Honek bakarrik lan egingo du azpidatzi jarioaren argibideak ematen dituen multimediekin, DVD-ak edo mkv agiriak adibidez.&lt;br&gt;Eremu honek adierazpen arruntak onartzen ditu. Adibidez: &lt;b&gt;es|esp|spa&lt;/b&gt;idatziz gero &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; edo &lt;i&gt;spa&lt;/i&gt;-rekin bat datorren azpidatzi jarioa hautatuko du.</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.ui" line="228"/>
         <location filename="../prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
         <translation>&amp;Irteera kontrolatzailea:</translation>
@@ -5571,6 +5695,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>&amp;Teklatua</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="70"/>
         <location filename="../prefinput.ui" line="344"/>
         <source>icon</source>
         <translation>ikurra</translation>
@@ -5586,16 +5711,19 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Botoi eginkizunak:</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="143"/>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Media seeking</source>
         <translation>Multimedia bilaketak</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="144"/>
         <location filename="../prefinput.cpp" line="345"/>
         <source>Volume control</source>
         <translation>Bolumen agintea</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="145"/>
         <location filename="../prefinput.cpp" line="348"/>
         <source>Zoom video</source>
         <translation>Bideo zooma</translation>
@@ -5751,6 +5879,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Eginkizunik ez</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="146"/>
         <location filename="../prefinput.cpp" line="351"/>
         <source>Change speed</source>
         <translation>Aldatu abiadura</translation>
@@ -5941,21 +6070,25 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Aldatu gurpilaren eginkizuna</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="512"/>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Media &amp;seeking</source>
         <translation>&amp;Multimedia bilaketa</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="526"/>
         <location filename="../prefinput.cpp" line="150"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Zoom bideoa</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="519"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
         <translation>&amp;Bolumen agintea</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="533"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>&amp;Aldatu abiadura</translation>
@@ -6014,7 +6147,8 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="513"/>
+        <location filename="../prefinterface.cpp" line="88"/>
+        <location filename="../prefinterface.cpp" line="517"/>
         <source>Interface</source>
         <translation>Interfazea</translation>
     </message>
@@ -6024,6 +6158,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>&lt;Berez-atzeman&gt;</translation>
     </message>
     <message>
+        <location filename="../prefinterface.cpp" line="154"/>
         <location filename="../prefinterface.cpp" line="157"/>
         <source>Default</source>
         <translation>Berez</translation>
@@ -6049,17 +6184,18 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Bideo berri bat gertatu ondoren bakarrik</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="526"/>
+        <location filename="../prefinterface.ui" line="133"/>
+        <location filename="../prefinterface.cpp" line="530"/>
         <source>Recent files</source>
         <translation>Azken agiriak</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="531"/>
+        <location filename="../prefinterface.cpp" line="535"/>
         <source>Language</source>
         <translation>Hizkuntza</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="532"/>
+        <location filename="../prefinterface.cpp" line="536"/>
         <source>Here you can change the language of the application.</source>
         <translation>Hemen aplikazioaren hizkuntza aldatu dezakezu.</translation>
     </message>
@@ -6149,6 +6285,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Bilatu kokalekua askatzean</translation>
     </message>
     <message>
+        <location filename="../prefinterface.ui" line="51"/>
         <location filename="../prefinterface.ui" line="577"/>
         <source>TextLabel</source>
         <translation>IdazkiEtiketa</translation>
@@ -6164,132 +6301,134 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>E&amp;skabideak</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="515"/>
+        <location filename="../prefinterface.cpp" line="519"/>
         <source>Autoresize</source>
         <translation>Berez-birneurriratu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="516"/>
+        <location filename="../prefinterface.cpp" line="520"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Leiho nagusia berezgaitasunez birneurriratu daiteke. Hautatu hobetsitako aukera.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="519"/>
+        <location filename="../prefinterface.cpp" line="523"/>
         <source>Remember position and size</source>
         <translation>Gogoratu kokapena eta neurria</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="520"/>
+        <location filename="../prefinterface.cpp" line="524"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Aukera hau hautatzen baduzu, leiho nagusiaren kokapena eta neurria gorde egingo da eta bere horretan jarraituko du SMPlayer berriro abiatzerakoan.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="527"/>
+        <location filename="../prefinterface.cpp" line="531"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Hautatu erakutsiko diren gai zenbateko gehiena &lt;b&gt;Ireki-&gt;Azken agiriak&lt;/b&gt; azpimenua. Ezartzen baduzu 0 menuak ez ditu denak erautsiko.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="534"/>
+        <location filename="../prefinterface.cpp" line="538"/>
         <source>Icon set</source>
         <translation>Ikur ezarpenak</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="535"/>
+        <location filename="../prefinterface.cpp" line="539"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Hautatu aplikazioarentzako hobetsitako ikurra.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="537"/>
+        <location filename="../prefinterface.cpp" line="541"/>
         <source>Style</source>
         <translation>Estiloa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="538"/>
+        <location filename="../prefinterface.cpp" line="542"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Hautatu aplikazioarentzat hobetsitako estiloa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="550"/>
+        <location filename="../prefinterface.cpp" line="554"/>
         <source>Default font</source>
         <translation>Berezko hizkia</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="551"/>
+        <location filename="../prefinterface.cpp" line="555"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Hemen aplikazioaren hizki mota aldatu dezakezu.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="553"/>
+        <location filename="../prefinterface.cpp" line="557"/>
         <source>Seeking</source>
         <translation>Bilatzen</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="555"/>
+        <location filename="../prefinterface.cpp" line="559"/>
         <source>Short jump</source>
         <translation>Jauzi laburra</translation>
     </message>
     <message>
+        <location filename="../prefinterface.cpp" line="560"/>
         <location filename="../prefinterface.cpp" line="564"/>
+        <location filename="../prefinterface.cpp" line="568"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Hautatu aurrerako edo atzerako denbora zuk %1 ekintza hautatzen duzunean.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="557"/>
+        <location filename="../prefinterface.cpp" line="561"/>
         <source>short jump</source>
         <translation>jauzi laburra</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="559"/>
+        <location filename="../prefinterface.cpp" line="563"/>
         <source>Medium jump</source>
         <translation>Jauzi ertaina</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="561"/>
+        <location filename="../prefinterface.cpp" line="565"/>
         <source>medium jump</source>
         <translation>jauzi ertaina</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="563"/>
+        <location filename="../prefinterface.cpp" line="567"/>
         <source>Long jump</source>
         <translation>Jauzi luzea</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="565"/>
+        <location filename="../prefinterface.cpp" line="569"/>
         <source>long jump</source>
         <translation>jauzi luzea</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="567"/>
+        <location filename="../prefinterface.cpp" line="571"/>
         <source>Mouse wheel jump</source>
         <translation>Sagu gurpil jauzia</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="568"/>
+        <location filename="../prefinterface.cpp" line="572"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Hautatu aurrerako edo atzerako denbora zure saguaren gurpila mugitzen duzunean.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="571"/>
+        <location filename="../prefinterface.cpp" line="575"/>
         <source>Behaviour of time slider</source>
         <translation>Denbora irriskariaren jokabidea</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="572"/>
+        <location filename="../prefinterface.cpp" line="576"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Hautatu zer egin denbora irriskaria arrastatuz.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="585"/>
+        <location filename="../prefinterface.cpp" line="589"/>
         <source>Instances</source>
         <translation>Eskabideak</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="588"/>
+        <location filename="../prefinterface.cpp" line="592"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Erabili bakarrik SMPlayerren ekin eskabide bakar bat</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="589"/>
+        <location filename="../prefinterface.cpp" line="593"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Hautatu aukera hau nahi baduzu erabiltzea jadanik ekinean dagoen SMPlayerren eskabide bat beste agiri batzuk irekitzerakoan.</translation>
     </message>
@@ -6304,12 +6443,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Mini GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="540"/>
+        <location filename="../prefinterface.cpp" line="544"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="541"/>
+        <location filename="../prefinterface.cpp" line="545"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
         <translation>Hautatu aplikaziorako nahiago duzun GUI-a. Arrunt bi daude eskuragarri. Berezko GUI-a eta Mini GUI-a. &lt;br&gt;Berezko &lt;b&gt;GUI-ak&lt;/b&gt; GUI tradizionala eskaintzen du, tresna-barrarekin eta aginte-barrarekin. &lt;b&gt;Mini GUI-ak&lt;/b&gt; GUI arruntago bat eskaintzen du, tresna-barra gabe eta botoi gutxi batzuko aginte-barrarekin. &lt;br&gt;&lt;b&gt;Oharra:&lt;/b&gt; aukera honek SMPlayer abiarazten duzun hurrengoan izango du eragina.</translation>
     </message>
@@ -6319,52 +6458,52 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>G&amp;UI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="593"/>
+        <location filename="../prefinterface.cpp" line="597"/>
         <source>Floating control</source>
         <translation>Gaineko agintea</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="595"/>
+        <location filename="../prefinterface.cpp" line="599"/>
         <source>Animated</source>
         <translation>Animaturik</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="596"/>
+        <location filename="../prefinterface.cpp" line="600"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Aukera hau gaiturik badago, gaineko agintea animazio batekin agertuko da.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="599"/>
+        <location filename="../prefinterface.cpp" line="603"/>
         <source>Width</source>
         <translation>Zabalera</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="600"/>
+        <location filename="../prefinterface.cpp" line="604"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Agintearen zabalera adierazten du (ehuneko bat bezala).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="602"/>
+        <location filename="../prefinterface.cpp" line="606"/>
         <source>Margin</source>
         <translation>Bazterra</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="603"/>
+        <location filename="../prefinterface.cpp" line="607"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Aukera honek ezartzen ditu gaineko aginteak izango dituen pixelak ikusleihoaren behekaldetik. Erabilgarria ikusleihoa TB denean, gainmihaketak agintea ikusgarria izatea aurreikusi dezakeen bezala.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="608"/>
+        <location filename="../prefinterface.cpp" line="612"/>
         <source>Display in compact mode too</source>
         <translation>Erakutsi modu trinkoan ere</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="614"/>
+        <location filename="../prefinterface.cpp" line="618"/>
         <source>Bypass window manager</source>
         <translation>Bypass leiho kudeatzailea</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="615"/>
+        <location filename="../prefinterface.cpp" line="619"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
         <translation>Aukera hau hautatua bada, agintea bypassing leiho kudeatzailean erakusten da. Ezagaitu aukera hau gaineko aginteak ez badu ongi lan egiten zure leiho kudeatzailearekin.</translation>
     </message>
@@ -6389,6 +6528,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>&amp;Zabalera:</translation>
     </message>
     <message>
+        <location filename="../prefinterface.ui" line="671"/>
         <location filename="../prefinterface.ui" line="704"/>
         <source>0</source>
         <translation>0</translation>
@@ -6409,7 +6549,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>B&amp;ypass leiho kudeatzailea</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="609"/>
+        <location filename="../prefinterface.cpp" line="613"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>Aukera hau gaiturik badago, gaineko agintea modu trinkoan ere agertuko da. &lt;b&gt;Kontuz:&lt;/b&gt; gaineko agintea ez dago modu trinkoan jarduteko egina eta badaiteke ongi lan ez egitea.</translation>
     </message>
@@ -6419,12 +6559,13 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="574"/>
+        <location filename="../prefinterface.ui" line="513"/>
+        <location filename="../prefinterface.cpp" line="578"/>
         <source>Seeking method</source>
         <translation>Bilaketa metodoa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="575"/>
+        <location filename="../prefinterface.cpp" line="579"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Ezarri irriskariarekin bilatzerakoan erabiltzeko metodoa. Bilaketa osoa apur bat zehatzagoa izan daiteke, bilaketa erlatiboak aldiz hobeto lan egin dezake luzera okerreko agiriekin.</translation>
     </message>
@@ -6439,12 +6580,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Bilaketa &amp;erlatiboa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="523"/>
+        <location filename="../prefinterface.cpp" line="527"/>
         <source>Hide video window when playing audio files</source>
         <translation>Ezkutatu bideo leihoa audio agiriak irakurtzerakoan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="524"/>
+        <location filename="../prefinterface.cpp" line="528"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Aukera hau gaituta badago bideo leihoa ezkutatu egingo da audio agiriak irakurtzerakoan.</translation>
     </message>
@@ -6454,17 +6595,17 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>E&amp;zkutatu bideo leihoa audio agiriak irakurtzerakoan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="579"/>
+        <location filename="../prefinterface.cpp" line="583"/>
         <source>Precise seeking</source>
         <translation>Bilaketa zehatza</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="580"/>
+        <location filename="../prefinterface.cpp" line="584"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Aukera hau gaituta badago, bilaketa zehatzagoa da baina apur bat astiroagoa izan daiteke. Badaiteke zenbait bideo heuskarrirekin lan ez egitea.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="582"/>
+        <location filename="../prefinterface.cpp" line="586"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Oharra: aukera honek MPlayer2-rekin bakarrik egiten du lan</translation>
     </message>
@@ -6477,6 +6618,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>PrefPerformance</name>
     <message>
+        <location filename="../prefperformance.cpp" line="74"/>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Performance</source>
         <translation>Performantzia</translation>
@@ -6487,6 +6629,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>&amp;Performantzia</translation>
     </message>
     <message>
+        <location filename="../prefperformance.ui" line="41"/>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Priority</source>
         <translation>Lehentasuna</translation>
@@ -6527,6 +6670,11 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>gelditua</translation>
     </message>
     <message>
+        <location filename="../prefperformance.ui" line="423"/>
+        <location filename="../prefperformance.ui" line="460"/>
+        <location filename="../prefperformance.ui" line="497"/>
+        <location filename="../prefperformance.ui" line="534"/>
+        <location filename="../prefperformance.ui" line="571"/>
         <location filename="../prefperformance.ui" line="608"/>
         <source>KB</source>
         <translation>KB</translation>
@@ -6883,6 +7031,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>PrefSubtitles</name>
     <message>
+        <location filename="../prefsubtitles.cpp" line="51"/>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitles</source>
         <translation>Azpidatziak</translation>
@@ -6903,6 +7052,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>A&amp;zpidatziak</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.ui" line="44"/>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Autoload</source>
         <translation>Berez-gertatu</translation>
@@ -6943,6 +7093,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Behean</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.ui" line="344"/>
+        <location filename="../prefsubtitles.ui" line="804"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Font</source>
         <translation>Hizkia</translation>
@@ -6953,6 +7106,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Hautatu azpidatzietan (eta OSD-en) erabiliko den hizki mota:</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.ui" line="428"/>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Size</source>
         <translation>Neurria</translation>
@@ -7406,6 +7560,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Aukera honek Ez du aldatzen uneko bideoaren azpidatzi neurria. Hori egiteko, erabili &lt;i&gt;Neurria+&lt;/i&gt; eta &lt;i&gt;Neurria-&lt;/i&gt; azpidatzien menuan.</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Default scale</source>
         <translation>Berezko neurria</translation>
@@ -7622,6 +7777,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>PreferencesDialog</name>
     <message>
+        <location filename="../preferencesdialog.cpp" line="64"/>
         <location filename="../preferencesdialog.cpp" line="130"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - Laguntza</translation>
@@ -7665,7 +7821,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>leiho nagusia itxi egingo da agiria/irakur-zerrenda amaitzean.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="358"/>
+        <location filename="../smplayer.cpp" line="396"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer %1 bertsioa %2-n abiarazia</translation>
     </message>
@@ -7680,6 +7836,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>ekintza_zerrenda zuriunez bereiziriko ekintza zerrenda bat da. Ekintzak agiria gertatu ondoren (bat balego) exekutatuko dira zuk sartutako orden berdinean. Ekintza hautagarrietan egia ala gezurra parametro gisa bidali dezakezu. Adibidez_ -actions &quot;fullscreen compact true&quot;. Kakotxak beharrezkoak dira ekintza bat baino gehiago bidaltzeko.</translation>
     </message>
     <message>
+        <location filename="../clhelp.cpp" line="98"/>
         <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>multimedia</translation>
@@ -7720,6 +7877,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Agiri elkartze zaharrak berrezarri eta ohar-agiria garbitu.</translation>
     </message>
     <message>
+        <location filename="../clhelp.cpp" line="103"/>
         <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>Erabilera:</translation>
@@ -7755,6 +7913,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Adierazten dut lehen bideoarentzat gertatuko den azpidatzi agiria.</translation>
     </message>
     <message numerus="yes">
+        <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
         <translation>
@@ -7763,6 +7922,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         </translation>
     </message>
     <message numerus="yes">
+        <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
         <translation>
@@ -7965,6 +8125,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Ge&amp;hitu banantzailea</translation>
     </message>
     <message>
+        <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
         <translation>(banantzailea)</translation>
@@ -8059,26 +8220,31 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>VideoEqualizer</name>
     <message>
+        <location filename="../videoequalizer.cpp" line="72"/>
         <location filename="../videoequalizer.cpp" line="73"/>
         <source>Contrast</source>
         <translation>Zuribeltztasuna</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="76"/>
         <location filename="../videoequalizer.cpp" line="77"/>
         <source>Brightness</source>
         <translation>Dizdira</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="80"/>
         <location filename="../videoequalizer.cpp" line="81"/>
         <source>Hue</source>
         <translation>Nabardura</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="84"/>
         <location filename="../videoequalizer.cpp" line="85"/>
         <source>Saturation</source>
         <translation>Margoasetasuna</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="88"/>
         <location filename="../videoequalizer.cpp" line="89"/>
         <source>Gamma</source>
         <translation>Gamma</translation>
@@ -8122,6 +8288,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>VideoPreview</name>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="134"/>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
         <translation>Bideo aurreikuspena</translation>
@@ -8242,6 +8409,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Argibiderik ez</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="371"/>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
@@ -8315,6 +8483,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Aurreikuspegia zuk hemen adierazitako bideotik sortuko da.</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
         <translation>Txikirudiak taualan antolatuko dira.</translation>
@@ -8385,7 +8554,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../widgetactions.cpp" line="182"/>
         <source>Volume</source>
-        <translation>Bolumena<byte value="x9"/></translation>
+        <translation>Bolumena	</translation>
     </message>
 </context>
 </TS>

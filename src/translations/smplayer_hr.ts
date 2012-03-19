@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -394,11 +396,11 @@ Do you want to overwrite?</source>
     <name>BaseGui</name>
     <message>
         <source>SMPlayer - mplayer log</source>
-        <translation>SMPlayer - mplayer log</translation>
+        <translation type="obsolete">SMPlayer - mplayer log</translation>
     </message>
     <message>
         <source>SMPlayer - smplayer log</source>
-        <translation>SMPlayer - smplayer log</translation>
+        <translation type="obsolete">SMPlayer - smplayer log</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1400,6 +1402,22 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <comment>unsharp menu</comment>
         <translation>&amp;Sharpen</translation>
     </message>
+    <message>
+        <source>SMPlayer - MPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SMPlayer - SMPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation type="unfinished">Informacije</translation>
+    </message>
+    <message>
+        <source>You need to restart SMPlayer to use the new GUI.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -2042,12 +2060,14 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Titlovi spremljeni kao %1</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
-        <translation>%1 titl(ova) otpakirano
+        <translation type="unfinished">
+            <numerusform>%1 titl(ova) otpakirano
         
         
         
+        </numerusform>
         </translation>
     </message>
     <message>
@@ -3043,7 +3063,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3131,7 +3151,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -3224,6 +3244,10 @@ Do you want to overwrite?</source>
     <message>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+    <message>
+        <source>Seek bar</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3687,6 +3711,14 @@ Primjer: resample=44100:0:0,volnorm</translation>
     <message>
         <source>Show tag in&amp;fo in window title</source>
         <translation>Prikaži in&amp;formacije oznake (tag) u naslovu prozora</translation>
+    </message>
+    <message>
+        <source>MPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SMPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6278,16 +6310,20 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n second(s)</source>
-        <translation>%n sekundi
+        <translation type="unfinished">
+            <numerusform>%n sekundi
         
+        </numerusform>
         </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation>%n minuta
+        <translation type="unfinished">
+            <numerusform>%n minuta
         
+        </numerusform>
         </translation>
     </message>
 </context>

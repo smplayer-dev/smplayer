@@ -396,11 +396,11 @@ Norite perrašyti?</translation>
     <name>BaseGui</name>
     <message>
         <source>SMPlayer - mplayer log</source>
-        <translation>SMPlayer - mplayer žurnalas</translation>
+        <translation type="obsolete">SMPlayer - mplayer žurnalas</translation>
     </message>
     <message>
         <source>SMPlayer - smplayer log</source>
-        <translation>SMPlayer - smplayer žurnalas</translation>
+        <translation type="obsolete">SMPlayer - smplayer žurnalas</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1400,6 +1400,22 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SMPlayer - MPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SMPlayer - SMPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation type="unfinished">Informacija</translation>
+    </message>
+    <message>
+        <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3227,6 +3243,10 @@ Norite perrašyti?</translation>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
+    <message>
+        <source>Seek bar</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Playlist</name>
@@ -3688,6 +3708,14 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <source>Show tag in&amp;fo in window title</source>
         <translation>Rodyti žymės &amp;informaciją lango pavadinime</translation>
+    </message>
+    <message>
+        <source>MPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SMPlayer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
