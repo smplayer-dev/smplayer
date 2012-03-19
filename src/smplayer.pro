@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 QT += network xml
 
@@ -19,6 +19,8 @@ DEFINES += VIDEOPREVIEW
 DEFINES += YOUTUBE_SUPPORT
 DEFINES += TOOLBAR_EDITOR
 #DEFINES += GUI_CHANGE_ON_RUNTIME
+DEFINES += LOG_MPLAYER
+#DEFINES += LOG_SMPLAYER
 
 HEADERS += guiconfig.h \
 	config.h \

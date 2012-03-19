@@ -42,6 +42,13 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	repaint_video_background_check->hide();
 #endif
 
+#ifndef LOG_MPLAYER
+	log_mplayer_check->hide();
+	verbose_check->hide();
+	log_mplayer_save_check->hide();
+	log_mplayer_save_name->hide();
+#endif
+
 	// Monitor aspect
 	monitoraspect_combo->addItem("Auto");
 	monitoraspect_combo->addItem("4:3");
@@ -94,14 +101,15 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setActionsToRun( pref->actions_to_run );
 	setShowTagInTitle( pref->show_tag_in_window_title );
 
+#ifdef LOG_MPLAYER
 	setLogMplayer( pref->log_mplayer );
 	setMplayerLogVerbose( pref->verbose_log );
+	setSaveMplayerLog( pref->autosave_mplayer_log );
+	setMplayerLogName( pref->mplayer_log_saveto );
+#endif
+
 	setLogSmplayer( pref->log_smplayer );
 	setLogFilter( pref->log_filter );
-
-    setSaveMplayerLog( pref->autosave_mplayer_log );
-    setMplayerLogName( pref->mplayer_log_saveto );
-
 	setSaveSmplayerLog( pref->save_smplayer_log );
 
 	setUseShortNames( pref->use_short_pathnames );
@@ -149,13 +157,16 @@ void PrefAdvanced::getData(Preferences * pref) {
 		requires_restart = true;
 	}
 #endif
+
+#ifdef LOG_MPLAYER
 	pref->log_mplayer = logMplayer();
 	TEST_AND_SET( pref->verbose_log, mplayerLogVerbose() );
+	pref->autosave_mplayer_log = saveMplayerLog();
+	pref->mplayer_log_saveto = mplayerLogName();
+#endif
+
 	pref->log_smplayer = logSmplayer();
 	pref->log_filter = logFilter();
-    pref->autosave_mplayer_log = saveMplayerLog();
-    pref->mplayer_log_saveto = mplayerLogName();
-
 	pref->save_smplayer_log = saveSmplayerLog();
 
 	pref->use_short_pathnames = useShortNames();
@@ -304,6 +315,7 @@ void PrefAdvanced::on_changeButton_clicked() {
 }
 
 // Log options
+#ifdef LOG_MPLAYER
 void PrefAdvanced::setLogMplayer(bool b) {
 	log_mplayer_check->setChecked(b);
 }
@@ -320,23 +332,6 @@ bool PrefAdvanced::mplayerLogVerbose() {
 	return verbose_check->isChecked();
 }
 
-void PrefAdvanced::setLogSmplayer(bool b) {
-	log_smplayer_check->setChecked(b);
-}
-
-bool PrefAdvanced::logSmplayer() {
-	return log_smplayer_check->isChecked();
-}
-
-void PrefAdvanced::setLogFilter(QString filter) {
-	log_filter_edit->setText(filter);
-}
-
-QString PrefAdvanced::logFilter() {
-	return log_filter_edit->text();
-}
-
-
 void PrefAdvanced::setSaveMplayerLog(bool b) {
     log_mplayer_save_check->setChecked(b);
 }
@@ -351,6 +346,23 @@ void PrefAdvanced::setMplayerLogName(QString filter) {
 
 QString PrefAdvanced::mplayerLogName() {
     return log_mplayer_save_name->text();
+}
+#endif
+
+void PrefAdvanced::setLogSmplayer(bool b) {
+	log_smplayer_check->setChecked(b);
+}
+
+bool PrefAdvanced::logSmplayer() {
+	return log_smplayer_check->isChecked();
+}
+
+void PrefAdvanced::setLogFilter(QString filter) {
+	log_filter_edit->setText(filter);
+}
+
+QString PrefAdvanced::logFilter() {
+	return log_filter_edit->text();
 }
 
 void PrefAdvanced::setSaveSmplayerLog(bool b) {
@@ -469,6 +481,7 @@ void PrefAdvanced::createHelp() {
 		tr("If this option is checked, the SMPlayer log wil be recorded to %1")
           .arg( "<i>"+ Paths::configPath() + "/smplayer_log.txt</i>" ) );
 
+#ifdef LOG_MPLAYER
 	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
 		tr("If checked, SMPlayer will store the output of MPlayer "
            "(you can see it in <b>Options -> View logs -> MPlayer</b>). "
@@ -484,6 +497,7 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(log_mplayer_save_name, tr("Autosave MPlayer log filename"),
  		tr("Enter here the path and filename that will be used to save the "
            "MPlayer log.") );
+#endif
 
 	setWhatsThis(log_filter_edit, tr("Filter for SMPlayer logs"),
 		tr("This option allows to filter the SMPlayer messages that will "

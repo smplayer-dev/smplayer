@@ -259,16 +259,15 @@ void Preferences::reset() {
     mplayer_additional_video_filters="";
     mplayer_additional_audio_filters="";
 
+#ifdef LOG_MPLAYER
 	log_mplayer = true;
+	verbose_log = false;
+	autosave_mplayer_log = false;
+	mplayer_log_saveto = "";
+#endif
 	log_smplayer = true;
 	log_filter = ".*";
-	verbose_log = false;
 	save_smplayer_log = false;
-
-    //mplayer log autosaving
-    autosave_mplayer_log = false;
-    mplayer_log_saveto = "";
-    //mplayer log autosaving end
 
 #if REPAINT_BACKGROUND_OPTION
 	// "Repaint video background" in the preferences dialog
@@ -674,16 +673,15 @@ void Preferences::save() {
 	set->setValue("mplayer_additional_video_filters", mplayer_additional_video_filters);
 	set->setValue("mplayer_additional_audio_filters", mplayer_additional_audio_filters);
 
+#ifdef LOG_MPLAYER
 	set->setValue("log_mplayer", log_mplayer);
+	set->setValue("verbose_log", verbose_log);
+	set->setValue("autosave_mplayer_log", autosave_mplayer_log);
+	set->setValue("mplayer_log_saveto", mplayer_log_saveto);
+#endif
 	set->setValue("log_smplayer", log_smplayer);
 	set->setValue("log_filter", log_filter);
-	set->setValue("verbose_log", verbose_log);
 	set->setValue("save_smplayer_log", save_smplayer_log);
-
-    //mplayer log autosaving
-    set->setValue("autosave_mplayer_log", autosave_mplayer_log);
-    set->setValue("mplayer_log_saveto", mplayer_log_saveto);
-    //mplayer log autosaving end
 
 #if REPAINT_BACKGROUND_OPTION
 	set->setValue("repaint_video_background", repaint_video_background);
@@ -1107,16 +1105,15 @@ void Preferences::load() {
 	mplayer_additional_video_filters = set->value("mplayer_additional_video_filters", mplayer_additional_video_filters).toString();
 	mplayer_additional_audio_filters = set->value("mplayer_additional_audio_filters", mplayer_additional_audio_filters).toString();
 
+#ifdef LOG_MPLAYER
 	log_mplayer = set->value("log_mplayer", log_mplayer).toBool();
+	verbose_log = set->value("verbose_log", verbose_log).toBool();
+	autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
+	mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
+#endif
 	log_smplayer = set->value("log_smplayer", log_smplayer).toBool();
 	log_filter = set->value("log_filter", log_filter).toString();
-	verbose_log = set->value("verbose_log", verbose_log).toBool();
 	save_smplayer_log = set->value("save_smplayer_log", save_smplayer_log).toBool();
-
-    //mplayer log autosaving
-    autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
-    mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
-    //mplayer log autosaving end
 
 #if REPAINT_BACKGROUND_OPTION
 	repaint_video_background = set->value("repaint_video_background", repaint_video_background).toBool();

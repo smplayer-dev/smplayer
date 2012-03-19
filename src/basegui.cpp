@@ -165,7 +165,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	}
 #endif
 
-    mplayer_log_window = new LogWindow(0);
+#ifdef LOG_MPLAYER
+	mplayer_log_window = new LogWindow(0);
+#endif
 	smplayer_log_window = new LogWindow(0);
 
 	createActions();
@@ -250,7 +252,9 @@ void BaseGui::handleMessageFromOtherInstances(const QString& message) {
 
 BaseGui::~BaseGui() {
 	delete core; // delete before mplayerwindow, otherwise, segfault...
+#ifdef LOG_MPLAYER
 	delete mplayer_log_window;
+#endif
 	delete smplayer_log_window;
 
 	delete favorites;
@@ -717,9 +721,11 @@ void BaseGui::createActions() {
              this, SLOT(showTubeBrowser()) );
 
 	// Submenu Logs
+#ifdef LOG_MPLAYER
 	showLogMplayerAct = new MyAction( QKeySequence("Ctrl+M"), this, "show_mplayer_log" );
 	connect( showLogMplayerAct, SIGNAL(triggered()),
              this, SLOT(showMplayerLog()) );
+#endif
 
 	showLogSmplayerAct = new MyAction( QKeySequence("Ctrl+S"), this, "show_smplayer_log" );
 	connect( showLogSmplayerAct, SIGNAL(triggered()),
@@ -1538,7 +1544,9 @@ void BaseGui::retranslateStrings() {
 	showTubeBrowserAct->change( Images::icon("tubebrowser"), tr("&YouTube browser") );
 
 	// Submenu Logs
+#ifdef LOG_MPLAYER
 	showLogMplayerAct->change( "MPlayer" );
+#endif
 	showLogSmplayerAct->change( "SMPlayer" );
 
 	// Menu Help
@@ -1801,7 +1809,9 @@ void BaseGui::retranslateStrings() {
 	initializeMenus();
 
 	// Other things
+#ifdef LOG_MPLAYER
 	mplayer_log_window->setWindowTitle( tr("SMPlayer - mplayer log") );
+#endif
 	smplayer_log_window->setWindowTitle( tr("SMPlayer - smplayer log") );
 
 	updateRecents();
@@ -1927,6 +1937,7 @@ void BaseGui::createCore() {
 #endif
 
 	// Log mplayer output
+#ifdef LOG_MPLAYER
 	connect( core, SIGNAL(aboutToStartPlaying()),
              this, SLOT(clearMplayerLog()) );
 	connect( core, SIGNAL(logLineAvailable(QString)),
@@ -1934,6 +1945,7 @@ void BaseGui::createCore() {
 
 	connect( core, SIGNAL(mediaLoaded()), 
              this, SLOT(autosaveMplayerLog()) );
+#endif
 }
 
 void BaseGui::createMplayerWindow() {
@@ -2433,7 +2445,9 @@ void BaseGui::createMenus() {
 
 	// Logs submenu
 	logs_menu = new QMenu(this);
+#ifdef LOG_MPLAYER
 	logs_menu->addAction(showLogMplayerAct);
+#endif
 	logs_menu->addAction(showLogSmplayerAct);
 
 	optionsMenu->addMenu(logs_menu);
@@ -2846,6 +2860,7 @@ void BaseGui::newMediaLoaded() {
 	}
 }
 
+#ifdef LOG_MPLAYER
 void BaseGui::clearMplayerLog() {
 	mplayer_log.clear();
 	if (mplayer_log_window->isVisible()) mplayer_log_window->clear();
@@ -2858,14 +2873,6 @@ void BaseGui::recordMplayerLog(QString line) {
 			mplayer_log.append(line);
 			if (mplayer_log_window->isVisible()) mplayer_log_window->appendText(line);
 		}
-	}
-}
-
-void BaseGui::recordSmplayerLog(QString line) {
-	if (pref->log_smplayer) {
-		line.append("\n");
-		smplayer_log.append(line);
-		if (smplayer_log_window->isVisible()) smplayer_log_window->appendText(line);
 	}
 }
 
@@ -2896,14 +2903,23 @@ void BaseGui::showMplayerLog() {
     mplayer_log_window->setText( mplayer_log );
 	mplayer_log_window->show();
 }
+#endif
+
+void BaseGui::recordSmplayerLog(QString line) {
+	if (pref->log_smplayer) {
+		line.append("\n");
+		smplayer_log.append(line);
+		if (smplayer_log_window->isVisible()) smplayer_log_window->appendText(line);
+	}
+}
 
 void BaseGui::showLog() {
-    qDebug("BaseGui::showLog");
+	qDebug("BaseGui::showLog");
 
 	exitFullscreenIfNeeded();
 
 	smplayer_log_window->setText( smplayer_log );
-    smplayer_log_window->show();
+	smplayer_log_window->show();
 }
 
 
@@ -4543,7 +4559,9 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 		ErrorDialog d(this);
 		d.setText(tr("MPlayer has finished unexpectedly.") + " " + 
 	              tr("Exit code: %1").arg(exit_code));
+#ifdef LOG_MPLAYER
 		d.setLog( mplayer_log );
+#endif
 		d.exec();
 	} 
 }
@@ -4565,7 +4583,9 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 			d.setText(tr("MPlayer has crashed.") + " " + 
                       tr("See the log for more info."));
 		}
+#ifdef LOG_MPLAYER
 		d.setLog( mplayer_log );
+#endif
 		d.exec();
 	}
 }
