@@ -83,14 +83,8 @@ BaseGui * SMPlayer::gui() {
 		QDir::setCurrent(Paths::appPath());
 		qDebug("SMPlayer::gui: changed working directory to app path");
 		qDebug("SMPlayer::gui: current directory: %s", QDir::currentPath().toUtf8().data());
-		
-		if (gui_to_use.toLower() == "minigui") 
-			main_window = new MiniGui(0);
-		else 
-		if (gui_to_use.toLower() == "mpcgui")
-			main_window = new MpcGui(0);
-		else
-			main_window = new DefaultGui(0);
+
+		main_window = createGUI(gui_to_use);
 
 		if (move_gui) {
 			qDebug("SMPlayer::gui: moving main window to %d %d", gui_position.x(), gui_position.y());
@@ -100,13 +94,50 @@ BaseGui * SMPlayer::gui() {
 			qDebug("SMPlayer::gui: resizing main window to %dx%d", gui_size.width(), gui_size.height());
 			main_window->resize(gui_size);
 		}
-
-		main_window->setForceCloseOnFinish(close_at_end);
-		main_window->setForceStartInFullscreen(start_in_fullscreen);
 	}
 
 	return main_window;
 }
+
+BaseGui * SMPlayer::createGUI(QString gui_name) {
+	BaseGui * gui = 0;
+
+	if (gui_name.toLower() == "minigui") 
+		gui = new MiniGui(0);
+	else 
+	if (gui_name.toLower() == "mpcgui")
+		gui = new MpcGui(0);
+	else
+		gui = new DefaultGui(0);
+
+	gui->setForceCloseOnFinish(close_at_end);
+	gui->setForceStartInFullscreen(start_in_fullscreen);
+	connect(gui, SIGNAL(quitSolicited()), qApp, SLOT(quit()));
+
+#ifdef GUI_CHANGE_ON_RUNTIME
+	connect(gui, SIGNAL(guiChanged(QString)), this, SLOT(changeGUI(QString)));
+#endif
+
+#if SINGLE_INSTANCE
+	QtSingleApplication * app = static_cast<QtSingleApplication*>(qApp);
+	connect(app, SIGNAL(messageReceived(const QString&)),
+            gui, SLOT(handleMessageFromOtherInstances(const QString&)));
+	app->setActivationWindow(gui);
+#endif
+
+	return gui;
+}
+
+#ifdef GUI_CHANGE_ON_RUNTIME
+void SMPlayer::changeGUI(QString new_gui) {
+	qDebug("SMPlayer::changeGUI: '%s'", new_gui.toLatin1().constData());
+	delete main_window;
+
+	main_window = createGUI(new_gui);
+
+	main_window->show();
+}
+#endif
 
 SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	qDebug("SMPlayer::processArgs: arguments: %d", args.count());
@@ -387,3 +418,5 @@ void SMPlayer::showInfo() {
 	qDebug(" * file for subtitles' styles: '%s'", Paths::subtitleStyleFile().toUtf8().data());
 	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
 }
+
+#include "moc_smplayer.cpp"

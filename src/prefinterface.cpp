@@ -213,8 +213,9 @@ void PrefInterface::getData(Preferences * pref) {
 	requires_restart = false;
 	language_changed = false;
 	iconset_changed = false;
-	recents_changed = false;
+	gui_changed = false;
 	style_changed = false;
+	recents_changed = false;
 
 	if (pref->language != language()) {
 		pref->language = language();
@@ -225,6 +226,11 @@ void PrefInterface::getData(Preferences * pref) {
 	if (pref->iconset != iconSet()) {
 		pref->iconset = iconSet();
 		iconset_changed = true;
+	}
+
+	if (pref->gui != GUI()) {
+		pref->gui = GUI();
+		gui_changed = true;
 	}
 
 	pref->resize_method = resizeMethod();
@@ -258,8 +264,6 @@ void PrefInterface::getData(Preferences * pref) {
 		style_changed = true;
 	}
 #endif
-
-	pref->gui = GUI();
 
 	pref->floating_control_animated = floatingAnimated();
 	pref->floating_control_width = floatingWidth();

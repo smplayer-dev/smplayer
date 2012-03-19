@@ -43,8 +43,9 @@ public:
 
 	bool languageChanged() { return language_changed; };
 	bool iconsetChanged() { return iconset_changed; };
-	bool recentsChanged() { return recents_changed; };
+	bool guiChanged() { return gui_changed; }
 	bool styleChanged() { return style_changed; };
+	bool recentsChanged() { return recents_changed; };
 
 protected:
 	virtual void createHelp();
@@ -133,8 +134,9 @@ protected:
 private:
 	bool language_changed;
 	bool iconset_changed;
-	bool recents_changed;
+	bool gui_changed;
 	bool style_changed;
+	bool recents_changed;
 };
 
 #endif

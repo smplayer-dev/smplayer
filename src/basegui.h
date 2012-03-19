@@ -288,6 +288,10 @@ signals:
 	//! Sent when the user wants to close the main window
 	void quitSolicited();
 
+#ifdef GUI_CHANGE_ON_RUNTIME
+	void guiChanged(QString gui);
+#endif
+
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);

@@ -2676,6 +2676,17 @@ void BaseGui::applyNewPreferences() {
 #ifndef NO_USE_INI_FILES
     pref->save();
 #endif
+
+
+	if (_interface->guiChanged()) {
+#ifdef GUI_CHANGE_ON_RUNTIME
+		core->stop();
+		emit guiChanged(pref->gui);
+#else
+	QMessageBox::information(this, tr("Information"),
+		tr("You need to restart SMPlayer to use the new GUI.") );
+#endif
+	}
 }
 
 
