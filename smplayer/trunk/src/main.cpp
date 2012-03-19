@@ -17,136 +17,7 @@
 */
 
 #include "myapplication.h"
-#include <QFile>
-#include <QTime>
-#include <QDir>
-
 #include "smplayer.h"
-#include "global.h"
-#include "helper.h"
-#include "paths.h"
-
-#include <stdio.h>
-
-using namespace Global;
-
-#ifdef LOG_SMPLAYER
-BaseGui * basegui_instance = 0;
-
-QFile output_log;
-
-void myMessageOutput( QtMsgType type, const char *msg ) {
-	static QStringList saved_lines;
-	static QString orig_line;
-	static QString line2;
-	static QRegExp rx_log;
-
-	if (pref) {
-		if (!pref->log_smplayer) return;
-		rx_log.setPattern(pref->log_filter);
-	} else {
-		rx_log.setPattern(".*");
-	}
-
-	line2.clear();
-
-	orig_line = QString::fromUtf8(msg);
-
-	switch ( type ) {
-		case QtDebugMsg:
-			if (rx_log.indexIn(orig_line) > -1) {
-				#ifndef NO_DEBUG_ON_CONSOLE
-				fprintf( stderr, "Debug: %s\n", orig_line.toLocal8Bit().data() );
-				#endif
-				line2 = orig_line;
-			}
-			break;
-		case QtWarningMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Warning: %s\n", orig_line.toLocal8Bit().data() );
-			#endif
-			line2 = "WARNING: " + orig_line;
-			break;
-		case QtFatalMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Fatal: %s\n", orig_line.toLocal8Bit().data() );
-			#endif
-			line2 = "FATAL: " + orig_line;
-			abort();                    // deliberately core dump
-		case QtCriticalMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Critical: %s\n", orig_line.toLocal8Bit().data() );
-			#endif
-			line2 = "CRITICAL: " + orig_line;
-			break;
-	}
-
-	if (line2.isEmpty()) return;
-
-	line2 = "["+ QTime::currentTime().toString("hh:mm:ss:zzz") +"] "+ line2;
-
-	if (basegui_instance) {
-		if (!saved_lines.isEmpty()) {
-			// Send saved lines first
-			for (int n=0; n < saved_lines.count(); n++) {
-				basegui_instance->recordSmplayerLog(saved_lines[n]);
-			}
-			saved_lines.clear();
-		}
-		basegui_instance->recordSmplayerLog(line2);
-	} else {
-		// GUI is not created yet, save lines for later
-		saved_lines.append(line2);
-	}
-
-	if (pref) {
-		if (pref->save_smplayer_log) {
-			// Save log to file
-			if (!output_log.isOpen()) {
-				// FIXME: the config path may not be initialized if USE_LOCKS is not defined
-				output_log.setFileName( Paths::configPath() + "/smplayer_log.txt" );
-				output_log.open(QIODevice::WriteOnly);
-			}
-			if (output_log.isOpen()) {
-				QString l = line2 + "\r\n";
-				output_log.write(l.toUtf8().constData());
-				output_log.flush();
-			}
-		}
-	}
-}
-#else
-void myMessageOutput( QtMsgType type, const char *msg ) {
-	static QString orig_line;
-	orig_line = QString::fromUtf8(msg);
-
-	switch ( type ) {
-		case QtDebugMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Debug: %s\n", orig_line.toLocal8Bit().data() );
-			#endif
-			break;
-
-		case QtWarningMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Warning: %s\n", orig_line.toLocal8Bit().data() );
-			#endif
-			break;
-
-		case QtCriticalMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Critical: %s\n", orig_line.toLocal8Bit().data() );
-			#endif
-			break;
-
-		case QtFatalMsg:
-			#ifndef NO_DEBUG_ON_CONSOLE
-			fprintf( stderr, "Fatal: %s\n", orig_line.toLocal8Bit().data() );
-			#endif
-			abort();                    // deliberately core dump
-	}
-}
-#endif
 
 int main( int argc, char ** argv ) 
 {
@@ -159,7 +30,6 @@ int main( int argc, char ** argv )
 	*/
 
 	a.setQuitOnLastWindowClosed(false);
-	//a.connect( &a, SIGNAL( lastWindowClosed() ), &a, SLOT( quit() ) );
 
 #if QT_VERSION >= 0x040400
 	// Enable icons in menus
@@ -195,30 +65,16 @@ int main( int argc, char ** argv )
 		}
 	}
 
-	qInstallMsgHandler( myMessageOutput );
-
 	SMPlayer * smplayer = new SMPlayer(config_path);
 	SMPlayer::ExitCode c = smplayer->processArgs( args );
 	if (c != SMPlayer::NoExit) {
 		return c;
 	}
-
-#ifdef LOG_SMPLAYER
-	basegui_instance = smplayer->gui();
-#endif
 	smplayer->start();
 
 	int r = a.exec();
 
-#ifdef LOG_SMPLAYER
-	basegui_instance = 0;
-#endif
-
 	delete smplayer;
-
-#ifdef LOG_SMPLAYER
-	if (output_log.isOpen()) output_log.close();
-#endif
 
 	return r;
 }

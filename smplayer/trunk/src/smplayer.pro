@@ -22,11 +22,6 @@ DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
 
-# Note: GUI_CHANGE_ON_RUNTIME crashes if LOG_SMPLAYER is defined
-contains( DEFINES, GUI_CHANGE_ON_RUNTIME ) {
-	DEFINES -= LOG_SMPLAYER
-}
-
 HEADERS += guiconfig.h \
 	config.h \
 	constants.h \

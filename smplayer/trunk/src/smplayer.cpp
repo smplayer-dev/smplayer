@@ -29,6 +29,7 @@
 
 #include <QDir>
 #include <QUrl>
+#include <QTime>
 
 #ifdef SINGLE_INSTANCE
 #include "QtSingleApplication"
@@ -45,13 +46,17 @@
 #endif
 #endif
 
-
 using namespace Global;
+
+BaseGui * SMPlayer::main_window = 0;
 
 SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	: QObject(parent) 
 {
-	main_window = 0;
+#ifdef LOG_SMPLAYER
+	qInstallMsgHandler( SMPlayer::myMessageOutput );
+#endif
+
 	gui_to_use = "DefaultGui";
 
 	close_at_end = -1; // Not set
@@ -60,7 +65,7 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	move_gui = false;
 	resize_gui = false;
 
-    Paths::setAppPath( qApp->applicationDirPath() );
+	Paths::setAppPath( qApp->applicationDirPath() );
 
 #ifndef PORTABLE_APP
 	if (config_path.isEmpty()) createConfigDirectory();
@@ -73,8 +78,15 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 }
 
 SMPlayer::~SMPlayer() {
-	if (main_window != 0) delete main_window;
+	if (main_window != 0) {
+		delete main_window;
+		main_window = 0;
+	}
 	global_end();
+
+#ifdef LOG_SMPLAYER
+	if (output_log.isOpen()) output_log.close();
+#endif
 }
 
 BaseGui * SMPlayer::gui() {
@@ -132,6 +144,7 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 void SMPlayer::changeGUI(QString new_gui) {
 	qDebug("SMPlayer::changeGUI: '%s'", new_gui.toLatin1().constData());
 	delete main_window;
+	main_window = 0;
 
 	main_window = createGUI(new_gui);
 
@@ -418,5 +431,123 @@ void SMPlayer::showInfo() {
 	qDebug(" * file for subtitles' styles: '%s'", Paths::subtitleStyleFile().toUtf8().data());
 	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
 }
+
+#ifdef LOG_SMPLAYER
+QFile SMPlayer::output_log;
+
+void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
+	static QStringList saved_lines;
+	static QString orig_line;
+	static QString line2;
+	static QRegExp rx_log;
+
+	if (pref) {
+		if (!pref->log_smplayer) return;
+		rx_log.setPattern(pref->log_filter);
+	} else {
+		rx_log.setPattern(".*");
+	}
+
+	line2.clear();
+
+	orig_line = QString::fromUtf8(msg);
+
+	switch ( type ) {
+		case QtDebugMsg:
+			if (rx_log.indexIn(orig_line) > -1) {
+				#ifndef NO_DEBUG_ON_CONSOLE
+				fprintf( stderr, "Debug: %s\n", orig_line.toLocal8Bit().data() );
+				#endif
+				line2 = orig_line;
+			}
+			break;
+		case QtWarningMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Warning: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			line2 = "WARNING: " + orig_line;
+			break;
+		case QtFatalMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Fatal: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			line2 = "FATAL: " + orig_line;
+			abort();                    // deliberately core dump
+		case QtCriticalMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Critical: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			line2 = "CRITICAL: " + orig_line;
+			break;
+	}
+
+	if (line2.isEmpty()) return;
+
+	line2 = "["+ QTime::currentTime().toString("hh:mm:ss:zzz") +"] "+ line2;
+
+	if (main_window) {
+		if (!saved_lines.isEmpty()) {
+			// Send saved lines first
+			for (int n=0; n < saved_lines.count(); n++) {
+				main_window->recordSmplayerLog(saved_lines[n]);
+			}
+			saved_lines.clear();
+		}
+		main_window->recordSmplayerLog(line2);
+	} else {
+		// GUI is not created yet, save lines for later
+		saved_lines.append(line2);
+	}
+
+	if (pref) {
+		if (pref->save_smplayer_log) {
+			// Save log to file
+			if (!output_log.isOpen()) {
+				// FIXME: the config path may not be initialized if USE_LOCKS is not defined
+				output_log.setFileName( Paths::configPath() + "/smplayer_log.txt" );
+				output_log.open(QIODevice::WriteOnly);
+			}
+			if (output_log.isOpen()) {
+				QString l = line2 + "\r\n";
+				output_log.write(l.toUtf8().constData());
+				output_log.flush();
+			}
+		}
+	}
+}
+#endif
+
+/*
+void myMessageOutput( QtMsgType type, const char *msg ) {
+	static QString orig_line;
+	orig_line = QString::fromUtf8(msg);
+
+	switch ( type ) {
+		case QtDebugMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Debug: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			break;
+
+		case QtWarningMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Warning: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			break;
+
+		case QtCriticalMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Critical: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			break;
+
+		case QtFatalMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Fatal: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			abort();                    // deliberately core dump
+	}
+}
+*/
 
 #include "moc_smplayer.cpp"
