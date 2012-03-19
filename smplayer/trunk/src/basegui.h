@@ -127,7 +127,9 @@ public slots:
 	virtual void showVideoEqualizer(bool b);
 	virtual void showAudioEqualizer();
 	virtual void showAudioEqualizer(bool b);
+#ifdef LOG_MPLAYER
 	virtual void showMplayerLog();
+#endif
 	virtual void showLog();
 	virtual void showPreferencesDialog();
 	virtual void showFilePropertiesDialog();
@@ -258,6 +260,7 @@ protected slots:
 	void clear_just_stopped();
 #endif
 
+#ifdef LOG_MPLAYER
 	//! Clears the mplayer log
 	void clearMplayerLog();
 
@@ -266,6 +269,7 @@ protected slots:
 
 	//! Saves the mplayer log to a file every time a file is loaded
 	void autosaveMplayerLog();
+#endif
 
 signals:
 	void frameChanged(int);
@@ -434,7 +438,9 @@ protected:
 	MyAction * showPropertiesAct;
 	MyAction * showPreferencesAct;
 	MyAction * showTubeBrowserAct;
+#ifdef LOG_MPLAYER
 	MyAction * showLogMplayerAct;
+#endif
 	MyAction * showLogSmplayerAct;
 
 	// Menu Help
@@ -662,7 +668,9 @@ protected:
 	QMenu * popup;
 	QMenu * recentfiles_menu;
 
+#ifdef LOG_MPLAYER
 	LogWindow * mplayer_log_window;
+#endif
 	LogWindow * smplayer_log_window;
 	LogWindow * clhelp_window;
 
@@ -711,7 +719,9 @@ private:
 	bool just_stopped;
 #endif
 
+#ifdef LOG_MPLAYER
 	QString mplayer_log;
+#endif
 	QString smplayer_log;
 
 	bool ignore_show_hide_events;

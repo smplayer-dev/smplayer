@@ -248,16 +248,15 @@ public:
 	QString mplayer_additional_audio_filters;
 
 	// Logs
+#ifdef LOG_MPLAYER
 	bool log_mplayer;
+	bool verbose_log;
+	bool autosave_mplayer_log;
+	QString mplayer_log_saveto;
+#endif
 	bool log_smplayer;
 	QString log_filter;
-	bool verbose_log;
 	bool save_smplayer_log;
-
-    //mplayer log autosaving
-    bool autosave_mplayer_log;
-    QString mplayer_log_saveto;
-    //mplayer log autosaving end
 
 #if REPAINT_BACKGROUND_OPTION
 	//! If true, mplayerlayer erases its background
