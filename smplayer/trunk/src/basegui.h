@@ -79,8 +79,10 @@ public:
 	//! Execute all the actions after the video has started to play
 	void runActionsLater(QString actions) { pending_actions_to_run = actions; };
 
+#ifdef LOG_SMPLAYER
 	//! Saves the line from the smplayer output
 	void recordSmplayerLog(QString line);
+#endif
 
 public slots:
 	virtual void open(QString file); // Generic open, autodetect type.
@@ -130,7 +132,9 @@ public slots:
 #ifdef LOG_MPLAYER
 	virtual void showMplayerLog();
 #endif
+#ifdef LOG_SMPLAYER
 	virtual void showLog();
+#endif
 	virtual void showPreferencesDialog();
 	virtual void showFilePropertiesDialog();
 
@@ -441,7 +445,9 @@ protected:
 #ifdef LOG_MPLAYER
 	MyAction * showLogMplayerAct;
 #endif
+#ifdef LOG_SMPLAYER
 	MyAction * showLogSmplayerAct;
+#endif
 
 	// Menu Help
 	MyAction * showFAQAct;
@@ -656,7 +662,9 @@ protected:
 	QMenu * ab_menu; // A-B menu
 	QMenu * videofilter_menu;
 	QMenu * audiofilter_menu;
+#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
 	QMenu * logs_menu;
+#endif
 	QMenu * zoom_menu;
 	QMenu * rotate_menu;
 	QMenu * ontop_menu;
@@ -671,7 +679,9 @@ protected:
 #ifdef LOG_MPLAYER
 	LogWindow * mplayer_log_window;
 #endif
+#ifdef LOG_SMPLAYER
 	LogWindow * smplayer_log_window;
+#endif
 	LogWindow * clhelp_window;
 
 	PreferencesDialog *pref_dialog;
@@ -722,7 +732,9 @@ private:
 #ifdef LOG_MPLAYER
 	QString mplayer_log;
 #endif
+#ifdef LOG_SMPLAYER
 	QString smplayer_log;
+#endif
 
 	bool ignore_show_hide_events;
 };

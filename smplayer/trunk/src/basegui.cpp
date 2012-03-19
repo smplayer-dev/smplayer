@@ -168,7 +168,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #ifdef LOG_MPLAYER
 	mplayer_log_window = new LogWindow(0);
 #endif
+#ifdef LOG_SMPLAYER
 	smplayer_log_window = new LogWindow(0);
+#endif
 
 	createActions();
 	createMenus();
@@ -255,7 +257,9 @@ BaseGui::~BaseGui() {
 #ifdef LOG_MPLAYER
 	delete mplayer_log_window;
 #endif
+#ifdef LOG_SMPLAYER
 	delete smplayer_log_window;
+#endif
 
 	delete favorites;
 	delete tvlist;
@@ -727,9 +731,11 @@ void BaseGui::createActions() {
              this, SLOT(showMplayerLog()) );
 #endif
 
+#ifdef LOG_SMPLAYER
 	showLogSmplayerAct = new MyAction( QKeySequence("Ctrl+S"), this, "show_smplayer_log" );
 	connect( showLogSmplayerAct, SIGNAL(triggered()),
              this, SLOT(showLog()) );
+#endif
 
 	// Menu Help
 	showFAQAct = new MyAction( this, "faq" );
@@ -1547,7 +1553,9 @@ void BaseGui::retranslateStrings() {
 #ifdef LOG_MPLAYER
 	showLogMplayerAct->change( "MPlayer" );
 #endif
+#ifdef LOG_SMPLAYER
 	showLogSmplayerAct->change( "SMPlayer" );
+#endif
 
 	// Menu Help
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
@@ -1801,18 +1809,21 @@ void BaseGui::retranslateStrings() {
 	osd_menu->menuAction()->setText( tr("&OSD") );
 	osd_menu->menuAction()->setIcon( Images::icon("osd") );
 
+#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
 	logs_menu->menuAction()->setText( tr("&View logs") );
 	logs_menu->menuAction()->setIcon( Images::icon("logs") );
-
+#endif
 
 	// To be sure that the "<empty>" string is translated
 	initializeMenus();
 
 	// Other things
 #ifdef LOG_MPLAYER
-	mplayer_log_window->setWindowTitle( tr("SMPlayer - mplayer log") );
+	mplayer_log_window->setWindowTitle( tr("SMPlayer - MPlayer log") );
 #endif
-	smplayer_log_window->setWindowTitle( tr("SMPlayer - smplayer log") );
+#ifdef LOG_SMPLAYER
+	smplayer_log_window->setWindowTitle( tr("SMPlayer - SMPlayer log") );
+#endif
 
 	updateRecents();
 	updateWidgets();
@@ -2444,13 +2455,16 @@ void BaseGui::createMenus() {
 	optionsMenu->addMenu(osd_menu);
 
 	// Logs submenu
+#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
 	logs_menu = new QMenu(this);
-#ifdef LOG_MPLAYER
+	#ifdef LOG_MPLAYER
 	logs_menu->addAction(showLogMplayerAct);
-#endif
+	#endif
+	#ifdef LOG_SMPLAYER
 	logs_menu->addAction(showLogSmplayerAct);
-
+	#endif
 	optionsMenu->addMenu(logs_menu);
+#endif
 
 	optionsMenu->addAction(showPreferencesAct);
 
@@ -2905,6 +2919,7 @@ void BaseGui::showMplayerLog() {
 }
 #endif
 
+#ifdef LOG_SMPLAYER
 void BaseGui::recordSmplayerLog(QString line) {
 	if (pref->log_smplayer) {
 		line.append("\n");
@@ -2921,6 +2936,7 @@ void BaseGui::showLog() {
 	smplayer_log_window->setText( smplayer_log );
 	smplayer_log_window->show();
 }
+#endif
 
 
 void BaseGui::initializeMenus() {

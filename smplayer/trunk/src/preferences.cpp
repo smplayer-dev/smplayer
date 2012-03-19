@@ -265,9 +265,11 @@ void Preferences::reset() {
 	autosave_mplayer_log = false;
 	mplayer_log_saveto = "";
 #endif
+#ifdef LOG_SMPLAYER
 	log_smplayer = true;
 	log_filter = ".*";
 	save_smplayer_log = false;
+#endif
 
 #if REPAINT_BACKGROUND_OPTION
 	// "Repaint video background" in the preferences dialog
@@ -679,9 +681,11 @@ void Preferences::save() {
 	set->setValue("autosave_mplayer_log", autosave_mplayer_log);
 	set->setValue("mplayer_log_saveto", mplayer_log_saveto);
 #endif
+#ifdef LOG_SMPLAYER
 	set->setValue("log_smplayer", log_smplayer);
 	set->setValue("log_filter", log_filter);
 	set->setValue("save_smplayer_log", save_smplayer_log);
+#endif
 
 #if REPAINT_BACKGROUND_OPTION
 	set->setValue("repaint_video_background", repaint_video_background);
@@ -1111,9 +1115,11 @@ void Preferences::load() {
 	autosave_mplayer_log = set->value("autosave_mplayer_log", autosave_mplayer_log).toBool();
 	mplayer_log_saveto = set->value("mplayer_log_saveto", mplayer_log_saveto).toString();
 #endif
+#ifdef LOG_SMPLAYER
 	log_smplayer = set->value("log_smplayer", log_smplayer).toBool();
 	log_filter = set->value("log_filter", log_filter).toString();
 	save_smplayer_log = set->value("save_smplayer_log", save_smplayer_log).toBool();
+#endif
 
 #if REPAINT_BACKGROUND_OPTION
 	repaint_video_background = set->value("repaint_video_background", repaint_video_background).toBool();
