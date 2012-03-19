@@ -115,6 +115,37 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 		}
 	}
 }
+#else
+void myMessageOutput( QtMsgType type, const char *msg ) {
+	static QString orig_line;
+	orig_line = QString::fromUtf8(msg);
+
+	switch ( type ) {
+		case QtDebugMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Debug: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			break;
+
+		case QtWarningMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Warning: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			break;
+
+		case QtCriticalMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Critical: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			break;
+
+		case QtFatalMsg:
+			#ifndef NO_DEBUG_ON_CONSOLE
+			fprintf( stderr, "Fatal: %s\n", orig_line.toLocal8Bit().data() );
+			#endif
+			abort();                    // deliberately core dump
+	}
+}
 #endif
 
 int main( int argc, char ** argv ) 
@@ -164,9 +195,7 @@ int main( int argc, char ** argv )
 		}
 	}
 
-#if defined(LOG_SMPLAYER) && !defined(GUI_CHANGE_ON_RUNTIME)
-    qInstallMsgHandler( myMessageOutput );
-#endif
+	qInstallMsgHandler( myMessageOutput );
 
 	SMPlayer * smplayer = new SMPlayer(config_path);
 	SMPlayer::ExitCode c = smplayer->processArgs( args );
