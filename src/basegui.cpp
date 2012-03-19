@@ -3365,7 +3365,7 @@ void BaseGui::open(QString file) {
 
 	// If file is a playlist, open that playlist
 	QString extension = QFileInfo(file).suffix().toLower();
-	if ( (extension=="m3u") || (extension=="m3u8") ) {
+	if ( ((extension=="m3u") || (extension=="m3u8")) && (QFile::exists(file)) ) {
 		playlist->load_m3u(file);
 	} 
 	else
