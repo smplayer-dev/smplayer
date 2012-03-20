@@ -76,7 +76,7 @@ private:
 	// Output log
 	static QFile output_log;
 	static void myMessageOutput( QtMsgType type, const char *msg );
-	static bool enable_logging;
+	static bool allow_to_send_log_to_gui;
 #endif
 };
 
