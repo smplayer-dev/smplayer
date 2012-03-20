@@ -48,6 +48,7 @@ private slots:
 
 private:
 	BaseGui * createGUI(QString gui_name);
+	void deleteGUI();
 #ifndef PORTABLE_APP
 	void createConfigDirectory();
 #endif
@@ -75,6 +76,7 @@ private:
 	// Output log
 	static QFile output_log;
 	static void myMessageOutput( QtMsgType type, const char *msg );
+	static bool enable_logging;
 #endif
 };
 
