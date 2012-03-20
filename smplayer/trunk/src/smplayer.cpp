@@ -49,7 +49,7 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 {
 #ifdef LOG_SMPLAYER
 	qInstallMsgHandler( SMPlayer::myMessageOutput );
-	enable_logging = true;
+	allow_to_send_log_to_gui = true;
 #endif
 
 	gui_to_use = "DefaultGui";
@@ -136,14 +136,14 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 
 void SMPlayer::deleteGUI() {
 #ifdef LOG_SMPLAYER
-	enable_logging = false;
+	allow_to_send_log_to_gui = false;
 #endif
 
 	delete main_window;
 	main_window = 0;
 
 #ifdef LOG_SMPLAYER
-	enable_logging = true;
+	allow_to_send_log_to_gui = true;
 #endif
 }
 
@@ -441,15 +441,13 @@ void SMPlayer::showInfo() {
 
 #ifdef LOG_SMPLAYER
 QFile SMPlayer::output_log;
-bool SMPlayer::enable_logging = false;
+bool SMPlayer::allow_to_send_log_to_gui = false;
 
 void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 	static QStringList saved_lines;
 	static QString orig_line;
 	static QString line2;
 	static QRegExp rx_log;
-
-	if (!enable_logging) return;
 
 	if (pref) {
 		if (!pref->log_smplayer) return;
@@ -495,7 +493,7 @@ void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 
 	line2 = "["+ QTime::currentTime().toString("hh:mm:ss:zzz") +"] "+ line2;
 
-	if (main_window) {
+	if (allow_to_send_log_to_gui && main_window) {
 		if (!saved_lines.isEmpty()) {
 			// Send saved lines first
 			for (int n=0; n < saved_lines.count(); n++) {
@@ -507,6 +505,7 @@ void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 	} else {
 		// GUI is not created yet, save lines for later
 		saved_lines.append(line2);
+		/* printf("SMPlayer::myMessageOutput: no gui\n"); */
 	}
 
 	if (pref) {
