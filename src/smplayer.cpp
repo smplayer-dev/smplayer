@@ -49,6 +49,7 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 {
 #ifdef LOG_SMPLAYER
 	qInstallMsgHandler( SMPlayer::myMessageOutput );
+	enable_logging = true;
 #endif
 
 	gui_to_use = "DefaultGui";
@@ -73,8 +74,7 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 
 SMPlayer::~SMPlayer() {
 	if (main_window != 0) {
-		delete main_window;
-		main_window = 0;
+		deleteGUI();
 	}
 	global_end();
 
@@ -134,11 +134,24 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 	return gui;
 }
 
+void SMPlayer::deleteGUI() {
+#ifdef LOG_SMPLAYER
+	enable_logging = false;
+#endif
+
+	delete main_window;
+	main_window = 0;
+
+#ifdef LOG_SMPLAYER
+	enable_logging = true;
+#endif
+}
+
 #ifdef GUI_CHANGE_ON_RUNTIME
 void SMPlayer::changeGUI(QString new_gui) {
 	qDebug("SMPlayer::changeGUI: '%s'", new_gui.toLatin1().constData());
-	delete main_window;
-	main_window = 0;
+
+	deleteGUI();
 
 	main_window = createGUI(new_gui);
 
@@ -428,12 +441,15 @@ void SMPlayer::showInfo() {
 
 #ifdef LOG_SMPLAYER
 QFile SMPlayer::output_log;
+bool SMPlayer::enable_logging = false;
 
 void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 	static QStringList saved_lines;
 	static QString orig_line;
 	static QString line2;
 	static QRegExp rx_log;
+
+	if (!enable_logging) return;
 
 	if (pref) {
 		if (!pref->log_smplayer) return;
