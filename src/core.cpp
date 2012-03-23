@@ -23,6 +23,10 @@
 #include <QTextStream>
 #include <QUrl>
 
+#ifdef Q_OS_OS2
+#include <QEventLoop>
+#endif
+
 #include <cmath>
 
 #include "mplayerwindow.h"
@@ -2344,6 +2348,21 @@ void Core::stopMplayer() {
 		return;
 	}
 
+#ifdef Q_OS_OS2
+	QEventLoop eventLoop;
+
+	connect(proc, SIGNAL(processExited()), &eventLoop, SLOT(quit()));
+
+	tellmp("quit");
+
+	QTimer::singleShot(5000, &eventLoop, SLOT(quit()));
+	eventLoop.exec(QEventLoop::ExcludeUserInputEvents);
+
+	if (proc->isRunning()) {
+		qWarning("Core::stopMplayer: process didn't finish. Killing it...");
+		proc->kill();
+	}
+#else
     tellmp("quit");
     
 	qDebug("Core::stopMplayer: Waiting mplayer to finish...");
@@ -2351,6 +2370,7 @@ void Core::stopMplayer() {
 		qWarning("Core::stopMplayer: process didn't finish. Killing it...");
 		proc->kill();
 	}
+#endif
 
 	qDebug("Core::stopMplayer: Finished. (I hope)");
 }

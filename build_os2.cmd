@@ -1,4 +1,4 @@
-/* smplayer Build Script */
+/* SMPlayer Build Script */
 /* root done by Herwig Bauernfeind, enhanced by Silvan Scherrer */
 
 /* version history */
@@ -8,82 +8,95 @@
 /* version 0.2.4 from 19.10.2009 Silvan (enabled lrelease support) */
 /* version 0.2.5 from 22.10.2009 Silvan (enabled install) */
 /* version 0.2.6 from 29.01.2010 Silvan (added more readmes) */
-/* version 0.2.7 from 29.04.2010 Silvan (added smplayer version for sed'ing readme's */
+/* version 0.2.7 from 29.04.2010 Silvan (added SMPlayer version for sed'ing readme's) */
 /* version 0.2.8 from 20.05.2010 Silvan (added version to zip) */
+/* version 0.2.9 from 11.11.2011 Silvan (adapted to Qt 4.7.3) */
+/* version 0.3.0 from 24.12.2011 Silvan (added shadow build) */
+/* version 0.3.1 from 16.03.2012 Silvan (get the version from version.cpp) */
 
 /* init the version string (don't forget to change) */
-version = "0.2.8"
-version_date = "20.05.2010"
-smplayer_version = "0.6.9"
-smplayer_build = "beta1"
-internal_build = "0_6_9-b2"
+version = "0.3.1"
+version_date = "16.03.2012"
 '@echo off'
 
-parse upper arg cmdline
-
-if cmdline = "" then signal help
+parse arg command option
+parse source . . scriptFile
 
 /* init the required vars */
 qRC = 0
 mRC = 0
-rootdir    = strip(directory(),'T','\') /* Make sure we have no trailing backslash */
-rootdirS   = rootdir || '\'
-srcDir     = rootdirS || 'src'
-installDir = rootdirS || 'os2'
-translationFiles = srcDir || '\translations\smplayer_*.qm'
-qErrorFile = rootdirS||'qmake.err'
-qOutFile   = rootdirS||'qmake.out'
-mErrorFile = rootdirS||'make.err'
-mOutFile   = rootdirS||'make.out'
+buildDir    = strip(directory(),'T','\') /* Make sure we have no trailing backslash */
+sourceDir = FixDir(filespec('D', scriptFile) || filespec('P', scriptFile))
+os2Dir     = sourceDir || '\os2'
+srcDir     = sourceDir || '\src'
+installDir = buildDir || '\install'
+qErrorFile = buildDir||'\qmake.err'
+qOutFile   = buildDir||'\qmake.out'
+mErrorFile = buildDir||'\make.err'
+mOutFile   = buildDir||'\make.out'
+
+/* get the SMPlayer version */
+SMPlayer_version = '0.0.0'
+call version
+internal_build = translate(SMPlayer_version, '_', '.')
+
+title = "SMPlayer for eCS (OS/2) build script v" || version || " from " || version_date
+say title
+say
+say "Build directory:" buildDir
+say "Source directory:" sourceDir
+say
+say "SMPlayer version:" SMPlayer_version
+say
+
+/* translate command to all upercase */
+command = translate(command)
+
+if command = "" then signal help
+
+if command = "INSTALL" then do
+    SMPlayer_build = option
+    select
+	when SMPlayer_build \== "" then do
+	  zipFile = installDir || '\SMPlayer-' || internal_build || '-' || SMPlayer_build || '.zip'
+	end
+	otherwise do
+	  signal help
+	end
+    end 
+end
+
+/* now we translate also the options */
+options = translate(options)
+
+if sourceDir \== buildDir then do
+    say "Shadow build in progress ..."
+    say
+end
 
 select
-    when cmdline = "MAKE CLEAN" then do
-        say "Executing command: "cmdline
+    when command = "MAKE" & option = "CLEAN" then do
+        say "Executing command: "command option
 
-        ok = directory(srcdir)
         say "cleaning the tree"
         call make 'distclean'
-        ok = directory(rootdir)
 
-        say "delete all translated .qm files"
-        ok = SysFileTree(translationFiles, rm.,'FO')
-        do i = 1 to rm.0
-            ok = SysFileDelete(rm.i)
-        end
-
-        say "please execute this script again with 'make' to build smplayer"
+        say "please execute this script again with 'make' to build SMPlayer"
 
     end
-    when cmdline = "MAKE" | cmdline = "MAKE DEBUG" then do
-        say "Executing command: "cmdline
-
-        say "creating makefile for getrev"
-        ok = directory(rootdirS||'getrev')
-        call qmake
-
-        if qRC = 0 then do
-            say "building getrev"
-            call make
-        end
-
-        ok = directory(rootdir)
-
-        if qRC <> 0 | mRC <> 0 then Signal error
+    when command = "MAKE" then do
+        say "Executing command: "command option
 
         say "building svn_revision"
-        address cmd 'getrev\release\getrev.exe > src\svn_revision.h'
+	ok = SysMkDir(buildDir||'\src')
+        address cmd 'sh ' sourceDir||'\get_svn_revision.sh ' sourceDir ' "eCS(OS/2) build"'
 
-        ok = directory(srcDir)
-
-        say "creating all translated .qm files"
-        lrelease smplayer.pro
-
-        say "creating smplayer makefile"
+        say "creating SMPlayer makefile"
         call qmake
 
         if qRC = 0 then do
-            say "building smplayer"
-	    if cmdline = "MAKE" then do
+            say "building SMPlayer"
+	    if option = "" then do
             	call make
 	    end
 	    else do
@@ -91,11 +104,10 @@ select
 	    end
         end
 
-        ok = directory(rootdir)
     end
 
-    when cmdline = "INSTALL" then do
-        say "Executing command: "cmdline
+    when command = "INSTALL" then do
+        say "Executing command: "command
 
 /* first delete everything */
 	call deleteall
@@ -103,25 +115,9 @@ select
 /* create the installDir,the translation and the icon subdir */
 	ok = SysMkDir(installDir)
 	ok = SysMkDir(installDir||'\translations')
-	ok = SysMkDir(installDir||'\icons')
 
-/* copy all translated files */
-	ok = SysFileTree(translationFiles, rm.,'FO')
-        do i = 1 to rm.0
-            ok = SysCopyObject(rm.i, installDir||'\translations')
-        end
-
-/* copy the exe and the icon (including rename and setting the new LONGNAME EA) */
-	ok = SysCopyObject(srcDir||'\release\smplayer.exe',installDir)
-	ok = SysCopyObject(srcDir||'\smplayer_os2.ico',installDir)
-	address cmd 'ren 'installDir'\smplayer_os2.ico smplayer.ico'
-	ok = SysPutEA(installDir||'\smplayer.ico', '.LONGNAME', 'FDFF'x || d2c(12)||'00'x ||'smplayer.ico')
-
-/* copy some additional icons */
-	ok = SysFileTree(rootdirS||'icons\smplayer*.ico', rm.,'FO')
-        do i = 1 to rm.0
-            ok = SysCopyObject(rm.i, installDir||'\icons')
-        end
+/* copy the exe */
+	ok = SysCopyObject(buildDir||'\src\smplayer.exe',installDir)
 
 /* copy the readme */
 	rm.0 = 3
@@ -129,26 +125,42 @@ select
 	rm.2 = 'liesmich.os2'
 	rm.3 = 'lisezmoi.os2'
 	do i = 1 to rm.0
-	cmdtorun = 'sed "s;_VERSION_;' || smplayer_version || ';g" ' || rootdirS || rm.i || ' | sed "s;_BUILD_;' || smplayer_build || ';g" >' || rootdirS || 'os2\' || rm.i
+	cmdtorun = 'sed "s;_VERSION_;' || SMPlayer_version || ';g" ' || os2Dir || '\' || rm.i || ' | sed "s;_BUILD_;' || SMPlayer_build || ';g" >' || installDir || '\' || rm.i
         address cmd cmdtorun
 	end
 
-/* zip all up */
+/* create the qm files from ts files */
+	ok = SysFileTree(srcDir||'\translations\*.ts', rm.,'FO')
+        do i = 1 to rm.0
+	    fileName = filespec('N',rm.i)
+	    fileName = left(fileName,lastpos('.', fileName)-1) || '.qm'
+            cmdtorun = 'lrelease ' || rm.i || ' -qm ' || installDir || '\translations\' || fileName
+	    address cmd cmdtorun
+        end
+
+/* zip all dynamic stuff */
 	ok = directory(installDir)
-	cmdtorun = 'zip -r smplayer-' || internal_build || '.zip *'
+	cmdtorun = 'zip -r ' || zipFile || ' *'
 	address cmd cmdtorun
-	ok = directory(rootdir)
+        ok = directory(buildDir)
+
+/* zip all icons */
+	ok = directory(os2Dir)
+	cmdtorun = 'zip ' || zipFile || ' *.ico'
+	address cmd cmdtorun
+	ok = directory(buildDir)
+
     end
 
-    when cmdline = "UNINSTALL" then do
-        say "Executing command: "cmdline
+    when command = "UNINSTALL" then do
+        say "Executing command: "command
 
 	call deleteall
 	
     end
 
     otherwise do
-        say 'Unknown parameter "'cmdline'" - aborting...'
+        say 'Unknown parameter "'command'" - aborting...'
         exit 1
     end
 end
@@ -174,7 +186,7 @@ end
 exit 0
 
 qmake:
-    address cmd 'qmake 2>'qErrorFile' 1>'qOutFile
+    address cmd 'qmake ' sourceDir ' 2>'qErrorFile' 1>'qOutFile
     qRC = RC
     if qRC <> 0 then do
         call beep 880, 20
@@ -212,13 +224,54 @@ deleteall: /* delete everything in installDir (inkluding subdirs) */
 
 return
 
+/**
+ *  Fixes the directory path by a) converting all slashes to back
+ *  slashes and b) ensuring that the trailing slash is present if
+ *  the directory is the root directory, and absent otherwise.
+ *
+ *  @param dir      the directory path
+ *  @param noslash
+ *      optional argument. If 1, the path returned will not have a
+ *      trailing slash anyway. Useful for concatenating it with a
+ *      file name.
+ */
+FixDir: procedure expose (Globals)
+    parse arg dir, noslash
+    noslash = (noslash = 1)
+    dir = translate(dir, '\', '/')
+    if (right(dir, 1) == '\' &,
+        (noslash | \(length(dir) == 3 & (substr(dir, 2, 1) == ':')))) then
+        dir = substr(dir, 1, length(dir) - 1)
+    return dir
+
+/**
+ *  reads the version.cpp and gets the SMPlayer version from there
+ */ 
+version: procedure expose SMPlayer_version srcDir
+
+    SMPlayerVer = ' '
+    /* SMPlayer Version file */
+    Version = srcDir || "\version.cpp"
+
+    do until lines(Version) = 0
+        verline = linein(Version)
+        if left(Verline,15) = "#define VERSION" then do
+            parse var verline . ' '. ' ' SMPlayerVer
+        end
+    end
+
+    ok = stream(Version,'c','close')
+    if SMPlayerVer \== ' ' then do
+    	SMPlayer_version = strip(SMPlayerVer,,'"')
+    end
+
+    return
+
 help:
-    title = "smplayer for eCS (OS/2) build script v" || version || " from " || version_date
-    say title
     say "Parameters:"
     say "    make"
     say "    make debug"
     say "    make clean"
-    say "    install"
+    say "    install version"
     say "    uninstall"
 exit 255
