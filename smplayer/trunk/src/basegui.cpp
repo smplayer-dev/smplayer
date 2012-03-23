@@ -2436,7 +2436,7 @@ void BaseGui::createMenus() {
 	// Check if the smplayer youtube browser is installed
 	{
 		QString tube_exec = Paths::appPath() + "/smtube";
-		#ifdef Q_OS_WIN
+		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		tube_exec += ".exe";
 		#endif
 		if (QFile::exists(tube_exec)) {
