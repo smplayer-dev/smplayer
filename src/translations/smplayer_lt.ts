@@ -253,7 +253,7 @@
     </message>
     <message>
         <source>Spanish</source>
-        <translation type="unfinished">Ispanų</translation>
+        <translation>Ispanų</translation>
     </message>
 </context>
 <context>
@@ -298,7 +298,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <source>Choose a file</source>
-        <translation>Pasirinkite failą</translation>
+        <translation>Pasirinkti failą</translation>
     </message>
     <message>
         <source>Error</source>
@@ -373,11 +373,11 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Nustatyti kaip numatytasiąs reikšmes</translation>
+        <translation>&amp;Nustatyti kaip numatytas reikšmes</translation>
     </message>
     <message>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Nustatyti dabartines reikšmes kaip numatytąsias naujiems video.</translation>
+        <translation>Nustatyti dabartines reikšmes kaip numatytas naujiems video.</translation>
     </message>
     <message>
         <source>Set all controls to zero.</source>
@@ -389,7 +389,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Dabartiniai parametrai buvo išsaugoti kaip numatytieji.</translation>
+        <translation>Dabartiniai parametrai buvo išsaugoti kaip pradiniai.</translation>
     </message>
 </context>
 <context>
@@ -724,7 +724,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <source>Choose a file</source>
-        <translation>Pasirinkite failą</translation>
+        <translation>Pasirinkti failą</translation>
     </message>
     <message>
         <source>SMPlayer - Information</source>
@@ -1357,66 +1357,66 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     </message>
     <message>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pašalinti juostas (&amp;gradfun)</translation>
     </message>
     <message>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished">Iš&amp;jungti</translation>
+        <translation>Iš&amp;jungti</translation>
     </message>
     <message>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Pašali&amp;nti triukšmą</translation>
     </message>
     <message>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Susiliejęs/ry&amp;škus</translation>
     </message>
     <message>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">Iš&amp;jungti</translation>
+        <translation>Iš&amp;jungti</translation>
     </message>
     <message>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normalus</translation>
     </message>
     <message>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Švelnu&amp;s</translation>
     </message>
     <message>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;Nieko</translation>
+        <translation>&amp;Nieko</translation>
     </message>
     <message>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Susi&amp;liejęs</translation>
     </message>
     <message>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ryšku&amp;s</translation>
     </message>
     <message>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - MPlayer žurnalas</translation>
     </message>
     <message>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - SMPlayer žurnalas</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Informacija</translation>
+        <translation>Informacija</translation>
     </message>
     <message>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naujos grafinės sąsajos naudojimui reikia iš naujo paleisti SMPlayer.</translation>
     </message>
 </context>
 <context>
@@ -1730,7 +1730,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     </message>
     <message>
         <source>&amp;Edit...</source>
-        <translation>&amp;Keisti...</translation>
+        <translation>K&amp;eisti...</translation>
     </message>
     <message>
         <source>&amp;Jump...</source>
@@ -1817,7 +1817,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Čia galima nurodyti papildomas „MPlayer“ parinktis.
+        <translation>Čia galima nurodyti papildomas MPlayer parinktis.
 Įrašai turi būti atskirti tarpais.
 Pavyzdžiui: -flip -nosound</translation>
     </message>
@@ -1830,7 +1830,7 @@ Pavyzdžiui: -flip -nosound</translation>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>Taip pat galima perduoti papildomus video filtrus.
-Atskirkite juos „,“. Nenaudokite tarpų!
+Atskirkite juos &quot;,&quot;. Nenaudokite tarpų!
 Pavyzdžiui: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -1853,7 +1853,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Atsisakyti</translation>
+        <translation>Atmesti</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -1884,15 +1884,15 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>gradfun</source>
-        <translation type="unfinished"></translation>
+        <translation>Gradfun filtras</translation>
     </message>
     <message>
         <source>blur</source>
-        <translation type="unfinished"></translation>
+        <translation>susiliejęs</translation>
     </message>
     <message>
         <source>sharpen</source>
-        <translation type="unfinished"></translation>
+        <translation>ryškus</translation>
     </message>
 </context>
 <context>
@@ -1959,7 +1959,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>&amp;Username:</source>
-        <translation>&amp;Naudotojo vardas:</translation>
+        <translation>Na&amp;udotojo vardas:</translation>
     </message>
     <message>
         <source>Pa&amp;ssword:</source>
@@ -3151,7 +3151,7 @@ Patikrinkite prieigos teises.</translation>
     </message>
     <message utf8="true">
         <source>Volapük</source>
-        <translation>Volapük</translation>
+        <translation>Volapiukas</translation>
     </message>
     <message>
         <source>Walloon</source>
@@ -3245,7 +3245,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Prasukimo juosta</translation>
     </message>
 </context>
 <context>
@@ -3416,7 +3416,7 @@ Pavyzdžiui: -flip -nosound</translation>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>Taip pat galima perduoti papildomus video filtrus.
-Atskirkite juos „,“. Nenaudokite tarpų!
+Atskirkite juos &quot;,&quot;. Nenaudokite tarpų!
 Pavyzdžiui: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -3711,11 +3711,11 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -4828,7 +4828,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Check it to enable changing volume as one function.</source>
-        <translation>Pažymėkite garo lygio keitimą kaip vienos iš funkcijų įgalinimui.</translation>
+        <translation>Pažymėkite garso lygio keitimą kaip vienos iš funkcijų įgalinimui.</translation>
     </message>
     <message>
         <source>Check it to enable zooming as one function.</source>
@@ -4844,7 +4844,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation>Pažymėkite veiksmus, kurie cikliškai persijunginės naudojant „Pelės ratuko funkcijos keitimas“ nuostatą.</translation>
+        <translation>Pažymėkite veiksmus, kurie cikliškai persijunginės naudojant &quot;Pelės ratuko funkcijos keitimas&quot; nuostatą.</translation>
     </message>
     <message>
         <source>Reverse mouse wheel seeking</source>
@@ -6084,7 +6084,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Jei pažymėta, pasirinktas stilius bus pritaikytas taip pat ir ass formato subtitrams.</translation>
+        <translation>Jei pažymėta, pasirinktas stilius bus pritaikytas taip pat ir &lt;i&gt;ass&lt;/i&gt; formato subtitrams.</translation>
     </message>
     <message>
         <source>A&amp;pply style to ass files too</source>
@@ -6162,7 +6162,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Atsisakyti</translation>
+        <translation>Atmesti</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -6197,7 +6197,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>veiksmų_sąrašas yra veiksmų, atskirtų tarpais, sąrašas. Šie veiksmai bus vykdomi po failo įkėlimo nurodyta tvarka. Veiksmams su kintamomis reikšmėmis galima naudoti „true“ arba „false“ parametrus. Pavyzdžiui: -actions „fullscreen compact true“. Kabutės yra reikalingos jei naudojamas daugiau negu vienas veiksmas.</translation>
+        <translation>&lt;i&gt;veiksmų_sąrašas&lt;/i&gt; yra veiksmų, atskirtų tarpais, sąrašas. Šie veiksmai bus vykdomi po failo įkėlimo nurodyta tvarka. Veiksmams su kintamomis reikšmėmis galima naudoti &lt;i&gt;true&lt;/i&gt; arba &lt;i&gt;false&lt;/i&gt; parametrus. Pavyzdžiui:&lt;i&gt;-actions &quot;fullscreen compact true&quot;&lt;/i&gt;. Kabutės yra reikalingos jei naudojamas daugiau negu vienas veiksmas.</translation>
     </message>
     <message>
         <source>media</source>
@@ -6441,23 +6441,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Laiko slankiklis</translation>
     </message>
     <message>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Garso slankiklis</translation>
     </message>
     <message>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodyti laiką</translation>
     </message>
     <message>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Trys viename atgal</translation>
     </message>
     <message>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Trys viename į priekį</translation>
     </message>
 </context>
 <context>
@@ -6775,7 +6775,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>VolumeSliderAction</name>
     <message>
         <source>Volume</source>
-        <translation>Garsumas</translation>
+        <translation>Garsas</translation>
     </message>
 </context>
 </TS>
