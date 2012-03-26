@@ -180,52 +180,52 @@ pre {
 
 <h1>SMPlayer - Frequently Asked Questions</h1>
 <ol>
-<li><a href="#Q01">Sometimes I read SMPlayer, others MPlayer, what are they? Are they the same?</a></li>
-<li><a href="#Q02">What about MPlayer2?</a></li>
-<li><a href="#Q03">I've read something about Qt, what's that?</a></li>
-<li><a href="#Q04">DVD menus, where are they?</a></li>
-<li><a href="#Q05">Output drivers (directx, xv, x11, gl, alsa, oss...) what are they? Which one is the best?</a></li>
-<li><a href="#Q06">I try to make a screenshot but the option is disabled, why?</a></li>
-<li><a href="#Q07">I try to change the audio track but it doesn't work, the audio remains the same. I have to stop the video and play it again to actually change audio. Why?</a></li>
-<li><a href="#Q08">How can I change the key shortcuts?</a></li>
-<li><a href="#Q09">With some video formats I only get audio, but not video. Why? Do I need some codecs?</a></li>
-<li><a href="#Q10">What's the difference between Open -> Close and Open -> Quit? Do they do the same?</a></li>
-<li><a href="#Q11">How can I play an audio CD?</a></li>
-<li><a href="#Q12">I try to play a file but nothing happens. Why?</a></li>
-<li><a href="#Q13">A lot of menu options make the video to go blank for a moment. Why?</a></li>
-<li><a href="#Q14">SMPlayer crashed, but the audio didn't stop, why?</a></li>
-<li><a href="#Q15">When I'm playing a playlist, when a file ends SMPlayer doesn't play the next file automatically, why?</a></li>
-<li><a href="#Q16">What version of MPlayer is recommended?</a></li>
-<li><a href="#Q17">I want the subtitles to be displayed on the black border instead of the image, how can I do it?</a></li>
-<li><a href="#Q18">I want the subtitles to be displayed on the black border for ALL videos, is it possible?</a></li>
-<li><a href="#Q19">The screensaver doesn't turn off, why?</a></li>
-<li><a href="#Q20">Is MPlayer multithreaded? How can I take advantage of all my CPU cores?</a></li>
-<li><a href="#Q21">Where is the configuration file?</a></li>
-<li><a href="#Q22">(Windows) The video is displayed only in the 1st monitor but not in the 2nd, why?</a></li>
-<li><a href="#Q23">(Windows) Every time I play a video Aero is disabled, why?</a></li>
-<li><a href="#Q24">(Windows) I'm unable to open files with special or non-English characters, why?</a></li>
+<li><a href="#smplayer_mplayer">Sometimes I read SMPlayer, others MPlayer, what are they? Are they the same?</a></li>
+<li><a href="#mplayer2">What about MPlayer2?</a></li>
+<li><a href="#qt">I've read something about Qt, what's that?</a></li>
+<li><a href="#dvd_menus">DVD menus, where are they?</a></li>
+<li><a href="#output_drivers">Output drivers (directx, xv, x11, gl, alsa, oss...) what are they? Which one is the best?</a></li>
+<li><a href="#screenshot">I try to make a screenshot but the option is disabled, why?</a></li>
+<li><a href="#audio_track">I try to change the audio track but it doesn't work, the audio remains the same. I have to stop the video and play it again to actually change audio. Why?</a></li>
+<li><a href="#shortcuts">How can I change the key shortcuts?</a></li>
+<li><a href="#codecs">With some video formats I only get audio, but not video. Why? Do I need some codecs?</a></li>
+<li><a href="#open_quit">What's the difference between Open -> Close and Open -> Quit? Do they do the same?</a></li>
+<li><a href="#audio_cd">How can I play an audio CD?</a></li>
+<li><a href="#mplayer_errors">I try to play a file but nothing happens. Why?</a></li>
+<li><a href="#mplayer_restart">A lot of menu options make the video to go blank for a moment. Why?</a></li>
+<li><a href="#crash">SMPlayer crashed, but the audio didn't stop, why?</a></li>
+<li><a href="#playlist_problem">When I'm playing a playlist, when a file ends SMPlayer doesn't play the next file automatically, why?</a></li>
+<li><a href="#mplayer_recommended">What version of MPlayer is recommended?</a></li>
+<li><a href="#subtitles_border">I want the subtitles to be displayed on the black border instead of the image, how can I do it?</a></li>
+<li><a href="#expand_filter">I want the subtitles to be displayed on the black border for ALL videos, is it possible?</a></li>
+<li><a href="#screensaver1">The screensaver doesn't turn off, why?</a></li>
+<li><a href="#multithread">Is MPlayer multithreaded? How can I take advantage of all my CPU cores?</a></li>
+<li><a href="#config_file">Where is the configuration file?</a></li>
+<li><a href="#win_multimonitors">(Windows) The video is displayed only in the 1st monitor but not in the 2nd, why?</a></li>
+<li><a href="#win_aero">(Windows) Every time I play a video Aero is disabled, why?</a></li>
+<li><a href="#win_shortnames">(Windows) I'm unable to open files with special or non-English characters, why?</a></li>
 </ol>
 
 <hr>
 
-<h4><span id="Q01">Sometimes I read SMPlayer, others MPlayer, what are they? Are they the same?</span></h4>
+<h4><span id="smplayer_mplayer">Sometimes I read SMPlayer, others MPlayer, what are they? Are they the same?</span></h4>
 <p>No, they are two different applications. MPlayer is a multimedia player developed initially for Linux and then ported to other operating systems. It's very good, it plays almost every everything, and it has for instance a lot of filters and so on. But most users may find it hard to use.</p>
 
 <p>Fortunately, MPlayer can work together with another application (the video window can be embedded in another application's GUI, it obeys commands sent by the application). So SMPlayer is just a front-end which uses MPlayer to actually play the videos.</p>
 
 <p>SMPlayer is the window you see, the menus, the preferences dialog... (along with other things you don't see, like functions to control MPlayer). But SMPlayer knows nothing about playing files. It doesn't even know what a codec is. MPlayer on the other hand, opens the files, decodes them, displays the video and plays the audio. Subtitles are also read, parsed and displayed on screen by MPlayer.</p>
 
-<h4><span id="Q02">What about MPlayer2?</span></h4>
+<h4><span id="mplayer2">What about MPlayer2?</span></h4>
 <p>MPlayer2 is a fork of MPlayer. MPlayer2 offers several <a href="http://www.mplayer2.org/comparison.html">improvements and features</a> over MPlayer and is compatible with SMPlayer.</p>
 
-<h4><span id="Q03">I've read something about Qt, what's that?</span></h4>
+<h4><span id="qt">I've read something about Qt, what's that?</span></h4>
 <p>SMPlayer is being developed by using Qt, which is a C++ library that allows cross-platform development. The same source code can be compiled
 on Windows, Linux and Mac OS. More info: <a href="http://qt.nokia.com/products/">http://qt.nokia.com/products/</a>.</p>
 
-<h4><span id="Q04">DVD menus, where are they?</span></h4>
+<h4><span id="dvd_menus">DVD menus, where are they?</span></h4>
 <p>In the SMPlayer Drive preferences (Options - Preferences - Drives), enable the "Enable DVD menus (Experimental)" option and set your DVD drive. This feature requires a recent build of MPlayer compiled with libdvdnav support.</p>
 
-<h4><span id="Q05">Output drivers (directx, xv, x11, gl, alsa, oss...) what are they?
+<h4><span id="output_drivers">Output drivers (directx, xv, x11, gl, alsa, oss...) what are they?
 Which one is the best?</span></h4>
 <p>MPlayer has several output drivers, for video and sound. SMPlayer allows you to select the one you want among all of them (<i>Preferences -> General -> Video/Audio</i>).</p>
 <p>For video it's recommended that you use xv (Linux) or directx (Windows). They use hardware acceleration and give the best performance. The inconvenience about directx for Windows Vista &amp; later users is that it disables Aero. 
@@ -237,51 +237,51 @@ directx or xv. gl/gl2 can be useful for Windows Vista &amp; later users.</p>
 <p>In Windows the sound drivers are dsound and win32. I read that dsound can cause sometimes audio-video sync problems. If you notice that problem try win32 instead.</p>
 <p>Other drivers allows you to save the video as image files or write the sound to the disk. These drivers are not officially supported by SMPlayer. Use them only if you know what you're doing.</p>
 
-<h4><span id="Q06">I try to make a screenshot, but the option is disabled, why?</span></h4>
+<h4><span id="screenshot">I try to make a screenshot, but the option is disabled, why?</span></h4>
 <p>You didn't choose a folder for storing the screenshots. Do it in <i>Preferences -> General</i>, and the screenshot option will be enabled.</p>
 
-<h4><span id="Q07">I try to change the audio track but it doesn't work, the audio remains the same. I have to stop the video and play it again to actually change audio. Why?</span></h4>
+<h4><span id="audio_track">I try to change the audio track but it doesn't work, the audio remains the same. I have to stop the video and play it again to actually change audio. Why?</span></h4>
 <p>With some formats (ike mp4 or ogm), MPlayer can't change the audio track at runtime. By unchecking the option "Fast audio track switching" (<i>Preferences -> Performance</i>) you'll be able to change the audio in those formats.</p>
 
-<h4><span id="Q08">How can I change the key shortcuts?</span></h4>
+<h4><span id="shortcuts">How can I change the key shortcuts?</span></h4>
 <p>Preferences -> Keyboard and mouse. You'll be able to change most key shortcuts. </p>
 
-<h4><span id="Q09">With some video formats I only get audio, but not video. Why? Do I need some codecs?</span></h4>
+<h4><span id="codecs">With some video formats I only get audio, but not video. Why? Do I need some codecs?</span></h4>
 <p>MPlayer can player most common formats "out of the box". But for codecs that haven't been yet implemented natively, it's necessary to install a package with binary codecs. You can get it from the <a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer download page</a>.</p>
 <p>On Windows, install the codecs in the mplayer\codecs subdirectory. On Linux distros the package may be available as a regular package, maybe with the name of w32codecs or something like that.</p>
 
-<h4><span id="Q10">What's the difference between <i>Open -> Close</i> and <i>Open -> Quit</i>? Do they do the same?</span></h4>
+<h4><span id="open_quit">What's the difference between <i>Open -> Close</i> and <i>Open -> Quit</i>? Do they do the same?</span></h4>
 <p>If the option "Show icon in system tray" (in menu Options) is not checked, then yes, the two options do the same: quit the application.</p>
 <p>But if that option is enabled, then <i>Open -> Close</i> will just hide the application (and stop the current file), but SMPlayer is still running. <i>Open -> Quit</i> really quits the application, no matter if the system tray icon is enabled or not. </p>
 
-<h4><span id="Q11">How can I play an audio CD?</span></h4>
+<h4><span id="audio_cd">How can I play an audio CD?</span></h4>
 <p>Support for audio CDs was added in version 0.5.18.</p>
 <p>Under Windows it's not possible to play audio CDs yet.</p>
 
-<h4><span id="Q12">I try to play a file but nothing happens. Why?</span></h4>
+<h4><span id="mplayer_errors">I try to play a file but nothing happens. Why?</span></h4>
 <p>Probably MPlayer couldn't play the file. Open the mplayer log (<i>Options -> View logs -> MPlayer</i>), you'll probably find an error message in the latest lines.</p>
 <p>On Windows is quite common that some MPlayer builds fail because they have been compiled without support for some feature that SMPlayer tries
 to use. The error message could give you a clue. If it complains about cache, try disabling the cache in <i>Preferences -> Performance</i>. If it
 complains about fontconfig, try to use a ttf font instead of a system font.</p>
 
-<h4><span id="Q13">A lot of menu options make the video to go blank for a moment. Why?</span></h4>
+<h4><span id="mplayer_restart">A lot of menu options make the video to go blank for a moment. Why?</span></h4>
 <p>Some options require to stop the MPlayer process and start it again with new parameters. That's why playing interrupts for a moment. </p>
 
-<h4><span id="Q14">SMPlayer crashed, but the audio didn't stop. Why?</span></h4>
-<p>SMPlayer crashed, but MPlayer is still running. Kill the MPlayer processin the Task Manager.</p>
+<h4><span id="crash">SMPlayer crashed, but the audio didn't stop. Why?</span></h4>
+<p>SMPlayer crashed, but MPlayer is still running. Kill the MPlayer process in the Task Manager.</p>
 <p>Anyway if SMPlayer crashes, it's a serious bug that should be fixed. Report it.</p>
 
-<h4><span id="Q15">When I'm playing a playlist, when a file ends SMPlayer doesn't play the next file automatically, why?</span></h4>
+<h4><span id="playlist_problem">When I'm playing a playlist, when a file ends SMPlayer doesn't play the next file automatically, why?</span></h4>
 <p>Be sure you're using at least SMPlayer 0.6.5 and MPlayer SVN r28066. </p>
 
-<h4><span id="Q16">What version of MPlayer is recommended?</span></h4>
+<h4><span id="mplayer_recommended">What version of MPlayer is recommended?</span></h4>
 <p>I recommend to use at least MPlayer SVN r33216 (from 2011-04-05), although a recent version from SVN would be better for improved codec support and bugfixes. A new fork of MPlayer, MPlayer2, also works well with SMPlayer.</p>
 <p>SMPlayer will try its best to work with older versions, but some options may not work. </p>
 
-<h4><span id="Q17">I want the subtitles to be displayed on the black border instead of the image, how can I do it?</span></h4>
+<h4><span id="subtitles_border">I want the subtitles to be displayed on the black border instead of the image, how can I do it?</span></h4>
 <p><i>Video filters -> Add black borders</i></p>
 
-<h4><span id="Q18">I want the subtitles to be displayed on the black border for ALL videos, is it possible? </span></h4>
+<h4><span id="expand_filter">I want the subtitles to be displayed on the black border for ALL videos, is it possible? </span></h4>
 <p>You can add a video filter like <b>expand=:::::4/3</b> in <i>Preferences -> Advanced -> Options for MPlayer</i>.</p>
 Other possibilities: 
 <ul>
@@ -289,7 +289,7 @@ Other possibilities:
 <li>Add <b>add_letterbox true</b> in actions list field in <i>Preferences -> Advanced</i></li>
 </ul>
 
-<h4><span id="Q19">The screensaver doesn't turn off, why?</span></h4>
+<h4><span id="screensaver1">The screensaver doesn't turn off, why?</span></h4>
 If you use a recent version of MPlayer you may need to add a line like this
 in your ~/.mplayer/config:
 <p></p>
@@ -303,10 +303,10 @@ in your ~/.mplayer/config:
 <p></p>
 <p>Please take a look at the MPlayer manpage for more info.</p>
 
-<h4><span id="Q20">Is MPlayer multithreaded? How can I take advantage of all my CPU cores?</span></h4>
+<h4><span id="multithread">Is MPlayer multithreaded? How can I take advantage of all my CPU cores?</span></h4>
 Multithreaded decoding requires a recent build of MPlayer or FFmpeg-mt in Linux. MPlayer2 automatically uses all cores, but MPlayer requires manual adjustment. You can adjust the number of threads used for decoding in <i>Preferences -> Performance</i>. Set it to equal or less than the number of cores (and threads in the case of hyperthreaded Intel CPUs) your processor has. Setting it to greater than your CPU is capable of will have no effect.
 
-<h4><span id="Q21">Where is the configuration file?</span></h4>
+<h4><span id="config_file">Where is the configuration file?</span></h4>
 <p>SMPlayer uses two ini files: smplayer.ini and smplayer_files.ini. Both are stored according to your OS:</p>
 <pre><b>Linux</b> 	                        $HOME/.config/smplayer
 <b>Windows 2000/XP</b> 	        C:\Documents and Settings\&lt;your_username&gt;\.smplayer
@@ -320,14 +320,14 @@ Multithreaded decoding requires a recent build of MPlayer or FFmpeg-mt in Linux.
 <p><i>smplayer.ini</i> stores the SMPlayer configuration while <i>smplayer_files.ini</i> stores the settings of the files you have played.</p>
 <p>Note: In Linux, <i>.config</i> may be hidden by default. Be sure to enable hidden files and folders in your file manager.</p>
 
-<h4><span id="Q22">(Windows) The video is displayed only in the 1st monitor but not in the 2nd, why?</span></h4>
+<h4><span id="win_multimonitors">(Windows) The video is displayed only in the 1st monitor but not in the 2nd, why?</span></h4>
 <p>When you use <i>directx</i> as video driver (<i>Preferences -> General -> Video</i>) the video can only be displayed on one monitor. If you use instead <i>gl</i>, <i>gl2</i> or <i>direct3d</i> the video will be displayed in any monitor.</p>
 <p>Anyway if you prefer to use <i>directx</i> you can choose the screen which will be display the video in the menu <i>Video -> Screen</i>.</p>
 
-<h4><span id="Q23">(Windows) I'm using Windows Vista or later and every time I play a video Aero is disabled, why?</span></h4>
+<h4><span id="win_aero">(Windows) I'm using Windows Vista or later and every time I play a video Aero is disabled, why?</span></h4>
 <p>This happens when using <i>directx</i> as video driver (<i>Preferences -> General -> Video</i>). You can change it to <i>gl</i>, <i>gl2</i> or <i>direct3d</i>.</p>
 
-<h4><span id="Q24">(Windows) I'm unable to open files with special or non-English characters, why?</span></h4>
+<h4><span id="win_shortnames">(Windows) I'm unable to open files with special or non-English characters, why?</span></h4>
 <p>If you are unable to open files with special or non-English characters, enable <i>Pass short filenames (8+3) to MPlayer</i> under Options -&gt; Preferences -&gt; Advanced to work around this problem.</p>
 
 </body>
