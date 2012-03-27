@@ -29,7 +29,7 @@ set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
 set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
 set OUTPUT_DIR=%TOP_LEVEL_DIR%\output
 set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
-set QT_DIR=QT_DIR=C:\Qt\%QTVER%
+set QT_DIR=E:\Buildsys\Qt\%QTVER%
 
 :reask
 set /P USER_CHOICE="Choose an action: "
@@ -132,7 +132,7 @@ echo.
 ren %SMPLAYER_DIR% smplayer-%SMPLAYER_VER%
 set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-%SMPLAYER_VER%
 
-7za a -t7z %OUTPUT_DIR%\smplayer-%SMPLAYER_VER%_without_mplayer.7z %SMPLAYER_DIR% -xr!mplayer -xr!Portable_Edition.txt -mx9
+7za a -t7z %OUTPUT_DIR%\smplayer-%SMPLAYER_VER%_without_mplayer.7z %SMPLAYER_DIR% -xr!mplayer -mx9
 
 ren %SMPLAYER_DIR% smplayer-build
 
