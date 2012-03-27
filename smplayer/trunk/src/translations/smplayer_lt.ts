@@ -373,11 +373,11 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Nustatyti kaip numatytas reikšmes</translation>
+        <translation>&amp;Nustatyti kaip numatytąsias reikšmes</translation>
     </message>
     <message>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Nustatyti dabartines reikšmes kaip numatytas naujiems video.</translation>
+        <translation>Nustatyti dabartines reikšmes kaip numatytąsias naujiems video.</translation>
     </message>
     <message>
         <source>Set all controls to zero.</source>
@@ -1102,7 +1102,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     </message>
     <message>
         <source>&amp;Default</source>
-        <translation>&amp;Numatytas</translation>
+        <translation>&amp;Numatytasis</translation>
     </message>
     <message>
         <source>Mirr&amp;or image</source>
@@ -1830,7 +1830,7 @@ Pavyzdžiui: -flip -nosound</translation>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>Taip pat galima perduoti papildomus video filtrus.
-Atskirkite juos &quot;,&quot;. Nenaudokite tarpų!
+Atskirkite juos „,“. Nenaudokite tarpų!
 Pavyzdžiui: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -1853,7 +1853,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Atmesti</translation>
+        <translation>Atsisakyti</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -1959,7 +1959,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>&amp;Username:</source>
-        <translation>Na&amp;udotojo vardas:</translation>
+        <translation>&amp;Naudotojo vardas:</translation>
     </message>
     <message>
         <source>Pa&amp;ssword:</source>
@@ -3416,7 +3416,7 @@ Pavyzdžiui: -flip -nosound</translation>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>Taip pat galima perduoti papildomus video filtrus.
-Atskirkite juos &quot;,&quot;. Nenaudokite tarpų!
+Atskirkite juos „,“. Nenaudokite tarpų!
 Pavyzdžiui: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -4052,7 +4052,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>Volume normalization by default</source>
-        <translation>Numatytas garso lygio sulyginimas</translation>
+        <translation>Numatytasis garso lygio sulyginimas</translation>
     </message>
     <message>
         <source>Maximizes the volume without distorting the sound.</source>
@@ -4241,7 +4241,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Default zoom</source>
-        <translation>Numatytas mastelis</translation>
+        <translation>Numatytasis mastelis</translation>
     </message>
     <message>
         <source>This option sets the default zoom which will be used for new videos.</source>
@@ -4249,7 +4249,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Default &amp;zoom:</source>
-        <translation>Numatytas &amp;mastelis:</translation>
+        <translation>Numatytasis &amp;mastelis:</translation>
     </message>
     <message>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
@@ -4844,7 +4844,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation>Pažymėkite veiksmus, kurie cikliškai persijunginės naudojant &quot;Pelės ratuko funkcijos keitimas&quot; nuostatą.</translation>
+        <translation>Pažymėkite veiksmus, kurie cikliškai persijunginės naudojant „Pelės ratuko funkcijos keitimas“ nuostatą.</translation>
     </message>
     <message>
         <source>Reverse mouse wheel seeking</source>
@@ -4951,7 +4951,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Default font:</source>
-        <translation>Numatytas šriftas:</translation>
+        <translation>Numatytasis šriftas:</translation>
     </message>
     <message>
         <source>&amp;Change...</source>
@@ -5027,7 +5027,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Default font</source>
-        <translation>Numatytas šriftas</translation>
+        <translation>Numatytasis šriftas</translation>
     </message>
     <message>
         <source>You can change here the application&apos;s font.</source>
@@ -5980,7 +5980,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Default scale</source>
-        <translation>Numatytas dydis</translation>
+        <translation>Numatytasis dydis</translation>
     </message>
     <message>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
@@ -6016,7 +6016,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Default s&amp;cale:</source>
-        <translation>Numatytas &amp;dydis:</translation>
+        <translation>Numatytasis &amp;dydis:</translation>
     </message>
     <message>
         <source>Defa&amp;ult scale:</source>
@@ -6084,7 +6084,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Jei pažymėta, pasirinktas stilius bus pritaikytas taip pat ir &lt;i&gt;ass&lt;/i&gt; formato subtitrams.</translation>
+        <translation>Jei pažymėta, pasirinktas stilius bus pritaikytas taip pat ir ass formato subtitrams.</translation>
     </message>
     <message>
         <source>A&amp;pply style to ass files too</source>
@@ -6162,7 +6162,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Atmesti</translation>
+        <translation>Atsisakyti</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -6197,7 +6197,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>&lt;i&gt;veiksmų_sąrašas&lt;/i&gt; yra veiksmų, atskirtų tarpais, sąrašas. Šie veiksmai bus vykdomi po failo įkėlimo nurodyta tvarka. Veiksmams su kintamomis reikšmėmis galima naudoti &lt;i&gt;true&lt;/i&gt; arba &lt;i&gt;false&lt;/i&gt; parametrus. Pavyzdžiui:&lt;i&gt;-actions &quot;fullscreen compact true&quot;&lt;/i&gt;. Kabutės yra reikalingos jei naudojamas daugiau negu vienas veiksmas.</translation>
+        <translation>veiksmų_sąrašas yra veiksmų, atskirtų tarpais, sąrašas. Šie veiksmai bus vykdomi po failo įkėlimo nurodyta tvarka. Veiksmams su kintamomis reikšmėmis galima naudoti „true“ arba „false“ parametrus. Pavyzdžiui:-actions „fullscreen compact true“. Kabutės yra reikalingos jei naudojamas daugiau negu vienas veiksmas.</translation>
     </message>
     <message>
         <source>media</source>
@@ -6225,7 +6225,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>atveria mini aplinką vietoj numatytos.</translation>
+        <translation>atveria mini aplinką vietoj numatytosios.</translation>
     </message>
     <message>
         <source>Restores the old associations and cleans up the registry.</source>
@@ -6538,11 +6538,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Nustatyti kaip numatytas reikšmes</translation>
+        <translation>&amp;Nustatyti kaip numatytąsias reikšmes</translation>
     </message>
     <message>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Nustatyti dabartines reikšmes kaip numatytas naujiems video.</translation>
+        <translation>Nustatyti dabartines reikšmes kaip numatytąsias  naujiems video.</translation>
     </message>
     <message>
         <source>Set all controls to zero.</source>
@@ -6569,7 +6569,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Atmesti</translation>
+        <translation>Atsisakyti</translation>
     </message>
     <message>
         <source>Generated by SMPlayer</source>
