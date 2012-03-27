@@ -1818,7 +1818,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="+2723"/>
+        <location filename="../core.cpp" line="+2743"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
@@ -1914,7 +1914,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ora la rotellina cambia la velocità</translation>
     </message>
     <message>
-        <location line="-2410"/>
+        <location line="-2426"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Screenshot NON acquisito, cartella non configurata</translation>
     </message>
@@ -1924,7 +1924,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Screenshot NON acquisiti, cartella non configurata</translation>
     </message>
     <message>
-        <location line="+1206"/>
+        <location line="+1222"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Marcatore &quot;A&quot; impostato a %1</translation>
     </message>
@@ -1939,7 +1939,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Marcatori A-B rimossi</translation>
     </message>
     <message>
-        <location line="-1990"/>
+        <location line="-2006"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7813,7 +7813,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="+396"/>
+        <location filename="../smplayer.cpp" line="+409"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>

@@ -1817,138 +1817,138 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2723"/>
+        <location filename="../core.cpp" line="2743"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2738"/>
+        <location filename="../core.cpp" line="2758"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2752"/>
+        <location filename="../core.cpp" line="2772"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2766"/>
+        <location filename="../core.cpp" line="2786"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2780"/>
+        <location filename="../core.cpp" line="2800"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2909"/>
+        <location filename="../core.cpp" line="2929"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3722"/>
+        <location filename="../core.cpp" line="3742"/>
         <source>Zoom: %1</source>
         <translation>Масштаб: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3025"/>
-        <location filename="../core.cpp" line="3037"/>
+        <location filename="../core.cpp" line="3045"/>
+        <location filename="../core.cpp" line="3057"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3593"/>
+        <location filename="../core.cpp" line="3613"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3965"/>
+        <location filename="../core.cpp" line="3985"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2951"/>
+        <location filename="../core.cpp" line="2971"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2968"/>
+        <location filename="../core.cpp" line="2988"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2834"/>
+        <location filename="../core.cpp" line="2854"/>
         <source>Speed: %1</source>
         <translation>Швидкість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3080"/>
+        <location filename="../core.cpp" line="3100"/>
         <source>Subtitles on</source>
         <translation>Субтитри увімкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3102"/>
         <source>Subtitles off</source>
         <translation>Субтитри вимкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3640"/>
+        <location filename="../core.cpp" line="3660"/>
         <source>Mouse wheel seeks now</source>
         <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3643"/>
+        <location filename="../core.cpp" line="3663"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3646"/>
+        <location filename="../core.cpp" line="3666"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Тепер колесо миші змінює масштаб</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3649"/>
+        <location filename="../core.cpp" line="3669"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1239"/>
+        <location filename="../core.cpp" line="1243"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Знімок екрану не був зроблений, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1252"/>
+        <location filename="../core.cpp" line="1256"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Знімки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2458"/>
+        <location filename="../core.cpp" line="2478"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2475"/>
+        <location filename="../core.cpp" line="2495"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2490"/>
+        <location filename="../core.cpp" line="2510"/>
         <source>A-B markers cleared</source>
         <translation>Мітки А-Б вилучені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="500"/>
+        <location filename="../core.cpp" line="504"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="504"/>
+        <location filename="../core.cpp" line="508"/>
         <source>Unable to retrieve youtube page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="508"/>
+        <location filename="../core.cpp" line="512"/>
         <source>Unable to locate the url of the video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7803,7 +7803,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../smplayer.cpp" line="396"/>
+        <location filename="../smplayer.cpp" line="409"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Це SMPlayer v. %1 запущений на %2</translation>
     </message>
