@@ -99,9 +99,6 @@
   Var Dialog_Reinstall
   Var Inst_Type
   Var Is_Admin
-!ifndef WITH_MPLAYER
-  Var MPlayer_Version
-!endif
   Var Previous_Version
   Var Previous_Version_State
   Var Reinstall_ChgSettings
@@ -293,7 +290,7 @@ Section $(Section_SMPlayer) SecSMPlayer
   ${EndIf}
 
   SetOutPath "$INSTDIR"
-  File "smplayer-build\*"
+  File /x Portable_Edition.txt "smplayer-build\*"
 
   ;SMPlayer docs
   SetOutPath "$INSTDIR\docs"
@@ -364,6 +361,8 @@ SectionGroup $(MPlayerGroupTitle)
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 !else ifndef WITH_MPLAYER
     AddSize 16800
+
+    Var /GLOBAL MPlayer_Version
 
     Call GetVerInfo
 

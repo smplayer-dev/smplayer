@@ -29,7 +29,7 @@ set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
 set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
 set OUTPUT_DIR=%TOP_LEVEL_DIR%\output
 set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
-set QT_DIR=C:\Qt\%QTVER%
+set QT_DIR=QT_DIR=C:\Qt\%QTVER%
 
 :reask
 set /P USER_CHOICE="Choose an action: "
@@ -43,7 +43,6 @@ if "%USER_CHOICE%" == "5"     goto qtdlls
 if "%USER_CHOICE%" == ""      goto end
 
 :portable
-echo.
 echo --- Creating SMPlayer Portable Package ---
 echo.
 
@@ -123,7 +122,6 @@ ren %SMPLAYER_DIR% smplayer-build
 goto end
 
 :nomplayer
-echo.
 echo --- Creating SMPlayer w/o MPlayer Package ---
 echo.
 
@@ -134,7 +132,7 @@ echo.
 ren %SMPLAYER_DIR% smplayer-%SMPLAYER_VER%
 set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-%SMPLAYER_VER%
 
-7za a -t7z %OUTPUT_DIR%\smplayer-%SMPLAYER_VER%_without_mplayer.7z %SMPLAYER_DIR% -xr!mplayer -mx9
+7za a -t7z %OUTPUT_DIR%\smplayer-%SMPLAYER_VER%_without_mplayer.7z %SMPLAYER_DIR% -xr!mplayer -xr!Portable_Edition.txt -mx9
 
 ren %SMPLAYER_DIR% smplayer-build
 
@@ -183,7 +181,11 @@ if "%QTVER%"=="" exit
 echo.
 echo ---  Creating Qt DLL Package  ---
 echo.
-7za a -t7z %OUTPUT_DIR%\qt_%QTVER%_dlls.7z %QT_DIR%\%QTVER%\bin\libgcc_s_dw2-1.dll %QT_DIR%\%QTVER%\bin\mingwm10.dll %QT_DIR%\%QTVER%\bin\QtCore4.dll %QT_DIR%\%QTVER%\bin\QtGui4.dll %QT_DIR%\%QTVER%\bin\QtNetwork4.dll %QT_DIR%\%QTVER%\bin\QtXml4.dll -mx9
+
+mkdir imageformats
+copy %QT_DIR%\%QTVER%\plugins\imageformats\qjpeg4.dll imageformats
+7za a -t7z %OUTPUT_DIR%\qt_%QTVER%_dlls.7z %QT_DIR%\%QTVER%\bin\libgcc_s_dw2-1.dll %QT_DIR%\%QTVER%\bin\mingwm10.dll %QT_DIR%\%QTVER%\bin\QtCore4.dll %QT_DIR%\%QTVER%\bin\QtGui4.dll %QT_DIR%\%QTVER%\bin\QtNetwork4.dll %QT_DIR%\%QTVER%\bin\QtXml4.dll imageformats -mx9
+rd /s /q imageformats
 
 goto end
 
