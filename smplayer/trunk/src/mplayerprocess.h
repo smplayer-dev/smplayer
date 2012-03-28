@@ -148,9 +148,7 @@ private:
 	bool audio_info_changed;
 #endif
 
-#if GENERIC_CHAPTER_SUPPORT
 	int dvd_current_title;
-#endif
 };
 
 

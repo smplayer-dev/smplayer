@@ -75,9 +75,7 @@ bool MplayerProcess::start() {
 	audio_info_changed = false;
 #endif
 
-#if GENERIC_CHAPTER_SUPPORT
 	dvd_current_title = -1;
-#endif
 
 	MyProcess::start();
 
@@ -265,7 +263,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 
 		if (!notified_mplayer_is_running) {
 			qDebug("MplayerProcess::parseLine: starting sec: %f", sec);
-#if GENERIC_CHAPTER_SUPPORT
 			if ( (md.chapters <= 0) && (dvd_current_title > 0) && 
                  (md.titles.find(dvd_current_title) != -1) )
 			{
@@ -273,7 +270,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				md.chapters = md.titles.itemAt(idx).chapters();
 				qDebug("MplayerProcess::parseLine: setting chapters to %d", md.chapters);
 			}
-#endif
 
 #if CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 			// Another way to find out if there's no video
@@ -549,17 +545,10 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_mkvchapters.indexIn(line)!=-1) {
 			int c = rx_mkvchapters.cap(1).toInt();
 			qDebug("MplayerProcess::parseLine: mkv chapters: %d", c);
-#if GENERIC_CHAPTER_SUPPORT
 			if ((c+1) > md.chapters) {
 				md.chapters = c+1;
 				qDebug("MplayerProcess::parseLine: chapters set to: %d", md.chapters);
 			}
-#else
-			if ((c+1) > md.mkv_chapters) {
-				md.mkv_chapters = c+1;
-				qDebug("MplayerProcess::parseLine: mkv_chapters set to: %d", md.mkv_chapters);
-			}
-#endif
 		}
 		else
 
@@ -842,7 +831,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_AUDIO_CODEC") {
 				md.audio_codec = value;
 			}
-#if GENERIC_CHAPTER_SUPPORT
 			else
 			if (tag == "ID_CHAPTERS") {
 				md.chapters = value.toInt();
@@ -858,7 +846,6 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_DVD_CURRENT_TITLE") {
 				dvd_current_title = value.toInt();
 			}
-#endif
 		}
 	}
 }

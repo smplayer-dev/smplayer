@@ -332,9 +332,6 @@ public:
 	//! Returns the number of the first chapter in 
 	//! files. In some versions of mplayer is 0, in others 1
 	static int firstChapter();
-#if !GENERIC_CHAPTER_SUPPORT
-	static int dvdFirstChapter();
-#endif
 
 #ifndef NO_USE_INI_FILES
 	void changeFileSettingsMethod(QString method);
