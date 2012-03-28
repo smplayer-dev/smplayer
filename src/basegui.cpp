@@ -3021,15 +3021,26 @@ void BaseGui::initializeMenus() {
 	}
 	titles_menu->addActions( titleGroup->actions() );
 
+	// Chapters
 	chapterGroup->clear(true);
+	if (core->mdat.chapters.numItems() > 0) {
+		for (n=0; n < core->mdat.chapters.numItems(); n++) {
+			QAction *a = new QAction(chapterGroup);
+			//a->setCheckable(true);
+			a->setText(core->mdat.chapters.itemAt(n).name());
+			a->setData(n + Core::firstChapter());
+		}
+	} 
+	else
 	if (core->mdat.n_chapters > 0) {
 		for (n=0; n < core->mdat.n_chapters; n++) {
 			QAction *a = new QAction(chapterGroup);
-			a->setCheckable(true);
+			//a->setCheckable(true);
 			a->setText( QString::number(n+1) );
 			a->setData( n + Core::firstChapter() );
 		}
-	} else {
+	} 
+	else {
 		QAction * a = chapterGroup->addAction( tr("<empty>") );
 		a->setEnabled(false);
 	}

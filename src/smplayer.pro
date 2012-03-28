@@ -27,6 +27,7 @@ HEADERS += guiconfig.h \
 	constants.h \
 	svn_revision.h \
 	version.h \
+	chapters.h \
 	global.h \
 	paths.h \
 	helper.h \
@@ -125,6 +126,7 @@ HEADERS += guiconfig.h \
 SOURCES	+= version.cpp \
 	global.cpp \
 	paths.cpp \
+	chapters.cpp \
 	helper.cpp \
 	colorutils.cpp \
 	translator.cpp \

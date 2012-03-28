@@ -1,5 +1,8 @@
 [b]Version 0.8.0[/b]:
 
+(2012-03-28)
+ * Display chapter names in the chapter menu.
+
 (2012-03-19)
  * It's possible to change GUI without restarting.
  * Bug fix: remote m3u didn't open from the favorites menu or command line.

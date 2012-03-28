@@ -155,6 +155,7 @@ static QRegExp rx_audio_mat("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
 #endif
 static QRegExp rx_video("^ID_VID_(\\d+)_(LANG|NAME)=(.*)");
 static QRegExp rx_title("^ID_DVD_TITLE_(\\d+)_(LENGTH|CHAPTERS|ANGLES)=(.*)");
+static QRegExp rx_chapters("^ID_CHAPTER_(\\d+)_(START|END|NAME)=(.+)");
 static QRegExp rx_winresolution("^VO: \\[(.*)\\] (\\d+)x(\\d+) => (\\d+)x(\\d+)");
 static QRegExp rx_ao("^AO: \\[(.*)\\]");
 static QRegExp rx_paused("^ID_PAUSED");
@@ -548,6 +549,30 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if ((c+1) > md.n_chapters) {
 				md.n_chapters = c+1;
 				qDebug("MplayerProcess::parseLine: chapters set to: %d", md.n_chapters);
+			}
+		}
+		else
+		// Chapter info
+		if (rx_chapters.indexIn(line) > -1) {
+			int const chap_ID = rx_chapters.cap(1).toInt();
+			QString const chap_type = rx_chapters.cap(2);
+			QString const chap_value = rx_chapters.cap(3);
+			double const chap_value_d = chap_value.toDouble();
+
+			if(!chap_type.compare("START"))
+			{
+				md.chapters.addStart(chap_ID, chap_value_d/1000);
+				qDebug("MplayerProcess::parseLine: Chapter (ID: %d) starts at: %g",chap_ID, chap_value_d/1000);
+			}
+			else if(!chap_type.compare("END"))
+			{
+				md.chapters.addEnd(chap_ID, chap_value_d/1000);
+				qDebug("MplayerProcess::parseLine: Chapter (ID: %d) ends at: %g",chap_ID, chap_value_d/1000);
+			}
+			else if(!chap_type.compare("NAME"))
+			{
+				md.chapters.addName(chap_ID, chap_value);
+				qDebug("MplayerProcess::parseLine: Chapter (ID: %d) name: %s",chap_ID, chap_value.toUtf8().data());
 			}
 		}
 		else
