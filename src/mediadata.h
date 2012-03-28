@@ -74,7 +74,7 @@ public:
 
 	SubTracks subs;
 
-	int chapters;
+	int n_chapters;
 
 	// Clip info
 	QString clip_name;

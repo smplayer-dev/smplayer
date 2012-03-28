@@ -3022,8 +3022,8 @@ void BaseGui::initializeMenus() {
 	titles_menu->addActions( titleGroup->actions() );
 
 	chapterGroup->clear(true);
-	if (core->mdat.chapters > 0) {
-		for (n=0; n < core->mdat.chapters; n++) {
+	if (core->mdat.n_chapters > 0) {
+		for (n=0; n < core->mdat.n_chapters; n++) {
 			QAction *a = new QAction(chapterGroup);
 			a->setCheckable(true);
 			a->setText( QString::number(n+1) );

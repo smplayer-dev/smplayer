@@ -263,12 +263,12 @@ void MplayerProcess::parseLine(QByteArray ba) {
 
 		if (!notified_mplayer_is_running) {
 			qDebug("MplayerProcess::parseLine: starting sec: %f", sec);
-			if ( (md.chapters <= 0) && (dvd_current_title > 0) && 
+			if ( (md.n_chapters <= 0) && (dvd_current_title > 0) && 
                  (md.titles.find(dvd_current_title) != -1) )
 			{
 				int idx = md.titles.find(dvd_current_title);
-				md.chapters = md.titles.itemAt(idx).chapters();
-				qDebug("MplayerProcess::parseLine: setting chapters to %d", md.chapters);
+				md.n_chapters = md.titles.itemAt(idx).chapters();
+				qDebug("MplayerProcess::parseLine: setting chapters to %d", md.n_chapters);
 			}
 
 #if CHECK_VIDEO_CODEC_FOR_NO_VIDEO
@@ -545,9 +545,9 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		if (rx_mkvchapters.indexIn(line)!=-1) {
 			int c = rx_mkvchapters.cap(1).toInt();
 			qDebug("MplayerProcess::parseLine: mkv chapters: %d", c);
-			if ((c+1) > md.chapters) {
-				md.chapters = c+1;
-				qDebug("MplayerProcess::parseLine: chapters set to: %d", md.chapters);
+			if ((c+1) > md.n_chapters) {
+				md.n_chapters = c+1;
+				qDebug("MplayerProcess::parseLine: chapters set to: %d", md.n_chapters);
 			}
 		}
 		else
@@ -833,12 +833,12 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			}
 			else
 			if (tag == "ID_CHAPTERS") {
-				md.chapters = value.toInt();
+				md.n_chapters = value.toInt();
 				#ifdef TOO_CHAPTERS_WORKAROUND
-				if (md.chapters > 1000) {
-					qDebug("MplayerProcess::parseLine: warning too many chapters: %d", md.chapters);
+				if (md.n_chapters > 1000) {
+					qDebug("MplayerProcess::parseLine: warning too many chapters: %d", md.n_chapters);
 					qDebug("                           chapters will be ignored"); 
-					md.chapters = 0;
+					md.n_chapters = 0;
 				}
 				#endif
 			}

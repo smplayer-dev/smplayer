@@ -980,7 +980,7 @@ void Core::newMediaPlaying() {
 	}
 #endif
 
-	if (mdat.chapters > 0) {
+	if (mdat.n_chapters > 0) {
 		// Just to show the first chapter checked in the menu
 		mset.current_chapter_id = firstChapter();
 	}
@@ -3492,7 +3492,7 @@ void Core::prevChapter() {
 	int last_chapter = 0;
 	int first_chapter = firstChapter();
 
-	last_chapter = mdat.chapters + firstChapter() - 1;
+	last_chapter = mdat.n_chapters + firstChapter() - 1;
 
 	int ID = mset.current_chapter_id - 1;
 	if (ID < first_chapter) {
@@ -3505,7 +3505,7 @@ void Core::nextChapter() {
 	qDebug("Core::nextChapter");
 
 	int last_chapter = 0;
-	last_chapter = mdat.chapters + firstChapter() - 1;
+	last_chapter = mdat.n_chapters + firstChapter() - 1;
 
 	int ID = mset.current_chapter_id + 1;
 	if (ID > last_chapter) {
