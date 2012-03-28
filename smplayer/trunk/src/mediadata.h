@@ -24,6 +24,7 @@
 #include "tracks.h"
 #include "subtracks.h"
 #include "titletracks.h"
+#include "chapters.h"
 #include "config.h"
 
 #include <QString>
@@ -73,6 +74,8 @@ public:
 	TitleTracks titles; // for DVDs
 
 	SubTracks subs;
+
+	Chapters chapters;
 
 	int n_chapters;
 

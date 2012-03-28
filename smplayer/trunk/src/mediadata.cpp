@@ -49,6 +49,8 @@ void MediaData::reset() {
 
 	subs.clear();
 
+	chapters.clear();
+
 	n_chapters = 0;
 
 	initialized=false;
