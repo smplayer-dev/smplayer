@@ -49,7 +49,7 @@ void MediaData::reset() {
 
 	subs.clear();
 
-	chapters = 0;
+	n_chapters = 0;
 
 	initialized=false;
 
@@ -112,7 +112,7 @@ void MediaData::list() {
 
 	qDebug("  initialized: %d", initialized);
 
-	qDebug("  chapters: %d", chapters);
+	qDebug("  chapters: %d", n_chapters);
 
 	qDebug("  Subs:");
 	subs.list();
