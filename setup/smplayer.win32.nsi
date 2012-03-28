@@ -327,7 +327,7 @@ SectionEnd
 ;Shortcuts
 SectionGroup $(ShortcutGroupTitle)
 
-  ${MementoSection} $(Section_DesktopShortcut) SecDesktopShortcut
+  ${MementoUnselectedSection} $(Section_DesktopShortcut) SecDesktopShortcut
 
     SetOutPath "$INSTDIR"
     CreateShortCut "$DESKTOP\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
