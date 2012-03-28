@@ -3021,7 +3021,6 @@ void BaseGui::initializeMenus() {
 	}
 	titles_menu->addActions( titleGroup->actions() );
 
-#if GENERIC_CHAPTER_SUPPORT
 	chapterGroup->clear(true);
 	if (core->mdat.chapters > 0) {
 		for (n=0; n < core->mdat.chapters; n++) {
@@ -3035,32 +3034,6 @@ void BaseGui::initializeMenus() {
 		a->setEnabled(false);
 	}
 	chapters_menu->addActions( chapterGroup->actions() );
-#else
-	// DVD Chapters
-	chapterGroup->clear(true);
-	if ( (core->mdat.type == TYPE_DVD) && (core->mset.current_title_id > 0) ) {
-		for (n=0; n < core->mdat.titles.item(core->mset.current_title_id).chapters(); n++) {
-			QAction *a = new QAction(chapterGroup);
-			a->setCheckable(true);
-			a->setText( QString::number(n+1) );
-			a->setData( n + Core::dvdFirstChapter() );
-		}
-	} else {
-		// *** Matroshka chapters ***
-		if (core->mdat.mkv_chapters > 0) {
-			for (n=0; n < core->mdat.mkv_chapters; n++) {
-				QAction *a = new QAction(chapterGroup);
-				a->setCheckable(true);
-				a->setText( QString::number(n+1) );
-				a->setData( n + Core::firstChapter() );
-			}
-		} else {
-			QAction * a = chapterGroup->addAction( tr("<empty>") );
-			a->setEnabled(false);
-		}
-	}
-	chapters_menu->addActions( chapterGroup->actions() );
-#endif
 
 	// Angles
 	angleGroup->clear(true);

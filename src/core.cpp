@@ -717,11 +717,7 @@ void Core::openDVD(QString dvd_url) {
 	mset.reset();
 
 	mset.current_title_id = title;
-#if GENERIC_CHAPTER_SUPPORT
 	mset.current_chapter_id = firstChapter();
-#else
-	mset.current_chapter_id = dvdFirstChapter();
-#endif
 	mset.current_angle_id = 1;
 
 	/* initializeMenus(); */
@@ -984,12 +980,7 @@ void Core::newMediaPlaying() {
 	}
 #endif
 
-#if GENERIC_CHAPTER_SUPPORT
 	if (mdat.chapters > 0) {
-#else
-	// mkv chapters
-	if (mdat.mkv_chapters > 0) {
-#endif
 		// Just to show the first chapter checked in the menu
 		mset.current_chapter_id = firstChapter();
 	}
@@ -1505,12 +1496,10 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->addArgument("-identify");
 
-#if GENERIC_CHAPTER_SUPPORT
 	if (MplayerVersion::isMplayerAtLeast(27667)) {
 		// From r27667 the number of chapters can be obtained from ID_CHAPTERS
 		mset.current_chapter_id = 0; // Reset chapters
 	} else {
-#endif
 		// We need this to get info about mkv chapters
 		if (is_mkv) {
 			proc->addArgument("-msglevel");
@@ -1522,10 +1511,8 @@ void Core::startMplayer( QString file, double seek ) {
 			// (time would be relative to chapter)
 			mset.current_chapter_id = 0;
 		}
-#if GENERIC_CHAPTER_SUPPORT
 	}
-#endif
-	
+
 	proc->addArgument("-slave");
 
 	if (!pref->vo.isEmpty()) {
@@ -1926,11 +1913,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-chapter");
 		int chapter = mset.current_chapter_id;
 		// Fix for older versions of mplayer:
-#if GENERIC_CHAPTER_SUPPORT
 		if ((mdat.type == TYPE_DVD) && (firstChapter() == 0)) chapter++;
-#else
-		if ((mdat.type == TYPE_DVD) && (dvdFirstChapter() == 0)) chapter++;
-#endif
 		proc->addArgument( QString::number( chapter ) );
 	}
 
@@ -3471,12 +3454,7 @@ void Core::changeChapter(int ID) {
 
 	if (ID != mset.current_chapter_id) {
 		//if (QFileInfo(mdat.filename).extension().lower()=="mkv") {
-#if GENERIC_CHAPTER_SUPPORT
 		if (mdat.type != TYPE_DVD) {
-#else
-		if (mdat.mkv_chapters > 0) {
-			// mkv doesn't require to restart
-#endif
 			tellmp("seek_chapter " + QString::number(ID) +" 1");
 			mset.current_chapter_id = ID;
 			updateWidgets();
@@ -3508,17 +3486,9 @@ int Core::firstChapter() {
 		return 0;
 }
 
-#if !GENERIC_CHAPTER_SUPPORT
-int Core::dvdFirstChapter() {
-	// TODO: check if the change really happens in the same version as mkv
-	return firstChapter();
-}
-#endif
-
 void Core::prevChapter() {
 	qDebug("Core::prevChapter");
 
-#if GENERIC_CHAPTER_SUPPORT
 	int last_chapter = 0;
 	int first_chapter = firstChapter();
 
@@ -3529,33 +3499,11 @@ void Core::prevChapter() {
 		ID = last_chapter;
 	}
 	changeChapter(ID);
-#else
-	int last_chapter = 0;
-	bool matroshka = (mdat.mkv_chapters > 0);
-
-	int first_chapter = dvdFirstChapter();
-	if (matroshka) first_chapter = firstChapter();
-
-	// Matroshka chapters
-	if (matroshka) last_chapter = mdat.mkv_chapters + firstChapter() - 1;
-	else
-	// DVD chapters
-	if (mset.current_title_id > 0) {
-		last_chapter = mdat.titles.item(mset.current_title_id).chapters() + dvdFirstChapter() -1;
-	}
-
-	int ID = mset.current_chapter_id - 1;
-	if (ID < first_chapter) {
-		ID = last_chapter;
-	}
-	changeChapter(ID);
-#endif
 }
 
 void Core::nextChapter() {
 	qDebug("Core::nextChapter");
 
-#if GENERIC_CHAPTER_SUPPORT
 	int last_chapter = 0;
 	last_chapter = mdat.chapters + firstChapter() - 1;
 
@@ -3564,24 +3512,6 @@ void Core::nextChapter() {
 		ID = firstChapter();
 	}
 	changeChapter(ID);
-#else
-	int last_chapter = 0;
-	bool matroshka = (mdat.mkv_chapters > 0);
-
-	// Matroshka chapters
-	if (matroshka) last_chapter = mdat.mkv_chapters + firstChapter() - 1;
-	else
-	// DVD chapters
-	if (mset.current_title_id > 0) {
-		last_chapter = mdat.titles.item(mset.current_title_id).chapters() + dvdFirstChapter() - 1;
-	}
-
-	int ID = mset.current_chapter_id + 1;
-	if (ID > last_chapter) {
-		if (matroshka) ID = firstChapter(); else ID = dvdFirstChapter();
-	}
-	changeChapter(ID);
-#endif
 }
 
 void Core::changeAngle(int ID) {
