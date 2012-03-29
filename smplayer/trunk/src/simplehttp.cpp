@@ -73,7 +73,8 @@ void SimpleHttp::readResponseHeader(const QHttpResponseHeader &responseHeader) {
 	if (responseHeader.statusCode() == 302)  {
 		QString location = responseHeader.value("Location");
 		qDebug("SimpleHttp::readResponseHeader: Location: '%s'", location.toLatin1().constData());
-		http_get_id = get( location );
+		/* http_get_id = get( location ); */
+		download(location);
 	}
 	else
 	if (responseHeader.statusCode() != 200) {
@@ -86,7 +87,7 @@ void SimpleHttp::readResponseHeader(const QHttpResponseHeader &responseHeader) {
 void SimpleHttp::httpRequestFinished(int request_id, bool error) {
 	qDebug("SimpleHttp::httpRequestFinished: http_get_id: %d request_id: %d, error: %d", http_get_id, request_id, error);
 
-    if (request_id != http_get_id) return;
+	if (request_id != http_get_id) return;
 
 	downloaded_text += readAll();
 
