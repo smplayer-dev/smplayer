@@ -3028,7 +3028,7 @@ void BaseGui::initializeMenus() {
 			QAction *a = new QAction(chapterGroup);
 			//a->setCheckable(true);
 			a->setText(core->mdat.chapters.itemAt(n).name());
-			a->setData(n + Core::firstChapter());
+			a->setData(core->mdat.chapters.itemAt(n).ID());
 		}
 	} 
 	else

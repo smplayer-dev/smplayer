@@ -3457,28 +3457,32 @@ void Core::changeTitle(int ID) {
 void Core::changeChapter(int ID) {
 	qDebug("Core::changeChapter: ID: %d", ID);
 
-	if (ID != mset.current_chapter_id) {
-		//if (QFileInfo(mdat.filename).extension().lower()=="mkv") {
-		if (mdat.type != TYPE_DVD) {
+	if (mdat.type != TYPE_DVD) {
+		if (mdat.chapters.find(ID) > -1) {
+			double start = mdat.chapters.item(ID).start();
+			qDebug("Core::changeChapter: start: %f", start);
+			goToSec(start);
+			mset.current_chapter_id = ID;
+		} else {
+			tellmp("seek_chapter " + QString::number(ID) +" 1");
+			mset.current_chapter_id = ID;
+			//updateWidgets();
+		}
+	} else {
+#if SMART_DVD_CHAPTERS
+		if (pref->cache_for_dvds == 0) {
+#else
+		if (pref->fast_chapter_change) {
+#endif
 			tellmp("seek_chapter " + QString::number(ID) +" 1");
 			mset.current_chapter_id = ID;
 			updateWidgets();
 		} else {
-#if SMART_DVD_CHAPTERS
-			if (pref->cache_for_dvds == 0) {
-#else
-			if (pref->fast_chapter_change) {
-#endif
-				tellmp("seek_chapter " + QString::number(ID) +" 1");
-				mset.current_chapter_id = ID;
-				updateWidgets();
-			} else {
-				stopMplayer();
-				mset.current_chapter_id = ID;
-				//goToPos(0);
-				mset.current_sec = 0;
-				restartPlay();
-			}
+			stopMplayer();
+			mset.current_chapter_id = ID;
+			//goToPos(0);
+			mset.current_sec = 0;
+			restartPlay();
 		}
 	}
 }
