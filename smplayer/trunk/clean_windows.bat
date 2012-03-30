@@ -1,3 +1,7 @@
+cd getrev
+mingw32-make distclean
+cd ..
+
 cd zlib-1.2.6
 mingw32-make -fwin32\makefile.gcc clean
 
