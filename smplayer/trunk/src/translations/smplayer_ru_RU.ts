@@ -16,7 +16,7 @@
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Spanish</source>
-        <translation type="unfinished">Испанский</translation>
+        <translation>Испанский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
@@ -573,7 +573,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished">О&amp;тключен</translation>
+        <translation>О&amp;тключен</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1664"/>
@@ -811,12 +811,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Понижение &amp;шумов</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Размытие/Ре&amp;зкость</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
@@ -838,37 +838,37 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1729"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">О&amp;тключен</translation>
+        <translation>О&amp;тключено</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Нормальное</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Мягкое</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;Ничего</translation>
+        <translation>&amp;Ничего</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Размы&amp;тие</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Резкость</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -939,22 +939,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer – Отчёт MPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer – Отчёт SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2714"/>
         <source>Information</source>
-        <translation type="unfinished">Информация</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2715"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Для использования нового GUI необходим перезапуск SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4677"/>
@@ -4102,7 +4102,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Полоса перемотки</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="427"/>
@@ -4396,12 +4396,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="526"/>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="591"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="597"/>
@@ -8135,27 +8135,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Ползунок времени</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Ползунок громкости</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Отображение времени</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3 в 1 перемотка назад</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3 в 1 перемотка вперёд</translation>
     </message>
 </context>
 <context>
