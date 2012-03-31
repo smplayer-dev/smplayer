@@ -1,5 +1,8 @@
 [b]Version 0.8.0[/b]:
 
+(2012-03-31)
+ * Fix the line breaks on downloaded *.sub files from opensubtitles.
+
 (2012-03-29)
  * (Youtube) Recognize short urls.
 
