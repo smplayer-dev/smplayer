@@ -1,19 +1,11 @@
 #include <winver.h>
 
-#define STRINGIZE2(s) #s
-#define STRINGIZE(s) STRINGIZE2(s)
-
-#define VERSION_MAJOR               0
-#define VERSION_MINOR               7
-#define VERSION_BUILD               1
-#define VERSION_REVISION            0
-
-#define VER_FILEVERSION_STR         VERSION_MAJOR, VERSION_MINOR, VERSION_BUILD, VERSION_REVISION
-#define VER_PRODUCTVERSION_STR      STRINGIZE(VERSION_MAJOR) "." STRINGIZE(VERSION_MINOR) "." STRINGIZE(VERSION_BUILD) "." STRINGIZE(VERSION_REVISION)
+#define SMPLAYER_FILEVERSION 0.7.1.0
+#define SMPLAYER_PRODVERSION 0,7,1,0
 
 VS_VERSION_INFO     VERSIONINFO
-FILEVERSION         VER_FILEVERSION_STR
-PRODUCTVERSION      VER_FILEVERSION_STR
+FILEVERSION         SMPLAYER_FILEVERSION
+PRODUCTVERSION      SMPLAYER_FILEVERSION
 FILEOS              VOS_NT_WINDOWS32
 FILETYPE            VFT_APP
 {
@@ -21,18 +13,18 @@ FILETYPE            VFT_APP
   {
     BLOCK "000004b0"
     {
-      VALUE "CompanyName", "Ricardo Villalba\000"
+      VALUE "CompanyName", "Ricardo Villalba\0"
       #ifdef PORTABLE_APP
-      VALUE "FileDescription", "SMPlayer (Portable Edition)\000"
+      VALUE "FileDescription", "SMPlayer (Portable Edition)\0"
       #else
-      VALUE "FileDescription", "SMPlayer\000"
+      VALUE "FileDescription", "SMPlayer\0"
       #endif
-      VALUE "FileVersion", VER_PRODUCTVERSION_STR
-      VALUE "InternalName", "smplayer\000"
-      VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\000"
-      VALUE "OriginalFilename", "smplayer.exe\000"
-      VALUE "ProductName", "SMPlayer for Windows\000"
-      VALUE "ProductVersion", VER_PRODUCTVERSION_STR
+      VALUE "FileVersion", SMPLAYER_PRODVERSION
+      VALUE "InternalName", "smplayer\0"
+      VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\0"
+      VALUE "OriginalFilename", "smplayer.exe\0"
+      VALUE "ProductName", "SMPlayer for Windows\0"
+      VALUE "ProductVersion", SMPLAYER_PRODVERSION
     }
   }
   BLOCK "VarFileInfo"
