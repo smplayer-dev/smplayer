@@ -14,6 +14,7 @@ HEADERS += simplehttp.h \
            ../lineedit_with_icon.h \
            ../filechooser.h \
            ../languages.h \
+           fixsubs.h \
            findsubtitlesconfigdialog.h \
            findsubtitleswindow.h
 
@@ -23,6 +24,7 @@ SOURCES += simplehttp.cpp \
            ../lineedit_with_icon.cpp \
            ../filechooser.cpp \
            ../languages.cpp \
+           fixsubs.cpp \
            findsubtitlesconfigdialog.cpp \
            findsubtitleswindow.cpp \
            main.cpp

@@ -253,8 +253,8 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	INCLUDEPATH += findsubtitles/filedownloader findsubtitles/quazip
 	DEPENDPATH += findsubtitles/filedownloader findsubtitles/quazip
 
-	HEADERS += filedownloader.h subchooserdialog.h
-	SOURCES += filedownloader.cpp subchooserdialog.cpp
+	HEADERS += filedownloader.h subchooserdialog.h fixsubs.h
+	SOURCES += filedownloader.cpp subchooserdialog.cpp fixsubs.cpp
 
 	FORMS += subchooserdialog.ui
 

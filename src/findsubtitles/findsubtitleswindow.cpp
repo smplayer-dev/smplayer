@@ -39,6 +39,7 @@
 #include "subchooserdialog.h"
 #include "quazip.h"
 #include "quazipfile.h"
+#include "fixsubs.h"
 #include <QTemporaryFile>
 #include <QBuffer>
 #endif
@@ -129,11 +130,13 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	include_lang_on_filename = true;
 
 	file_downloader = new FileDownloader(this);
-        file_downloader->setModal(false);
+	file_downloader->setModal(false);
 	connect( file_downloader, SIGNAL(downloadFailed(QString)),
              this, SLOT(showError(QString)), Qt::QueuedConnection );
 	connect( file_downloader, SIGNAL(downloadFinished(const QByteArray &)),
              this, SLOT(archiveDownloaded(const QByteArray &)), Qt::QueuedConnection );
+	connect( this, SIGNAL(subtitleDownloaded(const QString &)),
+             this, SLOT(fixSubtitles(const QString &)) );
 #endif
 
 	// Actions
@@ -595,6 +598,19 @@ bool FindSubtitlesWindow::extractFile(QuaZip & zip, const QString & filename, co
 	}
 
 	return true;
+}
+
+void FindSubtitlesWindow::fixSubtitles(const QString & filename) {
+	qDebug("FindSubtitlesWindow::fixSubtitles: %s", filename.toUtf8().constData());
+
+	QFileInfo fi(filename);
+	if (fi.suffix().toLower() == "sub") {
+		qDebug("FindSubtitlesWindow::fixSubtitles: fixing end of lines");
+		if (FixSubtitles::fix(filename) != FixSubtitles::NoError) {
+			status->setText( tr("Error fixing the subtitle lines") );
+			qDebug("FindSubtitlesWindow::fixSubtitles: error fixing the subtitles");
+		}
+	}
 }
 
 #endif
