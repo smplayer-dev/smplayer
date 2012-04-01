@@ -877,82 +877,81 @@ Chcete ho prepísať?</translation>
         <location filename="../basegui.cpp" line="2981"/>
         <location filename="../basegui.cpp" line="2997"/>
         <location filename="../basegui.cpp" line="3012"/>
-        <location filename="../basegui.cpp" line="3034"/>
-        <location filename="../basegui.cpp" line="3058"/>
-        <location filename="../basegui.cpp" line="3080"/>
-        <location filename="../basegui.cpp" line="3116"/>
+        <location filename="../basegui.cpp" line="3044"/>
+        <location filename="../basegui.cpp" line="3064"/>
+        <location filename="../basegui.cpp" line="3100"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;prázdny&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3486"/>
+        <location filename="../basegui.cpp" line="3470"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3487"/>
-        <location filename="../basegui.cpp" line="3677"/>
+        <location filename="../basegui.cpp" line="3471"/>
+        <location filename="../basegui.cpp" line="3661"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3488"/>
+        <location filename="../basegui.cpp" line="3472"/>
         <source>Playlists</source>
         <translation>Playlist</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3489"/>
-        <location filename="../basegui.cpp" line="3657"/>
-        <location filename="../basegui.cpp" line="3678"/>
+        <location filename="../basegui.cpp" line="3473"/>
+        <location filename="../basegui.cpp" line="3641"/>
+        <location filename="../basegui.cpp" line="3662"/>
         <source>All files</source>
         <translation>Všetky súbory</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3484"/>
-        <location filename="../basegui.cpp" line="3654"/>
-        <location filename="../basegui.cpp" line="3675"/>
+        <location filename="../basegui.cpp" line="3468"/>
+        <location filename="../basegui.cpp" line="3638"/>
+        <location filename="../basegui.cpp" line="3659"/>
         <source>Choose a file</source>
         <translation>Vybrať súbor 1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3520"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informácie</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3537"/>
+        <location filename="../basegui.cpp" line="3521"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Zariadenie CD / DVD ešte nebolo nakonfigurované.
 Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3620"/>
+        <location filename="../basegui.cpp" line="3604"/>
         <source>Choose a directory</source>
         <translation>Vybrať adresár 2</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3656"/>
+        <location filename="../basegui.cpp" line="3640"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3719"/>
+        <location filename="../basegui.cpp" line="3703"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4191"/>
+        <location filename="../basegui.cpp" line="4175"/>
         <source>Playing %1</source>
         <translation>Prehrávam %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4192"/>
+        <location filename="../basegui.cpp" line="4176"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4177"/>
         <source>Stop</source>
         <translation>Zastav</translation>
     </message>
@@ -1203,12 +1202,12 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4677"/>
+        <location filename="../basegui.cpp" line="4661"/>
         <source>An error happened - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4677"/>
+        <location filename="../basegui.cpp" line="4661"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1315,7 +1314,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Parametre &amp;príkazového riadku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3693"/>
+        <location filename="../basegui.cpp" line="3677"/>
         <source>SMPlayer command line options</source>
         <translation>Parametre príkazového riakdu pre SMPlayer</translation>
     </message>
@@ -1330,32 +1329,32 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Resetovať video ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4576"/>
+        <location filename="../basegui.cpp" line="4560"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer neočakávane skončil.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4577"/>
+        <location filename="../basegui.cpp" line="4561"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4596"/>
+        <location filename="../basegui.cpp" line="4580"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer sa nepodarilo spustiť.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4597"/>
+        <location filename="../basegui.cpp" line="4581"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Skontrolujte, prosím, nastavenie cesty pre MPlayer v nastaveniach.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4599"/>
+        <location filename="../basegui.cpp" line="4583"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer spadol.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4600"/>
+        <location filename="../basegui.cpp" line="4584"/>
         <source>See the log for more info.</source>
         <translation>Pre viac informácií sa pozrite do záznamu.</translation>
     </message>
@@ -1400,7 +1399,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation>Zobraziť kontextové menu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3485"/>
+        <location filename="../basegui.cpp" line="3469"/>
         <source>Multimedia</source>
         <translation>Multimédiá</translation>
     </message>
@@ -1482,22 +1481,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished">&amp;Stopa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4013"/>
+        <location filename="../basegui.cpp" line="3997"/>
         <source>Warning - Using old MPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4014"/>
+        <location filename="../basegui.cpp" line="3998"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4019"/>
+        <location filename="../basegui.cpp" line="4003"/>
         <source>Please, update your MPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4021"/>
+        <location filename="../basegui.cpp" line="4005"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1592,32 +1591,32 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3708"/>
         <source>&amp;Jump to:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3725"/>
+        <location filename="../basegui.cpp" line="3709"/>
         <source>SMPlayer - Seek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3735"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>SMPlayer - Audio delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3736"/>
+        <location filename="../basegui.cpp" line="3720"/>
         <source>Audio delay (in milliseconds):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3745"/>
+        <location filename="../basegui.cpp" line="3729"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3746"/>
+        <location filename="../basegui.cpp" line="3730"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1627,7 +1626,7 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4313"/>
+        <location filename="../basegui.cpp" line="4297"/>
         <source>Jump to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1738,22 +1737,22 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3705"/>
+        <location filename="../basegui.cpp" line="3689"/>
         <source>Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
+        <location filename="../basegui.cpp" line="3690"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3707"/>
+        <location filename="../basegui.cpp" line="3691"/>
         <source>You can send your donation using %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3707"/>
+        <location filename="../basegui.cpp" line="3691"/>
         <source>this form</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1809,123 +1808,123 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2743"/>
+        <location filename="../core.cpp" line="2731"/>
         <source>Brightness: %1</source>
         <translation>Jas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2758"/>
+        <location filename="../core.cpp" line="2746"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2772"/>
+        <location filename="../core.cpp" line="2760"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2786"/>
+        <location filename="../core.cpp" line="2774"/>
         <source>Hue: %1</source>
         <translation>Odtieň: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2800"/>
+        <location filename="../core.cpp" line="2788"/>
         <source>Saturation: %1</source>
         <translation>Saturácia: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2929"/>
+        <location filename="../core.cpp" line="2917"/>
         <source>Volume: %1</source>
         <translation>Hlasitosť: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3742"/>
+        <location filename="../core.cpp" line="3681"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="3033"/>
         <location filename="../core.cpp" line="3045"/>
-        <location filename="../core.cpp" line="3057"/>
         <source>Font scale: %1</source>
         <translation>Mierka písma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3613"/>
+        <location filename="../core.cpp" line="3552"/>
         <source>Aspect ratio: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3985"/>
+        <location filename="../core.cpp" line="3924"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2971"/>
+        <location filename="../core.cpp" line="2959"/>
         <source>Subtitle delay: %1 ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2988"/>
+        <location filename="../core.cpp" line="2976"/>
         <source>Audio delay: %1 ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2854"/>
+        <location filename="../core.cpp" line="2842"/>
         <source>Speed: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3100"/>
+        <location filename="../core.cpp" line="3088"/>
         <source>Subtitles on</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3102"/>
+        <location filename="../core.cpp" line="3090"/>
         <source>Subtitles off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3660"/>
+        <location filename="../core.cpp" line="3599"/>
         <source>Mouse wheel seeks now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3663"/>
+        <location filename="../core.cpp" line="3602"/>
         <source>Mouse wheel changes volume now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3666"/>
+        <location filename="../core.cpp" line="3605"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3669"/>
+        <location filename="../core.cpp" line="3608"/>
         <source>Mouse wheel changes speed now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1243"/>
+        <location filename="../core.cpp" line="1239"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1256"/>
+        <location filename="../core.cpp" line="1252"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2478"/>
+        <location filename="../core.cpp" line="2466"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2495"/>
+        <location filename="../core.cpp" line="2483"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2510"/>
+        <location filename="../core.cpp" line="2498"/>
         <source>A-B markers cleared</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2323,49 +2322,6 @@ Príklad: resample=44100:0:0,volnorm</translation>
     </message>
 </context>
 <context>
-    <name>Filters</name>
-    <message>
-        <location filename="../filters.cpp" line="31"/>
-        <source>add noise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="32"/>
-        <source>deblock</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="33"/>
-        <source>gradfun</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="34"/>
-        <source>normal denoise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="35"/>
-        <source>soft denoise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="36"/>
-        <source>blur</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="37"/>
-        <source>sharpen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="40"/>
-        <source>volume normalization</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
@@ -2461,88 +2417,107 @@ Príklad: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="196"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="199"/>
         <source>Language</source>
         <translation>Jazyk</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="196"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="199"/>
         <source>Name</source>
         <translation>Názov</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="196"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="199"/>
         <source>Format</source>
         <translation>Formát</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="197"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="200"/>
         <source>Files</source>
         <translation>Súbory</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="197"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="200"/>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="197"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="200"/>
         <source>Uploaded by</source>
         <translation>Nahrané</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
+        <source>Portuguese - Brasil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
         <source>All</source>
         <translation>Všetky</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Close</source>
         <translation>Zatvoriť</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="564"/>
+        <source>%n subtitle(s) extracted</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
+        <source>Error fixing the subtitle lines</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="223"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="239"/>
         <source>&amp;Download</source>
         <translation>&amp;Stiahnuť</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="224"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="240"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Kopírovať odkaz do schránky</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="305"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="321"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="306"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="322"/>
         <source>Download failed: %1.</source>
         <translation>Zlyhalo sťahovanie: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="311"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="327"/>
         <source>Connecting to %1...</source>
         <translation>Pripájam sa k %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="317"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="333"/>
         <source>Downloading...</source>
         <translation>Sťahujem...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="325"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
         <source>Done.</source>
         <translation>Hotovo.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="371"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="387"/>
         <source>%1 files available</source>
         <translation>%1 dostupných súborov</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="380"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="396"/>
         <source>Failed to parse the received data.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2567,49 +2542,40 @@ Príklad: resample=44100:0:0,volnorm</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <source>Subtitle saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
-    <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="548"/>
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="562"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="578"/>
         <source>Overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="563"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="579"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="480"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="496"/>
         <source>Error saving file</source>
         <translation type="unfinished">Chyba pri ukladaní súboru</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="481"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="497"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="303"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="319"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="490"/>
         <source>Download failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="458"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="474"/>
         <source>Temporary file %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2929,8 +2895,8 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="215"/>
-        <location filename="../languages.cpp" line="268"/>
+        <location filename="../languages.cpp" line="235"/>
+        <location filename="../languages.cpp" line="288"/>
         <source>Arabic</source>
         <translation>Arabsky</translation>
     </message>
@@ -2956,7 +2922,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="216"/>
+        <location filename="../languages.cpp" line="236"/>
         <source>Bulgarian</source>
         <translation>Bulharsky</translation>
     </message>
@@ -2987,7 +2953,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
-        <location filename="../languages.cpp" line="217"/>
+        <location filename="../languages.cpp" line="237"/>
         <source>Catalan</source>
         <translation>Katalánsky</translation>
     </message>
@@ -2998,7 +2964,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="218"/>
+        <location filename="../languages.cpp" line="238"/>
         <source>Czech</source>
         <translation>Česky</translation>
     </message>
@@ -3009,25 +2975,27 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="54"/>
-        <location filename="../languages.cpp" line="219"/>
+        <location filename="../languages.cpp" line="239"/>
         <source>Danish</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
-        <location filename="../languages.cpp" line="220"/>
+        <location filename="../languages.cpp" line="216"/>
+        <location filename="../languages.cpp" line="240"/>
         <source>German</source>
         <translation>Nemecky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
-        <location filename="../languages.cpp" line="221"/>
+        <location filename="../languages.cpp" line="241"/>
         <source>Greek</source>
         <translation>Grécky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
-        <location filename="../languages.cpp" line="222"/>
+        <location filename="../languages.cpp" line="217"/>
+        <location filename="../languages.cpp" line="242"/>
         <source>English</source>
         <translation>Anglicky</translation>
     </message>
@@ -3038,19 +3006,20 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
-        <location filename="../languages.cpp" line="223"/>
+        <location filename="../languages.cpp" line="218"/>
+        <location filename="../languages.cpp" line="243"/>
         <source>Spanish</source>
         <translation>Španielsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="224"/>
+        <location filename="../languages.cpp" line="244"/>
         <source>Estonian</source>
         <translation>Estónsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
-        <location filename="../languages.cpp" line="225"/>
+        <location filename="../languages.cpp" line="245"/>
         <source>Basque</source>
         <translation>Baskicky</translation>
     </message>
@@ -3061,7 +3030,8 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
-        <location filename="../languages.cpp" line="226"/>
+        <location filename="../languages.cpp" line="219"/>
+        <location filename="../languages.cpp" line="246"/>
         <source>Finnish</source>
         <translation>Fínsky</translation>
     </message>
@@ -3072,7 +3042,8 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
-        <location filename="../languages.cpp" line="227"/>
+        <location filename="../languages.cpp" line="220"/>
+        <location filename="../languages.cpp" line="247"/>
         <source>French</source>
         <translation>Francúzsky</translation>
     </message>
@@ -3088,7 +3059,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
-        <location filename="../languages.cpp" line="228"/>
+        <location filename="../languages.cpp" line="248"/>
         <source>Galician</source>
         <translation>Haličsky</translation>
     </message>
@@ -3119,13 +3090,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="229"/>
+        <location filename="../languages.cpp" line="249"/>
         <source>Croatian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="230"/>
+        <location filename="../languages.cpp" line="250"/>
         <source>Hungarian</source>
         <translation>Maďarsky</translation>
     </message>
@@ -3156,7 +3127,8 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
-        <location filename="../languages.cpp" line="231"/>
+        <location filename="../languages.cpp" line="221"/>
+        <location filename="../languages.cpp" line="251"/>
         <source>Italian</source>
         <translation>Taliansky</translation>
     </message>
@@ -3167,7 +3139,8 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
-        <location filename="../languages.cpp" line="232"/>
+        <location filename="../languages.cpp" line="222"/>
+        <location filename="../languages.cpp" line="252"/>
         <source>Japanese</source>
         <translation>Japonsky</translation>
     </message>
@@ -3178,7 +3151,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
-        <location filename="../languages.cpp" line="233"/>
+        <location filename="../languages.cpp" line="253"/>
         <source>Georgian</source>
         <translation>Gruzínsky</translation>
     </message>
@@ -3199,7 +3172,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
-        <location filename="../languages.cpp" line="234"/>
+        <location filename="../languages.cpp" line="254"/>
         <source>Korean</source>
         <translation>Kórejsky</translation>
     </message>
@@ -3210,7 +3183,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
-        <location filename="../languages.cpp" line="235"/>
+        <location filename="../languages.cpp" line="255"/>
         <source>Kurdish</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3231,7 +3204,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="236"/>
+        <location filename="../languages.cpp" line="256"/>
         <source>Lithuanian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3252,7 +3225,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
-        <location filename="../languages.cpp" line="237"/>
+        <location filename="../languages.cpp" line="257"/>
         <source>Macedonian</source>
         <translation type="unfinished">Macedónsky</translation>
     </message>
@@ -3303,13 +3276,19 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="140"/>
-        <location filename="../languages.cpp" line="238"/>
+        <location filename="../languages.cpp" line="223"/>
+        <location filename="../languages.cpp" line="258"/>
         <source>Dutch</source>
         <translation>Holandsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
+        <source>Norwegian Nynorsk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../languages.cpp" line="142"/>
+        <location filename="../languages.cpp" line="224"/>
         <source>Norwegian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3325,12 +3304,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="239"/>
+        <location filename="../languages.cpp" line="259"/>
         <source>Polish</source>
         <translation>Poľsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
+        <location filename="../languages.cpp" line="225"/>
         <source>Portuguese</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3341,14 +3321,15 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
-        <location filename="../languages.cpp" line="242"/>
+        <location filename="../languages.cpp" line="262"/>
         <source>Romanian</source>
         <translation>Rumunsky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
-        <location filename="../languages.cpp" line="243"/>
-        <location filename="../languages.cpp" line="274"/>
+        <location filename="../languages.cpp" line="226"/>
+        <location filename="../languages.cpp" line="263"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Russian</source>
         <translation>Rusky</translation>
     </message>
@@ -3369,13 +3350,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="244"/>
+        <location filename="../languages.cpp" line="264"/>
         <source>Slovak</source>
         <translation>Slovensky</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="245"/>
+        <location filename="../languages.cpp" line="265"/>
         <source>Slovenian</source>
         <translation type="unfinished">Slovinsky</translation>
     </message>
@@ -3401,7 +3382,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
-        <location filename="../languages.cpp" line="246"/>
+        <location filename="../languages.cpp" line="266"/>
         <source>Serbian</source>
         <translation>Srbsky</translation>
     </message>
@@ -3412,7 +3393,8 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
-        <location filename="../languages.cpp" line="247"/>
+        <location filename="../languages.cpp" line="227"/>
+        <location filename="../languages.cpp" line="267"/>
         <source>Swedish</source>
         <translation>Švédsky</translation>
     </message>
@@ -3463,8 +3445,8 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="248"/>
-        <location filename="../languages.cpp" line="270"/>
+        <location filename="../languages.cpp" line="268"/>
+        <location filename="../languages.cpp" line="290"/>
         <source>Turkish</source>
         <translation>Turecky</translation>
     </message>
@@ -3490,7 +3472,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="249"/>
+        <location filename="../languages.cpp" line="269"/>
         <source>Ukrainian</source>
         <translation>Ukrajinsky</translation>
     </message>
@@ -3506,7 +3488,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
-        <location filename="../languages.cpp" line="250"/>
+        <location filename="../languages.cpp" line="270"/>
         <source>Vietnamese</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3537,6 +3519,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
+        <location filename="../languages.cpp" line="228"/>
         <source>Chinese</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3546,127 +3529,127 @@ Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="240"/>
+        <location filename="../languages.cpp" line="260"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugalská Brazílčina</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="241"/>
+        <location filename="../languages.cpp" line="261"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugalská Portugalčina</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="251"/>
+        <location filename="../languages.cpp" line="271"/>
         <source>Simplified-Chinese</source>
         <translation>Zjednodušená čínština</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="252"/>
+        <location filename="../languages.cpp" line="272"/>
         <source>Traditional Chinese</source>
         <translation>Tradičná Čínština</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="260"/>
+        <location filename="../languages.cpp" line="280"/>
         <source>Unicode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="261"/>
+        <location filename="../languages.cpp" line="281"/>
         <source>UTF-8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="262"/>
+        <location filename="../languages.cpp" line="282"/>
         <source>Western European Languages</source>
         <translation>Západné Európske jazyky</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="263"/>
+        <location filename="../languages.cpp" line="283"/>
         <source>Western European Languages with Euro</source>
         <translation>Západné Európske jazyky s Euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="264"/>
+        <location filename="../languages.cpp" line="284"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slovanské/Stredo-Európske jazyky</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="265"/>
+        <location filename="../languages.cpp" line="285"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation type="unfinished">Esperanto, Galicisch, Maltesisch, Turecky</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="266"/>
+        <location filename="../languages.cpp" line="286"/>
         <source>Old Baltic charset</source>
         <translation type="unfinished">Staré Baltické kódovanie</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="267"/>
+        <location filename="../languages.cpp" line="287"/>
         <source>Cyrillic</source>
         <translation>Cyrilika</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="269"/>
+        <location filename="../languages.cpp" line="289"/>
         <source>Modern Greek</source>
         <translation>Moderná Gréčtina</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="271"/>
+        <location filename="../languages.cpp" line="291"/>
         <source>Baltic</source>
         <translation type="unfinished">Baltic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="272"/>
+        <location filename="../languages.cpp" line="292"/>
         <source>Celtic</source>
         <translation>Keltština</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="273"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Hebrew charsets</source>
         <translation>Hebrejská znaková sada</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="275"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukrajinsky, Bielorusky</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="276"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Simplified Chinese charset</source>
         <translation>Znaková sada zjednodušenej Čínštiny</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="277"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Traditional Chinese charset</source>
         <translation>Znakova sada tradičnej Čínštiny</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="278"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Japanese charsets</source>
         <translation>Japonská znaková sada</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="279"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Korean charset</source>
         <translation>Kórejská znaková sada</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="280"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Thai charset</source>
         <translation type="unfinished">Thajsky</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="281"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Cyrillic Windows</source>
         <translation type="unfinished">Cyrilika - Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="282"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Slavic/Central European Windows</source>
         <translation type="unfinished">Slovanské/Stredo-Európske jazyky - Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="283"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Arabic Windows</source>
         <translation type="unfinished">Arabsky - Windows</translation>
     </message>
@@ -3987,7 +3970,7 @@ Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="284"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Modern Greek Windows</source>
         <translation type="unfinished"></translation>
     </message>

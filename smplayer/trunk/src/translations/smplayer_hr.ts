@@ -1864,35 +1864,35 @@ Primjer: resample=44100:0:0,volnorm</translation>
     <name>Filters</name>
     <message>
         <source>add noise</source>
-        <translation>dodaj šum</translation>
+        <translation type="obsolete">dodaj šum</translation>
     </message>
     <message>
         <source>deblock</source>
-        <translation>deblock</translation>
+        <translation type="obsolete">deblock</translation>
     </message>
     <message>
         <source>normal denoise</source>
-        <translation>normalno uklanjanje šuma</translation>
+        <translation type="obsolete">normalno uklanjanje šuma</translation>
     </message>
     <message>
         <source>soft denoise</source>
-        <translation>blago uklanjanje šuma</translation>
+        <translation type="obsolete">blago uklanjanje šuma</translation>
     </message>
     <message>
         <source>volume normalization</source>
-        <translation>normalizacija zvuka</translation>
+        <translation type="obsolete">normalizacija zvuka</translation>
     </message>
     <message>
         <source>gradfun</source>
-        <translation>gradfun</translation>
+        <translation type="obsolete">gradfun</translation>
     </message>
     <message>
         <source>blur</source>
-        <translation>zamućenje</translation>
+        <translation type="obsolete">zamućenje</translation>
     </message>
     <message>
         <source>sharpen</source>
-        <translation>pooštrenje</translation>
+        <translation type="obsolete">pooštrenje</translation>
     </message>
 </context>
 <context>
@@ -2062,7 +2062,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
     </message>
     <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
-        <translation type="unfinished">
+        <translation type="obsolete">
             <numerusform>%1 titl(ova) otpakirano
         
         
@@ -2101,6 +2101,20 @@ Molim provjerite dozvole za taj folder.</translation>
     <message>
         <source>&amp;Options</source>
         <translation>&amp;Postavke</translation>
+    </message>
+    <message>
+        <source>Portuguese - Brasil</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error fixing the subtitle lines</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n subtitle(s) extracted</source>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -3162,6 +3176,10 @@ Molim provjerite dozvole za taj folder.</translation>
     <message>
         <source>Modern Greek Windows</source>
         <translation>Modern Greek Windows</translation>
+    </message>
+    <message>
+        <source>Norwegian Nynorsk</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
