@@ -28,16 +28,16 @@ void Filters::init() {
 	list.clear();
 
 	// Video
-	list["noise"] = Filter(tr("add noise"), "noise", "9ah:5ah");
-	list["deblock"] = Filter(tr("deblock"), "pp", "vb/hb");
-	list["gradfun"] = Filter(tr("gradfun"), "gradfun");
-	list["denoise_normal"] = Filter(tr("normal denoise"), "hqdn3d");
-	list["denoise_soft"] = Filter(tr("soft denoise"), "hqdn3d", "2:1:2");
-	list["blur"] = Filter(tr("blur"), "unsharp", "lc:-1.5");
-	list["sharpen"] = Filter(tr("sharpen"), "unsharp", "lc:1.5");
+	list["noise"] = Filter("add noise", "noise", "9ah:5ah");
+	list["deblock"] = Filter("deblock", "pp", "vb/hb");
+	list["gradfun"] = Filter("gradfun", "gradfun");
+	list["denoise_normal"] = Filter("normal denoise", "hqdn3d");
+	list["denoise_soft"] = Filter("soft denoise", "hqdn3d", "2:1:2");
+	list["blur"] = Filter("blur", "unsharp", "lc:-1.5");
+	list["sharpen"] = Filter("sharpen", "unsharp", "lc:1.5");
 
 	// Audio
-	list["volnorm"] = Filter(tr("volume normalization"), "volnorm", "1");
+	list["volnorm"] = Filter("volume normalization", "volnorm", "1");
 }
 
 Filter Filters::item(const QString & key) {
