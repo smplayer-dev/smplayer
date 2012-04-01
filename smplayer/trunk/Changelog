@@ -1,5 +1,9 @@
 [b]Version 0.8.0[/b]:
 
+(2012-04-01)
+ * Find subtitles window: display first the most used languages in the
+   filter combobox. And add "pb" for Portuguese from Brasil.
+
 (2012-03-31)
  * Fix the line breaks on downloaded *.sub files from opensubtitles.
 
