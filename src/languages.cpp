@@ -138,7 +138,7 @@ QMap<QString,QString> Languages::list() {
 	l["ne"] = tr("Nepali");
 	l["ng"] = tr("Ndonga");
 	l["nl"] = tr("Dutch");
-	l["nn"] = tr("Norwegian");
+	l["nn"] = tr("Norwegian Nynorsk");
 	l["no"] = tr("Norwegian");
 	l["nr"] = tr("Ndebele");
 	l["nv"] = tr("Navajo");
@@ -206,6 +206,26 @@ QMap<QString,QString> Languages::list() {
 	l["za"] = tr("Zhuang");
 	l["zh"] = tr("Chinese");
 	l["zu"] = tr("Zulu");
+
+	return l;
+}
+
+QMap<QString,QString> Languages::most_used_list() {
+	QMap<QString,QString> l;
+
+	l["de"] = tr("German");
+	l["en"] = tr("English");
+	l["es"] = tr("Spanish");
+	l["fi"] = tr("Finnish");
+	l["fr"] = tr("French");
+	l["it"] = tr("Italian");
+	l["ja"] = tr("Japanese");
+	l["nl"] = tr("Dutch");
+	l["no"] = tr("Norwegian");
+	l["pt"] = tr("Portuguese");
+	l["ru"] = tr("Russian");
+	l["sv"] = tr("Swedish");
+	l["zh"] = tr("Chinese");
 
 	return l;
 }
