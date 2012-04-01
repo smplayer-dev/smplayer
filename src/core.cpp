@@ -3501,25 +3501,34 @@ void Core::prevChapter() {
 	int last_chapter = 0;
 	int first_chapter = firstChapter();
 
-	last_chapter = mdat.n_chapters + firstChapter() - 1;
+	int ID = mdat.chapters.itemBeforeTime(mset.current_sec).ID();
 
-	int ID = mset.current_chapter_id - 1;
-	if (ID < first_chapter) {
-		ID = last_chapter;
+	if (ID == -1) {
+		last_chapter = mdat.n_chapters + firstChapter() - 1;
+
+		ID = mset.current_chapter_id - 1;
+		if (ID < first_chapter) {
+			ID = last_chapter;
+		}
 	}
+
 	changeChapter(ID);
 }
 
 void Core::nextChapter() {
 	qDebug("Core::nextChapter");
 
-	int last_chapter = 0;
-	last_chapter = mdat.n_chapters + firstChapter() - 1;
+	int last_chapter = mdat.n_chapters + firstChapter() - 1;
 
-	int ID = mset.current_chapter_id + 1;
-	if (ID > last_chapter) {
-		ID = firstChapter();
+	int ID = mdat.chapters.itemAfterTime(mset.current_sec).ID();
+
+	if (ID == -1) {
+		ID = mset.current_chapter_id + 1;
+		if (ID > last_chapter) {
+			ID = firstChapter();
+		}
 	}
+
 	changeChapter(ID);
 }
 
