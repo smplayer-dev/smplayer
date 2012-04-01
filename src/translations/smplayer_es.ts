@@ -2337,49 +2337,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     </message>
 </context>
 <context>
-    <name>Filters</name>
-    <message>
-        <location filename="../filters.cpp" line="31"/>
-        <source>add noise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="32"/>
-        <source>deblock</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="33"/>
-        <source>gradfun</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="34"/>
-        <source>normal denoise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="35"/>
-        <source>soft denoise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="36"/>
-        <source>blur</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="37"/>
-        <source>sharpen</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../filters.cpp" line="40"/>
-        <source>volume normalization</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
