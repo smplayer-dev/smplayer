@@ -1,3 +1,18 @@
+Version 0.8.0.
+
+ * A toolbar editor has been added. Now it's possible to select the buttons 
+   and controls that want to appear in the toolbars.
+ * New video filters: gradfun, blur and sharpen.
+ * Now it's possible to change the GUI (default, mini, mpc) at runtime,
+   no restart required.
+ * sub files from opensubtitles should work again.
+ * (Youtube) Recognize short urls (like this one: http://y2u.be/F5OcZBVPwOA)
+ * Better support for chapters in video files.
+ * Bug fix: remote m3u files work from the favorites menu or command line.
+ * Internal changes in the single instance option (switch to 
+   QtSingleApplication).
+
+
 Version 0.7.1.
 
 This version include some bug fixes, some of them important. It's highly
