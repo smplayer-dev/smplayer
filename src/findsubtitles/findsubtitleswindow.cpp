@@ -214,7 +214,9 @@ void FindSubtitlesWindow::retranslateStrings() {
 	}
 	language_filter->addItem( tr("Portuguese - Brasil") + " (pb)", "pb");
 	language_filter->model()->sort(0);
+	#if QT_VERSION >= 0x040400
 	language_filter->insertSeparator(language_filter->count());
+	#endif
 
 	QMap<QString,QString> l2 = Languages::list();
 	QMapIterator<QString, QString> i2(l2);
@@ -226,7 +228,9 @@ void FindSubtitlesWindow::retranslateStrings() {
 	}
 	//language_filter->model()->sort(0);
 	language_filter->insertItem( 0, tr("All"), "*" );
+	#if QT_VERSION >= 0x040400
 	language_filter->insertSeparator(1);
+	#endif
 	//language_filter->setCurrentIndex(language_index);
 	language_filter->setCurrentIndex(language_filter->findData(current_language));
 
