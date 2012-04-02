@@ -54,6 +54,7 @@ postprocessing
 autodetect_phase	
 deblock	
 dering	
+gradfun	
 add_noise	
 add_letterbox	
 upscaling	
@@ -141,6 +142,9 @@ osd_total
 denoise_none	
 denoise_normal	
 denoise_soft	
+unsharp_off	
+blur	
+sharpen	
 size_50	
 size_75	
 size_100	Ctrl+1
@@ -215,5 +219,9 @@ pl_remove_all
 pl_edit	
 toggle_video_info	
 toggle_frame_counter	
+edit_main_toolbar	
+edit_control1	
+edit_control2	
+edit_floating_control	
 show_main_toolbar	F5
 show_language_toolbar	F6
