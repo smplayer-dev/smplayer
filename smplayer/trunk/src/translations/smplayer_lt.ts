@@ -2455,7 +2455,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugalų (Brazilija)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
@@ -2470,16 +2470,16 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="564"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n subtitrai išgauti</numerusform>
+            <numerusform>%n subtitrai išgauti</numerusform>
+            <numerusform>%n subtitrų išgauta</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Klaida taisant subtitrų eilutes</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -3300,7 +3300,7 @@ Patikrinkite prieigos teises.</translation>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norvegų</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -8132,12 +8132,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation>Trys viename atgal</translation>
+        <translation>Atsukimo atgal meniu</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation>Trys viename į priekį</translation>
+        <translation>Praskukimo į priekį meniu</translation>
     </message>
 </context>
 <context>
