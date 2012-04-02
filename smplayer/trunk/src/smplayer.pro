@@ -22,6 +22,14 @@ DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
 
+# Disable SINGLE_INSTANCE if Qt < 4.4
+contains( DEFINES, SINGLE_INSTANCE ) {
+	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
+		message("SINGLE_INSTANCE requires Qt > 4.3. Disabled.")
+		DEFINES -= SINGLE_INSTANCE
+	}
+}
+
 HEADERS += guiconfig.h \
 	config.h \
 	constants.h \
