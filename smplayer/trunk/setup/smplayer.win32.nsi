@@ -1,6 +1,6 @@
 ﻿; Installer script for win32 SMPlayer
 ; Written by redxii (redxii@users.sourceforge.net)
-; Tested/Developed with Unicode NSIS 2.46
+; Tested/Developed with Unicode NSIS 2.46.4
 
 !ifndef VER_MAJOR | VER_MINOR | VER_BUILD
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
@@ -98,10 +98,6 @@
   Var Codec_Version
   Var Dialog_Reinstall
   Var Inst_Type
-  Var Is_Admin
-!ifndef WITH_MPLAYER
-  Var MPlayer_Version
-!endif
   Var Previous_Version
   Var Previous_Version_State
   Var Reinstall_ChgSettings
@@ -114,7 +110,6 @@
   Var Reinstall_UninstallButton_State
   Var SMPlayer_Path
   Var SMPlayer_StartMenuFolder
-  Var UserName
 
 ;--------------------------------
 ;Interface Settings
@@ -365,6 +360,8 @@ SectionGroup $(MPlayerGroupTitle)
 !else ifndef WITH_MPLAYER
     AddSize 16800
 
+    Var /GLOBAL MPlayer_Version
+
     Call GetVerInfo
 
     /* Read from version-info
@@ -614,6 +611,7 @@ ${MementoSectionDone}
   RMDir /r "$INSTDIR\translations"
   Delete "$INSTDIR\*.txt"
   Delete "$INSTDIR\libgcc_s_dw2-1.dll"
+  Delete "$INSTDIR\libwinpthread-1.dll"
   Delete "$INSTDIR\mingwm10.dll"
   Delete "$INSTDIR\zlib1.dll"
   Delete "$INSTDIR\Qt*.dll"
