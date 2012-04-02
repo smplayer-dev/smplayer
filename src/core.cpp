@@ -3458,16 +3458,20 @@ void Core::changeChapter(int ID) {
 	qDebug("Core::changeChapter: ID: %d", ID);
 
 	if (mdat.type != TYPE_DVD) {
+		/*
 		if (mdat.chapters.find(ID) > -1) {
 			double start = mdat.chapters.item(ID).start();
 			qDebug("Core::changeChapter: start: %f", start);
 			goToSec(start);
 			mset.current_chapter_id = ID;
 		} else {
+		*/
 			tellmp("seek_chapter " + QString::number(ID) +" 1");
 			mset.current_chapter_id = ID;
 			//updateWidgets();
+		/*
 		}
+		*/
 	} else {
 #if SMART_DVD_CHAPTERS
 		if (pref->cache_for_dvds == 0) {
