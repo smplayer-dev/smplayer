@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <style type="text/css">
@@ -97,7 +98,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  color: #404040;
+  color: #202020;
 }
 h1 small,
 h2 small,
@@ -176,6 +177,7 @@ pre {
 }
 </style>
 <title>SMPlayer - Frequently Asked Questions</title>
+</head>
 <body>
 
 <h1>SMPlayer - Frequently Asked Questions</h1>
@@ -200,7 +202,7 @@ pre {
 <li><a href="#screensaver1">The screensaver doesn't turn off, why?</a></li>
 <li><a href="#multithread">Is MPlayer multithreaded? How can I take advantage of all my CPU cores?</a></li>
 <li><a href="#osdfontsize">How can I adjust the font size of the OSD (Onscreen Display)?</a></li>
-<li><a href="#config_file">Where is the configuration file?</a></li>
+<li><a href="#config_file">Where are the configuration files?</a></li>
 <li><a href="#win_multimonitors">(Windows) The video is displayed only in the 1st monitor but not in the 2nd, why?</a></li>
 <li><a href="#win_aero">(Windows) Every time I play a video Aero is disabled, why?</a></li>
 <li><a href="#win_shortnames">(Windows) I'm unable to open files with special or non-English characters, why?</a></li>
@@ -304,13 +306,13 @@ in your ~/.mplayer/config:
 Multithreaded decoding requires a recent build of MPlayer or FFmpeg-mt in Linux. MPlayer2 automatically uses all cores, but MPlayer requires manual adjustment. You can adjust the number of threads used for decoding in <i>Preferences -> Performance</i>. Set it to equal or less than the number of cores (and threads in the case of hyperthreaded Intel CPUs) your processor has. Setting it to greater than your CPU is capable of will have no effect.
 
 <h4><span id="osdfontsize">How can I adjust the font size of the OSD (Onscreen Display)?</span></h4>
-<p>To adjust the font size for the OSD, which displays the time and other messages from MPlayer in the upper-left corner, under <i>Preferences -&gt; Advanced -&gt; Options for MPlayer</i>, in the <b>Options:</b> field, add the following:</pre>
+<p>To adjust the font size for the OSD, which displays the time and other messages from MPlayer in the upper-left corner, under <i>Preferences -&gt; Advanced -&gt; Options for MPlayer</i>, in the <b>Options:</b> field, add the following:
 <pre>-subfont-autoscale 0 -subfont-osd-scale <i>y</i></pre>
 <p></p>
 <p>Where <i>y</i> is the size to your preference. The default value for <i>-subfont-osd-scale</i> is 20.</p>
 
-<h4><span id="config_file">Where is the configuration file?</span></h4>
-<p>SMPlayer uses two ini files: smplayer.ini and smplayer_files.ini. Both are stored according to your OS:</p>
+<h4><span id="config_file">Where are the configuration files?</span></h4>
+<p>The main SMPlayer configuration file is <i>smplayer.ini</i>. Depending on your configuration, individual file settings are saved in <i>smplayer_files.ini</i> (one ini file) or the subdirectory <i>file_settings</i> (multiple ini files). They are located according to your OS:</p>
 <pre><b>Linux</b> 	                        $HOME/.config/smplayer
 <b>Windows 2000/XP</b> 	        C:\Documents and Settings\&lt;your_username&gt;\.smplayer
 <b>Windows Vista/7</b>    	        C:\Users\&lt;your_username&gt;\.smplayer</pre>
