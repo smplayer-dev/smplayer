@@ -2499,7 +2499,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Português - Brasil</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
@@ -2514,15 +2514,15 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="564"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n legenda extraída</numerusform>
+            <numerusform>%n legendas extraídas</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocorreu um erro ao corrigir as legendas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2949,7 +2949,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Amharic</source>
-        <translation>Amharic</translation>
+        <translation>Amárico</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
@@ -3108,7 +3108,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Frisian</source>
-        <translation>Frisian</translation>
+        <translation>Frisiano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
@@ -3226,7 +3226,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Kannada</source>
-        <translation>Canadiano</translation>
+        <translation>Kannada</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
@@ -3237,7 +3237,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="110"/>
         <source>Kashmiri</source>
-        <translation>Kashmiri</translation>
+        <translation>Caxemirês</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
@@ -3290,7 +3290,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation>Malayalam</translation>
+        <translation>Malaialaio</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
@@ -3342,7 +3342,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norueguês (Nynorsk)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -3447,7 +3447,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Sundanese</source>
-        <translation>Sundanese</translation>
+        <translation>Sudanês</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
