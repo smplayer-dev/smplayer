@@ -693,7 +693,7 @@ Function .onInit
 
 !ifdef WIN64
   ${IfNot} ${RunningX64}
-    MessageBox MB_OK|MB_ICONSTOP "A 64-bit Windows operating system is required to install this software."
+    MessageBox MB_OK|MB_ICONSTOP $(Win64_Required)
     Abort
   ${EndIf}
 
@@ -702,7 +702,7 @@ Function .onInit
   ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
 
   IfErrors +3 0
-    MessageBox MB_OK|MB_ICONSTOP "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
+    MessageBox MB_OK|MB_ICONSTOP $(Existing_32bitInst)
     Abort
   
   SetRegView 64
@@ -713,7 +713,7 @@ Function .onInit
     ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
 
     IfErrors +3 0
-      MessageBox MB_OK|MB_ICONSTOP "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+      MessageBox MB_OK|MB_ICONSTOP $(Existing_64bitInst)
       Abort
     
     SetRegView 32

@@ -11,6 +11,10 @@ ${LangFileString} Installer_Is_Running "Instalator już jest uruchomiony."
 ${LangFileString} Installer_No_Admin "Do instalacji tego programu wymagane są uprawnienia administratora."
 ${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 
+${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
+${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Skróty"
 ${LangFileString} MPlayerGroupTitle "Komponenty MPlayera"
