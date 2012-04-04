@@ -196,12 +196,12 @@ pre {
 <li><a href="#mplayer_errors">ファイルを再生しようとしても何も起こりません。なぜですか?</a></li>
 <li><a href="#mplayer_restart">メニュー オプションを使用すると、ビデオが一瞬真っ暗になることがあります。なぜですか?</a></li>
 <li><a href="#crash">SMPlayer がクラッシュしてもオーディオは止まりませんでした。なぜですか?</a></li>
-<li><a href="#playlist_problem">プレイリストを再生しているとき、ファイルが終了しても SMPlayer は次のファイルを自動再生しません。なぜですか?</a></li>
 <li><a href="#mplayer_recommended">どのバージョンの MPlayer がおすすめですか?</a></li>
 <li><a href="#subtitles_border">字幕を映像ではなく黒枠の上に表示させたいのですが、可能ですか?</a></li>
 <li><a href="#expand_filter">あらゆる動画で字幕を黒枠の上に表示させたいのですが、可能ですか?</a></li>
 <li><a href="#screensaver1">スクリーンセーバーがオフになりません。なぜですか?</a></li>
 <li><a href="#multithread">MPlayer はマルチスレッドに対応していますか? CPU のすべてのコアを活用するには?</a></li>
+<li><a href="#osdfontsize">OSD のフォント サイズを変更するには?</a></li>
 <li><a href="#config_file">構成ファイルはどこですか?</a></li>
 <li><a href="#win_multimonitors">(Windows) ビデオがプライマリ モニターでのみ表示され、セカンダリには表示されません。なぜですか?</a></li>
 <li><a href="#win_aero">(Windows) Windows Vista 以降を使用していますが、ビデオを再生するたびに Aero が無効になります。なぜですか?</a></li>
@@ -267,11 +267,8 @@ pre {
 <p>SMPlayer はクラッシュしましたが、MPlayer は動いています。タスク マネージャーから MPlayer プロセスを終了させてください。</p>
 <p>いずれにせよ、SMPlayer がクラッシュしたら、それは修正されなければならない重大なバグです。直ちにご報告ください。</p>
 
-<h4><span id="playlist_problem">プレイリストを再生しているとき、ファイルが終了しても SMPlayer は次のファイルを自動再生しません。なぜですか?</span></h4>
-<p>SMPlayer 0.6.5 以降、MPlayer SVN r28066 以降をご使用ください。</p>
-
 <h4><span id="mplayer_recommended">どのバージョンの MPlayer がおすすめですか?</span></h4>
-<p>SVN の最新のバージョン、最低でも MPlayer SVN r33216 (2011-04-05) 以降をおすすめします。MPlayer の新たなフォークである MPlayer2 も SMPlayer で正常に動作します。</p>
+<p>最低でも MPlayer SVN r33216 (2011-04-05) 以降か MPlayer2 をご使用ください。コーデックやバグの修正にいち早く対応するためには、SVN/git の最新のバージョンがおすすめです。</p>
 <p>SMPlayer は古いバージョンでもそれに応じて動作しますが、一部のオプションが使えなくなります。</p>
 
 <h4><span id="subtitles_border">字幕を映像ではなく黒枠の上に表示させたいのですが、可能ですか?</span></h4>
@@ -301,8 +298,14 @@ MPlayer の最近のバージョンをお使いの方は、~/.mplayer/config に
 <h4><span id="multithread">MPlayer はマルチスレッドに対応していますか? CPU のすべてのコアを活用するには?</span></h4>
 マルチスレッドでのデコードには最新の MPlayer ビルドか Linux の FFmpeg-mt が必要となります。MPlayer2 は自動的にすべてのコアを使用しますが、MPlayer は手動による調整が必要です。[環境設定] -&gt; [パフォーマンス] でデコードに使用するスレッドの数を調整できます。コアと同じ数 (ハイパースレッディング・テクノロジー対応 Intel CPU の場合はスレッドを含めます) 以下に設定してください。CPU の能力を超えた値に設定しても何の効果もありません。
 
+<h4><span id="osdfontsize">OSD のフォント サイズを変更するには?</span></h4>
+<p>MPlayer が左上に時間などの情報を表示する OSD のフォントサイズを変更するには、[環境設定 -&gt; 詳細設定 -&gt; MPlayer のオプション] の [オプション] 欄に以下を追加してください:
+<pre>-subfont-autoscale 0 -subfont-osd-scale <i>y</i></pre>
+<p></p>
+<p><i>y</i> にはお好みのサイズを入れてください。-subfont-osd-scale の既定の値は 20 です。</p>
+
 <h4><span id="config_file">構成ファイルはどこですか?</span></h4>
-<p>SMPlayer は smplayer.ini と smplayer_files.ini の 2 つの ini ファイルを使用します。格納場所はお使いの OS によって異なります:</p>
+<p>SMPlayer の主たる構成ファイルは smplayer.ini です。設定により異なりますが、個別のファイルの設定は smplayer_files.ini (単一の ini ファイル) またはサブディレクトリ file_settings (複数の ini ファイル) に保存されます。場所はお使いの OS によって異なります:</p>
 <pre><b>Linux</b> 	                        $HOME/.config/smplayer
 <b>Windows 2000/XP</b> 	        C:\Documents and Settings\&lt;ユーザー名&gt;\.smplayer
 <b>Windows Vista/7</b>    	        C:\Users\&lt;ユーザー名&gt;\.smplayer</pre>
