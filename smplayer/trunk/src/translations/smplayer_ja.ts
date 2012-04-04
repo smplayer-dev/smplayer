@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<!DOCTYPE TS><TS version="1.1" language="ja">
 <context>
     <name>About</name>
     <message>
@@ -39,6 +38,7 @@
         <translation>フランス語</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="149"/>
         <source>%1, %2 and %3</source>
         <translation type="obsolete">%1、%2 および %3</translation>
     </message>
@@ -53,6 +53,7 @@
         <translation>ロシア語</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="156"/>
         <source>%1 and %2</source>
         <translation type="obsolete">%1 と %2</translation>
     </message>
@@ -142,6 +143,7 @@
         <translation>フィンランド語</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="187"/>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -161,9 +163,6 @@
         <translation>情報(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="52"/>
-        <location filename="../about.ui" line="108"/>
-        <location filename="../about.ui" line="164"/>
         <location filename="../about.ui" line="220"/>
         <source>icon</source>
         <translation>icon</translation>
@@ -254,10 +253,12 @@
         <translation>SMPlayer のロゴ: %1</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="104"/>
         <source>%1, %2, %3 and %4</source>
         <translation type="obsolete">%1、%2、%3 および %4</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="104"/>
         <source>%1, %2, %3, %4 and %5</source>
         <translation type="obsolete">%1、%2、%3、%4 および %5</translation>
     </message>
@@ -345,7 +346,6 @@
         <translation>読み込み(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="430"/>
         <location filename="../actionseditor.cpp" line="480"/>
         <source>Key files</source>
         <translation>キー ファイル</translation>
@@ -373,7 +373,6 @@ Do you want to overwrite?</source>
         <translation>ファイルの選択</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="452"/>
         <location filename="../actionseditor.cpp" line="486"/>
         <source>Error</source>
         <translation>エラー</translation>
@@ -490,12 +489,14 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
+        <location filename="../audioequalizer.cpp" line="111"/>
         <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer のログ</translation>
+        <translation type="obsolete">SMPlayer - MPlayer のログ</translation>
     </message>
     <message>
+        <location filename="../audioequalizer.cpp" line="111"/>
         <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer のログ</translation>
+        <translation type="obsolete">SMPlayer - SMPlayer のログ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1625"/>
@@ -659,7 +660,6 @@ Do you want to overwrite?</source>
         <translation>アスペクト比(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
         <location filename="../basegui.cpp" line="2951"/>
         <source>&amp;None</source>
         <translation>なし(&amp;N)</translation>
@@ -740,7 +740,6 @@ Do you want to overwrite?</source>
         <translation>フィルター(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
         <location filename="../basegui.cpp" line="1770"/>
         <source>&amp;Stereo</source>
         <translation>ステレオ(&amp;S)</translation>
@@ -881,12 +880,6 @@ Do you want to overwrite?</source>
         <translation>SMPlayer のバージョン情報(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2965"/>
-        <location filename="../basegui.cpp" line="2981"/>
-        <location filename="../basegui.cpp" line="2997"/>
-        <location filename="../basegui.cpp" line="3012"/>
-        <location filename="../basegui.cpp" line="3044"/>
-        <location filename="../basegui.cpp" line="3064"/>
         <location filename="../basegui.cpp" line="3100"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
@@ -897,7 +890,6 @@ Do you want to overwrite?</source>
         <translation>ビデオ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3471"/>
         <location filename="../basegui.cpp" line="3661"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
@@ -908,15 +900,11 @@ Do you want to overwrite?</source>
         <translation>プレイリスト</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3473"/>
-        <location filename="../basegui.cpp" line="3641"/>
         <location filename="../basegui.cpp" line="3662"/>
         <source>All files</source>
         <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3468"/>
-        <location filename="../basegui.cpp" line="3638"/>
         <location filename="../basegui.cpp" line="3659"/>
         <source>Choose a file</source>
         <translation>ファイルの選択</translation>
@@ -974,7 +962,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>一時停止 / コマ送り</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1509"/>
         <location filename="../basegui.cpp" line="1518"/>
         <source>U&amp;nload</source>
         <translation>読み込み解除(&amp;N)</translation>
@@ -1040,15 +1027,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕の次の行(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1838"/>
-        <location filename="../basegui.cpp" line="1839"/>
         <location filename="../basegui.cpp" line="1840"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1842"/>
-        <location filename="../basegui.cpp" line="1843"/>
         <location filename="../basegui.cpp" line="1844"/>
         <source>+%1</source>
         <translation>+%1</translation>
@@ -1270,14 +1253,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>オーディオ CD(&amp;A)</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1394"/>
         <source>Denoise nor&amp;mal</source>
         <translation type="obsolete">ノイズ除去 通常(&amp;M)</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1394"/>
         <source>Denoise &amp;soft</source>
         <translation type="obsolete">ノイズ除去 ソフト(&amp;S)</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1394"/>
         <source>Denoise o&amp;ff</source>
         <translation type="obsolete">ノイズ除去 オフ(&amp;F)</translation>
     </message>
@@ -1851,7 +1837,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>拡大率: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3033"/>
         <location filename="../core.cpp" line="3045"/>
         <source>Font scale: %1</source>
         <translation>フォント スケール: %1</translation>
@@ -1944,7 +1929,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="508"/>
         <source>Unable to retrieve youtube page</source>
-        <translation>youtube ページを取得することができません</translation>
+        <translation>YouTube ページを取得することができません</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="512"/>
@@ -2052,7 +2037,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ログを非表示にする</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="87"/>
         <location filename="../errordialog.cpp" line="57"/>
         <source>Show log</source>
         <translation>ログの表示</translation>
@@ -2096,9 +2080,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>お気に入りエディター</translation>
     </message>
     <message>
-        <location filename="../favoriteeditor.ui" line="34"/>
-        <location filename="../favoriteeditor.cpp" line="109"/>
-        <location filename="../favoriteeditor.cpp" line="168"/>
         <location filename="../favoriteeditor.cpp" line="268"/>
         <source>Favorite list</source>
         <translation>お気に入りの一覧</translation>
@@ -2236,8 +2217,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>このファイルに使用されるデミュクサーを選択します(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../filepropertiesdialog.ui" line="105"/>
-        <location filename="../filepropertiesdialog.ui" line="167"/>
         <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
         <translation>リセット(&amp;R)</translation>
@@ -2331,34 +2310,42 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>Filters</name>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>add noise</source>
         <translation type="obsolete">ノイズの追加</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>deblock</source>
         <translation type="obsolete">ブロック除去</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>gradfun</source>
         <translation type="obsolete">gradfun</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>normal denoise</source>
         <translation type="obsolete">通常のノイズ除去</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>soft denoise</source>
         <translation type="obsolete">ソフトなノイズ除去</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>blur</source>
         <translation type="obsolete">ブラー</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>sharpen</source>
         <translation type="obsolete">シャープ</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>volume normalization</source>
         <translation type="obsolete">音量の通常化</translation>
     </message>
@@ -2491,7 +2478,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>ポルトガル語 - ブラジル</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
@@ -2506,17 +2493,16 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="564"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 個の字幕が抽出されました</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>字幕の行の修正エラー</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="239"/>
         <source>&amp;Download</source>
         <translation>ダウンロード(&amp;D)</translation>
@@ -2587,6 +2573,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>字幕が %1 として保存されました</translation>
     </message>
     <message numerus="yes">
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="541"/>
         <source>%1 subtitle(s) extracted</source>
         <translation type="obsolete">
             <numerusform>%1 個の字幕が展開されました</numerusform>
@@ -2617,7 +2604,6 @@ Please check the permissions of that folder.</source>
 そのフォルダーの権限をチェックしてください。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="319"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="490"/>
         <source>Download failed</source>
         <translation>ダウンロードが失敗しました</translation>
@@ -2666,8 +2652,6 @@ Please check the permissions of that folder.</source>
         <translation>デミュクサー</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="78"/>
-        <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Name</source>
         <translation>名前</translation>
@@ -2738,19 +2722,16 @@ Please check the permissions of that folder.</source>
         <translation>アスペクト比</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="102"/>
         <location filename="../infofile.cpp" line="111"/>
         <source>Format</source>
         <translation>フォーマット</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>Bitrate</source>
         <translation>ビットレート</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
@@ -2761,7 +2742,6 @@ Please check the permissions of that folder.</source>
         <translation>フレーム パー セコンド</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="105"/>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
         <translation>選択されたコーデック</translation>
@@ -2792,15 +2772,11 @@ Please check the permissions of that folder.</source>
         <translation>オーディオ ストリーム</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Language</source>
         <translation>言語</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="131"/>
-        <location filename="../infofile.cpp" line="133"/>
-        <location filename="../infofile.cpp" line="162"/>
         <location filename="../infofile.cpp" line="164"/>
         <source>empty</source>
         <translation>空</translation>
@@ -2816,14 +2792,12 @@ Please check the permissions of that folder.</source>
         <translation>種類</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="125"/>
         <location filename="../infofile.cpp" line="150"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="123"/>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
@@ -2860,7 +2834,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>お使いのハード ディスクから dvd を再生できます。VIDEO_TS および AUDIO_TS ディレクトリを含むフォルダーを選択します。</translation>
+        <translation>お使いのハード ディスクから DVD を再生できます。VIDEO_TS および AUDIO_TS ディレクトリを含むフォルダーを選択します。</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -2942,8 +2916,6 @@ Please check the permissions of that folder.</source>
         <translation>アムハラ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="235"/>
         <location filename="../languages.cpp" line="288"/>
         <source>Arabic</source>
         <translation>アラビア語</translation>
@@ -2969,7 +2941,6 @@ Please check the permissions of that folder.</source>
         <translation>バシキール語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="38"/>
         <location filename="../languages.cpp" line="236"/>
         <source>Bulgarian</source>
         <translation>ブルガリア語</translation>
@@ -3000,7 +2971,6 @@ Please check the permissions of that folder.</source>
         <translation>ブルトン語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="46"/>
         <location filename="../languages.cpp" line="237"/>
         <source>Catalan</source>
         <translation>カタロニア語</translation>
@@ -3011,7 +2981,6 @@ Please check the permissions of that folder.</source>
         <translation>コルシカ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="50"/>
         <location filename="../languages.cpp" line="238"/>
         <source>Czech</source>
         <translation>チェコ語</translation>
@@ -3022,27 +2991,21 @@ Please check the permissions of that folder.</source>
         <translation>ウェールズ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="54"/>
         <location filename="../languages.cpp" line="239"/>
         <source>Danish</source>
         <translation>デンマーク語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="55"/>
-        <location filename="../languages.cpp" line="216"/>
         <location filename="../languages.cpp" line="240"/>
         <source>German</source>
         <translation>ドイツ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="59"/>
         <location filename="../languages.cpp" line="241"/>
         <source>Greek</source>
         <translation>ギリシャ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="60"/>
-        <location filename="../languages.cpp" line="217"/>
         <location filename="../languages.cpp" line="242"/>
         <source>English</source>
         <translation>英語</translation>
@@ -3053,20 +3016,16 @@ Please check the permissions of that folder.</source>
         <translation>エスペラント語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="62"/>
-        <location filename="../languages.cpp" line="218"/>
         <location filename="../languages.cpp" line="243"/>
         <source>Spanish</source>
         <translation>スペイン語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="63"/>
         <location filename="../languages.cpp" line="244"/>
         <source>Estonian</source>
         <translation>エストニア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="64"/>
         <location filename="../languages.cpp" line="245"/>
         <source>Basque</source>
         <translation>バスク語</translation>
@@ -3077,8 +3036,6 @@ Please check the permissions of that folder.</source>
         <translation>ペルシア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="67"/>
-        <location filename="../languages.cpp" line="219"/>
         <location filename="../languages.cpp" line="246"/>
         <source>Finnish</source>
         <translation>フィンランド語</translation>
@@ -3089,8 +3046,6 @@ Please check the permissions of that folder.</source>
         <translation>フェロー語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="70"/>
-        <location filename="../languages.cpp" line="220"/>
         <location filename="../languages.cpp" line="247"/>
         <source>French</source>
         <translation>フランス語</translation>
@@ -3106,7 +3061,6 @@ Please check the permissions of that folder.</source>
         <translation>アイルランド語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="74"/>
         <location filename="../languages.cpp" line="248"/>
         <source>Galician</source>
         <translation>ガリシア語</translation>
@@ -3137,13 +3091,11 @@ Please check the permissions of that folder.</source>
         <translation>ヒンディー語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="82"/>
         <location filename="../languages.cpp" line="249"/>
         <source>Croatian</source>
         <translation>クロアチア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="84"/>
         <location filename="../languages.cpp" line="250"/>
         <source>Hungarian</source>
         <translation>ハンガリー語</translation>
@@ -3174,8 +3126,6 @@ Please check the permissions of that folder.</source>
         <translation>アイスランド語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="96"/>
-        <location filename="../languages.cpp" line="221"/>
         <location filename="../languages.cpp" line="251"/>
         <source>Italian</source>
         <translation>イタリア語</translation>
@@ -3186,8 +3136,6 @@ Please check the permissions of that folder.</source>
         <translation>イヌイット語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="98"/>
-        <location filename="../languages.cpp" line="222"/>
         <location filename="../languages.cpp" line="252"/>
         <source>Japanese</source>
         <translation>日本語</translation>
@@ -3198,7 +3146,6 @@ Please check the permissions of that folder.</source>
         <translation>ジャワ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="100"/>
         <location filename="../languages.cpp" line="253"/>
         <source>Georgian</source>
         <translation>グルジア語</translation>
@@ -3219,7 +3166,6 @@ Please check the permissions of that folder.</source>
         <translation>カンナダ</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="108"/>
         <location filename="../languages.cpp" line="254"/>
         <source>Korean</source>
         <translation>韓国語</translation>
@@ -3230,7 +3176,6 @@ Please check the permissions of that folder.</source>
         <translation>カシミール語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="111"/>
         <location filename="../languages.cpp" line="255"/>
         <source>Kurdish</source>
         <translation>クルド語</translation>
@@ -3251,7 +3196,6 @@ Please check the permissions of that folder.</source>
         <translation>リンガラ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="121"/>
         <location filename="../languages.cpp" line="256"/>
         <source>Lithuanian</source>
         <translation>リトアニア語</translation>
@@ -3272,7 +3216,6 @@ Please check the permissions of that folder.</source>
         <translation>マオリ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="127"/>
         <location filename="../languages.cpp" line="257"/>
         <source>Macedonian</source>
         <translation>マケドニア語</translation>
@@ -3323,8 +3266,6 @@ Please check the permissions of that folder.</source>
         <translation>ネパール語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="140"/>
-        <location filename="../languages.cpp" line="223"/>
         <location filename="../languages.cpp" line="258"/>
         <source>Dutch</source>
         <translation>オランダ語</translation>
@@ -3332,10 +3273,9 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>ニーノシュクノルウェー語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="142"/>
         <location filename="../languages.cpp" line="224"/>
         <source>Norwegian</source>
         <translation>ノルウェー語</translation>
@@ -3351,13 +3291,11 @@ Please check the permissions of that folder.</source>
         <translation>オーリア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="153"/>
         <location filename="../languages.cpp" line="259"/>
         <source>Polish</source>
         <translation>ポーランド語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="155"/>
         <location filename="../languages.cpp" line="225"/>
         <source>Portuguese</source>
         <translation>ポルトガル語</translation>
@@ -3368,15 +3306,11 @@ Please check the permissions of that folder.</source>
         <translation>ケチュア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="159"/>
         <location filename="../languages.cpp" line="262"/>
         <source>Romanian</source>
         <translation>ルーマニア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="160"/>
-        <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="263"/>
         <location filename="../languages.cpp" line="294"/>
         <source>Russian</source>
         <translation>ロシア語</translation>
@@ -3397,13 +3331,11 @@ Please check the permissions of that folder.</source>
         <translation>シンディー語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="168"/>
         <location filename="../languages.cpp" line="264"/>
         <source>Slovak</source>
         <translation>スロバキア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="265"/>
         <source>Slovenian</source>
         <translation>スロベニア語</translation>
@@ -3429,7 +3361,6 @@ Please check the permissions of that folder.</source>
         <translation>アルバニア語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="174"/>
         <location filename="../languages.cpp" line="266"/>
         <source>Serbian</source>
         <translation>セルビア語</translation>
@@ -3440,8 +3371,6 @@ Please check the permissions of that folder.</source>
         <translation>スンダン語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="178"/>
-        <location filename="../languages.cpp" line="227"/>
         <location filename="../languages.cpp" line="267"/>
         <source>Swedish</source>
         <translation>スウェーデン語</translation>
@@ -3492,8 +3421,6 @@ Please check the permissions of that folder.</source>
         <translation>トンガ語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="268"/>
         <location filename="../languages.cpp" line="290"/>
         <source>Turkish</source>
         <translation>トルコ語</translation>
@@ -3519,7 +3446,6 @@ Please check the permissions of that folder.</source>
         <translation>ウイグル語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="195"/>
         <location filename="../languages.cpp" line="269"/>
         <source>Ukrainian</source>
         <translation>ウクライナ語</translation>
@@ -3535,7 +3461,6 @@ Please check the permissions of that folder.</source>
         <translation>ウズベク語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="199"/>
         <location filename="../languages.cpp" line="270"/>
         <source>Vietnamese</source>
         <translation>ベトナム語</translation>
@@ -3566,7 +3491,6 @@ Please check the permissions of that folder.</source>
         <translation>チワン語</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
         <source>Chinese</source>
         <translation>中国語</translation>
@@ -3896,13 +3820,12 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>マーシャル語</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>ブークモール</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
         <translation>ンデベレ語</translation>
@@ -4007,7 +3930,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>ヴェンダ語</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>ヴォラピュク語</translation>
@@ -4066,13 +3989,11 @@ Do you want to overwrite?</source>
         <translation>ログ ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
         <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
         <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
         <translation>クリップボードへコピー</translation>
@@ -4119,15 +4040,11 @@ Do you want to overwrite?</source>
         <translation>シーク バー</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="427"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="428"/>
         <location filename="../mpcgui/mpcgui.cpp" line="429"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <source>+%1</source>
         <translation>+%1</translation>
@@ -4156,7 +4073,6 @@ Do you want to overwrite?</source>
         <translation>編集(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="806"/>
         <location filename="../playlist.cpp" line="824"/>
         <source>Playlists</source>
         <translation>プレイリスト</translation>
@@ -4307,7 +4223,6 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="74"/>
         <location filename="../prefadvanced.cpp" line="392"/>
         <source>Advanced</source>
         <translation>詳細設定</translation>
@@ -4370,7 +4285,7 @@ Example: scale=512:-2,eq2=1.1</source>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
-例: resample=44100:0:0,volnorm	</translation>
+例: resample=44100:0:0,volnorm<byte value="x9"/></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="526"/>
@@ -4794,7 +4709,6 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>PrefDrives</name>
     <message>
-        <location filename="../prefdrives.ui" line="35"/>
         <location filename="../prefdrives.cpp" line="73"/>
         <source>Drives</source>
         <translation>ドライブ</translation>
@@ -4820,7 +4734,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>お使いの DVD デバイスを選択します。DVD の再生に使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="86"/>
         <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
         <translation>icon</translation>
@@ -4848,7 +4761,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="194"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>このオプションがチェックされている場合、smplayer は dvdnav を使用して DVD を再生します。dvdnav サポート付きでコンパイルされた mplayer の最近のバージョンを必要とします。</translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は dvdnav を使用して DVD を再生します。dvdnav サポート付きでコンパイルされた MPlayer の最近のバージョンを必要とします。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="197"/>
@@ -4879,7 +4792,6 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="85"/>
         <location filename="../prefgeneral.cpp" line="835"/>
         <source>General</source>
         <translation>全般</translation>
@@ -5351,14 +5263,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>再生の完了時に閉じる(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="329"/>
-        <location filename="../prefgeneral.cpp" line="336"/>
         <location filename="../prefgeneral.cpp" line="362"/>
         <source>fast</source>
         <translation>高速</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="330"/>
         <location filename="../prefgeneral.cpp" line="358"/>
         <source>slow</source>
         <translation>低速</translation>
@@ -5369,7 +5278,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>高速 - ATI カード</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="380"/>
         <location filename="../prefgeneral.cpp" line="409"/>
         <source>User defined...</source>
         <translation>ユーザー定義...</translation>
@@ -5435,7 +5343,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ここでは字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかると、SMPlayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または mkv ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;この欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合に字幕ストリームを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="228"/>
         <location filename="../prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
         <translation>出力ドライバー(&amp;T):</translation>
@@ -5714,7 +5621,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>キーボード(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="70"/>
         <location filename="../prefinput.ui" line="344"/>
         <source>icon</source>
         <translation>icon</translation>
@@ -5735,19 +5641,16 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ボタンの機能:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="143"/>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Media seeking</source>
         <translation>メディアのシーク</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="144"/>
         <location filename="../prefinput.cpp" line="345"/>
         <source>Volume control</source>
         <translation>ボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="145"/>
         <location filename="../prefinput.cpp" line="348"/>
         <source>Zoom video</source>
         <translation>ビデオの拡大と縮小</translation>
@@ -5893,7 +5796,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>機能なし</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="146"/>
         <location filename="../prefinput.cpp" line="351"/>
         <source>Change speed</source>
         <translation>速度の変更</translation>
@@ -6084,25 +5986,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ホイールの機能の変更</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="512"/>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Media &amp;seeking</source>
         <translation>メディアのシーク(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="526"/>
         <location filename="../prefinput.cpp" line="150"/>
         <source>&amp;Zoom video</source>
         <translation>ビデオの拡大と縮小(&amp;Z)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="519"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
         <translation>ボリューム コントロール(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="533"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>速度の変更(&amp;C)</translation>
@@ -6161,7 +6059,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="88"/>
         <location filename="../prefinterface.cpp" line="517"/>
         <source>Interface</source>
         <translation>インターフェイス</translation>
@@ -6172,7 +6069,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&lt;自動検出&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="154"/>
         <location filename="../prefinterface.cpp" line="157"/>
         <source>Default</source>
         <translation>既定</translation>
@@ -6193,7 +6089,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>シーク</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="133"/>
         <location filename="../prefinterface.cpp" line="530"/>
         <source>Recent files</source>
         <translation>最近使ったファイル</translation>
@@ -6309,7 +6204,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>解放されたときに位置へシークする</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="51"/>
         <location filename="../prefinterface.ui" line="577"/>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
@@ -6395,8 +6289,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>短いジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="560"/>
-        <location filename="../prefinterface.cpp" line="564"/>
         <location filename="../prefinterface.cpp" line="568"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>%1動作を選択するときに進むか戻る時間を選択します。</translation>
@@ -6447,7 +6339,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>タイム スライダーのドラッグ時に何をするかを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="513"/>
         <location filename="../prefinterface.cpp" line="578"/>
         <source>Seeking method</source>
         <translation>シーク方法</translation>
@@ -6563,7 +6454,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>幅(&amp;W):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="671"/>
         <location filename="../prefinterface.ui" line="704"/>
         <source>0</source>
         <translation>0</translation>
@@ -6632,13 +6522,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="74"/>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Performance</source>
         <translation>パフォーマンス</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="41"/>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Priority</source>
         <translation>優先度</translation>
@@ -6709,11 +6597,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>idle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="423"/>
-        <location filename="../prefperformance.ui" line="460"/>
-        <location filename="../prefperformance.ui" line="497"/>
-        <location filename="../prefperformance.ui" line="534"/>
-        <location filename="../prefperformance.ui" line="571"/>
         <location filename="../prefperformance.ui" line="608"/>
         <source>KB</source>
         <translation>KB</translation>
@@ -6731,7 +6614,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="327"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>dvd のチャプターへ高速シークする</translation>
+        <translation>DVD のチャプターへ高速シークする</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="89"/>
@@ -6756,7 +6639,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="332"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>dvd のチャプターへ高速シークする(&amp;S)</translation>
+        <translation>DVD のチャプターへ高速シークする(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
@@ -6946,17 +6829,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation>Youtube の品質</translation>
+        <translation>YouTube の品質</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>優先される youtube 動画の品質を選択します。</translation>
+        <translation>優先される YouTube 動画の品質を選択します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation>Youtube の品質(&amp;Q)</translation>
+        <translation>YouTube の品質(&amp;Q)</translation>
     </message>
 </context>
 <context>
@@ -7045,7 +6928,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="51"/>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
@@ -7076,7 +6958,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>字幕(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="44"/>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Autoload</source>
         <translation>自動読み込み</translation>
@@ -7127,9 +7008,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>スクリーンショットに字幕を含める</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="344"/>
-        <location filename="../prefsubtitles.ui" line="804"/>
-        <location filename="../prefsubtitles.cpp" line="448"/>
         <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Font</source>
         <translation>フォント</translation>
@@ -7140,7 +7018,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>字幕 (と OSD) に使用するフォントを選択します:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="428"/>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Size</source>
         <translation>サイズ</translation>
@@ -7574,7 +7451,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>このオプションは現在のビデオの字幕のサイズを変更しません。そうするには、字幕メニューからオプション &lt;i&gt;サイズ +&lt;/i&gt; および &lt;i&gt;サイズ -&lt;/i&gt; を使用します。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
         <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Default scale</source>
         <translation>既定のスケール</translation>
@@ -7791,7 +7667,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="64"/>
         <location filename="../preferencesdialog.cpp" line="130"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - ヘルプ</translation>
@@ -7850,7 +7725,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>[動作の一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメーターとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つより多くの動作を渡す場合に必要です。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="98"/>
         <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>メディア</translation>
@@ -7883,7 +7757,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>既定のものの代わりにミニ gui を開きます。</translation>
+        <translation>既定のものの代わりにミニ GUI を開きます。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="111"/>
@@ -7891,7 +7765,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>古い関連付けを復元してレジストリをクリーンアップします。</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="103"/>
         <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>使用法:</translation>
@@ -7914,7 +7787,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
-        <translation>デフォルト gui を開きます。</translation>
+        <translation>デフォルト GUI を開きます。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
@@ -7927,7 +7800,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>最初のビデオに読み込まれる字幕ファイルを指定します。</translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
         <translation>
@@ -7935,7 +7807,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
         <translation>
@@ -7950,7 +7821,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="123"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation>smplayer が構成ファイル (smplayer.ini、smplayer_files.ini...) を格納するディレクトリを指定します</translation>
+        <translation>SMPlayer が構成ファイル (smplayer.ini、smplayer_files.ini...) を格納するディレクトリを指定します</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="157"/>
@@ -7973,7 +7844,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation>mpc gui を開きます。</translation>
+        <translation>MPC GUI を開きます。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
@@ -8137,7 +8008,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>区切りの追加(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
         <translation>(区切り)</translation>
@@ -8232,31 +8102,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoEqualizer</name>
     <message>
-        <location filename="../videoequalizer.cpp" line="72"/>
         <location filename="../videoequalizer.cpp" line="73"/>
         <source>Contrast</source>
         <translation>コントラスト</translation>
     </message>
     <message>
-        <location filename="../videoequalizer.cpp" line="76"/>
         <location filename="../videoequalizer.cpp" line="77"/>
         <source>Brightness</source>
         <translation>明るさ</translation>
     </message>
     <message>
-        <location filename="../videoequalizer.cpp" line="80"/>
         <location filename="../videoequalizer.cpp" line="81"/>
         <source>Hue</source>
         <translation>色合い</translation>
     </message>
     <message>
-        <location filename="../videoequalizer.cpp" line="84"/>
         <location filename="../videoequalizer.cpp" line="85"/>
         <source>Saturation</source>
         <translation>鮮やかさ</translation>
     </message>
     <message>
-        <location filename="../videoequalizer.cpp" line="88"/>
         <location filename="../videoequalizer.cpp" line="89"/>
         <source>Gamma</source>
         <translation>ガンマ</translation>
@@ -8300,7 +8165,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="134"/>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
         <translation>ビデオのプレビュー</translation>
@@ -8421,7 +8285,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>情報なし</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="371"/>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
@@ -8495,7 +8358,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>プレビューはここで指定するビデオ用に作成されます。</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
         <translation>サムネイルは表に配置されます。</translation>
