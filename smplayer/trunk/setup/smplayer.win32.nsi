@@ -29,6 +29,12 @@
   !define SMPLAYER_PRODUCT_VERSION "${VER_MAJOR}.${VER_MINOR}.${VER_BUILD}.0"
 !endif
 
+!ifdef WIN64
+  !define SMPLAYER_BUILD_DIR "smplayer-build64"
+!else
+  !define SMPLAYER_BUILD_DIR "smplayer-build"
+!endif
+
   !define SMPLAYER_REG_KEY "Software\SMPlayer"
   !define SMPLAYER_APP_PATHS_KEY "Software\Microsoft\Windows\CurrentVersion\App Paths\smplayer.exe"
   !define SMPLAYER_DEF_PROGS_KEY "Software\Clients\Media\SMPlayer"
@@ -62,10 +68,20 @@
   ;Name and file
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
-!ifdef WITH_MPLAYER
-  OutFile "smplayer-${SMPLAYER_VERSION}-win32.exe"
-!else ifndef WITH_MPLAYER
-  OutFile "smplayer-${SMPLAYER_VERSION}-webdl.exe"
+!ifdef WIN64
+  !ifdef WITH_MPLAYER
+    OutFile "smplayer-${SMPLAYER_VERSION}-x64.exe"
+  !else ifndef WITH_MPLAYER
+    OutFile "smplayer-${SMPLAYER_VERSION}-dl-x64.exe"
+  !endif
+!else
+  !ifdef WITH_MPLAYER
+    ;OutFile "smplayer-${SMPLAYER_VERSION}-x86.exe"
+    OutFile "smplayer-${SMPLAYER_VERSION}-win32.exe"
+  !else ifndef WITH_MPLAYER
+    ;OutFile "smplayer-${SMPLAYER_VERSION}-dl-x86.exe"
+    OutFile "smplayer-${SMPLAYER_VERSION}-webdl.exe"
+  !endif
 !endif
 
   ;Version tab properties
@@ -74,14 +90,28 @@
   VIAddVersionKey "ProductVersion" "${SMPLAYER_VERSION}"
   VIAddVersionKey "FileVersion" "${SMPLAYER_VERSION}"
   VIAddVersionKey "LegalCopyright" ""
-!ifdef WITH_MPLAYER
-  VIAddVersionKey "FileDescription" "SMPlayer Installer (Offline)"
-!else ifndef WITH_MPLAYER
-  VIAddVersionKey "FileDescription" "SMPlayer Installer (Web Downloader)"
+!ifdef WIN64
+  !ifdef WITH_MPLAYER
+    VIAddVersionKey "FileDescription" "SMPlayer Installer x64 (Offline)"
+  !else ifndef WITH_MPLAYER
+    VIAddVersionKey "FileDescription" "SMPlayer Installer x64 (Web Downloader)"
+  !endif
+!else
+  !ifdef WITH_MPLAYER
+    ;VIAddVersionKey "FileDescription" "SMPlayer Installer x86 (Offline)"
+    VIAddVersionKey "FileDescription" "SMPlayer Installer (Offline)"
+  !else ifndef WITH_MPLAYER
+    ;VIAddVersionKey "FileDescription" "SMPlayer Installer x86 (Web Downloader)"
+    VIAddVersionKey "FileDescription" "SMPlayer Installer (Web Downloader)"
+  !endif
 !endif
 
   ;Default installation folder
+!ifdef WIN64
+  InstallDir "$PROGRAMFILES64\SMPlayer"
+!else
   InstallDir "$PROGRAMFILES\SMPlayer"
+!endif
 
   ;Get installation folder from registry if available
   InstallDirRegKey HKLM "${SMPLAYER_REG_KEY}" "Path"
@@ -164,13 +194,14 @@
   !include Sections.nsh
   !include WinVer.nsh
   !include WordFunc.nsh
+  !include x64.nsh
 
 ;--------------------------------
 ;Pages
 
   ;Install pages
   !insertmacro MUI_PAGE_WELCOME
-  !insertmacro MUI_PAGE_LICENSE "smplayer-build\Copying.txt"
+  !insertmacro MUI_PAGE_LICENSE "${SMPLAYER_BUILD_DIR}\Copying.txt"
 
   #Upgrade/Reinstall
   Page custom PageReinstall PageReinstallLeave
@@ -288,19 +319,19 @@ Section $(Section_SMPlayer) SecSMPlayer
   ${EndIf}
 
   SetOutPath "$INSTDIR"
-  File "smplayer-build\*"
+  File "${SMPLAYER_BUILD_DIR}\*"
 
   ;SMPlayer docs
   SetOutPath "$INSTDIR\docs"
-  File /r "smplayer-build\docs\*.*"
+  File /r "${SMPLAYER_BUILD_DIR}\docs\*.*"
 
   ;Qt imageformats
   SetOutPath "$INSTDIR\imageformats"
-  File /r "smplayer-build\imageformats\*.*"
+  File /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
 
   ;SMPlayer key shortcuts
   SetOutPath "$INSTDIR\shortcuts"
-  File /r "smplayer-build\shortcuts\*.*"
+  File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
 
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
@@ -354,7 +385,7 @@ SectionGroup $(MPlayerGroupTitle)
 
 !ifdef WITH_MPLAYER
     SetOutPath "$INSTDIR\mplayer"
-    File /r "smplayer-build\mplayer\*.*"
+    File /r "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 !else ifndef WITH_MPLAYER
@@ -462,7 +493,7 @@ SectionGroupEnd
 ${MementoSection} $(Section_IconThemes) SecThemes
 
   SetOutPath "$INSTDIR\themes"
-  File /r "smplayer-build\themes\*.*"
+  File /r "${SMPLAYER_BUILD_DIR}\themes\*.*"
 
 ${MementoSectionEnd}
 
@@ -471,7 +502,7 @@ ${MementoSectionEnd}
 ${MementoSection} $(Section_Translations) SecTranslations
 
   SetOutPath "$INSTDIR\translations"
-  File /r "smplayer-build\translations\*.*"
+  File /r "${SMPLAYER_BUILD_DIR}\translations\*.*"
 
 ${MementoSectionEnd}
 
@@ -495,7 +526,11 @@ Section -Post
   ${EndIf}
 
   ;Registry Uninstall information
+!ifdef WIN64
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name) (x64)"
+!else
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name)"
+!endif
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.berlios.de/forum"
@@ -655,6 +690,35 @@ FunctionEnd
 ;Installer functions
 
 Function .onInit
+
+!ifdef WIN64
+  ${IfNot} ${RunningX64}
+    MessageBox MB_OK|MB_ICONSTOP "A 64-bit Windows operating system is required to install this software."
+    Abort
+  ${EndIf}
+
+  SetRegView 32
+  ClearErrors
+  ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
+
+  IfErrors +3 0
+    MessageBox MB_OK|MB_ICONSTOP "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
+    Abort
+  
+  SetRegView 64
+!else
+  ${If} ${RunningX64}
+    SetRegView 64
+    ClearErrors
+    ReadRegStr $R0 HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
+
+    IfErrors +3 0
+      MessageBox MB_OK|MB_ICONSTOP "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+      Abort
+    
+    SetRegView 32
+  ${EndIf}
+!endif
 
   !ifdef PRE_RELEASE
     MessageBox MB_OK|MB_ICONINFORMATION "This is a pre-release version of SMPlayer. Please report all issues."
@@ -939,6 +1003,15 @@ SectionEnd
 ;Uninstaller functions
 
 Function un.onInit
+
+!ifdef WIN64
+  ${IfNot} ${RunningX64}
+    MessageBox MB_OK|MB_ICONSTOP "This installation can only be uninstalled on 64-bit Windows."
+    Abort
+  ${EndIf}
+
+  SetRegView 64
+!endif
 
   ;Check for admin on < Vista
   UserInfo::GetAccountType
