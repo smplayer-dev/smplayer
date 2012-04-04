@@ -9,11 +9,11 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "La instalación ya se está ejecutando."
 ${LangFileString} Installer_No_Admin "Debes tener permisos de administrador para instalar este programa."
-${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+${LangFileString} SMPlayer_Is_Running "SMPlayer se está ejecutando. Por favor, ciérralo e inténtalo de nuevo."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
-${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+${LangFileString} Win64_Required "Se necesita un Windows de 64 bits para instalar este programa."
+${LangFileString} Existing_32bitInst "Existe una versión de 32 bits instalada. Debes desinstalarla primero."
+${LangFileString} Existing_64bitInst "Existe una versión de 64 bits instalada. Debes desinstalarla primero."
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Accesos"
@@ -98,7 +98,7 @@ ${LangFileString} Application_Description "SMPlayer pretende ser un interfaz com
 ; Misc
 ${LangFileString} Info_Del_Files "Borrando ficheros..."
 ${LangFileString} Info_Del_Registry "Borrando claves del registro..."
-${LangFileString} Info_Del_Shortcuts "Borrande accesos..."
+${LangFileString} Info_Del_Shortcuts "Borrando accesos..."
 ${LangFileString} Info_Rest_Assoc "Restaurando asociaciones de ficheros..."
-${LangFileString} Info_RollBack "Rolling back changes..."
+${LangFileString} Info_RollBack "Deshaciendo cambios..."
 ${LangFileString} Info_Files_Extract "Extrayendo ficheros..."
