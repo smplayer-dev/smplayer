@@ -11,9 +11,9 @@ ${LangFileString} Installer_Is_Running "安装程序已经运行。"
 ${LangFileString} Installer_No_Admin "安装本程序时，您必须以管理员身份登录。"
 ${LangFileString} SMPlayer_Is_Running "一个 SMPlayer 实例正在运行。请退出 SMPlayer，然后再试一次。"
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
-${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+${LangFileString} Win64_Required "安装本软件需要 64 位 Windows 操作系统。"
+${LangFileString} Existing_32bitInst "一个 SMPlayer 的 32 位安装已经存在。您必须先卸载 32 位 SMPlayer。"
+${LangFileString} Existing_64bitInst "一个 SMPlayer 的 64 位安装已经存在。您必须先卸载 64 位 SMPlayer。"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "快捷方式"
