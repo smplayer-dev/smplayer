@@ -11,9 +11,9 @@ ${LangFileString} Installer_Is_Running "O instalador já está em execução."
 ${LangFileString} Installer_No_Admin "Tem que iniciar a sessão como administrador para instalar este programa."
 ${LangFileString} SMPlayer_Is_Running "Já existe uma instância SMPlayer em execução. Feche o SMPlayer e tente novamente."
 
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
-${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+${LangFileString} Win64_Required "Para instalar esta versão, tem que possuir um sistema de 64 bits."
+${LangFileString} Existing_32bitInst "Já existe uma instalação 32 bits do SMPlayer. Tem que a desinstalar antes de uma nova instalação."
+${LangFileString} Existing_64bitInst "Já existe uma instalação 64 bits do SMPlayer. Tem que a desinstalar antes de uma nova instalação."
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Atalhos"
@@ -32,14 +32,14 @@ ${LangFileString} Section_MPlayer "MPlayer (obrigatório)"
 !ifdef WITH_MPLAYER
 ${LangFileString} Section_MPlayer_Desc "MPlayer; necessário para a reprodução."
 !else ifndef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "MPlayer; necessário para a reprodução. (Precisa de uma ligação à Internet)"
+${LangFileString} Section_MPlayer_Desc "MPlayer; necessário para a reprodução. (precisa de uma ligação à Internet)"
 !endif
 
 ${LangFileString} Section_MPlayerCodecs "Codificadores"
 !ifdef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Codificadores opcionais para o MPlayer."
 !else ifndef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Codificadores opcionais para o MPlayer. (Precisa de uma ligação à Internet)"
+${LangFileString} Section_MPlayerCodecs_Desc "Codificadores opcionais para o MPlayer. (precisa de uma ligação à Internet)"
 !endif
 
 ${LangFileString} Section_MEncoder_Desc "Um programa complementar ao MPlayer, utilizado para codificar ou converter emissões de vídeo e áudio."
@@ -50,7 +50,7 @@ ${LangFileString} Section_IconThemes_Desc "Ícones adicionais para o SMPlayer."
 ${LangFileString} Section_Translations "Idiomas"
 ${LangFileString} Section_Translations_Desc "Idiomas adicionais para o SMPlayer."
 
-${LangFileString} MPlayer_Codec_Msg "O pacote de codificadores adiciona suporte para os formatos que ainda não foram implementados no MPlayer, tais como as novas variantes RealVideo e outros formatos não usuais.$\nNote que estes não serão necessários para os formatos mais comuns como DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPlayer_Codec_Msg "O pacote de codificadores adiciona suporte para os formatos que ainda não foram implementados no MPlayer, tais como as novas variantes RealVideo e outros formatos.$\nEstes codificadores não são necessários para os formatos mais comuns como DVDs, MPEG-1/2/4, etc."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "Selecione o tipo de instalação"
