@@ -58,6 +58,7 @@ echo ######      Backing up files       #######
 echo.
 
 ren %SMPLAYER_DIR%\smplayer.exe smplayer.bak
+ren %SMPLAYER_DIR%\smtube.exe smtube.bak
 ren %SMPLAYER_DIR%\mplayer\mplayer\config config.bak
 
 echo.
@@ -100,6 +101,7 @@ echo ######    Copying portable .exe    #######
 echo.
 
 copy /y %PORTABLE_EXE_DIR%\smplayer-portable.exe %SMPLAYER_DIR%\smplayer.exe
+copy /y %PORTABLE_EXE_DIR%\smtube-portable.exe %SMPLAYER_DIR%\smtube.exe
 
 echo.
 echo ######  Creating portable package  #######
@@ -113,9 +115,11 @@ rmdir %SMPLAYER_DIR%\screenshots
 del %SMPLAYER_DIR%\smplayer.ini
 del %SMPLAYER_DIR%\smplayer_orig.ini
 del %SMPLAYER_DIR%\smplayer.exe
+del %SMPLAYER_DIR%\smtube.exe
 del %SMPLAYER_DIR%\mplayer\mplayer\config
 del %SMPLAYER_DIR%\mplayer\fonts\local.conf
 ren %SMPLAYER_DIR%\smplayer.bak smplayer.exe
+ren %SMPLAYER_DIR%\smtube.bak smtube.exe
 ren %SMPLAYER_DIR%\mplayer\mplayer\config.bak config
 ren %SMPLAYER_DIR% smplayer-build
 
