@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+html, body {
+  background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+body {
+  margin: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #000000;
+}
+a {
+  color: #0069d6;
+  text-decoration: none;
+  line-height: inherit;
+  font-weight: inherit;
+}
+a:hover {
+  color: #0050a3;
+  text-decoration: underline;
+}
+p {
+  font-size: 13px;
+  font-weight: normal;
+  line-height:18px;
+  margin-bottom: 9px;
+}
+p small {
+  font-size: 11px;
+  color: #bfbfbf;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: #202020;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  color: #bfbfbf;
+}
+h1 {
+  margin-bottom: 18px;
+  font-size: 30px;
+  line-height: 36px;
+}
+h1 small {
+  font-size: 18px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h2 small {
+  font-size: 14px;
+}
+h3,
+h4,
+h5,
+h6 {
+  line-height: 36px;
+}
+h3 {
+  font-size: 18px;
+}
+h3 small {
+  font-size: 14px;
+}
+h4 {
+  font-size: 16px;
+}
+h4 small {
+  font-size: 12px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 13px;
+  color: #bfbfbf;
+  text-transform: uppercase;
+}
+ul, ol {
+  margin: 0 0 18px 25px;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+ul {
+  list-style: disc;
+}
+ol {
+  list-style: decimal;
+}
+li {
+  line-height: 18px;
+  color: #000;
+}
+pre {
+  background-color: #E0E0E0;
+  padding: 6px;
+  width: 950px;
+  font-family: Consolas,monospace;
+  line-height: 19px;
+}
+</style>
+<title>SMPlayer - Sarri Egindako Galderak</title>
+</head>
+<body>
+
+<h1>SMPlayer - Sarri Egindako Galderak</h1>
+<ol>
+<li><a href="#smplayer_mplayer">Batzuetan irakurtzen dut SMPlayer, besteetan MPlayer, zer dira? Gauza bera dira?</a></li>
+<li><a href="#mplayer2">Zer da MPlayer2-ri buruz?</a></li>
+<li><a href="#qt">Qt buruzko zerbait irakurri dut, zer da?</a></li>
+<li><a href="#dvd_menus">DVD menuak, non daude?</a></li>
+<li><a href="#output_drivers">Irteera gidagailuak (directx, xv, x11, gl, alsa, oss...) zer dira? Zein da hoberena?</a></li>
+<li><a href="#screenshot">Ikusleiho-argazki bat egiten saiatu naiz baina aukera ezagaituta dago, zergaitik?</a></li>
+<li><a href="#audio_track">Audio bidea aldatzen saiatu naiz baina ez dabil, audioak berdin jarraitzen du. Bideoa gelditu eta berriro abiarazi behar dut audio bidea eguneratzeko. Zergaitik?</a></li>
+<li><a href="#shortcuts">Nola aldatu ditzaket lasterteklak?</a></li>
+<li><a href="#codecs">Bideo heuskarri batzuekin audioa besterik ez dut, baina ez bideoa. Zergaitik? Kodek batzuk behar ditut?</a></li>
+<li><a href="#open_quit">Zein alde dago Ireki -> Itxi eta Ireki -> Amaitu artean? Ez dute gauza bera egiten?</a></li>
+<li><a href="#audio_cd">Nola irakurri dezaket audio CD bat?</a></li>
+<li><a href="#mplayer_errors">Agiri bat irakurtzen saiatu naiz baina ez da ezer gertatzen. Zergaitik?</a></li>
+<li><a href="#mplayer_restart">Menuko aukera pilo batek bideoa une batez zuri jartzen dute. Zergaitik?</a></li>
+<li><a href="#crash">SMPlayer matxuratu da, baina audioa ez da gelditzen, zergaitik?</a></li>
+<li><a href="#mplayer_recommended">MPlayerren zein bertsio gomendatzen da?</a></li>
+<li><a href="#subtitles_border">Azpidatziak hertz beltzean erakustea nahi ditut irudian ordez, nola egin dezaket?</a></li>
+<li><a href="#expand_filter">Azpidatziak hertz beltzean erakustea nahi ditut bideo GUZTIETAN, ahal da?</a></li>
+<li><a href="#screensaver1">Ikusleiho-babeslea ez da itzaltzen, zergaitik?</a></li>
+<li><a href="#multithread">MPlayer hari-anitzekoa da? Nola aurreratu dezaket nire CPU nukleo guztiak erabiltzeko?</a></li>
+<li><a href="#osdfontsize">Nola zehaztu dezaket hizki neurria OSD-an (Ikusleiho Gainean Erakutsi)?</a></li>
+<li><a href="#config_file">Non daude itxurapen agiriak?</a></li>
+<li><a href="#win_multimonitors">(Windows) Bideoa 1. monitorean ikusten da baina 2.-ean ez, zergaitik?</a></li>
+<li><a href="#win_aero">(Windows) Bideo bat irakurtzen dudan bakoitzean Aero ezgaitu egiten da, zergaitik?</a></li>
+<li><a href="#win_shortnames">(Windows) Ezin ditut ireki agiriak hizki-kode bereziekin edo ez-Ingelerazkoekin, zergaitik?</a></li>
+</ol>
+
+<hr>
+
+<h4><span id="smplayer_mplayer">Batzuetan irakurtzen dut SMPlayer, besteetan MPlayer, zer dira? Gauza bera dira?</span></h4>
+<p>Ez, bi aplikazio ezberdin dira. MPlayer multimedia irakurgailu bat da, hasieran Linuxerako garatua eta gero beste sistema eragile batzuetara ekarria. Oso ona da, ia den dena irakurtzen du, eta iragazki pilo bat ditu eta abar. Baina erabiltzaile gehienek erabiltzeko zaila aurkitzen dute.</p>
+
+<p>Zorionez, MPlayerrek beste aplikazio batekin batera lan egin dezake (bideo leihoa beste aplikazio baten EIG-n barneratu daiteke, aplikazioak bidalitako aginduak betetzen ditu). Hortaz SMPlayer aurre-amaiera bat besterik ez da egitan MPlayer erabiltzen duena bideoak irakurtzeko.</p>
+
+<p>SMPlayer zuk ikusten duzun leihoa da, menuak, hobespen elkarrizketa... (ikusten ez dituzun beste gauza batzuekin batera, MPlayerren aginte eginkizunak bezala). Baina SMPlayerrek ez daki ezer agiri irakurketaz. Ez daki kodek bat zer den ere. MPlayerrek beste alde batean, agiriak ireki, dekodeatu, bideoa erakutsi eta audioa irakurtzen du. Azpidatziak ere MPlayerrek irakurri, aztertu eta erakusten ditu ikusleihoan.</p>
+
+<h4><span id="mplayer2">Zer da MPlayer2-ri buruz?</span></h4>
+<p>MPlayer2 MPlayerren adar bat da. MPlayer2-k <a href="http://www.mplayer2.org/comparison.html">hobekuntza eta ezaugarri</a> ugari eskaintzen ditu MPlayerren aldean eta bateragarria da SMPlayerrekin.</p>
+
+<h4><span id="qt">Qt buruzko zerbait irakurri dut, zer da?</span></h4>
+<p>SMPlayer Qt erabiliz garatzen da, hau plataforma-anitzerako garapena ahalbidetzen duen C++ liburutegi bat da. Ituruburu kode bera bildu daiteke
+Windows, Linux eta  Mac SE-an. Argibide gehiago: <a href="http://qt.nokia.com/products/">http://qt.nokia.com/products/</a>.</p>
+
+<h4><span id="dvd_menus">DVD menuak, non daude?</span></h4>
+<p>SMPlayer Gidagailu hobespenetan (Aukerak - Hobespenak - Gidagailuak), gaitu "Gaitu DVD menuak (Esperimentala)" aukera eta ezarri zure DVD gidagailua. Ezaugarri honek libdvdnav sostengua duen MPlayer eraiketa berri bat behar du.</p>
+
+<h4><span id="output_drivers">Irteera gidagailuak (directx, xv, x11, gl, alsa, oss...) zer dira? Zein da hoberena? Zein da hoberena?</span></h4>
+<p>MPlayerrek irteera gidagailu ugari ditu, bideo eta soinurako. SMPlayerrek berain artean nahi duzuna hautatzea ahalbidetzen dizu (<i>Hobespenak -> Orokorra -> Bideoa/Audioa</i>).</p>
+<p>Bideoarentzako gomendatzen da erabiltzea xv (Linuxen) edo directx (Windowsen). Hauek hardware bizkorpena erabiltzen dute eta egintza hoberena ematen dute. Directx-ren alde txarra Aero ezgaitzen duela da Windows Vista eta ondorengoetan.
+<p>x11 eta directx:noaccel hardware bizkorpen gabeko gidagailuak dira. Hauek egintza okerrena ematen dute. Bestalde directx:noaccel-ek ontasun txarra ematen du ikusleiho-osoko moduan.</p>
+<p>gl eta gl2-k 3D bizkorpena erabiliko dute grafika txarteletik. Directx:noaccel eta x11-k baino egintza hobea emango dute baina ez directx edo xv-k bezain ona. gl/gl2 erabilgarriak izan daitezke Windows Vista eta ondorengoen erabiltzaileentzat.</p>
+<p>Soinuarentzat, arrunt alsa erabili behar duzu Linuxen. Nik ez ditut gogoko esd edo arts, CPU gehiago erabiltzeko erabiltzen dituztenak.</p>
+<p>Windowsen soinu gidagailuak dsound eta win32 dira. Irakurri dut dsound-ek audio-bideo aldiberetze arazoak eragin ditzakeela batzuetan. Arazo hori nabaritzen baduzu saiatu win32-rekin ordez.</p>
+<p>Beste gidagailu batzuek bideoa irudi agiri bezala gordetzea edo soinua diskan idaztea ahalbidetzen dizute. Gidagailu hauek ez daude ofizialki sostengatuta SMPlayerren. Erabili itzazu bakarrik zer egiten ari zaren badakizu.</p>
+
+<h4><span id="screenshot">Ikusleiho-argazki bat egiten saiatu naiz baina aukera ezagaituta dago, zergaitik?</span></h4>
+<p>Ez duzu agiriterik hautatu ikusleiho-argazkiak biltegiratzeko. Egizu hemen: <i>Hobespenak -> Orokorra</i>, eta ikusleiho-argazki aukera gaitu egingo da.</p>
+
+<h4><span id="audio_track">Audio bidea aldatzen saiatu naiz baina ez dabil, audioak berdin jarraitzen du. Bideoa gelditu eta berriro abiarazi behar dut audio bidea eguneratzeko. Zergaitik?</span></h4>
+<p>Zenbait heuskarrirekin (mp4 edo ogm bezalakoak), MPlayerrek ezin du audio bidea aldatu ekinean dagoela. "Audio bide aldaketa azkarra" (<i>Hobespenak -> Performantzia</i>) aukera ezgaituz gero audio bidez aldatu ahalko zara heuskarri hauetan.</p>
+
+<h4><span id="shortcuts">Nola aldatu ditzaket lasterteklak?</span></h4>
+<p>Hobespenak -> Teklatua eta sagua. Lastertekla gehienak aldatu ahalko dituzu.</p>
+
+<h4><span id="codecs">Bideo heuskarri batzuekin audioa besterik ez dut, baina ez bideoa. Zergaitik? Kodek batzuk behar ditut?</span></h4>
+<p>MPlayerrek heuskarri arrunt gehienak irakurri ditzake "kutxatik kanpo". Baina oraindik jatorrian gehitu ez diren kodekentzat, beharrezkoa da kodek binario pakete bat ezartzea. Hau hemen lortu dezakezu: <a href="http://www.mplayerhq.hu/design7/dload.html">MPlayer jeisketa orrialdea</a>.</p>
+<p>Windowsen, ezarri kodekak mplayer\codecs azpizuzenbidean. Linux distros-etan paketea eskuragarri egon daiteke pakete arruntetan, agian w32codecs izenarekin edo
+horrelako zerbait.</p>
+
+<h4><span id="open_quit">Zein alde dago Ireki -> Itxi eta Ireki -> Amaitu artean? Ez dute gauza bera egiten?</span></h4>
+<p>"Erakutsi ikurra erabide erretiluan" (Aukerak menuan) aukera ez badago hautatuta, orduan bai, bi aukerek gauza berdina egiten dute: aplikazioa utzi.</p>
+<p>Baina aukera hori gaituta badago, orduan <i>Open -> Itxi</i> aplikazioa ezkutatu besterik ez du egingo (eta uneko agiria gelditu), baina SMPlayer oraindik ekinean dago. <i>Ireki -> Amaitu</i> egitan uzten du aplikazioa, berdin da erabide erretilu ikurra gaituta dagoen edo ez.</p>
+
+<h4><span id="audio_cd">Nola irakurri dezaket audio CD bat?</span></h4>
+<p>CD irakurketarako sostengua 0.5.18 bertsioan gehitu zen.</p>
+<p>Windowsen oraingoz ezinezkoa da audio CD-ak irakurtzea.</p>
+
+<h4><span id="mplayer_errors">Agiri bat irakurtzen saiatu naiz baina ez da ezer gertatzen. Zergaitik?</span></h4>
+<p>Zihurrenik MPlayerrek ezin du agiria irakurri. Ireki mplayer oharra (<i>Aukerak -> Ikusi oharrak -> MPlayer</i>), zihurrenik akats mezu bat aurkituko duzu azken lerroetan.</p>
+<p>Windowsen oso arrunta da MPlayerren zenbait eraiketek huts egitea zeren SMPlayer erabiltzen saiatzen den ezaugarri batzuentzako sostengu gabe bildu ziren. Akats mezuak zantzu bat eman ahalko dizu. Katxeaz kexatzen bada, saiatu katxea ezgaitzen <i>Hobespenak -> Performantzia</i>. Hizki itxurapenaz kexatzen bada, saiatu ttf hizkia erabiltzen sistemaren hizkiaren ordez <i>Hobespenak -> Azpidatziak -> Hizkiak eta margoak -> Gaitu azpidatzi arruntak</i>.</p>
+
+<h4><span id="mplayer_restart">Menuko aukera pilo batek bideoa une batez zuri jartzen dute. Zergaitik?</span></h4>
+<p>Aukera batzuek MPlayer prozesua gelditu eta parametro berriekin berrabiaraztea behar dute. Horregaitik eteten da une batez.</p>
+
+<h4><span id="crash">SMPlayer matxuratu da, baina audioa ez da gelditzen, zergaitik?</span></h4>
+<p>SMPlayer matxuratu  da, baina MPlayer oraindik ekinean dago. Amaitu MPlayer prozezua ataza-kudeatzailean.</p>
+<p>Edonola SMPlayer matxuratzen bada, zuzendu beharreko akats larria da. Jakinarazi ezazu.</p>
+
+<h4><span id="mplayer_recommended">MPlayerren zein bertsio gomendatzen da?</span></h4>
+<p>Gomendatzen dut erabiltzea gutxienez MPlayer SVN r33216 (2011-04-05) edo MPlayer2, baina SVN/git-eko bertsio berri bat hobea litzake kodek hobetuen sostengurako eta akatsen zuzenketarako.</p>
+<p>SMPlayer saiatuko da ahal duena egiten bertsio zaharragoekin lan egiteko, baina zenbait aukerek badaiteke lanik ez egitea.</p>
+
+<h4><span id="subtitles_border">Azpidatziak hertz beltzean erakustea nahi ditut irudian ordez, nola egin dezaket?</span></h4>
+<p><i>Bideo iragazkiak -> Gehitu hertz beltzak</i></p>
+
+<h4><span id="expand_filter">Azpidatziak hertz beltzean erakustea nahi ditut bideo GUZTIETAN, ahal da? </span></h4>
+<p><b>expand=:::::4/3</b> bezalako bideo iragazki bat gehitu dezakezu hemen: <i>Hobespenak -> Aurreratua -> MPlayer aukerak</i>.</p>
+Beste aukera batzuk:
+<ul>
+<li>Hautatu <b>Gehitu hertz beltzak ikusleiho-osoan</b> <i>Hobespenak -> Orokorra -> Bideoa</i></li>
+<li>Gehitu <b>add_letterbox true</b> ekintza zerrendaren eremuan <i>Hobespenak -> Aurreratua</i></li>
+</ul>
+
+<h4><span id="screensaver1">Ikusleiho-babeslea ez da itzaltzen, zergaitik?</span></h4>
+MPlayerren bertsio berri bat erabiltzen baduzu badaiteke hau bezalako lerro bat gehitu behar izatea zure ~/.mplayer/config:
+<p></p>
+(gnome) 
+<p></p>
+<pre>heartbeat-cmd="gnome-screensaver-command -p &amp;>/dev/null"</pre>
+<p></p>
+(kde)
+<p></p>
+<pre>heartbeat-cmd="dcop kdesktop KScreensaverIface enable false &amp;>/dev/null &amp;&amp; dcop kdesktop KScreensaverIface enable true &amp;>/dev/null"</pre>
+<p></p>
+<p>Mesedez bota begirada bat MPlayerren eskuliburu orrialdeari argibide gehiagorako.</p>
+
+<h4><span id="multithread">MPlayer hari-anitzekoa da? Nola aurreratu dezaket nire CPU nukleo guztiak erabiltzeko?</span></h4>
+Hari-anitzeko dekodeaketak MPlayerren edo FFmpeg-mt eraiketa berri bat behar du Linuxen. MPlayer2-k berezgaitasunez erabiltzen ditu nukleo guztiak, baina MPlayerrek eskuzko zehazpena behar du. Dekodeaketarako hari zenbatekoa hemen zehaztu dezakezu: <i>Hobespenak -> Performantzia</i>. Ezarri hau zure ordenagailuak dituen nukleo (eta hariak hyperthreaded Intel CPU-en kasuan) zenbatekoaren berdin edo gutxiagon. Ezarri zure CPU-ak duen gaitasunaren bezain handia edo ez du eraginik izango.
+
+<h4><span id="osdfontsize">Nola zehaztu dezaket hizki neurria OSD-an (Ikusleiho Gainean Erakutsi)?</span></h4>
+<p>OSD-ko hizki neurria zehazteko, MPlayerretik denbora eta beste mezu batzuk erakusten dituena ikusleihoaren goi-ezker bazterrean, joan <i>Hobespenak -&gt; Aurreratua -&gt; MPlayer aukerak</i>, eta <b>Aukerak:</b> eremuan, gehitu hurrengo hau:
+<pre>-subfont-autoscale 0 -subfont-osd-scale <i>y</i></pre>
+<p></p>
+<p>Non <i>y</i> zuk hobetsitako neurria den. Berezko balioa <i>-subfont-osd-scale</i> 20 da.</p>
+
+<h4><span id="config_file">Non daude itxurapen agiriak?</span></h4>
+<p>SMPlayerren itxurapen agiri nagusia <i>smplayer.ini</i> da. Zure itxurapenaren arabera, gordetzen dira banakako ezarpen agiriak <i>smplayer_files.ini</i> (ini agiri bat) edo <i>file_settings</i> azpizuzenbidean (ini agiri anitz). Zure SE-ren arabera helbidetuta daude:</p>
+<pre><b>Linux</b> 	                        $HOME/.config/smplayer
+<b>Windows 2000/XP</b> 	        C:\Agiriak eta Ezarpenak\&lt;zure_erabitzaile-izena&gt;\.smplayer
+<b>Windows Vista/7</b>    	        C:\Erabiltzaileak\&lt;zure_erabiltzaile-izena&gt;\.smplayer</pre>
+<p></p>
+<p>Baita ere ikusi dezakezu SMPlayer oharrean (<i>Aukerak -> Ikusi oharrak</i>), bilatu hau bezalako lerro bat:</p>
+<pre>
+ * ini path: '/users/xabier/.config/smplayer'
+</pre>
+<p></p>
+<p><i>smplayer.ini</i>-k SMPlayerren itxurapena biltegiratzen du eta <i>smplayer_files.ini</i>-k zuk irakurritako agirien ezarpenak biltegiratzen ditu.</p>
+<p>Oharra: Linuxen, <i>.config</i> berez ezkutatua egon daiteke. Zihurtatu gaitzeaz ezkutuko agiriak eta agiritegiak zure agiri kudeatzailean.</p>
+
+<h4><span id="win_multimonitors">(Windows) Bideoa 1. monitorean ikusten da baina 2.-ean ez, zergaitik?</span></h4>
+<p><i>directx</i> bideo gidagailu bezala erabiltzen duzunean (<i>Hobespenak -> Orokorra -> Bideoa</i>) bideoa monitore bakar batean erakutsi daiteke. Honen ordez <i>gl</i>, <i>gl2</i> edo <i>direct3d</i> erabiltzen baduzu bideoa edozein monitoretan erakutsiko da..</p>
+<p>Edonola <i>directx</i> erabiltzea nahiago baduzu bideoa erakutsiko den ikusleihoa hautatu dezakezu menuan <i>Bideoa -> Ikusleihoa</i>.</p>
+
+<h4><span id="win_aero">(Windows) Bideo bat irakurtzen dudan bakoitzean Aero ezgaitu egiten da, zergaitik?</span></h4>
+<p>Hau gertatzen da <i>directx</i> bideo gidagailu bezala erabiltzerakoan (<i>Hobespenak -> Orokorra -> Bideoa</i>). Aldatu dezakezu hona: <i>gl</i>, <i>gl2</i> edo <i>direct3d</i>.</p>
+
+<h4><span id="win_shortnames">(Windows) Ezin ditut ireki agiriak hizki-kode bereziekin edo ez-Ingelerazkoekin, zergaitik?</span></h4>
+<p>Ezin baduzu hizki-kode bereziekin edo ez-Ingelerazkoekin agiririk ireki, gaitu <i>Bidali agirizen laburrak (8+3) MPlayerri</i>. Aukerak -&gt; Hobespenak -&gt; Aurreratua arazo honen inguruan lan egiteko.</p>
+
+</body>
+</html>
