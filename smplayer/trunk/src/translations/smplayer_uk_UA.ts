@@ -16,7 +16,7 @@
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Spanish</source>
-        <translation type="unfinished">Іспанська</translation>
+        <translation>Іспанська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
@@ -284,37 +284,37 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Croatian</source>
-        <translation type="unfinished">Хорватська</translation>
+        <translation>Хорватська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовується MPlayer2 %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer використовує заслужено відомий MPlayer для відтворення. Дивіться %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>Читати повну ліцензію</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Читати переклад</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Пакети для Windows створено %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Багато людей внесли свій вклад своїми патчами. Більш детально перегляньте Changelog.</translation>
     </message>
 </context>
 <context>
@@ -1055,12 +1055,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1493"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Зменшити полосатість (&amp;gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1550"/>
         <source>&amp;YouTube browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Переглядач &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1585"/>
@@ -1140,78 +1140,78 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Зниження ш&amp;умів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмиття/Ч&amp;іткість</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">&amp;Вимк</translation>
+        <translation>&amp;Вимкнено</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Нормальне</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Програмне</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;Немає</translation>
+        <translation>&amp;Немає</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Розмиття</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Чіткість</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - журнал mplayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - журнали smplayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2714"/>
         <source>Information</source>
-        <translation type="unfinished">Відомості</translation>
+        <translation>Відомості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2715"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Необхідно перезапустити SMPlayer для використання нового інтерфейсу.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4661"/>
         <source>An error happened - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Виникла помилка - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4661"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск переглядача YouTube неможливий</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1598"/>
@@ -1334,7 +1334,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished">&amp;Вимк</translation>
+        <translation>&amp;Вимкнено</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1607"/>
@@ -1349,7 +1349,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1737"/>
         <source>&amp;Off</source>
-        <translation>&amp;Вимк</translation>
+        <translation>&amp;Вимкнено</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1738"/>
@@ -1737,47 +1737,47 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1564"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Зробити пожертву</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Закриті субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3689"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Зробити пожертву</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3690"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо Вам подобається SMPlayer, найкращий спосіб підтримати його - зробити пожертву, навіть невеличкий внесок високо цінується.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3691"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви можете відправити вашу пожертву, використовуючи %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3691"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>цю форму</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1650"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Диск</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Улюблене</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірити &amp;оновлення</translation>
     </message>
 </context>
 <context>
@@ -1939,17 +1939,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="504"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>З&apos;єднання з %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="508"/>
         <source>Unable to retrieve youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вдається витягти сторінку youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="512"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вдається визначити url відео</translation>
     </message>
 </context>
 <context>
@@ -2012,22 +2012,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="515"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати головну &amp;панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="516"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати панель &amp;керування</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="517"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати &amp;міні-панель керування</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="518"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати с&amp;пливаючу панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="549"/>
@@ -2146,12 +2146,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Новий елемент</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Новий &amp;субелемент</translation>
     </message>
 </context>
 <context>
@@ -2169,27 +2169,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">&amp;Редагувати...</translation>
+        <translation>&amp;Редагувати...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Перейти...</translation>
+        <translation>&amp;Перейти...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Наступний</translation>
+        <translation>&amp;Наступний</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Попередній</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Додати поточне медіа</translation>
     </message>
 </context>
 <context>
@@ -2197,7 +2197,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Клікніть для вибору файла чи теки</translation>
     </message>
 </context>
 <context>
@@ -2401,12 +2401,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервер</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;ервер Opensubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -2479,7 +2479,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Португальський (Бразилія)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
@@ -2494,16 +2494,16 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="564"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n субтитр витягнутий</numerusform>
+            <numerusform>%n субтитра витягнуті</numerusform>
+            <numerusform>%n субтитрів витягнуто</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Помилка виправлення рядків субтитрів</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -3324,7 +3324,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Норвезька Нюношк</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4090,12 +4090,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="160"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати панель &amp;керування</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="161"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати с&amp;пливаючу панель</translation>
     </message>
 </context>
 <context>
@@ -4108,7 +4108,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Полоса перемотки</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="427"/>
@@ -4293,7 +4293,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Мультимедіа</translation>
+        <translation>Мультимедіа</translation>
     </message>
 </context>
 <context>
@@ -4402,12 +4402,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="526"/>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="591"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="597"/>
@@ -4697,17 +4697,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображати інформацію з тегів у заголовку вікна</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція ввімкнена, в заголовку вікна буде відображена інформація з тегів. Якщо ні - буде показано лише ім&apos;я файла.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="261"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображати інформацію з тегів у &amp;заголовку вікна</translation>
     </message>
 </context>
 <context>
@@ -5660,32 +5660,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="337"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим знімків</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="338"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим повільних скачків</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="388"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим uniaud</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим ривків</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="985"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 рекомендований режим. %2 доступний тільки на старих версіях MPlayer (до версії %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Налаштування...</translation>
     </message>
 </context>
 <context>
@@ -6588,37 +6588,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="527"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ховати вікно відео при відтворенні аудіофайлів</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="528"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>При ввімкненні цієї опції при відтворенні аудіофайла вікно відео буде сховано.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="108"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ховати вікно відео при відтворенні аудіофайлів</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Точне позиціонування</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="584"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>При ввімкненні цієї опції, перемотка буде більш точною, але може бути трішки повільнішою. Може не працювати з деякими форматами відео.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>Увага: ця опція працює тільки з MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="561"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Точне позиціонування</translation>
     </message>
 </context>
 <context>
@@ -6938,17 +6938,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Якість відео з YouTube</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть бажану якість для відео з YouTube.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Якість відео з &amp;YouTube</translation>
     </message>
 </context>
 <context>
@@ -7922,20 +7922,20 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n секунда</numerusform>
+            <numerusform>%n секунди</numerusform>
+            <numerusform>%n секунд</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n хвилина</numerusform>
+            <numerusform>%n хвилини</numerusform>
+            <numerusform>%n хвилин</numerusform>
         </translation>
     </message>
     <message>
@@ -7994,7 +7994,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="172"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;елемент&apos; – будь-який тип файла, який може відкрити SMPlayer. Це може бути файл, DVD (напр. dvd://1), інтернет-потік (напр. mms://....) чи локальний список у форматі m3u чи pls.</translation>
     </message>
 </context>
 <context>
@@ -8095,73 +8095,73 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор панелів інструментів</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Доступні дії:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>В&amp;ліво</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>В&amp;право</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">В&amp;низ</translation>
+        <translation>В&amp;низ</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">В&amp;гору</translation>
+        <translation>В&amp;гору</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Поточні дії:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати &amp;розділювач</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(розділювач)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Повнунок часу</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Повнунок гучності</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Відображення часу</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3 в 1 перемотка назад</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3 в 1 перемотка вперед</translation>
     </message>
 </context>
 <context>
@@ -8187,42 +8187,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкажіть кодеки vdpau для використання. Деякі можуть не працювати.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Вимкнути програмні відеофільтри</translation>
     </message>
 </context>
 <context>
