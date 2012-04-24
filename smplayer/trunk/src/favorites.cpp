@@ -177,6 +177,8 @@ int Favorites::findFile(QString filename) {
 void Favorites::next() {
 	qDebug("Favorites::next");
 
+	if (f_list.count()==0) return;
+
 	int current = findFile(current_file);
 
 	int i = current;
@@ -196,6 +198,8 @@ void Favorites::next() {
 
 void Favorites::previous() {
 	qDebug("Favorites::previous");
+
+	if (f_list.count()==0) return;
 
 	int current = findFile(current_file);
 
