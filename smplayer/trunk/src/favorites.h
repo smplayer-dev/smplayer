@@ -89,6 +89,7 @@ protected:
 
 	// Mark current action in the menu
 	void markCurrent();
+	bool anyItemAvailable();
 
 protected slots:
 	void triggered_slot(QAction * action);

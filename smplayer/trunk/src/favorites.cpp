@@ -174,10 +174,24 @@ int Favorites::findFile(QString filename) {
 	return -1;
 }
 
+bool Favorites::anyItemAvailable() {
+	if (f_list.isEmpty()) return false;
+
+	bool item_available = false;
+	for (int n = 0; n < f_list.count(); n++) {
+		if (!f_list[n].isSubentry()) {
+			item_available = true;
+			break;
+		}
+	}
+
+	return item_available;
+}
+
 void Favorites::next() {
 	qDebug("Favorites::next");
 
-	if (f_list.count()==0) return;
+	if (!anyItemAvailable()) return;
 
 	int current = findFile(current_file);
 
@@ -199,7 +213,7 @@ void Favorites::next() {
 void Favorites::previous() {
 	qDebug("Favorites::previous");
 
-	if (f_list.count()==0) return;
+	if (!anyItemAvailable()) return;
 
 	int current = findFile(current_file);
 
