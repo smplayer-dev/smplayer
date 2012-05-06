@@ -91,6 +91,7 @@ ${LangFileString} VerInfo_DL_Failed "Не удалось загрузить ин
 ${LangFileString} Uninstaller_No_Admin "Эта установка может быть удалена только пользователем с правами администратора."
 ${LangFileString} Uninstaller_Aborted "Удаление прервано пользователем."
 ${LangFileString} Uninstaller_NotInstalled "Не похоже, что SMPlayer установлен в каталог '$INSTDIR'.$\r$\nПродолжить всё равно (не рекомендуется)?"
+${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer - полноценная оболочка для MPlayer, начиная от базовых функций вроде воспроизведения видеофайлов, DVD, VCD и заканчивая более продвинутыми вроде поддержки фильтров MPlayer, списков и т.д."

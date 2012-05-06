@@ -91,6 +91,7 @@ ${LangFileString} VerInfo_DL_Failed "Hutsegitea bertsio argibideak jeisterakoan:
 ${LangFileString} Uninstaller_No_Admin "Ezarpen hau administrari eskubidea duen erabiltzaileak bakarrik kendu dezake."
 ${LangFileString} Uninstaller_Aborted "Kentzea erabiltzaileak utzita."
 ${LangFileString} Uninstaller_NotInstalled "Ez da agertzen SMPlayer zuzenbidean ezarrita dagoenik '$INSTDIR'.$\r$\nJarraitu horrela ere (ez da gomendagarria)?"
+${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer aurrealde-amaiera oso bat da MPlayer-entzat, ohinarrizko eginkizunetatik: Bideo, DVD, VCD irakurketatik, eginkizun aurreratuenetarainok: MPlayer iragazkiak, edl zerrenda, eta gehiago."

@@ -91,6 +91,7 @@ ${LangFileString} VerInfo_DL_Failed "Nepovedlo se stáhnout informace o verzích
 ${LangFileString} Uninstaller_No_Admin "Odinstalaci je potřeba provést s právy administrátora."
 ${LangFileString} Uninstaller_Aborted "Odinstalace přerušena uživatelem."
 ${LangFileString} Uninstaller_NotInstalled "V adresáři '$INSTDIR' není SMPlayer nainstalován .$\r$\nPokračovat (nedoporučeno)?"
+${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer je kompletní frontend pro MPlayer, podporuje vše od základních funkcí jako přehrávání videí, DVD, VCD až po pokročilé funkce jako filtry MPlayeru, edl a více."

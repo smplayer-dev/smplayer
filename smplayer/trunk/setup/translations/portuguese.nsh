@@ -91,6 +91,7 @@ ${LangFileString} VerInfo_DL_Failed "Ocorreu um erro ao transferir ao informaç�
 ${LangFileString} Uninstaller_No_Admin "Esta aplicação só pode ser desinstalada no modo de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalação cancelada pelo utilizador."
 ${LangFileString} Uninstaller_NotInstalled "Parece que o SMPlayer não está instalado no diretório '$INSTDIR'.$\r$\nContinuar (não recomendado)?"
+${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "O SMPlayer é um interface gráfico para o MPlayer, com funções simples como a reprodução de vídeos, DVDs e VCDs bem como outras mais avançadas(suporte a filtros MPlayer, listas e mais)."
