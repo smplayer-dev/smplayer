@@ -52,7 +52,7 @@
 !ifndef WITH_MPLAYER
 
   !ifndef DEFAULT_MPLAYER_VERSION
-    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-33216"
+    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-34835-2"
   !endif
 
 !endif
@@ -139,6 +139,7 @@
   Var Reinstall_UninstallButton
   Var Reinstall_UninstallButton_State
   Var SMPlayer_Path
+  Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
 
 ;--------------------------------
@@ -306,13 +307,13 @@ Section $(Section_SMPlayer) SecSMPlayer
   ${If} $Reinstall_Uninstall == 1
 
     ${If} $Reinstall_UninstallButton_State == 1
-      Exec '"$SMPlayer_Path\uninst.exe" /X'
+      Exec '"$SMPlayer_UnStrPath" /X'
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
       ${If} "$INSTDIR" == "$SMPlayer_Path"
-        ExecWait '"$SMPlayer_Path\uninst.exe" /S /R _?=$SMPlayer_Path'
+        ExecWait '"$SMPlayer_UnStrPath" /S /R _?=$SMPlayer_Path'
       ${Else}
-        ExecWait '"$SMPlayer_Path\uninst.exe" /S /R'
+        ExecWait '"$SMPlayer_UnStrPath" /S /R'
       ${EndIf}
     ${EndIf}
 
@@ -720,10 +721,6 @@ Function .onInit
   ${EndIf}
 !endif
 
-  !ifdef PRE_RELEASE
-    MessageBox MB_OK|MB_ICONINFORMATION "This is a pre-release version of SMPlayer. Please report all issues."
-  !endif
-
   ;Check if setup is already running
   System::Call 'kernel32::CreateMutexW(i 0, i 0, t "SMPlayerSetup") i .r1 ?e'
   Pop $R0
@@ -777,6 +774,7 @@ Function CheckPreviousVersion
 
   ClearErrors
   ReadRegStr $Previous_Version HKLM "${SMPLAYER_REG_KEY}" "Version"
+  ReadRegStr $SMPlayer_UnStrPath HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString"
   ReadRegStr $SMPlayer_Path HKLM "${SMPLAYER_REG_KEY}" "Path"
 
   ${IfNot} ${Errors}
