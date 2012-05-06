@@ -91,6 +91,7 @@ ${LangFileString} VerInfo_DL_Failed "Failed to download version info: '$R0'. Usi
 ${LangFileString} Uninstaller_No_Admin "This installation can only be uninstalled by a user with administrator privileges."
 ${LangFileString} Uninstaller_Aborted "Uninstall aborted by user."
 ${LangFileString} Uninstaller_NotInstalled "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
+${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
