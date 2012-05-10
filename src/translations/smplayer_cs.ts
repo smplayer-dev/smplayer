@@ -16,7 +16,7 @@
     <message>
         <location filename="../about.cpp" line="143"/>
         <source>Spanish</source>
-        <translation type="unfinished">Španělština</translation>
+        <translation>Španělská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="144"/>
@@ -284,37 +284,37 @@
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Croatian</source>
-        <translation type="unfinished">Chorvatština</translation>
+        <translation>Chorvatská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Používá Mplayer2 %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer používá oceněný přehrávač MPlayer jako přehrávací engine. Viz %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="85"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>Přečtěte si celou licenci</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="93"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Přečtěte si překlad</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Balíčky pro Windows vytvořil %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mnoho dalších licí přispělo pomocí patchů. Viz Changelog.</translation>
     </message>
 </context>
 <context>
@@ -583,12 +583,12 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished">&amp;Vypnuto</translation>
+        <translation>&amp;Vypnuto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1550"/>
         <source>&amp;YouTube browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Prohlížeč &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1664"/>
@@ -598,32 +598,32 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - log MPlayeru</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - log SMPlayeru</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2714"/>
         <source>Information</source>
-        <translation type="unfinished">Informace</translation>
+        <translation>Informace</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2715"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>K zobrazení nového GUI musíte restartovat SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4661"/>
         <source>An error happened - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastala chyba - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4661"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation type="unfinished"></translation>
+        <translation>Prohlížeč YouTube se nepodařilo spustit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1461"/>
@@ -768,7 +768,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../basegui.cpp" line="1493"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1566"/>
@@ -843,12 +843,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranění š&amp;umu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozmazání/&amp;zaostření</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
@@ -870,37 +870,37 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../basegui.cpp" line="1729"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">&amp;Vypnuto</translation>
+        <translation>&amp;Vypnuto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normální</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jemné</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">Žá&amp;dné</translation>
+        <translation>Žá&amp;dné</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rozmazat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zaostřit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -1737,47 +1737,47 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1564"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Přispět</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;kryté titulky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3689"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Přispět</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3690"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Máte-li rádi SMPlayer, můžete svou podporu vyjádřit zasláním příspěvku, i malý příspěvek je vítán.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3691"/>
         <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Příspěvek můžete zaslat pomocí %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3691"/>
         <source>this form</source>
-        <translation type="unfinished"></translation>
+        <translation>tohoto formuláře</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1650"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Disk</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Oblíbené</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkontrolovat a&amp;ktualizace</translation>
     </message>
 </context>
 <context>
@@ -1939,17 +1939,17 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="504"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojuji se k %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="508"/>
         <source>Unable to retrieve youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se získat stránku youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="512"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se získat url videa</translation>
     </message>
 </context>
 <context>
@@ -1987,22 +1987,22 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="515"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit hlavní liš&amp;tu</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="516"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit ovládací &amp;panel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="517"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit &amp;mini ovládací panel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="518"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit &amp;plovoucí ovládání</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="536"/>
@@ -2146,12 +2146,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nová položka</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Nové &amp;podmenu</translation>
     </message>
 </context>
 <context>
@@ -2169,27 +2169,27 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">&amp;Upravit...</translation>
+        <translation>&amp;Upravit...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Jdi na...</translation>
+        <translation>&amp;Jdi na...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Další</translation>
+        <translation>&amp;Další</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Předchozí</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat aktuální &amp;médium</translation>
     </message>
 </context>
 <context>
@@ -2197,7 +2197,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikněte pro výběr souboru nebo adresáře</translation>
     </message>
 </context>
 <context>
@@ -2401,12 +2401,12 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Server</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Server &amp;Opensubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -2479,7 +2479,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugalština - Brazílie</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
@@ -2494,16 +2494,16 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="564"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>získány %n titulky</numerusform>
+            <numerusform>získány %n titulky</numerusform>
+            <numerusform>získány %n titulků</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při opravě řádků titulků</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -3324,7 +3324,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norština Nynorsk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -4090,12 +4090,12 @@ Chcete jej opravdu přepsat?</translation>
     <message>
         <location filename="../minigui.cpp" line="160"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit &amp;ovládací panel</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="161"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit &amp;plovoucí ovládání</translation>
     </message>
 </context>
 <context>
@@ -4108,7 +4108,7 @@ Chcete jej opravdu přepsat?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="134"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Seekování</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="427"/>
@@ -4293,7 +4293,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="1020"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimédia</translation>
+        <translation>Multimédia</translation>
     </message>
 </context>
 <context>
@@ -4402,12 +4402,12 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="526"/>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="591"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="597"/>
@@ -4697,17 +4697,17 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit informace o tagu v názvu okna</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato položka začkrtnuta, informace z tagů bude zobrazena v názvu okna. Jinak se zobrazí pouze název souboru.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="261"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit in&amp;formace v názvu okna</translation>
     </message>
 </context>
 <context>
@@ -5660,32 +5660,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="337"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>snap mód</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="338"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>slower dive mód</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="388"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>uniaud mód</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>dart mód</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="985"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 je doporučené nastavení. %2 je dostupné pouze ve starší verzi MPlayeru (starší než %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nasta&amp;vit...</translation>
     </message>
 </context>
 <context>
@@ -6588,37 +6588,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="527"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrýt okno videa při přehrávání zvukových souborů</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="528"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost zaškrtnuta, okno vide nebude při přehrávání zvukových souborů vidět.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="108"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skrýt okna videa při přehrávání zvukových souborů</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="583"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Přesné seekování</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="584"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost zaškrtnuta, seekování bude přesnější, ale může být pomalejší. Pro některé formáty nemusí fungovat.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="586"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>Poznámka: tato možnost funguje pouze pro MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="561"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Přesné seekování</translation>
     </message>
 </context>
 <context>
@@ -6938,17 +6938,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvalita YouTube</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte preferovanou kvalitu videí z YouTube.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvalita &amp;YouTube</translation>
     </message>
 </context>
 <context>
@@ -7922,20 +7922,20 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n sekundu</numerusform>
+            <numerusform>%n sekundy</numerusform>
+            <numerusform>%n sekund</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minut</numerusform>
+            <numerusform>%n minuty</numerusform>
+            <numerusform>%n minut</numerusform>
         </translation>
     </message>
     <message>
@@ -7994,7 +7994,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="172"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;média&apos; znamená jakýkoli soubor, který SMPlayer dokáže otevřít. Může se jednat o soubor na disku, DVD (např. dvd://1), internetový přenos (např. mms://) nebo playlist ve formátu m3u nebo pls.</translation>
     </message>
 </context>
 <context>
@@ -8095,73 +8095,73 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Editor nástrojové lišty</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Možné akce:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Do&amp;leva</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Dop&amp;rava</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">&amp;Dolů</translation>
+        <translation>&amp;Dolů</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">N&amp;ahoru</translation>
+        <translation>&amp;Nahoru</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aktuální akce:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat &amp;oddělovač</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(oddělovač)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Posuvník času</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Posuvník hlasitosti</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazení času</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3 na 1 zpět</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3 na 1 vpřed</translation>
     </message>
 </context>
 <context>
@@ -8187,42 +8187,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte VDPAU kodeky, které se mají použít. Ne všechny musejí fungovat.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zakázat softwareové video filtry</translation>
     </message>
 </context>
 <context>
