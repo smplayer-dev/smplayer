@@ -91,7 +91,7 @@ ${LangFileString} VerInfo_DL_Failed "无法下载版本信息: '$R0'。将使用
 ${LangFileString} Uninstaller_No_Admin "本安装只能由具有管理员权限的用户卸载。"
 ${LangFileString} Uninstaller_Aborted "卸载由用户中止。"
 ${LangFileString} Uninstaller_NotInstalled "没有发现 SMPlayer 被安装在目录 '$INSTDIR' 中。$\r$\n仍要继续吗? (不推荐)"
-${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
+${LangFileString} Uninstaller_64bitOnly "本安装只能在 64 位 Windows 中卸载。"
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer 是一个从播放视频、DVD、VCD 等基本特性到支持 MPlayer 过滤器、EDL 列表等高级特性的完整 MPlayer 前端程序。"
