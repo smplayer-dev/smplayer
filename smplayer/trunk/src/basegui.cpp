@@ -308,12 +308,6 @@ void BaseGui::createActions() {
 	connect( openAudioCDAct, SIGNAL(triggered()),
              this, SLOT(openAudioCD()) );
 
-#ifdef Q_OS_WIN
-	// VCD's and Audio CD's seem they don't work on windows
-	//openVCDAct->setEnabled(pref->enable_vcd_on_windows);
-	openAudioCDAct->setEnabled(pref->enable_audiocd_on_windows);
-#endif
-
 	openDVDAct = new MyAction( this, "open_dvd" );
 	connect( openDVDAct, SIGNAL(triggered()),
              this, SLOT(openDVD()) );
