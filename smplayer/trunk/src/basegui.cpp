@@ -3084,6 +3084,10 @@ void BaseGui::updateRecents() {
 			// Let's see if it looks like a file (no dvd://1 or something)
 			if (fullname.indexOf(QRegExp("^.*://.*")) == -1) filename = fi.fileName();
 
+			if (filename.size() > 85) {
+				filename = filename.left(80) + "...";
+			}
+
 			QAction * a = recentfiles_menu->addAction( QString("%1. " + filename ).arg( i.insert( i.size()-1, '&' ), 3, ' ' ));
 			a->setStatusTip(fullname);
 			a->setData(n);
