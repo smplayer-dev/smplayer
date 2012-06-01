@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_INIT([minizip], [1.2.6], [bugzilla.redhat.com])
+AC_INIT([minizip], [1.2.7], [bugzilla.redhat.com])
 AC_CONFIG_SRCDIR([minizip.c])
 AM_INIT_AUTOMAKE([foreign])
 LT_INIT
@@ -15,6 +15,16 @@ then
 else
 	AC_MSG_RESULT([no])
 fi
+
+case "${host}" in
+	*-mingw* | mingw*)
+		WIN32="yes"
+		;;
+	*)
+		;;
+esac
+AM_CONDITIONAL([WIN32], [test "${WIN32}" = "yes"])
+
 
 AC_SUBST([HAVE_UNISTD_H], [0])
 AC_CHECK_HEADER([unistd.h], [HAVE_UNISTD_H=1], [])
