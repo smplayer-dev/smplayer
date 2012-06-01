@@ -13,20 +13,27 @@
 # If you have problems, try without defining CC and CFLAGS before reporting
 # an error.
 
+# start off configure.log
 echo -------------------- >> configure.log
 echo $0 $* >> configure.log
 date >> configure.log
 
+# set command prefix for cross-compilation
 if [ -n "${CHOST}" ]; then
     uname="`echo "${CHOST}" | sed -e 's/^[^-]*-\([^-]*\)$/\1/' -e 's/^[^-]*-[^-]*-\([^-]*\)$/\1/' -e 's/^[^-]*-[^-]*-\([^-]*\)-.*$/\1/'`"
     CROSS_PREFIX="${CHOST}-"
 fi
 
+# destination name for static library
 STATICLIB=libz.a
+
+# extract zlib version numbers from zlib.h
 VER=`sed -n -e '/VERSION "/s/.*"\(.*\)".*/\1/p' < zlib.h`
 VER3=`sed -n -e '/VERSION "/s/.*"\([0-9]*\\.[0-9]*\\.[0-9]*\).*/\1/p' < zlib.h`
 VER2=`sed -n -e '/VERSION "/s/.*"\([0-9]*\\.[0-9]*\)\\..*/\1/p' < zlib.h`
 VER1=`sed -n -e '/VERSION "/s/.*"\([0-9]*\)\\..*/\1/p' < zlib.h`
+
+# establish commands for library building
 if "${CROSS_PREFIX}ar" --version >/dev/null 2>/dev/null || test $? -lt 126; then
     AR=${AR-"${CROSS_PREFIX}ar"}
     test -n "${CROSS_PREFIX}" && echo Using ${AR} | tee -a configure.log
@@ -47,6 +54,8 @@ if "${CROSS_PREFIX}nm" --version >/dev/null 2>/dev/null || test $? -lt 126; then
 else
     NM=${NM-"nm"}
 fi
+
+# set defaults before processing command line options
 LDCONFIG=${LDCONFIG-"ldconfig"}
 LDSHAREDLIBC="${LDSHAREDLIBC--lc}"
 ARCHS=
@@ -68,6 +77,7 @@ old_cflags="$CFLAGS"
 OBJC='$(OBJZ) $(OBJG)'
 PIC_OBJC='$(PIC_OBJZ) $(PIC_OBJG)'
 
+# process command line options
 while test $# -ge 1
 do
 case "$1" in
@@ -100,6 +110,7 @@ case "$1" in
     esac
 done
 
+# define functions for testing compiler and library characteristics and logging the results
 test=ztest$$
 
 show()
@@ -136,8 +147,21 @@ else
   }
 fi
 
+tryboth()
+{
+  show $*
+  got=`( $* ) 2>&1`
+  ret=$?
+  printf %s "$got" >> configure.log
+  if test $ret -ne 0; then
+    return $ret
+  fi
+  test "$got" = ""
+}
+
 echo >> configure.log
 
+# check for gcc vs. cc and set compile and link flags based on the system identified by uname
 cat > $test.c <<EOF
 extern int getchar();
 int hello() {return getchar();}
@@ -149,6 +173,7 @@ cflags=${CFLAGS-"-O3"}
 # to force the asm version use: CFLAGS="-O3 -DASMV" ./configure
 case "$cc" in
   *gcc*) gcc=1 ;;
+  *clang*) gcc=1 ;;
 esac
 case `$cc -v 2>&1` in
   *gcc*) gcc=1 ;;
@@ -206,7 +231,7 @@ if test "$gcc" -eq 1 && ($cc -c $cflags $test.c) >> configure.log 2>&1; then
              SHAREDLIBV=libz.$VER$shared_ext
              SHAREDLIBM=libz.$VER1$shared_ext
              LDSHARED=${LDSHARED-"$cc -dynamiclib -install_name $libdir/$SHAREDLIBM -compatibility_version $VER1 -current_version $VER3"}
-             AR="libtool"
+             AR="/usr/bin/libtool"
              ARFLAGS="-o" ;;
   *)             LDSHARED=${LDSHARED-"$cc -shared"} ;;
   esac
@@ -251,15 +276,28 @@ else
              CFLAGS=${CFLAGS-"-O3"}
              LDSHARED=${LDSHARED-"cc -dy -KPIC -G"} ;;
   SunOS\ 5* | solaris*)
-         LDSHARED=${LDSHARED-"cc -G"}
-         case `(uname -m || echo unknown) 2>/dev/null` in
-         i86*)
-             SFLAGS=${CFLAGS-"-xpentium -fast -KPIC -R."}
-             CFLAGS=${CFLAGS-"-xpentium -fast"} ;;
-         *)
-             SFLAGS=${CFLAGS-"-fast -xcg92 -KPIC -R."}
-             CFLAGS=${CFLAGS-"-fast -xcg92"} ;;
-         esac ;;
+         LDSHARED=${LDSHARED-"cc -G -h libz$shared_ext.$VER1"}
+         SFLAGS=${CFLAGS-"-fast -KPIC"}
+         CFLAGS=${CFLAGS-"-fast"}
+         if test $build64 -eq 1; then
+             # old versions of SunPRO/Workshop/Studio don't support -m64,
+             # but newer ones do.  Check for it.
+             flag64=`$CC -flags | egrep -- '^-m64'`
+             if test x"$flag64" != x"" ; then
+                 CFLAGS="${CFLAGS} -m64"
+                 SFLAGS="${SFLAGS} -m64"
+             else
+                 case `(uname -m || echo unknown) 2>/dev/null` in
+                   i86*)
+                     SFLAGS="$SFLAGS -xarch=amd64"
+                     CFLAGS="$CFLAGS -xarch=amd64" ;;
+                   *)
+                     SFLAGS="$SFLAGS -xarch=v9"
+                     CFLAGS="$CFLAGS -xarch=v9" ;;
+                 esac
+             fi
+         fi
+         ;;
   SunOS\ 4*) SFLAGS=${CFLAGS-"-O2 -PIC"}
              CFLAGS=${CFLAGS-"-O2"}
              LDSHARED=${LDSHARED-"ld"} ;;
@@ -289,12 +327,14 @@ else
   esac
 fi
 
+# destination names for shared library if not defined above
 SHAREDLIB=${SHAREDLIB-"libz$shared_ext"}
 SHAREDLIBV=${SHAREDLIBV-"libz$shared_ext.$VER"}
 SHAREDLIBM=${SHAREDLIBM-"libz$shared_ext.$VER1"}
 
 echo >> configure.log
 
+# see if shared library build supported
 if test $shared -eq 1; then
   echo Checking for shared library support... | tee -a configure.log
   # we must test in two steps (cc then ld), required at least on SunOS 4.x
@@ -322,6 +362,9 @@ else
   TEST="all teststatic testshared"
 fi
 
+echo >> configure.log
+
+# check for underscores in external names for use by assembler code
 CPP=${CPP-"$CC -E"}
 case $CFLAGS in
   *ASMV*)
@@ -337,6 +380,7 @@ esac
 
 echo >> configure.log
 
+# check for large file support, and if none, check for fseeko()
 cat > $test.c <<EOF
 #include <sys/types.h>
 off64_t dummy = 0;
@@ -367,10 +411,28 @@ EOF
   fi
 fi
 
+echo >> configure.log
+
+# check for strerror() for use by gz* functions
+cat > $test.c <<EOF
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+EOF
+if try $CC $CFLAGS -o $test $test.c; then
+  echo "Checking for strerror... Yes." | tee -a configure.log
+else
+  CFLAGS="${CFLAGS} -DNO_STRERROR"
+  SFLAGS="${SFLAGS} -DNO_STRERROR"
+  echo "Checking for strerror... No." | tee -a configure.log
+fi
+
+# copy clean zconf.h for subsequent edits
 cp -p zconf.h.in zconf.h
 
 echo >> configure.log
 
+# check for unistd.h and save result in zconf.h
 cat > $test.c <<EOF
 #include <unistd.h>
 int main() { return 0; }
@@ -385,6 +447,7 @@ fi
 
 echo >> configure.log
 
+# check for stdarg.h and save result in zconf.h
 cat > $test.c <<EOF
 #include <stdarg.h>
 int main() { return 0; }
@@ -397,6 +460,7 @@ else
   echo "Checking for stdarg.h... No." | tee -a configure.log
 fi
 
+# if the z_ prefix was requested, save that in zconf.h
 if test $zprefix -eq 1; then
   sed < zconf.h "/#ifdef Z_PREFIX.* may be/s/def Z_PREFIX\(.*\) may be/ 1\1 was/" > zconf.temp.h
   mv zconf.temp.h zconf.h
@@ -404,6 +468,7 @@ if test $zprefix -eq 1; then
   echo "Using z_ prefix on all symbols." | tee -a configure.log
 fi
 
+# if --solo compilation was requested, save that in zconf.h and remove gz stuff from object lists
 if test $solo -eq 1; then
   sed '/#define ZCONF_H/a\
 #define Z_SOLO
@@ -414,12 +479,20 @@ OBJC='$(OBJZ)'
 PIC_OBJC='$(PIC_OBJZ)'
 fi
 
+# if code coverage testing was requested, use older gcc if defined, e.g. "gcc-4.2" on Mac OS X
 if test $cover -eq 1; then
   CFLAGS="${CFLAGS} -fprofile-arcs -ftest-coverage"
+  if test -n "$GCC_CLASSIC"; then
+    CC=$GCC_CLASSIC
+  fi
 fi
 
 echo >> configure.log
 
+# conduct a series of tests to resolve eight possible cases of using "vs" or "s" printf functions
+# (using stdarg or not), with or without "n" (proving size of buffer), and with or without a
+# return value.  The most secure result is vsnprintf() with a return value.  snprintf() with a
+# return value is secure as well, but then gzprintf() will be limited to 20 arguments.
 cat > $test.c <<EOF
 #include <stdio.h>
 #include <stdarg.h>
@@ -432,7 +505,6 @@ int main()
   return 0;
 }
 EOF
-
 if try $CC -c $CFLAGS $test.c; then
   echo "Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf()." | tee -a configure.log
 
@@ -606,29 +678,53 @@ EOF
   fi
 fi
 
+# see if we can hide zlib internal symbols that are linked between separate source files
 if test "$gcc" -eq 1; then
   echo >> configure.log
   cat > $test.c <<EOF
-#if ((__GNUC__-0) * 10 + __GNUC_MINOR__-0 >= 33)
-#  define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
-#else
-#  define ZLIB_INTERNAL
-#endif
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
 int ZLIB_INTERNAL foo;
 int main()
 {
   return 0;
 }
 EOF
-  if try $CC -c $CFLAGS $test.c; then
+  if tryboth $CC -c $CFLAGS $test.c; then
+    CFLAGS="$CFLAGS -DHAVE_HIDDEN"
+    SFLAGS="$SFLAGS -DHAVE_HIDDEN"
     echo "Checking for attribute(visibility) support... Yes." | tee -a configure.log
   else
-    CFLAGS="$CFLAGS -DNO_VIZ"
-    SFLAGS="$SFLAGS -DNO_VIZ"
     echo "Checking for attribute(visibility) support... No." | tee -a configure.log
   fi
 fi
 
+echo >> configure.log
+
+# find a four-byte unsiged integer type for crc calculations
+cat > $test.c <<EOF
+#include <stdio.h>
+#define is32(n,t) for(n=1,k=0;n;n<<=1,k++);if(k==32){puts(t);return 0;}
+int main() {
+    int k;
+    unsigned i;
+    unsigned long l;
+    unsigned short s;
+    is32(i, "unsigned")
+    is32(l, "unsigned long")
+    is32(s, "unsigned short")
+    return 1;
+}
+EOF
+Z_U4=""
+if try $CC $CFLAGS $test.c -o $test && Z_U4=`./$test` && test -n "$Z_U4"; then
+  sed < zconf.h "/#define Z_U4/s/\/\* \.\/configure may/#define Z_U4 $Z_U4   \/* .\/configure put the/" > zconf.temp.h
+  mv zconf.temp.h zconf.h
+  echo "Looking for a four-byte integer type... Found." | tee -a configure.log
+else
+  echo "Looking for a four-byte integer type... Not found." | tee -a configure.log
+fi
+
+# clean up files produced by running the compiler and linker
 rm -f $test.[co] $test $test$shared_ext $test.gcno
 
 # show the results in the log
@@ -654,6 +750,7 @@ echo SHAREDLIBV = $SHAREDLIBV >> configure.log
 echo STATICLIB = $STATICLIB >> configure.log
 echo TEST = $TEST >> configure.log
 echo VER = $VER >> configure.log
+echo Z_U4 = $Z_U4 >> configure.log
 echo exec_prefix = $exec_prefix >> configure.log
 echo includedir = $includedir >> configure.log
 echo libdir = $libdir >> configure.log
@@ -665,7 +762,7 @@ echo -------------------- >> configure.log
 echo >> configure.log
 echo >> configure.log
 
-# udpate Makefile
+# udpate Makefile with the configure results
 sed < Makefile.in "
 /^CC *=/s#=.*#=$CC#
 /^CFLAGS *=/s#=.*#=$CFLAGS#
@@ -695,6 +792,7 @@ sed < Makefile.in "
 /^test: */s#:.*#: $TEST#
 " > Makefile
 
+# create zlib.pc with the configure results
 sed < zlib.pc.in "
 /^CC *=/s#=.*#=$CC#
 /^CFLAGS *=/s#=.*#=$CFLAGS#
