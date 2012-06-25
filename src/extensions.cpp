@@ -46,7 +46,7 @@ Extensions::Extensions()
            << "mpg" << "mpeg" << "m1v" << "m2v" << "mpv" << "dv" << "3gp"
            << "mov" << "mp4" << "m4v" << "mqv"
            << "dat" << "vcd"
-           << "ogg" << "ogm" << "ogv"
+           << "ogg" << "ogm" << "ogv" << "ogx"
            << "asf" << "wmv"
            << "bin" << "iso" << "vob"
            << "mkv" << "nsv" << "ram" << "flv"
@@ -54,7 +54,7 @@ Extensions::Extensions()
            << "ts" << "rmvb" << "dvr-ms" << "m2t" << "m2ts" << "rec"
            << "f4v" << "hdmov" << "webm" << "vp8" ;
 
-	_audio << "mp3" << "ogg" << "wav" << "wma" <<  "ac3" << "ra" << "ape" << "flac" << "thd";
+	_audio << "mp3" << "ogg" << "oga" << "wav" << "wma" <<  "ac3" << "ra" << "ape" << "flac" << "thd";
 
 	_subtitles << "srt" << "sub" << "ssa" << "ass" << "idx" << "txt" << "smi"
                << "rt" << "utf" << "aqt";
