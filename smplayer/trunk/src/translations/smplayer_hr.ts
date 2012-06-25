@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0">
+<!DOCTYPE TS><TS>
 <context>
     <name>About</name>
     <message>
@@ -1404,19 +1402,19 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - MPlayer log</translation>
     </message>
     <message>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - SMPlayer log</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished">Informacije</translation>
+        <translation>Informacije</translation>
     </message>
     <message>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Morate ponovo pokrenuti SMPlayer da bi koristili novo sučelje.</translation>
     </message>
 </context>
 <context>
@@ -2060,14 +2058,13 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Titlovi spremljeni kao %1</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 titl(ova) otpakirano
+        <translation type="obsolete">%1 titl(ova) otpakirano
         
         
         
-        </numerusform>
+        
         </translation>
     </message>
     <message>
@@ -2104,16 +2101,15 @@ Molim provjerite dozvole za taj folder.</translation>
     </message>
     <message>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugalski - Brazil</translation>
     </message>
     <message>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Pogreška pri popravljanju linija titlova</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>%n titlova otpakirano
         </translation>
     </message>
 </context>
@@ -3077,7 +3073,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3165,7 +3161,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -3179,7 +3175,7 @@ Molim provjerite dozvole za taj folder.</translation>
     </message>
     <message>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Norveški Nynorsk</translation>
     </message>
 </context>
 <context>
@@ -3265,7 +3261,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Klizač za premotavanje</translation>
     </message>
 </context>
 <context>
@@ -3732,11 +3728,11 @@ Primjer: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -6328,20 +6324,16 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n sekundi
+        <translation>%n sekundi      
         
-        </numerusform>
         </translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n minuta
+        <translation>%n minuta       
         
-        </numerusform>
         </translation>
     </message>
 </context>
