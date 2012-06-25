@@ -398,6 +398,9 @@ void SMPlayer::showInfo() {
 		#if QT_VERSION >= 0x040501
 		case QSysInfo::WV_WINDOWS7: win_ver = "Windows 7"; break;
 		#endif
+		#if QT_VERSION >= 0x040803
+		case QSysInfo::WV_WINDOWS8: win_ver = "Windows 8"; break;
+		#endif
 		default: win_ver = QString("other: %1").arg(QSysInfo::WindowsVersion);
 	}
 #endif
