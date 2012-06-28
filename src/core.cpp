@@ -2169,7 +2169,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("screenshot");
 	}
 
-end_video_filters:
+#ifndef Q_OS_WIN
+	end_video_filters:
+#endif
 
 	// slices
 	if ((pref->use_slices) && (!force_noslices)) {
