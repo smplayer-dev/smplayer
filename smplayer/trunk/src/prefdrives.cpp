@@ -29,15 +29,10 @@
 #include <windows.h>
 
 bool isCDDevice(QString drive) {
-	if (QSysInfo::WindowsVersion >= QSysInfo::WV_NT) {
 		unsigned int r =  GetDriveTypeW((LPCWSTR) drive.utf16());
 		qDebug("isCDDevice: '%s' r: %d", drive.toUtf8().data(), r);
 		return (r == DRIVE_CDROM);
-	} else {
-		//Win98
-		return true;
 	}
-}
 
 #endif
 
