@@ -25,7 +25,7 @@ FILETYPE            VFT_APP
       VALUE "OriginalFilename", "smplayer.exe\0"
 			#if defined( _WIN64 )
       VALUE "ProductName", "SMPlayer for Windows (64-bit)\0"
-			#if defined( _WIN32 )
+			#elif defined( _WIN32 )
       VALUE "ProductName", "SMPlayer for Windows (32-bit)\0"
 			#endif
       VALUE "ProductVersion", SMPLAYER_PRODVERSION
