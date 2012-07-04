@@ -401,7 +401,7 @@ public:
 
 	QString latest_dir; //!< Directory of the latest file loaded
 	QString last_dvd_directory;
-
+	bool save_dirs; // Save or not the latest dirs
 
     /* **************
        Initial values
