@@ -43,7 +43,7 @@ QString smplayerVersion() {
 #endif
 #else
 #ifdef Q_OS_WIN
-    return QString(VERSION) + " " + QString(SMPWIN_ARCH);
+    return QString(QString(VERSION) + " " + QString(SMPWIN_ARCH));
 #else
     return QString(VERSION)
 #endif
