@@ -11,6 +11,7 @@ ${LangFileString} Installer_Is_Running "O instalador já está em execução."
 ${LangFileString} Installer_No_Admin "Tem que iniciar a sessão como administrador para instalar este programa."
 ${LangFileString} SMPlayer_Is_Running "Já existe uma instância SMPlayer em execução. Feche o SMPlayer e tente novamente."
 
+${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
 ${LangFileString} Win64_Required "Para instalar esta versão, tem que possuir um sistema de 64 bits."
 ${LangFileString} Existing_32bitInst "Já existe uma instalação 32 bits do SMPlayer. Tem que a desinstalar antes de uma nova instalação."
 ${LangFileString} Existing_64bitInst "Já existe uma instalação 64 bits do SMPlayer. Tem que a desinstalar antes de uma nova instalação."

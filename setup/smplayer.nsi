@@ -1,6 +1,6 @@
 ﻿; Installer script for win32 SMPlayer
 ; Written by redxii (redxii@users.sourceforge.net)
-; Tested/Developed with Unicode NSIS 2.46.4
+; Tested/Developed with Unicode NSIS 2.46.5
 
 !ifndef VER_MAJOR | VER_MINOR | VER_BUILD
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
@@ -94,7 +94,7 @@
   !ifdef WITH_MPLAYER
     VIAddVersionKey "FileDescription" "SMPlayer Installer x64 (Offline)"
   !else ifndef WITH_MPLAYER
-    VIAddVersionKey "FileDescription" "SMPlayer Installer x64 (Web Downloader)"
+    VIAddVersionKey "FileDescription" "SMPlayer Installer x64 (Web Setup)"
   !endif
 !else
   !ifdef WITH_MPLAYER
@@ -102,7 +102,7 @@
     VIAddVersionKey "FileDescription" "SMPlayer Installer (Offline)"
   !else ifndef WITH_MPLAYER
     ;VIAddVersionKey "FileDescription" "SMPlayer Installer x86 (Web Downloader)"
-    VIAddVersionKey "FileDescription" "SMPlayer Installer (Web Downloader)"
+    VIAddVersionKey "FileDescription" "SMPlayer Installer (Web Setup)"
   !endif
 !endif
 
@@ -615,6 +615,7 @@ ${MementoSectionDone}
   !insertmacro ${_action} ".webm"
   !insertmacro ${_action} ".wma"
   !insertmacro ${_action} ".wmv"
+  !insertmacro ${_action} ".wtv"
 !macroend
 
 !macro WriteRegStrSupportedTypes EXT
@@ -679,10 +680,10 @@ ${MementoSectionDone}
 Function ${UN}RunCheck
 
   retry_runcheck:
-  FindProcDLL::FindProc "smplayer.exe"
-  IntCmp $R0 1 0 +3
-    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
-    Abort
+	FindProcDLL::FindProc "smplayer.exe"
+	IntCmp $R0 1 0 +3
+		MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
+		Abort
 
 FunctionEnd
 !macroend
@@ -693,6 +694,10 @@ FunctionEnd
 ;Installer functions
 
 Function .onInit
+
+	${Unless} ${AtLeastWinXP}
+		MessageBox MB_OK|MB_ICONSTOP $(OS_Not_Supported)
+	${EndIf}
 
 !ifdef WIN64
   ${IfNot} ${RunningX64}

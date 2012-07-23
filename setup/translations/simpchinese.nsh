@@ -11,6 +11,7 @@ ${LangFileString} Installer_Is_Running "安装程序已经运行。"
 ${LangFileString} Installer_No_Admin "安装本程序时，您必须以管理员身份登录。"
 ${LangFileString} SMPlayer_Is_Running "一个 SMPlayer 实例正在运行。请退出 SMPlayer，然后再试一次。"
 
+${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
 ${LangFileString} Win64_Required "安装本软件需要 64 位 Windows 操作系统。"
 ${LangFileString} Existing_32bitInst "一个 SMPlayer 的 32 位安装已经存在。您必须先卸载 32 位 SMPlayer。"
 ${LangFileString} Existing_64bitInst "一个 SMPlayer 的 64 位安装已经存在。您必须先卸载 64 位 SMPlayer。"

@@ -11,6 +11,7 @@ ${LangFileString} Installer_Is_Running "Программа установки у
 ${LangFileString} Installer_No_Admin "Для установки программы необходимо войти в систему как администратор."
 ${LangFileString} SMPlayer_Is_Running "Экземпляр SMPlayer запущен. Пожалуйста, закройте SMPlayer и попытайтесь снова."
 
+${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
 ${LangFileString} Win64_Required "Для установки данного ПО требуется 64-битная ОС Windows."
 ${LangFileString} Existing_32bitInst "Существует 32-битная установка SMPlayer. Сначала далите 32-битный SMPlayer."
 ${LangFileString} Existing_64bitInst "Существует 64-битная установка SMPlayer. Сначала далите 64-битный SMPlayer."

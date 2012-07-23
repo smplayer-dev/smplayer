@@ -11,6 +11,7 @@ ${LangFileString} Installer_Is_Running "Instalátor již běží."
 ${LangFileString} Installer_No_Admin "Instalaci tohoto programu je potřeba provést s právy administrátora."
 ${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 
+${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
 ${LangFileString} Win64_Required "Pro instalaci tohoto software je zapotřebí mít 64-bitový oprační systém Windows."
 ${LangFileString} Existing_32bitInst "Máte nainstalovánu 32-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 32-bitový SMPlayer."
 ${LangFileString} Existing_64bitInst "Máte nainstalovánu 64-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 64-bitový SMPlayer."
