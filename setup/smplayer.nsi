@@ -697,6 +697,7 @@ Function .onInit
 
 	${Unless} ${AtLeastWinXP}
 		MessageBox MB_OK|MB_ICONSTOP $(OS_Not_Supported)
+		Abort
 	${EndIf}
 
 !ifdef WIN64
