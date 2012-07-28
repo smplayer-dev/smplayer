@@ -11,7 +11,7 @@ ${LangFileString} Installer_Is_Running "Программа установки у
 ${LangFileString} Installer_No_Admin "Для установки программы необходимо войти в систему как администратор."
 ${LangFileString} SMPlayer_Is_Running "Экземпляр SMPlayer запущен. Пожалуйста, закройте SMPlayer и попытайтесь снова."
 
-${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
+${LangFileString} OS_Not_Supported "Это программа не поддерживает запущенную на вашем компьютере версию Windows."
 ${LangFileString} Win64_Required "Для установки данного ПО требуется 64-битная ОС Windows."
 ${LangFileString} Existing_32bitInst "Существует 32-битная установка SMPlayer. Сначала далите 32-битный SMPlayer."
 ${LangFileString} Existing_64bitInst "Существует 64-битная установка SMPlayer. Сначала далите 64-битный SMPlayer."
@@ -92,7 +92,7 @@ ${LangFileString} VerInfo_DL_Failed "Не удалось загрузить ин
 ${LangFileString} Uninstaller_No_Admin "Эта установка может быть удалена только пользователем с правами администратора."
 ${LangFileString} Uninstaller_Aborted "Удаление прервано пользователем."
 ${LangFileString} Uninstaller_NotInstalled "Не похоже, что SMPlayer установлен в каталог '$INSTDIR'.$\r$\nПродолжить всё равно (не рекомендуется)?"
-${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
+${LangFileString} Uninstaller_64bitOnly "Эта установка может быть удалена только на 64-битной Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer - полноценная оболочка для MPlayer, начиная от базовых функций вроде воспроизведения видеофайлов, DVD, VCD и заканчивая более продвинутыми вроде поддержки фильтров MPlayer, списков и т.д."
