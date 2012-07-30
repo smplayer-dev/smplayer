@@ -1,5 +1,8 @@
 [b]Version 0.8.1[/b]:
 
+(2012-07-30)
+ * Add mka and m4a to the list of extensions (for audio).
+
 (2012-07-04)
  * New option "save_dirs" in the [directories] section. If set to false
    the latest used directory won't be saved.
