@@ -193,6 +193,7 @@ void Preferences::reset() {
 
 #ifdef YOUTUBE_SUPPORT
 	yt_quality = RetrieveYoutubeUrl::MP4_720p;
+	yt_user_agent = QString::null;
 #endif
 
 
@@ -604,11 +605,14 @@ void Preferences::save() {
 	set->setValue("cache_for_audiocds", cache_for_audiocds);
 	set->setValue("cache_for_tv", cache_for_tv);
 
-#ifdef YOUTUBE_SUPPORT
-	set->setValue("youtube_quality", yt_quality);
-#endif
-
 	set->endGroup(); // performance
+
+#ifdef YOUTUBE_SUPPORT
+	set->beginGroup("youtube");
+	set->setValue("quality", yt_quality);
+	set->setValue("user_agent", yt_user_agent);
+	set->endGroup();
+#endif
 
 
     /* *********
@@ -1038,11 +1042,14 @@ void Preferences::load() {
 	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
 	cache_for_tv = set->value("cache_for_tv", cache_for_tv).toInt();
 
-#ifdef YOUTUBE_SUPPORT
-	yt_quality = set->value("youtube_quality", yt_quality).toInt();
-#endif
-
 	set->endGroup(); // performance
+
+#ifdef YOUTUBE_SUPPORT
+	set->beginGroup("youtube");
+	yt_quality = set->value("quality", yt_quality).toInt();
+	yt_user_agent = set->value("user_agent", yt_user_agent).toString();
+	set->endGroup();
+#endif
 
 
     /* *********

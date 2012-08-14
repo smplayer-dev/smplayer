@@ -179,6 +179,7 @@ public:
 
 #ifdef YOUTUBE_SUPPORT
 	int yt_quality;
+	QString yt_user_agent;
 #endif
 
 
