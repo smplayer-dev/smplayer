@@ -793,6 +793,8 @@ void Core::openStream(QString name) {
 		if (name.startsWith("youtu.be")) name = "http://" + name;
 		if (name.startsWith("y2u.be")) name = "http://" + name;
 		yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
+		qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
+		if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent);
 		yt->fetchPage(name);
 		return;
 	}

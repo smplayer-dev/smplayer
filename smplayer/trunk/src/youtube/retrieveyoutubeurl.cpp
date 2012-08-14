@@ -26,8 +26,6 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : SimpleHttp(parent)
 			this, SLOT(parse(QByteArray)));
 
 	preferred_quality = FLV_360p;
-
-	setUserAgent("Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)");
 }
 
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
