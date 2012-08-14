@@ -1,5 +1,9 @@
 [b]Version 0.8.1[/b]:
 
+(2012-08-14)
+ * Youtube: don't use a user agent by default. It's possible to set
+   the user agent in smplayer.ini though.
+
 (2012-07-30)
  * Add mka and m4a to the list of extensions (for audio).
 
