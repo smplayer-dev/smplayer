@@ -1896,6 +1896,9 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(mediaStoppedByUser()),
              this, SLOT(exitFullscreenOnStop()) );
 
+	connect( core, SIGNAL(mediaStoppedByUser()),
+             mplayerwindow, SLOT(showLogo()) );
+
 	connect( core, SIGNAL(mediaLoaded()),
              this, SLOT(enableActionsOnPlaying()) );
 #if NOTIFY_AUDIO_CHANGES
@@ -2054,6 +2057,10 @@ void BaseGui::createPlaylist() {
 	*/
 	connect( playlist, SIGNAL(playlistEnded()),
              this, SLOT(playlistHasFinished()) );
+
+	connect( playlist, SIGNAL(playlistEnded()),
+             mplayerwindow, SLOT(showLogo()) );
+
 	/*
 	connect( playlist, SIGNAL(visibilityChanged()),
              this, SLOT(playlistVisibilityChanged()) );
