@@ -300,6 +300,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 	else {
 		// Emulates mplayer version in Ubuntu:
 		//if (line.startsWith("MPlayer 1.0rc1")) line = "MPlayer 2:1.0~rc1-0ubuntu13.1 (C) 2000-2006 MPlayer Team";
+		//if (line.startsWith("MPlayer2")) line = "mplayer2 d0305da (C) 2000-2012 MPlayer & mplayer2 teams";
 
 		// Emulates unknown version
 		//if (line.startsWith("MPlayer SVN")) line = "MPlayer lalksklsjjakksja";
@@ -471,7 +472,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			return;
 		}
 
-		if ( (mplayer_svn == -1) && ((line.startsWith("MPlayer ")) || (line.startsWith("MPlayer2 "))) ) {
+		if ( (mplayer_svn == -1) && ((line.startsWith("MPlayer ")) || (line.startsWith("MPlayer2 ", Qt::CaseInsensitive))) ) {
 			mplayer_svn = MplayerVersion::mplayerVersion(line);
 			qDebug("MplayerProcess::parseLine: MPlayer SVN: %d", mplayer_svn);
 			if (mplayer_svn <= 0) {

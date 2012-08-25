@@ -33,7 +33,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 	static QRegExp rx_mplayer_version("^MPlayer ([a-z,0-9,.]+)-(.*)");
 	static QRegExp rx_mplayer_git("^MPlayer GIT(.*)", Qt::CaseInsensitive);
 	static QRegExp rx_mplayer_version_final("1.0rc([0-9])");
-	static QRegExp rx_mplayer2_version("^MPlayer2 (.*) \\(C\\).*");
+	static QRegExp rx_mplayer2_version("^MPlayer2 (.*) \\(C\\).*", Qt::CaseInsensitive);
 #ifndef Q_OS_WIN
 	static QRegExp rx_mplayer_version_ubuntu("^MPlayer (\\d):(\\d)\\.(\\d)~(.*)");
 	static QRegExp rx_mplayer_version_mandriva("^MPlayer ([a-z0-9\\.]+)-\\d+\\.([a-z0-9]+)\\.[\\d\\.]+[a-z]+[\\d\\.]+-(.*)");
