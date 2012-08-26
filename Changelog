@@ -14,6 +14,14 @@
  * New option "save_dirs" in the [directories] section. If set to false
    the latest used directory won't be saved.
 
+(2012-07-23)
+ * Add wtv to the list of extensions
+
+(2012-06-25)
+ * Add oga and ogx to the list of extensions
+ 
+(2012-05-29)
+ * Enable Audio CD on Windows (requires a libcdio enabled MPlayer)
 
 [b]Version 0.8.0[/b]:
 
