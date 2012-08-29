@@ -204,6 +204,7 @@ void TimeLabelAction::setText(QString s) {
 
 QWidget * TimeLabelAction::createWidget ( QWidget * parent ) {
 	QLabel * time_label = new QLabel(parent);
+	time_label->setObjectName("time_label");
     time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
     time_label->setAutoFillBackground(true);
 

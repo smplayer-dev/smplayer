@@ -439,6 +439,7 @@ void DefaultGui::createStatusBar() {
 	qDebug("DefaultGui::createStatusBar");
 
 	time_display = new QLabel( statusBar() );
+	time_display->setObjectName("time_display");
 	time_display->setAlignment(Qt::AlignRight);
 	time_display->setFrameShape(QFrame::NoFrame);
 	time_display->setText(" 88:88:88 / 88:88:88 ");
