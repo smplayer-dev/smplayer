@@ -446,18 +446,21 @@ void DefaultGui::createStatusBar() {
 	time_display->setMinimumSize(time_display->sizeHint());
 
 	frame_display = new QLabel( statusBar() );
+	frame_display->setObjectName("frame_display");
 	frame_display->setAlignment(Qt::AlignRight);
 	frame_display->setFrameShape(QFrame::NoFrame);
 	frame_display->setText("88888888");
 	frame_display->setMinimumSize(frame_display->sizeHint());
 
 	ab_section_display = new QLabel( statusBar() );
+	ab_section_display->setObjectName("ab_section_display");
 	ab_section_display->setAlignment(Qt::AlignRight);
 	ab_section_display->setFrameShape(QFrame::NoFrame);
 //	ab_section_display->setText("A:0:00:00 B:0:00:00");
 //	ab_section_display->setMinimumSize(ab_section_display->sizeHint());
 
 	video_info_display = new QLabel( statusBar() );
+	video_info_display->setObjectName("video_info_display");
 	video_info_display->setAlignment(Qt::AlignRight);
 	video_info_display->setFrameShape(QFrame::NoFrame);
 
