@@ -37,9 +37,7 @@
 #include <QTimer>
 #endif
 
-#define LOGO_ANIMATION
-
-#ifdef LOGO_ANIMATION
+#if LOGO_ANIMATION
 #include <QPropertyAnimation>
 #endif
 
@@ -268,26 +266,30 @@ void MplayerWindow::retranslateStrings() {
 }
 
 void MplayerWindow::setLogoVisible( bool b) {
-#ifndef LOGO_ANIMATION
+#if !LOGO_ANIMATION
 	logo->setVisible(b);
 #else
-	if (b) {
-		logo->show();
-		QPropertyAnimation * animation = new QPropertyAnimation(logo, "pos");
-		animation->setDuration(200);
-		animation->setEasingCurve(QEasingCurve::OutBounce);
-		animation->setStartValue(QPoint(logo->x(), 0 - logo->y()));
-		animation->setEndValue(logo->pos());
-		animation->start();
+	if (!animated_logo) {
+		logo->setVisible(b);
 	} else {
-		QPropertyAnimation * animation = new QPropertyAnimation(logo, "pos");
-		animation->setDuration(200);
-		animation->setEasingCurve(QEasingCurve::OutBounce);
-		animation->setEndValue(QPoint(width(), logo->y()));
-		animation->setStartValue(logo->pos());
-		animation->start();
-		connect(animation, SIGNAL(finished()), logo, SLOT(hide()));
-		//logo->hide();
+		if (b) {
+			logo->show();
+			QPropertyAnimation * animation = new QPropertyAnimation(logo, "pos");
+			animation->setDuration(200);
+			animation->setEasingCurve(QEasingCurve::OutBounce);
+			animation->setStartValue(QPoint(logo->x(), 0 - logo->y()));
+			animation->setEndValue(logo->pos());
+			animation->start();
+		} else {
+			QPropertyAnimation * animation = new QPropertyAnimation(logo, "pos");
+			animation->setDuration(200);
+			animation->setEasingCurve(QEasingCurve::OutBounce);
+			animation->setEndValue(QPoint(width(), logo->y()));
+			animation->setStartValue(logo->pos());
+			animation->start();
+			connect(animation, SIGNAL(finished()), logo, SLOT(hide()));
+			//logo->hide();
+		}
 	}
 #endif
 }

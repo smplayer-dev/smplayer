@@ -133,4 +133,10 @@
 
 #define USE_MPLAYER_PANSCAN 0
 
+
+// If 1, the background logo will be animated
+#if QT_VERSION >= 0x040600
+#define LOGO_ANIMATION 1
+#endif
+
 #endif

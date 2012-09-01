@@ -163,10 +163,18 @@ public:
 
 	virtual bool eventFilter( QObject * watched, QEvent * event );
 
+#if LOGO_ANIMATION
+	bool animatedLogo() { return animated_logo; }
+#endif
+
 public slots:
 	void setLogoVisible(bool b);
 	void showLogo() { setLogoVisible(true); };
 	void hideLogo() { setLogoVisible(false); };
+
+#if LOGO_ANIMATION
+	void setAnimatedLogo(bool b) { animated_logo = b; };
+#endif
 
 	void moveLeft();
 	void moveRight();
@@ -224,6 +232,10 @@ protected:
 
 #if DELAYED_RESIZE
 	QTimer * resize_timer;
+#endif
+
+#if LOGO_ANIMATION
+	bool animated_logo;
 #endif
 };
 
