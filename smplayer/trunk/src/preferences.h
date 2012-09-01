@@ -385,6 +385,10 @@ public:
 	bool auto_add_to_playlist; //!< Add files to open to playlist
 	bool add_to_playlist_consecutive_files;
 
+#if LOGO_ANIMATION
+	bool animated_logo;
+#endif
+
 
     /* ********
        TV (dvb)

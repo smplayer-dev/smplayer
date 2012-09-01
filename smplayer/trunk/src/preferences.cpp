@@ -384,6 +384,10 @@ void Preferences::reset() {
 	auto_add_to_playlist = true;
 	add_to_playlist_consecutive_files = false;
 
+#if LOGO_ANIMATION
+	animated_logo = true;
+#endif
+
 
     /* ********
        TV (dvb)
@@ -789,8 +793,12 @@ void Preferences::save() {
 	set->setValue("reported_mplayer_is_old", reported_mplayer_is_old);
 #endif
 
-    set->setValue("auto_add_to_playlist", auto_add_to_playlist);
-    set->setValue("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files);
+	set->setValue("auto_add_to_playlist", auto_add_to_playlist);
+	set->setValue("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files);
+
+#if LOGO_ANIMATION
+	set->setValue("animated_logo", animated_logo);
+#endif
 
 	set->endGroup(); // gui
 
@@ -1233,6 +1241,10 @@ void Preferences::load() {
 
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
 	add_to_playlist_consecutive_files = set->value("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files).toBool();
+
+#if LOGO_ANIMATION
+	animated_logo = set->value("animated_logo", animated_logo).toBool();
+#endif
 
 	set->endGroup(); // gui
 
