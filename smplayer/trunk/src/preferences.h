@@ -67,6 +67,8 @@ public:
        General
        ******* */
 
+	int config_version;
+
 	QString mplayer_bin;
 	QString vo; // video output
 	QString ao; // audio output
