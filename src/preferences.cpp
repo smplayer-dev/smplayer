@@ -38,6 +38,8 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
+#define CURRENT_CONFIG_VERSION 1
+
 using namespace Global;
 
 Preferences::Preferences() {
@@ -66,6 +68,8 @@ void Preferences::reset() {
     /* *******
        General
        ******* */
+
+	config_version = CURRENT_CONFIG_VERSION;
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	mplayer_bin= "mplayer/mplayer.exe";
@@ -495,6 +499,8 @@ void Preferences::save() {
        ******* */
 
 	set->beginGroup( "general");
+
+	set->setValue("config_version", config_version);
 
 	set->setValue("mplayer_bin", mplayer_bin);
 	set->setValue("driver/vo", vo);
@@ -935,6 +941,8 @@ void Preferences::load() {
 
 	set->beginGroup( "general");
 
+	config_version = set->value("config_version", 0).toInt();
+
 	mplayer_bin = set->value("mplayer_bin", mplayer_bin).toString();
 	vo = set->value("driver/vo", vo).toString();
 	ao = set->value("driver/audio_output", ao).toString();
@@ -1366,6 +1374,16 @@ void Preferences::load() {
        ******* */
 
 	filters->load(set);
+
+	// Fix some values if config is old
+	if (config_version < CURRENT_CONFIG_VERSION) {
+		qDebug("Preferences::load: config version is old, updating it");
+		config_version = CURRENT_CONFIG_VERSION;
+		/*
+		iconset = "Nuvola";
+		yt_user_agent = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)";
+		*/
+	}
 }
 
 #endif // NO_USE_INI_FILES
