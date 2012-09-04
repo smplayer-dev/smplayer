@@ -23,7 +23,7 @@ echo.
 mkdir %OUTPUT_DIR%
 copy %SMPLAYER_DIR%\src\release\smplayer.exe %OUTPUT_DIR%
 copy %SMPLAYER_DIR%\dxlist\release\dxlist.exe %OUTPUT_DIR%
-copy %SMPLAYER_DIR%\zlib-1.2.6\zlib1.dll %OUTPUT_DIR%
+copy %SMPLAYER_DIR%\zlib\zlib1.dll %OUTPUT_DIR%
 copy %SMPLAYER_DIR%\*.txt %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtCore4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtGui4.dll %OUTPUT_DIR%
