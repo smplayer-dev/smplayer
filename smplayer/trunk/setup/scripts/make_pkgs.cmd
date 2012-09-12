@@ -24,8 +24,13 @@ echo 6 - Qt DLL Package
 
 echo.
 
+:: Relative directory of all the source files to this script
 set TOP_LEVEL_DIR=..
 
+:: Reset in case ran again in same command prompt instance
+set SMPLAYER_VER=
+
+:: NSIS path
 set NSIS_PATH="C:\Program Files (x86)\NSIS\Unicode"
 
 set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
@@ -39,36 +44,42 @@ set /P USER_CHOICE="Choose an action: "
 echo.
 
 if "%USER_CHOICE%" == "1" (
-
   goto nsispkg
 
 ) else if "%USER_CHOICE%" == "2" (
-
   goto portable
 
 ) else if "%USER_CHOICE%" == "3" (
-
   goto nomplayer
 
 ) else if "%USER_CHOICE%" == "4" (
-
   goto mplayer
 
 ) else if "%USER_CHOICE%" == "5" (
-
   goto svn_updpkg
 
 ) else if "%USER_CHOICE%" == "6" (
-
   goto qtdlls
 
 ) else (
-
   goto reask
-
 )
 
 :nsispkg
+
+echo --- Creating SMPlayer NSIS Packages ---
+echo.
+echo Format: VER_MAJOR.VER_MINOR.VER_BUILD.VER_REVISION
+echo Example: 0.8.1.0
+echo.
+echo Note: VER_REVISION must be defined as '0' if not used
+echo.
+
+:: Reset in case ran again in same command prompt instance
+set VER_MAJOR=
+set VER_MINOR=
+set VER_BUILD=
+set VER_REVISION=
 
 set /P VER_MAJOR="VER_MAJOR: "
 set /P VER_MINOR="VER_MINOR: "
@@ -77,11 +88,19 @@ set /P VER_REVISION="VER_REVISION: "
 
 echo.
 
+if %VER_REVISION% neq 0 (
+
 %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% %TOP_LEVEL_DIR%\smplayer.nsi
-
 rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
-
 rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% /DWIN64 %TOP_LEVEL_DIR%\smplayer.full.nsi
+
+) else (
+
+%NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %TOP_LEVEL_DIR%\smplayer.nsi
+rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
+rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.full.nsi
+
+)
 
 echo.
 
@@ -92,9 +111,10 @@ echo --- Creating SMPlayer Portable Package ---
 echo.
 
 set /P SMPLAYER_VER="SMPlayer Version: "
-if "%SMPLAYER_VER%"=="" exit
+if "%SMPLAYER_VER%"=="" goto end
 echo.
 
+:: Check for portable exes
 if not exist %PORTABLE_EXE_DIR%\smplayer-portable.exe (
   echo SMPlayer portable EXE not found!
 	goto end
@@ -190,7 +210,7 @@ echo --- Creating SMPlayer w/o MPlayer Package ---
 echo.
 
 set /P SMPLAYER_VER="SMPlayer Version: "
-if "%SMPLAYER_VER%"=="" exit
+if "%SMPLAYER_VER%"=="" goto end
 echo.
 
 ren %SMPLAYER_DIR% smplayer-%SMPLAYER_VER%
@@ -231,7 +251,7 @@ echo ---  Creating SVN Update Package  ---
 echo.
 
 set /P SMPLAYER_SVN="SMPlayer SVN Revision: "
-if "%SMPLAYER_SVN%"=="" exit
+if "%SMPLAYER_SVN%"=="" goto end
 
 7za a -t7z %OUTPUT_DIR%\smplayer_update_svn_r%SMPLAYER_SVN%.7z %SMPLAYER_DIR%\smplayer.exe %SMPLAYER_DIR%\translations -mx9
 
@@ -240,7 +260,7 @@ goto end
 :qtdlls
 
 set /P QTVER="Qt Version: "
-if "%QTVER%"=="" exit
+if "%QTVER%"=="" goto end
 
 echo.
 echo ---  Creating Qt DLL Package  ---
