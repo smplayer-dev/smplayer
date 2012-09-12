@@ -4,14 +4,14 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
-!insertmacro LANGFILE "Basque" "Euskera"
+!insertmacro LANGFILE "Basque" "Euskara"
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Ezartzailea jadanik lanean dago."
 ${LangFileString} Installer_No_Admin "Administratzaile bezala saioa hasita egon behar duzu programa hau ezartzerakoan."
 ${LangFileString} SMPlayer_Is_Running "SMPlayerren eskabide bat lanean ari da. Mesedez irten SMPlayerretik eta saiatu berriro."
 
-${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
+${LangFileString} OS_Not_Supported "Programa honek ez du sostengatzen zure ordenagailuan duzun Windows bertsioa."
 ${LangFileString} Win64_Required "64-biteko Windows sistema eragile bat behar da software hau ezartzeko."
 ${LangFileString} Existing_32bitInst "32-biteko SMPlayer ezarpen bat dago. Lehenik 32-biteko SMPlayer kendu behar duzu."
 ${LangFileString} Existing_64bitInst "64-biteko SMPlayer ezarpen bat dago. Lehenik 64-biteko SMPlayer kendu behar duzu."
@@ -89,7 +89,7 @@ ${LangFileString} VerInfo_DL_Msg "Bertsio argibideak jeisten..."
 ${LangFileString} VerInfo_DL_Failed "Hutsegitea bertsio argibideak jeisterakoan: '$R0'. Berezko bertsioa erabiltzen."
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "Ezarpen hau administrari eskubidea duen erabiltzaileak bakarrik kendu dezake."
+${LangFileString} Uninstaller_No_Admin "Ezarpen hau administratzaile eskubidea duen erabiltzaileak bakarrik kendu dezake."
 ${LangFileString} Uninstaller_Aborted "Kentzea erabiltzaileak utzita."
 ${LangFileString} Uninstaller_NotInstalled "Ez da agertzen SMPlayer zuzenbidean ezarrita dagoenik '$INSTDIR'.$\r$\nJarraitu horrela ere (ez da gomendagarria)?"
 ${LangFileString} Uninstaller_64bitOnly "Ezarpen hau 64-biteko Windowsetik bakarrik kendu daiteke."
