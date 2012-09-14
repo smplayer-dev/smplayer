@@ -11,8 +11,8 @@ ${LangFileString} Installer_Is_Running "インストーラーは既に実行中�
 ${LangFileString} Installer_No_Admin "このプログラムをインストールするときは管理者としてログインする必要があります。"
 ${LangFileString} SMPlayer_Is_Running "SMPlayer のインスタンスが実行中です。SMPlayer を終了してやり直してください。"
 
-${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
-${LangFileString} Win64_Required "このソフトウェアをインストールするには 64 ビット Windows オペレーティング システムが必要です。"
+${LangFileString} OS_Not_Supported "このプログラムはお使いのコンピュータが実行している Windows のバージョンをサポートしません。"
+${LangFileString} Win64_Required "このソフトウェアをインストールするには 64 ビットの Windows オペレーティング システムが必要です。"
 ${LangFileString} Existing_32bitInst "32 ビットの SMPlayer が既にインストールされています。先に 32 ビットの SMPlayer をアンインストールする必要があります。"
 ${LangFileString} Existing_64bitInst "64 ビットの SMPlayer が既にインストールされています。先に 64 ビットの SMPlayer をアンインストールする必要があります。"
 
@@ -92,7 +92,7 @@ ${LangFileString} VerInfo_DL_Failed "バージョン情報のダウンロード�
 ${LangFileString} Uninstaller_No_Admin "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
 ${LangFileString} Uninstaller_Aborted "アンインストールはユーザーによって中止されました。"
 ${LangFileString} Uninstaller_NotInstalled "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。$\r$\nこのまま続行しますか (推奨されません)?"
-${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
+${LangFileString} Uninstaller_64bitOnly "このインストールは 64 ビットの Windows でのみアンインストールできます。"
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィルター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロントエンドです。"
