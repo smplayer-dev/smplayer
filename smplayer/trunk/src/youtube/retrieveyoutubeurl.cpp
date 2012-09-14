@@ -66,6 +66,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
         int itag = url.queryItemValue("itag").toInt();
         //qDebug("itag: %d", itag);
         code.remove(QRegExp("itag=(\\d+)&url="));
+        code.replace("&sig=", "&signature=");
         urlMap[itag] = code;
         //qDebug("code: '%s'", code.toUtf8().constData());
     }
