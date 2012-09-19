@@ -11,7 +11,7 @@ ${LangFileString} Installer_Is_Running "Программа установки у
 ${LangFileString} Installer_No_Admin "Для установки программы необходимо войти в систему как администратор."
 ${LangFileString} SMPlayer_Is_Running "Экземпляр SMPlayer запущен. Пожалуйста, закройте SMPlayer и попытайтесь снова."
 
-${LangFileString} OS_Not_Supported "Это программа не поддерживает запущенную на вашем компьютере версию Windows."
+${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "Для установки данного ПО требуется 64-битная ОС Windows."
 ${LangFileString} Existing_32bitInst "Существует 32-битная установка SMPlayer. Сначала далите 32-битный SMPlayer."
 ${LangFileString} Existing_64bitInst "Существует 64-битная установка SMPlayer. Сначала далите 64-битный SMPlayer."
@@ -30,11 +30,7 @@ ${LangFileString} Section_StartMenu "Стартовое меню"
 ${LangFileString} Section_StartMenu_Desc "Создаёт ярлыки SMPlayer в стартовом меню."
 
 ${LangFileString} Section_MPlayer "MPlayer (необходимо)"
-!ifdef WITH_MPLAYER
 ${LangFileString} Section_MPlayer_Desc "MPlayer; необходимо для воспроизведения."
-!else ifndef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "MPlayer; необходимо для воспроизведения. (Для установки требуется подключение к сети Интернет)"
-!endif
 
 ${LangFileString} Section_MPlayerCodecs "Бинарные кодеки"
 !ifdef WITH_CODECS

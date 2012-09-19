@@ -11,7 +11,7 @@ ${LangFileString} Installer_Is_Running "安装程序已经运行。"
 ${LangFileString} Installer_No_Admin "安装本程序时，您必须以管理员身份登录。"
 ${LangFileString} SMPlayer_Is_Running "一个 SMPlayer 实例正在运行。请退出 SMPlayer，然后再试一次。"
 
-${LangFileString} OS_Not_Supported "本程序不支持您的计算机正在运行的 Windows 版本。"
+${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "安装本软件需要 64 位 Windows 操作系统。"
 ${LangFileString} Existing_32bitInst "一个 SMPlayer 的 32 位安装已经存在。您必须先卸载 32 位 SMPlayer。"
 ${LangFileString} Existing_64bitInst "一个 SMPlayer 的 64 位安装已经存在。您必须先卸载 64 位 SMPlayer。"
@@ -30,11 +30,7 @@ ${LangFileString} Section_StartMenu "开始菜单"
 ${LangFileString} Section_StartMenu_Desc "创建 SMPlayer 开始菜单项。"
 
 ${LangFileString} Section_MPlayer "MPlayer (必需)"
-!ifdef WITH_MPLAYER
 ${LangFileString} Section_MPlayer_Desc "播放媒体文件所必需的 MPlayer 内核。"
-!else ifndef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "播放媒体文件所必需的 MPlayer 内核。(安装需要使用网络连接)"
-!endif
 
 ${LangFileString} Section_MPlayerCodecs "二进制编解码器"
 !ifdef WITH_CODECS

@@ -1,4 +1,4 @@
-﻿; Installer script for win32 SMPlayer
+﻿; Installer script for win32/win64 SMPlayer
 ; Written by redxii (redxii@users.sourceforge.net)
 ; Tested/Developed with Unicode NSIS 2.46.5
 
@@ -49,14 +49,6 @@
   !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
 !endif
 
-!ifndef WITH_MPLAYER
-
-  !ifndef DEFAULT_MPLAYER_VERSION
-    !define DEFAULT_MPLAYER_VERSION "mplayer-svn-34835-2"
-  !endif
-
-!endif
-
   ;Version control
 !ifndef VERSION_FILE_URL
   !define VERSION_FILE_URL "http://smplayer.sourceforge.net/mplayer-version-info"
@@ -69,19 +61,9 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
-  !ifdef WITH_MPLAYER
-    OutFile "smplayer-${SMPLAYER_VERSION}-x64.exe"
-  !else ifndef WITH_MPLAYER
-    OutFile "smplayer-${SMPLAYER_VERSION}-dl-x64.exe"
-  !endif
+  OutFile "output\smplayer-${SMPLAYER_VERSION}-x86_64.exe"
 !else
-  !ifdef WITH_MPLAYER
-    ;OutFile "smplayer-${SMPLAYER_VERSION}-x86.exe"
-    OutFile "smplayer-${SMPLAYER_VERSION}-win32.exe"
-  !else ifndef WITH_MPLAYER
-    ;OutFile "smplayer-${SMPLAYER_VERSION}-dl-x86.exe"
-    OutFile "smplayer-${SMPLAYER_VERSION}-webdl.exe"
-  !endif
+  OutFile "output\smplayer-${SMPLAYER_VERSION}-x86.exe"
 !endif
 
   ;Version tab properties
@@ -91,19 +73,9 @@
   VIAddVersionKey "FileVersion" "${SMPLAYER_VERSION}"
   VIAddVersionKey "LegalCopyright" ""
 !ifdef WIN64
-  !ifdef WITH_MPLAYER
-    VIAddVersionKey "FileDescription" "SMPlayer Installer x64 (Offline)"
-  !else ifndef WITH_MPLAYER
-    VIAddVersionKey "FileDescription" "SMPlayer Installer x64 (Web Setup)"
-  !endif
+  VIAddVersionKey "FileDescription" "SMPlayer Installer (64-bit)"
 !else
-  !ifdef WITH_MPLAYER
-    ;VIAddVersionKey "FileDescription" "SMPlayer Installer x86 (Offline)"
-    VIAddVersionKey "FileDescription" "SMPlayer Installer (Offline)"
-  !else ifndef WITH_MPLAYER
-    ;VIAddVersionKey "FileDescription" "SMPlayer Installer x86 (Web Downloader)"
-    VIAddVersionKey "FileDescription" "SMPlayer Installer (Web Setup)"
-  !endif
+  VIAddVersionKey "FileDescription" "SMPlayer Installer (32-bit)"
 !endif
 
   ;Default installation folder
@@ -125,7 +97,6 @@
 ;--------------------------------
 ;Variables
 
-  Var Codec_Version
   Var Dialog_Reinstall
   Var Inst_Type
   Var Previous_Version
@@ -368,7 +339,7 @@ SectionGroup $(ShortcutGroupTitle)
       CreateDirectory "$SMPROGRAMS\$SMPlayer_StartMenuFolder"
       CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
       CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMTube.lnk" "$INSTDIR\smtube.exe"
-      WriteINIStr    "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sf.net"
+      WriteINIStr    "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sourceforge.net"
       CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\Uninstall SMPlayer.lnk" "$INSTDIR\${SMPLAYER_UNINST_EXE}"
     !insertmacro MUI_STARTMENU_WRITE_END
 
@@ -384,62 +355,18 @@ SectionGroup $(MPlayerGroupTitle)
 
     SectionIn RO
 
-!ifdef WITH_MPLAYER
     SetOutPath "$INSTDIR\mplayer"
     File /r "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
-!else ifndef WITH_MPLAYER
-    AddSize 16800
 
-    Var /GLOBAL MPlayer_Version
-
-    Call GetVerInfo
-
-    /* Read from version-info
-    If it was unable to download, set version to that defined in the
-    beginning of the script. */
-    ${If} ${FileExists} "$PLUGINSDIR\version-info"
-      ReadINIStr $MPlayer_Version "$PLUGINSDIR\version-info" smplayer mplayer
-    ${Else}
-      StrCpy $MPlayer_Version ${DEFAULT_MPLAYER_VERSION}
-    ${EndIf}
-
-    retry_mplayer:
-
-    DetailPrint $(MPlayer_DL_Msg)
-    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(MPlayer_DL_Msg) /CAPTION $(MPlayer_DL_Msg) \"http://downloads.sourceforge.net/smplayer/$MPlayer_Version.7z?big_mirror=0" \
-    "$PLUGINSDIR\$MPlayer_Version.7z" /END
-    Pop $R0
-    StrCmp $R0 OK 0 check_mplayer
-
-    DetailPrint $(Info_Files_Extract)
-    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$MPlayer_Version.7z" -y -o"$PLUGINSDIR"'
-
-    CreateDirectory "$INSTDIR\mplayer"
-    CopyFiles /SILENT "$PLUGINSDIR\$MPlayer_Version\*" "$INSTDIR\mplayer"
-
-    check_mplayer:
-
-    ${If} $R0 != "OK"
-      DetailPrint $(MPlayer_DL_Failed)
-    ${EndIf}
-
-    IfFileExists "$INSTDIR\mplayer\mplayer.exe" mplayerInstSuccess mplayerInstFailed
-      mplayerInstSuccess:
-        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
-        Goto done
-      mplayerInstFailed:
-        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPlayer_DL_Retry) /SD IDCANCEL IDRETRY retry_mplayer
-        Abort $(MPlayer_Inst_Failed)
-
-    done:
-!endif
   SectionEnd
 
   Section /o $(Section_MPlayerCodecs) SecCodecs
 
     AddSize 22300
+
+    Var /GLOBAL Codec_Version
 
     Call GetVerInfo
 
@@ -534,11 +461,11 @@ Section -Post
 !endif
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.sf.net/forum"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forum"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "Publisher" "Ricardo Villalba"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString" "$INSTDIR\${SMPLAYER_UNINST_EXE}"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sf.net"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sf.net"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sourceforge.net"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://smplayer.sourceforge.net"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
 
@@ -697,10 +624,11 @@ FunctionEnd
 
 Function .onInit
 
-	${Unless} ${AtLeastWinXP}
-		MessageBox MB_OK|MB_ICONSTOP $(OS_Not_Supported)
-		Abort
-	${EndIf}
+  ${Unless} ${AtLeastWinXP}
+    MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
+    Abort
+	installonoldwindows:
+  ${EndIf}
 
 !ifdef WIN64
   ${IfNot} ${RunningX64}
