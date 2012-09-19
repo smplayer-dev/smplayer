@@ -11,7 +11,7 @@ ${LangFileString} Installer_Is_Running "Das Installationsprogramm läuft bereits
 ${LangFileString} Installer_No_Admin "Es sind Administratorrechte nötig, um dieses Programm zu installieren."
 ${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 
-${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
+${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
 ${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
 ${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
@@ -30,11 +30,7 @@ ${LangFileString} Section_StartMenu "Startmenü"
 ${LangFileString} Section_StartMenu_Desc "Erstellt einen Startmenü-Eintrag für SMPlayer."
 
 ${LangFileString} Section_MPlayer "MPlayer (erforderlich)"
-!ifdef WITH_MPLAYER
 ${LangFileString} Section_MPlayer_Desc "MPlayer – benötigt für die Wiedergabe."
-!else ifndef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "MPlayer – benötigt für die Wiedergabe. (Internetverbindung benötigt für Installation)"
-!endif
 
 ${LangFileString} Section_MPlayerCodecs "Binärcodecs"
 !ifdef WITH_CODECS

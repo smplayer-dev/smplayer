@@ -11,7 +11,7 @@ ${LangFileString} Installer_Is_Running "インストーラーは既に実行中�
 ${LangFileString} Installer_No_Admin "このプログラムをインストールするときは管理者としてログインする必要があります。"
 ${LangFileString} SMPlayer_Is_Running "SMPlayer のインスタンスが実行中です。SMPlayer を終了してやり直してください。"
 
-${LangFileString} OS_Not_Supported "このプログラムはお使いのコンピュータが実行している Windows のバージョンをサポートしません。"
+${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "このソフトウェアをインストールするには 64 ビットの Windows オペレーティング システムが必要です。"
 ${LangFileString} Existing_32bitInst "32 ビットの SMPlayer が既にインストールされています。先に 32 ビットの SMPlayer をアンインストールする必要があります。"
 ${LangFileString} Existing_64bitInst "64 ビットの SMPlayer が既にインストールされています。先に 64 ビットの SMPlayer をアンインストールする必要があります。"
@@ -30,11 +30,7 @@ ${LangFileString} Section_StartMenu "[スタート] メニュー"
 ${LangFileString} Section_StartMenu_Desc "SMPlayer の [スタート] メニュー エントリを作成します。"
 
 ${LangFileString} Section_MPlayer "MPlayer (必須)"
-!ifdef WITH_MPLAYER
 ${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer です。"
-!else ifndef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer です。(インストールにはインターネット接続が必要です)"
-!endif
 
 ${LangFileString} Section_MPlayerCodecs "バイナリ コーデック"
 !ifdef WITH_CODECS

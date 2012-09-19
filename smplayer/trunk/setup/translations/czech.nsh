@@ -11,7 +11,7 @@ ${LangFileString} Installer_Is_Running "Instalátor již běží."
 ${LangFileString} Installer_No_Admin "Instalaci tohoto programu je potřeba provést s právy administrátora."
 ${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 
-${LangFileString} OS_Not_Supported "This program does not support the version of Windows your computer is running."
+${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "Pro instalaci tohoto software je zapotřebí mít 64-bitový oprační systém Windows."
 ${LangFileString} Existing_32bitInst "Máte nainstalovánu 32-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 32-bitový SMPlayer."
 ${LangFileString} Existing_64bitInst "Máte nainstalovánu 64-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 64-bitový SMPlayer."
@@ -30,11 +30,7 @@ ${LangFileString} Section_StartMenu "Nabídka Start"
 ${LangFileString} Section_StartMenu_Desc "Vytvoří zástupce SMPlayeru v nabídce Start."
 
 ${LangFileString} Section_MPlayer "MPlayer (vyžadován)"
-!ifdef WITH_MPLAYER
 ${LangFileString} Section_MPlayer_Desc "MPlayer; vyžadován pro přehrávání."
-!else ifndef WITH_MPLAYER
-${LangFileString} Section_MPlayer_Desc "MPlayer; vyžadován pro přehrávání. (Pro instalaci je potřeba připojení k Internetu)"
-!endif
 
 ${LangFileString} Section_MPlayerCodecs "Binární kodeky"
 !ifdef WITH_CODECS
