@@ -1,5 +1,8 @@
 [b]Version 0.8.1[/b]:
 
+(2012-09-14)
+ * Fix youtube playback.
+
 (2012-08-26)
  * Fix: mplayer2 was not recognized if the name was in lowercase in the
    identification string.
