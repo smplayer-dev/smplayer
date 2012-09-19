@@ -18,9 +18,9 @@
 
 #include "version.h"
 
-#define USE_SVN_VERSIONS 1
+#define USE_SVN_VERSIONS 0
 
-#define VERSION "0.8.0"
+#define VERSION "0.8.1"
 
 #if USE_SVN_VERSIONS
 #include "svn_revision.h"
@@ -45,7 +45,7 @@ QString smplayerVersion() {
 #ifdef Q_OS_WIN
     return QString(QString(VERSION) + " " + QString(SMPWIN_ARCH));
 #else
-    return QString(VERSION)
+    return QString(VERSION);
 #endif
 #endif
 }
