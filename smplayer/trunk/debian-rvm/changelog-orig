@@ -1,3 +1,9 @@
+smplayer (0.8.1) oneiric; urgency=low
+
+  * New release
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Wed, 19 Sep 2012 17:47:06 +0200
+
 smplayer (0.8.0) oneiric; urgency=low
 
   * New release
