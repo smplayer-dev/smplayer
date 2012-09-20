@@ -35,7 +35,7 @@ void InputMplayerVersion::setVersionFromOutput(QString text) {
 }
 
 void InputMplayerVersion::setVersion(int current_version) {
-	int index = 0;
+	int index = 2;
 
 	if (current_version == MPLAYER_1_0_RC2_SVN) index = 1;
 	else
