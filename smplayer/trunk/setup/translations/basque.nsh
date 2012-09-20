@@ -11,7 +11,7 @@ ${LangFileString} Installer_Is_Running "Ezartzailea jadanik lanean dago."
 ${LangFileString} Installer_No_Admin "Administratzaile bezala saioa hasita egon behar duzu programa hau ezartzerakoan."
 ${LangFileString} SMPlayer_Is_Running "SMPlayerren eskabide bat lanean ari da. Mesedez irten SMPlayerretik eta saiatu berriro."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported "Sistema eragile sostengu gabea.$\nSMPlayer ${SMPLAYER_VERSION} gutxienez Windows XP behar du eta ezin du zuzen lan egin zure sisteman.$\nEgitan nahi duzu ezarpenarekin jarraitzea?"
 ${LangFileString} Win64_Required "64-biteko Windows sistema eragile bat behar da software hau ezartzeko."
 ${LangFileString} Existing_32bitInst "32-biteko SMPlayer ezarpen bat dago. Lehenik 32-biteko SMPlayer kendu behar duzu."
 ${LangFileString} Existing_64bitInst "64-biteko SMPlayer ezarpen bat dago. Lehenik 64-biteko SMPlayer kendu behar duzu."
