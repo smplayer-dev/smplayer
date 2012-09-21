@@ -301,6 +301,8 @@ void Preferences::reset() {
 
 	show_tag_in_window_title = true;
 
+	time_to_kill_mplayer = 5000;
+
 
     /* *********
        GUI stuff
@@ -720,6 +722,8 @@ void Preferences::save() {
 	set->setValue("actions_to_run", actions_to_run);
 
 	set->setValue("show_tag_in_window_title", show_tag_in_window_title);
+
+	set->setValue("time_to_kill_mplayer", time_to_kill_mplayer);
 
 	set->endGroup(); // advanced
 
@@ -1167,6 +1171,8 @@ void Preferences::load() {
 	actions_to_run = set->value("actions_to_run", actions_to_run).toString();
 
 	show_tag_in_window_title = set->value("show_tag_in_window_title", show_tag_in_window_title).toBool();
+
+	time_to_kill_mplayer = set->value("time_to_kill_mplayer", time_to_kill_mplayer).toInt();
 
 	set->endGroup(); // advanced
 

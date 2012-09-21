@@ -2,6 +2,10 @@
 
 (2012-09-21)
  * Add the option "Report MPlayer crashes" in Preferences -> Advanced.
+ * New option for smplayer.ini: time_to_kill_mplayer. Specifies the
+   time (in milliseconds) that smplayer should wait before killing
+   the mplayer process if the process doesn't teminate on its own
+   when the stop button is pressed. Default value: 5000.
 
 
 [b]Version 0.8.1[/b]:

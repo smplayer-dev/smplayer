@@ -295,6 +295,8 @@ public:
 	//! Show file tag in window title
 	bool show_tag_in_window_title;
 
+	int time_to_kill_mplayer;
+
 
 	/* *********
 	   GUI stuff
