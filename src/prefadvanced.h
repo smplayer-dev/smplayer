@@ -69,6 +69,9 @@ protected:
 	void setUseShortNames(bool b);
 	bool useShortNames();
 
+	void setMplayerCrashes(bool b);
+	bool mplayerCrashes();
+
 	void setMplayerAdditionalArguments(QString args);
 	QString mplayerAdditionalArguments();
 
