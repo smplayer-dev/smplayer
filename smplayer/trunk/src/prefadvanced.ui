@@ -114,6 +114,27 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="shortnames_check">
+         <property name="text">
+          <string>&amp;Pass short filenames (8+3) to MPlayer</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="repaint_video_background_check">
+         <property name="text">
+          <string>Repaint the backgroun&amp;d of the video window</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="mplayer_crashes_check">
+         <property name="text">
+          <string>R&amp;eport MPlayer crashes</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <layout class="QHBoxLayout">
          <item>
           <widget class="QLabel" name="label_8">
@@ -142,20 +163,6 @@
           </spacer>
          </item>
         </layout>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="shortnames_check">
-         <property name="text">
-          <string>&amp;Pass short filenames (8+3) to MPlayer</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="repaint_video_background_check">
-         <property name="text">
-          <string>Repaint the backgroun&amp;d of the video window</string>
-         </property>
-        </widget>
        </item>
        <item>
         <widget class="Line" name="line_3">
@@ -717,9 +724,10 @@ Example: resample=44100:0:0,volnorm</string>
   <tabstop>monitoraspect_combo</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
   <tabstop>idx_check</tabstop>
-  <tabstop>correct_pts_combo</tabstop>
   <tabstop>shortnames_check</tabstop>
   <tabstop>repaint_video_background_check</tabstop>
+  <tabstop>mplayer_crashes_check</tabstop>
+  <tabstop>correct_pts_combo</tabstop>
   <tabstop>actions_to_run_edit</tabstop>
   <tabstop>colorkey_view</tabstop>
   <tabstop>changeButton</tabstop>
