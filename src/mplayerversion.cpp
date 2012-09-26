@@ -93,6 +93,8 @@ int MplayerVersion::mplayerVersion(QString string) {
 		qDebug("MplayerVersion::mplayerVersion: MPlayer version found: %s", version.toUtf8().data());
 		mplayer_svn = 0;
 
+		if (version == "1.1") mplayer_svn = MPLAYER_1_1;
+		else
 		if (version == "1.0rc4") mplayer_svn = MPLAYER_1_0_RC4_SVN;
 		else
 		if (version == "1.0rc3") mplayer_svn = MPLAYER_1_0_RC3_SVN;
@@ -173,6 +175,7 @@ QString MplayerVersion::toString(int svn_revision) {
 		case MPLAYER_1_0_RC2_SVN: version = QString("1.0rc2"); break;
 		case MPLAYER_1_0_RC3_SVN: version = QString("1.0rc3"); break;
 		case MPLAYER_1_0_RC4_SVN: version = QString("1.0rc4"); break;
+		case MPLAYER_1_1: version = QString("1.1"); break;
 		default : version =  QString("SVN r%1").arg(svn_revision);
 	}
 
