@@ -26,6 +26,9 @@
 #define MPLAYER_1_0_RC3_SVN 31272
 #define MPLAYER_1_0_RC4_SVN 33472
 
+// Fix me: find out the revision of version 1.1
+#define MPLAYER_1_1 33473
+
 class MplayerVersion {
 public:
 
