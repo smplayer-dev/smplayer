@@ -1,5 +1,9 @@
 [b]Version 0.8.2[/b]:
 
+(2012-09-28)
+ * (Linux) Install larger icons. smplayer.svg contributed by akovia
+   (http://smplayer.sourceforge.net/forum/viewtopic.php?f=7&t=5557)
+
 (2012-09-21)
  * Add the option "Report MPlayer crashes" in Preferences -> Advanced.
  * New option for smplayer.ini: time_to_kill_mplayer. Specifies the

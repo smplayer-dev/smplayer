@@ -64,14 +64,24 @@ install: src/smplayer
 	-install -d $(DESTDIR)$(SHORTCUTS_PATH)
 	cp src/shortcuts/* $(DESTDIR)$(SHORTCUTS_PATH)
 
+	-install -d $(DESTDIR)$(KDE_ICONS)/512x512/apps/
+	-install -d $(DESTDIR)$(KDE_ICONS)/256x256/apps/
+	-install -d $(DESTDIR)$(KDE_ICONS)/192x192/apps/
+	-install -d $(DESTDIR)$(KDE_ICONS)/128x128/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/64x64/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/32x32/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/22x22/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/16x16/apps/
+	-install -d $(DESTDIR)$(KDE_ICONS)/scalable/apps/
+	install -m 644 icons/smplayer_icon512.png $(DESTDIR)$(KDE_ICONS)/512x512/apps/smplayer.png
+	install -m 644 icons/smplayer_icon256.png $(DESTDIR)$(KDE_ICONS)/256x256/apps/smplayer.png
+	install -m 644 icons/smplayer_icon192.png $(DESTDIR)$(KDE_ICONS)/192x192/apps/smplayer.png
+	install -m 644 icons/smplayer_icon128.png $(DESTDIR)$(KDE_ICONS)/128x128/apps/smplayer.png
 	install -m 644 icons/smplayer_icon64.png $(DESTDIR)$(KDE_ICONS)/64x64/apps/smplayer.png
 	install -m 644 icons/smplayer_icon32.png $(DESTDIR)$(KDE_ICONS)/32x32/apps/smplayer.png
 	install -m 644 icons/smplayer_icon22.png $(DESTDIR)$(KDE_ICONS)/22x22/apps/smplayer.png
 	install -m 644 icons/smplayer_icon16.png $(DESTDIR)$(KDE_ICONS)/16x16/apps/smplayer.png
+	install -m 644 icons/smplayer.svg $(DESTDIR)$(KDE_ICONS)/scalable/apps/smplayer.svg
 	-install -d $(DESTDIR)$(KDE_APPLNK)
 	install -m 644 smplayer.desktop $(DESTDIR)$(KDE_APPLNK)
 	install -m 644 smplayer_enqueue.desktop $(DESTDIR)$(KDE_APPLNK)
