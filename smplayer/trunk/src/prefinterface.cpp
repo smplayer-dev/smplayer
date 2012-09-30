@@ -207,6 +207,8 @@ void PrefInterface::setData(Preferences * pref) {
 #ifndef Q_OS_WIN
 	setFloatingBypassWindowManager(pref->bypass_window_manager);
 #endif
+
+	setRememberDirs(pref->save_dirs);
 }
 
 void PrefInterface::getData(Preferences * pref) {
@@ -272,6 +274,8 @@ void PrefInterface::getData(Preferences * pref) {
 #ifndef Q_OS_WIN
 	pref->bypass_window_manager = floatingBypassWindowManager();
 #endif
+
+	pref->save_dirs = rememberDirs();
 }
 
 void PrefInterface::setLanguage(QString lang) {
@@ -359,14 +363,6 @@ bool PrefInterface::useSingleInstance() {
 	return single_instance_check->isChecked();
 }
 #endif
-
-void PrefInterface::setRecentsMaxItems(int n) {
-	recents_max_items_spin->setValue(n);
-}
-
-int PrefInterface::recentsMaxItems() {
-	return recents_max_items_spin->value();
-}
 
 void PrefInterface::setSeeking1(int n) {
 	seek1->setTime(n);
@@ -511,6 +507,22 @@ bool PrefInterface::floatingBypassWindowManager() {
 }
 #endif
 
+void PrefInterface::setRecentsMaxItems(int n) {
+	recents_max_items_spin->setValue(n);
+}
+
+int PrefInterface::recentsMaxItems() {
+	return recents_max_items_spin->value();
+}
+
+void PrefInterface::setRememberDirs(bool b) {
+	save_dirs_check->setChecked(b);
+}
+
+bool PrefInterface::rememberDirs() {
+	return save_dirs_check->isChecked();
+}
+
 void PrefInterface::createHelp() {
 	clearHelp();
 
@@ -526,11 +538,6 @@ void PrefInterface::createHelp() {
 
 	setWhatsThis(hide_video_window_on_audio_check, tr("Hide video window when playing audio files"),
         tr("If this option is enabled the video window will be hidden when playing audio files.") );
-
-	setWhatsThis(recents_max_items_spin, tr("Recent files"),
-        tr("Select the maximum number of items that will be shown in the "
-           "<b>Open->Recent files</b> submenu. If you set it to 0 that "
-           "menu won't be shown at all.") );
 
 	setWhatsThis(language_combo, tr("Language"),
 		tr("Here you can change the language of the application.") );
@@ -620,6 +627,16 @@ void PrefInterface::createHelp() {
            "window manager. Disable this option if the floating control "
            "doesn't work well with your window manager.") );
 #endif
+
+	addSectionTitle(tr("Privacy"));
+
+	setWhatsThis(recents_max_items_spin, tr("Recent files"),
+        tr("Select the maximum number of items that will be shown in the "
+           "<b>Open->Recent files</b> submenu. If you set it to 0 that "
+           "menu won't be shown at all.") );
+
+	setWhatsThis(save_dirs_check, tr("Remember last directory"),
+		tr("If this option is checked, SMPlayer will remember the last folder you use to open a file.") );
 }
 
 #include "moc_prefinterface.cpp"

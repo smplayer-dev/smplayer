@@ -1,5 +1,10 @@
 [b]Version 0.8.2[/b]:
 
+(2012-09-30)
+ * Add new section "Privacy" in Preferences -> Interface.
+ * Move max. items for recent files to the privacy section.
+ * Add option to remember or not the last directories.
+
 (2012-09-28)
  * (Linux) Install larger icons. smplayer.svg contributed by akovia
    (http://smplayer.sourceforge.net/forum/viewtopic.php?f=7&t=5557)

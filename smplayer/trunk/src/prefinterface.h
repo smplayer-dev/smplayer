@@ -74,9 +74,6 @@ protected:
 	bool useSingleInstance();
 #endif
 
-	void setRecentsMaxItems(int n);
-	int recentsMaxItems();
-
 	void setSeeking1(int n);
 	int seeking1();
 
@@ -121,6 +118,13 @@ protected:
 	void setFloatingBypassWindowManager(bool b);
 	bool floatingBypassWindowManager();
 #endif
+
+	// Privacy tab
+	void setRecentsMaxItems(int n);
+	int recentsMaxItems();
+
+	void setRememberDirs(bool b);
+	bool rememberDirs();
 
 protected slots:
 	void on_changeFontButton_clicked();
