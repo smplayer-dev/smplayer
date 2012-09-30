@@ -3,7 +3,9 @@
 (2012-09-30)
  * Add new section "Privacy" in Preferences -> Interface.
  * Move max. items for recent files to the privacy section.
- * Add option to remember or not the last directories.
+ * Add an option to remember or not the last directories.
+ * Add an option to select the maximum number of items in the
+   Open->URL dialog.
 
 (2012-09-28)
  * (Linux) Install larger icons. smplayer.svg contributed by akovia

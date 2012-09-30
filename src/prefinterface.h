@@ -46,6 +46,7 @@ public:
 	bool guiChanged() { return gui_changed; }
 	bool styleChanged() { return style_changed; };
 	bool recentsChanged() { return recents_changed; };
+	bool urlMaxChanged() { return url_max_changed; };
 
 protected:
 	virtual void createHelp();
@@ -123,6 +124,9 @@ protected:
 	void setRecentsMaxItems(int n);
 	int recentsMaxItems();
 
+	void setURLMaxItems(int n);
+	int urlMaxItems();
+
 	void setRememberDirs(bool b);
 	bool rememberDirs();
 
@@ -141,6 +145,7 @@ private:
 	bool gui_changed;
 	bool style_changed;
 	bool recents_changed;
+	bool url_max_changed;
 };
 
 #endif

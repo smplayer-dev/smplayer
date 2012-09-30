@@ -24,6 +24,7 @@
 #include "config.h"
 #include "languages.h"
 #include "recents.h"
+#include "urlhistory.h"
 
 #include <QDir>
 #include <QStyleFactory>
@@ -179,8 +180,6 @@ void PrefInterface::setData(Preferences * pref) {
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
 #endif
-	setRecentsMaxItems(pref->history_recents->maxItems());
-
 	setSeeking1(pref->seeking1);
 	setSeeking2(pref->seeking2);
 	setSeeking3(pref->seeking3);
@@ -208,6 +207,8 @@ void PrefInterface::setData(Preferences * pref) {
 	setFloatingBypassWindowManager(pref->bypass_window_manager);
 #endif
 
+	setRecentsMaxItems(pref->history_recents->maxItems());
+	setURLMaxItems(pref->history_urls->maxItems());
 	setRememberDirs(pref->save_dirs);
 }
 
@@ -242,11 +243,6 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->use_single_instance = useSingleInstance();
 #endif
 
-	if (pref->history_recents->maxItems() != recentsMaxItems()) {
-		pref->history_recents->setMaxItems( recentsMaxItems() );
-		recents_changed = true;
-	}
-
 	pref->seeking1 = seeking1();
 	pref->seeking2 = seeking2();
 	pref->seeking3 = seeking3();
@@ -274,6 +270,16 @@ void PrefInterface::getData(Preferences * pref) {
 #ifndef Q_OS_WIN
 	pref->bypass_window_manager = floatingBypassWindowManager();
 #endif
+
+	if (pref->history_recents->maxItems() != recentsMaxItems()) {
+		pref->history_recents->setMaxItems( recentsMaxItems() );
+		recents_changed = true;
+	}
+
+	if (pref->history_urls->maxItems() != urlMaxItems()) {
+		pref->history_urls->setMaxItems( urlMaxItems() );
+		url_max_changed = true;
+	}
 
 	pref->save_dirs = rememberDirs();
 }
@@ -515,6 +521,14 @@ int PrefInterface::recentsMaxItems() {
 	return recents_max_items_spin->value();
 }
 
+void PrefInterface::setURLMaxItems(int n) {
+	url_max_items_spin->setValue(n);
+}
+
+int PrefInterface::urlMaxItems() {
+	return url_max_items_spin->value();
+}
+
 void PrefInterface::setRememberDirs(bool b) {
 	save_dirs_check->setChecked(b);
 }
@@ -634,6 +648,11 @@ void PrefInterface::createHelp() {
         tr("Select the maximum number of items that will be shown in the "
            "<b>Open->Recent files</b> submenu. If you set it to 0 that "
            "menu won't be shown at all.") );
+
+	setWhatsThis(url_max_items_spin, tr("Max. URLs"),
+        tr("Select the maximum number of items that the <b>Open->URL</b> "
+           "dialog will remember. Set it to 0 if you don't want any URL "
+           "to be stored.") );
 
 	setWhatsThis(save_dirs_check, tr("Remember last directory"),
 		tr("If this option is checked, SMPlayer will remember the last folder you use to open a file.") );
