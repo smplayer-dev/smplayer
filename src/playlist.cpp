@@ -1358,6 +1358,10 @@ void Playlist::saveSettings() {
 
 	QSettings * set = settings;
 
+	set->beginGroup( "directories");
+	bool save_dirs = set->value("save_dirs", false).toBool();
+	set->endGroup();
+
 	set->beginGroup( "playlist");
 
 	set->setValue( "repeat", repeatAct->isChecked() );
@@ -1374,7 +1378,11 @@ void Playlist::saveSettings() {
 #if !DOCK_PLAYLIST
 	set->setValue( "size", size() );
 #endif
-	set->setValue( "latest_dir", latest_dir );
+	if (save_dirs) {
+		set->setValue( "latest_dir", latest_dir );
+	} else {
+		set->setValue( "latest_dir", "" );
+	}
 
 	set->endGroup();
 
