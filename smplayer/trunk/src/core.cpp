@@ -2111,7 +2111,7 @@ void Core::startMplayer( QString file, double seek ) {
 	if ( (pref->use_soft_video_eq) ) {
 		proc->addArgument("-vf-add");
 		QString eq_filter = "eq2,hue";
-		if ( (pref->vo == "gl") || (pref->vo == "gl2")
+		if ( (pref->vo == "gl") || (pref->vo == "gl2") || (pref->vo == "gl_tiled")
 #ifdef Q_OS_WIN
              || (pref->vo == "directx:noaccel")
 #endif
