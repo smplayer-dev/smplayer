@@ -600,6 +600,8 @@ protected:
 	MyAction * channelsStereoAct;
 	MyAction * channelsSurroundAct;
 	MyAction * channelsFull51Act;
+	MyAction * channelsFull61Act;
+	MyAction * channelsFull71Act;
 
 	// Stereo Mode Action Group
 	MyActionGroup * stereoGroup;
