@@ -1,5 +1,9 @@
 [b]Version 0.8.2[/b]:
 
+(2012-10-05)
+ * Add support for 6.1 and 7.1 audio output. Patch by AdrianoML
+   (http://smplayer.sourceforge.net/forum/viewtopic.php?f=4&t=5655)
+
 (2012-09-30)
  * Add new section "Privacy" in Preferences -> Interface.
  * Move max. items for recent files to the privacy section.
