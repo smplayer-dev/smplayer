@@ -1,6 +1,6 @@
-﻿; Installer script for win32/win64 SMPlayer
-; Written by redxii (redxii@users.sourceforge.net)
-; Tested/Developed with Unicode NSIS 2.46.5
+﻿;Installer script for win32/win64 SMPlayer
+;Written by redxii (redxii@users.sourceforge.net)
+;Tested/Developed with Unicode NSIS 2.46.5
 
 !ifndef VER_MAJOR | VER_MINOR | VER_BUILD
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
@@ -120,18 +120,18 @@
   !define MUI_ICON "smplayer-orange-installer.ico"
   !define MUI_UNICON "smplayer-orange-uninstaller.ico"
 
-  ; Misc
+  ;Misc
   !define MUI_WELCOMEFINISHPAGE_BITMAP "smplayer-orange-wizard.bmp"
   !define MUI_UNWELCOMEFINISHPAGE_BITMAP "smplayer-orange-wizard-un.bmp"
   !define MUI_ABORTWARNING
 
-  ; License page
+  ;License page
   !define MUI_LICENSEPAGE_RADIOBUTTONS
 
-  ; Components page
+  ;Components page
   !define MUI_COMPONENTSPAGE_SMALLDESC
 
-  ; Finish page
+  ;Finish page
   !define MUI_FINISHPAGE_LINK "http://smplayer.sourceforge.net"
   !define MUI_FINISHPAGE_LINK_LOCATION "http://smplayer.sourceforge.net"
   !define MUI_FINISHPAGE_NOREBOOTSUPPORT
@@ -172,7 +172,12 @@
 ;Pages
 
   ;Install pages
+  #Welcome
+  !define MUI_PAGE_CUSTOMFUNCTION_PRE PageWelcomePre
   !insertmacro MUI_PAGE_WELCOME
+
+  #License
+  !define MUI_PAGE_CUSTOMFUNCTION_PRE PageLicensePre
   !insertmacro MUI_PAGE_LICENSE "${SMPLAYER_BUILD_DIR}\Copying.txt"
 
   #Upgrade/Reinstall
@@ -197,7 +202,6 @@
   !define MUI_PAGE_CUSTOMFUNCTION_PRE un.ConfirmPagePre
   !insertmacro MUI_UNPAGE_CONFIRM
   !insertmacro MUI_UNPAGE_INSTFILES
-  !define MUI_PAGE_CUSTOMFUNCTION_PRE un.FinishPagePre
   !insertmacro MUI_UNPAGE_FINISH
 
 ;--------------------------------
@@ -228,7 +232,7 @@
   !insertmacro MUI_LANGUAGE "Spanish"
   !insertmacro MUI_LANGUAGE "TradChinese"
 
-; Custom translations for setup
+;Custom translations for setup
 
   !insertmacro LANGFILE_INCLUDE "translations\english.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
@@ -609,10 +613,10 @@ ${MementoSectionDone}
 Function ${UN}RunCheck
 
   retry_runcheck:
-	FindProcDLL::FindProc "smplayer.exe"
-	IntCmp $R0 1 0 +3
-		MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
-		Abort
+  FindProcDLL::FindProc "smplayer.exe"
+  IntCmp $R0 1 0 +3
+    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
+    Abort
 
 FunctionEnd
 !macroend
@@ -668,7 +672,7 @@ Function .onInit
     Abort
 
   ;Check if SMPlayer is running
-	;Allow skipping check using /NORUNCHECK
+  ;Allow skipping check using /NORUNCHECK
   ${GetParameters} $R0
   ${GetOptions} $R0 "/NORUNCHECK" $R1
   IfErrors 0 +2
@@ -856,6 +860,22 @@ Function PageReinstallUpdate
 
 FunctionEnd
 
+Function PageWelcomePre
+
+  ${If} $Reinstall_Uninstall == 1
+    Abort
+  ${EndIf}
+
+FunctionEnd
+
+Function PageLicensePre
+
+  ${If} $Reinstall_Uninstall == 1
+    Abort
+  ${EndIf}
+
+FunctionEnd
+
 Function PageComponentsPre
 
   ${If} $Reinstall_Uninstall == 1
@@ -962,7 +982,7 @@ Function un.onInit
   ${EndIf}
 
   ;Check if SMPlayer is running
-	;Allow skipping check using /NORUNCHECK
+  ;Allow skipping check using /NORUNCHECK
   ${un.GetParameters} $R0
   ${un.GetOptions} $R0 "/NORUNCHECK" $R1
   IfErrors 0 +2
@@ -977,17 +997,6 @@ Function un.onInit
 FunctionEnd
 
 Function un.ConfirmPagePre
-
-  ${un.GetParameters} $R0
-
-  ${un.GetOptionsS} $R0 "/X" $R1
-  ${Unless} ${Errors}
-    Abort
-  ${EndUnless}
-
-FunctionEnd
-
-Function un.FinishPagePre
 
   ${un.GetParameters} $R0
 
