@@ -643,7 +643,7 @@ Function .onInit
   IfErrors +3 0
     MessageBox MB_OK|MB_ICONSTOP $(Existing_32bitInst)
     Abort
-  
+
   SetRegView 64
 !else
   ${If} ${RunningX64}
@@ -654,7 +654,7 @@ Function .onInit
     IfErrors +3 0
       MessageBox MB_OK|MB_ICONSTOP $(Existing_64bitInst)
       Abort
-    
+
     SetRegView 32
   ${EndIf}
 !endif
@@ -668,7 +668,11 @@ Function .onInit
     Abort
 
   ;Check if SMPlayer is running
-  Call RunCheck
+	;Allow skipping check using /NORUNCHECK
+  ${GetParameters} $R0
+  ${GetOptions} $R0 "/NORUNCHECK" $R1
+  IfErrors 0 +2
+    Call RunCheck
 
   ;Check for admin on < Vista
   UserInfo::GetAccountType
@@ -958,7 +962,11 @@ Function un.onInit
   ${EndIf}
 
   ;Check if SMPlayer is running
-  Call un.RunCheck
+	;Allow skipping check using /NORUNCHECK
+  ${un.GetParameters} $R0
+  ${un.GetOptions} $R0 "/NORUNCHECK" $R1
+  IfErrors 0 +2
+    Call un.RunCheck
 
   ;Gets start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
