@@ -15,6 +15,9 @@ it can only be compiled with Qt 4.3 or greater.
 ----------------------------
 Be sure you have installed the following packages: libqt4-dev, zlib1g-dev,
 fakeroot, build-essential, devscripts, debhelper and g++.
+
+sudo apt-get install libqt4-dev zlib1g-dev fakeroot build-essential devscripts debhelper g++
+
 Now run ./create_deb.sh
 
 
