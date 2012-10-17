@@ -61,9 +61,9 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
-  OutFile "output\smplayer-${SMPLAYER_VERSION}-x86_64.exe"
+  OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
 !else
-  OutFile "output\smplayer-${SMPLAYER_VERSION}-x86.exe"
+  OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
 !endif
 
   ;Version tab properties
@@ -173,7 +173,6 @@
 
   ;Install pages
   #Welcome
-  !define MUI_PAGE_CUSTOMFUNCTION_PRE PageWelcomePre
   !insertmacro MUI_PAGE_WELCOME
 
   #License
@@ -856,14 +855,6 @@ Function PageReinstallUpdate
 
     ${NSD_SetText} $Reinstall_Message $(Reinstall_Msg3_3)
 
-  ${EndIf}
-
-FunctionEnd
-
-Function PageWelcomePre
-
-  ${If} $Reinstall_Uninstall == 1
-    Abort
   ${EndIf}
 
 FunctionEnd
