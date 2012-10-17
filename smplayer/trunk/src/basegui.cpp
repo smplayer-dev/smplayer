@@ -1999,6 +1999,8 @@ void BaseGui::createMplayerWindow() {
              this, SLOT(xbutton2ClickFunction()) );
 	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)),
              this, SLOT(checkMousePos(QPoint)) );
+	connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
+             this, SLOT(moveWindow(QPoint)));
 }
 
 void BaseGui::createVideoEqualizer() {
@@ -4519,6 +4521,12 @@ void BaseGui::saveActions() {
 #endif
 }
 
+void BaseGui::moveWindow(QPoint diff) {
+	if (pref->fullscreen || isMaximized()) {
+		return;
+	}
+	move(pos() + diff);
+}
 
 void BaseGui::showEvent( QShowEvent * ) {
 	qDebug("BaseGui::showEvent");

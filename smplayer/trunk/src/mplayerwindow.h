@@ -210,6 +210,7 @@ signals:
 	void wheelUp();
 	void wheelDown();
 	void mouseMoved(QPoint);
+	void mouseMovedDiff(QPoint);
 
 protected:
     int video_width, video_height;
@@ -229,6 +230,7 @@ protected:
 	int orig_width, orig_height;
 
 	bool allow_video_movement;
+	QPoint mouse_press_pos;
 
 #if DELAYED_RESIZE
 	QTimer * resize_timer;

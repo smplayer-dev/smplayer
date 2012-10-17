@@ -240,6 +240,7 @@ protected slots:
 	// show the controlwidget if it's moved to
 	// the bottom area.
 	virtual void checkMousePos( QPoint );
+	virtual void moveWindow(QPoint diff);
 
 	// Single instance stuff
 #ifdef SINGLE_INSTANCE
