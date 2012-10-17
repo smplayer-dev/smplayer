@@ -23,8 +23,8 @@ ${LangFileString} MPlayerGroupTitle "MPlayer Osagaiak"
 ${LangFileString} Section_SMPlayer "SMPlayer (beharrezkoa)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, elkarbanatutako liburutegiak, eta agiritza."
 
-${LangFileString} Section_DesktopShortcut "Mahigaina"
-${LangFileString} Section_DesktopShortcut_Desc "Sortu SMPlayer lasterbide bat mahigainean."
+${LangFileString} Section_DesktopShortcut "Mahaigaina"
+${LangFileString} Section_DesktopShortcut_Desc "Sortu SMPlayer lasterbide bat mahaigainean."
 
 ${LangFileString} Section_StartMenu "Hasiera Menua"
 ${LangFileString} Section_StartMenu_Desc "Sortu SMPlayer sarrera bat Hasiera Menuan."
