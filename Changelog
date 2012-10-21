@@ -1,5 +1,9 @@
 [b]Version 0.8.2[/b]:
 
+(2012-10-22)
+ * Bug fix: stop playback when the user selects to play the next
+   item in the playlist and there are no more items to play.
+
 (2012-10-17)
  * Move the main window by dragging in the video area.
    Code copied from umplayer.

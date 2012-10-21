@@ -4175,6 +4175,8 @@ void BaseGui::exitFullscreenOnStop() {
 
 void BaseGui::playlistHasFinished() {
 	qDebug("BaseGui::playlistHasFinished");
+	core->stop();
+
 	exitFullscreenOnStop();
 
 	qDebug("BaseGui::playlistHasFinished: arg_close_on_finish: %d, pref->close_on_finish: %d", arg_close_on_finish, pref->close_on_finish);
