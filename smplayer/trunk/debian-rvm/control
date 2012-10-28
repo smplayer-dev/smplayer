@@ -9,7 +9,7 @@ Package: smplayer
 Architecture: any
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: ${shlibs:Depends}, mplayer | mplayer-nogui | mplayer-mt | mplayer2
-Recommends: smplayer-themes, smtube, alsa-utils, x11-utils
+Recommends: smplayer-themes, smplayer-skins, smtube, alsa-utils, x11-utils
 Replaces: smplayer-translations
 Provides: smplayer-translations
 Description: A great front-end for MPlayer
