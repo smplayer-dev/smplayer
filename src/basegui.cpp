@@ -1972,7 +1972,7 @@ void BaseGui::createMplayerWindow() {
 	mplayerwindow->setAnimatedLogo( pref->animated_logo);
 #endif
 
-	QHBoxLayout * layout = new QHBoxLayout;
+	QVBoxLayout * layout = new QVBoxLayout;
 	layout->setSpacing(0);
 	layout->setMargin(0);
 	layout->addWidget(mplayerwindow);

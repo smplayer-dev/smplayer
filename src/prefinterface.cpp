@@ -21,7 +21,6 @@
 #include "images.h"
 #include "preferences.h"
 #include "paths.h"
-#include "config.h"
 #include "languages.h"
 #include "recents.h"
 #include "urlhistory.h"
@@ -55,6 +54,15 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
 	QStringList iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
+		#ifdef SKINS
+		QString css_file = Paths::configPath() + "/themes/" + iconsets[n] + "/main.css";
+		bool is_skin = QFile::exists(css_file);
+		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
+		if (is_skin) {
+			skin_combo->addItem( iconsets[n] );
+		}
+		else
+		#endif
 		iconset_combo->addItem( iconsets[n] );
 	}
 	// Global
@@ -62,6 +70,15 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
 	iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
+		#ifdef SKINS
+		QString css_file = Paths::themesPath() + "/" + iconsets[n] + "/main.css";
+		bool is_skin = QFile::exists(css_file);
+		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
+		if ((is_skin) && (iconset_combo->findText( iconsets[n] ) == -1)) {
+			skin_combo->addItem( iconsets[n] );
+		}
+		else
+		#endif
 		if (iconset_combo->findText( iconsets[n] ) == -1) {
 			iconset_combo->addItem( iconsets[n] );
 		}
@@ -74,8 +91,23 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	tabWidget->setTabEnabled(SINGLE_INSTANCE_TAB, false);
 #endif
 
+#ifdef SKINS
+	connect(gui_combo, SIGNAL(currentIndexChanged(int)),
+            this, SLOT(GUIChanged(int)));
+#endif
+
 #ifdef Q_OS_WIN
 	floating_bypass_wm_check->hide();
+#endif
+
+#ifndef SEEKBAR_RESOLUTION
+	seeking_method_group->hide();
+#endif
+
+#ifndef SKINS
+	skin_combo->hide();
+	skin_label->hide();
+	skin_sp->hide();
 #endif
 
 	retranslateStrings();
@@ -163,6 +195,9 @@ void PrefInterface::retranslateStrings() {
 	gui_combo->addItem( tr("Default GUI"), "DefaultGUI");
 	gui_combo->addItem( tr("Mini GUI"), "MiniGUI");
 	gui_combo->addItem( tr("Mpc GUI"), "MpcGUI");
+#ifdef SKINS
+	gui_combo->addItem( tr("Skinnable GUI"), "SkinGUI");
+#endif
 	gui_combo->setCurrentIndex(gui_index);
 
 	floating_width_label->setNum(floating_width_slider->value());
@@ -186,7 +221,9 @@ void PrefInterface::setData(Preferences * pref) {
 	setSeeking4(pref->seeking4);
 
 	setUpdateWhileDragging(pref->update_while_seeking);
+#ifdef SEEKBAR_RESOLUTION
 	setRelativeSeeking(pref->relative_seeking);
+#endif
 	setPreciseSeeking(pref->precise_seeking);
 
 	setDefaultFont(pref->default_font);
@@ -249,7 +286,9 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->seeking4 = seeking4();
 
 	pref->update_while_seeking = updateWhileDragging();
+#ifdef SEEKBAR_RESOLUTION
 	pref->relative_seeking= relativeSeeking();
+#endif
 	pref->precise_seeking = preciseSeeking();
 
 	pref->default_font = defaultFont();
@@ -305,13 +344,38 @@ QString PrefInterface::language() {
 }
 
 void PrefInterface::setIconSet(QString set) {
+	/*
 	if (set.isEmpty())
 		iconset_combo->setCurrentIndex(0);
 	else
 		iconset_combo->setCurrentText(set);
+	*/
+	iconset_combo->setCurrentIndex(0);
+	for (int n=0; n < iconset_combo->count(); n++) {
+		if (iconset_combo->itemText(n) == set) {
+			iconset_combo->setCurrentIndex(n);
+			break;
+		}
+	}
+#ifdef SKINS
+	skin_combo->setCurrentIndex(0);
+	for (int n=0; n < skin_combo->count(); n++) {
+		if (skin_combo->itemText(n) == set) {
+			skin_combo->setCurrentIndex(n);
+			break;
+		}
+	}
+#endif
 }
 
 QString PrefInterface::iconSet() {
+#ifdef SKINS
+	QString GUI = gui_combo->itemData(gui_combo->currentIndex()).toString();
+	if (GUI == "SkinGUI") {
+		return skin_combo->currentText();
+	}
+	else
+#endif
 	if (iconset_combo->currentIndex()==0) 
 		return "";
 	else
@@ -358,6 +422,26 @@ void PrefInterface::setGUI(QString gui_name) {
 QString PrefInterface::GUI() {
 	return gui_combo->itemData(gui_combo->currentIndex()).toString();
 }
+
+#ifdef SKINS
+void PrefInterface::GUIChanged(int index) {
+	if (gui_combo->itemData(index).toString() == "SkinGUI") {
+		iconset_combo->hide();
+		iconset_label->hide();
+		iconset_sp->hide();
+		skin_combo->show();
+		skin_label->show();
+		skin_sp->show();
+	} else {
+		iconset_combo->show();
+		iconset_label->show();
+		iconset_sp->show();
+		skin_combo->hide();
+		skin_label->hide();
+		skin_sp->hide();
+	}
+}
+#endif
 
 #ifdef SINGLE_INSTANCE
 void PrefInterface::setUseSingleInstance(bool b) {
@@ -413,6 +497,7 @@ bool PrefInterface::updateWhileDragging() {
 	return (timeslider_behaviour_combo->currentIndex() == 0);
 }
 
+#ifdef SEEKBAR_RESOLUTION
 void PrefInterface::setRelativeSeeking(bool b) {
 	relative_seeking_button->setChecked(b);
 	absolute_seeking_button->setChecked(!b);
@@ -421,6 +506,7 @@ void PrefInterface::setRelativeSeeking(bool b) {
 bool PrefInterface::relativeSeeking() {
 	return relative_seeking_button->isChecked();
 }
+#endif
 
 void PrefInterface::setPreciseSeeking(bool b) {
 	precise_seeking_check->setChecked(b);
@@ -556,21 +642,25 @@ void PrefInterface::createHelp() {
 	setWhatsThis(language_combo, tr("Language"),
 		tr("Here you can change the language of the application.") );
 
-	setWhatsThis(iconset_combo, tr("Icon set"),
-        tr("Select the icon set you prefer for the application.") );
-
-	setWhatsThis(style_combo, tr("Style"),
-        tr("Select the style you prefer for the application.") );
-
 	setWhatsThis(gui_combo, tr("GUI"),
         tr("Select the GUI you prefer for the application. Currently "
            "there are two available: Default GUI and Mini GUI.<br>"
            "The <b>Default GUI</b> provides the traditional GUI, with the "
            "toolbar and control bar. The <b>Mini GUI</b> provides a "
            "more simple GUI, without toolbar and a control bar with few "
-           "buttons.<br>"
-           "<b>Note:</b> this option will take effect the next "
-           "time you run SMPlayer.") );
+           "buttons.") );
+
+	setWhatsThis(iconset_combo, tr("Icon set"),
+        tr("Select the icon set you prefer for the application.") );
+
+#ifdef SKINS
+	setWhatsThis(skin_combo, tr("Skin"),
+        tr("Select the skin you prefer for the application. Only available with the skinnable GUI.") );
+#endif
+
+	setWhatsThis(style_combo, tr("Style"),
+        tr("Select the style you prefer for the application.") );
+
 
 	setWhatsThis(changeFontButton, tr("Default font"),
         tr("You can change here the application's font.") );
@@ -596,10 +686,12 @@ void PrefInterface::createHelp() {
 	setWhatsThis(timeslider_behaviour_combo, tr("Behaviour of time slider"),
         tr("Select what to do when dragging the time slider.") );
 
+#ifdef SEEKBAR_RESOLUTION
 	setWhatsThis(seeking_method_group, tr("Seeking method"),
 		tr("Sets the method to be used when seeking with the slider. "
            "Absolute seeking may be a little bit more accurate, while "
            "relative seeking may work better with files with a wrong length.") );
+#endif
 
 	setWhatsThis(precise_seeking_check, tr("Precise seeking"),
 		tr("If this option is enabled, seeks are more accurate but they "

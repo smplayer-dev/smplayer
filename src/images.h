@@ -21,6 +21,7 @@
 
 #include <QPixmap>
 #include <QString>
+#include <QIcon>
 
 /* Warning: don't use this until global->preferences is created! */
 class Images
@@ -35,6 +36,11 @@ public:
 
 	//! Returns the filename of the icon
 	static QString file(const QString & icon_name);
+
+	static QIcon multiIcon(QString name, QString fallback_icon);
+
+	static QString styleSheet();
+	static QString themesDirectory();
 
 private:
 	//! Return the filename for the icon

@@ -28,6 +28,10 @@
 #include "clhelp.h"
 #include "myapplication.h"
 
+#ifdef SKINS
+#include "skingui.h"
+#endif
+
 #include <QDir>
 #include <QUrl>
 #include <QTime>
@@ -108,6 +112,11 @@ BaseGui * SMPlayer::gui() {
 BaseGui * SMPlayer::createGUI(QString gui_name) {
 	BaseGui * gui = 0;
 
+#ifdef SKINS
+	if (gui_name.toLower() == "skingui")
+		gui = new SkinGui(0);
+	else
+#endif
 	if (gui_name.toLower() == "minigui") 
 		gui = new MiniGui(0);
 	else 

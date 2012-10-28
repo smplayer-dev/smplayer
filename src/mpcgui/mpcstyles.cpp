@@ -237,3 +237,4 @@ void MpcTimeSlideStyle::drawComplexControl(ComplexControl cc, const QStyleOption
     }
 }
 
+#include "moc_mpcstyles.cpp"
