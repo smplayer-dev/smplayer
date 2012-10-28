@@ -152,6 +152,10 @@ private:
 	bool style_changed;
 	bool recents_changed;
 	bool url_max_changed;
+
+#ifdef SKINS
+	int n_skins;
+#endif
 };
 
 #endif

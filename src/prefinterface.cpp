@@ -49,6 +49,10 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	// Icon set combo
 	iconset_combo->addItem( "Default" );
 
+#ifdef SKINS
+	n_skins = 0;
+#endif
+
 	// User
 	QDir icon_dir = Paths::configPath() + "/themes";
 	qDebug("icon_dir: %s", icon_dir.absolutePath().toUtf8().data());
@@ -60,6 +64,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
 		if (is_skin) {
 			skin_combo->addItem( iconsets[n] );
+			n_skins++;
 		}
 		else
 		#endif
@@ -76,6 +81,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
 		if ((is_skin) && (iconset_combo->findText( iconsets[n] ) == -1)) {
 			skin_combo->addItem( iconsets[n] );
+			n_skins++;
 		}
 		else
 		#endif
@@ -197,6 +203,10 @@ void PrefInterface::retranslateStrings() {
 	gui_combo->addItem( tr("Mpc GUI"), "MpcGUI");
 #ifdef SKINS
 	gui_combo->addItem( tr("Skinnable GUI"), "SkinGUI");
+	if (n_skins == 0) {
+		QModelIndex index = gui_combo->model()->index(gui_combo->count()-1,0);
+		gui_combo->model()->setData(index, QVariant(0), Qt::UserRole -1);
+	}
 #endif
 	gui_combo->setCurrentIndex(gui_index);
 
@@ -414,6 +424,9 @@ QString PrefInterface::style() {
 }
 
 void PrefInterface::setGUI(QString gui_name) {
+#ifdef SKINS
+	if ((n_skins == 0) && (gui_name == "SkinGUI")) gui_name = "DefaultGUI";
+#endif
 	int i = gui_combo->findData(gui_name);
 	if (i < 0) i=0;
 	gui_combo->setCurrentIndex(i);
