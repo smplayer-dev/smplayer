@@ -64,6 +64,9 @@ install: src/smplayer
 	-install -d $(DESTDIR)$(SHORTCUTS_PATH)
 	cp src/shortcuts/* $(DESTDIR)$(SHORTCUTS_PATH)
 
+	-install -d $(DESTDIR)$(THEMES_PATH)
+	-tar -C src/themes/ --exclude=.svn -c -f - . | tar -C $(DESTDIR)$(THEMES_PATH) -x -f -
+
 	-install -d $(DESTDIR)$(KDE_ICONS)/512x512/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/256x256/apps/
 	-install -d $(DESTDIR)$(KDE_ICONS)/192x192/apps/

@@ -138,3 +138,43 @@ QPixmap Images::flippedIcon(QString name, int size, bool png) {
 	p = flip(&p);
 	return p;
 }
+
+QIcon Images::multiIcon(QString name, QString fallback_icon) {
+	QPixmap pix = Images::icon(name);
+	if (pix.isNull()) return Images::icon(fallback_icon);
+
+	QIcon icon;
+	int w = pix.width();
+	int h = pix.height();
+	icon.addPixmap(pix.copy(0, 0, w, h/4 ), QIcon::Normal, QIcon::Off);
+	//icon.setPixmap(pix.copy(0, h/4, w, h/4 ), MyIcon::MouseOver, MyIcon::Off);
+	//icon.setPixmap(pix.copy(0, h/2, w, h/4 ), MyIcon::MouseDown, MyIcon::Off);
+	icon.addPixmap(pix.copy(0, 3*h/4, w, h/4 ), QIcon::Disabled, QIcon::Off);
+	return icon;
+}
+
+QString Images::styleSheet(){
+	QString filename;
+	filename = themesDirectory() + "/main.css";
+	QFile file(filename);
+	if (file.exists()) {
+		file.open(QFile::ReadOnly | QFile::Text);
+		QString css = QString::fromUtf8(file.readAll().constData());
+		return css;
+	}
+	else
+		return "";
+}
+
+QString Images::themesDirectory(){
+	QString skin = pref->iconset;
+	QString dirname;
+	if (!skin.isEmpty()) {
+		dirname = Paths::configPath() + "/themes/" + skin;
+		if (!QFile::exists(dirname)) {
+			dirname = Paths::themesPath() + "/" + skin ;
+		}
+	}
+	return dirname;
+}
+

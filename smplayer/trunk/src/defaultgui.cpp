@@ -86,6 +86,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              floating_control->toolbar(), SLOT(edit()) );
 #endif
 
+	menuBar()->setObjectName("menubar");
+
 	retranslateStrings();
 
 	loadConfig();

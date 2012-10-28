@@ -21,6 +21,7 @@
 
 #include "ui_prefinterface.h"
 #include "prefwidget.h"
+#include "config.h"
 
 class Preferences;
 
@@ -90,7 +91,9 @@ protected:
 	void setUpdateWhileDragging(bool);
 	bool updateWhileDragging();
 
+#ifdef SEEKBAR_RESOLUTION
 	void setRelativeSeeking(bool);
+#endif
 	bool relativeSeeking();
 
 	void setPreciseSeeking(bool);
@@ -134,6 +137,9 @@ protected slots:
 	void on_changeFontButton_clicked();
 #ifdef SINGLE_INSTANCE
 	void changeInstanceImages();
+#endif
+#ifdef SKINS
+	void GUIChanged(int index);
 #endif
 
 protected:

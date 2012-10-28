@@ -594,6 +594,7 @@ QAction * ActionsEditor::findAction(QObject *o, const QString & name) {
 	QList<QAction *> actions = o->findChildren<QAction *>();
 	for (int n=0; n < actions.count(); n++) {
 		action = static_cast<QAction*> (actions[n]);
+		/* qDebug("ActionsEditor::findAction: %s", action->objectName().toLatin1().constData()); */
 		if (name == action->objectName()) return action;
     }
 

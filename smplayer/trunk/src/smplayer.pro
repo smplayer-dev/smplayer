@@ -17,16 +17,24 @@ DEFINES += SINGLE_INSTANCE
 DEFINES += FIND_SUBTITLES
 DEFINES += VIDEOPREVIEW
 DEFINES += YOUTUBE_SUPPORT
-DEFINES += TOOLBAR_EDITOR
 DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
+DEFINES += SKINS
 
 # Disable SINGLE_INSTANCE if Qt < 4.4
 contains( DEFINES, SINGLE_INSTANCE ) {
 	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
 		message("SINGLE_INSTANCE requires Qt > 4.3. Disabled.")
 		DEFINES -= SINGLE_INSTANCE
+	}
+}
+
+# Disable SKINS if Qt < 4.4
+contains( DEFINES, SKINS ) {
+	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
+		message("SKINS requires Qt > 4.3. Disabled.")
+		DEFINES -= SKINS
 	}
 }
 
@@ -299,6 +307,20 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 	SOURCES += retrieveyoutubeurl.cpp
 }
 
+# Skins support
+contains( DEFINES, SKINS ) {
+	INCLUDEPATH += skingui
+	DEPENDPATH += skingui
+
+	HEADERS += myicon.h mybutton.h panelseeker.h playcontrol.h \
+               mediapanel.h volumecontrolpanel.h mediabarpanel.h \
+               qpropertysetter.h actiontools.h skingui.h
+	SOURCES += myicon.cpp mybutton.cpp panelseeker.cpp playcontrol.cpp \
+               mediapanel.cpp volumecontrolpanel.cpp mediabarpanel.cpp \
+               qpropertysetter.cpp actiontools.cpp skingui.cpp
+	FORMS += mediapanel.ui mediabarpanel.ui
+}
+
 # Videopreview
 contains( DEFINES, VIDEOPREVIEW ) {
 	INCLUDEPATH += videopreview
@@ -348,9 +370,9 @@ win32 {
 	
 	RC_FILE = smplayer.rc
 	DEFINES += NO_DEBUG_ON_CONSOLE
-#	debug {
-#		CONFIG += console
-#	}
+	debug {
+		CONFIG += console
+	}
 }
 
 os2 {
