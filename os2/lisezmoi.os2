@@ -3,7 +3,7 @@ SMPlayer _VERSION_ _BUILD_ LISEZMOI
 Document original....: (W) Christian Hennecke, Oct 5, 2009
 DerniŠre mise … jour.: 2012-03-19
 Traduction fran‡aise.: Guillaume Gay <guillaume.gay@bigfoot.com>
-Version..............: 2012-03-19
+Version..............: 2012-05-14
 
 
 0. CONTENU DU FICHIER
@@ -130,7 +130,7 @@ Qt4 dll
 klibc
 -----
 
-  1. T‚l‚chargez klibc 0.6.4 csd4 ou ult‚rieure
+  1. T‚l‚chargez klibc 0.6.5 csd4 ou ult‚rieure
      (consultez http://svn.netlabs.org/libc pour plus d'informations). 
   2. Extrayez toutes les DLL dans un r‚pertoire figurant dans
      LIBPATH, de pr‚f‚rence x:\ecs\dll ou x:\os2\dll o— x: repr‚sente
@@ -337,6 +337,9 @@ suivantes :
 
 8. HISTORIQUE DES VERSIONS
 ==========================
+
+2012-05-14
+  * Mise … jour … la version 0.8.0 de SMPlayer
 
 2012-03-16
   * Mise … jour … la version 0.7.1 de SMPlayer
