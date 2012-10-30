@@ -92,6 +92,7 @@ protected:
 	MediaBarPanel* mediaBarPanel;
 
 	EditableToolbar * toolbar1;
+	QToolBar * controlwidget;
 
 	TimeSliderAction * timeslider_action;
 	VolumeSliderAction * volumeslider_action;

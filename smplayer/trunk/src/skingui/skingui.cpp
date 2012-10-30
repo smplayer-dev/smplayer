@@ -89,7 +89,7 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	//if (playlist_visible) showPlaylist(true);
 
 	if (pref->compact_mode) {
-		mediaBarPanel->hide();
+		controlwidget->hide();
 		toolbar1->hide();
 	}
 
@@ -243,10 +243,16 @@ void SkinGui::createMainToolBars() {
 void SkinGui::createControlWidget() {
 	qDebug("SkinGui::createControlWidget");
 
+	controlwidget = new QToolBar( this );
+	controlwidget->setObjectName("controlwidget");
+	controlwidget->setStyleSheet("QToolBar { spacing: 0px; }");
+	controlwidget->setMovable(false);
+	addToolBar(Qt::BottomToolBarArea, controlwidget);
+
 	mediaBarPanel = new MediaBarPanel(panel);
 	mediaBarPanel->setObjectName("mediabar-panel");
 	mediaBarPanel->setCore(core);
-	panel->layout()->addWidget(mediaBarPanel);
+	/* panel->layout()->addWidget(mediaBarPanel); */
 
 	QList<QAction*> actions;
 	//actions << halveSpeedAct << playPrevAct << playOrPauseAct << stopAct << recordAct << playNextAct << doubleSpeedAct;
@@ -285,6 +291,8 @@ void SkinGui::createControlWidget() {
 	connect(mediaBarPanel, SIGNAL(seekerChanged(int)), core, SLOT(goToPos(int)));
 	connect(core, SIGNAL(posChanged(int)),mediaBarPanel, SLOT(setSeeker(int)));
 #endif
+
+	controlwidget->addWidget(mediaBarPanel);
 }
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
@@ -392,7 +400,7 @@ void SkinGui::aboutToEnterFullscreen() {
 	fullscreen_toolbar1_was_visible = toolbar1->isVisible();
 
 	if (!pref->compact_mode) {
-		mediaBarPanel->hide();
+		controlwidget->hide();
 		toolbar1->hide();
 	}
 }
@@ -408,7 +416,7 @@ void SkinGui::aboutToExitFullscreen() {
 
 	if (!pref->compact_mode) {
 		statusBar()->hide();
-		mediaBarPanel->show();
+		controlwidget->show();
 		toolbar1->setVisible( fullscreen_toolbar1_was_visible );
 	}
 }
@@ -420,7 +428,7 @@ void SkinGui::aboutToEnterCompactMode() {
 	// Save visibility of toolbars
 	compact_toolbar1_was_visible = toolbar1->isVisible();
 
-	mediaBarPanel->hide();
+	controlwidget->hide();
 	toolbar1->hide();
 }
 
@@ -428,7 +436,7 @@ void SkinGui::aboutToExitCompactMode() {
 	BaseGuiPlus::aboutToExitCompactMode();
 
 	statusBar()->hide();
-	mediaBarPanel->show();
+	controlwidget->show();
 	toolbar1->setVisible( compact_toolbar1_was_visible );
 
 	// Recheck size of controlwidget
@@ -450,8 +458,8 @@ void SkinGui::showFloatingControl(QPoint /*p*/) {
 	#endif
 	floating_control->showOver(panel, pref->floating_control_width);
 #else
-	if (!mediaBarPanel->isVisible()) {
-		mediaBarPanel->show();
+	if (!controlwidget->isVisible()) {
+		controlwidget->show();
 	}
 #endif
 }
@@ -471,8 +479,8 @@ void SkinGui::hideFloatingControls() {
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 	floating_control->hide();
 #else
-	if (mediaBarPanel->isVisible())
-		mediaBarPanel->hide();
+	if (controlwidget->isVisible())
+		controlwidget->hide();
 
 	if (menuBar()->isVisible())
 		menuBar()->hide();
