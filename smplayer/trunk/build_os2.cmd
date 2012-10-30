@@ -13,10 +13,11 @@
 /* version 0.2.9 from 11.11.2011 Silvan (adapted to Qt 4.7.3) */
 /* version 0.3.0 from 24.12.2011 Silvan (added shadow build) */
 /* version 0.3.1 from 16.03.2012 Silvan (get the version from version.cpp) */
+/* version 0.3.2 from 29.03.2012 Silvan (don't delete the installdir completely) */
 
 /* init the version string (don't forget to change) */
-version = "0.3.1"
-version_date = "16.03.2012"
+version = "0.3.2"
+version_date = "29.03.2012"
 '@echo off'
 
 parse arg command option
@@ -30,6 +31,7 @@ sourceDir = FixDir(filespec('D', scriptFile) || filespec('P', scriptFile))
 os2Dir     = sourceDir || '\os2'
 srcDir     = sourceDir || '\src'
 installDir = buildDir || '\install'
+installDirT= installDir || '\translations'
 qErrorFile = buildDir||'\qmake.err'
 qOutFile   = buildDir||'\qmake.out'
 mErrorFile = buildDir||'\make.err'
@@ -112,9 +114,9 @@ select
 /* first delete everything */
 	call deleteall
 
-/* create the installDir,the translation and the icon subdir */
+/* create the installDir,and the translation subdir */
 	ok = SysMkDir(installDir)
-	ok = SysMkDir(installDir||'\translations')
+	ok = SysMkDir(installDirT)
 
 /* copy the exe */
 	ok = SysCopyObject(buildDir||'\src\smplayer.exe',installDir)
@@ -140,7 +142,7 @@ select
 
 /* zip all dynamic stuff */
 	ok = directory(installDir)
-	cmdtorun = 'zip -r ' || zipFile || ' *'
+	cmdtorun = 'zip -r ' || zipFile || ' * -x *.zip'
 	address cmd cmdtorun
         ok = directory(buildDir)
 
@@ -205,23 +207,26 @@ make:
 return
 
 
-deleteall: /* delete everything in installDir (inkluding subdirs) */
+deleteall: /* delete installDir (including subdirs) except zip files */
 
-	say "Delete the install dir"
+    say "Delete all files except *zip in " installDir
+    ok = SysFileTree(installDir||'\*', rm.,'FOS')
+    do i = 1 to rm.0
+       if translate(right(rm.i, 3)) \== 'ZIP' then do
+          ok = SysFileDelete(rm.i)
+       end
+    end
 
-	ok = SysFileTree(installDir||'\*', rm.,'FOS')
-        do i = 1 to rm.0
-            ok = SysFileDelete(rm.i)
-        end
-	ok = SysFileTree(installDir||'\*', rm.,'OS')
-        do i = 1 to rm.0
-	    ok = SysRmDir(rm.i)
-        end
+    say "Delete zip file " zipFile
+    ok = SysFileDelete(zipFile)
 
-	ok = SysRmDir(installDir)
-	say "wait 30 seconds"
-	call SysSleep(30)
+    say "Removing subdirs from " || installDir
+    ok = SysFileTree(installDir||'\*', rm.,'OS')
+    do i = 1 to rm.0
+       ok = SysRmDir(rm.i)
+    end
 
+    call SysSleep(5)
 return
 
 /**

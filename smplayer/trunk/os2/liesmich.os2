@@ -1,7 +1,7 @@
 SMPlayer _VERSION_ _BUILD_ README
 
 (W) Christian Hennecke, Oct 28, 2008
-zuletzt geÑndert am 22.03.2012
+zuletzt geÑndert am 14.05.2012
 
 0. INHALT DIESER DATEI
 ======================
@@ -125,7 +125,7 @@ Qt4 dll
 kLIBC
 -----
 
-  1. Download kLIBC 0.6.4 oder neuer (unter http://svn.netlabs.org/libc
+  1. Download kLIBC 0.6.5 oder neuer (unter http://svn.netlabs.org/libc
      befinden sich weitere Informationen)
   2. Die Dateien in Ihren libpath installieren z.B. x:\ecs\dll
 
@@ -308,8 +308,11 @@ Entwicklung unterstÅtzen mîchten, haben Sie folgende Mîglichkeiten:
 8. ENTWICKLUNGSGESCHICHTE
 =========================
 
+2012-05-14
+  * updated to SMPlayer version 0.8.0
+
 2012-03-16
-  * udated to SMPlayer version 0.7.1
+  * updated to SMPlayer version 0.7.1
 
 2011-12-27
   * updated to latest SMPlayer svn code
