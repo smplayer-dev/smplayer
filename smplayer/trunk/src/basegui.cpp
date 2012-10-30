@@ -4478,6 +4478,13 @@ void BaseGui::loadQss(QString filename) {
 	file.open(QFile::ReadOnly);
 	QString styleSheet = QLatin1String(file.readAll());
 
+	QDir current = QDir::current();
+	QString td = Images::themesDirectory();
+	QString relativePath = current.relativeFilePath(td);
+	styleSheet.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
+						QString("url(%1\\1)").arg(relativePath + "/"));
+	qDebug("styeSheet: %s", styleSheet.toUtf8().constData());
+
 	qApp->setStyleSheet(styleSheet);
 }
 
