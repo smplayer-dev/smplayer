@@ -6318,7 +6318,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="259"/>
         <source>S&amp;kin:</source>
-        <translation>&amp;Diseño:</translation>
+        <translation>&amp;Piel:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="366"/>
@@ -6424,7 +6424,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
         <source>Skinnable GUI</source>
-        <translation>GUI con diseños</translation>
+        <translation>GUI con soporte de pieles</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="659"/>
@@ -6439,12 +6439,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Skin</source>
-        <translation>Diseño</translation>
+        <translation>Piel</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation>Selecciona el diseño que prefieras para la aplicación. Disponible solo con el GUI con diseños.</translation>
+        <translation>Selecciona la piel que prefieras para la aplicación. Disponible solo con el GUI con soporte de pieles.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="674"/>
