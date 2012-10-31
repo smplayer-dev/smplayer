@@ -810,7 +810,7 @@
              <bool>false</bool>
             </property>
             <property name="buddy">
-             <cstring>recents_max_items_spin</cstring>
+             <cstring>url_max_items_spin</cstring>
             </property>
            </widget>
           </item>
