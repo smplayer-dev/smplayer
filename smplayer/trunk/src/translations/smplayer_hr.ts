@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1416,6 +1418,14 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Morate ponovo pokrenuti SMPlayer da bi koristili novo sučelje.</translation>
     </message>
+    <message>
+        <source>&amp;6.1 Surround</source>
+        <translation type="unfinished">&amp;5.1 Surround {6.1 ?}</translation>
+    </message>
+    <message>
+        <source>&amp;7.1 Surround</source>
+        <translation type="unfinished">&amp;5.1 Surround {7.1 ?}</translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -2107,9 +2117,11 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Error fixing the subtitle lines</source>
         <translation>Pogreška pri popravljanju linija titlova</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n subtitle(s) extracted</source>
-        <translation>%n titlova otpakirano
+        <translation type="unfinished">
+            <numerusform>%n titlova otpakirano
+        </numerusform>
         </translation>
     </message>
 </context>
@@ -3073,7 +3085,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3161,7 +3173,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -3228,6 +3240,20 @@ Do you want to overwrite?</source>
     <message>
         <source>Close</source>
         <translation>Zatvori</translation>
+    </message>
+</context>
+<context>
+    <name>MediaBarPanel</name>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MediaPanelClass</name>
+    <message>
+        <source>MediaPanel</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3733,6 +3759,18 @@ Primjer: resample=44100:0:0,volnorm</translation>
     <message>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
+    </message>
+    <message>
+        <source>R&amp;eport MPlayer crashes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Report MPlayer crashes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4513,6 +4551,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Configu&amp;re...</source>
         <translation>Konfigu&amp;racija...</translation>
     </message>
+    <message>
+        <source>7 (6.1 Surround)</source>
+        <translation type="unfinished">6 (5.1 Surround) {7 (6.1 ?}</translation>
+    </message>
+    <message>
+        <source>8 (7.1 Surround)</source>
+        <translation type="unfinished">6 (5.1 Surround) {8 (7.1 ?}</translation>
+    </message>
 </context>
 <context>
     <name>PrefInput</name>
@@ -5133,7 +5179,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation>Izaberite sučelje. Ova opcija će se uključiti slijedeći put kada pokrenete SMPlayer.</translation>
+        <translation type="obsolete">Izaberite sučelje. Ova opcija će se uključiti slijedeći put kada pokrenete SMPlayer.</translation>
     </message>
     <message>
         <source>&amp;GUI</source>
@@ -5246,6 +5292,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Precizno premotavanje</translation>
+    </message>
+    <message>
+        <source>S&amp;kin:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Privac&amp;y</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Max. items</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Remember last directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Skinnable GUI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Skin</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Privacy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max. URLs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remember last directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6324,16 +6426,20 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n second(s)</source>
-        <translation>%n sekundi      
+        <translation type="unfinished">
+            <numerusform>%n sekundi      
         
+        </numerusform>
         </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation>%n minuta       
+        <translation type="unfinished">
+            <numerusform>%n minuta       
         
+        </numerusform>
         </translation>
     </message>
 </context>
@@ -6376,6 +6482,25 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>Capture keystrokes</source>
         <translation>Zahvati kodove pritisnutih tipki</translation>
+    </message>
+</context>
+<context>
+    <name>SkinGui</name>
+    <message>
+        <source>&amp;Toolbars</source>
+        <translation type="unfinished">&amp;Alatne trake</translation>
+    </message>
+    <message>
+        <source>&amp;Main toolbar</source>
+        <translation type="unfinished">&amp;Glavna alatna traka</translation>
+    </message>
+    <message>
+        <source>Edit main &amp;toolbar</source>
+        <translation type="unfinished">Uredi glavnu alatnu  &amp;traku</translation>
+    </message>
+    <message>
+        <source>Edit &amp;floating control</source>
+        <translation type="unfinished">Uredi &amp;lebdeći panel</translation>
     </message>
 </context>
 <context>
