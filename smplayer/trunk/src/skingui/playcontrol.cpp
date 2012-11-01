@@ -1,5 +1,6 @@
-/*  umplayer, GUI front-end for mplayer.
-    Copyright (C) 2010 Ori Rejwan
+/*  smplayer, GUI front-end for mplayer.
+    Copyright (C) 2006-2012 Ricardo Villalba <rvm@users.sourceforge.net>
+    umplayer, Copyright (C) 2010 Ori Rejwan
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -159,6 +160,14 @@ void PlayControl::setActionCollection(QList<QAction *> actions)
 	SETACTIONTOBUTTON(recordButton, "record");
 	SETACTIONTOBUTTON(nextButton, "play_next");
 	SETACTIONTOBUTTON(forwardButton, "forward1");
+
+	if (backwardButton) backwardButton->setToolTip(tr("Rewind"));
+	if (forwardButton) forwardButton->setToolTip(tr("Forward"));
+	if (playPauseButton) playPauseButton->setToolTip(tr("Play / Pause"));
+	if (stopButton) stopButton->setToolTip(tr("Stop"));
+	if (recordButton) recordButton->setToolTip(tr("Record"));
+	if (nextButton) nextButton->setToolTip(tr("Next file in playlist"));
+	if (previousButton) previousButton->setToolTip(tr("Previous file in playlist"));
 }
 
 bool PlayControl::eventFilter(QObject *watched, QEvent *event)

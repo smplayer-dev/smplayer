@@ -1,5 +1,6 @@
-/*  umplayer, GUI front-end for mplayer.
-    Copyright (C) 2010 Ori Rejwan
+/*  smplayer, GUI front-end for mplayer.
+    Copyright (C) 2006-2012 Ricardo Villalba <rvm@users.sourceforge.net>
+    umplayer, Copyright (C) 2010 Ori Rejwan
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -121,6 +122,9 @@ void MediaPanel::setActionCollection(QList<QAction *>actions)
 	//ActionTools::findAction("aaa", actions);
 	SETACTIONTOBUTTON(shuffleButton, "pl_shuffle");
 	SETACTIONTOBUTTON(repeatButton, "pl_repeat");
+
+	if (shuffleButton) shuffleButton->setToolTip(tr("Shuffle playlist"));
+	if (repeatButton) repeatButton->setToolTip(tr("Repeat playlist"));
 }
 
 void MediaPanel::setMplayerState(int state)
