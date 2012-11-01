@@ -1,5 +1,6 @@
-/*  umplayer, GUI front-end for mplayer.
-    Copyright (C) 2010 Ori Rejwan
+/*  smplayer, GUI front-end for mplayer.
+    Copyright (C) 2006-2012 Ricardo Villalba <rvm@users.sourceforge.net>
+    umplayer, Copyright (C) 2010 Ori Rejwan
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -94,9 +95,13 @@ void VolumeControlPanel::setActionCollection(QList<QAction*> actions)
 	//ActionTools::findAction("aaa", actions);
 	volumeBar->setEnabled(true);
 	/* volumeSliderAction->installEventFilter(this); */
-    SETACTIONTOBUTTON(playlistButton, "show_playlist");
-    SETACTIONTOBUTTON(fullscreenButton, "fullscreen");
-    SETACTIONTOBUTTON(equalizerButton, "video_equalizer");
+	SETACTIONTOBUTTON(playlistButton, "show_playlist");
+	SETACTIONTOBUTTON(fullscreenButton, "fullscreen");
+	SETACTIONTOBUTTON(equalizerButton, "video_equalizer");
+
+	if (playlistButton) playlistButton->setToolTip(tr("Playlist"));
+	if (fullscreenButton) fullscreenButton->setToolTip(tr("Fullscreen on/off"));
+	if (equalizerButton) equalizerButton->setToolTip(tr("Video equalizer"));
 }
 
 void VolumeControlPanel::setVolume(int value)
