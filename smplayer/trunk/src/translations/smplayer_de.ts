@@ -4099,6 +4099,19 @@ Möchten Sie sie überschreiben?</translation>
     </message>
 </context>
 <context>
+    <name>MediaPanel</name>
+    <message>
+        <location filename="../skingui/mediapanel.cpp" line="117"/>
+        <source>Shuffle playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/mediapanel.cpp" line="118"/>
+        <source>Repeat playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MediaPanelClass</name>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
@@ -4149,6 +4162,44 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlayControl</name>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="164"/>
+        <source>Rewind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="165"/>
+        <source>Forward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="166"/>
+        <source>Play / Pause</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="167"/>
+        <source>Stop</source>
+        <translation type="unfinished">Stopp</translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="168"/>
+        <source>Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="169"/>
+        <source>Next file in playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="170"/>
+        <source>Previous file in playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7942,7 +7993,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../smplayer.cpp" line="416"/>
+        <location filename="../smplayer.cpp" line="417"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Das ist SMPlayer Version %1, ausgeführt auf %2</translation>
     </message>
@@ -8701,6 +8752,24 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="290"/>
         <source>Remember folder used to &amp;save the preview</source>
         <translation>&amp;Ordner zur Speicherung der Vorschau beibehalten</translation>
+    </message>
+</context>
+<context>
+    <name>VolumeControlPanel</name>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
+        <source>Playlist</source>
+        <translation type="unfinished">Abspielliste</translation>
+    </message>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
+        <source>Fullscreen on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
+        <source>Video equalizer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

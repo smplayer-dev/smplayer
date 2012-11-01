@@ -3250,6 +3250,17 @@ Do you want to overwrite?</source>
     </message>
 </context>
 <context>
+    <name>MediaPanel</name>
+    <message>
+        <source>Shuffle playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Repeat playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MediaPanelClass</name>
     <message>
         <source>MediaPanel</source>
@@ -3288,6 +3299,37 @@ Do you want to overwrite?</source>
     <message>
         <source>Seek bar</source>
         <translation>Klizač za premotavanje</translation>
+    </message>
+</context>
+<context>
+    <name>PlayControl</name>
+    <message>
+        <source>Rewind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Forward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Play / Pause</source>
+        <translation type="unfinished">Play / Pauza</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation type="unfinished">Stop</translation>
+    </message>
+    <message>
+        <source>Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Next file in playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Previous file in playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6908,6 +6950,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <source>Remember folder used to &amp;save the preview</source>
         <translation>Zapamti folder korišten da se &amp;sačuva pregled</translation>
+    </message>
+</context>
+<context>
+    <name>VolumeControlPanel</name>
+    <message>
+        <source>Playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fullscreen on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Video equalizer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -4097,6 +4097,19 @@ Vuoi sovrascriverlo?</translation>
     </message>
 </context>
 <context>
+    <name>MediaPanel</name>
+    <message>
+        <location filename="../skingui/mediapanel.cpp" line="+117"/>
+        <source>Shuffle playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Repeat playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MediaPanelClass</name>
     <message>
         <location filename="../skingui/mediapanel.ui" line="+13"/>
@@ -4147,6 +4160,44 @@ Vuoi sovrascriverlo?</translation>
         <location line="+1"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlayControl</name>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="+164"/>
+        <source>Rewind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Play / Pause</source>
+        <translation type="unfinished">Riproduci / Pausa</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Stop</source>
+        <translation type="unfinished">Stop</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Next file in playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Previous file in playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7945,7 +7996,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="+416"/>
+        <location filename="../smplayer.cpp" line="+417"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>
@@ -8692,6 +8743,24 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location line="+252"/>
         <source>Remember folder used to &amp;save the preview</source>
         <translation>Ricorda la cartella usata per &amp;salvare l&apos;anteprima</translation>
+    </message>
+</context>
+<context>
+    <name>VolumeControlPanel</name>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="+102"/>
+        <source>Playlist</source>
+        <translation type="unfinished">Lista di riproduzione</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fullscreen on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Video equalizer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

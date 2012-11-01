@@ -4099,6 +4099,19 @@ Desexa sobrescribilo?</translation>
     </message>
 </context>
 <context>
+    <name>MediaPanel</name>
+    <message>
+        <location filename="../skingui/mediapanel.cpp" line="117"/>
+        <source>Shuffle playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/mediapanel.cpp" line="118"/>
+        <source>Repeat playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MediaPanelClass</name>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
@@ -4149,6 +4162,44 @@ Desexa sobrescribilo?</translation>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlayControl</name>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="164"/>
+        <source>Rewind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="165"/>
+        <source>Forward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="166"/>
+        <source>Play / Pause</source>
+        <translation type="unfinished">Reproducir / Pausar</translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="167"/>
+        <source>Stop</source>
+        <translation type="unfinished">Parar</translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="168"/>
+        <source>Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="169"/>
+        <source>Next file in playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="170"/>
+        <source>Previous file in playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7947,7 +7998,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>a xanela principal pecharase cando o ficheiro ou a lista de reprodución remate.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="416"/>
+        <location filename="../smplayer.cpp" line="417"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Este é o SMPlayer v. %1 executándose en %2</translation>
     </message>
@@ -8696,6 +8747,24 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="290"/>
         <source>Remember folder used to &amp;save the preview</source>
         <translation>Lembrar o cartafol u&amp;sado para gardar a previsualización</translation>
+    </message>
+</context>
+<context>
+    <name>VolumeControlPanel</name>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
+        <source>Playlist</source>
+        <translation type="unfinished">Lista de reprodución</translation>
+    </message>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
+        <source>Fullscreen on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
+        <source>Video equalizer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

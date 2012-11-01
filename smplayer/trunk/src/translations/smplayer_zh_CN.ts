@@ -4115,6 +4115,19 @@ Do you want to overwrite?</source>
     </message>
 </context>
 <context>
+    <name>MediaPanel</name>
+    <message>
+        <location filename="../skingui/mediapanel.cpp" line="117"/>
+        <source>Shuffle playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/mediapanel.cpp" line="118"/>
+        <source>Repeat playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MediaPanelClass</name>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
@@ -4165,6 +4178,44 @@ Do you want to overwrite?</source>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <source>+%1</source>
         <translation>+%1</translation>
+    </message>
+</context>
+<context>
+    <name>PlayControl</name>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="164"/>
+        <source>Rewind</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="165"/>
+        <source>Forward</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="166"/>
+        <source>Play / Pause</source>
+        <translation type="unfinished">播放 / 暂停</translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="167"/>
+        <source>Stop</source>
+        <translation type="unfinished">停止</translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="168"/>
+        <source>Record</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="169"/>
+        <source>Next file in playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/playcontrol.cpp" line="170"/>
+        <source>Previous file in playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8119,7 +8170,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="416"/>
+        <location filename="../smplayer.cpp" line="417"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>这是在 %2 上运行的 SMPlayer v. %1</translation>
     </message>
@@ -8710,6 +8761,24 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
         <translation>创建预览图像时一些帧将被从视频中提取。在这里您可以选择用于提取帧的图像格式。PNG 可提供更好的质量。</translation>
+    </message>
+</context>
+<context>
+    <name>VolumeControlPanel</name>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
+        <source>Playlist</source>
+        <translation type="unfinished">播放列表</translation>
+    </message>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
+        <source>Fullscreen on/off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
+        <source>Video equalizer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
