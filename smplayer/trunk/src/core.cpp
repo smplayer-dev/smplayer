@@ -1704,7 +1704,9 @@ void Core::startMplayer( QString file, double seek ) {
 		// Use the same font for OSD
 #if !defined(Q_OS_OS2)
 		if (!pref->ass_styles.fontname.isEmpty()) {
-			proc->addArgument("-fontconfig");
+			if (!pref->mplayer_is_mplayer2) { // -fontconfig removed from mplayer2
+				proc->addArgument("-fontconfig");
+			}
 			proc->addArgument("-font");
 			proc->addArgument( pref->ass_styles.fontname );
 		}
@@ -1723,7 +1725,9 @@ void Core::startMplayer( QString file, double seek ) {
 		if (pref->freetype_support) proc->addArgument("-noass");
 #if !defined(Q_OS_OS2)
 		if ( (pref->use_fontconfig) && (!pref->font_name.isEmpty()) ) {
-			proc->addArgument("-fontconfig");
+			if (!pref->mplayer_is_mplayer2) { // -fontconfig removed from mplayer2
+				proc->addArgument("-fontconfig");
+			}
 			proc->addArgument("-font");
 			proc->addArgument( pref->font_name );
 		}
