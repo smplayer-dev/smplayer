@@ -1,5 +1,11 @@
 [b]Version 0.8.2[/b]:
 
+(2012-11-03)
+ * Don't use -fontconfig with mplayer2.
+
+(2012-10-28)
+ * Port the umplayer skins to smplayer.
+
 (2012-10-22)
  * Bug fix: stop playback when the user selects to play the next
    item in the playlist and there are no more items to play.
