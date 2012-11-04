@@ -4071,7 +4071,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Forma</translation>
     </message>
 </context>
 <context>
@@ -4079,12 +4079,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="117"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Maišyti grojaraštį</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="118"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Kartoti grojaraštį</translation>
     </message>
 </context>
 <context>
@@ -4092,7 +4092,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>Media skydelis</translation>
     </message>
 </context>
 <context>
@@ -4145,37 +4145,37 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="164"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Atgal</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="165"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Pirmyn</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="166"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Atkurti / Pauzė</translation>
+        <translation>Atkurti / Pauzė</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="167"/>
         <source>Stop</source>
-        <translation type="unfinished">Stabdyti</translation>
+        <translation>Stabdyti</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="168"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Įrašyti</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="169"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekantis grojaraščio failas</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="170"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Anstesnis grojaraščio failas</translation>
     </message>
 </context>
 <context>
@@ -6351,7 +6351,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="259"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Išvaizda:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="366"/>
@@ -6457,12 +6457,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI su išvaizdos keitimu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="659"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasirinkite pageidaujamą programos grafinę naudotojo sąsają. Šiuo metu prieinamos dvi: Numatytoji GUI ir Mini GUI. &lt;br&gt;&lt;b&gt;Numatytoji GUI&lt;/b&gt; suteikia tradicinę sąsają, su įrankių juostą ir valdymo juosta. &lt;b&gt;Mini GUI&lt;/b&gt; suteikia paprastesę sąsają, be įrankių juostos ir valdymo juostos su keliais mygtukais.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
@@ -6472,12 +6472,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Išvaizda</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasirinkite pageidaujamą programos išvaizdą. Prieinama tik GUI su išvaizdos keitimo galimybe.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="674"/>
@@ -8198,22 +8198,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="366"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">Įrankių juos&amp;tos</translation>
+        <translation>Įrankių juos&amp;tos</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="369"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">Pa&amp;grindinė juosta</translation>
+        <translation>Pa&amp;grindinė juosta</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="373"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished">Keisti pagrindinę į&amp;rankių juostą</translation>
+        <translation>Keisti pagrindinę į&amp;rankių juostą</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="375"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished">Keisti &amp;plaukiojantį valdymą</translation>
+        <translation>Keisti &amp;plaukiojantį valdymą</translation>
     </message>
 </context>
 <context>
@@ -8732,17 +8732,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
         <source>Playlist</source>
-        <translation type="unfinished">Grojaraštis</translation>
+        <translation>Grojaraštis</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>Visas ekranas įj./išj.</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Video ekvalaizeris</translation>
     </message>
 </context>
 <context>
