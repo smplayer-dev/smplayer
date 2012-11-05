@@ -112,7 +112,6 @@
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
-  Var UseNewMP
 
 ;--------------------------------
 ;Interface Settings
@@ -360,12 +359,7 @@ SectionGroup $(MPlayerGroupTitle)
     SectionIn RO
 
     SetOutPath "$INSTDIR\mplayer"
-    ${If} ${AtMostWinXP}
-    ${AndIf} $UseNewMP == 0
-      File /r "mplayer-old\*.*"
-    ${Else}
-      File /r "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
-    ${EndIf}
+    File /r "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
@@ -682,12 +676,6 @@ Function .onInit
   ${GetOptions} $R0 "/NORUNCHECK" $R1
   IfErrors 0 +2
     Call RunCheck
-
-  ;Check if passed /U to use newer MPlayer on XP
-  ${GetParameters} $R0
-  ${GetOptionsS} $R0 "/U" $R1
-  IfErrors 0 +2
-    StrCpy $UseNewMP 0
 
   ;Check for admin on < Vista
   UserInfo::GetAccountType
