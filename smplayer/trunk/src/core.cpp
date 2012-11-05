@@ -1580,8 +1580,10 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	proc->addArgument("-priority");
 	proc->addArgument( p );
+	/*
 	SetPriorityClass(GetCurrentProcess(), app_p);
 	qDebug("Core::startMplayer: priority of smplayer process set to %d", app_p);
+	*/
 	#endif
 
 	if (pref->frame_drop) {
