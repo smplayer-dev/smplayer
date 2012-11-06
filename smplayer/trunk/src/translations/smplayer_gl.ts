@@ -1537,12 +1537,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poida facer.</trans
     <message>
         <location filename="../basegui.cpp" line="1765"/>
         <source>&amp;6.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {6.1 ?}</translation>
+        <translation>&amp;6.1 Surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
         <source>&amp;7.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {7.1 ?}</translation>
+        <translation>&amp;7.1 Surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1796"/>
@@ -4095,7 +4095,7 @@ Desexa sobrescribilo?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulario</translation>
     </message>
 </context>
 <context>
@@ -4103,12 +4103,12 @@ Desexa sobrescribilo?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="117"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Desordenar</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="118"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Repetir</translation>
     </message>
 </context>
 <context>
@@ -4116,7 +4116,7 @@ Desexa sobrescribilo?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>Panel multimedia</translation>
     </message>
 </context>
 <context>
@@ -4169,37 +4169,37 @@ Desexa sobrescribilo?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="164"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Rebobinar</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="165"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Avanzar</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="166"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Reproducir / Pausar</translation>
+        <translation>Reproducir / Pausar</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="167"/>
         <source>Stop</source>
-        <translation type="unfinished">Parar</translation>
+        <translation>Deter</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="168"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Gravar</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="169"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Seguinte ficheiro da lista</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="170"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Ficheiro anterior da lista</translation>
     </message>
 </context>
 <context>
@@ -4399,7 +4399,7 @@ Desexa sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Informar de &amp;quebras de MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
@@ -4584,12 +4584,12 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Report MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Informar das quebras de MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marca esta opción, cando MPlayer quebre aparecerá unha xanela para informalle. Se non a marca, non recibirá ningún aviso sobre eses erros.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -4996,12 +4996,12 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="100"/>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 Surround) {7 (6.1 ?}</translation>
+        <translation>7 (6.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 Surround) {8 (7.1 ?}</translation>
+        <translation>8 (7.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="129"/>
@@ -6294,7 +6294,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="738"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>In&amp;timidade</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="744"/>
@@ -6350,7 +6350,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="211"/>
         <source>Ico&amp;n set:</source>
-        <translation>Xogo de &amp;iconas:</translation>
+        <translation>I&amp;conas:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="142"/>
@@ -6375,7 +6375,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="259"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tema visual:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="366"/>
@@ -6405,17 +6405,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="795"/>
         <source>URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Enderezos URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="807"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementos &amp;máximos</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lembrar o último directorio.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
@@ -6466,7 +6466,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Intimidade</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -6481,12 +6481,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interface compatíbel con temas visuais</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="659"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Escolla unha interface para o aplicativo. Ten dúas opcións: a interface predeterminada e a minimalista.&lt;br&gt;A &lt;b&gt;predeterminada&lt;/b&gt; é unha interface tradicional, cunha barra de ferramentas e outra de control. A &lt;b&gt;minimalista&lt;/b&gt; é máis simple, sen barra de ferramentas e cunha barra de control cos botóns mínimos.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
@@ -6496,12 +6496,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema visual</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Escolla un tyema visual para o aplicativo. Non todas as interfaces son compatíbeis con eles.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="674"/>
@@ -6588,22 +6588,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="757"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Enderezos URL máximos</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Escolla o número máximo de elementos que o diálogo &lt;b&gt;Abrir → Enderezo URL&lt;/b&gt; deba lembrar. Empregue o valor 0 para que non se almacene ningún enderezo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Lembrar o último directorio.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marca esta opción, SMPlayer lembrará o último cartafol que empregou para abrir un ficheiro.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="510"/>
@@ -8220,22 +8220,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="366"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Barra de ferramentas</translation>
+        <translation>&amp;Barras de ferramentas</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="369"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">Barra &amp;principal</translation>
+        <translation>Barra &amp;principal</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="373"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished">Editar a barra &amp;principal</translation>
+        <translation>Editar a barra &amp;principal</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="375"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar o control &amp;flotante </translation>
     </message>
 </context>
 <context>
@@ -8754,17 +8754,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
         <source>Playlist</source>
-        <translation type="unfinished">Lista de reprodución</translation>
+        <translation>Lista de reprodución</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantalla completa</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ecualizador de vídeo</translation>
     </message>
 </context>
 <context>
