@@ -21,6 +21,7 @@ DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
 DEFINES += SKINS
+#DEFINES += FONTCACHE_DIALOG
 
 # Disable SINGLE_INSTANCE if Qt < 4.4
 contains( DEFINES, SINGLE_INSTANCE ) {
@@ -330,6 +331,12 @@ contains( DEFINES, VIDEOPREVIEW ) {
 	SOURCES += videopreview.cpp videopreviewconfigdialog.cpp
 
 	FORMS += videopreviewconfigdialog.ui
+}
+
+# 
+contains( DEFINES, FONTCACHE_DIALOG ) {
+	HEADERS += fontcache.h
+	SOURCES += fontcache.cpp
 }
 
 unix {
