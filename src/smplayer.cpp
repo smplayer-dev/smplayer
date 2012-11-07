@@ -44,6 +44,10 @@
 #endif
 #endif
 
+#ifdef FONTCACHE_DIALOG
+#include "fontcache.h"
+#endif
+
 using namespace Global;
 
 BaseGui * SMPlayer::main_window = 0;
@@ -362,6 +366,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 }
 
 void SMPlayer::start() {
+#ifdef FONTCACHE_DIALOG
+	FontCacheDialog d(pref->mplayer_bin, "sample.avi", 0);
+#endif
+
 	if (!gui()->startHidden() || !files_to_play.isEmpty() ) gui()->show();
 	if (!files_to_play.isEmpty()) {
 		if (!subtitle_file.isEmpty()) gui()->setInitialSubtitle(subtitle_file);
