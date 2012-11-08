@@ -23,6 +23,7 @@
 FontCacheDialog::FontCacheDialog(QWidget * parent, Qt::WindowFlags f)
 	: QProgressDialog(parent, f)
 {
+	setWindowTitle(tr("SMPlayer is initializing"));
 	setLabelText(tr("Creating a font cache..."));
 
 	process = new QProcess(this);
@@ -41,7 +42,7 @@ void FontCacheDialog::run(QString mplayer_bin, QString file) {
 
 	QRegExp rx_scanning_font("Scanning file");
 
-	setMaximum(30);
+	setMaximum(100);
 
 	QStringList arg;
 	arg << "-fontconfig" << "-ass" << "-vo" << "null" << "-ao" << "null";
@@ -64,7 +65,7 @@ void FontCacheDialog::run(QString mplayer_bin, QString file) {
 			if (rx_scanning_font.indexIn(line) > -1) {
 				fonts++;
 				v++;
-				if (v > 28) v = 0;
+				if (v >= 99) v = 0;
 				setValue(v);
 			}
 		}
