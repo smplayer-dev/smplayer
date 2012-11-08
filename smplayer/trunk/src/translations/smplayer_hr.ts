@@ -2126,6 +2126,17 @@ Molim provjerite dozvole za taj folder.</translation>
     </message>
 </context>
 <context>
+    <name>FontCacheDialog</name>
+    <message>
+        <source>SMPlayer is initializing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Creating a font cache...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>InfoFile</name>
     <message>
         <source>General</source>
