@@ -332,12 +332,6 @@ contains( DEFINES, VIDEOPREVIEW ) {
 	FORMS += videopreviewconfigdialog.ui
 }
 
-# 
-contains( DEFINES, FONTCACHE_DIALOG ) {
-	HEADERS += fontcache.h
-	SOURCES += fontcache.cpp
-}
-
 unix {
 	UI_DIR = .ui
 	MOC_DIR = .moc
@@ -358,6 +352,11 @@ win32 {
 	contains( DEFINES, SCREENSAVER_OFF ) {
 		HEADERS += screensaver.h
 		SOURCES += screensaver.cpp
+	}
+
+	contains( DEFINES, FONTCACHE_DIALOG ) {
+		HEADERS += fontcache.h
+		SOURCES += fontcache.cpp
 	}
 
 	!contains( DEFINES, PORTABLE_APP ) {
