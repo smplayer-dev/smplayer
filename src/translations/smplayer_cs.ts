@@ -1826,98 +1826,98 @@ Bude zobrazeno konfigurační okno.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2735"/>
+        <location filename="../core.cpp" line="2741"/>
         <source>Brightness: %1</source>
         <translation>Jas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2750"/>
+        <location filename="../core.cpp" line="2756"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2764"/>
+        <location filename="../core.cpp" line="2770"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2778"/>
+        <location filename="../core.cpp" line="2784"/>
         <source>Hue: %1</source>
         <translation>Odstín: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2792"/>
+        <location filename="../core.cpp" line="2798"/>
         <source>Saturation: %1</source>
         <translation>Saturace: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2921"/>
+        <location filename="../core.cpp" line="2927"/>
         <source>Volume: %1</source>
         <translation>Hlasitost: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3698"/>
+        <location filename="../core.cpp" line="3704"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3037"/>
-        <location filename="../core.cpp" line="3049"/>
+        <location filename="../core.cpp" line="3043"/>
+        <location filename="../core.cpp" line="3055"/>
         <source>Font scale: %1</source>
         <translation>Velikost písma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3569"/>
+        <location filename="../core.cpp" line="3575"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3941"/>
+        <location filename="../core.cpp" line="3947"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Obnovuji paměť fontů. Může to chvíli trvat...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2963"/>
+        <location filename="../core.cpp" line="2969"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Zpoždění titulků: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2980"/>
+        <location filename="../core.cpp" line="2986"/>
         <source>Audio delay: %1 ms</source>
         <translation>Zpoždění zvuku: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2846"/>
+        <location filename="../core.cpp" line="2852"/>
         <source>Speed: %1</source>
         <translation>Rychlost: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3092"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Subtitles on</source>
         <translation>Titulky zapnuty</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3094"/>
+        <location filename="../core.cpp" line="3100"/>
         <source>Subtitles off</source>
         <translation>Titulky vypnuty</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3616"/>
+        <location filename="../core.cpp" line="3622"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kolečko myši nyní seekuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3619"/>
+        <location filename="../core.cpp" line="3625"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kolečko myši nyní mění hlasitost</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3622"/>
+        <location filename="../core.cpp" line="3628"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kolečko myši nyní zoomuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3625"/>
+        <location filename="../core.cpp" line="3631"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kolečko myši nyní mění rychlost</translation>
     </message>
@@ -1932,17 +1932,17 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Snímky nepořízeny! Není nastaven adresář</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2470"/>
+        <location filename="../core.cpp" line="2476"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Značka &quot;A&quot; je na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2487"/>
+        <location filename="../core.cpp" line="2493"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Značka &quot;B&quot; je na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2502"/>
+        <location filename="../core.cpp" line="2508"/>
         <source>A-B markers cleared</source>
         <translation>A-B značky smazány</translation>
     </message>
@@ -2633,6 +2633,19 @@ Zkontrolujte přístupová práva.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
         <translation>&amp;Nastavení</translation>
+    </message>
+</context>
+<context>
+    <name>FontCacheDialog</name>
+    <message>
+        <location filename="../fontcache.cpp" line="26"/>
+        <source>SMPlayer is initializing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fontcache.cpp" line="27"/>
+        <source>Creating a font cache...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7998,7 +8011,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>po skončení přehrávání se hlavní okno ukončí.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="417"/>
+        <location filename="../smplayer.cpp" line="432"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Tohle je SMPlayer v. %1 běžící na systému %2</translation>
     </message>

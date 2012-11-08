@@ -1827,7 +1827,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="+2735"/>
+        <location filename="../core.cpp" line="+2741"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
@@ -1923,7 +1923,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ora la rotellina cambia la velocità</translation>
     </message>
     <message>
-        <location line="-2384"/>
+        <location line="-2390"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Screenshot NON acquisito, cartella non configurata</translation>
     </message>
@@ -1933,7 +1933,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Screenshot NON acquisiti, cartella non configurata</translation>
     </message>
     <message>
-        <location line="+1216"/>
+        <location line="+1222"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Marcatore &quot;A&quot; impostato a %1</translation>
     </message>
@@ -1948,7 +1948,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Marcatori A-B rimossi</translation>
     </message>
     <message>
-        <location line="-1998"/>
+        <location line="-2004"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2631,6 +2631,19 @@ Controllarne i relativi permessi.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="-10"/>
         <source>&amp;Options</source>
         <translation>&amp;Opzioni</translation>
+    </message>
+</context>
+<context>
+    <name>FontCacheDialog</name>
+    <message>
+        <location filename="../fontcache.cpp" line="+26"/>
+        <source>SMPlayer is initializing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Creating a font cache...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7996,7 +8009,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="+417"/>
+        <location filename="../smplayer.cpp" line="+432"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>

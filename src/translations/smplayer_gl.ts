@@ -1827,98 +1827,98 @@ Vaise mostrar o diálogo de configuración agora, para que o poida facer.</trans
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2735"/>
+        <location filename="../core.cpp" line="2741"/>
         <source>Brightness: %1</source>
         <translation>Brillo: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2750"/>
+        <location filename="../core.cpp" line="2756"/>
         <source>Contrast: %1</source>
         <translation>Contraste. %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2764"/>
+        <location filename="../core.cpp" line="2770"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2778"/>
+        <location filename="../core.cpp" line="2784"/>
         <source>Hue: %1</source>
         <translation>Ton: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2792"/>
+        <location filename="../core.cpp" line="2798"/>
         <source>Saturation: %1</source>
         <translation>Saturación: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2921"/>
+        <location filename="../core.cpp" line="2927"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3698"/>
+        <location filename="../core.cpp" line="3704"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3037"/>
-        <location filename="../core.cpp" line="3049"/>
+        <location filename="../core.cpp" line="3043"/>
+        <location filename="../core.cpp" line="3055"/>
         <source>Font scale: %1</source>
         <translation>Escala do tipo de letra: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3569"/>
+        <location filename="../core.cpp" line="3575"/>
         <source>Aspect ratio: %1</source>
         <translation>Relación de aspecto: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3941"/>
+        <location filename="../core.cpp" line="3947"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Actualizando a caché de tipos de letra. Isto pode levar algúns segundos...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2963"/>
+        <location filename="../core.cpp" line="2969"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Retardo dos subtítulos: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2980"/>
+        <location filename="../core.cpp" line="2986"/>
         <source>Audio delay: %1 ms</source>
         <translation>Retardo do son: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2846"/>
+        <location filename="../core.cpp" line="2852"/>
         <source>Speed: %1</source>
         <translation>Velocidade: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3092"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Subtitles on</source>
         <translation>Subtítulos activados</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3094"/>
+        <location filename="../core.cpp" line="3100"/>
         <source>Subtitles off</source>
         <translation>Subtítulos desactivados</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3616"/>
+        <location filename="../core.cpp" line="3622"/>
         <source>Mouse wheel seeks now</source>
         <translation>A roda do rato agora permite o desprazamento</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3619"/>
+        <location filename="../core.cpp" line="3625"/>
         <source>Mouse wheel changes volume now</source>
         <translation>A roda do rato agora cambia o volume</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3622"/>
+        <location filename="../core.cpp" line="3628"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>A roda do rato agora cambia o nivel do zoom</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3625"/>
+        <location filename="../core.cpp" line="3631"/>
         <source>Mouse wheel changes speed now</source>
         <translation>A roda do rato agora cambia a velocidade</translation>
     </message>
@@ -1933,17 +1933,17 @@ Vaise mostrar o diálogo de configuración agora, para que o poida facer.</trans
         <translation>Non se realizaron as capturas de pantalla, o cartafol non está configurado</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2470"/>
+        <location filename="../core.cpp" line="2476"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Estabeleceuse o marcador A en %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2487"/>
+        <location filename="../core.cpp" line="2493"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Estabeleceuse o marcador B en %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2502"/>
+        <location filename="../core.cpp" line="2508"/>
         <source>A-B markers cleared</source>
         <translation>Elimináronse os marcadores A e B</translation>
     </message>
@@ -2632,6 +2632,19 @@ Por favor verifique os permisos dese cartafol.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
         <translation>&amp;Opcións</translation>
+    </message>
+</context>
+<context>
+    <name>FontCacheDialog</name>
+    <message>
+        <location filename="../fontcache.cpp" line="26"/>
+        <source>SMPlayer is initializing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fontcache.cpp" line="27"/>
+        <source>Creating a font cache...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7998,7 +8011,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>a xanela principal pecharase cando o ficheiro ou a lista de reprodución remate.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="417"/>
+        <location filename="../smplayer.cpp" line="432"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Este é o SMPlayer v. %1 executándose en %2</translation>
     </message>
