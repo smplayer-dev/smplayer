@@ -4,23 +4,17 @@ echo.
 echo Note: It will temporarily rename the smplayer-build or mplayer directory.
 echo Be sure to have a compiled portable smplayer.exe, renamed as
 echo `smplayer-portable.exe` in the same directory as this script or an
-echo alternate location you specify in this script.
+echo alternate location you specify in this script when creating the portable
+echo packages.
 echo.
 echo Configure your build environment at the beginning of this script.
 echo.
 echo 7zip command-line (http://7zip.org) is required by this script.
 echo.
-echo * Release Packages
-echo.
 echo 1 - NSIS SMPlayer Packages
 echo 2 - Portable SMPlayer Package
 echo 3 - SMPlayer Package w/o MPlayer
 echo 4 - MPlayer Package
-echo.
-echo * Update Packages
-echo.
-echo 5 - SMPlayer SVN Update Package
-echo 6 - Qt DLL Package
 
 echo.
 
@@ -37,7 +31,6 @@ set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
 set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
 set OUTPUT_DIR=%TOP_LEVEL_DIR%\output
 set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
-set QT_DIR=E:\Buildsys\Qt\%QTVER%
 
 :reask
 set /P USER_CHOICE="Choose an action: "
@@ -54,12 +47,6 @@ if "%USER_CHOICE%" == "1" (
 
 ) else if "%USER_CHOICE%" == "4" (
   goto mplayer
-
-) else if "%USER_CHOICE%" == "5" (
-  goto svn_updpkg
-
-) else if "%USER_CHOICE%" == "6" (
-  goto qtdlls
 
 ) else (
   goto reask
@@ -242,34 +229,6 @@ set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
 
 echo.
 echo Restoring source folder(s) back to its original state...
-
-goto end
-
-:svn_updpkg
-echo.
-echo ---  Creating SVN Update Package  ---
-echo.
-
-set /P SMPLAYER_SVN="SMPlayer SVN Revision: "
-if "%SMPLAYER_SVN%"=="" goto end
-
-7za a -t7z %OUTPUT_DIR%\smplayer_update_svn_r%SMPLAYER_SVN%.7z %SMPLAYER_DIR%\smplayer.exe %SMPLAYER_DIR%\translations -mx9
-
-goto end
-
-:qtdlls
-
-set /P QTVER="Qt Version: "
-if "%QTVER%"=="" goto end
-
-echo.
-echo ---  Creating Qt DLL Package  ---
-echo.
-
-mkdir imageformats
-copy %QT_DIR%\%QTVER%\plugins\imageformats\qjpeg4.dll imageformats
-7za a -t7z %OUTPUT_DIR%\qt_%QTVER%_dlls.7z %QT_DIR%\%QTVER%\bin\libgcc_s_dw2-1.dll %QT_DIR%\%QTVER%\bin\mingwm10.dll %QT_DIR%\%QTVER%\bin\QtCore4.dll %QT_DIR%\%QTVER%\bin\QtGui4.dll %QT_DIR%\%QTVER%\bin\QtNetwork4.dll %QT_DIR%\%QTVER%\bin\QtXml4.dll imageformats -mx9
-rd /s /q imageformats
 
 goto end
 
