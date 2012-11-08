@@ -493,7 +493,18 @@ public:
        Filters
        ******* */
 	Filters * filters;
+
+
+    /* *********
+       SMPlayer info
+       ********* */
+
+#ifdef FONTCACHE_DIALOG
+	QString smplayer_version;
+#endif
+
 };
+
 Q_DECLARE_OPERATORS_FOR_FLAGS(Preferences::WheelFunctions)
 
 #endif
