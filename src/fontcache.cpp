@@ -23,7 +23,7 @@
 FontCacheDialog::FontCacheDialog(QWidget * parent, Qt::WindowFlags f)
 	: QProgressDialog(parent, f)
 {
-	setLabelText("Creating a font cache...");
+	setLabelText(tr("Creating a font cache..."));
 
 	process = new QProcess(this);
 	process->setProcessChannelMode( QProcess::MergedChannels );
@@ -39,6 +39,8 @@ FontCacheDialog::~FontCacheDialog()
 void FontCacheDialog::run(QString mplayer_bin, QString file) {
 	qDebug("FontCacheDialog::run: mplayer_bin: '%s', file: '%s'", mplayer_bin.toUtf8().constData(), file.toUtf8().constData());
 
+	QRegExp rx_scanning_font("Scanning file");
+
 	setMaximum(30);
 
 	QStringList arg;
@@ -51,6 +53,7 @@ void FontCacheDialog::run(QString mplayer_bin, QString file) {
 		return;
 	}
 
+	int fonts = 0;
 	int v = 0;
 	QByteArray line;
 	while (process->state() == QProcess::Running) {
@@ -58,11 +61,15 @@ void FontCacheDialog::run(QString mplayer_bin, QString file) {
 		if (process->waitForReadyRead(100)) {
 			line = process->readLine().trimmed();
 			qDebug("FontCacheDialog::run: line: %s", line.constData());
-			v++;
-			if (v > 28) v = 0;
-			setValue(v);
+			if (rx_scanning_font.indexIn(line) > -1) {
+				fonts++;
+				v++;
+				if (v > 28) v = 0;
+				setValue(v);
+			}
 		}
 	}
+	qDebug("FontCacheDialog::run: %d fonts found", fonts);
 }
 
 /*
