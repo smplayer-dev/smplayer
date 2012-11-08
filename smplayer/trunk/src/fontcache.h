@@ -28,8 +28,10 @@ class FontCacheDialog : public QProgressDialog
 	Q_OBJECT
 
 public:
-	FontCacheDialog(QString mplayer_bin, QString file, QWidget * parent = 0, Qt::WindowFlags f = 0 );
+	FontCacheDialog(QWidget * parent = 0, Qt::WindowFlags f = 0);
 	~FontCacheDialog();
+
+	void run(QString mplayer_bin, QString file);
 
 /*
 protected slots:

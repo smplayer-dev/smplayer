@@ -487,6 +487,15 @@ void Preferences::reset() {
        ******* */
 
 	filters->init();
+
+
+    /* *********
+       SMPlayer info
+       ********* */
+
+#ifdef FONTCACHE_DIALOG
+	smplayer_version = "";
+#endif
 }
 
 #ifndef NO_USE_INI_FILES
@@ -929,6 +938,16 @@ void Preferences::save() {
 
 	filters->save(set);
 
+
+    /* *********
+       SMPlayer info
+       ********* */
+
+#ifdef FONTCACHE_DIALOG
+	set->beginGroup("smplayer");
+	set->setValue("version", smplayer_version);
+	set->endGroup();
+#endif
 
 	set->sync();
 }
@@ -1380,6 +1399,17 @@ void Preferences::load() {
        ******* */
 
 	filters->load(set);
+
+
+    /* *********
+       SMPlayer info
+       ********* */
+
+#ifdef FONTCACHE_DIALOG
+	set->beginGroup("smplayer");
+	smplayer_version = set->value("version", smplayer_version).toString();
+	set->endGroup();
+#endif
 
 	// Fix some values if config is old
 	if (config_version < CURRENT_CONFIG_VERSION) {

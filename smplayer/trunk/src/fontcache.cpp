@@ -20,19 +20,26 @@
 #include <QProcess>
 #include <QApplication>
 
-FontCacheDialog::FontCacheDialog(QString mplayer_bin, QString file, QWidget * parent, Qt::WindowFlags f )
+FontCacheDialog::FontCacheDialog(QWidget * parent, Qt::WindowFlags f)
 	: QProgressDialog(parent, f)
 {
-	qDebug("FontCacheDialog: mplayer_bin: '%s', file: '%s'", mplayer_bin.toUtf8().constData(), file.toUtf8().constData());
-
 	setLabelText("Creating a font cache...");
-	setMaximum(2000);
 
 	process = new QProcess(this);
 	process->setProcessChannelMode( QProcess::MergedChannels );
 	//connect(process, SIGNAL(readyReadStandardOutput()), this, SLOT(readOutput()));
 
 	connect(this, SIGNAL(canceled()), process, SLOT(kill()));
+}
+
+FontCacheDialog::~FontCacheDialog() 
+{
+}
+
+void FontCacheDialog::run(QString mplayer_bin, QString file) {
+	qDebug("FontCacheDialog::run: mplayer_bin: '%s', file: '%s'", mplayer_bin.toUtf8().constData(), file.toUtf8().constData());
+
+	setMaximum(30);
 
 	QStringList arg;
 	arg << "-fontconfig" << "-ass" << "-vo" << "null" << "-ao" << "null";
@@ -40,7 +47,7 @@ FontCacheDialog::FontCacheDialog(QString mplayer_bin, QString file, QWidget * pa
 
 	process->start(mplayer_bin, arg);
 	if (!process->waitForStarted()) {
-		qDebug("FontCacheDialog: failed to start process");
+		qDebug("FontCacheDialog::run: failed to start process");
 		return;
 	}
 
@@ -50,16 +57,12 @@ FontCacheDialog::FontCacheDialog(QString mplayer_bin, QString file, QWidget * pa
 		qApp->processEvents();
 		if (process->waitForReadyRead(100)) {
 			line = process->readLine().trimmed();
-			qDebug("FontCacheDialog: line: %s", line.constData());
+			qDebug("FontCacheDialog::run: line: %s", line.constData());
 			v++;
+			if (v > 28) v = 0;
 			setValue(v);
-			//setLabelText(line);
 		}
 	}
-}
-
-FontCacheDialog::~FontCacheDialog() 
-{
 }
 
 /*
