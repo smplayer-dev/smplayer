@@ -368,11 +368,13 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 
 void SMPlayer::start() {
 #ifdef FONTCACHE_DIALOG
+#ifndef PORTABLE_APP
 	if (smplayerVersion() != pref->smplayer_version) {
 		FontCacheDialog d(0);
 		d.run(pref->mplayer_bin, "sample.avi");
 		pref->smplayer_version = smplayerVersion();
 	}
+#endif
 #endif
 
 	if (!gui()->startHidden() || !files_to_play.isEmpty() ) gui()->show();
