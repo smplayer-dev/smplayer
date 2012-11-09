@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0">
+<!DOCTYPE TS><TS>
 <context>
     <name>About</name>
     <message>
@@ -1420,11 +1418,11 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>&amp;6.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {6.1 ?}</translation>
+        <translation>&amp;6.1 Surround {6.1 ?}</translation>
     </message>
     <message>
         <source>&amp;7.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {7.1 ?}</translation>
+        <translation>&amp;7.1 Surround {7.1 ?}</translation>
     </message>
 </context>
 <context>
@@ -2117,11 +2115,10 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Error fixing the subtitle lines</source>
         <translation>Pogreška pri popravljanju linija titlova</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform>%n titlova otpakirano
-        </numerusform>
+        <translation>%n titlova otpakirano
+        
         </translation>
     </message>
 </context>
@@ -2129,11 +2126,11 @@ Molim provjerite dozvole za taj folder.</translation>
     <name>FontCacheDialog</name>
     <message>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer se inicijalizira</translation>
     </message>
     <message>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>Stvaram font cache...</translation>
     </message>
 </context>
 <context>
@@ -3096,7 +3093,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3184,7 +3181,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message utf8="true">
+    <message encoding="UTF-8">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -3257,25 +3254,25 @@ Do you want to overwrite?</source>
     <name>MediaBarPanel</name>
     <message>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblik</translation>
     </message>
 </context>
 <context>
     <name>MediaPanel</name>
     <message>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Promiješaj playlistu</translation>
     </message>
     <message>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponovi playlistu</translation>
     </message>
 </context>
 <context>
     <name>MediaPanelClass</name>
     <message>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>MediaPanel</translation>
     </message>
 </context>
 <context>
@@ -3316,31 +3313,31 @@ Do you want to overwrite?</source>
     <name>PlayControl</name>
     <message>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Premotaj nazad</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Premotaj naprijed</translation>
     </message>
     <message>
         <source>Play / Pause</source>
-        <translation type="unfinished">Play / Pauza</translation>
+        <translation>Play / Pauza</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Snimi</translation>
     </message>
     <message>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Slijedeća datoteka u listi</translation>
     </message>
     <message>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Prethodna datoteka u listi</translation>
     </message>
 </context>
 <context>
@@ -3815,15 +3812,15 @@ Primjer: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Prijavi ruš&amp;enje MPlayera  </translation>
     </message>
     <message>
         <source>Report MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Prijavi rušenje MPlayera</translation>
     </message>
     <message>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ako je ova opcija odabrana, pojavit će se informativni prozor koji objašnjava zašto se MPlayer srušio.</translation>
     </message>
 </context>
 <context>
@@ -4606,11 +4603,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 Surround) {7 (6.1 ?}</translation>
+        <translation>7 (6.1 Surround)</translation>
     </message>
     <message>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 Surround) {8 (7.1 ?}</translation>
+        <translation>8 (7.1 Surround)</translation>
     </message>
 </context>
 <context>
@@ -5348,59 +5345,59 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>Presvla&amp;ka:</translation>
     </message>
     <message>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Pri&amp;vatnost</translation>
     </message>
     <message>
         <source>URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>URL-ovi</translation>
     </message>
     <message>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Maks. stvari</translation>
     </message>
     <message>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapamti posljednji folde&amp;r</translation>
     </message>
     <message>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI s presvlakama (skinovima)</translation>
     </message>
     <message>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite GUI okruženje. U izboru su Zadani GUI (s alatnom i kontrolnom trakom) i Mini GUI (jednostavniji, bez kontrolne i alatne trake i sa manje gumba). </translation>
     </message>
     <message>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Presvlaka</translation>
     </message>
     <message>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite presvlaku za aplikaciju. Samo za GUI koji priihvaća presvlake (skinnable GUI).</translation>
     </message>
     <message>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Privatnost</translation>
     </message>
     <message>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Maks URL-ova</translation>
     </message>
     <message>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite maksimalni broj stvari koje će &lt;b&gt;Otvori-&gt;URL&lt;/b&gt; dijalog zapamtiti. Stavite na 0 ako ne želite da se URL-ovi sačuvaju.</translation>
     </message>
     <message>
         <source>Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapamti posljednji folder</translation>
     </message>
     <message>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer će zapamtiti zadnji korišteni folder prilikom otvaranja datoteka.</translation>
     </message>
 </context>
 <context>
@@ -6479,20 +6476,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n sekundi      
+        <translation>%n sekundi      
         
-        </numerusform>
+        
         </translation>
     </message>
-    <message numerus="yes">
+    <message>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform>%n minuta       
+        <translation>%n minuta       
         
-        </numerusform>
+        
         </translation>
     </message>
 </context>
@@ -6541,19 +6536,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>SkinGui</name>
     <message>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Alatne trake</translation>
+        <translation>&amp;Alatne trake</translation>
     </message>
     <message>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">&amp;Glavna alatna traka</translation>
+        <translation>&amp;Glavna alatna traka</translation>
     </message>
     <message>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished">Uredi glavnu alatnu  &amp;traku</translation>
+        <translation>Uredi glavnu alatnu  &amp;traku</translation>
     </message>
     <message>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished">Uredi &amp;lebdeći panel</translation>
+        <translation>Uredi &amp;lebdeći panel</translation>
     </message>
 </context>
 <context>
@@ -6967,15 +6962,15 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>VolumeControlPanel</name>
     <message>
         <source>Playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Playlista</translation>
     </message>
     <message>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>Čitavi ekran (Fullscreen) uklj / isklj</translation>
     </message>
     <message>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Video ekvilajzer</translation>
     </message>
 </context>
 <context>
