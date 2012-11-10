@@ -19,6 +19,7 @@
 #include "fontcache.h"
 #include <QProcess>
 #include <QApplication>
+#include <QDir>
 
 FontCacheDialog::FontCacheDialog(QWidget * parent, Qt::WindowFlags f)
 	: QProgressDialog(parent, f)
@@ -42,7 +43,12 @@ void FontCacheDialog::run(QString mplayer_bin, QString file) {
 
 	QRegExp rx_scanning_font("Scanning file");
 
-	setMaximum(100);
+	int max = 100;
+	QDir fon_dir("c:/windows/fonts");
+	QStringList fon_files = fon_dir.entryList(QStringList() << "*.*", QDir::Files);
+	qDebug("FontCacheDialog::run: number of fonts: %d", fon_files.count());
+	if (fon_files.count() > 2) max = fon_files.count();
+	setMaximum(max);
 
 	QStringList arg;
 	arg << "-fontconfig" << "-ass" << "-vo" << "null" << "-ao" << "null";
@@ -65,7 +71,7 @@ void FontCacheDialog::run(QString mplayer_bin, QString file) {
 			if (rx_scanning_font.indexIn(line) > -1) {
 				fonts++;
 				v++;
-				if (v >= 99) v = 0;
+				if (v >= (max-1)) v = 0;
 				setValue(v);
 			}
 		}
