@@ -38,7 +38,7 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
-#define CURRENT_CONFIG_VERSION 1
+#define CURRENT_CONFIG_VERSION 2
 
 using namespace Global;
 
@@ -103,7 +103,7 @@ void Preferences::reset() {
 	use_double_buffer = true;
 
 	use_soft_video_eq = false;
-	use_slices = true;
+	use_slices = false;
 	autoq = 6;
 	add_blackborders_on_fullscreen = false;
 
@@ -1415,10 +1415,7 @@ void Preferences::load() {
 	if (config_version < CURRENT_CONFIG_VERSION) {
 		qDebug("Preferences::load: config version is old, updating it");
 		config_version = CURRENT_CONFIG_VERSION;
-		/*
-		iconset = "Nuvola";
-		yt_user_agent = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)";
-		*/
+		use_slices = false;
 	}
 }
 
