@@ -2658,12 +2658,12 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../fontcache.cpp" line="26"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>O SMPlayer está a iniciar</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>A criar cache de letras...</translation>
     </message>
 </context>
 <context>
