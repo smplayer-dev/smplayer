@@ -1,5 +1,6 @@
-/*  umplayer, GUI front-end for mplayer.
-    Copyright (C) 2010 Ori Rejwan
+/*  smplayer, GUI front-end for mplayer.
+    Copyright (C) 2006-2012 Ricardo Villalba <rvm@users.sourceforge.net>
+    umplayer, Copyright (C) 2010 Ori Rejwan
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -27,9 +28,11 @@
 #include "mybutton.h"
 
 class MyAction;
+
 class PlayControl : public QWidget
 {
 Q_OBJECT
+
 public:
     explicit PlayControl(QWidget *parent = 0);
 
@@ -67,13 +70,10 @@ public:
 
 protected:
     void resizeEvent(QResizeEvent * e);
-
-signals:
-
-public slots:
+    virtual void changeEvent (QEvent * event);
+    virtual void retranslateStrings();
 
 friend class IconSetter;
-
 };
 
 #endif // PLAYCONTROL_H

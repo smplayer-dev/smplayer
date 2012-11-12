@@ -111,6 +111,8 @@ private slots:
 
 protected:
     void paintEvent(QPaintEvent *);
+    virtual void changeEvent (QEvent * event);
+    virtual void retranslateStrings();
 
 signals:
 	void seekerChanged(int);

@@ -99,9 +99,7 @@ void VolumeControlPanel::setActionCollection(QList<QAction*> actions)
 	SETACTIONTOBUTTON(fullscreenButton, "fullscreen");
 	SETACTIONTOBUTTON(equalizerButton, "video_equalizer");
 
-	if (playlistButton) playlistButton->setToolTip(tr("Playlist"));
-	if (fullscreenButton) fullscreenButton->setToolTip(tr("Fullscreen on/off"));
-	if (equalizerButton) equalizerButton->setToolTip(tr("Video equalizer"));
+	retranslateStrings();
 }
 
 void VolumeControlPanel::setVolume(int value)
@@ -119,5 +117,20 @@ bool VolumeControlPanel::eventFilter(QObject *watched, QEvent *event)
     return false;
 }
 */
+
+// Language change stuff
+void VolumeControlPanel::changeEvent(QEvent *e) {
+	if (e->type() == QEvent::LanguageChange) {
+		retranslateStrings();
+	} else {
+		QWidget::changeEvent(e);
+	}
+}
+
+void VolumeControlPanel::retranslateStrings() {
+	if (playlistButton) playlistButton->setToolTip(tr("Playlist"));
+	if (fullscreenButton) fullscreenButton->setToolTip(tr("Fullscreen on/off"));
+	if (equalizerButton) equalizerButton->setToolTip(tr("Video equalizer"));
+}
 
 #include "moc_volumecontrolpanel.cpp"
