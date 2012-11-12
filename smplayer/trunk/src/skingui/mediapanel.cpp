@@ -114,8 +114,7 @@ void MediaPanel::setActionCollection(QList<QAction *>actions) {
 	SETACTIONTOBUTTON(shuffleButton, "pl_shuffle");
 	SETACTIONTOBUTTON(repeatButton, "pl_repeat");
 
-	if (shuffleButton) shuffleButton->setToolTip(tr("Shuffle playlist"));
-	if (repeatButton) repeatButton->setToolTip(tr("Repeat playlist"));
+	retranslateStrings();
 }
 
 void MediaPanel::setMplayerState(int state) {
@@ -185,6 +184,20 @@ bool MediaPanel::eventFilter(QObject *o, QEvent *e) {
 		}
 	}
 	return false;
+}
+
+// Language change stuff
+void MediaPanel::changeEvent(QEvent *e) {
+	if (e->type() == QEvent::LanguageChange) {
+		retranslateStrings();
+	} else {
+		QWidget::changeEvent(e);
+	}
+}
+
+void MediaPanel::retranslateStrings() {
+	if (shuffleButton) shuffleButton->setToolTip(tr("Shuffle playlist"));
+	if (repeatButton) repeatButton->setToolTip(tr("Repeat playlist"));
 }
 
 void ScrollingLabel::paintEvent(QPaintEvent * e) {

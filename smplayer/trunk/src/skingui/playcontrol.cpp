@@ -161,13 +161,7 @@ void PlayControl::setActionCollection(QList<QAction *> actions)
 	SETACTIONTOBUTTON(nextButton, "play_next");
 	SETACTIONTOBUTTON(forwardButton, "forward1");
 
-	if (backwardButton) backwardButton->setToolTip(tr("Rewind"));
-	if (forwardButton) forwardButton->setToolTip(tr("Forward"));
-	if (playPauseButton) playPauseButton->setToolTip(tr("Play / Pause"));
-	if (stopButton) stopButton->setToolTip(tr("Stop"));
-	if (recordButton) recordButton->setToolTip(tr("Record"));
-	if (nextButton) nextButton->setToolTip(tr("Next file in playlist"));
-	if (previousButton) previousButton->setToolTip(tr("Previous file in playlist"));
+	retranslateStrings();
 }
 
 bool PlayControl::eventFilter(QObject *watched, QEvent *event)
@@ -177,6 +171,25 @@ bool PlayControl::eventFilter(QObject *watched, QEvent *event)
         updateWidths();
     }
     return false;
+}
+
+// Language change stuff
+void PlayControl::changeEvent(QEvent *e) {
+	if (e->type() == QEvent::LanguageChange) {
+		retranslateStrings();
+	} else {
+		QWidget::changeEvent(e);
+	}
+}
+
+void PlayControl::retranslateStrings() {
+	if (backwardButton) backwardButton->setToolTip(tr("Rewind"));
+	if (forwardButton) forwardButton->setToolTip(tr("Forward"));
+	if (playPauseButton) playPauseButton->setToolTip(tr("Play / Pause"));
+	if (stopButton) stopButton->setToolTip(tr("Stop"));
+	if (recordButton) recordButton->setToolTip(tr("Record"));
+	if (nextButton) nextButton->setToolTip(tr("Next file in playlist"));
+	if (previousButton) previousButton->setToolTip(tr("Previous file in playlist"));
 }
 
 #include "moc_playcontrol.cpp"

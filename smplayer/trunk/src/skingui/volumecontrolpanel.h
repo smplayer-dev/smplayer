@@ -73,6 +73,10 @@ public slots:
     void setVolumeMax() { volumeBar->setValue( volumeBar->maximum()); }
     void setVolumeMin() { volumeBar->setValue( volumeBar->minimum()); }
     void setVolume(int value);
+
+protected:
+    virtual void changeEvent (QEvent * event);
+    virtual void retranslateStrings();
 };
 
 #endif // VOLUMECONTROLPANEL_H
