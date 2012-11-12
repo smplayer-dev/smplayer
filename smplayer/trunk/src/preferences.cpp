@@ -314,7 +314,7 @@ void Preferences::reset() {
 	stay_on_top = NeverOnTop;
 	size_factor = 100; // 100%
 
-	resize_method = Always;
+	resize_method = Never;
 
 #if STYLE_SWITCHING
 	style="";
