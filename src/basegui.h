@@ -103,6 +103,7 @@ public slots:
 	virtual void helpFAQ();
 	virtual void helpCLOptions();
 	virtual void helpCheckUpdates();
+	virtual void helpShowConfig();
 	virtual void helpAbout();
 	virtual void helpAboutQt();
 
@@ -453,6 +454,7 @@ protected:
 	MyAction * showFAQAct;
 	MyAction * showCLOptionsAct; // Command line options
 	MyAction * showCheckUpdatesAct;
+	MyAction * showConfigAct;
 	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 

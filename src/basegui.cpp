@@ -744,6 +744,10 @@ void BaseGui::createActions() {
 	connect( showCheckUpdatesAct, SIGNAL(triggered()),
              this, SLOT(helpCheckUpdates()) );
 
+	showConfigAct = new MyAction( this, "show_config" );
+	connect( showConfigAct, SIGNAL(triggered()),
+             this, SLOT(helpShowConfig()) );
+
 	aboutQtAct = new MyAction( this, "about_qt" );
 	connect( aboutQtAct, SIGNAL(triggered()),
              this, SLOT(helpAboutQt()) );
@@ -1553,6 +1557,7 @@ void BaseGui::retranslateStrings() {
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
+	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
@@ -2484,6 +2489,7 @@ void BaseGui::createMenus() {
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addAction(showCheckUpdatesAct);
+	helpMenu->addAction(showConfigAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
@@ -3692,6 +3698,10 @@ void BaseGui::helpCheckUpdates() {
 	QString url = "http://smplayer.sourceforge.net/latest.php";
 	if (!pref->language.isEmpty()) url += QString("?tr_lang=%1").arg(pref->language);
 	QDesktopServices::openUrl( QUrl(url) );
+}
+
+void BaseGui::helpShowConfig() {
+	QDesktopServices::openUrl(QUrl::fromLocalFile(Paths::configPath()));
 }
 
 void BaseGui::helpAbout() {

@@ -1,5 +1,8 @@
 [b]Version 0.8.2[/b]:
 
+(2012-11-15)
+ * New option Help -> Open configuration folder.
+
 (2012-11-12)
  * Don't use slices as default, as it seems to cause problems when using
    multiple threads.
