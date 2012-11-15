@@ -899,12 +899,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1765"/>
         <source>&amp;6.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 окружение {6.1 ?}</translation>
+        <translation>&amp;6.1 окружение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
         <source>&amp;7.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 окружение {7.1 ?}</translation>
+        <translation>&amp;7.1 окружение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1769"/>
@@ -2660,12 +2660,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="26"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>Инициализация SMPlayer</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>Создание кэша шрифтов...</translation>
     </message>
 </context>
 <context>
@@ -4128,7 +4128,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Форма</translation>
     </message>
 </context>
 <context>
@@ -4136,12 +4136,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="117"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемешать список</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="118"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Повторять список</translation>
     </message>
 </context>
 <context>
@@ -4149,7 +4149,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>Медиапанель</translation>
     </message>
 </context>
 <context>
@@ -4202,37 +4202,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="164"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемотка назад</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="165"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемотка вперёд</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="166"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Воспроизведение / Пауза</translation>
+        <translation>Воспроизведение / Пауза</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="167"/>
         <source>Stop</source>
-        <translation type="unfinished">Стоп</translation>
+        <translation>Стоп</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="168"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Запись</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="169"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующий файл списка</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="170"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущий элемент списка</translation>
     </message>
 </context>
 <context>
@@ -4432,7 +4432,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>От&amp;чёт о сбоях MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
@@ -4617,12 +4617,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Report MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Отчёт о сбоях MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, появится окно с информацией о сбое MPlayer. В другом случае, подобные ошибки будут проигнорированы.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -5044,12 +5044,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="100"/>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 окружение) {7 (6.1 ?}</translation>
+        <translation>7 (6.1 окружение)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 окружение) {8 (7.1 ?}</translation>
+        <translation>8 (7.1 окружение)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="129"/>
@@ -6378,7 +6378,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="738"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;риватность</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="756"/>
@@ -6418,7 +6418,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="259"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;кин:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="366"/>
@@ -6448,17 +6448,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="795"/>
         <source>URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="807"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Макс. элементов</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Помнить последний каталог</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
@@ -6509,7 +6509,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Приватность</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -6524,12 +6524,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Интерфейс со скинами</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="659"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите предпочтительный интерфейс приложения. На текущий момент доступны интерфейс по умолчанию и мини интерфейс.&lt;br&gt;Интерфейс &lt;b&gt;По умолчанию&lt;/b&gt; представляет собой традиционный интерфейс с панелями инструментов и управления. &lt;b&gt;Мини интерфейс&lt;/b&gt; представляет более простой интерфейс без панелей инструментов и упрощённой панелью управления с меньшим числом кнопок.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
@@ -6539,12 +6539,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Скин</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите предпочитаемый скин приложения. Доступно только для интерфейса со скинами.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="674"/>
@@ -6626,22 +6626,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="757"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Макс. URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите максимальное число элементов, запоминаемых в диалоге &lt;b&gt;Открыть-&gt;Адрес&lt;/b&gt;. Установите в 0, если не хотите сохранять URL вообще.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Помнить последний каталог</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, SMPlayer будет запоминать каталог последнего открытого файла.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="510"/>
@@ -8255,22 +8255,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="366"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Панели</translation>
+        <translation>&amp;Панели</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="369"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">&amp;Главная панель</translation>
+        <translation>&amp;Главная панель</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="373"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished">Редактировать &amp;главную панель</translation>
+        <translation>Редактировать &amp;главную панель</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="375"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished">Редактировать &amp;плавающую панель</translation>
+        <translation>Редактировать &amp;плавающую панель</translation>
     </message>
 </context>
 <context>
@@ -8789,17 +8789,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
         <source>Playlist</source>
-        <translation type="unfinished">Список</translation>
+        <translation>Список</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>Полный экран вкл/выкл</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Видеоэквалайзер</translation>
     </message>
 </context>
 <context>
