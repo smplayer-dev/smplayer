@@ -1,5 +1,18 @@
 [b]Version 0.8.2[/b]:
 
+(2012-11-12)
+ * Don't use slices as default, as it seems to cause problems when using
+   multiple threads.
+
+(2012-11-08)
+ * (Windows) When a new version is run for the first time it tries to
+   create a font cache before showing the GUI. Avoids that the font cache
+   would be created when the user plays the first video.
+
+(2012-11-05)
+ * (Windows) Don't change the priority of the smplayer process. Fixes a
+   freeze that may happen on windows xp when you click on the video window.
+
 (2012-11-03)
  * Don't use -fontconfig with mplayer2.
 
