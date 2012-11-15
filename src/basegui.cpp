@@ -744,10 +744,6 @@ void BaseGui::createActions() {
 	connect( showCheckUpdatesAct, SIGNAL(triggered()),
              this, SLOT(helpCheckUpdates()) );
 
-	donateAct = new MyAction( this, "donate" );
-	connect( donateAct, SIGNAL(triggered()),
-             this, SLOT(helpDonate()) );
-
 	aboutQtAct = new MyAction( this, "about_qt" );
 	connect( aboutQtAct, SIGNAL(triggered()),
              this, SLOT(helpAboutQt()) );
@@ -1557,7 +1553,6 @@ void BaseGui::retranslateStrings() {
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
-	donateAct->change( Images::icon("donate"), tr("&Donate") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
@@ -2489,7 +2484,6 @@ void BaseGui::createMenus() {
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addAction(showCheckUpdatesAct);
-	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
@@ -3698,15 +3692,6 @@ void BaseGui::helpCheckUpdates() {
 	QString url = "http://smplayer.sourceforge.net/latest.php";
 	if (!pref->language.isEmpty()) url += QString("?tr_lang=%1").arg(pref->language);
 	QDesktopServices::openUrl( QUrl(url) );
-}
-
-void BaseGui::helpDonate() {
-	QMessageBox d(QMessageBox::NoIcon, tr("Donate"), 
-		tr("If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.") + "<br>" +
-        tr("You can send your donation using %1.").arg("<a href=\"https://sourceforge.net/donate/index.php?group_id=185512\">"+tr("this form")),
-		QMessageBox::Ok, this);
-	d.setIconPixmap( Images::icon("logo", 64) );
-	d.exec();
 }
 
 void BaseGui::helpAbout() {
