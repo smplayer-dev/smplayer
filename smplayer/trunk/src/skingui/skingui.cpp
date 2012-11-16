@@ -383,6 +383,21 @@ void SkinGui::displayTime(QString text) {
 	time_label_action->setText(text);
 }
 
+void SkinGui::displayState(Core::State state) {
+	BaseGuiPlus::displayState(state);
+
+	switch (state) {
+		case Core::Playing:		mediaBarPanel->displayMessage( tr("Playing %1").arg(core->mdat.filename)); break;
+		case Core::Paused:		mediaBarPanel->displayMessage( tr("Pause") ); break;
+		case Core::Stopped:		mediaBarPanel->displayMessage( tr("Stop") ); break;
+	}
+}
+
+void SkinGui::displayMessage(QString message) {
+	BaseGuiPlus::displayMessage(message);
+	mediaBarPanel->displayMessage(message);
+}
+
 void SkinGui::updateWidgets() {
 	qDebug("SkinGui::updateWidgets");
 
