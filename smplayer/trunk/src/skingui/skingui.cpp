@@ -149,6 +149,8 @@ void SkinGui::createActions() {
 	editFloatingControlAct = new MyAction( this, "edit_floating_control" );
 	#endif
 #endif
+
+	playOrPauseAct->setCheckable(true);
 }
 
 #if AUTODISABLE_ACTIONS
@@ -166,6 +168,18 @@ void SkinGui::disableActionsOnStop() {
 
 	timeslider_action->disable();
 	volumeslider_action->disable();
+}
+
+void SkinGui::togglePlayAction(Core::State state) {
+	qDebug("SkinGui::togglePlayAction");
+	BaseGuiPlus::togglePlayAction(state);
+
+	if (state == Core::Playing) {
+		playOrPauseAct->setChecked(true);
+	}
+	else {
+		playOrPauseAct->setChecked(false);
+	}
 }
 #endif // AUTODISABLE_ACTIONS
 
