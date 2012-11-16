@@ -124,6 +124,7 @@
         <file>icons-png/clear_left.png</file>
         <file>icons-png/folder_open.png</file>
         <file>icons-png/tubebrowser.png</file>
+        <file>icons-png/show_config.png</file>
         <file>mpcgui/mpc_toolbar.png</file>
         <file>mpcgui/mpc_mono.png</file>
         <file>mpcgui/mpc_stereo.png</file>
