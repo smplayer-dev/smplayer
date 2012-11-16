@@ -731,7 +731,12 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+14"/>
+        <source>&amp;Open configuration folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>About &amp;SMPlayer</source>
         <translation>Informazioni su &amp;SMPlayer</translation>
     </message>
@@ -954,7 +959,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1965"/>
+        <location line="+1960"/>
         <source>An error happened - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -964,7 +969,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-2975"/>
+        <location line="-2970"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1041,7 +1046,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Sottotitoli</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+58"/>
         <source>About Qt</source>
         <translation>Informazioni Qt</translation>
     </message>
@@ -1061,7 +1066,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2767"/>
+        <location line="-2762"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1348,7 +1353,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+2987"/>
+        <location line="+2982"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1378,7 +1383,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-2925"/>
+        <location line="-2920"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1500,7 +1505,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2263"/>
+        <location line="+2258"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1520,7 +1525,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2414"/>
+        <location line="-2409"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
@@ -1610,7 +1615,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2206"/>
+        <location line="+2201"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1640,17 +1645,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2003"/>
+        <location line="-1998"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2572"/>
+        <location line="+2567"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-2853"/>
+        <location line="-2848"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -1746,37 +1751,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Deinterlacciamento</translation>
     </message>
     <message>
-        <location line="-50"/>
-        <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+216"/>
+        <location line="+166"/>
         <source>&amp;Closed captions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1928"/>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You can send your donation using %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>this form</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-2060"/>
+        <location line="-130"/>
         <source>&amp;Disc</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2636,7 +2616,7 @@ Controllarne i relativi permessi.</translation>
 <context>
     <name>FontCacheDialog</name>
     <message>
-        <location filename="../fontcache.cpp" line="+26"/>
+        <location filename="../fontcache.cpp" line="+27"/>
         <source>SMPlayer is initializing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4112,7 +4092,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="+117"/>
+        <location filename="../skingui/mediapanel.cpp" line="+199"/>
         <source>Shuffle playlist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4178,7 +4158,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>PlayControl</name>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="+164"/>
+        <location filename="../skingui/playcontrol.cpp" line="+186"/>
         <source>Rewind</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8761,7 +8741,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeControlPanel</name>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="+102"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="+131"/>
         <source>Playlist</source>
         <translation type="unfinished">Lista di riproduzione</translation>
     </message>

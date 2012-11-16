@@ -938,22 +938,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3718"/>
+        <location filename="../basegui.cpp" line="3713"/>
         <source>About Qt</source>
         <translation>Про Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4192"/>
+        <location filename="../basegui.cpp" line="4187"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4188"/>
         <source>Pause</source>
         <translation>Призупинений</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4194"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>Stop</source>
         <translation>Зупинений</translation>
     </message>
@@ -1061,6 +1061,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1546"/>
         <source>&amp;YouTube browser</source>
         <translation>Переглядач &amp;YouTube</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1560"/>
+        <source>&amp;Open configuration folder</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1581"/>
@@ -1214,12 +1219,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Необхідно перезапустити SMPlayer для використання нового інтерфейсу.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4691"/>
+        <location filename="../basegui.cpp" line="4686"/>
         <source>An error happened - SMPlayer</source>
         <translation>Виникла помилка - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4691"/>
+        <location filename="../basegui.cpp" line="4686"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>Запуск переглядача YouTube неможливий</translation>
     </message>
@@ -1382,32 +1387,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>90 градусів проти &amp;годинникової стрілки та переворот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4590"/>
+        <location filename="../basegui.cpp" line="4585"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Несподіване завершення MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4591"/>
+        <location filename="../basegui.cpp" line="4586"/>
         <source>Exit code: %1</source>
         <translation>Код виходу: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4610"/>
+        <location filename="../basegui.cpp" line="4605"/>
         <source>MPlayer failed to start.</source>
         <translation>Помилка старту MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4606"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Перевірте шлях до MPlayer у налаштуваннях.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4613"/>
+        <location filename="../basegui.cpp" line="4608"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer зламався.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4614"/>
+        <location filename="../basegui.cpp" line="4609"/>
         <source>See the log for more info.</source>
         <translation>Дивіться журнал для детальніших відомостей.</translation>
     </message>
@@ -1499,22 +1504,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Доріжка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4012"/>
+        <location filename="../basegui.cpp" line="4007"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Застереження: використовується старий MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4013"/>
+        <location filename="../basegui.cpp" line="4008"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Збірка MPlayer (%1), що встановлена у вашій системі, застаріла. SMPlayer не може вірно працювати з нею: деякі опції не будуть працювати, вибір субтитрів може бути невдалим...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4018"/>
+        <location filename="../basegui.cpp" line="4013"/>
         <source>Please, update your MPlayer.</source>
         <translation>Будь ласка, оновіть ваш MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4020"/>
+        <location filename="../basegui.cpp" line="4015"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Це застереження не буде більше показуватись)</translation>
     </message>
@@ -1609,32 +1614,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Вста&amp;новити затримку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3723"/>
+        <location filename="../basegui.cpp" line="3718"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Перейти до:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Переміщення</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3734"/>
+        <location filename="../basegui.cpp" line="3729"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - затримка звуку</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3735"/>
+        <location filename="../basegui.cpp" line="3730"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Затримка звуку (в мілісекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3744"/>
+        <location filename="../basegui.cpp" line="3739"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - затримка субтитрів</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3745"/>
+        <location filename="../basegui.cpp" line="3740"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Затримка субтитрів (в мілісекундах):</translation>
     </message>
@@ -1644,7 +1649,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Завжди зверху</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4314"/>
+        <location filename="../basegui.cpp" line="4309"/>
         <source>Jump to %1</source>
         <translation>Перейти до %1</translation>
     </message>
@@ -1745,9 +1750,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Перемкнути режим деінтерлейсинга</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;Donate</source>
-        <translation>&amp;Зробити пожертву</translation>
+        <translation type="obsolete">&amp;Зробити пожертву</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1776"/>
@@ -1755,24 +1759,20 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Закриті субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3704"/>
         <source>Donate</source>
-        <translation>Зробити пожертву</translation>
+        <translation type="obsolete">Зробити пожертву</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3705"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation>Якщо Вам подобається SMPlayer, найкращий спосіб підтримати його - зробити пожертву, навіть невеличкий внесок високо цінується.</translation>
+        <translation type="obsolete">Якщо Вам подобається SMPlayer, найкращий спосіб підтримати його - зробити пожертву, навіть невеличкий внесок високо цінується.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
         <source>You can send your donation using %1.</source>
-        <translation>Ви можете відправити вашу пожертву, використовуючи %1.</translation>
+        <translation type="obsolete">Ви можете відправити вашу пожертву, використовуючи %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
         <source>this form</source>
-        <translation>цю форму</translation>
+        <translation type="obsolete">цю форму</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
@@ -2638,12 +2638,12 @@ Please check the permissions of that folder.</source>
 <context>
     <name>FontCacheDialog</name>
     <message>
-        <location filename="../fontcache.cpp" line="26"/>
+        <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
         <translation>Ініціалізація SMPlayer</translation>
     </message>
     <message>
-        <location filename="../fontcache.cpp" line="27"/>
+        <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
         <translation>Створення кешу шрифтів...</translation>
     </message>
@@ -4114,12 +4114,12 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="117"/>
+        <location filename="../skingui/mediapanel.cpp" line="199"/>
         <source>Shuffle playlist</source>
         <translation>Перемішати перелік</translation>
     </message>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="118"/>
+        <location filename="../skingui/mediapanel.cpp" line="200"/>
         <source>Repeat playlist</source>
         <translation>Повторити перелік</translation>
     </message>
@@ -4180,37 +4180,37 @@ Do you want to overwrite?</source>
 <context>
     <name>PlayControl</name>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="164"/>
+        <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
         <translation>Перемотка</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="165"/>
+        <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
         <translation>Вперед</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="166"/>
+        <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
         <translation>Відтворити / Призупинити</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="167"/>
+        <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="168"/>
+        <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
         <translation>Запис</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="169"/>
+        <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
         <translation>Наступний файл в переліку</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="170"/>
+        <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
         <translation>Попередній файл в переліку</translation>
     </message>
@@ -8767,17 +8767,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeControlPanel</name>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="131"/>
         <source>Playlist</source>
         <translation>Перелік відтворення</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Fullscreen on/off</source>
         <translation>На весь екран вкл/викл</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Video equalizer</source>
         <translation>Відеоеквалайзер</translation>
     </message>
