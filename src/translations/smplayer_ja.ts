@@ -8237,24 +8237,39 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="366"/>
+        <location filename="../skingui/skingui.cpp" line="380"/>
         <source>&amp;Toolbars</source>
         <translation>ツール バー(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="369"/>
+        <location filename="../skingui/skingui.cpp" line="383"/>
         <source>&amp;Main toolbar</source>
         <translation>メイン ツール バー(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="373"/>
+        <location filename="../skingui/skingui.cpp" line="387"/>
         <source>Edit main &amp;toolbar</source>
         <translation>メイン ツール バーの編集(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="375"/>
+        <location filename="../skingui/skingui.cpp" line="389"/>
         <source>Edit &amp;floating control</source>
         <translation>フローティング コントロールの編集(&amp;F)</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="404"/>
+        <source>Playing %1</source>
+        <translation type="unfinished">%1 を再生中</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="405"/>
+        <source>Pause</source>
+        <translation type="unfinished">一時停止</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="406"/>
+        <source>Stop</source>
+        <translation type="unfinished">停止</translation>
     </message>
 </context>
 <context>
