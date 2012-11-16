@@ -8133,24 +8133,39 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="366"/>
+        <location filename="../skingui/skingui.cpp" line="380"/>
         <source>&amp;Toolbars</source>
         <translation type="unfinished">&amp;ინსრუმენტთა პანელები</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="369"/>
+        <location filename="../skingui/skingui.cpp" line="383"/>
         <source>&amp;Main toolbar</source>
         <translation type="unfinished">&amp;ძირითადი პანელი</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="373"/>
+        <location filename="../skingui/skingui.cpp" line="387"/>
         <source>Edit main &amp;toolbar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="375"/>
+        <location filename="../skingui/skingui.cpp" line="389"/>
         <source>Edit &amp;floating control</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="404"/>
+        <source>Playing %1</source>
+        <translation type="unfinished">ვუკრავ %1-ს</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="405"/>
+        <source>Pause</source>
+        <translation type="unfinished">პაუზა</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="406"/>
+        <source>Stop</source>
+        <translation type="unfinished">შეჩერება</translation>
     </message>
 </context>
 <context>

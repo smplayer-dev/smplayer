@@ -6562,6 +6562,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Edit &amp;floating control</source>
         <translation>Uredi &amp;lebdeći panel</translation>
     </message>
+    <message>
+        <source>Playing %1</source>
+        <translation type="unfinished">Puštam %1</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation type="unfinished">Pauza</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation type="unfinished">Stop</translation>
+    </message>
 </context>
 <context>
     <name>SubChooserDialog</name>

@@ -8207,7 +8207,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="+366"/>
+        <location filename="../skingui/skingui.cpp" line="+380"/>
         <source>&amp;Toolbars</source>
         <translation type="unfinished">Barre s&amp;trumenti</translation>
     </message>
@@ -8225,6 +8225,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location line="+2"/>
         <source>Edit &amp;floating control</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Playing %1</source>
+        <translation type="unfinished">In riproduzione %1</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pause</source>
+        <translation type="unfinished">Pausa</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Stop</source>
+        <translation type="unfinished">Stop</translation>
     </message>
 </context>
 <context>
