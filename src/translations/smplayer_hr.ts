@@ -1,4 +1,6 @@
-<!DOCTYPE TS><TS>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1307,7 +1309,7 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>&amp;Donate</source>
-        <translation>&amp;Novčani prilog</translation>
+        <translation type="obsolete">&amp;Novčani prilog</translation>
     </message>
     <message>
         <source>&amp;Closed captions</source>
@@ -1315,19 +1317,19 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>Donate</source>
-        <translation>Novčani prilog</translation>
+        <translation type="obsolete">Novčani prilog</translation>
     </message>
     <message>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation>Ako Vam se SMPlayer sviđa, dobar način da ga podržite je putem novčanog priloga. Jako smo zahvalni i za najmanji iznos.</translation>
+        <translation type="obsolete">Ako Vam se SMPlayer sviđa, dobar način da ga podržite je putem novčanog priloga. Jako smo zahvalni i za najmanji iznos.</translation>
     </message>
     <message>
         <source>You can send your donation using %1.</source>
-        <translation>Možete poslati vaš prilog putem %1.</translation>
+        <translation type="obsolete">Možete poslati vaš prilog putem %1.</translation>
     </message>
     <message>
         <source>this form</source>
-        <translation>ovog obrasca</translation>
+        <translation type="obsolete">ovog obrasca</translation>
     </message>
     <message>
         <source>&amp;Disc</source>
@@ -1423,6 +1425,10 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     <message>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 Surround {7.1 ?}</translation>
+    </message>
+    <message>
+        <source>&amp;Open configuration folder</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2115,10 +2121,12 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Error fixing the subtitle lines</source>
         <translation>Pogreška pri popravljanju linija titlova</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n subtitle(s) extracted</source>
-        <translation>%n titlova otpakirano
+        <translation type="unfinished">
+            <numerusform>%n titlova otpakirano
         
+        </numerusform>
         </translation>
     </message>
 </context>
@@ -3093,7 +3101,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
@@ -3181,7 +3189,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <source>Volapük</source>
         <translation>Volapük</translation>
     </message>
@@ -6476,18 +6484,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n second(s)</source>
-        <translation>%n sekundi      
+        <translation type="unfinished">
+            <numerusform>%n sekundi      
         
         
+        </numerusform>
         </translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation>%n minuta       
+        <translation type="unfinished">
+            <numerusform>%n minuta       
         
         
+        </numerusform>
         </translation>
     </message>
 </context>

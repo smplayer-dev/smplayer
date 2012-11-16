@@ -739,6 +739,11 @@ Do you want to overwrite?</source>
         <translation>Б&amp;раузер YouTube</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1560"/>
+        <source>&amp;Open configuration folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1562"/>
         <source>About &amp;SMPlayer</source>
         <translation>О&amp;б SMPlayer</translation>
@@ -967,12 +972,12 @@ Do you want to overwrite?</source>
         <translation>Для использования нового GUI необходим перезапуск SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4691"/>
+        <location filename="../basegui.cpp" line="4686"/>
         <source>An error happened - SMPlayer</source>
         <translation>Произошла ошибка - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4691"/>
+        <location filename="../basegui.cpp" line="4686"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>Браузер YouTube не может быть запущен</translation>
     </message>
@@ -1053,22 +1058,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3718"/>
+        <location filename="../basegui.cpp" line="3713"/>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4192"/>
+        <location filename="../basegui.cpp" line="4187"/>
         <source>Playing %1</source>
         <translation>Воспроизводится %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4188"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4194"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1360,32 +1365,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сброс видеоэквалайзера</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4590"/>
+        <location filename="../basegui.cpp" line="4585"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Неожиданное завершение MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4591"/>
+        <location filename="../basegui.cpp" line="4586"/>
         <source>Exit code: %1</source>
         <translation>Код ошибки: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4610"/>
+        <location filename="../basegui.cpp" line="4605"/>
         <source>MPlayer failed to start.</source>
         <translation>Ошибка запуска MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4606"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Проверьте путь к MPlayer в настройках.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4613"/>
+        <location filename="../basegui.cpp" line="4608"/>
         <source>MPlayer has crashed.</source>
         <translation>Сбой MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4614"/>
+        <location filename="../basegui.cpp" line="4609"/>
         <source>See the log for more info.</source>
         <translation>Смотрите отчёт для подробной информации.</translation>
     </message>
@@ -1512,22 +1517,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Дорожка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4012"/>
+        <location filename="../basegui.cpp" line="4007"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Предупреждение: Используется старая версия MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4013"/>
+        <location filename="../basegui.cpp" line="4008"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Установленная в вашей системе версия MPlayer (%1) устарела. SMPlayer не может работать с ней достаточно хорошо: некоторые опции не будут работать, выбор субтитров может вызывать ошибку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4018"/>
+        <location filename="../basegui.cpp" line="4013"/>
         <source>Please, update your MPlayer.</source>
         <translation>Пожалуйста, обновите ваш MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4020"/>
+        <location filename="../basegui.cpp" line="4015"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Это предупреждение больше не будет показано)</translation>
     </message>
@@ -1622,32 +1627,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ус&amp;тановить задержку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3723"/>
+        <location filename="../basegui.cpp" line="3718"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Перейти к:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer – Перемотка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3734"/>
+        <location filename="../basegui.cpp" line="3729"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer – задержка аудио</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3735"/>
+        <location filename="../basegui.cpp" line="3730"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Задержка аудио (в миллисекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3744"/>
+        <location filename="../basegui.cpp" line="3739"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer – задержка субтитров</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3745"/>
+        <location filename="../basegui.cpp" line="3740"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Задержка субтитров (в миллисекундах):</translation>
     </message>
@@ -1657,7 +1662,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сменить режим &quot;Всегда наверху&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4314"/>
+        <location filename="../basegui.cpp" line="4309"/>
         <source>Jump to %1</source>
         <translation>Перейти к %1</translation>
     </message>
@@ -1758,29 +1763,24 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Переключить режим удаления &quot;гребёнки&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;Donate</source>
-        <translation>По&amp;жертвовать</translation>
+        <translation type="obsolete">По&amp;жертвовать</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3704"/>
         <source>Donate</source>
-        <translation>Пожертвовать</translation>
+        <translation type="obsolete">Пожертвовать</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3705"/>
         <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation>Если вам нравится SMPlayer, хороший способ поддержать его - сделать пожертвование, даже небольшой вклад высоко ценится.</translation>
+        <translation type="obsolete">Если вам нравится SMPlayer, хороший способ поддержать его - сделать пожертвование, даже небольшой вклад высоко ценится.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
         <source>You can send your donation using %1.</source>
-        <translation>Вы можете отправить ваше пожертвование, используя %1.</translation>
+        <translation type="obsolete">Вы можете отправить ваше пожертвование, используя %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
         <source>this form</source>
-        <translation>эту форму</translation>
+        <translation type="obsolete">эту форму</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
@@ -2658,12 +2658,12 @@ Please check the permissions of that folder.</source>
 <context>
     <name>FontCacheDialog</name>
     <message>
-        <location filename="../fontcache.cpp" line="26"/>
+        <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
         <translation>Инициализация SMPlayer</translation>
     </message>
     <message>
-        <location filename="../fontcache.cpp" line="27"/>
+        <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
         <translation>Создание кэша шрифтов...</translation>
     </message>
@@ -4134,12 +4134,12 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="117"/>
+        <location filename="../skingui/mediapanel.cpp" line="199"/>
         <source>Shuffle playlist</source>
         <translation>Перемешать список</translation>
     </message>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="118"/>
+        <location filename="../skingui/mediapanel.cpp" line="200"/>
         <source>Repeat playlist</source>
         <translation>Повторять список</translation>
     </message>
@@ -4200,37 +4200,37 @@ Do you want to overwrite?</source>
 <context>
     <name>PlayControl</name>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="164"/>
+        <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
         <translation>Перемотка назад</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="165"/>
+        <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
         <translation>Перемотка вперёд</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="166"/>
+        <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
         <translation>Воспроизведение / Пауза</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="167"/>
+        <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="168"/>
+        <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
         <translation>Запись</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="169"/>
+        <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
         <translation>Следующий файл списка</translation>
     </message>
     <message>
-        <location filename="../skingui/playcontrol.cpp" line="170"/>
+        <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
         <translation>Предыдущий элемент списка</translation>
     </message>
@@ -8787,17 +8787,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeControlPanel</name>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="102"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="131"/>
         <source>Playlist</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="103"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Fullscreen on/off</source>
         <translation>Полный экран вкл/выкл</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="104"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Video equalizer</source>
         <translation>Видеоэквалайзер</translation>
     </message>
