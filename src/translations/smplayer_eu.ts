@@ -2568,12 +2568,12 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer abiarazten ari da</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hizki katxea sortzen...</translation>
     </message>
 </context>
 <context>
