@@ -86,6 +86,7 @@ void PanelSeeker::setKnobIcon( QPixmap pix )
     knobPix.setPixmap(pix.copy(0, h/4, w, h/4 ), MyIcon::MouseOver, MyIcon::Off);
     knobPix.setPixmap(pix.copy(0, h/2, w, h/4 ), MyIcon::MouseDown, MyIcon::Off);
     knobPix.setPixmap(pix.copy(0, 3*h/4, w, h/4 ), MyIcon::Disabled, MyIcon::Off);
+    knobCurrentPix = knobPix.pixmap(MyIcon::Normal, MyIcon::Off);
     setSliderValue(minimum());
     setState(Normal, true);
 }
