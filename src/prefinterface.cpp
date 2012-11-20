@@ -89,6 +89,12 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 			iconset_combo->addItem( iconsets[n] );
 		}
 	}
+	#ifdef SKINS
+	if (skin_combo->itemText(0) == "Black") {
+		skin_combo->removeItem(0);
+		skin_combo->addItem("Black");
+	}
+	#endif
 
 #ifdef SINGLE_INSTANCE
 	connect(single_instance_check, SIGNAL(toggled(bool)), 
