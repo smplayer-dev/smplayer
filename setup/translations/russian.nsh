@@ -16,6 +16,10 @@ ${LangFileString} Win64_Required "Для установки данного ПО 
 ${LangFileString} Existing_32bitInst "Существует 32-битная установка SMPlayer. Сначала далите 32-битный SMPlayer."
 ${LangFileString} Existing_64bitInst "Существует 64-битная установка SMPlayer. Сначала далите 64-битный SMPlayer."
 
+; Welcome page
+${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Ярлыки"
 ${LangFileString} MPlayerGroupTitle "Компоненты MPlayer"
@@ -67,12 +71,6 @@ ${LangFileString} Type_Downgrade "откатить"
 ${LangFileString} Type_Upgrade "обновить"
 
 ${LangFileString} StartBtn "Старт"
-
-; MPlayer Section
-${LangFileString} MPlayer_DL_Msg "Загрузка MPlayer..."
-${LangFileString} MPlayer_DL_Retry "Не удалось успешно установить MPlayer. Попытаться ещё раз?"
-${LangFileString} MPlayer_DL_Failed "Не удалось загрузить MPlayer: '$R0'."
-${LangFileString} MPlayer_Inst_Failed "Ошибка при установке MPlayer. MPlayer требуется для воспроизведения."
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Загрузка бинарных кодеков для MPlayer..."

@@ -16,6 +16,10 @@ ${LangFileString} Win64_Required "このソフトウェアをインストール�
 ${LangFileString} Existing_32bitInst "32 ビットの SMPlayer が既にインストールされています。先に 32 ビットの SMPlayer をアンインストールする必要があります。"
 ${LangFileString} Existing_64bitInst "64 ビットの SMPlayer が既にインストールされています。先に 64 ビットの SMPlayer をアンインストールする必要があります。"
 
+; Welcome page
+${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "ショートカット"
 ${LangFileString} MPlayerGroupTitle "MPlayer コンポーネント"
@@ -67,12 +71,6 @@ ${LangFileString} Type_Downgrade "ダウングレード"
 ${LangFileString} Type_Upgrade "アップグレード"
 
 ${LangFileString} StartBtn "開始"
-
-; MPlayer Section
-${LangFileString} MPlayer_DL_Msg "MPlayer をダウンロードしています..."
-${LangFileString} MPlayer_DL_Retry "MPlayer は正常にインストールされませんでした。再試行しますか?"
-${LangFileString} MPlayer_DL_Failed "MPlayer のダウンロードに失敗しました: '$R0'。"
-${LangFileString} MPlayer_Inst_Failed "MPlayer のインストールに失敗しました。MPlayer は再生に必要です。"
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "MPlayer コーデックをダウンロードしています..."

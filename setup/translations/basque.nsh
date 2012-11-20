@@ -16,6 +16,10 @@ ${LangFileString} Win64_Required "64-biteko Windows sistema eragile bat behar da
 ${LangFileString} Existing_32bitInst "32-biteko SMPlayer ezarpen bat dago. Lehenik 32-biteko SMPlayer kendu behar duzu."
 ${LangFileString} Existing_64bitInst "64-biteko SMPlayer ezarpen bat dago. Lehenik 64-biteko SMPlayer kendu behar duzu."
 
+; Welcome page
+${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Lasterbideak"
 ${LangFileString} MPlayerGroupTitle "MPlayer Osagaiak"
@@ -67,12 +71,6 @@ ${LangFileString} Type_Downgrade "aurrekoratu"
 ${LangFileString} Type_Upgrade "eguneratu"
 
 ${LangFileString} StartBtn "Hasi"
-
-; MPlayer Section
-${LangFileString} MPlayer_DL_Msg "MPlayer jeisten..."
-${LangFileString} MPlayer_DL_Retry "MPlayer ez da ongi ezarri. Berriro saiatu?"
-${LangFileString} MPlayer_DL_Failed "Hutsegitea MPlayer: '$R0'. jeisterakoan"
-${LangFileString} MPlayer_Inst_Failed "Hutsegitea MPlayer ezartzerakoan. MPlayer beharrezkoa da irakurketarako"
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "MPlayer kodekak jeisten..."

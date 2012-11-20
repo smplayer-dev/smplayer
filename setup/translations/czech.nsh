@@ -16,6 +16,10 @@ ${LangFileString} Win64_Required "Pro instalaci tohoto software je zapotřebí m
 ${LangFileString} Existing_32bitInst "Máte nainstalovánu 32-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 32-bitový SMPlayer."
 ${LangFileString} Existing_64bitInst "Máte nainstalovánu 64-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 64-bitový SMPlayer."
 
+; Welcome page
+${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Zástupci"
 ${LangFileString} MPlayerGroupTitle "Součásti MPlayeru"
@@ -67,12 +71,6 @@ ${LangFileString} Type_Downgrade "downgrade"
 ${LangFileString} Type_Upgrade "upgrade"
 
 ${LangFileString} StartBtn "Start"
-
-; MPlayer Section
-${LangFileString} MPlayer_DL_Msg "Stahuji MPlayer..."
-${LangFileString} MPlayer_DL_Retry "MPlayer se nepovedlo nainstalovat. Zkusit znovu?"
-${LangFileString} MPlayer_DL_Failed "Nepovedlo se stáhnout MPlayer: '$R0'."
-${LangFileString} MPlayer_Inst_Failed "Nepovedlo se nainstalovat MPlayer. MPlayer je potřebný pro přehrávání."
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Instaluji kodeky MPlayeru..."
