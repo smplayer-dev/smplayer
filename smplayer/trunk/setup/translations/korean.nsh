@@ -16,6 +16,10 @@ ${LangFileString} Win64_Required "A 64-bit Windows operating system is required 
 ${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
 ${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
 
+; Welcome page
+${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Shortcuts"
 ${LangFileString} MPlayerGroupTitle "MPlayer Components"
@@ -67,12 +71,6 @@ ${LangFileString} Type_Downgrade "downgrade"
 ${LangFileString} Type_Upgrade "upgrade"
 
 ${LangFileString} StartBtn "Start"
-
-; MPlayer Section
-${LangFileString} MPlayer_DL_Msg "Downloading MPlayer..."
-${LangFileString} MPlayer_DL_Retry "MPlayer was not successfully installed. Retry?"
-${LangFileString} MPlayer_DL_Failed "Failed to download MPlayer: '$R0'."
-${LangFileString} MPlayer_Inst_Failed "Failed to install MPlayer. MPlayer is required for playback."
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Downloading MPlayer codecs..."

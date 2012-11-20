@@ -16,6 +16,10 @@ ${LangFileString} Win64_Required "安装本软件需要 64 位 Windows 操作系
 ${LangFileString} Existing_32bitInst "一个 SMPlayer 的 32 位安装已经存在。您必须先卸载 32 位 SMPlayer。"
 ${LangFileString} Existing_64bitInst "一个 SMPlayer 的 64 位安装已经存在。您必须先卸载 64 位 SMPlayer。"
 
+; Welcome page
+${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "快捷方式"
 ${LangFileString} MPlayerGroupTitle "MPlayer 组件"
@@ -67,12 +71,6 @@ ${LangFileString} Type_Downgrade "降级"
 ${LangFileString} Type_Upgrade "升级"
 
 ${LangFileString} StartBtn "开始"
-
-; MPlayer Section
-${LangFileString} MPlayer_DL_Msg "正在下载 MPlayer..."
-${LangFileString} MPlayer_DL_Retry "MPlayer 没有成功安装。是否重试?"
-${LangFileString} MPlayer_DL_Failed "无法下载 MPlayer: '$R0'。"
-${LangFileString} MPlayer_Inst_Failed "无法安装 MPlayer。要播放媒体文件必须安装 MPlayer。"
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "正在下载 MPlayer 编解码器..."

@@ -16,6 +16,10 @@ ${LangFileString} Win64_Required "Se necesita un Windows de 64 bits para instala
 ${LangFileString} Existing_32bitInst "Existe una versión de 32 bits instalada. Debes desinstalarla primero."
 ${LangFileString} Existing_64bitInst "Existe una versión de 64 bits instalada. Debes desinstalarla primero."
 
+; Welcome page
+${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Accesos"
 ${LangFileString} MPlayerGroupTitle "Componentes de MPlayer"
@@ -67,12 +71,6 @@ ${LangFileString} Type_Downgrade "desactualizar"
 ${LangFileString} Type_Upgrade "actualizar"
 
 ${LangFileString} StartBtn "Comenzar"
-
-; MPlayer Section
-${LangFileString} MPlayer_DL_Msg "Descargando el MPlayer..."
-${LangFileString} MPlayer_DL_Retry "El MPlayer no se ha instalado correctamente. ¿Reintentar?"
-${LangFileString} MPlayer_DL_Failed "Ha fallado la descarga del MPlayer: '$R0'."
-${LangFileString} MPlayer_Inst_Failed "Ha fallado la instalación del MPlayer. El MPlayer es imprescindible o no se podrá reproducir nada."
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Descargando los códecs del MPlayer..."
