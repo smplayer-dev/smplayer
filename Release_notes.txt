@@ -1,3 +1,14 @@
+Version 0.8.2.
+
+ * A skinnable interface has been added. Several skins are included.
+ * Support for 6.1 and 7.1 audio output.
+ * A "Privacy" section in the preferences dialog has been added. You can
+   disable saving the recent files or URLs.
+ * The main window can be moved by dragging the video area.
+ * Fix for a freeze that may happen on Windows XP.
+ * (Windows) The font cache is created before showing the GUI.
+
+
 Version 0.8.1.
 
  * Fix youtube.
