@@ -11,14 +11,14 @@ ${LangFileString} Installer_Is_Running "La instalación ya se está ejecutando."
 ${LangFileString} Installer_No_Admin "Debes tener permisos de administrador para instalar este programa."
 ${LangFileString} SMPlayer_Is_Running "SMPlayer se está ejecutando. Por favor, ciérralo e inténtalo de nuevo."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported "Sistema operativo no soportado.$\nSMPlayer ${SMPLAYER_VERSION} requiere al menos Windows XP y podría no funcionar correctamente en este sistema.$\n¿Realmente quieres continuar con la instalación?"
 ${LangFileString} Win64_Required "Se necesita un Windows de 64 bits para instalar este programa."
 ${LangFileString} Existing_32bitInst "Existe una versión de 32 bits instalada. Debes desinstalarla primero."
 ${LangFileString} Existing_64bitInst "Existe una versión de 64 bits instalada. Debes desinstalarla primero."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "Instalación de $(^NameDA)"
+${LangFileString} WelcomePage_Text "A continuación se procederá a la instalación de $(^NameDA).$\r$\n$\r$\nSe recomienda cerrar todos los procesos de SMPlayer antes de comenzar con la instalación. De esta manera será posible actualizar los ficheros del programa sin tener que reiniciar el ordenador.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Accesos"
@@ -86,7 +86,7 @@ ${LangFileString} VerInfo_DL_Failed "Ha fallado la descarga de la información d
 ${LangFileString} Uninstaller_No_Admin "Este programa sólo se puede desinstalar por un usuario con permisos de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalación cancelada por el usuario."
 ${LangFileString} Uninstaller_NotInstalled "No parece que el SMPlayer esté instalado en el directorio '$INSTDIR'.$\r$\n¿Continuar de todos modos (no recomendado)?"
-${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
+${LangFileString} Uninstaller_64bitOnly "Esta instalación sólo se puede desinstalar en Windows de 64 bits."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer pretende ser un interfaz completo para MPlayer, con opciones para cosas básicas, como reproducir vídeos, DVDs y VCDs hasta opciones más avanzadas como soporte para los filtros del MPlayer y mucho más."
