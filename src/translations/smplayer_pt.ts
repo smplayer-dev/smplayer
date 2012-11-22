@@ -1079,7 +1079,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir pasta de c&amp;onfigurações</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1581"/>
@@ -1629,7 +1629,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="3719"/>
         <source>SMPlayer - Seek</source>
-        <translation>SMPlayer - Procurar</translation>
+        <translation>SMPlayer - Procura</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3729"/>
@@ -1700,17 +1700,17 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1615"/>
         <source>Volume + &amp;Seek</source>
-        <translation>Volume + &amp;Procurar</translation>
+        <translation>Volume + &amp;Procura</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1616"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation>Volume + Procurar + &amp;Relógio</translation>
+        <translation>Volume + Procura + &amp;Relógio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1617"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation>Volume + Procurar + Relógio + Temp&amp;o total</translation>
+        <translation>Volume + Procura + Relógio + Temp&amp;o total</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1343"/>
@@ -6310,7 +6310,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="681"/>
         <source>Seeking</source>
-        <translation>Procurar</translation>
+        <translation>Procura</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="77"/>
@@ -8271,17 +8271,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Playing %1</source>
-        <translation type="unfinished">A reproduzir %1</translation>
+        <translation>A reproduzir %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Pause</source>
-        <translation type="unfinished">Pausa</translation>
+        <translation>Pausa</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="406"/>
         <source>Stop</source>
-        <translation type="unfinished">Parar</translation>
+        <translation>Parar</translation>
     </message>
 </context>
 <context>
