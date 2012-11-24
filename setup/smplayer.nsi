@@ -181,7 +181,7 @@
 
   #License
   !define MUI_PAGE_CUSTOMFUNCTION_PRE PageLicensePre
-  !insertmacro MUI_PAGE_LICENSE "${SMPLAYER_BUILD_DIR}\Copying.txt"
+  !insertmacro MUI_PAGE_LICENSE "license.txt"
 
   #Upgrade/Reinstall
   Page custom PageReinstall PageReinstallLeave
