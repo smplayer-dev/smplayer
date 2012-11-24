@@ -106,12 +106,28 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		tr("Many other people contributed with patches. See the Changelog for details.")
 	);
 
+#ifdef YOUTUBE_SUPPORT
+	youtube->setHtml(
+		tr("Founded in February 2005, YouTube&trade; is the world's most popular online "
+           "video community, allowing millions of people to discover, watch and share "
+           "originally-created videos. YouTube&trade; provides a forum for people to "
+           "connect, inform, and inspire others across the globe and acts as a "
+           "distribution platform for original content creators and advertisers large and small.<br><br>"
+           "By using SMPlayer you hereby agree to be bound by Google Terms of Services located "
+           "at ") + link("http://www.google.com/accounts/TOS", "http://www.google.com/accounts/TOS") + "." 
+	);
+	youtube->setOpenExternalLinks(true);
+#else
+	tab_widget->removeTab(4);
+#endif
+
 	// Copy the background color ("window") of the tab widget to the "base" color of the qtextbrowsers
 	// Problem, it doesn't work with some styles, so first we change the "window" color of the tab widgets.
 	info_tab->setAutoFillBackground(true);
 	contributions_tab->setAutoFillBackground(true);
 	translations_tab->setAutoFillBackground(true);
 	license_tab->setAutoFillBackground(true);
+	youtube_tab->setAutoFillBackground(true);
 
 	QPalette pal = info_tab->palette();
 	pal.setColor(QPalette::Window, palette().color(QPalette::Window) );
@@ -120,6 +136,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	contributions_tab->setPalette(pal);
 	translations_tab->setPalette(pal);
 	license_tab->setPalette(pal);
+	youtube_tab->setPalette(pal);
 
 	QPalette p = info->palette();
 	//p.setBrush(QPalette::Base, info_tab->palette().window());
@@ -129,6 +146,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	contributions->setPalette(p);
 	translators->setPalette(p);
 	license->setPalette(p);
+	youtube->setPalette(p);
 
 	adjustSize();
 }
