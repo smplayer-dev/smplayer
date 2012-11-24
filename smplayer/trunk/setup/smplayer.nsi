@@ -419,7 +419,7 @@ SectionGroup $(MPlayerGroupTitle)
 
     done:
 
-	SectionEnd
+  SectionEnd
 
 SectionGroupEnd
 
@@ -454,6 +454,7 @@ Section -Post
 
   ;Allows user to use 'start smplayer.exe'
   WriteRegStr HKLM "${SMPLAYER_APP_PATHS_KEY}" "" "$INSTDIR\smplayer.exe"
+  WriteRegStr HKLM "${SMPLAYER_APP_PATHS_KEY}" "Path" "$INSTDIR"
 
   ;Default Programs Registration (Vista & later)
   ${If} ${AtLeastWinVista}
@@ -634,7 +635,7 @@ Function .onInit
   ${Unless} ${AtLeastWinXP}
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
     Abort
-	installonoldwindows:
+  installonoldwindows:
   ${EndIf}
 
 !ifdef WIN64

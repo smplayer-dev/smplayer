@@ -364,18 +364,18 @@ SectionGroup $(MPlayerGroupTitle)
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
 
-	SectionEnd
+  SectionEnd
 
-	${MementoUnselectedSection} FFmpeg SecFFmpeg
+  ${MementoUnselectedSection} FFmpeg SecFFmpeg
 
-		SetOutPath "$INSTDIR\FFmpeg"
+    SetOutPath "$INSTDIR\FFmpeg"
 !ifdef WIN64
-		File /r /x ffplay.exe "extras\ffmpeg\64\*.*"
+    File /r /x ffplay.exe "extras\ffmpeg\64\*.*"
 !else
-		File /r /x ffplay.exe "extras\ffmpeg\32\*.*"
+    File /r /x ffplay.exe "extras\ffmpeg\32\*.*"
 !endif
 
-	${MementoSectionEnd}
+  ${MementoSectionEnd}
 
 SectionGroupEnd
 
@@ -410,6 +410,7 @@ Section -Post
 
   ;Allows user to use 'start smplayer.exe'
   WriteRegStr HKLM "${SMPLAYER_APP_PATHS_KEY}" "" "$INSTDIR\smplayer.exe"
+  WriteRegStr HKLM "${SMPLAYER_APP_PATHS_KEY}" "Path" "$INSTDIR"
 
   ;Default Programs Registration (Vista & later)
   ${If} ${AtLeastWinVista}
@@ -591,7 +592,7 @@ Function .onInit
   ${Unless} ${AtLeastWinXP}
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
     Abort
-	installonoldwindows:
+  installonoldwindows:
   ${EndIf}
 
 !ifdef WIN64
