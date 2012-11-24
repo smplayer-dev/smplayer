@@ -1486,7 +1486,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poida facer.</trans
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abrir o cartafol de configuración </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1700"/>
@@ -2639,12 +2639,12 @@ Por favor verifique os permisos dese cartafol.</translation>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciando SMPlayer…</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gardando os tipos de letra na caché…</translation>
     </message>
 </context>
 <context>
@@ -8253,17 +8253,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Playing %1</source>
-        <translation type="unfinished">Reproducindo %1</translation>
+        <translation>Reproducindo %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Pause</source>
-        <translation type="unfinished">Pausar</translation>
+        <translation>Pausar</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="406"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Deter</translation>
     </message>
 </context>
 <context>
