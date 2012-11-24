@@ -23,11 +23,11 @@ FILETYPE            VFT_APP
       VALUE "InternalName", "smplayer\0"
       VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\0"
       VALUE "OriginalFilename", "smplayer.exe\0"
-			#if defined( _WIN64 )
+      #if defined( _WIN64 )
       VALUE "ProductName", "SMPlayer for Windows (64-bit)\0"
-			#elif defined( _WIN32 )
+      #elif defined( _WIN32 )
       VALUE "ProductName", "SMPlayer for Windows (32-bit)\0"
-			#endif
+      #endif
       VALUE "ProductVersion", SMPLAYER_PRODVERSION
     }
   }
