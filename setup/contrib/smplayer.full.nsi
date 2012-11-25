@@ -171,8 +171,7 @@
   !insertmacro MUI_PAGE_WELCOME
 
   #License
-  !define MUI_PAGE_CUSTOMFUNCTION_PRE PageLicensePre
-  !insertmacro MUI_PAGE_LICENSE "${SMPLAYER_BUILD_DIR}\Copying.txt"
+  !insertmacro MUI_PAGE_LICENSE "license.txt"
 
   #Upgrade/Reinstall
   Page custom PageReinstall PageReinstallLeave
@@ -804,14 +803,6 @@ Function PageReinstallUpdate
 
     ${NSD_SetText} $Reinstall_Message $(Reinstall_Msg3_3)
 
-  ${EndIf}
-
-FunctionEnd
-
-Function PageLicensePre
-
-  ${If} $Reinstall_Uninstall == 1
-    Abort
   ${EndIf}
 
 FunctionEnd
