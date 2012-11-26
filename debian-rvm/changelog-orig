@@ -1,3 +1,9 @@
+smplayer (0.8.2.1) precise; urgency=low
+
+  * Add info about youtube in the about dialog.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 26 Nov 2012 10:57:08 +0100
+
 smplayer (0.8.2) precise; urgency=low
 
   * New release
