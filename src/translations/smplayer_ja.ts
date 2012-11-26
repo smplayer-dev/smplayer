@@ -320,17 +320,17 @@
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
+        <translation>2005 年 2 月に創設された YouTube&amp;trade; は、世界で最も人気のあるオンライン動画コミュニティとして、何百万人ものユーザーにオリジナル動画を発見、視聴、共有する場を提供しています。YouTube&amp;trade; はまた、世界中の人々が交流し、情報を交換し、刺激し合うためのフォーラムとしても、オリジナル コンテンツ クリエーターや大小の広告主が情報を配信するためのプラットフォームとしても機能しています。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>このアプリケーションを使用することによって、あなたは %1 にある Google 利用規約の制約を受けることに同意するものとします。</translation>
     </message>
     <message>
         <location filename="../about.ui" line="257"/>
         <source>&amp;Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube(&amp;Y)</translation>
     </message>
 </context>
 <context>
