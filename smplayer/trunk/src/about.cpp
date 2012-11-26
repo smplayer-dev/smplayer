@@ -112,9 +112,10 @@ About::About(QWidget * parent, Qt::WindowFlags f)
            "video community, allowing millions of people to discover, watch and share "
            "originally-created videos. YouTube&trade; provides a forum for people to "
            "connect, inform, and inspire others across the globe and acts as a "
-           "distribution platform for original content creators and advertisers large and small.<br><br>"
-           "By using SMPlayer you hereby agree to be bound by Google Terms of Services located "
-           "at ") + link("http://www.google.com/accounts/TOS", "http://www.google.com/accounts/TOS") + "." 
+           "distribution platform for original content creators and advertisers large and small.") +
+           "<br><br>" +
+           tr("By using this application you hereby agree to be bound by Google Terms of Services located "
+           "at %1.").arg(link("http://www.google.com/accounts/TOS", "http://www.google.com/accounts/TOS"))
 	);
 	youtube->setOpenExternalLinks(true);
 #else
