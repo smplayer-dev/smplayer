@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="ru">
+<!DOCTYPE TS>
+<TS version="2.0" language="ru">
 <context>
     <name>About</name>
     <message>
@@ -320,17 +321,17 @@
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Будучи основанным в 2005,YouTube&amp;trade; является популярнейшим сервисом онлайн видео, позволяющим миллионам людей находить, смотреть и расшаривать созданные ими видео. YouTube&amp;trade; предоставляет собой форум для подключения, информирования и воодушевления людей по всему миру и выступает в качестве распределённой платформы для оригинального контента создателей и рекламодателей, больших и малых.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Используя это приложения, вы тем самым соглашаетесь с Условиями использования Google, находящимися на %1.</translation>
     </message>
     <message>
         <location filename="../about.ui" line="257"/>
         <source>&amp;Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -757,7 +758,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть каталог &amp;настроек</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1562"/>
@@ -3877,7 +3878,7 @@ Please check the permissions of that folder.</source>
         <source>Marshallese</source>
         <translation>Маршалльский</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Букмол</translation>
@@ -3987,7 +3988,7 @@ Please check the permissions of that folder.</source>
         <source>Venda</source>
         <translation>Венда</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Волапюк</translation>
@@ -8169,17 +8170,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Playing %1</source>
-        <translation type="unfinished">Воспроизводится %1</translation>
+        <translation>Воспроизводится %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Pause</source>
-        <translation type="unfinished">Пауза</translation>
+        <translation>Пауза</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="406"/>
         <source>Stop</source>
-        <translation type="unfinished">Стоп</translation>
+        <translation>Стоп</translation>
     </message>
 </context>
 <context>
