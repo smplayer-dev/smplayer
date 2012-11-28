@@ -47,18 +47,10 @@ Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f )
 	setFocusPolicy( Qt::NoFocus );
 	setMinimumSize( QSize(0,0) );
 
-#if NEW_MOUSE_CHECK_POS
 	mouse_last_position = QPoint(0,0);
-#else
-	cursor_pos = QPoint(0,0);
-	last_cursor_pos = QPoint(0,0);
-#endif
 
 	check_mouse_timer = new QTimer(this);
 	connect( check_mouse_timer, SIGNAL(timeout()), this, SLOT(checkMousePos()) );
-#if !NEW_MOUSE_CHECK_POS
-	check_mouse_timer->start(2000);
-#endif
 
 	// Change attributes
 	setAttribute(Qt::WA_NoSystemBackground);
@@ -68,10 +60,8 @@ Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f )
 	setAttribute(Qt::WA_PaintUnclipped);
 	//setAttribute(Qt::WA_PaintOutsidePaintEvent);
 
-#if NEW_MOUSE_CHECK_POS
 	setAutoHideInterval(1000);
 	setAutoHideCursor(false);
-#endif
 }
 
 Screen::~Screen() {
@@ -84,7 +74,6 @@ void Screen::paintEvent( QPaintEvent * e ) {
 	//painter.fillRect( e->rect(), QColor(255,0,0) );
 }
 
-#if NEW_MOUSE_CHECK_POS
 void Screen::setAutoHideCursor(bool b) {
 	qDebug("Screen::setAutoHideCursor: %d", b);
 
@@ -116,45 +105,22 @@ void Screen::checkMousePos() {
 	}
 	mouse_last_position = pos;
 }
-#else
-void Screen::checkMousePos() {
-	//qDebug("Screen::checkMousePos");
-	
-	if ( cursor_pos == last_cursor_pos ) {
-		//qDebug(" same pos");
-		if (cursor().shape() != Qt::BlankCursor) {
-			//qDebug(" hiding mouse cursor");
-			setCursor(QCursor(Qt::BlankCursor));
-		}
-	} else {
-		last_cursor_pos = cursor_pos;
-	}
-}
 
 void Screen::mouseMoveEvent( QMouseEvent * e ) {
-	//qDebug("Screen::mouseMoveEvent");
-	//qDebug(" pos: x: %d y: %d", e->pos().x(), e->pos().y() );
-	cursor_pos = e->pos();
-
 	if (cursor().shape() != Qt::ArrowCursor) {
 		//qDebug(" showing mouse cursor" );
 		setCursor(QCursor(Qt::ArrowCursor));
 	}
 }
-#endif
 
 void Screen::playingStarted() {
-#if NEW_MOUSE_CHECK_POS
 	qDebug("Screen::playingStarted");
 	setAutoHideCursor(true);
-#endif
 }
 
 void Screen::playingStopped() {
-#if NEW_MOUSE_CHECK_POS
 	qDebug("Screen::playingStopped");
 	setAutoHideCursor(false);
-#endif
 }
 
 /* ---------------------------------------------------------------------- */
