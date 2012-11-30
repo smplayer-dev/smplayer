@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1" language="pt_PT">
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_PT">
 <context>
     <name>About</name>
     <message>
@@ -320,17 +321,17 @@
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Criado em fevereiro de 2005, o YouTube&amp;trade; é a comunidade mais influente da web e que permite a milhões de pessoas a descoberta, visualização e partilha de vídeos. O YouTube&amp;trade; disponibiliza um fórum para a comunicação entre essas pessoas e atua como uma plataforma de distribuição de conteúdos e anúncios.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se utilizar esta aplicação, está desde já obrigado(a) a ceitar os termos dos serviços Google disponíveis no %1.</translation>
     </message>
     <message>
         <location filename="../about.ui" line="257"/>
         <source>&amp;Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -3875,7 +3876,7 @@ Verifique as permissões da pasta.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
@@ -3985,7 +3986,7 @@ Verifique as permissões da pasta.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
