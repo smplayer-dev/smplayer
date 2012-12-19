@@ -6686,7 +6686,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Allow frame drop</source>
-        <translation>Onartu frame baztertzea</translation>
+        <translation>Ahalbidetu frame baztertzea</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
@@ -6696,7 +6696,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>Allow hard frame drop</source>
-        <translation>Onartu frame baztertze gogorra</translation>
+        <translation>Ahalbidetu frame baztertze gogorra</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="292"/>
@@ -6711,12 +6711,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.ui" line="157"/>
         <source>&amp;Allow frame drop</source>
-        <translation>&amp;Onartu frame baztertzea</translation>
+        <translation>&amp;Ahalbidetu frame baztertzea</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="164"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>Onartu &amp;frame baztertze handia (irudi distortsioa sor dezake)</translation>
+        <translation>Ahalbidetu &amp;frame baztertze handia (irudi distortsioa sor dezake)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="304"/>
@@ -7889,7 +7889,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
-        <translation>Berezko eig irekitzen dute.</translation>
+        <translation>Berezko eig irekitzen du.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
