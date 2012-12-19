@@ -1409,6 +1409,13 @@ void Core::startMplayer( QString file, double seek ) {
         mplayer_bin = fi.absoluteFilePath();
 	}
 
+	if (fi.baseName().toLower() == "mplayer2") {
+		if (!pref->mplayer_is_mplayer2) {
+			qDebug("Core::startMplayer: this seems mplayer2");
+			pref->mplayer_is_mplayer2 = true;
+		}
+	}
+
 	proc->addArgument( mplayer_bin );
 
 	proc->addArgument("-noquiet");
