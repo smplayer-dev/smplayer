@@ -62,24 +62,11 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
     QStringList::iterator stIt = codeList.begin();
     foreach(QString code, codeList)
     {
-		//qDebug("code: '%s'", code.toLatin1().constData());
+		qDebug("RetrieveYoutubeUrl::parse: code: '%s'", code.toLatin1().constData());
 
-		/*
-        QUrl url(code);
-        int itag = url.queryItemValue("itag").toInt();
-		QString u = url.queryItemValue("url");
-		qDebug("url: '%s'", u.toLatin1().constData());
-
-        //qDebug("itag: %d", itag);
-        code.remove(QRegExp("itag=(\\d+)&url="));
-        code.replace("&sig=", "&signature=");
-        urlMap[itag] = code;
-        //qDebug("code: '%s'", code.toUtf8().constData());
-		*/
-
-		int p = code.indexOf("&url=");
+		int p = code.indexOf("url=");
 		if (p > -1) {
-			QString u = code.mid(p+5);
+			QString u = code.mid(p+4);
 			QString l = code.left(p);
 			p = l.indexOf("sig=");
 			if (p > -1) {
@@ -114,9 +101,6 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
     }
 
 	qDebug("RetrieveYoutubeUrl::parse: url count: %d", urlMap.count());
-	if (urlMap.count() == 0) {
-		qDebug("html: %s", text.constData());
-	}
 
 	QString p_url = findPreferredUrl();
 	if (!p_url.isNull()) {
