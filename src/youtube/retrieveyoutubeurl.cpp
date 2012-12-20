@@ -62,16 +62,61 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
     QStringList::iterator stIt = codeList.begin();
     foreach(QString code, codeList)
     {
+		//qDebug("code: '%s'", code.toLatin1().constData());
+
+		/*
         QUrl url(code);
         int itag = url.queryItemValue("itag").toInt();
+		QString u = url.queryItemValue("url");
+		qDebug("url: '%s'", u.toLatin1().constData());
+
         //qDebug("itag: %d", itag);
         code.remove(QRegExp("itag=(\\d+)&url="));
         code.replace("&sig=", "&signature=");
         urlMap[itag] = code;
         //qDebug("code: '%s'", code.toUtf8().constData());
+		*/
+
+		int p = code.indexOf("&url=");
+		if (p > -1) {
+			QString u = code.mid(p+5);
+			QString l = code.left(p);
+			p = l.indexOf("sig=");
+			if (p > -1) {
+				QString sig = l.mid(p+4);
+				p = sig.indexOf("&");
+				if (p > -1) sig = sig.left(p);
+				qDebug("RetrieveYoutubeUrl::parse: sig: %s", sig.toLatin1().constData());
+				u += "&sig=" + sig;
+				
+			}
+			qDebug("RetrieveYoutubeUrl::parse: url: '%s'", u.toLatin1().constData());
+			qDebug("RetrieveYoutubeUrl::parse: l: '%s'", l.toLatin1().constData());
+			QUrl url(u);
+			int itag = url.queryItemValue("itag").toInt();
+			qDebug("RetrieveYoutubeUrl::parse: itag: %d", itag);
+			u.replace("&sig=", "&signature=");
+			//qDebug("url: '%s'", u.toLatin1().constData());
+			QRegExp rx("&itag=(\\d+)");
+			p = u.indexOf(rx);
+			qDebug("RetrieveYoutubeUrl::parse: p: %d", p);
+			if (p > -1) {
+				p = u.indexOf(rx, p+1);
+				if (p > -1) {
+					QString s = "&itag=" + rx.cap(1);
+					qDebug("RetrieveYoutubeUrl::parse: **** itag: %s", s.toLatin1().constData());
+					u.replace(p, s.length(), "");
+				}
+			}
+			qDebug("RetrieveYoutubeUrl::parse: u: '%s'", u.toLatin1().constData());
+			urlMap[itag] = u;
+		}
     }
 
 	qDebug("RetrieveYoutubeUrl::parse: url count: %d", urlMap.count());
+	if (urlMap.count() == 0) {
+		qDebug("html: %s", text.constData());
+	}
 
 	QString p_url = findPreferredUrl();
 	if (!p_url.isNull()) {
