@@ -62,6 +62,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
     QStringList::iterator stIt = codeList.begin();
     foreach(QString code, codeList)
     {
+		// (2012-12-20) Youtube Fix by RVM for SMPlayer (http://smplayer.sourceforge.net)
 		qDebug("RetrieveYoutubeUrl::parse: code: '%s'", code.toLatin1().constData());
 
 		int p = code.indexOf("url=");
