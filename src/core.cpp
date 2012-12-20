@@ -1724,8 +1724,10 @@ void Core::startMplayer( QString file, double seek ) {
 		if (pref->freetype_support) {
 			proc->addArgument("-subfont-autoscale");
 			proc->addArgument("0");
-			proc->addArgument("-subfont-osd-scale");
-			proc->addArgument(QString::number(pref->ass_styles.fontsize));
+			if (!pref->mplayer_is_mplayer2) { // Prevent huge OSD in mplayer2
+				proc->addArgument("-subfont-osd-scale");
+				proc->addArgument(QString::number(pref->ass_styles.fontsize));
+			}
 			proc->addArgument("-subfont-text-scale"); // Old versions (like 1.0rc2) need this
 			proc->addArgument(QString::number(pref->ass_styles.fontsize));
 		}
