@@ -1,9 +1,13 @@
 [b]Version 0.8.3[/b]:
 
+(2012-12-20)
+ * Fix for youtube playback.
+
 (2012-11-28)
  * Show the mouse cursor immediately when the mouse is moved on the video
    area.
  * Help -> FAQ opens http://smplayer.sourceforge.net/faq.php
+
 
 [b]Version 0.8.2[/b]:
 
