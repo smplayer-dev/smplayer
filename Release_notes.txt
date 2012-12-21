@@ -1,3 +1,8 @@
+Version 0.8.3.
+
+ * Fix for youtube playback.
+
+
 Version 0.8.2.
 
  * A skinnable interface has been added. Several skins are included.
