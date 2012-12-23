@@ -171,7 +171,7 @@ void MplayerLayer::playingStopped() {
 /* ---------------------------------------------------------------------- */
 
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f) 
-	: Screen(parent, f) , allow_video_movement(false)
+	: Screen(parent, f), allow_video_movement(false), moving_window(false)
 {
 	offset_x = 0;
 	offset_y = 0;
@@ -368,7 +368,15 @@ void MplayerWindow::updateVideoWindow()
 
 
 void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
-    qDebug( "MplayerWindow::mouseReleaseEvent" );
+	qDebug( "MplayerWindow::mouseReleaseEvent" );
+
+	//qDebug( "MplayerWindow::mouseReleaseEvent: moving_window: %d", moving_window );
+
+	// Ignore mouse events if the window is been moved
+	if (moving_window) {
+		e->accept();
+		return;
+	}
 
 	if (e->button() == Qt::LeftButton) {
 		e->accept();
@@ -438,6 +446,10 @@ bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
 				emit mouseMovedDiff( mouse_event->globalPos() - mouse_press_pos);
 				mouse_press_pos = mouse_event->globalPos();
 				/* qDebug("MplayerWindow::eventFilter: mouse_press_pos: x: %d y: %d", mouse_press_pos.x(), mouse_press_pos.y()); */
+				moving_window = true;
+			}
+			else {
+				moving_window = false;
 			}
 		}
 	}
@@ -446,6 +458,8 @@ bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
 		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
 		mouse_press_pos = mouse_event->globalPos();
 	}
+
+	//qDebug("moving_window: %d", moving_window);
 
 	return false;
 }
