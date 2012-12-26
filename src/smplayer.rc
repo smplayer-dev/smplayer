@@ -1,7 +1,11 @@
 #include <winver.h>
 
+#if HAVE_SVN_REVISION_H
+#include "svn_revision.h"
+#endif
+
 #define SMPLAYER_FILEVERSION 0,8,3,0
-#define SMPLAYER_PRODVERSION "0.8.3.0\0"
+#define SMPLAYER_PRODVERSION "0.8.3.0"
 
 VS_VERSION_INFO     VERSIONINFO
 FILEVERSION         SMPLAYER_FILEVERSION
@@ -19,7 +23,7 @@ FILETYPE            VFT_APP
       #else
       VALUE "FileDescription", "SMPlayer\0"
       #endif
-      VALUE "FileVersion", SMPLAYER_PRODVERSION
+      VALUE "FileVersion", SMPLAYER_PRODVERSION "\0"
       VALUE "InternalName", "smplayer\0"
       VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\0"
       VALUE "OriginalFilename", "smplayer.exe\0"
@@ -28,7 +32,11 @@ FILETYPE            VFT_APP
       #elif defined( _WIN32 )
       VALUE "ProductName", "SMPlayer for Windows (32-bit)\0"
       #endif
-      VALUE "ProductVersion", SMPLAYER_PRODVERSION
+      #if HAVE_SVN_REVISION_H
+      VALUE "ProductVersion", SMPLAYER_PRODVERSION "+" SVN_REVISION "\0"
+      #else
+      VALUE "ProductVersion", SMPLAYER_PRODVERSION "\0"
+      #endif
     }
   }
   BLOCK "VarFileInfo"
