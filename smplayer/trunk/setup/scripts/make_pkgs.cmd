@@ -135,26 +135,6 @@ echo.
 mkdir %SMPLAYER_PORTABLE_DIR%\screenshots
 
 echo.
-echo ######     Create smplayer.ini     #######
-echo.
-
-echo [%%General]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-
-echo.
-echo ######  Create smplayer_orig.ini   #######
-echo.
-
-echo [%%General]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-
-echo.
 echo ######    Create mplayer config    #######
 echo.
 
