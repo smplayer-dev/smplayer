@@ -350,7 +350,7 @@ SectionGroup $(MPlayerGroupTitle)
     SectionIn RO
 
     SetOutPath "$INSTDIR\mplayer"
-    File /r "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
+    File /r /x mencoder.exe "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
