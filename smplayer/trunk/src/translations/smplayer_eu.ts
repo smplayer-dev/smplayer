@@ -516,7 +516,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="../basegui.cpp" line="1628"/>
         <source>&amp;Help</source>
-        <translation>La&amp;guntza</translation>
+        <translation>&amp;Laguntza</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1386"/>
@@ -607,7 +607,7 @@ Gainidatzi nahi duzu?</translation>
         <location filename="../basegui.cpp" line="1536"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation>E&amp;tenda</translation>
+        <translation>&amp;Etenda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1660"/>
@@ -677,7 +677,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="../basegui.cpp" line="1488"/>
         <source>De&amp;ring</source>
-        <translation>E&amp;zeraztundu</translation>
+        <translation>&amp;Ezeraztundu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
@@ -1024,7 +1024,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1489"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation>Bandak txikitu (&amp;gradfun)</translation>
+        <translation>Bandak t&amp;xikitu (gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1546"/>
@@ -1275,7 +1275,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1492"/>
         <source>Soft&amp;ware scaling</source>
-        <translation>Soft&amp;ware eskalatzea</translation>
+        <translation>&amp;Software eskalatzea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
@@ -1285,7 +1285,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1558"/>
         <source>&amp;Command line options</source>
-        <translation>Agindu lerroko au&amp;kerak</translation>
+        <translation>&amp;Agindu lerroko aukerak</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3692"/>
@@ -1350,7 +1350,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation>I&amp;tzulikatu 90 gradu &amp;ordulari norabidean</translation>
+        <translation>I&amp;tzulikatu 90 gradu ordulari norabidean</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1736"/>
@@ -1743,7 +1743,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>Check for &amp;updates</source>
-        <translation>Egiaztatu &amp;Eguneraketak</translation>
+        <translation>&amp;Egiaztatu Eguneraketak</translation>
     </message>
 </context>
 <context>
@@ -2498,7 +2498,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
-        <translation>Hiz&amp;kuntza:</translation>
+        <translation>&amp;Hizkuntza:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
@@ -4321,17 +4321,17 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="327"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Aukerak:</translation>
+        <translation>A&amp;ukerak:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="387"/>
         <source>V&amp;ideo filters:</source>
-        <translation>B&amp;ideo iragazkiak:</translation>
+        <translation>&amp;Bideo iragazkiak:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="446"/>
         <source>Audio &amp;filters:</source>
-        <translation>Audio ira&amp;gazkiak:</translation>
+        <translation>Au&amp;dio iragazkiak:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="220"/>
@@ -4351,7 +4351,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="604"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Ohartu &amp;SMPlayer irteera</translation>
+        <translation>Ohart&amp;u SMPlayer irteera</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="675"/>
@@ -4361,7 +4361,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="243"/>
         <source>C&amp;hange...</source>
-        <translation>A&amp;ldatu...</translation>
+        <translation>Aldatu&amp;...</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
@@ -4371,7 +4371,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="539"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>Ohartu MPlayer &amp;irteera</translation>
+        <translation>Ohartu M&amp;Player irteera</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="292"/>
@@ -4656,7 +4656,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="268"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation>Erakutsi eti&amp;keta argibideak leihoaren izenburuan</translation>
+        <translation>Erak&amp;utsi etiketa argibideak leihoaren izenburuan</translation>
     </message>
 </context>
 <context>
@@ -4965,7 +4965,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="329"/>
         <source>&amp;Quality:</source>
-        <translation>&amp;Ontasuna:</translation>
+        <translation>O&amp;ntasuna:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="503"/>
@@ -4980,7 +4980,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="779"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>Erabili s&amp;oftware bidezko bolumen agintea</translation>
+        <translation>Erabili soft&amp;ware bidezko bolumen agintea</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="802"/>
@@ -5135,7 +5135,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1165"/>
         <source>Audi&amp;o:</source>
-        <translation>Audi&amp;oa:</translation>
+        <translation>Au&amp;dioa:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1119"/>
@@ -5167,7 +5167,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>Abiadura handiko &amp;irakurketa doinua aldatu gabe</translation>
+        <translation>Ab&amp;iadura handiko irakurketa doinua aldatu gabe</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1028"/>
@@ -5277,7 +5277,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.ui" line="626"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>&amp;Gaitu audio ekualizagailua</translation>
+        <translation>Gaitu audio e&amp;kualizagailua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="948"/>
@@ -5382,7 +5382,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
-        <translation>&amp;Irteera gidagailua:</translation>
+        <translation>Irte&amp;era gidagailua:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
@@ -5482,7 +5482,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation>G&amp;aitu ikusleiho-argazkiak</translation>
+        <translation>Gaitu iku&amp;sleiho-argazkiak</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
@@ -6173,7 +6173,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="581"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>&amp;SMPlayerren ekite eskabide bakarra erabili </translation>
+        <translation>S&amp;MPlayerren ekite eskabide bakarra erabili </translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="756"/>
@@ -6248,12 +6248,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="807"/>
         <source>&amp;Max. items</source>
-        <translation>&amp;Geh. gai</translation>
+        <translation>Geh. g&amp;ai</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="846"/>
         <source>&amp;Remember last directory</source>
-        <translation>&amp;Gogoratu azken zuzenbidea</translation>
+        <translation>Gogoratu azken &amp;zuzenbidea</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="574"/>
@@ -6543,7 +6543,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="675"/>
         <source>&amp;Margin:</source>
-        <translation>&amp;Bazterra:</translation>
+        <translation>Bazter&amp;ra:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="710"/>
@@ -6583,7 +6583,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="535"/>
         <source>&amp;Relative seeking</source>
-        <translation>Bilaketa &amp;erlatiboa</translation>
+        <translation>Bilaketa e&amp;rlatiboa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
@@ -6618,7 +6618,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="558"/>
         <source>&amp;Precise seeking</source>
-        <translation>&amp;Bilaketa zehatza</translation>
+        <translation>Bilaketa &amp;zehatza</translation>
     </message>
 </context>
 <context>
@@ -6721,7 +6721,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.ui" line="304"/>
         <source>&amp;Fast audio track switching</source>
-        <translation>Audio bide aldaketa az&amp;karra</translation>
+        <translation>A&amp;udio bide aldaketa azkarra</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="332"/>
@@ -6926,7 +6926,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.ui" line="591"/>
         <source>Cache for &amp;TV:</source>
-        <translation>&amp;TB-rako katxea:</translation>
+        <translation>T&amp;B-rako katxea:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
@@ -7272,7 +7272,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.ui" line="126"/>
         <source>Encoding</source>
-        <translation>Kodeatzen</translation>
+        <translation>Kodeaketa</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="198"/>
@@ -7585,7 +7585,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.ui" line="280"/>
         <source>&amp;Font and colors</source>
-        <translation>&amp;Hizkiak eta margoak</translation>
+        <translation>Hizkiak eta &amp;margoak</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="286"/>
@@ -8562,7 +8562,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="290"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation>Gogoratu aurreikuspena &amp;gordetzeko erabilitako agiritegia</translation>
+        <translation>&amp;Gogoratu aurreikuspena gordetzeko erabilitako agiritegia</translation>
     </message>
 </context>
 <context>
