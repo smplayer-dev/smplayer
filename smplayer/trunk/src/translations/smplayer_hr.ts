@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="1.1">
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -8,27 +9,27 @@
         <translation>Verzija: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="159"/>
         <source>The following people have contributed with translations:</source>
         <translation>Slijedeće osobe su dale doprinos prijevodima:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="162"/>
         <source>German</source>
         <translation>Njemački</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Slovak</source>
         <translation>Slovački</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Italian</source>
         <translation>Talijanski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="167"/>
         <source>French</source>
         <translation>Francuski</translation>
     </message>
@@ -37,12 +38,12 @@
         <translation type="obsolete">%1, %2 i %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Simplified-Chinese</source>
         <translation>Pojednostavljeni kineski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Russian</source>
         <translation>Ruski</translation>
     </message>
@@ -51,88 +52,88 @@
         <translation type="obsolete">%1 i %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
+        <location filename="../about.cpp" line="175"/>
         <source>Hungarian</source>
         <translation>Mađarski
 </translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
+        <location filename="../about.cpp" line="178"/>
         <source>Polish</source>
         <translation>Poljski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="182"/>
         <source>Japanese</source>
         <translation>Japanski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Dutch</source>
         <translation>Nizozemski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Ukrainian</source>
         <translation>Ukrajinski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
+        <location filename="../about.cpp" line="190"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugalski - Brazil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="191"/>
         <source>Georgian</source>
         <translation>Gruzijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
+        <location filename="../about.cpp" line="192"/>
         <source>Czech</source>
         <translation>Češki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="195"/>
         <source>Bulgarian</source>
         <translation>Bugarski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="196"/>
         <source>Turkish</source>
         <translation>Turski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
+        <location filename="../about.cpp" line="197"/>
         <source>Swedish</source>
         <translation>Švedski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
+        <location filename="../about.cpp" line="198"/>
         <source>Serbian</source>
         <translation>Srpski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
+        <location filename="../about.cpp" line="199"/>
         <source>Traditional Chinese</source>
         <translation>Tradicionalni kineski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="200"/>
         <source>Romanian</source>
         <translation>Rumunjski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="202"/>
+        <location filename="../about.cpp" line="201"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugalski - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="205"/>
+        <location filename="../about.cpp" line="204"/>
         <source>Greek</source>
         <translation>Grčki</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="206"/>
+        <location filename="../about.cpp" line="205"/>
         <source>Finnish</source>
         <translation>Finski</translation>
     </message>
@@ -141,7 +142,7 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="247"/>
+        <location filename="../about.cpp" line="246"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -156,6 +157,9 @@
         <translation>&amp;Info</translation>
     </message>
     <message>
+        <location filename="../about.ui" line="53"/>
+        <location filename="../about.ui" line="109"/>
+        <location filename="../about.ui" line="165"/>
         <location filename="../about.ui" line="221"/>
         <source>icon</source>
         <translation>ikona</translation>
@@ -176,27 +180,25 @@
         <translation>&amp;Licenca</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="65"/>
         <source>Visit our web for updates:</source>
-        <translation>Posjetite našu web stranicu za novije verzije:</translation>
+        <translation type="obsolete">Posjetite našu web stranicu za novije verzije:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="68"/>
         <source>Get help in our forum:</source>
-        <translation>Potražite pomoć na našem forumu:</translation>
+        <translation type="obsolete">Potražite pomoć na našem forumu:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="207"/>
+        <location filename="../about.cpp" line="206"/>
         <source>Korean</source>
         <translation>Korejski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="208"/>
+        <location filename="../about.cpp" line="207"/>
         <source>Macedonian</source>
         <translation>Makedonski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="209"/>
+        <location filename="../about.cpp" line="208"/>
         <source>Basque</source>
         <translation>Baskijski</translation>
     </message>
@@ -206,7 +208,7 @@
         <translation>Korištenje Mplayera %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="212"/>
+        <location filename="../about.cpp" line="211"/>
         <source>Catalan</source>
         <translation>Katalonski</translation>
     </message>
@@ -221,27 +223,27 @@
         <translation>Korištenje Qt %1 (kompajlirano sa Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="213"/>
+        <location filename="../about.cpp" line="212"/>
         <source>Slovenian</source>
         <translation>Slovenski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="214"/>
+        <location filename="../about.cpp" line="213"/>
         <source>Arabic</source>
         <translation>Arapski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="215"/>
+        <location filename="../about.cpp" line="214"/>
         <source>Kurdish</source>
         <translation>Kurdski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="216"/>
+        <location filename="../about.cpp" line="215"/>
         <source>Galician</source>
         <translation>Galicijski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
+        <location filename="../about.cpp" line="103"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer logo %1</translation>
     </message>
@@ -254,27 +256,27 @@
         <translation type="obsolete">%1, %2, %3, %4 i %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="217"/>
+        <location filename="../about.cpp" line="216"/>
         <source>Vietnamese</source>
         <translation>Vijetnamski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="218"/>
+        <location filename="../about.cpp" line="217"/>
         <source>Estonian</source>
         <translation>Estonski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="219"/>
+        <location filename="../about.cpp" line="218"/>
         <source>Lithuanian</source>
         <translation>Litavski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="222"/>
+        <location filename="../about.cpp" line="221"/>
         <source>Danish</source>
         <translation>Danski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="223"/>
+        <location filename="../about.cpp" line="222"/>
         <source>Croatian</source>
         <translation>Hrvatski</translation>
     </message>
@@ -284,42 +286,57 @@
         <translation>Korištenje MPlayer2 %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="71"/>
+        <location filename="../about.cpp" line="65"/>
+        <source>Links:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="66"/>
+        <source>Official website:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="67"/>
+        <source>Support forum:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="69"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
         <translation>SMPlayer koristi nagrađivani MPlayer kao engine. Pogledaj %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="85"/>
+        <location filename="../about.cpp" line="84"/>
         <source>Read the entire license</source>
         <translation>Pročitajte čitavu licencu</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="92"/>
         <source>Read a translation</source>
         <translation>Pročitajte prijevod</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="104"/>
         <source>Packages for Windows created by %1</source>
         <translation>Pakete za Windowse napravio je %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="107"/>
+        <location filename="../about.cpp" line="105"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Mnoge druge osobe su doprinijele svojim dodacima i popravcima. Pogledaj Changelog za detalje.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Spanish</source>
         <translation>Španjolski</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="110"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="118"/>
+        <location filename="../about.cpp" line="116"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -357,6 +374,7 @@
         <translation>&amp;Učitaj</translation>
     </message>
     <message>
+        <location filename="../actionseditor.cpp" line="430"/>
         <location filename="../actionseditor.cpp" line="480"/>
         <source>Key files</source>
         <translation>Ključne datoteke</translation>
@@ -372,7 +390,7 @@
         <translation>Potvrditi zamjenu postojeće datoteke?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="441"/>
+        <location filename="../actionseditor.cpp" line="440"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Datoteka %1 već postoji. Želite li je zamijeniti novom?</translation>
@@ -383,6 +401,7 @@ Do you want to overwrite?</source>
         <translation>Izaberite datoteku</translation>
     </message>
     <message>
+        <location filename="../actionseditor.cpp" line="452"/>
         <location filename="../actionseditor.cpp" line="486"/>
         <source>Error</source>
         <translation>Pogreška</translation>
@@ -491,7 +510,7 @@ Do you want to overwrite?</source>
         <translation>Informacije</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="112"/>
+        <location filename="../audioequalizer.cpp" line="111"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Trenutne vrijednosti su spremljene i bit će upotrebljene kao početne.</translation>
     </message>
@@ -662,6 +681,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Omjer slike</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1718"/>
         <location filename="../basegui.cpp" line="2962"/>
         <source>&amp;None</source>
         <translation>&amp;Nikakvo</translation>
@@ -742,6 +762,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Filteri</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1762"/>
         <location filename="../basegui.cpp" line="1768"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Stereo</translation>
@@ -882,6 +903,12 @@ Do you want to overwrite?</source>
         <translation>O programu &amp;SMPlayer</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="2976"/>
+        <location filename="../basegui.cpp" line="2992"/>
+        <location filename="../basegui.cpp" line="3008"/>
+        <location filename="../basegui.cpp" line="3023"/>
+        <location filename="../basegui.cpp" line="3055"/>
+        <location filename="../basegui.cpp" line="3075"/>
         <location filename="../basegui.cpp" line="3115"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;prazno&gt;</translation>
@@ -892,6 +919,7 @@ Do you want to overwrite?</source>
         <translation>Video</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="3486"/>
         <location filename="../basegui.cpp" line="3676"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
@@ -902,11 +930,15 @@ Do you want to overwrite?</source>
         <translation>Playliste</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="3488"/>
+        <location filename="../basegui.cpp" line="3656"/>
         <location filename="../basegui.cpp" line="3677"/>
         <source>All files</source>
         <translation>Sve datoteke</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="3483"/>
+        <location filename="../basegui.cpp" line="3653"/>
         <location filename="../basegui.cpp" line="3674"/>
         <source>Choose a file</source>
         <translation>Izaberite datoteku</translation>
@@ -917,7 +949,7 @@ Do you want to overwrite?</source>
         <translation>SMPlayer - Informacije</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3538"/>
+        <location filename="../basegui.cpp" line="3536"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD pogoni nisu još podešeni.
@@ -934,22 +966,22 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>Titlovi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3713"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4187"/>
+        <location filename="../basegui.cpp" line="4193"/>
         <source>Playing %1</source>
         <translation>Puštam %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4188"/>
+        <location filename="../basegui.cpp" line="4194"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4189"/>
+        <location filename="../basegui.cpp" line="4195"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -964,6 +996,7 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>Pauza / Frame step</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1505"/>
         <location filename="../basegui.cpp" line="1514"/>
         <source>U&amp;nload</source>
         <translation>Po&amp;ništi učitavanje</translation>
@@ -1029,11 +1062,15 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>&amp;Slijedeća linija u titlovima</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1836"/>
+        <location filename="../basegui.cpp" line="1837"/>
         <location filename="../basegui.cpp" line="1838"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1840"/>
+        <location filename="../basegui.cpp" line="1841"/>
         <location filename="../basegui.cpp" line="1842"/>
         <source>+%1</source>
         <translation>+%1</translation>
@@ -1221,7 +1258,7 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>&amp;Opcije komandne linije</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3692"/>
+        <location filename="../basegui.cpp" line="3698"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer opcije komandne linije</translation>
     </message>
@@ -1236,32 +1273,32 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>Resetiraj video ekvilajzer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4585"/>
+        <location filename="../basegui.cpp" line="4591"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer je neočekivano završio s radom.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4586"/>
+        <location filename="../basegui.cpp" line="4592"/>
         <source>Exit code: %1</source>
         <translation>Exit code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4605"/>
+        <location filename="../basegui.cpp" line="4611"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer se nije mogao pokrenuti.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4606"/>
+        <location filename="../basegui.cpp" line="4612"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Molim pregledajte da li je put do MPlayera ispravan u opcijama. </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4608"/>
+        <location filename="../basegui.cpp" line="4614"/>
         <source>MPlayer has crashed.</source>
         <translation>Mplayer se srušio.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4609"/>
+        <location filename="../basegui.cpp" line="4615"/>
         <source>See the log for more info.</source>
         <translation>Pogledajte log za više informacija.</translation>
     </message>
@@ -1388,22 +1425,22 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>&amp;Traka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4007"/>
+        <location filename="../basegui.cpp" line="4013"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Pozor - upotrebljavam stari MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4011"/>
+        <location filename="../basegui.cpp" line="4014"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Postojeća instalirana verzija MPlayera (%1) je zastarjela. SMPlayer loše radi s njom: neke opcije neće raditi kao npr. odabir titlova...  </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4014"/>
+        <location filename="../basegui.cpp" line="4019"/>
         <source>Please, update your MPlayer.</source>
         <translation>Molim Vas da instalirate noviju verziju MPlayera.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4015"/>
+        <location filename="../basegui.cpp" line="4021"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Ovo upozorenje se više neće prikazivati)</translation>
     </message>
@@ -1498,32 +1535,32 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>Postavi kašn&amp;jenje...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3718"/>
+        <location filename="../basegui.cpp" line="3724"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Skoči na:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3719"/>
+        <location filename="../basegui.cpp" line="3725"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Traži</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3729"/>
+        <location filename="../basegui.cpp" line="3735"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Kašnjenje zvuka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3730"/>
+        <location filename="../basegui.cpp" line="3736"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Kašnjenje zvuka (u milisekundama):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3739"/>
+        <location filename="../basegui.cpp" line="3745"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Kašnjenje titlova</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3740"/>
+        <location filename="../basegui.cpp" line="3746"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Kašnjenje titlova (u milisekundama):</translation>
     </message>
@@ -1533,7 +1570,7 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>Uključi &quot;ostani na vrhu&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4309"/>
+        <location filename="../basegui.cpp" line="4315"/>
         <source>Jump to %1</source>
         <translation>Skoči na %1</translation>
     </message>
@@ -1679,12 +1716,12 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>&amp;YouTube preglednik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4686"/>
+        <location filename="../basegui.cpp" line="4692"/>
         <source>An error happened - SMPlayer</source>
         <translation>Došlo je do pogreške - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4686"/>
+        <location filename="../basegui.cpp" line="4692"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>Pokretanje YouTube preglednika nije uspjelo</translation>
     </message>
@@ -1817,97 +1854,98 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2741"/>
+        <location filename="../core.cpp" line="2750"/>
         <source>Brightness: %1</source>
         <translation>Svjetlina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2756"/>
+        <location filename="../core.cpp" line="2765"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2770"/>
+        <location filename="../core.cpp" line="2779"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2784"/>
+        <location filename="../core.cpp" line="2793"/>
         <source>Hue: %1</source>
         <translation>Boja: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2798"/>
+        <location filename="../core.cpp" line="2807"/>
         <source>Saturation: %1</source>
         <translation>Zasićenje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2927"/>
+        <location filename="../core.cpp" line="2936"/>
         <source>Volume: %1</source>
         <translation>Zvuk: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3704"/>
+        <location filename="../core.cpp" line="3713"/>
         <source>Zoom: %1</source>
         <translation>Uvećanje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3055"/>
+        <location filename="../core.cpp" line="3052"/>
+        <location filename="../core.cpp" line="3064"/>
         <source>Font scale: %1</source>
         <translation>Uvećanje fonta: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3575"/>
+        <location filename="../core.cpp" line="3584"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3947"/>
+        <location filename="../core.cpp" line="3956"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Ažuriram font cache. Ovo može potrajati neko vrijeme...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2969"/>
+        <location filename="../core.cpp" line="2978"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Kašnjenje titlova: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2986"/>
+        <location filename="../core.cpp" line="2995"/>
         <source>Audio delay: %1 ms</source>
         <translation>Kašnjenje zvuka: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2852"/>
+        <location filename="../core.cpp" line="2861"/>
         <source>Speed: %1</source>
         <translation>Brzina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3098"/>
+        <location filename="../core.cpp" line="3107"/>
         <source>Subtitles on</source>
         <translation>Titlovi uključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3100"/>
+        <location filename="../core.cpp" line="3109"/>
         <source>Subtitles off</source>
         <translation>Titlovi isključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3622"/>
+        <location filename="../core.cpp" line="3631"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kotačić miša premotava</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3625"/>
+        <location filename="../core.cpp" line="3634"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kotačić miša mijenja jačinu zvuka</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3628"/>
+        <location filename="../core.cpp" line="3637"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kotačić miša mijenja nivo uvećanja</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3631"/>
+        <location filename="../core.cpp" line="3640"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kotačić miša mijenja brzinu</translation>
     </message>
@@ -1922,17 +1960,17 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>Screenshotovi NISU snimljeni, folder nije podešen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2476"/>
+        <location filename="../core.cpp" line="2485"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; marker postavljen na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2493"/>
+        <location filename="../core.cpp" line="2502"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; marker postavljen na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2508"/>
+        <location filename="../core.cpp" line="2517"/>
         <source>A-B markers cleared</source>
         <translation>A-B markeri obrisani</translation>
     </message>
@@ -2053,6 +2091,7 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
+        <location filename="../errordialog.cpp" line="57"/>
         <source>Show log</source>
         <translation>Prikaži log</translation>
     </message>
@@ -2096,11 +2135,14 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
+        <location filename="../favoriteeditor.cpp" line="109"/>
+        <location filename="../favoriteeditor.cpp" line="168"/>
+        <location filename="../favoriteeditor.cpp" line="268"/>
         <source>Favorite list</source>
         <translation>Lista omiljenih stavki</translation>
     </message>
     <message>
-        <location filename="../favoriteeditor.cpp" line="111"/>
+        <location filename="../favoriteeditor.cpp" line="110"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
         <translation>Možete urediti, sortirati ili dodati nove stavke. Dvostruki klik na okvirić za uređivanje istog.</translation>
     </message>
@@ -2232,6 +2274,8 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <translation>&amp;Izaberi demuxer koji će se koristiti za ovu datoteku:</translation>
     </message>
     <message>
+        <location filename="../filepropertiesdialog.ui" line="105"/>
+        <location filename="../filepropertiesdialog.ui" line="167"/>
         <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
         <translation>&amp;Reset</translation>
@@ -2390,7 +2434,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Ako proxy traži autentifikaciju, ovo postavlja username.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Lozinka za proxy.&lt;b&gt;Upozorenje:&lt;/b&gt; lozinka će biti spremljena kao obični tekst u datoteci s postavkama.</translation>
     </message>
@@ -2463,7 +2507,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Naziv</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="200"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="199"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
@@ -2494,6 +2538,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>&amp;Download</source>
         <translation>&amp;Download</translation>
     </message>
@@ -2508,7 +2553,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Pogreška</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="327"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="326"/>
         <source>Download failed: %1.</source>
         <translation>Download - pogreška: %1.</translation>
     </message>
@@ -2587,7 +2632,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Pogreška pri snimanju datoteke</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="503"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="501"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2596,6 +2641,7 @@ fajl u folder %1
 Molim provjerite dozvole za taj folder.</translation>
     </message>
     <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="323"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="494"/>
         <source>Download failed</source>
         <translation>Download nije uspio</translation>
@@ -2676,6 +2722,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Demuxer</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="78"/>
+        <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Name</source>
         <translation>Naziv</translation>
@@ -2746,16 +2794,19 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Omjer slike</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="102"/>
         <location filename="../infofile.cpp" line="111"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>Bitrate</source>
         <translation>Bitrate</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
@@ -2766,6 +2817,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Frameova u sekundi</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="105"/>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
         <translation>Odabrani kodek</translation>
@@ -2796,11 +2848,15 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Zvučni streamovi</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Language</source>
         <translation>Jezik</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="131"/>
+        <location filename="../infofile.cpp" line="133"/>
+        <location filename="../infofile.cpp" line="162"/>
         <location filename="../infofile.cpp" line="164"/>
         <source>empty</source>
         <translation>prazno</translation>
@@ -2816,12 +2872,14 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Tip</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="125"/>
         <location filename="../infofile.cpp" line="150"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
         <translation>ID</translation>
     </message>
     <message>
+        <location filename="../infofile.cpp" line="123"/>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
@@ -2940,6 +2998,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Amharic</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="31"/>
+        <location filename="../languages.cpp" line="235"/>
         <location filename="../languages.cpp" line="288"/>
         <source>Arabic</source>
         <translation>Arabic</translation>
@@ -2965,6 +3025,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Bashkir</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="38"/>
         <location filename="../languages.cpp" line="236"/>
         <source>Bulgarian</source>
         <translation>Bulgarian</translation>
@@ -2995,6 +3056,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Breton</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="46"/>
         <location filename="../languages.cpp" line="237"/>
         <source>Catalan</source>
         <translation>Catalan</translation>
@@ -3005,6 +3067,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Corsican</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="50"/>
         <location filename="../languages.cpp" line="238"/>
         <source>Czech</source>
         <translation>Czech</translation>
@@ -3015,21 +3078,27 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Welsh</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="54"/>
         <location filename="../languages.cpp" line="239"/>
         <source>Danish</source>
         <translation>Danish</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="55"/>
+        <location filename="../languages.cpp" line="216"/>
         <location filename="../languages.cpp" line="240"/>
         <source>German</source>
         <translation>German</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="59"/>
         <location filename="../languages.cpp" line="241"/>
         <source>Greek</source>
         <translation>Greek</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="60"/>
+        <location filename="../languages.cpp" line="217"/>
         <location filename="../languages.cpp" line="242"/>
         <source>English</source>
         <translation>English</translation>
@@ -3040,16 +3109,20 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Esperanto</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="62"/>
+        <location filename="../languages.cpp" line="218"/>
         <location filename="../languages.cpp" line="243"/>
         <source>Spanish</source>
         <translation>Spanish</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="63"/>
         <location filename="../languages.cpp" line="244"/>
         <source>Estonian</source>
         <translation>Estonian</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="64"/>
         <location filename="../languages.cpp" line="245"/>
         <source>Basque</source>
         <translation>Basque</translation>
@@ -3060,6 +3133,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Persian</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="67"/>
+        <location filename="../languages.cpp" line="219"/>
         <location filename="../languages.cpp" line="246"/>
         <source>Finnish</source>
         <translation>Finnish</translation>
@@ -3070,6 +3145,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Faroese</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="70"/>
+        <location filename="../languages.cpp" line="220"/>
         <location filename="../languages.cpp" line="247"/>
         <source>French</source>
         <translation>French</translation>
@@ -3085,6 +3162,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Irish</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="74"/>
         <location filename="../languages.cpp" line="248"/>
         <source>Galician</source>
         <translation>Galician</translation>
@@ -3115,11 +3193,13 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Hindi</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="82"/>
         <location filename="../languages.cpp" line="249"/>
         <source>Croatian</source>
         <translation>Hrvatski</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="84"/>
         <location filename="../languages.cpp" line="250"/>
         <source>Hungarian</source>
         <translation>Hungarian</translation>
@@ -3150,6 +3230,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Icelandic</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="96"/>
+        <location filename="../languages.cpp" line="221"/>
         <location filename="../languages.cpp" line="251"/>
         <source>Italian</source>
         <translation>Italian</translation>
@@ -3160,6 +3242,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Inuktitut</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="98"/>
+        <location filename="../languages.cpp" line="222"/>
         <location filename="../languages.cpp" line="252"/>
         <source>Japanese</source>
         <translation>Japanese</translation>
@@ -3170,6 +3254,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Javanese</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="100"/>
         <location filename="../languages.cpp" line="253"/>
         <source>Georgian</source>
         <translation>Georgian</translation>
@@ -3190,6 +3275,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Kannada</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="108"/>
         <location filename="../languages.cpp" line="254"/>
         <source>Korean</source>
         <translation>Korean</translation>
@@ -3200,6 +3286,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Kashmiri</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="111"/>
         <location filename="../languages.cpp" line="255"/>
         <source>Kurdish</source>
         <translation>Kurdish</translation>
@@ -3220,6 +3307,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Lingala</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="121"/>
         <location filename="../languages.cpp" line="256"/>
         <source>Lithuanian</source>
         <translation>Lithuanian</translation>
@@ -3240,6 +3328,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Maori</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="127"/>
         <location filename="../languages.cpp" line="257"/>
         <source>Macedonian</source>
         <translation>Macedonian</translation>
@@ -3290,11 +3379,14 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Nepali</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="140"/>
+        <location filename="../languages.cpp" line="223"/>
         <location filename="../languages.cpp" line="258"/>
         <source>Dutch</source>
         <translation>Dutch</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="142"/>
         <location filename="../languages.cpp" line="224"/>
         <source>Norwegian</source>
         <translation>Norwegian</translation>
@@ -3310,11 +3402,13 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Oriya</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="153"/>
         <location filename="../languages.cpp" line="259"/>
         <source>Polish</source>
         <translation>Polish</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="155"/>
         <location filename="../languages.cpp" line="225"/>
         <source>Portuguese</source>
         <translation>Portuguese</translation>
@@ -3325,11 +3419,15 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Quechua</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="159"/>
         <location filename="../languages.cpp" line="262"/>
         <source>Romanian</source>
         <translation>Romanian</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="160"/>
+        <location filename="../languages.cpp" line="226"/>
+        <location filename="../languages.cpp" line="263"/>
         <location filename="../languages.cpp" line="294"/>
         <source>Russian</source>
         <translation>Russian</translation>
@@ -3350,11 +3448,13 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Sindhi</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="168"/>
         <location filename="../languages.cpp" line="264"/>
         <source>Slovak</source>
         <translation>Slovak</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="265"/>
         <source>Slovenian</source>
         <translation>Slovenian</translation>
@@ -3380,6 +3480,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Albanian</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="174"/>
         <location filename="../languages.cpp" line="266"/>
         <source>Serbian</source>
         <translation>Srpski</translation>
@@ -3390,6 +3491,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Sundanese</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="178"/>
+        <location filename="../languages.cpp" line="227"/>
         <location filename="../languages.cpp" line="267"/>
         <source>Swedish</source>
         <translation>Swedish</translation>
@@ -3440,6 +3543,8 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Tonga</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="189"/>
+        <location filename="../languages.cpp" line="268"/>
         <location filename="../languages.cpp" line="290"/>
         <source>Turkish</source>
         <translation>Turkish</translation>
@@ -3465,6 +3570,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Uighur</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="195"/>
         <location filename="../languages.cpp" line="269"/>
         <source>Ukrainian</source>
         <translation>Ukrainian</translation>
@@ -3480,6 +3586,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Uzbek</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="199"/>
         <location filename="../languages.cpp" line="270"/>
         <source>Vietnamese</source>
         <translation>Vietnamese</translation>
@@ -3510,6 +3617,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Zhuang</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
         <source>Chinese</source>
         <translation>Chinese</translation>
@@ -3839,12 +3947,13 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Marshallese</source>
         <translation>Marshallese</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
         <translation>Bokmål</translation>
     </message>
     <message>
+        <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
         <translation>Ndebele</translation>
@@ -3949,7 +4058,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <source>Venda</source>
         <translation>Venda</translation>
     </message>
-    <message encoding="UTF-8">
+    <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
         <translation>Volapük</translation>
@@ -3983,7 +4092,7 @@ Molim provjerite dozvole za taj folder.</translation>
         <translation>Potvrdi presnimavanje preko postojećeg?</translation>
     </message>
     <message>
-        <location filename="../logwindow.cpp" line="107"/>
+        <location filename="../logwindow.cpp" line="106"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
         <translation>Datoteka već postoji.
@@ -4013,11 +4122,13 @@ Do you want to overwrite?</source>
         <translation>Log prozor</translation>
     </message>
     <message>
+        <location filename="../logwindowbase.ui" line="57"/>
         <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
         <translation>Snimi</translation>
     </message>
     <message>
+        <location filename="../logwindowbase.ui" line="67"/>
         <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
         <translation>Kopiraj u clipboard</translation>
@@ -4088,11 +4199,15 @@ Do you want to overwrite?</source>
         <translation>Kontrolna traka</translation>
     </message>
     <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="427"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="428"/>
         <location filename="../mpcgui/mpcgui.cpp" line="429"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <source>+%1</source>
         <translation>+%1</translation>
@@ -4164,6 +4279,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Uredi</translation>
     </message>
     <message>
+        <location filename="../playlist.cpp" line="806"/>
         <location filename="../playlist.cpp" line="824"/>
         <source>Playlists</source>
         <translation>Playliste</translation>
@@ -4184,7 +4300,7 @@ Do you want to overwrite?</source>
         <translation>Potvrdi presnimavanje preko postojećeg?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="835"/>
+        <location filename="../playlist.cpp" line="834"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Datoteka %1 već postoji.
@@ -4314,6 +4430,7 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
+        <location filename="../prefadvanced.cpp" line="74"/>
         <location filename="../prefadvanced.cpp" line="404"/>
         <source>Advanced</source>
         <translation>Napredno</translation>
@@ -4374,7 +4491,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Ova opcija se koristi uglavnom za debugiranje aplikacije.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="436"/>
+        <location filename="../prefadvanced.cpp" line="435"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Izabiranje ove opcije može smanjiti treperenje, ali također može se dogoditi da video neće biti ispravno prikazan.</translation>
     </message>
@@ -4449,7 +4566,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Automatski snimi log izlaznih poruka iz Mplayera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="527"/>
+        <location filename="../prefadvanced.cpp" line="524"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>Ako je ova opcija odabrana, MPlayer log će biti snimljen u određenu datoteku svaki put kada nova datoteka počne sa izvođenjem. To je namijenjeno vanjskim aplikacijama tako da one mogu doći do informacije o datoteci koja se izvodi.</translation>
     </message>
@@ -4459,7 +4576,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Automatski snimi log izlaznih poruka iz Mplayera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
+        <location filename="../prefadvanced.cpp" line="530"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>Unesite put i ime datoteke koje će se koristiti za snimanje MPlayer loga.</translation>
     </message>
@@ -4474,7 +4591,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Proslijedi skraćena imena datoteka (8+3) MPlayeru</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="429"/>
+        <location filename="../prefadvanced.cpp" line="426"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>Trenutno MPlayer ne može otvoriti datoteke koje sadrže znakove izvan lokalne kodne stranice. Izabiranje ove opcije kaže SMPlayeru da pošalje MPlayeru skraćenu verziju imena datoteke tako da je može otvoriti.</translation>
     </message>
@@ -4499,7 +4616,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Pokreni MPlayer u svom vlastitom prozoru</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="415"/>
+        <location filename="../prefadvanced.cpp" line="410"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>Ako izaberete ovu opciju video prozor MPlayera neće biti unutar glavnog prozora SMPlayera već u odvojenom prozoru. Akcije miša i tipkovnice u tom slučaju vjerojatno neće raditi kao što je očekivano jer će o njima brigu voditi MPlayer.</translation>
     </message>
@@ -4509,7 +4626,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Kod za boju</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="471"/>
+        <location filename="../prefadvanced.cpp" line="469"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Ako vidite dijelove videa preko nekog drugog prozora, možete promijeniti kod za boju da to popravite. Pokušajte izabrati boju blisku crnoj.</translation>
     </message>
@@ -4524,7 +4641,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Postavke</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="483"/>
+        <location filename="../prefadvanced.cpp" line="482"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>Ovdje možete dodati još opcija za MPlayer. Upišite ih odvojene razmakom.
 </translation>
@@ -4535,7 +4652,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Video filteri</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="487"/>
+        <location filename="../prefadvanced.cpp" line="486"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Ovdje možete dodati video filtere za MPlayer. Upišite ih odvojene zarezom. Ne koristite razmak!</translation>
     </message>
@@ -4545,7 +4662,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Filteri zvuka</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="491"/>
+        <location filename="../prefadvanced.cpp" line="490"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>Ovdje možete dodati zvučne filtere za MPlayer. Upišite ih odvojene zarezom. Ne koristite razmak!</translation>
     </message>
@@ -4610,17 +4727,17 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Ponovo izgradi &amp;indeks ako je potrebno</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="509"/>
+        <location filename="../prefadvanced.cpp" line="505"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Ako je ova opcija izabrana, SMPlayer će spremiti debug poruke koje se pojave. (možete pregledati log u &lt;b&gt;Postavke -&gt; Pogledaj logove -&gt;SMPlayer&lt;/b&gt;). Ova informacija može biti vrlo korisna programeru u slučaju ako pronađete pogrešku u programu. </translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="521"/>
+        <location filename="../prefadvanced.cpp" line="518"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>Ako je ova opcija izabrana, SMPlayer će spremiti poruke koje se pojave u MPlayeru. (možete pregledati log u &lt;b&gt;Postavke -&gt; Pogledaj logove -&gt;MPlayer&lt;/b&gt;). Ova informacija može biti vrlo korisna programeru tako da je preporučeno ovu opciju ostaviti izabranom.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="539"/>
+        <location filename="../prefadvanced.cpp" line="536"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Ova opcija omogućuje filtriranje SMPlayer poruka koje će biti spremljene u log. Ovdje možete upisdati regularne izraze. &lt;br&gt;Npr.: &lt;i&gt;^Core::.*&lt;/i&gt; prikazuje samo linije koje počinju sa  &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
@@ -4630,7 +4747,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Ispravi pts</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="453"/>
+        <location filename="../prefadvanced.cpp" line="446"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Prebacuje SMPlayer u ekperimentalni mod gdje su vremenske oznake za video frameove drugačije izračunate i video filteri koji dodaju nove frameove ili modificiraju vrijeme postojećih frameova su podržani. Točnije vremenske oznake su primjetne recimo kod promjena scena sa omogućenom SSA/ASS bibliotekom. Bez ispravnih pts tajming titlova će se razlikovati za nekoliko frameova. Ova opcija ne radi ispravno s nekim kodecima i demuxerima. </translation>
     </message>
@@ -4640,12 +4757,12 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Popis akcija</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="461"/>
+        <location filename="../prefadvanced.cpp" line="456"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Ovdje možete odabrati listu &lt;i&gt;akcija&lt;/i&gt; koje će se pokrenuti svaki put kad je datoteka otvorena. Pronaći ćete sve dostupne akcije u uređivaču tipkovničkih prečaca u dijelu &lt;b&gt; Tipkovnica i miš&lt;/b&gt;. Akcije moraju biti odvojene razmakom. One akcije koje se uklj./isklj. mora slijediti &lt;i&gt;true&lt;/i&gt; ili &lt;i&gt;false&lt;/i&gt; da se omogući ili onemogući akcija.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="465"/>
+        <location filename="../prefadvanced.cpp" line="463"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation>Ograničenje: akcije se pokreću samo kada se datoteka otvori a ne kad se restarta proces mplayera (npr. kada se izabere audio ili video filter).</translation>
     </message>
@@ -4670,7 +4787,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Primjer:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="422"/>
+        <location filename="../prefadvanced.cpp" line="418"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>Ponovo stvara indeks datoteka ako indeks nije pronađen, omogućujući premotavanje. Korisno kod upola prekinutih downloada i neispravnih datoteka. Ova opcija radi samo ako medij dopušta pretragu (npr. ne radi sa stdin, pipeovima itd.)&lt;br&gt; &lt;b&gt;Pozor:&lt;/b&gt; Stvaranje indexa može potrajati.</translation>
     </message>
@@ -4690,7 +4807,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Snimi SMPlayer log u datoteku</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="513"/>
+        <location filename="../prefadvanced.cpp" line="512"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>Ako je ova opcija odabrana, SMPlayer log će biti snimljen u %1</translation>
     </message>
@@ -4705,7 +4822,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Prikaži informacije iz tagova u naslovu prozora</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="477"/>
+        <location filename="../prefadvanced.cpp" line="475"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
         <translation>Ako je ova opcija odabrana, informacije iz tagova će biti prikazane u naslovu prozora. Inače će biti prikazan samo naziv datoteke. </translation>
     </message>
@@ -4735,7 +4852,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Prijavi rušenje MPlayera</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="443"/>
+        <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
         <translation>Ako je ova opcija odabrana, pojavit će se informativni prozor koji objašnjava zašto se MPlayer srušio.</translation>
     </message>
@@ -4748,7 +4865,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Pozor</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="198"/>
+        <location filename="../prefassociations.cpp" line="197"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
         <translation>Ne mogu sve datoteke biti pridružene. Molim provjerite vaše sigurnosne dozvole i pokušajte ponovo.</translation>
     </message>
@@ -4798,7 +4915,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Ne izaberi nijedan</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
+        <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
         <translation>Odaberite koje nastavke datoteka želite da se učitavaju pomoću SMPlayera. Kada stisnete Primijeni, te će datoteke biti pridružene SMPlayeru. Ako ih isključite, pridruživanje će biti vraćeno u prijašnje stanje. </translation>
     </message>
@@ -4817,10 +4934,12 @@ Primjer: resample=44100:0:0,volnorm</translation>
     <name>PrefDrives</name>
     <message>
         <location filename="../prefdrives.ui" line="35"/>
+        <location filename="../prefdrives.cpp" line="68"/>
         <source>Drives</source>
         <translation>Pogoni</translation>
     </message>
     <message>
+        <location filename="../prefdrives.ui" line="86"/>
         <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
         <translation>ikona</translation>
@@ -4831,7 +4950,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>CD uređaj</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="182"/>
+        <location filename="../prefdrives.cpp" line="181"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Izaberite vaš CD uređaj. On će se koristiti za puštanje VCD i Audio CD-a.</translation>
     </message>
@@ -4866,7 +4985,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Omogući DVD menije</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="191"/>
+        <location filename="../prefdrives.cpp" line="189"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>Ako je ova opcija odabrana, SMPlayer će puštati DVD koristeći &quot;dvdnav&quot;. Zahtjeva noviju verziju MPlayera kompajliranu za podršku za dvdnav. </translation>
     </message>
@@ -4876,12 +4995,12 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>&lt;b&gt;Bilješka 1&lt;/b&gt;: cache će biti onemogućen, to može utjecati na performanse.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="194"/>
+        <location filename="../prefdrives.cpp" line="193"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;Bilješka 2&lt;/b&gt;: možda biste željeli dodijeliti opciju &quot;aktiviraj opciju u DVD menijima&quot; nekoj od tipki na mišu.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="196"/>
+        <location filename="../prefdrives.cpp" line="195"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;Bilješka 3&lt;/b&gt;: ova značajka je još u razvoju, očekujte probleme s njom.</translation>
     </message>
@@ -4899,6 +5018,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
 <context>
     <name>PrefGeneral</name>
     <message>
+        <location filename="../prefgeneral.cpp" line="87"/>
         <location filename="../prefgeneral.cpp" line="844"/>
         <source>General</source>
         <translation>Općenito</translation>
@@ -4964,7 +5084,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Driver za zvučni izlaz</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="991"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Select the audio output driver.</source>
         <translation>Odaberi driver za zvučni izlaz.</translation>
     </message>
@@ -4989,12 +5109,12 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Softverski video ekvilajzer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="936"/>
+        <location filename="../prefgeneral.cpp" line="933"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Možete odabrati ovu opciju ako video ekvilajzer nije podržan od vaše grafičke kartice ili odabranog drivera za video izlaz. &lt;br&gt;&lt;b&gt;Bilješka:&lt;/b&gt; Ova opcija možda neće raditi s nekim video driverima.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="956"/>
+        <location filename="../prefgeneral.cpp" line="955"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Ako je ova opcija odabrana, svaki video će započeti preko cijelog zaslona (fullscreen).</translation>
     </message>
@@ -5004,7 +5124,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Softverska kontrola jačine zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1039"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Odaberite ovu opciju za softverski mikser umjesto korištenja miksera na zvučnoj kartici.</translation>
     </message>
@@ -5014,7 +5134,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Kvaliteta naknadne obrade (postprocessing)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="921"/>
+        <location filename="../prefgeneral.cpp" line="919"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Dinamički mijenja nivo naknadne obrade ovisno o opterećenju glavnog procesora. Broj koji odredite će biti maksimalni koji će se koristiti. Obično možete odabrati neki veliki broj.</translation>
     </message>
@@ -5084,7 +5204,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>D&amp;vostruki buffer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="946"/>
+        <location filename="../prefgeneral.cpp" line="944"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Dvostruki buffer popravlja smetnje treperenja. Ako je isključeno može negativno utjecati na OSD, ali ponekad i uklanja treperenje OSD-a. </translation>
     </message>
@@ -5104,7 +5224,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Zatvori kad je završeno</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="884"/>
+        <location filename="../prefgeneral.cpp" line="883"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Kad je ova opcija odabrana, glavni prozor će biti automatski zatvoren kada datoteka ili playlista završi.</translation>
     </message>
@@ -5169,7 +5289,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Zadanih kanala</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Postavlja maksimalni nivo pojačanja u postocima (zadano:110). Vrijednost od 200 će vam dozvoliti da podesite glasnoću dvostruku od trenutne. Sa vrijednostima ispod 100 početna glasnoća (koja je 100) će biti iznad maksimalne tako da je OSD ne može ispravno prikazati.</translation>
     </message>
@@ -5184,7 +5304,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Audio traka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1085"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Određuje zadanu audio traku koja će se puštati dok se počinje izvoditi nova datoteka. Ako takva traka ne postoji, prva slijedeća će se koristiti.&lt;br&gt;&lt;b&gt;Pozor:&lt;/b&gt;   &lt;i&gt;&quot;Željeni jezik za audio&quot;&lt;/i&gt; ima prednost nad ovom opcijom.</translation>
     </message>
@@ -5194,7 +5314,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>Traka titlova</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1088"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Određuje zadanu traku titlova koja će se puštati dok se počinje izvoditi nova datoteka. Ako takva traka ne postoji, prva slijedeća će se koristiti.&lt;br&gt;&lt;b&gt;Pozor:&lt;/b&gt;   &lt;i&gt;&quot;Željeni jezik za titlove&quot;&lt;/i&gt; ima prednost nad ovom opcijom.</translation>
     </message>
@@ -5224,7 +5344,7 @@ Primjer: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Titlovi:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="143"/>
+        <location filename="../prefgeneral.cpp" line="136"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Ovdje možete odabrati željeni jezik za audio i titlove. Kad je pronađen medij sa višestrukim streamovima zvuka ili titlova, SMPlayer će pokušati učitati vaš željeni jezik. Ovo radi samo sa medijima koji daju takve informacije poput DVD-a ili mkv datoteka. &lt;br&gt;Ova polja privaćaju regularne izraze. Primjer: &lt;b&gt;es|esp|spa&lt;/b&gt; će odabrati traku ako je jednaka &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ili &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
@@ -5246,7 +5366,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Izvođenje velikom brzinom bez promjene visine zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1029"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Izvođenje velikom brzinom bez promjene visine zvuka. Zahtjeva barem MPlayer dev-SVN-r24924.</translation>
     </message>
@@ -5321,7 +5441,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Deinterlace zadan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="925"/>
+        <location filename="../prefgeneral.cpp" line="924"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Izaberite deinterlace filter koji će se koristiti kad se otvori novi video.</translation>
     </message>
@@ -5356,7 +5476,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Iscrtavaj video koristeći odreske (slice)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="952"/>
+        <location filename="../prefgeneral.cpp" line="949"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Uklj./isklj. iscrtavanje videa u 16-pikselnim trakama. Ako je isključeno, čitavi frame je iscrtan u jednom potezu. Može biti brže ili sporije, ovisno o video kartici i dostupnom cacheu. Ima efekta samo sa kodecima libmpeg2 i libavcodec.</translation>
     </message>
@@ -5371,11 +5491,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Zatvori kad je izvedba gotova</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="333"/>
+        <location filename="../prefgeneral.cpp" line="340"/>
         <location filename="../prefgeneral.cpp" line="366"/>
         <source>fast</source>
         <translation>brzo</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="334"/>
         <location filename="../prefgeneral.cpp" line="362"/>
         <source>slow</source>
         <translation>sporo</translation>
@@ -5386,6 +5509,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>brzo - ATI kartice</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="389"/>
         <location filename="../prefgeneral.cpp" line="418"/>
         <source>User defined...</source>
         <translation>Odredio korisnik...</translation>
@@ -5396,7 +5520,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Zadano uvećanje</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="930"/>
+        <location filename="../prefgeneral.cpp" line="929"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Ova opcija postavlja zadano uvećanje koje će se koristiti na novootvorenim video datotekama.</translation>
     </message>
@@ -5406,51 +5530,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Zadano &amp;uvećanje:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="850"/>
+        <location filename="../prefgeneral.cpp" line="847"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
         <translation>Ovdje morate odrediti mplayer izvršnu datoteku koju će SMPlayer koristiti. &lt;br&gt;SMPlayer zahtijeva barem MPlayer 1.0rc1 (iako je zadnja verzija iz SVN jako preporučljiva).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="852"/>
+        <location filename="../prefgeneral.cpp" line="851"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Ako je ova postavka pogrešna SMPlayer neće moći izvoditi ništa!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="896"/>
+        <location filename="../prefgeneral.cpp" line="895"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
         <translation>Odaberi driver za video izlaz. %1 omogućuje najbolje performanse.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1002"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
         <translation>%1 je preporučljiv. Probajte izbjegavati %2 i %3, jer oni mogu usporavati performanse.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="857"/>
+        <location filename="../prefgeneral.cpp" line="855"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>SMPlayer će zapamtiti postavke za svaku datoteku koja se izvodi (izabrane pjesme, jačina zvuka, filteri...). Isključite ako vam takvo ponašanje ne odgovara.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="889"/>
+        <location filename="../prefgeneral.cpp" line="887"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Ako je ova opcija uključena, izvođenje će biti automatski pauzirano ako je glavni prozor minimiziran. Kada se prozor vrati, izvodenje se automatski nastavlja.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="983"/>
+        <location filename="../prefgeneral.cpp" line="981"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Uključite ovu opciju da onemogućite screensaver za vrijeme izvođenja. Screensaver će biti ponovo omogućen kad izvođenje završi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Ovdje upišite preferirani jezik za audio. Kada je učitan medij sa više audio zapisa, poput većine DVD-a ili mkv datoteka, SMplayer će pokušati pronaći vaš željeni jezik.  &lt;br&gt;Ovo polje prihvaća regularne izraze. Primjer: &lt;b&gt;es|esp|spa&lt;/b&gt; će odabrati audio traku ako se slaže s &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ili &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1079"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Ovdje možete odabrati željeni jezik za titlove. Kad je pronađen medij sa višestrukim streamovima titlova, SMPlayer će pokušati učitati vaš željeni jezik. Ovo radi samo sa medijima koji daju takve informacije poput DVD-a ili mkv datoteka. &lt;br&gt;Ova polja privaćaju regularne izraze. Primjer: &lt;b&gt;es|esp|spa&lt;/b&gt; će odabrati traku ako je jednaka &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ili &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.ui" line="228"/>
         <location filename="../prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
         <translation>&amp;Izlazni driver:</translation>
@@ -5461,7 +5586,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dodaj crni obrub u cijelozaslonskom načinu prikaza</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="961"/>
+        <location filename="../prefgeneral.cpp" line="959"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Ako je ova opcija omogućena, crni obrub će biti dodan prikazanoj slici u cjelozaslonskiom načinu prikaza. To omogućuje da se titlovi mogu pomaknuti na crnu  traku ispod filma da ne budu na slici.</translation>
     </message>
@@ -5486,12 +5611,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Način spremanja postavki datoteka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="866"/>
+        <location filename="../prefgeneral.cpp" line="865"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Ova opcija omogućava da promijenite način na koji će postavke datoteka biti sačuvane. Slijedeće opcije su dostupne:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="868"/>
+        <location filename="../prefgeneral.cpp" line="867"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;jedan ini file&lt;/b&gt;: sve postavke će biti sačuvane u  jednoj ini datoteci (%1)</translation>
     </message>
@@ -5506,22 +5631,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Spremi postavke u</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="870"/>
+        <location filename="../prefgeneral.cpp" line="869"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;više ini datoteka&lt;/b&gt;: posebna ini datoteka će se koristiti za svaku izvođenu datoteku. Ove će ini datoteke biti spremljene u %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="862"/>
+        <location filename="../prefgeneral.cpp" line="860"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Ako odaberete ovu opciju, SMPlayer će zapamtiti zadnju poziciju izvođene datoteke kada je ponovo otvorite. Ova opcija radi samo sa normalnim datotekama (ne radi s DVD, CD, URL-ovima...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="941"/>
+        <location filename="../prefgeneral.cpp" line="939"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Ako je izabrano, uključuje direktno renderiranje (nije podržano od svih kodeka i video izlaza) &lt;br&gt;&lt;b&gt;Pozor:&lt;/b&gt; Može izazvati kvarove na OSD/SUB ! </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="1018"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Zahtjeva broj playback kanala. MPlayer traži da dekoder dekodira audio u onoliko kanala koliko je upisano. Dalje je na dekoderu da to napravi ako može. Obično je to bitno kad se pušta video sa AC3 audiom (DVD-ovi). U tom slučaju liba52 dekodira po zadanom i pravilno downmiksa zvuk u zahtjevani broj kanala. &lt;b&gt;Pozor&lt;/b&gt;: Ovu opciju uvažavaju kodeci (samo AC3), filteri (surround) i audio output driveri (barem OSS).</translation>
     </message>
@@ -5531,12 +5656,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Omogući screenshotove</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="875"/>
+        <location filename="../prefgeneral.cpp" line="874"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Ovom opcijom možete uključiti ili isključiti mogućnost snimanja screenshotova.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="880"/>
+        <location filename="../prefgeneral.cpp" line="878"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Ovdje možete odrediti folder gdje će se spremati screenshotovi koje SMPlayer uhvati. Ako folder nije ispravan, snimanje screenshotova će biti onemogućeno.</translation>
     </message>
@@ -5566,7 +5691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Globalna kontrola jačine zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1035"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Ako je ova opcija uključena, isti nivo jačine zvuka će se koristiti za sva izvođenja. U suprotnom svaka datoteka koristi svoju vlastitu jačinu.</translation>
     </message>
@@ -5586,7 +5711,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Isključi screensaver</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="971"/>
+        <location filename="../prefgeneral.cpp" line="968"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</translation>
     </message>
@@ -5596,7 +5721,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Izbjegavaj screensaver</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="978"/>
+        <location filename="../prefgeneral.cpp" line="974"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>SMplayer će pokušati onemogućiti screensaver dok se izvodi video datoteka ali ne i dok se izvodi audio ili dok je pauziran. Ova opcija radi samo ako je SMPlayer prozor ispred ostalih na ekranu.</translation>
     </message>
@@ -5621,7 +5746,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Zvuk/video auto sinkronizacija</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1054"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Postepeno podešava A/V sinkronizaciju ovisno o mjerenjima kašnjenja.</translation>
     </message>
@@ -5676,7 +5801,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>AC3/DTS prolaz kroz S/PDIF.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="1014"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Pozor:&lt;/b&gt; nijedan audio filter neće biti korišten ako je ova opcija uključena.</translation>
     </message>
@@ -5701,7 +5826,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>dart mod</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="995"/>
+        <location filename="../prefgeneral.cpp" line="994"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
         <translation>%1 je preporučen. %2 samo sa starijom verzijom MPlayera (prije verzije %3)</translation>
     </message>
@@ -5734,6 +5859,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Tipkovnica</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="70"/>
         <location filename="../prefinput.ui" line="344"/>
         <source>icon</source>
         <translation>ikona</translation>
@@ -5749,16 +5875,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Funkcije tipaka:</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="143"/>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Media seeking</source>
         <translation>Premotavanje</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="144"/>
         <location filename="../prefinput.cpp" line="345"/>
         <source>Volume control</source>
         <translation>Jakost zvuka</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="145"/>
         <location filename="../prefinput.cpp" line="348"/>
         <source>Zoom video</source>
         <translation>Uvećanje videa</translation>
@@ -5774,7 +5903,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ovdje možete promijeniti bilo koji tipkovnički prečac dvostrukim klikom na okvirić. Možete i snimiti tu listu radi dijeljenja s drugima ili da je učitate na drugo računalo.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="159"/>
+        <location filename="../prefinput.cpp" line="156"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>Ovdje možete promijeniti bilo koji tipkovnički prečac dvostrukim klikom na okvirić. Možete i snimiti tu listu radi dijeljenja s drugima ili da je učitate na drugo računalo.</translation>
     </message>
@@ -5799,7 +5928,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Uređivač prečaca</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="318"/>
+        <location filename="../prefinput.cpp" line="310"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>Ova tabela daje vam mogućnost da promijenite tipkovničke prečace za većinu akcija. Dvostruki klik ili Enter na okviriću ili stisnite &lt;b&gt;Promijeni prečac&lt;/b&gt; dugme da uđete u &lt;i&gt;Modificiraj prečac&lt;/i&gt; dijalog. Dva su načina da se promijeni prečac: ako je &lt;b&gt;Zahvati&lt;/b&gt; dugme uključeno onda samo stisnite novu tipku ili kombinaciju tipki kojima želite pridodijeliti akciju (nažalost ovo ne radi za sve tipke). Ako je  &lt;b&gt;Zahvati&lt;/b&gt; isključeno onda morate unijeti puno ime tipke ili kombinacije.</translation>
     </message>
@@ -5914,6 +6043,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Bez funkcije</translation>
     </message>
     <message>
+        <location filename="../prefinput.cpp" line="146"/>
         <location filename="../prefinput.cpp" line="351"/>
         <source>Change speed</source>
         <translation>Promijeni brzinu</translation>
@@ -6105,21 +6235,25 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
+        <location filename="../prefinput.cpp" line="149"/>
         <source>Media &amp;seeking</source>
         <translation>&amp;Premotavanje</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
+        <location filename="../prefinput.cpp" line="150"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;Uvećanje videa</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
+        <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
         <translation>&amp;Jačina zvuka</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="533"/>
+        <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>Promijeni &amp;brzinu</translation>
     </message>
@@ -6177,6 +6311,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
+        <location filename="../prefinterface.cpp" line="133"/>
         <location filename="../prefinterface.cpp" line="648"/>
         <source>Interface</source>
         <translation>Sučelje</translation>
@@ -6187,6 +6322,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&lt;Autodetect&gt;</translation>
     </message>
     <message>
+        <location filename="../prefinterface.cpp" line="199"/>
         <location filename="../prefinterface.cpp" line="202"/>
         <source>Default</source>
         <translation>Zadano</translation>
@@ -6213,6 +6349,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinterface.ui" line="744"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>Recent files</source>
         <translation>Nedavno korištene datoteke</translation>
     </message>
@@ -6312,6 +6449,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Premotaj na poziciju kad se pusti</translation>
     </message>
     <message>
+        <location filename="../prefinterface.ui" line="45"/>
         <location filename="../prefinterface.ui" line="574"/>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
@@ -6342,7 +6480,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Autom. promjena veličine</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="652"/>
+        <location filename="../prefinterface.cpp" line="651"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Glavni prozo može biti automatski podešen na veličinu videa. Izaberite opciju koja vam odgovara.</translation>
     </message>
@@ -6352,12 +6490,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Zapamti poziciju i veličinu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="656"/>
+        <location filename="../prefinterface.cpp" line="655"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Ako odaberete ovu opciju, pozicija i veličina glavnog prozora će biti sačuvana kad ponovo pokrenete SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Izaberite maksimalni broj datoteka koje će biti prikazane u &lt;b&gt;Otvori -&gt; Nedavno korištene datoteke&lt;/b&gt; podizborniku. Ako stavine na 0 (nula) taj meni neće uopće biti prikazan.</translation>
     </message>
@@ -6402,7 +6540,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kratki skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="690"/>
+        <location filename="../prefinterface.cpp" line="694"/>
+        <location filename="../prefinterface.cpp" line="698"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Izaberite vrijeme koje će ići naprijed ili nazad kad odaberete akciju %1.</translation>
     </message>
@@ -6437,7 +6577,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Skok pomoću kotačića miša</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="702"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Izaberite vrijeme koje će ići naprijed ili nazad kad pomaknete kotačić miša.</translation>
     </message>
@@ -6453,11 +6593,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinterface.ui" line="510"/>
+        <location filename="../prefinterface.cpp" line="709"/>
         <source>Seeking method</source>
         <translation>Način premotavanja</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="710"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Odabire način na koji će se premotavati klizačem. Apsolutno premotavanje je malo preciznije, dok relativno radi bolje sa datotekama koje imaju pogrešno upisanu duljinu trajanja.</translation>
     </message>
@@ -6472,7 +6613,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Koristi samo jednu pokrenutu kopiju SMPlayera istovremeno </translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="726"/>
+        <location filename="../prefinterface.cpp" line="725"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Odaberi ovu opciju ako želite koristiti samo jednu pokrenutu kopiju SMPlayera istovremeno dok otvarate druge datoteke. </translation>
     </message>
@@ -6511,7 +6652,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Animirano</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="732"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Ako je ova opcija odabrana, lebdeća kontrola će se pojaviti uz animaciju.</translation>
     </message>
@@ -6531,7 +6672,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Margine</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Određuje koliko će piksela lebdeća kontrola biti udaljena od dna ekrana. Dobro kod televizora ako kontrole nisu dobro vidljive na dnu.</translation>
     </message>
@@ -6546,7 +6687,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Zaobiđi window manager</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="753"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
         <translation>Isključi ako lebdeća kontrola ne funkcionira dobro s vašim window managerom.</translation>
     </message>
@@ -6571,6 +6712,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Š&amp;irina:</translation>
     </message>
     <message>
+        <location filename="../prefinterface.ui" line="668"/>
         <location filename="../prefinterface.ui" line="701"/>
         <source>0</source>
         <translation>0</translation>
@@ -6591,7 +6733,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Zaobiđi window manager</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>Ako je ova opcija omogućena, lebdeća kontrola će se pojavljivati i u kompaktnom prozoru. &lt;b&gt;Pozor:&lt;/b&gt; Lebdeća kontrola nije napravljena da radi u kompaktnom prozoru pa možda neće raditi ispravno.</translation>
     </message>
@@ -6621,7 +6763,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Precizno premotavanje</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="717"/>
+        <location filename="../prefinterface.cpp" line="716"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Ako je ova opcija uključena, premotavanje je preciznije ali može biti nešto sporije. Moguće da neće raditi s nekim video formatima.</translation>
     </message>
@@ -6666,7 +6808,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>GUI s presvlakama (skinovima)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="665"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>Izaberite GUI okruženje. U izboru su Zadani GUI (s alatnom i kontrolnom trakom) i Mini GUI (jednostavniji, bez kontrolne i alatne trake i sa manje gumba). </translation>
     </message>
@@ -6691,7 +6833,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Maks URL-ova</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Izaberite maksimalni broj stvari koje će &lt;b&gt;Otvori-&gt;URL&lt;/b&gt; dijalog zapamtiti. Stavite na 0 ako ne želite da se URL-ovi sačuvaju.</translation>
     </message>
@@ -6709,6 +6851,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
+        <location filename="../prefperformance.cpp" line="74"/>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Performance</source>
         <translation>Performanse</translation>
@@ -6720,6 +6863,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefperformance.ui" line="41"/>
+        <location filename="../prefperformance.cpp" line="281"/>
         <source>Priority</source>
         <translation>Prioritet</translation>
     </message>
@@ -6759,6 +6903,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>u_čekanju</translation>
     </message>
     <message>
+        <location filename="../prefperformance.ui" line="423"/>
+        <location filename="../prefperformance.ui" line="460"/>
+        <location filename="../prefperformance.ui" line="497"/>
+        <location filename="../prefperformance.ui" line="534"/>
+        <location filename="../prefperformance.ui" line="571"/>
         <location filename="../prefperformance.ui" line="608"/>
         <source>KB</source>
         <translation>KB</translation>
@@ -6784,7 +6933,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dozvoli ispuštanje glavnih frameova</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="291"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenzivnije ispuštanje frameova (lomi proces dekodiranja). Stvara izobličenja slike!</translation>
     </message>
@@ -6824,7 +6973,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Brza pretraga poglavlja na DVD-ima</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="328"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Pokušat će pretraživati na najbrži mogući način ali možda neće raditi s nekim diskovima.</translation>
     </message>
@@ -6839,7 +6988,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="324"/>
+        <location filename="../prefperformance.cpp" line="318"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Moguće vrijednosti:&lt;br&gt; &lt;b&gt;Da&lt;/b&gt;: Pokušat će najbrži način promjene audio trake (možda neće raditi s nekim formatima). &lt;br&gt; &lt;b&gt;Ne&lt;/b&gt;: MPlayer će restartati svaki puta kad se promijeni audio traka. &lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer će odrediti akciju u ovisnosti od verzije MPlayera.</translation>
     </message>
@@ -6849,7 +6998,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache za datoteke</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Ova opcija određuje koliko memorije (u kByte-ima) će se upotrijebiti za cache datoteke.</translation>
     </message>
@@ -6859,7 +7008,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache za strujanja (streaming)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Ova opcija određuje koliko memorije (u kByte-ima) će se upotrijebiti za cache streaminga.</translation>
     </message>
@@ -6869,7 +7018,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache za DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="350"/>
+        <location filename="../prefperformance.cpp" line="348"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Ova opcija određuje koliko memorije (u kByte-ima) će se upotrijebiti za cache DVD-a. &lt;br&gt;&lt;b&gt;Pozor:&lt;/b&gt; Premotavanje možda neće raditi ispravno (uključujući prebacivanje poglavlja) ako se koristi cache za DVD.</translation>
     </message>
@@ -6914,7 +7063,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Loop &amp;filter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Ova opcija dopušta preskakanje loop filtera (znanog i kao deblocking) tijekom dekodiranja H.264. Pošto se filtrirani frame koristi kao referentni za dekodiranje ovisnih  frameova, ova opcija efektivno pogoršava kvalitetu više nego da se filter ne koristi na, recimo, MPEG-2 videima. Ali barem za visoki bitrate HDTV-a, ovo omogućava veliko ubrzanje bez primjetnog gubitka kvalitete.</translation>
     </message>
@@ -6929,12 +7078,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&lt;b&gt;Omogućeno&lt;/b&gt; loop filter se neće preskočiti</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Preskoči (uvijek)&lt;/b&gt;: loop filter se preskače bez obzira na rezoluciju videa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="313"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Preskoči samo na HD videu&lt;/b&gt;: loop filter će se preskočiti samo na videu čija je visina  %1 ili veća.</translation>
     </message>
@@ -6949,7 +7098,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache za audio CD-ove</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Ova opcija određuje koliko memorije (u kByte-ima) će se upotrijebiti za cache CD-ova.</translation>
     </message>
@@ -6964,7 +7113,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache za VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="358"/>
+        <location filename="../prefperformance.cpp" line="357"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Ova opcija određuje koliko memorije (u kByte-ima) će se upotrijebiti za cache VCD-ova.</translation>
     </message>
@@ -6979,7 +7128,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Threadovi za dekodiranje</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="295"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Postavlja broj threadova koje će procesor koristiti za dekodiranje. Samo za MPEG-1/2 i H.264</translation>
     </message>
@@ -6989,7 +7138,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Broj &amp;threadova koje će procesor koristiti za dekodiranje. Samo za MPEG-1/2 i H.264:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="282"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Postavlja prioritet programa mplayer ovisno o predefiniranoj tabeli u Windowsima. &lt;br&gt;&lt;b&gt;Pozor:&lt;/b&gt; Korištenje realtime prioriteta može dovesti do blokade sustava (ne vrijedi za linux).</translation>
     </message>
@@ -7042,7 +7191,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Automatski dodaj datoteke u playlistu</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="115"/>
+        <location filename="../prefplaylist.cpp" line="112"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Ako je ova opcija omogućena, svaki put kad je datoteka otvorena, SMPlayer će prvo očistiti playlistu a onda dodati datoteku u nju. U slučaju DVD, CD i VCD-a, svi naslovi na disku će biti dodani u playlistu.</translation>
     </message>
@@ -7052,7 +7201,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dodaj uzastopne datoteke</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="120"/>
+        <location filename="../prefplaylist.cpp" line="118"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
         <translation>SMPlayer će tražiti uzastopne datoteke (npr.: video_1.avi, video_2.avi...) i ako ih pronađe, dodat će ih na playlistu.</translation>
     </message>
@@ -7077,7 +7226,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dodaj datoteke u folderu uključujući podfoldere</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="125"/>
+        <location filename="../prefplaylist.cpp" line="123"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Dodaj datoteke u folderu uključujući podfoldere. Ako je opcija isključena, samo fileovi u trenutnom folderu će biti dodani.</translation>
     </message>
@@ -7087,7 +7236,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Automatski dodaj na playlistu info o datotekama </translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="132"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Ova opcija omogućava prikaz naslova i duljine trajanja datoteka u playlisti (ako postoje). Inače ove informacije neće biti dostupne sve dok datoteka ne počne s izvođenjem. Pozor: ova opcija može biti spora pogotovo ako ima puno dodanih datoteka.</translation>
     </message>
@@ -7115,6 +7264,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
+        <location filename="../prefsubtitles.cpp" line="51"/>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitles</source>
         <translation>Titlovi</translation>
@@ -7136,6 +7286,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
+        <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Autoload</source>
         <translation>Auto-učitavanje</translation>
     </message>
@@ -7175,7 +7326,10 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dno</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.ui" line="344"/>
         <location filename="../prefsubtitles.ui" line="804"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Font</source>
         <translation>Font</translation>
     </message>
@@ -7186,6 +7340,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Size</source>
         <translation>Veličina</translation>
     </message>
@@ -7215,7 +7370,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pozicija titlova</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="493"/>
+        <location filename="../prefsubtitles.cpp" line="491"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Ova opcija određuje poziciju titlova u video prozoru. &lt;i&gt;100&lt;/i&gt; je dno prozora, dok &lt;i&gt;0&lt;/i&gt; znači vrh prozora.</translation>
     </message>
@@ -7285,7 +7440,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sistemski font</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
         <translation>Ovdje možete odabrati sistemski fooont za titlove i OSD. &lt;b&gt;Bilješka:&lt;/b&gt; Zahtjeva MPlayer sa fontconfig podrškom.</translation>
     </message>
@@ -7320,7 +7475,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Izaberite način automatskog učitavanja titlova.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="420"/>
+        <location filename="../prefsubtitles.cpp" line="417"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Ako je više titlova dostupno, jedan on njih će biti automatski odabran, obično onaj prvi, osim ako se neki od njih slaže s korisnikovim željenim jezikom, onda će taj biti odabran.</translation>
     </message>
@@ -7330,7 +7485,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Izaberite način automatske promjene veličine titlova.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="424"/>
+        <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Izaberite zadanu kodnu stranicu koja će se koristiti za titlove.</translation>
     </message>
@@ -7340,7 +7495,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Probaj automatski pronaći za ovaj jezik</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="431"/>
+        <location filename="../prefsubtitles.cpp" line="427"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Pokušat će autom. otkriti kodnu stranicu za zadani jezik. Ako autodetekcija ne uspije, vraća se na zadanu kodnu stranicu. Zahtjeva MPlayer sa podrškom za ENCA.</translation>
     </message>
@@ -7350,7 +7505,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Jezik titlova</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="435"/>
+        <location filename="../prefsubtitles.cpp" line="434"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Izaberite jezik za koji želite automatsko učitavanje kodne stranice.</translation>
     </message>
@@ -7365,7 +7520,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Probaj a&amp;utomatski pronaći za ovaj jezik:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="463"/>
+        <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>Ovdje možete odabrati TTF font za titlove. Obično možete pronaći puno fontova u %1</translation>
     </message>
@@ -7440,7 +7595,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Horizontalno poravnanje</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="542"/>
+        <location filename="../prefsubtitles.cpp" line="541"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>Određuje horizontalno poravnanje. Moguće vrijednosti su lijevo, centrirano i desno.</translation>
     </message>
@@ -7450,7 +7605,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Vertikalno poravnanje</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="546"/>
+        <location filename="../prefsubtitles.cpp" line="545"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>Određuje vertikalno poravnanje. Moguće vrijednosti su dno, sredina i vrh.</translation>
     </message>
@@ -7460,7 +7615,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Stil obruba</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="550"/>
+        <location filename="../prefsubtitles.cpp" line="549"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>Određuje stil obruba. Moguće vrijednosti: obris i neprozirni kvadrat.</translation>
     </message>
@@ -7550,7 +7705,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>S&amp;jena:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="508"/>
+        <location filename="../prefsubtitles.cpp" line="507"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>Ove opcije dozvoljavaju da definirate stil koji će se koristiti za titlove koji nemaju ugrađene definicije stilova (srt, sub...).</translation>
     </message>
@@ -7603,12 +7758,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Neprozirni kvadrat</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="554"/>
+        <location filename="../prefsubtitles.cpp" line="553"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Ako je stil obruba postavljen na &lt;i&gt;obris&lt;/i&gt;, ova opcija određuje širinu obrisa oko slova u pikselima.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="558"/>
+        <location filename="../prefsubtitles.cpp" line="557"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>Ako je stil obruba postavljen na &lt;i&gt;obris&lt;/i&gt;, ova opcija određuje širinu sjene iza slova u pikselima.</translation>
     </message>
@@ -7618,7 +7773,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Omogući normalne titlove</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="452"/>
+        <location filename="../prefsubtitles.cpp" line="451"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
         <translation>Odaberite ovu opciju  za normalne/tradicionalne titlove. Ova vrsta titlova se može prikazati samo u bijeloj boji.</translation>
     </message>
@@ -7633,17 +7788,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Normalni titlovi</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Ova opcija NE mijenja veličinu titlova u trenutno izvođenom videu. Da bi to napravili, uportijebite &lt;i&gt;Veličina+&lt;/i&gt; and &lt;i&gt;Veličina-&lt;/i&gt; u izborniku titlova.</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Default scale</source>
         <translation>Zadano skaliranje</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
         <translation>Ova opcija određuje zadano uvećanje fonta za normalne titlove na novootvorenim datotekama.</translation>
     </message>
@@ -7653,7 +7809,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SSA/ASS titlovi</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>Ova opcija određuje zadano uvećanje fonta za SSA/ASS titlove na novootvorenim datotekama.</translation>
     </message>
@@ -7663,7 +7819,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Razmak linija</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="504"/>
+        <location filename="../prefsubtitles.cpp" line="503"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>Ova opcija određuje razmak između linija titlova u višelinijskim titlovima. Može imati i negativne vrijednosti.</translation>
     </message>
@@ -7698,7 +7854,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Razmak &amp;linija:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="456"/>
+        <location filename="../prefsubtitles.cpp" line="455"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
         <translation>Stisnite ovo dugme da omogućite novu SSA/ASS biblioteku. Ona omogućuje prikaz titlova sa višestrukim bojama, fontovima itd...</translation>
     </message>
@@ -7708,7 +7864,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Podrška za Freetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="446"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
         <translation>Ovu opciju inače ne bi trebali isključivati. učinite to samo ako je MPlayer kompajliran bez podrške za Freetype.  &lt;b&gt;Isključivanjem ove opcije može se dogoditi da titlovi više uopće ne rade!&lt;/b&gt;</translation>
     </message>
@@ -7718,7 +7874,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Podrška za Freet&amp;ype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>Ako je ova opcija odabrana, titlovi će se pojaviti na screenshotovima. &lt;b&gt;Bilješka:&lt;/b&gt; može ponekad stvarati probleme.</translation>
     </message>
@@ -7768,7 +7924,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Primijeni stil i na ASS datoteke</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="562"/>
+        <location filename="../prefsubtitles.cpp" line="561"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Primijeni stil i na ASS datoteke.</translation>
     </message>
@@ -7841,7 +7997,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Rasplita&amp;nje u startu za TV:</translation>
     </message>
     <message>
-        <location filename="../preftv.cpp" line="111"/>
+        <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
         <translation>Ako je ova opcija uključena, SMPlayer će potražiti nove TV i radio kanale u ~/.mplayer/channels.conf.ter ili ~/.mplayer/channels.conf.</translation>
     </message>
@@ -7854,6 +8010,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PreferencesDialog</name>
     <message>
+        <location filename="../preferencesdialog.cpp" line="64"/>
         <location filename="../preferencesdialog.cpp" line="130"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - Pomoć</translation>
@@ -7887,52 +8044,53 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="164"/>
+        <location filename="../clhelp.cpp" line="163"/>
         <source>will show this message and then will exit.</source>
         <translation>pokazat će ovu poruku a onda izaći.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="143"/>
+        <location filename="../clhelp.cpp" line="142"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>glavni prozor će biti zatvoren kad playlista završi s izvođenjem.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="433"/>
+        <location filename="../smplayer.cpp" line="432"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ovo je SMPlayer v. %1 koji radi na %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="132"/>
+        <location filename="../clhelp.cpp" line="127"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>pokušat će se povezati s drugom pokrenutom instancom i poslati joj zadane akcije. Primjer:  -send-action pause Ostatak opcija (ako ih ima) će biti ignorirano i aplikacija će završiti. Vraća 0 ako je uspješno završeno i -1 ako je bilo grešaka.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="140"/>
+        <location filename="../clhelp.cpp" line="134"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>lista_akcija je lista akcija odvojena razmakom. Akcije će biti izvršene po učitavanju datoteke u istom redu kako ste ih unijeli. Za neke akcije je potrebno proslijediti &quot;true&quot; ili &quot;false&quot; kao parametar.  Primjer: -actions &quot;fullscreen compact true&quot;. Navodnici su neophodni u slučaju da proslijeđujete više od jedne akcije.</translation>
     </message>
     <message>
+        <location filename="../clhelp.cpp" line="98"/>
         <location filename="../clhelp.cpp" line="172"/>
         <source>media</source>
         <translation>medij</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="170"/>
+        <location filename="../clhelp.cpp" line="166"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>ako ima još koja pokrenuta instanca aplikacije, medij će biti pridodan playlisti te instance. Ako nema druge instance, ova opcija će biti ignorirana i datoteke će biti otvorene u drugoj instanci.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="146"/>
+        <location filename="../clhelp.cpp" line="145"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>glavni prozor neće biti zatvoren kad datoteka/playlista završi s izvođenjem.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="149"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>video će se izvoditi preko čitavog ekrana.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="152"/>
+        <location filename="../clhelp.cpp" line="151"/>
         <source>the video will be played in window mode.</source>
         <translation>video će se izvoditi u prozoru.</translation>
     </message>
@@ -7942,16 +8100,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ubaci u listu SMPlayera</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="115"/>
+        <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>otvara mini-sučelje umjesto zadanog sučelja.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="112"/>
+        <location filename="../clhelp.cpp" line="111"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Vraća stara pridruživanja datoteka i čisti registry.</translation>
     </message>
     <message>
+        <location filename="../clhelp.cpp" line="103"/>
         <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>Upotreba:</translation>
@@ -7972,7 +8131,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>lista_akcija</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="121"/>
+        <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
         <translation>otvara zadano sučelje.</translation>
     </message>
@@ -7982,7 +8141,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>datoteka_titlova</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="155"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>određuje koja datoteka titlova će biti učitana za prvi video.</translation>
     </message>
@@ -7992,7 +8151,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 i %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="125"/>
+        <location filename="../clhelp.cpp" line="123"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>određuje folder gdje će SMPlayer spremiti svoje konfiguracijske datoteke (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -8015,7 +8174,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>nepoznato</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="118"/>
+        <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
         <translation>otvara mpc sučelje.</translation>
     </message>
@@ -8030,21 +8189,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>visina</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="158"/>
+        <location filename="../clhelp.cpp" line="157"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
         <translation>određuje koordinate gdje će biti prikazan glavni prozor.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="161"/>
+        <location filename="../clhelp.cpp" line="160"/>
         <source>specifies the size of the main window.</source>
         <translation>određuje veličinu glavnog prozora.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="175"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je svaka vrsta datoteke koju SMPlayer može otvoriti. To može biti lokalna datoteka, DVD, internet streaming (npr. mms://...) ili lokalna playlista u .m3u ili .pls formatu.</translation>
     </message>
     <message numerus="yes">
+        <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
         <translation type="unfinished">
@@ -8055,6 +8215,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         </translation>
     </message>
     <message numerus="yes">
+        <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
         <translation type="unfinished">
@@ -8239,6 +8400,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dodaj &amp;separator</translation>
     </message>
     <message>
+        <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
         <translation>(separator)</translation>
@@ -8333,26 +8495,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoEqualizer</name>
     <message>
+        <location filename="../videoequalizer.cpp" line="72"/>
         <location filename="../videoequalizer.cpp" line="73"/>
         <source>Contrast</source>
         <translation>Kontrast</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="76"/>
         <location filename="../videoequalizer.cpp" line="77"/>
         <source>Brightness</source>
         <translation>Svjetlina</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="80"/>
         <location filename="../videoequalizer.cpp" line="81"/>
         <source>Hue</source>
         <translation>Boja</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="84"/>
         <location filename="../videoequalizer.cpp" line="85"/>
         <source>Saturation</source>
         <translation>Zasićenje</translation>
     </message>
     <message>
+        <location filename="../videoequalizer.cpp" line="88"/>
         <location filename="../videoequalizer.cpp" line="89"/>
         <source>Gamma</source>
         <translation>Gamma</translation>
@@ -8388,7 +8555,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Informacije</translation>
     </message>
     <message>
-        <location filename="../videoequalizer.cpp" line="120"/>
+        <location filename="../videoequalizer.cpp" line="119"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Trenutne vrijednosti su spremljene i bit će upotrebljene kao početne.</translation>
     </message>
@@ -8396,6 +8563,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="134"/>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
         <translation>Video pregled</translation>
@@ -8516,6 +8684,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nema informacija</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreview.cpp" line="371"/>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
@@ -8589,6 +8758,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pregled će biti napravljen za video koji ovdje odredite.</translation>
     </message>
     <message>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
         <translation>Pregledne sličice će biti raspoređene na tablici.</translation>
@@ -8614,7 +8784,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ako je omjer prikaza pogrešan, ovdje možete odrediti neki drugi.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="50"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
         <translation>Obično su početni frame-ovi crni, tako da je dobra ideja preskočiti nekoliko sekundi na početku videa. Ova opcija vam dozvoljava da odredite koliko će sekundi biti preskočeno.</translation>
     </message>
@@ -8624,7 +8794,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ova opcija određuje maksimalnu širinu u pikselima koju će pregledna slika imati.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="53"/>
+        <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
         <translation>Neki frame-ovi će biti izvučeni iz videa kako bi se mogao načiniti pregled. Ovdje možete izabrati format slike za izvučene frame-ove. PNG može dati bolju kvalitetu.</translation>
     </message>
