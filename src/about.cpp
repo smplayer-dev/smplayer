@@ -62,10 +62,11 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         "<br>" +
         tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br><br>" +
 		mplayer_version +
-		tr("Visit our web for updates:") +"<br>"+
-        link("http://smplayer.sf.net") +
-        "<br><br>" +
-		tr("Get help in our forum:") +"<br>" + link("http://smplayer.sf.net/forum") + 
+		"<b>"+ tr("Links:") +"</b><br>"+
+		tr("Official website:") +" "+  link("http://smplayer.info") +"<br>"+
+		tr("Support forum:") +" "+  link("http://smplayer.info/forum/") +"<br>"+
+		tr("Blog:") +" "+  link("http://smplayer.info/blog/") +"<br>"+
+		tr("Twitter:") +" "+  link("http://twitter.com/smplayer_dev") +
         "<br><br>" + 
 		tr("SMPlayer uses the award-winning MPlayer as playback engine. See %1")
 		   .arg("<a href=\"http://www.mplayerhq.hu\">http://www.mplayerhq.hu</a>")
