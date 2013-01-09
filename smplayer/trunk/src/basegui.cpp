@@ -3686,7 +3686,7 @@ void BaseGui::helpFAQ() {
 	QDesktopServices::openUrl( url );
 	*/
 
-	QString url = "http://smplayer.sourceforge.net/faq.php";
+	QString url = "http://smplayer.info/faq.php";
 	if (!pref->language.isEmpty()) url += QString("?tr_lang=%1").arg(pref->language);
 	QDesktopServices::openUrl( QUrl(url) );
 }
@@ -3701,7 +3701,7 @@ void BaseGui::helpCLOptions() {
 }
 
 void BaseGui::helpCheckUpdates() {
-	QString url = "http://smplayer.sourceforge.net/latest.php";
+	QString url = "http://smplayer.info/latest.php";
 	if (!pref->language.isEmpty()) url += QString("?tr_lang=%1").arg(pref->language);
 	QDesktopServices::openUrl( QUrl(url) );
 }
