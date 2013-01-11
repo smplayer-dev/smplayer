@@ -55,15 +55,15 @@ ${LangFileString} MPlayer_Codec_Msg "二进制编解码器包可增加对新 Rea
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "选择安装类型"
-${LangFileString} Reinstall_Header_SubText "选择"覆盖"或"卸载"模式。"
+${LangFileString} Reinstall_Header_SubText "选择'覆盖'或'卸载'模式。"
 
 ${LangFileString} Reinstall_Msg1 "您有一个现有的 SMPlayer 安装位于以下文件夹:"
 ${LangFileString} Reinstall_Msg2 "请选择如何继续:"
 ${LangFileString} Reinstall_Overwrite "覆盖($Inst_Type)现有的安装"
 ${LangFileString} Reinstall_Uninstall "卸载(移除)现有的安装"
-${LangFileString} Reinstall_Msg3_1 "单击"开始"继续。"
-${LangFileString} Reinstall_Msg3_2 "单击"下一步"继续。"
-${LangFileString} Reinstall_Msg3_3 "单击"卸载"继续。"
+${LangFileString} Reinstall_Msg3_1 "单击'开始'继续。"
+${LangFileString} Reinstall_Msg3_2 "单击'下一步'继续。"
+${LangFileString} Reinstall_Msg3_3 "单击'卸载'继续。"
 ${LangFileString} Reinstall_Msg4 "更改安装设置"
 
 ${LangFileString} Type_Reinstall "重新安装"
@@ -75,17 +75,17 @@ ${LangFileString} StartBtn "开始"
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "正在下载 MPlayer 编解码器..."
 ${LangFileString} Codecs_DL_Retry "MPlayer 编解码器没有成功安装。是否重试?"
-${LangFileString} Codecs_DL_Failed "无法下载 MPlayer 编解码器: "$R0"。"
+${LangFileString} Codecs_DL_Failed "无法下载 MPlayer 编解码器: '$R0'。"
 ${LangFileString} Codecs_Inst_Failed "无法安装 MPlayer 编解码器。"
 
 ; Version information
 ${LangFileString} VerInfo_DL_Msg "正在下载版本信息..."
-${LangFileString} VerInfo_DL_Failed "无法下载版本信息: "$R0"。将使用默认版本。"
+${LangFileString} VerInfo_DL_Failed "无法下载版本信息: '$R0'。将使用默认版本。"
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "安装只能由拥有管理员权限的用户卸载。"
 ${LangFileString} Uninstaller_Aborted "卸载被用户终止。"
-${LangFileString} Uninstaller_NotInstalled "没有发现 SMPlayer 被安装在目录"$INSTDIR"中。$\r$\n仍然继续吗(不推荐)?"
+${LangFileString} Uninstaller_NotInstalled "没有发现 SMPlayer 被安装在目录'$INSTDIR'中。$\r$\n仍然继续吗(不推荐)?"
 ${LangFileString} Uninstaller_64bitOnly "安装只能在 64 位 Windows 中卸载。"
 
 ; Vista & Later Default Programs Registration
