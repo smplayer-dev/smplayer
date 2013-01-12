@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="lt_LT">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -9,8 +7,19 @@
         <translation>Versija: %1</translation>
     </message>
     <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.&lt;br&gt;&lt;br&gt;By using SMPlayer you hereby agree to be bound by Google Terms of Services located at </source>
-        <translation type="obsolete">Įkurtas 2005 vasarį, Youtube&amp;trade; yra populiariausia interneto vaizdelių bendruomenė, kuri milijonams naudotojų suteikia galimybę žiūrėti ir dalintis vaizdo įrašais. YouTube&amp;trade; suteikia forumą kuris sujungia žmones, informuoja ir įkvepia kurti viso pasaulio žmones. &lt;br&gt;&lt;br&gt;Naudodami SMPlayer jūs sutinkate su Google paslaugos teikimo sąlygomis kurias galite rasti čia </translation>
+        <location filename="../about.cpp" line="65"/>
+        <source>Links:</source>
+        <translation>Nuorodos:</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="66"/>
+        <source>Official website:</source>
+        <translation>Oficialus tinlapis:</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="67"/>
+        <source>Support forum:</source>
+        <translation>Palaikymo forumas:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -54,7 +63,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation type="obsolete">%1 and %2</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -180,19 +189,6 @@
         <translation>&amp;Licencija</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="257"/>
-        <source>&amp;Youtube</source>
-        <translation>&amp;Youtube</translation>
-    </message>
-    <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Aplankykite mūsų tinklalapį:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Gaukite pagalbą mūsų forume:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="206"/>
         <source>Korean</source>
         <translation>Korėjiečių</translation>
@@ -283,21 +279,6 @@
         <translation>Naudojama MPlayer2 %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="65"/>
-        <source>Links:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="66"/>
-        <source>Official website:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="67"/>
-        <source>Support forum:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="69"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
         <translation>SMPlayer naudoja pasižymėjusį MPlayer kaip atkūrimo variklį. Pažiūrėkite %1</translation>
@@ -325,12 +306,17 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Įkurta 2005 vasarį, Youtube&amp;trade; yra populiariasias ineterneto vaizdelių bendruomenė, suteikianti galimybę milijonams žmonių atrasti, pamatyti ir dalintis originaliais vaizdeliais. Youtube&amp;trade; suteikia forumą kuris sujungia žmones, informuoja ir įkvepia visus kūrėjus ir žiūrovus.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naudodami šią programą jūs sutinkate su Google paslaugos teikimo sąlygomis kurias galite rasti čia %1.</translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="257"/>
+        <source>&amp;Youtube</source>
+        <translation>&amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -1746,29 +1732,9 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Perjungti deinterliaciją</translation>
     </message>
     <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">&amp;Paaukoti</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1776"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;Paslėpti subtitrai</translation>
-    </message>
-    <message>
-        <source>Donate</source>
-        <translation type="obsolete">Paaukoti</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Jei jums patinka SMPlayer, geriausias būdas palaikyti jį išsiunčiant auką, net ir mažiausia auka yra labai vertinama.</translation>
-    </message>
-    <message>
-        <source>You can send your donation using %1.</source>
-        <translation type="obsolete">Galite nusiųsti savo auką naudodami %1.</translation>
-    </message>
-    <message>
-        <source>this form</source>
-        <translation type="obsolete">šią formą</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
@@ -2335,41 +2301,6 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
 </context>
 <context>
-    <name>Filters</name>
-    <message>
-        <source>add noise</source>
-        <translation type="obsolete">triukšmo pridėjimas</translation>
-    </message>
-    <message>
-        <source>deblock</source>
-        <translation type="obsolete">atblokavimas</translation>
-    </message>
-    <message>
-        <source>gradfun</source>
-        <translation type="obsolete">Gradfun filtras</translation>
-    </message>
-    <message>
-        <source>normal denoise</source>
-        <translation type="obsolete">įprastas triukšmo sumažinimas</translation>
-    </message>
-    <message>
-        <source>soft denoise</source>
-        <translation type="obsolete">švelnus triukšmo sumažinimas</translation>
-    </message>
-    <message>
-        <source>blur</source>
-        <translation type="obsolete">susiliejęs</translation>
-    </message>
-    <message>
-        <source>sharpen</source>
-        <translation type="obsolete">ryškus</translation>
-    </message>
-    <message>
-        <source>volume normalization</source>
-        <translation type="obsolete">garso lygio sulyginimas</translation>
-    </message>
-</context>
-<context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
@@ -2512,11 +2443,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="568"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrų išgauta</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrų išgauta</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
@@ -2597,9 +2524,8 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
         <translation type="obsolete">
-            <numerusform>%1 subtitras išgautas</numerusform>
-            <numerusform>%1 subtitrai išgauti</numerusform>
-            <numerusform>%1 subtitrų išgauta</numerusform>
+            <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
         </translation>
     </message>
     <message>
@@ -2619,7 +2545,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="501"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Neįmanoma išsaugoti atsiųstą failą kataloge
@@ -6668,10 +6594,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Grafinė vartotojo sąsaja</translation>
     </message>
     <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="obsolete">Parinkite norimą programos aplinką. Šiuo metu galimos dvi: Įprastinė aplinka ir Mini aplinka.&lt;br&gt;Įprastinė aplinka&lt;/b&gt; yra tradicinė su įrankių ir kontrolės juostomis. &lt;b&gt;Mini aplinka&lt;/b&gt; yra paprastesnė, be įrankių ir kontrolės juostų, tik su keletu mygtukų.&lt;br&gt;&lt;b&gt;Pastaba:&lt;/b&gt; ši parinktis veiks kai kitą kartą bus paleistas SMPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="178"/>
         <source>&amp;GUI</source>
         <translation>&amp;Aplinka</translation>
@@ -8114,21 +8036,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundė</numerusform>
-            <numerusform>%n sekundės</numerusform>
-            <numerusform>%n sekundžių</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundė</numerusform><numerusform>%n sekundės</numerusform><numerusform>%n sekundžių</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutė</numerusform>
-            <numerusform>%n minutės</numerusform>
-            <numerusform>%n minučių</numerusform>
-        </translation>
+        <translation><numerusform>%n minutė</numerusform><numerusform>%n minutės</numerusform><numerusform>%n minučių</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
