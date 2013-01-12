@@ -292,17 +292,17 @@
     <message>
         <location filename="../about.cpp" line="65"/>
         <source>Links:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ligazóns:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="66"/>
         <source>Official website:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sitio web oficial:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Support forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Foros de axuda:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -332,17 +332,17 @@
     <message>
         <location filename="../about.cpp" line="110"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permite a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente conecta, se informa, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, grandes e pequenos.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que poderá acceder desde «%1».</translation>
     </message>
     <message>
         <location filename="../about.ui" line="257"/>
         <source>&amp;Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube</translation>
     </message>
 </context>
 <context>
