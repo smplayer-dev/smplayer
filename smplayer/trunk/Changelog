@@ -1,5 +1,8 @@
 [b]Version 0.8.4[/b]:
 
+(2013-01-12)
+ * Add mts to the list of video extensions.
+
 (2012-12-23)
  * Ignore other mouse events if the window is been moved by dragging
    the video area.

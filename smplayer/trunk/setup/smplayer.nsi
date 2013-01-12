@@ -514,6 +514,7 @@ ${MementoSectionDone}
   !insertmacro ${_action} ".m1v"
   !insertmacro ${_action} ".m2t"
   !insertmacro ${_action} ".m2ts"
+  !insertmacro ${_action} ".mts"
   !insertmacro ${_action} ".m2v"
   !insertmacro ${_action} ".m3u"
   !insertmacro ${_action} ".m3u8"
