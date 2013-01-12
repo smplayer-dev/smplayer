@@ -1,5 +1,7 @@
 @echo off
 
+set startdir=%CD%
+
 set script_name=%0
 set build_smtube=true
 set smtube_svn_dir=..\..\smtube
@@ -72,7 +74,9 @@ if [%errorlevel%]==[0] (
     if exist %smtube_svn_dir%\compile_windows.cmd (
 
       cd %smtube_svn_dir%
-      compile_windows.cmd %smtube_params%
+      call compile_windows.cmd %smtube_params%
+      :: Return to starting directory
+      cd %startdir%
 
     ) else (
 
