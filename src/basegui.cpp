@@ -2972,6 +2972,14 @@ void BaseGui::initializeMenus() {
 
 	// Audio
 	audioTrackGroup->clear(true);
+	// If using an external audio file, show the file in the menu, but disabled.
+	if (!core->mset.external_audio.isEmpty()) {
+		QAction * a = audioTrackGroup->addAction( QFileInfo(core->mset.external_audio).fileName() );
+		a->setEnabled(false);
+		a->setCheckable(true);
+		a->setChecked(true);
+	}
+	else
 	if (core->mdat.audios.numItems()==0) {
 		QAction * a = audioTrackGroup->addAction( tr("<empty>") );
 		a->setEnabled(false);
