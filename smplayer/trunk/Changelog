@@ -1,5 +1,9 @@
 [b]Version 0.8.4[/b]:
 
+(2013-01-13)
+ * Add bik and smk to the list of video extensions.
+ * Add aac and dts to the list of audio extensions.
+ 
 (2013-01-12)
  * Add mts to the list of video extensions.
 
