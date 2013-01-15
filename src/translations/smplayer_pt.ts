@@ -292,17 +292,17 @@
     <message>
         <location filename="../about.cpp" line="65"/>
         <source>Links:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ligações:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="66"/>
         <source>Official website:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sítio web:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Support forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fórum de suporte:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
