@@ -198,7 +198,7 @@
             <number>1</number>
            </property>
            <property name="maximum" >
-            <number>8</number>
+            <number>16</number>
            </property>
            <property name="value" >
             <number>1</number>
