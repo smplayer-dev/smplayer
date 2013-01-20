@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (vyžadován)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; vyžadován pro přehrávání."
 
 ${LangFileString} Section_MPlayerCodecs "Binární kodeky"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "Dodatkový program pro MPlayer, který se využívá k enkódování nebo transformaci audio/video souborů."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "Kodeky MPlayeru se nepovedlo nainstalovat. Zk
 ${LangFileString} Codecs_DL_Failed "Nepovedlo se stáhnout kodeky MPlayeru: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Nepovedlo se nainstalovat kodeky MPlayeru."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Stahuji informace o verzích..."
-${LangFileString} VerInfo_DL_Failed "Nepovedlo se stáhnout informace o verzích: '$R0'. Užita výchozí verze."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Odinstalaci je potřeba provést s právy administrátora."
 ${LangFileString} Uninstaller_Aborted "Odinstalace přerušena uživatelem."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "Tato instalace jde odinstalovat pouze n
 ${LangFileString} Application_Description "SMPlayer je kompletní frontend pro MPlayer, podporuje vše od základních funkcí jako přehrávání videí, DVD, VCD až po pokročilé funkce jako filtry MPlayeru, edl a více."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Mažu soubory..."
 ${LangFileString} Info_Del_Registry "Mažu záznamy registru..."
 ${LangFileString} Info_Del_Shortcuts "Mažu zástupce..."

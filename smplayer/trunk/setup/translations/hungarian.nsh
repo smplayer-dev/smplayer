@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (required)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback."
 
 ${LangFileString} Section_MPlayerCodecs "Binary Codecs"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "Az MPlayer kodekek telepítése nem sikerült
 ${LangFileString} Codecs_DL_Failed "Az MPlayer kodekek letöltése nem sikerült: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Az MPlayer kodekek telepítése nem sikerült."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Verzió információ letöltése..."
-${LangFileString} VerInfo_DL_Failed "Verzió információ letöltése nem sikerült: '$R0'. Alapértelmezett verzió használata."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "A program eltávolításához rendszergazda jogosultság szükséges."
 ${LangFileString} Uninstaller_Aborted "Az eltávolítást a felhasználó megszakította."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstall
 ${LangFileString} Application_Description "Az SMPlayer egy komplett felület az MPlayerhez, mindent támogat az alap funkcióktól kezdve, mint a videók, DVDk, VCDk lejátszása, haladó funkciókig, mint az MPlayer szűrők, edl listák és még sok más."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Deleting Files..."
 ${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
 ${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."

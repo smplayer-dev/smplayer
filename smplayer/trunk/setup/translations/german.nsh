@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (erforderlich)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer – benötigt für die Wiedergabe."
 
 ${LangFileString} Section_MPlayerCodecs "Binärcodecs"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Optionale Codecs für MPlayer."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Optionale Codecs für MPlayer. (Internetverbindung benötigt für Installation)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "Die MPlayer-Codecs sind nicht erfolgreich ins
 ${LangFileString} Codecs_DL_Failed "Fehler beim Herunterladen der MPlayer-Codecs: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Fehler beim Installieren der MPlayer-Codecs."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Informationen der Version herunterladen …"
-${LangFileString} VerInfo_DL_Failed "Fehler beim Herunterladen der Versionsinfo: '$R0'. Standard-Version wird genommen."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Es sind Administratorrechte nötig, um dieses Programm zu deinstallieren."
 ${LangFileString} Uninstaller_Aborted "Die Deinstallation ist vom Benutzer abgebrochen worden."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstall
 ${LangFileString} Application_Description "SMPlayer ist ein komplettes grafische Oberfläche für MPlayer, von grundlegenden Funktionen, wie das Abspielen von Videos, DVDs, VCDs, bis zu erweiterten Funktionen, wie die Unterstützung für MPlayer-Filter, edl-Listen und vielem mehr."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Deleting Files..."
 ${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
 ${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."

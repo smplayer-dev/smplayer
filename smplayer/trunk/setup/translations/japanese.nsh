@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (必須)"
 ${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer です。"
 
 ${LangFileString} Section_MPlayerCodecs "バイナリ コーデック"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。"
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "MPlayer コーデックは正常にインス�
 ${LangFileString} Codecs_DL_Failed "MPlayer コーデックのダウンロードに失敗しました: '$R0'。"
 ${LangFileString} Codecs_Inst_Failed "MPlayer コーデックのインストールに失敗しました。"
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "バージョン情報をダウンロードしています..."
-${LangFileString} VerInfo_DL_Failed "バージョン情報のダウンロードに失敗しました: '$R0'。既定のバージョンを使用します。"
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
 ${LangFileString} Uninstaller_Aborted "アンインストールはユーザーによって中止されました。"
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "このインストールは 64 ビッ�
 ${LangFileString} Application_Description "SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィルター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロントエンドです。"
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "ファイルを削除しています..."
 ${LangFileString} Info_Del_Registry "レジストリ キーを削除しています..."
 ${LangFileString} Info_Del_Shortcuts "ショートカットを削除しています..."

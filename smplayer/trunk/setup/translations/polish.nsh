@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (wymagane)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; wymagany do odtwarzania filmów."
 
 ${LangFileString} Section_MPlayerCodecs "Kodeki"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera. (Wymagane połączenie z internetem)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "Jest to prosty koder (kompresor) filmów, zaprojektowany do kodowania filmów otwieralnych MPlayerem do innych obsługiwanych formatów"
 ${LangFileString} Section_IconThemes "Zestawy Ikon"
@@ -77,10 +73,6 @@ ${LangFileString} Codecs_DL_Retry "Instalacja Kodeków MPlayera nie powiodła si
 ${LangFileString} Codecs_DL_Failed "Nie udało się pobrać Kodeków MPlayera: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Nie udało się zainstalować Kodeków MPlayera."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Pobieram informacje o wersji..."
-${LangFileString} VerInfo_DL_Failed "Nie udało się pobrać informacji o wersji: '$R0'. Użyta zostanie wersja domyślna."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Aplikacja może być usunięta tylko przez osobe z uprawnieniami Administratora."
 ${LangFileString} Uninstaller_Aborted "Usuwanie anulowane przez użytkownika."
@@ -91,6 +83,8 @@ ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstall
 ${LangFileString} Application_Description "SMPlayer jest graficzną nakładką programu MPlayer, z prostymi funkcjami, takimi jak odtwarzanie wideo, DVD i VCD oraz z bardziej zaawansowanymi funkcjami np: obsługa filtrów MPlayera i wiele innych."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Usuwanie Plików..."
 ${LangFileString} Info_Del_Registry "Usuwanie Kluczy Rejestru..."
 ${LangFileString} Info_Del_Shortcuts "Usuwanie Skrótów..."

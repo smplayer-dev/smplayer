@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (obrigatório)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; necessário para a reprodução."
 
 ${LangFileString} Section_MPlayerCodecs "Codificadores"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Codificadores opcionais para o MPlayer."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Codificadores opcionais para o MPlayer. (precisa de uma ligação à Internet)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "Um programa complementar ao MPlayer, utilizado para codificar ou converter emissões de vídeo e áudio."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "Os codificadores MPlayer não foram instalado
 ${LangFileString} Codecs_DL_Failed "Falha ao transferir os codificadores MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Falha ao instalar os codificadores MPlayer."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "A transferir informações da versão..."
-${LangFileString} VerInfo_DL_Failed "Ocorreu um erro ao transferir ao informações da versão: '$R0'. A utilizar versão padrão."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Esta aplicação só pode ser desinstalada no modo de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalação cancelada pelo utilizador."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "Esta instalação só pode ser desinsta
 ${LangFileString} Application_Description "O SMPlayer é uma interface gráfico para o MPlayer, com funções simples como a reprodução de vídeos, DVDs e VCDs bem como outras mais avançadas(suporte a filtros MPlayer, listas e mais)."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "A eliminar ficheiros..."
 ${LangFileString} Info_Del_Registry "A eliminar chaves de registo..."
 ${LangFileString} Info_Del_Shortcuts "A eliminar atalhos..."

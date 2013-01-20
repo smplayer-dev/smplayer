@@ -368,7 +368,7 @@ SectionGroup $(MPlayerGroupTitle)
     StrCpy $Codec_Version "windows-essential-20071007"
 
     ${If} $Restore_Codecs == 1
-      DetailPrint "Restoring codecs from previous installation..."
+      DetailPrint $(Info_Codecs_Restore)
       CopyFiles /SILENT "$PLUGINSDIR\codecbak\*" "$INSTDIR\mplayer\codecs"
       Goto check_codecs
     ${ElseIf} ${FileExists} "$EXEDIR\$Codec_Version.zip"
@@ -744,7 +744,7 @@ FunctionEnd
 Function Backup_Codecs
 
   IfFileExists "$SMPlayer_Path\mplayer\codecs\*.dll" 0 NoBackup
-    DetailPrint "Backing up codecs from previous installation..."
+    DetailPrint $(Info_Codecs_Backup)
     CopyFiles /SILENT "$SMPlayer_Path\mplayer\codecs\*" "$PLUGINSDIR\codecbak"
     StrCpy $Restore_Codecs 1
     Return
