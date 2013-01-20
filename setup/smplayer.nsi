@@ -42,18 +42,6 @@
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
-  ;Fallback versions
-  ;These can be changed in the compiler, otherwise
-  ;if not defined the values shown here will be used.
-!ifndef DEFAULT_CODECS_VERSION
-  !define DEFAULT_CODECS_VERSION "windows-essential-20071007"
-!endif
-
-  ;Version control
-!ifndef VERSION_FILE_URL
-  !define VERSION_FILE_URL "http://smplayer.sourceforge.net/mplayer-version-info"
-!endif
-
 ;--------------------------------
 ;General
 
@@ -97,6 +85,7 @@
 ;--------------------------------
 ;Variables
 
+  Var Codec_Version
   Var Dialog_Reinstall
   Var Inst_Type
   Var Previous_Version
@@ -372,20 +361,14 @@ SectionGroup $(MPlayerGroupTitle)
 
     AddSize 22300
 
-    Var /GLOBAL Codec_Version
-
-    Call GetVerInfo
-
-    /* Read from version-info
-    If it was unable to download, set version to that defined in the
-    beginning of the script. */
-    ${If} ${FileExists} "$PLUGINSDIR\version-info"
-      ReadINIStr $Codec_Version "$PLUGINSDIR\version-info" smplayer mplayercodecs
-    ${Else}
-      StrCpy $Codec_Version ${DEFAULT_CODECS_VERSION}
-    ${EndIf}
+    StrCpy $Codec_Version "windows-essential-20071007"
 
     retry_codecs:
+
+    ${If} ${FileExists} "$EXEDIR\$Codec_Version.zip"
+      CopyFiles /SILENT "$EXEDIR\$Codec_Version.zip" "$PLUGINSDIR"
+      Goto install_local
+    ${EndIf}
 
     DetailPrint $(Codecs_DL_Msg)
     inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(Codecs_DL_Msg) /CAPTION $(Codecs_DL_Msg) \
@@ -394,6 +377,12 @@ SectionGroup $(MPlayerGroupTitle)
     Pop $R0
     StrCmp $R0 OK 0 check_codecs
 
+    ${If} $R0 != "OK"
+      DetailPrint $(Codecs_DL_Failed)
+    ${EndIf}
+
+    install_local:
+
     DetailPrint $(Info_Files_Extract)
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$Codec_Version.zip" -y -o"$PLUGINSDIR"'
 
@@ -401,10 +390,6 @@ SectionGroup $(MPlayerGroupTitle)
     CopyFiles /SILENT "$PLUGINSDIR\$Codec_Version\*" "$INSTDIR\mplayer\codecs"
 
     check_codecs:
-
-    ${If} $R0 != "OK"
-      DetailPrint $(Codecs_DL_Failed)
-    ${EndIf}
 
     IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
       codecsInstSuccess:
@@ -748,19 +733,6 @@ Function CheckPreviousVersion
   ${ElseIf} $Previous_Version_State == 2
     StrCpy $Inst_Type $(Type_Upgrade)
   ${EndIf}
-
-FunctionEnd
-
-Function GetVerInfo
-
-  IfFileExists "$PLUGINSDIR\version-info" end_dl_ver_info 0
-    DetailPrint $(VerInfo_DL_Msg)
-    inetc::get /CONNECTTIMEOUT 15000 /SILENT ${VERSION_FILE_URL} "$PLUGINSDIR\version-info" /END
-    Pop $R0
-    StrCmp $R0 OK +2
-      DetailPrint $(VerInfo_DL_Failed)
-
-  end_dl_ver_info:
 
 FunctionEnd
 
