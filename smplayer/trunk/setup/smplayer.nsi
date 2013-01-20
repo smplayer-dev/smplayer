@@ -98,6 +98,7 @@
   Var Reinstall_Uninstall
   Var Reinstall_UninstallButton
   Var Reinstall_UninstallButton_State
+  Var Restore_Codecs
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
@@ -276,6 +277,9 @@ Section $(Section_SMPlayer) SecSMPlayer
       Exec '"$SMPlayer_UnStrPath" /X'
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
+
+      Call Backup_Codecs
+
       ${If} "$INSTDIR" == "$SMPlayer_Path"
         ExecWait '"$SMPlayer_UnStrPath" /S /R _?=$SMPlayer_Path'
       ${Else}
@@ -363,25 +367,28 @@ SectionGroup $(MPlayerGroupTitle)
 
     StrCpy $Codec_Version "windows-essential-20071007"
 
-    retry_codecs:
-
-    ${If} ${FileExists} "$EXEDIR\$Codec_Version.zip"
+    ${If} $Restore_Codecs == 1
+      DetailPrint "Restoring codecs from previous installation..."
+      CopyFiles /SILENT "$PLUGINSDIR\codecbak\*" "$INSTDIR\mplayer\codecs"
+      Goto check_codecs
+    ${ElseIf} ${FileExists} "$EXEDIR\$Codec_Version.zip"
       CopyFiles /SILENT "$EXEDIR\$Codec_Version.zip" "$PLUGINSDIR"
-      Goto install_local
+      Goto extract_codecs
     ${EndIf}
+
+    retry_codecs_dl:
 
     DetailPrint $(Codecs_DL_Msg)
     inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(Codecs_DL_Msg) /CAPTION $(Codecs_DL_Msg) \
     "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
     "$PLUGINSDIR\$Codec_Version.zip" /END
     Pop $R0
-    StrCmp $R0 OK 0 check_codecs
-
-    ${If} $R0 != "OK"
+    StrCmp $R0 OK +3 0
       DetailPrint $(Codecs_DL_Failed)
-    ${EndIf}
+      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(Codecs_DL_Retry) /SD IDCANCEL IDRETRY retry_codecs_dl
+      Goto check_codecs
 
-    install_local:
+    extract_codecs:
 
     DetailPrint $(Info_Files_Extract)
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$Codec_Version.zip" -y -o"$PLUGINSDIR"'
@@ -391,12 +398,10 @@ SectionGroup $(MPlayerGroupTitle)
 
     check_codecs:
 
-    IfFileExists "$INSTDIR\mplayer\codecs\*.dll" codecsInstSuccess codecsInstFailed
-      codecsInstSuccess:
+    IfFileExists "$INSTDIR\mplayer\codecs\*.dll" 0 codecsInstFailed
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
         Goto done
       codecsInstFailed:
-        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(Codecs_DL_Retry) /SD IDCANCEL IDRETRY retry_codecs
         DetailPrint $(Codecs_Inst_Failed)
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
         Sleep 5000
@@ -733,6 +738,18 @@ Function CheckPreviousVersion
   ${ElseIf} $Previous_Version_State == 2
     StrCpy $Inst_Type $(Type_Upgrade)
   ${EndIf}
+
+FunctionEnd
+
+Function Backup_Codecs
+
+  IfFileExists "$SMPlayer_Path\mplayer\codecs\*.dll" 0 NoBackup
+    DetailPrint "Backing up codecs from previous installation..."
+    CopyFiles /SILENT "$SMPlayer_Path\mplayer\codecs\*" "$PLUGINSDIR\codecbak"
+    StrCpy $Restore_Codecs 1
+    Return
+  NoBackup:
+    StrCpy $Restore_Codecs 0
 
 FunctionEnd
 
