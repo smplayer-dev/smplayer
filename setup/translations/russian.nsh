@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (необходимо)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; необходимо для воспроизведения."
 
 ${LangFileString} Section_MPlayerCodecs "Бинарные кодеки"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Дополнительные кодеки для MPlayer."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Дополнительные кодеки для MPlayer. (Для установки требуется подключение к сети Интернет)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "Сопутствующая MPlayer программа, которую можно использовать для кодирования и преобразования поддерживаемых аудио и видео потоков."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "Не удалось успешно устан
 ${LangFileString} Codecs_DL_Failed "Не удалось загрузить бинарные кодеки для MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Ошибка при установке бинарных кодеков для MPlayer."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Загрузка информации о версии..."
-${LangFileString} VerInfo_DL_Failed "Не удалось загрузить информацию о версии: '$R0'. Будет использована версия по умолчанию."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Эта установка может быть удалена только пользователем с правами администратора."
 ${LangFileString} Uninstaller_Aborted "Удаление прервано пользователем."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "Эта установка может б
 ${LangFileString} Application_Description "SMPlayer - полноценная оболочка для MPlayer, начиная от базовых функций вроде воспроизведения видеофайлов, DVD, VCD и заканчивая более продвинутыми вроде поддержки фильтров MPlayer, списков и т.д."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Удаление файлов..."
 ${LangFileString} Info_Del_Registry "Удаление ключей реестра..."
 ${LangFileString} Info_Del_Shortcuts "Удаление ярлыков..."

@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (requerido)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; requerido para la reproducción multimedia."
 
 ${LangFileString} Section_MPlayerCodecs "Códecs Binarios"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Códecs opcionales para MPlayer."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Códecs opcionales para MPlayer. (Se necesita conexión a internet para la instalación)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "Un programa opcional que puede ser usado para recodificar vídeos."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "Los códecs del MPlayer no se han instalado c
 ${LangFileString} Codecs_DL_Failed "Ha fallado la descarga de los códecs del MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Ha fallado la instalación del los códecs del MPlayer."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Descargando la información de la versión..."
-${LangFileString} VerInfo_DL_Failed "Ha fallado la descarga de la información de la versión: '$R0'. Se usará la versión por defecto."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Este programa sólo se puede desinstalar por un usuario con permisos de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalación cancelada por el usuario."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "Esta instalación sólo se puede desins
 ${LangFileString} Application_Description "SMPlayer pretende ser un interfaz completo para MPlayer, con opciones para cosas básicas, como reproducir vídeos, DVDs y VCDs hasta opciones más avanzadas como soporte para los filtros del MPlayer y mucho más."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Borrando ficheros..."
 ${LangFileString} Info_Del_Registry "Borrando claves del registro..."
 ${LangFileString} Info_Del_Shortcuts "Borrando accesos..."

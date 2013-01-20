@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (required)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback."
 
 ${LangFileString} Section_MPlayerCodecs "Binary Codecs"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "MPlayer codecs were not successfully installe
 ${LangFileString} Codecs_DL_Failed "Failed to download MPlayer codecs: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Failed to install MPlayer codecs."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Downloading version information..."
-${LangFileString} VerInfo_DL_Failed "Failed to download version info: '$R0'. Using a default version."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "This installation can only be uninstalled by a user with administrator privileges."
 ${LangFileString} Uninstaller_Aborted "Uninstall aborted by user."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstall
 ${LangFileString} Application_Description "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Deleting Files..."
 ${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
 ${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."

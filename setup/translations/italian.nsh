@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (essenziale)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; essenziale per la riproduzione."
 
 ${LangFileString} Section_MPlayerCodecs "Codec binari"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Codec aggiuntivi per MPlayer."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Codec aggiuntivi per MPlayer. (Connessione a Internet richiesta per l'installazione)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "I codec di MPlayer non sono stati completamen
 ${LangFileString} Codecs_DL_Failed "Scaricamento dei codec di MPlayer fallito: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Installazione dei codec di MPlayer fallita."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Sto scaricando le informazioni di versione..."
-${LangFileString} VerInfo_DL_Failed "Scaricamento delle informazioni di versione fallito: '$R0'. Using a default version."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "La disinstallazione può essere effettuata solo da un utente con permessi amministrativi."
 ${LangFileString} Uninstaller_Aborted "Disinstallazione annullata dall'utente."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstall
 ${LangFileString} Application_Description "SMPlayer è un'interfaccia completa per MPlayer, fornisce funzionalità di base come la riproduzione di video, DVD, VCD e funzionalità più avanzate come il supporto dei filtri di MPlayer, le liste edl e altro ancora."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Deleting Files..."
 ${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
 ${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."

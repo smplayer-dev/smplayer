@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (必需)"
 ${LangFileString} Section_MPlayer_Desc "播放所必需的 MPlayer。"
 
 ${LangFileString} Section_MPlayerCodecs "二进制编解码器"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "适用于 MPlayer 的可选编解码器。"
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "适用于 MPlayer 的可选编解码器。(安装需要使用网络连接)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer 的配套程序，可以用来编码或转换支持的音频/视频流。"
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "MPlayer 编解码器没有成功安装。是�
 ${LangFileString} Codecs_DL_Failed "无法下载 MPlayer 编解码器: 『$R0』。"
 ${LangFileString} Codecs_Inst_Failed "无法安装 MPlayer 编解码器。"
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "正在下载版本信息..."
-${LangFileString} VerInfo_DL_Failed "无法下载版本信息: 『$R0』。将使用默认版本。"
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "安装只能由拥有管理员权限的用户卸载。"
 ${LangFileString} Uninstaller_Aborted "卸载被用户终止。"
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "安装只能在 64 位 Windows 中卸�
 ${LangFileString} Application_Description "SMPlayer 是一个完备的 MPlayer 前端，从像播放视频、DVD、VCD 这样的基本功能，到支持 MPlayer 过滤器、EDL 列表等更多的高级功能。"
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "正在删除文件..."
 ${LangFileString} Info_Del_Registry "正在删除注册表项..."
 ${LangFileString} Info_Del_Shortcuts "正在删除快捷方式..."

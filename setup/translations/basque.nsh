@@ -37,11 +37,7 @@ ${LangFileString} Section_MPlayer "MPlayer (beharrezkoa)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; beharrezkoa irakurketarako."
 
 ${LangFileString} Section_MPlayerCodecs "Kodek Binarioak"
-!ifdef WITH_CODECS
-${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayerrentzat."
-!else ifndef WITH_CODECS
 ${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayerrentzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
-!endif
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
 
@@ -78,10 +74,6 @@ ${LangFileString} Codecs_DL_Retry "MPlayer kodekak ez dira ongi ezarri. Berriro 
 ${LangFileString} Codecs_DL_Failed "Hutsegitea MPlayer kodekak: '$R0'. jeisterakoan."
 ${LangFileString} Codecs_Inst_Failed "Hutsegitea MPlayer kodekak ezartzerakoan."
 
-; Version information
-${LangFileString} VerInfo_DL_Msg "Bertsio argibideak jeisten..."
-${LangFileString} VerInfo_DL_Failed "Hutsegitea bertsio argibideak jeisterakoan: '$R0'. Berezko bertsioa erabiltzen."
-
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Ezarpen hau administratzaile eskubidea duen erabiltzaileak bakarrik kendu dezake."
 ${LangFileString} Uninstaller_Aborted "Kentzea erabiltzaileak utzita."
@@ -92,6 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "Ezarpen hau 64-biteko Windowsetik bakar
 ${LangFileString} Application_Description "SMPlayer aurrealde-amaiera oso bat da MPlayer-entzat, ohinarrizko eginkizunetatik: Bideo, DVD, VCD irakurketatik, eginkizun aurreratuenetarainok: MPlayer iragazkiak, edl zerrenda, eta gehiago."
 
 ; Misc
+${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
+${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
 ${LangFileString} Info_Del_Files "Agiriak Ezabatzen..."
 ${LangFileString} Info_Del_Registry "Erresgistro Giltzak Ezabatzen..."
 ${LangFileString} Info_Del_Shortcuts "Lasterbideak Ezabatzen..."
