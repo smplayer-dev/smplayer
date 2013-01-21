@@ -285,6 +285,9 @@ Section $(Section_SMPlayer) SecSMPlayer
       ${Else}
         ExecWait '"$SMPlayer_UnStrPath" /S /R'
       ${EndIf}
+
+      Sleep 2500
+
     ${EndIf}
 
   ${EndIf}
