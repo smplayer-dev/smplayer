@@ -585,6 +585,7 @@ ${MementoSectionDone}
   Delete "$INSTDIR\mingwm10.dll"
   Delete "$INSTDIR\zlib1.dll"
   Delete "$INSTDIR\Qt*.dll"
+  Delete "$INSTDIR\sample.avi"
   Delete "$INSTDIR\smplayer.exe"
   Delete "$INSTDIR\smtube.exe"
   Delete "$INSTDIR\dxlist.exe"
