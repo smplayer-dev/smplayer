@@ -383,7 +383,7 @@ SectionGroup $(MPlayerGroupTitle)
     "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
     "$PLUGINSDIR\$Codec_Version.zip" /END
     Pop $R0
-    StrCmp $R0 OK +3 0
+    StrCmp $R0 OK +4 0
       DetailPrint $(Codecs_DL_Failed)
       MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(Codecs_DL_Retry) /SD IDCANCEL IDRETRY retry_codecs_dl
       Goto check_codecs
