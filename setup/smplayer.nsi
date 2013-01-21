@@ -744,6 +744,10 @@ FunctionEnd
 
 Function Backup_Codecs
 
+  ${IfNot} ${SectionIsSelected} ${SecCodecs}
+    Return
+  ${EndIf}
+
   IfFileExists "$SMPlayer_Path\mplayer\codecs\*.dll" 0 NoBackup
     DetailPrint $(Info_Codecs_Backup)
     CopyFiles /SILENT "$SMPlayer_Path\mplayer\codecs\*" "$PLUGINSDIR\codecbak"
