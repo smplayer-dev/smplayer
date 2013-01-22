@@ -1,5 +1,8 @@
 [b]Version 0.8.4[/b]:
 
+(2013-01-21)
+ * Add a confirmation dialog to delete the list of recent files.
+
 (2013-01-13)
  * Add bik and smk to the list of video extensions.
  * Add aac and dts to the list of audio extensions.
