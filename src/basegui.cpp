@@ -3128,9 +3128,15 @@ void BaseGui::updateRecents() {
 }
 
 void BaseGui::clearRecentsList() {
-	// Delete items in menu
-	pref->history_recents->clear();
-	updateRecents();
+	int ret = QMessageBox::question(this, "SMPlayer",
+				tr("Delete the list of recent files?"),
+				QMessageBox::Cancel, QMessageBox::Ok);
+
+	if (ret == QMessageBox::Ok) {
+		// Delete items in menu
+		pref->history_recents->clear();
+		updateRecents();
+	}
 }
 
 void BaseGui::updateWidgets() {
