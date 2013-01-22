@@ -84,8 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "Esta instalação só pode ser desinsta
 ${LangFileString} Application_Description "O SMPlayer é uma interface gráfico para o MPlayer, com funções simples como a reprodução de vídeos, DVDs e VCDs bem como outras mais avançadas(suporte a filtros MPlayer, listas e mais)."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
+${LangFileString} Info_Codecs_Backup "A copiar codificadores da instalação anterior..."
+${LangFileString} Info_Codecs_Restore "A restaurar codificadores da instalação anterior..."
 ${LangFileString} Info_Del_Files "A eliminar ficheiros..."
 ${LangFileString} Info_Del_Registry "A eliminar chaves de registo..."
 ${LangFileString} Info_Del_Shortcuts "A eliminar atalhos..."
