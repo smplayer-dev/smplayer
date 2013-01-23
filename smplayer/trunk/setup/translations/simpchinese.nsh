@@ -84,8 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "安装只能在 64 位 Windows 中卸�
 ${LangFileString} Application_Description "SMPlayer 是一个完备的 MPlayer 前端，从像播放视频、DVD、VCD 这样的基本功能，到支持 MPlayer 过滤器、EDL 列表等更多的高级功能。"
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
+${LangFileString} Info_Codecs_Backup "正在从以前的安装中备份编解码器..."
+${LangFileString} Info_Codecs_Restore "正在从以前的安装中恢复编解码器..."
 ${LangFileString} Info_Del_Files "正在删除文件..."
 ${LangFileString} Info_Del_Registry "正在删除注册表项..."
 ${LangFileString} Info_Del_Shortcuts "正在删除快捷方式..."
