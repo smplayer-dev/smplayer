@@ -893,85 +893,85 @@ Do you want to overwrite?</source>
         <translation>&amp;SMPlayer에 대하여</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2976"/>
-        <location filename="../basegui.cpp" line="2992"/>
-        <location filename="../basegui.cpp" line="3008"/>
-        <location filename="../basegui.cpp" line="3023"/>
-        <location filename="../basegui.cpp" line="3055"/>
-        <location filename="../basegui.cpp" line="3075"/>
-        <location filename="../basegui.cpp" line="3115"/>
+        <location filename="../basegui.cpp" line="2984"/>
+        <location filename="../basegui.cpp" line="3000"/>
+        <location filename="../basegui.cpp" line="3016"/>
+        <location filename="../basegui.cpp" line="3031"/>
+        <location filename="../basegui.cpp" line="3063"/>
+        <location filename="../basegui.cpp" line="3083"/>
+        <location filename="../basegui.cpp" line="3123"/>
         <source>&lt;empty&gt;</source>
         <translation>(비어 있음)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3485"/>
+        <location filename="../basegui.cpp" line="3499"/>
         <source>Video</source>
         <translation>동영상 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3486"/>
-        <location filename="../basegui.cpp" line="3676"/>
+        <location filename="../basegui.cpp" line="3500"/>
+        <location filename="../basegui.cpp" line="3690"/>
         <source>Audio</source>
         <translation>오디오 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3487"/>
+        <location filename="../basegui.cpp" line="3501"/>
         <source>Playlists</source>
         <translation>재생 목록</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3488"/>
-        <location filename="../basegui.cpp" line="3656"/>
-        <location filename="../basegui.cpp" line="3677"/>
+        <location filename="../basegui.cpp" line="3502"/>
+        <location filename="../basegui.cpp" line="3670"/>
+        <location filename="../basegui.cpp" line="3691"/>
         <source>All files</source>
         <translation>모든 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3483"/>
-        <location filename="../basegui.cpp" line="3653"/>
-        <location filename="../basegui.cpp" line="3674"/>
+        <location filename="../basegui.cpp" line="3497"/>
+        <location filename="../basegui.cpp" line="3667"/>
+        <location filename="../basegui.cpp" line="3688"/>
         <source>Choose a file</source>
         <translation>파일을 선택하십시요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3535"/>
+        <location filename="../basegui.cpp" line="3549"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3550"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM 및 DVD 드라이브가 지정되지 않았습니다.
 드라이브 설정을 위한 대화 상자가 표시될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3619"/>
+        <location filename="../basegui.cpp" line="3633"/>
         <source>Choose a directory</source>
         <translation>폴더 선택</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3655"/>
+        <location filename="../basegui.cpp" line="3669"/>
         <source>Subtitles</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3719"/>
+        <location filename="../basegui.cpp" line="3733"/>
         <source>About Qt</source>
         <translation>Qt에 대하여</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4207"/>
         <source>Playing %1</source>
         <translation>%1 재생 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4194"/>
+        <location filename="../basegui.cpp" line="4208"/>
         <source>Pause</source>
         <translation>일시 정지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4195"/>
+        <location filename="../basegui.cpp" line="4209"/>
         <source>Stop</source>
         <translation>정지됨</translation>
     </message>
@@ -1237,12 +1237,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4692"/>
+        <location filename="../basegui.cpp" line="3131"/>
+        <source>Confirm deletion - SMPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3132"/>
+        <source>Delete the list of recent files?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4706"/>
         <source>An error happened - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4692"/>
+        <location filename="../basegui.cpp" line="4706"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1349,7 +1359,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3698"/>
+        <location filename="../basegui.cpp" line="3712"/>
         <source>SMPlayer command line options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1364,32 +1374,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4591"/>
+        <location filename="../basegui.cpp" line="4605"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4592"/>
+        <location filename="../basegui.cpp" line="4606"/>
         <source>Exit code: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4625"/>
         <source>MPlayer failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4626"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4614"/>
+        <location filename="../basegui.cpp" line="4628"/>
         <source>MPlayer has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4615"/>
+        <location filename="../basegui.cpp" line="4629"/>
         <source>See the log for more info.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1434,7 +1444,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3484"/>
+        <location filename="../basegui.cpp" line="3498"/>
         <source>Multimedia</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1516,22 +1526,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">트랙(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4013"/>
+        <location filename="../basegui.cpp" line="4027"/>
         <source>Warning - Using old MPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4014"/>
+        <location filename="../basegui.cpp" line="4028"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4019"/>
+        <location filename="../basegui.cpp" line="4033"/>
         <source>Please, update your MPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4021"/>
+        <location filename="../basegui.cpp" line="4035"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1626,32 +1636,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3738"/>
         <source>&amp;Jump to:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3725"/>
+        <location filename="../basegui.cpp" line="3739"/>
         <source>SMPlayer - Seek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3735"/>
+        <location filename="../basegui.cpp" line="3749"/>
         <source>SMPlayer - Audio delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3736"/>
+        <location filename="../basegui.cpp" line="3750"/>
         <source>Audio delay (in milliseconds):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3745"/>
+        <location filename="../basegui.cpp" line="3759"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3746"/>
+        <location filename="../basegui.cpp" line="3760"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1661,7 +1671,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4315"/>
+        <location filename="../basegui.cpp" line="4329"/>
         <source>Jump to %1</source>
         <translation type="unfinished"></translation>
     </message>

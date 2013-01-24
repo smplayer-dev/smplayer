@@ -987,7 +987,17 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1966"/>
+        <location line="+405"/>
+        <source>Confirm deletion - SMPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Delete the list of recent files?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1574"/>
         <source>An error happened - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -997,7 +1007,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-2976"/>
+        <location line="-2990"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1010,7 +1020,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="obsolete">SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1260"/>
+        <location line="+1268"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -1021,7 +1031,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>&lt;vuoto&gt;</translation>
     </message>
     <message>
-        <location line="+370"/>
+        <location line="+376"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
@@ -1094,7 +1104,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2768"/>
+        <location line="-2782"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1366,12 +1376,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2140"/>
+        <location line="+2154"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2171"/>
+        <location line="-2185"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
@@ -1381,7 +1391,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+2988"/>
+        <location line="+3002"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1411,7 +1421,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-2926"/>
+        <location line="-2940"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1451,12 +1461,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1879"/>
+        <location line="+1893"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-1989"/>
+        <location line="-2003"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
@@ -1533,7 +1543,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2264"/>
+        <location line="+2278"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1553,7 +1563,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2415"/>
+        <location line="-2429"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
@@ -1643,7 +1653,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2207"/>
+        <location line="+2221"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1673,17 +1683,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2004"/>
+        <location line="-2018"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2573"/>
+        <location line="+2587"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-2854"/>
+        <location line="-2868"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>

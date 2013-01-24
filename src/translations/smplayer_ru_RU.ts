@@ -1000,12 +1000,22 @@ Do you want to overwrite?</source>
         <translation>Для использования нового GUI необходим перезапуск SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4692"/>
+        <location filename="../basegui.cpp" line="3131"/>
+        <source>Confirm deletion - SMPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3132"/>
+        <source>Delete the list of recent files?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4706"/>
         <source>An error happened - SMPlayer</source>
         <translation>Произошла ошибка - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4692"/>
+        <location filename="../basegui.cpp" line="4706"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>Браузер YouTube не может быть запущен</translation>
     </message>
@@ -1023,85 +1033,85 @@ Do you want to overwrite?</source>
         <translation type="obsolete">SMPlayer – отчёт smplayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2976"/>
-        <location filename="../basegui.cpp" line="2992"/>
-        <location filename="../basegui.cpp" line="3008"/>
-        <location filename="../basegui.cpp" line="3023"/>
-        <location filename="../basegui.cpp" line="3055"/>
-        <location filename="../basegui.cpp" line="3075"/>
-        <location filename="../basegui.cpp" line="3115"/>
+        <location filename="../basegui.cpp" line="2984"/>
+        <location filename="../basegui.cpp" line="3000"/>
+        <location filename="../basegui.cpp" line="3016"/>
+        <location filename="../basegui.cpp" line="3031"/>
+        <location filename="../basegui.cpp" line="3063"/>
+        <location filename="../basegui.cpp" line="3083"/>
+        <location filename="../basegui.cpp" line="3123"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ничего&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3485"/>
+        <location filename="../basegui.cpp" line="3499"/>
         <source>Video</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3486"/>
-        <location filename="../basegui.cpp" line="3676"/>
+        <location filename="../basegui.cpp" line="3500"/>
+        <location filename="../basegui.cpp" line="3690"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3487"/>
+        <location filename="../basegui.cpp" line="3501"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3488"/>
-        <location filename="../basegui.cpp" line="3656"/>
-        <location filename="../basegui.cpp" line="3677"/>
+        <location filename="../basegui.cpp" line="3502"/>
+        <location filename="../basegui.cpp" line="3670"/>
+        <location filename="../basegui.cpp" line="3691"/>
         <source>All files</source>
         <translation>Все файлы</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3483"/>
-        <location filename="../basegui.cpp" line="3653"/>
-        <location filename="../basegui.cpp" line="3674"/>
+        <location filename="../basegui.cpp" line="3497"/>
+        <location filename="../basegui.cpp" line="3667"/>
+        <location filename="../basegui.cpp" line="3688"/>
         <source>Choose a file</source>
         <translation>Выбрать файл</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3535"/>
+        <location filename="../basegui.cpp" line="3549"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer – Информация</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3550"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводы CD/DVD еще не настроены.
 Вы сможете сделать это в диалоге настроек этих устройств.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3619"/>
+        <location filename="../basegui.cpp" line="3633"/>
         <source>Choose a directory</source>
         <translation>Выбрать каталог</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3655"/>
+        <location filename="../basegui.cpp" line="3669"/>
         <source>Subtitles</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3719"/>
+        <location filename="../basegui.cpp" line="3733"/>
         <source>About Qt</source>
         <translation>О Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4207"/>
         <source>Playing %1</source>
         <translation>Воспроизводится %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4194"/>
+        <location filename="../basegui.cpp" line="4208"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4195"/>
+        <location filename="../basegui.cpp" line="4209"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1378,7 +1388,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Опции командной &amp;строки</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3698"/>
+        <location filename="../basegui.cpp" line="3712"/>
         <source>SMPlayer command line options</source>
         <translation>Опции командной строки SMPlayer</translation>
     </message>
@@ -1393,32 +1403,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сброс видеоэквалайзера</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4591"/>
+        <location filename="../basegui.cpp" line="4605"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Неожиданное завершение MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4592"/>
+        <location filename="../basegui.cpp" line="4606"/>
         <source>Exit code: %1</source>
         <translation>Код ошибки: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4625"/>
         <source>MPlayer failed to start.</source>
         <translation>Ошибка запуска MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4626"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Проверьте путь к MPlayer в настройках.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4614"/>
+        <location filename="../basegui.cpp" line="4628"/>
         <source>MPlayer has crashed.</source>
         <translation>Сбой MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4615"/>
+        <location filename="../basegui.cpp" line="4629"/>
         <source>See the log for more info.</source>
         <translation>Смотрите отчёт для подробной информации.</translation>
     </message>
@@ -1463,7 +1473,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Показать контекстное меню</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3484"/>
+        <location filename="../basegui.cpp" line="3498"/>
         <source>Multimedia</source>
         <translation>Мультимедиа</translation>
     </message>
@@ -1545,22 +1555,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Дорожка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4013"/>
+        <location filename="../basegui.cpp" line="4027"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Предупреждение: Используется старая версия MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4014"/>
+        <location filename="../basegui.cpp" line="4028"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Установленная в вашей системе версия MPlayer (%1) устарела. SMPlayer не может работать с ней достаточно хорошо: некоторые опции не будут работать, выбор субтитров может вызывать ошибку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4019"/>
+        <location filename="../basegui.cpp" line="4033"/>
         <source>Please, update your MPlayer.</source>
         <translation>Пожалуйста, обновите ваш MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4021"/>
+        <location filename="../basegui.cpp" line="4035"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Это предупреждение больше не будет показано)</translation>
     </message>
@@ -1655,32 +1665,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ус&amp;тановить задержку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3738"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Перейти к:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3725"/>
+        <location filename="../basegui.cpp" line="3739"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer – Перемотка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3735"/>
+        <location filename="../basegui.cpp" line="3749"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer – задержка аудио</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3736"/>
+        <location filename="../basegui.cpp" line="3750"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Задержка аудио (в миллисекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3745"/>
+        <location filename="../basegui.cpp" line="3759"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer – задержка субтитров</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3746"/>
+        <location filename="../basegui.cpp" line="3760"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Задержка субтитров (в миллисекундах):</translation>
     </message>
@@ -1690,7 +1700,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сменить режим &quot;Всегда наверху&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4315"/>
+        <location filename="../basegui.cpp" line="4329"/>
         <source>Jump to %1</source>
         <translation>Перейти к %1</translation>
     </message>
