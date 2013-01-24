@@ -3128,7 +3128,7 @@ void BaseGui::updateRecents() {
 }
 
 void BaseGui::clearRecentsList() {
-	int ret = QMessageBox::question(this, "SMPlayer",
+	int ret = QMessageBox::question(this, tr("Confirm deletion - SMPlayer"),
 				tr("Delete the list of recent files?"),
 				QMessageBox::Cancel, QMessageBox::Ok);
 
