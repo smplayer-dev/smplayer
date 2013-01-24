@@ -48,6 +48,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 			mplayer_version = tr("Using MPlayer %1").arg(MplayerVersion::toString(pref->mplayer_detected_version));
 		}
 		mplayer_version += "<br><br>";
+	} else {
+	mplayer_version += "<br>";
 	}
 
 	info->setText(
