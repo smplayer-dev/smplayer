@@ -4,37 +4,37 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="55"/>
+        <location filename="../about.cpp" line="57"/>
         <source>Version: %1</source>
         <translation>Versión: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="161"/>
         <source>The following people have contributed with translations:</source>
         <translation>Las siguientes personas han contribuido con traducciones:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Spanish</source>
         <translation>Español</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="164"/>
         <source>German</source>
         <translation>Alemán</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
+        <location filename="../about.cpp" line="165"/>
         <source>Slovak</source>
         <translation>Eslovaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Italian</source>
         <translation>Italiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Francés</translation>
     </message>
@@ -43,12 +43,12 @@
         <translation type="obsolete">%1, %2 y %3</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Simplified-Chinese</source>
         <translation>Chino simplificado</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Ruso</translation>
     </message>
@@ -57,87 +57,87 @@
         <translation type="obsolete">%1 y %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Hungarian</source>
         <translation>Húngaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="180"/>
         <source>Polish</source>
         <translation>Polaco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Japanese</source>
         <translation>Japonés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Dutch</source>
         <translation>Holandés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Ukrainian</source>
         <translation>Ucraniano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
+        <location filename="../about.cpp" line="192"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugués - Brasil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
+        <location filename="../about.cpp" line="193"/>
         <source>Georgian</source>
         <translation>Georgiano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="194"/>
         <source>Czech</source>
         <translation>Checo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
+        <location filename="../about.cpp" line="197"/>
         <source>Bulgarian</source>
         <translation>Búlgaro</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="198"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="199"/>
         <source>Swedish</source>
         <translation>Sueco</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
+        <location filename="../about.cpp" line="200"/>
         <source>Serbian</source>
         <translation>Serbio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
+        <location filename="../about.cpp" line="201"/>
         <source>Traditional Chinese</source>
         <translation>Chino tradicional</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
+        <location filename="../about.cpp" line="202"/>
         <source>Romanian</source>
         <translation>Rumano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="203"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugués - Portugal</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="204"/>
+        <location filename="../about.cpp" line="206"/>
         <source>Greek</source>
         <translation>Griego</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="205"/>
+        <location filename="../about.cpp" line="207"/>
         <source>Finnish</source>
         <translation>Finés</translation>
     </message>
@@ -146,7 +146,7 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="246"/>
+        <location filename="../about.cpp" line="248"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -192,17 +192,17 @@
         <translation type="obsolete">Consigue ayuda en nuestro foro:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="206"/>
+        <location filename="../about.cpp" line="208"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="207"/>
+        <location filename="../about.cpp" line="209"/>
         <source>Macedonian</source>
         <translation>Macedonio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="208"/>
+        <location filename="../about.cpp" line="210"/>
         <source>Basque</source>
         <translation>Vasco</translation>
     </message>
@@ -212,42 +212,42 @@
         <translation>Usando MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="213"/>
         <source>Catalan</source>
         <translation>Catalán</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
         <translation>Edición Portable</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
+        <location filename="../about.cpp" line="65"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Usando Qt %1 (compilado con Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="212"/>
+        <location filename="../about.cpp" line="214"/>
         <source>Slovenian</source>
         <translation>Esloveno</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="213"/>
+        <location filename="../about.cpp" line="215"/>
         <source>Arabic</source>
         <translation>Árabe</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="214"/>
+        <location filename="../about.cpp" line="216"/>
         <source>Kurdish</source>
         <translation>Kurdo</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="215"/>
+        <location filename="../about.cpp" line="217"/>
         <source>Galician</source>
         <translation>Gallego</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="103"/>
+        <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>Logo del SMPlayer por %1</translation>
     </message>
@@ -260,27 +260,27 @@
         <translation type="obsolete">%1, %2, %3, %4 y %5</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="216"/>
+        <location filename="../about.cpp" line="218"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="217"/>
+        <location filename="../about.cpp" line="219"/>
         <source>Estonian</source>
         <translation>Estonio</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="218"/>
+        <location filename="../about.cpp" line="220"/>
         <source>Lithuanian</source>
         <translation>Lituano</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="221"/>
+        <location filename="../about.cpp" line="223"/>
         <source>Danish</source>
         <translation>Danés</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="222"/>
+        <location filename="../about.cpp" line="224"/>
         <source>Croatian</source>
         <translation>Croata</translation>
     </message>
@@ -290,52 +290,52 @@
         <translation>Usando MPlayer2 %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="65"/>
+        <location filename="../about.cpp" line="67"/>
         <source>Links:</source>
         <translation>Enlaces:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="66"/>
+        <location filename="../about.cpp" line="68"/>
         <source>Official website:</source>
         <translation>Web oficial:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="67"/>
+        <location filename="../about.cpp" line="69"/>
         <source>Support forum:</source>
         <translation>Foro:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
+        <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
         <translation>SMPlayer usa el MPlayer como motor de reproducción. Más información en %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="84"/>
+        <location filename="../about.cpp" line="86"/>
         <source>Read the entire license</source>
         <translation>Leer la licencia completa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="92"/>
+        <location filename="../about.cpp" line="94"/>
         <source>Read a translation</source>
         <translation>Leer una traducción</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="104"/>
+        <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
         <translation>Paquetes para Windows creados por %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="105"/>
+        <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Muchas personas han contribuido con parches. Ver el changelog para más detalles.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="110"/>
+        <location filename="../about.cpp" line="112"/>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
         <translation>Fundada en febrero de 2005, YouTube&amp;trade; es la mayor comunidad de vídeos online, permitiendo a millones de personas descubrir, ver y compartir vídeos originales. YouTube&amp;trade; proporciona un foro para que las personas puedan conectarse, informarse e inspirar a otros en todo el mundo y actúa como plataforma de distribución para creadores de contenidos originales y anunciantes grandes y pequeños.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="118"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
         <translation>Al usar esta aplicación usted acepta las condiciones de servicio de Google disponibles en %1.</translation>
     </message>
@@ -688,7 +688,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1718"/>
-        <location filename="../basegui.cpp" line="2962"/>
+        <location filename="../basegui.cpp" line="2964"/>
         <source>&amp;None</source>
         <translation>&amp;Ninguno</translation>
     </message>
@@ -909,85 +909,85 @@ Do you want to overwrite?</source>
         <translation>Acerca de &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2984"/>
-        <location filename="../basegui.cpp" line="3000"/>
-        <location filename="../basegui.cpp" line="3016"/>
-        <location filename="../basegui.cpp" line="3031"/>
-        <location filename="../basegui.cpp" line="3063"/>
-        <location filename="../basegui.cpp" line="3083"/>
-        <location filename="../basegui.cpp" line="3123"/>
+        <location filename="../basegui.cpp" line="2986"/>
+        <location filename="../basegui.cpp" line="3002"/>
+        <location filename="../basegui.cpp" line="3018"/>
+        <location filename="../basegui.cpp" line="3033"/>
+        <location filename="../basegui.cpp" line="3065"/>
+        <location filename="../basegui.cpp" line="3085"/>
+        <location filename="../basegui.cpp" line="3125"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;vacío&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3499"/>
+        <location filename="../basegui.cpp" line="3515"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3500"/>
-        <location filename="../basegui.cpp" line="3690"/>
+        <location filename="../basegui.cpp" line="3516"/>
+        <location filename="../basegui.cpp" line="3706"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3501"/>
+        <location filename="../basegui.cpp" line="3517"/>
         <source>Playlists</source>
         <translation>Listas de reproducción</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3502"/>
-        <location filename="../basegui.cpp" line="3670"/>
-        <location filename="../basegui.cpp" line="3691"/>
+        <location filename="../basegui.cpp" line="3518"/>
+        <location filename="../basegui.cpp" line="3686"/>
+        <location filename="../basegui.cpp" line="3707"/>
         <source>All files</source>
         <translation>Todos los ficheros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3497"/>
-        <location filename="../basegui.cpp" line="3667"/>
-        <location filename="../basegui.cpp" line="3688"/>
+        <location filename="../basegui.cpp" line="3513"/>
+        <location filename="../basegui.cpp" line="3683"/>
+        <location filename="../basegui.cpp" line="3704"/>
         <source>Choose a file</source>
         <translation>Elige un fichero</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3549"/>
+        <location filename="../basegui.cpp" line="3565"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Información</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3550"/>
+        <location filename="../basegui.cpp" line="3566"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Las unidades de CDROM / DVD no han sido configuradas.
 Se mostrará a continuación el diálogo de configuración.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3633"/>
+        <location filename="../basegui.cpp" line="3649"/>
         <source>Choose a directory</source>
         <translation>Elige un directorio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3685"/>
         <source>Subtitles</source>
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3733"/>
+        <location filename="../basegui.cpp" line="3749"/>
         <source>About Qt</source>
         <translation>Acerca de Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4207"/>
+        <location filename="../basegui.cpp" line="4223"/>
         <source>Playing %1</source>
         <translation>Reproduciendo %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4208"/>
+        <location filename="../basegui.cpp" line="4224"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4209"/>
+        <location filename="../basegui.cpp" line="4225"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1251,32 +1251,38 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>SMPlayer - SMPlayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2725"/>
+        <location filename="../basegui.cpp" line="2727"/>
+        <location filename="../basegui.cpp" line="3347"/>
         <source>Information</source>
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2726"/>
+        <location filename="../basegui.cpp" line="2728"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Es necesario reiniciar SMPlayer para usar el nuevo GUI.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3131"/>
+        <location filename="../basegui.cpp" line="3133"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Confirmar el borrado - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3132"/>
+        <location filename="../basegui.cpp" line="3134"/>
         <source>Delete the list of recent files?</source>
         <translation>¿Deseas borrar la lista de ficheros recientes?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4706"/>
+        <location filename="../basegui.cpp" line="3348"/>
+        <source>The current values have been stored to be used as default.</source>
+        <translation>Los valores actuales se han guardado y se usarán como valores predeterminados.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4722"/>
         <source>An error happened - SMPlayer</source>
         <translation>Ha ocurrido un error - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4706"/>
+        <location filename="../basegui.cpp" line="4722"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>No se ha podido ejecutar el buscador de YouTube</translation>
     </message>
@@ -1383,7 +1389,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Opciones para la línea de comandos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3712"/>
+        <location filename="../basegui.cpp" line="3728"/>
         <source>SMPlayer command line options</source>
         <translation>Opciones para la línea de comandos de SMPlayer</translation>
     </message>
@@ -1398,32 +1404,32 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Reiniciar el ecualizador de vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4605"/>
+        <location filename="../basegui.cpp" line="4621"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer ha finalizado inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4606"/>
+        <location filename="../basegui.cpp" line="4622"/>
         <source>Exit code: %1</source>
         <translation>Código de salida: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4625"/>
+        <location filename="../basegui.cpp" line="4641"/>
         <source>MPlayer failed to start.</source>
         <translation>El MPlayer no se ha ejecutado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4626"/>
+        <location filename="../basegui.cpp" line="4642"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Verifica la ruta al ejecutable del MPlayer en preferencias.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4628"/>
+        <location filename="../basegui.cpp" line="4644"/>
         <source>MPlayer has crashed.</source>
         <translation>El MPlayer ha fallado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4629"/>
+        <location filename="../basegui.cpp" line="4645"/>
         <source>See the log for more info.</source>
         <translation>Mira el log para más información.</translation>
     </message>
@@ -1468,7 +1474,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Mostrar menú contextual</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3498"/>
+        <location filename="../basegui.cpp" line="3514"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -1550,22 +1556,22 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Pista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4027"/>
+        <location filename="../basegui.cpp" line="4043"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Aviso - Usando un MPlayer anticuado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4028"/>
+        <location filename="../basegui.cpp" line="4044"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>La versión del MPlayer (%1) que tienes instalada en tu sistema es obsoleta. SMPlayer no puede funcionar correctamente con esta versión: algunas opciones no funcionarán, la selección de subtítulos puede fallar...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4033"/>
+        <location filename="../basegui.cpp" line="4049"/>
         <source>Please, update your MPlayer.</source>
         <translation>Por favor, actualiza el MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4035"/>
+        <location filename="../basegui.cpp" line="4051"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Este aviso no volverá a aparecer)</translation>
     </message>
@@ -1660,32 +1666,32 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Especificar retraso...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3738"/>
+        <location filename="../basegui.cpp" line="3754"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Saltar a:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3739"/>
+        <location filename="../basegui.cpp" line="3755"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Saltar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3749"/>
+        <location filename="../basegui.cpp" line="3765"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Retraso de audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3750"/>
+        <location filename="../basegui.cpp" line="3766"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Retraso del audio (en milisegundos):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3759"/>
+        <location filename="../basegui.cpp" line="3775"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Retraso de los subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3760"/>
+        <location filename="../basegui.cpp" line="3776"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Retraso de los subtítulos (en milisegundos):</translation>
     </message>
@@ -1695,7 +1701,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Activar/desactivar encima de todas las ventanas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4329"/>
+        <location filename="../basegui.cpp" line="4345"/>
         <source>Jump to %1</source>
         <translation>Saltar a %1</translation>
     </message>
@@ -8541,6 +8547,76 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="119"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Los valores actuales se han guardado y se usarán como valores predeterminados.</translation>
+    </message>
+</context>
+<context>
+    <name>VideoEqualizer2</name>
+    <message>
+        <location filename="../videoequalizer2.ui" line="14"/>
+        <location filename="../videoequalizer2.cpp" line="98"/>
+        <source>Video Equalizer</source>
+        <translation>Ecualizador de Vídeo</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="22"/>
+        <location filename="../videoequalizer2.cpp" line="100"/>
+        <source>&amp;Contrast</source>
+        <translation>&amp;Contraste</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="66"/>
+        <location filename="../videoequalizer2.ui" line="120"/>
+        <location filename="../videoequalizer2.ui" line="174"/>
+        <location filename="../videoequalizer2.ui" line="228"/>
+        <location filename="../videoequalizer2.ui" line="282"/>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="76"/>
+        <location filename="../videoequalizer2.cpp" line="101"/>
+        <source>&amp;Brightness</source>
+        <translation>&amp;Brillo</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="130"/>
+        <location filename="../videoequalizer2.cpp" line="102"/>
+        <source>&amp;Hue</source>
+        <translation>&amp;Tono</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="184"/>
+        <location filename="../videoequalizer2.cpp" line="103"/>
+        <source>&amp;Saturation</source>
+        <translation>&amp;Saturación</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="238"/>
+        <location filename="../videoequalizer2.cpp" line="104"/>
+        <source>&amp;Gamma</source>
+        <translation>&amp;Gamma</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="316"/>
+        <location filename="../videoequalizer2.cpp" line="107"/>
+        <source>Set as &amp;default values</source>
+        <translation>&amp;Usar como valores por defecto</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.ui" line="323"/>
+        <location filename="../videoequalizer2.cpp" line="106"/>
+        <source>&amp;Reset</source>
+        <translation>&amp;Reiniciar</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.cpp" line="111"/>
+        <source>Use the current values as default values for new videos.</source>
+        <translation>Usa los valores actuales como valores por defecto para los nuevos vídeos.</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.cpp" line="113"/>
+        <source>Set all controls to zero.</source>
+        <translation>Pone todos los controles a cero.</translation>
     </message>
 </context>
 <context>

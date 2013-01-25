@@ -4,7 +4,7 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="+55"/>
+        <location filename="../about.cpp" line="+57"/>
         <source>Version: %1</source>
         <translation>Versione: %1</translation>
     </message>
@@ -207,12 +207,12 @@
         <translation>Basco</translation>
     </message>
     <message>
-        <location line="-160"/>
+        <location line="-162"/>
         <source>Using MPlayer %1</source>
         <translation>MPlayer %1 in uso</translation>
     </message>
     <message>
-        <location line="+163"/>
+        <location line="+165"/>
         <source>Catalan</source>
         <translation>Catalano</translation>
     </message>
@@ -285,12 +285,12 @@
         <translation type="unfinished">Croato</translation>
     </message>
     <message>
-        <location line="-176"/>
+        <location line="-178"/>
         <source>Using MPlayer2 %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+21"/>
         <source>Links:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -845,12 +845,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+15"/>
-        <location line="+1244"/>
+        <location line="+1246"/>
         <source>&amp;None</source>
         <translation>&amp;Nessuno</translation>
     </message>
     <message>
-        <location line="-1243"/>
+        <location line="-1245"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
@@ -977,12 +977,13 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+902"/>
+        <location line="+904"/>
+        <location line="+620"/>
         <source>Information</source>
         <translation type="unfinished">Informazioni</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-619"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -997,7 +998,12 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1574"/>
+        <location line="+214"/>
+        <source>The current values have been stored to be used as default.</source>
+        <translation type="unfinished">I valori correnti sono stati salvati come predefiniti.</translation>
+    </message>
+    <message>
+        <location line="+1374"/>
         <source>An error happened - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1007,7 +1013,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-2990"/>
+        <location line="-3006"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1020,7 +1026,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="obsolete">SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1268"/>
+        <location line="+1270"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -1031,7 +1037,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>&lt;vuoto&gt;</translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+390"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
@@ -1104,7 +1110,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2782"/>
+        <location line="-2798"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1376,12 +1382,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2154"/>
+        <location line="+2170"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2185"/>
+        <location line="-2201"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
@@ -1391,7 +1397,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3002"/>
+        <location line="+3018"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1421,7 +1427,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-2940"/>
+        <location line="-2956"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1461,12 +1467,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1893"/>
+        <location line="+1909"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-2003"/>
+        <location line="-2019"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
@@ -1543,7 +1549,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2278"/>
+        <location line="+2294"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1563,7 +1569,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2429"/>
+        <location line="-2445"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
@@ -1653,7 +1659,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2221"/>
+        <location line="+2237"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1683,17 +1689,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2018"/>
+        <location line="-2034"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2587"/>
+        <location line="+2603"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-2868"/>
+        <location line="-2884"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -8525,6 +8531,76 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location line="+1"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>I valori correnti sono stati salvati come predefiniti.</translation>
+    </message>
+</context>
+<context>
+    <name>VideoEqualizer2</name>
+    <message>
+        <location filename="../videoequalizer2.ui" line="+14"/>
+        <location filename="../videoequalizer2.cpp" line="+98"/>
+        <source>Video Equalizer</source>
+        <translation type="unfinished">Equalizzatore Video</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <location filename="../videoequalizer2.cpp" line="+2"/>
+        <source>&amp;Contrast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <location line="+54"/>
+        <location line="+54"/>
+        <location line="+54"/>
+        <location line="+54"/>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <location line="-206"/>
+        <location filename="../videoequalizer2.cpp" line="+1"/>
+        <source>&amp;Brightness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <location filename="../videoequalizer2.cpp" line="+1"/>
+        <source>&amp;Hue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <location filename="../videoequalizer2.cpp" line="+1"/>
+        <source>&amp;Saturation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <location filename="../videoequalizer2.cpp" line="+1"/>
+        <source>&amp;Gamma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+78"/>
+        <location filename="../videoequalizer2.cpp" line="+3"/>
+        <source>Set as &amp;default values</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <location filename="../videoequalizer2.cpp" line="-1"/>
+        <source>&amp;Reset</source>
+        <translation type="unfinished">&amp;Reset</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer2.cpp" line="+5"/>
+        <source>Use the current values as default values for new videos.</source>
+        <translation type="unfinished">Usa i valori correnti come valori predefiniti per i nuovi video.</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Set all controls to zero.</source>
+        <translation type="unfinished">Metti a zero tutti i controlli.</translation>
     </message>
 </context>
 <context>
