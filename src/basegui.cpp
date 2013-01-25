@@ -2019,6 +2019,8 @@ void BaseGui::createVideoEqualizer() {
 
 	connect( video_equalizer2, SIGNAL(visibilityChanged()),
              this, SLOT(updateWidgets()) );
+	connect( video_equalizer2, SIGNAL(requestToChangeDefaultValues()),
+             this, SLOT(setDefaultValuesFromVideoEqualizer()) );
 }
 
 void BaseGui::createAudioEqualizer() {
@@ -3331,6 +3333,20 @@ void BaseGui::updateAudioEqualizer() {
 	for (int n = 0; n < 10; n++) {
 		audio_equalizer->eq[n]->setValue( core->mset.audio_equalizer[n].toInt() );
 	}
+}
+
+void BaseGui::setDefaultValuesFromVideoEqualizer() {
+	qDebug("BaseGui::setDefaultValuesFromVideoEqualizer");
+
+	pref->initial_contrast = video_equalizer2->contrast();
+	pref->initial_brightness = video_equalizer2->brightness();
+	pref->initial_hue = video_equalizer2->hue();
+	pref->initial_saturation = video_equalizer2->saturation();
+	pref->initial_gamma = video_equalizer2->gamma();
+
+	QMessageBox::information(this, tr("Information"), 
+                             tr("The current values have been stored to be "
+                                "used as default.") );
 }
 
 /*

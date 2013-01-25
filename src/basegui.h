@@ -184,6 +184,7 @@ protected slots:
 	virtual void updateWidgets();
 	virtual void updateVideoEqualizer();
 	virtual void updateAudioEqualizer();
+	virtual void setDefaultValuesFromVideoEqualizer();
 
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();
