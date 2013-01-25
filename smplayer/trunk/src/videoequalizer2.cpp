@@ -80,10 +80,6 @@ void VideoEqualizer2::on_reset_button_clicked() {
 	reset();
 }
 
-void VideoEqualizer2::on_makedefault_button_clicked() {
-	qDebug("VideoEqualizer2::on_makedefault_button_clicked");
-}
-
 void VideoEqualizer2::hideEvent( QHideEvent * ) {
 	emit visibilityChanged();
 }

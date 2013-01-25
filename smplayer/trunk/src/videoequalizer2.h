@@ -58,7 +58,6 @@ signals:
 
 protected slots:
 	void on_reset_button_clicked();
-	void on_makedefault_button_clicked();
 
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
