@@ -109,6 +109,7 @@ HEADERS += guiconfig.h \
 	verticaltext.h \
 	eqslider.h \
 	videoequalizer.h \
+	videoequalizer2.h \
 	audioequalizer.h \
 	myslider.h \
 	timeslider.h \
@@ -205,6 +206,7 @@ SOURCES	+= version.cpp \
 	verticaltext.cpp \
 	eqslider.cpp \
 	videoequalizer.cpp \
+	videoequalizer2.cpp \
 	audioequalizer.cpp \
 	myslider.cpp \
 	timeslider.cpp \
@@ -236,7 +238,7 @@ SOURCES	+= version.cpp \
 	main.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
-        eqslider.ui seekwidget.ui inputurl.ui vdpauproperties.ui \
+        eqslider.ui seekwidget.ui inputurl.ui videoequalizer2.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui favoriteeditor.ui \

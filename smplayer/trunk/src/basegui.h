@@ -40,7 +40,7 @@ class MplayerWindow;
 
 class QLabel;
 class FilePropertiesDialog;
-class VideoEqualizer;
+class VideoEqualizer2;
 class AudioEqualizer;
 class Playlist;
 #ifdef FIND_SUBTITLES
@@ -690,7 +690,7 @@ protected:
 	PreferencesDialog *pref_dialog;
 	FilePropertiesDialog *file_dialog;
 	Playlist * playlist;
-	VideoEqualizer * video_equalizer;
+	VideoEqualizer2 * video_equalizer2;
 	AudioEqualizer * audio_equalizer;
 #ifdef FIND_SUBTITLES
 	FindSubtitlesWindow * find_subs_dialog;
