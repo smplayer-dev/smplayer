@@ -55,6 +55,9 @@ VideoEqualizer2::VideoEqualizer2( QWidget* parent, Qt::WindowFlags f )
              this, SIGNAL(saturationChanged(int)) );
 	connect( gamma_slider, SIGNAL(valueChanged(int)),
              this, SIGNAL(gammaChanged(int)) );
+
+	connect( makedefault_button, SIGNAL(clicked()), 
+             this, SIGNAL(requestToChangeDefaultValues()) );
 }
 
 VideoEqualizer2::~VideoEqualizer2() {

@@ -39,6 +39,13 @@ public slots:
 
 	void reset();
 
+public:
+	int contrast() { return contrast_slider->value(); }
+	int brightness() { return brightness_slider->value(); }
+	int hue() { return hue_slider->value(); }
+	int saturation() { return saturation_slider->value(); }
+	int gamma() { return gamma_slider->value(); }
+
 signals:
 	void contrastChanged(int);
 	void brightnessChanged(int);
@@ -47,6 +54,7 @@ signals:
 	void gammaChanged(int);
 
 	void visibilityChanged();
+	void requestToChangeDefaultValues();
 
 protected slots:
 	void on_reset_button_clicked();
