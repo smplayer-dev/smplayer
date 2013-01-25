@@ -23,26 +23,28 @@ VideoEqualizer2::VideoEqualizer2( QWidget* parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 
-	contrast_label->setNum(0);
-	brightness_label->setNum(0);
-	hue_label->setNum(0);
-	saturation_label->setNum(0);
-	gamma_label->setNum(0);
+	/*
+	contrast_indicator->setNum(0);
+	brightness_indicator->setNum(0);
+	hue_indicator->setNum(0);
+	saturation_indicator->setNum(0);
+	gamma_indicator->setNum(0);
+	*/
 
 	connect( contrast_slider, SIGNAL(valueChanged(int)),
-             contrast_label, SLOT(setNum(int)) );
+             contrast_indicator, SLOT(setNum(int)) );
 
 	connect( brightness_slider, SIGNAL(valueChanged(int)),
-             brightness_label, SLOT(setNum(int)) );
+             brightness_indicator, SLOT(setNum(int)) );
 
 	connect( hue_slider, SIGNAL(valueChanged(int)),
-             hue_label, SLOT(setNum(int)) );
+             hue_indicator, SLOT(setNum(int)) );
 
 	connect( saturation_slider, SIGNAL(valueChanged(int)),
-             saturation_label, SLOT(setNum(int)) );
+             saturation_indicator, SLOT(setNum(int)) );
 
 	connect( gamma_slider, SIGNAL(valueChanged(int)),
-             gamma_label, SLOT(setNum(int)) );
+             gamma_indicator, SLOT(setNum(int)) );
 
 	// Reemit signals
 	connect( contrast_slider, SIGNAL(valueChanged(int)),
@@ -58,6 +60,8 @@ VideoEqualizer2::VideoEqualizer2( QWidget* parent, Qt::WindowFlags f )
 
 	connect( makedefault_button, SIGNAL(clicked()), 
              this, SIGNAL(requestToChangeDefaultValues()) );
+
+	adjustSize();
 }
 
 VideoEqualizer2::~VideoEqualizer2() {
@@ -86,6 +90,36 @@ void VideoEqualizer2::hideEvent( QHideEvent * ) {
 
 void VideoEqualizer2::showEvent( QShowEvent * ) {
 	emit visibilityChanged();
+}
+
+void VideoEqualizer2::retranslateStrings() {
+	qDebug("VideoEqualizer2::retranslateStrings");
+
+	setWindowTitle( tr("Video Equalizer") );
+
+	contrast_label->setText( tr("&Contrast") );
+	brightness_label->setText( tr("&Brightness") );
+	hue_label->setText( tr("&Hue") );
+	saturation_label->setText( tr("&Saturation") );
+	gamma_label->setText( tr("&Gamma") );
+
+	reset_button->setText( tr("&Reset") );
+	makedefault_button->setText( tr("Set as &default values") );
+
+	// What's this help:
+	makedefault_button->setWhatsThis(
+			tr("Use the current values as default values for new videos.") );
+
+	reset_button->setWhatsThis( tr("Set all controls to zero.") );
+}
+
+// Language change stuff
+void VideoEqualizer2::changeEvent(QEvent *e) {
+	if (e->type() == QEvent::LanguageChange) {
+		retranslateStrings();
+	} else {
+		QWidget::changeEvent(e);
+	}
 }
 
 #include "moc_videoequalizer2.cpp"

@@ -63,6 +63,9 @@ protected slots:
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
 
+protected:
+	virtual void retranslateStrings();
+	virtual void changeEvent( QEvent * event);
 };
 
 #endif
