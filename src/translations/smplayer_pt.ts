@@ -1263,12 +1263,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="3131"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Confirmação de eliminação - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3132"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminar lista de ficheiros recentes?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
