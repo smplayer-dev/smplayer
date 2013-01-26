@@ -84,8 +84,8 @@ ${LangFileString} Uninstaller_64bitOnly "このインストールは 64 ビッ�
 ${LangFileString} Application_Description "SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィルター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロントエンドです。"
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
+${LangFileString} Info_Codecs_Backup "以前のインストールからのコーデックをバックアップしています..."
+${LangFileString} Info_Codecs_Restore "以前のインストールからのコーデックを復元しています..."
 ${LangFileString} Info_Del_Files "ファイルを削除しています..."
 ${LangFileString} Info_Del_Registry "レジストリ キーを削除しています..."
 ${LangFileString} Info_Del_Shortcuts "ショートカットを削除しています..."
