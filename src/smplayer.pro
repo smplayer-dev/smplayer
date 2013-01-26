@@ -108,7 +108,6 @@ HEADERS += guiconfig.h \
 	playlistdock.h \
 	verticaltext.h \
 	eqslider.h \
-	videoequalizer.h \
 	videoequalizer2.h \
 	audioequalizer.h \
 	myslider.h \
@@ -205,7 +204,6 @@ SOURCES	+= version.cpp \
 	playlistdock.cpp \
 	verticaltext.cpp \
 	eqslider.cpp \
-	videoequalizer.cpp \
 	videoequalizer2.cpp \
 	audioequalizer.cpp \
 	myslider.cpp \
