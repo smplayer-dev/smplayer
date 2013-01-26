@@ -1,5 +1,8 @@
 [b]Version 0.8.4[/b]:
 
+(2013-01-25)
+ * The video equalizer dialog has been rewritten.
+
 (2013-01-21)
  * Add a confirmation dialog to delete the list of recent files.
 
