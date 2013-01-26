@@ -80,6 +80,11 @@ void VideoEqualizer2::on_reset_button_clicked() {
 	reset();
 }
 
+void VideoEqualizer2::on_bysoftware_check_stateChanged(int state) {
+	qDebug("VideoEqualizer2::on_bysoftware_check_stateChanged");
+	emit bySoftwareChanged(state == Qt::Checked);
+}
+
 void VideoEqualizer2::hideEvent( QHideEvent * ) {
 	emit visibilityChanged();
 }

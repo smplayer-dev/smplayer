@@ -298,17 +298,17 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+      <widget class="QCheckBox" name="bysoftware_check">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>40</width>
-         <height>20</height>
-        </size>
+       <property name="text">
+        <string>Software &amp;equalizer</string>
        </property>
-      </spacer>
+      </widget>
      </item>
      <item>
       <widget class="QPushButton" name="makedefault_button">
@@ -328,6 +328,16 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>contrast_slider</tabstop>
+  <tabstop>brightness_slider</tabstop>
+  <tabstop>hue_slider</tabstop>
+  <tabstop>saturation_slider</tabstop>
+  <tabstop>gamma_slider</tabstop>
+  <tabstop>bysoftware_check</tabstop>
+  <tabstop>makedefault_button</tabstop>
+  <tabstop>reset_button</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

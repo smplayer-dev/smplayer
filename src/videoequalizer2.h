@@ -36,6 +36,7 @@ public slots:
 	void setHue(int v) { hue_slider->setValue(v); }
 	void setSaturation(int v) { saturation_slider->setValue(v); }
 	void setGamma(int v) { gamma_slider->setValue(v); }
+	void setBySoftware(bool b) { bysoftware_check->setChecked(b); }
 
 	void reset();
 
@@ -45,6 +46,7 @@ public:
 	int hue() { return hue_slider->value(); }
 	int saturation() { return saturation_slider->value(); }
 	int gamma() { return gamma_slider->value(); }
+	bool bySoftware() { return bysoftware_check->isChecked(); }
 
 signals:
 	void contrastChanged(int);
@@ -55,9 +57,11 @@ signals:
 
 	void visibilityChanged();
 	void requestToChangeDefaultValues();
+	void bySoftwareChanged(bool);
 
 protected slots:
 	void on_reset_button_clicked();
+	void on_bysoftware_check_stateChanged(int);
 
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );

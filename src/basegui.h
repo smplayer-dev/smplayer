@@ -185,6 +185,7 @@ protected slots:
 	virtual void updateVideoEqualizer();
 	virtual void updateAudioEqualizer();
 	virtual void setDefaultValuesFromVideoEqualizer();
+	virtual void changeVideoEqualizerBySoftware(bool b);
 
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();

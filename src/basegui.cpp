@@ -2021,6 +2021,8 @@ void BaseGui::createVideoEqualizer() {
              this, SLOT(updateWidgets()) );
 	connect( video_equalizer2, SIGNAL(requestToChangeDefaultValues()),
              this, SLOT(setDefaultValuesFromVideoEqualizer()) );
+	connect( video_equalizer2, SIGNAL(bySoftwareChanged(bool)),
+             this, SLOT(changeVideoEqualizerBySoftware(bool)) );
 }
 
 void BaseGui::createAudioEqualizer() {
@@ -3268,6 +3270,7 @@ void BaseGui::updateWidgets() {
 
 	// Video equalizer
 	videoEqualizerAct->setChecked( video_equalizer2->isVisible() );
+	video_equalizer2->setBySoftware( pref->use_soft_video_eq );
 
 	// Audio equalizer
 	audioEqualizerAct->setChecked( audio_equalizer->isVisible() );
@@ -3347,6 +3350,15 @@ void BaseGui::setDefaultValuesFromVideoEqualizer() {
 	QMessageBox::information(this, tr("Information"), 
                              tr("The current values have been stored to be "
                                 "used as default.") );
+}
+
+void BaseGui::changeVideoEqualizerBySoftware(bool b) {
+	qDebug("BaseGui::changeVideoEqualizerBySoftware: %d", b);
+
+	if (b != pref->use_soft_video_eq) {
+		pref->use_soft_video_eq = b;
+		core->restart();
+	}
 }
 
 /*
