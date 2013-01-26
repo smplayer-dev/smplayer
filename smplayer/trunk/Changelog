@@ -1,5 +1,9 @@
 [b]Version 0.8.4[/b]:
 
+(2013-01-26)
+ * Add an option to enable the video equalizer by software in the
+   video equalizer window.
+
 (2013-01-25)
  * The video equalizer dialog has been rewritten.
 
