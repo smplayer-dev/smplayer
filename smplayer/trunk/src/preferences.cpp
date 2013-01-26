@@ -1417,6 +1417,25 @@ void Preferences::load() {
 		config_version = CURRENT_CONFIG_VERSION;
 		use_slices = false;
 	}
+
+#ifdef Q_OS_WIN
+	// Check if the mplayer binary exists and try to fix it
+	if (!QFile::exists(mplayer_bin)) {
+		qWarning("mplayer_bin '%s' doesn' exist", mplayer_bin.toLatin1().constData());
+		bool fixed = false;
+		if (QFile::exists("mplayer/mplayer.exe")) {
+			mplayer_bin = "mplayer/mplayer.exe";
+			fixed = true;
+		} else
+		if (QFile::exists("mplayer/mplayer2.exe")) {
+			mplayer_bin = "mplayer/mplayer2.exe";
+			fixed = true;
+		}
+		if (fixed) {
+			qWarning("mplayer_bin changed to '%s'", mplayer_bin.toLatin1().constData());
+		}
+	}
+#endif
 }
 
 #endif // NO_USE_INI_FILES
