@@ -1274,7 +1274,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="3348"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished">Os valores atuais foram gravados e serão utilizados como padrão.</translation>
+        <translation>Os valores atuais foram gravados e serão utilizados como padrão.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4722"/>
@@ -8581,13 +8581,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="14"/>
         <location filename="../videoequalizer2.cpp" line="98"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Equalizador de vídeo</translation>
+        <translation>Equalizador de vídeo</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="22"/>
         <location filename="../videoequalizer2.cpp" line="100"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Contraste</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="66"/>
@@ -8596,53 +8596,53 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="228"/>
         <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="76"/>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Brilho</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="130"/>
         <location filename="../videoequalizer2.cpp" line="102"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tom</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="184"/>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saturação</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="238"/>
         <location filename="../videoequalizer2.cpp" line="104"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gama</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <location filename="../videoequalizer2.cpp" line="107"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Definir como valores padrão</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>
         <location filename="../videoequalizer2.cpp" line="106"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;Repor</translation>
+        <translation>&amp;Repor</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="111"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Utilizar valores atuais como padrão dos novos vídeos.</translation>
+        <translation>Utilizar valores atuais como padrão dos novos vídeos.</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="113"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"></translation>
+        <translation>Definir todos os controlos a zero.</translation>
     </message>
 </context>
 <context>
