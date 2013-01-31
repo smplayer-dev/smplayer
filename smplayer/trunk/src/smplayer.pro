@@ -411,4 +411,5 @@ TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_ar_SY.ts translations/smplayer_ku.ts \
                translations/smplayer_gl.ts translations/smplayer_vi_VN.ts \
                translations/smplayer_et.ts translations/smplayer_lt.ts \
-               translations/smplayer_da.ts translations/smplayer_hr.ts
+               translations/smplayer_da.ts translations/smplayer_hr.ts \
+               translations/smplayer_he_IL.ts
