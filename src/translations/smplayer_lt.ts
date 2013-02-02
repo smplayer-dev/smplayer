@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Rusų</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -1220,17 +1222,17 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="3133"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Patvirtinkite šalinimą - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3134"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
+        <translation>Išvalyti paskutinių atvertų failų sąrašą?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3348"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished">Dabartiniai parametrai buvo išsaugoti kaip pradiniai.</translation>
+        <translation>Dabartiniai parametrai buvo išsaugoti kaip pradiniai.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4722"/>
@@ -2457,11 +2459,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="568"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrų išgauta</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrų išgauta</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
@@ -2544,7 +2542,6 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2564,7 +2561,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="501"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Neįmanoma išsaugoti atsiųstą failą kataloge
@@ -8055,21 +8052,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundė</numerusform>
-            <numerusform>%n sekundės</numerusform>
-            <numerusform>%n sekundžių</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundė</numerusform><numerusform>%n sekundės</numerusform><numerusform>%n sekundžių</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutė</numerusform>
-            <numerusform>%n minutės</numerusform>
-            <numerusform>%n minučių</numerusform>
-        </translation>
+        <translation><numerusform>%n minutė</numerusform><numerusform>%n minutės</numerusform><numerusform>%n minučių</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8470,13 +8459,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="14"/>
         <location filename="../videoequalizer2.cpp" line="98"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Video ekvalaizeris</translation>
+        <translation>Video ekvalaizeris</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="22"/>
         <location filename="../videoequalizer2.cpp" line="100"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrastas</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="66"/>
@@ -8485,53 +8474,53 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="228"/>
         <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="76"/>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ryškumas</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="130"/>
         <location filename="../videoequalizer2.cpp" line="102"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Atspalvis</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="184"/>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sodrumas</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="238"/>
         <location filename="../videoequalizer2.cpp" line="104"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gama</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <location filename="../videoequalizer2.cpp" line="107"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nustatyti kaip numatytąsias reikšmes</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>
         <location filename="../videoequalizer2.cpp" line="106"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;Atstatyti</translation>
+        <translation>&amp;Atstatyti</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="111"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Nustatyti dabartines reikšmes kaip numatytąsias  naujiems video.</translation>
+        <translation>Dabartines reikšmes nustatyti kaip numatytąsias, naujiems video.</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="113"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Nustatyti visas reikšmes lygias nuliui.</translation>
+        <translation>Nustatyti visas reikšmes lygias nuliui.</translation>
     </message>
 </context>
 <context>
