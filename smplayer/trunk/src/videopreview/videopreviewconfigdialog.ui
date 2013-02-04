@@ -162,7 +162,7 @@
      <item>
       <widget class="QLabel" name="label_4" >
        <property name="text" >
-        <string>&amp;Seconds to skip at the beginnning:</string>
+        <string>&amp;Seconds to skip at the beginning:</string>
        </property>
        <property name="buddy" >
         <cstring>initial_step_spin</cstring>

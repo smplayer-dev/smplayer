@@ -296,7 +296,8 @@ void PrefPerformance::createHelp() {
            "MPEG-1/2 and H.264") );
 
 	setWhatsThis(coreavc_check, tr("Use CoreAVC if no other codec specified"),
-		tr("Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support."));
+		tr("Try to use non-free CoreAVC codec when no other codec is specified "
+           "and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support."));
 
 	setWhatsThis(loopfilter_combo, tr("Skip loop filter"),
 		tr("This option allows to skips the loop filter (AKA deblocking) "

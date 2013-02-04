@@ -473,7 +473,7 @@ void PrefSubtitles::createHelp() {
 
 	setWhatsThis(fontCombo, tr("System font"), 
         tr("Here you can select a system font to be used for the subtitles "
-           "and OSD. <b>Note:</b> requires a MPlayer with fontconfig support.") );
+           "and OSD.") );
 
 	setWhatsThis(font_autoscale_combo, tr("Autoscale"), 
         tr("Select the subtitle autoscaling method.") );
