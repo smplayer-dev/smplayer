@@ -142,11 +142,16 @@
         <translation>Finlandese</translation>
     </message>
     <message>
+        <location line="+18"/>
+        <source>Hebrew</source>
+        <translation type="unfinished">Ebreo</translation>
+    </message>
+    <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+24"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -192,7 +197,7 @@
         <translation type="obsolete">Cerca aiuto nel nostro forum:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="-40"/>
+        <location filename="../about.cpp" line="-41"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
@@ -845,12 +850,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+15"/>
-        <location line="+1246"/>
+        <location line="+1248"/>
         <source>&amp;None</source>
         <translation>&amp;Nessuno</translation>
     </message>
     <message>
-        <location line="-1245"/>
+        <location line="-1247"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
@@ -977,13 +982,13 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+904"/>
-        <location line="+620"/>
+        <location line="+906"/>
+        <location line="+621"/>
         <source>Information</source>
         <translation type="unfinished">Informazioni</translation>
     </message>
     <message>
-        <location line="-619"/>
+        <location line="-620"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -998,12 +1003,12 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+214"/>
+        <location line="+215"/>
         <source>The current values have been stored to be used as default.</source>
         <translation type="unfinished">I valori correnti sono stati salvati come predefiniti.</translation>
     </message>
     <message>
-        <location line="+1374"/>
+        <location line="+1383"/>
         <source>An error happened - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1013,7 +1018,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3006"/>
+        <location line="-3018"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1026,7 +1031,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="obsolete">SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1270"/>
+        <location line="+1272"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -1037,7 +1042,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>&lt;vuoto&gt;</translation>
     </message>
     <message>
-        <location line="+390"/>
+        <location line="+400"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
@@ -1110,7 +1115,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2798"/>
+        <location line="-2810"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1382,12 +1387,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2170"/>
+        <location line="+2182"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2201"/>
+        <location line="-2213"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
@@ -1397,7 +1402,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3018"/>
+        <location line="+3030"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1427,7 +1432,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-2956"/>
+        <location line="-2968"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1467,12 +1472,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1909"/>
+        <location line="+1921"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-2019"/>
+        <location line="-2031"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
@@ -1549,7 +1554,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2294"/>
+        <location line="+2306"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1569,7 +1574,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2445"/>
+        <location line="-2457"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
@@ -1659,7 +1664,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2237"/>
+        <location line="+2249"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1689,17 +1694,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2034"/>
+        <location line="-2046"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2603"/>
+        <location line="+2615"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-2884"/>
+        <location line="-2896"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -2981,12 +2986,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location line="+2"/>
         <location line="+204"/>
-        <location line="+53"/>
+        <location line="+54"/>
         <source>Arabic</source>
         <translation>Arabo</translation>
     </message>
     <message>
-        <location line="-256"/>
+        <location line="-257"/>
         <source>Assamese</source>
         <translation>Assamese</translation>
     </message>
@@ -3165,28 +3170,29 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location line="+170"/>
         <source>Hebrew</source>
         <translation>Ebreo</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-169"/>
         <source>Hindi</source>
         <translation>Hindi</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+167"/>
+        <location line="+168"/>
         <source>Croatian</source>
         <translation>Croato</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+166"/>
+        <location line="-166"/>
+        <location line="+167"/>
         <source>Hungarian</source>
         <translation>Ungherese</translation>
     </message>
     <message>
-        <location line="-165"/>
+        <location line="-166"/>
         <source>Armenian</source>
         <translation>Armeno</translation>
     </message>
@@ -3213,35 +3219,35 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location line="+1"/>
         <location line="+125"/>
-        <location line="+30"/>
+        <location line="+31"/>
         <source>Italian</source>
         <translation>Italiano</translation>
     </message>
     <message>
-        <location line="-154"/>
+        <location line="-155"/>
         <source>Inuktitut</source>
         <translation>Inuktitut</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+124"/>
-        <location line="+30"/>
+        <location line="+31"/>
         <source>Japanese</source>
         <translation>Giapponese</translation>
     </message>
     <message>
-        <location line="-153"/>
+        <location line="-154"/>
         <source>Javanese</source>
         <translation>Giavanese</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+153"/>
+        <location line="+154"/>
         <source>Georgian</source>
         <translation>Georgiano</translation>
     </message>
     <message>
-        <location line="-149"/>
+        <location line="-150"/>
         <source>Kazakh</source>
         <translation>Kazaco</translation>
     </message>
@@ -3257,23 +3263,23 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+146"/>
+        <location line="+147"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
     <message>
-        <location line="-144"/>
+        <location line="-145"/>
         <source>Kashmiri</source>
         <translation>Kashmiro</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+144"/>
+        <location line="+145"/>
         <source>Kurdish</source>
         <translation>Curdo</translation>
     </message>
     <message>
-        <location line="-141"/>
+        <location line="-142"/>
         <source>Kirghiz</source>
         <translation>Kirghiso</translation>
     </message>
@@ -3289,12 +3295,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+135"/>
+        <location line="+136"/>
         <source>Lithuanian</source>
         <translation>Lituano</translation>
     </message>
     <message>
-        <location line="-133"/>
+        <location line="-134"/>
         <source>Latvian</source>
         <translation>Lettone</translation>
     </message>
@@ -3310,12 +3316,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+130"/>
+        <location line="+131"/>
         <source>Macedonian</source>
         <translation>Macedone</translation>
     </message>
     <message>
-        <location line="-129"/>
+        <location line="-130"/>
         <source>Malayalam</source>
         <translation>Malayalam</translation>
     </message>
@@ -3362,12 +3368,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location line="+2"/>
         <location line="+83"/>
-        <location line="+35"/>
+        <location line="+36"/>
         <source>Dutch</source>
         <translation>Olandese</translation>
     </message>
     <message>
-        <location line="-117"/>
+        <location line="-118"/>
         <source>Norwegian Nynorsk</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3389,12 +3395,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+106"/>
+        <location line="+107"/>
         <source>Polish</source>
         <translation>Polacco</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="-105"/>
         <location line="+70"/>
         <source>Portuguese</source>
         <translation>Portoghese</translation>
@@ -3406,20 +3412,20 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+103"/>
+        <location line="+104"/>
         <source>Romanian</source>
         <translation>Romeno</translation>
     </message>
     <message>
-        <location line="-102"/>
+        <location line="-103"/>
         <location line="+66"/>
-        <location line="+37"/>
+        <location line="+38"/>
         <location line="+31"/>
         <source>Russian</source>
         <translation>Russo</translation>
     </message>
     <message>
-        <location line="-133"/>
+        <location line="-134"/>
         <source>Kinyarwanda</source>
         <translation>Kinyarwanda</translation>
     </message>
@@ -3435,18 +3441,18 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+96"/>
+        <location line="+97"/>
         <source>Slovak</source>
         <translation>Slovacco</translation>
     </message>
     <message>
-        <location line="-95"/>
-        <location line="+96"/>
+        <location line="-96"/>
+        <location line="+97"/>
         <source>Slovenian</source>
         <translation>Sloveno</translation>
     </message>
     <message>
-        <location line="-95"/>
+        <location line="-96"/>
         <source>Samoan</source>
         <translation>Samoano</translation>
     </message>
@@ -3467,24 +3473,24 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+92"/>
+        <location line="+93"/>
         <source>Serbian</source>
         <translation>Serbo</translation>
     </message>
     <message>
-        <location line="-89"/>
+        <location line="-90"/>
         <source>Sundanese</source>
         <translation>Sudanese</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+49"/>
-        <location line="+40"/>
+        <location line="+41"/>
         <source>Swedish</source>
         <translation>Svedese</translation>
     </message>
     <message>
-        <location line="-88"/>
+        <location line="-89"/>
         <source>Swahili</source>
         <translation>Swahili</translation>
     </message>
@@ -3530,13 +3536,13 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+79"/>
+        <location line="+80"/>
         <location line="+22"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
     <message>
-        <location line="-100"/>
+        <location line="-101"/>
         <source>Tsonga</source>
         <translation>Tsonga</translation>
     </message>
@@ -3557,12 +3563,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+74"/>
+        <location line="+75"/>
         <source>Ukrainian</source>
         <translation>Ucraino</translation>
     </message>
     <message>
-        <location line="-73"/>
+        <location line="-74"/>
         <source>Urdu</source>
         <translation>Urdu</translation>
     </message>
@@ -3573,12 +3579,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+71"/>
+        <location line="+72"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-69"/>
         <source>Wolof</source>
         <translation>Wolof</translation>
     </message>
@@ -3614,7 +3620,7 @@ Controllarne i relativi permessi.</translation>
         <translation>Zulu</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+53"/>
         <source>Portuguese - Brazil</source>
         <translation>Portoghese (Brasile)</translation>
     </message>
@@ -3739,7 +3745,7 @@ Controllarne i relativi permessi.</translation>
         <translation>Arabo per Windows</translation>
     </message>
     <message>
-        <location line="-277"/>
+        <location line="-278"/>
         <source>Avestan</source>
         <translation>Avestan</translation>
     </message>
@@ -4055,7 +4061,7 @@ Controllarne i relativi permessi.</translation>
         <translation>Volapük</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+105"/>
         <source>Modern Greek Windows</source>
         <translation>Greco moderno Windows</translation>
     </message>
@@ -6882,7 +6888,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>idle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="+56"/>
+        <location filename="../prefperformance.cpp" line="+57"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
@@ -6902,12 +6908,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Usare una cache può migliorare il rendimento nei media lenti</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="-50"/>
+        <location filename="../prefperformance.cpp" line="-51"/>
         <source>Allow frame drop</source>
         <translation>Permetti scarto fotogrammi</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+12"/>
+        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
         <source>Fast audio track switching</source>
         <translation>Cambio rapido della traccia audio</translation>
     </message>
@@ -6917,7 +6928,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezione rapida dei capitoli nei DVD</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-40"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Salta alcuni frame per mantenere la sincronia Audio/Video su sistemi lenti.</translation>
     </message>
@@ -6957,7 +6968,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Selezione rapida dei capitoli nei DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="+37"/>
+        <location filename="../prefperformance.cpp" line="+38"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Se selezionata, si proverà il metodo più veloce di ricerca dei capitoli, ma può non funzionare con alcuni dischi.</translation>
     </message>
@@ -7027,7 +7038,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache per i flu&amp;ssi:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="-259"/>
+        <location filename="../prefperformance.cpp" line="-260"/>
         <source>Enabled</source>
         <translation>Abilitato</translation>
     </message>
@@ -7047,7 +7058,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Filtro loop</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="+211"/>
+        <location filename="../prefperformance.cpp" line="+212"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Questa opzione permette di saltare il filtro loop (conosciuto anche come deblocking) durante la riproduzione di file H.264. Dal momento che il frame filtrato è usato come riferimento per i frame che da esso dipendono, questo ha un brutto effetto sulla qualità, ad esempio nei video MPEG-2. Ma almeno su HDTV ad alto bitrate, si potrà avere maggiore velocità senza perdita visibile di qualità.</translation>
     </message>
@@ -7102,7 +7113,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache per i &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="-63"/>
+        <location filename="../prefperformance.cpp" line="-64"/>
         <source>Threads for decoding</source>
         <translation>Thread per la decodifica</translation>
     </message>
@@ -7127,9 +7138,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Usa CoreAVC se non è specificato un altro codec</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation>Prova ad usare il codec non libero CoreAVC quando nessun altro codec è specificato ed è selezionata un&apos;uscita video non-VDPAU. Richiede MPlayer con il supporto a CoreAVC.</translation>
+        <translation type="obsolete">Prova ad usare il codec non libero CoreAVC quando nessun altro codec è specificato ed è selezionata un&apos;uscita video non-VDPAU. Richiede MPlayer con il supporto a CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="+89"/>
@@ -7142,7 +7152,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cache per la &amp;TV:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="+34"/>
+        <location filename="../prefperformance.cpp" line="+36"/>
         <source>Youtube quality</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7419,12 +7429,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Font di sistema</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation>Qui si possono selezionare i caratteri di sistema da usare per i sottotitoli e l&apos;OSD. &lt;b&gt;Nota:&lt;/b&gt; richiede MPlayer con supporto a fontconfig.</translation>
+        <translation type="obsolete">Qui si possono selezionare i caratteri di sistema da usare per i sottotitoli e l&apos;OSD. &lt;b&gt;Nota:&lt;/b&gt; richiede MPlayer con supporto a fontconfig.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Autoscale</source>
         <translation>Dimensione automatica</translation>
     </message>
@@ -7514,7 +7523,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Seleziona il carattere per i sottotitoli.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-36"/>
+        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+39"/>
         <source>The size in pixels.</source>
         <translation>La dimensione in pixel.</translation>
     </message>
@@ -8468,76 +8482,59 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoEqualizer</name>
     <message>
-        <location filename="../videoequalizer.cpp" line="+72"/>
-        <location line="+1"/>
         <source>Contrast</source>
-        <translation>Contrasto</translation>
+        <translation type="obsolete">Contrasto</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+1"/>
         <source>Brightness</source>
-        <translation>Luminosità</translation>
+        <translation type="obsolete">Luminosità</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+1"/>
         <source>Hue</source>
-        <translation>Tonalità</translation>
+        <translation type="obsolete">Tonalità</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+1"/>
         <source>Saturation</source>
-        <translation>Saturazione</translation>
+        <translation type="obsolete">Saturazione</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+1"/>
         <source>Gamma</source>
-        <translation>Gamma</translation>
+        <translation type="obsolete">Gamma</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Reset</translation>
+        <translation type="obsolete">&amp;Reset</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Salva come valori predefiniti</translation>
+        <translation type="obsolete">&amp;Salva come valori predefiniti</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Usa i valori correnti come valori predefiniti per i nuovi video.</translation>
+        <translation type="obsolete">Usa i valori correnti come valori predefiniti per i nuovi video.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Set all controls to zero.</source>
-        <translation>Metti a zero tutti i controlli.</translation>
+        <translation type="obsolete">Metti a zero tutti i controlli.</translation>
     </message>
     <message>
-        <location line="-30"/>
         <source>Video Equalizer</source>
-        <translation>Equalizzatore Video</translation>
+        <translation type="obsolete">Equalizzatore Video</translation>
     </message>
     <message>
-        <location line="+49"/>
         <source>Information</source>
-        <translation>Informazioni</translation>
+        <translation type="obsolete">Informazioni</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>I valori correnti sono stati salvati come predefiniti.</translation>
+        <translation type="obsolete">I valori correnti sono stati salvati come predefiniti.</translation>
     </message>
 </context>
 <context>
     <name>VideoEqualizer2</name>
     <message>
         <location filename="../videoequalizer2.ui" line="+14"/>
-        <location filename="../videoequalizer2.cpp" line="+98"/>
+        <location filename="../videoequalizer2.cpp" line="+99"/>
         <source>Video Equalizer</source>
         <translation type="unfinished">Equalizzatore Video</translation>
     </message>
@@ -8581,7 +8578,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="+71"/>
+        <source>Software &amp;equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <location filename="../videoequalizer2.cpp" line="+3"/>
         <source>Set as &amp;default values</source>
         <translation type="unfinished"></translation>
@@ -8786,12 +8788,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Rapporto d&apos;&amp;aspetto:</translation>
     </message>
     <message>
-        <location line="+30"/>
         <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation>&amp;Secondi da saltare all&apos;inizio:</translation>
+        <translation type="obsolete">&amp;Secondi da saltare all&apos;inizio:</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+64"/>
         <source>&amp;Maximum width:</source>
         <translation>&amp;Larghezza massima:</translation>
     </message>
@@ -8847,7 +8848,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Aggiungi &amp;tempo di riproduzione nelle miniature</translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+52"/>
+        <source>&amp;Seconds to skip at the beginning:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+84"/>
         <source>&amp;Extract frames as</source>
         <translation>&amp;Estrai fotogrammi come</translation>
     </message>
