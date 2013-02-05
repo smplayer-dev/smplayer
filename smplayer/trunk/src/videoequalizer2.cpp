@@ -94,20 +94,7 @@ void VideoEqualizer2::showEvent( QShowEvent * ) {
 }
 
 void VideoEqualizer2::retranslateStrings() {
-	qDebug("VideoEqualizer2::retranslateStrings");
-
-	setWindowTitle( tr("Video Equalizer") );
-
-	contrast_label->setText( tr("&Contrast") );
-	brightness_label->setText( tr("&Brightness") );
-	hue_label->setText( tr("&Hue") );
-	saturation_label->setText( tr("&Saturation") );
-	gamma_label->setText( tr("&Gamma") );
-
-	reset_button->setText( tr("&Reset") );
-	makedefault_button->setText( tr("Set as &default values") );
-
-	bysoftware_check->setText( tr("Software &equalizer") );
+	retranslateUi(this);
 
 	// What's this help:
 	makedefault_button->setWhatsThis(
