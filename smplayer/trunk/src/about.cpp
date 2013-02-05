@@ -223,6 +223,7 @@ QString About::getTranslators() {
         trad(tr("Danish"), "Martin Schlander <mschlander@opensuse.org>") +
         trad(tr("Croatian"), QString::fromUtf8("Josip Kujundžija <marshsmello@gmail.com>")) +
         trad(tr("Hebrew"), "Genghis Khan <genghiskhan@gmx.ca>") +
+        trad(tr("Thai"), QString::fromUtf8("มาโนชญ์ สมศักดิ์ <xyteton@hotmail.com>")) +
 		"");
 }
 
