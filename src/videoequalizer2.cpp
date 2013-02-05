@@ -107,6 +107,8 @@ void VideoEqualizer2::retranslateStrings() {
 	reset_button->setText( tr("&Reset") );
 	makedefault_button->setText( tr("Set as &default values") );
 
+	bysoftware_check->setText( tr("Software &equalizer") );
+
 	// What's this help:
 	makedefault_button->setWhatsThis(
 			tr("Use the current values as default values for new videos.") );
