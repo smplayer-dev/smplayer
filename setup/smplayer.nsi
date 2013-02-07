@@ -224,6 +224,7 @@
   !insertmacro MUI_LANGUAGE "Slovak"
   !insertmacro MUI_LANGUAGE "Slovenian"
   !insertmacro MUI_LANGUAGE "Spanish"
+  !insertmacro MUI_LANGUAGE "Thai"
   !insertmacro MUI_LANGUAGE "TradChinese"
 
 ;Custom translations for setup
@@ -251,6 +252,7 @@
   !insertmacro LANGFILE_INCLUDE "translations\slovak.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\slovenian.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\spanish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\thai.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\tradchinese.nsh"
 
 ;--------------------------------
