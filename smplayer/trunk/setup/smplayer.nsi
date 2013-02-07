@@ -42,6 +42,8 @@
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
+  !define CODEC_VERSION "windows-essential-20071007"
+
 ;--------------------------------
 ;General
 
@@ -366,16 +368,14 @@ SectionGroup $(MPlayerGroupTitle)
 
   Section /o $(Section_MPlayerCodecs) SecCodecs
 
-    AddSize 22300
-
-    StrCpy $Codec_Version "windows-essential-20071007"
+    AddSize 22931
 
     ${If} $Restore_Codecs == 1
       DetailPrint $(Info_Codecs_Restore)
       CopyFiles /SILENT "$PLUGINSDIR\codecbak\*" "$INSTDIR\mplayer\codecs"
       Goto check_codecs
-    ${ElseIf} ${FileExists} "$EXEDIR\$Codec_Version.zip"
-      CopyFiles /SILENT "$EXEDIR\$Codec_Version.zip" "$PLUGINSDIR"
+    ${ElseIf} ${FileExists} "$EXEDIR\${CODEC_VERSION}.zip"
+      CopyFiles /SILENT "$EXEDIR\${CODEC_VERSION}.zip" "$PLUGINSDIR"
       Goto extract_codecs
     ${EndIf}
 
@@ -383,8 +383,8 @@ SectionGroup $(MPlayerGroupTitle)
 
     DetailPrint $(Codecs_DL_Msg)
     inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(Codecs_DL_Msg) /CAPTION $(Codecs_DL_Msg) \
-    "http://www.mplayerhq.hu/MPlayer/releases/codecs/$Codec_Version.zip" \
-    "$PLUGINSDIR\$Codec_Version.zip" /END
+    "http://www.mplayerhq.hu/MPlayer/releases/codecs/${CODEC_VERSION}.zip" \
+    "$PLUGINSDIR\${CODEC_VERSION}.zip" /END
     Pop $R0
     StrCmp $R0 OK +4 0
       DetailPrint $(Codecs_DL_Failed)
@@ -394,10 +394,10 @@ SectionGroup $(MPlayerGroupTitle)
     extract_codecs:
 
     DetailPrint $(Info_Files_Extract)
-    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\$Codec_Version.zip" -y -o"$PLUGINSDIR"'
+    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\${CODEC_VERSION}.zip" -y -o"$PLUGINSDIR"'
 
     CreateDirectory "$INSTDIR\mplayer\codecs"
-    CopyFiles /SILENT "$PLUGINSDIR\$Codec_Version\*" "$INSTDIR\mplayer\codecs"
+    CopyFiles /SILENT "$PLUGINSDIR\${CODEC_VERSION}\*" "$INSTDIR\mplayer\codecs"
 
     check_codecs:
 
