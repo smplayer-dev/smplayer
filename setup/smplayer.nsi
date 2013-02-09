@@ -87,7 +87,6 @@
 ;--------------------------------
 ;Variables
 
-  Var Codec_Version
   Var Dialog_Reinstall
   Var Inst_Type
   Var Previous_Version
