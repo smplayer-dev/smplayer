@@ -174,7 +174,7 @@ void Preferences::reset() {
        *********** */
 
 	priority = AboveNormal; // Option only for windows
-	frame_drop = true;
+	frame_drop = false;
 	hard_frame_drop = false;
 	coreavc = false;
 	h264_skip_loop_filter = LoopEnabled;
@@ -1420,6 +1420,7 @@ void Preferences::load() {
 		}
 		if (config_version <= 3) {
 			osd = None;
+			frame_drop = false;
 		}
 	}
 
