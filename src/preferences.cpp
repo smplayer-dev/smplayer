@@ -38,7 +38,7 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
-#define CURRENT_CONFIG_VERSION 2
+#define CURRENT_CONFIG_VERSION 3
 
 using namespace Global;
 
@@ -139,7 +139,7 @@ void Preferences::reset() {
 	use_mc = false;
 	mc_value = 0;
 
-	osd = Seek;
+	osd = None;
 	osd_delay = 2200;
 
 	file_settings_method = "hash"; // Possible values: normal & hash
@@ -1415,7 +1415,12 @@ void Preferences::load() {
 	if (config_version < CURRENT_CONFIG_VERSION) {
 		qDebug("Preferences::load: config version is old, updating it");
 		config_version = CURRENT_CONFIG_VERSION;
-		use_slices = false;
+		if (config_version <= 2) {
+			use_slices = false;
+		}
+		if (config_version <= 3) {
+			osd = None;
+		}
 	}
 
 #ifdef Q_OS_WIN
