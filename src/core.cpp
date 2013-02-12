@@ -1847,6 +1847,10 @@ void Core::startMplayer( QString file, double seek ) {
 			#endif
 			proc->addArgument( mset.external_subtitles );
 		}
+		if (!mset.external_subtitles_fps.isEmpty()) {
+			proc->addArgument("-subfps");
+			proc->addArgument( mset.external_subtitles_fps );
+		}
 	}
 
 	if (!mset.external_audio.isEmpty()) {

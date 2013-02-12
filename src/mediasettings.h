@@ -80,6 +80,7 @@ public:
 	AudioEqualizerList audio_equalizer;
 
 	QString external_subtitles;
+	QString external_subtitles_fps;
 	QString external_audio; // external audio file
 
 	int sub_delay;
