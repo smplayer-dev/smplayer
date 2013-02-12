@@ -49,6 +49,7 @@ void MediaSettings::reset() {
 	volume = pref->initial_volume;
 	mute = false;
 	external_subtitles = "";
+	external_subtitles_fps = "";
 	external_audio = "";
 	sub_delay=0;
 	audio_delay=0;
@@ -190,6 +191,7 @@ void MediaSettings::list() {
 	qDebug("  volume: %d", volume);
 	qDebug("  mute: %d", mute);
 	qDebug("  external_subtitles: '%s'", external_subtitles.toUtf8().data());
+	qDebug("  external_subtitles_fps: '%s'", external_subtitles_fps.toUtf8().data());
 	qDebug("  external_audio: '%s'", external_audio.toUtf8().data());
 	qDebug("  sub_delay: %d", sub_delay);
 	qDebug("  audio_delay: %d", sub_delay);
@@ -286,6 +288,7 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "volume", volume );
 	set->setValue( "mute", mute );
 	set->setValue( "external_subtitles", external_subtitles );
+	set->setValue( "external_subtitles_fps", external_subtitles_fps );
 	set->setValue( "external_audio", external_audio );
 	set->setValue( "sub_delay", sub_delay);
 	set->setValue( "audio_delay", audio_delay);
@@ -385,6 +388,7 @@ void MediaSettings::load(QSettings * set) {
 	volume = set->value( "volume", volume ).toInt();
 	mute = set->value( "mute", mute ).toBool();
 	external_subtitles = set->value( "external_subtitles", external_subtitles ).toString();
+	external_subtitles_fps = set->value( "external_subtitles_fps", external_subtitles_fps ).toString();
 	external_audio = set->value( "external_audio", external_audio ).toString();
 	sub_delay = set->value( "sub_delay", sub_delay).toInt();
 	audio_delay = set->value( "audio_delay", audio_delay).toInt();
