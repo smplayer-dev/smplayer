@@ -235,6 +235,8 @@ public slots:
 
 	void changeSubVisibility(bool visible);
 
+	void setExternalSubFPS(QString fps);
+
 	//! Audio equalizer
 	void setAudioEqualizer(AudioEqualizerList values, bool restart = false);
 	void setAudioAudioEqualizerRestart(AudioEqualizerList values) { setAudioEqualizer(values, true); };
