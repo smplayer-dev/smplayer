@@ -754,6 +754,7 @@ Function Backup_Codecs
 
   IfFileExists "$SMPlayer_Path\mplayer\codecs\*.dll" 0 NoBackup
     DetailPrint $(Info_Codecs_Backup)
+    CreateDirectory "$PLUGINSDIR\codecbak"
     CopyFiles /SILENT "$SMPlayer_Path\mplayer\codecs\*" "$PLUGINSDIR\codecbak"
     StrCpy $Restore_Codecs 1
     Return
