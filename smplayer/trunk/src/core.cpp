@@ -3113,6 +3113,14 @@ void Core::changeSubVisibility(bool visible) {
 		displayMessage( tr("Subtitles off") );
 }
 
+void Core::setExternalSubFPS(QString fps) {
+	qDebug("Core::setExternalSubFPS: %s", fps.toUtf8().constData());
+	mset.external_subtitles_fps = fps;
+	if (!mset.external_subtitles.isEmpty()) {
+		restartPlay();
+	}
+}
+
 // Audio equalizer functions
 void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
 	mset.audio_equalizer = values;
