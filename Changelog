@@ -1,5 +1,8 @@
 [b]Version 0.8.4[/b]:
 
+(2013-02-16)
+ * Now it's possible to set the fps for external subtitles.
+
 (2013-02-11)
  * Change the default value of the OSD to "subtitles only".
  * Change the default value of "allow frame drop" to false.
