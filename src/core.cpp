@@ -1847,9 +1847,19 @@ void Core::startMplayer( QString file, double seek ) {
 			#endif
 			proc->addArgument( mset.external_subtitles );
 		}
-		if (!mset.external_subtitles_fps.isEmpty()) {
+		if (mset.external_subtitles_fps != MediaSettings::SFPS_None) {
+			QString fps;
+			switch (mset.external_subtitles_fps) {
+				case MediaSettings::SFPS_23: fps = "23"; break;
+				case MediaSettings::SFPS_24: fps = "24"; break;
+				case MediaSettings::SFPS_25: fps = "25"; break;
+				case MediaSettings::SFPS_30: fps = "30"; break;
+				case MediaSettings::SFPS_23_9: fps = "24000/1001"; break;
+				case MediaSettings::SFPS_29: fps = "30000/1001"; break;
+				default: fps = "25";
+			}
 			proc->addArgument("-subfps");
-			proc->addArgument( mset.external_subtitles_fps );
+			proc->addArgument( fps );
 		}
 	}
 
@@ -3113,9 +3123,9 @@ void Core::changeSubVisibility(bool visible) {
 		displayMessage( tr("Subtitles off") );
 }
 
-void Core::setExternalSubFPS(QString fps) {
-	qDebug("Core::setExternalSubFPS: %s", fps.toUtf8().constData());
-	mset.external_subtitles_fps = fps;
+void Core::changeExternalSubFPS(int fps_id) {
+	qDebug("Core::setExternalSubFPS: %d", fps_id);
+	mset.external_subtitles_fps = fps_id;
 	if (!mset.external_subtitles.isEmpty()) {
 		restartPlay();
 	}

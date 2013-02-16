@@ -49,6 +49,8 @@ public:
 
 	enum IDs { NoneSelected = -1000, SubNone = 90000 };
 
+	enum SubFPS { SFPS_None, SFPS_23, SFPS_24, SFPS_25, SFPS_30, SFPS_23_9, SFPS_29 };
+
 	MediaSettings();
 	virtual ~MediaSettings();
 
@@ -80,7 +82,7 @@ public:
 	AudioEqualizerList audio_equalizer;
 
 	QString external_subtitles;
-	QString external_subtitles_fps;
+	int external_subtitles_fps;
 	QString external_audio; // external audio file
 
 	int sub_delay;
