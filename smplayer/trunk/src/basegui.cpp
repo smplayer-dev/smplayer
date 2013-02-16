@@ -1065,6 +1065,17 @@ void BaseGui::createActions() {
 	connect( ccGroup, SIGNAL(activated(int)),
              core, SLOT(changeClosedCaptionChannel(int)) );
 
+	subFPSGroup = new MyActionGroup(this);
+	subFPSNoneAct = new MyActionGroupItem(this, subFPSGroup, "sub_fps_none", MediaSettings::SFPS_None);
+	/* subFPS23Act = new MyActionGroupItem(this, subFPSGroup, "sub_fps_23", MediaSettings::SFPS_23); */
+	subFPS23976Act = new MyActionGroupItem(this, subFPSGroup, "sub_fps_23976", MediaSettings::SFPS_23976);
+	subFPS24Act = new MyActionGroupItem(this, subFPSGroup, "sub_fps_24", MediaSettings::SFPS_24);
+	subFPS25Act = new MyActionGroupItem(this, subFPSGroup, "sub_fps_25", MediaSettings::SFPS_25);
+	subFPS29970Act = new MyActionGroupItem(this, subFPSGroup, "sub_fps_29970", MediaSettings::SFPS_29970);
+	subFPS30Act = new MyActionGroupItem(this, subFPSGroup, "sub_fps_30", MediaSettings::SFPS_30);
+	connect( subFPSGroup, SIGNAL(activated(int)),
+             core, SLOT(changeExternalSubFPS(int)) );
+
 	// Titles
 	titleGroup = new MyActionGroup(this);
 	connect( titleGroup, SIGNAL(activated(int)),
@@ -1539,6 +1550,14 @@ void BaseGui::retranslateStrings() {
 	ccChannel3Act->change( "&3" );
 	ccChannel4Act->change( "&4" );
 
+	subFPSNoneAct->change( tr("&Default", "subfps menu") );
+	/* subFPS23Act->change( "2&3" ); */
+	subFPS23976Act->change( "23.9&76" );
+	subFPS24Act->change( "2&4" );
+	subFPS25Act->change( "2&5" );
+	subFPS29970Act->change( "29.&970" );
+	subFPS30Act->change( "3&0" );
+
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
 	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
@@ -1775,6 +1794,9 @@ void BaseGui::retranslateStrings() {
 
 	closed_captions_menu->menuAction()->setText( tr("&Closed captions") );
 	closed_captions_menu->menuAction()->setIcon( Images::icon("closed_caption") );
+
+	subfps_menu->menuAction()->setText( tr("F&rames per second") );
+	subfps_menu->menuAction()->setIcon( Images::icon("subfps") );
 
 	// Menu Browse 
 	titles_menu->menuAction()->setText( tr("&Title") );
@@ -2374,6 +2396,17 @@ void BaseGui::createMenus() {
 
 	subtitlesMenu->addAction(loadSubsAct);
 	subtitlesMenu->addAction(unloadSubsAct);
+
+	subfps_menu = new QMenu(this);
+	subfps_menu->menuAction()->setObjectName("subfps_menu");
+	subfps_menu->addAction( subFPSNoneAct );
+	/* subfps_menu->addAction( subFPS23Act ); */
+	subfps_menu->addAction( subFPS23976Act );
+	subfps_menu->addAction( subFPS24Act );
+	subfps_menu->addAction( subFPS25Act );
+	subfps_menu->addAction( subFPS29970Act );
+	subfps_menu->addAction( subFPS30Act );
+	subtitlesMenu->addMenu(subfps_menu);
 	subtitlesMenu->addSeparator();
 
 	closed_captions_menu = new QMenu(this);
@@ -3152,9 +3185,14 @@ void BaseGui::updateWidgets() {
 	// Disable the unload subs action if there's no external subtitles
 	unloadSubsAct->setEnabled( !core->mset.external_subtitles.isEmpty() );
 
+	subFPSGroup->setEnabled( !core->mset.external_subtitles.isEmpty() );
+
 	// Closed caption menu
 	ccGroup->setChecked( core->mset.closed_caption_channel );
-	
+
+	// Subfps menu
+	subFPSGroup->setChecked( core->mset.external_subtitles_fps );
+
 	// Audio menu
 	audioTrackGroup->setChecked( core->mset.current_audio_id );
 	channelsGroup->setChecked( core->mset.audio_use_channels );

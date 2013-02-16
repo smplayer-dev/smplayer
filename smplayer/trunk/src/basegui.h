@@ -596,6 +596,15 @@ protected:
 	MyAction * ccChannel3Act;
 	MyAction * ccChannel4Act;
 
+	// External sub fps Group
+	MyActionGroup * subFPSGroup;
+	MyAction * subFPSNoneAct;
+	/* MyAction * subFPS23Act; */
+	MyAction * subFPS23976Act;
+	MyAction * subFPS24Act;
+	MyAction * subFPS25Act;
+	MyAction * subFPS29970Act;
+	MyAction * subFPS30Act;
 
 	// Audio Channels Action Group
 	MyActionGroup * channelsGroup;
@@ -677,6 +686,7 @@ protected:
 	QMenu * screen_menu;
 #endif
 	QMenu * closed_captions_menu;
+	QMenu * subfps_menu;
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
