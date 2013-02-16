@@ -2393,6 +2393,7 @@ void BaseGui::createMenus() {
 	subtitlestrack_menu->menuAction()->setObjectName("subtitlestrack_menu");
 
 	subtitlesMenu->addMenu(subtitlestrack_menu);
+	subtitlesMenu->addSeparator();
 
 	subtitlesMenu->addAction(loadSubsAct);
 	subtitlesMenu->addAction(unloadSubsAct);
