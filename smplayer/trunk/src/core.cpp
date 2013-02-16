@@ -520,7 +520,7 @@ void Core::loadSub(const QString & sub ) {
 		just_loaded_external_subs = true;
 
 		QFileInfo fi(sub);
-		if ((pref->fast_load_sub) && (fi.suffix().toLower() != "idx")) {
+		if ((pref->fast_load_sub) && (fi.suffix().toLower() != "idx") && (mset.external_subtitles_fps == MediaSettings::SFPS_None)) {
 			QString sub_file = sub;
 			#ifdef Q_OS_WIN
 			if (pref->use_short_pathnames) {
