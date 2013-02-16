@@ -49,7 +49,7 @@ public:
 
 	enum IDs { NoneSelected = -1000, SubNone = 90000 };
 
-	enum SubFPS { SFPS_None, SFPS_23, SFPS_24, SFPS_25, SFPS_30, SFPS_23_9, SFPS_29 };
+	enum SubFPS { SFPS_None, SFPS_23, SFPS_24, SFPS_25, SFPS_30, SFPS_23976, SFPS_29970 };
 
 	MediaSettings();
 	virtual ~MediaSettings();

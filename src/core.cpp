@@ -1854,8 +1854,8 @@ void Core::startMplayer( QString file, double seek ) {
 				case MediaSettings::SFPS_24: fps = "24"; break;
 				case MediaSettings::SFPS_25: fps = "25"; break;
 				case MediaSettings::SFPS_30: fps = "30"; break;
-				case MediaSettings::SFPS_23_9: fps = "24000/1001"; break;
-				case MediaSettings::SFPS_29: fps = "30000/1001"; break;
+				case MediaSettings::SFPS_23976: fps = "24000/1001"; break;
+				case MediaSettings::SFPS_29970: fps = "30000/1001"; break;
 				default: fps = "25";
 			}
 			proc->addArgument("-subfps");
