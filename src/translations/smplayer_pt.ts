@@ -149,7 +149,7 @@
     <message>
         <location filename="../about.cpp" line="226"/>
         <source>Thai</source>
-        <translation type="unfinished">Tailandês</translation>
+        <translation>Tailandês</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
@@ -670,7 +670,7 @@ Substituir?</translation>
         <location filename="../basegui.cpp" line="1553"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">Pa&amp;drão</translation>
+        <translation>Pa&amp;drão</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
@@ -1259,7 +1259,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1798"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <translation>I&amp;magens por segundo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
@@ -2090,7 +2090,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../defaultgui.cpp" line="518"/>
         <source>&amp;Frame counter</source>
-        <translation>Contador de &amp;frames</translation>
+        <translation>Contador de i&amp;magens</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="521"/>
@@ -2856,7 +2856,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../infofile.cpp" line="104"/>
         <source>Frames per second</source>
-        <translation>Frames por segundo</translation>
+        <translation>Imagens por segundo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="105"/>
@@ -4817,7 +4817,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Troca o MPlayer para o modo experimental, no qual as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativas. Sem os corretos pts, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
+        <translation>Troca o MPlayer para o modo experimental, no qual as imagens de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas imagens ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas se tiver as bibliotecas SSA/ASS ativas. Sem os corretos pts, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
@@ -5279,7 +5279,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>O processamento duplo armazena duas frames em memória e mostra uma enquanto descodifica a outra. Se inativo, pode afetar negativamente o OSD.</translation>
+        <translation>O processamento duplo armazena duas imagens em memória e mostra uma enquanto descodifica a outra. Se inativo, pode afetar negativamente o OSD.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="309"/>
@@ -6042,7 +6042,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Frame counter</source>
-        <translation>Contador de frames</translation>
+        <translation>Contador de imagens</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="76"/>
@@ -6967,7 +6967,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Allow frame drop</source>
-        <translation>Permitir saltar frames</translation>
+        <translation>Permitir saltar imagens</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
@@ -6987,17 +6987,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Ignorar exibição de frames para manter a sincronização A/V em sistemas lentos.</translation>
+        <translation>Ignorar exibição de imagens para manter a sincronização A/V em sistemas lentos.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>Allow hard frame drop</source>
-        <translation>Permitir saltar frames abruptamente</translation>
+        <translation>Permitir saltar imagens abruptamente</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>Perda de frames mais intensa (quebra a descodificação). Origina a distorção da imagem!</translation>
+        <translation>Perda de imagens  mais intensa (quebra a descodificação). Origina a distorção da imagem!</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="89"/>
@@ -7007,12 +7007,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="157"/>
         <source>&amp;Allow frame drop</source>
-        <translation>Permitir s&amp;altar frames</translation>
+        <translation>Permitir s&amp;altar imagens</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="164"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>Permitir saltar frames a&amp;bruptamente (pode levar à distorção da imagem)</translation>
+        <translation>Permitir saltar imagens a&amp;bruptamente (pode levar à distorção da imagem)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="304"/>
@@ -7117,7 +7117,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Esta opção permite ignorar o filtro de ciclos (deblocking) durante a descodificação H.264. Como a frame filtrada deve ser utilizada como referência para a descodificação de frames dependentes, terá um efeito inferior comparativamente ao deblocking em vídeos MPEG-2. No entanto, para uma taxa de dados HDTV, fornece uma maior velocidade sem perda visível na qualidade.</translation>
+        <translation>Esta opção permite ignorar o filtro de ciclos (deblocking) durante a descodificação H.264. Como a imagem filtrada é utilizada como referência para a descodificação de imagens dependentes, terá um efeito inferior comparativamente ao deblocking em vídeos MPEG-2. No entanto, para uma taxa de dados HDTV, fornece uma maior velocidade sem perda visível na qualidade.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
@@ -8737,7 +8737,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>Frames per second: %1</source>
-        <translation>Frames por segundo: %1</translation>
+        <translation>Imagens por segundo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="386"/>
@@ -8881,7 +8881,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation>Normalmente, as primeiras frames são pretas, logo é uma boa ideia ignorar alguns segundos no início de cada vídeo. Esta opção permite-lhe especificar quantos segundo serão ignorados.</translation>
+        <translation>Normalmente, as primeiras imagens são pretas, logo é uma boa ideia ignorar alguns segundos no início de cada vídeo. Esta opção permite-lhe especificar quantos segundo serão ignorados.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
@@ -8891,7 +8891,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>Algumas frames serão extraídas do vídeo de modo a criar a visualização. Aqui, pode escolher o formato da imagem para as frames extraídas. PNG poderá fornecer uma melhor qualidade.</translation>
+        <translation>Algumas imagens serão extraídas do vídeo para criar a visualização. Aqui, pode escolher o formato para as imagens extraídas. PNG poderá fornecer uma melhor qualidade.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
@@ -8906,7 +8906,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
         <source>&amp;Extract frames as</source>
-        <translation>&amp;Extrair frames como</translation>
+        <translation>&amp;Extrair imagens como</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
