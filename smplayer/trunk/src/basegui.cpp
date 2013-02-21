@@ -37,6 +37,7 @@
 #include <QDropEvent>
 #include <QDesktopServices>
 #include <QInputDialog>
+#include <QClipboard>
 
 #include <cmath>
 
@@ -3522,6 +3523,12 @@ void BaseGui::openURL() {
 	*/
 
 	InputURL d(this);
+
+	// Get url from clipboard
+	QString clipboard_text = QApplication::clipboard()->text();
+	if ((!clipboard_text.isEmpty()) && (clipboard_text.contains("://")) /*&& (QUrl(clipboard_text).isValid())*/) {
+		d.setURL(clipboard_text);
+	}
 
 	for (int n=0; n < pref->history_urls->count(); n++) {
 		d.setURL( pref->history_urls->url(n) );
