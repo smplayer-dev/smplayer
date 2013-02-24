@@ -1060,7 +1060,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1565"/>
         <source>&amp;YouTube browser</source>
-        <translation>&amp;YouTube bilatzailea</translation>
+        <translation>&amp;YouTube nabigatzailea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1579"/>
@@ -1246,7 +1246,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="4773"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation>YouTube Bilatzailea ezin da abiarazi</translation>
+        <translation>YouTube Nabigatzailea ezin da abiarazi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1613"/>
