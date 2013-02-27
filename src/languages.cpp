@@ -292,6 +292,7 @@ QMap<QString,QString> Languages::encodings() {
 	l["ISO-8859-9"] = tr( "Turkish");
 	l["ISO-8859-13"] = tr( "Baltic");
 	l["ISO-8859-14"] = tr( "Celtic");
+	l["ISO-8859-16"] = tr( "South-Eastern European");
 	l["ISO-8859-8"] = tr( "Hebrew charsets");
 	l["KOI8-R"] = tr( "Russian");
 	l["KOI8-U/RU"] = tr( "Ukrainian, Belarusian");
