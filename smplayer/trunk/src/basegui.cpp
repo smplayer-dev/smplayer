@@ -757,6 +757,24 @@ void BaseGui::createActions() {
 	connect( aboutThisAct, SIGNAL(triggered()),
              this, SLOT(helpAbout()) );
 
+	facebookAct = new MyAction (this, "facebook");
+	twitterAct = new MyAction (this, "twitter");
+	gmailAct = new MyAction (this, "gmail");
+	hotmailAct = new MyAction (this, "hotmail");
+	yahooAct = new MyAction (this, "yahoo");
+
+	connect( facebookAct, SIGNAL(triggered()),
+             this, SLOT(shareSMPlayer()) );
+	connect( twitterAct, SIGNAL(triggered()),
+             this, SLOT(shareSMPlayer()) );
+	connect( gmailAct, SIGNAL(triggered()),
+             this, SLOT(shareSMPlayer()) );
+	connect( hotmailAct, SIGNAL(triggered()),
+             this, SLOT(shareSMPlayer()) );
+	connect( yahooAct, SIGNAL(triggered()),
+             this, SLOT(shareSMPlayer()) );
+
+
 	// Playlist
 	playNextAct = new MyAction(Qt::Key_Greater, this, "play_next");
 	connect( playNextAct, SIGNAL(triggered()), playlist, SLOT(playNext()) );
@@ -1580,6 +1598,13 @@ void BaseGui::retranslateStrings() {
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
+
+	facebookAct->change("&Facebook");
+	twitterAct->change("&Twitter");
+	gmailAct->change("&Gmail");
+	hotmailAct->change("&Hotmail");
+	yahooAct->change("&Yahoo!");
+
 
 	// Playlist
 	playNextAct->change( tr("&Next") );
@@ -2525,10 +2550,21 @@ void BaseGui::createMenus() {
 	*/
 
 	// HELP MENU
+	// Share submenu
+	share_menu = new QMenu(tr("S&hare SMPlayer with your friends"), this);
+	share_menu->setIcon(Images::icon("share"));
+	share_menu->addAction(facebookAct);
+	share_menu->addAction(twitterAct);
+	share_menu->addAction(gmailAct);
+	share_menu->addAction(hotmailAct);
+	share_menu->addAction(yahooAct);
+
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addAction(showCheckUpdatesAct);
 	helpMenu->addAction(showConfigAct);
+	helpMenu->addSeparator();
+	helpMenu->addMenu(share_menu);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
@@ -3805,6 +3841,29 @@ void BaseGui::helpAbout() {
 
 void BaseGui::helpAboutQt() {
 	QMessageBox::aboutQt(this, tr("About Qt") );
+}
+
+void BaseGui::shareSMPlayer() {
+	if (sender() == twitterAct) {
+		QDesktopServices::openUrl(QUrl("http://twitter.com/intent/tweet?text=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&url=http://smplayer.sourceforge.net/&via=smplayer_dev"));
+	}
+	else
+	if (sender() == gmailAct) {
+		QDesktopServices::openUrl(QUrl("https://mail.google.com/mail/?view=cm&fs=1&to&su=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&body=http://smplayer.sourceforge.net&ui=2&tf=1&shva=1"));
+	}
+	else
+	if (sender() == yahooAct) {
+		QDesktopServices::openUrl(QUrl("http://compose.mail.yahoo.com/?To=&Subject=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&body=http%3A%2F%2Fsmplayer.sourceforge.net"));
+	}
+	else
+	if (sender() == hotmailAct) {
+		QDesktopServices::openUrl(QUrl("http://www.hotmail.msn.com/secure/start?action=compose&to=&subject=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&body=http://smplayer.sourceforge.net"));
+	}
+	else
+	if (sender() == facebookAct) {
+		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=http%3A%2F%2Fsmplayer.sourceforge.net&t=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support"));
+    }
+
 }
 
 void BaseGui::showGotoDialog() {

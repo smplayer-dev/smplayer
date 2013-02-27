@@ -107,6 +107,8 @@ public slots:
 	virtual void helpAbout();
 	virtual void helpAboutQt();
 
+	virtual void shareSMPlayer();
+
 	virtual void loadSub();
 	virtual void loadAudioFile(); // Load external audio file
 
@@ -460,6 +462,12 @@ protected:
 	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 
+	MyAction * facebookAct;
+	MyAction * twitterAct;
+	MyAction * gmailAct;
+	MyAction * hotmailAct;
+	MyAction * yahooAct;
+
 	// Playlist
 	MyAction * playPrevAct;
 	MyAction * playNextAct;
@@ -687,6 +695,8 @@ protected:
 #endif
 	QMenu * closed_captions_menu;
 	QMenu * subfps_menu;
+
+	QMenu * share_menu;
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
