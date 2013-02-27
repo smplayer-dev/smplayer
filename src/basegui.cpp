@@ -1944,7 +1944,7 @@ void BaseGui::createCore() {
              this, SLOT(checkStayOnTop(Core::State)), Qt::QueuedConnection );
 
 	connect( core, SIGNAL(mediaStartPlay()),
-             this, SLOT(enterFullscreenOnPlay()) );
+             this, SLOT(enterFullscreenOnPlay()), Qt::QueuedConnection );
 	connect( core, SIGNAL(mediaStoppedByUser()),
              this, SLOT(exitFullscreenOnStop()) );
 
