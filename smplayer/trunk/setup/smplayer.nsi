@@ -615,11 +615,13 @@ ${MementoSectionDone}
 !macro RunCheckMacro UN
 Function ${UN}RunCheck
 
-  retry_runcheck:
-  FindProcDLL::FindProc "smplayer.exe"
-  IntCmp $R0 1 0 +3
-    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
-    Abort
+  ${Unless} ${AtLeastWinXP}
+    retry_runcheck:
+    FindProcDLL::FindProc "smplayer.exe"
+    IntCmp $R0 1 0 +3
+      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
+      Abort
+  ${EndIf}
 
 FunctionEnd
 !macroend
@@ -631,11 +633,13 @@ FunctionEnd
 
 Function .onInit
 
+/*
   ${Unless} ${AtLeastWinXP}
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
     Abort
   installonoldwindows:
   ${EndIf}
+*/
 
 !ifdef WIN64
   ${IfNot} ${RunningX64}
