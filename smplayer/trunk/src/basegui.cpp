@@ -2559,12 +2559,12 @@ void BaseGui::createMenus() {
 	share_menu->addAction(hotmailAct);
 	share_menu->addAction(yahooAct);
 
+	helpMenu->addMenu(share_menu);
+	helpMenu->addSeparator();
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addAction(showCheckUpdatesAct);
 	helpMenu->addAction(showConfigAct);
-	helpMenu->addSeparator();
-	helpMenu->addMenu(share_menu);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
@@ -3844,26 +3844,28 @@ void BaseGui::helpAboutQt() {
 }
 
 void BaseGui::shareSMPlayer() {
+	QString text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
+	QString url = "http://smplayer.sourceforge.net";
+
 	if (sender() == twitterAct) {
-		QDesktopServices::openUrl(QUrl("http://twitter.com/intent/tweet?text=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&url=http://smplayer.sourceforge.net/&via=smplayer_dev"));
+		QDesktopServices::openUrl(QUrl("http://twitter.com/intent/tweet?text=" + text + "&url=" + url + "/&via=smplayer_dev"));
 	}
 	else
 	if (sender() == gmailAct) {
-		QDesktopServices::openUrl(QUrl("https://mail.google.com/mail/?view=cm&fs=1&to&su=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&body=http://smplayer.sourceforge.net&ui=2&tf=1&shva=1"));
+		QDesktopServices::openUrl(QUrl("https://mail.google.com/mail/?view=cm&fs=1&to&su=" + text + "&body=" + url + "&ui=2&tf=1&shva=1"));
 	}
 	else
 	if (sender() == yahooAct) {
-		QDesktopServices::openUrl(QUrl("http://compose.mail.yahoo.com/?To=&Subject=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&body=http%3A%2F%2Fsmplayer.sourceforge.net"));
+		QDesktopServices::openUrl(QUrl("http://compose.mail.yahoo.com/?To=&Subject=" + text + "&body=" + url));
 	}
 	else
 	if (sender() == hotmailAct) {
-		QDesktopServices::openUrl(QUrl("http://www.hotmail.msn.com/secure/start?action=compose&to=&subject=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support&body=http://smplayer.sourceforge.net"));
+		QDesktopServices::openUrl(QUrl("http://www.hotmail.msn.com/secure/start?action=compose&to=&subject=" + text + "&body=" + url));
 	}
 	else
 	if (sender() == facebookAct) {
-		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=http%3A%2F%2Fsmplayer.sourceforge.net&t=SMPlayer+|+Free+Media+Player+with+codecs+and+Youtube+support"));
-    }
-
+		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + url + "&t=" + text));
+	}
 }
 
 void BaseGui::showGotoDialog() {
