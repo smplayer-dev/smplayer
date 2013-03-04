@@ -663,6 +663,9 @@ void PrefInterface::createHelp() {
 	setWhatsThis(hide_video_window_on_audio_check, tr("Hide video window when playing audio files"),
         tr("If this option is enabled the video window will be hidden when playing audio files.") );
 
+	setWhatsThis(move_when_dragging_check, tr("Move the window when the video area is dragged"),
+        tr("If this option is checked, the main window will be moved if you drag the mouse over the video area.") );
+
 	setWhatsThis(language_combo, tr("Language"),
 		tr("Here you can change the language of the application.") );
 
