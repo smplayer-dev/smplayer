@@ -1861,6 +1861,9 @@ void BaseGui::retranslateStrings() {
 	osd_menu->menuAction()->setText( tr("&OSD") );
 	osd_menu->menuAction()->setIcon( Images::icon("osd") );
 
+	share_menu->menuAction()->setText( tr("S&hare SMPlayer with your friends") );
+	share_menu->menuAction()->setIcon( Images::icon("share") );
+
 #if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
 	logs_menu->menuAction()->setText( tr("&View logs") );
 	logs_menu->menuAction()->setIcon( Images::icon("logs") );
@@ -2557,8 +2560,7 @@ void BaseGui::createMenus() {
 
 	// HELP MENU
 	// Share submenu
-	share_menu = new QMenu(tr("S&hare SMPlayer with your friends"), this);
-	share_menu->setIcon(Images::icon("share"));
+	share_menu = new QMenu(this);
 	share_menu->addAction(facebookAct);
 	share_menu->addAction(twitterAct);
 	share_menu->addAction(gmailAct);
