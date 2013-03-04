@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Rusų</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -151,12 +153,12 @@
     <message>
         <location filename="../about.cpp" line="225"/>
         <source>Hebrew</source>
-        <translation type="unfinished">Hebrajų</translation>
+        <translation>Hebrajų</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="226"/>
         <source>Thai</source>
-        <translation type="unfinished">Tajų</translation>
+        <translation>Tajų</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="250"/>
@@ -1069,7 +1071,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <location filename="../basegui.cpp" line="1577"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">&amp;Numatytasis</translation>
+        <translation>&amp;Numatytasis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1589"/>
@@ -1079,7 +1081,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1600"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Pirmieji žingsniai ir gidas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1604"/>
@@ -1220,7 +1222,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <translation>Kadrų per sekundę</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1877"/>
@@ -1235,7 +1237,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1864"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dalinkitės SMPlaye su savo draugais</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2809"/>
@@ -2488,11 +2490,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="568"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrų išgauta</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrų išgauta</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
@@ -2575,7 +2573,6 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2595,7 +2592,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="501"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Neįmanoma išsaugoti atsiųstą failą kataloge
@@ -3655,7 +3652,7 @@ Patikrinkite prieigos teises.</translation>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>Pietryčių europos</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
@@ -7009,7 +7006,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jei nenurodytas joks kodekas ir pasirinkta ne VDPAU video išvestis, pabandyti naudoti nelaisvą CoreAVC kodeką. Reikalingas MPlayer sukurtas su CoreAVC palaikymu.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
@@ -7095,10 +7092,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="298"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Jei nenurodytas joks kitas kodekas, naudoti &lt;i&gt;CoreAVC&lt;/i&gt;</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Jei nenurodytas joks kodekas ir pasirinkta ne VDPAU video išvestis, pabandyti naudoti nelaisvą CoreAVC kodeką. Reikalingas MPlayer sukurtas su CoreAVC palaikymu.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="277"/>
@@ -7388,10 +7381,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sisteminis šriftas</translation>
     </message>
     <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete">Čia galima nurodyti sisteminį šriftą, kuris bus naudojamas subtitrams ir OSD. &lt;b&gt;Pastaba:&lt;/b&gt; reikalingas MPLayer, palaikantis &lt;b&gt;fontconfig&lt;/b&gt;.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Autoscale</source>
         <translation>Automatinis padėties nustatymas</translation>
@@ -7484,7 +7473,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Čia galima pasirinkti sisteminį šriftą, kuris bus naudojamas subtitrams ir OSD. </translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
@@ -8101,21 +8090,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundė</numerusform>
-            <numerusform>%n sekundės</numerusform>
-            <numerusform>%n sekundžių</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundė</numerusform><numerusform>%n sekundės</numerusform><numerusform>%n sekundžių</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutė</numerusform>
-            <numerusform>%n minutės</numerusform>
-            <numerusform>%n minučių</numerusform>
-        </translation>
+        <translation><numerusform>%n minutė</numerusform><numerusform>%n minutės</numerusform><numerusform>%n minučių</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8443,57 +8424,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Kontrastas</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Ryškumas</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Atspalvis</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Sodrumas</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gama</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Atstatyti</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Nustatyti kaip numatytąsias reikšmes</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Nustatyti dabartines reikšmes kaip numatytąsias  naujiems video.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Nustatyti visas reikšmes lygias nuliui.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Video ekvalaizeris</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Informacija</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Dabartiniai parametrai buvo išsaugoti kaip pradiniai.</translation>
-    </message>
-</context>
-<context>
     <name>VideoEqualizer2</name>
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
@@ -8537,7 +8467,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Programinis &amp;ekvalaizeris</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
@@ -8743,10 +8673,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kr&amp;aštinių santykis:</translation>
     </message>
     <message>
-        <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="obsolete">Praleisti &amp;sekundžių nuo pradžios:</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>
         <source>&amp;Maximum width:</source>
         <translation>&amp;Maksimalus plotis:</translation>
@@ -8805,7 +8731,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation>Praleisti &amp;sekundžių pradžioje:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
