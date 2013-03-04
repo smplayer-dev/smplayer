@@ -228,6 +228,9 @@ void PrefInterface::setData(Preferences * pref) {
 
 	setResizeMethod( pref->resize_method );
 	setSaveSize( pref->save_window_size_on_exit );
+
+	move_when_dragging_check->setChecked(pref->move_when_dragging);
+
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
 #endif
@@ -291,6 +294,8 @@ void PrefInterface::getData(Preferences * pref) {
 
 	pref->resize_method = resizeMethod();
 	pref->save_window_size_on_exit = saveSize();
+
+	pref->move_when_dragging = move_when_dragging_check->isChecked();
 
 #ifdef SINGLE_INSTANCE
 	pref->use_single_instance = useSingleInstance();
