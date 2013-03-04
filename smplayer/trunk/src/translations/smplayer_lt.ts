@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="lt">
 <context>
     <name>About</name>
     <message>
@@ -60,10 +62,6 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Rusų</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -664,7 +662,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1769"/>
-        <location filename="../basegui.cpp" line="3046"/>
+        <location filename="../basegui.cpp" line="3055"/>
         <source>&amp;None</source>
         <translation>&amp;Nieko</translation>
     </message>
@@ -885,85 +883,85 @@ Norite perrašyti?</translation>
         <translation>Apie &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3068"/>
-        <location filename="../basegui.cpp" line="3084"/>
-        <location filename="../basegui.cpp" line="3100"/>
-        <location filename="../basegui.cpp" line="3115"/>
-        <location filename="../basegui.cpp" line="3147"/>
-        <location filename="../basegui.cpp" line="3167"/>
-        <location filename="../basegui.cpp" line="3207"/>
+        <location filename="../basegui.cpp" line="3077"/>
+        <location filename="../basegui.cpp" line="3093"/>
+        <location filename="../basegui.cpp" line="3109"/>
+        <location filename="../basegui.cpp" line="3124"/>
+        <location filename="../basegui.cpp" line="3156"/>
+        <location filename="../basegui.cpp" line="3176"/>
+        <location filename="../basegui.cpp" line="3216"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tuščia&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3618"/>
+        <location filename="../basegui.cpp" line="3627"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3619"/>
-        <location filename="../basegui.cpp" line="3809"/>
+        <location filename="../basegui.cpp" line="3628"/>
+        <location filename="../basegui.cpp" line="3818"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3620"/>
+        <location filename="../basegui.cpp" line="3629"/>
         <source>Playlists</source>
         <translation>Grojaraščiai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3621"/>
-        <location filename="../basegui.cpp" line="3789"/>
-        <location filename="../basegui.cpp" line="3810"/>
+        <location filename="../basegui.cpp" line="3630"/>
+        <location filename="../basegui.cpp" line="3798"/>
+        <location filename="../basegui.cpp" line="3819"/>
         <source>All files</source>
         <translation>Visi failai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3616"/>
-        <location filename="../basegui.cpp" line="3786"/>
-        <location filename="../basegui.cpp" line="3807"/>
+        <location filename="../basegui.cpp" line="3625"/>
+        <location filename="../basegui.cpp" line="3795"/>
+        <location filename="../basegui.cpp" line="3816"/>
         <source>Choose a file</source>
         <translation>Pasirinkite failą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3668"/>
+        <location filename="../basegui.cpp" line="3677"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - informacija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3678"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM/DVD įrenginiai nesukonfigūruoti.
 Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3752"/>
+        <location filename="../basegui.cpp" line="3761"/>
         <source>Choose a directory</source>
         <translation>Pasirinkti katalogą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3788"/>
+        <location filename="../basegui.cpp" line="3797"/>
         <source>Subtitles</source>
         <translation>Subtitrai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3856"/>
+        <location filename="../basegui.cpp" line="3865"/>
         <source>About Qt</source>
         <translation>Apie Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4355"/>
+        <location filename="../basegui.cpp" line="4364"/>
         <source>Playing %1</source>
         <translation>Rodomas %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4356"/>
+        <location filename="../basegui.cpp" line="4365"/>
         <source>Pause</source>
         <translation>Pauzė</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4357"/>
+        <location filename="../basegui.cpp" line="4366"/>
         <source>Stop</source>
         <translation>Stabdyti</translation>
     </message>
@@ -1240,38 +1238,38 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Dalinkitės SMPlaye su savo draugais</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2809"/>
-        <location filename="../basegui.cpp" line="3435"/>
+        <location filename="../basegui.cpp" line="2818"/>
+        <location filename="../basegui.cpp" line="3444"/>
         <source>Information</source>
         <translation>Informacija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2810"/>
+        <location filename="../basegui.cpp" line="2819"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Naujos grafinės sąsajos naudojimui reikia iš naujo paleisti SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3215"/>
+        <location filename="../basegui.cpp" line="3224"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Patvirtinkite šalinimą - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3216"/>
+        <location filename="../basegui.cpp" line="3225"/>
         <source>Delete the list of recent files?</source>
         <translation>Išvalyti paskutinių atvertų failų sąrašą?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3436"/>
+        <location filename="../basegui.cpp" line="3445"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Dabartiniai parametrai buvo išsaugoti kaip pradiniai.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4854"/>
+        <location filename="../basegui.cpp" line="4863"/>
         <source>An error happened - SMPlayer</source>
         <translation>Įvyko klaida - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4854"/>
+        <location filename="../basegui.cpp" line="4863"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>YouTube naršyklės paleisti nepavyko</translation>
     </message>
@@ -1366,7 +1364,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Komandinės eilutės nuostatos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3835"/>
+        <location filename="../basegui.cpp" line="3844"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer komandinės eilutės nuostatos</translation>
     </message>
@@ -1381,32 +1379,32 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Atstatyti video ekvalaizerį</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4753"/>
+        <location filename="../basegui.cpp" line="4762"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Netikėta MPLayer pabaiga.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4754"/>
+        <location filename="../basegui.cpp" line="4763"/>
         <source>Exit code: %1</source>
         <translation>Klaidos kodas: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4773"/>
+        <location filename="../basegui.cpp" line="4782"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer paleidimo klaida.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4774"/>
+        <location filename="../basegui.cpp" line="4783"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Patikrinkite kelią iki MPlayer parinktyse.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4776"/>
+        <location filename="../basegui.cpp" line="4785"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer užlūžo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4777"/>
+        <location filename="../basegui.cpp" line="4786"/>
         <source>See the log for more info.</source>
         <translation>Daugiau informacijos žurnale.</translation>
     </message>
@@ -1451,7 +1449,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Rodyti kontekstinį meniu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3617"/>
+        <location filename="../basegui.cpp" line="3626"/>
         <source>Multimedia</source>
         <translation>Daugialypė terpė</translation>
     </message>
@@ -1533,22 +1531,22 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Takelis</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4175"/>
+        <location filename="../basegui.cpp" line="4184"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Dėmesio - naudojamas senas MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4176"/>
+        <location filename="../basegui.cpp" line="4185"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Įdegta MPlayer (%1) versija yra pasenusi. SMPlayer negali su ja gerai dirbti - kai kurios parinktys gali neveikti, subtitrų parinkimas gali nepasisekti...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4181"/>
+        <location filename="../basegui.cpp" line="4190"/>
         <source>Please, update your MPlayer.</source>
         <translation>Atnaujinkite MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4183"/>
+        <location filename="../basegui.cpp" line="4192"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Šis perspėjimas daugiau nebus rodomas)</translation>
     </message>
@@ -1643,32 +1641,32 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Nus&amp;tatyti užlaikymą...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3886"/>
+        <location filename="../basegui.cpp" line="3895"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Peršokti į:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3887"/>
+        <location filename="../basegui.cpp" line="3896"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - prasukimas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3897"/>
+        <location filename="../basegui.cpp" line="3906"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - audio užlaikymas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3898"/>
+        <location filename="../basegui.cpp" line="3907"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Audio užlaikymas (milisekundėmis):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3907"/>
+        <location filename="../basegui.cpp" line="3916"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - subtitrų užlaikymas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3908"/>
+        <location filename="../basegui.cpp" line="3917"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Subtitrų užlaikymas (milisekundėmis):</translation>
     </message>
@@ -1678,7 +1676,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Perjungti visada viršuje režimą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4477"/>
+        <location filename="../basegui.cpp" line="4486"/>
         <source>Jump to %1</source>
         <translation>Peršokti į %1</translation>
     </message>
@@ -2490,7 +2488,11 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="568"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrų išgauta</numerusform></translation>
+        <translation>
+            <numerusform>%n subtitrai išgauti</numerusform>
+            <numerusform>%n subtitrai išgauti</numerusform>
+            <numerusform>%n subtitrų išgauta</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
@@ -2573,6 +2575,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2592,7 +2595,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="501"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Neįmanoma išsaugoti atsiųstą failą kataloge
@@ -6257,7 +6260,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="133"/>
-        <location filename="../prefinterface.cpp" line="648"/>
+        <location filename="../prefinterface.cpp" line="653"/>
         <source>Interface</source>
         <translation>Naudotojo sąsaja</translation>
     </message>
@@ -6293,23 +6296,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tik įkėlus naują video</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="738"/>
+        <location filename="../prefinterface.ui" line="745"/>
         <source>Privac&amp;y</source>
         <translation>&amp;Privatumas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="744"/>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.ui" line="751"/>
+        <location filename="../prefinterface.cpp" line="766"/>
         <source>Recent files</source>
         <translation>Paskutiniai failai</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="661"/>
+        <location filename="../prefinterface.cpp" line="669"/>
         <source>Language</source>
         <translation>Kalba</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>Here you can change the language of the application.</source>
         <translation>Čia galite pakeisti programos kalbą.</translation>
     </message>
@@ -6334,27 +6337,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pelės &amp;ratuko šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="581"/>
+        <location filename="../prefinterface.ui" line="588"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>Na&amp;udoti tik vieną SMPlayer kopiją</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="756"/>
+        <location filename="../prefinterface.ui" line="763"/>
         <source>Ma&amp;x. items</source>
         <translation>Ma&amp;ksimalus meniu punktų skaičius</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="307"/>
+        <location filename="../prefinterface.ui" line="314"/>
         <source>St&amp;yle:</source>
         <translation>St&amp;ilius:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="211"/>
+        <location filename="../prefinterface.ui" line="218"/>
         <source>Ico&amp;n set:</source>
         <translation>Piktogramų ri&amp;nkinys:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="142"/>
+        <location filename="../prefinterface.ui" line="149"/>
         <source>L&amp;anguage:</source>
         <translation>K&amp;alba:</translation>
     </message>
@@ -6374,108 +6377,113 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Įsiminti poziciją ir dydį</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="259"/>
+        <location filename="../prefinterface.ui" line="109"/>
+        <source>&amp;Move the window when the video area is dragged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="266"/>
         <source>S&amp;kin:</source>
         <translation>&amp;Išvaizda:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="366"/>
+        <location filename="../prefinterface.ui" line="373"/>
         <source>Default font:</source>
         <translation>Numatytasis šriftas:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="380"/>
+        <location filename="../prefinterface.ui" line="387"/>
         <source>&amp;Change...</source>
         <translation>&amp;Keisti...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="465"/>
+        <location filename="../prefinterface.ui" line="472"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>&amp;Laiko slankiklio veiksena:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="482"/>
+        <location filename="../prefinterface.ui" line="489"/>
         <source>Seek to position while dragging</source>
         <translation>Ieškoti pozicijos tempiant</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="487"/>
+        <location filename="../prefinterface.ui" line="494"/>
         <source>Seek to position when released</source>
         <translation>Ieškoti pozicijos atleidus</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="795"/>
+        <location filename="../prefinterface.ui" line="802"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="807"/>
+        <location filename="../prefinterface.ui" line="814"/>
         <source>&amp;Max. items</source>
         <translation>&amp;Daugiausia elementų</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="846"/>
+        <location filename="../prefinterface.ui" line="853"/>
         <source>&amp;Remember last directory</source>
         <translation>&amp;Prisiminti paskutinį aplanką</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
-        <location filename="../prefinterface.ui" line="574"/>
+        <location filename="../prefinterface.ui" line="581"/>
         <source>TextLabel</source>
         <translation>Teksto etiketė</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="403"/>
+        <location filename="../prefinterface.ui" line="410"/>
         <source>&amp;Seeking</source>
         <translation>Pra&amp;sukimas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="522"/>
+        <location filename="../prefinterface.ui" line="529"/>
         <source>&amp;Absolute seeking</source>
         <translation>&amp;Absoliutus prasukimas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="535"/>
+        <location filename="../prefinterface.ui" line="542"/>
         <source>&amp;Relative seeking</source>
         <translation>Santykinis p&amp;rasukimas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="566"/>
+        <location filename="../prefinterface.ui" line="573"/>
         <source>Ins&amp;tances</source>
         <translation>E&amp;gzemplioriai</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="650"/>
+        <location filename="../prefinterface.cpp" line="655"/>
         <source>Autoresize</source>
         <translation>Automatiškai keisti dydį</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="651"/>
+        <location filename="../prefinterface.cpp" line="656"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Pagrindinio lango dydis gali būti pakeistas automatiškai. Išrinkite mėgstamą parinktį.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="654"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Remember position and size</source>
         <translation>Prisiminti poziciją ir dydį</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="655"/>
+        <location filename="../prefinterface.cpp" line="660"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Jei pažymėta, pagrindinio lango pozicija ir dydis bus išsaugoti ir atkurti kitą kartą paleidus SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>Privacy</source>
         <translation>Privatumas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Parinkite maksimalų elementų, kurie bus rodomi &lt;b&gt;Atverti-&gt;Paskutiniai failai&lt;/b&gt; submeniu, skaičių. Jei nustatytas 0, šis meniu  iš viso nebus rodomas.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="672"/>
+        <location filename="../prefinterface.cpp" line="680"/>
         <source>Icon set</source>
         <translation>Piktogramų rinkinys</translation>
     </message>
@@ -6485,150 +6493,160 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>GUI su išvaizdos keitimu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="665"/>
+        <location filename="../prefinterface.cpp" line="666"/>
+        <source>Move the window when the video area is dragged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="667"/>
+        <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="673"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>Pasirinkite pageidaujamą programos grafinę naudotojo sąsają. Šiuo metu prieinamos dvi: Numatytoji GUI ir Mini GUI. &lt;br&gt;&lt;b&gt;Numatytoji GUI&lt;/b&gt; suteikia tradicinę sąsają, su įrankių juostą ir valdymo juosta. &lt;b&gt;Mini GUI&lt;/b&gt; suteikia paprastesę sąsają, be įrankių juostos ir valdymo juostos su keliais mygtukais.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="673"/>
+        <location filename="../prefinterface.cpp" line="681"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Pasirinkite norimą piktogramų rinkinį programai.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="676"/>
+        <location filename="../prefinterface.cpp" line="684"/>
         <source>Skin</source>
         <translation>Išvaizda</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="677"/>
+        <location filename="../prefinterface.cpp" line="685"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Pasirinkite pageidaujamą programos išvaizdą. Prieinama tik GUI su išvaizdos keitimo galimybe.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="680"/>
+        <location filename="../prefinterface.cpp" line="688"/>
         <source>Style</source>
         <translation>Stilius</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="689"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Pasirinkite programos stilių.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="684"/>
+        <location filename="../prefinterface.cpp" line="692"/>
         <source>Default font</source>
         <translation>Numatytasis šriftas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="693"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Čia galima pakeisti programos šriftą.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="695"/>
         <source>Seeking</source>
         <translation>Prasukama</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="697"/>
         <source>Short jump</source>
         <translation>Trumpas šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="690"/>
-        <location filename="../prefinterface.cpp" line="694"/>
         <location filename="../prefinterface.cpp" line="698"/>
+        <location filename="../prefinterface.cpp" line="702"/>
+        <location filename="../prefinterface.cpp" line="706"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Pasirinkite prasukimo ar atsukimo laiką, kai vykdomas %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="699"/>
         <source>short jump</source>
         <translation>trumpas šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="701"/>
         <source>Medium jump</source>
         <translation>Vidutinis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="703"/>
         <source>medium jump</source>
         <translation>vidutinis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="697"/>
+        <location filename="../prefinterface.cpp" line="705"/>
         <source>Long jump</source>
         <translation>Didelis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="707"/>
         <source>long jump</source>
         <translation>didelis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="701"/>
+        <location filename="../prefinterface.cpp" line="709"/>
         <source>Mouse wheel jump</source>
         <translation>Pelės ratuko šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="702"/>
+        <location filename="../prefinterface.cpp" line="710"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Pasirinkite prasukimo ar atsukimo laiką, kai sukamas pelės ratukas.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="705"/>
+        <location filename="../prefinterface.cpp" line="713"/>
         <source>Behaviour of time slider</source>
         <translation>Laiko slankiklio veiksena</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="706"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Pasirinkite veiksmą kai tempiamas laiko slankiklis.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="763"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>Max. URLs</source>
         <translation>Daugiausia URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Pasirinkite kiek daugiausiai bus rodoma &lt;b&gt;Atverti-&gt;URL&lt;/b&gt; sąraše bus rodoma elementų. Pasirinkite 0 jei nenorite jog išvis URL būtų saugomi.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Remember last directory</source>
         <translation>Prisiminti paskutinį aplanką</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="769"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Jei ši parinktis pažymėta, SMPlayer prisimins paskutinį atvertą aplanką.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="510"/>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.ui" line="517"/>
+        <location filename="../prefinterface.cpp" line="717"/>
         <source>Seeking method</source>
         <translation>Prasukimo metodas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="710"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Nustato slinkimo juostos prasukimo metodą. Absoliutus prasukimas yra tikslesnis, o santykinis prasukimas veikia geriau su klaidingo ilgio failais.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="721"/>
+        <location filename="../prefinterface.cpp" line="729"/>
         <source>Instances</source>
         <translation>Egzemplioriai</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="724"/>
+        <location filename="../prefinterface.cpp" line="732"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Naudoti tik vieną SMPlayer kopiją</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Pažymėkite, jei naujų failų atvėrimui norite naudoti jau veikiančią SMPlayer kopiją.</translation>
     </message>
@@ -6643,108 +6661,108 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mini aplinka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="664"/>
+        <location filename="../prefinterface.cpp" line="672"/>
         <source>GUI</source>
         <translation>Grafinė vartotojo sąsaja</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="178"/>
+        <location filename="../prefinterface.ui" line="185"/>
         <source>&amp;GUI</source>
         <translation>&amp;Aplinka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Floating control</source>
         <translation>Plaukiojanti valdymo panelė</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="731"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>Animated</source>
         <translation>Animuoti</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="732"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Jei pažymėta, valdymo panelė atsiras su animacija.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="735"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>Width</source>
         <translation>Plotis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Nustato valdymo panelės plotį (procentais).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="738"/>
+        <location filename="../prefinterface.cpp" line="746"/>
         <source>Margin</source>
         <translation>Paraštė</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="739"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Ši parinktis nustato pikselių, per kiek plaukiojanti valdymo panelė bus nutolusi nuo ekrano apačios, skaičių. Reikalinga, kai ekranas yra televizorius ir vaizdas padidintas, dėl ko valdymo panelė bus nematoma.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>Display in compact mode too</source>
         <translation>Vaizduoti ir kompaktiniame režime</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>Bypass window manager</source>
         <translation>Apeiti langų tvarkyklę</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
         <translation>Jei pažymėta, valdymo panelė rodoma apeinant langų valdytoją. Atjunkite šią parinktį, jei valdymo panelė su jūsų langų valdytoju veikia nekorektiškai.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="617"/>
+        <location filename="../prefinterface.ui" line="624"/>
         <source>&amp;Floating control</source>
         <translation>&amp;Plaukiojanti valdymo panelė</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="623"/>
+        <location filename="../prefinterface.ui" line="630"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
         <translation>Plaukiojanti valdymo panelė atsiranda viso ekrano režime, kai pelės žymeklis perkeliamas į ekrano apačią.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="633"/>
+        <location filename="../prefinterface.ui" line="640"/>
         <source>&amp;Animated</source>
         <translation>&amp;Animuoti</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="642"/>
+        <location filename="../prefinterface.ui" line="649"/>
         <source>&amp;Width:</source>
         <translation>P&amp;lotis:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="668"/>
-        <location filename="../prefinterface.ui" line="701"/>
+        <location filename="../prefinterface.ui" line="675"/>
+        <location filename="../prefinterface.ui" line="708"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="675"/>
+        <location filename="../prefinterface.ui" line="682"/>
         <source>&amp;Margin:</source>
         <translation>&amp;Paraštė:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="710"/>
+        <location filename="../prefinterface.ui" line="717"/>
         <source>Display in &amp;compact mode too</source>
         <translation>Vaizduoti ir &amp;kompaktiniame režime</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="717"/>
+        <location filename="../prefinterface.ui" line="724"/>
         <source>&amp;Bypass window manager</source>
         <translation>&amp;Apeiti langų tvarkyklę</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>Jei pažymėta, plaukiojanti valdymo panelė pasirodys ir kompaktiniame režime. &lt;b&gt;Dėmesio:&lt;/b&gt; plaukiojanti valdymo panelė nebuvo kurta kompaktiniam režimu, todėl gali veikti nekorektiškai.</translation>
     </message>
@@ -6754,12 +6772,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mpc naudotojo sąsaja</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="658"/>
+        <location filename="../prefinterface.cpp" line="663"/>
         <source>Hide video window when playing audio files</source>
         <translation>Grojant audio failus, slėpti video langą</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="659"/>
+        <location filename="../prefinterface.cpp" line="664"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Jei ši pasirinktis įjungta, atkuriant audio failus video langas bus slepiamas.</translation>
     </message>
@@ -6769,22 +6787,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Grojant audio failus, slėpti video langą</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="723"/>
         <source>Precise seeking</source>
         <translation>Tikslus prasukimas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="716"/>
+        <location filename="../prefinterface.cpp" line="724"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Jei ši pasirinktis įgalinta, prasukimai yra tikslesni, bet gali būti lėtesni. Su kai kuriais video formatais gali neveikti.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="718"/>
+        <location filename="../prefinterface.cpp" line="726"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Pastaba: ši parinktis veikia tik su MPlayer2</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="558"/>
+        <location filename="../prefinterface.ui" line="565"/>
         <source>&amp;Precise seeking</source>
         <translation>&amp;Tikslus prasukimas</translation>
     </message>
@@ -8090,13 +8108,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekundė</numerusform><numerusform>%n sekundės</numerusform><numerusform>%n sekundžių</numerusform></translation>
+        <translation>
+            <numerusform>%n sekundė</numerusform>
+            <numerusform>%n sekundės</numerusform>
+            <numerusform>%n sekundžių</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minutė</numerusform><numerusform>%n minutės</numerusform><numerusform>%n minučių</numerusform></translation>
+        <translation>
+            <numerusform>%n minutė</numerusform>
+            <numerusform>%n minutės</numerusform>
+            <numerusform>%n minučių</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>

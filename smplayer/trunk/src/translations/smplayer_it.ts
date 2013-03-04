@@ -866,12 +866,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+15"/>
-        <location line="+1277"/>
+        <location line="+1286"/>
         <source>&amp;None</source>
         <translation>&amp;Nessuno</translation>
     </message>
     <message>
-        <location line="-1276"/>
+        <location line="-1285"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
@@ -1008,7 +1008,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+945"/>
+        <location line="+954"/>
         <location line="+626"/>
         <source>Information</source>
         <translation type="unfinished">Informazioni</translation>
@@ -1044,7 +1044,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3087"/>
+        <location line="-3096"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1057,7 +1057,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="obsolete">SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1301"/>
+        <location line="+1310"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -1141,7 +1141,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2895"/>
+        <location line="-2904"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1413,12 +1413,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2233"/>
+        <location line="+2242"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2273"/>
+        <location line="-2282"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
@@ -1428,7 +1428,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3099"/>
+        <location line="+3108"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1458,7 +1458,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-3037"/>
+        <location line="-3046"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1498,12 +1498,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1961"/>
+        <location line="+1970"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-2087"/>
+        <location line="-2096"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
@@ -1580,7 +1580,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2375"/>
+        <location line="+2384"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1600,7 +1600,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2526"/>
+        <location line="-2535"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
@@ -1690,7 +1690,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2334"/>
+        <location line="+2343"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1720,17 +1720,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2115"/>
+        <location line="-2124"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2684"/>
+        <location line="+2693"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-2981"/>
+        <location line="-2990"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -6329,12 +6329,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="+133"/>
-        <location line="+515"/>
+        <location line="+520"/>
         <source>Interface</source>
         <translation>Interfaccia</translation>
     </message>
     <message>
-        <location line="-500"/>
+        <location line="-505"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Automatico&gt;</translation>
     </message>
@@ -6350,7 +6350,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interfaccia</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+485"/>
+        <location filename="../prefinterface.cpp" line="+493"/>
         <source>Seeking</source>
         <translation>Ricerca</translation>
     </message>
@@ -6370,7 +6370,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Solo dopo aver aperto in nuovo video</translation>
     </message>
     <message>
-        <location line="+651"/>
+        <location line="+658"/>
         <source>Privac&amp;y</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6396,7 +6396,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Istanze</translation>
     </message>
     <message>
-        <location line="-544"/>
+        <location line="-552"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Salto corto</translation>
     </message>
@@ -6441,7 +6441,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lingu&amp;a:</translation>
     </message>
     <message>
-        <location line="-109"/>
+        <location line="-116"/>
         <source>Main window</source>
         <translation>Finestra principale</translation>
     </message>
@@ -6456,7 +6456,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ricorda posizione &amp;e dimensione</translation>
     </message>
     <message>
-        <location line="+164"/>
+        <location line="+14"/>
+        <source>&amp;Move the window when the video area is dragged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+157"/>
         <source>S&amp;kin:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6501,8 +6506,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-801"/>
-        <location line="+529"/>
+        <location line="-808"/>
+        <location line="+536"/>
         <source>TextLabel</source>
         <translation>Etichetta testo</translation>
     </message>
@@ -6527,7 +6532,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Is&amp;tanze</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+470"/>
+        <location filename="../prefinterface.cpp" line="+475"/>
         <source>Autoresize</source>
         <translation>Ridimensionamento automatico</translation>
     </message>
@@ -6547,7 +6552,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionando questa opzione, posizione e grandezza della finestra principale saranno salvate e riutilizzate successivamente.</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+104"/>
         <source>Privacy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6562,12 +6567,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Set icone</translation>
     </message>
     <message>
-        <location line="-461"/>
+        <location line="-469"/>
         <source>Skinnable GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+454"/>
+        <location line="+455"/>
+        <source>Move the window when the video area is dragged</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6705,7 +6720,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare questa opzione se si vuole usare una istanza di SMPlayer già esistente all&apos;apertura di nuovi file.</translation>
     </message>
     <message>
-        <location line="-518"/>
+        <location line="-526"/>
         <source>Default GUI</source>
         <translation>Interfaccia predefinita</translation>
     </message>
@@ -6715,7 +6730,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Interfaccia minimale</translation>
     </message>
     <message>
-        <location line="+456"/>
+        <location line="+464"/>
         <source>GUI</source>
         <translation>Interfaccia</translation>
     </message>
@@ -6825,12 +6840,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Se questa opzione è abilitata, il controllo fluttuante apparirà anche nella modalità compatta. &lt;b&gt;Fare attenzione&lt;/b&gt;: il controllo fluttuante non è stato progettato per la modalità compatta e potrebbe non lavorare in modo appropriato.</translation>
     </message>
     <message>
-        <location line="-536"/>
+        <location line="-544"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+454"/>
         <source>Hide video window when playing audio files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6840,12 +6855,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="-615"/>
+        <location filename="../prefinterface.ui" line="-622"/>
         <source>&amp;Hide video window when playing audio files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+56"/>
+        <location filename="../prefinterface.cpp" line="+59"/>
         <source>Precise seeking</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6860,7 +6875,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+456"/>
+        <location filename="../prefinterface.ui" line="+463"/>
         <source>&amp;Precise seeking</source>
         <translation type="unfinished"></translation>
     </message>
