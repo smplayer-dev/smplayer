@@ -1,5 +1,28 @@
 [b]Version 0.8.4[/b]:
 
+(2013-03-04)
+ * Add the checkbox "Move the window when the video area is dragged" 
+   in preferences -> interface.
+
+(2013-03-03)
+ * Add an option in the help menu to show a first steps guide.
+
+(2013-03-01)
+ * (Windows) Fix: now all key shortcuts should work when using the
+   floating control.
+
+(2013-02-28)
+ * Hopefully fix bug 3605753 (stay-on-top-while-playing not
+   working after fullscreen).
+
+(2013-02-27)
+ * Add a submenu to the help menu, to share smplayer with your friends.
+ * Add support for encoding ISO-8859-16 for subtitles.
+
+(2013-02-22)
+ * Copy the content of the clipboard, if it looks like a url, to 
+   the open url input field.
+
 (2013-02-16)
  * Now it's possible to set the fps for external subtitles.
 
