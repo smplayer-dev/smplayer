@@ -1597,7 +1597,7 @@ void BaseGui::retranslateStrings() {
 #endif
 
 	// Menu Help
-	showFirstStepsAct->change( Images::icon("first_steps"), tr("First Steps &Guide") );
+	showFirstStepsAct->change( Images::icon("guide"), tr("First Steps &Guide") );
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
