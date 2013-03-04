@@ -320,6 +320,8 @@ void Preferences::reset() {
 	style="";
 #endif
 
+	move_when_dragging = true;
+
 
 #if DVDNAV_SUPPORT
 	mouse_left_click_function = "dvdnav_mouse";
@@ -754,6 +756,8 @@ void Preferences::save() {
 #if STYLE_SWITCHING
 	set->setValue("style", style);
 #endif
+
+	set->setValue("move_when_dragging", move_when_dragging);
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
 	set->setValue("mouse_right_click_function", mouse_right_click_function);
@@ -1213,6 +1217,8 @@ void Preferences::load() {
 #if STYLE_SWITCHING
 	style = set->value("style", style).toString();
 #endif
+
+	move_when_dragging = set->value("move_when_dragging", move_when_dragging).toBool();
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
 	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();

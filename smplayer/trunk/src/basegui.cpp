@@ -2056,8 +2056,11 @@ void BaseGui::createMplayerWindow() {
              this, SLOT(xbutton2ClickFunction()) );
 	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)),
              this, SLOT(checkMousePos(QPoint)) );
-	connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
-             this, SLOT(moveWindow(QPoint)));
+
+	if (pref->move_when_dragging) {
+		connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
+	             this, SLOT(moveWindow(QPoint)));
+	}
 }
 
 void BaseGui::createVideoEqualizer() {
@@ -2730,6 +2733,12 @@ void BaseGui::applyNewPreferences() {
 #if ALLOW_CHANGE_STYLESHEET
 		changeStyleSheet(pref->iconset);
 #endif
+	}
+
+	if (pref->move_when_dragging) {
+		connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)), this, SLOT(moveWindow(QPoint)));
+	} else {
+		disconnect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)), this, SLOT(moveWindow(QPoint)));
 	}
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
