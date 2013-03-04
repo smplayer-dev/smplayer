@@ -1123,7 +1123,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1600"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Guia para iniciantes</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1604"/>
@@ -1279,7 +1279,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1864"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Partil&amp;he o SMPlayer com os seus amigos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2809"/>
@@ -3764,7 +3764,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>Sudeste europeu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
