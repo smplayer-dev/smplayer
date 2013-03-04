@@ -98,6 +98,7 @@
 #include "constants.h"
 
 #include "extensions.h"
+#include "version.h"
 
 #ifdef Q_OS_WIN
 #include "deviceinfo.h"
@@ -733,6 +734,10 @@ void BaseGui::createActions() {
 #endif
 
 	// Menu Help
+	showFirstStepsAct = new MyAction( this, "first_steps" );
+	connect( showFirstStepsAct, SIGNAL(triggered()),
+             this, SLOT(helpFirstSteps()) );
+
 	showFAQAct = new MyAction( this, "faq" );
 	connect( showFAQAct, SIGNAL(triggered()),
              this, SLOT(helpFAQ()) );
@@ -1592,6 +1597,7 @@ void BaseGui::retranslateStrings() {
 #endif
 
 	// Menu Help
+	showFirstStepsAct->change( Images::icon("first_steps"), tr("First Steps &Guide") );
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
@@ -2561,6 +2567,7 @@ void BaseGui::createMenus() {
 
 	helpMenu->addMenu(share_menu);
 	helpMenu->addSeparator();
+	helpMenu->addAction(showFirstStepsAct);
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addAction(showCheckUpdatesAct);
@@ -3801,6 +3808,10 @@ void BaseGui::loadAudioFile() {
         tr("All files") +" (*.*)" );
 
 	if (!s.isEmpty()) core->loadAudioFile(s);
+}
+
+void BaseGui::helpFirstSteps() {
+	QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/guide.php?version=%1").arg(smplayerVersion()));
 }
 
 void BaseGui::helpFAQ() {

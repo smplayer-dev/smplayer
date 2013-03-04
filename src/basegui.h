@@ -100,6 +100,7 @@ public slots:
 	virtual void openDirectory();
 	virtual void openDirectory(QString directory);
 
+	virtual void helpFirstSteps();
 	virtual void helpFAQ();
 	virtual void helpCLOptions();
 	virtual void helpCheckUpdates();
@@ -455,6 +456,7 @@ protected:
 #endif
 
 	// Menu Help
+	MyAction * showFirstStepsAct;
 	MyAction * showFAQAct;
 	MyAction * showCLOptionsAct; // Command line options
 	MyAction * showCheckUpdatesAct;
