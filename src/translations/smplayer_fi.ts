@@ -543,7 +543,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1673"/>
         <source>&amp;Play</source>
-        <translation>&amp;Toista</translation>
+        <translation>To&amp;ista</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1674"/>
@@ -2560,7 +2560,6 @@ Esimerkki: resample=44100:0:0,volnorm</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="568"/>
         <source>%n subtitle(s) extracted</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -8191,7 +8190,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -8199,7 +8197,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
