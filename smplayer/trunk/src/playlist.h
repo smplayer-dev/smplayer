@@ -134,12 +134,14 @@ public slots:
 	void setAutoGetInfo(bool b) { automatically_get_info = b; };
 	void setSavePlaylistOnExit(bool b) { save_playlist_in_config = b; };
 	void setPlayFilesFromStart(bool b) { play_files_from_start = b; };
+	void setPlayFromFirstFile(bool b) { play_from_first_file = b; };
 
 public:
 	bool directoryRecursion() { return recursive_add_directory; };
 	bool autoGetInfo() { return automatically_get_info; };
 	bool savePlaylistOnExit() { return save_playlist_in_config; };
 	bool playFilesFromStart() { return play_files_from_start; };
+	bool playFromFirstFile() { return play_from_first_file; };
 
 	QList<PlaylistItem> playlist(){return pl;};
 
@@ -240,6 +242,7 @@ private:
 	bool automatically_get_info;
 	bool save_playlist_in_config;
 	bool play_files_from_start; 
+	bool play_from_first_file;
 	int row_spacing;
 
 	bool automatically_play_next;
