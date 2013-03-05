@@ -105,6 +105,14 @@ bool PrefPlaylist::playFilesFromStart() {
 	return play_from_start_check->isChecked();
 }
 
+void PrefPlaylist::setRememberCurrentFile(bool b) {
+	remember_current_file_check->setChecked(b);
+}
+
+bool PrefPlaylist::rememberCurrentFile() {
+	return remember_current_file_check->isChecked();
+}
+
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
@@ -119,17 +127,31 @@ void PrefPlaylist::createHelp() {
            "files (e.g. video_1.avi, video_2.avi...) and if found, they'll be "
            "added to the playlist.") );
 
+	setWhatsThis(remember_current_file_check, tr("Remember current file"),
+		tr("If this option is enabled, the current file is saved to the playlist file "
+           "so when it's opened again playback will start on that file.") );
+
+	setWhatsThis(play_from_start_check, tr("Play files from start"),
+		tr("If this option is enabled, all files from the playlist will "
+           "start to play from the beginning instead of resuming from a "
+           "previous playback.") );
+
 	setWhatsThis(recursive_check, tr("Add files in directories recursively"),
 		tr("Check this option if you want that adding a directory will also "
         "add the files in subdirectories recursively. Otherwise only the "
         "files in the selected directory will be added."));
 
-	setWhatsThis(getinfo_check, tr("Add info automatically about files added"), 
+	setWhatsThis(getinfo_check, tr("Get info automatically about files added"), 
 		tr("Check this option to inquire the files to be added to the playlist "
         "for some info. That allows to show the title name (if available) and "
         "length of the files. Otherwise this info won't be available until "
         "the file is actually played. Beware: this option can be slow, "
         "specially if you add many files."));
+
+	setWhatsThis(autosave_on_exit_check, tr("Save copy of playlist on exit"), 
+		tr("If this option is checked, a copy of the playlist will be saved "
+           "in the smplayer configuration when smplayer is closed, and it will "
+           "reloaded automatically when smplayer is run again."));
 
 }
 

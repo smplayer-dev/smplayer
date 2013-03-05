@@ -74,7 +74,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	recursive_add_directory = false;
 	automatically_get_info = false;
 	play_files_from_start = true;
-	play_from_first_file = false;
+	remember_current_file = true;
 
 	automatically_play_next = true;
 
@@ -646,7 +646,7 @@ void Playlist::load_m3u(QString file) {
         }
         f.close();
 
-		if (play_from_first_file) current_item = 0;
+		if (!remember_current_file) current_item = 0;
 
 		list();
 		updateView();
@@ -704,7 +704,7 @@ void Playlist::load_pls(QString file) {
 
 	set.endGroup();
 
-	if (play_from_first_file) current_item = 0;
+	if (!remember_current_file) current_item = 0;
 
 	list();
 	updateView();
@@ -1397,7 +1397,7 @@ void Playlist::saveSettings() {
 	set->setValue( "recursive_add_directory", recursive_add_directory );
 	set->setValue( "save_playlist_in_config", save_playlist_in_config );
 	set->setValue( "play_files_from_start", play_files_from_start );
-	set->setValue( "play_from_first_file", play_from_first_file );
+	set->setValue( "remember_current_file", remember_current_file );
 	set->setValue( "automatically_play_next", automatically_play_next );
 
 	set->setValue( "row_spacing", row_spacing );
@@ -1444,7 +1444,7 @@ void Playlist::loadSettings() {
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
 	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
-	play_from_first_file = set->value( "play_from_first_file", play_from_first_file ).toBool();
+	remember_current_file = set->value( "remember_current_file", remember_current_file ).toBool();
 	automatically_play_next = set->value( "automatically_play_next", automatically_play_next ).toBool();
 
 	row_spacing = set->value( "row_spacing", row_spacing ).toInt();

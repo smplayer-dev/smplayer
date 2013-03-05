@@ -54,6 +54,9 @@ public:
 	void setPlayFilesFromStart(bool b);
 	bool playFilesFromStart();
 
+	void setRememberCurrentFile(bool b);
+	bool rememberCurrentFile();
+
 protected:
 	virtual void createHelp();
 
