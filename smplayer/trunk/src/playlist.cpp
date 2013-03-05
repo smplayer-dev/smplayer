@@ -586,6 +586,7 @@ void Playlist::load_m3u(QString file) {
 
 	QRegExp m3u_id("^#EXTM3U|^#M3U");
 	QRegExp info("^#EXTINF:(.*),(.*)");
+	QRegExp curr("# smplayer_current_file: (\\d+)");
 
     QFile f( file );
     if ( f.open( QIODevice::ReadOnly ) ) {
@@ -618,6 +619,11 @@ void Playlist::load_m3u(QString file) {
 				qDebug(" * name: '%s', duration: %f", name.toUtf8().data(), duration );
 			} 
 			else
+			if (curr.indexIn(line)!=-1) {
+				current_item = curr.cap(1).toInt();
+				qDebug(" * current_item: %d", current_item);
+			}
+			else
 			if (line.startsWith("#")) {
 				// Comment
 				// Ignore
@@ -638,12 +644,18 @@ void Playlist::load_m3u(QString file) {
 			}
         }
         f.close();
+
 		list();
 		updateView();
 
 		setModified( false );
 
-		startPlay();
+		if (current_item > 0) {
+			playItem(current_item);
+		} else {
+			startPlay();
+		}
+
 	}
 }
 
@@ -667,6 +679,7 @@ void Playlist::load_pls(QString file) {
 		double duration;
 
 		int num_items = set.value("NumberOfEntries", 0).toInt();
+		current_item = set.value("smplayer_current_file", 0).toInt();
 
 		for (int n=0; n < num_items; n++) {
 			filename = set.value("File"+QString::number(n+1), "").toString();
@@ -693,7 +706,13 @@ void Playlist::load_pls(QString file) {
 
 	setModified( false );
 
-	if (set.status() == QSettings::NoError) startPlay();
+	if (set.status() == QSettings::NoError) {
+		if (current_item == 0) {
+			startPlay();
+		} else {
+			playItem(current_item);
+		}
+	}
 }
 
 bool Playlist::save_m3u(QString file) {
@@ -723,6 +742,7 @@ bool Playlist::save_m3u(QString file) {
 
 		stream << "#EXTM3U" << "\n";
 		stream << "# Playlist created by SMPlayer " << smplayerVersion() << " \n";
+		stream << "# smplayer_current_file: " << current_item << " \n";
 
 		PlaylistItemList::iterator it;
 		for ( it = pl.begin(); it != pl.end(); ++it ) {
@@ -785,6 +805,7 @@ bool Playlist::save_pls(QString file) {
 
 	set.setValue("NumberOfEntries", pl.count());
 	set.setValue("Version", 2);
+	set.setValue("smplayer_current_file", current_item);
 
 	set.endGroup();
 
