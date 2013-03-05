@@ -74,7 +74,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	recursive_add_directory = false;
 	automatically_get_info = false;
 	play_files_from_start = true;
-	remember_current_file = true;
+	remember_current_file = false;
 
 	automatically_play_next = true;
 
