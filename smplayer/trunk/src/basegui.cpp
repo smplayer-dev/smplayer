@@ -2696,7 +2696,6 @@ void BaseGui::showPreferencesDialog() {
 	pl->setAutoGetInfo(playlist->autoGetInfo());
 	pl->setSavePlaylistOnExit(playlist->savePlaylistOnExit());
 	pl->setPlayFilesFromStart(playlist->playFilesFromStart());
-	pl->setRememberCurrentFile(playlist->rememberCurrentFile());
 
 	pref_dialog->show();
 }
@@ -2777,7 +2776,6 @@ void BaseGui::applyNewPreferences() {
 	playlist->setAutoGetInfo(pl->autoGetInfo());
 	playlist->setSavePlaylistOnExit(pl->savePlaylistOnExit());
 	playlist->setPlayFilesFromStart(pl->playFilesFromStart());
-	playlist->setRememberCurrentFile(pl->rememberCurrentFile());
 
 
 	if (need_update_language) {

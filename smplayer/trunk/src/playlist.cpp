@@ -74,7 +74,6 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	recursive_add_directory = false;
 	automatically_get_info = false;
 	play_files_from_start = true;
-	remember_current_file = false;
 
 	automatically_play_next = true;
 
@@ -587,7 +586,6 @@ void Playlist::load_m3u(QString file) {
 
 	QRegExp m3u_id("^#EXTM3U|^#M3U");
 	QRegExp info("^#EXTINF:(.*),(.*)");
-	QRegExp curr("# smplayer_current_file: (\\d+)");
 
     QFile f( file );
     if ( f.open( QIODevice::ReadOnly ) ) {
@@ -620,11 +618,6 @@ void Playlist::load_m3u(QString file) {
 				qDebug(" * name: '%s', duration: %f", name.toUtf8().data(), duration );
 			} 
 			else
-			if (curr.indexIn(line)!=-1) {
-				current_item = curr.cap(1).toInt();
-				qDebug(" * current_item: %d", current_item);
-			}
-			else
 			if (line.startsWith("#")) {
 				// Comment
 				// Ignore
@@ -645,20 +638,12 @@ void Playlist::load_m3u(QString file) {
 			}
         }
         f.close();
-
-		if (!remember_current_file) current_item = 0;
-
 		list();
 		updateView();
 
 		setModified( false );
 
-		if (current_item > 0) {
-			playItem(current_item);
-		} else {
-			startPlay();
-		}
-
+		startPlay();
 	}
 }
 
@@ -682,7 +667,6 @@ void Playlist::load_pls(QString file) {
 		double duration;
 
 		int num_items = set.value("NumberOfEntries", 0).toInt();
-		current_item = set.value("smplayer_current_file", 0).toInt();
 
 		for (int n=0; n < num_items; n++) {
 			filename = set.value("File"+QString::number(n+1), "").toString();
@@ -704,20 +688,12 @@ void Playlist::load_pls(QString file) {
 
 	set.endGroup();
 
-	if (!remember_current_file) current_item = 0;
-
 	list();
 	updateView();
 
 	setModified( false );
 
-	if (set.status() == QSettings::NoError) {
-		if (current_item == 0) {
-			startPlay();
-		} else {
-			playItem(current_item);
-		}
-	}
+	if (set.status() == QSettings::NoError) startPlay();
 }
 
 bool Playlist::save_m3u(QString file) {
@@ -747,7 +723,6 @@ bool Playlist::save_m3u(QString file) {
 
 		stream << "#EXTM3U" << "\n";
 		stream << "# Playlist created by SMPlayer " << smplayerVersion() << " \n";
-		stream << "# smplayer_current_file: " << current_item << " \n";
 
 		PlaylistItemList::iterator it;
 		for ( it = pl.begin(); it != pl.end(); ++it ) {
@@ -810,7 +785,6 @@ bool Playlist::save_pls(QString file) {
 
 	set.setValue("NumberOfEntries", pl.count());
 	set.setValue("Version", 2);
-	set.setValue("smplayer_current_file", current_item);
 
 	set.endGroup();
 
@@ -1397,7 +1371,6 @@ void Playlist::saveSettings() {
 	set->setValue( "recursive_add_directory", recursive_add_directory );
 	set->setValue( "save_playlist_in_config", save_playlist_in_config );
 	set->setValue( "play_files_from_start", play_files_from_start );
-	set->setValue( "remember_current_file", remember_current_file );
 	set->setValue( "automatically_play_next", automatically_play_next );
 
 	set->setValue( "row_spacing", row_spacing );
@@ -1444,7 +1417,6 @@ void Playlist::loadSettings() {
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
 	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
-	remember_current_file = set->value( "remember_current_file", remember_current_file ).toBool();
 	automatically_play_next = set->value( "automatically_play_next", automatically_play_next ).toBool();
 
 	row_spacing = set->value( "row_spacing", row_spacing ).toInt();
