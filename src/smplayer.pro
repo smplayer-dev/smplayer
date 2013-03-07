@@ -124,6 +124,7 @@ HEADERS += guiconfig.h \
 	favorites.h \
 	tvlist.h \
 	favoriteeditor.h \
+	updatechecker.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -220,6 +221,7 @@ SOURCES	+= version.cpp \
 	favorites.cpp \
 	tvlist.cpp \
 	favoriteeditor.cpp \
+	updatechecker.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
