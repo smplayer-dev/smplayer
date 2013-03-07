@@ -22,6 +22,7 @@
 #include <QString>
 
 QString smplayerVersion();
+QString stableVersion();
 
 #endif
 

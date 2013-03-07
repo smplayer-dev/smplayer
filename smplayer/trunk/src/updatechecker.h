@@ -16,40 +16,34 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "version.h"
 
-#define USE_SVN_VERSIONS 1
+#ifndef UPDATE_CHECKER_H
+#define UPDATE_CHECKER_H
 
-#define VERSION "0.8.3"
+#include <QObject>
 
-#if USE_SVN_VERSIONS
-#include "svn_revision.h"
+class QSettings;
+class QNetworkAccessManager;
+
+class UpdateChecker : public QObject {
+	Q_OBJECT
+
+public:
+	UpdateChecker(QObject * parent, QSettings * settings);
+	~UpdateChecker();
+
+	void saveVersion(QString v);
+
+protected slots:
+	void gotReply();
+
+signals:
+	void newVersionFound(QString);
+
+protected:
+	QNetworkAccessManager * net_manager;
+	QSettings * set;
+};
+
 #endif
 
-#ifdef Q_OS_WIN
-#if defined( _WIN64 )
-#define SMPWIN_ARCH "(64-bit)"
-#elif defined( _WIN32 )
-#define SMPWIN_ARCH "(32-bit)"
-#endif
-#endif
-
-QString smplayerVersion() {
-#if USE_SVN_VERSIONS
-#ifdef Q_OS_WIN
-    return QString(QString(VERSION) + "+" + QString(SVN_REVISION) + " " + QString(SMPWIN_ARCH));
-#else
-    return QString(QString(VERSION) + "+" + QString(SVN_REVISION));
-#endif
-#else
-#ifdef Q_OS_WIN
-    return QString(QString(VERSION) + " " + QString(SMPWIN_ARCH));
-#else
-    return QString(VERSION);
-#endif
-#endif
-}
-
-QString stableVersion() {
-	return QString(VERSION);
-}

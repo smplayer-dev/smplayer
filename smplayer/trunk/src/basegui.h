@@ -200,6 +200,8 @@ protected slots:
 	void displayWarningAboutOldMplayer();
 #endif
 
+	void reportNewVersionAvailable(QString);
+
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();

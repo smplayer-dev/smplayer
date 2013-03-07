@@ -105,6 +105,8 @@
 #include <QSysInfo>
 #endif
 
+#include "updatechecker.h"
+
 using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
@@ -194,6 +196,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	panel->setFocus();
 
 	initializeGui();
+
+	UpdateChecker * update_checker = new UpdateChecker(this, Global::settings);
+	connect(update_checker, SIGNAL(newVersionFound(QString)), this, SLOT(reportNewVersionAvailable(QString)));
 }
 
 void BaseGui::initializeGui() {
@@ -4197,6 +4202,20 @@ void BaseGui::displayWarningAboutOldMplayer() {
 	//statusBar()->showMessage( tr("Using an old MPlayer, please update it"), 10000 );
 }
 #endif
+
+void BaseGui::reportNewVersionAvailable(QString new_version) {
+	QMessageBox::StandardButton button = QMessageBox::information(this, tr("New version available"),
+		tr("A new version of SMPlayer is available.") + "<br><br>" +
+		tr("Installed version: %1").arg(stableVersion()) + "<br>" +
+		tr("Available version: %1").arg(new_version) + "<br><br>" +
+		tr("Would you like to know more about this new version?"),
+		QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+
+	if (button == QMessageBox::Yes) {
+		QDesktopServices::openUrl(QUrl("http://smplayer.sourceforge.net/latest.php"));
+	}
+}
+
 
 void BaseGui::dragEnterEvent( QDragEnterEvent *e ) {
 	qDebug("BaseGui::dragEnterEvent");
