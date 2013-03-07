@@ -7248,6 +7248,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Si está opción está activada, SMPlayer buscará ficheros consecutivos (video_1.avi, video_2.avi...) y si los encuentra se añadirán a la lista.</translation>
     </message>
     <message>
+        <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation>Reproducir ficheros desde el principio</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation>Si se activa esta opción, todos los ficheros de la lista de reproducción empezarán a reproducirse desde el principio en vez de continuar donde se quedó la última vez.</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation>Obtener información automáticamente sobre los ficheros añadidos</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation>Guardar copia de la lista de reproducción al salir</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation>Si se marca esta opción, se guardará una copia de la lista de reproducción en la configuración cuando se cierre el smplayer, y se recargará cuando se vuelva a ejecutar.</translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Lista de reproducción</translation>
@@ -7263,22 +7288,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Añadir ficheros &amp;consecutivos</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="122"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation>Añadir los ficheros de los directorios recursivamente</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Marca esta opción si quieres que al añadir un directorio se añadan los ficheros de los subdirectorios recursivamente. De lo contrario sólo se añadirán los ficheros del directorio seleccionado.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation>Obtener información automáticamente sobre los ficheros añadidos (lento)</translation>
+        <translation type="obsolete">Obtener información automáticamente sobre los ficheros añadidos (lento)</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Marca esta opción para obtener información sobre los ficheros que serán añadidos a la lista. Esto permite mostrar el título (si está disponible) y la duración de los ficheros. De lo contrario esta información no estará disponible hasta que el fichero sea reproducido. Cuidado: esta opción puede ser lenta, especialmente si se añaden muchos ficheros.</translation>
     </message>
