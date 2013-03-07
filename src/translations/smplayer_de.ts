@@ -7268,6 +7268,31 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Wenn diese Option aktiviert ist, wird SMPlayer nach aufeinanderfolgenden Dateien suchen (z. B. video_1.avi, video_2.avi …) und diese zur Abspielliste hinzufügen.</translation>
     </message>
     <message>
+        <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Abspielliste</translation>
@@ -7283,22 +7308,21 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>A&amp;ufeinanderfolgende Dateien hinzufügen</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="122"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation>Dateien in Verzeichnissen rekursiv einfügen</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Aktivieren Sie diese Option, wenn beim Hinzufügen eines Verzeichnisses, auch die Dateien in den Unterverzeichnissen rekursiv hinzugefügt werden sollen. Ansonsten werden nur die Dateien im ausgewählten Verzeichnis hinzugefügt.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation>Informationen über hinzugefügte Dateien automatisch hinzufügen</translation>
+        <translation type="obsolete">Informationen über hinzugefügte Dateien automatisch hinzufügen</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Aktivieren Sie diese Option, um Informationen über die zur Abspielliste hinzugefügten Dateien zu erhalten. Dies ermöglicht die Anzeige des Titelnames (falls verfügbar) und der Länge der Dateien. Wenn diese Option deaktiviert ist, werden diese Informationen erst zur Verfügung stehen, wenn die Datei tatsächlich abgespielt wird. Achtung: Diese Option kann langsam sein, besonders, wenn Sie viele Dateien hinzufügen.</translation>
     </message>

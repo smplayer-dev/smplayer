@@ -7242,6 +7242,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Abilitando questa opzione, SMPlayer cercherà una successione di file (es. video_1.avi, video_2.avi...) e, trovati, saranno aggiunti alla lista di riproduzione.</translation>
     </message>
     <message>
+        <location line="+4"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="+32"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Lista di riproduzione</translation>
@@ -7257,7 +7282,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Aggiungi file &amp;consecutivi</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="+4"/>
+        <location filename="../prefplaylist.cpp" line="-13"/>
         <source>Add files in directories recursively</source>
         <translation>Aggiungi i file nelle cartelle ricorsivamente</translation>
     </message>
@@ -7267,12 +7292,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare questa opzione se si vuole che, aggiungendo una cartella, vengano aggiunti ricorsivamente anche i file presenti nelle sottocartelle. Altrimenti solo i file presenti nella cartella saranno aggiunti.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Add info automatically about files added</source>
-        <translation>Inserisci automaticamente le info sui file aggiunti</translation>
+        <translation type="obsolete">Inserisci automaticamente le info sui file aggiunti</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+5"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Selezionare questa opzione per estrarre alcune informazioni dai file aggiunti alla lista di riproduzione. Questo permette di visualizzare il titolo (se disponibile) e la durata dei file, altrimenti le stesse informazioni non saranno disponibili fino al momento dell&apos;effettiva riproduzione dei file stessi. Attenzione: questa opzione può rivelarsi molto lenta, soprattutto aggiungendo molti file.</translation>
     </message>

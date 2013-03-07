@@ -7168,6 +7168,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ถ้าใช้ตัวเลือกนี้ SMPlayer จะมองหาไฟล์ที่ต่อเนื่องกัน (เช่น video_1.avi, video_2.avi...) หากพบ พวกมันจะถูกเพิ่มไปยังบัญชีการเล่น.</translation>
     </message>
     <message>
+        <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
         <translation>&amp;บัญชีการเล่น</translation>
@@ -7183,22 +7208,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>เพิ่มไฟล์ที่&amp;ต่อเนื่องกัน</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="122"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation>เพิ่มไฟล์ในเส้นทางโดยเกี่ยวเนื่องกันไป</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>เลือกสิ่งนี้ หากคุณต้องการให้การเพิ่มเส้นทาง ทำการเพิ่มไฟล์ในเส้นทางย่อยๆ ต่อเนื่องกันไปด้วย มิฉะนั้นจะเพิ่มเฉพาะไฟล์ในเส้นทางที่เลือก.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation>เพิ่มข้อมูลเกี่ยวกับไฟล์ที่เพิ่มโดยอัตโนมัติ</translation>
+        <translation type="obsolete">เพิ่มข้อมูลเกี่ยวกับไฟล์ที่เพิ่มโดยอัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>เลือกสิ่งนี้ เพื่อสอบถามบางข้อมูลของไฟล์ที่ถูกเพิ่ม ซึ่งอนุญาตให้แสดงชื่อเรียก (ถ้ามี) และความยาวไฟล์ มิฉะนั้นข้อมูลเหล่านี้จะไม่มีจนกว่าไฟล์จะถูกเล่นอย่างแท้จริง ระวัง: ตัวเลือกนี้อาจทำให้ช้าได้ โดยเฉพาะอย่างยิ่งหากเพิ่มหลายๆ ไฟล์.</translation>
     </message>

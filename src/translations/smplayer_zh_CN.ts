@@ -7316,21 +7316,45 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation>添加子目录中的文件</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>如果您想在添加一个目录时也递归添加子目录中的文件，请勾选此选项。否则将只添加所选目录中的文件。</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
-        <source>Add info automatically about files added</source>
-        <translation>自动获取文件的信息</translation>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add info automatically about files added</source>
+        <translation type="obsolete">自动获取文件的信息</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>勾选此选项可以查询文件添加到播放列表中的一些信息。这将允许显示文件的标题名称(如果可用)和长度。否则在文件被实际播放之前这些信息将不可用。注意: 这个选项可能会很慢，特别是当您添加的文件过多时。</translation>
     </message>

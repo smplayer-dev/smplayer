@@ -7196,6 +7196,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
         <translation type="unfinished">قائمة التشغيل</translation>
@@ -7211,22 +7236,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="122"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation type="unfinished"> حدد الخيار الذي تريد اضافته الى المسار و اضافته ايضا الى الملفات بشكل تكراري و في غير حالة الملفات المحددة في المسار سيتم اضافتها حصرا</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
-        <source>Add info automatically about files added</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation type="unfinished">حدد هذا الخيار لإستفسار الملفات لكي تضاف إلى قائمة التشغيل لبعض المعلومات. الذي يسمح لأظهار اسم العنوان (إذا توفر) وطول الملفات. ما عدا ذلك هذه المعلومات لن تكون متوفرة حتى يشغل الملف. ملاحظة: هذا الخيار يمكن أَن يكون بطيئ، خصوصاً إذا أضيف العديد من الملفات.</translation>
     </message>

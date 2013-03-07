@@ -7285,6 +7285,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Если эта опция отмечена, SMPlayer будет искать последующие файлы (вроде video_1.avi, video_2.avi...) и добавлять найденные в список.</translation>
     </message>
     <message>
+        <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Список воспроизведения</translation>
@@ -7300,22 +7325,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Добавлять &amp;последующие файлы</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="122"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation>Добавить файлы в каталогах рекурсивно</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Выберите эту опцию, если вы хотите, чтобы при добавлении каталога подкаталоги тоже добавлялись рекурсивно. Иначе будут добавлены только файлы из текущего каталога.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation>Автоматически добавить информацию о добавленных файлах</translation>
+        <translation type="obsolete">Автоматически добавить информацию о добавленных файлах</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Выберите эту опцию, чтобы извлечь из добавляемых в список файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может замедлить работу, особенно при большом количестве добавляемых файлов.</translation>
     </message>

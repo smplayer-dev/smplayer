@@ -7217,6 +7217,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nếu như lựa chọn này được bật, SMPlayer sẽ tìm các tập tin liên tiếp nhau (v.d video_1.avi, video_2.avi...) và nếu như tìm thấy chúng sẽ được thêm vào trong danh sách.</translation>
     </message>
     <message>
+        <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Danh sách chơi</translation>
@@ -7232,22 +7257,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Thêm các tập tin &amp;liên tiếp nhau</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="122"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation type="unfinished">Đánh dấu lựa chọn này nếu như bạn muốn thêm một thư mục và thêm mọi tập tin trong các thư mục con một cách đệ quy. Nếu không chỉ những tập tin trong thư mục đã chọn là được thêm mà thôi.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
-        <source>Add info automatically about files added</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation type="unfinished">Đánh dấu lựa chọn này để truy vấn một số thông tin từ những tập tin được thêm vào danh sách chơi. Như vậy cho phép hiện tiêu đề (nếu có) và độ dài của các tập tin. Ngược lại thì những thông tin này sẽ không có ngay cho đến khi tập tin được chơi. Chú ý: lựa chọn này có thể sẽ chậm đặc biệt nếu bạn thêm nhiều tập tin cùng lúc.</translation>
     </message>
