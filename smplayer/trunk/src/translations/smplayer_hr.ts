@@ -7279,6 +7279,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SMPlayer će tražiti uzastopne datoteke (npr.: video_1.avi, video_2.avi...) i ako ih pronađe, dodat će ih na playlistu.</translation>
     </message>
     <message>
+        <location filename="../prefplaylist.cpp" line="122"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="123"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="132"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="139"/>
+        <source>Save copy of playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="140"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Playlista</translation>
@@ -7294,22 +7319,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Dodaj &amp;uzastopne datoteke</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="122"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
         <translation>Dodaj datoteke u folderu uključujući podfoldere</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="123"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Dodaj datoteke u folderu uključujući podfoldere. Ako je opcija isključena, samo fileovi u trenutnom folderu će biti dodani.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add info automatically about files added</source>
-        <translation>Automatski dodaj na playlistu info o datotekama </translation>
+        <translation type="obsolete">Automatski dodaj na playlistu info o datotekama </translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Ova opcija omogućava prikaz naslova i duljine trajanja datoteka u playlisti (ako postoje). Inače ove informacije neće biti dostupne sve dok datoteka ne počne s izvođenjem. Pozor: ova opcija može biti spora pogotovo ako ima puno dodanih datoteka.</translation>
     </message>
