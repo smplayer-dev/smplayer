@@ -202,7 +202,9 @@ protected slots:
 	void displayWarningAboutOldMplayer();
 #endif
 
+#ifdef UPDATE_CHECKER
 	void reportNewVersionAvailable(QString);
+#endif
 
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
@@ -735,7 +737,9 @@ protected:
 	TVList * tvlist;
 	TVList * radiolist;
 
+#ifdef UPDATE_CHECKER
 	UpdateChecker * update_checker;
+#endif
 
 	QStringList actions_list;
 
