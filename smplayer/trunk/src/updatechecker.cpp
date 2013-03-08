@@ -24,10 +24,26 @@
 #include <QNetworkRequest>
 #include <QNetworkReply>
 #include <QRegExp>
+#include <QDate>
+#include <QDateTime>
 
 UpdateChecker::UpdateChecker(QObject * parent, QSettings * settings) : QObject(parent)
 {
 	set = settings;
+
+	set->beginGroup("update_checker");
+	QDate last_checked = set->value("checked_date", 0).toDate();
+	bool enabled = set->value("enabled", true).toBool();
+	set->endGroup();
+
+	QDate now = QDate::currentDate();
+	//now = now.addDays(27);
+	int days = QDateTime(last_checked).daysTo(QDateTime(now));
+
+	qDebug("UpdateChecker::UpdateChecker: enabled: %d", enabled);
+	qDebug("UpdateChecker::UpdateChecker: days since last check: %d", days);
+
+	if ((!enabled) || (days < 7)) return;
 
 	net_manager = new QNetworkAccessManager();
 	QUrl url("http://smplayer.sourceforge.net/current_version");
@@ -62,6 +78,7 @@ void UpdateChecker::gotReply() {
 			if (!version.isEmpty()) {
 				set->beginGroup("update_checker");
 				QString last_known_version = set->value("last_known_version", stableVersion()).toString();
+				set->setValue("checked_date", QDate::currentDate());
 				set->endGroup();
 				if (last_known_version != version) {
 					qDebug("UpdateChecker::gotReply: new version found: %s", version.toUtf8().constData());

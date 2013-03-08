@@ -60,6 +60,8 @@ class PreferencesDialog;
 class Favorites;
 class TVList;
 
+class UpdateChecker;
+
 class BaseGui : public QMainWindow
 {
     Q_OBJECT
@@ -732,6 +734,8 @@ protected:
 
 	TVList * tvlist;
 	TVList * radiolist;
+
+	UpdateChecker * update_checker;
 
 	QStringList actions_list;
 
