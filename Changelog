@@ -1,5 +1,12 @@
 [b]Version 0.8.4[/b]:
 
+(2013-03-07)
+ * (Testing) Now smplayer checks for updates automatically. 
+   On startup it connects to the smplayer web to know if there's a new 
+   version available and in that case the user gets a notification.
+   The check is only done once per week, and it can be totally disabled
+   by setting "enabled=false" in the [update_checker] section in smplayer.ini.
+
 (2013-03-04)
  * Add the checkbox "Move the window when the video area is dragged" 
    in preferences -> interface.
