@@ -21,6 +21,7 @@ DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
 DEFINES += SKINS
+DEFINES += UPDATE_CHECKER
 
 # Disable SINGLE_INSTANCE if Qt < 4.4
 contains( DEFINES, SINGLE_INSTANCE ) {
@@ -35,6 +36,14 @@ contains( DEFINES, SKINS ) {
 	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
 		message("SKINS requires Qt > 4.3. Disabled.")
 		DEFINES -= SKINS
+	}
+}
+
+# Disable UPDATE_CHECKER if Qt < 4.4
+contains( DEFINES, UPDATE_CHECKER ) {
+	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
+		message("UPDATE_CHECKER requires Qt > 4.3. Disabled.")
+		DEFINES -= UPDATE_CHECKER
 	}
 }
 
@@ -124,7 +133,6 @@ HEADERS += guiconfig.h \
 	favorites.h \
 	tvlist.h \
 	favoriteeditor.h \
-	updatechecker.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
@@ -221,7 +229,6 @@ SOURCES	+= version.cpp \
 	favorites.cpp \
 	tvlist.cpp \
 	favoriteeditor.cpp \
-	updatechecker.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
@@ -321,6 +328,12 @@ contains( DEFINES, SKINS ) {
                mediapanel.cpp volumecontrolpanel.cpp mediabarpanel.cpp \
                qpropertysetter.cpp actiontools.cpp skingui.cpp
 	FORMS += mediapanel.ui mediabarpanel.ui
+}
+
+# Update checker
+contains( DEFINES, UPDATE_CHECKER ) {
+	HEADERS += updatechecker.h
+	SOURCES += updatechecker.CPP
 }
 
 # Videopreview
