@@ -34,6 +34,7 @@ UpdateChecker::UpdateChecker(QObject * parent, QSettings * settings) : QObject(p
 	set->beginGroup("update_checker");
 	QDate last_checked = set->value("checked_date", 0).toDate();
 	bool enabled = set->value("enabled", true).toBool();
+	int days_to_check = set->value("days_to_check", 7).toInt();
 	set->endGroup();
 
 	QDate now = QDate::currentDate();
@@ -41,9 +42,10 @@ UpdateChecker::UpdateChecker(QObject * parent, QSettings * settings) : QObject(p
 	int days = QDateTime(last_checked).daysTo(QDateTime(now));
 
 	qDebug("UpdateChecker::UpdateChecker: enabled: %d", enabled);
+	qDebug("UpdateChecker::UpdateChecker: days_to_check: %d", days_to_check);
 	qDebug("UpdateChecker::UpdateChecker: days since last check: %d", days);
 
-	if ((!enabled) || (days < 7)) return;
+	if ((!enabled) || (days < days_to_check)) return;
 
 	net_manager = new QNetworkAccessManager();
 	QUrl url("http://smplayer.sourceforge.net/current_version");
