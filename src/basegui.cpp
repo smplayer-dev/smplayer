@@ -197,8 +197,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 	initializeGui();
 
-	UpdateChecker * update_checker = new UpdateChecker(this, Global::settings);
-	connect(update_checker, SIGNAL(newVersionFound(QString)), this, SLOT(reportNewVersionAvailable(QString)));
+	update_checker = new UpdateChecker(this, Global::settings);
+	connect(update_checker, SIGNAL(newVersionFound(QString)), 
+            this, SLOT(reportNewVersionAvailable(QString)));
 }
 
 void BaseGui::initializeGui() {
@@ -4214,6 +4215,8 @@ void BaseGui::reportNewVersionAvailable(QString new_version) {
 	if (button == QMessageBox::Yes) {
 		QDesktopServices::openUrl(QUrl("http://smplayer.sourceforge.net/latest.php"));
 	}
+
+	update_checker->saveVersion(new_version);
 }
 
 
