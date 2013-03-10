@@ -263,7 +263,6 @@
 
   !insertmacro MUI_RESERVEFILE_LANGDLL
   ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
-  ReserveFile "FindProcDLL.dll"
 
 ;--------------------------------
 ;Installer Sections
@@ -615,13 +614,12 @@ ${MementoSectionDone}
 !macro RunCheckMacro UN
 Function ${UN}RunCheck
 
-  ${Unless} ${AtLeastWinXP}
     retry_runcheck:
-    FindProcDLL::FindProc "smplayer.exe"
-    IntCmp $R0 1 0 +3
+    FindWindow $0 "" "SMPlayer"
+    StrCmp $0 0 notRunning
       MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(SMPlayer_Is_Running) /SD IDCANCEL IDRETRY retry_runcheck
       Abort
-  ${EndIf}
+    notrunning:
 
 FunctionEnd
 !macroend
