@@ -351,6 +351,8 @@ void Preferences::reset() {
 #endif
 	precise_seeking = true;
 
+	reset_stop = false;
+
 	language = "";
 	iconset = "";
 
@@ -782,6 +784,8 @@ void Preferences::save() {
 	set->setValue("relative_seeking", relative_seeking);
 #endif
 	set->setValue("precise_seeking", precise_seeking);
+
+	set->setValue("reset_stop", reset_stop);
 
 	set->setValue("language", language);
 	set->setValue("iconset", iconset);
@@ -1244,6 +1248,8 @@ void Preferences::load() {
 	relative_seeking = set->value("relative_seeking", relative_seeking).toBool();
 #endif
 	precise_seeking = set->value("precise_seeking", precise_seeking).toBool();
+
+	reset_stop = set->value("reset_stop", reset_stop).toBool();
 
 	language = set->value("language", language).toString();
 	iconset= set->value("iconset", iconset).toString();
