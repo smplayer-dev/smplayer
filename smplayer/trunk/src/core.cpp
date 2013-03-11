@@ -1151,16 +1151,26 @@ void Core::stop()
 		mset.current_sec = 0;
 		qDebug("Core::stop: mset.current_sec set to 0");
 		emit showTime( mset.current_sec );
-#ifdef SEEKBAR_RESOLUTION
+		#ifdef SEEKBAR_RESOLUTION
 		emit positionChanged( 0 );
-#else
+		#else
 		emit posChanged( 0 );
-#endif
+		#endif
 		//updateWidgets();
 	}
 
 	stopMplayer();
 	emit mediaStoppedByUser();
+
+	if (pref->reset_stop) {
+		mset.current_sec = 0;
+		emit showTime( mset.current_sec );
+		#ifdef SEEKBAR_RESOLUTION
+		emit positionChanged( 0 );
+		#else
+		emit posChanged( 0 );
+		#endif
+	}
 }
 
 

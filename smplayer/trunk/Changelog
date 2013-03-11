@@ -1,5 +1,9 @@
 [b]Version 0.8.4[/b]:
 
+(2013-03-11)
+ * Add the option "Pressing the stop button once resets the time position"
+   in preferences -> interface -> seeking.
+
 (2013-03-07)
  * (Testing) Now smplayer checks for updates automatically. 
    On startup it connects to the smplayer web to know if there's a new 

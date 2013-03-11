@@ -346,6 +346,8 @@ public:
 #endif
 	bool precise_seeking; //! Enable precise_seeking (only available with mplayer2)
 
+	bool reset_stop; //! Pressing the stop button resets the position
+
 	QString language;
 	QString iconset;
 

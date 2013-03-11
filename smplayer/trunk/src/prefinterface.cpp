@@ -245,6 +245,8 @@ void PrefInterface::setData(Preferences * pref) {
 #endif
 	setPreciseSeeking(pref->precise_seeking);
 
+	reset_stop_check->setChecked(pref->reset_stop);
+
 	setDefaultFont(pref->default_font);
 
 	setHideVideoOnAudioFiles(pref->hide_video_window_on_audio_files);
@@ -311,6 +313,8 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->relative_seeking= relativeSeeking();
 #endif
 	pref->precise_seeking = preciseSeeking();
+
+	pref->reset_stop = reset_stop_check->isChecked();
 
 	pref->default_font = defaultFont();
 
@@ -724,6 +728,13 @@ void PrefInterface::createHelp() {
 		tr("If this option is enabled, seeks are more accurate but they "
            "can be a little bit slower. May not work with some video formats.") +"<br>"+
 		tr("Note: this option only works with MPlayer2") );
+
+	setWhatsThis(reset_stop_check, tr("Pressing the stop button once resets the time position"),
+		tr("By default when the stop button is pressed the time position is remembered "
+           "so if you press play button the media will resume at the same point. You need "
+           "to press the stop button twice to reset the time position, but if this "
+           "option is checked the time position will be set to 0 with only once "
+           "press of the stop button.") );
 
 #ifdef SINGLE_INSTANCE
 	addSectionTitle(tr("Instances"));
