@@ -1907,7 +1907,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="+2764"/>
+        <location filename="../core.cpp" line="+2774"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
@@ -2028,7 +2028,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Marcatori A-B rimossi</translation>
     </message>
     <message>
-        <location line="-2027"/>
+        <location line="-2037"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6354,12 +6354,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="+133"/>
-        <location line="+520"/>
+        <location line="+524"/>
         <source>Interface</source>
         <translation>Interfaccia</translation>
     </message>
     <message>
-        <location line="-505"/>
+        <location line="-509"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Automatico&gt;</translation>
     </message>
@@ -6375,7 +6375,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interfaccia</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+493"/>
+        <location filename="../prefinterface.cpp" line="+497"/>
         <source>Seeking</source>
         <translation>Ricerca</translation>
     </message>
@@ -6395,18 +6395,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Solo dopo aver aperto in nuovo video</translation>
     </message>
     <message>
-        <location line="+658"/>
+        <location line="+672"/>
         <source>Privac&amp;y</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <location filename="../prefinterface.cpp" line="+71"/>
+        <location filename="../prefinterface.cpp" line="+78"/>
         <source>Recent files</source>
         <translation>File recenti</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="-97"/>
+        <location filename="../prefinterface.cpp" line="-104"/>
         <source>Language</source>
         <translation>Lingua</translation>
     </message>
@@ -6416,12 +6416,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Qui è possibile modificare la lingua dell&apos;applicazione.</translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+66"/>
         <source>Instances</source>
         <translation>Istanze</translation>
     </message>
     <message>
-        <location line="-552"/>
+        <location line="-563"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Salto corto</translation>
     </message>
@@ -6451,7 +6451,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Numero massimo di &amp;elementi</translation>
     </message>
     <message>
-        <location line="-449"/>
+        <location line="-463"/>
         <source>St&amp;yle:</source>
         <translation>St&amp;ile:</translation>
     </message>
@@ -6516,7 +6516,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Cerca posizione al rilascio</translation>
     </message>
     <message>
-        <location line="+308"/>
+        <location line="+85"/>
+        <source>Pressi&amp;ng the stop button once resets the time position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+237"/>
         <source>URLs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6531,13 +6536,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-808"/>
-        <location line="+536"/>
+        <location line="-822"/>
+        <location line="+550"/>
         <source>TextLabel</source>
         <translation>Etichetta testo</translation>
     </message>
     <message>
-        <location line="-171"/>
+        <location line="-185"/>
         <source>&amp;Seeking</source>
         <translation>&amp;Ricerca</translation>
     </message>
@@ -6552,12 +6557,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ricerca &amp;relativa</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+45"/>
         <source>Ins&amp;tances</source>
         <translation>Is&amp;tanze</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+475"/>
+        <location filename="../prefinterface.cpp" line="+479"/>
         <source>Autoresize</source>
         <translation>Ridimensionamento automatico</translation>
     </message>
@@ -6577,7 +6582,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionando questa opzione, posizione e grandezza della finestra principale saranno salvate e riutilizzate successivamente.</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+111"/>
         <source>Privacy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6587,17 +6592,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare il massimo numero di elementi che saranno mostrati nel sotto-menù &lt;b&gt;Apri -&gt; File recenti&lt;/b&gt;. Un valore di 0 disabiliterà tale sotto-menù.</translation>
     </message>
     <message>
-        <location line="-87"/>
+        <location line="-94"/>
         <source>Icon set</source>
         <translation>Set icone</translation>
     </message>
     <message>
-        <location line="-469"/>
+        <location line="-473"/>
         <source>Skinnable GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+455"/>
+        <location line="+459"/>
         <source>Move the window when the video area is dragged</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6704,7 +6709,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare l&apos;azione per il trascinamento della barra temporale.</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+14"/>
+        <source>Pressing the stop button once resets the time position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+49"/>
         <source>Max. URLs</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6724,8 +6739,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="-56"/>
-        <location filename="../prefinterface.cpp" line="-60"/>
+        <location filename="../prefinterface.ui" line="-70"/>
+        <location filename="../prefinterface.cpp" line="-67"/>
         <source>Seeking method</source>
         <translation>Metodo di ricerca</translation>
     </message>
@@ -6735,7 +6750,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Imposta il metodo da usare quando si ricerca tramite lo slider. La ricerca assoluta può essere più precisa, invece la ricerca relativa potrebbe funzionare meglio con file di durata errata.</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+21"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Usa una sola istanza di SMPlayer</translation>
     </message>
@@ -6745,7 +6760,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare questa opzione se si vuole usare una istanza di SMPlayer già esistente all&apos;apertura di nuovi file.</translation>
     </message>
     <message>
-        <location line="-526"/>
+        <location line="-537"/>
         <source>Default GUI</source>
         <translation>Interfaccia predefinita</translation>
     </message>
@@ -6755,7 +6770,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Interfaccia minimale</translation>
     </message>
     <message>
-        <location line="+464"/>
+        <location line="+468"/>
         <source>GUI</source>
         <translation>Interfaccia</translation>
     </message>
@@ -6769,7 +6784,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interfaccia</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="+65"/>
+        <location filename="../prefinterface.cpp" line="+72"/>
         <source>Floating control</source>
         <translation>Controllo fluttuante</translation>
     </message>
@@ -6819,7 +6834,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Con questa opzione abilitata, il controllo è visualizzato bypassando il window manager. Disabilita questa opzione se il controllo fluttuante non lavora bene con il window manager usato.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="+439"/>
+        <location filename="../prefinterface.ui" line="+453"/>
         <source>&amp;Floating control</source>
         <translation>Controllo &amp;fluttuante</translation>
     </message>
@@ -6865,12 +6880,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Se questa opzione è abilitata, il controllo fluttuante apparirà anche nella modalità compatta. &lt;b&gt;Fare attenzione&lt;/b&gt;: il controllo fluttuante non è stato progettato per la modalità compatta e potrebbe non lavorare in modo appropriato.</translation>
     </message>
     <message>
-        <location line="-544"/>
+        <location line="-555"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location line="+454"/>
+        <location line="+458"/>
         <source>Hide video window when playing audio files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6880,7 +6895,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="-622"/>
+        <location filename="../prefinterface.ui" line="-636"/>
         <source>&amp;Hide video window when playing audio files</source>
         <translation type="unfinished"></translation>
     </message>
