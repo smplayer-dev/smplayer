@@ -149,7 +149,7 @@
     <message>
         <location filename="../about.cpp" line="226"/>
         <source>Thai</source>
-        <translation type="unfinished">Тайский</translation>
+        <translation>Тайский</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
@@ -617,7 +617,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1585"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">По &amp;умолчанию</translation>
+        <translation>По &amp;умолчанию</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1719"/>
@@ -785,7 +785,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1608"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Руководство к первым шагам</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1612"/>
@@ -983,7 +983,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <translation>К&amp;адров в секунду</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
@@ -1018,7 +1018,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1872"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>По&amp;делиться SMPlayer с друзьями</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2826"/>
@@ -1140,27 +1140,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4211"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступна новая версия</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4212"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступна новая версия SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4213"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Установленная версия: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4214"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступная версия: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4215"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Хотите узнать больше об этой новой версии?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4389"/>
@@ -3791,7 +3791,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>Юго-восточноевропейская</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
@@ -6526,7 +6526,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Пере&amp;мещать окно при перетаскивании за область видео</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6561,7 +6561,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Однократное &amp;нажатие кнопки стоп сбрасывает позицию</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6647,12 +6647,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемещать окно при перетаскивании за область видео</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, главное окно будет перемещаться при перетаскивании мышью за область видео.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -6754,12 +6754,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Однократное нажатие кнопки стоп сбрасывает позицию</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>По умолчанию при нажатии кнопки остановки временная позиция медиафайла запоминается, поэтому при нажатии кнопки воспроизведения, медиафайл продолжит воспроизводиться с того же места. Вы должны нажать кнопку стоп второй раз для сброса позиции, но эта опция, будучи установленной, установит временную позицию в 0 даже при однократном нажатии кнопки остановки.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7327,27 +7327,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Воспроизводить файлы с начала</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, все файлы в списке будут начинаться с начала, вместо продолжения предыдущего воспроизведения.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматически получать информацию о добавленных файлах</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранять копию списка воспроизведения при выходе</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, в конфигурации smplayer при закрытии будет сохранена копия списка воспроизведения, которая будет автоматически загружена при следующем запуске smplayer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
