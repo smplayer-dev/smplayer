@@ -6518,7 +6518,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mover janela se a área do vídeo for arrastada</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6553,7 +6553,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao pre&amp;mir uma vez o botão parar, reinicia a posição temporal</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6639,12 +6639,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover janela se a área do vídeo for arrastada</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, a janela principal será movida se arrastar o rato na área do vídeo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -6746,12 +6746,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao premir uma vez o botão parar, reinicia a posição temporal</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por norma, se o botão Parar for premido, a posição temporal é memorizada e assim que premir a tecla Reproduzir os ficheiros serão retomados. Para reiniciar a posição temporal. tem que premir duas vezes, mas se ativar esta opção, a posição temporal será reiniciada para 0 ao premir uma vez no botão.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7324,27 +7324,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir do início</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, todos os ficheiros da lista de reprodução serão reproduzidos desde o início em vez de serem retomados.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Obter automaticamente as informações sobre os ficheiros adicionados</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao sair, gravar cópia da lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, o smplayer guardará uma cópia da lista de reprodução ao fechar. Ao reiniciar o SMPlayer, a lista de reprodução será retomada.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
