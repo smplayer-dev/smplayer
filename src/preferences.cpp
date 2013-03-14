@@ -301,7 +301,7 @@ void Preferences::reset() {
 
 	show_tag_in_window_title = true;
 
-	time_to_kill_mplayer = 5000;
+	time_to_kill_mplayer = 1000;
 
 
     /* *********
@@ -1433,6 +1433,7 @@ void Preferences::load() {
 		if (config_version <= 3) {
 			osd = None;
 			frame_drop = false;
+			time_to_kill_mplayer = 1000;
 		}
 	}
 
