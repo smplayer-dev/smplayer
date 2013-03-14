@@ -82,7 +82,7 @@ void UpdateChecker::gotReply() {
 				QString last_known_version = set->value("last_known_version", stableVersion()).toString();
 				set->setValue("checked_date", QDate::currentDate());
 				set->endGroup();
-				if (last_known_version != version) {
+				if ((last_known_version != version) && (version !=stableVersion())) {
 					qDebug("UpdateChecker::gotReply: new version found: %s", version.toUtf8().constData());
 					emit newVersionFound(version);
 				}
