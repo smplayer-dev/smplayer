@@ -188,11 +188,11 @@ void Preferences::reset() {
 
 	threads = 1;
 
-	cache_for_files = 0;
-	cache_for_streams = 1000;
+	cache_for_files = 2048;
+	cache_for_streams = 2048;
 	cache_for_dvds = 0; // not recommended to use cache for dvds
-	cache_for_vcds = 1000;
-	cache_for_audiocds = 1000;
+	cache_for_vcds = 1024;
+	cache_for_audiocds = 1024;
 	cache_for_tv = 3000;
 
 #ifdef YOUTUBE_SUPPORT
@@ -1433,6 +1433,8 @@ void Preferences::load() {
 		if (config_version <= 3) {
 			osd = None;
 			frame_drop = false;
+			cache_for_files = 2048;
+			cache_for_streams = 2048;
 			time_to_kill_mplayer = 1000;
 		}
 	}
