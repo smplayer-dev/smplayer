@@ -1,3 +1,14 @@
+Version 0.8.4.
+
+ * New option to select the fps for external subtitles.
+ * The video equalizer dialog has been rewritten.
+ * Now smplayer checks for updates automatically and notifies the user if 
+   a new version is found.
+ * Support for encoding ISO-8859-16 for subtitles.
+ * New translations: Thai and Hebrew.
+ * Some bugfixes.
+
+
 Version 0.8.3.
 
  * Fix for youtube playback.
