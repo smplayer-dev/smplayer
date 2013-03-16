@@ -149,7 +149,7 @@
     <message>
         <location filename="../about.cpp" line="226"/>
         <source>Thai</source>
-        <translation type="unfinished">タイ語</translation>
+        <translation>タイ語</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
@@ -989,27 +989,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4211"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>新しいバージョンが利用可能です</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4212"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer の新しいバージョンが利用可能です。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4213"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>インストールされているバージョン: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4214"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能なバージョン: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4215"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>この新しいバージョンについての詳細が知りたいですか?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4389"/>
@@ -1130,7 +1130,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1585"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">既定(&amp;D)</translation>
+        <translation>既定(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1597"/>
@@ -1140,7 +1140,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1608"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>ファースト ステップ ガイド(&amp;G)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1612"/>
@@ -1281,7 +1281,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <translation>1 秒あたりのフレーム数(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1885"/>
@@ -1296,7 +1296,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1872"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer を友人に教える(&amp;H)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2826"/>
@@ -2881,7 +2881,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="104"/>
         <source>Frames per second</source>
-        <translation>フレーム パー セコンド</translation>
+        <translation>1 秒あたりのフレーム数</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="105"/>
@@ -3779,7 +3779,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>南東ヨーロッパ言語</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
@@ -6513,7 +6513,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ領域がドラッグされたときにウィンドウを移動する(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6548,7 +6548,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>停止ボタンを一回押して時間の位置をリセットする(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6634,12 +6634,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ領域がドラッグされたときにウィンドウを移動する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、ビデオ領域の上でマウスをドラッグするとメイン ウィンドウが移動します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -6741,12 +6741,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>停止ボタンを一回押して時間の位置をリセットする</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>既定では停止ボタンが押されると時間の位置は記憶されますので再生ボタンを押すとメディアは同じ場所から再開します。時間の位置をリセットするには停止ボタンを二回押す必要がありますが、このオプションがチェックされている場合は停止ボタンを一回押すだけで時間の位置が 0 へ設定されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7314,27 +7314,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>最初からファイルを再生する</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効である場合、プレイリストからのすべてのファイルは以前の再生から再開するのではなく最初から再生を開始します。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>追加されるファイルについての自動的に情報を取得する</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>終了時にプレイリストのコピーを保存する</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>このこのオプションがチェックされている場合、SMPlayer が閉じられるときにプレイリストのコピーが SMPlayer の構成に保存され、SMPlayer が再び実行されるときに自動的に再読み込みされます。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
@@ -7373,7 +7373,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation>開始からファイルを再生する(&amp;L)</translation>
+        <translation>最初からファイルを再生する(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -8819,7 +8819,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>Frames per second: %1</source>
-        <translation>フレーム パー セコンド: %1</translation>
+        <translation>1 秒あたりのフレーム数: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="386"/>
