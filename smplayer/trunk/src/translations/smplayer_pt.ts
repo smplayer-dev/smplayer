@@ -995,27 +995,27 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="4211"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova versão disponível</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4212"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Está disponível uma nova versão do SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4213"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão instalada: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4214"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão disponível: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4215"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Gostaria de saber os detalhes desta versão?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4389"/>
