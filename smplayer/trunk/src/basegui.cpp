@@ -202,6 +202,10 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	connect(update_checker, SIGNAL(newVersionFound(QString)), 
             this, SLOT(reportNewVersionAvailable(QString)));
 #endif
+
+#if !defined(Q_OS_WIN)
+	QTimer::singleShot(2000, this, SLOT(testUpdate()));
+#endif
 }
 
 void BaseGui::initializeGui() {
@@ -4214,6 +4218,25 @@ void BaseGui::reportNewVersionAvailable(QString new_version) {
 	}
 
 	update_checker->saveVersion(new_version);
+}
+#endif
+
+#if !defined(Q_OS_WIN)
+void BaseGui::testUpdate() {
+	qDebug("BaseGui::testUpdate");
+	QSettings * set = Global::settings;
+	set->beginGroup("smplayer");
+	QString version = set->value("version", "").toString();
+	bool check_for_new_version = set->value("check_for_new_version", true).toBool();
+	set->setValue("version", stableVersion());
+	set->setValue("check_for_new_version", check_for_new_version);
+	set->endGroup();
+
+	if ( (check_for_new_version) && (version != stableVersion()) ) {
+		// Running a new version
+		qDebug("BaseGui::testUpdate: running a new version: %s", stableVersion().toUtf8().constData());
+		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/guide.php?version=%1&so=linux").arg(smplayerVersion()));
+	}
 }
 #endif
 
