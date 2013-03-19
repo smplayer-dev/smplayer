@@ -206,6 +206,10 @@ protected slots:
 	void reportNewVersionAvailable(QString);
 #endif
 
+#if !defined(Q_OS_WIN)
+	void testUpdate();
+#endif
+
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
