@@ -1,3 +1,15 @@
+smplayer (0.8.4) precise; urgency=low
+
+  * New option to select the fps for external subtitles.
+  * The video equalizer dialog has been rewritten.
+  * Now smplayer checks for updates automatically and notifies the user if 
+    a new version is found.
+  * Support for encoding ISO-8859-16 for subtitles.
+  * New translations: Thai and Hebrew.
+  * Some bugfixes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 23 Mar 2013 00:36:48 +0100
+
 smplayer (0.8.3) precise; urgency=low
 
   * Fix for youtube playback.
