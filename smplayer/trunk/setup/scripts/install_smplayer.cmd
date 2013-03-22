@@ -45,6 +45,7 @@ echo.
 
 mkdir %OUTPUT_DIR%\translations
 copy %SMPLAYER_DIR%\src\translations\*.qm %OUTPUT_DIR%\translations
+copy %SMPLAYER_DIR%\qt-translations\*.qm %OUTPUT_DIR%\translations
 
 echo.
 echo ######       Qt Translations       #######
