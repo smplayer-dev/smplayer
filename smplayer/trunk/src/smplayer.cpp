@@ -61,7 +61,7 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	allow_to_send_log_to_gui = true;
 #endif
 
-	gui_to_use = "DefaultGui";
+	gui_to_use = "DefaultGUI";
 
 	close_at_end = -1; // Not set
 	start_in_fullscreen = -1; // Not set
@@ -294,15 +294,15 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		}
 		else
 		if (argument == "-mini" || argument == "-minigui") {
-			gui_to_use = "MiniGui";
+			gui_to_use = "MiniGUI";
 		}
 		else
 		if (argument == "-mpcgui") {
-			gui_to_use = "MpcGui";
+			gui_to_use = "MpcGUI";
 		}
 		else
 		if (argument == "-defaultgui") {
-			gui_to_use = "DefaultGui";
+			gui_to_use = "DefaultGUI";
 		}
 		else {
 			// File
