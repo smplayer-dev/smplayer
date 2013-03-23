@@ -374,7 +374,7 @@ void Preferences::reset() {
 
 	allow_video_movement = false;
 
-	gui = "DefaultGui";
+	gui = "DefaultGUI";
 
 #if USE_MINIMUMSIZE
 	gui_minimum_width = 0; // 0 == disabled
