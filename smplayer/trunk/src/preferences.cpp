@@ -314,7 +314,7 @@ void Preferences::reset() {
 	stay_on_top = NeverOnTop;
 	size_factor = 100; // 100%
 
-	resize_method = Never;
+	resize_method = Always;
 
 #if STYLE_SWITCHING
 	style="";
@@ -1436,7 +1436,6 @@ void Preferences::load() {
 			cache_for_files = 2048;
 			cache_for_streams = 2048;
 			time_to_kill_mplayer = 1000;
-			resize_method = Never;
 		}
 	}
 
