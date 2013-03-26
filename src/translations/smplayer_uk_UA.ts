@@ -6439,7 +6439,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Одноразове натискання кнопки &quot;Стоп&quot; скидує поточний час</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6637,12 +6637,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Одноразове натискання кнопки &quot;Стоп&quot; скидує поточний час</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>За замовчанням, при натисканні кнопки &quot;Стоп&quot; позиція часу запам&apos;ятовується, тому при натисканні кнопки &quot;Відтворення&quot; відео буде продовжено з того ж місця. Необхідно двічі натиснути на &quot;Стоп&quot;, щоб скинути позицію часу. Однак, якщо дана опція увімкнена,то при одинарному натисканні &quot;Стоп&quot; позиція часу буде скинута на 0. </translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
