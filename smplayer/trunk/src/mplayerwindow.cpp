@@ -426,25 +426,35 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
 	//qDebug("MplayerWindow::eventFilter");
 
-	if ( (event->type() == QEvent::MouseMove) || 
-         (event->type() == QEvent::MouseButtonRelease) ) 
-	{
+	static bool moving = false;
+
+	if (event->type() == QEvent::MouseMove) {
 		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
 
-		if (event->type() == QEvent::MouseMove) {
-			emit mouseMoved(mouse_event->pos());
+		emit mouseMoved(mouse_event->pos());
 
-			if ( mouse_event->buttons().testFlag(Qt::LeftButton)) {
-				emit mouseMovedDiff( mouse_event->globalPos() - mouse_press_pos);
-				mouse_press_pos = mouse_event->globalPos();
-				/* qDebug("MplayerWindow::eventFilter: mouse_press_pos: x: %d y: %d", mouse_press_pos.x(), mouse_press_pos.y()); */
-			}
+		if ( mouse_event->buttons().testFlag(Qt::LeftButton)) {
+			moving = true;
+			emit mouseMovedDiff( mouse_event->globalPos() - mouse_press_pos);
+			mouse_press_pos = mouse_event->globalPos();
+			/* qDebug("MplayerWindow::eventFilter: mouse_press_pos: x: %d y: %d", mouse_press_pos.x(), mouse_press_pos.y()); */
+			return true;
 		}
 	}
-
+	else
 	if (event->type() == QEvent::MouseButtonPress) {
+		// qDebug("**** MouseButtonPress ****");
+		moving = false;
 		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
 		mouse_press_pos = mouse_event->globalPos();
+	}
+	else
+	if (event->type() == QEvent::MouseButtonRelease) {
+		// qDebug("**** MouseButtonRelease ****");
+		if (moving) { 
+			moving = false;
+			return true;
+		}
 	}
 
 	return false;
