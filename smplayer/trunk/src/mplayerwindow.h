@@ -230,8 +230,6 @@ protected:
 #if LOGO_ANIMATION
 	bool animated_logo;
 #endif
-
-	bool moving_window;
 };
 
 
