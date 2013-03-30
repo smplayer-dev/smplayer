@@ -445,14 +445,15 @@ bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
 	}
 	else
 	if (event->type() == QEvent::MouseButtonPress) {
-		// qDebug("**** MouseButtonPress ****");
+		qDebug("**** MouseButtonPress ****");
 		moving = false;
 		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
 		mouse_press_pos = mouse_event->globalPos();
+		return true;
 	}
 	else
 	if (event->type() == QEvent::MouseButtonRelease) {
-		// qDebug("**** MouseButtonRelease ****");
+		qDebug("**** MouseButtonRelease ****");
 		if (moving) {
 			moving = false;
 			return true;
