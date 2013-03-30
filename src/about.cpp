@@ -189,7 +189,9 @@ QString About::getTranslators() {
          trad(tr("Ukrainian"), QStringList()
 			<< "Motsyo Gennadi <drool@altlinux.ru>"
 			<< "Oleksandr Kovalenko <alx.kovalenko@gmail.com>" ) +
-         trad(tr("Portuguese - Brazil"), "Ventura <ventura.barbeiro@terra.com.br>") +
+         trad(tr("Portuguese - Brazil"), QStringList() 
+			<< "Ventura <ventura.barbeiro@terra.com.br>"
+			<< QString::fromUtf8("Maico Sertório <maico.sertorio@gmail.com>")) +
          trad(tr("Georgian"), "George Machitidze <giomac@gmail.com>") +
          trad(tr("Czech"), QStringList()
 			<< QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>")
