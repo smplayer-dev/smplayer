@@ -176,6 +176,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	offset_x = 0;
 	offset_y = 0;
 	zoom_factor = 1.0;
+	mouse_press_pos = QPoint(); // Null point
 
 	setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
@@ -435,6 +436,7 @@ bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
 
 		if ( mouse_event->buttons().testFlag(Qt::LeftButton)) {
 			moving = true;
+			if (mouse_press_pos.isNull()) mouse_press_pos = mouse_event->globalPos();
 			emit mouseMovedDiff( mouse_event->globalPos() - mouse_press_pos);
 			mouse_press_pos = mouse_event->globalPos();
 			/* qDebug("MplayerWindow::eventFilter: mouse_press_pos: x: %d y: %d", mouse_press_pos.x(), mouse_press_pos.y()); */
@@ -451,7 +453,7 @@ bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
 	else
 	if (event->type() == QEvent::MouseButtonRelease) {
 		// qDebug("**** MouseButtonRelease ****");
-		if (moving) { 
+		if (moving) {
 			moving = false;
 			return true;
 		}
