@@ -87,7 +87,7 @@ QString CLHelp::help(bool html) {
                         "[-send-action %3] [-actions %4] "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
                         "[-sub %5] [-pos x y] [-size %6 %7] "
-                        "[-add-to-playlist] [-help|--help|-h|-?] "
+                        "[-add-to-playlist] [-help|--help|-h|-?] [-mplayer-info] "
                         "[%8] [%8]...")
                         .arg(app_name)
                         .arg(QObject::tr("directory"))
@@ -162,6 +162,9 @@ QString CLHelp::help(bool html) {
 
 	s += formatHelp( "-help", QObject::tr(
 		"will show this message and then will exit."), html );
+
+	s += formatHelp( "--mplayer-info", QObject::tr(
+		"gets and displays info about the mplayer version and exits."), html );
 
 	s += formatHelp( "-add-to-playlist", QObject::tr(
 		"if there's another instance running, the media will be added "

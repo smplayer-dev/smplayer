@@ -71,6 +71,7 @@ public:
 	InfoList acList() { return ac_list; };
 
 	int mplayerVersion() { return mplayer_svn; };
+	QString mplayerVersionStr() { return mplayer_version_str; };
 
 	//! Returns an InfoReader objects. If it didn't exist before, one
 	//! is created and getInfo() is called.
@@ -98,6 +99,7 @@ protected:
 	InfoList ac_list;
 
 	int mplayer_svn;
+	QString mplayer_version_str;
 
 private:
 	bool waiting_for_key;

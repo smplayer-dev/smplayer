@@ -26,6 +26,7 @@
 #include "version.h"
 #include "config.h"
 #include "clhelp.h"
+#include "inforeader.h"
 #include "myapplication.h"
 
 #ifdef SKINS
@@ -180,8 +181,9 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	}
 
 
-    QString action; // Action to be passed to running instance
+	QString action; // Action to be passed to running instance
 	bool show_help = false;
+	bool get_mplayer_info = false;
 
 	if (!pref->gui.isEmpty()) gui_to_use = pref->gui;
 	bool add_to_playlist = false;
@@ -273,6 +275,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			show_help = true;
 		}
 		else
+		if (argument == "-mplayer-info") {
+			get_mplayer_info = true;
+		}
+		else
 		if (argument == "-close-at-end") {
 			close_at_end = 1;
 		}
@@ -321,6 +327,22 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 
 	if (show_help) {
 		printf("%s\n", CLHelp::help().toLocal8Bit().data());
+		return NoError;
+	}
+
+	if (get_mplayer_info) {
+		printf("Finding info about mplayer...\n");
+		InfoReader * i = InfoReader::obj();
+		printf("MPlayer reports itself as '%s'\n", i->mplayerVersionStr().toLatin1().constData());
+		if (pref->mplayer_is_mplayer2) {
+			printf("Found: mplayer2\n");
+			printf("MPlayer2 version: %s\n", pref->mplayer2_detected_version.toLatin1().constData());
+			printf("MPlayer2 will be used as mplayer svn r%d\n", pref->mplayer_detected_version);
+		} else {
+			printf("Found: mplayer\n");
+			printf("MPlayer version svn r%d\n", pref->mplayer_detected_version);
+		}
+		pref->save();
 		return NoError;
 	}
 
