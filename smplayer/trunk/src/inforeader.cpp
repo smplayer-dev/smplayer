@@ -222,7 +222,8 @@ void InfoReader::readLine(QByteArray ba) {
 		qDebug("InfoReader::readLines: found key: vc");
 	}
 
-	if (line.startsWith("MPlayer ")) {
+	if ((line.startsWith("MPlayer ")) || (line.startsWith("MPlayer2 ", Qt::CaseInsensitive))) {
+		mplayer_version_str = line;
 		mplayer_svn = MplayerVersion::mplayerVersion(line);
 	}
 }
