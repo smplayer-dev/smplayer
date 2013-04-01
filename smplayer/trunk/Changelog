@@ -1,11 +1,3 @@
-[b]Version 0.8.5[/b]:
-
-(2013-03-31)
- * New option for command line: -mplayer-info
-   Runs mplayer, gets info about the version (detects if it's mplayer or
-   mplayer2), prints the info and exits.
-
-
 [b]Version 0.8.4[/b]:
 
 (2013-03-15)
