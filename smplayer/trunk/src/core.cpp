@@ -1754,6 +1754,9 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 #endif
 		if ( (!pref->use_fontconfig) && (!pref->font_file.isEmpty()) ) {
+			if (!pref->mplayer_is_mplayer2) { // -nofontconfig removed from mplayer2
+				proc->addArgument("-nofontconfig");
+			}
 			proc->addArgument("-font");
 			proc->addArgument( pref->font_file );
 		}
