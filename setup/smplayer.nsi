@@ -611,6 +611,7 @@ ${MementoSectionDone}
 ;--------------------------------
 ;Shared functions
 
+!ifdef Runcheck
 !macro RunCheckMacro UN
 Function ${UN}RunCheck
 
@@ -625,6 +626,7 @@ FunctionEnd
 !macroend
 !insertmacro RunCheckMacro ""
 !insertmacro RunCheckMacro "un."
+!endif
 
 ;--------------------------------
 ;Installer functions
@@ -676,12 +678,14 @@ Function .onInit
     MessageBox MB_OK|MB_ICONEXCLAMATION $(Installer_Is_Running)
     Abort
 
+!ifdef RunCheck
   ;Check if SMPlayer is running
   ;Allow skipping check using /NORUNCHECK
   ${GetParameters} $R0
   ${GetOptions} $R0 "/NORUNCHECK" $R1
   IfErrors 0 +2
     Call RunCheck
+!endif
 
   ;Check for admin on < Vista
   UserInfo::GetAccountType
@@ -975,12 +979,14 @@ Function un.onInit
     Abort
   ${EndIf}
 
+!ifdef RunCheck
   ;Check if SMPlayer is running
   ;Allow skipping check using /NORUNCHECK
   ${un.GetParameters} $R0
   ${un.GetOptions} $R0 "/NORUNCHECK" $R1
   IfErrors 0 +2
     Call un.RunCheck
+!endif
 
   ;Gets start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
