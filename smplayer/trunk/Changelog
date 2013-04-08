@@ -1,5 +1,8 @@
 [b]Version 0.8.4[/b]:
 
+(2013-04-07)
+ * The size actions work even the autoresize is set to never.
+
 (2013-03-15)
  * Change the default value for file and stream cache to 2048.
 

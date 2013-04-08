@@ -902,7 +902,7 @@ void BaseGui::createActions() {
 	connect( prevChapterAct, SIGNAL(triggered()), core, SLOT(prevChapter()) );
 
 	doubleSizeAct = new MyAction( Qt::CTRL | Qt::Key_D, this, "toggle_double_size");
-	connect( doubleSizeAct, SIGNAL(triggered()), core, SLOT(toggleDoubleSize()) );
+	connect( doubleSizeAct, SIGNAL(triggered()), this, SLOT(toggleDoubleSize()) );
 
 	resetVideoEqualizerAct = new MyAction( this, "reset_video_equalizer");
 	connect( resetVideoEqualizerAct, SIGNAL(triggered()), video_equalizer2, SLOT(reset()) );
@@ -966,7 +966,7 @@ void BaseGui::createActions() {
 	size400 = new MyActionGroupItem(this, sizeGroup, "&400%", "size_400", 400);
 	size100->setShortcut( Qt::CTRL | Qt::Key_1 );
 	size200->setShortcut( Qt::CTRL | Qt::Key_2 );
-	connect( sizeGroup, SIGNAL(activated(int)), core, SLOT(changeSize(int)) );
+	connect( sizeGroup, SIGNAL(activated(int)), this, SLOT(changeSizeFactor(int)) );
 	// Make all not checkable
 	QList <QAction *> size_list = sizeGroup->actions();
 	for (int n=0; n < size_list.count(); n++) {
@@ -4441,6 +4441,20 @@ void BaseGui::gotCurrentTime(double sec) {
 	emit timeChanged( time );
 }
 
+void BaseGui::changeSizeFactor(int factor) {
+	// If fullscreen, don't resize!
+	if (pref->fullscreen) return;
+
+	if (!pref->use_mplayer_window) {
+		pref->size_factor = factor;
+		resizeMainWindow(core->mset.win_width, core->mset.win_height);
+	}
+}
+
+void BaseGui::toggleDoubleSize() {
+	if (pref->size_factor != 100) changeSizeFactor(100); else changeSizeFactor(200);
+}
+
 void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
 
@@ -4458,6 +4472,10 @@ void BaseGui::resizeWindow(int w, int h) {
 		//compactAct->setEnabled(true);
 	}
 
+	resizeMainWindow(w, h);
+}
+
+void BaseGui::resizeMainWindow(int w, int h) {
 	if (pref->size_factor != 100) {
 		w = w * pref->size_factor / 100;
 		h = h * pref->size_factor / 100;
