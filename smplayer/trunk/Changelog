@@ -2,6 +2,7 @@
 
 (2013-04-07)
  * The size actions work even the autoresize is set to never.
+ * Set the resize method to never as default.
 
 (2013-03-15)
  * Change the default value for file and stream cache to 2048.

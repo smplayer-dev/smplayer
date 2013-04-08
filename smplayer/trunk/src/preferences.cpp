@@ -38,7 +38,7 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
-#define CURRENT_CONFIG_VERSION 3
+#define CURRENT_CONFIG_VERSION 4
 
 using namespace Global;
 
@@ -314,7 +314,7 @@ void Preferences::reset() {
 	stay_on_top = NeverOnTop;
 	size_factor = 100; // 100%
 
-	resize_method = Always;
+	resize_method = Never;
 
 #if STYLE_SWITCHING
 	style="";
@@ -1436,6 +1436,9 @@ void Preferences::load() {
 			cache_for_files = 2048;
 			cache_for_streams = 2048;
 			time_to_kill_mplayer = 1000;
+		}
+		if (config_version <= 4) {
+			resize_method = Never;
 		}
 	}
 
