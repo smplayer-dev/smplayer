@@ -3729,6 +3729,7 @@ void Core::changeAdapter(int n) {
 }
 #endif
 
+#if 0
 void Core::changeSize(int n) {
 	if ( /*(n != pref->size_factor) &&*/ (!pref->use_mplayer_window) ) {
 		pref->size_factor = n;
@@ -3744,6 +3745,7 @@ void Core::toggleDoubleSize() {
 	else
 		changeSize(200);
 }
+#endif
 
 void Core::changeZoom(double p) {
 	qDebug("Core::changeZoom: %f", p);

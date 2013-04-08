@@ -275,8 +275,10 @@ public slots:
 	void nextOSD();
 	void nextWheelFunction();
 
+	#if 0
 	void changeSize(int); // Size of the window
 	void toggleDoubleSize();
+	#endif
 	void changeZoom(double); // Zoom on mplayerwindow
 
 	void changeRotate(int r);
