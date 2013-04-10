@@ -382,11 +382,19 @@ SectionGroup $(MPlayerGroupTitle)
     retry_codecs_dl:
 
     DetailPrint $(Codecs_DL_Msg)
+!ifndef USE_NSISDL
     inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(Codecs_DL_Msg) /CAPTION $(Codecs_DL_Msg) \
     "http://www.mplayerhq.hu/MPlayer/releases/codecs/${CODEC_VERSION}.zip" \
     "$PLUGINSDIR\${CODEC_VERSION}.zip" /END
     Pop $R0
     StrCmp $R0 OK +4 0
+!else
+    NSISdl::download /TIMEOUT=15000 \
+    "http://www.mplayerhq.hu/MPlayer/releases/codecs/${CODEC_VERSION}.zip" \
+    "$PLUGINSDIR\${CODEC_VERSION}.zip" /END
+    Pop $R0
+    StrCmp $R0 "success" +4 0
+!endif
       DetailPrint $(Codecs_DL_Failed)
       MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(Codecs_DL_Retry) /SD IDCANCEL IDRETRY retry_codecs_dl
       Goto check_codecs
