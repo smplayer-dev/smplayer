@@ -619,7 +619,7 @@ ${MementoSectionDone}
 ;--------------------------------
 ;Shared functions
 
-!ifdef RUN_CHECK
+!ifdef USE_RUNCHECK
 !macro RunCheckMacro UN
 Function ${UN}RunCheck
 
@@ -686,7 +686,7 @@ Function .onInit
     MessageBox MB_OK|MB_ICONEXCLAMATION $(Installer_Is_Running)
     Abort
 
-!ifdef RUN_CHECK
+!ifdef USE_RUNCHECK
   ;Check if SMPlayer is running
   ;Allow skipping check using /NORUNCHECK
   ${GetParameters} $R0
@@ -987,7 +987,7 @@ Function un.onInit
     Abort
   ${EndIf}
 
-!ifdef RUN_CHECK
+!ifdef USE_RUNCHECK
   ;Check if SMPlayer is running
   ;Allow skipping check using /NORUNCHECK
   ${un.GetParameters} $R0
