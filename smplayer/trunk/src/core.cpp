@@ -129,24 +129,36 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedCacheMessage(QString)),
 			 this, SLOT(displayMessage(QString)) );
 
+	connect( proc, SIGNAL(receivedCacheMessage(QString)),
+			 this, SIGNAL(buffering()));
+
 	connect( proc, SIGNAL(receivedCreatingIndex(QString)),
 			 this, SLOT(displayMessage(QString)) );
+
+	connect( proc, SIGNAL(receivedCreatingIndex(QString)),
+			 this, SIGNAL(buffering()));
 
 	connect( proc, SIGNAL(receivedConnectingToMessage(QString)),
 			 this, SLOT(displayMessage(QString)) );
 
+	connect( proc, SIGNAL(receivedConnectingToMessage(QString)),
+			 this, SIGNAL(buffering()));
+
 	connect( proc, SIGNAL(receivedResolvingMessage(QString)),
 			 this, SLOT(displayMessage(QString)) );
+
+	connect( proc, SIGNAL(receivedResolvingMessage(QString)),
+			 this, SIGNAL(buffering()));
 
 	connect( proc, SIGNAL(receivedScreenshot(QString)),
              this, SLOT(displayScreenshotName(QString)) );
 
 	connect( proc, SIGNAL(receivedUpdatingFontCache()),
              this, SLOT(displayUpdatingFontCache()) );
-	
+
 	connect( proc, SIGNAL(receivedScanningFont(QString)),
 			 this, SLOT(displayMessage(QString)) );
-	
+
 	connect( proc, SIGNAL(receivedWindowResolution(int,int)),
              this, SLOT(gotWindowResolution(int,int)) );
 
