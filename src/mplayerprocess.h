@@ -78,6 +78,7 @@ signals:
 	void receivedStartingTime(double sec);
 
 	void receivedCacheMessage(QString);
+	void receivedCacheEmptyMessage(QString);
 	void receivedCreatingIndex(QString);
 	void receivedConnectingToMessage(QString);
 	void receivedResolvingMessage(QString);

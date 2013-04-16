@@ -132,6 +132,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedCacheMessage(QString)),
 			 this, SIGNAL(buffering()));
 
+	connect( proc, SIGNAL(receivedCacheEmptyMessage(QString)),
+			 this, SIGNAL(buffering()));
+
 	connect( proc, SIGNAL(receivedCreatingIndex(QString)),
 			 this, SLOT(displayMessage(QString)) );
 

@@ -163,6 +163,7 @@ static QRegExp rx_paused("^ID_PAUSED");
 static QRegExp rx_novideo("^Video: no video");
 #endif
 static QRegExp rx_cache("^Cache fill:.*");
+static QRegExp rx_cache_empty("^Cache empty.*|^Cache not filling.*");
 static QRegExp rx_create_index("^Generating Index:.*");
 static QRegExp rx_play("^Starting playback...");
 static QRegExp rx_connecting("^Connecting to .*");
@@ -465,6 +466,10 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			emit receivedTitleIsMovie();
 		}
 #endif
+
+		if (rx_cache_empty.indexIn(line) > -1) {
+			emit receivedCacheEmptyMessage(line);
+		}
 
 		// The following things are not sent when the file has started to play
 		// (or if sent, smplayer will ignore anyway...)
