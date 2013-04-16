@@ -1426,7 +1426,6 @@ void Preferences::load() {
 	// Fix some values if config is old
 	if (config_version < CURRENT_CONFIG_VERSION) {
 		qDebug("Preferences::load: config version is old, updating it");
-		config_version = CURRENT_CONFIG_VERSION;
 		if (config_version <= 2) {
 			use_slices = false;
 		}
@@ -1440,6 +1439,7 @@ void Preferences::load() {
 		if (config_version <= 4) {
 			resize_method = Never;
 		}
+		config_version = CURRENT_CONFIG_VERSION;
 	}
 
 #ifdef Q_OS_WIN
