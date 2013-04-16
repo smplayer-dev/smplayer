@@ -423,6 +423,7 @@ protected:
 	bool subscale_need_restart();
 
 signals:
+	void buffering();
 	void aboutToStartPlaying(); // Signal emited just before to start mplayer
 	void mediaLoaded();
 	void mediaInfoChanged();
