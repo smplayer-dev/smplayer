@@ -266,6 +266,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect(yt, SIGNAL(downloadFailed(QString)), this, SLOT(YTFailed(QString)));
 	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
 #endif
+
+	connect(this, SIGNAL(buffering()), this, SLOT(displayBuffering()));
 }
 
 
@@ -4012,6 +4014,10 @@ void Core::displayScreenshotName(QString filename) {
 void Core::displayUpdatingFontCache() {
 	qDebug("Core::displayUpdatingFontCache");
 	emit showMessage( tr("Updating the font cache. This may take some seconds...") );
+}
+
+void Core::displayBuffering() {
+	emit showMessage(tr("Buffering..."));
 }
 
 void Core::gotWindowResolution(int w, int h) {
