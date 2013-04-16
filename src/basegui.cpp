@@ -4766,7 +4766,6 @@ void BaseGui::moveWindow(QPoint diff) {
 	if (pref->fullscreen || isMaximized()) {
 		return;
 	}
-	//qDebug("diff: %d,%d", diff.x(), diff.y());
 	move(pos() + diff);
 }
 
