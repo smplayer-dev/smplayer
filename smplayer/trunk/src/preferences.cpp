@@ -1426,6 +1426,7 @@ void Preferences::load() {
 	// Fix some values if config is old
 	if (config_version < CURRENT_CONFIG_VERSION) {
 		qDebug("Preferences::load: config version is old, updating it");
+		/*
 		if (config_version <= 2) {
 			use_slices = false;
 		}
@@ -1436,7 +1437,15 @@ void Preferences::load() {
 			cache_for_streams = 2048;
 			time_to_kill_mplayer = 1000;
 		}
+		*/
 		if (config_version <= 4) {
+			use_slices = false;
+			osd = None;
+			frame_drop = false;
+			cache_for_files = 2048;
+			cache_for_streams = 2048;
+			time_to_kill_mplayer = 1000;
+
 			resize_method = Never;
 		}
 		config_version = CURRENT_CONFIG_VERSION;
