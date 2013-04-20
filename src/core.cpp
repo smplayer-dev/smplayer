@@ -2262,10 +2262,12 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Stereo mode
 	if (mset.stereo_mode != 0) {
-		if (mset.stereo_mode == MediaSettings::Left) 
-			af += "channels=2:2:0:1:0:0";
-		else
-			af += "channels=2:2:1:0:1:1";
+		switch (mset.stereo_mode) {
+			case MediaSettings::Left: af += "channels=2:2:0:1:0:0"; break;
+			case MediaSettings::Right: af += "channels=2:2:1:0:1:1"; break;
+			case MediaSettings::Mono: af += "pan=1:0.5:0.5"; break;
+			case MediaSettings::Reverse: af += "channels=2:2:0:1:1:0"; break;
+		}
 	}
 
 	if (mset.extrastereo_filter) {

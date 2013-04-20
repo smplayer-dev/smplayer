@@ -42,7 +42,7 @@ public:
                        Yadif_1 = 4, Kerndeint = 5 };
 	enum AudioChannels { ChDefault = 0, ChStereo = 2, ChSurround = 4, 
                          ChFull51 = 6, ChFull61 = 7, ChFull71 = 8 };
-	enum StereoMode { Stereo = 0, Left = 1, Right = 2 };
+	enum StereoMode { Stereo = 0, Left = 1, Right = 2, Mono = 3, Reverse = 4 };
 
 	enum Rotate { NoRotate = -1, Clockwise_flip = 0, Clockwise = 1, 
                   Counterclockwise = 2, Counterclockwise_flip = 3 };

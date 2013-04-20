@@ -643,6 +643,8 @@ protected:
 	MyAction * stereoAct;
 	MyAction * leftChannelAct;
 	MyAction * rightChannelAct;
+	MyAction * monoAct;
+	MyAction * reverseAct;
 
 	// Other groups
 #if PROGRAM_SWITCH
