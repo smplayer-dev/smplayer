@@ -1511,6 +1511,14 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
         <source>&amp;Open configuration folder</source>
         <translation>&amp;Otvori konfiguracijski folder</translation>
     </message>
+    <message>
+        <source>&amp;Mono</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Re&amp;verse</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
@@ -1648,6 +1656,10 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     <message>
         <source>Unable to locate the url of the video</source>
         <translation>Ne mogu pronaći URL videa</translation>
+    </message>
+    <message>
+        <source>Buffering...</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
