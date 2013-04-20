@@ -108,72 +108,72 @@
         <translation>Πορτογαλικά - Βραζιλίας</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
+        <location filename="../about.cpp" line="195"/>
         <source>Georgian</source>
         <translation>Γεωργιανά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="196"/>
         <source>Czech</source>
         <translation>Τσεχικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
+        <location filename="../about.cpp" line="199"/>
         <source>Bulgarian</source>
         <translation>Βουλγαρικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
+        <location filename="../about.cpp" line="200"/>
         <source>Turkish</source>
         <translation>Τουρκικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
+        <location filename="../about.cpp" line="201"/>
         <source>Swedish</source>
         <translation>Σουηδικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
+        <location filename="../about.cpp" line="202"/>
         <source>Serbian</source>
         <translation>Σερβικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="203"/>
         <source>Traditional Chinese</source>
         <translation>Κινέζικα Παραδοσιακά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="202"/>
+        <location filename="../about.cpp" line="204"/>
         <source>Romanian</source>
         <translation>Ρουμανικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="203"/>
+        <location filename="../about.cpp" line="205"/>
         <source>Portuguese - Portugal</source>
         <translation>Πορτογαλικά - Πορτογαλία</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="206"/>
+        <location filename="../about.cpp" line="208"/>
         <source>Greek</source>
         <translation>Ελληνικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="207"/>
+        <location filename="../about.cpp" line="209"/>
         <source>Finnish</source>
         <translation>Φινλανδικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="225"/>
+        <location filename="../about.cpp" line="227"/>
         <source>Hebrew</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="226"/>
+        <location filename="../about.cpp" line="228"/>
         <source>Thai</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="250"/>
+        <location filename="../about.cpp" line="252"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -224,17 +224,17 @@
         <translation type="obsolete">Ζητήστε βοήθεια στο forum μας:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="208"/>
+        <location filename="../about.cpp" line="210"/>
         <source>Korean</source>
         <translation>Κορεατικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="209"/>
+        <location filename="../about.cpp" line="211"/>
         <source>Macedonian</source>
         <translation>Σκοπιανά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="210"/>
+        <location filename="../about.cpp" line="212"/>
         <source>Basque</source>
         <translation>Βασκικά</translation>
     </message>
@@ -244,7 +244,7 @@
         <translation>Χρήση του MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="213"/>
+        <location filename="../about.cpp" line="215"/>
         <source>Catalan</source>
         <translation>Καταλανικά</translation>
     </message>
@@ -259,22 +259,22 @@
         <translation>Χρήση του Qt %1 (μεταγλώττιση με Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="214"/>
+        <location filename="../about.cpp" line="216"/>
         <source>Slovenian</source>
         <translation>Σλοβένικα</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="215"/>
+        <location filename="../about.cpp" line="217"/>
         <source>Arabic</source>
         <translation>Αραβικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="216"/>
+        <location filename="../about.cpp" line="218"/>
         <source>Kurdish</source>
         <translation>Κουρδικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="217"/>
+        <location filename="../about.cpp" line="219"/>
         <source>Galician</source>
         <translation>Γαλικικά</translation>
     </message>
@@ -284,27 +284,27 @@
         <translation>Λογότυπο SMPlayer από %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="218"/>
+        <location filename="../about.cpp" line="220"/>
         <source>Vietnamese</source>
         <translation>Βιετναμέζικα</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="219"/>
+        <location filename="../about.cpp" line="221"/>
         <source>Estonian</source>
         <translation>Εσθονικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="220"/>
+        <location filename="../about.cpp" line="222"/>
         <source>Lithuanian</source>
         <translation>Λιθουανικά</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="223"/>
+        <location filename="../about.cpp" line="225"/>
         <source>Danish</source>
         <translation>Δανέζικα</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="224"/>
+        <location filename="../about.cpp" line="226"/>
         <source>Croatian</source>
         <translation>Κροατικά</translation>
     </message>
@@ -512,1304 +512,1314 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>&amp;Open</source>
         <translation>Άν&amp;οιγμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1685"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>&amp;Play</source>
         <translation>&amp;Αναπαραγωγή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1686"/>
+        <location filename="../basegui.cpp" line="1688"/>
         <source>&amp;Video</source>
         <translation>&amp;Βίντεο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1687"/>
+        <location filename="../basegui.cpp" line="1689"/>
         <source>&amp;Audio</source>
         <translation>&amp;Ήχος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1690"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1689"/>
+        <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Browse</source>
         <translation>&amp;Περιήγηση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1690"/>
+        <location filename="../basegui.cpp" line="1692"/>
         <source>Op&amp;tions</source>
         <translation>&amp;Επιλογές</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1693"/>
         <source>&amp;Help</source>
         <translation>&amp;Βοήθεια</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1433"/>
+        <location filename="../basegui.cpp" line="1435"/>
         <source>&amp;File...</source>
         <translation>&amp;Αρχείο...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1434"/>
+        <location filename="../basegui.cpp" line="1436"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Φάκελος...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1435"/>
+        <location filename="../basegui.cpp" line="1437"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;Λίστα...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1438"/>
+        <location filename="../basegui.cpp" line="1440"/>
         <source>&amp;DVD from drive</source>
         <translation>DVD από &amp;συσκευή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1439"/>
+        <location filename="../basegui.cpp" line="1441"/>
         <source>D&amp;VD from folder...</source>
         <translation>DVD από φάκε&amp;λο...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1440"/>
+        <location filename="../basegui.cpp" line="1442"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1709"/>
         <source>&amp;Clear</source>
         <translation>&amp;Καθαρισμός</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1705"/>
+        <location filename="../basegui.cpp" line="1707"/>
         <source>&amp;Recent files</source>
         <translation>&amp;Πρόσφατα αρχεία</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1464"/>
+        <location filename="../basegui.cpp" line="1466"/>
         <source>P&amp;lay</source>
         <translation>&amp;Αναπαραγωγή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1470"/>
+        <location filename="../basegui.cpp" line="1472"/>
         <source>&amp;Pause</source>
         <translation>&amp;Παύση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1471"/>
+        <location filename="../basegui.cpp" line="1473"/>
         <source>&amp;Stop</source>
         <translation>&amp;Σταμάτημα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1472"/>
+        <location filename="../basegui.cpp" line="1474"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Καρέ καρέ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1493"/>
+        <location filename="../basegui.cpp" line="1495"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;Κανονική ταχύτητα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1494"/>
+        <location filename="../basegui.cpp" line="1496"/>
         <source>&amp;Halve speed</source>
         <translation>&amp;Μισή ταχύτητα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1495"/>
+        <location filename="../basegui.cpp" line="1497"/>
         <source>&amp;Double speed</source>
         <translation>&amp;Διπλή ταχύτητα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1496"/>
+        <location filename="../basegui.cpp" line="1498"/>
         <source>Speed &amp;-10%</source>
         <translation>Ταχύτητα &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1497"/>
+        <location filename="../basegui.cpp" line="1499"/>
         <source>Speed &amp;+10%</source>
         <translation>Ταχύτητα &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1583"/>
+        <location filename="../basegui.cpp" line="1585"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation type="unfinished">&amp;Εκτός</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>Sp&amp;eed</source>
         <translation>Τα&amp;χύτητα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1488"/>
+        <location filename="../basegui.cpp" line="1490"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Επανάληψη</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1504"/>
+        <location filename="../basegui.cpp" line="1506"/>
         <source>&amp;Fullscreen</source>
         <translation>Πλήρης &amp;Οθόνη</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1505"/>
+        <location filename="../basegui.cpp" line="1507"/>
         <source>&amp;Compact mode</source>
         <translation>&amp;Συμπαγής μορφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>Si&amp;ze</source>
         <translation>&amp;Μέγεθος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1743"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;Αναλογίες εικόνας</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
-        <location filename="../basegui.cpp" line="3067"/>
+        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="3071"/>
         <source>&amp;None</source>
         <translation>&amp;Κανένα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1784"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Φίλτροχαμηλών5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1787"/>
         <source>Linear &amp;Blend</source>
         <translation>&amp;Γραμμών μίξη</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1746"/>
+        <location filename="../basegui.cpp" line="1748"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Αποσύμπλεξη</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1532"/>
+        <location filename="../basegui.cpp" line="1534"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Προεπεξεργασία</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1533"/>
+        <location filename="../basegui.cpp" line="1535"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Αυτοεπιλογή στιγμιότυπου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1534"/>
+        <location filename="../basegui.cpp" line="1536"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Μη-φραγή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1537"/>
         <source>De&amp;ring</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1537"/>
+        <location filename="../basegui.cpp" line="1539"/>
         <source>Add n&amp;oise</source>
         <translation>Πρόσθεση &amp;θορύβου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1751"/>
         <source>F&amp;ilters</source>
         <translation>&amp;Φίλτρα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1506"/>
+        <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;Ισοσταθμιστής</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1507"/>
+        <location filename="../basegui.cpp" line="1509"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;Στιγμιότυπο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1757"/>
         <source>S&amp;tay on top</source>
         <translation>&amp;Μείνε στην κορυφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1555"/>
+        <location filename="../basegui.cpp" line="1557"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Εξτρα_στέρεο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1556"/>
+        <location filename="../basegui.cpp" line="1558"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Καραόκε</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
+        <location filename="../basegui.cpp" line="1817"/>
         <source>&amp;Filters</source>
         <translation>&amp;Φίλτρα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1825"/>
-        <location filename="../basegui.cpp" line="1831"/>
+        <location filename="../basegui.cpp" line="1827"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Στέρεο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;4.0 Surround</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1827"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;5.1 Surround</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Channels</source>
         <translation>&amp;Κανάλια</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1832"/>
+        <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Left channel</source>
         <translation>&amp;Αριστερό κανάλι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1833"/>
+        <location filename="../basegui.cpp" line="1835"/>
         <source>&amp;Right channel</source>
         <translation>&amp;Δεξί κανάλι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>&amp;Stereo mode</source>
         <translation>&amp;Στέρεο μορφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1545"/>
+        <location filename="../basegui.cpp" line="1547"/>
         <source>&amp;Mute</source>
         <translation>&amp;Σίγαση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1546"/>
+        <location filename="../basegui.cpp" line="1548"/>
         <source>Volume &amp;-</source>
         <translation>Ένταση &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1547"/>
+        <location filename="../basegui.cpp" line="1549"/>
         <source>Volume &amp;+</source>
         <translation>Ένταση &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1548"/>
+        <location filename="../basegui.cpp" line="1550"/>
         <source>&amp;Delay -</source>
         <translation>&amp;Καθυστέρηση -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1549"/>
+        <location filename="../basegui.cpp" line="1551"/>
         <source>D&amp;elay +</source>
         <translation>Κα&amp;θυστέρηση +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1836"/>
+        <location filename="../basegui.cpp" line="1840"/>
         <source>&amp;Select</source>
         <translation>&amp;Επιλογή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1560"/>
+        <location filename="../basegui.cpp" line="1562"/>
         <source>&amp;Load...</source>
         <translation>&amp;Φόρτωμα...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1562"/>
+        <location filename="../basegui.cpp" line="1564"/>
         <source>Delay &amp;-</source>
         <translation>Καθυστέρηση &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1563"/>
+        <location filename="../basegui.cpp" line="1565"/>
         <source>Delay &amp;+</source>
         <translation>Καθυστέρηση &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1565"/>
+        <location filename="../basegui.cpp" line="1567"/>
         <source>&amp;Up</source>
         <translation>&amp;Πάνω</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1566"/>
+        <location filename="../basegui.cpp" line="1568"/>
         <source>&amp;Down</source>
         <translation>&amp;Κάτω</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1846"/>
+        <location filename="../basegui.cpp" line="1850"/>
         <source>&amp;Title</source>
         <translation>&amp;Τίτλος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1849"/>
+        <location filename="../basegui.cpp" line="1853"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Κεφάλαιο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1852"/>
+        <location filename="../basegui.cpp" line="1856"/>
         <source>&amp;Angle</source>
         <translation>&amp;Γωνία</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1598"/>
+        <location filename="../basegui.cpp" line="1600"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Λίστα αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1779"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Απενεργοποίηση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1873"/>
+        <location filename="../basegui.cpp" line="1877"/>
         <source>&amp;OSD</source>
         <translation>&amp;ΟSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1884"/>
         <source>&amp;View logs</source>
         <translation>&amp;Εμφάνιση αρχείων καταγραφών</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1600"/>
+        <location filename="../basegui.cpp" line="1602"/>
         <source>P&amp;references</source>
         <translation>&amp;Επιλογές</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1617"/>
+        <location filename="../basegui.cpp" line="1619"/>
         <source>About &amp;Qt</source>
         <translation>Σχετικά με &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1618"/>
+        <location filename="../basegui.cpp" line="1620"/>
         <source>About &amp;SMPlayer</source>
         <translation>Σχετικά με &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3089"/>
-        <location filename="../basegui.cpp" line="3105"/>
-        <location filename="../basegui.cpp" line="3121"/>
-        <location filename="../basegui.cpp" line="3136"/>
-        <location filename="../basegui.cpp" line="3168"/>
-        <location filename="../basegui.cpp" line="3188"/>
-        <location filename="../basegui.cpp" line="3228"/>
+        <location filename="../basegui.cpp" line="3093"/>
+        <location filename="../basegui.cpp" line="3109"/>
+        <location filename="../basegui.cpp" line="3125"/>
+        <location filename="../basegui.cpp" line="3140"/>
+        <location filename="../basegui.cpp" line="3172"/>
+        <location filename="../basegui.cpp" line="3192"/>
+        <location filename="../basegui.cpp" line="3232"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;κενό&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3639"/>
+        <location filename="../basegui.cpp" line="3643"/>
         <source>Video</source>
         <translation>Βίντεο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3640"/>
-        <location filename="../basegui.cpp" line="3830"/>
+        <location filename="../basegui.cpp" line="3644"/>
+        <location filename="../basegui.cpp" line="3834"/>
         <source>Audio</source>
         <translation>Ήχος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3641"/>
+        <location filename="../basegui.cpp" line="3645"/>
         <source>Playlists</source>
         <translation>Λίστα αναπαραγωγής</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3642"/>
-        <location filename="../basegui.cpp" line="3810"/>
-        <location filename="../basegui.cpp" line="3831"/>
+        <location filename="../basegui.cpp" line="3646"/>
+        <location filename="../basegui.cpp" line="3814"/>
+        <location filename="../basegui.cpp" line="3835"/>
         <source>All files</source>
         <translation>Όλα τα αρχεία</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3637"/>
-        <location filename="../basegui.cpp" line="3807"/>
-        <location filename="../basegui.cpp" line="3828"/>
+        <location filename="../basegui.cpp" line="3641"/>
+        <location filename="../basegui.cpp" line="3811"/>
+        <location filename="../basegui.cpp" line="3832"/>
         <source>Choose a file</source>
         <translation>Επιλογή αρχείου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3689"/>
+        <location filename="../basegui.cpp" line="3693"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Πληροφορίες</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3690"/>
+        <location filename="../basegui.cpp" line="3694"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD οδηγοί δεν καθορίστηκαν ακόμη.
 Ο διάλογος καθορισμού θα εμφανιστεί, ώστε να προχωρήσετε.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3773"/>
+        <location filename="../basegui.cpp" line="3777"/>
         <source>Choose a directory</source>
         <translation>Επιλογή φακέλου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3809"/>
+        <location filename="../basegui.cpp" line="3813"/>
         <source>Subtitles</source>
         <translation>Υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3871"/>
+        <location filename="../basegui.cpp" line="3875"/>
         <source>About Qt</source>
         <translation>Σχετικά με Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4406"/>
+        <location filename="../basegui.cpp" line="4410"/>
         <source>Playing %1</source>
         <translation>Αναπαραγωγή %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4407"/>
+        <location filename="../basegui.cpp" line="4411"/>
         <source>Pause</source>
         <translation>Παύση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4408"/>
+        <location filename="../basegui.cpp" line="4412"/>
         <source>Stop</source>
         <translation>Σταμάτημα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1474"/>
+        <location filename="../basegui.cpp" line="1476"/>
         <source>Play / Pause</source>
         <translation>Αναπαραγωγή / Παύση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1480"/>
+        <location filename="../basegui.cpp" line="1482"/>
         <source>Pause / Frame step</source>
         <translation>Παύση / Καρέ καρέ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1552"/>
-        <location filename="../basegui.cpp" line="1561"/>
+        <location filename="../basegui.cpp" line="1554"/>
+        <location filename="../basegui.cpp" line="1563"/>
         <source>U&amp;nload</source>
         <translation>&amp;Ξεφόρτωμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1436"/>
+        <location filename="../basegui.cpp" line="1438"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1441"/>
+        <location filename="../basegui.cpp" line="1443"/>
         <source>C&amp;lose</source>
         <translation>&amp;Κλείσιμο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1599"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>View &amp;info and properties...</source>
         <translation>&amp;Πληροφορίες και ιδιότητες...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1515"/>
+        <location filename="../basegui.cpp" line="1517"/>
         <source>Zoom &amp;-</source>
         <translation>Εστίαση &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1516"/>
+        <location filename="../basegui.cpp" line="1518"/>
         <source>Zoom &amp;+</source>
         <translation>Εστίαση &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1517"/>
+        <location filename="../basegui.cpp" line="1519"/>
         <source>&amp;Reset</source>
         <translation>&amp;Επαναφορά</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1521"/>
+        <location filename="../basegui.cpp" line="1523"/>
         <source>Move &amp;left</source>
         <translation>Μετακίνηση &amp;αριστερά</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1522"/>
+        <location filename="../basegui.cpp" line="1524"/>
         <source>Move &amp;right</source>
         <translation>Μετακίνηση &amp;δεξιά</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1523"/>
+        <location filename="../basegui.cpp" line="1525"/>
         <source>Move &amp;up</source>
         <translation>Μετακίνηση &amp;πάνω</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1524"/>
+        <location filename="../basegui.cpp" line="1526"/>
         <source>Move &amp;down</source>
         <translation>Μετακίνηση &amp;κάτω</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1570"/>
+        <location filename="../basegui.cpp" line="1572"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>&amp;Προηγούμενη γραμμή υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1574"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>&amp;Επόμενη γραμμή υποτίτλων</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1905"/>
-        <location filename="../basegui.cpp" line="1906"/>
-        <location filename="../basegui.cpp" line="1907"/>
-        <source>-%1</source>
-        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1909"/>
         <location filename="../basegui.cpp" line="1910"/>
         <location filename="../basegui.cpp" line="1911"/>
+        <source>-%1</source>
+        <translation>-%1</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1913"/>
+        <location filename="../basegui.cpp" line="1914"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1643"/>
+        <location filename="../basegui.cpp" line="1645"/>
         <source>Dec volume (2)</source>
         <translation>Μείωση έντασης (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1536"/>
+        <location filename="../basegui.cpp" line="1538"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1589"/>
+        <location filename="../basegui.cpp" line="1591"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation type="unfinished">&amp;Προεπιλογή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1601"/>
+        <location filename="../basegui.cpp" line="1603"/>
         <source>&amp;YouTube browser</source>
         <translation>YouTube &amp;εξερεύνηση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1612"/>
+        <location filename="../basegui.cpp" line="1614"/>
         <source>First Steps &amp;Guide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1616"/>
+        <location filename="../basegui.cpp" line="1618"/>
         <source>&amp;Open configuration folder</source>
         <translation>Άνοιγμα &amp;φακέλου ρυθμίσεων</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>Inc volume (2)</source>
         <translation>Αύξηση έντασης (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1647"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>Exit fullscreen</source>
         <translation>Έξοδος πλήρους οθόνης</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1649"/>
+        <location filename="../basegui.cpp" line="1651"/>
         <source>OSD - Next level</source>
         <translation>OSD - Επόμενο επίπεδο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1650"/>
+        <location filename="../basegui.cpp" line="1652"/>
         <source>Dec contrast</source>
         <translation>Μείωση αντίθεσης</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1651"/>
+        <location filename="../basegui.cpp" line="1653"/>
         <source>Inc contrast</source>
         <translation>Αύξηση αντίθεσης</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1652"/>
+        <location filename="../basegui.cpp" line="1654"/>
         <source>Dec brightness</source>
         <translation>Μείωση φωτεινότητας</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1653"/>
+        <location filename="../basegui.cpp" line="1655"/>
         <source>Inc brightness</source>
         <translation>Αύξηση φωτεινότητας</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1654"/>
+        <location filename="../basegui.cpp" line="1656"/>
         <source>Dec hue</source>
         <translation>Μείωση χρώματος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1655"/>
+        <location filename="../basegui.cpp" line="1657"/>
         <source>Inc hue</source>
         <translation>Αύξηση χρώματος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1656"/>
+        <location filename="../basegui.cpp" line="1658"/>
         <source>Dec saturation</source>
         <translation>Μείωση κορεσμού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1658"/>
+        <location filename="../basegui.cpp" line="1660"/>
         <source>Dec gamma</source>
         <translation>Μείωση γάμμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1661"/>
+        <location filename="../basegui.cpp" line="1663"/>
         <source>Next audio</source>
         <translation>Επόμενο κομάτι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1662"/>
+        <location filename="../basegui.cpp" line="1664"/>
         <source>Next subtitle</source>
         <translation>Επόμενος υπότιτλος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1663"/>
+        <location filename="../basegui.cpp" line="1665"/>
         <source>Next chapter</source>
         <translation>Επόμενο κεφάλαιο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1664"/>
+        <location filename="../basegui.cpp" line="1666"/>
         <source>Previous chapter</source>
         <translation>Προηγούμενο κεφάλαιο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>De&amp;noise</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>Blur/S&amp;harp</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1788"/>
+        <location filename="../basegui.cpp" line="1790"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation type="unfinished">&amp;Εκτός</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1791"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1790"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1792"/>
+        <location filename="../basegui.cpp" line="1794"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation type="unfinished">&amp;Κανένα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1795"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1794"/>
+        <location filename="../basegui.cpp" line="1796"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1842"/>
+        <location filename="../basegui.cpp" line="1836"/>
+        <source>&amp;Mono</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1837"/>
+        <source>Re&amp;verse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1846"/>
         <source>F&amp;rames per second</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1876"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1889"/>
+        <location filename="../basegui.cpp" line="1893"/>
         <source>SMPlayer - MPlayer log</source>
         <translation>SMPlayer - MPlayer καταγραφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1892"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer - SMPlayer καταγραφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2830"/>
-        <location filename="../basegui.cpp" line="3456"/>
+        <location filename="../basegui.cpp" line="2834"/>
+        <location filename="../basegui.cpp" line="3460"/>
         <source>Information</source>
         <translation>Πληροφορίες</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2831"/>
+        <location filename="../basegui.cpp" line="2835"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3236"/>
+        <location filename="../basegui.cpp" line="3240"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3237"/>
+        <location filename="../basegui.cpp" line="3241"/>
         <source>Delete the list of recent files?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3457"/>
+        <location filename="../basegui.cpp" line="3461"/>
         <source>The current values have been stored to be used as default.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4209"/>
+        <location filename="../basegui.cpp" line="4213"/>
         <source>New version available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4210"/>
+        <location filename="../basegui.cpp" line="4214"/>
         <source>A new version of SMPlayer is available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4211"/>
+        <location filename="../basegui.cpp" line="4215"/>
         <source>Installed version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4212"/>
+        <location filename="../basegui.cpp" line="4216"/>
         <source>Available version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4213"/>
+        <location filename="../basegui.cpp" line="4217"/>
         <source>Would you like to know more about this new version?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4905"/>
+        <location filename="../basegui.cpp" line="4927"/>
         <source>An error happened - SMPlayer</source>
         <translation>Συνέβη ένα σφάλμα - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4905"/>
+        <location filename="../basegui.cpp" line="4927"/>
         <source>The YouTube Browser couldn&apos;t be launched</source>
         <translation>Δεν ήταν δυνατό να ξεκινήσει το πρόγραμμα περιήγησης YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1657"/>
+        <location filename="../basegui.cpp" line="1659"/>
         <source>Inc saturation</source>
         <translation>Αύξηση κορεσμού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1659"/>
+        <location filename="../basegui.cpp" line="1661"/>
         <source>Inc gamma</source>
         <translation>Αύξηση γάμμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1551"/>
+        <location filename="../basegui.cpp" line="1553"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Φόρτωση εξωτερικού αρχείου...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1786"/>
+        <location filename="../basegui.cpp" line="1788"/>
         <source>&amp;Kerndeint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (κανονικό)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
+        <location filename="../basegui.cpp" line="1786"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (διπλή ροή πλαισίων)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1628"/>
+        <location filename="../basegui.cpp" line="1630"/>
         <source>&amp;Next</source>
         <translation>&amp;Επόμενο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1629"/>
+        <location filename="../basegui.cpp" line="1631"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Προηγούμενο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1557"/>
+        <location filename="../basegui.cpp" line="1559"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;Εξομάλυνση Έντασης</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1437"/>
+        <location filename="../basegui.cpp" line="1439"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Ήχου CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1575"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>&amp;Χρήση SSA/ASS εργαλείων</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1665"/>
+        <location filename="../basegui.cpp" line="1667"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;Ενναλαγή διπλού μεγέθους</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1567"/>
+        <location filename="../basegui.cpp" line="1569"/>
         <source>S&amp;ize -</source>
         <translation>Μέγεθος &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1568"/>
+        <location filename="../basegui.cpp" line="1570"/>
         <source>Si&amp;ze +</source>
         <translation>Μέγεθος &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1540"/>
         <source>Add &amp;black borders</source>
         <translation>Προσθήκη &amp;μαύρου πλαισίου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1539"/>
+        <location filename="../basegui.cpp" line="1541"/>
         <source>Soft&amp;ware scaling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1613"/>
+        <location filename="../basegui.cpp" line="1615"/>
         <source>&amp;FAQ</source>
         <translation>&amp;Ερωτήσεις</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1614"/>
+        <location filename="../basegui.cpp" line="1616"/>
         <source>&amp;Command line options</source>
         <translation>Επιλογές &amp;γραμμής εντολών</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3850"/>
+        <location filename="../basegui.cpp" line="3854"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer επιλογές γραμμής εντολών</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1576"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Αναγκαστικά &amp;υπότιτλους μόνο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1666"/>
+        <location filename="../basegui.cpp" line="1668"/>
         <source>Reset video equalizer</source>
         <translation>Επαναφορά ισοσταθμιστή βίντεο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4804"/>
+        <location filename="../basegui.cpp" line="4826"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Το MPlayer έχει τελειώσει απροσδόκητα.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4805"/>
+        <location filename="../basegui.cpp" line="4827"/>
         <source>Exit code: %1</source>
         <translation>Κώδικας εξόδου: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4824"/>
+        <location filename="../basegui.cpp" line="4846"/>
         <source>MPlayer failed to start.</source>
         <translation>Το MPlayer απέτυχε να ξεκινήσει.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4825"/>
+        <location filename="../basegui.cpp" line="4847"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Παρακαλώ ελέχτε την διαδρομή του MPlayer στις επιλογές.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4827"/>
+        <location filename="../basegui.cpp" line="4849"/>
         <source>MPlayer has crashed.</source>
         <translation>Το MPlayer έχει σπάσει.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4828"/>
+        <location filename="../basegui.cpp" line="4850"/>
         <source>See the log for more info.</source>
         <translation>Εμφάνιση καταγραφής για περισσότερες πληροφορίες.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Περιστροφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Off</source>
         <translation>&amp;Εκτός</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1797"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;Περιστροφή κατά 90 μοίρες δεξιόστροφα και αναστροφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1798"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>&amp;Περιστροφή κατά 90 μοίρες δεξιόστροφα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1799"/>
+        <location filename="../basegui.cpp" line="1801"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>Περιστροφή κατά 90 μοί&amp;ρες αριστερόστροφα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1800"/>
+        <location filename="../basegui.cpp" line="1802"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Περιστροφή κατά 90 &amp;μοίρες αριστερόστροφα και αναστροφή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1490"/>
+        <location filename="../basegui.cpp" line="1492"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;Μετάβαση στο ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1668"/>
+        <location filename="../basegui.cpp" line="1670"/>
         <source>Show context menu</source>
         <translation>Εμφάνιση μενού περιεχομένου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3638"/>
+        <location filename="../basegui.cpp" line="3642"/>
         <source>Multimedia</source>
         <translation>Πολυμέσο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1542"/>
+        <location filename="../basegui.cpp" line="1544"/>
         <source>E&amp;qualizer</source>
         <translation>&amp;Ισοσταθμιστής</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1667"/>
+        <location filename="../basegui.cpp" line="1669"/>
         <source>Reset audio equalizer</source>
         <translation>Επαναφορά ισοσταθμιστή ήχου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1579"/>
+        <location filename="../basegui.cpp" line="1581"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Εύρεση υπότιτλων στο &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1580"/>
+        <location filename="../basegui.cpp" line="1582"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Ανέ&amp;βασμα υπότιτλων στο OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>&amp;Auto</source>
         <translation>&amp;Αυτόματο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1498"/>
+        <location filename="../basegui.cpp" line="1500"/>
         <source>Speed -&amp;4%</source>
         <translation>Ταχύτητα &amp;-4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1499"/>
+        <location filename="../basegui.cpp" line="1501"/>
         <source>&amp;Speed +4%</source>
         <translation>Ταχύτητα &amp;+4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1500"/>
+        <location filename="../basegui.cpp" line="1502"/>
         <source>Speed -&amp;1%</source>
         <translation>Ταχύτητα -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1501"/>
+        <location filename="../basegui.cpp" line="1503"/>
         <source>S&amp;peed +1%</source>
         <translation>Ταχύτητα +1&amp;%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>Scree&amp;n</source>
         <translation>&amp;Οθόνη</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1808"/>
+        <location filename="../basegui.cpp" line="1810"/>
         <source>&amp;Default</source>
         <translation>&amp;Προεπιλογή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1513"/>
+        <location filename="../basegui.cpp" line="1515"/>
         <source>Mirr&amp;or image</source>
         <translation>Κατ&amp;οπτρισμός εικόνας</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1660"/>
+        <location filename="../basegui.cpp" line="1662"/>
         <source>Next video</source>
         <translation>Επόμενο βίντεο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1730"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Κομμάτι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Κομμάτι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4190"/>
+        <location filename="../basegui.cpp" line="4194"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Προειδοποίηση - Χρησιμοποιείται παλιά έκδοση MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4191"/>
+        <location filename="../basegui.cpp" line="4195"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Η έκδοση του MPlayer (%1) που έχετε στο σύστημά σας είναι παλιά. Το SMPlayer δεν μπορεί να λειτουργήσει καλά με αυτό: κάποιες επιλογές δεν θα λειτουργήσουν, η επιλογή υπότιτλοι μπορεί να αποτύχει...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4196"/>
+        <location filename="../basegui.cpp" line="4200"/>
         <source>Please, update your MPlayer.</source>
         <translation>Παρακαλώ, ενημερώστε το MPlayer σας.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4198"/>
+        <location filename="../basegui.cpp" line="4202"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Αυτή η προειδοποίηση δεν θα εμφανίζεται πλέον)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>Next aspect ratio</source>
         <translation>Επόμενες αναλογίες εικόνας</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1518"/>
+        <location filename="../basegui.cpp" line="1520"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;Αυτόματη εστίαση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1519"/>
+        <location filename="../basegui.cpp" line="1521"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Εστίαση για &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1520"/>
+        <location filename="../basegui.cpp" line="1522"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Εστίαση για &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1510"/>
+        <location filename="../basegui.cpp" line="1512"/>
         <source>Pre&amp;view...</source>
         <translation>&amp;Προεπισκόπηση...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1802"/>
+        <location filename="../basegui.cpp" line="1804"/>
         <source>&amp;Always</source>
         <translation>&amp;Πάντα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
+        <location filename="../basegui.cpp" line="1805"/>
         <source>&amp;Never</source>
         <translation>Πο&amp;τέ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>While &amp;playing</source>
         <translation>&amp;Κατά την αναπαραγωγή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1866"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>DVD &amp;menu</source>
         <translation>DVD &amp;μενού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1868"/>
+        <location filename="../basegui.cpp" line="1872"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD π&amp;ροηγούμενο μενού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1866"/>
         <source>DVD menu, move up</source>
         <translation>DVD μενού, μετακίνηση πάνω</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1863"/>
+        <location filename="../basegui.cpp" line="1867"/>
         <source>DVD menu, move down</source>
         <translation>DVD μενού, μετακίνηση κάτω</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1864"/>
+        <location filename="../basegui.cpp" line="1868"/>
         <source>DVD menu, move left</source>
         <translation>DVD μενού, μετακίνηση αριστερά</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1869"/>
         <source>DVD menu, move right</source>
         <translation>DVD μενού, μετακίνηση δεξιά</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>DVD menu, select option</source>
         <translation>DVD μενού, επιλογή</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD μενού, κλικ ποντικιού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1550"/>
+        <location filename="../basegui.cpp" line="1552"/>
         <source>Set dela&amp;y...</source>
         <translation>Ορισμός &amp;καθυστέρηση...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1564"/>
+        <location filename="../basegui.cpp" line="1566"/>
         <source>Se&amp;t delay...</source>
         <translation>Ορισμός κα&amp;θυστέρηση...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3901"/>
+        <location filename="../basegui.cpp" line="3905"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Μετάβαση στο:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3902"/>
+        <location filename="../basegui.cpp" line="3906"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Αναζήτηση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3912"/>
+        <location filename="../basegui.cpp" line="3916"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Καθυστέρηση ήχου</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3913"/>
+        <location filename="../basegui.cpp" line="3917"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Καθυστέρηση ήχου (σε χιλιοστά δευτ.):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3922"/>
+        <location filename="../basegui.cpp" line="3926"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Καθυστέρηση υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3923"/>
+        <location filename="../basegui.cpp" line="3927"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Καθυστέρηση υποτίτλων (σε χιλιοστά του δευτ.):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1807"/>
         <source>Toggle stay on top</source>
         <translation>Εναλλαγή πάντα σε πρώτο πλάνο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1828"/>
+        <location filename="../basegui.cpp" line="1830"/>
         <source>&amp;6.1 Surround</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1829"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>&amp;7.1 Surround</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4528"/>
+        <location filename="../basegui.cpp" line="4550"/>
         <source>Jump to %1</source>
         <translation>Μετάβαση στο %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1508"/>
+        <location filename="../basegui.cpp" line="1510"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Έναρξη/Σταμάτημα λήψης &amp;στιγμιοτύπων</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1578"/>
         <source>Subtitle &amp;visibility</source>
         <translation>&amp;Ορατοί υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1670"/>
+        <location filename="../basegui.cpp" line="1672"/>
         <source>Next wheel function</source>
         <translation>Επόμενη λειτουργία τροχού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1856"/>
+        <location filename="../basegui.cpp" line="1860"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>&amp;Πρόγραμμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1718"/>
         <source>&amp;TV</source>
         <translation>&amp;Τηλεόραση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1719"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>Radi&amp;o</source>
         <translation>&amp;Ραδιόφωνο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1677"/>
+        <location filename="../basegui.cpp" line="1679"/>
         <source>Subtitles onl&amp;y</source>
         <translation>Υπότιτ&amp;λοι μόνο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1680"/>
         <source>Volume + &amp;Seek</source>
         <translation>Ένταση + Ανα&amp;ζήτηση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Ένταση + Αναζήτηση + &amp;Χρονόμετρο</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1680"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Ένταση + Αναζήτηση + Χρονόμετρο + &amp;Συνολικός χρόνος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1390"/>
+        <location filename="../basegui.cpp" line="1392"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Τα φίλτρα βίντεο είναι εκτός λειτουργίας κατά τη χρήση vdpau</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1512"/>
+        <location filename="../basegui.cpp" line="1514"/>
         <source>Fli&amp;p image</source>
         <translation>Αναστ&amp;ροφή εικόνας</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1740"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>Zoo&amp;m</source>
         <translation>&amp;Εστίαση</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1674"/>
         <source>Show filename on OSD</source>
         <translation>Εμφάνιση ονόματος αρχείου στο OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1485"/>
+        <location filename="../basegui.cpp" line="1487"/>
         <source>Set &amp;A marker</source>
         <translation>Ορισμός &amp;Α σημαδιού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1486"/>
+        <location filename="../basegui.cpp" line="1488"/>
         <source>Set &amp;B marker</source>
         <translation>Ορισμός &amp;Β σημαδιού</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1487"/>
+        <location filename="../basegui.cpp" line="1489"/>
         <source>&amp;Clear A-B markers</source>
         <translation>&amp;Καθαρισμός Α-Β σημαδιών</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1726"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;A-B section</source>
         <translation>&amp;Α-Β τμήμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1675"/>
         <source>Toggle deinterlacing</source>
         <translation>Εναλλαγή απόπλεξης</translation>
     </message>
@@ -1818,7 +1828,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">Δ&amp;ωρεά</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1839"/>
+        <location filename="../basegui.cpp" line="1843"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;Κλειστές λεζάντες</translation>
     </message>
@@ -1839,17 +1849,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">αυτή τη φόρμα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1709"/>
+        <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;Disc</source>
         <translation>&amp;Δίσκος</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>F&amp;avorites</source>
         <translation>Α&amp;γαπημένα</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1615"/>
+        <location filename="../basegui.cpp" line="1617"/>
         <source>Check for &amp;updates</source>
         <translation>Έλεγχος για &amp;ενημερώσεις</translation>
     </message>
@@ -1890,138 +1900,143 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2774"/>
+        <location filename="../core.cpp" line="2802"/>
         <source>Brightness: %1</source>
         <translation>Φωτεινότητα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2789"/>
+        <location filename="../core.cpp" line="2817"/>
         <source>Contrast: %1</source>
         <translation>Αντίθεση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2803"/>
+        <location filename="../core.cpp" line="2831"/>
         <source>Gamma: %1</source>
         <translation>Γάμμα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2817"/>
+        <location filename="../core.cpp" line="2845"/>
         <source>Hue: %1</source>
         <translation>Χρώμα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2859"/>
         <source>Saturation: %1</source>
         <translation>Κορεσμός: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2960"/>
+        <location filename="../core.cpp" line="2988"/>
         <source>Volume: %1</source>
         <translation>Ένταση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3745"/>
+        <location filename="../core.cpp" line="3775"/>
         <source>Zoom: %1</source>
         <translation>Εστίαση: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3076"/>
-        <location filename="../core.cpp" line="3088"/>
+        <location filename="../core.cpp" line="4022"/>
+        <source>Buffering...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="3104"/>
+        <location filename="../core.cpp" line="3116"/>
         <source>Font scale: %1</source>
         <translation>Κλίμακα Γραμ.: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3616"/>
+        <location filename="../core.cpp" line="3644"/>
         <source>Aspect ratio: %1</source>
         <translation>Αναλογίες εικόνας: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3988"/>
+        <location filename="../core.cpp" line="4018"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Ενημέρωση πρωσ.μνήμης γραμματοσειρών. Αυτό μπορεί να διαρκέσει μερικά δευτερόλεπτα...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3002"/>
+        <location filename="../core.cpp" line="3030"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Υπότιτλων καθυστέρηση: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3019"/>
+        <location filename="../core.cpp" line="3047"/>
         <source>Audio delay: %1 ms</source>
         <translation>Ήχου καθυστέρηση: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2885"/>
+        <location filename="../core.cpp" line="2913"/>
         <source>Speed: %1</source>
         <translation>Ταχύτητα: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3131"/>
+        <location filename="../core.cpp" line="3159"/>
         <source>Subtitles on</source>
         <translation>Εμφάνιση υπότιτλων</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3133"/>
+        <location filename="../core.cpp" line="3161"/>
         <source>Subtitles off</source>
         <translation>Απόκρυψη υπότιτλων</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3663"/>
+        <location filename="../core.cpp" line="3691"/>
         <source>Mouse wheel seeks now</source>
         <translation>Ο τροχός του ποντικιού αναζητά τώρα</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3666"/>
+        <location filename="../core.cpp" line="3694"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Ο τροχός του ποντικιού αλλάζει την ένταση τώρα</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3669"/>
+        <location filename="../core.cpp" line="3697"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Ο τροχός του ποντικιού αλλάζει εστίαση τώρα</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3672"/>
+        <location filename="../core.cpp" line="3700"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Ο τροχός του ποντικιού αλλάζει ταχύτητα τώρα</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1251"/>
+        <location filename="../core.cpp" line="1268"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Στιμιότυπο ΔΕΝ πάρθηκε, δεν έχει ορισθεί φάκελος</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1264"/>
+        <location filename="../core.cpp" line="1281"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Στιγμιότυπο ΔΕΝ πάρθηκε, δεν έχει ορισθεί φάκελος</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2509"/>
+        <location filename="../core.cpp" line="2537"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;Α&quot; σημάδι στο %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2526"/>
+        <location filename="../core.cpp" line="2554"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;Β&quot; σημάδι στο %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2541"/>
+        <location filename="../core.cpp" line="2569"/>
         <source>A-B markers cleared</source>
         <translation>A-B σημάδια καθαρίστηκαν</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="504"/>
+        <location filename="../core.cpp" line="521"/>
         <source>Connecting to %1</source>
         <translation>Σύνδεση στο %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="508"/>
+        <location filename="../core.cpp" line="525"/>
         <source>Unable to retrieve youtube page</source>
         <translation>Αδυναμία ανάκτησης σελίδας youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="512"/>
+        <location filename="../core.cpp" line="529"/>
         <source>Unable to locate the url of the video</source>
         <translation>Αδυναμία εντοπισμού διεύθυνσης url του βίντεο</translation>
     </message>
