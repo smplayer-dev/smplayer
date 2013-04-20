@@ -174,8 +174,8 @@ channels_ful71
 stereo	
 left_channel	
 right_channel	
-mono_channel	
-reverse_channel	
+mono	
+reverse_channels	
 aspect_detect	
 aspect_1:1	
 aspect_3:2	

@@ -1000,6 +1000,8 @@ void BaseGui::createActions() {
 	stereoAct = new MyActionGroupItem(this, stereoGroup, "stereo", MediaSettings::Stereo);
 	leftChannelAct = new MyActionGroupItem(this, stereoGroup, "left_channel", MediaSettings::Left);
 	rightChannelAct = new MyActionGroupItem(this, stereoGroup, "right_channel", MediaSettings::Right);
+	monoAct = new MyActionGroupItem(this, stereoGroup, "mono", MediaSettings::Mono);
+	reverseAct = new MyActionGroupItem(this, stereoGroup, "reverse_channels", MediaSettings::Reverse);
 	connect( stereoGroup, SIGNAL(activated(int)),
              core, SLOT(setStereoMode(int)) );
 
@@ -1831,6 +1833,8 @@ void BaseGui::retranslateStrings() {
 	stereoAct->change( tr("&Stereo") );
 	leftChannelAct->change( tr("&Left channel") );
 	rightChannelAct->change( tr("&Right channel") );
+	monoAct->change( tr("&Mono") );
+	reverseAct->change( tr("Re&verse") );
 
 	// Menu Subtitle
 	subtitlestrack_menu->menuAction()->setText( tr("&Select") );
