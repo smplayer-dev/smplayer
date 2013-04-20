@@ -92,11 +92,18 @@ show_preferences	Ctrl+P
 show_tube_browser	F11
 show_mplayer_log	Ctrl+M
 show_smplayer_log	Ctrl+S
+first_steps	
 faq	
 cl_options	
 check_updates	
+show_config	
 about_qt	
 about_smplayer	
+facebook	
+twitter	
+gmail	
+hotmail	
+yahoo	
 play_next	>
 play_prev	<
 move_up	Alt+Up
@@ -167,6 +174,8 @@ channels_ful71
 stereo	
 left_channel	
 right_channel	
+mono_channel	
+reverse_channel	
 aspect_detect	
 aspect_1:1	
 aspect_3:2	
@@ -192,6 +201,12 @@ cc_ch_1
 cc_ch_2	
 cc_ch_3	
 cc_ch_4	
+sub_fps_none	
+sub_fps_23976	
+sub_fps_24	
+sub_fps_25	
+sub_fps_29970	
+sub_fps_30	
 dvdnav_up	Shift+Up
 dvdnav_down	Shift+Down
 dvdnav_left	Shift+Left
