@@ -4239,7 +4239,7 @@ void BaseGui::testUpdate() {
 	if ( (check_for_new_version) && (version != stableVersion()) ) {
 		// Running a new version
 		qDebug("BaseGui::testUpdate: running a new version: %s", stableVersion().toUtf8().constData());
-		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/guide.php?version=%1&so=linux").arg(smplayerVersion()));
+		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=linux").arg(smplayerVersion()));
 	}
 }
 #endif
