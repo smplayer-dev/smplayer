@@ -718,7 +718,7 @@ Function .onInstSuccess
 
   ${MementoSectionSave}
 
-  ExecShell "open" "http://smplayer.sourceforge.net/guide.php?version=${SMPLAYER_VERSION}"
+  ExecShell "open" "http://smplayer.sourceforge.net/thank-you.php?version=${SMPLAYER_VERSION}"
 FunctionEnd
 
 Function .onInstFailed
