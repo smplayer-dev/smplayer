@@ -1,7 +1,9 @@
 TEMPLATE = app
 LANGUAGE = C++
 
-CONFIG += qt warn_on release
+CONFIG += qt warn_on 
+#CONFIG += release
+CONFIG += debug
 
 QT += network xml
 

@@ -110,6 +110,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect(view, SIGNAL(customContextMenuRequested(const QPoint &)),
             this, SLOT(showContextMenu(const QPoint &)) );
 
+	/*
 	downloader = new SimpleHttp(this);
 
 	connect( downloader, SIGNAL(downloadFailed(QString)),
@@ -125,6 +126,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
              this, SLOT(connecting(QString)) );
 	connect( downloader, SIGNAL(dataReadProgress(int, int)),
              this, SLOT(updateDataReadProgress(int, int)) );
+	*/
 
 #ifdef DOWNLOAD_SUBS
 	include_lang_on_filename = true;
@@ -181,8 +183,10 @@ void FindSubtitlesWindow::setSettings(QSettings * settings) {
 }
 
 void FindSubtitlesWindow::setProxy(QNetworkProxy proxy) {
+	/*
 	downloader->abort();
 	downloader->setProxy(proxy);
+	*/
 
 #ifdef DOWNLOAD_SUBS
 	file_downloader->setProxy(proxy);
@@ -268,9 +272,11 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 	if (hash.isEmpty()) {
 		qWarning("FindSubtitlesWindow::setMovie: hash invalid. Doing nothing.");
 	} else {
+		/*
 		QString link = os_server + "/search/sublanguageid-all/moviehash-" + hash + "/simplexml";
 		qDebug("FindSubtitlesWindow::setMovie: link: '%s'", link.toLatin1().constData());
 		downloader->download(link);
+		*/
 		last_file = filename;
 	}
 }
@@ -281,7 +287,8 @@ void FindSubtitlesWindow::refresh() {
 }
 
 void FindSubtitlesWindow::updateRefreshButton() {
-	qDebug("FindSubtitlesWindow::updateRefreshButton: state: %d", downloader->state());
+	qDebug("FindSubtitlesWindow::updateRefreshButton:");
+	/* qDebug("FindSubtitlesWindow::updateRefreshButton: state: %d", downloader->state()); */
 /*
 	QString file = file_chooser->lineEdit()->text();
 	bool enabled = ( (!file.isEmpty()) && (QFile::exists(file)) && 
