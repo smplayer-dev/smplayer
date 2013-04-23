@@ -109,7 +109,7 @@ protected slots:
 #endif
 
 protected:
-	SimpleHttp * downloader;
+	/* SimpleHttp * downloader; */
 	QStandardItemModel * table;
 	QSortFilterProxyModel * proxy_model;
 	QString last_file;
