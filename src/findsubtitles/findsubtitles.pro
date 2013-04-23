@@ -10,6 +10,9 @@ QT += network xml
 INCLUDEPATH += ..
 DEPENDPATH += ..
 
+INCLUDEPATH += maia
+DEPENDPATH += maia
+
 HEADERS += simplehttp.h \
            osparser.h \
            ../filehash.h \
@@ -30,6 +33,9 @@ SOURCES += simplehttp.cpp \
            findsubtitlesconfigdialog.cpp \
            findsubtitleswindow.cpp \
            main.cpp
+
+HEADERS += maiaObject.h maiaFault.h maiaXmlRpcClient.h
+SOURCES += maiaObject.cpp maiaFault.cpp maiaXmlRpcClient.cpp
 
 FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 
