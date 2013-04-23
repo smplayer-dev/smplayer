@@ -34,8 +34,8 @@ SOURCES += simplehttp.cpp \
            findsubtitleswindow.cpp \
            main.cpp
 
-HEADERS += maiaObject.h maiaFault.h maiaXmlRpcClient.h
-SOURCES += maiaObject.cpp maiaFault.cpp maiaXmlRpcClient.cpp
+HEADERS += maiaObject.h maiaFault.h maiaXmlRpcClient.h osclient.h
+SOURCES += maiaObject.cpp maiaFault.cpp maiaXmlRpcClient.cpp osclient.cpp
 
 FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 
