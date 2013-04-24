@@ -138,6 +138,7 @@ void OSClient::responseSearch(QVariant &arg) {
 		sub.format = m["SubFormat"].toString();
 		sub.language = m["LanguageName"].toString();
 		sub.user = m["UserNickName"].toString();
+		sub.files = "1";
 
 		s_list.append(sub);
 
