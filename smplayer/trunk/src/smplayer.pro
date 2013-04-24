@@ -272,14 +272,13 @@ contains( DEFINES, FIND_SUBTITLES ) {
 	INCLUDEPATH += findsubtitles/maia
 	DEPENDPATH += findsubtitles/maia
 
-	HEADERS += osparser.h findsubtitlesconfigdialog.h findsubtitleswindow.h
-	SOURCES += osparser.cpp findsubtitlesconfigdialog.cpp findsubtitleswindow.cpp
+	HEADERS += findsubtitlesconfigdialog.h findsubtitleswindow.h
+	SOURCES += findsubtitlesconfigdialog.cpp findsubtitleswindow.cpp
 	FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 
 	# xmlrpc client code to connect to opensubtitles.org
 	HEADERS += maiaObject.h maiaFault.h maiaXmlRpcClient.h osclient.h
 	SOURCES += maiaObject.cpp maiaFault.cpp maiaXmlRpcClient.cpp osclient.cpp
-
 }
 
 # Download subtitles
