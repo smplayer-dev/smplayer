@@ -18,8 +18,12 @@
 
 #include "findsubtitleswindow.h"
 #include "findsubtitlesconfigdialog.h"
+/*
 #include "simplehttp.h"
 #include "osparser.h"
+*/
+
+#include "osclient.h"
 #include "filehash.h"
 #include "languages.h"
 #include <QStandardItemModel>
@@ -127,6 +131,10 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect( downloader, SIGNAL(dataReadProgress(int, int)),
              this, SLOT(updateDataReadProgress(int, int)) );
 	*/
+
+	osclient = new OSClient();
+	connect( osclient, SIGNAL(searchFinished()), this, SLOT(downloadFinished()) );
+	connect( osclient, SIGNAL(searchFinished()), this, SLOT(parseInfo()) );
 
 #ifdef DOWNLOAD_SUBS
 	include_lang_on_filename = true;
@@ -277,6 +285,9 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 		qDebug("FindSubtitlesWindow::setMovie: link: '%s'", link.toLatin1().constData());
 		downloader->download(link);
 		*/
+		qint64 file_size = QFileInfo(filename).size();
+		osclient->search(hash, file_size);
+
 		last_file = filename;
 	}
 }
@@ -355,16 +366,23 @@ void FindSubtitlesWindow::downloadFinished() {
 	progress->hide();
 }
 
+/*
 void FindSubtitlesWindow::parseInfo(QByteArray xml_text) {
+*/
+void FindSubtitlesWindow::parseInfo() {
+	/*
 	OSParser osparser;
 	bool ok = osparser.parseXml(xml_text);
+	*/
+	bool ok = true;
 
 	table->setRowCount(0);
 
 	QMap <QString,QString> language_list = Languages::list();
 
 	if (ok) {
-		QList<OSSubtitle> l = osparser.subtitleList();
+		/* QList<OSSubtitle> l = osparser.subtitleList(); */
+		QList<OSSubtitle> l = osclient->subtitleList();
 		for (int n=0; n < l.count(); n++) {
 
 			QString title_name = l[n].movie;

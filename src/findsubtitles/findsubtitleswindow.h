@@ -22,6 +22,7 @@
 #include "ui_findsubtitleswindow.h"
 #include <QNetworkProxy>
 
+class OSClient;
 class SimpleHttp;
 class QStandardItemModel;
 class QSortFilterProxyModel;
@@ -73,7 +74,8 @@ protected slots:
 
 	void updateRefreshButton();
 
-	void parseInfo(QByteArray xml_text);
+	/* void parseInfo(QByteArray xml_text); */
+	void parseInfo();
 
 	void itemActivated(const QModelIndex & index );
 	void currentItemChanged(const QModelIndex & current, const QModelIndex & previous);
@@ -110,6 +112,7 @@ protected slots:
 
 protected:
 	/* SimpleHttp * downloader; */
+	OSClient * osclient;
 	QStandardItemModel * table;
 	QSortFilterProxyModel * proxy_model;
 	QString last_file;
