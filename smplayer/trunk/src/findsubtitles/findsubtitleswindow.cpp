@@ -163,7 +163,9 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	language_filter->setCurrentIndex(0);
 
 	// Opensubtitles server
-	os_server = "http://www.opensubtitles.org";
+	/* os_server = "http://www.opensubtitles.org"; */
+	os_server = "http://api.opensubtitles.org/xml-rpc";
+	osclient->setServer(os_server);
 
 	// Proxy
 	use_proxy = false;
@@ -654,6 +656,7 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 		proxy_password = d.proxyPassword();
 		proxy_type = d.proxyType();
 
+		osclient->setServer(os_server);
 		setupProxy();
 	}
 }
@@ -685,7 +688,7 @@ void FindSubtitlesWindow::saveSettings() {
 
 	set->beginGroup("findsubtitles");
 
-	set->setValue("server", os_server);
+	set->setValue("xmlrpc_server", os_server);
 	set->setValue("language", language());
 #ifdef DOWNLOAD_SUBS
 	set->setValue("include_lang_on_filename", includeLangOnFilename());
@@ -705,7 +708,7 @@ void FindSubtitlesWindow::loadSettings() {
 
 	set->beginGroup("findsubtitles");
 
-	os_server = set->value("server", os_server).toString();
+	os_server = set->value("xmlrpc_server", os_server).toString();
 	setLanguage( set->value("language", language()).toString() );
 #ifdef DOWNLOAD_SUBS
 	setIncludeLangOnFilename( set->value("include_lang_on_filename", includeLangOnFilename()).toBool() );
