@@ -50,6 +50,10 @@
        url: http://qt.gitorious.org/qt-solutions
        license: BSD (see src/qtsingleapplication/qtsingleapplication.h)
 
+     * libmaia by Sebastian Wiedenroth
+       url: https://github.com/wiedi/libmaia
+       license: Simplified BSD License (see src/findsubtitles/maia/LICENSE)
+
     I took some icons from:
 
      * nuvoX
