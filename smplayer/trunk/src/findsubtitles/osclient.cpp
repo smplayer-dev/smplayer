@@ -39,7 +39,11 @@ void OSClient::login() {
 }
 
 void OSClient::search(const QString & hash, qint64 file_size) {
+#ifdef Q_OS_WIN
+	qDebug("OSClient::search: hash: %s, file_size: %I64d", hash.toUtf8().constData(), file_size);
+#else
 	qDebug("OSClient::search: hash: %s, file_size: %lld", hash.toUtf8().constData(), file_size);
+#endif
 
 	search_hash = hash;
 	search_size = file_size;
