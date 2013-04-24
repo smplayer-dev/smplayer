@@ -23,7 +23,6 @@
 #include <QNetworkProxy>
 
 class OSClient;
-class SimpleHttp;
 class QStandardItemModel;
 class QSortFilterProxyModel;
 class QModelIndex;
@@ -74,7 +73,6 @@ protected slots:
 
 	void updateRefreshButton();
 
-	/* void parseInfo(QByteArray xml_text); */
 	void parseInfo();
 
 	void itemActivated(const QModelIndex & index );
@@ -111,7 +109,6 @@ protected slots:
 #endif
 
 protected:
-	/* SimpleHttp * downloader; */
 	OSClient * osclient;
 	QStandardItemModel * table;
 	QSortFilterProxyModel * proxy_model;

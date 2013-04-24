@@ -13,9 +13,7 @@ DEPENDPATH += ..
 INCLUDEPATH += maia
 DEPENDPATH += maia
 
-HEADERS += simplehttp.h \
-           osparser.h \
-           ../filehash.h \
+HEADERS += ../filehash.h \
            ../lineedit_with_icon.h \
            ../filechooser.h \
            ../languages.h \
@@ -23,9 +21,7 @@ HEADERS += simplehttp.h \
            findsubtitlesconfigdialog.h \
            findsubtitleswindow.h
 
-SOURCES += simplehttp.cpp \
-           osparser.cpp \
-           ../filehash.cpp \
+SOURCES += ../filehash.cpp \
            ../lineedit_with_icon.cpp \
            ../filechooser.cpp \
            ../languages.cpp \

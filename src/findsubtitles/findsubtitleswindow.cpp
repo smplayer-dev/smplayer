@@ -18,10 +18,6 @@
 
 #include "findsubtitleswindow.h"
 #include "findsubtitlesconfigdialog.h"
-/*
-#include "simplehttp.h"
-#include "osparser.h"
-*/
 
 #include "osclient.h"
 #include "filehash.h"
@@ -280,14 +276,8 @@ void FindSubtitlesWindow::setMovie(QString filename) {
 	if (hash.isEmpty()) {
 		qWarning("FindSubtitlesWindow::setMovie: hash invalid. Doing nothing.");
 	} else {
-		/*
-		QString link = os_server + "/search/sublanguageid-all/moviehash-" + hash + "/simplexml";
-		qDebug("FindSubtitlesWindow::setMovie: link: '%s'", link.toLatin1().constData());
-		downloader->download(link);
-		*/
 		qint64 file_size = QFileInfo(filename).size();
 		osclient->search(hash, file_size);
-
 		last_file = filename;
 	}
 }
@@ -299,13 +289,6 @@ void FindSubtitlesWindow::refresh() {
 
 void FindSubtitlesWindow::updateRefreshButton() {
 	qDebug("FindSubtitlesWindow::updateRefreshButton:");
-	/* qDebug("FindSubtitlesWindow::updateRefreshButton: state: %d", downloader->state()); */
-/*
-	QString file = file_chooser->lineEdit()->text();
-	bool enabled = ( (!file.isEmpty()) && (QFile::exists(file)) && 
-                     (downloader->state()==QHttp::Unconnected) );
-	refresh_button->setEnabled(enabled);
-*/
 	refresh_button->setEnabled(true);
 }
 
@@ -366,14 +349,7 @@ void FindSubtitlesWindow::downloadFinished() {
 	progress->hide();
 }
 
-/*
-void FindSubtitlesWindow::parseInfo(QByteArray xml_text) {
-*/
 void FindSubtitlesWindow::parseInfo() {
-	/*
-	OSParser osparser;
-	bool ok = osparser.parseXml(xml_text);
-	*/
 	bool ok = true;
 
 	table->setRowCount(0);
@@ -381,7 +357,6 @@ void FindSubtitlesWindow::parseInfo() {
 	QMap <QString,QString> language_list = Languages::list();
 
 	if (ok) {
-		/* QList<OSSubtitle> l = osparser.subtitleList(); */
 		QList<OSSubtitle> l = osclient->subtitleList();
 		for (int n=0; n < l.count(); n++) {
 
