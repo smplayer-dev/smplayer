@@ -54,8 +54,10 @@ void MaiaXmlRpcClient::init() {
 	
 	connect(&manager, SIGNAL(finished(QNetworkReply*)),
 			this, SLOT(replyFinished(QNetworkReply*)));
+	/*
 	connect(&manager, SIGNAL(sslErrors(QNetworkReply *, const QList<QSslError> &)),
 			this, SIGNAL(sslErrors(QNetworkReply *, const QList<QSslError> &)));
+	*/
 }
 
 void MaiaXmlRpcClient::setUrl(QUrl url) {
@@ -87,6 +89,7 @@ QNetworkReply* MaiaXmlRpcClient::call(QString method, QList<QVariant> args,
 	return reply;
 }
 
+/*
 void MaiaXmlRpcClient::setSslConfiguration(const QSslConfiguration &config) {
 	request.setSslConfiguration(config);
 }
@@ -94,6 +97,7 @@ void MaiaXmlRpcClient::setSslConfiguration(const QSslConfiguration &config) {
 QSslConfiguration MaiaXmlRpcClient::sslConfiguration () const {
 	return request.sslConfiguration();
 }
+*/
 
 void MaiaXmlRpcClient::replyFinished(QNetworkReply* reply) {
 	QString response;
