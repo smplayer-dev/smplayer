@@ -62,8 +62,7 @@ void OSClient::doSearch() {
 	QVariantMap m;
 	m["sublanguageid"] = "all";
 	m["moviehash"] = search_hash;
-	m["moviebytesize"] = (int) search_size;
-	//m["query"] = "Star wars";
+	m["moviebytesize"] = QString::number(search_size);
 
 	QVariantList list;
 	list.append(m);
