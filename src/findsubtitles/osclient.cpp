@@ -52,12 +52,17 @@ void OSClient::search(const QString & hash, qint64 file_size) {
 	search_hash = hash;
 	search_size = file_size;
 
+	#if 0
 	if (logged_in) {
 		doSearch();
 	} else {
 		connect(this, SIGNAL(loggedIn()), this, SLOT(doSearch()));
 		login();
 	}
+	#else
+	connect(this, SIGNAL(loggedIn()), this, SLOT(doSearch()));
+	login();
+	#endif
 }
 
 void OSClient::doSearch() {
