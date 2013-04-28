@@ -193,6 +193,7 @@ void FindSubtitlesWindow::setProxy(QNetworkProxy proxy) {
 	downloader->abort();
 	downloader->setProxy(proxy);
 	*/
+	osclient->setProxy(proxy);
 
 #ifdef DOWNLOAD_SUBS
 	file_downloader->setProxy(proxy);
