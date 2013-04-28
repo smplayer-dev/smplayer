@@ -734,6 +734,10 @@ Function .onInstFailed
 
 FunctionEnd
 
+Function un.onUninstSuccess
+  ExecShell "open" "http://smplayer.sourceforge.net/uninstall.php?version=${SMPLAYER_VERSION}"
+FunctionEnd
+
 Function CheckPreviousVersion
 
   ClearErrors
