@@ -2481,105 +2481,115 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="199"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
         <source>Language</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="199"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
         <source>Name</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="199"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
         <source>Format</source>
         <translation>格式</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="200"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
         <source>Files</source>
         <translation>文件</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="200"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="200"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
         <source>Uploaded by</source>
         <translation>上传者</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="215"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
         <source>Portuguese - Brasil</source>
         <translation>葡萄牙语-巴西</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="230"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="239"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
+        <source>Login to opensubtitles.org has failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <source>Search has failed</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="568"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="581"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>已提取%n个字幕</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="640"/>
         <source>Error fixing the subtitle lines</source>
         <translation>修复字幕行时出错</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
         <source>&amp;Download</source>
         <translation>下载(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="244"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>复制链接到剪贴板(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="325"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="331"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="326"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="332"/>
         <source>Download failed: %1.</source>
         <translation>下载失败: %1。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="331"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="337"/>
         <source>Connecting to %1...</source>
         <translation>正在连接到 %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="337"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="351"/>
         <source>Downloading...</source>
         <translation>正在下载...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="359"/>
         <source>Done.</source>
         <translation>完成。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="391"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
         <source>%1 files available</source>
         <translation>%1个文件可用</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="400"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="413"/>
         <source>Failed to parse the received data.</source>
         <translation>无法分析接收到的数据。</translation>
     </message>
@@ -2604,7 +2614,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>刷新(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="545"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="558"/>
         <source>Subtitle saved as %1</source>
         <translation>字幕已保存为 %1</translation>
     </message>
@@ -2615,22 +2625,22 @@ Example: resample=44100:0:0,volnorm</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="582"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
         <source>Overwrite?</source>
         <translation>是否覆盖?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="583"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="596"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>文件 %1 已存在，是否覆盖?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="500"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="513"/>
         <source>Error saving file</source>
         <translation>保存文件时出错</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="501"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2639,13 +2649,13 @@ Please check the permissions of that folder.</source>
 请检查该文件夹的权限。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="323"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="494"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="329"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="507"/>
         <source>Download failed</source>
         <translation>下载失败</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="478"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="491"/>
         <source>Temporary file %1</source>
         <translation>临时文件 %1</translation>
     </message>
@@ -4128,6 +4138,14 @@ Do you want to overwrite?</source>
         <location filename="../logwindowbase.ui" line="77"/>
         <source>Close</source>
         <translation>关闭</translation>
+    </message>
+</context>
+<context>
+    <name>MaiaObject</name>
+    <message>
+        <location filename="../findsubtitles/maia/maiaObject.cpp" line="289"/>
+        <source>parse error: invalid xml-rpc. not conforming to spec.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

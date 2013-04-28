@@ -2223,6 +2223,14 @@ Molim provjerite dozvole za taj folder.</translation>
         </numerusform>
         </translation>
     </message>
+    <message>
+        <source>Login to opensubtitles.org has failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search has failed</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FontCacheDialog</name>
@@ -3354,6 +3362,13 @@ Do you want to overwrite?</source>
     <message>
         <source>Close</source>
         <translation>Zatvori</translation>
+    </message>
+</context>
+<context>
+    <name>MaiaObject</name>
+    <message>
+        <source>parse error: invalid xml-rpc. not conforming to spec.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
