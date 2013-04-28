@@ -131,6 +131,8 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	osclient = new OSClient();
 	connect( osclient, SIGNAL(searchFinished()), this, SLOT(downloadFinished()) );
 	connect( osclient, SIGNAL(searchFinished()), this, SLOT(parseInfo()) );
+	connect( osclient, SIGNAL(loginFailed()), this, SLOT(showLoginFailed()) );
+	connect( osclient, SIGNAL(searchFailed()), this, SLOT(searchFailed()) );
 
 #ifdef DOWNLOAD_SUBS
 	include_lang_on_filename = true;
@@ -333,6 +335,14 @@ void FindSubtitlesWindow::showError(QString error) {
 
 void FindSubtitlesWindow::connecting(QString host) {
 	status->setText( tr("Connecting to %1...").arg(host) );
+}
+
+void FindSubtitlesWindow::showLoginFailed() {
+	status->setText( tr("Login to opensubtitles.org has failed") );
+}
+
+void FindSubtitlesWindow::showSearchFailed() {
+	status->setText( tr("Search has failed") );
 }
 
 void FindSubtitlesWindow::updateDataReadProgress(int done, int total) {
