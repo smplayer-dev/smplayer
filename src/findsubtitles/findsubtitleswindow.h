@@ -68,6 +68,8 @@ protected slots:
 
 	void showError(QString error);
 	void connecting(QString host);
+	void showLoginFailed();
+	void showSearchFailed();
 	void updateDataReadProgress(int done, int total);
 	void downloadFinished();
 
