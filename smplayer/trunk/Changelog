@@ -1,5 +1,10 @@
 [b]Version 0.8.5[/b]:
 
+(2013-04-28)
+ * The option Move the window when the video area is dragged" is
+   now disabled by default because it has some issues that need to
+   be fixed.
+
 (2013-04-24)
  * Connect to opensubtitles.org using xmlrpc instead of using the
    simplexml method, which it seems it's not working well and that causes
