@@ -71,6 +71,10 @@ void MaiaXmlRpcClient::setUserAgent(QString userAgent) {
 	request.setRawHeader("User-Agent", userAgent.toLatin1());
 }
 
+void MaiaXmlRpcClient::setProxy(const QNetworkProxy & proxy) {
+	manager.setProxy(proxy);
+}
+
 QNetworkReply* MaiaXmlRpcClient::call(QString method, QList<QVariant> args,
 							QObject* responseObject, const char* responseSlot,
 							QObject* faultObject, const char* faultSlot) {

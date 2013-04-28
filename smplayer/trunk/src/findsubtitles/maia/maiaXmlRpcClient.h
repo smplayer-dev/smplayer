@@ -43,6 +43,7 @@ class MaiaXmlRpcClient : public QObject {
 		MaiaXmlRpcClient(QUrl url, QString userAgent, QObject *parent = 0);
 		void setUrl(QUrl url);
 		void setUserAgent(QString userAgent);
+		void setProxy(const QNetworkProxy & proxy);
 		QNetworkReply* call(QString method, QList<QVariant> args,
 		QObject* responseObject, const char* responseSlot,
 		QObject* faultObject, const char* faultSlot);
