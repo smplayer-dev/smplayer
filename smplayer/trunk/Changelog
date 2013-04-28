@@ -1,5 +1,10 @@
 [b]Version 0.8.5[/b]:
 
+(2013-04-24)
+ * Connect to opensubtitles.org using xmlrpc instead of using the
+   simplexml method, which it seems it's not working well and that causes
+   that smplayer couldn't find subtitles. This fixes the problem.
+
 (2013-04-20)
  * Add two new options for Audio -> Stereo mode: Mono and Reverse.
 
