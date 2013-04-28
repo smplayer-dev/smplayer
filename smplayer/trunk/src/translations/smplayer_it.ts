@@ -2553,7 +2553,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+199"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+212"/>
         <source>Language</source>
         <translation>Lingua</translation>
     </message>
@@ -2597,8 +2597,18 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <source>Close</source>
         <translation>Chiudi</translation>
     </message>
+    <message>
+        <location line="+89"/>
+        <source>Login to opensubtitles.org has failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Search has failed</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+329"/>
+        <location line="+236"/>
         <source>%n subtitle(s) extracted</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -2621,7 +2631,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Copia link negli appunti</translation>
     </message>
     <message>
-        <location line="+81"/>
+        <location line="+74"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
@@ -2636,7 +2646,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Connessione a  %1...</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+14"/>
         <source>Downloading...</source>
         <translation>Scaricamento...</translation>
     </message>
@@ -2646,7 +2656,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Fatto.</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
         <source>%1 files available</source>
         <translation>%1 file disponibili</translation>
     </message>
@@ -2712,8 +2722,8 @@ nella directory %1
 Controllarne i relativi permessi.</translation>
     </message>
     <message>
-        <location line="-178"/>
-        <location line="+171"/>
+        <location line="-185"/>
+        <location line="+178"/>
         <source>Download failed</source>
         <translation>Download fallito</translation>
     </message>
@@ -4201,6 +4211,14 @@ Vuoi sovrascriverlo?</translation>
         <location line="+3"/>
         <source>&amp;Close</source>
         <translation>&amp;Chiudi</translation>
+    </message>
+</context>
+<context>
+    <name>MaiaObject</name>
+    <message>
+        <location filename="../findsubtitles/maia/maiaObject.cpp" line="+289"/>
+        <source>parse error: invalid xml-rpc. not conforming to spec.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
