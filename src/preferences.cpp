@@ -320,7 +320,7 @@ void Preferences::reset() {
 	style="";
 #endif
 
-	move_when_dragging = true;
+	move_when_dragging = false;
 
 
 #if DVDNAV_SUPPORT
@@ -1447,6 +1447,7 @@ void Preferences::load() {
 			time_to_kill_mplayer = 1000;
 
 			resize_method = Never;
+			move_when_dragging = false;
 		}
 		config_version = CURRENT_CONFIG_VERSION;
 	}
