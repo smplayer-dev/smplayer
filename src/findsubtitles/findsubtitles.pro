@@ -17,6 +17,7 @@ HEADERS += ../filehash.h \
            ../lineedit_with_icon.h \
            ../filechooser.h \
            ../languages.h \
+           ../version.h \
            fixsubs.h \
            findsubtitlesconfigdialog.h \
            findsubtitleswindow.h
@@ -25,6 +26,7 @@ SOURCES += ../filehash.cpp \
            ../lineedit_with_icon.cpp \
            ../filechooser.cpp \
            ../languages.cpp \
+           ../version.cpp \
            fixsubs.cpp \
            findsubtitlesconfigdialog.cpp \
            findsubtitleswindow.cpp \
