@@ -132,7 +132,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect( osclient, SIGNAL(searchFinished()), this, SLOT(downloadFinished()) );
 	connect( osclient, SIGNAL(searchFinished()), this, SLOT(parseInfo()) );
 	connect( osclient, SIGNAL(loginFailed()), this, SLOT(showLoginFailed()) );
-	connect( osclient, SIGNAL(searchFailed()), this, SLOT(searchFailed()) );
+	connect( osclient, SIGNAL(searchFailed()), this, SLOT(showSearchFailed()) );
 
 #ifdef DOWNLOAD_SUBS
 	include_lang_on_filename = true;
