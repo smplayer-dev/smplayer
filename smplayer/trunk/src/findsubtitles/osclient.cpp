@@ -17,6 +17,7 @@
 */
 
 #include "osclient.h"
+#include "version.h"
 
 OSClient::OSClient(QObject* parent) : QObject(parent), logged_in(false), search_size(0) {
 	rpc = new MaiaXmlRpcClient(QUrl("http://api.opensubtitles.org/xml-rpc"), this);
@@ -33,9 +34,12 @@ void OSClient::setProxy(const QNetworkProxy & proxy) {
 void OSClient::login() {
 	qDebug("OSClient::login");
 
+	QString user_agent = "SMPlayer v" + stableVersion();
+	qDebug("OSClient::login: user agent: %s", user_agent.toUtf8().constData());
+
 	QVariantList args;
 
-	args << "" << "" << "" << "OS Test User Agent";
+	args << "" << "" << "" << user_agent;
 
 	rpc->call("LogIn", args,
 			  this, SLOT(responseLogin(QVariant &)),
