@@ -1600,7 +1600,7 @@ void BaseGui::retranslateStrings() {
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
 	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
 	showPreferencesAct->change( Images::icon("prefs"), tr("P&references") );
-	showTubeBrowserAct->change( Images::icon("tubebrowser"), tr("&YouTube browser") );
+	showTubeBrowserAct->change( Images::icon("tubebrowser"), tr("&YouTube%1 browser").arg(QChar(0x2122)) );
 
 	// Submenu Logs
 #ifdef LOG_MPLAYER
@@ -2536,6 +2536,7 @@ void BaseGui::createMenus() {
 	// OPTIONS MENU
 	optionsMenu->addAction(showPropertiesAct);
 	optionsMenu->addAction(showPlaylistAct);
+	#if 0
 	// Check if the smplayer youtube browser is installed
 	{
 		QString tube_exec = Paths::appPath() + "/smtube";
@@ -2549,6 +2550,9 @@ void BaseGui::createMenus() {
 			qDebug("BaseGui::createMenus: %s does not exist", tube_exec.toUtf8().constData());
 		}
 	}
+	#else
+	optionsMenu->addAction(showTubeBrowserAct);
+	#endif
 
 	// OSD submenu
 	osd_menu = new QMenu(this);
@@ -4924,7 +4928,9 @@ void BaseGui::showTubeBrowser() {
 	QString exec = Paths::appPath() + "/smtube";
 	qDebug("BaseGui::showTubeBrowser: '%s'", exec.toUtf8().constData());
 	if (!QProcess::startDetached(exec, QStringList())) {
-		QMessageBox::warning(this, tr("An error happened - SMPlayer"), tr("The YouTube Browser couldn't be launched"));
+		QMessageBox::warning(this, tr("SMPlayer"), 
+			tr("The YouTube Browser couldn't be launched.") +"<br>"+ 
+			tr("Be sure smtube is installed."));
 	}
 }
 
