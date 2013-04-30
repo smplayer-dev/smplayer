@@ -120,6 +120,11 @@ QString CLHelp::help(bool html) {
 	s += formatHelp( "-defaultgui", QObject::tr(
 		"opens the default gui."), html );
 
+#ifdef SKINS
+	s += formatHelp( "-skingui", QObject::tr(
+		"opens the gui with support for skins."), html );
+#endif
+
 	s += formatHelp( "-config-path", QObject::tr(
 		"specifies the directory where smplayer will store its configuration "
         "files (smplayer.ini, smplayer_files.ini...)"), html );
