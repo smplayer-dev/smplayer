@@ -286,7 +286,7 @@ void MaiaObject::parseResponse(QString response, QNetworkReply* reply) {
 		           reply);
 	} else {
 		emit fault(-32600,
-		           tr("parse error: invalid xml-rpc. not conforming to spec."),
+		           "parse error: invalid xml-rpc. not conforming to spec.",
 		           reply);
 	}
 	delete this;
