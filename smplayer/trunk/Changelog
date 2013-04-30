@@ -1,5 +1,10 @@
 [b]Version 0.8.5[/b]:
 
+(2013-04-30)
+ * The SkinGUI is now the default gui.
+ * If the SkinGUI is selected, a check is done on startup to see if the
+   skin theme is installed. If not found, the default gui will be used.
+
 (2013-04-28)
  * The option Move the window when the video area is dragged" is
    now disabled by default because it has some issues that need to
