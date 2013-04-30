@@ -1418,15 +1418,15 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>&amp;YouTube browser</source>
-        <translation>&amp;YouTube preglednik</translation>
+        <translation type="obsolete">&amp;YouTube preglednik</translation>
     </message>
     <message>
         <source>An error happened - SMPlayer</source>
-        <translation>Došlo je do pogreške - SMPlayer</translation>
+        <translation type="obsolete">Došlo je do pogreške - SMPlayer</translation>
     </message>
     <message>
         <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation>Pokretanje YouTube preglednika nije uspjelo</translation>
+        <translation type="obsolete">Pokretanje YouTube preglednika nije uspjelo</translation>
     </message>
     <message>
         <source>Debanding (&amp;gradfun)</source>
@@ -1517,6 +1517,22 @@ Možete podesiti u dijalogu za podešavanje koji će biti sada prikazan.</transl
     </message>
     <message>
         <source>Re&amp;verse</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;YouTube%1 browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SMPlayer</source>
+        <translation type="obsolete">SMPlayer</translation>
+    </message>
+    <message>
+        <source>The YouTube Browser couldn&apos;t be launched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3362,13 +3378,6 @@ Do you want to overwrite?</source>
     <message>
         <source>Close</source>
         <translation>Zatvori</translation>
-    </message>
-</context>
-<context>
-    <name>MaiaObject</name>
-    <message>
-        <source>parse error: invalid xml-rpc. not conforming to spec.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
