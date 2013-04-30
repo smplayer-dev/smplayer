@@ -321,6 +321,12 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		if (argument == "-defaultgui") {
 			gui_to_use = "DefaultGUI";
 		}
+#ifdef SKINS
+		else
+		if (argument == "-skingui") {
+			gui_to_use = "SkinGUI";
+		}
+#endif
 		else {
 			// File
 			#if QT_VERSION >= 0x040600
