@@ -614,7 +614,12 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished">&amp;Inattivo</translation>
     </message>
     <message>
-        <location line="+140"/>
+        <location line="+18"/>
+        <source>&amp;YouTube%1 browser</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+122"/>
         <source>Sp&amp;eed</source>
         <translation>V&amp;elocità</translation>
     </message>
@@ -770,12 +775,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished">&amp;Predefinito</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>&amp;YouTube browser</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+11"/>
+        <location line="+23"/>
         <source>First Steps &amp;Guide</source>
         <translation type="unfinished"></translation>
     </message>
@@ -866,12 +866,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+15"/>
-        <location line="+1288"/>
+        <location line="+1292"/>
         <source>&amp;None</source>
         <translation>&amp;Nessuno</translation>
     </message>
     <message>
-        <location line="-1287"/>
+        <location line="-1291"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
@@ -1013,12 +1013,22 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="+3036"/>
+        <source>The YouTube Browser couldn&apos;t be launched.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Be sure %1 is installed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3053"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+954"/>
+        <location line="+958"/>
         <location line="+626"/>
         <source>Information</source>
         <translation type="unfinished">Informazioni</translation>
@@ -1044,17 +1054,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished">I valori correnti sono stati salvati come predefiniti.</translation>
     </message>
     <message>
-        <location line="+1466"/>
-        <source>An error happened - SMPlayer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-3146"/>
+        <location line="-1684"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1067,7 +1067,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="obsolete">SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1312"/>
+        <location line="+1316"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -1176,7 +1176,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2936"/>
+        <location line="-2940"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1448,12 +1448,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2238"/>
+        <location line="+2242"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2278"/>
+        <location line="-2282"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
@@ -1463,7 +1463,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3158"/>
+        <location line="+3162"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1493,7 +1493,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-3096"/>
+        <location line="-3100"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1533,12 +1533,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1972"/>
+        <location line="+1976"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-2098"/>
+        <location line="-2102"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
@@ -1615,7 +1615,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2380"/>
+        <location line="+2384"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1635,7 +1635,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2531"/>
+        <location line="-2535"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
@@ -1725,7 +1725,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2339"/>
+        <location line="+2343"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1755,17 +1755,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2120"/>
+        <location line="-2124"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2743"/>
+        <location line="+2747"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-3040"/>
+        <location line="-3044"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -1917,7 +1917,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="+2802"/>
+        <location filename="../core.cpp" line="+2804"/>
         <source>Brightness: %1</source>
         <translation>Luminosità: %1</translation>
     </message>
@@ -2061,7 +2061,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="+489"/>
+        <location filename="../defaultgui.cpp" line="+491"/>
         <source>Welcome to SMPlayer</source>
         <translation>Benvenuto in  SMPlayer</translation>
     </message>
@@ -4211,14 +4211,6 @@ Vuoi sovrascriverlo?</translation>
         <location line="+3"/>
         <source>&amp;Close</source>
         <translation>&amp;Chiudi</translation>
-    </message>
-</context>
-<context>
-    <name>MaiaObject</name>
-    <message>
-        <location filename="../findsubtitles/maia/maiaObject.cpp" line="+289"/>
-        <source>parse error: invalid xml-rpc. not conforming to spec.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8191,7 +8183,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="+432"/>
+        <location filename="../smplayer.cpp" line="+447"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>
