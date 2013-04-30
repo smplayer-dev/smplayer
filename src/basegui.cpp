@@ -4930,7 +4930,7 @@ void BaseGui::showTubeBrowser() {
 	if (!QProcess::startDetached(exec, QStringList())) {
 		QMessageBox::warning(this, tr("SMPlayer"), 
 			tr("The YouTube Browser couldn't be launched.") +"<br>"+ 
-			tr("Be sure smtube is installed."));
+			tr("Be sure %1 is installed.").arg("SMTube"));
 	}
 }
 
