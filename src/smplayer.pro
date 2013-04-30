@@ -40,6 +40,14 @@ contains( DEFINES, SKINS ) {
 	}
 }
 
+# Disable FIND_SUBTITLES if Qt < 4.4
+contains( DEFINES, FIND_SUBTITLES ) {
+	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
+		message("FIND_SUBTITLES requires Qt > 4.3. Disabled.")
+		DEFINES -= FIND_SUBTITLES
+	}
+}
+
 # Disable UPDATE_CHECKER if Qt < 4.4
 contains( DEFINES, UPDATE_CHECKER ) {
 	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
