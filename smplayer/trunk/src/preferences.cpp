@@ -354,7 +354,6 @@ void Preferences::reset() {
 	reset_stop = false;
 
 	language = "";
-	iconset = "";
 
 	balloon_count = 5;
 
@@ -374,7 +373,11 @@ void Preferences::reset() {
 
 	allow_video_movement = false;
 
-	gui = "DefaultGUI";
+	//gui = "DefaultGUI";
+	gui = "SkinGUI";
+
+	iconset = "";
+	if (gui == "SkinGUI") iconset = "Gonzo";
 
 #if USE_MINIMUMSIZE
 	gui_minimum_width = 0; // 0 == disabled
