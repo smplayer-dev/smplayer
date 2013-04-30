@@ -110,6 +110,7 @@ BaseGui * SMPlayer::gui() {
 				qDebug("SMPlayer::gui: skin folder doesn't exist. Falling back to default gui.");
 				gui_to_use = "DefaultGUI";
 				pref->iconset = "";
+				pref->gui = gui_to_use;
 			}
 		}
 
