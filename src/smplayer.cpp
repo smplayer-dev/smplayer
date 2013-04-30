@@ -99,6 +99,7 @@ BaseGui * SMPlayer::gui() {
 		qDebug("SMPlayer::gui: changed working directory to app path");
 		qDebug("SMPlayer::gui: current directory: %s", QDir::currentPath().toUtf8().data());
 
+#ifdef SKINS
 		if (gui_to_use == "SkinGUI") {
 			QString theme = pref->iconset;
 			if (theme.isEmpty()) theme = "Gonzo";
@@ -113,6 +114,7 @@ BaseGui * SMPlayer::gui() {
 				pref->gui = gui_to_use;
 			}
 		}
+#endif
 
 		main_window = createGUI(gui_to_use);
 
