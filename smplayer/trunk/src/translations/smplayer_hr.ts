@@ -3440,6 +3440,17 @@ Do you want to overwrite?</source>
     </message>
 </context>
 <context>
+    <name>MultilineInputDialog</name>
+    <message>
+        <source>Enter URL(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter the URL(s) to be added to the playlist. One per line.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>PlayControl</name>
     <message>
         <source>Rewind</source>
@@ -3605,6 +3616,10 @@ Do you want to overwrite?</source>
     <message>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
+    </message>
+    <message>
+        <source>Add &amp;URL(s)</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6678,6 +6693,10 @@ Ali, ako je ova opcija odabrana, vrijeme se vraća na početak pri prvom pritisk
         
         </numerusform>
         </translation>
+    </message>
+    <message>
+        <source>opens the gui with support for skins.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
