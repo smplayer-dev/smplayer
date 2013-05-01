@@ -46,6 +46,7 @@
 #include "helper.h"
 #include "images.h"
 #include "preferences.h"
+#include "multilineinputdialog.h"
 #include "version.h"
 #include "global.h"
 #include "core.h"
@@ -214,6 +215,9 @@ void Playlist::createActions() {
 	addDirectoryAct = new MyAction(this, "pl_add_directory", false);
 	connect( addDirectoryAct, SIGNAL(triggered()), this, SLOT(addDirectory()) );
 
+	addUrlsAct = new MyAction(this, "pl_add_urls", false);
+	connect( addUrlsAct, SIGNAL(triggered()), this, SLOT(addUrls()) );
+
 	// Remove actions
 	removeSelectedAct = new MyAction(this, "pl_remove_selected", false);
 	connect( removeSelectedAct, SIGNAL(triggered()), this, SLOT(removeSelected()) );
@@ -238,6 +242,7 @@ void Playlist::createToolbar() {
 	add_menu->addAction(addCurrentAct);
 	add_menu->addAction(addFilesAct );
 	add_menu->addAction(addDirectoryAct);
+	add_menu->addAction(addUrlsAct);
 
 	add_button = new QToolButton( this );
 	add_button->setMenu( add_menu );
@@ -308,6 +313,7 @@ void Playlist::retranslateStrings() {
 	addCurrentAct->change( tr("Add &current file") );
 	addFilesAct->change( tr("Add &file(s)") );
 	addDirectoryAct->change( tr("Add &directory") );
+	addUrlsAct->change( tr("Add &URL(s)") );
 
 	// Remove actions
 	removeSelectedAct->change( tr("Remove &selected") );
@@ -1077,6 +1083,17 @@ void Playlist::addDirectory() {
 	if (!s.isEmpty()) {
 		addDirectory(s);
 		latest_dir = s;
+	}
+}
+
+void Playlist::addUrls() {
+	MultilineInputDialog d(this);
+	if (d.exec() == QDialog::Accepted) {
+		QStringList urls = d.lines();
+		foreach(QString u, urls) {
+			if (!u.isEmpty()) addItem( u, "", 0 );
+		}
+		updateView();
 	}
 }
 
