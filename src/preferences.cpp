@@ -38,7 +38,7 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
-#define CURRENT_CONFIG_VERSION 5
+#define CURRENT_CONFIG_VERSION 4
 
 using namespace Global;
 
@@ -1443,7 +1443,7 @@ void Preferences::load() {
 			time_to_kill_mplayer = 1000;
 		}
 		*/
-		if (config_version <= 5) {
+		if (config_version <= 4) {
 			use_slices = false;
 			osd = None;
 			frame_drop = false;
@@ -1453,11 +1453,6 @@ void Preferences::load() {
 
 			resize_method = Never;
 			move_when_dragging = false;
-
-			#ifdef SKINS
-			gui = "SkinGUI";
-			iconset = "Gonzo";
-			#endif
 		}
 		config_version = CURRENT_CONFIG_VERSION;
 	}
