@@ -1,5 +1,8 @@
 [b]Version 0.8.5[/b]:
 
+(2013-05-01)
+ * Add an option to enter url(s) in the playlist.
+
 (2013-04-30)
  * The SkinGUI is now the default gui.
  * If the SkinGUI is selected, a check is done on startup to see if the
