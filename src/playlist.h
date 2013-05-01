@@ -101,6 +101,7 @@ public slots:
 	virtual void addCurrentFile();
 	virtual void addFiles();
 	virtual void addDirectory();
+	virtual void addUrls();
 
 	virtual void addFile(QString file, AutoGetInfo auto_get_info = UserDefined);
 	virtual void addFiles(QStringList files, AutoGetInfo auto_get_info = UserDefined);
@@ -227,6 +228,7 @@ protected:
 	MyAction * addCurrentAct;
 	MyAction * addFilesAct;
 	MyAction * addDirectoryAct;
+	MyAction * addUrlsAct;
 
 	MyAction * removeSelectedAct;
 	MyAction * removeAllAct;

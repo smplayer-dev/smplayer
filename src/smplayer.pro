@@ -122,6 +122,7 @@ HEADERS += guiconfig.h \
 	prefplaylist.h \
 	preftv.h \
 	filepropertiesdialog.h \
+	multilineinputdialog.h \
 	playlist.h \
 	playlistdock.h \
 	verticaltext.h \
@@ -218,6 +219,7 @@ SOURCES	+= version.cpp \
 	prefplaylist.cpp \
 	preftv.cpp \
 	filepropertiesdialog.cpp \
+	multilineinputdialog.cpp \
 	playlist.cpp \
 	playlistdock.cpp \
 	verticaltext.cpp \
@@ -259,7 +261,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui favoriteeditor.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
-        toolbareditor.ui
+        toolbareditor.ui multilineinputdialog.ui
 
 # qtsingleapplication
 contains( DEFINES, SINGLE_INSTANCE ) {
