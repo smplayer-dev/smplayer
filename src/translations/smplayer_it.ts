@@ -4288,6 +4288,19 @@ Vuoi sovrascriverlo?</translation>
     </message>
 </context>
 <context>
+    <name>MultilineInputDialog</name>
+    <message>
+        <location filename="../multilineinputdialog.ui" line="+14"/>
+        <source>Enter URL(s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Enter the URL(s) to be added to the playlist. One per line.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>PlayControl</name>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="+186"/>
@@ -4328,7 +4341,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="+281"/>
+        <location filename="../playlist.cpp" line="+286"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
@@ -4338,7 +4351,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>Durata</translation>
     </message>
     <message>
-        <location line="+523"/>
+        <location line="+524"/>
         <source>Choose a file</source>
         <translation>Scegli un file</translation>
     </message>
@@ -4370,7 +4383,7 @@ Do you want to overwrite?</source>
 Vuoi sovrascriverlo?</translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+451"/>
         <source>Edit name</source>
         <translation>Modifica nome</translation>
     </message>
@@ -4380,12 +4393,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>Inserisci il nome per questo file che sarà visualizzato nella lista di riproduzione:</translation>
     </message>
     <message>
-        <location line="-989"/>
+        <location line="-1001"/>
         <source>&amp;Play</source>
         <translation>&amp;Riproduci</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+32"/>
         <source>&amp;Edit</source>
         <translation>&amp;Modifica</translation>
     </message>
@@ -4401,7 +4414,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>Tutti i file</translation>
     </message>
     <message>
-        <location line="-738"/>
+        <location line="-739"/>
         <source>&amp;Load</source>
         <translation>&amp;Apri</translation>
     </message>
@@ -4454,6 +4467,11 @@ Vuoi sovrascriverlo?</translation>
         <location line="+1"/>
         <source>Add &amp;directory</source>
         <translation>Aggiungi c&amp;artella</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Add &amp;URL(s)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -8173,7 +8191,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="+163"/>
+        <location filename="../clhelp.cpp" line="+168"/>
         <source>will show this message and then will exit.</source>
         <translation>mostrerà questo messaggio e uscirà.</translation>
     </message>
@@ -8183,7 +8201,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="+447"/>
+        <location filename="../smplayer.cpp" line="+455"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>
@@ -8198,8 +8216,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>lista_di_azioni è una lista di opzioni separate da spazi. Le azioni saranno eseguite subito dopo il caricamento di un file (se richiesto), nello stesso ordine di immissione. Per le azioni a scelta si possono passare true o false come parametri. Esempio:  -actions &quot;fullscreen compact true&quot;. Le doppie virgolette sono necessarie in caso si passi più di una azione.</translation>
     </message>
     <message>
-        <location line="-36"/>
-        <location line="+74"/>
+        <location line="-41"/>
+        <location line="+79"/>
         <source>media</source>
         <translation>media</translation>
     </message>
@@ -8229,7 +8247,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Accoda in SMPlayer</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="-37"/>
+        <location filename="../clhelp.cpp" line="-42"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>apre la mini interfaccia invece di quella predefinita.</translation>
     </message>
@@ -8270,7 +8288,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>file_di_sottotitoli</translation>
     </message>
     <message>
-        <location line="+58"/>
+        <location line="+63"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>specifica il file dei sottotitoli da caricare per il primo video.</translation>
     </message>
@@ -8319,7 +8337,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>sconosciuto</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="-6"/>
+        <location filename="../clhelp.cpp" line="-11"/>
         <source>opens the mpc gui.</source>
         <translation>apre l&apos;interfaccia mpc.</translation>
     </message>
@@ -8334,7 +8352,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>altezza</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+27"/>
+        <source>opens the gui with support for skins.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
         <translation>specifica le coordinate di posizione della finestra principale.</translation>
     </message>
