@@ -33,6 +33,14 @@
 #include <windows.h>
 #endif
 
+#ifdef Q_OS_WIN
+  #ifdef PORTABLE_APP
+     #define TEST_UPDATE
+  #endif
+#else
+  #define TEST_UPDATE
+#endif
+
 class QWidget;
 class QMenu;
 class LogWindow;
@@ -206,7 +214,7 @@ protected slots:
 	void reportNewVersionAvailable(QString);
 #endif
 
-#if !defined(Q_OS_WIN)
+#ifdef TEST_UPDATE
 	void testUpdate();
 #endif
 
