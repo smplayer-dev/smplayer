@@ -4234,9 +4234,9 @@ void BaseGui::testUpdate() {
 	qDebug("BaseGui::testUpdate");
 	QSettings * set = Global::settings;
 	set->beginGroup("smplayer");
-	QString version = set->value("version", "").toString();
+	QString version = set->value("stable_version", "").toString();
 	bool check_for_new_version = set->value("check_for_new_version", true).toBool();
-	set->setValue("version", stableVersion());
+	set->setValue("stable_version", stableVersion());
 	set->setValue("check_for_new_version", check_for_new_version);
 	set->endGroup();
 
