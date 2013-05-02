@@ -4243,13 +4243,12 @@ void BaseGui::testUpdate() {
 	if ( (check_for_new_version) && (version != stableVersion()) ) {
 		// Running a new version
 		qDebug("BaseGui::testUpdate: running a new version: %s", stableVersion().toUtf8().constData());
+		QString os = "other";
 		#ifdef Q_OS_WIN
-		QString os = "win";
+		os = "win";
 		#endif
 		#ifdef Q_OS_LINUX
-		QString os = "linux";
-		#else
-		QString os = "other";
+		os = "linux";
 		#endif
 		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=%2").arg(smplayerVersion()).arg(os));
 	}
