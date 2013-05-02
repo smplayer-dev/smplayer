@@ -1,5 +1,9 @@
 [b]Version 0.8.5[/b]:
 
+(2013-05-02)
+ * Compile without USE_FONTCONFIG_OPTIONS in linux to prevent the
+   -fontconfig problem when using mplayer2.
+
 (2013-05-01)
  * Add an option to enter url(s) in the playlist.
 
