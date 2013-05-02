@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ui version="4.0">
+<ui version="4.0" >
  <class>MultilineInputDialog</class>
- <widget class="QDialog" name="MultilineInputDialog">
-  <property name="geometry">
+ <widget class="QDialog" name="MultilineInputDialog" >
+  <property name="geometry" >
    <rect>
     <x>0</x>
     <y>0</y>
@@ -10,37 +9,44 @@
     <height>285</height>
    </rect>
   </property>
-  <property name="windowTitle">
+  <property name="windowTitle" >
    <string>Enter URL(s)</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
+  <layout class="QVBoxLayout" >
    <item>
-    <widget class="QLabel" name="label">
-     <property name="text">
+    <widget class="QLabel" name="label" >
+     <property name="text" >
       <string>Enter the URL(s) to be added to the playlist. One per line.</string>
      </property>
-     <property name="wordWrap">
+     <property name="wordWrap" >
       <bool>true</bool>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QPlainTextEdit" name="editor"/>
+    <widget class="QTextEdit" name="editor" >
+     <property name="lineWrapMode" >
+      <enum>QTextEdit::NoWrap</enum>
+     </property>
+     <property name="acceptRichText" >
+      <bool>false</bool>
+     </property>
+    </widget>
    </item>
    <item>
-    <widget class="Line" name="line">
-     <property name="orientation">
+    <widget class="Line" name="line" >
+     <property name="orientation" >
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox">
-     <property name="orientation">
+    <widget class="QDialogButtonBox" name="buttonBox" >
+     <property name="orientation" >
       <enum>Qt::Horizontal</enum>
      </property>
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     <property name="standardButtons" >
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::NoButton|QDialogButtonBox::Ok</set>
      </property>
     </widget>
    </item>
@@ -54,11 +60,11 @@
    <receiver>MultilineInputDialog</receiver>
    <slot>accept()</slot>
    <hints>
-    <hint type="sourcelabel">
+    <hint type="sourcelabel" >
      <x>248</x>
      <y>254</y>
     </hint>
-    <hint type="destinationlabel">
+    <hint type="destinationlabel" >
      <x>157</x>
      <y>274</y>
     </hint>
@@ -70,11 +76,11 @@
    <receiver>MultilineInputDialog</receiver>
    <slot>reject()</slot>
    <hints>
-    <hint type="sourcelabel">
+    <hint type="sourcelabel" >
      <x>316</x>
      <y>260</y>
     </hint>
-    <hint type="destinationlabel">
+    <hint type="destinationlabel" >
      <x>286</x>
      <y>274</y>
     </hint>
