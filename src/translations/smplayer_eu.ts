@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Errusiera</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -195,14 +197,6 @@
         <location filename="../about.ui" line="201"/>
         <source>&amp;License</source>
         <translation>&amp;Baimena</translation>
-    </message>
-    <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Ikusi gure webgunea eguneraketentzat:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Lortu laguntza gure eztabaidagunean:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
@@ -934,7 +928,7 @@ Gainidatzi nahi duzu?</translation>
     <message>
         <location filename="../basegui.cpp" line="1603"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube%1 nabigatzailea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3697"/>
@@ -1110,10 +1104,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>&amp;Berezkoa</translation>
     </message>
     <message>
-        <source>&amp;YouTube browser</source>
-        <translation type="obsolete">&amp;YouTube nabigatzailea</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1614"/>
         <source>First Steps &amp;Guide</source>
         <translation>&amp;Lehen Urratsak Gida</translation>
@@ -1257,12 +1247,12 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1836"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Monoa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1837"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Alderantziz</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1846"/>
@@ -1280,18 +1270,14 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>SMPlayer - SMPlayer oharra</translation>
     </message>
     <message>
-        <source>SMPlayer</source>
-        <translation type="obsolete">SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4932"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube Nabigatzailea ezin da abiarazi.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4933"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zihurtatu %1 ezarrita dagoela.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -1323,14 +1309,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <location filename="../basegui.cpp" line="3465"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Oraingo balioak gorde egin daitezke berezkoak bezala erabiltzeko.</translation>
-    </message>
-    <message>
-        <source>An error happened - SMPlayer</source>
-        <translation type="obsolete">Akats bat gertatu da - SMPlayer</translation>
-    </message>
-    <message>
-        <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation type="obsolete">YouTube Nabigatzailea ezin da abiarazi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1659"/>
@@ -1836,29 +1814,9 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Aldatu ezelkarlotu</translation>
     </message>
     <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">Eman &amp;Dirulaguntza bat</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1843"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;Ezkutuko giro-azpidatziak</translation>
-    </message>
-    <message>
-        <source>Donate</source>
-        <translation type="obsolete">Eman Dirulaguntza Bat</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">SM Irakurgailua atsegin baduzu, sostengatzeko bide on bat dirulaguntza bat bidaltzea da, txikia izanda ere asko eskertzen da.</translation>
-    </message>
-    <message>
-        <source>You can send your donation using %1.</source>
-        <translation type="obsolete">Zure dirulaguntza bidali dezakezu %1 erabiliz.</translation>
-    </message>
-    <message>
-        <source>this form</source>
-        <translation type="obsolete">forma  hau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
@@ -1949,7 +1907,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../core.cpp" line="4024"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation>Oroimeneratzen...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3106"/>
@@ -2572,20 +2530,17 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>opensubtitles.org saio hasteak huts egin du</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilaketak huts egin du</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="581"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n azpidatzi aterata</numerusform>
-            <numerusform>%n azpidatzi aterata</numerusform>
-        </translation>
+        <translation><numerusform>%n azpidatzi aterata</numerusform><numerusform>%n azpidatzi aterata</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="640"/>
@@ -2663,6 +2618,13 @@ Adibidea: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Azpidatzia honela gordeta:  %1</translation>
     </message>
+    <message numerus="yes">
+        <source>%1 subtitle(s) extracted</source>
+        <translation type="obsolete">
+            <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
+        </translation>
+    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
         <source>Overwrite?</source>
@@ -2680,7 +2642,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ezin izan da jeitsitako agiria
@@ -4258,12 +4220,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="14"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Sartu URL-a(k)</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="20"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sartu irakur-zerrendara gehitzeko URL-a(k). Bat lerroko.</translation>
     </message>
 </context>
 <context>
@@ -4437,7 +4399,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="316"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehitu &amp;URL-a(k)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="319"/>
@@ -5450,7 +5412,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.ui" line="737"/>
         <source>Volume</source>
-        <translation>Bolumena	</translation>
+        <translation>Bolumena&lt;byte value=&quot;x9&quot;/&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="892"/>
@@ -6547,6 +6509,16 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>&amp;Bilatzen</translation>
     </message>
     <message>
+        <location filename="../prefinterface.ui" line="529"/>
+        <source>&amp;Absolute seeking</source>
+        <translation>Bilaketa &amp;osoa</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="542"/>
+        <source>&amp;Relative seeking</source>
+        <translation>Bilaketa e&amp;rlatiboa</translation>
+    </message>
+    <message>
         <location filename="../prefinterface.ui" line="587"/>
         <source>Ins&amp;tances</source>
         <translation>E&amp;skabideak</translation>
@@ -6714,21 +6686,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Berez gelditu botoia sakatuta dagoenean denbora kokapena gogoratzen du, hortaz irakurri botoia sakatzen baduzu multimediak puntu berean berrekingo du. Gelditu botoia bi aldiz sakatu behar duzu denbora kokapena berrezartzeko, baina aukera hau hautaturik badago denbora kokapena 0-ean ezarriko da gelditu botoia behin bakarrriz sakatuz gero.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
-        <source>Instances</source>
-        <translation>Eskabideak</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="743"/>
-        <source>Use only one running instance of SMPlayer</source>
-        <translation>Erabili bakarrik SMPlayerren ekin eskabide bakar bat</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="744"/>
-        <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation>Hautatu aukera hau nahi baduzu erabiltzea jadanik ekinean dagoen SMPlayerren eskabide bat beste agiri batzuk irekitzerakoan.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Max. URLs</source>
         <translation>Geh. URL</translation>
@@ -6747,6 +6704,32 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../prefinterface.cpp" line="788"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Aukera hau hautaturik badago, SMPlayerrek agiri bat irekitzeko erabili duzun azken agiritegia gogoratuko du.</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="517"/>
+        <location filename="../prefinterface.cpp" line="721"/>
+        <source>Seeking method</source>
+        <translation>Bilaketa metodoa</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="722"/>
+        <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
+        <translation>Ezarri irriskariarekin bilatzerakoan erabiltzeko metodoa. Bilaketa osoa apur bat zehatzagoa izan daiteke, bilaketa erlatiboak aldiz hobeto lan egin dezake luzera okerreko agiriekin.</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="740"/>
+        <source>Instances</source>
+        <translation>Eskabideak</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="743"/>
+        <source>Use only one running instance of SMPlayer</source>
+        <translation>Erabili bakarrik SMPlayerren ekin eskabide bakar bat</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="744"/>
+        <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
+        <translation>Hautatu aukera hau nahi baduzu erabiltzea jadanik ekinean dagoen SMPlayerren eskabide bat beste agiri batzuk irekitzerakoan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
@@ -6868,27 +6851,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../prefinterface.cpp" line="209"/>
         <source>Mpc GUI</source>
         <translation>Mpc EIG</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="517"/>
-        <location filename="../prefinterface.cpp" line="721"/>
-        <source>Seeking method</source>
-        <translation>Bilaketa metodoa</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="722"/>
-        <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Ezarri irriskariarekin bilatzerakoan erabiltzeko metodoa. Bilaketa osoa apur bat zehatzagoa izan daiteke, bilaketa erlatiboak aldiz hobeto lan egin dezake luzera okerreko agiriekin.</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="529"/>
-        <source>&amp;Absolute seeking</source>
-        <translation>Bilaketa &amp;osoa</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="542"/>
-        <source>&amp;Relative seeking</source>
-        <translation>Bilaketa e&amp;rlatiboa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
@@ -7231,10 +7193,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>Erabili CoreAVC ez bada beste kodekrik adierazten</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Saiatu erabiltzen non-free CoreAVC kodeka beste kodekarik adierazten ez denean eta non-VDPAU bideo irteera hautatuta dagoenean. Beharrezkoa du CoreAVC sostengua duen MPlayerra.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="277"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation>Erabili &amp;CoreAVC ez bada beste kodekrik adierazten</translation>
@@ -7336,10 +7294,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Hautatu aukera hau zuzenbideko azpi-zuzenbideetako agiriak ere gehitzea nahi badituzu. Bestela hautatutako zuzenbideko agiriak bakarrik gehituko dira.</translation>
-    </message>
-    <message>
-        <source>Add info automatically about files added</source>
-        <translation type="obsolete">Gehitutako agirien argibideak berezgaitasunez gehitu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7544,10 +7498,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>System font</source>
         <translation>Sistemaren hizki mota</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete">Hemen azpidatzientzako eta IGE-an erabiliko den sistema hizkia hautatu dezakezu. &lt;b&gt;Oharra:&lt;/b&gt; fontconfig duen MPlayerra behar du.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8259,19 +8209,13 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundu</numerusform>
-            <numerusform>%n segundu</numerusform>
-        </translation>
+        <translation><numerusform>%n segundu</numerusform><numerusform>%n segundu</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutu</numerusform>
-            <numerusform>%n minutu</numerusform>
-        </translation>
+        <translation><numerusform>%n minutu</numerusform><numerusform>%n minutu</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8319,7 +8263,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>azalentzako sostengua duen eig irekitzen du.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -8604,57 +8548,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     </message>
 </context>
 <context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Zuribeltztasuna</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Dizdira</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Nabardura</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Margoasetasuna</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gamma</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">Bi&amp;rrezarri</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Ezarri berezko balio bezala</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Erabili uneko balioak berezko balioak bezala bideo berrientzat.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Ezarri aginte guztiak hutsean.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Bideo Ekualizagailua</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Argibideak</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Uneko balioak gorde egin daitezke berezkoak bezala erabiltzeko.</translation>
-    </message>
-</context>
-<context>
     <name>VideoEqualizer2</name>
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
@@ -8904,10 +8797,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <translation>&amp;Ikuspegi maila:</translation>
     </message>
     <message>
-        <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="obsolete">&amp;Segundu jauzteko hasieran:</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>
         <source>&amp;Maximum width:</source>
         <translation>Ge&amp;hienezko zabalera:</translation>
@@ -9012,7 +8901,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../widgetactions.cpp" line="182"/>
         <source>Volume</source>
-        <translation>Bolumena	</translation>
+        <translation>Bolumena&lt;byte value=&quot;x9&quot;/&gt;</translation>
     </message>
 </context>
 </TS>
