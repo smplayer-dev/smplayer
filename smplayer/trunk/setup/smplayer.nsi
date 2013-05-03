@@ -719,6 +719,7 @@ Function .onInstSuccess
   ${MementoSectionSave}
 
   ExecShell "open" "http://smplayer.sourceforge.net/thank-you.php?version=${SMPLAYER_VERSION}"
+
 FunctionEnd
 
 Function .onInstFailed
@@ -735,7 +736,11 @@ Function .onInstFailed
 FunctionEnd
 
 Function un.onUninstSuccess
-  ExecShell "open" "http://smplayer.sourceforge.net/uninstall.php?version=${SMPLAYER_VERSION}"
+
+  ${If} $Reinstall_Uninstall != 1
+    ExecShell "open" "http://smplayer.sourceforge.net/uninstall.php?version=${SMPLAYER_VERSION}"
+  ${EndIf}
+
 FunctionEnd
 
 Function CheckPreviousVersion
