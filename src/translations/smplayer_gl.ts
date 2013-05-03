@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>ruso</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -926,7 +928,7 @@ Seguro que desexas sobrescribilo?</translation>
     <message>
         <location filename="../basegui.cpp" line="1603"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3697"/>
@@ -958,27 +960,27 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="4217"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova versión dispoñíbel</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4218"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hai unha nova versión do SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4219"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versión instalada: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4220"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Versión dispoñíble: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4221"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Queres saber máis acerca desta nova versión?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4414"/>
@@ -1100,10 +1102,6 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;Predeterminado</translation>
-    </message>
-    <message>
-        <source>&amp;YouTube browser</source>
-        <translation type="obsolete">Navegador de &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1614"/>
@@ -1249,12 +1247,12 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="1836"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mono</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1837"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cara a atrás</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1846"/>
@@ -1272,18 +1270,14 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <translation>SMPlayer — Rexistro de SMPlayer</translation>
     </message>
     <message>
-        <source>SMPlayer</source>
-        <translation type="obsolete">SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4932"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4933"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -1315,14 +1309,6 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <location filename="../basegui.cpp" line="3465"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Os valores actuais gardáronse para se usar como os predefinidos.</translation>
-    </message>
-    <message>
-        <source>An error happened - SMPlayer</source>
-        <translation type="obsolete">Produciuse un erro — SMPlayer</translation>
-    </message>
-    <message>
-        <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation type="obsolete">Non se puido iniciar o navegador de YouTube.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1659"/>
@@ -1921,7 +1907,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../core.cpp" line="4024"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation>Buffering...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3106"/>
@@ -2544,20 +2530,17 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="581"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="640"/>
@@ -2659,7 +2642,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -4237,12 +4220,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="14"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="20"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4416,7 +4399,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../playlist.cpp" line="316"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="319"/>
@@ -6497,7 +6480,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Pre&amp;mendo o botón de parar unha vez reiníciase a posición de tempo</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6695,12 +6678,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Premendo o botón de parar unha vez reiníciase a posición de tempo</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por defecto cando se preme o botón de parar gárdase na posición de tempo no que estaba, co cal, cando se lle dá ao botón de reproducir empezarase desde ese mesmo momento. Precisas premer o botón de parar dúas veces para reiniciar a posición de tempo, agás que teñas esta opción marcada xa que así a posición de tempo porase no 0 con tan só premer unha vez o botón de parar.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -8226,19 +8209,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8286,7 +8263,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
