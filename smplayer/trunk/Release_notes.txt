@@ -1,3 +1,22 @@
+Version 0.8.5.
+
+ * Due to changes in opensubtitles.org, smplayer couldn't find
+   find subtitles anymore. This has been fixed.
+ * The interface with support for skins is now the default.
+ * An option to enter url(s) in the playlist has been added.
+ * The options to change the size of the main window work now 
+   even the autoresize is set to never.
+ * Two new options for Audio -> Stereo mode: Mono and Reverse.
+ * The option "Move the window when the video area is dragged" is
+   now disabled by default because it has some issues that need to
+   be addressed.
+ * (Linux) The problem with mplayer2 and the -fontconfig option has been 
+   fixed (sort of).
+ * New translation: Malay.
+ * Some configuration options are changed to new defaults after installation
+   to ease upgrade from old versions.
+
+
 Version 0.8.4.
 
  * New option to select the fps for external subtitles.
