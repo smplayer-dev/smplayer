@@ -737,9 +737,12 @@ FunctionEnd
 
 Function un.onUninstSuccess
 
-  ${If} $Reinstall_Uninstall != 1
-    ExecShell "open" "http://smplayer.sourceforge.net/uninstall.php?version=${SMPLAYER_VERSION}"
-  ${EndIf}
+  ;Don't launch uninstall page if reinstalling
+  ${un.GetParameters} $R0
+  ${un.GetOptionsS} $R0 "/R" $R1
+
+  IfErrors 0 +2
+  ExecShell "open" "http://smplayer.sourceforge.net/uninstall.php?version=${SMPLAYER_VERSION}"
 
 FunctionEnd
 
