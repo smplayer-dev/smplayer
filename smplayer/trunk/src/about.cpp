@@ -219,13 +219,14 @@ QString About::getTranslators() {
 		trad(tr("Galician"), QStringList() << "Miguel Branco <mgl.branco@gmail.com>" << "Gallaecio") +
 		trad(tr("Vietnamese"), QString::fromUtf8("Lê Xuân Thảo <thaolx@gmail.com>")) +
 		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi <olav.magi@hotmail.com>")) +
-        trad(tr("Lithuanian"), QStringList() 
+		trad(tr("Lithuanian"), QStringList() 
 			<< "Freemail <ricka_g@freemail.lt>"
 			<< QString::fromUtf8("Algimantas Margevičius <margevicius.algimantas@gmail.com>") ) +
-        trad(tr("Danish"), "Martin Schlander <mschlander@opensuse.org>") +
-        trad(tr("Croatian"), QString::fromUtf8("Josip Kujundžija <marshsmello@gmail.com>")) +
+		trad(tr("Danish"), "Martin Schlander <mschlander@opensuse.org>") +
+		trad(tr("Croatian"), QString::fromUtf8("Josip Kujundžija <marshsmello@gmail.com>")) +
         trad(tr("Hebrew"), "Genghis Khan <genghiskhan@gmx.ca>") +
-        trad(tr("Thai"), QString::fromUtf8("มาโนชญ์ สมศักดิ์ <xyteton@hotmail.com>")) +
+		trad(tr("Thai"), QString::fromUtf8("มาโนชญ์ สมศักดิ์ <xyteton@hotmail.com>")) +
+		trad(tr("Malay"), "abuyop (transifex)") +
 		"");
 }
 
