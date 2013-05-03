@@ -17,7 +17,7 @@
  * New command line option: -skingui
 
 (2013-04-28)
- * The option Move the window when the video area is dragged" is
+ * The option "Move the window when the video area is dragged" is
    now disabled by default because it has some issues that need to
    be fixed.
 
