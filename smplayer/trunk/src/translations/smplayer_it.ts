@@ -152,6 +152,11 @@
         <translation type="unfinished">Tailandese</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Malay</source>
+        <translation type="unfinished">Malay</translation>
+    </message>
+    <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
@@ -202,7 +207,7 @@
         <translation type="obsolete">Cerca aiuto nel nostro forum:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="-42"/>
+        <location filename="../about.cpp" line="-43"/>
         <source>Korean</source>
         <translation>Coreano</translation>
     </message>
@@ -1013,7 +1018,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3036"/>
+        <location line="+3043"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1023,7 +1028,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3053"/>
+        <location line="-3060"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1161,7 +1166,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+200"/>
         <source>Playing %1</source>
         <translation>In riproduzione %1</translation>
     </message>
@@ -1176,7 +1181,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2940"/>
+        <location line="-2947"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1463,7 +1468,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3162"/>
+        <location line="+3169"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1493,7 +1498,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-3100"/>
+        <location line="-3107"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1760,12 +1765,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2747"/>
+        <location line="+2754"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-3044"/>
+        <location line="-3051"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -3062,12 +3067,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location line="+2"/>
         <location line="+204"/>
-        <location line="+55"/>
+        <location line="+56"/>
         <source>Arabic</source>
         <translation>Arabo</translation>
     </message>
     <message>
-        <location line="-258"/>
+        <location line="-259"/>
         <source>Assamese</source>
         <translation>Assamese</translation>
     </message>
@@ -3418,11 +3423,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location line="+127"/>
         <source>Malay</source>
         <translation>Malay</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-126"/>
         <source>Maltese</source>
         <translation>Maltese</translation>
     </message>
@@ -3444,12 +3450,12 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location line="+2"/>
         <location line="+83"/>
-        <location line="+36"/>
+        <location line="+37"/>
         <source>Dutch</source>
         <translation>Olandese</translation>
     </message>
     <message>
-        <location line="-118"/>
+        <location line="-119"/>
         <source>Norwegian Nynorsk</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3471,12 +3477,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+107"/>
+        <location line="+108"/>
         <source>Polish</source>
         <translation>Polacco</translation>
     </message>
     <message>
-        <location line="-105"/>
+        <location line="-106"/>
         <location line="+70"/>
         <source>Portuguese</source>
         <translation>Portoghese</translation>
@@ -3488,20 +3494,20 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+104"/>
+        <location line="+105"/>
         <source>Romanian</source>
         <translation>Romeno</translation>
     </message>
     <message>
-        <location line="-103"/>
+        <location line="-104"/>
         <location line="+66"/>
-        <location line="+38"/>
+        <location line="+39"/>
         <location line="+33"/>
         <source>Russian</source>
         <translation>Russo</translation>
     </message>
     <message>
-        <location line="-136"/>
+        <location line="-137"/>
         <source>Kinyarwanda</source>
         <translation>Kinyarwanda</translation>
     </message>
@@ -3517,18 +3523,18 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+97"/>
+        <location line="+98"/>
         <source>Slovak</source>
         <translation>Slovacco</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <location line="+97"/>
+        <location line="-97"/>
+        <location line="+98"/>
         <source>Slovenian</source>
         <translation>Sloveno</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-97"/>
         <source>Samoan</source>
         <translation>Samoano</translation>
     </message>
@@ -3549,24 +3555,24 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+93"/>
+        <location line="+94"/>
         <source>Serbian</source>
         <translation>Serbo</translation>
     </message>
     <message>
-        <location line="-90"/>
+        <location line="-91"/>
         <source>Sundanese</source>
         <translation>Sudanese</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+49"/>
-        <location line="+41"/>
+        <location line="+42"/>
         <source>Swedish</source>
         <translation>Svedese</translation>
     </message>
     <message>
-        <location line="-89"/>
+        <location line="-90"/>
         <source>Swahili</source>
         <translation>Swahili</translation>
     </message>
@@ -3587,12 +3593,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+86"/>
+        <location line="+87"/>
         <source>Thai</source>
         <translation>Tailandese</translation>
     </message>
     <message>
-        <location line="-85"/>
+        <location line="-86"/>
         <source>Tigrinya</source>
         <translation>Tigrinya</translation>
     </message>
@@ -3613,13 +3619,13 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+81"/>
+        <location line="+82"/>
         <location line="+22"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
     <message>
-        <location line="-102"/>
+        <location line="-103"/>
         <source>Tsonga</source>
         <translation>Tsonga</translation>
     </message>
@@ -3640,12 +3646,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+76"/>
+        <location line="+77"/>
         <source>Ukrainian</source>
         <translation>Ucraino</translation>
     </message>
     <message>
-        <location line="-75"/>
+        <location line="-76"/>
         <source>Urdu</source>
         <translation>Urdu</translation>
     </message>
@@ -3656,12 +3662,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+73"/>
+        <location line="+74"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
     </message>
     <message>
-        <location line="-70"/>
+        <location line="-71"/>
         <source>Wolof</source>
         <translation>Wolof</translation>
     </message>
@@ -3697,7 +3703,7 @@ Controllarne i relativi permessi.</translation>
         <translation>Zulu</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+54"/>
         <source>Portuguese - Brazil</source>
         <translation>Portoghese (Brasile)</translation>
     </message>
@@ -3827,7 +3833,7 @@ Controllarne i relativi permessi.</translation>
         <translation>Arabo per Windows</translation>
     </message>
     <message>
-        <location line="-280"/>
+        <location line="-281"/>
         <source>Avestan</source>
         <translation>Avestan</translation>
     </message>
@@ -4143,7 +4149,7 @@ Controllarne i relativi permessi.</translation>
         <translation>Volapük</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <location line="+108"/>
         <source>Modern Greek Windows</source>
         <translation>Greco moderno Windows</translation>
     </message>
@@ -4290,7 +4296,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MultilineInputDialog</name>
     <message>
-        <location filename="../multilineinputdialog.ui" line="+14"/>
+        <location filename="../multilineinputdialog.ui" line="+13"/>
         <source>Enter URL(s)</source>
         <translation type="unfinished"></translation>
     </message>

@@ -152,11 +152,16 @@
         <translation type="unfinished">Thailändisch</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="229"/>
+        <source>Malay</source>
+        <translation type="unfinished">Malaiisch</translation>
+    </message>
+    <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="252"/>
+        <location filename="../about.cpp" line="253"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -1013,12 +1018,12 @@ Möchten Sie sie Überschreiben?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4932"/>
+        <location filename="../basegui.cpp" line="4939"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4933"/>
+        <location filename="../basegui.cpp" line="4940"/>
         <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1160,17 +1165,17 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4414"/>
+        <location filename="../basegui.cpp" line="4421"/>
         <source>Playing %1</source>
         <translation>Wiedergabe %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4415"/>
+        <location filename="../basegui.cpp" line="4422"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4416"/>
+        <location filename="../basegui.cpp" line="4423"/>
         <source>Stop</source>
         <translation>Stopp</translation>
     </message>
@@ -1462,32 +1467,32 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>Video-Equalizer zurücksetzen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4830"/>
+        <location filename="../basegui.cpp" line="4837"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer ist unerwartet beendet worden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4831"/>
+        <location filename="../basegui.cpp" line="4838"/>
         <source>Exit code: %1</source>
         <translation>Rückgabewert: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4850"/>
+        <location filename="../basegui.cpp" line="4857"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer kann nicht gestartet werden.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4851"/>
+        <location filename="../basegui.cpp" line="4858"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Bitte überprüfen Sie den Pfad von MPlayer in den Einstellungen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4853"/>
+        <location filename="../basegui.cpp" line="4860"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer ist abgestürzt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4854"/>
+        <location filename="../basegui.cpp" line="4861"/>
         <source>See the log for more info.</source>
         <translation>Weitere Informationen können dem Protokoll entnommen werden.</translation>
     </message>
@@ -1759,7 +1764,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>In den Vordergrund/Hintergrund wechseln</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4554"/>
+        <location filename="../basegui.cpp" line="4561"/>
         <source>Jump to %1</source>
         <translation>Sprung zu %1</translation>
     </message>
@@ -3084,7 +3089,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     <message>
         <location filename="../languages.cpp" line="31"/>
         <location filename="../languages.cpp" line="235"/>
-        <location filename="../languages.cpp" line="290"/>
+        <location filename="../languages.cpp" line="291"/>
         <source>Arabic</source>
         <translation>Arabisch</translation>
     </message>
@@ -3440,6 +3445,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
+        <location filename="../languages.cpp" line="259"/>
         <source>Malay</source>
         <translation>Malaiisch</translation>
     </message>
@@ -3466,7 +3472,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     <message>
         <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="223"/>
-        <location filename="../languages.cpp" line="259"/>
+        <location filename="../languages.cpp" line="260"/>
         <source>Dutch</source>
         <translation>Niederländisch </translation>
     </message>
@@ -3493,7 +3499,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="260"/>
+        <location filename="../languages.cpp" line="261"/>
         <source>Polish</source>
         <translation>Polnisch</translation>
     </message>
@@ -3510,15 +3516,15 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
-        <location filename="../languages.cpp" line="263"/>
+        <location filename="../languages.cpp" line="264"/>
         <source>Romanian</source>
         <translation>Rumänisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="264"/>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="265"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Russian</source>
         <translation>Russisch</translation>
     </message>
@@ -3539,13 +3545,13 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="265"/>
+        <location filename="../languages.cpp" line="266"/>
         <source>Slovak</source>
         <translation>Slowakisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="266"/>
+        <location filename="../languages.cpp" line="267"/>
         <source>Slovenian</source>
         <translation>Slowenisch</translation>
     </message>
@@ -3571,7 +3577,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
-        <location filename="../languages.cpp" line="267"/>
+        <location filename="../languages.cpp" line="268"/>
         <source>Serbian</source>
         <translation>Serbisch</translation>
     </message>
@@ -3583,7 +3589,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     <message>
         <location filename="../languages.cpp" line="178"/>
         <location filename="../languages.cpp" line="227"/>
-        <location filename="../languages.cpp" line="268"/>
+        <location filename="../languages.cpp" line="269"/>
         <source>Swedish</source>
         <translation>Schwedisch</translation>
     </message>
@@ -3609,7 +3615,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
-        <location filename="../languages.cpp" line="269"/>
+        <location filename="../languages.cpp" line="270"/>
         <source>Thai</source>
         <translation>Thailändisch</translation>
     </message>
@@ -3635,8 +3641,8 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="270"/>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="271"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Turkish</source>
         <translation>Türkisch</translation>
     </message>
@@ -3662,7 +3668,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="271"/>
+        <location filename="../languages.cpp" line="272"/>
         <source>Ukrainian</source>
         <translation>Ukrainisch</translation>
     </message>
@@ -3678,7 +3684,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
-        <location filename="../languages.cpp" line="272"/>
+        <location filename="../languages.cpp" line="273"/>
         <source>Vietnamese</source>
         <translation>Vietnamesisch</translation>
     </message>
@@ -3719,132 +3725,132 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
         <translation>Zulu</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="261"/>
+        <location filename="../languages.cpp" line="262"/>
         <source>Portuguese - Brazil</source>
         <translation>Portugiesisch - Brasilien</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="262"/>
+        <location filename="../languages.cpp" line="263"/>
         <source>Portuguese - Portugal</source>
         <translation>Portugiesisch - Portugal</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="273"/>
+        <location filename="../languages.cpp" line="274"/>
         <source>Simplified-Chinese</source>
         <translation>Vereinfachtes Chinesisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="274"/>
+        <location filename="../languages.cpp" line="275"/>
         <source>Traditional Chinese</source>
         <translation>Traditionelles Chinesisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="282"/>
+        <location filename="../languages.cpp" line="283"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="283"/>
+        <location filename="../languages.cpp" line="284"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="284"/>
+        <location filename="../languages.cpp" line="285"/>
         <source>Western European Languages</source>
         <translation>West-Europäische Sprachen</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="285"/>
+        <location filename="../languages.cpp" line="286"/>
         <source>Western European Languages with Euro</source>
         <translation>West-Europäische Sprachen mit Euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="286"/>
+        <location filename="../languages.cpp" line="287"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slavische/Zentral-Europäische Sprachen</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="287"/>
+        <location filename="../languages.cpp" line="288"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galicisch, Maltesisch, Türkisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="288"/>
+        <location filename="../languages.cpp" line="289"/>
         <source>Old Baltic charset</source>
         <translation>Alte Baltische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="289"/>
+        <location filename="../languages.cpp" line="290"/>
         <source>Cyrillic</source>
         <translation>Kyrillisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="291"/>
+        <location filename="../languages.cpp" line="292"/>
         <source>Modern Greek</source>
         <translation>Modern Griechisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Baltic</source>
         <translation>Baltisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Celtic</source>
         <translation>Celtic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>South-Eastern European</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Hebrew charsets</source>
         <translation>Hebräische Zeichkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukrainisch, Weißrussisch</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Simplified Chinese charset</source>
         <translation>Vereinfachte Chinesische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Traditional Chinese charset</source>
         <translation>Traditionelle Chinesische Zeichnenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Japanese charsets</source>
         <translation>Japanische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Korean charset</source>
         <translation>Koreanische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Thai charset</source>
         <translation>Thailändische Zeichenkodierung</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Cyrillic Windows</source>
         <translation>Kyrillisch Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slavisch/Zentral-Europäisches Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>Arabic Windows</source>
         <translation>Arabisches Windows</translation>
     </message>
@@ -4165,7 +4171,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
         <translation>Walloon</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Modern Greek Windows</source>
         <translation>Neugriechisch (Windows)</translation>
     </message>
@@ -4312,12 +4318,12 @@ Möchten Sie sie überschreiben?</translation>
 <context>
     <name>MultilineInputDialog</name>
     <message>
-        <location filename="../multilineinputdialog.ui" line="14"/>
+        <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../multilineinputdialog.ui" line="20"/>
+        <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
         <translation type="unfinished"></translation>
     </message>

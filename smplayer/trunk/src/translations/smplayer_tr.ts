@@ -152,11 +152,16 @@
         <translation type="unfinished">Tayca</translation>
     </message>
     <message>
+        <location filename="../about.cpp" line="229"/>
+        <source>Malay</source>
+        <translation type="unfinished">Malay</translation>
+    </message>
+    <message>
         <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="252"/>
+        <location filename="../about.cpp" line="253"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -1110,12 +1115,12 @@ Do you want to overwrite?</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4932"/>
+        <location filename="../basegui.cpp" line="4939"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4933"/>
+        <location filename="../basegui.cpp" line="4940"/>
         <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1226,17 +1231,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4414"/>
+        <location filename="../basegui.cpp" line="4421"/>
         <source>Playing %1</source>
         <translation>%1 oynatılıyor</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4415"/>
+        <location filename="../basegui.cpp" line="4422"/>
         <source>Pause</source>
         <translation>Duraklat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4416"/>
+        <location filename="../basegui.cpp" line="4423"/>
         <source>Stop</source>
         <translation>Durdur</translation>
     </message>
@@ -1462,32 +1467,32 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Video ekolayzırı sıfırla</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4830"/>
+        <location filename="../basegui.cpp" line="4837"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer beklenmeyen bir şekilde kapandı.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4831"/>
+        <location filename="../basegui.cpp" line="4838"/>
         <source>Exit code: %1</source>
         <translation>Çıkış kodu: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4850"/>
+        <location filename="../basegui.cpp" line="4857"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer başlatılamadı.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4851"/>
+        <location filename="../basegui.cpp" line="4858"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Lütfen seçeneklerden MPlayer&apos;ın konumunu kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4853"/>
+        <location filename="../basegui.cpp" line="4860"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer çöktü.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4854"/>
+        <location filename="../basegui.cpp" line="4861"/>
         <source>See the log for more info.</source>
         <translation>Daha fazla bilgi için kayıt dosyasına bakınız.</translation>
     </message>
@@ -1759,7 +1764,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4554"/>
+        <location filename="../basegui.cpp" line="4561"/>
         <source>Jump to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3048,7 +3053,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../languages.cpp" line="31"/>
         <location filename="../languages.cpp" line="235"/>
-        <location filename="../languages.cpp" line="290"/>
+        <location filename="../languages.cpp" line="291"/>
         <source>Arabic</source>
         <translation>Arapça</translation>
     </message>
@@ -3404,6 +3409,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
+        <location filename="../languages.cpp" line="259"/>
         <source>Malay</source>
         <translation>Malay</translation>
     </message>
@@ -3430,7 +3436,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="223"/>
-        <location filename="../languages.cpp" line="259"/>
+        <location filename="../languages.cpp" line="260"/>
         <source>Dutch</source>
         <translation>Felemenkçe</translation>
     </message>
@@ -3457,7 +3463,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="260"/>
+        <location filename="../languages.cpp" line="261"/>
         <source>Polish</source>
         <translation>Lehçe</translation>
     </message>
@@ -3474,15 +3480,15 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
-        <location filename="../languages.cpp" line="263"/>
+        <location filename="../languages.cpp" line="264"/>
         <source>Romanian</source>
         <translation>Romence</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="264"/>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="265"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Russian</source>
         <translation>Rusça</translation>
     </message>
@@ -3503,13 +3509,13 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="265"/>
+        <location filename="../languages.cpp" line="266"/>
         <source>Slovak</source>
         <translation>Slovakça</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="266"/>
+        <location filename="../languages.cpp" line="267"/>
         <source>Slovenian</source>
         <translation>Slovence</translation>
     </message>
@@ -3535,7 +3541,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
-        <location filename="../languages.cpp" line="267"/>
+        <location filename="../languages.cpp" line="268"/>
         <source>Serbian</source>
         <translation>Sırpça</translation>
     </message>
@@ -3547,7 +3553,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../languages.cpp" line="178"/>
         <location filename="../languages.cpp" line="227"/>
-        <location filename="../languages.cpp" line="268"/>
+        <location filename="../languages.cpp" line="269"/>
         <source>Swedish</source>
         <translation>İsveççe</translation>
     </message>
@@ -3573,7 +3579,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
-        <location filename="../languages.cpp" line="269"/>
+        <location filename="../languages.cpp" line="270"/>
         <source>Thai</source>
         <translation>Tayca</translation>
     </message>
@@ -3599,8 +3605,8 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="270"/>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="271"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Turkish</source>
         <translation>Türkçe</translation>
     </message>
@@ -3626,7 +3632,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="271"/>
+        <location filename="../languages.cpp" line="272"/>
         <source>Ukrainian</source>
         <translation>Ukraynaca</translation>
     </message>
@@ -3642,7 +3648,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
-        <location filename="../languages.cpp" line="272"/>
+        <location filename="../languages.cpp" line="273"/>
         <source>Vietnamese</source>
         <translation>Vietnamca</translation>
     </message>
@@ -3683,132 +3689,132 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation>Zuluca</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="261"/>
+        <location filename="../languages.cpp" line="262"/>
         <source>Portuguese - Brazil</source>
         <translation>Brezilya Portegizcesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="262"/>
+        <location filename="../languages.cpp" line="263"/>
         <source>Portuguese - Portugal</source>
         <translation>Portekiz Portegizcesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="273"/>
+        <location filename="../languages.cpp" line="274"/>
         <source>Simplified-Chinese</source>
         <translation>Basitleştirilmiş Çince</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="274"/>
+        <location filename="../languages.cpp" line="275"/>
         <source>Traditional Chinese</source>
         <translation>Geleneksel Çince</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="282"/>
+        <location filename="../languages.cpp" line="283"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="283"/>
+        <location filename="../languages.cpp" line="284"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="284"/>
+        <location filename="../languages.cpp" line="285"/>
         <source>Western European Languages</source>
         <translation>Batı Avrupa Dilleri</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="285"/>
+        <location filename="../languages.cpp" line="286"/>
         <source>Western European Languages with Euro</source>
         <translation>Batı Avrupa Dilleri (€ içeren)</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="286"/>
+        <location filename="../languages.cpp" line="287"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slav/Orta Avrupa Dilleri</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="287"/>
+        <location filename="../languages.cpp" line="288"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galiçyaca, Maltaca, Türkçe</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="288"/>
+        <location filename="../languages.cpp" line="289"/>
         <source>Old Baltic charset</source>
         <translation>Eski Baltık Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="289"/>
+        <location filename="../languages.cpp" line="290"/>
         <source>Cyrillic</source>
         <translation>Kiril Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="291"/>
+        <location filename="../languages.cpp" line="292"/>
         <source>Modern Greek</source>
         <translation>Çağdaş Yunanca</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Baltic</source>
         <translation>Baltık Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Celtic</source>
         <translation>Keltçe</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>South-Eastern European</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Hebrew charsets</source>
         <translation>İbranice</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukraynaca, Beyaz Rusça</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Simplified Chinese charset</source>
         <translation>Basitleştirilmiş Çin Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Traditional Chinese charset</source>
         <translation>Geleneksel Çin Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Japanese charsets</source>
         <translation>Japon Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Korean charset</source>
         <translation>Kore Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Thai charset</source>
         <translation>Tay Alfabesi</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Cyrillic Windows</source>
         <translation>Kiril Alfabesi Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slav/Orta Avrupa Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>Arabic Windows</source>
         <translation>Arapça Windows</translation>
     </message>
@@ -4129,7 +4135,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Modern Greek Windows</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4276,12 +4282,12 @@ Do you want to overwrite?</source>
 <context>
     <name>MultilineInputDialog</name>
     <message>
-        <location filename="../multilineinputdialog.ui" line="14"/>
+        <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../multilineinputdialog.ui" line="20"/>
+        <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
         <translation type="unfinished"></translation>
     </message>
