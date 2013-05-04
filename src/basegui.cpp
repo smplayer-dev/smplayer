@@ -3842,7 +3842,7 @@ void BaseGui::loadAudioFile() {
 }
 
 void BaseGui::helpFirstSteps() {
-	QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/guide.php?version=%1").arg(smplayerVersion()));
+	QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/first-steps.php?version=%1").arg(smplayerVersion()));
 }
 
 void BaseGui::helpFAQ() {
