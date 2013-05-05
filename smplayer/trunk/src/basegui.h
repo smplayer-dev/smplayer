@@ -33,7 +33,6 @@
 #include <windows.h>
 #endif
 
-/*
 #ifdef Q_OS_WIN
   #ifdef PORTABLE_APP
      #define TEST_UPDATE
@@ -41,7 +40,6 @@
 #else
   #define TEST_UPDATE
 #endif
-*/
 
 class QWidget;
 class QMenu;
