@@ -68,6 +68,7 @@ public:
 
 signals:
 	void volumeChanged(int);
+	void volumeSliderMoved(int);
 
 public slots:
     void setVolumeMax() { volumeBar->setValue( volumeBar->maximum()); }

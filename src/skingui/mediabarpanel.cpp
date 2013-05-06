@@ -53,6 +53,7 @@ MediaBarPanel::MediaBarPanel(QWidget *parent) :
     setLayout(layout);
 
 	connect(volumeControlPanel, SIGNAL(volumeChanged(int)), this, SIGNAL(volumeChanged(int)));
+	connect(volumeControlPanel, SIGNAL(volumeSliderMoved(int)), this, SIGNAL(volumeSliderMoved(int)));
 	connect(mediaPanel, SIGNAL(seekerChanged(int)), this, SIGNAL(seekerChanged(int)));
 }
 
