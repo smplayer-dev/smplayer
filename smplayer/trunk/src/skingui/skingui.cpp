@@ -296,6 +296,7 @@ void SkinGui::createControlWidget() {
 	mediaBarPanel->setToolbarActionCollection(actions);
 
 	connect(mediaBarPanel, SIGNAL(volumeChanged(int)), core, SLOT(setVolume(int)));
+	connect(mediaBarPanel, SIGNAL(volumeSliderMoved(int)), core, SLOT(setVolume(int)));
 	connect(core, SIGNAL(volumeChanged(int)), mediaBarPanel, SLOT(setVolume(int)));
 
 #ifdef SEEKBAR_RESOLUTION

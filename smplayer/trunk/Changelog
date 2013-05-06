@@ -1,7 +1,11 @@
 [b]Version 0.8.5[/b]:
 
+(2013-05-05)
+ * The volume slider in the skingui now updates the volume while the
+   slider is been moved.
+
 (2013-05-03)
-  * Add the Malay translation, by abuyop (transifex).
+ * Add the Malay translation, by abuyop (transifex).
 
 (2013-05-02)
  * Compile without USE_FONTCONFIG_OPTIONS in linux to prevent the

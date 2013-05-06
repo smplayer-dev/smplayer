@@ -40,7 +40,7 @@ PanelSeeker::PanelSeeker(QWidget *parent) :
     setEnabled(false);
     setState(Stopped, true);     
     setTracking(pref->update_while_seeking);
-    connect(this, SIGNAL(valueChanged(int)), this, SLOT(moved(int)));    
+    connect(this, SIGNAL(valueChanged(int)), this, SLOT(moved(int)));
     setRange(0, 100);
     freezeTimer = new QTimer(this);
     freezeTimer->setInterval(frozenPeriod);

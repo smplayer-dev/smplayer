@@ -72,6 +72,7 @@ public slots:
 
 signals:
 	void volumeChanged(int);
+	void volumeSliderMoved(int);
 	void seekerChanged(int);
 };
 
