@@ -119,7 +119,8 @@ void MediaBarPanel::gotCurrentTime(double time)
 
 void MediaBarPanel::updateMediaInfo()
 {
-    mediaPanel->setMediaLabelText(core->mdat.displayName());
+    QString s = QString("%1 (%2x%3)").arg(core->mdat.displayName()).arg(core->mdat.video_width).arg(core->mdat.video_height);
+    mediaPanel->setMediaLabelText(s);
 }
 
 void MediaBarPanel::displayMessage(QString status)
