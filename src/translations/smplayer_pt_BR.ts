@@ -161,7 +161,7 @@
     <message>
         <location filename="../about.cpp" line="229"/>
         <source>Malay</source>
-        <translation type="unfinished">Malay</translation>
+        <translation>Malaio</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="253"/>
@@ -1441,7 +1441,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="4860"/>
         <source>MPlayer has crashed.</source>
-        <translation>MPlayer crashou.</translation>
+        <translation>O MPlayer terminou inesperadamente.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4861"/>
@@ -3333,7 +3333,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation>Malayalam</translation>
+        <translation>Malaialaio</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
@@ -8346,37 +8346,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="380"/>
+        <location filename="../skingui/skingui.cpp" line="381"/>
         <source>&amp;Toolbars</source>
         <translation>Barra de ferramen&amp;tas</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="383"/>
+        <location filename="../skingui/skingui.cpp" line="384"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra de ferra&amp;mentas principal</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="387"/>
+        <location filename="../skingui/skingui.cpp" line="388"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Editar barra de ferramen&amp;tas principal</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="389"/>
+        <location filename="../skingui/skingui.cpp" line="390"/>
         <source>Edit &amp;floating control</source>
         <translation>Editar controle &amp;flutuante</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="404"/>
+        <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Playing %1</source>
         <translation>Tocando %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>Pause</source>
         <translation>Pausar</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="406"/>
+        <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -8894,17 +8894,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeControlPanel</name>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="131"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
         <translation>Lista de execução</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
         <translation>Tela cheia ligado/desligado</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
         <translation>Equalizador de vídeo</translation>
     </message>

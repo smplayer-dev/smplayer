@@ -161,7 +161,7 @@
     <message>
         <location filename="../about.cpp" line="229"/>
         <source>Malay</source>
-        <translation type="unfinished">Malaiera</translation>
+        <translation>Malaiera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="253"/>
@@ -1134,7 +1134,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1652"/>
         <source>Dec contrast</source>
-        <translation>Gut. zuribeltztasuna</translation>
+        <translation>Gutx. zuribeltztasuna</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1653"/>
@@ -1144,7 +1144,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1654"/>
         <source>Dec brightness</source>
-        <translation>Gut. dizdira</translation>
+        <translation>Gutx. dizdira</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1655"/>
@@ -1154,7 +1154,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1656"/>
         <source>Dec hue</source>
-        <translation>Gut. nabardura</translation>
+        <translation>Gutx. nabardura</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -1164,12 +1164,12 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1658"/>
         <source>Dec saturation</source>
-        <translation>Gut. margoasetasuna</translation>
+        <translation>Gutx. margoasetasuna</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1660"/>
         <source>Dec gamma</source>
-        <translation>Gut. gamma</translation>
+        <translation>Gutx. gamma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1663"/>
@@ -4493,7 +4493,7 @@ Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>Bideo iragazki gehigarriak ere bidali ahal dizkiozu.
 Bereizi itzazu &quot;,&quot; bidez. Ez erabili zuriunerik
-Adibidez: scale=512:-2.eq2=1.1</translation>
+Adibidez: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="424"/>
@@ -8346,37 +8346,37 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="380"/>
+        <location filename="../skingui/skingui.cpp" line="381"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Tresnabarrak</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="383"/>
+        <location filename="../skingui/skingui.cpp" line="384"/>
         <source>&amp;Main toolbar</source>
         <translation>Tresnabarra &amp;nagusia</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="387"/>
+        <location filename="../skingui/skingui.cpp" line="388"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Editatu &amp;tresnabarra nagusia</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="389"/>
+        <location filename="../skingui/skingui.cpp" line="390"/>
         <source>Edit &amp;floating control</source>
         <translation>Editatu &amp;gaineko agintea</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="404"/>
+        <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Playing %1</source>
         <translation>%1 irakurtzen</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>Pause</source>
         <translation>Pausatu</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="406"/>
+        <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Stop</source>
         <translation>Gelditu</translation>
     </message>
@@ -8894,17 +8894,17 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
 <context>
     <name>VolumeControlPanel</name>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="131"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
         <translation>Irakur-zerrenda</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
         <translation>Ikusleiho-osoa bai/ez</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
         <translation>Bideo ekualizagailua</translation>
     </message>
