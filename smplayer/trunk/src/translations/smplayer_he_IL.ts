@@ -11,17 +11,17 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Links:</source>
-        <translation>קישורים:</translation>
+        <translation>Links:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>Official website:</source>
-        <translation>אתר רשת רשמי:</translation>
+        <translation>Official website:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>Support forum:</source>
-        <translation>פורום תמיכה:</translation>
+        <translation>Support forum:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
@@ -161,7 +161,7 @@
     <message>
         <location filename="../about.cpp" line="229"/>
         <source>Malay</source>
-        <translation type="unfinished">מלאי</translation>
+        <translation>מלאי</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="253"/>
@@ -931,7 +931,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1603"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
+        <translation>מעלעל &amp;YouTube%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3697"/>
@@ -963,27 +963,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4217"/>
         <source>New version available</source>
-        <translation>גירסה חדשה זמינה</translation>
+        <translation>גרסא חדשה זמינה</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4218"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation>גירסה חדשה של SMPlayer זמינה.</translation>
+        <translation>גרסא חדשה של SMPlayer זמינה.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4219"/>
         <source>Installed version: %1</source>
-        <translation>גירסה מותקנת: %1</translation>
+        <translation>גרסא מותקנת: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4220"/>
         <source>Available version: %1</source>
-        <translation>גירסה זמינה: %1</translation>
+        <translation>גרסא זמינה: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4221"/>
         <source>Would you like to know more about this new version?</source>
-        <translation>האם ברצונך לדעת עוד אודות גירסה זו?</translation>
+        <translation>האם ברצונך לדעת עוד אודות גרסא זו?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4421"/>
@@ -1104,7 +1104,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1591"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">&amp;משתמט</translation>
+        <translation>&amp;משתמט</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1614"/>
@@ -1255,7 +1255,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1837"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation>ה&amp;פוך</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1846"/>
@@ -1275,12 +1275,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4939"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation>מעלעל YouTube לא היה ניתן לשיגור.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4940"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>ודא שרכיב %1 הינו מותקן.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -1441,7 +1441,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4860"/>
         <source>MPlayer has crashed.</source>
-        <translation>MPlayer קרס.</translation>
+        <translation>מגשר עורפי MPlayer קרס.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4861"/>
@@ -2533,12 +2533,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>התחברות אל opensubtitles.org נכשלה</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>חיפוש נכשל</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="581"/>
@@ -2622,7 +2622,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="558"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>כתובית נשמרה בשם %1</translation>
     </message>
     <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
@@ -4227,12 +4227,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>הזן URL(ים)</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation>הזן URL(ים) להוספה אל רשימת הנגינה. אחד לכל שורה.</translation>
     </message>
 </context>
 <context>
@@ -4405,7 +4405,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="316"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>הוסף &amp;URL(ים)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="319"/>
@@ -4604,7 +4604,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>במידה ואפשרות זו מסומנת, היומן של MPlayer יאוחסן אל הקובץ המצוין בכל פעם שקובץ חדש מתחיל להתנגן. זו נועדה עבור יישומים חיצוניים, כך שאלו יוכלו להשיג מידע אודות מקובץ אותו אתה מנגן.</translation>
+        <translation>במידה ואפשרות זו מאופשרת, היומן של MPlayer יאוחסן אל הקובץ המצוין בכל פעם שקובץ חדש מתחיל להתנגן. זו נועדה עבור יישומים חיצוניים, כך שאלו יוכלו להשיג מידע אודות מקובץ אותו אתה מנגן.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -7263,12 +7263,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>השג מידע אוטומטית אודות קבצים מוספים</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>שמור עותק של רשימת נגינה בעת יציאה</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
@@ -8274,7 +8274,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>opens the gui with support for skins.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -8344,37 +8344,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="380"/>
+        <location filename="../skingui/skingui.cpp" line="381"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="383"/>
+        <location filename="../skingui/skingui.cpp" line="384"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="387"/>
+        <location filename="../skingui/skingui.cpp" line="388"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="389"/>
+        <location filename="../skingui/skingui.cpp" line="390"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="404"/>
+        <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="406"/>
+        <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
@@ -8892,17 +8892,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeControlPanel</name>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="131"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
         <translation>רשימת נגינה</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
         <translation>מסך מלא דלוק/כבוי</translation>
     </message>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
         <translation>אקולייזר וידאו</translation>
     </message>

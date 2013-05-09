@@ -8430,7 +8430,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="+380"/>
+        <location filename="../skingui/skingui.cpp" line="+381"/>
         <source>&amp;Toolbars</source>
         <translation type="unfinished">Barre s&amp;trumenti</translation>
     </message>
@@ -9033,7 +9033,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VolumeControlPanel</name>
     <message>
-        <location filename="../skingui/volumecontrolpanel.cpp" line="+131"/>
+        <location filename="../skingui/volumecontrolpanel.cpp" line="+132"/>
         <source>Playlist</source>
         <translation type="unfinished">Lista di riproduzione</translation>
     </message>
