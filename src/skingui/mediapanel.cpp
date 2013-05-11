@@ -49,6 +49,9 @@ MediaPanel::MediaPanel(QWidget *parent)
 
 	setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
 	mediaLabel = new ScrollingLabel(this);
+	resolutionLabel = new QLabel(this);
+	resolutionLabel->setObjectName("panel-resolution");
+	resolutionLabel->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Preferred);
 	repeatButton = new MyButton(this);
 	shuffleButton = new MyButton(this);
 	seeker = new PanelSeeker;
@@ -66,21 +69,25 @@ MediaPanel::MediaPanel(QWidget *parent)
 	elapsedLabel->setMargin(0);
 	elapsedLabel->setAlignment(Qt::AlignHCenter | Qt::AlignTop);
 	elapsedLabel->setIndent(3);
+	elapsedLabel->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Preferred);
 	totalLabel = new QLabel(this);
 	totalLabel->setObjectName("panel-total-label");
 	totalLabel->setMargin(0);
 	totalLabel->setAlignment(Qt::AlignHCenter | Qt::AlignTop);
 	totalLabel->setIndent(3);
 	layout->addWidget( mediaLabel, 0, 0, 1, 2 );
-	layout->addWidget( repeatButton, 0, 2  );
-	layout->addWidget( shuffleButton, 0, 3  );
+	layout->addWidget( resolutionLabel, 0, 2, 1, 1 );
+	layout->addWidget( repeatButton, 0, 3  );
+	layout->addWidget( shuffleButton, 0, 4  );
 	layout->addWidget(elapsedLabel, 1, 0, 1, 1);
-	layout->addWidget(seeker, 1, 1, 1, 1);
-	layout->addWidget(totalLabel, 1, 2, 1, 2);
+	layout->addWidget(seeker, 1, 1, 1, 2);
+	layout->addWidget(totalLabel, 1, 3, 1, 2);
 	layout->setSpacing(0);
 	layout->setContentsMargins(8,3,8, 3);
 	elapsedLabel->setText("00:00:00");
 	totalLabel->setText("00:00:00");
+	//resolutionLabel->setText("1920x1024");
+	//resolutionLabel->hide();
 	setLayout(layout);
 	timer = new QTimer(this);
 	timer->setSingleShot(true);
@@ -144,6 +151,10 @@ void MediaPanel::setMediaLabelText(QString text) {
 	mediaLabel->setText(text);
 	mediaLabel->update();
 	originalTitle = text;
+}
+
+void MediaPanel::setResolutionLabelText(QString text) {
+	resolutionLabel->setText(text);
 }
 
 void MediaPanel::setStatusText(QString text, int time) {

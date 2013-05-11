@@ -84,6 +84,7 @@ public:
     void setMplayerState(int state);
     void setDuration(int duration);
     void setMediaLabelText(QString text);
+    void setResolutionLabelText(QString text);
     void setStatusText(QString text, int time = 2000);
     void setBuffering(bool enable);
     bool eventFilter(QObject *object, QEvent *event);
@@ -97,6 +98,7 @@ private:
     QPixmap centerBackground;
     QPixmap rightBackground;
     ScrollingLabel* mediaLabel;
+    QLabel *resolutionLabel;
     PanelSeeker* seeker;
     MyButton* repeatButton;
     MyButton* shuffleButton;
