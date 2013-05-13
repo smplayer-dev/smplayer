@@ -96,7 +96,11 @@ void MplayerProcess::writeToStdin(QString text) {
 	if (isRunning()) {
 		//qDebug("MplayerProcess::writeToStdin");
 #if !defined(Q_OS_OS2)
+		#ifdef Q_OS_WIN
+		write( text.toUtf8() + "\n");
+		#else
 		write( text.toLocal8Bit() + "\n");
+		#endif
 #else
 		MPpipeWrite( text.toLocal8Bit() + "\n");
 #endif
@@ -227,7 +231,11 @@ void MplayerProcess::parseLine(QByteArray ba) {
 #if COLOR_OUTPUT_SUPPORT
     QString line = ColorUtils::stripColorsTags(QString::fromLocal8Bit(ba));
 #else
+	#ifdef Q_OS_WIN
+	QString line = QString::fromUtf8(ba);
+	#else
 	QString line = QString::fromLocal8Bit(ba);
+	#endif
 #endif
 
 	// Parse A: V: line
