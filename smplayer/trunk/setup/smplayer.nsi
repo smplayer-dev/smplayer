@@ -641,13 +641,11 @@ FunctionEnd
 
 Function .onInit
 
-/*
   ${Unless} ${AtLeastWinXP}
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
     Abort
   installonoldwindows:
   ${EndIf}
-*/
 
 !ifdef WIN64
   ${IfNot} ${RunningX64}
