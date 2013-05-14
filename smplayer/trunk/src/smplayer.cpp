@@ -103,9 +103,11 @@ BaseGui * SMPlayer::gui() {
 		if (gui_to_use == "SkinGUI") {
 			QString theme = pref->iconset;
 			if (theme.isEmpty()) theme = "Gonzo";
+			QString user_theme_dir = Paths::configPath() + "/themes/" + theme;
 			QString theme_dir = Paths::themesPath() + "/" + theme;
+			qDebug("SMPlayer::gui: user_theme_dir: %s", user_theme_dir.toUtf8().constData());
 			qDebug("SMPlayer::gui: theme_dir: %s", theme_dir.toUtf8().constData());
-			if (QDir(theme_dir).exists()) {
+			if ((QDir(theme_dir).exists()) || (QDir(user_theme_dir).exists())) {
 				if (pref->iconset.isEmpty()) pref->iconset = theme;
 			} else {
 				qDebug("SMPlayer::gui: skin folder doesn't exist. Falling back to default gui.");
