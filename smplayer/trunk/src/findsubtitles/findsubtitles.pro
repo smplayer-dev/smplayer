@@ -48,21 +48,23 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 
 	FORMS += subchooserdialog.ui
 
-	HEADERS += crypt.h \
-	           ioapi.h \
-	           quazip.h \
-	           quazipfile.h \
-	           quazipfileinfo.h \
-	           quazipnewinfo.h \
-	           unzip.h \
-	           zip.h
+	contains( DEFINES, USE_QUAZIP ) {
+		HEADERS += crypt.h \
+		           ioapi.h \
+		           quazip.h \
+		           quazipfile.h \
+		           quazipfileinfo.h \
+		           quazipnewinfo.h \
+		           unzip.h \
+		           zip.h
 
-	SOURCES += ioapi.c \
-	           quazip.cpp \
-	           quazipfile.cpp \
-	           quazipnewinfo.cpp \
-	           unzip.c \
-	           zip.c
+		SOURCES += ioapi.c \
+		           quazip.cpp \
+		           quazipfile.cpp \
+		           quazipnewinfo.cpp \
+		           unzip.c \
+		           zip.c
+	}
 
 	LIBS += -lz
 	
