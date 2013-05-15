@@ -146,7 +146,11 @@ void OSClient::responseSearch(QVariant &arg) {
 
 		sub.releasename = m["MovieReleaseName"].toString();
 		sub.movie = m["MovieName"].toString();
+#ifdef USE_QUAZIP
 		sub.link = m["ZipDownloadLink"].toString();
+#else
+		sub.link = m["SubDownloadLink"].toString();
+#endif
 		sub.date = m["SubAddDate"].toString();
 		sub.iso639 = m["ISO639"].toString();
 		sub.rating = m["SubRating"].toString();

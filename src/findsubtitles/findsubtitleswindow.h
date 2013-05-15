@@ -104,8 +104,10 @@ signals:
 	void subtitleDownloaded(const QString & filename);
 
 protected:
+	#ifdef USE_QUAZIP
 	bool uncompressZip(const QString & filename, const QString & output_path, const QString & preferred_output_name);
 	bool extractFile(QuaZip & zip, const QString & filename, const QString & output_name);
+	#endif
 
 protected slots:
 	void fixSubtitles(const QString & filename);

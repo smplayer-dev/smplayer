@@ -35,13 +35,17 @@
 #include <QSettings>
 
 #ifdef DOWNLOAD_SUBS
+#include <QBuffer>
 #include "filedownloader.h"
 #include "subchooserdialog.h"
+#include "fixsubs.h"
+
+#ifdef USE_QUAZIP
 #include "quazip.h"
 #include "quazipfile.h"
-#include "fixsubs.h"
 #include <QTemporaryFile>
-#include <QBuffer>
+#endif
+
 #endif
 
 //#define NO_SMPLAYER_SUPPORT
@@ -470,6 +474,11 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 }
 
 #ifdef DOWNLOAD_SUBS
+#ifndef USE_QUAZIP
+void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
+	qDebug("FindSubtitlesWindow::archiveDownloaded");
+}
+#else
 void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
 
@@ -634,6 +643,7 @@ bool FindSubtitlesWindow::extractFile(QuaZip & zip, const QString & filename, co
 
 	return true;
 }
+#endif // Quazip
 
 void FindSubtitlesWindow::fixSubtitles(const QString & filename) {
 	qDebug("FindSubtitlesWindow::fixSubtitles: %s", filename.toUtf8().constData());
