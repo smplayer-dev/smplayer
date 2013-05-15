@@ -44,6 +44,8 @@
 #include "quazip.h"
 #include "quazipfile.h"
 #include <QTemporaryFile>
+#else
+#include <zlib.h>
 #endif
 
 #endif
@@ -474,11 +476,102 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 }
 
 #ifdef DOWNLOAD_SUBS
+
 #ifndef USE_QUAZIP
 void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
+	QByteArray uncompress_data = gUncompress(buffer);
+	qDebug("uncompress_data: %s", uncompress_data.constData());
+
+	if (uncompress_data.isEmpty()) {
+		status->setText(tr("Download failed"));
+		return;
+	}
+
+	QString lang = "unknown";
+	QString extension = "unknown";
+	if (view->currentIndex().isValid()) {
+		const QModelIndex & index = view->currentIndex();
+		lang = table->item(proxy_model->mapToSource(index).row(), COL_LANG)->data(Qt::UserRole).toString();
+		extension = table->item(proxy_model->mapToSource(index).row(), COL_FORMAT)->text();
+	}
+
+	QFileInfo fi(file_chooser->text());
+	QString output_name = fi.completeBaseName();
+	if (include_lang_on_filename) output_name += "_"+ lang;
+	output_name += "." + extension;
+
+	QString output_file = fi.absolutePath() + "/" + output_name;
+	qDebug("FindSubtitlesWindow::archiveDownloaded: save subtitle as '%s'", output_file.toUtf8().constData());
+
+	QFile file(output_file);
+	file.open(QIODevice::WriteOnly);
+	bool error = (file.write(uncompress_data) == -1);
+	file.close();
+
+	if (error) {
+		qWarning("FindSubtitlesWindow::archiveDownloaded: can't write subtitle file");
+		QMessageBox::warning(this, tr("Error saving file"),
+                             tr("It wasn't possible to save the downloaded\n"
+                                "file in folder %1\n"
+                                "Please check the permissions of that folder.").arg(fi.absolutePath()));
+	} else {
+		emit subtitleDownloaded( output_file );
+	}
 }
+
+QByteArray FindSubtitlesWindow::gUncompress(const QByteArray &data)
+{
+    if (data.size() <= 4) {
+        qWarning("gUncompress: Input data is truncated");
+        return QByteArray();
+    }
+
+    QByteArray result;
+
+    int ret;
+    z_stream strm;
+    static const int CHUNK_SIZE = 1024;
+    char out[CHUNK_SIZE];
+
+    /* allocate inflate state */
+    strm.zalloc = Z_NULL;
+    strm.zfree = Z_NULL;
+    strm.opaque = Z_NULL;
+    strm.avail_in = data.size();
+    strm.next_in = (Bytef*)(data.data());
+
+    ret = inflateInit2(&strm, 15 +  32); // gzip decoding
+    if (ret != Z_OK)
+        return QByteArray();
+
+    // run inflate()
+    do {
+        strm.avail_out = CHUNK_SIZE;
+        strm.next_out = (Bytef*)(out);
+
+        ret = inflate(&strm, Z_NO_FLUSH);
+        Q_ASSERT(ret != Z_STREAM_ERROR);  // state not clobbered
+
+        switch (ret) {
+        case Z_NEED_DICT:
+            ret = Z_DATA_ERROR;     // and fall through
+        case Z_DATA_ERROR:
+        case Z_MEM_ERROR:
+            (void)inflateEnd(&strm);
+            return QByteArray();
+        }
+
+        result.append(out, CHUNK_SIZE - strm.avail_out);
+    } while (strm.avail_out == 0);
+
+    // clean up and return
+    inflateEnd(&strm);
+    return result;
+}
+
 #else
+
 void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
 
@@ -643,7 +736,7 @@ bool FindSubtitlesWindow::extractFile(QuaZip & zip, const QString & filename, co
 
 	return true;
 }
-#endif // Quazip
+#endif // USE_QUAZIP
 
 void FindSubtitlesWindow::fixSubtitles(const QString & filename) {
 	qDebug("FindSubtitlesWindow::fixSubtitles: %s", filename.toUtf8().constData());
@@ -658,7 +751,7 @@ void FindSubtitlesWindow::fixSubtitles(const QString & filename) {
 	}
 }
 
-#endif
+#endif // DOWNLOAD_SUBS
 
 void FindSubtitlesWindow::on_configure_button_clicked() {
 	qDebug("FindSubtitlesWindow::on_configure_button_clicked");
