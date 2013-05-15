@@ -133,6 +133,7 @@ FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
 	connect( osclient, SIGNAL(searchFinished()), this, SLOT(parseInfo()) );
 	connect( osclient, SIGNAL(loginFailed()), this, SLOT(showLoginFailed()) );
 	connect( osclient, SIGNAL(searchFailed()), this, SLOT(showSearchFailed()) );
+	connect( osclient, SIGNAL(errorFound(int, const QString &)), this, SLOT(showErrorOS(int, const QString &)) );
 
 #ifdef DOWNLOAD_SUBS
 	include_lang_on_filename = true;
@@ -343,6 +344,10 @@ void FindSubtitlesWindow::showLoginFailed() {
 
 void FindSubtitlesWindow::showSearchFailed() {
 	status->setText( tr("Search has failed") );
+}
+
+void FindSubtitlesWindow::showErrorOS(int, const QString & error) {
+	status->setText(error);
 }
 
 void FindSubtitlesWindow::updateDataReadProgress(int done, int total) {
