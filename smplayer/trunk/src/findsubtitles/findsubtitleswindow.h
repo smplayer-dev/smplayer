@@ -107,6 +107,8 @@ protected:
 	#ifdef USE_QUAZIP
 	bool uncompressZip(const QString & filename, const QString & output_path, const QString & preferred_output_name);
 	bool extractFile(QuaZip & zip, const QString & filename, const QString & output_name);
+	#else
+	QByteArray gUncompress(const QByteArray &data);
 	#endif
 
 protected slots:
