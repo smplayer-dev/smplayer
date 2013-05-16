@@ -481,7 +481,7 @@ void FindSubtitlesWindow::changeEvent(QEvent *e) {
 void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
 	qDebug("FindSubtitlesWindow::archiveDownloaded");
 	QByteArray uncompress_data = gUncompress(buffer);
-	qDebug("uncompress_data: %s", uncompress_data.constData());
+	//qDebug("uncompress_data: %s", uncompress_data.constData());
 
 	if (uncompress_data.isEmpty()) {
 		status->setText(tr("Download failed"));
