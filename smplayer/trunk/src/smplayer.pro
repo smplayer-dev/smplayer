@@ -275,6 +275,7 @@ contains( DEFINES, SINGLE_INSTANCE ) {
 # Find subtitles dialog
 contains( DEFINES, FIND_SUBTITLES ) {
 	DEFINES += DOWNLOAD_SUBS
+	#DEFINES += USE_QUAZIP
 
 	INCLUDEPATH += findsubtitles
 	DEPENDPATH += findsubtitles
@@ -293,29 +294,34 @@ contains( DEFINES, FIND_SUBTITLES ) {
 
 # Download subtitles
 contains( DEFINES, DOWNLOAD_SUBS ) {
-	INCLUDEPATH += findsubtitles/filedownloader findsubtitles/quazip
-	DEPENDPATH += findsubtitles/filedownloader findsubtitles/quazip
+	INCLUDEPATH += findsubtitles/filedownloader
+	DEPENDPATH += findsubtitles/filedownloader
 
 	HEADERS += filedownloader.h subchooserdialog.h fixsubs.h
 	SOURCES += filedownloader.cpp subchooserdialog.cpp fixsubs.cpp
 
 	FORMS += subchooserdialog.ui
 
-	HEADERS += crypt.h \
-	           ioapi.h \
-	           quazip.h \
-	           quazipfile.h \
-	           quazipfileinfo.h \
-	           quazipnewinfo.h \
-	           unzip.h \
-	           zip.h
+	contains( DEFINES, USE_QUAZIP ) {
+		INCLUDEPATH += findsubtitles/quazip
+		DEPENDPATH += findsubtitles/quazip
 
-	SOURCES += ioapi.c \
-	           quazip.cpp \
-	           quazipfile.cpp \
-	           quazipnewinfo.cpp \
-	           unzip.c \
-	           zip.c
+		HEADERS += crypt.h \
+		           ioapi.h \
+		           quazip.h \
+		           quazipfile.h \
+		           quazipfileinfo.h \
+		           quazipnewinfo.h \
+		           unzip.h \
+		           zip.h
+
+		SOURCES += ioapi.c \
+		           quazip.cpp \
+		           quazipfile.cpp \
+		           quazipnewinfo.cpp \
+		           unzip.c \
+		           zip.c
+}
 
 	LIBS += -lz
 	
