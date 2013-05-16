@@ -1,3 +1,22 @@
+[b]Version 0.8.6[/b]:
+
+(2013-05-16)
+ * (Experimental) Download the subtitles from opensubtitles.org in gzip
+   format instead of zip. The quazip library is not needed anymore.
+
+(2013-05-15)
+ * Bugfix: check for the skin in the user dir before falling back to the
+   default gui.
+
+(2013-05-13)
+ * (Windows) Read and write text to mplayer as utf8. 
+   Hopefully this will fix loading of external subtitles if the 
+   filename contains non latin characters.
+
+(2013-05-12)
+ * (Skingui) Add a label to display the resolution of the video.
+
+
 [b]Version 0.8.5[/b]:
 
 (2013-05-05)
