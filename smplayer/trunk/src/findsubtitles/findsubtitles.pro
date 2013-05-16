@@ -38,10 +38,11 @@ SOURCES += maiaObject.cpp maiaFault.cpp maiaXmlRpcClient.cpp osclient.cpp
 FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 
 DEFINES += NO_SMPLAYER_SUPPORT DOWNLOAD_SUBS
+#DEFINES += USE_QUAZIP
 
 contains( DEFINES, DOWNLOAD_SUBS ) {
-	INCLUDEPATH += filedownloader quazip
-	DEPENDPATH += filedownloader quazip
+	INCLUDEPATH += filedownloader
+	DEPENDPATH += filedownloader
 
 	HEADERS += filedownloader.h subchooserdialog.h
 	SOURCES += filedownloader.cpp subchooserdialog.cpp
@@ -49,6 +50,9 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	FORMS += subchooserdialog.ui
 
 	contains( DEFINES, USE_QUAZIP ) {
+		INCLUDEPATH += quazip
+		DEPENDPATH += quazip
+
 		HEADERS += crypt.h \
 		           ioapi.h \
 		           quazip.h \
