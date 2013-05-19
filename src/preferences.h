@@ -504,6 +504,10 @@ public:
        SMPlayer info
        ********* */
 
+#ifdef CHECK_UPGRADED
+	QString smplayer_stable_version;
+	bool check_if_upgraded;
+#endif
 #ifdef FONTCACHE_DIALOG
 	QString smplayer_version;
 #endif

@@ -4232,15 +4232,8 @@ void BaseGui::reportNewVersionAvailable(QString new_version) {
 #ifdef CHECK_UPGRADED
 void BaseGui::checkIfUpgraded() {
 	qDebug("BaseGui::checkIfUpgraded");
-	QSettings * set = Global::settings;
-	set->beginGroup("smplayer");
-	QString version = set->value("stable_version", "").toString();
-	bool check_for_new_version = set->value("check_for_new_version", true).toBool();
-	set->setValue("stable_version", stableVersion());
-	set->setValue("check_for_new_version", check_for_new_version);
-	set->endGroup();
 
-	if ( (check_for_new_version) && (version != stableVersion()) ) {
+	if ( (pref->check_if_upgraded) && (pref->smplayer_stable_version != stableVersion()) ) {
 		// Running a new version
 		qDebug("BaseGui::checkIfUpgraded: running a new version: %s", stableVersion().toUtf8().constData());
 		QString os = "other";
@@ -4252,6 +4245,7 @@ void BaseGui::checkIfUpgraded() {
 		#endif
 		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=%2").arg(smplayerVersion()).arg(os));
 	}
+	pref->smplayer_stable_version = stableVersion();
 }
 #endif
 
