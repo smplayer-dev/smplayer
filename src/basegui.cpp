@@ -198,7 +198,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	initializeGui();
 
 #ifdef UPDATE_CHECKER
-	update_checker = new UpdateChecker(this, Global::settings);
+	update_checker = new UpdateChecker(this, &pref->update_checker_data);
 	connect(update_checker, SIGNAL(newVersionFound(QString)), 
             this, SLOT(reportNewVersionAvailable(QString)));
 #endif

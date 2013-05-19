@@ -962,6 +962,13 @@ void Preferences::save() {
 	set->endGroup();
 #endif
 
+
+    /* *********
+       Update
+       ********* */
+
+	update_checker_data.save(set);
+
 	set->sync();
 }
 
@@ -1427,6 +1434,14 @@ void Preferences::load() {
 	smplayer_version = set->value("version", smplayer_version).toString();
 	set->endGroup();
 #endif
+
+
+    /* *********
+       Update
+       ********* */
+
+	update_checker_data.load(set);
+
 
 	// Fix some values if config is old
 	if (config_version < CURRENT_CONFIG_VERSION) {

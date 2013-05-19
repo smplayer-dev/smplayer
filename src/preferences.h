@@ -28,6 +28,7 @@
 #include "config.h"
 #include "audioequalizerlist.h"
 #include "assstyles.h"
+#include "updatechecker.h"
 
 class Recents;
 class URLHistory;
@@ -507,6 +508,12 @@ public:
 	QString smplayer_version;
 #endif
 
+
+    /* *********
+       Update
+       ********* */
+
+	UpdateCheckerData update_checker_data;
 };
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(Preferences::WheelFunctions)
