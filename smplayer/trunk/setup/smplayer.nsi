@@ -716,9 +716,9 @@ Function .onInstSuccess
 
   ${MementoSectionSave}
 
-  ${Unless} $Reinstall_Uninstall == 1
-    ExecShell "open" "http://smplayer.sourceforge.net/thank-you.php?version=${SMPLAYER_VERSION}"
-  ${EndIf}
+;  ${Unless} $Reinstall_Uninstall == 1
+;    ExecShell "open" "http://smplayer.sourceforge.net/thank-you.php?version=${SMPLAYER_VERSION}"
+;  ${EndIf}
 
 FunctionEnd
 
