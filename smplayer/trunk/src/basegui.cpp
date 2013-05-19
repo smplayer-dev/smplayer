@@ -203,8 +203,8 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
             this, SLOT(reportNewVersionAvailable(QString)));
 #endif
 
-#ifdef TEST_UPDATE
-	QTimer::singleShot(2000, this, SLOT(testUpdate()));
+#ifdef CHECK_UPGRADED
+	QTimer::singleShot(2000, this, SLOT(checkIfUpgraded()));
 #endif
 }
 
@@ -4229,9 +4229,9 @@ void BaseGui::reportNewVersionAvailable(QString new_version) {
 }
 #endif
 
-#ifdef TEST_UPDATE
-void BaseGui::testUpdate() {
-	qDebug("BaseGui::testUpdate");
+#ifdef CHECK_UPGRADED
+void BaseGui::checkIfUpgraded() {
+	qDebug("BaseGui::checkIfUpgraded");
 	QSettings * set = Global::settings;
 	set->beginGroup("smplayer");
 	QString version = set->value("stable_version", "").toString();
@@ -4242,7 +4242,7 @@ void BaseGui::testUpdate() {
 
 	if ( (check_for_new_version) && (version != stableVersion()) ) {
 		// Running a new version
-		qDebug("BaseGui::testUpdate: running a new version: %s", stableVersion().toUtf8().constData());
+		qDebug("BaseGui::checkIfUpgraded: running a new version: %s", stableVersion().toUtf8().constData());
 		QString os = "other";
 		#ifdef Q_OS_WIN
 		os = "win";
