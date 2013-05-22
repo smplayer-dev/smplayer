@@ -3,7 +3,7 @@
 #include <QFile>
 #include <QDir>
 
-//#define DO_REMOVE
+#define DO_REMOVE
 
 void CleanConfig::clean(const QString & config_path) {
 	qDebug("CleanConfig::clean");
