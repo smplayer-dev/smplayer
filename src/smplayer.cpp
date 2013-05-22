@@ -26,6 +26,7 @@
 #include "version.h"
 #include "config.h"
 #include "clhelp.h"
+#include "cleanconfig.h"
 #include "myapplication.h"
 
 #ifdef SKINS
@@ -206,8 +207,8 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	bool add_to_playlist = false;
 
 #ifdef Q_OS_WIN
-	if (args.contains("-uninstall")){
-#if USE_ASSOCIATIONS
+	if (args.contains("-uninstall")) {
+		#if USE_ASSOCIATIONS
 		//Called by uninstaller. Will restore old associations.
 		WinFileAssoc RegAssoc; 
 		Extensions exts; 
@@ -215,10 +216,15 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		RegAssoc.GetRegisteredExtensions(exts.multimedia(), regExts); 
 		RegAssoc.RestoreFileAssociations(regExts); 
 		printf("Restored associations\n");
-#endif
-		return NoError; 
+		#endif
+		return NoError;
 	}
 #endif
+
+	if (args.contains("-delete-config")) {
+		CleanConfig::clean(Paths::configPath());
+		return NoError;
+	}
 
 	for (int n = 1; n < args.count(); n++) {
 		QString argument = args[n];

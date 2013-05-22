@@ -155,6 +155,7 @@ HEADERS += guiconfig.h \
 	mpcgui/mpcgui.h \
 	mpcgui/mpcstyles.h \
 	clhelp.h \
+	cleanconfig.h \
 	smplayer.h \
 	myapplication.h
 
@@ -252,6 +253,7 @@ SOURCES	+= version.cpp \
 	mpcgui/mpcgui.cpp \
 	mpcgui/mpcstyles.cpp \
 	clhelp.cpp \
+	cleanconfig.cpp \
 	smplayer.cpp \
 	myapplication.cpp \
 	main.cpp
