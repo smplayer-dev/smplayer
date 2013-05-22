@@ -53,6 +53,7 @@ private:
 	void createConfigDirectory();
 #endif
 	void showInfo();
+	void deleteConfig();
 
 	static BaseGui * main_window;
 
