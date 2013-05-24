@@ -46,6 +46,8 @@ ${LangFileString} Section_IconThemes_Desc "Dodatkowe zestawy ikon do SMPlayera."
 ${LangFileString} Section_Translations "Tłumaczenia"
 ${LangFileString} Section_Translations_Desc "Tłumaczenia na inne języki."
 
+${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+
 ${LangFileString} MPlayer_Codec_Msg "Paczka z kodekami dodaje wsparcie dla kodeków, które nie są jeszcze natywnie wspierane, np. nowsze warianty RealVideo, oraz wiele mniej znanych formatów.$\nProszę mieć na uwadze, że paczka nie jest wymagana do odtworzenia popularnych formatów, takich jak DVD, MPEG-1/2/4, itp."
 
 ; Upgrade/Reinstall Page
@@ -60,6 +62,7 @@ ${LangFileString} Reinstall_Msg3_1 "Kliknij Start, gdy będziesz gotów."
 ${LangFileString} Reinstall_Msg3_2 "Kliknij Dalej, gdy będziesz gotów."
 ${LangFileString} Reinstall_Msg3_3 "Kliknij Odinstaluj, gdy będziesz gotów."
 ${LangFileString} Reinstall_Msg4 "Zmiana Ustawień Instalacji"
+${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
 
 ${LangFileString} Type_Reinstall "zainstaluj ponownie"
 ${LangFileString} Type_Downgrade "zrób downgrade"
