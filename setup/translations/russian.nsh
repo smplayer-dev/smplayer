@@ -47,6 +47,8 @@ ${LangFileString} Section_IconThemes_Desc "Дополнительные темы
 ${LangFileString} Section_Translations "Переводы"
 ${LangFileString} Section_Translations_Desc "Языковые файлы SMPlayer, помимо английского."
 
+${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+
 ${LangFileString} MPlayer_Codec_Msg "Пакеты с бинарными кодеками добавляют поддержку кодеков, не встроенных в mplayer, например, RealVideo и других нестандартных форматов.$\nОбратите внимание, что эти кодеки не нужны для воспроизведения большинства обычных форматов вроде DVD, MPEG-1/2/4 и т.п."
 
 ; Upgrade/Reinstall Page
@@ -61,6 +63,7 @@ ${LangFileString} Reinstall_Msg3_1 "Нажмите Старт для продо�
 ${LangFileString} Reinstall_Msg3_2 "Нажмите Далее для продолжения."
 ${LangFileString} Reinstall_Msg3_3 "Нажмите Удалить для продолжения."
 ${LangFileString} Reinstall_Msg4 "Изменить настройки установки"
+${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
 
 ${LangFileString} Type_Reinstall "переустановить"
 ${LangFileString} Type_Downgrade "откатить"

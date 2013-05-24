@@ -47,6 +47,8 @@ ${LangFileString} Section_IconThemes_Desc "Temas de iconos adicionales para SMPl
 ${LangFileString} Section_Translations "Idiomas"
 ${LangFileString} Section_Translations_Desc "Ficheros de idiomas para SMPlayer."
 
+${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+
 ${LangFileString} MPlayer_Codec_Msg "El paquete de códecs binarios añade soporte para códecs que todavía no se han implementado nativamente, como como las nuevas variantes de RealVideo y algunos formatos poco comunes.$\nTen en cuenta de que no son necesarios para reproducir los formatos más comunes como DVDs, MPEG-1/2/4, etc."
 
 ; Upgrade/Reinstall Page
@@ -61,6 +63,7 @@ ${LangFileString} Reinstall_Msg3_1 "Pulsa en Comenzar cuando estés listo."
 ${LangFileString} Reinstall_Msg3_2 "Pulsa Continuar cuando estés listo."
 ${LangFileString} Reinstall_Msg3_3 "Pulsa Desinstalar cuando estés listo."
 ${LangFileString} Reinstall_Msg4 "Cambiar las opciones de instalación"
+${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
 
 ${LangFileString} Type_Reinstall "reinstalar"
 ${LangFileString} Type_Downgrade "desactualizar"

@@ -47,6 +47,8 @@ ${LangFileString} Section_IconThemes_Desc "SMPlayer の追加アイコン テー
 ${LangFileString} Section_Translations "言語"
 ${LangFileString} Section_Translations_Desc "SMPlayer の英語以外のの言語ファイルです。"
 
+${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+
 ${LangFileString} MPlayer_Codec_Msg "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4 などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
 
 ; Upgrade/Reinstall Page
@@ -61,6 +63,7 @@ ${LangFileString} Reinstall_Msg3_1 "続行するには [開始] をクリック�
 ${LangFileString} Reinstall_Msg3_2 "続行するには [次へ] をクリックします。"
 ${LangFileString} Reinstall_Msg3_3 "続行するには [アンインストール] をクリックします。"
 ${LangFileString} Reinstall_Msg4 "インストール設定を変更する"
+${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
 
 ${LangFileString} Type_Reinstall "再インストール"
 ${LangFileString} Type_Downgrade "ダウングレード"

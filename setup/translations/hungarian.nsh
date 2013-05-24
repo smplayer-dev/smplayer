@@ -47,6 +47,8 @@ ${LangFileString} Section_IconThemes_Desc "Additional icon themes for SMPlayer."
 ${LangFileString} Section_Translations "Languages"
 ${LangFileString} Section_Translations_Desc "Non-English language files for SMPlayer."
 
+${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+
 ${LangFileString} MPlayer_Codec_Msg "A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.$\nNem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, MPEG-1/2/4, stb."
 
 ; Upgrade/Reinstall Page
@@ -61,6 +63,7 @@ ${LangFileString} Reinstall_Msg3_1 "Click Start when ready to proceed."
 ${LangFileString} Reinstall_Msg3_2 "Click Next when ready to proceed."
 ${LangFileString} Reinstall_Msg3_3 "Click Uninstall when ready to proceed."
 ${LangFileString} Reinstall_Msg4 "Change Installation Settings"
+${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
 
 ${LangFileString} Type_Reinstall "reinstall"
 ${LangFileString} Type_Downgrade "downgrade"

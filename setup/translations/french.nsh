@@ -47,6 +47,8 @@ ${LangFileString} Section_IconThemes_Desc "Thèmes d'icônes supplémentaires po
 ${LangFileString} Section_Translations "Langues"
 ${LangFileString} Section_Translations_Desc "Fichiers de langues (autres qie l'anglais) pour SMPlayer."
 
+${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+
 ${LangFileString} MPlayer_Codec_Msg "Les paquets de codecs binaires ajoutent le support pour les codecs qui ne sont pas encore nativement supportés, tels que les nouvelles variantes de RealVideo et d'autres formats peu communs.$\nRemarque : Ces codecs ne sont pas nécessaires pour lire les formats communs tels que les DVD, MPE-1/2/4, etc."
 
 ; Upgrade/Reinstall Page
@@ -61,6 +63,7 @@ ${LangFileString} Reinstall_Msg3_1 "Cliquez sur « Démarrer » une fois prêt �
 ${LangFileString} Reinstall_Msg3_2 "Cliquez sur « Suivant » une fois prêt à continuer."
 ${LangFileString} Reinstall_Msg3_3 "Cliquez sur « Désinstaller » une fois prêt à continuer."
 ${LangFileString} Reinstall_Msg4 "Changer les paramètres d'installation."
+${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
 
 ${LangFileString} Type_Reinstall "Réinstaller la même version."
 ${LangFileString} Type_Downgrade "Installer une version plus ancienne."
