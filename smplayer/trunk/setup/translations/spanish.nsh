@@ -63,7 +63,7 @@ ${LangFileString} Reinstall_Msg3_1 "Pulsa en Comenzar cuando estés listo."
 ${LangFileString} Reinstall_Msg3_2 "Pulsa Continuar cuando estés listo."
 ${LangFileString} Reinstall_Msg3_3 "Pulsa Desinstalar cuando estés listo."
 ${LangFileString} Reinstall_Msg4 "Cambiar las opciones de instalación"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg5 "Reiniciar la configuración de SMPlayer"
 
 ${LangFileString} Type_Reinstall "reinstalar"
 ${LangFileString} Type_Downgrade "desactualizar"
