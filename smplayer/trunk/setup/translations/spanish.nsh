@@ -47,7 +47,7 @@ ${LangFileString} Section_IconThemes_Desc "Temas de iconos adicionales para SMPl
 ${LangFileString} Section_Translations "Idiomas"
 ${LangFileString} Section_Translations_Desc "Ficheros de idiomas para SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Borra la configuración de SMPlayer de instalaciones anteriores."
 
 ${LangFileString} MPlayer_Codec_Msg "El paquete de códecs binarios añade soporte para códecs que todavía no se han implementado nativamente, como como las nuevas variantes de RealVideo y algunos formatos poco comunes.$\nTen en cuenta de que no son necesarios para reproducir los formatos más comunes como DVDs, MPEG-1/2/4, etc."
 
