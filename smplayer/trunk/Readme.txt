@@ -21,30 +21,22 @@
     features like playing videos, DVDs, and VCDs to more advanced features
     like support for MPlayer filters and more.
 
-    Well, you've probably read the rest in the web, haven't you?
-
     To know how to compile and install smplayer please read Install.txt.
 
-    There's available an optional package called smplayer-themes. It contains
-    some icon themes for smplayer and it's highly recommended that you install
-    it too.
+    There are available two optional packages: smplayer-themes and smplayer-skins.
+    They contain some icon themes and skins for smplayer and it's highly recommended
+    that you install them too.
 
     Visit the web for updates:
-    http://smplayer.berlios.de
     http://smplayer.sourceforge.net
+    http://www.smplayer.info
 
-    Forum:
-    http://smplayer.berlios.de/forum
+    Support forum:
+    http://forum.smplayer.info
 
     -------------------------------------------------------------------------
 
     Third-party:
-
-     * QuaZIP (a library to open Zip files) by Sergey A. Tachenov
-       url: http://quazip.sourceforge.net/
-       license: GPL (see src/findsubtitles/quazip/COPYING.readme for details)
-       This library also includes code by Gilles Vollant, with the same
-       license as zlib. See src/findsubtitles/quazip/zip.h for details.
 
      * QtSingleApplication from Qt Solutions.
        url: http://qt.gitorious.org/qt-solutions
@@ -54,7 +46,7 @@
        url: https://github.com/wiedi/libmaia
        license: Simplified BSD License (see src/findsubtitles/maia/LICENSE)
 
-    I took some icons from:
+    Some icons were taken from:
 
      * nuvoX
        url: http://www.kde-look.org/content/show.php/nuvoX?content=38467
