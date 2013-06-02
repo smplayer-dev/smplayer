@@ -727,7 +727,10 @@ void DefaultGui::saveConfig() {
 	if (pref->save_window_size_on_exit) {
 		qDebug("DefaultGui::saveConfig: w: %d h: %d", width(), height());
 		set->setValue( "pos", pos() );
-		set->setValue( "size", size() );
+		set->setValue( "size", frameGeometry().size() );
+		#ifdef Q_OS_WIN
+		set->setValue( "state", (int) windowState() );
+		#endif
 	}
 
 	set->setValue( "toolbars_state", saveState(Helper::qtVersion()) );
@@ -770,6 +773,10 @@ void DefaultGui::loadConfig() {
 
 		move(p);
 		resize(s);
+
+		#ifdef Q_OS_WIN
+		setWindowState( (Qt::WindowStates) set->value("state", 0).toInt() );
+		#endif
 
 		if (!DesktopInfo::isInsideScreen(this)) {
 			move(0,0);

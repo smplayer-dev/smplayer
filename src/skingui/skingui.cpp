@@ -531,6 +531,9 @@ void SkinGui::saveConfig() {
 		qDebug("SkinGui::saveConfig: w: %d h: %d", width(), height());
 		set->setValue( "pos", pos() );
 		set->setValue( "size", size() );
+		#ifdef Q_OS_WIN
+		set->setValue( "state", (int) windowState() );
+		#endif
 	}
 
 	set->setValue( "toolbars_state", saveState(Helper::qtVersion()) );
@@ -568,6 +571,10 @@ void SkinGui::loadConfig() {
 
 		move(p);
 		resize(s);
+
+		#ifdef Q_OS_WIN
+		setWindowState( (Qt::WindowStates) set->value("state", 0).toInt() );
+		#endif
 
 		if (!DesktopInfo::isInsideScreen(this)) {
 			move(0,0);
