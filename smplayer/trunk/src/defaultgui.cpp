@@ -727,7 +727,7 @@ void DefaultGui::saveConfig() {
 	if (pref->save_window_size_on_exit) {
 		qDebug("DefaultGui::saveConfig: w: %d h: %d", width(), height());
 		set->setValue( "pos", pos() );
-		set->setValue( "size", frameGeometry().size() );
+		set->setValue( "size", size() );
 		#ifdef Q_OS_WIN
 		set->setValue( "state", (int) windowState() );
 		#endif
