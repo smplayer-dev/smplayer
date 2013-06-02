@@ -213,7 +213,7 @@ void MpcGui::saveConfig() {
 	if (pref->save_window_size_on_exit) {
 		qDebug("MpcGui::saveConfig: w: %d h: %d", width(), height());
 		set->setValue( "pos", pos() );
-		set->setValue( "size", size() );
+		set->setValue( "size", frameGeometry().size() );
 		#ifdef Q_OS_WIN
 		set->setValue( "state", (int) windowState() );
 		#endif
