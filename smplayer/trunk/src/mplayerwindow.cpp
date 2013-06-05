@@ -181,6 +181,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
 
 	mplayerlayer = new MplayerLayer( this );
+	mplayerlayer->setObjectName("mplayerlayer");
 	mplayerlayer->setAutoFillBackground(TRUE);
 
 	logo = new QLabel( mplayerlayer );
@@ -423,8 +424,8 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 	}
 }
 
-bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
-	//qDebug("MplayerWindow::eventFilter");
+bool MplayerWindow::eventFilter( QObject * watched, QEvent * event ) {
+	//qDebug("MplayerWindow::eventFilter: watched: %s", watched->objectName().toUtf8().constData());
 
 	if ( (event->type() == QEvent::MouseMove) || 
          (event->type() == QEvent::MouseButtonRelease) ) 
@@ -432,7 +433,12 @@ bool MplayerWindow::eventFilter( QObject * /*watched*/, QEvent * event ) {
 		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
 
 		if (event->type() == QEvent::MouseMove) {
-			emit mouseMoved(mouse_event->pos());
+			QPoint pos = mouse_event->pos();
+			if (watched->objectName()=="mplayerlayer") {
+				QWidget *widget = static_cast<QWidget *>(watched);
+				pos = widget->mapToParent(pos);
+			}
+			emit mouseMoved(pos);
 
 			if ( mouse_event->buttons().testFlag(Qt::LeftButton)) {
 				emit mouseMovedDiff( mouse_event->globalPos() - mouse_press_pos);
