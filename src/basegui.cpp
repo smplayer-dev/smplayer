@@ -2170,18 +2170,22 @@ void BaseGui::createPanel() {
 }
 
 void BaseGui::createPreferencesDialog() {
+	QApplication::setOverrideCursor(Qt::WaitCursor);
 	pref_dialog = new PreferencesDialog(this);
 	pref_dialog->setModal(false);
 	/* pref_dialog->mod_input()->setActionsList( actions_list ); */
 	connect( pref_dialog, SIGNAL(applied()),
              this, SLOT(applyNewPreferences()) );
+	QApplication::restoreOverrideCursor();
 }
 
 void BaseGui::createFilePropertiesDialog() {
+	QApplication::setOverrideCursor(Qt::WaitCursor);
 	file_dialog = new FilePropertiesDialog(this);
 	file_dialog->setModal(false);
 	connect( file_dialog, SIGNAL(applied()),
              this, SLOT(applyFileProperties()) );
+	QApplication::restoreOverrideCursor();
 }
 
 
