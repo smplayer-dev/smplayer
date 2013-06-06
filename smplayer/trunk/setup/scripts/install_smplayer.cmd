@@ -5,8 +5,8 @@ echo.
 echo Warning: it will only work with sources from the SVN and the command svn has to be in the path
 echo.
 
-set /P QTVER="Qt Version (Default: 4.7.4): "
-if "%QTVER%"=="" set QTVER=4.7.4
+set /P QTVER="Qt Version (Default: 4.8.4): "
+if "%QTVER%"=="" set QTVER=4.8.4
 
 set OUTPUT_DIR=smplayer-build
 
@@ -15,7 +15,8 @@ set SMTUBE_DIR=svn\smtube
 set SMPLAYER_THEMES_DIR=svn\smplayer-themes
 set SMPLAYER_SKINS_DIR=svn\smplayer-skins
 set MPLAYER_DIR=mplayer
-set QT_DIR=C:\QtSDK\Desktop\Qt\%QTVER%\mingw
+rem set QT_DIR=C:\QtSDK\Desktop\Qt\%QTVER%\mingw
+set QT_DIR=C:\Qt\%QTVER%
 
 echo.
 echo ######      SMPlayer, QT libs      #######
