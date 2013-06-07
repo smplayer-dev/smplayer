@@ -4832,7 +4832,7 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 
 	if (exit_code != 255 ) {
 		ErrorDialog d(this);
-		d.setText(tr("MPlayer has finished unexpectedly.") + "<br>" + 
+		d.setText(tr("MPlayer has finished unexpectedly.") + " " + 
 	              tr("Exit code: %1").arg(exit_code));
 #ifdef LOG_MPLAYER
 		d.setLog( mplayer_log );
