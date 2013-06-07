@@ -24,6 +24,9 @@
        <property name="alignment">
         <set>Qt::AlignCenter</set>
        </property>
+       <property name="margin">
+        <number>4</number>
+       </property>
       </widget>
      </item>
      <item>
@@ -35,7 +38,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Oops, something wrong happened&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>Oops, something wrong happened</string>
        </property>
       </widget>
      </item>
@@ -60,6 +63,9 @@
      </property>
      <property name="wordWrap">
       <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>4</number>
      </property>
     </widget>
    </item>

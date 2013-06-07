@@ -27,6 +27,8 @@ ErrorDialog::ErrorDialog( QWidget* parent, Qt::WindowFlags f )
 	icon->setText("");
 	icon->setPixmap( Images::icon("crash") );
 
+	intro_label->setText("<html><head/><body><p align=\"left\"><span style=\"font-size:14pt; font-weight:600;\">" + tr("Oops, something wrong happened") +"</span></p></body></html>");
+
 	text->setText("");
 	toggleLog(false);
 
