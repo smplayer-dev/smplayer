@@ -871,12 +871,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+15"/>
-        <location line="+1292"/>
+        <location line="+1296"/>
         <source>&amp;None</source>
         <translation>&amp;Nessuno</translation>
     </message>
     <message>
-        <location line="-1291"/>
+        <location line="-1295"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
@@ -1018,7 +1018,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3043"/>
+        <location line="+3041"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1028,12 +1028,12 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3060"/>
+        <location line="-3058"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+958"/>
+        <location line="+962"/>
         <location line="+626"/>
         <source>Information</source>
         <translation type="unfinished">Informazioni</translation>
@@ -1059,7 +1059,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished">I valori correnti sono stati salvati come predefiniti.</translation>
     </message>
     <message>
-        <location line="-1684"/>
+        <location line="-1688"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1072,7 +1072,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="obsolete">SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1316"/>
+        <location line="+1320"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -1166,7 +1166,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+200"/>
+        <location line="+194"/>
         <source>Playing %1</source>
         <translation>In riproduzione %1</translation>
     </message>
@@ -1181,7 +1181,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2947"/>
+        <location line="-2945"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1453,12 +1453,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2242"/>
+        <location line="+2246"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2282"/>
+        <location line="-2286"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
@@ -1468,7 +1468,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3169"/>
+        <location line="+3167"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1498,7 +1498,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-3107"/>
+        <location line="-3105"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1538,12 +1538,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1976"/>
+        <location line="+1980"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-2102"/>
+        <location line="-2106"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
@@ -1620,7 +1620,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2384"/>
+        <location line="+2388"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1640,7 +1640,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2535"/>
+        <location line="-2539"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
@@ -1730,7 +1730,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2343"/>
+        <location line="+2347"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1760,17 +1760,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2124"/>
+        <location line="-2128"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2754"/>
+        <location line="+2752"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-3051"/>
+        <location line="-3049"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -2158,7 +2158,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
 <context>
     <name>ErrorDialog</name>
     <message>
-        <location filename="../errordialog.cpp" line="+55"/>
+        <location filename="../errordialog.cpp" line="+57"/>
         <source>Hide log</source>
         <translation>&amp;Nascondi registro</translation>
     </message>
@@ -2169,17 +2169,23 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Mostra registro</translation>
     </message>
     <message>
-        <location line="-74"/>
+        <location line="-73"/>
         <source>MPlayer Error</source>
         <translation>Errore MPlayer</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+8"/>
         <source>icon</source>
         <translation>icona</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+19"/>
+        <location filename="../errordialog.cpp" line="-29"/>
+        <source>Oops, something wrong happened</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
@@ -2558,7 +2564,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+219"/>
         <source>Language</source>
         <translation>Lingua</translation>
     </message>
@@ -2613,20 +2619,20 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+236"/>
+        <location line="+336"/>
         <source>%n subtitle(s) extracted</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+60"/>
         <source>Error fixing the subtitle lines</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="+136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="-384"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="-485"/>
         <source>&amp;Download</source>
         <translation>&amp;Scarica</translation>
     </message>
@@ -2651,7 +2657,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Connessione a  %1...</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+18"/>
         <source>Downloading...</source>
         <translation>Scaricamento...</translation>
     </message>
@@ -2691,7 +2697,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Aggio&amp;rna</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+145"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="+241"/>
         <source>Subtitle saved as %1</source>
         <translation>Sottotitoli salvati come %1</translation>
     </message>
@@ -2713,12 +2719,14 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Il file %1 esiste già, sovrascrivere?</translation>
     </message>
     <message>
-        <location line="-83"/>
+        <location line="-189"/>
+        <location line="+106"/>
         <source>Error saving file</source>
         <translation>Errore durante il salvataggio del file</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-105"/>
+        <location line="+106"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2727,8 +2735,9 @@ nella directory %1
 Controllarne i relativi permessi.</translation>
     </message>
     <message>
-        <location line="-185"/>
-        <location line="+178"/>
+        <location line="-285"/>
+        <location line="+151"/>
+        <location line="+127"/>
         <source>Download failed</source>
         <translation>Download fallito</translation>
     </message>
@@ -4230,7 +4239,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="+199"/>
+        <location filename="../skingui/mediapanel.cpp" line="+210"/>
         <source>Shuffle playlist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4279,7 +4288,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+293"/>
+        <location line="+296"/>
         <location line="+1"/>
         <location line="+1"/>
         <source>-%1</source>
@@ -8207,7 +8216,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="+455"/>
+        <location filename="../smplayer.cpp" line="+463"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>
@@ -8381,9 +8390,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QuaZipFile</name>
     <message>
-        <location filename="../findsubtitles/quazip/quazipfile.cpp" line="+141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation>Errore ZIP/UNZIP %1</translation>
+        <translation type="obsolete">Errore ZIP/UNZIP %1</translation>
     </message>
 </context>
 <context>
