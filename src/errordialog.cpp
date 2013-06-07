@@ -25,7 +25,7 @@ ErrorDialog::ErrorDialog( QWidget* parent, Qt::WindowFlags f )
 	setupUi(this);
 
 	icon->setText("");
-	icon->setPixmap( Images::icon("warning") );
+	icon->setPixmap( Images::icon("crash") );
 
 	text->setText("");
 	toggleLog(false);

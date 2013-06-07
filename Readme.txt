@@ -79,3 +79,6 @@
      * Gimp
        url: http://www.gimp.org/
        license: GPL
+
+     * http://en.wikipedia.org/wiki/File:Computer_on_fire.svg
+       license: public domain
