@@ -702,7 +702,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1783"/>
-        <location filename="../basegui.cpp" line="3075"/>
+        <location filename="../basegui.cpp" line="3079"/>
         <source>&amp;None</source>
         <translation>&amp;Нема</translation>
     </message>
@@ -923,43 +923,43 @@ Do you want to overwrite?</source>
         <translation>За &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3097"/>
-        <location filename="../basegui.cpp" line="3113"/>
-        <location filename="../basegui.cpp" line="3129"/>
-        <location filename="../basegui.cpp" line="3144"/>
-        <location filename="../basegui.cpp" line="3176"/>
-        <location filename="../basegui.cpp" line="3196"/>
-        <location filename="../basegui.cpp" line="3236"/>
+        <location filename="../basegui.cpp" line="3101"/>
+        <location filename="../basegui.cpp" line="3117"/>
+        <location filename="../basegui.cpp" line="3133"/>
+        <location filename="../basegui.cpp" line="3148"/>
+        <location filename="../basegui.cpp" line="3180"/>
+        <location filename="../basegui.cpp" line="3200"/>
+        <location filename="../basegui.cpp" line="3240"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;празно&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3647"/>
+        <location filename="../basegui.cpp" line="3651"/>
         <source>Video</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3648"/>
-        <location filename="../basegui.cpp" line="3838"/>
+        <location filename="../basegui.cpp" line="3652"/>
+        <location filename="../basegui.cpp" line="3842"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3649"/>
+        <location filename="../basegui.cpp" line="3653"/>
         <source>Playlists</source>
         <translation>Листи со нумери</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3650"/>
-        <location filename="../basegui.cpp" line="3818"/>
-        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3654"/>
+        <location filename="../basegui.cpp" line="3822"/>
+        <location filename="../basegui.cpp" line="3843"/>
         <source>All files</source>
         <translation>Сите датотеки</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3645"/>
-        <location filename="../basegui.cpp" line="3815"/>
-        <location filename="../basegui.cpp" line="3836"/>
+        <location filename="../basegui.cpp" line="3649"/>
+        <location filename="../basegui.cpp" line="3819"/>
+        <location filename="../basegui.cpp" line="3840"/>
         <source>Choose a file</source>
         <translation>Одберете датотека</translation>
     </message>
@@ -969,69 +969,69 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3697"/>
+        <location filename="../basegui.cpp" line="3701"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Информација</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3698"/>
+        <location filename="../basegui.cpp" line="3702"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD/DVD уредите не се конфигурирани.
 Тоа може да го направите во дијалогот кој ќе се појави.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3785"/>
         <source>Choose a directory</source>
         <translation>Одберете папка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3817"/>
+        <location filename="../basegui.cpp" line="3821"/>
         <source>Subtitles</source>
         <translation>Титлови</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3879"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>About Qt</source>
         <translation>За Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4217"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>New version available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4218"/>
+        <location filename="../basegui.cpp" line="4222"/>
         <source>A new version of SMPlayer is available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4219"/>
+        <location filename="../basegui.cpp" line="4223"/>
         <source>Installed version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4220"/>
+        <location filename="../basegui.cpp" line="4224"/>
         <source>Available version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4221"/>
+        <location filename="../basegui.cpp" line="4225"/>
         <source>Would you like to know more about this new version?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4421"/>
+        <location filename="../basegui.cpp" line="4419"/>
         <source>Playing %1</source>
         <translation>Пуштам %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4422"/>
+        <location filename="../basegui.cpp" line="4420"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4423"/>
+        <location filename="../basegui.cpp" line="4421"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1308,12 +1308,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4939"/>
+        <location filename="../basegui.cpp" line="4937"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4940"/>
+        <location filename="../basegui.cpp" line="4938"/>
         <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1323,28 +1323,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2838"/>
-        <location filename="../basegui.cpp" line="3464"/>
+        <location filename="../basegui.cpp" line="2842"/>
+        <location filename="../basegui.cpp" line="3468"/>
         <source>Information</source>
         <translation type="unfinished">Информација</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2839"/>
+        <location filename="../basegui.cpp" line="2843"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3244"/>
+        <location filename="../basegui.cpp" line="3248"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3245"/>
+        <location filename="../basegui.cpp" line="3249"/>
         <source>Delete the list of recent files?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3465"/>
+        <location filename="../basegui.cpp" line="3469"/>
         <source>The current values have been stored to be used as default.</source>
         <translation type="unfinished">Сегашните вредности се зачувани и ќе се користат како основни.</translation>
     </message>
@@ -1451,7 +1451,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Опции на командната линија</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3858"/>
+        <location filename="../basegui.cpp" line="3862"/>
         <source>SMPlayer command line options</source>
         <translation>Опции на командната линија за SMPlayer</translation>
     </message>
@@ -1466,32 +1466,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ресетирај го видео изедначувачот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4837"/>
+        <location filename="../basegui.cpp" line="4835"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer излезе неочекувано.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4838"/>
+        <location filename="../basegui.cpp" line="4836"/>
         <source>Exit code: %1</source>
         <translation>Излезен код: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4857"/>
+        <location filename="../basegui.cpp" line="4855"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer не успеа да се стартува.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4858"/>
+        <location filename="../basegui.cpp" line="4856"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Проверете ја патеката на MPlayer во поставувањата.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4860"/>
+        <location filename="../basegui.cpp" line="4858"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer падна.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4861"/>
+        <location filename="../basegui.cpp" line="4859"/>
         <source>See the log for more info.</source>
         <translation>Видете го записникот за повеќе информации.</translation>
     </message>
@@ -1536,7 +1536,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Прикажи го контекстуалното мени</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3646"/>
+        <location filename="../basegui.cpp" line="3650"/>
         <source>Multimedia</source>
         <translation>Мултимедиа</translation>
     </message>
@@ -1618,22 +1618,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Нумера</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4198"/>
+        <location filename="../basegui.cpp" line="4202"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Внимание - се користи стар MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4199"/>
+        <location filename="../basegui.cpp" line="4203"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Инсталираната верзија на MPlayer (%1) е застарена. SMPlayer не може да работи добро со неа: некои опции нема да работат...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4204"/>
+        <location filename="../basegui.cpp" line="4208"/>
         <source>Please, update your MPlayer.</source>
         <translation>Надградете го MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4206"/>
+        <location filename="../basegui.cpp" line="4210"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Ова предупредување нема да се покаже повеќе)</translation>
     </message>
@@ -1728,32 +1728,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Постави доцнење...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3913"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Скокни до:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3910"/>
+        <location filename="../basegui.cpp" line="3914"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Барај</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3920"/>
+        <location filename="../basegui.cpp" line="3924"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - доцнење на звукот</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3921"/>
+        <location filename="../basegui.cpp" line="3925"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>SMPlayer - доцнење на звукот (милисекунди):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3930"/>
+        <location filename="../basegui.cpp" line="3934"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - доцнење на поднаслов</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3931"/>
+        <location filename="../basegui.cpp" line="3935"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>SMPlayer - доцнење на поднаслов (милисекунди):</translation>
     </message>
@@ -1794,7 +1794,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4561"/>
+        <location filename="../basegui.cpp" line="4559"/>
         <source>Jump to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2156,28 +2156,34 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>ErrorDialog</name>
     <message>
-        <location filename="../errordialog.cpp" line="55"/>
+        <location filename="../errordialog.cpp" line="57"/>
         <source>Hide log</source>
         <translation>Сокриј записник</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
-        <location filename="../errordialog.cpp" line="57"/>
+        <location filename="../errordialog.cpp" line="59"/>
         <source>Show log</source>
         <translation>Прикажи записник</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="13"/>
+        <location filename="../errordialog.ui" line="14"/>
         <source>MPlayer Error</source>
         <translation>MPlayer грешка</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="41"/>
+        <location filename="../errordialog.ui" line="22"/>
         <source>icon</source>
         <translation>икона</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="67"/>
+        <location filename="../errordialog.ui" line="41"/>
+        <location filename="../errordialog.cpp" line="30"/>
+        <source>Oops, something wrong happened</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../errordialog.ui" line="62"/>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
@@ -2533,62 +2539,62 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
         <translation>Јазик</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
         <translation>Име</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
         <translation>Формат</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
         <translation>Датотеки</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
         <translation>Датум</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
         <translation>Закачено од</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
         <translation>Сите</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
         <translation>Затвори</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="581"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -2596,53 +2602,53 @@ Example: resample=44100:0:0,volnorm</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="640"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
         <source>Error fixing the subtitle lines</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
         <translation>&amp;Превземи</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Копирај линк</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="331"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="332"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
         <translation>Превземањето не успеа: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="337"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
         <translation>Се поврзувам со %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="351"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
         <translation>Превземам...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="359"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
         <translation>Готово.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
         <translation>%1 датотеки достапни</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="413"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
         <translation>Не можам да ги прочитам добиените податоци.</translation>
     </message>
@@ -2667,7 +2673,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Освежи</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="558"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="665"/>
         <source>Subtitle saved as %1</source>
         <translation>Поднасловот е зачуван како %1</translation>
     </message>
@@ -2679,22 +2685,24 @@ Example: resample=44100:0:0,volnorm</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
         <source>Overwrite?</source>
         <translation>Пребриши?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="596"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Датотеката %1 веќе постои.Дали сакате да ја пребришете?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="513"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>Error saving file</source>
         <translation>Грешка при зачувување на датотеката</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2703,13 +2711,14 @@ Please check the permissions of that folder.</source>
 Проверете ги дозволите на папката.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="329"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="507"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="614"/>
         <source>Download failed</source>
         <translation>Превземањето не успеа</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="491"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Temporary file %1</source>
         <translation>Привремена датотека %1</translation>
     </message>
@@ -4206,12 +4215,12 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="199"/>
+        <location filename="../skingui/mediapanel.cpp" line="210"/>
         <source>Shuffle playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="200"/>
+        <location filename="../skingui/mediapanel.cpp" line="211"/>
         <source>Repeat playlist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4255,16 +4264,16 @@ Do you want to overwrite?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="427"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="428"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="429"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="430"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="433"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="436"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -8167,7 +8176,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>главниот прозорец ќе биде затворен кога датотеката/листата со нумери ќе заврши.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="455"/>
+        <location filename="../smplayer.cpp" line="463"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ова е SMPlayer в.%1 која работи на %2</translation>
     </message>
@@ -8343,9 +8352,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QuaZipFile</name>
     <message>
-        <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation>ZIP/UNZIP API грешка %1</translation>
+        <translation type="obsolete">ZIP/UNZIP API грешка %1</translation>
     </message>
 </context>
 <context>

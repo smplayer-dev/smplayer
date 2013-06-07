@@ -667,7 +667,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1783"/>
-        <location filename="../basegui.cpp" line="3075"/>
+        <location filename="../basegui.cpp" line="3079"/>
         <source>&amp;None</source>
         <translation>无(&amp;N)</translation>
     </message>
@@ -888,43 +888,43 @@ Do you want to overwrite?</source>
         <translation>关于 SMPlayer(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3097"/>
-        <location filename="../basegui.cpp" line="3113"/>
-        <location filename="../basegui.cpp" line="3129"/>
-        <location filename="../basegui.cpp" line="3144"/>
-        <location filename="../basegui.cpp" line="3176"/>
-        <location filename="../basegui.cpp" line="3196"/>
-        <location filename="../basegui.cpp" line="3236"/>
+        <location filename="../basegui.cpp" line="3101"/>
+        <location filename="../basegui.cpp" line="3117"/>
+        <location filename="../basegui.cpp" line="3133"/>
+        <location filename="../basegui.cpp" line="3148"/>
+        <location filename="../basegui.cpp" line="3180"/>
+        <location filename="../basegui.cpp" line="3200"/>
+        <location filename="../basegui.cpp" line="3240"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3647"/>
+        <location filename="../basegui.cpp" line="3651"/>
         <source>Video</source>
         <translation>视频</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3648"/>
-        <location filename="../basegui.cpp" line="3838"/>
+        <location filename="../basegui.cpp" line="3652"/>
+        <location filename="../basegui.cpp" line="3842"/>
         <source>Audio</source>
         <translation>音频</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3649"/>
+        <location filename="../basegui.cpp" line="3653"/>
         <source>Playlists</source>
         <translation>播放列表</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3650"/>
-        <location filename="../basegui.cpp" line="3818"/>
-        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3654"/>
+        <location filename="../basegui.cpp" line="3822"/>
+        <location filename="../basegui.cpp" line="3843"/>
         <source>All files</source>
         <translation>所有文件</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3645"/>
-        <location filename="../basegui.cpp" line="3815"/>
-        <location filename="../basegui.cpp" line="3836"/>
+        <location filename="../basegui.cpp" line="3649"/>
+        <location filename="../basegui.cpp" line="3819"/>
+        <location filename="../basegui.cpp" line="3840"/>
         <source>Choose a file</source>
         <translation>选择一个文件</translation>
     </message>
@@ -934,69 +934,69 @@ Do you want to overwrite?</source>
         <translation>YouTube%1 浏览器（&amp;Y）</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3697"/>
+        <location filename="../basegui.cpp" line="3701"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 信息</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3698"/>
+        <location filename="../basegui.cpp" line="3702"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM/DVD 驱动器尚未配置。
 现在将显示配置对话框，以便您可以配置它。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3785"/>
         <source>Choose a directory</source>
         <translation>选择一个目录</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3817"/>
+        <location filename="../basegui.cpp" line="3821"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3879"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>About Qt</source>
         <translation>关于 Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4217"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>New version available</source>
         <translation>有新版本</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4218"/>
+        <location filename="../basegui.cpp" line="4222"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>新版本的SMPlayer可用</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4219"/>
+        <location filename="../basegui.cpp" line="4223"/>
         <source>Installed version: %1</source>
         <translation>已安装版本: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4220"/>
+        <location filename="../basegui.cpp" line="4224"/>
         <source>Available version: %1</source>
         <translation>新版本: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4221"/>
+        <location filename="../basegui.cpp" line="4225"/>
         <source>Would you like to know more about this new version?</source>
         <translation>想了解更多关于新版本的信息？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4421"/>
+        <location filename="../basegui.cpp" line="4419"/>
         <source>Playing %1</source>
         <translation>正在播放 %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4422"/>
+        <location filename="../basegui.cpp" line="4420"/>
         <source>Pause</source>
         <translation>暂停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4423"/>
+        <location filename="../basegui.cpp" line="4421"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1273,12 +1273,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - SMPlayer 日志</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4939"/>
+        <location filename="../basegui.cpp" line="4937"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>YouTube 浏览器不能启动。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4940"/>
+        <location filename="../basegui.cpp" line="4938"/>
         <source>Be sure %1 is installed.</source>
         <translation>请确保 %1 已安装。</translation>
     </message>
@@ -1288,28 +1288,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>和朋友分享SMPlayer(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2838"/>
-        <location filename="../basegui.cpp" line="3464"/>
+        <location filename="../basegui.cpp" line="2842"/>
+        <location filename="../basegui.cpp" line="3468"/>
         <source>Information</source>
         <translation>信息</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2839"/>
+        <location filename="../basegui.cpp" line="2843"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>您需要重新启动 SMPlayer 以使用新的 GUI。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3244"/>
+        <location filename="../basegui.cpp" line="3248"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>确认删除 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3245"/>
+        <location filename="../basegui.cpp" line="3249"/>
         <source>Delete the list of recent files?</source>
         <translation>要删除最近的文件列表吗?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3465"/>
+        <location filename="../basegui.cpp" line="3469"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>当前的值已被储存作为默认值使用。</translation>
     </message>
@@ -1404,7 +1404,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>命令行选项(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3858"/>
+        <location filename="../basegui.cpp" line="3862"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer 命令行选项</translation>
     </message>
@@ -1419,32 +1419,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>重置视频均衡器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4837"/>
+        <location filename="../basegui.cpp" line="4835"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer 已意外结束。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4838"/>
+        <location filename="../basegui.cpp" line="4836"/>
         <source>Exit code: %1</source>
         <translation>退出代码: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4857"/>
+        <location filename="../basegui.cpp" line="4855"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer 启动失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4858"/>
+        <location filename="../basegui.cpp" line="4856"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>请检查首选项中的 MPlayer 路径。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4860"/>
+        <location filename="../basegui.cpp" line="4858"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer 已崩溃。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4861"/>
+        <location filename="../basegui.cpp" line="4859"/>
         <source>See the log for more info.</source>
         <translation>更多信息请参阅日志。</translation>
     </message>
@@ -1489,7 +1489,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>显示上下文菜单</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3646"/>
+        <location filename="../basegui.cpp" line="3650"/>
         <source>Multimedia</source>
         <translation>多媒体</translation>
     </message>
@@ -1571,22 +1571,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>音轨(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4198"/>
+        <location filename="../basegui.cpp" line="4202"/>
         <source>Warning - Using old MPlayer</source>
         <translation>警告 - 正在使用过时的 MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4199"/>
+        <location filename="../basegui.cpp" line="4203"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>您的系统上安装的 MPlayer(%1)版本已过时。SMPlayer 无法正常运行它: 有些选项无法正常工作，字幕选择可能会失效...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4204"/>
+        <location filename="../basegui.cpp" line="4208"/>
         <source>Please, update your MPlayer.</source>
         <translation>请更新您的 MPlayer。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4206"/>
+        <location filename="../basegui.cpp" line="4210"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(此警告将不再显示)</translation>
     </message>
@@ -1681,32 +1681,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>设置延迟(&amp;T)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3913"/>
         <source>&amp;Jump to:</source>
         <translation>跳转到(&amp;J):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3910"/>
+        <location filename="../basegui.cpp" line="3914"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - 定位</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3920"/>
+        <location filename="../basegui.cpp" line="3924"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - 音频延迟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3921"/>
+        <location filename="../basegui.cpp" line="3925"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>音频延迟(毫秒):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3930"/>
+        <location filename="../basegui.cpp" line="3934"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - 字幕延迟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3931"/>
+        <location filename="../basegui.cpp" line="3935"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>字幕延迟(毫秒):</translation>
     </message>
@@ -1716,7 +1716,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>切换保持在最前端</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4561"/>
+        <location filename="../basegui.cpp" line="4559"/>
         <source>Jump to %1</source>
         <translation>跳转到 %1</translation>
     </message>
@@ -2109,28 +2109,34 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>ErrorDialog</name>
     <message>
-        <location filename="../errordialog.cpp" line="55"/>
+        <location filename="../errordialog.cpp" line="57"/>
         <source>Hide log</source>
         <translation>隐藏日志</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
-        <location filename="../errordialog.cpp" line="57"/>
+        <location filename="../errordialog.cpp" line="59"/>
         <source>Show log</source>
         <translation>显示日志</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="13"/>
+        <location filename="../errordialog.ui" line="14"/>
         <source>MPlayer Error</source>
         <translation>MPlayer 错误</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="41"/>
+        <location filename="../errordialog.ui" line="22"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="67"/>
+        <location filename="../errordialog.ui" line="41"/>
+        <location filename="../errordialog.cpp" line="30"/>
+        <source>Oops, something wrong happened</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../errordialog.ui" line="62"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
@@ -2486,115 +2492,115 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
         <translation>格式</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
         <translation>文件</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
         <translation>上传者</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
         <translation>葡萄牙语-巴西</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>登陆到opensubtitles.org失败</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
         <translation>搜索失败</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="581"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>已提取%n个字幕</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="640"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
         <source>Error fixing the subtitle lines</source>
         <translation>修复字幕行时出错</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
         <translation>下载(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>复制链接到剪贴板(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="331"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="332"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
         <translation>下载失败: %1。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="337"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
         <translation>正在连接到 %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="351"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
         <translation>正在下载...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="359"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
         <translation>完成。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
         <translation>%1个文件可用</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="413"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
         <translation>无法分析接收到的数据。</translation>
     </message>
@@ -2619,7 +2625,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>刷新(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="558"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="665"/>
         <source>Subtitle saved as %1</source>
         <translation>字幕已保存为 %1</translation>
     </message>
@@ -2630,22 +2636,24 @@ Example: resample=44100:0:0,volnorm</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
         <source>Overwrite?</source>
         <translation>是否覆盖?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="596"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>文件 %1 已存在，是否覆盖?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="513"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>Error saving file</source>
         <translation>保存文件时出错</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2654,13 +2662,14 @@ Please check the permissions of that folder.</source>
 请检查该文件夹的权限。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="329"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="507"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="614"/>
         <source>Download failed</source>
         <translation>下载失败</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="491"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Temporary file %1</source>
         <translation>临时文件 %1</translation>
     </message>
@@ -4157,12 +4166,12 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="199"/>
+        <location filename="../skingui/mediapanel.cpp" line="210"/>
         <source>Shuffle playlist</source>
         <translation>乱序播放列表</translation>
     </message>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="200"/>
+        <location filename="../skingui/mediapanel.cpp" line="211"/>
         <source>Repeat playlist</source>
         <translation>重复播放列表</translation>
     </message>
@@ -4206,16 +4215,16 @@ Do you want to overwrite?</source>
         <translation>定位栏</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="427"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="428"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="429"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="430"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="433"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="436"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -8118,7 +8127,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>文件/播放列表结束时，主窗口将被关闭。</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="455"/>
+        <location filename="../smplayer.cpp" line="463"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>这是运行在 %2 上的 SMPlayer v. %1</translation>
     </message>
@@ -8292,9 +8301,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QuaZipFile</name>
     <message>
-        <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation>ZIP/UNZIP API 错误 %1</translation>
+        <translation type="obsolete">ZIP/UNZIP API 错误 %1</translation>
     </message>
 </context>
 <context>

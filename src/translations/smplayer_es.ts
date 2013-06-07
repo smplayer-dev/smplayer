@@ -709,7 +709,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1783"/>
-        <location filename="../basegui.cpp" line="3075"/>
+        <location filename="../basegui.cpp" line="3079"/>
         <source>&amp;None</source>
         <translation>&amp;Ninguno</translation>
     </message>
@@ -930,43 +930,43 @@ Do you want to overwrite?</source>
         <translation>Acerca de &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3097"/>
-        <location filename="../basegui.cpp" line="3113"/>
-        <location filename="../basegui.cpp" line="3129"/>
-        <location filename="../basegui.cpp" line="3144"/>
-        <location filename="../basegui.cpp" line="3176"/>
-        <location filename="../basegui.cpp" line="3196"/>
-        <location filename="../basegui.cpp" line="3236"/>
+        <location filename="../basegui.cpp" line="3101"/>
+        <location filename="../basegui.cpp" line="3117"/>
+        <location filename="../basegui.cpp" line="3133"/>
+        <location filename="../basegui.cpp" line="3148"/>
+        <location filename="../basegui.cpp" line="3180"/>
+        <location filename="../basegui.cpp" line="3200"/>
+        <location filename="../basegui.cpp" line="3240"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;vacío&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3647"/>
+        <location filename="../basegui.cpp" line="3651"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3648"/>
-        <location filename="../basegui.cpp" line="3838"/>
+        <location filename="../basegui.cpp" line="3652"/>
+        <location filename="../basegui.cpp" line="3842"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3649"/>
+        <location filename="../basegui.cpp" line="3653"/>
         <source>Playlists</source>
         <translation>Listas de reproducción</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3650"/>
-        <location filename="../basegui.cpp" line="3818"/>
-        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3654"/>
+        <location filename="../basegui.cpp" line="3822"/>
+        <location filename="../basegui.cpp" line="3843"/>
         <source>All files</source>
         <translation>Todos los ficheros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3645"/>
-        <location filename="../basegui.cpp" line="3815"/>
-        <location filename="../basegui.cpp" line="3836"/>
+        <location filename="../basegui.cpp" line="3649"/>
+        <location filename="../basegui.cpp" line="3819"/>
+        <location filename="../basegui.cpp" line="3840"/>
         <source>Choose a file</source>
         <translation>Elige un fichero</translation>
     </message>
@@ -976,69 +976,69 @@ Do you want to overwrite?</source>
         <translation>Buscar vídeos en &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3697"/>
+        <location filename="../basegui.cpp" line="3701"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Información</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3698"/>
+        <location filename="../basegui.cpp" line="3702"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Las unidades de CDROM / DVD no han sido configuradas.
 Se mostrará a continuación el diálogo de configuración.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3781"/>
+        <location filename="../basegui.cpp" line="3785"/>
         <source>Choose a directory</source>
         <translation>Elige un directorio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3817"/>
+        <location filename="../basegui.cpp" line="3821"/>
         <source>Subtitles</source>
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3879"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>About Qt</source>
         <translation>Acerca de Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4217"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>New version available</source>
         <translation>Nueva versión disponible</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4218"/>
+        <location filename="../basegui.cpp" line="4222"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Hay disponible una nueva versión de SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4219"/>
+        <location filename="../basegui.cpp" line="4223"/>
         <source>Installed version: %1</source>
         <translation>Versión instalada: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4220"/>
+        <location filename="../basegui.cpp" line="4224"/>
         <source>Available version: %1</source>
         <translation>Versión disponible: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4221"/>
+        <location filename="../basegui.cpp" line="4225"/>
         <source>Would you like to know more about this new version?</source>
         <translation>¿Quieres más información sobre esta nueva versión?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4421"/>
+        <location filename="../basegui.cpp" line="4419"/>
         <source>Playing %1</source>
         <translation>Reproduciendo %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4422"/>
+        <location filename="../basegui.cpp" line="4420"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4423"/>
+        <location filename="../basegui.cpp" line="4421"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1325,12 +1325,12 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation type="obsolete">SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4939"/>
+        <location filename="../basegui.cpp" line="4937"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>No se ha podido ejecutar el buscador de YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4940"/>
+        <location filename="../basegui.cpp" line="4938"/>
         <source>Be sure %1 is installed.</source>
         <translation>Asegúrate de que %1 está instalado.</translation>
     </message>
@@ -1340,28 +1340,28 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Co&amp;mparte SMPlayer con tus amigos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2838"/>
-        <location filename="../basegui.cpp" line="3464"/>
+        <location filename="../basegui.cpp" line="2842"/>
+        <location filename="../basegui.cpp" line="3468"/>
         <source>Information</source>
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2839"/>
+        <location filename="../basegui.cpp" line="2843"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Es necesario reiniciar SMPlayer para usar el nuevo GUI.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3244"/>
+        <location filename="../basegui.cpp" line="3248"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Confirmar el borrado - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3245"/>
+        <location filename="../basegui.cpp" line="3249"/>
         <source>Delete the list of recent files?</source>
         <translation>¿Deseas borrar la lista de ficheros recientes?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3465"/>
+        <location filename="../basegui.cpp" line="3469"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Los valores actuales se han guardado y se usarán como valores predeterminados.</translation>
     </message>
@@ -1476,7 +1476,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Opciones para la línea de comandos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3858"/>
+        <location filename="../basegui.cpp" line="3862"/>
         <source>SMPlayer command line options</source>
         <translation>Opciones para la línea de comandos de SMPlayer</translation>
     </message>
@@ -1491,32 +1491,32 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Reiniciar el ecualizador de vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4837"/>
+        <location filename="../basegui.cpp" line="4835"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer ha finalizado inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4838"/>
+        <location filename="../basegui.cpp" line="4836"/>
         <source>Exit code: %1</source>
         <translation>Código de salida: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4857"/>
+        <location filename="../basegui.cpp" line="4855"/>
         <source>MPlayer failed to start.</source>
         <translation>El MPlayer no se ha ejecutado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4858"/>
+        <location filename="../basegui.cpp" line="4856"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Verifica la ruta al ejecutable del MPlayer en preferencias.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4860"/>
+        <location filename="../basegui.cpp" line="4858"/>
         <source>MPlayer has crashed.</source>
         <translation>El MPlayer ha fallado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4861"/>
+        <location filename="../basegui.cpp" line="4859"/>
         <source>See the log for more info.</source>
         <translation>Mira el log para más información.</translation>
     </message>
@@ -1561,7 +1561,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Mostrar menú contextual</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3646"/>
+        <location filename="../basegui.cpp" line="3650"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -1643,22 +1643,22 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Pista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4198"/>
+        <location filename="../basegui.cpp" line="4202"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Aviso - Usando un MPlayer anticuado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4199"/>
+        <location filename="../basegui.cpp" line="4203"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>La versión del MPlayer (%1) que tienes instalada en tu sistema es obsoleta. SMPlayer no puede funcionar correctamente con esta versión: algunas opciones no funcionarán, la selección de subtítulos puede fallar...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4204"/>
+        <location filename="../basegui.cpp" line="4208"/>
         <source>Please, update your MPlayer.</source>
         <translation>Por favor, actualiza el MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4206"/>
+        <location filename="../basegui.cpp" line="4210"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Este aviso no volverá a aparecer)</translation>
     </message>
@@ -1753,32 +1753,32 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Especificar retraso...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3913"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Saltar a:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3910"/>
+        <location filename="../basegui.cpp" line="3914"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Saltar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3920"/>
+        <location filename="../basegui.cpp" line="3924"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Retraso de audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3921"/>
+        <location filename="../basegui.cpp" line="3925"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Retraso del audio (en milisegundos):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3930"/>
+        <location filename="../basegui.cpp" line="3934"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Retraso de los subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3931"/>
+        <location filename="../basegui.cpp" line="3935"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Retraso de los subtítulos (en milisegundos):</translation>
     </message>
@@ -1788,7 +1788,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Activar/desactivar encima de todas las ventanas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4561"/>
+        <location filename="../basegui.cpp" line="4559"/>
         <source>Jump to %1</source>
         <translation>Saltar a %1</translation>
     </message>
@@ -2201,28 +2201,38 @@ Se mostrará a continuación el diálogo de configuración.</translation>
 <context>
     <name>ErrorDialog</name>
     <message>
-        <location filename="../errordialog.cpp" line="55"/>
+        <location filename="../errordialog.cpp" line="57"/>
         <source>Hide log</source>
         <translation>Ocultar log</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="87"/>
-        <location filename="../errordialog.cpp" line="57"/>
+        <location filename="../errordialog.cpp" line="59"/>
         <source>Show log</source>
         <translation>Mostrar log</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="13"/>
+        <location filename="../errordialog.ui" line="14"/>
         <source>MPlayer Error</source>
         <translation>Error de MPlayer</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="41"/>
+        <location filename="../errordialog.ui" line="22"/>
         <source>icon</source>
         <translation>icon</translation>
     </message>
     <message>
-        <location filename="../errordialog.ui" line="67"/>
+        <location filename="../errordialog.ui" line="41"/>
+        <location filename="../errordialog.cpp" line="30"/>
+        <source>Oops, something wrong happened</source>
+        <translation>Vaya, algo ha fallado</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Oops, something wrong happened&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="obsolete">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Vaya, algo salió mal&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../errordialog.ui" line="62"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -2578,62 +2588,62 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
         <translation>Nombre</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="212"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
         <translation>Formato</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
         <translation>Ficheros</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
         <translation>Fecha</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="213"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
         <translation>Subido por</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
         <translation>Portugués - Brasil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="252"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
         <translation>Cerrar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="341"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Ha fallado la conexión a opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
         <translation>La búsqueda ha fallado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="581"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n subtítulo extraido</numerusform>
@@ -2641,53 +2651,53 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="640"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Error al reparar las líneas del subtítulo</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
         <translation>&amp;Descargar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="257"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Copiar enlace al portapapeles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="331"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="332"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
         <translation>La descarga ha fallado: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="337"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
         <translation>Conectando con %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="351"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
         <translation>Descargando...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="359"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
         <translation>Hecho.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="404"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
         <translation>%1 ficheros disponibles</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="413"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
         <translation>No se ha podido interpretar los datos recibidos.</translation>
     </message>
@@ -2712,7 +2722,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Refrescar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="558"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="665"/>
         <source>Subtitle saved as %1</source>
         <translation>Subtítulo grabado como %1</translation>
     </message>
@@ -2724,22 +2734,24 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="595"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
         <source>Overwrite?</source>
         <translation>¿Sobreescribir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="596"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>El fichero %1 ya existe, ¿sobreescribir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="513"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>Error saving file</source>
         <translation>Error al grabar el fichero</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2748,13 +2760,14 @@ en la carpeta %1
 Por favor verifica los permisos de esa carpeta.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="329"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="507"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="614"/>
         <source>Download failed</source>
         <translation>La descarga ha fallado</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="491"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Temporary file %1</source>
         <translation>Fichero temporal %1</translation>
     </message>
@@ -4251,12 +4264,12 @@ Do you want to overwrite?</source>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="199"/>
+        <location filename="../skingui/mediapanel.cpp" line="210"/>
         <source>Shuffle playlist</source>
         <translation>Desordenar la lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="200"/>
+        <location filename="../skingui/mediapanel.cpp" line="211"/>
         <source>Repeat playlist</source>
         <translation>Repetir la lista de reproducción</translation>
     </message>
@@ -4300,16 +4313,16 @@ Do you want to overwrite?</source>
         <translation>Barra de búsqueda</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="427"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="428"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="429"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="430"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="433"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="436"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -8229,7 +8242,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la ventana principal se cerrará cuando el fichero/lista de reproducción llege al final.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="455"/>
+        <location filename="../smplayer.cpp" line="463"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v. %1 ejecutándose en %2</translation>
     </message>
@@ -8405,9 +8418,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QuaZipFile</name>
     <message>
-        <location filename="../findsubtitles/quazip/quazipfile.cpp" line="141"/>
         <source>ZIP/UNZIP API error %1</source>
-        <translation>Error %1 del API ZIP/UNZIP</translation>
+        <translation type="obsolete">Error %1 del API ZIP/UNZIP</translation>
     </message>
 </context>
 <context>
