@@ -19,11 +19,14 @@
 
 #include "retrieveyoutubeurl.h"
 #include <QUrl>
+#include <QRegExp>
+#include <QStringList>
 
-RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : SimpleHttp(parent)
+RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 {
-	connect(this, SIGNAL(downloadFinished(QByteArray)),
-			this, SLOT(parse(QByteArray)));
+	reply = 0;
+	manager = new QNetworkAccessManager(this);
+	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotResponse(QNetworkReply*)));
 
 	preferred_quality = FLV_360p;
 }
@@ -32,8 +35,24 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
-	download(url);
+	QNetworkRequest req(url);
+	req.setRawHeader("User-Agent", user_agent.toLatin1());
+	reply = manager->get(req);
 	orig_url = url;
+
+	emit connecting(url);
+}
+
+void RetrieveYoutubeUrl::close() {
+	if (reply) reply->abort();
+}
+
+void RetrieveYoutubeUrl::gotResponse(QNetworkReply* reply) {
+	if (reply->error() != QNetworkReply::NoError) {
+		emit downloadFailed(reply->errorString());
+		return;
+	}
+	parse(reply->readAll());
 }
 
 void RetrieveYoutubeUrl::parse(QByteArray text) {
@@ -41,7 +60,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 	urlMap.clear();
 
-    QString replyString = QString::fromUtf8(text.constData(), text.size());
+	QString replyString = QString::fromUtf8(text.constData(), text.size());
 
 	QRegExp rx_title(".*<title>(.*)</title>.*");
 	if (rx_title.indexIn(replyString) != -1) {

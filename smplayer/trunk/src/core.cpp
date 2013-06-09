@@ -1372,10 +1372,13 @@ void Core::startMplayer( QString file, double seek ) {
 
 #ifdef YOUTUBE_SUPPORT
 	// Stop any pending request
-	qDebug("Core::startMplayer: yt state: %d", yt->state());	
+	#if 0
+	qDebug("Core::startMplayer: yt state: %d", yt->state());
 	if (yt->state() != QHttp::Unconnected) {
 		//yt->abort(); /* Make the app to crash, don't know why */
 	}
+	#endif
+	yt->close();
 #endif
 
 #if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
