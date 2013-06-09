@@ -25,35 +25,32 @@ DEFINES += UPDATE_CHECKER
 DEFINES += CHECK_UPGRADED
 #DEFINES += USE_FONTCONFIG_OPTIONS
 
-# Disable SINGLE_INSTANCE if Qt < 4.4
-contains( DEFINES, SINGLE_INSTANCE ) {
-	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
-		message("SINGLE_INSTANCE requires Qt > 4.3. Disabled.")
+contains(QT_VERSION, ^4\\.[0-3]\\..*) {
+	message("Some features requires Qt > 4.3.")
+
+	contains( DEFINES, SINGLE_INSTANCE ) {
 		DEFINES -= SINGLE_INSTANCE
+		message("SINGLE_INSTANCE disabled.")
 	}
-}
 
-# Disable SKINS if Qt < 4.4
-contains( DEFINES, SKINS ) {
-	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
-		message("SKINS requires Qt > 4.3. Disabled.")
+	contains( DEFINES, YOUTUBE_SUPPORT ) {
+		DEFINES -= YOUTUBE_SUPPORT
+		message("YOUTUBE_SUPPORT disabled.")
+	}
+
+	contains( DEFINES, SKINS ) {
 		DEFINES -= SKINS
+		message("SKINS disabled.")
 	}
-}
 
-# Disable FIND_SUBTITLES if Qt < 4.4
-contains( DEFINES, FIND_SUBTITLES ) {
-	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
-		message("FIND_SUBTITLES requires Qt > 4.3. Disabled.")
+	contains( DEFINES, FIND_SUBTITLES ) {
 		DEFINES -= FIND_SUBTITLES
+		message("FIND_SUBTITLES disabled.")
 	}
-}
 
-# Disable UPDATE_CHECKER if Qt < 4.4
-contains( DEFINES, UPDATE_CHECKER ) {
-	contains(QT_VERSION, ^4\\.[0-3]\\..*) {
-		message("UPDATE_CHECKER requires Qt > 4.3. Disabled.")
+	contains( DEFINES, UPDATE_CHECKER ) {
 		DEFINES -= UPDATE_CHECKER
+		message("UPDATE_CHECKER disabled.")
 	}
 }
 
