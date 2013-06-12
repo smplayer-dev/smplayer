@@ -135,6 +135,8 @@ void OSClient::responseSearch(QVariant &arg) {
 		return;
 	}
 
+	s_list.clear();
+
 	QVariantList data = m["data"].toList();
 	qDebug("OSClient::responseSearch: data count: %d", data.count());
 
