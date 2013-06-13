@@ -1,5 +1,28 @@
 [b]Version 0.8.6[/b]:
 
+(2013-06-13)
+ * Bugfix. The list of subtitles found at opensubtitles was not deleted, so
+   the list of subtitles wrongly displayed subtitles for previous searches.
+
+(2013-06-07)
+ * A new icon has been added for the mplayer error dialog.
+
+(2013-06-05)
+ * Bugfix in the skingui. In fullscreen mode, the menubar would appear if the
+   mouse was near of the top of the video area. Now it shows only if the mouse
+   is near of the top of the main window.
+ * Display a wait cursor during the creation of the preferences and properties 
+   dialogs.
+
+(2013-06-03)
+ * Save/restore the window state.
+
+(2013-05-22)
+ * Add an option for command line: -delete-config.
+   This option deletes the smplayer configuration files.
+   The files which are deleted are: smplayer.ini, smplayer_files.ini, 
+   styles.ass and all files in the subdirectory file_settings.
+
 (2013-05-16)
  * (Experimental) Download the subtitles from opensubtitles.org in gzip
    format instead of zip. The quazip library is not needed anymore.
