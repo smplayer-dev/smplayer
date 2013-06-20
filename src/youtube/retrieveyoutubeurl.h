@@ -59,6 +59,8 @@ signals:
 	void connecting(QString host);
 	void downloadFailed(QString error);
 
+	void signatureNotFound();
+
 protected slots:
 	void gotResponse(QNetworkReply* reply);
 	void parse(QByteArray text);
