@@ -29,6 +29,7 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotResponse(QNetworkReply*)));
 
 	preferred_quality = FLV_360p;
+	user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
 }
 
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
@@ -48,7 +49,19 @@ void RetrieveYoutubeUrl::close() {
 }
 
 void RetrieveYoutubeUrl::gotResponse(QNetworkReply* reply) {
-	if (reply->error() != QNetworkReply::NoError) {
+	if (reply->error() == QNetworkReply::NoError) {
+		int status = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
+		qDebug("RetrieveYoutubeUrl::gotResponse: status: %d", status);
+		switch (status) {
+			case 301:
+			case 302:
+			case 307:
+				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
+				qDebug("RetrieveYoutubeUrl::gotResponse: redirected: %s", r_url.toLatin1().constData());
+				fetchPage(r_url);
+				return;
+		}
+	} else {
 		emit downloadFailed(reply->errorString());
 		return;
 	}
@@ -119,6 +132,13 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	qDebug("RetrieveYoutubeUrl::parse: url count: %d", urlMap.count());
 
 	QString p_url = findPreferredUrl();
+
+	if (p_url.indexOf("signature=") == -1) {
+		qDebug("RetrieveYoutubeUrl::parse: signature not found");
+		emit signatureNotFound();
+		return;
+	}
+
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
 		emit gotPreferredUrl(p_url);
