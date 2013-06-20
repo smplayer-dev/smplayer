@@ -125,6 +125,11 @@ void MediaBarPanel::updateMediaInfo()
     mediaPanel->setResolutionLabelText(s);
 }
 
+void MediaBarPanel::displayMessage(QString status, int time)
+{
+    mediaPanel->setStatusText(status, time);
+}
+
 void MediaBarPanel::displayMessage(QString status)
 {
     mediaPanel->setStatusText(status);

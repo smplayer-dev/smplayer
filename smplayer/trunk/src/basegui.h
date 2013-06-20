@@ -182,6 +182,7 @@ protected slots:
 	virtual void playlistHasFinished();
 
 	virtual void displayState(Core::State state);
+	virtual void displayMessage(QString message, int time);
 	virtual void displayMessage(QString message);
 	virtual void gotCurrentTime(double);
 

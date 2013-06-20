@@ -1961,8 +1961,12 @@ void BaseGui::createCore() {
 
 	connect( core, SIGNAL(needResize(int, int)),
              this, SLOT(resizeWindow(int,int)) );
+
+	connect( core, SIGNAL(showMessage(QString,int)),
+             this, SLOT(displayMessage(QString,int)) );
 	connect( core, SIGNAL(showMessage(QString)),
              this, SLOT(displayMessage(QString)) );
+
 	connect( core, SIGNAL(stateChanged(Core::State)),
              this, SLOT(displayState(Core::State)) );
 	connect( core, SIGNAL(stateChanged(Core::State)),
@@ -4434,8 +4438,12 @@ void BaseGui::displayState(Core::State state) {
 #endif
 }
 
+void BaseGui::displayMessage(QString message, int time) {
+	statusBar()->showMessage(message, time);
+}
+
 void BaseGui::displayMessage(QString message) {
-	statusBar()->showMessage(message, 2000);
+	displayMessage(message, 2000);
 }
 
 void BaseGui::gotCurrentTime(double sec) {
