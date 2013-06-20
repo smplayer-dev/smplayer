@@ -408,6 +408,11 @@ void SkinGui::displayState(Core::State state) {
 	}
 }
 
+void SkinGui::displayMessage(QString message, int time) {
+	BaseGuiPlus::displayMessage(message, time);
+	mediaBarPanel->displayMessage(message, time);
+}
+
 void SkinGui::displayMessage(QString message) {
 	BaseGuiPlus::displayMessage(message);
 	mediaBarPanel->displayMessage(message);

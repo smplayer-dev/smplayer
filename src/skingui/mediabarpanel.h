@@ -64,6 +64,7 @@ public slots:
     void setDuration();
     void gotCurrentTime(double time);
     void updateMediaInfo();
+    void displayMessage(QString status, int time);
     void displayMessage(QString status);
     void displayPermanentMessage(QString status);
     void setBuffering();

@@ -401,6 +401,7 @@ protected slots:
 #ifdef YOUTUBE_SUPPORT
 	void connectingToYT(QString host);
 	void YTFailed(QString error);
+	void YTNoSignature();
 	void YTNoVideoUrl();
 #endif
 
@@ -435,6 +436,7 @@ signals:
 	void mediaFinished(); // Media has arrived to the end.
 	void mediaStoppedByUser();
 	void showMessage(QString text);
+	void showMessage(QString text, int time);
 	void menusNeedInitialize();
 	void widgetsNeedUpdate();
 	void videoEqualizerNeedsUpdate();
