@@ -217,24 +217,22 @@ QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Q
 	return p_url;
 }
 
-QString RetrieveYoutubeUrl::sanitizeForUnicodePoint(QString string)
-{
-    QRegExp rx("\\\\u(\\d{4})");
-    while (rx.indexIn(string) != -1) {
-        string.replace(rx.cap(0), QString(QChar(rx.cap(1).toInt(0,16))));
-    }
-    return string;
+QString RetrieveYoutubeUrl::sanitizeForUnicodePoint(QString string) {
+	QRegExp rx("\\\\u(\\d{4})");
+	while (rx.indexIn(string) != -1) {
+		string.replace(rx.cap(0), QString(QChar(rx.cap(1).toInt(0,16))));
+	}
+	return string;
 }
 
-void RetrieveYoutubeUrl::htmlDecode(QString& string)
-{
-    string.replace("%3A", ":", Qt::CaseInsensitive);
-    string.replace("%2F", "/", Qt::CaseInsensitive);
-    string.replace("%3F", "?", Qt::CaseInsensitive);
-    string.replace("%3D", "=", Qt::CaseInsensitive);
-    string.replace("%25", "%", Qt::CaseInsensitive);
-    string.replace("%26", "&", Qt::CaseInsensitive);
-    string.replace("%3D", "=", Qt::CaseInsensitive);
+void RetrieveYoutubeUrl::htmlDecode(QString& string) {
+	string.replace("%3A", ":", Qt::CaseInsensitive);
+	string.replace("%2F", "/", Qt::CaseInsensitive);
+	string.replace("%3F", "?", Qt::CaseInsensitive);
+	string.replace("%3D", "=", Qt::CaseInsensitive);
+	string.replace("%25", "%", Qt::CaseInsensitive);
+	string.replace("%26", "&", Qt::CaseInsensitive);
+	string.replace("%3D", "=", Qt::CaseInsensitive);
 }
 
 #include "moc_retrieveyoutubeurl.cpp"
