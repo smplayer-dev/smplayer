@@ -68,7 +68,7 @@ protected slots:
 protected:
 	static QString sanitizeForUnicodePoint(QString string);
 	static void htmlDecode(QString& string);
-	static QByteArray aclara(QByteArray);
+	static QString aclara(const QString &);
 
 	QMap<int, QString> urlMap;
 	QString url_title;

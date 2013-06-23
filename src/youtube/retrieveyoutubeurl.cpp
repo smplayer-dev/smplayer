@@ -73,8 +73,10 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 	urlMap.clear();
 
+	QString replyString = QString::fromUtf8(text);
+
 	QRegExp rx_title(".*<title>(.*)</title>.*");
-	if (rx_title.indexIn(QString::fromUtf8(text)) != -1) {
+	if (rx_title.indexIn(replyString) != -1) {
 		url_title = rx_title.cap(1).simplified();
 		url_title = QString(url_title).replace("&amp;","&").replace("&gt;", ">").replace("&lt;", "<").replace("&quot;","\"").replace("&#39;","'")/*.replace(" - YouTube", "")*/;
 		qDebug("RetrieveYoutubeUrl::parse: title '%s'", url_title.toUtf8().constData());
@@ -83,7 +85,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	}
 
 	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
-	regex.indexIn(text);
+	regex.indexIn(replyString);
 	QString fmtArray = regex.cap(1);
 	fmtArray = sanitizeForUnicodePoint(fmtArray);
 	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
@@ -110,7 +112,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 			}
 			else
 			if (line.hasQueryItem("s")) {
-				QByteArray signature = aclara(line.queryItemValue("s").toLatin1());
+				QString signature = aclara(line.queryItemValue("s"));
 				if (!signature.isEmpty()) {
 					line.addQueryItem("signature", signature);
 				}
@@ -235,14 +237,14 @@ void RetrieveYoutubeUrl::htmlDecode(QString& string) {
 	string.replace("%3D", "=", Qt::CaseInsensitive);
 }
 
-QByteArray RetrieveYoutubeUrl::aclara(QByteArray text) {
-	QByteArray res;
+QString RetrieveYoutubeUrl::aclara(const QString & text) {
+	QString res;
 
 	if (text.size() != 87) return res;
 
-	QByteArray r1, r2;
+	QString r1, r2;
 
-	QByteArray s = text.mid(44,40);
+	QString s = text.mid(44,40);
 	for (int n = s.size(); n > 0; n--) {
 		r1.append(s.at(n-1));
 	}
@@ -255,9 +257,9 @@ QByteArray RetrieveYoutubeUrl::aclara(QByteArray text) {
 	res = r1.mid(21,1) + r1.mid(1,20) + r1.mid(0,1) + r1.mid(22,9) + text.mid(0,1) + r1.mid(32,8) + text.mid(43,1) + r2;
 
 	/*
-	qDebug("r1: %s", r1.constData());
-	qDebug("r2: %s", r2.constData());
-	qDebug("res: %s", res.constData());
+	qDebug("r1: %s", r1.toUtf8().constData());
+	qDebug("r2: %s", r2.toUtf8().constData());
+	qDebug("res: %s", res.toUtf8().constData());
 	*/
 
 	return res;
