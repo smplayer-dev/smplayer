@@ -2367,11 +2367,19 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	// Global
 	if (!pref->mplayer_additional_options.isEmpty()) {
-		QStringList args = MyProcess::splitArguments(pref->mplayer_additional_options);
-        QStringList::Iterator it = args.begin();
-        while( it != args.end() ) {
- 			proc->addArgument( (*it) );
-			++it;
+		QString additional_options = pref->mplayer_additional_options;
+		// mplayer2 doesn't support -fontconfig and -nofontconfig
+		if (pref->mplayer_is_mplayer2) {
+			additional_options.replace("-fontconfig", "");
+			additional_options.replace("-nofontconfig", "");
+		}
+		QStringList args = MyProcess::splitArguments(additional_options);
+		for (int n = 0; n < args.count(); n++) {
+			QString arg = args[n].simplified();
+			if (!arg.isEmpty()) {
+				qDebug("arg %d: %s", n, arg.toUtf8().constData());
+				proc->addArgument(arg);
+			}
 		}
 	}
 
