@@ -485,10 +485,6 @@ Section -Post
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
 
-  ;${If} $Reinstall_RemoveSettings_State == 1
-;
-  ;${EndIf}
-
 SectionEnd
 
 ${MementoSectionDone}
