@@ -56,11 +56,10 @@ if "%USER_CHOICE%" == "1" (
 
 echo --- Creating SMPlayer NSIS Packages ---
 echo.
-echo Format: VER_MAJOR.VER_MINOR.VER_BUILD.VER_REVISION
-echo Example: 0.8.1.0
+echo Format: VER_MAJOR.VER_MINOR.VER_BUILD[.VER_REVISION]
+echo VER_REVISION is optional (set to 0 if blank)
 echo.
-echo Note: VER_REVISION must be defined as '0' if not used
-echo.
+
 
 :: Reset in case ran again in same command prompt instance
 set VER_MAJOR=
@@ -75,18 +74,15 @@ set /P VER_REVISION="VER_REVISION: "
 
 echo.
 
-if %VER_REVISION% neq 0 (
-if %VER_REVISION% == "" (
+if [%VER_REVISION%]==[] (
 
 %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% %TOP_LEVEL_DIR%\smplayer.nsi
 rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
-rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% /DWIN64 %TOP_LEVEL_DIR%\smplayer.full.nsi
 
 ) else (
 
 %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %TOP_LEVEL_DIR%\smplayer.nsi
 rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
-rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.full.nsi
 
 )
 
