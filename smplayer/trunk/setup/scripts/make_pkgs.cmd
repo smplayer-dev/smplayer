@@ -76,6 +76,7 @@ set /P VER_REVISION="VER_REVISION: "
 echo.
 
 if %VER_REVISION% neq 0 (
+if %VER_REVISION% == "" (
 
 %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% %TOP_LEVEL_DIR%\smplayer.nsi
 rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
@@ -133,6 +134,26 @@ echo ######   Create screenshots dir.   #######
 echo.
 
 mkdir %SMPLAYER_PORTABLE_DIR%\screenshots
+
+echo.
+echo ######     Create smplayer.ini     #######
+echo.
+
+echo [%%General]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+
+echo.
+echo ######  Create smplayer_orig.ini   #######
+echo.
+
+echo [%%General]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
+echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
+echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
+echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
+echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 
 echo.
 echo ######    Create mplayer config    #######
