@@ -89,9 +89,6 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	page_tv = new PrefTV;
 	addSection( page_tv );
 
-	page_updates = new PrefUpdates;
-	addSection( page_updates );
-
 #if USE_ASSOCIATIONS
 	page_associations = new PrefAssociations;
 	addSection(page_associations);
@@ -99,6 +96,9 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 
 	page_advanced = new PrefAdvanced;
 	addSection( page_advanced );
+
+	page_updates = new PrefUpdates;
+	addSection( page_updates );
 
 	//sections->setIconSize( QSize(22,22) );
 	sections->setCurrentRow(General);
