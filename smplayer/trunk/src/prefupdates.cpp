@@ -19,6 +19,7 @@
 #include "prefupdates.h"
 #include "preferences.h"
 #include "images.h"
+#include "updatechecker.h"
 
 PrefUpdates::PrefUpdates(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -46,11 +47,17 @@ void PrefUpdates::retranslateStrings() {
 }
 
 void PrefUpdates::setData(Preferences * pref) {
+	updates_check->setChecked(pref->update_checker_data.enabled);
+	days_spin->setValue(pref->update_checker_data.days_to_check);
+	open_page_check->setChecked(pref->check_if_upgraded);
 }
 
 void PrefUpdates::getData(Preferences * pref) {
 	requires_restart = false;
 
+	pref->update_checker_data.enabled = updates_check->isChecked();
+	pref->update_checker_data.days_to_check = days_spin->value();
+	pref->check_if_upgraded = open_page_check->isChecked();
 }
 
 void PrefUpdates::createHelp() {
