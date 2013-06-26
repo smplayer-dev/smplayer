@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>385</width>
-    <height>369</height>
+    <width>420</width>
+    <height>261</height>
    </rect>
   </property>
   <layout class="QVBoxLayout">
@@ -64,7 +64,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QSpinBox" name="spinBox">
+           <widget class="QSpinBox" name="days_spin">
             <property name="minimum">
              <number>1</number>
             </property>
@@ -79,7 +79,7 @@
              <string>&amp;day(s)</string>
             </property>
             <property name="buddy">
-             <cstring>spinBox</cstring>
+             <cstring>days_spin</cstring>
             </property>
            </widget>
           </item>
@@ -90,7 +90,7 @@
             </property>
             <property name="sizeHint" stdset="0">
              <size>
-              <width>130</width>
+              <width>165</width>
               <height>20</height>
              </size>
             </property>
@@ -108,7 +108,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>&amp;Open a page with info and tips after an upgrade</string>
+          <string>&amp;Open a web page with info and tips after an upgrade</string>
          </property>
         </widget>
        </item>
@@ -134,7 +134,7 @@
  <tabstops>
   <tabstop>updates_tab</tabstop>
   <tabstop>updates_check</tabstop>
-  <tabstop>spinBox</tabstop>
+  <tabstop>days_spin</tabstop>
   <tabstop>open_page_check</tabstop>
  </tabstops>
  <resources/>
