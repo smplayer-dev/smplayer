@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 QT += network xml
 
@@ -119,6 +119,7 @@ HEADERS += guiconfig.h \
 	prefadvanced.h \
 	prefplaylist.h \
 	preftv.h \
+	prefupdates.h \
 	filepropertiesdialog.h \
 	multilineinputdialog.h \
 	playlist.h \
@@ -217,6 +218,7 @@ SOURCES	+= version.cpp \
 	prefadvanced.cpp \
 	prefplaylist.cpp \
 	preftv.cpp \
+	prefupdates.cpp \
 	filepropertiesdialog.cpp \
 	multilineinputdialog.cpp \
 	playlist.cpp \
@@ -259,7 +261,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui videoequalizer2.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
-        prefplaylist.ui preftv.ui favoriteeditor.ui \
+        prefplaylist.ui preftv.ui prefupdates.ui favoriteeditor.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         toolbareditor.ui multilineinputdialog.ui
 

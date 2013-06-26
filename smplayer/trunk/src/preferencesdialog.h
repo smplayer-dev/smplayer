@@ -40,6 +40,7 @@ class PrefInput;
 class PrefAdvanced;
 class PrefPlaylist;
 class PrefTV;
+class PrefUpdates;
 class PrefAssociations;
 
 class Preferences;
@@ -61,6 +62,7 @@ public:
 	PrefInput * mod_input() { return page_input; };
 	PrefAdvanced * mod_advanced() { return page_advanced; };
 	PrefPlaylist * mod_playlist() { return page_playlist; };
+	PrefUpdates * mod_updtes() { return page_updates; };
 
 	void addSection(PrefWidget *w);
 
@@ -99,10 +101,11 @@ protected:
 	PrefInput * page_input;
 	PrefPlaylist * page_playlist;
 	PrefTV * page_tv;
+	PrefUpdates * page_updates;
 	PrefAdvanced * page_advanced;
 
 #if USE_ASSOCIATIONS
-	PrefAssociations* page_associations; 
+	PrefAssociations* page_associations;
 #endif
 
 	QTextBrowser * help_window;
