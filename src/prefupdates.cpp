@@ -63,13 +63,16 @@ void PrefUpdates::getData(Preferences * pref) {
 void PrefUpdates::createHelp() {
 	clearHelp();
 
-/*
-	setWhatsThis(auto_add_to_playlist_check, tr("Automatically add files to playlist"),
-		tr("If this option is enabled, every time a file is opened, SMPlayer "
-           "will first clear the playlist and then add the file to it. In "
-           "case of DVDs, CDs and VCDs, all titles in the disc will be added "
-           "to the playlist.") );
-*/
+	setWhatsThis(updates_check, tr("Check for updates"),
+		tr("If this option is enabled, SMPlayer will check for updates "
+           "and display a notification if a new version is available.") );
+
+	setWhatsThis(days_frame, tr("Interval for checks"),
+		tr("You can enter here the interval (in days) for the update checks.") );
+
+	setWhatsThis(open_page_check, tr("Open a web page with info and tips after an upgrade"),
+		tr("If this option is enabled, every time SMPlayer is upgraded a web page will "
+		   "be opened with information and tips about how to use SMPlayer.") );
 }
 
 #include "moc_prefupdates.cpp"
