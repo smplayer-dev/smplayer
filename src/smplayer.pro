@@ -338,8 +338,8 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 	INCLUDEPATH += youtube
 	DEPENDPATH += youtube
 
-	HEADERS += retrieveyoutubeurl.h
-	SOURCES += retrieveyoutubeurl.cpp
+	HEADERS += retrieveyoutubeurl.h ytsig.h
+	SOURCES += retrieveyoutubeurl.cpp ytsig.cpp
 }
 
 # Skins support
