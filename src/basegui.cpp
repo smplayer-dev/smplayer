@@ -3850,7 +3850,7 @@ void BaseGui::loadAudioFile() {
 }
 
 void BaseGui::helpFirstSteps() {
-	QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/first-steps.php?version=%1").arg(smplayerVersion()));
+	QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/first-steps.php?version=%1").arg(Version::printable()));
 }
 
 void BaseGui::helpFAQ() {
@@ -4224,7 +4224,7 @@ void BaseGui::displayWarningAboutOldMplayer() {
 void BaseGui::reportNewVersionAvailable(QString new_version) {
 	QMessageBox::StandardButton button = QMessageBox::information(this, tr("New version available"),
 		tr("A new version of SMPlayer is available.") + "<br><br>" +
-		tr("Installed version: %1").arg(stableVersion()) + "<br>" +
+		tr("Installed version: %1").arg(Version::stable()) + "<br>" +
 		tr("Available version: %1").arg(new_version) + "<br><br>" +
 		tr("Would you like to know more about this new version?"),
 		QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
@@ -4241,9 +4241,9 @@ void BaseGui::reportNewVersionAvailable(QString new_version) {
 void BaseGui::checkIfUpgraded() {
 	qDebug("BaseGui::checkIfUpgraded");
 
-	if ( (pref->check_if_upgraded) && (pref->smplayer_stable_version != stableVersion()) ) {
+	if ( (pref->check_if_upgraded) && (pref->smplayer_stable_version != Version::stable()) ) {
 		// Running a new version
-		qDebug("BaseGui::checkIfUpgraded: running a new version: %s", stableVersion().toUtf8().constData());
+		qDebug("BaseGui::checkIfUpgraded: running a new version: %s", Version::stable().toUtf8().constData());
 		QString os = "other";
 		#ifdef Q_OS_WIN
 		os = "win";
@@ -4251,9 +4251,9 @@ void BaseGui::checkIfUpgraded() {
 		#ifdef Q_OS_LINUX
 		os = "linux";
 		#endif
-		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=%2").arg(smplayerVersion()).arg(os));
+		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=%2").arg(Version::printable()).arg(os));
 	}
-	pref->smplayer_stable_version = stableVersion();
+	pref->smplayer_stable_version = Version::stable();
 }
 #endif
 

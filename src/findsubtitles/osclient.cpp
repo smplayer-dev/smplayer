@@ -34,7 +34,7 @@ void OSClient::setProxy(const QNetworkProxy & proxy) {
 void OSClient::login() {
 	qDebug("OSClient::login");
 
-	QString user_agent = "SMPlayer v" + stableVersion();
+	QString user_agent = "SMPlayer v" + Version::stable();
 	qDebug("OSClient::login: user agent: %s", user_agent.toUtf8().constData());
 
 	QVariantList args;

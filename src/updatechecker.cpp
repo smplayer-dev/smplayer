@@ -41,7 +41,7 @@ void UpdateCheckerData::load(QSettings * set) {
 	last_checked = set->value("checked_date", 0).toDate();
 	enabled = set->value("enabled", true).toBool();
 	days_to_check = set->value("days_to_check", 7).toInt();
-	last_known_version = set->value("last_known_version", stableVersion()).toString();
+	last_known_version = set->value("last_known_version", Version::stable()).toString();
 	set->endGroup();
 }
 
@@ -91,7 +91,7 @@ void UpdateChecker::gotReply() {
 			} 
 			if (!version.isEmpty()) {
 				d->last_checked = QDate::currentDate();
-				if ((d->last_known_version != version) && (version !=stableVersion())) {
+				if ((d->last_known_version != version) && (version != Version::stable())) {
 					qDebug("UpdateChecker::gotReply: new version found: %s", version.toUtf8().constData());
 					emit newVersionFound(version);
 				}

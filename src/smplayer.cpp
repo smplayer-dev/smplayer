@@ -400,10 +400,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 void SMPlayer::start() {
 #ifdef FONTCACHE_DIALOG
 #ifndef PORTABLE_APP
-	if (smplayerVersion() != pref->smplayer_version) {
+	if (Version::with_revision() != pref->smplayer_version) {
 		FontCacheDialog d(0);
 		d.run(pref->mplayer_bin, "sample.avi");
-		pref->smplayer_version = smplayerVersion();
+		pref->smplayer_version = Version::with_revision();
 	}
 #endif
 #endif
@@ -461,7 +461,7 @@ void SMPlayer::showInfo() {
 	}
 #endif
 	QString s = QObject::tr("This is SMPlayer v. %1 running on %2")
-            .arg(smplayerVersion())
+            .arg(Version::printable())
 #ifdef Q_OS_LINUX
            .arg("Linux")
 #else

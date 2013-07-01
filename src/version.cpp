@@ -34,12 +34,12 @@
 #endif
 #endif
 
-QString smplayerVersion() {
+QString Version::printable() {
 #if USE_SVN_VERSIONS
 #ifdef Q_OS_WIN
-    return QString(QString(VERSION) + "+" + QString(SVN_REVISION) + " " + QString(SMPWIN_ARCH));
+    return QString(QString(VERSION) + " (svn r" + QString(SVN_REVISION) + ") " + QString(SMPWIN_ARCH));
 #else
-    return QString(QString(VERSION) + "+" + QString(SVN_REVISION));
+    return QString(QString(VERSION) + " (svn r" + QString(SVN_REVISION) + ")");
 #endif
 #else
 #ifdef Q_OS_WIN
@@ -50,6 +50,11 @@ QString smplayerVersion() {
 #endif
 }
 
-QString stableVersion() {
+QString Version::stable() {
 	return QString(VERSION);
 }
+
+QString Version::revision() {
+	return QString(SVN_REVISION);
+}
+

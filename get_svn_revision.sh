@@ -15,7 +15,7 @@ test $svn_revision || svn_revision=0UNKNOWN
 if test "$2"; then
 extra="-$2"
 fi
-NEW_REVISION="#define SVN_REVISION \"SVN-r${svn_revision}${extra}\""
+NEW_REVISION="#define SVN_REVISION \"${svn_revision}${extra}\""
 OLD_REVISION=`cat src/svn_revision.h 2> /dev/null`
 
 # Update version.h only on revision changes to avoid spurious rebuilds

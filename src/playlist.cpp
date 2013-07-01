@@ -728,7 +728,7 @@ bool Playlist::save_m3u(QString file) {
 		QString filename;
 
 		stream << "#EXTM3U" << "\n";
-		stream << "# Playlist created by SMPlayer " << smplayerVersion() << " \n";
+		stream << "# Playlist created by SMPlayer " << Version::printable() << " \n";
 
 		PlaylistItemList::iterator it;
 		for ( it = pl.begin(); it != pl.end(); ++it ) {

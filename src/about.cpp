@@ -54,7 +54,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
 	info->setText(
 		"<b>SMPlayer</b> &copy; 2006-2013 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;<br><br>"
-		"<b>" + tr("Version: %1").arg(smplayerVersion()) + "</b>" +
+		"<b>" + tr("Version: %1").arg(Version::printable()) + "</b>" +
 #if PORTABLE_APP
                 " (" + tr("Portable Edition") + ")" +
 #endif
