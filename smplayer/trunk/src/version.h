@@ -16,13 +16,18 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _VERSION_H_
-#define _VERSION_H_
+#ifndef VERSION_H
+#define VERSION_H
 
 #include <QString>
 
-QString smplayerVersion();
-QString stableVersion();
+class Version {
+public:
+	static QString printable();
+	static QString stable();
+	static QString revision();
+	static QString with_revision() { return stable() + "." + revision(); }
+};
 
 #endif
 

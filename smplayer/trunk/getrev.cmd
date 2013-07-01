@@ -19,4 +19,4 @@ echo SVN Revision: %Revision%
 )
 echo.
 
-echo #define SVN_REVISION "SVN-r%REVISION%">src\svn_revision.h
+echo #define SVN_REVISION "%REVISION%">src\svn_revision.h
