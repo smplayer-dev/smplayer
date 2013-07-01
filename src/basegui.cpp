@@ -4224,7 +4224,7 @@ void BaseGui::displayWarningAboutOldMplayer() {
 void BaseGui::reportNewVersionAvailable(QString new_version) {
 	QMessageBox::StandardButton button = QMessageBox::information(this, tr("New version available"),
 		tr("A new version of SMPlayer is available.") + "<br><br>" +
-		tr("Installed version: %1").arg(Version::stable()) + "<br>" +
+		tr("Installed version: %1").arg(Version::with_revision()) + "<br>" +
 		tr("Available version: %1").arg(new_version) + "<br><br>" +
 		tr("Would you like to know more about this new version?"),
 		QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
