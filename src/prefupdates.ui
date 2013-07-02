@@ -59,7 +59,10 @@
           <item>
            <widget class="QLabel" name="label">
             <property name="text">
-             <string>Check every</string>
+             <string>Check interval (in &amp;days)</string>
+            </property>
+            <property name="buddy">
+             <cstring>days_spin</cstring>
             </property>
            </widget>
           </item>
@@ -70,16 +73,6 @@
             </property>
             <property name="maximum">
              <number>365</number>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_2">
-            <property name="text">
-             <string>&amp;day(s)</string>
-            </property>
-            <property name="buddy">
-             <cstring>days_spin</cstring>
             </property>
            </widget>
           </item>
