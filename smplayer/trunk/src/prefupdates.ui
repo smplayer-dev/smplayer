@@ -101,7 +101,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>&amp;Open a web page with info and tips after an upgrade</string>
+          <string>&amp;Open the first steps guide after an upgrade</string>
          </property>
         </widget>
        </item>
