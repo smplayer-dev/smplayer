@@ -67,7 +67,7 @@ void PrefUpdates::createHelp() {
 		tr("If this option is enabled, SMPlayer will check for updates "
            "and display a notification if a new version is available.") );
 
-	setWhatsThis(days_frame, tr("Interval for checks"),
+	setWhatsThis(days_frame, tr("Check interval"),
 		tr("You can enter here the interval (in days) for the update checks.") );
 
 	setWhatsThis(open_page_check, tr("Open a web page with info and tips after an upgrade"),
