@@ -70,9 +70,9 @@ void PrefUpdates::createHelp() {
 	setWhatsThis(days_frame, tr("Check interval"),
 		tr("You can enter here the interval (in days) for the update checks.") );
 
-	setWhatsThis(open_page_check, tr("Open a web page with info and tips after an upgrade"),
-		tr("If this option is enabled, every time SMPlayer is upgraded a web page will "
-		   "be opened with information and tips about how to use SMPlayer.") );
+	setWhatsThis(open_page_check, tr("Open the first steps guide after an upgrade"),
+		tr("If this option is enabled, the first steps guide with info and tips about "
+           "how to use SMPlayer will be opened after an upgrade.") );
 }
 
 #include "moc_prefupdates.cpp"
