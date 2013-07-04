@@ -33,7 +33,7 @@ FILETYPE            VFT_APP
       VALUE "ProductName", "SMPlayer for Windows (32-bit)\0"
       #endif
       #if HAVE_SVN_REVISION_H
-      VALUE "ProductVersion", SMPLAYER_PRODVERSION "+" SVN_REVISION "\0"
+      VALUE "ProductVersion", SMPLAYER_PRODVERSION "+SVN-r" SVN_REVISION "\0"
       #else
       VALUE "ProductVersion", SMPLAYER_PRODVERSION "\0"
       #endif
