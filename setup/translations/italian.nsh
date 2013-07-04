@@ -37,7 +37,11 @@ ${LangFileString} Section_MPlayer "MPlayer (essenziale)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; essenziale per la riproduzione."
 
 ${LangFileString} Section_MPlayerCodecs "Codec binari"
+!ifdef WIN64
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+!else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codec aggiuntivi per MPlayer. (Connessione a Internet richiesta per l'installazione)"
+!endif
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 

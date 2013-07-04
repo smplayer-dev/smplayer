@@ -37,7 +37,11 @@ ${LangFileString} Section_MPlayer "MPlayer (wymagane)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; wymagany do odtwarzania filmów."
 
 ${LangFileString} Section_MPlayerCodecs "Kodeki"
+!ifdef WIN64
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+!else
 ${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera. (Wymagane połączenie z internetem)"
+!endif
 
 ${LangFileString} Section_MEncoder_Desc "Jest to prosty koder (kompresor) filmów, zaprojektowany do kodowania filmów otwieralnych MPlayerem do innych obsługiwanych formatów"
 ${LangFileString} Section_IconThemes "Zestawy Ikon"

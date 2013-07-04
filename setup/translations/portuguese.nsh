@@ -37,7 +37,11 @@ ${LangFileString} Section_MPlayer "MPlayer (obrigatório)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; necessário para a reprodução."
 
 ${LangFileString} Section_MPlayerCodecs "Codificadores"
+!ifdef WIN64
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+!else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codificadores opcionais para o MPlayer. (precisa de uma ligação à Internet)"
+!endif
 
 ${LangFileString} Section_MEncoder_Desc "Um programa complementar ao MPlayer, utilizado para codificar ou converter emissões de vídeo e áudio."
 
