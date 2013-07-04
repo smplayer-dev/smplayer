@@ -60,33 +60,53 @@ echo Format: VER_MAJOR.VER_MINOR.VER_BUILD[.VER_REVISION]
 echo VER_REVISION is optional (set to 0 if blank)
 echo.
 
-
 :: Reset in case ran again in same command prompt instance
+set NSIS_PKG_VER=
 set VER_MAJOR=
 set VER_MINOR=
 set VER_BUILD=
 set VER_REVISION=
+set VER_REV_CMD=
 
-set /P VER_MAJOR="VER_MAJOR: "
-set /P VER_MINOR="VER_MINOR: "
-set /P VER_BUILD="VER_BUILD: "
-set /P VER_REVISION="VER_REVISION: "
+:nsispkgver_again
+Set /p NSIS_PKG_VER="Version: "
 
-echo.
+for /f "tokens=1 delims=." %%j in ("%NSIS_PKG_VER%")  do set VER_MAJOR=%%j
+for /f "tokens=2 delims=." %%k in ("%NSIS_PKG_VER%")  do set VER_MINOR=%%k
+for /f "tokens=3 delims=." %%l in ("%NSIS_PKG_VER%")  do set VER_BUILD=%%l
+for /f "tokens=4 delims=." %%m in ("%NSIS_PKG_VER%")  do set VER_REVISION=%%m
 
-if [%VER_REVISION%]==[] (
-
-%NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %TOP_LEVEL_DIR%\smplayer.nsi
-rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
-
-) else (
-
-%NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% %TOP_LEVEL_DIR%\smplayer.nsi
-rem %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% /DVER_REVISION=%VER_REVISION% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
-
+if [%VER_MAJOR%]==[] (
+  echo Major Version # must be specified [#.x.x]
+  echo.
+  goto nsispkgver_again
 )
 
-echo.
+if [%VER_MINOR%]==[] (
+  echo Minor Version # must be specified [x.#.x]
+  echo.
+  goto nsispkgver_again
+)
+
+if [%VER_BUILD%]==[] (
+  echo Build Version # must be specified [x.x.#]
+  echo.
+  goto nsispkgver_again
+)
+
+if [%VER_REVISION%]==[] (
+  set VER_REV_CMD=
+) else (
+  set VER_REV_CMD= /DVER_REVISION=%VER_REVISION%
+)
+
+if exist %TOP_LEVEL_DIR%\smplayer-build (
+  %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
+)
+
+if exist %TOP_LEVEL_DIR%\smplayer-build64 (
+  %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
+)
 
 goto end
 
@@ -118,7 +138,7 @@ if not exist %TOP_LEVEL_DIR%\smplayer-portable-%SMPLAYER_VER% (
 )
 
 echo.
-echo ######      Backing up files       #######
+echo Backing up files...
 echo.
 
 ren %SMPLAYER_PORTABLE_DIR%\smplayer.exe smplayer.bak
@@ -126,51 +146,51 @@ ren %SMPLAYER_PORTABLE_DIR%\smtube.exe smtube.bak
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config config.bak
 
 echo.
-echo ######   Create screenshots dir.   #######
+echo Creating screenshots dir...
 echo.
 
 mkdir %SMPLAYER_PORTABLE_DIR%\screenshots
 
 echo.
-echo ######     Create smplayer.ini     #######
+echo Creating smplayer.ini...
 echo.
 
-echo [%%General]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+echo [%%General]> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
 echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
 echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
 echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
 echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
 
 echo.
-echo ######  Create smplayer_orig.ini   #######
+echo Creating smplayer_orig.ini...
 echo.
 
-echo [%%General]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
+echo [%%General]> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 
 echo.
-echo ######    Create mplayer config    #######
+echo Creating mplayer config...
 echo.
 
-echo ## MPlayer Windows configuration>> %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
+echo ## MPlayer Windows configuration> %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
 echo.>> %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
 echo subfont=c:\windows\fonts\arial.ttf>> %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
 echo ^<cachedir^>../fontconfig^</cachedir^>> %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
 
 echo.
-echo ######    Copying portable .exe    #######
+echo Copying portable .exe...
 echo.
 
 copy /y %PORTABLE_EXE_DIR%\smplayer-portable.exe %SMPLAYER_PORTABLE_DIR%\smplayer.exe
 copy /y %PORTABLE_EXE_DIR%\smtube-portable.exe %SMPLAYER_PORTABLE_DIR%\smtube.exe
 
 echo.
-echo ######  Creating portable package  #######
+echo Finalizing portable package...
 echo.
-7za a -t7z %OUTPUT_DIR%\smplayer-portable-%SMPLAYER_VER%.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak -xr!qxtcore.dll -mx9
+7za a -t7z %OUTPUT_DIR%\smplayer-portable-%SMPLAYER_VER%.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak -xr!qxtcore.dll -xr!mplayer64.exe -mx9
 
 echo.
 echo Restoring source folder(s) back to its original state...
