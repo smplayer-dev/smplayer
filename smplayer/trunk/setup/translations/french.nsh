@@ -37,7 +37,11 @@ ${LangFileString} Section_MPlayer "MPlayer (requis)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; requis pour la lecture."
 
 ${LangFileString} Section_MPlayerCodecs "Codecs binaires"
+!ifdef WIN64
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+!else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecs optionnels pour MPlayer. (Connexion Internet requise durant l'installation.)"
+!endif
 
 ${LangFileString} Section_MEncoder_Desc "Programme permettant d'encoder ou de convertir des flux audio et/ou vidéos supportés par MPlayer."
 

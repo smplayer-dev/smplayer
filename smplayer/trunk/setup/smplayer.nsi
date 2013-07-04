@@ -362,13 +362,22 @@ SectionGroup $(MPlayerGroupTitle)
     SectionIn RO
 
     SetOutPath "$INSTDIR\mplayer"
-    File /r /x mencoder.exe "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
+    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
+!ifdef WIN64
+    File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
+!else
+    File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
+!endif
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
   SectionEnd
 
   Section /o $(Section_MPlayerCodecs) SecCodecs
+
+!ifdef WIN64
+    SectionIn RO
+!endif
 
     AddSize 22931
 
@@ -804,10 +813,15 @@ FunctionEnd
 Function LoadPreviousSettings
 
   ;MPlayer codecs section doesn't use Memento so we need to restore it manually
-  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_Codecs"
-  ${If} $R0 == 1
-    !insertmacro SelectSection ${SecCodecs}
-  ${EndIf}
+  ;32-bit only
+!ifdef WIN64
+    !insertmacro UnSelectSection ${SecCodecs}
+!else
+    ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_Codecs"
+    ${If} $R0 == 1
+      !insertmacro SelectSection ${SecCodecs}
+    ${EndIf}
+!endif
 
   ;Gets start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder

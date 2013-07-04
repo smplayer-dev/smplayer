@@ -37,7 +37,11 @@ ${LangFileString} Section_MPlayer "MPlayer (beharrezkoa)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; beharrezkoa irakurketarako."
 
 ${LangFileString} Section_MPlayerCodecs "Kodek Binarioak"
+!ifdef WIN64
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+!else
 ${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayerrentzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
+!endif
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
 

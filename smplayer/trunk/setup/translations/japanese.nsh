@@ -37,7 +37,11 @@ ${LangFileString} Section_MPlayer "MPlayer (必須)"
 ${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer です。"
 
 ${LangFileString} Section_MPlayerCodecs "バイナリ コーデック"
+!ifdef WIN64
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+!else
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
+!endif
 
 ${LangFileString} Section_MEncoder_Desc "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
 

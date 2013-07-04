@@ -37,7 +37,11 @@ ${LangFileString} Section_MPlayer "MPlayer (vyžadován)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; vyžadován pro přehrávání."
 
 ${LangFileString} Section_MPlayerCodecs "Binární kodeky"
+!ifdef WIN64
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+!else
 ${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
+!endif
 
 ${LangFileString} Section_MEncoder_Desc "Dodatkový program pro MPlayer, který se využívá k enkódování nebo transformaci audio/video souborů."
 
