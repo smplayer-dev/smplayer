@@ -68,6 +68,7 @@ protected slots:
 	virtual void trayIconActivated(QSystemTrayIcon::ActivationReason);
 	virtual void toggleShowAll();
 	virtual void showAll(bool b);
+	virtual void showAll();
 	virtual void quit();
 #ifdef Q_OS_OS2
 	void trayAvailable();
@@ -86,6 +87,7 @@ protected slots:
 	void stretchWindow();
 	void shrinkWindow();
 #endif
+
 
 protected:
 	QSystemTrayIcon * tray;

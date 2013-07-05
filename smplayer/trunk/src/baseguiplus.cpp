@@ -61,7 +61,6 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	ignore_playlist_events = false;
 #endif
 
-
 	mainwindow_pos = pos();
 
 	tray = new QSystemTrayIcon( Images::icon("logo", 22), this );
@@ -144,6 +143,8 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect( playlistdock, SIGNAL(visibilityChanged(bool)), 
              this, SLOT(dockVisibilityChanged(bool)) );
 #endif // USE_DOCK_TOPLEVEL_EVENT
+
+	connect(this, SIGNAL(openFileRequested()), this, SLOT(showAll()));
 
 	ignore_playlist_events = false;
 #endif // DOCK_PLAYLIST
@@ -303,6 +304,10 @@ void BaseGuiPlus::toggleShowAll() {
 	if (tray->isVisible()) {
 		showAll( !isVisible() );
 	}
+}
+
+void BaseGuiPlus::showAll() {
+	if (!isVisible()) showAll(true);
 }
 
 void BaseGuiPlus::showAll(bool b) {

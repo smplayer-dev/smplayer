@@ -316,6 +316,9 @@ signals:
 	//! Sent when the user wants to close the main window
 	void quitSolicited();
 
+	//! Sent when another instance requested to play a file
+	void openFileRequested();
+
 #ifdef GUI_CHANGE_ON_RUNTIME
 	void guiChanged(QString gui);
 #endif

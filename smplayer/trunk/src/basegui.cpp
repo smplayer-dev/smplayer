@@ -239,16 +239,19 @@ void BaseGui::handleMessageFromOtherInstances(const QString& message) {
 		qDebug("arg: '%s'", arg.toUtf8().constData());
 
 		if (command == "open_file") {
+			emit openFileRequested();
 			open(arg);
 		} 
 		else
 		if (command == "open_files") {
 			QStringList file_list = arg.split(" <<sep>> ");
+			emit openFileRequested();
 			openFiles(file_list);
 		}
 		else
 		if (command == "add_to_playlist") {
 			QStringList file_list = arg.split(" <<sep>> ");
+			/* if (core->state() == Core::Stopped) { emit openFileRequested(); } */
 			playlist->addFiles(file_list);
 		}
 		else
@@ -257,7 +260,7 @@ void BaseGui::handleMessageFromOtherInstances(const QString& message) {
 		}
 		else
 		if (command == "load_sub") {
-			setInitialSubtitle(arg); 
+			setInitialSubtitle(arg);
 			if (core->state() != Core::Stopped) {
 				core->loadSub(arg);
 			}
