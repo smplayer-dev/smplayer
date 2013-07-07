@@ -2038,6 +2038,11 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(mediaLoaded()), 
              this, SLOT(autosaveMplayerLog()) );
 #endif
+
+#ifdef YOUTUBE_SUPPORT
+	connect(core, SIGNAL(signatureNotFound(const QString &)),
+            this, SLOT(YTNoSignature(const QString &)));
+#endif
 }
 
 void BaseGui::createMplayerWindow() {
@@ -4257,6 +4262,18 @@ void BaseGui::checkIfUpgraded() {
 		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=%2").arg(Version::printable()).arg(os));
 	}
 	pref->smplayer_stable_version = Version::stable();
+}
+#endif
+
+#ifdef YOUTUBE_SUPPORT
+void BaseGui::YTNoSignature(const QString & title) {
+	qDebug("BaseGui::YTNoSignature: %s", title.toUtf8().constData());
+
+	QString t = title;
+	t.replace(" - YouTube", "");
+	QMessageBox::warning(this, tr("Problems with Youtube"),
+		tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t) + "<br><br>" +
+		tr("Maybe updating SMPlayer could fix the problem."));
 }
 #endif
 

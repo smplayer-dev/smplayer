@@ -59,7 +59,7 @@ signals:
 	void connecting(QString host);
 	void downloadFailed(QString error);
 
-	void signatureNotFound();
+	void signatureNotFound(const QString & title);
 
 protected slots:
 	void gotResponse(QNetworkReply* reply);

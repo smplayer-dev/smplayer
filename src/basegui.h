@@ -211,6 +211,10 @@ protected slots:
 	void checkIfUpgraded();
 #endif
 
+#ifdef YOUTUBE_SUPPORT
+	void YTNoSignature(const QString &);
+#endif
+
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
