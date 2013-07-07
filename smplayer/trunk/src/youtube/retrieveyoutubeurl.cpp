@@ -138,7 +138,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 	if (p_url.indexOf("signature=") == -1) {
 		qDebug("RetrieveYoutubeUrl::parse: signature not found");
-		emit signatureNotFound();
+		emit signatureNotFound(url_title);
 		return;
 	}
 
