@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Russo</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -324,7 +326,7 @@
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation>Se utilizar esta aplicação, está desde já obrigado(a) a ceitar os termos dos serviços Google disponíveis no %1.</translation>
+        <translation>Se utilizar esta aplicação, está desde já obrigado(a) a cumprir os termos dos serviços Google disponíveis em %1.</translation>
     </message>
     <message>
         <location filename="../about.ui" line="257"/>
@@ -694,7 +696,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1538"/>
         <source>&amp;Autodetect phase</source>
-        <translation>Detet&amp;ar fase automaticamente</translation>
+        <translation>Deteção automática de f&amp;ase</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1539"/>
@@ -729,7 +731,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1760"/>
         <source>S&amp;tay on top</source>
-        <translation>Manter no &amp;topo</translation>
+        <translation>Manter na fren&amp;te</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
@@ -1275,17 +1277,17 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="4274"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Problemas com Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4275"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Devido às recentes alterações no Youtube, o vídeo %1 não pode ser reproduzido.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4276"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atualize o SMPlayer e tente novamente.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4965"/>
@@ -1728,7 +1730,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1810"/>
         <source>Toggle stay on top</source>
-        <translation>Alternar manter no topo</translation>
+        <translation>Alternar manter na frente</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4587"/>
@@ -2148,7 +2150,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Oops, algo errado aconteceu</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2564,10 +2566,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2671,7 +2670,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro transferido
@@ -4739,12 +4738,12 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="434"/>
         <source>Repaint the background of the video window</source>
-        <translation>Redesenhar o fundo da janela de vídeo</translation>
+        <translation>Recriar o fundo da janela de vídeo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="126"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Redesenhar o fun&amp;do da janela de vídeo</translation>
+        <translation>Recriar o fun&amp;do da janela de vídeo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
@@ -4754,7 +4753,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation>Utilizar IPv4 nas ligações de rede. Retorna a IPv6 automaticamente.</translation>
+        <translation>Utilizar IPv4 nas ligações de rede. Utilizar IPv6 como recurso.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="498"/>
@@ -4764,7 +4763,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation>Utilizar IPv6 nas ligações de rede. Retorna a IPv4 automaticamente.</translation>
+        <translation>Utilizar IPv6 nas ligações de rede. Utilizar IPv4 como recurso.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="484"/>
@@ -5281,7 +5280,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Se ativar esta opção, a janela principal será automaticamente fechada ao terminar o ficheiro/lista de reprodução atual.</translation>
+        <translation>Se ativar esta opção, a janela principal será fechada automaticamente ao terminar o ficheiro/lista de reprodução atual.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="97"/>
@@ -6220,17 +6219,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>Always on top</source>
-        <translation>Sempre no topo</translation>
+        <translation>Sempre na frente</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Never on top</source>
-        <translation>Nunca no topo</translation>
+        <translation>Nunca na frente</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>On top while playing</source>
-        <translation>No topo ao reproduzir</translation>
+        <translation>Na frente ao reproduzir</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
@@ -7050,7 +7049,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
         <source>Skip loop filter</source>
-        <translation>Ignorar filtros de ciclos</translation>
+        <translation>Ignorar filtro de ciclos</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="226"/>
@@ -7258,7 +7257,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="111"/>
         <source>Automatically add files to playlist</source>
-        <translation>Adicionar ficheiros à lista de reprodução automaticamente</translation>
+        <translation>Adicionar ficheiros automaticamente  à lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="112"/>
@@ -7288,7 +7287,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation>Obter, automaticamente, a informação dos ficheiros adicionados</translation>
+        <translation>Obter automaticamente a informação dos ficheiros</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
@@ -7308,7 +7307,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation>&amp;Adicionar ficheiros à lista de reprodução automaticamente</translation>
+        <translation>&amp;Adicionar ficheiros automaticamente  à lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="72"/>
@@ -8102,57 +8101,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;tualizações</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Proc&amp;urar atualizações</translation>
+        <translation>Proc&amp;urar atualizações</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalo entre atualizações (em &amp;dias)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir guia de iniciação após uma atualizaçã&amp;o</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="37"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Atualizações</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="66"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Procurar atualizações</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="67"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, o SMPlayer irá procurar atualizações e mostrar uma notificação caso exista uma versão mais recente.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="70"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalo entre procura de atualizações</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="71"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pode introduzir um intervalo de tempo (em dias) para a procura de atualizações.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="73"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir manual de iniciação após uma atualização</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="74"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, ao atualizar o SMPlayer, será aberto o guia de utilização ao SMPlayer.</translation>
     </message>
 </context>
 <context>
@@ -8297,19 +8296,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8373,13 +8366,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>multimédia é qualquer tipo de ficheiro que o SMPlayer consiga abrir. Pode ser um ficheiro local, um DVD (ex. dvd://1), uma emissão web (ex. mms://....) ou uma lista de reprodução no formato m3u ou pls.</translation>
-    </message>
-</context>
-<context>
-    <name>QuaZipFile</name>
-    <message>
-        <source>ZIP/UNZIP API error %1</source>
-        <translation type="obsolete">Erro da API zip/unzip %1</translation>
     </message>
 </context>
 <context>
