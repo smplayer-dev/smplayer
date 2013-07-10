@@ -91,6 +91,8 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	fmtArray = sanitizeForUnicodePoint(fmtArray);
 	fmtArray.replace(QRegExp("\\\\(.)"), "\\1");
 
+	bool signature_not_found = false;
+
 	QList<QByteArray> codeList = fmtArray.toLatin1().split(',');
 	foreach(QByteArray code, codeList) {
 		code = QUrl::fromPercentEncoding(code).toLatin1();
@@ -116,12 +118,14 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 				QString signature = YTSig::aclara(line.queryItemValue("s"));
 				if (!signature.isEmpty()) {
 					line.addQueryItem("signature", signature);
+				} else {
+					signature_not_found = true;
 				}
 				line.removeQueryItem("s");
 			}
 			line.removeAllQueryItems("fallback_host");
 			line.removeAllQueryItems("type");
-			if (line.hasQueryItem("itag")) {
+			if ((line.hasQueryItem("itag")) && (line.hasQueryItem("signature"))) {
 				QString itag = line.queryItemValue("itag");
 				line.removeAllQueryItems("itag"); // Remove duplicated itag
 				line.addQueryItem("itag", itag);
@@ -133,14 +137,14 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 	qDebug("RetrieveYoutubeUrl::parse: url count: %d", urlMap.count());
 
-	QString p_url = findPreferredUrl();
-	qDebug("p_url: '%s'", p_url.toLatin1().constData());
-
-	if (p_url.indexOf("signature=") == -1) {
-		qDebug("RetrieveYoutubeUrl::parse: signature not found");
+	if ((urlMap.count() == 0) && (signature_not_found)) {
+		qDebug("RetrieveYoutubeUrl::parse: no url found with valid signature");
 		emit signatureNotFound(url_title);
 		return;
 	}
+
+	QString p_url = findPreferredUrl();
+	qDebug("p_url: '%s'", p_url.toLatin1().constData());
 
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
