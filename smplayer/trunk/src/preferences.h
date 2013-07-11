@@ -28,7 +28,10 @@
 #include "config.h"
 #include "audioequalizerlist.h"
 #include "assstyles.h"
+
+#ifdef UPDATE_CHECKER
 #include "updatechecker.h"
+#endif
 
 class Recents;
 class URLHistory;
@@ -517,7 +520,9 @@ public:
        Update
        ********* */
 
+#ifdef UPDATE_CHECKER
 	UpdateCheckerData update_checker_data;
+#endif
 };
 
 Q_DECLARE_OPERATORS_FOR_FLAGS(Preferences::WheelFunctions)
