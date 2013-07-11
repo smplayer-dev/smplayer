@@ -975,7 +975,9 @@ void Preferences::save() {
        Update
        ********* */
 
+#ifdef UPDATE_CHECKER
 	update_checker_data.save(set);
+#endif
 
 	set->sync();
 }
@@ -1452,7 +1454,9 @@ void Preferences::load() {
        Update
        ********* */
 
+#ifdef UPDATE_CHECKER
 	update_checker_data.load(set);
+#endif
 
 
 	// Fix some values if config is old
