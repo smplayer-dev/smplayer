@@ -28,6 +28,11 @@ PrefUpdates::PrefUpdates(QWidget * parent, Qt::WindowFlags f)
 
 	createHelp();
 
+#ifndef UPDATE_CHECKER
+	updates_check->hide();
+	days_frame->hide();
+#endif
+
 #ifndef CHECK_UPGRADED
 	open_page_check->hide();
 #endif
@@ -51,8 +56,10 @@ void PrefUpdates::retranslateStrings() {
 }
 
 void PrefUpdates::setData(Preferences * pref) {
+#ifdef UPDATE_CHECKER
 	updates_check->setChecked(pref->update_checker_data.enabled);
 	days_spin->setValue(pref->update_checker_data.days_to_check);
+#endif
 
 #ifdef CHECK_UPGRADED
 	open_page_check->setChecked(pref->check_if_upgraded);
@@ -62,8 +69,10 @@ void PrefUpdates::setData(Preferences * pref) {
 void PrefUpdates::getData(Preferences * pref) {
 	requires_restart = false;
 
+#ifdef UPDATE_CHECKER
 	pref->update_checker_data.enabled = updates_check->isChecked();
 	pref->update_checker_data.days_to_check = days_spin->value();
+#endif
 
 #ifdef CHECK_UPGRADED
 	pref->check_if_upgraded = open_page_check->isChecked();
@@ -73,12 +82,14 @@ void PrefUpdates::getData(Preferences * pref) {
 void PrefUpdates::createHelp() {
 	clearHelp();
 
+#ifdef UPDATE_CHECKER
 	setWhatsThis(updates_check, tr("Check for updates"),
 		tr("If this option is enabled, SMPlayer will check for updates "
            "and display a notification if a new version is available.") );
 
 	setWhatsThis(days_frame, tr("Check interval"),
 		tr("You can enter here the interval (in days) for the update checks.") );
+#endif
 
 #ifdef CHECK_UPGRADED
 	setWhatsThis(open_page_check, tr("Open the first steps guide after an upgrade"),
