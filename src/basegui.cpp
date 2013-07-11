@@ -731,9 +731,11 @@ void BaseGui::createActions() {
 	connect( showPreferencesAct, SIGNAL(triggered()),
              this, SLOT(showPreferencesDialog()) );
 
+#ifdef YOUTUBE_SUPPORT
 	showTubeBrowserAct = new MyAction( Qt::Key_F11, this, "show_tube_browser" );
 	connect( showTubeBrowserAct, SIGNAL(triggered()),
              this, SLOT(showTubeBrowser()) );
+#endif
 
 	// Submenu Logs
 #ifdef LOG_MPLAYER
@@ -1603,7 +1605,9 @@ void BaseGui::retranslateStrings() {
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
 	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
 	showPreferencesAct->change( Images::icon("prefs"), tr("P&references") );
+#ifdef YOUTUBE_SUPPORT
 	showTubeBrowserAct->change( Images::icon("tubebrowser"), tr("&YouTube%1 browser").arg(QChar(0x2122)) );
+#endif
 
 	// Submenu Logs
 #ifdef LOG_MPLAYER
@@ -2552,6 +2556,7 @@ void BaseGui::createMenus() {
 	// OPTIONS MENU
 	optionsMenu->addAction(showPropertiesAct);
 	optionsMenu->addAction(showPlaylistAct);
+#ifdef YOUTUBE_SUPPORT
 	#if 0
 	// Check if the smplayer youtube browser is installed
 	{
@@ -2569,6 +2574,7 @@ void BaseGui::createMenus() {
 	#else
 	optionsMenu->addAction(showTubeBrowserAct);
 	#endif
+#endif
 
 	// OSD submenu
 	osd_menu = new QMenu(this);
@@ -4956,6 +4962,7 @@ void BaseGui::showVideoPreviewDialog() {
 }
 #endif
 
+#ifdef YOUTUBE_SUPPORT
 void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");
 	QString exec = Paths::appPath() + "/smtube";
@@ -4966,6 +4973,7 @@ void BaseGui::showTubeBrowser() {
 			tr("Be sure %1 is installed.").arg("SMTube"));
 	}
 }
+#endif
 
 // Language change stuff
 void BaseGui::changeEvent(QEvent *e) {
