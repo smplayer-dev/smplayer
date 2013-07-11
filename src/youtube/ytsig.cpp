@@ -30,7 +30,8 @@ QString YTSig::rev(const QString & orig) {
 QString YTSig::aclara(const QString & text) {
 	QString res;
 
-	qDebug("ytsig: length: %d", text.size());
+	int dot = text.indexOf('.');
+	qDebug("ytsig: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
 
 	if (text.size() == 86) {
 		res = text.mid(2,61) + text.mid(82,1) + text.mid(64,18) + text.mid(63,1);
@@ -41,7 +42,13 @@ QString YTSig::aclara(const QString & text) {
 	}
 	else
 	if (text.size() == 83) {
-		res = text.left(81);
+		if (dot == 40) {
+			// 40.42
+			res = text.left(81);
+		} else {
+			// 42.40
+			res = text.mid(6,1) + text.mid(3,3) + text.mid(33,1) + text.mid(7,17) + text.mid(0,1) + text.mid(25,8) + text.mid(53,1) + text.mid(34,19) + text.mid(24,1) + text.mid(54);
+		}
 	}
 	else {
 		qDebug("ytsig: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
