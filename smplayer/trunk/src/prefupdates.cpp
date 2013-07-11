@@ -27,6 +27,10 @@ PrefUpdates::PrefUpdates(QWidget * parent, Qt::WindowFlags f)
 	setupUi(this);
 
 	createHelp();
+
+#ifndef CHECK_UPGRADED
+	open_page_check->hide();
+#endif
 }
 
 PrefUpdates::~PrefUpdates()
@@ -49,7 +53,10 @@ void PrefUpdates::retranslateStrings() {
 void PrefUpdates::setData(Preferences * pref) {
 	updates_check->setChecked(pref->update_checker_data.enabled);
 	days_spin->setValue(pref->update_checker_data.days_to_check);
+
+#ifdef CHECK_UPGRADED
 	open_page_check->setChecked(pref->check_if_upgraded);
+#endif
 }
 
 void PrefUpdates::getData(Preferences * pref) {
@@ -57,7 +64,10 @@ void PrefUpdates::getData(Preferences * pref) {
 
 	pref->update_checker_data.enabled = updates_check->isChecked();
 	pref->update_checker_data.days_to_check = days_spin->value();
+
+#ifdef CHECK_UPGRADED
 	pref->check_if_upgraded = open_page_check->isChecked();
+#endif
 }
 
 void PrefUpdates::createHelp() {
@@ -70,9 +80,11 @@ void PrefUpdates::createHelp() {
 	setWhatsThis(days_frame, tr("Check interval"),
 		tr("You can enter here the interval (in days) for the update checks.") );
 
+#ifdef CHECK_UPGRADED
 	setWhatsThis(open_page_check, tr("Open the first steps guide after an upgrade"),
 		tr("If this option is enabled, the first steps guide with info and tips about "
            "how to use SMPlayer will be opened after an upgrade.") );
+#endif
 }
 
 #include "moc_prefupdates.cpp"
