@@ -126,7 +126,9 @@ public slots:
 	virtual void showVideoPreviewDialog();
 #endif
 
+#ifdef YOUTUBE_SUPPORT
 	virtual void showTubeBrowser();
+#endif
 
 	virtual void showPlaylist();
 	virtual void showPlaylist(bool b);
@@ -468,7 +470,9 @@ protected:
 	MyAction * showPlaylistAct;
 	MyAction * showPropertiesAct;
 	MyAction * showPreferencesAct;
+#ifdef YOUTUBE_SUPPORT
 	MyAction * showTubeBrowserAct;
+#endif
 #ifdef LOG_MPLAYER
 	MyAction * showLogMplayerAct;
 #endif
