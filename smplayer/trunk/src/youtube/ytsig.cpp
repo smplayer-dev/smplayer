@@ -26,7 +26,7 @@ QString YTSig::rev(const QString & orig) {
 	return r;
 }
 
-// Algorithms from youtube-dl
+// Algorithms from youtube-dl (http://rg3.github.io/youtube-dl/)
 QString YTSig::aclara(const QString & text) {
 	QString res;
 
@@ -49,6 +49,10 @@ QString YTSig::aclara(const QString & text) {
 			// 42.40
 			res = text.mid(6,1) + text.mid(3,3) + text.mid(33,1) + text.mid(7,17) + text.mid(0,1) + text.mid(25,8) + text.mid(53,1) + text.mid(34,19) + text.mid(24,1) + text.mid(54);
 		}
+	}
+	else
+	if (text.size() == 81) {
+		res = text.mid(6,1) + text.mid(3,3) + text.mid(33,1) + text.mid(7,17) + text.mid(0,1) + text.mid(25,8) + text.mid(2,1) + text.mid(34,19) + text.mid(24,1) + text.mid(54,27);
 	}
 	else {
 		qDebug("ytsig: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
