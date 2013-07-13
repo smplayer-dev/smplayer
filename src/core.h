@@ -400,7 +400,7 @@ protected slots:
 
 #ifdef YOUTUBE_SUPPORT
 	void connectingToYT(QString host);
-	void YTFailed(QString error);
+	void YTFailed(int error_number, QString error_str);
 	/* void YTNoSignature(); */
 	void YTNoVideoUrl();
 #endif

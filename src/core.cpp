@@ -265,7 +265,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	yt = new RetrieveYoutubeUrl(this);
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
-	connect(yt, SIGNAL(downloadFailed(QString)), this, SLOT(YTFailed(QString)));
+	connect(yt, SIGNAL(errorOcurred(int,QString)), this, SLOT(YTFailed(int,QString)));
 	/* connect(yt, SIGNAL(signatureNotFound()), this, SLOT(YTNoSignature())); */
 	connect(yt, SIGNAL(signatureNotFound(const QString&)), this, SIGNAL(signatureNotFound(const QString&)));
 	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
@@ -525,8 +525,8 @@ void Core::connectingToYT(QString host) {
 	emit showMessage( tr("Connecting to %1").arg(host) );
 }
 
-void Core::YTFailed(QString /*error*/) {
-	emit showMessage( tr("Unable to retrieve youtube page") );
+void Core::YTFailed(int /*error_number*/, QString /*error_str*/) {
+	emit showMessage( tr("Unable to retrieve the Youtube page") );
 }
 
 /*
