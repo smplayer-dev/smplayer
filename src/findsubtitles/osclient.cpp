@@ -77,7 +77,12 @@ void OSClient::doSearch() {
 	m["moviehash"] = search_hash;
 	m["moviebytesize"] = QString::number(search_size);
 
+	// For some reason it seems opensubtitles fails
+	// sometimes if there's only one item in the list.
+	// So as workaround, the item is appended twice.
+
 	QVariantList list;
+	list.append(m);
 	list.append(m);
 
 	QVariantList args;
