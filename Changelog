@@ -1,5 +1,43 @@
 [b]Version 0.8.6[/b]:
 
+(2013-07-16)
+ * Add a workaround for a problem with opensubtitles.org. It seems that 
+   sometimes opensubtitles.org returns zero subtitles when a search is done
+   with a list with only one video file (hash + file size). I noticed that 
+   this also happens in subdownloader so I think it's not a bug in smplayer.
+   The workaround performs the search passing the video file twice in the 
+   list. This makes that opensubtitles.org returns the correct subtitles.
+
+(2013-07-11)
+ * Youtube fix.
+ * Don't show the "youtube browser" entry in the menu and toolbar if
+   smplayer has been compiled without support for youtube.
+
+(2013-07-10)
+ * Youtube fix.
+
+(2013-07-05)
+ * Be sure the main window is visible when another instance requests to 
+   open a file.
+
+(2013-06-28)
+ * Youtube fix.
+
+(2013-06-26)
+ * Add an "updates" section in preferences, where the user can configure
+   the update checker.
+
+(2013-06-24)
+ * Ignore -fontconfig and -nofontconfig in the additional options if using 
+   mplayer2.
+
+(2013-06-21)
+ * Youtube fix.
+ * Youtube improvements.
+
+(2013-06-18)
+ * Check for infinite recursion in favorites.
+
 (2013-06-13)
  * Bugfix. The list of subtitles found at opensubtitles was not deleted, so
    the list of subtitles wrongly displayed subtitles for previous searches.
