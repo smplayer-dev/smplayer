@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Errusiera</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -1275,17 +1277,17 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="4274"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube-rekin</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4275"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zorigaitzez Youtube orrialdean egindako aldaketengaitik, &apos;%1&apos; bideoa ezin da irakurri.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4276"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Badaiteke SMPlayer eguneratuz arazoa zuzentzea.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4965"/>
@@ -1496,7 +1498,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1495"/>
         <source>&amp;Jump to...</source>
-        <translation>&amp;Jauzi egin hona...</translation>
+        <translation>&amp;Jauzi hona...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1673"/>
@@ -2148,7 +2150,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Ooh, okerren bat gertatu da</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2564,10 +2566,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n azpidatzi aterata</numerusform>
-            <numerusform>%n azpidatzi aterata</numerusform>
-        </translation>
+        <translation><numerusform>%n azpidatzi aterata</numerusform><numerusform>%n azpidatzi aterata</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2671,7 +2670,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ezin izan da jeitsitako agiria
@@ -5443,7 +5442,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.ui" line="737"/>
         <source>Volume</source>
-        <translation>Bolumena&lt;byte value=&quot;x9&quot;/&gt;</translation>
+        <translation>Bolumena</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="892"/>
@@ -5698,7 +5697,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefgeneral.cpp" line="939"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Hautatuta badago, zuzeneko aurkezpenera itzultzen da (ez dago sostengaturik kodek eta bideo irteera guztietan) &lt;br&gt;&lt;b&gt;Kontuz:&lt;/b&gt; IGE/SUB-ren hondatzea eragin dezake!</translation>
+        <translation>Hautatuta badago, zuzeneko aurkezpenera itzultzen da (ez dago sostengaturik kodek eta bideo irteera guztietan) &lt;br&gt;&lt;b&gt;Kontuz:&lt;/b&gt; IGE/AZP-ren hondatzea eragin dezake!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1018"/>
@@ -7061,7 +7060,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.cpp" line="319"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Balizko balioak: &lt;br&gt; &lt;b&gt;Bai&lt;/b&gt;: Saiatuko da audio bidea aldatzeko metodo azkarrago batekin (badaiteke ez jardutea heuskarri batzuekin). &lt;br&gt; &lt;b&gt;Ez&lt;/b&gt;: MPlayerren garapena birrabiarazia izango da audio bidea aldatzen duzun bakoitzean. &lt;br&gt; &lt;b&gt;Berez&lt;/b&gt;: SMPlayerrek erabakiko du zer egin MPlayer bertsioaren arabera.</translation>
+        <translation>Ahalezko balioak: &lt;br&gt; &lt;b&gt;Bai&lt;/b&gt;: Saiatuko da audio bidea aldatzeko metodo azkarrago batekin (badaiteke ez jardutea heuskarri batzuekin). &lt;br&gt; &lt;b&gt;Ez&lt;/b&gt;: MPlayerren garapena birrabiarazia izango da audio bidea aldatzen duzun bakoitzean. &lt;br&gt; &lt;b&gt;Berez&lt;/b&gt;: SMPlayerrek erabakiko du zer egin MPlayer bertsioaren arabera.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="340"/>
@@ -7141,7 +7140,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Honek ahalbidetzen du jauzi egitea bigizta iragazkia (AKA deblokeaketa) H.264 dekodeaketan zehar. Iragazkiriko framea menpeko frameen dekodeaketarako xehetasun bezala erabili dela suposatzen den unetik honek deblokeaketa ez egitea baino eragin txarragoa du, adib. MPEG-2 bideoan. Baina gutxienez bitneurri handiko HDTV-rako honek bizkortasun handia ematen du kalitate galera ohargarririk gabe.</translation>
+        <translation>Honek ahalbidetzen du jauzi egitea bigizta iragazkia (EEH desblokeaketa) H.264 dekodeaketan zehar. Iragazkiriko framea menpeko frameen dekodeaketarako xehetasun bezala erabili dela suposatzen den unetik honek desblokeaketa ez egitea baino eragin txarragoa du, adib. MPEG-2 bideoan. Baina gutxienez bitneurri handiko HDTV-rako honek bizkortasun handia ematen du kalitate galera ohargarririk gabe.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
@@ -7678,7 +7677,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.cpp" line="538"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation>Zutikako bazterra adierazten dupixeletan .</translation>
+        <translation>Zutikako bazterra adierazten du pixeletan.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="540"/>
@@ -8103,57 +8102,57 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>Egu&amp;neraketak</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">&amp;Egiaztatu Eguneraketak</translation>
+        <translation>&amp;Egiaztatu eguneraketak</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Egiaztapen epea (eg&amp;unetan)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ireki lehen urratsak gida eguneratu ondoren</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="37"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Eguneraketak</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="66"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Egiaztatu eguneraketarik dagoen</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="67"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaituta badago, SMPlayerrek eguneraketarik dagoen egiaztatu eta jakinarazpen bat erakutsiko du bertsio berriren bat eskuragarri badago.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="70"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Egiaztapen epea</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="71"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hemen eguneraketa egiaztapen epea (egunetan) sartu dezakezu.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="73"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Ireki lehen urratsak gida eguneratu ondoren</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="74"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaituta badago, eguneratu ondoren lehen urratsak gida irekiko da SMPlayer nola erabili argibideekin eta oholkuekin.</translation>
     </message>
 </context>
 <context>
@@ -8298,19 +8297,13 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundu</numerusform>
-            <numerusform>%n segundu</numerusform>
-        </translation>
+        <translation><numerusform>%n segundu</numerusform><numerusform>%n segundu</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutu</numerusform>
-            <numerusform>%n minutu</numerusform>
-        </translation>
+        <translation><numerusform>%n minutu</numerusform><numerusform>%n minutu</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8374,13 +8367,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;multimedia&apos; SM Irakurgailuak ireki dezakeen edozein agiri heuskarri da. Izan daiteke tokiko agiri bat, DVD bat (adib.. dvd://1), Internet jario bat (adib. mms://....) edo tokiko irakur-zerrenda bat m3u edo pls heuskarrian.</translation>
-    </message>
-</context>
-<context>
-    <name>QuaZipFile</name>
-    <message>
-        <source>ZIP/UNZIP API error %1</source>
-        <translation type="obsolete">ZIP/UNZIP API akatsa %1</translation>
     </message>
 </context>
 <context>
@@ -8995,7 +8981,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batze ordezkatuko da ekinaldian.<
     <message>
         <location filename="../widgetactions.cpp" line="182"/>
         <source>Volume</source>
-        <translation>Bolumena&lt;byte value=&quot;x9&quot;/&gt;</translation>
+        <translation>Bolumena</translation>
     </message>
 </context>
 </TS>
