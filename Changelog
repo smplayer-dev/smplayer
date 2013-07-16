@@ -1,12 +1,8 @@
 [b]Version 0.8.6[/b]:
 
 (2013-07-16)
- * Add a workaround for a problem with opensubtitles.org. It seems that 
-   sometimes opensubtitles.org returns zero subtitles when a search is done
-   with a list with only one video file (hash + file size). I noticed that 
-   this also happens in subdownloader so I think it's not a bug in smplayer.
-   The workaround performs the search passing the video file twice in the 
-   list. This makes that opensubtitles.org returns the correct subtitles.
+ * Add a workaround for a problem with opensubtitles.org. Sometimes it
+   returns no subtitles when a query with only one search is performed.
 
 (2013-07-11)
  * Youtube fix.
