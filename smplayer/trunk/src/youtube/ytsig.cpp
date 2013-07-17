@@ -54,6 +54,10 @@ QString YTSig::aclara(const QString & text) {
 	if (text.size() == 81) {
 		res = text.mid(6,1) + text.mid(3,3) + text.mid(33,1) + text.mid(7,17) + text.mid(0,1) + text.mid(25,8) + text.mid(2,1) + text.mid(34,19) + text.mid(24,1) + text.mid(54,27);
 	}
+	else
+	if (text.size() == 92) {
+		res = text.mid(25,1) + text.mid(3,22) + text.mid(0,1) + text.mid(26,16) + text.mid(79,1) + text.mid(43,36) + text.mid(91,1) + text.mid(80,3);
+	}
 	else {
 		qDebug("ytsig: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
 		return res;
