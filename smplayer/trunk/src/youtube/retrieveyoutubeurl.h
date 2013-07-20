@@ -51,6 +51,10 @@ public:
 	QString latestPreferredUrl() { return latest_preferred_url; }
 	QString origUrl() { return orig_url; }
 
+#ifdef YT_USE_SCRIPT
+	void setScriptFile(const QString & file);
+#endif
+
 signals:
 	void gotUrls(const QMap<int, QString>&);
 	void gotPreferredUrl(const QString &);
