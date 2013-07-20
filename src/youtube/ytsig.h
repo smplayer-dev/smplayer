@@ -26,8 +26,16 @@ class YTSig
 public:
 	static QString aclara(const QString &);
 
-private:
-	static QString rev(const QString &);
+#ifdef YT_USE_SCRIPT
+	static void setScript(const QString & s) { script = s; };
+
+protected:
+	static QString script;
+	static QString default_script;
+#else
+protected:
+	static QString rev(const QString & orig);
+#endif
 };
 
 #endif

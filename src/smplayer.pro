@@ -17,6 +17,7 @@ DEFINES += SINGLE_INSTANCE
 DEFINES += FIND_SUBTITLES
 DEFINES += VIDEOPREVIEW
 DEFINES += YOUTUBE_SUPPORT
+DEFINES += YT_USE_SCRIPT
 DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
@@ -340,6 +341,10 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 
 	HEADERS += retrieveyoutubeurl.h ytsig.h
 	SOURCES += retrieveyoutubeurl.cpp ytsig.cpp
+
+	contains( DEFINES, YT_USE_SCRIPT ) {
+		QT += script
+	}
 }
 
 # Skins support

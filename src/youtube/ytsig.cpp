@@ -18,6 +18,75 @@
 
 #include "ytsig.h"
 
+#ifdef YT_USE_SCRIPT
+#include <QtScript>
+#endif
+
+#ifdef YT_USE_SCRIPT
+QString YTSig::aclara(const QString & text) {
+	int dot = text.indexOf('.');
+	qDebug("ytsig: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
+
+	if (script.isEmpty()) script = default_script;
+
+	QScriptEngine engine;
+
+	//QScriptSyntaxCheckResult r = engine.checkSyntax(script);
+	//qDebug() << (int) r.state();
+
+	engine.evaluate(script);
+	QScriptValue aclarar = engine.globalObject().property("aclara");
+	QString res = aclarar.call(QScriptValue(), QScriptValueList() << text).toString();
+
+	//qDebug() << res;
+
+	if (res.isEmpty()) {
+		qDebug("ytsig: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
+	}
+
+	return res;
+}
+
+QString YTSig::script;
+
+QString YTSig::default_script = 
+"function aclara(s) {"
+"  var r = \"\";"
+"  var d = s.split(\".\");"
+"  var id = d[0].length + \".\" + (s.length - d[0].length - 1);"
+""
+"  if (s.length == 87) {"
+"    r = s.substr(62,1) + s.substr(63,20).split(\"\").reverse().join(\"\") + s.substr(83,1) + s.substr(53,9).split(\"\").reverse().join(\"\") + s.substr(0,1) + s.substr(3,49).split(\"\").reverse().join(\"\");"
+"  }"
+"  else"
+"  if (s.length == 86) {"
+"    r = s.substr(2,61) + s.substr(82,1) + s.substr(64,18) + s.substr(63,1);"
+"  }"
+"  else"
+"  if ((s.length == 83) && (id == \"40.42\")) {"
+"    r = s.substr(0,81);"
+"  }"
+"  else"
+"  if ((s.length == 83) && (id == \"42.40\")) {"
+"    r = s.substr(6,1) + s.substr(3,3) + s.substr(33,1) + s.substr(7,17) + s.substr(0,1) + s.substr(25,8) + s.substr(53,1) + s.substr(34,19) + s.substr(24,1) + s.substr(54);"
+"  }"
+"  else"
+"  if (s.length == 81) {"
+"    r = s.substr(6,1) + s.substr(3,3) + s.substr(33,1) + s.substr(7,17) + s.substr(0,1) + s.substr(25,8) + s.substr(2,1) + s.substr(34,19) + s.substr(24,1) + s.substr(54,27);"
+"  }"
+"  else"
+"  if (s.length == 92) {"
+"    r = s.substr(25,1) + s.substr(3,22) + s.substr(0,1) + s.substr(26,16) + s.substr(79,1) + s.substr(43,36) + s.substr(91,1) + s.substr(80,3);"
+"  }"
+"  else"
+"  if (s.length == 85) {"
+"    r = s.substr(2,6) + s.substr(0,1) + s.substr(9,12) + s.substr(65,1) + s.substr(22,43) + s.substr(84,1) + s.substr(66,16) + s.substr(21,1);"
+"  }"
+"  return r;"
+"}";
+
+#else
+
 QString YTSig::rev(const QString & orig) {
 	QString r;
 	for (int n = orig.size()-1; n >= 0; n--) {
@@ -74,3 +143,5 @@ QString YTSig::aclara(const QString & text) {
 
 	return res;
 }
+
+#endif
