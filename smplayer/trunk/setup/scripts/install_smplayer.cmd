@@ -32,6 +32,7 @@ copy %QT_DIR%\bin\QtCore4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtGui4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtNetwork4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\QtXml4.dll %OUTPUT_DIR%
+copy %QT_DIR%\bin\QtScript4.dll %OUTPUT_DIR%
 copy %QT_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
 if %QTVER% geq 4.6.0 (
 copy %QT_DIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
