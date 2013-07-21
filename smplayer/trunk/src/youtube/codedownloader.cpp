@@ -27,10 +27,10 @@ CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
 	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotResponse(QNetworkReply*)));
 
 	setMinimumDuration(0);
-	setRange(0,100);
+	setRange(0,0);
 
 	connect(this, SIGNAL(canceled()), this, SLOT(cancelDownload()));
-	connect(this, SIGNAL(fileSaved(const QString &)), this, SLOT(reportFileSaved(const QString &)));
+	connect(this, SIGNAL(fileSaved(const QString &, const QString &)), this, SLOT(reportFileSaved(const QString &,const QString &)));
 	connect(this, SIGNAL(saveFailed(const QString &)), this, SLOT(reportSaveFailed(const QString &)));
 	connect(this, SIGNAL(errorOcurred(int,QString)), this, SLOT(reportError(int,QString)));
 
@@ -54,7 +54,7 @@ void CodeDownloader::download(QUrl url) {
 	connect(reply, SIGNAL(downloadProgress(qint64, qint64)),
             this, SLOT(updateDataReadProgress(qint64, qint64)));
 
-	setLabelText(tr("Downloading %1").arg(url.toString()));
+	setLabelText(tr("Connecting to %1").arg(url.host()));
 }
 
 void CodeDownloader::cancelDownload() {
@@ -100,17 +100,29 @@ void CodeDownloader::save(QByteArray bytes) {
 	file.write(bytes);
 	file.close();
 
-	emit fileSaved(output_filename);
+	QString version;
+	QRegExp rx("Version: ([\\d,-]+)");
+	if (rx.indexIn(bytes)) {
+		version = rx.cap(1);
+		qDebug("CodeDownloader::save: version: %s", version.toLatin1().constData());
+	}
+
+	emit fileSaved(output_filename, version);
 }
 
 void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_bytes) {
-	setMaximum(total_bytes);
-	setValue(bytes_read);
+	qDebug() << "CodeDownloader::updateDataReadProgress: " << bytes_read << " " << total_bytes;
+	if (total_bytes > -1) {
+		setMaximum(total_bytes);
+		setValue(bytes_read);
+	}
 }
 
-void CodeDownloader::reportFileSaved(const QString &) {
+void CodeDownloader::reportFileSaved(const QString &, const QString & version) {
 	hide();
-	QMessageBox::information(this, tr("Success"), tr("The Youtube code has been saved successfully."));
+	QString t = tr("The Youtube code has been updated successfully.");
+	if (!version.isEmpty()) t += "<br>"+ tr("Installed version: %1").arg(version);
+	QMessageBox::information(this, tr("Success"),t);
 }
 
 void CodeDownloader::reportSaveFailed(const QString & file) {

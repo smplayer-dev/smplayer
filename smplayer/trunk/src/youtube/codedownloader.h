@@ -43,7 +43,7 @@ public slots:
 signals:
 	void downloadFinished();
 	void errorOcurred(int error_number, QString error_str);
-	void fileSaved(const QString &);
+	void fileSaved(const QString &, const QString &);
 	void saveFailed(const QString &);
 
 private slots:
@@ -51,7 +51,7 @@ private slots:
 	void updateDataReadProgress(qint64 bytes_read, qint64 total_bytes);
 	void save(QByteArray bytes);
 
-	void reportFileSaved(const QString &);
+	void reportFileSaved(const QString &, const QString &);
 	void reportSaveFailed(const QString &);
 	void reportError(int error_number, QString error_str);
 
