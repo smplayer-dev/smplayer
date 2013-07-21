@@ -47,7 +47,26 @@ QString YTSig::aclara(const QString & text) {
 	return res;
 }
 
+void YTSig::reloadScriptFile() {
+	qDebug("YTSig::reloadScriptFile: %s", script_file.toUtf8().constData());
+
+	if (!QFile::exists(script_file)) {
+		qDebug("YTSig::reloadScriptFile: file doesn't exist.");
+		return;
+	}
+
+	QFile f(script_file);
+	f.open(QIODevice::ReadOnly);
+	QByteArray bytes = f.readAll();
+	f.close();
+
+	if (!bytes.isEmpty()) {
+		script = bytes;
+	}
+}
+
 QString YTSig::script;
+QString YTSig::script_file;
 
 QString YTSig::default_script = 
 "function aclara(s) {"
