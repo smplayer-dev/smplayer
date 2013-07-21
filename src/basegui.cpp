@@ -107,6 +107,10 @@
 
 #include "updatechecker.h"
 
+#ifdef YT_USE_SCRIPT
+#include "codedownloader.h"
+#endif
+
 using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
@@ -4277,9 +4281,24 @@ void BaseGui::YTNoSignature(const QString & title) {
 
 	QString t = title;
 	t.replace(" - YouTube", "");
+
+	#ifdef YT_USE_SCRIPT
+	static CodeDownloader * downloader = 0;
+	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
+				tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t) + "<br><br>" +
+				tr("Do you want to update the Youtube code? This may fix the problem."),
+				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+	if (ret == QMessageBox::Yes) {
+		if (!downloader) downloader = new CodeDownloader(this);
+		downloader->saveAs(Paths::configPath() + "/ytcode.script");
+		downloader->show();
+		downloader->download(QUrl("http://smplayer.sourceforge.net/ytcode.script"));
+	}
+	#else
 	QMessageBox::warning(this, tr("Problems with Youtube"),
 		tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t) + "<br><br>" +
 		tr("Maybe updating SMPlayer could fix the problem."));
+	#endif
 }
 #endif
 

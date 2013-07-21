@@ -343,6 +343,8 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 	SOURCES += retrieveyoutubeurl.cpp ytsig.cpp
 
 	contains( DEFINES, YT_USE_SCRIPT ) {
+		HEADERS += codedownloader.h
+		SOURCES += codedownloader.cpp
 		QT += script
 	}
 }
