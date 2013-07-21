@@ -37,26 +37,6 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
-#ifdef YT_USE_SCRIPT
-void RetrieveYoutubeUrl::setScriptFile(const QString & file) {
-	qDebug("RetrieveYoutubeUrl::setScriptFile: %s", file.toUtf8().constData());
-
-	if (!QFile::exists(file)) {
-		qDebug("RetrieveYoutubeUrl::setScriptFile: file doesn't exist.");
-		return;
-	}
-
-	QFile f(file);
-	f.open(QIODevice::ReadOnly);
-	QByteArray bytes = f.readAll();
-	f.close();
-
-	if (!bytes.isEmpty()) {
-		YTSig::setScript(bytes);
-	}
-}
-#endif
-
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 	QNetworkRequest req(url);
 	req.setRawHeader("User-Agent", user_agent.toLatin1());

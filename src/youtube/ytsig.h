@@ -27,11 +27,13 @@ public:
 	static QString aclara(const QString &);
 
 #ifdef YT_USE_SCRIPT
-	static void setScript(const QString & s) { script = s; };
+	static void setScriptFile(const QString & f) { script_file = f; reloadScriptFile(); };
 
 protected:
 	static QString script;
 	static QString default_script;
+	static QString script_file;
+	static void reloadScriptFile();
 #else
 protected:
 	static QString rev(const QString & orig);
