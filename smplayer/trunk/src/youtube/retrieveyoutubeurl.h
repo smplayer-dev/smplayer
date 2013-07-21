@@ -52,7 +52,7 @@ public:
 	QString origUrl() { return orig_url; }
 
 #ifdef YT_USE_SCRIPT
-	void setScriptFile(const QString & file);
+	static void setScriptFile(const QString & file);
 #endif
 
 signals:
