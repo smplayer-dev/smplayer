@@ -30,7 +30,8 @@ CodeDownloader::CodeDownloader(QWidget *parent) : QProgressDialog(parent)
 	setRange(0,100);
 
 	connect(this, SIGNAL(canceled()), this, SLOT(cancelDownload()));
-	connect(this, SIGNAL(fileSaved(const QString &)), this, SLOT(reportfileSaved(const QString &)));
+	connect(this, SIGNAL(fileSaved(const QString &)), this, SLOT(reportFileSaved(const QString &)));
+	connect(this, SIGNAL(saveFailed(const QString &)), this, SLOT(reportSaveFailed(const QString &)));
 	connect(this, SIGNAL(errorOcurred(int,QString)), this, SLOT(reportError(int,QString)));
 
 	setWindowTitle(tr("Downloading..."));
@@ -99,7 +100,6 @@ void CodeDownloader::save(QByteArray bytes) {
 	file.write(bytes);
 	file.close();
 
-	reset();
 	emit fileSaved(output_filename);
 }
 
@@ -108,14 +108,19 @@ void CodeDownloader::updateDataReadProgress(qint64 bytes_read, qint64 total_byte
 	setValue(bytes_read);
 }
 
-void CodeDownloader::reportfileSaved(const QString &) {
-	reset();
+void CodeDownloader::reportFileSaved(const QString &) {
+	hide();
 	QMessageBox::information(this, tr("Success"), tr("The Youtube code has been saved successfully."));
 }
 
+void CodeDownloader::reportSaveFailed(const QString & file) {
+	hide();
+	QMessageBox::warning(this, tr("Error"), tr("An error happened writing %1").arg(file));
+}
+
 void CodeDownloader::reportError(int, QString error_str) {
-	reset();
-	QMessageBox::warning(this, tr("Error"), tr("An error happened while downloading the file:<br>%1.").arg(error_str));
+	hide();
+	QMessageBox::warning(this, tr("Error"), tr("An error happened while downloading the file:<br>%1").arg(error_str));
 }
 
 #include "moc_codedownloader.cpp"

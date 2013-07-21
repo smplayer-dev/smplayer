@@ -51,7 +51,8 @@ private slots:
 	void updateDataReadProgress(qint64 bytes_read, qint64 total_bytes);
 	void save(QByteArray bytes);
 
-	void reportfileSaved(const QString &);
+	void reportFileSaved(const QString &);
+	void reportSaveFailed(const QString &);
 	void reportError(int error_number, QString error_str);
 
 private:
