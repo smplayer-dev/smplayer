@@ -1042,7 +1042,7 @@ Se mostrará a continuación el diálogo de configuración.</translation>
     <message>
         <location filename="../basegui.cpp" line="4289"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>¿Quieres actualizar el código de Youtube? Esto podría solicionar el problema.</translation>
+        <translation>¿Quieres actualizar el código de Youtube? Esto podría solucionar el problema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4300"/>
