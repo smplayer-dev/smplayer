@@ -81,7 +81,11 @@ void OSClient::doSearch() {
 	// sometimes if there's only one item in the list.
 	// So as workaround, the item is appended twice.
 
+	// Update: and the opposite, sometimes it doesn't return any 
+	// result with 2 items but it does with 1.
+	// Workaround: use 3 items... Seems to work in all cases.
 	QVariantList list;
+	list.append(m);
 	list.append(m);
 	list.append(m);
 
