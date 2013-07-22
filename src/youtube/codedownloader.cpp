@@ -50,6 +50,7 @@ void CodeDownloader::setProxy(QNetworkProxy proxy) {
 
 void CodeDownloader::download(QUrl url) {
 	QNetworkRequest req(url);
+	req.setRawHeader("User-Agent", "SMPlayer");
 	reply = manager->get(req);
 	connect(reply, SIGNAL(downloadProgress(qint64, qint64)),
             this, SLOT(updateDataReadProgress(qint64, qint64)));
