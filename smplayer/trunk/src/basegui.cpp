@@ -1473,20 +1473,14 @@ void BaseGui::retranslateStrings() {
 
 	// Menu Play
 	playAct->change( tr("P&lay") );
-	if (qApp->isLeftToRight()) 
-		playAct->setIcon( Images::icon("play") );
-	else
-		playAct->setIcon( Images::flippedIcon("play") );
+	playAct->setIcon( Images::icon("play") );
 
 	pauseAct->change( Images::icon("pause"), tr("&Pause"));
 	stopAct->change( Images::icon("stop"), tr("&Stop") );
 	frameStepAct->change( Images::icon("frame_step"), tr("&Frame step") );
 
 	playOrPauseAct->change( tr("Play / Pause") );
-	if (qApp->isLeftToRight()) 
-		playOrPauseAct->setIcon( Images::icon("play_pause") );
-	else
-		playOrPauseAct->setIcon( Images::flippedIcon("play_pause") );
+	playOrPauseAct->setIcon( Images::icon("play_pause") );
 
 	pauseAndStepAct->change( Images::icon("pause"), tr("Pause / Frame step") );
 
@@ -1641,13 +1635,8 @@ void BaseGui::retranslateStrings() {
 	playNextAct->change( tr("&Next") );
 	playPrevAct->change( tr("Pre&vious") );
 
-	if (qApp->isLeftToRight()) {
-		playNextAct->setIcon( Images::icon("next") );
-		playPrevAct->setIcon( Images::icon("previous") );
-	} else {
-		playNextAct->setIcon( Images::flippedIcon("next") );
-		playPrevAct->setIcon( Images::flippedIcon("previous") );
-	}
+	playNextAct->setIcon( Images::icon("next") );
+	playPrevAct->setIcon( Images::icon("previous") );
 
 
 	// Actions not in menus or buttons
@@ -1925,23 +1914,13 @@ void BaseGui::setJumpTexts() {
 	forward2Act->change( tr("+%1").arg(Helper::timeForJumps(pref->seeking2)) );
 	forward3Act->change( tr("+%1").arg(Helper::timeForJumps(pref->seeking3)) );
 
-	if (qApp->isLeftToRight()) {
-		rewind1Act->setIcon( Images::icon("rewind10s") );
-		rewind2Act->setIcon( Images::icon("rewind1m") );
-		rewind3Act->setIcon( Images::icon("rewind10m") );
+	rewind1Act->setIcon( Images::icon("rewind10s") );
+	rewind2Act->setIcon( Images::icon("rewind1m") );
+	rewind3Act->setIcon( Images::icon("rewind10m") );
 
-		forward1Act->setIcon( Images::icon("forward10s") );
-		forward2Act->setIcon( Images::icon("forward1m") );
-		forward3Act->setIcon( Images::icon("forward10m") );
-	} else {
-		rewind1Act->setIcon( Images::flippedIcon("rewind10s") );
-		rewind2Act->setIcon( Images::flippedIcon("rewind1m") );
-		rewind3Act->setIcon( Images::flippedIcon("rewind10m") );
-
-		forward1Act->setIcon( Images::flippedIcon("forward10s") );
-		forward2Act->setIcon( Images::flippedIcon("forward1m") );
-		forward3Act->setIcon( Images::flippedIcon("forward10m") );
-	}
+	forward1Act->setIcon( Images::icon("forward10s") );
+	forward2Act->setIcon( Images::icon("forward1m") );
+	forward3Act->setIcon( Images::icon("forward10m") );
 }
 
 void BaseGui::setWindowCaption(const QString & title) {

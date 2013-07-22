@@ -293,15 +293,9 @@ void Playlist::retranslateStrings() {
 	nextAct->change( tr("&Next") );
 	prevAct->change( tr("Pre&vious") );
 
-	if (qApp->isLeftToRight()) {
-		playAct->setIcon( Images::icon("play") );
-		nextAct->setIcon( Images::icon("next") );
-		prevAct->setIcon( Images::icon("previous") );
-	} else {
-		playAct->setIcon( Images::flippedIcon("play") );
-		nextAct->setIcon( Images::flippedIcon("next") );
-		prevAct->setIcon( Images::flippedIcon("previous") );
-	}
+	playAct->setIcon( Images::icon("play") );
+	nextAct->setIcon( Images::icon("next") );
+	prevAct->setIcon( Images::icon("previous") );
 
 	moveUpAct->change( Images::icon("up"), tr("Move &up") );
 	moveDownAct->change( Images::icon("down"), tr("Move &down") );
@@ -395,11 +389,7 @@ void Playlist::updateView() {
 
 void Playlist::setCurrentItem(int current) {
 	QIcon play_icon;
-	if (qApp->isLeftToRight()) {
-		play_icon = Images::icon("play");
-	} else {
-		play_icon = Images::flippedIcon("play");
-	}
+	play_icon = Images::icon("play");
 
 	int old_current = current_item;
 	current_item = current;

@@ -100,6 +100,7 @@ void MiniGui::createActions() {
 void MiniGui::createControlWidget() {
 	controlwidget = new EditableToolbar( this );
 	controlwidget->setObjectName("controlwidget");
+	controlwidget->setLayoutDirection(Qt::LeftToRight);
 	controlwidget->setMovable(true);
 	controlwidget->setAllowedAreas(Qt::TopToolBarArea | Qt::BottomToolBarArea);
 	addToolBar(Qt::BottomToolBarArea, controlwidget);
@@ -126,6 +127,7 @@ void MiniGui::createControlWidget() {
 void MiniGui::createFloatingControl() {
 	// Floating control
 	floating_control = new FloatingWidget(this);
+	floating_control->setLayoutDirection(Qt::LeftToRight);
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;

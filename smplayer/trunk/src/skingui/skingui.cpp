@@ -259,6 +259,7 @@ void SkinGui::createControlWidget() {
 
 	controlwidget = new QToolBar( this );
 	controlwidget->setObjectName("controlwidget");
+	controlwidget->setLayoutDirection(Qt::LeftToRight);
 	controlwidget->setStyleSheet("QToolBar { spacing: 0px; }");
 	controlwidget->setMovable(false);
 	addToolBar(Qt::BottomToolBarArea, controlwidget);
