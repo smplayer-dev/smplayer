@@ -771,6 +771,14 @@ void BaseGui::createActions() {
 	connect( showCheckUpdatesAct, SIGNAL(triggered()),
              this, SLOT(helpCheckUpdates()) );
 
+#ifdef YOUTUBE_SUPPORT
+	#ifdef YT_USE_SCRIPT
+	updateYTAct = new MyAction( this, "update_youtube" );
+	connect( updateYTAct, SIGNAL(triggered()),
+             this, SLOT(YTUpdateScript()) );
+	#endif
+#endif
+
 	showConfigAct = new MyAction( this, "show_config" );
 	connect( showConfigAct, SIGNAL(triggered()),
              this, SLOT(helpShowConfig()) );
@@ -1620,6 +1628,13 @@ void BaseGui::retranslateStrings() {
 	showFAQAct->change( Images::icon("faq"), tr("&FAQ") );
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
+
+#ifdef YOUTUBE_SUPPORT
+	#ifdef YT_USE_SCRIPT
+	updateYTAct->change( Images::icon("update_youtube"), tr("Update &Youtube code") );
+	#endif
+#endif
+
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
@@ -2600,7 +2615,14 @@ void BaseGui::createMenus() {
 	helpMenu->addAction(showFirstStepsAct);
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
+	helpMenu->addSeparator();
 	helpMenu->addAction(showCheckUpdatesAct);
+#ifdef YOUTUBE_SUPPORT
+	#ifdef YT_USE_SCRIPT
+	helpMenu->addAction(updateYTAct);
+	#endif
+#endif
+	helpMenu->addSeparator();
 	helpMenu->addAction(showConfigAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(aboutQtAct);
@@ -4262,16 +4284,12 @@ void BaseGui::YTNoSignature(const QString & title) {
 	t.replace(" - YouTube", "");
 
 	#ifdef YT_USE_SCRIPT
-	static CodeDownloader * downloader = 0;
 	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
 				tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t) + "<br><br>" +
 				tr("Do you want to update the Youtube code? This may fix the problem."),
 				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	if (ret == QMessageBox::Yes) {
-		if (!downloader) downloader = new CodeDownloader(this);
-		downloader->saveAs(Paths::configPath() + "/ytcode.script");
-		downloader->show();
-		downloader->download(QUrl("http://updates.smplayer.info/ytcode.script"));
+		YTUpdateScript();
 	}
 	#else
 	QMessageBox::warning(this, tr("Problems with Youtube"),
@@ -4279,7 +4297,17 @@ void BaseGui::YTNoSignature(const QString & title) {
 		tr("Maybe updating SMPlayer could fix the problem."));
 	#endif
 }
-#endif
+
+#ifdef YT_USE_SCRIPT
+void BaseGui::YTUpdateScript() {
+	static CodeDownloader * downloader = 0;
+	if (!downloader) downloader = new CodeDownloader(this);
+	downloader->saveAs(Paths::configPath() + "/ytcode.script");
+	downloader->show();
+	downloader->download(QUrl("http://updates.smplayer.info/ytcode.script"));
+}
+#endif // YT_USE_SCRIPT
+#endif //YOUTUBE_SUPPORT
 
 void BaseGui::dragEnterEvent( QDragEnterEvent *e ) {
 	qDebug("BaseGui::dragEnterEvent");
