@@ -25,7 +25,7 @@
 #ifdef YT_USE_SCRIPT
 QString YTSig::aclara(const QString & text) {
 	int dot = text.indexOf('.');
-	qDebug("ytsig: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
+	qDebug("YTSig::aclara: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
 
 	if (script.isEmpty()) script = default_script;
 
@@ -41,7 +41,7 @@ QString YTSig::aclara(const QString & text) {
 	//qDebug() << res;
 
 	if (res.isEmpty()) {
-		qDebug("ytsig: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
+		qDebug("YTSig::aclara: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
 	}
 
 	return res;
@@ -68,6 +68,8 @@ void YTSig::reloadScriptFile() {
 QString YTSig::script;
 QString YTSig::script_file;
 
+// Algorithms from youtube-dl (http://rg3.github.io/youtube-dl/)
+
 QString YTSig::default_script = 
 "function aclara(s) {"
 "  var r = \"\";"
@@ -75,31 +77,7 @@ QString YTSig::default_script =
 "  var id = d[0].length + \".\" + (s.length - d[0].length - 1);"
 ""
 "  if (s.length == 87) {"
-"    r = s.substr(62,1) + s.substr(63,20).split(\"\").reverse().join(\"\") + s.substr(83,1) + s.substr(53,9).split(\"\").reverse().join(\"\") + s.substr(0,1) + s.substr(3,49).split(\"\").reverse().join(\"\");"
-"  }"
-"  else"
-"  if (s.length == 86) {"
-"    r = s.substr(2,61) + s.substr(82,1) + s.substr(64,18) + s.substr(63,1);"
-"  }"
-"  else"
-"  if ((s.length == 83) && (id == \"40.42\")) {"
-"    r = s.substr(0,81);"
-"  }"
-"  else"
-"  if ((s.length == 83) && (id == \"42.40\")) {"
-"    r = s.substr(6,1) + s.substr(3,3) + s.substr(33,1) + s.substr(7,17) + s.substr(0,1) + s.substr(25,8) + s.substr(53,1) + s.substr(34,19) + s.substr(24,1) + s.substr(54);"
-"  }"
-"  else"
-"  if (s.length == 81) {"
-"    r = s.substr(6,1) + s.substr(3,3) + s.substr(33,1) + s.substr(7,17) + s.substr(0,1) + s.substr(25,8) + s.substr(2,1) + s.substr(34,19) + s.substr(24,1) + s.substr(54,27);"
-"  }"
-"  else"
-"  if (s.length == 92) {"
-"    r = s.substr(25,1) + s.substr(3,22) + s.substr(0,1) + s.substr(26,16) + s.substr(79,1) + s.substr(43,36) + s.substr(91,1) + s.substr(80,3);"
-"  }"
-"  else"
-"  if (s.length == 85) {"
-"    r = s.substr(2,6) + s.substr(0,1) + s.substr(9,12) + s.substr(65,1) + s.substr(22,43) + s.substr(84,1) + s.substr(66,16) + s.substr(21,1);"
+"    r = s.substr(4,19) + s.substr(86,1) + s.substr(24,61);"
 "  }"
 "  return r;"
 "}";
@@ -114,44 +92,17 @@ QString YTSig::rev(const QString & orig) {
 	return r;
 }
 
-// Algorithms from youtube-dl (http://rg3.github.io/youtube-dl/)
 QString YTSig::aclara(const QString & text) {
 	QString res;
 
 	int dot = text.indexOf('.');
-	qDebug("ytsig: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
+	qDebug("YTSig::aclara: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
 
-	if (text.size() == 86) {
-		res = text.mid(2,61) + text.mid(82,1) + text.mid(64,18) + text.mid(63,1);
-	}
-	else
 	if (text.size() == 87) {
-		res = text.mid(62,1) + rev(text.mid(63,20)) + text.mid(83,1) + rev(text.mid(53,9)) + text.mid(0,1) + rev(text.mid(3,49));
-	}
-	else
-	if (text.size() == 83) {
-		if (dot == 40) {
-			// 40.42
-			res = text.left(81);
-		} else {
-			// 42.40
-			res = text.mid(6,1) + text.mid(3,3) + text.mid(33,1) + text.mid(7,17) + text.mid(0,1) + text.mid(25,8) + text.mid(53,1) + text.mid(34,19) + text.mid(24,1) + text.mid(54);
-		}
-	}
-	else
-	if (text.size() == 81) {
-		res = text.mid(6,1) + text.mid(3,3) + text.mid(33,1) + text.mid(7,17) + text.mid(0,1) + text.mid(25,8) + text.mid(2,1) + text.mid(34,19) + text.mid(24,1) + text.mid(54,27);
-	}
-	else
-	if (text.size() == 92) {
-		res = text.mid(25,1) + text.mid(3,22) + text.mid(0,1) + text.mid(26,16) + text.mid(79,1) + text.mid(43,36) + text.mid(91,1) + text.mid(80,3);
-	}
-	else
-	if (text.size() == 85) {
-		res = text.mid(2,6) + text.mid(0,1) + text.mid(9,12) + text.mid(65,1) + text.mid(22,43) + text.mid(84,1) + text.mid(66,16) + text.mid(21,1);
+		res = text.mid(4,19) + text.mid(86,1) + text.mid(24,61);
 	}
 	else {
-		qDebug("ytsig: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
+		qDebug("YTSig::aclara: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
 		return res;
 	}
 
