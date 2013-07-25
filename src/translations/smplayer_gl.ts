@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>ruso</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -1276,23 +1278,23 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <location filename="../basegui.cpp" line="4287"/>
         <location filename="../basegui.cpp" line="4298"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Problemas co Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4288"/>
         <location filename="../basegui.cpp" line="4299"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Non se pode reproducir o vídeo «%1» por mor de cambios na páxina do Youtube.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4289"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Queres actualizar o código de Youtube? Con iso poderíase arranxar o problema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4300"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se cadra actualizando o SMPlayer pódense resolver este problema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4991"/>
@@ -1897,43 +1899,43 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Descargando...</translation>
+        <translation>Descargando...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="57"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">Conectándose a %1…</translation>
+        <translation>Conectándose a %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="123"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>O código de Youtube actualizouse correctamente.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Versión instalada: %1</translation>
+        <translation>Versión instalada: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Éxito</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="130"/>
         <location filename="../youtube/codedownloader.cpp" line="135"/>
         <source>Error</source>
-        <translation type="unfinished">Erro</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="130"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Aconteceu un erro escribindo %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="135"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Aconteceu un erro mentres se descargaba: &lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2012,7 +2014,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Non é posíbel acceder á páxina do YouTube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2073,10 +2075,6 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <location filename="../core.cpp" line="528"/>
         <source>Connecting to %1</source>
         <translation>Conectándose a %1…</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve youtube page</source>
-        <translation type="obsolete">Non é posíbel acceder a YouTube.</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="542"/>
@@ -2203,7 +2201,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Ui, algo foi mal</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2619,10 +2617,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2726,7 +2721,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -8158,57 +8153,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>Ac&amp;tualizacións</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Comprobar as &amp;actualizacións</translation>
+        <translation>Comprobar as &amp;actualizacións</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalo de comprobación (en &amp;días)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abrir os primeiros pasos despois dunha actualización</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizacións</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Comprobar se hai actualizacións</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cando se activa esta opcion, SMPlayer busca actualizacións e mostra notificacións se houber unha nova versión.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalo de comprobación</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pódesse introducir aquí o intervalo (en días) no que se quere que se fan as comprobacións.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir a guía dos primeiros pasos despois dunha actualización</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cando se activa esta opción, ábrese a guía dos primeiros pasos, coa información e os consellos de como empregar o SMPlayer trala actualización.</translation>
     </message>
 </context>
 <context>
@@ -8353,19 +8348,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>

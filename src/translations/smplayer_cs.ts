@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Ruská</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -1287,7 +1289,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="4289"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chcete aktualizovat kód Youtube? To může problém vyřešit.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4300"/>
@@ -1897,43 +1899,43 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Stahuji...</translation>
+        <translation>Stahuje se...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="57"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">Připojuji se k %1</translation>
+        <translation>Připojování k %1...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="123"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kód Youtube byl úspěšně aktualizován.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Nainstalovaná verze: 1</translation>
+        <translation>Nainstalovaná verze: 1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Úspěch</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="130"/>
         <location filename="../youtube/codedownloader.cpp" line="135"/>
         <source>Error</source>
-        <translation type="unfinished">Chyba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="130"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Došlo k chybě při zapisování %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="135"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Došlo k chybě při stahování souboru:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2012,7 +2014,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodařilo se načíst stránku youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2073,10 +2075,6 @@ Bude zobrazeno konfigurační okno.</translation>
         <location filename="../core.cpp" line="528"/>
         <source>Connecting to %1</source>
         <translation>Připojuji se k %1</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve youtube page</source>
-        <translation type="obsolete">Nepodařilo se získat stránku youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="542"/>
@@ -2619,11 +2617,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulků</numerusform>
-        </translation>
+        <translation><numerusform>získány %n titulky</numerusform><numerusform>získány %n titulky</numerusform><numerusform>získány %n titulků</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2706,7 +2700,6 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2728,7 +2721,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nelze uložit stažený soubor
@@ -8354,21 +8347,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundu</numerusform>
-            <numerusform>%n sekundy</numerusform>
-            <numerusform>%n sekund</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundu</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekund</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minuty</numerusform>
-            <numerusform>%n minut</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minuty</numerusform><numerusform>%n minut</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
