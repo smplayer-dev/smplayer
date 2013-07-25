@@ -771,12 +771,10 @@ void BaseGui::createActions() {
 	connect( showCheckUpdatesAct, SIGNAL(triggered()),
              this, SLOT(helpCheckUpdates()) );
 
-#ifdef YOUTUBE_SUPPORT
-	#ifdef YT_USE_SCRIPT
+#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_SCRIPT)
 	updateYTAct = new MyAction( this, "update_youtube" );
 	connect( updateYTAct, SIGNAL(triggered()),
              this, SLOT(YTUpdateScript()) );
-	#endif
 #endif
 
 	showConfigAct = new MyAction( this, "show_config" );
@@ -1629,10 +1627,8 @@ void BaseGui::retranslateStrings() {
 	showCLOptionsAct->change( Images::icon("cl_help"), tr("&Command line options") );
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 
-#ifdef YOUTUBE_SUPPORT
-	#ifdef YT_USE_SCRIPT
+#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_SCRIPT)
 	updateYTAct->change( Images::icon("update_youtube"), tr("Update &Youtube code") );
-	#endif
 #endif
 
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
@@ -2617,10 +2613,8 @@ void BaseGui::createMenus() {
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(showCheckUpdatesAct);
-#ifdef YOUTUBE_SUPPORT
-	#ifdef YT_USE_SCRIPT
+#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_SCRIPT)
 	helpMenu->addAction(updateYTAct);
-	#endif
 #endif
 	helpMenu->addSeparator();
 	helpMenu->addAction(showConfigAct);

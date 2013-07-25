@@ -488,10 +488,8 @@ protected:
 	MyAction * showFAQAct;
 	MyAction * showCLOptionsAct; // Command line options
 	MyAction * showCheckUpdatesAct;
-#ifdef YOUTUBE_SUPPORT
-	#ifdef YT_USE_SCRIPT
+#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_SCRIPT)
 	MyAction * updateYTAct;
-	#endif
 #endif
 	MyAction * showConfigAct;
 	MyAction * aboutQtAct;
