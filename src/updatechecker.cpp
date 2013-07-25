@@ -91,7 +91,9 @@ void UpdateChecker::gotReply() {
 			} 
 			if (!version.isEmpty()) {
 				d->last_checked = QDate::currentDate();
-				if ((d->last_known_version != version) && (version != Version::with_revision())) {
+				//qDebug("last known: %s version: %s", d->last_known_version.toUtf8().constData(), version.toUtf8().constData());
+				//qDebug("version_with_revision: %s", Version::with_revision().toUtf8().constData());
+				if ((d->last_known_version != version) && (version > Version::with_revision())) {
 					qDebug("UpdateChecker::gotReply: new version found: %s", version.toUtf8().constData());
 					emit newVersionFound(version);
 				}
