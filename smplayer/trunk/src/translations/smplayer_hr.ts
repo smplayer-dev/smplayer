@@ -545,32 +545,32 @@ Do you want to overwrite?</source>
         <translation>&amp;Pomoć</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1444"/>
+        <location filename="../basegui.cpp" line="1450"/>
         <source>&amp;File...</source>
         <translation>&amp;Datoteka...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1445"/>
+        <location filename="../basegui.cpp" line="1451"/>
         <source>D&amp;irectory...</source>
         <translation>Di&amp;rektorij...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1446"/>
+        <location filename="../basegui.cpp" line="1452"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;Popis izvođenja...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1449"/>
+        <location filename="../basegui.cpp" line="1455"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD sa diska</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1450"/>
+        <location filename="../basegui.cpp" line="1456"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD sa mape...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1451"/>
+        <location filename="../basegui.cpp" line="1457"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
@@ -585,22 +585,22 @@ Do you want to overwrite?</source>
         <translation>&amp;Nedavne datoteke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1475"/>
+        <location filename="../basegui.cpp" line="1481"/>
         <source>P&amp;lay</source>
         <translation>R&amp;eproduciraj</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1481"/>
+        <location filename="../basegui.cpp" line="1484"/>
         <source>&amp;Pause</source>
         <translation>&amp;Pauziraj</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1482"/>
+        <location filename="../basegui.cpp" line="1485"/>
         <source>&amp;Stop</source>
         <translation>&amp;Zaustavi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1483"/>
+        <location filename="../basegui.cpp" line="1486"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Pomak sličice</translation>
     </message>
@@ -667,7 +667,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
-        <location filename="../basegui.cpp" line="3101"/>
+        <location filename="../basegui.cpp" line="3096"/>
         <source>&amp;None</source>
         <translation>&amp;Nepoznato</translation>
     </message>
@@ -878,53 +878,53 @@ Do you want to overwrite?</source>
         <translation>O&amp;sobitosti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>About &amp;SMPlayer</source>
         <translation>O &amp;SMPlayeru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3123"/>
-        <location filename="../basegui.cpp" line="3139"/>
-        <location filename="../basegui.cpp" line="3155"/>
-        <location filename="../basegui.cpp" line="3170"/>
-        <location filename="../basegui.cpp" line="3202"/>
-        <location filename="../basegui.cpp" line="3222"/>
-        <location filename="../basegui.cpp" line="3262"/>
+        <location filename="../basegui.cpp" line="3118"/>
+        <location filename="../basegui.cpp" line="3134"/>
+        <location filename="../basegui.cpp" line="3150"/>
+        <location filename="../basegui.cpp" line="3165"/>
+        <location filename="../basegui.cpp" line="3197"/>
+        <location filename="../basegui.cpp" line="3217"/>
+        <location filename="../basegui.cpp" line="3257"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;prazno&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3673"/>
+        <location filename="../basegui.cpp" line="3668"/>
         <source>Video</source>
         <translation>Slika</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3674"/>
-        <location filename="../basegui.cpp" line="3864"/>
+        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3859"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3675"/>
+        <location filename="../basegui.cpp" line="3670"/>
         <source>Playlists</source>
         <translation>Playliste</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3676"/>
-        <location filename="../basegui.cpp" line="3844"/>
-        <location filename="../basegui.cpp" line="3865"/>
+        <location filename="../basegui.cpp" line="3671"/>
+        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>All files</source>
         <translation>Sve datoteke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3671"/>
-        <location filename="../basegui.cpp" line="3841"/>
-        <location filename="../basegui.cpp" line="3862"/>
+        <location filename="../basegui.cpp" line="3666"/>
+        <location filename="../basegui.cpp" line="3836"/>
+        <location filename="../basegui.cpp" line="3857"/>
         <source>Choose a file</source>
         <translation>Odaberi datoteku</translation>
     </message>
@@ -934,74 +934,74 @@ Do you want to overwrite?</source>
         <translation>&amp;YouTube%1 preglednik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3723"/>
+        <location filename="../basegui.cpp" line="3718"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informacije</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD pogoni još nisu podešeni.
 Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3807"/>
+        <location filename="../basegui.cpp" line="3802"/>
         <source>Choose a directory</source>
         <translation>Odaberi direktorij</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3843"/>
+        <location filename="../basegui.cpp" line="3838"/>
         <source>Subtitles</source>
         <translation>Podnaslovi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3905"/>
+        <location filename="../basegui.cpp" line="3900"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4243"/>
+        <location filename="../basegui.cpp" line="4238"/>
         <source>New version available</source>
         <translation>Dostupna je nova inačica</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4244"/>
+        <location filename="../basegui.cpp" line="4239"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Dostupna je nova inačica SMPlayera.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4245"/>
+        <location filename="../basegui.cpp" line="4240"/>
         <source>Installed version: %1</source>
         <translation>Instalirana inačica: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4246"/>
+        <location filename="../basegui.cpp" line="4241"/>
         <source>Available version: %1</source>
         <translation>Dostupna inačica: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4247"/>
+        <location filename="../basegui.cpp" line="4242"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Želite li saznati više o dostupnoj inačici?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4468"/>
+        <location filename="../basegui.cpp" line="4469"/>
         <source>Playing %1</source>
         <translation>Reproduciram %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4469"/>
+        <location filename="../basegui.cpp" line="4470"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4470"/>
+        <location filename="../basegui.cpp" line="4471"/>
         <source>Stop</source>
         <translation>Zaustavi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1485"/>
+        <location filename="../basegui.cpp" line="1488"/>
         <source>Play / Pause</source>
         <translation>Reprodukcija / Pauza</translation>
     </message>
@@ -1017,12 +1017,12 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>U&amp;kloni</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1447"/>
+        <location filename="../basegui.cpp" line="1453"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1452"/>
+        <location filename="../basegui.cpp" line="1458"/>
         <source>C&amp;lose</source>
         <translation>Z&amp;atvori</translation>
     </message>
@@ -1112,7 +1112,12 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Upute početnog &amp;pokretanja</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1629"/>
+        <location filename="../basegui.cpp" line="1631"/>
+        <source>Update &amp;Youtube code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>&amp;Open configuration folder</source>
         <translation>&amp;Otvori mapu podešavanja</translation>
     </message>
@@ -1273,34 +1278,34 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>SMPlayer - SMplayer zapis</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4287"/>
-        <location filename="../basegui.cpp" line="4298"/>
+        <location filename="../basegui.cpp" line="4281"/>
+        <location filename="../basegui.cpp" line="4289"/>
         <source>Problems with Youtube</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4288"/>
-        <location filename="../basegui.cpp" line="4299"/>
+        <location filename="../basegui.cpp" line="4282"/>
+        <location filename="../basegui.cpp" line="4290"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4289"/>
+        <location filename="../basegui.cpp" line="4283"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4300"/>
+        <location filename="../basegui.cpp" line="4291"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4991"/>
+        <location filename="../basegui.cpp" line="4992"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>YouTube preglednik se ne može pokrenuti.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4992"/>
+        <location filename="../basegui.cpp" line="4993"/>
         <source>Be sure %1 is installed.</source>
         <translation>Budite sigurni da je %1 instaliran.</translation>
     </message>
@@ -1310,28 +1315,28 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>&amp;Podijelite SMPlayer sa svojim prijateljima</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2864"/>
-        <location filename="../basegui.cpp" line="3490"/>
+        <location filename="../basegui.cpp" line="2859"/>
+        <location filename="../basegui.cpp" line="3485"/>
         <source>Information</source>
         <translation>Informacije</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2865"/>
+        <location filename="../basegui.cpp" line="2860"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Morate ponovo pokrenuti SMPlayer da bi koristili novo grafičko sučelje.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3270"/>
+        <location filename="../basegui.cpp" line="3265"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Potvrdite brisanje - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3271"/>
+        <location filename="../basegui.cpp" line="3266"/>
         <source>Delete the list of recent files?</source>
         <translation>Obriši popis nedavnih datoteka?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3491"/>
+        <location filename="../basegui.cpp" line="3486"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Trenutne vrijednosti su spremljene i biti će korištene kao zadane.</translation>
     </message>
@@ -1366,12 +1371,12 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Y&amp;adif (dvostruki broj sličica)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>&amp;Next</source>
         <translation>&amp;Sljedeće</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1642"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>Pre&amp;vious</source>
         <translation>Pri&amp;jašnje</translation>
     </message>
@@ -1381,7 +1386,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Normalizacija &amp;glasnoće zvuka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1448"/>
+        <location filename="../basegui.cpp" line="1454"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Glazbeni CD</translation>
     </message>
@@ -1426,7 +1431,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>&amp;Mogućnosti naredbenog redka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3884"/>
+        <location filename="../basegui.cpp" line="3879"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer mogućnosti naredbenog redka</translation>
     </message>
@@ -1441,32 +1446,32 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Ekvalizator slike vrati na početno</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4888"/>
+        <location filename="../basegui.cpp" line="4889"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer se zatvorio neočekivano.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4889"/>
+        <location filename="../basegui.cpp" line="4890"/>
         <source>Exit code: %1</source>
         <translation>Izlazni kôd: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4908"/>
+        <location filename="../basegui.cpp" line="4909"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer je nemoguće pokrenuti.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4909"/>
+        <location filename="../basegui.cpp" line="4910"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Provjerite MPlayer putanju u osobitostima.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4911"/>
+        <location filename="../basegui.cpp" line="4912"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer se srušio.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4912"/>
+        <location filename="../basegui.cpp" line="4913"/>
         <source>See the log for more info.</source>
         <translation>Pogledajte zapis za više informacija.</translation>
     </message>
@@ -1511,7 +1516,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Prikaži kontekstualni izbornik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3672"/>
+        <location filename="../basegui.cpp" line="3667"/>
         <source>Multimedia</source>
         <translation>Multimedija</translation>
     </message>
@@ -1593,22 +1598,22 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>&amp;Zvučni zapis</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4224"/>
+        <location filename="../basegui.cpp" line="4219"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Upozorenje - Koristite zastarjeli MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4225"/>
+        <location filename="../basegui.cpp" line="4220"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Trenutna instalirana inačica MPlayera (%1) je zastarjela. SMPlayer ne radi ispravno s njom, neke mogućnosti neće biti dostupne, kao npr. odabir podnaslova...  </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4230"/>
+        <location filename="../basegui.cpp" line="4225"/>
         <source>Please, update your MPlayer.</source>
         <translation>Molim, ažurirajte vaš MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4232"/>
+        <location filename="../basegui.cpp" line="4227"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Ovo upozorenje više neće biti prikazano)</translation>
     </message>
@@ -1703,32 +1708,32 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Postav&amp;i kašnjenje/prednačenje...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3935"/>
+        <location filename="../basegui.cpp" line="3930"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Skoči na:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3936"/>
+        <location filename="../basegui.cpp" line="3931"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Pretraživanje</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3946"/>
+        <location filename="../basegui.cpp" line="3941"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Prednačenje/Kašnjenje zvuka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3947"/>
+        <location filename="../basegui.cpp" line="3942"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Prednačenje/Kašnjenje zvuka (u milisekundama):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3956"/>
+        <location filename="../basegui.cpp" line="3951"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Prednačenje/Kašnjenje podnaslova</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3957"/>
+        <location filename="../basegui.cpp" line="3952"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Prednačenje/Kašnjenje podnaslova (u milisekundama):</translation>
     </message>
@@ -1738,7 +1743,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Uključi/Isključi ostani na vrhu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4613"/>
         <source>Jump to %1</source>
         <translation>Skoči na %1</translation>
     </message>
@@ -1794,7 +1799,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Glasnoća zvuka + &amp;Pretraga + &amp;Vrijeme + U&amp;kupno vrijeme</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1401"/>
+        <location filename="../basegui.cpp" line="1407"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Video filtri su onemogućeni kada se koristi vdpau</translation>
     </message>
@@ -1900,38 +1905,38 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation type="unfinished">Preuzimanje...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="57"/>
+        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
         <translation type="unfinished">Povezivanje na %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="123"/>
+        <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="124"/>
+        <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
         <translation type="unfinished">Instalirana inačica: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="125"/>
+        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="130"/>
-        <location filename="../youtube/codedownloader.cpp" line="135"/>
+        <location filename="../youtube/codedownloader.cpp" line="131"/>
+        <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
         <translation type="unfinished">Greška</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="130"/>
+        <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="135"/>
+        <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2087,82 +2092,82 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="491"/>
+        <location filename="../defaultgui.cpp" line="494"/>
         <source>Welcome to SMPlayer</source>
         <translation>Dobrodošli u SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="519"/>
+        <location filename="../defaultgui.cpp" line="522"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Subtitle</source>
         <translation>Podnaslov</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="513"/>
+        <location filename="../defaultgui.cpp" line="516"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Glavna alatna traka</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="516"/>
+        <location filename="../defaultgui.cpp" line="519"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Jezična traka</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="507"/>
+        <location filename="../defaultgui.cpp" line="510"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Alatne trake</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="547"/>
+        <location filename="../defaultgui.cpp" line="550"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="551"/>
+        <location filename="../defaultgui.cpp" line="554"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="510"/>
+        <location filename="../defaultgui.cpp" line="513"/>
         <source>Status&amp;bar</source>
         <translation>Status&amp;na traka</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="522"/>
+        <location filename="../defaultgui.cpp" line="525"/>
         <source>&amp;Video info</source>
         <translation>&amp;Informacije video zapisa</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Brojač sličica</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="529"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Uredi glavnu alatnu  &amp;traku</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="527"/>
+        <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit &amp;control bar</source>
         <translation>Uredi &amp;kontrolnu traku</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="528"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Uredi m&amp;ini kontrolnu traku</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
         <translation>Uredi &amp;lebdeće kontrole</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 sl/sek</translation>
@@ -4261,17 +4266,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="157"/>
+        <location filename="../minigui.cpp" line="159"/>
         <source>Control bar</source>
         <translation>Upravljačka traka</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="160"/>
+        <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
         <translation>Uredi &amp;upravljačku traku</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="161"/>
+        <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
         <translation>Uredi &amp;lebdeće kontrole</translation>
     </message>
@@ -4279,26 +4284,26 @@ Do you want to overwrite?</source>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="133"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="136"/>
         <source>Control bar</source>
         <translation>Upravljačka traka</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
         <translation>Traka premotavanja</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="430"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="433"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="436"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="437"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="438"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="439"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -4372,60 +4377,60 @@ Do you want to overwrite?</source>
         <translation>&amp;Reproduciraj</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="323"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>&amp;Edit</source>
         <translation>&amp;Uredi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="812"/>
-        <location filename="../playlist.cpp" line="830"/>
+        <location filename="../playlist.cpp" line="802"/>
+        <location filename="../playlist.cpp" line="820"/>
         <source>Playlists</source>
         <translation>Popis izvođenja</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="810"/>
+        <location filename="../playlist.cpp" line="800"/>
         <source>Choose a file</source>
         <translation>Odaberi datoteku</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="828"/>
+        <location filename="../playlist.cpp" line="818"/>
         <source>Choose a filename</source>
         <translation>Odaberi naziv datoteke</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="839"/>
+        <location filename="../playlist.cpp" line="829"/>
         <source>Confirm overwrite?</source>
         <translation>Potvrdi prepisivanje?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="840"/>
+        <location filename="../playlist.cpp" line="830"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Datoteka %1 već postoji.
 Želite ju prepisati?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1027"/>
+        <location filename="../playlist.cpp" line="1017"/>
         <source>All files</source>
         <translation>Sve datoteke</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1024"/>
+        <location filename="../playlist.cpp" line="1014"/>
         <source>Select one or more files to open</source>
         <translation>Odaberi jednu ili više datoteka za otvoriti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1080"/>
+        <location filename="../playlist.cpp" line="1070"/>
         <source>Choose a directory</source>
         <translation>Odaberi direktorij</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1291"/>
+        <location filename="../playlist.cpp" line="1281"/>
         <source>Edit name</source>
         <translation>Uredi naziv</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1292"/>
+        <location filename="../playlist.cpp" line="1282"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Upišite naziv koji će se prikazati u popisu izvođenja za ovu datoteku:</translation>
     </message>
@@ -4450,82 +4455,82 @@ Do you want to overwrite?</source>
         <translation>Pri&amp;jašnje</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="306"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>Move &amp;up</source>
         <translation>Pomakni &amp;gore</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Move &amp;down</source>
         <translation>Pomakni &amp;dolje</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Ponovi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>S&amp;huffle</source>
         <translation>N&amp;aizmjenično</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="313"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>Add &amp;current file</source>
         <translation>Dodaj &amp;trenutnu datoteku</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Add &amp;file(s)</source>
         <translation>Dodaj &amp;datoteke</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="315"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>Add &amp;directory</source>
         <translation>Dodaj &amp;direktorij</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Add &amp;URL(s)</source>
         <translation>Dodaj &amp;URL(ove)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="313"/>
         <source>Remove &amp;selected</source>
         <translation>Ukloni &amp;odabrano</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="320"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>Remove &amp;all</source>
         <translation>Ukloni &amp;sve</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="333"/>
+        <location filename="../playlist.cpp" line="327"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Popis izvođenja</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="327"/>
+        <location filename="../playlist.cpp" line="321"/>
         <source>Add...</source>
         <translation>Dodaj...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="329"/>
+        <location filename="../playlist.cpp" line="323"/>
         <source>Remove...</source>
         <translation>Ukloni...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="865"/>
+        <location filename="../playlist.cpp" line="855"/>
         <source>Playlist modified</source>
         <translation>Popis izvođenja izmijenjen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="866"/>
+        <location filename="../playlist.cpp" line="856"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Postoje nespremljene promjene, želite li spremiti popis izvođenja?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1026"/>
+        <location filename="../playlist.cpp" line="1016"/>
         <source>Multimedia</source>
         <translation>Multimedija</translation>
     </message>
@@ -8479,37 +8484,47 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="381"/>
+        <location filename="../skingui/skingui.cpp" line="392"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Alatne trake</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="384"/>
+        <location filename="../skingui/skingui.cpp" line="395"/>
+        <source>Status&amp;bar</source>
+        <translation type="unfinished">Status&amp;na traka</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Glavna alatna traka</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="388"/>
+        <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Uredi glavnu alatnu &amp;traku</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="390"/>
+        <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
         <translation>Uredi &amp;lebdeće kontrole</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="408"/>
+        <source>&amp;Video info</source>
+        <translation type="unfinished">&amp;Informacije video zapisa</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Playing %1</source>
         <translation>Reprodukcija %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="406"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="407"/>
+        <location filename="../skingui/skingui.cpp" line="423"/>
         <source>Stop</source>
         <translation>Zaustavi</translation>
     </message>

@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="lt">
 <context>
     <name>About</name>
     <message>
@@ -60,10 +62,6 @@
         <location filename="../about.cpp" line="176"/>
         <source>Russian</source>
         <translation>Rusų</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -547,32 +545,32 @@ Norite perrašyti?</translation>
         <translation>Pa&amp;galba</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1444"/>
+        <location filename="../basegui.cpp" line="1450"/>
         <source>&amp;File...</source>
         <translation>&amp;Failas...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1445"/>
+        <location filename="../basegui.cpp" line="1451"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Katalogas...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1446"/>
+        <location filename="../basegui.cpp" line="1452"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;Grojaraštis...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1449"/>
+        <location filename="../basegui.cpp" line="1455"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD iš diskasukio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1450"/>
+        <location filename="../basegui.cpp" line="1456"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD iš katalogo...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1451"/>
+        <location filename="../basegui.cpp" line="1457"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
@@ -587,22 +585,22 @@ Norite perrašyti?</translation>
         <translation>&amp;Paskutiniai failai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1475"/>
+        <location filename="../basegui.cpp" line="1481"/>
         <source>P&amp;lay</source>
         <translation>A&amp;tkurti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1481"/>
+        <location filename="../basegui.cpp" line="1484"/>
         <source>&amp;Pause</source>
         <translation>&amp;Pauzė</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1482"/>
+        <location filename="../basegui.cpp" line="1485"/>
         <source>&amp;Stop</source>
         <translation>&amp;Stop</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1483"/>
+        <location filename="../basegui.cpp" line="1486"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Kadrų žingsnis</translation>
     </message>
@@ -669,7 +667,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
-        <location filename="../basegui.cpp" line="3101"/>
+        <location filename="../basegui.cpp" line="3096"/>
         <source>&amp;None</source>
         <translation>&amp;Nieko</translation>
     </message>
@@ -880,53 +878,53 @@ Norite perrašyti?</translation>
         <translation>&amp;Nuostatos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>About &amp;Qt</source>
         <translation>Apie &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>About &amp;SMPlayer</source>
         <translation>Apie &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3123"/>
-        <location filename="../basegui.cpp" line="3139"/>
-        <location filename="../basegui.cpp" line="3155"/>
-        <location filename="../basegui.cpp" line="3170"/>
-        <location filename="../basegui.cpp" line="3202"/>
-        <location filename="../basegui.cpp" line="3222"/>
-        <location filename="../basegui.cpp" line="3262"/>
+        <location filename="../basegui.cpp" line="3118"/>
+        <location filename="../basegui.cpp" line="3134"/>
+        <location filename="../basegui.cpp" line="3150"/>
+        <location filename="../basegui.cpp" line="3165"/>
+        <location filename="../basegui.cpp" line="3197"/>
+        <location filename="../basegui.cpp" line="3217"/>
+        <location filename="../basegui.cpp" line="3257"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tuščia&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3673"/>
+        <location filename="../basegui.cpp" line="3668"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3674"/>
-        <location filename="../basegui.cpp" line="3864"/>
+        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3859"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3675"/>
+        <location filename="../basegui.cpp" line="3670"/>
         <source>Playlists</source>
         <translation>Grojaraščiai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3676"/>
-        <location filename="../basegui.cpp" line="3844"/>
-        <location filename="../basegui.cpp" line="3865"/>
+        <location filename="../basegui.cpp" line="3671"/>
+        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>All files</source>
         <translation>Visi failai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3671"/>
-        <location filename="../basegui.cpp" line="3841"/>
-        <location filename="../basegui.cpp" line="3862"/>
+        <location filename="../basegui.cpp" line="3666"/>
+        <location filename="../basegui.cpp" line="3836"/>
+        <location filename="../basegui.cpp" line="3857"/>
         <source>Choose a file</source>
         <translation>Pasirinkite failą</translation>
     </message>
@@ -936,74 +934,74 @@ Norite perrašyti?</translation>
         <translation>&amp;YouTube%1 naršyklė</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3723"/>
+        <location filename="../basegui.cpp" line="3718"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - informacija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM/DVD įrenginiai nesukonfigūruoti.
 Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3807"/>
+        <location filename="../basegui.cpp" line="3802"/>
         <source>Choose a directory</source>
         <translation>Pasirinkti katalogą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3843"/>
+        <location filename="../basegui.cpp" line="3838"/>
         <source>Subtitles</source>
         <translation>Subtitrai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3905"/>
+        <location filename="../basegui.cpp" line="3900"/>
         <source>About Qt</source>
         <translation>Apie Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4243"/>
+        <location filename="../basegui.cpp" line="4238"/>
         <source>New version available</source>
         <translation>Prieinama nauja versija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4244"/>
+        <location filename="../basegui.cpp" line="4239"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Prieinama nauja SMPlayer versija.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4245"/>
+        <location filename="../basegui.cpp" line="4240"/>
         <source>Installed version: %1</source>
         <translation>Įdiegta versija: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4246"/>
+        <location filename="../basegui.cpp" line="4241"/>
         <source>Available version: %1</source>
         <translation>Prieinama versija: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4247"/>
+        <location filename="../basegui.cpp" line="4242"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Ar norėtumėte daugiau sužinoti apie naują versiją?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4468"/>
+        <location filename="../basegui.cpp" line="4469"/>
         <source>Playing %1</source>
         <translation>Rodomas %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4469"/>
+        <location filename="../basegui.cpp" line="4470"/>
         <source>Pause</source>
         <translation>Pauzė</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4470"/>
+        <location filename="../basegui.cpp" line="4471"/>
         <source>Stop</source>
         <translation>Stabdyti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1485"/>
+        <location filename="../basegui.cpp" line="1488"/>
         <source>Play / Pause</source>
         <translation>Atkurti / Pauzė</translation>
     </message>
@@ -1019,12 +1017,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>I&amp;škelti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1447"/>
+        <location filename="../basegui.cpp" line="1453"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1452"/>
+        <location filename="../basegui.cpp" line="1458"/>
         <source>C&amp;lose</source>
         <translation>&amp;Uždaryti</translation>
     </message>
@@ -1114,7 +1112,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Pirmieji žingsniai ir gidas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1629"/>
+        <location filename="../basegui.cpp" line="1631"/>
+        <source>Update &amp;Youtube code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>&amp;Open configuration folder</source>
         <translation>&amp;Atverti konfigūracijos aplanką</translation>
     </message>
@@ -1275,34 +1278,34 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>SMPlayer - SMPlayer žurnalas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4287"/>
-        <location filename="../basegui.cpp" line="4298"/>
+        <location filename="../basegui.cpp" line="4281"/>
+        <location filename="../basegui.cpp" line="4289"/>
         <source>Problems with Youtube</source>
         <translation>Problemos su Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4288"/>
-        <location filename="../basegui.cpp" line="4299"/>
+        <location filename="../basegui.cpp" line="4282"/>
+        <location filename="../basegui.cpp" line="4290"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Dėl pakeitimų jūsų Youtube puslapyje, neįmanoma parodyti video &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4289"/>
+        <location filename="../basegui.cpp" line="4283"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Ar norite atnaujinti Youtube kodą? Tai gali išspręsti problemą.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4300"/>
+        <location filename="../basegui.cpp" line="4291"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Gali būti jog SMPlayer atnaujinimas padėtų.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4991"/>
+        <location filename="../basegui.cpp" line="4992"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>Paleisti YouTube naršyklės nepavyko.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4992"/>
+        <location filename="../basegui.cpp" line="4993"/>
         <source>Be sure %1 is installed.</source>
         <translation>Įsitikinkite jog įdiegėte %1.</translation>
     </message>
@@ -1312,28 +1315,28 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Dalinkitės SMPlaye su savo draugais</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2864"/>
-        <location filename="../basegui.cpp" line="3490"/>
+        <location filename="../basegui.cpp" line="2859"/>
+        <location filename="../basegui.cpp" line="3485"/>
         <source>Information</source>
         <translation>Informacija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2865"/>
+        <location filename="../basegui.cpp" line="2860"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Naujos grafinės sąsajos naudojimui reikia iš naujo paleisti SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3270"/>
+        <location filename="../basegui.cpp" line="3265"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Patvirtinkite šalinimą - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3271"/>
+        <location filename="../basegui.cpp" line="3266"/>
         <source>Delete the list of recent files?</source>
         <translation>Išvalyti paskutinių atvertų failų sąrašą?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3491"/>
+        <location filename="../basegui.cpp" line="3486"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Dabartiniai parametrai buvo išsaugoti kaip pradiniai.</translation>
     </message>
@@ -1368,12 +1371,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Y&amp;adif (dviguba kokybė)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>&amp;Next</source>
         <translation>&amp;Kitas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1642"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Ankstesnis</translation>
     </message>
@@ -1383,7 +1386,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Garso &amp;sulyginimas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1448"/>
+        <location filename="../basegui.cpp" line="1454"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Audio CD</translation>
     </message>
@@ -1428,7 +1431,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Komandinės eilutės nuostatos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3884"/>
+        <location filename="../basegui.cpp" line="3879"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer komandinės eilutės nuostatos</translation>
     </message>
@@ -1443,32 +1446,32 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Atstatyti video ekvalaizerį</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4888"/>
+        <location filename="../basegui.cpp" line="4889"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Netikėta MPLayer pabaiga.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4889"/>
+        <location filename="../basegui.cpp" line="4890"/>
         <source>Exit code: %1</source>
         <translation>Klaidos kodas: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4908"/>
+        <location filename="../basegui.cpp" line="4909"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer paleidimo klaida.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4909"/>
+        <location filename="../basegui.cpp" line="4910"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Patikrinkite kelią iki MPlayer parinktyse.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4911"/>
+        <location filename="../basegui.cpp" line="4912"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer užlūžo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4912"/>
+        <location filename="../basegui.cpp" line="4913"/>
         <source>See the log for more info.</source>
         <translation>Daugiau informacijos žurnale.</translation>
     </message>
@@ -1513,7 +1516,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Rodyti kontekstinį meniu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3672"/>
+        <location filename="../basegui.cpp" line="3667"/>
         <source>Multimedia</source>
         <translation>Daugialypė terpė</translation>
     </message>
@@ -1595,22 +1598,22 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Takelis</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4224"/>
+        <location filename="../basegui.cpp" line="4219"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Dėmesio - naudojamas senas MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4225"/>
+        <location filename="../basegui.cpp" line="4220"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Įdegta MPlayer (%1) versija yra pasenusi. SMPlayer negali su ja gerai dirbti - kai kurios parinktys gali neveikti, subtitrų parinkimas gali nepasisekti...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4230"/>
+        <location filename="../basegui.cpp" line="4225"/>
         <source>Please, update your MPlayer.</source>
         <translation>Atnaujinkite MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4232"/>
+        <location filename="../basegui.cpp" line="4227"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Šis perspėjimas daugiau nebus rodomas)</translation>
     </message>
@@ -1705,32 +1708,32 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Nus&amp;tatyti užlaikymą...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3935"/>
+        <location filename="../basegui.cpp" line="3930"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Peršokti į:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3936"/>
+        <location filename="../basegui.cpp" line="3931"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - prasukimas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3946"/>
+        <location filename="../basegui.cpp" line="3941"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - audio užlaikymas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3947"/>
+        <location filename="../basegui.cpp" line="3942"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Audio užlaikymas (milisekundėmis):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3956"/>
+        <location filename="../basegui.cpp" line="3951"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - subtitrų užlaikymas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3957"/>
+        <location filename="../basegui.cpp" line="3952"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Subtitrų užlaikymas (milisekundėmis):</translation>
     </message>
@@ -1740,7 +1743,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Perjungti visada viršuje režimą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4613"/>
         <source>Jump to %1</source>
         <translation>Peršokti į %1</translation>
     </message>
@@ -1796,7 +1799,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Garsas + persukimas + laikmatis + &amp;bendras laikas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1401"/>
+        <location filename="../basegui.cpp" line="1407"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Naudojant vdpau video filtrai išjungti</translation>
     </message>
@@ -1902,38 +1905,38 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Atsiunčiama...</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="57"/>
+        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
         <translation>Jungiamasi prie %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="123"/>
+        <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
         <translation>Youtube kodas atnaujintas sėkmingai.</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="124"/>
+        <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
         <translation>Įdiegta versija: %1</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="125"/>
+        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
         <translation>Sėkmingai</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="130"/>
-        <location filename="../youtube/codedownloader.cpp" line="135"/>
+        <location filename="../youtube/codedownloader.cpp" line="131"/>
+        <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="130"/>
+        <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
         <translation>Rašant %1 įvyko klaida</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="135"/>
+        <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
         <translation>Atsiunčiant failą įvyko klaida:&lt;br&gt;%1</translation>
     </message>
@@ -2085,82 +2088,82 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="491"/>
+        <location filename="../defaultgui.cpp" line="494"/>
         <source>Welcome to SMPlayer</source>
         <translation>Sveiki atvykę į SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="519"/>
+        <location filename="../defaultgui.cpp" line="522"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Subtitle</source>
         <translation>Subtitrai</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="513"/>
+        <location filename="../defaultgui.cpp" line="516"/>
         <source>&amp;Main toolbar</source>
         <translation>Pa&amp;grindinė juosta</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="516"/>
+        <location filename="../defaultgui.cpp" line="519"/>
         <source>&amp;Language toolbar</source>
         <translation>Ka&amp;lbos juosta</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="507"/>
+        <location filename="../defaultgui.cpp" line="510"/>
         <source>&amp;Toolbars</source>
         <translation>Įrankių juos&amp;tos</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="547"/>
+        <location filename="../defaultgui.cpp" line="550"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="551"/>
+        <location filename="../defaultgui.cpp" line="554"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="510"/>
+        <location filename="../defaultgui.cpp" line="513"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Būsenos juosta</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="522"/>
+        <location filename="../defaultgui.cpp" line="525"/>
         <source>&amp;Video info</source>
         <translation>&amp;Video informacija</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Kadrų skaitiklis</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="529"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Keisti pagrindinę į&amp;rankių juostą</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="527"/>
+        <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit &amp;control bar</source>
         <translation>Keisti &amp;valdymo juostą</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="528"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Keisti &amp;mini valdymo juostą</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
         <translation>Keisti &amp;plaukiojantį valdymą</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -2617,7 +2620,11 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrų išgauta</numerusform></translation>
+        <translation>
+            <numerusform>%n subtitrai išgauti</numerusform>
+            <numerusform>%n subtitrai išgauti</numerusform>
+            <numerusform>%n subtitrų išgauta</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2700,6 +2707,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2721,7 +2729,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Neįmanoma išsaugoti atsiųstą failą kataloge
@@ -4254,17 +4262,17 @@ Norite perrašyti?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="157"/>
+        <location filename="../minigui.cpp" line="159"/>
         <source>Control bar</source>
         <translation>Kontrolinė juosta</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="160"/>
+        <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
         <translation>Keisti &amp;valdymo juostą</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="161"/>
+        <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
         <translation>Keisti &amp;plaukiojantį valdymą</translation>
     </message>
@@ -4272,26 +4280,26 @@ Norite perrašyti?</translation>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="133"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="136"/>
         <source>Control bar</source>
         <translation>Kontrolinė juosta</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
         <translation>Prasukimo juosta</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="430"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="433"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="436"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="437"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="438"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="439"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -4365,60 +4373,60 @@ Norite perrašyti?</translation>
         <translation>&amp;Atkurti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="323"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>&amp;Edit</source>
         <translation>R&amp;edaguoti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="812"/>
-        <location filename="../playlist.cpp" line="830"/>
+        <location filename="../playlist.cpp" line="802"/>
+        <location filename="../playlist.cpp" line="820"/>
         <source>Playlists</source>
         <translation>Grojaraščiai</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="810"/>
+        <location filename="../playlist.cpp" line="800"/>
         <source>Choose a file</source>
         <translation>Pasirinkite failą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="828"/>
+        <location filename="../playlist.cpp" line="818"/>
         <source>Choose a filename</source>
         <translation>Pasirinkite failo vardą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="839"/>
+        <location filename="../playlist.cpp" line="829"/>
         <source>Confirm overwrite?</source>
         <translation>Tikrai perrašyti?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="840"/>
+        <location filename="../playlist.cpp" line="830"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Failas %1 jau yra.
 Norite perrašyti?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1027"/>
+        <location filename="../playlist.cpp" line="1017"/>
         <source>All files</source>
         <translation>Visi failai</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1024"/>
+        <location filename="../playlist.cpp" line="1014"/>
         <source>Select one or more files to open</source>
         <translation>Pasirinkite vieną ar kelis failus atvėrimui</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1080"/>
+        <location filename="../playlist.cpp" line="1070"/>
         <source>Choose a directory</source>
         <translation>Pasirinkti katalogą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1291"/>
+        <location filename="../playlist.cpp" line="1281"/>
         <source>Edit name</source>
         <translation>Redaguoti pavadinimą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1292"/>
+        <location filename="../playlist.cpp" line="1282"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Įrašykite pavadinimą, kuris bus rodomas grojaraštyje šiam failui:</translation>
     </message>
@@ -4443,82 +4451,82 @@ Norite perrašyti?</translation>
         <translation>&amp;Ankstesnis</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="306"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>Move &amp;up</source>
         <translation>Perkelti &amp;aukštyn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Move &amp;down</source>
         <translation>Perkelti &amp;žemyn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>&amp;Repeat</source>
         <translation>Paka&amp;rtoti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>S&amp;huffle</source>
         <translation>S&amp;umaišyti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="313"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>Add &amp;current file</source>
         <translation>&amp;Pridėti šį failą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Add &amp;file(s)</source>
         <translation>Pridėti &amp;failus</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="315"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>Add &amp;directory</source>
         <translation>Pridėti &amp;aplanką</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Add &amp;URL(s)</source>
         <translation>Pridėti &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="313"/>
         <source>Remove &amp;selected</source>
         <translation>Pa&amp;šalinti pažymėtus</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="320"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>Remove &amp;all</source>
         <translation>Pašalinti &amp;visus</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="333"/>
+        <location filename="../playlist.cpp" line="327"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - grojaraštis</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="327"/>
+        <location filename="../playlist.cpp" line="321"/>
         <source>Add...</source>
         <translation>Pridėti...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="329"/>
+        <location filename="../playlist.cpp" line="323"/>
         <source>Remove...</source>
         <translation>Pašalinti...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="865"/>
+        <location filename="../playlist.cpp" line="855"/>
         <source>Playlist modified</source>
         <translation>Grojaraštis pakeistas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="866"/>
+        <location filename="../playlist.cpp" line="856"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Yra neišsaugotų pakeitimų, išsaugoti grojaraštį?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1026"/>
+        <location filename="../playlist.cpp" line="1016"/>
         <source>Multimedia</source>
         <translation>Daugialypė terpė</translation>
     </message>
@@ -8347,13 +8355,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekundė</numerusform><numerusform>%n sekundės</numerusform><numerusform>%n sekundžių</numerusform></translation>
+        <translation>
+            <numerusform>%n sekundė</numerusform>
+            <numerusform>%n sekundės</numerusform>
+            <numerusform>%n sekundžių</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minutė</numerusform><numerusform>%n minutės</numerusform><numerusform>%n minučių</numerusform></translation>
+        <translation>
+            <numerusform>%n minutė</numerusform>
+            <numerusform>%n minutės</numerusform>
+            <numerusform>%n minučių</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8463,37 +8479,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="381"/>
+        <location filename="../skingui/skingui.cpp" line="392"/>
         <source>&amp;Toolbars</source>
         <translation>Įrankių juos&amp;tos</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="384"/>
+        <location filename="../skingui/skingui.cpp" line="395"/>
+        <source>Status&amp;bar</source>
+        <translation type="unfinished">&amp;Būsenos juosta</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Main toolbar</source>
         <translation>Pa&amp;grindinė juosta</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="388"/>
+        <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Keisti pagrindinę į&amp;rankių juostą</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="390"/>
+        <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
         <translation>Keisti &amp;plaukiojantį valdymą</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="408"/>
+        <source>&amp;Video info</source>
+        <translation type="unfinished">&amp;Video informacija</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Playing %1</source>
         <translation>Rodomas %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="406"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Pause</source>
         <translation>Pauzė</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="407"/>
+        <location filename="../skingui/skingui.cpp" line="423"/>
         <source>Stop</source>
         <translation>Stabdyti</translation>
     </message>
