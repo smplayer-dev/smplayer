@@ -28,6 +28,8 @@
 #include "mybutton.h"
 #include "panelseeker.h"
 
+class QGridLayout;
+
 class ScrollingLabel : public QWidget
 {
     Q_OBJECT
@@ -91,10 +93,11 @@ public:
 
 public slots:
 	void setSeeker(int v);
-	void setResolutionVisible(bool b) { resolutionLabel->setVisible(b); }
+	void setResolutionVisible(bool b);
 
 private:
     Ui::MediaPanelClass ui;
+    QGridLayout * layout;
     QPixmap leftBackground;
     QPixmap centerBackground;
     QPixmap rightBackground;
@@ -111,6 +114,7 @@ private:
 
 private slots:
     void reverseStatus();
+    void rearrangeWidgets(bool resolution_visible);
 
 protected:
     void paintEvent(QPaintEvent *);

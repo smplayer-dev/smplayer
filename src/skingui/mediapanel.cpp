@@ -63,7 +63,7 @@ MediaPanel::MediaPanel(QWidget *parent)
 	seeker->installEventFilter(this);
 	mediaLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
 	mediaLabel->setObjectName("panel-main-label");
-	QGridLayout* layout = new QGridLayout;
+	layout = new QGridLayout;
 	elapsedLabel = new QLabel(this);
 	elapsedLabel->setObjectName("panel-elapsed-label");
 	elapsedLabel->setMargin(0);
@@ -75,6 +75,7 @@ MediaPanel::MediaPanel(QWidget *parent)
 	totalLabel->setMargin(0);
 	totalLabel->setAlignment(Qt::AlignHCenter | Qt::AlignTop);
 	totalLabel->setIndent(3);
+	/*
 	layout->addWidget( mediaLabel, 0, 0, 1, 2 );
 	layout->addWidget( resolutionLabel, 0, 2, 1, 1 );
 	layout->addWidget( repeatButton, 0, 3  );
@@ -82,12 +83,14 @@ MediaPanel::MediaPanel(QWidget *parent)
 	layout->addWidget(elapsedLabel, 1, 0, 1, 1);
 	layout->addWidget(seeker, 1, 1, 1, 2);
 	layout->addWidget(totalLabel, 1, 3, 1, 2);
+	*/
+	rearrangeWidgets(false);
 	layout->setSpacing(0);
 	layout->setContentsMargins(8,3,8, 3);
 	elapsedLabel->setText("00:00:00");
 	totalLabel->setText("00:00:00");
 	//resolutionLabel->setText("1920x1024");
-	resolutionLabel->hide();
+	//resolutionLabel->hide();
 	setLayout(layout);
 	timer = new QTimer(this);
 	timer->setSingleShot(true);
@@ -97,6 +100,31 @@ MediaPanel::MediaPanel(QWidget *parent)
 }
 
 MediaPanel::~MediaPanel() {
+}
+
+void MediaPanel::rearrangeWidgets(bool resolution_visible) {
+	if (resolution_visible) {
+		layout->addWidget( mediaLabel, 0, 0, 1, 2 );
+		layout->addWidget( resolutionLabel, 0, 2, 1, 1 );
+		layout->addWidget( repeatButton, 0, 3  );
+		layout->addWidget( shuffleButton, 0, 4  );
+		layout->addWidget(elapsedLabel, 1, 0, 1, 1);
+		layout->addWidget(seeker, 1, 1, 1, 2);
+		layout->addWidget(totalLabel, 1, 3, 1, 2);
+		resolutionLabel->setVisible(true);
+	} else {
+		layout->addWidget( mediaLabel, 0, 0, 1, 2 );
+		layout->addWidget( repeatButton, 0, 2  );
+		layout->addWidget( shuffleButton, 0, 3  );
+		layout->addWidget(elapsedLabel, 1, 0, 1, 1);
+		layout->addWidget(seeker, 1, 1, 1, 1);
+		layout->addWidget(totalLabel, 1, 2, 1, 2);
+		resolutionLabel->setVisible(false);
+	}
+}
+
+void MediaPanel::setResolutionVisible(bool b) {
+	rearrangeWidgets(b);
 }
 
 void MediaPanel::paintEvent(QPaintEvent * e) {
