@@ -91,6 +91,7 @@ public:
 
 public slots:
 	void setSeeker(int v);
+	void setResolutionVisible(bool b) { resolutionLabel->setVisible(b); }
 
 private:
     Ui::MediaPanelClass ui;

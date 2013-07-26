@@ -87,7 +87,7 @@ MediaPanel::MediaPanel(QWidget *parent)
 	elapsedLabel->setText("00:00:00");
 	totalLabel->setText("00:00:00");
 	//resolutionLabel->setText("1920x1024");
-	//resolutionLabel->hide();
+	resolutionLabel->hide();
 	setLayout(layout);
 	timer = new QTimer(this);
 	timer->setSingleShot(true);

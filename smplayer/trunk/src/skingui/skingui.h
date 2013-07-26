@@ -118,7 +118,10 @@ protected:
 	#endif
 #endif
 
+	MyAction * viewVideoInfoAct;
+
 	QMenu * toolbar_menu;
+	QMenu * statusbar_menu;
 
 	int last_second;
 

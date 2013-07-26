@@ -70,6 +70,7 @@ public slots:
     void setBuffering();
 	void setVolume(int v);
 	void setSeeker(int v);
+	void setResolutionVisible(bool b);
 
 signals:
 	void volumeChanged(int);

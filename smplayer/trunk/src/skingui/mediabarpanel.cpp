@@ -158,5 +158,10 @@ void MediaBarPanel::setSeeker(int v) {
 	mediaPanel->setSeeker(v);
 }
 
+void MediaBarPanel::setResolutionVisible(bool b) { 
+	qDebug("MediaBarPanel::setResolutionVisible: %d", b);
+	mediaPanel->setResolutionVisible(b); 
+}
+
 #include "moc_mediabarpanel.cpp"
 
