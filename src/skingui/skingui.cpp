@@ -151,6 +151,9 @@ void SkinGui::createActions() {
 #endif
 
 	playOrPauseAct->setCheckable(true);
+
+	viewVideoInfoAct = new MyAction(this, "toggle_video_info_skingui" );
+	viewVideoInfoAct->setCheckable(true);
 }
 
 #if AUTODISABLE_ACTIONS
@@ -201,6 +204,10 @@ void SkinGui::createMenus() {
 #endif
 	optionsMenu->addSeparator();
 	optionsMenu->addMenu(toolbar_menu);
+
+	statusbar_menu = new QMenu(this);
+	statusbar_menu->addAction(viewVideoInfoAct);
+	optionsMenu->addMenu(statusbar_menu);
 }
 
 QMenu * SkinGui::createPopupMenu() {
@@ -308,6 +315,9 @@ void SkinGui::createControlWidget() {
 	connect(core, SIGNAL(posChanged(int)),mediaBarPanel, SLOT(setSeeker(int)));
 #endif
 
+	connect( viewVideoInfoAct, SIGNAL(toggled(bool)),
+             mediaBarPanel, SLOT(setResolutionVisible(bool)) );
+
 	controlwidget->addWidget(mediaBarPanel);
 }
 
@@ -382,6 +392,9 @@ void SkinGui::retranslateStrings() {
 	toolbar_menu->menuAction()->setText( tr("&Toolbars") );
 	toolbar_menu->menuAction()->setIcon( Images::icon("toolbars") );
 
+	statusbar_menu->menuAction()->setText( tr("Status&bar") );
+	statusbar_menu->menuAction()->setIcon( Images::icon("statusbar") );
+
 	toolbar1->setWindowTitle( tr("&Main toolbar") );
 	toolbar1->toggleViewAction()->setIcon(Images::icon("main_toolbar"));
 
@@ -391,6 +404,8 @@ void SkinGui::retranslateStrings() {
 	editFloatingControlAct->change( tr("Edit &floating control") );
 	#endif
 #endif
+
+	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
 
 	mediaBarPanel->setVolume(core->mset.volume);
 }
@@ -530,6 +545,8 @@ void SkinGui::saveConfig() {
 
 	set->beginGroup( "skin_gui");
 
+	set->setValue("video_info", viewVideoInfoAct->isChecked());
+
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
 
@@ -561,6 +578,8 @@ void SkinGui::loadConfig() {
 	QSettings * set = settings;
 
 	set->beginGroup( "skin_gui");
+
+	viewVideoInfoAct->setChecked(set->value("video_info", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	compact_toolbar1_was_visible = set->value("compact_toolbar1_was_visible", compact_toolbar1_was_visible).toBool();
