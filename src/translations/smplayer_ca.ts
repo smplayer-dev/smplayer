@@ -573,32 +573,32 @@ El voleu sobreescriure?</translation>
         <translation>&amp;Ajuda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1444"/>
+        <location filename="../basegui.cpp" line="1450"/>
         <source>&amp;File...</source>
         <translation>&amp;Fitxer...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1445"/>
+        <location filename="../basegui.cpp" line="1451"/>
         <source>D&amp;irectory...</source>
         <translation>D&amp;irectori...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1446"/>
+        <location filename="../basegui.cpp" line="1452"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;Llista de reproducció...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1449"/>
+        <location filename="../basegui.cpp" line="1455"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD des de fitxer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1450"/>
+        <location filename="../basegui.cpp" line="1456"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD des de directori...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1451"/>
+        <location filename="../basegui.cpp" line="1457"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
@@ -613,22 +613,22 @@ El voleu sobreescriure?</translation>
         <translation>Fitxers &amp;recents</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1475"/>
+        <location filename="../basegui.cpp" line="1481"/>
         <source>P&amp;lay</source>
         <translation>Repro&amp;dueix</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1481"/>
+        <location filename="../basegui.cpp" line="1484"/>
         <source>&amp;Pause</source>
         <translation>&amp;Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1482"/>
+        <location filename="../basegui.cpp" line="1485"/>
         <source>&amp;Stop</source>
         <translation>&amp;Atura</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1483"/>
+        <location filename="../basegui.cpp" line="1486"/>
         <source>&amp;Frame step</source>
         <translation>Pas de &amp;fotograma</translation>
     </message>
@@ -695,7 +695,7 @@ El voleu sobreescriure?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
-        <location filename="../basegui.cpp" line="3101"/>
+        <location filename="../basegui.cpp" line="3096"/>
         <source>&amp;None</source>
         <translation>&amp;Cap</translation>
     </message>
@@ -906,53 +906,53 @@ El voleu sobreescriure?</translation>
         <translation>P&amp;referències</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>About &amp;Qt</source>
         <translation>Quant a &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>About &amp;SMPlayer</source>
         <translation>Quant a &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3123"/>
-        <location filename="../basegui.cpp" line="3139"/>
-        <location filename="../basegui.cpp" line="3155"/>
-        <location filename="../basegui.cpp" line="3170"/>
-        <location filename="../basegui.cpp" line="3202"/>
-        <location filename="../basegui.cpp" line="3222"/>
-        <location filename="../basegui.cpp" line="3262"/>
+        <location filename="../basegui.cpp" line="3118"/>
+        <location filename="../basegui.cpp" line="3134"/>
+        <location filename="../basegui.cpp" line="3150"/>
+        <location filename="../basegui.cpp" line="3165"/>
+        <location filename="../basegui.cpp" line="3197"/>
+        <location filename="../basegui.cpp" line="3217"/>
+        <location filename="../basegui.cpp" line="3257"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;buit&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3673"/>
+        <location filename="../basegui.cpp" line="3668"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3674"/>
-        <location filename="../basegui.cpp" line="3864"/>
+        <location filename="../basegui.cpp" line="3669"/>
+        <location filename="../basegui.cpp" line="3859"/>
         <source>Audio</source>
         <translation>Àudio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3675"/>
+        <location filename="../basegui.cpp" line="3670"/>
         <source>Playlists</source>
         <translation>Llistes de reproducció</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3676"/>
-        <location filename="../basegui.cpp" line="3844"/>
-        <location filename="../basegui.cpp" line="3865"/>
+        <location filename="../basegui.cpp" line="3671"/>
+        <location filename="../basegui.cpp" line="3839"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>All files</source>
         <translation>Tots els fitxers</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3671"/>
-        <location filename="../basegui.cpp" line="3841"/>
-        <location filename="../basegui.cpp" line="3862"/>
+        <location filename="../basegui.cpp" line="3666"/>
+        <location filename="../basegui.cpp" line="3836"/>
+        <location filename="../basegui.cpp" line="3857"/>
         <source>Choose a file</source>
         <translation>Escolliu un fitxer</translation>
     </message>
@@ -962,74 +962,74 @@ El voleu sobreescriure?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3723"/>
+        <location filename="../basegui.cpp" line="3718"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informació</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3724"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Encara no s&apos;han configurat les unitats de CDROM / DVD.
 Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3807"/>
+        <location filename="../basegui.cpp" line="3802"/>
         <source>Choose a directory</source>
         <translation>Escolliu un directori</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3843"/>
+        <location filename="../basegui.cpp" line="3838"/>
         <source>Subtitles</source>
         <translation>Subtítols</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3905"/>
+        <location filename="../basegui.cpp" line="3900"/>
         <source>About Qt</source>
         <translation>Quant a Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4243"/>
+        <location filename="../basegui.cpp" line="4238"/>
         <source>New version available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4244"/>
+        <location filename="../basegui.cpp" line="4239"/>
         <source>A new version of SMPlayer is available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4245"/>
+        <location filename="../basegui.cpp" line="4240"/>
         <source>Installed version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4246"/>
+        <location filename="../basegui.cpp" line="4241"/>
         <source>Available version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4247"/>
+        <location filename="../basegui.cpp" line="4242"/>
         <source>Would you like to know more about this new version?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4468"/>
+        <location filename="../basegui.cpp" line="4469"/>
         <source>Playing %1</source>
         <translation>Reproduint %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4469"/>
+        <location filename="../basegui.cpp" line="4470"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4470"/>
+        <location filename="../basegui.cpp" line="4471"/>
         <source>Stop</source>
         <translation>Atura</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1485"/>
+        <location filename="../basegui.cpp" line="1488"/>
         <source>Play / Pause</source>
         <translation>Reprodueix / Pausa</translation>
     </message>
@@ -1045,12 +1045,12 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>Ta&amp;nca</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1447"/>
+        <location filename="../basegui.cpp" line="1453"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1452"/>
+        <location filename="../basegui.cpp" line="1458"/>
         <source>C&amp;lose</source>
         <translation>&amp;Tanca</translation>
     </message>
@@ -1140,7 +1140,12 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1629"/>
+        <location filename="../basegui.cpp" line="1631"/>
+        <source>Update &amp;Youtube code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>&amp;Open configuration folder</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1301,34 +1306,34 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4287"/>
-        <location filename="../basegui.cpp" line="4298"/>
+        <location filename="../basegui.cpp" line="4281"/>
+        <location filename="../basegui.cpp" line="4289"/>
         <source>Problems with Youtube</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4288"/>
-        <location filename="../basegui.cpp" line="4299"/>
+        <location filename="../basegui.cpp" line="4282"/>
+        <location filename="../basegui.cpp" line="4290"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4289"/>
+        <location filename="../basegui.cpp" line="4283"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4300"/>
+        <location filename="../basegui.cpp" line="4291"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4991"/>
+        <location filename="../basegui.cpp" line="4992"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4992"/>
+        <location filename="../basegui.cpp" line="4993"/>
         <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1338,28 +1343,28 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2864"/>
-        <location filename="../basegui.cpp" line="3490"/>
+        <location filename="../basegui.cpp" line="2859"/>
+        <location filename="../basegui.cpp" line="3485"/>
         <source>Information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2865"/>
+        <location filename="../basegui.cpp" line="2860"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3270"/>
+        <location filename="../basegui.cpp" line="3265"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3271"/>
+        <location filename="../basegui.cpp" line="3266"/>
         <source>Delete the list of recent files?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3491"/>
+        <location filename="../basegui.cpp" line="3486"/>
         <source>The current values have been stored to be used as default.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1394,12 +1399,12 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>Y&amp;adif (doble taxa de refresc de fotogrames)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>&amp;Next</source>
         <translation>&amp;Següent</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1642"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Anterior</translation>
     </message>
@@ -1409,7 +1414,7 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>&amp;Normalització del volum</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1448"/>
+        <location filename="../basegui.cpp" line="1454"/>
         <source>&amp;Audio CD</source>
         <translation>CD d&apos;&amp;àudio</translation>
     </message>
@@ -1466,7 +1471,7 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>&amp;Opcions de la línia d&apos;ordres</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3884"/>
+        <location filename="../basegui.cpp" line="3879"/>
         <source>SMPlayer command line options</source>
         <translation>Opcions de la línia d&apos;ordres de SMPlayer</translation>
     </message>
@@ -1481,32 +1486,32 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>Reinicia els equalitzadors de vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4888"/>
+        <location filename="../basegui.cpp" line="4889"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer ha acabat inesperadament.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4889"/>
+        <location filename="../basegui.cpp" line="4890"/>
         <source>Exit code: %1</source>
         <translation>Codi de sortida: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4908"/>
+        <location filename="../basegui.cpp" line="4909"/>
         <source>MPlayer failed to start.</source>
         <translation>La inicialització de MPlayer ha fallat.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4909"/>
+        <location filename="../basegui.cpp" line="4910"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Si us plau, comproveu el camí de MPlayer a preferències.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4911"/>
+        <location filename="../basegui.cpp" line="4912"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer ha fallat.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4912"/>
+        <location filename="../basegui.cpp" line="4913"/>
         <source>See the log for more info.</source>
         <translation>Mireu al registre per més informació.</translation>
     </message>
@@ -1551,7 +1556,7 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation>Mostra el menú contextual</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3672"/>
+        <location filename="../basegui.cpp" line="3667"/>
         <source>Multimedia</source>
         <translation>Multimèdia</translation>
     </message>
@@ -1633,22 +1638,22 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished">Pis&amp;ta</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4224"/>
+        <location filename="../basegui.cpp" line="4219"/>
         <source>Warning - Using old MPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4225"/>
+        <location filename="../basegui.cpp" line="4220"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4230"/>
+        <location filename="../basegui.cpp" line="4225"/>
         <source>Please, update your MPlayer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4232"/>
+        <location filename="../basegui.cpp" line="4227"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1743,32 +1748,32 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3935"/>
+        <location filename="../basegui.cpp" line="3930"/>
         <source>&amp;Jump to:</source>
         <translation type="unfinished">&amp;Salta a:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3936"/>
+        <location filename="../basegui.cpp" line="3931"/>
         <source>SMPlayer - Seek</source>
         <translation type="unfinished">SMPlayer - Cerca</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3946"/>
+        <location filename="../basegui.cpp" line="3941"/>
         <source>SMPlayer - Audio delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3947"/>
+        <location filename="../basegui.cpp" line="3942"/>
         <source>Audio delay (in milliseconds):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3956"/>
+        <location filename="../basegui.cpp" line="3951"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3957"/>
+        <location filename="../basegui.cpp" line="3952"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1778,7 +1783,7 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4613"/>
         <source>Jump to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1834,7 +1839,7 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1401"/>
+        <location filename="../basegui.cpp" line="1407"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1940,38 +1945,38 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="57"/>
+        <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="123"/>
+        <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="124"/>
+        <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="125"/>
+        <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="130"/>
-        <location filename="../youtube/codedownloader.cpp" line="135"/>
+        <location filename="../youtube/codedownloader.cpp" line="131"/>
+        <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
         <translation type="unfinished">Error</translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="130"/>
+        <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../youtube/codedownloader.cpp" line="135"/>
+        <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2123,82 +2128,82 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="491"/>
+        <location filename="../defaultgui.cpp" line="494"/>
         <source>Welcome to SMPlayer</source>
         <translation>Benvingut a SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="519"/>
+        <location filename="../defaultgui.cpp" line="522"/>
         <source>Audio</source>
         <translation>Àudio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Subtitle</source>
         <translation>Subtítol</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="513"/>
+        <location filename="../defaultgui.cpp" line="516"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra d&apos;eines &amp;principal</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="516"/>
+        <location filename="../defaultgui.cpp" line="519"/>
         <source>&amp;Language toolbar</source>
         <translation>Barra d&apos;eines d&apos;&amp;idioma</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="507"/>
+        <location filename="../defaultgui.cpp" line="510"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Barres d&apos;eines</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="547"/>
+        <location filename="../defaultgui.cpp" line="550"/>
         <source>A:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="551"/>
+        <location filename="../defaultgui.cpp" line="554"/>
         <source>B:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="510"/>
+        <location filename="../defaultgui.cpp" line="513"/>
         <source>Status&amp;bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="522"/>
+        <location filename="../defaultgui.cpp" line="525"/>
         <source>&amp;Video info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Frame counter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="529"/>
         <source>Edit main &amp;toolbar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="527"/>
+        <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit &amp;control bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="528"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit m&amp;ini control bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation type="unfinished"></translation>
@@ -4287,17 +4292,17 @@ El voleu sobreescriure?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="157"/>
+        <location filename="../minigui.cpp" line="159"/>
         <source>Control bar</source>
         <translation>Barra de control</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="160"/>
+        <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="161"/>
+        <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4305,26 +4310,26 @@ El voleu sobreescriure?</translation>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="133"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="136"/>
         <source>Control bar</source>
         <translation type="unfinished">Barra de control</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="134"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="430"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="431"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="432"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="433"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
         <source>-%1</source>
         <translation type="unfinished">-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="434"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="435"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="436"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="437"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="438"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="439"/>
         <source>+%1</source>
         <translation type="unfinished">+%1</translation>
     </message>
@@ -4398,59 +4403,59 @@ El voleu sobreescriure?</translation>
         <translation>&amp;Reprodueix</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="323"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>&amp;Edit</source>
         <translation>&amp;Edita</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="812"/>
-        <location filename="../playlist.cpp" line="830"/>
+        <location filename="../playlist.cpp" line="802"/>
+        <location filename="../playlist.cpp" line="820"/>
         <source>Playlists</source>
         <translation>Llistes de reproducció</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="810"/>
+        <location filename="../playlist.cpp" line="800"/>
         <source>Choose a file</source>
         <translation>Escolliu un fitxer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="828"/>
+        <location filename="../playlist.cpp" line="818"/>
         <source>Choose a filename</source>
         <translation>Escolliu un nom de fitxer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="839"/>
+        <location filename="../playlist.cpp" line="829"/>
         <source>Confirm overwrite?</source>
         <translation>Voleu sobreescriure&apos;l?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="840"/>
+        <location filename="../playlist.cpp" line="830"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>El fitxer %1 ja existeix.El voleu sobreescriure?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1027"/>
+        <location filename="../playlist.cpp" line="1017"/>
         <source>All files</source>
         <translation>Tots els fitxers</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1024"/>
+        <location filename="../playlist.cpp" line="1014"/>
         <source>Select one or more files to open</source>
         <translation>Seleccioneu el/s fitxers a obrir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1080"/>
+        <location filename="../playlist.cpp" line="1070"/>
         <source>Choose a directory</source>
         <translation>Escolliu un directori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1291"/>
+        <location filename="../playlist.cpp" line="1281"/>
         <source>Edit name</source>
         <translation>Editeu el nom</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1292"/>
+        <location filename="../playlist.cpp" line="1282"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Escriviu el nom que es mostrarà en la llista de reproducció per aquest fitxer:</translation>
     </message>
@@ -4475,82 +4480,82 @@ Do you want to overwrite?</source>
         <translation>An&amp;terior</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="306"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>Move &amp;up</source>
         <translation>Mou &amp;Amunt</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Move &amp;down</source>
         <translation>Mou a&amp;vall</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Repeteix</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>S&amp;huffle</source>
         <translation>A&amp;leatori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="313"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>Add &amp;current file</source>
         <translation>Afegeix el fitxer a&amp;ctual</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Add &amp;file(s)</source>
         <translation>Afegeix &amp;fitxer(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="315"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>Add &amp;directory</source>
         <translation>Afegeix &amp;directori</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Add &amp;URL(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="313"/>
         <source>Remove &amp;selected</source>
         <translation>Esborra els &amp;seleccionats</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="320"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>Remove &amp;all</source>
         <translation>Esborra&apos;ls &amp;tots</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="333"/>
+        <location filename="../playlist.cpp" line="327"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - llista de reproducció</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="327"/>
+        <location filename="../playlist.cpp" line="321"/>
         <source>Add...</source>
         <translation>Afegeix...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="329"/>
+        <location filename="../playlist.cpp" line="323"/>
         <source>Remove...</source>
         <translation>Esborra...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="865"/>
+        <location filename="../playlist.cpp" line="855"/>
         <source>Playlist modified</source>
         <translation>Llista de reproducció modificada</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="866"/>
+        <location filename="../playlist.cpp" line="856"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Hi ha canvis que no s&apos;han desat. Voleu desar la llista de reproducció?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1026"/>
+        <location filename="../playlist.cpp" line="1016"/>
         <source>Multimedia</source>
         <translation type="unfinished">Multimèdia</translation>
     </message>
@@ -8507,37 +8512,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="381"/>
+        <location filename="../skingui/skingui.cpp" line="392"/>
         <source>&amp;Toolbars</source>
         <translation type="unfinished">&amp;Barres d&apos;eines</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="384"/>
+        <location filename="../skingui/skingui.cpp" line="395"/>
+        <source>Status&amp;bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Main toolbar</source>
         <translation type="unfinished">Barra d&apos;eines &amp;principal</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="388"/>
+        <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Edit main &amp;toolbar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="390"/>
+        <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="408"/>
+        <source>&amp;Video info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Playing %1</source>
         <translation type="unfinished">Reproduint %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="406"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Pause</source>
         <translation type="unfinished">Pausa</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="407"/>
+        <location filename="../skingui/skingui.cpp" line="423"/>
         <source>Stop</source>
         <translation type="unfinished">Atura</translation>
     </message>
