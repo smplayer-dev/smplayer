@@ -252,16 +252,6 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="youtube_tab">
-      <attribute name="title">
-       <string>&amp;Youtube</string>
-      </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <item>
-        <widget class="QTextBrowser" name="youtube"/>
-       </item>
-      </layout>
-     </widget>
     </widget>
    </item>
    <item>

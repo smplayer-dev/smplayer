@@ -1,10 +1,3 @@
-A. SMPlayer License
-B. Youtube Terms of Services
-
-====================================================
-
-A. SMPlayer License
-
 		    GNU GENERAL PUBLIC LICENSE
 		       Version 2, June 1991
 
@@ -344,11 +337,4 @@ proprietary programs.  If your program is a subroutine library, you may
 consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.
-
-====================================================
-
-B. Youtube Terms of Services
-
-By using SMPlayer you hereby agree to be bound by Google Terms of Services located 
-at http://www.google.com/accounts/TOS
 
