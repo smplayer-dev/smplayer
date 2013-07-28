@@ -22,7 +22,11 @@
 
 #define VERSION "0.8.5"
 
+#if USE_SVN_VERSIONS
 #include "svn_revision.h"
+#else
+#define SVN_REVISION "0000"
+#endif
 
 #ifdef Q_OS_WIN
 #if defined( _WIN64 )
