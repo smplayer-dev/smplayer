@@ -781,6 +781,12 @@ void BaseGui::createActions() {
 	connect( showConfigAct, SIGNAL(triggered()),
              this, SLOT(helpShowConfig()) );
 
+#ifdef REMINDER_ACTIONS
+	donateAct = new MyAction( this, "donate" );
+	connect( donateAct, SIGNAL(triggered()),
+             this, SLOT(helpDonate()) );
+#endif
+
 	aboutQtAct = new MyAction( this, "about_qt" );
 	connect( aboutQtAct, SIGNAL(triggered()),
              this, SLOT(helpAboutQt()) );
@@ -1632,6 +1638,9 @@ void BaseGui::retranslateStrings() {
 #endif
 
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
+#ifdef REMINDER_ACTIONS
+	donateAct->change( Images::icon("donate"), tr("&Donate") );
+#endif
 	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
@@ -2619,6 +2628,10 @@ void BaseGui::createMenus() {
 	helpMenu->addSeparator();
 	helpMenu->addAction(showConfigAct);
 	helpMenu->addSeparator();
+#ifdef REMINDER_ACTIONS
+	helpMenu->addAction(donateAct);
+	helpMenu->addSeparator();
+#endif
 	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
 
@@ -3890,6 +3903,20 @@ void BaseGui::helpCheckUpdates() {
 void BaseGui::helpShowConfig() {
 	QDesktopServices::openUrl(QUrl::fromLocalFile(Paths::configPath()));
 }
+
+#ifdef REMINDER_ACTIONS
+void BaseGui::helpDonate() {
+	QMessageBox d(QMessageBox::NoIcon, tr("Donate"), 
+		tr("If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated."),
+		QMessageBox::Ok | QMessageBox::Cancel, this);
+	d.setIconPixmap( Images::icon("logo", 64) );
+	d.button(QMessageBox::Ok)->setText(tr("Yes, I want to donate"));
+	d.setDefaultButton(QMessageBox::Ok);
+	if ( d.exec() == QMessageBox::Ok ) {
+		QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
+	}
+}
+#endif
 
 void BaseGui::helpAbout() {
 	About d(this);
