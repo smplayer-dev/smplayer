@@ -51,16 +51,15 @@ class FindSubtitlesWindow;
 class VideoPreview;
 #endif
 
-
 class MyAction;
 class MyActionGroup;
-
 class PreferencesDialog;
-
 class Favorites;
 class TVList;
-
 class UpdateChecker;
+
+#define REMINDER_ACTIONS 1
+
 
 class BaseGui : public QMainWindow
 {
@@ -106,6 +105,9 @@ public slots:
 	virtual void helpFAQ();
 	virtual void helpCLOptions();
 	virtual void helpCheckUpdates();
+#ifdef REMINDER_ACTIONS
+	virtual void helpDonate();
+#endif
 	virtual void helpShowConfig();
 	virtual void helpAbout();
 	virtual void helpAboutQt();
@@ -492,6 +494,9 @@ protected:
 	MyAction * updateYTAct;
 #endif
 	MyAction * showConfigAct;
+#ifdef REMINDER_ACTIONS
+	MyAction * donateAct;
+#endif
 	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 
