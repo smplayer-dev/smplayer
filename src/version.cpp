@@ -29,9 +29,9 @@
 #endif
 
 #ifdef Q_OS_WIN
-#if defined( _WIN64 )
+#if defined(_WIN64)
 #define SMPWIN_ARCH "(64-bit)"
-#elif defined( _WIN32 )
+#elif defined(_WIN32) && !defined(_WIN64)
 #define SMPWIN_ARCH "(32-bit)"
 #endif
 #endif
