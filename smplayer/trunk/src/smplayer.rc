@@ -19,7 +19,7 @@ FILETYPE            VFT_APP
     {
       VALUE "CompanyName", "Ricardo Villalba\0"
       #ifdef PORTABLE_APP
-      VALUE "FileDescription", "SMPlayer (Portable Edition)\0"
+      VALUE "FileDescription", "SMPlayer (Portable)\0"
       #else
       VALUE "FileDescription", "SMPlayer\0"
       #endif
@@ -27,9 +27,9 @@ FILETYPE            VFT_APP
       VALUE "InternalName", "smplayer\0"
       VALUE "LegalCopyright", "Copyright (c) Ricardo Villalba\0"
       VALUE "OriginalFilename", "smplayer.exe\0"
-      #if defined( _WIN64 )
+      #if defined(_WIN64)
       VALUE "ProductName", "SMPlayer for Windows (64-bit)\0"
-      #elif defined( _WIN32 )
+      #elif defined(_WIN32) && !defined(_WIN64)
       VALUE "ProductName", "SMPlayer for Windows (32-bit)\0"
       #endif
       #if HAVE_SVN_REVISION_H
