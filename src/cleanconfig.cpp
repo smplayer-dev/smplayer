@@ -19,6 +19,9 @@ void CleanConfig::clean(const QString & config_path) {
 	s = config_path + "/smplayer_files.ini";
 	if (QFile::exists(s)) files_to_delete << s;
 
+	s = config_path + "/ytcode.script";
+	if (QFile::exists(s)) files_to_delete << s;
+
 	s = config_path + "/file_settings";
 	if (QFile::exists(s)) files_to_delete << listDir(s);
 
