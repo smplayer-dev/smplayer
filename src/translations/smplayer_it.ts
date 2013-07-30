@@ -9,7 +9,7 @@
         <translation>Versione: %1</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+86"/>
         <source>The following people have contributed with translations:</source>
         <translation>Le seguenti persone hanno contribuito con le traduzioni:</translation>
     </message>
@@ -222,17 +222,17 @@
         <translation>Basco</translation>
     </message>
     <message>
-        <location line="-164"/>
+        <location line="-146"/>
         <source>Using MPlayer %1</source>
         <translation>MPlayer %1 in uso</translation>
     </message>
     <message>
-        <location line="+167"/>
+        <location line="+149"/>
         <source>Catalan</source>
         <translation>Catalano</translation>
     </message>
     <message>
-        <location line="-156"/>
+        <location line="-138"/>
         <source>Portable Edition</source>
         <translation>Edizione portabile</translation>
     </message>
@@ -242,7 +242,7 @@
         <translation>Qt %1 in uso (compilato con Qt %2)</translation>
     </message>
     <message>
-        <location line="+151"/>
+        <location line="+133"/>
         <source>Slovenian</source>
         <translation>Sloveno</translation>
     </message>
@@ -262,7 +262,7 @@
         <translation>Galiziano</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-96"/>
         <source>SMPlayer logo by %1</source>
         <translation>Logo di SMPlayer creato da %1</translation>
     </message>
@@ -275,7 +275,7 @@
         <translation type="obsolete">%1, %2, %3, %4 e %5</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+97"/>
         <source>Vietnamese</source>
         <translation>Vietnamita</translation>
     </message>
@@ -300,7 +300,7 @@
         <translation type="unfinished">Croato</translation>
     </message>
     <message>
-        <location line="-180"/>
+        <location line="-162"/>
         <source>Using MPlayer2 %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -342,21 +342,6 @@
     <message>
         <location line="+1"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.ui" line="+56"/>
-        <source>&amp;Youtube</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -533,7 +518,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="+1450"/>
+        <location filename="../basegui.cpp" line="+1456"/>
         <source>&amp;File...</source>
         <translation>&amp;File...</translation>
     </message>
@@ -624,12 +609,12 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+126"/>
         <source>Sp&amp;eed</source>
         <translation>V&amp;elocità</translation>
     </message>
     <message>
-        <location line="-221"/>
+        <location line="-224"/>
         <source>&amp;Fullscreen</source>
         <translation>T&amp;utto schermo</translation>
     </message>
@@ -649,12 +634,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Schermata</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+253"/>
         <source>S&amp;tay on top</source>
         <translation>Tieni s&amp;opra le altre</translation>
     </message>
     <message>
-        <location line="-225"/>
+        <location line="-228"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Postprocessing</translation>
     </message>
@@ -679,12 +664,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>Aggiungi r&amp;umore</translation>
     </message>
     <message>
-        <location line="+214"/>
+        <location line="+217"/>
         <source>F&amp;ilters</source>
         <translation>&amp;Filtri</translation>
     </message>
     <message>
-        <location line="-206"/>
+        <location line="-209"/>
         <source>&amp;Mute</source>
         <translation>&amp;Muto</translation>
     </message>
@@ -719,12 +704,12 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location line="+261"/>
+        <location line="+264"/>
         <source>&amp;Filters</source>
         <translation>&amp;Filtri</translation>
     </message>
     <message>
-        <location line="-257"/>
+        <location line="-260"/>
         <source>&amp;Load...</source>
         <translation>&amp;Apri...</translation>
     </message>
@@ -759,7 +744,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>P&amp;referenze</translation>
     </message>
     <message>
-        <location line="+284"/>
+        <location line="+287"/>
         <source>&amp;View logs</source>
         <translation>&amp;Vedi registri</translation>
     </message>
@@ -769,7 +754,7 @@ Vuoi sovrascriverlo?</translation>
         <translation>Informazioni &amp;Qt</translation>
     </message>
     <message>
-        <location line="-88"/>
+        <location line="-91"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -796,6 +781,11 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+2"/>
+        <source>&amp;Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>About &amp;SMPlayer</source>
         <translation>Informazioni su &amp;SMPlayer</translation>
     </message>
@@ -876,12 +866,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+15"/>
-        <location line="+1302"/>
+        <location line="+1306"/>
         <source>&amp;None</source>
         <translation>&amp;Nessuno</translation>
     </message>
     <message>
-        <location line="-1301"/>
+        <location line="-1305"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
@@ -1023,7 +1013,22 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2374"/>
+        <location line="+1993"/>
+        <source>Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Yes, I want to donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+395"/>
         <location line="+8"/>
         <source>Problems with Youtube</source>
         <translation type="unfinished"></translation>
@@ -1055,12 +1060,12 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3102"/>
+        <location line="-3120"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+968"/>
+        <location line="+972"/>
         <location line="+626"/>
         <source>Information</source>
         <translation type="unfinished">Informazioni</translation>
@@ -1086,7 +1091,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished">I valori correnti sono stati salvati come predefiniti.</translation>
     </message>
     <message>
-        <location line="-1694"/>
+        <location line="-1698"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Disabilitato</translation>
     </message>
@@ -1099,7 +1104,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="obsolete">SMPlayer - Registro di smplayer</translation>
     </message>
     <message>
-        <location line="+1326"/>
+        <location line="+1330"/>
         <location line="+16"/>
         <location line="+16"/>
         <location line="+15"/>
@@ -1163,7 +1168,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Sottotitoli</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+76"/>
         <source>About Qt</source>
         <translation>Informazioni Qt</translation>
     </message>
@@ -1208,7 +1213,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-2983"/>
+        <location line="-3004"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1284,7 +1289,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Linea succ&amp;essiva nei sottotitoli</translation>
     </message>
     <message>
-        <location line="+337"/>
+        <location line="+340"/>
         <location line="+1"/>
         <location line="+1"/>
         <source>-%1</source>
@@ -1388,12 +1393,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Aumenta gamma</translation>
     </message>
     <message>
-        <location line="-110"/>
+        <location line="-113"/>
         <source>&amp;Load external file...</source>
         <translation>Apri file &amp;esterno...</translation>
     </message>
     <message>
-        <location line="+237"/>
+        <location line="+240"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
@@ -1418,7 +1423,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>P&amp;recedente</translation>
     </message>
     <message>
-        <location line="-79"/>
+        <location line="-82"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;Normalizzazione volume</translation>
     </message>
@@ -1445,12 +1450,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Usa la libreria SSA/ASS</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+97"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;Grandezza doppia</translation>
     </message>
     <message>
-        <location line="-100"/>
+        <location line="-103"/>
         <source>S&amp;ize -</source>
         <translation>Gran&amp;dezza -</translation>
     </message>
@@ -1480,22 +1485,22 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Opzioni a linea di &amp;comando</translation>
     </message>
     <message>
-        <location line="+2252"/>
+        <location line="+2259"/>
         <source>SMPlayer command line options</source>
         <translation>Opzioni a linea di comando per SMPlayer</translation>
     </message>
     <message>
-        <location line="-2294"/>
+        <location line="-2301"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Solo sottotitoli &amp;forzati</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+97"/>
         <source>Reset video equalizer</source>
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3210"/>
+        <location line="+3228"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1525,7 +1530,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-3148"/>
+        <location line="-3166"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1555,32 +1560,32 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ruo&amp;ta di 90° in senso antiorario e ribalta</translation>
     </message>
     <message>
-        <location line="-312"/>
+        <location line="-315"/>
         <source>&amp;Jump to...</source>
         <translation>Sal&amp;ta a...</translation>
     </message>
     <message>
-        <location line="+180"/>
+        <location line="+183"/>
         <source>Show context menu</source>
         <translation>Mostra menù contestuale</translation>
     </message>
     <message>
-        <location line="+1986"/>
+        <location line="+1990"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location line="-2114"/>
+        <location line="-2121"/>
         <source>E&amp;qualizer</source>
         <translation>E&amp;qualizzatore</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+130"/>
         <source>Reset audio equalizer</source>
         <translation>Reinizializza equalizzatore audio</translation>
     </message>
     <message>
-        <location line="-90"/>
+        <location line="-93"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Trova sottotitoli su &amp;Opensubtitles.org...</translation>
     </message>
@@ -1590,12 +1595,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Invia sottotitoli a O&amp;pensubtitles.org...</translation>
     </message>
     <message>
-        <location line="+191"/>
+        <location line="+194"/>
         <source>&amp;Auto</source>
         <translation>&amp;Automatico</translation>
     </message>
     <message>
-        <location line="-273"/>
+        <location line="-276"/>
         <source>Speed -&amp;4%</source>
         <translation>Velocità -&amp;4%</translation>
     </message>
@@ -1615,7 +1620,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Velocità &amp;+1%</translation>
     </message>
     <message>
-        <location line="+260"/>
+        <location line="+263"/>
         <source>Scree&amp;n</source>
         <translation>Sche&amp;rmo</translation>
     </message>
@@ -1625,12 +1630,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Predefinito</translation>
     </message>
     <message>
-        <location line="-297"/>
+        <location line="-300"/>
         <source>Mirr&amp;or image</source>
         <translation>Specc&amp;hia immagine</translation>
     </message>
     <message>
-        <location line="+149"/>
+        <location line="+152"/>
         <source>Next video</source>
         <translation>Prossimo video</translation>
     </message>
@@ -1647,7 +1652,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Traccia</translation>
     </message>
     <message>
-        <location line="+2394"/>
+        <location line="+2412"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Attenzione - Vecchio MPlayer in uso</translation>
     </message>
@@ -1667,12 +1672,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>(Questo avviso non sarà mostrato di nuovo)</translation>
     </message>
     <message>
-        <location line="-2545"/>
+        <location line="-2563"/>
         <source>Next aspect ratio</source>
         <translation>Successivo rapporto d&apos;aspetto</translation>
     </message>
     <message>
-        <location line="-153"/>
+        <location line="-156"/>
         <source>&amp;Auto zoom</source>
         <translation>Zoom &amp;automatico</translation>
     </message>
@@ -1692,7 +1697,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>A&amp;nteprima...</translation>
     </message>
     <message>
-        <location line="+294"/>
+        <location line="+297"/>
         <source>&amp;Always</source>
         <translation>&amp;Sempre</translation>
     </message>
@@ -1747,7 +1752,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Menu DVD, clic del mouse</translation>
     </message>
     <message>
-        <location line="-323"/>
+        <location line="-326"/>
         <source>Set dela&amp;y...</source>
         <translation>Imposta ritar&amp;do...</translation>
     </message>
@@ -1757,7 +1762,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Imposta ritardo...</translation>
     </message>
     <message>
-        <location line="+2355"/>
+        <location line="+2376"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Salta a:</translation>
     </message>
@@ -1787,17 +1792,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Ritardo sottotitoli (in millisecondi):</translation>
     </message>
     <message>
-        <location line="-2134"/>
+        <location line="-2152"/>
         <source>Toggle stay on top</source>
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2795"/>
+        <location line="+2813"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-3094"/>
+        <location line="-3115"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
@@ -1807,7 +1812,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>&amp;Visualizza sottotitolo</translation>
     </message>
     <message>
-        <location line="+96"/>
+        <location line="+99"/>
         <source>Next wheel function</source>
         <translation>Funzione successiva della rotellina</translation>
     </message>
@@ -1848,7 +1853,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Volume + Ricerc&amp;a + Tempo + Tempo totale</translation>
     </message>
     <message>
-        <location line="-286"/>
+        <location line="-289"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>I filtri video vengono disabilitati se si usa vdpau</translation>
     </message>
@@ -1858,7 +1863,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Rib&amp;alta l&apos;immagine</translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+233"/>
         <source>Zoo&amp;m</source>
         <translation>Zoo&amp;m</translation>
     </message>
@@ -1868,7 +1873,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Mostra il nome del file su OSD</translation>
     </message>
     <message>
-        <location line="-189"/>
+        <location line="-192"/>
         <source>Set &amp;A marker</source>
         <translation>Imposta il marcatore &amp;A</translation>
     </message>
@@ -1883,7 +1888,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Rimuovi i mar&amp;catori A-B</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+244"/>
         <source>&amp;A-B section</source>
         <translation>Sezione &amp;A-B</translation>
     </message>
@@ -1908,7 +1913,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-98"/>
+        <location line="-101"/>
         <source>Check for &amp;updates</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4310,7 +4315,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>MediaPanel</name>
     <message>
-        <location filename="../skingui/mediapanel.cpp" line="+210"/>
+        <location filename="../skingui/mediapanel.cpp" line="+238"/>
         <source>Shuffle playlist</source>
         <translation type="unfinished"></translation>
     </message>
