@@ -215,6 +215,10 @@ protected slots:
 	void checkIfUpgraded();
 #endif
 
+#ifdef REMINDER_ACTIONS
+	void checkReminder();
+#endif
+
 #ifdef YOUTUBE_SUPPORT
 	void YTNoSignature(const QString &);
 	#ifdef YT_USE_SCRIPT

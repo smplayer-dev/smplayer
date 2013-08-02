@@ -210,6 +210,10 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #ifdef CHECK_UPGRADED
 	QTimer::singleShot(2000, this, SLOT(checkIfUpgraded()));
 #endif
+
+#ifdef REMINDER_ACTIONS
+	QTimer::singleShot(4000, this, SLOT(checkReminder()));
+#endif
 }
 
 void BaseGui::initializeGui() {
@@ -4294,6 +4298,49 @@ void BaseGui::checkIfUpgraded() {
 		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=%2").arg(Version::printable()).arg(os));
 	}
 	pref->smplayer_stable_version = Version::stable();
+}
+#endif
+
+#ifdef REMINDER_ACTIONS
+void BaseGui::checkReminder() {
+	qDebug("BaseGui::checkReminder");
+
+	if (core->state() == Core::Playing) return;
+
+	QSettings * set = Global::settings;
+	set->beginGroup("reminder");
+	int count = set->value("count", 0).toInt();
+	count++;
+	set->setValue("count", count);
+	set->endGroup();
+
+	if (count != 10) return;
+
+	QMessageBox box(this);
+	box.setIcon(QMessageBox::Question);
+	box.setIconPixmap( Images::icon("donate_big") );
+	box.setWindowTitle(tr("Help SMPlayer"));
+	box.setText(
+		tr("If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.") + "<br>"+
+		tr("Or you maybe you want to share SMPlayer with your friends in Facebook.") + "<br>" +
+		tr("What would you like to do?") );
+	QPushButton * donate_button = box.addButton(tr("&Donate"), QMessageBox::ActionRole);
+	QPushButton * facebook_button = box.addButton(tr("&Recommend to my friends"), QMessageBox::ActionRole);
+	QPushButton * cancel_button = box.addButton(QMessageBox::Cancel);
+
+	box.exec();
+	if (box.clickedButton() == donate_button) {
+		QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
+	}
+	else 
+	if (box.clickedButton() == facebook_button) {
+		QString text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
+		QString url = "http://smplayer.sourceforge.net";
+		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + url + "&t=" + text));
+	}
+	else
+	if (box.clickedButton() == cancel_button) {
+	}
 }
 #endif
 
