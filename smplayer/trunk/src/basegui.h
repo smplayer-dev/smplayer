@@ -58,8 +58,9 @@ class Favorites;
 class TVList;
 class UpdateChecker;
 
+#ifndef Q_OS_WIN
 #define REMINDER_ACTIONS 1
-
+#endif
 
 class BaseGui : public QMainWindow
 {
