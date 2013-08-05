@@ -1,10 +1,13 @@
 [main]
 host = https://www.transifex.com
 
-[smplayer.smplayer]
+[smplayer.english]
 type = ts
 file_filter = smplayer_<lang>.ts
 source_lang = en
 source_file = smplayer_en_US.ts
 trans.he = smplayer_he_IL.ts
+trans.vi = smplayer_vi_VN.ts
+trans.ru = smplayer_ru_RU.ts
+trans.uk = smplayer_uk_UA.ts
 minimum_perc = 90
