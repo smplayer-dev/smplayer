@@ -518,7 +518,7 @@ Vuoi sovrascriverlo?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="+1456"/>
+        <location filename="../basegui.cpp" line="+1460"/>
         <source>&amp;File...</source>
         <translation>&amp;File...</translation>
     </message>
@@ -781,11 +781,12 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+2"/>
+        <location line="+2681"/>
         <source>&amp;Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-2678"/>
         <source>About &amp;SMPlayer</source>
         <translation>Informazioni su &amp;SMPlayer</translation>
     </message>
@@ -1019,16 +1020,32 @@ Vuoi sovrascriverlo?</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location line="+410"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-407"/>
         <source>Yes, I want to donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+395"/>
+        <location line="+405"/>
+        <source>Help SMPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>What would you like to do?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <location line="+8"/>
         <source>Problems with Youtube</source>
         <translation type="unfinished"></translation>
@@ -1060,7 +1077,7 @@ Vuoi sovrascriverlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3120"/>
+        <location line="-3163"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1198,7 +1215,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+227"/>
+        <location line="+55"/>
+        <source>&amp;Share with my friends</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+215"/>
         <source>Playing %1</source>
         <translation>In riproduzione %1</translation>
     </message>
@@ -1213,7 +1235,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Stop</translation>
     </message>
     <message>
-        <location line="-3004"/>
+        <location line="-3047"/>
         <source>Play / Pause</source>
         <translation>Riproduci / Pausa</translation>
     </message>
@@ -1500,7 +1522,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Reinizializza equalizzatore video</translation>
     </message>
     <message>
-        <location line="+3228"/>
+        <location line="+3271"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer si è fermato inaspettatamente.</translation>
     </message>
@@ -1530,7 +1552,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Controlla i registri per maggiori informazioni.</translation>
     </message>
     <message>
-        <location line="-3166"/>
+        <location line="-3209"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Ruota</translation>
     </message>
@@ -1797,12 +1819,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Tieni sopra le altre</translation>
     </message>
     <message>
-        <location line="+2813"/>
+        <location line="+2856"/>
         <source>Jump to %1</source>
         <translation>Salta a %1</translation>
     </message>
     <message>
-        <location line="-3115"/>
+        <location line="-3158"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Inizia/finisci sal&amp;va schermate</translation>
     </message>
