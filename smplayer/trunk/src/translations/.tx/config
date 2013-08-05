@@ -2,7 +2,7 @@
 host = https://www.transifex.com
 
 [smplayer.english]
-type = ts
+type = QT
 file_filter = smplayer_<lang>.ts
 source_lang = en
 source_file = smplayer_en_US.ts
