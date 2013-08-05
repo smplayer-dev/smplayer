@@ -4325,7 +4325,7 @@ void BaseGui::checkReminder() {
 		tr("Or you maybe you want to share SMPlayer with your friends in Facebook.") + "<br>" +
 		tr("What would you like to do?") );
 	QPushButton * donate_button = box.addButton(tr("&Donate"), QMessageBox::ActionRole);
-	QPushButton * facebook_button = box.addButton(tr("&Recommend to my friends"), QMessageBox::ActionRole);
+	QPushButton * facebook_button = box.addButton(tr("&Share with my friends"), QMessageBox::ActionRole);
 	QPushButton * cancel_button = box.addButton(QMessageBox::Cancel);
 
 	box.exec();

@@ -502,1381 +502,1403 @@ Opravdu jej chcete přepsat?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1706"/>
+        <location filename="../basegui.cpp" line="1710"/>
         <source>&amp;Open</source>
         <translation>&amp;Otevřít</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;Play</source>
         <translation>&amp;Přehrát</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1708"/>
+        <location filename="../basegui.cpp" line="1712"/>
         <source>&amp;Video</source>
         <translation>&amp;Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1709"/>
+        <location filename="../basegui.cpp" line="1713"/>
         <source>&amp;Audio</source>
         <translation>&amp;Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1710"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1711"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Browse</source>
         <translation>Navi&amp;gace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>Op&amp;tions</source>
         <translation>&amp;Možnosti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;Help</source>
         <translation>&amp;Nápověda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1456"/>
+        <location filename="../basegui.cpp" line="1460"/>
         <source>&amp;File...</source>
         <translation>&amp;Soubor...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1457"/>
+        <location filename="../basegui.cpp" line="1461"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Adresář...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1458"/>
+        <location filename="../basegui.cpp" line="1462"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;Playlist...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1461"/>
+        <location filename="../basegui.cpp" line="1465"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD z mechaniky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1462"/>
+        <location filename="../basegui.cpp" line="1466"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD z adresáře...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1463"/>
+        <location filename="../basegui.cpp" line="1467"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1729"/>
+        <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;Clear</source>
         <translation>&amp;Vyčistit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Recent files</source>
         <translation>&amp;Naposledy otevřené</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1487"/>
+        <location filename="../basegui.cpp" line="1491"/>
         <source>P&amp;lay</source>
         <translation>Př&amp;ehrát</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1490"/>
+        <location filename="../basegui.cpp" line="1494"/>
         <source>&amp;Pause</source>
         <translation>&amp;Pozastavit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1491"/>
+        <location filename="../basegui.cpp" line="1495"/>
         <source>&amp;Stop</source>
         <translation>&amp;Zastavit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1492"/>
+        <location filename="../basegui.cpp" line="1496"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Krokovat snímky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1510"/>
+        <location filename="../basegui.cpp" line="1514"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;Normální rychlost</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1511"/>
+        <location filename="../basegui.cpp" line="1515"/>
         <source>&amp;Halve speed</source>
         <translation>&amp;Poloviční rychlost</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1512"/>
+        <location filename="../basegui.cpp" line="1516"/>
         <source>&amp;Double speed</source>
         <translation>&amp;Dvojnásobná rychlost</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1513"/>
+        <location filename="../basegui.cpp" line="1517"/>
         <source>Speed &amp;-10%</source>
         <translation>Rychlost &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1514"/>
+        <location filename="../basegui.cpp" line="1518"/>
         <source>Speed &amp;+10%</source>
         <translation>Rychlost &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1600"/>
+        <location filename="../basegui.cpp" line="1604"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;Vypnuto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1745"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>Sp&amp;eed</source>
         <translation>&amp;Rychlost</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1505"/>
+        <location filename="../basegui.cpp" line="1509"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Opakovat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1521"/>
+        <location filename="../basegui.cpp" line="1525"/>
         <source>&amp;Fullscreen</source>
         <translation>&amp;Celá obrazovka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1522"/>
+        <location filename="../basegui.cpp" line="1526"/>
         <source>&amp;Compact mode</source>
         <translation>&amp;Kompaktní mód</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1759"/>
         <source>Si&amp;ze</source>
         <translation>Ve&amp;likost</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1769"/>
         <source>&amp;Aspect ratio</source>
         <translation>Poměr str&amp;an</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
-        <location filename="../basegui.cpp" line="3109"/>
+        <location filename="../basegui.cpp" line="1807"/>
+        <location filename="../basegui.cpp" line="3113"/>
         <source>&amp;None</source>
         <translation>Žá&amp;dné</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1808"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1807"/>
+        <location filename="../basegui.cpp" line="1811"/>
         <source>Linear &amp;Blend</source>
         <translation>Linear &amp;Blend</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Deinterlace</source>
         <translation>Odstranění p&amp;rokládání</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1549"/>
+        <location filename="../basegui.cpp" line="1553"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Postprocessing</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1550"/>
+        <location filename="../basegui.cpp" line="1554"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Autodetekce fáze</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1551"/>
+        <location filename="../basegui.cpp" line="1555"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1552"/>
+        <location filename="../basegui.cpp" line="1556"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1554"/>
+        <location filename="../basegui.cpp" line="1558"/>
         <source>Add n&amp;oise</source>
         <translation>Přidat š&amp;um</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>F&amp;ilters</source>
         <translation>F&amp;iltry</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1523"/>
+        <location filename="../basegui.cpp" line="1527"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;Ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1524"/>
+        <location filename="../basegui.cpp" line="1528"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;Snímek obrazovky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1777"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>S&amp;tay on top</source>
         <translation>&amp;Vždy nahoře</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1576"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Extra Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1577"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1837"/>
+        <location filename="../basegui.cpp" line="1841"/>
         <source>&amp;Filters</source>
         <translation>&amp;Filtry</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1847"/>
-        <location filename="../basegui.cpp" line="1853"/>
+        <location filename="../basegui.cpp" line="1851"/>
+        <location filename="../basegui.cpp" line="1857"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1848"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1849"/>
+        <location filename="../basegui.cpp" line="1853"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1840"/>
+        <location filename="../basegui.cpp" line="1844"/>
         <source>&amp;Channels</source>
         <translation>&amp;Kanály</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1854"/>
+        <location filename="../basegui.cpp" line="1858"/>
         <source>&amp;Left channel</source>
         <translation>&amp;Levý kanál</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1855"/>
+        <location filename="../basegui.cpp" line="1859"/>
         <source>&amp;Right channel</source>
         <translation>&amp;Pravý kanál</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1843"/>
+        <location filename="../basegui.cpp" line="1847"/>
         <source>&amp;Stereo mode</source>
         <translation>&amp;Stereo mód</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1562"/>
+        <location filename="../basegui.cpp" line="1566"/>
         <source>&amp;Mute</source>
         <translation>&amp;Ztlumit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1563"/>
+        <location filename="../basegui.cpp" line="1567"/>
         <source>Volume &amp;-</source>
         <translation>Hlasitost &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1564"/>
+        <location filename="../basegui.cpp" line="1568"/>
         <source>Volume &amp;+</source>
         <translation>Hlasitost &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1565"/>
+        <location filename="../basegui.cpp" line="1569"/>
         <source>&amp;Delay -</source>
         <translation>Zp&amp;oždění -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1566"/>
+        <location filename="../basegui.cpp" line="1570"/>
         <source>D&amp;elay +</source>
         <translation>Z&amp;poždění +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="1864"/>
         <source>&amp;Select</source>
         <translation>&amp;Vybrat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1577"/>
+        <location filename="../basegui.cpp" line="1581"/>
         <source>&amp;Load...</source>
         <translation>&amp;Načíst...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1579"/>
+        <location filename="../basegui.cpp" line="1583"/>
         <source>Delay &amp;-</source>
         <translation>Zpoždění &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1580"/>
+        <location filename="../basegui.cpp" line="1584"/>
         <source>Delay &amp;+</source>
         <translation>Zpoždění &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1582"/>
+        <location filename="../basegui.cpp" line="1586"/>
         <source>&amp;Up</source>
         <translation>N&amp;ahoru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1583"/>
+        <location filename="../basegui.cpp" line="1587"/>
         <source>&amp;Down</source>
         <translation>&amp;Dolů</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
+        <location filename="../basegui.cpp" line="1874"/>
         <source>&amp;Title</source>
         <translation>&amp;Titul</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1873"/>
+        <location filename="../basegui.cpp" line="1877"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Kapitola</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1876"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>&amp;Angle</source>
         <translation>Ú&amp;hel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1615"/>
+        <location filename="../basegui.cpp" line="1619"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Playlist</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1801"/>
+        <location filename="../basegui.cpp" line="1805"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Vypnuto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1897"/>
+        <location filename="../basegui.cpp" line="1901"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1908"/>
         <source>&amp;View logs</source>
         <translation>Zobrazit &amp;logy</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1617"/>
+        <location filename="../basegui.cpp" line="1621"/>
         <source>P&amp;references</source>
         <translation>&amp;Nastavení</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1645"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>About &amp;SMPlayer</source>
         <translation>O &amp;SMplayeru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3131"/>
-        <location filename="../basegui.cpp" line="3147"/>
-        <location filename="../basegui.cpp" line="3163"/>
-        <location filename="../basegui.cpp" line="3178"/>
-        <location filename="../basegui.cpp" line="3210"/>
-        <location filename="../basegui.cpp" line="3230"/>
-        <location filename="../basegui.cpp" line="3270"/>
+        <location filename="../basegui.cpp" line="3135"/>
+        <location filename="../basegui.cpp" line="3151"/>
+        <location filename="../basegui.cpp" line="3167"/>
+        <location filename="../basegui.cpp" line="3182"/>
+        <location filename="../basegui.cpp" line="3214"/>
+        <location filename="../basegui.cpp" line="3234"/>
+        <location filename="../basegui.cpp" line="3274"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;prázdné&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3681"/>
+        <location filename="../basegui.cpp" line="3685"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3682"/>
-        <location filename="../basegui.cpp" line="3872"/>
+        <location filename="../basegui.cpp" line="3686"/>
+        <location filename="../basegui.cpp" line="3876"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3683"/>
+        <location filename="../basegui.cpp" line="3687"/>
         <source>Playlists</source>
         <translation>Playlisty</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3684"/>
-        <location filename="../basegui.cpp" line="3852"/>
-        <location filename="../basegui.cpp" line="3873"/>
+        <location filename="../basegui.cpp" line="3688"/>
+        <location filename="../basegui.cpp" line="3856"/>
+        <location filename="../basegui.cpp" line="3877"/>
         <source>All files</source>
         <translation>Všechny soubory</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3679"/>
-        <location filename="../basegui.cpp" line="3849"/>
-        <location filename="../basegui.cpp" line="3870"/>
+        <location filename="../basegui.cpp" line="3683"/>
+        <location filename="../basegui.cpp" line="3853"/>
+        <location filename="../basegui.cpp" line="3874"/>
         <source>Choose a file</source>
         <translation>Zvolte soubor</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1619"/>
+        <location filename="../basegui.cpp" line="1623"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Prohlížeč &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3731"/>
+        <location filename="../basegui.cpp" line="3735"/>
         <source>SMPlayer - Information</source>
         <translation>SMplayer - informace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3732"/>
+        <location filename="../basegui.cpp" line="3736"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Mechaniky CDROM / DVD nejsou nastaveny.
 Bude zobrazeno konfigurační okno.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3815"/>
+        <location filename="../basegui.cpp" line="3819"/>
         <source>Choose a directory</source>
         <translation>Zvolte adresář</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3851"/>
+        <location filename="../basegui.cpp" line="3855"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3927"/>
+        <location filename="../basegui.cpp" line="3931"/>
         <source>About Qt</source>
         <translation>O Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4265"/>
+        <location filename="../basegui.cpp" line="4269"/>
         <source>New version available</source>
         <translation>Je k dispozici nová verze</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4266"/>
+        <location filename="../basegui.cpp" line="4270"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Je k dispozici nová verze SMPlayeru.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4267"/>
+        <location filename="../basegui.cpp" line="4271"/>
         <source>Installed version: %1</source>
         <translation>Nainstalovaná verze: 1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4268"/>
+        <location filename="../basegui.cpp" line="4272"/>
         <source>Available version: %1</source>
         <translation>K dispozici verze: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4269"/>
+        <location filename="../basegui.cpp" line="4273"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Chcete vědět víc o této nové verzi?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4496"/>
+        <location filename="../basegui.cpp" line="4328"/>
+        <source>&amp;Share with my friends</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4543"/>
         <source>Playing %1</source>
         <translation>Přehrávám %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4497"/>
+        <location filename="../basegui.cpp" line="4544"/>
         <source>Pause</source>
         <translation>Pozastaveno</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4498"/>
+        <location filename="../basegui.cpp" line="4545"/>
         <source>Stop</source>
         <translation>Zastaveno</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1494"/>
+        <location filename="../basegui.cpp" line="1498"/>
         <source>Play / Pause</source>
         <translation>Spustit / Pozastavit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1497"/>
+        <location filename="../basegui.cpp" line="1501"/>
         <source>Pause / Frame step</source>
         <translation>Pozastavit / Krokovat snímky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1569"/>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1582"/>
         <source>U&amp;nload</source>
         <translation>&amp;Uvolnit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1459"/>
+        <location filename="../basegui.cpp" line="1463"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1464"/>
+        <location filename="../basegui.cpp" line="1468"/>
         <source>C&amp;lose</source>
         <translation>&amp;Zavřít</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1616"/>
+        <location filename="../basegui.cpp" line="1620"/>
         <source>View &amp;info and properties...</source>
         <translation>Zobrazit &amp;info a vlastnosti...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1532"/>
+        <location filename="../basegui.cpp" line="1536"/>
         <source>Zoom &amp;-</source>
         <translation>Zoom &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1533"/>
+        <location filename="../basegui.cpp" line="1537"/>
         <source>Zoom &amp;+</source>
         <translation>Zoom &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1534"/>
+        <location filename="../basegui.cpp" line="1538"/>
         <source>&amp;Reset</source>
         <translation>&amp;Reset</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1542"/>
         <source>Move &amp;left</source>
         <translation>Posunout do&amp;leva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1539"/>
+        <location filename="../basegui.cpp" line="1543"/>
         <source>Move &amp;right</source>
         <translation>Posunout dop&amp;rava</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1540"/>
+        <location filename="../basegui.cpp" line="1544"/>
         <source>Move &amp;up</source>
         <translation>Posunout &amp;nahoru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1541"/>
+        <location filename="../basegui.cpp" line="1545"/>
         <source>Move &amp;down</source>
         <translation>Posunout &amp;dolů</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1587"/>
+        <location filename="../basegui.cpp" line="1591"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>&amp;Předešlý řádek titulků</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1589"/>
+        <location filename="../basegui.cpp" line="1593"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>Da&amp;lší řádek titulků</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1929"/>
-        <location filename="../basegui.cpp" line="1930"/>
-        <location filename="../basegui.cpp" line="1931"/>
-        <source>-%1</source>
-        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1933"/>
         <location filename="../basegui.cpp" line="1934"/>
         <location filename="../basegui.cpp" line="1935"/>
+        <source>-%1</source>
+        <translation>-%1</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1937"/>
+        <location filename="../basegui.cpp" line="1938"/>
+        <location filename="../basegui.cpp" line="1939"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1665"/>
+        <location filename="../basegui.cpp" line="1669"/>
         <source>Dec volume (2)</source>
         <translation>Hlasitost - (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1553"/>
+        <location filename="../basegui.cpp" line="1557"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1606"/>
+        <location filename="../basegui.cpp" line="1610"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;Výchozí</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>First Steps &amp;Guide</source>
         <translation>&amp;Průvodce prvními kroky </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1637"/>
+        <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1640"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>&amp;Open configuration folder</source>
         <translation>&amp;Otevřít složku s konfiguračními soubory</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1642"/>
+        <location filename="../basegui.cpp" line="1646"/>
+        <location filename="../basegui.cpp" line="4327"/>
         <source>&amp;Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1666"/>
+        <location filename="../basegui.cpp" line="1670"/>
         <source>Inc volume (2)</source>
         <translation>Hlasitost + (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1673"/>
         <source>Exit fullscreen</source>
         <translation>Ukončit režim celé obrazovky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1671"/>
+        <location filename="../basegui.cpp" line="1675"/>
         <source>OSD - Next level</source>
         <translation>OSD - Přepni zobrazení</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1676"/>
         <source>Dec contrast</source>
         <translation>Kontrast -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1677"/>
         <source>Inc contrast</source>
         <translation>Kontrast +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1678"/>
         <source>Dec brightness</source>
         <translation>Jas -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1679"/>
         <source>Inc brightness</source>
         <translation>Jas +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1676"/>
+        <location filename="../basegui.cpp" line="1680"/>
         <source>Dec hue</source>
         <translation>Odstín -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1677"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>Inc hue</source>
         <translation>Odstín +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>Dec saturation</source>
         <translation>Sytost -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1680"/>
+        <location filename="../basegui.cpp" line="1684"/>
         <source>Dec gamma</source>
         <translation>Gamma -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1683"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>Next audio</source>
         <translation>Další audio stopa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1688"/>
         <source>Next subtitle</source>
         <translation>Další titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1685"/>
+        <location filename="../basegui.cpp" line="1689"/>
         <source>Next chapter</source>
         <translation>Další kapitola</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1686"/>
+        <location filename="../basegui.cpp" line="1690"/>
         <source>Previous chapter</source>
         <translation>Předešlá kapitola</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>De&amp;noise</source>
         <translation>Odstranění š&amp;umu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1788"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>Blur/S&amp;harp</source>
         <translation>Rozmazání/&amp;zaostření</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1810"/>
+        <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;Vypnuto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1811"/>
+        <location filename="../basegui.cpp" line="1815"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;Normální</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;Jemné</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
+        <location filename="../basegui.cpp" line="1818"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>Žá&amp;dné</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Rozmazat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Zaostřit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1850"/>
+        <location filename="../basegui.cpp" line="1854"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1851"/>
+        <location filename="../basegui.cpp" line="1855"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1856"/>
+        <location filename="../basegui.cpp" line="1860"/>
         <source>&amp;Mono</source>
         <translation>&amp;Mono</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1861"/>
         <source>Re&amp;verse</source>
         <translation>Zp&amp;ětný</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1866"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>F&amp;rames per second</source>
         <translation>Snímků za sekundu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1913"/>
+        <location filename="../basegui.cpp" line="1917"/>
         <source>SMPlayer - MPlayer log</source>
         <translation>SMPlayer - log MPlayeru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1916"/>
+        <location filename="../basegui.cpp" line="1920"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer - log SMPlayeru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3910"/>
+        <location filename="../basegui.cpp" line="3914"/>
+        <location filename="../basegui.cpp" line="4324"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3913"/>
+        <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4308"/>
-        <location filename="../basegui.cpp" line="4316"/>
+        <location filename="../basegui.cpp" line="4322"/>
+        <source>Help SMPlayer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4325"/>
+        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4326"/>
+        <source>What would you like to do?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4355"/>
+        <location filename="../basegui.cpp" line="4363"/>
         <source>Problems with Youtube</source>
         <translation>Problémy s Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4309"/>
-        <location filename="../basegui.cpp" line="4317"/>
+        <location filename="../basegui.cpp" line="4356"/>
+        <location filename="../basegui.cpp" line="4364"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Kvůli změnám na stránce Youtube nelze video &apos;%1&apos; přehrát.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4310"/>
+        <location filename="../basegui.cpp" line="4357"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Chcete aktualizovat kód Youtube? To může problém vyřešit.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4318"/>
+        <location filename="../basegui.cpp" line="4365"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Vyřešení problému by mohlo pomoci aktualizování SMPlayeru.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5019"/>
+        <location filename="../basegui.cpp" line="5066"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>Prohlížeč YouTube nebylo možné spustit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5020"/>
+        <location filename="../basegui.cpp" line="5067"/>
         <source>Be sure %1 is installed.</source>
         <translation>Opravdu je %1 nainstalován?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="1904"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>S&amp;dílet SMPlayer s přáteli</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2872"/>
-        <location filename="../basegui.cpp" line="3498"/>
+        <location filename="../basegui.cpp" line="2876"/>
+        <location filename="../basegui.cpp" line="3502"/>
         <source>Information</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2873"/>
+        <location filename="../basegui.cpp" line="2877"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>K zobrazení nového GUI musíte restartovat SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3278"/>
+        <location filename="../basegui.cpp" line="3282"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Potvrdit vymazání - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3279"/>
+        <location filename="../basegui.cpp" line="3283"/>
         <source>Delete the list of recent files?</source>
         <translation>Vymazat seznam </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3499"/>
+        <location filename="../basegui.cpp" line="3503"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Dané hodnoty byly uloženy jako výchozí.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1683"/>
         <source>Inc saturation</source>
         <translation>Sytost +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1681"/>
+        <location filename="../basegui.cpp" line="1685"/>
         <source>Inc gamma</source>
         <translation>Gamma +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1568"/>
+        <location filename="../basegui.cpp" line="1572"/>
         <source>&amp;Load external file...</source>
         <translation>Načíst e&amp;xterní soubor...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1808"/>
+        <location filename="../basegui.cpp" line="1812"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normalní)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1806"/>
+        <location filename="../basegui.cpp" line="1810"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (dvojitý počet snímků/s)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1655"/>
+        <location filename="../basegui.cpp" line="1659"/>
         <source>&amp;Next</source>
         <translation>&amp;Další</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1656"/>
+        <location filename="../basegui.cpp" line="1660"/>
         <source>Pre&amp;vious</source>
         <translation>Před&amp;chozí</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1578"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;Normalizace hlasitosti</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1460"/>
+        <location filename="../basegui.cpp" line="1464"/>
         <source>&amp;Audio CD</source>
         <translation>Zvuk&amp;ové CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1590"/>
+        <location filename="../basegui.cpp" line="1594"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>Použít &amp;SSA/ASS knihovnu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1687"/>
+        <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Toggle double size</source>
         <translation>Dvoji&amp;tá velikost</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1584"/>
+        <location filename="../basegui.cpp" line="1588"/>
         <source>S&amp;ize -</source>
         <translation>Z&amp;menšit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1585"/>
+        <location filename="../basegui.cpp" line="1589"/>
         <source>Si&amp;ze +</source>
         <translation>Zvě&amp;tšit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1555"/>
+        <location filename="../basegui.cpp" line="1559"/>
         <source>Add &amp;black borders</source>
         <translation>Přidat &amp;okraje</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1556"/>
+        <location filename="../basegui.cpp" line="1560"/>
         <source>Soft&amp;ware scaling</source>
         <translation>Softwarové &amp;roztažení</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1632"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>&amp;FAQ</source>
         <translation>&amp;FAQ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1633"/>
+        <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Command line options</source>
         <translation>&amp;Argumenty příkazového řádku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3892"/>
+        <location filename="../basegui.cpp" line="3896"/>
         <source>SMPlayer command line options</source>
         <translation>Argumenty příkazového řádku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1591"/>
+        <location filename="../basegui.cpp" line="1595"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Pouze v&amp;ynucené titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1692"/>
         <source>Reset video equalizer</source>
         <translation>Vynulovat video-ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4916"/>
+        <location filename="../basegui.cpp" line="4963"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer skončil chybou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4917"/>
+        <location filename="../basegui.cpp" line="4964"/>
         <source>Exit code: %1</source>
         <translation>Návratová hodnota: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4936"/>
+        <location filename="../basegui.cpp" line="4983"/>
         <source>MPlayer failed to start.</source>
         <translation>Nelze spustit MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4937"/>
+        <location filename="../basegui.cpp" line="4984"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Zkontrolujte cestu k MPlayeru v nastavení.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4939"/>
+        <location filename="../basegui.cpp" line="4986"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer havaroval.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4940"/>
+        <location filename="../basegui.cpp" line="4987"/>
         <source>See the log for more info.</source>
         <translation>Více informací je v logu.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Otočit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Off</source>
         <translation>&amp;Vypnuto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>Otočit dopr&amp;ava a převrátit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
+        <location filename="../basegui.cpp" line="1824"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>Otočit dop&amp;rava</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1825"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>Otočit do&amp;leva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1822"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Otočit dol&amp;eva a převrátit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1507"/>
+        <location filename="../basegui.cpp" line="1511"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;Na pozici...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1690"/>
+        <location filename="../basegui.cpp" line="1694"/>
         <source>Show context menu</source>
         <translation>Zobraz kontextové menu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3680"/>
+        <location filename="../basegui.cpp" line="3684"/>
         <source>Multimedia</source>
         <translation>Multimédia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1559"/>
+        <location filename="../basegui.cpp" line="1563"/>
         <source>E&amp;qualizer</source>
         <translation>&amp;Ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1689"/>
+        <location filename="../basegui.cpp" line="1693"/>
         <source>Reset audio equalizer</source>
         <translation>Vynulovat audio-ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1596"/>
+        <location filename="../basegui.cpp" line="1600"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Vyhledat titulky na &amp;OpenSubtitiles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1597"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Poslat &amp;titulky na OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1795"/>
         <source>&amp;Auto</source>
         <translation>&amp;Auto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1515"/>
+        <location filename="../basegui.cpp" line="1519"/>
         <source>Speed -&amp;4%</source>
         <translation>R&amp;ychlost -4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1516"/>
+        <location filename="../basegui.cpp" line="1520"/>
         <source>&amp;Speed +4%</source>
         <translation>Ry&amp;chlost +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1517"/>
+        <location filename="../basegui.cpp" line="1521"/>
         <source>Speed -&amp;1%</source>
         <translation>Rych&amp;lost -1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1518"/>
+        <location filename="../basegui.cpp" line="1522"/>
         <source>S&amp;peed +1%</source>
         <translation>Rychl&amp;ost +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>Scree&amp;n</source>
         <translation>Obra&amp;zovka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1830"/>
+        <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Default</source>
         <translation>&amp;Výchozí</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1530"/>
+        <location filename="../basegui.cpp" line="1534"/>
         <source>Mirr&amp;or image</source>
         <translation>&amp;Zrcadlit obraz</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1682"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>Next video</source>
         <translation>Další video stopa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1756"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>S&amp;topa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1834"/>
+        <location filename="../basegui.cpp" line="1838"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>S&amp;topa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4246"/>
+        <location filename="../basegui.cpp" line="4250"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Varování - Použit starý MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4247"/>
+        <location filename="../basegui.cpp" line="4251"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Nainstalovaná verze MPlayeru (%1) je zastaralá. SMPlayer nebude pracovat správně: ne všechna nastavení budou funkční, výběr titulků může selhat, ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4252"/>
+        <location filename="../basegui.cpp" line="4256"/>
         <source>Please, update your MPlayer.</source>
         <translation>Prosím, updatujte si MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4254"/>
+        <location filename="../basegui.cpp" line="4258"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Toto varování dále nebude zobrazeno)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1695"/>
         <source>Next aspect ratio</source>
         <translation>Další poměr stran</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1539"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;Auto zoom</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1536"/>
+        <location filename="../basegui.cpp" line="1540"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Zoom na &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1537"/>
+        <location filename="../basegui.cpp" line="1541"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zoom na &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1527"/>
+        <location filename="../basegui.cpp" line="1531"/>
         <source>Pre&amp;view...</source>
         <translation>&amp;Náhled...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>&amp;Zapnuto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1825"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;Never</source>
         <translation>&amp;Vypnuto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1830"/>
         <source>While &amp;playing</source>
         <translation>&amp;Při přehrávání</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1890"/>
+        <location filename="../basegui.cpp" line="1894"/>
         <source>DVD &amp;menu</source>
         <translation>DVD &amp;menu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1892"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD &amp;předchozí menu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1886"/>
+        <location filename="../basegui.cpp" line="1890"/>
         <source>DVD menu, move up</source>
         <translation>DVD menu, nahoru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1887"/>
+        <location filename="../basegui.cpp" line="1891"/>
         <source>DVD menu, move down</source>
         <translation>DVD menu, dolů</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1888"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>DVD menu, move left</source>
         <translation>DVD menu, doleva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1889"/>
+        <location filename="../basegui.cpp" line="1893"/>
         <source>DVD menu, move right</source>
         <translation>DVD menu, doprava</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1891"/>
+        <location filename="../basegui.cpp" line="1895"/>
         <source>DVD menu, select option</source>
         <translation>DVD menu, výběr</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1897"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD menu, klik</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1567"/>
+        <location filename="../basegui.cpp" line="1571"/>
         <source>Set dela&amp;y...</source>
         <translation>Nastavit zpož&amp;dění...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1581"/>
+        <location filename="../basegui.cpp" line="1585"/>
         <source>Se&amp;t delay...</source>
         <translation>Nastav&amp;it zpoždění...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3957"/>
+        <location filename="../basegui.cpp" line="3961"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Jdi na:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3958"/>
+        <location filename="../basegui.cpp" line="3962"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Pozice</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3968"/>
+        <location filename="../basegui.cpp" line="3972"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Zpoždění audia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3969"/>
+        <location filename="../basegui.cpp" line="3973"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Zpoždění audia (v ms):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3978"/>
+        <location filename="../basegui.cpp" line="3982"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Zpoždění titulků</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3979"/>
+        <location filename="../basegui.cpp" line="3983"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Zpoždění titulků (v ms):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1827"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>Toggle stay on top</source>
         <translation>Přepni vždy nahoře</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4640"/>
+        <location filename="../basegui.cpp" line="4687"/>
         <source>Jump to %1</source>
         <translation>Jdi na %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1525"/>
+        <location filename="../basegui.cpp" line="1529"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>S&amp;pustit/zastavit snímkování</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1593"/>
+        <location filename="../basegui.cpp" line="1597"/>
         <source>Subtitle &amp;visibility</source>
         <translation>&amp;Zobrazit titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1692"/>
+        <location filename="../basegui.cpp" line="1696"/>
         <source>Next wheel function</source>
         <translation>Další funkce kolečka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1884"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>P&amp;rogram</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1738"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>&amp;TV</source>
         <translation>&amp;TV</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1741"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>Radi&amp;o</source>
         <translation>Rádi&amp;o</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1703"/>
         <source>Subtitles onl&amp;y</source>
         <translation>Pouze titulk&amp;y</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1700"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>Volume + &amp;Seek</source>
         <translation>Hlasitost a &amp;seekování</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1701"/>
+        <location filename="../basegui.cpp" line="1705"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Hlasitost, seekování a &amp;pozice</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1702"/>
+        <location filename="../basegui.cpp" line="1706"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Hlasitost, seekování, pozice a &amp;délka</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1413"/>
+        <location filename="../basegui.cpp" line="1417"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Vydeo filtry budou vypnuty při použití VDPAU</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1529"/>
+        <location filename="../basegui.cpp" line="1533"/>
         <source>Fli&amp;p image</source>
         <translation>Převrátit obra&amp;z</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>Zoo&amp;m</source>
         <translation>Zoo&amp;m</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1698"/>
         <source>Show filename on OSD</source>
         <translation>Zobrazit jméno souboru v OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1502"/>
+        <location filename="../basegui.cpp" line="1506"/>
         <source>Set &amp;A marker</source>
         <translation>Nastavit značku &amp;A</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1503"/>
+        <location filename="../basegui.cpp" line="1507"/>
         <source>Set &amp;B marker</source>
         <translation>Nastavit značku &amp;B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1504"/>
+        <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;Clear A-B markers</source>
         <translation>&amp;Smazat značky A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1752"/>
         <source>&amp;A-B section</source>
         <translation>&amp;A-B sekce</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1699"/>
         <source>Toggle deinterlacing</source>
         <translation>Zapnout/vypnout odstranění prokládání</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1863"/>
+        <location filename="../basegui.cpp" line="1867"/>
         <source>&amp;Closed captions</source>
         <translation>S&amp;kryté titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Disc</source>
         <translation>&amp;Disk</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1735"/>
+        <location filename="../basegui.cpp" line="1739"/>
         <source>F&amp;avorites</source>
         <translation>&amp;Oblíbené</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1634"/>
+        <location filename="../basegui.cpp" line="1638"/>
         <source>Check for &amp;updates</source>
         <translation>Zkontrolovat a&amp;ktualizace</translation>
     </message>
