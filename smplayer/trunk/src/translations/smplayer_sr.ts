@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="sr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="158"/>
         <source>Russian</source>
         <translation>Руски</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -315,18 +317,6 @@
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Многе друге особе допринеле су поправкама. Погледајте попис промена за детаље.</translation>
-    </message>
-    <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="obsolete">Основан у фебруару 2005, YouTube&amp;trade; је најпопуларнија видео заједница на свету, која омогућава милионима људи да открију, гледају и деле оригинално креирани видео. YouTube&amp;trade; пружа форум људима да се спајају, информишу и инспиришу друге људе на свету и понаша се као дистрибуцијска платформа за ауторе оригиналних садржаја и за мале и велике оглашиваче.</translation>
-    </message>
-    <message>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="obsolete">Користећи ову апликацију сагласни сте са Гугл условима коришћења који се налазе на %1.</translation>
-    </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">&amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -986,7 +976,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4328"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Дели са мојим пријатељима</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4543"/>
@@ -1117,7 +1107,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажурирање &amp;Youtube кода</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
@@ -1128,7 +1118,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4327"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Донирајте</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1153,7 +1143,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1677"/>
         <source>Inc contrast</source>
-        <translation>Повећај Контраст</translation>
+        <translation>Повећај контраст</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
@@ -1289,33 +1279,33 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Донирајте</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4324"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако вам се свиђа СМПлејер и желите да подржите развој, можете послати донацију. Чак и најмања ће бити високо цењена.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Да, ја желим да донирам</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4322"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Помоћ за СМПлејер</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4325"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>Или ви можда желите да поделите СМПлејер са својим пријатељима на Фејсбуку.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4326"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Шта желите да учините?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4355"/>
@@ -1919,7 +1909,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="221"/>
         <source>&amp;Hide</source>
-        <translation>&amp;Сакри</translation>
+        <translation>&amp;Сакриј</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="223"/>
@@ -2660,11 +2650,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n превод распакован</numerusform>
-            <numerusform>%n превода распакована</numerusform>
-            <numerusform>%n превода распаковано</numerusform>
-        </translation>
+        <translation><numerusform>%n превод распакован</numerusform><numerusform>%n превода распакована</numerusform><numerusform>%n превода распаковано</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2747,7 +2733,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2769,7 +2754,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Није могуће чување преузетог
@@ -4642,7 +4627,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Штиклирање ове опције може да се редукује треперење, али такође може да се деси да се видео не прикаже ваљано.</translation>
+        <translation>Штиклирањем ове опције може да се редукује треперење, али такође може да се деси да се видео не прикаже ваљано.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="535"/>
@@ -4957,7 +4942,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="418"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Поново изгради индексе фајлова ако нема пронађених индекса, помоћу претраживања. Корисно код сломљених/непотпуних преузимања или ложе направљених фајлова. Ова могућност само ради ако основни медиј подржава претраживање (нпр. не са stdin, pipe, итд).&lt;br&gt; &lt;b&gt;Напомена:&lt;/b&gt; стварање индекса може потрајати.</translation>
+        <translation>Поново изгради индексе фајлова ако нема пронађених индекса, помоћу претраживања. Корисно код сломљених/непотпуних преузимања или лоше направљених фајлова. Ова могућност само ради ако основни медиј подржава претраживање (нпр. не са stdin, pipe, итд).&lt;br&gt; &lt;b&gt;Напомена:&lt;/b&gt; стварање индекса може потрајати.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="142"/>
@@ -8399,21 +8384,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунде</numerusform>
-            <numerusform>%n секунди</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунде</numerusform><numerusform>%n секунди</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минут</numerusform>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минута</numerusform>
-        </translation>
+        <translation><numerusform>%n минут</numerusform><numerusform>%n минута</numerusform><numerusform>%n минута</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8530,7 +8507,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">Статус&amp;на трака</translation>
+        <translation>Статус&amp;на трака</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8550,7 +8527,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">&amp;Информације видео записа</translation>
+        <translation>&amp;Информације видео записа</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
