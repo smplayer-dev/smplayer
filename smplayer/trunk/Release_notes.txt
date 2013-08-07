@@ -1,3 +1,20 @@
+Version 0.8.6.
+
+ * SMPlayer can now update its internal Youtube code so it's not necessary
+   to update smplayer everytime Youtube makes a change.
+ * A section "Updates" has been added to the preferences dialog, where 
+   it's possible to configure or disable the update checker.
+ * SMPlayer could still fail to find some subtitles from 
+   opensubtitles.org. Hopefully this is fixed.
+ * (Windows) The autoload of subtitles with non latin1 filenames has been 
+   fixed.
+ * The Windows installer gives the possibility to delete most of the
+   configuration files of smplayer. This can be useful if the configuration
+   files have been corrupted or smplayer has been misconfigured.
+   Linux users can use the command "smplayer -delete-config".
+ * Several other bugfixes. See the Changelog for details.
+
+
 Version 0.8.5.
 
  * Due to changes in opensubtitles.org, smplayer couldn't find
