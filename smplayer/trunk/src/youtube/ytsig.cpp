@@ -86,15 +86,17 @@ QString YTSig::aclara(const QString & text) {
 	QString res;
 
 	int dot = text.indexOf('.');
-	qDebug("YTSig::aclara (c++): length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
+	qDebug("YTSig::aclara (2): length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
 
-	if (text.size() == 83) {
-		res = text.mid(0,15) + text.mid(80,1) + text.mid(16,64) + text.mid(15,1);
+#if 0
+	if (text.size() == xx) {
+		res = <your code>;
 	}
 	else {
 		qDebug("YTSig::aclara: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
 		return res;
 	}
+#endif
 
 	/*
 	qDebug("%d: orig: %s", text.size(), text.toLatin1().constData());
