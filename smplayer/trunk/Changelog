@@ -1,5 +1,33 @@
 [b]Version 0.8.6[/b]:
 
+(2013-07-30)
+ * Add option Help->Donate (linux only).
+
+(2013-07-26)
+ * Add option to show or hide the resolution info in the skingui.
+
+(2013-07-25)
+ * Don't report about new version if installed version is newer.
+
+(2013-07-23)
+ * Set the layout of the control widgets to left to right even when
+   using a right to left language.
+
+(2013-07-22)
+ * Another fix for finding subtitles. Sometimes it doesn't return any 
+   result with 2 items in the search but it does with 1. 
+   Workaround: use 3 items... Seems to work in all cases.
+
+(2013-07-21)
+ * Read the script from the file ytsig.script in the smplayer config
+   directory.
+ * Ask the user to update the youtube code when an unknown signature is
+   found.
+
+(2013-07-20)
+ * Youtube: now the signature decrypt function is written in script code 
+   instead of C++.
+
 (2013-07-16)
  * Add a workaround for a problem with opensubtitles.org. Sometimes it
    returns no subtitles when a query with only one search is performed.
