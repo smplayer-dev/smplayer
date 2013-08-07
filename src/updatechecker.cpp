@@ -60,9 +60,10 @@ UpdateChecker::UpdateChecker(QObject * parent, UpdateCheckerData * data) : QObje
 	if ((!d->enabled) || (days < d->days_to_check)) return;
 
 	net_manager = new QNetworkAccessManager();
-	QUrl url("http://smplayer.sourceforge.net/current_version");
+	QUrl url("http://updates.smplayer.info/current_version");
 
 	QNetworkRequest req(url);
+	req.setRawHeader("User-Agent", "SMPlayer");
 	QNetworkReply *reply = net_manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotReply()));
 }
