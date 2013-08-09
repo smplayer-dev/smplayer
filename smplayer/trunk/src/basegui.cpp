@@ -4312,9 +4312,11 @@ void BaseGui::checkReminder() {
 	int count = set->value("count", 0).toInt();
 	count++;
 	set->setValue("count", count);
+	int action = set->value("action", 0).toInt();
 	set->endGroup();
 
-	if (count != 10) return;
+	if (action != 0) return;
+	if ((count != 10) && (count != 20)) return;
 
 	QMessageBox box(this);
 	box.setIcon(QMessageBox::Question);
@@ -4331,15 +4333,23 @@ void BaseGui::checkReminder() {
 	box.exec();
 	if (box.clickedButton() == donate_button) {
 		QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
+		action = 1;
 	}
 	else 
 	if (box.clickedButton() == facebook_button) {
 		QString text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
 		QString url = "http://smplayer.sourceforge.net";
 		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + url + "&t=" + text));
+		action = 2;
 	}
 	else
 	if (box.clickedButton() == cancel_button) {
+	}
+
+	if (action > 0) {
+		set->beginGroup("reminder");
+		set->setValue("action", action);
+		set->endGroup();
 	}
 }
 #endif
