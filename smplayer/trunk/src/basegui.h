@@ -58,7 +58,7 @@ class Favorites;
 class TVList;
 class UpdateChecker;
 
-#ifndef Q_OS_WIN
+#if !defined(Q_OS_WIN) || defined(PORTABLE_APP)
 #define REMINDER_ACTIONS 1
 #endif
 
