@@ -212,7 +212,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #endif
 
 #ifdef REMINDER_ACTIONS
-	QTimer::singleShot(4000, this, SLOT(checkReminder()));
+	QTimer::singleShot(1000, this, SLOT(checkReminder()));
 #endif
 }
 
@@ -3918,6 +3918,11 @@ void BaseGui::helpDonate() {
 	d.setDefaultButton(QMessageBox::Ok);
 	if ( d.exec() == QMessageBox::Ok ) {
 		QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
+
+		QSettings * set = Global::settings;
+		set->beginGroup("reminder");
+		set->setValue("action", 1);
+		set->endGroup();
 	}
 }
 #endif
@@ -3953,6 +3958,13 @@ void BaseGui::shareSMPlayer() {
 	else
 	if (sender() == facebookAct) {
 		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + url + "&t=" + text));
+
+		#ifdef REMINDER_ACTIONS
+		QSettings * set = Global::settings;
+		set->beginGroup("reminder");
+		set->setValue("action", 2);
+		set->endGroup();
+		#endif
 	}
 }
 
@@ -4316,7 +4328,7 @@ void BaseGui::checkReminder() {
 	set->endGroup();
 
 	if (action != 0) return;
-	if ((count != 10) && (count != 20)) return;
+	if ((count != 25) && (count != 45)) return;
 
 	QMessageBox box(this);
 	box.setIcon(QMessageBox::Question);
