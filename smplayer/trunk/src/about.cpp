@@ -194,8 +194,8 @@ QString About::getTranslators() {
 		trad(tr("Korean"), "Heesu Yoon <imsu30@gmail.com>") +
 		trad(tr("Macedonian"), "Marko Doda <mark0d0da@gmail.com>") +
 		trad(tr("Basque"), QStringList() 
-			<< "Piarres Beobide <pi@beobide.net>" 
-			<< "Xabier Aramendi <azpidatziak@gmail.com>") +
+			<< "Xabier Aramendi <azpidatziak@gmail.com>"
+			<< "Piarres Beobide <pi@beobide.net> (" + tr("Inactive")+ ")" ) +
 		trad(tr("Catalan"), QString::fromUtf8("Roger Calvó <rcalvoi@yahoo.com>")) +
 		trad(tr("Slovenian"), "Janez Troha <janez.troha@gmail.com>") +
 		trad(tr("Arabic"), "Muhammad Nour Hajj Omar <arabianheart@live.com>") +
