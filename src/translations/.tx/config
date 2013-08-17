@@ -10,4 +10,4 @@ trans.he = smplayer_he_IL.ts
 trans.vi = smplayer_vi_VN.ts
 trans.ru = smplayer_ru_RU.ts
 trans.uk = smplayer_uk_UA.ts
-minimum_perc = 90
+minimum_perc = 50

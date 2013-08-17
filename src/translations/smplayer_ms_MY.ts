@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="158"/>
         <source>Russian</source>
         <translation>Rusia</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -315,18 +317,6 @@
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Lain-lain individu yang memberti sumbangan dalam bentuk tampalan. Rujuk Log Penukaran untuk perincian.</translation>
-    </message>
-    <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="obsolete">Ditubuhkan pada Februari 2005, YouTube&amp;trade; merupakan komuniti video atas-talian yang paling popular, membolehkan berjuta-juta orang menemui, menonton dan berkongsi video-ciptaan sendiri. YouTube&amp;trade; menyediakan sebuah forum untuk orang ramai berhubung, memberi makluman, menyemarak ilham diseluruh dunia dan bertindak sebagai platform pengedaran kandungan pencipta dan pengiklan sama ada berskala besar mahupun kecil.</translation>
-    </message>
-    <message>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="obsolete">Dengan menggunakan aplikasi ini anda bersetuju terikat dengan Terma Perkhidmatan yang berada di %1.</translation>
-    </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">&amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -985,7 +975,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4328"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4543"/>
@@ -1116,7 +1106,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>Kemaskini kod &amp;Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
@@ -1127,7 +1117,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4327"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1288,55 +1278,55 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4324"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4322"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4325"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4326"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4355"/>
         <location filename="../basegui.cpp" line="4363"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Masalah dengan Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4356"/>
         <location filename="../basegui.cpp" line="4364"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Malangnya kerana terdapat perubahan dalam halaman Youtube, video &apos;%1&apos; tidak dapat dimainkan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4357"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda hendak kemaskini kod Youtube? Ia dapat membaiki masalah.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4365"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dengan mengemaskini SMPlayer dapat membaiki masalah tersebut.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5066"/>
@@ -1941,43 +1931,43 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Memuat turun...</translation>
+        <translation>Memuat turun...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">Menyambung ke %1</translation>
+        <translation>Menyambung ke %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod Youtube telah berjaya dikemaskini.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Versi dipasang: %1</translation>
+        <translation>Versi terpasang: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Berjaya</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Ralat</translation>
+        <translation>Ralat</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ralat berlaku semasa menulis %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ralat berlaku semasa memuat turun fail:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2056,7 +2046,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidak boleh memperoleh laman Youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2117,10 +2107,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <location filename="../core.cpp" line="528"/>
         <source>Connecting to %1</source>
         <translation>Menyambung ke %1</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve youtube page</source>
-        <translation type="obsolete">Tidak boleh dapatkan halaman youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="542"/>
@@ -2247,7 +2233,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Alamak, ada masalah berlaku</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2663,9 +2649,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2747,6 +2731,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <source>%1 subtitle(s) extracted</source>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
         </translation>
     </message>
     <message>
@@ -2768,7 +2753,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -8200,57 +8185,57 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>Ke&amp;maskini</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Semak kemask&amp;ini</translation>
+        <translation>Semak untuk &amp;kemaskini</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Semak sela (dalam &amp;hari)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;buka panduan langkah pertama selepas penataran</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Kemaskini</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Semak untuk kemaskini</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini dibenarkan, SMPlayer akan memeriksa kemaskini dan paparkan pemberitahuan jika ada versi baru tersedia.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Semak sela</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda boleh masukkan sela disini (dalam hari) untuk semakan kemaskini.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Buka panduan langkah pertama selepas penataran</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini dibenarkan, panduan langkah pertama dengan maklumat dan tip mengenai penggunaan SMPlayer akan dibuka selepas penataran.</translation>
     </message>
 </context>
 <context>
@@ -8395,17 +8380,13 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8522,7 +8503,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">Palang s&amp;tatus</translation>
+        <translation>Palang &amp;status</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8542,7 +8523,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">Maklumat &amp;video</translation>
+        <translation>Maklumat &amp;Video</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

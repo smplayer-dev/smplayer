@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="158"/>
         <source>Russian</source>
         <translation>Rusų</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -315,18 +317,6 @@
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Daug kitų žmonių prisidėjo su savo pataisymais. Smulkiau galite pažiūrėti keitimų žurnale.</translation>
-    </message>
-    <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="obsolete">Įkurta 2005 vasarį, Youtube&amp;trade; yra populiariasias ineterneto vaizdelių bendruomenė, suteikianti galimybę milijonams žmonių atrasti, pamatyti ir dalintis originaliais vaizdeliais. Youtube&amp;trade; suteikia forumą kuris sujungia žmones, informuoja ir įkvepia visus kūrėjus ir žiūrovus.</translation>
-    </message>
-    <message>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="obsolete">Naudodami šią programą jūs sutinkate su Google paslaugos teikimo sąlygomis kurias galite rasti čia %1.</translation>
-    </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">&amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -985,7 +975,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4328"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4543"/>
@@ -1116,7 +1106,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>Atnaujinti &amp;Youtube kodą</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
@@ -1127,7 +1117,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4327"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1288,33 +1278,33 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4324"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4322"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4325"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4326"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4355"/>
@@ -2659,11 +2649,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrų išgauta</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrų išgauta</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2746,7 +2732,6 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2768,7 +2753,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Neįmanoma išsaugoti atsiųstą failą kataloge
@@ -8394,21 +8379,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundė</numerusform>
-            <numerusform>%n sekundės</numerusform>
-            <numerusform>%n sekundžių</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundė</numerusform><numerusform>%n sekundės</numerusform><numerusform>%n sekundžių</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutė</numerusform>
-            <numerusform>%n minutės</numerusform>
-            <numerusform>%n minučių</numerusform>
-        </translation>
+        <translation><numerusform>%n minutė</numerusform><numerusform>%n minutės</numerusform><numerusform>%n minučių</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8525,7 +8502,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">&amp;Būsenos juosta</translation>
+        <translation>&amp;Būsenos juosta</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8545,7 +8522,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">&amp;Video informacija</translation>
+        <translation>&amp;Video informacija</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
