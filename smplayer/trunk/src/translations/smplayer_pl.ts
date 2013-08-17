@@ -499,12 +499,12 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;Play</source>
-        <translation>Odtwarzanie (&amp;p)</translation>
+        <translation>O&amp;dtwarzanie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
         <source>&amp;Video</source>
-        <translation>Wideo (&amp;v)</translation>
+        <translation>&amp;Wideo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1713"/>
@@ -519,17 +519,17 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Browse</source>
-        <translation>Przeglądaj (&amp;b)</translation>
+        <translation>Prze&amp;glądaj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
         <source>Op&amp;tions</source>
-        <translation>Opcje (&amp;t)</translation>
+        <translation>Op&amp;cje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;Help</source>
-        <translation>Pomoc (&amp;h)</translation>
+        <translation>&amp;Pomoc</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1460"/>

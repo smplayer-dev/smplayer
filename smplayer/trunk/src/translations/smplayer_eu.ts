@@ -1472,7 +1472,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1692"/>
         <source>Reset video equalizer</source>
-        <translation>Bierrezarri bideo ekulizagailua</translation>
+        <translation>Berrezarri bideo ekulizagailua</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4963"/>

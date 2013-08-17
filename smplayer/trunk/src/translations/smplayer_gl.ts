@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -62,6 +60,10 @@
         <location filename="../about.cpp" line="158"/>
         <source>Russian</source>
         <translation>ruso</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -315,18 +317,6 @@
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Moitas outras persoas contribuíron con parches. Véxase a lista de cambios para máis información.</translation>
-    </message>
-    <message>
-        <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
-        <translation type="obsolete">Fundado en febreiro de 2005, YouTube&amp;trade; é a comunidade de vídeo máis popular de internet, e permite a millóns de persoas descubrir, ver e compartir os seus vídeos. YouTube&amp;trade; é un foro no que a xente conecta, se informa, e inspira a outras persoas de todas as partes do mundo, servindo ademais de plataforma de distribución de contidos para os autores e os anunciantes, grandes e pequenos.</translation>
-    </message>
-    <message>
-        <source>By using this application you hereby agree to be bound by Google Terms of Services located at %1.</source>
-        <translation type="obsolete">O uso deste aplicativo implica a aceptación das condicións dos servizos de Google, ás que poderá acceder desde «%1».</translation>
-    </message>
-    <message>
-        <source>&amp;Youtube</source>
-        <translation type="obsolete">&amp;YouTube</translation>
     </message>
 </context>
 <context>
@@ -985,7 +975,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="4328"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4543"/>
@@ -1116,7 +1106,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizar o código de &amp;Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
@@ -1127,7 +1117,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4327"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1288,33 +1278,33 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4324"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4322"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4325"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4326"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4355"/>
@@ -2659,10 +2649,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2766,7 +2753,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -8393,19 +8380,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8522,7 +8503,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">&amp;Barra de estado</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8542,7 +8523,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">Información do &amp;vídeo</translation>
+        <translation>Información do &amp;vídeo</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

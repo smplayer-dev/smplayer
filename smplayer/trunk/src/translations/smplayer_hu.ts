@@ -1,12 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hu_HU">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hu" version="2.0">
 <context>
     <name>About</name>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Version: %1</source>
         <translation>Verzió: %1</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="67"/>
+        <source>Links:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>Official website:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="69"/>
+        <source>Support forum:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
@@ -16,7 +29,7 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spanyol</translation>
+        <translation>Spanyol</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
@@ -39,10 +52,6 @@
         <translation>Francia</translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 és %3</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="155"/>
         <source>Simplified-Chinese</source>
         <translation>Egyszerűsített kínai</translation>
@@ -54,7 +63,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation type="obsolete">%1 és %2</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -144,21 +153,17 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Hebrew</source>
-        <translation type="unfinished">Héber</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>Thai</source>
-        <translation type="unfinished">Thaiföldi</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="211"/>
         <source>Malay</source>
-        <translation type="unfinished">Maláj</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="235"/>
@@ -197,14 +202,6 @@
         <location filename="../about.ui" line="201"/>
         <source>&amp;License</source>
         <translation>&amp;Licensz</translation>
-    </message>
-    <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Látogassa meg az oldalunkat frissítésekért:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Kérjen segítséget a fórumunkban:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
@@ -267,14 +264,6 @@
         <translation>Az SMPlayer logót %1 készítette</translation>
     </message>
     <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1, %2, %3 és %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1, %2, %3, %4 és %5</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="202"/>
         <source>Vietnamese</source>
         <translation>Vietnami</translation>
@@ -292,57 +281,42 @@
     <message>
         <location filename="../about.cpp" line="207"/>
         <source>Danish</source>
-        <translation type="unfinished">Dán</translation>
+        <translation>Dán</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="208"/>
         <source>Croatian</source>
-        <translation type="unfinished">Horvát</translation>
+        <translation>Horvát</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="67"/>
-        <source>Links:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="68"/>
-        <source>Official website:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="69"/>
-        <source>Support forum:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -518,320 +492,6 @@ Valóban felül akarja írni?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1460"/>
-        <source>&amp;File...</source>
-        <translation>&amp;Fájl...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1461"/>
-        <source>D&amp;irectory...</source>
-        <translation>&amp;Könyvtár...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1462"/>
-        <source>&amp;Playlist...</source>
-        <translation>Lejátszási li&amp;sta...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1465"/>
-        <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD lejátszás </translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1466"/>
-        <source>D&amp;VD from folder...</source>
-        <translation>D&amp;VD lejátszás könyvtárból...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1467"/>
-        <source>&amp;URL...</source>
-        <translation>&amp;URL...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1491"/>
-        <source>P&amp;lay</source>
-        <translation>Le&amp;játszás</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1494"/>
-        <source>&amp;Pause</source>
-        <translation>&amp;Szünet</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1495"/>
-        <source>&amp;Stop</source>
-        <translation>&amp;Megállít</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1496"/>
-        <source>&amp;Frame step</source>
-        <translation>&amp;Képkocka léptetés</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1509"/>
-        <source>&amp;Repeat</source>
-        <translation>&amp;Ismétlés</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1514"/>
-        <source>&amp;Normal speed</source>
-        <translation>&amp;Normál sebesség</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1515"/>
-        <source>&amp;Halve speed</source>
-        <translation>&amp;Fél sebesség</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1516"/>
-        <source>&amp;Double speed</source>
-        <translation>&amp;Dupla sebesség</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1517"/>
-        <source>Speed &amp;-10%</source>
-        <translation>Sebesség&amp;-10%</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1518"/>
-        <source>Speed &amp;+10%</source>
-        <translation>Sebesség &amp;+10%</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1604"/>
-        <source>&amp;Off</source>
-        <comment>closed captions menu</comment>
-        <translation type="unfinished">&amp;Ki</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1749"/>
-        <source>Sp&amp;eed</source>
-        <translation>&amp;Sebesség</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1917"/>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1920"/>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1904"/>
-        <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2876"/>
-        <location filename="../basegui.cpp" line="3502"/>
-        <source>Information</source>
-        <translation type="unfinished">Információ</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2877"/>
-        <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="3282"/>
-        <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="3283"/>
-        <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="3503"/>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished">A jelenlegi értékek el lettek mentve alapértelmezettnek.</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1525"/>
-        <source>&amp;Fullscreen</source>
-        <translation>&amp;Teljes képernyő</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1526"/>
-        <source>&amp;Compact mode</source>
-        <translation>&amp;Kompakt mód</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1527"/>
-        <source>&amp;Equalizer</source>
-        <translation>&amp;Kiegyenlítő (EQ)</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1528"/>
-        <source>&amp;Screenshot</source>
-        <translation>&amp;Pillanatkép</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1781"/>
-        <source>S&amp;tay on top</source>
-        <translation>Mindig &amp;felül</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1553"/>
-        <source>&amp;Postprocessing</source>
-        <translation>&amp;Utófeldolgozás</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1554"/>
-        <source>&amp;Autodetect phase</source>
-        <translation>&amp;Automatikus fázis érzékelés</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1555"/>
-        <source>&amp;Deblock</source>
-        <translation>&amp;Deblock</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1556"/>
-        <source>De&amp;ring</source>
-        <translation>De&amp;ring</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1558"/>
-        <source>Add n&amp;oise</source>
-        <translation>N&amp;oise hozzáadása</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1775"/>
-        <source>F&amp;ilters</source>
-        <translation>S&amp;zűrők</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1566"/>
-        <source>&amp;Mute</source>
-        <translation>&amp;Némítás</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1567"/>
-        <source>Volume &amp;-</source>
-        <translation>Hangerő &amp;-</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1568"/>
-        <source>Volume &amp;+</source>
-        <translation>Hangerő &amp;+</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1569"/>
-        <source>&amp;Delay -</source>
-        <translation>K&amp;ésleltetés -</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1570"/>
-        <source>D&amp;elay +</source>
-        <translation>Ké&amp;sleltetés +</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1576"/>
-        <source>&amp;Extrastereo</source>
-        <translation>&amp;Extra sztereo</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1577"/>
-        <source>&amp;Karaoke</source>
-        <translation>&amp;Karaoke</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1841"/>
-        <source>&amp;Filters</source>
-        <translation>&amp;Szűrők</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1581"/>
-        <source>&amp;Load...</source>
-        <translation>&amp;Betöltés...</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1583"/>
-        <source>Delay &amp;-</source>
-        <translation>Késleltetés &amp;-</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1584"/>
-        <source>Delay &amp;+</source>
-        <translation>Késleltetés &amp;+</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1586"/>
-        <source>&amp;Up</source>
-        <translation>&amp;Fel</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1587"/>
-        <source>&amp;Down</source>
-        <translation>&amp;Le</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1619"/>
-        <source>&amp;Playlist</source>
-        <translation>Lejátszási l&amp;ista</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1621"/>
-        <source>P&amp;references</source>
-        <translation>&amp;Beállítások</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1908"/>
-        <source>&amp;View logs</source>
-        <translation>&amp;Naplók megjelenítése</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1648"/>
-        <source>About &amp;Qt</source>
-        <translation>&amp;Qt névjegye</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1557"/>
-        <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1610"/>
-        <source>&amp;Default</source>
-        <comment>subfps menu</comment>
-        <translation type="unfinished">&amp;Alapértelmezés</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1623"/>
-        <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1635"/>
-        <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1641"/>
-        <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1644"/>
-        <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1646"/>
-        <location filename="../basegui.cpp" line="4327"/>
-        <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1649"/>
-        <source>About &amp;SMPlayer</source>
-        <translation>&amp;SMPlayer névjegye</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1710"/>
         <source>&amp;Open</source>
         <translation>&amp;Megnyitás</translation>
@@ -872,14 +532,115 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;Segítség</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
-        <source>&amp;Recent files</source>
-        <translation>&amp;Utoljára megnyitott fájlok</translation>
+        <location filename="../basegui.cpp" line="1460"/>
+        <source>&amp;File...</source>
+        <translation>&amp;Fájl...</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1461"/>
+        <source>D&amp;irectory...</source>
+        <translation>&amp;Könyvtár...</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1462"/>
+        <source>&amp;Playlist...</source>
+        <translation>Lejátszási li&amp;sta...</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1465"/>
+        <source>&amp;DVD from drive</source>
+        <translation>&amp;DVD lejátszás </translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1466"/>
+        <source>D&amp;VD from folder...</source>
+        <translation>D&amp;VD lejátszás könyvtárból...</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1467"/>
+        <source>&amp;URL...</source>
+        <translation>&amp;URL...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;Clear</source>
         <translation>&amp;Ürítés</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1731"/>
+        <source>&amp;Recent files</source>
+        <translation>&amp;Utoljára megnyitott fájlok</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1491"/>
+        <source>P&amp;lay</source>
+        <translation>Le&amp;játszás</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1494"/>
+        <source>&amp;Pause</source>
+        <translation>&amp;Szünet</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1495"/>
+        <source>&amp;Stop</source>
+        <translation>&amp;Megállít</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1496"/>
+        <source>&amp;Frame step</source>
+        <translation>&amp;Képkocka léptetés</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1514"/>
+        <source>&amp;Normal speed</source>
+        <translation>&amp;Normál sebesség</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1515"/>
+        <source>&amp;Halve speed</source>
+        <translation>&amp;Fél sebesség</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1516"/>
+        <source>&amp;Double speed</source>
+        <translation>&amp;Dupla sebesség</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1517"/>
+        <source>Speed &amp;-10%</source>
+        <translation>Sebesség&amp;-10%</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1518"/>
+        <source>Speed &amp;+10%</source>
+        <translation>Sebesség &amp;+10%</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1604"/>
+        <source>&amp;Off</source>
+        <comment>closed captions menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1749"/>
+        <source>Sp&amp;eed</source>
+        <translation>&amp;Sebesség</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1509"/>
+        <source>&amp;Repeat</source>
+        <translation>&amp;Ismétlés</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1525"/>
+        <source>&amp;Fullscreen</source>
+        <translation>&amp;Teljes képernyő</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1526"/>
+        <source>&amp;Compact mode</source>
+        <translation>&amp;Kompakt mód</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -890,21 +651,6 @@ Valóban felül akarja írni?</translation>
         <location filename="../basegui.cpp" line="1769"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;Méretarány</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1772"/>
-        <source>&amp;Deinterlace</source>
-        <translation>&amp;Deinterlace</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1789"/>
-        <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1792"/>
-        <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1807"/>
@@ -923,50 +669,69 @@ Valóban felül akarja írni?</translation>
         <translation>Lineáris &amp;keverés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
-        <source>&amp;Off</source>
-        <comment>denoise menu</comment>
-        <translation type="unfinished">&amp;Ki</translation>
+        <location filename="../basegui.cpp" line="1772"/>
+        <source>&amp;Deinterlace</source>
+        <translation>&amp;Deinterlace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
-        <source>&amp;Normal</source>
-        <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1553"/>
+        <source>&amp;Postprocessing</source>
+        <translation>&amp;Utófeldolgozás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
-        <source>&amp;Soft</source>
-        <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1554"/>
+        <source>&amp;Autodetect phase</source>
+        <translation>&amp;Automatikus fázis érzékelés</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
-        <source>&amp;None</source>
-        <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;Nincs</translation>
+        <location filename="../basegui.cpp" line="1555"/>
+        <source>&amp;Deblock</source>
+        <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
-        <source>&amp;Blur</source>
-        <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1556"/>
+        <source>De&amp;ring</source>
+        <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
-        <source>&amp;Sharpen</source>
-        <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1558"/>
+        <source>Add n&amp;oise</source>
+        <translation>N&amp;oise hozzáadása</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1844"/>
-        <source>&amp;Channels</source>
-        <translation>&amp;Csatornák</translation>
+        <location filename="../basegui.cpp" line="1775"/>
+        <source>F&amp;ilters</source>
+        <translation>S&amp;zűrők</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1847"/>
-        <source>&amp;Stereo mode</source>
-        <translation>&amp;Sztereó mód</translation>
+        <location filename="../basegui.cpp" line="1527"/>
+        <source>&amp;Equalizer</source>
+        <translation>&amp;Kiegyenlítő (EQ)</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1528"/>
+        <source>&amp;Screenshot</source>
+        <translation>&amp;Pillanatkép</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1781"/>
+        <source>S&amp;tay on top</source>
+        <translation>Mindig &amp;felül</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1576"/>
+        <source>&amp;Extrastereo</source>
+        <translation>&amp;Extra sztereo</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1577"/>
+        <source>&amp;Karaoke</source>
+        <translation>&amp;Karaoke</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1841"/>
+        <source>&amp;Filters</source>
+        <translation>&amp;Szűrők</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1851"/>
@@ -985,14 +750,9 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1854"/>
-        <source>&amp;6.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {6.1 ?}</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1855"/>
-        <source>&amp;7.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {7.1 ?}</translation>
+        <location filename="../basegui.cpp" line="1844"/>
+        <source>&amp;Channels</source>
+        <translation>&amp;Csatornák</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1858"/>
@@ -1005,14 +765,34 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;Jobb csatorna</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
-        <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1847"/>
+        <source>&amp;Stereo mode</source>
+        <translation>&amp;Sztereó mód</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1861"/>
-        <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1566"/>
+        <source>&amp;Mute</source>
+        <translation>&amp;Némítás</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1567"/>
+        <source>Volume &amp;-</source>
+        <translation>Hangerő &amp;-</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1568"/>
+        <source>Volume &amp;+</source>
+        <translation>Hangerő &amp;+</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1569"/>
+        <source>&amp;Delay -</source>
+        <translation>K&amp;ésleltetés -</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1570"/>
+        <source>D&amp;elay +</source>
+        <translation>Ké&amp;sleltetés +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
@@ -1020,9 +800,29 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;Kiválaszt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
-        <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1581"/>
+        <source>&amp;Load...</source>
+        <translation>&amp;Betöltés...</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1583"/>
+        <source>Delay &amp;-</source>
+        <translation>Késleltetés &amp;-</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1584"/>
+        <source>Delay &amp;+</source>
+        <translation>Késleltetés &amp;+</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1586"/>
+        <source>&amp;Up</source>
+        <translation>&amp;Fel</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1587"/>
+        <source>&amp;Down</source>
+        <translation>&amp;Le</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1874"/>
@@ -1040,72 +840,9 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;Kamera látószög</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
-        <source>&amp;OSD</source>
-        <translation>&amp;OSD</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="3913"/>
-        <source>Donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="3914"/>
-        <location filename="../basegui.cpp" line="4324"/>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="3917"/>
-        <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4322"/>
-        <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4325"/>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4326"/>
-        <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4355"/>
-        <location filename="../basegui.cpp" line="4363"/>
-        <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4356"/>
-        <location filename="../basegui.cpp" line="4364"/>
-        <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4357"/>
-        <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4365"/>
-        <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5066"/>
-        <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5067"/>
-        <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../basegui.cpp" line="1619"/>
+        <source>&amp;Playlist</source>
+        <translation>Lejátszási l&amp;ista</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1805"/>
@@ -1113,12 +850,29 @@ Valóban felül akarja írni?</translation>
         <translation>&amp;Kikapcsolva</translation>
     </message>
     <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - MPlayer napló</translation>
+        <location filename="../basegui.cpp" line="1901"/>
+        <source>&amp;OSD</source>
+        <translation>&amp;OSD</translation>
     </message>
     <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - SMPlayer napló</translation>
+        <location filename="../basegui.cpp" line="1908"/>
+        <source>&amp;View logs</source>
+        <translation>&amp;Naplók megjelenítése</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1621"/>
+        <source>P&amp;references</source>
+        <translation>&amp;Beállítások</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1648"/>
+        <source>About &amp;Qt</source>
+        <translation>&amp;Qt névjegye</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1649"/>
+        <source>About &amp;SMPlayer</source>
+        <translation>&amp;SMPlayer névjegye</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3135"/>
@@ -1162,6 +916,11 @@ Valóban felül akarja írni?</translation>
         <translation>Válasszon egy fájlt</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1623"/>
+        <source>&amp;YouTube%1 browser</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="3735"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Információ</translation>
@@ -1191,32 +950,32 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="4269"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4270"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4271"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4272"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4273"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4328"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4543"/>
@@ -1329,6 +1088,38 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Kevesebb hangerő (2)</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1557"/>
+        <source>Debanding (&amp;gradfun)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1610"/>
+        <source>&amp;Default</source>
+        <comment>subfps menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1635"/>
+        <source>First Steps &amp;Guide</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1641"/>
+        <source>Update &amp;Youtube code</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1644"/>
+        <source>&amp;Open configuration folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1646"/>
+        <location filename="../basegui.cpp" line="4327"/>
+        <source>&amp;Donate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1670"/>
         <source>Inc volume (2)</source>
         <translation>Több hangerő (2)</translation>
@@ -1404,6 +1195,181 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Előző fejezet</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1789"/>
+        <source>De&amp;noise</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1792"/>
+        <source>Blur/S&amp;harp</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1814"/>
+        <source>&amp;Off</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1815"/>
+        <source>&amp;Normal</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1816"/>
+        <source>&amp;Soft</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1818"/>
+        <source>&amp;None</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1819"/>
+        <source>&amp;Blur</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1820"/>
+        <source>&amp;Sharpen</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1854"/>
+        <source>&amp;6.1 Surround</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1855"/>
+        <source>&amp;7.1 Surround</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1860"/>
+        <source>&amp;Mono</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1861"/>
+        <source>Re&amp;verse</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1870"/>
+        <source>F&amp;rames per second</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1917"/>
+        <source>SMPlayer - MPlayer log</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1920"/>
+        <source>SMPlayer - SMPlayer log</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3913"/>
+        <source>Donate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3914"/>
+        <location filename="../basegui.cpp" line="4324"/>
+        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3917"/>
+        <source>Yes, I want to donate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4322"/>
+        <source>Help SMPlayer</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4325"/>
+        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4326"/>
+        <source>What would you like to do?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4355"/>
+        <location filename="../basegui.cpp" line="4363"/>
+        <source>Problems with Youtube</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4356"/>
+        <location filename="../basegui.cpp" line="4364"/>
+        <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4357"/>
+        <source>Do you want to update the Youtube code? This may fix the problem.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4365"/>
+        <source>Maybe updating SMPlayer could fix the problem.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5066"/>
+        <source>The YouTube Browser couldn&apos;t be launched.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5067"/>
+        <source>Be sure %1 is installed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1904"/>
+        <source>S&amp;hare SMPlayer with your friends</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2876"/>
+        <location filename="../basegui.cpp" line="3502"/>
+        <source>Information</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2877"/>
+        <source>You need to restart SMPlayer to use the new GUI.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3282"/>
+        <source>Confirm deletion - SMPlayer</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3283"/>
+        <source>Delete the list of recent files?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3503"/>
+        <source>The current values have been stored to be used as default.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1683"/>
         <source>Inc saturation</source>
         <translation>Több telítettség</translation>
@@ -1452,18 +1418,6 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <location filename="../basegui.cpp" line="1464"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Hanglemez</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">Denoise nor&amp;mál</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">Denoise &amp;lágy</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">Denoise &amp;ki</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
@@ -1921,22 +1875,22 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1739"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1977,43 +1931,43 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Letöltés...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Hiba</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2056,7 +2010,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../core.cpp" line="4049"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core.cpp" line="3131"/>
@@ -2092,7 +2046,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2152,12 +2106,12 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../core.cpp" line="528"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core.cpp" line="542"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2195,12 +2149,12 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="550"/>
         <source>A:%1</source>
-        <translation></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="554"/>
         <source>B:%1</source>
-        <translation></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="513"/>
@@ -2220,28 +2174,28 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="529"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2279,7 +2233,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2360,12 +2314,12 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2383,27 +2337,27 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished">Sz&amp;erkesztés...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished">&amp;Ugrás...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Következő</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2411,7 +2365,7 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2543,29 +2497,6 @@ Például: resample=44100:0:0,volnorm</translation>
     </message>
 </context>
 <context>
-    <name>Filters</name>
-    <message>
-        <source>add noise</source>
-        <translation type="obsolete">Noise hozzáadása</translation>
-    </message>
-    <message>
-        <source>deblock</source>
-        <translation type="obsolete">deblock</translation>
-    </message>
-    <message>
-        <source>normal denoise</source>
-        <translation type="obsolete">normál denoise</translation>
-    </message>
-    <message>
-        <source>soft denoise</source>
-        <translation type="obsolete">lágy denoise</translation>
-    </message>
-    <message>
-        <source>volume normalization</source>
-        <translation type="obsolete">hangerő normalizálás</translation>
-    </message>
-</context>
-<context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
@@ -2615,12 +2546,12 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -2693,7 +2624,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
@@ -2708,24 +2639,22 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2801,7 +2730,8 @@ Például: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
         <translation type="obsolete">
-            <numerusform>%1 felirat kicsomagolva</numerusform>
+            <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
         </translation>
     </message>
     <message>
@@ -2823,7 +2753,7 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nem sikerült elmenteni a letöltött fájlt a %1 könyvtárba. Ellenőrizze a könyvtár jogosultságait.</translation>
@@ -2851,12 +2781,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3053,7 +2983,7 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="88"/>
@@ -3560,7 +3490,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -3883,7 +3813,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
@@ -4312,14 +4242,14 @@ Valóban felül akarja írni?</translation>
         <translation>Másolás a vágólapra</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
-        <source>Close</source>
-        <translation>Bezár</translation>
-    </message>
-    <message>
         <location filename="../logwindowbase.ui" line="80"/>
         <source>&amp;Close</source>
         <translation>&amp;Bezár</translation>
+    </message>
+    <message>
+        <location filename="../logwindowbase.ui" line="77"/>
+        <source>Close</source>
+        <translation>Bezár</translation>
     </message>
 </context>
 <context>
@@ -4327,7 +4257,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4335,12 +4265,12 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="238"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="239"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4348,7 +4278,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4361,12 +4291,12 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4379,7 +4309,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
@@ -4401,12 +4331,12 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4414,37 +4344,37 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Lejátszás / Szünet</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
-        <translation type="unfinished">Megállítás</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4458,48 +4388,6 @@ Valóban felül akarja írni?</translation>
         <location filename="../playlist.cpp" line="286"/>
         <source>Length</source>
         <translation>Hossz</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="800"/>
-        <source>Choose a file</source>
-        <translation>Válasszon egy fájlt</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="818"/>
-        <source>Choose a filename</source>
-        <translation>Válasszon egy fájlnevet</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="829"/>
-        <source>Confirm overwrite?</source>
-        <translation>Valóban felülírja?</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="1014"/>
-        <source>Select one or more files to open</source>
-        <translation>Válasszon ki egy vagy több megnyitandó fájlt</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="1070"/>
-        <source>Choose a directory</source>
-        <translation>Válasszon egy könyvtárat</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="830"/>
-        <source>The file %1 already exists.
-Do you want to overwrite?</source>
-        <translation>%1 fájl már létezik.
-Valóban felül akarja írni?</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="1281"/>
-        <source>Edit name</source>
-        <translation>Név szerkesztése</translation>
-    </message>
-    <message>
-        <location filename="../playlist.cpp" line="1282"/>
-        <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Írjon be egy nevet ami a lejátszási listában meg lesz jelenítve ehhez a fájlhoz:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="291"/>
@@ -4518,9 +4406,51 @@ Valóban felül akarja írni?</translation>
         <translation>Lejátszási listák</translation>
     </message>
     <message>
+        <location filename="../playlist.cpp" line="800"/>
+        <source>Choose a file</source>
+        <translation>Válasszon egy fájlt</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="818"/>
+        <source>Choose a filename</source>
+        <translation>Válasszon egy fájlnevet</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="829"/>
+        <source>Confirm overwrite?</source>
+        <translation>Valóban felülírja?</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="830"/>
+        <source>The file %1 already exists.
+Do you want to overwrite?</source>
+        <translation>%1 fájl már létezik.
+Valóban felül akarja írni?</translation>
+    </message>
+    <message>
         <location filename="../playlist.cpp" line="1017"/>
         <source>All files</source>
         <translation>Minden fájl</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1014"/>
+        <source>Select one or more files to open</source>
+        <translation>Válasszon ki egy vagy több megnyitandó fájlt</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1070"/>
+        <source>Choose a directory</source>
+        <translation>Válasszon egy könyvtárat</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1281"/>
+        <source>Edit name</source>
+        <translation>Név szerkesztése</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1282"/>
+        <source>Type the name that will be displayed in the playlist for this file:</source>
+        <translation>Írjon be egy nevet ami a lejátszási listában meg lesz jelenítve ehhez a fájlhoz:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="288"/>
@@ -4580,7 +4510,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../playlist.cpp" line="310"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="313"/>
@@ -4620,7 +4550,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../playlist.cpp" line="1016"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimédia</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4649,7 +4579,7 @@ Valóban felül akarja írni?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
@@ -4734,12 +4664,12 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="533"/>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="598"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="604"/>
@@ -4834,12 +4764,12 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Report MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -5039,17 +4969,17 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="475"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="268"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -5229,16 +5159,6 @@ Például: resample=44100:0:0,volnorm</translation>
         <translation>Média beállítások</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
-        <source>Preferred audio and subtitles</source>
-        <translation>Preferált hang és feliratok</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="892"/>
-        <source>Video</source>
-        <translation>Videó</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="954"/>
         <source>Start videos in fullscreen</source>
         <translation>Videók indítása teljes képernyős módban</translation>
@@ -5249,11 +5169,6 @@ Például: resample=44100:0:0,volnorm</translation>
         <translation>Képernyőkímélő kikapcsolása</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="987"/>
-        <source>Audio</source>
-        <translation>Hang</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="127"/>
         <source>Select the mplayer executable</source>
         <translation>Válassza ki az MPlayer futtatható fájlt</translation>
@@ -5261,12 +5176,12 @@ Például: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="100"/>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 Surround) {7 (6.1 ?}</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 Surround) {8 (7.1 ?}</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="129"/>
@@ -5464,14 +5379,14 @@ Például: resample=44100:0:0,volnorm</translation>
         <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="196"/>
-        <source>&amp;Pause when minimized</source>
-        <translation>&amp;Szünet kis méretnél</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="657"/>
         <source>C&amp;hannels by default:</source>
         <translation>A&amp;lapértelmezett csatornák:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="196"/>
+        <source>&amp;Pause when minimized</source>
+        <translation>&amp;Szünet kis méretnél</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="886"/>
@@ -5608,6 +5523,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="737"/>
         <source>Volume</source>
         <translation>Hangerő</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="892"/>
+        <source>Video</source>
+        <translation>Videó</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="987"/>
+        <source>Audio</source>
+        <translation>Hang</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1059"/>
+        <source>Preferred audio and subtitles</source>
+        <translation>Preferált hang és feliratok</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="105"/>
@@ -6012,32 +5942,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="341"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="342"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="397"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="994"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -6527,11 +6457,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Felület</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
-        <source>Seeking</source>
-        <translation>Keresés</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="77"/>
         <source>Never</source>
         <translation>Soha</translation>
@@ -6549,7 +6474,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="759"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -6566,11 +6491,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="674"/>
         <source>Here you can change the language of the application.</source>
         <translation>Itt tudja megváltoztatni az alkalmazás nyelvét.</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="740"/>
-        <source>Instances</source>
-        <translation>Példányok</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="177"/>
@@ -6635,12 +6555,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="373"/>
@@ -6670,22 +6590,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
         <source>URLs</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="828"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="867"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
@@ -6701,12 +6621,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="529"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="542"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="587"/>
@@ -6736,7 +6656,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="778"/>
@@ -6751,22 +6671,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="211"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
@@ -6776,12 +6696,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="688"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="692"/>
@@ -6802,6 +6722,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="697"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Itt megváltoztathatja az alkalmazás betűtípusát.</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="699"/>
+        <source>Seeking</source>
+        <translation>Keresés</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="701"/>
@@ -6863,43 +6788,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="783"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="787"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="788"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="517"/>
         <location filename="../prefinterface.cpp" line="721"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="722"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="740"/>
+        <source>Instances</source>
+        <translation>Példányok</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
@@ -6925,10 +6855,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="676"/>
         <source>GUI</source>
         <translation>Felület</translation>
-    </message>
-    <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="obsolete">Válassza ki a használni kívánt felületet. Jelenleg kétféle érhető el: Az Alap felület és a Mini felület.&lt;br&gt;Az &lt;b&gt;alap felület&lt;/b&gt; hagyományos felületet nyújt, eszköztárral és vezérlősávval. A &lt;b&gt;Mini felület&lt;/b&gt; egy egyszerűbb felületet nyújt, eszköztár nélkül és kevesebb gombbal a vezérlősávon.&lt;br&gt;&lt;b&gt;Megjegyzés:&lt;/b&gt; ez az opció az SMPlayer következő futtatásakor lép életbe.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="185"/>
@@ -7039,37 +6965,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="668"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="727"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="728"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="730"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="565"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -7127,11 +7053,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>tétlen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="338"/>
-        <source>Cache</source>
-        <translation>Gyorsítótár</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="423"/>
         <location filename="../prefperformance.ui" line="460"/>
         <location filename="../prefperformance.ui" line="497"/>
@@ -7150,21 +7071,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Allow frame drop</source>
         <translation>Kép eldobás engedélyezése</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="299"/>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="318"/>
-        <source>Fast audio track switching</source>
-        <translation>Gyors hangsávváltás</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="328"/>
-        <source>Fast seek to chapters in dvds</source>
-        <translation>Gyors léptetés a fejezetekhez DVD-ken</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
@@ -7205,6 +7111,16 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="332"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Gyors &amp;léptetés a fejezetekhez DVD-ken</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="318"/>
+        <source>Fast audio track switching</source>
+        <translation>Gyors hangsávváltás</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="328"/>
+        <source>Fast seek to chapters in dvds</source>
+        <translation>Gyors léptetés a fejezetekhez DVD-ken</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
@@ -7297,6 +7213,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Hurok&amp;szűrő</translation>
     </message>
     <message>
+        <location filename="../prefperformance.cpp" line="299"/>
+        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Ez az opció lehetővé teszi a hurokszűrő (deblocking) kihagyását H.264 dekódoláskor. Mivel a szűrt képkocka a referencia a tőle függő képkockák dekódolásához, ezért ez rosszabb hatással van a minőségre, mint a deblocking kihagyása pl. MPEG-2 videón. De legalább magas bitrátájú HDTV esetén ez nagy sebességnövekedést ad látható minőségromlás nélkül.</translation>
@@ -7320,6 +7241,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="314"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Kihagyás HD videó esetén&lt;/b&gt;: a hurokszűrő csak %1 vagy nagyobb magasságú videók esetén lesz kihagyva.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="338"/>
+        <source>Cache</source>
+        <translation>Gyorsítótár</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="353"/>
@@ -7377,10 +7303,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>CoreAVC használata ha nincs más kodek beállítva</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec with no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">A nem szabad szoftver CoreAVC kodek használata ha nincs más kodek beállítva és nem VDPAU video kimenet van kiválasztva. CoreAVC-t támogató MPlayer buildet igényel.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="277"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation>&amp;CoreAVC használata ha nincs más kodek beállítva</translation>
@@ -7393,17 +7315,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube minőség</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube &amp;minőség</translation>
     </message>
 </context>
 <context>
@@ -7436,27 +7358,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
@@ -7476,37 +7398,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished">Ha bejelöli, akkor egy könyvtár hozzáadásakor az alkönyvtárakban található fájlok is hozzá lesznek adva. Máskülönben csak a kijelölt könyvtárban lévő fájlok lesznek hozzáadva.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished">Jelölje be a fájl információk olvasásához hozzáadáskor. Ezzel megjeleníthető a cím (ha elérhető) és a fájlok hossza. Máskülönben ez az információ nem lesz elérhető a fájl lejátszásáig. Figyelem: ez az opció lassulást okozhat, különösen sok fájl hozzáadásakor.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished">&amp;Lejátszási lista mentése kilépéskor</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -7572,11 +7494,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Bottom</source>
         <translation>Lent</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="438"/>
-        <source>Include subtitles on screenshots</source>
-        <translation>Feliratok beépítése a pillanatképekbe</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="344"/>
@@ -7678,6 +7595,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Alapértelmezett felirat kódolás</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="438"/>
+        <source>Include subtitles on screenshots</source>
+        <translation>Feliratok beépítése a pillanatképekbe</translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>TTF font</source>
         <translation>TTF betűtípus</translation>
@@ -7686,10 +7608,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>System font</source>
         <translation>Rendszer betűtípus</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete">Itt kiválaszthatja a feliratokhoz és OSD-hez használt rendszer betűtípust. &lt;b&gt;Megjegyzés:&lt;/b&gt; fontconfig-ot támogató MPlayer szükséges.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -7784,7 +7702,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
@@ -8131,21 +8049,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ha ez az opció be van jelölve, a feliratok meg fognak jelenni a pillanatképeken. &lt;b&gt;Megjegyzés:&lt;/b&gt; néha gondot okozhat.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="560"/>
-        <source>Apply style to ass files too</source>
-        <translation>Stílus alkalmazása ass fájlokra is</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="561"/>
-        <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Ha ez az opció be van jelölve, a fent meghatározott stílus az ass feliratokra is alkalmazva lesz.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1211"/>
-        <source>A&amp;pply style to ass files too</source>
-        <translation>S&amp;tílus alkalmazása ass fájlokra is</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
         <translation>Saját SSA/ASS stílus</translation>
@@ -8184,6 +8087,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
         <translation>Sa&amp;ját...</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="560"/>
+        <source>Apply style to ass files too</source>
+        <translation>Stílus alkalmazása ass fájlokra is</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="561"/>
+        <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
+        <translation>Ha ez az opció be van jelölve, a fent meghatározott stílus az ass feliratokra is alkalmazva lesz.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1211"/>
+        <source>A&amp;pply style to ass files too</source>
+        <translation>S&amp;tílus alkalmazása ass fájlokra is</translation>
     </message>
 </context>
 <context>
@@ -8264,57 +8182,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8459,17 +8377,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-        </translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8517,7 +8431,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -8532,14 +8446,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>QuaZipFile</name>
-    <message>
-        <source>ZIP/UNZIP API error %1</source>
-        <translation type="obsolete">ZIP/UNZIP API hiba %1</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8588,47 +8495,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="392"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Eszköztárak</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">Álla&amp;potsáv</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">&amp;Fő eszköztár</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">&amp;Videó infó</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Playing %1</source>
-        <translation type="unfinished">%1 lejátszása</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Pause</source>
-        <translation type="unfinished">Szünet</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="423"/>
         <source>Stop</source>
-        <translation type="unfinished">Megállítás</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8680,73 +8587,73 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">&amp;Le</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">&amp;Fel</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8772,93 +8679,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Kontraszt</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Fényerő</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Színárnyalat</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Telítettség</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gamma</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">Ala&amp;phelyzet</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">Beállítá&amp;s alapértéknek</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">A jelenlegi értékek használata mint alapérték az új videókhoz.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Minden vezérlő nullára állítása.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Videó kiegyenlítő</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Információ</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">A jelenlegi értékek el lettek mentve alapértelmezettnek.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8866,12 +8722,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Videó kiegyenlítő</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="66"/>
@@ -8880,52 +8736,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="228"/>
         <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">Ala&amp;phelyzet</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Minden vezérlő nullára állítása.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -9111,10 +8967,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Méretarány:</translation>
     </message>
     <message>
-        <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="obsolete">&amp;Kezdésnél kihagyandó másodpercek:</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>
         <source>&amp;Maximum width:</source>
         <translation>&amp;Maximális szélesség:</translation>
@@ -9173,7 +9025,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
@@ -9201,17 +9053,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation type="unfinished">Lejátszási lista</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>

@@ -1,12 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="en">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="vi" version="2.0">
 <context>
     <name>About</name>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Version: %1</source>
         <translation>Phiên bản %1</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="67"/>
+        <source>Links:</source>
+        <translation>Các liên kết:</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>Official website:</source>
+        <translation>Web chính thức:</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="69"/>
+        <source>Support forum:</source>
+        <translation>Diễn đàn hỗ trợ:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="143"/>
@@ -16,7 +29,7 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Spanish</source>
-        <translation type="unfinished">Tiếng Tây Ban Nha</translation>
+        <translation>Tiếng Tây Ban Nha</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
@@ -39,10 +52,6 @@
         <translation>Tiếng Pháp</translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 và %3</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="155"/>
         <source>Simplified-Chinese</source>
         <translation>Tiếng Trung phổ thông</translation>
@@ -54,7 +63,7 @@
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation type="obsolete">%1 và %2</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -144,21 +153,17 @@
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>Hebrew</source>
-        <translation type="unfinished">Tiếng Do Thái</translation>
+        <translation>Tiếng Do Thái</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="210"/>
         <source>Thai</source>
-        <translation type="unfinished">Tiếng Thái Lan</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="211"/>
         <source>Malay</source>
-        <translation type="unfinished">Tiếng Ma Lay Xia</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;:%2</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="235"/>
@@ -168,7 +173,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About SMPlayer</source>
-        <translation>Về SMPlayer</translation>
+        <translation>Dịch bởi Phan Anh</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -199,14 +204,6 @@
         <translation>&amp;Giấy Phép</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Tới thăm trang web của chúng tôi để lấy bản cập nhật:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Tìm trợ giúp từ diễn đàn của chúng tôi:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="192"/>
         <source>Korean</source>
         <translation>Tiếng Triều Tiên</translation>
@@ -234,7 +231,7 @@
     <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
-        <translation>Phiên bản di động</translation>
+        <translation>Phiên bản không cần cài đặt</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="65"/>
@@ -264,85 +261,62 @@
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
-        <translation>Logo SMPlayer tạo bởi %1</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1, %2, %3 và %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1, %2, %3,%4 và %5</translation>
+        <translation>Logo SMPlayer được tạo bởi %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="202"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">Tiếng Việt</translation>
+        <translation>Tôi Yêu Việt Nam</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="203"/>
         <source>Estonian</source>
-        <translation type="unfinished">Tiếng Ex Tô Nhia</translation>
+        <translation>Estonian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="204"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">Lithuanian</translation>
+        <translation>Lithuanian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="207"/>
         <source>Danish</source>
-        <translation type="unfinished">Tiếng Đan Mạch</translation>
+        <translation>Danish</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="208"/>
         <source>Croatian</source>
-        <translation type="unfinished">Tiếng Croatia</translation>
+        <translation>Croatian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="67"/>
-        <source>Links:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="68"/>
-        <source>Official website:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="69"/>
-        <source>Support forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sử dụng MPlayer2 %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer sử dụng bộ phận engine phát lại đã đạt được nhiều giải thưởng là MPlayer. Xem %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>Đọc toàn bộ phần nội dung bản quyền</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Đọc phần phiên dịch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Các gói cài đặt dành cho hệ điều hành Windows được điều hành bởi %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã có nhiều sự đóng góp từ các thành viên khác đối với các bản vá lỗi. Xem phần Nhật Trình Thay Đổi để biết thêm chi tiết.</translation>
     </message>
 </context>
 <context>
@@ -518,14 +492,6 @@ Có nên ghi đè lên không?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - thông báo của mplayer</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - thông báo của smplayer</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1710"/>
         <source>&amp;Open</source>
         <translation>&amp;Mở</translation>
@@ -654,7 +620,7 @@ Có nên ghi đè lên không?</translation>
         <location filename="../basegui.cpp" line="1604"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished">&amp;Tắt</translation>
+        <translation>&amp;Tắt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -906,7 +872,7 @@ Có nên ghi đè lên không?</translation>
     <message>
         <location filename="../basegui.cpp" line="1649"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Về &amp;SMPlayer</translation>
+        <translation>Chuyển ngữ bởi Phan Anh</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3135"/>
@@ -917,7 +883,7 @@ Có nên ghi đè lên không?</translation>
         <location filename="../basegui.cpp" line="3234"/>
         <location filename="../basegui.cpp" line="3274"/>
         <source>&lt;empty&gt;</source>
-        <translation></translation>
+        <translation>&lt;không có dữ liệu&gt;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3685"/>
@@ -952,7 +918,7 @@ Có nên ghi đè lên không?</translation>
     <message>
         <location filename="../basegui.cpp" line="1623"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3735"/>
@@ -984,32 +950,32 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="4269"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4270"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4271"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4272"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4273"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4328"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4543"/>
@@ -1124,34 +1090,34 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tách nhóm (&amp;gradun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1610"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">&amp;Mặc định</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mở thư mục cấu hình</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4327"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1231,177 +1197,177 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="1789"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>De&amp;noise</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1792"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Blur/S&amp;harp</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">&amp;Tắt</translation>
+        <translation>&amp;Tắt</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bình thường</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dịu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1818"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;Không</translation>
+        <translation>&amp;Không</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mờ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sắc nét</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1854"/>
         <source>&amp;6.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {6.1 ?}</translation>
+        <translation>&amp;6.1 Vòm</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1855"/>
         <source>&amp;7.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 Surround {7.1 ?}</translation>
+        <translation>&amp;7.1 Vòm</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1860"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1861"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1917"/>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - nhật ký MPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1920"/>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - nhật ký SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4324"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4322"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4325"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4326"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4355"/>
         <location filename="../basegui.cpp" line="4363"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4356"/>
         <location filename="../basegui.cpp" line="4364"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4357"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4365"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5066"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5067"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2876"/>
         <location filename="../basegui.cpp" line="3502"/>
         <source>Information</source>
-        <translation type="unfinished">Thông tin</translation>
+        <translation>Thông tin</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2877"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bạn cần khởi động lại SMPlayer để sử dụng GUI mới.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3282"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Xác nhận thao tác xóa - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3283"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
+        <translation>Xóa danh sách các tập tin gần đây?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3503"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished">Dùng giá trị hiện giờ đã được dùng làm giá trị mặc định.</translation>
+        <translation>Dùng giá trị hiện giờ đã được dùng làm giá trị mặc định.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1683"/>
@@ -1452,18 +1418,6 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <location filename="../basegui.cpp" line="1464"/>
         <source>&amp;Audio CD</source>
         <translation>Đĩa CD &amp;tiếng</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">Giảm nhiễu &amp;bình thường</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">Giảm nhiễu &amp;nhẹ</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">&amp;Tắt giảm nhiễu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
@@ -1813,130 +1767,130 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Độ trễ phụ đề (theo mili giây):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1529"/>
-        <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1831"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>Nút thay đổi ở trên cùng</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4687"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nhảy tới %1</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1529"/>
+        <source>Start/stop takin&amp;g screenshots</source>
+        <translation>Bắt đầu/ngừng chụp màn hình</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1597"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>Phụ đề &amp;hiển thị</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1696"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Tính năng bánh xe kế tiếp</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>Chương &amp;trình</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1742"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1745"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>Đà&amp;i</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1703"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Ch&amp;ỉ phụ đề</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>Âm lượng + &amp;Tìm kiếm</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Âm lượng + Tìm kiếm +&amp;Đồng hồ bấm giờ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1706"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>Âm lượng + Tìm kiếm + Đồng hồ bấm giờ + T&amp;ổng thời gian</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1417"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ lọc video bị vô hiệu khi dử dụng vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1533"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>Trượ&amp;t ảnh</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>Phóng t&amp;o</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1698"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiển thị tên tài liệu trên OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1506"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Thiết lập &amp;bộ đánh dấu A</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1507"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Thiết lập &amp;bộ đánh dấu B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Xóa bộ đánh dấu A-B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1752"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Phạm vi phát A-B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1699"/>
         <source>Toggle deinterlacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Chuyển đổi chế độ chống quét mành</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Đóng lại lời chú thích</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ổ đĩa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1739"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>Ư&amp;a thích</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Kiểm tra cập nhật</translation>
     </message>
 </context>
 <context>
@@ -1977,43 +1931,43 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Lỗi</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2054,6 +2008,11 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Phóng: %1</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="4049"/>
+        <source>Buffering...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3131"/>
         <location filename="../core.cpp" line="3143"/>
         <source>Font scale: %1</source>
@@ -2070,94 +2029,89 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Cập nhật kho lưu phông. Có thể cần vài giây...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2940"/>
-        <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="532"/>
-        <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3057"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ trễ phụ đề: %1 mili giây</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3074"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Đỗ trễ âm thanh: %1 mili giây</translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="2940"/>
+        <source>Speed: %1</source>
+        <translation>Tốc độ: %1</translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="532"/>
+        <source>Unable to retrieve the Youtube page</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>Phụ đề đang bật</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3188"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>Phụ đề đang tắt</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3718"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>Con lăn chuột đang tìm kiếm</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3721"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>Con lăn chuột đang thay đổi âm lượng</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3724"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>Con lăn chuột đang thay đổi mức độ thu phóng</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3727"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="4049"/>
-        <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation>Con lăn chuột đang thay đổi tốc độ</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1284"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1297"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2564"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ đánh dấu &quot;A&quot; được thiết lập đến %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2581"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ đánh dấu &quot;B&quot; được thiết lập đến %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2596"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>Đã xóa bộ đánh dấu A-B</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="528"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Đang kết nối đến %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="542"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Không thể xác định vị trí đường dẫn url của video</translation>
     </message>
 </context>
 <context>
@@ -2195,53 +2149,53 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../defaultgui.cpp" line="550"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>A:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="554"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>B:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="513"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Thanh trạng &amp;thái</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="525"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thông tin video</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bộ đếm khung hình</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="529"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thanh công cụ biên tập chính</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Thanh &amp;quản lý biên tập</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Thanh quản lý biên tập thu &amp;nhỏ</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ quản lý &amp;nổi biên tập</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1x%2 %3 khung hình mỗi giây</translation>
     </message>
 </context>
 <context>
@@ -2279,7 +2233,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2292,22 +2246,22 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Biểu tượng</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Name</source>
-        <translation type="unfinished">Tên</translation>
+        <translation>Tên</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Media</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="107"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ biên tập ưa thích</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -2315,57 +2269,57 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <location filename="../favoriteeditor.cpp" line="168"/>
         <location filename="../favoriteeditor.cpp" line="268"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>Danh sách ưa thích</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="110"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bạn có thể biên tập, xóa, phân loại, hoặc thêm vào các mục mới. Nhấp đúp vào một ô để biên tập nội dung của nó.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="341"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn một biểu tượng</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="343"/>
         <source>Images</source>
-        <translation type="unfinished">Các ảnh</translation>
+        <translation>Hình ảnh</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished"></translation>
+        <translation>biểu tượng</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>X&amp;óa</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>Xóa &amp;tất cả</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">&amp;Lên</translation>
+        <translation>&amp;Lên</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="112"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">&amp;Xuống</translation>
+        <translation>&amp;Xuống</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mục mới</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bảng chọn phụ mới</translation>
     </message>
 </context>
 <context>
@@ -2373,37 +2327,37 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../favorites.cpp" line="372"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>Nhảy tới mục</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="373"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nhập số của mục muốn nhảy tới trong danh sách</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Biên tập...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nhảy...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Tiếp</translation>
+        <translation>&amp;Tiếp</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Trước</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thêm media hiện tại</translation>
     </message>
 </context>
 <context>
@@ -2411,7 +2365,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Click để chọn một tập tin hoặc thư mục</translation>
     </message>
 </context>
 <context>
@@ -2592,12 +2546,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Máy chủ</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mở phụ đề máy chủ:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -2670,7 +2624,7 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiếng Bồ Đào Nha - Brazil</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
@@ -2685,25 +2639,22 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>%n phụ đề được trích ra</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lỗi sửa dòng phụ đề</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2779,8 +2730,8 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <source>%1 subtitle(s) extracted</source>
         <translation type="obsolete">
-            <numerusform>Đã lấy được %1 phụ đề</numerusform>
-            <numerusform>Đã lấy được %1 phụ đề</numerusform>
+            <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
         </translation>
     </message>
     <message>
@@ -2802,7 +2753,7 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Không thể nào lưu tập tin đã tải xuống
@@ -2832,12 +2783,12 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer đang khởi chạy</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tạo một bộ nhớ truy cập nhanh phông chữ...</translation>
     </message>
 </context>
 <context>
@@ -3110,7 +3061,7 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 hoặc mới hơn</translation>
     </message>
 </context>
 <context>
@@ -3541,7 +3492,7 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Na uy</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -3864,7 +3815,7 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
@@ -4235,7 +4186,7 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
     <message>
         <location filename="../languages.cpp" line="308"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Cửa sổ tiếng Hy Lạp Hiện đại</translation>
     </message>
 </context>
 <context>
@@ -4308,7 +4259,7 @@ Bạn có muốn ghi đè lên?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Mẫu</translation>
     </message>
 </context>
 <context>
@@ -4316,12 +4267,12 @@ Bạn có muốn ghi đè lên?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="238"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Danh sách chơi xáo trộn</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="239"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Danh sách chơi lặp lại</translation>
     </message>
 </context>
 <context>
@@ -4329,7 +4280,7 @@ Bạn có muốn ghi đè lên?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>Khung điều khiển Media</translation>
     </message>
 </context>
 <context>
@@ -4342,12 +4293,12 @@ Bạn có muốn ghi đè lên?</translation>
     <message>
         <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Thanh &amp;quản lý biên tập</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ quản lý &amp;nổi biên tập</translation>
     </message>
 </context>
 <context>
@@ -4360,7 +4311,7 @@ Bạn có muốn ghi đè lên?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Thanh tìm kiếm</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
@@ -4382,12 +4333,12 @@ Bạn có muốn ghi đè lên?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4395,37 +4346,37 @@ Bạn có muốn ghi đè lên?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Quay lại từ đầu</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiến đến</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Chơi / Dừng</translation>
+        <translation>Chơi / Dừng</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
-        <translation type="unfinished">Ngừng chơi</translation>
+        <translation>Ngừng chơi</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Ghi lại</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin kế trong danh sách chơi</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Tập tin trước trong danh sách chơi</translation>
     </message>
 </context>
 <context>
@@ -4560,7 +4511,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="310"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="313"/>
@@ -4600,7 +4551,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1016"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Đa phương tiện</translation>
+        <translation>Đa phương tiện</translation>
     </message>
 </context>
 <context>
@@ -4629,7 +4580,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>B&amp;áo lỗi MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
@@ -4714,12 +4665,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="533"/>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="598"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="604"/>
@@ -4814,12 +4765,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Report MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Báo lỗi MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu mục này được chọn, một cửa sổ sẽ xuất hiện để thông báo về lỗi MPlayer. Nếu không những lỗi đó sẽ bị bỏ qua.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -4999,37 +4950,37 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="571"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dài dòng</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu nhật ký SMPlayer vào tập tin</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu mục này được chọn, nhật ký SMPlayer sẽ được ghi lại đến %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="636"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Lư&amp;u nhật ký SMPlayer vào một tập tin</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiển thị thông tin về thẻ đánh dấu trong tiêu đề trên cửa sổ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="475"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu tùy chọn này được bật, thông tin về các thẻ đánh dấu sẽ được hiển thị trong tiêu đề cửa sổ. Nếu không, chỉ hiển thị tên tập tin đang phát.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="268"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiển thị thô&amp;ng tin về thẻ đánh dấu trên tiêu đề cửa sổ</translation>
     </message>
 </context>
 <context>
@@ -5187,7 +5138,7 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Quét nộ dung các ổ đĩa CD/DVD</translation>
     </message>
 </context>
 <context>
@@ -5226,12 +5177,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="100"/>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 vòm) {7 (6.1 ?}</translation>
+        <translation>7 (6.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 vòm) {8 (7.1 ?}</translation>
+        <translation>8 (7.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="129"/>
@@ -5840,187 +5791,187 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="873"/>
         <source>Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Bật chế độ chụp ảnh màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="874"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bạn có thể sử dụng tùy chọn này để bật hoặc vô hiệu hoá tính năng chụp ảnh trên màn hình.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="878"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tại đây bạn sẽ thiết lập thư mục dùng để lưu trữ các hình ảnh được chụp từ chương trình. Nếu thư mục không hợp lệ thì tính năng chụp ảnh màn hình sẽ bị vô hiệu hóa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
         <source>&amp;MPlayer executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thực thị MPlayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Hình chụp màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bật chế độ chụp ảnh màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thư mục:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Âm lượng chung</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu tùy chọn này được bật, cùng một loại âm lượng sẽ được áp dụng với toàn bộ các tập tin mà bạn phát. Nếu không được chọn, thì mỗi tập tin phát sẽ được gắn với một loại âm lượng khác nhau do bạn chọn.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tùy chọn này cũng áp dụng với tính năng tắt âm thanh.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="755"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Â&amp;m lượng chung</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Tắt chế độ hiển thị trình bảo vệ màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="968"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tùy chọn này sẽ tắt chế độ hiển thị các trình bảo vệ màn hình của hệ điêu fhành trước khi bắt đầu phát một tập tin và chuyển lại chế độ bảo vệ màn hình khi việc phát tập tin đã kết thúc. Nếu tùy chọn này được bật, thì trình bảo vệ màn hình sẽ không được kích hoạt kể cả khi các đoạn audio hay video hoặc một tập tin nào đó bị tạm dừng.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Tránh hiển thị trình bảo vệ màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="974"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Khi đánh vào lựa chọn này, SMPlayer sẽ chặn việc hiển thị trình bảo vệ màn hình khi đang phát một tập tin video. Trình bảo vệ màn hình sẽ được hiển thị nếu phần mềm phát một tập tin âm thanh hoặc đang ở chế độ tạm ngừng. Lựa chọn này chỉ có hiệu lực nếu cửa sổ SMPlayer đang hiển thị trên màn hình.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="524"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Trình bảo vệ màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>Tắ&amp;t chế độ hiển thị trình bảo vệ màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="537"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Tránh hiển thị &amp;trình bảo vệ màn hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">Tự đồng bộ tiếng/hình</translation>
+        <translation>Tự đồng bộ tiếng/hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">Từ từ chỉnh đồng bộ H/T dựa trên đo lường độ trễ của âm thanh.</translation>
+        <translation>Từ từ chỉnh đồng bộ H/T dựa trên đo lường độ trễ của âm thanh.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiệu chỉnh đồng bộ T-H</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiệu chỉnh đồng bộ T-H tối đa mỗi khung hình (theo giây)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="840"/>
         <source>Synchronization</source>
-        <translation type="unfinished">Đồng bộ</translation>
+        <translation>Đồng bộ</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="860"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>Tự &amp;đồng bộ tiếng/hình</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hệ số:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="922"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hiệu chỉnh đồng bộ T-H</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="945"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiệu chỉnh &amp;tối đa:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="926"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Lưu ý:&lt;/b&gt; Lựa chọn này sẽ không được sử dụng cho các kênh TV.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="371"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mặc định chỉnh lệch&amp; dòng (ngoại trừ TV):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1013"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sử dụng cơ chế quét phần cứng dạng AC3.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1014"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Lưu ý:&lt;/b&gt;sẽ không có bộ lọc âm thành nào được sử dụng khi lựa chọn này được bật.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="341"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>chế độ bắt điểm</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="342"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>chế độ duyệt chậm</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="397"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="994"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 là lựa chọn được đề nghị. %2 chỉ có trên các bản MPlayer cũ hơn (trước phiên bản %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>Định &amp;dạng...</translation>
     </message>
 </context>
 <context>
@@ -6408,81 +6359,81 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Thay đổi tính năng của bánh lái</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tìm kiếm media</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <location filename="../prefinput.cpp" line="150"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Phóng video</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>Điều khiển &amp;âm lượng</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="533"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thay đổi tốc độ</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="340"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Tính năng con lăn chuột</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu để cho phép tìm kiếm là một tính năng.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu để cho phép thay đổi âm lượng là một tính năng.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="349"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu để cho phép thu phóng là một tính năng.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="352"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu để cho phép thay đổi tốc độ là một tín năng,</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="490"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Tính năng con lăn c&amp;huột</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="502"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn các động tác vốn sẽ được xoay vòng khi sử dụng lựa chọn &quot;Thay đổi tính năng của bánh xe&quot;.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Đổi chiều tìm kiếm con lăn chuột</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đánh dấu để tìm kiếm ở hướng ngược lại.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Đ&amp;ảo ngược việc trượt media</translation>
     </message>
 </context>
 <context>
@@ -6527,7 +6478,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="759"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Riêng &amp;tư</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -6608,12 +6559,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>Giao &amp;diện:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="373"/>
@@ -6643,22 +6594,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
         <source>URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Các đường dẫn URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="828"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
+        <translation>Số mục &amp;tối đa</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="867"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ghi nhớ thư mục mới nhất</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
@@ -6674,12 +6625,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="529"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Tìm kiếm &amp;vô điều kiện</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="542"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Tìm kiếm &amp;tương đối</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="587"/>
@@ -6709,7 +6660,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Riêng tư</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="778"/>
@@ -6724,22 +6675,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="211"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI có thể làm giao diện</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn GUI bạn thích cho trình ứng dụng này. Hiện tại có hai lựa chọn: GUI mặc định và GUI Mini.&lt;br&gt; &lt;b&gt;GUI mặc định&lt;/b&gt; cung cấp bộ GUI truyền thống, với thanh công cụ và thanh quản lý. &lt;b&gt;GUI Mini&lt;/b&gt; cung cấp một bộ GUI đơn giản hơn, không có thanh công cụ và thanh quàn lý, với chỉ vài nút.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
@@ -6749,12 +6700,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="688"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Giao diện</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn giao diện bạn thích cho trình ứng dụng này. Chỉ có bộ GUI có thể làm giao diện.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="692"/>
@@ -6841,43 +6792,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Số đường dẫn URL tối đa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="783"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn số mục tối đa mà cuộc hội thoại &lt;b&gt;Mở-&gt;đường dẫn URL&lt;/b&gt; sẽ ghi nhớ. Thiết đặt nó bằng 0 nếu bạn không muốn lưu trữ đường dẫn URL nào.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="787"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Ghi nhớ thư mục mới nhất</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="788"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu đánh dấu lựa chọn này, SMPlayer sẽ ghi nhớ thư mục mới nhất mà bạn dùng để mở một tập tin.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="517"/>
         <location filename="../prefinterface.cpp" line="721"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>Phương thức tìm kiếm</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="722"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Thiết đặt sử dụng phương thức này khi tìm kiếm bằng cách trượt. Tìm kiếm tuyệt đối có thể chính xác hơn, còn tìm kiếm tương đối sẽ hiệu quả hơn với các tập tin bị sai chiều dài.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="740"/>
@@ -6908,10 +6859,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="676"/>
         <source>GUI</source>
         <translation>GUI</translation>
-    </message>
-    <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="obsolete">Chọn GUI bạn muốn dùng cho ứng dụng. Hiện tại có hai khả năng: GUI mặc định và GUI nhỏ.&lt;br&gt;&lt;b&gt;GUI Mặc định&lt;/b&gt; cung cấp GUI kiểu truyền thống, với thanh công cụ và thanh điều khiển. &lt;b&gt;GUI Nhỏ&lt;/b&gt; cung cấp một GUI đơn giản hơn, không có thanh công cụ và một thanh điều khiển chỉ với vài nút.&lt;br&gt;&lt;b&gt;Chú ý:&lt;/b&gt; chọn lựa này sẽ có tác dụng từ lần bạn chạy SMPlayer sau.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="185"/>
@@ -7022,37 +6969,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ẩn cửa sổ video khi phát tập tin âm thanh</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="668"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu bật lựa chọn này cửa sổ video sẽ bị ẩn đi khi phát tập tin âm thanh.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ẩn cửa sổ video khi phát tập tin âm thanh</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="727"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Tìm kiếm chính xác</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="728"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu bật lựa chọn này, việc tìm kiếm sẽ chính xác hơn nhưng cũng chậm hơn một chút. Có thể vô hiệu với một số định dạng video.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="730"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>Lưu ý: lựa chọn này chỉ có hiệu lực với MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="565"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Tìm kiếm &amp;chính xác</translation>
     </message>
 </context>
 <context>
@@ -7272,7 +7219,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
@@ -7357,32 +7304,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="298"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Sử dụng CoreAVC nếu không định rõ được thuật giải codec nào khác</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="277"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sử dụng CoreAVC nếu không định rõ được thuật giải codec nào khác</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="591"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ đệm cho &amp;TV:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>chất lượng Youtube</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn chất lượng mong muốn cho các video youtube.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;chất lượng Youtube</translation>
     </message>
 </context>
 <context>
@@ -7415,27 +7362,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
@@ -7455,37 +7402,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Thêm các tập tin vào thư mục theo phương pháp đệ quy</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished">Đánh dấu lựa chọn này nếu như bạn muốn thêm một thư mục và thêm mọi tập tin trong các thư mục con một cách đệ quy. Nếu không chỉ những tập tin trong thư mục đã chọn là được thêm mà thôi.</translation>
+        <translation>Đánh dấu lựa chọn này nếu bạn muốn rằng việc thêm một thư mục cũng sẽ thêm các tập tin vào các thư mục con theo phương pháp đệ quy. Nếu không thì chỉ những tập tin trong thự mục đã chọn mới được thêm vào.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished">Đánh dấu lựa chọn này để truy vấn một số thông tin từ những tập tin được thêm vào danh sách chơi. Như vậy cho phép hiện tiêu đề (nếu có) và độ dài của các tập tin. Ngược lại thì những thông tin này sẽ không có ngay cho đến khi tập tin được chơi. Chú ý: lựa chọn này có thể sẽ chậm đặc biệt nếu bạn thêm nhiều tập tin cùng lúc.</translation>
+        <translation>Đánh dấu lựa chọn này để truy vấn thông tin từ những tập tin được thêm vào danh sách chơi. Việc đó cho phép hiển thị tiêu đề (nếu có) và độ dài của các tập tin này. Nếu không thì thông tin sẽ không sẵn có đến khi nào thực sự chơi tập tin đó. Cảnh báo: lựa chọn này có thể chậm, đặc biệt trong trường hợp bạn thêm vào nhiều tập tin cùng lúc.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hơi các tập tin từ đầu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Thêm các tập tin vào thư mục theo phương pháp &amp;đệ quy</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tự động lấy &amp;thông tin từ các tập tin đã thêm (chậm)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished">&amp;Lưu lại một bản của danh sách chơi khi thoát ra</translation>
+        <translation>&amp;Lưu lại một bản của danh sách chơi khi thoát ra</translation>
     </message>
 </context>
 <context>
@@ -7667,10 +7614,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Phông chữ của hệ thống</translation>
     </message>
     <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete">Bạn có thể chọn phông chữ hệ thống để dùng cho phụ đề và hiển thị trên màn ảnh. &lt;b&gt;Chú ý:&lt;/b&gt; yêu cần MPlayer có hỗ trợ fontconfig.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Autoscale</source>
         <translation>Tự động chỉnh cỡ</translation>
@@ -7763,7 +7706,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
@@ -8110,21 +8053,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nếu lựa chọn này được đánh dấu, phụ đề sẽ hiện ra trên ảnh chụp màn hình. &lt;b&gt;Chú ý:&lt;/b&gt; nó đôi khi có thể gây ra vấn đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="560"/>
-        <source>Apply style to ass files too</source>
-        <translation>Áp dụng kiểu cho các tập tin ass nữa</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="561"/>
-        <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Nếu như lựa chọn này được đánh dấu, kiểu được định nghĩa trên sẽ được áp dụng cho cả các phụ đề dạng ass nữa.</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="1211"/>
-        <source>A&amp;pply style to ass files too</source>
-        <translation>Á&amp;p dụng kiểu cho các tập tin ass nữa</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
         <translation>Tùy biến kiểu SSA/ASS</translation>
@@ -8164,78 +8092,93 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Custo&amp;mize...</source>
         <translation>Tùy b&amp;iến...</translation>
     </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="560"/>
+        <source>Apply style to ass files too</source>
+        <translation>Áp dụng kiểu cho các tập tin ass nữa</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="561"/>
+        <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
+        <translation>Nếu như lựa chọn này được đánh dấu, kiểu được định nghĩa trên sẽ được áp dụng cho cả các phụ đề dạng ass nữa.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="1211"/>
+        <source>A&amp;pply style to ass files too</source>
+        <translation>Á&amp;p dụng kiểu cho các tập tin ass nữa</translation>
+    </message>
 </context>
 <context>
     <name>PrefTV</name>
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>TV và đài</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished">Trống</translation>
+        <translation>Trống</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished">Lowpass5</translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished">Yadif (bình thường)</translation>
+        <translation>Yadif (bình thường)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished">Yadif (tốc độ hình gấp đôi)</translation>
+        <translation>Yadif (tốc độ khung hình gấp đôi)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished">Linear Blend</translation>
+        <translation>Trộn Dòng kẻ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished">Kerndeint</translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>Mặc định chỉnh lệch dòng cho TV</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn bộ lọc chỉnh lệch dòng mà bạn muốn dùng cho các kênh TV.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Lướt lại ~/.mplayer/channels.conf khi khởi động</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TV và đài</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mặc định chỉnh lệch&amp; dòng cho TV:</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nếu đánh dấu lựa chọn này, SMPlayer sẽ tìm kiếm các kênh TV và đài mới trên ~/.mplayer/channels.conf.ter hoặc ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kiểm tra các kênh mới khi khởi động</translation>
     </message>
 </context>
 <context>
@@ -8243,57 +8186,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8412,12 +8355,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>action_name</source>
-        <translation></translation>
+        <translation>tên_động tác</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="95"/>
         <source>action_list</source>
-        <translation></translation>
+        <translation>danh sách_động tác</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="120"/>
@@ -8427,7 +8370,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation></translation>
+        <translation>tập tin_phụ đề</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="159"/>
@@ -8438,19 +8381,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>%n giây</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>%n phút</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8488,39 +8425,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>bề rộng</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>chiều cao</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>định rõ tọa độ nơi cửa sổ chính sẽ được hiển thị.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="165"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>định rõ kích thước của cửa sổ chính.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>QuaZipFile</name>
-    <message>
-        <source>ZIP/UNZIP API error %1</source>
-        <translation type="obsolete">Lỗi %1 ở API của ZIP/UNZIP</translation>
+        <translation>&apos;media&apos; là bất kỳ dạng tập tin nào mà SMPlayer có thể mở. Đó có thể là một tập tin nội bộ, một DVD (ví dụ dvd://1), một luồng dữ liệu internet (ví dụ mms://...) hoặc một danh sách chơi nội bộ ở định dạng m3u hoặc pls.</translation>
     </message>
 </context>
 <context>
@@ -8569,47 +8499,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="392"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">Các &amp;thanh công cụ</translation>
+        <translation>Các &amp;thanh công cụ</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">&amp;Thanh công cụ chính</translation>
+        <translation>&amp;Thanh công cụ chính</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Thanh công cụ biên tập chính</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ quản lý &amp;nổi biên tập</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Playing %1</source>
-        <translation type="unfinished">Đang chơi %1</translation>
+        <translation>Đang chơi %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Tạm dừng</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="423"/>
         <source>Stop</source>
-        <translation type="unfinished">Ngừng chơi</translation>
+        <translation>Ngừng chơi</translation>
     </message>
 </context>
 <context>
@@ -8640,12 +8570,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ biên tập kênh</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="95"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>Danh sách TV/Đài</translation>
     </message>
 </context>
 <context>
@@ -8661,73 +8591,73 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ biên tập Thanh công cụ</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Các động tác &amp;sẵn có:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Trái</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Phải</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">&amp;Xuống</translation>
+        <translation>&amp;Xuống</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">&amp;Lên</translation>
+        <translation>&amp;Lên</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Các động tác hiện &amp;thời:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Thêm &amp;bộ tách</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(bộ tách)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Trượt thời gian</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Trượt âm lượng</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiển thị thời gian</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Quay lại 3 trong 1</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiến lên 3 trong 1</translation>
     </message>
 </context>
 <context>
@@ -8753,93 +8683,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Các thuộc tính VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chọn các giải thuật vdpau để sử dụng. Không phải tất cả đều sẽ hoạt động.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Độ tương phản</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Độ sáng</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Độ màu</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Độ bão hòa</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gamma</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Thiết lập lại</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Làm giá trị mặc định</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Dùng các giá trị hiện thời làm mặc định cho những video mới.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Đặt mọi giá trị điều khiển về không.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Bộ cân bằng Video</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Thông tin</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Dùng giá trị hiện giờ đã được dùng làm giá trị mặc định.</translation>
+        <translation>&amp;Vô hiệu hóa các bộ lọc dữ liệu từ phần mềm video</translation>
     </message>
 </context>
 <context>
@@ -8847,12 +8726,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Bộ cân bằng Video</translation>
+        <translation>Bộ cân bằng Video</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Đ&amp;ộ tương phản</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="66"/>
@@ -8861,52 +8740,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="228"/>
         <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ s&amp;áng</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ mà&amp;u</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Độ b&amp;ão hòa</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Gamm&amp;a</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>Đặt làm giá trị &amp;mặc định</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Đặt lại</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dùng giá trị hiện giờ làm giá trị mặc định cho các video mới.</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"></translation>
+        <translation>Đặt mọi điều khiển về không.</translation>
     </message>
 </context>
 <context>
@@ -9092,10 +8971,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tỷ lệ &amp;aspect:</translation>
     </message>
     <message>
-        <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="obsolete">&amp;Số giây sẽ nhảy khi bắt đầu:</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>
         <source>&amp;Maximum width:</source>
         <translation>Độ rộng &amp;tối đa:</translation>
@@ -9154,7 +9029,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
@@ -9174,7 +9049,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="290"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Ghi nhớ thư mục được sử dụng để lưu c&amp;ác hình xem thử</translation>
     </message>
 </context>
 <context>
@@ -9182,17 +9057,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation type="unfinished">Danh sách chơi</translation>
+        <translation>Danh sách phát</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>Tắt/Bật toàn màn hình</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Bộ cân bằng Video</translation>
     </message>
 </context>
 <context>
