@@ -28,6 +28,11 @@
      <property name="currentIndex">
       <number>0</number>
      </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Page</string>
+      </attribute>
+     </widget>
      <widget class="QWidget" name="info_tab">
       <attribute name="title">
        <string>&amp;Info</string>

@@ -132,6 +132,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	translators->setPalette(p);
 	license->setPalette(p);
 
+	tab_widget->removeTab(0);
+
 	adjustSize();
 }
 
