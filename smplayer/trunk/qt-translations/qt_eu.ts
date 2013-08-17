@@ -1234,13 +1234,12 @@ honela
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Socket operation timed out</source>
-        <translation type="unfinished">
-</translation>
+        <translation>Hartune eragiketa epez kanpo</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Operation on socket is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Hartuneko eragiketa ez dago sostengatuta</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -1260,7 +1259,7 @@ honela
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Socket is not connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Hartunea ez dago elkarketuta</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -1516,7 +1515,7 @@ honela
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Unable to commit transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezinezkoa eskualdaketa aurkeztea</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -4548,8 +4547,8 @@ Horrela ere ezabatzea nahi duzu?</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
-        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qt for Embedded Linux and Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications (proprietary or open source) provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.nokia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Nokia product. See &lt;a href=&quot;http://qt.nokia.com/&quot;&gt;qt.nokia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Qt aplikazioen garapenerako plataforma-anitzeko C++ tresna kit bat da.&lt;/p&gt;&lt;p&gt;Qt-k iturburu-bakarreko eramangarritasuna eskaintzen du MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, eta Unix merkatal aldaera gehinentzat. Qt eskuragarri dago ere barneraturiko gailuentzat, Qt Barneraturik Linux-rako eta Qt Windows CE-rako bezala.&lt;/p&gt;&lt;p&gt;Qt hiru baimen aukera ezberdinentan dago eskuragarri gure erabiltzaile askotarikoen beharretara egokitzeko.&lt;/p&gt;&lt;p&gt;Qt gure merkatal baimen itunarekin egokia da jabetza/merkatal software garapenerako, non ez duzun nahi iturburu koderik elkarbanatzerik nahi hirugarrenekin edo bestela ezin duzu GNU LGPL 2.1 bertsioa edo GNU GPL 3.0 bertsioa baldintzak bete.&lt;/p&gt;&lt;p&gt;Qt baimendurik GNU LGPL 2.1 bertsioarekin egokia da Qt aplikazioen garapenerako (jabetzakoa edo iturburu irekia) eskaintzen dizularik GNU LGPL 2.1 bertsioaren itun eta baldintzak betetzea.&lt;/p&gt;&lt;p&gt;Qt baimendurik GNU Baimen Publiko Orokorra 3.0 bertsioa egokia da Qt aplikazioak garatzeko non mota honetako aplikazioak GNU GPL 3.0 bertsioa baldintzetan dauden softwarekin elkarturik erabiltzea nahi dituzun edo bestela GNU GPL 3.0 bertsioa ituna betetzea nahi duzun.&lt;/p&gt;&lt;p&gt;Mesedez ikusi &lt;a href=&quot;http://qt.nokia.com/products/licensing&quot;&gt;qt.nokia.com/products/licensing&lt;/a&gt; Qt baimenari gainbegiratu bat emateako.&lt;/p&gt;&lt;p&gt;Copyrighta (C) 2012 Nokia Corporation eta/edo bere ordezkaria (-k).&lt;/p&gt;&lt;p&gt;Qt Nokia produktu bat da. Ikusi &lt;a href=&quot;http://qt.nokia.com/&quot;&gt;qt.nokia.com&lt;/a&gt; argibide gehiagorako.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, and all major commercial Unix variants. Qt is also available for embedded devices as Qt for Embedded Linux and Qt for Windows CE.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications (proprietary or open source) provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU General Public License version 3.0 is appropriate for the development of Qt applications where you wish to use such applications in combination with software subject to the terms of the GNU GPL version 3.0 or where you are otherwise willing to comply with the terms of the GNU GPL version 3.0.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://qt.digia.com/product/licensing&quot;&gt;qt.digia.com/product/licensing&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) 2012 Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Digia product. See &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <translation type="unfinished">&lt;p&gt;Qt aplikazioen garapenerako plataforma-anitzeko C++ tresna kit bat da.&lt;/p&gt;&lt;p&gt;Qt-k iturburu-bakarreko eramangarritasuna eskaintzen du MS&amp;nbsp;Windows, Mac&amp;nbsp;OS&amp;nbsp;X, Linux, eta Unix merkatal aldaera gehinentzat. Qt eskuragarri dago ere barneraturiko gailuentzat, Qt Barneraturik Linux-rako eta Qt Windows CE-rako bezala.&lt;/p&gt;&lt;p&gt;Qt hiru baimen aukera ezberdinentan dago eskuragarri gure erabiltzaile askotarikoen beharretara egokitzeko.&lt;/p&gt;&lt;p&gt;Qt gure merkatal baimen itunarekin egokia da jabetza/merkatal software garapenerako, non ez duzun nahi iturburu koderik elkarbanatzerik nahi hirugarrenekin edo bestela ezin duzu GNU LGPL 2.1 bertsioa edo GNU GPL 3.0 bertsioa baldintzak bete.&lt;/p&gt;&lt;p&gt;Qt baimendurik GNU LGPL 2.1 bertsioarekin egokia da Qt aplikazioen garapenerako (jabetzakoa edo iturburu irekia) eskaintzen dizularik GNU LGPL 2.1 bertsioaren itun eta baldintzak betetzea.&lt;/p&gt;&lt;p&gt;Qt baimendurik GNU Baimen Publiko Orokorra 3.0 bertsioa egokia da Qt aplikazioak garatzeko non mota honetako aplikazioak GNU GPL 3.0 bertsioa baldintzetan dauden softwarekin elkarturik erabiltzea nahi dituzun edo bestela GNU GPL 3.0 bertsioa ituna betetzea nahi duzun.&lt;/p&gt;&lt;p&gt;Mesedez ikusi &lt;a href=&quot;http://qt.digia.com/product/licensing&quot;&gt;qt.digia.com/product/licensing&lt;/a&gt; Qt baimenari gainbegiratu bat emateako.&lt;/p&gt;&lt;p&gt;Copyrighta (C) 2012 Digia Plc eta/edo bere ordezkaria (-k).&lt;/p&gt;&lt;p&gt;Qt Digia produktu bat da. Ikusi &lt;a href=&quot;http://qt.digia.com/&quot;&gt;qt.digia.com&lt;/a&gt; argibide gehiagorako.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -4822,7 +4821,7 @@ Horrela ere ezabatzea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Error downloading %1 - server replied: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Akatsa %1 jeisterakoan- zerbitzariaren erantzuna: %2</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -4842,7 +4841,7 @@ Horrela ere ezabatzea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Temporary network failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aldibaterako sare hutsegitea.</translation>
     </message>
 </context>
 <context>
@@ -5072,7 +5071,7 @@ Horrela ere ezabatzea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>PulseAudio Sound Server</source>
-        <translation type="unfinished"></translation>
+        <translation>PulseAudio Soinu Zerbitzaria</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -5122,7 +5121,7 @@ Horrela ere ezabatzea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Image type (non-TrueVision 2.0) not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Irudi mota (ez-TrueVision 2.0) ez dago sostengatuta</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -5153,12 +5152,12 @@ Horrela ere ezabatzea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Could not begin transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezinezkoa eskualdaketa hasi</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Could not commit transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezinezkoa eskualdaketa aurkeztu</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -5501,17 +5500,17 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Legal</source>
-        <translation type="unfinished">Legezkoa</translation>
+        <translation>Legezkoa</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Letter</source>
-        <translation type="unfinished">Gutuna</translation>
+        <translation>Gutuna</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Tabloid</source>
-        <translation type="unfinished">Tabloidea</translation>
+        <translation>Tabloidea</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -5721,7 +5720,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>locally connected</source>
-        <translation type="unfinished"></translation>
+        <translation>tokian elkarketaturik</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -6926,27 +6925,27 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Bass Boost</source>
-        <translation type="unfinished"></translation>
+        <translation>Behe Bultzada</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Bass Up</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hotslodi Gorapena</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Bass Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Hotslodi Beherapena</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Treble Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Hotsmehe Gorapena</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Treble Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Hotsmehe Gorapena</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -7206,12 +7205,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Application Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplikazio Ezker</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Application Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplikazioa Eskuin</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -7236,7 +7235,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Clear Grab</source>
-        <translation type="unfinished"></translation>
+        <translation>Garbitu Grabaketa</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -7491,7 +7490,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Ultra Wide Band</source>
-        <translation type="unfinished"></translation>
+        <translation>Banda Ultra Zabala</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -7736,7 +7735,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Kana Lock</source>
-        <translation>Bloketatu Kana</translation>
+        <translation>Blokeatu Kana</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -7917,7 +7916,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>SOCKS version 5 protocol error</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS 5 bertsioa protokolo akatsa</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -9226,7 +9225,7 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Slider Thumb</source>
         <comment>Media controller element</comment>
-        <translation type="unfinished"></translation>
+        <translation>Irriskari Txikirudia</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -9480,12 +9479,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>JavaScript Prompt - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>JavaScript Galdera - %1</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>JavaScript Problem - %1</source>
-        <translation type="unfinished"></translation>
+        <translation>JavaScript Arazoa - %1</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
@@ -9495,22 +9494,22 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Move the cursor to the next character</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugitu kurtsorea hurrengo hizkira</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Move the cursor to the previous character</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugitu kurtsorea aurreko hizkira</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Move the cursor to the next word</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugitu kurtsorea hurrengo hitzera</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
         <source>Move the cursor to the previous word</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugitu kurtsorea aurreko hitzera</translation>
     </message>
     <message>
         <location filename="../../XABIER~1/AppData/Local/Temp/7zO146.tmp" line="601"/>
