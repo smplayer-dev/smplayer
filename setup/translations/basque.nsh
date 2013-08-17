@@ -9,7 +9,7 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "Ezartzailea jadanik lanean dago."
 ${LangFileString} Installer_No_Admin "Administratzaile bezala saioa hasita egon behar duzu programa hau ezartzerakoan."
-${LangFileString} SMPlayer_Is_Running "SMPlayerren eskabide bat lanean ari da. Mesedez irten SMPlayerretik eta saiatu berriro."
+${LangFileString} SMPlayer_Is_Running "SMPlayerren eskabide bat lanean ari da. Mesedez irten SMPlayer-etik eta saiatu berriro."
 
 ${LangFileString} OS_Not_Supported "Sistema eragile sostengu gabea.$\nSMPlayer ${SMPLAYER_VERSION} gutxienez Windows XP behar du eta ezin du zuzen lan egin zure sisteman.$\nEgitan nahi duzu ezarpenarekin jarraitzea?"
 ${LangFileString} Win64_Required "64-biteko Windows sistema eragile bat behar da software hau ezartzeko."
@@ -38,9 +38,9 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; beharrezkoa irakurketarako."
 
 ${LangFileString} Section_MPlayerCodecs "Kodek Binarioak"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Kodek binarioak ez daude sostengatuta bertsio honetan."
 !else
-${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayerrentzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
+${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayer-entzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
 !endif
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
@@ -51,9 +51,9 @@ ${LangFileString} Section_IconThemes_Desc "SMPlayer-entzako ikur gai gehigarriak
 ${LangFileString} Section_Translations "Hizkuntzak"
 ${LangFileString} Section_Translations_Desc "SMPlayer-entzako Ez Ingelerazko hizkuntza agiriak."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Aurreko ezarpenetatik gelditzen diren SMPlayer hobespenak ezabatzen ditu."
 
-${LangFileString} MPlayer_Codec_Msg "Kodek binario paketeek jatorrizkoan ez dauden kodek sostengua gehitzen dute, RealVideo aldaera berrienak eta formato ez arrunt asko bezalakoak.$\nOhartu hauek ez direla beharrezkoak heuskarri arruntenak irakurtzeko, DVD, MPEG-1/2/4, etab."
+${LangFileString} MPlayer_Codec_Msg "Kodek binario paketeek jatorrizkoan ez dauden kodek sostengua gehitzen dute, RealVideo aldaera berrienak eta heuskarri ez arrunt asko bezalakoak.$\nOhartu hauek ez direla beharrezkoak heuskarri arruntenak irakurtzeko, DVD, MPEG-1/2/4, etab."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "Hautatu Ezarpen Mota"
@@ -62,12 +62,12 @@ ${LangFileString} Reinstall_Header_SubText "Hautatu Gainidatzi edo Kendu modua."
 ${LangFileString} Reinstall_Msg1 "Jadanik baduzu SMPlayerren ezarpen bat agiritegi honetan:"
 ${LangFileString} Reinstall_Msg2 "Mesedez hautatu nola jarraitu:"
 ${LangFileString} Reinstall_Overwrite "Gainidatzi ($Inst_Type) dagoen ezarpena"
-${LangFileString} Reinstall_Uninstall "Kendu (kendu) dagoen ezarpena"
+${LangFileString} Reinstall_Uninstall "Kendu (ezabatu) dagoen ezarpena"
 ${LangFileString} Reinstall_Msg3_1 "Klikatu Hasi jarraitzeko gertu zaudenean."
 ${LangFileString} Reinstall_Msg3_2 "Klikatu Hurrengoa jarraitzeko gertu zaudenean."
 ${LangFileString} Reinstall_Msg3_3 "Klikatu Kendu jarraitzeko gertu zaudenean."
 ${LangFileString} Reinstall_Msg4 "Aldatu Ezarpenaren Hobespenak"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg5 "Berrezarri SMPlayer itxurapena"
 
 ${LangFileString} Type_Reinstall "berrezarri"
 ${LangFileString} Type_Downgrade "aurrekoratu"
@@ -91,8 +91,8 @@ ${LangFileString} Uninstaller_64bitOnly "Ezarpen hau 64-biteko Windowsetik bakar
 ${LangFileString} Application_Description "SMPlayer aurrealde-amaiera oso bat da MPlayer-entzat, ohinarrizko eginkizunetatik: Bideo, DVD, VCD irakurketatik, eginkizun aurreratuenetarainok: MPlayer iragazkiak, edl zerrenda, eta gehiago."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
+${LangFileString} Info_Codecs_Backup "Kodekak babeskopiatzenaurreko ezarpenetik..."
+${LangFileString} Info_Codecs_Restore "Kodekak leheneratzen aurreko ezarpenetik..."
 ${LangFileString} Info_Del_Files "Agiriak Ezabatzen..."
 ${LangFileString} Info_Del_Registry "Erresgistro Giltzak Ezabatzen..."
 ${LangFileString} Info_Del_Shortcuts "Lasterbideak Ezabatzen..."
