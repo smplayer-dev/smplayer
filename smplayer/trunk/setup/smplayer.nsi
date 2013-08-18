@@ -393,7 +393,7 @@ SectionGroup $(MPlayerGroupTitle)
     retry_codecs_dl:
 
     DetailPrint $(Codecs_DL_Msg)
-!ifndef USE_NSISDL
+!ifdef USE_INETC
     inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(Codecs_DL_Msg) /CAPTION $(Codecs_DL_Msg) \
     "http://www.mplayerhq.hu/MPlayer/releases/codecs/${CODEC_VERSION}.zip" \
     "$PLUGINSDIR\${CODEC_VERSION}.zip" /END
