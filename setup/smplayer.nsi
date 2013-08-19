@@ -311,8 +311,10 @@ Section $(Section_SMPlayer) SecSMPlayer
   SetOutPath "$INSTDIR\shortcuts"
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
 
+!ifndef WIN64
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
+!endif
 
   ;Initialize to 0 if don't exist (based on error flag)
   ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
