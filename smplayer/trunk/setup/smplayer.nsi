@@ -6,6 +6,10 @@
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
 !endif
 
+!ifdef WIN64
+  !define DISABLE_CODECS
+!endif
+
 ;--------------------------------
 ;Compressor
 
@@ -101,7 +105,9 @@
   Var Reinstall_Uninstall
   Var Reinstall_UninstallButton
   Var Reinstall_UninstallButton_State
+!ifndef DISABLE_CODECS
   Var Restore_Codecs
+!endif
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
@@ -282,7 +288,9 @@ Section $(Section_SMPlayer) SecSMPlayer
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
 
+!ifndef DISABLE_CODECS
       Call Backup_Codecs
+!endif
 
       ${If} "$INSTDIR" == "$SMPlayer_Path"
         ExecWait '"$SMPlayer_UnStrPath" /S /R _?=$SMPlayer_Path'
@@ -311,7 +319,7 @@ Section $(Section_SMPlayer) SecSMPlayer
   SetOutPath "$INSTDIR\shortcuts"
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
 
-!ifndef WIN64
+!ifndef DISABLE_CODECS
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
 !endif
@@ -375,11 +383,8 @@ SectionGroup $(MPlayerGroupTitle)
 
   SectionEnd
 
+!ifndef DISABLE_CODECS
   Section /o $(Section_MPlayerCodecs) SecCodecs
-
-!ifdef WIN64
-    SectionIn RO
-!endif
 
     AddSize 22931
 
@@ -433,6 +438,7 @@ SectionGroup $(MPlayerGroupTitle)
     done:
 
   SectionEnd
+!endif
 
 SectionGroupEnd
 
@@ -507,7 +513,9 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktopShortcut} $(Section_DesktopShortcut_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(Section_StartMenu_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(Section_MPlayer_Desc)
+!ifndef DISABLE_CODECS
   !insertmacro MUI_DESCRIPTION_TEXT ${SecCodecs} $(Section_MPlayerCodecs_Desc)
+!endif
   !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(Section_IconThemes_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(Section_Translations_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecResetSettings} $(Section_ResetSettings_Desc)
@@ -795,6 +803,7 @@ Function CheckPreviousVersion
 
 FunctionEnd
 
+!ifndef DISABLE_CODECS
 Function Backup_Codecs
 
   ${IfNot} ${SectionIsSelected} ${SecCodecs}
@@ -811,14 +820,13 @@ Function Backup_Codecs
     StrCpy $Restore_Codecs 0
 
 FunctionEnd
+!endif
 
 Function LoadPreviousSettings
 
   ;MPlayer codecs section doesn't use Memento so we need to restore it manually
   ;32-bit only
-!ifdef WIN64
-    !insertmacro UnSelectSection ${SecCodecs}
-!else
+!ifndef DISABLE_CODECS
     ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_Codecs"
     ${If} $R0 == 1
       !insertmacro SelectSection ${SecCodecs}
