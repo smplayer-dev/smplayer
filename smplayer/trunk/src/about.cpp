@@ -143,9 +143,10 @@ About::~About() {
 QString About::getTranslators() {
 	return QString(
 		 tr("Many people contributed with translations.") +" "+
-		 tr("SMPlayer can be translated at %1").arg("<a href=\"http://www.transifex.com\">www.transifex.com</a>") +
+		 tr("You can also help to translate SMPlayer into your own language.") +"<p>"+
+		 tr("Visit %1 and join a translation team.").arg("<a href=\"http://www.transifex.com/projects/p/smplayer/\">http://www.transifex.com/projects/p/smplayer/</a>") +
 		"<p>" +
-		 tr("Current translators:") +
+		 tr("Current translators from the transifex teams:") +
 		"<p>" + 
 		trad(tr("Spanish"), "Ricardo Villalba") +
 		trad(tr("Basque"), "Xabier Aramendi") +
@@ -195,7 +196,8 @@ QString About::trad(const QString & lang, const QStringList & authors) {
 		s += author.replace("<", "&lt;").replace(">", "&gt;");
 		if (n < (authors.count()-1)) s += ", ";
 	}
-	return QString("<h3>%1:</h3><h4>%2</h4><hr>").arg(lang).arg(s);
+	//return QString("<h3>%1:</h3><h4>%2</h4><hr>").arg(lang).arg(s);
+	return QString("<p><b>%1: %2</b></p>").arg(lang).arg(s);
 }
 
 QString About::link(const QString & url, QString name) {
