@@ -142,75 +142,45 @@ About::~About() {
 
 QString About::getTranslators() {
 	return QString(
-		 tr("The following people have contributed with translations:") +
+		 tr("Many people contributed with translations.") +" "+
+		 tr("SMPlayer can be translated at %1").arg("<a href=\"http://www.transifex.com\">www.transifex.com</a>") +
+		"<p>" +
+		 tr("Current translators:") +
 		"<p>" + 
-         trad(tr("Spanish"), "Ricardo Villalba <rvm@users.sourceforge.net>") +
-         trad(tr("German"), "Panagiotis Papadopoulos <pano_90@gmx.net>") +
-		 trad(tr("Slovak"), "Sweto <peter.mendel@gmail.com>") +
-		 trad(tr("Italian"), QStringList()
-			<< "greengreat <gmeildeno@gmail.com>"
-			<< "Giancarlo Scola <scola.giancarlo@libero.it>") +
-         trad(tr("French"), QStringList()
-			<< "Olivier g <1got@caramail.com>"
-			<< "Temet <goondy@free.fr>"
-			<< "Erwann MEST <kud.gray@gmail.com>") +
-         trad(tr("Simplified-Chinese"), QStringList()
-			<< "Tim Green <iamtimgreen@gmail.com>"
-			<< "OpenBDH <opensource@bendihua.org>") +
-         trad(tr("Russian"), QString::fromUtf8("Белый Владимир <wiselord1983@gmail.com>"))+
-         trad(tr("Hungarian"), QStringList()
-			<< "Charles Barcza <kbarcza@blackpanther.hu>"
-			<< "CyberDragon <cyberdragon777@gmail.com>") +
-         trad(tr("Polish"), QStringList()
-			<< "qla <qla0@vp.pl>"
-			<< "Jarek <ajep9691@wp.pl>"
-			<< "sake12 <sake12@gmail.com>" ) +
-         trad(tr("Japanese"), "Nardog <alphisation@gmail.com>") +
-         trad(tr("Dutch"), QStringList()
-			<< "profoX <wesley@ubuntu-nl.org>"
-			<< "BalaamsMiracle"
-			<< "Kristof Bal <kristof.bal@gmail.com>") +
-         trad(tr("Ukrainian"), QStringList()
-			<< "Motsyo Gennadi <drool@altlinux.ru>"
-			<< "Oleksandr Kovalenko <alx.kovalenko@gmail.com>" ) +
-         trad(tr("Portuguese - Brazil"), QStringList() 
-			<< "Ventura <ventura.barbeiro@terra.com.br>"
-			<< QString::fromUtf8("Maico Sertório <maico.sertorio@gmail.com>")) +
-         trad(tr("Georgian"), "George Machitidze <giomac@gmail.com>") +
-         trad(tr("Czech"), QStringList()
-			<< QString::fromUtf8("Martin Dvořák <martin.dvorak@centrum.cz>")
-			<< QString::fromUtf8("Jaromír Smrček <jaromir.smrcek@zoner.com>") ) +
-         trad(tr("Bulgarian"), "<marzeliv@mail.bg>") +
-         trad(tr("Turkish"), "alper er <alperer@gmail.com>") +
-         trad(tr("Swedish"), "Leif Larsson <leif.larsson@gmail.com>") +
-         trad(tr("Serbian"), "Kunalagon Umuhanik <kunalagon@gmail.com>") +
-         trad(tr("Traditional Chinese"), "Hoopoe <dai715.tw@yahoo.com.tw>") +
-         trad(tr("Romanian"), "DoruH <DoruHushHush@gmail.com>") +
-         trad(tr("Portuguese - Portugal"), QStringList()
-			<< "Waxman <waxman.pt@gmail.com>"
-			<< QString::fromUtf8("Sérgio Marques <smarquespt@gmail.com>") ) +
-		trad(tr("Greek"), "my80s <wamy80s@gmail.com>") +
-		trad(tr("Finnish"), "peeaivo <peeaivo@gmail.com>") +
-		trad(tr("Korean"), "Heesu Yoon <imsu30@gmail.com>") +
-		trad(tr("Macedonian"), "Marko Doda <mark0d0da@gmail.com>") +
-		trad(tr("Basque"), QStringList() 
-			<< "Xabier Aramendi <azpidatziak@gmail.com>"
-			<< "Piarres Beobide <pi@beobide.net> (" + tr("Inactive")+ ")" ) +
-		trad(tr("Catalan"), QString::fromUtf8("Roger Calvó <rcalvoi@yahoo.com>")) +
-		trad(tr("Slovenian"), "Janez Troha <janez.troha@gmail.com>") +
-		trad(tr("Arabic"), "Muhammad Nour Hajj Omar <arabianheart@live.com>") +
-		trad(tr("Kurdish"), "Si_murg56 <simurg56@gmail.com>") +
-		trad(tr("Galician"), QStringList() << "Miguel Branco <mgl.branco@gmail.com>" << "Gallaecio") +
-		trad(tr("Vietnamese"), QString::fromUtf8("Lê Xuân Thảo <thaolx@gmail.com>")) +
-		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi <olav.magi@hotmail.com>")) +
-		trad(tr("Lithuanian"), QStringList() 
-			<< "Freemail <ricka_g@freemail.lt>"
-			<< QString::fromUtf8("Algimantas Margevičius <margevicius.algimantas@gmail.com>") ) +
-		trad(tr("Danish"), "Martin Schlander <mschlander@opensuse.org>") +
-		trad(tr("Croatian"), QString::fromUtf8("Josip Kujundžija <marshsmello@gmail.com>")) +
-        trad(tr("Hebrew"), "Genghis Khan <genghiskhan@gmx.ca>") +
-		trad(tr("Thai"), QString::fromUtf8("มาโนชญ์ สมศักดิ์ <xyteton@hotmail.com>")) +
-		trad(tr("Malay"), "abuyop (transifex)") +
+		trad(tr("Spanish"), "Ricardo Villalba") +
+		trad(tr("Basque"), "Xabier Aramendi") +
+		trad(tr("Croatian"), "gogo") +
+		trad(tr("Czech"), QString::fromUtf8("Petr Šimáček")) +
+		trad(tr("Japanese"), QStringList() << "ever_green" << "nardog") +
+		trad(tr("Korean"), QStringList() << "ParkJS" << "Potato") +
+		trad(tr("Portuguese"), QString::fromUtf8("Sérgio Marques")) +
+		trad(tr("Serbian"), QStringList() << QString::fromUtf8("Mladen Pejaković") << "miroslav") +
+		trad(tr("Ukrainian"), "zubr139") +
+		trad(tr("Galician"), QStringList() << QString::fromUtf8("Adrián Chaves Fernández") << "Miguel Branco") +
+		trad(tr("Lithuanian"), QString::fromUtf8("Algimantas Margevičius")) +
+		trad(tr("Malay"), "abuyop") +
+		trad(tr("Portuguese - Brazil"), QString::fromUtf8("Maico Sertório")) +
+		trad(tr("Hebrew"), "GenghisKhan") +
+		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "zhangzheliuli" << "zhnagmin") +
+		trad(tr("Vietnamese"), QStringList() << "Anh Phan" << "Biz Over" << "Thu Thao Nguyen Ngoc") +
+		trad(tr("Polish"), QStringList() <<"filux" << QString::fromUtf8("Łukasz Hryniuk") << QString::fromUtf8("Piotr Strębski")) +
+		trad(tr("Russian"), QStringList() << "WiseLord" << "Viktor") +
+		trad(tr("French"), QStringList() << "Olivier Devineau" << "ybsar") +
+		trad(tr("Indonesian"), QStringList() << "Mohamad Hasan Al Banna" << "Aulia Firdaus Simbolon" << "Muhammad Fikri Hariri") +
+		trad(tr("Danish"), "Michael Larsen") +
+		trad(tr("Hungarian"), "gojko") +
+		trad(tr("Turkish"), QStringList() << "Emre FIRAT" << QString::fromUtf8("Hasan Akgöz")) +
+		trad(tr("Finnish"), QString::fromUtf8("Jiri Grönroos")) +
+		trad(tr("German"), "shaggy") +
+		trad(tr("Traditional Chinese"), "taijuin lee") +
+		trad(tr("Bulgarian"), "Ivailo Monev") +
+		trad(tr("Norwegian Nynorsk"), "bjorni") +
+		trad(tr("Swedish"), QStringList() << "XC" << "Andreas Gustafsson") +
+		trad(tr("Arabic"), "Riyadh") +
+		trad(tr("Georgian"), "George Machitidze") +
+		trad(tr("Arabic - Saudi Arabia"), "Mohamed") +
+		trad(tr("Hungarian"), "gojko") +
+		trad(tr("Sinhala"), "Rathnayake") +
 		"");
 }
 
