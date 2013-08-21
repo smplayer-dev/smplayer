@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="he">
 <context>
     <name>About</name>
     <message>
@@ -22,151 +24,189 @@
         <translation>Support forum:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="143"/>
         <source>The following people have contributed with translations:</source>
-        <translation>האנשים הבאים תרמו באמצעות תרגומים:</translation>
+        <translation type="obsolete">האנשים הבאים תרמו באמצעות תרגומים:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="145"/>
+        <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation>ספרדית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="146"/>
+        <location filename="../about.cpp" line="157"/>
+        <source>Portuguese</source>
+        <translation type="unfinished">פורטוגזית</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="165"/>
+        <source>Simplified Chinese</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="170"/>
+        <source>Indonesian</source>
+        <translation type="unfinished">אינדונזית</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="175"/>
         <source>German</source>
         <translation>גרמנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="147"/>
         <source>Slovak</source>
-        <translation>סלובקית</translation>
+        <translation type="obsolete">סלובקית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="148"/>
         <source>Italian</source>
-        <translation>איטלקית</translation>
+        <translation type="obsolete">איטלקית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>צרפתית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Simplified-Chinese</source>
-        <translation>סינית מפושטת</translation>
+        <translation type="obsolete">סינית מפושטת</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>רוסית</translation>
     </message>
     <message>
-        <source>%1 and %2</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="159"/>
+        <location filename="../about.cpp" line="172"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Hungarian</source>
         <translation>הונגרית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
+        <location filename="../about.cpp" line="167"/>
         <source>Polish</source>
         <translation>פולנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
+        <location filename="../about.cpp" line="145"/>
+        <source>Many people contributed with translations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="146"/>
+        <source>You can also help to translate SMPlayer into your own language.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="147"/>
+        <source>Visit %1 and join a translation team.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="149"/>
+        <source>Current translators from the transifex teams:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>יפנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
         <source>Dutch</source>
-        <translation>הולנדית</translation>
+        <translation type="obsolete">הולנדית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="159"/>
         <source>Ukrainian</source>
         <translation>אוקראינית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
+        <location filename="../about.cpp" line="163"/>
         <source>Portuguese - Brazil</source>
         <translation>פורטוגזית - ברזיל</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
+        <location filename="../about.cpp" line="178"/>
+        <source>Norwegian Nynorsk</source>
+        <translation type="unfinished">נורבגית Nynorsk</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="181"/>
         <source>Georgian</source>
         <translation>גרוזינית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
+        <location filename="../about.cpp" line="154"/>
         <source>Czech</source>
         <translation>צ&apos;כית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
+        <location filename="../about.cpp" line="177"/>
         <source>Bulgarian</source>
         <translation>בולגרית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
+        <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
         <translation>טורקית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
+        <location filename="../about.cpp" line="179"/>
         <source>Swedish</source>
         <translation>שבדית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
+        <location filename="../about.cpp" line="158"/>
         <source>Serbian</source>
         <translation>סרבי</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="185"/>
+        <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
         <translation>סינית מסורתית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
         <source>Romanian</source>
-        <translation>רומנית</translation>
+        <translation type="obsolete">רומנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
         <source>Portuguese - Portugal</source>
-        <translation>פורטוגזית - פורטוגל</translation>
+        <translation type="obsolete">פורטוגזית - פורטוגל</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
         <source>Greek</source>
-        <translation>יוונית</translation>
+        <translation type="obsolete">יוונית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
+        <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
         <translation>פינית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="209"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
         <translation>עברית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="210"/>
         <source>Thai</source>
-        <translation>תאי</translation>
+        <translation type="obsolete">תאי</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation>מלאי</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="235"/>
+        <location filename="../about.cpp" line="182"/>
+        <source>Arabic - Saudi Arabia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="184"/>
+        <source>Sinhala</source>
+        <translation type="unfinished">סינהלה</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="209"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -177,44 +217,48 @@
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
+        <source>Page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.ui" line="38"/>
         <source>&amp;Info</source>
         <translation>&amp;מידע</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="53"/>
-        <location filename="../about.ui" line="109"/>
-        <location filename="../about.ui" line="165"/>
-        <location filename="../about.ui" line="221"/>
+        <location filename="../about.ui" line="58"/>
+        <location filename="../about.ui" line="114"/>
+        <location filename="../about.ui" line="170"/>
+        <location filename="../about.ui" line="226"/>
         <source>icon</source>
         <translation>צלמית</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="89"/>
+        <location filename="../about.ui" line="94"/>
         <source>&amp;Contributions</source>
         <translation>&amp;תורמים</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="145"/>
+        <location filename="../about.ui" line="150"/>
         <source>&amp;Translators</source>
         <translation>מתר&amp;גמים</translation>
     </message>
     <message>
-        <location filename="../about.ui" line="201"/>
+        <location filename="../about.ui" line="206"/>
         <source>&amp;License</source>
         <translation>&amp;רשיון</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
+        <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
         <translation>קוריאנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
         <source>Macedonian</source>
-        <translation>מקדוני</translation>
+        <translation type="obsolete">מקדוני</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
+        <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
         <translation>בסקית</translation>
     </message>
@@ -224,9 +268,8 @@
         <translation>Using MPlayer %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
         <source>Catalan</source>
-        <translation>קטלנית</translation>
+        <translation type="obsolete">קטלנית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
@@ -239,22 +282,20 @@
         <translation>Using Qt %1 (compiled with Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
         <source>Slovenian</source>
-        <translation>סלובנית</translation>
+        <translation type="obsolete">סלובנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
+        <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>ערבית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
         <source>Kurdish</source>
-        <translation>כורדית</translation>
+        <translation type="obsolete">כורדית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
+        <location filename="../about.cpp" line="160"/>
         <source>Galician</source>
         <translation>גליצאי</translation>
     </message>
@@ -264,27 +305,26 @@
         <translation>סמל מסחרי SMPlayer מאת ‭%1‬</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="202"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
         <translation>ווייטנאמית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="203"/>
         <source>Estonian</source>
-        <translation>אסטונית</translation>
+        <translation type="obsolete">אסטונית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="204"/>
+        <location filename="../about.cpp" line="161"/>
         <source>Lithuanian</source>
         <translation>ליטאית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="207"/>
+        <location filename="../about.cpp" line="171"/>
         <source>Danish</source>
         <translation>דנית</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="208"/>
+        <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>קרואטית</translation>
     </message>
@@ -686,12 +726,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>&amp;Deblock</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1556"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -943,52 +983,52 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>כתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3931"/>
+        <location filename="../basegui.cpp" line="3936"/>
         <source>About Qt</source>
         <translation>אודות Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4269"/>
+        <location filename="../basegui.cpp" line="4281"/>
         <source>New version available</source>
         <translation>גרסא חדשה זמינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4270"/>
+        <location filename="../basegui.cpp" line="4282"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>גרסא חדשה של SMPlayer זמינה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4271"/>
+        <location filename="../basegui.cpp" line="4283"/>
         <source>Installed version: %1</source>
         <translation>גרסא מותקנת: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4272"/>
+        <location filename="../basegui.cpp" line="4284"/>
         <source>Available version: %1</source>
         <translation>גרסא זמינה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4273"/>
+        <location filename="../basegui.cpp" line="4285"/>
         <source>Would you like to know more about this new version?</source>
         <translation>האם ברצונך לדעת עוד אודות גרסא זו?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4328"/>
+        <location filename="../basegui.cpp" line="4342"/>
         <source>&amp;Share with my friends</source>
         <translation>&amp;שתפו עם חברים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4543"/>
+        <location filename="../basegui.cpp" line="4565"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו ‎%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4544"/>
+        <location filename="../basegui.cpp" line="4566"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4545"/>
+        <location filename="../basegui.cpp" line="4567"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
@@ -1073,14 +1113,14 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1934"/>
         <location filename="../basegui.cpp" line="1935"/>
         <source>-%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1937"/>
         <location filename="../basegui.cpp" line="1938"/>
         <location filename="../basegui.cpp" line="1939"/>
         <source>+%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1669"/>
@@ -1090,7 +1130,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1610"/>
@@ -1115,7 +1155,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
-        <location filename="../basegui.cpp" line="4327"/>
+        <location filename="../basegui.cpp" line="4341"/>
         <source>&amp;Donate</source>
         <translation>&amp;תרומות</translation>
     </message>
@@ -1282,7 +1322,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
-        <location filename="../basegui.cpp" line="4324"/>
+        <location filename="../basegui.cpp" line="4338"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation>היה ואתם מעריכים את SMPlayer וברצונכם לתמוך בפיתוח שלו, באפשרותכם לשלוח תרומה. אפילו המועטה ביותר מוערכת באהדה רבה.</translation>
     </message>
@@ -1292,49 +1332,49 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>כן, ברצוני לתרום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4322"/>
+        <location filename="../basegui.cpp" line="4336"/>
         <source>Help SMPlayer</source>
         <translation>עזרו ל־SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4325"/>
+        <location filename="../basegui.cpp" line="4339"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
         <translation>או אולי ברצונכם לשתף את SMPlayer עם חברים אצל Facebook.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4326"/>
+        <location filename="../basegui.cpp" line="4340"/>
         <source>What would you like to do?</source>
         <translation>מה ברצונך לעשות?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4355"/>
-        <location filename="../basegui.cpp" line="4363"/>
+        <location filename="../basegui.cpp" line="4377"/>
+        <location filename="../basegui.cpp" line="4385"/>
         <source>Problems with Youtube</source>
         <translation>בעיות עם Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4356"/>
-        <location filename="../basegui.cpp" line="4364"/>
+        <location filename="../basegui.cpp" line="4378"/>
+        <location filename="../basegui.cpp" line="4386"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>למרבה הצער בעקבות שינויים בעמוד Youtube, הוידאו &apos;%1&apos; לא מסוגל להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4357"/>
+        <location filename="../basegui.cpp" line="4379"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>האם ברצונך לעדכן את הקוד של Youtube? זה עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4365"/>
+        <location filename="../basegui.cpp" line="4387"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>אולי עדכון של SMPlayer עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5088"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>דפדפן YouTube לא היה ניתן לשיגור.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5067"/>
+        <location filename="../basegui.cpp" line="5089"/>
         <source>Be sure %1 is installed.</source>
         <translation>ודא שרכיב %1 הינו מותקן.</translation>
     </message>
@@ -1447,7 +1487,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1636"/>
@@ -1475,32 +1515,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>אפס אקולייזר וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4963"/>
+        <location filename="../basegui.cpp" line="4985"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer הסתיים במפתיע.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4964"/>
+        <location filename="../basegui.cpp" line="4986"/>
         <source>Exit code: %1</source>
         <translation>קוד יציאה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4983"/>
+        <location filename="../basegui.cpp" line="5005"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer נכשל להתחיל.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4984"/>
+        <location filename="../basegui.cpp" line="5006"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>אנא בדוק את הנתיב של MPlayer בתוך העדפות.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4986"/>
+        <location filename="../basegui.cpp" line="5008"/>
         <source>MPlayer has crashed.</source>
         <translation>מגשר עורפי MPlayer קרס.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4987"/>
+        <location filename="../basegui.cpp" line="5009"/>
         <source>See the log for more info.</source>
         <translation>ראה את היומן למידע נוסף.</translation>
     </message>
@@ -1627,22 +1667,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;רצועה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4250"/>
+        <location filename="../basegui.cpp" line="4262"/>
         <source>Warning - Using old MPlayer</source>
         <translation>אזהרה - גרסא ישנה של MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4251"/>
+        <location filename="../basegui.cpp" line="4263"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>הגרסא של MPlayer (%1) שמותקנת במערכתך הינה מיושנת. SMPlayer לא מסוגל לעבוד עם זו היטב: אפשרויות מסוימות לא יעבדו, מבחר כתובית עשוי להיכשל...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4256"/>
+        <location filename="../basegui.cpp" line="4268"/>
         <source>Please, update your MPlayer.</source>
         <translation>אנא עדכן את MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4258"/>
+        <location filename="../basegui.cpp" line="4270"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(אזהרה זו לא תוצג עוד)</translation>
     </message>
@@ -1737,32 +1777,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;קבע שיהוי...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3961"/>
+        <location filename="../basegui.cpp" line="3973"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;קפוץ אל:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3962"/>
+        <location filename="../basegui.cpp" line="3974"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - חיפוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3972"/>
+        <location filename="../basegui.cpp" line="3984"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - שיהוי אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3973"/>
+        <location filename="../basegui.cpp" line="3985"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>שיהוי אודיו (במאיות שניה):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3982"/>
+        <location filename="../basegui.cpp" line="3994"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - שיהוי כתובית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3983"/>
+        <location filename="../basegui.cpp" line="3995"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>שיהוי כתובית (במאיות שניה):</translation>
     </message>
@@ -1772,7 +1812,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>תמיד השאר בשיא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4687"/>
+        <location filename="../basegui.cpp" line="4709"/>
         <source>Jump to %1</source>
         <translation>‭%1 לא ץופק</translation>
     </message>
@@ -2149,12 +2189,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="550"/>
         <source>A:%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="554"/>
         <source>B:%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="513"/>
@@ -2195,7 +2235,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2649,7 +2689,10 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>כתובית %n חולצה</numerusform><numerusform>%n כתוביות חולצו</numerusform></translation>
+        <translation>
+            <numerusform>כתובית %n חולצה</numerusform>
+            <numerusform>%n כתוביות חולצו</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2753,7 +2796,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>זה לא היה אפשרי ללשמור את הקובץ
@@ -3709,7 +3752,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Xhosa</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="204"/>
@@ -3724,7 +3767,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Zhuang</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
@@ -3765,7 +3808,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="284"/>
         <source>UTF-8</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="285"/>
@@ -3815,7 +3858,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
@@ -4010,7 +4053,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
@@ -4055,12 +4098,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
@@ -4076,7 +4119,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
@@ -4318,14 +4361,14 @@ Do you want to overwrite?</source>
         <location filename="../mpcgui/mpcgui.cpp" line="434"/>
         <location filename="../mpcgui/mpcgui.cpp" line="435"/>
         <source>-%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <location filename="../mpcgui/mpcgui.cpp" line="438"/>
         <location filename="../mpcgui/mpcgui.cpp" line="439"/>
         <source>+%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5488,7 +5531,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefgeneral.ui" line="1011"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
@@ -5548,7 +5591,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="106"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="107"/>
@@ -5568,7 +5611,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="110"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="923"/>
@@ -5630,18 +5673,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="340"/>
         <location filename="../prefgeneral.cpp" line="366"/>
         <source>fast</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="334"/>
         <location filename="../prefgeneral.cpp" line="362"/>
         <source>slow</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="367"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
@@ -5943,22 +5986,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="341"/>
         <source>snap mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="342"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="397"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>dart mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="994"/>
@@ -6612,7 +6655,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="45"/>
         <location filename="../prefinterface.ui" line="595"/>
         <source>TextLabel</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="410"/>
@@ -8120,7 +8163,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
@@ -8140,7 +8183,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -8378,13 +8421,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n שניה</numerusform><numerusform>%n שניות</numerusform></translation>
+        <translation>
+            <numerusform>%n שניה</numerusform>
+            <numerusform>%n שניות</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n דקה</numerusform><numerusform>%n דקות</numerusform></translation>
+        <translation>
+            <numerusform>%n דקה</numerusform>
+            <numerusform>%n דקות</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
