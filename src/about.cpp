@@ -193,7 +193,7 @@ QString About::trad(const QString & lang, const QStringList & authors) {
 	for (int n = 0; n < authors.count(); n++) {
 		QString author = authors[n];
 		s += author.replace("<", "&lt;").replace(">", "&gt;");
-		if (n < (authors.count()-1)) s += "<br>";
+		if (n < (authors.count()-1)) s += ", ";
 	}
 	return QString("<h3>%1:</h3><h4>%2</h4><hr>").arg(lang).arg(s);
 }
