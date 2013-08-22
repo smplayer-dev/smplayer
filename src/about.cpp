@@ -182,6 +182,7 @@ QString About::getTranslators() {
 		trad(tr("Arabic - Saudi Arabia"), "Mohamed") +
 		trad(tr("Hungarian"), "gojko") +
 		trad(tr("Sinhala"), "Rathnayake") +
+		trad(tr("Greek"), QString::fromUtf8("Γιάννης Ανθυμίδης")) +
 		"");
 }
 
