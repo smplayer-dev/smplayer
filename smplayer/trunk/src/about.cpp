@@ -160,7 +160,7 @@ QString About::getTranslators() {
 		trad(tr("Galician"), QStringList() << QString::fromUtf8("Adrián Chaves Fernández") << "Miguel Branco") +
 		trad(tr("Lithuanian"), QString::fromUtf8("Algimantas Margevičius")) +
 		trad(tr("Malay"), "abuyop") +
-		trad(tr("Portuguese - Brazil"), QString::fromUtf8("Maico Sertório")) +
+		trad(tr("Portuguese - Brazil"), QStringList() << QString::fromUtf8("Maico Sertório") << "Vinicius") +
 		trad(tr("Hebrew"), "GenghisKhan") +
 		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "zhangzheliuli" << "zhnagmin") +
 		trad(tr("Vietnamese"), QStringList() << "Anh Phan" << "Biz Over" << "Thu Thao Nguyen Ngoc") +
