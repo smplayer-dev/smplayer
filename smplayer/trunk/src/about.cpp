@@ -173,7 +173,7 @@ QString About::getTranslators() {
 		trad(tr("Turkish"), QStringList() << "Emre FIRAT" << QString::fromUtf8("Hasan Akgöz")) +
 		trad(tr("Finnish"), QString::fromUtf8("Jiri Grönroos")) +
 		trad(tr("German"), "shaggy") +
-		trad(tr("Traditional Chinese"), "taijuin lee") +
+		trad(tr("Traditional Chinese"), QStringList() << "taijuin lee" << "wpliao" ) +
 		trad(tr("Bulgarian"), "Ivailo Monev") +
 		trad(tr("Norwegian Nynorsk"), "bjorni") +
 		trad(tr("Swedish"), QStringList() << "XC" << "Andreas Gustafsson") +
