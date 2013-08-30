@@ -21,7 +21,7 @@
 #ifndef MEDIAPANEL_H
 #define MEDIAPANEL_H
 
-#include <QtGui/QWidget>
+#include <QWidget>
 #include <QPixmap>
 #include <QLabel>
 #include "ui_mediapanel.h"
