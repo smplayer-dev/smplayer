@@ -170,10 +170,7 @@ void PrefInput::setData(Preferences * pref) {
 	setXButton1ClickFunction( pref->mouse_xbutton1_click_function );
 	setXButton2ClickFunction( pref->mouse_xbutton2_click_function );
 	setWheelFunction( pref->wheel_function );
-#if QT_VERSION < 0x050000
-	/* fixme */
 	setWheelFunctionCycle(pref->wheel_function_cycle);
-#endif
 	setWheelFunctionSeekingReverse(pref->wheel_function_seeking_reverse);
 }
 
@@ -187,10 +184,7 @@ void PrefInput::getData(Preferences * pref) {
 	pref->mouse_xbutton1_click_function = xButton1ClickFunction();
 	pref->mouse_xbutton2_click_function = xButton2ClickFunction();
 	pref->wheel_function = wheelFunction();
-#if QT_VERSION < 0x050000
-	/* fixme */
 	pref->wheel_function_cycle = wheelFunctionCycle();
-#endif
 	pref->wheel_function_seeking_reverse = wheelFunctionSeekingReverse();
 }
 
@@ -271,21 +265,19 @@ int PrefInput::wheelFunction() {
 	return wheel_function_combo->itemData(wheel_function_combo->currentIndex()).toInt();
 }
 
-#if QT_VERSION < 0x050000
-	/* fixme */
-void PrefInput::setWheelFunctionCycle(QFlags<Preferences::WheelFunctions> flags){
+void PrefInput::setWheelFunctionCycle(Preferences::WheelFunctions flags){
 	wheel_function_seek->setChecked(flags.testFlag(Preferences::Seeking));
 	wheel_function_volume->setChecked(flags.testFlag(Preferences::Volume));
 	wheel_function_zoom->setChecked(flags.testFlag(Preferences::Zoom));
 	wheel_function_speed->setChecked(flags.testFlag(Preferences::ChangeSpeed));
 }
 
-QFlags<Preferences::WheelFunctions> PrefInput::wheelFunctionCycle(){
-	QFlags<Preferences::WheelFunctions> seekflags (QFlag ((int) Preferences::Seeking)) ;
-	QFlags<Preferences::WheelFunctions> volumeflags (QFlag ((int) Preferences::Volume)) ;
-	QFlags<Preferences::WheelFunctions> zoomflags (QFlag ((int) Preferences::Zoom)) ;
-	QFlags<Preferences::WheelFunctions> speedflags (QFlag ((int) Preferences::ChangeSpeed)) ;
-	QFlags<Preferences::WheelFunctions> out (QFlag (0));
+Preferences::WheelFunctions PrefInput::wheelFunctionCycle(){
+	Preferences::WheelFunctions seekflags (QFlag ((int) Preferences::Seeking)) ;
+	Preferences::WheelFunctions volumeflags (QFlag ((int) Preferences::Volume)) ;
+	Preferences::WheelFunctions zoomflags (QFlag ((int) Preferences::Zoom)) ;
+	Preferences::WheelFunctions speedflags (QFlag ((int) Preferences::ChangeSpeed)) ;
+	Preferences::WheelFunctions out (QFlag (0));
 	if(wheel_function_seek->isChecked()){
 		out = out | seekflags;
 	}
@@ -300,7 +292,6 @@ QFlags<Preferences::WheelFunctions> PrefInput::wheelFunctionCycle(){
 	}
 	return out;
 }
-#endif
 
 void PrefInput::setWheelFunctionSeekingReverse(bool b) {
 	wheel_function_seeking_reverse_check->setChecked(b);
