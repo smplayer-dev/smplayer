@@ -556,7 +556,7 @@ void DefaultGui::displayABSection(int secs_a, int secs_b) {
 
 	ab_section_display->setText( s );
 
-	ab_section_display->setShown( !s.isEmpty() );
+	ab_section_display->setVisible( !s.isEmpty() );
 }
 
 void DefaultGui::displayVideoInfo(int width, int height, double fps) {

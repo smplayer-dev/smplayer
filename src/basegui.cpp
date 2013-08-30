@@ -38,6 +38,7 @@
 #include <QDesktopServices>
 #include <QInputDialog>
 #include <QClipboard>
+#include <QMimeData>
 
 #include <cmath>
 

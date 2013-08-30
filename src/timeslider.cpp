@@ -25,7 +25,7 @@
 
 TimeSlider::TimeSlider( QWidget * parent ) : MySlider(parent)
 {
-	dont_update = FALSE;
+	dont_update = false;
 	setMinimum(0);
 #ifdef SEEKBAR_RESOLUTION
 	setMaximum(SEEKBAR_RESOLUTION);
@@ -57,14 +57,14 @@ void TimeSlider::stopUpdate() {
 	#if DEBUG
 	qDebug("TimeSlider::stopUpdate");
 	#endif
-	dont_update = TRUE;
+	dont_update = true;
 }
 
 void TimeSlider::resumeUpdate() {
 	#if DEBUG
 	qDebug("TimeSlider::resumeUpdate");
 	#endif
-	dont_update = FALSE;
+	dont_update = false;
 }
 
 void TimeSlider::mouseReleased() {

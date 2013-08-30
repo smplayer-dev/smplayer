@@ -329,8 +329,10 @@ public:
 	QString mouse_xbutton2_click_function;
 	int wheel_function;
 
+#if QT_VERSION < 0x050000
+	/* fixme */
 	QFlags<WheelFunctions> wheel_function_cycle;
-
+#endif
 	bool wheel_function_seeking_reverse;
 
 	// Configurable seeking
