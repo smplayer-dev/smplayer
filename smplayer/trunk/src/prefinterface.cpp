@@ -206,7 +206,9 @@ void PrefInterface::retranslateStrings() {
 	gui_combo->clear();
 	gui_combo->addItem( tr("Default GUI"), "DefaultGUI");
 	gui_combo->addItem( tr("Mini GUI"), "MiniGUI");
+#ifdef MPCGUI
 	gui_combo->addItem( tr("Mpc GUI"), "MpcGUI");
+#endif
 #ifdef SKINS
 	gui_combo->addItem( tr("Skinnable GUI"), "SkinGUI");
 	if (n_skins == 0) {

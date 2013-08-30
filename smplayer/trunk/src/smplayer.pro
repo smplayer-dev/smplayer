@@ -9,9 +9,6 @@ QT += network xml
 
 RESOURCES = icons.qrc
 
-INCLUDEPATH += mpcgui
-DEPENDPATH += mpcgui
-
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += widgets gui
 	DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x040000
@@ -26,6 +23,7 @@ DEFINES += YT_USE_SCRIPT
 DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
+DEFINES += MPCGUI
 DEFINES += SKINS
 DEFINES += UPDATE_CHECKER
 DEFINES += CHECK_UPGRADED
@@ -155,8 +153,6 @@ HEADERS += guiconfig.h \
 	editabletoolbar.h \
 	defaultgui.h \
 	minigui.h \
-	mpcgui/mpcgui.h \
-	mpcgui/mpcstyles.h \
 	clhelp.h \
 	cleanconfig.h \
 	smplayer.h \
@@ -253,8 +249,6 @@ SOURCES	+= version.cpp \
 	editabletoolbar.cpp \
 	defaultgui.cpp \
 	minigui.cpp \
-	mpcgui/mpcgui.cpp \
-	mpcgui/mpcstyles.cpp \
 	clhelp.cpp \
 	cleanconfig.cpp \
 	smplayer.cpp \
@@ -350,6 +344,15 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 		SOURCES += youtube/codedownloader.cpp
 		QT += script
 	}
+}
+
+# mpcgui
+contains( DEFINES, MPCGUI ) {
+	INCLUDEPATH += mpcgui
+	DEPENDPATH += mpcgui
+
+	HEADERS += mpcgui/mpcgui.h mpcgui/mpcstyles.h
+	SOURCES += mpcgui/mpcgui.cpp mpcgui/mpcstyles.cpp
 }
 
 # Skins support
