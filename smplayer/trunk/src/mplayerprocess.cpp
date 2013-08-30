@@ -368,7 +368,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 #if !CHECK_VIDEO_CODEC_FOR_NO_VIDEO
 		// No video
 		if (rx_novideo.indexIn(line) > -1) {
-			md.novideo = TRUE;
+			md.novideo = true;
 			emit receivedNoVideo();
 			//emit mplayerFullyLoaded();
 		}

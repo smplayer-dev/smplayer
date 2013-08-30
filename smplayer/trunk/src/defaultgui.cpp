@@ -474,7 +474,7 @@ void DefaultGui::createStatusBar() {
 	video_info_display->setAlignment(Qt::AlignRight);
 	video_info_display->setFrameShape(QFrame::NoFrame);
 
-	statusBar()->setAutoFillBackground(TRUE);
+	statusBar()->setAutoFillBackground(true);
 
 	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
 	ColorUtils::setForegroundColor( statusBar(), QColor(255,255,255) );
@@ -486,7 +486,7 @@ void DefaultGui::createStatusBar() {
 	ColorUtils::setForegroundColor( ab_section_display, QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( video_info_display, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( video_info_display, QColor(255,255,255) );
-	statusBar()->setSizeGripEnabled(FALSE);
+	statusBar()->setSizeGripEnabled(false);
 
 	statusBar()->addPermanentWidget( video_info_display );
 	statusBar()->addPermanentWidget( ab_section_display );

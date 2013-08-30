@@ -218,7 +218,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 }
 
 void BaseGui::initializeGui() {
-	if (pref->compact_mode) toggleCompactMode(TRUE);
+	if (pref->compact_mode) toggleCompactMode(true);
 	changeStayOnTop(pref->stay_on_top);
 
 #if ALLOW_CHANGE_STYLESHEET
@@ -2189,7 +2189,7 @@ void BaseGui::createPanel() {
 	panel->setFocusPolicy( Qt::StrongFocus );
 
 	// panel
-	panel->setAutoFillBackground(TRUE);
+	panel->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( panel, QColor(0,0,0) );
 }
 
@@ -2934,7 +2934,7 @@ void BaseGui::applyFileProperties() {
 
 #undef TEST_AND_SET
 #define TEST_AND_SET( Pref, Dialog ) \
-	if ( Pref != Dialog ) { Pref = Dialog; need_restart = TRUE; }
+	if ( Pref != Dialog ) { Pref = Dialog; need_restart = true; }
 
 	QString prev_demuxer = core->mset.forced_demuxer;
 
@@ -4535,7 +4535,7 @@ void BaseGui::enterFullscreenOnPlay() {
 
 	if (arg_start_in_fullscreen != 0) {
 		if ( (arg_start_in_fullscreen == 1) || (pref->start_in_fullscreen) ) {
-			if (!pref->fullscreen) toggleFullscreen(TRUE);
+			if (!pref->fullscreen) toggleFullscreen(true);
 		}
 	}
 }
@@ -4543,7 +4543,7 @@ void BaseGui::enterFullscreenOnPlay() {
 // Called when the playlist has stopped
 void BaseGui::exitFullscreenOnStop() {
     if (pref->fullscreen) {
-		toggleFullscreen(FALSE);
+		toggleFullscreen(false);
 	}
 }
 
@@ -4825,7 +4825,7 @@ void BaseGui::toggleStayOnTop() {
 void BaseGui::exitFullscreenIfNeeded() {
 	/*
 	if (pref->fullscreen) {
-		toggleFullscreen(FALSE);
+		toggleFullscreen(false);
 	}
 	*/
 }

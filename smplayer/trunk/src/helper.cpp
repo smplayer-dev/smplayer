@@ -148,10 +148,10 @@ bool Helper::directoryContainsDVD(QString directory) {
 
 	QDir dir(directory);
 	QStringList l = dir.entryList();
-	bool valid = FALSE;
+	bool valid = false;
 	for (int n=0; n < l.count(); n++) {
 		//qDebug("  * entry %d: '%s'", n, l[n].toUtf8().data());
-		if (l[n].toLower() == "video_ts") valid = TRUE;
+		if (l[n].toLower() == "video_ts") valid = true;
 	}
 
 	return valid;
