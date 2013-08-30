@@ -605,7 +605,7 @@ void Core::openDVD( bool from_folder, QString directory) {
 			QFileInfo fi(directory);
 			if ( (fi.exists()) && (fi.isDir()) ) {
 				pref->dvd_directory = directory;
-				pref->play_dvd_from_hd = TRUE;
+				pref->play_dvd_from_hd = true;
 				openDVD();
 			} else {
 				qDebug("Core::openDVD: directory '%s' is not valid", directory.toUtf8().data());
@@ -614,7 +614,7 @@ void Core::openDVD( bool from_folder, QString directory) {
 			qDebug("Core::openDVD: directory is empty");
 		}
 	} else {
-		pref->play_dvd_from_hd = FALSE;
+		pref->play_dvd_from_hd = false;
 		openDVD();
 	}
 }
@@ -1025,7 +1025,7 @@ void Core::newMediaPlaying() {
 		mset.current_chapter_id = firstChapter();
 	}
 
-	mdat.initialized = TRUE;
+	mdat.initialized = true;
 
 	// MPlayer doesn't display the length in ID_LENGTH for audio CDs...
 	if ((mdat.duration == 0) && (mdat.type == TYPE_AUDIO_CD)) {
@@ -4087,7 +4087,7 @@ void Core::gotNoVideo() {
 	mplayerwindow->setResolution( mset.win_width, mset.win_height );
 	emit needResize( mset.win_width, mset.win_height );
 	*/
-	//mplayerwindow->showLogo(TRUE);
+	//mplayerwindow->showLogo(true);
 	emit noVideo();
 }
 

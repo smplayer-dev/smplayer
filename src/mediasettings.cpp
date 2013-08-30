@@ -45,7 +45,7 @@ void MediaSettings::reset() {
 
 	aspect_ratio_id = AspectAuto;
 
-	//fullscreen = FALSE;
+	//fullscreen = false;
 	volume = pref->initial_volume;
 	mute = false;
 	external_subtitles = "";

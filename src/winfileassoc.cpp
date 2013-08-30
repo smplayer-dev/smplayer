@@ -351,7 +351,7 @@ bool WinFileAssoc::VistaGetDefaultApps(const QStringList &extensions, QStringLis
 
     if (SUCCEEDED(hr) && (pAAR != NULL)) {
         foreach(const QString & fileExtension, extensions) {
-            BOOL bIsDefault = FALSE;
+            BOOL bIsDefault = false;
             hr = pAAR->QueryAppIsDefault((const WCHAR *)QString("." + fileExtension).utf16(),
                                          AT_FILEEXTENSION,
                                          AL_EFFECTIVE,
