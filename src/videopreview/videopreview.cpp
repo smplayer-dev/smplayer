@@ -491,8 +491,8 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 
 void VideoPreview::showInfo(bool visible) {
 	qDebug("VideoPreview::showInfo: %d", visible);
-	info->setShown(visible);
-	foot->setShown(visible);
+	info->setVisible(visible);
+	foot->setVisible(visible);
 }
 
 void VideoPreview::saveImage() {
