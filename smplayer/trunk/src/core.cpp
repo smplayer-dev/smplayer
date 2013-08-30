@@ -3696,9 +3696,6 @@ void Core::nextAspectRatio() {
 }
 
 void Core::nextWheelFunction() {
-#if QT_VERSION < 0x050000
-	/* fixme */
-
 	int a = pref->wheel_function;
 
 	bool done = false;
@@ -3711,7 +3708,7 @@ void Core::nextWheelFunction() {
 		if(a==32)
 			a = 2;
 		// See if we are done
-		if(pref->wheel_function_cycle.testFlag(QFlag(a)))
+		if (pref->wheel_function_cycle.testFlag((Preferences::WheelFunction)a))
 			done = true;
 	}
 	pref->wheel_function = a;
@@ -3731,7 +3728,6 @@ void Core::nextWheelFunction() {
 		break;
 	}
 	displayMessage(m);
-#endif
 }
 
 void Core::changeLetterbox(bool b) {
