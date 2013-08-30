@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-#CONFIG += release
-CONFIG += debug
+CONFIG += release
+#CONFIG += debug
 
 QT += network xml
 
@@ -274,7 +274,7 @@ contains( DEFINES, SINGLE_INSTANCE ) {
 
 # Find subtitles dialog
 contains( DEFINES, FIND_SUBTITLES ) {
-	#DEFINES += DOWNLOAD_SUBS
+	DEFINES += DOWNLOAD_SUBS
 	#DEFINES += USE_QUAZIP
 
 	INCLUDEPATH += findsubtitles
