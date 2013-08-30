@@ -7,11 +7,12 @@ CONFIG += debug
 
 QT += network xml
 
-INCLUDEPATH += ..
-DEPENDPATH += ..
+INCLUDEPATH += .. maia
 
-INCLUDEPATH += maia
-DEPENDPATH += maia
+isEqual(QT_MAJOR_VERSION, 5) {
+	QT += widgets gui
+	#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x040000
+}
 
 HEADERS += ../filehash.h \
            ../lineedit_with_icon.h \
@@ -32,20 +33,20 @@ SOURCES += ../filehash.cpp \
            findsubtitleswindow.cpp \
            main.cpp
 
-HEADERS += maiaObject.h maiaFault.h maiaXmlRpcClient.h osclient.h
-SOURCES += maiaObject.cpp maiaFault.cpp maiaXmlRpcClient.cpp osclient.cpp
+HEADERS += maia/maiaObject.h maia/maiaFault.h maia/maiaXmlRpcClient.h osclient.h
+SOURCES += maia/maiaObject.cpp maia/maiaFault.cpp maia/maiaXmlRpcClient.cpp osclient.cpp
 
 FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 
-DEFINES += NO_SMPLAYER_SUPPORT DOWNLOAD_SUBS
+DEFINES += NO_SMPLAYER_SUPPORT
+DEFINES += DOWNLOAD_SUBS
 #DEFINES += USE_QUAZIP
 
 contains( DEFINES, DOWNLOAD_SUBS ) {
 	INCLUDEPATH += filedownloader
-	DEPENDPATH += filedownloader
 
-	HEADERS += filedownloader.h subchooserdialog.h
-	SOURCES += filedownloader.cpp subchooserdialog.cpp
+	HEADERS += filedownloader/filedownloader.h subchooserdialog.h
+	SOURCES += filedownloader/filedownloader.cpp subchooserdialog.cpp
 
 	FORMS += subchooserdialog.ui
 
@@ -73,8 +74,8 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	LIBS += -lz
 	
 	win32 {
-		INCLUDEPATH += c:\development\zlib-1.2.3
-		LIBS += -Lc:\development\zlib-1.2.3
+		INCLUDEPATH += ..\\..\\zlib
+		LIBS += -L..\\..\\zlib
 	}
 }
 
