@@ -25,7 +25,7 @@
 
 
 #define TEST_AND_SET( Pref, Dialog ) \
-	if ( Pref != Dialog ) { Pref = Dialog; requires_restart = TRUE; }
+	if ( Pref != Dialog ) { Pref = Dialog; requires_restart = true; }
 
 class QEvent;
 

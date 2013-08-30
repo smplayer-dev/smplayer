@@ -36,7 +36,7 @@ FilePropertiesDialog::FilePropertiesDialog( QWidget* parent, Qt::WindowFlags f )
 	applyButton = buttonBox->button(QDialogButtonBox::Apply);
 	connect( applyButton, SIGNAL(clicked()), this, SLOT(apply()) );
 
-	codecs_set = FALSE;
+	codecs_set = false;
 
 	// Read codec info from InfoReader:
 	InfoReader *i = InfoReader::obj();
@@ -109,7 +109,7 @@ void FilePropertiesDialog::setCodecs(InfoList vc, InfoList ac, InfoList demuxer)
 		demuxer_listbox->addItem( (*it).name() +" - "+ (*it).desc() );
 	}
 
-	codecs_set = TRUE;	
+	codecs_set = true;	
 }
 
 void FilePropertiesDialog::setDemuxer(QString demuxer, QString original_demuxer) {

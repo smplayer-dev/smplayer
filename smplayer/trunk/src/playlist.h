@@ -28,10 +28,10 @@ class PlaylistItem {
 
 public:
 	PlaylistItem() { _filename=""; _name=""; _duration=0; 
-                     _played = FALSE; _deleted=FALSE; };
+                     _played = false; _deleted=false; };
 	PlaylistItem(QString filename, QString name, double duration) {
 		         _filename = filename; _name = name; _duration = duration; 
-                 _played = FALSE; _deleted = FALSE; };
+                 _played = false; _deleted = false; };
 	~PlaylistItem() {};
 
 	void setFilename(QString filename) { _filename = filename; };

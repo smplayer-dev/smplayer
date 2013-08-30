@@ -3696,6 +3696,9 @@ void Core::nextAspectRatio() {
 }
 
 void Core::nextWheelFunction() {
+#if QT_VERSION < 0x050000
+	/* fixme */
+
 	int a = pref->wheel_function;
 
 	bool done = false;
@@ -3728,6 +3731,7 @@ void Core::nextWheelFunction() {
 		break;
 	}
 	displayMessage(m);
+#endif
 }
 
 void Core::changeLetterbox(bool b) {

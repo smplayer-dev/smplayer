@@ -71,7 +71,7 @@ InfoReader::~InfoReader() {
 }
 
 void InfoReader::getInfo() {
-	waiting_for_key = TRUE;
+	waiting_for_key = true;
 	vo_list.clear();
 	ao_list.clear();
 	demuxer_list.clear();
@@ -194,31 +194,31 @@ void InfoReader::readLine(QByteArray ba) {
 
 	if ( rx_vo_key.indexIn(line) > -1 ) {
 		reading_type = VO;
-		waiting_for_key = FALSE;
+		waiting_for_key = false;
 		qDebug("InfoReader::readLine: found key: vo");
 	}
 
 	if ( rx_ao_key.indexIn(line) > -1 ) {
 		reading_type = AO;
-		waiting_for_key = FALSE;
+		waiting_for_key = false;
 		qDebug("InfoReader::readLine: found key: ao");
 	}
 
 	if ( rx_demuxer_key.indexIn(line) > -1 ) {
 		reading_type = DEMUXER;
-		waiting_for_key = FALSE;
+		waiting_for_key = false;
 		qDebug("InfoReader::readLine: found key: demuxer");
 	}
 
 	if ( rx_ac_key.indexIn(line) > -1 ) {
 		reading_type = AC;
-		waiting_for_key = FALSE;
+		waiting_for_key = false;
 		qDebug("InfoReader::readLine: found key: ac");
 	}
 
 	if ( rx_vc_key.indexIn(line) > -1 ) {
 		reading_type = VC;
-		waiting_for_key = FALSE;
+		waiting_for_key = false;
 		qDebug("InfoReader::readLines: found key: vc");
 	}
 

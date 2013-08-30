@@ -334,7 +334,10 @@ void Preferences::reset() {
 	mouse_xbutton1_click_function = "";
 	mouse_xbutton2_click_function = "";
 	wheel_function = Seeking;
+#if QT_VERSION < 0x050000
+	/* fixme */
 	wheel_function_cycle = Seeking | Volume | Zoom | ChangeSpeed;
+#endif
 	wheel_function_seeking_reverse = false;
 
 	seeking1 = 10;
@@ -777,7 +780,10 @@ void Preferences::save() {
 	set->setValue("mouse_xbutton1_click_function", mouse_xbutton1_click_function);
 	set->setValue("mouse_xbutton2_click_function", mouse_xbutton2_click_function);
 	set->setValue("mouse_wheel_function", wheel_function);
+#if QT_VERSION < 0x050000
+	/* fixme */
 	set->setValue("wheel_function_cycle", (int) wheel_function_cycle);
+#endif
 	set->setValue("wheel_function_seeking_reverse", wheel_function_seeking_reverse);
 
 	set->setValue("seeking1", seeking1);
@@ -1253,8 +1259,11 @@ void Preferences::load() {
 	mouse_xbutton1_click_function = set->value("mouse_xbutton1_click_function", mouse_xbutton1_click_function).toString();
 	mouse_xbutton2_click_function = set->value("mouse_xbutton2_click_function", mouse_xbutton2_click_function).toString();
 	wheel_function = set->value("mouse_wheel_function", wheel_function).toInt();
+#if QT_VERSION < 0x050000
+	/* fixme */
 	int wheel_function_cycle_int = set->value("wheel_function_cycle", (int) wheel_function_cycle).toInt();
 	wheel_function_cycle = QFlags<Preferences::WheelFunctions> (QFlag(wheel_function_cycle_int));
+#endif
 	wheel_function_seeking_reverse = set->value("wheel_function_seeking_reverse", wheel_function_seeking_reverse).toBool();
 
 	seeking1 = set->value("seeking1", seeking1).toInt();

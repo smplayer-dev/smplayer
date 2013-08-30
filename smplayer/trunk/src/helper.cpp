@@ -96,7 +96,7 @@ QString Helper::shortPathName(QString long_path) {
 		const int max_path = 4096;
 		WCHAR shortName[max_path];
 
-		QString nativePath = QDir::convertSeparators(long_path);
+		QString nativePath = QDir::toNativeSeparators(long_path);
 		int ret = GetShortPathNameW((LPCWSTR) nativePath.utf16(), shortName, max_path);
 		if (ret != ERROR_INVALID_PARAMETER && ret < MAX_PATH)
 			short_path = QString::fromUtf16((const ushort*) shortName);

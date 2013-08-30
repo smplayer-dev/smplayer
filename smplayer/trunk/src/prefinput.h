@@ -72,8 +72,11 @@ protected:
 	void setWheelFunction(int function);
 	int wheelFunction();
 
+#if QT_VERSION < 0x050000
+	/* fixme */
 	void setWheelFunctionCycle(QFlags<Preferences::WheelFunctions> flags);
 	QFlags<Preferences::WheelFunctions> wheelFunctionCycle();
+#endif
 
 	void setWheelFunctionSeekingReverse(bool b);
 	bool wheelFunctionSeekingReverse();

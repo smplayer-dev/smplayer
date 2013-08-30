@@ -39,6 +39,7 @@
 #include <QHeaderView>
 #include <QTextCodec>
 #include <QApplication>
+#include <QMimeData>
 
 #include "mytablewidget.h"
 #include "myaction.h"
@@ -395,7 +396,7 @@ void Playlist::setCurrentItem(int current) {
 	current_item = current;
 
 	if ((current_item > -1) && (current_item < pl.count())) {
-		pl[current_item].setPlayed(TRUE);
+		pl[current_item].setPlayed(true);
 	}
 
 	if ( (old_current >= 0) && (old_current < listView->rowCount()) ) {
@@ -471,7 +472,7 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 			// Let's see if it looks like a file (no dvd://1 or something)
 			if (filename.indexOf(QRegExp("^.*://.*")) == -1) {
 				// Local file
-				name = fi.fileName(); //fi.baseName(TRUE);
+				name = fi.fileName(); //fi.baseName(true);
 			} else {
 				// Stream
 				name = filename;
@@ -909,7 +910,7 @@ void Playlist::playItem( int n ) {
 	QString filename_with_path = playlist_path + "/" + filename;
 
 	if (!filename.isEmpty()) {
-		//pl[n].setPlayed(TRUE);
+		//pl[n].setPlayed(true);
 		setCurrentItem(n);
 		if (play_files_from_start) 
 			core->open(filename, 0);
@@ -1137,7 +1138,7 @@ void Playlist::removeSelected() {
 	for (int n=0; n < listView->rowCount(); n++) {
 		if (listView->isSelected(n, 0)) {
 			qDebug(" row %d selected", n);
-			pl[n].setMarkForDeletion(TRUE);
+			pl[n].setMarkForDeletion(true);
 			number_previous_item++;
 			if (first_selected == -1) first_selected = n;
 		}
@@ -1183,7 +1184,7 @@ void Playlist::removeAll() {
 void Playlist::clearPlayedTag() {
 	PlaylistItemList::iterator it;
 	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		(*it).setPlayed(FALSE);
+		(*it).setPlayed(false);
 	}
 	updateView();
 }

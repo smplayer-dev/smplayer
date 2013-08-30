@@ -34,7 +34,7 @@ void MediaData::reset() {
 	type = TYPE_UNKNOWN;
 	duration=0;
 
-	novideo = FALSE;
+	novideo = false;
 
 	video_width=0;
     video_height=0;

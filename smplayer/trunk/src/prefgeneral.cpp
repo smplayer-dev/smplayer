@@ -796,19 +796,19 @@ Preferences::OptionState PrefGeneral::scaleTempoFilter() {
 void PrefGeneral::vo_combo_changed(int idx) {
 	qDebug("PrefGeneral::vo_combo_changed: %d", idx);
 	bool visible = (vo_combo->itemData(idx).toString() == "user_defined");
-	vo_user_defined_edit->setShown(visible);
+	vo_user_defined_edit->setVisible(visible);
 	vo_user_defined_edit->setFocus();
 
 #ifndef Q_OS_WIN
 	bool vdpau_button_visible = (vo_combo->itemData(idx).toString() == "vdpau");
-	vdpau_button->setShown(vdpau_button_visible);
+	vdpau_button->setVisible(vdpau_button_visible);
 #endif
 }
 
 void PrefGeneral::ao_combo_changed(int idx) {
 	qDebug("PrefGeneral::ao_combo_changed: %d", idx);
 	bool visible = (ao_combo->itemData(idx).toString() == "user_defined");
-	ao_user_defined_edit->setShown(visible);
+	ao_user_defined_edit->setVisible(visible);
 	ao_user_defined_edit->setFocus();
 }
 

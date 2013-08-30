@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 QT += network xml
 
@@ -11,6 +11,11 @@ RESOURCES = icons.qrc
 
 INCLUDEPATH += mpcgui
 DEPENDPATH += mpcgui
+
+isEqual(QT_MAJOR_VERSION, 5) {
+	QT += widgets gui
+	DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x040000
+}
 
 #DEFINES += EXPERIMENTAL
 DEFINES += SINGLE_INSTANCE
@@ -109,7 +114,6 @@ HEADERS += guiconfig.h \
 	tristatecombo.h \
 	languages.h \
 	selectcolorbutton.h \
-	simplehttp.h \
 	prefwidget.h \
 	prefgeneral.h \
 	prefdrives.h \
@@ -208,7 +212,6 @@ SOURCES	+= version.cpp \
 	tristatecombo.cpp \
 	languages.cpp \
 	selectcolorbutton.cpp \
-	simplehttp.cpp \
 	prefwidget.cpp \
 	prefgeneral.cpp \
 	prefdrives.cpp \
@@ -271,13 +274,13 @@ contains( DEFINES, SINGLE_INSTANCE ) {
 	INCLUDEPATH += qtsingleapplication
 	DEPENDPATH += qtsingleapplication
 
-	SOURCES += qtsingleapplication.cpp qtlocalpeer.cpp
-	HEADERS += qtsingleapplication.h qtlocalpeer.h
+	SOURCES += qtsingleapplication/qtsingleapplication.cpp qtsingleapplication/qtlocalpeer.cpp
+	HEADERS += qtsingleapplication/qtsingleapplication.h qtsingleapplication/qtlocalpeer.h
 }
 
 # Find subtitles dialog
 contains( DEFINES, FIND_SUBTITLES ) {
-	DEFINES += DOWNLOAD_SUBS
+	#DEFINES += DOWNLOAD_SUBS
 	#DEFINES += USE_QUAZIP
 
 	INCLUDEPATH += findsubtitles
@@ -286,13 +289,13 @@ contains( DEFINES, FIND_SUBTITLES ) {
 	INCLUDEPATH += findsubtitles/maia
 	DEPENDPATH += findsubtitles/maia
 
-	HEADERS += findsubtitlesconfigdialog.h findsubtitleswindow.h
-	SOURCES += findsubtitlesconfigdialog.cpp findsubtitleswindow.cpp
-	FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
+	HEADERS += findsubtitles/findsubtitlesconfigdialog.h findsubtitles/findsubtitleswindow.h
+	SOURCES += findsubtitles/findsubtitlesconfigdialog.cpp findsubtitles/findsubtitleswindow.cpp
+	FORMS += findsubtitles/findsubtitleswindow.ui findsubtitles/findsubtitlesconfigdialog.ui
 
 	# xmlrpc client code to connect to opensubtitles.org
-	HEADERS += maiaObject.h maiaFault.h maiaXmlRpcClient.h osclient.h
-	SOURCES += maiaObject.cpp maiaFault.cpp maiaXmlRpcClient.cpp osclient.cpp
+	HEADERS += findsubtitles/maia/maiaObject.h findsubtitles/maia/maiaFault.h findsubtitles/maia/maiaXmlRpcClient.h findsubtitles/osclient.h
+	SOURCES += findsubtitles/maia/maiaObject.cpp findsubtitles/maia/maiaFault.cpp findsubtitles/maia/maiaXmlRpcClient.cpp findsubtitles/osclient.cpp
 }
 
 # Download subtitles
@@ -300,10 +303,10 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 	INCLUDEPATH += findsubtitles/filedownloader
 	DEPENDPATH += findsubtitles/filedownloader
 
-	HEADERS += filedownloader.h subchooserdialog.h fixsubs.h
-	SOURCES += filedownloader.cpp subchooserdialog.cpp fixsubs.cpp
+	HEADERS += findsubtitles/filedownloader/filedownloader.h findsubtitles/subchooserdialog.h findsubtitles/fixsubs.h
+	SOURCES += findsubtitles/filedownloader/filedownloader.cpp findsubtitles/subchooserdialog.cpp findsubtitles/fixsubs.cpp
 
-	FORMS += subchooserdialog.ui
+	FORMS += findsubtitles/subchooserdialog.ui
 
 	contains( DEFINES, USE_QUAZIP ) {
 		INCLUDEPATH += findsubtitles/quazip
@@ -339,12 +342,12 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 	INCLUDEPATH += youtube
 	DEPENDPATH += youtube
 
-	HEADERS += retrieveyoutubeurl.h ytsig.h
-	SOURCES += retrieveyoutubeurl.cpp ytsig.cpp
+	HEADERS += youtube/retrieveyoutubeurl.h youtube/ytsig.h
+	SOURCES += youtube/retrieveyoutubeurl.cpp youtube/ytsig.cpp
 
 	contains( DEFINES, YT_USE_SCRIPT ) {
-		HEADERS += codedownloader.h
-		SOURCES += codedownloader.cpp
+		HEADERS += youtube/codedownloader.h
+		SOURCES += youtube/codedownloader.cpp
 		QT += script
 	}
 }
@@ -354,13 +357,13 @@ contains( DEFINES, SKINS ) {
 	INCLUDEPATH += skingui
 	DEPENDPATH += skingui
 
-	HEADERS += myicon.h mybutton.h panelseeker.h playcontrol.h \
-               mediapanel.h volumecontrolpanel.h mediabarpanel.h \
-               qpropertysetter.h actiontools.h skingui.h
-	SOURCES += myicon.cpp mybutton.cpp panelseeker.cpp playcontrol.cpp \
-               mediapanel.cpp volumecontrolpanel.cpp mediabarpanel.cpp \
-               qpropertysetter.cpp actiontools.cpp skingui.cpp
-	FORMS += mediapanel.ui mediabarpanel.ui
+	HEADERS += skingui/myicon.h skingui/mybutton.h skingui/panelseeker.h skingui/playcontrol.h \
+               skingui/mediapanel.h skingui/volumecontrolpanel.h skingui/mediabarpanel.h \
+               skingui/qpropertysetter.h skingui/actiontools.h skingui/skingui.h
+	SOURCES += skingui/myicon.cpp skingui/mybutton.cpp skingui/panelseeker.cpp skingui/playcontrol.cpp \
+               skingui/mediapanel.cpp skingui/volumecontrolpanel.cpp skingui/mediabarpanel.cpp \
+               skingui/qpropertysetter.cpp skingui/actiontools.cpp skingui/skingui.cpp
+	FORMS += skingui/mediapanel.ui skingui/mediabarpanel.ui
 }
 
 # Update checker
@@ -374,10 +377,10 @@ contains( DEFINES, VIDEOPREVIEW ) {
 	INCLUDEPATH += videopreview
 	DEPENDPATH += videopreview
 
-	HEADERS += videopreview.h videopreviewconfigdialog.h
-	SOURCES += videopreview.cpp videopreviewconfigdialog.cpp
+	HEADERS += videopreview/videopreview.h videopreview/videopreviewconfigdialog.h
+	SOURCES += videopreview/videopreview.cpp videopreview/videopreviewconfigdialog.cpp
 
-	FORMS += videopreviewconfigdialog.ui
+	FORMS += videopreview/videopreviewconfigdialog.ui
 }
 
 unix {

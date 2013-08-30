@@ -43,7 +43,7 @@
 
 Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f ) 
 {
-	setMouseTracking(TRUE);
+	setMouseTracking(true);
 	setFocusPolicy( Qt::NoFocus );
 	setMinimumSize( QSize(0,0) );
 
@@ -182,10 +182,10 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 
 	mplayerlayer = new MplayerLayer( this );
 	mplayerlayer->setObjectName("mplayerlayer");
-	mplayerlayer->setAutoFillBackground(TRUE);
+	mplayerlayer->setAutoFillBackground(true);
 
 	logo = new QLabel( mplayerlayer );
-	logo->setAutoFillBackground(TRUE);
+	logo->setAutoFillBackground(true);
 #if QT_VERSION >= 0x040400
 	logo->setAttribute(Qt::WA_NativeWindow); // Otherwise the logo is not visible in Qt 4.4
 #else
