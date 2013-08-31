@@ -50,6 +50,6 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     FileDownloader w;
     w.show();
-	w.download(QUrl("http://smplayer.berlios.de/downloads.php?tr_lang=es"));
+    w.download(QUrl("http://smplayer.sf.net/downloads.php"));
     return w.exec();
 }
