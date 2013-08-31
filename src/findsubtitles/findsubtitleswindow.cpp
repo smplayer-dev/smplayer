@@ -516,6 +516,7 @@ void FindSubtitlesWindow::archiveDownloaded(const QByteArray & buffer) {
                                 "file in folder %1\n"
                                 "Please check the permissions of that folder.").arg(fi.absolutePath()));
 	} else {
+		status->setText(tr("Subtitle saved as %1").arg(output_file));
 		emit subtitleDownloaded( output_file );
 	}
 }
