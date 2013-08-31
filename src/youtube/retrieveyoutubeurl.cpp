@@ -104,51 +104,52 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 		//qDebug("code: %s", code.constData());
 
 		QUrl line;
-		line.setEncodedQuery(code);
+		#if QT_VERSION >= 0x050000
+		QUrlQuery * q = new QUrlQuery();
+		q->setQuery(code);
+		#else
+		QUrl * q = &line;
+		q->setEncodedQuery(code);
+		#endif
 
-		if (line.hasQueryItem("url")) {
-			QUrl url( line.queryItemValue("url") );
+		if (q->hasQueryItem("url")) {
+			QUrl url( q->queryItemValue("url") );
 			line.setScheme(url.scheme());
 			line.setHost(url.host());
 			line.setPath(url.path());
-			line.setEncodedQuery( line.encodedQuery() + "&" + url.encodedQuery() );
-			line.removeQueryItem("url");
+			#if QT_VERSION >= 0x050000
+			q->setQuery( q->query() + "&" + url.query() );
+			#else
+			q->setEncodedQuery( q->encodedQuery() + "&" + url.encodedQuery() );
+			#endif
+			q->removeQueryItem("url");
 
-			if (line.hasQueryItem("sig")) {
-				line.addQueryItem("signature", line.queryItemValue("sig"));
-				line.removeQueryItem("sig");
+			if (q->hasQueryItem("sig")) {
+				q->addQueryItem("signature", q->queryItemValue("sig"));
+				q->removeQueryItem("sig");
 			}
 			else
-			if (line.hasQueryItem("s")) {
-				QString signature = YTSig::aclara(line.queryItemValue("s"));
+			if (q->hasQueryItem("s")) {
+				QString signature = YTSig::aclara(q->queryItemValue("s"));
 				if (!signature.isEmpty()) {
-					line.addQueryItem("signature", signature);
+					q->addQueryItem("signature", signature);
 				} else {
 					signature_not_found = true;
 				}
-				line.removeQueryItem("s");
+				q->removeQueryItem("s");
 			}
+			q->removeAllQueryItems("fallback_host");
+			q->removeAllQueryItems("type");
 
-			#if QT_VERSION >= 0x050000
-			QUrlQuery q(line);
-			q.removeAllQueryItems("fallback_host");
-			q.removeAllQueryItems("type");
-			line.setQuery(q);
-			#else
-			line.removeAllQueryItems("fallback_host");
-			line.removeAllQueryItems("type");
-			#endif
-			if ((line.hasQueryItem("itag")) && (line.hasQueryItem("signature"))) {
-				QString itag = line.queryItemValue("itag");
+			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
+				QString itag = q->queryItemValue("itag");
+				q->removeAllQueryItems("itag"); // Remove duplicated itag
+				q->addQueryItem("itag", itag);
 				#if QT_VERSION >= 0x050000
-				q.removeAllQueryItems("itag");
-				line.setQuery(q);
-				#else
-				line.removeAllQueryItems("itag"); // Remove duplicated itag
+				line.setQuery(q->query());
 				#endif
-				line.addQueryItem("itag", itag);
 				urlMap[itag.toInt()] = line.toString();
-				//qDebug("line: %s", line.toString().toLatin1().constData());
+				qDebug("line: %s", line.toString().toLatin1().constData());
 			}
 		}
 	}
