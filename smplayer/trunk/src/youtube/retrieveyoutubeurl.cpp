@@ -152,7 +152,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 				line.setQuery(q->query());
 				#endif
 				urlMap[itag.toInt()] = line.toString();
-				qDebug("line: %s", line.toString().toLatin1().constData());
+				//qDebug("line: %s", line.toString().toLatin1().constData());
 			}
 		}
 	}
