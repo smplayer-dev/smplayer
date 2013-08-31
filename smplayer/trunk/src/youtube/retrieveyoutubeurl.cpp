@@ -24,6 +24,10 @@
 #include <QFile>
 #include "ytsig.h"
 
+#if QT_VERSION >= 0x050000
+#include <QUrlQuery>
+#endif
+
 RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 {
 	reply = 0;
@@ -124,11 +128,24 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 				}
 				line.removeQueryItem("s");
 			}
+
+			#if QT_VERSION >= 0x050000
+			QUrlQuery q(line);
+			q.removeAllQueryItems("fallback_host");
+			q.removeAllQueryItems("type");
+			line.setQuery(q);
+			#else
 			line.removeAllQueryItems("fallback_host");
 			line.removeAllQueryItems("type");
+			#endif
 			if ((line.hasQueryItem("itag")) && (line.hasQueryItem("signature"))) {
 				QString itag = line.queryItemValue("itag");
+				#if QT_VERSION >= 0x050000
+				q.removeAllQueryItems("itag");
+				line.setQuery(q);
+				#else
 				line.removeAllQueryItems("itag"); // Remove duplicated itag
+				#endif
 				line.addQueryItem("itag", itag);
 				urlMap[itag.toInt()] = line.toString();
 				//qDebug("line: %s", line.toString().toLatin1().constData());
