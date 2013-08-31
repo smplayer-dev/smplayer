@@ -98,6 +98,10 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 	bool signature_not_found = false;
 
+	#if QT_VERSION >= 0x050000
+	QUrlQuery * q = new QUrlQuery();
+	#endif
+
 	QList<QByteArray> codeList = fmtArray.toLatin1().split(',');
 	foreach(QByteArray code, codeList) {
 		code = QUrl::fromPercentEncoding(code).toLatin1();
@@ -105,7 +109,6 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 		QUrl line;
 		#if QT_VERSION >= 0x050000
-		QUrlQuery * q = new QUrlQuery();
 		q->setQuery(code);
 		#else
 		QUrl * q = &line;
@@ -153,6 +156,10 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 			}
 		}
 	}
+
+	#if QT_VERSION >= 0x050000
+	delete q;
+	#endif
 
 	qDebug("RetrieveYoutubeUrl::parse: url count: %d", urlMap.count());
 
