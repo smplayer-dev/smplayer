@@ -315,6 +315,10 @@ Section $(Section_SMPlayer) SecSMPlayer
   SetOutPath "$INSTDIR\imageformats"
   File /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
 
+  ;Qt platforms (Qt 5+)
+  SetOutPath "$INSTDIR\platforms"
+  File /nonfatal /r "${SMPLAYER_BUILD_DIR}\platforms\*.*"
+
   ;SMPlayer key shortcuts
   SetOutPath "$INSTDIR\shortcuts"
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
@@ -615,6 +619,7 @@ ${MementoSectionDone}
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
+  RMDir /r "$INSTDIR\platforms"
   RMDir /r "$INSTDIR\shortcuts"
   RMDir /r "$INSTDIR\themes"
   RMDir /r "$INSTDIR\translations"
