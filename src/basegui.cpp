@@ -112,6 +112,10 @@
 #include "codedownloader.h"
 #endif
 
+#ifdef REMINDER_ACTIONS
+#include "reminderdialog.h"
+#endif
+
 using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
@@ -4326,37 +4330,36 @@ void BaseGui::checkReminder() {
 	count++;
 	set->setValue("count", count);
 	int action = set->value("action", 0).toInt();
+	bool dont_show = set->value("dont_show_anymore", false).toBool();
 	set->endGroup();
+
+	if (dont_show) return;
 
 	if (action != 0) return;
 	if ((count != 25) && (count != 45)) return;
 
-	QMessageBox box(this);
-	box.setIcon(QMessageBox::Question);
-	box.setIconPixmap( Images::icon("donate_big") );
-	box.setWindowTitle(tr("Help SMPlayer"));
-	box.setText(
-		tr("If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.") + "<br>"+
-		tr("Or you maybe you want to share SMPlayer with your friends in Facebook.") + "<br>" +
-		tr("What would you like to do?") );
-	QPushButton * donate_button = box.addButton(tr("&Donate"), QMessageBox::ActionRole);
-	QPushButton * facebook_button = box.addButton(tr("&Share with my friends"), QMessageBox::ActionRole);
-	QPushButton * cancel_button = box.addButton(QMessageBox::Cancel);
+	ReminderDialog box(this);
+	int r = box.exec();
 
-	box.exec();
-	if (box.clickedButton() == donate_button) {
+	if (r == ReminderDialog::Donate) {
 		QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
 		action = 1;
 	}
 	else 
-	if (box.clickedButton() == facebook_button) {
+	if (r == ReminderDialog::Share) {
 		QString text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
 		QString url = "http://smplayer.sourceforge.net";
 		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + url + "&t=" + text));
 		action = 2;
 	}
 	else
-	if (box.clickedButton() == cancel_button) {
+	if (r == ReminderDialog::Close) {
+	}
+
+	if (box.isDontShowChecked()) {
+		set->beginGroup("reminder");
+		set->setValue("dont_show_anymore", true);
+		set->endGroup();
 	}
 
 	if (action > 0) {

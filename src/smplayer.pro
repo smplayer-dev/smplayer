@@ -22,6 +22,7 @@ DEFINES += MPCGUI
 DEFINES += SKINS
 DEFINES += UPDATE_CHECKER
 DEFINES += CHECK_UPGRADED
+DEFINES += REMINDER_ACTIONS
 #DEFINES += USE_FONTCONFIG_OPTIONS
 
 isEqual(QT_MAJOR_VERSION, 5) {
@@ -385,6 +386,12 @@ contains( DEFINES, VIDEOPREVIEW ) {
 	SOURCES += videopreview/videopreview.cpp videopreview/videopreviewconfigdialog.cpp
 
 	FORMS += videopreview/videopreviewconfigdialog.ui
+}
+
+contains( DEFINES, REMINDER_ACTIONS ) {
+	HEADERS += reminderdialog.h
+	SOURCES += reminderdialog.cpp
+	FORMS += reminderdialog.ui
 }
 
 unix {
