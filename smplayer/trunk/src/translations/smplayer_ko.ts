@@ -1,213 +1,195 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="en">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Version: %1</source>
-        <translation type="unfinished">버전: %1</translation>
+        <translation>버전: %1</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="67"/>
+        <source>Links:</source>
+        <translation>링크:</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="68"/>
+        <source>Official website:</source>
+        <translation>공식 웹사이트:</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="69"/>
+        <source>Support forum:</source>
+        <translation>지원 포럼:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
-        <translation type="unfinished">스페인어</translation>
+        <translation>스페인어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>포르투갈어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>간체 중국어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>인도네시아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
         <source>German</source>
-        <translation type="unfinished">독일어</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">슬로바키아어</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">이탈리아어</translation>
+        <translation>독일어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
-        <translation type="unfinished">프랑스어</translation>
-    </message>
-    <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2, %3</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">중국어(간체)</translation>
+        <translation>프랑스어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
-        <translation type="unfinished">러시아어</translation>
+        <translation>러시아어</translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation type="obsolete">%1, %2</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
         <location filename="../about.cpp" line="183"/>
         <source>Hungarian</source>
-        <translation type="unfinished">헝가리어</translation>
+        <translation>헝가리어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>Polish</source>
-        <translation type="unfinished">폴란드어</translation>
+        <translation>폴란드어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>많은 사람들이 번역에 공헌했습니다.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>또한 SMPlayer를 여러분의 모국어로 번역하는 것을 도울 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 을 방문하고 번역 팀에 참여하세요.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Transifex 팀의 현재 번역가들:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
-        <translation type="unfinished">일본어</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">네덜란드어</translation>
+        <translation>일본어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">우크라이나어</translation>
+        <translation>우크라이나어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="163"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">포르투갈어(브라질)</translation>
+        <translation>포르투갈어 - 브라질</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>노르웨이 뉘노르스크어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Georgian</source>
-        <translation type="unfinished">그루지야어</translation>
+        <translation>그루지야야어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Czech</source>
-        <translation type="unfinished">체코어</translation>
+        <translation>체코어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">불가리아어</translation>
+        <translation>불가리아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
-        <translation type="unfinished">터키어</translation>
+        <translation>터키어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="179"/>
         <source>Swedish</source>
-        <translation type="unfinished">스웨덴어</translation>
+        <translation>스웨덴어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="158"/>
         <source>Serbian</source>
-        <translation type="unfinished">세르비아어</translation>
+        <translation>세르비아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">중국어(번체)</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">루마니아어</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">포르투갈어(포르투갈)</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">그리스어</translation>
+        <translation>번체 중국어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
-        <translation type="unfinished">핀란드어</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="156"/>
-        <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>핀란드어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>히브리어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>말레이어</translation>
     </message>
     <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
+        <location filename="../about.cpp" line="182"/>
+        <source>Arabic - Saudi Arabia</source>
+        <translation>아랍어 - 사우디 아라비아</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="184"/>
+        <source>Sinhala</source>
+        <translation>신할라어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="209"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About SMPlayer</source>
-        <translation type="unfinished">SMPlayer에 대하여</translation>
+        <translation>SMPlayer 정보</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>페이지</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
         <source>&amp;Info</source>
-        <translation type="unfinished"></translation>
+        <translation>정보</translation>
     </message>
     <message>
         <location filename="../about.ui" line="58"/>
@@ -215,136 +197,112 @@
         <location filename="../about.ui" line="170"/>
         <location filename="../about.ui" line="226"/>
         <source>icon</source>
-        <translation type="unfinished">아이콘</translation>
+        <translation>아이콘</translation>
     </message>
     <message>
         <location filename="../about.ui" line="94"/>
         <source>&amp;Contributions</source>
-        <translation type="unfinished"></translation>
+        <translation>공헌(&amp;C)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="150"/>
         <source>&amp;Translators</source>
-        <translation type="unfinished"></translation>
+        <translation>번역가(&amp;T)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="206"/>
         <source>&amp;License</source>
-        <translation type="unfinished"></translation>
+        <translation>라이센스</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="156"/>
+        <source>Korean</source>
+        <translation>한국어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
-        <translation type="unfinished">바스크어</translation>
+        <translation>바스크어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="48"/>
         <source>Using MPlayer %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">카탈루냐어</translation>
+        <translation>MPlayer %1 사용 중</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
-        <translation type="unfinished"></translation>
+        <translation>포터블 에디션</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="65"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt %1 사용 (Qt %2 로 컴파일됨)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
-        <translation type="unfinished">아랍어</translation>
+        <translation>아랍어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Galician</source>
-        <translation type="unfinished">갈리시아어</translation>
+        <translation>갈리시아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 로고 by %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>베트남어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>리투아니아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="171"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>덴마크어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>크로아티아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="67"/>
-        <source>Links:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="68"/>
-        <source>Official website:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="69"/>
-        <source>Support forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer2 %1 사용 중</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer는 상을 받은 MPlayer를 재생 엔진으로 사용합니다. %1 을 보세요</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Read the entire license</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 라이센스 읽기</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>번역 읽기</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>윈도우용 패키지는 %1 이 만들었습니다</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="182"/>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="184"/>
-        <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>많은 사람들이 패치에 기여했습니다. 자세한 사항은 변경기록(Changelog)을 보세요.</translation>
     </message>
 </context>
 <context>
@@ -362,17 +320,17 @@
     <message>
         <location filename="../actionseditor.cpp" line="207"/>
         <source>Shortcut</source>
-        <translation>바로가기</translation>
+        <translation>단축키</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="209"/>
         <source>&amp;Save</source>
-        <translation>저장하기(&amp;S)</translation>
+        <translation>저장하기</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="212"/>
         <source>&amp;Load</source>
-        <translation>불러오기(&amp;L)</translation>
+        <translation>불러오기</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="430"/>
@@ -383,24 +341,24 @@
     <message>
         <location filename="../actionseditor.cpp" line="428"/>
         <source>Choose a filename</source>
-        <translation>파일 선택</translation>
+        <translation>파일명을 선택하세요</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="439"/>
         <source>Confirm overwrite?</source>
-        <translation>덮어쓰시겠습니까?</translation>
+        <translation>덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="440"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>&quot;%1&quot; 파일은 이미 존재합니다.
-덮어쓰시겠습니까?</translation>
+덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="479"/>
         <source>Choose a file</source>
-        <translation>파일 선택</translation>
+        <translation>파일을 선택하세요</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="452"/>
@@ -411,17 +369,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="453"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>파일 저장에 실패하였습니다</translation>
+        <translation>파일을 저장할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="487"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>파일 열기에 실패하였습니다</translation>
+        <translation>파일을 불러올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="216"/>
         <source>&amp;Change shortcut...</source>
-        <translation>단축키 변경(&amp;C)...</translation>
+        <translation>단축키 변경하기...</translation>
     </message>
 </context>
 <context>
@@ -429,104 +387,96 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="71"/>
         <source>Audio Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 이퀄라이저</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>31.25 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>62.50 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>125.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
         <source>250.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>250.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
         <source>500.0 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>500.0 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
         <source>1.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>1.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
         <source>2.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>2.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>4.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>4.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
         <source>8.000 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>8.000 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
         <source>16.00 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>16.00 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
         <source>&amp;Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>적용</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="86"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">초기화(&amp;R)</translation>
+        <translation>초기화</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="87"/>
         <source>&amp;Set as default values</source>
-        <translation type="unfinished">기본값으로 설정하기(&amp;S)</translation>
+        <translation>기본값으로 설정하기</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="91"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">다른 영상에서도 현재 설정값을 기본으로 지정합니다.</translation>
+        <translation>새 동영상에서 현재 설정을 기본값으로 사용합니다.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">모두 0으로 설정합니다.</translation>
+        <translation>모두 0으로 설정합니다.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>정보</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="111"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 설정을 기본으로 사용하도록 저장했습니다.</translation>
     </message>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer 기록</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer 기록</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1710"/>
         <source>&amp;Open</source>
@@ -555,7 +505,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Browse</source>
-        <translation>찾아보기(&amp;B)</translation>
+        <translation>이동(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
@@ -575,7 +525,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1461"/>
         <source>D&amp;irectory...</source>
-        <translation>폴더(&amp;I)...</translation>
+        <translation>폴더(&amp;D)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1462"/>
@@ -585,37 +535,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1465"/>
         <source>&amp;DVD from drive</source>
-        <translation>드라이브로부터 &amp;DVD</translation>
+        <translation>&amp;DVD 드라이브</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1466"/>
         <source>D&amp;VD from folder...</source>
-        <translation>폴더로부터 &amp;DVD...</translation>
+        <translation>D&amp;VD 폴더...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1467"/>
         <source>&amp;URL...</source>
-        <translation>&amp;URL...</translation>
+        <translation>주소(&amp;U)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;Clear</source>
-        <translation>지우기(&amp;C)</translation>
+        <translation>비우기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Recent files</source>
-        <translation>최근에 재생한 파일(&amp;R)</translation>
+        <translation>최근 파일(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1491"/>
         <source>P&amp;lay</source>
-        <translation>재생(&amp;L)</translation>
+        <translation>재생(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1494"/>
         <source>&amp;Pause</source>
-        <translation>일시 정지(&amp;P)</translation>
+        <translation>일시 중지(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1495"/>
@@ -630,33 +580,33 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1514"/>
         <source>&amp;Normal speed</source>
-        <translation>보통 속도로 재생(&amp;N)</translation>
+        <translation>보통 속도(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1515"/>
         <source>&amp;Halve speed</source>
-        <translation>0.5배속으로 재생(&amp;H)</translation>
+        <translation>0.5배 속도(&amp;H)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>&amp;Double speed</source>
-        <translation>2배속으로 재생(&amp;D)</translation>
+        <translation>2배 속도(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
         <source>Speed &amp;-10%</source>
-        <translation>속도 10% 감소(&amp;-)</translation>
+        <translation>속도 &amp;-10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1518"/>
         <source>Speed &amp;+10%</source>
-        <translation>속도 10% 증가(&amp;+)</translation>
+        <translation>속도 &amp;+10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1604"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>끄기(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -676,7 +626,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1526"/>
         <source>&amp;Compact mode</source>
-        <translation>간결히 보기(&amp;C)</translation>
+        <translation>간편 모드(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -686,7 +636,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1769"/>
         <source>&amp;Aspect ratio</source>
-        <translation>가로세로비(&amp;A)</translation>
+        <translation>화면 비율(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1807"/>
@@ -702,7 +652,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1811"/>
         <source>Linear &amp;Blend</source>
-        <translation>선형 섞기(&amp;B)</translation>
+        <translation>Linear &amp;Blend</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1772"/>
@@ -717,27 +667,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1554"/>
         <source>&amp;Autodetect phase</source>
-        <translation>상태 자동 감지(&amp;A)</translation>
+        <translation>위상(디인터레이스) 자동감지</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>&amp;Deblock</source>
-        <translation>영상 깨짐 제거(&amp;D)</translation>
+        <translation>&amp;Deblock (깍두기 제거)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1556"/>
         <source>De&amp;ring</source>
-        <translation>고리 모양 제거(&amp;R)</translation>
+        <translation>De&amp;ring (모서리 물결 현상 제거)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
         <source>Add n&amp;oise</source>
-        <translation>영상 노이즈 넣기(&amp;O)</translation>
+        <translation>노이즈 넣기(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>F&amp;ilters</source>
-        <translation>필터(&amp;I)</translation>
+        <translation>처리 필터(&amp;I)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1527"/>
@@ -752,22 +702,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
         <source>S&amp;tay on top</source>
-        <translation>항상 위(&amp;T)</translation>
+        <translation>항상 위에(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
         <source>&amp;Extrastereo</source>
-        <translation>엑스트라스테레오(&amp;E)</translation>
+        <translation>&amp;Extrastereo (스테레오확장)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1577"/>
         <source>&amp;Karaoke</source>
-        <translation>반주(&amp;K)</translation>
+        <translation>가라오케(&amp;K)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1841"/>
         <source>&amp;Filters</source>
-        <translation>필터(&amp;F)</translation>
+        <translation>처리 필터(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1851"/>
@@ -793,12 +743,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1858"/>
         <source>&amp;Left channel</source>
-        <translation>좌측 채널(&amp;L)</translation>
+        <translation>왼쪽 채널(&amp;L)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1859"/>
         <source>&amp;Right channel</source>
-        <translation>우측 채널(&amp;R)</translation>
+        <translation>오른쪽 채널(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1847"/>
@@ -813,27 +763,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1567"/>
         <source>Volume &amp;-</source>
-        <translation>볼륨 감소(&amp;-)</translation>
+        <translation>볼륨 &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1568"/>
         <source>Volume &amp;+</source>
-        <translation>볼륨 증가(&amp;+)</translation>
+        <translation>볼륨 &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1569"/>
         <source>&amp;Delay -</source>
-        <translation>지연 감소(&amp;D)</translation>
+        <translation>느리게 (delay -)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1570"/>
         <source>D&amp;elay +</source>
-        <translation>지연 증가(&amp;E)</translation>
+        <translation>빠르게 (delay +)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
         <source>&amp;Select</source>
-        <translation>선택(&amp;S)</translation>
+        <translation>선택하기(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1581"/>
@@ -843,22 +793,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1583"/>
         <source>Delay &amp;-</source>
-        <translation>지연 감소(&amp;-)</translation>
+        <translation>느리게 (delay -)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1584"/>
         <source>Delay &amp;+</source>
-        <translation>지연 증가(&amp;+)</translation>
+        <translation>빠르게 (delay +)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1586"/>
         <source>&amp;Up</source>
-        <translation>위로(&amp;U)</translation>
+        <translation>위로</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1587"/>
         <source>&amp;Down</source>
-        <translation>아래로(&amp;D)</translation>
+        <translation>아래로</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1874"/>
@@ -868,7 +818,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1877"/>
         <source>&amp;Chapter</source>
-        <translation>장(&amp;C)</translation>
+        <translation>챕터(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -883,7 +833,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1805"/>
         <source>&amp;Disabled</source>
-        <translation>없음(&amp;D)</translation>
+        <translation>비활성화(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1901"/>
@@ -893,7 +843,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1908"/>
         <source>&amp;View logs</source>
-        <translation>기록 파일 보기(&amp;V)</translation>
+        <translation>로그 보기(&amp;V)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1621"/>
@@ -903,12 +853,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1648"/>
         <source>About &amp;Qt</source>
-        <translation>&amp;Qt에 대하여</translation>
+        <translation>&amp;Qt 정보</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1649"/>
         <source>About &amp;SMPlayer</source>
-        <translation>&amp;SMPlayer에 대하여</translation>
+        <translation>&amp;SMPlayer 정보</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3135"/>
@@ -919,18 +869,18 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3234"/>
         <location filename="../basegui.cpp" line="3274"/>
         <source>&lt;empty&gt;</source>
-        <translation>(비어 있음)</translation>
+        <translation>&lt;비어 있음&gt;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3685"/>
         <source>Video</source>
-        <translation>동영상 파일</translation>
+        <translation>비디오</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3686"/>
         <location filename="../basegui.cpp" line="3876"/>
         <source>Audio</source>
-        <translation>오디오 파일</translation>
+        <translation>오디오</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3687"/>
@@ -949,12 +899,12 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3853"/>
         <location filename="../basegui.cpp" line="3874"/>
         <source>Choose a file</source>
-        <translation>파일을 선택하십시요</translation>
+        <translation>파일을 선택하세요</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1623"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브%1 브라우저</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3735"/>
@@ -965,13 +915,13 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3736"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CD-ROM 및 DVD 드라이브가 지정되지 않았습니다.
+        <translation>CD-ROM / DVD 드라이브를 지정하지 않았습니다.
 드라이브 설정을 위한 대화 상자가 표시될 것입니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3819"/>
         <source>Choose a directory</source>
-        <translation>폴더 선택</translation>
+        <translation>폴더를 선택하세요</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3855"/>
@@ -981,37 +931,37 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3936"/>
         <source>About Qt</source>
-        <translation>Qt에 대하여</translation>
+        <translation>Qt 정보</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4281"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>새 버전이 나왔습니다</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4282"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>새 버전의 SMPlayer가 있습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4283"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>설치된 버전: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4284"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 버전: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4285"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>이 새 버전에 대해 더 알고 싶으신가요?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4342"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>친구들과 공유하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4565"/>
@@ -1021,28 +971,28 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4566"/>
         <source>Pause</source>
-        <translation>일시 정지</translation>
+        <translation>일시 중지</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4567"/>
         <source>Stop</source>
-        <translation>정지됨</translation>
+        <translation>정지</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1498"/>
         <source>Play / Pause</source>
-        <translation>재생 / 일시 정지</translation>
+        <translation>재생 / 일시 중지</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1501"/>
         <source>Pause / Frame step</source>
-        <translation>일시 정지 / 프레임 스텝</translation>
+        <translation>일시 중지 / 프레임 스텝</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1573"/>
         <location filename="../basegui.cpp" line="1582"/>
         <source>U&amp;nload</source>
-        <translation>언로드(&amp;N)</translation>
+        <translation>닫기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1463"/>
@@ -1057,22 +1007,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1620"/>
         <source>View &amp;info and properties...</source>
-        <translation>정보 및 속성 보기(&amp;I)...</translation>
+        <translation>정보와 속성 보기(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1536"/>
         <source>Zoom &amp;-</source>
-        <translation>축소 (&amp;-)</translation>
+        <translation>축소하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1537"/>
         <source>Zoom &amp;+</source>
-        <translation>확대 (&amp;+)</translation>
+        <translation>확대하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1538"/>
         <source>&amp;Reset</source>
-        <translation>초기화(&amp;R)</translation>
+        <translation>초기화하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
@@ -1082,27 +1032,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1543"/>
         <source>Move &amp;right</source>
-        <translation>오른쪽으로 이동(&amp;R)</translation>
+        <translation>오른쪽으로 이동</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1544"/>
         <source>Move &amp;up</source>
-        <translation>위로 이동(&amp;U)</translation>
+        <translation>위로 이동</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1545"/>
         <source>Move &amp;down</source>
-        <translation>아래로 이동(&amp;D)</translation>
+        <translation>아래로 이동</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1591"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>이전 자막 줄(&amp;P)</translation>
+        <translation>이전 자막 위치로(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>다음 자막 줄(&amp;E)</translation>
+        <translation>다음 자막 위치로(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1933"/>
@@ -1121,44 +1071,44 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1669"/>
         <source>Dec volume (2)</source>
-        <translation>음량 감소 (2)</translation>
+        <translation>볼륨 감소 (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding (그라데이션 계단 현상 개선)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1610"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>기본</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>첫걸음 가이드</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 코드 업데이트하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
+        <translation>설정 폴더 열기(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4341"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>기부하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
         <source>Inc volume (2)</source>
-        <translation>음량 증가 (2)</translation>
+        <translation>볼륨 증가 (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1673"/>
@@ -1168,7 +1118,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1675"/>
         <source>OSD - Next level</source>
-        <translation>OSD - 다음</translation>
+        <translation>OSD - 다음 단계</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1676"/>
@@ -1193,12 +1143,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
         <source>Dec hue</source>
-        <translation>색조 감소</translation>
+        <translation>색상 감소</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
         <source>Inc hue</source>
-        <translation>색조 증가</translation>
+        <translation>색상 증가</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1682"/>
@@ -1223,187 +1173,187 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1689"/>
         <source>Next chapter</source>
-        <translation>다음 장</translation>
+        <translation>다음 챕터</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1690"/>
         <source>Previous chapter</source>
-        <translation>이전 장</translation>
+        <translation>이전 챕터</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1789"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>De&amp;noise (노이즈 감소)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1792"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Blur/S&amp;harp (흐리게/날카롭게)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>끄기(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>보통(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>부드럽게(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1818"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">없음(&amp;N)</translation>
+        <translation>없음(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blur (흐리게)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sharpen (날카롭게)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1854"/>
         <source>&amp;6.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 서라운드 {6.1 ?}</translation>
+        <translation>&amp;6.1 서라운드</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1855"/>
         <source>&amp;7.1 Surround</source>
-        <translation type="unfinished">&amp;5.1 서라운드 {7.1 ?}</translation>
+        <translation>&amp;7.1 서라운드</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1860"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <translation>모노</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1861"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation>리버스</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <translation>초당 프레임</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1917"/>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - MPlayer 로그</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1920"/>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - SMPlayer 로그</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>기부합니다</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4338"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer를 좋아하고 그 개발을 지원하고 싶다면 기부할 수 있습니다. 작은 기부라도 정말 감사하겠습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>예, 기부하겠습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4336"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 돕기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4339"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>또는 SMPlayer를 친구들과 페이스북에서 공유할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4340"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>뭘 하고 싶으신가요?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4377"/>
         <location filename="../basegui.cpp" line="4385"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 문제</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4378"/>
         <location filename="../basegui.cpp" line="4386"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4379"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4387"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer를 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5088"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 브라우저를 실행하지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5089"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 이 설치되어 있는지 확인하세요.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>친구들과 SMPlayer를 공유하세요</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2876"/>
         <location filename="../basegui.cpp" line="3502"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>정보</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2877"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>새 GUI를 사용하려면 SMPlayer를 재시작해야 합니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3282"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제 확인 - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3283"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
+        <translation>최근 파일 목록을 삭제할까요?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3503"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 설정을 기본으로 사용하도록 저장했습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1683"/>
@@ -1428,12 +1378,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1809"/>
         <source>&amp;Yadif (normal)</source>
-        <translation>&amp;Yadif (일반)</translation>
+        <translation>&amp;Yadif (보통)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1810"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (2배 프레임률)</translation>
+        <translation>Y&amp;adif (더블 프레임레이트)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1659"/>
@@ -1448,497 +1398,485 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1578"/>
         <source>Volume &amp;normalization</source>
-        <translation>음량 노멀라이즈(&amp;N)</translation>
+        <translation>볼륨 노멀라이즈</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1464"/>
         <source>&amp;Audio CD</source>
-        <translation>오디오 CD(&amp;A)</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">일반 노이즈 제거(&amp;M)</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">부드러운 노이즈 제거(&amp;S)</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">노이즈 제거 없음(&amp;F)</translation>
+        <translation>오디오 CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation>SSA/&amp;ASS 라이브러리 사용</translation>
+        <translation>SSA/&amp;ASS 라이브러리 사용하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Toggle double size</source>
-        <translation>보통/2배 크기 전환(&amp;T)</translation>
+        <translation>2배 크기 토글하기(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>S&amp;ize -</source>
-        <translation>작게(&amp;-)</translation>
+        <translation>크기 -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1589"/>
         <source>Si&amp;ze +</source>
-        <translation>크게(&amp;+)</translation>
+        <translation>크기 +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>검은 여백 넣기(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>소프트웨어 크기조절</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1636"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>자주 묻는 질문(&amp;FAQ)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>명령행 옵션(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3896"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 명령행 옵션</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1595"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>강제 설정된 자막만(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1692"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 이퀄라이저 초기화</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4985"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer가 갑자기 종료되었습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4986"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>종료 코드: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5005"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer를 시작하지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5006"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>환경설정에서 MPlayer 경로를 확인하세요.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5008"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer가 다운되었습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5009"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>더 보려면 로그를 확인하세요.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>회전하기(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Off</source>
-        <translation type="unfinished"></translation>
+        <translation>끄기(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1823"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>시계방향으로 90도 회전하고 뒤집기(&amp;R)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>시계방향으로 90도 회전하기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>반시계방향으로 90도 회전하기(&amp;W)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1826"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>반시계방향으로 90도 회전하고 뒤집기(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1511"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>이동하기(&amp;J)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1694"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>컨텍스트 메뉴 보기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3684"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>멀티미디어</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>이퀄라이저(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1693"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 이퀄라이저 초기화</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1600"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenSubtitles.org에서 자막 검색하기...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1601"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenSubtitles.org에 자막 업로드하기...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1795"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>자동(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1519"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>속도 -4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1520"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>속도 +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1521"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>속도 -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1522"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>속도 +1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1785"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>화면(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본값(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1534"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>좌우 반전(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1686"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 비디오</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1756"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished">트랙(&amp;T)</translation>
+        <translation>트랙(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished">트랙(&amp;T)</translation>
+        <translation>트랙(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4262"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>경고 - 오래된 MPlayer 사용 중</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4263"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>당신의 시스템에 설치된 MPlayer (%1) 버전은 너무 오래 돼서 SMPlayer가 잘 동작하지 않을 것입니다: 작동하지 않는 옵션이 있을 수 있고, 자막 선택도 잘 되지 않을 것입니다...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4268"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer를 업데이트 하세요.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4270"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(이 주의사항은 더 이상  표시되지 않습니다)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1695"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 화면 비율</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1539"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 확대(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1540"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;16:9 확대</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;2.35:1 확대</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1531"/>
         <source>Pre&amp;view...</source>
-        <translation type="unfinished"></translation>
+        <translation>미리보기(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>항상(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 안함(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 중일때만</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1894"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1896"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 이전 메뉴</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴, 위로 이동</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1891"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴, 아래로 이동</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴, 왼쪽으로 이동</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1893"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴, 오른쪽으로 이동</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1895"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴, 옵션 선택</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1897"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴, 마우스 클릭</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1571"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>싱크 조절하기...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1585"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>싱크 조절하기...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3973"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>이동하기:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3974"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - 탐색</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3984"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - 오디오 싱크</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3985"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 싱크 (밀리세컨드 단위):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3994"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - 자막 싱크</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3995"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 싱크 (밀리세컨드 단위):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1831"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 위에 토글하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4709"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 으로 이동하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1529"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷 찍기 시작/정지</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1597"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 보이기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1696"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 휠 기능</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>프로그램</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1742"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>텔레비전</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1745"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>라디오</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1703"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>자막만</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 + 탐색</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 + 탐색 + 타이머</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1706"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 + 탐색 + 타이머 + 전체 시간</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1417"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>vdpau 사용시 비디오 필터는 비활성화됩니다</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1533"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>상하 반전</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>팬 &amp; 스캔</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1698"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD에 파일명 보이기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1506"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>A 마커 설정하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1507"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>B 마커 설정하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B 마커 지우기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1752"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B 구간</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1699"/>
         <source>Toggle deinterlacing</source>
-        <translation type="unfinished"></translation>
+        <translation>디인터레이싱 토글하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>클로즈드 캡션</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1739"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>즐겨찾기(&amp;F)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 검사</translation>
     </message>
 </context>
 <context>
@@ -1946,27 +1884,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="189"/>
         <source>SMPlayer is still running here</source>
-        <translation>SMPlayer가 실행 중입니다</translation>
+        <translation>SMPlayer가 여전히 실행 중입니다</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="210"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>시스템 트레이에 아이콘 보이기(&amp;H)</translation>
+        <translation>시스템 트레이에 아이콘 보이기</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="221"/>
         <source>&amp;Hide</source>
-        <translation>숨기기(&amp;H)</translation>
+        <translation>숨기기</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="223"/>
         <source>&amp;Restore</source>
-        <translation>복원(&amp;R)</translation>
+        <translation>복원하기</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="209"/>
         <source>&amp;Quit</source>
-        <translation>종료(&amp;Q)</translation>
+        <translation>종료</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="215"/>
@@ -1979,43 +1917,43 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 중...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 에 연결 중</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 코드를 성공적으로 업데이트했습니다.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>설치된 버전: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>성공</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 를 쓰는 도중에 오류가 발생했습니다</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 다운로드 중 오류 발생:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2038,7 +1976,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2872"/>
         <source>Hue: %1</source>
-        <translation>색조: %1</translation>
+        <translation>색상: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2886"/>
@@ -2048,7 +1986,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="3015"/>
         <source>Volume: %1</source>
-        <translation>음량: %1</translation>
+        <translation>볼륨: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3802"/>
@@ -2058,108 +1996,108 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4049"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation>버퍼링...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3131"/>
         <location filename="../core.cpp" line="3143"/>
         <source>Font scale: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>글꼴 크기: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3671"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 비율: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4045"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3057"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 싱크: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3074"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>음성 싱크: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2940"/>
         <source>Speed: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>속도: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 페이지를 검색할 수 없습니다</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 보이기</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3188"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 끄기</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3718"/>
         <source>Mouse wheel seeks now</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3721"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3724"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3727"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1284"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1297"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2564"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;A&quot; 지점 표시: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2581"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;B&quot; 지점 표시: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2596"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B 표시를 지웠습니다</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="528"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 에 연결 중</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="542"/>
         <source>Unable to locate the url of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상의 주소를 찾을 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -2167,7 +2105,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="494"/>
         <source>Welcome to SMPlayer</source>
-        <translation>SMPlayer 사용자님, 환영합니다</translation>
+        <translation>SMPlayer에 오신 것을 환영합니다</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="522"/>
@@ -2182,68 +2120,68 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="516"/>
         <source>&amp;Main toolbar</source>
-        <translation>기본 도구 모음(&amp;M)</translation>
+        <translation>기본 툴바</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="519"/>
         <source>&amp;Language toolbar</source>
-        <translation>언어 도구 모음(&amp;L)</translation>
+        <translation>언어 툴바(&amp;L)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="510"/>
         <source>&amp;Toolbars</source>
-        <translation>도구 모음(&amp;T)</translation>
+        <translation>툴바</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="550"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>A: %1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="554"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>B: %1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="513"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished"></translation>
+        <translation>상태바</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="525"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상 정보</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Frame counter</source>
-        <translation type="unfinished"></translation>
+        <translation>프레임 카운터</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="529"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>메인 툴바 편집하기</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤 바 편집하기</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>미니 컨트롤 바 편집하기</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>전체화면 컨트롤 바 편집하기</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1x%2 %3 fps</translation>
     </message>
 </context>
 <context>
@@ -2259,34 +2197,34 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
         <source>Hide log</source>
-        <translation type="unfinished"></translation>
+        <translation>로그 숨기기</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="91"/>
         <location filename="../errordialog.cpp" line="59"/>
         <source>Show log</source>
-        <translation type="unfinished"></translation>
+        <translation>로그 보이기</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="14"/>
         <source>MPlayer Error</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 오류</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="22"/>
         <source>icon</source>
-        <translation type="unfinished">아이콘</translation>
+        <translation>아이콘</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>이런, 뭔가 잘못되었네요</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
 </context>
 <context>
@@ -2294,22 +2232,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>아이콘</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>미디어</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="107"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>즐겨찾기 편집기</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -2317,57 +2255,57 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../favoriteeditor.cpp" line="168"/>
         <location filename="../favoriteeditor.cpp" line="268"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>즐겨찾기 목록</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="110"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>새 항목을 편집, 삭제, 정렬 또는 추가할 수 있습니다. 내용을 편집하려면 셀에서 더블클릭하세요.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="341"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>아이콘 파일 선택하기</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="343"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished">아이콘</translation>
+        <translation>아이콘</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>모두 삭제</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">위로(&amp;U)</translation>
+        <translation>위로</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="112"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">아래로(&amp;D)</translation>
+        <translation>아래로</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>새 항목</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>새 하위메뉴</translation>
     </message>
 </context>
 <context>
@@ -2375,37 +2313,37 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="372"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>항목으로 이동하기</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="373"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>목록에서 건너뛸 아이템 개수를 입력하세요:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>편집...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>이동...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">다음(&amp;N)</translation>
+        <translation>다음</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>이전</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 미디어 추가하기</translation>
     </message>
 </context>
 <context>
@@ -2413,7 +2351,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>파일이나 폴더를 선택하려면 클릭하세요</translation>
     </message>
 </context>
 <context>
@@ -2421,12 +2359,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="40"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 중...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="66"/>
         <source>Downloading %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 중: %1</translation>
     </message>
 </context>
 <context>
@@ -2439,44 +2377,44 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="33"/>
         <source>&amp;Information</source>
-        <translation>정보(&amp;I)</translation>
+        <translation>정보</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="53"/>
         <source>&amp;Demuxer</source>
-        <translation>디멀티플렉서(&amp;D)</translation>
+        <translation>디먹서</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>이 파일에 사용될 디멀티플렉서를 선택하십시요(&amp;S):</translation>
+        <translation>이 파일에 사용할 디먹서를 선택하세요:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="105"/>
         <location filename="../filepropertiesdialog.ui" line="167"/>
         <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
-        <translation>초기화(&amp;R)</translation>
+        <translation>초기화</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="115"/>
         <source>&amp;Video codec</source>
-        <translation>영상 코덱(&amp;V)</translation>
+        <translation>비디오 코덱</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="127"/>
         <source>&amp;Select the video codec:</source>
-        <translation>영상 코덱을 선택하십시요(&amp;S):</translation>
+        <translation>비디오 코덱을 선택하세요:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="177"/>
         <source>A&amp;udio codec</source>
-        <translation>오디오 코덱(&amp;U)</translation>
+        <translation>오디오 코덱</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="189"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>오디오 코덱을 선택하십시요(&amp;S):</translation>
+        <translation>오디오 코덱을 선택하세요:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="239"/>
@@ -2493,40 +2431,40 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>이 칸에서 MPlayer에 전달할 추가 옵션을 선택할 수 있습니다.
-공백으로 구분하여 입력하십시요.
-(예: -flip -nosound)</translation>
+        <translation>여기에서 MPlayer에 추가 옵션을 전달할 수 있습니다.
+공백으로 구분하여 입력하세요.
+예: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="286"/>
         <source>&amp;Options:</source>
-        <translation>옵션(&amp;O):</translation>
+        <translation>옵션:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="325"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>추가 영상 필터를 적용할 수 있습니다.
-쉼표(,)로 구분합니다. 띄어쓰기를 삽입하지 마십시요.
-(예: scale=52:-2,eq2=1.1)</translation>
+        <translation>추가적인 비디오 필터를 사용할 수 있습니다.
+쉼표(,)로 구분합니다. 공백을 사용하지 마세요.
+예: scale=512:-2,eq2=1.1)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="348"/>
         <source>V&amp;ideo filters:</source>
-        <translation>영상 필터(&amp;I):</translation>
+        <translation>비디오 필터:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>오디오 필터도 적용할 수 있습니다. 쉼표로 구분합니다.
-(예: resample=44100:0:0,volnorm)</translation>
+        <translation>오디오 필터도 사용할 수 있습니다. 쉼표로 구분합니다.
+예: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="409"/>
         <source>Audio &amp;filters:</source>
-        <translation>오디오 필터(&amp;F):</translation>
+        <translation>오디오 필터:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="70"/>
@@ -2549,92 +2487,92 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>Http</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>프락시 사용을 활성화/비활성화합니다.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>프락시의 호스트 이름.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>프락시의 포트.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>프락시가 인증을 요구하면, 여기에 사용자명을 정하세요.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>프락시 암호. &lt;b&gt;경고:&lt;/b&gt; 암호는 설정 파일에 일반적인 텍스트로 저장됩니다.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용할 프락시 형식을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>고급 옵션</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation>서버</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 서버:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>프락시</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="48"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>프락시 사용하기</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="61"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>호스트:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>포트:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="94"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자명:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="107"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>패스워드:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>형식:</translation>
     </message>
 </context>
 <context>
@@ -2642,182 +2580,188 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
-        <translation type="unfinished">언어</translation>
+        <translation>언어</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
-        <translation type="unfinished">형식</translation>
+        <translation>형식</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>파일</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
-        <translation type="unfinished">날짜</translation>
+        <translation>날짜</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
-        <translation type="unfinished"></translation>
+        <translation>업로드</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>포르투갈어 - 브라질</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>모두</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
-        <translation type="unfinished">닫기</translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>opensubtitles.org에 로그인을 실패했습니다</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>찾지 못했습니다</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>%n 자막을 추출했습니다</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>자막의 줄을 고치는데 오류 발생</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>링크를 클립보드에 복사</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 실패: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 에 연결결 중...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 중...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>완료.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 개가 있습니다</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>수신 자료 해석에 실패했습니다.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 검색하기</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="51"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>해당 자막:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>언어:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>새로고침</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="665"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 저장: %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>%1 subtitle(s) extracted</source>
+        <translation type="obsolete">
+            <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="702"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 이 이미 존재합니다. 덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="620"/>
         <source>Error saving file</source>
-        <translation type="unfinished">파일 저장 오류</translation>
+        <translation>파일 저장 오류</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드한 파일을 폴더에 저장할 수 없습니다.
+다음 폴더의 권한을 확인하세요: 
+%1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="614"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>다운로드 실패</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="598"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>임시 파일 %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>옵션</translation>
     </message>
 </context>
 <context>
@@ -2825,12 +2769,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer를 초기화 중입니다</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>폰트 캐쉬 생성 중...</translation>
     </message>
 </context>
 <context>
@@ -2853,17 +2797,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="70"/>
         <source>URL</source>
-        <translation>URL</translation>
+        <translation>주소</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="72"/>
         <source>Length</source>
-        <translation>길이</translation>
+        <translation>시간</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="73"/>
         <source>Demuxer</source>
-        <translation>디멀티플렉서</translation>
+        <translation>디먹서</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="78"/>
@@ -2880,7 +2824,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="80"/>
         <source>Author</source>
-        <translation>제작자</translation>
+        <translation>작가</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="81"/>
@@ -2935,7 +2879,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="101"/>
         <source>Aspect ratio</source>
-        <translation>가로세로비</translation>
+        <translation>화면 비율</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="102"/>
@@ -2958,13 +2902,13 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="104"/>
         <source>Frames per second</source>
-        <translation>초당 프레임 수</translation>
+        <translation>초당 프레임</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="105"/>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
-        <translation>선택된 코덱</translation>
+        <translation>선택한 코덱</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="110"/>
@@ -3003,7 +2947,7 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="162"/>
         <location filename="../infofile.cpp" line="164"/>
         <source>empty</source>
-        <translation>(없음)</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="144"/>
@@ -3020,14 +2964,14 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="150"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
-        <translation>식별 번호</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="123"/>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation>번호</translation>
+        <translation>#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="88"/>
@@ -3037,7 +2981,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="89"/>
         <source>Stream URL</source>
-        <translation>스트림 URL</translation>
+        <translation>스트림 주소</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="65"/>
@@ -3050,22 +2994,22 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.cpp" line="43"/>
         <source>Choose a directory</source>
-        <translation>폴더를 선택하십시요</translation>
+        <translation>폴더를 선택하세요</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation>SMPlayer - 폴더로부터 DVD 재생</translation>
+        <translation>SMPlayer - DVD 폴더 재생하기</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>하드 디스크에 저장된 DVD도 재생할 수 있습니다. VIDEO_TS 및 AUDIO_TS 폴더를 포함하는 상위 폴더를 지정하십시요.</translation>
+        <translation>하드 디스크의 DVD 폴더를 재생할 수 있습니다. VIDEO_TS와 AUDIO_TS 폴더를 포함하는 폴더를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
         <source>Choose a directory...</source>
-        <translation>찾아보기...</translation>
+        <translation>폴더 선택하기...</translation>
     </message>
 </context>
 <context>
@@ -3073,37 +3017,37 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - MPlayer 버전을 입력하세요</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="35"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer는 당신이 사용중인 MPlayer 버전 확인에 실패했습니다.</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="58"/>
         <source>Version reported by MPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer가 보고한 버전:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation type="unfinished"></translation>
+        <translation>맞는 버전을 선택하세요:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
         <source>1.0rc1 or older</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc1 나 그 이전</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="118"/>
         <source>1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc2</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 나 그 이후</translation>
     </message>
 </context>
 <context>
@@ -3111,12 +3055,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - URL 입력</translation>
+        <translation>SMPlayer - 주소를 입력하세요</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
         <source>&amp;URL:</source>
-        <translation>&amp;URL:</translation>
+        <translation>주소:</translation>
     </message>
 </context>
 <context>
@@ -3124,456 +3068,456 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation>이집트 Afar어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"></translation>
+        <translation>아브하즈어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>남아프리카 네덜란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation>암하라어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <location filename="../languages.cpp" line="235"/>
         <location filename="../languages.cpp" line="291"/>
         <source>Arabic</source>
-        <translation type="unfinished">아랍어</translation>
+        <translation>아랍어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Assamese</source>
-        <translation type="unfinished"></translation>
+        <translation>아삼어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="34"/>
         <source>Aymara</source>
-        <translation type="unfinished"></translation>
+        <translation>아이마라어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>아제르바이잔어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bashkir</source>
-        <translation type="unfinished"></translation>
+        <translation>바슈키르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
         <location filename="../languages.cpp" line="236"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">불가리아어</translation>
+        <translation>불가리아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Bihari</source>
-        <translation type="unfinished"></translation>
+        <translation>비하르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="40"/>
         <source>Bislama</source>
-        <translation type="unfinished"></translation>
+        <translation>비슬라마어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="42"/>
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation>벵골어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation>티베트어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation>브루타뉴어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
         <location filename="../languages.cpp" line="237"/>
         <source>Catalan</source>
-        <translation type="unfinished">카탈루냐어</translation>
+        <translation>카탈루냐어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="48"/>
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation>코르시카어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
         <location filename="../languages.cpp" line="238"/>
         <source>Czech</source>
-        <translation type="unfinished">체코어</translation>
+        <translation>체코어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Welsh</source>
-        <translation type="unfinished"></translation>
+        <translation>웨일스어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="54"/>
         <location filename="../languages.cpp" line="239"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>덴마크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <location filename="../languages.cpp" line="216"/>
         <location filename="../languages.cpp" line="240"/>
         <source>German</source>
-        <translation type="unfinished">독일어</translation>
+        <translation>독일어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
         <location filename="../languages.cpp" line="241"/>
         <source>Greek</source>
-        <translation type="unfinished">그리스어</translation>
+        <translation>그리스어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
         <location filename="../languages.cpp" line="217"/>
         <location filename="../languages.cpp" line="242"/>
         <source>English</source>
-        <translation type="unfinished">영어</translation>
+        <translation>영어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="61"/>
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation>에스페란토어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
         <location filename="../languages.cpp" line="218"/>
         <location filename="../languages.cpp" line="243"/>
         <source>Spanish</source>
-        <translation type="unfinished">스페인어</translation>
+        <translation>스페인어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
         <location filename="../languages.cpp" line="244"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>에스토니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
         <location filename="../languages.cpp" line="245"/>
         <source>Basque</source>
-        <translation type="unfinished">바스크어</translation>
+        <translation>바스크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="65"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>페르시아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
         <location filename="../languages.cpp" line="219"/>
         <location filename="../languages.cpp" line="246"/>
         <source>Finnish</source>
-        <translation type="unfinished">핀란드어</translation>
+        <translation>핀란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Faroese</source>
-        <translation type="unfinished"></translation>
+        <translation>페로어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
         <location filename="../languages.cpp" line="220"/>
         <location filename="../languages.cpp" line="247"/>
         <source>French</source>
-        <translation type="unfinished">프랑스어</translation>
+        <translation>프랑스어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation>프리슬란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Irish</source>
-        <translation type="unfinished"></translation>
+        <translation>아일랜드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
         <location filename="../languages.cpp" line="248"/>
         <source>Galician</source>
-        <translation type="unfinished">갈리시아어</translation>
+        <translation>갈리시아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="75"/>
         <source>Guarani</source>
-        <translation type="unfinished"></translation>
+        <translation>과라니어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Gujarati</source>
-        <translation type="unfinished"></translation>
+        <translation>구자라트어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Hausa</source>
-        <translation type="unfinished"></translation>
+        <translation>하우사어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="79"/>
         <location filename="../languages.cpp" line="249"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>히브리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation>힌디어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <location filename="../languages.cpp" line="250"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>크로아티아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
         <location filename="../languages.cpp" line="251"/>
         <source>Hungarian</source>
-        <translation type="unfinished">헝가리어</translation>
+        <translation>헝가리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
         <source>Armenian</source>
-        <translation type="unfinished"></translation>
+        <translation>아르메니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation type="unfinished"></translation>
+        <translation>과학자용 인공 국제어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>인도네시아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation type="unfinished"></translation>
+        <translation>서양어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
-        <translation type="unfinished"></translation>
+        <translation>아이슬란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
         <location filename="../languages.cpp" line="221"/>
         <location filename="../languages.cpp" line="252"/>
         <source>Italian</source>
-        <translation type="unfinished">이탈리아어</translation>
+        <translation>이탈리아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"></translation>
+        <translation>이뉴잇어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <location filename="../languages.cpp" line="222"/>
         <location filename="../languages.cpp" line="253"/>
         <source>Japanese</source>
-        <translation type="unfinished">일본어</translation>
+        <translation>일본어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Javanese</source>
-        <translation type="unfinished"></translation>
+        <translation>자바어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
         <location filename="../languages.cpp" line="254"/>
         <source>Georgian</source>
-        <translation type="unfinished">그루지야어</translation>
+        <translation>그루지야어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>카자흐어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="105"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation>그린란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation>카르나타카어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
         <location filename="../languages.cpp" line="255"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>한국어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="110"/>
         <source>Kashmiri</source>
-        <translation type="unfinished"></translation>
+        <translation>카슈미르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
         <location filename="../languages.cpp" line="256"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>쿠르드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Kirghiz</source>
-        <translation type="unfinished"></translation>
+        <translation>키르기스어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Latin</source>
-        <translation type="unfinished"></translation>
+        <translation>라틴어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Lingala</source>
-        <translation type="unfinished"></translation>
+        <translation>링갈라어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <location filename="../languages.cpp" line="257"/>
         <source>Lithuanian</source>
-        <translation type="unfinished"></translation>
+        <translation>리투아니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
         <source>Latvian</source>
-        <translation type="unfinished"></translation>
+        <translation>라트비아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="124"/>
         <source>Malagasy</source>
-        <translation type="unfinished"></translation>
+        <translation>마다가스카르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
         <source>Maori</source>
-        <translation type="unfinished"></translation>
+        <translation>마오리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
         <location filename="../languages.cpp" line="258"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>마케도니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>말라얄람어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
         <source>Mongolian</source>
-        <translation type="unfinished"></translation>
+        <translation>몽골어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="130"/>
         <source>Moldavian</source>
-        <translation type="unfinished"></translation>
+        <translation>몰다비아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Marathi</source>
-        <translation type="unfinished"></translation>
+        <translation>마라티어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <location filename="../languages.cpp" line="259"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>말레이어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation>몰타어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="134"/>
         <source>Burmese</source>
-        <translation type="unfinished"></translation>
+        <translation>버마어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Nauru</source>
-        <translation type="unfinished"></translation>
+        <translation>나우루어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="138"/>
         <source>Nepali</source>
-        <translation type="unfinished"></translation>
+        <translation>네팔어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="223"/>
         <location filename="../languages.cpp" line="260"/>
         <source>Dutch</source>
-        <translation type="unfinished">네덜란드어</translation>
+        <translation>네덜란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>노르웨이 뉘노르스크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
         <location filename="../languages.cpp" line="224"/>
         <source>Norwegian</source>
-        <translation type="unfinished"></translation>
+        <translation>노르웨이어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation>프로방스어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Oriya</source>
-        <translation type="unfinished"></translation>
+        <translation>오리아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <location filename="../languages.cpp" line="261"/>
         <source>Polish</source>
-        <translation type="unfinished">폴란드어</translation>
+        <translation>폴란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
         <location filename="../languages.cpp" line="225"/>
         <source>Portuguese</source>
-        <translation type="unfinished"></translation>
+        <translation>포르투갈어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Quechua</source>
-        <translation type="unfinished"></translation>
+        <translation>케추아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
         <location filename="../languages.cpp" line="264"/>
         <source>Romanian</source>
-        <translation type="unfinished">루마니아어</translation>
+        <translation>루마니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
@@ -3581,654 +3525,654 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="265"/>
         <location filename="../languages.cpp" line="298"/>
         <source>Russian</source>
-        <translation type="unfinished">러시아어</translation>
+        <translation>러시아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="161"/>
         <source>Kinyarwanda</source>
-        <translation type="unfinished"></translation>
+        <translation>키냐르완다어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="162"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"></translation>
+        <translation>산스크리트어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="164"/>
         <source>Sindhi</source>
-        <translation type="unfinished"></translation>
+        <translation>신드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
         <location filename="../languages.cpp" line="266"/>
         <source>Slovak</source>
-        <translation type="unfinished">슬로바키아어</translation>
+        <translation>슬로바키아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="267"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>슬로베니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
-        <translation type="unfinished"></translation>
+        <translation>사모아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="171"/>
         <source>Shona</source>
-        <translation type="unfinished"></translation>
+        <translation>쇼나어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="172"/>
         <source>Somali</source>
-        <translation type="unfinished"></translation>
+        <translation>소말리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>알바니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <location filename="../languages.cpp" line="268"/>
         <source>Serbian</source>
-        <translation type="unfinished">세르비아어</translation>
+        <translation>세르비아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Sundanese</source>
-        <translation type="unfinished"></translation>
+        <translation>순다어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <location filename="../languages.cpp" line="227"/>
         <location filename="../languages.cpp" line="269"/>
         <source>Swedish</source>
-        <translation type="unfinished">스웨덴어</translation>
+        <translation>스웨덴어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Swahili</source>
-        <translation type="unfinished"></translation>
+        <translation>스와힐리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>타밀어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>텔루구어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Tajik</source>
-        <translation type="unfinished"></translation>
+        <translation>타지크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <location filename="../languages.cpp" line="270"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>타이어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
         <source>Tigrinya</source>
-        <translation type="unfinished"></translation>
+        <translation>티그리냐어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="185"/>
         <source>Turkmen</source>
-        <translation type="unfinished"></translation>
+        <translation>투르크멘어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Tagalog</source>
-        <translation type="unfinished"></translation>
+        <translation>타갈로그어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Tonga</source>
-        <translation type="unfinished"></translation>
+        <translation>통가어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <location filename="../languages.cpp" line="271"/>
         <location filename="../languages.cpp" line="293"/>
         <source>Turkish</source>
-        <translation type="unfinished">터키어</translation>
+        <translation>터키어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="190"/>
         <source>Tsonga</source>
-        <translation type="unfinished"></translation>
+        <translation>총가어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Tatar</source>
-        <translation type="unfinished"></translation>
+        <translation>타타르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="192"/>
         <source>Twi</source>
-        <translation type="unfinished"></translation>
+        <translation>트위어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="194"/>
         <source>Uighur</source>
-        <translation type="unfinished"></translation>
+        <translation>위구르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
         <location filename="../languages.cpp" line="272"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">우크라이나어</translation>
+        <translation>우크라이나어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Urdu</source>
-        <translation type="unfinished"></translation>
+        <translation>우르두어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
         <source>Uzbek</source>
-        <translation type="unfinished"></translation>
+        <translation>우즈베크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
         <location filename="../languages.cpp" line="273"/>
         <source>Vietnamese</source>
-        <translation type="unfinished"></translation>
+        <translation>베트남어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="202"/>
         <source>Wolof</source>
-        <translation type="unfinished"></translation>
+        <translation>월로프어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Xhosa</source>
-        <translation type="unfinished"></translation>
+        <translation>코사어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="204"/>
         <source>Yiddish</source>
-        <translation type="unfinished"></translation>
+        <translation>이디시어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="205"/>
         <source>Yoruba</source>
-        <translation type="unfinished"></translation>
+        <translation>요루바어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Zhuang</source>
-        <translation type="unfinished"></translation>
+        <translation>장족어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>중국어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
         <source>Zulu</source>
-        <translation type="unfinished"></translation>
+        <translation>줄루어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="262"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">포르투갈어(브라질)</translation>
+        <translation>포르투갈어 - 브라질</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="263"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished">포르투갈어(포르투갈)</translation>
+        <translation>포르투갈어 - 포르투갈</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="274"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished">중국어(간체)</translation>
+        <translation>간체 중국어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="275"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">중국어(번체)</translation>
+        <translation>번체 중국어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="283"/>
         <source>Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>유니코드</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="284"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="285"/>
         <source>Western European Languages</source>
-        <translation type="unfinished">서유럽어</translation>
+        <translation>서유럽어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="286"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished">서유럽어 (유로 기호 사용)</translation>
+        <translation>서유럽어 (유로 기호 사용)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="287"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished">슬라브어/중앙 유럽어</translation>
+        <translation>슬라브어/중앙 유럽어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="288"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished">에스페란토/갈리시아어/몰타어/터키어</translation>
+        <translation>에스페란토, 갈리시아어, 몰타어, 터키어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="289"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished">발트어 문자집합</translation>
+        <translation>발트어 문자집합</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="290"/>
         <source>Cyrillic</source>
-        <translation type="unfinished">키릴 문자</translation>
+        <translation>키릴 문자</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="292"/>
         <source>Modern Greek</source>
-        <translation type="unfinished">현대 그리스어</translation>
+        <translation>현대 그리스어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="294"/>
         <source>Baltic</source>
-        <translation type="unfinished">발트어</translation>
+        <translation>발트어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>Celtic</source>
-        <translation type="unfinished">켈트어</translation>
+        <translation>켈트어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>동남 유럽의</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
         <source>Hebrew charsets</source>
-        <translation type="unfinished">히브리어 문자집합</translation>
+        <translation>히브리어 문자집합</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="299"/>
         <source>Ukrainian, Belarusian</source>
-        <translation type="unfinished">우크라이나어/벨로루시어</translation>
+        <translation>우크라이나어, 벨로루시어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="300"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished">중국어 간체 문자집합</translation>
+        <translation>간체 중국어 문자집합</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="301"/>
         <source>Traditional Chinese charset</source>
-        <translation type="unfinished">중국어 번체 문자집합</translation>
+        <translation>번체 중국어 문자집합</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="302"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished">일본어 문자집합</translation>
+        <translation>일본어 문자집합</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="303"/>
         <source>Korean charset</source>
-        <translation type="unfinished">한국어 만자집합</translation>
+        <translation>한국어 문자집합</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="304"/>
         <source>Thai charset</source>
-        <translation type="unfinished">태국어 문자집합</translation>
+        <translation>태국어 문자집합</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished">키릴 문자 (윈도우)</translation>
+        <translation>키릴 문자 (윈도우)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
         <source>Slavic/Central European Windows</source>
-        <translation type="unfinished">슬라브어/중앙 유럽어 (윈도우)</translation>
+        <translation>슬라브어/중앙 유럽어 (윈도우)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="307"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished">아랍어 (윈도우)</translation>
+        <translation>아랍어 (윈도우)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"></translation>
+        <translation>아베스타어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
         <source>Akan</source>
-        <translation type="unfinished"></translation>
+        <translation>아칸어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"></translation>
+        <translation>아라곤어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation type="unfinished"></translation>
+        <translation>아바르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>벨로루시아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Bambara</source>
-        <translation type="unfinished"></translation>
+        <translation>밤바라어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="45"/>
         <source>Bosnian</source>
-        <translation type="unfinished"></translation>
+        <translation>보스니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation type="unfinished"></translation>
+        <translation>체첸어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"></translation>
+        <translation>크리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"></translation>
+        <translation>교회</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"></translation>
+        <translation>츄바시어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"></translation>
+        <translation>디베히어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"></translation>
+        <translation>부탄어 종카</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"></translation>
+        <translation>에웨어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"></translation>
+        <translation>풀라어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation type="unfinished"></translation>
+        <translation>피지어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation type="unfinished"></translation>
+        <translation>게일어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
         <source>Manx</source>
-        <translation type="unfinished"></translation>
+        <translation>만 섬어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Hiri</source>
-        <translation type="unfinished"></translation>
+        <translation>히리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Haitian</source>
-        <translation type="unfinished"></translation>
+        <translation>아이티어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Herero</source>
-        <translation type="unfinished"></translation>
+        <translation>헤레로어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"></translation>
+        <translation>차모르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"></translation>
+        <translation>이그보우어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"></translation>
+        <translation>중국 사천어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"></translation>
+        <translation>이누피아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"></translation>
+        <translation>이도어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation type="unfinished"></translation>
+        <translation>콩고어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Kikuyu</source>
-        <translation type="unfinished"></translation>
+        <translation>키쿠유어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"></translation>
+        <translation>반투어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>크메르어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Kanuri</source>
-        <translation type="unfinished"></translation>
+        <translation>카누리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Komi</source>
-        <translation type="unfinished"></translation>
+        <translation>코미어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Cornish</source>
-        <translation type="unfinished"></translation>
+        <translation>코니쉬어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="116"/>
         <source>Luxembourgish</source>
-        <translation type="unfinished"></translation>
+        <translation>룩셈부르크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation type="unfinished"></translation>
+        <translation>간다어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"></translation>
+        <translation>림부르크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>라오어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"></translation>
+        <translation>루바-카탕카어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"></translation>
+        <translation>마셜제도어</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>노르웨이 부크몰어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
-        <translation type="unfinished"></translation>
+        <translation>은데벨레어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"></translation>
+        <translation>반투어 은동가</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Navajo</source>
-        <translation type="unfinished"></translation>
+        <translation>나바호어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Chichewa</source>
-        <translation type="unfinished"></translation>
+        <translation>체와어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"></translation>
+        <translation>오지브웨이어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Oromo</source>
-        <translation type="unfinished"></translation>
+        <translation>오로모어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Ossetian</source>
-        <translation type="unfinished"></translation>
+        <translation>오세트어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Panjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>펀자브어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Pali</source>
-        <translation type="unfinished"></translation>
+        <translation>팔리어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Pushto</source>
-        <translation type="unfinished"></translation>
+        <translation>파슈토어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
-        <translation type="unfinished"></translation>
+        <translation>로만시어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Rundi</source>
-        <translation type="unfinished"></translation>
+        <translation>룬디어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
         <source>Sardinian</source>
-        <translation type="unfinished"></translation>
+        <translation>사르디니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="165"/>
         <source>Sami</source>
-        <translation type="unfinished"></translation>
+        <translation>라플란드어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sango</source>
-        <translation type="unfinished"></translation>
+        <translation>상고어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>신할라어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Swati</source>
-        <translation type="unfinished"></translation>
+        <translation>스와트어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Sotho</source>
-        <translation type="unfinished"></translation>
+        <translation>소토어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Tswana</source>
-        <translation type="unfinished"></translation>
+        <translation>츠와니어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"></translation>
+        <translation>타히티어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Venda</source>
-        <translation type="unfinished"></translation>
+        <translation>벤다어</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>볼라퓌크어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"></translation>
+        <translation>왈론어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="308"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>현대 그리스어 (윈도우)</translation>
     </message>
 </context>
 <context>
@@ -4236,19 +4180,19 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../logwindow.cpp" line="99"/>
         <source>Choose a filename to save under</source>
-        <translation>저장할 폴더를 선택하십시요</translation>
+        <translation>저장할 파일명를 선택하세요</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="105"/>
         <source>Confirm overwrite?</source>
-        <translation>덮어쓰시겠습니까?</translation>
+        <translation>덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="106"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
         <translation>파일이 이미 존재합니다.
-덮어쓰시겠습니까?</translation>
+덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="125"/>
@@ -4258,12 +4202,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.cpp" line="126"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>기록 파일 저장에 실패하였습니다</translation>
+        <translation>로그를 저장하지 못했습니다</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="100"/>
         <source>Logs</source>
-        <translation>기록 파일</translation>
+        <translation>로그</translation>
     </message>
 </context>
 <context>
@@ -4271,7 +4215,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>기록 파일</translation>
+        <translation>로그 창</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="57"/>
@@ -4288,7 +4232,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindowbase.ui" line="80"/>
         <source>&amp;Close</source>
-        <translation>닫기(&amp;C)</translation>
+        <translation>닫기</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="77"/>
@@ -4301,7 +4245,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>서식</translation>
     </message>
 </context>
 <context>
@@ -4309,12 +4253,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="238"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 목록 섞기</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="239"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 목록 반복</translation>
     </message>
 </context>
 <context>
@@ -4322,7 +4266,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>미디어패널</translation>
     </message>
 </context>
 <context>
@@ -4330,17 +4274,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="159"/>
         <source>Control bar</source>
-        <translation>조절 막대</translation>
+        <translation>컨트롤 바</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤 바 편집하기</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>전체화면 컨트롤 바 편집하기</translation>
     </message>
 </context>
 <context>
@@ -4348,26 +4292,26 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="136"/>
         <source>Control bar</source>
-        <translation type="unfinished">조절 막대</translation>
+        <translation>컨트롤 바</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>탐색 바</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <location filename="../mpcgui/mpcgui.cpp" line="434"/>
         <location filename="../mpcgui/mpcgui.cpp" line="435"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <location filename="../mpcgui/mpcgui.cpp" line="438"/>
         <location filename="../mpcgui/mpcgui.cpp" line="439"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -4375,12 +4319,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>주소 입력하기</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation>재생목록에 추가할 주소를 입력하세요. 한 줄에 한개씩.</translation>
     </message>
 </context>
 <context>
@@ -4388,37 +4332,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>뒤로 감기</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>빨리 감기</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">재생 / 일시 정지</translation>
+        <translation>재생 / 일시 중지</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>정지</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>녹화</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 목록의 다음 파일</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 목록의 이전 파일</translation>
     </message>
 </context>
 <context>
@@ -4431,17 +4375,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="286"/>
         <source>Length</source>
-        <translation>길이</translation>
+        <translation>시간</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="291"/>
         <source>&amp;Play</source>
-        <translation>재생(&amp;P)</translation>
+        <translation>재생</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="317"/>
         <source>&amp;Edit</source>
-        <translation>편집(&amp;E)</translation>
+        <translation>편집</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="802"/>
@@ -4452,23 +4396,24 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="800"/>
         <source>Choose a file</source>
-        <translation>파일 선택</translation>
+        <translation>파일을 선택하세요</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="818"/>
         <source>Choose a filename</source>
-        <translation>파일 선택</translation>
+        <translation>파일명을 선택하세요</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="829"/>
         <source>Confirm overwrite?</source>
-        <translation>덮어쓰시겠습니까?</translation>
+        <translation>덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="830"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>&quot;%1&quot; 파일은 이미 존재합니다.덮어쓰시겠습니까?</translation>
+        <translation>&quot;%1&quot; 파일은 이미 존재합니다.
+덮어 쓸까요?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1017"/>
@@ -4478,92 +4423,92 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1014"/>
         <source>Select one or more files to open</source>
-        <translation>열 파일을 선택하십시요</translation>
+        <translation>하나 이상의 파일을 선택하세요</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1070"/>
         <source>Choose a directory</source>
-        <translation>폴더를 선택하십시요</translation>
+        <translation>폴더를 선택하세요</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1281"/>
         <source>Edit name</source>
-        <translation>이름 편집</translation>
+        <translation>이름 편집하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1282"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>재생 목록에 표시될 파일의 이름을 입력하십시요:</translation>
+        <translation>재생 목록에 표시할 이 파일의 이름을 입력하세요:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="288"/>
         <source>&amp;Load</source>
-        <translation>불러오기(&amp;L)</translation>
+        <translation>불러오기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="289"/>
         <source>&amp;Save</source>
-        <translation>저장하기(&amp;S)</translation>
+        <translation>저장하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="293"/>
         <source>&amp;Next</source>
-        <translation>다음(&amp;N)</translation>
+        <translation>다음</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="294"/>
         <source>Pre&amp;vious</source>
-        <translation>이전(&amp;V)</translation>
+        <translation>이전</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="300"/>
         <source>Move &amp;up</source>
-        <translation>위로 이동(&amp;U)</translation>
+        <translation>위로 이동</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="301"/>
         <source>Move &amp;down</source>
-        <translation>아래로 이동(&amp;D)</translation>
+        <translation>아래로 이동</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="303"/>
         <source>&amp;Repeat</source>
-        <translation>반복(&amp;R)</translation>
+        <translation>반복</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="304"/>
         <source>S&amp;huffle</source>
-        <translation>순서 섞기(&amp;H)</translation>
+        <translation>순서 섞기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="307"/>
         <source>Add &amp;current file</source>
-        <translation>현재 파일을 추가(&amp;C)</translation>
+        <translation>현재 파일 추가하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="308"/>
         <source>Add &amp;file(s)</source>
-        <translation>파일 추가(&amp;F)</translation>
+        <translation>파일 추가하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="309"/>
         <source>Add &amp;directory</source>
-        <translation>폴더 추가(&amp;D)</translation>
+        <translation>폴더 추가하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="310"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>주소 추가(&amp;U)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="313"/>
         <source>Remove &amp;selected</source>
-        <translation>이 항목 제거(&amp;S)</translation>
+        <translation>선택항목 삭제하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="314"/>
         <source>Remove &amp;all</source>
-        <translation>모두 제거(&amp;A)</translation>
+        <translation>모두 제거하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="327"/>
@@ -4573,12 +4518,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="321"/>
         <source>Add...</source>
-        <translation>추가...</translation>
+        <translation>추가하기...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="323"/>
         <source>Remove...</source>
-        <translation>제거...</translation>
+        <translation>삭제하기...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="855"/>
@@ -4588,12 +4533,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="856"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>저장되지 않은 변경 사항이 있습니다. 재생 목록을 저장하시겠습니까?</translation>
+        <translation>저장하지 않은 변경 사항이 있습니다. 재생 목록을 저장할까요?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1016"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>멀티미디어</translation>
     </message>
 </context>
 <context>
@@ -4612,7 +4557,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="24"/>
         <source>&amp;Advanced</source>
-        <translation>고급(&amp;A)</translation>
+        <translation>고급</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="38"/>
@@ -4622,31 +4567,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 크래시 보고하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>이 칸에서 MPlayer에 전달할 추가 옵션을 선택할 수 있습니다.
-공백으로 구분하여 입력하십시요.(예: -flip -nosound)</translation>
+        <translation>여기에서 MPlayer에 추가 옵션을 전달할 수 있습니다.
+공백으로 구분하여 입력하세요.
+예: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="364"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>추가 영상 필터를 적용할 수 있습니다.
-쉼표(,)로 구분합니다. 띄어쓰기를 삽입하지 마십시요.
-(예: scale=52:-2,eq2=1.1)</translation>
+        <translation>추가 영상 필터도 전달할 수 있습니다.
+쉼표(,)로 구분합니다. 공백을 사용하지 마세요.
+예: scale=522:-2,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="424"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>오디오 필터도 적용할 수 있습니다. 쉼표로 구분합니다.
-(예: resample=44100:0:0,volnorm)</translation>
+        <translation>오디오 필터도 전달할 수 있습니다. 쉼표로 구분합니다.
+예: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
@@ -4661,367 +4607,367 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>이 옵션은 프로그램을 디버그하는 것에 목적을 두고 있습니다.</translation>
+        <translation>이 옵션은 주로 프로그램을 디버깅하기 위한 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>이 옵션을 선택하면 깜빡임을 해소할 수도 있지만, 영상이 정상적으로 재생되지 않을 수도 있습니다.</translation>
+        <translation>이 옵션을 선택하면 깜빡임을 감소할 수 있지만, 동영상이 제대로 출력되지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Filter for SMPlayer logs</source>
-        <translation>SMPlayer 기록 필터</translation>
+        <translation>SMPlayer 로그 필터</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>모니터 가로세로비(&amp;M):</translation>
+        <translation>모니터 비율:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>MPlayer를 별도의 창에서 실행(&amp;R)</translation>
+        <translation>MPlayer를 별도의 창에서 실행하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="327"/>
         <source>&amp;Options:</source>
-        <translation>옵션(&amp;O):</translation>
+        <translation>옵션:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="387"/>
         <source>V&amp;ideo filters:</source>
-        <translation>영상 필터(&amp;I):</translation>
+        <translation>비디오 필터:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="446"/>
         <source>Audio &amp;filters:</source>
-        <translation>오디오 필터(&amp;F):</translation>
+        <translation>오디오 필터:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="220"/>
         <source>&amp;Colorkey:</source>
-        <translation>컬러키(&amp;C):</translation>
+        <translation>컬러키:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="533"/>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="598"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="604"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>SMPlayer 출력 기록하기(&amp;S)</translation>
+        <translation>SMPlayer 출력 기록하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="675"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>SMPlayer 기록 필터(&amp;F):</translation>
+        <translation>SMPlayer 로그 필터:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="243"/>
         <source>C&amp;hange...</source>
-        <translation>변경(&amp;H)...</translation>
+        <translation>변경하기...</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Logs</source>
-        <translation>기록 파일</translation>
+        <translation>로그</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="539"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>MPlayer 출력 기록하기(&amp;O)</translation>
+        <translation>MPlayer 출력 기록하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="292"/>
         <source>Options for MP&amp;layer</source>
-        <translation>MPlayer 옵션(&amp;L)</translation>
+        <translation>MPlayer 옵션</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="523"/>
         <source>Autosave MPlayer log</source>
-        <translation>MPlayer 기록 파일 자동 저장</translation>
+        <translation>MPlayer 로그 자동저장하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>이 옵션이 선택되면, MPlayer 기록은 새로운 파일이 재생되기 시작할 때마다 파일에 저장됩니다. 이 기능은 다른 프로그램들이 재생되고 있는 파일에 대한 정보를 알 수 있도록 하기 위하여 제공됩니다.</translation>
+        <translation>이 옵션을 선택하면 새 파일을 재생할 때마다 MPlayer 로그를 지정한 파일에 기록할 것입니다. 외부 프로그램을 위한 것인데, 당신이 재생하고 있는 파일에 대한 정보를 얻기 위한 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
         <source>Autosave MPlayer log filename</source>
-        <translation>MPlayer 기록 파일명 자동 저장</translation>
+        <translation>MPlayer 로그 파일명 자동저장하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation>MPlayer 기록 파일을 저장할 경로와 파일명을 입력하십시요.</translation>
+        <translation>여기에 MPlayer 로그를 저장할 경로와 파일명을 입력하세요.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>MPlayer 기록을 파일에 자동 저장(&amp;U)</translation>
+        <translation>MPlayer 로그를 파일에 자동저장하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="425"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer에 짧은 파일명(8+3)으로 전달하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="426"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 MPlayer는 로컬 코드페이지 이외의 문자를 포함하는 파일명은 열지 못합니다. 이 옵션을 체크하면 SMPlayer는 짧은 버전의 파일명을 MPlayer에 전달함으로 그 파일을 열 수 있게 합니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer에 짧은 파일명(8+3)으로 전달하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="406"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>모니터 비율</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="407"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>모니터의 화면 비율을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="409"/>
         <source>Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer를 별도의 창에서 실행하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="410"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 MPlayer 동영상 창은 SMPlayer의 메인 창이 아니라 그 자신의 창을 별도로 사용할 것입니다. 이 경우 마우스와 키보드 이벤트는 MPlayer가 직접 처리하게 됩니다. 다시 말해 MPlayer 단독 창에 포커스가 있을 때 단축키와 마우스 클릭은 SMPlayer에서 설정한 대로 동작하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Report MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 크래시 보고하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 MPlayer 크래시를 알리는 창이 뜰 것입니다. 그렇지 않으면 이 크래시는 조용히 무시됩니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Colorkey</source>
-        <translation type="unfinished"></translation>
+        <translation>컬러키</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 창 밑에서 재생중인 동영상이 비춰 보일 때, 문제 해결을 위해 컬러키를 변경할 수 있습니다. 검정에 가까운 색을 선택해 보세요.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Options for MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 옵션</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="481"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="482"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에서 MPlayer 옵션을 입력할 수 있습니다. 공백으로 구분하여 입력하세요.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="485"/>
         <source>Video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 필터</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 MPlayer용 비디오 필터를 추가할 수 있습니다. 콤마로 구분해서 입력하세요. 공백이 아닙니다!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="489"/>
         <source>Audio filters</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 필터</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 MPlayer용 오디오 필터를 추가할 수 있습니다. 콤마로 구분해서 입력하세요. 공백이 아닙니다!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="434"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 창의 배경을 다시 그립니다</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="126"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 창의 배경을 다시 그리기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>네트워크 접속에 IPv4를 사용합니다. 자동으로 IPv6로 전환됩니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="498"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>네트워크 접속에 IPv6를 이용합니다. 자동으로 IPv4로 전환합니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="484"/>
         <source>Network Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>네트워크 연결</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="496"/>
         <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="527"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>로그</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="417"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>필요시 인덱스를 다시 만듭니다</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>필요시 인덱스를 다시 만들기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 SMPlayer는 SMPlayer가 출력하는 디버깅 메시지를 저장합니다. (설정 -&gt; 로그 보기 -&gt; SMPlayer 에서 로그를 볼 수 있습니다) 이것은 당신이 버그를 발견한 경우 개발자에게 매우 유용한 정보입니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 SMPlayer는 MPlayer의 출력을 저장합니다. (설정 -&gt; 로그 보기 -&gt; MPlayer 에서 볼 수 있습니다) 문제가 생겼을 때 이 로그는 중요한 정보를 담고 있을 수 있으므로 이 옵션을 사용하길 권장합니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 로그에 저장되는 SMPlayer 메시지를 골라냅니다. 정규식을 사용할 수 있습니다. 예:  &lt;i&gt;^Core::.*&lt;/i&gt; 는 &lt;i&gt;Core::&lt;/i&gt;로 시작하는 줄만 출력합니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>Correct pts</source>
-        <translation type="unfinished"></translation>
+        <translation>pts 교정하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 프레임의 타임스탬프를 다르게 계산하고 새로운 프레임을 추가하거나 존재하는 프레임의 타임스탬프를 변경하는 비디오 필터를 지원하는 실험적인 모드로 MPlayer를 전환합니다. 예를 들면 SSA/ASS 라이브러리를 사용해서 장면 변화에 맞춘 자막을 재생할 때 더 정교한 타임스탬프를 볼 수 있습니다. pts를 교정하지 않으면 자막 타이밍은 일반적으로 몇 프레임이 떨어집니다. 이 옵션은 몇몇 디먹서와 코덱에서 정상적으로 동작하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>동작 목록</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>파일이 열릴 때마다 실행할 수 있는 동작 목록을 여기에서 지정할 수 있습니다. 사용할 수 있는 모든 동작을 키보드 및 마우스 항목의 단축키 편집기에서 찾을 수 있습니다. 점검할 수 있는 동작은 그 동작을 사용 또는 사용하지 않으려면 &quot;true&quot; 나 &quot;false&quot; 를 뒤에 붙이면 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>한계: 이 동작은 파일을 열 때만 작동합니다. mplayer 프로세스가 재시작할 때는 작동하지 않습니다. (예: 오디오나 비디오 필터 선택시)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>네트워크</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="183"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>파일을 열 때마다 다음 동작을 실행합니다. 이 동작은 반드시 공백으로 구분해야 합니다:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="478"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>네트워크</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>예:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="418"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>인덱스가 없으면 파일의 인덱스를 재생성해서 탐색을 할 수 있습니다. 깨지거나 미완료된 다운로드나 잘못 만들어진 파일에 유용합니다. 이 옵션은 해당 미디어가 근본적으로 탐색을 지원해야 사용할 수 있습니다. (예: stdin, pipe 등에서는 안 됨)&lt;br&gt; 참고: 인덱스 생성시 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="142"/>
         <source>C&amp;orrect PTS:</source>
-        <translation type="unfinished"></translation>
+        <translation>PTS 교정하기:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="571"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>더 자세히</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 로그를 파일에 저장하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 SMPlayer 로그가 %1 에 기록될 것입니다</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="636"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 로그를 파일에 저장하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>창 제목에 태그 정보 보이기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="475"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 태그 정보가 창 제목에 표시가 됩니다. 그렇지 않으면 파일명만 나타날 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="268"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>창 제목에 태그 정보 보이기</translation>
     </message>
 </context>
 <context>
@@ -5034,7 +4980,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefassociations.cpp" line="197"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>하나 이상의 파일 형식 연결에 실패하였습니다. 충분한 권한이 있는지 확인하십시요.</translation>
+        <translation>모든 파일을 연결할 수 없습니다. 충분한 권한이 있는지 확인하고 다시 시도해 보세요.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="207"/>
@@ -5049,12 +4995,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefassociations.cpp" line="225"/>
         <source>Check all file types in the list</source>
-        <translation>목록에 있는 모든 파일 형식을 선택</translation>
+        <translation>목록의 모든 파일 형식을 선택합니다</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="228"/>
         <source>Uncheck all file types in the list</source>
-        <translation>목록에 있는 모든 파일 형식에서 선택을 해제</translation>
+        <translation>목록의 모든 파일 형식을 선택 해제합니다</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="230"/>
@@ -5084,7 +5030,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>SMPlayer와 연결하고 싶은 미디어 파일에 선택하십시요. 적용 버튼을 누르면 해당 파일 형식들이 SMPlayer와 연결되게 됩니다. 선택을 해제하면, 파일 형식과 원래 연결되었던 프로그램과 다시 연결됩니다.</translation>
+        <translation>SMPlayer로 재생할 미디어 파일 확장자를 선택하세요. &quot;적용&quot;을 누르면 선택한 파일이 SMPlayer에 연결됩니다. 미디어 형식의 선택을 해제하면 파일 연결이 복원됩니다.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5094,7 +5040,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;참고:&lt;/b&gt; (윈도우 비스타에서는 복원이 되지 않습니다.)</translation>
     </message>
 </context>
 <context>
@@ -5114,72 +5060,72 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="180"/>
         <source>CD device</source>
-        <translation>CD 드라이브 장치</translation>
+        <translation>CD 장치</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="181"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation>CD-ROM 드라이브를 선택하십시요. 비디오 및 오디오 CD를 재생하는 데 사용됩니다.</translation>
+        <translation>CD-ROM 장치를 선택하세요. 비디오/오디오 CD를 재생하는 데 사용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="184"/>
         <source>DVD device</source>
-        <translation>DVD 드라이브 장치</translation>
+        <translation>DVD 장치</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="185"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
-        <translation>DVD 드라이브를 선택하십시요. DVD 재생에 사용됩니다.</translation>
+        <translation>DVD 드라이브를 선택하세요. DVD 재생에 사용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="113"/>
         <source>Select your &amp;CD device:</source>
-        <translation>&amp;CD 드라이브:</translation>
+        <translation>&amp;CD 장치를 선택하세요:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="229"/>
         <source>Select your &amp;DVD device:</source>
-        <translation>&amp;DVD 드라이브:</translation>
+        <translation>&amp;DVD 장치를 선택하세요:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="56"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer는 기본적으로 어떤 CDROM이나 DVD 장치를 선택하지 않습니다. 그래서 CD나 DVD를 재생하기 전에 사용하려는 장치를 선택해야 실제로 CD나 DVD를 재생할 수 있습니다. (이 두 장치는 동일할 수 있습니다)</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="188"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴 사용하기</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="189"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 SMPlayer는 dvdnav를 이용해서 DVD를 재생할 것입니다. dvdnav를 지원하는 최신 버전의 mplayer가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="192"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>참고 1: 캐쉬가 비활성화됩니다. 이는 성능에 영향을 미칠 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="193"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>참고 2: 마우스 버튼에 &quot;DVD 메뉴의 옵션을 활성화하기&quot; 동작을 할당할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="195"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>참고 3: 이 기능은 아직 개발중이니 여러 문제가 발생할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="278"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴 사용하기 (실험적)</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>CD/DVD 드라이브 검색하기</translation>
     </message>
 </context>
 <context>
@@ -5193,7 +5139,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;General</source>
-        <translation>일반(&amp;G)</translation>
+        <translation>일반</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="61"/>
@@ -5201,39 +5147,29 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>미디어 설정</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="892"/>
-        <source>Video</source>
-        <translation type="unfinished">영상</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="954"/>
         <source>Start videos in fullscreen</source>
-        <translation>전체 화면에서 동영상 시작</translation>
+        <translation>전체 화면에서 재생 시작하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="980"/>
         <source>Disable screensaver</source>
-        <translation>화면 보호기 비활성화</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="987"/>
-        <source>Audio</source>
-        <translation type="unfinished">오디오</translation>
+        <translation>화면 보호기 끄기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="127"/>
         <source>Select the mplayer executable</source>
-        <translation>MPlayer 실행 파일 선택</translation>
+        <translation>MPlayer 실행 파일 선택하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="100"/>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished">6개 (5.1 서라운드) {7 (6.1 ?}</translation>
+        <translation>7개 (6.1 서라운드)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="101"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished">6개 (5.1 서라운드) {8 (7.1 ?}</translation>
+        <translation>8개 (7.1 서라운드)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="129"/>
@@ -5248,7 +5184,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="133"/>
         <source>Select a directory</source>
-        <translation>폴더 선택</translation>
+        <translation>폴더 선택하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="846"/>
@@ -5263,7 +5199,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
         <source>Video output driver</source>
-        <translation>영상 출력 드라이버</translation>
+        <translation>비디오 출력 드라이버</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="989"/>
@@ -5273,7 +5209,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="990"/>
         <source>Select the audio output driver.</source>
-        <translation>오디오 출력 드라이버를 선택하십시요.</translation>
+        <translation>오디오 출력 드라이버를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="854"/>
@@ -5283,37 +5219,37 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Preferred audio language</source>
-        <translation>사용할 오디오 언어</translation>
+        <translation>선호하는 오디오 언어</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
         <source>Preferred subtitle language</source>
-        <translation>사용할 자막 언어</translation>
+        <translation>선호하는 자막 언어</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="932"/>
         <source>Software video equalizer</source>
-        <translation>소프트웨어 영상 이퀄라이저</translation>
+        <translation>소프트웨어 비디오 이퀄라이저</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>만약 그래픽 카드나 영상 출력 드라이버에 의해 영상 이퀄라이저가 지원되지 않는 경우, 이 옵션을 선택할 수 있습니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; 이 옵션은 일부 영상 출력 드라이버와는 호환되지 않을 수 있습니다.</translation>
+        <translation>그래픽 카드나 영상 출력 드라이버에서 비디오 이퀄라이저를 지원하지 않는 경우, 이 옵션을 선택할 수 있습니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; 이 옵션은 일부 영상 출력 드라이버와 호환되지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="955"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>만약 이 옵션이 선택되면, 모든 동영상은 전체 화면에서 재생이 시작될 것입니다.</translation>
+        <translation>만약 이 옵션을 선택하면, 모든 동영상은 전체 화면에서 재생을 시작됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Software volume control</source>
-        <translation>소프트웨어 음량 조절</translation>
+        <translation>소프트웨어 볼륨 조절</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1039"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>이 옵션을 선택하면 사운드 카드의 믹서 대신 소프트웨어 믹서를 사용합니다.</translation>
+        <translation>사운드 카드 믹서 대신 소프트웨어 믹서를 사용하려면 이 옵션에 체크하세요.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
@@ -5323,87 +5259,87 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>사용할 수 있는 CPU 시간을 고려하여 후처리의 품질을 동적으로 결정합니다. 여기에 입력하는 숫자는 최대 품질이 될 것입니다. 실제 품질은 동적으로 결정되므로, 조금 큰 수를 설정해도 좋습니다.</translation>
+        <translation>사용 가능한 여분의 CPU 시간에 따라 후처리 단계를 동적으로 변경합니다. 여기에 지정하는 숫자는 사용되는 최대 후처리 단계입니다. 보통 다소 큰 숫자를 사용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1084"/>
         <source>&amp;Audio:</source>
-        <translation>오디오(&amp;A):</translation>
+        <translation>오디오:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="67"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>모든 파일에 대한 설정(선택된 오디오 트랙, 자막 등)을 기억(&amp;R)</translation>
+        <translation>모든 파일에 대해 설정(오디오 트랙, 자막...)을 기억하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1103"/>
         <source>Su&amp;btitles:</source>
-        <translation>자막(&amp;B):</translation>
+        <translation>자막:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="329"/>
         <source>&amp;Quality:</source>
-        <translation>품질(&amp;Q):</translation>
+        <translation>품질:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="503"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>전체 화면에서 동영상 시작(&amp;F)</translation>
+        <translation>전체 화면에서 재생 시작하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Disable &amp;screensaver</source>
-        <translation>화면 보호기 비활성화(&amp;S)</translation>
+        <translation>화면 보호기 끄기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="779"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>소프트웨어 음량 조절 사용(&amp;O)</translation>
+        <translation>소프트웨어 볼륨 조절 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="802"/>
         <source>Ma&amp;x. Amplification:</source>
-        <translation>최대 음량 확대(&amp;X):</translation>
+        <translation>최대 증폭:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="633"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation>S/PDIF 통과 &amp;AC3/DTS</translation>
+        <translation>AC3/DTS: S/PDIF 패스쓰루하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="938"/>
         <source>Direct rendering</source>
-        <translation>직접 렌더링</translation>
+        <translation>직접 렌더링하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="943"/>
         <source>Double buffering</source>
-        <translation>더블 버퍼링</translation>
+        <translation>더블 버퍼링하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="469"/>
         <source>D&amp;irect rendering</source>
-        <translation>직접 렌더링(&amp;I)</translation>
+        <translation>직접 렌더링하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="476"/>
         <source>Dou&amp;ble buffering</source>
-        <translation>더블 버퍼링(&amp;B)</translation>
+        <translation>더블 버퍼링하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>더블 버퍼링은 메모리 상에 프레임 2개를 저장하고 하나를 디코드하는 동안 하나를 표시함으로써 깜빡임을 해소합니다. 만약 비활성화되면 OSD에 좋지 않은 영향을 끼칠 수 있지만, OSD 깜빡임을 해소합니다.</translation>
+        <translation>더블 버퍼링은 메모리에 2개의 프레임을 저장하고 하나를 디코딩하는 동안 다른 하나를 표시해서 깜빡임을 고칩니다. 사용하지 않으면 OSD에 부정적인 영향을 미칠 수 있지만 대게 OSD 깜빡임을 제거합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="309"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>후처리 기본으로 활성화(&amp;E)</translation>
+        <translation>기본으로 후처리를 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="830"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>기본으로 음량 노멀라이즈(&amp;N)</translation>
+        <translation>기본으로 볼륨 노멀라이즈 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -5413,77 +5349,77 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>이 옵션이 선택되면, 현재 파일이나 재생 목록이 끝날 때 창이 자동으로 닫힙니다.</translation>
+        <translation>이 옵션 사용시, 현재 파일이나 재생 목록이 끝날 때 메인 창이 자동으로 닫힙니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="97"/>
         <source>2 (Stereo)</source>
-        <translation>2개 (스테레오)</translation>
+        <translation>2 (스테레오)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="98"/>
         <source>4 (4.0 Surround)</source>
-        <translation>4개 (4.0 서라운드)</translation>
+        <translation>4 (4.0 서라운드)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="99"/>
         <source>6 (5.1 Surround)</source>
-        <translation>6개 (5.1 서라운드)</translation>
+        <translation>6 (5.1 서라운드)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="657"/>
         <source>C&amp;hannels by default:</source>
-        <translation>기본 채널 수(&amp;H):</translation>
+        <translation>기본 채널:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="196"/>
         <source>&amp;Pause when minimized</source>
-        <translation>최소화할 때 일시 정지(&amp;P)</translation>
+        <translation>최소화할 때 일시 중지하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="886"/>
         <source>Pause when minimized</source>
-        <translation>최소화할 때 일시 정지</translation>
+        <translation>최소화할 때 일시 중지하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="915"/>
         <source>Enable postprocessing by default</source>
-        <translation>후처리 기본으로 활성화</translation>
+        <translation>기본으로 후처리 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1042"/>
         <source>Max. Amplification</source>
-        <translation>최대 음량 확대</translation>
+        <translation>최대 증폭</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1012"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation>S/PDIF 통과 AC3/DTS</translation>
+        <translation>AC3/DTS: S/PDIF 패스쓰루</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1049"/>
         <source>Volume normalization by default</source>
-        <translation>기본으로 음량 노멀라이즈</translation>
+        <translation>기본으로 볼륨 노멀라이즈 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1050"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation>소리에 왜곡 없이 음량을 최대화합니다.</translation>
+        <translation>소리 왜곡 없이 볼륨을 최대로 증폭합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1017"/>
         <source>Channels by default</source>
-        <translation>기본 채널 수</translation>
+        <translation>기본 채널</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1043"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>백분율 단위로 최대 음량을 설정하십시요 (기본값: 110). 200을 입력하면 음량을 최대 현재의 2배까지로 조정할 수 있게 해 줍니다. 100 미만의 값은 초기 음량(=100%)이 최대값을 초과하도록 하므로, OSD가 제대로 표시할 수 없습니다.</translation>
+        <translation>백분율 단위로 최대 증폭률을 설정하세요 (기본값: 110). 200을 입력하면 음량을 최대 현재의 2배까지 조정할 수 있게 해 줍니다. 100 미만의 값은 초기 음량(=100%)이 최대값을 초과하도록 하므로, OSD를 제대로 표시할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>후처리는 새로 열린 파일에 대해 기본적으로 사용됩니다.</translation>
+        <translation>기본적으로 후처리는 파일을 새로 열어야 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
@@ -5493,7 +5429,8 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1082"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>새로운 파일을 재생할 때 사용될 기본 오디오 트랙을 지정합니다. 만약 해당하는 트랙이 존재하지 않으면, 첫 트랙이 사용될 것입니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; &quot;사용할 오디오 언어&quot; 옵션이 이 옵션보다 우선적으로 적용됩니다.</translation>
+        <translation>새 파일을 재생시 사용할 기본 오디오 트랙을 지정하세요. 트랙이 존재하지 않으면, 첫번째 트랙이 사용됩니다. 
+&lt;br&gt;&lt;b&gt;참고:&lt;/b&gt; &quot;선호하는 오디오 언어&quot; 가 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1087"/>
@@ -5503,37 +5440,37 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1088"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>새로운 파일을 재생할 때 사용될 기본 자막 트랙을 지정합니다. 만약 해당하는 트랙이 존재하지 않으면, 첫 트랙이 사용될 것입니다.&lt;br&gt;&lt;b&gt;주의:&lt;/b&gt; &quot;사용할 자막 언어&quot; 옵션이 이 옵션보다 우선적으로 적용됩니다.</translation>
+        <translation>새 파일을 재생할 때 사용할 기본 자막 트랙을 지정합니다. 트랙이 존재하지 않으면, 첫번째 트랙이 사용됩니다.&lt;br&gt;&lt;b&gt;참고:&lt;/b&gt; &quot;선호하는 자막 언어&quot; 가 이 옵션보다 우선적으로 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1224"/>
         <source>Or choose a track number:</source>
-        <translation>또는 트랙 번호를 지정하십시요:</translation>
+        <translation>또는 트랙 번호를 선택하세요:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1165"/>
         <source>Audi&amp;o:</source>
-        <translation>오디오(&amp;O):</translation>
+        <translation>오디오:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1119"/>
         <source>Preferred language:</source>
-        <translation>사용할 언어:</translation>
+        <translation>선호하는 언어:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="990"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation>사용할 오디오 및 자막(&amp;D)</translation>
+        <translation>선호하는 오디오와 자막</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1178"/>
         <source>&amp;Subtitle:</source>
-        <translation>자막(&amp;S):</translation>
+        <translation>자막:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="136"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>오디오 및 자막 스트림에 사용할 언어를 지정할 수 있습니다. 만약 사용할 수 있는 오디오 또는 자막 스트림이 여러 개인 경우, SMPlayer는 여기서 지정된 언어를 사용하려고 시도합니다.&lt;br&gt;이 옵션은 DVD나 mkv 파일과 같이 오디오와 자막 스트림의 언어에 대한 정보가 주어지는 미디어 파일에 대해서만 적용됩니다.&lt;br&gt;이 칸에는 정규 표현식을 입력할 수 있습니다. 예를 들어, &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 대응되는 오디오 트랙을 선택하게 합니다.</translation>
+        <translation>여기에서 오디오와 자막 스트림에 선호하는 언어를 지정할 수 있습니다. 오디오나 자막 스트림이 여러 개 있는 미디어인 경우 SMPlayer는 선호하는 언어를 먼저 사용합니다. 이것은 DVD나 mkv 파일처럼 오디오와 자막 스트림의 정보를 제공하는 미디어에서만 동작합니다. &lt;br&gt;이 필드에는 정규식을 사용할 수 있습니다. 예:  &lt;b&gt;ko|kr|kor&lt;/b&gt;은 &lt;i&gt;ko&lt;/i&gt;, &lt;i&gt;kr&lt;/i&gt; 및 &lt;i&gt;kor&lt;/i&gt;에 일치하는 트랙을 선택합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1011"/>
@@ -5544,472 +5481,482 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>음조를 변경하지 않고 고속 재생(&amp;P)</translation>
+        <translation>음높이 변경 없이 빠르게 재생하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1028"/>
         <source>High speed playback without altering pitch</source>
-        <translation>음조를 변경하지 않고 고속 재생</translation>
+        <translation>음높이 변경 없이 빠르게 재생하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1029"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation>재생 속도를 음조의 변경 없이 바꿀 수 있도록 합니다. 최소 MPlayer dev-SVN-r24924 버전을 필요로 합니다.</translation>
+        <translation>음의 높이를 변경하지 않고 재생 속도를 바꿀 수 있습니다. 최소한 MPlayer dev-SVN-r24924 버전을 필요로 합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">영상(&amp;V)</translation>
+        <translation>비디오</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="462"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>소프트웨어 비디오 이퀄라이저 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="561"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="737"/>
         <source>Volume</source>
-        <translation type="unfinished">음량</translation>
+        <translation>볼륨</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="892"/>
+        <source>Video</source>
+        <translation>비디오</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="987"/>
+        <source>Audio</source>
+        <translation>오디오</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>선호하는 오디오와 자막</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="105"/>
         <source>None</source>
-        <translation type="unfinished">없음</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="106"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="107"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (보통)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="108"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (더블 프레임레이트)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="109"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Linear Blend (선형 혼합)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="110"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="923"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 디인터레이스</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상을 새로 열었을 때 사용하려는 디인터레이스 필터를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="859"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>시간 위치 기억합니다</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="101"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>시간 위치 기억하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1009"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 이퀄라이저 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1010"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 이퀄라이저를 사용하려면 이 옵션에 체크하세요.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="626"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 이퀄라이저 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="948"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>조각을 이용해 비디오 그리기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="949"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>16 픽셀 크기의 조각으로 비디오를 그립니다. 만약 사용하지 않으면 전체 프레임은 한번에 그려집니다. 비디오카드와 캐쉬량에 따라서 빠르거나 느려질 수 있습니다. libmpeg2와 libavcodec 코덱에만 효과가 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="483"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>조각을 이용해 비디오 그리기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="189"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 완료시 닫기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="333"/>
         <location filename="../prefgeneral.cpp" line="340"/>
         <location filename="../prefgeneral.cpp" line="366"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>빠르게</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="334"/>
         <location filename="../prefgeneral.cpp" line="362"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>느리게</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="367"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>빠르게 - ATI 카드</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="389"/>
         <location filename="../prefgeneral.cpp" line="418"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="928"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 확대</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="929"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 새 동영상을 열 때 사용되는 기본 확대율을 설정합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="408"/>
         <source>Default &amp;zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 확대:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="847"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 SMPlayer가 사용할 mplayer 실행 파일을 지정해야 합니다.&lt;br&gt;SMPlayer는 최소한 1.0rc1을 필요로 합니다. (물론 SVN의 최신 버전을 강력히 추천합니다)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="851"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
-        <translation type="unfinished"></translation>
+        <translation>이 설정을 잘못하면, SMPlayer가 재생을 아무것도 못할 수 있습니다!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="895"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 출력 드라이버를 선택합니다. %1 은 가장 좋은 성능을 제공합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 이 가장 추천하는 것입니다. %2 나 %3 은 되도록 피하세요. 느리고 성능에 영향을 미칠 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="855"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation type="unfinished"></translation>
+        <translation>일반적으로 SMPlayer는 재생하는 파일마다 설정을 각각 기억할 것입니다. (선택한 오디오 트랙, 볼륨, 필터 등...) 이 기능이 마음에 들지 않으면 이 옵션을 해제하세요.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="887"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 메인 창을 숨겼을 때 재생이 일시 중지됩니다. 창이 복구되면 재생을 다시 시작합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="981"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 중에 화면 보호기를 끄려면 이 옵션을 사용하세요. 화면 보호기는 재생이 끝나면 다시 활성화 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1062"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>선호하는 오디오 스트림 언어를 여기에 입력할 수 있습니다. 오디오 스트림이 여러 개인 경우, SMPlayer는 선호하는 언어를 먼저 사용하려고 할 것입니다. 이것은 DVD나 mkv 파일처럼 오디오 스트림의 언어에 대한 정보를 제공하는 미디어에서만 동작합니다. 이 필드는 정규식을 입력할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt; 는  &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 나 &lt;i&gt;spa&lt;/i&gt;와 일치하는 오디오 트랙을 선택하게 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>선호하는 자막스트림 언어를 여기에 입력할 수 있습니다. 자막 스트림이 여러 개인 경우, SMPlayer는 선호하는 언어를 먼저 사용하려고 할 것입니다. 이것은 DVD나 mkv 파일처럼 자막 스트림의 언어에 대한 정보를 제공하는 미디어에서만 동작합니다. 이 필드는 정규식을 입력할 수 있습니다. 예: &lt;b&gt;es|esp|spa&lt;/b&gt; 는  &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; 나 &lt;i&gt;spa&lt;/i&gt;와 일치하는 자막 트랙을 선택하게 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="228"/>
         <location filename="../prefgeneral.ui" line="569"/>
         <source>Ou&amp;tput driver:</source>
-        <translation type="unfinished"></translation>
+        <translation>출력 드라이버:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 화면에 검정 여백 넣기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="959"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 전체 화면에서 영상에 검은 여백이 추가될 것입니다. 검은 여백에 자막을 표시할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="510"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 화면에 검은 여백 넣기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="115"/>
         <source>one ini file</source>
-        <translation type="unfinished"></translation>
+        <translation>단일 ini 파일</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="116"/>
         <source>multiple ini files</source>
-        <translation type="unfinished"></translation>
+        <translation>다수의 ini 파일</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="864"/>
         <source>Method to store the file settings</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 설정 저장 방식</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 파일 설정이 저장되는 방식을 바꿀 수 있도록 해 줍니다. 다음 옵션을 사용할 수 있습니다:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="867"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>단일 ini 파일: 재생했던 모든 파일의 설정을 하나의 ini 파일 (%1) 에 저장합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="871"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>많은 파일의 정보에 대해서는 후자의 방식이 더 빠릅니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="113"/>
         <source>&amp;Store settings in</source>
-        <translation type="unfinished"></translation>
+        <translation>설정 저장:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="869"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>다중 ini 파일: 재생한 파일마다 ini 파일을 사용합니다. 이 ini 파일들은 %1 폴더에 저장됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="860"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 SMPlayer는 파일의 마지막 위치를 기억해서 열어줍니다. 이 옵션은 일반적인 파일에서만 동작합니다. (DVD나 CD, 주소 등에는 적용되지 않습니다)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="939"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>체크하면 직접 렌더링하는 방식을 사용합니다. (모든 코덱과 비디오 출력이 지원되지 않습니다)&lt;br&gt;경고: OSD/자막이 깨질 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1018"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 채널의 숫자가 필요합니다. MPlayer는 디코더가 지정한 대로 가능한 많은 채널로 오디오를 디코딩하도록 요청합니다. 그 요구사항을 충족시킬지는 디코더에게 달려 있습니다. 이것은 보통은 AC3 오디오 (DVD 같은) 가 있는 동영상 재생시에만 의미가 있습니다. 이 경우 liba52은 기본적으로 디코딩을 한 후에 요구한 채널 숫자대로 오디오를 바르게 다운믹스합니다. 참고: 이 옵션은 코덱 (AC3만), 필터 (서라운드) 와 오디오 출력 드라이버 (최소한 OSS) 에서 통용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="873"/>
         <source>Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="874"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션으로 스크린샷을 활성화/비활성화 할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="878"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 SMPlayer가 찍은 스크린샷을 저장할 폴더를 지정할 수 있습니다. 지정한 폴더가 없으면 스크린샷 기능은 동작하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
         <source>&amp;MPlayer executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 실행 파일:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷 사용하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
         <source>Global volume</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 볼륨</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1033"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 재생하는 모든 파일에 동일한 볼륨을 사용합니다. 이 옵션을 사용하지 않으면, 각 파일은 자신의 볼륨을 사용합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 음소거시에도 동일하게 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="755"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 볼륨</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
         <source>Switch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 보호기 끄기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="968"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 재생을 시작하기 전에 화면 보호기를 끄고 재생이 끝났을 때 다시 켭니다. 이 옵션을 사용하면, 오디오 파일 재생시나 일지 중지 상태에서도 화면 보호기가 나타나지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>Avoid screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 보호기 막기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="974"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 체크하면 SMPlayer는 동영상 재생시에 화면 보호기가 실행되지 않도록 합니다. 화면 보호기는 오디오 파일 재생시나 일시 중지 모드에서만 실행됩니다. 이 옵션은 SMPlayer 창이 활성화된 경우에만 동작합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="524"/>
         <source>Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 보호기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="530"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 보호기 끄기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="537"/>
         <source>Avoid &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 보호기 막기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Audio/video auto synchronization</source>
-        <translation type="unfinished">오디오와 영상 자동으로 동기화</translation>
+        <translation>오디오/비디오 자동 동기화</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished">오디오 지연 측정값을 기반으로 오디오와 영상 동기화를 단계적으로 조정합니다.</translation>
+        <translation>오디오 지연 측정값을 기반으로 오디오/비디오 동기화를 단계적으로 조정합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
         <source>A-V sync correction</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오-비디오 동기화 보정</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation type="unfinished"></translation>
+        <translation>프레임당 최대 오디오-비디오 보정 (몇 초 이내)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="840"/>
         <source>Synchronization</source>
-        <translation type="unfinished">동기화</translation>
+        <translation>동기화</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="860"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오/비디오 자동 동기화</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="886"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>증감량:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="922"/>
         <source>A-V sync &amp;correction</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오-비디오 동기화 보정</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="945"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>최대 보정:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="926"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>참고: 이 옵션은 TV 채널에서는 사용되지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="371"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 디인터레이스 (TV제외):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1013"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>하드웨어 AC3 패스쓰루를 사용합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1014"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>참고: 이 옵션을 사용하면 어떤 오디오 필터도 사용할 수 없습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="341"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>snap 모드</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="342"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>slower dive 모드</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="397"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>uniaud 모드</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>dart 모드</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="994"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 을 추천합니다. %2 는 예전의 MPlayer (%3 이전 버전) 에서만 사용할 수 있습니다</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="257"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>설정하기...</translation>
     </message>
 </context>
 <context>
@@ -6022,7 +5969,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="32"/>
         <source>&amp;Keyboard</source>
-        <translation>키보드(&amp;K)</translation>
+        <translation>키보드</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="70"/>
@@ -6033,7 +5980,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="112"/>
         <source>&amp;Mouse</source>
-        <translation>마우스(&amp;M)</translation>
+        <translation>마우스</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="136"/>
@@ -6044,13 +5991,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="143"/>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Media seeking</source>
-        <translation>미디어 지점 이동</translation>
+        <translation>미디어 탐색하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="144"/>
         <location filename="../prefinput.cpp" line="345"/>
         <source>Volume control</source>
-        <translation>음량 조절</translation>
+        <translation>볼륨 조절</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
@@ -6076,17 +6023,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="314"/>
         <source>&amp;Left click</source>
-        <translation>왼쪽 클릭(&amp;L)</translation>
+        <translation>왼쪽 클릭</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="172"/>
         <source>&amp;Double click</source>
-        <translation>두 번 클릭(&amp;D)</translation>
+        <translation>두 번 클릭</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="392"/>
         <source>&amp;Wheel function:</source>
-        <translation>휠 기능(&amp;W):</translation>
+        <translation>휠 기능:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="309"/>
@@ -6136,7 +6083,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="56"/>
         <source>Pause</source>
-        <translation>일시 정지</translation>
+        <translation>일시 중지</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
@@ -6151,7 +6098,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="68"/>
         <source>Compact</source>
-        <translation>간결히 보기</translation>
+        <translation>간편 모드</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="69"/>
@@ -6171,7 +6118,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="76"/>
         <source>Reset zoom</source>
-        <translation>배율 초기화</translation>
+        <translation>확대 초기화</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -6181,17 +6128,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Double size</source>
-        <translation>보통/2배 크기 전환</translation>
+        <translation>2배 크기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
-        <translation>재생 / 일시 정지</translation>
+        <translation>재생 / 일시 중지</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
-        <translation>일시 정지 / 프레임 스텝</translation>
+        <translation>일시 중지 / 프레임 스텝</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="75"/>
@@ -6217,261 +6164,261 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="78"/>
         <source>Normal speed</source>
-        <translation type="unfinished"></translation>
+        <translation>보통 속도</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="307"/>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>키보드</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="320"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="328"/>
         <source>Middle click</source>
-        <translation type="unfinished"></translation>
+        <translation>가운데 클릭</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="329"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스의 가운데 클릭시 동작을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="217"/>
         <source>M&amp;iddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>가운데 클릭</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="243"/>
         <source>X Button &amp;1</source>
-        <translation type="unfinished"></translation>
+        <translation>X 버튼 &amp;1</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="269"/>
         <source>X Button &amp;2</source>
-        <translation type="unfinished"></translation>
+        <translation>X 버튼 &amp;2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>뒤로 이동 (짧게)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>뒤로 이동 (중간)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>뒤로 이동 (길게)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>앞으로 이동 (짧게)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>앞으로 이동 (중간)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>앞으로 이동 (길게)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished">OSD - 다음</translation>
+        <translation>OSD - 다음  단계</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>컨텍스트 메뉴 보기</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="450"/>
         <source>&amp;Right click</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽 클릭</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 증가</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 감소</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="331"/>
         <source>X Button 1</source>
-        <translation type="unfinished"></translation>
+        <translation>X 버튼 1</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="332"/>
         <source>Select the action for the X button 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>X 버튼 1의 동작을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="334"/>
         <source>X Button 2</source>
-        <translation type="unfinished"></translation>
+        <translation>X 버튼 2</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="335"/>
         <source>Select the action for the X button 2.</source>
-        <translation type="unfinished"></translation>
+        <translation>X 버튼 2의 동작을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 이퀄라이저 보기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Show audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 이퀄라이저 보기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>Always on top</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 위에</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Never on top</source>
-        <translation type="unfinished"></translation>
+        <translation>항상 위에 끄기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>On top while playing</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 중일때만 항상 위에</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴의 마우스 옵션 활성화하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation type="unfinished"></translation>
+        <translation>메인 DVD 메뉴로 돌아가기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴의 이전 메뉴로 돌아가기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴에서 커서를 위로 이동하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴에서 커서를 아래로 이동하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴에서 커서를 왼쪽으로 이동하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴에서 커서를 오른쪽으로 이동하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 메뉴에서 강조된 옵션을 활성화하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>휠 기능 바꾸기</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="512"/>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>미디어 탐색하기</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="526"/>
         <location filename="../prefinput.cpp" line="150"/>
         <source>&amp;Zoom video</source>
-        <translation type="unfinished"></translation>
+        <translation>영상 확대/축소</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="519"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 조절</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="533"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>속도 조절</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="340"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠 기능</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>탐색을 하나의 기능으로 사용하려면 체크하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 조절을 하나의 기능으로 사용하려면 체크하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="349"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>확대/축소를 하나의 기능으로 사용하려면 체크하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="352"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>재생속도 조절을 하나의 기능으로 사용하려면 체크하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="490"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠 기능</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="502"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;휠 기능 바꾸기&quot; 옵션을 사용시 순차적으로 사용할 동작을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠 탐색 방향 반대로 하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>반대 방향으로 탐색하려면 체크하세요.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="431"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>휠 미디어 탐색 방향 반대로 하기</translation>
     </message>
 </context>
 <context>
@@ -6485,7 +6432,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="148"/>
         <source>&lt;Autodetect&gt;</source>
-        <translation>(자동 감지)</translation>
+        <translation>&lt;자동 감지&gt;</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="199"/>
@@ -6496,12 +6443,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="27"/>
         <source>&amp;Interface</source>
-        <translation>인터페이스(&amp;I)</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="699"/>
-        <source>Seeking</source>
-        <translation type="unfinished">지점 이동</translation>
+        <translation>인터페이스</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="77"/>
@@ -6511,23 +6453,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="82"/>
         <source>Whenever it&apos;s needed</source>
-        <translation>필요할 때</translation>
+        <translation>필요할 때마다</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
         <source>Only after loading a new video</source>
-        <translation>새 동영상을 불러온 후에</translation>
+        <translation>새 동영상을 불러온 후에만</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="759"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>개인정보</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <location filename="../prefinterface.cpp" line="777"/>
         <source>Recent files</source>
-        <translation>최근에 재생한 파일</translation>
+        <translation>최근 파일</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="673"/>
@@ -6540,69 +6482,74 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>프로그램에서 사용하는 언어를 변경할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
-        <source>Instances</source>
-        <translation type="unfinished">인스턴스</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="177"/>
         <source>&amp;Short jump</source>
-        <translation>짧게 건너뛰기(&amp;S)</translation>
+        <translation>짧게 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
         <source>&amp;Medium jump</source>
-        <translation>중간 건너뛰기(&amp;M)</translation>
+        <translation>중간 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="179"/>
         <source>&amp;Long jump</source>
-        <translation>길게 건너뛰기(&amp;L)</translation>
+        <translation>길게 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="180"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation>마우스 휠로 건너뛰기(&amp;W)</translation>
+        <translation>마우스 휠로 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="602"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>SMPlayer에서 인스턴스 한 개만 사용(&amp;U)</translation>
+        <translation>SMPlayer 중복 실행 금지하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="777"/>
         <source>Ma&amp;x. items</source>
-        <translation>최대 항목 수(&amp;X)</translation>
+        <translation>최대 항목 수</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="314"/>
         <source>St&amp;yle:</source>
-        <translation>스타일(&amp;Y):</translation>
+        <translation>스타일:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="218"/>
         <source>Ico&amp;n set:</source>
-        <translation>아이콘 셋(&amp;N):</translation>
+        <translation>아이콘 셋:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="149"/>
         <source>L&amp;anguage:</source>
-        <translation>언어(&amp;A):</translation>
+        <translation>언어:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="33"/>
         <source>Main window</source>
-        <translation>창</translation>
+        <translation>메인 창</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="60"/>
         <source>Auto&amp;resize:</source>
-        <translation>자동 크기 바꾸기(&amp;R):</translation>
+        <translation>자동 크기조절:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="95"/>
         <source>R&amp;emember position and size</source>
-        <translation>창 위치 및 크기 기억(&amp;E)</translation>
+        <translation>창 위치 및 크기 기억하기</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="109"/>
+        <source>&amp;Move the window when the video area is dragged</source>
+        <translation>비디오 영역을 끄는 동안 창 이동하기</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="266"/>
+        <source>S&amp;kin:</source>
+        <translation>스킨:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="373"/>
@@ -6612,432 +6559,432 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="387"/>
         <source>&amp;Change...</source>
-        <translation>변경(&amp;C)...</translation>
+        <translation>변경하기...</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="472"/>
+        <source>&amp;Behaviour of time slider:</source>
+        <translation>타임 슬라이더 동작:</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="489"/>
+        <source>Seek to position while dragging</source>
+        <translation>마우스로 드래깅시 즉시 이동하기</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="494"/>
+        <source>Seek to position when released</source>
+        <translation>마우스 버튼을 놓았을 때 이동하기</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="579"/>
+        <source>Pressi&amp;ng the stop button once resets the time position</source>
+        <translation>일단 정지 버튼을 누르면 재생시간 위치를 초기화하기</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="816"/>
+        <source>URLs</source>
+        <translation>주소</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="828"/>
+        <source>&amp;Max. items</source>
+        <translation>최대 항목 수</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="867"/>
+        <source>&amp;Remember last directory</source>
+        <translation>마지막 폴더 기억하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
         <location filename="../prefinterface.ui" line="595"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="109"/>
-        <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="266"/>
-        <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>텍스트레이블</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="410"/>
         <source>&amp;Seeking</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="472"/>
-        <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="489"/>
-        <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="494"/>
-        <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>탐색하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="529"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>절대적인 방식으로 탐색하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="542"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="579"/>
-        <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>상대적인 방식으로 탐색하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="587"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="816"/>
-        <source>URLs</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="828"/>
-        <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.ui" line="867"/>
-        <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>실행 수</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="659"/>
         <source>Autoresize</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 크기조절</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="660"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"></translation>
+        <translation>메인 창은 자동으로 크기를 조절할 수 있습니다. 원하는 옵션을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="663"/>
         <source>Remember position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>위치와 크기 기억하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 메인 창의 위치와 크기를 기억했다가 SMPlayer를 다시 실행할 때 복구할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="775"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>개인정보</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="778"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"></translation>
+        <translation>열기 -&gt; 최근 파일 하위메뉴에 표시할 아이템의 최대 개수를 선택하세요. 0으로 놓으면 해당 메뉴를 끌 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="684"/>
         <source>Icon set</source>
-        <translation type="unfinished"></translation>
+        <translation>아이콘 셋</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="211"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>스킨을 사용할 수 있는 GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 영역을 끄는 동안 창 이동하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 마우스로 비디오 영역을 끄는 동안에 메인 창이 이동할 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>어플리케이션에 선호하는 GUI를 선택하세요. 현재는 두가지를 사용할 수 있습니다: 기본 GUI와 미니 GUI. 기본 GUI는 툴바와 컨트롤 바가 있는 전통적인 GUI를 제공합니다. 미니 GUI는 툴바가 없고 소수의 버튼만 있는 컨트롤 바의 간단한 GUI를 제공합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>어플리케이션에 선호하는 아이콘 셋을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="688"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>스킨</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>어플리케이션에 선호하는 스킨을 선택하세요. 스킨사용이 가능한 GUI에서만 이용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="692"/>
         <source>Style</source>
-        <translation type="unfinished"></translation>
+        <translation>스타일</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="693"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>어플리케이션에 선호하는 스타일을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="696"/>
         <source>Default font</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 글꼴</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="697"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기서 프로그램 폰트를 바꿀 수 있습니다.</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="699"/>
+        <source>Seeking</source>
+        <translation>탐색하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="701"/>
         <source>Short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>짧게 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="702"/>
         <location filename="../prefinterface.cpp" line="706"/>
         <location filename="../prefinterface.cpp" line="710"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 동작을 선택했을 때 앞뒤로 이동할 시간을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="703"/>
         <source>short jump</source>
-        <translation type="unfinished"></translation>
+        <translation>짧게 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="705"/>
         <source>Medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>중간 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="707"/>
         <source>medium jump</source>
-        <translation type="unfinished"></translation>
+        <translation>중간 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="709"/>
         <source>Long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>길게 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="711"/>
         <source>long jump</source>
-        <translation type="unfinished"></translation>
+        <translation>길게 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="713"/>
         <source>Mouse wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠로 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="714"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>마우스 휠을 이용해서 앞뒤로 이동할 시간을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="717"/>
         <source>Behaviour of time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>타임 슬라이더 동작</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="718"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation type="unfinished"></translation>
+        <translation>타임 슬라이더를 드래깅할 때의 동작을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>일단 정지 버튼을 누르면 재생시간 위치를 초기화하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 정지 버튼을 누르면 재생시간 위치를 기억해서, 다시 재생 버튼을 눌렀을 때 기억한 위치에서 재생을 시작합니다. 재생시간 위치를 초기화하려면 정지 버튼을 두번 눌러야 하는데 이 옵션이 체크되어 있으면 정지 버튼을 한번만 눌러도 재생시간 위치가 0으로 초기화 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>최대 주소</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="783"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;열기 -&gt; 주소&quot; 대화상자에서 기억할 최대 항목 개수를 선택하세요. 0으로 놓으면 어떤 주소도 저장하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="787"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>마지막 폴더 기억하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="788"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 SMPlayer는 파일을 열었던 마지막 폴더를 기억할 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="517"/>
         <location filename="../prefinterface.cpp" line="721"/>
         <source>Seeking method</source>
-        <translation type="unfinished"></translation>
+        <translation>탐색 방법</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="722"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>슬라이더(탐색바)에서 탐색할 때 사용할 방법을 선택하세요. 절대적인 방식의 탐색은 조금 더 정확합니다. 반면에 상대적인 방식의 탐색은 현재 위치를 기준으로 삼아 위치를 이동하기 때문에, 전체시간이 잘못된 파일에서 더 잘 동작합니다.</translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="740"/>
+        <source>Instances</source>
+        <translation>중복 실행</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer를 한 개만 실행합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="744"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상 재생시 SMPlayer를 중복 실행하지 않고 하나만 사용하려면 이 옵션을 사용하세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Default GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>미니 GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="676"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="185"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>전체화면 컨트롤 바</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>애니메이션</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 전체화면 컨트롤 바가 나타날 때 애니메이션을 사용합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>너비</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="755"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>컨트롤의 가로 길이를 지정합니다. (백분율로)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="757"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>여백</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 전체화면의 컨트롤 바가 화면 하단에서 얼마큼 떨어져 있을지를 픽셀단위로 지정합니다. 출력화면이 TV인 경우, 오버스캔 때문에 하단의 컨트롤이 보이지 않을 경우에 유용합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>간편 모드에서도 보여줍니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="769"/>
         <source>Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>창 관리자를 우회합니다</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 컨트롤이 창 관리자를 우회하여 표시됩니다. 전체화면의 컨트롤 바가 창 관리자와 잘 동작하지 않으면 이 옵션을 끄세요.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>전체화면 컨트롤 바</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="644"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>전체화면에서 마우스를 화면 하단으로 이동할 때 컨트롤 바가 나타납니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="654"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"></translation>
+        <translation>전체화면 컨트롤 바 애니메이션하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="663"/>
         <source>&amp;Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>너비:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="689"/>
         <location filename="../prefinterface.ui" line="722"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="696"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>여백:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="731"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>간편 모드에서도 보여줍니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="738"/>
         <source>&amp;Bypass window manager</source>
-        <translation type="unfinished"></translation>
+        <translation>창 관리자를 우회합니다</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 전체화면 컨트롤 바가 간편 모드에서도 나타납니다. 경고: 전체화면 컨트롤 바는 간편 모드용으로 디자인한 것이 아니라서 잘 동작하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="209"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>MPC GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 파일 재생시에는 비디오 창 끄기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="668"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 오디오 파일 재생시 비디오 창을 숨겨서 보이지 않게 합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 파일 재생시에는 비디오 창 끄기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="727"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>정확하게 탐색하기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="728"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 더 정확하게 탐색할 수 있습니다. 그러나 탐색 속도는 조금 느려질 수 있습니다. 몇몇 비디오 형식에서는 동작하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="730"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>참고: 이 옵션은 MPlayer2 에서만 동작합니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="565"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>정확하게 탐색하기</translation>
     </message>
 </context>
 <context>
@@ -7051,7 +6998,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="35"/>
         <source>&amp;Performance</source>
-        <translation>성능(&amp;P)</translation>
+        <translation>성능</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="41"/>
@@ -7062,7 +7009,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="62"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation>MPlayer 프로세스에 대한 우선 순위를 선택하십시요.</translation>
+        <translation>MPlayer 프로세스의 우선 순위를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="103"/>
@@ -7095,11 +7042,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>매우 낮음</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="338"/>
-        <source>Cache</source>
-        <translation type="unfinished">캐시</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.ui" line="423"/>
         <location filename="../prefperformance.ui" line="460"/>
         <location filename="../prefperformance.ui" line="497"/>
@@ -7112,12 +7054,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="396"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>캐시를 설정하면 느린 미디어에서 성능 향상을 기대할 수 있습니다</translation>
+        <translation>캐쉬를 설정하면 느린 미디어에서 성능 향상을 기대할 수 있습니다</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Allow frame drop</source>
-        <translation>프레임 드롭 허용</translation>
+        <translation>프레임 드롭 허용하기</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
@@ -7127,7 +7069,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>Allow hard frame drop</source>
-        <translation>강제 프레임 드롭 허용</translation>
+        <translation>강제 프레임 드롭 허용하기</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
@@ -7137,47 +7079,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="89"/>
         <source>Priorit&amp;y:</source>
-        <translation>우선 순위(&amp;Y):</translation>
+        <translation>우선 순위:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="157"/>
         <source>&amp;Allow frame drop</source>
-        <translation>프레임 드롭 허용(&amp;A)</translation>
+        <translation>프레임 드롭 허용하기</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="164"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>강제 프레임 드롭 허용(&amp;H) - 이미지 왜곡 가능성 있음</translation>
+        <translation>강제 프레임 드롭 허용하기 (이미지가 왜곡될 수 있습니다)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="304"/>
         <source>&amp;Fast audio track switching</source>
-        <translation>빠른 오디오 트랙 변경(&amp;F)</translation>
+        <translation>빠른 오디오 트랙 변경하기</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="332"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>빠른 DVD 장 찾기(&amp;S)</translation>
+        <translation>DVD에서 빠른 챕터 찾기</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Fast audio track switching</source>
-        <translation>빠른 오디오 트랙 변경</translation>
+        <translation>오디오 트랙 빠르게 변경하기</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>빠른 DVD 장 찾기</translation>
+        <translation>DVD에서 빠른 챕터 찾기</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>만약 선택되면, 장을 이동하는 가장 빠른 방법을 시도하지만, 일부 디스크에서는 작동하지 않을 수 있습니다.</translation>
+        <translation>만약 선택되면, 챕터를 이동하는 가장 빠른 방법을 시도하지만, 일부 디스크에서는 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
         <source>Skip loop filter</source>
-        <translation>반복 필터 무시</translation>
+        <translation>루프 필터 건너뛰기</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="226"/>
@@ -7190,184 +7132,189 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>사용할 수 있는 값:&lt;br&gt; &lt;b&gt;예&lt;/b&gt;: 오디오 트랙을 변경하는 가장 빠른 방법을 사용합니다 (일부 형식에서는 지원되지 않습니다).&lt;br&gt; &lt;b&gt;아니요&lt;/b&gt;: MPlayer 프로세스를 오디오 트랙이 바뀔 때마다 다시 시작합니다.&lt;br&gt; &lt;b&gt;자동&lt;/b&gt;: SMPlayer가 MPlayer의 버전에 따라 자동으로 결정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="89"/>
-        <source>Enabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="90"/>
-        <source>Skip (always)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="91"/>
-        <source>Skip only on HD videos</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="299"/>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="303"/>
-        <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="310"/>
-        <source>Possible values:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="311"/>
-        <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="312"/>
-        <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="314"/>
-        <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for files</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 파일을 미리 캐쉬할 때 얼마나 많은 메모리를 사용할 것인지를 정합니다. (kBytes)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>스트림 캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 주소를 미리 캐쉬할 때 얼마나 많은 메모리를 사용할 것인지를 정합니다. (kBytes)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="348"/>
         <source>Cache for DVDs</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="349"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="249"/>
-        <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 DVD를 미리 캐쉬할 때 얼마나 많은 메모리를 이용할 것인지를 정합니다. (kBytes)&lt;br&gt;경고: DVD에 캐쉬를 사용하면 탐색(챕터 전환 포함)이 잘 되지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="390"/>
         <source>&amp;Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="480"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 캐쉬:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="406"/>
         <source>Cache for &amp;local files:</source>
-        <translation type="unfinished"></translation>
+        <translation>로컬 파일 캐쉬:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="443"/>
         <source>Cache for &amp;streams:</source>
-        <translation type="unfinished"></translation>
+        <translation>스트림 캐쉬:</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="89"/>
+        <source>Enabled</source>
+        <translation>사용하기</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="90"/>
+        <source>Skip (always)</source>
+        <translation>건너뛰기 (항상)</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="91"/>
+        <source>Skip only on HD videos</source>
+        <translation>HD 비디오에서만 건너뛰기</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="249"/>
+        <source>Loop &amp;filter</source>
+        <translation>루프 필터</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="299"/>
+        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
+        <translation>다른 코덱을 지정하지 않고 VDPAU 비디오 출력이 아닐 때 상용 코덱인 CoreAVC를 사용합니다. CoreAVC를 지원하는 MPlayer가 필요합니다.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="303"/>
+        <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
+        <translation>이 옵션은 H.264 디코딩시 루프 필터 (깍두기를 제거하는 디블럭킹이라고 알려진) 를 건너뛰게 합니다. 필터된 프레임은 디코딩에 의존적인 프레임에 레퍼런스로 사용하기로 되어 있기 때문에 이 옵션은 MPEG-2 비디오에서 디블럭킹을 하지 않는 것보다 더 품질이 저하됩니다. 그러나 적어도 고비트레이트 HDTV에서 이 옵션은 눈에 띄는 품질 저하 없이 디코딩 성능을 향상시켜 줍니다.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="310"/>
+        <source>Possible values:</source>
+        <translation>가능한 값:</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="311"/>
+        <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
+        <translation>사용함: 루프 필터를 건너뛰지 않습니다</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="312"/>
+        <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
+        <translation>건너뛰기 (항상): 비디오의 해상도에 관계없이 루프 필터를 건너뜁니다</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="314"/>
+        <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
+        <translation>HD 비디오에서만 건너뛰기: 비디오의 세로크기가 %1 이상인 경우만 루프 필터를 건너뜁니다.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="338"/>
+        <source>Cache</source>
+        <translation>캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 CD 캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 오디오 CD를 미리 캐쉬할 때 얼마나 많은 메모리를 사용할지를 정합니다. (kBytes)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="517"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 CD 캐쉬:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="357"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 CD 캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="358"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 비디오 CD를 미리 읽을 때 얼마나 많은 메모리를 사용할 것인지를 정합니다. (kBytes)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="554"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 CD 캐쉬:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>디코딩 쓰레드</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="295"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>디코딩시 사용할 쓰레드 개수를 정하세요. MPEG-1/2와 H.264에서만 동작합니다.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="188"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>디코딩 쓰레드 (MPEG-1/2와 H.264만):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>윈도우에서 사용 가능한 MPlayer 프로세스 우선순위를 정합니다. 경고: 실시간 우선순위를 사용하면 시스템 응답이 없는 상태가 될 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="298"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 코덱을 지정하지 않으면 CoreAVC 사용하기</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="277"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 코덱을 지정하지 않으면 CoreAVC 사용하기</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="591"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 캐쉬</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 품질</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>선호하는 유투브 동영상 품질을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 품질</translation>
     </message>
 </context>
 <context>
@@ -7375,102 +7322,102 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="36"/>
         <source>Playlist</source>
-        <translation type="unfinished">재생 목록</translation>
+        <translation>재생 목록</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="111"/>
         <source>Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>자동으로 파일을 재생 목록에 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="112"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 파일을 열 때마다 SMPlayer가 재생목록을 초기화하고 그 파일을 재생목록에 추가합니다. DVD, CD 와 VCD인 경우 디스크의 모든 타이틀이 재생목록에 추가가 될 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="117"/>
         <source>Add consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>비슷한 파일명 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="118"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 SMPlayer가 파일을 열 때 비슷한 이름의 파일을 발견시 (video_1.avi, video_2...) 재생목록에 자동으로 추가해 줍니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>처음부터 파일 재생하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 재생목록의 모든 파일은 이전 재생 지점이 아니라 처음부터 재생을 시작할 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>추가한 파일의 정보를 자동으로 가져오기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>종료시 재생 목록의 사본 저장하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 SMPlayer를 닫을 때 재생 목록의 사본이 SMPlayer 설정에 저장이 되고, SMPlayer를 재실행시에 자동으로 불러올 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">재생 목록(&amp;P)</translation>
+        <translation>재생 목록</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>자동으로 파일을 재생 목록에 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="72"/>
         <source>Add &amp;consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>비슷한 파일명 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>하위 폴더의 파일 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>하위 폴더의 파일도 재생목록에 추가하려면 이 옵션을 사용하세요. 그렇지 않으면 선택한 폴더의 파일만 추가될 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>파일을 재생목록에 추가할 때 몇가지 정보(태그)를 가져오려면 이 옵션에 체크하세요. 제목(이 있으면)과 파일의 재생시간을 표시해 줍니다. 이 옵션 미사용시 이런 정보는 파일을 실제로 재생하기 전에는 알 수 없습니다. 주의: 많은 파일을 재생목록에 추가할 때 매우 느려질 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>처음부터 파일 재생하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>하위 폴더의 파일 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>추가한 파일의 정보를 자동으로 가져오기 (느림)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>종료시 재생 목록의 사본 저장하기</translation>
     </message>
 </context>
 <context>
@@ -7484,7 +7431,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="94"/>
         <source>Choose a ttf file</source>
-        <translation>TTF 파일을 선택하십시요</translation>
+        <translation>TTF 파일을 선택하세요</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="95"/>
@@ -7494,7 +7441,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="35"/>
         <source>&amp;Subtitles</source>
-        <translation>자막(&amp;S)</translation>
+        <translation>자막</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
@@ -7505,7 +7452,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="89"/>
         <source>Same name as movie</source>
-        <translation>동영상과 같은 이름</translation>
+        <translation>동영상과 같은 이름으로</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="94"/>
@@ -7530,12 +7477,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="665"/>
         <source>Top</source>
-        <translation>위</translation>
+        <translation> 상단</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Bottom</source>
-        <translation>아래</translation>
+        <translation>하단</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="344"/>
@@ -7548,7 +7495,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="388"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation>자막과 OSD에서 사용될 글꼴을 선택하십시요:</translation>
+        <translation>자막과 OSD에서 사용할 글꼴을 선택하세요:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
@@ -7559,22 +7506,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="483"/>
         <source>No autoscale</source>
-        <translation>본래 크기 유지</translation>
+        <translation>자동크기조절하지 않음</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="488"/>
         <source>Proportional to movie height</source>
-        <translation>영상 세로 길이에 어울림</translation>
+        <translation>영화 세로 길이에 맞춰서</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="493"/>
         <source>Proportional to movie width</source>
-        <translation>영상 가로 길이에 어울림</translation>
+        <translation>영화 가로 길이에 맞춰서</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="498"/>
         <source>Proportional to movie diagonal</source>
-        <translation>영상 대각선 길이에 어울림</translation>
+        <translation>영화 대각선 길이에 맞춰서</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
@@ -7584,32 +7531,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation>이 옵션은 영상 창에서 자막의 위치를 결정합니다. 가장 아래는 &lt;i&gt;100&lt;/i&gt;이며, 가장 위는 &lt;i&gt;0&lt;/i&gt;을 사용하여 지정합니다.</translation>
+        <translation>이 옵션은 비디오 창에서 자막의 위치를 결정합니다. 가장 아래는 &lt;i&gt;100&lt;/i&gt;이며, 가장 위는 &lt;i&gt;0&lt;/i&gt;입니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="68"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation>자막 파일(*.srt, *.sub...) 자동으로 불러오기(&amp;T):</translation>
+        <translation>자막 파일(*.srt, *.sub...) 자동으로 불러오기:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="81"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation>사용 가능한 첫 자막 파일 선택(&amp;E)</translation>
+        <translation>사용 가능한 첫번째 자막 선택하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="149"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation>기본 자막 인코딩(&amp;D):</translation>
+        <translation>기본 자막 인코딩:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="581"/>
         <source>Default &amp;position of the subtitles on screen</source>
-        <translation>자막의 기본 위치(&amp;P)</translation>
+        <translation>화면에서 자막의 기본 위치</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="236"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>스크린샷에 자막 포함(&amp;I)</translation>
+        <translation>스크린샷에 자막 포함하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="418"/>
@@ -7619,531 +7566,531 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="398"/>
         <source>S&amp;ystem font:</source>
-        <translation>시스템 글꼴(&amp;Y):</translation>
+        <translation>시스템 글꼴:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="469"/>
         <source>A&amp;utoscale:</source>
-        <translation>크기 맞춤(&amp;U):</translation>
+        <translation>자동크기조절:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="416"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 첫번째 자막 선택하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Default subtitle encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 자막 인코딩</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷에 자막 포함하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>TTF font</source>
-        <translation type="unfinished"></translation>
+        <translation>TTF 글꼴</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>System font</source>
-        <translation type="unfinished"></translation>
+        <translation>시스템 글꼴</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Autoscale</source>
-        <translation type="unfinished"></translation>
+        <translation>자동 크기 조절</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>본문 색상</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="523"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>자막의 본문 색상을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리 색상</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="526"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>자막의 테두리 색상을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"></translation>
+        <translation>자막을 자동으로 불러올 방법을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>하나 이상의 자막 트랙이 존재하는 경우, 그 중 하나가 자동으로 선택됩니다. 비록 자막 트랙 중 하나가 사용자의 선호하는 언어와 일치한다고 해도, 사용 가능한 첫번째 자막을 대신 사용할 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation type="unfinished"></translation>
+        <translation>자막을 자동으로 크기조절할 방법을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 파일에 기본적으로 사용할 인코딩을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>이 언어는 자동으로 감지하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시, 설정 언어의 자막 인코딩은 자동감지를 시도할 것입니다. 자동감지에 실패하면 기본 인코딩을 사용합니다. 이 옵션은 ENCA가 지원되는 MPlayer가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 언어</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="434"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>인코딩을 자동으로 감지하고 싶은 언어를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="126"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>인코딩</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="198"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>이 언어는 자동으로 감지하기:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>여기서 자막에 사용할 TTF 글꼴을 선택할 수 있습니다. 대게의 경우 %1 에서 많은 TTF 글꼴을 찾을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="552"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>외곽선</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 글꼴을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기서 자막과 OSD 용 시스템 글꼴을 선택할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>픽셀 단위의 크기.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>굵게</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="517"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>체크하면 본문이 &lt;b&gt;굵게&lt;/b&gt; 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>이탤릭</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>체크하면 본문이 &lt;i&gt;이탤릭&lt;/i&gt; 으로 표시됩니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="531"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽 여백</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽 여백을 픽셀로 지정하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="534"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽 여백</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="535"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽 여백을 픽셀로 지정하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="537"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 여백</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="538"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 여백을 픽셀로 지정하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="540"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>가로 정렬</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="541"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>가로 정렬 방식을 지정하세요. 가능한 값은 왼쪽, 가운데, 오른쪽입니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="544"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 정렬</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="545"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 정렬을 지정하세요. 가능한 값은 하단, 중앙, 상단입니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리 스타일</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="549"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리 스타일을 지정하세요. 가능한 값은 외곽선과 불투명 박스입니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="831"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>크기:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="873"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>굵게</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="880"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>이탤릭</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="892"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="910"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>본문:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="936"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="988"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>여백</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1006"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1022"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1038"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>세로:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1070"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>정렬</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>가로:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1104"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>세로:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1125"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리 스타일:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1151"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>외곽선:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1171"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 옵션은 스타일이 없는 자막 (srt, sub...) 에 사용할 스타일을 정의합니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="100"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="101"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>가운데</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="102"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">아래</translation>
+        <translation>하단</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>중앙</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">위</translation>
+        <translation>상단</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>외곽선</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>불투명 박스</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="553"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리 스타일이 외곽선이면, 이 옵션은 본문 주위의 외곽선의 너비를 픽셀로 지정합니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="557"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>테두리 스타일이 외곽선이면 이 옵션은 본문 뒤의 그림자 깊이를 픽셀로 지정합니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="450"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 자막 사용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="451"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>일반/전통적인 자막을 선택하려면 이 버튼을 클릭하세요. 이 종류의 자막은 흰색 자막으로만 표시할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Enable SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 자막 사용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
         <source>Normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 자막</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 현재 동영상에서 자막의 크기를 변경하지 않습니다. 크기를 조정하려면 자막 메뉴의 &quot;크게+ 와 작게-&quot; 옵션을 사용하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 크기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 일반 자막의 기본 글꼴 크기를 정합니다. 파일을 새로 열어야 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>SSA/ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 자막</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 SSA/ASS 자막의 기본 글꼴 크기를 지정합니다. 파일을 새로 열어야 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>줄간격</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>이것은 한 줄 이상의 자막에서 자막의 줄간격을 조정하는 옵션입니다. 음수값을 사용할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="280"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"></translation>
+        <translation>글꼴과 색상</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="286"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>일반 자막 사용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="299"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 자막 사용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="544"/>
         <source>Default s&amp;cale:</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 크기:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="725"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 크기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="764"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>줄간격:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>새로운 SSA/ASS 라이브러리를 사용하려면 이 버튼을 클릭하세요. 이것은 자막에 복수의 색상과 글꼴 등을 표시할 수 있도록 해 줍니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freetype 지원</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>일반적으로 이 옵션을 꺼서는 안 됩니다. 여러분이 사용중인 MPlayer가 freetype을 지원하지 않는다면 꺼도 됩니다. &lt;b&gt;이 옵션을 끄면 자막이 제대로 표시가 안 될 것입니다!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>Freetype 지원</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 스크린샷에 자막이 나타나게 됩니다. 참고: 간혹 문제가 생길 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 스타일 사용자 정의하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에서 직접 정의한 SSA/ASS 스타일을 입력할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의 스타일을 끄려면 편집라인을 비우세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="506"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>SSA/ASS 스타일</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자 색상</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="529"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 색상은 자막의 그림자에 사용이 됩니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>그림자:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>사용자 정의...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="560"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>스타일을 ASS 파일에도 적용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="561"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 위에서 정의한 스타일이 ASS 자막에도 적용됩니다.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1211"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>스타일을 ASS 파일에도 적용하기</translation>
     </message>
 </context>
 <context>
@@ -8151,72 +8098,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 및 라디오</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished">없음</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (일반)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (더블 프레임레이트)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Linear Blend (선형 혼합)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>TV용 기본 디인터레이스</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 채널에 사용할 디인터레이스 필터를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>시작시 ~/.mplayer/channels.conf 를 다시 읽기</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>TV 및 라디오</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>TV용 기본 디인터레이스</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 SMPlayer는 새로운 TV와 라디오 채널을 ~/.mplayer/channels.conf.ter 나 ~/.mplayer/channels.conf 에서 검색할 것입니다.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>시작시 새로운 채널 검색하기</translation>
     </message>
 </context>
 <context>
@@ -8224,57 +8171,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 검사</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>검사 간격 (일 단위)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>업그레이드 후 첫걸음 가이드 열기</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 검사</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용시 SMPlayer는 업데이트를 검사하고 새 버전이 나왔을 때 알림을 표시해 줄 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>검사 간격</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 업데이트 검사 간격을 하루 단위로 입력할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>업그레이드 후 첫걸음 가이드 열기</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시, 업그레이드 후에 SMPlayer 정보와 사용팁에 대한 첫걸음 가이드가 제공될 것입니다.</translation>
     </message>
 </context>
 <context>
@@ -8326,7 +8273,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../smplayer.cpp" line="463"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>SMPlayer 버전 %1 - %2에서 실행 중</translation>
+        <translation>SMPlayer 버전 %1 - %2 에서 실행 중입니다</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="132"/>
@@ -8372,129 +8319,123 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>기본 GUI 대신 소형 GUI를 사용합니다.</translation>
+        <translation>기본 GUI 대신 미니 GUI를 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="93"/>
-        <source>directory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="94"/>
-        <source>action_name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="95"/>
-        <source>action_list</source>
-        <translation type="unfinished"></translation>
+        <location filename="../clhelp.cpp" line="111"/>
+        <source>Restores the old associations and cleans up the registry.</source>
+        <translation>이전 확장자 연결을 복원하고 레지스트리를 삭제합니다.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
         <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>사용법:</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
-        <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../clhelp.cpp" line="93"/>
+        <source>directory</source>
+        <translation>폴더</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="94"/>
+        <source>action_name</source>
+        <translation>동작_이름</translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="95"/>
+        <source>action_list</source>
+        <translation>동작_목록</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 GUI 열기.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>자막_파일</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="159"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>첫번째 동영상에서 불러올 자막 파일을 지정합니다.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>%n 초</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
+        <translation><numerusform>%n 분</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
         <source>%1 and %2</source>
-        <translation type="unfinished">%1, %2</translation>
+        <translation>%1 과 %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>smplayer가 그 설정 파일(smplayer.ini, smplayer_files.ini 등)을 저장할 디렉터리를 지정합니다</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="158"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>비활성화</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="168"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>자동 </translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="169"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>알 수 없음 </translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>mpc gui를 엽니다 </translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>가로</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>세로 </translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>스킨을 지원하는 GUI 열기</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>주된 창이 나타날 좌표를 지정합니다 </translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="165"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>주된 창의 크기를 지정합니다 </translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;미디어&apos;는 SMPlayer가 열수 있는 종류의 파일입니다. 로컬 파일이나 DVD (예: dvd://1), 인터넷 스트림 (예: mms://...) 이나 m3u, pls의 로컬 재생목록이 될 수 있습니다.</translation>
     </message>
 </context>
 <context>
@@ -8515,7 +8456,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
         <source>Modify shortcut</source>
-        <translation>단축키 변경</translation>
+        <translation>단축키 변경하기</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="291"/>
@@ -8525,7 +8466,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="276"/>
         <source>Press the key combination you want to assign</source>
-        <translation>배정하고 싶은 키 조합을 누르십시요</translation>
+        <translation>배정하고 싶은 키 조합을 누르세요</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="293"/>
@@ -8543,47 +8484,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="392"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">도구 모음(&amp;T)</translation>
+        <translation>도구막대(&amp;T)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished"></translation>
+        <translation>상태바</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">기본 도구 모음(&amp;M)</translation>
+        <translation>주 도구 막대(&amp;M)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>메인 툴바 편집하기</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>전체화면 컨트롤 바 편집하기</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상 정보</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Playing %1</source>
-        <translation type="unfinished">%1 재생 중</translation>
+        <translation>%1 재생 중</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Pause</source>
-        <translation type="unfinished">일시 정지</translation>
+        <translation>일시 중지</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="423"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>정지</translation>
     </message>
 </context>
 <context>
@@ -8591,22 +8532,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 선택</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 압축파일은 하나 이상의 자막 파일을 포함하고 있습니다. 압축을 해제할 자막을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished">모두 선택</translation>
+        <translation>모두 선택</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished">모두 선택 해제</translation>
+        <translation>모두 선택 해제</translation>
     </message>
 </context>
 <context>
@@ -8614,12 +8555,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>채널 편집기</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="95"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>TV/라디오 목록</translation>
     </message>
 </context>
 <context>
@@ -8627,7 +8568,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>이동하기:</translation>
     </message>
 </context>
 <context>
@@ -8635,73 +8576,73 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>툴바 편집기</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>사용할 수 있는 동작:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>왼쪽</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>오른쪽</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">아래로(&amp;D)</translation>
+        <translation>아래</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">위로(&amp;U)</translation>
+        <translation>위</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>현재 동작:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>분리자 추가</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(분리자)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>타임 슬라이더</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>볼륨 슬라이더</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>표시 시간</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>세가지 뒤로 감기를 하나로</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>세가지 빨리 감기를 하나로</translation>
     </message>
 </context>
 <context>
@@ -8727,81 +8668,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>VDPAU 속성</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용할 vdpau 코덱을 선택하세요. 전부 동작하지는 않습니다.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">대비</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">밝기</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">색조</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">채도</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">감마</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">초기화(&amp;R)</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">기본값으로 설정하기(&amp;S)</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">다른 영상에서도 현재 설정값을 기본으로 지정합니다.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">모두 0으로 설정합니다.</translation>
+        <translation>소프트웨어 비디오 필터 끄기</translation>
     </message>
 </context>
 <context>
@@ -8809,12 +8711,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 이퀄라이저</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>대비</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="66"/>
@@ -8823,52 +8725,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="228"/>
         <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>밝기</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>색상</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>채도</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>감마</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>소프트웨어 이퀄라이저</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>기본값으로 설정하기</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">초기화(&amp;R)</translation>
+        <translation>초기화</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">다른 영상에서도 현재 설정값을 기본으로 지정합니다.</translation>
+        <translation>새 동영상에서도 현재 설정값을 기본으로 사용합니다.</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">모두 0으로 설정합니다.</translation>
+        <translation>모두 0으로 설정합니다.</translation>
     </message>
 </context>
 <context>
@@ -8877,148 +8779,148 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 미리보기 </translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="135"/>
         <source>Cancel</source>
-        <translation type="unfinished">취소</translation>
+        <translation>취소</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer가 생성함</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>썸네일 만드는 중...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="379"/>
         <source>Size: %1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>크기: %1 MB</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>Length: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>시간: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>파일 저장</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
-        <translation type="unfinished">파일 저장 오류</translation>
+        <translation>파일 저장 오류</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">파일 저장에 실패하였습니다</translation>
+        <translation>파일 저장에 실패했습니다</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="182"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>썸네일 생성 중 다음 오류가 발생했습니다:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation type="unfinished"></translation>
+        <translation>임시 폴더 (%1) 를 만들 수 없습니다</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="304"/>
         <source>The mplayer process didn&apos;t run</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 프로세서가 실행되지 않았습니다</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>해상도: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="384"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 형식: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>Frames per second: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>초당 프레임: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="386"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 비율: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="322"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 파일을 불러올 수 없습니다</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="421"/>
         <source>No filename</source>
-        <translation type="unfinished"></translation>
+        <translation>파일명 없음</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상 정보를 가져오는 동안 MPlayer 프로세스를 시작하지 못했습니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="200"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상의 재생시간이 0 입니다</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="244"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>존재하지 않는 파일: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>이미지</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="368"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation>정보 없음</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="371"/>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
-        <translation type="unfinished">%1 kbps</translation>
+        <translation>%1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 비트레이트: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="390"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 비트레이트: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="391"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 레이트: %1</translation>
     </message>
 </context>
 <context>
@@ -9026,113 +8928,113 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished">기본</translation>
+        <translation>기본</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
         <source>Video Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 미리보기 </translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="21"/>
         <source>&amp;File:</source>
-        <translation type="unfinished"></translation>
+        <translation>파일:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="55"/>
         <source>&amp;Columns:</source>
-        <translation type="unfinished"></translation>
+        <translation>세로줄:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="91"/>
         <source>&amp;Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>가로줄:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
         <source>&amp;Aspect ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>화면 비율: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>
         <source>&amp;Maximum width:</source>
-        <translation type="unfinished"></translation>
+        <translation>최대 길이:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에서 설정한대로 동영상 미리보기가 생성될 것입니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>썸네일이 테이블에 배열이 될 것입니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 테이블의 세로줄의 개수를 지정합니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 테이블의 가로줄의 개수를 지정합니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 재생 시간이 각 썸네일의 하단에 표시가 될 것입니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>동영상의 화면 비율이 틀리면, 여기에 다른 것을 지정할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>보통 첫번째 프레임은 검은색입니다. 그래서 동영상의 첫부분에서 몇 초 정도 건너뛰는 것이 좋은 생각입니다. 이 옵션은 얼마나 많은 초를 건너뛸 것인가를 지정해 줄 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 생성된 미리보기 이미지가 가질 수 있는 최대 너비를 픽셀로 지정합니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>미리보기를 생성하기 위해 몇몇 프레임을 동영상에서 추출할 수 있습니다. 여기에서 추출한 프레임의 이미지 형식을 선택할 수 있습니다. PNG의 품질이 더 좋습니다.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>썸네일에 재생 시간 추가하기</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation>첫 부분에서 건너뛸 초:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>프레임 이미지 형식:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 DVD 장치나 DVD 이미지 폴더를 입력하세요.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>DVD 장치:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="290"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>미리보기 저장을 위해 사용한 폴더를 기억하기</translation>
     </message>
 </context>
 <context>
@@ -9140,17 +9042,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation type="unfinished">재생 목록</translation>
+        <translation>재생 목록</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>전체 화면 on/off</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 이퀄라이저</translation>
     </message>
 </context>
 <context>
@@ -9158,7 +9060,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../widgetactions.cpp" line="182"/>
         <source>Volume</source>
-        <translation>음량</translation>
+        <translation>볼륨</translation>
     </message>
 </context>
 </TS>
