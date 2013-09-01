@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -24,10 +22,6 @@
         <translation>Podpora - fórum:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Tito lidé přispěli překladem do uvedené lokalizace:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation>Španělská</translation>
@@ -35,17 +29,17 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugalština</translation>
+        <translation>Portugalština</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjednodušená Čínská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">Indonéština</translation>
+        <translation>Indonéská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -53,26 +47,18 @@
         <translation>Německá</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovenská</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italská</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Francouzská</translation>
     </message>
     <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Zjednodušená Čínská</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Ruská</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -88,31 +74,27 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mnoho lidí přispělo s překladem.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vy také můžete pomoci přeložit SMPlayer do vašeho jazyka.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Navštivte %1 a připojte se k překladatelskému týmu.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Současní překladatelé týmu na Transifexu:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Japonská</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Holandská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -127,7 +109,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">Norština Nynorsk</translation>
+        <translation>Norština Nynorsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -165,18 +147,6 @@
         <translation>Tradiční Čínská</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Rumunská</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugalská</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Řecká</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
         <translation>Finská</translation>
@@ -187,10 +157,6 @@
         <translation>Hebrejština</translation>
     </message>
     <message>
-        <source>Thai</source>
-        <translation type="obsolete">Thajština</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation>Malajština</translation>
@@ -198,12 +164,12 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabská - Saudská Arábie</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Sinhalština</translation>
+        <translation>Sinhalština</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="209"/>
@@ -218,7 +184,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Strana</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -254,10 +220,6 @@
         <translation>Korejská</translation>
     </message>
     <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Makedonská</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
         <translation>Baskská</translation>
@@ -266,10 +228,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>Using MPlayer %1</source>
         <translation>Používá MPlayer %1</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Katalánská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
@@ -282,17 +240,9 @@
         <translation>Používá Qt %1 (přeloženo s Qt %2)</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovinská</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>Arabská</translation>
-    </message>
-    <message>
-        <source>Kurdish</source>
-        <translation type="obsolete">Kurdská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -308,10 +258,6 @@
         <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
         <translation>Vietnamština</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estonština</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
@@ -2689,11 +2635,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulků</numerusform>
-        </translation>
+        <translation><numerusform>získány %n titulky</numerusform><numerusform>získány %n titulky</numerusform><numerusform>získány %n titulků</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2776,7 +2718,6 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2798,7 +2739,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nelze uložit stažený soubor
@@ -8424,21 +8365,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundu</numerusform>
-            <numerusform>%n sekundy</numerusform>
-            <numerusform>%n sekund</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundu</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekund</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minuty</numerusform>
-            <numerusform>%n minut</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minuty</numerusform><numerusform>%n minut</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>

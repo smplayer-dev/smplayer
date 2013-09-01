@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -24,10 +22,6 @@
         <translation>Форум поддержки:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Следующие люди внесли вклад своими переводами:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation>Испанский</translation>
@@ -35,17 +29,17 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Португальский</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">Индонезийский</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -53,26 +47,18 @@
         <translation>Немецкий</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Словацкий</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Итальянский</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Французский</translation>
     </message>
     <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Упрощённый китайский</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Русский</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -88,31 +74,27 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Японский</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Немецкий</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -127,7 +109,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">Норвежский (Нюношк)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -165,18 +147,6 @@
         <translation>Китайский традиционный</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Румынский</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Португальский (Португалия)</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Греческий</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
         <translation>Финский</translation>
@@ -187,23 +157,19 @@
         <translation>Иврит</translation>
     </message>
     <message>
-        <source>Thai</source>
-        <translation type="obsolete">Тайский</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation type="unfinished">Малайский</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Сингальский</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="209"/>
@@ -218,7 +184,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -254,10 +220,6 @@
         <translation>Корейский</translation>
     </message>
     <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Македонский</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
         <translation>Баскский</translation>
@@ -266,10 +228,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>Using MPlayer %1</source>
         <translation>Используется MPlayer %1</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Каталонский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
@@ -282,17 +240,9 @@
         <translation>Используется Qt %1 (cкомпилировано с Qt %2)</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Словенский</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>Арабский</translation>
-    </message>
-    <message>
-        <source>Kurdish</source>
-        <translation type="obsolete">Курдский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -308,10 +258,6 @@
         <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
         <translation>Вьетнамский</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Эстонский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
@@ -958,7 +904,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1623"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3735"/>
@@ -1015,7 +961,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4342"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4565"/>
@@ -1146,7 +1092,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
@@ -1157,7 +1103,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4341"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1293,12 +1239,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1860"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1861"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
@@ -1318,65 +1264,65 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4338"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4336"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4339"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4340"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4377"/>
         <location filename="../basegui.cpp" line="4385"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4378"/>
         <location filename="../basegui.cpp" line="4386"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4379"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4387"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5088"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5089"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
@@ -1971,43 +1917,43 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Загрузка...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">Соединение с %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Установленная версия: %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Ошибка</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2050,7 +1996,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4049"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core.cpp" line="3131"/>
@@ -2086,7 +2032,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2273,7 +2219,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2679,21 +2625,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр извлечён</numerusform>
-            <numerusform>%n субтитра извлечёны</numerusform>
-            <numerusform>%n субтитров извлечено</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр извлечён</numerusform><numerusform>%n субтитра извлечёны</numerusform><numerusform>%n субтитров извлечено</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2776,7 +2718,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
             <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2798,7 +2739,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Не удалось сохранить загруженный
@@ -4378,12 +4319,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4557,7 +4498,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="310"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="313"/>
@@ -8230,57 +8171,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Проверить &amp;обновления</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8425,21 +8366,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунды</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунды</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минуты</numerusform>
-            <numerusform>%n минут</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минуты</numerusform><numerusform>%n минут</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8487,7 +8420,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -8556,7 +8489,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">Панель с&amp;татуса</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8576,7 +8509,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">Инфор&amp;мация о видео</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

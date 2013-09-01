@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -24,10 +22,6 @@
         <translation>Forum sokongan:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Individu berikut telah memberi sumbangan terjemahan:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation>Sepanyol</translation>
@@ -35,17 +29,17 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugis</translation>
+        <translation>Portugis</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Cina Ringkas</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">Indonesia</translation>
+        <translation>Indonesia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -53,26 +47,18 @@
         <translation>Jerman</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovak</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Itali</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Perancis</translation>
     </message>
     <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Cina-Ringkas</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Rusia</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -88,31 +74,27 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ramai individu memberi sumbangan terjemahan.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda juga boleh menterjemah SMPlayer ke bahasa ibunda anda.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lawati %1 dan sertai pasukan terjemahan.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Penterjemah semasa dari pasukan transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Jepun</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Belanda</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -127,7 +109,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">Norway Nynorsk</translation>
+        <translation>Norway Nynorsk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -165,18 +147,6 @@
         <translation>Cina Tradisional</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Romania</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugis - Portugal</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Yunani</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
         <translation>Finland</translation>
@@ -187,10 +157,6 @@
         <translation>Ibrani</translation>
     </message>
     <message>
-        <source>Thai</source>
-        <translation type="obsolete">Siam</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation>Bahasa Melayu</translation>
@@ -198,12 +164,12 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab - Arab Saudi</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Sinhala</translation>
+        <translation>Sinhala</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="209"/>
@@ -218,7 +184,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Halaman</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -254,10 +220,6 @@
         <translation>Korea</translation>
     </message>
     <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Macedonia</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
         <translation>Basque</translation>
@@ -266,10 +228,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>Using MPlayer %1</source>
         <translation>Menggunakan MPlayer %1</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
@@ -282,17 +240,9 @@
         <translation>Menggunakan Qt %1 (dikompil dengan Qt %2)</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenia</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>Arab</translation>
-    </message>
-    <message>
-        <source>Kurdish</source>
-        <translation type="obsolete">Kurdis</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -308,10 +258,6 @@
         <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
         <translation>Vietnam</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estonia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
@@ -1015,7 +961,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4342"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kongsi dengan rakan saya</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4565"/>
@@ -1157,7 +1103,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4341"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Derma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1318,33 +1264,33 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Derma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4338"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>JIka anda menyukai SMPlayer dan ingin menyokong pembangunannya, anda boleh hantar sumbangan. Walaupun sedikit kami amat menghargainya.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Ya, Saya mahu beri sumbangan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4336"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Bantu SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4339"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atau anda boleh kongsikan SMPlayer dengan rakan anda di Facebook.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4340"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Apa yang anda hendak buat?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4377"/>
@@ -2689,9 +2635,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2773,6 +2717,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <source>%1 subtitle(s) extracted</source>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
         </translation>
     </message>
     <message>
@@ -2794,7 +2739,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -8421,17 +8366,13 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>

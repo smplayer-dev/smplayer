@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -24,10 +22,6 @@
         <translation>支持论坛:</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">以下人员对翻译作出贡献:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation>西班牙语</translation>
@@ -35,17 +29,17 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">葡萄牙语</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">印度尼西亚语</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -53,26 +47,18 @@
         <translation>德语</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">斯洛伐克语</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">意大利语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>法语</translation>
     </message>
     <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">简体中文</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>俄语</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -88,31 +74,27 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>日语</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">荷兰语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -127,7 +109,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">耐诺斯克挪威语</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -165,18 +147,6 @@
         <translation>繁体中文</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">罗马尼亚语</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">葡萄牙语-葡萄牙</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">希腊语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
         <translation>芬兰语</translation>
@@ -187,10 +157,6 @@
         <translation>希伯来语</translation>
     </message>
     <message>
-        <source>Thai</source>
-        <translation type="obsolete">泰语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation>马来语</translation>
@@ -198,12 +164,12 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">僧加罗语</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="209"/>
@@ -218,7 +184,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -254,10 +220,6 @@
         <translation>韩国语</translation>
     </message>
     <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">马其顿语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
         <translation>巴斯克语</translation>
@@ -266,10 +228,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>Using MPlayer %1</source>
         <translation>使用 MPlayer %1</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">加泰罗尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
@@ -282,17 +240,9 @@
         <translation>使用 Qt %1 (用 Qt %2 编译)</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">斯洛文尼亚语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>阿拉伯语</translation>
-    </message>
-    <message>
-        <source>Kurdish</source>
-        <translation type="obsolete">库尔德语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -308,10 +258,6 @@
         <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
         <translation>越南语</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">爱沙尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="161"/>
@@ -1015,7 +961,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4342"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4565"/>
@@ -1146,7 +1092,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1641"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
@@ -1157,7 +1103,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1646"/>
         <location filename="../basegui.cpp" line="4341"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1318,55 +1264,55 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <location filename="../basegui.cpp" line="4338"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4336"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4339"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4340"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4377"/>
         <location filename="../basegui.cpp" line="4385"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4378"/>
         <location filename="../basegui.cpp" line="4386"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4379"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4387"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5088"/>
@@ -1971,43 +1917,43 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">正在下载...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">正在连接到 1%</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">已安装版本: %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">错误</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2086,7 +2032,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2273,7 +2219,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2689,9 +2635,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="688"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已提取%n个字幕</numerusform>
-        </translation>
+        <translation><numerusform>已提取%n个字幕</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="748"/>
@@ -2773,6 +2717,7 @@ Example: resample=44100:0:0,volnorm</source>
         <source>%1 subtitle(s) extracted</source>
         <translation type="obsolete">
             <numerusform>%1 subtitle extracted</numerusform>
+            <numerusform>%1 subtitles extracted</numerusform>
         </translation>
     </message>
     <message>
@@ -2794,7 +2739,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>无法在文件夹 %1
@@ -8225,57 +8170,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">检查更新(&amp;U)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8420,17 +8365,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n秒</numerusform>
-        </translation>
+        <translation><numerusform>%n秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n分</numerusform>
-        </translation>
+        <translation><numerusform>%n分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8547,7 +8488,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">状态栏(&amp;B)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8567,7 +8508,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">视频信息(&amp;V)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

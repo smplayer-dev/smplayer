@@ -8750,7 +8750,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>Sof&amp;ware ekualizagailua</translation>
+        <translation>Soft&amp;ware ekualizagailua</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
