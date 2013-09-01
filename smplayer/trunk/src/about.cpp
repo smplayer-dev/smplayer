@@ -183,6 +183,7 @@ QString About::getTranslators() {
 		trad(tr("Hungarian"), "gojko") +
 		trad(tr("Sinhala"), "Rathnayake") +
 		trad(tr("Greek"), QString::fromUtf8("Γιάννης Ανθυμίδης")) +
+		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi")) +
 		"");
 }
 
