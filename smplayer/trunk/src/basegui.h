@@ -58,9 +58,6 @@ class Favorites;
 class TVList;
 class UpdateChecker;
 
-#if !defined(Q_OS_WIN) || defined(PORTABLE_APP)
-#define REMINDER_ACTIONS 1
-#endif
 
 class BaseGui : public QMainWindow
 {
