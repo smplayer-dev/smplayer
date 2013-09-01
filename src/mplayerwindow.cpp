@@ -52,13 +52,15 @@ Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f )
 	check_mouse_timer = new QTimer(this);
 	connect( check_mouse_timer, SIGNAL(timeout()), this, SLOT(checkMousePos()) );
 
+#if QT_VERSION < 0x050000
 	// Change attributes
 	setAttribute(Qt::WA_NoSystemBackground);
 	//setAttribute(Qt::WA_StaticContents);
-    //setAttribute( Qt::WA_OpaquePaintEvent );
+	//setAttribute( Qt::WA_OpaquePaintEvent );
 	setAttribute(Qt::WA_PaintOnScreen);
 	setAttribute(Qt::WA_PaintUnclipped);
 	//setAttribute(Qt::WA_PaintOutsidePaintEvent);
+#endif
 
 	setAutoHideInterval(1000);
 	setAutoHideCursor(false);
@@ -157,14 +159,26 @@ void MplayerLayer::playingStarted() {
 	repaint();
 	playing = true;
 
+#ifndef Q_OS_WIN
+	#if QT_VERSION >= 0x050000
+	setAttribute(Qt::WA_UpdatesDisabled);
+	#endif
+#endif
+
 	Screen::playingStarted();
 }
 
 void MplayerLayer::playingStopped() {
 	qDebug("MplayerLayer::playingStopped");
 	playing = false;
-	repaint();
 
+#ifndef Q_OS_WIN
+	#if QT_VERSION >= 0x050000
+	setAttribute(Qt::WA_UpdatesDisabled, false);
+	#endif
+#endif
+
+	repaint();
 	Screen::playingStopped();
 }
 
@@ -186,11 +200,15 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 
 	logo = new QLabel( mplayerlayer );
 	logo->setAutoFillBackground(true);
-#if QT_VERSION >= 0x040400
+
+#if QT_VERSION < 0x050000
+	#if QT_VERSION >= 0x040400
 	logo->setAttribute(Qt::WA_NativeWindow); // Otherwise the logo is not visible in Qt 4.4
-#else
+	#else
 	logo->setAttribute(Qt::WA_PaintOnScreen); // Fixes the problem if compiled with Qt < 4.4
+	#endif
 #endif
+
 	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
