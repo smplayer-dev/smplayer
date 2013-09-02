@@ -67,7 +67,6 @@ public slots:
 
 protected:
 	virtual void mouseMoveEvent( QMouseEvent * e );
-	virtual void paintEvent ( QPaintEvent * e );
 
 protected slots:
 	virtual void checkMousePos();
