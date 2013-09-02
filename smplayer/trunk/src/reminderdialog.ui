@@ -21,9 +21,6 @@
        <property name="text">
         <string>icon</string>
        </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-       </property>
       </widget>
      </item>
      <item>

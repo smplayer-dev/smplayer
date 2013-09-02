@@ -25,7 +25,7 @@ ReminderDialog::ReminderDialog( QWidget* parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 
-	setMinimumSize(QSize(500,200));
+	setMinimumSize(QSize(500, 100));
 
 	icon_label->setPixmap(Images::icon("donate_big"));
 
