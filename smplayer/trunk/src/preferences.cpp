@@ -522,7 +522,7 @@ void Preferences::save() {
        General
        ******* */
 
-	set->beginGroup( "general");
+	set->beginGroup("main");
 
 	set->setValue("config_version", config_version);
 
@@ -587,7 +587,7 @@ void Preferences::save() {
 
 	set->setValue("file_settings_method", file_settings_method);
 
-	set->endGroup(); // general
+	set->endGroup(); // main
 
 
     /* ***************
@@ -992,7 +992,7 @@ void Preferences::load() {
        General
        ******* */
 
-	set->beginGroup( "general");
+	set->beginGroup("main");
 
 	config_version = set->value("config_version", 0).toInt();
 
@@ -1059,7 +1059,7 @@ void Preferences::load() {
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 
-	set->endGroup(); // general
+	set->endGroup(); // main
 
 
     /* ***************
@@ -1461,6 +1461,7 @@ void Preferences::load() {
 #endif
 
 
+	qDebug("Preferences::load: config_version: %d, CURRENT_CONFIG_VERSION: %d", config_version, CURRENT_CONFIG_VERSION);
 	// Fix some values if config is old
 	if (config_version < CURRENT_CONFIG_VERSION) {
 		qDebug("Preferences::load: config version is old, updating it");
