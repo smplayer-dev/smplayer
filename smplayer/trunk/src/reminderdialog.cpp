@@ -40,6 +40,7 @@ ReminderDialog::ReminderDialog( QWidget* parent, Qt::WindowFlags f )
 	close_button = buttonBox->button(QDialogButtonBox::Close);
 
 	donate_button->setDefault(true);
+	donate_button->setFocus();
 
 	adjustSize();
 	//layout()->setSizeConstraint(QLayout::SetFixedSize);
