@@ -31,7 +31,7 @@ ReminderDialog::ReminderDialog( QWidget* parent, Qt::WindowFlags f )
 
 	text_label->setText(
 		tr("If you like SMPlayer and want to support its development, you can send a donation. "
-           "Even the smallest one is highly appreciated.") + "<br>"+
+           "Even the smallest one is highly appreciated.") + "<br><br>"+
 		tr("Or you maybe you want to share SMPlayer with your friends in Facebook.") + "<br><br>" +
 		tr("What would you like to do?") );
 
