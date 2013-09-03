@@ -4356,7 +4356,7 @@ void BaseGui::checkReminder() {
 	if (r == ReminderDialog::Close) {
 	}
 
-	if (box.isDontShowChecked()) {
+	if (!box.isRemindChecked()) {
 		set->beginGroup("reminder");
 		set->setValue("dont_show_anymore", true);
 		set->endGroup();

@@ -127,9 +127,12 @@
     </layout>
    </item>
    <item alignment="Qt::AlignRight">
-    <widget class="QCheckBox" name="dont_show_check">
+    <widget class="QCheckBox" name="remind_check">
      <property name="text">
-      <string>Do&amp;n't show this message again</string>
+      <string>&amp;Remind me later</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
@@ -154,7 +157,7 @@
  </widget>
  <tabstops>
   <tabstop>buttonBox</tabstop>
-  <tabstop>dont_show_check</tabstop>
+  <tabstop>remind_check</tabstop>
  </tabstops>
  <resources/>
  <connections/>
