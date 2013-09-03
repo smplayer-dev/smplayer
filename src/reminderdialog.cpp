@@ -62,8 +62,8 @@ void ReminderDialog::button_clicked(QAbstractButton * button) {
 	done(res);
 }
 
-bool ReminderDialog::isDontShowChecked() {
-	return dont_show_check->isChecked();
+bool ReminderDialog::isRemindChecked() {
+	return remind_check->isChecked();
 }
 
 #include "moc_reminderdialog.cpp"

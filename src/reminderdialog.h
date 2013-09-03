@@ -32,7 +32,7 @@ public:
 	ReminderDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
 	~ReminderDialog();
 
-	bool isDontShowChecked();
+	bool isRemindChecked();
 
 protected slots:
 	void button_clicked(QAbstractButton *);
