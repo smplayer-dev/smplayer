@@ -522,7 +522,7 @@ void Preferences::save() {
        General
        ******* */
 
-	set->beginGroup("main");
+	set->beginGroup("General");
 
 	set->setValue("config_version", config_version);
 
@@ -587,7 +587,7 @@ void Preferences::save() {
 
 	set->setValue("file_settings_method", file_settings_method);
 
-	set->endGroup(); // main
+	set->endGroup(); // General
 
 
     /* ***************
@@ -992,7 +992,7 @@ void Preferences::load() {
        General
        ******* */
 
-	set->beginGroup("main");
+	set->beginGroup("General");
 
 	config_version = set->value("config_version", 0).toInt();
 
@@ -1059,7 +1059,7 @@ void Preferences::load() {
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 
-	set->endGroup(); // main
+	set->endGroup(); // General
 
 
     /* ***************
