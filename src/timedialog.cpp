@@ -30,22 +30,22 @@ TimeDialog::~TimeDialog() {
 }
 
 void TimeDialog::setTime(int seconds) {
-	QTime t;
+	QTime t(0,0);
 	time_edit->setTime(t.addSecs(seconds));
 }
 
 int TimeDialog::time() {
-	QTime t;
+	QTime t(0,0);
 	return t.secsTo(time_edit->time());
 }
 
 void TimeDialog::setMaximumTime( int seconds ) {
-	QTime t;
+	QTime t(0,0);
 	time_edit->setMaximumTime(t.addSecs(seconds));
 }
 
 int TimeDialog::maximumTime() {
-	QTime t;
+	QTime t(0,0);
 	return t.secsTo(time_edit->maximumTime());
 }
 
