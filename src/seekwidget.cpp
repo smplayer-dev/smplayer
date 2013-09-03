@@ -48,7 +48,7 @@ QString SeekWidget::label() const {
 }
 
 void SeekWidget::setTime(int secs) {
-	QTime t;
+	QTime t(0,0);
 	time_edit->setTime(t.addSecs(secs));
 }
 
