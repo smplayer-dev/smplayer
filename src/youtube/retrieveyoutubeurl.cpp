@@ -90,6 +90,13 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 		url_title = "Youtube video";
 	}
 
+	QString player;
+	QRegExp rxplayer("html5player-([\\d,\\w,-]+)\\.js");
+	if (rxplayer.indexIn(replyString) != -1) {
+		player = rxplayer.cap(1);
+		qDebug("RetrieveYoutubeUrl::parse: html5player: %s", player.toLatin1().constData());
+	}
+
 	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
 	regex.indexIn(replyString);
 	QString fmtArray = regex.cap(1);
@@ -133,7 +140,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 			}
 			else
 			if (q->hasQueryItem("s")) {
-				QString signature = YTSig::aclara(q->queryItemValue("s"));
+				QString signature = YTSig::aclara(q->queryItemValue("s"), player);
 				if (!signature.isEmpty()) {
 					q->addQueryItem("signature", signature);
 				} else {

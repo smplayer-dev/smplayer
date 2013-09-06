@@ -24,7 +24,7 @@
 class YTSig
 {
 public:
-	static QString aclara(const QString &);
+	static QString aclara(const QString & text, const QString & player = "");
 
 #ifdef YT_USE_SCRIPT
 	static void setScriptFile(const QString & f) { script_file = f; reloadScriptFile(); };
