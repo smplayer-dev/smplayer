@@ -80,8 +80,6 @@ void YTSig::reloadScriptFile() {
 QString YTSig::script;
 QString YTSig::script_file;
 
-// Algorithms from youtube-dl (http://rg3.github.io/youtube-dl/)
-
 QString YTSig::default_script;
 
 #else

@@ -28,6 +28,8 @@
 #include <QUrlQuery>
 #endif
 
+QString RetrieveYoutubeUrl::user_agent;
+
 RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 {
 	reply = 0;
@@ -35,15 +37,18 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 	connect(manager, SIGNAL(finished(QNetworkReply*)), this, SLOT(gotResponse(QNetworkReply*)));
 
 	preferred_quality = FLV_360p;
-	user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
 }
 
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
+	QString agent = user_agent;
+	if (agent.isEmpty()) agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
+	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: %s", agent.toLatin1().constData());
+
 	QNetworkRequest req(url);
-	req.setRawHeader("User-Agent", user_agent.toLatin1());
+	req.setRawHeader("User-Agent", agent.toLatin1());
 	reply = manager->get(req);
 	orig_url = url;
 

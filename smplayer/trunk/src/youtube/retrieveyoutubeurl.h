@@ -38,8 +38,8 @@ public:
 	void fetchPage(const QString & url);
 	void close();
 
-	void setUserAgent(const QString & s) { user_agent = s; };
-	QString userAgent() { return user_agent; };
+	static void setUserAgent(const QString & s) { user_agent = s; };
+	static QString userAgent() { return user_agent; };
 
 	void setPreferredQuality(Quality q) { preferred_quality = q; }
 	Quality preferredQuality() { return preferred_quality; }
@@ -75,7 +75,7 @@ protected:
 	QString latest_preferred_url;
 
 	Quality preferred_quality;
-	QString user_agent;
+	static QString user_agent;
 
 private:
 	QNetworkAccessManager* manager;
