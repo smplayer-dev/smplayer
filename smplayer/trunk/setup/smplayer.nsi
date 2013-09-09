@@ -627,7 +627,7 @@ ${MementoSectionDone}
   Delete "$INSTDIR\icudt51.dll"
   Delete "$INSTDIR\icuin51.dll"
   Delete "$INSTDIR\icuuc51.dll"
-  Delete "$INSTDIR\libgcc_s_dw2-1.dll"
+  Delete "$INSTDIR\libgcc_s_*.dll"
   Delete "$INSTDIR\libstdc++-6.dll"
   Delete "$INSTDIR\libwinpthread-1.dll"
   Delete "$INSTDIR\mingwm10.dll"
