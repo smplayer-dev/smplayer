@@ -47,6 +47,8 @@ QString YTSig::aclara(const QString & text, const QString & player) {
 		args << text << player;
 	}
 
+	//qDebug("YTSig::aclara: function_name: %s", function_name.toLatin1().constData());
+
 	QScriptValue aclarar = engine.globalObject().property(function_name);
 	QString res = aclarar.call(QScriptValue(), args).toString();
 
