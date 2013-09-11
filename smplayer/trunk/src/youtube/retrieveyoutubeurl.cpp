@@ -28,6 +28,8 @@
 #include <QUrlQuery>
 #endif
 
+#define USE_PLAYER_NAME
+
 QString RetrieveYoutubeUrl::user_agent;
 
 RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
@@ -145,7 +147,11 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 			}
 			else
 			if (q->hasQueryItem("s")) {
+				#ifdef USE_PLAYER_NAME
 				QString signature = YTSig::aclara(q->queryItemValue("s"), player);
+				#else
+				QString signature = YTSig::aclara(q->queryItemValue("s"));
+				#endif
 				if (!signature.isEmpty()) {
 					q->addQueryItem("signature", signature);
 				} else {
