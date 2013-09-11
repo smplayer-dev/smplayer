@@ -165,7 +165,7 @@ QString About::getTranslators() {
 		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "Zhangzheliuli" << "Zhnagmin") +
 		trad(tr("Vietnamese"), QStringList() << "Anh Phan" << "Biz Over" << "Thu Thao Nguyen Ngoc") +
 		trad(tr("Polish"), QStringList() <<"Filux" << QString::fromUtf8("Łukasz Hryniuk") << QString::fromUtf8("Piotr Strębski")) +
-		trad(tr("Russian"), QStringList() << "WiseLord" << "Viktor") +
+		trad(tr("Russian"), QStringList() << "WiseLord" << "Viktor" << "DmitryKX") +
 		trad(tr("French"), QStringList() << "Olivier Devineau" << "Ybsar") +
 		trad(tr("Indonesian"), QStringList() << "Mohamad Hasan Al Banna" << "Aulia Firdaus Simbolon" << "Muhammad Fikri Hariri") +
 		trad(tr("Danish"), "Michael Larsen") +
