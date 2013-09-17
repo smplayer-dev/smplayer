@@ -25,7 +25,7 @@
 #ifdef YT_USE_SCRIPT
 QString YTSig::aclara(const QString & text, const QString & player) {
 	int dot = text.indexOf('.');
-	qDebug("YTSig::aclara: length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
+	qDebug("YTSig::aclara: length: %d (%d.%d) p: %d", text.size(), dot, text.size()-dot-1, !player.isEmpty());
 
 	if (script.isEmpty()) script = default_script;
 
