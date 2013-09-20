@@ -22,6 +22,8 @@
 #include <QtScript>
 #endif
 
+QString YTSig::parsed_ts;
+
 #ifdef YT_USE_SCRIPT
 QString YTSig::aclara(const QString & text, const QString & player, const QString & function_name) {
 	int dot = text.indexOf('.');
@@ -80,8 +82,17 @@ void YTSig::reloadScriptFile() {
 	QByteArray bytes = f.readAll();
 	f.close();
 
+	parsed_ts = "";
+
 	if (!bytes.isEmpty()) {
 		script = bytes;
+
+		QRegExp rx("TS: ([\\d,a-z,A-Z-]+)");
+		if (rx.indexIn(bytes)) {
+			parsed_ts = rx.cap(1);
+			qDebug("YTSig::reloadScriptFile: parsed_ts: %s", parsed_ts.toLatin1().constData());
+		}
+
 	}
 }
 
