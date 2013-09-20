@@ -23,6 +23,8 @@
 #include <QNetworkReply>
 #include <QMap>
 
+//#define YT_GET_VIDEOINFO
+
 class RetrieveYoutubeUrl : public QObject
 {
 	Q_OBJECT
@@ -62,12 +64,20 @@ signals:
 	void signatureNotFound(const QString & title);
 
 protected slots:
-	void gotResponse(QNetworkReply* reply);
+	void gotResponse();
 	void parse(QByteArray text);
+#ifdef YT_GET_VIDEOINFO
+	void gotVideoInfoResponse();
+	void parseVideoInfo(QByteArray text);
+	void fetchVideoInfoPage();
+#endif
 
 protected:
 	static QString sanitizeForUnicodePoint(QString string);
 	static void htmlDecode(QString& string);
+#ifdef YT_GET_VIDEOINFO
+	static QString getVideoID(QString url);
+#endif
 
 	QMap<int, QString> urlMap;
 	QString url_title;
@@ -76,6 +86,10 @@ protected:
 
 	Quality preferred_quality;
 	static QString user_agent;
+
+#ifdef YT_GET_VIDEOINFO
+	QString video_id;
+#endif
 
 private:
 	QNetworkAccessManager* manager;
