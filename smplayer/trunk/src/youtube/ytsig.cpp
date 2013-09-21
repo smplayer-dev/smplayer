@@ -22,9 +22,10 @@
 #include <QtScript>
 #endif
 
+#ifdef YT_USE_SCRIPT
+
 QString YTSig::parsed_ts;
 
-#ifdef YT_USE_SCRIPT
 QString YTSig::aclara(const QString & text, const QString & player, const QString & function_name) {
 	int dot = text.indexOf('.');
 	qDebug("YTSig::aclara: length: %d (%d.%d) p: %d", text.size(), dot, text.size()-dot-1, !player.isEmpty());
@@ -102,6 +103,8 @@ QString YTSig::script_file;
 QString YTSig::default_script;
 
 #else
+
+QString YTSig::parsed_ts = "0";
 
 QString YTSig::rev(const QString & orig) {
 	QString r;
