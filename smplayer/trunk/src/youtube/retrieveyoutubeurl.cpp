@@ -172,12 +172,24 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 			line.setScheme(url.scheme());
 			line.setHost(url.host());
 			line.setPath(url.path());
+			q->removeQueryItem("url");
 			#if QT_VERSION >= 0x050000
-			q->setQuery( q->query() + "&" + url.query() );
+			q->setQuery( q->query(QUrl::FullyDecoded) + "&" + url.query(QUrl::FullyDecoded) );
+			/*
+			QList < QPair < QString,QString > > l = q->queryItems();
+			for (int n=0; n < l.count(); n++) {
+				qDebug("n: %d, %s = %s", n, l[n].first.toLatin1().constData(), l[n].second.toLatin1().constData());
+			}
+			*/
 			#else
 			q->setEncodedQuery( q->encodedQuery() + "&" + url.encodedQuery() );
+			/*
+			QList < QPair < QString,QString > > l = q->queryItems();
+			for (int n=0; n < l.count(); n++) {
+				qDebug("n: %d, %s = %s", n, l[n].first.toLatin1().constData(), l[n].second.toLatin1().constData());
+			}
+			*/
 			#endif
-			q->removeQueryItem("url");
 
 			if (q->hasQueryItem("sig")) {
 				q->addQueryItem("signature", q->queryItemValue("sig"));
@@ -213,7 +225,7 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 				q->removeAllQueryItems("itag"); // Remove duplicated itag
 				q->addQueryItem("itag", itag);
 				#if QT_VERSION >= 0x050000
-				line.setQuery(q->query());
+				line.setQuery(q->query(QUrl::FullyDecoded));
 				#endif
 				urlMap[itag.toInt()] = line.toString();
 				//qDebug("line: %s", line.toString().toLatin1().constData());
@@ -305,12 +317,24 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 			line.setScheme(url.scheme());
 			line.setHost(url.host());
 			line.setPath(url.path());
+			q->removeQueryItem("url");
 			#if QT_VERSION >= 0x050000
-			q->setQuery( q->query() + "&" + url.query() );
+			q->setQuery( q->query(QUrl::FullyDecoded) + "&" + url.query(QUrl::FullyDecoded) );
+			/*
+			QList < QPair < QString,QString > > l = q->queryItems();
+			for (int n=0; n < l.count(); n++) {
+				qDebug("n: %d, %s = %s", n, l[n].first.toLatin1().constData(), l[n].second.toLatin1().constData());
+			}
+			*/
 			#else
 			q->setEncodedQuery( q->encodedQuery() + "&" + url.encodedQuery() );
+			/*
+			QList < QPair < QString,QString > > l = q->queryItems();
+			for (int n=0; n < l.count(); n++) {
+				qDebug("n: %d, %s = %s", n, l[n].first.toLatin1().constData(), l[n].second.toLatin1().constData());
+			}
+			*/
 			#endif
-			q->removeQueryItem("url");
 
 			if (q->hasQueryItem("sig")) {
 				q->addQueryItem("signature", q->queryItemValue("sig"));
