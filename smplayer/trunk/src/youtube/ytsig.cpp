@@ -117,12 +117,12 @@ QString YTSig::aclara(const QString & text, const QString & player, const QStrin
 	int dot = text.indexOf('.');
 	qDebug("YTSig::aclara (2): length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
 
+#if 0
 	if (!function_name.isEmpty()) {
-		res = text.mid(3,8) + text.mid(0,1) + text.mid(12,43) + text.mid(84,1) + text.mid(56,28);
+		res = <your code>;
 		return res;
 	}
 
-#if 0
 	if (text.size() == xx) {
 		res = <your code>;
 	}
