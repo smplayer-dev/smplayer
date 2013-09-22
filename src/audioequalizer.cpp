@@ -23,6 +23,8 @@
 #include "global.h"
 #include <QLayout>
 #include <QPushButton>
+#include <QLabel>
+#include <QComboBox>
 #include <QMessageBox>
 
 using namespace Global;
@@ -39,6 +41,12 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 		bl->addWidget(eq[n]);
 	}
 
+	presets_combo = new QComboBox(this);
+	connect(presets_combo, SIGNAL(activated(int)), this, SLOT(presetChanged(int)));
+
+	presets_label = new QLabel("&Preset", this);
+	presets_label->setBuddy(presets_combo);
+
 	reset_button = new QPushButton( "&Reset", this);
 	connect( reset_button, SIGNAL(clicked()), this, SLOT(reset()) );
 
@@ -49,6 +57,8 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 	connect( apply_button, SIGNAL(clicked()), this, SLOT(applyButtonClicked()) );
 
 	QBoxLayout *button_layout = new QHBoxLayout; //(0, 4, 2);
+	button_layout->addWidget(presets_label);
+	button_layout->addWidget(presets_combo);
 	button_layout->addStretch();
 	button_layout->addWidget(apply_button);
 	button_layout->addWidget(reset_button);
@@ -82,9 +92,18 @@ void AudioEqualizer::retranslateStrings() {
 	eq[8]->setLabel( tr("8 kHz") );
 	eq[9]->setLabel( tr("16 kHz") );
 
+	presets_label->setText( tr("&Preset") );
 	apply_button->setText( tr("&Apply") );
 	reset_button->setText( tr("&Reset") );
 	set_default_button->setText( tr("&Set as default values") );
+
+	int presets_combo_index = presets_combo->currentIndex();
+	if (presets_combo_index < 0) presets_combo_index = 0;
+	presets_combo->clear();
+	presets_combo->addItem( tr("Flat"), Flat);
+	presets_combo->addItem( tr("Pop"), Pop);
+	presets_combo->addItem( tr("Rock"), Rock);
+	presets_combo->setCurrentIndex(presets_combo_index);
 
 	// What's this help:
 	set_default_button->setWhatsThis(
@@ -110,6 +129,29 @@ void AudioEqualizer::setDefaults() {
 	QMessageBox::information(this, tr("Information"), 
                              tr("The current values have been stored to be "
                                 "used as default.") );
+}
+
+void AudioEqualizer::setValues(int e0, int e1, int e2, int e3, int e4, int e5, int e6, int e7, int e8, int e9) {
+	eq[0]->setValue(e0);
+	eq[1]->setValue(e1);
+	eq[2]->setValue(e2);
+	eq[3]->setValue(e3);
+	eq[4]->setValue(e4);
+	eq[5]->setValue(e5);
+	eq[6]->setValue(e6);
+	eq[7]->setValue(e7);
+	eq[8]->setValue(e8);
+	eq[9]->setValue(e9);
+}
+
+void AudioEqualizer::presetChanged(int index) {
+	qDebug("AudioEqualizer::presetChanged: %d", index);
+	int p = presets_combo->itemData(index).toInt();
+	switch (p) {
+		case Flat:	reset(); break;
+		case Pop:	setValues(0, 0, 35, 72, 81, 60, 26, 13, 0, 0); break;
+		case Rock:	setValues(51, 37, 24, -14, -54, -14, 19, 52, 78, 78); break;
+	}
 }
 
 void AudioEqualizer::applyButtonClicked() {
