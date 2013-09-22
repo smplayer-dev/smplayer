@@ -196,7 +196,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="187"/>
+        <source>N&apos;ko</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="212"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8456,19 +8461,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../reminderdialog.ui" line="22"/>
+        <location filename="../reminderdialog.ui" line="147"/>
+        <source>&amp;Remind me later</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>icon</source>
-        <translation type="unfinished">ikon</translation>
-    </message>
-    <message>
-        <location filename="../reminderdialog.ui" line="38"/>
-        <source>text</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../reminderdialog.ui" line="50"/>
-        <source>Do&amp;n&apos;t show this message again</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">ikon</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
