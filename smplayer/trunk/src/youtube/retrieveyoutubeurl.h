@@ -23,7 +23,7 @@
 #include <QNetworkReply>
 #include <QMap>
 
-//#define YT_GET_VIDEOINFO
+#define YT_GET_VIDEOINFO
 
 class RetrieveYoutubeUrl : public QObject
 {
