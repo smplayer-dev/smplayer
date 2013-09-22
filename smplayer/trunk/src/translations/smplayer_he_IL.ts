@@ -413,44 +413,76 @@ Do you want to overwrite?</source>
         <translation>62.50 הרץ</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation>125.0 הרץ</translation>
+        <translation type="obsolete">125.0 הרץ</translation>
+    </message>
+    <message>
+        <source>250.0 Hz</source>
+        <translation type="obsolete">250.0 הרץ</translation>
+    </message>
+    <message>
+        <source>500.0 Hz</source>
+        <translation type="obsolete">500.0 הרץ</translation>
+    </message>
+    <message>
+        <source>1.000 kHz</source>
+        <translation type="obsolete">1.000 קילו הרץ</translation>
+    </message>
+    <message>
+        <source>2.000 kHz</source>
+        <translation type="obsolete">2.000 קילו הרץ</translation>
+    </message>
+    <message>
+        <source>4.000 kHz</source>
+        <translation type="obsolete">4.000 קילו הרץ</translation>
+    </message>
+    <message>
+        <source>8.000 kHz</source>
+        <translation type="obsolete">8.000 קילו הרץ</translation>
+    </message>
+    <message>
+        <source>16.00 kHz</source>
+        <translation type="obsolete">16.00 קילו הרץ</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="76"/>
+        <source>125 Hz</source>
+        <translation type="unfinished">500.0 הרץ {125 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
-        <source>250.0 Hz</source>
-        <translation>250.0 הרץ</translation>
+        <source>250 Hz</source>
+        <translation type="unfinished">500.0 הרץ {250 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
-        <source>500.0 Hz</source>
-        <translation>500.0 הרץ</translation>
+        <source>500 Hz</source>
+        <translation type="unfinished">500.0 הרץ {500 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
-        <source>1.000 kHz</source>
-        <translation>1.000 קילו הרץ</translation>
+        <source>1 kHz</source>
+        <translation type="unfinished">16.00 קילו הרץ {1 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
-        <source>2.000 kHz</source>
-        <translation>2.000 קילו הרץ</translation>
+        <source>2 kHz</source>
+        <translation type="unfinished">16.00 קילו הרץ {2 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
-        <source>4.000 kHz</source>
-        <translation>4.000 קילו הרץ</translation>
+        <source>4 KHz</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8.000 kHz</source>
-        <translation>8.000 קילו הרץ</translation>
+        <source>8 kHz</source>
+        <translation type="unfinished">16.00 קילו הרץ {8 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16.00 kHz</source>
-        <translation>16.00 קילו הרץ</translation>
+        <source>16 kHz</source>
+        <translation type="unfinished">16.00 קילו הרץ {16 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
@@ -972,10 +1004,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>האם ברצונך לדעת עוד אודות גרסא זו?</translation>
     </message>
     <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">&amp;שתפו עם חברים</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4569"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו ‎%1</translation>
@@ -1286,18 +1314,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="3922"/>
         <source>Yes, I want to donate</source>
         <translation>כן, ברצוני לתרום</translation>
-    </message>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">עזרו ל־SMPlayer</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">או אולי ברצונכם לשתף את SMPlayer עם חברים אצל Facebook.</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">מה ברצונך לעשות?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4381"/>
@@ -2372,10 +2388,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">מוריד את %1</translation>
     </message>
 </context>
 <context>
@@ -8462,16 +8474,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished">עזרו ל־SMPlayer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">צלמית</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
@@ -8481,12 +8489,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished">או אולי ברצונכם לשתף את SMPlayer עם חברים אצל Facebook.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished">מה ברצונך לעשות?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
@@ -8496,7 +8504,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished">&amp;שתפו עם חברים</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

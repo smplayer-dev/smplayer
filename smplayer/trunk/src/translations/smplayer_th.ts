@@ -414,42 +414,42 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="76"/>
-        <source>125.0 Hz</source>
+        <source>125 Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
-        <source>250.0 Hz</source>
+        <source>250 Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
-        <source>500.0 Hz</source>
+        <source>500 Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
-        <source>1.000 kHz</source>
+        <source>1 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
-        <source>2.000 kHz</source>
+        <source>2 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
-        <source>4.000 kHz</source>
+        <source>4 KHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8.000 kHz</source>
+        <source>8 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16.00 kHz</source>
+        <source>16 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2356,10 +2356,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
         <translation type="unfinished">กำลังเชื่อมต่อ %1</translation>
-    </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">กำลังดาวน์โหลด %1</translation>
     </message>
 </context>
 <context>
@@ -8450,10 +8446,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ไอคอน</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>

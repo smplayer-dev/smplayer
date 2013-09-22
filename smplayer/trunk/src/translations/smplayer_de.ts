@@ -413,44 +413,76 @@ Möchten Sie sie Überschreiben?</translation>
         <translation>62,50 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation>125.0 Hz</translation>
+        <translation type="obsolete">125.0 Hz</translation>
+    </message>
+    <message>
+        <source>250.0 Hz</source>
+        <translation type="obsolete">250.0 Hz</translation>
+    </message>
+    <message>
+        <source>500.0 Hz</source>
+        <translation type="obsolete">500.0 Hz</translation>
+    </message>
+    <message>
+        <source>1.000 kHz</source>
+        <translation type="obsolete">1.000 kHz</translation>
+    </message>
+    <message>
+        <source>2.000 kHz</source>
+        <translation type="obsolete">2.000 kHz</translation>
+    </message>
+    <message>
+        <source>4.000 kHz</source>
+        <translation type="obsolete">4.000 kHz</translation>
+    </message>
+    <message>
+        <source>8.000 kHz</source>
+        <translation type="obsolete">8.000 kHz</translation>
+    </message>
+    <message>
+        <source>16.00 kHz</source>
+        <translation type="obsolete">16.00 kHz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="76"/>
+        <source>125 Hz</source>
+        <translation type="unfinished">500.0 Hz {125 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
-        <source>250.0 Hz</source>
-        <translation>250.0 Hz</translation>
+        <source>250 Hz</source>
+        <translation type="unfinished">500.0 Hz {250 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
-        <source>500.0 Hz</source>
-        <translation>500.0 Hz</translation>
+        <source>500 Hz</source>
+        <translation type="unfinished">500.0 Hz {500 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
-        <source>1.000 kHz</source>
-        <translation>1.000 kHz</translation>
+        <source>1 kHz</source>
+        <translation type="unfinished">16.00 kHz {1 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
-        <source>2.000 kHz</source>
-        <translation>2.000 kHz</translation>
+        <source>2 kHz</source>
+        <translation type="unfinished">16.00 kHz {2 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
-        <source>4.000 kHz</source>
-        <translation>4.000 kHz</translation>
+        <source>4 KHz</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8.000 kHz</source>
-        <translation>8.000 kHz</translation>
+        <source>8 kHz</source>
+        <translation type="unfinished">16.00 kHz {8 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16.00 kHz</source>
-        <translation>16.00 kHz</translation>
+        <source>16 kHz</source>
+        <translation type="unfinished">16.00 kHz {16 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
@@ -2356,10 +2388,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
         <translation type="unfinished">Verbinde mit %1</translation>
-    </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">%1 wird heruntergeladen</translation>
     </message>
 </context>
 <context>
@@ -8459,10 +8487,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">Symbol</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>

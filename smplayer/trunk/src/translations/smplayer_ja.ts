@@ -172,17 +172,17 @@
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">ギリシャ語</translation>
+        <translation>ギリシャ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">エストニア語</translation>
+        <translation>エストニア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>マンデ語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -413,44 +413,76 @@ Do you want to overwrite?</source>
         <translation>62.50 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation>125.0 Hz</translation>
+        <translation type="obsolete">125.0 Hz</translation>
+    </message>
+    <message>
+        <source>250.0 Hz</source>
+        <translation type="obsolete">250.0 Hz</translation>
+    </message>
+    <message>
+        <source>500.0 Hz</source>
+        <translation type="obsolete">500.0 Hz</translation>
+    </message>
+    <message>
+        <source>1.000 kHz</source>
+        <translation type="obsolete">1.000 kHz</translation>
+    </message>
+    <message>
+        <source>2.000 kHz</source>
+        <translation type="obsolete">2.000 kHz</translation>
+    </message>
+    <message>
+        <source>4.000 kHz</source>
+        <translation type="obsolete">4.000 kHz</translation>
+    </message>
+    <message>
+        <source>8.000 kHz</source>
+        <translation type="obsolete">8.000 kHz</translation>
+    </message>
+    <message>
+        <source>16.00 kHz</source>
+        <translation type="obsolete">16.00 kHz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="76"/>
+        <source>125 Hz</source>
+        <translation type="unfinished">500.0 Hz {125 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
-        <source>250.0 Hz</source>
-        <translation>250.0 Hz</translation>
+        <source>250 Hz</source>
+        <translation type="unfinished">500.0 Hz {250 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
-        <source>500.0 Hz</source>
-        <translation>500.0 Hz</translation>
+        <source>500 Hz</source>
+        <translation type="unfinished">500.0 Hz {500 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
-        <source>1.000 kHz</source>
-        <translation>1.000 kHz</translation>
+        <source>1 kHz</source>
+        <translation type="unfinished">16.00 kHz {1 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
-        <source>2.000 kHz</source>
-        <translation>2.000 kHz</translation>
+        <source>2 kHz</source>
+        <translation type="unfinished">16.00 kHz {2 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
-        <source>4.000 kHz</source>
-        <translation>4.000 kHz</translation>
+        <source>4 KHz</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8.000 kHz</source>
-        <translation>8.000 kHz</translation>
+        <source>8 kHz</source>
+        <translation type="unfinished">16.00 kHz {8 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16.00 kHz</source>
-        <translation>16.00 kHz</translation>
+        <source>16 kHz</source>
+        <translation type="unfinished">16.00 kHz {16 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
@@ -972,10 +1004,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>この新しいバージョンについての詳細が知りたいですか?</translation>
     </message>
     <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">友人と共有(&amp;S)</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4569"/>
         <source>Playing %1</source>
         <translation>%1 を再生中</translation>
@@ -1286,18 +1314,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="3922"/>
         <source>Yes, I want to donate</source>
         <translation>はい、寄付します</translation>
-    </message>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">SMPlayer の支援</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">また Facebook でご友人と SMPlayer を共有していただくこともできます。</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">どうしますか?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4381"/>
@@ -2371,11 +2387,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">%1 へ接続しています</translation>
-    </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">%1 をダウンロードしています</translation>
+        <translation>%1 へ接続中</translation>
     </message>
 </context>
 <context>
@@ -8460,41 +8472,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished">SMPlayer の支援</translation>
+        <translation>SMPlayer の支援</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
+        <translation>後で通知</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished">SMPlayer がお好みで、その開発を支援していただけるのでしたら、寄付を送ることができます。小額でも大変喜ばれます。</translation>
+        <translation>SMPlayer がお好みで、その開発を支援していただけるのでしたら、寄付を送ることができます。小額でも大変喜ばれます。</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished">また Facebook でご友人と SMPlayer を共有していただくこともできます。</translation>
+        <translation>また、 Facebook でご友人と SMPlayer を共有していただくこともできます。</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished">どうしますか?</translation>
+        <translation>どうしますか?</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished">寄付(&amp;D)</translation>
+        <translation>寄付(&amp;D)</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished">友人と共有(&amp;S)</translation>
+        <translation>友人と共有(&amp;S)</translation>
     </message>
 </context>
 <context>
