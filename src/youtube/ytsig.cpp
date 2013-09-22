@@ -144,3 +144,9 @@ QString YTSig::aclara(const QString & text, const QString & player, const QStrin
 }
 
 #endif
+
+void YTSig::check(QString & u) {
+	if (!parsed_ts.isEmpty()) {
+		u.append(QString("%1%2%3%4%5%6").arg(u['3']).arg(u['5']).arg(u['0'-23]).arg(u['a'-44]).arg(u['I'-33]).arg(parsed_ts));
+	}
+}

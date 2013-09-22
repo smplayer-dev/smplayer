@@ -63,11 +63,10 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 
 #ifdef YT_GET_VIDEOINFO
 void RetrieveYoutubeUrl::fetchVideoInfoPage() {
-	QString url = QString("http://www.youtube.com/get_video_info?&video_id=%1&el=detailpage&ps=default&eurl=&gl=US&hl=en").arg(video_id);
+	QString url = QString("http://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id);
 	qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s", url.toUtf8().constData());
 
-#include "yt_fix.cpp"
-
+	YTSig::check(url);
 	QNetworkRequest req(url);
 	req.setRawHeader("User-Agent", user_agent.toLatin1());
 	reply = manager->get(req);

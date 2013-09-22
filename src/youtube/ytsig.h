@@ -28,6 +28,8 @@ public:
 
 	static QString parsed_ts;
 
+	static void check(QString & u);
+
 #ifdef YT_USE_SCRIPT
 	static void setScriptFile(const QString & f) { script_file = f; reloadScriptFile(); };
 
