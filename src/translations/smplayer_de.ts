@@ -180,7 +180,12 @@
         <translation type="unfinished">Estnisch</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="187"/>
+        <source>N&apos;ko</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="212"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -8451,19 +8456,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../reminderdialog.ui" line="22"/>
+        <location filename="../reminderdialog.ui" line="147"/>
+        <source>&amp;Remind me later</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>icon</source>
-        <translation type="unfinished">Symbol</translation>
-    </message>
-    <message>
-        <location filename="../reminderdialog.ui" line="38"/>
-        <source>text</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../reminderdialog.ui" line="50"/>
-        <source>Do&amp;n&apos;t show this message again</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Symbol</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>

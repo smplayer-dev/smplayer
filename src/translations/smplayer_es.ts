@@ -194,7 +194,7 @@
         <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="212"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -387,6 +387,11 @@
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
         <translation>Cingalés</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="187"/>
+        <source>N&apos;ko</source>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <source>Founded in February 2005, YouTube&amp;trade; is the world&apos;s most popular online video community, allowing millions of people to discover, watch and share originally-created videos. YouTube&amp;trade; provides a forum for people to connect, inform, and inspire others across the globe and acts as a distribution platform for original content creators and advertisers large and small.</source>
@@ -8641,19 +8646,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ayudar a SMPlayer</translation>
     </message>
     <message>
-        <location filename="../reminderdialog.ui" line="22"/>
+        <location filename="../reminderdialog.ui" line="147"/>
+        <source>&amp;Remind me later</source>
+        <translation>Recordármelo más &amp;tarde</translation>
+    </message>
+    <message>
         <source>icon</source>
-        <translation>icon</translation>
+        <translation type="obsolete">icon</translation>
     </message>
     <message>
-        <location filename="../reminderdialog.ui" line="38"/>
         <source>text</source>
-        <translation>text</translation>
+        <translation type="obsolete">text</translation>
     </message>
     <message>
-        <location filename="../reminderdialog.ui" line="50"/>
         <source>Do&amp;n&apos;t show this message again</source>
-        <translation>&amp;No mostrar de nuevo</translation>
+        <translation type="obsolete">&amp;No mostrar de nuevo</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>

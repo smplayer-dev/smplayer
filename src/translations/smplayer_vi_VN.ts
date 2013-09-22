@@ -180,7 +180,12 @@
         <translation type="unfinished">Tiếng Ex Tô Nhia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="211"/>
+        <location filename="../about.cpp" line="187"/>
+        <source>N&apos;ko</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="212"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;(%2)</translation>
     </message>
@@ -8443,18 +8448,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../reminderdialog.ui" line="22"/>
-        <source>icon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../reminderdialog.ui" line="38"/>
-        <source>text</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../reminderdialog.ui" line="50"/>
-        <source>Do&amp;n&apos;t show this message again</source>
+        <location filename="../reminderdialog.ui" line="147"/>
+        <source>&amp;Remind me later</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
