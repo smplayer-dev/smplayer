@@ -31,17 +31,17 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Португальська</translation>
+        <translation>Португальська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Спрощена китайська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">Індонезійська</translation>
+        <translation>Індонезійська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -72,22 +72,22 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Багато людей зробив внесок в переклади.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ви також можете допомогти перекласти SMPlayer на рідну мову.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відвідайте %1 і приєднатися до команди перекладачів.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Поточні перекладачі з команд transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">Норвезька Нюношк</translation>
+        <translation>Норвезька Нюнорськ</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -162,12 +162,12 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабська - Саудівська Аравія</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Сінгальська</translation>
+        <translation>Сінгальська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="185"/>
@@ -197,7 +197,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Сторінка</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -413,44 +413,76 @@ Do you want to overwrite?</source>
         <translation>62.50 Гц</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation>125.0 Гц</translation>
+        <translation type="obsolete">125.0 Гц</translation>
+    </message>
+    <message>
+        <source>250.0 Hz</source>
+        <translation type="obsolete">250.0 Гц</translation>
+    </message>
+    <message>
+        <source>500.0 Hz</source>
+        <translation type="obsolete">500.0 Гц</translation>
+    </message>
+    <message>
+        <source>1.000 kHz</source>
+        <translation type="obsolete">1.000 кГц</translation>
+    </message>
+    <message>
+        <source>2.000 kHz</source>
+        <translation type="obsolete">2.000 кГц</translation>
+    </message>
+    <message>
+        <source>4.000 kHz</source>
+        <translation type="obsolete">4.000 кГц</translation>
+    </message>
+    <message>
+        <source>8.000 kHz</source>
+        <translation type="obsolete">8.000 кГц</translation>
+    </message>
+    <message>
+        <source>16.00 kHz</source>
+        <translation type="obsolete">16.00 кГц</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="76"/>
+        <source>125 Hz</source>
+        <translation type="unfinished">500.0 Гц {125 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
-        <source>250.0 Hz</source>
-        <translation>250.0 Гц</translation>
+        <source>250 Hz</source>
+        <translation type="unfinished">500.0 Гц {250 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
-        <source>500.0 Hz</source>
-        <translation>500.0 Гц</translation>
+        <source>500 Hz</source>
+        <translation type="unfinished">500.0 Гц {500 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
-        <source>1.000 kHz</source>
-        <translation>1.000 кГц</translation>
+        <source>1 kHz</source>
+        <translation type="unfinished">16.00 кГц {1 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
-        <source>2.000 kHz</source>
-        <translation>2.000 кГц</translation>
+        <source>2 kHz</source>
+        <translation type="unfinished">16.00 кГц {2 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
-        <source>4.000 kHz</source>
-        <translation>4.000 кГц</translation>
+        <source>4 KHz</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8.000 kHz</source>
-        <translation>8.000 кГц</translation>
+        <source>8 kHz</source>
+        <translation type="unfinished">16.00 кГц {8 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16.00 kHz</source>
-        <translation>16.00 кГц</translation>
+        <source>16 kHz</source>
+        <translation type="unfinished">16.00 кГц {16 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
@@ -972,10 +1004,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Бажаєте дізнатися більше про нову версію?</translation>
     </message>
     <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">П&amp;оділитися з друзями</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4569"/>
         <source>Playing %1</source>
         <translation>Відтворюється %1</translation>
@@ -1286,18 +1314,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="3922"/>
         <source>Yes, I want to donate</source>
         <translation>Так, я хочу допомогти</translation>
-    </message>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">Допомога SMPlayer</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">Або, може, ви бажаєте поділитися SMPlayer з друзями у Facebook.</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">Що ви бажаєте зробити?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4381"/>
@@ -2372,10 +2388,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
         <translation type="unfinished">З&apos;єднання з %1</translation>
-    </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">Звантажується %1</translation>
     </message>
 </context>
 <context>
@@ -8467,16 +8479,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished">Допомога SMPlayer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">піктограма</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
@@ -8486,12 +8494,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished">Або, може, ви бажаєте поділитися SMPlayer з друзями у Facebook.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished">Що ви бажаєте зробити?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
@@ -8501,7 +8509,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished">П&amp;оділитися з друзями</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

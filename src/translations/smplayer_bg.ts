@@ -413,44 +413,76 @@ Do you want to overwrite?</source>
         <translation>62.50 Хц</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125.0 Hz</source>
-        <translation>125.0 Хц</translation>
+        <translation type="obsolete">125.0 Хц</translation>
+    </message>
+    <message>
+        <source>250.0 Hz</source>
+        <translation type="obsolete">250.0 Хц</translation>
+    </message>
+    <message>
+        <source>500.0 Hz</source>
+        <translation type="obsolete">500.0 Хц</translation>
+    </message>
+    <message>
+        <source>1.000 kHz</source>
+        <translation type="obsolete">1.000 Хц</translation>
+    </message>
+    <message>
+        <source>2.000 kHz</source>
+        <translation type="obsolete">2.000 Хц</translation>
+    </message>
+    <message>
+        <source>4.000 kHz</source>
+        <translation type="obsolete">4.000 Хц</translation>
+    </message>
+    <message>
+        <source>8.000 kHz</source>
+        <translation type="obsolete">8.000 Хц</translation>
+    </message>
+    <message>
+        <source>16.00 kHz</source>
+        <translation type="obsolete">16.00 кХц</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="76"/>
+        <source>125 Hz</source>
+        <translation type="unfinished">500.0 Хц {125 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="77"/>
-        <source>250.0 Hz</source>
-        <translation>250.0 Хц</translation>
+        <source>250 Hz</source>
+        <translation type="unfinished">500.0 Хц {250 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="78"/>
-        <source>500.0 Hz</source>
-        <translation>500.0 Хц</translation>
+        <source>500 Hz</source>
+        <translation type="unfinished">500.0 Хц {500 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="79"/>
-        <source>1.000 kHz</source>
-        <translation>1.000 Хц</translation>
+        <source>1 kHz</source>
+        <translation type="unfinished">16.00 кХц {1 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="80"/>
-        <source>2.000 kHz</source>
-        <translation>2.000 Хц</translation>
+        <source>2 kHz</source>
+        <translation type="unfinished">16.00 кХц {2 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
-        <source>4.000 kHz</source>
-        <translation>4.000 Хц</translation>
+        <source>4 KHz</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8.000 kHz</source>
-        <translation>8.000 Хц</translation>
+        <source>8 kHz</source>
+        <translation type="unfinished">16.00 кХц {8 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16.00 kHz</source>
-        <translation>16.00 кХц</translation>
+        <source>16 kHz</source>
+        <translation type="unfinished">16.00 кХц {16 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="85"/>
@@ -972,10 +1004,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Искате ли да знаете повече за новата версия?</translation>
     </message>
     <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">&amp;Споделете с приятели</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4569"/>
         <source>Playing %1</source>
         <translation>Изпълнява се %1</translation>
@@ -1099,7 +1127,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1640"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Първи стъпки за &amp;употреба</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
@@ -1194,12 +1222,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>От&amp;шумяване</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1797"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Мъгливост/&amp;Острота</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
@@ -1229,13 +1257,13 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1824"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Мъгливост</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Острота</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1859"/>
@@ -1280,24 +1308,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3919"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation>Ако харесвате SMPlayer  и искате да подпомогнете неговата разработка, може да изпратите дарение. Дори най-малките са високо ценени.</translation>
+        <translation>Ако харесвате SMPlayer и искате да подпомогнете неговата разработка, може да изпратите дарение. Дори най-малките са високо ценени.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3922"/>
         <source>Yes, I want to donate</source>
         <translation>Да, искам да направя дарение</translation>
-    </message>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">Помгни на SMPlayer</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">Или можете да споделите SMPlayer с вашите приятели в Фейсбук.</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">Какво искате да направите?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4381"/>
@@ -1319,7 +1335,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4391"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Можеби обновлението на SMPlayer ще оправи проблема.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5092"/>
@@ -1355,12 +1371,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3288"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтрии листа със скорошни файлове?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3508"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished">Сегашните стойности бяха запазени като стандартни.</translation>
+        <translation>Сегашните стойности бяха запазени като стандартни.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1688"/>
@@ -1420,7 +1436,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1696"/>
         <source>&amp;Toggle double size</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Превкючи към двоен размер</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
@@ -1450,17 +1466,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1642"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Опции за командния ред</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3901"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer опции за командния ред</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1600"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Принуди само субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1697"/>
@@ -1490,7 +1506,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5012"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer претърпя срив.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5013"/>
@@ -1722,12 +1738,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>Задай абав&amp;яне...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1590"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>За&amp;дай забавяне...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3978"/>
@@ -1742,27 +1758,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3989"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Аудио забавяне</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3990"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Аудио забавяне (в милисекунди)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3999"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Забавяне на субтитрите</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4000"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Забавяне на субтитрите (в милисекунди)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1836"/>
         <source>Toggle stay on top</source>
-        <translation>Превкючи положение отгоре</translation>
+        <translation>Превключи към положение отгоре</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4713"/>
@@ -1863,12 +1879,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Toggle deinterlacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Превключи към компенсиране</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1872"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Затворени надписи</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
@@ -2024,12 +2040,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="3057"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Забавяне на субтитрите: %1 мс</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3074"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Аудио забавяне: %1 мс</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2940"/>
@@ -2039,7 +2055,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Невъзможно извличането на Youtube страницата</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2074,12 +2090,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1284"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Снимка на екрана НЕ беше взета, не е конфигурирана папка</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1297"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Снимки на екрана НЕ бяха взети, не е конфигурирана папка</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2564"/>
@@ -2373,10 +2389,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">Сваляне на %1</translation>
-    </message>
 </context>
 <context>
     <name>FilePropertiesDialog</name>
@@ -2638,7 +2650,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Влизането в opensubtitles.org се провали</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
@@ -2648,9 +2660,9 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n субтитри извлечени</numerusform>
+            <numerusform>%n субтитри извлечени</numerusform>
         </translation>
     </message>
     <message>
@@ -3085,7 +3097,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation>Афар</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
@@ -3138,7 +3150,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Bihari</source>
-        <translation type="unfinished"></translation>
+        <translation>Бихари</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="40"/>
@@ -3158,7 +3170,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation>Бретон</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
@@ -3318,7 +3330,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation type="unfinished"></translation>
+        <translation>Интерлингва</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
@@ -3328,7 +3340,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation type="unfinished"></translation>
+        <translation>Интерлингве</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
@@ -3506,12 +3518,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation>Окситански</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Oriya</source>
-        <translation type="unfinished"></translation>
+        <translation>Ория</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
@@ -3528,7 +3540,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Quechua</source>
-        <translation type="unfinished"></translation>
+        <translation>Куечиа</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
@@ -3633,7 +3645,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="183"/>
         <location filename="../languages.cpp" line="270"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>Тайландски</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
@@ -3727,7 +3739,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Zhuang</source>
-        <translation type="unfinished"></translation>
+        <translation>Зуанг</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
@@ -3818,7 +3830,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>Югоизточноевропейски</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
@@ -3873,22 +3885,22 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"></translation>
+        <translation>Авестан</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
         <source>Akan</source>
-        <translation type="unfinished"></translation>
+        <translation>Акан</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"></translation>
+        <translation>Арагонезе</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation type="unfinished"></translation>
+        <translation>Аварик</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
@@ -3913,37 +3925,37 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"></translation>
+        <translation>Крии</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"></translation>
+        <translation>Чърч</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"></translation>
+        <translation>Чуваш</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"></translation>
+        <translation>Дивехи</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"></translation>
+        <translation>Дзонга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"></translation>
+        <translation>Ийв</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"></translation>
+        <translation>Фула</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
@@ -3958,7 +3970,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="77"/>
         <source>Manx</source>
-        <translation type="unfinished"></translation>
+        <translation>Манкс</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
@@ -3978,27 +3990,27 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"></translation>
+        <translation>Чаморо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"></translation>
+        <translation>Игбо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"></translation>
+        <translation>Сишуан</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"></translation>
+        <translation>Инупиак</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"></translation>
+        <translation>Идо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
@@ -4013,12 +4025,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"></translation>
+        <translation>Куаниама</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Кхмер</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
@@ -4048,143 +4060,143 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"></translation>
+        <translation>Лимбурган</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>Лао</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"></translation>
+        <translation>Люба-Катанга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"></translation>
+        <translation>Маршалски</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>Бокмал</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
-        <translation type="unfinished"></translation>
+        <translation>Ндебеле</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Ндонга</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Navajo</source>
-        <translation type="unfinished"></translation>
+        <translation>Навайо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Chichewa</source>
-        <translation type="unfinished"></translation>
+        <translation>Чайчива</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"></translation>
+        <translation>Обийуа</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Oromo</source>
-        <translation type="unfinished"></translation>
+        <translation>Оромо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Ossetian</source>
-        <translation type="unfinished"></translation>
+        <translation>Осетински</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Panjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>Панджаби</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Pali</source>
-        <translation type="unfinished"></translation>
+        <translation>Пали</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Pushto</source>
-        <translation type="unfinished"></translation>
+        <translation>Пущо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
-        <translation type="unfinished"></translation>
+        <translation>Романш</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Rundi</source>
-        <translation type="unfinished"></translation>
+        <translation>Рунди</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
         <source>Sardinian</source>
-        <translation type="unfinished"></translation>
+        <translation>Сардински</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="165"/>
         <source>Sami</source>
-        <translation type="unfinished"></translation>
+        <translation>Сами</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sango</source>
-        <translation type="unfinished"></translation>
+        <translation>Санго</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Синхала</translation>
+        <translation>Синхала</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Swati</source>
-        <translation type="unfinished"></translation>
+        <translation>Суати</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Sotho</source>
-        <translation type="unfinished"></translation>
+        <translation>Сотхо</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Tswana</source>
-        <translation type="unfinished"></translation>
+        <translation>Тсвана</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"></translation>
+        <translation>Тайтийски</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Venda</source>
-        <translation type="unfinished"></translation>
+        <translation>Венда</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>Волапюк</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"></translation>
+        <translation>Валонски</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="308"/>
@@ -4262,7 +4274,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Формуляр</translation>
     </message>
 </context>
 <context>
@@ -4583,7 +4595,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>С&amp;ъобщи за проблеми с MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
@@ -5211,7 +5223,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="877"/>
         <source>Screenshots folder</source>
-        <translation>Папка за снимки</translation>
+        <translation>Папка за снимки на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
@@ -5792,17 +5804,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="873"/>
         <source>Enable screenshots</source>
-        <translation>Включи снимка на екрана</translation>
+        <translation>Включи снимки на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="874"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Можете да използвате тази опция, за да включите или изключите възможността за вземането на снимки на екрана.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="878"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да зададете папка, където снимките на екрана взети от SMPlayer ще бъдат запазени. Ако тази папка не е валидна,  свойството за снимката на екрана ще бъде забранено.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
@@ -5812,12 +5824,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation>Снимка на екрана</translation>
+        <translation>Снимки на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation>&amp;Включи снимка на екрана</translation>
+        <translation>&amp;Включи снимки на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
@@ -5887,7 +5899,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished"></translation>
+        <translation>Постепенно нагласява A/V синхронизирането базирано на измерванията на аудио забавянето.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
@@ -6595,7 +6607,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Ед&amp;нократно натискане на бутона възтановява времевата позиция</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6793,7 +6805,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="734"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Еднократно натискане на бутона възтановява времевата позиция</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="735"/>
@@ -6803,7 +6815,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="784"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Макс. URL-та</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
@@ -6818,7 +6830,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="790"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е отметната, SMPlayer ще запомни последната папка използвана за отваряне на файл.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="517"/>
@@ -7373,7 +7385,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично виж информация отностно файловете, които се добавят</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
@@ -7572,7 +7584,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="236"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Включи субтитри в снимките на екрана</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="418"/>
@@ -7602,7 +7614,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Включи субтитри в снимките на екрана</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
@@ -7622,7 +7634,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвят на текста</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="523"/>
@@ -8197,12 +8209,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Интервал на проверката (в &amp;дни)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Отвори първите стъпки за употреба след обновяване</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8222,22 +8234,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Интервал на проверката</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да зададете интервал (в дни) между проверките за обновления.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Отвори първите стъпки за употреба след обновяване</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е бключена, първите стъпки за употреба с информация и съвети как да изплозвате SMPlayer  ще се отворчт след обновление.</translation>
     </message>
 </context>
 <context>
@@ -8465,7 +8477,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished">Помгни на SMPlayer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
@@ -8475,17 +8487,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished">Ако харесвате SMPlayer  и искате да подпомогнете неговата разработка, може да изпратите дарение. Дори най-малките са високо ценени.</translation>
+        <translation type="unfinished">Ако харесвате SMPlayer и искате да подпомогнете неговата разработка, може да изпратите дарение. Дори най-малките са високо ценени.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished">Или можете да споделите SMPlayer с вашите приятели в Фейсбук.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished">Какво искате да направите?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
@@ -8495,7 +8507,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished">&amp;Споделете с приятели</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8854,7 +8866,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>Създаване на миниатюри...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="379"/>
@@ -8889,7 +8901,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>Следната грешка възникна докато се създаваха миниатюри:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="209"/>
@@ -9018,7 +9030,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>
         <source>&amp;Maximum width:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Максимална широчина:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
@@ -9029,17 +9041,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Миниатюрите ще бъдат подредени в таблица.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция задава номера на колони на таблицата.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция задава номера на редове на таблицата.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
@@ -9064,12 +9076,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Някои кадри ще бъдат извлечени от видеоклипа за да се създаде преглед. Тук можете да изберете формата на картината за извлеченият кадър. PNG може да даде по-добро качество.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>Добави &amp;време на изплълнение към миниатюрите</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
@@ -9079,12 +9091,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Извлечи кадър като</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук задай DVD устройството или папката с DVD изображение.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
@@ -9094,7 +9106,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="290"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Запомни папката, използвана за &amp;запазване на прегледа</translation>
     </message>
 </context>
 <context>
