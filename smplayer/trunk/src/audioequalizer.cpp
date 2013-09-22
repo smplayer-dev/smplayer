@@ -73,14 +73,14 @@ void AudioEqualizer::retranslateStrings() {
 
 	eq[0]->setLabel( tr("31.25 Hz") );
 	eq[1]->setLabel( tr("62.50 Hz") );
-	eq[2]->setLabel( tr("125.0 Hz") );
-	eq[3]->setLabel( tr("250.0 Hz") );
-	eq[4]->setLabel( tr("500.0 Hz") );
-	eq[5]->setLabel( tr("1.000 kHz") );
-	eq[6]->setLabel( tr("2.000 kHz") );
-	eq[7]->setLabel( tr("4.000 kHz") );
-	eq[8]->setLabel( tr("8.000 kHz") );
-	eq[9]->setLabel( tr("16.00 kHz") );
+	eq[2]->setLabel( tr("125 Hz") );
+	eq[3]->setLabel( tr("250 Hz") );
+	eq[4]->setLabel( tr("500 Hz") );
+	eq[5]->setLabel( tr("1 kHz") );
+	eq[6]->setLabel( tr("2 kHz") );
+	eq[7]->setLabel( tr("4 KHz") );
+	eq[8]->setLabel( tr("8 kHz") );
+	eq[9]->setLabel( tr("16 kHz") );
 
 	apply_button->setText( tr("&Apply") );
 	reset_button->setText( tr("&Reset") );
