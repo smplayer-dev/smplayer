@@ -25,16 +25,20 @@
 #include <QShowEvent>
 #include "audioequalizerlist.h"
 
+class QLabel;
+class QComboBox;
 class QPushButton;
 class EqSlider;
 
 class AudioEqualizer : public QWidget
 {
-    Q_OBJECT
+	Q_OBJECT
 
 public:
-    AudioEqualizer( QWidget* parent = 0, Qt::WindowFlags f = Qt::Dialog );
-    ~AudioEqualizer();
+	enum Preset { Flat = 0, Pop = 1, Rock = 2 };
+
+	AudioEqualizer( QWidget* parent = 0, Qt::WindowFlags f = Qt::Dialog );
+	~AudioEqualizer();
 
 	EqSlider * eq[10];
 
@@ -48,16 +52,19 @@ public slots:
 
 protected slots:
 	void applyButtonClicked();
+	void presetChanged(int index);
 
 protected:
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
-
-protected:
+	virtual void changeEvent( QEvent * event );
 	virtual void retranslateStrings();
-	virtual void changeEvent ( QEvent * event ) ;
+
+	void setValues(int e0, int e1, int e2, int e3, int e4, int e5, int e6, int e7, int e8, int e9);
 
 protected:
+	QLabel * presets_label;
+	QComboBox * presets_combo;
 	QPushButton * apply_button;
 	QPushButton * reset_button;
 	QPushButton * set_default_button;
