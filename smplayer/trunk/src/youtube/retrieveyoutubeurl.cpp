@@ -54,7 +54,7 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 	connect(reply, SIGNAL(finished()), this, SLOT(gotResponse()));
 	orig_url = url;
 
-	emit connecting(url);
+	emit connecting(QUrl(url).host());
 
 #ifdef YT_GET_VIDEOINFO
 	video_id = getVideoID(url);
@@ -64,7 +64,7 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 #ifdef YT_GET_VIDEOINFO
 void RetrieveYoutubeUrl::fetchVideoInfoPage() {
 	QString url = QString("http://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id);
-	qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s", url.toUtf8().constData());
+	//qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s", url.toUtf8().constData());
 
 	YTSig::check(url);
 	QNetworkRequest req(url);
@@ -72,7 +72,7 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage() {
 	reply = manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotVideoInfoResponse()));
 
-	emit connecting(url);
+	emit connecting(QUrl(url).host());
 }
 #endif
 
