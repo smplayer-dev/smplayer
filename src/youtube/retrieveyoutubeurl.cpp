@@ -195,27 +195,21 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 				q->removeQueryItem("sig");
 			}
 			else
-			#ifdef YT_GET_VIDEOINFO
-			if (YTSig::parsed_ts.isEmpty()) {
-			#endif
-				if (q->hasQueryItem("s")) {
-					#ifdef USE_PLAYER_NAME
-					QString signature = YTSig::aclara(q->queryItemValue("s"), player);
-					#else
-					QString signature = YTSig::aclara(q->queryItemValue("s"));
-					#endif
-					if (!signature.isEmpty()) {
-						q->addQueryItem("signature", signature);
-					} else {
-					#ifndef YT_GET_VIDEOINFO
-						failed_to_decrypt_signature = true;
-					#endif
-					}
-					q->removeQueryItem("s");
+			if (q->hasQueryItem("s")) {
+				#ifdef USE_PLAYER_NAME
+				QString signature = YTSig::aclara(q->queryItemValue("s"), player);
+				#else
+				QString signature = YTSig::aclara(q->queryItemValue("s"));
+				#endif
+				if (!signature.isEmpty()) {
+					q->addQueryItem("signature", signature);
+				} else {
+				#ifndef YT_GET_VIDEOINFO
+					failed_to_decrypt_signature = true;
+				#endif
 				}
-			#ifdef YT_GET_VIDEOINFO
+				q->removeQueryItem("s");
 			}
-			#endif
 			q->removeAllQueryItems("fallback_host");
 			q->removeAllQueryItems("type");
 
