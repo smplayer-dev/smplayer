@@ -82,12 +82,12 @@
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odwiedź %1 i dołączyć do zespołu tłumaczenia.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bieżący tłumacze z zespołów Transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -172,12 +172,12 @@
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">Grecki</translation>
+        <translation>Grecki</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">Estoński</translation>
+        <translation>Estoński</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
@@ -398,124 +398,120 @@ Czy chcesz go zastąpić?</translation>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="71"/>
+        <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
         <translation>Korektor audio</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation>31.25 Hz</translation>
+        <translation type="obsolete">31.25 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation>62.50 Hz</translation>
+        <translation type="obsolete">62.50 Hz</translation>
     </message>
     <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.0 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.0 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.0 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.0 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.0 kHz</translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125 Hz</source>
-        <translation type="unfinished">500.0 Hz {125 ?}</translation>
+        <translation type="obsolete">125 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="77"/>
         <source>250 Hz</source>
-        <translation type="unfinished">500.0 Hz {250 ?}</translation>
+        <translation type="obsolete">250 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="78"/>
         <source>500 Hz</source>
-        <translation type="unfinished">500.0 Hz {500 ?}</translation>
+        <translation type="obsolete">500 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="79"/>
         <source>1 kHz</source>
-        <translation type="unfinished">16.0 kHz {1 ?}</translation>
+        <translation type="obsolete">1 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="80"/>
         <source>2 kHz</source>
-        <translation type="unfinished">16.0 kHz {2 ?}</translation>
+        <translation type="obsolete">2 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
         <source>4 KHz</source>
+        <translation type="obsolete">4 KHz</translation>
+    </message>
+    <message>
+        <source>8 kHz</source>
+        <translation type="obsolete">8 kHz</translation>
+    </message>
+    <message>
+        <source>16 kHz</source>
+        <translation type="obsolete">16 kHz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="84"/>
+        <location filename="../audioequalizer.cpp" line="85"/>
+        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="88"/>
+        <source>%1 Hz</source>
+        <translation type="unfinished">%1 Hz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="89"/>
+        <location filename="../audioequalizer.cpp" line="90"/>
+        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="92"/>
+        <location filename="../audioequalizer.cpp" line="93"/>
+        <source>%1 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8 kHz</source>
-        <translation type="unfinished">16.0 kHz {8 ?}</translation>
+        <location filename="../audioequalizer.cpp" line="95"/>
+        <source>&amp;Preset</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16 kHz</source>
-        <translation type="unfinished">16.0 kHz {16 ?}</translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="85"/>
+        <location filename="../audioequalizer.cpp" line="96"/>
         <source>&amp;Apply</source>
         <translation>Z&amp;atwierdź</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="97"/>
         <source>&amp;Reset</source>
         <translation>&amp;Resetuj</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="98"/>
         <source>&amp;Set as default values</source>
         <translation>U&amp;staw wartości jako domyślne</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="103"/>
+        <source>Flat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="104"/>
+        <source>Pop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="105"/>
+        <source>Rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="110"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Użyj aktualnych wartości jako domyślnych dla nowych plików wideo.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="112"/>
         <source>Set all controls to zero.</source>
         <translation>Ustaw wszystkie suwaki na zero.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="129"/>
         <source>Information</source>
         <translation>Informacja</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="111"/>
+        <location filename="../audioequalizer.cpp" line="130"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Aktualne wartości zostały zapisane i będą używane jako domyślne.</translation>
     </message>
@@ -717,12 +713,12 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;Deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Deblock</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"></translation>
+        <translation>De&amp;ring</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
@@ -1032,7 +1028,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
         <location filename="../basegui.cpp" line="1578"/>
         <location filename="../basegui.cpp" line="1587"/>
         <source>U&amp;nload</source>
-        <translation type="unfinished"></translation>
+        <translation>W&amp;yładuj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1468"/>
@@ -1222,7 +1218,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1794"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Od&amp;szumianie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1797"/>
@@ -1308,12 +1304,12 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="3919"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli lubisz SMPlayera i chcesz wspierać jego rozwój, możesz wysłać dotację. Nawet najmniejsza suma jest bardzo ceniona.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3922"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Tak, chce złożyć dotację</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4381"/>
@@ -1350,7 +1346,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1909"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Podziel się SMPlayerem z twoimi przyjaciółmi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2881"/>
@@ -1884,7 +1880,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1872"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Napisy na ekranie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
@@ -2198,7 +2194,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj &amp;panel kontrolny</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="563"/>
@@ -2387,7 +2383,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">Łączenie z %1</translation>
+        <translation>Łączenie z %1</translation>
     </message>
 </context>
 <context>
@@ -2405,12 +2401,12 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../filepropertiesdialog.ui" line="53"/>
         <source>&amp;Demuxer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Demuxer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wybierz demuxer, dla tego pliku:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="105"/>
@@ -2515,7 +2511,7 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>Socks5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2836,7 +2832,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../infofile.cpp" line="73"/>
         <source>Demuxer</source>
-        <translation type="unfinished"></translation>
+        <translation>Demuxer</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="78"/>
@@ -2993,7 +2989,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
         <location filename="../infofile.cpp" line="150"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
-        <translation type="unfinished"></translation>
+        <translation>ID</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="123"/>
@@ -4274,7 +4270,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Formularz</translation>
     </message>
 </context>
 <context>
@@ -4313,7 +4309,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj &amp;panel kontrolny</translation>
     </message>
 </context>
 <context>
@@ -4353,7 +4349,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wpisz adres(y) URL, które zostaną dodane do listy odtwarzania. Po jednym w każdym wierszu.</translation>
     </message>
 </context>
 <context>
@@ -8211,7 +8207,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Interwał sprawdzania (w &amp;dniach)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
@@ -8231,17 +8227,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest włączona, SMPlayer będzie sprawdzał aktualizacje i wyświetli powiadomienie, jeśli nowa wersja jest dostępna.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Interwał sprawdzania</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Możesz wpisać tutaj interwał (w dniach) dla sprawdzania aktualizacji.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -8481,37 +8477,37 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomóż SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Przypomnij mi później</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli lubisz SMPlayera i chcesz wspierać jego rozwój, możesz wysłać dotację. Nawet najmniejsza suma jest bardzo ceniona.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>Albo może chcesz podzielić SMPlayera z twoimi przyjaciółmi na Facebooku.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Co chcesz zrobić?</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished">&amp;Dotacja</translation>
+        <translation>&amp;Dotacja</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Podziel się z moimi przyjaciółmi</translation>
     </message>
 </context>
 <context>
@@ -8580,7 +8576,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytuj &amp;panel kontrolny</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
@@ -8682,7 +8678,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bieżące działania:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>

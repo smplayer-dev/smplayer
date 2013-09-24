@@ -31,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugiesisch</translation>
+        <translation>Portugiesisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
@@ -41,7 +41,7 @@
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">Bahasa Indonesia</translation>
+        <translation>Indonesisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -72,22 +72,22 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Viele Leute trugen mit Übersetzungen bei.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können auch mithelfen, den SMPlayer in Ihre eigene Sprache zu übersetzen.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Besuchen Sie %1 und treten Sie einem Übersetzungsteam bei.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle Übersetzer aus den Transifex-Teams:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">Norwegisch (Neunorwegisch)</translation>
+        <translation>Neunorwegisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -152,37 +152,37 @@
     <message>
         <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation type="unfinished">Hebräisch</translation>
+        <translation>Hebräisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation type="unfinished">Malaiisch</translation>
+        <translation>Malaiisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisch (Saudi-Arabien)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Sinhala</translation>
+        <translation>Singhalesisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">Griechisch</translation>
+        <translation>Griechisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">Estnisch</translation>
+        <translation>Estnisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N’Ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -197,7 +197,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Seite</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -398,124 +398,120 @@ Möchten Sie sie Überschreiben?</translation>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="71"/>
+        <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
         <translation>Audio-Equalizer</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation>31.25 Hz</translation>
+        <translation type="obsolete">31.25 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation>62,50 Hz</translation>
+        <translation type="obsolete">62,50 Hz</translation>
     </message>
     <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.000 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.000 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.000 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.000 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.00 kHz</translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125 Hz</source>
-        <translation type="unfinished">500.0 Hz {125 ?}</translation>
+        <translation type="obsolete">125 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="77"/>
         <source>250 Hz</source>
-        <translation type="unfinished">500.0 Hz {250 ?}</translation>
+        <translation type="obsolete">250 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="78"/>
         <source>500 Hz</source>
-        <translation type="unfinished">500.0 Hz {500 ?}</translation>
+        <translation type="obsolete">500 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="79"/>
         <source>1 kHz</source>
-        <translation type="unfinished">16.00 kHz {1 ?}</translation>
+        <translation type="obsolete">1 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="80"/>
         <source>2 kHz</source>
-        <translation type="unfinished">16.00 kHz {2 ?}</translation>
+        <translation type="obsolete">2 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
         <source>4 KHz</source>
+        <translation type="obsolete">4 KHz</translation>
+    </message>
+    <message>
+        <source>8 kHz</source>
+        <translation type="obsolete">8 kHz</translation>
+    </message>
+    <message>
+        <source>16 kHz</source>
+        <translation type="obsolete">16 kHz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="84"/>
+        <location filename="../audioequalizer.cpp" line="85"/>
+        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="88"/>
+        <source>%1 Hz</source>
+        <translation type="unfinished">%1 Hz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="89"/>
+        <location filename="../audioequalizer.cpp" line="90"/>
+        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="92"/>
+        <location filename="../audioequalizer.cpp" line="93"/>
+        <source>%1 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8 kHz</source>
-        <translation type="unfinished">16.00 kHz {8 ?}</translation>
+        <location filename="../audioequalizer.cpp" line="95"/>
+        <source>&amp;Preset</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16 kHz</source>
-        <translation type="unfinished">16.00 kHz {16 ?}</translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="85"/>
+        <location filename="../audioequalizer.cpp" line="96"/>
         <source>&amp;Apply</source>
         <translation>&amp;Anwenden</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="97"/>
         <source>&amp;Reset</source>
         <translation>&amp;Zurücksetzen</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="98"/>
         <source>&amp;Set as default values</source>
         <translation>&amp;Als Standard-Wert einstellen</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="103"/>
+        <source>Flat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="104"/>
+        <source>Pop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="105"/>
+        <source>Rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="110"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Die derzeitigen Werte als Standardwerte für neue Videos verwenden.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="112"/>
         <source>Set all controls to zero.</source>
         <translation>Alle Regler auf Null setzen.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="129"/>
         <source>Information</source>
         <translation>Informationen</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="111"/>
+        <location filename="../audioequalizer.cpp" line="130"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Die aktuellen Werte sind als Standard gespeichert worden.</translation>
     </message>
@@ -1313,19 +1309,19 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="3922"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja, ich möchte spenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4381"/>
         <location filename="../basegui.cpp" line="4389"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Probleme mit Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4382"/>
         <location filename="../basegui.cpp" line="4390"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aufgrund von Änderungen bei Youtube, kann das Video &apos;%1&apos; leider nicht abgespielt werden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4383"/>
@@ -1966,7 +1962,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Fehler</translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
@@ -2198,7 +2194,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwebendes &amp;Kontrollelement bearbeiten</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="563"/>
@@ -2387,7 +2383,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">Verbinde mit %1</translation>
+        <translation>Verbinde mit %1</translation>
     </message>
 </context>
 <context>
@@ -4080,7 +4076,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>Bokmål</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
@@ -4191,7 +4187,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
@@ -4313,7 +4309,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwebendes &amp;Kontrollelement bearbeiten</translation>
     </message>
 </context>
 <context>
@@ -8407,9 +8403,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n Minute</numerusform>
+            <numerusform>%n Minuten</numerusform>
         </translation>
     </message>
     <message>
@@ -8486,7 +8482,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Später erinnern</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
@@ -8580,7 +8576,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwebendes &amp;Kontrollelement bearbeiten</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
