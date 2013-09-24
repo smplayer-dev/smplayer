@@ -398,92 +398,80 @@ Do you want to overwrite?</source>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="71"/>
+        <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
         <translation>อิควอไลเซอร์เสียง</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="74"/>
-        <source>31.25 Hz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="75"/>
-        <source>62.50 Hz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
-        <source>125 Hz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="77"/>
-        <source>250 Hz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="78"/>
-        <source>500 Hz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="79"/>
-        <source>1 kHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="80"/>
-        <source>2 kHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
-        <source>4 KHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="82"/>
-        <source>8 kHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="83"/>
-        <source>16 kHz</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
+        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="88"/>
+        <source>%1 Hz</source>
+        <translation type="unfinished">%1 Hz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="89"/>
+        <location filename="../audioequalizer.cpp" line="90"/>
+        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="92"/>
+        <location filename="../audioequalizer.cpp" line="93"/>
+        <source>%1 kHz</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="95"/>
+        <source>&amp;Preset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="96"/>
         <source>&amp;Apply</source>
         <translation>ใ&amp;ช้ทันที</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="97"/>
         <source>&amp;Reset</source>
         <translation>&amp;คืนค่า</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="98"/>
         <source>&amp;Set as default values</source>
         <translation>ตั้งเป็นค่า&amp;ตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="103"/>
+        <source>Flat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="104"/>
+        <source>Pop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="105"/>
+        <source>Rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="110"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>ใช้ค่าปัจจุบัน เป็นค่าตั้งต้นของวิดีโอใหม่.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="112"/>
         <source>Set all controls to zero.</source>
         <translation>ตั้งค่าเป็นศูนย์ทุกตัวควบคุม.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="129"/>
         <source>Information</source>
         <translation>ข้อมูล</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="111"/>
+        <location filename="../audioequalizer.cpp" line="130"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>ค่าปัจจุบันได้ถูกจัดเก็บ เพื่อใช้เป็นค่าตั้งต้น.</translation>
     </message>

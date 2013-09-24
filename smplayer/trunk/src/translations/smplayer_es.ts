@@ -398,124 +398,120 @@ Do you want to overwrite?</source>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="71"/>
+        <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
         <translation>Ecualizador de Audio</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="74"/>
         <source>31.25 Hz</source>
-        <translation>31.25 Hz</translation>
+        <translation type="obsolete">31.25 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="75"/>
         <source>62.50 Hz</source>
-        <translation>62.50 Hz</translation>
+        <translation type="obsolete">62.50 Hz</translation>
     </message>
     <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.000 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.000 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.000 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.000 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.00 kHz</translation>
-    </message>
-    <message>
-        <location filename="../audioequalizer.cpp" line="76"/>
         <source>125 Hz</source>
-        <translation>125 Hz</translation>
+        <translation type="obsolete">125 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="77"/>
         <source>250 Hz</source>
-        <translation>250 Hz</translation>
+        <translation type="obsolete">250 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="78"/>
         <source>500 Hz</source>
-        <translation>500 Hz</translation>
+        <translation type="obsolete">500 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="79"/>
         <source>1 kHz</source>
-        <translation>1 kHz</translation>
+        <translation type="obsolete">1 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="80"/>
         <source>2 kHz</source>
-        <translation>2 kHz</translation>
+        <translation type="obsolete">2 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
         <source>4 KHz</source>
-        <translation>4 KHz</translation>
+        <translation type="obsolete">4 KHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="82"/>
         <source>8 kHz</source>
-        <translation>8 kHz</translation>
+        <translation type="obsolete">8 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="83"/>
         <source>16 kHz</source>
-        <translation>16 kHz</translation>
+        <translation type="obsolete">16 kHz</translation>
     </message>
     <message>
+        <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
+        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="88"/>
+        <source>%1 Hz</source>
+        <translation>%1 Hz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="89"/>
+        <location filename="../audioequalizer.cpp" line="90"/>
+        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="92"/>
+        <location filename="../audioequalizer.cpp" line="93"/>
+        <source>%1 kHz</source>
+        <translation>%1 kHz</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="95"/>
+        <source>&amp;Preset</source>
+        <translation>&amp;Predefinido</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="96"/>
         <source>&amp;Apply</source>
         <translation>&amp;Aplicar</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="86"/>
+        <location filename="../audioequalizer.cpp" line="97"/>
         <source>&amp;Reset</source>
         <translation>&amp;Reiniciar</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="87"/>
+        <location filename="../audioequalizer.cpp" line="98"/>
         <source>&amp;Set as default values</source>
         <translation>&amp;Usar como valores por defecto</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="91"/>
+        <location filename="../audioequalizer.cpp" line="103"/>
+        <source>Flat</source>
+        <translation>Llano</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="104"/>
+        <source>Pop</source>
+        <translation>Pop</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="105"/>
+        <source>Rock</source>
+        <translation>Rock</translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="110"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Usa los valores actuales como valores por defecto para los nuevos vídeos.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="112"/>
         <source>Set all controls to zero.</source>
         <translation>Pone todos los controles a cero.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="129"/>
         <source>Information</source>
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="111"/>
+        <location filename="../audioequalizer.cpp" line="130"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Los valores actuales se han guardado y se usarán como valores predeterminados.</translation>
     </message>
