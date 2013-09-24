@@ -81,16 +81,16 @@ void AudioEqualizer::retranslateStrings() {
 	setWindowTitle( tr("Audio Equalizer") );
 	setWindowIcon( Images::icon("logo") );
 
-	eq[0]->setLabel( tr("31.25 Hz") );
-	eq[1]->setLabel( tr("62.50 Hz") );
-	eq[2]->setLabel( tr("125 Hz") );
-	eq[3]->setLabel( tr("250 Hz") );
-	eq[4]->setLabel( tr("500 Hz") );
-	eq[5]->setLabel( tr("1 kHz") );
-	eq[6]->setLabel( tr("2 kHz") );
-	eq[7]->setLabel( tr("4 KHz") );
-	eq[8]->setLabel( tr("8 kHz") );
-	eq[9]->setLabel( tr("16 kHz") );
+	eq[0]->setLabel( tr("%1 Hz").arg("31.25") );
+	eq[1]->setLabel( tr("%1 Hz").arg("62.50") );
+	eq[2]->setLabel( tr("%1 Hz").arg("125") );
+	eq[3]->setLabel( tr("%1 Hz").arg("250") );
+	eq[4]->setLabel( tr("%1 Hz").arg("500") );
+	eq[5]->setLabel( tr("%1 kHz").arg("1") );
+	eq[6]->setLabel( tr("%1 kHz").arg("2") );
+	eq[7]->setLabel( tr("%1 kHz").arg("4") );
+	eq[8]->setLabel( tr("%1 kHz").arg("8") );
+	eq[9]->setLabel( tr("%1 kHz").arg("16") );
 
 	presets_label->setText( tr("&Preset") );
 	apply_button->setText( tr("&Apply") );
