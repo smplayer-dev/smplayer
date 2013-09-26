@@ -9,10 +9,6 @@
         <translation>Verzia: %1</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Ľudia, ktorí pomohli s prekladom:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation type="unfinished">Španielsky</translation>
@@ -38,34 +34,14 @@
         <translation>Nemecky</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovensky</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Taliansky</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Francúzsky</translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 a %3</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Zjednodušená čínština</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Rusky</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 a %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -102,10 +78,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Japonsky</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Holandsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -158,14 +130,6 @@
         <translation>Tradičná Čínština</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Rumunsky</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugalská Portugalčina</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
         <translation type="unfinished">Grécky</translation>
@@ -184,10 +148,6 @@
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -233,21 +193,9 @@
         <translation>&amp;Licencia</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Navštívte našu stránku pre aktualizácie:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Nájdite pomoc v našom fóre:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
         <translation>Kórejsky</translation>
-    </message>
-    <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Macedónsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
@@ -260,10 +208,6 @@
         <translation>Používa MPlayer %1</translation>
     </message>
     <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Katalánsky</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
         <translation>Prenosná edícia</translation>
@@ -272,10 +216,6 @@
         <location filename="../about.cpp" line="65"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Používa Qt %1 (skompilované s Qt %2)</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovinsky</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -463,74 +403,6 @@ Chcete ho prepísať?</translation>
         <translation>Audio ekvalizér</translation>
     </message>
     <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.000 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.000 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.000 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.000 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.00 kHz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">500.0 Hz {125 ?}</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">500.0 Hz {250 ?}</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500.0 Hz {500 ?}</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">16.00 kHz {1 ?}</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">16.00 kHz {2 ?}</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">16.00 kHz {8 ?}</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16.00 kHz {16 ?}</translation>
-    </message>
-    <message>
         <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
         <location filename="../audioequalizer.cpp" line="86"/>
@@ -606,14 +478,6 @@ Chcete ho prepísať?</translation>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer log</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer log</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Open</source>
@@ -1519,18 +1383,6 @@ Môžete to urobiť teraz v nasledujúcom dialógu.</translation>
         <location filename="../basegui.cpp" line="1469"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Audio CD</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">Denoise nor&amp;mal</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">Denoise &amp;jemné</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">Denoise &amp;vypnuté</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
@@ -8583,10 +8435,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikona</translation>
-    </message>
-    <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
@@ -8878,53 +8726,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Kontrast</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Jas</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Odtieň</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Saturácia</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gamma</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Reset</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Nastaviť ako štandardnú hodnotu</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Použije aktuálne nastavenie ako štandardné hodnoty pre nové videá.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Vynulovať všetky nastavenia ekvalizéru.</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Informácie</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Aktuálne hodnoty boli uložené a budú použité ako štandardné.</translation>
     </message>
 </context>
 <context>

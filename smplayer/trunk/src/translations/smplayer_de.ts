@@ -403,46 +403,6 @@ Möchten Sie sie Überschreiben?</translation>
         <translation>Audio-Equalizer</translation>
     </message>
     <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62,50 Hz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">125 Hz</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">250 Hz</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500 Hz</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">1 kHz</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">2 kHz</translation>
-    </message>
-    <message>
-        <source>4 KHz</source>
-        <translation type="obsolete">4 KHz</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">8 kHz</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16 kHz</translation>
-    </message>
-    <message>
         <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
         <location filename="../audioequalizer.cpp" line="86"/>
@@ -945,7 +905,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1628"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube%1-Browser</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3740"/>
@@ -997,7 +957,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4290"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Möchten Sie mehr über diese neue Version erfahren?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4569"/>
@@ -1112,13 +1072,13 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1562"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1615"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">&amp;Standard</translation>
+        <translation>&amp;Standard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1640"/>
@@ -1128,7 +1088,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube-Code aktualisieren</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1649"/>
@@ -1138,7 +1098,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1651"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1675"/>
@@ -1274,12 +1234,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1865"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mono</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1866"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -1299,12 +1259,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="3918"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Spenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3919"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn Ihnen der SMPlayer gefällt und Sie zu seiner Entwicklung beitragen wollen, können Sie etwas spenden. Selbst die kleinste Spende wird von uns sehr geschätzt.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3922"/>
@@ -1326,27 +1286,27 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4383"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Möchten Sie den Youtube-Code aktualisieren? Dies könnte das Problem beheben.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4391"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vielleicht könnte eine Aktualisierung des SMPlayers das Problem beheben.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5092"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der YouTube-Browser konnte nicht gestartet werden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5093"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Beachten Sie, dass %1 installiert ist.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1909"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Teilen Sie den SMPlayer mit Ihren Freunden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2881"/>
@@ -1895,7 +1855,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1643"/>
         <source>Check for &amp;updates</source>
-        <translation>Nach &amp;Updates suchen</translation>
+        <translation>Nach Akt&amp;ualisierungen suchen</translation>
     </message>
 </context>
 <context>
@@ -1936,27 +1896,27 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Herunterladen …</translation>
+        <translation>Herunterladen...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">Verbinde mit %1</translation>
+        <translation>Verbinde mit %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Youtube-Code wurde erfolgreich aktualisiert.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Installierte Version: %1</translation>
+        <translation>Installierte Version: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Erfolg</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
@@ -1967,12 +1927,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Fehler trat auf beim Schreiben von %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Fehler trat auf beim Herunterladen der Datei:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2015,7 +1975,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../core.cpp" line="4049"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pufferung...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3131"/>
@@ -2051,7 +2011,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../core.cpp" line="532"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Kann die Youtube-Seite nicht aufrufen</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3186"/>
@@ -2238,7 +2198,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoppla, etwas stimmt hier nicht</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2645,12 +2605,12 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Einloggen zur opensubtitles.org ist fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Suche ist fehlgeschlagen</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
@@ -2663,7 +2623,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Reparieren der Untertitelzeilen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2737,13 +2697,6 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <source>Subtitle saved as %1</source>
         <translation>Untertitel gespeichert als %1</translation>
     </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 subtitle extracted</numerusform>
-            <numerusform>%1 subtitles extracted</numerusform>
-        </translation>
-    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>Overwrite?</source>
@@ -2798,7 +2751,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>Erstellen eines Schriftarten-Zwischenspeichers...</translation>
     </message>
 </context>
 <context>
@@ -4270,7 +4223,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Formular</translation>
     </message>
 </context>
 <context>
@@ -4291,7 +4244,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>MediaPanel</translation>
     </message>
 </context>
 <context>
@@ -4304,7 +4257,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished">&amp;Steuerungsleiste bearbeiten</translation>
+        <translation>&amp;Steuerungsleiste bearbeiten</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="163"/>
@@ -4322,7 +4275,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Spulen-Leiste</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
@@ -4344,7 +4297,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse (URL) eingeben</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
@@ -4357,27 +4310,27 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurückspulen</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorspulen</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe / Pause</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
-        <translation type="unfinished">Stopp</translation>
+        <translation>Stopp</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Aufnahme</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
@@ -4523,7 +4476,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="311"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse (&amp;URL) hinzufügen</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="314"/>
@@ -6571,12 +6524,12 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Fenster &amp;verschieben, wenn der Video-Bereich gezogen wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;kin:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="373"/>
@@ -6606,7 +6559,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Einmaliges Drücken der Stopp-Taste setzt die Zeitposition zurück</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6616,7 +6569,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="828"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Maximale Einträge:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="867"/>
@@ -6688,22 +6641,22 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Skinbares GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Fenster verschieben, wenn der Video-Bereich gezogen wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="673"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird das Hauptfenster bewegt, wenn Sie die Maus über den Video-Bereich ziehen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="679"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie das bevorzugte GUI für die Anwendung. Derzeit stehen zwei zur Auswahl: Standard GUI und Mini GUI.&lt;br&gt;Das &lt;b&gt;Standard GUI&lt;/b&gt; bietet das traditionelle GUI, mit einer Symbolleiste und einem Kontrollregler. Das &lt;b&gt;Mini GUI&lt;/b&gt; bietet ein einfaches GUI, ohne Symbolleiste und Kontrollregler mit nur wenigen Tasten.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="687"/>
@@ -6713,12 +6666,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="690"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Skin</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie das bevorzugte Skin für die Anwendung. Nur verfügbar mit einem skinbaren GUI.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="694"/>
@@ -6820,7 +6773,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie die maximale Anzahl an Einträgen, die der &lt;b&gt;Öffnen → URL&lt;/b&gt; Dialog speichern soll. Wählen Sie 0, wenn Sie nicht möchten, dass jede URL gespeichert werden soll.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
@@ -7232,7 +7185,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versuchen Sie einen nicht standardmäßigen CoreAVC Codec zu verwenden, wenn kein anderer Codec angegeben ist und ein nicht-VDPAU Videoausgang gewählt ist. Benötigt MPlayer mit CoreAVC Unterstützung.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
@@ -7375,7 +7328,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe der Dateien von Anfang an</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
@@ -7385,7 +7338,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Informationen über hinzugefügte Dateien automatisch holen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
@@ -7719,7 +7672,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier können Sie eine Systemschriftart auswählen, die für die Untertitel und OSD verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
@@ -8199,57 +8152,57 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Akt&amp;ualisierungen</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Nach &amp;Updates suchen</translation>
+        <translation>Nach Akt&amp;ualisierungen suchen</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfzeitraum (in &amp;Tagen)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Die &amp;Anleitung der ersten Schritte nach einer Aktualisierung öffnen</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktualisierungen</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach Aktualisierungen suchen</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird der SMPlayer nach Aktualisierungen suchen und eine Benachrichtigung anzeigen, wenn eine neue Version verfügbar ist.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Prüfzeitraum</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hier können Sie das Intervall (in Tagen) für die Suche nach Aktualisierungen festlegen.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Anleitung der ersten Schritte nach einer Aktualisierung öffnen</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird nach einer Aktualisierung die Anleitung der ersten Schritte mit Infos und Tipps, wie Sie den SMPlayer verwenden, geöffnet werden.</translation>
     </message>
 </context>
 <context>
@@ -8454,7 +8407,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>öffnet die gui mit Unterstützung für Skins.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -8477,7 +8430,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Unterstützen Sie den SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
@@ -8487,27 +8440,27 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn Ihnen der SMPlayer gefällt und Sie zu seiner Entwicklung beitragen wollen, können Sie etwas spenden. Selbst die kleinste Spende wird von uns sehr geschätzt.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oder möchten Sie vielleicht den SMPlayer mit Ihren Freunden bei Facebook teilen.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Was möchten Sie tun?</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spenden</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Teilen mit meinen Freunden</translation>
     </message>
 </context>
 <context>
@@ -8561,7 +8514,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">&amp;Statusleiste</translation>
+        <translation>&amp;Statusleiste</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8581,7 +8534,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">&amp;Video-Informationen</translation>
+        <translation>&amp;Video-Informationen</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -8648,12 +8601,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Werkzeugleisteneditor</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verfügbare Aktionen:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
@@ -8678,43 +8631,43 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aktuelle Aktionen:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Trennzeichen hinzufügen</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Trennzeichen)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeit-Schieberegler</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Lautstärke-Schieberegler</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeit anzeigen</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3 in 1 Zurückspulen</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3 in 1 Vorspulen</translation>
     </message>
 </context>
 <context>
@@ -8788,7 +8741,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrast</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="66"/>
@@ -8802,37 +8755,37 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Helligkeit</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Farbe</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sättigung</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gamma</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Software-&amp;Equalizer</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>Als &amp;Standardwerte setzen</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Reset</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="101"/>
@@ -9086,7 +9039,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zu Anfang übersprungene &amp;Sekunden:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
@@ -9119,12 +9072,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>Vollbild ein/aus</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-Equalizer</translation>
     </message>
 </context>
 <context>

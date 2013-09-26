@@ -2695,12 +2695,6 @@ Example: resample=44100:0:0,volnorm</source>
         <source>Subtitle saved as %1</source>
         <translation>ศัพท์บรรยายถูกบันทึกเป็น %1</translation>
     </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 subtitle extracted</numerusform>
-        </translation>
-    </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>Overwrite?</source>

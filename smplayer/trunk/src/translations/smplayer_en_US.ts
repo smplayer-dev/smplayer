@@ -59,10 +59,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 and %2</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="172"/>
         <location filename="../about.cpp" line="183"/>
         <source>Hungarian</source>
@@ -2692,13 +2688,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 subtitle extracted</numerusform>
-            <numerusform>%1 subtitles extracted</numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>

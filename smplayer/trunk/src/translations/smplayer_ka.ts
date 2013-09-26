@@ -49,21 +49,9 @@
         <translation type="unfinished">გერმანული</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">სლოვაკური</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">იტალიური</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation type="unfinished">ფრანგული</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">გამარტივებული ჩინური</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -105,10 +93,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation type="unfinished">იაპონური</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">ჰოლანდიური</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -1071,14 +1055,6 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1810"/>
         <source>&amp;Disabled</source>
         <translation>გათი&amp;შულია</translation>
-    </message>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer-ის ჟურნალი</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer-ის ჟურნალი</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3140"/>
@@ -8446,10 +8422,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ხატულა</translation>
-    </message>
-    <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
@@ -8741,45 +8713,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">კონტრასტი</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">სიკაშკაშე</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">ტონი</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">ინტენსივობა</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">გამა</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;საწყისი პარამეტრები</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">ნაგულის&amp;ხმებად შენახვა</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">მიმდინარე მნიშვნელობების ახალი ვიფდეოებისთვის გამოყენება.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">ყველაფრის ნორმალიზება.</translation>
     </message>
 </context>
 <context>

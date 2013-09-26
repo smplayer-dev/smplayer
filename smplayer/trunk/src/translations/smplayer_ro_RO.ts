@@ -9,10 +9,6 @@
         <translation>Versiunea: %1</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Următorii oameni au contribuit cu traduceri:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation type="unfinished">Spaniolă</translation>
@@ -38,34 +34,14 @@
         <translation>Germană</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovacă</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italiană</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Franceză</translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 şi %3</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Chineză-simplificată</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Rusă</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 şi %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -102,10 +78,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Japoneză</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Olandeză</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -158,14 +130,6 @@
         <translation>Chineză Tradiţională</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Română</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugheză - Portugalia</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
         <translation type="unfinished">Greacă</translation>
@@ -181,17 +145,9 @@
         <translation type="unfinished">Ebraică</translation>
     </message>
     <message>
-        <source>Thai</source>
-        <translation type="obsolete">Tailandeză</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation type="unfinished">Malaeziană</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -237,21 +193,9 @@
         <translation>&amp;Licență</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Vizitați situl nostru web pentru actualizări:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Obțineți ajutor pe forumul nostru:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
         <translation>Coreană</translation>
-    </message>
-    <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Macedoneană</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
@@ -264,10 +208,6 @@
         <translation>Se folosește MPlayer r%1</translation>
     </message>
     <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalană</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
         <translation>Ediția Portabilă</translation>
@@ -278,17 +218,9 @@
         <translation>S-a folosit Qt %1 (compilat cu Qt %2)</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenă</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>Arabă</translation>
-    </message>
-    <message>
-        <source>Kurdish</source>
-        <translation type="obsolete">Kurdă</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -470,74 +402,6 @@ Do you want to overwrite?</source>
         <translation>Egalizor grafic  audio</translation>
     </message>
     <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.000 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.000 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.000 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.000 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.00 kHz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">500.0 Hz {125 ?}</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">500.0 Hz {250 ?}</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500.0 Hz {500 ?}</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">16.00 kHz {1 ?}</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">16.00 kHz {2 ?}</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">16.00 kHz {8 ?}</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16.00 kHz {16 ?}</translation>
-    </message>
-    <message>
         <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
         <location filename="../audioequalizer.cpp" line="86"/>
@@ -613,14 +477,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">Jurnal SMPlayer - mplayer</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">Jurnal SMPlayer - smplayer</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Open</source>
@@ -1526,18 +1382,6 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <location filename="../basegui.cpp" line="1469"/>
         <source>&amp;Audio CD</source>
         <translation>CD &amp;Audio</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">Înlăturare zgomot - nor&amp;mal</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">Înlăturare zgomot - &amp;ușor</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">Înlăturare zgomot - inac&amp;tivat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
@@ -2500,10 +2344,6 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">Se descarcă %1</translation>
-    </message>
 </context>
 <context>
     <name>FilePropertiesDialog</name>
@@ -2852,13 +2692,6 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>Subtitrare salvată ca %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 subtitrări extrase</numerusform>
-            <numerusform></numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
@@ -6986,10 +6819,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Interfață grafică</translation>
     </message>
     <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="obsolete">Selectați interfața grafică pe care o preferați pentru SMPlayer. În acest moment există două tipuri: „Interfața grafică implicită” și „Interfața grafică redusă”.&lt;br&gt; &lt;b&gt;Interfața grafică implicită&lt;/b&gt; este o interfață grafică obișnuită, cu bare de unelete și de control. &lt;b&gt;Interfața grafică redusă&lt;/b&gt; este u interfață grafică mai simplă, fără bară de unelte și cu mai puține butoane în bara de control.&lt;br&gt;&lt;b&gt;Notă:&lt;/b&gt;După alegerea opțiunii dorite trebuie să reporniți aplicația SMPlayer pentru ca modificările să se facă simțite.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="185"/>
         <source>&amp;GUI</source>
         <translation>&amp;Interfață grafică</translation>
@@ -7741,10 +7570,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>System font</source>
         <translation>Caractere sistem</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete">Aici puteți selecta un set de caractere ale sistemului pentru a le folosi pentru subtitrări și pentru afișajul de pe ecran (OSD). &lt;b&gt;De reținut:&lt;/b&gt; este nevoie de o versiune MPlayer care să ofere suport pentru configurarea caracterelor.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8593,13 +8418,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>QuaZipFile</name>
-    <message>
-        <source>ZIP/UNZIP API error %1</source>
-        <translation type="obsolete">Eroare API ZIP/UNZIP %1</translation>
-    </message>
-</context>
-<context>
     <name>ReminderDialog</name>
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
@@ -8903,57 +8721,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Contrast</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Strălucire</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Culoare</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Saturație</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gamma</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Valori_implicite</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Selectează ca valoari implicite</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Folosire valori curente ca valori implicite pentru fișiere video noi.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Selectează butoanele de control la zero.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Egalizor video</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Informații</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Valorile curente au fost memorate pentru a fi folosite ca valori implicite.</translation>
     </message>
 </context>
 <context>
