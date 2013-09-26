@@ -175,10 +175,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="212"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
@@ -245,10 +241,6 @@
         <location filename="../about.cpp" line="65"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -485,14 +477,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer konzola</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer konzola</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Open</source>
@@ -1398,18 +1382,6 @@ Prikazalo se bo okno, kjer boste to lahko storili.</translation>
         <location filename="../basegui.cpp" line="1469"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Avdio CD</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">Odstranjevanje šu&amp;ma (normalno)</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">Odstranjevanje šu&amp;ma (majhno)</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">Odstranjevanje šu&amp;ma (izključeno)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
@@ -8452,10 +8424,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikona</translation>
-    </message>
-    <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
@@ -8747,57 +8715,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Kontrast</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Svetlost</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Barvitost</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Saturacija</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gama</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Ponastavi</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Shrani kot privzete vrednosti</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Shrani kot privzete vrednosti.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Vse nastavitve resetiraj na ničlo.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Video Izenačevalnik</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Informacije</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Trenutne nastavite so shranjene kot privzete.</translation>
     </message>
 </context>
 <context>

@@ -9,10 +9,6 @@
         <translation type="unfinished">الأصدار :%1</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">المساهمين في عملية ترجمة المشغل</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation type="unfinished"></translation>
@@ -38,34 +34,14 @@
         <translation type="unfinished">German</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovak</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italian</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation type="unfinished">French</translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 and %3</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Simplified-Chinese</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation type="unfinished">Russian</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 and %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -102,10 +78,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation type="unfinished">Japanese</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Dutch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -158,14 +130,6 @@
         <translation type="unfinished">Traditional Chinese</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Romanian</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portuguese - Portugal</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
         <translation type="unfinished">Greek</translation>
@@ -184,10 +148,6 @@
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -233,21 +193,9 @@
         <translation type="unfinished">الأتفاقيــة</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">قم بزيارة الموقع من اجل التحديثات :</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">لأي مساعدة قم بزيارة المنتدى</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
         <translation type="unfinished">Korean</translation>
-    </message>
-    <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Macedonian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
@@ -260,10 +208,6 @@
         <translation type="unfinished"> %1 MPlayer استخدام</translation>
     </message>
     <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalan</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
         <translation type="unfinished">الاصدار المحمول</translation>
@@ -272,10 +216,6 @@
         <location filename="../about.cpp" line="65"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation type="unfinished">Using Qt %1 (compiled with Qt %2)</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -463,74 +403,6 @@ Do you want to overwrite?</source>
         <translation type="unfinished">موازن الصوت</translation>
     </message>
     <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.000 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.000 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.000 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.000 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.00 kHz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">500.0 Hz {125 ?}</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">500.0 Hz {250 ?}</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500.0 Hz {500 ?}</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">16.00 kHz {1 ?}</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">16.00 kHz {2 ?}</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">16.00 kHz {8 ?}</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16.00 kHz {16 ?}</translation>
-    </message>
-    <message>
         <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
         <location filename="../audioequalizer.cpp" line="86"/>
@@ -606,14 +478,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer تقريــر</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer تقـريــر</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Open</source>
@@ -1519,18 +1383,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1469"/>
         <source>&amp;Audio CD</source>
         <translation type="unfinished">قرص اوديو</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">ألغاء ضجة قياسي</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">ألغاء ضجة ناعم</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">ايقاف الغاء الضجة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
@@ -6965,10 +6817,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished">GUI</translation>
     </message>
     <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="obsolete">Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="185"/>
         <source>&amp;GUI</source>
         <translation type="unfinished">&amp;GUI</translation>
@@ -7720,10 +7568,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>System font</source>
         <translation type="unfinished">خط النظام</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete"> OSD. من هنا بأمكانك تحديد خط النظام الذي سيستخدم في نصوص الترجمة و</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8875,57 +8719,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">المقارنة</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">السطوع</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">الشكل</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">الإشباع</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">الوان غاما</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">الأفتراضي</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">تعيين القيم الأفتراضية</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">استخدام القيم الافتراضية للفيديو الجديد</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">تعيين جميع الادوات الى الصفر</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">موازن الفيديو</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">معلومات</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">القيمة الحالية تم تخزينها لأستخدامها افتراضيا </translation>
     </message>
 </context>
 <context>

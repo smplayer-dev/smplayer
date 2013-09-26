@@ -49,21 +49,9 @@
         <translation type="unfinished">tyska</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">slovakiska</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">italienska</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation type="unfinished">franska</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Förenklad kinesiska</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -105,10 +93,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation type="unfinished">japanska</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">holländska</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -494,14 +478,6 @@ Vill du skriva över den?</translation>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer-logg</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer-logg</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Open</source>
@@ -8454,10 +8430,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikon</translation>
-    </message>
-    <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
@@ -8749,45 +8721,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Kontrast</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Ljusstyrka</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Nyans</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Färgmättnad</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gamma</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Återställ</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Ange som standardvärden</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Använd aktuella värden som standardvärden för nya videor.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Nollställ alla kontroller.</translation>
     </message>
 </context>
 <context>

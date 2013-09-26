@@ -9,10 +9,6 @@
         <translation>Верзија: %1</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Следниве луѓе придонесле со преводи:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation type="unfinished">Шпански</translation>
@@ -38,34 +34,14 @@
         <translation>Германски</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Словачки</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Италијански</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Француски</translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 и %3</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Едноставен-Кинески</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Руски</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 и %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -102,10 +78,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Јапонски</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Холандски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -158,14 +130,6 @@
         <translation>Традиционален Кинески</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Романски</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Португалски - Португалија</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
         <translation type="unfinished">Грчки</translation>
@@ -184,10 +148,6 @@
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -233,21 +193,9 @@
         <translation>&amp;Лиценца</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Посете ја нашата веб страна за надградби:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Добијте помош на нашиот форум:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
         <translation>Корејски</translation>
-    </message>
-    <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Македонски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
@@ -260,10 +208,6 @@
         <translation>Користам MPlayer %1</translation>
     </message>
     <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Каталонски</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
         <translation>Преносно издание</translation>
@@ -274,17 +218,9 @@
         <translation>Користам Qt %1 (компајлирано со Qt %2)</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Словенски</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>Арапски</translation>
-    </message>
-    <message>
-        <source>Kurdish</source>
-        <translation type="obsolete">Курдски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -295,14 +231,6 @@
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer логото е направено од %1</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3 and %4</source>
-        <translation type="obsolete">%1, %2, %3 и %4</translation>
-    </message>
-    <message>
-        <source>%1, %2, %3, %4 and %5</source>
-        <translation type="obsolete">%1, %2, %3, %4 и %5</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
@@ -474,74 +402,6 @@ Do you want to overwrite?</source>
         <translation>Звучен изедначувач</translation>
     </message>
     <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.000 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.000 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.000 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.000 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.00 kHz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">500.0 Hz {125 ?}</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">500.0 Hz {250 ?}</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500.0 Hz {500 ?}</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">16.00 kHz {1 ?}</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">16.00 kHz {2 ?}</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">16.00 kHz {8 ?}</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16.00 kHz {16 ?}</translation>
-    </message>
-    <message>
         <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
         <location filename="../audioequalizer.cpp" line="86"/>
@@ -617,14 +477,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer запис</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - smplayer запис</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Open</source>
@@ -1530,18 +1382,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1469"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;Звучно CD</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">Нормално чистење на &amp;шум</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">Софверско чистење на &amp;шум</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">Исклучи чистење на &amp;шум</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
@@ -2504,10 +2344,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>Connecting to %1</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">Превземам %1</translation>
-    </message>
 </context>
 <context>
     <name>FilePropertiesDialog</name>
@@ -2858,13 +2694,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>Поднасловот е зачуван како %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 поднаслов се отпакувани</numerusform>
-            <numerusform>%n %1 поднаслов се отпакувани</numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
@@ -8590,13 +8419,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>QuaZipFile</name>
-    <message>
-        <source>ZIP/UNZIP API error %1</source>
-        <translation type="obsolete">ZIP/UNZIP API грешка %1</translation>
-    </message>
-</context>
-<context>
     <name>ReminderDialog</name>
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
@@ -8903,57 +8725,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Контраст</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Светлина</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Нијанса</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Заситување</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Гама</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Ресетирај</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Постави како основни вредности</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Користи ги сегашните вредности како основни вредности за нови видеа.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Постави ги сите контроли на нула.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Видео изедначувач</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Информација</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Сегашните вредности се зачувани и ќе се користат како основни.</translation>
-    </message>
-</context>
-<context>
     <name>VideoEqualizer2</name>
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
@@ -9201,10 +8972,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
         <source>&amp;Aspect ratio:</source>
         <translation>&amp;Пропорција на видео:</translation>
-    </message>
-    <message>
-        <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="obsolete">&amp;Секунди за прескокнување на почетокот:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>

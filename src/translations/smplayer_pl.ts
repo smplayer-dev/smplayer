@@ -182,7 +182,7 @@
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>Pismo N&apos;Ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -401,46 +401,6 @@ Czy chcesz go zastąpić?</translation>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
         <translation>Korektor audio</translation>
-    </message>
-    <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">125 Hz</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">250 Hz</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500 Hz</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">1 kHz</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">2 kHz</translation>
-    </message>
-    <message>
-        <source>4 KHz</source>
-        <translation type="obsolete">4 KHz</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">8 kHz</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="84"/>
@@ -713,7 +673,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>&amp;Deblock</source>
-        <translation>&amp;Deblock</translation>
+        <translation>O&amp;dblokowywanie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
@@ -1028,7 +988,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
         <location filename="../basegui.cpp" line="1578"/>
         <location filename="../basegui.cpp" line="1587"/>
         <source>U&amp;nload</source>
-        <translation>W&amp;yładuj</translation>
+        <translation>Wyładuj (&amp;n)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1468"/>
@@ -1112,7 +1072,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1562"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1615"/>
@@ -1218,12 +1178,12 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1794"/>
         <source>De&amp;noise</source>
-        <translation>Od&amp;szumianie</translation>
+        <translation>Odszumia&amp;nie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1797"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozmyj/Wyostrz (&amp;h)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
@@ -1241,7 +1201,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
         <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Miękki (&amp;s)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1823"/>
@@ -1253,13 +1213,13 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
         <location filename="../basegui.cpp" line="1824"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rozmyj (&amp;b)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>Wyo&amp;strz</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1859"/>
@@ -1279,7 +1239,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1866"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation>Odwróć (&amp;v)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -1346,7 +1306,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1909"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation>&amp;Podziel się SMPlayerem z twoimi przyjaciółmi</translation>
+        <translation>Podziel się SMPlayerem z twoimi przyjaciółmi (&amp;h)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2881"/>
@@ -1880,7 +1840,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../basegui.cpp" line="1872"/>
         <source>&amp;Closed captions</source>
-        <translation>&amp;Napisy na ekranie</translation>
+        <translation>Napisy na ekranie (&amp;c)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
@@ -2194,7 +2154,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit &amp;floating control</source>
-        <translation>Edytuj &amp;panel kontrolny</translation>
+        <translation>Edytuj panel kontrolny (&amp;f)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="563"/>
@@ -2238,7 +2198,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Ups, coś poszło nie tak</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2406,7 +2366,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>&amp;Wybierz demuxer, dla tego pliku:</translation>
+        <translation>Wybierz demuxer, dla tego pliku: (&amp;s)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="105"/>
@@ -2736,14 +2696,6 @@ Przykład: resample=44100:0:0,volnorm</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>Napisy zapisano jako %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 subtitle extracted</numerusform>
-            <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
@@ -4291,7 +4243,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>MediaPanel</translation>
     </message>
 </context>
 <context>
@@ -4309,7 +4261,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation>Edytuj &amp;panel kontrolny</translation>
+        <translation>Edytuj panel kontrolny (&amp;f)</translation>
     </message>
 </context>
 <context>
@@ -4783,7 +4735,7 @@ Przykład: resample=44100:0:0,</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, pojawi się okno informujące o błędach MPlayer. W przeciwnym razie takie błędy zostaną zignorowane.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -4913,7 +4865,7 @@ Przykład: resample=44100:0:0,</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przełącza MPlayera do trybu eksperymentalnego, w którym znaczniki czasowe dla klatek wideo obliczane są w inny sposób i obsługiwane są filtry wideo, które dodają nowe klatki lub zmieniają istniejące znaczniki czasowe. Bardziej dokładne znaczniki czasowe mogą być widoczne na przykład podczas odtwarzania napisów dopasowanych do zmiany scen z włączoną biblioteką SSA/ASS. Bez prawidłowego PTS czas napisów będzie zazwyczaj poza niektórymi klatkami. Ta opcja nie działa poprawnie z niektórymi demukserami i kodekami.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
@@ -5957,22 +5909,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefgeneral.cpp" line="341"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>tryb - snap</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="342"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>tryb - slower dive</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="397"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>tryb - uniaud</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="398"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>tryb - dart</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="994"/>
@@ -6570,7 +6522,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Przesuń okno, kiedy obszar obrazu jest przeciągany</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6605,7 +6557,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.ui" line="579"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Jed&amp;no naciśnięcie przycisku stop, resetuje pozycję czasu</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="816"/>
@@ -6626,7 +6578,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../prefinterface.ui" line="45"/>
         <location filename="../prefinterface.ui" line="595"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="410"/>
@@ -6686,22 +6638,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Interfejs graficzny obsługujący skórki</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Przesuń okno, kiedy obszar obrazu jest przeciągany</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="673"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, główne okno zostanie przeniesione jeśli przeciągniesz strzałką myszy nad obszarem obrazu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="679"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz preferowany GUI dla aplikacji. Obecnie dostępne są dwa: Domyślny GUI i Mini GUI. &lt;b&gt;Domyślny GUI&lt;/b&gt; oferuje tradycyjny GUI, z paskiem narzędzi i paskiem sterowania. &lt;b&gt;Mini GUI&lt;/b&gt; oferuje uproszczony GUI, bez paska narzędzi i paska sterowania i zawiera zaledwie kilka przycisków.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="687"/>
@@ -6716,7 +6668,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz preferowaną skórę dla aplikacji. Opcja ta jest dostępna tylko z interfejsem graficznym obsługującym skórki.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="694"/>
@@ -6803,22 +6755,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="734"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"></translation>
+        <translation>Jedno naciśnięcie przycisku stop, resetuje pozycję czasu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="735"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Domyślnie, po naciśnięciu przycisku Stop pozycja czasu zostaje zapamiętana, więc jeśli naciśniesz przycisk Odtwarzanie zostanie ona wznowiona w tym samym czasie. Naciśnij dwukrotnie przycisk Stop, aby zresetować pozycję czasową, jeśli ta opcja jest zaznaczona pozycja czasowa zostanie ustawiona na 0 przy tylko jednym naciśnięciu na przycisk Stop.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="784"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"></translation>
+        <translation>Max. adresów URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wybierz maksymalną ilość pozycji, które zostaną zapamiętane przez dialog &lt;b&gt;Otwórz-&gt;URL&lt;/b&gt;. Ustaw ją na 0, jeśli nie chcesz przechowywać żadnych adresów URL .</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
@@ -7000,7 +6952,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="730"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, szukania będą bardziej dokładne, ale mogą być trochę wolniejsze. Może nie działać z niektórymi formatami wideo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
@@ -7235,7 +7187,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta opcja pozwala na pomijanie filtru loop (zwany także odblokowywaniem) podczas dekodowania H.264. Ponieważ filtrowana klatka ma być używana jako odniesienie dla dekodowanych zależnych klatek powoduje to gorszy wpływ na jakość, niż nie przerabiać odblokowywania np. widea MPEG-2. Ale przynajmniej  daje to duże przyspieszenie bez widocznej utraty jakości przy wysokich strumieniach HDTV.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
@@ -7378,7 +7330,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, wszystkie pliki z listy odtwarzania zostaną odtwarzane od początku zamiast wznowienia z poprzedniego odtwarzania.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
@@ -7892,7 +7844,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Następujące opcje pozwalają zdefiniować styl, który będzie używany dla nietypowych napisów (srt, sub ...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="100"/>
@@ -8212,7 +8164,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8227,7 +8179,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>Jeśli ta opcja jest włączona, SMPlayer będzie sprawdzał aktualizacje i wyświetli powiadomienie, jeśli nowa wersja jest dostępna.</translation>
+        <translation>Jeśli ta opcja jest zaznaczona, SMPlayer będzie sprawdzał aktualizacje i wyświetli powiadomienie, jeśli nowa wersja jest dostępna.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -8242,12 +8194,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, to po aktualizacji zostanie otworzony przewodnik pierwszych kroków z informacjami i wskazówkami na temat jak używać SMPlayera.</translation>
     </message>
 </context>
 <context>
@@ -8454,7 +8406,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>otwiera GUI z obsługą skór.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -8477,12 +8429,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation>Pomóż SMPlayer</translation>
+        <translation>Pomóż SMPlayerowi</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation>&amp;Przypomnij mi później</translation>
+        <translation>P&amp;rzypomnij mi później</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
@@ -8507,7 +8459,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation>&amp;Podziel się z moimi przyjaciółmi</translation>
+        <translation>Podziel się z przyjaciółmi (&amp;s)</translation>
     </message>
 </context>
 <context>
@@ -8576,7 +8528,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation>Edytuj &amp;panel kontrolny</translation>
+        <translation>Edytuj panel kontrolny (&amp;f)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
@@ -8678,7 +8630,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation>&amp;Bieżące działania:</translation>
+        <translation>Bieżące działa&amp;nia:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
@@ -8694,27 +8646,27 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Suwak czasu</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Suwak głośności</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż czas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>przewijanie do tyłu 3 w 1 </translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>przewijanie do przodu 3 w 1 </translation>
     </message>
 </context>
 <context>

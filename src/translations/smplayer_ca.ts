@@ -9,10 +9,6 @@
         <translation>Versió: %1</translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Han col·laborat amb les traduccions:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation type="unfinished">Espanyol</translation>
@@ -38,34 +34,14 @@
         <translation>Alemany</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Eslovac</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italià</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Francès</translation>
     </message>
     <message>
-        <source>%1, %2 and %3</source>
-        <translation type="obsolete">%1, %2 i %3</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Xinès simplificat</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Rus</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 i %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -102,10 +78,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Japonès</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Holandès</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -158,14 +130,6 @@
         <translation>Xinès tradicional</translation>
     </message>
     <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Romanès</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portuguès - Portugal</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
         <translation type="unfinished">Grec</translation>
@@ -184,10 +148,6 @@
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;%1&lt;/b&gt;: %2</source>
-        <translation type="obsolete">&lt;b&gt;%1&lt;/b&gt;: %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -233,21 +193,9 @@
         <translation>&amp;Llicència</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Trobareu actualitzacions a la web:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Si necessiteu ajuda acudiu als fòrums:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
         <translation>Coreà</translation>
-    </message>
-    <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Macedoni</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
@@ -258,10 +206,6 @@
         <location filename="../about.cpp" line="48"/>
         <source>Using MPlayer %1</source>
         <translation>S&apos;està usant MPlayer %1</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Català</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
@@ -534,14 +478,6 @@ El voleu sobreescriure?</translation>
 </context>
 <context>
     <name>BaseGui</name>
-    <message>
-        <source>SMPlayer - mplayer log</source>
-        <translation type="obsolete">SMPlayer - registre de mplayer</translation>
-    </message>
-    <message>
-        <source>SMPlayer - smplayer log</source>
-        <translation type="obsolete">SMPlayer - registre de smplayer</translation>
-    </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Open</source>
@@ -1447,18 +1383,6 @@ Ara us apareixerà el diàleg de configuració i podreu fer-ho.</translation>
         <location filename="../basegui.cpp" line="1469"/>
         <source>&amp;Audio CD</source>
         <translation>CD d&apos;&amp;àudio</translation>
-    </message>
-    <message>
-        <source>Denoise nor&amp;mal</source>
-        <translation type="obsolete">Atenuació de so nor&amp;mal</translation>
-    </message>
-    <message>
-        <source>Denoise &amp;soft</source>
-        <translation type="obsolete">Atenuació de so &amp;suau</translation>
-    </message>
-    <message>
-        <source>Denoise o&amp;ff</source>
-        <translation type="obsolete">A&amp;tenuació de so desactivada</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
@@ -7648,10 +7572,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tipus de lletra del sistema</translation>
     </message>
     <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete">Aquí podeu seleccionar un tipus de lletra pel sistema que s&apos;usarà en subtítols i OSD. &lt;b&gt;Nota:&lt;/b&gt; requereix una versió de MPlayer amb suport per fontconfig.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Autoscale</source>
         <translation>Escalable automàticament</translation>
@@ -8803,45 +8723,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Contrast</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Brillantor</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Hue</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Saturació</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Gamma</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Reinicia</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">E&amp;stableix com a valors per defecte</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Usa els valors actuals pels vídeos nous.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Estableix tots els controls a zero.</translation>
     </message>
 </context>
 <context>

@@ -142,7 +142,7 @@
     <message>
         <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation>Традиционални Кинески</translation>
+        <translation>Кинески традиционални</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -182,7 +182,7 @@
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation>Mandinški</translation>
+        <translation>Maндиншки</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -401,46 +401,6 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
         <translation>Звучни еквилајзер</translation>
-    </message>
-    <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">125 Hz</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">250 Hz</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500 Hz</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">1 kHz</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">2 kHz</translation>
-    </message>
-    <message>
-        <source>4 KHz</source>
-        <translation type="obsolete">4 KHz</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">8 kHz</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="84"/>
@@ -2737,14 +2697,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>Превод је сачуван као %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 subtitle extracted</numerusform>
-            <numerusform>%1 subtitles extracted</numerusform>
-            <numerusform></numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>

@@ -24,10 +24,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The following people have contributed with translations:</source>
-        <translation type="obsolete">Τα παρακάτω άτομα έχουν συμβάλει στις μεταφράσεις:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
         <translation>Ισπανικά</translation>
@@ -53,30 +49,14 @@
         <translation>Γερμανικά</translation>
     </message>
     <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Σλοβάκικα</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Ιταλικά</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="169"/>
         <source>French</source>
         <translation>Γαλλικά</translation>
     </message>
     <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Κινέζικα απλά</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
         <translation>Ρώσικα</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation type="obsolete">%1 και %2</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
@@ -113,10 +93,6 @@
         <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
         <translation>Ιαπωνικά</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Ολλανδικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="159"/>
@@ -167,14 +143,6 @@
         <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
         <translation>Κινέζικα Παραδοσιακά</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Ρουμανικά</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Πορτογαλικά - Πορτογαλία</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="185"/>
@@ -255,21 +223,9 @@
         <translation>&amp;Άδεια</translation>
     </message>
     <message>
-        <source>Visit our web for updates:</source>
-        <translation type="obsolete">Επισκεφτείτε την ιστοσελίδα μας για ενημερώσεις:</translation>
-    </message>
-    <message>
-        <source>Get help in our forum:</source>
-        <translation type="obsolete">Ζητήστε βοήθεια στο forum μας:</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
         <translation>Κορεατικά</translation>
-    </message>
-    <message>
-        <source>Macedonian</source>
-        <translation type="obsolete">Σκοπιανά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="152"/>
@@ -282,10 +238,6 @@
         <translation>Χρήση του MPlayer %1</translation>
     </message>
     <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Καταλανικά</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
         <translation>Φορητή έκδοση (Portable)</translation>
@@ -296,17 +248,9 @@
         <translation>Χρήση του Qt %1 (μεταγλώττιση με Qt %2)</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Σλοβένικα</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
         <translation>Αραβικά</translation>
-    </message>
-    <message>
-        <source>Kurdish</source>
-        <translation type="obsolete">Κουρδικά</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -457,74 +401,6 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
         <translation>Ισοσταθμιστής Ήχου</translation>
-    </message>
-    <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125.0 Hz</source>
-        <translation type="obsolete">125.0 Hz</translation>
-    </message>
-    <message>
-        <source>250.0 Hz</source>
-        <translation type="obsolete">250.0 Hz</translation>
-    </message>
-    <message>
-        <source>500.0 Hz</source>
-        <translation type="obsolete">500.0 Hz</translation>
-    </message>
-    <message>
-        <source>1.000 kHz</source>
-        <translation type="obsolete">1.000 kHz</translation>
-    </message>
-    <message>
-        <source>2.000 kHz</source>
-        <translation type="obsolete">2.000 kHz</translation>
-    </message>
-    <message>
-        <source>4.000 kHz</source>
-        <translation type="obsolete">4.000 kHz</translation>
-    </message>
-    <message>
-        <source>8.000 kHz</source>
-        <translation type="obsolete">8.000 kHz</translation>
-    </message>
-    <message>
-        <source>16.00 kHz</source>
-        <translation type="obsolete">16.00 kHz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">500.0 Hz {125 ?}</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">500.0 Hz {250 ?}</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500.0 Hz {500 ?}</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">16.00 kHz {1 ?}</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">16.00 kHz {2 ?}</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">16.00 kHz {8 ?}</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16.00 kHz {16 ?}</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="84"/>
@@ -1180,10 +1056,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">&amp;Προεπιλογή</translation>
     </message>
     <message>
-        <source>&amp;YouTube browser</source>
-        <translation type="obsolete">YouTube &amp;εξερεύνηση</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1640"/>
         <source>First Steps &amp;Guide</source>
         <translation type="unfinished"></translation>
@@ -1441,14 +1313,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="5093"/>
         <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>An error happened - SMPlayer</source>
-        <translation type="obsolete">Συνέβη ένα σφάλμα - SMPlayer</translation>
-    </message>
-    <message>
-        <source>The YouTube Browser couldn&apos;t be launched</source>
-        <translation type="obsolete">Δεν ήταν δυνατό να ξεκινήσει το πρόγραμμα περιήγησης YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1688"/>
@@ -1979,18 +1843,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">Δωρεά</translation>
     </message>
     <message>
-        <source>If you like SMPlayer, a really good way to support it is by sending a donation, even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Αν σας αρέσει το SMPlayer, ένας πραγματικά καλός τρόπος για να το υποστηρίξετε είναι η αποστολή μιας δωρεάς, ακόμη και η μικρότερη εκτιμάται ιδιαίτερα.</translation>
-    </message>
-    <message>
-        <source>You can send your donation using %1.</source>
-        <translation type="obsolete">Μπορείτε να στείλετε την δωρεά σας χρησιμοποιώντας %1.</translation>
-    </message>
-    <message>
-        <source>this form</source>
-        <translation type="obsolete">αυτή τη φόρμα</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>&amp;Disc</source>
         <translation>&amp;Δίσκος</translation>
@@ -2220,10 +2072,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="528"/>
         <source>Connecting to %1</source>
         <translation>Σύνδεση στο %1</translation>
-    </message>
-    <message>
-        <source>Unable to retrieve youtube page</source>
-        <translation type="obsolete">Αδυναμία ανάκτησης σελίδας youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="542"/>
@@ -2496,10 +2344,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
         <translation type="unfinished">Σύνδεση στο %1</translation>
-    </message>
-    <message>
-        <source>Downloading %1</source>
-        <translation type="obsolete">Κατέβασμα %1</translation>
     </message>
 </context>
 <context>
@@ -2851,13 +2695,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>Οι υπότιτλοι αποθηκέυτηκαν ως %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 υπότιτλος εξάγεται</numerusform>
-            <numerusform>%1 υπότιτλοι εξάγωνται</numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
@@ -6984,10 +6821,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Γραφικό Περιβάλλον  (GUI)</translation>
     </message>
     <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option will take effect the next time you run SMPlayer.</source>
-        <translation type="obsolete">Επιλέξτε το γραφικό περιβάλλον που προτιμάτε για την εφαρμογή. Αυτήν την περίοδο υπάρχουν δύο διαθέσιμα: Προεπιλεγμένο γραφικό περιβάλλον (GUI) και Μίνι γραφικό περιβάλλον (GUI).&lt;br&gt;Το &lt;b&gt;Προεπιλεγμένο γραφικό περιβάλλον&lt;/b&gt; παρέχει το παραδοσιακό GUI, με τη γραμμή εργαλείων και γραμμή ελέγχου. To &lt;b&gt;Μίνι γραφικό περιβάλλον&lt;/b&gt; παρέχει ένα πιο απλό GUI, χωρίς κυρια εργαλειοθήκη και μια εργαλειοθήκη ελέγχου με μερικά κουμπιά.&lt;br&gt;&lt;b&gt;Σημεόωση:&lt;/b&gt; επιλογή αυτή θα εφαρμοστεί την επόμενη φορά που θα εκτελέσετε το SMPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="185"/>
         <source>&amp;GUI</source>
         <translation>&amp;Γραφ.Περιβάλλον</translation>
@@ -7537,10 +7370,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Τσεκάρετε αυτήν την επιλογή αν θέλετε να προσθέσετε έναν φάκελο και τα αρχεία στους υποφακέλους του. Διαφορετικά, μόνο τα αρχεία στον επιλεγμένο φάκελο θα προστεθούν.</translation>
     </message>
     <message>
-        <source>Add info automatically about files added</source>
-        <translation type="obsolete">Αυτόματη προσθήκη πληροφοριών σχετικά με τα αρχεία που προστίθενται</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Ενεργοποιήστε αυτήν την επιλογή για να ερευνηθούν τα αρχεία που προστίθενται στη λίστα αναπαραγωγής για κάποιες πληροφορίες. Αυτό επιτρέπει να δείξει το όνομα του τίτλου (αν υπάρχει) και τη διάρκεια των αρχείων. Διαφορετικά αυτές οι πληροφορίες δεν θα είναι διαθέσιμες μέχρι να αναπαραχθεί το αρχείο. Προσοχή: η επιλογή αυτή μπορεί να είναι αργή, ειδικά αν προσθέσετε πολλά αρχεία.</translation>
@@ -7743,10 +7572,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>System font</source>
         <translation>Γραμματοσειρά συστήματος</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD. &lt;b&gt;Note:&lt;/b&gt; requires a MPlayer with fontconfig support.</source>
-        <translation type="obsolete">Εδώ μπορείτε να επιλέξετε μια γραμματοσειρά συστήματος που θα χρησιμοποιηθεί για τους υπότιτλους και OSD. &lt;b&gt;Σημείωση:&lt;/b&gt; απαιτεί MPlayer με υποστήριξη fontconfig.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8595,13 +8420,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>QuaZipFile</name>
-    <message>
-        <source>ZIP/UNZIP API error %1</source>
-        <translation type="obsolete">Σφάλμα ZIP/UNZIP API %1</translation>
-    </message>
-</context>
-<context>
     <name>ReminderDialog</name>
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
@@ -8612,10 +8430,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">εικονίδιο</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
@@ -8912,57 +8726,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>VideoEqualizer</name>
-    <message>
-        <source>Contrast</source>
-        <translation type="obsolete">Αντίθεση</translation>
-    </message>
-    <message>
-        <source>Brightness</source>
-        <translation type="obsolete">Φωτεινότης</translation>
-    </message>
-    <message>
-        <source>Hue</source>
-        <translation type="obsolete">Χρώμα</translation>
-    </message>
-    <message>
-        <source>Saturation</source>
-        <translation type="obsolete">Κορεσμός</translation>
-    </message>
-    <message>
-        <source>Gamma</source>
-        <translation type="obsolete">Γάμα</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Άκυρο</translation>
-    </message>
-    <message>
-        <source>&amp;Set as default values</source>
-        <translation type="obsolete">&amp;Ρύθμιση σαν αρχικών τιμών</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Χρήση τρεχουσών ρυθμίσεων για τα νέα βίντεο.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Αποθήκευση όλων των ρυθμίσεων σε μηδέν.</translation>
-    </message>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Ισοσταθμιστής Βίντεο</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation type="obsolete">Πληροφορίες</translation>
-    </message>
-    <message>
-        <source>The current values have been stored to be used as default.</source>
-        <translation type="obsolete">Οι τρέχουσες τιμές έχουν αποθηκευτεί για να χρησιμοποιηθούν ως προεπιλογή.</translation>
-    </message>
-</context>
-<context>
     <name>VideoEqualizer2</name>
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
@@ -9210,10 +8973,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
         <source>&amp;Aspect ratio:</source>
         <translation>&amp;Αναλογίες εικόνας:</translation>
-    </message>
-    <message>
-        <source>&amp;Seconds to skip at the beginnning:</source>
-        <translation type="obsolete">&amp;Δευτερόλεπτα για να παρακάμψετε στην αρχή:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>

@@ -403,46 +403,6 @@ Do you want to overwrite?</source>
         <translation>オーディオ イコライザー</translation>
     </message>
     <message>
-        <source>31.25 Hz</source>
-        <translation type="obsolete">31.25 Hz</translation>
-    </message>
-    <message>
-        <source>62.50 Hz</source>
-        <translation type="obsolete">62.50 Hz</translation>
-    </message>
-    <message>
-        <source>125 Hz</source>
-        <translation type="obsolete">125 Hz</translation>
-    </message>
-    <message>
-        <source>250 Hz</source>
-        <translation type="obsolete">250 Hz</translation>
-    </message>
-    <message>
-        <source>500 Hz</source>
-        <translation type="obsolete">500 Hz</translation>
-    </message>
-    <message>
-        <source>1 kHz</source>
-        <translation type="obsolete">1 kHz</translation>
-    </message>
-    <message>
-        <source>2 kHz</source>
-        <translation type="obsolete">2 kHz</translation>
-    </message>
-    <message>
-        <source>4 KHz</source>
-        <translation type="obsolete">4 KHz</translation>
-    </message>
-    <message>
-        <source>8 kHz</source>
-        <translation type="obsolete">8 kHz</translation>
-    </message>
-    <message>
-        <source>16 kHz</source>
-        <translation type="obsolete">16 kHz</translation>
-    </message>
-    <message>
         <location filename="../audioequalizer.cpp" line="84"/>
         <location filename="../audioequalizer.cpp" line="85"/>
         <location filename="../audioequalizer.cpp" line="86"/>
@@ -2734,12 +2694,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>字幕が %1 として保存されました</translation>
-    </message>
-    <message numerus="yes">
-        <source>%1 subtitle(s) extracted</source>
-        <translation type="obsolete">
-            <numerusform>%1 subtitle extracted</numerusform>
-        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
