@@ -506,6 +506,12 @@ Section -Post
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
 
+  ;Clean up empty directories
+  RMDir "$INSTDIR\platforms"
+!ifdef WIN64
+  RMDir "$INSTDIR\mplayer\codecs"
+!endif
+
 SectionEnd
 
 ${MementoSectionDone}
