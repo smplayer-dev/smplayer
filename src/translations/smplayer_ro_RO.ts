@@ -8782,12 +8782,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Folosirea valorilor curente ca valori implicite pentru fișierele video noi.</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Aducerea butoanele de control la zero.</translation>
     </message>
 </context>
 <context>

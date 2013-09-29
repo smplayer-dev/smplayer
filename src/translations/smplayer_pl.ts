@@ -409,7 +409,7 @@ Czy chcesz go zastąpić?</translation>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -418,12 +418,12 @@ Czy chcesz go zastąpić?</translation>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ustawienia wstępne</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="96"/>
@@ -443,17 +443,17 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="103"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation>Płaski</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pop</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="105"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>

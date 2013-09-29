@@ -1083,7 +1083,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1640"/>
         <source>First Steps &amp;Guide</source>
-        <translation>第一個步驟指南(&amp;G)</translation>
+        <translation>首次操作指南(&amp;G)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
@@ -8161,7 +8161,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>在升級之後，開啟第一個步驟指南(&amp;O)</translation>
+        <translation>在升級之後，開啟首次操作指南(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8191,12 +8191,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation>在升級之後，開啟第一個步驟指南</translation>
+        <translation>在升級之後，開啟首次操作指南</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>如果啟用這個選項，有關如何使用 SMPlayer 資訊和提示訊息的第一步驟指南，將在升級之後打開。</translation>
+        <translation>如果啟用這個選項，有關如何使用 SMPlayer 的資訊和提示訊息之首次操作指南，將在升級之後打開。</translation>
     </message>
 </context>
 <context>

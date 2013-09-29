@@ -409,7 +409,7 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -418,12 +418,12 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>プリセット(&amp;P)</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="96"/>
@@ -443,17 +443,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="103"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation>フラット</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>ポップ</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="105"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>ロック</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
