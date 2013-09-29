@@ -172,17 +172,17 @@
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">Грецька</translation>
+        <translation>Грецька</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">Естонська</translation>
+        <translation>Естонська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="212"/>
@@ -409,7 +409,7 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Гц</translation>
+        <translation>%1 Гц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -418,12 +418,12 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 кГц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Попередньо встановлені</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="96"/>
@@ -443,17 +443,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="103"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation>Плоский</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Поп</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="105"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Рок</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
@@ -2343,7 +2343,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">З&apos;єднання з %1</translation>
+        <translation>З&apos;єднання з %1</translation>
     </message>
 </context>
 <context>
@@ -8427,37 +8427,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Допомога SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Нагадати згодом</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished">Якщо ви любите SMPlayer і хочете підтримати його розвиток, ви можете надіслати пожертви. Навіть найменші високо цінуються.</translation>
+        <translation>Якщо вам подобається SMPlayer і хочете підтримати його розвиток, ви можете надіслати пожертви. Навіть найменші високо цінуються.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>Або, може, ви бажаєте поділитися SMPlayer з друзями у Facebook.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Що ви бажаєте зробити?</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished">&amp;Пожертвувати</translation>
+        <translation>&amp;Пожертвувати</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;оділитися з друзями</translation>
     </message>
 </context>
 <context>

@@ -1245,7 +1245,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3508"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Αυτές οι τιμές έχουν αποθηκευτεί για να χρησιμοποιούνται ως προεπιλεγμένες.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3919"/>
@@ -8784,12 +8784,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Χρήση αυτών των τιμών ως προεπιλεγμένες για τα νέα βίντεο.</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Επαναφορά όλων των ρυθμίσεων στο μηδέν.</translation>
     </message>
 </context>
 <context>
