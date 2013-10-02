@@ -150,7 +150,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="212"/>
+        <location filename="../about.cpp" line="188"/>
+        <source>Italian</source>
+        <translation type="unfinished">Taliansky</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="189"/>
+        <source>Uzbek</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="190"/>
+        <source>Catalan</source>
+        <translation type="unfinished">Katalánsky</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="215"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>

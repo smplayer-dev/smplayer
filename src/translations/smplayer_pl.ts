@@ -185,7 +185,22 @@
         <translation>Pismo N&apos;Ko</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="212"/>
+        <location filename="../about.cpp" line="188"/>
+        <source>Italian</source>
+        <translation type="unfinished">Włoski</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="189"/>
+        <source>Uzbek</source>
+        <translation type="unfinished">Uzbecki</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="190"/>
+        <source>Catalan</source>
+        <translation type="unfinished">Kataloński</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="215"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
