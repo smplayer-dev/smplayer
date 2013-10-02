@@ -165,7 +165,7 @@ QString About::getTranslators() {
 		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "Zhangzheliuli" << "Zhnagmin") +
 		trad(tr("Vietnamese"), QStringList() << "Anh Phan" << "Biz Over" << "Thu Thao Nguyen Ngoc") +
 		trad(tr("Polish"), QStringList() <<"Filux" << QString::fromUtf8("Łukasz Hryniuk") << QString::fromUtf8("Piotr Strębski") << QString::fromUtf8("Michał Trzebiatowski")) +
-		trad(tr("Russian"), QStringList() << "WiseLord" << "Viktor" << "DmitryKX") +
+		trad(tr("Russian"), QStringList() << "WiseLord" << "Viktor" << "DmitryKX" << "Gleb Mekhrenin") +
 		trad(tr("French"), QStringList() << "Olivier Devineau" << "Ybsar") +
 		trad(tr("Indonesian"), QStringList() << "Mohamad Hasan Al Banna" << "Aulia Firdaus Simbolon" << "Muhammad Fikri Hariri") +
 		trad(tr("Danish"), "Michael Larsen") +
@@ -185,6 +185,9 @@ QString About::getTranslators() {
 		trad(tr("Greek"), QString::fromUtf8("Γιάννης Ανθυμίδης")) +
 		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi")) +
 		trad(tr("N'ko"), QStringList() << QString::fromUtf8("Kairaba Cissé") << "Youssouf Diaby" << "Lasnei Kante" << "Kante Soufiane") +
+		trad(tr("Italian"), "Damtux") +
+		trad(tr("Uzbek"), "Umid Almasov") +
+		trad(tr("Catalan"), "Anna Fenoy") +
 		"");
 }
 
