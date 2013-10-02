@@ -14,18 +14,27 @@ echo.
 echo 1 - NSIS SMPlayer Packages
 echo 2 - Portable SMPlayer Package
 echo 3 - SMPlayer Package w/o MPlayer
-echo 4 - MPlayer Package
-
 echo.
 
 :: Relative directory of all the source files to this script
 set TOP_LEVEL_DIR=..
 
 :: Reset in case ran again in same command prompt instance
-set SMPLAYER_VER=
+set ALL_PKG_VER=
+set VER_MAJOR=
+set VER_MINOR=
+set VER_BUILD=
+set VER_REVISION=
+set VER_REV_CMD=
+set MAKENSIS_EXE_PATH=
+set USER_CHOICE=
 
 :: NSIS path
-set NSIS_PATH="C:\Program Files (x86)\NSIS\Unicode"
+if exist "%PROGRAMFILES(X86)%\NSIS\Unicode\makensis.exe" (
+  set MAKENSIS_EXE_PATH="%PROGRAMFILES(X86)%\NSIS\Unicode\makensis.exe"
+) else if exist "%PROGRAMFILES%\NSIS\Unicode\makensis.exe" (
+  set MAKENSIS_EXE_PATH="%PROGRAMFILES%\NSIS\Unicode\makensis.exe"
+)
 
 set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build64
 set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
@@ -36,63 +45,42 @@ set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
 set /P USER_CHOICE="Choose an action: "
 echo.
 
-if "%USER_CHOICE%" == "1" (
-  goto nsispkg
+if "%USER_CHOICE%" == "1"  goto pkgver
+if "%USER_CHOICE%" == "2"  goto pkgver
+if "%USER_CHOICE%" == "3"  goto pkgver
+goto reask
 
-) else if "%USER_CHOICE%" == "2" (
-  goto portable
+:pkgver
 
-) else if "%USER_CHOICE%" == "3" (
-  goto nomplayer
-
-) else if "%USER_CHOICE%" == "4" (
-  goto mplayer
-
-) else (
-  goto reask
-)
-
-:nsispkg
-
-echo --- Creating SMPlayer NSIS Packages ---
-echo.
 echo Format: VER_MAJOR.VER_MINOR.VER_BUILD[.VER_REVISION]
 echo VER_REVISION is optional (set to 0 if blank)
 echo.
 
+:pkgver_again
+Set /p ALL_PKG_VER="Version: "
+echo.
 
-:: Reset in case ran again in same command prompt instance
-set NSIS_PKG_VER=
-set VER_MAJOR=
-set VER_MINOR=
-set VER_BUILD=
-set VER_REVISION=
-set VER_REV_CMD=
-
-:nsispkgver_again
-Set /p NSIS_PKG_VER="Version: "
-
-for /f "tokens=1 delims=." %%j in ("%NSIS_PKG_VER%")  do set VER_MAJOR=%%j
-for /f "tokens=2 delims=." %%k in ("%NSIS_PKG_VER%")  do set VER_MINOR=%%k
-for /f "tokens=3 delims=." %%l in ("%NSIS_PKG_VER%")  do set VER_BUILD=%%l
-for /f "tokens=4 delims=." %%m in ("%NSIS_PKG_VER%")  do set VER_REVISION=%%m
+for /f "tokens=1 delims=." %%j in ("%ALL_PKG_VER%")  do set VER_MAJOR=%%j
+for /f "tokens=2 delims=." %%k in ("%ALL_PKG_VER%")  do set VER_MINOR=%%k
+for /f "tokens=3 delims=." %%l in ("%ALL_PKG_VER%")  do set VER_BUILD=%%l
+for /f "tokens=4 delims=." %%m in ("%ALL_PKG_VER%")  do set VER_REVISION=%%m
 
 if [%VER_MAJOR%]==[] (
   echo Major Version # must be specified [#.x.x]
   echo.
-  goto nsispkgver_again
+  goto pkgver_again
 )
 
 if [%VER_MINOR%]==[] (
   echo Minor Version # must be specified [x.#.x]
   echo.
-  goto nsispkgver_again
+  goto pkgver_again
 )
 
 if [%VER_BUILD%]==[] (
   echo Build Version # must be specified [x.x.#]
   echo.
-  goto nsispkgver_again
+  goto pkgver_again
 )
 
 if [%VER_REVISION%]==[] (
@@ -101,22 +89,29 @@ if [%VER_REVISION%]==[] (
   set VER_REV_CMD= /DVER_REVISION=%VER_REVISION%
 )
 
+if "%USER_CHOICE%" == "1"  goto nsispkg
+if "%USER_CHOICE%" == "2"  goto portable
+if "%USER_CHOICE%" == "3"  goto nomplayer
+:: Should not happen
+goto end
+
+:nsispkg
+
+echo --- Creating SMPlayer NSIS Packages ---
+echo.
+
 if exist %TOP_LEVEL_DIR%\smplayer-build (
-  %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 if exist %TOP_LEVEL_DIR%\smplayer-build64 (
-  %NSIS_PATH%\makensis.exe /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 goto end
 
 :portable
 echo --- Creating SMPlayer Portable Package ---
-echo.
-
-set /P SMPLAYER_VER="SMPlayer Version: "
-if "%SMPLAYER_VER%"=="" goto end
 echo.
 
 :: Check for portable exes
@@ -130,10 +125,10 @@ if not exist %PORTABLE_EXE_DIR%\smtube-portable64.exe (
 	goto end
 )
 
-ren %SMPLAYER_DIR% smplayer-portable-%SMPLAYER_VER%-x64
-set SMPLAYER_PORTABLE_DIR=%TOP_LEVEL_DIR%\smplayer-portable-%SMPLAYER_VER%-x64
+ren %SMPLAYER_DIR% smplayer-portable-%ALL_PKG_VER%-x64
+set SMPLAYER_PORTABLE_DIR=%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64
 
-if not exist %TOP_LEVEL_DIR%\smplayer-portable-%SMPLAYER_VER%-x64 (
+if not exist %TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64 (
   echo Oops! Unable to find renamed directory, make sure no files are opened.
 	goto end
 )
@@ -193,7 +188,7 @@ copy /y %PORTABLE_EXE_DIR%\smtube-portable64.exe %SMPLAYER_PORTABLE_DIR%\smtube.
 echo.
 echo Finalizing portable package...
 echo.
-7za a -t7z %OUTPUT_DIR%\smplayer-portable-%SMPLAYER_VER%-x64.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -mx9
+7za a -t7z %OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe -xr!codecs -mx9
 
 echo.
 echo Restoring source folder(s) back to its original state...
@@ -218,39 +213,15 @@ goto end
 echo --- Creating SMPlayer w/o MPlayer Package ---
 echo.
 
-set /P SMPLAYER_VER="SMPlayer Version: "
-if "%SMPLAYER_VER%"=="" goto end
-echo.
+ren %SMPLAYER_DIR% smplayer-%ALL_PKG_VER%
+set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-%ALL_PKG_VER%-x64
 
-ren %SMPLAYER_DIR% smplayer-%SMPLAYER_VER%
-set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-%SMPLAYER_VER%
+7za a -t7z %OUTPUT_DIR%\smplayer-%ALL_PKG_VER%-x64_without_mplayer.7z %SMPLAYER_DIR% -xr!mplayer -mx9
 
-7za a -t7z %OUTPUT_DIR%\smplayer-%SMPLAYER_VER%_without_mplayer.7z %SMPLAYER_DIR% -xr!mplayer -mx9
-
-ren %SMPLAYER_DIR% smplayer-build
+ren %SMPLAYER_DIR% smplayer-build64
 
 echo.
 echo Restoring source folder(s) back to its original state....
-
-goto end
-
-:mplayer
-echo.
-echo --- Creating MPlayer Package ---
-echo.
-
-set /P MP_REV="MPlayer Revision: "
-
-ren %MPLAYER_DIR% mplayer-svn-%MP_REV%
-set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer-svn-%MP_REV%
-
-7za a -t7z %OUTPUT_DIR%\mplayer-svn-%MP_REV%.7z %MPLAYER_DIR% -xr!mencoder.exe -mx9
-
-ren %MPLAYER_DIR% mplayer
-set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
-
-echo.
-echo Restoring source folder(s) back to its original state...
 
 goto end
 
