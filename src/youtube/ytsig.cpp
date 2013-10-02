@@ -90,7 +90,7 @@ void YTSig::reloadScriptFile() {
 
 		QRegExp rx("TS: ([\\d,a-z,A-Z-]+)");
 		if (rx.indexIn(bytes)) {
-			parsed_ts = rx.cap(1);
+			parsed_ts = rx.cap(0);
 			qDebug("YTSig::reloadScriptFile: parsed_ts: %s", parsed_ts.toLatin1().constData());
 		}
 
@@ -104,7 +104,7 @@ QString YTSig::default_script;
 
 #else
 
-QString YTSig::parsed_ts = "0";
+QString YTSig::parsed_ts = "TS: 0";
 
 QString YTSig::rev(const QString & orig) {
 	QString r;
@@ -147,6 +147,6 @@ QString YTSig::aclara(const QString & text, const QString & player, const QStrin
 
 void YTSig::check(QString & u) {
 	if (!parsed_ts.isEmpty()) {
-		u.append(QString("%1%2%3%4%5%6").arg(u['3']).arg(u['5']).arg(u['0'-23]).arg(u['a'-44]).arg(u['I'-33]).arg(parsed_ts));
+		u.append(QString("%1%2%3").arg(QChar(38)).arg(QChar(115)).arg(parsed_ts.replace(": ","=").toLower()));
 	}
 }
