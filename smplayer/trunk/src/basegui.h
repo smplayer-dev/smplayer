@@ -108,7 +108,6 @@ public slots:
 #endif
 	virtual void helpShowConfig();
 	virtual void helpAbout();
-	virtual void helpAboutQt();
 
 	virtual void shareSMPlayer();
 
@@ -499,7 +498,6 @@ protected:
 #ifdef REMINDER_ACTIONS
 	MyAction * donateAct;
 #endif
-	MyAction * aboutQtAct;
 	MyAction * aboutThisAct;
 
 	MyAction * facebookAct;
