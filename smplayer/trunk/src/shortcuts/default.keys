@@ -96,8 +96,9 @@ first_steps
 faq	
 cl_options	
 check_updates	
+update_youtube	
 show_config	
-about_qt	
+donate	
 about_smplayer	
 facebook	
 twitter	
@@ -230,6 +231,7 @@ pl_shuffle
 pl_add_current	
 pl_add_files	
 pl_add_directory	
+pl_add_urls	
 pl_remove_selected	
 pl_remove_all	
 pl_edit	
