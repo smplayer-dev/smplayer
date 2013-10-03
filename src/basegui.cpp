@@ -796,10 +796,6 @@ void BaseGui::createActions() {
              this, SLOT(helpDonate()) );
 #endif
 
-	aboutQtAct = new MyAction( this, "about_qt" );
-	connect( aboutQtAct, SIGNAL(triggered()),
-             this, SLOT(helpAboutQt()) );
-
 	aboutThisAct = new MyAction( this, "about_smplayer" );
 	connect( aboutThisAct, SIGNAL(triggered()),
              this, SLOT(helpAbout()) );
@@ -1650,7 +1646,6 @@ void BaseGui::retranslateStrings() {
 #ifdef REMINDER_ACTIONS
 	donateAct->change( Images::icon("donate"), tr("&Donate") );
 #endif
-	aboutQtAct->change( QPixmap(":/icons-png/qt.png"), tr("About &Qt") );
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
 	facebookAct->change("&Facebook");
@@ -2641,7 +2636,6 @@ void BaseGui::createMenus() {
 	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
 #endif
-	helpMenu->addAction(aboutQtAct);
 	helpMenu->addAction(aboutThisAct);
 
 	// POPUP MENU
@@ -3935,10 +3929,6 @@ void BaseGui::helpDonate() {
 void BaseGui::helpAbout() {
 	About d(this);
 	d.exec();
-}
-
-void BaseGui::helpAboutQt() {
-	QMessageBox::aboutQt(this, tr("About Qt") );
 }
 
 void BaseGui::shareSMPlayer() {
