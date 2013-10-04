@@ -85,6 +85,7 @@ signals:
 	void receivedScreenshot(QString);
 	void receivedUpdatingFontCache();
 	void receivedScanningFont(QString);
+	void receivedForbiddenText();
 
 	void receivedStreamTitle(QString);
 	void receivedStreamTitleAndUrl(QString,QString);
