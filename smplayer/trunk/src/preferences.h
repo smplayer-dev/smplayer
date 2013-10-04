@@ -97,8 +97,12 @@ public:
 	bool add_blackborders_on_fullscreen;
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	#ifdef SCREENSAVER_OFF
 	bool turn_screensaver_off;
+	#endif
+	#ifdef AVOID_SCREENSAVER
 	bool avoid_screensaver;
+	#endif
 #else
 	bool disable_screensaver;
 #endif

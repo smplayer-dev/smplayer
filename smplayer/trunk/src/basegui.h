@@ -342,8 +342,10 @@ protected:
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
 #ifdef Q_OS_WIN
+	#ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */
 	virtual bool winEvent ( MSG * m, long * result );
+	#endif
 #endif
 
 	virtual void aboutToEnterFullscreen();

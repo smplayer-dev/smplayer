@@ -108,8 +108,12 @@ void Preferences::reset() {
 	add_blackborders_on_fullscreen = false;
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	#ifdef SCREENSAVER_OFF
 	turn_screensaver_off = false;
+	#endif
+	#ifdef AVOID_SCREENSAVER
 	avoid_screensaver = true;
+	#endif
 #else
 	disable_screensaver = true;
 #endif
@@ -551,8 +555,12 @@ void Preferences::save() {
 	set->setValue("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen);
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	#ifdef SCREENSAVER_OFF
 	set->setValue("turn_screensaver_off", turn_screensaver_off);
+	#endif
+	#ifdef AVOID_SCREENSAVER
 	set->setValue("avoid_screensaver", avoid_screensaver);
+	#endif
 #else
 	set->setValue("disable_screensaver", disable_screensaver);
 #endif
@@ -1023,8 +1031,12 @@ void Preferences::load() {
 	add_blackborders_on_fullscreen = set->value("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen).toBool();
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	#ifdef SCREENSAVER_OFF
 	turn_screensaver_off = set->value("turn_screensaver_off", turn_screensaver_off).toBool();
+	#endif
+	#ifdef AVOID_SCREENSAVER
 	avoid_screensaver = set->value("avoid_screensaver", avoid_screensaver).toBool();
+	#endif
 #else
 	disable_screensaver = set->value("disable_screensaver", disable_screensaver).toBool();
 #endif

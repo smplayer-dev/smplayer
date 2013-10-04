@@ -5123,6 +5123,7 @@ void BaseGui::changeEvent(QEvent *e) {
 }
 
 #ifdef Q_OS_WIN
+#ifdef AVOID_SCREENSAVER
 /* Disable screensaver by event */
 bool BaseGui::winEvent ( MSG * m, long * result ) {
 	//qDebug("BaseGui::winEvent");
@@ -5151,6 +5152,7 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 	}
 	return false;
 }
+#endif
 #endif
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
