@@ -18,10 +18,10 @@
 
 #include <Qt>
 #include <QSysInfo>
+#include "screensaver.h"
 #ifndef Q_OS_OS2
 #include <windows.h>
 #endif
-#include "screensaver.h"
 
 WinScreenSaver::WinScreenSaver() {
 #ifndef Q_OS_OS2
@@ -85,7 +85,8 @@ void WinScreenSaver::restoreState() {
 			SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, poweroff, NULL, 0);
 		}
 		SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, screensaver, NULL, 0);
-		
+		SetThreadExecutionState(ES_CONTINUOUS);
+
 		qDebug("WinScreenSaver::restoreState: lowpower: %d, poweroff: %d, screensaver: %d", lowpower, poweroff, screensaver);
 #else
 		if (SSCore_TempEnable) {
@@ -117,6 +118,7 @@ void WinScreenSaver::disable() {
 		SystemParametersInfo(SPI_SETPOWEROFFTIMEOUT, 0, NULL, 0);
 	}
 	SystemParametersInfo(SPI_SETSCREENSAVETIMEOUT, 0, NULL, 0);
+	SetThreadExecutionState(ES_CONTINUOUS | ES_DISPLAY_REQUIRED);
 #else
 	if (SSCore_TempDisable) {
 		SSCore_TempDisable();
