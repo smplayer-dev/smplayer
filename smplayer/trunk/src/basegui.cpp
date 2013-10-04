@@ -4366,11 +4366,18 @@ void BaseGui::YTNoSignature(const QString & title) {
 	qDebug("BaseGui::YTNoSignature: %s", title.toUtf8().constData());
 
 	QString t = title;
-	t.replace(" - YouTube", "");
+
+	QString info_text;
+	if (title.isEmpty()) {
+		info_text = tr("Unfortunately due to changes in the Youtube page, this Youtube video can't be played.");
+	} else {
+		t.replace(" - YouTube", "");
+		info_text = tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t);
+	}
 
 	#ifdef YT_USE_SCRIPT
 	int ret = QMessageBox::question(this, tr("Problems with Youtube"),
-				tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t) + "<br><br>" +
+				info_text + "<br><br>" +
 				tr("Do you want to update the Youtube code? This may fix the problem."),
 				QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 	if (ret == QMessageBox::Yes) {
@@ -4378,22 +4385,9 @@ void BaseGui::YTNoSignature(const QString & title) {
 	}
 	#else
 	QMessageBox::warning(this, tr("Problems with Youtube"),
-		tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t) + "<br><br>" +
+		info_text + "<br><br>" +
 		tr("Maybe updating SMPlayer could fix the problem."));
 	#endif
-}
-
-void BaseGui::gotForbidden() {
-	qDebug("BaseGui::gotForbidden");
-	static bool busy = false;
-
-	if (busy) return;
-
-	busy = true;
-	QMessageBox::warning(this, tr("Error detected"), 
-		tr("Unfortunately this video can't be played.") +"<br>"+
-		tr("The server returned %1").arg("403: Forbidden"));
-	busy = false;
 }
 
 #ifdef YT_USE_SCRIPT
@@ -4406,6 +4400,26 @@ void BaseGui::YTUpdateScript() {
 }
 #endif // YT_USE_SCRIPT
 #endif //YOUTUBE_SUPPORT
+
+void BaseGui::gotForbidden() {
+	qDebug("BaseGui::gotForbidden");
+	static bool busy = false;
+
+	if (busy) return;
+
+	busy = true;
+#ifdef YOUTUBE_SUPPORT
+	if (core->mdat.filename.contains("youtube.com")) {
+		YTNoSignature("");
+	} else
+#endif
+	{
+		QMessageBox::warning(this, tr("Error detected"), 
+			tr("Unfortunately this video can't be played.") +"<br>"+
+			tr("The server returned %1").arg("403: Forbidden"));
+	}
+	busy = false;
+}
 
 void BaseGui::dragEnterEvent( QDragEnterEvent *e ) {
 	qDebug("BaseGui::dragEnterEvent");
