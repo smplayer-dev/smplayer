@@ -56,6 +56,12 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	// Screensaver
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	screensaver_check->hide();
+	#ifndef SCREENSAVER_OFF
+	turn_screensaver_off_check->hide();
+	#endif
+	#ifndef AVOID_SCREENSAVER
+	avoid_screensaver_check->hide();
+	#endif
 #else
 	screensaver_group->hide();
 #endif
@@ -211,8 +217,12 @@ void PrefGeneral::setData(Preferences * pref) {
 	setAutoq( pref->autoq );
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-	setAvoidScreensaver( pref->avoid_screensaver );
+	#ifdef SCREENSAVER_OFF
 	setTurnScreensaverOff( pref->turn_screensaver_off );
+	#endif
+	#ifdef AVOID_SCREENSAVER
+	setAvoidScreensaver( pref->avoid_screensaver );
+	#endif
 #else
 	setDisableScreensaver( pref->disable_screensaver );
 #endif
@@ -298,8 +308,12 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->autoq, autoq());
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-	pref->avoid_screensaver = avoidScreensaver();
+	#ifdef SCREENSAVER_OFF
 	TEST_AND_SET(pref->turn_screensaver_off, turnScreensaverOff());
+	#endif
+	#ifdef AVOID_SCREENSAVER
+	pref->avoid_screensaver = avoidScreensaver();
+	#endif
 #else
 	TEST_AND_SET(pref->disable_screensaver, disableScreensaver());
 #endif
@@ -744,6 +758,7 @@ bool PrefGeneral::startInFullscreen() {
 }
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef AVOID_SCREENSAVER
 void PrefGeneral::setAvoidScreensaver(bool b) {
 	avoid_screensaver_check->setChecked(b);
 }
@@ -751,7 +766,9 @@ void PrefGeneral::setAvoidScreensaver(bool b) {
 bool PrefGeneral::avoidScreensaver() {
 	return avoid_screensaver_check->isChecked();
 }
+#endif
 
+#ifdef SCREENSAVER_OFF
 void PrefGeneral::setTurnScreensaverOff(bool b) {
 	turn_screensaver_off_check->setChecked(b);
 }
@@ -759,6 +776,8 @@ void PrefGeneral::setTurnScreensaverOff(bool b) {
 bool PrefGeneral::turnScreensaverOff() {
 	return turn_screensaver_off_check->isChecked();
 }
+#endif
+
 #else
 void PrefGeneral::setDisableScreensaver(bool b) {
 	screensaver_check->setChecked(b);
@@ -964,18 +983,21 @@ void PrefGeneral::createHelp() {
            "subtitles automatically in the black borders.") */ );
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+	#ifdef SCREENSAVER_OFF
 	setWhatsThis(turn_screensaver_off_check, tr("Switch screensaver off"),
 		tr("This option switches the screensaver off just before starting to "
            "play a file and switches it on when playback finishes. If this "
            "option is enabled, the screensaver won't appear even if playing "
            "audio files or when a file is paused."));
-
+	#endif
+	#ifdef AVOID_SCREENSAVER
 	setWhatsThis(avoid_screensaver_check, tr("Avoid screensaver"),
 		tr("When this option is checked, SMPlayer will try to prevent the "
            "screensaver to be shown when playing a video file. The screensaver "
            "will be allowed to be shown if playing an audio file or in pause "
            "mode. This option only works if the SMPlayer window is in "
 		   "the foreground."));
+	#endif
 #else
 	setWhatsThis(screensaver_check, tr("Disable screensaver"),
 		tr("Check this option to disable the screensaver while playing.<br>"
