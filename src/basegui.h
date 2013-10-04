@@ -222,6 +222,7 @@ protected slots:
 	void YTUpdateScript();
 	#endif
 #endif
+	void gotForbidden();
 
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();

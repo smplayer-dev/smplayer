@@ -2054,6 +2054,7 @@ void BaseGui::createCore() {
 	connect(core, SIGNAL(signatureNotFound(const QString &)),
             this, SLOT(YTNoSignature(const QString &)));
 #endif
+	connect(core, SIGNAL(receivedForbidden()), this, SLOT(gotForbidden()));
 }
 
 void BaseGui::createMplayerWindow() {
@@ -4380,6 +4381,19 @@ void BaseGui::YTNoSignature(const QString & title) {
 		tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t) + "<br><br>" +
 		tr("Maybe updating SMPlayer could fix the problem."));
 	#endif
+}
+
+void BaseGui::gotForbidden() {
+	qDebug("BaseGui::gotForbidden");
+	static bool busy = false;
+
+	if (busy) return;
+
+	busy = true;
+	QMessageBox::warning(this, tr("Error detected"), 
+		tr("Unfortunately this video can't be played.") +"<br>"+
+		tr("The server returned %1").arg("403: Forbidden"));
+	busy = false;
 }
 
 #ifdef YT_USE_SCRIPT

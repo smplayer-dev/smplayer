@@ -472,6 +472,8 @@ signals:
 	void signatureNotFound(const QString &);
 #endif
 
+	void receivedForbidden();
+
 protected:
     MplayerProcess * proc;
     MplayerWindow * mplayerwindow;
