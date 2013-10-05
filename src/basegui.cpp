@@ -4369,7 +4369,7 @@ void BaseGui::YTNoSignature(const QString & title) {
 
 	QString info_text;
 	if (title.isEmpty()) {
-		info_text = tr("Unfortunately due to changes in the Youtube page, this Youtube video can't be played.");
+		info_text = tr("Unfortunately due to changes in the Youtube page, this video can't be played.");
 	} else {
 		t.replace(" - YouTube", "");
 		info_text = tr("Unfortunately due to changes in the Youtube page, the video '%1' can't be played.").arg(t);
@@ -4416,7 +4416,7 @@ void BaseGui::gotForbidden() {
 	{
 		QMessageBox::warning(this, tr("Error detected"), 
 			tr("Unfortunately this video can't be played.") +"<br>"+
-			tr("The server returned %1").arg("403: Forbidden"));
+			tr("The server returned '%1'").arg("403: Forbidden"));
 	}
 	busy = false;
 }
