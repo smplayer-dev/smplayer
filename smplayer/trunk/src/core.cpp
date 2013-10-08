@@ -815,15 +815,11 @@ void Core::openStream(QString name) {
 	qDebug("Core::openStream: '%s'", name.toUtf8().data());
 
 #ifdef YOUTUBE_SUPPORT
-	if (name.contains("youtube.com/watch", Qt::CaseInsensitive) || 
-        name.contains("youtu.be/", Qt::CaseInsensitive) ||
-        name.contains("y2u.be/", Qt::CaseInsensitive) )
-	{
-		qDebug("Core::openStream: youtube url detected");
-		if (name.startsWith("www.youtube.com")) name = "http://" + name;
-		if (name.startsWith("youtube.com")) name = "http://www." + name;
-		if (name.startsWith("youtu.be")) name = "http://" + name;
-		if (name.startsWith("y2u.be")) name = "http://" + name;
+	// Check if the stream is a youtube url
+	QString yt_full_url = yt->fullUrl(name);
+	if (!yt_full_url.isEmpty()) {
+		qDebug("Core::openStream: youtube url detected: %s", yt_full_url.toLatin1().constData());
+		name = yt_full_url;
 		yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
 		qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
 		if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent);

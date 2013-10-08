@@ -53,6 +53,9 @@ public:
 	QString latestPreferredUrl() { return latest_preferred_url; }
 	QString origUrl() { return orig_url; }
 
+	bool isUrlSupported(const QString & url);
+	QString fullUrl(const QString & url);
+
 signals:
 	void gotUrls(const QMap<int, QString>&);
 	void gotPreferredUrl(const QString &);
@@ -75,9 +78,7 @@ protected slots:
 protected:
 	static QString sanitizeForUnicodePoint(QString string);
 	static void htmlDecode(QString& string);
-#ifdef YT_GET_VIDEOINFO
-	static QString getVideoID(QString url);
-#endif
+	QString getVideoID(QString video_url);
 
 	QMap<int, QString> urlMap;
 	QString url_title;
