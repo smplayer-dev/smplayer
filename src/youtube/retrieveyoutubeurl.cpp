@@ -257,17 +257,69 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	}
 }
 
-#ifdef YT_GET_VIDEOINFO
-QString RetrieveYoutubeUrl::getVideoID(QString url) {
-	QUrl u(url);
-	#if QT_VERSION >= 0x050000
-	QString r = QUrlQuery(u.query()).queryItemValue("v");
-	#else
-	QString r = u.encodedQueryItemValue("v");
-	#endif
+QString RetrieveYoutubeUrl::getVideoID(QString video_url) {
+	if (video_url.contains("youtu.be/")) {
+		video_url.replace("youtu.be/", "youtube.com/watch?v=");
+	}
+	else
+	if (video_url.contains("y2u.be/")) {
+		video_url.replace("y2u.be/", "youtube.com/watch?v=");
+	}
+	else
+	if (video_url.contains("m.youtube.com")) {
+		video_url.replace("m.youtube.com", "www.youtube.com");
+	}
+
+	if ((video_url.startsWith("youtube.com")) || (video_url.startsWith("www.youtube.com"))) video_url = "http://" + video_url;
+
+	//qDebug("RetrieveYoutubeUrl::getVideoID: video_url: %s", video_url.toLatin1().constData());
+
+	QUrl url(video_url);
+
+	QString ID;
+
+#if QT_VERSION >= 0x050000
+	QUrlQuery * q = new QUrlQuery(url);
+#else
+	const QUrl * q = &url;
+#endif
+
+	if ((url.host().contains("youtube")) && (url.path().contains("watch_videos"))) {
+		if (q->hasQueryItem("video_ids")) {
+			int index = 0;
+			if (q->hasQueryItem("index")) index = q->queryItemValue("index").toInt();
+			QStringList list = q->queryItemValue("video_ids").split(",");
+			if (index < list.count()) ID = list[index];
+		}
+	}
+	else
+	if ((url.host().contains("youtube")) && (url.path().contains("watch"))) {
+		if (q->hasQueryItem("v")) {
+			ID = q->queryItemValue("v");
+		}
+	}
+
+#if QT_VERSION >= 0x050000
+	delete q;
+#endif
+
+	//qDebug("RetrieveYoutubeUrl::getVideoID: ID: %s", ID.toLatin1().constData());
+
+	return ID;
+}
+
+bool RetrieveYoutubeUrl::isUrlSupported(const QString & url) {
+	return (!getVideoID(url).isEmpty());
+}
+
+QString RetrieveYoutubeUrl::fullUrl(const QString & url) {
+	QString r;
+	QString ID = getVideoID(url);
+	if (!ID.isEmpty()) r = "http://www.youtube.com/watch?v=" + ID;
 	return r;
 }
 
+#ifdef YT_GET_VIDEOINFO
 void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 	urlMap.clear();
 
