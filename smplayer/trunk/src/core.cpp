@@ -259,6 +259,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #ifdef SCREENSAVER_OFF
 	// Windows or OS2 screensaver
 	win_screensaver = new WinScreenSaver();
+	connect( this, SIGNAL(aboutToStartPlaying()), this, SLOT(disableScreensaver()) );
+	connect( proc, SIGNAL(processExited()), this, SLOT(enableScreensaver()) );
+	connect( proc, SIGNAL(error(QProcess::ProcessError)), this, SLOT(enableScreensaver()) );
 #endif
 #endif
 
@@ -539,6 +542,24 @@ void Core::YTNoSignature() {
 void Core::YTNoVideoUrl() {
 	emit showMessage( tr("Unable to locate the url of the video") );
 }
+#endif
+
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef SCREENSAVER_OFF
+void Core::enableScreensaver() {
+	qDebug("Core::enableScreensaver");
+	if (pref->turn_screensaver_off) {
+		win_screensaver->enable();
+	}
+}
+
+void Core::disableScreensaver() {
+	qDebug("Core::disableScreensaver");
+	if (pref->turn_screensaver_off) {
+		win_screensaver->disable();
+	}
+}
+#endif
 #endif
 
 void Core::loadSub(const QString & sub ) {
@@ -1295,16 +1316,6 @@ void Core::screenshots() {
 void Core::processFinished()
 {
     qDebug("Core::processFinished");
-
-#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
-#ifdef SCREENSAVER_OFF
-	// Restores the Windows or OS2 screensaver
-	if (pref->turn_screensaver_off) {
-		win_screensaver->enable();
-	}
-#endif
-#endif
-
 	qDebug("Core::processFinished: we_are_restarting: %d", we_are_restarting);
 
 	//mset.current_sec = 0;
@@ -1387,15 +1398,6 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	#endif
 	yt->close();
-#endif
-
-#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
-#ifdef SCREENSAVER_OFF
-	// Disable the Windows or OS2 screensaver
-	if (pref->turn_screensaver_off) {
-		win_screensaver->disable();
-	}
-#endif
 #endif
 
 	bool is_mkv = (QFileInfo(file).suffix().toLower() == "mkv");
