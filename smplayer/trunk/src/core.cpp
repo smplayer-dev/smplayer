@@ -262,10 +262,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 #endif
 
-#if DISCNAME_TEST
-	DiscName::test();
-#endif
-
 #ifdef YOUTUBE_SUPPORT
 	yt = new RetrieveYoutubeUrl(this);
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
