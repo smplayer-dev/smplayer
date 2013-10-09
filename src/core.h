@@ -405,6 +405,13 @@ protected slots:
 	void YTNoVideoUrl();
 #endif
 
+#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef SCREENSAVER_OFF
+	void enableScreensaver();
+	void disableScreensaver();
+#endif
+#endif
+
 protected:
 	void playNewFile(QString file, int seek=-1);
 	void restartPlay();
