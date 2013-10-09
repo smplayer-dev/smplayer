@@ -177,7 +177,7 @@ QString About::getTranslators() {
 		trad(tr("Bulgarian"), "Ivailo Monev") +
 		trad(tr("Norwegian Nynorsk"), "Bjorni") +
 		trad(tr("Swedish"), QStringList() << "XC" << "Andreas Gustafsson") +
-		trad(tr("Arabic"), "Riyadh") +
+		trad(tr("Arabic"), QStringList() << "Riyadh" << "Muhammad Fawwaz Orabi") +
 		trad(tr("Georgian"), "George Machitidze") +
 		trad(tr("Arabic - Saudi Arabia"), "Mohamed") +
 		trad(tr("Hungarian"), "Gojko") +
