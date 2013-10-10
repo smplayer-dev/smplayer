@@ -403,7 +403,7 @@ void Core::displayTextOnOSD(QString text, int duration, int level, QString prefi
 		QString str = QString("osd_show_text \"%1\" %2 %3\n").arg(text.toUtf8().constData()).arg(duration).arg(level);
 		if (!prefix.isEmpty()) str = prefix + " " + str;
 		qDebug("Core::displayTextOnOSD: command: '%s'", str.toUtf8().constData());
-		proc->write(str.toAscii());
+		proc->write(str.toLatin1());
 	}
 }
 

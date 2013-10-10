@@ -369,9 +369,15 @@ void Favorites::jump() {
 	qDebug("Favorites::jump");
 
 	bool ok;
+	#if QT_VERSION >= 0x050000
+	int item = QInputDialog::getInt(parent_widget, tr("Jump to item"),
+                          tr("Enter the number of the item in the list to jump:"), 
+                          last_item, 1, f_list.count(), 1, &ok);
+	#else
 	int item = QInputDialog::getInteger(parent_widget, tr("Jump to item"),
                           tr("Enter the number of the item in the list to jump:"), 
                           last_item, 1, f_list.count(), 1, &ok);
+	#endif
 	if (ok) {
 		last_item = item;
 		item--;
