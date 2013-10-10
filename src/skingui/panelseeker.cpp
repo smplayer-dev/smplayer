@@ -107,7 +107,11 @@ void PanelSeeker::mousePressEvent(QMouseEvent *m)
     setTracking(pref->update_while_seeking);
     if(m->button() == Qt::LeftButton)
     {
+        #if QT_VERSION >= 0x050000
+        QPointF pos = m->localPos();
+        #else
         QPointF pos = m->posF();
+        #endif
         if(knobRect.contains(pos))
         {
             isPressed = true;
@@ -119,7 +123,11 @@ void PanelSeeker::mousePressEvent(QMouseEvent *m)
         else
         {
             isPressed = false;
+            #if QT_VERSION >= 0x050000
+            knobAdjust( m->localPos().x() - knobRect.center().x(), true);
+            #else
             knobAdjust( m->posF().x() - knobRect.center().x(), true);
+            #endif
         }
     }
 }
@@ -129,7 +137,11 @@ void PanelSeeker::mouseMoveEvent(QMouseEvent *m)
     m->accept();
     if(isPressed)
     {
-        knobAdjust(m->posF().x() - knobRect.center().x() - mousePressDifference );        
+        #if QT_VERSION >= 0x050000
+        knobAdjust(m->localPos().x() - knobRect.center().x() - mousePressDifference );
+        #else
+        knobAdjust(m->posF().x() - knobRect.center().x() - mousePressDifference );
+        #endif
     }
 }
 
