@@ -213,6 +213,10 @@ QString InfoFile::addItem( QString tag, QString value ) {
 
 
 inline QString InfoFile::tr( const char * sourceText, const char * comment, int n )  {
-	return QCoreApplication::translate("InfoFile", sourceText, comment, QCoreApplication:: CodecForTr, n );
+#if QT_VERSION >= 0x050000
+	return QCoreApplication::translate("InfoFile", sourceText, comment, n );
+#else
+	return QCoreApplication::translate("InfoFile", sourceText, comment, QCoreApplication::CodecForTr, n );
+#endif
 }
 
