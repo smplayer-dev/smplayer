@@ -154,8 +154,14 @@ void Playlist::createTable() {
 	listView->setShowGrid(false);
 	listView->setSortingEnabled(false);
 	//listView->setAlternatingRowColors(true);
+
+#if QT_VERSION >= 0x050000
+	listView->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
+	listView->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
+#else
 	listView->horizontalHeader()->setResizeMode(QHeaderView::Interactive);
 	listView->horizontalHeader()->setResizeMode(COL_NAME, QHeaderView::Stretch);
+#endif
 	/*
 	listView->horizontalHeader()->setResizeMode(COL_TIME, QHeaderView::ResizeToContents);
 	listView->horizontalHeader()->setResizeMode(COL_PLAY, QHeaderView::ResizeToContents);
