@@ -61,7 +61,11 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	: QObject(parent) 
 {
 #ifdef LOG_SMPLAYER
+	#if QT_VERSION >= 0x050000
+	qInstallMessageHandler( SMPlayer::myMessageOutput );
+	#else
 	qInstallMsgHandler( SMPlayer::myMessageOutput );
+	#endif
 	allow_to_send_log_to_gui = true;
 #endif
 
@@ -502,7 +506,11 @@ void SMPlayer::showInfo() {
 QFile SMPlayer::output_log;
 bool SMPlayer::allow_to_send_log_to_gui = false;
 
+#if QT_VERSION >= 0x050000
+void SMPlayer::myMessageOutput( QtMsgType type, const QMessageLogContext &, const QString & msg ) {
+#else
 void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
+#endif
 	static QStringList saved_lines;
 	static QString orig_line;
 	static QString line2;
@@ -517,7 +525,11 @@ void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 
 	line2.clear();
 
+#if QT_VERSION >= 0x050000
+	orig_line = msg;
+#else
 	orig_line = QString::fromUtf8(msg);
+#endif
 
 	switch ( type ) {
 		case QtDebugMsg:
