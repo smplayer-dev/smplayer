@@ -76,7 +76,11 @@ private:
 #ifdef LOG_SMPLAYER
 	// Output log
 	static QFile output_log;
+	#if QT_VERSION >= 0x050000
+	static void myMessageOutput( QtMsgType type, const QMessageLogContext &, const QString & msg );
+	#else
 	static void myMessageOutput( QtMsgType type, const char *msg );
+	#endif
 	static bool allow_to_send_log_to_gui;
 #endif
 };
