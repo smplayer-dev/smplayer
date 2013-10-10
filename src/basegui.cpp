@@ -1077,20 +1077,20 @@ void BaseGui::createActions() {
 #if USE_ADAPTER
 	screenGroup = new MyActionGroup(this);
 	screenDefaultAct = new MyActionGroupItem(this, screenGroup, "screen_default", -1);
-#ifdef Q_OS_WIN
+	#ifdef Q_OS_WIN
 	DeviceList display_devices = DeviceInfo::displayDevices();
 	if (!display_devices.isEmpty()) {
 		for (int n = 0; n < display_devices.count(); n++) {
 			int id = display_devices[n].ID().toInt();
 			QString desc = display_devices[n].desc();
-			MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toAscii().constData(), id);
+			MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toLatin1().constData(), id);
 			screen_item->change( "&"+QString::number(n) + " - " + desc);
 		}
 	}
 	else
-#endif // Q_OS_WIN
+	#endif // Q_OS_WIN
 	for (int n = 1; n <= 4; n++) {
-		MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toAscii().constData(), n);
+		MyAction * screen_item = new MyActionGroupItem(this, screenGroup, QString("screen_%1").arg(n).toLatin1().constData(), n);
 		screen_item->change( "&"+QString::number(n) );
 	}
 
@@ -3977,9 +3977,15 @@ void BaseGui::showGotoDialog() {
 
 void BaseGui::showAudioDelayDialog() {
 	bool ok;
+	#if QT_VERSION >= 0x050000
+	int delay = QInputDialog::getInt(this, tr("SMPlayer - Audio delay"),
+                                     tr("Audio delay (in milliseconds):"), core->mset.audio_delay, 
+                                     -3600000, 3600000, 1, &ok);
+	#else
 	int delay = QInputDialog::getInteger(this, tr("SMPlayer - Audio delay"),
                                          tr("Audio delay (in milliseconds):"), core->mset.audio_delay, 
                                          -3600000, 3600000, 1, &ok);
+	#endif
 	if (ok) {
 		core->setAudioDelay(delay);
 	}
@@ -3987,9 +3993,15 @@ void BaseGui::showAudioDelayDialog() {
 
 void BaseGui::showSubDelayDialog() {
 	bool ok;
+	#if QT_VERSION >= 0x050000
+	int delay = QInputDialog::getInt(this, tr("SMPlayer - Subtitle delay"),
+                                     tr("Subtitle delay (in milliseconds):"), core->mset.sub_delay, 
+                                     -3600000, 3600000, 1, &ok);
+	#else
 	int delay = QInputDialog::getInteger(this, tr("SMPlayer - Subtitle delay"),
                                          tr("Subtitle delay (in milliseconds):"), core->mset.sub_delay, 
                                          -3600000, 3600000, 1, &ok);
+	#endif
 	if (ok) {
 		core->setSubDelay(delay);
 	}
