@@ -30,6 +30,10 @@
 #include <QDir>
 #include <QLocale>
 
+#if QT_VERSION >= 0x050000
+#include <QStandardPaths>
+#endif
+
 #if QT_VERSION >= 0x040400
 #include <QDesktopServices>
 #endif
@@ -1551,9 +1555,15 @@ double Preferences::monitor_aspect_double() {
 void Preferences::setupScreenshotFolder() {
 #if QT_VERSION >= 0x040400
 	if (screenshot_directory.isEmpty()) {
+		#if QT_VERSION >= 0x050000
+		QString pdir = QStandardPaths::writableLocation(QStandardPaths::PicturesLocation);
+		if (pdir.isEmpty()) pdir = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
+		if (pdir.isEmpty()) pdir = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
+		#else
 		QString pdir = QDesktopServices::storageLocation(QDesktopServices::PicturesLocation);
 		if (pdir.isEmpty()) pdir = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation);
 		if (pdir.isEmpty()) pdir = QDesktopServices::storageLocation(QDesktopServices::HomeLocation);
+		#endif
 		if (pdir.isEmpty()) pdir = "/tmp";
 		if (!QFile::exists(pdir)) {
 			qWarning("Preferences::setupScreenshotFolder: folder '%s' does not exist. Using /tmp as fallback", pdir.toUtf8().constData());
