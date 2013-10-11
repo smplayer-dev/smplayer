@@ -1,83 +1,84 @@
-<ui version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>VideoPreviewConfigDialog</class>
- <widget class="QDialog" name="VideoPreviewConfigDialog" >
-  <property name="geometry" >
+ <widget class="QDialog" name="VideoPreviewConfigDialog">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
     <width>452</width>
-    <height>380</height>
+    <height>382</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>Video Preview</string>
+  <property name="windowTitle">
+   <string>Thumbnail Generator</string>
   </property>
-  <layout class="QVBoxLayout" >
+  <layout class="QVBoxLayout">
    <item>
-    <layout class="QHBoxLayout" >
+    <layout class="QHBoxLayout">
      <item>
-      <widget class="QLabel" name="label" >
-       <property name="text" >
+      <widget class="QLabel" name="label">
+       <property name="text">
         <string>&amp;File:</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>filename_edit</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="FileChooser" name="filename_edit" />
+      <widget class="FileChooser" name="filename_edit"/>
      </item>
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
+    <layout class="QHBoxLayout">
      <item>
-      <widget class="QLabel" name="dvd_device_label" >
-       <property name="text" >
+      <widget class="QLabel" name="dvd_device_label">
+       <property name="text">
         <string>&amp;DVD device:</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>dvd_device_edit</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="dvd_device_edit" />
+      <widget class="QLineEdit" name="dvd_device_edit"/>
      </item>
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
+    <layout class="QHBoxLayout">
      <item>
-      <widget class="QLabel" name="label_2" >
-       <property name="text" >
+      <widget class="QLabel" name="label_2">
+       <property name="text">
         <string>&amp;Columns:</string>
        </property>
-       <property name="alignment" >
+       <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>columns_spin</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="columns_spin" >
-       <property name="minimum" >
+      <widget class="QSpinBox" name="columns_spin">
+       <property name="minimum">
         <number>1</number>
        </property>
-       <property name="maximum" >
+       <property name="maximum">
         <number>10</number>
        </property>
       </widget>
      </item>
      <item>
       <spacer>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>40</width>
          <height>20</height>
@@ -86,21 +87,21 @@
       </spacer>
      </item>
      <item>
-      <widget class="QLabel" name="label_3" >
-       <property name="text" >
+      <widget class="QLabel" name="label_3">
+       <property name="text">
         <string>&amp;Rows:</string>
        </property>
-       <property name="alignment" >
+       <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>rows_spin</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="rows_spin" >
-       <property name="minimum" >
+      <widget class="QSpinBox" name="rows_spin">
+       <property name="minimum">
         <number>1</number>
        </property>
       </widget>
@@ -108,46 +109,46 @@
     </layout>
    </item>
    <item>
-    <widget class="QCheckBox" name="osd_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="osd_check">
+     <property name="text">
       <string>Add playing &amp;time to thumbnails</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="Line" name="line_2" >
-     <property name="sizePolicy" >
-      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+    <widget class="Line" name="line_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
-     <property name="orientation" >
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
+    <layout class="QHBoxLayout">
      <item>
-      <widget class="QLabel" name="label_5" >
-       <property name="text" >
+      <widget class="QLabel" name="label_5">
+       <property name="text">
         <string>&amp;Aspect ratio:</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>aspect_ratio_combo</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QComboBox" name="aspect_ratio_combo" />
+      <widget class="QComboBox" name="aspect_ratio_combo"/>
      </item>
      <item>
       <spacer>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>101</width>
          <height>20</height>
@@ -158,30 +159,30 @@
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
+    <layout class="QHBoxLayout">
      <item>
-      <widget class="QLabel" name="label_4" >
-       <property name="text" >
+      <widget class="QLabel" name="label_4">
+       <property name="text">
         <string>&amp;Seconds to skip at the beginning:</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>initial_step_spin</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="initial_step_spin" >
-       <property name="maximum" >
+      <widget class="QSpinBox" name="initial_step_spin">
+       <property name="maximum">
         <number>9999</number>
        </property>
       </widget>
      </item>
      <item>
       <spacer>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>40</width>
          <height>20</height>
@@ -192,33 +193,33 @@
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
+    <layout class="QHBoxLayout">
      <item>
-      <widget class="QLabel" name="label_6" >
-       <property name="text" >
+      <widget class="QLabel" name="label_6">
+       <property name="text">
         <string>&amp;Maximum width:</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>max_width_spin</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="max_width_spin" >
-       <property name="minimum" >
+      <widget class="QSpinBox" name="max_width_spin">
+       <property name="minimum">
         <number>100</number>
        </property>
-       <property name="maximum" >
+       <property name="maximum">
         <number>2000</number>
        </property>
       </widget>
      </item>
      <item>
       <spacer>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>40</width>
          <height>20</height>
@@ -229,39 +230,39 @@
     </layout>
    </item>
    <item>
-    <widget class="Line" name="line_3" >
-     <property name="sizePolicy" >
-      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+    <widget class="Line" name="line_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
-     <property name="orientation" >
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
+    <layout class="QHBoxLayout">
      <item>
-      <widget class="QLabel" name="label_7" >
-       <property name="text" >
+      <widget class="QLabel" name="label_7">
+       <property name="text">
         <string>&amp;Extract frames as</string>
        </property>
-       <property name="buddy" >
+       <property name="buddy">
         <cstring>format_combo</cstring>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QComboBox" name="format_combo" />
+      <widget class="QComboBox" name="format_combo"/>
      </item>
      <item>
       <spacer>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>71</width>
          <height>23</height>
@@ -272,45 +273,45 @@
     </layout>
    </item>
    <item>
-    <widget class="Line" name="line" >
-     <property name="sizePolicy" >
-      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+    <widget class="Line" name="line">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
-     <property name="orientation" >
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="save_last_directory_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="save_last_directory_check">
+     <property name="text">
       <string>Remember folder used to &amp;save the preview</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="Line" name="line_4" >
-     <property name="sizePolicy" >
-      <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+    <widget class="Line" name="line_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
      </property>
-     <property name="orientation" >
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox" >
-     <property name="orientation" >
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
-     <property name="standardButtons" >
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::NoButton|QDialogButtonBox::Ok</set>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
      </property>
     </widget>
    </item>
@@ -343,11 +344,11 @@
    <receiver>VideoPreviewConfigDialog</receiver>
    <slot>accept()</slot>
    <hints>
-    <hint type="sourcelabel" >
+    <hint type="sourcelabel">
      <x>248</x>
      <y>254</y>
     </hint>
-    <hint type="destinationlabel" >
+    <hint type="destinationlabel">
      <x>157</x>
      <y>274</y>
     </hint>
@@ -359,11 +360,11 @@
    <receiver>VideoPreviewConfigDialog</receiver>
    <slot>reject()</slot>
    <hints>
-    <hint type="sourcelabel" >
+    <hint type="sourcelabel">
      <x>316</x>
      <y>260</y>
     </hint>
-    <hint type="destinationlabel" >
+    <hint type="destinationlabel">
      <x>286</x>
      <y>274</y>
     </hint>
