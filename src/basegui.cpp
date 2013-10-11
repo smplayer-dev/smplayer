@@ -1529,7 +1529,7 @@ void BaseGui::retranslateStrings() {
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	screenshotsAct->change( Images::icon("screenshots"), tr("Start/stop takin&g screenshots") );
 #ifdef VIDEOPREVIEW
-	videoPreviewAct->change( Images::icon("video_preview"), tr("Pre&view...") );
+	videoPreviewAct->change( Images::icon("video_preview"), tr("Thumb&nail Generator...") );
 #endif
 	flipAct->change( Images::icon("flip"), tr("Fli&p image") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
