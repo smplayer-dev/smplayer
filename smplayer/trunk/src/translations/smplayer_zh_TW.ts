@@ -336,76 +336,76 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="207"/>
+        <location filename="../actionseditor.cpp" line="212"/>
         <source>Name</source>
         <translation>名字</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="207"/>
+        <location filename="../actionseditor.cpp" line="212"/>
         <source>Description</source>
         <translation>描述</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="207"/>
+        <location filename="../actionseditor.cpp" line="212"/>
         <source>Shortcut</source>
         <translation>快捷鍵</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="209"/>
+        <location filename="../actionseditor.cpp" line="214"/>
         <source>&amp;Save</source>
         <translation>儲存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="212"/>
+        <location filename="../actionseditor.cpp" line="217"/>
         <source>&amp;Load</source>
         <translation>載入(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="430"/>
-        <location filename="../actionseditor.cpp" line="480"/>
+        <location filename="../actionseditor.cpp" line="435"/>
+        <location filename="../actionseditor.cpp" line="485"/>
         <source>Key files</source>
         <translation>重要檔案</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="428"/>
+        <location filename="../actionseditor.cpp" line="433"/>
         <source>Choose a filename</source>
         <translation>選擇一個檔名</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="439"/>
+        <location filename="../actionseditor.cpp" line="444"/>
         <source>Confirm overwrite?</source>
         <translation>確定要覆寫？</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="440"/>
+        <location filename="../actionseditor.cpp" line="445"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>檔案 %1 己存在。
 是否覆寫?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="479"/>
+        <location filename="../actionseditor.cpp" line="484"/>
         <source>Choose a file</source>
         <translation>選擇一個檔案</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="452"/>
-        <location filename="../actionseditor.cpp" line="486"/>
+        <location filename="../actionseditor.cpp" line="457"/>
+        <location filename="../actionseditor.cpp" line="491"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="453"/>
+        <location filename="../actionseditor.cpp" line="458"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>檔案無法儲存</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="487"/>
+        <location filename="../actionseditor.cpp" line="492"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation>檔案無法載入</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="216"/>
+        <location filename="../actionseditor.cpp" line="221"/>
         <source>&amp;Change shortcut...</source>
         <translation>改變捷徑(&amp;C)...</translation>
     </message>
@@ -867,10 +867,6 @@ Do you want to overwrite?</source>
         <translation>偏好設定(&amp;R)</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
-        <translation type="obsolete">關於 &amp;Qt</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1649"/>
         <source>About &amp;SMPlayer</source>
         <translation>關於 &amp;SMPlayer</translation>
@@ -944,56 +940,52 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <source>About Qt</source>
-        <translation type="obsolete">關於 Qt</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4277"/>
+        <location filename="../basegui.cpp" line="4289"/>
         <source>New version available</source>
         <translation>有新版本可用</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4278"/>
+        <location filename="../basegui.cpp" line="4290"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>有一個新的 SMPlayer 版本可用。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4279"/>
+        <location filename="../basegui.cpp" line="4291"/>
         <source>Installed version: %1</source>
         <translation>已安裝的版本：%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4280"/>
+        <location filename="../basegui.cpp" line="4292"/>
         <source>Available version: %1</source>
         <translation>可用的版本：%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4281"/>
+        <location filename="../basegui.cpp" line="4293"/>
         <source>Would you like to know more about this new version?</source>
         <translation>您想知道更多關於這個新版本嗎？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4419"/>
+        <location filename="../basegui.cpp" line="4429"/>
         <source>Error detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4420"/>
+        <location filename="../basegui.cpp" line="4430"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4589"/>
+        <location filename="../basegui.cpp" line="4599"/>
         <source>Playing %1</source>
         <translation>播放 %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4590"/>
+        <location filename="../basegui.cpp" line="4600"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4591"/>
+        <location filename="../basegui.cpp" line="4601"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1091,6 +1083,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1669"/>
         <source>Dec volume (2)</source>
         <translation>降低音量(2)</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1532"/>
+        <source>Thumb&amp;nail Generator...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -1295,38 +1292,38 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>是的，我想贊助</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4372"/>
+        <location filename="../basegui.cpp" line="4384"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4379"/>
-        <location filename="../basegui.cpp" line="4387"/>
+        <location filename="../basegui.cpp" line="4391"/>
+        <location filename="../basegui.cpp" line="4399"/>
         <source>Problems with Youtube</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4375"/>
+        <location filename="../basegui.cpp" line="4387"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>不幸的是，由於 YouTube 網頁的變化，影片&apos;%1&apos;無法播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4381"/>
+        <location filename="../basegui.cpp" line="4393"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>您想更新 YouTube 的程式碼嗎？這樣可能可以解決問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4389"/>
+        <location filename="../basegui.cpp" line="4401"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>也許 SMPlayer 的更新可以解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5112"/>
+        <location filename="../basegui.cpp" line="5122"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>YouTube 瀏覽器可能無法啟動。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5113"/>
+        <location filename="../basegui.cpp" line="5123"/>
         <source>Be sure %1 is installed.</source>
         <translation>請確保 %1 已安裝。</translation>
     </message>
@@ -1467,37 +1464,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>重設視訊等化器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4421"/>
+        <location filename="../basegui.cpp" line="4431"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5009"/>
+        <location filename="../basegui.cpp" line="5019"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer 意外地結束</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5010"/>
+        <location filename="../basegui.cpp" line="5020"/>
         <source>Exit code: %1</source>
         <translation>結束代碼: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5029"/>
+        <location filename="../basegui.cpp" line="5039"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer 啟動失敗</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5030"/>
+        <location filename="../basegui.cpp" line="5040"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>請檢查 MPlayer 在偏好設定裡的路徑</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5032"/>
+        <location filename="../basegui.cpp" line="5042"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer 已經當機</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5033"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>See the log for more info.</source>
         <translation>更多資訊請參閱日誌</translation>
     </message>
@@ -1624,22 +1621,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>音訊軌(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4258"/>
+        <location filename="../basegui.cpp" line="4270"/>
         <source>Warning - Using old MPlayer</source>
         <translation>警告 - 您使用的是舊的 MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4259"/>
+        <location filename="../basegui.cpp" line="4271"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>您系統上安裝的 MPlayer (%1) 版本已經過時了。使用它，SMPlayer 不能很好地運作：一些選項將無法正常​​工作，字幕選擇可能會失敗...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4264"/>
+        <location filename="../basegui.cpp" line="4276"/>
         <source>Please, update your MPlayer.</source>
         <translation>請更新您的 MPlayer 。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4266"/>
+        <location filename="../basegui.cpp" line="4278"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(這個警告將不再顯示)</translation>
     </message>
@@ -1664,9 +1661,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>縮放為 &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1532"/>
         <source>Pre&amp;view...</source>
-        <translation>預覽(&amp;V)...</translation>
+        <translation type="obsolete">預覽(&amp;V)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
@@ -1744,22 +1740,26 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - 尋找</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3980"/>
+        <location filename="../basegui.cpp" line="3981"/>
+        <location filename="../basegui.cpp" line="3985"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - 音訊延遲</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3981"/>
+        <location filename="../basegui.cpp" line="3982"/>
+        <location filename="../basegui.cpp" line="3986"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>音訊延遲(以毫秒為單位)：</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3990"/>
+        <location filename="../basegui.cpp" line="3997"/>
+        <location filename="../basegui.cpp" line="4001"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - 字幕延遲</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3991"/>
+        <location filename="../basegui.cpp" line="3998"/>
+        <location filename="../basegui.cpp" line="4002"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>字幕延遲(以毫秒為單位)：</translation>
     </message>
@@ -1769,7 +1769,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>切換「保持在桌面最上層顯示」</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4733"/>
+        <location filename="../basegui.cpp" line="4743"/>
         <source>Jump to %1</source>
         <translation>跳轉到 %1</translation>
     </message>
@@ -1970,143 +1970,143 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2825"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2846"/>
+        <location filename="../core.cpp" line="2840"/>
         <source>Contrast: %1</source>
         <translation>對比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2860"/>
+        <location filename="../core.cpp" line="2854"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2874"/>
+        <location filename="../core.cpp" line="2868"/>
         <source>Hue: %1</source>
         <translation>色調: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2888"/>
+        <location filename="../core.cpp" line="2882"/>
         <source>Saturation: %1</source>
         <translation>飽和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3017"/>
+        <location filename="../core.cpp" line="3011"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3804"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Zoom: %1</source>
         <translation>縮放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4051"/>
+        <location filename="../core.cpp" line="4045"/>
         <source>Buffering...</source>
         <translation>緩衝中...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3133"/>
-        <location filename="../core.cpp" line="3145"/>
+        <location filename="../core.cpp" line="3127"/>
+        <location filename="../core.cpp" line="3139"/>
         <source>Font scale: %1</source>
         <translation>字體縮放大小：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3673"/>
+        <location filename="../core.cpp" line="3667"/>
         <source>Aspect ratio: %1</source>
         <translation>長寬比：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4047"/>
+        <location filename="../core.cpp" line="4041"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>更新字型快取。這可能需要幾秒鐘時間...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3059"/>
+        <location filename="../core.cpp" line="3053"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3076"/>
+        <location filename="../core.cpp" line="3070"/>
         <source>Audio delay: %1 ms</source>
         <translation>音訊延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2942"/>
+        <location filename="../core.cpp" line="2936"/>
         <source>Speed: %1</source>
         <translation>速度：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="534"/>
+        <location filename="../core.cpp" line="533"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>無法檢索 YouTube 頁面</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3188"/>
+        <location filename="../core.cpp" line="3182"/>
         <source>Subtitles on</source>
         <translation>開啟字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3190"/>
+        <location filename="../core.cpp" line="3184"/>
         <source>Subtitles off</source>
         <translation>關閉字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3720"/>
+        <location filename="../core.cpp" line="3714"/>
         <source>Mouse wheel seeks now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3723"/>
+        <location filename="../core.cpp" line="3717"/>
         <source>Mouse wheel changes volume now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3726"/>
+        <location filename="../core.cpp" line="3720"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3729"/>
+        <location filename="../core.cpp" line="3723"/>
         <source>Mouse wheel changes speed now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1286"/>
+        <location filename="../core.cpp" line="1299"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>沒有擷圖，因為資料夾沒有配置</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1299"/>
+        <location filename="../core.cpp" line="1312"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>沒有擷圖，因為資料夾沒有配置</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2566"/>
+        <location filename="../core.cpp" line="2560"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>標誌 &quot;A&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2583"/>
+        <location filename="../core.cpp" line="2577"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>標誌 &quot;B&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2598"/>
+        <location filename="../core.cpp" line="2592"/>
         <source>A-B markers cleared</source>
         <translation>A-B 標記清除</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="530"/>
+        <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
         <translation>連接到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="544"/>
+        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
         <translation>無法找到該網址的影片</translation>
     </message>
@@ -2256,30 +2256,30 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>媒體</translation>
     </message>
     <message>
-        <location filename="../favoriteeditor.cpp" line="107"/>
+        <location filename="../favoriteeditor.cpp" line="111"/>
         <source>Favorite editor</source>
         <translation>最愛編輯器</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
-        <location filename="../favoriteeditor.cpp" line="109"/>
-        <location filename="../favoriteeditor.cpp" line="168"/>
-        <location filename="../favoriteeditor.cpp" line="268"/>
+        <location filename="../favoriteeditor.cpp" line="113"/>
+        <location filename="../favoriteeditor.cpp" line="172"/>
+        <location filename="../favoriteeditor.cpp" line="272"/>
         <source>Favorite list</source>
         <translation>最愛清單</translation>
     </message>
     <message>
-        <location filename="../favoriteeditor.cpp" line="110"/>
+        <location filename="../favoriteeditor.cpp" line="114"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
         <translation>您可以編輯，刪除，排序或新增項目。雙擊一個單元以編輯其內容。</translation>
     </message>
     <message>
-        <location filename="../favoriteeditor.cpp" line="341"/>
+        <location filename="../favoriteeditor.cpp" line="345"/>
         <source>Select an icon file</source>
         <translation>選取一個圖示檔</translation>
     </message>
     <message>
-        <location filename="../favoriteeditor.cpp" line="343"/>
+        <location filename="../favoriteeditor.cpp" line="347"/>
         <source>Images</source>
         <translation>圖片</translation>
     </message>
@@ -2322,12 +2322,14 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Favorites</name>
     <message>
-        <location filename="../favorites.cpp" line="372"/>
+        <location filename="../favorites.cpp" line="373"/>
+        <location filename="../favorites.cpp" line="377"/>
         <source>Jump to item</source>
         <translation>跳至項目</translation>
     </message>
     <message>
-        <location filename="../favorites.cpp" line="373"/>
+        <location filename="../favorites.cpp" line="374"/>
+        <location filename="../favorites.cpp" line="378"/>
         <source>Enter the number of the item in the list to jump:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4375,175 +4377,175 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="287"/>
+        <location filename="../playlist.cpp" line="293"/>
         <source>Name</source>
         <translation>名字</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="287"/>
+        <location filename="../playlist.cpp" line="293"/>
         <source>Length</source>
         <translation>長度</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="292"/>
+        <location filename="../playlist.cpp" line="298"/>
         <source>&amp;Play</source>
         <translation>播放(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="318"/>
+        <location filename="../playlist.cpp" line="324"/>
         <source>&amp;Edit</source>
         <translation>編輯(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="803"/>
-        <location filename="../playlist.cpp" line="821"/>
+        <location filename="../playlist.cpp" line="809"/>
+        <location filename="../playlist.cpp" line="827"/>
         <source>Playlists</source>
         <translation>播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="801"/>
+        <location filename="../playlist.cpp" line="807"/>
         <source>Choose a file</source>
         <translation>選取一個檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="819"/>
+        <location filename="../playlist.cpp" line="825"/>
         <source>Choose a filename</source>
         <translation>選取一個檔名</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="830"/>
+        <location filename="../playlist.cpp" line="836"/>
         <source>Confirm overwrite?</source>
         <translation>確定要覆寫？</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="831"/>
+        <location filename="../playlist.cpp" line="837"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>檔案 %1 己存在。
 是否覆寫?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1018"/>
+        <location filename="../playlist.cpp" line="1024"/>
         <source>All files</source>
         <translation>所有檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1015"/>
+        <location filename="../playlist.cpp" line="1021"/>
         <source>Select one or more files to open</source>
         <translation>選擇開啟一個或多個檔案</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1071"/>
+        <location filename="../playlist.cpp" line="1077"/>
         <source>Choose a directory</source>
         <translation>選取一個目錄</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1282"/>
+        <location filename="../playlist.cpp" line="1288"/>
         <source>Edit name</source>
         <translation>編輯名字</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1283"/>
+        <location filename="../playlist.cpp" line="1289"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>給這個檔案輸入一個顯示於播放清單上的名字:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="289"/>
+        <location filename="../playlist.cpp" line="295"/>
         <source>&amp;Load</source>
         <translation>載入(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="290"/>
+        <location filename="../playlist.cpp" line="296"/>
         <source>&amp;Save</source>
         <translation>儲存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="294"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>&amp;Next</source>
         <translation>下一個(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="295"/>
+        <location filename="../playlist.cpp" line="301"/>
         <source>Pre&amp;vious</source>
         <translation>上一個(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>Move &amp;up</source>
         <translation>上移(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="302"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>Move &amp;down</source>
         <translation>下移(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>&amp;Repeat</source>
         <translation>重複 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="305"/>
+        <location filename="../playlist.cpp" line="311"/>
         <source>S&amp;huffle</source>
         <translation>隨機(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="308"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>Add &amp;current file</source>
         <translation>加入目前的檔案(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="315"/>
         <source>Add &amp;file(s)</source>
         <translation>加入檔案(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="316"/>
         <source>Add &amp;directory</source>
         <translation>加入目錄(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="311"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>Add &amp;URL(s)</source>
         <translation>新增 &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>Remove &amp;selected</source>
         <translation>移除已選取的(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="315"/>
+        <location filename="../playlist.cpp" line="321"/>
         <source>Remove &amp;all</source>
         <translation>全部移除(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="328"/>
+        <location filename="../playlist.cpp" line="334"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - 播放清單</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="322"/>
+        <location filename="../playlist.cpp" line="328"/>
         <source>Add...</source>
         <translation>加入...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="324"/>
+        <location filename="../playlist.cpp" line="330"/>
         <source>Remove...</source>
         <translation>移除...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="856"/>
+        <location filename="../playlist.cpp" line="862"/>
         <source>Playlist modified</source>
         <translation>播放清單己修改</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="857"/>
+        <location filename="../playlist.cpp" line="863"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>修改尚未儲存，您想儲存播放清單嗎?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1017"/>
+        <location filename="../playlist.cpp" line="1023"/>
         <source>Multimedia</source>
         <translation>多媒體</translation>
     </message>
@@ -6460,7 +6462,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="82"/>
         <source>Whenever it&apos;s needed</source>
-        <translation>當需要的時後</translation>
+        <translation>當需要的時候</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6551,12 +6553,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>移動視窗當視訊區被拖曳時(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"></translation>
+        <translation>面板(&amp;K)：</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="373"/>
@@ -6665,14 +6667,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>圖示集</translation>
     </message>
     <message>
+        <location filename="../prefinterface.cpp" line="207"/>
+        <source>Basic GUI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinterface.cpp" line="213"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>可換面板的圖形使用者介面</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>移動視窗當視訊區被拖曳時</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="673"/>
@@ -6692,12 +6699,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="690"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>面板</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>選擇您喜歡的 SMPlayer 面板。僅適用於可換面板的圖形使用者介面</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="694"/>
@@ -6838,9 +6845,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="207"/>
         <source>Default GUI</source>
-        <translation>預設圖形使用者介面</translation>
+        <translation type="obsolete">預設圖形使用者介面</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="208"/>
@@ -8278,7 +8284,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="468"/>
+        <location filename="../smplayer.cpp" line="472"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>這是 SMPlayer v. %1 運行於 %2</translation>
     </message>
@@ -8431,7 +8437,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>開啟支援可換面板功能的圖形使用者介面。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -8825,7 +8831,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="134"/>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
         <translation>影片預覽</translation>
@@ -8834,6 +8839,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreview.cpp" line="135"/>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreview.cpp" line="134"/>
+        <source>Thumbnail Generator</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8980,32 +8990,36 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>預設</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="13"/>
         <source>Video Preview</source>
-        <translation>影片預覽</translation>
+        <translation type="obsolete">影片預覽</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="21"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
+        <source>Thumbnail Generator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
         <source>&amp;File:</source>
         <translation>檔案(&amp;F)...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="55"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="56"/>
         <source>&amp;Columns:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="91"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="92"/>
         <source>&amp;Rows:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="135"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="136"/>
         <source>&amp;Aspect ratio:</source>
         <translation>外觀比例 (&amp;A)：</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="199"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="200"/>
         <source>&amp;Maximum width:</source>
         <translation>最大寬度 (&amp;M)：</translation>
     </message>
@@ -9056,17 +9070,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="113"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
         <source>Add playing &amp;time to thumbnails</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="165"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
         <source>&amp;Seconds to skip at the beginning:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="249"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9076,12 +9090,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="38"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
         <source>&amp;DVD device:</source>
         <translation>&amp;DVD 裝置：</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreviewconfigdialog.ui" line="290"/>
+        <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
         <translation type="unfinished"></translation>
     </message>
