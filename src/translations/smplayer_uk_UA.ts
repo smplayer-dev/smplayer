@@ -1661,10 +1661,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Масштаб для &amp;2.35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">&amp;Попередній перегляд...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>&amp;Завжди</translation>
@@ -6846,10 +6842,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Вкажіть цю опцію, якщо Ви бажаєте використовувати вже існуючий екземпляр SMPlayer, відкриваючи інші файли.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Типовий графічний інтерфейс</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>Зменшений графічний інтерфейс</translation>
@@ -8993,10 +8985,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Типові</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Попередній перегляд відео</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

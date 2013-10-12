@@ -1661,10 +1661,6 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Zoom pour &amp;2.35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">A&amp;perçu...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>&amp;Toujours</translation>
@@ -6848,10 +6844,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Activez cette option si vous voulez utiliser qu&apos;une seule instance de SMPlayer.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">GUI par défaut</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>Interface Mini</translation>
@@ -8993,10 +8985,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Défaut</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Aperçu vidéo</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

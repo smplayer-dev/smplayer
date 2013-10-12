@@ -1661,10 +1661,6 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <translation>Suurenda &amp;2.35:1`t</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">Eel&amp;vaade...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>&amp;Alati</translation>
@@ -8987,10 +8983,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Tavaline</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Video eelvaade</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

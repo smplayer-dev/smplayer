@@ -1661,10 +1661,6 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
         <translation>Powiększenie do &amp;2.35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">Podgląd... (&amp;v)</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>Z&amp;awsze</translation>
@@ -6848,10 +6844,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Zaznacz tę opcję, jeśli chcesz otwierać inne pliki przez aktualnie uruchomioną kopię programu SMPlayer.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Domyślne GUI</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>Mini GUI</translation>
@@ -8995,10 +8987,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Domyślne</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Podgląd wideo</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

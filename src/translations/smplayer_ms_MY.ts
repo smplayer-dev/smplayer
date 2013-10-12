@@ -1661,10 +1661,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Zum untuk &amp;2.35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">Pra&amp;tonton...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>Senti&amp;asa</translation>
@@ -6845,10 +6841,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Tanda pilihan ini jika anda mahu guna kejadian SMPlayer yang sudahpun berjalan bila membuka fail lain.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">GUI lalai</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>GUI mini</translation>
@@ -8988,10 +8980,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Lalai</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Pratonton Video</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

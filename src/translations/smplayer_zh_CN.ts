@@ -1661,10 +1661,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>缩放为 2.35:1(&amp;2)</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">预览(&amp;V)...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>始终(&amp;A)</translation>
@@ -6844,10 +6840,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>如果您想要在打开其他文件时使用一个已经运行的 SMPlayer 实例，请勾选此选项。</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">默认 GUI</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>迷你 GUI</translation>
@@ -8987,10 +8979,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>默认</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">视频预览</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
