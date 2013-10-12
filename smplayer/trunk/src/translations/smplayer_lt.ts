@@ -1661,10 +1661,6 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Keisti mastelį iki &amp;2.35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">Per&amp;žiūra...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>Vis&amp;ada</translation>
@@ -6846,10 +6842,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Pažymėkite, jei naujų failų atvėrimui norite naudoti jau veikiančią SMPlayer kopiją.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Įprastinė aplinka</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>Mini aplinka</translation>
@@ -8993,10 +8985,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Numatyta</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Video peržiūra</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

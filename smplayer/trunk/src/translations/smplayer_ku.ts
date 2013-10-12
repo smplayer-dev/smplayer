@@ -6840,10 +6840,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Hilbijêrin ka dema pelek nû hat vekirin wê SMPlayera heyî çi bike.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">GUI a bixweber</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>GUI ya biçûk</translation>

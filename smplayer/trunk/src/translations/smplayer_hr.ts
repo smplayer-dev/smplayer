@@ -1087,7 +1087,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>Genera&amp;tor minijatura...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -1659,10 +1659,6 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <location filename="../basegui.cpp" line="1542"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zumiraj na &amp;2.35:1</translation>
-    </message>
-    <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">Napravi pregled &amp;minijatura video zapisa...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
@@ -6671,7 +6667,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Osnovno GUI sučelje</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -6845,10 +6841,6 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Odaberite ovu mogućnost ako želite koristiti već pokrenuti primjerak SMPlayera kada otvarate druge datoteke.</translation>
-    </message>
-    <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Uobičajeno GUI sučelje</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="208"/>
@@ -7294,7 +7286,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefperformance.ui" line="188"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>&amp;Nizovi za korištenje dekôdiranja. (Samo za MPEG-1/2 i H.264):</translation>
+        <translation>&amp;Nizovi za korištenje dekôdiranja (Samo za MPEG-1/2 i H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
@@ -8849,7 +8841,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Generator minijatura</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8996,13 +8988,9 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Zadan</translation>
     </message>
     <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Pregled minijatura video zapisa</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Generator minijatura</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

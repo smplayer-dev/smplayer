@@ -1087,7 +1087,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschau&amp;bild-Generator...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -1659,10 +1659,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1542"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zoom für &amp;2.35:1</translation>
-    </message>
-    <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">&amp;Vorschau …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
@@ -6675,7 +6671,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard-GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -6849,10 +6845,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Aktivieren Sie diese Option, wenn Sie einen bereits laufenden Prozess von SMPlayer, beim Öffnen von anderen Dateien, verwenden möchten.</translation>
-    </message>
-    <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Standard-Oberfläche</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="208"/>
@@ -8851,7 +8843,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschaubild-Generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8998,13 +8990,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Standard</translation>
     </message>
     <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Video-Vorschau</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschaubild-Generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

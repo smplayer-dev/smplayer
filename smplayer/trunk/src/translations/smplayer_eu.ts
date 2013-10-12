@@ -1087,7 +1087,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;xikirudi Sortzailea...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -1659,10 +1659,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <location filename="../basegui.cpp" line="1542"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zooma &amp;2.35:1</translation>
-    </message>
-    <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">Aurr&amp;eikuspena...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
@@ -6670,7 +6666,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Ohinarrizko EIG</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -6844,10 +6840,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Hautatu aukera hau jadanik ekinean dagoen SMPlayer-en eskabide bat erabiltzea nahi baduzu beste agiri batzuk irekitzerakoan.</translation>
-    </message>
-    <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Berezko EIG</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="208"/>
@@ -8846,7 +8838,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Txikirudi Sortzailea</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8993,13 +8985,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Berezkoa</translation>
     </message>
     <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Bideo Aurreikuspena</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Txikirudi Sortzailea</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

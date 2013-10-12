@@ -1662,10 +1662,6 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Zoom per &amp;2,35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">A&amp;nteprima...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>&amp;Sempre</translation>
@@ -6846,10 +6842,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Selezionare questa opzione se si vuole usare una istanza di SMPlayer già esistente all&apos;apertura di nuovi file.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Interfaccia predefinita</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>Interfaccia minimale</translation>
@@ -8991,10 +8983,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Predefinito</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Anteprima video</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

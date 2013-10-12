@@ -1661,10 +1661,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Увеличение для &amp;2.35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">Предпрос&amp;мотр...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>&amp;Всегда наверху</translation>
@@ -6847,10 +6843,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Выберите эту опцию, если хотите использовать уже запущенную копию SMPlayer при открытии новых файлов.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">По умолчанию</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>Мини интерфейс</translation>
@@ -8994,10 +8986,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>По умолчанию</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Предпросмотр</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>

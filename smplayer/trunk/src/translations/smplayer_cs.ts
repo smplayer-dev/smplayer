@@ -1087,7 +1087,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>Generátor náhle&amp;dů...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -1659,10 +1659,6 @@ Bude zobrazeno konfigurační okno.</translation>
         <location filename="../basegui.cpp" line="1542"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zoom na &amp;2.35:1</translation>
-    </message>
-    <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">&amp;Náhled...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
@@ -6670,7 +6666,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Základní GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -6844,10 +6840,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Zaškrtněte tuto možnost, chcete-li použít již běžící instanci SMPlayeru pro otevření dalšího souboru.</translation>
-    </message>
-    <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">Výchozí GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="208"/>
@@ -8848,7 +8840,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Generátor náhledů</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8995,13 +8987,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Výchozí</translation>
     </message>
     <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Náhled na video</translation>
-    </message>
-    <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Generátor náhledů</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

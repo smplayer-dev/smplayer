@@ -1661,10 +1661,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>זום מיוחד &amp;2.35:1</translation>
     </message>
     <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">תצוגה &amp;מקדימה...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
         <translation>&amp;תמיד</translation>
@@ -6844,10 +6840,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>סמן את אפשרות זו אם ברצונך להשתמש במאורע מורץ זה מכבר של SMPlayer בעת פתיחת קבצים אחרים.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">ממשק גרפי משתמט</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="208"/>
         <source>Mini GUI</source>
         <translation>ממשק גרפי מוקטן</translation>
@@ -8989,10 +8981,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>משתמט</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">תצוגה מקדימה של וידאו</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
