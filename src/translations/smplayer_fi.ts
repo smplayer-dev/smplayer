@@ -3094,7 +3094,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <location filename="../languages.cpp" line="235"/>
-        <location filename="../languages.cpp" line="291"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Arabic</source>
         <translation>arabian kieli</translation>
     </message>
@@ -3120,7 +3120,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="236"/>
+        <location filename="../languages.cpp" line="237"/>
         <source>Bulgarian</source>
         <translation>bulgarian kieli</translation>
     </message>
@@ -3151,7 +3151,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
-        <location filename="../languages.cpp" line="237"/>
+        <location filename="../languages.cpp" line="238"/>
         <source>Catalan</source>
         <translation>katalaanin kieli</translation>
     </message>
@@ -3162,7 +3162,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="238"/>
+        <location filename="../languages.cpp" line="239"/>
         <source>Czech</source>
         <translation>tsekin kieli</translation>
     </message>
@@ -3173,27 +3173,27 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="54"/>
-        <location filename="../languages.cpp" line="239"/>
+        <location filename="../languages.cpp" line="240"/>
         <source>Danish</source>
         <translation>tanskan kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <location filename="../languages.cpp" line="216"/>
-        <location filename="../languages.cpp" line="240"/>
+        <location filename="../languages.cpp" line="241"/>
         <source>German</source>
         <translation>saksan kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
-        <location filename="../languages.cpp" line="241"/>
+        <location filename="../languages.cpp" line="242"/>
         <source>Greek</source>
         <translation>kreikan kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
         <location filename="../languages.cpp" line="217"/>
-        <location filename="../languages.cpp" line="242"/>
+        <location filename="../languages.cpp" line="243"/>
         <source>English</source>
         <translation>englannin kieli</translation>
     </message>
@@ -3205,19 +3205,19 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="62"/>
         <location filename="../languages.cpp" line="218"/>
-        <location filename="../languages.cpp" line="243"/>
+        <location filename="../languages.cpp" line="244"/>
         <source>Spanish</source>
         <translation>espanjan kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="244"/>
+        <location filename="../languages.cpp" line="245"/>
         <source>Estonian</source>
         <translation>eestin kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
-        <location filename="../languages.cpp" line="245"/>
+        <location filename="../languages.cpp" line="246"/>
         <source>Basque</source>
         <translation>baski</translation>
     </message>
@@ -3229,7 +3229,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="67"/>
         <location filename="../languages.cpp" line="219"/>
-        <location filename="../languages.cpp" line="246"/>
+        <location filename="../languages.cpp" line="247"/>
         <source>Finnish</source>
         <translation>suomen kieli</translation>
     </message>
@@ -3241,7 +3241,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="70"/>
         <location filename="../languages.cpp" line="220"/>
-        <location filename="../languages.cpp" line="247"/>
+        <location filename="../languages.cpp" line="248"/>
         <source>French</source>
         <translation>ranskan kieli</translation>
     </message>
@@ -3257,7 +3257,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
-        <location filename="../languages.cpp" line="248"/>
+        <location filename="../languages.cpp" line="249"/>
         <source>Galician</source>
         <translation>galician kieli</translation>
     </message>
@@ -3278,7 +3278,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="79"/>
-        <location filename="../languages.cpp" line="249"/>
+        <location filename="../languages.cpp" line="250"/>
         <source>Hebrew</source>
         <translation>heprean kieli</translation>
     </message>
@@ -3289,13 +3289,13 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="250"/>
+        <location filename="../languages.cpp" line="251"/>
         <source>Croatian</source>
         <translation>kroaatti</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="251"/>
+        <location filename="../languages.cpp" line="252"/>
         <source>Hungarian</source>
         <translation>unkarin kieli</translation>
     </message>
@@ -3311,6 +3311,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
+        <location filename="../languages.cpp" line="253"/>
         <source>Indonesian</source>
         <translation>indonesian kieli</translation>
     </message>
@@ -3327,7 +3328,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="96"/>
         <location filename="../languages.cpp" line="221"/>
-        <location filename="../languages.cpp" line="252"/>
+        <location filename="../languages.cpp" line="254"/>
         <source>Italian</source>
         <translation>italian kieli</translation>
     </message>
@@ -3339,7 +3340,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <location filename="../languages.cpp" line="222"/>
-        <location filename="../languages.cpp" line="253"/>
+        <location filename="../languages.cpp" line="255"/>
         <source>Japanese</source>
         <translation>japanin kieli</translation>
     </message>
@@ -3350,7 +3351,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
-        <location filename="../languages.cpp" line="254"/>
+        <location filename="../languages.cpp" line="256"/>
         <source>Georgian</source>
         <translation>georgian kieli</translation>
     </message>
@@ -3371,7 +3372,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
-        <location filename="../languages.cpp" line="255"/>
+        <location filename="../languages.cpp" line="257"/>
         <source>Korean</source>
         <translation>korean kieli</translation>
     </message>
@@ -3382,7 +3383,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
-        <location filename="../languages.cpp" line="256"/>
+        <location filename="../languages.cpp" line="258"/>
         <source>Kurdish</source>
         <translation>kurdin kieli</translation>
     </message>
@@ -3403,7 +3404,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="257"/>
+        <location filename="../languages.cpp" line="259"/>
         <source>Lithuanian</source>
         <translation>liettuan kieli</translation>
     </message>
@@ -3424,7 +3425,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
-        <location filename="../languages.cpp" line="258"/>
+        <location filename="../languages.cpp" line="260"/>
         <source>Macedonian</source>
         <translation>makedonian kieli</translation>
     </message>
@@ -3450,7 +3451,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
-        <location filename="../languages.cpp" line="259"/>
+        <location filename="../languages.cpp" line="261"/>
         <source>Malay</source>
         <translation>malesian kieli</translation>
     </message>
@@ -3477,12 +3478,13 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="223"/>
-        <location filename="../languages.cpp" line="260"/>
+        <location filename="../languages.cpp" line="262"/>
         <source>Dutch</source>
         <translation>hollannin kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
+        <location filename="../languages.cpp" line="263"/>
         <source>Norwegian Nynorsk</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3504,7 +3506,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="261"/>
+        <location filename="../languages.cpp" line="264"/>
         <source>Polish</source>
         <translation>puolan kieli</translation>
     </message>
@@ -3521,15 +3523,15 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
-        <location filename="../languages.cpp" line="264"/>
+        <location filename="../languages.cpp" line="267"/>
         <source>Romanian</source>
         <translation>romanian kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="265"/>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="268"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Russian</source>
         <translation>venäjän kieli</translation>
     </message>
@@ -3550,13 +3552,13 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="266"/>
+        <location filename="../languages.cpp" line="269"/>
         <source>Slovak</source>
         <translation>slovakiankielinen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="267"/>
+        <location filename="../languages.cpp" line="270"/>
         <source>Slovenian</source>
         <translation>sloveeninkielinen</translation>
     </message>
@@ -3582,7 +3584,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
-        <location filename="../languages.cpp" line="268"/>
+        <location filename="../languages.cpp" line="271"/>
         <source>Serbian</source>
         <translation>serbian kieli</translation>
     </message>
@@ -3594,7 +3596,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <location filename="../languages.cpp" line="227"/>
-        <location filename="../languages.cpp" line="269"/>
+        <location filename="../languages.cpp" line="272"/>
         <source>Swedish</source>
         <translation>ruotsin kieli</translation>
     </message>
@@ -3620,7 +3622,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
-        <location filename="../languages.cpp" line="270"/>
+        <location filename="../languages.cpp" line="273"/>
         <source>Thai</source>
         <translation>thain kieli</translation>
     </message>
@@ -3646,8 +3648,8 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="271"/>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="274"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Turkish</source>
         <translation>turkin kieli</translation>
     </message>
@@ -3673,7 +3675,7 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="272"/>
+        <location filename="../languages.cpp" line="275"/>
         <source>Ukrainian</source>
         <translation>ukrainan kieli</translation>
     </message>
@@ -3684,12 +3686,13 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
+        <location filename="../languages.cpp" line="276"/>
         <source>Uzbek</source>
         <translation>uzbekin kieli</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
-        <location filename="../languages.cpp" line="273"/>
+        <location filename="../languages.cpp" line="277"/>
         <source>Vietnamese</source>
         <translation>vietnamin kieli</translation>
     </message>
@@ -3730,132 +3733,137 @@ Tarkista kansion oikeudet.</translation>
         <translation>zulun kieli</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="262"/>
+        <location filename="../languages.cpp" line="236"/>
+        <source>Arabic - Syria</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="265"/>
         <source>Portuguese - Brazil</source>
         <translation>Brasilian portugali</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="263"/>
+        <location filename="../languages.cpp" line="266"/>
         <source>Portuguese - Portugal</source>
         <translation>portugalin kieli</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="274"/>
+        <location filename="../languages.cpp" line="278"/>
         <source>Simplified-Chinese</source>
         <translation>yksinkertaistettu kiinan kieli</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="275"/>
+        <location filename="../languages.cpp" line="279"/>
         <source>Traditional Chinese</source>
         <translation>perinteinen kiinan kieli</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="283"/>
+        <location filename="../languages.cpp" line="287"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="284"/>
+        <location filename="../languages.cpp" line="288"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="285"/>
+        <location filename="../languages.cpp" line="289"/>
         <source>Western European Languages</source>
         <translation>länsieurooppalaiset kielet</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="286"/>
+        <location filename="../languages.cpp" line="290"/>
         <source>Western European Languages with Euro</source>
         <translation>länsieurooppalaiset kielet eurolla</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="287"/>
+        <location filename="../languages.cpp" line="291"/>
         <source>Slavic/Central European Languages</source>
         <translation>slaavilaiset/länsieurooppalaiset kielet</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="288"/>
+        <location filename="../languages.cpp" line="292"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, galicialainen, maltalainen, turkkilainen</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="289"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Old Baltic charset</source>
         <translation>vanhojen baltian kielten merkistö</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="290"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Cyrillic</source>
         <translation>kyrillinen</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Modern Greek</source>
         <translation>moderni kreikka</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Baltic</source>
         <translation>baltian kielet</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Celtic</source>
         <translation>kelttiläinen</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>South-Eastern European</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Hebrew charsets</source>
         <translation>heprean merkistö</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Ukrainian, Belarusian</source>
         <translation>ukrainan kieli, valkovenäjä</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Simplified Chinese charset</source>
         <translation>yksinkertaistetun kiinan merkistö</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Traditional Chinese charset</source>
         <translation>perinteisen kiinan merkistö</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>Japanese charsets</source>
         <translation>japanin merkistö</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>Korean charset</source>
         <translation>korean merkistö</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Thai charset</source>
         <translation>thain merkistö</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="309"/>
         <source>Cyrillic Windows</source>
         <translation>kyrillinen Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Slavic/Central European Windows</source>
         <translation>slaavilainen/keskieurooppalainen Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Arabic Windows</source>
         <translation>arabialainen Windows</translation>
     </message>
@@ -4176,7 +4184,7 @@ Tarkista kansion oikeudet.</translation>
         <translation>vallonin kieli</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Modern Greek Windows</source>
         <translation>moderni kreikkalainen Windows</translation>
     </message>
