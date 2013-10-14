@@ -232,7 +232,8 @@ QMap<QString,QString> Languages::most_used_list() {
 
 QMap<QString,QString> Languages::translations() {
 	QMap <QString,QString> m;
-	m["ar_SY"] = tr("Arabic");
+	m["ar"] = tr("Arabic");
+	m["ar_SY"] = tr("Arabic - Syria");
 	m["bg"] = tr("Bulgarian");
 	m["ca"] = tr("Catalan");
 	m["cs"] = tr("Czech");
@@ -249,6 +250,7 @@ QMap<QString,QString> Languages::translations() {
 	m["he_IL"] = tr("Hebrew");
 	m["hr"] = tr("Croatian");
 	m["hu"] = tr("Hungarian");
+	m["id"] = tr("Indonesian");
 	m["it"] = tr("Italian");
 	m["ja"] = tr("Japanese");
 	m["ka"] = tr("Georgian");
@@ -258,6 +260,7 @@ QMap<QString,QString> Languages::translations() {
 	m["mk"] = tr("Macedonian");
 	m["ms_MY"] = tr("Malay");
 	m["nl"] = tr("Dutch");
+	m["nn_NO"] = tr("Norwegian Nynorsk");
 	m["pl"] = tr("Polish");
 	m["pt_BR"] = tr("Portuguese - Brazil");
 	m["pt"] = tr("Portuguese - Portugal");
@@ -270,6 +273,7 @@ QMap<QString,QString> Languages::translations() {
 	m["th"] = tr("Thai");
 	m["tr"] = tr("Turkish");
 	m["uk_UA"] = tr("Ukrainian");
+	m["uz"] = tr("Uzbek");
 	m["vi_VN"] = tr("Vietnamese");
 	m["zh_CN"] = tr("Simplified-Chinese");
 	m["zh_TW"] = tr("Traditional Chinese");
