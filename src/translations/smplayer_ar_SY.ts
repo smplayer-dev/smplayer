@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en">
+<TS version="2.0" language="ar_SY">
 <context>
     <name>About</name>
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Version: %1</source>
-        <translation type="unfinished">الأصدار :%1</translation>
+        <translation>الأصدار :%1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
@@ -1976,37 +1976,37 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2825"/>
         <source>Brightness: %1</source>
-        <translation type="unfinished"> %1 السطوع</translation>
+        <translation> %1 السطوع</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2840"/>
         <source>Contrast: %1</source>
-        <translation type="unfinished"> %1 التغميق</translation>
+        <translation> %1 التغميق</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2854"/>
         <source>Gamma: %1</source>
-        <translation type="unfinished"> %1 ألوان غاما</translation>
+        <translation> %1 ألوان غاما</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2868"/>
         <source>Hue: %1</source>
-        <translation type="unfinished">%1 الشكل</translation>
+        <translation>%1 الشكل</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2882"/>
         <source>Saturation: %1</source>
-        <translation type="unfinished"> %1 الإشباع</translation>
+        <translation> %1 الإشباع</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3011"/>
         <source>Volume: %1</source>
-        <translation type="unfinished">%1 درجة الصوت</translation>
+        <translation>%1 درجة الصوت</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3798"/>
         <source>Zoom: %1</source>
-        <translation type="unfinished"> %1 التقريب</translation>
+        <translation> %1 التقريب</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4045"/>
@@ -2017,7 +2017,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="3127"/>
         <location filename="../core.cpp" line="3139"/>
         <source>Font scale: %1</source>
-        <translation type="unfinished"> %1 حجم الخط</translation>
+        <translation> %1 حجم الخط</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3667"/>
@@ -2655,7 +2655,6 @@ Example: resample=44100:0:0,volnorm</source>
         <source>%n subtitle(s) extracted</source>
         <translation type="unfinished">
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2795,12 +2794,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="62"/>
         <source>General</source>
-        <translation type="unfinished">عــام</translation>
+        <translation>عــام</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="66"/>
         <source>Size</source>
-        <translation type="unfinished">الحجم</translation>
+        <translation>الحجم</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="66"/>
@@ -2810,101 +2809,101 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="70"/>
         <source>URL</source>
-        <translation type="unfinished">المسار</translation>
+        <translation>المسار</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="72"/>
         <source>Length</source>
-        <translation type="unfinished">المدة</translation>
+        <translation>المدة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="73"/>
         <source>Demuxer</source>
-        <translation type="unfinished">الخالط</translation>
+        <translation>الخالط</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="78"/>
         <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Name</source>
-        <translation type="unfinished">الأسم</translation>
+        <translation>الأسم</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="79"/>
         <source>Artist</source>
-        <translation type="unfinished">المؤدي</translation>
+        <translation>المؤدي</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="80"/>
         <source>Author</source>
-        <translation type="unfinished">المالك</translation>
+        <translation>المالك</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="81"/>
         <source>Album</source>
-        <translation type="unfinished">الألبوم</translation>
+        <translation>الألبوم</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="82"/>
         <source>Genre</source>
-        <translation type="unfinished">الصنف</translation>
+        <translation>الصنف</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="83"/>
         <source>Date</source>
-        <translation type="unfinished">التاريخ</translation>
+        <translation>التاريخ</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="84"/>
         <source>Track</source>
-        <translation type="unfinished">المسار</translation>
+        <translation>المسار</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="85"/>
         <source>Copyright</source>
-        <translation type="unfinished">الحقوق</translation>
+        <translation>الحقوق</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="86"/>
         <source>Comment</source>
-        <translation type="unfinished">تعليق</translation>
+        <translation>تعليق</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="87"/>
         <source>Software</source>
-        <translation type="unfinished">البرنامج</translation>
+        <translation>البرنامج</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="92"/>
         <source>Clip info</source>
-        <translation type="unfinished">معلومات المقطع</translation>
+        <translation>معلومات المقطع</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
         <source>Video</source>
-        <translation type="unfinished">الفيديو</translation>
+        <translation>الفيديو</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="100"/>
         <source>Resolution</source>
-        <translation type="unfinished">الأبعاد</translation>
+        <translation>الأبعاد</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
         <source>Aspect ratio</source>
-        <translation type="unfinished">نسبة الطول للعرض</translation>
+        <translation>نسبة الطول للعرض</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="102"/>
         <location filename="../infofile.cpp" line="111"/>
         <source>Format</source>
-        <translation type="unfinished">الصيغة</translation>
+        <translation>الصيغة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>Bitrate</source>
-        <translation type="unfinished">معدل الترميز</translation>
+        <translation>معدل الترميز</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="103"/>
@@ -2915,23 +2914,23 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="104"/>
         <source>Frames per second</source>
-        <translation type="unfinished">الشرائح بأجزاء الثانية</translation>
+        <translation>الشرائح بأجزاء الثانية</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="105"/>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
-        <translation type="unfinished">الكوديك المحدد</translation>
+        <translation>الكوديك المحدد</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="110"/>
         <source>Initial Audio Stream</source>
-        <translation type="unfinished">جدول الصوت السمعي</translation>
+        <translation>جدول الصوت السمعي</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Rate</source>
-        <translation type="unfinished">الترميز</translation>
+        <translation>الترميز</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
@@ -2941,18 +2940,18 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="114"/>
         <source>Channels</source>
-        <translation type="unfinished">القنوات</translation>
+        <translation>القنوات</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="120"/>
         <source>Audio Streams</source>
-        <translation type="unfinished">الجداول السمعية</translation>
+        <translation>الجداول السمعية</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Language</source>
-        <translation type="unfinished">اللغــة</translation>
+        <translation>اللغــة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
@@ -2960,17 +2959,17 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="162"/>
         <location filename="../infofile.cpp" line="164"/>
         <source>empty</source>
-        <translation type="unfinished">فارغ</translation>
+        <translation>فارغ</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="144"/>
         <source>Subtitles</source>
-        <translation type="unfinished">الترجمــات</translation>
+        <translation>الترجمــات</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="148"/>
         <source>Type</source>
-        <translation type="unfinished">النوع</translation>
+        <translation>النوع</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="125"/>
@@ -2989,17 +2988,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="88"/>
         <source>Stream title</source>
-        <translation type="unfinished">جدول العناوين</translation>
+        <translation>جدول العناوين</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="89"/>
         <source>Stream URL</source>
-        <translation type="unfinished">جدول المسار</translation>
+        <translation>جدول المسار</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="65"/>
         <source>File</source>
-        <translation type="unfinished">ملف</translation>
+        <translation>ملف</translation>
     </message>
 </context>
 <context>
@@ -8389,7 +8388,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
-            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -8397,7 +8395,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
