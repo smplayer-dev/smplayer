@@ -191,7 +191,7 @@ void SkinGui::createMenus() {
 	QFont font = menuBar()->font();
 	font.setPixelSize(11);
 	menuBar()->setFont(font);
-	menuBar()->setFixedHeight(21);
+	/*menuBar()->setFixedHeight(21);*/
 
 	toolbar_menu = new QMenu(this);
 	toolbar_menu->addAction(toolbar1->toggleViewAction());
