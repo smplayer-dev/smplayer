@@ -19,7 +19,7 @@ FILETYPE            VFT_APP
     {
       VALUE "CompanyName", "Ricardo Villalba\0"
       #ifdef PORTABLE_APP
-      VALUE "FileDescription", "SMPlayer (Portable)\0"
+      VALUE "FileDescription", "SMPlayer (Portable Edition)\0"
       #else
       VALUE "FileDescription", "SMPlayer\0"
       #endif
