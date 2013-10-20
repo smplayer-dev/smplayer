@@ -338,7 +338,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="212"/>
         <source>Name</source>
-        <translation>名字</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="212"/>
@@ -348,7 +348,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="212"/>
         <source>Shortcut</source>
-        <translation>快捷鍵</translation>
+        <translation>快速鍵</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="214"/>
@@ -364,7 +364,7 @@
         <location filename="../actionseditor.cpp" line="435"/>
         <location filename="../actionseditor.cpp" line="485"/>
         <source>Key files</source>
-        <translation>重要檔案</translation>
+        <translation>快速鍵檔案</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="433"/>
@@ -407,7 +407,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="221"/>
         <source>&amp;Change shortcut...</source>
-        <translation>改變捷徑(&amp;C)...</translation>
+        <translation>更改快速鍵(&amp;C)...</translation>
     </message>
 </context>
 <context>
@@ -713,7 +713,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1529"/>
         <source>&amp;Screenshot</source>
-        <translation>螢幕擷取(&amp;S)</translation>
+        <translation>擷取畫面(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
@@ -1431,7 +1431,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>Add &amp;black borders</source>
-        <translation>加入黑框(&amp;B)</translation>
+        <translation>加入黑色邊框(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
@@ -2391,12 +2391,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="53"/>
         <source>&amp;Demuxer</source>
-        <translation>解碼器(&amp;D)</translation>
+        <translation>分離器(&amp;D)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>選擇用於這個檔案的解碼器(&amp;S):</translation>
+        <translation>選擇用於這個檔案的分離器(&amp;S)：</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="105"/>
@@ -2408,22 +2408,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="115"/>
         <source>&amp;Video codec</source>
-        <translation>視訊編碼解碼器(&amp;V)</translation>
+        <translation>視訊解碼器(&amp;V)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="127"/>
         <source>&amp;Select the video codec:</source>
-        <translation>選擇視訊編碼解碼器(&amp;S):</translation>
+        <translation>選擇視訊解碼器(&amp;S):</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="177"/>
         <source>A&amp;udio codec</source>
-        <translation>音訊編碼解碼器(&amp;U)</translation>
+        <translation>音訊解碼器(&amp;U)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="189"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>選擇音訊編碼解碼器(&amp;S):</translation>
+        <translation>選擇音訊解碼器(&amp;S):</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="239"/>
@@ -2531,7 +2531,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation>請選擇代理伺服器的種類。</translation>
+        <translation>請選擇使用的代理伺服器種類。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -2541,7 +2541,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation>主機</translation>
+        <translation>伺服器</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
@@ -2551,37 +2551,37 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
         <source>Proxy</source>
-        <translation>伺服器</translation>
+        <translation>代理</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="48"/>
         <source>&amp;Enable proxy</source>
-        <translation>啟動伺服器 (&amp;E)</translation>
+        <translation>啟用代理(&amp;E)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="61"/>
         <source>&amp;Host:</source>
-        <translation>主機 (&amp;H):</translation>
+        <translation>主機(&amp;H)：</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
         <source>&amp;Port:</source>
-        <translation>埠 (&amp;P)：</translation>
+        <translation>連接埠(&amp;P)：</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="94"/>
         <source>&amp;Username:</source>
-        <translation>使用者賬號(&amp;U):</translation>
+        <translation>使用者名稱(&amp;U)：</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="107"/>
         <source>Pa&amp;ssword:</source>
-        <translation>密碼(&amp;s):</translation>
+        <translation>密碼(&amp;S)：</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Type:</source>
-        <translation>種類 (%T)：</translation>
+        <translation>種類(&amp;T)：</translation>
     </message>
 </context>
 <context>
@@ -2594,7 +2594,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
-        <translation>名字</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
@@ -2657,7 +2657,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
-        <translation>下載 (&amp;D)</translation>
+        <translation>下載(&amp;D)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
@@ -2672,7 +2672,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
-        <translation>下載失敗: %1.</translation>
+        <translation>下載失敗: %1。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
@@ -2707,12 +2707,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="51"/>
         <source>&amp;Subtitles for</source>
-        <translation>字幕語言 (&amp;S)</translation>
+        <translation>要尋找字幕的影片(&amp;S)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
-        <translation>語言 (&amp;A)</translation>
+        <translation>語言(&amp;A)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
@@ -2747,9 +2747,9 @@ Example: resample=44100:0:0,volnorm</source>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation>無法將以下載好的檔案儲存
-于目錄夾 %1
-請檢查該目錄夾的權限</translation>
+        <translation>無法將下載好的檔案儲存
+於資料夾 %1
+請檢查該資料夾的使用權限</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
@@ -2812,14 +2812,14 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="73"/>
         <source>Demuxer</source>
-        <translation>解碼器</translation>
+        <translation>分離器</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="78"/>
         <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Name</source>
-        <translation>名字</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="79"/>
@@ -2913,7 +2913,7 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="105"/>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
-        <translation>選擇的編碼解碼器</translation>
+        <translation>選擇的解碼器</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="110"/>
@@ -4297,7 +4297,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation>編輯浮動控制(&amp;F)</translation>
+        <translation>編輯浮動控制列(&amp;F)</translation>
     </message>
 </context>
 <context>
@@ -4383,7 +4383,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="293"/>
         <source>Name</source>
-        <translation>名字</translation>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="293"/>
@@ -4446,12 +4446,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1288"/>
         <source>Edit name</source>
-        <translation>編輯名字</translation>
+        <translation>編輯名稱</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1289"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>給這個檔案輸入一個顯示於播放清單上的名字:</translation>
+        <translation>給這個檔案輸入一個顯示於播放清單上的名稱：</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="295"/>
@@ -4760,7 +4760,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="410"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation>選取此選項後，MPlayer 的視訊視窗將不會嵌入於 SMPlayer 得主視窗中，而會有獨立的視窗。請注意: MPlayer 將直接處理滑鼠及鍵盤輸入，換句話說，當焦點在 MPlayer 視窗時，鍵盤捷鍵跟滑鼠可能不會像預期般運作。</translation>
+        <translation>選取此選項後，MPlayer 的視訊視窗將不會嵌入於 SMPlayer 的主視窗中，而會有獨立的視窗。請注意：MPlayer 將直接處理滑鼠及鍵盤輸入，換句話說，當焦點在 MPlayer 視窗時，快速鍵跟滑鼠可能不會如預期般運作。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
@@ -5779,7 +5779,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>如果勾選，將開啟直接渲染功能 (不被所有編解碼器和視訊輸出支援)&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt; 可能引起視控調整功能壞掉！</translation>
+        <translation>如果勾選，將開啟直接渲染功能 (不被所有解碼器和視訊輸出支援)&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt; 可能引起視控調整功能壞掉！</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1040"/>
@@ -5789,7 +5789,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="892"/>
         <source>Enable screenshots</source>
-        <translation>啟用螢幕擷圖</translation>
+        <translation>啟用擷取畫面</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="893"/>
@@ -5814,7 +5814,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation>啟用螢幕擷圖(&amp;E)</translation>
+        <translation>啟用擷取畫面(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
@@ -5998,7 +5998,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="136"/>
         <source>Button functions:</source>
-        <translation>按鈕功能:</translation>
+        <translation>按鍵功能：</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6026,12 +6026,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>您可以在此處更改任何鍵盤捷鍵。要進行更改，在一個捷鍵上雙擊滑鼠鍵或按 Enter。另外，您也可以儲存這個列表，方便與他人分享，或套用在另一臺電腦上。</translation>
+        <translation>您可以在此處更改任何快速鍵。要進行更改，可以在一個快速鍵項目上雙擊滑鼠鍵或按 Enter 鍵。另外，您也可以選擇儲存這個清單，並與他人分享，或套用在另一臺電腦上。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>您可以在此處更改任何鍵盤捷鍵。要進行更改，在一個捷鍵上雙擊滑鼠鍵或開始打字。另外，您也可以儲存這個列表，方便與他人分享，或套用在另一臺電腦上。</translation>
+        <translation>您可以在此處更改任何快速鍵。要進行更改，可以在一個快速鍵項目上雙擊滑鼠。另外，您也可以儲存這個清單，方便與他人分享，或套用在另一台電腦上。</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="314"/>
@@ -6051,7 +6051,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="309"/>
         <source>Shortcut editor</source>
-        <translation>捷徑編輯器</translation>
+        <translation>快速鍵編輯器</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="310"/>
@@ -6866,7 +6866,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Floating control</source>
-        <translation>浮動控制</translation>
+        <translation>浮動控制列</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="752"/>
@@ -7072,7 +7072,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Allow frame drop</source>
-        <translation> 准許畫格遺失</translation>
+        <translation> 允許丟棄畫面</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
@@ -7082,7 +7082,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>Allow hard frame drop</source>
-        <translation>准許強制刪除畫格</translation>
+        <translation>允許強制丟棄畫面</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
@@ -7097,12 +7097,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="157"/>
         <source>&amp;Allow frame drop</source>
-        <translation>准許強制刪除畫格 (&amp;A)</translation>
+        <translation>允許丟棄畫面(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="164"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>准許強制刪除畫格 (可能導致畫面失真) (&amp;H)</translation>
+        <translation>允許強制丟棄畫面 (可能導致影像失真) (&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="304"/>
@@ -7282,17 +7282,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>Threads for decoding</source>
-        <translation>解碼的線程數</translation>
+        <translation>解碼的執行緒數量</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="295"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation>設定使用於解碼的線程數。僅適用於 MPEG-1/2 和 H.264</translation>
+        <translation>設定使用於解碼的執行緒數量。僅適用於 MPEG-1/2 和 H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="188"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>解碼的線程數 (僅 MPEG-1/2 和 H.264)(&amp;T)：</translation>
+        <translation>解碼的執行緒數量 (僅 MPEG-1/2 和 H.264)(&amp;T)：</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
@@ -8511,7 +8511,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
         <source>Modify shortcut</source>
-        <translation>修改捷徑</translation>
+        <translation>修改快速鍵</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="291"/>
@@ -8521,7 +8521,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="276"/>
         <source>Press the key combination you want to assign</source>
-        <translation>按下你想要的組合鍵</translation>
+        <translation>按下您想要指派的組合鍵</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="293"/>
@@ -8531,7 +8531,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Capture keystrokes</source>
-        <translation>擷取按鍵</translation>
+        <translation>擷取鍵盤動作</translation>
     </message>
 </context>
 <context>
@@ -8559,7 +8559,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation>編輯浮動控制 (&amp;F)</translation>
+        <translation>編輯浮動控制列 (&amp;F)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>

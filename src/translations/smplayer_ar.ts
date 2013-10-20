@@ -364,7 +364,7 @@
         <location filename="../actionseditor.cpp" line="435"/>
         <location filename="../actionseditor.cpp" line="485"/>
         <source>Key files</source>
-        <translation type="unfinished"></translation>
+        <translation>ملفات مفاتيح</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="433"/>
@@ -415,7 +415,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
-        <translation>معادل الصوت</translation>
+        <translation>مساوي الصوت</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="84"/>
@@ -496,32 +496,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1710"/>
         <source>&amp;Open</source>
-        <translation>ا&amp;فتح</translation>
+        <translation>&amp;فتح</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;Play</source>
-        <translation>ش&amp;غّل</translation>
+        <translation>تش&amp;غيل</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
         <source>&amp;Video</source>
-        <translation>مقطع &amp;فيديو</translation>
+        <translation>&amp;فيديو</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1713"/>
         <source>&amp;Audio</source>
-        <translation>مقطع &amp;صوت</translation>
+        <translation>&amp;صوت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1714"/>
         <source>&amp;Subtitles</source>
-        <translation>التر&amp;جمات</translation>
+        <translation>تر&amp;جمات</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1715"/>
         <source>&amp;Browse</source>
-        <translation>ا&amp;ستعرض</translation>
+        <translation>ت&amp;صفح</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
@@ -536,12 +536,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1461"/>
         <source>&amp;File...</source>
-        <translation>&amp;ملفاً...</translation>
+        <translation>&amp;ملف...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1462"/>
         <source>D&amp;irectory...</source>
-        <translation>م&amp;جلداً...</translation>
+        <translation>م&amp;جلد...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1463"/>
@@ -556,12 +556,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1467"/>
         <source>D&amp;VD from folder...</source>
-        <translation>&amp;قرص DVD من مجلد...</translation>
+        <translation>قرص DVD من م&amp;جلد...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1468"/>
         <source>&amp;URL...</source>
-        <translation>راب&amp;طاً...</translation>
+        <translation>راب&amp;ط...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
@@ -591,7 +591,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1497"/>
         <source>&amp;Frame step</source>
-        <translation>خ&amp;طوة إطار</translation>
+        <translation>اخطُ إطاراً &amp;واحداً</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1515"/>
@@ -611,12 +611,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1518"/>
         <source>Speed &amp;-10%</source>
-        <translation>السرعة &amp;-10%</translation>
+        <translation>سرّع &amp;-10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1519"/>
         <source>Speed &amp;+10%</source>
-        <translation>السرعة &amp;+10%</translation>
+        <translation>سرّع &amp;+10%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1605"/>
@@ -632,7 +632,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1510"/>
         <source>&amp;Repeat</source>
-        <translation>ت&amp;كرار</translation>
+        <translation>&amp;كرّر</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1526"/>
@@ -673,7 +673,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;فُكّ التشابك</translation>
+        <translation>&amp;فَكّ التشابك</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1554"/>
@@ -708,7 +708,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1528"/>
         <source>&amp;Equalizer</source>
-        <translation>المُعادِ&amp;ل</translation>
+        <translation>المُ&amp;ساوي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1529"/>
@@ -723,12 +723,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1577"/>
         <source>&amp;Extrastereo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ستيريو اضافي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1578"/>
         <source>&amp;Karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;كاريوكي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1841"/>
@@ -739,17 +739,17 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1851"/>
         <location filename="../basegui.cpp" line="1857"/>
         <source>&amp;Stereo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ستيريو</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;4.0 Surround</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;4.0  محيط</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1853"/>
         <source>&amp;5.1 Surround</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;5.1 محيط</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1844"/>
@@ -926,143 +926,144 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3736"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation type="unfinished"></translation>
+        <translation>لم تُضبط سواقة أقراص CDROM أو DVD بعدُ.
+سيظهر الآن حوار الضبط.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3819"/>
         <source>Choose a directory</source>
-        <translation>اختر دليل ملفات</translation>
+        <translation>اختر مجلداً</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3855"/>
         <source>Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>الترجمات</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4289"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>يتوفر إصدار جديد</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4290"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>يتوفر إصدار جديد من SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4291"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">النسخة المثبّتة: %1</translation>
+        <translation>الإصدار المثبّت: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4292"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>الإصدار المتوفر: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4293"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>أتريد معرفة المزيد حول هذا الإصدار؟</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4429"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>اكتُشِف خطأ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4430"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>نأسف إذ لا يمكن تشغيل مقطع الفيديو هذا.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Playing %1</source>
-        <translation>جاري تشغيل %1</translation>
+        <translation>يُشغل %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4600"/>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>ألبث</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4601"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>أوقف</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1499"/>
         <source>Play / Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>شغّل/ألبث</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1502"/>
         <source>Pause / Frame step</source>
-        <translation type="unfinished"></translation>
+        <translation>ألبث/خطوة إطار</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1574"/>
         <location filename="../basegui.cpp" line="1583"/>
         <source>U&amp;nload</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;زِل التحميل</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1464"/>
         <source>V&amp;CD</source>
-        <translation type="unfinished"></translation>
+        <translation>قرص فيديو م&amp;ضغوط (VCD)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1469"/>
         <source>C&amp;lose</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;غلِق</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1621"/>
         <source>View &amp;info and properties...</source>
-        <translation>شاهد المع&amp;لومات و الخصائص...</translation>
+        <translation>أظهر الم&amp;علومات والخصائص...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1537"/>
         <source>Zoom &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;بعِّد درجة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1538"/>
         <source>Zoom &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;قرِّب درجة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1539"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;صفّر</translation>
+        <translation>&amp;صفّر</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1543"/>
         <source>Move &amp;left</source>
-        <translation type="unfinished"></translation>
+        <translation>حرّك لل&amp;يسار</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1544"/>
         <source>Move &amp;right</source>
-        <translation type="unfinished"></translation>
+        <translation>حرّك للي&amp;مين</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1545"/>
         <source>Move &amp;up</source>
-        <translation type="unfinished"></translation>
+        <translation>حرّك لأ&amp;على</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1546"/>
         <source>Move &amp;down</source>
-        <translation type="unfinished"></translation>
+        <translation>حرّك لأ&amp;سفل</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1592"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>السطر الساب&amp;ق في الترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>السطر ال&amp;تالي في الترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1933"/>
@@ -1081,7 +1082,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1669"/>
         <source>Dec volume (2)</source>
-        <translation type="unfinished"></translation>
+        <translation>أنقص الصوت (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
@@ -1091,98 +1092,98 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation>أزل التغير المفاج&amp;ئ في اللون (gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1611"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;مبدئي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1636"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;دليل البدء</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1642"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>حدّث الن&amp;ص البرمجي لـYouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1645"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
+        <translation>افتح مجلد ال&amp;ضبط</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1647"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>تبرّ&amp;ع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
         <source>Inc volume (2)</source>
-        <translation type="unfinished"></translation>
+        <translation> (2)رفع الدرجة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1673"/>
         <source>Exit fullscreen</source>
-        <translation>خروج من الشاشة الكاملة</translation>
+        <translation>اخرج من ملء الشاشة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1675"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished"></translation>
+        <translation>لوحة الأدوات على الشاشة - المرحلة التالية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1676"/>
         <source>Dec contrast</source>
-        <translation>انقاص التضادّ</translation>
+        <translation>أنقص التباين</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1677"/>
         <source>Inc contrast</source>
-        <translation>زيادة التضادّ</translation>
+        <translation>زِد التباين</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
         <source>Dec brightness</source>
-        <translation>انقاص السطوع</translation>
+        <translation>أنقص الإضاءة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>Inc brightness</source>
-        <translation>زيادة السطوع</translation>
+        <translation>زِد الإضاءة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
         <source>Dec hue</source>
-        <translation>انقاص الصبغة</translation>
+        <translation>أنقص التدرج</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
         <source>Inc hue</source>
-        <translation>زيادة الصبغة</translation>
+        <translation>زِد التدرج</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1682"/>
         <source>Dec saturation</source>
-        <translation>انقاص الإشباع</translation>
+        <translation>أنقص التشبع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1684"/>
         <source>Dec gamma</source>
-        <translation>انقاص غاما</translation>
+        <translation>أنقص غاما</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1687"/>
         <source>Next audio</source>
-        <translation>الملف الصوتي التالي</translation>
+        <translation>مقطع الصوت التالي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1688"/>
         <source>Next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>الترجمة التالية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1689"/>
@@ -1197,692 +1198,693 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1789"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"></translation>
+        <translation>أزل ال&amp;ضجيج</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1792"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"></translation>
+        <translation>غشاوة/&amp;حِدَّة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished">م&amp;خفيّة</translation>
+        <translation>&amp;بدون</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;عادي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;خفيف</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1818"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished">&amp;بدون</translation>
+        <translation>&amp;بدون</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;غشاوة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حِدّة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1854"/>
         <source>&amp;6.1 Surround</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;6.1 محيط</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1855"/>
         <source>&amp;7.1 Surround</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;7.1 محيط</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1860"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;حادية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1861"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;عكس</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"></translation>
+        <translation>الإ&amp;طارات في الثانية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1917"/>
         <source>SMPlayer - MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - سجل MPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1920"/>
         <source>SMPlayer - SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - سجل SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>تبرّع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن أحببت SMPlayer ورغبا في دعم تطويره، بإمكانك إرسال تبرّع، وسنقدّره غالياً مهما صَغر. </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>نعم، أريد أن أتبرع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4384"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>نأسف إذا لا يمكن تشغيل مقطع الفيديو هذا بسبب التغييرات الطارئة على صفحة YouTube.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4391"/>
         <location filename="../basegui.cpp" line="4399"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>مشكلات في YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4387"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>نأسف إذا لا يمكن تشغيل مقطع الفيديو &quot;%1&quot; بسبب التغييرات الطارئة على صفحة YouTube.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4393"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>أتريد تحديث النص البرمجي لـYouTube؟ لعله يحلّ المشكلة.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4401"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>قد يحل المشكلة تحديث SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5122"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"></translation>
+        <translation>غير قادر على بدء مستعرض YouTube.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5123"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>تأكد من تثبيت %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;شارك SMPlayer مع أصدقائك</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2876"/>
         <location filename="../basegui.cpp" line="3502"/>
         <source>Information</source>
-        <translation type="unfinished">معلومات</translation>
+        <translation>معلومات</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2877"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>عليك إعادة تشغيل SMPlayer لاستخدام الواجهة الرسومية الجديدة.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3282"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>أكد الحذف - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3283"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
+        <translation>أأحذف قائمة الملفات الأخيرة؟</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3503"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished">حُفظَت القيم الحالية لتستخدم قيماً مبدئية.</translation>
+        <translation>حُفظَت القيم الحالية لتستخدم قيماً مبدئية.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1683"/>
         <source>Inc saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>زِد التشبع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>Inc gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>زِد غاما</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1573"/>
         <source>&amp;Load external file...</source>
-        <translation type="unfinished"></translation>
+        <translation>حمل ملفاً &amp;خارجياً...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1812"/>
         <source>&amp;Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kerndeint</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1809"/>
         <source>&amp;Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yadif (عادي)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1810"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yadif (ضعفا معدل الإطارات)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1659"/>
         <source>&amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;تالي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1660"/>
         <source>Pre&amp;vious</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;سابق</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1579"/>
         <source>Volume &amp;normalization</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;سوية الصوت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1465"/>
         <source>&amp;Audio CD</source>
-        <translation type="unfinished"></translation>
+        <translation>قرص &amp;صوتيّ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1595"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم مك&amp;تبة SSA/AAS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Toggle double size</source>
-        <translation type="unfinished"></translation>
+        <translation>بدّل وضع مضاعفة ال&amp;حجم</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1589"/>
         <source>S&amp;ize -</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;كبّر درجة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1590"/>
         <source>Si&amp;ze +</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;صغّر درجة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1560"/>
         <source>Add &amp;black borders</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف حدوداً &amp;سوداء</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;حجيم برمجي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;FAQ</source>
-        <translation type="unfinished"></translation>
+        <translation>الأسئلة ال&amp;شائعة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
         <source>&amp;Command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;خيارات سطر الأوامر</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3896"/>
         <source>SMPlayer command line options</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات موجه الأوامر لـSMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1596"/>
         <source>&amp;Forced subtitles only</source>
-        <translation type="unfinished"></translation>
+        <translation>الترجمات الم&amp;فروضة فقط</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1692"/>
         <source>Reset video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>صفّر مساوي الفيديو</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4431"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>أعاد الخادوم &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5019"/>
         <source>MPlayer has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتهى MPlayer على نحوٍ غير مٌتوقَّع. </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5020"/>
         <source>Exit code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>رمز الانتهاء: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5039"/>
         <source>MPlayer failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>عجز MPlayer أن يبدأ.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5040"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>رجاء تحقق من مسار MPlayer في التفضيلات.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5042"/>
         <source>MPlayer has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>انهار MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5043"/>
         <source>See the log for more info.</source>
-        <translation type="unfinished"></translation>
+        <translation>انظر السجل لمعلومات أكثر.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>التدوي&amp;ر</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Off</source>
-        <translation type="unfinished">م&amp;خفيّة</translation>
+        <translation>&amp;بدون</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1823"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;دَوِّر 90 درجة باتجاه عقارب الساعة واقلب </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>دَوِّر 90 درجة باتجاه ع&amp;قارب الساعة </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation type="unfinished"></translation>
+        <translation>دَوِّر 90 درجة بعك&amp;س اتجاه عقارب الساعة </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1826"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation type="unfinished"></translation>
+        <translation>دَوِّر 90 درجة بعكس اتجاه عقارب الساعة وا&amp;قلب </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1512"/>
         <source>&amp;Jump to...</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;قفز إلى...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1694"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation>أظهر قائمة السياق</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3684"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>الوسائط المتعددة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1564"/>
         <source>E&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>الم&amp;ساوي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1693"/>
         <source>Reset audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>صفّر مساوي الصوت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1601"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>اعثر على التر&amp;جمات في OpenSubstitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1602"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>ارف&amp;ع الترجمات إلى OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1795"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>تل&amp;قائي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1520"/>
         <source>Speed -&amp;4%</source>
-        <translation type="unfinished"></translation>
+        <translation>سرّع -&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1521"/>
         <source>&amp;Speed +4%</source>
-        <translation type="unfinished"></translation>
+        <translation>سرّع +&amp;4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1522"/>
         <source>Speed -&amp;1%</source>
-        <translation type="unfinished"></translation>
+        <translation>سرّع -&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1523"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"></translation>
+        <translation>سرّع +&amp;1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1785"/>
         <source>Scree&amp;n</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;شاشة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Default</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;مبدئي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1535"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"></translation>
+        <translation>اعكس ال&amp;صورة كما في المرآة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1686"/>
         <source>Next video</source>
-        <translation type="unfinished"></translation>
+        <translation>الفيديو التالي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1756"/>
         <source>&amp;Track</source>
         <comment>video</comment>
-        <translation type="unfinished"></translation>
+        <translation>م&amp;سار الفيديو</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
-        <translation type="unfinished"></translation>
+        <translation>مسار ال&amp;صوت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4270"/>
         <source>Warning - Using old MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>تحذير - إصدار MPlayer قديم</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4271"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation type="unfinished"></translation>
+        <translation>إصدار MPlayer المثبت على نظامك (%1) قديم. قد لا يعمل به SMPlayer كما ينبغي: قد لا يعمل اختيار الترجمات وبعض الخيارات الأخرى... </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4276"/>
         <source>Please, update your MPlayer.</source>
-        <translation type="unfinished"></translation>
+        <translation>رجاء حدّث MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4278"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
-        <translation type="unfinished"></translation>
+        <translation>(لن يُعرض هذا التحذير ثانيةً)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1695"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>نسبة الأبعاد التالية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;قريب تلقائي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>Zoom for &amp;16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>قرّب لـ16&amp;:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation type="unfinished"></translation>
+        <translation>قرب لـ&amp;2.35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;دوماً</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;لا، أبداً</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>أثناء التش&amp;غيل</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1894"/>
         <source>DVD &amp;menu</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;قائمة DVD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1896"/>
         <source>DVD &amp;previous menu</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة DVD ال&amp;سابقة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
         <source>DVD menu, move up</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة DVD، تحرّك لأعلى</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1891"/>
         <source>DVD menu, move down</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة DVD، تحرّك لأسفل</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>DVD menu, move left</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة DVD، تحرّك لليسار</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1893"/>
         <source>DVD menu, move right</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة DVD، تحرّك لليمين</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1895"/>
         <source>DVD menu, select option</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة DVD، اعتمد الخيار</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1897"/>
         <source>DVD menu, mouse click</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة DVD، انقر بالفأرة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1572"/>
         <source>Set dela&amp;y...</source>
-        <translation type="unfinished"></translation>
+        <translation>عيّن التأ&amp;خير...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1586"/>
         <source>Se&amp;t delay...</source>
-        <translation type="unfinished"></translation>
+        <translation>عيّن ال&amp;تأخير...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3969"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;قفز إلى:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3970"/>
         <source>SMPlayer - Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer -السعي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3981"/>
         <location filename="../basegui.cpp" line="3985"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - تأخير الصوت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3982"/>
         <location filename="../basegui.cpp" line="3986"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>تأخير الصوت (بالميلي ثانية):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3997"/>
         <location filename="../basegui.cpp" line="4001"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - تأخير الترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3998"/>
         <location filename="../basegui.cpp" line="4002"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>تأخير الترجمة (بالميلي ثانية):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1831"/>
         <source>Toggle stay on top</source>
-        <translation type="unfinished"></translation>
+        <translation>بدّل وضع البقاء في قمة النوافذ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4743"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ا
+قفز إلى %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1530"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>ابدأ/أوقف الت&amp;قاط صور الشاشة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1598"/>
         <source>Subtitle &amp;visibility</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;ظهر الترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1696"/>
         <source>Next wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>وظيفة العجلة التالية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>البر&amp;نامج</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1742"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;تلفاز</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1745"/>
         <source>Radi&amp;o</source>
-        <translation type="unfinished"></translation>
+        <translation>المذيا&amp;ع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1703"/>
         <source>Subtitles onl&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>الترجمات فق&amp;ط</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Volume + &amp;Seek</source>
-        <translation type="unfinished"></translation>
+        <translation>حجم الصوت + ال&amp;سعي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation type="unfinished"></translation>
+        <translation>حجم الصوت + السعي + المُؤ&amp;قِّت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1706"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation type="unfinished"></translation>
+        <translation>حجم الصوت + السعي + المُؤقِّت + الوقت ال&amp;كلي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1418"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>تُعطَّل تأثيرات الفيديو عند استخدام VDPAU</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1534"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"></translation>
+        <translation>اقلب ال&amp;صورة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
         <source>Zoo&amp;m</source>
-        <translation type="unfinished"></translation>
+        <translation>الت&amp;قريب</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1698"/>
         <source>Show filename on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>أظهر اسم الملف في لوحة الأدوات على الشاشة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1507"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"></translation>
+        <translation>عين النقطة &amp;أ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1508"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"></translation>
+        <translation>عين النقطة &amp;ب</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1509"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>ام&amp;سح النقطتين &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1752"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"></translation>
+        <translation>المقطع ب&amp;ين &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1699"/>
         <source>Toggle deinterlacing</source>
-        <translation type="unfinished"></translation>
+        <translation>بدّل وضع فكّ التشابك</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"></translation>
+        <translation>الشروحات المُ&amp;غلقة (CC)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;قرص</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1739"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"></translation>
+        <translation>المف&amp;ضلات</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1639"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>التم&amp;س التحديثات</translation>
     </message>
 </context>
 <context>
@@ -1987,12 +1989,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="2882"/>
         <source>Saturation: %1</source>
-        <translation>الإشباع: %1</translation>
+        <translation>التشبع: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3011"/>
         <source>Volume: %1</source>
-        <translation>الحجم: %1</translation>
+        <translation>حجم الصوت: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3798"/>
@@ -2166,7 +2168,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="529"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>عدّل &amp;شريط الأدوات الأساسي</translation>
+        <translation>عدّل &amp;شريط الأدوات الرئيس</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="530"/>
@@ -2248,12 +2250,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>الفيديو/الصوت</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="111"/>
         <source>Favorite editor</source>
-        <translation type="unfinished"></translation>
+        <translation>مُحرر المفضلات</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -2261,57 +2263,57 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../favoriteeditor.cpp" line="172"/>
         <location filename="../favoriteeditor.cpp" line="272"/>
         <source>Favorite list</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة المُفضلات</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="114"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك تعديل العناصر أو حذفها أو ترتيبها أو إضافة أخرى جديدة. انقر نقراً مزدوجاً على خلية من أجل أن تُعدل محتواها.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="345"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر ملف رمز</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="347"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>الصور</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="18"/>
         <source>icon</source>
-        <translation type="unfinished">الأيقونة</translation>
+        <translation>الأيقونة</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="71"/>
         <source>D&amp;elete</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;حذف</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="105"/>
         <source>Delete &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>احذف ال&amp;كل</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">أ&amp;كثر</translation>
+        <translation>أ&amp;على</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="112"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">أ&amp;قلّ</translation>
+        <translation>أ&amp;سفل</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;عنصر جديد</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة &amp;فرعية جديدة</translation>
     </message>
 </context>
 <context>
@@ -2320,38 +2322,38 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../favorites.cpp" line="373"/>
         <location filename="../favorites.cpp" line="377"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>اقفز إلى العنصر</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="374"/>
         <location filename="../favorites.cpp" line="378"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>أدخل رقم العنصر في القائمة الذي تريد القفز إليه:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;عدّل...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;قفز...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;لتالي</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;سابق</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;ضف المقطع الحالي</translation>
     </message>
 </context>
 <context>
@@ -2359,7 +2361,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>انقر لاختيار ملف أو مجلد</translation>
     </message>
 </context>
 <context>
@@ -2367,12 +2369,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation type="unfinished">يُنزّل...</translation>
+        <translation>ينزل...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">يتصل بـ%1</translation>
+        <translation>يتصل بـ%1</translation>
     </message>
 </context>
 <context>
@@ -2380,109 +2382,117 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="14"/>
         <source>SMPlayer - File properties</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - خصائص الملف</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="33"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;معلومات</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="53"/>
         <source>&amp;Demuxer</source>
-        <translation type="unfinished"></translation>
+        <translation>مُلغي الت&amp;ضميم</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر مُل&amp;غي التضميم الذي سُيستعمل لهذا الملف:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="105"/>
         <location filename="../filepropertiesdialog.ui" line="167"/>
         <location filename="../filepropertiesdialog.ui" line="229"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;صفّر</translation>
+        <translation>&amp;صفّر</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="115"/>
         <source>&amp;Video codec</source>
-        <translation type="unfinished"></translation>
+        <translation>مُرمِّز ال&amp;فيديو</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="127"/>
         <source>&amp;Select the video codec:</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;ختر مرمز الفيديو:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="177"/>
         <source>A&amp;udio codec</source>
-        <translation type="unfinished"></translation>
+        <translation>مُرمِّز ال&amp;صوت</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="189"/>
         <source>&amp;Select the audio codec:</source>
-        <translation type="unfinished"></translation>
+        <translation>اخ&amp;تر مرمز الصوت:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="239"/>
         <source>&amp;MPlayer options</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات &amp;MPlayer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="251"/>
         <source>Additional Options for MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات إضافية لـMPlayer</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="263"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا إمرار خيارات مزيدة لـMPlayer.
+اكتبها منفصلة بمسافات.
+مثال:
+-flip -nosound</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="286"/>
         <source>&amp;Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;خيارات:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="325"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك أيضاً إمرار مُرشحات إضافية للفيديو.
+اكتبها منفصلة بفاصلة لاتينية &quot;,&quot;. لا تستخدم المسافات!
+مثال:
+scale=512,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="348"/>
         <source>V&amp;ideo filters:</source>
-        <translation type="unfinished"></translation>
+        <translation>مُر&amp;شِّحات الفيديو:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation type="unfinished"></translation>
+        <translation>وأخيراً مرشحات الصوت. اكتبها كمرشحات الفيديو.
+مثال:
+resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="409"/>
         <source>Audio &amp;filters:</source>
-        <translation type="unfinished"></translation>
+        <translation>مُرشِّ&amp;حات الصوت:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="70"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>اقبل</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="71"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>ألغ</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>طبّق</translation>
     </message>
 </context>
 <context>
@@ -2490,92 +2500,92 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>Socks5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>مكن/عطل استخدام الخادوم الوسيط.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>اسم مضيف الوسيط.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>منفذ الوسيط.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن احتاج الوسيط إلى استيثاق، فهذا يعين اسم المستخدم.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>كلمة المرور إلى الخادم الوسيط. &lt;b&gt;تحذير:&lt;/b&gt; ستُخزن كلمة المرور كنص مجرّد بلا تشفير ضمن ملف الضبط.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر نوع الوسيط المُستعمل.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات متقدمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation>الخادوم</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;خادوم OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
         <source>Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>الخادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="48"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>م&amp;كن الخادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="61"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"></translation>
+        <translation>المُ&amp;ضيف:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>المن&amp;فذ:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="94"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;سم المستخدم:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="107"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>كلمة الم&amp;رور:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;نوع:</translation>
     </message>
 </context>
 <context>
@@ -2583,162 +2593,162 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>اللغة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
-        <translation type="unfinished">الاسم</translation>
+        <translation>الاسم</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>الصيغة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>الملفات</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>التاريخ</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
-        <translation type="unfinished"></translation>
+        <translation>رفعها</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>البرتغالية (البرازيل)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>الكل</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>أغلق</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>فشل الدخول إلى opensubtitles.org</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>فشل البحث</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>استخرجت %n ترجمة</numerusform>
+            <numerusform>استخرجت ترجمة وحيدة (%n)</numerusform>
+            <numerusform>استخرجت ترجمتان (%n)</numerusform>
+            <numerusform>استخرجت %n ترجمات</numerusform>
+            <numerusform>استخرجت %n ترجمة</numerusform>
+            <numerusform>استخرجت %n ترجمة</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>وقع خطأ أثناء إصلاح سطور الترجمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;نزل</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>ان&amp;سخ الرابط إلى الحافظة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>الخطأ</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>فشل التنزيل: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>يتصل بـ%1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
-        <translation type="unfinished">يُنزّل...</translation>
+        <translation>يُنزّل...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
-        <translation type="unfinished"></translation>
+        <translation>تمّ.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
-        <translation type="unfinished"></translation>
+        <translation>الملفات المتوفرة: %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>فشلَ في تفسير البيانات المُستقبلة.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
         <source>Find Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>اعثر على الترجمات</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="51"/>
         <source>&amp;Subtitles for</source>
-        <translation type="unfinished"></translation>
+        <translation>تر&amp;جمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;للغة:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حدِّث</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>حُفظت الترجمة بالاسم %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>Overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>أتريد الكتابة فوقه؟</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف %1 مُوجَد من قبل. أتريد الكتابة فوقه؟</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>Error saving file</source>
-        <translation type="unfinished"></translation>
+        <translation>وقع خطأ أثناء حفظ الملف</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
@@ -2746,24 +2756,25 @@ Example: resample=44100:0:0,volnorm</source>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>فشل حفظ الملف المُنزَّل في المجلد %1
+رجاء افحص صلاحيات هذا المجلد.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
         <source>Download failed</source>
-        <translation type="unfinished"></translation>
+        <translation>فشل التنزيل</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف المؤقت %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;خيارات</translation>
     </message>
 </context>
 <context>
@@ -2771,12 +2782,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>يُهيِّئ SMPlayer</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>يُنشى خبيئة الخطوط...</translation>
     </message>
 </context>
 <context>
@@ -2784,164 +2795,164 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="62"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>عامة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="66"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>الحجم</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="66"/>
         <source>%1 KB (%2 MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ك.ب (%2  م.ب)</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="70"/>
         <source>URL</source>
-        <translation type="unfinished"></translation>
+        <translation>الرابط</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="72"/>
         <source>Length</source>
-        <translation type="unfinished"></translation>
+        <translation>الطول</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="73"/>
         <source>Demuxer</source>
-        <translation type="unfinished"></translation>
+        <translation>مُلغي التضميم</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="78"/>
         <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Name</source>
-        <translation type="unfinished">الاسم</translation>
+        <translation>الاسم</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="79"/>
         <source>Artist</source>
-        <translation type="unfinished"></translation>
+        <translation>الفنان</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="80"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>المؤلف</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="81"/>
         <source>Album</source>
-        <translation type="unfinished"></translation>
+        <translation>الألبوم</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="82"/>
         <source>Genre</source>
-        <translation type="unfinished"></translation>
+        <translation>الصنف</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="83"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>التاريخ</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="84"/>
         <source>Track</source>
-        <translation type="unfinished"></translation>
+        <translation>المسار</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="85"/>
         <source>Copyright</source>
-        <translation type="unfinished"></translation>
+        <translation>حقوق النسخ</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="86"/>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>التعليق</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="87"/>
         <source>Software</source>
-        <translation type="unfinished"></translation>
+        <translation>البرنامج</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="92"/>
         <source>Clip info</source>
-        <translation type="unfinished"></translation>
+        <translation>معلومات المقطع</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="99"/>
         <source>Video</source>
-        <translation type="unfinished">مقاطع فيديو</translation>
+        <translation>الفيديو</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="100"/>
         <source>Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>الدقة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
         <source>Aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>نسبة الأبعاد</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="102"/>
         <location filename="../infofile.cpp" line="111"/>
         <source>Format</source>
-        <translation type="unfinished"></translation>
+        <translation>الصيغة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>Bitrate</source>
-        <translation type="unfinished"></translation>
+        <translation>معدل البتات</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="103"/>
         <location filename="../infofile.cpp" line="112"/>
         <source>%1 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ك.بت/ثا</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="104"/>
         <source>Frames per second</source>
-        <translation type="unfinished"></translation>
+        <translation>إطار/ثا</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="105"/>
         <location filename="../infofile.cpp" line="115"/>
         <source>Selected codec</source>
-        <translation type="unfinished"></translation>
+        <translation>المُرمِّز المختار</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="110"/>
         <source>Initial Audio Stream</source>
-        <translation type="unfinished"></translation>
+        <translation>دفق الصوت الأولي</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>المعدل</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 هرتز</translation>
+        <translation>%1 هرتز</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
         <source>Channels</source>
-        <translation type="unfinished"></translation>
+        <translation>القنوات</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="120"/>
         <source>Audio Streams</source>
-        <translation type="unfinished"></translation>
+        <translation>دفقات الصوت</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="124"/>
         <location filename="../infofile.cpp" line="149"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>اللغة</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="131"/>
@@ -2949,46 +2960,46 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="162"/>
         <location filename="../infofile.cpp" line="164"/>
         <source>empty</source>
-        <translation type="unfinished"></translation>
+        <translation>فارغ</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="144"/>
         <source>Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>الترجمات</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="148"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>النوع</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="125"/>
         <location filename="../infofile.cpp" line="150"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
-        <translation type="unfinished"></translation>
+        <translation>المعرف</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="123"/>
         <location filename="../infofile.cpp" line="147"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="unfinished"></translation>
+        <translation>#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="88"/>
         <source>Stream title</source>
-        <translation type="unfinished"></translation>
+        <translation>عنوان الدفق</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="89"/>
         <source>Stream URL</source>
-        <translation type="unfinished"></translation>
+        <translation>رابط الدفق</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="65"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف</translation>
     </message>
 </context>
 <context>
@@ -2996,22 +3007,22 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.cpp" line="43"/>
         <source>Choose a directory</source>
-        <translation type="unfinished">اختر دليل ملفات</translation>
+        <translation>اختر مجلداً</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - شغل DVD من مجلد</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكنك تشغيل DVD من قرصك الصلب. ما عليك سوى اختيار المجلد الذي يحوي المجلدين VIDEO_TS وAUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
         <source>Choose a directory...</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر مجلداً...</translation>
     </message>
 </context>
 <context>
@@ -3019,37 +3030,37 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - أدخل إصدار MPlayer</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="35"/>
         <source>SMPlayer couldn&apos;t identify the MPlayer version you&apos;re using.</source>
-        <translation type="unfinished"></translation>
+        <translation>لم يستطع SMPlayer تعيين إصدار MPlayer الذي تستخدمه.</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="58"/>
         <source>Version reported by MPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>الإصدار الذي أبلغ عنه MPlayer:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation type="unfinished"></translation>
+        <translation>رجاءً ا&amp;ختر الإصدار الصحيح:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
         <source>1.0rc1 or older</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc1 أو أقدم</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="118"/>
         <source>1.0rc2</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc2</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 أو أحدث</translation>
     </message>
 </context>
 <context>
@@ -3057,12 +3068,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - أدخل رابطاً</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
         <source>&amp;URL:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;رابط:</translation>
     </message>
 </context>
 <context>
@@ -3070,458 +3081,458 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation>الأفارية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"></translation>
+        <translation>الأبخازية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>الأفريكانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation>الأمهرية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <location filename="../languages.cpp" line="235"/>
         <location filename="../languages.cpp" line="295"/>
         <source>Arabic</source>
-        <translation type="unfinished">العربية</translation>
+        <translation>العربية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Assamese</source>
-        <translation type="unfinished"></translation>
+        <translation>الأسامية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="34"/>
         <source>Aymara</source>
-        <translation type="unfinished"></translation>
+        <translation>الأيمارية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>الأذربيجانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bashkir</source>
-        <translation type="unfinished"></translation>
+        <translation>الباشكيرية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
         <location filename="../languages.cpp" line="237"/>
         <source>Bulgarian</source>
-        <translation type="unfinished">البلغارية</translation>
+        <translation>البلغارية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Bihari</source>
-        <translation type="unfinished"></translation>
+        <translation>البيهارية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="40"/>
         <source>Bislama</source>
-        <translation type="unfinished"></translation>
+        <translation>البيسلامية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="42"/>
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation>البنغالية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation>التبتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation>البريتونية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
         <location filename="../languages.cpp" line="238"/>
         <source>Catalan</source>
-        <translation type="unfinished">الكاتلونية</translation>
+        <translation>الكتالانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="48"/>
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation>الكورسيكية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
         <location filename="../languages.cpp" line="239"/>
         <source>Czech</source>
-        <translation type="unfinished">التشيكية</translation>
+        <translation>التشيكية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Welsh</source>
-        <translation type="unfinished"></translation>
+        <translation>الويلزية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="54"/>
         <location filename="../languages.cpp" line="240"/>
         <source>Danish</source>
-        <translation type="unfinished">الدنماركية</translation>
+        <translation>الدنماركية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <location filename="../languages.cpp" line="216"/>
         <location filename="../languages.cpp" line="241"/>
         <source>German</source>
-        <translation type="unfinished">الألمانية</translation>
+        <translation>الألمانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
         <location filename="../languages.cpp" line="242"/>
         <source>Greek</source>
-        <translation type="unfinished">اليونانية</translation>
+        <translation>اليونانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
         <location filename="../languages.cpp" line="217"/>
         <location filename="../languages.cpp" line="243"/>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>الإنكليزية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="61"/>
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation>الإسبرانتو</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
         <location filename="../languages.cpp" line="218"/>
         <location filename="../languages.cpp" line="244"/>
         <source>Spanish</source>
-        <translation type="unfinished">الإسبانية</translation>
+        <translation>الإسبانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
         <location filename="../languages.cpp" line="245"/>
         <source>Estonian</source>
-        <translation type="unfinished">الإستوانية</translation>
+        <translation>الإستوانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
         <location filename="../languages.cpp" line="246"/>
         <source>Basque</source>
-        <translation type="unfinished">الباسكية</translation>
+        <translation>الباسكية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="65"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>الفارسية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
         <location filename="../languages.cpp" line="219"/>
         <location filename="../languages.cpp" line="247"/>
         <source>Finnish</source>
-        <translation type="unfinished">الفلندية</translation>
+        <translation>الفلندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Faroese</source>
-        <translation type="unfinished"></translation>
+        <translation>الفاروية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
         <location filename="../languages.cpp" line="220"/>
         <location filename="../languages.cpp" line="248"/>
         <source>French</source>
-        <translation type="unfinished">الفرنسية</translation>
+        <translation>الفرنسية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation>الفريزية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Irish</source>
-        <translation type="unfinished"></translation>
+        <translation>الإيرلندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
         <location filename="../languages.cpp" line="249"/>
         <source>Galician</source>
-        <translation type="unfinished">الغاليكانية</translation>
+        <translation>الغاليكانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="75"/>
         <source>Guarani</source>
-        <translation type="unfinished"></translation>
+        <translation>الغوارانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Gujarati</source>
-        <translation type="unfinished"></translation>
+        <translation>الكوجراتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Hausa</source>
-        <translation type="unfinished"></translation>
+        <translation>الهوسوية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="79"/>
         <location filename="../languages.cpp" line="250"/>
         <source>Hebrew</source>
-        <translation type="unfinished">العبرية</translation>
+        <translation>العبرية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation>الهندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <location filename="../languages.cpp" line="251"/>
         <source>Croatian</source>
-        <translation type="unfinished">الكرواتية</translation>
+        <translation>الكرواتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
         <location filename="../languages.cpp" line="252"/>
         <source>Hungarian</source>
-        <translation type="unfinished">الهنغارية</translation>
+        <translation>الهنغارية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
         <source>Armenian</source>
-        <translation type="unfinished"></translation>
+        <translation>الأرمنية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation type="unfinished"></translation>
+        <translation>اللغة الوسيطة (إنترلينغوا)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <location filename="../languages.cpp" line="253"/>
         <source>Indonesian</source>
-        <translation type="unfinished">الإندونيسية</translation>
+        <translation>الإندونيسية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation type="unfinished"></translation>
+        <translation>إنترلينجوا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
-        <translation type="unfinished"></translation>
+        <translation>الآيسلندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
         <location filename="../languages.cpp" line="221"/>
         <location filename="../languages.cpp" line="254"/>
         <source>Italian</source>
-        <translation type="unfinished">الإيطالية</translation>
+        <translation>الإيطالية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"></translation>
+        <translation>الإنكتيتوتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <location filename="../languages.cpp" line="222"/>
         <location filename="../languages.cpp" line="255"/>
         <source>Japanese</source>
-        <translation type="unfinished">اليابانية</translation>
+        <translation>اليابانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Javanese</source>
-        <translation type="unfinished"></translation>
+        <translation>الجاوية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
         <location filename="../languages.cpp" line="256"/>
         <source>Georgian</source>
-        <translation type="unfinished">الجورجية</translation>
+        <translation>الجورجية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>الكازاخية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="105"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation>الغريلاندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation>كنادا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
         <location filename="../languages.cpp" line="257"/>
         <source>Korean</source>
-        <translation type="unfinished">الكورية</translation>
+        <translation>الكورية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="110"/>
         <source>Kashmiri</source>
-        <translation type="unfinished"></translation>
+        <translation>الكشميرية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
         <location filename="../languages.cpp" line="258"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>الكردية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Kirghiz</source>
-        <translation type="unfinished"></translation>
+        <translation>القيرغيزية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Latin</source>
-        <translation type="unfinished"></translation>
+        <translation>اللاتينية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="119"/>
         <source>Lingala</source>
-        <translation type="unfinished"></translation>
+        <translation>اللينجالا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
         <location filename="../languages.cpp" line="259"/>
         <source>Lithuanian</source>
-        <translation type="unfinished">اللثوانية</translation>
+        <translation>اللثوانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
         <source>Latvian</source>
-        <translation type="unfinished"></translation>
+        <translation>الاتيفية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="124"/>
         <source>Malagasy</source>
-        <translation type="unfinished"></translation>
+        <translation>الملغاشية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="126"/>
         <source>Maori</source>
-        <translation type="unfinished"></translation>
+        <translation>الماورية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="127"/>
         <location filename="../languages.cpp" line="260"/>
         <source>Macedonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Macedonian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>الملايلامية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
         <source>Mongolian</source>
-        <translation type="unfinished"></translation>
+        <translation>المنغولية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="130"/>
         <source>Moldavian</source>
-        <translation type="unfinished"></translation>
+        <translation>المولدافية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
         <source>Marathi</source>
-        <translation type="unfinished"></translation>
+        <translation>المهاراتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <location filename="../languages.cpp" line="261"/>
         <source>Malay</source>
-        <translation type="unfinished">المالية</translation>
+        <translation>المالية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
         <source>Maltese</source>
-        <translation type="unfinished"></translation>
+        <translation>المالطية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="134"/>
         <source>Burmese</source>
-        <translation type="unfinished"></translation>
+        <translation>البورمية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="135"/>
         <source>Nauru</source>
-        <translation type="unfinished"></translation>
+        <translation>ناورو</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="138"/>
         <source>Nepali</source>
-        <translation type="unfinished"></translation>
+        <translation>النيبالية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="223"/>
         <location filename="../languages.cpp" line="262"/>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>الهولندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <location filename="../languages.cpp" line="263"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">النرويجية</translation>
+        <translation>النينورسكية النرويجية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
         <location filename="../languages.cpp" line="224"/>
         <source>Norwegian</source>
-        <translation type="unfinished"></translation>
+        <translation>النرويجية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <source>Occitan</source>
-        <translation type="unfinished"></translation>
+        <translation>الأوكيتانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
         <source>Oriya</source>
-        <translation type="unfinished"></translation>
+        <translation>أوريا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
         <location filename="../languages.cpp" line="264"/>
         <source>Polish</source>
-        <translation type="unfinished">البولندية</translation>
+        <translation>البولندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="155"/>
         <location filename="../languages.cpp" line="225"/>
         <source>Portuguese</source>
-        <translation type="unfinished">البرتغالية</translation>
+        <translation>البرتغالية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="156"/>
         <source>Quechua</source>
-        <translation type="unfinished"></translation>
+        <translation>كيشوا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="159"/>
         <location filename="../languages.cpp" line="267"/>
         <source>Romanian</source>
-        <translation type="unfinished"></translation>
+        <translation>الرومانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="160"/>
@@ -3529,7 +3540,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="268"/>
         <location filename="../languages.cpp" line="302"/>
         <source>Russian</source>
-        <translation type="unfinished">الروسية</translation>
+        <translation>الروسية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="161"/>
@@ -3539,7 +3550,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="162"/>
         <source>Sanskrit</source>
-        <translation type="unfinished"></translation>
+        <translation>السنسكريتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="164"/>
@@ -3550,13 +3561,13 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="168"/>
         <location filename="../languages.cpp" line="269"/>
         <source>Slovak</source>
-        <translation type="unfinished"></translation>
+        <translation>السلوفاكية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="270"/>
         <source>Slovenian</source>
-        <translation type="unfinished"></translation>
+        <translation>السلوفينية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -3571,56 +3582,56 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="172"/>
         <source>Somali</source>
-        <translation type="unfinished"></translation>
+        <translation>الصومالية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="173"/>
         <source>Albanian</source>
-        <translation type="unfinished"></translation>
+        <translation>الألبانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="174"/>
         <location filename="../languages.cpp" line="271"/>
         <source>Serbian</source>
-        <translation type="unfinished">الصربية</translation>
+        <translation>الصربية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Sundanese</source>
-        <translation type="unfinished"></translation>
+        <translation>السودانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
         <location filename="../languages.cpp" line="227"/>
         <location filename="../languages.cpp" line="272"/>
         <source>Swedish</source>
-        <translation type="unfinished">السويدية</translation>
+        <translation>السويدية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="179"/>
         <source>Swahili</source>
-        <translation type="unfinished"></translation>
+        <translation>السواحيلية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="180"/>
         <source>Tamil</source>
-        <translation type="unfinished"></translation>
+        <translation>التاميلية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>التلوگوية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
         <source>Tajik</source>
-        <translation type="unfinished"></translation>
+        <translation>الطاجيكية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="183"/>
         <location filename="../languages.cpp" line="273"/>
         <source>Thai</source>
-        <translation type="unfinished"></translation>
+        <translation>التايلاندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="184"/>
@@ -3630,24 +3641,24 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="185"/>
         <source>Turkmen</source>
-        <translation type="unfinished"></translation>
+        <translation>التركمانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="186"/>
         <source>Tagalog</source>
-        <translation type="unfinished"></translation>
+        <translation>التگالوگية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="188"/>
         <source>Tonga</source>
-        <translation type="unfinished"></translation>
+        <translation>تونجا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
         <location filename="../languages.cpp" line="274"/>
         <location filename="../languages.cpp" line="297"/>
         <source>Turkish</source>
-        <translation type="unfinished">التركية</translation>
+        <translation>التركية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="190"/>
@@ -3657,7 +3668,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="191"/>
         <source>Tatar</source>
-        <translation type="unfinished"></translation>
+        <translation>التترية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="192"/>
@@ -3673,24 +3684,24 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="195"/>
         <location filename="../languages.cpp" line="275"/>
         <source>Ukrainian</source>
-        <translation type="unfinished">الأوكرانية</translation>
+        <translation>الأوكرانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="196"/>
         <source>Urdu</source>
-        <translation type="unfinished"></translation>
+        <translation>الأردية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="197"/>
         <location filename="../languages.cpp" line="276"/>
         <source>Uzbek</source>
-        <translation type="unfinished">الأوزبكية</translation>
+        <translation>الأوزبكية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
         <location filename="../languages.cpp" line="277"/>
         <source>Vietnamese</source>
-        <translation type="unfinished">الفيتنامية</translation>
+        <translation>الفيتنامية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="202"/>
@@ -3705,7 +3716,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="204"/>
         <source>Yiddish</source>
-        <translation type="unfinished"></translation>
+        <translation>اليديشية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="205"/>
@@ -3721,12 +3732,12 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
         <source>Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>الصينية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
         <source>Zulu</source>
-        <translation type="unfinished"></translation>
+        <translation>زولو</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="236"/>
@@ -3736,137 +3747,137 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="265"/>
         <source>Portuguese - Brazil</source>
-        <translation type="unfinished">البرتغالية (البرازيل)</translation>
+        <translation>البرتغالية (البرازيل)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="266"/>
         <source>Portuguese - Portugal</source>
-        <translation type="unfinished"></translation>
+        <translation>البرتغالية (البرتغال)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="278"/>
         <source>Simplified-Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>الصينية المبسطة</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="279"/>
         <source>Traditional Chinese</source>
-        <translation type="unfinished">الصينية التقليدية</translation>
+        <translation>الصينية التقليدية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="287"/>
         <source>Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>يونيكود</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="288"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="289"/>
         <source>Western European Languages</source>
-        <translation type="unfinished"></translation>
+        <translation>لغات أوروبا الغربية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="290"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished"></translation>
+        <translation>لغات أوروبا الغربية التي تعتمد اليورو</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="291"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished"></translation>
+        <translation>اللغات السلافية/لغات وسط أوروبا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="292"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished"></translation>
+        <translation>الإسبرانتو والجاليكية والمالطية والتركية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="293"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished"></translation>
+        <translation>طقم المحارف البلطيقية القديمة</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="294"/>
         <source>Cyrillic</source>
-        <translation type="unfinished"></translation>
+        <translation>السيريلية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>Modern Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>اليونانية الحديثة</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="298"/>
         <source>Baltic</source>
-        <translation type="unfinished"></translation>
+        <translation>البلطيقية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="299"/>
         <source>Celtic</source>
-        <translation type="unfinished"></translation>
+        <translation>السلتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="300"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>لغة جنوب شرق أوروبا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="301"/>
         <source>Hebrew charsets</source>
-        <translation type="unfinished"></translation>
+        <translation>طقم المحارف العبرية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="303"/>
         <source>Ukrainian, Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>الأوكرانية والبلاروسية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="304"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished"></translation>
+        <translation>طقم محارف الصينية المبسطة</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>Traditional Chinese charset</source>
-        <translation type="unfinished"></translation>
+        <translation>طقم محارف الصينية التقليدية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished"></translation>
+        <translation>طقم المحارف اليابانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="307"/>
         <source>Korean charset</source>
-        <translation type="unfinished"></translation>
+        <translation>طقم المحارف الكورية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="308"/>
         <source>Thai charset</source>
-        <translation type="unfinished"></translation>
+        <translation>طقم المحارف التايلندية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="309"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows سريلي</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="310"/>
         <source>Slavic/Central European Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows السلافية/لغات وسط أوروبا</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="311"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows العربي</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
         <source>Avestan</source>
-        <translation type="unfinished"></translation>
+        <translation>الأڤستانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="28"/>
@@ -3886,7 +3897,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <source>Belarusian</source>
-        <translation type="unfinished"></translation>
+        <translation>البلاروسية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
@@ -4011,7 +4022,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>الخميرية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
@@ -4046,7 +4057,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>لاو</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
@@ -4142,7 +4153,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished">السنهالية</translation>
+        <translation>السنهالية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4177,12 +4188,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"></translation>
+        <translation>الوالونية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="312"/>
         <source>Modern Greek Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows اليوناني الحديث</translation>
     </message>
 </context>
 <context>
@@ -4190,33 +4201,33 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../logwindow.cpp" line="99"/>
         <source>Choose a filename to save under</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر اسم ملف يُحفظ به</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="105"/>
         <source>Confirm overwrite?</source>
-        <translation type="unfinished">أتؤكد الكتابة فوقه؟</translation>
+        <translation>أتؤكد الكتابة فوقه؟</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="106"/>
         <source>The file already exists.
 Do you want to overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف مُوجَد من قبل. أتريد الكتابة فوقه؟</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="125"/>
         <source>Error saving file</source>
-        <translation type="unfinished"></translation>
+        <translation>وقع خطأ أثناء حفظ الملف</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="126"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation type="unfinished"></translation>
+        <translation>غير قادر على حفظ السجل</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="100"/>
         <source>Logs</source>
-        <translation type="unfinished"></translation>
+        <translation>السجلات</translation>
     </message>
 </context>
 <context>
@@ -4224,29 +4235,29 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation type="unfinished"></translation>
+        <translation>نافذة السجلات</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="57"/>
         <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>احفظ</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="67"/>
         <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>انسخ إلى الحافظة</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="80"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;غلِق</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="77"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>أغلق</translation>
     </message>
 </context>
 <context>
@@ -4254,7 +4265,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>النموذج</translation>
     </message>
 </context>
 <context>
@@ -4262,12 +4273,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="238"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>اخلط القائمة</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="239"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>كرّر القائمة</translation>
     </message>
 </context>
 <context>
@@ -4275,7 +4286,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>لوحة الوسائط</translation>
     </message>
 </context>
 <context>
@@ -4283,17 +4294,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="159"/>
         <source>Control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>شريط التحكم</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="162"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished">عدّل شريط أدوات التح&amp;كم</translation>
+        <translation>عدّل شريط التح&amp;كم</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="163"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished">عدّل أدوات التحكم ال&amp;طافية</translation>
+        <translation>عدّل أدوات التحكم ال&amp;طافية</translation>
     </message>
 </context>
 <context>
@@ -4301,26 +4312,26 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="136"/>
         <source>Control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>شريط التحكم</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="137"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>شريط السعي</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="433"/>
         <location filename="../mpcgui/mpcgui.cpp" line="434"/>
         <location filename="../mpcgui/mpcgui.cpp" line="435"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <location filename="../mpcgui/mpcgui.cpp" line="438"/>
         <location filename="../mpcgui/mpcgui.cpp" line="439"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -4328,12 +4339,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>أدخل الر(و)ابط</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation>أدخل رابطاً أو أكثر (واحداً في كل سطر) يُضاف إلى قائمة التشغيل.</translation>
     </message>
 </context>
 <context>
@@ -4341,37 +4352,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>أرجع</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>قدّم</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Play / Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>شغّل/ألبث</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>أوقف</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>سجّل</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف التالي في قائمة التشغيل</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="192"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف السابق في قائمة التشغيل</translation>
     </message>
 </context>
 <context>
@@ -4379,175 +4390,175 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="293"/>
         <source>Name</source>
-        <translation type="unfinished">الاسم</translation>
+        <translation>الاسم</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="293"/>
         <source>Length</source>
-        <translation type="unfinished"></translation>
+        <translation>الطول</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="298"/>
         <source>&amp;Play</source>
-        <translation type="unfinished">ش&amp;غّل</translation>
+        <translation>ش&amp;غّل</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="324"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حرّر</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="809"/>
         <location filename="../playlist.cpp" line="827"/>
         <source>Playlists</source>
-        <translation type="unfinished">قوائم تشغيل</translation>
+        <translation>قوائم التشغيل</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="807"/>
         <source>Choose a file</source>
-        <translation type="unfinished">اختر ملفاً</translation>
+        <translation>اختر ملفاً</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="825"/>
         <source>Choose a filename</source>
-        <translation type="unfinished">اختر اسماً للملف</translation>
+        <translation>اختر اسماً للملف</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="836"/>
         <source>Confirm overwrite?</source>
-        <translation type="unfinished">أتؤكد الكتابة فوقه؟</translation>
+        <translation>أتؤكد الكتابة فوقه؟</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="837"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation type="unfinished">الملف %1 مُوجَد من قبل.
+        <translation>الملف %1 مُوجَد من قبل.
 أتريد الكتابة فوقه؟</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1024"/>
         <source>All files</source>
-        <translation type="unfinished">كل الملفات</translation>
+        <translation>كل الملفات</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1021"/>
         <source>Select one or more files to open</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر ملفاً واحداً أو أكثر ليُفتح</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1077"/>
         <source>Choose a directory</source>
-        <translation type="unfinished">اختر دليل ملفات</translation>
+        <translation>اختر مجلداً</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1288"/>
         <source>Edit name</source>
-        <translation type="unfinished"></translation>
+        <translation>عدّل الاسم</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1289"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation type="unfinished"></translation>
+        <translation>اكتب الاسم الذي تريد أن يظهر هذا الملف به في قائمة التشغيل:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="295"/>
         <source>&amp;Load</source>
-        <translation type="unfinished">ت&amp;حميل</translation>
+        <translation>&amp;حمّل</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="296"/>
         <source>&amp;Save</source>
-        <translation type="unfinished">&amp;حفظ</translation>
+        <translation>احف&amp;ظ</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="300"/>
         <source>&amp;Next</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;تالي</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="301"/>
         <source>Pre&amp;vious</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;سابق</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="307"/>
         <source>Move &amp;up</source>
-        <translation type="unfinished"></translation>
+        <translation>حرّك لأ&amp;على</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="308"/>
         <source>Move &amp;down</source>
-        <translation type="unfinished"></translation>
+        <translation>حرّك لأ&amp;سفل</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="310"/>
         <source>&amp;Repeat</source>
-        <translation type="unfinished">ت&amp;كرار</translation>
+        <translation>&amp;كرّر</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="311"/>
         <source>S&amp;huffle</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;خلط</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="314"/>
         <source>Add &amp;current file</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف الملف ال&amp;حالي</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="315"/>
         <source>Add &amp;file(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف مل&amp;فات</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="316"/>
         <source>Add &amp;directory</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف م&amp;جلداً</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="317"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف راب&amp;طاً</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="320"/>
         <source>Remove &amp;selected</source>
-        <translation type="unfinished"></translation>
+        <translation>أزل الم&amp;ختارة</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="321"/>
         <source>Remove &amp;all</source>
-        <translation type="unfinished"></translation>
+        <translation>أزل ال&amp;كل</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="334"/>
         <source>SMPlayer - Playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - قائمة التشغيل</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="328"/>
         <source>Add...</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="330"/>
         <source>Remove...</source>
-        <translation type="unfinished"></translation>
+        <translation>أزل...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="862"/>
         <source>Playlist modified</source>
-        <translation type="unfinished"></translation>
+        <translation>عُدلت القائمة</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="863"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation type="unfinished"></translation>
+        <translation>لم تُحفظ التغييرات على قائمة التشغيل، أتريد حفظها؟</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1023"/>
         <source>Multimedia</source>
-        <translation type="unfinished"></translation>
+        <translation>مقاطع الفيديو والصوت</translation>
     </message>
 </context>
 <context>
@@ -4556,197 +4567,205 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="74"/>
         <location filename="../prefadvanced.cpp" line="404"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>المتقدمة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="87"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>تلقائية</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="24"/>
         <source>&amp;Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;متقدمة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="38"/>
         <source>icon</source>
-        <translation type="unfinished">الأيقونة</translation>
+        <translation>أيقونة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;بلغ انهيارات MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="304"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا إمرار خيارات مزيدة لـMPlayer.
+اكتبها منفصلة بمسافات.
+مثال:
+-flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="364"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك أيضاً إمرار مُرشحات إضافية للفيديو.
+اكتبها منفصلة بفاصلة لاتينية &quot;,&quot;. لا تستخدم المسافات!
+مثال:
+scale=512,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="424"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation type="unfinished"></translation>
+        <translation>وأخيراً مرشحات الصوت. اكتبها كمرشحات الفيديو.
+مثال:
+resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
         <source>Log MPlayer output</source>
-        <translation type="unfinished"></translation>
+        <translation>سجّل خرج MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Log SMPlayer output</source>
-        <translation type="unfinished"></translation>
+        <translation>سجل خرج SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="665"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>يقصد بهذا الخيار أساساً تنقيح التطبيق.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="435"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>ربما يُنقص تمكين هذا الخيار الومض، ولكنه قد يسبب ألا يُعرض الفيديو كما ينبغي.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Filter for SMPlayer logs</source>
-        <translation type="unfinished"></translation>
+        <translation>مُرشح سجلات SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation type="unfinished"></translation>
+        <translation>نسبة أبعاد ال&amp;شاشة:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;شغّل MPlayer في نافذته المستقلة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="327"/>
         <source>&amp;Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;خيارات:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="387"/>
         <source>V&amp;ideo filters:</source>
-        <translation type="unfinished"></translation>
+        <translation>مُر&amp;شِّحات الفيديو:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="446"/>
         <source>Audio &amp;filters:</source>
-        <translation type="unfinished"></translation>
+        <translation>مُرشِّ&amp;حات الصوت:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="220"/>
         <source>&amp;Colorkey:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;مفتاح اللوني:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="533"/>
         <source>MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="598"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="604"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;سجل خرج SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="675"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;مُرشح سجلات SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="243"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;غيّر...</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
         <source>Logs</source>
-        <translation type="unfinished"></translation>
+        <translation>السجلات</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="539"/>
         <source>Log MPlayer &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>سجّل &amp;خرج MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="292"/>
         <source>Options for MP&amp;layer</source>
-        <translation type="unfinished"></translation>
+        <translation>خيا&amp;رات MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="523"/>
         <source>Autosave MPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>احفظ سجل MPlayer تلقائياً</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكن هذا الخيار، سيُحفظ سجل MPlayer إلى الملف المُعيّن كل مرة يبدأ  تشغيل ملف جديد. هذا الخيار موجه للتطبيقات الخارجية، بحيث تستطيع معرفة الملف الذي تُشغّله.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
         <source>Autosave MPlayer log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>اسم ملف سجل MPlayer المحفوظ التلقائي</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="unfinished"></translation>
+        <translation>أخل هنا مسار الملف واسمه اللذان سيُستعملان لحفظ سجل MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>احفظ سجل MPlayer تلقائياً إلى ملف</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="425"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>مرّر أسماء ملفات قصيرة (8+3) إلى MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="426"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="unfinished"></translation>
+        <translation>لا يستطيع MPlayer حالياً فتح ملفات أسماؤها تحوي محارف من خارج مجموعة المحارف المحلية. سيسمح تمكين هذا الخيار لـSMPlayer بإمرار النسخة القصيرة من أسماء الملفات، بحيث يستطيع MPlayer تشغيلها.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;مرّر أسماء ملفات قصيرة (8+3) إلى MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="406"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>نسبة أبعاد الشاشة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="407"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر نسبة أبعاد شاشتك.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="409"/>
         <source>Run MPlayer in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>شغّل MPlayer في نافذته المستقلة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="410"/>
@@ -4756,132 +4775,132 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Report MPlayer crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>أبلغ انهيارات MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكّن هذا الخيار، فستعرض نافذة تعلمك بانهيارات MPlayer، أما إن لم يُمكَّن، فستُتجاهل هذه الانهيارات دون إعلامك.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Colorkey</source>
-        <translation type="unfinished"></translation>
+        <translation>المفتاح اللوني</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن رأيت أجزاء من الفيديو تُعرض فوق نوافذ أخرى، فبإمكانك تغيير المفتاح اللوني لإصلاحها. جرّب اختيار لونٍ أقرب للأسود.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Options for MPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات لـMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="481"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>الخيارات</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="482"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا إمرار خيارات لـMPlayer. اكتبها منفصلة بمسافات.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="485"/>
         <source>Video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>مرشحات الفيديو</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا إمرار مُرشحات للفيديو إلى MPlayer. اكتبها منفصلة بفاصلة لاتينية &quot;,&quot;. لا تستخدم المسافات!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="489"/>
         <source>Audio filters</source>
-        <translation type="unfinished"></translation>
+        <translation>مرشحات الصوت</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا إمرار مُرشحات للصوت إلى MPlayer. اكتبها منفصلة بفاصلة لاتينية &quot;,&quot;. لا تستخدم المسافات!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="434"/>
         <source>Repaint the background of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>أعد رسم خلفية نافذة الفيديو</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="126"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation type="unfinished"></translation>
+        <translation>أعد رسم &amp;خلفية نافذة الفيديو</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
         <source>IPv4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="496"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم IPv4 للاتصال بالشبكة. يعود لاستخدام IPv6 تلقائياً إن فشل.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="498"/>
         <source>IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم IPv4 للاتصال بالشبكة. يعود لاستخدام IPv4 تلقائياً إن فشل.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="484"/>
         <source>Network Connection</source>
-        <translation type="unfinished"></translation>
+        <translation>اتصال الشبكة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="496"/>
         <source>IPv&amp;4</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
         <source>IPv&amp;6</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="527"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;سجلات</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="417"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>أعد بناء الفهرس عند الحاجة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"></translation>
+        <translation>أعد بناء الفهرس عند ال&amp;حاجة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكّن هذا الخيار، سيحفظ SMPlayer رسائل التنقيح التي يُخرجها (بإمكانك مشاهدة السجل في &lt;b&gt;خيارات -&gt; اعرض السجلات -&gt; SMPlayer&lt;/b&gt;). ربما تكون هذه المعلومات مفيدة جداً للمُطوّر إن وقفتَ على علّة.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكّن هذا الخيار، سيحفظ SMPlayer رسائل خرج MPlayer ا(بإمكانك مشاهدتها في &lt;b&gt;خيارات -&gt; اعرض السجلات -&gt; MPlayer&lt;/b&gt;). ربما تكون هذه المعلومات مفيدة جداً إن حدثت مشكلات، لذا يُنصح بإبقاء هذا الخيار مُمكّناً.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>يسمح هذا الخيار بترشيح رسائل SMPlayer التي ستُخزن في السجل. بإمكانك هنا كتابة أي تعبير نظامي. &lt;b&gt;مثلاً:&lt;/i&gt;سيعرض التعبير &lt;i&gt;^Core::.*&lt;/i&gt; السطور التي تبدأ بـ&lt;i&gt;Core::&lt;/i&gt; فقط  </translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
@@ -4896,7 +4915,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>Actions list</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة الأوامر</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
@@ -4911,7 +4930,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>الشبكة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="183"/>
@@ -4921,12 +4940,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="478"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;شبكة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>Example:</source>
-        <translation type="unfinished"></translation>
+        <translation>مثال:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="418"/>
@@ -4941,12 +4960,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="571"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"></translation>
+        <translation>مُف&amp;صَّلاً</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Save SMPlayer log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>احفظ سجل SMPlayer تلقائياً إلى ملف</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
@@ -4956,22 +4975,22 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="636"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;حفظ سجل SMPlayer إلى ملف</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>اعرض معلومات الوسوم في عنوان النافذة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="475"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكّن هذا الخيار، فستُعرض معلومات من الوسوم في عنوان النافذة، وإن لم يمُكن عُرض اسم الملف فقط.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="268"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"></translation>
+        <translation>اعرض معلومات الوسوم في عنوان النا&amp;فذة</translation>
     </message>
 </context>
 <context>
@@ -4979,72 +4998,72 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefassociations.cpp" line="196"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>تحذير</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="197"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation type="unfinished"></translation>
+        <translation>لم تُلحق كل الملفات. رجاء افحص صلاحيات الأمان وحاول ثانية.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="207"/>
         <source>File Types</source>
-        <translation type="unfinished"></translation>
+        <translation>أنواع الملفات</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="224"/>
         <source>Select all</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر الكل</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="225"/>
         <source>Check all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>علّم كل أنواع الملفات في القائمة</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="228"/>
         <source>Uncheck all file types in the list</source>
-        <translation type="unfinished"></translation>
+        <translation>أزل تعليم كل أنواع الملفات في القائمة</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="230"/>
         <source>List of file types</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة بأنواع الملفات</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
-        <translation type="unfinished"></translation>
+        <translation>أنواع الملفات</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation type="unfinished"></translation>
+        <translation>أنواع الملفات التي يتولاها SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر الكل</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="98"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>لا تختر شيئاً</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation type="unfinished"></translation>
+        <translation>علم أنواع ملفات الوسائط المتعددة التي ترغب أن يتولاها SMPlayer. عندما تنقر &quot;طبّق&quot;، ستُلحق أنواع الملفات المعلمة بـSMPlayer. إن أزلت تعليم نوع منها، سُيستعاد إلحاق نوع الملف.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
-        <translation type="unfinished"></translation>
+        <translation>لا تختر شيئاً</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;ملاحظة:&lt;/b&gt; لا يمكن استعادة أنواع الملفات في Windows Vista.</translation>
     </message>
 </context>
 <context>
@@ -5053,83 +5072,83 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefdrives.ui" line="35"/>
         <location filename="../prefdrives.cpp" line="68"/>
         <source>Drives</source>
-        <translation type="unfinished"></translation>
+        <translation>السواقات</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="86"/>
         <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
-        <translation type="unfinished">الأيقونة</translation>
+        <translation>الأيقونة</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="180"/>
         <source>CD device</source>
-        <translation type="unfinished"></translation>
+        <translation>جهاز CD</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="181"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر جهاز CDROM ليُستخدم في تشغيل أقراص الفيديو المضغوطة (VCD) والأقراص الصوتية المضغوطة.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="184"/>
         <source>DVD device</source>
-        <translation type="unfinished"></translation>
+        <translation>جهاز DVD</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="185"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر جهاز DVD ليُستخدم في تشغيل أقراص DVD. </translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="113"/>
         <source>Select your &amp;CD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر &amp;جهاز CD:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="229"/>
         <source>Select your &amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر ج&amp;هاز DVD:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="56"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"></translation>
+        <translation>لا يختار SMPlayer جهازي CDROM وDVD مبدئياً، لذا عليك اختيار الجهازين الذي تريد استخدامهما قبل أن تستطيع تشغيل أقراص CD وDVD (يمكنك اختيار جهاز واحد لكلا النوعين).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="188"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
+        <translation>مَكِّن قوائم DVD</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="189"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكن هذا الخيار، سيعتمد SMPlayer مكتبة dvdnav لتشغيل أقراص DVD، وهذا يتطلب نسخة حديثة من MPlayer مُجمّعة مع دعم dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="192"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;ملاحظة 1&lt;/b&gt;: ستُعطّل الخبيئة، وهذا قد يؤثر في الأداء.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="193"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;ملاحظة 2&lt;/b&gt;: قد ترغب في إسناد الأمر &quot;فعل الخيار في قوائم DVD&quot; لأحد أزرار الفأرة.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="195"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;ملاحظة 3&lt;/b&gt;: هذه الميزة قيد التطوير، عليك أن تتوقع الكثير من المُشكلات فيها.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="278"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;مَكِّن قوائم DVD (ميزة اختبارية)</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="157"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation type="unfinished"></translation>
+        <translation>ابحث عن &amp;سواقات CD/DVD</translation>
     </message>
 </context>
 <context>
@@ -5138,172 +5157,172 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefgeneral.cpp" line="93"/>
         <location filename="../prefgeneral.cpp" line="863"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>العامة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;General</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;عامة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="61"/>
         <source>Media settings</source>
-        <translation type="unfinished"></translation>
+        <translation>إعدادات الوسائط</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>Start videos in fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>ابدأ الفيديو ملءَ الشاشة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1002"/>
         <source>Disable screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>عطّل شاشة التوقف</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="133"/>
         <source>Select the mplayer executable</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر ملف MPlayer التنفيذي</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="106"/>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>7 (محيط 6.1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="107"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation>8 (محيط 7.1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="135"/>
         <source>Executables</source>
-        <translation type="unfinished"></translation>
+        <translation>الملفات التنفيذية</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="137"/>
         <source>All files</source>
-        <translation type="unfinished">كل الملفات</translation>
+        <translation>كل الملفات</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="139"/>
         <source>Select a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر مجلداً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
         <source>MPlayer executable</source>
-        <translation type="unfinished"></translation>
+        <translation>ملف MPlayer التنفيذي</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="896"/>
         <source>Screenshots folder</source>
-        <translation type="unfinished"></translation>
+        <translation>مجلد الصور الملتقطة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Video output driver</source>
-        <translation type="unfinished"></translation>
+        <translation>برنامج تشغيل خرج الفيديو</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1011"/>
         <source>Audio output driver</source>
-        <translation type="unfinished"></translation>
+        <translation>برنامج تشغيل خرج الصوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1012"/>
         <source>Select the audio output driver.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر برنامج تشغيل خرج الصوت.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="873"/>
         <source>Remember settings</source>
-        <translation type="unfinished"></translation>
+        <translation>تذكر الإعدادات</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Preferred audio language</source>
-        <translation type="unfinished"></translation>
+        <translation>لغة الصوت المفضلة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
         <source>Preferred subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>لغة الترجمة المفضلة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="951"/>
         <source>Software video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>مساوي الفيديو البرمجي</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="952"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك تمكين هذا الخيار إن لم تكن بطاقة الرسوم أو برنامج تشغيل خرج الفيديو داعمين لمساوي الفيديو.&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; قد لا يتوافق هذا الخيار مع بعض برامج تشغيل خرج الفيديو.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="974"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكِّن هذا الخيار، ستبدأ كل مقاطع الفيديو في وضع ملء الشاشة.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1060"/>
         <source>Software volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>التحكم البرمجي بالصوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن هذا الخيار لاستعمال الخالط البرمجي بدل استعمال خالط بطاقة الصوت.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
         <source>Postprocessing quality</source>
-        <translation type="unfinished"></translation>
+        <translation>جودة المعالجة اللاحقة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="938"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُغير مستوى المعالجة اللاحقة بما يُناسب قدرة المعالج الآنية. سيكون الرقم الذي تعينه أكبر مستوى يُستعمل. يمكنك غالباً استعمال رقم كبير.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1084"/>
         <source>&amp;Audio:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;صوت:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="67"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تذكّر الإعدادات لكل الملفات (مسار الصوت، الترجمات...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1103"/>
         <source>Su&amp;btitles:</source>
-        <translation type="unfinished"></translation>
+        <translation>التر&amp;جمات:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="329"/>
         <source>&amp;Quality:</source>
-        <translation type="unfinished"></translation>
+        <translation>الجو&amp;دة:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="503"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>ابدأ الفيديو &amp;ملءَ الشاشة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="517"/>
         <source>Disable &amp;screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>عطّل &amp;شاشة التوقف</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="779"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation type="unfinished"></translation>
+        <translation>تحكم بالصوت &amp;برمجياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="802"/>
         <source>Ma&amp;x. Amplification:</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;قصى تضخيم:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="633"/>
@@ -5363,12 +5382,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="104"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">8 (محيط 7.1) {4 (4.0 ?}</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="105"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">8 (محيط 7.1) {6 (5.1 ?}</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="657"/>
@@ -5463,12 +5482,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="990"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>الصوت والترجمة المف&amp;ضلان</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1178"/>
         <source>&amp;Subtitle:</source>
-        <translation type="unfinished"></translation>
+        <translation>التر&amp;جمة:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="142"/>
@@ -5499,7 +5518,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>&amp;Video</source>
-        <translation type="unfinished">مقطع &amp;فيديو</translation>
+        <translation>ال&amp;فيديو</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="462"/>
@@ -5509,57 +5528,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="561"/>
         <source>A&amp;udio</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;صوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="737"/>
         <source>Volume</source>
-        <translation type="unfinished">حجم الصوت</translation>
+        <translation>حجم الصوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
         <source>Video</source>
-        <translation type="unfinished">مقاطع فيديو</translation>
+        <translation>الفيديو</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1009"/>
         <source>Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>الصوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Preferred audio and subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation>الصوت و الترجمة المفضلان</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="111"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>بدون</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="112"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="113"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (عادي)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="114"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (ضعفا معدل الإطارات)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="115"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>خلط خطّي</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="116"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
@@ -5978,7 +5997,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="70"/>
         <location filename="../prefinput.ui" line="344"/>
         <source>icon</source>
-        <translation type="unfinished">الأيقونة</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="112"/>
@@ -6011,7 +6030,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">بدون</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6086,12 +6105,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="56"/>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ألبث</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">أوقف</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
@@ -6126,7 +6145,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="77"/>
         <source>Exit fullscreen</source>
-        <translation type="unfinished">خروج من الشاشة الكاملة</translation>
+        <translation type="unfinished">اخرج من ملء الشاشة</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
@@ -6136,12 +6155,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">شغّل/ألبث</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
-        <translation type="unfinished"></translation>
+        <translation>ألبث/اخطُ إطاراً واحداً</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="75"/>
@@ -6237,12 +6256,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="74"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">لوحة الأدوات على الشاشة - المرحلة التالية</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
         <source>Show context menu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">أظهر قائمة السياق</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="450"/>
@@ -6441,7 +6460,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="199"/>
         <location filename="../prefinterface.cpp" line="202"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">المبدئي</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="27"/>
@@ -6477,7 +6496,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="675"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">اللغة</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="676"/>
@@ -6927,7 +6946,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="689"/>
         <location filename="../prefinterface.ui" line="722"/>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">0</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="696"/>
@@ -6996,53 +7015,53 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="74"/>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Performance</source>
-        <translation type="unfinished"></translation>
+        <translation>الأداء</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="35"/>
         <source>&amp;Performance</source>
-        <translation type="unfinished"></translation>
+        <translation>الأ&amp;داء</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="41"/>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>الأولوية</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="62"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر أولوية عملية MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="103"/>
         <source>realtime</source>
-        <translation type="unfinished"></translation>
+        <translation>في الوقت الحقيقي</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="108"/>
         <source>high</source>
-        <translation type="unfinished"></translation>
+        <translation>عالية</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="113"/>
         <source>abovenormal</source>
-        <translation type="unfinished"></translation>
+        <translation>فوق العادية</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="118"/>
         <source>normal</source>
-        <translation type="unfinished"></translation>
+        <translation>عادية</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="123"/>
         <source>belownormal</source>
-        <translation type="unfinished"></translation>
+        <translation>تحت العادية</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="128"/>
         <source>idle</source>
-        <translation type="unfinished"></translation>
+        <translation>عند الخمول</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="423"/>
@@ -7052,67 +7071,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="571"/>
         <location filename="../prefperformance.ui" line="608"/>
         <source>KB</source>
-        <translation type="unfinished"></translation>
+        <translation>ك.ب</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="396"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation type="unfinished"></translation>
+        <translation>قد يُحسن تفعيل الخبيئة أداء الوسائط البطيئة</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Allow frame drop</source>
-        <translation type="unfinished"></translation>
+        <translation>اسمح بإسقاط الإطارات</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation type="unfinished"></translation>
+        <translation>تجاوز عرض بعض الإطارات بُغيةَ الحفاظ على المزامنة بين الصوت والصورة في الأجهزة البطيئة.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>Allow hard frame drop</source>
-        <translation type="unfinished"></translation>
+        <translation>اسمح بتواتر أعلى في إسقاط الإطارات</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation type="unfinished"></translation>
+        <translation>إسقاط أكثر تواتراً للإطارات (يُخرّب فك الترميز)، يؤدي إلى تشوه الصورة!</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="89"/>
         <source>Priorit&amp;y:</source>
-        <translation type="unfinished"></translation>
+        <translation>الأو&amp;لوية:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="157"/>
         <source>&amp;Allow frame drop</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;سمح بإسقاط الإطارات</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="164"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation type="unfinished"></translation>
+        <translation>اسمح بتواتر أ&amp;على لإسقاط الإطارات (قد يُشوه الصورة)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="304"/>
         <source>&amp;Fast audio track switching</source>
-        <translation type="unfinished"></translation>
+        <translation>تبديل سريع لمسار ال&amp;صوت</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="332"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;سعي سريع نحو الفصول في أقراص DVD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished"></translation>
+        <translation>تبديل سريع لمسار الصوت</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>سعي سريع نحو الفصول في أقراص DVD</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
@@ -7127,7 +7146,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="226"/>
         <source>H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="319"/>
@@ -7167,37 +7186,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="390"/>
         <source>&amp;Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;خبيئة</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="480"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>خ&amp;بيئة أقراص DVD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="406"/>
         <source>Cache for &amp;local files:</source>
-        <translation type="unfinished"></translation>
+        <translation>خبيئة الم&amp;لفات المحلية:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="443"/>
         <source>Cache for &amp;streams:</source>
-        <translation type="unfinished"></translation>
+        <translation>خبيئة ال&amp;دفقات:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="89"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>مُمكّنة</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="90"/>
         <source>Skip (always)</source>
-        <translation type="unfinished"></translation>
+        <translation>مُتخطاة دائماً</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="91"/>
         <source>Skip only on HD videos</source>
-        <translation type="unfinished"></translation>
+        <translation>متخطاة في المقاطعة عالية التحديد (HD) فقط</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="249"/>
@@ -7237,12 +7256,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="338"/>
         <source>Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>الخبيئة</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for audio CDs</source>
-        <translation type="unfinished"></translation>
+        <translation>خبيئة أقراص الصوت المضغوطة</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
@@ -7252,12 +7271,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="517"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>خبيئة أقراص ال&amp;صوت المضغوطة:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="357"/>
         <source>Cache for VCDs</source>
-        <translation type="unfinished"></translation>
+        <translation>خبيئة أقراص الفيديو المضغوطة (VCD)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="358"/>
@@ -7267,12 +7286,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="554"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>خ&amp;بيئة أقراص VCD:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>خيوط فك الترميز</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="295"/>
@@ -7302,22 +7321,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="591"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>خبيئة ال&amp;تلفزيون:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>جودة مقاطع YouTube</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر الجودة المفضلة لمقاطع فيديو YouTube.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="348"/>
         <source>Youtube &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جودة مقاطع YouTube</translation>
     </message>
 </context>
 <context>
@@ -7325,102 +7344,102 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="36"/>
         <source>Playlist</source>
-        <translation type="unfinished">قائمة التشغيل</translation>
+        <translation>قائمة التشغيل</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="111"/>
         <source>Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف الملفات إلى قائمة التشغيل تلقائياً</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="112"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا مُكّن هذا الخيار، سيمسح SMPlayer قائمة التشغيل كل مرة يفتح فيها ملف جديد، ثم يضيف هذا الملف إليها. في حالة أقراص DVD وCD وVCD، ستضاف كل العناوين في القرص إلى قائمة التشغيل.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="117"/>
         <source>Add consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف الملفات المتعاقبة</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="118"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا مكّن هذا الخيار، سيبحث SMPlayer عن الملفات المتعاقبة (مثل فيديو_1.avi، فيديو_2.avi...) ويضيفها إلى قائمة التشغيل إن وجدها.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>شغل الملفات من أولها</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا مكّن هذا الخيار، سيبدأ تشغيل كل الملفات في قائمة التشغيل من بدايتها بدلاً من متابعة تشغيلها من الموضع الذي أوقفت عنده في المرة السابقة.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>اجلب معلومات الملفات المضافة تلقائياً</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>احفظ نسخة من قائمة التشغيل عند الخروج</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا مكّن هذا الخيار، ستُحفظ نسخة من قائمة التشغيل في ضبط SMPlayer عند إغلاقه، ثم يعاد تحميلها عند تشغيله ثانيةً.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="32"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">قائمة ال&amp;تشغيل</translation>
+        <translation>قائمة الت&amp;شغيل</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="38"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;ضف الملفات إلى قائمة التشغيل تلقائياً</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="72"/>
         <source>Add &amp;consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف الملفات المت&amp;عاقبة</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف الملفات في المجلدات الفرعية</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>مَكّن هذا الخيار إن أردت إضافة الملفات في المجلدات الفرعية (مهما بلغ عمقها) عند إضافة مجلد. إن لم تفعّله فسُتضاف الملفات في المجلد الذي اخترته فقط.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن هذا الخيار لجلب معلومات عن الملفات المضافة إلى القائمة. يسمح هذا بعرض اسم العنوان (إن توفّر) ومدة الملفات. إن لم تفعّله فلن تتوفر تلك المعلومات عن الملف إلا بعد بدء تشغيله. قد يكون هذا الخيار بطيء التنفيذ، خصوصاً إذا أضفت ملفات كثيرة.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="94"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>ش&amp;غل الملفات من أولها</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف الملفات في المجلدات ال&amp;فرعية</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="108"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>اجلب &amp;معلومات الملفات المضافة تلقائياً (بطيء التنفيذ)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="115"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;حفظ نسخة من قائمة التشغيل عند الخروج</translation>
     </message>
 </context>
 <context>
@@ -7429,7 +7448,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="51"/>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>Subtitles</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">الترجمات</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="94"/>
@@ -7444,7 +7463,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="35"/>
         <source>&amp;Subtitles</source>
-        <translation type="unfinished">التر&amp;جمات</translation>
+        <translation type="unfinished">تر&amp;جمات</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="44"/>
@@ -7475,17 +7494,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="636"/>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">0</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="665"/>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">أعلى</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="691"/>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">أسفل</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="344"/>
@@ -7504,7 +7523,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="428"/>
         <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">الحجم</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="483"/>
@@ -7594,62 +7613,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>TTF font</source>
-        <translation type="unfinished"></translation>
+        <translation>خط TTF</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>System font</source>
-        <translation type="unfinished"></translation>
+        <translation>خط النظام</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Autoscale</source>
-        <translation type="unfinished"></translation>
+        <translation>تحجيم تلقائي</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
         <source>Text color</source>
-        <translation type="unfinished"></translation>
+        <translation>لون النص</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="523"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر لون نصوص الترجمة.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation>لون الحدود</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="526"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر لون حدود الترجمات.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر طريقة تحميل الترجمة تلقائياً.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن وُجد مسار أو أكثر للترجمات، سيُختار الأول تلقائياً في أغلب الأحيان، ولكن إن طابق أحدها اللغة التي يُفضلها المستخدم، فسُيعتمد هذا الأخير بدلاً عن الأول.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر طريقة التحجيم التلقائي للترجمة.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر الترميز الذي سُيستعمل لملفات الترجمة مبدئياً.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>حاول أن تكشفه تلقائياً لهذه اللغة</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
@@ -7659,22 +7678,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"></translation>
+        <translation>لغة الترجمة</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="434"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر اللغة التي تريد أن يحاول SMPlayer اكتشاف الترميز المناسب لها تلقائياً.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="126"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>الترميز</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="198"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;حاول أن تكشفه تلقائياً لهذه اللغة:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
@@ -7684,12 +7703,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="552"/>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>الخطوط حول النص</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر خط الترجمة.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
@@ -7699,172 +7718,172 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>القياس بالبكسلات.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>ثخين</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="517"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكن هذا، سُيعرض النص بخط &lt;b&gt;عريض&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="519"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>مائل</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكن هذا، سُيعرض النص بخط &lt;i&gt;مائل&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="531"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>الحافة اليسرى</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعين الحافة اليسرى بالبكسلات.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="534"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>الحافة اليمنى</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="535"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعين الحافة اليمنى بالبكسلات.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="537"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>الحافة الشاقولية</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="538"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعين الحافة الشاقولية بالبكسلات.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="540"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>المحاذاة الأفقية</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="541"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعين المحاذاة الأفقية. القيم المُمكنة: يمين ووسط ويسار.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="544"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>المحاذاة الشاقولية</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="545"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعين المحاذاة الشاقولية. القيم المُمكنة: فوق ووسط وتحت.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>أسلوب الحدود</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="549"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعين أسلوب الحدود. القيم الممكنة: خطوط حول النص ومستطيل شفاف.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>الظل</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="831"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;قياس:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="873"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ثخين</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="880"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;مائل</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="892"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>الألوان</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="910"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>الن&amp;ص:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="936"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;حدود:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="988"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>الحواف</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1006"/>
         <source>L&amp;eft:</source>
-        <translation type="unfinished"></translation>
+        <translation>الي&amp;سرى:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1022"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>الي&amp;منى:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1038"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;شاقولية:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1070"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>المحاذاة</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1088"/>
         <source>&amp;Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>الأ&amp;فقية:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1104"/>
         <source>&amp;Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>الشاق&amp;ولية:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1125"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;سلوب الحدود:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1151"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;خطوط حول النص:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1171"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;ظل:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
@@ -7875,49 +7894,49 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="100"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>يساراً</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="101"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>وسطاً</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="102"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>يميناً</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>أسفل</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>وسطاً</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>أعلى</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>خطوط حول النص</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>مستطيلات شفافة</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="553"/>
@@ -8023,7 +8042,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>دعم FreeType</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
@@ -8033,7 +8052,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="256"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>د&amp;عم FreeType</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
@@ -8058,27 +8077,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="506"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>أسلوب SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="528"/>
         <source>Shadow color</source>
-        <translation type="unfinished"></translation>
+        <translation>لون الظلّ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="529"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>سيُستعمل هذا اللون لظل نص الترجمات.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
         <source>Shadow:</source>
-        <translation type="unfinished"></translation>
+        <translation>الظل:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1234"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>خ&amp;صّص...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="560"/>
@@ -8101,72 +8120,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="41"/>
         <source>TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>التلفزيون والمذياع</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>بدون</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation>Lowpass5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (عادي)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"></translation>
+        <translation>Yadif (ضعفا معدل الإطارات)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>خلط خطّي</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"></translation>
+        <translation>فُكّ التشابك للمحتوى التلفزيوني بشكل مبدئي</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر مُرشح فكّ التشابك الذي تريد استعماله في قنوات التلفزيون.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>أعد فحص ~/.mplayer/channels.conf عند بدء البرنامج</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
         <source>&amp;TV and radio</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;تلفزيون والمذياع</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;فكّ التشابك للمحتوى التلفزيوني بشكل مبدئي:</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكّن هذا الخيار فسيبحث SMPlayer عن قنوات تلفزيونية وإذاعية جديدة في الملف ~/.mplayer/channels.conf.ter أو ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>التم&amp;س قنوات جديدة عند بدء البرنامج</translation>
     </message>
 </context>
 <context>
@@ -8174,32 +8193,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>الت&amp;حديثات</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"></translation>
+        <translation>التم&amp;س التحديثات</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>الفاصل (بالأيا&amp;م)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;فتح دليل البدء بعد كل ترقية</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>التحديثات</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>التمس التحديثات</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
@@ -8209,22 +8228,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>المدة بين كل التماس</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا إدخال عدد الأيام التي تفصل بين كل التماس للتحديثات.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>افتح دليل البدء بعد كل ترقية</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكن هذا الخيار فسيفتح دليل البدء مقدماً معلومات ونصائح عن استخدام SMPlayer بعد الترقية.</translation>
     </message>
 </context>
 <context>
@@ -8233,32 +8252,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../preferencesdialog.cpp" line="65"/>
         <location filename="../preferencesdialog.cpp" line="134"/>
         <source>SMPlayer - Help</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - مساعدة</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="138"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>اقبل</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="139"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>ألغِ</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="140"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>طبّق</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="141"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>المساعدة</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.ui" line="13"/>
         <source>SMPlayer - Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - التفضيلات</translation>
     </message>
 </context>
 <context>
@@ -8266,193 +8285,193 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="168"/>
         <source>will show this message and then will exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>سيعرض هذه الرسالة ثم يُنهي.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="147"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>سيغلق النافذة الرئيسة عند انتهاء الملف أو قائمة التشغيل.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="472"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا SMPlayer (الإصدار %1) يعمل على %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>يحاول أن يتصل بنسخة أخرى ويُرسل إليها الأمر المُعيَّن. مثال: -send-cation pause. ستُتجاهل الخيارات الأخرى إن وجدت ثم سُينهى التطبيق. ستُعاد القيمة 0 إذا نجح و-1 إذا فشل.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation type="unfinished"></translation>
+        <translation>تمثل &quot;action_list&quot; قائمة من الأوامر المفصولة بمسافات. ستنفذ هذه الأوامر فوراً بعد تحميل الملف (إن وُجد) بالترتيب الذي أدخلت به. للأوامر التي تقبل التمكين أو التعطيل، بإمكانك تمرير true أو false كمُعامل. مثال: -actions &quot;fullscreen compact true&quot;. كتابة إشارات الاقتباس ضرورية إذا أردت إمرار أكثر من أمر واحد. </translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="98"/>
         <location filename="../clhelp.cpp" line="177"/>
         <source>media</source>
-        <translation type="unfinished"></translation>
+        <translation>media</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="171"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن وُجدت نسخة أخرى تعمل، سيضاف المقطع إلى قائمة التشغيل في تلك النسخة. إن لم توجد نسخة أخرى، سيُتجاهَل هذا الخيار وستُفتح الملفات في نُسخة جديدة.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="150"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>لن تُغلق النافذة الرئيسة عند انتهاء الملف أو قائمة التشغيل.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="153"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>سيُشغل الفيديو ملءَ الشاشة.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="156"/>
         <source>the video will be played in window mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>سُيشغل الفيديو في نافذة.</translation>
     </message>
     <message>
         <location filename="../winfileassoc.cpp" line="254"/>
         <source>Enqueue in SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>أضفه إلى طابور SMPlayer</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation type="unfinished"></translation>
+        <translation>يفتح الواجهة المرئية المصغرة بدل المبدئية.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="111"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>يستعيد الإلحاقات القديمة وينظف مخزن التسجيل.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
         <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>الاستخدام:</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="93"/>
         <source>directory</source>
-        <translation type="unfinished"></translation>
+        <translation>directory</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>action_name</source>
-        <translation type="unfinished"></translation>
+        <translation>action_name</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="95"/>
         <source>action_list</source>
-        <translation type="unfinished"></translation>
+        <translation>action_list</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>يفتح الواجهة المرئية المبدئية.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>subtitle_file</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="159"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعين ملف الترجمة الذي سيُحمل لمقطع الفيديو الأول.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n ثا</numerusform>
+            <numerusform>ثانية واحدة</numerusform>
+            <numerusform>ثانيتين</numerusform>
+            <numerusform>%n ثوانٍ</numerusform>
+            <numerusform>%n ثانية</numerusform>
+            <numerusform>%n ثانية</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n د</numerusform>
+            <numerusform>دقيقة واحدة</numerusform>
+            <numerusform>دقيقتين</numerusform>
+            <numerusform>%n دقائق</numerusform>
+            <numerusform>%n دقيقة</numerusform>
+            <numerusform>%n دقيقة</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
         <source>%1 and %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 و%2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعين المجلد الذي سيحفظ فيه SMPlayer ملفات ضبطه (smplayer.ini، smplayer_files.ini...)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="158"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>معطّلة</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="168"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>تلقائية</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="169"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>مجهولة</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>يفتح واجهة MPC المرئية.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation type="unfinished"></translation>
+        <translation>العرض</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>الارتفاع</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>يفتح الواجهة المرئية الداعمة للسمات.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعين إحداثيات النافذة الرئيسة.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="165"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعيّن قياس النافذة الرئيسة.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>تمثل &quot;media&quot; أي نوع من الملفات يستطيع SMPlayer فتحه. يمكن أن تكون ملفاً محلياً أو قرص DVD (مثل dvd://1) أو دفقاً من الإنترنت (مثل mms://...) أو قائمة تشغيل محلية بصيغة m3u أو pls.</translation>
     </message>
 </context>
 <context>
@@ -8460,37 +8479,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>ساعد SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>ذ&amp;كرني لاحقاً</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن أحببت SMPlayer ورغبا في دعم تطويره، بإمكانك إرسال تبرّع، وسنقدّره غالياً مهما صَغر. </translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>أو ربما تحب أن تشارك SMPlayer مع أصدقائك في فيس بوك.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>ما تريد؟</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>أتبرّ&amp;ع</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;شارك مع أصدقائي</translation>
     </message>
 </context>
 <context>
@@ -8498,12 +8517,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../seekwidget.ui" line="22"/>
         <source>icon</source>
-        <translation type="unfinished">الأيقونة</translation>
+        <translation>الأيقونة</translation>
     </message>
     <message>
         <location filename="../seekwidget.ui" line="40"/>
         <source>label</source>
-        <translation type="unfinished"></translation>
+        <translation>الملصق</translation>
     </message>
 </context>
 <context>
@@ -8511,27 +8530,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
         <source>Modify shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>عدّل الاختصار</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="291"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>امسح</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="276"/>
         <source>Press the key combination you want to assign</source>
-        <translation type="unfinished"></translation>
+        <translation>اضغط تركيبة المفاتيح التي تريد إسنادها</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="293"/>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>التقط</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Capture keystrokes</source>
-        <translation type="unfinished"></translation>
+        <translation>التقط ضربات المفاتيح</translation>
     </message>
 </context>
 <context>
@@ -8539,47 +8558,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="392"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">أ&amp;شرطة الأدوات</translation>
+        <translation>أ&amp;شرطة الأدوات</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">شريط ال&amp;حالة</translation>
+        <translation>شريط ال&amp;حالة</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">شريط الأدوات الرئي&amp;سي</translation>
+        <translation>شريط الأدوات الرئي&amp;س</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished">عدّل &amp;شريط الأدوات الأساسي</translation>
+        <translation>عدّل &amp;شريط الأدوات الرئيس</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="404"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished">عدّل أدوات التحكم ال&amp;طافية</translation>
+        <translation>عدّل أدوات التحكم ال&amp;طافية</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">معلومات مقطع ال&amp;فيديو</translation>
+        <translation>معلومات مقطع ال&amp;فيديو</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Playing %1</source>
-        <translation type="unfinished">جاري تشغيل %1</translation>
+        <translation>يُشغل %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>ألبث</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="423"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>أوقف</translation>
     </message>
 </context>
 <context>
@@ -8587,22 +8606,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="13"/>
         <source>Subtitle selection</source>
-        <translation type="unfinished"></translation>
+        <translation>اختيار الترجمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>يحتوي هذا الأرشيف على أكثر من ملف ترجمة، فاختر منها ما تريد استخراجه.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
         <source>Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر الكل</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>لا تختر شيئاً</translation>
     </message>
 </context>
 <context>
@@ -8610,12 +8629,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>مُعدّل القنوات</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="95"/>
         <source>TV/Radio list</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة التلفزيون/المذياع</translation>
     </message>
 </context>
 <context>
@@ -8623,7 +8642,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;قفز إلى:</translation>
     </message>
 </context>
 <context>
@@ -8631,73 +8650,73 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>مُحرّر أشرطة الأدوات</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>الأوام&amp;ر المتوفرة:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;يسار</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"></translation>
+        <translation>ي&amp;مين</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished">أ&amp;قلّ</translation>
+        <translation>أ&amp;سفل</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished">أ&amp;كثر</translation>
+        <translation>أ&amp;على</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>الأوامر ال&amp;حالية:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف فا&amp;صلاً</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(فاصل)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>مُمرِّر الوقت</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>مُمرِّر حجم الصوت</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>اعرض الوقت</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>إرجاع (3 أوامر في واحد)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>تقديم (3 أوامر في واحد)</translation>
     </message>
 </context>
 <context>
@@ -8705,17 +8724,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tristatecombo.cpp" line="34"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>تلقائي</translation>
     </message>
     <message>
         <location filename="../tristatecombo.cpp" line="35"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>نعم</translation>
     </message>
     <message>
         <location filename="../tristatecombo.cpp" line="36"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>لا</translation>
     </message>
 </context>
 <context>
@@ -8723,42 +8742,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>خصائص VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر ما سُيستعمَل من مُرمّزات VDPAU. قد لا يعمل جميعها.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;عطّل مُرشِّحات الفيديو البرمجية</translation>
     </message>
 </context>
 <context>
@@ -8766,12 +8785,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>مُساوي الفيديو</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;تباين</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="66"/>
@@ -8780,52 +8799,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer2.ui" line="228"/>
         <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation type="unfinished"></translation>
+        <translation>0</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;سطوع</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>التد&amp;رج</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>الت&amp;شبع</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;غاما</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>المُساوي البرم&amp;جي</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;جعلها القيم المبدئة</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;صفّر</translation>
+        <translation>&amp;صفّر</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">اجعل القيم الحالية مبدئية لمقاطع الفيديو الجديدة.</translation>
+        <translation>اجعل القيم الحالية مبدئية لمقاطع الفيديو الجديدة.</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">عيّن كل المتحكمات إلى الصفر.</translation>
+        <translation>عيّن كل المتحكمات إلى الصفر.</translation>
     </message>
 </context>
 <context>
@@ -8833,12 +8852,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
-        <translation type="unfinished"></translation>
+        <translation>معاينة الفيديو</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="135"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>ألغِ</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
@@ -8848,138 +8867,138 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>وُلّد باستخدام SMPlayer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Creating thumbnails...</source>
-        <translation type="unfinished"></translation>
+        <translation>يُنشئ المُصغرات...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="379"/>
         <source>Size: %1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>الحجم: %1 م.ب</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>Length: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>الطول: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
         <source>Save file</source>
-        <translation type="unfinished"></translation>
+        <translation>احفظ الملف</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
-        <translation type="unfinished"></translation>
+        <translation>وقع خطأ أثناء حفظ الملف</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="532"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">غير قادر على حفظ الملف</translation>
+        <translation>تعذّر حفظ الملف</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="182"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>خطأ</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation type="unfinished"></translation>
+        <translation>وقع الخطأ التالي أثناء إنشاء المُصغَّرات:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation type="unfinished"></translation>
+        <translation>يتعذّر إنشاء المجلد المؤقت (%1)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="304"/>
         <source>The mplayer process didn&apos;t run</source>
-        <translation type="unfinished"></translation>
+        <translation>لم تعمل عملية mplayer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>الدقة: %1×%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="384"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>صيغة الفيديو: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>Frames per second: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>الإطارات في الثانية: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="386"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished">نسبة الأبعاد: %1</translation>
+        <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="322"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>يتعذر تحميل الملف %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="421"/>
         <source>No filename</source>
-        <translation type="unfinished"></translation>
+        <translation>لا اسم للملف</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation type="unfinished"></translation>
+        <translation>لم تبدأ عملية mplayer عند محاولة جلب معلومات عن مقطع الفيديو</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="200"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>طول مقطع الفيديو صفر</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="244"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation type="unfinished"></translation>
+        <translation>لم يُوجد الملف %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation type="unfinished"></translation>
+        <translation>الصور</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="368"/>
         <source>No info</source>
-        <translation type="unfinished"></translation>
+        <translation>لا معلومات</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="371"/>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ك.بت في الثانية</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="373"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 هرتز</translation>
+        <translation>%1 هرتز</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Video bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>معدل بتات الفيديو: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="390"/>
         <source>Audio bitrate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>معدل بتات الصوت: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="391"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>معدل الصوت: %1</translation>
     </message>
 </context>
 <context>
@@ -8987,7 +9006,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>المبدئي</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
@@ -8997,103 +9016,103 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
         <source>&amp;File:</source>
-        <translation type="unfinished"></translation>
+        <translation>المل&amp;ف:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="56"/>
         <source>&amp;Columns:</source>
-        <translation type="unfinished"></translation>
+        <translation>الأ&amp;عمدة:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="92"/>
         <source>&amp;Rows:</source>
-        <translation type="unfinished"></translation>
+        <translation>الس&amp;طور:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="136"/>
         <source>&amp;Aspect ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>ن&amp;سبة الأبعاد:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="200"/>
         <source>&amp;Maximum width:</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;قصى عرض:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>ستُنشأ معاينة لمقطع الفيديو الذي تعيّنه هنا.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>The thumbnails will be arranged on a table.</source>
-        <translation type="unfinished"></translation>
+        <translation>ستنظم المُصغَّرات في جدول.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
         <source>This option specifies the number of columns of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعيّن هذا الخيار عدد أعمدة الجدول.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعيّن هذا الخيار عدد سطور الجدول.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مكّنت هذا الخيار، سيعرض زمن التشغيل أسفل كل مصغّرة.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن كانت نسبة أبعاد مقطع الفيديو خاطئة، يمكنك تعيين نسبة مختلفة هنا.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>عادة تكون الإطارات الأولى سوداء، فيكون تجاوز بضع ثوانٍ من بداية مقطع الفيديو فكرةً حسنةً. يسمح هذا الخيار بتعيين عدد الثواني التي ستُتجاوز من بداية المقطع.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعيّن هذا الخيار العرض الأقصى بالبكسلات لصور المعاينة المُولّدة.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>ستُستخرج بعض الإطارات من مقطع الفيديو لإنشاء المعاينة. بإمكانك هنا اختيار صيغة صور الإطارات المُستخرجة. قد تكون جودة PNG أكبر.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف و&amp;قت التشغيل للمُصغرات</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation>عدد ال&amp;ثواني المُتجاوزة من بداية المقطع:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"></translation>
+        <translation>استخرج الإطارات بصي&amp;غة</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>أدخل هنا جهاز DVD أو مجلداً فيه صورة DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
         <source>&amp;DVD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;جهاز DVD:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>تذكر الم&amp;جلد الذي تُحفظ إليه المعاينة</translation>
     </message>
 </context>
 <context>
@@ -9111,7 +9130,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation>مُعادِل الفيديو</translation>
+        <translation>مُساوي الفيديو</translation>
     </message>
 </context>
 <context>

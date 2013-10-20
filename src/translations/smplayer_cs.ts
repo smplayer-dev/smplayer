@@ -3736,7 +3736,7 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabská - Syrská</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>

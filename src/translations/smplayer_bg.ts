@@ -97,12 +97,12 @@
     <message>
         <location filename="../about.cpp" line="159"/>
         <source>Ukrainian</source>
-        <translation>Украйнски</translation>
+        <translation>Украински</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="163"/>
         <source>Portuguese - Brazil</source>
-        <translation>Португалски - Бразилия</translation>
+        <translation>Португалски - бразилски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="178"/>
@@ -142,7 +142,7 @@
     <message>
         <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation>Традиционен Kитайски</translation>
+        <translation>Традиционен китайски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -172,22 +172,22 @@
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">Гръцки</translation>
+        <translation>Гръцки</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">Естонски</translation>
+        <translation>Естонски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>Н&apos;ко</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation type="unfinished">Италиански</translation>
+        <translation>Италиански</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="189"/>
@@ -255,7 +255,7 @@
     <message>
         <location filename="../about.cpp" line="48"/>
         <source>Using MPlayer %1</source>
-        <translation>Използва Mplayer %1</translation>
+        <translation>Използва MPlayer %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="59"/>
@@ -310,12 +310,12 @@
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation>SMPlayer използва носителя на награди Mplayer като двигател за възпроизвеждане. Прегледай %1</translation>
+        <translation>SMPlayer използва награждаваният MPlayer като инструмент за възпроизвеждане. Прегледай %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Read the entire license</source>
-        <translation>Прочети целия лиценз</translation>
+        <translation>Прочети целият лиценз</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
@@ -325,7 +325,7 @@
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
-        <translation>Пакет за Уиндоус от %1</translation>
+        <translation>Пакет за Windows от %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
@@ -353,7 +353,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="214"/>
         <source>&amp;Save</source>
-        <translation>&amp;Запис</translation>
+        <translation>&amp;Запаметяване</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="217"/>
@@ -374,7 +374,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="444"/>
         <source>Confirm overwrite?</source>
-        <translation>Презапис?</translation>
+        <translation>Потвърждавате ли презаписване?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="445"/>
@@ -397,7 +397,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="458"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>Файлът не може да бъде запазен</translation>
+        <translation>Файлът не може да бъде запаметен</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="492"/>
@@ -407,7 +407,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="221"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Промени пряк път...</translation>
+        <translation>&amp;Промена на пряк път...</translation>
     </message>
 </context>
 <context>
@@ -415,7 +415,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="81"/>
         <source>Audio Equalizer</source>
-        <translation>&amp;Аудио изравнител</translation>
+        <translation>&amp;Тонкоректор на звука</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="84"/>
@@ -424,7 +424,7 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Хц</translation>
+        <translation>%1 Хц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -433,7 +433,7 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 кХц</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
@@ -463,12 +463,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Поп</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="105"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Рок</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
@@ -478,7 +478,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="112"/>
         <source>Set all controls to zero.</source>
-        <translation>Задаване на всичко до нула.</translation>
+        <translation>Зануляване на всичко.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="129"/>
@@ -501,17 +501,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;Play</source>
-        <translation>&amp;Изпълнение</translation>
+        <translation>&amp;Възпроизвеждане</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
         <source>&amp;Video</source>
-        <translation>&amp;Видеоклип</translation>
+        <translation>&amp;Видео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1713"/>
         <source>&amp;Audio</source>
-        <translation>&amp;Аудио</translation>
+        <translation>&amp;Звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1714"/>
@@ -526,7 +526,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
         <source>Op&amp;tions</source>
-        <translation>&amp;Настройки</translation>
+        <translation>Оп&amp;ции</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
@@ -541,7 +541,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1462"/>
         <source>D&amp;irectory...</source>
-        <translation>&amp;Директория...</translation>
+        <translation>Д&amp;иректория...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1463"/>
@@ -561,7 +561,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1468"/>
         <source>&amp;URL...</source>
-        <translation>&amp;URL...</translation>
+        <translation>&amp;Интернет адрес...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
@@ -576,7 +576,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1492"/>
         <source>P&amp;lay</source>
-        <translation>&amp;Изпълнение</translation>
+        <translation>В&amp;ъзпроизвеждане</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1495"/>
@@ -591,7 +591,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1497"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Кадър напред</translation>
+        <translation>&amp;Стъпка на кадри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1515"/>
@@ -601,7 +601,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
         <source>&amp;Halve speed</source>
-        <translation>&amp;Скорост наполовина</translation>
+        <translation>&amp;Половин скорост</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1517"/>
@@ -627,7 +627,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
         <source>Sp&amp;eed</source>
-        <translation>&amp;Скорост</translation>
+        <translation>С&amp;корост</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1510"/>
@@ -647,18 +647,18 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
         <source>Si&amp;ze</source>
-        <translation>&amp;Размер</translation>
+        <translation>Ра&amp;змер</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1769"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Картина</translation>
+        <translation>&amp;Съотношение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1807"/>
         <location filename="../basegui.cpp" line="3113"/>
         <source>&amp;None</source>
-        <translation>&amp;Няма</translation>
+        <translation>&amp;Без</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1808"/>
@@ -678,22 +678,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1554"/>
         <source>&amp;Postprocessing</source>
-        <translation>&amp;Postprocessing</translation>
+        <translation>&amp;Допълнителна корекция</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>&amp;Autodetect phase</source>
-        <translation>&amp;Автооткриване на фазата</translation>
+        <translation>&amp;Автоматично откриване на фаза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1556"/>
         <source>&amp;Deblock</source>
-        <translation>&amp;Deblock</translation>
+        <translation>&amp;Разблокиране</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1557"/>
         <source>De&amp;ring</source>
-        <translation>De&amp;ring</translation>
+        <translation>Пр&amp;емахване на пръстени</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1559"/>
@@ -703,7 +703,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>F&amp;ilters</source>
-        <translation>&amp;Филтри</translation>
+        <translation>Фи&amp;лтри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1528"/>
@@ -718,12 +718,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
         <source>S&amp;tay on top</source>
-        <translation>&amp;Положение отгоре</translation>
+        <translation>Ви&amp;наги отгоре</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1577"/>
         <source>&amp;Extrastereo</source>
-        <translation>&amp;Екстрастерео</translation>
+        <translation>&amp;Допълнително стерео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1578"/>
@@ -744,12 +744,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;4.0 Surround</source>
-        <translation>&amp;4.0 Съраунд</translation>
+        <translation>&amp;4.0 Обграждащ звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1853"/>
         <source>&amp;5.1 Surround</source>
-        <translation>&amp;5.1 Съраунд</translation>
+        <translation>&amp;5.1 Обграждащ звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1844"/>
@@ -769,12 +769,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1847"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;Стерео режим</translation>
+        <translation>&amp;Режим на стерео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1567"/>
         <source>&amp;Mute</source>
-        <translation>&amp;Заглушаване</translation>
+        <translation>&amp;Без звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1568"/>
@@ -794,7 +794,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1571"/>
         <source>D&amp;elay +</source>
-        <translation>&amp;Забавяне +</translation>
+        <translation>За&amp;бавяне +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
@@ -824,7 +824,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;Down</source>
-        <translation>&amp;Надолу</translation>
+        <translation>На&amp;долу</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1874"/>
@@ -839,7 +839,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
         <source>&amp;Angle</source>
-        <translation>&amp;Наклон</translation>
+        <translation>Нак&amp;лон</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1620"/>
@@ -849,27 +849,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1805"/>
         <source>&amp;Disabled</source>
-        <translation>&amp;Забранен</translation>
+        <translation>&amp;Изключен</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1901"/>
         <source>&amp;OSD</source>
-        <translation>&amp;OSD</translation>
+        <translation>&amp;Екранно известие</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1908"/>
         <source>&amp;View logs</source>
-        <translation>&amp;Показване на дневниците</translation>
+        <translation>&amp;Показване на отчети</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1622"/>
         <source>P&amp;references</source>
-        <translation>&amp;Настройки</translation>
+        <translation>Наст&amp;ройки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1649"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Относно &amp;SMplayer</translation>
+        <translation>Относно &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3135"/>
@@ -885,13 +885,13 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="3685"/>
         <source>Video</source>
-        <translation>Видеоклип</translation>
+        <translation>Видео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3686"/>
         <location filename="../basegui.cpp" line="3876"/>
         <source>Audio</source>
-        <translation>Аудио</translation>
+        <translation>Звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3687"/>
@@ -920,14 +920,14 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="3735"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer -Информация</translation>
+        <translation>SMPlayer - Информация</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3736"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CDROM / DVD устройствата все още не са настроени.
-Тук вие можете да го направите.</translation>
+        <translation>CDROM/DVD устройствата все още не са настроени.
+Възможностите за настройка ще бъдат изведени, за да ги настроите.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3819"/>
@@ -977,7 +977,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Playing %1</source>
-        <translation>Изпълнява се %1</translation>
+        <translation>Възпроизвежда се %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4600"/>
@@ -992,18 +992,18 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1499"/>
         <source>Play / Pause</source>
-        <translation>Изпълнение / Пауза</translation>
+        <translation>Възпроизвеждане/Пауза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1502"/>
         <source>Pause / Frame step</source>
-        <translation>Пауза</translation>
+        <translation>Пауза/По кадри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1574"/>
         <location filename="../basegui.cpp" line="1583"/>
         <source>U&amp;nload</source>
-        <translation>&amp;Освобождаване</translation>
+        <translation>Ос&amp;вобождаване</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1464"/>
@@ -1013,12 +1013,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1469"/>
         <source>C&amp;lose</source>
-        <translation>&amp;Затваряне</translation>
+        <translation>За&amp;тваряне</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1621"/>
         <source>View &amp;info and properties...</source>
-        <translation>Показване на &amp;информация...</translation>
+        <translation>Показване на &amp;информация и предпочитания...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1537"/>
@@ -1058,12 +1058,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1592"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>&amp;Предишен ред от субтитрите</translation>
+        <translation>&amp;Предишен ред от субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>&amp;Следващ ред от субтитрите</translation>
+        <translation>С&amp;ледващ ред от субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1933"/>
@@ -2003,7 +2003,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4045"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation>Буфериране...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3127"/>
@@ -2373,7 +2373,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Свързване към %1</translation>
     </message>
 </context>
 <context>
@@ -8464,37 +8464,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Помгни на SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Напомни ми по-късно</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished">Ако харесвате SMPlayer и искате да подпомогнете неговата разработка, може да изпратите дарение. Дори най-малките са високо ценени.</translation>
+        <translation>Ако харесвате SMPlayer  и искате да подпомогнете неговата разработка, може да изпратите дарение. Дори най-малките са високо ценени.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>Или можете да споделите SMPlayer с вашите приятели в Фейсбук.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Какво искате да направите?</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished">&amp;Дари</translation>
+        <translation>&amp;Дари</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Споделете с приятели</translation>
     </message>
 </context>
 <context>

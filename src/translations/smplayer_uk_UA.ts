@@ -187,17 +187,17 @@
     <message>
         <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation type="unfinished">Італійська</translation>
+        <translation>Італійська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation type="unfinished">Узбецька</translation>
+        <translation>Узбецька</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation type="unfinished">Каталонська</translation>
+        <translation>Каталонська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -967,12 +967,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4429"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Виявлено помилку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4430"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>На жаль, це відео не може неможливо відтворити.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
@@ -1087,7 +1087,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>Генератор &amp;мініатюр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -1294,7 +1294,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4384"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>На жаль, у зв&apos;язку зі змінами на Ютюбі, це відео неможливо відтворити.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4391"/>
@@ -1466,7 +1466,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4431"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервер повернув &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5019"/>
@@ -3736,7 +3736,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабська - Сирія</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -6674,7 +6674,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Основний інтерфейс</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -8848,7 +8848,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Генератор мініатюр</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8997,7 +8997,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Генератор мініатюр</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

@@ -3737,7 +3737,7 @@ Wählen Sie dazu den Ordner, der die „VIDEO_TS“- und „AUDIO_TS“-Verzeich
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisch - Syrien</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>

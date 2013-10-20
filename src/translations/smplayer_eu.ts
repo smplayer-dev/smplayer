@@ -3735,7 +3735,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabiera - Siria</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
