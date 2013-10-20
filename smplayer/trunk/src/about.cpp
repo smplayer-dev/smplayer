@@ -172,9 +172,9 @@ QString About::getTranslators() {
 		trad(tr("Hungarian"), "Gojko") +
 		trad(tr("Turkish"), QStringList() << "Emre Firat" << QString::fromUtf8("Hasan Akgöz")) +
 		trad(tr("Finnish"), QString::fromUtf8("Jiri Grönroos")) +
-		trad(tr("German"), QStringList() << "Shaggy" << QString::fromUtf8("Michał Trzebiatowski") << "Eclipse") +
+		trad(tr("German"), QStringList() << "Shaggy" << QString::fromUtf8("Michał Trzebiatowski") << "Eclipse" << "j5lx") +
 		trad(tr("Traditional Chinese"), QStringList() << "Taijuin Lee" << "Wpliao" ) +
-		trad(tr("Bulgarian"), "Ivailo Monev") +
+		trad(tr("Bulgarian"), QStringList() << "Ivailo Monev" << QString::fromUtf8("Радослав")) +
 		trad(tr("Norwegian Nynorsk"), "Bjorni") +
 		trad(tr("Swedish"), QStringList() << "XC" << "Andreas Gustafsson") +
 		trad(tr("Arabic"), QStringList() << "Riyadh" << "Muhammad Fawwaz Orabi") +
