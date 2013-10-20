@@ -67,7 +67,7 @@
     <message>
         <location filename="../about.cpp" line="167"/>
         <source>Polish</source>
-        <translation>Polaco</translation>
+        <translation>Polonês</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -117,7 +117,7 @@
     <message>
         <location filename="../about.cpp" line="154"/>
         <source>Czech</source>
-        <translation>Checo</translation>
+        <translation>Tcheco</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="177"/>
@@ -207,7 +207,7 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About SMPlayer</source>
-        <translation>Sobre SMPlayer</translation>
+        <translation>Sobre o SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
@@ -217,7 +217,7 @@
     <message>
         <location filename="../about.ui" line="38"/>
         <source>&amp;Info</source>
-        <translation>&amp;Info</translation>
+        <translation>&amp;Informações</translation>
     </message>
     <message>
         <location filename="../about.ui" line="58"/>
@@ -353,7 +353,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="214"/>
         <source>&amp;Save</source>
-        <translation>&amp;Guardar</translation>
+        <translation>&amp;Salvar</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="217"/>
@@ -3735,7 +3735,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Árabe - Síria</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>

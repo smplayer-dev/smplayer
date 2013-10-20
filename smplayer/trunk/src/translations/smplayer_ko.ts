@@ -1087,7 +1087,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>썸네일 생성기(&amp;N)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -3734,7 +3734,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>아랍어 - 시리아</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -6673,7 +6673,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -8843,7 +8843,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>썸네일 생성기</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8992,7 +8992,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>썸네일 생성기</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

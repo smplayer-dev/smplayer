@@ -3737,7 +3737,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Aрапски - Сирија</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>

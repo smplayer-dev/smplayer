@@ -3736,7 +3736,7 @@ Molim, provjerite dozvole te mape.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arapski -Sirija</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
