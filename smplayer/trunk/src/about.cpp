@@ -151,7 +151,7 @@ QString About::getTranslators() {
 		trad(tr("Spanish"), "Ricardo Villalba") +
 		trad(tr("Basque"), "Xabier Aramendi") +
 		trad(tr("Croatian"), "Gogo") +
-		trad(tr("Czech"), QString::fromUtf8("Petr Šimáček")) +
+		trad(tr("Czech"), QStringList() << QString::fromUtf8("Petr Šimáček") << QString::fromUtf8("Jakub Kožíšek")) +
 		trad(tr("Japanese"), QStringList() << "Ever_green" << "Nardog") +
 		trad(tr("Korean"), QStringList() << "ParkJS" << "Potato") +
 		trad(tr("Portuguese"), QString::fromUtf8("Sérgio Marques")) +
@@ -160,7 +160,7 @@ QString About::getTranslators() {
 		trad(tr("Galician"), QStringList() << QString::fromUtf8("Adrián Chaves Fernández") << "Miguel Branco") +
 		trad(tr("Lithuanian"), QString::fromUtf8("Algimantas Margevičius")) +
 		trad(tr("Malay"), "Abuyop") +
-		trad(tr("Portuguese - Brazil"), QStringList() << QString::fromUtf8("Maico Sertório") << "Vinicius" << "Ronnie Dilli") +
+		trad(tr("Portuguese - Brazil"), QStringList() << QString::fromUtf8("Maico Sertório") << "Vinicius" << "Ronnie Dilli" << QString::fromUtf8("Lucas Simões")) +
 		trad(tr("Hebrew"), "GenghisKhan") +
 		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "Zhangzheliuli" << "Zhnagmin") +
 		trad(tr("Vietnamese"), QStringList() << "Anh Phan" << "Biz Over" << "Thu Thao Nguyen Ngoc") +
