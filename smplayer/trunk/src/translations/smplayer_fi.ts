@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Links:</source>
-        <translation type="unfinished"></translation>
+        <translation>Linkit:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="68"/>
@@ -72,22 +72,22 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Monet ihmiset auttoivat kielikäännöksissä.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Voit auttaa SMPlayerin kääntämisessä haluamallesi kielelle.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Käy %1-sivustolla ja liity käännösryhmään.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nykyiset kääntäjät Transifex-ryhmistä:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -325,7 +325,7 @@
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Windows-paketit on luonut %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
@@ -424,7 +424,7 @@ Haluatko ylikirjoittaa sen?</translation>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -433,7 +433,7 @@ Haluatko ylikirjoittaa sen?</translation>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
@@ -967,12 +967,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="4429"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe havaittu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4430"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitettavasti tätä videota ei voi toistaa.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
@@ -1118,7 +1118,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1647"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lahjoita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1279,17 +1279,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Lahjoita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3914"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jos pidät SMPlayerista ja haluat tukea ohjelman kehitystä, voit lähettää lahjoituksen. Oli summa kuinka pieni tahansa, on sillä suuri merkitys.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3917"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Kyllä, haluan lahjoittaa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4384"/>
@@ -1300,7 +1300,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <location filename="../basegui.cpp" line="4391"/>
         <location filename="../basegui.cpp" line="4399"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Ongelmia Youtuben kanssa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4387"/>
@@ -1310,12 +1310,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="4393"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Haluatko päivittää Youtube-koodin? Se saattaa korjata ongelman.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4401"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayerin päivittämisen saattaa korjata ongelman.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5122"/>
@@ -1325,12 +1325,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="5123"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varmista, että %1 on asennettu.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Jaa SMPlayer yst&amp;ävillesi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2876"/>
@@ -1924,7 +1924,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Ladataan...</translation>
+        <translation>Ladataan...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
@@ -1934,12 +1934,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube-koodi on päivitetty onnistuneesti.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Asennettu versio: %1</translation>
+        <translation>Asennettu versio: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
@@ -1950,7 +1950,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Virhe</translation>
+        <translation>Virhe</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
@@ -1960,7 +1960,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Virhe ladatessa tiedostoa:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2226,7 +2226,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Hups, jokin meni pieleen</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2312,7 +2312,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Uusi &amp;alivalikko</translation>
     </message>
 </context>
 <context>
@@ -2360,7 +2360,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Napsauta valitaksesi tiedoston tai kansion</translation>
     </message>
 </context>
 <context>
@@ -2639,7 +2639,7 @@ Esimerkki: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Haku epäonnistui</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
@@ -2798,7 +2798,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../infofile.cpp" line="66"/>
         <source>%1 KB (%2 MB)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kt (%2 Mt)</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="70"/>
@@ -6476,7 +6476,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="759"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Yksityisyys</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -6658,7 +6658,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="777"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Yksityisyys</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="780"/>
@@ -6856,12 +6856,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="678"/>
         <source>GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Käyttöliittymä</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="185"/>
         <source>&amp;GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Käyttöliittymä</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
@@ -6977,7 +6977,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Piilota videoikkuna äänitiedostoja toistettaessa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="729"/>
@@ -8184,17 +8184,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;äivitykset</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">&amp;Tarkista päivitykset</translation>
+        <translation>Tarkista päivit&amp;ykset</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarkistusväli (&amp;päivissä)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
@@ -8204,12 +8204,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Päivitykset</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarkista päivitykset</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
@@ -8219,7 +8219,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>Tarkistusväli</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
@@ -8467,12 +8467,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>Muistuta my&amp;öhemmin</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Jos pidät SMPlayerista ja haluat tukea ohjelman kehitystä, voit lähettää lahjoituksen. Oli summa kuinka pieni tahansa, on sillä suuri merkitys.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
@@ -8482,17 +8482,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitä haluat tehdä?</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lahjoittaa</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jakaa kavereille</translation>
     </message>
 </context>
 <context>
@@ -8546,7 +8546,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">Tila&amp;palkki</translation>
+        <translation>Ti&amp;lapalkki</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -8812,7 +8812,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aseta oletusarvoiksi</translation>
     </message>
     <message>
         <location filename="../videoequalizer2.ui" line="323"/>

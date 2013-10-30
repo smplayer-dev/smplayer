@@ -4770,7 +4770,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="410"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مكّنت هذا الخيار، فلن يُحتوى مقطع الفيديو الذي يُشغله MPlayer في نافذة SMPlayer الرئيسة، بل سيستعمل نافذته الخاصة. لاحظ أن MPlayer سيتولى أحداث لوحة المفاتيح والفأرة مباشرةً، الأمر الذي يعني أن اختصارات لوحة المفاتيح ونقرات الفأرة لن تعملا كما يُتوقع عندما تستحوذ نافذة MPlayer على التركيز.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
@@ -4905,12 +4905,12 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>Correct pts</source>
-        <translation type="unfinished"></translation>
+        <translation>صحّح PTS</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُبدّل MPlayer إلى وضع اختباري تُحسَب فيه أوقات إطارات الفيديو بأسلوب مختلف، وتُدعم فيه مرشحات الفيديو التي تضيف إطارات جديدة أو تُغيّر أوقات الإطارات. تُرى هذه الأوقات الدقيقة عند تشغيل ترجمات مؤقتة مع تغيرات المشهد مثلاً مستخدمةً مكتبة SSA/ASS. بدون تصحيح PTS سيكون توقيت الترجمة مُزاحاً بمقدار بعض إطارات. لا يعمل هذا الخيار مع كل المُرمزات وملغيات التضميم.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
@@ -4920,12 +4920,12 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا تعيين قائمة &lt;i&gt;أحداث&lt;/i&gt; تعمل في كل مرة يُفتح ملف جديد. بإمكانك إيجاد الأحداث المتوفرة في مُعدّل اختصارات لوحة المفاتيح في قسم &lt;b&gt;لوحة المفاتيح والفأرة&lt;/b&gt;. يجب أن تفصل هذه الأحداث بمسافات.  يمكن إتباع الأحداث التي تقبل التمكين والتعطيل بـ&lt;i&gt;true&lt;/i&gt; أو &lt;i&gt;false&lt;/i&gt; لتمكينها أو تعطيلها.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>قصور: تنفذ هذه الأحداث فقط عندما يفتح ملف جديد وليس عندما يعاد تشغيل عملية MPlayer (كاختيار مرشح فيديو أو صوت).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
@@ -4935,7 +4935,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="183"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;نفّذ الأحداث التالية كل مرة يُفتح ملف. يجب أن تفصل الأحداث بمسافات:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="478"/>
@@ -4950,12 +4950,12 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="418"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعيد بناء فهرس الملفات إن لم يُوجد، مما يسمح بالسعي. يفيد في حالة التنزيلات المعطوبة أو غير التامة، أو الملفات المنشأة على نحو سيئ. لا يعمل هذا الخيار إلا على وسيط يدعم السعي (ليس مع stdin أو pipe... إلخ).&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; قد يستغرق إنشاء الفهرس بعض الوقت.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="142"/>
         <source>C&amp;orrect PTS:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;صحّح PTS:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="571"/>
@@ -4970,7 +4970,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكن هذا الخيار، سيُحفظ سجل SMPlayer في %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="636"/>
@@ -5332,87 +5332,87 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>Direct rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>تصيير مباشر</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="962"/>
         <source>Double buffering</source>
-        <translation type="unfinished"></translation>
+        <translation>تخبئة مضاعفة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="469"/>
         <source>D&amp;irect rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;صيير مباشر</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="476"/>
         <source>Dou&amp;ble buffering</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;خبئة مضاعفة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="963"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation type="unfinished"></translation>
+        <translation>تُصلح التخبئة المباشر الومض بتخزين إطارين في الذاكرة، وعرض أحدهما بينما يُفك ترميز الآخر. إن أُبطِل هذا الخيار فقد يُؤثّر سلباً على لوحة الأدوات على الشاشة، ولكنه غالباً ما ينقص وميضها.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="309"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن الم&amp;عالجة اللاحقة مبدئياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="830"/>
         <source>Volume &amp;normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>سَوِّ حجم الصوت مبدئياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="901"/>
         <source>Close when finished</source>
-        <translation type="unfinished"></translation>
+        <translation>أغلق عند الانتهاء</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="902"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكّن هذا الخيار، فيستغلق النافذة الرئيسة تلقائياً عند ما يُنهى تشغيل الملف الحالي أو قائمة التشغيل.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="103"/>
         <source>2 (Stereo)</source>
-        <translation type="unfinished"></translation>
+        <translation>اثنان (ستيريو)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="104"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished">8 (محيط 7.1) {4 (4.0 ?}</translation>
+        <translation>أربع (محيط 4.0)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="105"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished">8 (محيط 7.1) {6 (5.1 ?}</translation>
+        <translation>ست (محيط 5.1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="657"/>
         <source>C&amp;hannels by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;قنوات المبدئية:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="196"/>
         <source>&amp;Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>أل&amp;بث عند تصغير  النافذة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="905"/>
         <source>Pause when minimized</source>
-        <translation type="unfinished"></translation>
+        <translation>ألبث عند تصغير  النافذة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
         <source>Enable postprocessing by default</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن المعالجة اللاحقة مبدئياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1064"/>
         <source>Max. Amplification</source>
-        <translation type="unfinished"></translation>
+        <translation>أقصى تضخيم</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1034"/>
@@ -5422,62 +5422,62 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>سَوِّ حجم الصوت مبدئياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>يرفع حجم الصوت دون تشويهه.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1039"/>
         <source>Channels by default</source>
-        <translation type="unfinished"></translation>
+        <translation>القنوات المبدئية</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1065"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعُين أقصى مستوى لتضخيم الصوت بالنسبة المئوية (المبدئي: 110). تعيين القيمة إلى 200 يسمح برفع الصوت إلى حد أقصاه مثلا المستوى الحالي. إذا عُينت قيمة تحت 100 فستكون القيمة الأولية (وهي 100%) فوق الحد الأقصى، فلا تستطيع لوحة الأدوات على الشاشة عرضها كما ينبغي.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="935"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>ستُستعمل المعالجة اللاحقة مبدئياً للملفات المفتوحة جديداً. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1103"/>
         <source>Audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>مسار الصوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعين مسار الصوت المبدئي الذي سوف يُعتمد عند تشغيل ملفات جديدة. إن لم يُوجد المسار، سيُعتمد الأول محله.&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; الخيار &lt;i&gt;&quot;لغة الصوت المفضلة&quot;&lt;/i&gt; مُقدَّم على هذا.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1109"/>
         <source>Subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>مسار الترجمة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1110"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>يُعين مسار الترجمة المبدئي الذي سوف يُعتمد عند تشغيل ملفات جديدة. إن لم يُوجد المسار، سيُعتمد الأول محله.&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; الخيار &lt;i&gt;&quot;لغة الترجمة المفضلة&quot;&lt;/i&gt; مُقدَّم على هذا.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1224"/>
         <source>Or choose a track number:</source>
-        <translation type="unfinished"></translation>
+        <translation>أو اختر رقم مسار:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1165"/>
         <source>Audi&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>ال&amp;صوت:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1119"/>
         <source>Preferred language:</source>
-        <translation type="unfinished"></translation>
+        <translation>اللغة المفضلة:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="990"/>
@@ -5492,7 +5492,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="142"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>بإمكانك هنا كتابة لغتك المفضلة للصوت والترجمة. عندما يُوجد وسيط له أكثر من دفق واحد لكل من الصوت أو الترجمة، سيحاول SMPlayer اعتماد لغتك المفضلة. ينطبق هذا على الوسائط التي تتوفر على معلومات عن لغات دفقات الصوت والترجمة، كأقراص DVD وملفات MKV.&lt;br&gt;تقبل هذه الحقول التعابير النظامية. مثلاً:  سيعتمد المسار الذي يوافق &lt;i&gt;ar&lt;/i&gt; أو &lt;i&gt;ara&lt;/i&gt; إذا أُدخل التعبير النظامي &lt;b&gt;ar|ara&lt;/b&gt;.  </translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1011"/>
@@ -5503,17 +5503,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>تشغيلٌ عالي ال&amp;سرعة دون تغيير النبرة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1050"/>
         <source>High speed playback without altering pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>تشغيلٌ عالي السرعة دون تغيير النبرة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1051"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="unfinished"></translation>
+        <translation>  MPlayer dev-SVN-r24924. تمكين التعديل بسرعة التشغيل يتطلب وجود على الأقل</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -5523,7 +5523,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="462"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم مُساوي الصوت البرم&amp;جي </translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="561"/>
@@ -5583,42 +5583,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Deinterlace by default</source>
-        <translation type="unfinished"></translation>
+        <translation>فُك التشابك مبدئياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="943"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر مُرشح فك التشابك الذي تريد أن يُستعمل لمقاطع الفيديو المفتوحة جديداً.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="878"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>تذكر موضع الوقت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="101"/>
         <source>Remember &amp;time position</source>
-        <translation type="unfinished"></translation>
+        <translation>تذكر موضع الوق&amp;ت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن مساوي الصوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن هذا الخيار إن أردت استعمال مساوي الصوت.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="626"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن مُساو&amp;يَ الصوت</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>ارسم الفيديو كشرائح مُقطّعة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="968"/>

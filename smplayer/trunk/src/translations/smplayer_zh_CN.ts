@@ -1300,7 +1300,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4391"/>
         <location filename="../basegui.cpp" line="4399"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube的问题</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4387"/>

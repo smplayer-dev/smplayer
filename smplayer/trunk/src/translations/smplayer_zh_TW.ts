@@ -713,7 +713,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1529"/>
         <source>&amp;Screenshot</source>
-        <translation>擷取畫面(&amp;S)</translation>
+        <translation>擷取影像(&amp;S)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
@@ -2074,12 +2074,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1299"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>沒有擷圖，因為資料夾沒有配置</translation>
+        <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1312"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>沒有擷圖，因為資料夾沒有配置</translation>
+        <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2560"/>
@@ -5207,7 +5207,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="896"/>
         <source>Screenshots folder</source>
-        <translation>擷圖資料夾</translation>
+        <translation>擷取的影像存放之資料夾</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
@@ -5789,7 +5789,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="892"/>
         <source>Enable screenshots</source>
-        <translation>啟用擷取畫面</translation>
+        <translation>啟用擷取影像功能</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="893"/>
@@ -5799,7 +5799,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="897"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>在這裡，您可以指定一個 SMPlayer 擷取影像時儲存的資料夾。如果資料夾是無效的，擷圖功能將無法使用。</translation>
+        <translation>在這裡，您可以指定一個 SMPlayer 擷取影像時儲存的資料夾。如果資料夾是無效的，擷取影像功能將無法使用。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="43"/>
@@ -5809,17 +5809,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="150"/>
         <source>Screenshots</source>
-        <translation>螢幕擷圖</translation>
+        <translation>擷取影像</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="156"/>
         <source>&amp;Enable screenshots</source>
-        <translation>啟用擷取畫面(&amp;E)</translation>
+        <translation>啟用擷取影像功能(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="166"/>
         <source>&amp;Folder:</source>
-        <translation>資料夾(&amp;F)：</translation>
+        <translation>存放資料夾(&amp;F)：</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1054"/>
@@ -6116,7 +6116,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="69"/>
         <source>Screenshot</source>
-        <translation>螢幕擷圖</translation>
+        <translation>擷取影像</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
@@ -7312,7 +7312,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="591"/>
         <source>Cache for &amp;TV:</source>
-        <translation>&amp;TV的快取：</translation>
+        <translation>&amp;TV 的快取：</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
@@ -7569,7 +7569,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="236"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>擷圖包含字幕(&amp;I)</translation>
+        <translation>擷取影像包含字幕(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="418"/>
@@ -7599,7 +7599,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Include subtitles on screenshots</source>
-        <translation>擷圖包含字幕</translation>
+        <translation>擷取影像包含字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
@@ -8048,7 +8048,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾選這個選項，字幕將出現在擷取的影像中。&lt;b&gt;注意：&lt;/b&gt;有時，它可能會導致一些麻煩。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
