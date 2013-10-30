@@ -187,17 +187,17 @@
     <message>
         <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation type="unfinished">Itali</translation>
+        <translation>Itali</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation type="unfinished">Uzbek</translation>
+        <translation>Uzbek</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation type="unfinished">Catalan</translation>
+        <translation>Catalan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -967,12 +967,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4429"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Ralat dikesan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4430"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Malangnya video ini tidak boleh dimain.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
@@ -1087,7 +1087,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>Penjana Lakaran Ke&amp;nit...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -1294,7 +1294,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4384"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Malangnya kerana terdapat perubahan dalam halaman Youtube, video ini tidak dapat dimainkan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4391"/>
@@ -1466,7 +1466,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4431"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Pelayan kembalikan &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5019"/>
@@ -3734,7 +3734,7 @@ Sila semak keizinan folder tersebut.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab - Syria</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -6673,7 +6673,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>GUI Asas</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -8843,7 +8843,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Penjana Lakaran Kenit</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8992,7 +8992,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Penjana Lakaran Kenit</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

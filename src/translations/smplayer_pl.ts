@@ -2239,7 +2239,7 @@ Zobaczysz teraz dialog konfiguracji i możesz dokonać tych ustaweń.</translati
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Icon</source>
-        <translation>ikona</translation>
+        <translation>Ikona</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
@@ -2488,7 +2488,7 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="72"/>
         <source>Apply</source>
-        <translation>Zatwierdź</translation>
+        <translation>Zastosuj</translation>
     </message>
 </context>
 <context>

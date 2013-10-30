@@ -1087,7 +1087,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Miniatiūrų generatorius...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -3736,7 +3736,7 @@ Patikrinkite prieigos teises.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabų - Sirija</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -6674,7 +6674,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Paprastas GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -8848,7 +8848,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniatiūrų generatorius</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -8997,7 +8997,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniatiūrų generatorius</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
