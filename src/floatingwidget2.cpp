@@ -17,16 +17,23 @@
 */
 
 #include "floatingwidget2.h"
+#include <QTimer>
 #include <QEvent>
 #include <QDebug>
 
 FloatingWidget2::FloatingWidget2(QWidget * parent)
 	: EditableToolbar(parent)
 	, auto_hide(false)
-	, perc_margin(0)
+	, spacing(0)
+	, perc_width(100)
 {
 	setAutoFillBackground(true);
 	parent->installEventFilter(this);
+
+	QTimer * timer = new QTimer(this);
+	connect(timer, SIGNAL(timeout()), this, SLOT(checkUnderMouse()));
+	timer->setInterval(5000);
+	timer->start();
 }
 
 FloatingWidget2::~FloatingWidget2() {
@@ -43,12 +50,22 @@ void FloatingWidget2::checkUnderMouse() {
 	}
 }
 
+void FloatingWidget2::resizeAndMove() {
+	QWidget * widget = parentWidget();
+	int w = widget->width() * perc_width / 100;
+	int h = height();
+	resize(w, h);
+
+	int x = (widget->width() - width() ) / 2;
+	int y = widget->height() - height() - spacing;
+	move(x, y);
+}
+
 bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 	//qDebug() << "FloatingWidget2::eventFilter: obj:" << obj << "type:" << event->type();
 	if (event->type() == QEvent::Resize) {
 		qDebug() << "FloatingWidget2::eventFilter: resize";
-		resize(QSize(parentWidget()->size().width(), height()));
-		move(0, parentWidget()->size().height() - size().height());
+		resizeAndMove();
 	}
 	return EditableToolbar::eventFilter(obj, event);
 }

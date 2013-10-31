@@ -57,12 +57,14 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	connect( this, SIGNAL(timeChanged(QString)),
              this, SLOT(displayTime(QString)) );
 
+#if !SKIN_CONTROLWIDGET_OVER_VIDEO
 	connect( this, SIGNAL(cursorNearBottom(QPoint)), 
              this, SLOT(showFloatingControl(QPoint)) );
 	connect( this, SIGNAL(cursorNearTop(QPoint)), 
              this, SLOT(showFloatingMenu(QPoint)) );
 	connect( this, SIGNAL(cursorFarEdges()), 
              this, SLOT(hideFloatingControls()) );
+#endif
 
 	createActions();
 	createMainToolBars();
@@ -324,7 +326,9 @@ void SkinGui::createControlWidget() {
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 void SkinGui::createFloatingControl() {
 	// Floating control
-	floating_control = new FloatingWidget2(mplayerwindow);
+	floating_control = new FloatingWidget2(panel);
+	//floating_control->setAutoHide(true);
+	connect(mplayerwindow, SIGNAL(mouseMoved(QPoint)), this, SLOT(showFloatingControl(QPoint)));
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
@@ -385,6 +389,8 @@ void SkinGui::createFloatingControl() {
 #if !USE_CONFIGURABLE_TOOLBARS
 	floating_control->adjustSize();
 #endif
+
+	floating_control->hide();
 }
 #endif
 
@@ -464,7 +470,8 @@ void SkinGui::aboutToExitFullscreen() {
 	BaseGuiPlus::aboutToExitFullscreen();
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
-	//floating_control->hide();
+	floating_control->setAutoHide(false);
+	floating_control->hide();
 #endif
 
 	if (!pref->compact_mode) {
@@ -497,8 +504,6 @@ void SkinGui::aboutToExitCompactMode() {
 }
 
 void SkinGui::showFloatingControl(QPoint /*p*/) {
-	qDebug("SkinGui::showFloatingControl");
-
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 /*
 	if ((pref->compact_mode) && (!pref->fullscreen)) {
@@ -512,7 +517,15 @@ void SkinGui::showFloatingControl(QPoint /*p*/) {
 	#endif
 	floating_control->showOver(panel, pref->floating_control_width);
 */
+	if ((pref->fullscreen) && (!floating_control->isVisible())) {
+		qDebug("SkinGui::showFloatingControl");
+		floating_control->setMargin(pref->floating_control_margin);
+		floating_control->setPercWidth(pref->floating_control_width);
+		floating_control->show();
+		floating_control->setAutoHide(true);
+	}
 #else
+	qDebug("SkinGui::showFloatingControl");
 	if (!controlwidget->isVisible()) {
 		controlwidget->show();
 	}
@@ -532,7 +545,7 @@ void SkinGui::hideFloatingControls() {
 	qDebug("SkinGui::hideFloatingControls");
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
-	//floating_control->hide();
+	floating_control->hide();
 #else
 	if (controlwidget->isVisible())
 		controlwidget->hide();
