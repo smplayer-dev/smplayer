@@ -22,6 +22,7 @@
 #include "editabletoolbar.h"
 
 class QTimer;
+class QPropertyAnimation;
 
 class FloatingWidget2 : public EditableToolbar
 {
@@ -31,26 +32,28 @@ public:
 	FloatingWidget2(QWidget * parent = 0);
 	~FloatingWidget2();
 
-	//bool isAnimated() { return _animated; };
-	bool isActive() { return turned_on; };
-	bool autoHide() { return auto_hide; };
-	int margin() { return spacing; };
-	int percWidth() { return perc_width; };
-
 public slots:
 	void show();
-	//void setAnimated(bool b) { _animated = b; };
 	void activate();
 	void deactivate();
 	void setAutoHide(bool b);
+	void setAnimated(bool b) { use_animation = b; };
 	void setMargin(int margin) { spacing = margin; };
 	void setPercWidth(int s) { perc_width = s;}
+
+public:
+	bool isActive() { return turned_on; };
+	bool autoHide() { return auto_hide; };
+	bool isAnimated() { return use_animation; };
+	int margin() { return spacing; };
+	int percWidth() { return perc_width; };
 
 protected:
 	bool eventFilter(QObject * obj, QEvent * event);
 
 private slots:
 	void checkUnderMouse();
+	void showAnimated();
 
 private:
 	void installFilter(QObject *o);
@@ -59,9 +62,11 @@ private:
 private:
 	bool turned_on;
 	bool auto_hide;
+	bool use_animation;
 	int spacing;
 	int perc_width;
 	QTimer * timer;
+	QPropertyAnimation * animation;
 };
 
 #endif

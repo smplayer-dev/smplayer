@@ -458,6 +458,7 @@ void SkinGui::aboutToEnterFullscreen() {
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->setPercWidth(pref->floating_control_width);
+	floating_control->setAnimated(pref->floating_control_animated);
 	QTimer::singleShot(500, floating_control, SLOT(activate()));
 #endif
 
