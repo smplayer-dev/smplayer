@@ -19,18 +19,21 @@
 #ifndef FLOATING_WIDGET2_H
 #define FLOATING_WIDGET2_H
 
-#include "editabletoolbar.h"
+#include <QWidget>
 
 class QTimer;
 class QPropertyAnimation;
 
-class FloatingWidget2 : public EditableToolbar
+class FloatingWidget2 : public QWidget
 {
 	Q_OBJECT
 
 public:
 	FloatingWidget2(QWidget * parent = 0);
 	~FloatingWidget2();
+
+	void setInternalWidget(QWidget * w);
+	QWidget * internalWidget() { return internal_widget; };
 
 public slots:
 	void show();
@@ -65,6 +68,7 @@ private:
 	bool use_animation;
 	int spacing;
 	int perc_width;
+	QWidget * internal_widget;
 	QTimer * timer;
 	QPropertyAnimation * animation;
 };
