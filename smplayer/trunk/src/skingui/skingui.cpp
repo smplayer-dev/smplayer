@@ -331,6 +331,8 @@ void SkinGui::createFloatingControl() {
 	floating_control->setAutoHide(true);
 	//connect(mplayerwindow, SIGNAL(mouseMoved(QPoint)), this, SLOT(showFloatingControl(QPoint)));
 
+	EditableToolbar * iw = new EditableToolbar(floating_control);
+
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
 	floatingcontrol_actions << "play" << "pause" << "stop" << "separator";
@@ -346,40 +348,41 @@ void SkinGui::createFloatingControl() {
 	floatingcontrol_actions << "forward1" << "forward2" << "forward3";
 	#endif
 	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action" << "separator" << "timelabel_action";
-	EditableToolbar * iw = new EditableToolbar(floating_control);
+
 	iw->setDefaultActions(floatingcontrol_actions);
-	floating_control->setInternalWidget(iw);
 #else
-	floating_control->addAction(playAct);
-	floating_control->addAction(pauseAct);
-	floating_control->addAction(stopAct);
-	floating_control->addSeparator();
+	iw->addAction(playAct);
+	iw->addAction(pauseAct);
+	iw->addAction(stopAct);
+	iw->addSeparator();
 
 	#if MINI_ARROW_BUTTONS
-	floating_control->toolbar()->addAction( rewindbutton_action );
+	iw->addAction( rewindbutton_action );
 	#else
-	floating_control->toolbar()->addAction(rewind3Act);
-	floating_control->toolbar()->addAction(rewind2Act);
-	floating_control->toolbar()->addAction(rewind1Act);
+	iw->addAction(rewind3Act);
+	iw->addAction(rewind2Act);
+	iw->addAction(rewind1Act);
 	#endif
 
-	floating_control->toolbar()->addAction(timeslider_action);
+	iw->addAction(timeslider_action);
 
 	#if MINI_ARROW_BUTTONS
-	floating_control->toolbar()->addAction( forwardbutton_action );
+	iw->addAction( forwardbutton_action );
 	#else
-	floating_control->toolbar()->addAction(forward1Act);
-	floating_control->toolbar()->addAction(forward2Act);
-	floating_control->toolbar()->addAction(forward3Act);
+	iw->addAction(forward1Act);
+	iw->addAction(forward2Act);
+	iw>addAction(forward3Act);
 	#endif
 
-	floating_control->toolbar()->addSeparator();
-	floating_control->toolbar()->addAction(fullscreenAct);
-	floating_control->toolbar()->addAction(muteAct);
-	floating_control->toolbar()->addAction(volumeslider_action);
-	floating_control->toolbar()->addSeparator();
-	floating_control->toolbar()->addAction(time_label_action);
+	iw->addSeparator();
+	iw->addAction(fullscreenAct);
+	iw->addAction(muteAct);
+	iw->addAction(volumeslider_action);
+	iw->addSeparator();
+	iw->addAction(time_label_action);
 #endif // USE_CONFIGURABLE_TOOLBARS
+
+	floating_control->setInternalWidget(iw);
 
 /*
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
