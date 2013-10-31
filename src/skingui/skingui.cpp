@@ -390,7 +390,7 @@ void SkinGui::createFloatingControl() {
 	floating_control->adjustSize();
 #endif
 
-	//floating_control->hide();
+	floating_control->hide();
 }
 #endif
 
@@ -455,6 +455,12 @@ void SkinGui::aboutToEnterFullscreen() {
 
 	BaseGuiPlus::aboutToEnterFullscreen();
 
+#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	floating_control->setMargin(pref->floating_control_margin);
+	floating_control->setPercWidth(pref->floating_control_width);
+	QTimer::singleShot(500, floating_control, SLOT(turnOn()));
+#endif
+
 	// Save visibility of toolbars
 	fullscreen_toolbar1_was_visible = toolbar1->isVisible();
 
@@ -470,8 +476,7 @@ void SkinGui::aboutToExitFullscreen() {
 	BaseGuiPlus::aboutToExitFullscreen();
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
-	//floating_control->setAutoHide(false);
-	//floating_control->hide();
+	floating_control->turnOff();
 #endif
 
 	if (!pref->compact_mode) {
@@ -516,15 +521,6 @@ void SkinGui::showFloatingControl(QPoint /*p*/) {
 	floating_control->setBypassWindowManager(pref->bypass_window_manager);
 	#endif
 	floating_control->showOver(panel, pref->floating_control_width);
-*/
-/*
-	if ((pref->fullscreen) && (!floating_control->isVisible())) {
-		qDebug("SkinGui::showFloatingControl");
-		floating_control->setMargin(pref->floating_control_margin);
-		floating_control->setPercWidth(pref->floating_control_width);
-		floating_control->show();
-		floating_control->setAutoHide(true);
-	}
 */
 #else
 	qDebug("SkinGui::showFloatingControl");

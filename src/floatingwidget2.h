@@ -21,6 +21,8 @@
 
 #include "editabletoolbar.h"
 
+class QTimer;
+
 class FloatingWidget2 : public EditableToolbar
 {
 	Q_OBJECT
@@ -30,12 +32,15 @@ public:
 	~FloatingWidget2();
 
 	//bool isAnimated() { return _animated; };
+	bool turnedOn() { return turned_on; };
 	bool autoHide() { return auto_hide; };
 	int margin() { return spacing; };
 	int percWidth() { return perc_width; };
 
 public slots:
 	//void setAnimated(bool b) { _animated = b; };
+	void turnOn();
+	void turnOff();
 	void setAutoHide(bool b);
 	void setMargin(int margin) { spacing = margin; };
 	void setPercWidth(int s) { perc_width = s;}
@@ -52,9 +57,11 @@ private:
 	void resizeAndMove();
 
 private:
+	bool turned_on;
 	bool auto_hide;
 	int spacing;
 	int perc_width;
+	QTimer * timer;
 };
 
 #endif

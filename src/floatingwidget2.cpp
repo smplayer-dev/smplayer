@@ -23,18 +23,19 @@
 
 FloatingWidget2::FloatingWidget2(QWidget * parent)
 	: EditableToolbar(parent)
+	, turned_on(false)
 	, auto_hide(false)
 	, spacing(0)
 	, perc_width(100)
+	, timer(0)
 {
 	setAutoFillBackground(true);
 	parent->installEventFilter(this);
 	installFilter(parent);
 
-	QTimer * timer = new QTimer(this);
+	timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(checkUnderMouse()));
 	timer->setInterval(5000);
-	timer->start();
 }
 
 FloatingWidget2::~FloatingWidget2() {
@@ -51,6 +52,17 @@ void FloatingWidget2::installFilter(QObject *o) {
 			installFilter(children[n]);
 		}
 	}
+}
+
+void FloatingWidget2::turnOn() {
+	turned_on = true;
+	timer->start();
+}
+
+void FloatingWidget2::turnOff() {
+	turned_on = false;
+	timer->stop();
+	hide();
 }
 
 void FloatingWidget2::setAutoHide(bool b) {
@@ -76,25 +88,30 @@ void FloatingWidget2::resizeAndMove() {
 }
 
 bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
-	//qDebug() << "FloatingWidget2::eventFilter: obj:" << obj << "type:" << event->type();
+	if (turned_on) {
+		//qDebug() << "FloatingWidget2::eventFilter: obj:" << obj << "type:" << event->type();
 
-	if (obj == parentWidget()) {
-		if (event->type() == QEvent::Resize) {
-			qDebug() << "FloatingWidget2::eventFilter: resize";
-			if (isVisible()) resizeAndMove();
+		if (obj == parentWidget()) {
+			if (event->type() == QEvent::Resize) {
+				qDebug() << "FloatingWidget2::eventFilter: resize";
+				if (isVisible()) resizeAndMove();
+			}
+		}
+
+		if (event->type() == QEvent::MouseMove) {
+			qDebug() << "FloatingWidget2::eventFilter: mouse move" << obj;
+			if (!isVisible()) show();
 		}
 	}
 
-	if (event->type() == QEvent::MouseMove) {
-		qDebug() << "FloatingWidget2::eventFilter: mouse move" << obj;
-		if (!isVisible()) show();
-	}
 	return EditableToolbar::eventFilter(obj, event);
 }
 
 void FloatingWidget2::showEvent(QShowEvent * event) {
-	qDebug() << "FloatingWidget2::showEvent";
-	resizeAndMove();
+	if (turned_on) {
+		qDebug() << "FloatingWidget2::showEvent";
+		resizeAndMove();
+	}
 }
 
 #include "moc_floatingwidget2.cpp"
