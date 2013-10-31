@@ -29,6 +29,7 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 {
 	setAutoFillBackground(true);
 	parent->installEventFilter(this);
+	installFilter(parent);
 
 	QTimer * timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(checkUnderMouse()));
@@ -37,6 +38,17 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 }
 
 FloatingWidget2::~FloatingWidget2() {
+}
+
+void FloatingWidget2::installFilter(QObject *o) {
+	QObjectList children = o->children();
+	for (int n=0; n < children.count(); n++) {
+		if (children[n]->isWidgetType()) {
+			qDebug() << "FloatingWidget2::installFilter: child name:" << children[n]->objectName();
+			children[n]->installEventFilter(this);
+			installFilter(children[n]);
+		}
+	}
 }
 
 void FloatingWidget2::setAutoHide(bool b) {
@@ -66,6 +78,10 @@ bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 	if (event->type() == QEvent::Resize) {
 		qDebug() << "FloatingWidget2::eventFilter: resize";
 		resizeAndMove();
+	}
+	else
+	if (event->type() == QEvent::MouseMove) {
+		qDebug() << "FloatingWidget2::eventFilter: move";
 	}
 	return EditableToolbar::eventFilter(obj, event);
 }

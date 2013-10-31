@@ -47,6 +47,7 @@ private slots:
 	void checkUnderMouse();
 
 private:
+	void installFilter(QObject *o);
 	void resizeAndMove();
 
 private:
