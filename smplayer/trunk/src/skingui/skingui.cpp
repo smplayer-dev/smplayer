@@ -78,9 +78,10 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	connect( editToolbar1Act, SIGNAL(triggered()),
              toolbar1, SLOT(edit()) );
 	#if SKIN_CONTROLWIDGET_OVER_VIDEO
-	floating_control->takeAvailableActionsFrom(this);
+	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
+	iw->takeAvailableActionsFrom(this);
 	connect( editFloatingControlAct, SIGNAL(triggered()),
-             floating_control, SLOT(edit()) );
+             iw, SLOT(edit()) );
 	#endif
 #endif
 
@@ -345,7 +346,9 @@ void SkinGui::createFloatingControl() {
 	floatingcontrol_actions << "forward1" << "forward2" << "forward3";
 	#endif
 	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action" << "separator" << "timelabel_action";
-	floating_control->setDefaultActions(floatingcontrol_actions);
+	EditableToolbar * iw = new EditableToolbar(floating_control);
+	iw->setDefaultActions(floatingcontrol_actions);
+	floating_control->setInternalWidget(iw);
 #else
 	floating_control->addAction(playAct);
 	floating_control->addAction(pauseAct);
@@ -579,7 +582,8 @@ void SkinGui::saveConfig() {
 	set->beginGroup( "actions" );
 	set->setValue("toolbar1", toolbar1->actionsToStringList() );
 	#if SKIN_CONTROLWIDGET_OVER_VIDEO
-	set->setValue("floating_control", floating_control->actionsToStringList() );
+	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
+	set->setValue("floating_control", iw->actionsToStringList() );
 	#endif
 	set->setValue("toolbar1_version", TOOLBAR_VERSION);
 	set->endGroup();
@@ -629,7 +633,8 @@ void SkinGui::loadConfig() {
 		toolbar1->setActionsFromStringList( toolbar1->defaultActions() );
 	}
 	#if SKIN_CONTROLWIDGET_OVER_VIDEO
-	floating_control->setActionsFromStringList( set->value("floating_control", floating_control->defaultActions()).toStringList() );
+	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
+	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
 	floating_control->adjustSize();
 	#endif
 	set->endGroup();

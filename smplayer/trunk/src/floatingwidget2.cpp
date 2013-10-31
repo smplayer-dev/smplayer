@@ -19,16 +19,18 @@
 #include "floatingwidget2.h"
 #include <QTimer>
 #include <QEvent>
+#include <QHBoxLayout>
 #include <QPropertyAnimation>
 #include <QDebug>
 
 FloatingWidget2::FloatingWidget2(QWidget * parent)
-	: EditableToolbar(parent)
+	: QWidget(parent)
 	, turned_on(false)
 	, auto_hide(false)
 	, use_animation(false)
 	, spacing(0)
 	, perc_width(100)
+	, internal_widget(0)
 	, timer(0)
 	, animation(0)
 {
@@ -39,10 +41,20 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 	timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(checkUnderMouse()));
 	timer->setInterval(5000);
+
+	QHBoxLayout *layout = new QHBoxLayout;
+	layout->setSpacing(0);
+	layout->setMargin(0);
+	setLayout(layout);
 }
 
 FloatingWidget2::~FloatingWidget2() {
 	if (animation) delete animation;
+}
+
+void FloatingWidget2::setInternalWidget(QWidget * w) {
+	layout()->addWidget(w);
+	internal_widget = w;
 }
 
 void FloatingWidget2::installFilter(QObject *o) {
@@ -76,7 +88,7 @@ void FloatingWidget2::show() {
 	if (use_animation) {
 		showAnimated();
 	} else {
-		EditableToolbar::show();
+		QWidget::show();
 	}
 }
 
@@ -111,7 +123,7 @@ bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 		}
 	}
 
-	return EditableToolbar::eventFilter(obj, event);
+	return QWidget::eventFilter(obj, event);
 }
 
 void FloatingWidget2::showAnimated() {
@@ -123,7 +135,7 @@ void FloatingWidget2::showAnimated() {
 	QPoint final_position = pos();
 	move(initial_position);
 
-	EditableToolbar::show();
+	QWidget::show();
 
 	animation->setDuration(300);
 	animation->setEasingCurve(QEasingCurve::OutBounce);
