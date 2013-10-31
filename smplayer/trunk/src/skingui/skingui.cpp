@@ -458,7 +458,7 @@ void SkinGui::aboutToEnterFullscreen() {
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->setPercWidth(pref->floating_control_width);
-	QTimer::singleShot(500, floating_control, SLOT(turnOn()));
+	QTimer::singleShot(500, floating_control, SLOT(activate()));
 #endif
 
 	// Save visibility of toolbars
@@ -476,7 +476,7 @@ void SkinGui::aboutToExitFullscreen() {
 	BaseGuiPlus::aboutToExitFullscreen();
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
-	floating_control->turnOff();
+	floating_control->deactivate();
 #endif
 
 	if (!pref->compact_mode) {

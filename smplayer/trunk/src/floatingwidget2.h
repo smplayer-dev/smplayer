@@ -32,22 +32,22 @@ public:
 	~FloatingWidget2();
 
 	//bool isAnimated() { return _animated; };
-	bool turnedOn() { return turned_on; };
+	bool isActive() { return turned_on; };
 	bool autoHide() { return auto_hide; };
 	int margin() { return spacing; };
 	int percWidth() { return perc_width; };
 
 public slots:
+	void show();
 	//void setAnimated(bool b) { _animated = b; };
-	void turnOn();
-	void turnOff();
+	void activate();
+	void deactivate();
 	void setAutoHide(bool b);
 	void setMargin(int margin) { spacing = margin; };
 	void setPercWidth(int s) { perc_width = s;}
 
 protected:
 	bool eventFilter(QObject * obj, QEvent * event);
-	void showEvent(QShowEvent * event);
 
 private slots:
 	void checkUnderMouse();
