@@ -19,15 +19,18 @@
 #include "floatingwidget2.h"
 #include <QTimer>
 #include <QEvent>
+#include <QPropertyAnimation>
 #include <QDebug>
 
 FloatingWidget2::FloatingWidget2(QWidget * parent)
 	: EditableToolbar(parent)
 	, turned_on(false)
 	, auto_hide(false)
+	, use_animation(false)
 	, spacing(0)
 	, perc_width(100)
 	, timer(0)
+	, animation(0)
 {
 	setAutoFillBackground(true);
 	parent->installEventFilter(this);
@@ -39,6 +42,7 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 }
 
 FloatingWidget2::~FloatingWidget2() {
+	if (animation) delete animation;
 }
 
 void FloatingWidget2::installFilter(QObject *o) {
@@ -68,7 +72,12 @@ void FloatingWidget2::deactivate() {
 void FloatingWidget2::show() {
 	qDebug() << "FloatingWidget2::show";
 	resizeAndMove();
-	EditableToolbar::show();
+
+	if (use_animation) {
+		showAnimated();
+	} else {
+		EditableToolbar::show();
+	}
 }
 
 void FloatingWidget2::setAutoHide(bool b) {
@@ -103,6 +112,24 @@ bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 	}
 
 	return EditableToolbar::eventFilter(obj, event);
+}
+
+void FloatingWidget2::showAnimated() {
+	if (!animation) {
+		animation = new QPropertyAnimation(this, "pos");
+	}
+
+	QPoint initial_position = QPoint(pos().x(), parentWidget()->size().height());
+	QPoint final_position = pos();
+	move(initial_position);
+
+	EditableToolbar::show();
+
+	animation->setDuration(300);
+	animation->setEasingCurve(QEasingCurve::OutBounce);
+	animation->setEndValue(final_position);
+	animation->setStartValue(initial_position);
+	animation->start();
 }
 
 #include "moc_floatingwidget2.cpp"
