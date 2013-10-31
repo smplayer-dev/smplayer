@@ -26,7 +26,7 @@
 #include "mplayerwindow.h"
 #include "myaction.h"
 #include "images.h"
-#include "floatingwidget.h"
+#include "floatingwidget2.h"
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
 #include "mediabarpanel.h"
@@ -76,9 +76,9 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	connect( editToolbar1Act, SIGNAL(triggered()),
              toolbar1, SLOT(edit()) );
 	#if SKIN_CONTROLWIDGET_OVER_VIDEO
-	floating_control->toolbar()->takeAvailableActionsFrom(this);
+	floating_control->takeAvailableActionsFrom(this);
 	connect( editFloatingControlAct, SIGNAL(triggered()),
-             floating_control->toolbar(), SLOT(edit()) );
+             floating_control, SLOT(edit()) );
 	#endif
 #endif
 
@@ -324,7 +324,7 @@ void SkinGui::createControlWidget() {
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 void SkinGui::createFloatingControl() {
 	// Floating control
-	floating_control = new FloatingWidget(this);
+	floating_control = new FloatingWidget2(mplayerwindow);
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
@@ -341,12 +341,12 @@ void SkinGui::createFloatingControl() {
 	floatingcontrol_actions << "forward1" << "forward2" << "forward3";
 	#endif
 	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action" << "separator" << "timelabel_action";
-	floating_control->toolbar()->setDefaultActions(floatingcontrol_actions);
+	floating_control->setDefaultActions(floatingcontrol_actions);
 #else
-	floating_control->toolbar()->addAction(playAct);
-	floating_control->toolbar()->addAction(pauseAct);
-	floating_control->toolbar()->addAction(stopAct);
-	floating_control->toolbar()->addSeparator();
+	floating_control->addAction(playAct);
+	floating_control->addAction(pauseAct);
+	floating_control->addAction(stopAct);
+	floating_control->addSeparator();
 
 	#if MINI_ARROW_BUTTONS
 	floating_control->toolbar()->addAction( rewindbutton_action );
@@ -374,11 +374,13 @@ void SkinGui::createFloatingControl() {
 	floating_control->toolbar()->addAction(time_label_action);
 #endif // USE_CONFIGURABLE_TOOLBARS
 
+/*
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	// To make work the ESC key (exit fullscreen) and Ctrl-X (close) in Windows and OS2
 	floating_control->addAction(exitFullscreenAct);
 	floating_control->addAction(exitAct);
 #endif
+*/
 
 #if !USE_CONFIGURABLE_TOOLBARS
 	floating_control->adjustSize();
@@ -462,7 +464,7 @@ void SkinGui::aboutToExitFullscreen() {
 	BaseGuiPlus::aboutToExitFullscreen();
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
-	floating_control->hide();
+	//floating_control->hide();
 #endif
 
 	if (!pref->compact_mode) {
@@ -498,6 +500,7 @@ void SkinGui::showFloatingControl(QPoint /*p*/) {
 	qDebug("SkinGui::showFloatingControl");
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
+/*
 	if ((pref->compact_mode) && (!pref->fullscreen)) {
 		floating_control->setAnimated( false );
 	} else {
@@ -508,6 +511,7 @@ void SkinGui::showFloatingControl(QPoint /*p*/) {
 	floating_control->setBypassWindowManager(pref->bypass_window_manager);
 	#endif
 	floating_control->showOver(panel, pref->floating_control_width);
+*/
 #else
 	if (!controlwidget->isVisible()) {
 		controlwidget->show();
@@ -528,7 +532,7 @@ void SkinGui::hideFloatingControls() {
 	qDebug("SkinGui::hideFloatingControls");
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
-	floating_control->hide();
+	//floating_control->hide();
 #else
 	if (controlwidget->isVisible())
 		controlwidget->hide();
@@ -563,7 +567,7 @@ void SkinGui::saveConfig() {
 	set->beginGroup( "actions" );
 	set->setValue("toolbar1", toolbar1->actionsToStringList() );
 	#if SKIN_CONTROLWIDGET_OVER_VIDEO
-	set->setValue("floating_control", floating_control->toolbar()->actionsToStringList() );
+	set->setValue("floating_control", floating_control->actionsToStringList() );
 	#endif
 	set->setValue("toolbar1_version", TOOLBAR_VERSION);
 	set->endGroup();
@@ -613,7 +617,7 @@ void SkinGui::loadConfig() {
 		toolbar1->setActionsFromStringList( toolbar1->defaultActions() );
 	}
 	#if SKIN_CONTROLWIDGET_OVER_VIDEO
-	floating_control->toolbar()->setActionsFromStringList( set->value("floating_control", floating_control->toolbar()->defaultActions()).toStringList() );
+	floating_control->setActionsFromStringList( set->value("floating_control", floating_control->defaultActions()).toStringList() );
 	floating_control->adjustSize();
 	#endif
 	set->endGroup();

@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 QT += network xml
 
@@ -150,6 +150,7 @@ HEADERS += guiconfig.h \
 	basegui.h \
 	baseguiplus.h \
 	floatingwidget.h \
+	floatingwidget2.h \
 	widgetactions.h \
 	toolbareditor.h \
 	editabletoolbar.h \
@@ -246,6 +247,7 @@ SOURCES	+= version.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	floatingwidget.cpp \
+	floatingwidget2.cpp \
 	widgetactions.cpp \
 	toolbareditor.cpp \
 	editabletoolbar.cpp \
