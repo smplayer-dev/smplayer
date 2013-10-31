@@ -329,7 +329,6 @@ void SkinGui::createFloatingControl() {
 	// Floating control
 	floating_control = new FloatingWidget2(panel);
 	floating_control->setAutoHide(true);
-	//connect(mplayerwindow, SIGNAL(mouseMoved(QPoint)), this, SLOT(showFloatingControl(QPoint)));
 
 	EditableToolbar * iw = new EditableToolbar(floating_control);
 
