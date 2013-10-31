@@ -40,7 +40,7 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 
 	timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(checkUnderMouse()));
-	timer->setInterval(5000);
+	timer->setInterval(3000);
 
 	QHBoxLayout *layout = new QHBoxLayout;
 	layout->setSpacing(0);
