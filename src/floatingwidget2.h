@@ -37,11 +37,12 @@ public:
 public slots:
 	//void setAnimated(bool b) { _animated = b; };
 	void setAutoHide(bool b);
-	void setMargin(int margin) { spacing = margin; resizeAndMove(); };
-	void setPercWidth(int s) { perc_width = s; resizeAndMove(); }
+	void setMargin(int margin) { spacing = margin; };
+	void setPercWidth(int s) { perc_width = s;}
 
 protected:
 	bool eventFilter(QObject * obj, QEvent * event);
+	void showEvent(QShowEvent * event);
 
 private slots:
 	void checkUnderMouse();
