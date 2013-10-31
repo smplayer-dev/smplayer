@@ -31,12 +31,14 @@ public:
 
 	//bool isAnimated() { return _animated; };
 	bool autoHide() { return auto_hide; };
-	int margin() { return perc_margin; };
+	int margin() { return spacing; };
+	int percWidth() { return perc_width; };
 
 public slots:
 	//void setAnimated(bool b) { _animated = b; };
 	void setAutoHide(bool b);
-	void setMargin(int margin) { perc_margin = margin; };
+	void setMargin(int margin) { spacing = margin; resizeAndMove(); };
+	void setPercWidth(int s) { perc_width = s; resizeAndMove(); }
 
 protected:
 	bool eventFilter(QObject * obj, QEvent * event);
@@ -45,8 +47,12 @@ private slots:
 	void checkUnderMouse();
 
 private:
+	void resizeAndMove();
+
+private:
 	bool auto_hide;
-	int perc_margin;
+	int spacing;
+	int perc_width;
 };
 
 #endif
