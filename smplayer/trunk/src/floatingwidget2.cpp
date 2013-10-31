@@ -45,7 +45,9 @@ void FloatingWidget2::installFilter(QObject *o) {
 	for (int n=0; n < children.count(); n++) {
 		if (children[n]->isWidgetType()) {
 			qDebug() << "FloatingWidget2::installFilter: child name:" << children[n]->objectName();
-			children[n]->installEventFilter(this);
+			QWidget *w = static_cast<QWidget *>(children[n]);
+			w->setMouseTracking(true);
+			w->installEventFilter(this);
 			installFilter(children[n]);
 		}
 	}
@@ -75,15 +77,24 @@ void FloatingWidget2::resizeAndMove() {
 
 bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 	//qDebug() << "FloatingWidget2::eventFilter: obj:" << obj << "type:" << event->type();
-	if (event->type() == QEvent::Resize) {
-		qDebug() << "FloatingWidget2::eventFilter: resize";
-		resizeAndMove();
+
+	if (obj == parentWidget()) {
+		if (event->type() == QEvent::Resize) {
+			qDebug() << "FloatingWidget2::eventFilter: resize";
+			if (isVisible()) resizeAndMove();
+		}
 	}
-	else
+
 	if (event->type() == QEvent::MouseMove) {
-		qDebug() << "FloatingWidget2::eventFilter: move";
+		qDebug() << "FloatingWidget2::eventFilter: mouse move" << obj;
+		if (!isVisible()) show();
 	}
 	return EditableToolbar::eventFilter(obj, event);
+}
+
+void FloatingWidget2::showEvent(QShowEvent * event) {
+	qDebug() << "FloatingWidget2::showEvent";
+	resizeAndMove();
 }
 
 #include "moc_floatingwidget2.cpp"
