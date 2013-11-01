@@ -77,7 +77,7 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 #if USE_CONFIGURABLE_TOOLBARS
 	connect( editToolbar1Act, SIGNAL(triggered()),
              toolbar1, SLOT(edit()) );
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->takeAvailableActionsFrom(this);
 	connect( editFloatingControlAct, SIGNAL(triggered()),
@@ -330,6 +330,12 @@ void SkinGui::createFloatingControl() {
 	floating_control = new FloatingWidget2(panel);
 	floating_control->setAutoHide(true);
 
+#ifndef SKIN_EDITABLE_CONTROL
+
+	floating_control->setInternalWidget(new QLabel("hello"));
+
+#else
+
 	EditableToolbar * iw = new EditableToolbar(floating_control);
 
 #if USE_CONFIGURABLE_TOOLBARS
@@ -382,6 +388,7 @@ void SkinGui::createFloatingControl() {
 #endif // USE_CONFIGURABLE_TOOLBARS
 
 	floating_control->setInternalWidget(iw);
+#endif // SKIN_EDITABLE_CONTROL
 
 /*
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
@@ -583,7 +590,7 @@ void SkinGui::saveConfig() {
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
 	set->setValue("toolbar1", toolbar1->actionsToStringList() );
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	set->setValue("floating_control", iw->actionsToStringList() );
 	#endif
@@ -634,7 +641,7 @@ void SkinGui::loadConfig() {
 		qDebug("SkinGui::loadConfig: toolbar too old, loading default one");
 		toolbar1->setActionsFromStringList( toolbar1->defaultActions() );
 	}
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
 	floating_control->adjustSize();

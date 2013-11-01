@@ -40,7 +40,8 @@ class MediaBarPanel;
 class SeekingButton;
 #endif
 
-#define SKIN_CONTROLWIDGET_OVER_VIDEO 1
+//#define SKIN_CONTROLWIDGET_OVER_VIDEO 1
+//#define SKIN_EDITABLE_CONTROL 1
 
 class SkinGui : public BaseGuiPlus
 {
