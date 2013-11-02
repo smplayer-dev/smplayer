@@ -41,7 +41,9 @@ class SeekingButton;
 #endif
 
 #define SKIN_CONTROLWIDGET_OVER_VIDEO 1
+#ifdef SKIN_CONTROLWIDGET_OVER_VIDEO
 //#define SKIN_EDITABLE_CONTROL 1
+#endif
 
 class SkinGui : public BaseGuiPlus
 {
@@ -115,7 +117,7 @@ protected:
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	MyAction * editFloatingControlAct;
 	#endif
 #endif

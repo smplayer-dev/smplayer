@@ -148,7 +148,7 @@ void SkinGui::createActions() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	editFloatingControlAct = new MyAction( this, "edit_floating_control" );
 	#endif
 #endif
@@ -201,7 +201,7 @@ void SkinGui::createMenus() {
 #if USE_CONFIGURABLE_TOOLBARS
 	toolbar_menu->addSeparator();
 	toolbar_menu->addAction(editToolbar1Act);
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	toolbar_menu->addAction(editFloatingControlAct);
 	#endif
 #endif
@@ -217,7 +217,7 @@ QMenu * SkinGui::createPopupMenu() {
 	QMenu * m = new QMenu(this);
 #if USE_CONFIGURABLE_TOOLBARS
 	m->addAction(editToolbar1Act);
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	m->addAction(editFloatingControlAct);
 	#endif
 #else
@@ -420,7 +420,7 @@ void SkinGui::retranslateStrings() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit main &toolbar") );
-	#if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
 	editFloatingControlAct->change( tr("Edit &floating control") );
 	#endif
 #endif
