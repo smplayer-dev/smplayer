@@ -90,6 +90,9 @@ void FloatingWidget2::show() {
 	} else {
 		QWidget::show();
 	}
+
+	// Restart timer
+	if (timer->isActive()) timer->start();
 }
 
 void FloatingWidget2::setAutoHide(bool b) {
