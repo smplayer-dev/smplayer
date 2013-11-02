@@ -321,7 +321,7 @@ void SkinGui::createControlWidget() {
 	connect( viewVideoInfoAct, SIGNAL(toggled(bool)),
              mediaBarPanel, SLOT(setResolutionVisible(bool)) );
 
-	controlwidget->addWidget(mediaBarPanel);
+	mediaBarPanelAction = controlwidget->addWidget(mediaBarPanel);
 }
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
@@ -332,7 +332,7 @@ void SkinGui::createFloatingControl() {
 
 #ifndef SKIN_EDITABLE_CONTROL
 
-	floating_control->setInternalWidget(new QLabel("hello"));
+//	floating_control->setInternalWidget(new QLabel("hello"));
 
 #else
 
@@ -468,6 +468,13 @@ void SkinGui::aboutToEnterFullscreen() {
 	BaseGuiPlus::aboutToEnterFullscreen();
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
+	#ifndef SKIN_EDITABLE_CONTROL
+	controlwidget->removeAction(mediaBarPanelAction);
+	floating_control->layout()->addWidget(mediaBarPanel);
+	mediaBarPanel->show();
+	floating_control->adjustSize();
+	mediaBarPanel->setVolume(core->mset.volume); // FIXME
+	#endif
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->setPercWidth(pref->floating_control_width);
 	floating_control->setAnimated(pref->floating_control_animated);
@@ -490,6 +497,11 @@ void SkinGui::aboutToExitFullscreen() {
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 	floating_control->deactivate();
+	#ifndef SKIN_EDITABLE_CONTROL
+	floating_control->layout()->removeWidget(mediaBarPanel);
+	mediaBarPanelAction = controlwidget->addWidget(mediaBarPanel);
+	mediaBarPanel->setVolume(core->mset.volume); // FIXME
+	#endif
 #endif
 
 	if (!pref->compact_mode) {
