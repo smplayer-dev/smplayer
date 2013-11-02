@@ -121,7 +121,9 @@ MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
 #ifndef Q_OS_WIN
 	#if QT_VERSION < 0x050000
 	setAttribute(Qt::WA_OpaquePaintEvent);
+	#if QT_VERSION >= 0x040400
 	setAttribute(Qt::WA_NativeWindow);
+	#endif
 	setAttribute(Qt::WA_PaintUnclipped);
 	setAttribute(Qt::WA_PaintOnScreen);
 	#endif
