@@ -18,7 +18,7 @@
 
 #include "minigui.h"
 #include "widgetactions.h"
-#include "floatingwidget.h"
+#include "floatingwidget2.h"
 #include "myaction.h"
 #include "mplayerwindow.h"
 #include "global.h"
@@ -38,18 +38,19 @@ MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 	createFloatingControl();
 
 #if USE_CONFIGURABLE_TOOLBARS
-	connect( editControlAct, SIGNAL(triggered()),
-             controlwidget, SLOT(edit()) );
-	floating_control->toolbar()->takeAvailableActionsFrom(this);
-	connect( editFloatingControlAct, SIGNAL(triggered()),
-             floating_control->toolbar(), SLOT(edit()) );
+	connect( editControlAct, SIGNAL(triggered()), controlwidget, SLOT(edit()) );
+	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
+	iw->takeAvailableActionsFrom(this);
+	connect( editFloatingControlAct, SIGNAL(triggered()), iw, SLOT(edit()) );
 #endif
 
+#if !CONTROLWIDGET_OVER_VIDEO
 	connect( this, SIGNAL(cursorNearBottom(QPoint)),
              this, SLOT(showFloatingControl(QPoint)) );
 
 	connect( this, SIGNAL(cursorFarEdges()),
              this, SLOT(hideFloatingControl()) );
+#endif
 
 	statusBar()->hide();
 
@@ -126,8 +127,11 @@ void MiniGui::createControlWidget() {
 
 void MiniGui::createFloatingControl() {
 	// Floating control
-	floating_control = new FloatingWidget(this);
-	floating_control->setLayoutDirection(Qt::LeftToRight);
+	floating_control = new FloatingWidget2(panel);
+	floating_control->setAutoHide(true);
+
+	EditableToolbar * iw = new EditableToolbar(floating_control);
+	iw->setLayoutDirection(Qt::LeftToRight);
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
@@ -137,20 +141,27 @@ void MiniGui::createFloatingControl() {
 	floatingcontrol_actions << "volumeslider_action";
 	#endif
 	floatingcontrol_actions << "separator" << "timelabel_action";
-	floating_control->toolbar()->setDefaultActions(floatingcontrol_actions);
+	iw->setDefaultActions(floatingcontrol_actions);
 #else
-	floating_control->toolbar()->addAction(playOrPauseAct);
-	floating_control->toolbar()->addAction(stopAct);
-	floating_control->toolbar()->addSeparator();
-	floating_control->toolbar()->addAction(timeslider_action);
-	floating_control->toolbar()->addSeparator();
-	floating_control->toolbar()->addAction(fullscreenAct);
-	floating_control->toolbar()->addAction(muteAct);
+	iw->addAction(playOrPauseAct);
+	iw->addAction(stopAct);
+	iw->addSeparator();
+	iw->addAction(timeslider_action);
+	iw->addSeparator();
+	iw->addAction(fullscreenAct);
+	iw->addAction(muteAct);
 	#if USE_VOLUME_BAR
-	floating_control->toolbar()->addAction(volumeslider_action);
+	iw->addAction(volumeslider_action);
 	#endif
-	floating_control->adjustSize();
 #endif // USE_CONFIGURABLE_TOOLBARS
+
+	floating_control->setInternalWidget(iw);
+
+#if !USE_CONFIGURABLE_TOOLBARS
+	floating_control->adjustSize();
+#endif
+
+	floating_control->hide();
 }
 
 void MiniGui::retranslateStrings() {
@@ -187,6 +198,11 @@ void MiniGui::disableActionsOnStop() {
 void MiniGui::aboutToEnterFullscreen() {
 	BaseGuiPlus::aboutToEnterFullscreen();
 
+	floating_control->setMargin(pref->floating_control_margin);
+	floating_control->setPercWidth(pref->floating_control_width);
+	floating_control->setAnimated(pref->floating_control_animated);
+	QTimer::singleShot(500, floating_control, SLOT(activate()));
+
 	if (!pref->compact_mode) {
 		controlwidget->hide();
 	}
@@ -195,7 +211,8 @@ void MiniGui::aboutToEnterFullscreen() {
 void MiniGui::aboutToExitFullscreen() {
 	BaseGuiPlus::aboutToExitFullscreen();
 
-	floating_control->hide();
+	floating_control->deactivate();
+	//floating_control->hide();
 
 	if (!pref->compact_mode) {
 		statusBar()->hide();
@@ -218,18 +235,20 @@ void MiniGui::aboutToExitCompactMode() {
 }
 
 void MiniGui::showFloatingControl(QPoint /*p*/) {
-#ifndef Q_OS_WIN
+	/*
+	#ifndef Q_OS_WIN
 	floating_control->setBypassWindowManager(pref->bypass_window_manager);
-#endif
+	#endif
 	floating_control->setAnimated( pref->floating_control_animated );
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->showOver(panel, 
                                pref->floating_control_width, 
                                FloatingWidget::Bottom);
+	*/
 }
 
 void MiniGui::hideFloatingControl() {
-	floating_control->hide();
+	//floating_control->hide();
 }
 
 #if USE_MINIMUMSIZE
@@ -256,7 +275,8 @@ void MiniGui::saveConfig() {
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
 	set->setValue("controlwidget", controlwidget->actionsToStringList() );
-	set->setValue("floating_control", floating_control->toolbar()->actionsToStringList() );
+	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
+	set->setValue("floating_control", iw->actionsToStringList() );
 	set->endGroup();
 #endif
 
@@ -290,7 +310,8 @@ void MiniGui::loadConfig() {
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
 	controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget->defaultActions()).toStringList() );
-	floating_control->toolbar()->setActionsFromStringList( set->value("floating_control", floating_control->toolbar()->defaultActions()).toStringList() );
+	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
+	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
 	floating_control->adjustSize();
 	set->endGroup();
 #endif
