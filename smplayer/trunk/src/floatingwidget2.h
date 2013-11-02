@@ -70,7 +70,9 @@ private:
 	int perc_width;
 	QWidget * internal_widget;
 	QTimer * timer;
+#if QT_VERSION >= 0x040600
 	QPropertyAnimation * animation;
+#endif
 };
 
 #endif

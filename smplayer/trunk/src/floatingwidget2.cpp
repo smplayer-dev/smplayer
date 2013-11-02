@@ -20,8 +20,11 @@
 #include <QTimer>
 #include <QEvent>
 #include <QVBoxLayout>
-#include <QPropertyAnimation>
 #include <QDebug>
+
+#if QT_VERSION >= 0x040600
+#include <QPropertyAnimation>
+#endif
 
 FloatingWidget2::FloatingWidget2(QWidget * parent)
 	: QWidget(parent)
@@ -32,7 +35,9 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 	, perc_width(100)
 	, internal_widget(0)
 	, timer(0)
+#if QT_VERSION >= 0x040600
 	, animation(0)
+#endif
 {
 	setAutoFillBackground(true);
 	parent->installEventFilter(this);
@@ -49,7 +54,9 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 }
 
 FloatingWidget2::~FloatingWidget2() {
+#if QT_VERSION >= 0x040600
 	if (animation) delete animation;
+#endif
 }
 
 void FloatingWidget2::setInternalWidget(QWidget * w) {
@@ -130,6 +137,7 @@ bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 }
 
 void FloatingWidget2::showAnimated() {
+#if QT_VERSION >= 0x040600
 	if (!animation) {
 		animation = new QPropertyAnimation(this, "pos");
 	}
@@ -145,6 +153,9 @@ void FloatingWidget2::showAnimated() {
 	animation->setEndValue(final_position);
 	animation->setStartValue(initial_position);
 	animation->start();
+#else
+	QWidget::show();
+#endif
 }
 
 #include "moc_floatingwidget2.cpp"
