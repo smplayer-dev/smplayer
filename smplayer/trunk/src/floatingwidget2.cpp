@@ -41,6 +41,7 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 {
 	setBackgroundRole(QPalette::Base);
 	setAutoFillBackground(true);
+	setLayoutDirection(Qt::LeftToRight);
 
 	parent->installEventFilter(this);
 	installFilter(parent);
