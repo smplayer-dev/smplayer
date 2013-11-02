@@ -149,7 +149,6 @@ HEADERS += guiconfig.h \
 	favoriteeditor.h \
 	basegui.h \
 	baseguiplus.h \
-	floatingwidget.h \
 	floatingwidget2.h \
 	widgetactions.h \
 	toolbareditor.h \
@@ -246,7 +245,6 @@ SOURCES	+= version.cpp \
 	favoriteeditor.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
-	floatingwidget.cpp \
 	floatingwidget2.cpp \
 	widgetactions.cpp \
 	toolbareditor.cpp \
