@@ -31,7 +31,7 @@ class MyAction;
 class QMenu;
 class TimeSliderAction;
 class VolumeSliderAction;
-class FloatingWidget;
+class FloatingWidget2;
 class TimeLabelAction;
 class MyAction;
 
@@ -117,7 +117,7 @@ protected:
 	SeekingButton * forwardbutton_action;
 #endif
 
-	FloatingWidget * floating_control;
+	FloatingWidget2 * floating_control;
 	TimeLabelAction * time_label_action;
 
 	MyAction * viewFrameCounterAct;
