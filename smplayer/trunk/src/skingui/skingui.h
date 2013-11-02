@@ -40,7 +40,7 @@ class MediaBarPanel;
 class SeekingButton;
 #endif
 
-//#define SKIN_CONTROLWIDGET_OVER_VIDEO 1
+#define SKIN_CONTROLWIDGET_OVER_VIDEO 1
 //#define SKIN_EDITABLE_CONTROL 1
 
 class SkinGui : public BaseGuiPlus
@@ -95,6 +95,7 @@ protected slots:
 
 protected:
 	MediaBarPanel* mediaBarPanel;
+	QAction * mediaBarPanelAction;
 
 	EditableToolbar * toolbar1;
 	QToolBar * controlwidget;
