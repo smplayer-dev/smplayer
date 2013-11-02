@@ -19,7 +19,7 @@
 #include "floatingwidget2.h"
 #include <QTimer>
 #include <QEvent>
-#include <QHBoxLayout>
+#include <QVBoxLayout>
 #include <QPropertyAnimation>
 #include <QDebug>
 
@@ -42,7 +42,7 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 	connect(timer, SIGNAL(timeout()), this, SLOT(checkUnderMouse()));
 	timer->setInterval(3000);
 
-	QHBoxLayout *layout = new QHBoxLayout;
+	QVBoxLayout *layout = new QVBoxLayout;
 	layout->setSpacing(0);
 	layout->setMargin(0);
 	setLayout(layout);
