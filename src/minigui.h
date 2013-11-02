@@ -27,7 +27,7 @@
 class TimeSliderAction;
 class VolumeSliderAction;
 class TimeLabelAction;
-class FloatingWidget;
+class FloatingWidget2;
 class EditableToolbar;
 
 class MiniGui : public BaseGuiPlus
@@ -74,7 +74,7 @@ protected:
 protected:
 	EditableToolbar * controlwidget;
 
-	FloatingWidget * floating_control;
+	FloatingWidget2 * floating_control;
 
 	TimeSliderAction * timeslider_action;
 #if USE_VOLUME_BAR
