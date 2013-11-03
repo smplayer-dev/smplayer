@@ -764,7 +764,9 @@ void PrefInterface::createHelp() {
 
 	setWhatsThis(floating_compact_check, tr("Display in compact mode too"),
 		tr("If this option is enabled, the floating control will appear "
-           "in compact mode too. <b>Warning:</b> the floating control has not been "
+           "in compact mode too.") +" " +
+		tr("This option only works with the basic GUI.") +" "+
+		tr("<b>Warning:</b> the floating control has not been "
            "designed for compact mode and it might not work properly.") );
 
 #ifndef Q_OS_WIN
