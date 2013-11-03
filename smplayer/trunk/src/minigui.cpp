@@ -44,14 +44,6 @@ MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 	connect( editFloatingControlAct, SIGNAL(triggered()), iw, SLOT(edit()) );
 #endif
 
-#if !CONTROLWIDGET_OVER_VIDEO
-	connect( this, SIGNAL(cursorNearBottom(QPoint)),
-             this, SLOT(showFloatingControl(QPoint)) );
-
-	connect( this, SIGNAL(cursorFarEdges()),
-             this, SLOT(hideFloatingControl()) );
-#endif
-
 	statusBar()->hide();
 
 	retranslateStrings();
@@ -231,23 +223,6 @@ void MiniGui::aboutToExitCompactMode() {
 	statusBar()->hide();
 
 	controlwidget->show();
-}
-
-void MiniGui::showFloatingControl(QPoint /*p*/) {
-	/*
-	#ifndef Q_OS_WIN
-	floating_control->setBypassWindowManager(pref->bypass_window_manager);
-	#endif
-	floating_control->setAnimated( pref->floating_control_animated );
-	floating_control->setMargin(pref->floating_control_margin);
-	floating_control->showOver(panel, 
-                               pref->floating_control_width, 
-                               FloatingWidget::Bottom);
-	*/
-}
-
-void MiniGui::hideFloatingControl() {
-	//floating_control->hide();
 }
 
 #if USE_MINIMUMSIZE
