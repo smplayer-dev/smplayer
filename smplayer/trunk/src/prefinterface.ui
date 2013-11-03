@@ -733,13 +733,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="floating_bypass_wm_check">
-         <property name="text">
-          <string>&amp;Bypass window manager</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -922,7 +915,6 @@
   <tabstop>floating_width_slider</tabstop>
   <tabstop>floating_margin_slider</tabstop>
   <tabstop>floating_compact_check</tabstop>
-  <tabstop>floating_bypass_wm_check</tabstop>
   <tabstop>recents_max_items_spin</tabstop>
   <tabstop>url_max_items_spin</tabstop>
   <tabstop>save_dirs_check</tabstop>
