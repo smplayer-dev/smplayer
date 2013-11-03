@@ -43,9 +43,6 @@ public:
 #endif
 
 protected slots:
-	void showFloatingControl(QPoint p);
-	void hideFloatingControl();
-
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
