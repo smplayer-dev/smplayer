@@ -118,11 +118,6 @@ protected:
 	void setDisplayFloatingInCompactMode(bool b);
 	bool displayFloatingInCompactMode();
 
-#ifndef Q_OS_WIN
-	void setFloatingBypassWindowManager(bool b);
-	bool floatingBypassWindowManager();
-#endif
-
 	// Privacy tab
 	void setRecentsMaxItems(int n);
 	int recentsMaxItems();

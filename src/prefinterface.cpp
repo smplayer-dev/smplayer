@@ -263,9 +263,6 @@ void PrefInterface::setData(Preferences * pref) {
 	setFloatingWidth(pref->floating_control_width);
 	setFloatingMargin(pref->floating_control_margin);
 	setDisplayFloatingInCompactMode(pref->floating_display_in_compact_mode);
-#ifndef Q_OS_WIN
-	setFloatingBypassWindowManager(pref->bypass_window_manager);
-#endif
 
 	setRecentsMaxItems(pref->history_recents->maxItems());
 	setURLMaxItems(pref->history_urls->maxItems());
@@ -333,9 +330,6 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->floating_control_width = floatingWidth();
 	pref->floating_control_margin = floatingMargin();
 	pref->floating_display_in_compact_mode = displayFloatingInCompactMode();
-#ifndef Q_OS_WIN
-	pref->bypass_window_manager = floatingBypassWindowManager();
-#endif
 
 	if (pref->history_recents->maxItems() != recentsMaxItems()) {
 		pref->history_recents->setMaxItems( recentsMaxItems() );
@@ -619,16 +613,6 @@ bool PrefInterface::displayFloatingInCompactMode() {
 	return floating_compact_check->isChecked();
 }
 
-#ifndef Q_OS_WIN
-void PrefInterface::setFloatingBypassWindowManager(bool b) {
-	floating_bypass_wm_check->setChecked(b);
-}
-
-bool PrefInterface::floatingBypassWindowManager() {
-	return floating_bypass_wm_check->isChecked();
-}
-#endif
-
 void PrefInterface::setRecentsMaxItems(int n) {
 	recents_max_items_spin->setValue(n);
 }
@@ -768,13 +752,6 @@ void PrefInterface::createHelp() {
 		tr("This option only works with the basic GUI.") +" "+
 		tr("<b>Warning:</b> the floating control has not been "
            "designed for compact mode and it might not work properly.") );
-
-#ifndef Q_OS_WIN
-	setWhatsThis(floating_bypass_wm_check, tr("Bypass window manager"),
-		tr("If this option is checked, the control is displayed bypassing the "
-           "window manager. Disable this option if the floating control "
-           "doesn't work well with your window manager.") );
-#endif
 
 	addSectionTitle(tr("Privacy"));
 
