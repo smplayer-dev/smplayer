@@ -111,7 +111,7 @@ void FloatingWidget2::setAutoHide(bool b) {
 
 void FloatingWidget2::checkUnderMouse() {
 	if (auto_hide) {
-		qDebug("FloatingWidget2::checkUnderMouse");
+		//qDebug("FloatingWidget2::checkUnderMouse");
 		if ((isVisible()) && (!underMouse())) hide();
 	}
 }
@@ -131,7 +131,7 @@ bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 	if (turned_on) {
 		//qDebug() << "FloatingWidget2::eventFilter: obj:" << obj << "type:" << event->type();
 		if (event->type() == QEvent::MouseMove) {
-			qDebug() << "FloatingWidget2::eventFilter: mouse move" << obj;
+			//qDebug() << "FloatingWidget2::eventFilter: mouse move" << obj;
 			if (!isVisible()) show();
 		}
 	}
