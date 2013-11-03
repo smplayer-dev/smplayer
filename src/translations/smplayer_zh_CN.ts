@@ -2110,82 +2110,82 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="494"/>
+        <location filename="../defaultgui.cpp" line="503"/>
         <source>Welcome to SMPlayer</source>
         <translation>欢迎使用 SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="522"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Audio</source>
         <translation>音频</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Subtitle</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="516"/>
+        <location filename="../defaultgui.cpp" line="525"/>
         <source>&amp;Main toolbar</source>
         <translation>主工具栏(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="519"/>
+        <location filename="../defaultgui.cpp" line="528"/>
         <source>&amp;Language toolbar</source>
         <translation>语言工具栏(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="510"/>
+        <location filename="../defaultgui.cpp" line="519"/>
         <source>&amp;Toolbars</source>
         <translation>工具栏(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="550"/>
+        <location filename="../defaultgui.cpp" line="559"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="554"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="513"/>
+        <location filename="../defaultgui.cpp" line="522"/>
         <source>Status&amp;bar</source>
         <translation>状态栏(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="525"/>
+        <location filename="../defaultgui.cpp" line="534"/>
         <source>&amp;Video info</source>
         <translation>视频信息(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="535"/>
         <source>&amp;Frame counter</source>
         <translation>帧计数器(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="538"/>
         <source>Edit main &amp;toolbar</source>
         <translation>编辑主工具栏(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="530"/>
+        <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit &amp;control bar</source>
         <translation>编辑控制栏(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="531"/>
+        <location filename="../defaultgui.cpp" line="540"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>编译迷你控制栏(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="541"/>
         <source>Edit &amp;floating control</source>
         <translation>编辑浮动控制(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="563"/>
+        <location filename="../defaultgui.cpp" line="572"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3帧/秒</translation>
@@ -4285,17 +4285,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="159"/>
+        <location filename="../minigui.cpp" line="161"/>
         <source>Control bar</source>
         <translation>控制栏</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="162"/>
+        <location filename="../minigui.cpp" line="164"/>
         <source>Edit &amp;control bar</source>
         <translation>编辑控制栏(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="163"/>
+        <location filename="../minigui.cpp" line="165"/>
         <source>Edit &amp;floating control</source>
         <translation>编辑浮动控制(&amp;F)</translation>
     </message>
@@ -6437,7 +6437,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="133"/>
-        <location filename="../prefinterface.cpp" line="659"/>
+        <location filename="../prefinterface.cpp" line="643"/>
         <source>Interface</source>
         <translation>界面</translation>
     </message>
@@ -6473,23 +6473,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>仅在加载新视频后</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="759"/>
+        <location filename="../prefinterface.ui" line="752"/>
         <source>Privac&amp;y</source>
         <translation>隐私(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="765"/>
-        <location filename="../prefinterface.cpp" line="779"/>
+        <location filename="../prefinterface.ui" line="758"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>Recent files</source>
         <translation>最近的文件</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="675"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Language</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="676"/>
+        <location filename="../prefinterface.cpp" line="660"/>
         <source>Here you can change the language of the application.</source>
         <translation>在这里您可以更改应用程序的语言。</translation>
     </message>
@@ -6519,7 +6519,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>仅使用一个正在运行的 SMPlayer 实例(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="777"/>
+        <location filename="../prefinterface.ui" line="770"/>
         <source>Ma&amp;x. items</source>
         <translation>最大项目数(&amp;X)</translation>
     </message>
@@ -6594,17 +6594,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>按下停止按钮会重置时间位置(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="816"/>
+        <location filename="../prefinterface.ui" line="809"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="828"/>
+        <location filename="../prefinterface.ui" line="821"/>
         <source>&amp;Max. items</source>
         <translation>最大项目数(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="867"/>
+        <location filename="../prefinterface.ui" line="860"/>
         <source>&amp;Remember last directory</source>
         <translation>记住上次的目录(&amp;R)</translation>
     </message>
@@ -6635,37 +6635,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>实例(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="661"/>
+        <location filename="../prefinterface.cpp" line="645"/>
         <source>Autoresize</source>
         <translation>自动调整大小</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="646"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>主窗口可以自动调整大小。请选择您喜欢的选项。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="665"/>
+        <location filename="../prefinterface.cpp" line="649"/>
         <source>Remember position and size</source>
         <translation>记住位置和大小</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="666"/>
+        <location filename="../prefinterface.cpp" line="650"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>如果您勾选此选项，主窗口的位置和大小将被保存，当您再次运行 SMPlayer 时将恢复它们。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="777"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Privacy</source>
         <translation>隐私</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>选择将显示在 &lt;b&gt;打开 -&gt; 最近的文件&lt;/b&gt; 子菜单中的最大项目数。如果您将它设置为 0，将不会显示此菜单。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="686"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>Icon set</source>
         <translation>图标集</translation>
     </message>
@@ -6680,170 +6680,185 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>可换肤 GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="672"/>
+        <location filename="../prefinterface.cpp" line="656"/>
         <source>Move the window when the video area is dragged</source>
         <translation>拖动视频区域时移动窗口</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="673"/>
+        <location filename="../prefinterface.cpp" line="657"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>如果此选项打开，如果用鼠标拖动视频区域时主窗口会跟着移动</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="679"/>
+        <location filename="../prefinterface.cpp" line="663"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>选择您喜欢的应用程序 GUI。目前有两种可供选择: 默认 GUI 和迷你 GUI。&lt;br&gt;&lt;b&gt;默认 GUI&lt;/b&gt; 提供了传统的图形用户界面，带有工具栏和控制栏。&lt;b&gt;迷你 GUI&lt;/b&gt; 提供了一个更简易的图形用户界面，带有几个按钮，没有工具栏和控制栏。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>选择您喜欢的应用程序图标集。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="690"/>
+        <location filename="../prefinterface.cpp" line="674"/>
         <source>Skin</source>
         <translation>皮肤</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="675"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>选择您喜欢的应用程序皮肤。仅适用于&quot;可换肤 GUI&quot;。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="694"/>
+        <location filename="../prefinterface.cpp" line="678"/>
         <source>Style</source>
         <translation>样式</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="679"/>
         <source>Select the style you prefer for the application.</source>
         <translation>选择您喜欢的应用程序样式。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="698"/>
+        <location filename="../prefinterface.cpp" line="682"/>
         <source>Default font</source>
         <translation>默认字体</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="683"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>您可以在这里更改应用程序的字体。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="701"/>
+        <location filename="../prefinterface.cpp" line="685"/>
         <source>Seeking</source>
         <translation>定位</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="687"/>
         <source>Short jump</source>
         <translation>短跳转</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
-        <location filename="../prefinterface.cpp" line="708"/>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="688"/>
+        <location filename="../prefinterface.cpp" line="692"/>
+        <location filename="../prefinterface.cpp" line="696"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>选择当您选定&quot;%1&quot;动作时应前进或后退的时间。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="705"/>
+        <location filename="../prefinterface.cpp" line="689"/>
         <source>short jump</source>
         <translation>短跳转</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="707"/>
+        <location filename="../prefinterface.cpp" line="691"/>
         <source>Medium jump</source>
         <translation>中等跳转</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.cpp" line="693"/>
         <source>medium jump</source>
         <translation>中等跳转</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="711"/>
+        <location filename="../prefinterface.cpp" line="695"/>
         <source>Long jump</source>
         <translation>长跳转</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.cpp" line="697"/>
         <source>long jump</source>
         <translation>长跳转</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="699"/>
         <source>Mouse wheel jump</source>
         <translation>鼠标滚轮跳转</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="716"/>
+        <location filename="../prefinterface.cpp" line="700"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>选择当您滚动鼠标滚轮时应前进或后退的时间。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="703"/>
         <source>Behaviour of time slider</source>
         <translation>时间滑块行为</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="720"/>
+        <location filename="../prefinterface.cpp" line="704"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>选择拖动时间滑块时该做什么。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="734"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>按下停止按钮会重置时间位置</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="735"/>
+        <location filename="../prefinterface.cpp" line="719"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation>默认情况下，按下停止按钮后会记录时间位置再停止播放，下次按了播放键后会继续播放。你必须按两下停止按钮才能重置时间，如果勾选此项，只需按一下停止键就能将时间重置为0</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="750"/>
+        <source>If this option is enabled, the floating control will appear in compact mode too.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="752"/>
+        <source>This option only works with the basic GUI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="753"/>
+        <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>Max. URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>选择 &lt;b&gt;打开 -&gt; URL&lt;/b&gt; 对话框将记住的最大项目数。如果您不想存储任何 URL，请将它设置为 0。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>Remember last directory</source>
         <translation>记住上次的目录</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="769"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>如果勾选此选项，SMPlayer 将记住上次您用来打开文件时的文件夹。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="517"/>
-        <location filename="../prefinterface.cpp" line="723"/>
+        <location filename="../prefinterface.cpp" line="707"/>
         <source>Seeking method</source>
         <translation>定位方法</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="724"/>
+        <location filename="../prefinterface.cpp" line="708"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>设置用滑块定位时所使用的方法。绝对定位可能更精确一点，而相对定位可以在文件有错误长度时更好地工作。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="726"/>
         <source>Instances</source>
         <translation>实例</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="729"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>仅使用一个正在运行的 SMPlayer 实例</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="730"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>如果您想要在打开其他文件时使用一个已经运行的 SMPlayer 实例，请勾选此选项。</translation>
     </message>
@@ -6853,7 +6868,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>迷你 GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="662"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
@@ -6863,54 +6878,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>GUI(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>Floating control</source>
         <translation>浮动控制</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>Animated</source>
         <translation>动画</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="753"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>如果启用此选项，浮动控制将以动画形式出现。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>Width</source>
         <translation>宽度</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="757"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>指定浮动控制的宽度(以百分比表示)。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>Margin</source>
         <translation>边距</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>此选项可设置浮动控制与屏幕底部距离的像素数。当屏幕是电视时有用，因为过扫描可能会阻碍浮动控制的可见性。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>Display in compact mode too</source>
         <translation>在简洁模式中显示</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
         <source>Bypass window manager</source>
-        <translation>绕过窗口管理器</translation>
+        <translation type="obsolete">绕过窗口管理器</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation>如果勾选此选项，则会绕过窗口管理器显示浮动控制。若浮动控制无法与您的窗口管理器一起很好的工作，请禁用此选项。</translation>
+        <translation type="obsolete">如果勾选此选项，则会绕过窗口管理器显示浮动控制。若浮动控制无法与您的窗口管理器一起很好的工作，请禁用此选项。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6949,14 +6962,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>在简洁模式中显示(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="738"/>
         <source>&amp;Bypass window manager</source>
-        <translation>绕过窗口管理器(&amp;B)</translation>
+        <translation type="obsolete">绕过窗口管理器(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>如果启用此选项，在简洁模式中也将出现浮动控制。&lt;b&gt;警告:&lt;/b&gt; 浮动控制并不是为简洁模式而设计的，它可能无法正常工作。</translation>
+        <translation type="obsolete">如果启用此选项，在简洁模式中也将出现浮动控制。&lt;b&gt;警告:&lt;/b&gt; 浮动控制并不是为简洁模式而设计的，它可能无法正常工作。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="210"/>
@@ -6964,12 +6975,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>MPC GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="669"/>
+        <location filename="../prefinterface.cpp" line="653"/>
         <source>Hide video window when playing audio files</source>
         <translation>播放音频文件时隐藏视频窗口</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="654"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>如果启用此选项，播放音频文件时视频窗口将被隐藏。</translation>
     </message>
@@ -6979,17 +6990,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>播放音频文件时隐藏视频窗口(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="713"/>
         <source>Precise seeking</source>
         <translation>精确定位</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>如果启用此选项，定位会更精确，但它稍有点慢。可能无法同一些视频格式正常工作。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="732"/>
+        <location filename="../prefinterface.cpp" line="716"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>注意: 此选项仅适用于 MPlayer2</translation>
     </message>
@@ -8536,47 +8547,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="392"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Toolbars</source>
         <translation>工具栏(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="395"/>
+        <location filename="../skingui/skingui.cpp" line="415"/>
         <source>Status&amp;bar</source>
         <translation type="unfinished">状态栏(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="398"/>
+        <location filename="../skingui/skingui.cpp" line="418"/>
         <source>&amp;Main toolbar</source>
         <translation>主工具栏(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Edit main &amp;toolbar</source>
         <translation>编辑主工具栏(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="404"/>
+        <location filename="../skingui/skingui.cpp" line="424"/>
         <source>Edit &amp;floating control</source>
         <translation>编辑浮动控制(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="408"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>&amp;Video info</source>
         <translation type="unfinished">视频信息(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="421"/>
+        <location filename="../skingui/skingui.cpp" line="441"/>
         <source>Playing %1</source>
         <translation>正在播放 %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="422"/>
+        <location filename="../skingui/skingui.cpp" line="442"/>
         <source>Pause</source>
         <translation>暂停</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="423"/>
+        <location filename="../skingui/skingui.cpp" line="443"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>

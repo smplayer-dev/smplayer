@@ -2110,82 +2110,82 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="494"/>
+        <location filename="../defaultgui.cpp" line="503"/>
         <source>Welcome to SMPlayer</source>
         <translation>ברוך בואך אל SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="522"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Subtitle</source>
         <translation>כתובית</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="516"/>
+        <location filename="../defaultgui.cpp" line="525"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="519"/>
+        <location filename="../defaultgui.cpp" line="528"/>
         <source>&amp;Language toolbar</source>
         <translation>סרגל כלים &amp;שפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="510"/>
+        <location filename="../defaultgui.cpp" line="519"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="550"/>
+        <location filename="../defaultgui.cpp" line="559"/>
         <source>A:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="554"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>B:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="513"/>
+        <location filename="../defaultgui.cpp" line="522"/>
         <source>Status&amp;bar</source>
         <translation>שורת &amp;מצב</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="525"/>
+        <location filename="../defaultgui.cpp" line="534"/>
         <source>&amp;Video info</source>
         <translation>מידע &amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="535"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;מונה מסגרת</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="538"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="530"/>
+        <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit &amp;control bar</source>
         <translation>ערוך סרגל &amp;בקרה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="531"/>
+        <location filename="../defaultgui.cpp" line="540"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>ערוך סרגל בקרה &amp;קטן</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="541"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="563"/>
+        <location filename="../defaultgui.cpp" line="572"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation type="unfinished"></translation>
@@ -4286,17 +4286,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="159"/>
+        <location filename="../minigui.cpp" line="161"/>
         <source>Control bar</source>
         <translation>סרגל בקרה</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="162"/>
+        <location filename="../minigui.cpp" line="164"/>
         <source>Edit &amp;control bar</source>
         <translation>ערוך סרגל &amp;בקרה</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="163"/>
+        <location filename="../minigui.cpp" line="165"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
@@ -6437,7 +6437,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="133"/>
-        <location filename="../prefinterface.cpp" line="659"/>
+        <location filename="../prefinterface.cpp" line="643"/>
         <source>Interface</source>
         <translation>ממשק</translation>
     </message>
@@ -6473,23 +6473,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>רק כעבור הטענת וידאו חדש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="759"/>
+        <location filename="../prefinterface.ui" line="752"/>
         <source>Privac&amp;y</source>
         <translation>&amp;פרטיות</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="765"/>
-        <location filename="../prefinterface.cpp" line="779"/>
+        <location filename="../prefinterface.ui" line="758"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>Recent files</source>
         <translation>קבצים אחרונים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="675"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Language</source>
         <translation>שפה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="676"/>
+        <location filename="../prefinterface.cpp" line="660"/>
         <source>Here you can change the language of the application.</source>
         <translation>כאן ביכולתך לשנות את השפה של היישום.</translation>
     </message>
@@ -6519,7 +6519,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;השתמש במאורע אחד מורץ של SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="777"/>
+        <location filename="../prefinterface.ui" line="770"/>
         <source>Ma&amp;x. items</source>
         <translation>מ&amp;ספר פריטים מרבי</translation>
     </message>
@@ -6594,17 +6594,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>לחי&amp;צה אחת על הלחצן עצור מאפסת את ציר הזמן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="816"/>
+        <location filename="../prefinterface.ui" line="809"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="828"/>
+        <location filename="../prefinterface.ui" line="821"/>
         <source>&amp;Max. items</source>
         <translation>&amp;מספר פריטים מרבי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="867"/>
+        <location filename="../prefinterface.ui" line="860"/>
         <source>&amp;Remember last directory</source>
         <translation>&amp;זכור מדור אחרון</translation>
     </message>
@@ -6635,37 +6635,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>מ&amp;קרים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="661"/>
+        <location filename="../prefinterface.cpp" line="645"/>
         <source>Autoresize</source>
         <translation>שנה מידה אוטומטית</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="646"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>ניתן לשנות אוטומטית את מידתו של החלון הראשי. בחר את האפשרות שאתה מעדיף.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="665"/>
+        <location filename="../prefinterface.cpp" line="649"/>
         <source>Remember position and size</source>
         <translation>זכור מיקום ומידה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="666"/>
+        <location filename="../prefinterface.cpp" line="650"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>במידה ותסמן את אפשרות זו, המיקום והמידה של החלון הראשי ישמרו וישוחזרו כאשר SMPlayer יורץ שוב.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="777"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Privacy</source>
         <translation>פרטיות</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>בחר את המספר המרבי של פריטים שיראו בתוך תפריט המשנה &lt;b&gt;פתיחה-&gt;קבצים אחרונים&lt;/b&gt;. אם תקבע את זו אל 0 התפריט הזה לא יוצג כלל.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="686"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>Icon set</source>
         <translation>מערך צלמית</translation>
     </message>
@@ -6680,170 +6680,185 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ממשק בר הלבשה (סקין)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="672"/>
+        <location filename="../prefinterface.cpp" line="656"/>
         <source>Move the window when the video area is dragged</source>
         <translation>הזז את החלון כאשר אזור הוידאו נגרר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="673"/>
+        <location filename="../prefinterface.cpp" line="657"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>במידה ואפשרות זו מסומנת, החלון הראשי יזוז אם תגרור את העכבר על אזור הוידאו.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="679"/>
+        <location filename="../prefinterface.cpp" line="663"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>בחר את הממשק הגרפי אותו הינך מעדיף עבור היישום. נכון להיום קיימים שניים: ממשק גרפי משתמט וממשק גרפי מוקטן.&lt;br&gt;ממשק גרפי &lt;b&gt;משתמט&lt;/b&gt; מספק ממשק גרפי מסורתי, עם סרגל כלים וסרגל בקרה. ממשק גרפי &lt;b&gt;מוקטן&lt;/b&gt; מספק ממשק גרפי פשוט יותר, עם מעט לחצנים בלי סרגל כלים ובלי סרגל בקרה.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>בחר מערך צלמית עבור היישום בהתאם להעדפתך.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="690"/>
+        <location filename="../prefinterface.cpp" line="674"/>
         <source>Skin</source>
         <translation>סקין</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="675"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>בחר סקין עבור היישום בהתאם להעדפתך. זמינה רק עם ממשק בר הלבשה.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="694"/>
+        <location filename="../prefinterface.cpp" line="678"/>
         <source>Style</source>
         <translation>סגנון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="679"/>
         <source>Select the style you prefer for the application.</source>
         <translation>בחר סגנון עבור היישום בהתאם להעדפתך.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="698"/>
+        <location filename="../prefinterface.cpp" line="682"/>
         <source>Default font</source>
         <translation>גופן ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="683"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>ביכולתך לשנות כאן את גופן היישום.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="701"/>
+        <location filename="../prefinterface.cpp" line="685"/>
         <source>Seeking</source>
         <translation>חיפוש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="687"/>
         <source>Short jump</source>
         <translation>קפיצה קצרה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
-        <location filename="../prefinterface.cpp" line="708"/>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="688"/>
+        <location filename="../prefinterface.cpp" line="692"/>
+        <location filename="../prefinterface.cpp" line="696"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>בחר את הזמן שאמור ללכת קדימה או אחורה בבוחרך את הפעולה %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="705"/>
+        <location filename="../prefinterface.cpp" line="689"/>
         <source>short jump</source>
         <translation>קפיצה קצרה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="707"/>
+        <location filename="../prefinterface.cpp" line="691"/>
         <source>Medium jump</source>
         <translation>קפיצה בינונית</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.cpp" line="693"/>
         <source>medium jump</source>
         <translation>קפיצה בינונית</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="711"/>
+        <location filename="../prefinterface.cpp" line="695"/>
         <source>Long jump</source>
         <translation>קפיצה ארוכה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.cpp" line="697"/>
         <source>long jump</source>
         <translation>קפיצה ארוכה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="699"/>
         <source>Mouse wheel jump</source>
         <translation>קפיצת גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="716"/>
+        <location filename="../prefinterface.cpp" line="700"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>בחר את הזמן שאמור ללכת קדימה או אחורה בהזיזך את גלגל העכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="703"/>
         <source>Behaviour of time slider</source>
         <translation>התנהגות של מחוון זמן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="720"/>
+        <location filename="../prefinterface.cpp" line="704"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>בחר מה לעשות בעת גרירת מחוון הזמן.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="734"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>לחיצה אחת על הלחצן עצור מאפסת את ציר הזמן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="735"/>
+        <location filename="../prefinterface.cpp" line="719"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation>באופן רגיל, כאשר הלחצן עצור נלחץ,  המיקום על ציר הזמן נזכר כך שאם אתה לוחץ על הלחצן נגן, המדיה תוחזר מאותה נקודה. עליך ללחוץ על הלחצן עצור פעמיים בכדי לאפס את  המיקום על ציר הזמן, ואולם אם אפשרות זו מסומנת, המיקום על ציר הזמן יקובע אל 0 בעזרת לחיצה אחת בלבד על הלחצן עצור.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="750"/>
+        <source>If this option is enabled, the floating control will appear in compact mode too.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="752"/>
+        <source>This option only works with the basic GUI.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="753"/>
+        <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>Max. URLs</source>
         <translation>מספר כתובות מרבי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>בחר את המספר המרבי של פריטים שתיבת דו שיח &lt;b&gt;פתיחה-&gt;URL&lt;/b&gt; תזכור. קבע את זו אל 0 אם אין ברצונך לאחסן שום URL.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>Remember last directory</source>
         <translation>זכור מדור אחרון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="769"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>במידה ואפשות זו מסומנת, SMPlayer יזכור את התיקייה האחרונה בה השתמשת לפתיחת קובץ.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="517"/>
-        <location filename="../prefinterface.cpp" line="723"/>
+        <location filename="../prefinterface.cpp" line="707"/>
         <source>Seeking method</source>
         <translation>שיטת חיפוש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="724"/>
+        <location filename="../prefinterface.cpp" line="708"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>קובעת את השיטה שתנוצל כאשר מחפשים בעזרת המחוון. חיפוש מוחלט עשוי להיות קצת יותר מדויק, בעוד שחיפוש יחסי עשוי לפעול יותר טוב עם אורך שגוי.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="726"/>
         <source>Instances</source>
         <translation>מקרים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="729"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>השתמש במאורע אחד מורץ של SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="730"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>סמן את אפשרות זו אם ברצונך להשתמש במאורע מורץ זה מכבר של SMPlayer בעת פתיחת קבצים אחרים.</translation>
     </message>
@@ -6853,7 +6868,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ממשק גרפי מוקטן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="662"/>
         <source>GUI</source>
         <translation>ממשק גרפי</translation>
     </message>
@@ -6863,54 +6878,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ממשק &amp;גרפי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>Floating control</source>
         <translation>בקרה צפה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>Animated</source>
         <translation>מונפשת</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="753"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>במידה ואפשות זו מאופשרת, הבקרה הצפה תופיע עם הנפשה.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>Width</source>
         <translation>רוחב</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="757"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>מציינת את הרוחב של הבקרה (אמת מידה של אחוז).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>Margin</source>
         <translation>שוליים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>אפשרות זו מציינת את הריחוק של הבקרה הצפה מתחתית המסך, במספר של פיקסלים. שימושית כאשר המרקע הוא טלוויזיה, כאשר מיפוי יתר עשוי למנוע מהבקרה מלהיראות.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>Display in compact mode too</source>
         <translation>הצג גם במצב קומפקטי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
         <source>Bypass window manager</source>
-        <translation>עקוף מנהל חלון</translation>
+        <translation type="obsolete">עקוף מנהל חלון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
         <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation>במידה ואפשות זו מסומנת, הבקרה מוצגת כשזו עוקפת מנהל חלונות נתון. נטרל את אפשרות זו אם הבקרה הצפה לא עובדת היטב עם מנהל החלונות שלך.</translation>
+        <translation type="obsolete">במידה ואפשות זו מסומנת, הבקרה מוצגת כשזו עוקפת מנהל חלונות נתון. נטרל את אפשרות זו אם הבקרה הצפה לא עובדת היטב עם מנהל החלונות שלך.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6949,14 +6962,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>הצג גם במצב &amp;קומפקטי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="738"/>
         <source>&amp;Bypass window manager</source>
-        <translation>&amp;עקוף מנהל חלון</translation>
+        <translation type="obsolete">&amp;עקוף מנהל חלון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
         <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>במידה ואפשות זו מאופשרת, הבקרה הצפה תופיע גם במצב קומפקטי. &lt;b&gt;אזהרה:&lt;/b&gt; הבקרה הצפה לא נועדה עבור מצב קומפקטי וזו עלולה שלא לעבוד היטב.</translation>
+        <translation type="obsolete">במידה ואפשות זו מאופשרת, הבקרה הצפה תופיע גם במצב קומפקטי. &lt;b&gt;אזהרה:&lt;/b&gt; הבקרה הצפה לא נועדה עבור מצב קומפקטי וזו עלולה שלא לעבוד היטב.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="210"/>
@@ -6964,12 +6975,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ממשק גרפי Mpc</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="669"/>
+        <location filename="../prefinterface.cpp" line="653"/>
         <source>Hide video window when playing audio files</source>
         <translation>הסתר חלון וידאו בעת נגינת קבצי אודיו</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="654"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>במידה ואפשות זו מאופשרת, חלון הוידאו יוסתר בעת נגינת קבצי אודיו.</translation>
     </message>
@@ -6979,17 +6990,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;הסתר חלון וידאו בעת נגינת קבצי אודיו</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="713"/>
         <source>Precise seeking</source>
         <translation>חיפוש מדוייק</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>במידה ואפשות זו מאופשרת, חיפושים יהיו מהירים יותר ואולם אלו יכולים להיות איטיים יותר במידת מה. עשויה שלא לעבוד עם פורמטים מסוימים של וידאו.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="732"/>
+        <location filename="../prefinterface.cpp" line="716"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>הערה: אפשרות זו פועלת רק עם MPlayer2</translation>
     </message>
@@ -8538,47 +8549,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="392"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="395"/>
+        <location filename="../skingui/skingui.cpp" line="415"/>
         <source>Status&amp;bar</source>
         <translation>&amp;שורת מצב</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="398"/>
+        <location filename="../skingui/skingui.cpp" line="418"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="404"/>
+        <location filename="../skingui/skingui.cpp" line="424"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="408"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>&amp;Video info</source>
         <translation>מידע &amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="421"/>
+        <location filename="../skingui/skingui.cpp" line="441"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="422"/>
+        <location filename="../skingui/skingui.cpp" line="442"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="423"/>
+        <location filename="../skingui/skingui.cpp" line="443"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
