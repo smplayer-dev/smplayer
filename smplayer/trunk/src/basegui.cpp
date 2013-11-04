@@ -2189,8 +2189,10 @@ void BaseGui::createPanel() {
 	panel->setFocusPolicy( Qt::StrongFocus );
 
 	// panel
+	/*
 	panel->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( panel, QColor(0,0,0) );
+	*/
 }
 
 void BaseGui::createPreferencesDialog() {
