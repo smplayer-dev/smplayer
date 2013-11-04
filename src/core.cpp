@@ -1923,6 +1923,26 @@ void Core::startMplayer( QString file, double seek ) {
 		#endif
 		proc->addArgument( mset.external_audio );
 	}
+	else
+	if (pref->autoload_m4a) {
+		QFileInfo fi(file);
+		if (fi.exists() && !fi.isDir()) {
+			if (fi.suffix().toLower() == "mp4") {
+				QString file2 = fi.path() + "/" + fi.completeBaseName() + ".m4a";
+				//qDebug("Core::startMplayer: file2: %s", file2.toUtf8().constData());
+				if (QFile::exists(file2)) {
+					qDebug("Core::startMplayer: found %s, so it will be used as audio file", file2.toUtf8().constData());
+					proc->addArgument("-audiofile");
+					#ifdef Q_OS_WIN
+					if (pref->use_short_pathnames)
+						proc->addArgument(Helper::shortPathName(file2));
+					else
+					#endif
+					proc->addArgument(file2);
+				}
+			}
+		}
+	}
 
 	proc->addArgument("-subpos");
 	proc->addArgument( QString::number(mset.sub_pos) );
@@ -2345,7 +2365,7 @@ void Core::startMplayer( QString file, double seek ) {
 		QFileInfo f(file);
 		QString basename = f.path() + "/" + f.completeBaseName();
 
-		qDebug("Core::startMplayer: file basename: '%s'", basename.toUtf8().data());
+		//qDebug("Core::startMplayer: file basename: '%s'", basename.toUtf8().data());
 
 		if (QFile::exists(basename+".edl")) 
 			edl_f = basename+".edl";
