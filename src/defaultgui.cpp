@@ -387,6 +387,7 @@ void DefaultGui::createFloatingControl() {
 	floating_control->setAutoHide(true);
 
 	EditableToolbar * iw = new EditableToolbar(floating_control);
+	iw->setObjectName("floating_control");
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
