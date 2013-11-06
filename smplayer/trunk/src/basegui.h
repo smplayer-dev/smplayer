@@ -96,6 +96,9 @@ public slots:
 	virtual void openDVD();
 	virtual void openDVDFromFolder();
 	virtual void openDVDFromFolder(QString directory);
+	void openBluRay();
+	void openBluRayFolder();
+	void openBluRay(QString directory);
 	virtual void openDirectory();
 	virtual void openDirectory(QString directory);
 
@@ -387,6 +390,8 @@ protected:
 	MyAction * openAudioCDAct;
 	MyAction * openDVDAct;
 	MyAction * openDVDFolderAct;
+	MyAction * openBluRayAct;
+	MyAction * openBluRayFolderAct;
 	MyAction * openURLAct;
 	MyAction * exitAct;
 	MyAction * clearRecentsAct;
