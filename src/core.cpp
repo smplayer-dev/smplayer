@@ -774,6 +774,50 @@ void Core::openDVD(QString dvd_url) {
 	initPlaying();
 }
 
+
+/**
+ * Opens a BluRay, taking advantage of mplayer's capabilities to do so.
+ * @param folder_location the folder where the bluRay is mounted
+ */
+void Core::openBluRay(QString folder_location) {
+	qDebug("Core::openBluRay: '%s'", folder_location.toUtf8().data());
+
+	//Checks
+	QString folder = folder_location;
+	QString withProtocol = "br:///" + folder;
+	if (folder.isEmpty()) {
+		qDebug("Core::openBluRay: not folder");
+	} else {
+		QFileInfo fi(folder);
+		if (!fi.exists()) {
+			qWarning("Core::openBluRay: folder invalid, not playing dvd");
+			return;
+		}
+	}
+
+	if (proc->isRunning()) {
+		stopMplayer();
+		we_are_restarting = false;
+	}
+
+	// Save data of previous file:
+#ifndef NO_USE_INI_FILES
+	saveMediaInfo();
+#endif
+
+	mdat.reset();
+	mdat.filename = withProtocol;
+	mdat.type = TYPE_BLURAY;
+
+	mset.current_title_id = 0;
+	mset.current_chapter_id = firstChapter();
+	mset.current_angle_id = 1;
+
+	/* initializeMenus(); */
+
+	initPlaying();
+}
+
 void Core::openTV(QString channel_id) {
 	qDebug("Core::openTV: '%s'", channel_id.toUtf8().constData());
 

@@ -346,6 +346,15 @@ void BaseGui::createActions() {
 	connect( openDVDFolderAct, SIGNAL(triggered()),
              this, SLOT(openDVDFromFolder()) );
 
+	// Bluray section.
+	openBluRayAct = new MyAction( this, "open_bluray" );
+	connect( openBluRayAct, SIGNAL(triggered()),
+             this, SLOT(openBluRay()));
+
+	openBluRayFolderAct = new MyAction( this, "open_bluray_folder" );
+	connect( openBluRayFolderAct, SIGNAL(triggered()),
+             this, SLOT(openBluRayFolder()));
+
 	openURLAct = new MyAction( QKeySequence("Ctrl+U"), this, "open_url" );
 	connect( openURLAct, SIGNAL(triggered()),
              this, SLOT(openURL()) );
@@ -1465,6 +1474,8 @@ void BaseGui::retranslateStrings() {
 	openAudioCDAct->change( Images::icon("cdda"), tr("&Audio CD") );
 	openDVDAct->change( Images::icon("dvd"), tr("&DVD from drive") );
 	openDVDFolderAct->change( Images::icon("dvd_hd"), tr("D&VD from folder...") );
+	openBluRayAct->change( Images::icon("bluray"), tr("&Blu-ray from drive") );
+	openBluRayFolderAct->change( Images::icon("bluray_hd"), tr("Blu-&ray from folder...") );
 	openURLAct->change( Images::icon("url"), tr("&URL...") );
 	exitAct->change( Images::icon("close"), tr("C&lose") );
 
@@ -2244,6 +2255,8 @@ void BaseGui::createMenus() {
 	disc_menu->menuAction()->setObjectName("disc_menu");
 	disc_menu->addAction(openDVDAct);
 	disc_menu->addAction(openDVDFolderAct);
+	disc_menu->addAction(openBluRayAct);
+	disc_menu->addAction(openBluRayFolderAct);
 	disc_menu->addAction(openVCDAct);
 	disc_menu->addAction(openAudioCDAct);
 
@@ -3812,6 +3825,42 @@ void BaseGui::openDVDFromFolder(QString directory) {
 #else
 	core->openDVD( DiscName::joinDVD(1, directory, false) );
 #endif
+}
+
+/**
+ * Minimal BaseGui abstraction for calling openBluRay. It's called from both
+ * openBluray() and OpenBluRayFromFolder()
+ */
+void BaseGui::openBluRay(QString bluRayFolder) {
+	core->openBluRay(bluRayFolder);
+}
+
+/**
+ * Attempts to open a bluray from pref->bluray_device. If not set, calls configureDiscDevices.
+ * If successful, calls BaseGui::OpenBluRay(QString)
+ */
+void BaseGui::openBluRay() {
+	qDebug("BaseGui::openBluRay");
+
+	if ( (pref->dvd_device.isEmpty()) || 
+         (pref->cdrom_device.isEmpty()) || pref->bluray_device.isEmpty())
+	{
+		configureDiscDevices();
+	} else {
+		openBluRay(pref->bluray_device);
+	}
+}
+
+void BaseGui::openBluRayFolder() {
+	qDebug("BaseGui::openBluRayFromFolder");
+
+	if (playlist->maybeSave()) {
+		QString dir = QFileDialog::getExistingDirectory(this, tr("Select Blu-Ray Folder"),
+                          pref->last_dvd_directory, QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
+		if (!dir.isEmpty()) {
+			openBluRay(dir);
+		}
+	}
 }
 
 void BaseGui::openDirectory() {

@@ -153,6 +153,7 @@ public:
 
 	QString dvd_device;
 	QString cdrom_device;
+	QString bluray_device;
 
 #ifdef Q_OS_WIN
 	bool enable_audiocd_on_windows;
