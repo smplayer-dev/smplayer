@@ -1930,6 +1930,10 @@ void Core::startMplayer( QString file, double seek ) {
 			if (fi.suffix().toLower() == "mp4") {
 				QString file2 = fi.path() + "/" + fi.completeBaseName() + ".m4a";
 				//qDebug("Core::startMplayer: file2: %s", file2.toUtf8().constData());
+				if (!QFile::exists(file2)) {
+					// Check for upper case
+					file2 = fi.path() + "/" + fi.completeBaseName() + ".M4A";
+				}
 				if (QFile::exists(file2)) {
 					qDebug("Core::startMplayer: found %s, so it will be used as audio file", file2.toUtf8().constData());
 					proc->addArgument("-audiofile");
