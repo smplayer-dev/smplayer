@@ -108,10 +108,6 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
             this, SLOT(GUIChanged(int)));
 #endif
 
-#ifdef Q_OS_WIN
-	floating_bypass_wm_check->hide();
-#endif
-
 #ifndef SEEKBAR_RESOLUTION
 	seeking_method_group->hide();
 #endif
