@@ -106,6 +106,7 @@ void PrefDrives::updateDriveCombos(bool detect_cd_devices) {
 		if (is_cd_device) {
 			if (s.endsWith("/")) s = s.remove( s.length()-1,1);
 			dvd_device_combo->addItem( s );
+			bluray_device_combo->addItem( s );
 			cdrom_device_combo->addItem( s );
 		}
 	}
