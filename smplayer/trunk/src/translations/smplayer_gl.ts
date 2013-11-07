@@ -494,1394 +494,1409 @@ Seguro que desexas sobrescribilo?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1710"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;Open</source>
         <translation>&amp;Abrir</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1711"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>&amp;Play</source>
         <translation>&amp;Reproducir</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1723"/>
         <source>&amp;Video</source>
         <translation>&amp;Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Audio</source>
         <translation>&amp;Son</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>&amp;Subtitles</source>
         <translation>S&amp;ubtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>&amp;Browse</source>
         <translation>&amp;Explorar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>Op&amp;tions</source>
         <translation>&amp;Opcións</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>&amp;Help</source>
         <translation>A&amp;xuda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1461"/>
+        <location filename="../basegui.cpp" line="1470"/>
         <source>&amp;File...</source>
         <translation>&amp;Ficheiro...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1462"/>
+        <location filename="../basegui.cpp" line="1471"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;Cartafol...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1463"/>
+        <location filename="../basegui.cpp" line="1472"/>
         <source>&amp;Playlist...</source>
         <translation>Lista de re&amp;produción...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1466"/>
+        <location filename="../basegui.cpp" line="1475"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD desde o dispositivo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1467"/>
+        <location filename="../basegui.cpp" line="1476"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD desde un cartafol...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1468"/>
+        <location filename="../basegui.cpp" line="1479"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1744"/>
         <source>&amp;Clear</source>
         <translation>&amp;Borrar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>&amp;Recent files</source>
         <translation>Fichei&amp;ros recentes</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1492"/>
+        <location filename="../basegui.cpp" line="1503"/>
         <source>P&amp;lay</source>
         <translation>&amp;Reproducir</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1495"/>
+        <location filename="../basegui.cpp" line="1506"/>
         <source>&amp;Pause</source>
         <translation>&amp;Pausar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1496"/>
+        <location filename="../basegui.cpp" line="1507"/>
         <source>&amp;Stop</source>
         <translation>&amp;Parar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1497"/>
+        <location filename="../basegui.cpp" line="1508"/>
         <source>&amp;Frame step</source>
         <translation>&amp;Avanzar fotograma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1515"/>
+        <location filename="../basegui.cpp" line="1526"/>
         <source>&amp;Normal speed</source>
         <translation>Velocidade &amp;normal</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1516"/>
+        <location filename="../basegui.cpp" line="1527"/>
         <source>&amp;Halve speed</source>
         <translation>&amp;Reducir á metade</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1517"/>
+        <location filename="../basegui.cpp" line="1528"/>
         <source>&amp;Double speed</source>
         <translation>Veloci&amp;dade dobre</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1518"/>
+        <location filename="../basegui.cpp" line="1529"/>
         <source>Speed &amp;-10%</source>
         <translation>Velocidade &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1519"/>
+        <location filename="../basegui.cpp" line="1530"/>
         <source>Speed &amp;+10%</source>
         <translation>Velocidade &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1605"/>
+        <location filename="../basegui.cpp" line="1616"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;Desactivados</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1760"/>
         <source>Sp&amp;eed</source>
         <translation>V&amp;elocidade</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1510"/>
+        <location filename="../basegui.cpp" line="1521"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Repetir</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1526"/>
+        <location filename="../basegui.cpp" line="1537"/>
         <source>&amp;Fullscreen</source>
         <translation>&amp;Pantalla completa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1527"/>
+        <location filename="../basegui.cpp" line="1538"/>
         <source>&amp;Compact mode</source>
         <translation>Modo &amp;compacto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>Si&amp;ze</source>
         <translation>&amp;Tamaño</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>&amp;Aspect ratio</source>
         <translation>Proporción de &amp;aspecto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1807"/>
-        <location filename="../basegui.cpp" line="3113"/>
+        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="3128"/>
         <source>&amp;None</source>
         <translation>&amp;Ningún</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1808"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1811"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>Linear &amp;Blend</source>
         <translation>Mistura &amp;lineal</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Desentrelazado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1554"/>
+        <location filename="../basegui.cpp" line="1565"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Postprocesado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1555"/>
+        <location filename="../basegui.cpp" line="1566"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Detección automática da fase</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1556"/>
+        <location filename="../basegui.cpp" line="1567"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1557"/>
+        <location filename="../basegui.cpp" line="1568"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1559"/>
+        <location filename="../basegui.cpp" line="1570"/>
         <source>Add n&amp;oise</source>
         <translation>Engadir ruíd&amp;o</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1775"/>
+        <location filename="../basegui.cpp" line="1786"/>
         <source>F&amp;ilters</source>
         <translation>F&amp;iltros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1528"/>
+        <location filename="../basegui.cpp" line="1539"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;Ecualizador</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1529"/>
+        <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;Captura de pantalla</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>S&amp;tay on top</source>
         <translation>Man&amp;ter en primeiro plano</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1577"/>
+        <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Extraestéreo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1589"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1841"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;Filters</source>
         <translation>&amp;Filtros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1851"/>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1868"/>
         <source>&amp;Stereo</source>
         <translation>E&amp;stéreo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1852"/>
+        <location filename="../basegui.cpp" line="1863"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1853"/>
+        <location filename="../basegui.cpp" line="1864"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1844"/>
+        <location filename="../basegui.cpp" line="1855"/>
         <source>&amp;Channels</source>
         <translation>&amp;Canles</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1858"/>
+        <location filename="../basegui.cpp" line="1869"/>
         <source>&amp;Left channel</source>
         <translation>Canl&amp;e esquerda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1859"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>&amp;Right channel</source>
         <translation>Canle de&amp;reita</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1847"/>
+        <location filename="../basegui.cpp" line="1858"/>
         <source>&amp;Stereo mode</source>
         <translation>Modo es&amp;téreo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1567"/>
+        <location filename="../basegui.cpp" line="1578"/>
         <source>&amp;Mute</source>
         <translation>&amp;Silenciar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1568"/>
+        <location filename="../basegui.cpp" line="1579"/>
         <source>Volume &amp;-</source>
         <translation>Volume &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1569"/>
+        <location filename="../basegui.cpp" line="1580"/>
         <source>Volume &amp;+</source>
         <translation>Volume &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1570"/>
+        <location filename="../basegui.cpp" line="1581"/>
         <source>&amp;Delay -</source>
         <translation>&amp;Retardo -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1571"/>
+        <location filename="../basegui.cpp" line="1582"/>
         <source>D&amp;elay +</source>
         <translation>Retard&amp;o +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1864"/>
+        <location filename="../basegui.cpp" line="1875"/>
         <source>&amp;Select</source>
         <translation>&amp;Seleccionar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1582"/>
+        <location filename="../basegui.cpp" line="1593"/>
         <source>&amp;Load...</source>
         <translation>&amp;Cargar...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1584"/>
+        <location filename="../basegui.cpp" line="1595"/>
         <source>Delay &amp;-</source>
         <translation>Retardo &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1585"/>
+        <location filename="../basegui.cpp" line="1596"/>
         <source>Delay &amp;+</source>
         <translation>Retardo &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1587"/>
+        <location filename="../basegui.cpp" line="1598"/>
         <source>&amp;Up</source>
         <translation>&amp;Arriba</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1588"/>
+        <location filename="../basegui.cpp" line="1599"/>
         <source>&amp;Down</source>
         <translation>&amp;Abaixo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1874"/>
+        <location filename="../basegui.cpp" line="1885"/>
         <source>&amp;Title</source>
         <translation>&amp;Título</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1877"/>
+        <location filename="../basegui.cpp" line="1888"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Capítulo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1891"/>
         <source>&amp;Angle</source>
         <translation>&amp;Ángulo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1620"/>
+        <location filename="../basegui.cpp" line="1631"/>
         <source>&amp;Playlist</source>
         <translation>Lista de re&amp;produción</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Desactivado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
+        <location filename="../basegui.cpp" line="1912"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1908"/>
+        <location filename="../basegui.cpp" line="1919"/>
         <source>&amp;View logs</source>
         <translation>Ver &amp;rexistros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1622"/>
+        <location filename="../basegui.cpp" line="1633"/>
         <source>P&amp;references</source>
         <translation>P&amp;referencias</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1649"/>
+        <location filename="../basegui.cpp" line="1660"/>
         <source>About &amp;SMPlayer</source>
         <translation>Acerca de &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3135"/>
-        <location filename="../basegui.cpp" line="3151"/>
-        <location filename="../basegui.cpp" line="3167"/>
+        <location filename="../basegui.cpp" line="3150"/>
+        <location filename="../basegui.cpp" line="3166"/>
         <location filename="../basegui.cpp" line="3182"/>
-        <location filename="../basegui.cpp" line="3214"/>
-        <location filename="../basegui.cpp" line="3234"/>
-        <location filename="../basegui.cpp" line="3274"/>
+        <location filename="../basegui.cpp" line="3197"/>
+        <location filename="../basegui.cpp" line="3229"/>
+        <location filename="../basegui.cpp" line="3249"/>
+        <location filename="../basegui.cpp" line="3289"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;baleiro&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3685"/>
+        <location filename="../basegui.cpp" line="3700"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3686"/>
-        <location filename="../basegui.cpp" line="3876"/>
+        <location filename="../basegui.cpp" line="3701"/>
+        <location filename="../basegui.cpp" line="3928"/>
         <source>Audio</source>
         <translation>Son</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3687"/>
+        <location filename="../basegui.cpp" line="3702"/>
         <source>Playlists</source>
         <translation>Listas de reprodución</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3688"/>
-        <location filename="../basegui.cpp" line="3856"/>
-        <location filename="../basegui.cpp" line="3877"/>
+        <location filename="../basegui.cpp" line="3703"/>
+        <location filename="../basegui.cpp" line="3908"/>
+        <location filename="../basegui.cpp" line="3929"/>
         <source>All files</source>
         <translation>Todos os ficheiros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3683"/>
-        <location filename="../basegui.cpp" line="3853"/>
-        <location filename="../basegui.cpp" line="3874"/>
+        <location filename="../basegui.cpp" line="3698"/>
+        <location filename="../basegui.cpp" line="3905"/>
+        <location filename="../basegui.cpp" line="3926"/>
         <source>Choose a file</source>
         <translation>Seleccionar un ficheiro</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1624"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>Navegador de &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3735"/>
+        <location filename="../basegui.cpp" line="3750"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Información</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3736"/>
+        <location filename="../basegui.cpp" line="3751"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>As unidades de CDROM / DVD aínda non foron configuradas.￼
 Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3819"/>
+        <location filename="../basegui.cpp" line="3859"/>
+        <source>Select the Blu-ray folder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3871"/>
         <source>Choose a directory</source>
         <translation>Seleccionar un cartafol</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3855"/>
+        <location filename="../basegui.cpp" line="3907"/>
         <source>Subtitles</source>
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4289"/>
+        <location filename="../basegui.cpp" line="4341"/>
         <source>New version available</source>
         <translation>Nova versión dispoñíbel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4290"/>
+        <location filename="../basegui.cpp" line="4342"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Hai unha nova versión do SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4291"/>
+        <location filename="../basegui.cpp" line="4343"/>
         <source>Installed version: %1</source>
         <translation>Versión instalada: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4292"/>
+        <location filename="../basegui.cpp" line="4344"/>
         <source>Available version: %1</source>
         <translation>Versión dispoñíble: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4293"/>
+        <location filename="../basegui.cpp" line="4345"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Queres saber máis acerca desta nova versión?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4429"/>
+        <location filename="../basegui.cpp" line="4481"/>
         <source>Error detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4430"/>
+        <location filename="../basegui.cpp" line="4482"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4599"/>
+        <location filename="../basegui.cpp" line="4651"/>
         <source>Playing %1</source>
         <translation>Reproducindo %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4600"/>
+        <location filename="../basegui.cpp" line="4652"/>
         <source>Pause</source>
         <translation>Pausar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4601"/>
+        <location filename="../basegui.cpp" line="4653"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1499"/>
+        <location filename="../basegui.cpp" line="1510"/>
         <source>Play / Pause</source>
         <translation>Reproducir / Pausar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1502"/>
+        <location filename="../basegui.cpp" line="1513"/>
         <source>Pause / Frame step</source>
         <translation>Pausar / Avanzar fotograma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
-        <location filename="../basegui.cpp" line="1583"/>
+        <location filename="../basegui.cpp" line="1585"/>
+        <location filename="../basegui.cpp" line="1594"/>
         <source>U&amp;nload</source>
         <translation>&amp;Descargar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1464"/>
+        <location filename="../basegui.cpp" line="1473"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1469"/>
+        <location filename="../basegui.cpp" line="1480"/>
         <source>C&amp;lose</source>
         <translation>&amp;Pechar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1621"/>
+        <location filename="../basegui.cpp" line="1632"/>
         <source>View &amp;info and properties...</source>
         <translation>Ver &amp;información e propiedades...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1537"/>
+        <location filename="../basegui.cpp" line="1548"/>
         <source>Zoom &amp;-</source>
         <translation>Ampliar &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1549"/>
         <source>Zoom &amp;+</source>
         <translation>Reducir &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1539"/>
+        <location filename="../basegui.cpp" line="1550"/>
         <source>&amp;Reset</source>
         <translation>&amp;Reiniciar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1543"/>
+        <location filename="../basegui.cpp" line="1554"/>
         <source>Move &amp;left</source>
         <translation>Mover cara á &amp;esquerda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1544"/>
+        <location filename="../basegui.cpp" line="1555"/>
         <source>Move &amp;right</source>
         <translation>Mover cara á de&amp;reita</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1545"/>
+        <location filename="../basegui.cpp" line="1556"/>
         <source>Move &amp;up</source>
         <translation>Desprazar cara a a &amp;rriba</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1546"/>
+        <location filename="../basegui.cpp" line="1557"/>
         <source>Move &amp;down</source>
         <translation>&amp;Desprazar cara a a baixo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1592"/>
+        <location filename="../basegui.cpp" line="1603"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>Liña &amp;anterior</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1594"/>
+        <location filename="../basegui.cpp" line="1605"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>Liña s&amp;eguinte</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1933"/>
-        <location filename="../basegui.cpp" line="1934"/>
-        <location filename="../basegui.cpp" line="1935"/>
+        <location filename="../basegui.cpp" line="1944"/>
+        <location filename="../basegui.cpp" line="1945"/>
+        <location filename="../basegui.cpp" line="1946"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1937"/>
-        <location filename="../basegui.cpp" line="1938"/>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1948"/>
+        <location filename="../basegui.cpp" line="1949"/>
+        <location filename="../basegui.cpp" line="1950"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1680"/>
         <source>Dec volume (2)</source>
         <translation>Diminuír volume (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1532"/>
+        <location filename="../basegui.cpp" line="1477"/>
+        <source>&amp;Blu-ray from drive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1478"/>
+        <source>Blu-&amp;ray from folder...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1543"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1558"/>
+        <location filename="../basegui.cpp" line="1569"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Corrección da degradación (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1611"/>
+        <location filename="../basegui.cpp" line="1622"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;Predeterminado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1636"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>First Steps &amp;Guide</source>
         <translation>&amp;Guía cos primeiros pasos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1642"/>
+        <location filename="../basegui.cpp" line="1653"/>
         <source>Update &amp;Youtube code</source>
         <translation>Actualizar o código de &amp;Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1645"/>
+        <location filename="../basegui.cpp" line="1656"/>
         <source>&amp;Open configuration folder</source>
         <translation>&amp;Abrir o cartafol de configuración </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1647"/>
+        <location filename="../basegui.cpp" line="1658"/>
         <source>&amp;Donate</source>
         <translation>&amp;Doar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1670"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>Inc volume (2)</source>
         <translation>Aumentar volume (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1684"/>
         <source>Exit fullscreen</source>
         <translation>Saír da pantalla completa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>OSD - Next level</source>
         <translation>OSD - Seguinte nivel</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1676"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>Dec contrast</source>
         <translation>Diminuír contraste</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1677"/>
+        <location filename="../basegui.cpp" line="1688"/>
         <source>Inc contrast</source>
         <translation>Aumentar contraste</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1689"/>
         <source>Dec brightness</source>
         <translation>Diminuír brillo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1690"/>
         <source>Inc brightness</source>
         <translation>Aumentar brillo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1680"/>
+        <location filename="../basegui.cpp" line="1691"/>
         <source>Dec hue</source>
         <translation>Diminuír ton</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1681"/>
+        <location filename="../basegui.cpp" line="1692"/>
         <source>Inc hue</source>
         <translation>Aumentar ton</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1682"/>
+        <location filename="../basegui.cpp" line="1693"/>
         <source>Dec saturation</source>
         <translation>Diminuír saturación</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1695"/>
         <source>Dec gamma</source>
         <translation>Diminuír gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1687"/>
+        <location filename="../basegui.cpp" line="1698"/>
         <source>Next audio</source>
         <translation>Seguinte son</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1699"/>
         <source>Next subtitle</source>
         <translation>Seguinte subtítulo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1689"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>Next chapter</source>
         <translation>Seguinte capítulo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1690"/>
+        <location filename="../basegui.cpp" line="1701"/>
         <source>Previous chapter</source>
         <translation>Anterior capítulo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>De&amp;noise</source>
         <translation>Red&amp;ución de ruído</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1792"/>
+        <location filename="../basegui.cpp" line="1803"/>
         <source>Blur/S&amp;harp</source>
         <translation>Esvaecer/Aumentar a&amp;nitidez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
+        <location filename="../basegui.cpp" line="1825"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;Desactivado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;Normal</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1827"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;Suave</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Ningún</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
+        <location filename="../basegui.cpp" line="1830"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Esvaecer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>Aumentar a &amp;nitidez</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1854"/>
+        <location filename="../basegui.cpp" line="1865"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1855"/>
+        <location filename="../basegui.cpp" line="1866"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>&amp;Mono</source>
         <translation>&amp;Mono</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1861"/>
+        <location filename="../basegui.cpp" line="1872"/>
         <source>Re&amp;verse</source>
         <translation>&amp;Cara a atrás</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
+        <location filename="../basegui.cpp" line="1881"/>
         <source>F&amp;rames per second</source>
         <translation>F&amp;otogramas por segundo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1917"/>
+        <location filename="../basegui.cpp" line="1928"/>
         <source>SMPlayer - MPlayer log</source>
         <translation>SMPlayer — Rexistro de MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1920"/>
+        <location filename="../basegui.cpp" line="1931"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer — Rexistro de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3913"/>
+        <location filename="../basegui.cpp" line="3965"/>
         <source>Donate</source>
         <translation>Doar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3914"/>
+        <location filename="../basegui.cpp" line="3966"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation>Se lle gusta SMPlayer e quede contribuír ao seu desevolvemento, pode facer unha doazón. Estarémoslle eternamente agradecidos se o fai, por pequena que sexa a cantidade.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3917"/>
+        <location filename="../basegui.cpp" line="3969"/>
         <source>Yes, I want to donate</source>
         <translation>Quero doar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4384"/>
+        <location filename="../basegui.cpp" line="4436"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4391"/>
-        <location filename="../basegui.cpp" line="4399"/>
+        <location filename="../basegui.cpp" line="4443"/>
+        <location filename="../basegui.cpp" line="4451"/>
         <source>Problems with Youtube</source>
         <translation>Problemas co Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4387"/>
+        <location filename="../basegui.cpp" line="4439"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Non se pode reproducir o vídeo «%1» por mor de cambios na páxina do Youtube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4393"/>
+        <location filename="../basegui.cpp" line="4445"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Queres actualizar o código de Youtube? Con iso poderíase arranxar o problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4401"/>
+        <location filename="../basegui.cpp" line="4453"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Se cadra actualizando o SMPlayer pódense resolver este problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5122"/>
+        <location filename="../basegui.cpp" line="5174"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>Non foi posíbel abrir o navegador de YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5123"/>
+        <location filename="../basegui.cpp" line="5175"/>
         <source>Be sure %1 is installed.</source>
         <translation>Asegúrese de que ten %1 instalado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>Co&amp;mparte SMPlayer coas túas amizades</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2876"/>
-        <location filename="../basegui.cpp" line="3502"/>
+        <location filename="../basegui.cpp" line="2891"/>
+        <location filename="../basegui.cpp" line="3517"/>
         <source>Information</source>
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2877"/>
+        <location filename="../basegui.cpp" line="2892"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Necesitas reiniciar SMPlayer para empregar a nova interface.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3282"/>
+        <location filename="../basegui.cpp" line="3297"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Confirmar eliminar - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3283"/>
+        <location filename="../basegui.cpp" line="3298"/>
         <source>Delete the list of recent files?</source>
         <translation>Eliminar a lista de ficheiros recentes?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3503"/>
+        <location filename="../basegui.cpp" line="3518"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Os valores actuais gardáronse para se usar como os predefinidos.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1683"/>
+        <location filename="../basegui.cpp" line="1694"/>
         <source>Inc saturation</source>
         <translation>Aumentar saturación</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1685"/>
+        <location filename="../basegui.cpp" line="1696"/>
         <source>Inc gamma</source>
         <translation>Aumentar gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1584"/>
         <source>&amp;Load external file...</source>
         <translation>Cargar un ficheiro e&amp;xterno...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1809"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1810"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (taxa de fotogramas dobre)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1659"/>
+        <location filename="../basegui.cpp" line="1670"/>
         <source>&amp;Next</source>
         <translation>Segui&amp;nte</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1660"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Anterior</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1579"/>
+        <location filename="../basegui.cpp" line="1590"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;Normalización do volume</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1465"/>
+        <location filename="../basegui.cpp" line="1474"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;CD de son</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1595"/>
+        <location filename="../basegui.cpp" line="1606"/>
         <source>Use SSA/&amp;ASS library</source>
         <translation>Usar a biblioteca SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1702"/>
         <source>&amp;Toggle double size</source>
         <translation>Cambiar &amp;tamaño dobre</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1589"/>
+        <location filename="../basegui.cpp" line="1600"/>
         <source>S&amp;ize -</source>
         <translation>Ta&amp;maño -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1590"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>Si&amp;ze +</source>
         <translation>&amp;Tamaño +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1560"/>
+        <location filename="../basegui.cpp" line="1571"/>
         <source>Add &amp;black borders</source>
         <translation>Engadir &amp;bordos negros</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1561"/>
+        <location filename="../basegui.cpp" line="1572"/>
         <source>Soft&amp;ware scaling</source>
         <translation>Escalado por soft&amp;ware</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1637"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>&amp;FAQ</source>
         <translation>Preguntas &amp;frecuentes</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1638"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>&amp;Command line options</source>
         <translation>Op&amp;cións da liña de ordes</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3896"/>
+        <location filename="../basegui.cpp" line="3948"/>
         <source>SMPlayer command line options</source>
         <translation>Opcións da liña de ordes de SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1596"/>
+        <location filename="../basegui.cpp" line="1607"/>
         <source>&amp;Forced subtitles only</source>
         <translation>Só os subtítulos &amp;forzados</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1692"/>
+        <location filename="../basegui.cpp" line="1703"/>
         <source>Reset video equalizer</source>
         <translation>Redefinir o ecualizador de vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4431"/>
+        <location filename="../basegui.cpp" line="4483"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5019"/>
+        <location filename="../basegui.cpp" line="5071"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>O MPlayer rematou inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5020"/>
+        <location filename="../basegui.cpp" line="5072"/>
         <source>Exit code: %1</source>
         <translation>Código de saída: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5039"/>
+        <location filename="../basegui.cpp" line="5091"/>
         <source>MPlayer failed to start.</source>
         <translation>Fallo ao iniciar o MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5040"/>
+        <location filename="../basegui.cpp" line="5092"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Comproba a ruta ao MPlayer nas preferencias.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5042"/>
+        <location filename="../basegui.cpp" line="5094"/>
         <source>MPlayer has crashed.</source>
         <translation>Fallou o MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5043"/>
+        <location filename="../basegui.cpp" line="5095"/>
         <source>See the log for more info.</source>
         <translation>Comproba o rexistro para obter máis información.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1778"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>&amp;Rotate</source>
         <translation>X&amp;irar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1822"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>&amp;Off</source>
         <translation>&amp;Desactivado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1823"/>
+        <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;Rotar 90º en sentido horario e inverter</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1835"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>Rotar 90º en sentido &amp;horario</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1825"/>
+        <location filename="../basegui.cpp" line="1836"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>Rotar 90º en sentido &amp;antihorario</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1837"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Rotar 90º en sentido antihorario e &amp;inverter</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1512"/>
+        <location filename="../basegui.cpp" line="1523"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;Saltar a...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1705"/>
         <source>Show context menu</source>
         <translation>Mostrar o menú de contexto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3684"/>
+        <location filename="../basegui.cpp" line="3699"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1564"/>
+        <location filename="../basegui.cpp" line="1575"/>
         <source>E&amp;qualizer</source>
         <translation>&amp;Ecualizador</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1693"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>Reset audio equalizer</source>
         <translation>Restabelecer o ecualizador de son</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1601"/>
+        <location filename="../basegui.cpp" line="1612"/>
         <source>Find subtitles on &amp;OpenSubtitles.org...</source>
         <translation>Buscar subtítulos en &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1602"/>
+        <location filename="../basegui.cpp" line="1613"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Enviar subtítulos a &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>&amp;Auto</source>
         <translation>&amp;Automático</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1520"/>
+        <location filename="../basegui.cpp" line="1531"/>
         <source>Speed -&amp;4%</source>
         <translation>Velocidade -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1521"/>
+        <location filename="../basegui.cpp" line="1532"/>
         <source>&amp;Speed +4%</source>
         <translation>&amp;Velocidade +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1522"/>
+        <location filename="../basegui.cpp" line="1533"/>
         <source>Speed -&amp;1%</source>
         <translation>Velocidade -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1523"/>
+        <location filename="../basegui.cpp" line="1534"/>
         <source>S&amp;peed +1%</source>
         <translation>V&amp;elocidade +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1796"/>
         <source>Scree&amp;n</source>
         <translation>&amp;Pantalla</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1834"/>
+        <location filename="../basegui.cpp" line="1845"/>
         <source>&amp;Default</source>
         <translation>&amp;Predeterminado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1546"/>
         <source>Mirr&amp;or image</source>
         <translation>&amp;Reflectir a imaxe</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1686"/>
+        <location filename="../basegui.cpp" line="1697"/>
         <source>Next video</source>
         <translation>Seguinte vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1756"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Pista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1838"/>
+        <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Pista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4270"/>
+        <location filename="../basegui.cpp" line="4322"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Advertencia - Usando un MPlayer antigo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4271"/>
+        <location filename="../basegui.cpp" line="4323"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>A versión do MPlayer (%1) que tes instalada no sistema está obsoleta. SMPlayer non pode funcionar correctamente con esta versión: algunhas opcións non funcionarán, a selección de subtítulos pode fallar...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4276"/>
+        <location filename="../basegui.cpp" line="4328"/>
         <source>Please, update your MPlayer.</source>
         <translation>Por favor, actualiza o MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4278"/>
+        <location filename="../basegui.cpp" line="4330"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Este aviso non volverá aparecer)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1706"/>
         <source>Next aspect ratio</source>
         <translation>Seguinte relación de aspecto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1540"/>
+        <location filename="../basegui.cpp" line="1551"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;Ampliación automática</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1541"/>
+        <location filename="../basegui.cpp" line="1552"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Ampliar a &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1542"/>
+        <location filename="../basegui.cpp" line="1553"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Ampliar &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1828"/>
+        <location filename="../basegui.cpp" line="1839"/>
         <source>&amp;Always</source>
         <translation>&amp;Sempre</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1829"/>
+        <location filename="../basegui.cpp" line="1840"/>
         <source>&amp;Never</source>
         <translation>&amp;Nunca</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1830"/>
+        <location filename="../basegui.cpp" line="1841"/>
         <source>While &amp;playing</source>
         <translation>Durante a &amp;reprodución</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>DVD &amp;menu</source>
         <translation>&amp;Menú DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1896"/>
+        <location filename="../basegui.cpp" line="1907"/>
         <source>DVD &amp;previous menu</source>
         <translation>&amp;Menú DVD anterior</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1890"/>
+        <location filename="../basegui.cpp" line="1901"/>
         <source>DVD menu, move up</source>
         <translation>Menú DVD, mover arriba</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1891"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>DVD menu, move down</source>
         <translation>Menú DVD, mover abaixo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1892"/>
+        <location filename="../basegui.cpp" line="1903"/>
         <source>DVD menu, move left</source>
         <translation>Menú DVD, mover á esquerda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1904"/>
         <source>DVD menu, move right</source>
         <translation>Menú DVD, mover á dereita</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1895"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>DVD menu, select option</source>
         <translation>Menú DVD, seleccionar opción</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1897"/>
+        <location filename="../basegui.cpp" line="1908"/>
         <source>DVD menu, mouse click</source>
         <translation>Menú DVD, clic do rato</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1583"/>
         <source>Set dela&amp;y...</source>
         <translation>Estabelecer retar&amp;do...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1586"/>
+        <location filename="../basegui.cpp" line="1597"/>
         <source>Se&amp;t delay...</source>
         <translation>Es&amp;tabelecer retardo...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3969"/>
+        <location filename="../basegui.cpp" line="4021"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Saltar a:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3970"/>
+        <location filename="../basegui.cpp" line="4022"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Localizar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3981"/>
-        <location filename="../basegui.cpp" line="3985"/>
+        <location filename="../basegui.cpp" line="4033"/>
+        <location filename="../basegui.cpp" line="4037"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Retardo do son</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3982"/>
-        <location filename="../basegui.cpp" line="3986"/>
+        <location filename="../basegui.cpp" line="4034"/>
+        <location filename="../basegui.cpp" line="4038"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Retardo do son (en milisegundos):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3997"/>
-        <location filename="../basegui.cpp" line="4001"/>
+        <location filename="../basegui.cpp" line="4049"/>
+        <location filename="../basegui.cpp" line="4053"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Retardo dos subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3998"/>
-        <location filename="../basegui.cpp" line="4002"/>
+        <location filename="../basegui.cpp" line="4050"/>
+        <location filename="../basegui.cpp" line="4054"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Retardo dos subtítulos (en milisegundos):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1831"/>
+        <location filename="../basegui.cpp" line="1842"/>
         <source>Toggle stay on top</source>
         <translation>Cambiar «En primeiro plano»</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4743"/>
+        <location filename="../basegui.cpp" line="4795"/>
         <source>Jump to %1</source>
         <translation>Saltar a %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1530"/>
+        <location filename="../basegui.cpp" line="1541"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Iniciar/Parar as capturas de pantal&amp;la</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1598"/>
+        <location filename="../basegui.cpp" line="1609"/>
         <source>Subtitle &amp;visibility</source>
         <translation>&amp;Visibilidade dos subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1696"/>
+        <location filename="../basegui.cpp" line="1707"/>
         <source>Next wheel function</source>
         <translation>Seguinte función da roda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1884"/>
+        <location filename="../basegui.cpp" line="1895"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>P&amp;rograma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1742"/>
+        <location filename="../basegui.cpp" line="1753"/>
         <source>&amp;TV</source>
         <translation>&amp;TV</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1745"/>
+        <location filename="../basegui.cpp" line="1756"/>
         <source>Radi&amp;o</source>
         <translation>Radi&amp;o</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1703"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>Subtitles onl&amp;y</source>
         <translation>Só subtítul&amp;os</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1704"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>Volume + &amp;Seek</source>
         <translation>Volume + &amp;Localizar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1705"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Volume + Localizar + &amp;Cronómetro</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1706"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Volume + Localizar + Cronómetro + Tem&amp;po total</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1418"/>
+        <location filename="../basegui.cpp" line="1427"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Os filtros de vídeo desactívanse cando se usa vdpau</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1534"/>
+        <location filename="../basegui.cpp" line="1545"/>
         <source>Fli&amp;p image</source>
         <translation>Ro&amp;tar a imaxe</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>Zoo&amp;m</source>
         <translation>A&amp;mpliación</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1698"/>
+        <location filename="../basegui.cpp" line="1709"/>
         <source>Show filename on OSD</source>
         <translation>Mostrar o nome do ficheiro en OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1507"/>
+        <location filename="../basegui.cpp" line="1518"/>
         <source>Set &amp;A marker</source>
         <translation>Establecer o marcador &amp;A</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1508"/>
+        <location filename="../basegui.cpp" line="1519"/>
         <source>Set &amp;B marker</source>
         <translation>Establecer o marcador &amp;B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1509"/>
+        <location filename="../basegui.cpp" line="1520"/>
         <source>&amp;Clear A-B markers</source>
         <translation>Limpar os mar&amp;cadores A e B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>&amp;A-B section</source>
         <translation>Sección &amp;A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1710"/>
         <source>Toggle deinterlacing</source>
         <translation>Intercambiar o desentrelazado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>&amp;Closed captions</source>
         <translation>Subtítulado &amp;oculto (CC)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1735"/>
+        <location filename="../basegui.cpp" line="1746"/>
         <source>&amp;Disc</source>
         <translation>&amp;Disco</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1739"/>
+        <location filename="../basegui.cpp" line="1750"/>
         <source>F&amp;avorites</source>
         <translation>F&amp;avoritos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1639"/>
+        <location filename="../basegui.cpp" line="1650"/>
         <source>Check for &amp;updates</source>
         <translation>Comprobar as &amp;actualizacións</translation>
     </message>
@@ -1966,73 +1981,73 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2825"/>
+        <location filename="../core.cpp" line="2896"/>
         <source>Brightness: %1</source>
         <translation>Brillo: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2840"/>
+        <location filename="../core.cpp" line="2911"/>
         <source>Contrast: %1</source>
         <translation>Contraste. %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2854"/>
+        <location filename="../core.cpp" line="2925"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2868"/>
+        <location filename="../core.cpp" line="2939"/>
         <source>Hue: %1</source>
         <translation>Ton: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2882"/>
+        <location filename="../core.cpp" line="2953"/>
         <source>Saturation: %1</source>
         <translation>Saturación: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3011"/>
+        <location filename="../core.cpp" line="3082"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3798"/>
+        <location filename="../core.cpp" line="3879"/>
         <source>Zoom: %1</source>
         <translation>Ampliación: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4045"/>
+        <location filename="../core.cpp" line="4126"/>
         <source>Buffering...</source>
         <translation>Buffering...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3127"/>
-        <location filename="../core.cpp" line="3139"/>
+        <location filename="../core.cpp" line="3198"/>
+        <location filename="../core.cpp" line="3210"/>
         <source>Font scale: %1</source>
         <translation>Escala do tipo de letra: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3667"/>
+        <location filename="../core.cpp" line="3748"/>
         <source>Aspect ratio: %1</source>
         <translation>Relación de aspecto: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4041"/>
+        <location filename="../core.cpp" line="4122"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Actualizando a caché de tipos de letra. Isto pode levar algúns segundos...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3053"/>
+        <location filename="../core.cpp" line="3124"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Retardo dos subtítulos: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3070"/>
+        <location filename="../core.cpp" line="3141"/>
         <source>Audio delay: %1 ms</source>
         <translation>Retardo do son: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2936"/>
+        <location filename="../core.cpp" line="3007"/>
         <source>Speed: %1</source>
         <translation>Velocidade: %1</translation>
     </message>
@@ -2042,57 +2057,57 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <translation>Non é posíbel acceder á páxina do YouTube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3182"/>
+        <location filename="../core.cpp" line="3253"/>
         <source>Subtitles on</source>
         <translation>Subtítulos activados</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3184"/>
+        <location filename="../core.cpp" line="3255"/>
         <source>Subtitles off</source>
         <translation>Subtítulos desactivados</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3714"/>
+        <location filename="../core.cpp" line="3795"/>
         <source>Mouse wheel seeks now</source>
         <translation>A roda do rato agora permite </translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3717"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
         <translation>A roda do rato agora cambia o volume</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3720"/>
+        <location filename="../core.cpp" line="3801"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>A roda do rato agora cambia o nivel do ampliación</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3723"/>
+        <location filename="../core.cpp" line="3804"/>
         <source>Mouse wheel changes speed now</source>
         <translation>A roda do rato agora cambia a velocidade</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1299"/>
+        <location filename="../core.cpp" line="1345"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Non se realizou a captura de pantalla. O cartafol non está configurado.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1312"/>
+        <location filename="../core.cpp" line="1358"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Non se realizaron as capturas de pantalla. O cartafol non está configurado.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2560"/>
+        <location filename="../core.cpp" line="2631"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Estableceuse o marcador «A» en %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2577"/>
+        <location filename="../core.cpp" line="2648"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Estableceuse o marcador «B» en %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2592"/>
+        <location filename="../core.cpp" line="2663"/>
         <source>A-B markers cleared</source>
         <translation>Elimináronse os marcadores A e B</translation>
     </message>
@@ -2110,82 +2125,82 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="503"/>
+        <location filename="../defaultgui.cpp" line="504"/>
         <source>Welcome to SMPlayer</source>
         <translation>Benvido ao SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="531"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Audio</source>
         <translation>Son</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="533"/>
         <source>Subtitle</source>
         <translation>Subtítulo</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="525"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra &amp;principal</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="528"/>
+        <location filename="../defaultgui.cpp" line="529"/>
         <source>&amp;Language toolbar</source>
         <translation>Barra de &amp;idiomas</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="519"/>
+        <location filename="../defaultgui.cpp" line="520"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Barra de ferramentas</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="559"/>
+        <location filename="../defaultgui.cpp" line="560"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="563"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="522"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Barra de estado</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="534"/>
+        <location filename="../defaultgui.cpp" line="535"/>
         <source>&amp;Video info</source>
         <translation>Información do &amp;vídeo</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="535"/>
+        <location filename="../defaultgui.cpp" line="536"/>
         <source>&amp;Frame counter</source>
         <translation>Contador de &amp;fotogramas</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="538"/>
+        <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Editar a barra &amp;principal</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="539"/>
+        <location filename="../defaultgui.cpp" line="540"/>
         <source>Edit &amp;control bar</source>
         <translation>Editar a de &amp;control</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="540"/>
+        <location filename="../defaultgui.cpp" line="541"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Editar o control &amp;reducido</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="541"/>
+        <location filename="../defaultgui.cpp" line="542"/>
         <source>Edit &amp;floating control</source>
         <translation>Editar o control &amp;flotante </translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="572"/>
+        <location filename="../defaultgui.cpp" line="573"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -4286,17 +4301,17 @@ Desexas sobrescribilo?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="161"/>
+        <location filename="../minigui.cpp" line="162"/>
         <source>Control bar</source>
         <translation>Barra de control</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="164"/>
+        <location filename="../minigui.cpp" line="165"/>
         <source>Edit &amp;control bar</source>
         <translation>Editar a barra de &amp;control</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="165"/>
+        <location filename="../minigui.cpp" line="166"/>
         <source>Edit &amp;floating control</source>
         <translation>Editar o control &amp;flotante</translation>
     </message>
@@ -5060,84 +5075,97 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>PrefDrives</name>
     <message>
-        <location filename="../prefdrives.ui" line="35"/>
+        <location filename="../prefdrives.ui" line="27"/>
         <location filename="../prefdrives.cpp" line="68"/>
         <source>Drives</source>
         <translation>Dispositivos</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="86"/>
-        <location filename="../prefdrives.ui" line="202"/>
         <source>icon</source>
-        <translation>Icona</translation>
+        <translation type="obsolete">Icona</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="180"/>
+        <location filename="../prefdrives.cpp" line="195"/>
         <source>CD device</source>
         <translation>Dispositivo de CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="181"/>
+        <location filename="../prefdrives.cpp" line="196"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Seleccionar o dispositivo de CDROM. Usarase para reproducir VCDs e CDs de son.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="184"/>
+        <location filename="../prefdrives.cpp" line="199"/>
         <source>DVD device</source>
         <translation>Dispositivo de DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="185"/>
+        <location filename="../prefdrives.cpp" line="200"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Seleccionar o dispositivo de DVD. Usarase para reproducir DVDs.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="113"/>
+        <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Seleccionar o dispositivo de &amp;CD:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="229"/>
+        <location filename="../prefdrives.ui" line="176"/>
         <source>Select your &amp;DVD device:</source>
         <translation>Seleccionar o dispositivo de &amp;DVD:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="56"/>
+        <location filename="../prefdrives.ui" line="258"/>
+        <source>Select your &amp;Blu-ray device:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
         <translation>O SMPlayer non selecciona de forma predeterminada o dispositivo de CD ou DVD. Polo tanto, para reproducir CD / DVD ten que seleccionar o dispositivo a usar, (que pode ser o mesmo).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="188"/>
+        <location filename="../prefdrives.cpp" line="202"/>
+        <source>Blu-ray device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.cpp" line="203"/>
+        <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefdrives.cpp" line="206"/>
         <source>Enable DVD menus</source>
         <translation>Activar os menús DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="189"/>
+        <location filename="../prefdrives.cpp" line="207"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>Se esta opción está marcada, o smplayer reproducirá DVDs usando dvdnav. Precisa unha versión recente de mplayer compilada con compatibilidade para dvdnav.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="192"/>
+        <location filename="../prefdrives.cpp" line="210"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;Aviso 1&lt;/b&gt;: desactivarase a caché, isto pode afectar ao rendemento.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="193"/>
+        <location filename="../prefdrives.cpp" line="211"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;Aviso 2&lt;/b&gt;: quizais desexe asignar a acción «activar a opción nos menús DVD» a un dos botóns do rato.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="195"/>
+        <location filename="../prefdrives.cpp" line="213"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;Aviso 3&lt;/b&gt;: esta funcionalidade está en desenvolvemento. Conta con ter unha morea de problemas con ela.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="278"/>
+        <location filename="../prefdrives.ui" line="314"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>Activar os m&amp;enús DVD (experimental)</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="157"/>
+        <location filename="../prefdrives.ui" line="119"/>
         <source>&amp;Scan for CD/DVD drives</source>
         <translation>Bu&amp;scar dispositivos CD/DVD</translation>
     </message>
@@ -6438,19 +6466,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="133"/>
-        <location filename="../prefinterface.cpp" line="643"/>
+        <location filename="../prefinterface.cpp" line="129"/>
+        <location filename="../prefinterface.cpp" line="639"/>
         <source>Interface</source>
         <translation>Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="148"/>
+        <location filename="../prefinterface.cpp" line="144"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Detectar automaticamente&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
-        <location filename="../prefinterface.cpp" line="202"/>
+        <location filename="../prefinterface.cpp" line="195"/>
+        <location filename="../prefinterface.cpp" line="198"/>
         <source>Default</source>
         <translation>Predeterminado</translation>
     </message>
@@ -6481,37 +6509,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>Recent files</source>
         <translation>Ficheiros recentes</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="659"/>
+        <location filename="../prefinterface.cpp" line="655"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="660"/>
+        <location filename="../prefinterface.cpp" line="656"/>
         <source>Here you can change the language of the application.</source>
         <translation>Pode cambiar o idioma do aplicativo aquí.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="177"/>
+        <location filename="../prefinterface.cpp" line="173"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Salto curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="178"/>
+        <location filename="../prefinterface.cpp" line="174"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Salto normal</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="179"/>
+        <location filename="../prefinterface.cpp" line="175"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Salto longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="180"/>
+        <location filename="../prefinterface.cpp" line="176"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Salto coa &amp;roda do rato</translation>
     </message>
@@ -6637,240 +6665,240 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Inst&amp;ancias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="645"/>
+        <location filename="../prefinterface.cpp" line="641"/>
         <source>Autoresize</source>
         <translation>Redimensionar automaticamente</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="646"/>
+        <location filename="../prefinterface.cpp" line="642"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>A xanela principal pode ser redimensionada automaticamente. Seleccionar a opción que prefira.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="649"/>
+        <location filename="../prefinterface.cpp" line="645"/>
         <source>Remember position and size</source>
         <translation>Lembrar a posición e o tamaño</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="650"/>
+        <location filename="../prefinterface.cpp" line="646"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Se marca esta opción, gardarase a  posición e o tamaño da xanela principal e restabeleceranse cando se abra de novo o SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>Privacy</source>
         <translation>Intimidade</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Seleccionar o número máximo de elementos a ser amosados en &lt;b&gt;Abrir-&gt;Ficheiros recentes&lt;/b&gt;. Se estabelece como 0 non se mostrará o menú.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="666"/>
         <source>Icon set</source>
         <translation>Xogo de iconas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="207"/>
+        <location filename="../prefinterface.cpp" line="203"/>
         <source>Basic GUI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="213"/>
+        <location filename="../prefinterface.cpp" line="209"/>
         <source>Skinnable GUI</source>
         <translation>Interface compatíbel con temas visuais</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="656"/>
+        <location filename="../prefinterface.cpp" line="652"/>
         <source>Move the window when the video area is dragged</source>
         <translation>Move a xanela cando se arrastre a área de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="657"/>
+        <location filename="../prefinterface.cpp" line="653"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>Cando se marca esta opción, a xanela principal móvese cando se arrastra o rato por riba da área de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="663"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>Escolla unha interface para o aplicativo. Ten dúas opcións: a interface predeterminada e a minimalista.&lt;br&gt;A &lt;b&gt;predeterminada&lt;/b&gt; é unha interface tradicional, cunha barra de ferramentas e outra de control. A &lt;b&gt;minimalista&lt;/b&gt; é máis simple, sen barra de ferramentas e cunha barra de control cos botóns mínimos.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="671"/>
+        <location filename="../prefinterface.cpp" line="667"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Seleccionar o xogo de iconas que prefire para este aplicativo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="674"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>Skin</source>
         <translation>Tema visual</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="675"/>
+        <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Escolla un tema visual para o aplicativo. Non todas as interfaces son compatíbeis con eles.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="674"/>
         <source>Style</source>
         <translation>Estilo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="679"/>
+        <location filename="../prefinterface.cpp" line="675"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Seleccionar o estilo que prefire para o aplicativo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="682"/>
+        <location filename="../prefinterface.cpp" line="678"/>
         <source>Default font</source>
         <translation>Tipo de letra predeterminada</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="683"/>
+        <location filename="../prefinterface.cpp" line="679"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Aquí pode cambiar o tipo de letra do aplicativo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="681"/>
         <source>Seeking</source>
         <translation>Localización</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="683"/>
         <source>Short jump</source>
         <translation>Salto curto</translation>
     </message>
     <message>
+        <location filename="../prefinterface.cpp" line="684"/>
         <location filename="../prefinterface.cpp" line="688"/>
         <location filename="../prefinterface.cpp" line="692"/>
-        <location filename="../prefinterface.cpp" line="696"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Seleccionar o tempo que avanzará ou retrocederá cando aplique a acción %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="685"/>
         <source>short jump</source>
         <translation>salto curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="687"/>
         <source>Medium jump</source>
         <translation>Salto normal</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="689"/>
         <source>medium jump</source>
         <translation>salto normal</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="691"/>
         <source>Long jump</source>
         <translation>Salto longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="697"/>
+        <location filename="../prefinterface.cpp" line="693"/>
         <source>long jump</source>
         <translation>salto longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="695"/>
         <source>Mouse wheel jump</source>
         <translation>Salto coa roda do rato</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="700"/>
+        <location filename="../prefinterface.cpp" line="696"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Seleccionar o tempo que avanzará ou retrocederá cando mova a roda do rato.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="699"/>
         <source>Behaviour of time slider</source>
         <translation>Comportamento do control de tempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
+        <location filename="../prefinterface.cpp" line="700"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Seleccionar o que debe acontecer ao arrastrar o control de tempo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="718"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Premendo o botón de parar unha vez reiníciase a posición de tempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="715"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation>Por defecto cando se preme o botón de parar gárdase na posición de tempo no que estaba, co cal, cando se lle dá ao botón de reproducir empezarase desde ese mesmo momento. Precisas premer o botón de parar dúas veces para reiniciar a posición de tempo, agás que teñas esta opción marcada xa que así a posición de tempo porase no 0 con tan só premer unha vez o botón de parar.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="746"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="748"/>
         <source>This option only works with the basic GUI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="753"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="763"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>Max. URLs</source>
         <translation>Enderezos URL máximos</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Escolla o número máximo de elementos que o diálogo &lt;b&gt;Abrir → Enderezo URL&lt;/b&gt; deba lembrar. Empregue o valor 0 para que non se almacene ningún enderezo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>Remember last directory</source>
         <translation>Lembrar o último directorio.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="769"/>
+        <location filename="../prefinterface.cpp" line="765"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Se marca esta opción, SMPlayer lembrará o último cartafol que empregou para abrir un ficheiro.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="517"/>
-        <location filename="../prefinterface.cpp" line="707"/>
+        <location filename="../prefinterface.cpp" line="703"/>
         <source>Seeking method</source>
         <translation>Método de localización</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="708"/>
+        <location filename="../prefinterface.cpp" line="704"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Estabelece o método de localización que se usará coa barra deslizante. A localización absoluta pode ser un pouco máis precisa, mentres que a localización relativa funciona mellor con ficheiros que teñen unha duración incorrecta.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="726"/>
+        <location filename="../prefinterface.cpp" line="722"/>
         <source>Instances</source>
         <translation>Instancias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="725"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Usar só unha instancia do SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="726"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Marque esta opción se desexa usar unha instancia xa existente do SMPlayer cando abra outros ficheiros.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="208"/>
+        <location filename="../prefinterface.cpp" line="204"/>
         <source>Mini GUI</source>
         <translation>Interface reducida</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="658"/>
         <source>GUI</source>
         <translation>Interface</translation>
     </message>
@@ -6880,52 +6908,44 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="734"/>
+        <location filename="../prefinterface.cpp" line="730"/>
         <source>Floating control</source>
         <translation>Control flotante</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="732"/>
         <source>Animated</source>
         <translation>Animado</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Activando esta opción, o control flotante aparecerá como unha animación.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>Width</source>
         <translation>Largo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Especifica o largo do control (como porcentaxe).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>Margin</source>
         <translation>Marxe</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Esta opción estabelece o número de píxeles que o control flotante estará separado do bordo inferior da pantalla. Útil cando a pantalla é un televisor, xa que o sobrescaneado pode evitar que o control sexa visíbel.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>Display in compact mode too</source>
         <translation>Mostrar tamén en modo compacto</translation>
-    </message>
-    <message>
-        <source>Bypass window manager</source>
-        <translation type="obsolete">Saltar o xestor de xanelas</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="obsolete">Se esta opción está activada, o control mostrarase na pantalla sen ter en conta ao xestor de xanelas. Desactivar esta opción se o control flotante non funciona correctamente co xestor de xanelas.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="638"/>
@@ -6964,25 +6984,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mostrar tamén en modo &amp;compacto</translation>
     </message>
     <message>
-        <source>&amp;Bypass window manager</source>
-        <translation type="obsolete">&amp;Saltar o xestor de xanelas</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="obsolete">Se esta opción está activada, o control flotante aparecerá tamén en modo compacto. &lt;b&gt;Advertencia:&lt;/b&gt; o control flotante non foi deseñado para o modo compacto e pode que non funcione correctamente.</translation>
-    </message>
-    <message>
-        <location filename="../prefinterface.cpp" line="210"/>
+        <location filename="../prefinterface.cpp" line="206"/>
         <source>Mpc GUI</source>
         <translation>Interface Mpc</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="653"/>
+        <location filename="../prefinterface.cpp" line="649"/>
         <source>Hide video window when playing audio files</source>
         <translation>Agochar a xanela de vídeo ao reproducir ficheiros de son.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="654"/>
+        <location filename="../prefinterface.cpp" line="650"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Ao activar esta opción, a xanela de vídeo agocharase cando se reproduzan ficheiros de son.</translation>
     </message>
@@ -6992,17 +7004,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Agochar a xanela de vídeo ao reproducir ficheiros de son.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.cpp" line="709"/>
         <source>Precise seeking</source>
         <translation>Localización precisa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="714"/>
+        <location filename="../prefinterface.cpp" line="710"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Ao activar esta opción, as localizacións pola liña de tempo serán máis precisas mais poida que algo máis lentas. Podería non funcionar con algúns formatos de vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="716"/>
+        <location filename="../prefinterface.cpp" line="712"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Nota: esta opción só funciona con MPlayer2.</translation>
     </message>
