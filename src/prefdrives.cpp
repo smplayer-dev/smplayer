@@ -199,8 +199,8 @@ void PrefDrives::createHelp() {
 	setWhatsThis(dvd_device_combo, tr("DVD device"),
 		tr("Choose your DVD device. It will be used to play DVDs.") );
 
-	setWhatsThis(bluray_device_combo, tr("Bluray device"),
-		tr("Choose your Bluray device. It will be used to play Bluray discs.") );
+	setWhatsThis(bluray_device_combo, tr("Blu-ray device"),
+		tr("Choose your Blu-ray device. It will be used to play Blu-ray discs.") );
 
 #if DVDNAV_SUPPORT
 	setWhatsThis(use_dvdnav_check, tr("Enable DVD menus"),
