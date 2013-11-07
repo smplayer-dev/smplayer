@@ -220,6 +220,13 @@
         </layout>
        </item>
        <item>
+        <widget class="QCheckBox" name="use_dvdnav_check">
+         <property name="text">
+          <string>&amp;Enable DVD menus (experimental)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="Line" name="line">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
@@ -302,20 +309,6 @@
         </layout>
        </item>
        <item>
-        <widget class="Line" name="line_2">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="use_dvdnav_check">
-         <property name="text">
-          <string>&amp;Enable DVD menus (experimental)</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -347,8 +340,8 @@
   <tabstop>cdrom_device_combo</tabstop>
   <tabstop>check_drives_button</tabstop>
   <tabstop>dvd_device_combo</tabstop>
-  <tabstop>bluray_device_combo</tabstop>
   <tabstop>use_dvdnav_check</tabstop>
+  <tabstop>bluray_device_combo</tabstop>
  </tabstops>
  <resources/>
  <connections/>

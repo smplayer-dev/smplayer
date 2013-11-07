@@ -199,9 +199,6 @@ void PrefDrives::createHelp() {
 	setWhatsThis(dvd_device_combo, tr("DVD device"),
 		tr("Choose your DVD device. It will be used to play DVDs.") );
 
-	setWhatsThis(bluray_device_combo, tr("Blu-ray device"),
-		tr("Choose your Blu-ray device. It will be used to play Blu-ray discs.") );
-
 #if DVDNAV_SUPPORT
 	setWhatsThis(use_dvdnav_check, tr("Enable DVD menus"),
 		tr("If this option is checked, smplayer will play DVDs using "
@@ -213,6 +210,9 @@ void PrefDrives::createHelp() {
         tr("<b>Note 3</b>: this feature is under development, expect a lot of "
            "issues with it."));
 #endif
+
+	setWhatsThis(bluray_device_combo, tr("Blu-ray device"),
+		tr("Choose your Blu-ray device. It will be used to play Blu-ray discs.") );
 }
 
 #include "moc_prefdrives.cpp"
