@@ -78,7 +78,7 @@ void PrefDrives::retranslateStrings() {
 
 	cdrom_drive_icon->setPixmap( Images::icon("cdrom_drive") );
 	dvd_drive_icon->setPixmap( Images::icon("dvd_drive") );
-	bluray_drive_icon->setPixmap( Images::icon("dvd_drive") ); // FIXME: add icon for bluray
+	bluray_drive_icon->setPixmap( Images::icon("bluray_drive") );
 
 	createHelp();
 }
