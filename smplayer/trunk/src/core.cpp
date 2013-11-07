@@ -777,22 +777,24 @@ void Core::openDVD(QString dvd_url) {
 
 /**
  * Opens a BluRay, taking advantage of mplayer's capabilities to do so.
- * @param folder_location the folder where the bluRay is mounted
  */
-void Core::openBluRay(QString folder_location) {
-	qDebug("Core::openBluRay: '%s'", folder_location.toUtf8().data());
+void Core::openBluRay(QString bluray_url) {
+	qDebug("Core::openBluRay: '%s'", bluray_url.toUtf8().data());
 
 	//Checks
-	QString folder = folder_location;
-	QString withProtocol = "br:///" + folder;
-	if (folder.isEmpty()) {
-		qDebug("Core::openBluRay: not folder");
-	} else {
-		QFileInfo fi(folder);
-		if (!fi.exists()) {
-			qWarning("Core::openBluRay: folder invalid, not playing dvd");
-			return;
-		}
+	DiscData disc_data = DiscName::split(bluray_url);
+	QString folder = disc_data.device;
+	int title = disc_data.title;
+
+	if (title == -1) {
+		qWarning("Core::openBluRay: title invalid, not playing bluray");
+		return;
+	}
+
+	QFileInfo fi(folder);
+	if ( (!fi.exists()) || (!fi.isDir()) ) {
+		qWarning("Core::openBluRay: folder invalid, not playing bluray");
+		return;
 	}
 
 	if (proc->isRunning()) {
@@ -806,10 +808,10 @@ void Core::openBluRay(QString folder_location) {
 #endif
 
 	mdat.reset();
-	mdat.filename = withProtocol;
+	mdat.filename = bluray_url;
 	mdat.type = TYPE_BLURAY;
 
-	mset.current_title_id = 0;
+	mset.current_title_id = title;
 	mset.current_chapter_id = firstChapter();
 	mset.current_angle_id = 1;
 
@@ -3608,19 +3610,29 @@ void Core::changeTitle(int ID) {
 	}
 	else
 	if (mdat.type == TYPE_DVD) {
-#if DVDNAV_SUPPORT
+		#if DVDNAV_SUPPORT
 		if (mdat.filename.startsWith("dvdnav:")) {
 			tellmp("switch_title " + QString::number(ID));
 		} else {
-#endif
+		#endif
 			DiscData disc_data = DiscName::split(mdat.filename);
 			disc_data.title = ID;
 			QString dvd_url = DiscName::join(disc_data);
 
 			openDVD( DiscName::join(disc_data) );
-#if DVDNAV_SUPPORT
+		#if DVDNAV_SUPPORT
 		}
-#endif
+		#endif
+	}
+	else
+	if (mdat.type == TYPE_BLURAY) {
+		//DiscName::test();
+
+		DiscData disc_data = DiscName::split(mdat.filename);
+		disc_data.title = ID;
+		QString bluray_url = DiscName::join(disc_data);
+		qDebug("Core::changeTitle: bluray_url: %s", bluray_url.toUtf8().constData());
+		openBluRay(bluray_url);
 	}
 }
 

@@ -97,8 +97,8 @@ public slots:
 	virtual void openDVDFromFolder();
 	virtual void openDVDFromFolder(QString directory);
 	void openBluRay();
-	void openBluRayFolder();
-	void openBluRay(QString directory);
+	void openBluRayFromFolder();
+	void openBluRayFromFolder(QString directory);
 	virtual void openDirectory();
 	virtual void openDirectory(QString directory);
 

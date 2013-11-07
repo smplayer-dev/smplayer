@@ -158,7 +158,7 @@ static QRegExp rx("^(.*)=(.*)");
 static QRegExp rx_audio_mat("^ID_AID_(\\d+)_(LANG|NAME)=(.*)");
 #endif
 static QRegExp rx_video("^ID_VID_(\\d+)_(LANG|NAME)=(.*)");
-static QRegExp rx_title("^ID_DVD_TITLE_(\\d+)_(LENGTH|CHAPTERS|ANGLES)=(.*)");
+static QRegExp rx_title("^ID_(DVD|BLURAY)_TITLE_(\\d+)_(LENGTH|CHAPTERS|ANGLES)=(.*)");
 static QRegExp rx_chapters("^ID_CHAPTER_(\\d+)_(START|END|NAME)=(.+)");
 static QRegExp rx_winresolution("^VO: \\[(.*)\\] (\\d+)x(\\d+) => (\\d+)x(\\d+)");
 static QRegExp rx_ao("^AO: \\[(.*)\\]");
@@ -621,25 +621,25 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		}
 		else
 
-		// DVD titles
+		// DVD/Bluray titles
 		if (rx_title.indexIn(line) > -1) {
-			int ID = rx_title.cap(1).toInt();
-			QString t = rx_title.cap(2);
+			int ID = rx_title.cap(2).toInt();
+			QString t = rx_title.cap(3);
 
 			if (t=="LENGTH") {
-				double length = rx_title.cap(3).toDouble();
+				double length = rx_title.cap(4).toDouble();
 				qDebug("MplayerProcess::parseLine: Title: ID: %d, Length: '%f'", ID, length);
 				md.titles.addDuration(ID, length);
 			} 
 			else
 			if (t=="CHAPTERS") {
-				int chapters = rx_title.cap(3).toInt();
+				int chapters = rx_title.cap(4).toInt();
 				qDebug("MplayerProcess::parseLine: Title: ID: %d, Chapters: '%d'", ID, chapters);
 				md.titles.addChapters(ID, chapters);
 			}
 			else
 			if (t=="ANGLES") {
-				int angles = rx_title.cap(3).toInt();
+				int angles = rx_title.cap(4).toInt();
 				qDebug("MplayerProcess::parseLine: Title: ID: %d, Angles: '%d'", ID, angles);
 				md.titles.addAngles(ID, angles);
 			}

@@ -39,6 +39,7 @@ QString DiscName::join(Disc type, int title, const QString & device) {
 		case DVDNAV: protocol = "dvdnav"; break;
 		case VCD: protocol = "vcd"; break;
 		case CDDA: protocol = "cdda"; break;
+		case BLURAY: protocol = "br"; break;
 	}
 	return join( DiscData(protocol, title, device) );
 }
@@ -46,10 +47,10 @@ QString DiscName::join(Disc type, int title, const QString & device) {
 DiscData DiscName::split(const QString & disc_url, bool * ok) {
 	qDebug("DiscName::split: disc_url: '%s'", disc_url.toUtf8().constData());
 
-	QRegExp rx1("^(dvd|dvdnav|vcd|cdda)://(\\d+)/(.*)");
-	QRegExp rx2("^(dvd|dvdnav|vcd|cdda)://(\\d+)");
-	QRegExp rx3("^(dvd|dvdnav|vcd|cdda):///(.*)");
-	QRegExp rx4("^(dvd|dvdnav|vcd|cdda):(.*)");
+	QRegExp rx1("^(dvd|dvdnav|vcd|cdda|br)://(\\d+)/(.*)");
+	QRegExp rx2("^(dvd|dvdnav|vcd|cdda|br)://(\\d+)");
+	QRegExp rx3("^(dvd|dvdnav|vcd|cdda|br):///(.*)");
+	QRegExp rx4("^(dvd|dvdnav|vcd|cdda|br):(.*)");
 
 	DiscData d;
 
@@ -144,6 +145,12 @@ void DiscName::test() {
 	d = split( "dvdnav://" );
 	d = split( "dvdnav:////dev/dvdrecorder/" );
 
+	d = split( "br://1//dev/dvd" );
+	d = split( "br://1/D:/" );
+	d = split( "br://5" );
+	d = split( "br://" );
+	d = split( "br:////dev/dvdrecorder/" );
+
 	QString s;
 	s = join( DVD, 4, "/dev/dvd/" );
 	s = join( DVD, 2, "E:" );
@@ -155,5 +162,6 @@ void DiscName::test() {
 	s = joinDVD( 2, "/dev/cdrom/", true );
 	s = joinDVD( 3, "", true );
 	s = join( VCD, 3, "" );
+	s = join( BLURAY, 2, "/dev/cdrom");
 }
 #endif
