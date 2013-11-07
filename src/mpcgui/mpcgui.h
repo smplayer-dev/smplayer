@@ -27,7 +27,8 @@
 class TimeSliderAction;
 class VolumeSliderAction;
 class TimeLabelAction;
-class FloatingWidget;
+class AutohideWidget;
+class QSpacerItem;
 class QToolBar;
 
 class MpcGui : public BaseGuiPlus
@@ -43,8 +44,6 @@ public:
 #endif
 
 protected slots:
-	void showFloatingControl(QPoint p);
-	void hideFloatingControl();
     void muteIconChange(bool b);
     void iconChange(Core::State state);
     void updateAudioChannels();
@@ -89,7 +88,8 @@ protected:
 	QLabel * time_display;
 	QLabel * frame_display;
 
-	FloatingWidget * floating_control;
+	AutohideWidget * floating_control;
+	QSpacerItem * spacer;
 
 	TimeSliderAction * timeslider_action;
 #if USE_VOLUME_BAR
