@@ -19,7 +19,7 @@
 #include "mpcgui.h"
 #include "mpcstyles.h"
 #include "widgetactions.h"
-#include "floatingwidget.h"
+#include "autohidewidget.h"
 #include "myaction.h"
 #include "mplayerwindow.h"
 #include "global.h"
@@ -31,6 +31,7 @@
 #include <QStatusBar>
 #include <QLabel>
 #include <QSlider>
+#include <QLayout>
 #include <QApplication>
 
 using namespace Global;
@@ -41,13 +42,8 @@ MpcGui::MpcGui( QWidget * parent, Qt::WindowFlags flags )
 {
 	createActions();
 	createControlWidget();
-    createStatusBar();
-
-	connect( this, SIGNAL(cursorNearBottom(QPoint)),
-             this, SLOT(showFloatingControl(QPoint)) );
-
-	connect( this, SIGNAL(cursorFarEdges()),
-             this, SLOT(hideFloatingControl()) );
+	createStatusBar();
+	createFloatingControl();
 
 	retranslateStrings();
 
@@ -130,6 +126,14 @@ void MpcGui::createControlWidget() {
     statusBar()->show();
 }
 
+void MpcGui::createFloatingControl() {
+	// Floating control
+	floating_control = new AutohideWidget(panel);
+	floating_control->setAutoHide(true);
+	floating_control->hide();
+	spacer = new QSpacerItem(10,10);
+}
+
 void MpcGui::retranslateStrings() {
 	BaseGuiPlus::retranslateStrings();
 
@@ -162,20 +166,50 @@ void MpcGui::disableActionsOnStop() {
 void MpcGui::aboutToEnterFullscreen() {
 	BaseGuiPlus::aboutToEnterFullscreen();
 
+	// Show floating_control
+	// Move controls to the floating_control layout
+	removeToolBarBreak(controlwidget);
+	removeToolBar(controlwidget);
+	removeToolBar(timeslidewidget);
+	floating_control->layout()->addWidget(timeslidewidget);
+	floating_control->layout()->addItem(spacer);
+	floating_control->layout()->addWidget(controlwidget);
+	controlwidget->show();
+	timeslidewidget->show();
+	floating_control->adjustSize();
+
+	floating_control->setMargin(pref->floating_control_margin);
+	floating_control->setPercWidth(pref->floating_control_width);
+	floating_control->setAnimated(pref->floating_control_animated);
+	QTimer::singleShot(500, floating_control, SLOT(activate()));
+
+
 	if (!pref->compact_mode) {
-		controlwidget->hide();
-        timeslidewidget->hide();
-        statusBar()->hide();
+		//controlwidget->hide();
+		//timeslidewidget->hide();
+		statusBar()->hide();
 	}
 }
 
 void MpcGui::aboutToExitFullscreen() {
 	BaseGuiPlus::aboutToExitFullscreen();
 
+	// Remove controls from the floating_control and put them back to the mainwindow
+	floating_control->deactivate();
+	floating_control->layout()->removeWidget(controlwidget);
+	floating_control->layout()->removeWidget(timeslidewidget);
+	floating_control->layout()->removeItem(spacer);
+	addToolBar(Qt::BottomToolBarArea, controlwidget);
+	addToolBarBreak(Qt::BottomToolBarArea);
+	addToolBar(Qt::BottomToolBarArea, timeslidewidget);
+
 	if (!pref->compact_mode) {
 		controlwidget->show();
-        statusBar()->show();
-        timeslidewidget->show();
+		statusBar()->show();
+		timeslidewidget->show();
+	} else {
+		controlwidget->hide();
+		timeslidewidget->hide();
 	}
 }
 
@@ -183,8 +217,8 @@ void MpcGui::aboutToEnterCompactMode() {
 	BaseGuiPlus::aboutToEnterCompactMode();
 
 	controlwidget->hide();
-    timeslidewidget->hide();
-    statusBar()->hide();
+	timeslidewidget->hide();
+	statusBar()->hide();
 }
 
 void MpcGui::aboutToExitCompactMode() {
@@ -192,13 +226,7 @@ void MpcGui::aboutToExitCompactMode() {
 
 	statusBar()->show();
 	controlwidget->show();
-    timeslidewidget->show();
-}
-
-void MpcGui::showFloatingControl(QPoint /*p*/) {
-}
-
-void MpcGui::hideFloatingControl() {
+	timeslidewidget->show();
 }
 
 #if USE_mpcMUMSIZE
@@ -380,12 +408,6 @@ void MpcGui::createStatusBar() {
 
 	connect( this, SIGNAL(frameChanged(int)),
              this, SLOT(displayFrame(int)) );
-
-    connect( this, SIGNAL(cursorNearBottom(QPoint)),
-             this, SLOT(showFullscreenControls()) );
-
-    connect( this, SIGNAL(cursorFarEdges()),
-             this, SLOT(hideFullscreenControls()) );
 }
 
 void MpcGui::displayTime(QString text) {
