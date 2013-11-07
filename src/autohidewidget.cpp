@@ -16,7 +16,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "floatingwidget2.h"
+#include "autohidewidget.h"
 #include <QTimer>
 #include <QEvent>
 #include <QVBoxLayout>
@@ -26,7 +26,7 @@
 #include <QPropertyAnimation>
 #endif
 
-FloatingWidget2::FloatingWidget2(QWidget * parent)
+AutohideWidget::AutohideWidget(QWidget * parent)
 	: QWidget(parent)
 	, turned_on(false)
 	, auto_hide(false)
@@ -56,22 +56,22 @@ FloatingWidget2::FloatingWidget2(QWidget * parent)
 	setLayout(layout);
 }
 
-FloatingWidget2::~FloatingWidget2() {
+AutohideWidget::~AutohideWidget() {
 #if QT_VERSION >= 0x040600
 	if (animation) delete animation;
 #endif
 }
 
-void FloatingWidget2::setInternalWidget(QWidget * w) {
+void AutohideWidget::setInternalWidget(QWidget * w) {
 	layout()->addWidget(w);
 	internal_widget = w;
 }
 
-void FloatingWidget2::installFilter(QObject *o) {
+void AutohideWidget::installFilter(QObject *o) {
 	QObjectList children = o->children();
 	for (int n=0; n < children.count(); n++) {
 		if (children[n]->isWidgetType()) {
-			qDebug() << "FloatingWidget2::installFilter: child name:" << children[n]->objectName();
+			qDebug() << "AutohideWidget::installFilter: child name:" << children[n]->objectName();
 			QWidget *w = static_cast<QWidget *>(children[n]);
 			w->setMouseTracking(true);
 			w->installEventFilter(this);
@@ -80,19 +80,19 @@ void FloatingWidget2::installFilter(QObject *o) {
 	}
 }
 
-void FloatingWidget2::activate() {
+void AutohideWidget::activate() {
 	turned_on = true;
 	timer->start();
 }
 
-void FloatingWidget2::deactivate() {
+void AutohideWidget::deactivate() {
 	turned_on = false;
 	timer->stop();
 	hide();
 }
 
-void FloatingWidget2::show() {
-	qDebug() << "FloatingWidget2::show";
+void AutohideWidget::show() {
+	qDebug() << "AutohideWidget::show";
 	resizeAndMove();
 
 	if (use_animation) {
@@ -105,18 +105,18 @@ void FloatingWidget2::show() {
 	if (timer->isActive()) timer->start();
 }
 
-void FloatingWidget2::setAutoHide(bool b) {
+void AutohideWidget::setAutoHide(bool b) {
 	auto_hide = b;
 }
 
-void FloatingWidget2::checkUnderMouse() {
+void AutohideWidget::checkUnderMouse() {
 	if (auto_hide) {
-		//qDebug("FloatingWidget2::checkUnderMouse");
+		//qDebug("AutohideWidget::checkUnderMouse");
 		if ((isVisible()) && (!underMouse())) hide();
 	}
 }
 
-void FloatingWidget2::resizeAndMove() {
+void AutohideWidget::resizeAndMove() {
 	QWidget * widget = parentWidget();
 	int w = widget->width() * perc_width / 100;
 	int h = height();
@@ -127,11 +127,11 @@ void FloatingWidget2::resizeAndMove() {
 	move(x, y);
 }
 
-bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
+bool AutohideWidget::eventFilter(QObject * obj, QEvent * event) {
 	if (turned_on) {
-		//qDebug() << "FloatingWidget2::eventFilter: obj:" << obj << "type:" << event->type();
+		//qDebug() << "AutohideWidget::eventFilter: obj:" << obj << "type:" << event->type();
 		if (event->type() == QEvent::MouseMove) {
-			//qDebug() << "FloatingWidget2::eventFilter: mouse move" << obj;
+			//qDebug() << "AutohideWidget::eventFilter: mouse move" << obj;
 			if (!isVisible()) show();
 		}
 	}
@@ -139,7 +139,7 @@ bool FloatingWidget2::eventFilter(QObject * obj, QEvent * event) {
 	return QWidget::eventFilter(obj, event);
 }
 
-void FloatingWidget2::showAnimated() {
+void AutohideWidget::showAnimated() {
 #if QT_VERSION >= 0x040600
 	if (!animation) {
 		animation = new QPropertyAnimation(this, "pos");
@@ -161,5 +161,5 @@ void FloatingWidget2::showAnimated() {
 #endif
 }
 
-#include "moc_floatingwidget2.cpp"
+#include "moc_autohidewidget.cpp"
 
