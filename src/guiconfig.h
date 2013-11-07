@@ -20,14 +20,6 @@
 #define _GUICONFIG_H_
 
 
-// CONTROLWIDGET_OVER_VIDEO
-// if set to 1, the controlwidget will be shown in fullscreen
-// *over* the video (not moving the video) when the user move the mouse 
-// to the bottom area of the screen.
-
-#define CONTROLWIDGET_OVER_VIDEO 1
-
-
 // DOCK_PLAYLIST
 // if 1, the playlist will be docked in the main window, instead
 // of being a top level window
