@@ -255,7 +255,7 @@
            <item>
             <widget class="QLabel" name="textLabel2_3">
              <property name="text">
-              <string>Select your &amp;Bluray device:</string>
+              <string>Select your &amp;Blu-ray device:</string>
              </property>
              <property name="wordWrap">
               <bool>false</bool>
