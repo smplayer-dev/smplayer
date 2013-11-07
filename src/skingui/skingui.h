@@ -40,10 +40,7 @@ class MediaBarPanel;
 class SeekingButton;
 #endif
 
-#define SKIN_CONTROLWIDGET_OVER_VIDEO 1
-#ifdef SKIN_CONTROLWIDGET_OVER_VIDEO
 //#define SKIN_EDITABLE_CONTROL 1
-#endif
 
 class SkinGui : public BaseGuiPlus
 {
@@ -62,9 +59,7 @@ protected:
 
 	void createMainToolBars();
 	void createControlWidget();
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
 	void createFloatingControl();
-#endif
 	void createActions();
 	void createMenus();
 
@@ -82,10 +77,6 @@ protected slots:
 	virtual void displayState(Core::State state);
 	virtual void displayMessage(QString message, int time);
 	virtual void displayMessage(QString message);
-
-	virtual void showFloatingControl(QPoint p);
-	virtual void showFloatingMenu(QPoint p);
-	virtual void hideFloatingControls();
 
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
@@ -110,14 +101,12 @@ protected:
 	SeekingButton * forwardbutton_action;
 #endif
 
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
 	AutohideWidget * floating_control;
-#endif
 	TimeLabelAction * time_label_action;
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	MyAction * editFloatingControlAct;
 	#endif
 #endif

@@ -57,31 +57,19 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	connect( this, SIGNAL(timeChanged(QString)),
              this, SLOT(displayTime(QString)) );
 
-#if !SKIN_CONTROLWIDGET_OVER_VIDEO
-	connect( this, SIGNAL(cursorNearBottom(QPoint)), 
-             this, SLOT(showFloatingControl(QPoint)) );
-	connect( this, SIGNAL(cursorNearTop(QPoint)), 
-             this, SLOT(showFloatingMenu(QPoint)) );
-	connect( this, SIGNAL(cursorFarEdges()), 
-             this, SLOT(hideFloatingControls()) );
-#endif
-
 	createActions();
 	createMainToolBars();
 	createControlWidget();
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
 	createFloatingControl();
-#endif
 	createMenus();
 
 #if USE_CONFIGURABLE_TOOLBARS
 	connect( editToolbar1Act, SIGNAL(triggered()),
              toolbar1, SLOT(edit()) );
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->takeAvailableActionsFrom(this);
-	connect( editFloatingControlAct, SIGNAL(triggered()),
-             iw, SLOT(edit()) );
+	connect( editFloatingControlAct, SIGNAL(triggered()), iw, SLOT(edit()) );
 	#endif
 #endif
 
@@ -148,7 +136,7 @@ void SkinGui::createActions() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	editFloatingControlAct = new MyAction( this, "edit_floating_control" );
 	#endif
 #endif
@@ -201,7 +189,7 @@ void SkinGui::createMenus() {
 #if USE_CONFIGURABLE_TOOLBARS
 	toolbar_menu->addSeparator();
 	toolbar_menu->addAction(editToolbar1Act);
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	toolbar_menu->addAction(editFloatingControlAct);
 	#endif
 #endif
@@ -217,7 +205,7 @@ QMenu * SkinGui::createPopupMenu() {
 	QMenu * m = new QMenu(this);
 #if USE_CONFIGURABLE_TOOLBARS
 	m->addAction(editToolbar1Act);
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	m->addAction(editFloatingControlAct);
 	#endif
 #else
@@ -324,7 +312,6 @@ void SkinGui::createControlWidget() {
 	mediaBarPanelAction = controlwidget->addWidget(mediaBarPanel);
 }
 
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
 void SkinGui::createFloatingControl() {
 	// Floating control
 	floating_control = new AutohideWidget(panel);
@@ -404,7 +391,6 @@ void SkinGui::createFloatingControl() {
 
 	floating_control->hide();
 }
-#endif
 
 void SkinGui::retranslateStrings() {
 	BaseGuiPlus::retranslateStrings();
@@ -420,7 +406,7 @@ void SkinGui::retranslateStrings() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit main &toolbar") );
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	editFloatingControlAct->change( tr("Edit &floating control") );
 	#endif
 #endif
@@ -467,7 +453,6 @@ void SkinGui::aboutToEnterFullscreen() {
 
 	BaseGuiPlus::aboutToEnterFullscreen();
 
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
 	#ifndef SKIN_EDITABLE_CONTROL
 	controlwidget->removeAction(mediaBarPanelAction);
 	floating_control->layout()->addWidget(mediaBarPanel);
@@ -479,7 +464,7 @@ void SkinGui::aboutToEnterFullscreen() {
 	floating_control->setPercWidth(pref->floating_control_width);
 	floating_control->setAnimated(pref->floating_control_animated);
 	QTimer::singleShot(500, floating_control, SLOT(activate()));
-#endif
+
 
 	// Save visibility of toolbars
 	fullscreen_toolbar1_was_visible = toolbar1->isVisible();
@@ -495,14 +480,12 @@ void SkinGui::aboutToExitFullscreen() {
 
 	BaseGuiPlus::aboutToExitFullscreen();
 
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
 	floating_control->deactivate();
 	#ifndef SKIN_EDITABLE_CONTROL
 	floating_control->layout()->removeWidget(mediaBarPanel);
 	mediaBarPanelAction = controlwidget->addWidget(mediaBarPanel);
 	mediaBarPanel->setVolume(core->mset.volume); // FIXME
 	#endif
-#endif
 
 	if (!pref->compact_mode) {
 		statusBar()->hide();
@@ -533,51 +516,6 @@ void SkinGui::aboutToExitCompactMode() {
 	/* resizeEvent( new QResizeEvent( size(), size() ) ); */
 }
 
-void SkinGui::showFloatingControl(QPoint /*p*/) {
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
-/*
-	if ((pref->compact_mode) && (!pref->fullscreen)) {
-		floating_control->setAnimated( false );
-	} else {
-		floating_control->setAnimated( pref->floating_control_animated );
-	}
-	floating_control->setMargin(pref->floating_control_margin);
-	#ifndef Q_OS_WIN
-	floating_control->setBypassWindowManager(pref->bypass_window_manager);
-	#endif
-	floating_control->showOver(panel, pref->floating_control_width);
-*/
-#else
-	qDebug("SkinGui::showFloatingControl");
-	if (!controlwidget->isVisible()) {
-		controlwidget->show();
-	}
-#endif
-}
-
-void SkinGui::showFloatingMenu(QPoint /*p*/) {
-#if !SKIN_CONTROLWIDGET_OVER_VIDEO
-	qDebug("SkinGui::showFloatingMenu");
-
-	if (!menuBar()->isVisible())
-		menuBar()->show();
-#endif
-}
-
-void SkinGui::hideFloatingControls() {
-	qDebug("SkinGui::hideFloatingControls");
-
-#if SKIN_CONTROLWIDGET_OVER_VIDEO
-	//floating_control->hide();
-#else
-	if (controlwidget->isVisible())
-		controlwidget->hide();
-
-	if (menuBar()->isVisible())
-		menuBar()->hide();
-#endif
-}
-
 void SkinGui::saveConfig() {
 	qDebug("SkinGui::saveConfig");
 
@@ -602,7 +540,7 @@ void SkinGui::saveConfig() {
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
 	set->setValue("toolbar1", toolbar1->actionsToStringList() );
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	set->setValue("floating_control", iw->actionsToStringList() );
 	#endif
@@ -653,7 +591,7 @@ void SkinGui::loadConfig() {
 		qDebug("SkinGui::loadConfig: toolbar too old, loading default one");
 		toolbar1->setActionsFromStringList( toolbar1->defaultActions() );
 	}
-	#if defined(SKIN_CONTROLWIDGET_OVER_VIDEO) && defined(SKIN_EDITABLE_CONTROL)
+	#if defined(SKIN_EDITABLE_CONTROL)
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
 	floating_control->adjustSize();
