@@ -47,7 +47,7 @@ public:
 class DiscName {
 
 public:
-	enum Disc { DVD = 1, DVDNAV = 2, VCD = 3, CDDA = 4 };
+	enum Disc { DVD = 1, DVDNAV = 2, VCD = 3, CDDA = 4, BLURAY = 5 };
 
 	static QString join(Disc type, int title, const QString & device);
 	static QString join(const DiscData & d);
