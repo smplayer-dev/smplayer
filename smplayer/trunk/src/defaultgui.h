@@ -84,10 +84,6 @@ protected slots:
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
 
-	virtual void showFloatingControl(QPoint p);
-	virtual void showFloatingMenu(QPoint p);
-	virtual void hideFloatingControls();
-
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();

@@ -60,15 +60,6 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	connect( this, SIGNAL(videoInfoChanged(int,int,double)),
              this, SLOT(displayVideoInfo(int,int,double)) );
 
-#if !CONTROLWIDGET_OVER_VIDEO
-	connect( this, SIGNAL(cursorNearBottom(QPoint)), 
-             this, SLOT(showFloatingControl(QPoint)) );
-	connect( this, SIGNAL(cursorNearTop(QPoint)), 
-             this, SLOT(showFloatingMenu(QPoint)) );
-	connect( this, SIGNAL(cursorFarEdges()), 
-             this, SLOT(hideFloatingControls()) );
-#endif
-
 	createActions();
 	createMainToolBars();
     createControlWidget();
@@ -586,13 +577,13 @@ void DefaultGui::aboutToEnterFullscreen() {
 
 	BaseGuiPlus::aboutToEnterFullscreen();
 
-#if CONTROLWIDGET_OVER_VIDEO
+	// Show floating_control
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->setPercWidth(pref->floating_control_width);
 	floating_control->setAnimated(pref->floating_control_animated);
 	floating_control->deactivate(); // Hide the control in case it was running from compact mode
 	QTimer::singleShot(500, floating_control, SLOT(activate()));
-#endif
+
 
 	// Save visibility of toolbars
 	fullscreen_toolbar1_was_visible = toolbar1->isVisible();
@@ -613,13 +604,10 @@ void DefaultGui::aboutToExitFullscreen() {
 
 	BaseGuiPlus::aboutToExitFullscreen();
 
-#if CONTROLWIDGET_OVER_VIDEO
+	// Hide floating_control
 	if (!pref->compact_mode || !pref->floating_display_in_compact_mode) {
 		floating_control->deactivate();
 	}
-#else
-	floating_control->hide();
-#endif
 
 	if (!pref->compact_mode) {
 		//menuBar()->show();
@@ -635,14 +623,14 @@ void DefaultGui::aboutToEnterCompactMode() {
 
 	BaseGuiPlus::aboutToEnterCompactMode();
 
-#if CONTROLWIDGET_OVER_VIDEO
+	// Show floating_control
 	if (pref->floating_display_in_compact_mode) {
 		floating_control->setMargin(pref->floating_control_margin);
 		floating_control->setPercWidth(pref->floating_control_width);
 		floating_control->setAnimated(pref->floating_control_animated);
 		QTimer::singleShot(500, floating_control, SLOT(activate()));
 	}
-#endif
+
 
 	// Save visibility of toolbars
 	compact_toolbar1_was_visible = toolbar1->isVisible();
@@ -659,11 +647,10 @@ void DefaultGui::aboutToEnterCompactMode() {
 void DefaultGui::aboutToExitCompactMode() {
 	BaseGuiPlus::aboutToExitCompactMode();
 
-#if CONTROLWIDGET_OVER_VIDEO
+	// Hide floating_control
 	if (pref->floating_display_in_compact_mode) {
 		floating_control->deactivate();
 	}
-#endif
 
 	//menuBar()->show();
 	//statusBar()->show();
@@ -674,52 +661,6 @@ void DefaultGui::aboutToExitCompactMode() {
 
 	// Recheck size of controlwidget
 	resizeEvent( new QResizeEvent( size(), size() ) );
-}
-
-void DefaultGui::showFloatingControl(QPoint /*p*/) {
-	qDebug("DefaultGui::showFloatingControl");
-
-#if CONTROLWIDGET_OVER_VIDEO
-	/*
-	if ((pref->compact_mode) && (!pref->fullscreen)) {
-		floating_control->setAnimated( false );
-	} else {
-		floating_control->setAnimated( pref->floating_control_animated );
-	}
-	floating_control->setMargin(pref->floating_control_margin);
-	#ifndef Q_OS_WIN
-	floating_control->setBypassWindowManager(pref->bypass_window_manager);
-	#endif
-	floating_control->showOver(panel, pref->floating_control_width);
-	*/
-#else
-	if (!controlwidget->isVisible()) {
-		controlwidget->show();
-	}
-#endif
-}
-
-void DefaultGui::showFloatingMenu(QPoint /*p*/) {
-#if !CONTROLWIDGET_OVER_VIDEO
-	qDebug("DefaultGui::showFloatingMenu");
-
-	if (!menuBar()->isVisible())
-		menuBar()->show();
-#endif
-}
-
-void DefaultGui::hideFloatingControls() {
-	qDebug("DefaultGui::hideFloatingControls");
-
-#if CONTROLWIDGET_OVER_VIDEO
-	//floating_control->hide();
-#else
-	if (controlwidget->isVisible())	
-		controlwidget->hide();
-
-	if (menuBar()->isVisible())	
-		menuBar()->hide();
-#endif
 }
 
 void DefaultGui::resizeEvent( QResizeEvent * ) {
