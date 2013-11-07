@@ -271,10 +271,6 @@ protected slots:
 	virtual void loadActions();
 	virtual void saveActions();
 
-	// Check the mouse pos in fullscreen mode, to
-	// show the controlwidget if it's moved to
-	// the bottom area.
-	virtual void checkMousePos( QPoint );
 	virtual void moveWindow(QPoint diff);
 
 	// Single instance stuff
@@ -317,10 +313,6 @@ signals:
 	void videoInfoChanged(int width, int height, double fps);
 	void timeChanged(QString time_ready_to_print);
 
-	void cursorNearTop(QPoint);
-	void cursorNearBottom(QPoint);
-	void cursorFarEdges();
-	
 	void wheelUp();
 	void wheelDown();
 	/*
@@ -791,9 +783,6 @@ protected:
 
 private:
 	QString default_style;
-
-	bool near_top;
-	bool near_bottom;
 
 	// Variables to restore pos and size of the window
 	// when exiting from fullscreen mode.
