@@ -119,9 +119,7 @@
 using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
-	: QMainWindow( parent, flags ),
-		near_top(false),
-		near_bottom(false)
+	: QMainWindow( parent, flags )
 {
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	/* Disable screensaver by event */
@@ -2105,8 +2103,6 @@ void BaseGui::createMplayerWindow() {
              this, SLOT(xbutton1ClickFunction()) );
 	connect( mplayerwindow, SIGNAL(xbutton2Clicked()),
              this, SLOT(xbutton2ClickFunction()) );
-	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)),
-             this, SLOT(checkMousePos(QPoint)) );
 
 	if (pref->move_when_dragging) {
 		connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
@@ -4913,44 +4909,6 @@ void BaseGui::exitFullscreenIfNeeded() {
 		toggleFullscreen(false);
 	}
 	*/
-}
-
-void BaseGui::checkMousePos(QPoint p) {
-	//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
-
-	bool compact = (pref->floating_display_in_compact_mode && pref->compact_mode);
-
-	if (!pref->fullscreen && !compact) return;
-
-	#define MARGIN 70
-
-	int margin = MARGIN + pref->floating_control_margin;
-
-	if (p.y() > mplayerwindow->height() - margin) {
-		//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
-		if (!near_bottom) {
-			emit cursorNearBottom(p);
-			near_bottom = true;
-		}
-	} else {
-		if (near_bottom) {
-			emit cursorFarEdges();
-			near_bottom = false;
-		}
-	}
-
-	if (p.y() < margin) {
-		//qDebug("BaseGui::checkMousePos: %d, %d", p.x(), p.y());
-		if (!near_top) {
-			emit cursorNearTop(p);
-			near_top = true;
-		}
-	} else {
-		if (near_top) {
-			emit cursorFarEdges();
-			near_top = false;
-		}
-	}
 }
 
 #if ALLOW_CHANGE_STYLESHEET
