@@ -2084,14 +2084,15 @@ void Core::startMplayer( QString file, double seek ) {
 	switch (mdat.type) {
 		case TYPE_FILE	 	: cache = pref->cache_for_files; break;
 		case TYPE_DVD 		: cache = pref->cache_for_dvds; 
-#if DVDNAV_SUPPORT
+							  #if DVDNAV_SUPPORT
 							  if (file.startsWith("dvdnav:")) cache = 0;
-#endif
+							  #endif
 		                      break;
 		case TYPE_STREAM 	: cache = pref->cache_for_streams; break;
 		case TYPE_VCD 		: cache = pref->cache_for_vcds; break;
 		case TYPE_AUDIO_CD	: cache = pref->cache_for_audiocds; break;
 		case TYPE_TV		: cache = pref->cache_for_tv; break;
+		case TYPE_BLURAY	: cache = pref->cache_for_dvds; break; // FIXME: use cache for bluray?
 		default: cache = 0;
 	}
 
