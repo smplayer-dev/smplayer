@@ -26,7 +26,7 @@
 #include "mplayerwindow.h"
 #include "myaction.h"
 #include "images.h"
-#include "floatingwidget2.h"
+#include "autohidewidget.h"
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
 #include "mediabarpanel.h"
@@ -327,7 +327,7 @@ void SkinGui::createControlWidget() {
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
 void SkinGui::createFloatingControl() {
 	// Floating control
-	floating_control = new FloatingWidget2(panel);
+	floating_control = new AutohideWidget(panel);
 	floating_control->setAutoHide(true);
 
 #ifndef SKIN_EDITABLE_CONTROL

@@ -26,7 +26,7 @@
 #include "mplayerwindow.h"
 #include "myaction.h"
 #include "images.h"
-#include "floatingwidget2.h"
+#include "autohidewidget.h"
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
 
@@ -383,7 +383,7 @@ void DefaultGui::createControlWidget() {
 
 void DefaultGui::createFloatingControl() {
 	// Floating control
-	floating_control = new FloatingWidget2(panel);
+	floating_control = new AutohideWidget(panel);
 	floating_control->setAutoHide(true);
 
 	EditableToolbar * iw = new EditableToolbar(floating_control);

@@ -31,7 +31,7 @@ class MyAction;
 class QMenu;
 class TimeSliderAction;
 class VolumeSliderAction;
-class FloatingWidget2;
+class AutohideWidget;
 class TimeLabelAction;
 class MyAction;
 class MediaBarPanel;
@@ -111,7 +111,7 @@ protected:
 #endif
 
 #if SKIN_CONTROLWIDGET_OVER_VIDEO
-	FloatingWidget2 * floating_control;
+	AutohideWidget * floating_control;
 #endif
 	TimeLabelAction * time_label_action;
 

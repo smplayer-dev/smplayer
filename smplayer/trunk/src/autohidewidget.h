@@ -16,21 +16,21 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef FLOATING_WIDGET2_H
-#define FLOATING_WIDGET2_H
+#ifndef AUTOHIDEWIDGET_H
+#define AUTOHIDEWIDGET_H
 
 #include <QWidget>
 
 class QTimer;
 class QPropertyAnimation;
 
-class FloatingWidget2 : public QWidget
+class AutohideWidget : public QWidget
 {
 	Q_OBJECT
 
 public:
-	FloatingWidget2(QWidget * parent = 0);
-	~FloatingWidget2();
+	AutohideWidget(QWidget * parent = 0);
+	~AutohideWidget();
 
 	void setInternalWidget(QWidget * w);
 	QWidget * internalWidget() { return internal_widget; };

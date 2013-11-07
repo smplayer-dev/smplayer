@@ -18,7 +18,7 @@
 
 #include "minigui.h"
 #include "widgetactions.h"
-#include "floatingwidget2.h"
+#include "autohidewidget.h"
 #include "myaction.h"
 #include "mplayerwindow.h"
 #include "global.h"
@@ -119,7 +119,7 @@ void MiniGui::createControlWidget() {
 
 void MiniGui::createFloatingControl() {
 	// Floating control
-	floating_control = new FloatingWidget2(panel);
+	floating_control = new AutohideWidget(panel);
 	floating_control->setAutoHide(true);
 
 	EditableToolbar * iw = new EditableToolbar(floating_control);
