@@ -78,6 +78,7 @@ void PrefDrives::retranslateStrings() {
 
 	cdrom_drive_icon->setPixmap( Images::icon("cdrom_drive") );
 	dvd_drive_icon->setPixmap( Images::icon("dvd_drive") );
+	bluray_drive_icon->setPixmap( Images::icon("dvd_drive") ); // FIXME: add icon for bluray
 
 	createHelp();
 }
@@ -87,9 +88,11 @@ void PrefDrives::updateDriveCombos(bool detect_cd_devices) {
 
 	// Save current values
 	QString current_dvd_device = dvdDevice();
+	QString current_bluray_device = blurayDevice();
 	QString current_cd_device = cdromDevice();
 
 	dvd_device_combo->clear();
+	bluray_device_combo->clear();
 	cdrom_device_combo->clear();
 
 	// DVD device combo
@@ -114,17 +117,20 @@ void PrefDrives::updateDriveCombos(bool detect_cd_devices) {
 		QString device_name = "/dev/" + devices[n];
 		qDebug("PrefDrives::PrefDrives: device found: '%s'", device_name.toUtf8().constData());
 		dvd_device_combo->addItem(device_name);
+		bluray_device_combo->addItem(device_name);
 		cdrom_device_combo->addItem(device_name);
 	}
 #endif
 
 	// Restore previous values
 	setDVDDevice( current_dvd_device );
+	setBlurayDevice( current_bluray_device );
 	setCDRomDevice( current_cd_device );
 }
 
 void PrefDrives::setData(Preferences * pref) {
 	setDVDDevice( pref->dvd_device );
+	setBlurayDevice( pref->bluray_device );
 	setCDRomDevice( pref->cdrom_device );
 
 #if DVDNAV_SUPPORT
@@ -136,6 +142,7 @@ void PrefDrives::getData(Preferences * pref) {
 	requires_restart = false;
 
 	pref->dvd_device = dvdDevice();
+	pref->bluray_device = blurayDevice();
 	pref->cdrom_device = cdromDevice();
 
 #if DVDNAV_SUPPORT
@@ -149,6 +156,14 @@ void PrefDrives::setDVDDevice( QString dir ) {
 
 QString PrefDrives::dvdDevice() {
 	return dvd_device_combo->currentText();
+}
+
+void PrefDrives::setBlurayDevice( QString dir ) {
+	bluray_device_combo->setCurrentText( dir );
+}
+
+QString PrefDrives::blurayDevice() {
+	return bluray_device_combo->currentText();
 }
 
 void PrefDrives::setCDRomDevice( QString dir ) {
@@ -183,6 +198,9 @@ void PrefDrives::createHelp() {
 
 	setWhatsThis(dvd_device_combo, tr("DVD device"),
 		tr("Choose your DVD device. It will be used to play DVDs.") );
+
+	setWhatsThis(bluray_device_combo, tr("Bluray device"),
+		tr("Choose your Bluray device. It will be used to play Bluray discs.") );
 
 #if DVDNAV_SUPPORT
 	setWhatsThis(use_dvdnav_check, tr("Enable DVD menus"),

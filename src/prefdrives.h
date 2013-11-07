@@ -48,6 +48,9 @@ protected:
 	void setDVDDevice( QString dir );
 	QString dvdDevice();
 
+	void setBlurayDevice( QString dir );
+	QString blurayDevice();
+
 	void setCDRomDevice( QString dir );
 	QString cdromDevice();
 
