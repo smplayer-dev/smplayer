@@ -2125,82 +2125,82 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="504"/>
+        <location filename="../defaultgui.cpp" line="495"/>
         <source>Welcome to SMPlayer</source>
         <translation>ברוך בואך אל SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="533"/>
+        <location filename="../defaultgui.cpp" line="524"/>
         <source>Subtitle</source>
         <translation>כתובית</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="517"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="520"/>
         <source>&amp;Language toolbar</source>
         <translation>סרגל כלים &amp;שפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="511"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="551"/>
         <source>A:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="555"/>
         <source>B:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="514"/>
         <source>Status&amp;bar</source>
         <translation>שורת &amp;מצב</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="535"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Video info</source>
         <translation>מידע &amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="536"/>
+        <location filename="../defaultgui.cpp" line="527"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;מונה מסגרת</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="539"/>
+        <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="540"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit &amp;control bar</source>
         <translation>ערוך סרגל &amp;בקרה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="541"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>ערוך סרגל בקרה &amp;קטן</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="542"/>
+        <location filename="../defaultgui.cpp" line="533"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="573"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation type="unfinished"></translation>
@@ -5080,26 +5080,22 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>תקליטורים</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">צלמית</translation>
-    </message>
-    <message>
-        <location filename="../prefdrives.cpp" line="195"/>
+        <location filename="../prefdrives.cpp" line="196"/>
         <source>CD device</source>
         <translation>התקן CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="196"/>
+        <location filename="../prefdrives.cpp" line="197"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>בחר התקן CDROM. זה יתועל לנגן תקליטורי VCD ותקליטורי שמע.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="199"/>
+        <location filename="../prefdrives.cpp" line="200"/>
         <source>DVD device</source>
         <translation>התקן DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="200"/>
+        <location filename="../prefdrives.cpp" line="201"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>בחר התקן DVD. זה יתועל לנגן תקליטורי DVD.</translation>
     </message>
@@ -5114,7 +5110,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>בחר התקן &amp;DVD:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="258"/>
+        <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5124,42 +5120,42 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>באופן רגיל, SMPlayer לא בורר שום התקן CDROM או DVD. כך שלפני שתעמוד לרשותך היכולת למעשה לנגן CD או DVD עליך לבחור את ההתקנים בהם ברצונך להשתמש (הם יכולים להיות זהים).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="202"/>
+        <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="203"/>
+        <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="206"/>
+        <location filename="../prefdrives.cpp" line="204"/>
         <source>Enable DVD menus</source>
         <translation>אפשר תפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="207"/>
+        <location filename="../prefdrives.cpp" line="205"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>במידה ואפשרות זו מסומנת, smplayer ינגן תקליטורי DVD באמצעות dvdnav. זו מצריכה גרסא אחרונית של mplayer מהודר עם תמיכת dvdnav.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="210"/>
+        <location filename="../prefdrives.cpp" line="208"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;הערה 1&lt;/b&gt;: מטמון ינוטרל, זה יכול להשפיע על ביצועים.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="211"/>
+        <location filename="../prefdrives.cpp" line="209"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;הערה 2&lt;/b&gt;: יתכן ויהיה ברצונך להקצות את הפעולה &quot;אפשר פעולה בתפריטי DVD&quot; לאחד מלחצני העכבר.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="213"/>
+        <location filename="../prefdrives.cpp" line="211"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;הערה 3&lt;/b&gt;: תכונה זו מצויה כעת תחת פיתוח, צפה לבעיות רבות עמה.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="314"/>
+        <location filename="../prefdrives.ui" line="225"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>&amp;אפשר תפריטי DVD (ניסיוני)</translation>
     </message>
@@ -8561,47 +8557,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="412"/>
+        <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Status&amp;bar</source>
         <translation>&amp;שורת מצב</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="418"/>
+        <location filename="../skingui/skingui.cpp" line="404"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="422"/>
+        <location filename="../skingui/skingui.cpp" line="408"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="424"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="414"/>
         <source>&amp;Video info</source>
         <translation>מידע &amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="441"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="442"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="443"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>

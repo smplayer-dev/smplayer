@@ -2125,82 +2125,82 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="504"/>
+        <location filename="../defaultgui.cpp" line="495"/>
         <source>Welcome to SMPlayer</source>
         <translation>ยินดีต้อนรับสู่ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Audio</source>
         <translation>เสียง</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="533"/>
+        <location filename="../defaultgui.cpp" line="524"/>
         <source>Subtitle</source>
         <translation>ศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="517"/>
         <source>&amp;Main toolbar</source>
         <translation>แถบเครื่องมือห&amp;ลัก</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="520"/>
         <source>&amp;Language toolbar</source>
         <translation>แถบเครื่องมือ&amp;ภาษา</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="511"/>
         <source>&amp;Toolbars</source>
         <translation>แถบเ&amp;ครื่องมือ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="551"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="555"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="514"/>
         <source>Status&amp;bar</source>
         <translation>แถบส&amp;ถานะ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="535"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Video info</source>
         <translation>ข้อมูล&amp;วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="536"/>
+        <location filename="../defaultgui.cpp" line="527"/>
         <source>&amp;Frame counter</source>
         <translation>ตัวนับเ&amp;ฟรม</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="539"/>
+        <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit main &amp;toolbar</source>
         <translation>แก้ไขแถบเครื่องมือ&amp;หลัก</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="540"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit &amp;control bar</source>
         <translation>แก้ไขแถบ&amp;ตัวควบคุม</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="541"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>แก้ไขแถบตัวควบคุม&amp;จิ๋ว</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="542"/>
+        <location filename="../defaultgui.cpp" line="533"/>
         <source>Edit &amp;floating control</source>
         <translation>แก้ไขตัวควบคุมลอ&amp;ย</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="573"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -5080,26 +5080,22 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>ไดรฟ์</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ไอคอน</translation>
-    </message>
-    <message>
-        <location filename="../prefdrives.cpp" line="195"/>
+        <location filename="../prefdrives.cpp" line="196"/>
         <source>CD device</source>
         <translation>อุปกรณ์ CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="196"/>
+        <location filename="../prefdrives.cpp" line="197"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>เลือกอุปกรณ์ CDROM ของคุณ มันจะถูกใช้เล่น VCD และ CD เสียง.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="199"/>
+        <location filename="../prefdrives.cpp" line="200"/>
         <source>DVD device</source>
         <translation>อุปกรณ์ DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="200"/>
+        <location filename="../prefdrives.cpp" line="201"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>เลือกอุปกรณ์ DVD ของคุณ มันจะถูกใช้เล่น DVD.</translation>
     </message>
@@ -5114,7 +5110,7 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>เลือกอุปกรณ์ &amp;DVD:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="258"/>
+        <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5124,42 +5120,42 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>SMPlayer ไม่ได้เลือก อุปกรณ์ CDROM หรือ DVD โดยตั้งต้น ดังนั้นก่อนที่คุณจะสามารถเล่น CD หรือ DVD ได้ คุณต้องเลือกอุปกรณ์ที่ต้องการใช้ (เลือกเหมือนกันก็ได้).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="202"/>
+        <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="203"/>
+        <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="206"/>
+        <location filename="../prefdrives.cpp" line="204"/>
         <source>Enable DVD menus</source>
         <translation>ใช้งานเมนู DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="207"/>
+        <location filename="../prefdrives.cpp" line="205"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ smplayer จะเล่น DVD โดยใช้ dvdnav ซึ่งต้องการรุ่นล่าสุดของ mplayer ที่ถูกคอมไฟล์การรองรับกับ dvdnav.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="210"/>
+        <location filename="../prefdrives.cpp" line="208"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;หมายเหตุ 1&lt;/b&gt;: สามารถไม่ใช้งานแคช, สิ่งนี้จะมีผลต่อสมรรถนะ.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="211"/>
+        <location filename="../prefdrives.cpp" line="209"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;หมายเหตุ 2&lt;/b&gt;: คุณอาจต้องการกำหนดการกระทำ &quot;กระตุ้นตัวเลือกในเมนู DVD&quot; ให้กับปุ่มหนึ่งของเมาส์.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="213"/>
+        <location filename="../prefdrives.cpp" line="211"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;หมายเหตุ 3&lt;/b&gt;: คุณลักษณะนี้ ยังอยู่ระหว่างพัฒนา, จึงคาดว่ามันอาจมีปัญหาได้.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="314"/>
+        <location filename="../prefdrives.ui" line="225"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>&amp;ใช้งานเมนู DVD (ทดลอง)</translation>
     </message>
@@ -8560,47 +8556,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="412"/>
+        <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Toolbars</source>
         <translation>แถบเ&amp;ครื่องมือ</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Status&amp;bar</source>
         <translation type="unfinished">แถบส&amp;ถานะ</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="418"/>
+        <location filename="../skingui/skingui.cpp" line="404"/>
         <source>&amp;Main toolbar</source>
         <translation>แถบเครื่องมือห&amp;ลัก</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="422"/>
+        <location filename="../skingui/skingui.cpp" line="408"/>
         <source>Edit main &amp;toolbar</source>
         <translation>แ&amp;ก้ไข แถบเครื่องมือหลัก</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="424"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit &amp;floating control</source>
         <translation>แก้ไข ตัวควบคุมลอ&amp;ย</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="414"/>
         <source>&amp;Video info</source>
         <translation type="unfinished">ข้อมูล&amp;วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="441"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>กำลังเล่น %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="442"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>พัก</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="443"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>หยุด</translation>
     </message>

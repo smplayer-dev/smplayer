@@ -2125,82 +2125,82 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="504"/>
+        <location filename="../defaultgui.cpp" line="495"/>
         <source>Welcome to SMPlayer</source>
         <translation>Chào mừng đến với SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Audio</source>
         <translation>Âm thanh</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="533"/>
+        <location filename="../defaultgui.cpp" line="524"/>
         <source>Subtitle</source>
         <translation>Phụ đề</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="517"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Thanh công cụ chính</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="520"/>
         <source>&amp;Language toolbar</source>
         <translation>Thanh công cụ &amp;ngôn ngữ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="511"/>
         <source>&amp;Toolbars</source>
         <translation>Các &amp;thanh công cụ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="551"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="555"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="514"/>
         <source>Status&amp;bar</source>
         <translation>Thanh trạng &amp;thái</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="535"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Video info</source>
         <translation>&amp;Thông tin video</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="536"/>
+        <location filename="../defaultgui.cpp" line="527"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Bộ đếm khung hình</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="539"/>
+        <location filename="../defaultgui.cpp" line="530"/>
         <source>Edit main &amp;toolbar</source>
         <translation>&amp;Thanh công cụ biên tập chính</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="540"/>
+        <location filename="../defaultgui.cpp" line="531"/>
         <source>Edit &amp;control bar</source>
         <translation>Thanh &amp;quản lý biên tập</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="541"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Thanh quản lý biên tập thu &amp;nhỏ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="542"/>
+        <location filename="../defaultgui.cpp" line="533"/>
         <source>Edit &amp;floating control</source>
         <translation>Bộ quản lý &amp;nổi biên tập</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="573"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 khung hình mỗi giây</translation>
@@ -5079,26 +5079,22 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Ổ đĩa</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">biểu tượng</translation>
-    </message>
-    <message>
-        <location filename="../prefdrives.cpp" line="195"/>
+        <location filename="../prefdrives.cpp" line="196"/>
         <source>CD device</source>
         <translation>Thiết bị CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="196"/>
+        <location filename="../prefdrives.cpp" line="197"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>Chọn ổ CDROM của bạn. Nó sẽ được dùng để chơi các đĩa VCD và đĩa CD âm thanh.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="199"/>
+        <location filename="../prefdrives.cpp" line="200"/>
         <source>DVD device</source>
         <translation>Thiết bị DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="200"/>
+        <location filename="../prefdrives.cpp" line="201"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Chọn ổ DVD của bạn. Nó sẽ được dùng để chơi các đĩa DVD.</translation>
     </message>
@@ -5113,7 +5109,7 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Chọn ổ &amp;DVD của bạn:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="258"/>
+        <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5123,42 +5119,42 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>SMPlayer không mặc định chọn một ổ CDROM hay DVD nào. Nên bạn cần phải chọn thiết bị bạn muốn dùng (chúng có thể có cùng tên) trước khi bạn muốn chơi một đĩa CD hay DVD.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="202"/>
+        <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="203"/>
+        <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="206"/>
+        <location filename="../prefdrives.cpp" line="204"/>
         <source>Enable DVD menus</source>
         <translation>Hiện trình đơn DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="207"/>
+        <location filename="../prefdrives.cpp" line="205"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>Nếu lựa chọn này được đánh dấu, smplayer sẽ chơi các đĩa DVD bằng dvdnav. Cần phải có phiên bản gần đây của mplayer được biên dịch với hỗ trợ dvdnav.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="210"/>
+        <location filename="../prefdrives.cpp" line="208"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;Chú ý 1&lt;/b&gt;: cache sẽ bị bỏ qua, có thể ảnh hưởng đến tốc độ.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="211"/>
+        <location filename="../prefdrives.cpp" line="209"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;Chú ý 2&lt;/b&gt;: bạn có lẽ sẽ muốn chỉ định hành động &quot;kích hoạt lựa chọn trong trình đơn DVD&quot; cho một trong các nút của con chuột.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="213"/>
+        <location filename="../prefdrives.cpp" line="211"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;Chú ý 3&lt;/b&gt;: tính năng này đang được phát triển, sẽ có nhiều vấn đề với nó.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="314"/>
+        <location filename="../prefdrives.ui" line="225"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>&amp;Kích hoạt trình đơn DVD (thí nghiệm)</translation>
     </message>
@@ -8561,47 +8557,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="412"/>
+        <location filename="../skingui/skingui.cpp" line="398"/>
         <source>&amp;Toolbars</source>
         <translation>Các &amp;thanh công cụ</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Status&amp;bar</source>
         <translation type="unfinished">Thanh trạng &amp;thái</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="418"/>
+        <location filename="../skingui/skingui.cpp" line="404"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Thanh công cụ chính</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="422"/>
+        <location filename="../skingui/skingui.cpp" line="408"/>
         <source>Edit main &amp;toolbar</source>
         <translation>&amp;Thanh công cụ biên tập chính</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="424"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit &amp;floating control</source>
         <translation>Bộ quản lý &amp;nổi biên tập</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="414"/>
         <source>&amp;Video info</source>
         <translation type="unfinished">&amp;Thông tin video</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="441"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>Đang chơi %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="442"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Tạm dừng</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="443"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>Ngừng chơi</translation>
     </message>
