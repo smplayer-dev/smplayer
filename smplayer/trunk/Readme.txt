@@ -52,6 +52,10 @@
        url: http://www.kde-look.org/content/show.php/nuvoX?content=38467
        license: GPL
 
+     * kfaenza
+       url: http://kde-look.org/content/show.php/KFaenza?content=143890
+       license: GPL
+
      * Vista-Inspirate 
         url: http://www.kde-look.org/content/show.php/Vista-Inspirate?content=31585
         license: GPL
