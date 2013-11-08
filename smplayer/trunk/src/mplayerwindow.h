@@ -41,6 +41,7 @@ class QTimer;
 #define ZOOM_MIN 0.5
 
 #define DELAYED_RESIZE 0
+#define MPW_USE_EVENT_FILTER 1
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
@@ -151,7 +152,9 @@ public:
 	virtual QSize sizeHint () const;
 	virtual QSize minimumSizeHint() const;
 
+#if MPW_USE_EVENT_FILTER
 	virtual bool eventFilter( QObject * watched, QEvent * event );
+#endif
 
 #if LOGO_ANIMATION
 	bool animatedLogo() { return animated_logo; }

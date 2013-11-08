@@ -208,9 +208,11 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
 
+#if MPW_USE_EVENT_FILTER
 	installEventFilter(this);
 	mplayerlayer->installEventFilter(this);
 	//logo->installEventFilter(this);
+#endif
 
 #if DELAYED_RESIZE
 	resize_timer = new QTimer(this);
@@ -430,6 +432,7 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 	}
 }
 
+#if MPW_USE_EVENT_FILTER
 bool MplayerWindow::eventFilter( QObject * watched, QEvent * event ) {
 	//qDebug("MplayerWindow::eventFilter: watched: %s", watched->objectName().toUtf8().constData());
 
@@ -461,6 +464,7 @@ bool MplayerWindow::eventFilter( QObject * watched, QEvent * event ) {
 
 	return false;
 }
+#endif
 
 QSize MplayerWindow::sizeHint() const {
 	//qDebug("MplayerWindow::sizeHint");
