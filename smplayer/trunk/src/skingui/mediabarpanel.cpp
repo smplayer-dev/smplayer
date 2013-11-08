@@ -96,15 +96,21 @@ void MediaBarPanel::setMplayerState(Core::State state)
 void MediaBarPanel::setCore(Core *c)
 {
     core = c;
-    connect(core, SIGNAL(mediaStartPlay()), this, SLOT(setDuration()) );
-    connect( core, SIGNAL(showTime(double)), this, SLOT(gotCurrentTime(double)) );
-    connect( core, SIGNAL(mediaInfoChanged()), this, SLOT(updateMediaInfo()) );
-    connect( core, SIGNAL(buffering()), this, SLOT(setBuffering()) );
+    connect(core, SIGNAL(mediaStartPlay()), this, SLOT(setDuration()));
+    connect(core, SIGNAL(newDuration(double)), this, SLOT(setDuration(double)));
+    connect(core, SIGNAL(showTime(double)), this, SLOT(gotCurrentTime(double)));
+    connect(core, SIGNAL(mediaInfoChanged()), this, SLOT(updateMediaInfo()));
+    connect(core, SIGNAL(buffering()), this, SLOT(setBuffering()));
 }
 
 void MediaBarPanel::setDuration()
 {
     mediaPanel->setDuration(core->mdat.duration);
+}
+
+void MediaBarPanel::setDuration(double secs)
+{
+    mediaPanel->setDuration(secs);
 }
 
 void MediaBarPanel::setVolumeControlActionCollection(QList<QAction *>actions)
