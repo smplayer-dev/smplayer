@@ -315,8 +315,8 @@
          </property>
          <property name="sizeHint" stdset="0">
           <size>
-           <width>231</width>
-           <height>171</height>
+           <width>20</width>
+           <height>40</height>
           </size>
          </property>
         </spacer>
