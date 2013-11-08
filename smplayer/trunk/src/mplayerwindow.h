@@ -41,7 +41,7 @@ class QTimer;
 #define ZOOM_MIN 0.5
 
 #define DELAYED_RESIZE 0
-#define MPW_USE_EVENT_FILTER 1
+#define MPW_USE_EVENT_FILTER 0
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
@@ -65,6 +65,11 @@ public slots:
 
 	//! Should be called when a file has stopped.
 	virtual void playingStopped();
+
+signals:
+#if !MPW_USE_EVENT_FILTER
+	void mouseMoved(QPoint);
+#endif
 
 protected:
 	virtual void mouseMoveEvent( QMouseEvent * e );
@@ -202,8 +207,10 @@ signals:
 	void keyPressed(QKeyEvent * e);
 	void wheelUp();
 	void wheelDown();
+#if MPW_USE_EVENT_FILTER
 	void mouseMoved(QPoint);
 	void mouseMovedDiff(QPoint);
+#endif
 
 protected:
     int video_width, video_height;
