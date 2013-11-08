@@ -820,6 +820,8 @@ void Core::openBluRay(QString bluray_url) {
 	mdat.filename = bluray_url;
 	mdat.type = TYPE_BLURAY;
 
+	mset.reset();
+
 	mset.current_title_id = title;
 	mset.current_chapter_id = firstChapter();
 	mset.current_angle_id = 1;
