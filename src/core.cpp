@@ -224,6 +224,10 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              this, SLOT(dvdTitleIsMovie()) );
 #endif
 
+	// Signal that the duration has changed
+	connect( proc, SIGNAL(receivedDuration(double)),
+             this, SIGNAL(newDuration(double)) );
+
 	connect( proc, SIGNAL(receivedForbiddenText()), this, SIGNAL(receivedForbidden()) );
 
 	connect( this, SIGNAL(stateChanged(Core::State)), 
