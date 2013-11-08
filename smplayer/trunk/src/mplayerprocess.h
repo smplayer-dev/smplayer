@@ -151,6 +151,7 @@ private:
 #endif
 
 	int dvd_current_title;
+	int br_current_title;
 };
 
 

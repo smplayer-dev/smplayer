@@ -76,6 +76,7 @@ bool MplayerProcess::start() {
 #endif
 
 	dvd_current_title = -1;
+	br_current_title = -1;
 
 	MyProcess::start();
 
@@ -813,6 +814,15 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_LENGTH") {
 				md.duration = value.toDouble();
 				qDebug("MplayerProcess::parseLine: md.duration set to %f", md.duration);
+				// Use the bluray title length if duration is 0
+				if (md.duration == 0 && br_current_title != -1) {
+					int i = md.titles.find(br_current_title);
+					if (i != -1) {
+						double duration = md.titles.itemAt(i).duration();
+						qDebug("MplayerProcess::parseLine: using the br title length: %f", duration);
+						md.duration = duration;
+					}
+				}
 			}
 			else
 			if (tag == "ID_VIDEO_WIDTH") {
@@ -893,6 +903,11 @@ void MplayerProcess::parseLine(QByteArray ba) {
 			if (tag == "ID_DVD_CURRENT_TITLE") {
 				dvd_current_title = value.toInt();
 			}
+			else
+			if (tag == "ID_BLURAY_CURRENT_TITLE") {
+				br_current_title = value.toInt();
+			}
+
 		}
 	}
 }
