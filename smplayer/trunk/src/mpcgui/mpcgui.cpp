@@ -88,20 +88,20 @@ void MpcGui::createControlWidget() {
 	controlwidget->setMovable(false);
 	controlwidget->setAllowedAreas(Qt::BottomToolBarArea);
 	controlwidget->addAction(playAct);
-    controlwidget->addAction(pauseAct);
+	controlwidget->addAction(pauseAct);
 	controlwidget->addAction(stopAct);
 	controlwidget->addSeparator();
-    controlwidget->addAction(rewind3Act);
-    controlwidget->addAction(rewind1Act);
-    controlwidget->addAction(forward1Act);
-    controlwidget->addAction(forward3Act);
-    controlwidget->addSeparator();
-    controlwidget->addAction(frameStepAct);
-    controlwidget->addSeparator();
+	controlwidget->addAction(rewind3Act);
+	controlwidget->addAction(rewind1Act);
+	controlwidget->addAction(forward1Act);
+	controlwidget->addAction(forward3Act);
+	controlwidget->addSeparator();
+	controlwidget->addAction(frameStepAct);
+	controlwidget->addSeparator();
 
-    QLabel* pLabel = new QLabel(this);
-    pLabel->setSizePolicy(QSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding));
-    controlwidget->addWidget(pLabel);
+	QLabel* pLabel = new QLabel(this);
+	pLabel->setSizePolicy(QSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding));
+	controlwidget->addWidget(pLabel);
 
 	controlwidget->addAction(muteAct);
 	controlwidget->addAction(volumeslider_action);
@@ -110,20 +110,22 @@ void MpcGui::createControlWidget() {
 	timeslidewidget->setObjectName("timeslidewidget");
 	timeslidewidget->setLayoutDirection(Qt::LeftToRight);
 	timeslidewidget->addAction(timeslider_action);
-    timeslidewidget->setMovable(false);
-    
-    QColor SliderColor = palette().color(QPalette::Window);
-    QColor SliderBorderColor = palette().color(QPalette::Dark);
-    setIconSize( QSize( 16 , 16 ) );
+	timeslidewidget->setMovable(false);
 
-    addToolBar(Qt::BottomToolBarArea, controlwidget);
-    addToolBarBreak(Qt::BottomToolBarArea);
+	/*
+	QColor SliderColor = palette().color(QPalette::Window);
+	QColor SliderBorderColor = palette().color(QPalette::Dark);
+	*/
+	setIconSize( QSize( 16 , 16 ) );
+
+	addToolBar(Qt::BottomToolBarArea, controlwidget);
+	addToolBarBreak(Qt::BottomToolBarArea);
 	addToolBar(Qt::BottomToolBarArea, timeslidewidget);
 
-    controlwidget->setStyle(new  MpcToolbarStyle() );
-    timeslidewidget->setStyle(new  MpcToolbarStyle() );
+	controlwidget->setStyle(new MpcToolbarStyle() );
+	timeslidewidget->setStyle(new MpcToolbarStyle() );
 
-    statusBar()->show();
+	statusBar()->show();
 }
 
 void MpcGui::createFloatingControl() {
