@@ -4426,8 +4426,10 @@ void Core::dvdTitleChanged(int title) {
 
 void Core::durationChanged(double length) {
 	qDebug("Core::durationChanged: %f", length);
-	mdat.duration = length;
-	emit newDuration(length);
+	if (mdat.duration != length) {
+		mdat.duration = length;
+		emit newDuration(length);
+	}
 }
 
 void Core::askForInfo() {
