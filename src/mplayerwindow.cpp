@@ -92,6 +92,10 @@ void Screen::checkMousePos() {
 }
 
 void Screen::mouseMoveEvent( QMouseEvent * e ) {
+	//qDebug("Screen::mouseMoveEvent");
+#if !MPW_USE_EVENT_FILTER
+	emit mouseMoved(e->pos());
+#endif
 	if (cursor().shape() != Qt::ArrowCursor) {
 		//qDebug(" showing mouse cursor" );
 		setCursor(QCursor(Qt::ArrowCursor));
