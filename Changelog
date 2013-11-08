@@ -1,3 +1,51 @@
+[b]Version 0.8.7[/b]:
+
+(2013-11-06 - 2013-11-08)
+ * Add a basic support to play blurays.
+
+(2013-11-04)
+ * Add support for the mp4/m4a files downloaded by youtube-dl.
+   Now when opening a mp4 file, smplayer will check if there's a 
+   file with the same name but extension m4a. In that case the m4a file 
+   will be used as the audio.
+
+   This is intented to play the DASH format from Youtube, where the video and
+   audio are in separated files. The application youtube-dl can download
+   those files.
+
+   This feature can be turned off by setting autoload_m4a to false in 
+   smplayer.ini (no option in the GUI yet).
+
+   Notice: you need a recent version of mplayer or mplayer2. With older 
+   versions seeking don't work with these files.
+
+(2013-10-30 - 2013-11-05)
+ * The control for fullscreen mode has been rewritten and improved.
+   Now it shows over the video (not reducing the video) in all
+   GUIs.
+
+(2013-10-16)
+ * (Skingui) Don't use a fixed size for the font of the menubar.
+   It can cause that the menu bar won't be visible with some fonts.
+
+(2013-10-04)
+ * (Windows) Apply patch for better screensaver disabling, by Vavooon
+   (http://forum.smplayer.info/viewtopic.php?f=4&t=6778)
+
+(2013-10-02)
+ * Remove the "About Qt" option.
+
+(2013-09-22)
+ * Start to implement presets for the audio equalizer.
+
+(2013-09-05 - 2013-10-03)
+ * Improve support for the encrypted signatures of Youtube.
+
+(2013-08-29 - 2013-10-09)
+ * Adapt the code for Qt 5.
+   Note: the MpcGui is not available if compiled with Qt 5.
+
+
 [b]Version 0.8.6[/b]:
 
 (2013-07-30)
