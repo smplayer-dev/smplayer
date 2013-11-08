@@ -62,7 +62,6 @@ private:
 public slots:
     void setMplayerState(Core::State state);
     void setDuration();
-    void setDuration(double secs);
     void gotCurrentTime(double time);
     void updateMediaInfo();
     void displayMessage(QString status, int time);
