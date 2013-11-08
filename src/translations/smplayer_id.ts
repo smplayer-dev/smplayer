@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="id">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -172,32 +170,32 @@
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">Yunani</translation>
+        <translation>Yunani</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">Estonia</translation>
+        <translation>Estonia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation type="unfinished">Italia</translation>
+        <translation>Itali</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation type="unfinished">Uzbekistan</translation>
+        <translation>Uzbekistan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation type="unfinished">Katalan</translation>
+        <translation>Katalan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -424,7 +422,7 @@ Apakah anda ingin menimpanya?</translation>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -433,12 +431,12 @@ Apakah anda ingin menimpanya?</translation>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prasetel</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="96"/>
@@ -458,17 +456,17 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="103"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation>Datar</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pop</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="105"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
@@ -932,7 +930,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="3859"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih berkas Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3871"/>
@@ -972,12 +970,12 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="4481"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Galat ditemukan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4482"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sayangnya video ini tidak dapat dimainkan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4651"/>
@@ -1092,17 +1090,17 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1477"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bllu-ray dari diska</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1478"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-&amp;ray dari berkas...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1543"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pembuat Gambar Mini...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1569"/>
@@ -1309,7 +1307,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="4436"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sayangnya dikarenakan perubahan pada halaman Youtube, video ini tidak dapat dimainkan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4443"/>
@@ -1482,7 +1480,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="4483"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Server dikembalikan ke &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5071"/>
@@ -2126,82 +2124,82 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="495"/>
+        <location filename="../defaultgui.cpp" line="504"/>
         <source>Welcome to SMPlayer</source>
         <translation>Selamat datang di SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="524"/>
+        <location filename="../defaultgui.cpp" line="533"/>
         <source>Subtitle</source>
         <translation>Subtitle</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="517"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;BIlah alat Utama</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="529"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Bilah alat Bahasa</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="511"/>
+        <location filename="../defaultgui.cpp" line="520"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;BIlah alat</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="551"/>
+        <location filename="../defaultgui.cpp" line="560"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="555"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="514"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Status&amp;bar</source>
         <translation>Status&amp;bilah</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="535"/>
         <source>&amp;Video info</source>
         <translation>&amp;Info Video</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="527"/>
+        <location filename="../defaultgui.cpp" line="536"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Bingkai langkah</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="530"/>
+        <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Sunting &amp;bilah alat utama</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="531"/>
+        <location filename="../defaultgui.cpp" line="540"/>
         <source>Edit &amp;control bar</source>
         <translation>Sunting bilah &amp;kontrol</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="541"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Sunting bilah kontrol m&amp;ini</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="533"/>
+        <location filename="../defaultgui.cpp" line="542"/>
         <source>Edit &amp;floating control</source>
         <translation>Sunting kontrol &amp;melayang</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="573"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -2389,7 +2387,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Menghubungkan ke %1</translation>
     </message>
 </context>
 <context>
@@ -2660,9 +2658,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitle terkestrak</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitle terkestrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2760,7 +2756,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Jika tidak dimungkinkan untuk menyimpan berkas yang terunduh⏎
@@ -3750,7 +3746,7 @@ Harap periksa ijin dari folder tersebut.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arab - Suria</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -5081,22 +5077,22 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Cakram</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="196"/>
+        <location filename="../prefdrives.cpp" line="195"/>
         <source>CD device</source>
         <translation>Perangkat CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="197"/>
+        <location filename="../prefdrives.cpp" line="196"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>PIlih perangkat CDROM anda. Perangkat tersebut akan digunakan untuk memainkan VCD dan Audio CD.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="200"/>
+        <location filename="../prefdrives.cpp" line="199"/>
         <source>DVD device</source>
         <translation>Perangkat DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="201"/>
+        <location filename="../prefdrives.cpp" line="200"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>Pilih perangkat DVD anda. Perangkat tersebut akan digunakan untuk memainkan DVD.</translation>
     </message>
@@ -5111,9 +5107,9 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Pilih perangkat &amp;DVD anda:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="265"/>
+        <location filename="../prefdrives.ui" line="258"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih perangkat &amp;Blu-ray Anda</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5121,42 +5117,42 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>SMPlayer tidak memilih perangkat CDROM atau DVD apapun secara default. Jadi sebelum anda memainkan sebuah CD atau DVD anda memilih perangkat yang akan anda gunakan (kedua perangkat mungkin saja sama).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="215"/>
+        <location filename="../prefdrives.cpp" line="202"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Perangkat Blu-ray</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="216"/>
+        <location filename="../prefdrives.cpp" line="203"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih perangkat Blu-ray Anda. Pilihan ini akan menggunakan diska Blu-ray yang dimainkan</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="204"/>
+        <location filename="../prefdrives.cpp" line="206"/>
         <source>Enable DVD menus</source>
         <translation>Nyalakan menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="205"/>
+        <location filename="../prefdrives.cpp" line="207"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>JIka opsi ini diisi, SMPlayer akan memainkan DVD menggunakan dvdnav. DIperlukan versi terbaru mplayer yang dikompilasikan dengan dukungan dvdnav.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="208"/>
+        <location filename="../prefdrives.cpp" line="210"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;Catatan 1&lt;/b&gt;: cache akan dimatikan, hal tersebut dapat berefek pada performa.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="209"/>
+        <location filename="../prefdrives.cpp" line="211"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;Catatan 2&lt;/b&gt;: Anda mungkin akan menetapkan tindakan &quot;aktifkan opsi pada menu DVD&quot; pada salah satu tombol tetikus.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="211"/>
+        <location filename="../prefdrives.cpp" line="213"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;Catatan 3&lt;/b&gt;: fitur ini dalam pengembangan, kecuali banyaknya permasalahan terhadap hal tersebut.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="225"/>
+        <location filename="../prefdrives.ui" line="314"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>Nyalakan m&amp;enu DVD (eksperimental)</translation>
     </message>
@@ -6698,7 +6694,7 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefinterface.cpp" line="203"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Antarmuka biasa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="209"/>
@@ -6830,17 +6826,17 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika opsi ini dinyalakan, kontrol melayang juga akan muncul pada mode ringkas.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opsi ini hanya bekerja pada Antarmuka biasa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Peringatan:&lt;/b&gt; kontrol melayang tidak dibuat untuk mode ringkas dan mungkin saja tidak dapat bekerja dengan baik.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
@@ -8399,17 +8395,13 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n detik</numerusform>
-        </translation>
+        <translation><numerusform>%n detik</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n menit</numerusform>
-        </translation>
+        <translation><numerusform>%n menit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8480,37 +8472,37 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Bantu SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingatkan sa&amp;ya nanti</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished">Jika anda menyukai SMPlayer dan ingin mendukung pengembangan ini, anda dapat mengirim sejumlah donasi. Sekecil apapun akan kami apresiasikan.</translation>
+        <translation>Jika anda menyukai SMPlayer dan ingin mendukung pengembangan ini, anda dapat mengirimkan sejumlah donasi. Sedikit bantuan dari anda sangat berarti bagi kami.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atau mungkin anda ingin membagikan SMPlayer pada teman-teman anda di Facebook.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Apa yang ingin anda lakukan?</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished">&amp;Donasi</translation>
+        <translation>&amp;Donasi</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Bagikan dengan teman &amp;saya</translation>
     </message>
 </context>
 <context>
@@ -8557,47 +8549,47 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="398"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Toolbars</source>
         <translation>Bilah ala&amp;T</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="401"/>
+        <location filename="../skingui/skingui.cpp" line="415"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Bilah status</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="404"/>
+        <location filename="../skingui/skingui.cpp" line="418"/>
         <source>&amp;Main toolbar</source>
         <translation>Bilah alat uta&amp;ma</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="408"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Sun&amp;ting bilah alat utama</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="410"/>
+        <location filename="../skingui/skingui.cpp" line="424"/>
         <source>Edit &amp;floating control</source>
         <translation>Sunting kontrol mela&amp;yang</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="414"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>&amp;Video info</source>
         <translation>Info &amp;Video</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="427"/>
+        <location filename="../skingui/skingui.cpp" line="441"/>
         <source>Playing %1</source>
         <translation>Memainkan %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="442"/>
         <source>Pause</source>
         <translation>Jeda</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="443"/>
         <source>Stop</source>
         <translation>Hentikan</translation>
     </message>
@@ -8863,7 +8855,7 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Pembuat Gambar Mini</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -9012,7 +9004,7 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Pembuar Gambar Mini</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
