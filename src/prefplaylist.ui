@@ -1,55 +1,47 @@
-<ui version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>PrefPlaylist</class>
- <widget class="QWidget" name="PrefPlaylist" >
-  <property name="geometry" >
+ <widget class="QWidget" name="PrefPlaylist">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>376</width>
+    <width>378</width>
     <height>367</height>
    </rect>
   </property>
-  <layout class="QVBoxLayout" >
-   <property name="leftMargin" >
-    <number>0</number>
-   </property>
-   <property name="topMargin" >
-    <number>0</number>
-   </property>
-   <property name="rightMargin" >
-    <number>0</number>
-   </property>
-   <property name="bottomMargin" >
+  <layout class="QVBoxLayout">
+   <property name="margin">
     <number>0</number>
    </property>
    <item>
-    <widget class="QTabWidget" name="playlist_tab" >
-     <property name="currentIndex" >
+    <widget class="QTabWidget" name="playlist_tab">
+     <property name="currentIndex">
       <number>0</number>
      </property>
-     <widget class="QWidget" name="tab" >
-      <attribute name="title" >
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
        <string>&amp;Playlist</string>
       </attribute>
-      <layout class="QVBoxLayout" >
+      <layout class="QVBoxLayout">
        <item>
-        <widget class="QCheckBox" name="auto_add_to_playlist_check" >
-         <property name="text" >
+        <widget class="QCheckBox" name="auto_add_to_playlist_check">
+         <property name="text">
           <string>&amp;Automatically add files to playlist</string>
          </property>
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" >
+        <layout class="QHBoxLayout">
          <item>
           <spacer>
-           <property name="orientation" >
+           <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
-           <property name="sizeType" >
+           <property name="sizeType">
             <enum>QSizePolicy::Fixed</enum>
            </property>
-           <property name="sizeHint" >
+           <property name="sizeHint" stdset="0">
             <size>
              <width>20</width>
              <height>20</height>
@@ -58,17 +50,17 @@
           </spacer>
          </item>
          <item>
-          <widget class="QCheckBox" name="add_consecutive_files_check" >
-           <property name="enabled" >
+          <widget class="QCheckBox" name="add_consecutive_files_check">
+           <property name="enabled">
             <bool>false</bool>
            </property>
-           <property name="sizePolicy" >
-            <sizepolicy vsizetype="Fixed" hsizetype="MinimumExpanding" >
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
-           <property name="text" >
+           <property name="text">
             <string>Add &amp;consecutive files</string>
            </property>
           </widget>
@@ -76,55 +68,55 @@
         </layout>
        </item>
        <item>
-        <widget class="Line" name="line" >
-         <property name="sizePolicy" >
-          <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+        <widget class="Line" name="line">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
-         <property name="orientation" >
+         <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="play_from_start_check" >
-         <property name="text" >
+        <widget class="QCheckBox" name="play_from_start_check">
+         <property name="text">
           <string>P&amp;lay files from start</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="recursive_check" >
-         <property name="text" >
+        <widget class="QCheckBox" name="recursive_check">
+         <property name="text">
           <string>Add files in directories &amp;recursively</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="getinfo_check" >
-         <property name="text" >
+        <widget class="QCheckBox" name="getinfo_check">
+         <property name="text">
           <string>Get &amp;info automatically about files added (slow)</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="autosave_on_exit_check" >
-         <property name="text" >
+        <widget class="QCheckBox" name="autosave_on_exit_check">
+         <property name="text">
           <string>&amp;Save copy of playlist on exit</string>
          </property>
         </widget>
        </item>
        <item>
         <spacer>
-         <property name="orientation" >
+         <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
-         <property name="sizeHint" >
+         <property name="sizeHint" stdset="0">
           <size>
-           <width>354</width>
-           <height>61</height>
+           <width>20</width>
+           <height>40</height>
           </size>
          </property>
         </spacer>
@@ -143,11 +135,11 @@
    <receiver>add_consecutive_files_check</receiver>
    <slot>setEnabled(bool)</slot>
    <hints>
-    <hint type="sourcelabel" >
+    <hint type="sourcelabel">
      <x>224</x>
      <y>56</y>
     </hint>
-    <hint type="destinationlabel" >
+    <hint type="destinationlabel">
      <x>237</x>
      <y>87</y>
     </hint>
