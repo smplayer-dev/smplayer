@@ -246,13 +246,8 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
              mplayerwindow, SLOT(playingStarted()) );
 
 #if DVDNAV_SUPPORT
-	#if MPW_USE_EVENT_FILTER
-	connect( mplayerwindow, SIGNAL(mouseMoved(QPoint)), 
-             this, SLOT(dvdnavUpdateMousePos(QPoint)) );
-	#else
 	connect( mplayerwindow->videoLayer(), SIGNAL(mouseMoved(QPoint)),
              this, SLOT(dvdnavUpdateMousePos(QPoint)) );
-	#endif
 #endif
 
 #if REPAINT_BACKGROUND_OPTION
@@ -4442,12 +4437,7 @@ void Core::dvdnavUpdateMousePos(QPoint pos) {
 	//qDebug("Core::dvdnavUpdateMousePos");
 	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:")) && (dvdnav_title_is_menu)) {
 		if (mplayerwindow->videoLayer()->underMouse()) {
-			#if MPW_USE_EVENT_FILTER
-			QPoint p = mplayerwindow->videoLayer()->mapFromParent(pos);
-			#else
-			QPoint p = pos;
-			#endif
-			tellmp(QString("set_mouse_pos %1 %2").arg(p.x()).arg(p.y()));
+			tellmp(QString("set_mouse_pos %1 %2").arg(pos.x()).arg(pos.y()));
 		}
 	}
 }

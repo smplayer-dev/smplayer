@@ -93,9 +93,8 @@ void Screen::checkMousePos() {
 
 void Screen::mouseMoveEvent( QMouseEvent * e ) {
 	//qDebug("Screen::mouseMoveEvent");
-#if !MPW_USE_EVENT_FILTER
 	emit mouseMoved(e->pos());
-#endif
+
 	if (cursor().shape() != Qt::ArrowCursor) {
 		//qDebug(" showing mouse cursor" );
 		setCursor(QCursor(Qt::ArrowCursor));
@@ -212,11 +211,9 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
 
-#if MPW_USE_EVENT_FILTER
 	installEventFilter(this);
 	mplayerlayer->installEventFilter(this);
 	//logo->installEventFilter(this);
-#endif
 
 #if DELAYED_RESIZE
 	resize_timer = new QTimer(this);
@@ -436,39 +433,11 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 	}
 }
 
-#if MPW_USE_EVENT_FILTER
 bool MplayerWindow::eventFilter( QObject * watched, QEvent * event ) {
 	//qDebug("MplayerWindow::eventFilter: watched: %s", watched->objectName().toUtf8().constData());
 
-	if ( (event->type() == QEvent::MouseMove) || 
-         (event->type() == QEvent::MouseButtonRelease) ) 
-	{
-		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
-
-		if (event->type() == QEvent::MouseMove) {
-			QPoint pos = mouse_event->pos();
-			if (watched->objectName()=="mplayerlayer") {
-				QWidget *widget = static_cast<QWidget *>(watched);
-				pos = widget->mapToParent(pos);
-			}
-			emit mouseMoved(pos);
-
-			if ( mouse_event->buttons().testFlag(Qt::LeftButton)) {
-				emit mouseMovedDiff( mouse_event->globalPos() - mouse_press_pos);
-				mouse_press_pos = mouse_event->globalPos();
-				/* qDebug("MplayerWindow::eventFilter: mouse_press_pos: x: %d y: %d", mouse_press_pos.x(), mouse_press_pos.y()); */
-			}
-		}
-	}
-
-	if (event->type() == QEvent::MouseButtonPress) {
-		QMouseEvent *mouse_event = static_cast<QMouseEvent *>(event);
-		mouse_press_pos = mouse_event->globalPos();
-	}
-
 	return false;
 }
-#endif
 
 QSize MplayerWindow::sizeHint() const {
 	//qDebug("MplayerWindow::sizeHint");
