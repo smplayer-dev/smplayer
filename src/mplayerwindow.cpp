@@ -184,7 +184,9 @@ void MplayerLayer::playingStopped() {
 /* ---------------------------------------------------------------------- */
 
 MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f) 
-	: Screen(parent, f) , allow_video_movement(false)
+	: Screen(parent, f)
+	, allow_video_movement(false)
+	, isMoving(false)
 {
 	offset_x = 0;
 	offset_y = 0;
@@ -433,10 +435,50 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 	}
 }
 
-bool MplayerWindow::eventFilter( QObject * watched, QEvent * event ) {
-	//qDebug("MplayerWindow::eventFilter: watched: %s", watched->objectName().toUtf8().constData());
+/* the code in eventFilter is based on dragmovecharm.cpp, under license GPL 2 or 3:
+   https://qt.gitorious.org/qt-labs/graphics-dojo/source/8000ca3b229344ed2ba2ae81ed5ebaee86e9d63a:dragmove/dragmovecharm.cpp
+*/
+bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
+	//qDebug() << "MplayerWindow::eventFilter" << object;
 
-	return false;
+	QWidget * w = qobject_cast<QWidget*>(object);
+	if (!w) return false;
+
+	QEvent::Type type = event->type();
+	if (type != QEvent::MouseButtonPress && type != QEvent::MouseButtonRelease && type != QEvent::MouseMove) {
+		return false;
+	}
+
+	QMouseEvent *mouseEvent = dynamic_cast<QMouseEvent*>(event);
+	if (!mouseEvent || mouseEvent->modifiers() != Qt::NoModifier) {
+		return false;
+	}
+	Qt::MouseButton button = mouseEvent->button();
+
+	bool consumed = false;
+
+	if (type == QEvent::MouseButtonPress && button == Qt::LeftButton) {
+		startDrag = mouseEvent->globalPos();
+		isMoving = true;
+		event->accept();
+		consumed = true;
+	}
+
+	if (type == QEvent::MouseButtonRelease) {
+		startDrag = QPoint(0, 0);
+		isMoving = false;
+	}
+
+	if (type == QEvent::MouseMove && isMoving) {
+		QPoint pos = mouseEvent->globalPos();
+		QPoint diff = pos - startDrag;
+		//qDebug("MplayerWindow:eventFilter: move: %d %d", diff.x(), diff.y());
+		emit mouseMovedDiff(diff);
+		startDrag = pos;
+		consumed = true;
+	}
+
+	return consumed;
 }
 
 QSize MplayerWindow::sizeHint() const {

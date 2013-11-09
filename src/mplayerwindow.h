@@ -154,7 +154,7 @@ public:
 	virtual QSize sizeHint () const;
 	virtual QSize minimumSizeHint() const;
 
-	virtual bool eventFilter( QObject * watched, QEvent * event );
+	virtual bool eventFilter(QObject *, QEvent *);
 
 #if LOGO_ANIMATION
 	bool animatedLogo() { return animated_logo; }
@@ -230,8 +230,11 @@ protected:
 #if LOGO_ANIMATION
 	bool animated_logo;
 #endif
-};
 
+private:
+	bool isMoving;
+	QPoint startDrag;
+};
 
 #endif
 
