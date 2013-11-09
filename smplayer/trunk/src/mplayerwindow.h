@@ -122,12 +122,12 @@ private:
 
 class MplayerWindow : public Screen
 {
-    Q_OBJECT
+	Q_OBJECT
 
 public:
-    MplayerWindow( QWidget* parent = 0, Qt::WindowFlags f = 0);
-    ~MplayerWindow();
-    
+	MplayerWindow(QWidget* parent = 0, Qt::WindowFlags f = 0);
+	~MplayerWindow();
+
 	MplayerLayer * videoLayer() { return mplayerlayer; };
 
 	void setResolution( int w, int h);
@@ -185,8 +185,8 @@ protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent ( QEvent * event ) ;
 
-    virtual void resizeEvent( QResizeEvent * e);
-    virtual void mouseReleaseEvent( QMouseEvent * e);
+	virtual void resizeEvent( QResizeEvent * e);
+	virtual void mouseReleaseEvent( QMouseEvent * e);
 	virtual void mouseDoubleClickEvent( QMouseEvent * e );
 	virtual void wheelEvent( QWheelEvent * e );
 	void moveLayer( int offset_x, int offset_y );
@@ -205,8 +205,8 @@ signals:
 	void mouseMovedDiff(QPoint);
 
 protected:
-    int video_width, video_height;
-    double aspect;
+	int video_width, video_height;
+	double aspect;
 	double monitoraspect;
 
 	MplayerLayer * mplayerlayer;
