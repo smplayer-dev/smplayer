@@ -41,13 +41,16 @@
 #include <QPropertyAnimation>
 #endif
 
-Screen::Screen(QWidget* parent, Qt::WindowFlags f) : QWidget(parent, f ) 
+Screen::Screen(QWidget* parent, Qt::WindowFlags f)
+	: QWidget(parent, f )
+	, check_mouse_timer(0)
+	, mouse_last_position(QPoint(0,0))
+	, autohide_cursor(false)
+	, autohide_interval(0)
 {
 	setMouseTracking(true);
 	setFocusPolicy( Qt::NoFocus );
 	setMinimumSize( QSize(0,0) );
-
-	mouse_last_position = QPoint(0,0);
 
 	check_mouse_timer = new QTimer(this);
 	connect( check_mouse_timer, SIGNAL(timeout()), this, SLOT(checkMousePos()) );
@@ -113,14 +116,13 @@ void Screen::playingStopped() {
 
 /* ---------------------------------------------------------------------- */
 
-MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f) 
-	: Screen(parent, f) 
-{
+MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
+	: Screen(parent, f)
 #if REPAINT_BACKGROUND_OPTION
-	repaint_background = true;
+	, repaint_background(false)
 #endif
-	playing = false;
-
+	, playing(false)
+{
 #ifndef Q_OS_WIN
 	#if QT_VERSION < 0x050000
 	setAttribute(Qt::WA_OpaquePaintEvent);
@@ -183,19 +185,35 @@ void MplayerLayer::playingStopped() {
 
 /* ---------------------------------------------------------------------- */
 
-MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f) 
+MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	: Screen(parent, f)
+	, video_width(0)
+	, video_height(0)
+	, aspect((double) 4/3)
+	, monitoraspect(0)
+	, mplayerlayer(0)
+	, logo(0)
+	, offset_x(0)
+	, offset_y(0)
+	, zoom_factor(1.0)
+	, orig_x(0)
+	, orig_y(0)
+	, orig_width(0)
+	, orig_height(0)
 	, allow_video_movement(false)
+#if DELAYED_RESIZE
+	, resize_timer(0)
+#endif
+#if LOGO_ANIMATION
+	, animated_logo(false)
+#endif
 	, isMoving(false)
+	, startDrag(QPoint(0,0))
 {
-	offset_x = 0;
-	offset_y = 0;
-	zoom_factor = 1.0;
-
 	setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
 
-	mplayerlayer = new MplayerLayer( this );
+	mplayerlayer = new MplayerLayer(this);
 	mplayerlayer->setObjectName("mplayerlayer");
 	mplayerlayer->setAutoFillBackground(true);
 
@@ -206,9 +224,6 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
 	mplayerlayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
-
-	aspect = (double) 4 / 3;
-	monitoraspect = 0;
 
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
