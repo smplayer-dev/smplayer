@@ -475,7 +475,7 @@ bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
 
 	if (type == QEvent::MouseButtonPress && button == Qt::LeftButton) {
 		startDrag = mouseEvent->globalPos();
-		//qDebug() << "MplayerWindow::eventFilter: obj:" << object->objectName() << "startDrag:" << startDrag;
+		//qDebug() << "MplayerWindow::eventFilter: startDrag:" << startDrag << "obj:" << object->objectName();
 		isMoving = true;
 		event->accept();
 		consumed = true;
@@ -489,7 +489,7 @@ bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
 	if (type == QEvent::MouseMove && isMoving) {
 		QPoint pos = mouseEvent->globalPos();
 		QPoint diff = pos - startDrag;
-		//qDebug() << "MplayerWindow:eventFilter: obj:" << object->objectName() << "diff:" << diff;
+		//qDebug() << "MplayerWindow:eventFilter: diff" << diff << "obj:" << object->objectName();
 		emit mouseMovedDiff(diff);
 		startDrag = pos;
 		consumed = true;
