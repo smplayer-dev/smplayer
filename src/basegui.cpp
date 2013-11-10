@@ -2106,7 +2106,7 @@ void BaseGui::createMplayerWindow() {
 
 	if (pref->move_when_dragging) {
 		connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
-	             this, SLOT(moveWindow(QPoint)));
+	             this, SLOT(moveWindow(QPoint)), Qt::QueuedConnection );
 	}
 }
 
@@ -4973,6 +4973,7 @@ void BaseGui::moveWindow(QPoint diff) {
 	if (pref->fullscreen || isMaximized()) {
 		return;
 	}
+	//qDebug() << "BaseGui::moveWindow:" << diff;
 	move(pos() + diff);
 }
 

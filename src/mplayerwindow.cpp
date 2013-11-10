@@ -32,6 +32,7 @@
 #include <QLayout>
 #include <QPixmap>
 #include <QPainter>
+#include <QDebug>
 
 #if DELAYED_RESIZE
 #include <QTimer>
@@ -474,6 +475,7 @@ bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
 
 	if (type == QEvent::MouseButtonPress && button == Qt::LeftButton) {
 		startDrag = mouseEvent->globalPos();
+		//qDebug() << "MplayerWindow::eventFilter: obj:" << object->objectName() << "startDrag:" << startDrag;
 		isMoving = true;
 		event->accept();
 		consumed = true;
@@ -487,7 +489,7 @@ bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
 	if (type == QEvent::MouseMove && isMoving) {
 		QPoint pos = mouseEvent->globalPos();
 		QPoint diff = pos - startDrag;
-		//qDebug("MplayerWindow:eventFilter: move: %d %d", diff.x(), diff.y());
+		//qDebug() << "MplayerWindow:eventFilter: obj:" << object->objectName() << "diff:" << diff;
 		emit mouseMovedDiff(diff);
 		startDrag = pos;
 		consumed = true;
