@@ -1478,6 +1478,26 @@ void Core::startMplayer( QString file, double seek ) {
 	qDebug("Core::startMplayer: url_is_playlist: %d", url_is_playlist);
 
 
+	// Check if a m4a file exists with the same name of file, in that cause if will be used as audio
+	if (pref->autoload_m4a && mset.external_audio.isEmpty()) {
+		QFileInfo fi(file);
+		if (fi.exists() && !fi.isDir()) {
+			if (fi.suffix().toLower() == "mp4") {
+				QString file2 = fi.path() + "/" + fi.completeBaseName() + ".m4a";
+				//qDebug("Core::startMplayer: file2: %s", file2.toUtf8().constData());
+				if (!QFile::exists(file2)) {
+					// Check for upper case
+					file2 = fi.path() + "/" + fi.completeBaseName() + ".M4A";
+				}
+				if (QFile::exists(file2)) {
+					qDebug("Core::startMplayer: found %s, so it will be used as audio file", file2.toUtf8().constData());
+					mset.external_audio = file2;
+				}
+			}
+		}
+	}
+
+
 	bool screenshot_enabled = ( (pref->use_screenshot) && 
                                 (!pref->screenshot_directory.isEmpty()) && 
                                 (QFileInfo(pref->screenshot_directory).isDir()) );
@@ -1972,30 +1992,6 @@ void Core::startMplayer( QString file, double seek ) {
 		else
 		#endif
 		proc->addArgument( mset.external_audio );
-	}
-	else
-	if (pref->autoload_m4a) {
-		QFileInfo fi(file);
-		if (fi.exists() && !fi.isDir()) {
-			if (fi.suffix().toLower() == "mp4") {
-				QString file2 = fi.path() + "/" + fi.completeBaseName() + ".m4a";
-				//qDebug("Core::startMplayer: file2: %s", file2.toUtf8().constData());
-				if (!QFile::exists(file2)) {
-					// Check for upper case
-					file2 = fi.path() + "/" + fi.completeBaseName() + ".M4A";
-				}
-				if (QFile::exists(file2)) {
-					qDebug("Core::startMplayer: found %s, so it will be used as audio file", file2.toUtf8().constData());
-					proc->addArgument("-audiofile");
-					#ifdef Q_OS_WIN
-					if (pref->use_short_pathnames)
-						proc->addArgument(Helper::shortPathName(file2));
-					else
-					#endif
-					proc->addArgument(file2);
-				}
-			}
-		}
 	}
 
 	proc->addArgument("-subpos");
