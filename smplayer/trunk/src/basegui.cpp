@@ -2104,10 +2104,9 @@ void BaseGui::createMplayerWindow() {
 	connect( mplayerwindow, SIGNAL(xbutton2Clicked()),
              this, SLOT(xbutton2ClickFunction()) );
 
-	if (pref->move_when_dragging) {
-		connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
-	             this, SLOT(moveWindow(QPoint)), Qt::QueuedConnection );
-	}
+	connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
+             this, SLOT(moveWindowDiff(QPoint)), Qt::QueuedConnection );
+	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
 }
 
 void BaseGui::createVideoEqualizer() {
@@ -2804,10 +2803,7 @@ void BaseGui::applyNewPreferences() {
 #endif
 	}
 
-	disconnect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)), this, SLOT(moveWindow(QPoint)));
-	if (pref->move_when_dragging) {
-		connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)), this, SLOT(moveWindow(QPoint)), Qt::QueuedConnection);
-	}
+	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	if (pref->hide_video_window_on_audio_files) {
@@ -4968,7 +4964,7 @@ void BaseGui::saveActions() {
 #endif
 }
 
-void BaseGui::moveWindow(QPoint diff) {
+void BaseGui::moveWindowDiff(QPoint diff) {
 	if (pref->fullscreen || isMaximized()) {
 		return;
 	}
@@ -4984,17 +4980,17 @@ void BaseGui::moveWindow(QPoint diff) {
 	count++;
 
 	if (count > 3) {
-		//qDebug() << "BaseGui::moveWindow:" << d;
+		//qDebug() << "BaseGui::moveWindowDiff:" << d;
 		QPoint new_pos = pos() + d;
 		if (new_pos.y() < 0) new_pos.setY(0);
 		if (new_pos.x() < 0) new_pos.setX(0);
-		//qDebug() << "BaseGui::moveWindow: new_pos:" << new_pos;
+		//qDebug() << "BaseGui::moveWindowDiff: new_pos:" << new_pos;
 		move(new_pos);
 		count = 0;
 		d = QPoint(0,0);
 	}
 #else
-	//qDebug() << "BaseGui::moveWindow:" << diff;
+	//qDebug() << "BaseGui::moveWindowDiff:" << diff;
 	move(pos() + diff);
 #endif
 }

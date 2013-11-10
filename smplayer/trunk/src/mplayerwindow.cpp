@@ -208,6 +208,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 #if LOGO_ANIMATION
 	, animated_logo(false)
 #endif
+	, mouse_drag_tracking(false)
 	, isMoving(false)
 	, startDrag(QPoint(0,0))
 {
@@ -456,6 +457,8 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 */
 bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
 	//qDebug() << "MplayerWindow::eventFilter" << object;
+
+	if (!mouse_drag_tracking) return false;
 
 	QWidget * w = qobject_cast<QWidget*>(object);
 	if (!w) return false;

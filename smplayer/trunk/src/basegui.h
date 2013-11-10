@@ -271,7 +271,7 @@ protected slots:
 	virtual void loadActions();
 	virtual void saveActions();
 
-	virtual void moveWindow(QPoint diff);
+	virtual void moveWindowDiff(QPoint diff);
 
 	// Single instance stuff
 #ifdef SINGLE_INSTANCE
