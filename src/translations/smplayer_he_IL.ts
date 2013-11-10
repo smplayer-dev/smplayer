@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="he">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -182,7 +180,7 @@
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../about.cpp" line="188"/>
@@ -424,7 +422,7 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -433,12 +431,12 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="96"/>
@@ -458,7 +456,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="103"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
@@ -688,12 +686,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1567"/>
         <source>&amp;Deblock</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1568"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1570"/>
@@ -932,7 +930,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3859"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"></translation>
+        <translation>בחירת תיקיית Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3871"/>
@@ -1075,14 +1073,14 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1945"/>
         <location filename="../basegui.cpp" line="1946"/>
         <source>-%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1948"/>
         <location filename="../basegui.cpp" line="1949"/>
         <location filename="../basegui.cpp" line="1950"/>
         <source>+%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
@@ -1092,22 +1090,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1477"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blu-ray מתוך תיקייה</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1478"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-&amp;ray מתוך תיקייה...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1543"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>מחולל תמונות &amp;ציפורן...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1569"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1622"/>
@@ -1340,7 +1338,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5175"/>
         <source>Be sure %1 is installed.</source>
-        <translation>ודא שרכיב %1 הינו מותקן.</translation>
+        <translation>ודא כי %1 הינו מותקן.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
@@ -1451,7 +1449,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1572"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1648"/>
@@ -2125,85 +2123,85 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="495"/>
+        <location filename="../defaultgui.cpp" line="504"/>
         <source>Welcome to SMPlayer</source>
         <translation>ברוך בואך אל SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="524"/>
+        <location filename="../defaultgui.cpp" line="533"/>
         <source>Subtitle</source>
         <translation>כתובית</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="517"/>
+        <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="529"/>
         <source>&amp;Language toolbar</source>
         <translation>סרגל כלים &amp;שפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="511"/>
+        <location filename="../defaultgui.cpp" line="520"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="551"/>
+        <location filename="../defaultgui.cpp" line="560"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="555"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="514"/>
+        <location filename="../defaultgui.cpp" line="523"/>
         <source>Status&amp;bar</source>
         <translation>שורת &amp;מצב</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="535"/>
         <source>&amp;Video info</source>
         <translation>מידע &amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="527"/>
+        <location filename="../defaultgui.cpp" line="536"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;מונה מסגרת</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="530"/>
+        <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="531"/>
+        <location filename="../defaultgui.cpp" line="540"/>
         <source>Edit &amp;control bar</source>
         <translation>ערוך סרגל &amp;בקרה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="541"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>ערוך סרגל בקרה &amp;קטן</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="533"/>
+        <location filename="../defaultgui.cpp" line="542"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="573"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2659,10 +2657,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>כתובית %n חולצה</numerusform>
-            <numerusform>%n כתוביות חולצו</numerusform>
-        </translation>
+        <translation><numerusform>כתובית %n חולצה</numerusform><numerusform>%n כתוביות חולצו</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2760,7 +2755,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>זה לא היה אפשרי ללשמור את הקובץ
@@ -3020,7 +3015,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation>SMPlayer - נגינת ‫DVD מתיקייה</translation>
+        <translation>SMPlayer - נגינת ‫DVD מתוך תיקייה</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
@@ -3719,7 +3714,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Xhosa</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="204"/>
@@ -3734,7 +3729,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Zhuang</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
@@ -3780,7 +3775,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="288"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="289"/>
@@ -3830,7 +3825,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="300"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="301"/>
@@ -4025,7 +4020,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
@@ -4070,12 +4065,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
@@ -4091,7 +4086,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
@@ -4333,14 +4328,14 @@ Do you want to overwrite?</source>
         <location filename="../mpcgui/mpcgui.cpp" line="434"/>
         <location filename="../mpcgui/mpcgui.cpp" line="435"/>
         <source>-%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="437"/>
         <location filename="../mpcgui/mpcgui.cpp" line="438"/>
         <location filename="../mpcgui/mpcgui.cpp" line="439"/>
         <source>+%1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -5080,22 +5075,22 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>תקליטורים</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="196"/>
+        <location filename="../prefdrives.cpp" line="195"/>
         <source>CD device</source>
         <translation>התקן CD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="197"/>
+        <location filename="../prefdrives.cpp" line="196"/>
         <source>Choose your CDROM device. It will be used to play VCDs and Audio CDs.</source>
         <translation>בחר התקן CDROM. זה יתועל לנגן תקליטורי VCD ותקליטורי שמע.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="200"/>
+        <location filename="../prefdrives.cpp" line="199"/>
         <source>DVD device</source>
         <translation>התקן DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="201"/>
+        <location filename="../prefdrives.cpp" line="200"/>
         <source>Choose your DVD device. It will be used to play DVDs.</source>
         <translation>בחר התקן DVD. זה יתועל לנגן תקליטורי DVD.</translation>
     </message>
@@ -5110,9 +5105,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>בחר התקן &amp;DVD:</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="265"/>
+        <location filename="../prefdrives.ui" line="258"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"></translation>
+        <translation>בחר התקן &amp;Blu-ray:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5120,42 +5115,42 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>באופן רגיל, SMPlayer לא בורר שום התקן CDROM או DVD. כך שלפני שתעמוד לרשותך היכולת למעשה לנגן CD או DVD עליך לבחור את ההתקנים בהם ברצונך להשתמש (הם יכולים להיות זהים).</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="215"/>
+        <location filename="../prefdrives.cpp" line="202"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>התקן Blu-ray</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="216"/>
+        <location filename="../prefdrives.cpp" line="203"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>בחר התקן Blu-ray. זה יתועל לנגן תקליטורי Blu-ray.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="204"/>
+        <location filename="../prefdrives.cpp" line="206"/>
         <source>Enable DVD menus</source>
         <translation>אפשר תפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="205"/>
+        <location filename="../prefdrives.cpp" line="207"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation>במידה ואפשרות זו מסומנת, smplayer ינגן תקליטורי DVD באמצעות dvdnav. זו מצריכה גרסא אחרונית של mplayer מהודר עם תמיכת dvdnav.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="208"/>
+        <location filename="../prefdrives.cpp" line="210"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;הערה 1&lt;/b&gt;: מטמון ינוטרל, זה יכול להשפיע על ביצועים.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="209"/>
+        <location filename="../prefdrives.cpp" line="211"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
         <translation>&lt;b&gt;הערה 2&lt;/b&gt;: יתכן ויהיה ברצונך להקצות את הפעולה &quot;אפשר פעולה בתפריטי DVD&quot; לאחד מלחצני העכבר.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="211"/>
+        <location filename="../prefdrives.cpp" line="213"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
         <translation>&lt;b&gt;הערה 3&lt;/b&gt;: תכונה זו מצויה כעת תחת פיתוח, צפה לבעיות רבות עמה.</translation>
     </message>
     <message>
-        <location filename="../prefdrives.ui" line="225"/>
+        <location filename="../prefdrives.ui" line="314"/>
         <source>&amp;Enable DVD menus (experimental)</source>
         <translation>&amp;אפשר תפריטי DVD (ניסיוני)</translation>
     </message>
@@ -5512,7 +5507,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefgeneral.ui" line="1011"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
@@ -5572,7 +5567,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="112"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="113"/>
@@ -5592,7 +5587,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="116"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
@@ -5654,18 +5649,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="354"/>
         <location filename="../prefgeneral.cpp" line="380"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="348"/>
         <location filename="../prefgeneral.cpp" line="376"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="381"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="403"/>
@@ -5967,22 +5962,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="355"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="356"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="411"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="412"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1016"/>
@@ -6636,7 +6631,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="45"/>
         <location filename="../prefinterface.ui" line="595"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="410"/>
@@ -6828,17 +6823,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>במידה ואפשות זו מאופשרת, הבקרה הצפה תופיע גם עם מצב קומפקטי.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשרות זו פועלת רק עם ממשק בסיסי.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;אזהרה:&lt;/b&gt; הבקרה הצפה לא נועדה עבור מצב קומפקטי וזו עלולה שלא לעבוד היטב.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
@@ -7526,7 +7521,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="388"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation>בחר את הגופן שינוצל עבור כתוביות (וגם OSD):</translation>
+        <translation>בחר את הגופן אשר ינוצל עבור כתוביות (וגם OSD):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
@@ -7672,7 +7667,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation>בחר את הקידוד שינוצל עבור קבצי כתובית באופן משתמט.</translation>
+        <translation>בחר את הקידוד אשר ינוצל עבור קבצי כתובית באופן משתמט.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
@@ -8096,7 +8091,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="529"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation>צבע זה ינוצל למען הצל של הכתוביות.</translation>
+        <translation>צבע זה ינוצל עבור הצל של הכתוביות.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="962"/>
@@ -8139,7 +8134,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
@@ -8159,7 +8154,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -8397,19 +8392,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n שניה</numerusform>
-            <numerusform>%n שניות</numerusform>
-        </translation>
+        <translation><numerusform>%n שניה</numerusform><numerusform>%n שניות</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n דקה</numerusform>
-            <numerusform>%n דקות</numerusform>
-        </translation>
+        <translation><numerusform>%n דקה</numerusform><numerusform>%n דקות</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8557,47 +8546,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="398"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="401"/>
+        <location filename="../skingui/skingui.cpp" line="415"/>
         <source>Status&amp;bar</source>
         <translation>&amp;שורת מצב</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="404"/>
+        <location filename="../skingui/skingui.cpp" line="418"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="408"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="410"/>
+        <location filename="../skingui/skingui.cpp" line="424"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="414"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>&amp;Video info</source>
         <translation>מידע &amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="427"/>
+        <location filename="../skingui/skingui.cpp" line="441"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="442"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="443"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
