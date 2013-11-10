@@ -2804,10 +2804,9 @@ void BaseGui::applyNewPreferences() {
 #endif
 	}
 
+	disconnect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)), this, SLOT(moveWindow(QPoint)));
 	if (pref->move_when_dragging) {
 		connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)), this, SLOT(moveWindow(QPoint)), Qt::QueuedConnection);
-	} else {
-		disconnect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)), this, SLOT(moveWindow(QPoint)));
 	}
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
@@ -4974,6 +4973,7 @@ void BaseGui::moveWindow(QPoint diff) {
 		return;
 	}
 
+#if QT_VERSION >= 0x050000
 	// Move the window with some delay.
 	// Seems to work better with Qt 5
 
@@ -4993,6 +4993,10 @@ void BaseGui::moveWindow(QPoint diff) {
 		count = 0;
 		d = QPoint(0,0);
 	}
+#else
+	//qDebug() << "BaseGui::moveWindow:" << diff;
+	move(pos() + diff);
+#endif
 }
 
 void BaseGui::showEvent( QShowEvent * ) {
