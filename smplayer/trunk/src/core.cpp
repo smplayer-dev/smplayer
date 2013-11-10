@@ -1904,11 +1904,13 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument( QString::number( mset.current_video_id ) );
 	}
 
-	if (mset.current_audio_id != MediaSettings::NoneSelected) {
-		// Workaround for MPlayer bug #1321 (http://bugzilla.mplayerhq.hu/show_bug.cgi?id=1321)
-		if (mdat.audios.numItems() != 1) {
-			proc->addArgument("-aid");
-			proc->addArgument( QString::number( mset.current_audio_id ) );
+	if (mset.external_audio.isEmpty()) {
+		if (mset.current_audio_id != MediaSettings::NoneSelected) {
+			// Workaround for MPlayer bug #1321 (http://bugzilla.mplayerhq.hu/show_bug.cgi?id=1321)
+			if (mdat.audios.numItems() != 1) {
+				proc->addArgument("-aid");
+				proc->addArgument( QString::number( mset.current_audio_id ) );
+			}
 		}
 	}
 
