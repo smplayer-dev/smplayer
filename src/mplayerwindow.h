@@ -176,6 +176,8 @@ public slots:
 	void incZoom();
 	void decZoom();
 
+	void activateMouseDragTracking(bool active) { mouse_drag_tracking = active; }
+
 #if DELAYED_RESIZE
 protected slots:
 	void resizeLater();
@@ -232,6 +234,7 @@ protected:
 #endif
 
 private:
+	bool mouse_drag_tracking;
 	bool isMoving;
 	QPoint startDrag;
 };
