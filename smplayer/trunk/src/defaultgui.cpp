@@ -101,6 +101,7 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 }
 
 DefaultGui::~DefaultGui() {
+	qDebug("DefaultGui::~DefaultGui");
 	saveConfig();
 }
 
@@ -580,14 +581,14 @@ void DefaultGui::updateWidgets() {
 void DefaultGui::applyNewPreferences() {
 	qDebug("DefaultGui::applyNewPreferences");
 
-	BaseGuiPlus::applyNewPreferences();
-
 	if ((pref->compact_mode) && (pref->floating_display_in_compact_mode)) {
 		reconfigureFloatingControl();
 		floating_control->activate();
 	} else {
 		floating_control->deactivate();
 	}
+
+	BaseGuiPlus::applyNewPreferences();
 }
 
 void DefaultGui::reconfigureFloatingControl() {
