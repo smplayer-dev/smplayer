@@ -92,6 +92,11 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 		controlwidget->hide();
 		toolbar1->hide();
 		toolbar2->hide();
+
+		if (pref->floating_display_in_compact_mode) {
+			reconfigureFloatingControl();
+			floating_control->activate();
+		}
 	}
 }
 
@@ -572,15 +577,32 @@ void DefaultGui::updateWidgets() {
 	panel->setFocus();
 }
 
+void DefaultGui::applyNewPreferences() {
+	qDebug("DefaultGui::applyNewPreferences");
+
+	BaseGuiPlus::applyNewPreferences();
+
+	if ((pref->compact_mode) && (pref->floating_display_in_compact_mode)) {
+		reconfigureFloatingControl();
+		floating_control->activate();
+	} else {
+		floating_control->deactivate();
+	}
+}
+
+void DefaultGui::reconfigureFloatingControl() {
+	floating_control->setMargin(pref->floating_control_margin);
+	floating_control->setPercWidth(pref->floating_control_width);
+	floating_control->setAnimated(pref->floating_control_animated);
+}
+
 void DefaultGui::aboutToEnterFullscreen() {
 	qDebug("DefaultGui::aboutToEnterFullscreen");
 
 	BaseGuiPlus::aboutToEnterFullscreen();
 
 	// Show floating_control
-	floating_control->setMargin(pref->floating_control_margin);
-	floating_control->setPercWidth(pref->floating_control_width);
-	floating_control->setAnimated(pref->floating_control_animated);
+	reconfigureFloatingControl();
 	floating_control->deactivate(); // Hide the control in case it was running from compact mode
 	QTimer::singleShot(500, floating_control, SLOT(activate()));
 
@@ -625,9 +647,7 @@ void DefaultGui::aboutToEnterCompactMode() {
 
 	// Show floating_control
 	if (pref->floating_display_in_compact_mode) {
-		floating_control->setMargin(pref->floating_control_margin);
-		floating_control->setPercWidth(pref->floating_control_width);
-		floating_control->setAnimated(pref->floating_control_animated);
+		reconfigureFloatingControl();
 		QTimer::singleShot(500, floating_control, SLOT(activate()));
 	}
 
