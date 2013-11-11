@@ -41,6 +41,7 @@ class QTimer;
 #define ZOOM_MIN 0.5
 
 #define DELAYED_RESIZE 0
+#define DELAY_LEFT_CLICK 1
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
@@ -227,6 +228,11 @@ protected:
 
 #if DELAYED_RESIZE
 	QTimer * resize_timer;
+#endif
+
+#if DELAY_LEFT_CLICK
+	QTimer * left_click_timer;
+	bool double_clicked;
 #endif
 
 #if LOGO_ANIMATION

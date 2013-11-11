@@ -32,11 +32,9 @@
 #include <QLayout>
 #include <QPixmap>
 #include <QPainter>
-#include <QDebug>
-
-#if DELAYED_RESIZE
+#include <QApplication>
 #include <QTimer>
-#endif
+#include <QDebug>
 
 #if LOGO_ANIMATION
 #include <QPropertyAnimation>
@@ -205,6 +203,10 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 #if DELAYED_RESIZE
 	, resize_timer(0)
 #endif
+#if DELAY_LEFT_CLICK
+	, left_click_timer(0)
+	, double_clicked(false)
+#endif
 #if LOGO_ANIMATION
 	, animated_logo(false)
 #endif
@@ -239,6 +241,13 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	resize_timer->setSingleShot(true);
 	resize_timer->setInterval(50);
 	connect( resize_timer, SIGNAL(timeout()), this, SLOT(resizeLater()) );
+#endif
+
+#if DELAY_LEFT_CLICK
+	left_click_timer = new QTimer(this);
+	left_click_timer->setSingleShot(true);
+	left_click_timer->setInterval(qApp->doubleClickInterval()+10);
+	connect(left_click_timer, SIGNAL(timeout()), this, SIGNAL(leftClicked()));
 #endif
 
 	retranslateStrings();
@@ -397,11 +406,16 @@ void MplayerWindow::updateVideoWindow()
 
 
 void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
-    qDebug( "MplayerWindow::mouseReleaseEvent" );
+	qDebug( "MplayerWindow::mouseReleaseEvent" );
 
 	if (e->button() == Qt::LeftButton) {
 		e->accept();
+#if DELAY_LEFT_CLICK
+		if (!double_clicked) left_click_timer->start();
+		double_clicked = false;
+#else
 		emit leftClicked();
+#endif
 	}
 	else
 	if (e->button() == Qt::MidButton) {
@@ -432,6 +446,10 @@ void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
 void MplayerWindow::mouseDoubleClickEvent( QMouseEvent * e ) {
 	if (e->button() == Qt::LeftButton) {
 		e->accept();
+#if DELAY_LEFT_CLICK
+		left_click_timer->stop();
+		double_clicked = true;
+#endif
 		emit doubleClicked();
 	} else {
 		e->ignore();
