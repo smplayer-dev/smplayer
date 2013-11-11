@@ -79,6 +79,7 @@ protected:
 
 protected slots:
 	virtual void updateWidgets();
+	virtual void applyNewPreferences();
 	virtual void displayTime(QString text);
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
@@ -89,6 +90,9 @@ protected slots:
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
 #endif
+
+protected:
+	void reconfigureFloatingControl();
 
 protected:
 	QLabel * time_display;
