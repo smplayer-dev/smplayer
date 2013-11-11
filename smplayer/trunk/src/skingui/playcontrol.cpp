@@ -38,22 +38,21 @@ PlayControl::PlayControl(QWidget *parent) :
     QSpacerItem* spacer1 = new QSpacerItem(9, 10, QSizePolicy::MinimumExpanding, QSizePolicy::Maximum);
     QSpacerItem* spacer2 = new QSpacerItem(9, 10, QSizePolicy::MinimumExpanding, QSizePolicy::Maximum);
     layout->addSpacerItem(spacer1);
-    layout->addWidget(backwardButton);
     layout->addWidget(previousButton);
+    layout->addWidget(backwardButton);
     layout->addWidget(playPauseButton);
     layout->addWidget(stopButton);
     layout->addWidget(recordButton);
-    layout->addWidget(nextButton);
     layout->addWidget(forwardButton);
-    layout->addSpacerItem(spacer2);    
-    layout->setSpacing(0);    
+    layout->addWidget(nextButton);
+    layout->addSpacerItem(spacer2);
+    layout->setSpacing(0);
     layout->setContentsMargins( 0, 0, 0, 0);
     setRecordEnabled(false);
     setLayout(layout);
     recordButton->installEventFilter(this);
     nextButton->installEventFilter(this);
     previousButton->installEventFilter(this);
-
 }
 
 
