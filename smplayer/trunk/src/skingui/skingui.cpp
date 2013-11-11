@@ -53,6 +53,7 @@ using namespace Global;
 
 SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	: BaseGuiPlus( parent, flags )
+	, was_muted(false)
 {
 	connect( this, SIGNAL(timeChanged(QString)),
              this, SLOT(displayTime(QString)) );
@@ -446,6 +447,16 @@ void SkinGui::updateWidgets() {
 	BaseGuiPlus::updateWidgets();
 
 	panel->setFocus();
+
+	bool muted = (pref->global_volume ? pref->mute : core->mset.mute);
+	if (was_muted != muted) {
+		was_muted = muted;
+		if (muted) {
+			mediaBarPanel->setVolume(0);
+		} else {
+			mediaBarPanel->setVolume(core->mset.volume);
+		}
+	}
 }
 
 void SkinGui::aboutToEnterFullscreen() {

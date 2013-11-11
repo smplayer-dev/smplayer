@@ -120,6 +120,8 @@ protected:
 
 	bool fullscreen_toolbar1_was_visible;
 	bool compact_toolbar1_was_visible;
+
+	bool was_muted;
 };
 
 #endif
