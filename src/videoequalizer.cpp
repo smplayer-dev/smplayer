@@ -16,9 +16,9 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "videoequalizer2.h"
+#include "videoequalizer.h"
 
-VideoEqualizer2::VideoEqualizer2( QWidget* parent, Qt::WindowFlags f ) 
+VideoEqualizer::VideoEqualizer( QWidget* parent, Qt::WindowFlags f ) 
 	: QWidget(parent, f)
 {
 	setupUi(this);
@@ -64,10 +64,10 @@ VideoEqualizer2::VideoEqualizer2( QWidget* parent, Qt::WindowFlags f )
 	adjustSize();
 }
 
-VideoEqualizer2::~VideoEqualizer2() {
+VideoEqualizer::~VideoEqualizer() {
 }
 
-void VideoEqualizer2::reset() {
+void VideoEqualizer::reset() {
 	setContrast(0);
 	setBrightness(0);
 	setHue(0);
@@ -75,25 +75,25 @@ void VideoEqualizer2::reset() {
 	setGamma(0);
 }
 
-void VideoEqualizer2::on_reset_button_clicked() {
-	qDebug("VideoEqualizer2::on_reset_button_clicked");
+void VideoEqualizer::on_reset_button_clicked() {
+	qDebug("VideoEqualizer::on_reset_button_clicked");
 	reset();
 }
 
-void VideoEqualizer2::on_bysoftware_check_stateChanged(int state) {
-	qDebug("VideoEqualizer2::on_bysoftware_check_stateChanged");
+void VideoEqualizer::on_bysoftware_check_stateChanged(int state) {
+	qDebug("VideoEqualizer::on_bysoftware_check_stateChanged");
 	emit bySoftwareChanged(state == Qt::Checked);
 }
 
-void VideoEqualizer2::hideEvent( QHideEvent * ) {
+void VideoEqualizer::hideEvent( QHideEvent * ) {
 	emit visibilityChanged();
 }
 
-void VideoEqualizer2::showEvent( QShowEvent * ) {
+void VideoEqualizer::showEvent( QShowEvent * ) {
 	emit visibilityChanged();
 }
 
-void VideoEqualizer2::retranslateStrings() {
+void VideoEqualizer::retranslateStrings() {
 	retranslateUi(this);
 
 	// What's this help:
@@ -104,7 +104,7 @@ void VideoEqualizer2::retranslateStrings() {
 }
 
 // Language change stuff
-void VideoEqualizer2::changeEvent(QEvent *e) {
+void VideoEqualizer::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();
 	} else {
@@ -112,4 +112,4 @@ void VideoEqualizer2::changeEvent(QEvent *e) {
 	}
 }
 
-#include "moc_videoequalizer2.cpp"
+#include "moc_videoequalizer.cpp"
