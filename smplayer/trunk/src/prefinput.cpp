@@ -172,6 +172,7 @@ void PrefInput::setData(Preferences * pref) {
 	setWheelFunction( pref->wheel_function );
 	setWheelFunctionCycle(pref->wheel_function_cycle);
 	setWheelFunctionSeekingReverse(pref->wheel_function_seeking_reverse);
+	delay_left_check->setChecked(pref->delay_left_click);
 }
 
 void PrefInput::getData(Preferences * pref) {
@@ -186,6 +187,7 @@ void PrefInput::getData(Preferences * pref) {
 	pref->wheel_function = wheelFunction();
 	pref->wheel_function_cycle = wheelFunctionCycle();
 	pref->wheel_function_seeking_reverse = wheelFunctionSeekingReverse();
+	pref->delay_left_click = delay_left_check->isChecked();
 }
 
 /*
@@ -333,6 +335,16 @@ void PrefInput::createHelp() {
 
 	setWhatsThis(xbutton2_click_combo, tr("X Button 2"),
 		tr("Select the action for the X button 2.") );
+
+	setWhatsThis(delay_left_check, tr("Don't trigger the left click function when double click"),
+		tr("If this option is enabled when you double click on the "
+            "video area only the double click function will be activated.") + " "+
+		tr("If this option is disabled the left click function will be "
+           "activated before the double click function. "
+           "That's right, both the left and double click functions will be activated if this option is disabled.") +
+           "<br><b>" + tr("Notice:") +"</b> " +
+		tr("Enabling this option has an inconvenience: the left click is delayed %1 milliseconds "
+           "because it's necessary to wait if there's a double click or not.").arg(qApp->doubleClickInterval()+10) );
 
 	setWhatsThis(wheel_function_combo, tr("Wheel function"),
 		tr("Select the action for the mouse wheel.") );

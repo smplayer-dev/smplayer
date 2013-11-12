@@ -203,10 +203,9 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 #if DELAYED_RESIZE
 	, resize_timer(0)
 #endif
-#if DELAY_LEFT_CLICK
+	, delay_left_click(false)
 	, left_click_timer(0)
 	, double_clicked(false)
-#endif
 #if LOGO_ANIMATION
 	, animated_logo(false)
 #endif
@@ -243,12 +242,10 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	connect( resize_timer, SIGNAL(timeout()), this, SLOT(resizeLater()) );
 #endif
 
-#if DELAY_LEFT_CLICK
 	left_click_timer = new QTimer(this);
 	left_click_timer->setSingleShot(true);
 	left_click_timer->setInterval(qApp->doubleClickInterval()+10);
 	connect(left_click_timer, SIGNAL(timeout()), this, SIGNAL(leftClicked()));
-#endif
 
 	retranslateStrings();
 }
@@ -410,12 +407,12 @@ void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
 
 	if (e->button() == Qt::LeftButton) {
 		e->accept();
-#if DELAY_LEFT_CLICK
-		if (!double_clicked) left_click_timer->start();
-		double_clicked = false;
-#else
-		emit leftClicked();
-#endif
+		if (delay_left_click) {
+			if (!double_clicked) left_click_timer->start();
+			double_clicked = false;
+		} else {
+			emit leftClicked();
+		}
 	}
 	else
 	if (e->button() == Qt::MidButton) {
@@ -446,10 +443,10 @@ void MplayerWindow::mouseReleaseEvent( QMouseEvent * e) {
 void MplayerWindow::mouseDoubleClickEvent( QMouseEvent * e ) {
 	if (e->button() == Qt::LeftButton) {
 		e->accept();
-#if DELAY_LEFT_CLICK
-		left_click_timer->stop();
-		double_clicked = true;
-#endif
+		if (delay_left_click) {
+			left_click_timer->stop();
+			double_clicked = true;
+		}
 		emit doubleClicked();
 	} else {
 		e->ignore();

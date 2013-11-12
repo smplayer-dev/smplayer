@@ -363,6 +363,7 @@ void Preferences::reset() {
 	precise_seeking = true;
 
 	reset_stop = false;
+	delay_left_click = false;
 
 	language = "";
 
@@ -810,6 +811,7 @@ void Preferences::save() {
 	set->setValue("precise_seeking", precise_seeking);
 
 	set->setValue("reset_stop", reset_stop);
+	set->setValue("delay_left_click", delay_left_click);
 
 	set->setValue("language", language);
 	set->setValue("iconset", iconset);
@@ -1293,6 +1295,7 @@ void Preferences::load() {
 	precise_seeking = set->value("precise_seeking", precise_seeking).toBool();
 
 	reset_stop = set->value("reset_stop", reset_stop).toBool();
+	delay_left_click = set->value("delay_left_click", delay_left_click).toBool();
 
 	language = set->value("language", language).toString();
 	iconset= set->value("iconset", iconset).toString();
