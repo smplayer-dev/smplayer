@@ -41,7 +41,6 @@ class QTimer;
 #define ZOOM_MIN 0.5
 
 #define DELAYED_RESIZE 0
-#define DELAY_LEFT_CLICK 1
 
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
@@ -152,6 +151,9 @@ public:
 	void allowVideoMovement(bool b) { allow_video_movement = b; };
 	bool isVideoMovementAllowed() { return allow_video_movement; };
 
+	void delayLeftClick(bool b) { delay_left_click = b; };
+	bool isLeftClickDelayed() { return delay_left_click; };
+
 	virtual QSize sizeHint () const;
 	virtual QSize minimumSizeHint() const;
 
@@ -230,10 +232,10 @@ protected:
 	QTimer * resize_timer;
 #endif
 
-#if DELAY_LEFT_CLICK
+	// Delay left click event
+	bool delay_left_click;
 	QTimer * left_click_timer;
 	bool double_clicked;
-#endif
 
 #if LOGO_ANIMATION
 	bool animated_logo;

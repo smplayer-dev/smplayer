@@ -2073,6 +2073,7 @@ void BaseGui::createMplayerWindow() {
 	mplayerwindow->setColorKey( pref->color_key );
 #endif
 	mplayerwindow->allowVideoMovement( pref->allow_video_movement );
+	mplayerwindow->delayLeftClick(pref->delay_left_click);
 
 #if LOGO_ANIMATION
 	mplayerwindow->setAnimatedLogo( pref->animated_logo);
@@ -2804,6 +2805,7 @@ void BaseGui::applyNewPreferences() {
 	}
 
 	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
+	mplayerwindow->delayLeftClick(pref->delay_left_click);
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
 	if (pref->hide_video_window_on_audio_files) {

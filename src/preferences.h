@@ -359,6 +359,10 @@ public:
 
 	bool reset_stop; //! Pressing the stop button resets the position
 
+	//! If true, the left click in the video is delayed some ms
+	//! to check if the user double clicked
+	bool delay_left_click;
+
 	QString language;
 	QString iconset;
 
