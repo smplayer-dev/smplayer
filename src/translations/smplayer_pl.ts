@@ -6012,10 +6012,8 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>&amp;Klawiatura</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="44"/>
-        <location filename="../prefinput.ui" line="100"/>
         <source>icon</source>
-        <translation>ikona</translation>
+        <translation type="obsolete">ikona</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6028,20 +6026,25 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Funkcje przycisku:</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="315"/>
+        <source>Don&apos;t &amp;trigger the left click action with a double click</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinput.cpp" line="143"/>
-        <location filename="../prefinput.cpp" line="357"/>
+        <location filename="../prefinput.cpp" line="354"/>
         <source>Media seeking</source>
         <translation>Przeszukiwanie nośnika</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="144"/>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="357"/>
         <source>Volume control</source>
         <translation>Kontrola głośności</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
-        <location filename="../prefinput.cpp" line="363"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Zoom video</source>
         <translation>Powiększenie wideo</translation>
     </message>
@@ -6197,7 +6200,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <location filename="../prefinput.cpp" line="146"/>
-        <location filename="../prefinput.cpp" line="366"/>
+        <location filename="../prefinput.cpp" line="363"/>
         <source>Change speed</source>
         <translation>Zmień prędkość</translation>
     </message>
@@ -6383,27 +6386,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
-        <source>Don&apos;t trigger the left click function when double click</source>
+        <source>Don&apos;t trigger the left click function with a double click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
-        <source>If this option is enabled when you double click on the video area only the double click function will be activated.</source>
+        <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="345"/>
-        <source>If this option is disabled the left click function will be activated before the double click function. That&apos;s right, both the left and double click functions will be activated.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="348"/>
-        <source>Notice:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="349"/>
-        <source>Enabling this option has an inconvenience: the left click is delayed %1 milliseconds because it&apos;s necessary to wait if there&apos;s a double click or not.</source>
+        <location filename="../prefinput.cpp" line="346"/>
+        <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6430,38 +6423,33 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Kontrola głośności (&amp;v)</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="315"/>
-        <source>Don&apos;t &amp;trigger the left click function when double click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="389"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>Zmiana prędkoś&amp;ci</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="355"/>
+        <location filename="../prefinput.cpp" line="352"/>
         <source>Mouse wheel functions</source>
         <translation>Funkcje kółka myszy</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Zaznacz to pole, aby uaktywnić przeszukiwanie filmu jako jedną z opcji.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Zaznacz to pole, aby uaktywnić zmiane głosności jako jedną z opcji.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="364"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Zaznacz to pole, aby uaktywnić zmianę powiększenia jako jedną z opcji.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="367"/>
+        <location filename="../prefinput.cpp" line="364"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Zaznacz to pole, aby uaktywnić zmiane prędkości filmu jako jedną z opcji.</translation>
     </message>
@@ -6476,12 +6464,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Wybierz akcje, które będą wykonywane podczas używania opcji &quot;Zmień działanie kółka myszy&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="352"/>
+        <location filename="../prefinput.cpp" line="349"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Odwróć działanie przeszukiwania kółkiem myszy</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="353"/>
+        <location filename="../prefinput.cpp" line="350"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Zaznacz to, aby przeszukiwać film w przeciwnym kierunku.</translation>
     </message>
@@ -8818,70 +8806,116 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
 </context>
 <context>
+    <name>VideoEqualizer</name>
+    <message>
+        <location filename="../videoequalizer.ui" line="14"/>
+        <source>Video Equalizer</source>
+        <translation type="unfinished">Korektor wideo</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="22"/>
+        <source>&amp;Contrast</source>
+        <translation type="unfinished">&amp;Kontrast</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="obsolete">0</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="76"/>
+        <source>&amp;Brightness</source>
+        <translation type="unfinished">&amp;Jasność</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="130"/>
+        <source>&amp;Hue</source>
+        <translation type="unfinished">&amp;Odcień</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="184"/>
+        <source>&amp;Saturation</source>
+        <translation type="unfinished">&amp;Nasycenie</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="238"/>
+        <source>&amp;Gamma</source>
+        <translation type="unfinished">&amp;Gamma</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="309"/>
+        <source>Software &amp;equalizer</source>
+        <translation type="unfinished">Programowy kor&amp;ektor</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="316"/>
+        <source>Set as &amp;default values</source>
+        <translation type="unfinished">Ustaw wartości jako &amp;domyślne</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="323"/>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="101"/>
+        <source>Use the current values as default values for new videos.</source>
+        <translation type="unfinished">Użyj aktualnych wartości jako domyślnych dla nowych plików wideo.</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="103"/>
+        <source>Set all controls to zero.</source>
+        <translation type="unfinished">Ustaw wszystkie suwaki na zero.</translation>
+    </message>
+</context>
+<context>
     <name>VideoEqualizer2</name>
     <message>
-        <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation>Korektor wideo</translation>
+        <translation type="obsolete">Korektor wideo</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation>&amp;Kontrast</translation>
+        <translation type="obsolete">&amp;Kontrast</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="66"/>
-        <location filename="../videoequalizer2.ui" line="120"/>
-        <location filename="../videoequalizer2.ui" line="174"/>
-        <location filename="../videoequalizer2.ui" line="228"/>
-        <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="obsolete">0</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation>&amp;Jasność</translation>
+        <translation type="obsolete">&amp;Jasność</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation>&amp;Odcień</translation>
+        <translation type="obsolete">&amp;Odcień</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation>&amp;Nasycenie</translation>
+        <translation type="obsolete">&amp;Nasycenie</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation>&amp;Gamma</translation>
+        <translation type="obsolete">&amp;Gamma</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>Programowy kor&amp;ektor</translation>
+        <translation type="obsolete">Programowy kor&amp;ektor</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation>Ustaw wartości jako &amp;domyślne</translation>
+        <translation type="obsolete">Ustaw wartości jako &amp;domyślne</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Resetuj</translation>
+        <translation type="obsolete">&amp;Resetuj</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Użyj aktualnych wartości jako domyślnych dla nowych plików wideo.</translation>
+        <translation type="obsolete">Użyj aktualnych wartości jako domyślnych dla nowych plików wideo.</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Ustaw wszystkie suwaki na zero.</translation>
+        <translation type="obsolete">Ustaw wszystkie suwaki na zero.</translation>
     </message>
 </context>
 <context>
