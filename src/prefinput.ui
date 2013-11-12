@@ -312,7 +312,7 @@
        <item row="10" column="1" colspan="3">
         <widget class="QCheckBox" name="delay_left_check">
          <property name="text">
-          <string>Don't &amp;trigger the left click function when double click</string>
+          <string>Don't &amp;trigger the left click action with a double click</string>
          </property>
         </widget>
        </item>
