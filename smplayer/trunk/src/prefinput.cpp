@@ -344,7 +344,7 @@ void PrefInput::createHelp() {
             "video area only the double click function will be activated.") + " "+
 		tr("If this option is disabled the left click function will be "
            "activated before the double click function. "
-           "That's right, both the left and double click functions will be activated if this option is disabled.") +
+           "That's right, both the left and double click functions will be activated.") +
            "<br><b>" + tr("Notice:") +"</b> " +
 		tr("Enabling this option has an inconvenience: the left click is delayed %1 milliseconds "
            "because it's necessary to wait if there's a double click or not.").arg(qApp->doubleClickInterval()+10) );
