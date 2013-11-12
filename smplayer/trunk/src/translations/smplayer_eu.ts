@@ -6010,10 +6010,8 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>&amp;Teklatua</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="44"/>
-        <location filename="../prefinput.ui" line="100"/>
         <source>icon</source>
-        <translation>ikurra</translation>
+        <translation type="obsolete">ikurra</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6026,20 +6024,25 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Botoi eginkizunak:</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="315"/>
+        <source>Don&apos;t &amp;trigger the left click action with a double click</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinput.cpp" line="143"/>
-        <location filename="../prefinput.cpp" line="357"/>
+        <location filename="../prefinput.cpp" line="354"/>
         <source>Media seeking</source>
         <translation>Multimedia bilaketa</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="144"/>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="357"/>
         <source>Volume control</source>
         <translation>Bolumen agintea</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
-        <location filename="../prefinput.cpp" line="363"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Zoom video</source>
         <translation>Bideo zooma</translation>
     </message>
@@ -6195,7 +6198,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     </message>
     <message>
         <location filename="../prefinput.cpp" line="146"/>
-        <location filename="../prefinput.cpp" line="366"/>
+        <location filename="../prefinput.cpp" line="363"/>
         <source>Change speed</source>
         <translation>Aldatu abiadura</translation>
     </message>
@@ -6381,27 +6384,17 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
-        <source>Don&apos;t trigger the left click function when double click</source>
+        <source>Don&apos;t trigger the left click function with a double click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
-        <source>If this option is enabled when you double click on the video area only the double click function will be activated.</source>
+        <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="345"/>
-        <source>If this option is disabled the left click function will be activated before the double click function. That&apos;s right, both the left and double click functions will be activated.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="348"/>
-        <source>Notice:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="349"/>
-        <source>Enabling this option has an inconvenience: the left click is delayed %1 milliseconds because it&apos;s necessary to wait if there&apos;s a double click or not.</source>
+        <location filename="../prefinput.cpp" line="346"/>
+        <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6428,38 +6421,33 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>&amp;Bolumen agintea</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="315"/>
-        <source>Don&apos;t &amp;trigger the left click function when double click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="389"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>&amp;Aldatu abiadura</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="355"/>
+        <location filename="../prefinput.cpp" line="352"/>
         <source>Mouse wheel functions</source>
         <translation>Sagu gurpilaren eginkizunak</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Hautatu bilaketa eginkizun bat bezala gaitzeko.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Hautatu bolumena aldatzea eginkizun bat bezala gaitzeko.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="364"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Hautatu zooma eginkizun bat bezala gaitzeko.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="367"/>
+        <location filename="../prefinput.cpp" line="364"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Hautatu abiadura aldaketa eginkizun bat bezala gaitzeko.</translation>
     </message>
@@ -6474,12 +6462,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Hautatu aldikatu behar diren ekintzak &quot;Aldatu gurpilaren eginkizunak&quot; aukera erabiltzerakoan.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="352"/>
+        <location filename="../prefinput.cpp" line="349"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Alderantzizkatu sagu gurpil bilaketa</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="353"/>
+        <location filename="../prefinput.cpp" line="350"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Hautatu alderantziko norabidean bilatzeko.</translation>
     </message>
@@ -8814,70 +8802,116 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     </message>
 </context>
 <context>
+    <name>VideoEqualizer</name>
+    <message>
+        <location filename="../videoequalizer.ui" line="14"/>
+        <source>Video Equalizer</source>
+        <translation type="unfinished">Bideo Ekualizagailua</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="22"/>
+        <source>&amp;Contrast</source>
+        <translation type="unfinished">&amp;Zuribeltztasuna</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="obsolete">0</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="76"/>
+        <source>&amp;Brightness</source>
+        <translation type="unfinished">&amp;Dizdira</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="130"/>
+        <source>&amp;Hue</source>
+        <translation type="unfinished">&amp;Nabardura</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="184"/>
+        <source>&amp;Saturation</source>
+        <translation type="unfinished">&amp;Margoasetasuna</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="238"/>
+        <source>&amp;Gamma</source>
+        <translation type="unfinished">&amp;Gamma</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="309"/>
+        <source>Software &amp;equalizer</source>
+        <translation type="unfinished">Soft&amp;ware ekualizagailua</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="316"/>
+        <source>Set as &amp;default values</source>
+        <translation type="unfinished">&amp;Ezarri berezko balio bezala</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="323"/>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="101"/>
+        <source>Use the current values as default values for new videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="103"/>
+        <source>Set all controls to zero.</source>
+        <translation type="unfinished">Ezarri aginte guztiak hutsean.</translation>
+    </message>
+</context>
+<context>
     <name>VideoEqualizer2</name>
     <message>
-        <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation>Bideo Ekualizagailua</translation>
+        <translation type="obsolete">Bideo Ekualizagailua</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation>&amp;Zuribeltztasuna</translation>
+        <translation type="obsolete">&amp;Zuribeltztasuna</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="66"/>
-        <location filename="../videoequalizer2.ui" line="120"/>
-        <location filename="../videoequalizer2.ui" line="174"/>
-        <location filename="../videoequalizer2.ui" line="228"/>
-        <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="obsolete">0</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation>&amp;Dizdira</translation>
+        <translation type="obsolete">&amp;Dizdira</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation>&amp;Nabardura</translation>
+        <translation type="obsolete">&amp;Nabardura</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation>&amp;Margoasetasuna</translation>
+        <translation type="obsolete">&amp;Margoasetasuna</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation>&amp;Gamma</translation>
+        <translation type="obsolete">&amp;Gamma</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>Soft&amp;ware ekualizagailua</translation>
+        <translation type="obsolete">Soft&amp;ware ekualizagailua</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation>&amp;Ezarri berezko balio bezala</translation>
+        <translation type="obsolete">&amp;Ezarri berezko balio bezala</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Berrezarri</translation>
+        <translation type="obsolete">&amp;Berrezarri</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Erabili oraingo balio hauek berezko balio bezala bideo berrientzat.</translation>
+        <translation type="obsolete">Erabili oraingo balio hauek berezko balio bezala bideo berrientzat.</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Ezarri aginte guztiak hutsean.</translation>
+        <translation type="obsolete">Ezarri aginte guztiak hutsean.</translation>
     </message>
 </context>
 <context>

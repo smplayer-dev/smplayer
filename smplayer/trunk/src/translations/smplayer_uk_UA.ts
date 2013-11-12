@@ -6010,10 +6010,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Клавіатура</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="44"/>
-        <location filename="../prefinput.ui" line="100"/>
         <source>icon</source>
-        <translation>піктограма</translation>
+        <translation type="obsolete">піктограма</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6026,20 +6024,25 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Функції кнопок:</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="315"/>
+        <source>Don&apos;t &amp;trigger the left click action with a double click</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinput.cpp" line="143"/>
-        <location filename="../prefinput.cpp" line="357"/>
+        <location filename="../prefinput.cpp" line="354"/>
         <source>Media seeking</source>
         <translation>Переміщення по медіа</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="144"/>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="357"/>
         <source>Volume control</source>
         <translation>Гучність</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
-        <location filename="../prefinput.cpp" line="363"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Zoom video</source>
         <translation>Масштаб відео</translation>
     </message>
@@ -6195,7 +6198,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinput.cpp" line="146"/>
-        <location filename="../prefinput.cpp" line="366"/>
+        <location filename="../prefinput.cpp" line="363"/>
         <source>Change speed</source>
         <translation>Зміна швидкості</translation>
     </message>
@@ -6381,27 +6384,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
-        <source>Don&apos;t trigger the left click function when double click</source>
+        <source>Don&apos;t trigger the left click function with a double click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
-        <source>If this option is enabled when you double click on the video area only the double click function will be activated.</source>
+        <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="345"/>
-        <source>If this option is disabled the left click function will be activated before the double click function. That&apos;s right, both the left and double click functions will be activated.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="348"/>
-        <source>Notice:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="349"/>
-        <source>Enabling this option has an inconvenience: the left click is delayed %1 milliseconds because it&apos;s necessary to wait if there&apos;s a double click or not.</source>
+        <location filename="../prefinput.cpp" line="346"/>
+        <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6428,38 +6421,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Керування &amp;гучністю</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="315"/>
-        <source>Don&apos;t &amp;trigger the left click function when double click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="389"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>Зміна &amp;швидкості</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="355"/>
+        <location filename="../prefinput.cpp" line="352"/>
         <source>Mouse wheel functions</source>
         <translation>Призначення колеса миші</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Виберіть, щоб увімкнути переміщення як одне з призначень.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Виберіть, щоб увімкнути зміну гучності як одну з призначень.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="364"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Виберіть, щоб увімкнути зміну масштабу як одну з призначень.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="367"/>
+        <location filename="../prefinput.cpp" line="364"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Виберіть, щоб увімкнути зміну швидкості як одну з призначень.</translation>
     </message>
@@ -6474,12 +6462,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Виберіть дію, яка буде змінюватись, коли використовується опція &quot;Змінити призначення колеса&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="352"/>
+        <location filename="../prefinput.cpp" line="349"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Переміщувати колесом миші в зворотньому напрямку</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="353"/>
+        <location filename="../prefinput.cpp" line="350"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Виберіть, щоб переміщуватись в зворотньому напрямку.</translation>
     </message>
@@ -8816,70 +8804,116 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
+    <name>VideoEqualizer</name>
+    <message>
+        <location filename="../videoequalizer.ui" line="14"/>
+        <source>Video Equalizer</source>
+        <translation type="unfinished">Відеоеквалайзер</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="22"/>
+        <source>&amp;Contrast</source>
+        <translation type="unfinished">&amp;Контрастність</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="obsolete">0</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="76"/>
+        <source>&amp;Brightness</source>
+        <translation type="unfinished">&amp;Яскравість</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="130"/>
+        <source>&amp;Hue</source>
+        <translation type="unfinished">&amp;Колір</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="184"/>
+        <source>&amp;Saturation</source>
+        <translation type="unfinished">&amp;Насиченість</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="238"/>
+        <source>&amp;Gamma</source>
+        <translation type="unfinished">&amp;Гама</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="309"/>
+        <source>Software &amp;equalizer</source>
+        <translation type="unfinished">Програмний &amp;еквалайзер</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="316"/>
+        <source>Set as &amp;default values</source>
+        <translation type="unfinished">Встановити типове &amp;значення</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="323"/>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="101"/>
+        <source>Use the current values as default values for new videos.</source>
+        <translation type="unfinished">Використовувати поточні значення як типові для нових кліпів.</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="103"/>
+        <source>Set all controls to zero.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>VideoEqualizer2</name>
     <message>
-        <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation>Відеоеквалайзер</translation>
+        <translation type="obsolete">Відеоеквалайзер</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation>&amp;Контрастність</translation>
+        <translation type="obsolete">&amp;Контрастність</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="66"/>
-        <location filename="../videoequalizer2.ui" line="120"/>
-        <location filename="../videoequalizer2.ui" line="174"/>
-        <location filename="../videoequalizer2.ui" line="228"/>
-        <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="obsolete">0</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation>&amp;Яскравість</translation>
+        <translation type="obsolete">&amp;Яскравість</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation>&amp;Колір</translation>
+        <translation type="obsolete">&amp;Колір</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation>&amp;Насиченість</translation>
+        <translation type="obsolete">&amp;Насиченість</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation>&amp;Гама</translation>
+        <translation type="obsolete">&amp;Гама</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>Програмний &amp;еквалайзер</translation>
+        <translation type="obsolete">Програмний &amp;еквалайзер</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation>Встановити типове &amp;значення</translation>
+        <translation type="obsolete">Встановити типове &amp;значення</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation>Ск&amp;инути</translation>
+        <translation type="obsolete">Ск&amp;инути</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Використовувати поточні значення як типові для нових кліпів.</translation>
+        <translation type="obsolete">Використовувати поточні значення як типові для нових кліпів.</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Анулювати всі налаштування.</translation>
+        <translation type="obsolete">Анулювати всі налаштування.</translation>
     </message>
 </context>
 <context>

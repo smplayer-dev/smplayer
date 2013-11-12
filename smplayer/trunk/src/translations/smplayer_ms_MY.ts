@@ -6009,10 +6009,8 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Papan &amp;Kekunci</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="44"/>
-        <location filename="../prefinput.ui" line="100"/>
         <source>icon</source>
-        <translation>ikon</translation>
+        <translation type="obsolete">ikon</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6025,20 +6023,25 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Fungsi butang:</translation>
     </message>
     <message>
+        <location filename="../prefinput.ui" line="315"/>
+        <source>Don&apos;t &amp;trigger the left click action with a double click</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinput.cpp" line="143"/>
-        <location filename="../prefinput.cpp" line="357"/>
+        <location filename="../prefinput.cpp" line="354"/>
         <source>Media seeking</source>
         <translation>Penjangkauan media</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="144"/>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="357"/>
         <source>Volume control</source>
         <translation>Kawalan volum</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
-        <location filename="../prefinput.cpp" line="363"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Zoom video</source>
         <translation>Zum video</translation>
     </message>
@@ -6194,7 +6197,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     </message>
     <message>
         <location filename="../prefinput.cpp" line="146"/>
-        <location filename="../prefinput.cpp" line="366"/>
+        <location filename="../prefinput.cpp" line="363"/>
         <source>Change speed</source>
         <translation>Ubah kelajuan</translation>
     </message>
@@ -6380,27 +6383,17 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
-        <source>Don&apos;t trigger the left click function when double click</source>
+        <source>Don&apos;t trigger the left click function with a double click</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
-        <source>If this option is enabled when you double click on the video area only the double click function will be activated.</source>
+        <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="345"/>
-        <source>If this option is disabled the left click function will be activated before the double click function. That&apos;s right, both the left and double click functions will be activated.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="348"/>
-        <source>Notice:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefinput.cpp" line="349"/>
-        <source>Enabling this option has an inconvenience: the left click is delayed %1 milliseconds because it&apos;s necessary to wait if there&apos;s a double click or not.</source>
+        <location filename="../prefinput.cpp" line="346"/>
+        <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6427,38 +6420,33 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Kawalan &amp;volum</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="315"/>
-        <source>Don&apos;t &amp;trigger the left click function when double click</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="389"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>&amp;Ubah kelajuan</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="355"/>
+        <location filename="../prefinput.cpp" line="352"/>
         <source>Mouse wheel functions</source>
         <translation>Fungsi roda tetikus</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>Tandakannya untuk benarkan penjangkauan sebagai satu fungsi.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>Tandakannya untuk benarkan pengubahan volum sebagai satu fungsi.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="364"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>Tandakannya untuk benarkan pengezuman sebagai satu fungsi.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="367"/>
+        <location filename="../prefinput.cpp" line="364"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>Tandakannya untuk benarkan pengubahan kelajuan sebagai satu fungsi.</translation>
     </message>
@@ -6473,12 +6461,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Pilih tindakan yang patut dikitar yang dilalui bila menggunakan pilihan &quot;Ubah fungsi roda&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="352"/>
+        <location filename="../prefinput.cpp" line="349"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>Penjangkauan roda tetikus songsang</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="353"/>
+        <location filename="../prefinput.cpp" line="350"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>Tandakannya untuk jangkau dalam arah bertentangan.</translation>
     </message>
@@ -8811,70 +8799,116 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     </message>
 </context>
 <context>
+    <name>VideoEqualizer</name>
+    <message>
+        <location filename="../videoequalizer.ui" line="14"/>
+        <source>Video Equalizer</source>
+        <translation type="unfinished">Penyama Video</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="22"/>
+        <source>&amp;Contrast</source>
+        <translation type="unfinished">Be&amp;za Jelas</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="obsolete">0</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="76"/>
+        <source>&amp;Brightness</source>
+        <translation type="unfinished">Ke&amp;cerahan</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="130"/>
+        <source>&amp;Hue</source>
+        <translation type="unfinished">&amp;Rona</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="184"/>
+        <source>&amp;Saturation</source>
+        <translation type="unfinished">Ke&amp;tepuan</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="238"/>
+        <source>&amp;Gamma</source>
+        <translation type="unfinished">&amp;Gama</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="309"/>
+        <source>Software &amp;equalizer</source>
+        <translation type="unfinished">Penyama per&amp;isian</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="316"/>
+        <source>Set as &amp;default values</source>
+        <translation type="unfinished">Tetap sebagai ni&amp;lai lalai</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.ui" line="323"/>
+        <source>&amp;Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="101"/>
+        <source>Use the current values as default values for new videos.</source>
+        <translation type="unfinished">Guna nilai semasa sebagai nilai lalai untuk video baru.</translation>
+    </message>
+    <message>
+        <location filename="../videoequalizer.cpp" line="103"/>
+        <source>Set all controls to zero.</source>
+        <translation type="unfinished">Tetapkan semua kawalan kepada sifar.</translation>
+    </message>
+</context>
+<context>
     <name>VideoEqualizer2</name>
     <message>
-        <location filename="../videoequalizer2.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation>Penyama Video</translation>
+        <translation type="obsolete">Penyama Video</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation>Be&amp;za Jelas</translation>
+        <translation type="obsolete">Be&amp;za Jelas</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="66"/>
-        <location filename="../videoequalizer2.ui" line="120"/>
-        <location filename="../videoequalizer2.ui" line="174"/>
-        <location filename="../videoequalizer2.ui" line="228"/>
-        <location filename="../videoequalizer2.ui" line="282"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="obsolete">0</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation>Ke&amp;cerahan</translation>
+        <translation type="obsolete">Ke&amp;cerahan</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation>&amp;Rona</translation>
+        <translation type="obsolete">&amp;Rona</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation>Ke&amp;tepuan</translation>
+        <translation type="obsolete">Ke&amp;tepuan</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation>&amp;Gama</translation>
+        <translation type="obsolete">&amp;Gama</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>Penyama per&amp;isian</translation>
+        <translation type="obsolete">Penyama per&amp;isian</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation>Tetap sebagai ni&amp;lai lalai</translation>
+        <translation type="obsolete">Tetap sebagai ni&amp;lai lalai</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Tetap Semula</translation>
+        <translation type="obsolete">&amp;Tetap Semula</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Guna nilai semasa sebagai nilai lalai untuk video baru.</translation>
+        <translation type="obsolete">Guna nilai semasa sebagai nilai lalai untuk video baru.</translation>
     </message>
     <message>
-        <location filename="../videoequalizer2.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Tetapkan semua kawalan kepada sifar.</translation>
+        <translation type="obsolete">Tetapkan semua kawalan kepada sifar.</translation>
     </message>
 </context>
 <context>
