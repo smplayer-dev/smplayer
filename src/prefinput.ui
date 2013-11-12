@@ -41,7 +41,7 @@
          <item>
           <widget class="QLabel" name="keyboard_icon">
            <property name="text">
-            <string>icon</string>
+            <string notr="true">icon</string>
            </property>
            <property name="wordWrap">
             <bool>false</bool>
@@ -97,7 +97,7 @@
          <item>
           <widget class="QLabel" name="mouse_icon">
            <property name="text">
-            <string>icon</string>
+            <string notr="true">icon</string>
            </property>
            <property name="wordWrap">
             <bool>false</bool>

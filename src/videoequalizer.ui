@@ -63,7 +63,7 @@
         <enum>QFrame::Sunken</enum>
        </property>
        <property name="text">
-        <string>0</string>
+        <string notr="true">0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -117,7 +117,7 @@
         <enum>QFrame::Sunken</enum>
        </property>
        <property name="text">
-        <string>0</string>
+        <string notr="true">0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -171,7 +171,7 @@
         <enum>QFrame::Sunken</enum>
        </property>
        <property name="text">
-        <string>0</string>
+        <string notr="true">0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -225,7 +225,7 @@
         <enum>QFrame::Sunken</enum>
        </property>
        <property name="text">
-        <string>0</string>
+        <string notr="true">0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -279,7 +279,7 @@
         <enum>QFrame::Sunken</enum>
        </property>
        <property name="text">
-        <string>0</string>
+        <string notr="true">0</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
