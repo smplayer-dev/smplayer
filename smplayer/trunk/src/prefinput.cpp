@@ -339,15 +339,12 @@ void PrefInput::createHelp() {
 	setWhatsThis(wheel_function_combo, tr("Wheel function"),
 		tr("Select the action for the mouse wheel.") );
 
-	setWhatsThis(delay_left_check, tr("Don't trigger the left click function when double click"),
+	setWhatsThis(delay_left_check, tr("Don't trigger the left click function with a double click"),
 		tr("If this option is enabled when you double click on the "
-            "video area only the double click function will be activated.") + " "+
-		tr("If this option is disabled the left click function will be "
-           "activated before the double click function. "
-           "That's right, both the left and double click functions will be activated.") +
-           "<br><b>" + tr("Notice:") +"</b> " +
-		tr("Enabling this option has an inconvenience: the left click is delayed %1 milliseconds "
-           "because it's necessary to wait if there's a double click or not.").arg(qApp->doubleClickInterval()+10) );
+            "video area only the double click function will be triggered. "
+            "The left click action won't be activated.") + " "+
+		tr("By enabling this option the left click is delayed %1 milliseconds "
+           "because it's necessary to wait that time to know if there's a double click or not.").arg(qApp->doubleClickInterval()+10) );
 
 	setWhatsThis(wheel_function_seeking_reverse_check, tr("Reverse mouse wheel seeking"),
 		tr("Check it to seek in the opposite direction.") );
