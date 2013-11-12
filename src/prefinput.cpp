@@ -336,6 +336,9 @@ void PrefInput::createHelp() {
 	setWhatsThis(xbutton2_click_combo, tr("X Button 2"),
 		tr("Select the action for the X button 2.") );
 
+	setWhatsThis(wheel_function_combo, tr("Wheel function"),
+		tr("Select the action for the mouse wheel.") );
+
 	setWhatsThis(delay_left_check, tr("Don't trigger the left click function when double click"),
 		tr("If this option is enabled when you double click on the "
             "video area only the double click function will be activated.") + " "+
@@ -346,8 +349,8 @@ void PrefInput::createHelp() {
 		tr("Enabling this option has an inconvenience: the left click is delayed %1 milliseconds "
            "because it's necessary to wait if there's a double click or not.").arg(qApp->doubleClickInterval()+10) );
 
-	setWhatsThis(wheel_function_combo, tr("Wheel function"),
-		tr("Select the action for the mouse wheel.") );
+	setWhatsThis(wheel_function_seeking_reverse_check, tr("Reverse mouse wheel seeking"),
+		tr("Check it to seek in the opposite direction.") );
 
 	addSectionTitle(tr("Mouse wheel functions"));
 
@@ -362,10 +365,6 @@ void PrefInput::createHelp() {
 
 	setWhatsThis(wheel_function_speed, tr("Change speed"),
 		tr("Check it to enable changing speed as one function.") );
-
-	setWhatsThis(wheel_function_seeking_reverse_check, tr("Reverse mouse wheel seeking"),
-		tr("Check it to seek in the opposite direction.") );
-
 }
 
 #include "moc_prefinput.cpp"
