@@ -16,19 +16,19 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef VIDEOEQUALIZER2_H
-#define VIDEOEQUALIZER2_H
+#ifndef VIDEOEQUALIZER_H
+#define VIDEOEQUALIZER_H
 
-#include "ui_videoequalizer2.h"
+#include "ui_videoequalizer.h"
 #include <QWidget>
 
-class VideoEqualizer2 : public QWidget, public Ui::VideoEqualizer2
+class VideoEqualizer : public QWidget, public Ui::VideoEqualizer
 {
 	Q_OBJECT
 
 public:
-	VideoEqualizer2( QWidget* parent = 0, Qt::WindowFlags f = Qt::Dialog );
-	~VideoEqualizer2();
+	VideoEqualizer( QWidget* parent = 0, Qt::WindowFlags f = Qt::Dialog );
+	~VideoEqualizer();
 
 public slots:
 	void setContrast(int v) { contrast_slider->setValue(v); }

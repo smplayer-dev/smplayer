@@ -57,7 +57,7 @@
 #include "playlist.h"
 #include "filepropertiesdialog.h"
 #include "eqslider.h"
-#include "videoequalizer2.h"
+#include "videoequalizer.h"
 #include "audioequalizer.h"
 #include "inputdvddirectory.h"
 #include "inputmplayerversion.h"
@@ -938,7 +938,7 @@ void BaseGui::createActions() {
 	connect( doubleSizeAct, SIGNAL(triggered()), this, SLOT(toggleDoubleSize()) );
 
 	resetVideoEqualizerAct = new MyAction( this, "reset_video_equalizer");
-	connect( resetVideoEqualizerAct, SIGNAL(triggered()), video_equalizer2, SLOT(reset()) );
+	connect( resetVideoEqualizerAct, SIGNAL(triggered()), video_equalizer, SLOT(reset()) );
 
 	resetAudioEqualizerAct = new MyAction( this, "reset_audio_equalizer");
 	connect( resetAudioEqualizerAct, SIGNAL(triggered()), audio_equalizer, SLOT(reset()) );
@@ -2112,23 +2112,23 @@ void BaseGui::createMplayerWindow() {
 
 void BaseGui::createVideoEqualizer() {
 	// Equalizer
-	video_equalizer2 = new VideoEqualizer2(this);
-	connect( video_equalizer2, SIGNAL(contrastChanged(int)), 
+	video_equalizer = new VideoEqualizer(this);
+	connect( video_equalizer, SIGNAL(contrastChanged(int)), 
              core, SLOT(setContrast(int)) );
-	connect( video_equalizer2, SIGNAL(brightnessChanged(int)), 
+	connect( video_equalizer, SIGNAL(brightnessChanged(int)), 
              core, SLOT(setBrightness(int)) );
-	connect( video_equalizer2, SIGNAL(hueChanged(int)), 
+	connect( video_equalizer, SIGNAL(hueChanged(int)), 
              core, SLOT(setHue(int)) );
-	connect( video_equalizer2, SIGNAL(saturationChanged(int)), 
+	connect( video_equalizer, SIGNAL(saturationChanged(int)), 
              core, SLOT(setSaturation(int)) );
-	connect( video_equalizer2, SIGNAL(gammaChanged(int)), 
+	connect( video_equalizer, SIGNAL(gammaChanged(int)), 
              core, SLOT(setGamma(int)) );
 
-	connect( video_equalizer2, SIGNAL(visibilityChanged()),
+	connect( video_equalizer, SIGNAL(visibilityChanged()),
              this, SLOT(updateWidgets()) );
-	connect( video_equalizer2, SIGNAL(requestToChangeDefaultValues()),
+	connect( video_equalizer, SIGNAL(requestToChangeDefaultValues()),
              this, SLOT(setDefaultValuesFromVideoEqualizer()) );
-	connect( video_equalizer2, SIGNAL(bySoftwareChanged(bool)),
+	connect( video_equalizer, SIGNAL(bySoftwareChanged(bool)),
              this, SLOT(changeVideoEqualizerBySoftware(bool)) );
 }
 
@@ -2713,16 +2713,16 @@ void BaseGui::showPlaylist(bool b) {
 }
 
 void BaseGui::showVideoEqualizer() {
-	showVideoEqualizer( !video_equalizer2->isVisible() );
+	showVideoEqualizer( !video_equalizer->isVisible() );
 }
 
 void BaseGui::showVideoEqualizer(bool b) {
 	if (!b) {
-		video_equalizer2->hide();
+		video_equalizer->hide();
 	} else {
 		// Exit fullscreen, otherwise dialog is not visible
 		exitFullscreenIfNeeded();
-		video_equalizer2->show();
+		video_equalizer->show();
 	}
 	updateWidgets();
 }
@@ -3429,8 +3429,8 @@ void BaseGui::updateWidgets() {
 	}
 
 	// Video equalizer
-	videoEqualizerAct->setChecked( video_equalizer2->isVisible() );
-	video_equalizer2->setBySoftware( pref->use_soft_video_eq );
+	videoEqualizerAct->setChecked( video_equalizer->isVisible() );
+	video_equalizer->setBySoftware( pref->use_soft_video_eq );
 
 	// Audio equalizer
 	audioEqualizerAct->setChecked( audio_equalizer->isVisible() );
@@ -3484,11 +3484,11 @@ void BaseGui::updateWidgets() {
 
 void BaseGui::updateVideoEqualizer() {
 	// Equalizer
-	video_equalizer2->setContrast( core->mset.contrast );
-	video_equalizer2->setBrightness( core->mset.brightness );
-	video_equalizer2->setHue( core->mset.hue );
-	video_equalizer2->setSaturation( core->mset.saturation );
-	video_equalizer2->setGamma( core->mset.gamma );
+	video_equalizer->setContrast( core->mset.contrast );
+	video_equalizer->setBrightness( core->mset.brightness );
+	video_equalizer->setHue( core->mset.hue );
+	video_equalizer->setSaturation( core->mset.saturation );
+	video_equalizer->setGamma( core->mset.gamma );
 }
 
 void BaseGui::updateAudioEqualizer() {
@@ -3501,11 +3501,11 @@ void BaseGui::updateAudioEqualizer() {
 void BaseGui::setDefaultValuesFromVideoEqualizer() {
 	qDebug("BaseGui::setDefaultValuesFromVideoEqualizer");
 
-	pref->initial_contrast = video_equalizer2->contrast();
-	pref->initial_brightness = video_equalizer2->brightness();
-	pref->initial_hue = video_equalizer2->hue();
-	pref->initial_saturation = video_equalizer2->saturation();
-	pref->initial_gamma = video_equalizer2->gamma();
+	pref->initial_contrast = video_equalizer->contrast();
+	pref->initial_brightness = video_equalizer->brightness();
+	pref->initial_hue = video_equalizer->hue();
+	pref->initial_saturation = video_equalizer->saturation();
+	pref->initial_gamma = video_equalizer->gamma();
 
 	QMessageBox::information(this, tr("Information"), 
                              tr("The current values have been stored to be "
