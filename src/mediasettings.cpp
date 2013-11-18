@@ -273,12 +273,19 @@ void MediaSettings::save(QSettings * set) {
 	/*set->beginGroup( "mediasettings" );*/
 
 	set->setValue( "current_sec", current_sec );
+
+	QString demuxer_section = "demuxer_default";
+	if (!forced_demuxer.isEmpty()) demuxer_section = "demuxer_" + forced_demuxer;
+
+	set->beginGroup(demuxer_section);
 	set->setValue( "current_sub_id", current_sub_id );
-#if PROGRAM_SWITCH
+	#if PROGRAM_SWITCH
 	set->setValue( "current_program_id", current_program_id );
-#endif
+	#endif
 	set->setValue( "current_video_id", current_video_id );
 	set->setValue( "current_audio_id", current_audio_id );
+	set->endGroup();
+
 	set->setValue( "current_title_id", current_title_id );
 	set->setValue( "current_chapter_id", current_chapter_id );
 	set->setValue( "current_angle_id", current_angle_id );
@@ -373,12 +380,21 @@ void MediaSettings::load(QSettings * set) {
 	/*set->beginGroup( "mediasettings" );*/
 
 	current_sec = set->value( "current_sec", current_sec).toDouble();
+
+	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
+
+	QString demuxer_section = "demuxer_default";
+	if (!forced_demuxer.isEmpty()) demuxer_section = "demuxer_" + forced_demuxer;
+
+	set->beginGroup(demuxer_section);
 	current_sub_id = set->value( "current_sub_id", current_sub_id ).toInt();
-#if PROGRAM_SWITCH
+	#if PROGRAM_SWITCH
 	current_program_id = set->value( "current_program_id", current_program_id ).toInt();
-#endif
+	#endif
 	current_video_id = set->value( "current_video_id", current_video_id ).toInt();
 	current_audio_id = set->value( "current_audio_id", current_audio_id ).toInt();
+	set->endGroup();
+
 	current_title_id = set->value( "current_title_id", current_title_id ).toInt();
 	current_chapter_id = set->value( "current_chapter_id", current_chapter_id ).toInt();
 	current_angle_id = set->value( "current_angle_id", current_angle_id ).toInt();
@@ -443,7 +459,6 @@ void MediaSettings::load(QSettings * set) {
 	A_marker = set->value( "A_marker", A_marker).toInt();
 	B_marker = set->value( "B_marker", B_marker).toInt();
 
-	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
 	forced_video_codec = set->value( "forced_video_codec", forced_video_codec).toString();
 	forced_audio_codec = set->value( "forced_audio_codec", forced_audio_codec).toString();
 
