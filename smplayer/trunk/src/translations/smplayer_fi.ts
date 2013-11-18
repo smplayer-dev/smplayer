@@ -6009,10 +6009,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Näppäimistö</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">kuvake</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Hiiri</translation>
@@ -8810,12 +8806,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">&amp;Kontrasti</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">K&amp;irkkaus</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
@@ -8840,7 +8836,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">&amp;Aseta oletusarvoiksi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8856,29 +8852,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">Aseta kaikki säädöt nollille.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">&amp;Kontrasti</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">K&amp;irkkaus</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">&amp;Aseta oletusarvoiksi</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Käytä nykyisiä arvoja uusien videoiden oletusarvoina.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Aseta kaikki säädöt nollille.</translation>
     </message>
 </context>
 <context>

@@ -511,17 +511,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
         <source>&amp;Audio</source>
-        <translation>Зв&amp;ук</translation>
+        <translation>&amp;Звук</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1723"/>
         <source>&amp;Subtitles</source>
-        <translation>Су&amp;бтитри</translation>
+        <translation>&amp;Субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>&amp;Browse</source>
-        <translation>Ог&amp;ляд</translation>
+        <translation>&amp;Огляд</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1725"/>
@@ -571,12 +571,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>&amp;Recent files</source>
-        <translation>Ос&amp;танні файли</translation>
+        <translation>&amp;Останні файли</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1501"/>
         <source>P&amp;lay</source>
-        <translation>Від&amp;творення</translation>
+        <translation>&amp;Відтворення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1504"/>
@@ -606,7 +606,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1526"/>
         <source>&amp;Double speed</source>
-        <translation>&amp;Подвійна швидкість</translation>
+        <translation>Подвійна &amp;швидкість</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1527"/>
@@ -627,7 +627,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1758"/>
         <source>Sp&amp;eed</source>
-        <translation>Шв&amp;идкість</translation>
+        <translation>&amp;Швидкість</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1519"/>
@@ -647,12 +647,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1768"/>
         <source>Si&amp;ze</source>
-        <translation>Ро&amp;змір</translation>
+        <translation>Роз&amp;мір</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Співвідношення сторін</translation>
+        <translation>Співвід&amp;ношення сторін</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
@@ -673,7 +673,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1781"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;Деінтерлейсинг</translation>
+        <translation>Деін&amp;терлейсинг</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1563"/>
@@ -713,7 +713,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1538"/>
         <source>&amp;Screenshot</source>
-        <translation>Знімок &amp;екрану</translation>
+        <translation>Знімок екран&amp;у</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1790"/>
@@ -789,7 +789,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1579"/>
         <source>&amp;Delay -</source>
-        <translation>&amp;Затримка -</translation>
+        <translation>За&amp;тримка -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1580"/>
@@ -824,7 +824,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1597"/>
         <source>&amp;Down</source>
-        <translation>В&amp;низ</translation>
+        <translation>Вн&amp;из</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
@@ -839,7 +839,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1889"/>
         <source>&amp;Angle</source>
-        <translation>&amp;Ракурс</translation>
+        <translation>Р&amp;акурс</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1629"/>
@@ -854,7 +854,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
         <source>&amp;OSD</source>
-        <translation>Екранна &amp;індикація</translation>
+        <translation>&amp;Екранна індикація</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1917"/>
@@ -932,7 +932,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3852"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Оберіть теку Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3864"/>
@@ -1058,7 +1058,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>Move &amp;down</source>
-        <translation>Змістити &amp;вниз</translation>
+        <translation>&amp;Змістити вниз</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1601"/>
@@ -1092,12 +1092,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1475"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blu-ray з диска</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1476"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-&amp;ray з теки...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
@@ -1213,7 +1213,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1798"/>
         <source>De&amp;noise</source>
-        <translation>Зниження ш&amp;умів</translation>
+        <translation>&amp;Зниження шумів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1801"/>
@@ -1451,7 +1451,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1570"/>
         <source>Soft&amp;ware scaling</source>
-        <translation>Про&amp;грамне масштабування</translation>
+        <translation>Пр&amp;ограмне масштабування</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
@@ -1541,7 +1541,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation>90 градусів проти &amp;годинникової стрілки та переворот</translation>
+        <translation>90 г&amp;радусів проти годинникової стрілки та переворот</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1521"/>
@@ -1576,7 +1576,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1611"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>&amp;Завантажити субтитри на OpenSubtitles.org...</translation>
+        <translation>Заванта&amp;жити субтитри на OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1804"/>
@@ -1591,7 +1591,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1530"/>
         <source>&amp;Speed +4%</source>
-        <translation>Швидкість +&amp;4%</translation>
+        <translation>Ш&amp;видкість +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1531"/>
@@ -1601,7 +1601,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>S&amp;peed +1%</source>
-        <translation>Швидкість +&amp;1%</translation>
+        <translation>Шви&amp;дкість +1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
@@ -1616,7 +1616,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1544"/>
         <source>Mirr&amp;or image</source>
-        <translation>Від&amp;дзеркалити зображення</translation>
+        <translation>Віддзер&amp;калити зображення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1695"/>
@@ -1733,7 +1733,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1581"/>
         <source>Set dela&amp;y...</source>
-        <translation>Встановити &amp;затримку...</translation>
+        <translation>Вста&amp;новити затримку...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1595"/>
@@ -1792,7 +1792,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1607"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>&amp;Видимість субтитрів</translation>
+        <translation>Видим&amp;ість субтитрів</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
@@ -1803,12 +1803,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1893"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation>П&amp;рограма</translation>
+        <translation>&amp;Програма</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
         <source>&amp;TV</source>
-        <translation>&amp;ТБ</translation>
+        <translation>Т&amp;Б</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -1873,7 +1873,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1761"/>
         <source>&amp;A-B section</source>
-        <translation>Ділянка &amp;А-Б</translation>
+        <translation>&amp;Ділянка А-Б</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1708"/>
@@ -1883,7 +1883,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1876"/>
         <source>&amp;Closed captions</source>
-        <translation>&amp;Закриті субтитри</translation>
+        <translation>Закриті &amp;субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1744"/>
@@ -1898,7 +1898,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1648"/>
         <source>Check for &amp;updates</source>
-        <translation>Перевірити &amp;оновлення</translation>
+        <translation>&amp;Перевірити оновлення</translation>
     </message>
 </context>
 <context>
@@ -2152,7 +2152,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="517"/>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Панелі</translation>
+        <translation>П&amp;анелі</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="557"/>
@@ -2182,7 +2182,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="536"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Редагувати головну &amp;панель</translation>
+        <translation>&amp;Редагувати головну панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="537"/>
@@ -2197,7 +2197,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit &amp;floating control</source>
-        <translation>Редагувати с&amp;пливаючу панель</translation>
+        <translation>Р&amp;едагувати спливаючу панель</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="570"/>
@@ -2317,7 +2317,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="112"/>
         <source>&amp;Down</source>
-        <translation>В&amp;низ</translation>
+        <translation>Вн&amp;из</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
@@ -4314,7 +4314,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="166"/>
         <source>Edit &amp;floating control</source>
-        <translation>Редагувати с&amp;пливаючу панель</translation>
+        <translation>Р&amp;едагувати спливаючу панель</translation>
     </message>
 </context>
 <context>
@@ -4498,7 +4498,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="308"/>
         <source>Move &amp;down</source>
-        <translation>Змістити &amp;вниз</translation>
+        <translation>&amp;Змістити вниз</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="310"/>
@@ -4677,7 +4677,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="220"/>
         <source>&amp;Colorkey:</source>
-        <translation>&amp;Код кольору:</translation>
+        <translation>К&amp;од кольору:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="533"/>
@@ -4742,7 +4742,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>А&amp;втоматичне збереження журналу MPlayer в файл</translation>
+        <translation>&amp;Автоматичне збереження журналу MPlayer в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="425"/>
@@ -4942,7 +4942,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="183"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation>&amp;Запустити наступні дії кожного разу як був відкритий файл. Дії мають бути розділені пробілами:</translation>
+        <translation>З&amp;апустити наступні дії кожного разу як був відкритий файл. Дії мають бути розділені пробілами:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="478"/>
@@ -5114,7 +5114,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Оберіть пристрій &amp;Blu-ray:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5124,12 +5124,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Пристрій Blu-ray</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Оберіть свій пристрій Blu-ray. Він буде використовуватися для відтворення Blu-ray дисків.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="204"/>
@@ -5303,12 +5303,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="992"/>
         <source>&amp;Audio:</source>
-        <translation>&amp;Звук:</translation>
+        <translation>Зву&amp;к:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="59"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>Запам&apos;ятовувати налаштування для &amp;всіх файлів (звукові доріжки, субтитри...)</translation>
+        <translation>З&amp;апам&apos;ятовувати налаштування для всіх файлів (звукові доріжки, субтитри...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1011"/>
@@ -5328,7 +5328,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="491"/>
         <source>Disable &amp;screensaver</source>
-        <translation>Вимкнути &amp;зберігач екрану</translation>
+        <translation>Ви&amp;мкнути зберігач екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="717"/>
@@ -5358,12 +5358,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="443"/>
         <source>D&amp;irect rendering</source>
-        <translation>П&amp;ряме відтворення</translation>
+        <translation>&amp;Пряме відтворення</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="450"/>
         <source>Dou&amp;ble buffering</source>
-        <translation>Под&amp;війна буферизація</translation>
+        <translation>П&amp;одвійна буферизація</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="963"/>
@@ -5373,7 +5373,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="292"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>Типово &amp;увімкнути післяобробку</translation>
+        <translation>Т&amp;ипово увімкнути післяобробку</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="768"/>
@@ -5519,7 +5519,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="658"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>Висока швидкість &amp;відтворення без зміни кроку</translation>
+        <translation>В&amp;исока швидкість відтворення без зміни кроку</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1050"/>
@@ -5544,7 +5544,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="535"/>
         <source>A&amp;udio</source>
-        <translation>З&amp;вук</translation>
+        <translation>Зв&amp;ук</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="693"/>
@@ -5614,7 +5614,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="93"/>
         <source>Remember &amp;time position</source>
-        <translation>Запам&apos;ятати &amp;позицію часу</translation>
+        <translation>Запам&apos;ятати позицію &amp;часу</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1031"/>
@@ -5629,7 +5629,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>&amp;Ввімкнути аудіоеквалайзер</translation>
+        <translation>Вві&amp;мкнути аудіоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
@@ -5649,7 +5649,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>&amp;Close when finished playback</source>
-        <translation>&amp;Вийти по закінченню відтворення</translation>
+        <translation>В&amp;ийти по закінченню відтворення</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="347"/>
@@ -5789,7 +5789,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="105"/>
         <source>&amp;Store settings in</source>
-        <translation>&amp;Зберігати налаштування в</translation>
+        <translation>З&amp;берігати налаштування в</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="888"/>
@@ -5839,7 +5839,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="148"/>
         <source>&amp;Enable screenshots</source>
-        <translation>Увімкнути &amp;знімки екрану</translation>
+        <translation>Уві&amp;мкнути знімки екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="158"/>
@@ -5864,7 +5864,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
         <source>Glo&amp;bal volume</source>
-        <translation>&amp;Загальна гучність</translation>
+        <translation>Зага&amp;льна гучність</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="987"/>
@@ -5929,12 +5929,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="789"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation>Автосинхронізація аудіо-&amp;відео</translation>
+        <translation>&amp;Автосинхронізація аудіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="815"/>
         <source>&amp;Factor:</source>
-        <translation>&amp;Коефіцієнт:</translation>
+        <translation>Коефіці&amp;єнт:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="851"/>
@@ -6008,10 +6008,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
         <translation>&amp;Клавіатура</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">піктограма</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6454,7 +6450,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="346"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation>Призначення &amp;колеса миші</translation>
+        <translation>Призначення к&amp;олеса миші</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="358"/>
@@ -7433,7 +7429,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="64"/>
         <source>Add &amp;consecutive files</source>
-        <translation>Додати &amp;послідовні файли</translation>
+        <translation>&amp;Додати послідовні файли</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
@@ -7607,7 +7603,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>&amp;Включати субтитри до знімків екрану</translation>
+        <translation>Вк&amp;лючати субтитри до знімків екрану</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="377"/>
@@ -8227,7 +8223,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation>Перевірити &amp;оновлення</translation>
+        <translation>&amp;Перевірити оновлення</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
@@ -8581,7 +8577,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="399"/>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Панелі</translation>
+        <translation>П&amp;анелі</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="402"/>
@@ -8601,7 +8597,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
         <source>Edit &amp;floating control</source>
-        <translation>Редагувати с&amp;пливаючу панель</translation>
+        <translation>Р&amp;едагувати спливаючу панель</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="415"/>
@@ -8693,7 +8689,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation>В&amp;низ</translation>
+        <translation>Вн&amp;из</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
@@ -8808,112 +8804,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Відеоеквалайзер</translation>
+        <translation>Відеоеквалайзер</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">&amp;Контрастність</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation>&amp;Контрастність</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">&amp;Яскравість</translation>
+        <translation>&amp;Яскравість</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">&amp;Колір</translation>
+        <translation>&amp;Колір</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">&amp;Насиченість</translation>
+        <translation>&amp;Насиченість</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">&amp;Гама</translation>
+        <translation>&amp;Гама</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">Програмний &amp;еквалайзер</translation>
+        <translation>Програмний &amp;еквалайзер</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">Встановити типове &amp;значення</translation>
+        <translation>Встановити типове &amp;значення</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Ск&amp;инути</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Використовувати поточні значення як типові для нових кліпів.</translation>
+        <translation>Використовувати поточні значення як типові для нового відео.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Відеоеквалайзер</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">&amp;Контрастність</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">&amp;Яскравість</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">&amp;Колір</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">&amp;Насиченість</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;Гама</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">Програмний &amp;еквалайзер</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">Встановити типове &amp;значення</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">Ск&amp;инути</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Використовувати поточні значення як типові для нових кліпів.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Анулювати всі налаштування.</translation>
+        <translation>Обнулити</translation>
     </message>
 </context>
 <context>

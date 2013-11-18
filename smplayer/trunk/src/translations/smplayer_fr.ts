@@ -6012,10 +6012,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Clavier</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">Icône</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Souris</translation>
@@ -8808,46 +8804,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Égaliseur vidéo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">&amp;Contraste</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">&amp;Luminosité</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">&amp;Teinte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">&amp;Saturation</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">&amp;Gamma</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">&amp;Égaliseur logiciel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">Choisir comme valeurs par &amp;défaut</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8863,57 +8855,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">Mettre tous les contrôles à zéro.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Égaliseur vidéo</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">&amp;Contraste</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">&amp;Luminosité</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">&amp;Teinte</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">&amp;Saturation</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;Gamma</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">&amp;Égaliseur logiciel</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">Choisir comme valeurs par &amp;défaut</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Réinitialiser</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Utiliser les valeurs actuelles comme valeurs par défaut pour les nouvelles vidéos.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Mettre tous les contrôles à zéro.</translation>
     </message>
 </context>
 <context>

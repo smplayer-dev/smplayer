@@ -31,17 +31,17 @@
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">葡萄牙语</translation>
+        <translation>葡萄牙语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>简体中文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">印度尼西亚语</translation>
+        <translation>印度尼西亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -72,22 +72,22 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>许多人贡献了翻译。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>你也可以帮助翻译 SMPlayer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>访问 %1 并加入翻译团队</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>当前 Transifex 团队中的翻译人员：</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -107,7 +107,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished">耐诺斯克挪威语</translation>
+        <translation>挪威尼诺斯克语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -162,42 +162,42 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>阿拉伯语 - 沙特阿拉伯</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">僧加罗语</translation>
+        <translation>僧加罗</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">希腊语</translation>
+        <translation>希腊</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">爱沙尼亚语</translation>
+        <translation>爱沙尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation type="unfinished">意大利语</translation>
+        <translation>意大利语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation type="unfinished">乌兹别克语</translation>
+        <translation>乌兹别克语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation type="unfinished">加泰罗尼亚语</translation>
+        <translation>加泰罗尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -212,7 +212,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>佩奇</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -225,7 +225,7 @@
         <location filename="../about.ui" line="170"/>
         <location filename="../about.ui" line="226"/>
         <source>icon</source>
-        <translation>icon</translation>
+        <translation>图标</translation>
     </message>
     <message>
         <location filename="../about.ui" line="94"/>
@@ -424,7 +424,7 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="87"/>
         <location filename="../audioequalizer.cpp" line="88"/>
         <source>%1 Hz</source>
-        <translation type="unfinished">%1 Hz</translation>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="89"/>
@@ -433,12 +433,12 @@ Do you want to overwrite?</source>
         <location filename="../audioequalizer.cpp" line="92"/>
         <location filename="../audioequalizer.cpp" line="93"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>当前(&amp;P)</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="96"/>
@@ -458,17 +458,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="103"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation>平坦</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>流行</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="105"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>摇滚</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="110"/>
@@ -642,7 +642,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1536"/>
         <source>&amp;Compact mode</source>
-        <translation>精简模式(&amp;C)</translation>
+        <translation>简洁模式(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1768"/>
@@ -718,7 +718,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1790"/>
         <source>S&amp;tay on top</source>
-        <translation>保持在最前端(&amp;T)</translation>
+        <translation>保持在最前(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1586"/>
@@ -779,12 +779,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1577"/>
         <source>Volume &amp;-</source>
-        <translation>音量-(&amp;-)</translation>
+        <translation>音量 &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1578"/>
         <source>Volume &amp;+</source>
-        <translation>音量+(&amp;+)</translation>
+        <translation>音量 &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1579"/>
@@ -809,12 +809,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
         <source>Delay &amp;-</source>
-        <translation>延迟-(&amp;-)</translation>
+        <translation>延迟 &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
         <source>Delay &amp;+</source>
-        <translation>延迟+(&amp;+)</translation>
+        <translation>延迟 &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1596"/>
@@ -915,7 +915,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1633"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation>YouTube%1 浏览器（&amp;Y）</translation>
+        <translation>YouTube%1 浏览器(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3743"/>
@@ -932,7 +932,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3852"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"></translation>
+        <translation>选择Blu-ray文件夹</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3864"/>
@@ -972,12 +972,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4474"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>检测到错误</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4475"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>抱歉此视频不能播放</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -1028,12 +1028,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1546"/>
         <source>Zoom &amp;-</source>
-        <translation>缩放-(&amp;-)</translation>
+        <translation>缩放 &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1547"/>
         <source>Zoom &amp;+</source>
-        <translation>缩放+(&amp;+)</translation>
+        <translation>缩放 &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1548"/>
@@ -1058,7 +1058,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1555"/>
         <source>Move &amp;down</source>
-        <translation>向下移动(&amp;D)</translation>
+        <translation>向下移动(&amp;d)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1601"/>
@@ -1068,7 +1068,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1603"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>下一行字幕(&amp;E)</translation>
+        <translation>下一行字幕(&amp;e)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
@@ -1092,22 +1092,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1475"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>从驱动器播放 &amp;Blu-ray (&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1476"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>从文件夹播放 Blu-ray(&amp;B)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>缩略图生成器…(&amp;n)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1567"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation>去带(Gradfun)(&amp;G)</translation>
+        <translation>去带(Gradfun)(&amp;g)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1620"/>
@@ -1123,7 +1123,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1651"/>
         <source>Update &amp;Youtube code</source>
-        <translation type="unfinished"></translation>
+        <translation>更新Youtube代码(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
@@ -1133,7 +1133,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1656"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>捐赠(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
@@ -1213,12 +1213,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1798"/>
         <source>De&amp;noise</source>
-        <translation>降噪(&amp;N)</translation>
+        <translation>降噪(&amp;n)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1801"/>
         <source>Blur/S&amp;harp</source>
-        <translation>模糊/锐化(&amp;H)</translation>
+        <translation>模糊/锐化(&amp;h)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1823"/>
@@ -1294,22 +1294,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3958"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>捐赠</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3959"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你喜欢SMPLayer并想支持我们开发，你可以给我们捐赠。即使只有一点我们都很感激</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3962"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>是的，我想捐赠</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4429"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>抱歉因 Youtube页面的变化，此视频不能播放</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4436"/>
@@ -1325,7 +1325,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4438"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>你想更新Youtube代码吗？这样或许能解决问题。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4446"/>
@@ -1481,7 +1481,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4476"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>服务器返回&apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5050"/>
@@ -1939,43 +1939,43 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">正在下载...</translation>
+        <translation>下载中…</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">正在连接到 1%</translation>
+        <translation>正在连接到 1%</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube代码已成功更新</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">已安装版本: %1</translation>
+        <translation>Installed version: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Success</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">错误</translation>
+        <translation>Error</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>An error happened writing %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>An error happened while downloading the file:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2054,7 +2054,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="533"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>无法取回Youtube页面</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3253"/>
@@ -2388,7 +2388,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished">正在连接到 1%</translation>
+        <translation>正在连接到 1%</translation>
     </message>
 </context>
 <context>
@@ -3749,7 +3749,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>阿拉伯语 - 叙利亚</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -4526,7 +4526,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="317"/>
         <source>Add &amp;URL(s)</source>
-        <translation>添加网址(s) （U）</translation>
+        <translation>添加网址(s) (U)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="320"/>
@@ -5112,7 +5112,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"></translation>
+        <translation>选择您的 Blu-ray 驱动器(&amp;B):</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5122,12 +5122,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-ray驱动器</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择您的 Blu-ray 驱动器。它将用于播放蓝光光盘。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="204"/>
@@ -5622,7 +5622,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation>如果您想要使用音频均衡器，请勾选此选项。</translation>
+        <translation>如果您想使用音频均衡器，请勾选此选项。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
@@ -5807,7 +5807,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1040"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>需要播放声道的数量。MPlayer 要求解码器把音频解码成指定数量的声道。然后由解码器来实现这个要求。这通常只有在播放带有 AC3 音频(比如 DVD)的视频时才显得重要。在该情况下将默认使用 liba52 解码并把音频正确地混合成需要的声道数量。&lt;b&gt;注意&lt;/b&gt;: 此选项可以被编解码器(仅 AC3)、过滤器(环绕声)和音频输出驱动(至少 OSS 可以)接受。</translation>
+        <translation>指定播放声道的数量。MPlayer 告诉解码器需要将音频解码成多少声道，再由解码器来实现此需求。通常只有在播放带有 AC3 音频(比如 DVD)的视频时才有用。在该情况下将默认使用 liba52 解码并把音频正确地混合成需要的声道数量。&lt;b&gt;注意&lt;/b&gt;: 此选项需要 编码(仅 AC3)、过滤器(环绕声)和音频输出驱动(OSS或更高级)三者都满足。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="892"/>
@@ -6006,10 +6006,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
         <translation>键盘(&amp;K)</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6714,7 +6710,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="203"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>基础GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="209"/>
@@ -6846,17 +6842,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果启用此选项，浮动控制将出现在简洁模式中。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>此选项仅适用于基础GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;警告:&lt;/b&gt; 浮动控制并不是为简洁模式而设计的，它可能无法正常工作。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
@@ -8220,22 +8216,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation>更新（U）</translation>
+        <translation>更新(U)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation>检查更新（&amp;U）</translation>
+        <translation>检查更新(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation type="unfinished"></translation>
+        <translation>检查间隔(天)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>每次更新后打开第一步指南(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8250,27 +8246,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果此项开启，SMPlayer会检查并提示有更新</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"></translation>
+        <translation>检查间隔</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"></translation>
+        <translation>你可以输入检查更新的间隔(单位：天)</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>更新后打开第一步指南</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果此项开启，更新后会打开第一步指南，教您如何使用SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -8496,37 +8492,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.ui" line="14"/>
         <source>Help SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>帮助SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.ui" line="147"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>稍后提醒我(&amp;R)</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你喜欢SMPLayer并想支持我们开发，你可以给我们捐赠。即使只有一点我们都很感激</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="unfinished"></translation>
+        <translation>或者，你想在Facebook上与你的好友分享SMPlayer</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
         <source>What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>你想做什么？</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>捐赠(&amp;D)</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
-        <translation type="unfinished"></translation>
+        <translation>和朋友分享(&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -8580,7 +8576,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="402"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished">状态栏(&amp;B)</translation>
+        <translation>状态栏(&amp;B)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
@@ -8600,7 +8596,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="415"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">视频信息(&amp;V)</translation>
+        <translation>视频信息(&amp;V)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="428"/>
@@ -8802,46 +8798,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">视频均衡器</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">对比度(&amp;C)</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">亮度(&amp;B)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">色调(&amp;H)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">饱和度(&amp;S)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">伽玛(&amp;G)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">软件均衡器(&amp;E)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">设置为默认值(&amp;D)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8860,57 +8852,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">视频均衡器</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">对比度(&amp;C)</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">亮度(&amp;B)</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">色调(&amp;H)</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">饱和度(&amp;S)</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">伽玛(&amp;G)</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">软件均衡器(&amp;E)</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">设置为默认值(&amp;D)</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">重置(&amp;R)</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">使用当前的值作为新视频的默认值。</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">将所有的控制都设置为零。</translation>
-    </message>
-</context>
-<context>
     <name>VideoPreview</name>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
@@ -8925,7 +8866,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>缩略图生成器</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -9074,7 +9015,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>缩略图生成器</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

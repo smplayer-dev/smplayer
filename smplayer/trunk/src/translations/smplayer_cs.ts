@@ -6010,10 +6010,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Klávesnice</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikona</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Myš</translation>
@@ -8808,46 +8804,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Video ekvalizér</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">Kontrast</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">&amp;Jas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">&amp;Odstín</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">&amp;Sytost</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">&amp;Gamma</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">Softwarový &amp;ekvalizér</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">Použít jako &amp;výchozí hodnoty</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8863,57 +8855,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">Nastavit všechny ovládací prvky na nulu.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Video ekvalizér</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">Kontrast</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">&amp;Jas</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">&amp;Odstín</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">&amp;Sytost</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;Gamma</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">Softwarový &amp;ekvalizér</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">Použít jako &amp;výchozí hodnoty</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Reset</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Použít dané hodnoty jako výchozí pro nová videa.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Nastavit všechny ovládací prvky na nulu.</translation>
     </message>
 </context>
 <context>

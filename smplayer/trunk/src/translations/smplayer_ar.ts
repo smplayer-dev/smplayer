@@ -6989,7 +6989,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="689"/>
         <location filename="../prefinterface.ui" line="722"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="696"/>
@@ -7527,7 +7527,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="556"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="576"/>
@@ -8818,46 +8818,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">مُساوي الفيديو</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">ال&amp;تباين</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">ال&amp;سطوع</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">التد&amp;رج</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">الت&amp;شبع</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">&amp;غاما</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">المُساوي البرم&amp;جي</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">ا&amp;جعلها القيم المبدئة</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8873,57 +8869,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">عيّن كل المتحكمات إلى الصفر.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">مُساوي الفيديو</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">ال&amp;تباين</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">ال&amp;سطوع</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">التد&amp;رج</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">الت&amp;شبع</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;غاما</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">المُساوي البرم&amp;جي</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">ا&amp;جعلها القيم المبدئة</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;صفّر</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">اجعل القيم الحالية مبدئية لمقاطع الفيديو الجديدة.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">عيّن كل المتحكمات إلى الصفر.</translation>
     </message>
 </context>
 <context>

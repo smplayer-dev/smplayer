@@ -6010,10 +6010,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Klaviatūra</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">piktograma</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Pelė</translation>
@@ -8808,46 +8804,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Video ekvalaizeris</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">&amp;Kontrastas</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">&amp;Ryškumas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">&amp;Atspalvis</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">&amp;Sodrumas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">&amp;Gama</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">Programinis &amp;ekvalaizeris</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">&amp;Nustatyti kaip numatytąsias reikšmes</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8857,63 +8849,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nustatyti dabartines reikšmes kaip numatytąsias  naujiems video.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">Nustatyti visas reikšmes lygias nuliui.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Video ekvalaizeris</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">&amp;Kontrastas</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">&amp;Ryškumas</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">&amp;Atspalvis</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">&amp;Sodrumas</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;Gama</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">Programinis &amp;ekvalaizeris</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">&amp;Nustatyti kaip numatytąsias reikšmes</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Atstatyti</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Dabartines reikšmes nustatyti kaip numatytąsias, naujiems video.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Nustatyti visas reikšmes lygias nuliui.</translation>
     </message>
 </context>
 <context>

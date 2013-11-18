@@ -6009,10 +6009,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>キーボード(&amp;K)</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>マウス(&amp;M)</translation>
@@ -6025,7 +6021,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="315"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>ダブル クリックでは左クリック動作をトリガーしない(&amp;T)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6384,17 +6380,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>ダブル クリックでは左クリック動作をトリガーしない</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効な場合ビデオ領域でダブル クリックするとダブル クリックの機能のみトリガーされます。左クリック動作はアクティブ化されません。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションを有効にすると左クリックは %1 秒遅れます。ダブル クリックがあるかどうかを知るためにその間待つ必要があるためです。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -8803,112 +8799,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">ビデオ イコライザー</translation>
+        <translation>ビデオ イコライザー</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">コントラスト(&amp;C)</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation>コントラスト(&amp;C)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">明るさ(&amp;B)</translation>
+        <translation>明るさ(&amp;B)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">色合い(&amp;H)</translation>
+        <translation>色合い(&amp;H)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">鮮やかさ(&amp;S)</translation>
+        <translation>鮮やかさ(&amp;S)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">ガンマ(&amp;G)</translation>
+        <translation>ガンマ(&amp;G)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">ソフトウェア イコライザー(&amp;E)</translation>
+        <translation>ソフトウェア イコライザー(&amp;E)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">既定値として設定(&amp;D)</translation>
+        <translation>既定値として設定(&amp;D)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">リセット(&amp;R)</translation>
+        <translation>リセット(&amp;R)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">新しいビデオの既定値として現在の値を使用します。</translation>
+        <translation>新しいビデオの既定値として現在の値を使用します。</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">すべてのコントロールを 0 に設定します。</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">ビデオ イコライザー</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">コントラスト(&amp;C)</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">明るさ(&amp;B)</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">色合い(&amp;H)</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">鮮やかさ(&amp;S)</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">ガンマ(&amp;G)</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">ソフトウェア イコライザー(&amp;E)</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">既定値として設定(&amp;D)</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">リセット(&amp;R)</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">新しいビデオの既定値として現在の値を使用します。</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">すべてのコントロールを 0 に設定します。</translation>
+        <translation>すべてのコントロールを 0 に設定します。</translation>
     </message>
 </context>
 <context>

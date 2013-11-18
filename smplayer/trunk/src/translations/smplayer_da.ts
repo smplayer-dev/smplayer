@@ -6010,10 +6010,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Tastatur</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikon</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Mus</translation>
@@ -8814,10 +8810,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
         <translation type="unfinished"></translation>
@@ -8845,7 +8837,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">Gem som standard værdier</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8861,29 +8853,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">Sæt alle kontroller til nul.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">Gem som standard værdier</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Nulstil</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Brug de aktuelle værdier som standardværdier for nye videoer.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Sæt alle kontroller til nul.</translation>
     </message>
 </context>
 <context>

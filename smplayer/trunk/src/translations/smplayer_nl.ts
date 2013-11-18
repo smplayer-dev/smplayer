@@ -6010,10 +6010,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Toetsenbord</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">pictogram</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Muis</translation>
@@ -8814,10 +8810,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
         <translation type="unfinished"></translation>
@@ -8861,21 +8853,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">Stel alle besturingselementen op nul in.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Gebruik de huidige waarden als standaardwaarden voor nieuwe video&apos;s.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Stel alle besturingselementen op nul in.</translation>
     </message>
 </context>
 <context>

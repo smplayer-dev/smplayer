@@ -6009,10 +6009,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>แ&amp;ป้นพิมพ์</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ไอคอน</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>เ&amp;มาส์</translation>
@@ -8854,21 +8850,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">ตั้งค่าเป็นศูนย์ทุกตัวควบคุม.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;คืนค่า</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">ใช้ค่าปัจจุบัน เป็นค่าตั้งต้นของวิดีโอใหม่.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">ตั้งค่าเป็นศูนย์ทุกตัวควบคุม.</translation>
     </message>
 </context>
 <context>

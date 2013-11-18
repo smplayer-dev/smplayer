@@ -556,7 +556,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1474"/>
         <source>D&amp;VD from folder...</source>
-        <translation>D&amp;VD-Ordner …</translation>
+        <translation>D&amp;VD-Ordner…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1477"/>
@@ -932,7 +932,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="3852"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie den Blu-ray-Ordner aus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3864"/>
@@ -1092,12 +1092,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1475"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blu-ray im Laufwerk</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1476"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-&amp;ray-Ordner…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
@@ -5116,7 +5116,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blu-ray-Laufwerk auswählen:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5126,12 +5126,12 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-ray-Laufwerk</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie ihr Blu-ray-Laufwerk aus. Es wird für die Wiedergabe von Blu-rays verwendet.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="204"/>
@@ -6014,10 +6014,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <translation>&amp;Tastatur</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">Symbol</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Maus</translation>
@@ -6853,17 +6849,17 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird das schwebende Kontrollelement auch im Kompaktmodus dargestellt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option funktioniert nur mit der Standard-GUI.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Warnung:&lt;/b&gt; Das schwebende Kontrollelement ist nicht für den Kompaktmodus gedacht und wird möglicherweise nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
@@ -8811,46 +8807,42 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Video-Equalizer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">&amp;Kontrast</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">&amp;Helligkeit</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">&amp;Farbe</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">&amp;Sättigung</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">&amp;Gamma</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">Software-&amp;Equalizer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">Als &amp;Standardwerte setzen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8860,63 +8852,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Die derzeitigen Werte als Standardwerte für neue Videos verwenden.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Video-Equalizer</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">&amp;Kontrast</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">&amp;Helligkeit</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">&amp;Farbe</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">&amp;Sättigung</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;Gamma</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">Software-&amp;Equalizer</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">Als &amp;Standardwerte setzen</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Reset</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Aktuelle Werte als Standard für neue Videos benutzen.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Alle Einstellungen auf Null setzen.</translation>
+        <translation type="unfinished">Alle Regler auf Null setzen.</translation>
     </message>
 </context>
 <context>
