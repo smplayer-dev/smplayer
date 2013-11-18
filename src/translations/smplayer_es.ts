@@ -867,10 +867,6 @@ Do you want to overwrite?</source>
         <translation>P&amp;referencias</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
-        <translation type="obsolete">Acerca de &amp;Qt</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1658"/>
         <source>About &amp;SMPlayer</source>
         <translation>Acerca de &amp;SMPlayer</translation>
@@ -944,10 +940,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <source>About Qt</source>
-        <translation type="obsolete">Acerca de Qt</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4334"/>
         <source>New version available</source>
         <translation>Nueva versión disponible</translation>
@@ -981,10 +973,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="4475"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Lamentablemente no es posible reproducir este vídeo.</translation>
-    </message>
-    <message>
-        <source>The server returned %1</source>
-        <translation type="obsolete">El servidor ha devuelto %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -1297,10 +1285,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="1929"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer - SMPlayer log</translation>
-    </message>
-    <message>
-        <source>Select Blu-Ray Folder</source>
-        <translation type="obsolete">Selecciona la carpeta Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3958"/>
@@ -1690,10 +1674,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="1551"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Zoom para &amp;2.35:1</translation>
-    </message>
-    <message>
-        <source>Pre&amp;view...</source>
-        <translation type="obsolete">&amp;Vista previa...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1837"/>
@@ -5101,10 +5081,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Unidades de disco</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.cpp" line="196"/>
         <source>CD device</source>
         <translation>Dispositivo CD</translation>
@@ -6034,10 +6010,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Teclado</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Ratón</translation>
@@ -6422,30 +6394,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Al activar esta opción, la acción del botón izquierdo se retrasa %1 milisegundos debido a que es necesario esperar a ver si se produce un doble clic  o no.</translation>
     </message>
     <message>
-        <source>Don&apos;t trigger the left click function when double click</source>
-        <translation type="obsolete">No activar la función del botón izquierdo cuando se hace doble clic</translation>
-    </message>
-    <message>
-        <source>If this option is enabled when you double click on the video area only the double click function will be activated.</source>
-        <translation type="obsolete">Si se activa esta opción, cuando hagas doble clic sobre el vídeo sólo se activará la función del doble clic.</translation>
-    </message>
-    <message>
-        <source>If this option is disabled the left click function will be activated before the double click function. That&apos;s right, both the left and double click functions will be activated.</source>
-        <translation type="obsolete">Si está opción está desactivada, entonces la función del botón izquierdo se activará antes de la función del doble clic. Así es, tanto la función del botón izquierdo como la del doble clic se activarán.</translation>
-    </message>
-    <message>
-        <source>If this option is disabled the left click function will be activated before the double click function. That&apos;s right, both the left and double click functions will be activated if this option is disabled.</source>
-        <translation type="obsolete">Si está opción está desactivada, entonces la función del botón izquierdo se activará antes de la función del doble clic. Así es, tanto la función del botón izquierdo como la del doble clic se activarán.</translation>
-    </message>
-    <message>
-        <source>Notice:</source>
-        <translation type="obsolete">Aviso:</translation>
-    </message>
-    <message>
-        <source>Enabling this option has an inconvenience: the left click is delayed %1 milliseconds because it&apos;s necessary to wait if there&apos;s a double click or not.</source>
-        <translation type="obsolete">Activar esta opción tiene un inconveniente: la acción del botón izquierdo se retrasa %1 milisegundos debido a que es necesario esperar a ver si se produce un doble clic  o no.</translation>
-    </message>
-    <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
         <translation>Cambiar la función de la rueda del ratón</translation>
@@ -6467,10 +6415,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
         <translation>&amp;Controlar el volumen</translation>
-    </message>
-    <message>
-        <source>Don&apos;t &amp;trigger the left click function when double click</source>
-        <translation type="obsolete">No ac&amp;tivar la función del botón izquierdo cuando se hace doble clic</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="389"/>
@@ -6783,7 +6727,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation>Si se marca esta opción, la ventana principal se moverá al arrastrar el ratón sobre zona del vídeo. Ahora vas y lo cascas.</translation>
+        <translation>Si se marca esta opción, la ventana principal se moverá al arrastrar el ratón sobre zona del vídeo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="659"/>
@@ -6959,10 +6903,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Marca esta opción si quieres usar una misma instancia de SMPlayer para todos los ficheros que abras.</translation>
     </message>
     <message>
-        <source>Default GUI</source>
-        <translation type="obsolete">GUI predeterminado</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="204"/>
         <source>Mini GUI</source>
         <translation>GUI Mini</translation>
@@ -7018,14 +6958,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mostrar también en modo compacto</translation>
     </message>
     <message>
-        <source>Bypass window manager</source>
-        <translation type="obsolete">Saltar el gestor de ventanas</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the control is displayed bypassing the window manager. Disable this option if the floating control doesn&apos;t work well with your window manager.</source>
-        <translation type="obsolete">Si se activa esta opción, el control será mostrado en pantalla por su cuenta, sin contar con el gestor de ventanas. Desactiva esta opción si el control flotante no funciona correctamente con tu gestor de ventanas.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="638"/>
         <source>&amp;Floating control</source>
         <translation>Control &amp;flotante</translation>
@@ -7060,14 +6992,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="731"/>
         <source>Display in &amp;compact mode too</source>
         <translation>Mostrar también en modo &amp;compacto</translation>
-    </message>
-    <message>
-        <source>&amp;Bypass window manager</source>
-        <translation type="obsolete">&amp;Saltar el gestor de ventanas</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the floating control will appear in compact mode too. &lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="obsolete">Si se activa esta opción, el control flotante aparecerá también en modo compacto. &lt;b&gt;Advertencia:&lt;/b&gt; el control flotante no se ha diseñado para el modo compacto y podría no funcionar correctamente.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="206"/>
@@ -8886,10 +8810,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Contraste</translation>
     </message>
     <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
         <translation>&amp;Brillo</translation>
@@ -8933,57 +8853,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation>Pone todos los controles a cero.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Ecualizador de Vídeo</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">&amp;Contraste</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">&amp;Brillo</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">&amp;Tono</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">&amp;Saturación</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;Gamma</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">&amp;Ecualizador por software</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">&amp;Usar como valores por defecto</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Reiniciar</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Usa los valores actuales como valores por defecto para los nuevos vídeos.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Pone todos los controles a cero.</translation>
     </message>
 </context>
 <context>
@@ -9146,10 +9015,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
         <translation>Por defecto</translation>
-    </message>
-    <message>
-        <source>Video Preview</source>
-        <translation type="obsolete">Vista previa del vídeo</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
