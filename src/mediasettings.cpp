@@ -110,12 +110,14 @@ void MediaSettings::reset() {
 	is264andHD = false;
 
 	forced_demuxer="";
-    forced_video_codec="";
-    forced_audio_codec="";
+	if (pref->use_lavf_demuxer) forced_demuxer = "lavf";
+
+	forced_video_codec="";
+	forced_audio_codec="";
 
 	original_demuxer="";
-    original_video_codec="";
-    original_audio_codec="";
+	original_video_codec="";
+	original_audio_codec="";
 
 	mplayer_additional_options="";
 	mplayer_additional_video_filters="";
@@ -382,6 +384,7 @@ void MediaSettings::load(QSettings * set) {
 	current_sec = set->value( "current_sec", current_sec).toDouble();
 
 	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
+	if (pref->use_lavf_demuxer) forced_demuxer = "lavf";
 
 	QString demuxer_section = "demuxer_default";
 	if (!forced_demuxer.isEmpty()) demuxer_section = "demuxer_" + forced_demuxer;

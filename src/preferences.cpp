@@ -267,6 +267,7 @@ void Preferences::reset() {
 	monitor_aspect=""; // Autodetect
 
 	use_idx = false;
+	use_lavf_demuxer = false;
 
 	mplayer_additional_options="";
 	#ifdef PORTABLE_APP
@@ -724,6 +725,7 @@ void Preferences::save() {
 	set->setValue("monitor_aspect", monitor_aspect);
 
 	set->setValue("use_idx", use_idx);
+	set->setValue("use_lavf_demuxer", use_lavf_demuxer);
 
 	set->setValue("mplayer_additional_options", mplayer_additional_options);
 	set->setValue("mplayer_additional_video_filters", mplayer_additional_video_filters);
@@ -1207,6 +1209,7 @@ void Preferences::load() {
 	monitor_aspect = set->value("monitor_aspect", monitor_aspect).toString();
 
 	use_idx = set->value("use_idx", use_idx).toBool();
+	use_lavf_demuxer = set->value("use_lavf_demuxer", use_lavf_demuxer).toBool();
 
 	mplayer_additional_options = set->value("mplayer_additional_options", mplayer_additional_options).toString();
 	mplayer_additional_video_filters = set->value("mplayer_additional_video_filters", mplayer_additional_video_filters).toString();
