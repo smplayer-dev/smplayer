@@ -4728,7 +4728,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Ако тази опция е избрана, отечтът на MPlayer ще бъде запаметен в различен файл всеки път, когато се възпроизвежда нов файл. Това е предназначено за външни приложения, така че да могат да извлекат информация за файла, който се възпроизвежда.</translation>
+        <translation>Ако тази опция е отметната, отечтът на MPlayer ще бъде запаметен в различен файл всеки път, когато се възпроизвежда нов файл. Това е предназначено за външни приложения, така че да могат да извлекат информация за файла, който се възпроизвежда.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="529"/>
@@ -4753,7 +4753,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="426"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation>Към момента MPlayer не може да отваря файлове с имена, чиито символи са извън местната кодова таблица. Отбелязването на тази опция ще пропуска файлове с къси имена от SMplayer към MPlayer, което ще позволи да се възпроизведат.</translation>
+        <translation>Към момента MPlayer не може да отваря файлове с имена, чиито символи са извън местната кодова таблица. Отметването на тази опция ще пропуска файлове с къси имена от SMplayer към MPlayer, което ще позволи да се възпроизведат.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4778,7 +4778,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="410"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation>Ако позволите тази опция, видеопрозорецът на MPlayer няма да е вграден в SMPlayer, а ще използва собствен. Знайте, че действията с мишката и клавиатурата ще бъдат улавяни от MPlayer, това означава, че когато прозорецът на MPlayer е на фокус клавишни комбинации и кликове с мишката вероятно няма да робят, според очакваното.</translation>
+        <translation>Ако отметнете тази опция, видеопрозорецът на MPlayer няма да е вграден в SMPlayer, а ще използва собствен. Знайте, че действията с мишката и клавиатурата ще бъдат улавяни от MPlayer, това означава, че когато прозорецът на MPlayer е на фокус клавишни комбинации и кликове с мишката вероятно няма да робят, според очакваното.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
@@ -4788,7 +4788,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>Ако тази опция е позволена, прозорецът ще изскача в известие за сривове на MPlayer. В противен случай ще бъдат ингорирани.</translation>
+        <translation>Ако тази опция е отметната, прозорецът ще изскача в известие за сривове на MPlayer. В противен случай ще бъдат ингорирани.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
@@ -4898,12 +4898,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Ако тази опция е позволена, SMPlayer ще складира съобщенията с грешки, които излизат от програмата (може да видите отчета от &lt;b&gt;Опции -&gt; Преглед на отчети -&gt; SMPlayer&lt;/b&gt;). Тази информация може да е полезна за разработчик.</translation>
+        <translation>Ако тази опция е отметната, SMPlayer ще складира съобщенията с грешки, които излизат от програмата (може да видите отчета от &lt;b&gt;Опции -&gt; Преглед на отчети -&gt; SMPlayer&lt;/b&gt;). Тази информация може да е полезна за разработчик.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Ако е позволена, SMPlayer ще складира изхода от MPlayer (може да го видите от &lt;b&gt;Опции -&gt; Преглед на отчети -&gt; MPlayer&lt;/b&gt;). В случай на проблеми този отчет може да съдържа важна информациая, затова се препоръчва да запазите опцията активна.</translation>
+        <translation>Ако е отметната, SMPlayer ще складира изхода от MPlayer (може да го видите от &lt;b&gt;Опции -&gt; Преглед на отчети -&gt; MPlayer&lt;/b&gt;). В случай на проблеми този отчет може да съдържа важна информациая, затова се препоръчва да запазите опцията активна.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -4928,7 +4928,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Тук можете да изберете списък от &lt;i&gt;действия&lt;/i&gt;, които ще си изпълняват при всяко отваряне на файл. Ще намерите всички налични действия в редактора на преки пътища в раздел &lt;b&gt;Клавиатура и мишка&lt;/b&gt;. Разделяйте действията с интервали. Действията могат да бъдат последвани от &lt;i&gt;вярно&lt;/i&gt; или &lt;i&gt;грешно&lt;/i&gt; съответно за активиране и деактивиране.</translation>
+        <translation>Тук можете да изберете списък от &lt;i&gt;действия&lt;/i&gt;, които ще си изпълняват при всяко отваряне на файл. Ще намерите всички налични действия в редактора на преки пътища в раздел &lt;b&gt;Клавиатура и мишка&lt;/b&gt;. Разделяйте действията с интервали. Действията с отметки могат да бъдат последвани от &lt;i&gt;вярно&lt;/i&gt; или &lt;i&gt;грешно&lt;/i&gt; съответно за активиране и деактивиране.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
@@ -4978,7 +4978,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation>Ако тази опция е избрана, отчета на SMPlayer ще бъде записан на %1</translation>
+        <translation>Ако тази опция е отметната, отчета на SMPlayer ще бъде записан на %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="636"/>
@@ -5026,12 +5026,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefassociations.cpp" line="225"/>
         <source>Check all file types in the list</source>
-        <translation>Избор на всички видове файлове от списъка</translation>
+        <translation>Маркиране на всички видове файлове от списъка</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="228"/>
         <source>Uncheck all file types in the list</source>
-        <translation>Махане на избора за всички видове от списъка.</translation>
+        <translation>Демаркиране на всички видове файлове от списъка.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="230"/>
@@ -5061,7 +5061,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Изберете разширенията, чиито файлове искате SMPlayer да използва. Когато изберете Приложи, избраните видове ще бъдат свързани със SMPlayer. Ако откажете избор за даден вид файл, свързаността ще бъде възстановена.</translation>
+        <translation>Изберете разширенията, чиито файлове искате SMPlayer да използва. Когато изберете Приложи, избраните видове ще бъдат свързани със SMPlayer. Ако демаркирате даден вид файл, връзката ще бъде възстановена.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5140,7 +5140,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="205"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Ако тази опция е избрана, SMPlayer ще изпълнява DVD, използвайки dvdnav. Изисква се последна версия на MPlayer, компилирана с поддръжка на dvdnav.</translation>
+        <translation>Ако тази опция е отметната, SMPlayer ще изпълнява DVD, използвайки dvdnav. Изисква се последна версия на MPlayer, компилирана с поддръжка на dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="208"/>
@@ -5194,7 +5194,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1002"/>
         <source>Disable screensaver</source>
-        <translation>Изключване на предпазител на екрана</translation>
+        <translation>Деактивиране предпазител на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="133"/>
@@ -5274,7 +5274,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="952"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Можете да разрешите тази опция ако видео изравняването не се поддържа от вашата видеокарта или избрания видео драйвър.&lt;br&gt;&lt;b&gt;Забележка:&lt;/b&gt; тази опция може да не е съвместима с някои видео драйвъри.</translation>
+        <translation>Можете да отметнете тази опция, ако видео изравняването не се поддържа от вашата видеокарта или избрания видео драйвър.&lt;br&gt;&lt;b&gt;Забележка:&lt;/b&gt; тази опция може да не е съвместима с някои видео драйвъри.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="974"/>
@@ -5289,7 +5289,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>Тази опция служи за използване на програмен миксер, вместо този на звуковата карта.</translation>
+        <translation>Отметнете тази опция, за да използвате програмния миксер, вместо на звуковата карта.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5329,12 +5329,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="491"/>
         <source>Disable &amp;screensaver</source>
-        <translation>Деактивиране на &amp;предпазител на екрана</translation>
+        <translation>Деактивиране &amp;предпазител на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="717"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>Използвай прог&amp;рамен контрол на звука</translation>
+        <translation>Използвай прог&amp;рамно управление на звука</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="740"/>
@@ -5389,7 +5389,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="902"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Ако тази опция е избрана, основният прозорец ще бъде затворен автоматично, когато приключи настоящият файл или списък.</translation>
+        <translation>Ако тази опция е отметната, основният прозорец ще бъде затворен автоматично, когато приключи настоящият файл или списък.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="103"/>
@@ -5620,37 +5620,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Enable the audio equalizer</source>
-        <translation>Включи аудио изравнителя</translation>
+        <translation>Активирай тонкоректор</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
         <source>Check this option if you want to use the audio equalizer.</source>
-        <translation>Отметнете тази опция ако желаете да използвате аудио изравнителя.</translation>
+        <translation>Отметнете тази опция, ако желаете да използвате тонкоректора.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>&amp;Включи аудио изравнителя</translation>
+        <translation>&amp;Активирай тонкоректора</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
         <source>Draw video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Чертаене на видео чрез отрези</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="968"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Активиране/деактивиране на чертаене на видео чрез отрези/ленти високи 16 пиксела. Ако е деактивирано, рамката се чертае наведнъж. Може да бъде по-бързо или по-бавно, в зависимост от видео картата и наличната складирана памет. Въздейства единствено на кодеците libmpeg2 и libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Dra&amp;w video using slices</source>
-        <translation type="unfinished"></translation>
+        <translation>Черт&amp;аене на видео чрез отрези</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>&amp;Close when finished playback</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Затваряне след приключване на възпроизвеждането</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="347"/>
@@ -5668,94 +5668,94 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="381"/>
         <source>fast - ATI cards</source>
-        <translation>бързо - ATI карти</translation>
+        <translation>бързо - карти на ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="403"/>
         <location filename="../prefgeneral.cpp" line="432"/>
         <source>User defined...</source>
-        <translation type="unfinished"></translation>
+        <translation>Потребителско...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="947"/>
         <source>Default zoom</source>
-        <translation>Стандартно приближаване</translation>
+        <translation>Стандартно увеличение</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="948"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Тази опция задава стандартно приближаване, което ще се използва за нови видеоклипове.</translation>
+        <translation>Тази опция задава стандартно увеличение, което ще се използва за нови видеоклипове.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="382"/>
         <source>Default &amp;zoom:</source>
-        <translation>Стандартно &amp;приближаване</translation>
+        <translation>Стандартно &amp;увеличение:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="866"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук се задава файлът на mplayer, който SMPlayer ще използва.&lt;br&gt;SMPlayer изисква най-малко версия 1.0rc1 на MPlayer (последна версия от SVN е високо препоръчителна).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="870"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
-        <translation>Ако тези настройки за грешни, SMPlayer няма да може да работи!</translation>
+        <translation>Ако тези настройки за грешни, SMPlayer няма да работи!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="914"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете изходен видео драйвър. %1 предоставя най-добра производителност.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
-        <translation>%1 е за предпочитаният. Опитайте се да избягвате %2 и %3, те са бавни и може да се отразят но производителността.</translation>
+        <translation>%1 е предпочитаният. Опитайте се да избягвате %2 и %3, те са бавни и може да се отразят на производителността.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="874"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Обикновенно SMPlayer ще запомни настройките за всеки файл който пускате (избрани аудио запис, звук, филтри...). Изключете тази опция ако не желаете това.</translation>
+        <translation>Обикновено SMPlayer ще запомни настройките за всеки файл, който възпроизвеждате (избрани звукови записи, звук, филтри...). Изключете тази опция, ако не желаете запомняне.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="906"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation>Ако тази опция е включена, файлът ще спре да се изпълнява когато основният прозорец е скрит. Когато основният прозорец е възтановен, изпълняването ще се преустанови.</translation>
+        <translation>Ако тази опция е включена, файлът ще спре да се изпълнява, когато основният прозорец е скрит. Когато бъде възстановен, възпроизвеждането ще продължи.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1003"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Отметнете тази опция забранявайки скрийнсейвъра при изпълнение. &lt;br&gt;Скрийнсейвъра ще бъде включен отново когато изпълнението завърши.</translation>
+        <translation>Отметнете тази опция, изключвайки предпазителя на екрана при възпроизвеждане. &lt;br&gt;Предпазителя ще бъде включен отново, когато възпроизвеждането приключи.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1084"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да зададете предпочитаният език за звуковите потоци. SMPlayer ще опита да използва зададеният език, когато бъде установена медия с няколко потока. &lt;br&gt;Това ще работи само с медия, която предоставя информация за езиците на звуковите потоци като DVD-та или mkv файлове.&lt;br&gt;Това поле приема регулярни изрази. Пример: &lt;b&gt;es|esp|spa&lt;/b&gt; ще избере звуков поток, който съответства с &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; или &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1094"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да зададете предпочитаният език за потока субтитри. SMPlayer ще опита да използва зададеният език, когато бъде установена медия с няколко потока. &lt;br&gt;Това ще работи само с медия, която предоставя информация за езиците на потоците субтитри като DVD-та или mkv файлове.&lt;br&gt;Това поле приема регулярни изрази. Пример: &lt;b&gt;es|esp|spa&lt;/b&gt; ще избере поток субтитри, който съответства с &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; или &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <location filename="../prefgeneral.ui" line="543"/>
         <source>Ou&amp;tput driver:</source>
-        <translation>Изхо&amp;ден драйвер:</translation>
+        <translation>Изхо&amp;ден драйвър:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>Add black borders on fullscreen</source>
-        <translation>Добави черна граница на пълен екран</translation>
+        <translation>Добави черна граница на цял екран</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, ще бъдат добавени черни граници към изображението в режим на цял екран. Това позволява субтитрите да се показват на черната граница.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="484"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Добави черна граница на пълен екран</translation>
+        <translation>&amp;Добави черна граница на цял екран</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="121"/>
@@ -5765,52 +5765,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="122"/>
         <source>multiple ini files</source>
-        <translation>няколко ini файлове</translation>
+        <translation>няколко ini файла</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>Method to store the file settings</source>
-        <translation>Натичин за записване настройките на файла</translation>
+        <translation>Начин за съхранение настройките на файла</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="884"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция позволява промяна на начина за съхранение настройките на файла. Налични са следните опции:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="886"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;един ini файл&lt;/b&gt;: настройките за всички изпълнявани файлове, ще се съхраняват в един ini файл (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="890"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Последният метод може да бъде по-бърз, ако има информация за много файлове.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="105"/>
         <source>&amp;Store settings in</source>
-        <translation>&amp;Запази настройки в</translation>
+        <translation>&amp;Съхрани настройки в</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="888"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;няколко ini файла&lt;/b&gt;: за всеки изпълняван файл, ще се използва по един ini файл. Тези ini файлове ще се запаметяват в папка %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="879"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако отметнете тази опция, SMPlayer ще помни последната позиция на файла, когато го отворите отново. Тази опция работи само с обикновени файлове (без DVD-та, CD-та, Интернет адреси...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако е отметнато, преобръща в директно четене (не се поддържа от всички кодеци и видео изходи) &lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Може да предизвика повреда на ЕИ/СУБ!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1040"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Изисква брой на каналите за възпроизвеждане. MPlayer изисква от декодера да разкодира звука в толкова канали, колкото са зададени. След това зависи от декодера дали ще се изпълни изискването. Това обикновено е важно, когато се възпроизвеждат видеа с AC3 звук (като DVD-тата). В този случай liba52 прави разкодирането по подразбиране и намалява звуковите потоци до изисквания брой канали. &lt;b&gt;Бележка&lt;/b&gt;: Тази опция е част от кодеци (само AC3), филтри (обграждащ звук) и драйвъри за изходен звук (най-вече OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="892"/>
@@ -5820,17 +5820,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="893"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>Можете да използвате тази опция, за да включите или изключите възможността за вземането на снимки на екрана.</translation>
+        <translation>Можете да използвате тази опция, за да включите или изключите възможността за правене на снимки на екрана.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="897"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Тук можете да зададете папка, където снимките на екрана взети от SMPlayer ще бъдат запазени. Ако тази папка не е валидна,  свойството за снимката на екрана ще бъде забранено.</translation>
+        <translation>Тук можете да зададете папка, където снимките на екрана взети от SMPlayer ще бъдат сахранени. Ако тази папка не е валидна, възможността за снимки на екрана ще бъде забранена.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer executable:</source>
-        <translation>&amp;MPlayer изпълним файл:</translation>
+        <translation>&amp;MPlayer - изпълним файл:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -5845,7 +5845,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="158"/>
         <source>&amp;Folder:</source>
-        <translation>&amp;Папка</translation>
+        <translation>&amp;Папка:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1054"/>
@@ -5855,12 +5855,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1055"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е отметната, една и съща сила на звука ще се използва за всички възпроизвеждани файлове. В противен случай за всеки файл ще е различно.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1058"/>
         <source>This option also applies for the mute control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция въздейства и върху заглушаването.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="702"/>
@@ -5870,57 +5870,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="987"/>
         <source>Switch screensaver off</source>
-        <translation>Изключване на скрийнсейвър</translation>
+        <translation>Изключване предпазител на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="988"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция изключва предпазителя на екрана точно преди да започне възпроизвеждането и го включва отново, когато възпроизвеждането приключи. Ако опцията е активна, предпазителя няма да се появява, дори ако файлът е на пауза или се възпроизвеждат звукови файлове.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="994"/>
         <source>Avoid screensaver</source>
-        <translation>Избягвай скрийнсейвър</translation>
+        <translation>Избягвай предпазител на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="995"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"></translation>
+        <translation>Когато тази опция е отметната, SMPlayer ще се опита да предотврати показването на предпазителя на екрана, когато се възпроизвежда видео файл. Ще бъде позволено на предпазителя да се показва, ако се възпроизвежда звуков файл или в режим на пауза. Това работи само ако прозореца на SMPlayer е отпред.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="498"/>
         <source>Screensaver</source>
-        <translation>Скрийнсейвър</translation>
+        <translation>Предпазител на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="504"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation>Изклю&amp;чване на скрийнсейвър</translation>
+        <translation>Изклю&amp;чване прездпазител на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="511"/>
         <source>Avoid &amp;screensaver</source>
-        <translation>Избягвай &amp;скрийнсейвър</translation>
+        <translation>Избягвай &amp;предпазител на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1074"/>
         <source>Audio/video auto synchronization</source>
-        <translation>Автоматично аудио/видео синхронизиране</translation>
+        <translation>Автоматично звук/видео синхронизиране</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1075"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation>Постепенно нагласява A/V синхронизирането базирано на измерванията на аудио забавянето.</translation>
+        <translation>Постепенно наглася З/В синхронизирането, базирано на измерванията забавянето на звука.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1078"/>
         <source>A-V sync correction</source>
-        <translation>Корекция на А-В синхронизиране</translation>
+        <translation>Поправка на З-В синхронизиране</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation>Максимална корекция на А-В синхронизацията на кадър (в секунди)</translation>
+        <translation>Максимална поправка на З-В синхронизацията за кадър (в секунди)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="778"/>
@@ -5930,7 +5930,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="789"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation>Автоматично аудио/видео &amp;синхронизиране</translation>
+        <translation>Автоматично звук/видео &amp;синхронизиране</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="815"/>
@@ -5940,62 +5940,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="851"/>
         <source>A-V sync &amp;correction</source>
-        <translation>&amp;Корекция на А-В синхронизиране</translation>
+        <translation>&amp;Поправка на З-В синхронизиране</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="874"/>
         <source>&amp;Max. correction:</source>
-        <translation>&amp;Макс. корекция:</translation>
+        <translation>&amp;Макс. поправка:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Бележка:&lt;/b&gt; Тази опция няма да се използва за ТВ канали.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="345"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ком&amp;пенсиране по подразбиране (освен за ТВ):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1035"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"></translation>
+        <translation>Използвай хардуерен AC3 пренос.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Бележка:&lt;/b&gt; нито един от звуковите филтри няма да се използва, когато тази опция е активирана.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="355"/>
         <source>snap mode</source>
-        <translation type="unfinished"></translation>
+        <translation>режим на затвора</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="356"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"></translation>
+        <translation>по-бавен режим на потапяне</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="411"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"></translation>
+        <translation>унизвук режим</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="412"/>
         <source>dart mode</source>
-        <translation type="unfinished"></translation>
+        <translation>стрелкови режим</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1016"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 е препоръчваният. %2 е наличен само за по-стари версии на MPlayer (преди версия %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="249"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>Настрой&amp;ване...</translation>
     </message>
 </context>
 <context>
@@ -6003,16 +6003,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="38"/>
         <source>Keyboard and mouse</source>
-        <translation>Клваиатура и мишка</translation>
+        <translation>Клавиатура и мишка</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
         <translation>&amp;Клавиатура</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">икона</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6022,7 +6018,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="128"/>
         <source>Button functions:</source>
-        <translation>Функции на бутоните:</translation>
+        <translation>Функции на бутона:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="315"/>
@@ -6033,94 +6029,94 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="143"/>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Media seeking</source>
-        <translation>Търсене на медия</translation>
+        <translation>Превъртане на медия</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="144"/>
         <location filename="../prefinput.cpp" line="357"/>
         <source>Volume control</source>
-        <translation>Контрол на звука</translation>
+        <translation>Управление на звука</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
         <location filename="../prefinput.cpp" line="360"/>
         <source>Zoom video</source>
-        <translation>Приближи видеоклип</translation>
+        <translation>Увеличение на видео</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
         <source>None</source>
-        <translation>Няма</translation>
+        <translation>Без</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да промените всеки пряк път на клавиш. За целта кликнете два пъти или натиснете „Еnter“ върху клетката за прекия път. Можете също и да запаметите списъка, за да го споделите с други хора или да го заредите на друг компютър.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да промените всеки пряк път на клавиш. За целта кликнете два пъти или започнете да въвеждате върху клетката за прекия път. Можете също и да запаметите списъка, за да го споделите с други хора или да го заредите на друг компютър.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="138"/>
         <source>&amp;Left click</source>
-        <translation>&amp;Ляв клик</translation>
+        <translation>&amp;Ляво кликване</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="161"/>
         <source>&amp;Double click</source>
-        <translation>&amp;Двоен клик</translation>
+        <translation>&amp;Двойно кликване</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="267"/>
         <source>&amp;Wheel function:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Функция на колелото:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="311"/>
         <source>Shortcut editor</source>
-        <translation>Промяна на преките пътища</translation>
+        <translation>Редактор на преки пътища</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="312"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази таблица Ви позволява да промените прекия път чрез клавишите за най-използваните действия. Кликнете двойно или натиснете „Еnter“ върху елемента, или натиснете бутона &lt;b&gt;Смяна на пряк път&lt;/b&gt;, за да стигнете до прозореца &lt;i&gt;Промяна на прак път&lt;/i&gt;. Има два начина за смяна на пряк път: ако бутонът &lt;b&gt;Улавяне&lt;/b&gt; е включен, просто натиснете новият клавиш или комбинация от клавиши, които искате да използвате за това действие (за съжаление на работи с всички клавиши) или ако бутонът &lt;b&gt;Улавяне&lt;/b&gt; е изключен, можете да въведете пълното име на ключа.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="324"/>
         <source>Left click</source>
-        <translation>Ляв клик</translation>
+        <translation>Ляво кликване</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="325"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете действие при ляво кликване с мишката.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="327"/>
         <source>Double click</source>
-        <translation>Двоен клик</translation>
+        <translation>Двойно кликване</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="328"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете действие при двоен клик на мишката.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
         <source>Wheel function</source>
-        <translation type="unfinished"></translation>
+        <translation>Действие на колелото</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="340"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете действие за колелото на мишката.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
         <source>Play</source>
-        <translation>Изпълнение</translation>
+        <translation>Възпроизвеждане</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="56"/>
@@ -6130,7 +6126,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="58"/>
         <source>Stop</source>
-        <translation>Стоп</translation>
+        <translation>Спиране</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="67"/>
@@ -6160,7 +6156,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="76"/>
         <source>Reset zoom</source>
-        <translation>Възстановяване на приближаването</translation>
+        <translation>Възстановяване на увеличаването</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -6175,12 +6171,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
-        <translation>Изпълнение / Пауза</translation>
+        <translation>Възпроизвеждане/Пауза</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
-        <translation>Пауза / Стъпка на кадър</translation>
+        <translation>Пауза/По кадри</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="75"/>
@@ -6201,7 +6197,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="146"/>
         <location filename="../prefinput.cpp" line="363"/>
         <source>Change speed</source>
-        <translation>Промени скорост</translation>
+        <translation>Смяна на скоростта</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="78"/>
@@ -6221,17 +6217,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Middle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Средно кликване</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="331"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете действие при средно кликване с мишката.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="207"/>
         <source>M&amp;iddle click</source>
-        <translation type="unfinished"></translation>
+        <translation>Ср&amp;едно кликване</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="220"/>
@@ -6246,57 +6242,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад (късо)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
         <source>Go backward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад (средно)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="61"/>
         <source>Go backward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад (дълго)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="62"/>
         <source>Go forward (short)</source>
-        <translation type="unfinished"></translation>
+        <translation>Напред (късо)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="63"/>
         <source>Go forward (medium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Напред (средно)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="64"/>
         <source>Go forward (long)</source>
-        <translation type="unfinished"></translation>
+        <translation>Напред (дълго)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
         <source>OSD - Next level</source>
-        <translation>OSD - Следващо ниво</translation>
+        <translation>ЕИ - следващо ниво</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
         <source>Show context menu</source>
-        <translation>Покажи контекстното меню</translation>
+        <translation>Покажи контекстно меню</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="184"/>
         <source>&amp;Right click</source>
-        <translation>&amp;Десен клик</translation>
+        <translation>&amp;Дясно кликване</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
         <source>Increase volume</source>
-        <translation>Увеличи звука</translation>
+        <translation>Увеличаване на звука</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="66"/>
         <source>Decrease volume</source>
-        <translation>Намали звука</translation>
+        <translation>Намаляване на звука</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="333"/>
@@ -6306,7 +6302,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="334"/>
         <source>Select the action for the X button 1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете действие за Х бутон 1.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
@@ -6316,7 +6312,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="337"/>
         <source>Select the action for the X button 2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете действие за Х бутон 2.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
@@ -6326,7 +6322,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Show audio equalizer</source>
-        <translation>Покажи аудио изравнител</translation>
+        <translation>Покажи тонкоректор</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="70"/>
@@ -6341,7 +6337,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="72"/>
         <source>On top while playing</source>
-        <translation>Винаги при изпълнение</translation>
+        <translation>Отгоре при изпълнение</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
@@ -6356,22 +6352,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation>Върни се към предишното меню в DVD менютата</translation>
+        <translation>Върни се към предишното DVD меню</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation>Премести курсора нагоре в DVD меютата</translation>
+        <translation>Премести курсора нагоре в DVD менютата</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation>Премести курсора надолу в DVD меютата</translation>
+        <translation>Премести курсора надолу в DVD менютата</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation>Премести курсора наляво в DVD меютата</translation>
+        <translation>Премести курсора наляво в DVD менютата</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
@@ -6401,31 +6397,31 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Смяна функцията на колелото</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="368"/>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Media &amp;seeking</source>
-        <translation>&amp;Търсене на медия</translation>
+        <translation>&amp;Превъртане на медия</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="382"/>
         <location filename="../prefinput.cpp" line="150"/>
         <source>&amp;Zoom video</source>
-        <translation>&amp;Приближи видеоклип</translation>
+        <translation>&amp;Увеличаване на видео</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="375"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
-        <translation>&amp;Контрол на звука</translation>
+        <translation>&amp;Управление на звука</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="389"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
-        <translation>&amp;Промени скорост</translation>
+        <translation>&amp;Смяна на скоростта</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="352"/>
@@ -8807,46 +8803,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished">Видео Изравнител</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished">&amp;Контраст</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished">&amp;Яркост</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished">&amp;Нюанс</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished">&amp;Наситеност</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished">&amp;Гама</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished">Софтуерен &amp;изравнител</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished">Задаване като &amp;стандартни</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
@@ -8861,58 +8853,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>Video Equalizer</source>
-        <translation type="obsolete">Видео Изравнител</translation>
-    </message>
-    <message>
-        <source>&amp;Contrast</source>
-        <translation type="obsolete">&amp;Контраст</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Brightness</source>
-        <translation type="obsolete">&amp;Яркост</translation>
-    </message>
-    <message>
-        <source>&amp;Hue</source>
-        <translation type="obsolete">&amp;Нюанс</translation>
-    </message>
-    <message>
-        <source>&amp;Saturation</source>
-        <translation type="obsolete">&amp;Наситеност</translation>
-    </message>
-    <message>
-        <source>&amp;Gamma</source>
-        <translation type="obsolete">&amp;Гама</translation>
-    </message>
-    <message>
-        <source>Software &amp;equalizer</source>
-        <translation type="obsolete">Софтуерен &amp;изравнител</translation>
-    </message>
-    <message>
-        <source>Set as &amp;default values</source>
-        <translation type="obsolete">Задаване като &amp;стандартни</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">&amp;Възстановяване</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">Използване като стандартни за нови видеоклипове.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Задаване на всичко до нула.</translation>
+        <translation type="unfinished">Зануляване на всичко.</translation>
     </message>
 </context>
 <context>

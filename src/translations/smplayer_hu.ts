@@ -6006,10 +6006,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Billentyűzet</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikon</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Egér</translation>
@@ -8808,10 +8804,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
         <translation type="unfinished"></translation>
@@ -8855,25 +8847,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">Minden vezérlő nullára állítása.</translation>
-    </message>
-</context>
-<context>
-    <name>VideoEqualizer2</name>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>&amp;Reset</source>
-        <translation type="obsolete">Ala&amp;phelyzet</translation>
-    </message>
-    <message>
-        <source>Use the current values as default values for new videos.</source>
-        <translation type="obsolete">A jelenlegi értékek használata, mint alapérték az új videókhoz.</translation>
-    </message>
-    <message>
-        <source>Set all controls to zero.</source>
-        <translation type="obsolete">Minden vezérlő nullára állítása.</translation>
     </message>
 </context>
 <context>
