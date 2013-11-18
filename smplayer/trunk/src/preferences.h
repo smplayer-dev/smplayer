@@ -256,6 +256,7 @@ public:
 	QString monitor_aspect;
 
 	bool use_idx; //!< Use -idx
+	bool use_lavf_demuxer;
 
 	// Let the user pass options to mplayer
 	QString mplayer_additional_options;
