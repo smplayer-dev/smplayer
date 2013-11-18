@@ -122,7 +122,7 @@
          </item>
         </layout>
        </item>
-       <item row="0" column="1" colspan="2">
+       <item row="0" column="1">
         <widget class="QLabel" name="textLabel1_16">
          <property name="text">
           <string>Button functions:</string>
@@ -145,7 +145,7 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="2" colspan="2">
+       <item row="1" column="2">
         <widget class="MyComboBox" name="left_click_combo">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -168,7 +168,7 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="2" colspan="2">
+       <item row="2" column="2">
         <widget class="MyComboBox" name="double_click_combo">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -191,7 +191,7 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="2" colspan="2">
+       <item row="3" column="2">
         <widget class="MyComboBox" name="right_click_combo">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -200,6 +200,19 @@
           </sizepolicy>
          </property>
         </widget>
+       </item>
+       <item row="3" column="4">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>195</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item row="4" column="1">
         <widget class="QLabel" name="label">
@@ -211,7 +224,7 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="2" colspan="2">
+       <item row="4" column="2">
         <widget class="QComboBox" name="middle_click_combo"/>
        </item>
        <item row="5" column="1">
@@ -224,7 +237,7 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="2" colspan="2">
+       <item row="5" column="2">
         <widget class="QComboBox" name="xbutton1_click_combo"/>
        </item>
        <item row="6" column="1">
@@ -237,10 +250,10 @@
          </property>
         </widget>
        </item>
-       <item row="6" column="2" colspan="2">
+       <item row="6" column="2">
         <widget class="QComboBox" name="xbutton2_click_combo"/>
        </item>
-       <item row="7" column="1" colspan="3">
+       <item row="7" column="1" colspan="4">
         <widget class="Line" name="line7">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -259,7 +272,7 @@
          </property>
         </widget>
        </item>
-       <item row="8" column="1" colspan="3">
+       <item row="8" column="1" colspan="2">
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
           <widget class="QLabel" name="textLabel2_8">
@@ -302,21 +315,21 @@
          </item>
         </layout>
        </item>
-       <item row="9" column="1" colspan="3">
+       <item row="9" column="1" colspan="4">
         <widget class="Line" name="line">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
         </widget>
        </item>
-       <item row="10" column="1" colspan="3">
+       <item row="10" column="1" colspan="2">
         <widget class="QCheckBox" name="delay_left_check">
          <property name="text">
           <string>Don't &amp;trigger the left click action with a double click</string>
          </property>
         </widget>
        </item>
-       <item row="11" column="1" colspan="3">
+       <item row="11" column="1" colspan="2">
         <widget class="QCheckBox" name="wheel_function_seeking_reverse_check">
          <property name="text">
           <string>R&amp;everse wheel media seeking</string>
