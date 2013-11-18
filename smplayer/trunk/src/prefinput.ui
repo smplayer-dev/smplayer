@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ui version="4.0">
+<ui version="4.0" >
  <class>PrefInput</class>
- <widget class="QWidget" name="PrefInput">
-  <property name="geometry">
+ <widget class="QWidget" name="PrefInput" >
+  <property name="geometry" >
    <rect>
     <x>0</x>
     <y>0</y>
@@ -10,59 +9,86 @@
     <height>549</height>
    </rect>
   </property>
-  <layout class="QVBoxLayout">
-   <property name="margin">
+  <layout class="QVBoxLayout" >
+   <property name="leftMargin" >
+    <number>0</number>
+   </property>
+   <property name="topMargin" >
+    <number>0</number>
+   </property>
+   <property name="rightMargin" >
+    <number>0</number>
+   </property>
+   <property name="bottomMargin" >
     <number>0</number>
    </property>
    <item>
-    <widget class="QTabWidget" name="input_tab">
-     <property name="currentIndex">
+    <widget class="QTabWidget" name="input_tab" >
+     <property name="currentIndex" >
       <number>0</number>
      </property>
-     <widget class="QWidget" name="tab">
-      <attribute name="title">
+     <widget class="QWidget" name="tab" >
+      <attribute name="title" >
        <string>&amp;Keyboard</string>
       </attribute>
-      <layout class="QVBoxLayout">
-       <property name="spacing">
+      <layout class="QVBoxLayout" >
+       <property name="spacing" >
         <number>6</number>
        </property>
-       <property name="margin">
+       <property name="leftMargin" >
+        <number>6</number>
+       </property>
+       <property name="topMargin" >
+        <number>6</number>
+       </property>
+       <property name="rightMargin" >
+        <number>6</number>
+       </property>
+       <property name="bottomMargin" >
         <number>6</number>
        </property>
        <item>
-        <layout class="QHBoxLayout">
-         <property name="spacing">
+        <layout class="QHBoxLayout" >
+         <property name="spacing" >
           <number>6</number>
          </property>
-         <property name="margin">
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="keyboard_icon">
-           <property name="text">
-            <string notr="true">icon</string>
+          <widget class="QLabel" name="keyboard_icon" >
+           <property name="text" >
+            <string>icon</string>
            </property>
-           <property name="wordWrap">
+           <property name="wordWrap" >
             <bool>false</bool>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="actioneditor_desc">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <widget class="QLabel" name="actioneditor_desc" >
+           <property name="sizePolicy" >
+            <sizepolicy vsizetype="Preferred" hsizetype="Expanding" >
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
-           <property name="text">
+           <property name="text" >
             <string>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</string>
            </property>
-           <property name="alignment">
+           <property name="alignment" >
             <set>Qt::AlignVCenter</set>
            </property>
-           <property name="wordWrap">
+           <property name="wordWrap" >
             <bool>true</bool>
            </property>
           </widget>
@@ -70,9 +96,9 @@
         </layout>
        </item>
        <item>
-        <widget class="ActionsEditor" name="actions_editor" native="true">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <widget class="ActionsEditor" native="1" name="actions_editor" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -81,38 +107,53 @@
        </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="tab_2">
-      <attribute name="title">
+     <widget class="QWidget" name="tab_2" >
+      <attribute name="title" >
        <string>&amp;Mouse</string>
       </attribute>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0" rowspan="13">
-        <layout class="QVBoxLayout">
-         <property name="spacing">
+      <layout class="QHBoxLayout" >
+       <item>
+        <layout class="QVBoxLayout" >
+         <property name="spacing" >
           <number>6</number>
          </property>
-         <property name="margin">
+         <property name="leftMargin" >
+          <number>0</number>
+         </property>
+         <property name="topMargin" >
+          <number>0</number>
+         </property>
+         <property name="rightMargin" >
+          <number>0</number>
+         </property>
+         <property name="bottomMargin" >
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="mouse_icon">
-           <property name="text">
-            <string notr="true">icon</string>
+          <widget class="QLabel" name="mouse_icon" >
+           <property name="sizePolicy" >
+            <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
            </property>
-           <property name="wordWrap">
+           <property name="text" >
+            <string>icon</string>
+           </property>
+           <property name="wordWrap" >
             <bool>false</bool>
            </property>
           </widget>
          </item>
          <item>
           <spacer>
-           <property name="orientation">
+           <property name="orientation" >
             <enum>Qt::Vertical</enum>
            </property>
-           <property name="sizeType">
+           <property name="sizeType" >
             <enum>QSizePolicy::Expanding</enum>
            </property>
-           <property name="sizeHint" stdset="0">
+           <property name="sizeHint" >
             <size>
              <width>20</width>
              <height>20</height>
@@ -122,192 +163,237 @@
          </item>
         </layout>
        </item>
-       <item row="0" column="1">
-        <widget class="QLabel" name="textLabel1_16">
-         <property name="text">
-          <string>Button functions:</string>
-         </property>
-         <property name="wordWrap">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QLabel" name="textLabel2_6">
-         <property name="text">
-          <string>&amp;Left click</string>
-         </property>
-         <property name="wordWrap">
-          <bool>false</bool>
-         </property>
-         <property name="buddy">
-          <cstring>left_click_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="MyComboBox" name="left_click_combo">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QLabel" name="textLabel3_4">
-         <property name="text">
-          <string>&amp;Double click</string>
-         </property>
-         <property name="wordWrap">
-          <bool>false</bool>
-         </property>
-         <property name="buddy">
-          <cstring>double_click_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="MyComboBox" name="double_click_combo">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1">
-        <widget class="QLabel" name="textLabel3_5">
-         <property name="text">
-          <string>&amp;Right click</string>
-         </property>
-         <property name="wordWrap">
-          <bool>false</bool>
-         </property>
-         <property name="buddy">
-          <cstring>right_click_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="MyComboBox" name="right_click_combo">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="4">
-        <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>195</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="4" column="1">
-        <widget class="QLabel" name="label">
-         <property name="text">
-          <string>M&amp;iddle click</string>
-         </property>
-         <property name="buddy">
-          <cstring>middle_click_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="2">
-        <widget class="QComboBox" name="middle_click_combo"/>
-       </item>
-       <item row="5" column="1">
-        <widget class="QLabel" name="label_2">
-         <property name="text">
-          <string>X Button &amp;1</string>
-         </property>
-         <property name="buddy">
-          <cstring>xbutton1_click_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2">
-        <widget class="QComboBox" name="xbutton1_click_combo"/>
-       </item>
-       <item row="6" column="1">
-        <widget class="QLabel" name="label_3">
-         <property name="text">
-          <string>X Button &amp;2</string>
-         </property>
-         <property name="buddy">
-          <cstring>xbutton2_click_combo</cstring>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="2">
-        <widget class="QComboBox" name="xbutton2_click_combo"/>
-       </item>
-       <item row="7" column="1" colspan="4">
-        <widget class="Line" name="line7">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::HLine</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Sunken</enum>
-         </property>
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="1" colspan="2">
-        <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" >
          <item>
-          <widget class="QLabel" name="textLabel2_8">
-           <property name="text">
-            <string>&amp;Wheel function:</string>
+          <layout class="QGridLayout" >
+           <item row="0" column="0" colspan="2" >
+            <widget class="QLabel" name="textLabel1_16" >
+             <property name="text" >
+              <string>Button functions:</string>
+             </property>
+             <property name="wordWrap" >
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" >
+            <widget class="QLabel" name="textLabel2_6" >
+             <property name="text" >
+              <string>&amp;Left click</string>
+             </property>
+             <property name="wordWrap" >
+              <bool>false</bool>
+             </property>
+             <property name="buddy" >
+              <cstring>left_click_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1" >
+            <widget class="MyComboBox" name="left_click_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0" >
+            <widget class="QLabel" name="textLabel3_4" >
+             <property name="text" >
+              <string>&amp;Double click</string>
+             </property>
+             <property name="wordWrap" >
+              <bool>false</bool>
+             </property>
+             <property name="buddy" >
+              <cstring>double_click_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" >
+            <widget class="MyComboBox" name="double_click_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0" >
+            <widget class="QLabel" name="textLabel3_5" >
+             <property name="text" >
+              <string>&amp;Right click</string>
+             </property>
+             <property name="wordWrap" >
+              <bool>false</bool>
+             </property>
+             <property name="buddy" >
+              <cstring>right_click_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1" >
+            <widget class="MyComboBox" name="right_click_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" >
+            <widget class="QLabel" name="label" >
+             <property name="text" >
+              <string>M&amp;iddle click</string>
+             </property>
+             <property name="buddy" >
+              <cstring>middle_click_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1" >
+            <widget class="QComboBox" name="middle_click_combo" />
+           </item>
+           <item row="5" column="0" >
+            <widget class="QLabel" name="label_2" >
+             <property name="text" >
+              <string>X Button &amp;1</string>
+             </property>
+             <property name="buddy" >
+              <cstring>xbutton1_click_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1" >
+            <widget class="QComboBox" name="xbutton1_click_combo" />
+           </item>
+           <item row="6" column="0" >
+            <widget class="QLabel" name="label_3" >
+             <property name="text" >
+              <string>X Button &amp;2</string>
+             </property>
+             <property name="buddy" >
+              <cstring>xbutton2_click_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1" >
+            <widget class="QComboBox" name="xbutton2_click_combo" />
+           </item>
+           <item rowspan="7" row="0" column="2" >
+            <spacer>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" >
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="Line" name="line7" >
+           <property name="sizePolicy" >
+            <sizepolicy vsizetype="Fixed" hsizetype="Expanding" >
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
            </property>
-           <property name="wordWrap">
-            <bool>false</bool>
+           <property name="frameShape" >
+            <enum>QFrame::HLine</enum>
            </property>
-           <property name="buddy">
-            <cstring>wheel_function_combo</cstring>
+           <property name="frameShadow" >
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QComboBox" name="wheel_function_combo">
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
+          <layout class="QHBoxLayout" >
+           <item>
+            <widget class="QLabel" name="textLabel2_8" >
+             <property name="text" >
+              <string>&amp;Wheel function:</string>
+             </property>
+             <property name="wordWrap" >
+              <bool>false</bool>
+             </property>
+             <property name="buddy" >
+              <cstring>wheel_function_combo</cstring>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="wheel_function_combo" >
+             <property name="sizePolicy" >
+              <sizepolicy vsizetype="Fixed" hsizetype="Preferred" >
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer>
+             <property name="orientation" >
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType" >
+              <enum>QSizePolicy::Expanding</enum>
+             </property>
+             <property name="sizeHint" >
+              <size>
+               <width>100</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="Line" name="line" >
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="delay_left_check" >
+           <property name="text" >
+            <string>Don't &amp;trigger the left click action with a double click</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="wheel_function_seeking_reverse_check" >
+           <property name="text" >
+            <string>R&amp;everse wheel media seeking</string>
            </property>
           </widget>
          </item>
          <item>
           <spacer>
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
+           <property name="orientation" >
+            <enum>Qt::Vertical</enum>
            </property>
-           <property name="sizeType">
+           <property name="sizeType" >
             <enum>QSizePolicy::Expanding</enum>
            </property>
-           <property name="sizeHint" stdset="0">
+           <property name="sizeHint" >
             <size>
-             <width>100</width>
+             <width>20</width>
              <height>20</height>
             </size>
            </property>
@@ -315,100 +401,63 @@
          </item>
         </layout>
        </item>
-       <item row="9" column="1" colspan="4">
-        <widget class="Line" name="line">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="10" column="1" colspan="2">
-        <widget class="QCheckBox" name="delay_left_check">
-         <property name="text">
-          <string>Don't &amp;trigger the left click action with a double click</string>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="1" colspan="2">
-        <widget class="QCheckBox" name="wheel_function_seeking_reverse_check">
-         <property name="text">
-          <string>R&amp;everse wheel media seeking</string>
-         </property>
-        </widget>
-       </item>
-       <item row="12" column="3">
-        <spacer>
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Expanding</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
       </layout>
      </widget>
-     <widget class="QWidget" name="tab_3">
-      <attribute name="title">
+     <widget class="QWidget" name="tab_3" >
+      <attribute name="title" >
        <string>M&amp;ouse wheel functions</string>
       </attribute>
-      <layout class="QGridLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="wheel_functions_label">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+      <layout class="QGridLayout" >
+       <item row="0" column="0" >
+        <widget class="QLabel" name="wheel_functions_label" >
+         <property name="sizePolicy" >
+          <sizepolicy vsizetype="Preferred" hsizetype="Expanding" >
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
-         <property name="text">
-          <string>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</string>
+         <property name="text" >
+          <string>Select the actions that should be cycled through when using the "Change function of wheel" option.</string>
          </property>
-         <property name="wordWrap">
+         <property name="wordWrap" >
           <bool>true</bool>
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
-        <widget class="QCheckBox" name="wheel_function_seek">
-         <property name="text">
+       <item row="1" column="0" >
+        <widget class="QCheckBox" name="wheel_function_seek" >
+         <property name="text" >
           <string>Media &amp;seeking</string>
          </property>
         </widget>
        </item>
-       <item row="2" column="0">
-        <widget class="QCheckBox" name="wheel_function_volume">
-         <property name="text">
+       <item row="2" column="0" >
+        <widget class="QCheckBox" name="wheel_function_volume" >
+         <property name="text" >
           <string>&amp;Volume control</string>
          </property>
         </widget>
        </item>
-       <item row="3" column="0">
-        <widget class="QCheckBox" name="wheel_function_zoom">
-         <property name="text">
+       <item row="3" column="0" >
+        <widget class="QCheckBox" name="wheel_function_zoom" >
+         <property name="text" >
           <string>&amp;Zoom video</string>
          </property>
         </widget>
        </item>
-       <item row="4" column="0">
-        <widget class="QCheckBox" name="wheel_function_speed">
-         <property name="text">
+       <item row="4" column="0" >
+        <widget class="QCheckBox" name="wheel_function_speed" >
+         <property name="text" >
           <string>&amp;Change speed</string>
          </property>
         </widget>
        </item>
-       <item row="5" column="0">
+       <item row="5" column="0" >
         <spacer>
-         <property name="orientation">
+         <property name="orientation" >
           <enum>Qt::Vertical</enum>
          </property>
-         <property name="sizeHint" stdset="0">
+         <property name="sizeHint" >
           <size>
            <width>20</width>
            <height>40</height>
