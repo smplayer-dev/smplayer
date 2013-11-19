@@ -656,7 +656,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
-        <location filename="../basegui.cpp" line="3121"/>
+        <location filename="../basegui.cpp" line="3124"/>
         <source>&amp;None</source>
         <translation>&amp;כלום</translation>
     </message>
@@ -872,43 +872,43 @@ Do you want to overwrite?</source>
         <translation>‏אודות &amp;SMPlayer‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3143"/>
-        <location filename="../basegui.cpp" line="3159"/>
-        <location filename="../basegui.cpp" line="3175"/>
-        <location filename="../basegui.cpp" line="3190"/>
-        <location filename="../basegui.cpp" line="3222"/>
-        <location filename="../basegui.cpp" line="3242"/>
-        <location filename="../basegui.cpp" line="3282"/>
+        <location filename="../basegui.cpp" line="3146"/>
+        <location filename="../basegui.cpp" line="3162"/>
+        <location filename="../basegui.cpp" line="3178"/>
+        <location filename="../basegui.cpp" line="3193"/>
+        <location filename="../basegui.cpp" line="3225"/>
+        <location filename="../basegui.cpp" line="3245"/>
+        <location filename="../basegui.cpp" line="3285"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ריק&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3693"/>
+        <location filename="../basegui.cpp" line="3696"/>
         <source>Video</source>
         <translation>וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3694"/>
-        <location filename="../basegui.cpp" line="3921"/>
+        <location filename="../basegui.cpp" line="3697"/>
+        <location filename="../basegui.cpp" line="3924"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3695"/>
+        <location filename="../basegui.cpp" line="3698"/>
         <source>Playlists</source>
         <translation>רשימות נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3696"/>
-        <location filename="../basegui.cpp" line="3901"/>
-        <location filename="../basegui.cpp" line="3922"/>
+        <location filename="../basegui.cpp" line="3699"/>
+        <location filename="../basegui.cpp" line="3904"/>
+        <location filename="../basegui.cpp" line="3925"/>
         <source>All files</source>
         <translation>כל הקבצים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3691"/>
-        <location filename="../basegui.cpp" line="3898"/>
-        <location filename="../basegui.cpp" line="3919"/>
+        <location filename="../basegui.cpp" line="3694"/>
+        <location filename="../basegui.cpp" line="3901"/>
+        <location filename="../basegui.cpp" line="3922"/>
         <source>Choose a file</source>
         <translation>בחירת קובץ</translation>
     </message>
@@ -918,79 +918,79 @@ Do you want to overwrite?</source>
         <translation>דפדפן &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3743"/>
+        <location filename="../basegui.cpp" line="3746"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - מידע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3744"/>
+        <location filename="../basegui.cpp" line="3747"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>התקליטורים CDROM / DVD אינם מוגדרים עדיין.
 דו שיח התצורה יוצג כעת, כך שתהיה לך היכולת לעשות זאת.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3852"/>
+        <location filename="../basegui.cpp" line="3855"/>
         <source>Select the Blu-ray folder</source>
         <translation>בחירת תיקיית Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3864"/>
+        <location filename="../basegui.cpp" line="3867"/>
         <source>Choose a directory</source>
         <translation>בחירת מדור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3900"/>
+        <location filename="../basegui.cpp" line="3903"/>
         <source>Subtitles</source>
         <translation>כתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4334"/>
+        <location filename="../basegui.cpp" line="4337"/>
         <source>New version available</source>
         <translation>גרסא חדשה זמינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4335"/>
+        <location filename="../basegui.cpp" line="4338"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>גרסא חדשה של SMPlayer זמינה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4336"/>
+        <location filename="../basegui.cpp" line="4339"/>
         <source>Installed version: %1</source>
         <translation>גרסא מותקנת: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4337"/>
+        <location filename="../basegui.cpp" line="4340"/>
         <source>Available version: %1</source>
         <translation>גרסא זמינה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4338"/>
+        <location filename="../basegui.cpp" line="4341"/>
         <source>Would you like to know more about this new version?</source>
         <translation>האם ברצונך לדעת עוד אודות גרסא זו?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4474"/>
+        <location filename="../basegui.cpp" line="4477"/>
         <source>Error detected</source>
         <translation>שגיאה אותרה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4475"/>
+        <location filename="../basegui.cpp" line="4478"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>למרבה הצער סרטון זה לא יכול להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4644"/>
+        <location filename="../basegui.cpp" line="4647"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו ‎%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4645"/>
+        <location filename="../basegui.cpp" line="4648"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4646"/>
+        <location filename="../basegui.cpp" line="4649"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
@@ -1292,53 +1292,53 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - SMPlayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3958"/>
+        <location filename="../basegui.cpp" line="3961"/>
         <source>Donate</source>
         <translation>תרומות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3959"/>
+        <location filename="../basegui.cpp" line="3962"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation>היה ואתם מעריכים את SMPlayer וברצונכם לתמוך בפיתוח שלו, באפשרותכם לשלוח תרומה. אפילו המועטה ביותר מוערכת באהדה רבה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3962"/>
+        <location filename="../basegui.cpp" line="3965"/>
         <source>Yes, I want to donate</source>
         <translation>כן, ברצוני לתרום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4429"/>
+        <location filename="../basegui.cpp" line="4432"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>למרבה הצער בגין שינויים בעמוד Youtube, סרטון זה ל יכול להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4436"/>
-        <location filename="../basegui.cpp" line="4444"/>
+        <location filename="../basegui.cpp" line="4439"/>
+        <location filename="../basegui.cpp" line="4447"/>
         <source>Problems with Youtube</source>
         <translation>בעיות עם Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4432"/>
+        <location filename="../basegui.cpp" line="4435"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>למרבה הצער בעקבות שינויים בעמוד Youtube, הוידאו &apos;%1&apos; לא מסוגל להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4438"/>
+        <location filename="../basegui.cpp" line="4441"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>האם ברצונך לעדכן את הקוד של Youtube? זה עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4446"/>
+        <location filename="../basegui.cpp" line="4449"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>אולי עדכון של SMPlayer עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5153"/>
+        <location filename="../basegui.cpp" line="5156"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>דפדפן YouTube לא היה ניתן לשיגור.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5154"/>
+        <location filename="../basegui.cpp" line="5157"/>
         <source>Be sure %1 is installed.</source>
         <translation>ודא כי %1 הינו מותקן.</translation>
     </message>
@@ -1348,28 +1348,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ש&amp;תפו את SMPlayer עם חברים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2884"/>
-        <location filename="../basegui.cpp" line="3510"/>
+        <location filename="../basegui.cpp" line="2887"/>
+        <location filename="../basegui.cpp" line="3513"/>
         <source>Information</source>
         <translation>מידע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2885"/>
+        <location filename="../basegui.cpp" line="2888"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>עליך להפעיל מחדש את SMPlayer כדי להשתמש בממשק החדש.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3290"/>
+        <location filename="../basegui.cpp" line="3293"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>אימות מחיקה - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3291"/>
+        <location filename="../basegui.cpp" line="3294"/>
         <source>Delete the list of recent files?</source>
         <translation>למחוק את הרשימה של קבצים אחרונים?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3511"/>
+        <location filename="../basegui.cpp" line="3514"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>הערכים הנוכחיים אוחסנו לשימוש כערכים משתמטים.</translation>
     </message>
@@ -1464,7 +1464,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;אפשרויות שורת פקודה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3941"/>
+        <location filename="../basegui.cpp" line="3944"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer אפשרויות שורת פקודה</translation>
     </message>
@@ -1479,37 +1479,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>אפס אקולייזר וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4476"/>
+        <location filename="../basegui.cpp" line="4479"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>השרת החזיר &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5050"/>
+        <location filename="../basegui.cpp" line="5053"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer הסתיים במפתיע.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5051"/>
+        <location filename="../basegui.cpp" line="5054"/>
         <source>Exit code: %1</source>
         <translation>קוד יציאה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5070"/>
+        <location filename="../basegui.cpp" line="5073"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer נכשל להתחיל.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5071"/>
+        <location filename="../basegui.cpp" line="5074"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>אנא בדוק את הנתיב של MPlayer בתוך העדפות.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5073"/>
+        <location filename="../basegui.cpp" line="5076"/>
         <source>MPlayer has crashed.</source>
         <translation>מגשר עורפי MPlayer קרס.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5074"/>
+        <location filename="../basegui.cpp" line="5077"/>
         <source>See the log for more info.</source>
         <translation>ראה את היומן למידע נוסף.</translation>
     </message>
@@ -1554,7 +1554,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>הצג תפריט הקשר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3692"/>
+        <location filename="../basegui.cpp" line="3695"/>
         <source>Multimedia</source>
         <translation>מולטימדיה</translation>
     </message>
@@ -1636,22 +1636,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;רצועה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4315"/>
+        <location filename="../basegui.cpp" line="4318"/>
         <source>Warning - Using old MPlayer</source>
         <translation>אזהרה - גרסא ישנה של MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4316"/>
+        <location filename="../basegui.cpp" line="4319"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>הגרסא של MPlayer (%1) שמותקנת במערכתך הינה מיושנת. SMPlayer לא מסוגל לעבוד עם זו היטב: אפשרויות מסוימות לא יעבדו, מבחר כתובית עשוי להיכשל...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4321"/>
+        <location filename="../basegui.cpp" line="4324"/>
         <source>Please, update your MPlayer.</source>
         <translation>אנא עדכן את MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4323"/>
+        <location filename="../basegui.cpp" line="4326"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(אזהרה זו לא תוצג עוד)</translation>
     </message>
@@ -1741,36 +1741,36 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;קבע שיהוי...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4014"/>
+        <location filename="../basegui.cpp" line="4017"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;קפוץ אל:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4015"/>
+        <location filename="../basegui.cpp" line="4018"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - חיפוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4026"/>
-        <location filename="../basegui.cpp" line="4030"/>
+        <location filename="../basegui.cpp" line="4029"/>
+        <location filename="../basegui.cpp" line="4033"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - שיהוי אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4027"/>
-        <location filename="../basegui.cpp" line="4031"/>
+        <location filename="../basegui.cpp" line="4030"/>
+        <location filename="../basegui.cpp" line="4034"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>שיהוי אודיו (במאיות שניה):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4042"/>
-        <location filename="../basegui.cpp" line="4046"/>
+        <location filename="../basegui.cpp" line="4045"/>
+        <location filename="../basegui.cpp" line="4049"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - שיהוי כתובית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4043"/>
-        <location filename="../basegui.cpp" line="4047"/>
+        <location filename="../basegui.cpp" line="4046"/>
+        <location filename="../basegui.cpp" line="4050"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>שיהוי כתובית (במאיות שניה):</translation>
     </message>
@@ -1780,7 +1780,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>תמיד השאר בשיא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4788"/>
+        <location filename="../basegui.cpp" line="4791"/>
         <source>Jump to %1</source>
         <translation>‭%1 לא ץופק</translation>
     </message>
@@ -4573,7 +4573,7 @@ Do you want to overwrite?</source>
     <name>PrefAdvanced</name>
     <message>
         <location filename="../prefadvanced.cpp" line="74"/>
-        <location filename="../prefadvanced.cpp" line="404"/>
+        <location filename="../prefadvanced.cpp" line="424"/>
         <source>Advanced</source>
         <translation>מתקדמות</translation>
     </message>
@@ -4588,17 +4588,16 @@ Do you want to overwrite?</source>
         <translation>&amp;מתקדמות</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="38"/>
         <source>icon</source>
-        <translation>צלמית</translation>
+        <translation type="obsolete">צלמית</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="133"/>
+        <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>&amp;דווח על קריסות MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="304"/>
+        <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
@@ -4607,7 +4606,7 @@ Example: -flip -nosound</source>
 דוגמא: ‎-flip -nosound</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="364"/>
+        <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
@@ -4616,34 +4615,34 @@ Example: scale=512:-2,eq2=1.1</source>
 דוגמא: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="424"/>
+        <location filename="../prefadvanced.ui" line="431"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
         <translation>ולסיום מסנני אודיו. אותם חוקים כמו אלו של מסנני וידאו.
 דוגמא: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="517"/>
+        <location filename="../prefadvanced.cpp" line="542"/>
         <source>Log MPlayer output</source>
         <translation>רשום פלט MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="504"/>
+        <location filename="../prefadvanced.cpp" line="529"/>
         <source>Log SMPlayer output</source>
         <translation>רשום פלט SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="665"/>
+        <location filename="../prefadvanced.ui" line="672"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>אפשרות זו נועדה בעיקר לשם debugging עבור היישום.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="435"/>
+        <location filename="../prefadvanced.cpp" line="460"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>סימון אפשרות זו עשוי להפחית הבלחה, אך זה גם עשוי להניב מצב דברים בו וידאו לא יוצג כהוגן.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="535"/>
+        <location filename="../prefadvanced.cpp" line="560"/>
         <source>Filter for SMPlayer logs</source>
         <translation>מסנן עבור יומני SMPlayer</translation>
     </message>
@@ -4658,232 +4657,252 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;הרץ את MPlayer בחלון עצמי משלו</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="327"/>
+        <location filename="../prefadvanced.ui" line="119"/>
+        <source>Use the la&amp;vf demuxer by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="334"/>
         <source>&amp;Options:</source>
         <translation>א&amp;פשרויות:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="387"/>
+        <location filename="../prefadvanced.ui" line="394"/>
         <source>V&amp;ideo filters:</source>
         <translation>מסנני וי&amp;דאו:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="446"/>
+        <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>&amp;מסנני אודיו:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="220"/>
+        <location filename="../prefadvanced.ui" line="227"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;מפתח צבע:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="533"/>
+        <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer</source>
         <translation>MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="598"/>
+        <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="604"/>
+        <location filename="../prefadvanced.ui" line="611"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>רשום פלט &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="675"/>
+        <location filename="../prefadvanced.ui" line="682"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>מ&amp;סנן עבור יומני SMPlayer:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="243"/>
+        <location filename="../prefadvanced.ui" line="250"/>
         <source>C&amp;hange...</source>
         <translation>&amp;שנה...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="501"/>
+        <location filename="../prefadvanced.cpp" line="526"/>
         <source>Logs</source>
         <translation>רשומות יומן</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="539"/>
+        <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer &amp;output</source>
         <translation>רשום פלט &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="292"/>
+        <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer</source>
         <translation>אפשרויות עבור &amp;MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="548"/>
         <source>Autosave MPlayer log</source>
         <translation>שמור אוטומטית יומן MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="524"/>
+        <location filename="../prefadvanced.cpp" line="549"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>במידה ואפשרות זו מאופשרת, היומן של MPlayer יאוחסן אל הקובץ המצוין בכל פעם שקובץ חדש מתחיל להתנגן. זו נועדה עבור יישומים חיצוניים, כך שאלו יוכלו להשיג מידע אודות מקובץ אותו אתה מנגן.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="529"/>
+        <location filename="../prefadvanced.cpp" line="554"/>
         <source>Autosave MPlayer log filename</source>
         <translation>שמור אוטומטית שם קובץ יומן MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="555"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
         <translation>הזן כאן את הנתיב ואת שם הקובץ שישמש לשמירת יומן MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="578"/>
+        <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer log to file</source>
         <translation>&amp;שמור אוטומטית יומן MPlayer אל קובץ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="425"/>
+        <location filename="../prefadvanced.cpp" line="450"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>העבר שמות קובץ קצרים (8+3) אל MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="426"/>
+        <location filename="../prefadvanced.cpp" line="451"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>נכון לעכשיו MPlayer לא יכול לפתוח שמות קובץ שמכיל תווים מחוץ אל דף-קוד (codepage) מקומי. סימון אפשרות זו יגרום ליישום SMPlayer להעביר אל MPlayer את הגרסא הקצרה של שמות קובץ, וכך תהיה ביכולתו לפתוחם.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="119"/>
+        <location filename="../prefadvanced.ui" line="126"/>
         <source>&amp;Pass short filenames (8+3) to MPlayer</source>
         <translation>העבר שמות קובץ קצר&amp;ים (8+3) אל MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="406"/>
+        <location filename="../prefadvanced.cpp" line="426"/>
         <source>Monitor aspect</source>
         <translation>חזות צג</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="407"/>
+        <location filename="../prefadvanced.cpp" line="427"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>בחר יחס רוחב גובה של צגך.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="409"/>
+        <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer in its own window</source>
         <translation>הרץ את MPlayer בחלון עצמי משלו</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="410"/>
+        <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
         <translation>במידה ותסמן את אפשרות זו, חלון הוידאו של MPlayer לא יטמע בתוך החלון הראשי של SMPlayer ברם במקום זאת ישתמש בחלון עצמי משלו. שים לב שאירועי עכבר ומקלדת יטופלו בצורה ישירה על ידי MPlayer, מה שאומר שקיצורי מקש והקלקות עכבר כפי הנראה לא יעבדו כמשוער כאשר המיקוד מוענק לחלון של MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="444"/>
+        <source>Use the lavf demuxer by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="445"/>
+        <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="446"/>
+        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="465"/>
         <source>Report MPlayer crashes</source>
         <translation>דווח על קריסות MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="441"/>
+        <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
         <translation>במידה ואפשרות זו מסומנת, חלון יופיע כדי ליידע אודות קריסות MPlayer. אחרת כשלונות אלה יתנכרו בשקט.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="468"/>
+        <location filename="../prefadvanced.cpp" line="493"/>
         <source>Colorkey</source>
         <translation>מפתח צבע</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="469"/>
+        <location filename="../prefadvanced.cpp" line="494"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>היה ואתה רואה חלקים של הוידאו על פני כל חלון אחר, ביכולתך לשנות מפתח צבע כדי לתקן זאת. נסה לברור צבע קרוב לשחור.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="479"/>
+        <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options for MPlayer</source>
         <translation>אפשרויות עבור MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="481"/>
+        <location filename="../prefadvanced.cpp" line="506"/>
         <source>Options</source>
         <translation>אפשרויות</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="482"/>
+        <location filename="../prefadvanced.cpp" line="507"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
         <translation>כאן ביכולתך להקליד אפשרויות עבור MPlayer. רשום אותן בנפרד בעזרת רווחים.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="485"/>
+        <location filename="../prefadvanced.cpp" line="510"/>
         <source>Video filters</source>
         <translation>מסנני וידאו</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="486"/>
+        <location filename="../prefadvanced.cpp" line="511"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>כאן ביכולתך להוסיף מסנני וידאו עבור MPlayer. רשום אותם בנפרד בעזרת פסיקים. אל תשתמש ברווחים!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="489"/>
+        <location filename="../prefadvanced.cpp" line="514"/>
         <source>Audio filters</source>
         <translation>מסנני וידאו</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="490"/>
+        <location filename="../prefadvanced.cpp" line="515"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>כאן ביכולתך להוסיף מסנני אודיו עבור MPlayer. רשום אותם בנפרד בעזרת פסיקים. אל תשתמש ברווחים!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="434"/>
+        <location filename="../prefadvanced.cpp" line="459"/>
         <source>Repaint the background of the video window</source>
         <translation>צבע מחדש את הרקע האחורי של חלון הוידאו</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="126"/>
+        <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>צבע מחדש את הרקע האחו&amp;רי של חלון הוידאו</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="495"/>
+        <location filename="../prefadvanced.cpp" line="520"/>
         <source>IPv4</source>
         <translation>‏IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="496"/>
+        <location filename="../prefadvanced.cpp" line="521"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>השתמש בפרוטוקול IPv4 בחיבורי רשת עבודה. אפשרות זו תיסוג אל IPv6 אוטומטית.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="498"/>
+        <location filename="../prefadvanced.cpp" line="523"/>
         <source>IPv6</source>
         <translation>‏IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="499"/>
+        <location filename="../prefadvanced.cpp" line="524"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>השתמש בפרוטוקול IPv6 בחיבורי רשת עבודה. אפשרות זו תיסוג אל IPv4 אוטומטית.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="484"/>
+        <location filename="../prefadvanced.ui" line="491"/>
         <source>Network Connection</source>
         <translation>חיבור רשת עבודה</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="496"/>
+        <location filename="../prefadvanced.ui" line="503"/>
         <source>IPv&amp;4</source>
         <translation>IPv&amp;4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="503"/>
+        <location filename="../prefadvanced.ui" line="510"/>
         <source>IPv&amp;6</source>
         <translation>IPv&amp;6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="527"/>
+        <location filename="../prefadvanced.ui" line="534"/>
         <source>Lo&amp;gs</source>
         <translation>יו&amp;מנים</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="417"/>
+        <location filename="../prefadvanced.cpp" line="437"/>
         <source>Rebuild index if needed</source>
         <translation>בנה מחדש אינדקס במידת הצורך</translation>
     </message>
@@ -4893,107 +4912,107 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>בנה מחדש אינ&amp;דקס במידת הצורך</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="505"/>
+        <location filename="../prefadvanced.cpp" line="530"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>במידה ואפשרות זו מסומנת, SMPlayer יאחסן הודעות debugging שפולט SMPlayer (ביכולתך לראות את היומן בתוך &lt;b&gt;אפשרויות -&gt; ראה יומנים -&gt; SMPlayer&lt;/b&gt;). מידע זה עשוי להיות שימושי מאוד עבור המפתח במקרה ותמצא באג.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
+        <location filename="../prefadvanced.cpp" line="543"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>במידה ומסומנת, SMPlayer יאחסן את הפלט של MPlayer (ביכולתך לראות זאת בתוך &lt;b&gt;אפשרויות -&gt; ראה יומנים -&gt; MPlayer&lt;/b&gt;). במקרה של בעיה יומן זה עשוי להכיל מידע חשוב, כך שזה מומלץ לשמור את אפשרות זו מסומנת.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="536"/>
+        <location filename="../prefadvanced.cpp" line="561"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>אפשרות זו מתירה לסנן את ההודעות של SMPlayer שיאוחסנו בתוך היומן. כאן ביכולתך לכתוב כל ביטוי רגולרי.&lt;br&gt;למשל: &lt;i&gt;‎^Core::.*‎&lt;/i&gt; יציג רק את השורות שמתחילות עם &lt;i&gt;Core::‎&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="445"/>
+        <location filename="../prefadvanced.cpp" line="470"/>
         <source>Correct pts</source>
         <translation>תקן pts</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="446"/>
+        <location filename="../prefadvanced.cpp" line="471"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>מחליפה את MPlayer אל מצב ניסיוני מקום בו חותמות זמן עבור מסגרות וידאו מחושבות אחרת ומסנני וידאו שמוסיפות מסגרות חדשות או שמשנות חותמות זמן של מסגרות קיימות נתמכים. חותמות הזמן המדויקות יותר יכולות להיראות לדוגמא בעת ניגון כתוביות מתוזמנות לשינויי סצנה עם הספרייה SSA/ASS מאופשרת. בלי pts מדויק תיזמון הכתובית יהיה כבוי באופן טיפוסי במסגרות מסוימות. אפשרות זו לא עובדת בצורה נכונה עם דימקסרים וקודקים מסוימים.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="455"/>
+        <location filename="../prefadvanced.cpp" line="480"/>
         <source>Actions list</source>
         <translation>רשימת פעולות</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="456"/>
+        <location filename="../prefadvanced.cpp" line="481"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>כאן ביכולתך למנות רשימה של &lt;i&gt;פעולות&lt;/i&gt; שירוצו בכל פעם בה קובץ נפתח. אתה תמצא את כל הפעולות הזמינות בתוך עורך קיצורי דרך בחתך &lt;b&gt;מקלדת ועכבר&lt;/b&gt;. על הפעולות להיות מופרדות בעזרת רווחים. פעולות ברות סימון יכולות לבוא אחרי &lt;i&gt;true&lt;/i&gt; או &lt;i&gt;false&lt;/i&gt; כדי לאפשר או לנטרל את הפעולה.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="463"/>
+        <location filename="../prefadvanced.cpp" line="488"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation>מגבלה: הפעולות רצות רק כאשר קובץ פתוח ולא כאשר תהליך mplayer מתחיל מחדש (למשל כשאתה בוחר מסנן אודיו או וידאו).</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="493"/>
+        <location filename="../prefadvanced.cpp" line="518"/>
         <source>Network</source>
         <translation>רשת עבודה</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="183"/>
+        <location filename="../prefadvanced.ui" line="190"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
         <translation>הר&amp;ץ את הפעולות הבאות בכל פעם בה נפתח קובץ. על הפעולות להיות מופרדות עם רווחים:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="478"/>
+        <location filename="../prefadvanced.ui" line="485"/>
         <source>&amp;Network</source>
         <translation>&amp;רשת עבודה</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="462"/>
+        <location filename="../prefadvanced.cpp" line="487"/>
         <source>Example:</source>
         <translation>דוגמא:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="418"/>
+        <location filename="../prefadvanced.cpp" line="438"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>בונה מחדש אינדקס של קבצים אם לא נמצא אינדקס, המתיר חיפוש. שימושית עם הודרות רצוצות/פגומות, או קבצים שנוצרו בצורה רעה. אפשרות זו עובדת רק כאשר מדיה הנסתרת תומכת בחיפוש (למשל לא עם stdin, ‏pipe, וכו&apos;).&lt;br&gt; &lt;b&gt;הערה:&lt;/b&gt; היצירה של האינדקס עשויה לקחת זמן מה.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="142"/>
+        <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>תקן &amp;PTS:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="571"/>
+        <location filename="../prefadvanced.ui" line="578"/>
         <source>&amp;Verbose</source>
         <translation>מ&amp;גובב</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="511"/>
+        <location filename="../prefadvanced.cpp" line="536"/>
         <source>Save SMPlayer log to file</source>
         <translation>שמור יומן SMPlayer אל קובץ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="512"/>
+        <location filename="../prefadvanced.cpp" line="537"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>במידה ואפשרות זו מסומנת, היומן של SMPlayer יוקלט אל ‎%1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="636"/>
+        <location filename="../prefadvanced.ui" line="643"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
         <translation>שמו&amp;ר יומן SMPlayer אל קובץ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="474"/>
+        <location filename="../prefadvanced.cpp" line="499"/>
         <source>Show tag info in window title</source>
         <translation>הצג מידע תגית בתוך כותרת חלון</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="475"/>
+        <location filename="../prefadvanced.cpp" line="500"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
         <translation>במידה ואפשרות זו מאופשרת, מידע מתוך תגיות יוצג בתוך כותרת חלון. אחרת רק שם הקובץ יוצג.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="268"/>
+        <location filename="../prefadvanced.ui" line="275"/>
         <source>Show tag in&amp;fo in window title</source>
         <translation>הצג מי&amp;דע תגית בתוך כותרת חלון</translation>
     </message>
@@ -6008,17 +6027,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;מקלדת</translation>
     </message>
     <message>
+        <source>icon</source>
+        <translation type="obsolete">צלמית</translation>
+    </message>
+    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="128"/>
+        <location filename="../prefinput.ui" line="138"/>
         <source>Button functions:</source>
         <translation>פונקציות לחצן:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="315"/>
+        <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6056,17 +6079,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>כאן ביכולתך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או התחל להקליד על תא קיצור דרך. כאופציה ביכולתךגם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="138"/>
+        <location filename="../prefinput.ui" line="148"/>
         <source>&amp;Left click</source>
         <translation>קליק &amp;שמאלי</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="161"/>
+        <location filename="../prefinput.ui" line="171"/>
         <source>&amp;Double click</source>
         <translation>קליק &amp;כפול</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="267"/>
+        <location filename="../prefinput.ui" line="292"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;פונקציית גלגל:</translation>
     </message>
@@ -6222,17 +6245,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>בחר את הפעולה עבור קליק תיכוני בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="207"/>
+        <location filename="../prefinput.ui" line="217"/>
         <source>M&amp;iddle click</source>
         <translation>קליק אמ&amp;צעי</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="220"/>
+        <location filename="../prefinput.ui" line="230"/>
         <source>X Button &amp;1</source>
         <translation>לחצן X‏ &amp;1</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="233"/>
+        <location filename="../prefinput.ui" line="243"/>
         <source>X Button &amp;2</source>
         <translation>לחצן X‏ &amp;2</translation>
     </message>
@@ -6277,7 +6300,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>הצג תפריט הקשר</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="184"/>
+        <location filename="../prefinput.ui" line="194"/>
         <source>&amp;Right click</source>
         <translation>קליק &amp;ימני</translation>
     </message>
@@ -6397,25 +6420,25 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>שנה פונקציה של גלגל</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="368"/>
+        <location filename="../prefinput.ui" line="395"/>
         <location filename="../prefinput.cpp" line="149"/>
         <source>Media &amp;seeking</source>
         <translation>חי&amp;פוש מדיה</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="382"/>
+        <location filename="../prefinput.ui" line="409"/>
         <location filename="../prefinput.cpp" line="150"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;הקרב וידאו</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="375"/>
+        <location filename="../prefinput.ui" line="402"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>&amp;Volume control</source>
         <translation>בקרת עוצמת &amp;שמע</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="389"/>
+        <location filename="../prefinput.ui" line="416"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
         <translation>&amp;שנה מהירות</translation>
@@ -6446,12 +6469,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>סמן את זו כדי לאפשר שינוי מהירות כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="346"/>
+        <location filename="../prefinput.ui" line="373"/>
         <source>M&amp;ouse wheel functions</source>
         <translation>&amp;פונקציות גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="358"/>
+        <location filename="../prefinput.ui" line="385"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
         <translation>בחר את הפעולות שיש להחליפן כאשר משתמשים באפשרות &quot;שנה פונקציית גלגל&quot;.</translation>
     </message>
@@ -6466,7 +6489,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>סמן את זו כדי לחפש בכיוון הנגדי.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="322"/>
+        <location filename="../prefinput.ui" line="347"/>
         <source>R&amp;everse wheel media seeking</source>
         <translation>חיפוש מדיה גלגל מהופ&amp;ך</translation>
     </message>
@@ -6511,12 +6534,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>רק כעבור הטענת וידאו חדש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="752"/>
+        <location filename="../prefinterface.ui" line="755"/>
         <source>Privac&amp;y</source>
         <translation>&amp;פרטיות</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="758"/>
+        <location filename="../prefinterface.ui" line="761"/>
         <location filename="../prefinterface.cpp" line="754"/>
         <source>Recent files</source>
         <translation>קבצים אחרונים</translation>
@@ -6552,12 +6575,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>קפיצת &amp;גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="602"/>
+        <location filename="../prefinterface.ui" line="605"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;השתמש במאורע אחד מורץ של SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="770"/>
+        <location filename="../prefinterface.ui" line="773"/>
         <source>Ma&amp;x. items</source>
         <translation>מ&amp;ספר פריטים מרבי</translation>
     </message>
@@ -6612,43 +6635,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;שנה...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="472"/>
+        <location filename="../prefinterface.ui" line="475"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>&amp;התנהגות של מחוון זמן:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="489"/>
+        <location filename="../prefinterface.ui" line="492"/>
         <source>Seek to position while dragging</source>
         <translation>חפש אל מקום במהלך גרירה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="494"/>
+        <location filename="../prefinterface.ui" line="497"/>
         <source>Seek to position when released</source>
         <translation>חפש אל מקום כאשר משוחרר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="579"/>
+        <location filename="../prefinterface.ui" line="582"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
         <translation>לחי&amp;צה אחת על הלחצן עצור מאפסת את ציר הזמן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="809"/>
+        <location filename="../prefinterface.ui" line="812"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="821"/>
+        <location filename="../prefinterface.ui" line="824"/>
         <source>&amp;Max. items</source>
         <translation>&amp;מספר פריטים מרבי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="860"/>
+        <location filename="../prefinterface.ui" line="863"/>
         <source>&amp;Remember last directory</source>
         <translation>&amp;זכור מדור אחרון</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
-        <location filename="../prefinterface.ui" line="595"/>
+        <location filename="../prefinterface.ui" line="598"/>
         <source>TextLabel</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6658,17 +6681,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;חיפוש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="529"/>
+        <location filename="../prefinterface.ui" line="532"/>
         <source>&amp;Absolute seeking</source>
         <translation>חיפוש מו&amp;חלט</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="542"/>
+        <location filename="../prefinterface.ui" line="545"/>
         <source>&amp;Relative seeking</source>
         <translation>חיפווש יח&amp;סי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="587"/>
+        <location filename="../prefinterface.ui" line="590"/>
         <source>Ins&amp;tances</source>
         <translation>מ&amp;קרים</translation>
     </message>
@@ -6875,7 +6898,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>במידה ואפשות זו מסומנת, SMPlayer יזכור את התיקייה האחרונה בה השתמשת לפתיחת קובץ.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="517"/>
+        <location filename="../prefinterface.ui" line="520"/>
         <location filename="../prefinterface.cpp" line="703"/>
         <source>Seeking method</source>
         <translation>שיטת חיפוש</translation>
@@ -6956,38 +6979,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>הצג גם במצב קומפקטי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="638"/>
+        <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
         <translation>&amp;בקרה צפה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="644"/>
+        <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
         <translation>הבקרה הצפה מופיעה במצב של מסך מלא כאשר העכבר מוזז אל התחתית המסך.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="654"/>
+        <location filename="../prefinterface.ui" line="657"/>
         <source>&amp;Animated</source>
         <translation>&amp;מונפשת</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="663"/>
+        <location filename="../prefinterface.ui" line="666"/>
         <source>&amp;Width:</source>
         <translation>&amp;רוחב:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="689"/>
-        <location filename="../prefinterface.ui" line="722"/>
+        <location filename="../prefinterface.ui" line="692"/>
+        <location filename="../prefinterface.ui" line="725"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="696"/>
+        <location filename="../prefinterface.ui" line="699"/>
         <source>&amp;Margin:</source>
         <translation>&amp;שוליים:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="731"/>
+        <location filename="../prefinterface.ui" line="734"/>
         <source>Display in &amp;compact mode too</source>
         <translation>הצג גם במצב &amp;קומפקטי</translation>
     </message>
@@ -7027,7 +7050,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>הערה: אפשרות זו פועלת רק עם MPlayer2</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="565"/>
+        <location filename="../prefinterface.ui" line="568"/>
         <source>&amp;Precise seeking</source>
         <translation>חיפוש מ&amp;דוייק</translation>
     </message>
@@ -8436,19 +8459,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="158"/>
+        <location filename="../mediasettings.cpp" line="160"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>disabled</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="168"/>
+        <location filename="../mediasettings.cpp" line="170"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>auto</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="169"/>
+        <location filename="../mediasettings.cpp" line="171"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>לא ידוע</translation>
@@ -8530,14 +8553,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SeekWidget</name>
     <message>
-        <location filename="../seekwidget.ui" line="22"/>
         <source>icon</source>
-        <translation>צלמית</translation>
+        <translation type="obsolete">צלמית</translation>
     </message>
     <message>
-        <location filename="../seekwidget.ui" line="40"/>
         <source>label</source>
-        <translation>סיווג</translation>
+        <translation type="obsolete">סיווג</translation>
     </message>
 </context>
 <context>
