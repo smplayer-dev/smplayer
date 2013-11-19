@@ -35,7 +35,7 @@
          <item>
           <widget class="QLabel" name="monitor_aspect_icon">
            <property name="text">
-            <string>icon</string>
+            <string notr="true">icon</string>
            </property>
            <property name="wordWrap">
             <bool>false</bool>
@@ -110,6 +110,13 @@
         <widget class="QCheckBox" name="idx_check">
          <property name="text">
           <string>Rebuild &amp;index if needed</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="lavf_demuxer_check">
+         <property name="text">
+          <string>Use the la&amp;vf demuxer by default</string>
          </property>
         </widget>
        </item>
@@ -724,6 +731,7 @@ Example: resample=44100:0:0,volnorm</string>
   <tabstop>monitoraspect_combo</tabstop>
   <tabstop>mplayer_use_window_check</tabstop>
   <tabstop>idx_check</tabstop>
+  <tabstop>lavf_demuxer_check</tabstop>
   <tabstop>shortnames_check</tabstop>
   <tabstop>repaint_video_background_check</tabstop>
   <tabstop>mplayer_crashes_check</tabstop>
