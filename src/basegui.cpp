@@ -2835,6 +2835,9 @@ void BaseGui::applyNewPreferences() {
 	if (advanced->monitorAspectChanged()) {
 		mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 	}
+	if (advanced->lavfDemuxerChanged()) {
+		core->mset.forced_demuxer = pref->use_lavf_demuxer ? "lavf" : "";
+	}
 
 	// Update playlist preferences
 	PrefPlaylist * pl = pref_dialog->mod_playlist();

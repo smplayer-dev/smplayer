@@ -104,6 +104,9 @@ void PrefAdvanced::setData(Preferences * pref) {
 #endif
 	setPreferIpv4( pref->prefer_ipv4 );
 	setUseIdx( pref->use_idx );
+
+	setUseLavfDemuxer(pref->use_lavf_demuxer);
+
 	setUseCorrectPts( pref->use_correct_pts );
 	setActionsToRun( pref->actions_to_run );
 	setShowTagInTitle( pref->show_tag_in_window_title );
@@ -137,8 +140,17 @@ void PrefAdvanced::getData(Preferences * pref) {
 #if USE_COLORKEY
 	colorkey_changed = false;
 #endif
+	lavf_demuxer_changed = false;
+
 	pref->prefer_ipv4 = preferIpv4();
 	TEST_AND_SET(pref->use_idx, useIdx());
+
+	if (pref->use_lavf_demuxer != useLavfDemuxer()) {
+		pref->use_lavf_demuxer = useLavfDemuxer();
+		lavf_demuxer_changed = true;
+		requires_restart = true;
+	}
+
 	TEST_AND_SET(pref->use_correct_pts, useCorrectPts());
 	pref->actions_to_run = actionsToRun();
 	//TEST_AND_SET(pref->show_tag_in_window_title, showTagInTitle());
@@ -302,6 +314,14 @@ bool PrefAdvanced::useIdx() {
 	return idx_check->isChecked();
 }
 
+void PrefAdvanced::setUseLavfDemuxer(bool b) {
+	lavf_demuxer_check->setChecked(b);
+}
+
+bool PrefAdvanced::useLavfDemuxer() {
+	return lavf_demuxer_check->isChecked();
+}
+
 void PrefAdvanced::setUseCorrectPts(Preferences::OptionState value) {
 	correct_pts_combo->setState(value);
 }
@@ -420,6 +440,11 @@ void PrefAdvanced::createHelp() {
            "This option only works if the underlying media supports "
            "seeking (i.e. not with stdin, pipe, etc).<br> "
            "<b>Note:</b> the creation of the index may take some time.") );
+
+	setWhatsThis(lavf_demuxer_check, tr("Use the lavf demuxer by default"),
+		tr("If this option is checked, the lavf demuxer will be used for all formats.") +" "+
+		tr("Notice: mplayer2 already uses the lavf demuxer by default so "
+		   "enabling this option with mplayer2 won't have any effect."));
 
 #ifdef Q_OS_WIN
 	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to MPlayer"),
