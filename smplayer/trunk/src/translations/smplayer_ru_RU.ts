@@ -4590,10 +4590,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Дополнительно</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">значок</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>От&amp;чёт о сбоях MPlayer</translation>
@@ -6028,10 +6024,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
         <translation>&amp;Клавиатура</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">значок</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -8556,17 +8548,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">значок</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">метка</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8597,47 +8578,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панели</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation>Панель с&amp;татуса</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Главная панель</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Редактировать &amp;главную панель</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>Редактировать &amp;плавающую панель</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation>&amp;Информация о видео</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>Воспроизводится %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>

@@ -4589,10 +4589,6 @@ Gainidaztea nahi duzu?</translation>
         <translation>&amp;Aurreratua</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikurra</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>&amp;Jakinarazi Mplayer matxurak</translation>
@@ -4660,7 +4656,7 @@ Adibidez: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili la&amp;vf demultiplexatzailea berez</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4785,17 +4781,17 @@ Adibidez: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili lavf demultiplexatzailea berez</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hataturik badago, lavf demultiplexatzailea erabiliko da heuskarri guztiekin.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oharra: mplayer2-k jadanik lavf demultiplexatzailea erabiltzen du berez hortaz aukera hau mplayer2-rekin gaitzeak ez du eraginik izango.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="465"/>
@@ -6027,10 +6023,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
         <translation>&amp;Teklatua</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ikurra</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -8553,17 +8545,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ikurra</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">etiketa</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8594,47 +8575,47 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Tresnabarrak</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation>Egoera&amp;barra</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>Tresnabarra &amp;nagusia</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Editatu &amp;tresnabarra nagusia</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>Editatu &amp;gaineko agintea</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation>&amp;Bideo argibideak</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>%1 irakurtzen</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Pausatu</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>Gelditu</translation>
     </message>

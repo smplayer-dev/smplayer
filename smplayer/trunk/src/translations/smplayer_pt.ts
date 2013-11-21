@@ -4589,10 +4589,6 @@ Substituir?</translation>
         <translation>&amp;Avançado</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ícone</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>R&amp;eportar erros do MPlayer</translation>
@@ -4660,7 +4656,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar o demuxer la&amp;vf como padrão</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4785,17 +4781,17 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilizar o demuxer la&amp;vf como padrão</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, o demuxer lavf será utilizado em todos os formatos.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: o mplayer2 já utiliza este demuxer e esta opção não produzirá qualquer efeito se estiver a utilizar o mplayer2.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="465"/>
@@ -6028,10 +6024,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Teclado</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ícone</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Rato</translation>
@@ -6044,7 +6036,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Não a&amp;tivar a ação do botão esquerdo do rato com duplo clique</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6403,17 +6395,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Não ativar a ação do botão esquerdo do rato com duplo clique</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, ao clicar duas vezes na área de vídeo apenas a função do duplo clique será ativada. A ação correspondente ao botão esquerdo do rato não será ativada.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, o duplo clique tem um atraso de %1 milissegundos uma vez que é necessário aguardar este tempo para saber se é um duplo clique ou não.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -8552,17 +8544,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ícone</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">texto</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8593,47 +8574,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>Barra de ferramen&amp;tas</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Barra de estado</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra &amp;principal</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Edi&amp;tar barra principal</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>Editar controlo &amp;flutuante</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation>Informações do &amp;vídeo</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>A reproduzir %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -8867,7 +8848,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Utilizar valores atuais como padrão dos novos vídeos.</translation>
+        <translation>Utilizar valores atuais como definição para os novos vídeos.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>

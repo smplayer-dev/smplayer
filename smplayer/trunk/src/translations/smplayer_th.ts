@@ -4588,10 +4588,6 @@ Do you want to overwrite?</source>
         <translation>&amp;ขั้นสูง</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ไอคอน</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>รายงานข้อ&amp;บกพร่อง MPlayer</translation>
@@ -6026,10 +6022,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
         <translation>แ&amp;ป้นพิมพ์</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ไอคอน</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -8550,17 +8542,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ไอคอน</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">ป้ายกำกับ</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8591,47 +8572,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>แถบเ&amp;ครื่องมือ</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation type="unfinished">แถบส&amp;ถานะ</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>แถบเครื่องมือห&amp;ลัก</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>แ&amp;ก้ไข แถบเครื่องมือหลัก</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>แก้ไข ตัวควบคุมลอ&amp;ย</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation type="unfinished">ข้อมูล&amp;วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>กำลังเล่น %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>พัก</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>หยุด</translation>
     </message>

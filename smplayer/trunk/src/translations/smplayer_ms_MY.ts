@@ -932,7 +932,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="3855"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Pillih folder Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3867"/>
@@ -1092,12 +1092,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1475"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blu-ray dari pemacu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1476"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-&amp;ray dari folder...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
@@ -4588,10 +4588,6 @@ Anda hendak tulis-ganti?</translation>
         <translation>L&amp;anjutan</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikon</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>&amp;Lapor kerosakan MPlayer</translation>
@@ -4659,7 +4655,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyahselang-seli secara lalai</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4784,17 +4780,17 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyahselang-seli secara lalai</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini ditanda, demuxer akan digunakan untuk semua format.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Perhatian: mplayer sudah gunakan demuxer lavf secara lalai jadi membenarkan pilihan ini dengan mplayer2 tidak akan memberi apa-apa kesan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="465"/>
@@ -5131,7 +5127,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih peranti &amp;Blu-ray anda:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5141,12 +5137,12 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Peranti Blu-ray</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih peranti Blu-ray anda. Ia akan digunakan untuk main cakera Blu-ray.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="204"/>
@@ -6028,10 +6024,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Papan &amp;Kekunci</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikon</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Tetikus</translation>
@@ -6044,7 +6036,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Jangan pi&amp;cukan tindakan klik kiri dengan dwi-klik</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6403,17 +6395,17 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Jangan picukan fungsi klik kiri dengan dwi-klik</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini dibenarkan bila anda dwi-klik pada kawasan video sahaja, fungsi dwi-klik akan dipicu. Tindakan klik kiri tidak akan diaktifkan.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dengan membenarkan pilihan ini, klik kiri dilengah sebanyak %1 milisaat kerana ia perlu menunggu masa tersebut untuk mengetahui sama ada ia adalah dwi-klik atau tidak.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -6866,17 +6858,17 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini dibenarkan, kawalan terapung akan muncul dalam mod padat jua.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan ini hanya berfungsi dengan GUI asas.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Amaran:&lt;/b&gt; kawalan terapung tidak direka untuk mod padat dan ia mungkin tidak berfungsi dengan baik.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
@@ -8550,17 +8542,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ikon</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">label</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8591,47 +8572,47 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>Palang ala&amp;t</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation>Palang &amp;status</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>Palang alat &amp;utama</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Sunting palang ala&amp;t utama</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>Sunting kawalan te&amp;rapung</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation>Maklumat &amp;Video</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>Memainkan %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Jeda</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>Henti</translation>
     </message>
@@ -8820,57 +8801,57 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Penyama Video</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Be&amp;za Jelas</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Ke&amp;cerahan</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rona</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Ke&amp;tepuan</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gama</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Penyama per&amp;isian</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>Tetap sebagai ni&amp;lai lalai</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tetap semula</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Guna nilai semasa sebagai nilai lalai untuk video baru.</translation>
+        <translation>Guna nilai semasa sebagai nilai lalai untuk video baru.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Tetapkan semua kawalan kepada sifar.</translation>
+        <translation>Tetapkan semua kawalan kepada sifar.</translation>
     </message>
 </context>
 <context>

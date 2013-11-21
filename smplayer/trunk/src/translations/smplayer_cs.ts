@@ -4590,10 +4590,6 @@ Opravdu jej chcete přepsat?</translation>
         <translation>&amp;Pokročilé</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikona</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>O&amp;známit pády MPlayeru</translation>
@@ -4661,7 +4657,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít la&amp;vf demuxer jako výchozí</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4786,17 +4782,17 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít lavf demuxer jako výchozí</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud bude tato volba zaškrtnuta, lavf demuxer bude použit pro všechny formáty.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poznámka: mplayer2 už používá lavf demuxer jako výchozí, takže zapnutí této funkce u mplayeru2 nepřinese výsledek.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="465"/>
@@ -6029,10 +6025,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Klávesnice</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikona</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Myš</translation>
@@ -6045,7 +6037,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Nespouštějte funkci levého tlačítka dvojklikem</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6404,17 +6396,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Nespouštějte funkci levého tlačítka dvojklikem</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud je tato možnost povolena, bude funkce spuštěna při dvojkliku do oblasti videa.  Levým tlačítkem myši nebude akce aktivována.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapnutím této funkce bude kliknutí levým tlačítkem myši zpožděno o %1 milisekundu, protože je potřeba zjistit, jestli nešlo o dvojklik.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -8555,17 +8547,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ikona</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">popis</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8596,47 +8577,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Nástrojové lišts</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation>Stavový &amp;řádek</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hlavní lišta</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Upravit hlavní &amp;lištu</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>Upravit &amp;plovoucí ovládání</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation>&amp;Informace o videu</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>Přehrává se %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Pozastavit</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>Zastavit</translation>
     </message>
@@ -8825,57 +8806,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Video ekvalizér</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrast</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jas</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Odstín</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sytost</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gamma</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Softwarový &amp;ekvalizér</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít jako &amp;výchozí hodnoty</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Reset</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Použít dané hodnoty jako výchozí pro nová videa.</translation>
+        <translation>Použít dané hodnoty jako výchozí pro nová videa.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Nastavit všechny ovládací prvky na nulu.</translation>
+        <translation>Nastavit všechny ovládací prvky na nulu.</translation>
     </message>
 </context>
 <context>

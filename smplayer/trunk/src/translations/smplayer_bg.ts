@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Links:</source>
-        <translation>Линкове:</translation>
+        <translation>Връзки:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="68"/>
@@ -36,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation>Опростен Китайски</translation>
+        <translation>Опростен китайски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
@@ -77,7 +77,7 @@
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Вие също можете да помогнете като преведете SMPlayer на майчиният си език.</translation>
+        <translation>Вие също можете да помогнете като преведете SMPlayer на майчиния си език.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -192,12 +192,12 @@
     <message>
         <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation type="unfinished">Узбекистански</translation>
+        <translation>Узбекистански</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation type="unfinished">Каталонски</translation>
+        <translation>Каталонски</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -438,7 +438,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="95"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Зададени</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="96"/>
@@ -458,7 +458,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="103"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation>Плаващ</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="104"/>
@@ -932,7 +932,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3855"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете папката на Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3867"/>
@@ -947,12 +947,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4337"/>
         <source>New version available</source>
-        <translation>Нова версия е достъпна</translation>
+        <translation>Налична е нова версия</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4338"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation>Нова версия на SMPlayer е достъпна.</translation>
+        <translation>Налична е нова версия на SMPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4339"/>
@@ -962,7 +962,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4340"/>
         <source>Available version: %1</source>
-        <translation>Достъпна версия: %1</translation>
+        <translation>Налична версия: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4341"/>
@@ -972,12 +972,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4477"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Засечена е крешка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4478"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>За съжаление това видео не може да се възпроизведе.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4647"/>
@@ -1092,17 +1092,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1475"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-ray от &amp;устройство</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1476"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-ray от &amp;папка...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"></translation>
+        <translation>Генератор на миниатюри...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1567"/>
@@ -1118,12 +1118,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1645"/>
         <source>First Steps &amp;Guide</source>
-        <translation>Първи стъпки за &amp;употреба</translation>
+        <translation>Нар&amp;ъчник с първи стъпки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1651"/>
         <source>Update &amp;Youtube code</source>
-        <translation>Обновете &amp;Youtube кода</translation>
+        <translation>Обновяване &amp;кода на Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
@@ -1133,7 +1133,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1656"/>
         <source>&amp;Donate</source>
-        <translation>&amp;Дари</translation>
+        <translation>&amp;Дарение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
@@ -1294,7 +1294,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3961"/>
         <source>Donate</source>
-        <translation>Дари</translation>
+        <translation>Дарение</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3962"/>
@@ -1309,7 +1309,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4432"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>За съжаление поради промени в страницата на Youtube, това видео не може да бъде възпроизведено.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4439"/>
@@ -1320,7 +1320,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4435"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>За нещастатие поради промени в Youtube, клипа &apos;%1&apos; неможе да се изплълни или да бъде записан.</translation>
+        <translation>За съжаление поради промени в Youtube, клипа &apos;%1&apos; не може да бъде възпроизведен.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4441"/>
@@ -1330,12 +1330,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4449"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation>Можеби обновлението на SMPlayer ще оправи проблема.</translation>
+        <translation>Вероятно обновяване на SMPlayer ще оправи проблема.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5156"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation>YouTube Браузърът неможа да стартира.</translation>
+        <translation>Неуспех при стартиране на YouTube браузъра.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5157"/>
@@ -1366,12 +1366,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3294"/>
         <source>Delete the list of recent files?</source>
-        <translation>Изтрии листа със скорошни файлове?</translation>
+        <translation>Изтрий списъка с последни файлове?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3514"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Сегашните стойности бяха запазени като стандартни.</translation>
+        <translation>Текущите стойности бяха запазени като стандартни.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1692"/>
@@ -1391,7 +1391,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;Kerndeint</source>
-        <translation>&amp;Разплитане от ниско ниво</translation>
+        <translation>&amp;Kerndeint</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1818"/>
@@ -1446,7 +1446,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1569"/>
         <source>Add &amp;black borders</source>
-        <translation>Добави &amp;черна граница</translation>
+        <translation>Добави &amp;черни ивици</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1570"/>
@@ -1481,7 +1481,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4479"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Сървърът отговори „%1“</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5053"/>
@@ -1939,7 +1939,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Сваляне...</translation>
+        <translation>Изтегляне...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
@@ -1949,7 +1949,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube кодът беше обновен успешно.</translation>
+        <translation>Кодът на Youtube беше успешно обновен.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
@@ -1975,7 +1975,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Възникна грешка при изтеглянето на файл: &lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2034,7 +2034,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4122"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>Обновяване на запасите с шрифтове. Това може да отнеме няколко секунди...</translation>
+        <translation>Обновяване на складираните шрифтове. Това може да отнеме няколко секунди...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3124"/>
@@ -2054,7 +2054,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="533"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation>Невъзможно извличането на Youtube страницата</translation>
+        <translation>Невъзможно извличане страницата на Youtube</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3253"/>
@@ -2074,7 +2074,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
-        <translation>Смяна на звука с колелото на мишката</translation>
+        <translation>Променя се силата на звука с колелото на мишката</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3801"/>
@@ -2342,7 +2342,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../favorites.cpp" line="374"/>
         <location filename="../favorites.cpp" line="378"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation>Въведете номер на елемент, от списъка,  до който да се прескочи:</translation>
+        <translation>Въведете номер на елемент от списъка,  до който да се прескочи:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
@@ -2650,19 +2650,19 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation>Влизането в opensubtitles.org се провали</translation>
+        <translation>Вписването в opensubtitles.org е неуспешно</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
-        <translation>Търсенето се провали</translation>
+        <translation>Търсенето е неуспешно</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
-            <numerusform>%n субтитрите са извлечени</numerusform>
-            <numerusform>%n субтитрите са извлечени</numerusform>
+            <numerusform>%n субтитри са извлечени</numerusform>
+            <numerusform>%n субтитри са извлечени</numerusform>
         </translation>
     </message>
     <message>
@@ -2896,7 +2896,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="100"/>
         <source>Resolution</source>
-        <translation>Разделителна способност</translation>
+        <translation>Резолюция</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -2940,7 +2940,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Rate</source>
-        <translation>Честота</translation>
+        <translation>Темпо</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
@@ -3751,7 +3751,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Арабски - Сирия</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="265"/>
@@ -4349,12 +4349,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Въведете Интернет адрес(и)</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"></translation>
+        <translation>Въведете Интернет адрес(и), които да се добавят към списъка. По един на ред.</translation>
     </message>
 </context>
 <context>
@@ -4528,7 +4528,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="317"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Добави &amp;Интенет адрес(и)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="320"/>
@@ -4588,10 +4588,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.ui" line="24"/>
         <source>&amp;Advanced</source>
         <translation>&amp;Разширени настройки</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">икона</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
@@ -4662,7 +4658,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Из&amp;ползвай lavf разпределител по подразбиране</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4787,17 +4783,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Използвай lavf разпределител по подразбиране</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е отметната, lavf разпределителят ще се използва за всички формати.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Забележете: mplayer2 вече използва lavf разпределител по подразбиране, така че активирането на тази опция с mplayer2 няма да има ефект.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="465"/>
@@ -5134,7 +5130,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.ui" line="265"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете &amp;Вашето Blu-ray устройство:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5144,12 +5140,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="215"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-ray устройство</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="216"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете вашето Blu-ray устройство. Ще се използва за възпроизвеждане от Blu-ray дискове.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="204"/>
@@ -5604,7 +5600,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="114"/>
         <source>Yadif (double framerate)</source>
-        <translation>Yadif (двойна скорост)</translation>
+        <translation>Yadif (двойна честота)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="115"/>
@@ -5764,17 +5760,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>Add black borders on fullscreen</source>
-        <translation>Добави черна граница на цял екран</translation>
+        <translation>Добави черни ивици на цял екран</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation>Ако тази опция е активна, ще бъдат добавени черни граници към изображението в режим на цял екран. Това позволява субтитрите да се показват на черната граница.</translation>
+        <translation>Ако тази опция е активна, ще бъдат добавени черни ивици към изображението в режим на цял екран. Това позволява субтитрите да се показват върху черната ивица.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="484"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Добави черна граница на цял екран</translation>
+        <translation>&amp;Добави черни ивици на цял екран</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="121"/>
@@ -6042,7 +6038,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Не &amp;слагайте двоен клик като действие на ляв клик</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6401,17 +6397,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Не слагайте двоен клик като функция на ляв клик</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, когато кликнете два пъти върху видео зоната ще бъде изпълнена само функцията с двоен клик. Действието с ляв клик няма да се активира.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>С активирането на тази опция, левият клик е забавен с %1 милисекунди, защото е необходимо да разбере дали ими или няма двоен клик.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -6445,52 +6441,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="352"/>
         <source>Mouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Функции с колелото на мишката</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="355"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете го, за да активирате превъртането като функция.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="358"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете го, за да активирате промяната на звука като функция.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="361"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете го, за да активирате увеличението като функция.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="364"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете го, за да активирате смяната на скоростта като функция.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="373"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"></translation>
+        <translation>Фу&amp;нкции с колелото на мишката</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="385"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете действията, през които да се преминава при използване на опцията „Смяна функцията на колелото“.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="349"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Промяна посоката на превъртане чрез мишката</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="350"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете го, за да се превърта в противоположна посока.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="347"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;ромяна посоката на превъртане чрез мишката</translation>
     </message>
 </context>
 <context>
@@ -6504,7 +6500,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="144"/>
         <source>&lt;Autodetect&gt;</source>
-        <translation>&lt;Автооткриване&gt;</translation>
+        <translation>&lt;Автоматично откриване&gt;</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="195"/>
@@ -6525,7 +6521,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="82"/>
         <source>Whenever it&apos;s needed</source>
-        <translation>Винаги когато е необходимо</translation>
+        <translation>Когато е необходимо</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6535,7 +6531,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="755"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"></translation>
+        <translation>Ли&amp;чностни</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="761"/>
@@ -6556,32 +6552,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="173"/>
         <source>&amp;Short jump</source>
-        <translation>&amp;Кратък скок</translation>
+        <translation>&amp;Късо прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="174"/>
         <source>&amp;Medium jump</source>
-        <translation>&amp;Среден скок</translation>
+        <translation>&amp;Средно прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="175"/>
         <source>&amp;Long jump</source>
-        <translation>&amp;Дълъг скок</translation>
+        <translation>&amp;Дълго прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="176"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Прескачане с ко&amp;лелото на мишката</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="605"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Изп&amp;олзвай само едно работещо копие на SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="773"/>
         <source>Ma&amp;x. items</source>
-        <translation>Ма&amp;кс. предмети</translation>
+        <translation>Ма&amp;кс. елементи</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="314"/>
@@ -6596,7 +6592,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="149"/>
         <source>L&amp;anguage:</source>
-        <translation>Е&amp;зик</translation>
+        <translation>Е&amp;зик:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="33"/>
@@ -6606,7 +6602,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="60"/>
         <source>Auto&amp;resize:</source>
-        <translation>Автоматично &amp;преоразмеряване:</translation>
+        <translation>Авто. &amp;преоразмеряване:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="95"/>
@@ -6616,7 +6612,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Премествай прозореца, когато видео зоната е премествана</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6631,22 +6627,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="387"/>
         <source>&amp;Change...</source>
-        <translation>&amp;Промени...</translation>
+        <translation>&amp;Смени...</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="475"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Поведение на времевия плъзгач:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="492"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"></translation>
+        <translation>Превъртане до позицията, докато се плъзга</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="497"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"></translation>
+        <translation>Превъртане до позицията след освобождаване</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="582"/>
@@ -6656,53 +6652,53 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="812"/>
         <source>URLs</source>
-        <translation>URL-та</translation>
+        <translation>Интернет адреси</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="824"/>
         <source>&amp;Max. items</source>
-        <translation>&amp;Макс. предмети</translation>
+        <translation>&amp;Макс. елементи</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="863"/>
         <source>&amp;Remember last directory</source>
-        <translation>&amp;Запомни последна директория</translation>
+        <translation>&amp;Запомни последната директория</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
         <location filename="../prefinterface.ui" line="598"/>
         <source>TextLabel</source>
-        <translation type="unfinished"></translation>
+        <translation>ТекстЗаглавие</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="410"/>
         <source>&amp;Seeking</source>
-        <translation>&amp;Търсене</translation>
+        <translation>&amp;Превъртане</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="532"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Абсолютно превъртане</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="545"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Относително превъртане</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="590"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"></translation>
+        <translation>Рабо&amp;тещи копия</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="641"/>
         <source>Autoresize</source>
-        <translation>Автоматично преоразмеряване</translation>
+        <translation>Авто. преоразмеряване</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="642"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Основният прозорец може да се преоразмерява автоматично. Изберете предпочитаната от Вас опция.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="645"/>
@@ -6712,17 +6708,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="646"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако изберете тази опция, позицията и размера на основния прозорец ще бъдат запаметени и възстановени при повторно стартиране на SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="752"/>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Личностни</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="755"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"></translation>
+        <translation>Задайте максималният брой елементи, които да се показват в подменюто &lt;b&gt;Отваряне-&gt;Последни файлове&lt;/b&gt;. Ако зададете 0, менюто изобщо няма да се показва.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="666"/>
@@ -6732,32 +6728,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="203"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Основен ГПИ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="209"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>ГПИ с кожи</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="652"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Премествай прозореца, когато видео зоната е премествана</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако е отметната тази опция, основният прозорец ще се премества, ако плъзгате мишката над видео зоната.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="659"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете ГПИ, който предпочитате за приложението. Към момента има две налични опции: Старндартен ГПИ и Минимален ГПИ.&lt;br&gt;&lt;b&gt;Стандартен ГПИ&lt;/b&gt; представлява традиционният ГПИ с ленти за инструменти и управление. &lt;b&gt;Минимален ГПИ&lt;/b&gt; представлява по-опростен ГПИ с лента за управление - с няколко бутона, но без лента за инструменти.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете иконите, които предпочитате за приложението.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="670"/>
@@ -6767,7 +6763,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="671"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете кожата, която предпочитате за приложението. Налично е само за „ГПИ с кожи“.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="674"/>
@@ -6777,7 +6773,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="675"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете стила, който предпочитате за приложението.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="678"/>
@@ -6787,69 +6783,69 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="679"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да смените шрифта на приложението.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="681"/>
         <source>Seeking</source>
-        <translation>Търсене</translation>
+        <translation>Превъртане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="683"/>
         <source>Short jump</source>
-        <translation>Кратък скок</translation>
+        <translation>Късо прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="684"/>
         <location filename="../prefinterface.cpp" line="688"/>
         <location filename="../prefinterface.cpp" line="692"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете времето, с което да се придвижва напред или назад, когато изберете действие %1.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
         <source>short jump</source>
-        <translation>кратък скок</translation>
+        <translation>късо прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="687"/>
         <source>Medium jump</source>
-        <translation>Среден скок</translation>
+        <translation>Средно прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>medium jump</source>
-        <translation>среден скок</translation>
+        <translation>средно прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
         <source>Long jump</source>
-        <translation>Дълъг скок</translation>
+        <translation>Дълго прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="693"/>
         <source>long jump</source>
-        <translation>дълъг скок</translation>
+        <translation>дълго прескачане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="695"/>
         <source>Mouse wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Прескачане с колелото на мишката</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="696"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете времето, с което да се придвижва напред или назад, когато въртите колелото на мишката.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="699"/>
         <source>Behaviour of time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Поведение на времевия плъзгач</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="700"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете какво да се прави, когато се плъзга времевият плъзгач.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="714"/>
@@ -6859,32 +6855,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="715"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>По подразбиране, когато бутона за спиране бъде натиснат, времевата позиция е запомнена, така че ако натиснете бутона за възпроизвеждане медията ще продължи от същата позиция, за да изчистите времевата позиция е нужно да натиснете два пъти бутона за спиране. Ако тази опция е отметната, времевата позиция ще бъде зададена на 0 само с едно натискане на бутона за спиране.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, плаващото управление ще се появява и в компактен режим.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция работи само с основният ГПИ.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Внимание:&lt;/b&gt; плаващото управление не е предназначено за компактен режим и може да не работи правилно.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
         <source>Max. URLs</source>
-        <translation>Макс. URL-та</translation>
+        <translation>Макс. Интернет адреси</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="760"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете максималният брой елементи, които да се запомнят в &lt;b&gt;Отваряне-&gt;Интернет адреси&lt;/b&gt;. Изберете 0, ако не искате да се запазват никакви интернет адреси.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
@@ -6894,38 +6890,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation>Ако тази опция е отметната, SMPlayer ще запомни последната папка използвана за отваряне на файл.</translation>
+        <translation>Ако тази опция е отметната, SMPlayer ще запомни последната папка, използвана за отваряне на файл.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="520"/>
         <location filename="../prefinterface.cpp" line="703"/>
         <source>Seeking method</source>
-        <translation>Метод за търсене</translation>
+        <translation>Метод за превъртане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="704"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Задаване на използвания метод за превъртане чрез плъзгача. Абсолютното превъртане може да е по-точно, докато относителното превъртане може да работи по-добре с файлове, които имат грешна продължителност.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="722"/>
         <source>Instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Работещи копия</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="725"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Използвай само едно работещо копие на SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="726"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете тази опция, ако искате да използвате вече работещото копие на SMPlayer, когато отваряте други файлове.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="204"/>
         <source>Mini GUI</source>
-        <translation>Мини ГПИ</translation>
+        <translation>Минимално ГПИ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
@@ -6940,62 +6936,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="730"/>
         <source>Floating control</source>
-        <translation>Плаващ контрол</translation>
+        <translation>Плаващо управление</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
         <source>Animated</source>
-        <translation>Анимиран</translation>
+        <translation>Анимирано</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="733"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активирана, плаващото управление ще се появява чрез анимация.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="736"/>
         <source>Width</source>
-        <translation>Широчина</translation>
+        <translation>Ширина</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="737"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>Определя ширината на управлението (в проценти).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="739"/>
         <source>Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Граници</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="740"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя броят пиксели, с които плаващото управление ще бъде на разстояние от долния край на екрана. Полезно е, когато екранът е ТВ, понеже преразгъването може да попречи на видимостта над управлението.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="745"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Показване и в компактен режим</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
-        <translation>&amp;Плаващ контрол</translation>
+        <translation>&amp;Плаващо управление</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Плаващото управление се показва в режим на цял екран, когато мишката бъде преместена към долния край на екрана.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
         <source>&amp;Animated</source>
-        <translation>&amp;Аниминран</translation>
+        <translation>&amp;Анимирано</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="666"/>
         <source>&amp;Width:</source>
-        <translation>&amp;Широчина:</translation>
+        <translation>&amp;Ширина:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="692"/>
@@ -7006,52 +7002,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="699"/>
         <source>&amp;Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Граници:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"></translation>
+        <translation>Показване и в компа&amp;ктен режим</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="206"/>
         <source>Mpc GUI</source>
-        <translation>Mpc ГПИ</translation>
+        <translation>КМП ГПИ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="649"/>
         <source>Hide video window when playing audio files</source>
-        <translation>Скрий видеоклип, когато се изпълняват аудио файлове</translation>
+        <translation>Скрий видео прозореца, когато се изпълняват звукови файлове</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="650"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>Ако тази опция е бключена видео прозореца ще бъде скрит, когато се изпълняват аудио файлове.</translation>
+        <translation>Ако тази опция е активна, видео прозореца ще бъде скрит, когато се изпълняват звукови файлове.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>&amp;Скрий видеоклип, когато се изпълняват аудио файлове</translation>
+        <translation>&amp;Скрий видео прозореца, когато се изпълняват звукови файлове</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="709"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Прецизно превъртане</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="710"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, превъртането е по-точно, но може и да е по-бавно. Може да не работи с някои видео формати.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="712"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>Бележка: тази опция работи само с MPlayer2</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="568"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Прецизно превъртане</translation>
     </message>
 </context>
 <context>
@@ -7076,7 +7072,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете приоритет за процеса на MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="77"/>
@@ -7086,7 +7082,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="82"/>
         <source>high</source>
-        <translation>високо</translation>
+        <translation>висок</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="87"/>
@@ -7121,72 +7117,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="343"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Задаването на кеш може да подобри производителността при бавни файлове</translation>
+        <translation>Задаването на складиране може да подобри производителността при бавни файлове</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Allow frame drop</source>
-        <translation>Разрешаване на frame drop</translation>
+        <translation>Разреши пропускане на кадри</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="288"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>Прескачане показването на някои кадри, за да се поддържа А/В синхронизирането на слаби машини.</translation>
+        <translation>Пропускане показването на някои кадри, за да се поддържа З/В синхронизирането на бавни системи.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>Allow hard frame drop</source>
-        <translation type="unfinished"></translation>
+        <translation>Разреши голямо пропускане на кадри</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation type="unfinished"></translation>
+        <translation>По-често пропускане на кадри (пречи на разкодирането). Води до накъсване на образа!</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
         <source>Priorit&amp;y:</source>
-        <translation>Приор&amp;итет</translation>
+        <translation>Приор&amp;итет:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="131"/>
         <source>&amp;Allow frame drop</source>
-        <translation>&amp;Разрешаване на frame drop</translation>
+        <translation>&amp;Разреши пропускане на кадри</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="138"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation type="unfinished"></translation>
+        <translation>Разреши г&amp;олямо пропускане на кадри (може да доведе до накъсване на образа)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="251"/>
         <source>&amp;Fast audio track switching</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Бързо превключване на звуковия запис</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="279"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>Бързо &amp;превъртане до главите в DVD-тата</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished"></translation>
+        <translation>Бързо превключване на звуковия запис</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>Бързо превъртане до главите в DVD-тата</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако е отметната, ще опита най-бързият метод за превъртане до главите, но може да не работи с всички дискове.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Пропускане на повтарящ филтър</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="191"/>
@@ -7196,57 +7192,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="319"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation type="unfinished"></translation>
+        <translation>Възможни стойности:&lt;br&gt; &lt;b&gt;Да&lt;/b&gt;: ще опита най-бързият метод за смяна на звуковия запис (може да не работи с всички формати).&lt;br&gt; &lt;b&gt;Не&lt;/b&gt;: процесът на MPlayer ще бъде рестартиран, когато се смени звуковият запис.&lt;br&gt; &lt;b&gt;Авто&lt;/b&gt;: SMPlayer ще реши какво да прави в зависимост от версията на MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for files</source>
-        <translation>Кеш за файлове</translation>
+        <translation>Складиране за файлове</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя колко памет (в кБайтове) да се използва при прескладиране на файла.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for streams</source>
-        <translation>Кеш за стриймове</translation>
+        <translation>Складиране за потоци</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя колко памет (в кБайтове) да се използва при прескладиране на интернет адрес.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="348"/>
         <source>Cache for DVDs</source>
-        <translation>Кеш за DVD-та</translation>
+        <translation>Складиране за DVD-та</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="349"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя колко памет (в кБайтове) да се използва за прескладиране на DVD.&lt;br&gt; &lt;b&gt;Внимание:&lt;/b&gt; Превъртането може да не работи правилно (включително смяна на главата), когато се използва складиране за DVD-та.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="337"/>
         <source>&amp;Cache</source>
-        <translation>&amp;Кеш</translation>
+        <translation>&amp;Складиране</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>Кеш за &amp;DVD-та</translation>
+        <translation>Склади&amp;ране за DVD-та:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="353"/>
         <source>Cache for &amp;local files:</source>
-        <translation>Кеш за &amp;локални файлове:</translation>
+        <translation>Складиране за &amp;местни файлове:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="390"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Кеш за &amp;стриймове:</translation>
+        <translation>Складиране за &amp;потоци:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="89"/>
@@ -7256,27 +7252,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="90"/>
         <source>Skip (always)</source>
-        <translation>Пропусни (винаги)</translation>
+        <translation>Пропускане (винаги)</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="91"/>
         <source>Skip only on HD videos</source>
-        <translation>Пропусни само на HD видеоклипове</translation>
+        <translation>Пропускане само на HD видеоклипове</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="205"/>
         <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Повтарящ &amp;филтър</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Опитай да използваш комерсиален CoreAVC кодек, когато няма избран друг и е избран видео изход, който не е VDPAU. Изисква MPlayer продукт с поддръжка на CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция позволява пропускането на повтарящия филтър (заглаждане) по време на H.264 разкодиране. След като филтрираната рамка очаквано се използва като отговор за зависимите рамки за разкодиране, това има по-лош ефект върху качеството, отколкото ако не се прави заглаждане, например върху MPEG-2 видео. Но в крайна сметка за HDTV с по-голяма побитова скорост това предоставя голямо ускоряване без забележима загуба на качество.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
@@ -7286,92 +7282,92 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Активиран&lt;/b&gt;: повтарящият филтър не се пропуска</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Пропускане (винаги)&lt;/b&gt;: повтарящият филтър се пропуска без значение от резолюцията</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="314"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Пропускане само за HD видеа&lt;/b&gt;: повтарящият филтър ще се пропуска само за видеоклипове, чиято височина е %1 или по-висока.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="338"/>
         <source>Cache</source>
-        <translation>Кеш</translation>
+        <translation>Складиране</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for audio CDs</source>
-        <translation>Кеш за аудио CD-та</translation>
+        <translation>Складиране за звукови CD-та</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя колко памет (в кБайтове) да се използва при прескладиране на звуково CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="464"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Кеш за &amp;аудио CD-та:</translation>
+        <translation>Складиране за з&amp;вукови CD-та:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="357"/>
         <source>Cache for VCDs</source>
-        <translation>Кеш за аудио VCD-та:</translation>
+        <translation>Складиране за VCD-та</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="358"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя колко памет (в кБайтове) да се използва при прескладиране на VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation>Кеш за &amp;аудио VCD-та:</translation>
+        <translation>Ск&amp;ладиране за VCD-та:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Нишки за разкодиране</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="295"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"></translation>
+        <translation>Задаване на броя нишки, които да се използват за разкодиране. Само за MPEG-1/2 и H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="153"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Нишки за разкодиране (само MPEG-1/2 и H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Задай приоритет за процеса на mplayer, според зададените приоритети от Прозорци. &lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Използването на реално време, може да предизвика забиване на системата.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="298"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Използвай CoreAVC, ако не е зададен друг кодек</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="233"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Използвай CoreAVC, ако не е зададен друг кодек</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="538"/>
         <source>Cache for &amp;TV:</source>
-        <translation>Кеш за &amp;ТВ:</translation>
+        <translation>Складиране за &amp;ТВ:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation>Youtube качество</translation>
+        <translation>Качество за Youtube</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
@@ -7381,7 +7377,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="295"/>
         <source>Youtube &amp;quality</source>
-        <translation>Youtube &amp;качество</translation>
+        <translation>Ка&amp;чество за Youtube</translation>
     </message>
 </context>
 <context>
@@ -7394,47 +7390,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="111"/>
         <source>Automatically add files to playlist</source>
-        <translation>Автоматично добавяй файлове към списък за изпълнение</translation>
+        <translation>Автоматично добавяне на файлове към списъка за изпълнение</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="112"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, всеки път когато бъде отворен файл, SMPlayer ще го добави в изчистен списък за изпълнение. Ако са DVD-та, CD-та или VCD-та - всичките им заглавия ще бъдат добавени към списъка.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="117"/>
         <source>Add consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Добави последователни файлове</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="118"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, SMPlayer ще прегледа за последователни файлове (напр. video_1.avi, video_2.avi...) и ако намери такива, ще бъдат добавени в списъка.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
         <source>Play files from start</source>
-        <translation>Изпълни файловете от начало</translation>
+        <translation>Изпълни файловете отначало</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="123"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, всички файлове от списъка ще започват отначало вместо да продължи докъдето е стигнал от предишното възпроизвеждане.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="132"/>
         <source>Get info automatically about files added</source>
-        <translation>Автоматично виж информация отностно файловете, които се добавят</translation>
+        <translation>Авт. получаване на инфо. за добавените файлове</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Save copy of playlist on exit</source>
-        <translation>Запиши копие на листа за изпълнение при изход</translation>
+        <translation>Съхрани копие на списъка при изход</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="140"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е отметната, когато smplayer бъде затворен, ще се съхрани копие на списъка в настройките на smplayer и ще бъде презареден автоматично при повторто пускане на програмата.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -7444,27 +7440,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation>&amp;Автоматично добавяй файлове към списък за изпълнение</translation>
+        <translation>&amp;Автоматично добавяне на файлове към списъка за изпълнение</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="64"/>
         <source>Add &amp;consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>До&amp;бави последователни файлове</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяй последователно файловете в папки</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете тази опция, ако искате добавянето на директория да добави и файловете и поддиректориите последователно. В противен случай ще бъдат добавени само файловете от избраната директория.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Отметнете тази опция, за да получите информация за добавените файлове в списъка. Това позволява да се изписва името на заглавието (ако е налично), както и дължината на файловете. В противен случай информацията няма да се изписва до изпълнението на файла. Внимавайте: тази опция може да действа бавно, особено ако добавите няколко файла.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="86"/>
@@ -7474,17 +7470,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="93"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавяй по&amp;следователно файловете в папки</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="100"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>Авт. п&amp;олучаване на инфо. за добавените файлове (бавно)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="107"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation>&amp;Запиши копие на листа за изпълнение при изход</translation>
+        <translation>&amp;Съхрани копие на списъка при изход</translation>
     </message>
 </context>
 <context>
@@ -7503,7 +7499,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="95"/>
         <source>Truetype Fonts</source>
-        <translation>Truetype Шрифтове</translation>
+        <translation>Truetype шрифтове</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="27"/>
@@ -7519,7 +7515,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="69"/>
         <source>Same name as movie</source>
-        <translation>Същото име като филма</translation>
+        <translation>Същото име като на филма</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="74"/>
@@ -7562,7 +7558,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="347"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете шрифт, който да се използва за субтитри (и ЕИ):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="387"/>
@@ -7598,12 +7594,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation>Тази настройка определя позицията на субтитрите върху видео прозореца.&lt;i&gt;100&lt;/i&gt;означава отдолу, докато &lt;i&gt;0&lt;/i&gt; означава отгоре.</translation>
+        <translation>Тази настройка определя позицията на субтитрите върху видео прозореца. &lt;i&gt;100&lt;/i&gt; означава отдолу, докато &lt;i&gt;0&lt;/i&gt; - означава отгоре.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто&amp;зареждане на файлове със субтитри (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="61"/>
@@ -7613,12 +7609,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="120"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Стандартна кодировка на субтитрите:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="510"/>
         <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартна &amp;позиция на екрана за субтитрите</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="207"/>
@@ -7648,7 +7644,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="422"/>
         <source>Default subtitle encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартна кодировка на субтитрите</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
@@ -7678,47 +7674,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="523"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете цвят на текста за субтитрите.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>Border color</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвят на ивицата</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="526"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете цвят на ивицата за субтитрите.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете метод за автозареждане на субтитри.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако има повече от един запис на субтитри, ще бъде зареден един от тях - първият, ако има запис, отговарящ на езиковите предпочитания на потребителя - ще бъде зареден.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете метод за автомащабиране на субтитрите.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете кодировка, която да се използва по подразбиране за субтитрите.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>Опитай да засечеш за този език</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="427"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Когато тази опция е активна, ще бъде направен опит за засичане на кодировката за избрания език. Ако засичането е неуспешно, ще бъде заредена стандартната кодировка. Това изисква MPlayer, компилиран с поддръжка на ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
@@ -7728,22 +7724,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="434"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете език, за който кодировката да бъде автоматично позната.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="106"/>
         <source>Encoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Кодировка</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="169"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Опитай да зас&amp;ечеш за този език:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да изберете ttf шрифт за субтитрите. Можете да намерите ttf шрифтове в %1</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="552"/>
@@ -7753,27 +7749,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете шрифт за субтитри.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да изберете системен шрифт за субтитри и ЕИ.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
         <source>The size in pixels.</source>
-        <translation>Размера в пиксели.</translation>
+        <translation>Размер в пиксели.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="516"/>
         <source>Bold</source>
-        <translation>Ясно очертан</translation>
+        <translation>Удебелен</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="517"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако е отметнато, текстът ще бъде показван &lt;b&gt;удебелен&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="519"/>
@@ -7783,67 +7779,67 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако е отметнато, текстът ще бъде показван &lt;i&gt;наклонен&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="531"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Лява граница</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определя лявата граница в пиксели.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="534"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Дясна граница</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="535"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определя дясната граница в пиксели.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="537"/>
         <source>Vertical margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикална граница</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="538"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определя вертикалната граница в пиксели.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="540"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Хоризонтално подравняване</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="541"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определя хоризонталното подравняване. Стойностите са ляво, центрирано и дясно.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="544"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикално подравняване</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="545"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определя вертикалното подравняване. Стойностите са: отдолу, в средата и отгоре.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Border style</source>
-        <translation type="unfinished"></translation>
+        <translation>Стил на ивицата</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="549"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"></translation>
+        <translation>Определя стила на ивицата. Стойностите са: контур и прозрачна кутия.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="556"/>
@@ -7853,17 +7849,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="724"/>
         <source>Si&amp;ze:</source>
-        <translation>&amp;Размер</translation>
+        <translation>&amp;Размер:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="766"/>
         <source>Bol&amp;d</source>
-        <translation>Ясно очер&amp;тан</translation>
+        <translation>Удебеле&amp;н</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="773"/>
         <source>&amp;Italic</source>
-        <translation>&amp;Наклонен</translation>
+        <translation>Н&amp;аклонен</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="785"/>
@@ -7873,52 +7869,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="794"/>
         <source>&amp;Text:</source>
-        <translation>&amp;Текс:</translation>
+        <translation>&amp;Текст:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="820"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"></translation>
+        <translation>Иви&amp;ца:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="872"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Граници</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="881"/>
         <source>L&amp;eft:</source>
-        <translation>На&amp;ляво:</translation>
+        <translation>Л&amp;ява:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="897"/>
         <source>&amp;Right:</source>
-        <translation>На&amp;дясно:</translation>
+        <translation>&amp;Дясна:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="913"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>По вертик&amp;ала:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="945"/>
         <source>Alignment</source>
-        <translation>Подредба</translation>
+        <translation>Подравняване</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="954"/>
         <source>&amp;Horizontal:</source>
-        <translation>&amp;Хоризонтала:</translation>
+        <translation>По &amp;хоризонтала:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="970"/>
         <source>&amp;Vertical:</source>
-        <translation>&amp;Вертикала:</translation>
+        <translation>По &amp;вертикала:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="991"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"></translation>
+        <translation>Стил на ивиц&amp;ата:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1017"/>
@@ -7933,25 +7929,25 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Следните опции Ви позволяват да изберете използваният стил за обикновени субтитри (srt, sub...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="100"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
-        <translation>Наляво</translation>
+        <translation>Ляво</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="101"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
-        <translation>Центриран</translation>
+        <translation>Центрирано</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="102"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
-        <translation>Надясно</translation>
+        <translation>Дясно</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="107"/>
@@ -7963,7 +7959,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
-        <translation>По средата</translation>
+        <translation>В средата</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="109"/>
@@ -7981,17 +7977,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"></translation>
+        <translation>Прозрачна кутия</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="553"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако е избран стил на ивицата &lt;i&gt;контур&lt;/i&gt;, тази опция определя ширината на контура около текста в пиксели.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="557"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако е избран стил на ивицата &lt;i&gt;контур&lt;/i&gt;, тази опция определя дълбочината на падащата сянка зад текста в пиксели.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="450"/>
@@ -8001,7 +7997,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="451"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Кликнете на този бутон, за да изберете нормални/традиционни субтитри. Този вид субтитри са само извежданите в бяло.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
@@ -8016,18 +8012,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция не променя размера на субтитрите в текущото видео. За да го промените използвайте опциите &lt;i&gt;Размер +&lt;/i&gt; и &lt;i&gt;Размер -&lt;/i&gt; в менюто субтитри.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Default scale</source>
-        <translation>Стандартено мащабиране</translation>
+        <translation>Стандартно мащабиране</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя стандартното мащабиране на шрифта за нормалните субтитри, което ще се използва за новоотворени файлове.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8037,22 +8033,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция определя стандартното мащабиране на шрифта за SSA/ASS субтитри, което ще се използва за новоотворени файлове.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Междуредие</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Това определя междуредието, което разделя редовете, когато са повече от един. Може да има и отрицателни стойности.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="251"/>
         <source>&amp;Font and colors</source>
-        <translation>&amp;Шрифтове и цветове</translation>
+        <translation>&amp;Шрифт и цветове</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="257"/>
@@ -8067,57 +8063,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="482"/>
         <source>Default s&amp;cale:</source>
-        <translation>Стандартено ма&amp;щабиране:</translation>
+        <translation>Стандартно ма&amp;щабиране:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="636"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>Маща&amp;биране под подразбиране:</translation>
+        <translation>Стандартно Маща&amp;биране:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="675"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Междуредие:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Кликнете на този бутон, за да активирате новата SSA/ASS библиотека. Това позволява да се извеждат субтитри с множество цветове, шрифтове...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Freetype support</source>
-        <translation>Подръжка на свободно писане</translation>
+        <translation>Поддръжка на Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="443"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Обикновено не е нужно да деактивирате тази опция. Направете го само, ако вашият MPlayer е компилиран без поддържака на freetype. &lt;b&gt;Деактивирането на тази опция може да попречи на работата на тези субтитри!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="227"/>
         <source>Freet&amp;ype support</source>
-        <translation>Подръжка на свободно п&amp;исане</translation>
+        <translation>Подръж&amp;ка на Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е отметната, субтитрите ще се показват в снимките на екрана. &lt;b&gt;Бележка:&lt;/b&gt; Понякога може да е причина за проблеми.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="381"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"></translation>
+        <translation>Моделиране стила на SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тук можете да въведете моделиран стил на SSA/ASS.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изчистете редактиращият ред, за да деактивирате моделирания стил.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="506"/>
@@ -8132,7 +8128,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="529"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Този цвят ще се използва за сянка на субтитрите.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="846"/>
@@ -8142,22 +8138,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="1100"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>Моде&amp;лиране...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="560"/>
         <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Прилагане на стила и върху ASS файлове</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="561"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е отметната, гореопределения стил ще се прилага и за ASS субтитри.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1077"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Прила&amp;гане на стила и върху ASS файлове</translation>
     </message>
 </context>
 <context>
@@ -8170,7 +8166,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="53"/>
         <source>None</source>
-        <translation>Няма</translation>
+        <translation>Без</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="54"/>
@@ -8180,37 +8176,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished">Yadif (нормално)</translation>
+        <translation>Yadif (нормален)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished">Yadif (двойна скорост)</translation>
+        <translation>Yadif (двойна честота)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished">Linear Blend</translation>
+        <translation>Linear Blend</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished">Kerndeint</translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation>Стандартна корекция на картина за ТВ</translation>
+        <translation>Стандартно компенсиране за ТВ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете компенсиращия филтър, който искате да се използва за ТВ канали.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Сканиране при стартиране на ~/.mplayer/channels.conf</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
@@ -8225,7 +8221,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, SMPlayer ще прегледа за нови ТВ и радио канали в ~/.mplayer/channels.conf.ter или ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -8253,7 +8249,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;Отвори първите стъпки за употреба след обновяване</translation>
+        <translation>&amp;Отвори наръчник с първи стъпки след обновяване</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8268,7 +8264,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активна, SMPlayer ще проверява за обновления и извежда известие, ако има налична нова версия.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -8283,12 +8279,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation>Отвори първите стъпки за употреба след обновяване</translation>
+        <translation>Отвори наръчник с първи стъпки след обновяване</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Ако тази опция е бключена, първите стъпки за употреба с информация и съвети как да изплозвате SMPlayer  ще се отворчт след обновление.</translation>
+        <translation>Ако тази опция е включена, след обновяването ще се отвори наръчник с първи стъпки с информация и подсказки за употребата на SMPlayer.</translation>
     </message>
 </context>
 <context>
@@ -8330,27 +8326,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="168"/>
         <source>will show this message and then will exit.</source>
-        <translation>ще покаже това съобщение и излезе след това.</translation>
+        <translation>ще покаже това съобщение и тогава ще излезе.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="147"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>основният прозорец ще бъде затворен, когато файлът/списъка за изпълнение завърши.</translation>
+        <translation>основният прозорец ще бъде затворен, когато файлът/списъка приключи.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="472"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>Това е SMPlayer v. %1 изпълняващ на %2</translation>
+        <translation>Това е SMPlayer v. %1, работещ на %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="unfinished"></translation>
+        <translation>се опитва да осъществи връзка с друго работещо копие и да му заяви конкретно действие. Пример: -send-action pause - Останалите опции (ако има такива) ще бъдат пренебрегнати и приложението ще се затвори. Ще върне 0 за успех или -1 за неуспех.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation type="unfinished"></translation>
+        <translation>action_list е списък с действия, разделени с интервали. Действията ще бъдат изпълнявани след зареждане на файл (ако има такъв) в същата последователност. За отметващи действия можете да пропуснете параметъра true или false. Пример: -actions &quot;fullscreen compact true&quot;. Кавичките са необходими, в случай че прилагате повече от едно действие.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="98"/>
@@ -8361,27 +8357,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="171"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако има друго работещо копие, медийния файл ще бъде добавен в списъка му. Ако няма друго работещо копие, тази опция ще бъде пренебрегната и файловете ще се отворят в ново такова.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="150"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"></translation>
+        <translation>основният прозорец няма да се затвори, когато файлът/списъка приключи.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="153"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>видеото ще се възпроизвежда на цял екран.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="156"/>
         <source>the video will be played in window mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>видеото ще се възпроизвежда в прозорец.</translation>
     </message>
     <message>
         <location filename="../winfileassoc.cpp" line="254"/>
         <source>Enqueue in SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>На опашка в SMPlayer</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="114"/>
@@ -8391,13 +8387,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="111"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Възстановява старите асоциации и изчиства регистъра.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
         <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Употреба:</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="93"/>
@@ -8407,12 +8403,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="94"/>
         <source>action_name</source>
-        <translation type="unfinished"></translation>
+        <translation>action_name</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="95"/>
         <source>action_list</source>
-        <translation type="unfinished"></translation>
+        <translation>action_list</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="120"/>
@@ -8422,12 +8418,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"></translation>
+        <translation>subtitle_file</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="159"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>определя файла със субтитри, който да се зареди за първото видео.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="77"/>
@@ -8455,13 +8451,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"></translation>
+        <translation>определя директорията, където smplayer ще съхранява файловете си с настройки (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="160"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation>забранен</translation>
+        <translation>деактивиран</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="170"/>
@@ -8473,17 +8469,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="171"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation>непознат</translation>
+        <translation>неизвестно</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation>отвори mpc ГПИ.</translation>
+        <translation>отваря кмп ГПИ.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
-        <translation>широчина</translation>
+        <translation>ширина</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
@@ -8493,22 +8489,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"></translation>
+        <translation>отваря гпи с поддръжка за кожи.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"></translation>
+        <translation>определя координатите, на които да се появява основният прозорец.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="165"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"></translation>
+        <translation>определя размера на основния прозорец.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>„медия“ е всеки вид файл, който SMPlayer може да отвори. Може да бъде местен файл, DVD (напр. dvd://1), интернет поток (напр. mms://...) или местен списък във формат m3u или pls.</translation>
     </message>
 </context>
 <context>
@@ -8531,7 +8527,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
         <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation>Или можете да споделите SMPlayer с вашите приятели в Фейсбук.</translation>
+        <translation>Или можете да споделите SMPlayer с вашите приятели във Facebook.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="36"/>
@@ -8541,23 +8537,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation>&amp;Дари</translation>
+        <translation>&amp;Дарение</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
         <translation>&amp;Споделете с приятели</translation>
-    </message>
-</context>
-<context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">икона</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">надпис</translation>
     </message>
 </context>
 <context>
@@ -8580,60 +8565,60 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="293"/>
         <source>Capture</source>
-        <translation>Прихвани</translation>
+        <translation>Прихващане</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Capture keystrokes</source>
-        <translation>Прихвани клавиши</translation>
+        <translation>Прихващане на клавиши</translation>
     </message>
 </context>
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Ленти</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
-        <translation>&amp;Лента за статус</translation>
+        <translation>&amp;Лента на състоянието</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Главна лента</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Редактирай главна &amp;лента</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>Редактирай &amp;плаваща лента</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation>&amp;Видео информация</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
-        <translation>Изпълнява се %1</translation>
+        <translation>Възпроизвежда се %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
-        <translation>Стоп</translation>
+        <translation>Спиране</translation>
     </message>
 </context>
 <context>
@@ -8646,7 +8631,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation type="unfinished"></translation>
+        <translation>Този архив съдържа повече от един файл със субтитри. Моля изберете този, който искате да разархивирате.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -8656,7 +8641,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation>Избери Никой</translation>
+        <translation>Без избрани</translation>
     </message>
 </context>
 <context>
@@ -8664,7 +8649,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор на канали</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="95"/>
@@ -8677,7 +8662,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
-        <translation>&amp;Скочи до:</translation>
+        <translation>&amp;Прескачане до:</translation>
     </message>
 </context>
 <context>
@@ -8685,12 +8670,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Редактор на лента</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Възмо&amp;жни действия:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
@@ -8715,43 +8700,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Текущи дейс&amp;твия:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"></translation>
+        <translation>Добави &amp;разделител</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(разделител)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Времеви плъзгач</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"></translation>
+        <translation>Звуков плъзгач</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Показване на време</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"></translation>
+        <translation>3 в 1 назад</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"></translation>
+        <translation>3 в 1 напред</translation>
     </message>
 </context>
 <context>
@@ -8777,42 +8762,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Предпочитания на VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изберете vdpau кодеци. Възможно е да не работят всички.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Деактивиране на софтуерни видео филтри</translation>
     </message>
 </context>
 <context>
@@ -8820,57 +8805,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Видео изравнител</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Контраст</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Яркост</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Нюанс</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Насищане</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Гама</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Софтуерен &amp;изравнител</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"></translation>
+        <translation>Задай като &amp;стандартни стойности</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;Възстановяване</translation>
+        <translation>&amp;Възстанови</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Използване като стандартни за нови видеоклипове.</translation>
+        <translation>Изпилзвай текущите стойности като стандартни за новите видеа.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished">Зануляване на всичко.</translation>
+        <translation>Задай всички контроли на нула.</translation>
     </message>
 </context>
 <context>
@@ -8878,7 +8863,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="395"/>
         <source>Video preview</source>
-        <translation>Преглед на видеоклипове</translation>
+        <translation>Преглед на видео</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="135"/>
@@ -8888,12 +8873,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Генератор на миниатюри</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
         <source>Generated by SMPlayer</source>
-        <translation>Генерират от SMPlayer</translation>
+        <translation>Генериран от SMPlayer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="226"/>
@@ -8908,7 +8893,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>Length: %1</source>
-        <translation>Дължина: %1</translation>
+        <translation>Времетраене: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="523"/>
@@ -8918,7 +8903,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="531"/>
         <source>Error saving file</source>
-        <translation>Грешка при запис на файла</translation>
+        <translation>Грешка при запис на файл</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="532"/>
@@ -8933,22 +8918,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="183"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation>Следната грешка възникна докато се създаваха миниатюри:</translation>
+        <translation>Възникна следната грешка, докато се създаваха миниатюри:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation type="unfinished"></translation>
+        <translation>Временната директория (%1) не може да бъде създадена</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="304"/>
         <source>The mplayer process didn&apos;t run</source>
-        <translation type="unfinished"></translation>
+        <translation>Процесът на mplayer не се стартира</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="380"/>
         <source>Resolution: %1x%2</source>
-        <translation>Разделителна способност: %1x%2</translation>
+        <translation>Резолюция: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="384"/>
@@ -8978,22 +8963,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="481"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Процесът на mplayer не започна, докато се опитваше да извлече информация за видеото</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="200"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Времетраенето на видеото е 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="244"/>
         <source>The file %1 doesn&apos;t exist</source>
-        <translation>Файлът %1 несъществува</translation>
+        <translation>Файлът %1 не съществува</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="524"/>
         <source>Images</source>
-        <translation>Снимки</translation>
+        <translation>Изображения</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="368"/>
@@ -9004,7 +8989,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../videopreview/videopreview.cpp" line="371"/>
         <location filename="../videopreview/videopreview.cpp" line="372"/>
         <source>%1 kbps</source>
-        <translation>%1 kbps</translation>
+        <translation>%1 кбвс</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="373"/>
@@ -9014,17 +8999,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="389"/>
         <source>Video bitrate: %1</source>
-        <translation>Видео битрейт: %1</translation>
+        <translation>Побитова скорост на видео: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="390"/>
         <source>Audio bitrate: %1</source>
-        <translation>Аудио битрейт: %1</translation>
+        <translation>Побитова скорост на звук: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="391"/>
         <source>Audio rate: %1</source>
-        <translation>Аудио темпо: %1</translation>
+        <translation>Темпо на звука: %1</translation>
     </message>
 </context>
 <context>
@@ -9037,7 +9022,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Генератор на миниатюри</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
@@ -9062,12 +9047,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="200"/>
         <source>&amp;Maximum width:</source>
-        <translation>&amp;Максимална широчина:</translation>
+        <translation>&amp;Максимална ширина:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ще бъде създаден преглед за видеото, което изберете.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
@@ -9088,47 +9073,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако отметнете тази опция, времетраенето ще бъде отпечатано в долния край на всяка миниатюра.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако съотношението на видеото е грешно, тук можете да зададете различно.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Обикновено първите рамки са черни, затова е добра идея да се пропуснат няколко секунди от началото на видеото. Тази опция позволява задаване на броя пропуснати секунди.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция задава максималната ширина в пиксели, която ще има герерираното изображение.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>Някои кадри ще бъдат извлечени от видеоклипа за да се създаде преглед. Тук можете да изберете формата на картината за извлеченият кадър. PNG може да даде по-добро качество.</translation>
+        <translation>Някои кадри ще бъдат извлечени от видеоклипа, за да се създаде преглед. Тук можете да изберете формата на изображението за извлеченият кадър. PNG може да даде по-добро качество.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation>Добави &amp;време на изплълнение към миниатюрите</translation>
+        <translation>Добави &amp;времетраене към миниатюрите</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation>&amp;Секунди да се пропуснат в началото:</translation>
+        <translation>&amp;Секунди за пропускане от началото:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
-        <translation>&amp;Извлечи кадър като</translation>
+        <translation>&amp;Извлечи кадрите като</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>Тук задай DVD устройството или папката с DVD изображение.</translation>
+        <translation>Тук задайте DVD устройството или папката с DVD изображение.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>

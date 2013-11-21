@@ -4589,10 +4589,6 @@ Kas sa tahad ümber kirjutada?</translation>
         <translation>&amp;Arenenud</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">ikoon</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>T&amp;eavitage MPlayeri kokkujooksmistest</translation>
@@ -6027,10 +6023,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
         <translation>&amp;Klaviatuur</translation>
-    </message>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ikoon</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -8553,13 +8545,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">ikoon</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8590,47 +8575,47 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation type="unfinished">&amp;Tööribad</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation type="unfinished">Oleku&amp;riba</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation type="unfinished">&amp;Põhi tööriba</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation type="unfinished">Kohandage peamist &amp;tööriistariba</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation type="unfinished">&amp;Video info</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation type="unfinished">Mängin %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation type="unfinished">Paus</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation type="unfinished">Stop</translation>
     </message>
