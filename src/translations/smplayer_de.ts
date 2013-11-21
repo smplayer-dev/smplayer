@@ -11,12 +11,12 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Links:</source>
-        <translation>Links:</translation>
+        <translation>Verweise:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>Official website:</source>
-        <translation>Offizielle Website:</translation>
+        <translation>Offizielle Webseite:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -260,7 +260,7 @@
     <message>
         <location filename="../about.cpp" line="59"/>
         <source>Portable Edition</source>
-        <translation>Portable Edition</translation>
+        <translation>Tragbare Version</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="65"/>
@@ -854,7 +854,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
         <source>&amp;OSD</source>
-        <translation>&amp;OSD</translation>
+        <translation>&amp;Bildschirmanzeige</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1917"/>
@@ -1128,7 +1128,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
         <source>&amp;Open configuration folder</source>
-        <translation>Konfigurationsordner &amp;öffnen</translation>
+        <translation>&amp;Konfigurationsordner öffnen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1656"/>
@@ -1148,7 +1148,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1684"/>
         <source>OSD - Next level</source>
-        <translation>OSD – Nächste Stufe</translation>
+        <translation>Bildschirmanzeige – Nächste Stufe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
@@ -1693,7 +1693,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1903"/>
         <source>DVD &amp;menu</source>
-        <translation>DVD-&amp;Menü</translation>
+        <translation>&amp;DVD-Menü</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
@@ -1848,12 +1848,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>Zoo&amp;m</source>
-        <translation>Zoo&amp;m</translation>
+        <translation>&amp;Zoom</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
         <source>Show filename on OSD</source>
-        <translation>Dateinamen auf dem OSD anzeigen</translation>
+        <translation>Dateinamen auf der Bildschirmanzeige anzeigen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1516"/>
@@ -1898,7 +1898,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1648"/>
         <source>Check for &amp;updates</source>
-        <translation>Nach Akt&amp;ualisierungen suchen</translation>
+        <translation>&amp;Nach Aktualisierungen suchen</translation>
     </message>
 </context>
 <context>
@@ -2177,7 +2177,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="533"/>
         <source>&amp;Frame counter</source>
-        <translation>&amp;Einzelbild-Zähler</translation>
+        <translation>&amp;Einzelbildzähler</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="536"/>
@@ -4591,10 +4591,6 @@ Möchten Sie sie überschreiben?</translation>
         <translation>&amp;Erweitert</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">Symbol</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>MPlayer-Abstürze m&amp;elden</translation>
@@ -5199,12 +5195,12 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="27"/>
         <source>&amp;General</source>
-        <translation>All&amp;gemein</translation>
+        <translation>&amp;Allgemein</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="53"/>
         <source>Media settings</source>
-        <translation>Medien-Einstellungen</translation>
+        <translation>Medieneinstellungen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
@@ -5389,7 +5385,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="963"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Doppelpufferung verhindert Flackern, indem zwei Bilder zwischengespeichert werden. Das eine wird angezeigt, während das andere dekodiert wird. Wenn diese Option abgeschaltet ist, kann es sich negativ auf das OSD auswirken, aber meistens entfernt das OSD-Flackern entfernen.</translation>
+        <translation>Doppelpufferung verhindert Flackern, indem zwei Bilder zwischengespeichert werden. Das eine wird angezeigt, während das andere dekodiert wird. Wenn diese Option abgeschaltet ist, kann es sich negativ auf die Bildschirmanzeige auswirken, aber meistens entfernt es das Flackern der Bildschirmanzeige.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="292"/>
@@ -5474,7 +5470,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1065"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Stellt das maximale Verstärkungsniveau ein (Standard: 110). Ein Wert von 200 erlaubt Ihnen, die Standard-Lautstärke auf bis zu dem doppelten Niveau des jetzigen Niveaus anzupassen. Mit Werten unter 100 ist die Anfangslautstärke, die 100 % beträgt, über dem Maximum, was z. B. das OSD nicht richtig anzeigen kann.</translation>
+        <translation>Stellt die maximale Verstärkungsstufe in Prozent ein (Vorgabe: 110). Ein Wert von 200 erlaubt es Ihnen, die Lautstärke bis zum maximal Doppelten der aktuellen Stufe anzupassen. Mit Werten unter 100 ist die Anfangslautstärke, welche 100 % beträgt, über dem Maximalen, was z. B. die Bildschirmanzeige nicht richtig anzeigen kann.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="935"/>
@@ -5827,7 +5823,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Wenn diese Option aktiviert ist, wird direktes Rendern aktiviert (wird nicht von allen Video-Codecs und Video-Ausgaben unterstützt).&lt;br&gt;&lt;b&gt;Warnung:&lt;/b&gt; Dies könnte OSD/SUB-Fehler zur Folge haben.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird direktes Rendern aktiviert (wird nicht von allen Video-Codecs und Video-Ausgaben unterstützt).&lt;br&gt;&lt;b&gt;Achtung:&lt;/b&gt; Das könnte Bildschirmanzeigen/Untertitel-Fehler zur Folge haben.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1040"/>
@@ -6033,10 +6029,6 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
         <translation>&amp;Tastatur</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">Symbol</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Maus</translation>
@@ -6177,7 +6169,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Frame counter</source>
-        <translation>Einzelbild-Zähler</translation>
+        <translation>Einzelbildzähler</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="76"/>
@@ -6298,7 +6290,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
         <source>OSD - Next level</source>
-        <translation>OSD – Nächste Stufe</translation>
+        <translation>Bildschirmanzeige – Nächste Stufe</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
@@ -7570,7 +7562,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="347"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation>Wählen Sie die Schriftart, die für die Untertitel und das OSD verwendet werden soll:</translation>
+        <translation>Die Schriftart wählen, welche für die Untertitel und die Bildschirmanzeige verwendet werden soll:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="387"/>
@@ -7766,7 +7758,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation>Hier können Sie eine Systemschriftart auswählen, die für die Untertitel und OSD verwendet wird.</translation>
+        <translation>Hier können Sie eine Systemschriftart auswählen, die für die Untertitel und Bildschirmanzeige verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="514"/>
@@ -8251,7 +8243,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation>Nach Akt&amp;ualisierungen suchen</translation>
+        <translation>&amp;Nach Aktualisierungen suchen</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
@@ -8558,17 +8550,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     </message>
 </context>
 <context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">Symbol</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">Kennzeichnung</translation>
-    </message>
-</context>
-<context>
     <name>ShortcutGetter</name>
     <message>
         <location filename="../shortcutgetter.cpp" line="268"/>
@@ -8599,47 +8580,47 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="399"/>
+        <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Werkzeugleisten</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="402"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Statusleiste</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="405"/>
+        <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Haupt-Werkzeugleiste</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="409"/>
+        <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Haupt-Werk&amp;zeugleiste bearbeiten</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="411"/>
+        <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
         <translation>Schwebendes &amp;Kontrollelement bearbeiten</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="415"/>
+        <location filename="../skingui/skingui.cpp" line="416"/>
         <source>&amp;Video info</source>
         <translation>&amp;Video-Informationen</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="428"/>
+        <location filename="../skingui/skingui.cpp" line="427"/>
         <source>Playing %1</source>
         <translation>%1 wird abgespielt</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="428"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="430"/>
+        <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Stop</source>
         <translation>Stopp</translation>
     </message>
@@ -8828,37 +8809,37 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-Equalizer</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrast</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Helligkeit</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Farbton</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sättigung</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gamma</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Software-Equalizer</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
@@ -8868,7 +8849,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zurücksetzen</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
