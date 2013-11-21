@@ -88,6 +88,7 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	statusBar()->hide();
 
 	changeStyleSheet(pref->iconset);
+	mediaBarPanel->setVolume(50);
 }
 
 SkinGui::~SkinGui() {
@@ -413,8 +414,6 @@ void SkinGui::retranslateStrings() {
 #endif
 
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
-
-	/* mediaBarPanel->setVolume(core->mset.volume); */
 }
 
 void SkinGui::displayTime(QString text) {
@@ -469,7 +468,6 @@ void SkinGui::aboutToEnterFullscreen() {
 	floating_control->layout()->addWidget(mediaBarPanel);
 	mediaBarPanel->show();
 	floating_control->adjustSize();
-	/* mediaBarPanel->setVolume(core->mset.volume); */ // FIXME
 	#endif
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->setPercWidth(pref->floating_control_width);
@@ -495,7 +493,6 @@ void SkinGui::aboutToExitFullscreen() {
 	#ifndef SKIN_EDITABLE_CONTROL
 	floating_control->layout()->removeWidget(mediaBarPanel);
 	mediaBarPanelAction = controlwidget->addWidget(mediaBarPanel);
-	/* mediaBarPanel->setVolume(core->mset.volume); */ // FIXME
 	#endif
 
 	if (!pref->compact_mode) {
