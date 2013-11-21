@@ -46,10 +46,6 @@ Q_PROPERTY(QPixmap forward READ forwardIcon WRITE setForwardIcon)
 Q_PROPERTY(QPixmap shuffle READ shuffleIcon WRITE setShuffleIcon )
 Q_PROPERTY(QPixmap repeat READ repeatIcon WRITE setRepeatIcon )
 
-Q_PROPERTY(QPixmap logoBg READ logoBgIcon WRITE setLogoBgIcon )
-Q_PROPERTY(QPixmap logoSplash READ logoSplashIcon WRITE setLogoSplashIcon )
-Q_PROPERTY(QPixmap logo READ logoIcon WRITE setLogoIcon )
-
 public:
 
     static IconSetter* instance();
@@ -89,14 +85,6 @@ public:
     void setRepeatIcon( QPixmap icon) { mediaPanelButtonIcon(2, icon); }
     QPixmap repeatIcon() { return mediaPanel->repeatButton->myIcon().pixmap(MyIcon::Normal, MyIcon::Off); }
 
-    QPixmap logoBgIcon() { return logoBgPix; }
-    QPixmap logoSplashIcon() { return logoSplashPix; }
-    QPixmap logoIcon() { return logoPix; }
-
-    void setLogoBgIcon(QPixmap icon) { logoBgPix = icon; }
-    void setLogoSplashIcon(QPixmap icon) { logoSplashPix = icon; }
-    void setLogoIcon(QPixmap icon) { logoPix = icon; }
-
 	void setToolbarActions(QList<QAction *>actions) { toolbar_actions = actions; }
 	QList<QAction *> toolbarActions() { return toolbar_actions; }
 
@@ -109,9 +97,6 @@ private:
     void buttonIcon(int n, QPixmap pix );
     void mediaPanelButtonIcon( int n, QPixmap pix);
 
-    QPixmap logoPix;
-    QPixmap logoSplashPix;
-    QPixmap logoBgPix;
 	QList<QAction *> toolbar_actions;
 };
 

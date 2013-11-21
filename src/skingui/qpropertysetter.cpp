@@ -34,9 +34,6 @@ IconSetter* IconSetter::m_instance = 0;
 IconSetter::IconSetter(QWidget *parent) :
     QWidget(parent)
 {
-    logoBgPix = Images::icon("ump-splash-bg");
-    logoSplashPix = Images::icon("ump-splash-highlight");
-    logoPix = Images::icon("ump-splash-logo");
 }
 
 IconSetter* IconSetter::instance()
