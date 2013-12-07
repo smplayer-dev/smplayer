@@ -1194,14 +1194,18 @@ void Core::finishRestart() {
 
 	changeAspectRatio(mset.aspect_ratio_id);
 
-	if (pref->global_volume) {
-		bool was_muted = pref->mute;
-		setVolume( pref->volume, true);
-		if (was_muted) mute(true);
+	if (pref->mplayer_additional_options.contains("-volume")) {
+		qDebug("Core::finishRestart: don't set volume since -volume is used");
 	} else {
-		bool was_muted = mset.mute;
-		 setVolume( mset.volume, true );
-		if (was_muted) mute(true);
+		if (pref->global_volume) {
+			bool was_muted = pref->mute;
+			setVolume( pref->volume, true);
+			if (was_muted) mute(true);
+		} else {
+			bool was_muted = mset.mute;
+			 setVolume( mset.volume, true );
+			if (was_muted) mute(true);
+		}
 	}
 
 	if (pref->change_video_equalizer_on_startup && (mset.gamma != 0)) {
@@ -2033,19 +2037,23 @@ void Core::startMplayer( QString file, double seek ) {
 	// Set volume, requires mplayer svn r27872
 	bool use_volume_option = (MplayerVersion::isMplayerAtLeast(27872));
 
-	if (pref->global_volume) {
-		if (use_volume_option) {
-			proc->addArgument("-volume");
-			proc->addArgument( QString::number( pref->volume ) );
-		}
+	if (pref->mplayer_additional_options.contains("-volume")) {
+		qDebug("Core::startMplayer: don't set volume since -volume is used");
 	} else {
-		if (use_volume_option) {
-			proc->addArgument("-volume");
-			// Note: mset.volume may not be right, it can be the volume of the previous video if
-			// playing a new one, but I think it's better to use anyway the current volume on
-			// startup than set it to 0 or something.
-			// The right volume will be set later, when the video starts to play.
-			proc->addArgument( QString::number( mset.volume ) );
+		if (pref->global_volume) {
+			if (use_volume_option) {
+				proc->addArgument("-volume");
+				proc->addArgument( QString::number( pref->volume ) );
+			}
+		} else {
+			if (use_volume_option) {
+				proc->addArgument("-volume");
+				// Note: mset.volume may not be right, it can be the volume of the previous video if
+				// playing a new one, but I think it's better to use anyway the current volume on
+				// startup than set it to 0 or something.
+				// The right volume will be set later, when the video starts to play.
+				proc->addArgument( QString::number( mset.volume ) );
+			}
 		}
 	}
 
@@ -3502,12 +3510,16 @@ void Core::changeAudio(int ID, bool allow_restart) {
 			// Workaround too for a mplayer problem in linux,
 			// the volume is reduced if using -softvol-max.
 
-			if (pref->global_volume) {
-				setVolume( pref->volume, true);
-				if (pref->mute) mute(true);
+			if (pref->mplayer_additional_options.contains("-volume")) {
+				qDebug("Core::changeAudio: don't set volume since -volume is used");
 			} else {
-				setVolume( mset.volume, true );
-				if (mset.mute) mute(true); // if muted, mute again
+				if (pref->global_volume) {
+					setVolume( pref->volume, true);
+					if (pref->mute) mute(true);
+				} else {
+					setVolume( mset.volume, true );
+					if (mset.mute) mute(true); // if muted, mute again
+				}
 			}
 			updateWidgets();
 		}
