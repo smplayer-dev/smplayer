@@ -161,7 +161,9 @@ void Preferences::reset() {
 
 	dvd_device = "";
 	cdrom_device = "";
+#ifdef BLURAY_SUPPORT
 	bluray_device = "";
+#endif
 
 #ifndef Q_OS_WIN
 	// Try to set default values
@@ -614,7 +616,9 @@ void Preferences::save() {
 
 	set->setValue("dvd_device", dvd_device);
 	set->setValue("cdrom_device", cdrom_device);
+#ifdef BLURAY_SUPPORT
 	set->setValue("bluray_device", bluray_device);
+#endif
 
 #ifdef Q_OS_WIN
 	set->setValue("enable_audiocd_on_windows", enable_audiocd_on_windows);
@@ -1092,7 +1096,9 @@ void Preferences::load() {
 
 	dvd_device = set->value("dvd_device", dvd_device).toString();
 	cdrom_device = set->value("cdrom_device", cdrom_device).toString();
+#ifdef BLURAY_SUPPORT
 	bluray_device = set->value("bluray_device", bluray_device).toString();
+#endif
 
 #ifdef Q_OS_WIN
 	enable_audiocd_on_windows = set->value("enable_audiocd_on_windows", enable_audiocd_on_windows).toBool();

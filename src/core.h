@@ -80,7 +80,9 @@ public slots:
 	void openDVD(int title = 1);
 	*/
 	void openDVD(QString dvd_url);
+#ifdef BLURAY_SUPPORT
 	void openBluRay(QString blu_ray_url);
+#endif
 	void openVCD(int title = -1);
 	void openAudioCD(int title = -1);
 	void openTV(QString channel_id);

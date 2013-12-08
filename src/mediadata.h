@@ -40,7 +40,10 @@
 #define TYPE_VCD 3
 #define TYPE_AUDIO_CD 4
 #define TYPE_TV 5
+
+#ifdef BLURAY_SUPPORT
 #define TYPE_BLURAY 6
+#endif
 
 class MediaData {
 

@@ -775,6 +775,7 @@ void Core::openDVD(QString dvd_url) {
 }
 
 
+#ifdef BLURAY_SUPPORT
 /**
  * Opens a BluRay, taking advantage of mplayer's capabilities to do so.
  */
@@ -821,6 +822,7 @@ void Core::openBluRay(QString bluray_url) {
 
 	initPlaying();
 }
+#endif
 
 void Core::openTV(QString channel_id) {
 	qDebug("Core::openTV: '%s'", channel_id.toUtf8().constData());
@@ -2100,7 +2102,9 @@ void Core::startMplayer( QString file, double seek ) {
 		case TYPE_VCD 		: cache = pref->cache_for_vcds; break;
 		case TYPE_AUDIO_CD	: cache = pref->cache_for_audiocds; break;
 		case TYPE_TV		: cache = pref->cache_for_tv; break;
+#ifdef BLURAY_SUPPORT
 		case TYPE_BLURAY	: cache = pref->cache_for_dvds; break; // FIXME: use cache for bluray?
+#endif
 		default: cache = 0;
 	}
 
@@ -3637,6 +3641,7 @@ void Core::changeTitle(int ID) {
 		}
 		#endif
 	}
+#ifdef BLURAY_SUPPORT
 	else
 	if (mdat.type == TYPE_BLURAY) {
 		//DiscName::test();
@@ -3647,6 +3652,7 @@ void Core::changeTitle(int ID) {
 		qDebug("Core::changeTitle: bluray_url: %s", bluray_url.toUtf8().constData());
 		openBluRay(bluray_url);
 	}
+#endif
 }
 
 void Core::changeChapter(int ID) {
