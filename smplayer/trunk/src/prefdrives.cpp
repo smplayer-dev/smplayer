@@ -55,6 +55,11 @@ PrefDrives::PrefDrives(QWidget * parent, Qt::WindowFlags f)
 	check_drives_button->hide();
 #endif
 
+#ifndef BLURAY_SUPPORT
+	bluray_widget->hide();
+	bluray_sep->hide();
+#endif
+
 	updateDriveCombos();
 
 	retranslateStrings();
@@ -78,7 +83,9 @@ void PrefDrives::retranslateStrings() {
 
 	cdrom_drive_icon->setPixmap( Images::icon("cdrom_drive") );
 	dvd_drive_icon->setPixmap( Images::icon("dvd_drive") );
+#ifdef BLURAY_SUPPORT
 	bluray_drive_icon->setPixmap( Images::icon("bluray_drive") );
+#endif
 
 	createHelp();
 }
@@ -88,12 +95,16 @@ void PrefDrives::updateDriveCombos(bool detect_cd_devices) {
 
 	// Save current values
 	QString current_dvd_device = dvdDevice();
-	QString current_bluray_device = blurayDevice();
 	QString current_cd_device = cdromDevice();
+#ifdef BLURAY_SUPPORT
+	QString current_bluray_device = blurayDevice();
+#endif
 
 	dvd_device_combo->clear();
-	bluray_device_combo->clear();
 	cdrom_device_combo->clear();
+#ifdef BLURAY_SUPPORT
+	bluray_device_combo->clear();
+#endif
 
 	// DVD device combo
 	// In windows, insert the drives letters
@@ -106,8 +117,10 @@ void PrefDrives::updateDriveCombos(bool detect_cd_devices) {
 		if (is_cd_device) {
 			if (s.endsWith("/")) s = s.remove( s.length()-1,1);
 			dvd_device_combo->addItem( s );
-			bluray_device_combo->addItem( s );
 			cdrom_device_combo->addItem( s );
+			#ifdef BLURAY_SUPPORT
+			bluray_device_combo->addItem( s );
+			#endif
 		}
 	}
 #else
@@ -118,21 +131,27 @@ void PrefDrives::updateDriveCombos(bool detect_cd_devices) {
 		QString device_name = "/dev/" + devices[n];
 		qDebug("PrefDrives::PrefDrives: device found: '%s'", device_name.toUtf8().constData());
 		dvd_device_combo->addItem(device_name);
-		bluray_device_combo->addItem(device_name);
 		cdrom_device_combo->addItem(device_name);
+		#ifdef BLURAY_SUPPORT
+		bluray_device_combo->addItem(device_name);
+		#endif
 	}
 #endif
 
 	// Restore previous values
 	setDVDDevice( current_dvd_device );
-	setBlurayDevice( current_bluray_device );
 	setCDRomDevice( current_cd_device );
+#ifdef BLURAY_SUPPORT
+	setBlurayDevice( current_bluray_device );
+#endif
 }
 
 void PrefDrives::setData(Preferences * pref) {
 	setDVDDevice( pref->dvd_device );
-	setBlurayDevice( pref->bluray_device );
 	setCDRomDevice( pref->cdrom_device );
+#ifdef BLURAY_SUPPORT
+	setBlurayDevice( pref->bluray_device );
+#endif
 
 #if DVDNAV_SUPPORT
 	setUseDVDNav( pref->use_dvdnav );
@@ -143,8 +162,10 @@ void PrefDrives::getData(Preferences * pref) {
 	requires_restart = false;
 
 	pref->dvd_device = dvdDevice();
-	pref->bluray_device = blurayDevice();
 	pref->cdrom_device = cdromDevice();
+#ifdef BLURAY_SUPPORT
+	pref->bluray_device = blurayDevice();
+#endif
 
 #if DVDNAV_SUPPORT
 	pref->use_dvdnav = useDVDNav();
@@ -159,6 +180,7 @@ QString PrefDrives::dvdDevice() {
 	return dvd_device_combo->currentText();
 }
 
+#ifdef BLURAY_SUPPORT
 void PrefDrives::setBlurayDevice( QString dir ) {
 	bluray_device_combo->setCurrentText( dir );
 }
@@ -166,6 +188,7 @@ void PrefDrives::setBlurayDevice( QString dir ) {
 QString PrefDrives::blurayDevice() {
 	return bluray_device_combo->currentText();
 }
+#endif
 
 void PrefDrives::setCDRomDevice( QString dir ) {
 	cdrom_device_combo->setCurrentText( dir );
@@ -212,8 +235,10 @@ void PrefDrives::createHelp() {
            "issues with it."));
 #endif
 
+#ifdef BLURAY_SUPPORT
 	setWhatsThis(bluray_device_combo, tr("Blu-ray device"),
 		tr("Choose your Blu-ray device. It will be used to play Blu-ray discs.") );
+#endif
 }
 
 #include "moc_prefdrives.cpp"

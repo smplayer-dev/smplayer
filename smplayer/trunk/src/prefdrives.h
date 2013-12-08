@@ -48,8 +48,10 @@ protected:
 	void setDVDDevice( QString dir );
 	QString dvdDevice();
 
+#ifdef BLURAY_SUPPORT
 	void setBlurayDevice( QString dir );
 	QString blurayDevice();
+#endif
 
 	void setCDRomDevice( QString dir );
 	QString cdromDevice();
