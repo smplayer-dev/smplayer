@@ -3774,6 +3774,7 @@ void Core::nextAspectRatio() {
       << MediaSettings::Aspect11	// 1
       << MediaSettings::Aspect54	// 1.25
       << MediaSettings::Aspect43	// 1.33
+      << MediaSettings::Aspect118	// 1.37
       << MediaSettings::Aspect1410	// 1.4
       << MediaSettings::Aspect32	// 1.5
       << MediaSettings::Aspect149	// 1.55

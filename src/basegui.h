@@ -610,6 +610,7 @@ protected:
 	MyAction * aspect11Act;		// 1:1
 	MyAction * aspect32Act;		// 3:2
 	MyAction * aspect43Act;		// 4:3
+	MyAction * aspect118Act;	// 11:8
 	MyAction * aspect54Act;		// 5:4
 	MyAction * aspect149Act;	// 14:9
 	MyAction * aspect1410Act;	// 14:10
