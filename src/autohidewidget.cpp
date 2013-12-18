@@ -20,11 +20,14 @@
 #include <QTimer>
 #include <QEvent>
 #include <QVBoxLayout>
+#include <QMouseEvent>
 #include <QDebug>
 
 #if QT_VERSION >= 0x040600
 #include <QPropertyAnimation>
 #endif
+
+//#define TEST_AUTOHIDE_CHECK_BOTTOM
 
 AutohideWidget::AutohideWidget(QWidget * parent)
 	: QWidget(parent)
@@ -54,6 +57,10 @@ AutohideWidget::AutohideWidget(QWidget * parent)
 	layout->setSpacing(0);
 	layout->setMargin(0);
 	setLayout(layout);
+
+#ifdef TEST_AUTOHIDE_CHECK_BOTTOM
+//	activate();
+#endif
 }
 
 AutohideWidget::~AutohideWidget() {
@@ -131,8 +138,20 @@ bool AutohideWidget::eventFilter(QObject * obj, QEvent * event) {
 	if (turned_on) {
 		//qDebug() << "AutohideWidget::eventFilter: obj:" << obj << "type:" << event->type();
 		if (event->type() == QEvent::MouseMove) {
+			#ifdef TEST_AUTOHIDE_CHECK_BOTTOM
+			QMouseEvent * mouse_event = dynamic_cast<QMouseEvent*>(event);
+			QWidget * parent = parentWidget();
+			QPoint p = parent->mapFromGlobal(mouse_event->globalPos());
+			qDebug() << "AutohideWidget::eventFilter: y:" << p.y();
 			//qDebug() << "AutohideWidget::eventFilter: mouse move" << obj;
+			if (!isVisible()) {
+				if (p.y() > (parent->height() - height() - spacing)) {
+					show();
+				}
+			}
+			#else
 			if (!isVisible()) show();
+			#endif
 		}
 	}
 
