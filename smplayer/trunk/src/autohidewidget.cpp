@@ -34,7 +34,7 @@ AutohideWidget::AutohideWidget(QWidget * parent)
 	, use_animation(false)
 	, spacing(0)
 	, perc_width(100)
-	, activation_area(AnyWhere)
+	, activation_area(Anywhere)
 	, internal_widget(0)
 	, timer(0)
 #if QT_VERSION >= 0x040600
@@ -135,7 +135,7 @@ bool AutohideWidget::eventFilter(QObject * obj, QEvent * event) {
 		if (event->type() == QEvent::MouseMove) {
 			//qDebug() << "AutohideWidget::eventFilter: mouse move" << obj;
 			if (!isVisible()) {
-				if (activation_area == AnyWhere) {
+				if (activation_area == Anywhere) {
 					show();
 				} else {
 					QMouseEvent * mouse_event = dynamic_cast<QMouseEvent*>(event);

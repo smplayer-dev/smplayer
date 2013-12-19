@@ -29,7 +29,7 @@ class AutohideWidget : public QWidget
 	Q_OBJECT
 
 public:
-	enum Activation { AnyWhere = 1, Bottom = 2 };
+	enum Activation { Anywhere = 1, Bottom = 2 };
 
 	AutohideWidget(QWidget * parent = 0);
 	~AutohideWidget();
