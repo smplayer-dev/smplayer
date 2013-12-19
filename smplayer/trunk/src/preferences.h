@@ -498,6 +498,7 @@ public:
 	int floating_control_width;
 	bool floating_control_animated;
 	bool floating_display_in_compact_mode;
+	int floating_activation_area;
 
 
     /* *******

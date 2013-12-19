@@ -23,6 +23,7 @@
 #include "recents.h"
 #include "urlhistory.h"
 #include "filters.h"
+#include "autohidewidget.h"
 
 #include <QSettings>
 #include <QFileInfo>
@@ -493,6 +494,7 @@ void Preferences::reset() {
 	floating_control_width = 70; //70 %
 	floating_control_animated = true;
 	floating_display_in_compact_mode = false;
+	floating_activation_area = AutohideWidget::Anywhere;
 
 
     /* *******
@@ -954,6 +956,7 @@ void Preferences::save() {
 	set->setValue("width", floating_control_width);
 	set->setValue("animated", floating_control_animated);
 	set->setValue("display_in_compact_mode", floating_display_in_compact_mode);
+	set->setValue("activation_area", floating_activation_area);
 	set->endGroup(); // floating_control
 
 
@@ -1440,6 +1443,7 @@ void Preferences::load() {
 	floating_control_width = set->value("width", floating_control_width).toInt();
 	floating_control_animated = set->value("animated", floating_control_animated).toBool();
 	floating_display_in_compact_mode = set->value("display_in_compact_mode", floating_display_in_compact_mode).toBool();
+	floating_activation_area = set->value("activation_area", floating_activation_area).toInt();
 	set->endGroup(); // floating_control
 
 
