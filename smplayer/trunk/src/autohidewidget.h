@@ -29,6 +29,8 @@ class AutohideWidget : public QWidget
 	Q_OBJECT
 
 public:
+	enum Activation { AnyWhere = 1, Bottom = 2 };
+
 	AutohideWidget(QWidget * parent = 0);
 	~AutohideWidget();
 
@@ -43,6 +45,7 @@ public slots:
 	void setAnimated(bool b) { use_animation = b; };
 	void setMargin(int margin) { spacing = margin; };
 	void setPercWidth(int s) { perc_width = s;}
+	void setActivationArea(Activation m) { activation_area = m; }
 
 public:
 	bool isActive() { return turned_on; };
@@ -50,6 +53,7 @@ public:
 	bool isAnimated() { return use_animation; };
 	int margin() { return spacing; };
 	int percWidth() { return perc_width; };
+	Activation activationArea() { return activation_area; }
 
 protected:
 	bool eventFilter(QObject * obj, QEvent * event);
@@ -68,6 +72,7 @@ private:
 	bool use_animation;
 	int spacing;
 	int perc_width;
+	Activation activation_area;
 	QWidget * internal_widget;
 	QTimer * timer;
 #if QT_VERSION >= 0x040600

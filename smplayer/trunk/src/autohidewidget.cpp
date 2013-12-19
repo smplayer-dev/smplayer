@@ -27,8 +27,6 @@
 #include <QPropertyAnimation>
 #endif
 
-//#define TEST_AUTOHIDE_CHECK_BOTTOM
-
 AutohideWidget::AutohideWidget(QWidget * parent)
 	: QWidget(parent)
 	, turned_on(false)
@@ -36,6 +34,7 @@ AutohideWidget::AutohideWidget(QWidget * parent)
 	, use_animation(false)
 	, spacing(0)
 	, perc_width(100)
+	, activation_area(AnyWhere)
 	, internal_widget(0)
 	, timer(0)
 #if QT_VERSION >= 0x040600
@@ -57,10 +56,6 @@ AutohideWidget::AutohideWidget(QWidget * parent)
 	layout->setSpacing(0);
 	layout->setMargin(0);
 	setLayout(layout);
-
-#ifdef TEST_AUTOHIDE_CHECK_BOTTOM
-//	activate();
-#endif
 }
 
 AutohideWidget::~AutohideWidget() {
@@ -138,20 +133,20 @@ bool AutohideWidget::eventFilter(QObject * obj, QEvent * event) {
 	if (turned_on) {
 		//qDebug() << "AutohideWidget::eventFilter: obj:" << obj << "type:" << event->type();
 		if (event->type() == QEvent::MouseMove) {
-			#ifdef TEST_AUTOHIDE_CHECK_BOTTOM
-			QMouseEvent * mouse_event = dynamic_cast<QMouseEvent*>(event);
-			QWidget * parent = parentWidget();
-			QPoint p = parent->mapFromGlobal(mouse_event->globalPos());
-			qDebug() << "AutohideWidget::eventFilter: y:" << p.y();
 			//qDebug() << "AutohideWidget::eventFilter: mouse move" << obj;
 			if (!isVisible()) {
-				if (p.y() > (parent->height() - height() - spacing)) {
+				if (activation_area == AnyWhere) {
 					show();
+				} else {
+					QMouseEvent * mouse_event = dynamic_cast<QMouseEvent*>(event);
+					QWidget * parent = parentWidget();
+					QPoint p = parent->mapFromGlobal(mouse_event->globalPos());
+					//qDebug() << "AutohideWidget::eventFilter: y:" << p.y();
+					if (p.y() > (parent->height() - height() - spacing)) {
+						show();
+					}
 				}
 			}
-			#else
-			if (!isVisible()) show();
-			#endif
 		}
 	}
 
