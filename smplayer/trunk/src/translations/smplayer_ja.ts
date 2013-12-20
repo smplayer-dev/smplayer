@@ -6490,19 +6490,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="129"/>
-        <location filename="../prefinterface.cpp" line="639"/>
+        <location filename="../prefinterface.cpp" line="130"/>
+        <location filename="../prefinterface.cpp" line="642"/>
         <source>Interface</source>
         <translation>インターフェイス</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="144"/>
+        <location filename="../prefinterface.cpp" line="145"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;自動検出&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="195"/>
-        <location filename="../prefinterface.cpp" line="198"/>
+        <location filename="../prefinterface.cpp" line="196"/>
+        <location filename="../prefinterface.cpp" line="199"/>
         <source>Default</source>
         <translation>既定</translation>
     </message>
@@ -6527,43 +6527,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>新しいビデオの読み込み後のみ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="755"/>
+        <location filename="../prefinterface.ui" line="762"/>
         <source>Privac&amp;y</source>
         <translation>プライバシー(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="761"/>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.ui" line="768"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>Recent files</source>
         <translation>最近使ったファイル</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="655"/>
+        <location filename="../prefinterface.cpp" line="658"/>
         <source>Language</source>
         <translation>言語</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="656"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Here you can change the language of the application.</source>
         <translation>ここではアプリケーションの言語を変更できます。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="173"/>
+        <location filename="../prefinterface.cpp" line="174"/>
         <source>&amp;Short jump</source>
         <translation>短いジャンプ(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="174"/>
+        <location filename="../prefinterface.cpp" line="175"/>
         <source>&amp;Medium jump</source>
         <translation>中ジャンプ(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="175"/>
+        <location filename="../prefinterface.cpp" line="176"/>
         <source>&amp;Long jump</source>
         <translation>長いジャンプ(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="176"/>
+        <location filename="../prefinterface.cpp" line="177"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>マウス ホイール ジャンプ(&amp;W)</translation>
     </message>
@@ -6573,7 +6573,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>実行中の SMPlayer のインスタンスを 1 つのみ使用する(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="773"/>
+        <location filename="../prefinterface.ui" line="780"/>
         <source>Ma&amp;x. items</source>
         <translation>アイテムの最大数(&amp;X)</translation>
     </message>
@@ -6648,17 +6648,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>停止ボタンを一回押して時間の位置をリセットする(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="812"/>
+        <location filename="../prefinterface.ui" line="734"/>
+        <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="819"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="824"/>
+        <location filename="../prefinterface.ui" line="831"/>
         <source>&amp;Max. items</source>
         <translation>アイテムの最大数(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="863"/>
+        <location filename="../prefinterface.ui" line="870"/>
         <source>&amp;Remember last directory</source>
         <translation>最後のディレクトリを記憶する(&amp;R)</translation>
     </message>
@@ -6689,240 +6694,250 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>インスタンス(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="641"/>
+        <location filename="../prefinterface.cpp" line="644"/>
         <source>Autoresize</source>
         <translation>サイズの自動変更</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="642"/>
+        <location filename="../prefinterface.cpp" line="645"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>メイン ウィンドウは自動的にリサイズできます。お好みのオプションを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="645"/>
+        <location filename="../prefinterface.cpp" line="648"/>
         <source>Remember position and size</source>
         <translation>位置とサイズを記憶する</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="646"/>
+        <location filename="../prefinterface.cpp" line="649"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>このオプションをチェックすると、メイン ウィンドウの位置とサイズは保存され再び SMPlayer を実行するときに復元されます。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Privacy</source>
         <translation>プライバシー</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>&lt;b&gt;開く-&gt;最近使ったファイル&lt;/b&gt; サブメニューに表示されるアイテムの最大数を選択します。0 へ設定するとそのメニューはまったく表示されません。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="666"/>
+        <location filename="../prefinterface.cpp" line="669"/>
         <source>Icon set</source>
         <translation>アイコン セット</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="203"/>
+        <location filename="../prefinterface.cpp" line="204"/>
         <source>Basic GUI</source>
         <translation>基本 GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="209"/>
+        <location filename="../prefinterface.cpp" line="210"/>
         <source>Skinnable GUI</source>
         <translation>スキン対応 GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="652"/>
+        <location filename="../prefinterface.cpp" line="655"/>
         <source>Move the window when the video area is dragged</source>
         <translation>ビデオ領域がドラッグされたときにウィンドウを移動する</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="653"/>
+        <location filename="../prefinterface.cpp" line="656"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>このオプションがチェックされている場合、ビデオ領域の上でマウスをドラッグするとメイン ウィンドウが移動します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="659"/>
+        <location filename="../prefinterface.cpp" line="662"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>お好みのアプリケーションの GUI を選択します。現在利用可能なのは [デフォルト GUI] と [ミニ GUI] です。&lt;br&gt;[&lt;b&gt;デフォルト GUI&lt;/b&gt;] はツール バーとコントロール バーの付いた、従来の GUI を供給します。&lt;br&gt;[&lt;b&gt;ミニ GUI&lt;/b&gt;] はツール バーとコントロール バーがなく少しのボタンの付いた、よりシンプルな GUI を供給します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="667"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>お好みのアプリケーションのアイコン セットを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="673"/>
         <source>Skin</source>
         <translation>スキン</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="671"/>
+        <location filename="../prefinterface.cpp" line="674"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>お好みのアプリケーションのスキンを選択します。スキン対応 GUI でのみ利用可能です。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="674"/>
+        <location filename="../prefinterface.cpp" line="677"/>
         <source>Style</source>
         <translation>スタイル</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="675"/>
+        <location filename="../prefinterface.cpp" line="678"/>
         <source>Select the style you prefer for the application.</source>
         <translation>お好みのアプリケーションのスタイルを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="681"/>
         <source>Default font</source>
         <translation>既定のフォント</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="679"/>
+        <location filename="../prefinterface.cpp" line="682"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>アプリケーションのフォントをここで変更できます。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="684"/>
         <source>Seeking</source>
         <translation>シーク</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="683"/>
+        <location filename="../prefinterface.cpp" line="686"/>
         <source>Short jump</source>
         <translation>短いジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="684"/>
-        <location filename="../prefinterface.cpp" line="688"/>
-        <location filename="../prefinterface.cpp" line="692"/>
+        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="695"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>%1動作を選択するときに進むか戻る時間を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="688"/>
         <source>short jump</source>
         <translation>短いジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="690"/>
         <source>Medium jump</source>
         <translation>中ジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="692"/>
         <source>medium jump</source>
         <translation>中ジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="694"/>
         <source>Long jump</source>
         <translation>長いジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="696"/>
         <source>long jump</source>
         <translation>長いジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="698"/>
         <source>Mouse wheel jump</source>
         <translation>マウス ホイール ジャンプ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="696"/>
+        <location filename="../prefinterface.cpp" line="699"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>マウス ホイールを動かすときに進むか戻る時間を選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="702"/>
         <source>Behaviour of time slider</source>
         <translation>タイム スライダーの挙動</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="700"/>
+        <location filename="../prefinterface.cpp" line="703"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>タイム スライダーのドラッグ時に何をするかを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="714"/>
+        <location filename="../prefinterface.cpp" line="717"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>停止ボタンを一回押して時間の位置をリセットする</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation>既定では停止ボタンが押されると時間の位置は記憶されますので再生ボタンを押すとメディアは同じ場所から再開します。時間の位置をリセットするには停止ボタンを二回押す必要がありますが、このオプションがチェックされている場合は停止ボタンを一回押すだけで時間の位置が 0 へ設定されます。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="748"/>
+        <source>Show only when moving the mouse to the bottom of the screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="749"/>
+        <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>このオプションが有効な場合、フローティング コントロールはコンパクト モードでも表示されます。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>This option only works with the basic GUI.</source>
         <translation>このオプションは基本 GUI でのみ動作します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;警告:&lt;/b&gt; フローティング コントロールはコンパクト モード用にはデザインされておらず適切に動作しない可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>Max. URLs</source>
         <translation>URL の最大数</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>&lt;b&gt;[開く] -&gt; [URL]&lt;/b&gt; ダイアログが記憶するアイテムの最大数を選択します。すべての URL を格納させたくない場合は 0 に設定します。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Remember last directory</source>
         <translation>最後のディレクトリを記憶する</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="773"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>このオプションがチェックされている場合、SMPlayer はファイルを開くのに使用した最後のフォルダーを記憶します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="520"/>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="706"/>
         <source>Seeking method</source>
         <translation>シーク方法</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
+        <location filename="../prefinterface.cpp" line="707"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>スライダーでのシーク時に使用される方法を設定します。絶対シークは少し正確で、相対シークは間違った長さのファイルでもよく動作する可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="722"/>
+        <location filename="../prefinterface.cpp" line="725"/>
         <source>Instances</source>
         <translation>インスタンス</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="728"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>実行中の SMPlayer のインスタンスを 1 つのみ使用する</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="726"/>
+        <location filename="../prefinterface.cpp" line="729"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>その他のファイルを開くときにすでに実行中の SMPlayer のインスタンスを使用したい場合はこのオプションをチェックします。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="204"/>
+        <location filename="../prefinterface.cpp" line="205"/>
         <source>Mini GUI</source>
         <translation>ミニ GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="658"/>
+        <location filename="../prefinterface.cpp" line="661"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
@@ -6932,42 +6947,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>GUI(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Floating control</source>
         <translation>フローティング コントロール</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="732"/>
+        <location filename="../prefinterface.cpp" line="735"/>
         <source>Animated</source>
         <translation>アニメーション</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>このオプションが有効な場合、フローティング コントロールはアニメーション付きで表示されます。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>Width</source>
         <translation>幅</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>コントロールの幅を指定します (パーセンテージ)。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="739"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>Margin</source>
         <translation>余白</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>このオプションはフローティング コントロールが画面の下から離れるピクセルの数を設定します。オーバースキャンがコントロールが可視になるのを防止する可能性があるので、画面が TV であるときに有用です。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>Display in compact mode too</source>
         <translation>コンパクト モードでも表示する</translation>
     </message>
@@ -7003,22 +7018,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>余白(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="734"/>
+        <location filename="../prefinterface.ui" line="741"/>
         <source>Display in &amp;compact mode too</source>
         <translation>コンパクト モードでも表示する(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="206"/>
+        <location filename="../prefinterface.cpp" line="207"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="649"/>
+        <location filename="../prefinterface.cpp" line="652"/>
         <source>Hide video window when playing audio files</source>
         <translation>オーディオ ファイルの再生中にビデオ ウィンドウを非表示にする</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="650"/>
+        <location filename="../prefinterface.cpp" line="653"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>このオプションが有効な場合ウィンドウはオーディオ ファイルの再生中に非表示になります。</translation>
     </message>
@@ -7028,17 +7043,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>オーディオ ファイルの再生中にビデオ ウィンドウを非表示にする(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.cpp" line="712"/>
         <source>Precise seeking</source>
         <translation>正確なシーク</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="710"/>
+        <location filename="../prefinterface.cpp" line="713"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>このオプションが有効な場合、シークはより正確になりますがやや遅くなることがあります。一部のビデオ フォーマットでは動作しない可能性があります。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="715"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>注意: このオプションは MPlayer2 でのみ動作します</translation>
     </message>

@@ -6492,19 +6492,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="129"/>
-        <location filename="../prefinterface.cpp" line="639"/>
+        <location filename="../prefinterface.cpp" line="130"/>
+        <location filename="../prefinterface.cpp" line="642"/>
         <source>Interface</source>
         <translation>Внешний вид</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="144"/>
+        <location filename="../prefinterface.cpp" line="145"/>
         <source>&lt;Autodetect&gt;</source>
         <translation>&lt;Автоопределение&gt;</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="195"/>
-        <location filename="../prefinterface.cpp" line="198"/>
+        <location filename="../prefinterface.cpp" line="196"/>
+        <location filename="../prefinterface.cpp" line="199"/>
         <source>Default</source>
         <translation>По умолчанию</translation>
     </message>
@@ -6529,43 +6529,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Только для нового видео</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="755"/>
+        <location filename="../prefinterface.ui" line="762"/>
         <source>Privac&amp;y</source>
         <translation>П&amp;риватность</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="761"/>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.ui" line="768"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>Recent files</source>
         <translation>Последние файлы</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="655"/>
+        <location filename="../prefinterface.cpp" line="658"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="656"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Here you can change the language of the application.</source>
         <translation>Здесь можно изменить язык приложения.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="173"/>
+        <location filename="../prefinterface.cpp" line="174"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Маленький интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="174"/>
+        <location filename="../prefinterface.cpp" line="175"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Средний интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="175"/>
+        <location filename="../prefinterface.cpp" line="176"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Длинный интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="176"/>
+        <location filename="../prefinterface.cpp" line="177"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Интервал при перемотке мы&amp;шью</translation>
     </message>
@@ -6575,7 +6575,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Запускать только о&amp;дну копию SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="773"/>
+        <location filename="../prefinterface.ui" line="780"/>
         <source>Ma&amp;x. items</source>
         <translation>&amp;Количество пунктов в меню</translation>
     </message>
@@ -6650,17 +6650,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Однократное &amp;нажатие кнопки стоп сбрасывает позицию</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="812"/>
+        <location filename="../prefinterface.ui" line="734"/>
+        <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="819"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="824"/>
+        <location filename="../prefinterface.ui" line="831"/>
         <source>&amp;Max. items</source>
         <translation>&amp;Макс. элементов</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="863"/>
+        <location filename="../prefinterface.ui" line="870"/>
         <source>&amp;Remember last directory</source>
         <translation>&amp;Помнить последний каталог</translation>
     </message>
@@ -6691,240 +6696,250 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Экземпляры</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="641"/>
+        <location filename="../prefinterface.cpp" line="644"/>
         <source>Autoresize</source>
         <translation>Автоматический размер</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="642"/>
+        <location filename="../prefinterface.cpp" line="645"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Главное окно может изменять размер автоматически. Выберите предпочтительную настройку.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="645"/>
+        <location filename="../prefinterface.cpp" line="648"/>
         <source>Remember position and size</source>
         <translation>Запоминать позицию и размер</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="646"/>
+        <location filename="../prefinterface.cpp" line="649"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Если настройка выбрана, позиция и размер видео будут сохранены и восстановлены при следующем запуске SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Privacy</source>
         <translation>Приватность</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Выберите максимальное количество элементов в подменю &lt;b&gt;Открыть-&gt;Последние файлы&lt;/b&gt;. При значении 0 меню не будет показано вообще.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="666"/>
+        <location filename="../prefinterface.cpp" line="669"/>
         <source>Icon set</source>
         <translation>Набор значков</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="203"/>
+        <location filename="../prefinterface.cpp" line="204"/>
         <source>Basic GUI</source>
         <translation>Базовый интерфейс</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="209"/>
+        <location filename="../prefinterface.cpp" line="210"/>
         <source>Skinnable GUI</source>
         <translation>Интерфейс со скинами</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="652"/>
+        <location filename="../prefinterface.cpp" line="655"/>
         <source>Move the window when the video area is dragged</source>
         <translation>Перемещать окно при перетаскивании за область видео</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="653"/>
+        <location filename="../prefinterface.cpp" line="656"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>Если эта опция отмечена, главное окно будет перемещаться при перетаскивании мышью за область видео.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="659"/>
+        <location filename="../prefinterface.cpp" line="662"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>Выберите предпочтительный интерфейс приложения. На текущий момент доступны интерфейс по умолчанию и мини интерфейс.&lt;br&gt;Интерфейс &lt;b&gt;По умолчанию&lt;/b&gt; представляет собой традиционный интерфейс с панелями инструментов и управления. &lt;b&gt;Мини интерфейс&lt;/b&gt; представляет более простой интерфейс без панелей инструментов и упрощённой панелью управления с меньшим числом кнопок.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="667"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Выберите предпочитаемый для приложения набор значков.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="673"/>
         <source>Skin</source>
         <translation>Скин</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="671"/>
+        <location filename="../prefinterface.cpp" line="674"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Выберите предпочитаемый скин приложения. Доступно только для интерфейса со скинами.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="674"/>
+        <location filename="../prefinterface.cpp" line="677"/>
         <source>Style</source>
         <translation>Стиль</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="675"/>
+        <location filename="../prefinterface.cpp" line="678"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Выберите предпочитаемый стиль приложения.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="681"/>
         <source>Default font</source>
         <translation>Шрифт по умолчанию</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="679"/>
+        <location filename="../prefinterface.cpp" line="682"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Здесь можно изменить шрифт приложения.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="684"/>
         <source>Seeking</source>
         <translation>Поиск</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="683"/>
+        <location filename="../prefinterface.cpp" line="686"/>
         <source>Short jump</source>
         <translation>Маленький интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="684"/>
-        <location filename="../prefinterface.cpp" line="688"/>
-        <location filename="../prefinterface.cpp" line="692"/>
+        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="695"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Выберите время перемотки вперёд или назад при выборе действия %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="688"/>
         <source>short jump</source>
         <translation>маленький интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="690"/>
         <source>Medium jump</source>
         <translation>Средний интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="692"/>
         <source>medium jump</source>
         <translation>средний интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="694"/>
         <source>Long jump</source>
         <translation>Длинный интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="696"/>
         <source>long jump</source>
         <translation>длинный интервал</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="698"/>
         <source>Mouse wheel jump</source>
         <translation>Интервал перемотки колесом мыши</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="696"/>
+        <location filename="../prefinterface.cpp" line="699"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Выберите время перемотки вперёд или назад при вращении колеса мыши.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="702"/>
         <source>Behaviour of time slider</source>
         <translation>Поведение временной полосы прокрутки</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="700"/>
+        <location filename="../prefinterface.cpp" line="703"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Выберите поведение при перетаскивании ползунка прокрутки.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="714"/>
+        <location filename="../prefinterface.cpp" line="717"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Однократное нажатие кнопки стоп сбрасывает позицию</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation>По умолчанию при нажатии кнопки остановки временная позиция медиафайла запоминается, поэтому при нажатии кнопки воспроизведения, медиафайл продолжит воспроизводиться с того же места. Вы должны нажать кнопку стоп второй раз для сброса позиции, но эта опция, будучи установленной, установит временную позицию в 0 даже при однократном нажатии кнопки остановки.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="748"/>
+        <source>Show only when moving the mouse to the bottom of the screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="749"/>
+        <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Если эта опция отмечена, плавающая панель управления будет появляться и в компактном режиме.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Эта опция работает только с базовым интерфейсом.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Внимание:&lt;/b&gt; плавающая панель не была разработана для компактного режима и может работать некорректно.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>Max. URLs</source>
         <translation>Макс. URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Выберите максимальное число элементов, запоминаемых в диалоге &lt;b&gt;Открыть-&gt;Адрес&lt;/b&gt;. Установите в 0, если не хотите сохранять URL вообще.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Remember last directory</source>
         <translation>Помнить последний каталог</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="773"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Если эта опция отмечена, SMPlayer будет запоминать каталог последнего открытого файла.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="520"/>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="706"/>
         <source>Seeking method</source>
         <translation>Способ позиционирования</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
+        <location filename="../prefinterface.cpp" line="707"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Установка метода, используемого при позиционировании ползунка перемотки. Абсолютное позиционирование более точное, но относительное может работать лучше с файлами с неправильной длительностью.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="722"/>
+        <location filename="../prefinterface.cpp" line="725"/>
         <source>Instances</source>
         <translation>Экземпляры</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="728"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Использовать только одну копию SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="726"/>
+        <location filename="../prefinterface.cpp" line="729"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Выберите эту опцию, если хотите использовать уже запущенную копию SMPlayer при открытии новых файлов.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="204"/>
+        <location filename="../prefinterface.cpp" line="205"/>
         <source>Mini GUI</source>
         <translation>Мини интерфейс</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="658"/>
+        <location filename="../prefinterface.cpp" line="661"/>
         <source>GUI</source>
         <translation>Интерфейс</translation>
     </message>
@@ -6934,42 +6949,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Интерфейс</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Floating control</source>
         <translation>Плавающая панель</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="732"/>
+        <location filename="../prefinterface.cpp" line="735"/>
         <source>Animated</source>
         <translation>Анимировать</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Если эта опция отмечена, плавающая панель управления будет появляться с анимацией.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>Width</source>
         <translation>Ширина</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Определяет ширину панели (в процентах).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="739"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>Margin</source>
         <translation>Отступ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Эта опция устанавливает количество пикселов, на которое плавающая панель будет отступать от низа экрана. Полезно когда экраном является телевизор, и картинка увеличена, таким образом предотвращается случай, когда плавающая панель будет невидима.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>Display in compact mode too</source>
         <translation>Отображать также в компактном режиме</translation>
     </message>
@@ -7005,22 +7020,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Отступ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="734"/>
+        <location filename="../prefinterface.ui" line="741"/>
         <source>Display in &amp;compact mode too</source>
         <translation>Отображать также в &amp;компактном режиме</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="206"/>
+        <location filename="../prefinterface.cpp" line="207"/>
         <source>Mpc GUI</source>
         <translation>MPC интерфейс</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="649"/>
+        <location filename="../prefinterface.cpp" line="652"/>
         <source>Hide video window when playing audio files</source>
         <translation>Прятать окно видео при воспроизведении аудиофайлов</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="650"/>
+        <location filename="../prefinterface.cpp" line="653"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Если эта опция выбрана, окно видео будет спрятано при воспроизведении аудиофайлов.</translation>
     </message>
@@ -7030,17 +7045,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Прятать окно видео при воспроизведении аудиофайлов</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.cpp" line="712"/>
         <source>Precise seeking</source>
         <translation>Точное позиционирование</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="710"/>
+        <location filename="../prefinterface.cpp" line="713"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Если опция включена, перемотка будет более точной, но может быть немного медленнее. Может не работать с некоторыми форматами видео.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="715"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Внимание: эта опция работает только с MPlayer2</translation>
     </message>
