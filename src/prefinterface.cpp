@@ -24,6 +24,7 @@
 #include "languages.h"
 #include "recents.h"
 #include "urlhistory.h"
+#include "autohidewidget.h"
 
 #include <QDir>
 #include <QStyleFactory>
@@ -228,6 +229,7 @@ void PrefInterface::setData(Preferences * pref) {
 	setSaveSize( pref->save_window_size_on_exit );
 
 	move_when_dragging_check->setChecked(pref->move_when_dragging);
+	floating_move_bottom_check->setChecked(pref->floating_activation_area == AutohideWidget::Bottom);
 
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
@@ -293,6 +295,7 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->save_window_size_on_exit = saveSize();
 
 	pref->move_when_dragging = move_when_dragging_check->isChecked();
+	pref->floating_activation_area = floating_move_bottom_check->isChecked() ? AutohideWidget::Bottom : AutohideWidget::Anywhere;
 
 #ifdef SINGLE_INSTANCE
 	pref->use_single_instance = useSingleInstance();
@@ -741,6 +744,11 @@ void PrefInterface::createHelp() {
            "will be away from the bottom of the screen. Useful when the "
            "screen is a TV, as the overscan might prevent the control to be "
            "visible.") );
+
+	setWhatsThis(floating_move_bottom_check, tr("Show only when moving the mouse to the bottom of the screen"),
+		tr("If this option is checked, the floating control will only be displayed when the mouse is moved "
+           "to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter "
+           "its position.") );
 
 	setWhatsThis(floating_compact_check, tr("Display in compact mode too"),
 		tr("If this option is enabled, the floating control will appear "
