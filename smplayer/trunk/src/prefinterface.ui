@@ -729,6 +729,13 @@
         </layout>
        </item>
        <item>
+        <widget class="QCheckBox" name="floating_move_bottom_check">
+         <property name="text">
+          <string>Show only when moving the mouse to the &amp;bottom of the screen</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="floating_compact_check">
          <property name="text">
           <string>Display in &amp;compact mode too</string>
@@ -917,6 +924,7 @@
   <tabstop>floating_animated_check</tabstop>
   <tabstop>floating_width_slider</tabstop>
   <tabstop>floating_margin_slider</tabstop>
+  <tabstop>floating_move_bottom_check</tabstop>
   <tabstop>floating_compact_check</tabstop>
   <tabstop>recents_max_items_spin</tabstop>
   <tabstop>url_max_items_spin</tabstop>
