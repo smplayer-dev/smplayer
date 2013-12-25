@@ -6651,7 +6651,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit pouze při pohybu myší ke &amp;spodní části obrazovky</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6864,12 +6864,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazit pouze při pohybu myší ke spodní části obrazovky</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud je tato možnost zaškrtnuta, plovoucí ovládání bude zobrazeno, když se myší pohne ke spodní části obrazovky. 
+Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu na její postavení.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>

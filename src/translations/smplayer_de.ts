@@ -4593,7 +4593,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation>MPlayer-Abstürze m&amp;elden</translation>
+        <translation>MPlayer-&amp;Abstürze melden</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4654,7 +4654,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>MPlayer in eigenem Fenste&amp;r ausführen</translation>
+        <translation>&amp;MPlayer in einem eigenen Fenster starten</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4714,7 +4714,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>MPlayer-Ausgabe pr&amp;otokollieren</translation>
+        <translation>&amp;MPlayer-Ausgabe protokollieren</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
@@ -4744,7 +4744,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>MPlayer-Protokoll a&amp;utomatisch als Datei speichern</translation>
+        <translation>MPlayer-&amp;Protokoll automatisch als Datei speichern</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="450"/>
@@ -4859,7 +4859,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Hintergrun&amp;d vom Videofenster ausfüllen</translation>
+        <translation>&amp;Hintergrund des Videofensters ausfüllen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="520"/>
@@ -4899,7 +4899,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="534"/>
         <source>Lo&amp;gs</source>
-        <translation>Pro&amp;tokolle</translation>
+        <translation>&amp;Protokolle</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4979,7 +4979,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
-        <translation>PTS k&amp;orrigieren:</translation>
+        <translation>&amp;PTS korrigieren:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -4999,22 +4999,22 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="643"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation>SMPla&amp;yer-Protokoll als Datei speichern</translation>
+        <translation>SMPlayer-Protokoll als &amp;Datei speichern</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Show tag info in window title</source>
-        <translation>Tag-Info im Fenstertitel anzeigen</translation>
+        <translation>Attributinfo im Fenstertitel anzeigen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation>Wenn diese Option aktiv ist, wird Information von Tags im Fenstertitel angezeigt. Sonst wird nur der Dateiname angezeigt.</translation>
+        <translation>Wenn diese Option aktiv ist, werden Informationen von Attributen im Fenstertitel angezeigt. Ansonsten wird nur der Dateiname angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="275"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation>&amp;Tag-Info im Fenstertitel anzeigen</translation>
+        <translation>&amp;Attributinfo im Fenstertitel anzeigen</translation>
     </message>
 </context>
 <context>
@@ -6655,7 +6655,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Nur anzeigen, wenn die Maus zum &amp;unteren Rand des Bildschirms bewegt wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6869,12 +6869,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Nur anzeigen, wenn die Maus zum unteren Rand des Bildschirms bewegt wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird das schwebende Kontrollelement nur angezeigt, wenn die Maus an den unteren Rand des Bildschirms verschoben wird. Ansonsten erscheint die Steuerung, wenn die Maus bewegt wird, unabhängig von ihrer Position.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
@@ -7351,17 +7351,17 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>Threads for decoding</source>
-        <translation>Threads zur Dekodierung</translation>
+        <translation>Stränge zur Dekodierung</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="295"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation>Legt die Anzahl der Threads zur Dekodierung fest. Nur für MPEG-1/2 und H.264</translation>
+        <translation>Legt die Anzahl der Stränge zur Dekodierung fest. Nur für MPEG-1/2 und H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="153"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>&amp;Threads zur Dekodierung (MPEG-1/2 und H.264):</translation>
+        <translation>&amp;Stränge zur Dekodierung (MPEG-1/2 und H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
