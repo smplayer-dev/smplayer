@@ -6037,7 +6037,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Não &amp;ativa a função de clique esquerdo do mouse com um duplo clique</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6396,12 +6396,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Não ativa a função de clique esquerdo do mouse com um duplo clique</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionando essa opção, ao clicar duas vezes na área do vídeo apenas a função de clique duplo será ativada. A ação de clique único esquerdo não será ativada.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
@@ -6651,7 +6651,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar apenas quando mover o mouse para a &amp;parte de baixo da tela</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6864,12 +6864,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar apenas quando mover o mouse para a parte de baixo da tela</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionando essa opção, o controle flutuante será mostrado apenas quando o mouse for movido para a parte de baixo da tela. Do contrário o controle aparecerá sempre que o mouse se mover, independente de sua posição.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>

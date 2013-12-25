@@ -6651,7 +6651,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати тільки при переміщенні миші до &amp;нижньої частини екрану</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6864,7 +6864,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати тільки при переміщенні миші до нижньої частини екрану</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>

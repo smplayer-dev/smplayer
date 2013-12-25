@@ -2269,7 +2269,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../favoriteeditor.cpp" line="111"/>
         <source>Favorite editor</source>
-        <translation>Edytor ulubionych</translation>
+        <translation>Ulubiony edytor</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -6653,7 +6653,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż gdy wskaźnik myszy zostanie przesunięty na &amp;dół ekranu</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6866,12 +6866,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż gdy wskaźnik myszy zostanie przesunięty na dół ekranu</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest zaznaczona, panel kontrolny pokazuje się tylko gdy wskaźnik myszy zostanie przesunięty na dół ekranu. W przeciwnym razie Panel pojawi się, gdy mysz jest przesuwana, bez względu na to jej pozycję.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>

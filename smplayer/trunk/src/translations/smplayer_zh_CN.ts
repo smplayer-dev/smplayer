@@ -2197,7 +2197,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit &amp;floating control</source>
-        <translation>编辑浮动控制(&amp;F)</translation>
+        <translation>编辑浮动控制框(&amp;F)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="570"/>
@@ -4312,7 +4312,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="166"/>
         <source>Edit &amp;floating control</source>
-        <translation>编辑浮动控制(&amp;F)</translation>
+        <translation>编辑浮动控制框(&amp;F)</translation>
     </message>
 </context>
 <context>
@@ -6649,7 +6649,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>仅在鼠标移动到屏幕底部时出现(&amp;b)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6862,12 +6862,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>仅在鼠标移动到屏幕底部时出现</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此项，浮动控制框仅会在鼠标移动到屏幕底部时显示。否则浮动控制框只要在鼠标移动时就显示</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
@@ -6958,7 +6958,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="736"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>如果启用此选项，浮动控制将以动画形式出现。</translation>
+        <translation>如果启用此选项，浮动控制框将以动画形式出现。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="739"/>
@@ -6968,7 +6968,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="740"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation>指定浮动控制的宽度(以百分比表示)。</translation>
+        <translation>指定浮动控制框的宽度(以百分比表示)。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
@@ -6978,7 +6978,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>此选项可设置浮动控制与屏幕底部距离的像素数。当屏幕是电视时有用，因为过扫描可能会阻碍浮动控制的可见性。</translation>
+        <translation>此选项可设置浮动控制框与屏幕底部距离的像素数。当屏幕是电视时有用，因为过扫描可能会阻碍浮动控制的可见性。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -6993,7 +6993,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation>全屏模式中当鼠标移动到屏幕底部时浮动控制将会出现。</translation>
+        <translation>全屏模式中当鼠标移动到屏幕底部时浮动控制框将会出现。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
@@ -8608,7 +8608,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
-        <translation>编辑浮动控制(&amp;F)</translation>
+        <translation>编辑浮动控制框(&amp;F)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="416"/>

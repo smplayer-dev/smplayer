@@ -6650,7 +6650,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>画面の下部にマウスを移動するときのみ表示する(&amp;B)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6863,12 +6863,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>画面の下部にマウスを移動するときのみ表示する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、フローティング コントロールはマウスが画面の下部に移動されたときのみ表示されます。チェックされていない場合、コントロールはマウスが移動されればその位置にかかわらず表示されます。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>

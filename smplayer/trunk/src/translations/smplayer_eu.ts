@@ -6651,7 +6651,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi sagua ikusleihoaren &amp;beheren mugitzerakoan bakarrik</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="819"/>
@@ -6864,12 +6864,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi sagua ikusleihoaren beheren mugitzerakoan bakarrik</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hautatzen bada, gaineko agintea sagua ikusleihoaren beheren mugitzerakoan bakarrik erakutsiko da. Bestela agintea sagua mugitzen den bakoitzean agertuko da, kokapena axola gabe.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
