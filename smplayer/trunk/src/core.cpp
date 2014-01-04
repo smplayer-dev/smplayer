@@ -1478,7 +1478,7 @@ void Core::startMplayer( QString file, double seek ) {
 		qDebug("Core::startMplayer: checking if stream is a playlist");
 		qDebug("Core::startMplayer: url path: '%s'", url.path().toUtf8().constData());
 
-		QRegExp rx("\\.ram$|\\.asx$|\\.m3u$|\\.pls$", Qt::CaseInsensitive);
+		QRegExp rx("\\.ram$|\\.asx$|\\.m3u$|\\.m3u8$|\\.pls$", Qt::CaseInsensitive);
 		url_is_playlist = (rx.indexIn(url.path()) != -1);
 	}
 	qDebug("Core::startMplayer: url_is_playlist: %d", url_is_playlist);
