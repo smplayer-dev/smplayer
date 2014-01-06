@@ -596,6 +596,7 @@ void DefaultGui::reconfigureFloatingControl() {
 	floating_control->setPercWidth(pref->floating_control_width);
 	floating_control->setAnimated(pref->floating_control_animated);
 	floating_control->setActivationArea( (AutohideWidget::Activation) pref->floating_activation_area);
+	floating_control->setHideDelay(pref->floating_hide_delay);
 }
 
 void DefaultGui::aboutToEnterFullscreen() {

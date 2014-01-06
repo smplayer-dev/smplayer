@@ -69,6 +69,14 @@ void AutohideWidget::setInternalWidget(QWidget * w) {
 	internal_widget = w;
 }
 
+void AutohideWidget::setHideDelay(int ms) {
+	timer->setInterval(ms);
+}
+
+int AutohideWidget::hideDelay() {
+	return timer->interval();
+}
+
 void AutohideWidget::installFilter(QObject *o) {
 	QObjectList children = o->children();
 	for (int n=0; n < children.count(); n++) {
