@@ -229,7 +229,6 @@ void PrefInterface::setData(Preferences * pref) {
 	setSaveSize( pref->save_window_size_on_exit );
 
 	move_when_dragging_check->setChecked(pref->move_when_dragging);
-	floating_move_bottom_check->setChecked(pref->floating_activation_area == AutohideWidget::Bottom);
 
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
@@ -261,6 +260,8 @@ void PrefInterface::setData(Preferences * pref) {
 	setFloatingWidth(pref->floating_control_width);
 	setFloatingMargin(pref->floating_control_margin);
 	setDisplayFloatingInCompactMode(pref->floating_display_in_compact_mode);
+	floating_move_bottom_check->setChecked(pref->floating_activation_area == AutohideWidget::Bottom);
+	floating_hide_delay_spin->setValue(pref->floating_hide_delay);
 
 	setRecentsMaxItems(pref->history_recents->maxItems());
 	setURLMaxItems(pref->history_urls->maxItems());
@@ -295,7 +296,6 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->save_window_size_on_exit = saveSize();
 
 	pref->move_when_dragging = move_when_dragging_check->isChecked();
-	pref->floating_activation_area = floating_move_bottom_check->isChecked() ? AutohideWidget::Bottom : AutohideWidget::Anywhere;
 
 #ifdef SINGLE_INSTANCE
 	pref->use_single_instance = useSingleInstance();
@@ -329,6 +329,8 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->floating_control_width = floatingWidth();
 	pref->floating_control_margin = floatingMargin();
 	pref->floating_display_in_compact_mode = displayFloatingInCompactMode();
+	pref->floating_activation_area = floating_move_bottom_check->isChecked() ? AutohideWidget::Bottom : AutohideWidget::Anywhere;
+	pref->floating_hide_delay = floating_hide_delay_spin->value();
 
 	if (pref->history_recents->maxItems() != recentsMaxItems()) {
 		pref->history_recents->setMaxItems( recentsMaxItems() );
@@ -756,6 +758,9 @@ void PrefInterface::createHelp() {
 		tr("This option only works with the basic GUI.") +" "+
 		tr("<b>Warning:</b> the floating control has not been "
            "designed for compact mode and it might not work properly.") );
+
+	setWhatsThis(floating_hide_delay_spin, tr("Time to hide the control"),
+		tr("Sets the time (in milliseconds) to hide the control after the mouse went away from the control."));
 
 	addSectionTitle(tr("Privacy"));
 
