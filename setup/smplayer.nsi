@@ -281,6 +281,14 @@ Section $(Section_SMPlayer) SecSMPlayer
 
   SectionIn RO
 
+  ;Since we can't get input from a silent install to initialize the variables, prefer upgrading
+  ${If} ${Silent}
+    ${If} $Reinstall_Uninstall == 1
+      StrCpy $Reinstall_UninstallButton_State 0
+      StrCpy $Reinstall_OverwriteButton_State 1
+    ${EndIf}
+  ${EndIf}
+
   ${If} $Reinstall_Uninstall == 1
 
     ${If} $Reinstall_UninstallButton_State == 1
