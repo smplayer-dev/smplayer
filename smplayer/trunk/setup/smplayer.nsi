@@ -308,6 +308,8 @@ Section $(Section_SMPlayer) SecSMPlayer
 
       Sleep 2500
 
+      StrCpy $INSTDIR $SMPlayer_Path
+
     ${EndIf}
 
   ${EndIf}
