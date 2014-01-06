@@ -46,6 +46,7 @@ public slots:
 	void setMargin(int margin) { spacing = margin; };
 	void setPercWidth(int s) { perc_width = s;}
 	void setActivationArea(Activation m) { activation_area = m; }
+	void setHideDelay(int ms);
 
 public:
 	bool isActive() { return turned_on; };
@@ -54,6 +55,7 @@ public:
 	int margin() { return spacing; };
 	int percWidth() { return perc_width; };
 	Activation activationArea() { return activation_area; }
+	int hideDelay();
 
 protected:
 	bool eventFilter(QObject * obj, QEvent * event);

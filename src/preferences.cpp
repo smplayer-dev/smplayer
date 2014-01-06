@@ -495,6 +495,7 @@ void Preferences::reset() {
 	floating_control_animated = true;
 	floating_display_in_compact_mode = false;
 	floating_activation_area = AutohideWidget::Anywhere;
+	floating_hide_delay = 3000;
 
 
     /* *******
@@ -957,6 +958,7 @@ void Preferences::save() {
 	set->setValue("animated", floating_control_animated);
 	set->setValue("display_in_compact_mode", floating_display_in_compact_mode);
 	set->setValue("activation_area", floating_activation_area);
+	set->setValue("hide_delay", floating_hide_delay);
 	set->endGroup(); // floating_control
 
 
@@ -1444,6 +1446,7 @@ void Preferences::load() {
 	floating_control_animated = set->value("animated", floating_control_animated).toBool();
 	floating_display_in_compact_mode = set->value("display_in_compact_mode", floating_display_in_compact_mode).toBool();
 	floating_activation_area = set->value("activation_area", floating_activation_area).toInt();
+	floating_hide_delay = set->value("hide_delay", floating_hide_delay).toInt();
 	set->endGroup(); // floating_control
 
 
