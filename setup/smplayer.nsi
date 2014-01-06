@@ -308,8 +308,6 @@ Section $(Section_SMPlayer) SecSMPlayer
 
       Sleep 2500
 
-      StrCpy $INSTDIR $SMPlayer_Path
-
     ${EndIf}
 
   ${EndIf}
@@ -693,6 +691,15 @@ FunctionEnd
 ;Installer functions
 
 Function .onInit
+
+!ifdef WIN64
+  SetRegView 64
+  ClearErrors
+  ReadRegStr $R0 HKLM "${SMPLAYER_REG_KEY}" "Path"
+  IfErrors +2 0
+    ReadRegStr $INSTDIR HKLM "${SMPLAYER_REG_KEY}" "Path"
+  SetRegView 32
+!endif
 
   ${Unless} ${AtLeastWinXP}
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
