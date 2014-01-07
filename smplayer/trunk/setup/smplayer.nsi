@@ -281,14 +281,6 @@ Section $(Section_SMPlayer) SecSMPlayer
 
   SectionIn RO
 
-  ;Since we can't get input from a silent install to initialize the variables, prefer upgrading
-  ${If} ${Silent}
-    ${If} $Reinstall_Uninstall == 1
-      StrCpy $Reinstall_UninstallButton_State 0
-      StrCpy $Reinstall_OverwriteButton_State 1
-    ${EndIf}
-  ${EndIf}
-
   ${If} $Reinstall_Uninstall == 1
 
     ${If} $Reinstall_UninstallButton_State == 1
@@ -692,15 +684,6 @@ FunctionEnd
 
 Function .onInit
 
-!ifdef WIN64
-  SetRegView 64
-  ClearErrors
-  ReadRegStr $R0 HKLM "${SMPLAYER_REG_KEY}" "Path"
-  IfErrors +2 0
-    ReadRegStr $INSTDIR HKLM "${SMPLAYER_REG_KEY}" "Path"
-  SetRegView 32
-!endif
-
   ${Unless} ${AtLeastWinXP}
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
     Abort
@@ -800,6 +783,16 @@ Function CheckPreviousVersion
 
   ${IfNot} ${Errors}
     StrCpy $Reinstall_Uninstall 1
+    !ifdef WIN64
+    ;Workaround for InstallDirRegKey on 64-bit
+    StrCpy $INSTDIR $SMPlayer_Path
+    !endif
+
+    ;Since we can't get input from a silent install to initialize the variables, prefer upgrading
+    ${If} ${Silent}
+      StrCpy $Reinstall_UninstallButton_State 0
+      StrCpy $Reinstall_OverwriteButton_State 1
+    ${EndIf}
   ${EndIf}
 
   /* $Previous_Version_State Assignments:
