@@ -744,10 +744,10 @@ Function .onInit
     Abort
   ${EndIf}
 
-  Call LoadPreviousSettings
-
   ;Setup language selection
   !insertmacro MUI_LANGDLL_DISPLAY
+
+  Call LoadPreviousSettings
 
   Call CheckPreviousVersion
 
