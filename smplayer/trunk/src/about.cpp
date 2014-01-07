@@ -170,7 +170,7 @@ QString About::getTranslators() {
 		trad(tr("Indonesian"), QStringList() << "Mohamad Hasan Al Banna" << "Aulia Firdaus Simbolon" << "Muhammad Fikri Hariri") +
 		trad(tr("Danish"), "Michael Larsen") +
 		trad(tr("Hungarian"), QStringList() << "Gojko" << QString::fromUtf8("Zsolt Péter Basák") << "chris020891") +
-		trad(tr("Turkish"), QStringList() << "Emre Firat" << QString::fromUtf8("Hasan Akgöz")) +
+		trad(tr("Turkish"), QStringList() << "Emre Firat" << QString::fromUtf8("Hasan Akgöz") << QString::fromUtf8("якуп")) +
 		trad(tr("Finnish"), QString::fromUtf8("Jiri Grönroos")) +
 		trad(tr("German"), QStringList() << "Shaggy" << QString::fromUtf8("Michał Trzebiatowski") << "Eclipse" << "j5lx" << "Tobias Bannert") +
 		trad(tr("Traditional Chinese"), QStringList() << "Taijuin Lee" << "Wpliao" ) +
