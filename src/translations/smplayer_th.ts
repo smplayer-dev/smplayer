@@ -60,7 +60,6 @@
     </message>
     <message>
         <location filename="../about.cpp" line="172"/>
-        <location filename="../about.cpp" line="183"/>
         <source>Hungarian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -165,38 +164,43 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
+        <location filename="../about.cpp" line="183"/>
         <source>Sinhala</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="185"/>
+        <location filename="../about.cpp" line="184"/>
         <source>Greek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
+        <location filename="../about.cpp" line="185"/>
         <source>Estonian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
+        <location filename="../about.cpp" line="186"/>
         <source>N&apos;ko</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
+        <location filename="../about.cpp" line="187"/>
         <source>Italian</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="189"/>
+        <location filename="../about.cpp" line="188"/>
         <source>Uzbek</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
+        <location filename="../about.cpp" line="189"/>
         <source>Catalan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="190"/>
+        <source>Slovak</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1981,73 +1985,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2912"/>
+        <location filename="../core.cpp" line="2914"/>
         <source>Brightness: %1</source>
         <translation>ความสว่าง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2927"/>
+        <location filename="../core.cpp" line="2929"/>
         <source>Contrast: %1</source>
         <translation>ความตัดกัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2941"/>
+        <location filename="../core.cpp" line="2943"/>
         <source>Gamma: %1</source>
         <translation>แกมมา: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2955"/>
+        <location filename="../core.cpp" line="2957"/>
         <source>Hue: %1</source>
         <translation>ความเข้มสี: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2969"/>
+        <location filename="../core.cpp" line="2971"/>
         <source>Saturation: %1</source>
         <translation>ความอิ่มตัว: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3098"/>
+        <location filename="../core.cpp" line="3100"/>
         <source>Volume: %1</source>
         <translation>ความดัง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3902"/>
+        <location filename="../core.cpp" line="3904"/>
         <source>Zoom: %1</source>
         <translation>ขยาย: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4149"/>
+        <location filename="../core.cpp" line="4151"/>
         <source>Buffering...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
-        <location filename="../core.cpp" line="3226"/>
+        <location filename="../core.cpp" line="3216"/>
+        <location filename="../core.cpp" line="3228"/>
         <source>Font scale: %1</source>
         <translation>มาตราอักษร: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3770"/>
+        <location filename="../core.cpp" line="3772"/>
         <source>Aspect ratio: %1</source>
         <translation>อัตราส่วนภาพ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4147"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>กำลังอัพเดตแคชอักษร ซึ่งใช้เวลาไม่กี่วินาที...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3140"/>
+        <location filename="../core.cpp" line="3142"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>หน่วงศัพท์บรรยาย: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3157"/>
+        <location filename="../core.cpp" line="3159"/>
         <source>Audio delay: %1 ms</source>
         <translation>หน่วงเสียง: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3023"/>
+        <location filename="../core.cpp" line="3025"/>
         <source>Speed: %1</source>
         <translation>ความเร็ว: %1</translation>
     </message>
@@ -2057,32 +2061,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3269"/>
+        <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>เปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3271"/>
+        <location filename="../core.cpp" line="3273"/>
         <source>Subtitles off</source>
         <translation>ปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3818"/>
+        <location filename="../core.cpp" line="3820"/>
         <source>Mouse wheel seeks now</source>
         <translation>หมุนเมาส์หาตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3821"/>
+        <location filename="../core.cpp" line="3823"/>
         <source>Mouse wheel changes volume now</source>
         <translation>หมุนเมาส์เปลี่ยนความดังตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3824"/>
+        <location filename="../core.cpp" line="3826"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>หมุนเมาส์เปลี่ยนระดับขยายตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3827"/>
+        <location filename="../core.cpp" line="3829"/>
         <source>Mouse wheel changes speed now</source>
         <translation>หมุนเมาส์เปลี่ยนความเร็วตอนนี้</translation>
     </message>
@@ -2097,17 +2101,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ภาพหน้าจอไม่ถูกจับ เพราะโฟลเดอร์ยังไม่ถูกกำหนดไว้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2647"/>
+        <location filename="../core.cpp" line="2649"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>จุด &quot;A&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2664"/>
+        <location filename="../core.cpp" line="2666"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>จุด &quot;B&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2679"/>
+        <location filename="../core.cpp" line="2681"/>
         <source>A-B markers cleared</source>
         <translation>ช่วง A-B ถูกล้างแล้ว</translation>
     </message>
@@ -4328,16 +4332,16 @@ Do you want to overwrite?</source>
         <translation>แถบหา</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="458"/>
         <location filename="../mpcgui/mpcgui.cpp" line="459"/>
         <location filename="../mpcgui/mpcgui.cpp" line="460"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="461"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="462"/>
         <location filename="../mpcgui/mpcgui.cpp" line="463"/>
         <location filename="../mpcgui/mpcgui.cpp" line="464"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="465"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -6491,7 +6495,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="130"/>
-        <location filename="../prefinterface.cpp" line="642"/>
+        <location filename="../prefinterface.cpp" line="644"/>
         <source>Interface</source>
         <translation>รูปแบบใช้งาน</translation>
     </message>
@@ -6527,23 +6531,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>เฉพาะหลังจากโหลดวิดีโอใหม่</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="762"/>
+        <location filename="../prefinterface.ui" line="799"/>
         <source>Privac&amp;y</source>
         <translation>ความเป็นส่วน&amp;ตัว</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="768"/>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.ui" line="805"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>Recent files</source>
         <translation>ไฟล์ที่ผ่านมา</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="658"/>
+        <location filename="../prefinterface.cpp" line="660"/>
         <source>Language</source>
         <translation>ภาษา</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="659"/>
+        <location filename="../prefinterface.cpp" line="661"/>
         <source>Here you can change the language of the application.</source>
         <translation>ที่นี่คุณสามารถเปลี่ยนภาษาของโปรแกรมนี้.</translation>
     </message>
@@ -6573,7 +6577,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ใช้เฉพาะห&amp;นึ่งรายการที่กำลังรันของ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="780"/>
+        <location filename="../prefinterface.ui" line="817"/>
         <source>Ma&amp;x. items</source>
         <translation>&amp;รายการสูงสุด</translation>
     </message>
@@ -6653,17 +6657,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="819"/>
+        <location filename="../prefinterface.ui" line="750"/>
+        <source>Tim&amp;e (in milliseconds) to hide the control:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="856"/>
         <source>URLs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="831"/>
+        <location filename="../prefinterface.ui" line="868"/>
         <source>&amp;Max. items</source>
         <translation>&amp;รายการสูงสุด</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="870"/>
+        <location filename="../prefinterface.ui" line="907"/>
         <source>&amp;Remember last directory</source>
         <translation>&amp;จดจำเส้นทางสุดท้าย</translation>
     </message>
@@ -6694,37 +6703,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="644"/>
+        <location filename="../prefinterface.cpp" line="646"/>
         <source>Autoresize</source>
         <translation>ปรับขนาดอัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="645"/>
+        <location filename="../prefinterface.cpp" line="647"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>หน้าต่างหลักสามารถปรับขนาดอัตโนมัติ เลือกตัวเลือกที่คุณชอบ.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="648"/>
+        <location filename="../prefinterface.cpp" line="650"/>
         <source>Remember position and size</source>
         <translation>จดจำตำแหน่งและขนาด</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="649"/>
+        <location filename="../prefinterface.cpp" line="651"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>ถ้าเลือกสิ่งนี้ ตำแหน่งและขนาดของหน้าต่างหลักจะถูกบันทึกและคืนค่าเมื่อคุณเปิด SMPlayer อีกครั้ง.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="765"/>
         <source>Privacy</source>
         <translation>ความเป็นส่วนตัว</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="763"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>เลือกจำนวนสูงสุดของรายการที่จะแสดงในเมนูย่อย &lt;b&gt;เปิด-&gt;ไฟล์ที่ผ่านมา&lt;/b&gt; ถ้าตั้งเป็น 0 เมนูนั้นจะไม่แสดงเลย .</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="669"/>
+        <location filename="../prefinterface.cpp" line="671"/>
         <source>Icon set</source>
         <translation>ชุดไอคอน</translation>
     </message>
@@ -6739,195 +6748,205 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>GUI มีรูปลักษณ์ </translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="655"/>
+        <location filename="../prefinterface.cpp" line="657"/>
         <source>Move the window when the video area is dragged</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="656"/>
+        <location filename="../prefinterface.cpp" line="658"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
         <translation>เลือก GUI ที่คุณชอบให้โปรแกรมนี้ ขณะนี้มี 2 แบบ คือ GUI ตั้งต้น และ GUI จิ๋ว &lt;br&gt; &lt;b&gt;GUI ตั้งต้น&lt;/b&gt; จะเป็น GUI ดั้งเดิม, กับแถบเครื่องมือและแถบตัวควบคุม &lt;b&gt;GUI จิ๋ว&lt;/b&gt; จะมี GUI แบบเรียบง่ายกว่า, ปราศจากแถบเครื่องมือ และแถบตัวควบคุมมีปุ่มน้อยกว่า.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="672"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>เลือกชุดไอคอนที่คุณชอบให้โปรแกรม.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="673"/>
+        <location filename="../prefinterface.cpp" line="675"/>
         <source>Skin</source>
         <translation>รูปลักษณ์</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="674"/>
+        <location filename="../prefinterface.cpp" line="676"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>เลือกรูปลักษณ์ที่คุณชอบให้โปรแกรมนี้ เฉพาะ GUI ที่มีรูปลักษณ์.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="677"/>
+        <location filename="../prefinterface.cpp" line="679"/>
         <source>Style</source>
         <translation>ลักษณะ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="680"/>
         <source>Select the style you prefer for the application.</source>
         <translation>เลือกลักษณะที่คุณชอบให้โปรแกรมนี้.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="683"/>
         <source>Default font</source>
         <translation>อักษรตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="682"/>
+        <location filename="../prefinterface.cpp" line="684"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>คุณสามารถเปลี่ยนแบบอักษรโปรแกรมได้ที่นี่.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="684"/>
+        <location filename="../prefinterface.cpp" line="686"/>
         <source>Seeking</source>
         <translation>การหา</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="686"/>
+        <location filename="../prefinterface.cpp" line="688"/>
         <source>Short jump</source>
         <translation>ข้ามสั้น</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
-        <location filename="../prefinterface.cpp" line="691"/>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="697"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>เลือกเวลาที่จะเดินหน้าหรือย้อนกลับ เมื่อเลือกการกระทำ %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="688"/>
+        <location filename="../prefinterface.cpp" line="690"/>
         <source>short jump</source>
         <translation>ข้ามสั้น</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="690"/>
+        <location filename="../prefinterface.cpp" line="692"/>
         <source>Medium jump</source>
         <translation>ข้ามปานกลาง</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="692"/>
+        <location filename="../prefinterface.cpp" line="694"/>
         <source>medium jump</source>
         <translation>ข้ามปานกลาง</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="694"/>
+        <location filename="../prefinterface.cpp" line="696"/>
         <source>Long jump</source>
         <translation>ข้ามยาว</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="696"/>
+        <location filename="../prefinterface.cpp" line="698"/>
         <source>long jump</source>
         <translation>ข้ามยาว</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="698"/>
+        <location filename="../prefinterface.cpp" line="700"/>
         <source>Mouse wheel jump</source>
         <translation>หมุนเมาส์ข้าม</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="701"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>เลือกเวลาที่จะเดินหน้าหรือย้อนกลับ เมื่อคุณหมุนล้อเมา่ส์.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="702"/>
+        <location filename="../prefinterface.cpp" line="704"/>
         <source>Behaviour of time slider</source>
         <translation>พฤติกรรมของแถบเลื่อนเวลา</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="705"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>เลือกว่าจะทำอะไร เมื่อลากแถบเลื่อนเวลา.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="717"/>
+        <location filename="../prefinterface.cpp" line="719"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="718"/>
+        <location filename="../prefinterface.cpp" line="720"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="750"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>This option only works with the basic GUI.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="757"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="767"/>
+        <location filename="../prefinterface.cpp" line="762"/>
+        <source>Time to hide the control</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="763"/>
+        <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Max. URLs</source>
         <translation>URL สูงสุด</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="773"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>เลือกจำนวนสูงสุดของรายการที่กล่อง &lt;b&gt;เปิด-&gt;URL&lt;/b&gt; จะจดจำ จงตั้งเป็น 0 หากไม่ต้องการให้จัดเก็บ.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>Remember last directory</source>
         <translation>จดจำเส้นทางสุดท้าย</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="773"/>
+        <location filename="../prefinterface.cpp" line="778"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>ถ้าเลือกสิ่งนี้ SMPlayer จะจำโฟลเดอร์สุดท้ายที่คุณเปิดไฟล์.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="520"/>
-        <location filename="../prefinterface.cpp" line="706"/>
+        <location filename="../prefinterface.cpp" line="708"/>
         <source>Seeking method</source>
         <translation>วิธีการหา</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="707"/>
+        <location filename="../prefinterface.cpp" line="709"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>ตั้งวิธีที่จะใช้เมื่อกำลังหาโดยใช้ตัวเลื่อน การหาแบบสัมบูรณ์จะถูกต้องกว่าเล็กน้อย ขณะที่การหาแบบสัมพัทธ์จะทำงานได้ดีกว่ากับไฟล์ที่มีความยาวแบบผิดๆ.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="727"/>
         <source>Instances</source>
         <translation>รายการ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="728"/>
+        <location filename="../prefinterface.cpp" line="730"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>ใช้เฉพาะหนึ่งรายการที่กำลังรันของ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="731"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>เลือกสิ่งนี้ ถ้าคุณต้องการใช้รายการที่กำลังรันอยู่แล้วของ SMPlayer เมื่อกำลังเปิดไฟล์อื่น.</translation>
     </message>
@@ -6937,7 +6956,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>GUI จิ๋ว</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="661"/>
+        <location filename="../prefinterface.cpp" line="663"/>
         <source>GUI</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6947,42 +6966,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="735"/>
         <source>Floating control</source>
         <translation>ตัวควบคุมลอย</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="735"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Animated</source>
         <translation>เคลื่อนไหวได้</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>ถ้าถูกใช้งาน ตัวควบคุมลอยจะปรากฏแบบเคลื่อนไหวได้.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="739"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Width</source>
         <translation>ความกว้าง</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>ระบุความกว้างของตัวควบคุม (เป็นร้อยละ).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Margin</source>
         <translation>ริม</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>ตัวเลือกนี้ตั้งจำนวนพิกเซลที่ตัวควบคุมลอยจะห่างจากด้านล่างของจอ มีประโยชน์กับจอโทรทัศน์เพราะป้องกันการโอเวอร์สแกนบังตัวควบคุม.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="753"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>Display in compact mode too</source>
         <translation>แสดงในแบบกะทัดรัดด้วย</translation>
     </message>
@@ -7028,12 +7047,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="652"/>
+        <location filename="../prefinterface.cpp" line="654"/>
         <source>Hide video window when playing audio files</source>
         <translation>ซ่อนหน้าต่างวิดีโอเมื่อเล่นไฟล์เสียง</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="653"/>
+        <location filename="../prefinterface.cpp" line="655"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>ถ้าใช้สิ่งนี้ หน้าต่างวิดีโอจะถูกซ่อนเมื่อกำลังเล่นไฟล์เสียง.</translation>
     </message>
@@ -7043,17 +7062,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ซ่อ&amp;นหน้าต่างวิดีโอเมื่อเล่นไฟล์เสียง</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>Precise seeking</source>
         <translation>การหาอย่างแม่นยำ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.cpp" line="715"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>ถ้าใช้ตัวเลือกนี้ การหาจะถูกต้องยิ่งขึ้นแต่อาจจะช้าลงเล็กน้อย อาจใช้ไม่ได้ผลกับวิดีโอบางรูปแบบ.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="717"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>หมายเหตุ: ตัวเลือกนี้ใช้ได้เฉพาะกับ MPlayer2</translation>
     </message>
