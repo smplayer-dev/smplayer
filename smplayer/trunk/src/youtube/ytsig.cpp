@@ -104,7 +104,7 @@ QString YTSig::default_script;
 
 #else
 
-QString YTSig::parsed_ts = "TS: 0";
+QString YTSig::parsed_ts;
 
 QString YTSig::rev(const QString & orig) {
 	QString r;
@@ -119,21 +119,6 @@ QString YTSig::aclara(const QString & text, const QString & player, const QStrin
 
 	int dot = text.indexOf('.');
 	qDebug("YTSig::aclara (2): length: %d (%d.%d)", text.size(), dot, text.size()-dot-1);
-
-#if 0
-	if (!function_name.isEmpty()) {
-		res = <your code>;
-		return res;
-	}
-
-	if (text.size() == xx) {
-		res = <your code>;
-	}
-	else {
-		qDebug("YTSig::aclara: signature length not supported: %d: %s", text.size(), text.toLatin1().constData());
-		return res;
-	}
-#endif
 
 	/*
 	qDebug("%d: orig: %s", text.size(), text.toLatin1().constData());
