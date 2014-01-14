@@ -199,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Slovak</source>
-        <translation type="unfinished"/>
+        <translation>斯洛伐克语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -2189,17 +2189,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="537"/>
         <source>Edit &amp;control bar</source>
-        <translation>编辑控制栏(&amp;C)</translation>
+        <translation>编辑控制条(&amp;C)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="538"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>编译迷你控制栏(&amp;I)</translation>
+        <translation>编译迷你控制条(&amp;I)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit &amp;floating control</source>
-        <translation>编辑浮动控制框(&amp;F)</translation>
+        <translation>编辑浮动控制条(&amp;F)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="570"/>
@@ -4302,17 +4302,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="162"/>
         <source>Control bar</source>
-        <translation>控制栏</translation>
+        <translation>控制条</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="165"/>
         <source>Edit &amp;control bar</source>
-        <translation>编辑控制栏(&amp;C)</translation>
+        <translation>编辑控制条(&amp;C)</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="166"/>
         <source>Edit &amp;floating control</source>
-        <translation>编辑浮动控制框(&amp;F)</translation>
+        <translation>编辑浮动控制条(&amp;F)</translation>
     </message>
 </context>
 <context>
@@ -4320,7 +4320,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="142"/>
         <source>Control bar</source>
-        <translation>控制栏</translation>
+        <translation>控制条</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="143"/>
@@ -6654,7 +6654,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="750"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation>隐藏控制条的时间(毫秒)：</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="856"/>
@@ -6755,7 +6755,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation>选择您喜欢的应用程序 GUI。目前有两种可供选择: 默认 GUI 和迷你 GUI。&lt;br&gt;&lt;b&gt;默认 GUI&lt;/b&gt; 提供了传统的图形用户界面，带有工具栏和控制栏。&lt;b&gt;迷你 GUI&lt;/b&gt; 提供了一个更简易的图形用户界面，带有几个按钮，没有工具栏和控制栏。</translation>
+        <translation>选择您喜欢的应用程序 GUI。目前有两种可供选择: 默认 GUI 和迷你 GUI。&lt;br&gt;&lt;b&gt;默认 GUI&lt;/b&gt; 提供了传统的图形用户界面，带有工具栏和控制栏。&lt;b&gt;迷你 GUI&lt;/b&gt; 提供了一个更简易的图形用户界面，带有几个按钮，没有工具栏和控制条。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
@@ -6872,12 +6872,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>如果勾选此项，浮动控制框仅会在鼠标移动到屏幕底部时显示。否则浮动控制框只要在鼠标移动时就显示</translation>
+        <translation>如果勾选此项，浮动控制条仅会在鼠标移动到屏幕底部时显示。否则浮动控制框只要在鼠标移动时就显示</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation>如果启用此选项，浮动控制将出现在简洁模式中。</translation>
+        <translation>如果启用此选项，浮动控制条将出现在简洁模式中。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
@@ -6887,17 +6887,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;警告:&lt;/b&gt; 浮动控制并不是为简洁模式而设计的，它可能无法正常工作。</translation>
+        <translation>&lt;b&gt;警告:&lt;/b&gt; 浮动控制条并不是为简洁模式而设计的，它可能无法正常工作。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"/>
+        <translation>隐藏控制条的时间</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"/>
+        <translation>设置鼠标离开控制条后，控制条隐藏的时间(毫秒)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
@@ -6963,7 +6963,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="735"/>
         <source>Floating control</source>
-        <translation>浮动控制</translation>
+        <translation>浮动控制条</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="737"/>
@@ -6973,7 +6973,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="738"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>如果启用此选项，浮动控制框将以动画形式出现。</translation>
+        <translation>如果启用此选项，浮动控制条将以动画形式出现。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="741"/>
@@ -6983,7 +6983,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation>指定浮动控制框的宽度(以百分比表示)。</translation>
+        <translation>指定浮动控制条的宽度(以百分比表示)。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="744"/>
@@ -7003,12 +7003,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
-        <translation>浮动控制(&amp;F)</translation>
+        <translation>浮动控制条(&amp;F)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation>全屏模式中当鼠标移动到屏幕底部时浮动控制框将会出现。</translation>
+        <translation>全屏模式中当鼠标移动到屏幕底部时浮动控制条将会出现。</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
@@ -8619,7 +8619,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
-        <translation>编辑浮动控制框(&amp;F)</translation>
+        <translation>编辑浮动控制条(&amp;F)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="416"/>
