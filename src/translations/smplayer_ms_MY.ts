@@ -199,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Slovak</source>
-        <translation type="unfinished"/>
+        <translation>Slovak</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -6655,7 +6655,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinterface.ui" line="750"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation>Ma&amp;sa (dalam milisaat) untuk sembunyikan kawalan:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="856"/>
@@ -6893,12 +6893,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"/>
+        <translation>Masa untuk sembunyikan kawalan</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"/>
+        <translation>Tetapkan masa (dalam milisaat) untuk sembunyikan kawalan selepas tetikus menjauhi kawalan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
