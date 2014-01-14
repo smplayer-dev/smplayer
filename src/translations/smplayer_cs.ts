@@ -1840,7 +1840,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1428"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation>Vydeo filtry budou vypnuty při použití VDPAU</translation>
+        <translation>Video filtry budou vypnuty při použití VDPAU</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1548"/>
