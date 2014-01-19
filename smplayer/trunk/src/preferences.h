@@ -139,6 +139,7 @@ public:
 
 	// When playing a mp4 file, it will use a m4a file for audio if a there's a file with same name but extension m4a
 	bool autoload_m4a;
+	int min_step; //<! Step to increase of decrease the controls for color, contrast, brightness and so on
 
 	// Misc
 	int osd;

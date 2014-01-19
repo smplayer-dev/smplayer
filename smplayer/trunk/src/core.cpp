@@ -2974,43 +2974,43 @@ void Core::setSaturation(int value) {
 }
 
 void Core::incBrightness() {
-	setBrightness(mset.brightness + 4);
+	setBrightness(mset.brightness + pref->min_step);
 }
 
 void Core::decBrightness() {
-	setBrightness(mset.brightness - 4);
+	setBrightness(mset.brightness - pref->min_step);
 }
 
 void Core::incContrast() {
-	setContrast(mset.contrast + 4);
+	setContrast(mset.contrast + pref->min_step);
 }
 
 void Core::decContrast() {
-	setContrast(mset.contrast - 4);
+	setContrast(mset.contrast - pref->min_step);
 }
 
 void Core::incGamma() {
-	setGamma(mset.gamma + 4);
+	setGamma(mset.gamma + pref->min_step);
 }
 
 void Core::decGamma() {
-	setGamma(mset.gamma - 4);
+	setGamma(mset.gamma - pref->min_step);
 }
 
 void Core::incHue() {
-	setHue(mset.hue + 4);
+	setHue(mset.hue + pref->min_step);
 }
 
 void Core::decHue() {
-	setHue(mset.hue - 4);
+	setHue(mset.hue - pref->min_step);
 }
 
 void Core::incSaturation() {
-	setSaturation(mset.saturation + 4);
+	setSaturation(mset.saturation + pref->min_step);
 }
 
 void Core::decSaturation() {
-	setSaturation(mset.saturation - 4);
+	setSaturation(mset.saturation - pref->min_step);
 }
 
 void Core::setSpeed( double value ) {
@@ -3125,13 +3125,13 @@ void Core::mute(bool b) {
 
 void Core::incVolume() {
 	qDebug("Core::incVolume");
-	int new_vol = (pref->global_volume ? pref->volume + 4 : mset.volume + 4);
+	int new_vol = (pref->global_volume ? pref->volume + pref->min_step : mset.volume + pref->min_step);
 	setVolume(new_vol);
 }
 
 void Core::decVolume() {
 	qDebug("Core::incVolume");
-	int new_vol = (pref->global_volume ? pref->volume - 4 : mset.volume - 4);
+	int new_vol = (pref->global_volume ? pref->volume - pref->min_step : mset.volume - pref->min_step);
 	setVolume(new_vol);
 }
 

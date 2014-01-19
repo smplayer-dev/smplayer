@@ -149,6 +149,7 @@ void Preferences::reset() {
 	mc_value = 0;
 
 	autoload_m4a = true;
+	min_step = 4;
 
 	osd = None;
 	osd_delay = 2200;
@@ -602,6 +603,7 @@ void Preferences::save() {
 	set->setValue("mc_value", mc_value);
 
 	set->setValue("autoload_m4a", autoload_m4a);
+	set->setValue("min_step", min_step);
 
 	set->setValue("osd", osd);
 	set->setValue("osd_delay", osd_delay);
@@ -1084,6 +1086,7 @@ void Preferences::load() {
 	mc_value = set->value("mc_value", mc_value).toDouble();
 
 	autoload_m4a = set->value("autoload_m4a", autoload_m4a).toBool();
+	min_step = set->value("min_step", min_step).toInt();
 
 	osd = set->value("osd", osd).toInt();
 	osd_delay = set->value("osd_delay", osd_delay).toInt();
