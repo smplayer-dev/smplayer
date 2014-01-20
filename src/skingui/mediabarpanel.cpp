@@ -122,8 +122,13 @@ void MediaBarPanel::updateMediaInfo()
 {
     //QString s = QString("%1 (%2x%3)").arg(core->mdat.displayName()).arg(core->mdat.video_width).arg(core->mdat.video_height);
     mediaPanel->setMediaLabelText(core->mdat.displayName());
-    QString s = QString("%1x%2").arg(core->mdat.video_width).arg(core->mdat.video_height);
-    mediaPanel->setResolutionLabelText(s);
+
+    if ((core->mdat.video_width != 0) && (core->mdat.video_height != 0)) {
+        QString s = QString("%1x%2").arg(core->mdat.video_width).arg(core->mdat.video_height);
+        mediaPanel->setResolutionLabelText(s);
+    } else {
+        mediaPanel->setResolutionLabelText(" ");
+    }
 }
 
 void MediaBarPanel::displayMessage(QString status, int time)
