@@ -315,8 +315,10 @@ signals:
 	void videoInfoChanged(int width, int height, double fps);
 	void timeChanged(QString time_ready_to_print);
 
+	/*
 	void wheelUp();
 	void wheelDown();
+	*/
 	/*
 	void doubleClicked();
 	void leftClicked();
@@ -371,7 +373,7 @@ protected:
 	/* virtual void closeEvent( QCloseEvent * e ); */
 
 protected:
-	virtual void wheelEvent( QWheelEvent * e ) ;
+	/* virtual void wheelEvent( QWheelEvent * e ) ; */
 
 protected:
 	QWidget * panel;

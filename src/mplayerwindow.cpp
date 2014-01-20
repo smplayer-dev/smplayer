@@ -454,8 +454,8 @@ void MplayerWindow::mouseDoubleClickEvent( QMouseEvent * e ) {
 }
 
 void MplayerWindow::wheelEvent( QWheelEvent * e ) {
-    qDebug("MplayerWindow::wheelEvent: delta: %d", e->delta());
-    e->accept();
+	qDebug("MplayerWindow::wheelEvent: delta: %d", e->delta());
+	e->accept();
 
 	if (e->orientation() == Qt::Vertical) {
 	    if (e->delta() >= 0)
