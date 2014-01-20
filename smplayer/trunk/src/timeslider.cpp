@@ -138,9 +138,10 @@ int TimeSlider::pos() {
 	return position;
 }
 
+/*
 void TimeSlider::wheelEvent( QWheelEvent * e ) {
 	e->ignore();
 }
-
+*/
 
 #include "moc_timeslider.cpp"
