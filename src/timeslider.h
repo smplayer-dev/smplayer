@@ -56,7 +56,7 @@ protected slots:
 	void sendDelayedPos();
 #endif
 
-	virtual void wheelEvent( QWheelEvent * e );
+	/* virtual void wheelEvent( QWheelEvent * e ); */
 
 private:
 	bool dont_update;
