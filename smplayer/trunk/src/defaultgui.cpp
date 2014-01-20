@@ -567,7 +567,11 @@ void DefaultGui::displayABSection(int secs_a, int secs_b) {
 }
 
 void DefaultGui::displayVideoInfo(int width, int height, double fps) {
-	video_info_display->setText(tr("%1x%2 %3 fps", "width + height + fps").arg(width).arg(height).arg(fps));
+	if ((width != 0) && (height != 0)) {
+		video_info_display->setText(tr("%1x%2 %3 fps", "width + height + fps").arg(width).arg(height).arg(fps));
+	} else {
+		video_info_display->setText(" ");
+	}
 }
 
 void DefaultGui::updateWidgets() {
