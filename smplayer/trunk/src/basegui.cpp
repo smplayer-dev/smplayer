@@ -155,10 +155,12 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	createAudioEqualizer();
 
 	// Mouse Wheel
+	/*
 	connect( this, SIGNAL(wheelUp()),
              core, SLOT(wheelUp()) );
 	connect( this, SIGNAL(wheelDown()),
              core, SLOT(wheelDown()) );
+	*/
 	connect( mplayerwindow, SIGNAL(wheelUp()),
              core, SLOT(wheelUp()) );
 	connect( mplayerwindow, SIGNAL(wheelDown()),
@@ -4605,6 +4607,7 @@ void BaseGui::mouseDoubleClickEvent( QMouseEvent * e ) {
 }
 */
 
+/*
 void BaseGui::wheelEvent( QWheelEvent * e ) {
 	qDebug("BaseGui::wheelEvent: delta: %d", e->delta());
 	e->accept();
@@ -4618,7 +4621,7 @@ void BaseGui::wheelEvent( QWheelEvent * e ) {
 		qDebug("BaseGui::wheelEvent: horizontal event received, doing nothing");
 	}
 }
-
+*/
 
 // Called when a video has started to play
 void BaseGui::enterFullscreenOnPlay() {
