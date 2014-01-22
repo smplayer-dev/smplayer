@@ -553,7 +553,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1476"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;قرص DVD من سواقة</translation>
+        <translation>قرص DVD من &amp;سواقة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1477"/>
@@ -624,7 +624,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1619"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation>م&amp;خفيّة</translation>
+        <translation>&amp;بدون</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1763"/>
@@ -761,7 +761,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1873"/>
         <source>&amp;Left channel</source>
-        <translation>القناة الي&amp;سرى</translation>
+        <translation>القناة اليس&amp;رى</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1874"/>
@@ -771,7 +771,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
         <source>&amp;Stereo mode</source>
-        <translation>وضع س&amp;تيريو</translation>
+        <translation>وضع &amp;ستيريو</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1581"/>
@@ -781,22 +781,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1582"/>
         <source>Volume &amp;-</source>
-        <translation>ا&amp;خفض الصوت درجة</translation>
+        <translation>صوت &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1583"/>
         <source>Volume &amp;+</source>
-        <translation>ا&amp;رفع الصوت درجة </translation>
+        <translation>صوت &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1584"/>
         <source>&amp;Delay -</source>
-        <translation>&amp;قلّل التأخير درجةً</translation>
+        <translation>تأ&amp;خير -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1585"/>
         <source>D&amp;elay +</source>
-        <translation>&amp;زِد التأخير درجة</translation>
+        <translation>تأخي&amp;ر +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -811,22 +811,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1598"/>
         <source>Delay &amp;-</source>
-        <translation>&amp;قلّل التأخير درجةً</translation>
+        <translation>تأخير &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
         <source>Delay &amp;+</source>
-        <translation>&amp;زِد التأخير درجة</translation>
+        <translation>تأخير &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1601"/>
         <source>&amp;Up</source>
-        <translation>أ&amp;كثر</translation>
+        <translation>للأ&amp;على</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1602"/>
         <source>&amp;Down</source>
-        <translation>أ&amp;قلّ</translation>
+        <translation>للأ&amp;سفل</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1889"/>
@@ -836,7 +836,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;Chapter</source>
-        <translation>الم&amp;قطع</translation>
+        <translation>ال&amp;فصل</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1895"/>
@@ -856,7 +856,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1916"/>
         <source>&amp;OSD</source>
-        <translation>لوحة الأدوات على ال&amp;شاشة</translation>
+        <translation>ل&amp;وحة الأدوات على الشاشة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1923"/>
@@ -871,7 +871,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1663"/>
         <source>About &amp;SMPlayer</source>
-        <translation>نبذة عن &amp;SMPlayer</translation>
+        <translation>نب&amp;ذة عن SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3154"/>
@@ -882,7 +882,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3253"/>
         <location filename="../basegui.cpp" line="3293"/>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;فارغة&gt;</translation>
+        <translation>&lt;فارغ&gt;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3704"/>
@@ -1070,7 +1070,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1608"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>السطر ال&amp;تالي في الترجمة</translation>
+        <translation>السطر التال&amp;ي في الترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1948"/>
@@ -1125,7 +1125,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1656"/>
         <source>Update &amp;Youtube code</source>
-        <translation>حدّث الن&amp;ص البرمجي لـYouTube</translation>
+        <translation>حدّث النص ال&amp;برمجي لـYouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1659"/>
@@ -1271,12 +1271,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
         <source>&amp;Mono</source>
-        <translation>أ&amp;حادية</translation>
+        <translation>أُ&amp;حادي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1876"/>
         <source>Re&amp;verse</source>
-        <translation>ا&amp;عكس</translation>
+        <translation>م&amp;عكوس</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1885"/>
@@ -1388,7 +1388,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1587"/>
         <source>&amp;Load external file...</source>
-        <translation>حمل ملفاً &amp;خارجياً...</translation>
+        <translation>&amp;حمل ملفاً خارجياً...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1827"/>
@@ -1418,7 +1418,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
         <source>Volume &amp;normalization</source>
-        <translation>ت&amp;سوية الصوت</translation>
+        <translation>&amp;تسوية الصوت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1475"/>
@@ -1428,7 +1428,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1609"/>
         <source>Use SSA/&amp;ASS library</source>
-        <translation>استخدم مك&amp;تبة SSA/AAS</translation>
+        <translation>استخدم م&amp;كتبة SSA/AAS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
@@ -1438,12 +1438,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1603"/>
         <source>S&amp;ize -</source>
-        <translation>&amp;صغّر درجة</translation>
+        <translation>ح&amp;جم -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1604"/>
         <source>Si&amp;ze +</source>
-        <translation>&amp;كبّر درجة</translation>
+        <translation>حج&amp;م +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1574"/>
@@ -1458,7 +1458,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1651"/>
         <source>&amp;FAQ</source>
-        <translation>الأسئلة ال&amp;شائعة</translation>
+        <translation>الأ&amp;سئلة الشائعة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1652"/>
@@ -1528,7 +1528,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation>&amp;دَوِّر 90 درجة باتجاه عقارب الساعة وا&amp;قلب</translation>
+        <translation>دَوِّر 90 درجة باتجاه عقارب الساعة وا&amp;قلب</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1839"/>
@@ -1563,7 +1563,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1578"/>
         <source>E&amp;qualizer</source>
-        <translation>المُ&amp;ساوي</translation>
+        <translation>ال&amp;مُساوي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
@@ -1593,7 +1593,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1535"/>
         <source>&amp;Speed +4%</source>
-        <translation>سرّع +&amp;4%</translation>
+        <translation>&amp;سرّع +4%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1536"/>
@@ -1603,7 +1603,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1537"/>
         <source>S&amp;peed +1%</source>
-        <translation>سرّع +&amp;1%</translation>
+        <translation>س&amp;رّع +1%</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1799"/>
@@ -1735,12 +1735,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1586"/>
         <source>Set dela&amp;y...</source>
-        <translation>عيّن التأ&amp;خير...</translation>
+        <translation>عيّن ال&amp;تأخير...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1600"/>
         <source>Se&amp;t delay...</source>
-        <translation>عيّن ال&amp;تأخير...</translation>
+        <translation>عيّن التأخي&amp;ر...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4027"/>
@@ -1794,7 +1794,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1612"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>أ&amp;ظهر الترجمة</translation>
+        <translation>إ&amp;ظهار الترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1710"/>
@@ -1885,7 +1885,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1882"/>
         <source>&amp;Closed captions</source>
-        <translation>الشروحات المُ&amp;غلقة (CC)</translation>
+        <translation>الشروحات المُن&amp;غلقة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -1900,7 +1900,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1653"/>
         <source>Check for &amp;updates</source>
-        <translation>التم&amp;س التحديثات</translation>
+        <translation>التمس التحدي&amp;ثات</translation>
     </message>
 </context>
 <context>
@@ -5395,7 +5395,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="768"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>سَوِّ ح&amp;جم الصوت مبدئياً</translation>
+        <translation>تسوية ح&amp;جم الصوت مبدئياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="901"/>
@@ -5455,7 +5455,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
         <source>Volume normalization by default</source>
-        <translation>سَوِّ حجم الصوت مبدئياً</translation>
+        <translation>تسوية حجم الصوت مبدئياً</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1072"/>

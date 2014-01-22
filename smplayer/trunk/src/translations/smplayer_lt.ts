@@ -199,7 +199,7 @@
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Slovak</source>
-        <translation type="unfinished"/>
+        <translation>Slovakų</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -6649,12 +6649,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation>Rodyti tik nustūmus pelės žymeklį ekrano &amp;apačion</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="750"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation>Laikas (milisekundėmis) po kurio bus paslėptas valdymas:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="856"/>
@@ -6867,12 +6867,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation>Rodyti tik nustūmus pelės žymeklį ekrano apačion</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation>Jei pažymėta, plaukiojantis valdymo skydelis bus rodomas tik nustūmus pelės žymeklį žemyn. Kitu atveju bus rodoma pajudinus pelę, nepaisant jos vietos.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
@@ -6892,12 +6892,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"/>
+        <translation>Valdymo slėpimo laikas</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"/>
+        <translation>Nustato laiką (milisekundėmis) po kurio bus paslėptas valdymas, pelei palikus valdymo sritį.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
