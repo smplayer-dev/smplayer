@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Hutsegitea MPlayer kodekak ezartzerakoan."
 ${LangFileString} Uninstaller_No_Admin "Ezarpen hau administratzaile eskubidea duen erabiltzaileak bakarrik kendu dezake."
 ${LangFileString} Uninstaller_Aborted "Kentzea erabiltzaileak utzita."
 ${LangFileString} Uninstaller_NotInstalled "Ez da agertzen SMPlayer zuzenbidean ezarrita dagoenik '$INSTDIR'.$\r$\nJarraitu horrela ere (ez da gomendagarria)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "Ezarpen hau 64-biteko Windowsetik bakarrik kendu daiteke."
 
 ; Vista & Later Default Programs Registration

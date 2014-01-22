@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "MPlayer コーデックのインストー�
 ${LangFileString} Uninstaller_No_Admin "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
 ${LangFileString} Uninstaller_Aborted "アンインストールはユーザーによって中止されました。"
 ${LangFileString} Uninstaller_NotInstalled "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。$\r$\nこのまま続行しますか (推奨されません)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "このインストールは 64 ビットの Windows でのみアンインストールできます。"
 
 ; Vista & Later Default Programs Registration

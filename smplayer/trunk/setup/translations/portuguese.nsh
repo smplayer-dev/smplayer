@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Falha ao instalar os codificadores MPlayer
 ${LangFileString} Uninstaller_No_Admin "Esta aplicação só pode ser desinstalada no modo de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalação cancelada pelo utilizador."
 ${LangFileString} Uninstaller_NotInstalled "Parece que o SMPlayer não está instalado no diretório '$INSTDIR'.$\r$\nContinuar (não recomendado)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "Esta instalação só pode ser desinstalada num sistema Windows de 64 bits."
 
 ; Vista & Later Default Programs Registration

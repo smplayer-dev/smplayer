@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Échec de l'installation des codecs de MPl
 ${LangFileString} Uninstaller_No_Admin "Cette installation ne peut être désinstallée que par un utilisateur ayant les privilèges d'administrateur."
 ${LangFileString} Uninstaller_Aborted "Désinstallation abandonnée par l'utilisateur."
 ${LangFileString} Uninstaller_NotInstalled "Il ne semble pas que SMPlayer soit installé dans le dossier '$INSTDIR'.$\r$\nContinuer quand même (déconseillé) ?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "Cette installation ne peut être désinstallée qu'à partir de Windows 64 bits."
 
 ; Vista & Later Default Programs Registration

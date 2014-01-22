@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Ошибка при установке б�
 ${LangFileString} Uninstaller_No_Admin "Эта установка может быть удалена только пользователем с правами администратора."
 ${LangFileString} Uninstaller_Aborted "Удаление прервано пользователем."
 ${LangFileString} Uninstaller_NotInstalled "Не похоже, что SMPlayer установлен в каталог '$INSTDIR'.$\r$\nПродолжить всё равно (не рекомендуется)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "Эта установка может быть удалена только на 64-битной Windows."
 
 ; Vista & Later Default Programs Registration
