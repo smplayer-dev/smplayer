@@ -1006,11 +1006,8 @@ FunctionEnd
 Section Uninstall
 
   ;Make sure SMPlayer is installed from where the uninstaller is being executed.
-  IfFileExists $INSTDIR\smplayer.exe smplayer_installed
-    MessageBox MB_YESNO $(Uninstaller_NotInstalled) /SD IDNO IDYES smplayer_installed
-    Abort $(Uninstaller_Aborted)
-
-  smplayer_installed:
+  IfFileExists "$INSTDIR\smplayer.exe" +2
+    Abort $(Uninstaller_InvalidDirectory)
 
   SetDetailsPrint textonly
   DetailPrint $(Info_Rest_Assoc)

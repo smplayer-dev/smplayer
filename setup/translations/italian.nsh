@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Installazione dei codec di MPlayer fallita
 ${LangFileString} Uninstaller_No_Admin "La disinstallazione può essere effettuata solo da un utente con permessi amministrativi."
 ${LangFileString} Uninstaller_Aborted "Disinstallazione annullata dall'utente."
 ${LangFileString} Uninstaller_NotInstalled "Sembra che SMPlayer non sia installato nella cartella '$INSTDIR'.$\r$\nContinua comunque (non raccomandato)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration

@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Nepovedlo se nainstalovat kodeky MPlayeru.
 ${LangFileString} Uninstaller_No_Admin "Odinstalaci je potřeba provést s právy administrátora."
 ${LangFileString} Uninstaller_Aborted "Odinstalace přerušena uživatelem."
 ${LangFileString} Uninstaller_NotInstalled "V adresáři '$INSTDIR' není SMPlayer nainstalován .$\r$\nPokračovat (nedoporučeno)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "Tato instalace jde odinstalovat pouze na 64-bitové verzi Windows."
 
 ; Vista & Later Default Programs Registration

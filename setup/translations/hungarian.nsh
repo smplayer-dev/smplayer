@@ -85,6 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Az MPlayer kodekek telepítése nem siker�
 ${LangFileString} Uninstaller_No_Admin "A program eltávolításához rendszergazda jogosultság szükséges."
 ${LangFileString} Uninstaller_Aborted "Az eltávolítást a felhasználó megszakította."
 ${LangFileString} Uninstaller_NotInstalled "Nem úgy néz ki, mint ha az SMPlayer ebbe a könyvtárba lett volna telepítve: '$INSTDIR'.$\r$\nMégis folytassam (nem ajánlott)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
 ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
