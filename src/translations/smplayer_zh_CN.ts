@@ -7083,12 +7083,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.cpp" line="74"/>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Performance</source>
-        <translation>首选项</translation>
+        <translation>性能</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="27"/>
         <source>&amp;Performance</source>
-        <translation>首选项(&amp;P)</translation>
+        <translation>性能(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
