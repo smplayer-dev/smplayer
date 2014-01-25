@@ -132,6 +132,8 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 		url_title = "Youtube video";
 	}
 
+	//qDebug("RetrieveYoutubeUrl::parse: replyString: %s",replyString.toLatin1().constData());
+
 	QString player;
 	QRegExp rxplayer("html5player-([\\d,\\w,-]+)\\.js");
 	if (rxplayer.indexIn(replyString) != -1) {
