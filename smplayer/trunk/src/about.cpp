@@ -1,5 +1,5 @@
 /*  smplayer, GUI front-end for mplayer.
-    Copyright (C) 2006-2013 Ricardo Villalba <rvm@users.sourceforge.net>
+    Copyright (C) 2006-2014 Ricardo Villalba <rvm@users.sourceforge.net>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -53,7 +53,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	}
 
 	info->setText(
-		"<b>SMPlayer</b> &copy; 2006-2013 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;<br><br>"
+		"<b>SMPlayer</b> &copy; 2006-2014 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;<br><br>"
 		"<b>" + tr("Version: %1").arg(Version::printable()) + "</b>" +
 #if PORTABLE_APP
                 " (" + tr("Portable Edition") + ")" +
