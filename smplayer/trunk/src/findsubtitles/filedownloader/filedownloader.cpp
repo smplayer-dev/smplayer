@@ -78,10 +78,12 @@ void FileDownloader::gotResponse(QNetworkReply* reply) {
 				return;
 		}
 	} else {
+		hide();
 		emit downloadFailed(reply->errorString());
 		return;
 	}
 
+	hide();
 	emit downloadFinished(reply->readAll());
 }
 
