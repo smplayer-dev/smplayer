@@ -1529,7 +1529,7 @@ void BaseGui::retranslateStrings() {
 
 	// Submenu speed
 	normalSpeedAct->change( tr("&Normal speed") );
-	halveSpeedAct->change( tr("&Halve speed") );
+	halveSpeedAct->change( tr("&Half speed") );
 	doubleSpeedAct->change( tr("&Double speed") );
 	decSpeed10Act->change( tr("Speed &-10%") );
 	incSpeed10Act->change( tr("Speed &+10%") );
