@@ -2065,6 +2065,11 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Subtiitrid sees</translation>
@@ -2125,9 +2130,8 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <translation>Ühendamine %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>Video urli ei seedetud tuvastada</translation>
+        <translation type="obsolete">Video urli ei seedetud tuvastada</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Näide: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Näide: resample=44100:0:0,volnorm</translation>
         <translation>Server</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>&amp;Opensubtitles´i server:</translation>
+        <translation type="obsolete">&amp;Opensubtitles´i server:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3032,8 +3048,12 @@ Palun kontrolli kausta nõuet.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Sa saad dvd`d mängida kõvakettalt. Vali kaust mis sisaldab VIDEO_TS ja AUDIO_TS käsiraamatuid.</translation>
+        <translation type="obsolete">Sa saad dvd`d mängida kõvakettalt. Vali kaust mis sisaldab VIDEO_TS ja AUDIO_TS käsiraamatuid.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5124,6 +5144,11 @@ Näide: resample=44100:0:0,volnorm</translation>
         <translation>Vali oma DVD seade. Seda kasutatakse DVD mängimiseks.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Vali oma &amp;CD seade:</translation>
@@ -5159,9 +5184,8 @@ Näide: resample=44100:0:0,volnorm</translation>
         <translation>Võimalda DVD menüü</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Kui see valik on valitud siis smplayer mängib DVD-si kasutades dvdnav-i. Requires a recent version of mplayer compiled with dvdnav support.</translation>
+        <translation type="obsolete">Kui see valik on valitud siis smplayer mängib DVD-si kasutades dvdnav-i. Requires a recent version of mplayer compiled with dvdnav support.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

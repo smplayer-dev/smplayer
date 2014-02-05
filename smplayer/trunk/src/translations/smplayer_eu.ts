@@ -2065,6 +2065,11 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Ezinezkoa Youtube orrialdea berreskuratzea</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Azpidatziak eraginda</translation>
@@ -2125,9 +2130,8 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>%1-ra elkarketatzen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>Ezinezkoa bideoaren url-a aurkitzea</translation>
+        <translation type="obsolete">Ezinezkoa bideoaren url-a aurkitzea</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Adibidea: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Adibidea: resample=44100:0:0,volnorm</translation>
         <translation>Zerbitzaria</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>&amp;Opensubtitles zerbitzaria:</translation>
+        <translation type="obsolete">&amp;Opensubtitles zerbitzaria:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3032,8 +3048,12 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>DVD bat zure diska gogorretik irakurri dezakezu. Hautatu VIDEO_TS eta AUDIO_TS zuzenbideak dituen agiritegia.</translation>
+        <translation type="obsolete">DVD bat zure diska gogorretik irakurri dezakezu. Hautatu VIDEO_TS eta AUDIO_TS zuzenbideak dituen agiritegia.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5124,6 +5144,11 @@ Adibidez: resample=44100:0:0,volnorm</translation>
         <translation>Hautatu DVD gailua. DVD-ak irakurtzeko erabiliko da.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Hautatu zure &amp;CD gailua:</translation>
@@ -5159,9 +5184,8 @@ Adibidez: resample=44100:0:0,volnorm</translation>
         <translation>Gaitu DVd menuak</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Aukera hau hautatua bada, smplayerrek DVD-ak dvdnav erabiliz irakurriko ditu. MPlayer-en bertsio berri bat behar da dvdnav sostengatzen duena.</translation>
+        <translation type="obsolete">Aukera hau hautatua bada, smplayerrek DVD-ak dvdnav erabiliz irakurriko ditu. MPlayer-en bertsio berri bat behar da dvdnav sostengatzen duena.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

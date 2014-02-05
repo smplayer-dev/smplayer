@@ -2065,6 +2065,11 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Tekstitys päälle</translation>
@@ -2122,11 +2127,6 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="543"/>
-        <source>Unable to locate the url of the video</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2517,14 +2517,22 @@ Esimerkki: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2575,13 @@ Esimerkki: resample=44100:0:0,volnorm</translation>
         <translation>Palvelin</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>&amp;Opensubtitles-palvelin:</translation>
+        <translation type="obsolete">&amp;Opensubtitles-palvelin:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3032,8 +3044,12 @@ Tarkista kansion oikeudet.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Pystyt toistamaan DVD:n kiintolevyltäsi. Valitse ainoastaan kansio joka sisältää VIDEO_TS ja AUDIO_TS -hakemistot.</translation>
+        <translation type="obsolete">Pystyt toistamaan DVD:n kiintolevyltäsi. Valitse ainoastaan kansio joka sisältää VIDEO_TS ja AUDIO_TS -hakemistot.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5124,6 +5140,11 @@ Esimerkki: resample=44100:0:0,volnorm</translation>
         <translation>Valitse DVD-asemasi. Sitä käytetään DVD:n toistamiseen.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Valitse &amp;CD-asemasi:</translation>
@@ -5159,9 +5180,8 @@ Esimerkki: resample=44100:0:0,volnorm</translation>
         <translation>Mahdollista DVD valikot</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Jos tämä asetus on valittuna, smplayer toistaa DVD:t käyttämällä dvdnavia. Vaatii viimeaikaisen version mplayeristä laadittuna dvdnav-tuella.</translation>
+        <translation type="obsolete">Jos tämä asetus on valittuna, smplayer toistaa DVD:t käyttämällä dvdnavia. Vaatii viimeaikaisen version mplayeristä laadittuna dvdnav-tuella.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

@@ -2065,6 +2065,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>유투브 페이지를 검색할 수 없습니다</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>자막 보이기</translation>
@@ -2125,9 +2130,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>%1 에 연결 중</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>동영상의 주소를 찾을 수 없습니다</translation>
+        <translation type="obsolete">동영상의 주소를 찾을 수 없습니다</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>서버</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>자막 서버:</translation>
+        <translation type="obsolete">자막 서버:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3031,8 +3047,12 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>하드 디스크의 DVD 폴더를 재생할 수 있습니다. VIDEO_TS와 AUDIO_TS 폴더를 포함하는 폴더를 선택하세요.</translation>
+        <translation type="obsolete">하드 디스크의 DVD 폴더를 재생할 수 있습니다. VIDEO_TS와 AUDIO_TS 폴더를 포함하는 폴더를 선택하세요.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5123,6 +5143,11 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>DVD 드라이브를 선택하세요. DVD 재생에 사용됩니다.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>&amp;CD 장치를 선택하세요:</translation>
@@ -5158,9 +5183,8 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>DVD 메뉴 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>이 옵션을 사용하면 SMPlayer는 dvdnav를 이용해서 DVD를 재생할 것입니다. dvdnav를 지원하는 최신 버전의 mplayer가 필요합니다.</translation>
+        <translation type="obsolete">이 옵션을 사용하면 SMPlayer는 dvdnav를 이용해서 DVD를 재생할 것입니다. dvdnav를 지원하는 최신 버전의 mplayer가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

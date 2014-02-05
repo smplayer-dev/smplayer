@@ -2065,6 +2065,11 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Phụ đề đang bật</translation>
@@ -2125,9 +2130,8 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Đang kết nối đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>Không thể xác định vị trí đường dẫn url của video</translation>
+        <translation type="obsolete">Không thể xác định vị trí đường dẫn url của video</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Máy chủ</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>&amp;Mở phụ đề máy chủ:</translation>
+        <translation type="obsolete">&amp;Mở phụ đề máy chủ:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3031,8 +3047,12 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Bạn có thể chơi dvd từ đĩa cứng của bạn. Chỉ cần chọn thư mục có chứa các thư mục VIDEO_TS và AUDIO_TS.</translation>
+        <translation type="obsolete">Bạn có thể chơi dvd từ đĩa cứng của bạn. Chỉ cần chọn thư mục có chứa các thư mục VIDEO_TS và AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5122,6 +5142,11 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Chọn ổ DVD của bạn. Nó sẽ được dùng để chơi các đĩa DVD.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Chọn Ổ &amp;CD của bạn:</translation>
@@ -5157,9 +5182,8 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Hiện trình đơn DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Nếu lựa chọn này được đánh dấu, smplayer sẽ chơi các đĩa DVD bằng dvdnav. Cần phải có phiên bản gần đây của mplayer được biên dịch với hỗ trợ dvdnav.</translation>
+        <translation type="obsolete">Nếu lựa chọn này được đánh dấu, smplayer sẽ chơi các đĩa DVD bằng dvdnav. Cần phải có phiên bản gần đây của mplayer được biên dịch với hỗ trợ dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

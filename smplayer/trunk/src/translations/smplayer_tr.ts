@@ -2065,6 +2065,11 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Youtube sayfası alınamıyor</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Altyazı açık</translation>
@@ -2125,9 +2130,8 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>%1&apos;e bağlanıyor</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>Video bağlantısı bulunamadı</translation>
+        <translation type="obsolete">Video bağlantısı bulunamadı</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Sunucu</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>&amp;Opensubtitles sunucusu:</translation>
+        <translation type="obsolete">&amp;Opensubtitles sunucusu:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3031,8 +3047,12 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Sabit diskinizde bulunan bir DVD&apos;yi oynatabilirsiniz. VIDEO_TS ve AUDIO_TS klasörlerini içeren klasörü seçmeniz yeterli.</translation>
+        <translation type="obsolete">Sabit diskinizde bulunan bir DVD&apos;yi oynatabilirsiniz. VIDEO_TS ve AUDIO_TS klasörlerini içeren klasörü seçmeniz yeterli.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5123,6 +5143,11 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>DVD sürücünüzü seçin. Bu sürücü DVD&apos;lerin oynatılmasında kullanılacak.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>&amp;CD sürücünüzü seçin:</translation>
@@ -5158,9 +5183,8 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>DVD menüleri etkinleştir</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Bu seçeneği işaretlerseniz, smplayer dvdnav kullanarak DVD oynayacak. Dvdnav desteği ile derlenmiş mplayer&apos;ın yeni bir sürümünü gerektirir.</translation>
+        <translation type="obsolete">Bu seçeneği işaretlerseniz, smplayer dvdnav kullanarak DVD oynayacak. Dvdnav desteği ile derlenmiş mplayer&apos;ın yeni bir sürümünü gerektirir.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
