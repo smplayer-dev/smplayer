@@ -540,7 +540,7 @@ void Core::YTNoSignature() {
 */
 
 void Core::YTNoVideoUrl() {
-	emit showMessage( tr("Unable to locate the url of the video") );
+	emit showMessage( tr("Unable to locate the URL of the video") );
 }
 #endif
 

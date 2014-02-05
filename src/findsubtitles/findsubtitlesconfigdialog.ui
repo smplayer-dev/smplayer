@@ -23,7 +23,7 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>&amp;Opensubtitles server:</string>
+         <string>&amp;OpenSubtitles server:</string>
         </property>
         <property name="buddy">
          <cstring>server_edit</cstring>

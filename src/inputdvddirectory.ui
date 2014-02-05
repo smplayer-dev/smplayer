@@ -33,7 +33,7 @@
       </sizepolicy>
      </property>
      <property name="text" >
-      <string>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</string>
+      <string>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</string>
      </property>
      <property name="alignment" >
       <set>Qt::AlignVCenter</set>
