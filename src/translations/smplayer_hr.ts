@@ -2065,6 +2065,11 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Nemoguće učitavanje Youtube stranice</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Podnaslovi uključeni</translation>
@@ -2125,9 +2130,8 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Povezivanje na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>Nemoguće pronalaženje URL videa</translation>
+        <translation type="obsolete">Nemoguće pronalaženje URL videa</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Npr: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Npr: resample=44100:0:0,volnorm</translation>
         <translation>Poslužitelj</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>&amp;Opensubtitles poslužitelj:</translation>
+        <translation type="obsolete">&amp;Opensubtitles poslužitelj:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3033,8 +3049,12 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Možete reproducirati DVD sa vašeg čvrstog diska. Jednostavno odaberite mapu koja sadrži VIDEO_TS i AUDIO_TS direktorije.</translation>
+        <translation type="obsolete">Možete reproducirati DVD sa vašeg čvrstog diska. Jednostavno odaberite mapu koja sadrži VIDEO_TS i AUDIO_TS direktorije.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5125,6 +5145,11 @@ Npr.: resample=44100:0:0,volnorm</translation>
         <translation>Odaberite vaš DVD uređaj. Koristit će se za reprodukciju DVD-a.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Odaberite vaš &amp;CD uređaj:</translation>
@@ -5160,9 +5185,8 @@ Npr.: resample=44100:0:0,volnorm</translation>
         <translation>Omogući DVD izbornike</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Ako je ova mogućnost označena Smplayer će reproducirati DVD-ove koristeći dvdnav. To zahtijeva nedavnu inačicu Mplayera kompajliranog sa dvdnav podrškom.</translation>
+        <translation type="obsolete">Ako je ova mogućnost označena Smplayer će reproducirati DVD-ove koristeći dvdnav. To zahtijeva nedavnu inačicu Mplayera kompajliranog sa dvdnav podrškom.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

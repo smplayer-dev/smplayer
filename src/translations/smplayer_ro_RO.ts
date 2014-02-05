@@ -2072,6 +2072,11 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation type="unfinished"></translation>
@@ -2129,11 +2134,6 @@ O fereastră de dialog va fi afișată pentru a putea face configurarea.</transl
     <message>
         <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="543"/>
-        <source>Unable to locate the url of the video</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2522,13 +2522,17 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation type="unfinished">Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
+        <source>SOCKS5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2573,7 +2577,7 @@ Se folosesc aceleași reguli ca pentru filtrele video.Exemplu: resample=44100:0:
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
-        <source>&amp;Opensubtitles server:</source>
+        <source>&amp;OpenSubtitles server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3037,8 +3041,12 @@ Verificați permisiunile acelui director.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Puteți reda un dvd de pe hard disc.Selectați directorul care conține fișierele VIDEO_TS și AUDIO_TS.</translation>
+        <translation type="obsolete">Puteți reda un dvd de pe hard disc.Selectați directorul care conține fișierele VIDEO_TS și AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5137,6 +5145,11 @@ Exemplu: resample=44100:0:0,volnorm</translation>
         <translation>Alegere dispozitiv DVD. Acesta va fi folosit pentru redarea DVD.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Selectare dispozitiv redare &amp;CD:</translation>
@@ -5169,11 +5182,6 @@ Exemplu: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="227"/>
         <source>Enable DVD menus</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefdrives.cpp" line="228"/>
-        <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -11,22 +11,22 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>Links:</source>
-        <translation type="unfinished"></translation>
+        <translation>Links:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>Official website:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sito ufficiale:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>Support forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Forum di supporto:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spagnolo</translation>
+        <translation>Spagnolo</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="157"/>
@@ -71,22 +71,22 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Molte persone hanno già contribuito alla traduzione di SMPlayer.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anche tu puoi aiutare a tradurlo nella tua lingua.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visita %1 e unisciti al gruppo di traduzione.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Persone attualmente coinvolte nel team di transifex:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -151,7 +151,7 @@
     <message>
         <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation type="unfinished">Ebreo</translation>
+        <translation>Ebraico</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
@@ -309,12 +309,12 @@
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Using MPlayer2 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer2 %1 in uso</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer usa il pluripremiato Mplayer come playback engine. Vedi %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -334,7 +334,7 @@
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Molte altre persone hanno contribuito con delle patch. Vedi il Changelog per i dettagli.</translation>
     </message>
 </context>
 <context>
@@ -951,12 +951,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="4349"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuova versione disponibile</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4350"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>È disponibile una nuova versione di SMplayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4351"/>
@@ -1137,12 +1137,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1661"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Apri cartella configurazione</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1663"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dona</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1686"/>
@@ -1303,17 +1303,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="3973"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Dona</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3974"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ti piace SMPlayer e vuoi supportare il suo sviluppo, puoi fare una donazione. Anche il più piccolo contributo sarà molto apprezzato.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3977"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Si, voglio fare una donazione</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4444"/>
@@ -2066,6 +2066,11 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Sottotitoli attivi</translation>
@@ -2123,11 +2128,6 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="543"/>
-        <source>Unable to locate the url of the video</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2376,7 +2376,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aggiungi il media corrente</translation>
     </message>
 </context>
 <context>
@@ -2518,14 +2518,22 @@ Esempio: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2569,7 +2577,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
-        <source>&amp;Opensubtitles server:</source>
+        <source>&amp;OpenSubtitles server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2643,7 +2651,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portoghese - Brasile</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
@@ -2804,7 +2812,7 @@ Controllarne i relativi permessi.</translation>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>Creazione font cache...</translation>
     </message>
 </context>
 <context>
@@ -3033,8 +3041,12 @@ Controllarne i relativi permessi.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Si può riprodurre un dvd direttamente dal disco. Selezionare semplicemente la cartella che contiene VIDEO_TS e AUDIO_TS.</translation>
+        <translation type="obsolete">Si può riprodurre un dvd direttamente dal disco. Selezionare semplicemente la cartella che contiene VIDEO_TS e AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -4390,17 +4402,17 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Registra</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>File successivo nella playlist</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>File precedente nella playlist</translation>
     </message>
 </context>
 <context>
@@ -4576,7 +4588,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlist.cpp" line="1023"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimedia</translation>
+        <translation>Multimedia</translation>
     </message>
 </context>
 <context>
@@ -4810,7 +4822,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se si seleziona questa opzione, apparirà una finestra per fornire informazioni riguardo i crash di MPlayer. Altrimenti essi verranno ignorati.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="493"/>
@@ -5125,6 +5137,11 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Scegli il dispositivo DVD. Sarà usato per riprodurre DVD.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Seleziona il dispositivo &amp;CD:</translation>
@@ -5160,9 +5177,8 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <translation>Abilita menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Se si abilita l&apos;opzione, smplayer riprodurrà i DVD usando dvdnav. Richiede una versione recente di mplayer compilata con il supporto a dvdnav.</translation>
+        <translation type="obsolete">Se si abilita l&apos;opzione, smplayer riprodurrà i DVD usando dvdnav. Richiede una versione recente di mplayer compilata con il supporto a dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -8559,7 +8575,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="33"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ti piace SMPlayer e vuoi supportare il suo sviluppo, puoi fare una donazione. Anche il più piccolo contributo sarà molto apprezzato.</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="35"/>
@@ -8574,7 +8590,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../reminderdialog.cpp" line="38"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Dona</translation>
     </message>
     <message>
         <location filename="../reminderdialog.cpp" line="39"/>
@@ -9168,17 +9184,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation type="unfinished">Lista di riproduzione</translation>
+        <translation>Playlist</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermo intero on/off</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equalizzatore video</translation>
     </message>
 </context>
 <context>

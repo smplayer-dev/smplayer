@@ -2065,6 +2065,11 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>No es posible cargar la página de Youtube</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation>No es posible encontrar la dirección del vídeo</translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Subtítulos activados</translation>
@@ -2125,9 +2130,8 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Conectando con %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>No es posible encontrar la dirección del vídeo</translation>
+        <translation type="obsolete">No es posible encontrar la dirección del vídeo</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Servidor</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>Servidor de &amp;Opensubtitles:</translation>
+        <translation type="obsolete">Servidor de &amp;Opensubtitles:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation>Servidor de &amp;OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3032,8 +3048,12 @@ Por favor verifica los permisos de esa carpeta.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation>Es posible reproducir un DVD desde el disco duro. Simplemente selecciona la carpeta que contiene los directorios VIDEO_TS y AUDIO_TS.</translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Es posible reproducir un dvd desde el disco duro. Simplemente selecciona la carpeta que contiene los directorios VIDEO_TS y AUDIO_TS.</translation>
+        <translation type="obsolete">Es posible reproducir un dvd desde el disco duro. Simplemente selecciona la carpeta que contiene los directorios VIDEO_TS y AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5128,6 +5148,11 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Selecciona tu dispositivo DVD. Se usará para reproducir DVDs.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation>Si esta opción está activada, SMPlayer reproducirá los DVDs usando dvdnav. Requiere una versión del MPlayer compilada con soporte para dvdnav.</translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Selecciona tu dispositivo &amp;CD:</translation>
@@ -5163,9 +5188,8 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Activar menús DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Si esta opción está activada, SMPlayer reproducirá los DVDs usando dvdnav. Requiere una versión del mplayer compilada con soporte para dvdnav.</translation>
+        <translation type="obsolete">Si esta opción está activada, SMPlayer reproducirá los DVDs usando dvdnav. Requiere una versión del mplayer compilada con soporte para dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

@@ -2065,6 +2065,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>无法取回Youtube页面</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>字幕开启</translation>
@@ -2125,9 +2130,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>正在连接到 1%</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>无法找到视频的 URL</translation>
+        <translation type="obsolete">无法找到视频的 URL</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>HTTP</translation>
+        <translation type="obsolete">HTTP</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">SOCKS5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>SOCKS5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>服务器</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>OpenSubtitles 服务器(&amp;O):</translation>
+        <translation type="obsolete">OpenSubtitles 服务器(&amp;O):</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3031,8 +3047,12 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>您可以从您的硬盘上播放 DVD。您只需选择其中包含 VIDEO_TS 和 AUDIO_TS 目录的文件夹。</translation>
+        <translation type="obsolete">您可以从您的硬盘上播放 DVD。您只需选择其中包含 VIDEO_TS 和 AUDIO_TS 目录的文件夹。</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5123,6 +5143,11 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>选择您的 DVD 驱动器。它将用于播放 DVD。</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>选择您的 CD 驱动器(&amp;C):</translation>
@@ -5158,9 +5183,8 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>启用 DVD 菜单</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>如果勾选此选项，SMPlayer 将使用 DVDNav 播放 DVD。这需要编译有 DVDNav 支持的最新版本 MPlayer。</translation>
+        <translation type="obsolete">如果勾选此选项，SMPlayer 将使用 DVDNav 播放 DVD。这需要编译有 DVDNav 支持的最新版本 MPlayer。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

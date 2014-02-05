@@ -2065,6 +2065,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>เปิดศัพท์บรรยาย</translation>
@@ -2125,9 +2130,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>กำลังเชื่อมต่อ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>ไม่สามารถหาตำแหน่ง url ของวิดีโอได้</translation>
+        <translation type="obsolete">ไม่สามารถหาตำแหน่ง url ของวิดีโอได้</translation>
     </message>
 </context>
 <context>
@@ -2518,12 +2522,12 @@ Example: resample=44100:0:0,volnorm</source>
     <name>FindSubtitlesConfigDialog</name>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
-        <source>Http</source>
+        <source>HTTP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
+        <source>SOCKS5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2568,7 +2572,7 @@ Example: resample=44100:0:0,volnorm</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
-        <source>&amp;Opensubtitles server:</source>
+        <source>&amp;OpenSubtitles server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3031,8 +3035,12 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>คุณสามารถเล่นดีวีดีจากฮาร์ดดิสก์ของคุณ แค่เลือกโฟลเดอร์ที่มีเส้นทางของ  VIDEO_TS และ AUDIO_TS.</translation>
+        <translation type="obsolete">คุณสามารถเล่นดีวีดีจากฮาร์ดดิสก์ของคุณ แค่เลือกโฟลเดอร์ที่มีเส้นทางของ  VIDEO_TS และ AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5123,6 +5131,11 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>เลือกอุปกรณ์ DVD ของคุณ มันจะถูกใช้เล่น DVD.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>เลือกอุปกรณ์ &amp;CD:</translation>
@@ -5158,9 +5171,8 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>ใช้งานเมนู DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>ถ้าเลือกตัวเลือกนี้ smplayer จะเล่น DVD โดยใช้ dvdnav ซึ่งต้องการรุ่นล่าสุดของ mplayer ที่ถูกคอมไฟล์การรองรับกับ dvdnav.</translation>
+        <translation type="obsolete">ถ้าเลือกตัวเลือกนี้ smplayer จะเล่น DVD โดยใช้ dvdnav ซึ่งต้องการรุ่นล่าสุดของ mplayer ที่ถูกคอมไฟล์การรองรับกับ dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

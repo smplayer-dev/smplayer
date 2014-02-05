@@ -2066,6 +2066,11 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Tidak dapat menerima halaman Youtube</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Subtitle aktif</translation>
@@ -2126,9 +2131,8 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Menghubungkan ke %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>Tidak dapat menemukan lokasi url dari video</translation>
+        <translation type="obsolete">Tidak dapat menemukan lokasi url dari video</translation>
     </message>
 </context>
 <context>
@@ -2518,14 +2522,22 @@ Contoh: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2568,9 +2580,13 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Server</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>Server &amp;Opensubtitles:</translation>
+        <translation type="obsolete">Server &amp;Opensubtitles:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3032,8 +3048,12 @@ Harap periksa ijin dari folder tersebut.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Anda dapat memainkan DVD dari harddisk anda. Hanya memilih folder yang mempunyai direktori VIDEO_TS dan AUDIO_TS</translation>
+        <translation type="obsolete">Anda dapat memainkan DVD dari harddisk anda. Hanya memilih folder yang mempunyai direktori VIDEO_TS dan AUDIO_TS</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5124,6 +5144,11 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Pilih perangkat DVD anda. Perangkat tersebut akan digunakan untuk memainkan DVD.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>PIlih perangkat &amp;CD anda:</translation>
@@ -5159,9 +5184,8 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Nyalakan menu DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>JIka opsi ini diisi, SMPlayer akan memainkan DVD menggunakan dvdnav. DIperlukan versi terbaru mplayer yang dikompilasikan dengan dukungan dvdnav.</translation>
+        <translation type="obsolete">JIka opsi ini diisi, SMPlayer akan memainkan DVD menggunakan dvdnav. DIperlukan versi terbaru mplayer yang dikompilasikan dengan dukungan dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

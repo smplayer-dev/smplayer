@@ -2061,6 +2061,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3142"/>
         <source>Subtitle delay: %1 ms</source>
         <translation type="unfinished"></translation>
@@ -2133,11 +2138,6 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../core.cpp" line="543"/>
-        <source>Unable to locate the url of the video</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2528,14 +2528,22 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>HTTP</translation>
+        <translation type="obsolete">HTTP</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">SOCKS5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>SOCKS5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2579,7 +2587,7 @@ Example: resample=44100:0:0,volnorm</source>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
-        <source>&amp;Opensubtitles server:</source>
+        <source>&amp;OpenSubtitles server:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3043,8 +3051,12 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Можете да пуштите DVD од вашиот тврд диск. Само одберете ја папката што ги содржи VIDEO_TS и AUDIO_TS папките.</translation>
+        <translation type="obsolete">Можете да пуштите DVD од вашиот тврд диск. Само одберете ја папката што ги содржи VIDEO_TS и AUDIO_TS папките.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5143,6 +5155,11 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Одберете го вашиот DVD уред. Тој ќе биде користен за пуштање на DVD-иња.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Одберете го вашиот &amp;CD уред:</translation>
@@ -5178,9 +5195,8 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Овозможи DVD мени</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Доколку оваа опција е овозможена, smplayer ќе пушта DVD со dvdnav. Потребна е понова верзија на mplayer компајлирана со dvdnav подршка.</translation>
+        <translation type="obsolete">Доколку оваа опција е овозможена, smplayer ќе пушта DVD со dvdnav. Потребна е понова верзија на mplayer компајлирана со dvdnav подршка.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

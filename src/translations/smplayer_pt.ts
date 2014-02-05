@@ -655,7 +655,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1785"/>
         <source>&amp;Aspect ratio</source>
-        <translation>T&amp;amanho do &amp;vídeo</translation>
+        <translation>T&amp;amanho do vídeo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
@@ -1509,7 +1509,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="5087"/>
         <source>Please check the MPlayer path in preferences.</source>
-        <translation>Por favor, verifique o caminho do MPlayer nas Preferências.</translation>
+        <translation>Verifique o caminho do MPlayer nas Preferências.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5089"/>
@@ -1651,12 +1651,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="4331"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>A versão MPlayer (%1) instalada no sistema é obsoleta. O SMPlayer não funcionará corretamente: algumas opções não funcionam, as legendas podem falhar...</translation>
+        <translation>A versão MPlayer (%1) instalada no sistema está obsoleta. O SMPlayer não funcionará corretamente: algumas opções não funcionam, as legendas podem falhar...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4336"/>
         <source>Please, update your MPlayer.</source>
-        <translation>Por favor, atualize o MPlayer.</translation>
+        <translation>Por favor atualize o MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4338"/>
@@ -2065,6 +2065,11 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Não foi possível obter a página Youtube</translation>
     </message>
     <message>
+        <location filename="../core.cpp" line="543"/>
+        <source>Unable to locate the URL of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../core.cpp" line="3271"/>
         <source>Subtitles on</source>
         <translation>Ativar legendas</translation>
@@ -2125,9 +2130,8 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>A ligar a %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the url of the video</source>
-        <translation>Não foi possível localizar o url do vídeo</translation>
+        <translation type="obsolete">Não foi possível localizar o url do vídeo</translation>
     </message>
 </context>
 <context>
@@ -2517,14 +2521,22 @@ Exemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>Http</source>
-        <translation>Http</translation>
+        <translation type="obsolete">Http</translation>
+    </message>
+    <message>
+        <source>Socks5</source>
+        <translation type="obsolete">Socks5</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <source>HTTP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
-        <source>Socks5</source>
-        <translation>Socks5</translation>
+        <source>SOCKS5</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2567,9 +2579,13 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Servidor</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;Opensubtitles server:</source>
-        <translation>Servidor &amp;Opensubtitles:</translation>
+        <translation type="obsolete">Servidor &amp;Opensubtitles:</translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <source>&amp;OpenSubtitles server:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3032,8 +3048,12 @@ Verifique as permissões da pasta.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
+        <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Pode reproduzir um dvd existente no disco rígido. Só tem que selecionar a pasta que contém os diretórios VIDEO_TS e AUDIO_TS.</translation>
+        <translation type="obsolete">Pode reproduzir um dvd existente no disco rígido. Só tem que selecionar a pasta que contém os diretórios VIDEO_TS e AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5124,6 +5144,11 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Escolha a unidade DVD. Será utilizada para reproduzir DVDs.</translation>
     </message>
     <message>
+        <location filename="../prefdrives.cpp" line="228"/>
+        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Selecione o dispositivo &amp;CD:</translation>
@@ -5159,9 +5184,8 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Ativar menus de DVD</translation>
     </message>
     <message>
-        <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation>Se ativar esta opção, o SMPlayer irá reproduzir os DVDs utilizando dvdnav. Necessita de uma versão MPlayer compilada com suporte a dvdnav.</translation>
+        <translation type="obsolete">Se ativar esta opção, o SMPlayer irá reproduzir os DVDs utilizando dvdnav. Necessita de uma versão MPlayer compilada com suporte a dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
