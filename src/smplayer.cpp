@@ -87,6 +87,10 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	// Application translations
 	translator->load( pref->language );
 	showInfo();
+
+#ifdef Q_OS_WIN
+	createFontFile();
+#endif
 }
 
 SMPlayer::~SMPlayer() {
@@ -451,6 +455,29 @@ void SMPlayer::createConfigDirectory() {
 }
 #endif
 
+#ifdef Q_OS_WIN
+void SMPlayer::createFontFile() {
+	qDebug("SMPlayer::createFontFile");
+	QString output = Paths::configPath() + "/fonts.conf";
+	if (!QFile::exists(output)) {
+		QString input = Paths::appPath() + "/mplayer/fonts/fonts.conf";
+		qDebug("SMPlayer::createFontFile: input: %s", input.toLatin1().constData());
+		QFile infile(input);
+		if (infile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+			QString text = infile.readAll();
+			text = text.replace("<dir>WINDOWSFONTDIR</dir>", "<dir>" + Paths::fontPath() + "</dir>");
+			//qDebug("SMPlayer::createFontFile: %s", text.toUtf8().constData());
+
+			QFile outfile(output);
+			if (outfile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+				outfile.write(text.toUtf8());
+				outfile.close();
+			}
+		}
+	}
+}
+#endif
+
 void SMPlayer::showInfo() {
 #ifdef Q_OS_WIN
 	QString win_ver;
@@ -500,6 +527,9 @@ void SMPlayer::showInfo() {
 	qDebug(" * ini path: '%s'", Paths::iniPath().toUtf8().data());
 	qDebug(" * file for subtitles' styles: '%s'", Paths::subtitleStyleFile().toUtf8().data());
 	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
+#ifdef Q_OS_WIN
+	qDebug(" * font path: '%s'", Paths::fontPath().toUtf8().data());
+#endif
 }
 
 #ifdef LOG_SMPLAYER

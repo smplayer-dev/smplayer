@@ -2503,7 +2503,14 @@ void Core::startMplayer( QString file, double seek ) {
 	//Log command
 	QString line_for_log = commandline + "\n";
 	emit logLineAvailable(line_for_log);
-	
+
+#ifdef Q_OS_WIN
+	if (1) {
+		QProcessEnvironment env = QProcessEnvironment::systemEnvironment();
+		env.insert("FONTCONFIG_FILE", Paths::configPath() + "/fonts.conf");
+		proc->setProcessEnvironment(env);
+	}
+#endif
 	if ( !proc->start() ) {
 	    // error handling
 		qWarning("Core::startMplayer: mplayer process didn't start");
