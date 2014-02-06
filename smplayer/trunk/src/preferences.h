@@ -240,6 +240,9 @@ public:
 
 	//! If false, options requiring freetype won't be used
 	bool freetype_support;
+#ifdef Q_OS_WIN
+	bool use_windowsfontdir;
+#endif
 
 
     /* ********
