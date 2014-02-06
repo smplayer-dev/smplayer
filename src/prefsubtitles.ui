@@ -229,6 +229,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="windowsfontdir_check">
+         <property name="text">
+          <string>Enable &amp;Windows fonts</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -1152,6 +1159,7 @@
   <tabstop>enca_lang_combo</tabstop>
   <tabstop>subtitles_on_screeshots_check</tabstop>
   <tabstop>freetype_check</tabstop>
+  <tabstop>windowsfontdir_check</tabstop>
   <tabstop>normal_subs_button</tabstop>
   <tabstop>ass_subs_button</tabstop>
   <tabstop>ttf_font_button</tabstop>
