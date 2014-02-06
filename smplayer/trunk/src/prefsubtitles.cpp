@@ -40,6 +40,10 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	connect( style_border_style_combo, SIGNAL(currentIndexChanged(int)),
              this, SLOT(checkBorderStyleCombo(int)) );
 
+#ifndef Q_OS_WIN
+	windowsfontdir_check->hide();
+#endif
+
 	retranslateStrings();
 }
 
@@ -155,6 +159,10 @@ void PrefSubtitles::setData(Preferences * pref) {
 
 	setForceAssStyles(pref->force_ass_styles);
 	setCustomizedAssStyle(pref->user_forced_ass_style);
+
+#ifdef Q_OS_WIN
+	windowsfontdir_check->setChecked(pref->use_windowsfontdir);
+#endif
 }
 
 void PrefSubtitles::getData(Preferences * pref) {
@@ -198,6 +206,10 @@ void PrefSubtitles::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->force_ass_styles, forceAssStyles());
 	TEST_AND_SET(pref->user_forced_ass_style, customizedAssStyle());
+
+#ifdef Q_OS_WIN
+	pref->use_windowsfontdir = windowsfontdir_check->isChecked();
+#endif
 }
 
 void PrefSubtitles::checkBorderStyleCombo( int index ) {
@@ -444,6 +456,15 @@ void PrefSubtitles::createHelp() {
            "MPlayer is compiled without freetype support. "
            "<b>Disabling this option could make that subtitles won't work "
            "at all!</b>") );
+
+#ifdef Q_OS_WIN
+	setWhatsThis(windowsfontdir_check, tr("Enable Windows fonts"), 
+		tr("If this option is enabled the Windows system fonts will be "
+           "available for subtitles. There's an inconvenience: a font cache have "
+           "to be created which can take some time.") +"<br>"+
+		tr("If this option is not checked then only a few fonts bundled with SMPlayer "
+           "can be used, but this is faster.") );
+#endif
 
 	addSectionTitle(tr("Font"));
 
