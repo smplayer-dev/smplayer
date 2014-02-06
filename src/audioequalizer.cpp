@@ -230,6 +230,7 @@ void AudioEqualizer::reset() {
 	for (int n = 0; n < 10; n++) {
 		eq[n]->setValue(0);
 	}
+	presets_combo->setCurrentIndex(presets_combo->findData(Flat));
 }
 
 void AudioEqualizer::setDefaults() {
