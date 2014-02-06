@@ -54,6 +54,9 @@ private:
 #endif
 	void showInfo();
 	void deleteConfig();
+#ifdef Q_OS_WIN
+	void createFontFile();
+#endif
 
 	static BaseGui * main_window;
 
