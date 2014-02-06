@@ -32,6 +32,8 @@ using namespace Global;
 AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 	: QWidget(parent, f)
 {
+	createPresets();
+
 	QBoxLayout *bl = new QHBoxLayout; //(0, 4, 2);
 
 	for (int n = 0; n < 10; n++) {
@@ -77,6 +79,102 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 AudioEqualizer::~AudioEqualizer() {
 }
 
+void AudioEqualizer::createPresets() {
+	preset_list.clear();
+	AudioEqualizerList preset;
+
+	// Classical
+	preset.clear();
+	preset << 0 << 0 << 0 << 0 << 0 << 0 << -41 << -41 << -41 << -53;
+	preset_list[Classical] = preset;
+
+	// Club
+	preset.clear();
+	preset << 0 << 0 << 47 << 29 << 29 << 29 << 17 << 0 << 0 << 0;
+	preset_list[Club] = preset;
+
+	// Dance
+	preset.clear();
+	preset << 53 << 41 << 11 << 0 << 0 << -29 << -41 << -41 << 0 << 0;
+	preset_list[Dance] = preset;
+
+	// Flat
+	preset.clear();
+	preset << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0;
+	preset_list[Flat] = preset;
+
+	// Fullbass
+	preset.clear();
+	preset << 53 << 53 << 53 << 29 << 5 << -23 << -47 << -59 << -65 << -65;
+	preset_list[Fullbass] = preset;
+
+	// FullbassTreble
+	preset.clear();
+	preset << 41 << 29 << 0 << -41 << -23 << 5 << 47 << 65 << 71 << 71;
+	preset_list[FullbassTreble] = preset;
+
+	// Fulltreble
+	preset.clear();
+	preset << -53 << -53 << -53 << -23 << 11 << 65 << 95 << 95 << 95 << 95;
+	preset_list[Fulltreble] = preset;
+
+	// Headphones
+	preset.clear();
+	preset << 23 << 65 << 29 << -17 << -11 << 5 << 23 << 53 << 71 << 83;
+	preset_list[Headphones] = preset;
+
+	// LargeHall
+	preset.clear();
+	preset << 59 << 59 << 29 << 29 << 0 << -23 << -23 << -23 << 0 << 0;
+	preset_list[LargeHall] = preset;
+
+	// Live
+	preset.clear();
+	preset << -23 << 0 << 23 << 29 << 29 << 29 << 23 << 11 << 11 << 11;
+	preset_list[Live] = preset;
+
+	// Party
+	preset.clear();
+	preset << 41 << 41 << 0 << 0 << 0 << 0 << 0 << 0 << 41 << 41;
+	preset_list[Party] = preset;
+
+	// Pop
+	preset.clear();
+	preset << -5 << 23 << 41 << 47 << 29 << 0 << -11 << -11 << -5 << -5;
+	preset_list[Pop] = preset;
+
+	// Reggae
+	preset.clear();
+	preset << 0 << 0 << 0 << -29 << 0 << 35 << 35 << 0 << 0 << 0;
+	preset_list[Reggae] = preset;
+
+	// Rock
+	preset.clear();
+	preset << 47 << 23 << 29 << -47 << -17 << 23 << 47 << 65 << 65 << 65;
+	preset_list[Rock] = preset;
+
+	// Ska
+	preset.clear();
+	preset << -11 << -23 << -23 << 0 << 23 << 29 << 47 << 53 << 65 << 53;
+	preset_list[Ska] = preset;
+
+	// Soft
+	preset.clear();
+	preset << 23 << 5 << 0 << -11 << 0 << 23 << 47 << 53 << 65 << 71;
+	preset_list[Soft] = preset;
+
+	// SoftRock
+	preset.clear();
+	preset << 23 << 23 << 11 << 0 << -23 << -29 << -17 << 0 << 11 << 47;
+	preset_list[SoftRock] = preset;
+
+	// Techno
+	preset.clear();
+	preset << 47 << 29 << 0 << -29 << -23 << 0 << 47 << 53 << 53 << 47;
+	preset_list[Techno] = preset;
+}
+
+
 void AudioEqualizer::retranslateStrings() {
 	setWindowTitle( tr("Audio Equalizer") );
 	setWindowIcon( Images::icon("logo") );
@@ -101,8 +199,23 @@ void AudioEqualizer::retranslateStrings() {
 	if (presets_combo_index < 0) presets_combo_index = 0;
 	presets_combo->clear();
 	presets_combo->addItem( tr("Flat"), Flat);
+	presets_combo->addItem( tr("Classical"), Classical);
+	presets_combo->addItem( tr("Club"), Club);
+	presets_combo->addItem( tr("Dance"), Dance);
+	presets_combo->addItem( tr("Full bass"), Fullbass);
+	presets_combo->addItem( tr("Full bass and treble"), FullbassTreble);
+	presets_combo->addItem( tr("Full treble"), Fulltreble);
+	presets_combo->addItem( tr("Headphones"), Headphones);
+	presets_combo->addItem( tr("Large hall"), LargeHall);
+	presets_combo->addItem( tr("Live"), Live);
+	presets_combo->addItem( tr("Party"), Party);
 	presets_combo->addItem( tr("Pop"), Pop);
+	presets_combo->addItem( tr("Reggae"), Reggae);
 	presets_combo->addItem( tr("Rock"), Rock);
+	presets_combo->addItem( tr("Ska"), Ska);
+	presets_combo->addItem( tr("Soft"), Soft);
+	presets_combo->addItem( tr("Soft rock"), SoftRock);
+	presets_combo->addItem( tr("Techno"), Techno);
 	presets_combo->setCurrentIndex(presets_combo_index);
 
 	// What's this help:
@@ -131,27 +244,18 @@ void AudioEqualizer::setDefaults() {
                                 "used as default.") );
 }
 
-void AudioEqualizer::setValues(int e0, int e1, int e2, int e3, int e4, int e5, int e6, int e7, int e8, int e9) {
-	eq[0]->setValue(e0);
-	eq[1]->setValue(e1);
-	eq[2]->setValue(e2);
-	eq[3]->setValue(e3);
-	eq[4]->setValue(e4);
-	eq[5]->setValue(e5);
-	eq[6]->setValue(e6);
-	eq[7]->setValue(e7);
-	eq[8]->setValue(e8);
-	eq[9]->setValue(e9);
+void AudioEqualizer::setValues(AudioEqualizerList l) {
+	qDebug("AudioEqualizer::setValues");
+
+	for (int n = 0; n < 10; n++) {
+		eq[n]->setValue(l[n].toInt());
+	}
 }
 
 void AudioEqualizer::presetChanged(int index) {
 	qDebug("AudioEqualizer::presetChanged: %d", index);
 	int p = presets_combo->itemData(index).toInt();
-	switch (p) {
-		case Flat:	reset(); break;
-		case Pop:	setValues(0, 0, 35, 72, 81, 60, 26, 13, 0, 0); break;
-		case Rock:	setValues(51, 37, 24, -14, -54, -14, 19, 52, 78, 78); break;
-	}
+	setValues(preset_list[p]);
 }
 
 void AudioEqualizer::applyButtonClicked() {

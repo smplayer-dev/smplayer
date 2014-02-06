@@ -35,7 +35,9 @@ class AudioEqualizer : public QWidget
 	Q_OBJECT
 
 public:
-	enum Preset { Flat = 0, Pop = 1, Rock = 2 };
+	enum Preset { Flat = 0, Pop = 1, Rock = 2, Classical = 3, Club = 4, Dance = 5, Fullbass = 6,
+                  FullbassTreble = 7, Fulltreble = 8, Headphones = 9, LargeHall = 10, Live = 11,
+                  Party = 12, Reggae = 13, Ska = 14, Soft = 15, SoftRock = 16, Techno = 17 };
 
 	AudioEqualizer( QWidget* parent = 0, Qt::WindowFlags f = Qt::Dialog );
 	~AudioEqualizer();
@@ -60,7 +62,8 @@ protected:
 	virtual void changeEvent( QEvent * event );
 	virtual void retranslateStrings();
 
-	void setValues(int e0, int e1, int e2, int e3, int e4, int e5, int e6, int e7, int e8, int e9);
+	void createPresets();
+	void setValues(AudioEqualizerList l);
 
 protected:
 	QLabel * presets_label;
@@ -68,6 +71,7 @@ protected:
 	QPushButton * apply_button;
 	QPushButton * reset_button;
 	QPushButton * set_default_button;
+	QMap<int,AudioEqualizerList> preset_list;
 };
 
 
