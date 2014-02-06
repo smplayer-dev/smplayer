@@ -417,80 +417,155 @@ Do you want to overwrite?</source>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
+        <location filename="../audioequalizer.cpp" line="179"/>
         <source>Audio Equalizer</source>
         <translation>Звучни еквилајзер</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="84"/>
-        <location filename="../audioequalizer.cpp" line="85"/>
-        <location filename="../audioequalizer.cpp" line="86"/>
-        <location filename="../audioequalizer.cpp" line="87"/>
-        <location filename="../audioequalizer.cpp" line="88"/>
+        <location filename="../audioequalizer.cpp" line="182"/>
+        <location filename="../audioequalizer.cpp" line="183"/>
+        <location filename="../audioequalizer.cpp" line="184"/>
+        <location filename="../audioequalizer.cpp" line="185"/>
+        <location filename="../audioequalizer.cpp" line="186"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="89"/>
-        <location filename="../audioequalizer.cpp" line="90"/>
-        <location filename="../audioequalizer.cpp" line="91"/>
-        <location filename="../audioequalizer.cpp" line="92"/>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="187"/>
+        <location filename="../audioequalizer.cpp" line="188"/>
+        <location filename="../audioequalizer.cpp" line="189"/>
+        <location filename="../audioequalizer.cpp" line="190"/>
+        <location filename="../audioequalizer.cpp" line="191"/>
         <source>%1 kHz</source>
         <translation>%1 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="95"/>
+        <location filename="../audioequalizer.cpp" line="193"/>
         <source>&amp;Preset</source>
         <translation>&amp;Уобичајено</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="96"/>
+        <location filename="../audioequalizer.cpp" line="194"/>
         <source>&amp;Apply</source>
         <translation>&amp;Примени</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="97"/>
+        <location filename="../audioequalizer.cpp" line="195"/>
         <source>&amp;Reset</source>
         <translation>&amp;Ресетуј</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="98"/>
+        <location filename="../audioequalizer.cpp" line="196"/>
         <source>&amp;Set as default values</source>
         <translation>&amp;Подеси подразумеване вредности</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="103"/>
+        <location filename="../audioequalizer.cpp" line="201"/>
         <source>Flat</source>
         <translation>Раван</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="104"/>
+        <location filename="../audioequalizer.cpp" line="202"/>
+        <source>Classical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="203"/>
+        <source>Club</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="204"/>
+        <source>Dance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="205"/>
+        <source>Full bass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="206"/>
+        <source>Full bass and treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="207"/>
+        <source>Full treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="208"/>
+        <source>Headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="209"/>
+        <source>Large hall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="210"/>
+        <source>Live</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="211"/>
+        <source>Party</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="212"/>
         <source>Pop</source>
         <translation>Поп</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="105"/>
+        <location filename="../audioequalizer.cpp" line="213"/>
+        <source>Reggae</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="214"/>
         <source>Rock</source>
         <translation>Рок</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="215"/>
+        <source>Ska</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="216"/>
+        <source>Soft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="217"/>
+        <source>Soft rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="218"/>
+        <source>Techno</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="223"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Користи тренутне вредности као подразумеване вредности за нови видео.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="112"/>
+        <location filename="../audioequalizer.cpp" line="225"/>
         <source>Set all controls to zero.</source>
         <translation>Подеси све контроле на нулу.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="129"/>
+        <location filename="../audioequalizer.cpp" line="243"/>
         <source>Information</source>
         <translation>Информације</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="130"/>
+        <location filename="../audioequalizer.cpp" line="244"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Тренутне вредности су спремљене као подразумеване.</translation>
     </message>
@@ -560,7 +635,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1479"/>
         <source>D&amp;VD from folder...</source>
-        <translation>D&amp;VD из фолдера...</translation>
+        <translation>D&amp;VD из фасцикле...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1484"/>
@@ -601,10 +676,6 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1531"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;Нормална брзина</translation>
-    </message>
-    <message>
-        <source>&amp;Halve speed</source>
-        <translation type="obsolete">&amp;Дупло спорије</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1533"/>
@@ -936,12 +1007,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3866"/>
         <source>Select the Blu-ray folder</source>
-        <translation>Одабери Блу-реј фолдер</translation>
+        <translation>Одабери Блу-реј фасциклу</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3879"/>
         <source>Choose a directory</source>
-        <translation>Изабери фолдер</translation>
+        <translation>Изабери фасциклу</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3915"/>
@@ -1101,7 +1172,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1482"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation>Блу-&amp;реј из фолдера...</translation>
+        <translation>Блу-&amp;реј из фасцикле...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
@@ -1137,7 +1208,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1661"/>
         <source>&amp;Open configuration folder</source>
-        <translation>&amp;Oтвори конфигурациони фолдер</translation>
+        <translation>&amp;Oтвори конфигурациону фасциклу</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1663"/>
@@ -2103,12 +2174,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1353"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Снимак екрана није направљен, фолдер није подешен</translation>
+        <translation>Снимак екрана није направљен, фасцикла није подешена</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1366"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Снимак екрана није направљен, фолдер није подешен</translation>
+        <translation>Снимак екрана није направљен, фасцикла није подешена</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2649"/>
@@ -2129,10 +2200,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
         <translation>Повезивање на %1</translation>
-    </message>
-    <message>
-        <source>Unable to locate the url of the video</source>
-        <translation type="obsolete">Немогуће проналажење веб адресе видеа</translation>
     </message>
 </context>
 <context>
@@ -2388,7 +2455,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Клик за избор фајла или фолдера</translation>
+        <translation>Клик за избор фајла или фасцикле</translation>
     </message>
 </context>
 <context>
@@ -2522,14 +2589,6 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <source>Http</source>
-        <translation type="obsolete">Http</translation>
-    </message>
-    <message>
-        <source>Socks5</source>
-        <translation type="obsolete">Socks5</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
         <translation type="unfinished"></translation>
@@ -2578,10 +2637,6 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
         <translation>Сервер</translation>
-    </message>
-    <message>
-        <source>&amp;Opensubtitles server:</source>
-        <translation type="obsolete">&amp;Opensubtitles сервер:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
@@ -2790,8 +2845,8 @@ Example: resample=44100:0:0,volnorm</source>
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Није могуће чување преузетог
-фајла у фолдер %1
-Молимо проверите дозволе за тај фолдер.</translation>
+фајла у фасциклу %1
+Молимо проверите дозволе за ту фасциклу.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
@@ -3041,12 +3096,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.cpp" line="43"/>
         <source>Choose a directory</source>
-        <translation>Изабери фолдер</translation>
+        <translation>Изабери фасциклу</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation>СМПлејер - Пусти ДВД из фолдера</translation>
+        <translation>СМПлејер - Пусти ДВД из фасцикле</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
@@ -3054,13 +3109,9 @@ Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="obsolete">Можете да пуштате ДВД са вашег диска. Само изаберите фолдер у коме су VIDEO_TS и AUDIO_TS фолдери.</translation>
-    </message>
-    <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
         <source>Choose a directory...</source>
-        <translation>Изабери фолдер...</translation>
+        <translation>Изабери фасциклу...</translation>
     </message>
 </context>
 <context>
@@ -4487,7 +4538,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1077"/>
         <source>Choose a directory</source>
-        <translation>Изабери фолдер</translation>
+        <translation>Изабери фасциклу</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1288"/>
@@ -4552,7 +4603,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="316"/>
         <source>Add &amp;directory</source>
-        <translation>Додај &amp;фолдер</translation>
+        <translation>Додај &amp;фасциклу</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="317"/>
@@ -5186,10 +5237,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Омогући ДВД меније</translation>
     </message>
     <message>
-        <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Ако је ова могућност означена смплејер ће репродуковати ДВД-ове користећи dvdnav. То захтева недавну верзију мплејера компајлираног са dvdnav подршком.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
         <translation>&lt;b&gt;Напомена 1&lt;/b&gt;: кеш ће бити онемогућен, а ово може утицати на первормансе.</translation>
@@ -5271,7 +5318,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="139"/>
         <source>Select a directory</source>
-        <translation>Изабери фолдер</translation>
+        <translation>Изабери фасциклу</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="865"/>
@@ -5281,7 +5328,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="896"/>
         <source>Screenshots folder</source>
-        <translation>Фолдер за снимке екрана</translation>
+        <translation>Фасцикла за снимке екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
@@ -5843,7 +5890,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="888"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation>&lt;b&gt;бишеструки ini фајлови&lt;/b&gt;: један ini фајл ће се користити за сваки репродуковани фајл. Ти ini фајлови ће се чувати у фолдеру %1</translation>
+        <translation>&lt;b&gt;вишеструки ini фајлови&lt;/b&gt;: један ini фајл ће се користити за сваки репродуковани фајл. Ти ini фајлови ће се чувати у фасцикли %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="879"/>
@@ -5873,7 +5920,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="897"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Овде можете одредити фолдер где ће се снимци екрана снимани СМПлејером чувати. Ако фолдер није исправан снимање екрана ће бити онемогућено.</translation>
+        <translation>Овде можете одредити фасциклу где ће се чувати снимци екрана снимани СМПлејером. Ако фасцикла није исправна снимање екрана ће бити онемогућено.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
@@ -5893,7 +5940,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="158"/>
         <source>&amp;Folder:</source>
-        <translation>&amp;Фолдер:</translation>
+        <translation>&amp;Фасцикла:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1054"/>
@@ -6707,7 +6754,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="907"/>
         <source>&amp;Remember last directory</source>
-        <translation>&amp;Запамти последњи фолдер</translation>
+        <translation>&amp;Запамти последњу фасциклу</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
@@ -6951,12 +6998,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="777"/>
         <source>Remember last directory</source>
-        <translation>Запамти последњи фолдер</translation>
+        <translation>Запамти последњу фасциклу</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="778"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation>Ако је ова опција одабрана, СМПлејер ће запамтити последњи фолдер коришћен при отварању фајла.</translation>
+        <translation>Ако је ова опција одабрана, СМПлејер ће запамтити последњу фасциклу коришћену при отварању фајла.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="520"/>
@@ -7472,7 +7519,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="118"/>
         <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation>Ако је ова могућност одабрана, СМПлејер ће тражити следеће фајлове у фолдеру (нпр. видео_1.ави, видео_2.ави...) и ако их пронађе, биће додате на попис извођења.</translation>
+        <translation>Ако је ова могућност одабрана, СМПлејер ће тражити следеће фајлове у фасцикли (нпр. видео_1.ави, видео_2.ави...) и ако их пронађе, биће додате на попис извођења.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="122"/>
@@ -7517,12 +7564,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>Add files in directories recursively</source>
-        <translation>Додај опет фајлове у фолдере</translation>
+        <translation>Додај опет фајлове у фасцикле</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Одаберите ову могућност ако желите да приликом додавања фолдера буду додати фајлови из субфолдера. Иначе ће само фајлови у одабраном фолдеру бити додати.</translation>
+        <translation>Одаберите ову могућност ако желите да приликом додавања фасцикли буду додати фајлови из субфасцикли. Иначе ће само фајлови у одабраној фасцикли бити додати.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7537,7 +7584,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="93"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation>Додај опет фајлове у &amp;фолдере</translation>
+        <translation>Додај опет фајлове у &amp;фасцикле</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="100"/>
@@ -7592,7 +7639,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="79"/>
         <source>All subs in directory</source>
-        <translation>Сви преводи у фолдеру</translation>
+        <translation>Сви преводи у фасцикли</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="498"/>
@@ -8465,7 +8512,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="93"/>
         <source>directory</source>
-        <translation>фолдер</translation>
+        <translation>фасцикла</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="94"/>
@@ -8520,7 +8567,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="128"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation>одређује фолдер где ће  смплејер сачувати своје фајлове подешавања (smplayer.ini, smplayer_files.ini...)</translation>
+        <translation>одређује фасциклу где ће  смплејер сачувати своје фајлове подешавања (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="161"/>
@@ -8992,7 +9039,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
-        <translation>Привремени фолдер (%1) не може бити креиран</translation>
+        <translation>Привремена фасцикла (%1) не може бити креиран</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="304"/>
@@ -9182,7 +9229,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>Унеси овде ДВД уређај или фолдер са ДВД сликом.</translation>
+        <translation>Унеси овде ДВД уређај или фасциклу са ДВД сликом.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
@@ -9192,7 +9239,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation>Запамти фолдер коришћен за &amp;чување прегледа сличица</translation>
+        <translation>Запамти фасциклу коришћену за &amp;чување прегледа сличица</translation>
     </message>
 </context>
 <context>
