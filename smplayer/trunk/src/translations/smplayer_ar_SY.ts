@@ -417,80 +417,155 @@ Do you want to overwrite?</source>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
+        <location filename="../audioequalizer.cpp" line="179"/>
         <source>Audio Equalizer</source>
         <translation type="unfinished">موازن الصوت</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="84"/>
-        <location filename="../audioequalizer.cpp" line="85"/>
-        <location filename="../audioequalizer.cpp" line="86"/>
-        <location filename="../audioequalizer.cpp" line="87"/>
-        <location filename="../audioequalizer.cpp" line="88"/>
+        <location filename="../audioequalizer.cpp" line="182"/>
+        <location filename="../audioequalizer.cpp" line="183"/>
+        <location filename="../audioequalizer.cpp" line="184"/>
+        <location filename="../audioequalizer.cpp" line="185"/>
+        <location filename="../audioequalizer.cpp" line="186"/>
         <source>%1 Hz</source>
         <translation type="unfinished">%1 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="89"/>
-        <location filename="../audioequalizer.cpp" line="90"/>
-        <location filename="../audioequalizer.cpp" line="91"/>
-        <location filename="../audioequalizer.cpp" line="92"/>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="187"/>
+        <location filename="../audioequalizer.cpp" line="188"/>
+        <location filename="../audioequalizer.cpp" line="189"/>
+        <location filename="../audioequalizer.cpp" line="190"/>
+        <location filename="../audioequalizer.cpp" line="191"/>
         <source>%1 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="95"/>
+        <location filename="../audioequalizer.cpp" line="193"/>
         <source>&amp;Preset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="96"/>
+        <location filename="../audioequalizer.cpp" line="194"/>
         <source>&amp;Apply</source>
         <translation type="unfinished">تطبيق</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="97"/>
+        <location filename="../audioequalizer.cpp" line="195"/>
         <source>&amp;Reset</source>
         <translation type="unfinished">الأفتراضي</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="98"/>
+        <location filename="../audioequalizer.cpp" line="196"/>
         <source>&amp;Set as default values</source>
         <translation type="unfinished">تعيين القيم الأفتراضية</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="103"/>
+        <location filename="../audioequalizer.cpp" line="201"/>
         <source>Flat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="104"/>
+        <location filename="../audioequalizer.cpp" line="202"/>
+        <source>Classical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="203"/>
+        <source>Club</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="204"/>
+        <source>Dance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="205"/>
+        <source>Full bass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="206"/>
+        <source>Full bass and treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="207"/>
+        <source>Full treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="208"/>
+        <source>Headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="209"/>
+        <source>Large hall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="210"/>
+        <source>Live</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="211"/>
+        <source>Party</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="212"/>
         <source>Pop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="105"/>
+        <location filename="../audioequalizer.cpp" line="213"/>
+        <source>Reggae</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="214"/>
         <source>Rock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="215"/>
+        <source>Ska</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="216"/>
+        <source>Soft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="217"/>
+        <source>Soft rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="218"/>
+        <source>Techno</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="223"/>
         <source>Use the current values as default values for new videos.</source>
         <translation type="unfinished">استخدام القيم الحالية كقيم افتراضية للفيديو</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="112"/>
+        <location filename="../audioequalizer.cpp" line="225"/>
         <source>Set all controls to zero.</source>
         <translation type="unfinished">تعيين كل ازرار التحكم الى الصفر</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="129"/>
+        <location filename="../audioequalizer.cpp" line="243"/>
         <source>Information</source>
         <translation type="unfinished">معلومات</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="130"/>
+        <location filename="../audioequalizer.cpp" line="244"/>
         <source>The current values have been stored to be used as default.</source>
         <translation type="unfinished">القيمة الحالية تم حفظها لكي تستخدم كقيمة افتراضية</translation>
     </message>

@@ -417,80 +417,155 @@ Seguro que desexas sobrescribilo?</translation>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
+        <location filename="../audioequalizer.cpp" line="179"/>
         <source>Audio Equalizer</source>
         <translation>Ecualizador de son</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="84"/>
-        <location filename="../audioequalizer.cpp" line="85"/>
-        <location filename="../audioequalizer.cpp" line="86"/>
-        <location filename="../audioequalizer.cpp" line="87"/>
-        <location filename="../audioequalizer.cpp" line="88"/>
+        <location filename="../audioequalizer.cpp" line="182"/>
+        <location filename="../audioequalizer.cpp" line="183"/>
+        <location filename="../audioequalizer.cpp" line="184"/>
+        <location filename="../audioequalizer.cpp" line="185"/>
+        <location filename="../audioequalizer.cpp" line="186"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="89"/>
-        <location filename="../audioequalizer.cpp" line="90"/>
-        <location filename="../audioequalizer.cpp" line="91"/>
-        <location filename="../audioequalizer.cpp" line="92"/>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="187"/>
+        <location filename="../audioequalizer.cpp" line="188"/>
+        <location filename="../audioequalizer.cpp" line="189"/>
+        <location filename="../audioequalizer.cpp" line="190"/>
+        <location filename="../audioequalizer.cpp" line="191"/>
         <source>%1 kHz</source>
         <translation>%1 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="95"/>
+        <location filename="../audioequalizer.cpp" line="193"/>
         <source>&amp;Preset</source>
         <translation>&amp;Predefinición</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="96"/>
+        <location filename="../audioequalizer.cpp" line="194"/>
         <source>&amp;Apply</source>
         <translation>&amp;Aplicar</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="97"/>
+        <location filename="../audioequalizer.cpp" line="195"/>
         <source>&amp;Reset</source>
         <translation>&amp;Restabelecer</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="98"/>
+        <location filename="../audioequalizer.cpp" line="196"/>
         <source>&amp;Set as default values</source>
         <translation>&amp;Usar como valores predeterminados</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="103"/>
+        <location filename="../audioequalizer.cpp" line="201"/>
         <source>Flat</source>
         <translation>Chan</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="104"/>
+        <location filename="../audioequalizer.cpp" line="202"/>
+        <source>Classical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="203"/>
+        <source>Club</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="204"/>
+        <source>Dance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="205"/>
+        <source>Full bass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="206"/>
+        <source>Full bass and treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="207"/>
+        <source>Full treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="208"/>
+        <source>Headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="209"/>
+        <source>Large hall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="210"/>
+        <source>Live</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="211"/>
+        <source>Party</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="212"/>
         <source>Pop</source>
         <translation>Pop</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="105"/>
+        <location filename="../audioequalizer.cpp" line="213"/>
+        <source>Reggae</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="214"/>
         <source>Rock</source>
         <translation>Rock</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="215"/>
+        <source>Ska</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="216"/>
+        <source>Soft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="217"/>
+        <source>Soft rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="218"/>
+        <source>Techno</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="223"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Usar os valores actuais como valores predeterminados para os novos vídeos. </translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="112"/>
+        <location filename="../audioequalizer.cpp" line="225"/>
         <source>Set all controls to zero.</source>
         <translation>Poñer todos os controis a cero.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="129"/>
+        <location filename="../audioequalizer.cpp" line="243"/>
         <source>Information</source>
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="130"/>
+        <location filename="../audioequalizer.cpp" line="244"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Gardáronse os valores actuais para usalos como predeterminados.</translation>
     </message>
@@ -601,10 +676,6 @@ Seguro que desexas sobrescribilo?</translation>
         <location filename="../basegui.cpp" line="1531"/>
         <source>&amp;Normal speed</source>
         <translation>Velocidade &amp;normal</translation>
-    </message>
-    <message>
-        <source>&amp;Halve speed</source>
-        <translation type="obsolete">&amp;Reducir á metade</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1533"/>
@@ -2129,10 +2200,6 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
         <source>Connecting to %1</source>
         <translation>Conectándose a %1…</translation>
     </message>
-    <message>
-        <source>Unable to locate the url of the video</source>
-        <translation type="obsolete">Non é posíbel localizar o url do vídeo</translation>
-    </message>
 </context>
 <context>
     <name>DefaultGui</name>
@@ -2521,14 +2588,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <source>Http</source>
-        <translation type="obsolete">Http</translation>
-    </message>
-    <message>
-        <source>Socks5</source>
-        <translation type="obsolete">Socks5</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
         <translation type="unfinished"></translation>
@@ -2577,10 +2636,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
         <translation>Servidor</translation>
-    </message>
-    <message>
-        <source>&amp;Opensubtitles server:</source>
-        <translation type="obsolete">Servidor de &amp;OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
@@ -3050,10 +3105,6 @@ Verifica os permisos dese cartafol.</translation>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="obsolete">Podes reproducir un DVD desde o disco duro. Só tes que seleccionar o cartafol onde se atopan os ficheiros VIDEO_TS e AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5182,10 +5233,6 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../prefdrives.cpp" line="227"/>
         <source>Enable DVD menus</source>
         <translation>Activar os menús DVD</translation>
-    </message>
-    <message>
-        <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Se esta opción está marcada, o smplayer reproducirá DVDs usando dvdnav. Precisa unha versión recente de mplayer compilada con compatibilidade para dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

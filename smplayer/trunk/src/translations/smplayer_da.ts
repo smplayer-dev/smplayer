@@ -417,80 +417,155 @@ Vil du overskrive den?</translation>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
+        <location filename="../audioequalizer.cpp" line="179"/>
         <source>Audio Equalizer</source>
         <translation>Lyd-equalizer</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="84"/>
-        <location filename="../audioequalizer.cpp" line="85"/>
-        <location filename="../audioequalizer.cpp" line="86"/>
-        <location filename="../audioequalizer.cpp" line="87"/>
-        <location filename="../audioequalizer.cpp" line="88"/>
+        <location filename="../audioequalizer.cpp" line="182"/>
+        <location filename="../audioequalizer.cpp" line="183"/>
+        <location filename="../audioequalizer.cpp" line="184"/>
+        <location filename="../audioequalizer.cpp" line="185"/>
+        <location filename="../audioequalizer.cpp" line="186"/>
         <source>%1 Hz</source>
         <translation type="unfinished">%1 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="89"/>
-        <location filename="../audioequalizer.cpp" line="90"/>
-        <location filename="../audioequalizer.cpp" line="91"/>
-        <location filename="../audioequalizer.cpp" line="92"/>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="187"/>
+        <location filename="../audioequalizer.cpp" line="188"/>
+        <location filename="../audioequalizer.cpp" line="189"/>
+        <location filename="../audioequalizer.cpp" line="190"/>
+        <location filename="../audioequalizer.cpp" line="191"/>
         <source>%1 kHz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="95"/>
+        <location filename="../audioequalizer.cpp" line="193"/>
         <source>&amp;Preset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="96"/>
+        <location filename="../audioequalizer.cpp" line="194"/>
         <source>&amp;Apply</source>
         <translation>&amp;Anvend</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="97"/>
+        <location filename="../audioequalizer.cpp" line="195"/>
         <source>&amp;Reset</source>
         <translation>&amp;Nulstil</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="98"/>
+        <location filename="../audioequalizer.cpp" line="196"/>
         <source>&amp;Set as default values</source>
         <translation>&amp;Sæt som standardværdier</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="103"/>
+        <location filename="../audioequalizer.cpp" line="201"/>
         <source>Flat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="104"/>
+        <location filename="../audioequalizer.cpp" line="202"/>
+        <source>Classical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="203"/>
+        <source>Club</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="204"/>
+        <source>Dance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="205"/>
+        <source>Full bass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="206"/>
+        <source>Full bass and treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="207"/>
+        <source>Full treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="208"/>
+        <source>Headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="209"/>
+        <source>Large hall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="210"/>
+        <source>Live</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="211"/>
+        <source>Party</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="212"/>
         <source>Pop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="105"/>
+        <location filename="../audioequalizer.cpp" line="213"/>
+        <source>Reggae</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="214"/>
         <source>Rock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="215"/>
+        <source>Ska</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="216"/>
+        <source>Soft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="217"/>
+        <source>Soft rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="218"/>
+        <source>Techno</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="223"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Brug de aktuelle værdier som standardværdier for nye videoer.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="112"/>
+        <location filename="../audioequalizer.cpp" line="225"/>
         <source>Set all controls to zero.</source>
         <translation>Sæt alle kontroller til nul.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="129"/>
+        <location filename="../audioequalizer.cpp" line="243"/>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="130"/>
+        <location filename="../audioequalizer.cpp" line="244"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>De aktuelle værdier er blevet gemt for at blive brugt som standard.</translation>
     </message>
@@ -601,10 +676,6 @@ Vil du overskrive den?</translation>
         <location filename="../basegui.cpp" line="1531"/>
         <source>&amp;Normal speed</source>
         <translation>&amp;Normal hastighed</translation>
-    </message>
-    <message>
-        <source>&amp;Halve speed</source>
-        <translation type="obsolete">&amp;Halv hastighed</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1533"/>
@@ -2129,10 +2200,6 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
         <source>Connecting to %1</source>
         <translation>Forbinder til %1...</translation>
     </message>
-    <message>
-        <source>Unable to locate the url of the video</source>
-        <translation type="obsolete">Ikke muligt at finde Url på den ønskede video</translation>
-    </message>
 </context>
 <context>
     <name>DefaultGui</name>
@@ -2521,14 +2588,6 @@ Eksempel: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <source>Http</source>
-        <translation type="obsolete">Http</translation>
-    </message>
-    <message>
-        <source>Socks5</source>
-        <translation type="obsolete">Socks5</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
         <translation type="unfinished"></translation>
@@ -2577,10 +2636,6 @@ Eksempel: resample=44100:0:0,volnorm</translation>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
         <translation>Server</translation>
-    </message>
-    <message>
-        <source>&amp;Opensubtitles server:</source>
-        <translation type="obsolete">&amp;Opensubtitles server:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
@@ -3050,10 +3105,6 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="obsolete">Du kan afspille en dvd fra din harddisk. Vælg blot den mappe som indeholder mapperne VIDEO_TS og AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5183,10 +5234,6 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <location filename="../prefdrives.cpp" line="227"/>
         <source>Enable DVD menus</source>
         <translation>Aktivér dvd-menuer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Hvis denne indstilling er markeret vil SMPlayer afspille dvd&apos;er med dvdnav. Kræver en nylig version af mplayer, oversat med dvdnav-understøttelse.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>

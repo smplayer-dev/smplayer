@@ -86,7 +86,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>当前 Transifex 团队中的翻译人员：</translation>
+        <translation>当前 Transifex 团队中的翻译人员:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -417,80 +417,155 @@ Do you want to overwrite?</source>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="81"/>
+        <location filename="../audioequalizer.cpp" line="179"/>
         <source>Audio Equalizer</source>
         <translation>音频均衡器</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="84"/>
-        <location filename="../audioequalizer.cpp" line="85"/>
-        <location filename="../audioequalizer.cpp" line="86"/>
-        <location filename="../audioequalizer.cpp" line="87"/>
-        <location filename="../audioequalizer.cpp" line="88"/>
+        <location filename="../audioequalizer.cpp" line="182"/>
+        <location filename="../audioequalizer.cpp" line="183"/>
+        <location filename="../audioequalizer.cpp" line="184"/>
+        <location filename="../audioequalizer.cpp" line="185"/>
+        <location filename="../audioequalizer.cpp" line="186"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="89"/>
-        <location filename="../audioequalizer.cpp" line="90"/>
-        <location filename="../audioequalizer.cpp" line="91"/>
-        <location filename="../audioequalizer.cpp" line="92"/>
-        <location filename="../audioequalizer.cpp" line="93"/>
+        <location filename="../audioequalizer.cpp" line="187"/>
+        <location filename="../audioequalizer.cpp" line="188"/>
+        <location filename="../audioequalizer.cpp" line="189"/>
+        <location filename="../audioequalizer.cpp" line="190"/>
+        <location filename="../audioequalizer.cpp" line="191"/>
         <source>%1 kHz</source>
         <translation>%1 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="95"/>
+        <location filename="../audioequalizer.cpp" line="193"/>
         <source>&amp;Preset</source>
         <translation>当前(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="96"/>
+        <location filename="../audioequalizer.cpp" line="194"/>
         <source>&amp;Apply</source>
         <translation>应用(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="97"/>
+        <location filename="../audioequalizer.cpp" line="195"/>
         <source>&amp;Reset</source>
         <translation>重置(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="98"/>
+        <location filename="../audioequalizer.cpp" line="196"/>
         <source>&amp;Set as default values</source>
         <translation>设置为默认值(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="103"/>
+        <location filename="../audioequalizer.cpp" line="201"/>
         <source>Flat</source>
         <translation>平坦</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="104"/>
+        <location filename="../audioequalizer.cpp" line="202"/>
+        <source>Classical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="203"/>
+        <source>Club</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="204"/>
+        <source>Dance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="205"/>
+        <source>Full bass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="206"/>
+        <source>Full bass and treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="207"/>
+        <source>Full treble</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="208"/>
+        <source>Headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="209"/>
+        <source>Large hall</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="210"/>
+        <source>Live</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="211"/>
+        <source>Party</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="212"/>
         <source>Pop</source>
         <translation>流行</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="105"/>
+        <location filename="../audioequalizer.cpp" line="213"/>
+        <source>Reggae</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="214"/>
         <source>Rock</source>
         <translation>摇滚</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="110"/>
+        <location filename="../audioequalizer.cpp" line="215"/>
+        <source>Ska</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="216"/>
+        <source>Soft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="217"/>
+        <source>Soft rock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="218"/>
+        <source>Techno</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../audioequalizer.cpp" line="223"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>使用当前的值作为新视频的默认值。</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="112"/>
+        <location filename="../audioequalizer.cpp" line="225"/>
         <source>Set all controls to zero.</source>
         <translation>将所有的控制都设置为零。</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="129"/>
+        <location filename="../audioequalizer.cpp" line="243"/>
         <source>Information</source>
         <translation>信息</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="130"/>
+        <location filename="../audioequalizer.cpp" line="244"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>当前的值已被储存作为默认值使用。</translation>
     </message>
@@ -603,10 +678,6 @@ Do you want to overwrite?</source>
         <translation>正常速度(&amp;N)</translation>
     </message>
     <message>
-        <source>&amp;Halve speed</source>
-        <translation type="obsolete">速度减半(&amp;H)</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1533"/>
         <source>&amp;Double speed</source>
         <translation>双倍速度(&amp;D)</translation>
@@ -655,7 +726,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1785"/>
         <source>&amp;Aspect ratio</source>
-        <translation>纵横比(&amp;A)</translation>
+        <translation>宽高比(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
@@ -1105,7 +1176,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>&amp;Half speed</source>
-        <translation type="unfinished"></translation>
+        <translation>半速(&amp;H)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1548"/>
@@ -1962,7 +2033,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
         <source>Installed version: %1</source>
-        <translation>Installed version: %1</translation>
+        <translation>已安装版本: %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
@@ -2067,7 +2138,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>无法定位视频的URL</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3271"/>
@@ -2128,10 +2199,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
         <translation>正在连接到 1%</translation>
-    </message>
-    <message>
-        <source>Unable to locate the url of the video</source>
-        <translation type="obsolete">无法找到视频的 URL</translation>
     </message>
 </context>
 <context>
@@ -2521,22 +2588,14 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <source>Http</source>
-        <translation type="obsolete">HTTP</translation>
-    </message>
-    <message>
-        <source>Socks5</source>
-        <translation type="obsolete">SOCKS5</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2579,13 +2638,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>服务器</translation>
     </message>
     <message>
-        <source>&amp;Opensubtitles server:</source>
-        <translation type="obsolete">OpenSubtitles 服务器(&amp;O):</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenSubtitles 服务器(&amp;O):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3048,11 +3103,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="obsolete">您可以从您的硬盘上播放 DVD。您只需选择其中包含 VIDEO_TS 和 AUDIO_TS 目录的文件夹。</translation>
+        <translation>你可以从播放硬盘中的DVD。选择包含 VIDEO_TS 和 AUDIO_TS 的文件夹即可。</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -4818,7 +4869,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation>注意：mplayer2 默认已经使用lavf分流器，所以在用mplayer2时启用此项不会产生什么效果</translation>
+        <translation>注意:mplayer2 默认已经使用lavf分流器，所以在用 mplayer2 时启用此项不会产生什么效果</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="465"/>
@@ -5145,7 +5196,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此项，SMPlayer 会使用 dvdnav 播放 DVD。需要启用了 dvdnav 支持的较新版 MPlayer</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
@@ -5183,23 +5234,19 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>启用 DVD 菜单</translation>
     </message>
     <message>
-        <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="obsolete">如果勾选此选项，SMPlayer 将使用 DVDNav 播放 DVD。这需要编译有 DVDNav 支持的最新版本 MPlayer。</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation>&lt;b&gt;注1&lt;/b&gt;: 缓存将被禁用，这会影响性能。</translation>
+        <translation>&lt;b&gt;注意 1&lt;/b&gt;: 缓存将被禁用，这会影响性能。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation>&lt;b&gt;注2&lt;/b&gt;: 您可能需要指派&quot;激活 DVD 菜单中的选项&quot;动作到某一鼠标按钮。</translation>
+        <translation>&lt;b&gt;注意 2&lt;/b&gt;: 您可能需要指派&quot;激活 DVD 菜单中的选项&quot;动作到某一鼠标按钮。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation>&lt;b&gt;注3&lt;/b&gt;: 此功能正在开发中，估计它的问题很多。</translation>
+        <translation>&lt;b&gt;注意 3&lt;/b&gt;: 此功能正在开发中，估计它的问题很多。</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="225"/>
@@ -6686,7 +6733,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="750"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation>隐藏控制条的时间(毫秒)：</translation>
+        <translation>隐藏控制条的时间(毫秒):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="856"/>
@@ -8333,7 +8380,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>你可以输入检查更新的间隔(单位：天)</translation>
+        <translation>你可以输入检查更新的间隔(单位:天)</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
