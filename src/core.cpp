@@ -2505,7 +2505,7 @@ void Core::startMplayer( QString file, double seek ) {
 	emit logLineAvailable(line_for_log);
 
 #ifdef Q_OS_WIN
-	if (1) {
+	if (!pref->use_windowsfontdir) {
 		QProcessEnvironment env = QProcessEnvironment::systemEnvironment();
 		env.insert("FONTCONFIG_FILE", Paths::configPath() + "/fonts.conf");
 		proc->setProcessEnvironment(env);
