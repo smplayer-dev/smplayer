@@ -17,6 +17,9 @@
 */
 
 #include "mycombobox.h"
+#include <QDir>
+#include <QStringListModel>
+#include <QDebug>
 
 MyComboBox::MyComboBox( QWidget * parent ) : QComboBox(parent)
 {
@@ -59,3 +62,21 @@ void MyFontComboBox::setCurrentText( const QString & text ) {
 	else
 		setItemText(currentIndex(), text);
 }
+
+void MyFontComboBox::setFontsFromDir(const QString & fontdir) {
+	QFontDatabase fdb;
+	QStringList fontnames;
+	QStringList fontfiles = QDir(fontdir).entryList(QStringList() << "*.ttf" << "*.otf", QDir::Files);
+	for (int n=0; n < fontfiles.count(); n++) {
+		qDebug() << "MyFontComboBox::setFontsFromDir: adding font:" << fontfiles[n];
+		int id = fdb.addApplicationFont(fontdir +"/"+ fontfiles[n]);
+		fontnames << fdb.applicationFontFamilies(id);
+	}
+	//fdb.removeAllApplicationFonts();
+	fontnames.removeDuplicates();
+	qDebug() << "MyFontComboBox::setFontsFromDir: fontnames:" << fontnames;
+	clear();
+	QStringListModel *m = qobject_cast<QStringListModel *>(model());
+	if (m) m->setStringList(fontnames);
+}
+
