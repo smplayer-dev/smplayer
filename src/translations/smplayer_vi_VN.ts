@@ -730,7 +730,7 @@ Có nên ghi đè lên không?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
-        <location filename="../basegui.cpp" line="3134"/>
+        <location filename="../basegui.cpp" line="3138"/>
         <source>&amp;None</source>
         <translation>&amp;Không</translation>
     </message>
@@ -946,43 +946,43 @@ Có nên ghi đè lên không?</translation>
         <translation>Chuyển ngữ bởi Phan Anh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3156"/>
-        <location filename="../basegui.cpp" line="3172"/>
-        <location filename="../basegui.cpp" line="3188"/>
-        <location filename="../basegui.cpp" line="3203"/>
-        <location filename="../basegui.cpp" line="3235"/>
-        <location filename="../basegui.cpp" line="3255"/>
-        <location filename="../basegui.cpp" line="3295"/>
+        <location filename="../basegui.cpp" line="3160"/>
+        <location filename="../basegui.cpp" line="3176"/>
+        <location filename="../basegui.cpp" line="3192"/>
+        <location filename="../basegui.cpp" line="3207"/>
+        <location filename="../basegui.cpp" line="3239"/>
+        <location filename="../basegui.cpp" line="3259"/>
+        <location filename="../basegui.cpp" line="3299"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;không có dữ liệu&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
+        <location filename="../basegui.cpp" line="3710"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3707"/>
-        <location filename="../basegui.cpp" line="3936"/>
+        <location filename="../basegui.cpp" line="3711"/>
+        <location filename="../basegui.cpp" line="3940"/>
         <source>Audio</source>
         <translation>Âm thanh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3708"/>
+        <location filename="../basegui.cpp" line="3712"/>
         <source>Playlists</source>
         <translation>Các danh sách chơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3709"/>
-        <location filename="../basegui.cpp" line="3916"/>
-        <location filename="../basegui.cpp" line="3937"/>
+        <location filename="../basegui.cpp" line="3713"/>
+        <location filename="../basegui.cpp" line="3920"/>
+        <location filename="../basegui.cpp" line="3941"/>
         <source>All files</source>
         <translation>Mọi tập tin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3704"/>
-        <location filename="../basegui.cpp" line="3913"/>
-        <location filename="../basegui.cpp" line="3934"/>
+        <location filename="../basegui.cpp" line="3708"/>
+        <location filename="../basegui.cpp" line="3917"/>
+        <location filename="../basegui.cpp" line="3938"/>
         <source>Choose a file</source>
         <translation>Chọn một tập tin</translation>
     </message>
@@ -992,79 +992,79 @@ Có nên ghi đè lên không?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3756"/>
+        <location filename="../basegui.cpp" line="3760"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - thông tin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3757"/>
+        <location filename="../basegui.cpp" line="3761"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ổ đĩa CDROM/DVD vẫn chưa được cấu hình.
 Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực hiện.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3866"/>
+        <location filename="../basegui.cpp" line="3870"/>
         <source>Select the Blu-ray folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3879"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>Choose a directory</source>
         <translation>Chọn một thư mục</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3915"/>
+        <location filename="../basegui.cpp" line="3919"/>
         <source>Subtitles</source>
         <translation>Các phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4349"/>
+        <location filename="../basegui.cpp" line="4353"/>
         <source>New version available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4350"/>
+        <location filename="../basegui.cpp" line="4354"/>
         <source>A new version of SMPlayer is available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4351"/>
+        <location filename="../basegui.cpp" line="4355"/>
         <source>Installed version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4352"/>
+        <location filename="../basegui.cpp" line="4356"/>
         <source>Available version: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4353"/>
+        <location filename="../basegui.cpp" line="4357"/>
         <source>Would you like to know more about this new version?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4489"/>
+        <location filename="../basegui.cpp" line="4493"/>
         <source>Error detected</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4490"/>
+        <location filename="../basegui.cpp" line="4494"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4660"/>
+        <location filename="../basegui.cpp" line="4664"/>
         <source>Playing %1</source>
         <translation>Đang chơi %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4661"/>
+        <location filename="../basegui.cpp" line="4665"/>
         <source>Pause</source>
         <translation>Tạm dừng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4662"/>
+        <location filename="../basegui.cpp" line="4666"/>
         <source>Stop</source>
         <translation>Ngừng chơi</translation>
     </message>
@@ -1371,53 +1371,53 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>SMPlayer - nhật ký SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3973"/>
+        <location filename="../basegui.cpp" line="3977"/>
         <source>Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3974"/>
+        <location filename="../basegui.cpp" line="3978"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3977"/>
+        <location filename="../basegui.cpp" line="3981"/>
         <source>Yes, I want to donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4444"/>
+        <location filename="../basegui.cpp" line="4448"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4451"/>
-        <location filename="../basegui.cpp" line="4459"/>
+        <location filename="../basegui.cpp" line="4455"/>
+        <location filename="../basegui.cpp" line="4463"/>
         <source>Problems with Youtube</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4447"/>
+        <location filename="../basegui.cpp" line="4451"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4453"/>
+        <location filename="../basegui.cpp" line="4457"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4461"/>
+        <location filename="../basegui.cpp" line="4465"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5169"/>
+        <location filename="../basegui.cpp" line="5173"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5170"/>
+        <location filename="../basegui.cpp" line="5174"/>
         <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1427,28 +1427,28 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2897"/>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="2901"/>
+        <location filename="../basegui.cpp" line="3527"/>
         <source>Information</source>
         <translation>Thông tin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2898"/>
+        <location filename="../basegui.cpp" line="2902"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Bạn cần khởi động lại SMPlayer để sử dụng GUI mới.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3303"/>
+        <location filename="../basegui.cpp" line="3307"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Xác nhận thao tác xóa - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3304"/>
+        <location filename="../basegui.cpp" line="3308"/>
         <source>Delete the list of recent files?</source>
         <translation>Xóa danh sách các tập tin gần đây?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3528"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Dùng giá trị hiện giờ đã được dùng làm giá trị mặc định.</translation>
     </message>
@@ -1543,7 +1543,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Các lựa &amp;chọn ở câu lệnh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3956"/>
+        <location filename="../basegui.cpp" line="3960"/>
         <source>SMPlayer command line options</source>
         <translation>Các lựa chọn ở câu lệnh của SMPlayer</translation>
     </message>
@@ -1558,37 +1558,37 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Đặt lại bộ cân bằng video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4491"/>
+        <location filename="../basegui.cpp" line="4495"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer thoát ra bất ngờ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5067"/>
+        <location filename="../basegui.cpp" line="5071"/>
         <source>Exit code: %1</source>
         <translation>Mã thoát: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5086"/>
+        <location filename="../basegui.cpp" line="5090"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer không chạy.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5087"/>
+        <location filename="../basegui.cpp" line="5091"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Xin hãy kiểm tra đường dẫn tới MPlayer ở trong tùy biến.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5089"/>
+        <location filename="../basegui.cpp" line="5093"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer vừa bị lỗi.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5090"/>
+        <location filename="../basegui.cpp" line="5094"/>
         <source>See the log for more info.</source>
         <translation>Xem trong nhật ký để biết thêm thông tin.</translation>
     </message>
@@ -1633,7 +1633,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Hiện trình đơn ngữ cảnh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3705"/>
+        <location filename="../basegui.cpp" line="3709"/>
         <source>Multimedia</source>
         <translation>Đa phương tiện</translation>
     </message>
@@ -1715,22 +1715,22 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>&amp;Track</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4330"/>
+        <location filename="../basegui.cpp" line="4334"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Cảnh báo - đang dùng MPlayer cũ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4331"/>
+        <location filename="../basegui.cpp" line="4335"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Phiên bản MPlayer (%1) cài trên hệ thống của bạn đã hết thời. SMPlayer không thể hoạt động tốt với nó: một vài lựa chọn sẽ không làm việc, chọn phụ đề có thể không được...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4336"/>
+        <location filename="../basegui.cpp" line="4340"/>
         <source>Please, update your MPlayer.</source>
         <translation>Xin hãy cập nhật MPlayer của bạn.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4338"/>
+        <location filename="../basegui.cpp" line="4342"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Cảnh báo này sẽ không hiện ra thêm nữa)</translation>
     </message>
@@ -1820,36 +1820,36 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Đặt độ &amp;trễ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4029"/>
+        <location filename="../basegui.cpp" line="4033"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Nhảy tới:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4030"/>
+        <location filename="../basegui.cpp" line="4034"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Tua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4041"/>
         <location filename="../basegui.cpp" line="4045"/>
+        <location filename="../basegui.cpp" line="4049"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Độ chễ tiếng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4042"/>
         <location filename="../basegui.cpp" line="4046"/>
+        <location filename="../basegui.cpp" line="4050"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Độ trễ tiếng (theo mili giây):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4057"/>
         <location filename="../basegui.cpp" line="4061"/>
+        <location filename="../basegui.cpp" line="4065"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Độ trễ phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4058"/>
         <location filename="../basegui.cpp" line="4062"/>
+        <location filename="../basegui.cpp" line="4066"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Độ trễ phụ đề (theo mili giây):</translation>
     </message>
@@ -1859,7 +1859,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Nút thay đổi ở trên cùng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4804"/>
+        <location filename="../basegui.cpp" line="4808"/>
         <source>Jump to %1</source>
         <translation>Nhảy tới %1</translation>
     </message>
@@ -2060,73 +2060,73 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2914"/>
+        <location filename="../core.cpp" line="2921"/>
         <source>Brightness: %1</source>
         <translation>Độ sáng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2929"/>
+        <location filename="../core.cpp" line="2936"/>
         <source>Contrast: %1</source>
         <translation>Độ tương phản: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2943"/>
+        <location filename="../core.cpp" line="2950"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2964"/>
         <source>Hue: %1</source>
         <translation>Sắc độ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2971"/>
+        <location filename="../core.cpp" line="2978"/>
         <source>Saturation: %1</source>
         <translation>Độ bão hòa: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3100"/>
+        <location filename="../core.cpp" line="3107"/>
         <source>Volume: %1</source>
         <translation>Âm lượng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3911"/>
         <source>Zoom: %1</source>
         <translation>Phóng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4151"/>
+        <location filename="../core.cpp" line="4158"/>
         <source>Buffering...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3216"/>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3223"/>
+        <location filename="../core.cpp" line="3235"/>
         <source>Font scale: %1</source>
         <translation>Tỷ lệ phông: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3772"/>
+        <location filename="../core.cpp" line="3779"/>
         <source>Aspect ratio: %1</source>
         <translation>Tỷ lệ độ phân giải: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4147"/>
+        <location filename="../core.cpp" line="4154"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Cập nhật kho lưu phông. Có thể cần vài giây...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3149"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Độ trễ phụ đề: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3159"/>
+        <location filename="../core.cpp" line="3166"/>
         <source>Audio delay: %1 ms</source>
         <translation>Đỗ trễ âm thanh: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3025"/>
+        <location filename="../core.cpp" line="3032"/>
         <source>Speed: %1</source>
         <translation>Tốc độ: %1</translation>
     </message>
@@ -2141,32 +2141,32 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3271"/>
+        <location filename="../core.cpp" line="3278"/>
         <source>Subtitles on</source>
         <translation>Phụ đề đang bật</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3280"/>
         <source>Subtitles off</source>
         <translation>Phụ đề đang tắt</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3820"/>
+        <location filename="../core.cpp" line="3827"/>
         <source>Mouse wheel seeks now</source>
         <translation>Con lăn chuột đang tìm kiếm</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3823"/>
+        <location filename="../core.cpp" line="3830"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Con lăn chuột đang thay đổi âm lượng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3826"/>
+        <location filename="../core.cpp" line="3833"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Con lăn chuột đang thay đổi mức độ thu phóng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3829"/>
+        <location filename="../core.cpp" line="3836"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Con lăn chuột đang thay đổi tốc độ</translation>
     </message>
@@ -2181,17 +2181,17 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2649"/>
+        <location filename="../core.cpp" line="2656"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;A&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2666"/>
+        <location filename="../core.cpp" line="2673"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;B&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2681"/>
+        <location filename="../core.cpp" line="2688"/>
         <source>A-B markers cleared</source>
         <translation>Đã xóa bộ đánh dấu A-B</translation>
     </message>
@@ -7594,18 +7594,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="51"/>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="55"/>
+        <location filename="../prefsubtitles.cpp" line="437"/>
         <source>Subtitles</source>
         <translation>Các phụ đề</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="94"/>
+        <location filename="../prefsubtitles.cpp" line="98"/>
         <source>Choose a ttf file</source>
         <translation>Chọn một tập tin ttf</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="95"/>
+        <location filename="../prefsubtitles.cpp" line="99"/>
         <source>Truetype Fonts</source>
         <translation>Phông chữ dạng Truetype</translation>
     </message>
@@ -7616,7 +7616,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="36"/>
-        <location filename="../prefsubtitles.cpp" line="413"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Autoload</source>
         <translation>Nạp tự động</translation>
     </message>
@@ -7636,71 +7636,76 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mọi phụ đề có trong thư mục</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="498"/>
+        <location filename="../prefsubtitles.ui" line="234"/>
+        <source>Enable &amp;Windows fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="505"/>
         <source>Position</source>
         <translation>Vị trí</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="556"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="576"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Top</source>
         <translation>Trên cùng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="602"/>
+        <location filename="../prefsubtitles.ui" line="609"/>
         <source>Bottom</source>
         <translation>Dưới cùng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="315"/>
-        <location filename="../prefsubtitles.ui" line="706"/>
-        <location filename="../prefsubtitles.cpp" line="448"/>
-        <location filename="../prefsubtitles.cpp" line="510"/>
+        <location filename="../prefsubtitles.ui" line="322"/>
+        <location filename="../prefsubtitles.ui" line="713"/>
+        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="545"/>
         <source>Font</source>
         <translation>Phông chữ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="347"/>
+        <location filename="../prefsubtitles.ui" line="354"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Chọn phông chữ sẽ dùng cho phụ đề (và hiển thị trên hình ảnh):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
-        <location filename="../prefsubtitles.cpp" line="513"/>
+        <location filename="../prefsubtitles.ui" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Size</source>
         <translation>Kích thước</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="421"/>
+        <location filename="../prefsubtitles.ui" line="428"/>
         <source>No autoscale</source>
         <translation>Không tự động chỉnh cỡ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="426"/>
+        <location filename="../prefsubtitles.ui" line="433"/>
         <source>Proportional to movie height</source>
         <translation>Tỷ lệ với chiều cao phim</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="431"/>
+        <location filename="../prefsubtitles.ui" line="438"/>
         <source>Proportional to movie width</source>
         <translation>Tỷ lệ với chiều rộng phim</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="436"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>Proportional to movie diagonal</source>
         <translation>Tỷ lệ với đường chéo của phim</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="525"/>
         <source>Subtitle position</source>
         <translation>Vị trí phụ đề</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="526"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Lựa chọn này xác định vị trí của phụ đề trên cửa sổ video. &lt;i&gt;100&lt;/i&gt; nghĩa là dưới cùng, trong khi &lt;i&gt;0&lt;/i&gt; nghĩa là trên cùng.</translation>
     </message>
@@ -7720,7 +7725,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mã phụ đề &amp;mặc định:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="510"/>
+        <location filename="../prefsubtitles.ui" line="517"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>Vị trí mặc định của &amp;phụ đề trên màn hình</translation>
     </message>
@@ -7730,107 +7735,107 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Kèm theo phụ đề khi chụp màn hình</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="377"/>
+        <location filename="../prefsubtitles.ui" line="384"/>
         <source>&amp;TTF font:</source>
         <translation>Phông chữ &amp;TTF:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="357"/>
+        <location filename="../prefsubtitles.ui" line="364"/>
         <source>S&amp;ystem font:</source>
         <translation>Phông chữ của &amp;hệ thống:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="407"/>
+        <location filename="../prefsubtitles.ui" line="414"/>
         <source>A&amp;utoscale:</source>
         <translation>&amp;Tự động chỉnh cỡ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="416"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Select first available subtitle</source>
         <translation>Chọn phụ đề đầu tiên</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="422"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <source>Default subtitle encoding</source>
         <translation>Mã phụ đề mặc định</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="438"/>
+        <location filename="../prefsubtitles.cpp" line="464"/>
         <source>Include subtitles on screenshots</source>
         <translation>Kèm theo phụ đề khi chụp màn hình</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>TTF font</source>
         <translation>Phông chữ TTF</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="474"/>
+        <location filename="../prefsubtitles.cpp" line="509"/>
         <source>System font</source>
         <translation>Phông chữ của hệ thống</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Autoscale</source>
         <translation>Tự động chỉnh cỡ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="522"/>
+        <location filename="../prefsubtitles.cpp" line="557"/>
         <source>Text color</source>
         <translation>Màu chữ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="523"/>
+        <location filename="../prefsubtitles.cpp" line="558"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Chọn mầu cho chữ của phụ đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="525"/>
+        <location filename="../prefsubtitles.cpp" line="560"/>
         <source>Border color</source>
         <translation>Màu đường biên</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="526"/>
+        <location filename="../prefsubtitles.cpp" line="561"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Chọn màu cho đường biên của phụ đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Chọn cách nạp tự động phụ đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="417"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Nếu như có một hay nhiều hơn phụ đề, một trong số chúng sẽ được tự động dùng, thường là cái đầu tiên, tuy nhiên nếu như một trong số chúng hợp với ngôn ngữ của người dùng thì cái đó sẽ được dùng.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Chọn cách nạp tự động phụ đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="423"/>
+        <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Chọn mã sẽ mặc địch dùng với các tập tin phụ đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="426"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Try to autodetect for this language</source>
         <translation>Thử tự động dò với ngôn ngữ này</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="427"/>
+        <location filename="../prefsubtitles.cpp" line="453"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Khi lựa chọn này bật, mã của phụ đề sẽ được thử tự động dò cho ngôn ngữ đã chỉ ra. Nó sẽ chuyển về mã mặc định nếu tự động dò thất bại. Lựa chọn này đòi hỏi MPlayer được biên dịch với hỗ trợ ENCA.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="459"/>
         <source>Subtitle language</source>
         <translation>Ngôn ngữ phụ đề</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="434"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Chọn ngôn ngữ trong đó bạn muốn dò mã một cách tự động.</translation>
     </message>
@@ -7845,356 +7850,371 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Thử tự động &amp;dò với ngôn ngữ này:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="496"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>Bạn có thể chọn một phông chữ ttf để dùng cho phụ đề. Thông thường bạn sẽ tìm thấy nhiều phông chữ ttf trong %1</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="552"/>
+        <location filename="../prefsubtitles.cpp" line="587"/>
         <source>Outline</source>
         <translation>Bao ngoài</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="511"/>
+        <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Select the font for the subtitles.</source>
         <translation>Chọn phông chữ cho phụ đề.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
+        <source>Enable Windows fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="476"/>
+        <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="479"/>
+        <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="514"/>
+        <location filename="../prefsubtitles.cpp" line="549"/>
         <source>The size in pixels.</source>
         <translation>Kích thước tính theo điểm ảnh.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="516"/>
+        <location filename="../prefsubtitles.cpp" line="551"/>
         <source>Bold</source>
         <translation>Đậm</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="517"/>
+        <location filename="../prefsubtitles.cpp" line="552"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>Nếu đánh dấu, chữ sẽ được hiển thị &lt;b&gt;đậm&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="519"/>
+        <location filename="../prefsubtitles.cpp" line="554"/>
         <source>Italic</source>
         <translation>In nghiêng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="520"/>
+        <location filename="../prefsubtitles.cpp" line="555"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>Nếu đánh dấu, chữ sẽ được hiển thị &lt;b&gt;in nghiêng&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="531"/>
+        <location filename="../prefsubtitles.cpp" line="566"/>
         <source>Left margin</source>
         <translation>Lề trái</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="532"/>
+        <location filename="../prefsubtitles.cpp" line="567"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>Chỉ định lề trái tính theo điểm ảnh.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="534"/>
+        <location filename="../prefsubtitles.cpp" line="569"/>
         <source>Right margin</source>
         <translation>Lề phải</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="535"/>
+        <location filename="../prefsubtitles.cpp" line="570"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>Chỉ định lề trái phải theo điểm ảnh.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="537"/>
+        <location filename="../prefsubtitles.cpp" line="572"/>
         <source>Vertical margin</source>
         <translation>Lề đứng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="538"/>
+        <location filename="../prefsubtitles.cpp" line="573"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>Chỉ định lề trái đứng theo điểm ảnh.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="540"/>
+        <location filename="../prefsubtitles.cpp" line="575"/>
         <source>Horizontal alignment</source>
         <translation>Xếp đặt chiều ngang</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="541"/>
+        <location filename="../prefsubtitles.cpp" line="576"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>Chỉ định xếp đặt chiều ngang. Giá trị được phép là trái, giữa và phải.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="544"/>
+        <location filename="../prefsubtitles.cpp" line="579"/>
         <source>Vertical alignment</source>
         <translation>Xếp đặt chiều dọc</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="545"/>
+        <location filename="../prefsubtitles.cpp" line="580"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>Chỉ định xếp đặt chiều dọc. Giá trị được phép là dưới cùng, giữa và trên cùng.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="548"/>
+        <location filename="../prefsubtitles.cpp" line="583"/>
         <source>Border style</source>
         <translation>Kiểu lề</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="549"/>
+        <location filename="../prefsubtitles.cpp" line="584"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>Chỉ định kiểu lề. Giá trị được phép là: bao ngoài và hộp mờ.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="556"/>
+        <location filename="../prefsubtitles.cpp" line="591"/>
         <source>Shadow</source>
         <translation>Bóng đổ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="724"/>
+        <location filename="../prefsubtitles.ui" line="731"/>
         <source>Si&amp;ze:</source>
         <translation>&amp;Kích cỡ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="766"/>
+        <location filename="../prefsubtitles.ui" line="773"/>
         <source>Bol&amp;d</source>
         <translation>Đậ&amp;m</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="773"/>
+        <location filename="../prefsubtitles.ui" line="780"/>
         <source>&amp;Italic</source>
         <translation>&amp;In nghiêng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="785"/>
+        <location filename="../prefsubtitles.ui" line="792"/>
         <source>Colors</source>
         <translation>Màu</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="794"/>
+        <location filename="../prefsubtitles.ui" line="801"/>
         <source>&amp;Text:</source>
         <translation>&amp;Chữ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="820"/>
+        <location filename="../prefsubtitles.ui" line="827"/>
         <source>&amp;Border:</source>
         <translation>&amp;Biên:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="872"/>
+        <location filename="../prefsubtitles.ui" line="879"/>
         <source>Margins</source>
         <translation>Lề</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="881"/>
+        <location filename="../prefsubtitles.ui" line="888"/>
         <source>L&amp;eft:</source>
         <translation>&amp;Trái:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="897"/>
+        <location filename="../prefsubtitles.ui" line="904"/>
         <source>&amp;Right:</source>
         <translation>&amp;Phải:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="913"/>
+        <location filename="../prefsubtitles.ui" line="920"/>
         <source>Verti&amp;cal:</source>
         <translation>&amp;Chiều đứng:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="945"/>
+        <location filename="../prefsubtitles.ui" line="952"/>
         <source>Alignment</source>
         <translation>Xếp đặt</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="954"/>
+        <location filename="../prefsubtitles.ui" line="961"/>
         <source>&amp;Horizontal:</source>
         <translation>Chiều &amp;ngang:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="970"/>
+        <location filename="../prefsubtitles.ui" line="977"/>
         <source>&amp;Vertical:</source>
         <translation>&amp;Chiều đứng:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="991"/>
+        <location filename="../prefsubtitles.ui" line="998"/>
         <source>Border st&amp;yle:</source>
         <translation>K&amp;iểu lề:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1017"/>
+        <location filename="../prefsubtitles.ui" line="1024"/>
         <source>&amp;Outline:</source>
         <translation>&amp;Bao ngoài:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1037"/>
+        <location filename="../prefsubtitles.ui" line="1044"/>
         <source>Shado&amp;w:</source>
         <translation>Bón&amp;g đổ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
+        <location filename="../prefsubtitles.cpp" line="542"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>Những lựa chọn sau cho phép bạn định nghĩa ra kiểu để dùng cho những phụ đề không chứa kiểu (srt, sub...).</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="100"/>
+        <location filename="../prefsubtitles.cpp" line="104"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation>Trái</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="101"/>
+        <location filename="../prefsubtitles.cpp" line="105"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation>Trung tâm</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="102"/>
+        <location filename="../prefsubtitles.cpp" line="106"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation>Phải</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="107"/>
+        <location filename="../prefsubtitles.cpp" line="111"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation>Dưới cùng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="108"/>
+        <location filename="../prefsubtitles.cpp" line="112"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation>Giữa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="109"/>
+        <location filename="../prefsubtitles.cpp" line="113"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation>Trên cùng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="114"/>
+        <location filename="../prefsubtitles.cpp" line="118"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation>Đường bao</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="115"/>
+        <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation>Hộp mờ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="553"/>
+        <location filename="../prefsubtitles.cpp" line="588"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Nếu như kiểu lề được đặt là &lt;i&gt;đường bao&lt;/i&gt;, lựa chọn này chỉ ra độ rộng của đường bao quanh chữ tính theo điểm ảnh.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="557"/>
+        <location filename="../prefsubtitles.cpp" line="592"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>Nếu như kiểu lề được đặt là &lt;i&gt;đường bao&lt;/i&gt;, lựa chọn này chỉ ra độ rộng của bóng đổ phía sau chữ tính theo điểm ảnh.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="450"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Enable normal subtitles</source>
         <translation>Cho phép phụ đề bình thường</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
         <translation>Bấm vào nút này đề chọn phụ đề bình thường/truyền thống. Loại phụ đề này chỉ có thể hiển thị phụ đề màu trắng.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="454"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>Enable SSA/ASS subtitles</source>
         <translation>Cho phép phụ đề SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Normal subtitles</source>
         <translation>Phụ đề bình thường</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Lựa chọn này KHÔNG thay đổi kích thước của phụ đề trong video hiện thời. Để làm vậy, dùng lựa chọn &lt;i&gt;Cỡ+&lt;/i&gt; và &lt;i&gt;Cỡ-&lt;/i&gt; trong trình đơn phụ đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="520"/>
+        <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Default scale</source>
         <translation>Tỷ lệ mặc định</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="521"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
         <translation>Lựa chọn này chỉ ra tỷ lệ mặc định cho phông chữ cho phụ đề bình thường dùng cho tập tin mới mở lần đầu.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="530"/>
         <source>SSA/ASS subtitles</source>
         <translation>Phụ đề dạng SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="533"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>Lựa chọn này chỉ ra tỷ lệ mặc định cho phông chữ cho phụ đề SSA/ASS sẽ dùng cho tập tin mới mở lần đầu.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="502"/>
+        <location filename="../prefsubtitles.cpp" line="537"/>
         <source>Line spacing</source>
         <translation>Khoảng cách dòng</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="538"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>Lựa chọn này chỉ ra khoảng cách sẽ dùng giữa các dòng tách biệt. Nó có thể mang giá trị âm.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="251"/>
+        <location filename="../prefsubtitles.ui" line="258"/>
         <source>&amp;Font and colors</source>
         <translation>Mầu và &amp;phông chữ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="257"/>
+        <location filename="../prefsubtitles.ui" line="264"/>
         <source>Enable &amp;normal subtitles</source>
         <translation>Dùng phụ đề &amp;bình thường</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="270"/>
+        <location filename="../prefsubtitles.ui" line="277"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
         <translation>Dùng phụ đề SSA/&amp;ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="482"/>
+        <location filename="../prefsubtitles.ui" line="489"/>
         <source>Default s&amp;cale:</source>
         <translation>&amp;Tỷ lệ mặc định:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="636"/>
+        <location filename="../prefsubtitles.ui" line="643"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Tỷ lệ &amp;mặc định:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="675"/>
+        <location filename="../prefsubtitles.ui" line="682"/>
         <source>&amp;Line spacing:</source>
         <translation>Khoảng &amp;cách dòng:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
         <translation>Bấm vào nút này để dùng thư viện SSA/ASS mới. Cái này cho phép hiển thị phụ đề với nhiều màu và phông chữ...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="442"/>
+        <location filename="../prefsubtitles.cpp" line="468"/>
         <source>Freetype support</source>
         <translation>Hỗ trợ Freetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="443"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
         <translation>Thông thường, bạn không nên nên tắt lựa chọn này. Chỉ tắt nó nếu như MPlayer được biên dịch kèm hỗ trợ freetype. &lt;b&gt;Tắt lựa chọn này có thể làm cho phụ đề không hoạt động!&lt;/b&gt;</translation>
     </message>
@@ -8204,62 +8224,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Hỗ trợ Freet&amp;ype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="439"/>
+        <location filename="../prefsubtitles.cpp" line="465"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>Nếu lựa chọn này được đánh dấu, phụ đề sẽ hiện ra trên ảnh chụp màn hình. &lt;b&gt;Chú ý:&lt;/b&gt; nó đôi khi có thể gây ra vấn đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Customize SSA/ASS style</source>
         <translation>Tùy biến kiểu SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>Ở đây bạn có thể nhập kiều SSA/ASS do bạn tùy biến.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="383"/>
+        <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>Xóa sạch dòng soạn thảo để vô hiệu hóa kiểu tùy biến.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="506"/>
+        <location filename="../prefsubtitles.cpp" line="541"/>
         <source>SSA/ASS style</source>
         <translation>Kiểu SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="528"/>
+        <location filename="../prefsubtitles.cpp" line="563"/>
         <source>Shadow color</source>
         <translation>Mầu bóng đổ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="529"/>
+        <location filename="../prefsubtitles.cpp" line="564"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>Mầu này sẽ được dùng cho bóng đổ của các phụ đề.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="846"/>
+        <location filename="../prefsubtitles.ui" line="853"/>
         <source>Shadow:</source>
         <translation>Bóng đổ:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1100"/>
+        <location filename="../prefsubtitles.ui" line="1107"/>
         <source>Custo&amp;mize...</source>
         <translation>Tùy b&amp;iến...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="560"/>
+        <location filename="../prefsubtitles.cpp" line="595"/>
         <source>Apply style to ass files too</source>
         <translation>Áp dụng kiểu cho các tập tin ass nữa</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="561"/>
+        <location filename="../prefsubtitles.cpp" line="596"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Nếu như lựa chọn này được đánh dấu, kiểu được định nghĩa trên sẽ được áp dụng cho cả các phụ đề dạng ass nữa.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1077"/>
+        <location filename="../prefsubtitles.ui" line="1084"/>
         <source>A&amp;pply style to ass files too</source>
         <translation>Á&amp;p dụng kiểu cho các tập tin ass nữa</translation>
     </message>
@@ -8442,7 +8462,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>cửa sổ chính sẽ được đóng khi mà tập tin/danh sách chơi đã hết.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="472"/>
+        <location filename="../smplayer.cpp" line="499"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Đây là SMPlayer v.%1 chạy trên %2</translation>
     </message>

@@ -730,7 +730,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
-        <location filename="../basegui.cpp" line="3134"/>
+        <location filename="../basegui.cpp" line="3138"/>
         <source>&amp;None</source>
         <translation>없음(&amp;N)</translation>
     </message>
@@ -946,43 +946,43 @@ Do you want to overwrite?</source>
         <translation>&amp;SMPlayer 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3156"/>
-        <location filename="../basegui.cpp" line="3172"/>
-        <location filename="../basegui.cpp" line="3188"/>
-        <location filename="../basegui.cpp" line="3203"/>
-        <location filename="../basegui.cpp" line="3235"/>
-        <location filename="../basegui.cpp" line="3255"/>
-        <location filename="../basegui.cpp" line="3295"/>
+        <location filename="../basegui.cpp" line="3160"/>
+        <location filename="../basegui.cpp" line="3176"/>
+        <location filename="../basegui.cpp" line="3192"/>
+        <location filename="../basegui.cpp" line="3207"/>
+        <location filename="../basegui.cpp" line="3239"/>
+        <location filename="../basegui.cpp" line="3259"/>
+        <location filename="../basegui.cpp" line="3299"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;비어 있음&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
+        <location filename="../basegui.cpp" line="3710"/>
         <source>Video</source>
         <translation>비디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3707"/>
-        <location filename="../basegui.cpp" line="3936"/>
+        <location filename="../basegui.cpp" line="3711"/>
+        <location filename="../basegui.cpp" line="3940"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3708"/>
+        <location filename="../basegui.cpp" line="3712"/>
         <source>Playlists</source>
         <translation>재생 목록</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3709"/>
-        <location filename="../basegui.cpp" line="3916"/>
-        <location filename="../basegui.cpp" line="3937"/>
+        <location filename="../basegui.cpp" line="3713"/>
+        <location filename="../basegui.cpp" line="3920"/>
+        <location filename="../basegui.cpp" line="3941"/>
         <source>All files</source>
         <translation>모든 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3704"/>
-        <location filename="../basegui.cpp" line="3913"/>
-        <location filename="../basegui.cpp" line="3934"/>
+        <location filename="../basegui.cpp" line="3708"/>
+        <location filename="../basegui.cpp" line="3917"/>
+        <location filename="../basegui.cpp" line="3938"/>
         <source>Choose a file</source>
         <translation>파일을 선택하세요</translation>
     </message>
@@ -992,79 +992,79 @@ Do you want to overwrite?</source>
         <translation>유투브%1 브라우저</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3756"/>
+        <location filename="../basegui.cpp" line="3760"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3757"/>
+        <location filename="../basegui.cpp" line="3761"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM / DVD 드라이브를 지정하지 않았습니다.
 드라이브 설정을 위한 대화 상자가 표시될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3866"/>
+        <location filename="../basegui.cpp" line="3870"/>
         <source>Select the Blu-ray folder</source>
         <translation>Blu-ray 폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3879"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>Choose a directory</source>
         <translation>폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3915"/>
+        <location filename="../basegui.cpp" line="3919"/>
         <source>Subtitles</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4349"/>
+        <location filename="../basegui.cpp" line="4353"/>
         <source>New version available</source>
         <translation>새 버전이 나왔습니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4350"/>
+        <location filename="../basegui.cpp" line="4354"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>새 버전의 SMPlayer가 있습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4351"/>
+        <location filename="../basegui.cpp" line="4355"/>
         <source>Installed version: %1</source>
         <translation>설치된 버전: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4352"/>
+        <location filename="../basegui.cpp" line="4356"/>
         <source>Available version: %1</source>
         <translation>사용 가능한 버전: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4353"/>
+        <location filename="../basegui.cpp" line="4357"/>
         <source>Would you like to know more about this new version?</source>
         <translation>이 새 버전에 대해 더 알고 싶으신가요?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4489"/>
+        <location filename="../basegui.cpp" line="4493"/>
         <source>Error detected</source>
         <translation>오류를 발견했습니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4490"/>
+        <location filename="../basegui.cpp" line="4494"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>유감스럽게도 이 비디오는 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4660"/>
+        <location filename="../basegui.cpp" line="4664"/>
         <source>Playing %1</source>
         <translation>%1 재생 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4661"/>
+        <location filename="../basegui.cpp" line="4665"/>
         <source>Pause</source>
         <translation>일시 중지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4662"/>
+        <location filename="../basegui.cpp" line="4666"/>
         <source>Stop</source>
         <translation>정지</translation>
     </message>
@@ -1371,53 +1371,53 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - SMPlayer 로그</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3973"/>
+        <location filename="../basegui.cpp" line="3977"/>
         <source>Donate</source>
         <translation>기부합니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3974"/>
+        <location filename="../basegui.cpp" line="3978"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation>SMPlayer를 좋아하고 그 개발을 지원하고 싶다면 기부할 수 있습니다. 작은 기부라도 정말 감사하겠습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3977"/>
+        <location filename="../basegui.cpp" line="3981"/>
         <source>Yes, I want to donate</source>
         <translation>예, 기부하겠습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4444"/>
+        <location filename="../basegui.cpp" line="4448"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, 이 동영상을 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4451"/>
-        <location filename="../basegui.cpp" line="4459"/>
+        <location filename="../basegui.cpp" line="4455"/>
+        <location filename="../basegui.cpp" line="4463"/>
         <source>Problems with Youtube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4447"/>
+        <location filename="../basegui.cpp" line="4451"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4453"/>
+        <location filename="../basegui.cpp" line="4457"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4461"/>
+        <location filename="../basegui.cpp" line="4465"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>SMPlayer를 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5169"/>
+        <location filename="../basegui.cpp" line="5173"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>유투브 브라우저를 실행하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5170"/>
+        <location filename="../basegui.cpp" line="5174"/>
         <source>Be sure %1 is installed.</source>
         <translation>%1 이 설치되어 있는지 확인하세요.</translation>
     </message>
@@ -1427,28 +1427,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>친구들과 SMPlayer를 공유하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2897"/>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="2901"/>
+        <location filename="../basegui.cpp" line="3527"/>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2898"/>
+        <location filename="../basegui.cpp" line="2902"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>새 GUI를 사용하려면 SMPlayer를 재시작해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3303"/>
+        <location filename="../basegui.cpp" line="3307"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>삭제 확인 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3304"/>
+        <location filename="../basegui.cpp" line="3308"/>
         <source>Delete the list of recent files?</source>
         <translation>최근 파일 목록을 삭제할까요?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3528"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>현재 설정을 기본으로 사용하도록 저장했습니다.</translation>
     </message>
@@ -1543,7 +1543,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>명령행 옵션(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3956"/>
+        <location filename="../basegui.cpp" line="3960"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer 명령행 옵션</translation>
     </message>
@@ -1558,37 +1558,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>비디오 이퀄라이저 초기화</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4491"/>
+        <location filename="../basegui.cpp" line="4495"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>서버 응답: &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer가 갑자기 종료되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5067"/>
+        <location filename="../basegui.cpp" line="5071"/>
         <source>Exit code: %1</source>
         <translation>종료 코드: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5086"/>
+        <location filename="../basegui.cpp" line="5090"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer를 시작하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5087"/>
+        <location filename="../basegui.cpp" line="5091"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>환경설정에서 MPlayer 경로를 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5089"/>
+        <location filename="../basegui.cpp" line="5093"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer가 다운되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5090"/>
+        <location filename="../basegui.cpp" line="5094"/>
         <source>See the log for more info.</source>
         <translation>더 보려면 로그를 확인하세요.</translation>
     </message>
@@ -1633,7 +1633,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>컨텍스트 메뉴 보기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3705"/>
+        <location filename="../basegui.cpp" line="3709"/>
         <source>Multimedia</source>
         <translation>멀티미디어</translation>
     </message>
@@ -1715,22 +1715,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>트랙(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4330"/>
+        <location filename="../basegui.cpp" line="4334"/>
         <source>Warning - Using old MPlayer</source>
         <translation>경고 - 오래된 MPlayer 사용 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4331"/>
+        <location filename="../basegui.cpp" line="4335"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>당신의 시스템에 설치된 MPlayer (%1) 버전은 너무 오래 돼서 SMPlayer가 잘 동작하지 않을 것입니다: 작동하지 않는 옵션이 있을 수 있고, 자막 선택도 잘 되지 않을 것입니다...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4336"/>
+        <location filename="../basegui.cpp" line="4340"/>
         <source>Please, update your MPlayer.</source>
         <translation>MPlayer를 업데이트 하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4338"/>
+        <location filename="../basegui.cpp" line="4342"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(이 주의사항은 더 이상  표시되지 않습니다)</translation>
     </message>
@@ -1820,36 +1820,36 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>싱크 조절하기...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4029"/>
+        <location filename="../basegui.cpp" line="4033"/>
         <source>&amp;Jump to:</source>
         <translation>이동하기:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4030"/>
+        <location filename="../basegui.cpp" line="4034"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - 탐색</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4041"/>
         <location filename="../basegui.cpp" line="4045"/>
+        <location filename="../basegui.cpp" line="4049"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - 오디오 싱크</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4042"/>
         <location filename="../basegui.cpp" line="4046"/>
+        <location filename="../basegui.cpp" line="4050"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>오디오 싱크 (밀리세컨드 단위):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4057"/>
         <location filename="../basegui.cpp" line="4061"/>
+        <location filename="../basegui.cpp" line="4065"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - 자막 싱크</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4058"/>
         <location filename="../basegui.cpp" line="4062"/>
+        <location filename="../basegui.cpp" line="4066"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>자막 싱크 (밀리세컨드 단위):</translation>
     </message>
@@ -1859,7 +1859,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>항상 위에 토글하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4804"/>
+        <location filename="../basegui.cpp" line="4808"/>
         <source>Jump to %1</source>
         <translation>%1 으로 이동하기</translation>
     </message>
@@ -2060,73 +2060,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2914"/>
+        <location filename="../core.cpp" line="2921"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2929"/>
+        <location filename="../core.cpp" line="2936"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2943"/>
+        <location filename="../core.cpp" line="2950"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2964"/>
         <source>Hue: %1</source>
         <translation>색상: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2971"/>
+        <location filename="../core.cpp" line="2978"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3100"/>
+        <location filename="../core.cpp" line="3107"/>
         <source>Volume: %1</source>
         <translation>볼륨: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3911"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4151"/>
+        <location filename="../core.cpp" line="4158"/>
         <source>Buffering...</source>
         <translation>버퍼링...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3216"/>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3223"/>
+        <location filename="../core.cpp" line="3235"/>
         <source>Font scale: %1</source>
         <translation>글꼴 크기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3772"/>
+        <location filename="../core.cpp" line="3779"/>
         <source>Aspect ratio: %1</source>
         <translation>화면 비율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4147"/>
+        <location filename="../core.cpp" line="4154"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3149"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>자막 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3159"/>
+        <location filename="../core.cpp" line="3166"/>
         <source>Audio delay: %1 ms</source>
         <translation>음성 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3025"/>
+        <location filename="../core.cpp" line="3032"/>
         <source>Speed: %1</source>
         <translation>속도: %1</translation>
     </message>
@@ -2141,32 +2141,32 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>동영상의 주소를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3271"/>
+        <location filename="../core.cpp" line="3278"/>
         <source>Subtitles on</source>
         <translation>자막 보이기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3280"/>
         <source>Subtitles off</source>
         <translation>자막 끄기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3820"/>
+        <location filename="../core.cpp" line="3827"/>
         <source>Mouse wheel seeks now</source>
         <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3823"/>
+        <location filename="../core.cpp" line="3830"/>
         <source>Mouse wheel changes volume now</source>
         <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3826"/>
+        <location filename="../core.cpp" line="3833"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3829"/>
+        <location filename="../core.cpp" line="3836"/>
         <source>Mouse wheel changes speed now</source>
         <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
@@ -2181,17 +2181,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2649"/>
+        <location filename="../core.cpp" line="2656"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2666"/>
+        <location filename="../core.cpp" line="2673"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2681"/>
+        <location filename="../core.cpp" line="2688"/>
         <source>A-B markers cleared</source>
         <translation>A-B 표시를 지웠습니다</translation>
     </message>
@@ -7593,18 +7593,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="51"/>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="55"/>
+        <location filename="../prefsubtitles.cpp" line="437"/>
         <source>Subtitles</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="94"/>
+        <location filename="../prefsubtitles.cpp" line="98"/>
         <source>Choose a ttf file</source>
         <translation>TTF 파일을 선택하세요</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="95"/>
+        <location filename="../prefsubtitles.cpp" line="99"/>
         <source>Truetype Fonts</source>
         <translation>트루타입 글꼴</translation>
     </message>
@@ -7615,7 +7615,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="36"/>
-        <location filename="../prefsubtitles.cpp" line="413"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Autoload</source>
         <translation>자동으로 불러오기</translation>
     </message>
@@ -7635,71 +7635,76 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>폴더에 있는 모든 자막</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="498"/>
+        <location filename="../prefsubtitles.ui" line="234"/>
+        <source>Enable &amp;Windows fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="505"/>
         <source>Position</source>
         <translation>위치</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="556"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="576"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Top</source>
         <translation> 상단</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="602"/>
+        <location filename="../prefsubtitles.ui" line="609"/>
         <source>Bottom</source>
         <translation>하단</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="315"/>
-        <location filename="../prefsubtitles.ui" line="706"/>
-        <location filename="../prefsubtitles.cpp" line="448"/>
-        <location filename="../prefsubtitles.cpp" line="510"/>
+        <location filename="../prefsubtitles.ui" line="322"/>
+        <location filename="../prefsubtitles.ui" line="713"/>
+        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="545"/>
         <source>Font</source>
         <translation>글꼴</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="347"/>
+        <location filename="../prefsubtitles.ui" line="354"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>자막과 OSD에서 사용할 글꼴을 선택하세요:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
-        <location filename="../prefsubtitles.cpp" line="513"/>
+        <location filename="../prefsubtitles.ui" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Size</source>
         <translation>크기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="421"/>
+        <location filename="../prefsubtitles.ui" line="428"/>
         <source>No autoscale</source>
         <translation>자동크기조절하지 않음</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="426"/>
+        <location filename="../prefsubtitles.ui" line="433"/>
         <source>Proportional to movie height</source>
         <translation>영화 세로 길이에 맞춰서</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="431"/>
+        <location filename="../prefsubtitles.ui" line="438"/>
         <source>Proportional to movie width</source>
         <translation>영화 가로 길이에 맞춰서</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="436"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>Proportional to movie diagonal</source>
         <translation>영화 대각선 길이에 맞춰서</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="525"/>
         <source>Subtitle position</source>
         <translation>자막 위치</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="526"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>이 옵션은 비디오 창에서 자막의 위치를 결정합니다. 가장 아래는 &lt;i&gt;100&lt;/i&gt;이며, 가장 위는 &lt;i&gt;0&lt;/i&gt;입니다.</translation>
     </message>
@@ -7719,7 +7724,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>기본 자막 인코딩:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="510"/>
+        <location filename="../prefsubtitles.ui" line="517"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>화면에서 자막의 기본 위치</translation>
     </message>
@@ -7729,107 +7734,107 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>스크린샷에 자막 포함하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="377"/>
+        <location filename="../prefsubtitles.ui" line="384"/>
         <source>&amp;TTF font:</source>
         <translation>&amp;TTF 글꼴:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="357"/>
+        <location filename="../prefsubtitles.ui" line="364"/>
         <source>S&amp;ystem font:</source>
         <translation>시스템 글꼴:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="407"/>
+        <location filename="../prefsubtitles.ui" line="414"/>
         <source>A&amp;utoscale:</source>
         <translation>자동크기조절:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="416"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Select first available subtitle</source>
         <translation>사용 가능한 첫번째 자막 선택하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="422"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <source>Default subtitle encoding</source>
         <translation>기본 자막 인코딩</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="438"/>
+        <location filename="../prefsubtitles.cpp" line="464"/>
         <source>Include subtitles on screenshots</source>
         <translation>스크린샷에 자막 포함하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>TTF font</source>
         <translation>TTF 글꼴</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="474"/>
+        <location filename="../prefsubtitles.cpp" line="509"/>
         <source>System font</source>
         <translation>시스템 글꼴</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Autoscale</source>
         <translation>자동 크기 조절</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="522"/>
+        <location filename="../prefsubtitles.cpp" line="557"/>
         <source>Text color</source>
         <translation>본문 색상</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="523"/>
+        <location filename="../prefsubtitles.cpp" line="558"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>자막의 본문 색상을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="525"/>
+        <location filename="../prefsubtitles.cpp" line="560"/>
         <source>Border color</source>
         <translation>테두리 색상</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="526"/>
+        <location filename="../prefsubtitles.cpp" line="561"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>자막의 테두리 색상을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>Select the subtitle autoload method.</source>
         <translation>자막을 자동으로 불러올 방법을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="417"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>하나 이상의 자막 트랙이 존재하는 경우, 그 중 하나가 자동으로 선택됩니다. 비록 자막 트랙 중 하나가 사용자의 선호하는 언어와 일치한다고 해도, 사용 가능한 첫번째 자막을 대신 사용할 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>자막을 자동으로 크기조절할 방법을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="423"/>
+        <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>자막 파일에 기본적으로 사용할 인코딩을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="426"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Try to autodetect for this language</source>
         <translation>이 언어는 자동으로 감지하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="427"/>
+        <location filename="../prefsubtitles.cpp" line="453"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>이 옵션 사용시, 설정 언어의 자막 인코딩은 자동감지를 시도할 것입니다. 자동감지에 실패하면 기본 인코딩을 사용합니다. 이 옵션은 ENCA가 지원되는 MPlayer가 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="459"/>
         <source>Subtitle language</source>
         <translation>자막 언어</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="434"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>인코딩을 자동으로 감지하고 싶은 언어를 선택하세요.</translation>
     </message>
@@ -7844,356 +7849,371 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>이 언어는 자동으로 감지하기:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="496"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>여기서 자막에 사용할 TTF 글꼴을 선택할 수 있습니다. 대게의 경우 %1 에서 많은 TTF 글꼴을 찾을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="552"/>
+        <location filename="../prefsubtitles.cpp" line="587"/>
         <source>Outline</source>
         <translation>외곽선</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="511"/>
+        <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Select the font for the subtitles.</source>
         <translation>자막 글꼴을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
+        <source>Enable Windows fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="476"/>
+        <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="479"/>
+        <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
         <translation>여기서 자막과 OSD 용 시스템 글꼴을 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="514"/>
+        <location filename="../prefsubtitles.cpp" line="549"/>
         <source>The size in pixels.</source>
         <translation>픽셀 단위의 크기.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="516"/>
+        <location filename="../prefsubtitles.cpp" line="551"/>
         <source>Bold</source>
         <translation>굵게</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="517"/>
+        <location filename="../prefsubtitles.cpp" line="552"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>체크하면 본문이 &lt;b&gt;굵게&lt;/b&gt; 표시됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="519"/>
+        <location filename="../prefsubtitles.cpp" line="554"/>
         <source>Italic</source>
         <translation>이탤릭</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="520"/>
+        <location filename="../prefsubtitles.cpp" line="555"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>체크하면 본문이 &lt;i&gt;이탤릭&lt;/i&gt; 으로 표시됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="531"/>
+        <location filename="../prefsubtitles.cpp" line="566"/>
         <source>Left margin</source>
         <translation>왼쪽 여백</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="532"/>
+        <location filename="../prefsubtitles.cpp" line="567"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>왼쪽 여백을 픽셀로 지정하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="534"/>
+        <location filename="../prefsubtitles.cpp" line="569"/>
         <source>Right margin</source>
         <translation>오른쪽 여백</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="535"/>
+        <location filename="../prefsubtitles.cpp" line="570"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>오른쪽 여백을 픽셀로 지정하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="537"/>
+        <location filename="../prefsubtitles.cpp" line="572"/>
         <source>Vertical margin</source>
         <translation>세로 여백</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="538"/>
+        <location filename="../prefsubtitles.cpp" line="573"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>세로 여백을 픽셀로 지정하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="540"/>
+        <location filename="../prefsubtitles.cpp" line="575"/>
         <source>Horizontal alignment</source>
         <translation>가로 정렬</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="541"/>
+        <location filename="../prefsubtitles.cpp" line="576"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>가로 정렬 방식을 지정하세요. 가능한 값은 왼쪽, 가운데, 오른쪽입니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="544"/>
+        <location filename="../prefsubtitles.cpp" line="579"/>
         <source>Vertical alignment</source>
         <translation>세로 정렬</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="545"/>
+        <location filename="../prefsubtitles.cpp" line="580"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>세로 정렬을 지정하세요. 가능한 값은 하단, 중앙, 상단입니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="548"/>
+        <location filename="../prefsubtitles.cpp" line="583"/>
         <source>Border style</source>
         <translation>테두리 스타일</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="549"/>
+        <location filename="../prefsubtitles.cpp" line="584"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>테두리 스타일을 지정하세요. 가능한 값은 외곽선과 불투명 박스입니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="556"/>
+        <location filename="../prefsubtitles.cpp" line="591"/>
         <source>Shadow</source>
         <translation>그림자</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="724"/>
+        <location filename="../prefsubtitles.ui" line="731"/>
         <source>Si&amp;ze:</source>
         <translation>크기:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="766"/>
+        <location filename="../prefsubtitles.ui" line="773"/>
         <source>Bol&amp;d</source>
         <translation>굵게</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="773"/>
+        <location filename="../prefsubtitles.ui" line="780"/>
         <source>&amp;Italic</source>
         <translation>이탤릭</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="785"/>
+        <location filename="../prefsubtitles.ui" line="792"/>
         <source>Colors</source>
         <translation>색상</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="794"/>
+        <location filename="../prefsubtitles.ui" line="801"/>
         <source>&amp;Text:</source>
         <translation>본문:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="820"/>
+        <location filename="../prefsubtitles.ui" line="827"/>
         <source>&amp;Border:</source>
         <translation>테두리:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="872"/>
+        <location filename="../prefsubtitles.ui" line="879"/>
         <source>Margins</source>
         <translation>여백</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="881"/>
+        <location filename="../prefsubtitles.ui" line="888"/>
         <source>L&amp;eft:</source>
         <translation>왼쪽:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="897"/>
+        <location filename="../prefsubtitles.ui" line="904"/>
         <source>&amp;Right:</source>
         <translation>오른쪽:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="913"/>
+        <location filename="../prefsubtitles.ui" line="920"/>
         <source>Verti&amp;cal:</source>
         <translation>세로:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="945"/>
+        <location filename="../prefsubtitles.ui" line="952"/>
         <source>Alignment</source>
         <translation>정렬</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="954"/>
+        <location filename="../prefsubtitles.ui" line="961"/>
         <source>&amp;Horizontal:</source>
         <translation>가로:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="970"/>
+        <location filename="../prefsubtitles.ui" line="977"/>
         <source>&amp;Vertical:</source>
         <translation>세로:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="991"/>
+        <location filename="../prefsubtitles.ui" line="998"/>
         <source>Border st&amp;yle:</source>
         <translation>테두리 스타일:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1017"/>
+        <location filename="../prefsubtitles.ui" line="1024"/>
         <source>&amp;Outline:</source>
         <translation>외곽선:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1037"/>
+        <location filename="../prefsubtitles.ui" line="1044"/>
         <source>Shado&amp;w:</source>
         <translation>그림자:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
+        <location filename="../prefsubtitles.cpp" line="542"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>다음 옵션은 스타일이 없는 자막 (srt, sub...) 에 사용할 스타일을 정의합니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="100"/>
+        <location filename="../prefsubtitles.cpp" line="104"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation>왼쪽</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="101"/>
+        <location filename="../prefsubtitles.cpp" line="105"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation>가운데</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="102"/>
+        <location filename="../prefsubtitles.cpp" line="106"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation>오른쪽</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="107"/>
+        <location filename="../prefsubtitles.cpp" line="111"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation>하단</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="108"/>
+        <location filename="../prefsubtitles.cpp" line="112"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation>중앙</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="109"/>
+        <location filename="../prefsubtitles.cpp" line="113"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation>상단</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="114"/>
+        <location filename="../prefsubtitles.cpp" line="118"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation>외곽선</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="115"/>
+        <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation>불투명 박스</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="553"/>
+        <location filename="../prefsubtitles.cpp" line="588"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>테두리 스타일이 외곽선이면, 이 옵션은 본문 주위의 외곽선의 너비를 픽셀로 지정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="557"/>
+        <location filename="../prefsubtitles.cpp" line="592"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>테두리 스타일이 외곽선이면 이 옵션은 본문 뒤의 그림자 깊이를 픽셀로 지정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="450"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Enable normal subtitles</source>
         <translation>일반 자막 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
         <translation>일반/전통적인 자막을 선택하려면 이 버튼을 클릭하세요. 이 종류의 자막은 흰색 자막으로만 표시할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="454"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>Enable SSA/ASS subtitles</source>
         <translation>SSA/ASS 자막 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Normal subtitles</source>
         <translation>일반 자막</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>이 옵션은 현재 동영상에서 자막의 크기를 변경하지 않습니다. 크기를 조정하려면 자막 메뉴의 &quot;크게+ 와 작게-&quot; 옵션을 사용하세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="520"/>
+        <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Default scale</source>
         <translation>기본 크기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="521"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
         <translation>이 옵션은 일반 자막의 기본 글꼴 크기를 정합니다. 파일을 새로 열어야 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="530"/>
         <source>SSA/ASS subtitles</source>
         <translation>SSA/ASS 자막</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="533"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>이 옵션은 SSA/ASS 자막의 기본 글꼴 크기를 지정합니다. 파일을 새로 열어야 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="502"/>
+        <location filename="../prefsubtitles.cpp" line="537"/>
         <source>Line spacing</source>
         <translation>줄간격</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="538"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>이것은 한 줄 이상의 자막에서 자막의 줄간격을 조정하는 옵션입니다. 음수값을 사용할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="251"/>
+        <location filename="../prefsubtitles.ui" line="258"/>
         <source>&amp;Font and colors</source>
         <translation>글꼴과 색상</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="257"/>
+        <location filename="../prefsubtitles.ui" line="264"/>
         <source>Enable &amp;normal subtitles</source>
         <translation>일반 자막 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="270"/>
+        <location filename="../prefsubtitles.ui" line="277"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
         <translation>SSA/ASS 자막 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="482"/>
+        <location filename="../prefsubtitles.ui" line="489"/>
         <source>Default s&amp;cale:</source>
         <translation>기본 크기:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="636"/>
+        <location filename="../prefsubtitles.ui" line="643"/>
         <source>Defa&amp;ult scale:</source>
         <translation>기본 크기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="675"/>
+        <location filename="../prefsubtitles.ui" line="682"/>
         <source>&amp;Line spacing:</source>
         <translation>줄간격:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
         <translation>새로운 SSA/ASS 라이브러리를 사용하려면 이 버튼을 클릭하세요. 이것은 자막에 복수의 색상과 글꼴 등을 표시할 수 있도록 해 줍니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="442"/>
+        <location filename="../prefsubtitles.cpp" line="468"/>
         <source>Freetype support</source>
         <translation>Freetype 지원</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="443"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
         <translation>일반적으로 이 옵션을 꺼서는 안 됩니다. 여러분이 사용중인 MPlayer가 freetype을 지원하지 않는다면 꺼도 됩니다. &lt;b&gt;이 옵션을 끄면 자막이 제대로 표시가 안 될 것입니다!&lt;/b&gt;</translation>
     </message>
@@ -8203,62 +8223,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Freetype 지원</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="439"/>
+        <location filename="../prefsubtitles.cpp" line="465"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>이 옵션에 체크하면 스크린샷에 자막이 나타나게 됩니다. 참고: 간혹 문제가 생길 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Customize SSA/ASS style</source>
         <translation>SSA/ASS 스타일 사용자 정의하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>여기에서 직접 정의한 SSA/ASS 스타일을 입력할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="383"/>
+        <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>사용자 정의 스타일을 끄려면 편집라인을 비우세요.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="506"/>
+        <location filename="../prefsubtitles.cpp" line="541"/>
         <source>SSA/ASS style</source>
         <translation>SSA/ASS 스타일</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="528"/>
+        <location filename="../prefsubtitles.cpp" line="563"/>
         <source>Shadow color</source>
         <translation>그림자 색상</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="529"/>
+        <location filename="../prefsubtitles.cpp" line="564"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>이 색상은 자막의 그림자에 사용이 됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="846"/>
+        <location filename="../prefsubtitles.ui" line="853"/>
         <source>Shadow:</source>
         <translation>그림자:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1100"/>
+        <location filename="../prefsubtitles.ui" line="1107"/>
         <source>Custo&amp;mize...</source>
         <translation>사용자 정의...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="560"/>
+        <location filename="../prefsubtitles.cpp" line="595"/>
         <source>Apply style to ass files too</source>
         <translation>스타일을 ASS 파일에도 적용하기</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="561"/>
+        <location filename="../prefsubtitles.cpp" line="596"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>이 옵션에 체크하면 위에서 정의한 스타일이 ASS 자막에도 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1077"/>
+        <location filename="../prefsubtitles.ui" line="1084"/>
         <source>A&amp;pply style to ass files too</source>
         <translation>스타일을 ASS 파일에도 적용하기</translation>
     </message>
@@ -8441,7 +8461,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>파일이나 재생 목록이 끝나면 창이 닫힙니다.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="472"/>
+        <location filename="../smplayer.cpp" line="499"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer 버전 %1 - %2 에서 실행 중입니다</translation>
     </message>

@@ -201,7 +201,7 @@
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Slovak</source>
-        <translation type="unfinished">Словацкий</translation>
+        <translation>Словацкий</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="215"/>
@@ -467,52 +467,52 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="202"/>
         <source>Classical</source>
-        <translation type="unfinished"></translation>
+        <translation>Классика</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>Club</source>
-        <translation type="unfinished"></translation>
+        <translation>Клуб</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
         <source>Dance</source>
-        <translation type="unfinished"></translation>
+        <translation>Танец</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>Full bass</source>
-        <translation type="unfinished"></translation>
+        <translation>Низкие частоты</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>Full bass and treble</source>
-        <translation type="unfinished"></translation>
+        <translation>Низкие и высокие частоты</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>Full treble</source>
-        <translation type="unfinished"></translation>
+        <translation>Высокие частоты</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
         <source>Headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Наушники</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="209"/>
         <source>Large hall</source>
-        <translation type="unfinished"></translation>
+        <translation>Большой зал</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="210"/>
         <source>Live</source>
-        <translation type="unfinished"></translation>
+        <translation>Живой</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="211"/>
         <source>Party</source>
-        <translation type="unfinished"></translation>
+        <translation>Вечеринка</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -522,7 +522,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
         <source>Reggae</source>
-        <translation type="unfinished"></translation>
+        <translation>Регги</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
@@ -532,22 +532,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
         <source>Ska</source>
-        <translation type="unfinished"></translation>
+        <translation>Ска</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="216"/>
         <source>Soft</source>
-        <translation type="unfinished"></translation>
+        <translation>Мягкий</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="217"/>
         <source>Soft rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Мягкий рок</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="218"/>
         <source>Techno</source>
-        <translation type="unfinished"></translation>
+        <translation>Техно</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="223"/>
@@ -730,7 +730,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
-        <location filename="../basegui.cpp" line="3134"/>
+        <location filename="../basegui.cpp" line="3138"/>
         <source>&amp;None</source>
         <translation>&amp;Ничего</translation>
     </message>
@@ -946,43 +946,43 @@ Do you want to overwrite?</source>
         <translation>О&amp;б SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3156"/>
-        <location filename="../basegui.cpp" line="3172"/>
-        <location filename="../basegui.cpp" line="3188"/>
-        <location filename="../basegui.cpp" line="3203"/>
-        <location filename="../basegui.cpp" line="3235"/>
-        <location filename="../basegui.cpp" line="3255"/>
-        <location filename="../basegui.cpp" line="3295"/>
+        <location filename="../basegui.cpp" line="3160"/>
+        <location filename="../basegui.cpp" line="3176"/>
+        <location filename="../basegui.cpp" line="3192"/>
+        <location filename="../basegui.cpp" line="3207"/>
+        <location filename="../basegui.cpp" line="3239"/>
+        <location filename="../basegui.cpp" line="3259"/>
+        <location filename="../basegui.cpp" line="3299"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ничего&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3706"/>
+        <location filename="../basegui.cpp" line="3710"/>
         <source>Video</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3707"/>
-        <location filename="../basegui.cpp" line="3936"/>
+        <location filename="../basegui.cpp" line="3711"/>
+        <location filename="../basegui.cpp" line="3940"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3708"/>
+        <location filename="../basegui.cpp" line="3712"/>
         <source>Playlists</source>
         <translation>Список</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3709"/>
-        <location filename="../basegui.cpp" line="3916"/>
-        <location filename="../basegui.cpp" line="3937"/>
+        <location filename="../basegui.cpp" line="3713"/>
+        <location filename="../basegui.cpp" line="3920"/>
+        <location filename="../basegui.cpp" line="3941"/>
         <source>All files</source>
         <translation>Все файлы</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3704"/>
-        <location filename="../basegui.cpp" line="3913"/>
-        <location filename="../basegui.cpp" line="3934"/>
+        <location filename="../basegui.cpp" line="3708"/>
+        <location filename="../basegui.cpp" line="3917"/>
+        <location filename="../basegui.cpp" line="3938"/>
         <source>Choose a file</source>
         <translation>Выбрать файл</translation>
     </message>
@@ -992,79 +992,79 @@ Do you want to overwrite?</source>
         <translation>&amp;YouTube%1 браузер</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3756"/>
+        <location filename="../basegui.cpp" line="3760"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer – Информация</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3757"/>
+        <location filename="../basegui.cpp" line="3761"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Приводы CD/DVD еще не настроены.
 Вы сможете сделать это в диалоге настроек этих устройств.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3866"/>
+        <location filename="../basegui.cpp" line="3870"/>
         <source>Select the Blu-ray folder</source>
         <translation>Выберите каталог Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3879"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>Choose a directory</source>
         <translation>Выбрать каталог</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3915"/>
+        <location filename="../basegui.cpp" line="3919"/>
         <source>Subtitles</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4349"/>
+        <location filename="../basegui.cpp" line="4353"/>
         <source>New version available</source>
         <translation>Доступна новая версия</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4350"/>
+        <location filename="../basegui.cpp" line="4354"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Доступна новая версия SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4351"/>
+        <location filename="../basegui.cpp" line="4355"/>
         <source>Installed version: %1</source>
         <translation>Установленная версия: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4352"/>
+        <location filename="../basegui.cpp" line="4356"/>
         <source>Available version: %1</source>
         <translation>Доступная версия: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4353"/>
+        <location filename="../basegui.cpp" line="4357"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Хотите узнать больше об этой новой версии?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4489"/>
+        <location filename="../basegui.cpp" line="4493"/>
         <source>Error detected</source>
         <translation>Обнаружена ошибка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4490"/>
+        <location filename="../basegui.cpp" line="4494"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>К сожалению, это видео нельзя воспроизвести.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4660"/>
+        <location filename="../basegui.cpp" line="4664"/>
         <source>Playing %1</source>
         <translation>Воспроизводится %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4661"/>
+        <location filename="../basegui.cpp" line="4665"/>
         <source>Pause</source>
         <translation>Пауза</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4662"/>
+        <location filename="../basegui.cpp" line="4666"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
@@ -1176,7 +1176,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>&amp;Half speed</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Половинная скорость</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1548"/>
@@ -1371,53 +1371,53 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer – Отчёт SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3973"/>
+        <location filename="../basegui.cpp" line="3977"/>
         <source>Donate</source>
         <translation>Пожертвовать</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3974"/>
+        <location filename="../basegui.cpp" line="3978"/>
         <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
         <translation>Если вам нравится SMPlayer и вы хотите его поддержать, то вы можете отослать пожертвование. Даже небольшие пожертвования высоко ценятся.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3977"/>
+        <location filename="../basegui.cpp" line="3981"/>
         <source>Yes, I want to donate</source>
         <translation>Да, я хочу пожертвовать</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4444"/>
+        <location filename="../basegui.cpp" line="4448"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>К сожалению, в связи с изменениями на Youtube, это видео нельзя воспроизвести.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4451"/>
-        <location filename="../basegui.cpp" line="4459"/>
+        <location filename="../basegui.cpp" line="4455"/>
+        <location filename="../basegui.cpp" line="4463"/>
         <source>Problems with Youtube</source>
         <translation>Проблемы с YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4447"/>
+        <location filename="../basegui.cpp" line="4451"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>К сожалению, из-за изменений на странице YouTube видео &apos;%1&apos; не может быть проиграно.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4453"/>
+        <location filename="../basegui.cpp" line="4457"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Хотите ли вы обновить код YouTube? Это, возможно, устранит проблему.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4461"/>
+        <location filename="../basegui.cpp" line="4465"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Возможно, обновление SMPlayer решит проблему.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5169"/>
+        <location filename="../basegui.cpp" line="5173"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>Браузер YouTube не может быть запущен</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5170"/>
+        <location filename="../basegui.cpp" line="5174"/>
         <source>Be sure %1 is installed.</source>
         <translation>Будьте уверены %1 установлен.</translation>
     </message>
@@ -1427,28 +1427,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>По&amp;делиться SMPlayer с друзьями</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2897"/>
-        <location filename="../basegui.cpp" line="3523"/>
+        <location filename="../basegui.cpp" line="2901"/>
+        <location filename="../basegui.cpp" line="3527"/>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2898"/>
+        <location filename="../basegui.cpp" line="2902"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Для использования нового GUI необходим перезапуск SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3303"/>
+        <location filename="../basegui.cpp" line="3307"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Подтвердить удаление — SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3304"/>
+        <location filename="../basegui.cpp" line="3308"/>
         <source>Delete the list of recent files?</source>
         <translation>Удалить список последних файлов?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3528"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Текущие параметры были сохранены как используемые по умолчанию.</translation>
     </message>
@@ -1543,7 +1543,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Опции командной &amp;строки</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3956"/>
+        <location filename="../basegui.cpp" line="3960"/>
         <source>SMPlayer command line options</source>
         <translation>Опции командной строки SMPlayer</translation>
     </message>
@@ -1558,37 +1558,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сброс видеоэквалайзера</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4491"/>
+        <location filename="../basegui.cpp" line="4495"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Сервер вернул &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5070"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Неожиданное завершение MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5067"/>
+        <location filename="../basegui.cpp" line="5071"/>
         <source>Exit code: %1</source>
         <translation>Код ошибки: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5086"/>
+        <location filename="../basegui.cpp" line="5090"/>
         <source>MPlayer failed to start.</source>
         <translation>Ошибка запуска MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5087"/>
+        <location filename="../basegui.cpp" line="5091"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Проверьте путь к MPlayer в настройках.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5089"/>
+        <location filename="../basegui.cpp" line="5093"/>
         <source>MPlayer has crashed.</source>
         <translation>Сбой MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5090"/>
+        <location filename="../basegui.cpp" line="5094"/>
         <source>See the log for more info.</source>
         <translation>Смотрите отчёт для подробной информации.</translation>
     </message>
@@ -1633,7 +1633,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Показать контекстное меню</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3705"/>
+        <location filename="../basegui.cpp" line="3709"/>
         <source>Multimedia</source>
         <translation>Мультимедиа</translation>
     </message>
@@ -1715,22 +1715,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Дорожка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4330"/>
+        <location filename="../basegui.cpp" line="4334"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Предупреждение: Используется старая версия MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4331"/>
+        <location filename="../basegui.cpp" line="4335"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Установленная в вашей системе версия MPlayer (%1) устарела. SMPlayer не может работать с ней достаточно хорошо: некоторые опции не будут работать, выбор субтитров может вызывать ошибку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4336"/>
+        <location filename="../basegui.cpp" line="4340"/>
         <source>Please, update your MPlayer.</source>
         <translation>Пожалуйста, обновите ваш MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4338"/>
+        <location filename="../basegui.cpp" line="4342"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Это предупреждение больше не будет показано)</translation>
     </message>
@@ -1820,36 +1820,36 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ус&amp;тановить задержку...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4029"/>
+        <location filename="../basegui.cpp" line="4033"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Перейти к:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4030"/>
+        <location filename="../basegui.cpp" line="4034"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer – Перемотка</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4041"/>
         <location filename="../basegui.cpp" line="4045"/>
+        <location filename="../basegui.cpp" line="4049"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer – задержка аудио</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4042"/>
         <location filename="../basegui.cpp" line="4046"/>
+        <location filename="../basegui.cpp" line="4050"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Задержка аудио (в миллисекундах):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4057"/>
         <location filename="../basegui.cpp" line="4061"/>
+        <location filename="../basegui.cpp" line="4065"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer – задержка субтитров</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4058"/>
         <location filename="../basegui.cpp" line="4062"/>
+        <location filename="../basegui.cpp" line="4066"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Задержка субтитров (в миллисекундах):</translation>
     </message>
@@ -1859,7 +1859,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сменить режим &quot;Всегда наверху&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4804"/>
+        <location filename="../basegui.cpp" line="4808"/>
         <source>Jump to %1</source>
         <translation>Перейти к %1</translation>
     </message>
@@ -2060,73 +2060,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2914"/>
+        <location filename="../core.cpp" line="2921"/>
         <source>Brightness: %1</source>
         <translation>Яркость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2929"/>
+        <location filename="../core.cpp" line="2936"/>
         <source>Contrast: %1</source>
         <translation>Контрастность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2943"/>
+        <location filename="../core.cpp" line="2950"/>
         <source>Gamma: %1</source>
         <translation>Гамма: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2964"/>
         <source>Hue: %1</source>
         <translation>Оттенок: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2971"/>
+        <location filename="../core.cpp" line="2978"/>
         <source>Saturation: %1</source>
         <translation>Насыщенность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3100"/>
+        <location filename="../core.cpp" line="3107"/>
         <source>Volume: %1</source>
         <translation>Громкость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3911"/>
         <source>Zoom: %1</source>
         <translation>Увеличение: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4151"/>
+        <location filename="../core.cpp" line="4158"/>
         <source>Buffering...</source>
         <translation>Буферизация...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3216"/>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3223"/>
+        <location filename="../core.cpp" line="3235"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3772"/>
+        <location filename="../core.cpp" line="3779"/>
         <source>Aspect ratio: %1</source>
         <translation>Соотношение сторон: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4147"/>
+        <location filename="../core.cpp" line="4154"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Обновление кэша шрифтов. Это может занять несколько секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3149"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Задержка субтитров: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3159"/>
+        <location filename="../core.cpp" line="3166"/>
         <source>Audio delay: %1 ms</source>
         <translation>A-V задержка: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3025"/>
+        <location filename="../core.cpp" line="3032"/>
         <source>Speed: %1</source>
         <translation>Скорость: %1</translation>
     </message>
@@ -2138,35 +2138,35 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно определить URL адрес видео</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3271"/>
+        <location filename="../core.cpp" line="3278"/>
         <source>Subtitles on</source>
         <translation>Субтитры включены</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3273"/>
+        <location filename="../core.cpp" line="3280"/>
         <source>Subtitles off</source>
         <translation>Субтитры отключены</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3820"/>
+        <location filename="../core.cpp" line="3827"/>
         <source>Mouse wheel seeks now</source>
         <translation>Колесо мыши: перемотка</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3823"/>
+        <location filename="../core.cpp" line="3830"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Колесо мыши: громкость</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3826"/>
+        <location filename="../core.cpp" line="3833"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Колесо мыши: масштабирование</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3829"/>
+        <location filename="../core.cpp" line="3836"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Колесо мыши: скорость</translation>
     </message>
@@ -2181,17 +2181,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Скриншоты не получены, каталог не настроен</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2649"/>
+        <location filename="../core.cpp" line="2656"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Маркер &quot;A&quot; установлен в %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2666"/>
+        <location filename="../core.cpp" line="2673"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Маркер &quot;B&quot; установлен в %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2681"/>
+        <location filename="../core.cpp" line="2688"/>
         <source>A-B markers cleared</source>
         <translation>Маркеры A-B очищены</translation>
     </message>
@@ -2361,7 +2361,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="114"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Вы можете редактировать, удалять, сортировать и добавлять новые пункты. Двойной клик на ячейке для редактирования её содержимого.</translation>
+        <translation>Вы можете редактировать, удалять, сортировать и добавлять новые пункты. Дважды щёлкните на ячейке для редактирования её содержимого.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="345"/>
@@ -2590,12 +2590,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2640,7 +2640,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Сервер &amp;OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3105,7 +3105,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы можете проигрывать DVD с жёсткого диска. Просто укажите папку, содержащую директории VIDEO_TS и AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -4736,7 +4736,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>По умолчанию использовать демультиплексор la&amp;vf</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4861,17 +4861,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>По умолчанию использовать демультиплексор lavf</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция включена, для всех форматов будет использоваться демультиплексор lavf.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="446"/>
         <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Внимание: mplayer2 по умолчанию уже использует демультиплекор lavf, поэтому включение этой опции для mplayer2 ни на что не повлияет.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="465"/>
@@ -5198,7 +5198,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция включена, SMPlayer будет проигрывать DVD с помощью dvdnav. Требуется обновлённая версия MPlayer, скомпилированная с поддержкой dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
@@ -6117,7 +6117,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Отключить срабатывание функции левой клавиши мыши при двойном щелчке</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6150,12 +6150,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды кликните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
+        <translation>Здесь можно изменить настройки горячих клавиш. Чтобы сделать это, дважды щёлкните мышкой или нажмите клавишу в необходимой ячейке. Вы можете сохранить список горячих клавиш, чтобы им могли воспользоваться другие люди или вы сами на другом компьютере.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="148"/>
         <source>&amp;Left click</source>
-        <translation>&amp;Левый клик</translation>
+        <translation>&amp;Левый щелчок</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="171"/>
@@ -6175,27 +6175,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="312"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Эта таблица позволяет изменить сочетания клавиш для различных действий. Двойной клик или нажатие ввода на выбранном пункте или нажатие кнопки &lt;b&gt;Изменить&lt;/b&gt; вызовет диалог &lt;i&gt;Изменить горячую клавишу&lt;/i&gt;. Есть два способа изменить сочетание клавиш: если кнопка &lt;b&gt;Захват&lt;/b&gt; нажата - просто нажать нужную комбинацию клавиш (работает не для всех клавиш). Если кнопка &lt;b&gt;Захват&lt;/b&gt; отжата, можно просто вписать полное название комбинации клавиш.</translation>
+        <translation>Эта таблица позволяет изменить сочетания клавиш для различных действий. Двойной щелчок или нажатие ввода на выбранном пункте или нажатие кнопки &lt;b&gt;Изменить&lt;/b&gt; вызовет диалог &lt;i&gt;Изменить горячую клавишу&lt;/i&gt;. Есть два способа изменить сочетание клавиш: если кнопка &lt;b&gt;Захват&lt;/b&gt; нажата - просто нажать нужную комбинацию клавиш (работает не для всех клавиш). Если кнопка &lt;b&gt;Захват&lt;/b&gt; отжата, можно просто вписать полное название комбинации клавиш.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="324"/>
         <source>Left click</source>
-        <translation>Левый клик</translation>
+        <translation>Левый щелчок</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="325"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>Выбрать действие для левого клика мыши.</translation>
+        <translation>Выбрать действие для левого щелчка мыши.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="327"/>
         <source>Double click</source>
-        <translation>Двойной клик</translation>
+        <translation>Двойной щелчок</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="328"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation>Выбрать действие для двойного клика мыши.</translation>
+        <translation>Выбрать действие для двойного щелчка мыши.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
@@ -6311,17 +6311,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="330"/>
         <source>Middle click</source>
-        <translation>Средний клик</translation>
+        <translation>Средний щелчок</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="331"/>
         <source>Select the action for middle click on the mouse.</source>
-        <translation>Выбрать действие для среднего клика мыши.</translation>
+        <translation>Выбрать действие для среднего щелчка мыши.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="217"/>
         <source>M&amp;iddle click</source>
-        <translation>С&amp;редний клик</translation>
+        <translation>С&amp;редний щелчок</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="230"/>
@@ -6376,7 +6376,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="194"/>
         <source>&amp;Right click</source>
-        <translation>&amp;Правый клик</translation>
+        <translation>&amp;Правый щелчок</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="65"/>
@@ -6476,17 +6476,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключить срабатывание функции левой клавиши мыши при двойном щелчке</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция включена, после двойного щелчка по области видео выполнится только функция двойного щелчка, иначе будет выполняться так же функция левой клавиши.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>При включении данной опции срабатывание левой клавиши мыши задерживается на %1 миллисекунд, так как это необходимо для определения двойного щелчка.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -6731,12 +6731,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать только при перемещении указателя мыши в &amp;низ экрана</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="750"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Время (в миллисекундах) до скрытия панели:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="856"/>
@@ -6949,12 +6949,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать только при перемещении указателя мыши в низ экрана</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция включена, плавающая панель будет показываться только когда мышь перемещена в низ экрана. Иначе панель будет появляться при любом движении мыши, независимо от её позиции.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
@@ -6974,12 +6974,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"></translation>
+        <translation>Время до скрытия панели</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"></translation>
+        <translation>Устанавливает время (в миллисекундах) до скрытия после выхода мыши за пределы панели.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
@@ -7595,18 +7595,18 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="51"/>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="55"/>
+        <location filename="../prefsubtitles.cpp" line="437"/>
         <source>Subtitles</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="94"/>
+        <location filename="../prefsubtitles.cpp" line="98"/>
         <source>Choose a ttf file</source>
         <translation>Выбрать TTF файл</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="95"/>
+        <location filename="../prefsubtitles.cpp" line="99"/>
         <source>Truetype Fonts</source>
         <translation>Шрифты Truetype</translation>
     </message>
@@ -7617,7 +7617,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="36"/>
-        <location filename="../prefsubtitles.cpp" line="413"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Autoload</source>
         <translation>Автозагрузка</translation>
     </message>
@@ -7637,71 +7637,76 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Все субтитры каталога</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="498"/>
+        <location filename="../prefsubtitles.ui" line="234"/>
+        <source>Enable &amp;Windows fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="505"/>
         <source>Position</source>
         <translation>Позиция</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="556"/>
+        <location filename="../prefsubtitles.ui" line="563"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="576"/>
+        <location filename="../prefsubtitles.ui" line="583"/>
         <source>Top</source>
         <translation>Верх</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="602"/>
+        <location filename="../prefsubtitles.ui" line="609"/>
         <source>Bottom</source>
         <translation>Низ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="315"/>
-        <location filename="../prefsubtitles.ui" line="706"/>
-        <location filename="../prefsubtitles.cpp" line="448"/>
-        <location filename="../prefsubtitles.cpp" line="510"/>
+        <location filename="../prefsubtitles.ui" line="322"/>
+        <location filename="../prefsubtitles.ui" line="713"/>
+        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="545"/>
         <source>Font</source>
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="347"/>
+        <location filename="../prefsubtitles.ui" line="354"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
         <translation>Выберите шрифт для субтитров (и OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="387"/>
-        <location filename="../prefsubtitles.cpp" line="513"/>
+        <location filename="../prefsubtitles.ui" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="548"/>
         <source>Size</source>
         <translation>Размер</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="421"/>
+        <location filename="../prefsubtitles.ui" line="428"/>
         <source>No autoscale</source>
         <translation>Без автомасштабирования</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="426"/>
+        <location filename="../prefsubtitles.ui" line="433"/>
         <source>Proportional to movie height</source>
         <translation>Пропорционально высоте клипа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="431"/>
+        <location filename="../prefsubtitles.ui" line="438"/>
         <source>Proportional to movie width</source>
         <translation>Пропорционально ширине клипа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="436"/>
+        <location filename="../prefsubtitles.ui" line="443"/>
         <source>Proportional to movie diagonal</source>
         <translation>Пропорционально диагонали клипа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="525"/>
         <source>Subtitle position</source>
         <translation>Расположение субтитров</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="526"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
         <translation>Этот параметр определяет положение субтитров относительно окна. &lt;i&gt;100&lt;/i&gt; означает низ, &lt;i&gt;0&lt;/i&gt; – верх.</translation>
     </message>
@@ -7721,7 +7726,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Кодировка субтитров по умолчанию:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="510"/>
+        <location filename="../prefsubtitles.ui" line="517"/>
         <source>Default &amp;position of the subtitles on screen</source>
         <translation>По&amp;ложение субтитров на экране по умолчанию</translation>
     </message>
@@ -7731,107 +7736,107 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Сохранять субтитры на снимках экрана</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="377"/>
+        <location filename="../prefsubtitles.ui" line="384"/>
         <source>&amp;TTF font:</source>
         <translation>TTF шри&amp;фт:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="357"/>
+        <location filename="../prefsubtitles.ui" line="364"/>
         <source>S&amp;ystem font:</source>
         <translation>&amp;Системный шрифт:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="407"/>
+        <location filename="../prefsubtitles.ui" line="414"/>
         <source>A&amp;utoscale:</source>
         <translation>А&amp;втомасштабирование:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="416"/>
+        <location filename="../prefsubtitles.cpp" line="442"/>
         <source>Select first available subtitle</source>
         <translation>Выберите первые доступные субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="422"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <source>Default subtitle encoding</source>
         <translation>Кодировка субтитров по умолчанию</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="438"/>
+        <location filename="../prefsubtitles.cpp" line="464"/>
         <source>Include subtitles on screenshots</source>
         <translation>Сохранять субтитры на снимках экрана</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>TTF font</source>
         <translation>TTF шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="474"/>
+        <location filename="../prefsubtitles.cpp" line="509"/>
         <source>System font</source>
         <translation>Системный шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="513"/>
         <source>Autoscale</source>
         <translation>Автомасштабирование</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="522"/>
+        <location filename="../prefsubtitles.cpp" line="557"/>
         <source>Text color</source>
         <translation>Цвет текста</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="523"/>
+        <location filename="../prefsubtitles.cpp" line="558"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Выберите цвет текста субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="525"/>
+        <location filename="../prefsubtitles.cpp" line="560"/>
         <source>Border color</source>
         <translation>Цвет кромки</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="526"/>
+        <location filename="../prefsubtitles.cpp" line="561"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Выберите цвет кромки субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Выберите метод автозагрузки субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="417"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Если доступно более одной дорожки субтитров, одна из них будет автоматически выбрана, обычно первая, хотя если одна из дорожек удовлетворяет выбранному пользователем предпочтительному языку, то будет выбрана именно она.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="514"/>
         <source>Select the subtitle autoscaling method.</source>
         <translation>Выберите метод автозагрузки субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="423"/>
+        <location filename="../prefsubtitles.cpp" line="449"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Выберите кодировку, которая будет использована для файлов субтитров по умолчанию.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="426"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Try to autodetect for this language</source>
         <translation>Автоматически определить для языка</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="427"/>
+        <location filename="../prefsubtitles.cpp" line="453"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Если опция отмечена, будет произведена попытка автоматически определить кодировку для указанного языка. При ошибке будет использована кодировка по умолчанию. Опция требует MPlayer, скомпилированный с поддержкой ENCA.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="459"/>
         <source>Subtitle language</source>
         <translation>Язык субтитров</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="434"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Выберите язык, для которого будет производиться автоматическое определение кодировки субтитров.</translation>
     </message>
@@ -7846,356 +7851,371 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>А&amp;втоматически определить для языка:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="496"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
         <translation>Здесь можно выбрать ttf шрифт, используемый субтитрами. Обычно вы можете найти большое количество ttf шрифтов в %1</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="552"/>
+        <location filename="../prefsubtitles.cpp" line="587"/>
         <source>Outline</source>
         <translation>Контур</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="511"/>
+        <location filename="../prefsubtitles.cpp" line="546"/>
         <source>Select the font for the subtitles.</source>
         <translation>Выберите шрифт для субтитров.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
+        <source>Enable Windows fonts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="476"/>
+        <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="479"/>
+        <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="510"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
         <translation>Здесь вы можете выбрать системный шрифт, используемый для субтитров и OSD.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="514"/>
+        <location filename="../prefsubtitles.cpp" line="549"/>
         <source>The size in pixels.</source>
         <translation>Размер в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="516"/>
+        <location filename="../prefsubtitles.cpp" line="551"/>
         <source>Bold</source>
         <translation>Жирный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="517"/>
+        <location filename="../prefsubtitles.cpp" line="552"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>Если отмечено, текст будет отображаться &lt;b&gt;жирным&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="519"/>
+        <location filename="../prefsubtitles.cpp" line="554"/>
         <source>Italic</source>
         <translation>Наклонный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="520"/>
+        <location filename="../prefsubtitles.cpp" line="555"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>Если отмечено, текст будет отображаться &lt;b&gt;наклонным&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="531"/>
+        <location filename="../prefsubtitles.cpp" line="566"/>
         <source>Left margin</source>
         <translation>Поле слева</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="532"/>
+        <location filename="../prefsubtitles.cpp" line="567"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>Определяет размер поля слева в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="534"/>
+        <location filename="../prefsubtitles.cpp" line="569"/>
         <source>Right margin</source>
         <translation>Поле справа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="535"/>
+        <location filename="../prefsubtitles.cpp" line="570"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>Определяет размер поля справа в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="537"/>
+        <location filename="../prefsubtitles.cpp" line="572"/>
         <source>Vertical margin</source>
         <translation>Вертикальное поле</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="538"/>
+        <location filename="../prefsubtitles.cpp" line="573"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>Определяет размер поля по вертикали в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="540"/>
+        <location filename="../prefsubtitles.cpp" line="575"/>
         <source>Horizontal alignment</source>
         <translation>Выравнивание по горизонтали</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="541"/>
+        <location filename="../prefsubtitles.cpp" line="576"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>Определяет тип выравнивания по горизонтали. Возможные значения – слева, по центру и справа.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="544"/>
+        <location filename="../prefsubtitles.cpp" line="579"/>
         <source>Vertical alignment</source>
         <translation>Выравнивание по вертикали</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="545"/>
+        <location filename="../prefsubtitles.cpp" line="580"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>Определяет тип выравнивания по вертикали. Возможные значения – снизу, по середине и сверху.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="548"/>
+        <location filename="../prefsubtitles.cpp" line="583"/>
         <source>Border style</source>
         <translation>Стиль границы</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="549"/>
+        <location filename="../prefsubtitles.cpp" line="584"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>Определяет стиль границы. Возможные значения: контур и непрозрачный.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="556"/>
+        <location filename="../prefsubtitles.cpp" line="591"/>
         <source>Shadow</source>
         <translation>Тень</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="724"/>
+        <location filename="../prefsubtitles.ui" line="731"/>
         <source>Si&amp;ze:</source>
         <translation>&amp;Размер:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="766"/>
+        <location filename="../prefsubtitles.ui" line="773"/>
         <source>Bol&amp;d</source>
         <translation>&amp;Жирный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="773"/>
+        <location filename="../prefsubtitles.ui" line="780"/>
         <source>&amp;Italic</source>
         <translation>&amp;Наклонный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="785"/>
+        <location filename="../prefsubtitles.ui" line="792"/>
         <source>Colors</source>
         <translation>Цвета</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="794"/>
+        <location filename="../prefsubtitles.ui" line="801"/>
         <source>&amp;Text:</source>
         <translation>&amp;Текст:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="820"/>
+        <location filename="../prefsubtitles.ui" line="827"/>
         <source>&amp;Border:</source>
         <translation>Грани&amp;ца:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="872"/>
+        <location filename="../prefsubtitles.ui" line="879"/>
         <source>Margins</source>
         <translation>Поля</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="881"/>
+        <location filename="../prefsubtitles.ui" line="888"/>
         <source>L&amp;eft:</source>
         <translation>С&amp;лева:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="897"/>
+        <location filename="../prefsubtitles.ui" line="904"/>
         <source>&amp;Right:</source>
         <translation>С&amp;права:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="913"/>
+        <location filename="../prefsubtitles.ui" line="920"/>
         <source>Verti&amp;cal:</source>
         <translation>По &amp;вертикали:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="945"/>
+        <location filename="../prefsubtitles.ui" line="952"/>
         <source>Alignment</source>
         <translation>Выравнивание</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="954"/>
+        <location filename="../prefsubtitles.ui" line="961"/>
         <source>&amp;Horizontal:</source>
         <translation>&amp;Горизонтальное:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="970"/>
+        <location filename="../prefsubtitles.ui" line="977"/>
         <source>&amp;Vertical:</source>
         <translation>Верти&amp;кальное:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="991"/>
+        <location filename="../prefsubtitles.ui" line="998"/>
         <source>Border st&amp;yle:</source>
         <translation>&amp;Стиль границы:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1017"/>
+        <location filename="../prefsubtitles.ui" line="1024"/>
         <source>&amp;Outline:</source>
         <translation>К&amp;онтур:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1037"/>
+        <location filename="../prefsubtitles.ui" line="1044"/>
         <source>Shado&amp;w:</source>
         <translation>Т&amp;ень:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="507"/>
+        <location filename="../prefsubtitles.cpp" line="542"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>Следующие опции позволяют вам определить стиль, который будет использован для нестилизованных субтитров (srt, sub...).</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="100"/>
+        <location filename="../prefsubtitles.cpp" line="104"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation>Слева</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="101"/>
+        <location filename="../prefsubtitles.cpp" line="105"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation>По центру</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="102"/>
+        <location filename="../prefsubtitles.cpp" line="106"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation>Справа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="107"/>
+        <location filename="../prefsubtitles.cpp" line="111"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation>Снизу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="108"/>
+        <location filename="../prefsubtitles.cpp" line="112"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation>По середине</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="109"/>
+        <location filename="../prefsubtitles.cpp" line="113"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation>Сверху</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="114"/>
+        <location filename="../prefsubtitles.cpp" line="118"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation>Контур</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="115"/>
+        <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation>Непрозрачный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="553"/>
+        <location filename="../prefsubtitles.cpp" line="588"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Если стиль границы установлен в &lt;i&gt;контур&lt;/i&gt;, эта опция определяет ширину контура вокруг текста в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="557"/>
+        <location filename="../prefsubtitles.cpp" line="592"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>Если стиль границы установлен в &lt;i&gt;непрозрачный&lt;/i&gt;, эта опция определяет длину тени за текстом в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="450"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Enable normal subtitles</source>
         <translation>Включить нормальные субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
         <translation>Нажмите эту кнопку, чтобы выбрать нормальные/традиционные субтитры. Этот вид субтитров может отображать только белые субтитры.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="454"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>Enable SSA/ASS subtitles</source>
         <translation>Включить SSA/ASS субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Normal subtitles</source>
         <translation>Нормальные субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="516"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Эта опция не изменяет размер субтитров для текущего видео. Чтобы сделать это, используйте опции &lt;i&gt;Размер +&lt;/i&gt; и &lt;i&gt;Размер –&lt;/i&gt; в меню субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="520"/>
+        <location filename="../prefsubtitles.cpp" line="532"/>
         <source>Default scale</source>
         <translation>Увеличение по умолчанию</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="521"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
         <translation>Эта опция определяет размер шрифта по умолчанию для нормальных субтитров, которое будет использовано для новых видеофайлов.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="530"/>
         <source>SSA/ASS subtitles</source>
         <translation>SSA/ASS субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="533"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>Эта настройка определяет размер шрифта для субтитров SSA/ASS, который будет использоваться для новых видеофайлов.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="502"/>
+        <location filename="../prefsubtitles.cpp" line="537"/>
         <source>Line spacing</source>
         <translation>Междустрочный интервал</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="503"/>
+        <location filename="../prefsubtitles.cpp" line="538"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>Здесь указывается интервал, который будет использоваться для разделения строк. Он может иметь отрицательные значения.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="251"/>
+        <location filename="../prefsubtitles.ui" line="258"/>
         <source>&amp;Font and colors</source>
         <translation>&amp;Шрифт и цвета</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="257"/>
+        <location filename="../prefsubtitles.ui" line="264"/>
         <source>Enable &amp;normal subtitles</source>
         <translation>Включить нор&amp;мальные субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="270"/>
+        <location filename="../prefsubtitles.ui" line="277"/>
         <source>Enable SSA/&amp;ASS subtitles</source>
         <translation>Включить SSA/ASS субтитр&amp;ы</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="482"/>
+        <location filename="../prefsubtitles.ui" line="489"/>
         <source>Default s&amp;cale:</source>
         <translation>&amp;Увеличение по умолчанию:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="636"/>
+        <location filename="../prefsubtitles.ui" line="643"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Увели&amp;чение по умолчанию:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="675"/>
+        <location filename="../prefsubtitles.ui" line="682"/>
         <source>&amp;Line spacing:</source>
         <translation>Междустрочный &amp;интервал:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
         <translation>Нажмите эту кнопку, чтобы выбрать новую библиотеку SSA/ASS. Это позволяет использовать субтитры с разными цветами, шрифтами...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="442"/>
+        <location filename="../prefsubtitles.cpp" line="468"/>
         <source>Freetype support</source>
         <translation>Поддержка Freetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="443"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
         <translation>Обычно вы можете не отключать эту опцию. Делайте это только если MPlayer собран без поддержки freetype. &lt;b&gt;Отключение этой опции может привести к неработоспособности субтитров вообще!&lt;/b&gt;</translation>
     </message>
@@ -8205,62 +8225,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Под&amp;держка Freetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="439"/>
+        <location filename="../prefsubtitles.cpp" line="465"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>Если выбрано, субтитры будут появляться на снимках экрана.&lt;b&gt; Примечание:&lt;/b&gt; иногда это может вызвать некоторые проблемы.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Customize SSA/ASS style</source>
         <translation>Настроить стиль субтитров SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>Здесь можно указать предпочитаемый стиль субтитров SSA/ASS.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="383"/>
+        <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>Очистите поле ввода, чтобы отменить настройки стиля.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="506"/>
+        <location filename="../prefsubtitles.cpp" line="541"/>
         <source>SSA/ASS style</source>
         <translation>Стиль SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="528"/>
+        <location filename="../prefsubtitles.cpp" line="563"/>
         <source>Shadow color</source>
         <translation>Цвет тени</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="529"/>
+        <location filename="../prefsubtitles.cpp" line="564"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>Этот цвет будет использован для тени субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="846"/>
+        <location filename="../prefsubtitles.ui" line="853"/>
         <source>Shadow:</source>
         <translation>Тень:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1100"/>
+        <location filename="../prefsubtitles.ui" line="1107"/>
         <source>Custo&amp;mize...</source>
         <translation>&amp;Настроить...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="560"/>
+        <location filename="../prefsubtitles.cpp" line="595"/>
         <source>Apply style to ass files too</source>
         <translation>Применить стили также и для файлов ass</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="561"/>
+        <location filename="../prefsubtitles.cpp" line="596"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Если эта опция выбрана, указанные стили будут также применены и к субтитрам в формате ass.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="1077"/>
+        <location filename="../prefsubtitles.ui" line="1084"/>
         <source>A&amp;pply style to ass files too</source>
         <translation>Применить стили также и для &amp;файлов ass</translation>
     </message>
@@ -8443,7 +8463,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>главное окно будет закрыто после окончания воспроизведения.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="472"/>
+        <location filename="../smplayer.cpp" line="499"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v. %1 запущен в %2</translation>
     </message>
@@ -8961,7 +8981,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished">Использовать данные настройки по умолчанию для новых файлов.</translation>
+        <translation>Использовать текущие значения как настройки по умолчанию для новых видео.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
