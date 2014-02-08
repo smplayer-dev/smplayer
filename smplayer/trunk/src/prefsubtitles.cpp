@@ -162,6 +162,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 
 #ifdef Q_OS_WIN
 	windowsfontdir_check->setChecked(pref->use_windowsfontdir);
+	if (!windowsfontdir_check->isChecked()) on_windowsfontdir_check_toggled(false);
 #endif
 }
 
