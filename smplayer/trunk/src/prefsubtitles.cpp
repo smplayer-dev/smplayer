@@ -44,11 +44,6 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	windowsfontdir_check->hide();
 #endif
 
-	/*
-	QString fontdir = "/tmp/fonts/";
-	style_font_combo->setFontsFromDir(fontdir);
-	*/
-
 	retranslateStrings();
 }
 
@@ -420,6 +415,20 @@ void PrefSubtitles::on_freetype_check_toggled(bool b) {
 		ass_subs_button->setChecked(false);
 		normal_subs_button->setChecked(true);
 	}
+}
+
+void PrefSubtitles::on_windowsfontdir_check_toggled(bool b) {
+	qDebug("PrefSubtitles::on_windowsfontdir_check_toggled: %d", b);
+
+#ifdef Q_OS_WIN
+	if (b) {
+		style_font_combo->setFontsFromDir(QString::null);
+	} else {
+		QString fontdir = Paths::fontPath();
+		//QString fontdir = "/tmp/fonts/";
+		style_font_combo->setFontsFromDir(fontdir);
+	}
+#endif
 }
 
 void PrefSubtitles::createHelp() {
