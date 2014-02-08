@@ -35,14 +35,16 @@ class AudioEqualizer : public QWidget
 	Q_OBJECT
 
 public:
-	enum Preset { Flat = 0, Pop = 1, Rock = 2, Classical = 3, Club = 4, Dance = 5, Fullbass = 6,
-                  FullbassTreble = 7, Fulltreble = 8, Headphones = 9, LargeHall = 10, Live = 11,
-                  Party = 12, Reggae = 13, Ska = 14, Soft = 15, SoftRock = 16, Techno = 17 };
+	enum Preset { User_defined = 0, Flat = 1, Pop = 2, Rock = 3, Classical = 4, Club = 5, Dance = 6, Fullbass = 7,
+                  FullbassTreble = 8, Fulltreble = 9, Headphones = 10, LargeHall = 11, Live = 12,
+                  Party = 13, Reggae = 14, Ska = 15, Soft = 16, SoftRock = 17, Techno = 18 };
 
 	AudioEqualizer( QWidget* parent = 0, Qt::WindowFlags f = Qt::Dialog );
 	~AudioEqualizer();
 
 	EqSlider * eq[10];
+
+	void setEqualizer(AudioEqualizerList l);
 
 signals:
 	void visibilityChanged();
@@ -64,6 +66,7 @@ protected:
 
 	void createPresets();
 	void setValues(AudioEqualizerList l);
+	int findPreset(AudioEqualizerList l);
 
 protected:
 	QLabel * presets_label;

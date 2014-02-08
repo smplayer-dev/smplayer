@@ -216,6 +216,7 @@ void AudioEqualizer::retranslateStrings() {
 	presets_combo->addItem( tr("Soft"), Soft);
 	presets_combo->addItem( tr("Soft rock"), SoftRock);
 	presets_combo->addItem( tr("Techno"), Techno);
+	presets_combo->addItem( tr("Custom"), User_defined);
 	presets_combo->setCurrentIndex(presets_combo_index);
 
 	// What's this help:
@@ -245,6 +246,17 @@ void AudioEqualizer::setDefaults() {
                                 "used as default.") );
 }
 
+void AudioEqualizer::setEqualizer(AudioEqualizerList l) {
+	int p = findPreset(l);
+	int index = presets_combo->findData(p);
+	if (index != 1) {
+		presets_combo->setCurrentIndex(index);
+	} else {
+		qWarning("AudioEqualizer::setEqualizer: preset not found");
+	}
+	setValues(l);
+}
+
 void AudioEqualizer::setValues(AudioEqualizerList l) {
 	qDebug("AudioEqualizer::setValues");
 
@@ -256,7 +268,17 @@ void AudioEqualizer::setValues(AudioEqualizerList l) {
 void AudioEqualizer::presetChanged(int index) {
 	qDebug("AudioEqualizer::presetChanged: %d", index);
 	int p = presets_combo->itemData(index).toInt();
-	setValues(preset_list[p]);
+	if (p != User_defined) {
+		setValues(preset_list[p]);
+	}
+}
+
+int AudioEqualizer::findPreset(AudioEqualizerList l) {
+	QMap<int,AudioEqualizerList>::iterator i;
+	for (i = preset_list.begin(); i != preset_list.end(); ++i) {
+		if (l == i.value()) return i.key();
+	}
+	return User_defined;
 }
 
 void AudioEqualizer::applyButtonClicked() {
