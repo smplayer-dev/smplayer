@@ -2787,10 +2787,14 @@ void BaseGui::applyNewPreferences() {
 
 	pref_dialog->getData(pref);
 
+	// Change application font
 	if (!pref->default_font.isEmpty()) {
 		QFont f;
 		f.fromString( pref->default_font );
-		qApp->setFont(f);
+		if (QApplication::font() != f) {
+			qDebug("BaseGui::applyNewPreferences: setting new font: %s", pref->default_font.toLatin1().constData());
+			QApplication::setFont(f);
+		}
 	}
 
 #ifndef NO_USE_INI_FILES
