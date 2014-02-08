@@ -44,6 +44,11 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	windowsfontdir_check->hide();
 #endif
 
+	/*
+	QString fontdir = "/tmp/fonts/";
+	style_font_combo->setFontsFromDir(fontdir);
+	*/
+
 	retranslateStrings();
 }
 

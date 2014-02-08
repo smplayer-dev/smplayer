@@ -43,6 +43,7 @@ public:
 	~MyFontComboBox();
 
 	void setCurrentText ( const QString & text );
+	void setFontsFromDir(const QString & fontdir);
 };
 
 #endif
