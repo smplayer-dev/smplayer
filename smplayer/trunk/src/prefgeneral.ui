@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>488</width>
+    <width>491</width>
     <height>554</height>
    </rect>
   </property>
@@ -534,7 +534,7 @@
       <attribute name="title">
        <string>A&amp;udio</string>
       </attribute>
-      <layout class="QVBoxLayout">
+      <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <layout class="QHBoxLayout">
          <item>
@@ -595,11 +595,38 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="audio_equalizer_check">
-         <property name="text">
-          <string>&amp;Enable the audio equalizer</string>
-         </property>
-        </widget>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QCheckBox" name="audio_equalizer_check">
+           <property name="text">
+            <string>&amp;Enable the audio equalizer</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="global_audio_equalizer_check">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Global audio e&amp;qualizer</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
        <item>
         <widget class="QCheckBox" name="hwac3_check">
@@ -1183,6 +1210,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>ao_combo</tabstop>
   <tabstop>ao_user_defined_edit</tabstop>
   <tabstop>audio_equalizer_check</tabstop>
+  <tabstop>global_audio_equalizer_check</tabstop>
   <tabstop>hwac3_check</tabstop>
   <tabstop>channels_combo</tabstop>
   <tabstop>scaletempo_combo</tabstop>
@@ -1374,6 +1402,22 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel">
      <x>432</x>
      <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>audio_equalizer_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>global_audio_equalizer_check</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>115</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>95</y>
     </hint>
    </hints>
   </connection>
