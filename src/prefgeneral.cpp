@@ -201,6 +201,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setEq2( pref->use_soft_video_eq );
 	setUseAudioEqualizer( pref->use_audio_equalizer );
+	global_audio_equalizer_check->setChecked(pref->global_audio_equalizer);
 	setGlobalVolume( pref->global_volume );
 	setSoftVol( pref->use_soft_vol );
 	setAc3DTSPassthrough( pref->use_hwac3 );
@@ -291,6 +292,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->use_soft_vol, softVol());
 	pref->global_volume = globalVolume();
 	TEST_AND_SET(pref->use_audio_equalizer, useAudioEqualizer());
+	pref->global_audio_equalizer = global_audio_equalizer_check->isChecked();
 	TEST_AND_SET(pref->use_hwac3, Ac3DTSPassthrough());
 	pref->initial_volnorm = initialVolNorm();
 	TEST_AND_SET(pref->softvol_max, amplification());
@@ -1030,6 +1032,11 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(audio_equalizer_check, tr("Enable the audio equalizer"),
 		tr("Check this option if you want to use the audio equalizer.") );
+
+	setWhatsThis(global_audio_equalizer_check, tr("Global audio equalizer"),
+		tr("If this option is checked, all media files share the audio equalizer.") +" "+
+		tr("If it's not checked, the audio equalizer values are saved along each file "
+           "and loaded back when the file is played later.") );
 
 	setWhatsThis(hwac3_check, tr("AC3/DTS pass-through S/PDIF"),
 		tr("Uses hardware AC3 passthrough.") + "<br>" +
