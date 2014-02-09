@@ -3510,10 +3510,7 @@ void BaseGui::updateVideoEqualizer() {
 
 void BaseGui::updateAudioEqualizer() {
 	// Audio Equalizer
-	AudioEqualizerList l;
-	for (int n = 0; n < 10; n++) {
-		l << core->mset.audio_equalizer[n].toInt();
-	}
+	AudioEqualizerList l = pref->global_audio_equalizer ? pref->audio_equalizer : core->mset.audio_equalizer;
 	audio_equalizer->setEqualizer(l);
 }
 

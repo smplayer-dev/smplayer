@@ -245,6 +245,7 @@ public slots:
 	void setAudioAudioEqualizerRestart(AudioEqualizerList values) { setAudioEqualizer(values, true); };
 	void updateAudioEqualizer();
 
+	void setAudioEq(int eq, int value);
 	void setAudioEq0(int value);
 	void setAudioEq1(int value);
 	void setAudioEq2(int value);

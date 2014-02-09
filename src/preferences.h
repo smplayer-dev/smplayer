@@ -130,6 +130,10 @@ public:
 	int volume;
 	bool mute;
 
+	// Global equalizer
+	bool global_audio_equalizer;
+	AudioEqualizerList audio_equalizer;
+
 	bool autosync;
 	int autosync_factor;
 
