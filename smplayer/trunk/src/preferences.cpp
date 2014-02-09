@@ -142,6 +142,9 @@ void Preferences::reset() {
 	volume = 50;
 	mute = false;
 
+	global_audio_equalizer = true;
+	audio_equalizer << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0 << 0; // FIXME: use initial_audio_equalizer (but it's set later)
+
 	autosync = false;
 	autosync_factor = 100;
 
@@ -598,6 +601,9 @@ void Preferences::save() {
 	set->setValue("global_volume", global_volume);
 	set->setValue("volume", volume);
 	set->setValue("mute", mute);
+
+	set->setValue("global_audio_equalizer", global_audio_equalizer);
+	set->setValue("audio_equalizer", audio_equalizer);
 
 	set->setValue("autosync", autosync);
 	set->setValue("autosync_factor", autosync_factor);
@@ -1084,6 +1090,9 @@ void Preferences::load() {
 	global_volume = set->value("global_volume", global_volume).toBool();
 	volume = set->value("volume", volume).toInt();
 	mute = set->value("mute", mute).toBool();
+
+	global_audio_equalizer = set->value("global_audio_equalizer", global_audio_equalizer).toBool();
+	audio_equalizer = set->value("audio_equalizer", audio_equalizer).toList();
 
 	autosync = set->value("autosync", autosync).toBool();
 	autosync_factor = set->value("autosync_factor", autosync_factor).toInt();

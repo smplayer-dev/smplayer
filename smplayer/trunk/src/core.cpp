@@ -2396,7 +2396,8 @@ void Core::startMplayer( QString file, double seek ) {
 	// Audio equalizer
 	if (pref->use_audio_equalizer) {
 		if (!af.isEmpty()) af += ",";
-		af += "equalizer=" + Helper::equalizerListToString(mset.audio_equalizer);
+		AudioEqualizerList l = pref->global_audio_equalizer ? pref->audio_equalizer : mset.audio_equalizer;
+		af += "equalizer=" + Helper::equalizerListToString(l);
 	}
 
 
@@ -3290,7 +3291,11 @@ void Core::changeExternalSubFPS(int fps_id) {
 
 // Audio equalizer functions
 void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
-	mset.audio_equalizer = values;
+	if (pref->global_audio_equalizer) {
+		pref->audio_equalizer = values;
+	} else {
+		mset.audio_equalizer = values;
+	}
 
 	if (!restart) {
 		const char *command = "af_cmdline equalizer ";
@@ -3305,57 +3310,56 @@ void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
 }
 
 void Core::updateAudioEqualizer() {
-	setAudioEqualizer(mset.audio_equalizer);
+	setAudioEqualizer(pref->global_audio_equalizer ? pref->audio_equalizer : mset.audio_equalizer);
+}
+
+void Core::setAudioEq(int eq, int value) {
+	if (pref->global_audio_equalizer) {
+		pref->audio_equalizer[eq] = value;
+	} else {
+		mset.audio_equalizer[eq] = value;
+	}
+	updateAudioEqualizer();
 }
 
 void Core::setAudioEq0(int value) {
-	mset.audio_equalizer[0] = value;
-	updateAudioEqualizer();
+	setAudioEq(0, value);
 }
 
 void Core::setAudioEq1(int value) {
-	mset.audio_equalizer[1] = value;
-	updateAudioEqualizer();
+	setAudioEq(1, value);
 }
 
 void Core::setAudioEq2(int value) {
-	mset.audio_equalizer[2] = value;
-	updateAudioEqualizer();
+	setAudioEq(2, value);
 }
 
 void Core::setAudioEq3(int value) {
-	mset.audio_equalizer[3] = value;
-	updateAudioEqualizer();
+	setAudioEq(3, value);
 }
 
 void Core::setAudioEq4(int value) {
-	mset.audio_equalizer[4] = value;
-	updateAudioEqualizer();
+	setAudioEq(4, value);
 }
 
 void Core::setAudioEq5(int value) {
-	mset.audio_equalizer[5] = value;
-	updateAudioEqualizer();
+	setAudioEq(5, value);
 }
 
 void Core::setAudioEq6(int value) {
-	mset.audio_equalizer[6] = value;
-	updateAudioEqualizer();
+	setAudioEq(6, value);
 }
 
 void Core::setAudioEq7(int value) {
-	mset.audio_equalizer[7] = value;
-	updateAudioEqualizer();
+	setAudioEq(7, value);
 }
 
 void Core::setAudioEq8(int value) {
-	mset.audio_equalizer[8] = value;
-	updateAudioEqualizer();
+	setAudioEq(8, value);
 }
 
 void Core::setAudioEq9(int value) {
-	mset.audio_equalizer[9] = value;
-	updateAudioEqualizer();
+	setAudioEq(9, value);
 }
 
 
