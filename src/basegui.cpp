@@ -4534,6 +4534,15 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 
 	qDebug( "BaseGui::dropEvent: count: %d", files.count());
 	if (files.count() > 0) {
+		#ifdef Q_OS_WIN
+		// Check for Windows shortcuts
+		for (int n=0; n < files.count(); n++) {
+			QFileInfo fi(files[n]);
+			if (fi.isSymLink()) {
+				files[n] = fi.symLinkTarget();
+			}
+		}
+		#endif
 		if (files.count() == 1) {
 			QFileInfo fi( files[0] );
 
