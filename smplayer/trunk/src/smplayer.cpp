@@ -459,7 +459,7 @@ void SMPlayer::createConfigDirectory() {
 void SMPlayer::createFontFile() {
 	qDebug("SMPlayer::createFontFile");
 	QString output = Paths::configPath() + "/fonts.conf";
-	if (!QFile::exists(output)) {
+	//if (!QFile::exists(output)) {
 		QString input = Paths::appPath() + "/mplayer/fonts/fonts.conf";
 		qDebug("SMPlayer::createFontFile: input: %s", input.toLatin1().constData());
 		QFile infile(input);
@@ -474,7 +474,7 @@ void SMPlayer::createFontFile() {
 				outfile.close();
 			}
 		}
-	}
+	//}
 }
 #endif
 
