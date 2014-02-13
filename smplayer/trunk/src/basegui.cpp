@@ -3610,6 +3610,10 @@ void BaseGui::openFiles(QStringList files) {
 	qDebug("BaseGui::openFiles");
 	if (files.empty()) return;
 
+	#ifdef Q_OS_WIN
+	files = Helper::resolveSymlinks(files); // Check for Windows shortcuts
+	#endif
+
 	if (files.count()==1) {
 		if (pref->auto_add_to_playlist) {
 			if (playlist->maybeSave()) {
