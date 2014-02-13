@@ -1336,13 +1336,7 @@ void Playlist::dropEvent( QDropEvent *e ) {
 	}
 
 	#ifdef Q_OS_WIN
-	// Check for Windows shortcuts
-	for (int n=0; n < files.count(); n++) {
-		QFileInfo fi(files[n]);
-		if (fi.isSymLink()) {
-			files[n] = fi.symLinkTarget();
-		}
-	}
+	files = Helper::resolveSymlinks(files); // Check for Windows shortcuts
 	#endif
 
 	QStringList only_files;
