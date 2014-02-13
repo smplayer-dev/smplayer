@@ -63,6 +63,10 @@ public:
 	static QString equalizerListToString(AudioEqualizerList values);
 
 	static QStringList searchForConsecutiveFiles(const QString & initial_file);
+
+#ifdef Q_OS_WIN
+	static QStringList resolveSymlinks(const QStringList & files);
+#endif
 };
 
 #endif
