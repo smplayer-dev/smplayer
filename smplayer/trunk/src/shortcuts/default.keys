@@ -5,6 +5,8 @@ open_vcd
 open_audio_cd	
 open_dvd	
 open_dvd_folder	
+open_bluray	
+open_bluray_folder	
 open_url	Ctrl+U
 close	Ctrl+X
 clear_recents	
@@ -22,10 +24,10 @@ pause	Space
 pause_and_frame_step	
 stop	Media Stop
 frame_step	.
-rewind1	Left
+rewind1	Left, Ctrl+Shift+B
 rewind2	Down
 rewind3	PgDown
-forward1	Right
+forward1	Right, Ctrl+Shift+F
 forward2	Up
 forward3	PgUp
 set_a_marker	
@@ -42,7 +44,7 @@ dec_speed_4
 inc_speed_4	
 dec_speed_1	
 inc_speed_1	
-fullscreen	F
+fullscreen	F, Ctrl+T
 compact	Ctrl+C
 video_equalizer	Ctrl+E
 screenshot	S
@@ -59,9 +61,9 @@ add_noise
 add_letterbox	
 upscaling	
 audio_equalizer	
-mute	M
-decrease_volume	9, /
-increase_volume	0, *
+mute	M, Volume Mute
+decrease_volume	9, /, Volume Down
+increase_volume	0, *, Volume Up
 dec_audio_delay	-
 inc_audio_delay	+
 audio_delay	
@@ -105,8 +107,8 @@ twitter
 gmail	
 hotmail	
 yahoo	
-play_next	>
-play_prev	<
+play_next	>, Media Next
+play_prev	<, Media Previous
 move_up	Alt+Up
 move_down	Alt+Down
 move_left	Alt+Left
@@ -179,13 +181,14 @@ mono
 reverse_channels	
 aspect_detect	
 aspect_1:1	
-aspect_3:2	
-aspect_4:3	
 aspect_5:4	
-aspect_14:9	
+aspect_4:3	
+aspect_11:8	
 aspect_14:10	
-aspect_16:9	
+aspect_3:2	
+aspect_14:9	
 aspect_16:10	
+aspect_16:9	
 aspect_2.35:1	
 aspect_none	
 rotate_none	
@@ -197,6 +200,11 @@ on_top_always
 on_top_never	
 on_top_playing	
 toggle_stay_on_top	
+screen_default	
+screen_1	
+screen_2	
+screen_3	
+screen_4	
 cc_none	
 cc_ch_1	
 cc_ch_2	
