@@ -440,6 +440,7 @@ void BaseGui::createActions() {
              core, SLOT(frameStep()) );
 
 	rewind1Act = new MyAction( Qt::Key_Left, this, "rewind1" );
+	rewind1Act->addShortcut(QKeySequence("Shift+Ctrl+B")); // MCE remote key
 	connect( rewind1Act, SIGNAL(triggered()),
              core, SLOT(srewind()) );
 
@@ -452,6 +453,7 @@ void BaseGui::createActions() {
              core, SLOT(fastrewind()) );
 
 	forward1Act = new MyAction( Qt::Key_Right, this, "forward1" );
+	forward1Act->addShortcut(QKeySequence("Shift+Ctrl+F")); // MCE remote key
 	connect( forward1Act, SIGNAL(triggered()),
              core, SLOT(sforward()) );
 
@@ -524,6 +526,7 @@ void BaseGui::createActions() {
 
 	// Menu Video
 	fullscreenAct = new MyAction( Qt::Key_F, this, "fullscreen" );
+	fullscreenAct->addShortcut(QKeySequence("Ctrl+T")); // MCE remote key
 	fullscreenAct->setCheckable( true );
 	connect( fullscreenAct, SIGNAL(toggled(bool)),
              this, SLOT(toggleFullscreen(bool)) );
@@ -615,6 +618,7 @@ void BaseGui::createActions() {
              this, SLOT(showAudioEqualizer(bool)) );
 
 	muteAct = new MyAction( Qt::Key_M, this, "mute" );
+	muteAct->addShortcut(Qt::Key_VolumeMute); // MCE remote key
 	muteAct->setCheckable( true );
 	connect( muteAct, SIGNAL(toggled(bool)),
              core, SLOT(mute(bool)) );
@@ -622,6 +626,7 @@ void BaseGui::createActions() {
 #if USE_MULTIPLE_SHORTCUTS
 	decVolumeAct = new MyAction( this, "decrease_volume" );
 	decVolumeAct->setShortcuts( ActionsEditor::stringToShortcuts("9,/") );
+	decVolumeAct->addShortcut(Qt::Key_VolumeDown); // MCE remote key
 #else
 	decVolumeAct = new MyAction( Qt::Key_9, this, "dec_volume" );
 #endif
@@ -631,6 +636,7 @@ void BaseGui::createActions() {
 #if USE_MULTIPLE_SHORTCUTS
 	incVolumeAct = new MyAction( this, "increase_volume" );
 	incVolumeAct->setShortcuts( ActionsEditor::stringToShortcuts("0,*") );
+	incVolumeAct->addShortcut(Qt::Key_VolumeUp); // MCE remote key
 #else
 	incVolumeAct = new MyAction( Qt::Key_0, this, "inc_volume" );
 #endif
@@ -831,9 +837,11 @@ void BaseGui::createActions() {
 
 	// Playlist
 	playNextAct = new MyAction(Qt::Key_Greater, this, "play_next");
+	playNextAct->addShortcut(Qt::Key_MediaNext); // MCE remote key
 	connect( playNextAct, SIGNAL(triggered()), playlist, SLOT(playNext()) );
 
 	playPrevAct = new MyAction(Qt::Key_Less, this, "play_prev");
+	playPrevAct->addShortcut(Qt::Key_MediaPrevious); // MCE remote key
 	connect( playPrevAct, SIGNAL(triggered()), playlist, SLOT(playPrev()) );
 
 
