@@ -45,6 +45,8 @@ public:
 
 	~MyAction();
 
+	void addShortcut(QKeySequence key);
+
 	//! Change the icon and text of the action.
 	void change(const QIcon & icon, const QString & text );
 

@@ -57,6 +57,10 @@ MyAction::MyAction(QKeySequence accel, QObject * parent, const char * name,
 MyAction::~MyAction() {
 }
 
+void MyAction::addShortcut(QKeySequence key) {
+	setShortcuts( shortcuts() << key);
+}
+
 void MyAction::addActionToParent() {
 	if (parent()) {
 		if (parent()->inherits("QWidget")) {
