@@ -1,0 +1,32 @@
+[main]
+host = https://www.transifex.com
+
+[smplayer.installer]
+type = PO
+source_lang = en
+source_file = english.pot
+trans.es = spanish.po
+trans.ja = japanese.po
+trans.ru = russian.po
+trans.eu = basque.po
+trans.ca = catalan.po
+trans.cs = czech.po
+trans.de = german.po
+trans.it = italian.po
+trans.pt = portuguese.po
+trans.sk = slovak.po
+trans.th = thai.po
+trans.da = danish.po
+trans.fi = finnish.po
+trans.he = hebrew.po
+trans.nn = norwegian.po
+trans.sl = slovenian.po
+trans.hr = croatian.po
+trans.nl = dutch.po
+trans.fr = french.po
+trans.hu = hungarian.po
+trans.ko = korean.po
+trans.pl = polish.po
+trans.zh_TW = tradchinese.po
+trans.zh_CN = simpchinese.po
+minimum_perc = 50
