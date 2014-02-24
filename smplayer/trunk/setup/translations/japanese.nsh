@@ -51,7 +51,7 @@ ${LangFileString} Section_IconThemes_Desc "SMPlayer の追加アイコン テー
 ${LangFileString} Section_Translations "言語"
 ${LangFileString} Section_Translations_Desc "SMPlayer の英語以外のの言語ファイルです。"
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "前のインストールから残っている SMPlayer の環境設定を削除します。"
 
 ${LangFileString} MPlayer_Codec_Msg "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4 などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
 
@@ -66,8 +66,8 @@ ${LangFileString} Reinstall_Uninstall "既存のインストールをアンイ�
 ${LangFileString} Reinstall_Msg3_1 "続行するには [開始] をクリックします。"
 ${LangFileString} Reinstall_Msg3_2 "続行するには [次へ] をクリックします。"
 ${LangFileString} Reinstall_Msg3_3 "続行するには [アンインストール] をクリックします。"
-${LangFileString} Reinstall_Msg4 "インストール設定を変更する"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg4 "インストール構成を変更する"
+${LangFileString} Reinstall_Msg5 "SMPlayer の設定をリセットする"
 
 ${LangFileString} Type_Reinstall "再インストール"
 ${LangFileString} Type_Downgrade "ダウングレード"
@@ -85,7 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "MPlayer コーデックのインストー�
 ${LangFileString} Uninstaller_No_Admin "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
 ${LangFileString} Uninstaller_Aborted "アンインストールはユーザーによって中止されました。"
 ${LangFileString} Uninstaller_NotInstalled "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。$\r$\nこのまま続行しますか (推奨されません)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer のインストールが見つかりません。"
 ${LangFileString} Uninstaller_64bitOnly "このインストールは 64 ビットの Windows でのみアンインストールできます。"
 
 ; Vista & Later Default Programs Registration
