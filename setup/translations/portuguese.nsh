@@ -8,8 +8,8 @@
 
 ; Startup
 ${LangFileString} Installer_Is_Running "O instalador já está em execução."
-${LangFileString} Installer_No_Admin "Tem que iniciar a sessão como administrador para instalar este programa."
-${LangFileString} SMPlayer_Is_Running "Já existe uma instância SMPlayer em execução. Feche o SMPlayer e tente novamente."
+${LangFileString} Installer_No_Admin "Tem que iniciar sessão como administrador para instalar este programa."
+${LangFileString} SMPlayer_Is_Running "Existe uma instância SMPlayer em execução. Feche-a e tente novamente."
 
 ${LangFileString} OS_Not_Supported "O sistema operativo não é suportado.$\nO SMPlayer ${SMPLAYER_VERSION} requer, pelo menos, o Windows XP para funcionar corretamente.$\nQuer mesmo continuar com a instalação?"
 ${LangFileString} Win64_Required "Para instalar esta versão, tem que possuir um sistema de 64 bits."
@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; necessário para a reprodução
 
 ${LangFileString} Section_MPlayerCodecs "Codificadores"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Os codificadores binários não são suportados por esta versão."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codificadores opcionais para o MPlayer. (Precisa de uma ligação à Internet)"
 !endif
@@ -51,9 +51,9 @@ ${LangFileString} Section_IconThemes_Desc "Ícones adicionais para o SMPlayer."
 ${LangFileString} Section_Translations "Idiomas"
 ${LangFileString} Section_Translations_Desc "Idiomas adicionais para o SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Elimina as configurações existentes do SMPlayer."
+${LangFileString} Section_ResetSettings_Desc "Elimina as preferências de uma anterior instalação do SMPlayer."
 
-${LangFileString} MPlayer_Codec_Msg "O pacote de codificadores adiciona suporte para os formatos que ainda não foram implementados no MPlayer, tais como as novas variantes RealVideo e outros formatos.$\nEstes codificadores não são necessários para os formatos mais comuns como DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPlayer_Codec_Msg "O pacote de codificadores adiciona suporte aos formatos que ainda não foram implementados no MPlayer, tais como as novas variantes RealVideo e outros formatos menos utilizados.$\nEstes codificadores não são necessários para os formatos mais comuns como DVDs, MPEG-1/2/4, etc."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "Selecione o tipo de instalação"
@@ -62,7 +62,7 @@ ${LangFileString} Reinstall_Header_SubText "Selecione o modo de substituição o
 ${LangFileString} Reinstall_Msg1 "Você possui uma instalação do SMPlayer nesta pasta:"
 ${LangFileString} Reinstall_Msg2 "Por favor escolha o método a utilizar:"
 ${LangFileString} Reinstall_Overwrite "Substituir ($Inst_Type) a instalação existente"
-${LangFileString} Reinstall_Uninstall "Desinstalar (remove) a instalação existente"
+${LangFileString} Reinstall_Uninstall "Desinstalar (remover) a instalação existente"
 ${LangFileString} Reinstall_Msg3_1 "Clique Iniciar para continuar."
 ${LangFileString} Reinstall_Msg3_2 "Clique Seguinte para continuar."
 ${LangFileString} Reinstall_Msg3_3 "Clique Desinstalar para continuar."
@@ -85,11 +85,11 @@ ${LangFileString} Codecs_Inst_Failed "Falha ao instalar os codificadores MPlayer
 ${LangFileString} Uninstaller_No_Admin "Esta aplicação só pode ser desinstalada no modo de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalação cancelada pelo utilizador."
 ${LangFileString} Uninstaller_NotInstalled "Parece que o SMPlayer não está instalado no diretório '$INSTDIR'.$\r$\nContinuar (não recomendado)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
+${LangFileString} Uninstaller_InvalidDirectory "Não foi encontrada uma instalação do SMPlayer."
 ${LangFileString} Uninstaller_64bitOnly "Esta instalação só pode ser desinstalada num sistema Windows de 64 bits."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "O SMPlayer é uma interface gráfica para o MPlayer, com funções simples como a reprodução de vídeos, DVDs e VCDs bem como outras mais avançadas(suporte a filtros MPlayer, listas e mais)."
+${LangFileString} Application_Description "O SMPlayer é uma interface gráfica para o MPlayer, com funções simples como a reprodução de vídeos, DVDs e VCDs bem como outras mais avançadas (suporte a filtros MPlayer, listas e mais)."
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "A copiar codificadores da instalação anterior..."
@@ -97,6 +97,6 @@ ${LangFileString} Info_Codecs_Restore "A restaurar codificadores da instalação
 ${LangFileString} Info_Del_Files "A eliminar ficheiros..."
 ${LangFileString} Info_Del_Registry "A eliminar chaves de registo..."
 ${LangFileString} Info_Del_Shortcuts "A eliminar atalhos..."
-${LangFileString} Info_Rest_Assoc "A restaurar as associações de ficheiros..."
-${LangFileString} Info_RollBack "A reverter as alterações..."
+${LangFileString} Info_Rest_Assoc "A restaurar associações de ficheiros..."
+${LangFileString} Info_RollBack "A reverter alterações..."
 ${LangFileString} Info_Files_Extract "A extrair ficheiros..."

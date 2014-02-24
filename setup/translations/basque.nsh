@@ -17,7 +17,7 @@ ${LangFileString} Existing_32bitInst "32-biteko SMPlayer ezarpen bat dago. Lehen
 ${LangFileString} Existing_64bitInst "64-biteko SMPlayer ezarpen bat dago. Lehenik 64-biteko SMPlayer kendu behar duzu."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Title "$(^NameDA) Ezarpena"
 ${LangFileString} WelcomePage_Text "Ezartzaileak $(^NameDA)-ren ezarpenean zehar gidatuko zaitu.$\r$\n$\r$\nGomendagarria da SMPlayer eskabide guztiak istea ezarpena hasi aurretik. Honek zure ordenagailua berrabiarazi gabe programa agiri garrantzitsuak eguneratu ahal izatea egiten du.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
@@ -38,15 +38,15 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; beharrezkoa irakurketarako."
 
 ${LangFileString} Section_MPlayerCodecs "Kodek Binarioak"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Kodek binarioak ez daude sostengatuta bertsio honetan."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayer-entzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
 !endif
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
 
-${LangFileString} Section_IconThemes "Ikur Gaiak"
-${LangFileString} Section_IconThemes_Desc "SMPlayer-entzako ikur gai gehigarriak."
+${LangFileString} Section_IconThemes "Ikur Azalgaiak"
+${LangFileString} Section_IconThemes_Desc "SMPlayer-entzako ikur azalgai gehigarriak."
 
 ${LangFileString} Section_Translations "Hizkuntzak"
 ${LangFileString} Section_Translations_Desc "SMPlayer-entzako Ez Ingelerazko hizkuntza agiriak."
@@ -59,7 +59,7 @@ ${LangFileString} MPlayer_Codec_Msg "Kodek binario paketeek jatorrizkoan ez daud
 ${LangFileString} Reinstall_Header_Text "Hautatu Ezarpen Mota"
 ${LangFileString} Reinstall_Header_SubText "Hautatu Gainidatzi edo Kendu modua."
 
-${LangFileString} Reinstall_Msg1 "Jadanik baduzu SMPlayerren ezarpen bat agiritegi honetan:"
+${LangFileString} Reinstall_Msg1 "Jadanik baduzu SMPlayer-en ezarpen bat agiritegi honetan:"
 ${LangFileString} Reinstall_Msg2 "Mesedez hautatu nola jarraitu:"
 ${LangFileString} Reinstall_Overwrite "Gainidatzi ($Inst_Type) dagoen ezarpena"
 ${LangFileString} Reinstall_Uninstall "Kendu (ezabatu) dagoen ezarpena"
@@ -85,18 +85,18 @@ ${LangFileString} Codecs_Inst_Failed "Hutsegitea MPlayer kodekak ezartzerakoan."
 ${LangFileString} Uninstaller_No_Admin "Ezarpen hau administratzaile eskubidea duen erabiltzaileak bakarrik kendu dezake."
 ${LangFileString} Uninstaller_Aborted "Kentzea erabiltzaileak utzita."
 ${LangFileString} Uninstaller_NotInstalled "Ez da agertzen SMPlayer zuzenbidean ezarrita dagoenik '$INSTDIR'.$\r$\nJarraitu horrela ere (ez da gomendagarria)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
-${LangFileString} Uninstaller_64bitOnly "Ezarpen hau 64-biteko Windowsetik bakarrik kendu daiteke."
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer ezarpena ez da aurkitu."
+${LangFileString} Uninstaller_64bitOnly "Ezarpen hau 64-biteko Windows-etik bakarrik kendu daiteke."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer aurrealde-amaiera oso bat da MPlayer-entzat, ohinarrizko eginkizunetatik: Bideo, DVD, VCD irakurketatik, eginkizun aurreratuenetarainok: MPlayer iragazkiak, edl zerrenda, eta gehiago."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Kodekak babeskopiatzenaurreko ezarpenetik..."
-${LangFileString} Info_Codecs_Restore "Kodekak leheneratzen aurreko ezarpenetik..."
+${LangFileString} Info_Codecs_Backup "Kodekak aurreko ezarpenetik babeskopiatzen..."
+${LangFileString} Info_Codecs_Restore "Kodekak aurreko ezarpenetik leheneratzen..."
 ${LangFileString} Info_Del_Files "Agiriak Ezabatzen..."
 ${LangFileString} Info_Del_Registry "Erresgistro Giltzak Ezabatzen..."
 ${LangFileString} Info_Del_Shortcuts "Lasterbideak Ezabatzen..."
-${LangFileString} Info_Rest_Assoc "Agiri elkarketak birrezartzen..."
+${LangFileString} Info_Rest_Assoc "Agiri elkarketak leheneratzen..."
 ${LangFileString} Info_RollBack "Aldaketak desegiten..."
 ${LangFileString} Info_Files_Extract "Agiriak ateratzen..."
