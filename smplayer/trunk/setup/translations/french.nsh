@@ -22,7 +22,7 @@ ${LangFileString} WelcomePage_Text "Ce programme va vous guider à travers l'ins
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Raccourcis"
-  ${LangFileString} MPlayerGroupTitle "Composants de MPlayer"
+${LangFileString} MPlayerGroupTitle "Composants de MPlayer"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (requis)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, bibliothèques partagées et documentation."
