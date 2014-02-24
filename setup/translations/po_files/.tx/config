@@ -29,5 +29,5 @@ trans.ko = korean.po
 trans.pl = polish.po
 trans.zh_TW = tradchinese.po
 trans.zh_CN = simpchinese.po
-trans.pt_BR = portuguesebrasil.po
+trans.pt_BR = portuguesebrazil.po
 minimum_perc = 50
