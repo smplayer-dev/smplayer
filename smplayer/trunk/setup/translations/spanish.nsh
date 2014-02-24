@@ -85,7 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Ha fallado la instalación del los códecs
 ${LangFileString} Uninstaller_No_Admin "Este programa sólo se puede desinstalar por un usuario con permisos de administrador."
 ${LangFileString} Uninstaller_Aborted "Desinstalación cancelada por el usuario."
 ${LangFileString} Uninstaller_NotInstalled "No parece que el SMPlayer esté instalado en el directorio '$INSTDIR'.$\r$\n¿Continuar de todos modos (no recomendado)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
+${LangFileString} Uninstaller_InvalidDirectory "No se ha encontrado una instalación de SMPlayer."
 ${LangFileString} Uninstaller_64bitOnly "Esta instalación sólo se puede desinstalar en Windows de 64 bits."
 
 ; Vista & Later Default Programs Registration
