@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# MinZhang <zm1990s@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2014-02-24 21:40+0000\n"
+"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/smplayer/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "安装程序已在运行。"
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "安装此程序时，您必须以管理员身份登录。"
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "SMPlayer 的实例正在运行。请退出 SMPlayer，然后重试。"
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "不支持的操作系统。[:n:]SMPlayer ${SMPLAYER_VERSION} 至少需要 Windows XP，其在您的系统上可能无法正常工作。[:n:]您真的要继续安装吗?"
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "安装此软件需要 64 位 Windows 操作系统。"
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "SMPlayer 的 32 位安装已存在。您必须先卸载 32 位的 SMPlayer。"
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "SMPlayer 的 64 位安装已存在。您必须先卸载 64 位的 SMPlayer。"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) 设置"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "设置程序将引导您完成安装 $(^NameDA)。[:r:][:n:][:r:][:n:]建议您在开始安装前关闭所有的 SMPlayer 实例。这将使其能够更新相关的程序文件，而无需重新启动您的计算机。[:r:][:n:][:r:][:n:]$_CLICK"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "快捷方式"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "MPlayer 组件"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (必需)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer、共享库和文档。"
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "桌面"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "创建 SMPlayer 桌面快捷方式。"
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "开始菜单"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "创建 SMPlayer 开始菜单项。"
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (必需)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer；播放所必需的 。"
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "二进制编解码器"
+
+# Section_MPlayerCodecs_Desc
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "适用于 MPlayer 的可选解码器。(安装需要使用网络连接)"
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "MPlayer 的配套程序，可以用来编码或转换支持的音频/视频流。"
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "图标主题"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "适用于 SMPlayer 的附加图标主题。"
+
+# Section_Translations
+msgid "Languages"
+msgstr "语言"
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "适用于 SMPlayer 的非英语语言文件。"
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "删除上次安装的残留配置"
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr "二进制编解码器包可增加对新 RealVideo 变种和很多不常见格式的支持。[:n:]请注意，播放像 DVD、MPEG-1/2/4 这样平时常见的格式无需安装本编解码器包。"
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "选择安装类型"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "选择『覆盖』或『卸载』模式。"
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "您有一个现有的 SMPlayer 安装位于以下文件夹:"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "请选择如何继续:"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "覆盖($Inst_Type)现有的安装"
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "卸载(移除)现有的安装"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "单击『开始』继续。"
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "单击『下一步』继续。"
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "单击『卸载』继续。"
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "更改安装设置"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "重置 SMPlayer 设置"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "重新安装"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "降级"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "升级"
+
+# StartBtn
+msgid "Start"
+msgstr "开始"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "正在下载 MPlayer 编解码器..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "MPlayer 编解码器没有成功安装。是否重试?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "无法下载 MPlayer 编解码器: 『$R0』。"
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "无法安装 MPlayer 编解码器。"
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "安装只能由拥有管理员权限的用户卸载。"
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "卸载被用户终止。"
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "没有发现 SMPlayer 被安装在目录『$INSTDIR』中。[:r:][:n:]仍然继续吗(不推荐)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "SMPlayer 安装未找到"
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "安装只能在 64 位 Windows 中卸载。"
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer 是一个完备的 MPlayer 前端，从像播放视频、DVD、VCD 这样的基本功能，到支持 MPlayer 过滤器、EDL 列表等更多的高级功能。"
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "正在从以前的安装中备份解码器..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "正在从以前的安装中恢复编解码器..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "正在删除文件..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "正在删除注册表项..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "正在删除快捷方式..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "正在恢复文件关联..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "正在回滚更改..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "正在提取文件..."
+
+# Section_MPlayerCodecs_Desc
+msgid "Binary codecs are not supported in this version."
+msgstr ""

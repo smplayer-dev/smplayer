@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2014-02-24 21:40+0000\n"
+"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/smplayer/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Instalátor již běží."
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Instalaci tohoto programu je potřeba provést s právy administrátora."
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr ""
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Pro instalaci tohoto software je zapotřebí mít 64-bitový oprační systém Windows."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "Máte nainstalovánu 32-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 32-bitový SMPlayer."
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "Máte nainstalovánu 64-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 64-bitový SMPlayer."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr ""
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Zástupci"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "Součásti MPlayeru"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (vyžadován)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, sdílené knihovny a dokumentace."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Plocha"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Vytvoří zástupce SMPlayeru na ploše."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Nabídka Start"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Vytvoří zástupce SMPlayeru v nabídce Start."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (vyžadován)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; vyžadován pro přehrávání."
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Binární kodeky"
+
+# Section_MPlayerCodecs_Desc
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "Dodatkový program pro MPlayer, který se využívá k enkódování nebo transformaci audio/video souborů."
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Témata ikon"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Přídavná témata ikon pro SMPlayer."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Lokalizace"
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Neanglické lokalizace."
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr ""
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr "Binární kodeky podporují formáty, které zatím nejsou implementovány nativně, např. novější varianty RealVideo a jiné málo používané formáty.[:n:]Pro většinu běžných formátů nejsou potřeba (DVD, MPEG-1/2/4, apod.)."
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Vyberte typ instalace"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Vyberte přepsání nebo odinstalaci."
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "SMPlayer již máte nainstalován v tomto adresáři:"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Prosím vyberte jak pokračovat:"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Přepsat ($Inst_Type) existující instalaci"
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Odinstalovat (odebrat) existující instalaci"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Stiskněte Start jste-li připraveni."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Stiskněte Další jste-li připraveni."
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Stiskněte Odinstalovat jste-li připraveni."
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Změnit nastavení instalace"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr ""
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "reinstalovat"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr ""
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr ""
+
+# StartBtn
+msgid "Start"
+msgstr ""
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "Instaluji kodeky MPlayeru..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "Kodeky MPlayeru se nepovedlo nainstalovat. Zkusit znovu?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "Nepovedlo se stáhnout kodeky MPlayeru: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "Nepovedlo se nainstalovat kodeky MPlayeru."
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "Odinstalaci je potřeba provést s právy administrátora."
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Odinstalace přerušena uživatelem."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "V adresáři '$INSTDIR' není SMPlayer nainstalován .[:r:][:n:]Pokračovat (nedoporučeno)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr ""
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Tato instalace jde odinstalovat pouze na 64-bitové verzi Windows."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer je kompletní frontend pro MPlayer, podporuje vše od základních funkcí jako přehrávání videí, DVD, VCD až po pokročilé funkce jako filtry MPlayeru, edl a více."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr ""
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr ""
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Mažu soubory..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Mažu záznamy registru..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Mažu zástupce..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "Obnovuji asociace souborů..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "Beru zpět změny..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Extrahuji soubory..."
+
+# Section_MPlayerCodecs_Desc
+msgid "Binary codecs are not supported in this version."
+msgstr ""
