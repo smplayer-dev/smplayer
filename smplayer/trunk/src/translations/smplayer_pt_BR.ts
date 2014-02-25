@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt_BR">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -552,7 +550,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Personalizado</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
@@ -2743,10 +2741,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda(s) extraída</numerusform>
-            <numerusform>%n legenda(s) extraída</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda(s) extraída</numerusform><numerusform>%n legenda(s) extraída</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2844,7 +2839,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o arquivo transferido
@@ -5381,17 +5376,17 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equalizador de áudio global</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se essa opção estiver marcada, todos os arquivos de mídia compartilham os mesmos níveis do equalizador de áudio.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se não estiver marcada, os níveis do equalizador de áudio são salvos junto com cada arquivo e recarregados quando o arquivo for reproduzido.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1067"/>
@@ -5446,7 +5441,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="625"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;qualizador de áudio global</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="744"/>
@@ -7663,7 +7658,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="234"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilitar fontes do &amp;Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="505"/>
@@ -7892,17 +7887,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilitar fontes do Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se essa opção estiver habilitada, as fontes do sistema do Windows estarão disponíveis para as legendas. Note que há um inconveniente: um cache de fontes terá que ser criado, o que pode levar algum tempo.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se essa opção não estiver marcada, então apenas algumas fontes que vêm com o SMPlayer poderão ser usadas, o que será mais rápido.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
@@ -8582,19 +8577,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo(s)</numerusform>
-            <numerusform>%n segundo(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto(s)</numerusform>
-            <numerusform>%n minuto(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>

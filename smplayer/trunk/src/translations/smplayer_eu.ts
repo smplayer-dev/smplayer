@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -552,7 +550,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Norberea</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
@@ -2743,10 +2741,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n azpidatzi aterata</numerusform>
-            <numerusform>%n azpidatzi aterata</numerusform>
-        </translation>
+        <translation><numerusform>%n azpidatzi aterata</numerusform><numerusform>%n azpidatzi aterata</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2844,7 +2839,7 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ezin izan da jeitsitako agiria
@@ -5381,17 +5376,17 @@ Adibidez: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio ekualizagailu orokorra</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hautatzen bada, multimedia agiri guztiek audio ekualizagailua elkarbanatuko dute.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez bada hautatzen, audio ekualizagailu balioak agiri bakoitzeko gordetzen dira eta berriro gertatu agiria geroago irakurtzen denean.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1067"/>
@@ -5446,7 +5441,7 @@ Adibidez: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="625"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;udio ekualizagailu orokorra</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="744"/>
@@ -7663,7 +7658,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.ui" line="234"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu &amp;Windows hizkiak</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="505"/>
@@ -7892,17 +7887,17 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu Windows hizkiak</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaitzen bada Windows sistemako hizkiak eskuragarri egongo dira azpidatzietarako. Alde txar bat du: hizki katxe bat sortu behar da eta honek denbora apur bat hartu dezake.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau ez bada hautatzen SMPlayer-ekin datozen hizki gutxi batzuk bakarrik erabili daitezke, baina azkarra da.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
@@ -8582,19 +8577,13 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundu</numerusform>
-            <numerusform>%n segundu</numerusform>
-        </translation>
+        <translation><numerusform>%n segundu</numerusform><numerusform>%n segundu</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutu</numerusform>
-            <numerusform>%n minutu</numerusform>
-        </translation>
+        <translation><numerusform>%n minutu</numerusform><numerusform>%n minutu</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
