@@ -141,7 +141,6 @@ ren %SMPLAYER_PORTABLE_DIR%\smplayer.exe smplayer.bak
 ren %SMPLAYER_PORTABLE_DIR%\smtube.exe smtube.bak
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe mplayer.exe.bak32
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer64.exe mplayer.exe
-ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config config.bak
 
 echo.
 echo Creating screenshots dir...
@@ -173,9 +172,6 @@ echo.
 echo Creating mplayer config...
 echo.
 
-echo ## MPlayer Windows configuration> %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
-echo.>> %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
-echo subfont=c:\windows\fonts\arial.ttf>> %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
 echo ^<cachedir^>../fontconfig^</cachedir^>> %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
 
 echo.
@@ -200,11 +196,9 @@ del %SMPLAYER_PORTABLE_DIR%\smplayer.exe
 del %SMPLAYER_PORTABLE_DIR%\smtube.exe
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe mplayer64.exe
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe.bak32 mplayer.exe
-del %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config
 del %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
 ren %SMPLAYER_PORTABLE_DIR%\smplayer.bak smplayer.exe
 ren %SMPLAYER_PORTABLE_DIR%\smtube.bak smtube.exe
-ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer\config.bak config
 ren %SMPLAYER_PORTABLE_DIR% smplayer-build64
 
 goto end
