@@ -1,5 +1,60 @@
 [b]Version 0.8.7[/b]:
 
+(2014-02-20)
+ * Add more media keys as shortcuts.
+
+(2014-02-09)
+ * Add the option 'Global audio equalizer' in preferences -> general
+   -> audio.
+ * (Windows) Now it's possible to open Windows shortcuts (symlinks).
+
+(2014-02-06)
+ * Add more presets to the audio equalizer.
+ * (Windows) Add an option in preferences -> subtitles to enable or
+   disable the use of the windows font directory.
+   Disabling this option prevents the annoying font scanning.
+
+(2014-01-20)
+ * Don't ignore the wheel event in the timeslider.
+ * Don't display the resolution of the video in the statusbar if the
+   width or height is 0.
+
+(2014-01-19)
+ * New option min_step for smplayer.ini (section [General]).
+   Sets the step value for the actions that increase or
+   decrease the volume, contrast, brightness...
+
+(2014-01-07)
+ * Add an option in preferences -> interface to set the time
+   to hide the floating control.
+
+(2013-12-20)
+ * Add the option "Show only when moving the mouse to the bottom of the screen"
+   in preferences -> interface -> floating control.
+
+(2013-12-11)
+ * Use -noflip-hebrew when using -ass. It seems to be necessary to
+   display arabic subtitles correctly.
+
+(2013-12-09)
+ * Add option for aspect ratio 11:8.
+
+(2013-11-19)
+ * (Experimental) Add an option in preferences -> advanced to use the
+   lavf demuxer by default.
+
+(2013-11-12)
+ * Add an option in preferences to enable or disable the delay of
+   the mouse left button.
+
+(2013-11-11)
+ * Avoid that the action for left button of the mouse is activated with a
+   double click.
+ * (Skingui) Update the volume control when mute is changed.
+
+(2013-11-10)
+ * Fix the option "Move the window when the video area is dragged".
+
 (2013-11-06 - 2013-11-08)
  * Add a basic support to play blurays.
 
@@ -16,7 +71,7 @@
    This feature can be turned off by setting autoload_m4a to false in 
    smplayer.ini (no option in the GUI yet).
 
-   Notice: you need a recent version of mplayer or mplayer2. With older 
+   Notice: you need a recent version of mplayer or mplayer2. With older
    versions seeking don't work with these files.
 
 (2013-10-30 - 2013-11-05)
