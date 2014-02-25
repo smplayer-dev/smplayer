@@ -4,7 +4,7 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
-!insertmacro LANGFILE "PortugueseBrazil" "Português (Brasil)"
+!insertmacro LANGFILE "PortugueseBR" "Português (Brasil)"
 
 ; Startup
 ${LangFileString} Installer_Is_Running "O instalador já está em execução."
