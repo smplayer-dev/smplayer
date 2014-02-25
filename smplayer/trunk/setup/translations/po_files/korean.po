@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-24 21:40+0000\n"
-"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2014-02-25 11:45+0000\n"
+"Last-Translator: sheppaul <sheppaul@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/smplayer/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -291,4 +291,4 @@ msgstr "파일 압축을 해제하는 중..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "이 버전에서 바이너리 코덱은 지원하지 않습니다."

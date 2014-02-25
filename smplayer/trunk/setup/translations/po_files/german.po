@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-24 21:40+0000\n"
-"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2014-02-25 14:20+0000\n"
+"Last-Translator: to_ba\n"
 "Language-Team: German (http://www.transifex.com/projects/p/smplayer/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,7 @@ msgstr "Sie müssen als Administrator angemeldet sein, um dieses Programm zu ins
 # SMPlayer_Is_Running
 msgid ""
 "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr ""
+msgstr "Eine Instanz vom SMPlayer läuft. Bitte SMPlayer beenden und erneut versuchen."
 
 # OS_Not_Supported
 msgid ""
@@ -40,19 +40,19 @@ msgstr ""
 # Win64_Required
 msgid ""
 "A 64-bit Windows operating system is required to install this software."
-msgstr ""
+msgstr "Ein 64-Bit-Windows-Betriebssystem ist erforderlich, um diese Software zu installieren."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall "
 "32-bit SMPlayer first."
-msgstr ""
+msgstr "Es existiert eine vorhandene 32-Bit-Installation vom SMPlayer. Sie müssen zuerst den 32-Bit-SMPlayer deinstallieren."
 
 # Existing_64bitInst
 msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall "
 "64-bit SMPlayer first."
-msgstr ""
+msgstr "Es existiert eine vorhandene 64-Bit-Installation vom SMPlayer. Sie müssen zuerst den 64-Bit-SMPlayer deinstallieren."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
@@ -156,11 +156,11 @@ msgstr "Installationstyp auswählen"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr "Überschreiben- oder Entfernenmodus auswählen"
+msgstr "Überschreiben- oder Deinstallieren-Modus auswählen"
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr ""
+msgstr "Sie haben eine vorhandene Installation, vom SMPlayer, im folgenden Ordner:"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
@@ -172,23 +172,23 @@ msgstr ""
 
 # Reinstall_Uninstall
 msgid "Uninstall (remove) the existing installation"
-msgstr ""
+msgstr "Die vorhandene Installation deinstallieren (entfernen)"
 
 # Reinstall_Msg3_1
 msgid "Click Start when ready to proceed."
-msgstr ""
+msgstr "Auf Start klicken, wenn Sie bereit sind, um fortzufahren."
 
 # Reinstall_Msg3_2
 msgid "Click Next when ready to proceed."
-msgstr ""
+msgstr "Auf Weiter klicken, wenn Sie bereit sind, um fortzufahren."
 
 # Reinstall_Msg3_3
 msgid "Click Uninstall when ready to proceed."
-msgstr ""
+msgstr "Auf Deinstallieren klicken, wenn Sie bereit sind, um fortzufahren."
 
 # Reinstall_Msg4
 msgid "Change Installation Settings"
-msgstr ""
+msgstr "Installationseinstellungen ändern"
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -230,7 +230,7 @@ msgstr "Fehler beim Installieren der MPlayer-Codecs."
 msgid ""
 "This installation can only be uninstalled by a user with administrator "
 "privileges."
-msgstr "Diese Installation kann nur von einem Benutzer mit Administrationsrechten entfernt werden."
+msgstr "Diese Installation kann nur von einem Benutzer mit Administrationsrechten deinstalliert werden."
 
 # Uninstaller_Aborted
 msgid "Uninstall aborted by user."
@@ -248,7 +248,7 @@ msgstr "SMPlayer-Installation nicht gefunden"
 
 # Uninstaller_64bitOnly
 msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
+msgstr "Diese Installation kann nur auf einem 64-Bit-Windows deinstalliert werden."
 
 # Application_Description
 msgid ""
@@ -259,11 +259,11 @@ msgstr "Der SMPlayer ist eine komplette grafische Oberfläche für den MPlayer, 
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr ""
+msgstr "Codecs aus vorheriger Installation sichern …"
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
-msgstr ""
+msgstr "Codecs aus vorheriger Installation wiederherstellen …"
 
 # Info_Del_Files
 msgid "Deleting Files..."
@@ -291,4 +291,4 @@ msgstr "Dateien werden entpackt …"
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "Binär-Codecs werden in dieser Version nicht unterstützt."

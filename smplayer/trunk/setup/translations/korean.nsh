@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; 재생에 필요함."
 
 ${LangFileString} Section_MPlayerCodecs "바이너리 코덱"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "이 버전에서 바이너리 코덱은 지원하지 않습니다."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer용 추가 코덱. (설치시 인터넷 연결이 필요함)"
 !endif

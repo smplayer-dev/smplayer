@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "再生のために必要な MPlayer で�
 
 ${LangFileString} Section_MPlayerCodecs "バイナリ コーデック"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "バイナリ コーデックはこのバージョンではサポートされていません。"
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
 !endif

@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer；播放所必需的 。"
 
 ${LangFileString} Section_MPlayerCodecs "二进制编解码器"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "此版本不支持二进制解码器"
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "适用于 MPlayer 的可选解码器。(安装需要使用网络连接)"
 !endif
