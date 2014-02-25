@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-24 21:40+0000\n"
-"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2014-02-25 12:37+0000\n"
+"Last-Translator: MinZhang <zm1990s@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/smplayer/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -291,4 +291,4 @@ msgstr "正在提取文件..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "此版本不支持二进制解码器"

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-24 21:40+0000\n"
-"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2014-02-25 12:46+0000\n"
+"Last-Translator: Xabier Aramendi <azpidatziak@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/projects/p/smplayer/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -291,4 +291,4 @@ msgstr "Agiriak ateratzen..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "Binario kodekak ez daude sostengatuta bertsio honetan."

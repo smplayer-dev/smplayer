@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; necessário para reprodução."
 
 ${LangFileString} Section_MPlayerCodecs "Codecs binários"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Codecs binários não são suportados nessa versão."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecs opcionais para o MPlayer. (Necessita conexão com a Internet para instalação)"
 !endif
