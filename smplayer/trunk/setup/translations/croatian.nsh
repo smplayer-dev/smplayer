@@ -7,96 +7,96 @@
 !insertmacro LANGFILE "Croatian" "Hrvatski"
 
 ; Startup
-${LangFileString} Installer_Is_Running "The installer is already running."
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
-${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+${LangFileString} Installer_Is_Running "Instalacijski program je već pokrenut."
+${LangFileString} Installer_No_Admin "Morate biti prijavljeni kao administrator kada instaliravate ovaj program."
+${LangFileString} SMPlayer_Is_Running "Primjerak SMPlayera je pokrenut. Zatvorite SMplayer i pokušajte ponovno."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
-${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+${LangFileString} OS_Not_Supported "Nepodržan operativni sustav.$\nSMPlayer ${SMPLAYER_VERSION} zahtijeva minimum Windows XP i možda neće raditi ispravno na vašem sustavu.$\nSigurno želite nastaviti ovu instalaciju?"
+${LangFileString} Win64_Required "64-bitni Windows operativni sustav je potreban za instalaciju ovog softvera."
+${LangFileString} Existing_32bitInst "Trenutno je instalirana 32-bitna instalacija SMPlayera. Najprije morate deinstalirati 32-bitni SMPlayer."
+${LangFileString} Existing_64bitInst "Trenutno je instalirana 64-bitna instalacija SMPlayera. Najprije morate deinstalirati 64-bitni SMPlayer."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) program instalacije"
+${LangFileString} WelcomePage_Text "Program instalacije će vas voditi kroz instalaciju $(^NameDA).$\r$\n$\r$\nPreporučljivo je da zatvorite sve primjerke SMPlayera prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.$\r$\n$\r$\n$_KLIKNI"
 
 ; Components Page
-${LangFileString} ShortcutGroupTitle "Shortcuts"
-${LangFileString} MPlayerGroupTitle "MPlayer Components"
+${LangFileString} ShortcutGroupTitle "Prečaci"
+${LangFileString} MPlayerGroupTitle "Mplayer komponente"
 
-${LangFileString} Section_SMPlayer "SMPlayer (required)"
-${LangFileString} Section_SMPlayer_Desc "SMPlayer, shared libraries, and documentation."
+${LangFileString} Section_SMPlayer "SMPlayer (potrebno)"
+${LangFileString} Section_SMPlayer_Desc "SMPlayer, zajedeničke knjižnice i dokumentacija."
 
-${LangFileString} Section_DesktopShortcut "Desktop"
-${LangFileString} Section_DesktopShortcut_Desc "Creates a shortcut to SMPlayer on the desktop."
+${LangFileString} Section_DesktopShortcut "Radna površina"
+${LangFileString} Section_DesktopShortcut_Desc "Stvara SMplayer prečac na radnu površinu."
 
-${LangFileString} Section_StartMenu "Start Menu"
-${LangFileString} Section_StartMenu_Desc "Create a Start Menu entry for SMPlayer."
+${LangFileString} Section_StartMenu "Start izbornik"
+${LangFileString} Section_StartMenu_Desc "Stvara stavku Start izbornika za SMPlayer."
 
-${LangFileString} Section_MPlayer "MPlayer (required)"
-${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback."
+${LangFileString} Section_MPlayer "MPlayer (potrebno)"
+${LangFileString} Section_MPlayer_Desc "MPlayer; potrebno za reprodukciju."
 
-${LangFileString} Section_MPlayerCodecs "Binary Codecs"
+${LangFileString} Section_MPlayerCodecs "Binarni kôdeki"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binarni kôdeki nisu podržani  u ovoj inačici."
 !else
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} Section_MPlayerCodecs_Desc "Neobavezni kôdeki za MPlayer. (Potrebna je internet veza za instalaciju)"
 !endif
 
-${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "Prateći program za MPlayer koji se može koristiti za enkôdiranje ili transformiranje podržanih zvučnih ili video streamova."
 
-${LangFileString} Section_IconThemes "Icon Themes"
-${LangFileString} Section_IconThemes_Desc "Additional icon themes for SMPlayer."
+${LangFileString} Section_IconThemes "Tema ikona"
+${LangFileString} Section_IconThemes_Desc "Dodatna tema ikona za SMPlayer."
 
-${LangFileString} Section_Translations "Languages"
-${LangFileString} Section_Translations_Desc "Non-English language files for SMPlayer."
+${LangFileString} Section_Translations "Jezici"
+${LangFileString} Section_Translations_Desc "Ne-engleske jezične datoteke za SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Briše SMPlayer osobitosti ostale od prijašnje instalacije."
 
-${LangFileString} MPlayer_Codec_Msg "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPlayer_Codec_Msg "Paket binarnih kôdeka daje podršku za kôdeke koji još nisu izvorno ugrađeni, Poput novijih inačica RealVidea i još mnogo neuobičajenih formata.$\nImajte na umu da nužno ne moraju reproducirati većinu uobičajenih formata poput DVD-a, MPEG-1/2/4, itd."
 
 ; Upgrade/Reinstall Page
-${LangFileString} Reinstall_Header_Text "Select Install Type"
-${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
+${LangFileString} Reinstall_Header_Text "Odaberite vrstu instalacije"
+${LangFileString} Reinstall_Header_SubText "Odaberite način prepisivanja ili deinstalacije."
 
-${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
-${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
-${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
-${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
-${LangFileString} Reinstall_Msg3_1 "Click Start when ready to proceed."
-${LangFileString} Reinstall_Msg3_2 "Click Next when ready to proceed."
-${LangFileString} Reinstall_Msg3_3 "Click Uninstall when ready to proceed."
-${LangFileString} Reinstall_Msg4 "Change Installation Settings"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg1 "Otkrivena je postojeća instalacija SMPlayera u sljedećoj mapi:"
+${LangFileString} Reinstall_Msg2 "Odaberite nastavak instalacije:"
+${LangFileString} Reinstall_Overwrite "Prepiši ($Inst_Type) preko postojeće instalacije"
+${LangFileString} Reinstall_Uninstall "Deinstaliraj (ukloni) postojeću instalaciju"
+${LangFileString} Reinstall_Msg3_1 "Kliknite 'Pokreni' kada ste spremni za nastavak."
+${LangFileString} Reinstall_Msg3_2 "Kliknite 'Sljedeće' kada ste spremni za nastavak."
+${LangFileString} Reinstall_Msg3_3 "Kliknite 'Deinstaliraj' kada ste spremni za nastavak."
+${LangFileString} Reinstall_Msg4 "Promijeni postavke instalacije"
+${LangFileString} Reinstall_Msg5 "Vrati na početno SMPlayer podešavanja"
 
-${LangFileString} Type_Reinstall "reinstall"
-${LangFileString} Type_Downgrade "downgrade"
-${LangFileString} Type_Upgrade "upgrade"
+${LangFileString} Type_Reinstall "reinstaliraj"
+${LangFileString} Type_Downgrade "nadogradi na stariju inačicu"
+${LangFileString} Type_Upgrade "nadogradi"
 
-${LangFileString} StartBtn "Start"
+${LangFileString} StartBtn "Pokreni"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "Downloading MPlayer Codecs..."
-${LangFileString} Codecs_DL_Retry "MPlayer codecs were not successfully installed. Retry?"
-${LangFileString} Codecs_DL_Failed "Failed to download MPlayer codecs: '$R0'."
-${LangFileString} Codecs_Inst_Failed "Failed to install MPlayer codecs."
+${LangFileString} Codecs_DL_Msg "Preuzimanje MPlayer kôdeka..."
+${LangFileString} Codecs_DL_Retry "MPlayer kôdeki nisu uspješno instalirani. Pokušaj ponovno?"
+${LangFileString} Codecs_DL_Failed "Neuspjelo preuzimanje MPlayer kôdeka: '$R0'."
+${LangFileString} Codecs_Inst_Failed "Neuspjelo instaliranje MPlayer kôdeka."
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "This installation can only be uninstalled by a user with administrator privileges."
-${LangFileString} Uninstaller_Aborted "Uninstall aborted by user."
-${LangFileString} Uninstaller_NotInstalled "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
-${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
+${LangFileString} Uninstaller_No_Admin "Ova instalaciju može deinstalirati samo korisnik s administratorskim ovlastima."
+${LangFileString} Uninstaller_Aborted "Deinstalaciju prekinuo korisnik."
+${LangFileString} Uninstaller_NotInstalled "Čini se da SMPlayer nije instaliran u direktoriju '$INSTDIR'.$\r$\nIpak nastavite (nije preporučljivo)?"
+${LangFileString} Uninstaller_InvalidDirectory "SMPlayer instalacija nije pronađena."
+${LangFileString} Uninstaller_64bitOnly "Ova instalacija jedino može biti deinstalirana na 64-bitnim Windowsima."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+${LangFileString} Application_Description "SMPlayer je potpuno sučelje za MPlayer, od osnovnih značajki poput reprodukcije video snimaka, DVD-a VCD-a, do naprednijih značajki poput podrške za MPlayer filtere, edl popise i još mnogo toga."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
-${LangFileString} Info_Del_Files "Deleting Files..."
-${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
-${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
-${LangFileString} Info_Rest_Assoc "Restoring file associations..."
-${LangFileString} Info_RollBack "Rolling back changes..."
-${LangFileString} Info_Files_Extract "Extracting files..."
+${LangFileString} Info_Codecs_Backup "Stvaranje sigurnosne kopije kôdeka prijašnjih instalacija..."
+${LangFileString} Info_Codecs_Restore "Vraćanje sigurnosne kopije kôdeka prijašnjih instalacija..."
+${LangFileString} Info_Del_Files "Brisanje datoteka..."
+${LangFileString} Info_Del_Registry "Brisanje ključeva registra..."
+${LangFileString} Info_Del_Shortcuts "Brisanje prečaca..."
+${LangFileString} Info_Rest_Assoc "Vraćanje na početno pridruživanja datoteka..."
+${LangFileString} Info_RollBack "Vraćanje promjena..."
+${LangFileString} Info_Files_Extract "Raspakiravanje datoteka..."

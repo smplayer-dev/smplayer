@@ -11,14 +11,14 @@ ${LangFileString} Installer_Is_Running "Das Installationsprogramm läuft bereits
 ${LangFileString} Installer_No_Admin "Sie müssen als Administrator angemeldet sein, um dieses Programm zu installieren."
 ${LangFileString} SMPlayer_Is_Running "Eine Instanz vom SMPlayer läuft. Bitte SMPlayer beenden und erneut versuchen."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported "Nicht unterstütztes Betriebssystem.$\nSMPlayer ${SMPLAYER_VERSION} benötigt mindestens Windows XP und kann nicht richtig auf Ihrem System funktionieren.$\nWollen Sie wirklich mit der Installation fortfahren?"
 ${LangFileString} Win64_Required "Ein 64-Bit-Windows-Betriebssystem ist erforderlich, um diese Software zu installieren."
 ${LangFileString} Existing_32bitInst "Es existiert eine vorhandene 32-Bit-Installation vom SMPlayer. Sie müssen zuerst den 32-Bit-SMPlayer deinstallieren."
 ${LangFileString} Existing_64bitInst "Es existiert eine vorhandene 64-Bit-Installation vom SMPlayer. Sie müssen zuerst den 64-Bit-SMPlayer deinstallieren."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA)-Einrichtung"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Der Einrichtungsassistent wird Sie durch die Installation von $(^NameDA) begleiten.$\r$\n$\r$\nEs wird empfohlen, alle Instanzen des SMPlayers vor dem Beginn der Instalation zu schließen. Dadurch wird es möglich, entsprechende Programm-Dateien, ohne einen Neustart des Computers zu aktualisieren.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Verknüpfung"
@@ -43,7 +43,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Binär-Codecs werden in dieser Ver
 ${LangFileString} Section_MPlayerCodecs_Desc "Optionale Codecs für MPlayer. (Internetverbindung benötigt für Installation)"
 !endif
 
-${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "Ein Begleiterprogramm zum MPlayer, das zum codieren oder zum transformieren von unterstützten Ton- oder Video-Strömen verwendet werden kann."
 
 ${LangFileString} Section_IconThemes "Symbolthemen"
 ${LangFileString} Section_IconThemes_Desc "Weitere Symbolthemen für den SMPlayer."
@@ -51,7 +51,7 @@ ${LangFileString} Section_IconThemes_Desc "Weitere Symbolthemen für den SMPlaye
 ${LangFileString} Section_Translations "Sprachen"
 ${LangFileString} Section_Translations_Desc "Nicht englische Sprachdateien für den SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Entfernt die SMPlayer-Einstellungen, welche von einer früheren Installation zurückgeblieben sind."
 
 ${LangFileString} MPlayer_Codec_Msg "Binärcodec-Pakete werden eingesetzt für Codecs, die noch nicht nativ implementiert sind – wie neuere Varianten von RealVideo und viele ungewöhnliche Formate.$\nHinweis: Die Pakete sind nicht notwendig, um die gängigsten Formate wiederzugeben (DVD, MPEG-1/2/4, usw.)"
 
@@ -61,7 +61,7 @@ ${LangFileString} Reinstall_Header_SubText "Überschreiben- oder Deinstallieren-
 
 ${LangFileString} Reinstall_Msg1 "Sie haben eine vorhandene Installation, vom SMPlayer, im folgenden Ordner:"
 ${LangFileString} Reinstall_Msg2 "Bitte wählen, wie fortgefahren werden soll:"
-${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
+${LangFileString} Reinstall_Overwrite "Die vorhandene Installation ($Inst_Type) überschreiben"
 ${LangFileString} Reinstall_Uninstall "Die vorhandene Installation deinstallieren (entfernen)"
 ${LangFileString} Reinstall_Msg3_1 "Auf Start klicken, wenn Sie bereit sind, um fortzufahren."
 ${LangFileString} Reinstall_Msg3_2 "Auf Weiter klicken, wenn Sie bereit sind, um fortzufahren."
@@ -98,5 +98,5 @@ ${LangFileString} Info_Del_Files "Dateien werden gelöscht …"
 ${LangFileString} Info_Del_Registry "Registrierungsschlüssel werden gelöscht …"
 ${LangFileString} Info_Del_Shortcuts "Verknüpfungen werden gelöscht …"
 ${LangFileString} Info_Rest_Assoc "Dateizuordnungen werden wiederhergestellt …"
-${LangFileString} Info_RollBack "Rolling back changes..."
+${LangFileString} Info_RollBack "Zurücksetzen der Änderungen..."
 ${LangFileString} Info_Files_Extract "Dateien werden entpackt …"

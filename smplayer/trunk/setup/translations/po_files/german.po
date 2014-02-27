@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# M T <michtrz@gmail.com>, 2014
 # to_ba, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-25 14:20+0000\n"
-"Last-Translator: to_ba\n"
+"PO-Revision-Date: 2014-02-27 00:57+0000\n"
+"Last-Translator: M T <michtrz@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/smplayer/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +36,7 @@ msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr ""
+msgstr "Nicht unterstütztes Betriebssystem.[:n:]SMPlayer ${SMPLAYER_VERSION} benötigt mindestens Windows XP und kann nicht richtig auf Ihrem System funktionieren.[:n:]Wollen Sie wirklich mit der Installation fortfahren?"
 
 # Win64_Required
 msgid ""
@@ -65,7 +66,7 @@ msgid ""
 "instances of SMPlayer before starting setup. This will make it possible to "
 "update relevant program files without having to reboot your "
 "computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
+msgstr "Der Einrichtungsassistent wird Sie durch die Installation von $(^NameDA) begleiten.[:r:][:n:][:r:][:n:]Es wird empfohlen, alle Instanzen des SMPlayers vor dem Beginn der Instalation zu schließen. Dadurch wird es möglich, entsprechende Programm-Dateien, ohne einen Neustart des Computers zu aktualisieren.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
@@ -120,7 +121,7 @@ msgstr "Optionale Codecs für MPlayer. (Internetverbindung benötigt für Instal
 msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
-msgstr ""
+msgstr "Ein Begleiterprogramm zum MPlayer, das zum codieren oder zum transformieren von unterstützten Ton- oder Video-Strömen verwendet werden kann."
 
 # Section_IconThemes
 msgid "Icon Themes"
@@ -140,7 +141,7 @@ msgstr "Nicht englische Sprachdateien für den SMPlayer."
 
 # Section_ResetSettings_Desc
 msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr ""
+msgstr "Entfernt die SMPlayer-Einstellungen, welche von einer früheren Installation zurückgeblieben sind."
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -168,7 +169,7 @@ msgstr "Bitte wählen, wie fortgefahren werden soll:"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr ""
+msgstr "Die vorhandene Installation ($Inst_Type) überschreiben"
 
 # Reinstall_Uninstall
 msgid "Uninstall (remove) the existing installation"
@@ -283,7 +284,7 @@ msgstr "Dateizuordnungen werden wiederhergestellt …"
 
 # Info_RollBack
 msgid "Rolling back changes..."
-msgstr ""
+msgstr "Zurücksetzen der Änderungen..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
