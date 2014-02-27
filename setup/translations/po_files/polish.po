@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-24 21:40+0000\n"
-"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2014-02-27 00:45+0000\n"
+"Last-Translator: M T <michtrz@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/smplayer/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,28 +35,28 @@ msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr ""
+msgstr "Nieobsługiwany system operacyjny.[:n:]SMPlayer ${SMPLAYER_VERSION} wymaga co najmniej wersji Windows XP i może nie działać poprawnie na twoim systemie.[:n:]Czy naprawdę chcesz kontynuować instalację?"
 
 # Win64_Required
 msgid ""
 "A 64-bit Windows operating system is required to install this software."
-msgstr ""
+msgstr "Wymagany jest system operacyjny Windows w wersji 64-bitowej w celu zainstalowania programu."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall "
 "32-bit SMPlayer first."
-msgstr ""
+msgstr "Istnieje instalacja 32-bitowej wersji SMPlayera. Najpierw należy odinstalować tą 32-bitową wersję SMPlayera."
 
 # Existing_64bitInst
 msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall "
 "64-bit SMPlayer first."
-msgstr ""
+msgstr "Istnieje instalacja 64-bitowej wersji SMPlayera. Najpierw należy odinstalować tą 64-bitową wersję SMPlayera."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr ""
+msgstr "Instalator $(^NameDA)"
 
 # WelcomePage_Text
 msgid ""
@@ -65,7 +65,7 @@ msgid ""
 "instances of SMPlayer before starting setup. This will make it possible to "
 "update relevant program files without having to reboot your "
 "computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
+msgstr "Instalator poprowadzi Cię przez proces instalacji $(^NameDA).[:r:][:n:][:r:][:n:]Zalecane jest zamknięcie wszystkich instancji SMPlayera przed rozpoczęciem instalacji. Dzięki temu będzie można zaktualizować odpowiednie pliki programu, bez konieczności ponownego uruchamiania komputera.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
@@ -140,7 +140,7 @@ msgstr "Tłumaczenia na inne języki."
 
 # Section_ResetSettings_Desc
 msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr ""
+msgstr "Usuwa preferencje SMPlayera pozostawione z poprzednich instalacji."
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -156,7 +156,7 @@ msgstr "Wybierz typ instalacji"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr ""
+msgstr "Wybierz tryb nadpisywania lub odinstalowywania."
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
@@ -192,7 +192,7 @@ msgstr "Zmiana Ustawień Instalacji"
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
-msgstr ""
+msgstr "Zresetuj moją konfigurację SMPlayera"
 
 # Type_Reinstall
 msgid "reinstall"
@@ -208,7 +208,7 @@ msgstr "aktualizuj"
 
 # StartBtn
 msgid "Start"
-msgstr ""
+msgstr "Uruchom"
 
 # Codecs_DL_Msg
 msgid "Downloading MPlayer Codecs..."
@@ -244,11 +244,11 @@ msgstr "Wygląda na to, że SMPlayer nie został zainstalowany w katalogu '$INST
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
-msgstr ""
+msgstr "Nie znaleziono instalacji SMPlayera."
 
 # Uninstaller_64bitOnly
 msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
+msgstr "Aplikacja może być usunięta tylko na 64-bitowym systemie Windows."
 
 # Application_Description
 msgid ""
@@ -259,11 +259,11 @@ msgstr "SMPlayer jest graficzną nakładką programu MPlayer, z prostymi funkcja
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr ""
+msgstr "Tworzenie kopii zapasowej kodeków z poprzedniej instalacji..."
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
-msgstr ""
+msgstr "Przywracanie kodeków z poprzedniej instalacji..."
 
 # Info_Del_Files
 msgid "Deleting Files..."
@@ -283,7 +283,7 @@ msgstr "Przywracanie skojarzeń plików..."
 
 # Info_RollBack
 msgid "Rolling back changes..."
-msgstr ""
+msgstr "Trwa wycofywanie zmian..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -291,4 +291,4 @@ msgstr "Wypakowywanie plików..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "Kodeki binarne nie są obsługiwane w tej wersji."
