@@ -18,7 +18,7 @@ ${LangFileString} Existing_64bitInst "Trenutno je instalirana 64-bitna instalaci
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA) program instalacije"
-${LangFileString} WelcomePage_Text "Program instalacije će vas voditi kroz instalaciju $(^NameDA).$\r$\n$\r$\nPreporučljivo je da zatvorite sve primjerke SMPlayera prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.$\r$\n$\r$\n$_KLIKNI"
+${LangFileString} WelcomePage_Text "Program instalacije će vas voditi kroz instalaciju $(^NameDA).$\r$\n$\r$\nPreporučljivo je da zatvorite sve primjerke SMPlayera prije pokretanja instalacije. To će omogućiti ažuriranje bitnih datoteka programa bez potrebe za ponovnim pokretanjem vašeg računala.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Prečaci"
