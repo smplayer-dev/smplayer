@@ -5381,12 +5381,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"/>
+        <translation>Если эта опция выбрана, все медиа файлы будут использовать аудиоэквалайзер.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"/>
+        <translation>Если не выбрана, настройки аудиоэквалайзера будут сохранены вместе с каждым файлом и будут загружаться позже при каждом воспроизведении файла.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1067"/>
@@ -7887,17 +7887,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Разрешить шрифты Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation>Если эта опция включена, системные шрифты Windows будут доступны для субтитров. Но есть неудобство: должен быть создан кэш шрифтов, это может занять некоторое время.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation>Если эта опция включена, будет использоваться только несколько шрифтов, входящих в состав SMPlayer, но это быстрее. </translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
