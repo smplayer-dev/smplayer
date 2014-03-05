@@ -465,52 +465,52 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="202"/>
         <source>Classical</source>
-        <translation type="unfinished"/>
+        <translation>كلاسيك</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>Club</source>
-        <translation type="unfinished"/>
+        <translation>نادي</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
         <source>Dance</source>
-        <translation type="unfinished"/>
+        <translation>رقص</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>Full bass</source>
-        <translation type="unfinished"/>
+        <translation>جهر كامل</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>Full bass and treble</source>
-        <translation type="unfinished"/>
+        <translation>جهر و مضاعفة كاملين</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>Full treble</source>
-        <translation type="unfinished"/>
+        <translation>مضاعَفة كاملة</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
         <source>Headphones</source>
-        <translation type="unfinished"/>
+        <translation>سماعات الأذن</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="209"/>
         <source>Large hall</source>
-        <translation type="unfinished"/>
+        <translation>قاعة كبيرة</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="210"/>
         <source>Live</source>
-        <translation type="unfinished"/>
+        <translation>نقل حي</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="211"/>
         <source>Party</source>
-        <translation type="unfinished"/>
+        <translation>حفلة</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -520,7 +520,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
         <source>Reggae</source>
-        <translation type="unfinished"/>
+        <translation>رغّا</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
@@ -530,27 +530,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
         <source>Ska</source>
-        <translation type="unfinished"/>
+        <translation>سكا</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="216"/>
         <source>Soft</source>
-        <translation type="unfinished"/>
+        <translation>هادئة</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="217"/>
         <source>Soft rock</source>
-        <translation type="unfinished"/>
+        <translation>روك هادئة</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="218"/>
         <source>Techno</source>
-        <translation type="unfinished"/>
+        <translation>تكنو</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Custom</source>
-        <translation type="unfinished"/>
+        <translation>مخصَّص</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
@@ -1179,7 +1179,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1532"/>
         <source>&amp;Half speed</source>
-        <translation type="unfinished"/>
+        <translation>ن&amp;صف السرعة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1548"/>
@@ -2141,7 +2141,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="543"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"/>
+        <translation>غير قادر على تحديد موقع رابط الفيديو</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3279"/>
@@ -2596,12 +2596,12 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
-        <translation type="unfinished"/>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"/>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
@@ -2646,7 +2646,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;خادوم OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3106,7 +3106,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"/>
+        <translation>يمكنك تشغيل DVD من قرصك الصلب. ما عليك سوى اختيار المجلد الذي يحوي دليلي الملفات VIDEO_TS و AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -5201,7 +5201,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation>إن مُكن هذا الخيار، سيشغِّل SMPlayer أقراص DVD مستخدما مكتبة dvdnav، وهذا يتطلب نسخة حديثة من MPlayer مُجمّعة مع دعم dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
@@ -5380,17 +5380,17 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"/>
+        <translation>مساوي صوتي عمومي</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"/>
+        <translation>إن مُكن هذا الخيار، فإن كل ملفات الوسائط ستتشارك مساوي الصوت.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"/>
+        <translation>اذا لم يؤشَّر، فإن قيم المساوي الصوتي تُحفَظ سوية مع كل ملف و تحمَّل ثانيةً عند تشغيل الملف لاحقاً.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1067"/>
@@ -7891,17 +7891,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>تمكين خطوط ويندوز Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation>اذا مُكِّن هذا الخيار فإن خطوط نظام ويندوز Windows ستتوفر للترجمات، لكن توجد إزعاجات: يجب إنشاء خبيئة خطوط، و هو أمر يمكن أن ياخذ وقتاً.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation>اذا لم يمكَّن هذا الخيار فلا يمكن استخدام سوى خطوط قليلة مرزومة مع SMPlayer، الا ان هذا أسرع.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
