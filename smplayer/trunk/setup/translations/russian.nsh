@@ -11,13 +11,13 @@ ${LangFileString} Installer_Is_Running "Программа установки у
 ${LangFileString} Installer_No_Admin "Для установки программы необходимо войти в систему как администратор."
 ${LangFileString} SMPlayer_Is_Running "Экземпляр SMPlayer запущен. Пожалуйста, закройте SMPlayer и попытайтесь снова."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported "Неподдерживаемая версия операционной системы.$\nSMPlayer ${SMPLAYER_VERSION} требует как минимум Windows XP и может работать неправильно на вашей системе.$\nВы действительно хотите продолжить установку?"
 ${LangFileString} Win64_Required "Для установки данного ПО требуется 64-битная ОС Windows."
 ${LangFileString} Existing_32bitInst "Существует 32-битная установка SMPlayer. Сначала далите 32-битный SMPlayer."
 ${LangFileString} Existing_64bitInst "Существует 64-битная установка SMPlayer. Сначала далите 64-битный SMPlayer."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Title "Установка $(^NameDA) "
 ${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
@@ -51,7 +51,7 @@ ${LangFileString} Section_IconThemes_Desc "Дополнительные темы
 ${LangFileString} Section_Translations "Переводы"
 ${LangFileString} Section_Translations_Desc "Языковые файлы SMPlayer, помимо английского."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Удаляет настройки SMPlayer, оставшиеся от предыдущих установок."
 
 ${LangFileString} MPlayer_Codec_Msg "Пакеты с бинарными кодеками добавляют поддержку кодеков, не встроенных в mplayer, например, RealVideo и других нестандартных форматов.$\nОбратите внимание, что эти кодеки не нужны для воспроизведения большинства обычных форматов вроде DVD, MPEG-1/2/4 и т.п."
 
@@ -67,7 +67,7 @@ ${LangFileString} Reinstall_Msg3_1 "Нажмите Старт для продо�
 ${LangFileString} Reinstall_Msg3_2 "Нажмите Далее для продолжения."
 ${LangFileString} Reinstall_Msg3_3 "Нажмите Удалить для продолжения."
 ${LangFileString} Reinstall_Msg4 "Изменить настройки установки"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg5 "Сбросить настройки SMPlayer"
 
 ${LangFileString} Type_Reinstall "переустановить"
 ${LangFileString} Type_Downgrade "откатить"
@@ -85,15 +85,15 @@ ${LangFileString} Codecs_Inst_Failed "Ошибка при установке б�
 ${LangFileString} Uninstaller_No_Admin "Эта установка может быть удалена только пользователем с правами администратора."
 ${LangFileString} Uninstaller_Aborted "Удаление прервано пользователем."
 ${LangFileString} Uninstaller_NotInstalled "Не похоже, что SMPlayer установлен в каталог '$INSTDIR'.$\r$\nПродолжить всё равно (не рекомендуется)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
+${LangFileString} Uninstaller_InvalidDirectory "Не найдена установка SMPlayer."
 ${LangFileString} Uninstaller_64bitOnly "Эта установка может быть удалена только на 64-битной Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer - полноценная оболочка для MPlayer, начиная от базовых функций вроде воспроизведения видеофайлов, DVD, VCD и заканчивая более продвинутыми вроде поддержки фильтров MPlayer, списков и т.д."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
+${LangFileString} Info_Codecs_Backup "Выполняется резервное копирование кодеков из предыдущей установки..."
+${LangFileString} Info_Codecs_Restore "Выполняется восстановление кодеков из предыдущей установки..."
 ${LangFileString} Info_Del_Files "Удаление файлов..."
 ${LangFileString} Info_Del_Registry "Удаление ключей реестра..."
 ${LangFileString} Info_Del_Shortcuts "Удаление ярлыков..."
