@@ -28,7 +28,7 @@ ${LangFileString} Section_SMPlayer "SMPlayer (potrebno)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, zajedeničke knjižnice i dokumentacija."
 
 ${LangFileString} Section_DesktopShortcut "Radna površina"
-${LangFileString} Section_DesktopShortcut_Desc "Stvara SMplayer prečac na radnu površinu."
+${LangFileString} Section_DesktopShortcut_Desc "Stvara SMplayer prečac na radnoj površini."
 
 ${LangFileString} Section_StartMenu "Start izbornik"
 ${LangFileString} Section_StartMenu_Desc "Stvara stavku Start izbornika za SMPlayer."

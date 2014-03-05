@@ -12,7 +12,7 @@ ${LangFileString} Installer_No_Admin "Vous devez être connecté comme administr
 ${LangFileString} SMPlayer_Is_Running "Une instance de SMPlayer est en cours d'exécution.  Veuillez quitter SMPlayer puis réessayer l'installation."
 
 ${LangFileString} OS_Not_Supported "Système d'exploitation non supporté.$\nSMPlayer ${SMPLAYER_VERSION} requiert au minimum Windows XP et pourrait ne pas fonctionner correctement sur votre système.$\nSouhaitez-vous vraiment continuer l'installation ?"
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
+${LangFileString} Win64_Required "Ce programme nécessite une version 64bits de Windiws pour pouvoir être installé."
 ${LangFileString} Existing_32bitInst "Une installation de SMPlayer 32 bits existe.  Vous devez désinstaller SMPlayer 32 bits d'abord."
 ${LangFileString} Existing_64bitInst "Une installation de SMPlayer 64 bits existe.  Vous devez désinstaller SMPlayer 64 bits d'abord."
 
@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; requis pour la lecture."
 
 ${LangFileString} Section_MPlayerCodecs "Codecs binaires"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Les codecs binaires ne sont pas supportés dans cette version."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecs optionnels pour MPlayer. (Connexion Internet requise durant l'installation.)"
 !endif
@@ -51,7 +51,7 @@ ${LangFileString} Section_IconThemes_Desc "Thèmes d'icônes supplémentaires po
 ${LangFileString} Section_Translations "Langues"
 ${LangFileString} Section_Translations_Desc "Fichiers de langues (autres qie l'anglais) pour SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Supprimer les préférences de SMPlayer datant d'une précédente installation."
 
 ${LangFileString} MPlayer_Codec_Msg "Les paquets de codecs binaires ajoutent le support pour les codecs qui ne sont pas encore nativement supportés, tels que les nouvelles variantes de RealVideo et d'autres formats peu communs.$\nRemarque : Ces codecs ne sont pas nécessaires pour lire les formats communs tels que les DVD, MPE-1/2/4, etc."
 
@@ -67,7 +67,7 @@ ${LangFileString} Reinstall_Msg3_1 "Cliquez sur « Démarrer » une fois prêt �
 ${LangFileString} Reinstall_Msg3_2 "Cliquez sur « Suivant » une fois prêt à continuer."
 ${LangFileString} Reinstall_Msg3_3 "Cliquez sur « Désinstaller » une fois prêt à continuer."
 ${LangFileString} Reinstall_Msg4 "Changer les paramètres d'installation."
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg5 "Réinitialiser ma configuration de SMPlayer"
 
 ${LangFileString} Type_Reinstall "Réinstaller la même version."
 ${LangFileString} Type_Downgrade "Installer une version plus ancienne."
@@ -85,7 +85,7 @@ ${LangFileString} Codecs_Inst_Failed "Échec de l'installation des codecs de MPl
 ${LangFileString} Uninstaller_No_Admin "Cette installation ne peut être désinstallée que par un utilisateur ayant les privilèges d'administrateur."
 ${LangFileString} Uninstaller_Aborted "Désinstallation abandonnée par l'utilisateur."
 ${LangFileString} Uninstaller_NotInstalled "Il ne semble pas que SMPlayer soit installé dans le dossier '$INSTDIR'.$\r$\nContinuer quand même (déconseillé) ?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
+${LangFileString} Uninstaller_InvalidDirectory "Installation de SMPlayer introuvable."
 ${LangFileString} Uninstaller_64bitOnly "Cette installation ne peut être désinstallée qu'à partir de Windows 64 bits."
 
 ; Vista & Later Default Programs Registration
