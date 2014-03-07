@@ -346,6 +346,8 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 		HEADERS += youtube/codedownloader.h
 		SOURCES += youtube/codedownloader.cpp
 		QT += script
+	} else {
+		#DEFINES += YTSIG_STATIC
 	}
 }
 
