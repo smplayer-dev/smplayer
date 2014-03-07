@@ -83,7 +83,10 @@ void OSClient::doSearch() {
 	QVariantList list;
 	list.append(m);
 	list.append(m);
-//	list.append(m); // Now if using 3 items, it fails to find subtitles...
+	list.append(m);
+	list.append(m);
+	list.append(m);
+	list.append(m); // Adding more, sometimes it keeps failing...
 
 	QVariantList args;
 	args << token << QVariant(list);
