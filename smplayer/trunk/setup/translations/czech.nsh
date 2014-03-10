@@ -9,16 +9,16 @@
 ; Startup
 ${LangFileString} Installer_Is_Running "Instalátor již běží."
 ${LangFileString} Installer_No_Admin "Instalaci tohoto programu je potřeba provést s právy administrátora."
-${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+${LangFileString} SMPlayer_Is_Running "Jeden SMPlayer je spuštěn. Ukončete, prosím, SMPlayer a zkuste to znovu."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported "Nepodporovaný operační systém.$\nSMPlayer ${SMPLAYER_VERSION} vyžaduje nejméně Windows XP a nemusí pracovat správně na vašem systému.$\nOpravdu chce pokračovat v instalaci?"
 ${LangFileString} Win64_Required "Pro instalaci tohoto software je zapotřebí mít 64-bitový oprační systém Windows."
 ${LangFileString} Existing_32bitInst "Máte nainstalovánu 32-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 32-bitový SMPlayer."
 ${LangFileString} Existing_64bitInst "Máte nainstalovánu 64-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 64-bitový SMPlayer."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Title "$(^NameDA) Nastavení"
+${LangFileString} WelcomePage_Text "Nastavení vás provede instalací $(^NameDA).$\r$\n$\r$\nJe doporučeno zavřít všechny běžící instance SMPlayeru před zahájením nastavení. Toto umožní aktualizovat příslušné programové soubory, aniž byste museli počítač restartovat.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Zástupci"
@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; vyžadován pro přehrávání.
 
 ${LangFileString} Section_MPlayerCodecs "Binární kodeky"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binární kodeky nejsou v této verzi podporovány."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
 !endif
@@ -51,7 +51,7 @@ ${LangFileString} Section_IconThemes_Desc "Přídavná témata ikon pro SMPlayer
 ${LangFileString} Section_Translations "Lokalizace"
 ${LangFileString} Section_Translations_Desc "Neanglické lokalizace."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Odstraní pozůstatky předvoleb SMPlayeru z předchozí instalace."
 
 ${LangFileString} MPlayer_Codec_Msg "Binární kodeky podporují formáty, které zatím nejsou implementovány nativně, např. novější varianty RealVideo a jiné málo používané formáty.$\nPro většinu běžných formátů nejsou potřeba (DVD, MPEG-1/2/4, apod.)."
 
@@ -67,11 +67,11 @@ ${LangFileString} Reinstall_Msg3_1 "Stiskněte Start jste-li připraveni."
 ${LangFileString} Reinstall_Msg3_2 "Stiskněte Další jste-li připraveni."
 ${LangFileString} Reinstall_Msg3_3 "Stiskněte Odinstalovat jste-li připraveni."
 ${LangFileString} Reinstall_Msg4 "Změnit nastavení instalace"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg5 "Resetovat moje nastavení SMPlayeru"
 
 ${LangFileString} Type_Reinstall "reinstalovat"
-${LangFileString} Type_Downgrade "downgrade"
-${LangFileString} Type_Upgrade "upgrade"
+${LangFileString} Type_Downgrade "ponížit verzi"
+${LangFileString} Type_Upgrade "aktualizovat"
 
 ${LangFileString} StartBtn "Start"
 
@@ -85,15 +85,15 @@ ${LangFileString} Codecs_Inst_Failed "Nepovedlo se nainstalovat kodeky MPlayeru.
 ${LangFileString} Uninstaller_No_Admin "Odinstalaci je potřeba provést s právy administrátora."
 ${LangFileString} Uninstaller_Aborted "Odinstalace přerušena uživatelem."
 ${LangFileString} Uninstaller_NotInstalled "V adresáři '$INSTDIR' není SMPlayer nainstalován .$\r$\nPokračovat (nedoporučeno)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
+${LangFileString} Uninstaller_InvalidDirectory "Instalace SMPlayeru nebyla nalezena."
 ${LangFileString} Uninstaller_64bitOnly "Tato instalace jde odinstalovat pouze na 64-bitové verzi Windows."
 
 ; Vista & Later Default Programs Registration
 ${LangFileString} Application_Description "SMPlayer je kompletní frontend pro MPlayer, podporuje vše od základních funkcí jako přehrávání videí, DVD, VCD až po pokročilé funkce jako filtry MPlayeru, edl a více."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Backing up codecs from previous installation..."
-${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installation..."
+${LangFileString} Info_Codecs_Backup "Zálohování kodeků z předchozí instalace..."
+${LangFileString} Info_Codecs_Restore "Obnovování kodeků z předchozí instalace..."
 ${LangFileString} Info_Del_Files "Mažu soubory..."
 ${LangFileString} Info_Del_Registry "Mažu záznamy registru..."
 ${LangFileString} Info_Del_Shortcuts "Mažu zástupce..."
