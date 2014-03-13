@@ -1,5 +1,8 @@
 [b]Version 0.8.7[/b]:
 
+(2014-03-12)
+ * New translation: British English.
+
 (2014-03-09)
  * Add audio/aac, audio/flac, audio/ogg to smplayer.desktop and
    smplayer_enqueue.desktop.
