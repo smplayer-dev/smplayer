@@ -1622,7 +1622,7 @@ void BaseGui::retranslateStrings() {
 	subVisibilityAct->change( Images::icon("sub_visibility"), tr("Subtitle &visibility") );
 
 #ifdef FIND_SUBTITLES
-	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("Find subtitles on &OpenSubtitles.org...") );
+	showFindSubtitlesDialogAct->change( Images::icon("download_subs"), tr("Find subtitles at &OpenSubtitles.org...") );
 	openUploadSubtitlesPageAct->change( Images::icon("upload_subs"), tr("Upload su&btitles to OpenSubtitles.org...") );
 #endif
 
@@ -5135,9 +5135,7 @@ void BaseGui::showFindSubtitlesDialog() {
 }
 
 void BaseGui::openUploadSubtitlesPage() {	
-	//QDesktopServices::openUrl( QUrl("http://ds6.ovh.org/hashsubtitles/upload.php") );
-	//QDesktopServices::openUrl( QUrl("http://www.opensubtitles.com/upload") );
-	QDesktopServices::openUrl( QUrl("http://www.opensubtitles.org/uploadjava") );
+	QDesktopServices::openUrl( QUrl("http://www.opensubtitles.org/upload") );
 }
 #endif
 
