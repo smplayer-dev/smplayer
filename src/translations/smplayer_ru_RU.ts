@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -206,12 +204,12 @@
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>Британский английский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>Albanian</source>
-        <translation type="unfinished">Албанский</translation>
+        <translation>Албанский</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="217"/>
@@ -562,7 +560,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Ручной</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
@@ -595,7 +593,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Play</source>
-        <translation>Вос&amp;произведение</translation>
+        <translation>&amp;Воспроизвести</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1736"/>
@@ -1086,7 +1084,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1523"/>
         <source>Play / Pause</source>
-        <translation>Воспроизведение / Пауза</translation>
+        <translation>Воспроизвести / Пауза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1526"/>
@@ -1206,7 +1204,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1625"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>П&amp;оиск субтитров на OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
@@ -1555,7 +1553,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1661"/>
         <source>&amp;FAQ</source>
-        <translation>FAQ (Ч&amp;АВО)</translation>
+        <translation>FAQ (Ч&amp;аВо)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1662"/>
@@ -1666,10 +1664,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1717"/>
         <source>Reset audio equalizer</source>
         <translation>Сброс аудиоэквалайзера</translation>
-    </message>
-    <message>
-        <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="obsolete">П&amp;оиск субтитров на OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1626"/>
@@ -2560,7 +2554,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="286"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Настройки:</translation>
+        <translation>&amp;Инструменты:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="325"/>
@@ -2757,11 +2751,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр извлечён</numerusform>
-            <numerusform>%n субтитра извлечёны</numerusform>
-            <numerusform>%n субтитров извлечено</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр извлечён</numerusform><numerusform>%n субтитра извлечёны</numerusform><numerusform>%n субтитров извлечено</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2859,7 +2849,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Не удалось сохранить загруженный
@@ -2881,7 +2871,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation>&amp;Настройки</translation>
+        <translation>&amp;Инструменты</translation>
     </message>
 </context>
 <context>
@@ -3812,22 +3802,6 @@ Please check the permissions of that folder.</source>
         <translation>Арабский - Сирия</translation>
     </message>
     <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Португальский (Бразилия)</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Португальский (Португалия)</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Китайский упрощённый</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Китайский традиционный</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="288"/>
         <source>Unicode</source>
         <translation>Юникод</translation>
@@ -4426,7 +4400,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Play / Pause</source>
-        <translation>Воспроизведение / Пауза</translation>
+        <translation>Воспроизвести / Пауза</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
@@ -4716,7 +4690,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
         <source>&amp;Options:</source>
-        <translation>&amp;Настройки:</translation>
+        <translation>&amp;Инструменты:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="394"/>
@@ -4876,7 +4850,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="506"/>
         <source>Options</source>
-        <translation>Настройки</translation>
+        <translation>Инструменты</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="507"/>
@@ -4971,7 +4945,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Если выбрано, SMPlayer будет сохранять сообщения MPlayer (их можно просмотреть в &lt;b&gt;Настройки -&gt; Смотреть отчёты -&gt; MPlayer&lt;/b&gt;). Отчёты могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить эту опцию.</translation>
+        <translation>Если выбрано, SMPlayer будет сохранять сообщения MPlayer (их можно просмотреть в &lt;b&gt;Инструменты -&gt; Смотреть отчёты -&gt; MPlayer&lt;/b&gt;). Отчёты могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить эту опцию.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
@@ -5352,7 +5326,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Глобальный аудиоэквалайзер </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
@@ -5417,7 +5391,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="625"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Глобальный аудиоэ&amp;квалайзер </translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="744"/>
@@ -6260,7 +6234,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
-        <translation>Воспроизведение / Пауза</translation>
+        <translation>Воспроизвести / Пауза</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
@@ -6726,7 +6700,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Плавающая панель управления появляется в полноэкранном режиме, когда указатель мыши перемещается.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6802,27 +6776,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите предпочитаемый графический интерфейс для приложения.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Базовый интерфейс&lt;/b&gt; предоставляет традиционный интерфейс с панелью инструментов и контрольной панелью.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Мини интерфейс&lt;/b&gt; предоставляет более простой интерфейс без панели инструментов, но с контрольной панелью с несколькими кнопками.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Интерфейс со скинами&lt;/b&gt; обеспечивает интерфейс, где можно выбирать скины.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;MPC интерфейс&lt;/b&gt; похож на интерфейс Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
@@ -6858,10 +6832,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="658"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>Если эта опция отмечена, главное окно будет перемещаться при перетаскивании мышью за область видео.</translation>
-    </message>
-    <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="obsolete">Выберите предпочтительный интерфейс приложения. На текущий момент доступны интерфейс по умолчанию и мини интерфейс.&lt;br&gt;Интерфейс &lt;b&gt;По умолчанию&lt;/b&gt; представляет собой традиционный интерфейс с панелями инструментов и управления. &lt;b&gt;Мини интерфейс&lt;/b&gt; представляет более простой интерфейс без панелей инструментов и упрощённой панелью управления с меньшим числом кнопок.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -7110,10 +7080,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
         <translation>П&amp;лавающая панель</translation>
-    </message>
-    <message>
-        <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="obsolete">Плавающая панель управления появляется в полноэкранном режиме, когда указатель мыши перемещается в нижнюю часть экрана.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
@@ -8401,7 +8367,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;Откройте руководство по первым шагам после обновления</translation>
+        <translation>&amp;Открыть руководство по первым шагам после обновления</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8431,12 +8397,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation>Откройте руководство по первым шагам после обновления</translation>
+        <translation>Открыть руководство по первым шагам после обновления</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Если эта опция включена то руководство по первым шагам с информацией и советами о том как использовать SMPlayer будет открыто после обновления.</translation>
+        <translation>Если эта опция включена, то руководство по первым шагам с информацией и советами о том, как использовать SMPlayer, будет открыто после обновления.</translation>
     </message>
 </context>
 <context>
@@ -8581,21 +8547,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунды</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунды</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минуты</numerusform>
-            <numerusform>%n минут</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минуты</numerusform><numerusform>%n минут</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
