@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -693,10 +691,6 @@ Do you want to overwrite?</source>
         <translation>Velocidad &amp;normal</translation>
     </message>
     <message>
-        <source>&amp;Halve speed</source>
-        <translation type="obsolete">&amp;Reducir a la mitad</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>&amp;Double speed</source>
         <translation>&amp;Doblar</translation>
@@ -1021,6 +1015,11 @@ Do you want to overwrite?</source>
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Las unidades de CDROM / DVD no han sido configuradas.
 Se mostrará a continuación el diálogo de configuración.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="3881"/>
+        <source>Select the Blu-ray folder</source>
+        <translation>Selecciona la carpeta del Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3894"/>
@@ -1577,11 +1576,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Reiniciar el ecualizador de vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3881"/>
-        <source>Select the Blu-ray folder</source>
-        <translation>Selecciona la carpeta del Blu-ray</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4506"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>El servidor ha devuelto &apos;%1&apos;</translation>
@@ -1670,10 +1664,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="1717"/>
         <source>Reset audio equalizer</source>
         <translation>Reiniciar el ecualizador de audio</translation>
-    </message>
-    <message>
-        <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="obsolete">Buscar subtítulos en &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1626"/>
@@ -2223,10 +2213,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <source>Connecting to %1</source>
         <translation>Conectando con %1</translation>
     </message>
-    <message>
-        <source>Unable to locate the url of the video</source>
-        <translation type="obsolete">No es posible encontrar la dirección del vídeo</translation>
-    </message>
 </context>
 <context>
     <name>DefaultGui</name>
@@ -2615,14 +2601,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <source>Http</source>
-        <translation type="obsolete">Http</translation>
-    </message>
-    <message>
-        <source>Socks5</source>
-        <translation type="obsolete">Socks5</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
@@ -2671,10 +2649,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
         <translation>Servidor</translation>
-    </message>
-    <message>
-        <source>&amp;Opensubtitles server:</source>
-        <translation type="obsolete">Servidor de &amp;Opensubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
@@ -2777,10 +2751,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtítulo extraido</numerusform>
-            <numerusform>%n subtítulos extraidos</numerusform>
-        </translation>
+        <translation><numerusform>%n subtítulo extraido</numerusform><numerusform>%n subtítulos extraidos</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2878,7 +2849,7 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>No se ha podido guardar el fichero descargado
@@ -3144,10 +3115,6 @@ Por favor verifica los permisos de esa carpeta.</translation>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
         <translation>Es posible reproducir un DVD desde el disco duro. Simplemente selecciona la carpeta que contiene los directorios VIDEO_TS y AUDIO_TS.</translation>
-    </message>
-    <message>
-        <source>You can play a dvd from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="obsolete">Es posible reproducir un dvd desde el disco duro. Simplemente selecciona la carpeta que contiene los directorios VIDEO_TS y AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3833,22 +3800,6 @@ Por favor verifica los permisos de esa carpeta.</translation>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
         <translation>Árabe - Siria</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugués - Brasil</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugués - Portugal</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Chino simplificado</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Chino tradicional</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="288"/>
@@ -4667,10 +4618,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Avanzado</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
         <translation>&amp;Informar de fallos de MPlayer</translation>
@@ -5236,10 +5183,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../prefdrives.cpp" line="227"/>
         <source>Enable DVD menus</source>
         <translation>Activar menús DVD</translation>
-    </message>
-    <message>
-        <source>If this option is checked, smplayer will play DVDs using dvdnav. Requires a recent version of mplayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Si esta opción está activada, SMPlayer reproducirá los DVDs usando dvdnav. Requiere una versión del mplayer compilada con soporte para dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -6131,10 +6074,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Teclado</translation>
     </message>
     <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
-    </message>
-    <message>
         <location filename="../prefinput.ui" line="86"/>
         <source>&amp;Mouse</source>
         <translation>&amp;Ratón</translation>
@@ -6895,10 +6834,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Si se marca esta opción, la ventana principal se moverá al arrastrar el ratón sobre zona del vídeo.</translation>
     </message>
     <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="obsolete">Selecciona el GUI que prefieras para el programa. Actualmente hay dos disponibles: el GUI predeterminado y el GUI mini.&lt;br&gt;El &lt;b&gt;GUI predeterminado&lt;/b&gt; provee el GUI tradicional, con la barra de herramientas y la barra de control. El &lt;b&gt;GUI mini&lt;/b&gt; provee un GUI más simple, sin barra de herramientas y con una barra de control con muy pocos botones.</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.cpp" line="677"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Selecciona el juego de iconos que prefieras para el programa.</translation>
@@ -7145,10 +7080,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
         <translation>Control &amp;flotante</translation>
-    </message>
-    <message>
-        <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="obsolete">El control flotante aparece en el modo de pantalla completa cuando se mueve el ratón a la parte inferior de la pantalla.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
@@ -8616,19 +8547,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8730,17 +8655,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../reminderdialog.cpp" line="39"/>
         <source>&amp;Share with my friends</source>
         <translation>&amp;Recomendar a mis amigos</translation>
-    </message>
-</context>
-<context>
-    <name>SeekWidget</name>
-    <message>
-        <source>icon</source>
-        <translation type="obsolete">icon</translation>
-    </message>
-    <message>
-        <source>label</source>
-        <translation type="obsolete">label</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -206,12 +204,12 @@
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>Inglês britânico</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>Albanian</source>
-        <translation type="unfinished">Albanês</translation>
+        <translation>Albanês</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="217"/>
@@ -1206,7 +1204,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1625"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Procurar legendas no &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
@@ -1217,7 +1215,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1660"/>
         <source>First Steps &amp;Guide</source>
-        <translation>&amp;Guia para iniciantes</translation>
+        <translation>&amp;Guia de iniciação</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1666"/>
@@ -1668,10 +1666,6 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Repor equalizador áudio</translation>
     </message>
     <message>
-        <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="obsolete">Encontrar legendas em &amp;OpenSubtitles.org...</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1626"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Enviar legendas para OpenSu&amp;btitles.org...</translation>
@@ -1895,7 +1889,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1720"/>
         <source>Next wheel function</source>
-        <translation>Função da roda do rato seguinte</translation>
+        <translation>Próxima função da roda do rato</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1909"/>
@@ -1936,7 +1930,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1438"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation>Os filtros de vídeo são desativados se usar vdpau</translation>
+        <translation>Os filtros de vídeo são desativados se utilizar vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1558"/>
@@ -2122,27 +2116,27 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <location filename="../core.cpp" line="3224"/>
         <location filename="../core.cpp" line="3236"/>
         <source>Font scale: %1</source>
-        <translation>Escala das letras:%1</translation>
+        <translation>Escala do tipo de letra: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3783"/>
         <source>Aspect ratio: %1</source>
-        <translation>Tamanho de vídeo: %1</translation>
+        <translation>Tamanho do vídeo: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4158"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>A atualizar a cache de letras. Pode levar algum tempo...</translation>
+        <translation>Atualização da cache de letras. Pode levar algum tempo...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3150"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation>Atraso das legendas: %1 ms</translation>
+        <translation>Atraso de legendas: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3167"/>
         <source>Audio delay: %1 ms</source>
-        <translation>Atraso do som: %1 ms</translation>
+        <translation>Atraso de áudio: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3033"/>
@@ -2192,12 +2186,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="1353"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Imagem não capturada. Pasta não configurada</translation>
+        <translation>Imagem não capturada. Pasta não configurada.</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1366"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Imagem não capturada. Pasta não configurada</translation>
+        <translation>Imagem não capturada. Pasta não configurada.</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2657"/>
@@ -2212,12 +2206,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="2689"/>
         <source>A-B markers cleared</source>
-        <translation>Limpeza de marcadores A-B concluída</translation>
+        <translation>Marcadores A-B removidos</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="529"/>
         <source>Connecting to %1</source>
-        <translation>A ligar a %1</translation>
+        <translation>Estabelecer ligação a %1</translation>
     </message>
 </context>
 <context>
@@ -2225,7 +2219,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../defaultgui.cpp" line="501"/>
         <source>Welcome to SMPlayer</source>
-        <translation>Bem vindo ao SMPlayer</translation>
+        <translation>Bem-vindo ao SMPlayer</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="529"/>
@@ -2410,12 +2404,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>&amp;Up</source>
-        <translation>Para &amp;cima</translation>
+        <translation>S&amp;ubir</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="112"/>
         <source>&amp;Down</source>
-        <translation>Para &amp;baixo</translation>
+        <translation>&amp;Descer</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
@@ -2440,7 +2434,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <location filename="../favorites.cpp" line="374"/>
         <location filename="../favorites.cpp" line="378"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation>Indique o númerodo item  para o qual pretende ir:</translation>
+        <translation>Indique o número do item para que pretende ir:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
@@ -2568,7 +2562,7 @@ Exemplo: -flip -nosound</translation>
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
         <translation>Também pode indicar os filtros de vídeo.
-Separe-os com &quot;,&quot;. Não use espaços!
+Separe-os com &quot;,&quot; e não use espaços!
 Exemplo: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
@@ -2580,7 +2574,7 @@ Exemplo: scale=512:-2,eq2=1.1</translation>
         <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Finalmente os filtros de áudio. A mesma regra utilizada nos filtros de vídeo.
+        <translation>Finalmente os filtros de áudio. Utilize asmesmas regras dos filtros de vídeo.
 Exemplo: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -2757,10 +2751,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2858,7 +2849,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro transferido
@@ -3809,22 +3800,6 @@ Verifique as permissões da pasta.</translation>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
         <translation>Árabe - Síria</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Português - Brasil</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Português - Portugal</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Mandarim simplificado</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Mandarim tradicional</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="288"/>
@@ -6724,7 +6699,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"></translation>
+        <translation>O controlo flutuante aparece no modo de ecrã completo ao mover o rato.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6800,27 +6775,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione a interface gráfica da aplicação.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"></translation>
+        <translation>A &lt;b&gt;interface padrão&lt;/b&gt; disponibiliza a interface tradicional, com a barra de ferramentas e a barra de controlo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>A &lt;b&gt;interface minimal&lt;/b&gt; disponibiliza uma interface mais simples, dispensando a barra de ferramentas e uma barra de controlo com menos botões.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>A &lt;b&gt;interface com temas&lt;/b&gt; disponibiliza uma interface com possibilidade de alterar o tema a utilizar.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"></translation>
+        <translation>A &lt;b&gt;interface mpc&lt;/b&gt; disponibiliza a interface com o estilo da aplicação Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
@@ -6856,10 +6831,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.cpp" line="658"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>Se ativar esta opção, a janela principal será movida se arrastar o rato na área do vídeo.</translation>
-    </message>
-    <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="obsolete">Escolha a interface da aplicação. Atualmente, existem 2 tipos: padrão ou reduzida.&lt;br&gt;A interface &lt;b&gt;padrão&lt;/b&gt; é a tradicional, com barra de ferramentas e barra de controlo. A interface&lt;b&gt; reduzida&lt;/b&gt; é mais simples, sem barra de ferramentas e uma barra de controlo com menos botões.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -6986,7 +6957,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
         <source>This option only works with the basic GUI.</source>
-        <translation>Esta opção só funciona com a intergace normal.</translation>
+        <translation>Esta opção só funciona com a interface normal.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
@@ -7052,7 +7023,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
         <source>Mini GUI</source>
-        <translation>Interface reduzida</translation>
+        <translation>Interface minimal</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="663"/>
@@ -7108,10 +7079,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
         <translation>Controlo &amp;flutuante</translation>
-    </message>
-    <message>
-        <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="obsolete">O controlo flutuante aparece no modo de ecrã completo se mover o rato para o fundo do ecrã.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
@@ -8429,12 +8396,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open the first steps guide after an upgrade</source>
-        <translation>Abrir manual de iniciação após uma atualização</translation>
+        <translation>Abrir guia de iniciação após uma atualização</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Se ativar esta opção, ao atualizar o SMPlayer, será aberto o guia de utilização ao SMPlayer.</translation>
+        <translation>Se ativar esta opção, ao atualizar o SMPlayer será aberto o guia de iniciação ao SMPlayer.</translation>
     </message>
 </context>
 <context>
@@ -8532,7 +8499,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>abre a interface reduzida ao invés da normal.</translation>
+        <translation>abre a interface minimal ao invés da normal.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="111"/>
@@ -8579,19 +8546,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
@@ -8639,7 +8600,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation>abre a interface gráfica com suporte a temas</translation>
+        <translation>abre a interface gráfica com suporte a temas.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>

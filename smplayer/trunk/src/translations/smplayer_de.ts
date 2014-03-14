@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -206,12 +204,12 @@
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>Britisches Englisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>Albanian</source>
-        <translation type="unfinished">Albanisch</translation>
+        <translation>Albanisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="217"/>
@@ -1206,7 +1204,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1625"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertitel auf &amp;OpenSubtitles.org suchen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
@@ -1666,10 +1664,6 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1717"/>
         <source>Reset audio equalizer</source>
         <translation>Ton-Equalizer zurücksetzen</translation>
-    </message>
-    <message>
-        <source>Find subtitles on &amp;OpenSubtitles.org...</source>
-        <translation type="obsolete">Untertitel auf &amp;OpenSubtitles.org suchen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1626"/>
@@ -2758,10 +2752,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2859,7 +2850,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -3812,22 +3803,6 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
         <translation>Arabisch - Syrien</translation>
     </message>
     <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugiesisch - Brasilien</translation>
-    </message>
-    <message>
-        <source>Portuguese - Portugal</source>
-        <translation type="obsolete">Portugiesisch - Portugal</translation>
-    </message>
-    <message>
-        <source>Simplified-Chinese</source>
-        <translation type="obsolete">Vereinfachtes Chinesisch</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditionelles Chinesisch</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="288"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
@@ -4358,7 +4333,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../minigui.cpp" line="162"/>
         <source>Control bar</source>
-        <translation>Kontrollregler</translation>
+        <translation>Steuerungsleiste</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="165"/>
@@ -4376,7 +4351,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="142"/>
         <source>Control bar</source>
-        <translation>Kontrollregler</translation>
+        <translation>Steuerungsleiste</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="143"/>
@@ -6728,7 +6703,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das schwebende Kontrollelement erscheint im Vollbildmodus, wenn der Mauszeiger bewegt wird.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6804,27 +6779,27 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wählen Sie die bevorzugte grafische Oberfläche für das Programm.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die &lt;b&gt;Basisbenutzeroberfläche&lt;/b&gt; bietet eine traditionelle Oberfläche, mit einer Werkzeugleiste und einer Steuerungsleiste.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die &lt;b&gt;Mini-Benutzeroberfläche&lt;/b&gt; bietet eine einfache Oberfläche, ohne einer Werkzeugleiste und einer Steuerungsleiste mit wenigen Tasten.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die &lt;b&gt;Anpassbare Benutzeroberfläche&lt;/b&gt; bietet eine Oberfläche, wo mehrere Oberflächen zur Verfügung stehen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die &lt;b&gt;MPC-Benutzeroberfläche&lt;/b&gt; sieht wie die Oberfläche im Media Player Classic aus.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
@@ -6861,10 +6836,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefinterface.cpp" line="658"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>Wenn diese Option aktiviert ist, wird das Hauptfenster bewegt, wenn Sie die Maus über den Videobereich ziehen.</translation>
-    </message>
-    <message>
-        <source>Select the GUI you prefer for the application. Currently there are two available: Default GUI and Mini GUI.&lt;br&gt;The &lt;b&gt;Default GUI&lt;/b&gt; provides the traditional GUI, with the toolbar and control bar. The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple GUI, without toolbar and a control bar with few buttons.</source>
-        <translation type="obsolete">Die bevorzugte Benutzeroberfläche für die Anwendung wählen. Derzeit stehen zwei zur Auswahl: Standard-Benutzeroberfläche und Mini-Benutzeroberfläche.&lt;br&gt;&lt;b&gt;Standard Benutzeroberfläche&lt;/b&gt; bietet die traditionelle Benutzeroberfläche, mit einer Symbolleiste und einer Steuerleiste. Die &lt;b&gt;Mini Benutzeroberfläche&lt;/b&gt; bietet eine einfache Benutzeroberfläche, ohne Symbolleiste und Steuerleiste mit nur wenigen Tasten.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -7113,10 +7084,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
         <translation>Sch&amp;webendes Kontrollelement</translation>
-    </message>
-    <message>
-        <source>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</source>
-        <translation type="obsolete">Das schwebende Kontrollelement erscheint im Vollbildmodus, wenn der Mauszeiger an das untere Ende des Bildschirms bewegt wird.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
@@ -8584,19 +8551,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="77"/>
         <location filename="../helper.cpp" line="83"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="80"/>
         <location filename="../helper.cpp" line="82"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="84"/>
