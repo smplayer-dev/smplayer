@@ -644,7 +644,7 @@
        <item>
         <widget class="QLabel" name="label_6">
          <property name="text">
-          <string>The floating control appears in fullscreen mode when the mouse is moved to the bottom of the screen.</string>
+          <string>The floating control appears in fullscreen mode when the mouse is moved.</string>
          </property>
          <property name="wordWrap">
           <bool>true</bool>

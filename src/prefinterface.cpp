@@ -661,12 +661,17 @@ void PrefInterface::createHelp() {
 		tr("Here you can change the language of the application.") );
 
 	setWhatsThis(gui_combo, tr("GUI"),
-        tr("Select the GUI you prefer for the application. Currently "
-           "there are two available: Default GUI and Mini GUI.<br>"
-           "The <b>Default GUI</b> provides the traditional GUI, with the "
-           "toolbar and control bar. The <b>Mini GUI</b> provides a "
-           "more simple GUI, without toolbar and a control bar with few "
-           "buttons.") );
+        tr("Select the graphic interface you prefer for the application.") +"<br>"+
+        tr("The <b>Basic GUI</b> provides the traditional interface, with the "
+           "toolbar and control bar.") +" "+ 
+        tr("The <b>Mini GUI</b> provides a more simple interface, without toolbar and a control bar with few "
+           "buttons.") +" "+
+        tr("The <b>Skinnable GUI</b> provides an interface where several skins are available.")
+#ifdef MPCGUI
+        +" "+
+        tr("The <b>Mpc GUI</b> looks like the interface in Media Player Classic.")
+#endif
+        );
 
 	setWhatsThis(iconset_combo, tr("Icon set"),
         tr("Select the icon set you prefer for the application.") );
