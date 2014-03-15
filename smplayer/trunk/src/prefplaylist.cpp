@@ -122,12 +122,13 @@ void PrefPlaylist::createHelp() {
            "case of DVDs, CDs and VCDs, all titles in the disc will be added "
            "to the playlist.") );
 
-/*
-	setWhatsThis(add_consecutive_files_check, tr("Add consecutive files"),
-		tr("If this option is enabled, SMPlayer will look for consecutive "
-           "files (e.g. video_1.avi, video_2.avi...) and if found, they'll be "
-           "added to the playlist.") );
-*/
+	setWhatsThis(media_to_add_combo, tr("Add files from folder"),
+		tr("This option allows to add files automatically to the playlist:") +"<br>"+
+		tr("<b>None</b>: no files will be added") +"<br>"+
+		tr("<b>Video files</b>: all video files found in the folder will be added") +"<br>"+
+		tr("<b>Audio files</b>: all audio files found in the folder will be added") +"<br>"+
+		tr("<b>Video and audio files</b>: all video and audio files found in the folder will be added") +"<br>"+
+		tr("<b>Consecutive files</b>: consecutive files (like video_1.avi, video_2.avi) will be added") );
 
 	setWhatsThis(play_from_start_check, tr("Play files from start"),
 		tr("If this option is enabled, all files from the playlist will "
