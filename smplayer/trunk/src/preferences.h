@@ -418,7 +418,6 @@ public:
 #endif
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist
-	bool add_to_playlist_consecutive_files;
 	AutoAddToPlaylistFilter media_to_add_to_playlist;
 
 #if LOGO_ANIMATION
