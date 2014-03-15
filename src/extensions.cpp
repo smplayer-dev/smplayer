@@ -31,6 +31,15 @@ QString ExtensionList::forFilter() {
 	return s;
 }
 
+QStringList ExtensionList::forDirFilter() {
+	QStringList l;
+	for (int n=0; n < count(); n++) {
+		QString s = "*." + at(n);
+		l << s;
+	}
+	return l;
+}
+
 QString ExtensionList::forRegExp() {
 	QString s;
 	for (int n=0; n < count(); n++) {

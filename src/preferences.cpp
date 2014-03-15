@@ -421,6 +421,7 @@ void Preferences::reset() {
 
 	auto_add_to_playlist = true;
 	add_to_playlist_consecutive_files = false;
+	media_to_add_to_playlist = VideoFiles;
 
 #if LOGO_ANIMATION
 	animated_logo = true;
@@ -871,6 +872,7 @@ void Preferences::save() {
 
 	set->setValue("auto_add_to_playlist", auto_add_to_playlist);
 	set->setValue("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files);
+	set->setValue("media_to_add_to_playlist", media_to_add_to_playlist);
 
 #if LOGO_ANIMATION
 	set->setValue("animated_logo", animated_logo);
@@ -1367,6 +1369,7 @@ void Preferences::load() {
 
 	auto_add_to_playlist = set->value("auto_add_to_playlist", auto_add_to_playlist).toBool();
 	add_to_playlist_consecutive_files = set->value("add_to_playlist_consecutive_files", add_to_playlist_consecutive_files).toBool();
+	media_to_add_to_playlist = (AutoAddToPlaylistFilter) set->value("media_to_add_to_playlist", media_to_add_to_playlist).toInt();
 
 #if LOGO_ANIMATION
 	animated_logo = set->value("animated_logo", animated_logo).toBool();

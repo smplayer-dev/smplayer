@@ -3062,9 +3062,19 @@ void BaseGui::newMediaLoaded() {
 		playlist->addCurrentFile();
 	}*/
 
-	if ((core->mdat.type == TYPE_FILE) && (pref->auto_add_to_playlist) && (pref->add_to_playlist_consecutive_files)) {
-		// Look for consecutive files
-		QStringList files_to_add = Helper::searchForConsecutiveFiles(core->mdat.filename);
+	// Automatically add files to playlist
+	if ((core->mdat.type == TYPE_FILE) && (pref->auto_add_to_playlist)) {
+		//qDebug("BaseGui::newMediaLoaded: playlist count: %d", playlist->count());
+		QStringList files_to_add;
+		#if 0
+		if (playlist->count() == 1) {
+			files_to_add = Helper::filesForPlaylist(core->mdat.filename, pref->media_to_add_to_playlist);
+		}
+		#else
+		if (pref->add_to_playlist_consecutive_files) {
+			files_to_add = Helper::filesForPlaylist(core->mdat.filename, Preferences::ConsecutiveFiles);
+		}
+		#endif
 		if (!files_to_add.empty()) playlist->addFiles(files_to_add);
 	}
 }
