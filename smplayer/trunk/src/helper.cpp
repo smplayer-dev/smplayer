@@ -24,7 +24,9 @@
 #include <QDir>
 #include <QTextCodec>
 #include <QWidget>
+//#include <QDebug>
 #include "config.h"
+#include "extensions.h"
 
 #ifdef Q_OS_WIN
 #include <windows.h> // For the screensaver stuff
@@ -251,6 +253,50 @@ QStringList Helper::searchForConsecutiveFiles(const QString & initial_file) {
 	}
 
 	return files_to_add;
+}
+
+QStringList Helper::filesInDirectory(const QString & initial_file, const QStringList & filter) {
+	qDebug("Helper::filesInDirectory: initial_file: %s", initial_file.toUtf8().constData());
+	//qDebug() << "Helper::filesInDirectory: filter:" << filter;
+
+	QFileInfo fi(initial_file);
+	QString current_file = fi.fileName();
+	QString path = fi.absolutePath();
+
+	QDir d(path);
+	QStringList all_files = d.entryList(filter, QDir::Files);
+
+	QStringList r;
+	for (int n = 0; n < all_files.count(); n++) {
+		if (all_files[n] != current_file) {
+			QString s = path +"/" + all_files[n];
+			r << s;
+		}
+	}
+
+	//qDebug() << "Helper::filesInDirectory: result:" << r;
+
+	return r;
+}
+
+QStringList Helper::filesForPlaylist(const QString & initial_file, Preferences::AutoAddToPlaylistFilter filter) {
+	QStringList res;
+
+	if (filter == Preferences::ConsecutiveFiles) {
+		res = searchForConsecutiveFiles(initial_file);
+	} else {
+		Extensions e;
+		QStringList exts;
+		switch (filter) {
+			case Preferences::VideoFiles: exts = e.video().forDirFilter(); break;
+			case Preferences::AudioFiles: exts = e.audio().forDirFilter(); break;
+			case Preferences::MultimediaFiles: exts = e.multimedia().forDirFilter(); break;
+			default: ;
+		}
+		if (!exts.isEmpty()) res = Helper::filesInDirectory(initial_file, exts);
+	}
+
+	return res;
 }
 
 #ifdef Q_OS_WIN

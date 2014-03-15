@@ -49,6 +49,7 @@ public:
                          ChangeSpeed = 16 };
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 	enum H264LoopFilter { LoopDisabled = 0, LoopEnabled = 1, LoopDisabledOnHD = 2 };
+	enum AutoAddToPlaylistFilter { VideoFiles = 1, AudioFiles = 2, MultimediaFiles = 3, ConsecutiveFiles = 4 };
 
 	Q_DECLARE_FLAGS(WheelFunctions, WheelFunction);
 
@@ -418,6 +419,7 @@ public:
 
 	bool auto_add_to_playlist; //!< Add files to open to playlist
 	bool add_to_playlist_consecutive_files;
+	AutoAddToPlaylistFilter media_to_add_to_playlist;
 
 #if LOGO_ANIMATION
 	bool animated_logo;

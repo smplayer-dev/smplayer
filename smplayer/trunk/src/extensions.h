@@ -27,6 +27,7 @@ public:
 	ExtensionList();
 
 	QString forFilter();
+	QStringList forDirFilter();
 	QString forRegExp();
 };
 
