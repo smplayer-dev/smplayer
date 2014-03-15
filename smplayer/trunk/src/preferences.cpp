@@ -421,7 +421,7 @@ void Preferences::reset() {
 
 	auto_add_to_playlist = true;
 	add_to_playlist_consecutive_files = false;
-	media_to_add_to_playlist = VideoFiles;
+	media_to_add_to_playlist = NoFiles;
 
 #if LOGO_ANIMATION
 	animated_logo = true;

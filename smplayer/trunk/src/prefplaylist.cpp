@@ -25,6 +25,12 @@ PrefPlaylist::PrefPlaylist(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+	media_to_add_combo->addItem(tr("None"), Preferences::NoFiles);
+	media_to_add_combo->addItem(tr("Video files"), Preferences::VideoFiles);
+	media_to_add_combo->addItem(tr("Audio files"), Preferences::AudioFiles);
+	media_to_add_combo->addItem(tr("Video and audio files"), Preferences::MultimediaFiles);
+	media_to_add_combo->addItem(tr("Consecutive files"), Preferences::ConsecutiveFiles);
+
 	createHelp();
 }
 
@@ -47,14 +53,14 @@ void PrefPlaylist::retranslateStrings() {
 
 void PrefPlaylist::setData(Preferences * pref) {
 	setAutoAddFilesToPlaylist( pref->auto_add_to_playlist );
-	setAddConsecutiveFiles( pref->add_to_playlist_consecutive_files );
+	setMediaToAdd( pref->media_to_add_to_playlist );
 }
 
 void PrefPlaylist::getData(Preferences * pref) {
 	requires_restart = false;
 
 	pref->auto_add_to_playlist = autoAddFilesToPlaylist();
-	pref->add_to_playlist_consecutive_files = addConsecutiveFiles();
+	pref->media_to_add_to_playlist = (Preferences::AutoAddToPlaylistFilter) mediaToAdd();
 }
 
 void PrefPlaylist::setAutoAddFilesToPlaylist(bool b) {
@@ -65,12 +71,14 @@ bool PrefPlaylist::autoAddFilesToPlaylist() {
 	return auto_add_to_playlist_check->isChecked();
 }
 
-void PrefPlaylist::setAddConsecutiveFiles(bool b) {
-	add_consecutive_files_check->setChecked(b);
+void PrefPlaylist::setMediaToAdd(int type) {
+	int i = media_to_add_combo->findData(type);
+	if (i < 0) i = 0;
+	media_to_add_combo->setCurrentIndex(i);
 }
 
-bool PrefPlaylist::addConsecutiveFiles() {
-	return add_consecutive_files_check->isChecked();
+int PrefPlaylist::mediaToAdd() {
+	return media_to_add_combo->itemData( media_to_add_combo->currentIndex() ).toInt();
 }
 
 void PrefPlaylist::setDirectoryRecursion(bool b) {
@@ -114,10 +122,12 @@ void PrefPlaylist::createHelp() {
            "case of DVDs, CDs and VCDs, all titles in the disc will be added "
            "to the playlist.") );
 
+/*
 	setWhatsThis(add_consecutive_files_check, tr("Add consecutive files"),
 		tr("If this option is enabled, SMPlayer will look for consecutive "
            "files (e.g. video_1.avi, video_2.avi...) and if found, they'll be "
            "added to the playlist.") );
+*/
 
 	setWhatsThis(play_from_start_check, tr("Play files from start"),
 		tr("If this option is enabled, all files from the playlist will "
