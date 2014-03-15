@@ -3066,7 +3066,7 @@ void BaseGui::newMediaLoaded() {
 	if ((core->mdat.type == TYPE_FILE) && (pref->auto_add_to_playlist)) {
 		//qDebug("BaseGui::newMediaLoaded: playlist count: %d", playlist->count());
 		QStringList files_to_add;
-		#if 0
+		#if 1
 		if (playlist->count() == 1) {
 			files_to_add = Helper::filesForPlaylist(core->mdat.filename, pref->media_to_add_to_playlist);
 		}

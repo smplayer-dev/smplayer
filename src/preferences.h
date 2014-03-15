@@ -49,7 +49,7 @@ public:
                          ChangeSpeed = 16 };
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 	enum H264LoopFilter { LoopDisabled = 0, LoopEnabled = 1, LoopDisabledOnHD = 2 };
-	enum AutoAddToPlaylistFilter { VideoFiles = 1, AudioFiles = 2, MultimediaFiles = 3, ConsecutiveFiles = 4 };
+	enum AutoAddToPlaylistFilter { NoFiles = 0, VideoFiles = 1, AudioFiles = 2, MultimediaFiles = 3, ConsecutiveFiles = 4 };
 
 	Q_DECLARE_FLAGS(WheelFunctions, WheelFunction);
 

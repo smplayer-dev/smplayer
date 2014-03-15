@@ -50,20 +50,37 @@
           </spacer>
          </item>
          <item>
-          <widget class="QCheckBox" name="add_consecutive_files_check">
+          <widget class="QLabel" name="media_to_add_label">
            <property name="enabled">
             <bool>false</bool>
            </property>
-           <property name="sizePolicy">
-            <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-             <horstretch>0</horstretch>
-             <verstretch>0</verstretch>
-            </sizepolicy>
-           </property>
            <property name="text">
-            <string>Add &amp;consecutive files</string>
+            <string>Add files from &amp;folder:</string>
+           </property>
+           <property name="buddy">
+            <cstring>media_to_add_combo</cstring>
            </property>
           </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="media_to_add_combo">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
          </item>
         </layout>
        </item>
@@ -127,21 +144,46 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>playlist_tab</tabstop>
+  <tabstop>auto_add_to_playlist_check</tabstop>
+  <tabstop>media_to_add_combo</tabstop>
+  <tabstop>play_from_start_check</tabstop>
+  <tabstop>recursive_check</tabstop>
+  <tabstop>getinfo_check</tabstop>
+  <tabstop>autosave_on_exit_check</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>
    <sender>auto_add_to_playlist_check</sender>
    <signal>toggled(bool)</signal>
-   <receiver>add_consecutive_files_check</receiver>
+   <receiver>media_to_add_combo</receiver>
    <slot>setEnabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>224</x>
-     <y>56</y>
+     <x>188</x>
+     <y>50</y>
     </hint>
     <hint type="destinationlabel">
-     <x>237</x>
-     <y>87</y>
+     <x>285</x>
+     <y>82</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>auto_add_to_playlist_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>media_to_add_label</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>188</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>118</x>
+     <y>82</y>
     </hint>
    </hints>
   </connection>

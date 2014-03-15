@@ -60,8 +60,8 @@ protected:
 	void setAutoAddFilesToPlaylist(bool b);
 	bool autoAddFilesToPlaylist();
 
-	void setAddConsecutiveFiles(bool b);
-	bool addConsecutiveFiles();
+	void setMediaToAdd(int);
+	int mediaToAdd();
 
 protected:
 	virtual void retranslateStrings();
