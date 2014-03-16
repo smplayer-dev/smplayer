@@ -115,7 +115,7 @@ echo --- SMPlayer NSIS Package [32-bit] ---
 echo.
 
 if exist %TOP_LEVEL_DIR%\smplayer-build (
-  %MAKENSIS_EXE_PATH% /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 if not "%USER_CHOICE%" == "10"  goto end
@@ -125,7 +125,7 @@ echo --- SMPlayer NSIS Package [64-bit] ---
 echo.
 
 if exist %TOP_LEVEL_DIR%\smplayer-build64 (
-  %MAKENSIS_EXE_PATH% /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 goto end
