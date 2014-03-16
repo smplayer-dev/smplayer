@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2754,10 +2752,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2855,7 +2850,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -7505,72 +7500,64 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Wenn diese Option aktiviert ist, wird SMPlayer, jedes Mal wenn eine Datei geöffnet wird, die Abspielliste leeren und dann erst die Datei hinzufügen. Bei DVDs, CDs und VCDs werden alle Dateien der Disc zur Abspielliste hinzugefügt.</translation>
     </message>
     <message>
-        <source>Add consecutive files</source>
-        <translation type="obsolete">Aufeinanderfolgende Dateien hinzufügen</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="obsolete">Wenn diese Option aktiviert ist, wird SMPlayer nach aufeinanderfolgenden Dateien suchen (z. B. video_1.avi, video_2.avi, …) und diese zur Abspielliste hinzufügen.</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-Dateien</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Tondateien</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Video- und Tondateien</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortlaufende Dateien</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien aus einem Ordner hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option erlaubt es, Dateien automatisch zur Wiedergabeliste hinzuzufügen:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Keine&lt;/b&gt;: keine Dateien werden hinzugefügt</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Video-Dateien&lt;/b&gt;: alle in dem Ordner gefunden Video-Dateien, werden hinzugefügt</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Tondateien&lt;/b&gt;: alle in dem Ordner gefunden Tondateien, werden hinzugefügt</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Video- und Tondateien&lt;/b&gt;: alle in dem Ordner gefunden Video- und Tondateien, werden hinzugefügt</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Fortlaufende Dateien&lt;/b&gt;: fortlaufende Dateien (wie z.B.: film_1.avi, film_2.avi) werden hinzugefügt</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7608,10 +7595,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Dateien automatisch zur Abspielliste hinzufügen</translation>
     </message>
     <message>
-        <source>Add &amp;consecutive files</source>
-        <translation type="obsolete">A&amp;ufeinanderfolgende Dateien hinzufügen</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="138"/>
         <source>Add files in directories recursively</source>
         <translation>Dateien in Ordner rekursiv einfügen</translation>
@@ -7629,7 +7612,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -8618,19 +8601,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
