@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2753,9 +2751,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 자막을 추출했습니다</numerusform>
-        </translation>
+        <translation><numerusform>%n 자막을 추출했습니다</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2853,7 +2849,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>다운로드한 파일을 폴더에 저장할 수 없습니다.
@@ -7500,72 +7496,64 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>이 옵션은 파일을 열 때마다 SMPlayer가 재생목록을 초기화하고 그 파일을 재생목록에 추가합니다. DVD, CD 와 VCD인 경우 디스크의 모든 타이틀이 재생목록에 추가가 될 것입니다.</translation>
     </message>
     <message>
-        <source>Add consecutive files</source>
-        <translation type="obsolete">비슷한 파일명 추가하기</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="obsolete">이 옵션은 SMPlayer가 파일을 열 때 비슷한 이름의 파일을 발견시 (video_1.avi, video_2...) 재생목록에 자동으로 추가해 줍니다.</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished">없음</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 파일</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 파일</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오와 오디오 파일</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>비슷한 이름의 파일</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더에서 파일 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 파일을 재생목록에 자동으로 추가할 수 있게 합니다:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;없음&lt;/b&gt;: 파일을 추가하지 않습니다</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;비디오 파일&lt;/b&gt;: 폴더의 모든 비디오 파일을 추가합니다</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;오디오 파일&lt;/b&gt;: 폴더의 모든 오디오 파일을 추가합니다</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;비디오와 오디오 파일&lt;/b&gt;: 폴더의 모든 비디오와 오디오 파일을 추가합니다</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;비슷한 이름의 파일&lt;/b&gt;: video_1.avi, video_2.avi 와 같이 비슷한 파일을 추가합니다</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7603,10 +7591,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>자동으로 파일을 재생 목록에 추가하기</translation>
     </message>
     <message>
-        <source>Add &amp;consecutive files</source>
-        <translation type="obsolete">비슷한 파일명 추가하기</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="138"/>
         <source>Add files in directories recursively</source>
         <translation>하위 폴더의 파일 추가하기</translation>
@@ -7624,7 +7608,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더에서 파일 추가하기:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -8613,17 +8597,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 초</numerusform>
-        </translation>
+        <translation><numerusform>%n 초</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 분</numerusform>
-        </translation>
+        <translation><numerusform>%n 분</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
