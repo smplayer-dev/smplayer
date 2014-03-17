@@ -1110,7 +1110,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1645"/>
         <source>View &amp;info and properties...</source>
-        <translation>Ин&amp;формация и параметры...</translation>
+        <translation>Ин&amp;формация и свойства...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
@@ -8461,7 +8461,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../preferencesdialog.cpp" line="65"/>
         <location filename="../preferencesdialog.cpp" line="134"/>
         <source>SMPlayer - Help</source>
-        <translation>SMPlayer – Помощь</translation>
+        <translation>SMPlayer – Справка</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="138"/>
@@ -8481,7 +8481,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.cpp" line="141"/>
         <source>Help</source>
-        <translation>Помощь</translation>
+        <translation>Справка</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.ui" line="13"/>
