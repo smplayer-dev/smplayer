@@ -204,12 +204,12 @@
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>British English</source>
-        <translation type="unfinished"/>
+        <translation>Anglais (Royaume-Uni)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>Albanian</source>
-        <translation type="unfinished"/>
+        <translation>Albanais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="217"/>
@@ -1204,7 +1204,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1625"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"/>
+        <translation>Trouver les sous-titres sur &amp;OpenSubtitles.org..</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
@@ -6702,7 +6702,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation>Les contrôles flottants apparaissent en mode plein écran lorsque la curseur est déplacé.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6778,27 +6778,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Seléctionner l&apos;interface graphique que vous préférez pour l&apos;application.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"/>
+        <translation>L&apos;&lt;b&gt;Interface Basique&lt;/b&gt; fournit une interface traditionnelle, avec un barre d&apos;outils et une barre de contrôles.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"/>
+        <translation>L&apos;&lt;b&gt;Interface Minimaliste&lt;/b&gt; fournit une interface plus simple, sans barre d&apos;outils et avec moins de boutons dans la barre de contrôle.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"/>
+        <translation>L&apos;&lt;b&gt;Interface Skinnable&lt;/b&gt; fournit une interface dans laquelle plusieurs skins sont disponibles.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"/>
+        <translation>L&apos;&lt;b&gt;Interface Mpc&lt;/b&gt; ressemble à l&apos;interface du Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
@@ -7500,62 +7500,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>Aucune</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"/>
+        <translation>Fichiers vidéo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"/>
+        <translation>Fichiers audio</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"/>
+        <translation>Fichiers audio et vidéo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"/>
+        <translation>Fichiers consécutifs</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter des fichiers depuis le dossier</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Cette option permet d&apos;ajouter des fichiers automatiquement à la playlist : </translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Aucun&lt;/b&gt;  aucun fichiers ne seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fichieers vidéos&lt;/b&gt; : tous les fichiers trouvés dans le répertoire seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fichiers audios&lt;/b&gt; : tous les fichiers trouvés dans le répertoire seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fichiers audios et vidéos&lt;/b&gt; : tous les fichiers trouvés dans le répertoire seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fichiers consécutifs&lt;/b&gt; : les fichiers consécutifs (par ex: video_1.avi, video_2.avi) seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7610,7 +7610,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter des fichiers du &amp;répertoire :</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
