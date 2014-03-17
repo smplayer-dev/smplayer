@@ -468,6 +468,13 @@ void Core::open(QString file, int seek) {
 		*/
 	}
 	else
+#ifdef BLURAY_SUPPORT
+	if (file.toLower().startsWith("br:")) {
+		qDebug("Core::open: * identified as blu-ray");
+		openBluRay(file);
+	}
+	else
+#endif
 	if (file.toLower().startsWith("vcd:")) {
 		qDebug("Core::open: * identified as vcd");
 
