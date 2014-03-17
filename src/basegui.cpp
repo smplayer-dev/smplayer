@@ -3081,14 +3081,8 @@ void BaseGui::newMediaLoaded() {
 }
 
 void BaseGui::gotNoFileToPlay() {
-	qDebug("BaseGui::gotNoFileToPlay");
-	if (playlist->count() > 0) {
-		if (playlist->count() == 1) {
-			playlist->startPlay();
-		} else {
-			playlist->playNext();
-		}
-	}
+	//qDebug("BaseGui::gotNoFileToPlay");
+	playlist->resumePlay();
 }
 
 #ifdef LOG_MPLAYER

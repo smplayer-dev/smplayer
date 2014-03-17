@@ -91,6 +91,8 @@ public slots:
 	virtual void playNext();
 	virtual void playPrev();
 
+	virtual void resumePlay();
+
 	virtual void removeSelected();
 	virtual void removeAll();
 	virtual void remove(int);
