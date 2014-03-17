@@ -64,6 +64,10 @@
         url: http://www.kde-look.org/content/show.php/Crystal+Clear?content=25668
         license: LGPL
 
+     * Oxygen Team
+        url: http://www.iconarchive.com/artist/oxygen-icons.org.html
+        license: LGPL
+
      * ricebowl-0.2.0
         url: http://www.deviantart.com/deviation/22605468/
         license: LGPL 
