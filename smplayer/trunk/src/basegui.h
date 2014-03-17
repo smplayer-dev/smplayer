@@ -202,6 +202,8 @@ protected slots:
 	virtual void newMediaLoaded();
 	virtual void updateMediaInfo();
 
+	void gotNoFileToPlay();
+
 	void checkPendingActionsToRun();
 
 #if REPORT_OLD_MPLAYER
