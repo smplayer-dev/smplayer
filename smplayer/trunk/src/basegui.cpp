@@ -3083,8 +3083,11 @@ void BaseGui::newMediaLoaded() {
 void BaseGui::gotNoFileToPlay() {
 	qDebug("BaseGui::gotNoFileToPlay");
 	if (playlist->count() > 0) {
-		//playlist->startPlay();
-		playlist->playNext();
+		if (playlist->count() == 1) {
+			playlist->startPlay();
+		} else {
+			playlist->playNext();
+		}
 	}
 }
 
