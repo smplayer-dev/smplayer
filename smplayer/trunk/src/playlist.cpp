@@ -958,6 +958,14 @@ void Playlist::playPrev() {
 	}
 }
 
+
+void Playlist::resumePlay() {
+	if (pl.count() > 0) {
+		if (current_item < 0) current_item = 0;
+		playItem(current_item);
+	}
+}
+
 void Playlist::getMediaInfo() {
 	qDebug("Playlist:: getMediaInfo");
 
