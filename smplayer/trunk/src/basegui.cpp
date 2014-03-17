@@ -189,6 +189,10 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	createMenus();
 #if AUTODISABLE_ACTIONS
 	setActionsEnabled(false);
+	if (playlist->count() > 0) {
+		playAct->setEnabled(true);
+		playOrPauseAct->setEnabled(true);
+	}
 #endif
 
 #if !DOCK_PLAYLIST
