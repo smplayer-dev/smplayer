@@ -48,11 +48,19 @@ QString InfoFile::getInfo(MediaData md) {
 		case TYPE_AUDIO_CD	: 	icon = "type_vcd.png"; break;
 		case TYPE_TV	: 	icon = "type_tv.png"; break;
 		case TYPE_STREAM : 	icon = "type_url.png"; break;
+#ifdef BLURAY_SUPPORT
+		case TYPE_BLURAY : 	icon = "type_bluray.png"; break;
+#endif
 		default 		: 	icon = "type_unknown.png";
 	}
 	icon = "<img src=\"" + Images::file(icon) + "\"> ";
 
-	if (md.type == TYPE_DVD) {
+#ifdef BLURAY_SUPPORT
+	if (md.type == TYPE_DVD || md.type == TYPE_BLURAY)
+#else
+	if (md.type == TYPE_DVD)
+#endif
+	{
 		DiscData disc_data = DiscName::split(md.filename);
 		s += title( icon + disc_data.protocol + "://" + QString::number(disc_data.title) );
 	} else {
