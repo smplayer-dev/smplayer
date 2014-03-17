@@ -442,7 +442,7 @@ signals:
 	void mediaInfoChanged();
 	//! Sends the filename and title of the stream playing in this moment
 	void mediaPlaying(const QString & filename, const QString & title);
-    void stateChanged(Core::State state);
+	void stateChanged(Core::State state);
 	void mediaStartPlay();
 	void mediaFinished(); // Media has arrived to the end.
 	void mediaStoppedByUser();
@@ -467,6 +467,9 @@ signals:
 #if NOTIFY_AUDIO_CHANGES
 	void audioTracksChanged();
 #endif
+
+	//! Sent when requested to play, but there is no file to play
+	void noFileToPlay();
 
 	//! MPlayer started but finished with exit code != 0
 	void mplayerFinishedWithError(int exitCode);

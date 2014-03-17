@@ -2021,6 +2021,9 @@ void BaseGui::createCore() {
 
 	connect( core, SIGNAL(mediaLoaded()),
              this, SLOT(enableActionsOnPlaying()) );
+
+	connect( core, SIGNAL(noFileToPlay()), this, SLOT(gotNoFileToPlay()) );
+
 #if NOTIFY_AUDIO_CHANGES
 	connect( core, SIGNAL(audioTracksChanged()),
              this, SLOT(enableActionsOnPlaying()) );
@@ -3070,6 +3073,14 @@ void BaseGui::newMediaLoaded() {
 			files_to_add = Helper::filesForPlaylist(core->mdat.filename, pref->media_to_add_to_playlist);
 		}
 		if (!files_to_add.empty()) playlist->addFiles(files_to_add);
+	}
+}
+
+void BaseGui::gotNoFileToPlay() {
+	qDebug("BaseGui::gotNoFileToPlay");
+	if (playlist->count() > 0) {
+		//playlist->startPlay();
+		playlist->playNext();
 	}
 }
 

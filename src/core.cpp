@@ -1276,13 +1276,12 @@ void Core::stop()
 }
 
 
-void Core::play()
-{
+void Core::play() {
 	qDebug("Core::play");
-    
+
 	if ((proc->isRunning()) && (state()==Paused)) {
 		tellmp("pause"); // Unpauses
-    } 
+	}
 	else
 	if ((proc->isRunning()) && (state()==Playing)) {
 		// nothing to do, continue playing
@@ -1297,8 +1296,10 @@ void Core::play()
 			}
 			*/
 			restartPlay();
+		} else {
+			emit noFileToPlay();
 		}
-    }
+	}
 }
 
 void Core::pause_and_frame_step() {
