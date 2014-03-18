@@ -7612,7 +7612,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>Dateien aus einem &amp;Ordner hinzufügen:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
