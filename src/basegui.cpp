@@ -114,6 +114,7 @@
 
 #ifdef REMINDER_ACTIONS
 #include "reminderdialog.h"
+#include "sharedialog.h"
 #endif
 
 using namespace Global;
@@ -4427,30 +4428,20 @@ void BaseGui::checkReminder() {
 	bool dont_show = set->value("dont_show_anymore", false).toBool();
 	set->endGroup();
 
+#if 1
 	if (dont_show) return;
 
 	if (action != 0) return;
 	if ((count != 25) && (count != 45)) return;
+#endif
 
-	ReminderDialog box(this);
-	int r = box.exec();
+	ShareDialog d(this);
+	//d.showRemindCheck(false);
+	d.exec();
+	action = d.actions();
+	qDebug("BaseGui::checkReminder: action: %d", action);
 
-	if (r == ReminderDialog::Donate) {
-		QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
-		action = 1;
-	}
-	else 
-	if (r == ReminderDialog::Share) {
-		QString text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
-		QString url = "http://smplayer.sourceforge.net";
-		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + url + "&t=" + text));
-		action = 2;
-	}
-	else
-	if (r == ReminderDialog::Close) {
-	}
-
-	if (!box.isRemindChecked()) {
+	if (!d.isRemindChecked()) {
 		set->beginGroup("reminder");
 		set->setValue("dont_show_anymore", true);
 		set->endGroup();
@@ -4461,6 +4452,8 @@ void BaseGui::checkReminder() {
 		set->setValue("action", action);
 		set->endGroup();
 	}
+
+	//qDebug() << "size:" << d.size();
 }
 #endif
 
