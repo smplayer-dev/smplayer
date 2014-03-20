@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 QT += network xml
 
@@ -395,6 +395,10 @@ contains( DEFINES, REMINDER_ACTIONS ) {
 	HEADERS += reminderdialog.h
 	SOURCES += reminderdialog.cpp
 	FORMS += reminderdialog.ui
+
+	HEADERS += sharedialog.h
+	SOURCES += sharedialog.cpp
+	FORMS += sharedialog.ui
 }
 
 unix {
