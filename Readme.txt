@@ -68,10 +68,6 @@
         url: http://www.iconarchive.com/artist/oxygen-icons.org.html
         license: LGPL
 
-     * SocioCons
-        url: http://rohitink.com/sociocons/
-        license: GNU GPL v3
-
      * WPZOOM Social Networking Icon Pack
         url: http://findicons.com/pack/2336/wpzoom_social_networking_icon
         license: Creative Commons Attribution Share Alike (by-sa)
