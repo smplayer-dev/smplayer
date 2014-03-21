@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1391,18 +1389,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - SMPlayer のログ</translation>
     </message>
     <message>
-        <source>Donate</source>
-        <translation type="obsolete">寄付</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">SMPlayer がお好みで、その開発を支援していただけるのでしたら、寄付を送ることができます。小額でも大変喜ばれます。</translation>
-    </message>
-    <message>
-        <source>Yes, I want to donate</source>
-        <translation type="obsolete">はい、寄付します</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4474"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>残念ながら YouTube ページの変更により、このビデオは再生できません。</translation>
@@ -1512,7 +1498,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1608"/>
         <source>Volume &amp;normalization</source>
-        <translation>音量の通常化(&amp;N)</translation>
+        <translation>音量の正規化(&amp;N)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1490"/>
@@ -2750,9 +2736,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 個の字幕が抽出されました</numerusform>
-        </translation>
+        <translation><numerusform>%n 個の字幕が抽出されました</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2850,7 +2834,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -5442,7 +5426,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="795"/>
         <source>Volume &amp;normalization by default</source>
-        <translation>既定での音量の通常化(&amp;N)</translation>
+        <translation>既定での音量の正規化(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="903"/>
@@ -5502,7 +5486,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Volume normalization by default</source>
-        <translation>既定での音量の通常化</translation>
+        <translation>既定での音量の正規化</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
@@ -8598,17 +8582,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8675,57 +8655,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>ReminderDialog</name>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">SMPlayer の支援</translation>
-    </message>
-    <message>
-        <source>&amp;Remind me later</source>
-        <translation type="obsolete">後で通知</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">SMPlayer がお好みで、その開発を支援していただけるのでしたら、寄付を送ることができます。小額でも大変喜ばれます。</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">また、 Facebook でご友人と SMPlayer を共有していただくこともできます。</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">どうしますか?</translation>
-    </message>
-    <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">寄付(&amp;D)</translation>
-    </message>
-    <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">友人と共有(&amp;S)</translation>
-    </message>
-</context>
-<context>
     <name>ShareDialog</name>
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer の支援</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished">後で通知</translation>
+        <translation>後で通知する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>PayPal で寄付する</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"></translation>
+        <translation>寄付やご友人との共有によって SMPlayer を支援することができます。</translation>
     </message>
 </context>
 <context>

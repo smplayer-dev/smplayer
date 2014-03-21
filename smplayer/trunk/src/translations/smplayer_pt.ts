@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -958,7 +956,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Sobre &amp;SMPlayer</translation>
+        <translation>Sobre o &amp;SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3191"/>
@@ -1383,24 +1381,12 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1950"/>
         <source>SMPlayer - MPlayer log</source>
-        <translation>SMPlayer - registos mplayer</translation>
+        <translation>SMPlayer - registos MPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1953"/>
         <source>SMPlayer - SMPlayer log</source>
-        <translation>SMPlayer - registos smplayer</translation>
-    </message>
-    <message>
-        <source>Donate</source>
-        <translation type="obsolete">Donativos</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Se você gosta do SMPlayer e quiser ajudar no desenvolvimento, pode efetuar um donativo. Até o mais pequeno conta.</translation>
-    </message>
-    <message>
-        <source>Yes, I want to donate</source>
-        <translation type="obsolete">Sim, quero fazer um donativo</translation>
+        <translation>SMPlayer - registos SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4474"/>
@@ -2750,10 +2736,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2851,7 +2834,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro transferido
@@ -4942,7 +4925,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Se ativar esta opção, o SMPlayergrava as mensagens de depuração que o programa emite (pode ver o registo em &lt;b&gt;Opções-&gt;Ver registos-&gt;SMPlayer&lt;/b&gt;). Esta informação pode ser útil para o programador no caso de encontrar um problema.</translation>
+        <translation>Se ativar esta opção, o SMPlayer grava as mensagens de depuração que o programa emite (pode ver o registo em &lt;b&gt;Opções-&gt;Ver registos-&gt;SMPlayer&lt;/b&gt;). Esta informação pode ser útil para o programador no caso de encontrar um problema.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
@@ -5027,7 +5010,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="643"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
-        <translation>Gra&amp;var registo do SMPlayer para ficheiro</translation>
+        <translation>Gra&amp;var registos do SMPlayer para um ficheiro</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -5105,7 +5088,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Selecione as extensões dos ficheiros que pretende que sejam controlados pelo SMPlayer. Ao aplicar, todos os ficheiros marcados serão associados ao SMPlayer. Se desmarcar algum tipo, a associação original será restaurada.</translation>
+        <translation>Selecione as extensões dos ficheiros que pretende que sejam controladas pelo SMPlayer. Ao aplicar, todos os ficheiros marcados serão associados ao SMPlayer. Se desmarcar algum tipo, a associação original será restaurada.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5758,7 +5741,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="868"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation>Aqui, deve especificar o executável mplayer utilizado pelo SMPlayer.&lt;br&gt;O SMPlayer requer, no mínimo, o Mplayer 1.0rc1, embora uma versão mais recente seja altamente recomendada.</translation>
+        <translation>Aqui, deve especificar o executável MPlayer utilizado pelo SMPlayer.&lt;br&gt;O SMPlayer requer, no mínimo, o Mplayer 1.0rc1 (embora seja recomendada uma versão mais recente).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="872"/>
@@ -5798,7 +5781,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui, pode introduzir o idioma preferido para as legendas. Quando um vídeo com múltiplas legendas é encontrado, o SMPlayertenta utilizar o seu idioma preferido.&lt;br&gt;Isto só funciona com ficheiros que ofereçam informação sobre o idioma das legendas, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões normais. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as legendas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui, pode introduzir o idioma preferido para as legendas. Quando um vídeo com múltiplas legendas é encontrado, o SMPlayer tenta utilizar o seu idioma preferido.&lt;br&gt;Isto só funciona com ficheiros que ofereçam informação sobre o idioma das legendas, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões normais. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as legendas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -7291,7 +7274,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="319"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>Valores possíveis:&lt;br&gt; &lt;b&gt; Sim &lt;/b&gt;: tenta ométodo mais rápido para trocar de faixa áudio (pode não funcionar com alguns formatos).&lt;br&gt; &lt;b&gt; Não &lt;/b&gt;: o processo MPlayer será reiniciado sempre que você alterar a faixa áudio.&lt;br&gt; &lt;b&gt; Automático &lt;/b&gt;: o SMPlayer decide o que fazer, de acordo com para a versão MPlayer.</translation>
+        <translation>Valores possíveis:&lt;br&gt; &lt;b&gt; Sim &lt;/b&gt;: tenta o método mais rápido para trocar de faixa áudio (pode não funcionar com alguns formatos).&lt;br&gt; &lt;b&gt; Não &lt;/b&gt;: o processo MPlayer será reiniciado sempre que você alterar a faixa áudio.&lt;br&gt; &lt;b&gt; Automático &lt;/b&gt;: o SMPlayer decide o que fazer, de acordo com para a versão MPlayer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="340"/>
@@ -7579,7 +7562,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="151"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation>Se ativar esta opção, o smplayer guardará uma cópia da lista de reprodução ao fechar. Ao reiniciar o SMPlayer, a lista de reprodução será retomada.</translation>
+        <translation>Se ativar esta opção, o SMPlayer guardará uma cópia da lista de reprodução ao fechar. Ao reiniciar o SMPlayer, a lista de reprodução será retomada.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8598,19 +8581,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8677,57 +8654,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>ReminderDialog</name>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">Ajudar o SMPlayer</translation>
-    </message>
-    <message>
-        <source>&amp;Remind me later</source>
-        <translation type="obsolete">Lemb&amp;rar mais tarde</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Se você gosta do SMPlayer e quiser ajudar no desenvolvimento, pode efetuar um donativo. Até o mais pequeno conta.</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">Ou pode publicitar o SMPlayer no Facebook.</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">O que pretende fazer?</translation>
-    </message>
-    <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">&amp;Donativo</translation>
-    </message>
-    <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">Publicitar o &amp;SMPlayer</translation>
-    </message>
-</context>
-<context>
     <name>ShareDialog</name>
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajudar o SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished">Lemb&amp;rar mais tarde</translation>
+        <translation>Lemb&amp;rar mais tarde</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donativos com Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pode ajudar no desenvolvimento do SMPlayer fazendo um donativo ou publicitando-o aos seu amigos.</translation>
     </message>
 </context>
 <context>

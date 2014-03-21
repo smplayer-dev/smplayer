@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -762,7 +760,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1802"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;Deinterlace</translation>
+        <translation>&amp;Raspletanje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1583"/>
@@ -1389,18 +1387,6 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <location filename="../basegui.cpp" line="1953"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer - SMplayer zapis</translation>
-    </message>
-    <message>
-        <source>Donate</source>
-        <translation type="obsolete">Donirajte</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Ako vam se sviđa SMPlayer i želite podržati njegov razvoj, možete nam poslati donaciju. Čak i najmanja donacija je vrlo dobrodošla.</translation>
-    </message>
-    <message>
-        <source>Yes, I want to donate</source>
-        <translation type="obsolete">Da, želim donirati</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4474"/>
@@ -2750,11 +2736,7 @@ Npr: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2852,7 +2834,7 @@ Npr: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -5666,12 +5648,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>Deinterlace by default</source>
-        <translation>Deinterlace zadano</translation>
+        <translation>Raspletanje zadano</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="945"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Odaberi deinterlace filter koji želite koristiti pri pokretanju novog video zapisa.</translation>
+        <translation>Odaberi filter raspletanja koji želite koristiti pri pokretanju novog video zapisa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="880"/>
@@ -8367,12 +8349,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation>Zadaj deinterlace za TV</translation>
+        <translation>Zadaj raspletanje za TV</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation>Odaberi deinterlace filter koji će biti korišten za TV programe.</translation>
+        <translation>Odaberi filter raspletanja koji će biti korišten za TV programe.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -8600,21 +8582,13 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8681,57 +8655,26 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     </message>
 </context>
 <context>
-    <name>ReminderDialog</name>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">Pomoć SMPlayera</translation>
-    </message>
-    <message>
-        <source>&amp;Remind me later</source>
-        <translation type="obsolete">&amp;Podsjeti me kasnije</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Ako vam se sviđa SMPlayer i želite podržati njegov razvoj, možete nam poslati donaciju. Čak i najmanja donacija je vrlo dobrodošla.</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">Ili možda želite podijeliti SMPlayer sa svojim prijateljima na Facebooku.</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">Što želite učiniti?</translation>
-    </message>
-    <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">&amp;Donirajte</translation>
-    </message>
-    <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">&amp;Podijelite SMPlayer sa svojim prijateljima</translation>
-    </message>
-</context>
-<context>
     <name>ShareDialog</name>
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Podržite SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished">&amp;Podsjeti me kasnije</translation>
+        <translation>&amp;Podsjeti me kasnije</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donirajte Paypalom</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Možete podržati SMPlayer slanjem donacije ili tako da ga podijelite sa svojim prijateljima na društvenim mrežama.</translation>
     </message>
 </context>
 <context>
