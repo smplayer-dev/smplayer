@@ -15,9 +15,9 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="intro_label">
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;You can support SMPlayer by sending a donation or sharing it with your friends.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;You can support SMPlayer by sending a donation or sharing it with your friends.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -35,7 +35,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>...</string>
+        <string notr="true">...</string>
        </property>
       </widget>
      </item>
@@ -48,7 +48,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>...</string>
+        <string notr="true">...</string>
        </property>
       </widget>
      </item>
@@ -61,7 +61,7 @@
         </sizepolicy>
        </property>
        <property name="text">
-        <string>...</string>
+        <string notr="true">...</string>
        </property>
       </widget>
      </item>
