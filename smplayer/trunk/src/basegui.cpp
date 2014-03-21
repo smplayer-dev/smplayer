@@ -113,7 +113,6 @@
 #endif
 
 #ifdef REMINDER_ACTIONS
-#include "reminderdialog.h"
 #include "sharedialog.h"
 #endif
 
@@ -822,6 +821,7 @@ void BaseGui::createActions() {
 	connect( aboutThisAct, SIGNAL(triggered()),
              this, SLOT(helpAbout()) );
 
+#ifdef SHARE_MENU
 	facebookAct = new MyAction (this, "facebook");
 	twitterAct = new MyAction (this, "twitter");
 	gmailAct = new MyAction (this, "gmail");
@@ -838,7 +838,7 @@ void BaseGui::createActions() {
              this, SLOT(shareSMPlayer()) );
 	connect( yahooAct, SIGNAL(triggered()),
              this, SLOT(shareSMPlayer()) );
-
+#endif
 
 	// Playlist
 	playNextAct = new MyAction(Qt::Key_Greater, this, "play_next");
@@ -1677,12 +1677,13 @@ void BaseGui::retranslateStrings() {
 #endif
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 
+#ifdef SHARE_MENU
 	facebookAct->change("&Facebook");
 	twitterAct->change("&Twitter");
 	gmailAct->change("&Gmail");
 	hotmailAct->change("&Hotmail");
 	yahooAct->change("&Yahoo!");
-
+#endif
 
 	// Playlist
 	playNextAct->change( tr("&Next") );
@@ -1931,8 +1932,10 @@ void BaseGui::retranslateStrings() {
 	osd_menu->menuAction()->setText( tr("&OSD") );
 	osd_menu->menuAction()->setIcon( Images::icon("osd") );
 
+#ifdef SHARE_MENU
 	share_menu->menuAction()->setText( tr("S&hare SMPlayer with your friends") );
 	share_menu->menuAction()->setIcon( Images::icon("share") );
+#endif
 
 #if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
 	logs_menu->menuAction()->setText( tr("&View logs") );
@@ -2650,6 +2653,7 @@ void BaseGui::createMenus() {
 
 	// HELP MENU
 	// Share submenu
+#ifdef SHARE_MENU
 	share_menu = new QMenu(this);
 	share_menu->addAction(facebookAct);
 	share_menu->addAction(twitterAct);
@@ -2659,6 +2663,8 @@ void BaseGui::createMenus() {
 
 	helpMenu->addMenu(share_menu);
 	helpMenu->addSeparator();
+#endif
+
 	helpMenu->addAction(showFirstStepsAct);
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
@@ -4002,18 +4008,16 @@ void BaseGui::helpShowConfig() {
 
 #ifdef REMINDER_ACTIONS
 void BaseGui::helpDonate() {
-	QMessageBox d(QMessageBox::NoIcon, tr("Donate"), 
-		tr("If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated."),
-		QMessageBox::Ok | QMessageBox::Cancel, this);
-	d.setIconPixmap( Images::icon("logo", 64) );
-	d.button(QMessageBox::Ok)->setText(tr("Yes, I want to donate"));
-	d.setDefaultButton(QMessageBox::Ok);
-	if ( d.exec() == QMessageBox::Ok ) {
-		QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
+	ShareDialog d(this);
+	d.showRemindCheck(false);
+	d.exec();
+	int action = d.actions();
+	qDebug("BaseGui::helpDonate: action: %d", action);
 
+	if (action > 0) {
 		QSettings * set = Global::settings;
 		set->beginGroup("reminder");
-		set->setValue("action", 1);
+		set->setValue("action", action);
 		set->endGroup();
 	}
 }
@@ -4024,6 +4028,7 @@ void BaseGui::helpAbout() {
 	d.exec();
 }
 
+#ifdef SHARE_MENU
 void BaseGui::shareSMPlayer() {
 	QString text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
 	QString url = "http://smplayer.sourceforge.net";
@@ -4055,6 +4060,7 @@ void BaseGui::shareSMPlayer() {
 		#endif
 	}
 }
+#endif
 
 void BaseGui::showGotoDialog() {
 	TimeDialog d(this);
