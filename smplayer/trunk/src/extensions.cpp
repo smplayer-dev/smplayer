@@ -62,7 +62,7 @@ Extensions::Extensions()
            << "rm" << "swf"
            << "ts" << "rmvb" << "dvr-ms" << "m2t" << "m2ts" << "mts" << "rec" << "wtv"
            << "f4v" << "hdmov" << "webm" << "vp8"
-           << "bik" << "smk" ;
+           << "bik" << "smk" << "m4b";
 
 	_audio << "mp3" << "ogg" << "oga" << "wav" << "wma" <<  "aac" << "ac3" << "dts" << "ra" << "ape" << "flac" << "thd" << "mka" << "m4a";
 
