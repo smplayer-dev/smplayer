@@ -33,6 +33,8 @@
 #include <windows.h>
 #endif
 
+//#define SHARE_MENU
+
 class QWidget;
 class QMenu;
 class LogWindow;
@@ -114,7 +116,9 @@ public slots:
 	virtual void helpShowConfig();
 	virtual void helpAbout();
 
+#ifdef SHARE_MENU
 	virtual void shareSMPlayer();
+#endif
 
 	virtual void loadSub();
 	virtual void loadAudioFile(); // Load external audio file
@@ -508,11 +512,13 @@ protected:
 #endif
 	MyAction * aboutThisAct;
 
+#ifdef SHARE_MENU
 	MyAction * facebookAct;
 	MyAction * twitterAct;
 	MyAction * gmailAct;
 	MyAction * hotmailAct;
 	MyAction * yahooAct;
+#endif
 
 	// Playlist
 	MyAction * playPrevAct;
@@ -745,7 +751,9 @@ protected:
 	QMenu * closed_captions_menu;
 	QMenu * subfps_menu;
 
+#ifdef SHARE_MENU
 	QMenu * share_menu;
+#endif
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
