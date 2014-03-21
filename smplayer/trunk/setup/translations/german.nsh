@@ -18,7 +18,7 @@ ${LangFileString} Existing_64bitInst "Es existiert eine vorhandene 64-Bit-Instal
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA)-Einrichtung"
-${LangFileString} WelcomePage_Text "Der Einrichtungsassistent wird Sie durch die Installation von $(^NameDA) begleiten.$\r$\n$\r$\nEs wird empfohlen, alle Instanzen des SMPlayers vor dem Beginn der Instalation zu schließen. Dadurch wird es möglich, entsprechende Programm-Dateien, ohne einen Neustart des Computers zu aktualisieren.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Der Einrichtungsassistent wird Sie durch die Installation von $(^NameDA) begleiten.$\r$\n$\r$\nEs wird empfohlen, alle Instanzen des SMPlayers vor dem Beginn der Installation zu schließen. Dadurch wird es möglich, entsprechende Programmdateien, ohne einen Neustart des Rechners zu aktualisieren.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Verknüpfung"
@@ -98,5 +98,5 @@ ${LangFileString} Info_Del_Files "Dateien werden gelöscht …"
 ${LangFileString} Info_Del_Registry "Registrierungsschlüssel werden gelöscht …"
 ${LangFileString} Info_Del_Shortcuts "Verknüpfungen werden gelöscht …"
 ${LangFileString} Info_Rest_Assoc "Dateizuordnungen werden wiederhergestellt …"
-${LangFileString} Info_RollBack "Zurücksetzen der Änderungen..."
+${LangFileString} Info_RollBack "Zurücksetzen der Änderungen …"
 ${LangFileString} Info_Files_Extract "Dateien werden entpackt …"
