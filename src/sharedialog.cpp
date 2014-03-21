@@ -41,31 +41,13 @@ ShareDialog::ShareDialog( QWidget* parent, Qt::WindowFlags f )
 	twitter_button->setText("Twitter");
 	twitter_button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
 
+	intro_label->setText("<html><head/><body><p align=\"center\"><span style=\" font-size:16pt;\">" +
+		tr("You can support SMPlayer by sending a donation or sharing it with your friends.") + "</span></p></body></html>");
+
 	setMinimumSize(QSize(435, 226));
-
-	/*
-	setMinimumSize(QSize(500, 100));
-
-	icon_label->setPixmap(Images::icon("donate_big"));
-
-	text_label->setText(
-		tr("If you like SMPlayer and want to support its development, you can send a donation. "
-           "Even the smallest one is highly appreciated.") + "<br><br>"+
-		tr("Or you maybe you want to share SMPlayer with your friends in Facebook.") + "<br><br>" +
-		tr("What would you like to do?") );
-
-	donate_button = buttonBox->addButton(tr("&Donate"), QDialogButtonBox::ActionRole);
-	facebook_button = buttonBox->addButton(tr("&Share with my friends"), QDialogButtonBox::ActionRole);
-	close_button = buttonBox->button(QDialogButtonBox::Close);
-
-	donate_button->setDefault(true);
-	donate_button->setFocus();
-	*/
 
 	adjustSize();
 	//layout()->setSizeConstraint(QLayout::SetFixedSize);
-
-	//connect(buttonBox, SIGNAL(clicked(QAbstractButton *)), this, SLOT(button_clicked(QAbstractButton *)));
 
 	share_text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
 	share_url = "http://smplayer.sourceforge.net";
