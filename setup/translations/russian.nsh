@@ -18,7 +18,7 @@ ${LangFileString} Existing_64bitInst "Существует 64-битная ус�
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "Установка $(^NameDA) "
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Мастер установки поможет установить $(^NameDA).$\r$\n$\r$\nПеред началом установки рекомендуется закрыть все работающие копии SMPlayer. Это позволит обновить сопутствующие программные файлы без перезагрузки компьютера.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Ярлыки"
@@ -38,7 +38,7 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer; необходимо для в�
 
 ${LangFileString} Section_MPlayerCodecs "Бинарные кодеки"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Бинарные кодеки не поддерживаются в этой версии."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Дополнительные кодеки для MPlayer. (Для установки требуется подключение к сети Интернет)"
 !endif
