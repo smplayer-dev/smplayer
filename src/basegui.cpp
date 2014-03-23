@@ -4496,9 +4496,9 @@ void BaseGui::YTNoSignature(const QString & title) {
 void BaseGui::YTUpdateScript() {
 	static CodeDownloader * downloader = 0;
 	if (!downloader) downloader = new CodeDownloader(this);
-	downloader->saveAs(Paths::configPath() + "/ytcode.script");
+	downloader->saveAs(Paths::configPath() + "/yt.js");
 	downloader->show();
-	downloader->download(QUrl("http://updates.smplayer.info/ytcode.script"));
+	downloader->download(QUrl("http://updates.smplayer.info/yt.js"));
 }
 #endif // YT_USE_SCRIPT
 #endif //YOUTUBE_SUPPORT

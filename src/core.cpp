@@ -898,7 +898,7 @@ void Core::openStream(QString name) {
 		qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
 		if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent);
 		#ifdef YT_USE_SCRIPT
-		YTSig::setScriptFile( Paths::configPath() + "/ytcode.script" );
+		YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
 		#endif
 		yt->fetchPage(name);
 		return;

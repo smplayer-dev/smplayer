@@ -83,10 +83,11 @@ void YTSig::reloadScriptFile() {
 	if (!bytes.isEmpty()) {
 		script = bytes;
 
-		QRegExp rx("TS: ([\\d,a-z,A-Z-]+)");
+		QRegExp rx("D: ([\\d,a-z,A-Z-]+)");
 		if (rx.indexIn(bytes)) {
-			parsed_ts = rx.cap(0);
-			qDebug("YTSig::reloadScriptFile: parsed_ts: %s", parsed_ts.toLatin1().constData());
+			QByteArray d = rx.cap(1).toLatin1();
+			qDebug("YTSig::reloadScriptFile: d: %s", d.constData());
+			parsed_ts = QByteArray::fromBase64(d);
 		}
 
 	}
@@ -121,7 +122,7 @@ QString YTSig::aclara(const QString & text, const QString & player, const QStrin
 
 void YTSig::check(QString & u) {
 	if (!parsed_ts.isEmpty()) {
-		u.append(QString("%1%2%3").arg(QChar(38)).arg(QChar(115)).arg(parsed_ts.replace(": ","=").toLower()));
+		u.append(QString("&%1").arg(parsed_ts));
 	}
 }
 
