@@ -4970,7 +4970,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="190"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation>&amp;Выполнять следующие действия при открывании файла. Действия должны разделяться пробелами:</translation>
+        <translation>&amp;Выполнять следующие действия при открытии файла. Действия разделяются пробелами:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="485"/>
@@ -5351,7 +5351,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="59"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>За&amp;поминать настройки всех файлов (звук, субтитры...)</translation>
+        <translation>За&amp;поминать настройки всех файлов (звуковая дорожка, субтитры...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1038"/>
@@ -6685,7 +6685,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>Плавающая панель управления появляется в полноэкранном режиме, когда указатель мыши перемещается.</translation>
+        <translation>Плавающая панель управления появляется при перемещении мыши в полноэкранном режиме.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6776,7 +6776,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation>&lt;b&gt;Интерфейс со скинами&lt;/b&gt; обеспечивает интерфейс, где можно выбирать скины.</translation>
+        <translation>&lt;b&gt;Интерфейс с обложками&lt;/b&gt; предоставляет интерфейс, в котором можно менять обложки.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
@@ -6806,7 +6806,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="210"/>
         <source>Skinnable GUI</source>
-        <translation>Интерфейс со скинами</translation>
+        <translation>Интерфейс с обложками</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
@@ -6826,12 +6826,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="680"/>
         <source>Skin</source>
-        <translation>Скин</translation>
+        <translation>Обложка</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="681"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation>Выберите предпочитаемый скин приложения. Доступно только для интерфейса со скинами.</translation>
+        <translation>Выберите предпочитаемую обложку приложения. Доступно только для интерфейса с обложками.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="684"/>
@@ -6948,7 +6948,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;Внимание:&lt;/b&gt; плавающая панель не была разработана для компактного режима и может работать некорректно.</translation>
+        <translation>&lt;b&gt;Внимание:&lt;/b&gt; плавающая панель не была создана для компактного режима и может работать некорректно.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
@@ -8636,7 +8636,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation>открыть графический интерфейс с поддержкой скинов.</translation>
+        <translation>открыть графический интерфейс с поддержкой обложек.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
