@@ -8660,22 +8660,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Подкрепи SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Напомни ми по-късно</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"/>
+        <translation>Дарение с Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"/>
+        <translation>Можете да подкрепите SMPlayer, като го споделите с приятели или изпратите дарение.</translation>
     </message>
 </context>
 <context>

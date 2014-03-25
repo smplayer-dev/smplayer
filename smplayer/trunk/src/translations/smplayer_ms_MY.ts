@@ -204,12 +204,12 @@
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>British English</source>
-        <translation type="unfinished"/>
+        <translation>Inggeris Britain</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>Albanian</source>
-        <translation type="unfinished"/>
+        <translation>Albania</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="217"/>
@@ -1204,7 +1204,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1630"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"/>
+        <translation>Cari sarikata di &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1640"/>
@@ -6685,7 +6685,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation>Kawalan terapung muncul dalam mod skrin penuh bila tetikus bergerak.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6761,27 +6761,27 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Pilih antarmuka grafik yang anda gemari bagi aplikasi tersebut.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;GUI Asas&lt;/b&gt; menyediakan antaramuka tradisional, dengan palang alat dan palang kawalan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;GUI Mini&lt;/b&gt; menyediakan antaramuka yang lebih ringkas, tanpa palang alat dan palang kawalan dengan sedikit butang.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;GUI Boleh Dikulitkan&lt;/b&gt; menyediakan antaramuka yang mana kulit tersedia.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;GUI Mpc&lt;/b&gt; kelihatan seperti antaramuka Pemain Media Klasik.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
@@ -7483,62 +7483,62 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>Tiada</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"/>
+        <translation>Fail video</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"/>
+        <translation>Fail audio</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"/>
+        <translation>Fai audio dan video</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"/>
+        <translation>Fail berturutan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"/>
+        <translation>Tambah fail dari folder</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Pilihan ini membolehkan fail ditambah secara automatik ke dalam senarai main:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Tiada&lt;/b&gt;: tiada fail akan ditambah</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fail video&lt;/b&gt;: semua fail video yang ditemui dalam folder akan ditambah</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fail audio&lt;/b&gt;: semua fail auido yang ditemui dalam folder akan ditambah</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fail video dan audio&lt;/b&gt;: semua fail video dan audio yang ditemui dalam folder akan ditambah</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Fail berturutan&lt;/b&gt;: fail berturutan (seperti video_1.avi, video_2.avi) akan ditambah</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7593,7 +7593,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>Tambah fail dari &amp;folder:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -8659,22 +8659,22 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Sokongan SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ingatkan saya kemudian</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"/>
+        <translation>Beri sumbangan melalui Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"/>
+        <translation>Anda boleh menyokong SMPlayer dengan memberi sumbangan atau kongsi ia dengan rakan anda.</translation>
     </message>
 </context>
 <context>
