@@ -85,7 +85,7 @@ void OSClient::doSearch() {
 	list.append(m);
 	list.append(m);
 	list.append(m);
-	list.append(m);
+	//list.append(m);
 	list.append(m); // Adding more, sometimes it keeps failing...
 
 	QVariantList args;
