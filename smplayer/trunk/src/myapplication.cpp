@@ -136,6 +136,7 @@ bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
 			QString name;
 			switch (cmd) {
 				case APPCOMMAND_MEDIA_PLAY_PAUSE:
+				case APPCOMMAND_MEDIA_PAUSE:
 				case APPCOMMAND_MEDIA_PLAY: key = Qt::Key_MediaPlay; name = "Media Play"; break;
 				case APPCOMMAND_MEDIA_STOP: key = Qt::Key_MediaStop; name = "Media Stop"; break;
 				//case APPCOMMAND_MEDIA_PLAY_PAUSE: key = Qt::Key_MediaTogglePlayPause; name = "Toggle Media Play/Pause"; break;
