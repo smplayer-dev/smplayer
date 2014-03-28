@@ -29,39 +29,129 @@
 #define WM_APPCOMMAND 0x0319
 #endif
 
+#ifndef FAPPCOMMAND_MOUSE
+#define FAPPCOMMAND_MOUSE 0x8000
+#define FAPPCOMMAND_KEY   0
+#define FAPPCOMMAND_OEM   0x1000
 #define FAPPCOMMAND_MASK  0xF000
 #define GET_APPCOMMAND_LPARAM(lParam) ((short)(HIWORD(lParam) & ~FAPPCOMMAND_MASK))
+#define GET_DEVICE_LPARAM(lParam)     ((WORD)(HIWORD(lParam) & FAPPCOMMAND_MASK))
+#define GET_MOUSEORKEY_LPARAM         GET_DEVICE_LPARAM
 #define GET_FLAGS_LPARAM(lParam)      (LOWORD(lParam))
 #define GET_KEYSTATE_LPARAM(lParam)   GET_FLAGS_LPARAM(lParam)
 
-#define APPCOMMAND_MEDIA_PLAY 46
-#define APPCOMMAND_MEDIA_STOP 13
-#define APPCOMMAND_MEDIA_NEXTTRACK 11
-#define APPCOMMAND_MEDIA_PREVIOUSTRACK 12
+#define APPCOMMAND_BROWSER_BACKWARD       1
+#define APPCOMMAND_BROWSER_FORWARD        2
+#define APPCOMMAND_BROWSER_REFRESH        3
+#define APPCOMMAND_BROWSER_STOP           4
+#define APPCOMMAND_BROWSER_SEARCH         5
+#define APPCOMMAND_BROWSER_FAVORITES      6
+#define APPCOMMAND_BROWSER_HOME           7
+#define APPCOMMAND_VOLUME_MUTE            8
+#define APPCOMMAND_VOLUME_DOWN            9
+#define APPCOMMAND_VOLUME_UP              10
+#define APPCOMMAND_MEDIA_NEXTTRACK        11
+#define APPCOMMAND_MEDIA_PREVIOUSTRACK    12
+#define APPCOMMAND_MEDIA_STOP             13
+#define APPCOMMAND_MEDIA_PLAY_PAUSE       14
+#define APPCOMMAND_LAUNCH_MAIL            15
+#define APPCOMMAND_LAUNCH_MEDIA_SELECT    16
+#define APPCOMMAND_LAUNCH_APP1            17
+#define APPCOMMAND_LAUNCH_APP2            18
+#define APPCOMMAND_BASS_DOWN              19
+#define APPCOMMAND_BASS_BOOST             20
+#define APPCOMMAND_BASS_UP                21
+#define APPCOMMAND_TREBLE_DOWN            22
+#define APPCOMMAND_TREBLE_UP              23
+#endif // FAPPCOMMAND_MOUSE
+ 
+// New commands from Windows XP (some even Sp1)
+#ifndef APPCOMMAND_MICROPHONE_VOLUME_MUTE
+#define APPCOMMAND_MICROPHONE_VOLUME_MUTE 24
+#define APPCOMMAND_MICROPHONE_VOLUME_DOWN 25
+#define APPCOMMAND_MICROPHONE_VOLUME_UP   26
+#define APPCOMMAND_HELP                   27
+#define APPCOMMAND_FIND                   28
+#define APPCOMMAND_NEW                    29
+#define APPCOMMAND_OPEN                   30
+#define APPCOMMAND_CLOSE                  31
+#define APPCOMMAND_SAVE                   32
+#define APPCOMMAND_PRINT                  33
+#define APPCOMMAND_UNDO                   34
+#define APPCOMMAND_REDO                   35
+#define APPCOMMAND_COPY                   36
+#define APPCOMMAND_CUT                    37
+#define APPCOMMAND_PASTE                  38
+#define APPCOMMAND_REPLY_TO_MAIL          39
+#define APPCOMMAND_FORWARD_MAIL           40
+#define APPCOMMAND_SEND_MAIL              41
+#define APPCOMMAND_SPELL_CHECK            42
+#define APPCOMMAND_DICTATE_OR_COMMAND_CONTROL_TOGGLE    43
+#define APPCOMMAND_MIC_ON_OFF_TOGGLE      44
+#define APPCOMMAND_CORRECTION_LIST        45
+#define APPCOMMAND_MEDIA_PLAY             46
+#define APPCOMMAND_MEDIA_PAUSE            47
+#define APPCOMMAND_MEDIA_RECORD           48
+#define APPCOMMAND_MEDIA_FAST_FORWARD     49
+#define APPCOMMAND_MEDIA_REWIND           50
+#define APPCOMMAND_MEDIA_CHANNEL_UP       51
+#define APPCOMMAND_MEDIA_CHANNEL_DOWN     52
+#endif // APPCOMMAND_MICROPHONE_VOLUME_MUTE
 
+#define VK_MEDIA_NEXT_TRACK 0xB0
+#define VK_MEDIA_PREV_TRACK 0xB1
+#define VK_MEDIA_PLAY_PAUSE 0xB3
+#define VK_MEDIA_STOP 0xB2
 
 bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
+//qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
 #if 0
-	if (msg->message == WM_APPCOMMAND) {
-		qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
-		int cmd  = GET_APPCOMMAND_LPARAM(msg->lParam);
-		int dwKeys = GET_KEYSTATE_LPARAM(msg->lParam);
-		qDebug() << "MyApplication::winEventFilter: cmd:" << cmd << "dwKeys:" << dwKeys;
-		int key = 0;
-		QString name;
-		switch (cmd) {
-			case APPCOMMAND_MEDIA_PLAY: key = Qt::Key_MediaPlay; name = "Media Play"; break;
-			case APPCOMMAND_MEDIA_STOP: key = Qt::Key_MediaStop; name = "Media Stop"; break;
-			/*
-			case APPCOMMAND_MEDIA_NEXTTRACK: key = Qt::Key_MediaNext; name = "Media Next"; break;
-			case APPCOMMAND_MEDIA_PREVIOUSTRACK: key = Qt::Key_MediaPrevious; name = "Media Previous"; break;
-			*/
+	if (msg->message == WM_KEYDOWN) {
+		qDebug() << "MyApplication::winEventFilter: WM_KEYDOWN" << msg->wParam;
+		switch (msg->wParam) {
+			case VK_MEDIA_NEXT_TRACK:
+			case VK_MEDIA_PREV_TRACK:
+			case VK_MEDIA_PLAY_PAUSE:
+			case VK_MEDIA_STOP:
+					*result = true;
+					return true;
 		}
-		if (key != 0) {
-			QKeyEvent event(QEvent::KeyPress, key, Qt::NoModifier, name);
-			QCoreApplication::sendEvent(QApplication::focusWidget(), &event);
-			*result = true;
-			return true;
+	}
+	else
+	if (msg->message == WM_APPCOMMAND) {
+		/*
+		QKeySequence k(Qt::Key_MediaTogglePlayPause);
+		qDebug() << "MyApplication::winEventFilter" << k.toString();
+		*/
+
+		qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
+		uint cmd  = GET_APPCOMMAND_LPARAM(msg->lParam);
+		uint uDevice = GET_DEVICE_LPARAM(msg->lParam);
+		uint dwKeys = GET_KEYSTATE_LPARAM(msg->lParam);
+		qDebug() << "MyApplication::winEventFilter: cmd:" << cmd <<"uDevice:" << uDevice << "dwKeys:" << dwKeys;
+
+		if (uDevice == FAPPCOMMAND_KEY) {
+			int key = 0;
+			Qt::KeyboardModifiers modifier = Qt::NoModifier;
+			QString name;
+			switch (cmd) {
+				case APPCOMMAND_MEDIA_PLAY_PAUSE:
+				case APPCOMMAND_MEDIA_PLAY: key = Qt::Key_MediaPlay; name = "Media Play"; break;
+				case APPCOMMAND_MEDIA_STOP: key = Qt::Key_MediaStop; name = "Media Stop"; break;
+				//case APPCOMMAND_MEDIA_PLAY_PAUSE: key = Qt::Key_MediaTogglePlayPause; name = "Toggle Media Play/Pause"; break;
+			
+				case APPCOMMAND_MEDIA_NEXTTRACK: key = Qt::Key_MediaNext; name = "Media Next"; break;
+				case APPCOMMAND_MEDIA_PREVIOUSTRACK: key = Qt::Key_MediaPrevious; name = "Media Previous"; break;
+
+				case APPCOMMAND_MEDIA_FAST_FORWARD: key = Qt::Key_F; modifier = Qt::ShiftModifier | Qt::ControlModifier;
+				case APPCOMMAND_MEDIA_REWIND: key = Qt::Key_B; modifier = Qt::ShiftModifier | Qt::ControlModifier;
+			}
+			if (key != 0) {
+				QKeyEvent event(QEvent::KeyPress, key, modifier, name);
+				QCoreApplication::sendEvent(QApplication::focusWidget(), &event);
+				*result = true;
+				return true;
+			}
 		}
 	}
 #endif
