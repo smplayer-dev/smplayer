@@ -31,25 +31,40 @@
 
 #define FAPPCOMMAND_MASK  0xF000
 #define GET_APPCOMMAND_LPARAM(lParam) ((short)(HIWORD(lParam) & ~FAPPCOMMAND_MASK))
+#define GET_FLAGS_LPARAM(lParam)      (LOWORD(lParam))
+#define GET_KEYSTATE_LPARAM(lParam)   GET_FLAGS_LPARAM(lParam)
 
 #define APPCOMMAND_MEDIA_PLAY 46
 #define APPCOMMAND_MEDIA_STOP 13
+#define APPCOMMAND_MEDIA_NEXTTRACK 11
+#define APPCOMMAND_MEDIA_PREVIOUSTRACK 12
+
 
 bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
+#if 0
 	if (msg->message == WM_APPCOMMAND) {
-		qDebug() << "MyApplication::winEventFilter" << msg->message;
+		qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
 		int cmd  = GET_APPCOMMAND_LPARAM(msg->lParam);
-		qDebug() << "MyApplication::winEventFilter: cmd" << cmd;
-		if (cmd == APPCOMMAND_MEDIA_PLAY) {
-			QKeyEvent event(QEvent::KeyPress, Qt::Key_MediaPlay, Qt::NoModifier, "Media Play");
-			QCoreApplication::sendEvent(QApplication::focusWidget(), &event);
+		int dwKeys = GET_KEYSTATE_LPARAM(msg->lParam);
+		qDebug() << "MyApplication::winEventFilter: cmd:" << cmd << "dwKeys:" << dwKeys;
+		int key = 0;
+		QString name;
+		switch (cmd) {
+			case APPCOMMAND_MEDIA_PLAY: key = Qt::Key_MediaPlay; name = "Media Play"; break;
+			case APPCOMMAND_MEDIA_STOP: key = Qt::Key_MediaStop; name = "Media Stop"; break;
+			/*
+			case APPCOMMAND_MEDIA_NEXTTRACK: key = Qt::Key_MediaNext; name = "Media Next"; break;
+			case APPCOMMAND_MEDIA_PREVIOUSTRACK: key = Qt::Key_MediaPrevious; name = "Media Previous"; break;
+			*/
 		}
-		else
-		if (cmd == APPCOMMAND_MEDIA_STOP) {
-			QKeyEvent event(QEvent::KeyPress, Qt::Key_MediaStop, Qt::NoModifier, "Media Stop");
+		if (key != 0) {
+			QKeyEvent event(QEvent::KeyPress, key, Qt::NoModifier, name);
 			QCoreApplication::sendEvent(QApplication::focusWidget(), &event);
-		}	
+			*result = true;
+			return true;
+		}
 	}
+#endif
 	return false;
 }
 #endif
