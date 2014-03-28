@@ -37,6 +37,10 @@ public:
 	inline static MyApplication * instance() {
 		return qobject_cast<MyApplication*>(QApplication::instance());
 	}
+	
+#ifdef Q_OS_WIN
+	virtual bool winEventFilter ( MSG * msg, long * result );
+#endif
 };
 
 #else
