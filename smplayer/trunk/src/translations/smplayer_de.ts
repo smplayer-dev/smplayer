@@ -6648,7 +6648,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation>Das Fenster &amp;verschieben, wenn der Video-Bereich gezogen wird</translation>
+        <translation>Das Fenster &amp;verschieben, wenn der Videobereich gezogen wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6815,7 +6815,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
         <source>Move the window when the video area is dragged</source>
-        <translation>Das Fenster verschieben, wenn der Video-Bereich gezogen wird</translation>
+        <translation>Das Fenster verschieben, wenn der Videobereich gezogen wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
