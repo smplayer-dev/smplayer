@@ -18,7 +18,7 @@
 
 #include "myapplication.h"
 
-#ifdef Q_OS_WIN
+#ifdef USE_WINEVENTFILTER
 #include <QKeyEvent>
 #include <QEvent>
 #include <QWidget>
@@ -103,13 +103,14 @@
 #define VK_MEDIA_PLAY_PAUSE 0xB3
 #define VK_MEDIA_STOP 0xB2
 
-bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
-//qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
-#if 1
+
+bool MyApplication::winEventFilter(MSG * msg, long * result) {
+	//qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
+
 	static uint last_appcommand = 0;
 	
 	if (msg->message == WM_KEYDOWN) {
-		qDebug("MyApplication::winEventFilter: WM_KEYDOWN: %X", msg->wParam);
+		//qDebug("MyApplication::winEventFilter: WM_KEYDOWN: %X", msg->wParam);
 		bool eat_key = false;
 		if ((last_appcommand == APPCOMMAND_MEDIA_NEXTTRACK) && (msg->wParam == VK_MEDIA_NEXT_TRACK)) eat_key = true;
 		else
@@ -133,7 +134,7 @@ bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
 		qDebug() << "MyApplication::winEventFilter" << k.toString();
 		*/
 
-		qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
+		//qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
 		uint cmd  = GET_APPCOMMAND_LPARAM(msg->lParam);
 		uint uDevice = GET_DEVICE_LPARAM(msg->lParam);
 		uint dwKeys = GET_KEYSTATE_LPARAM(msg->lParam);
@@ -168,10 +169,10 @@ bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
 			}
 		//}
 	}
-#endif
+
 	return false;
 }
-#endif
+#endif // USE_WINEVENTFILTER
 
 #include "moc_myapplication.cpp"
 
