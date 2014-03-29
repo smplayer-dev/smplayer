@@ -424,10 +424,12 @@ void BaseGui::createActions() {
              core, SLOT(play()) );
 
 	playOrPauseAct = new MyAction( Qt::Key_MediaPlay, this, "play_or_pause" );
+	playOrPauseAct->addShortcut(QKeySequence("Toggle Media Play/Pause")); // MCE remote key
 	connect( playOrPauseAct, SIGNAL(triggered()),
              core, SLOT(play_or_pause()) );
 
 	pauseAct = new MyAction( Qt::Key_Space, this, "pause" );
+	pauseAct->addShortcut(QKeySequence("Media Pause")); // MCE remote key
 	connect( pauseAct, SIGNAL(triggered()),
              core, SLOT(pause()) );
 
