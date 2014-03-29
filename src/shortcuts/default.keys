@@ -19,8 +19,8 @@ jump_radio_list
 next_radio	Shift+H
 previous_radio	Shift+L
 play	
-play_or_pause	Media Play
-pause	Space
+play_or_pause	Media Play, Toggle Media Play/Pause
+pause	Space, Media Pause
 pause_and_frame_step	
 stop	Media Stop
 frame_step	.
@@ -102,11 +102,6 @@ update_youtube
 show_config	
 donate	
 about_smplayer	
-facebook	
-twitter	
-gmail	
-hotmail	
-yahoo	
 play_next	>, Media Next
 play_prev	<, Media Previous
 move_up	Alt+Up
