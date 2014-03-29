@@ -19,6 +19,14 @@
 #ifndef MYAPPLICATION_H
 #define MYAPPLICATION_H
 
+#include <QtGlobal>
+
+#ifdef Q_OS_WIN
+ #if QT_VERSION < 0x050000
+  #define USE_WINEVENTFILTER
+ #endif
+#endif
+
 #ifdef SINGLE_INSTANCE
 #include "QtSingleApplication"
 
@@ -38,8 +46,8 @@ public:
 		return qobject_cast<MyApplication*>(QApplication::instance());
 	}
 	
-#ifdef Q_OS_WIN
-	virtual bool winEventFilter ( MSG * msg, long * result );
+#ifdef USE_WINEVENTFILTER
+	virtual bool winEventFilter(MSG * msg, long * result);
 #endif
 };
 
@@ -56,6 +64,10 @@ public:
 	virtual void commitData ( QSessionManager & /*manager*/ ) {
 		// Nothing to do, let the application to close
 	}
+	
+#ifdef USE_WINEVENTFILTER
+	virtual bool winEventFilter(MSG * msg, long * result);
+#endif
 };
 
 #endif
