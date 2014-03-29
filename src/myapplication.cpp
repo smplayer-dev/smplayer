@@ -105,16 +105,25 @@
 
 bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
 //qDebug() << "MyApplication::winEventFilter" << msg->message << "lParam:" << msg->lParam;
-#if 0
+#if 1
+	static uint last_appcommand = 0;
+	
 	if (msg->message == WM_KEYDOWN) {
-		qDebug() << "MyApplication::winEventFilter: WM_KEYDOWN" << msg->wParam;
-		switch (msg->wParam) {
-			case VK_MEDIA_NEXT_TRACK:
-			case VK_MEDIA_PREV_TRACK:
-			case VK_MEDIA_PLAY_PAUSE:
-			case VK_MEDIA_STOP:
-					*result = true;
-					return true;
+		qDebug("MyApplication::winEventFilter: WM_KEYDOWN: %X", msg->wParam);
+		bool eat_key = false;
+		if ((last_appcommand == APPCOMMAND_MEDIA_NEXTTRACK) && (msg->wParam == VK_MEDIA_NEXT_TRACK)) eat_key = true;
+		else
+		if ((last_appcommand == APPCOMMAND_MEDIA_PREVIOUSTRACK) && (msg->wParam == VK_MEDIA_PREV_TRACK)) eat_key = true;
+		else
+		if ((last_appcommand == APPCOMMAND_MEDIA_PLAY_PAUSE) && (msg->wParam == VK_MEDIA_PLAY_PAUSE)) eat_key = true;
+		else
+		if ((last_appcommand == APPCOMMAND_MEDIA_STOP) && (msg->wParam == VK_MEDIA_STOP)) eat_key = true;
+		
+		if (eat_key) { 
+			qDebug("MyApplication::winEventFilter: ignoring key %X", msg->wParam);
+			last_appcommand = 0; 
+			*result = true; 
+			return true; 
 		}
 	}
 	else
@@ -130,30 +139,34 @@ bool MyApplication::winEventFilter ( MSG * msg, long * result ) {
 		uint dwKeys = GET_KEYSTATE_LPARAM(msg->lParam);
 		qDebug() << "MyApplication::winEventFilter: cmd:" << cmd <<"uDevice:" << uDevice << "dwKeys:" << dwKeys;
 
-		if (uDevice == FAPPCOMMAND_KEY) {
+		//if (uDevice == FAPPCOMMAND_KEY) {
 			int key = 0;
 			Qt::KeyboardModifiers modifier = Qt::NoModifier;
 			QString name;
+			
 			switch (cmd) {
-				case APPCOMMAND_MEDIA_PLAY_PAUSE:
-				case APPCOMMAND_MEDIA_PAUSE:
+				case APPCOMMAND_MEDIA_PAUSE: key = Qt::Key_MediaPause; name = "Media Pause"; break;
 				case APPCOMMAND_MEDIA_PLAY: key = Qt::Key_MediaPlay; name = "Media Play"; break;
 				case APPCOMMAND_MEDIA_STOP: key = Qt::Key_MediaStop; name = "Media Stop"; break;
-				//case APPCOMMAND_MEDIA_PLAY_PAUSE: key = Qt::Key_MediaTogglePlayPause; name = "Toggle Media Play/Pause"; break;
+				case APPCOMMAND_MEDIA_PLAY_PAUSE: key = Qt::Key_MediaTogglePlayPause; name = "Toggle Media Play/Pause"; break;
 			
 				case APPCOMMAND_MEDIA_NEXTTRACK: key = Qt::Key_MediaNext; name = "Media Next"; break;
 				case APPCOMMAND_MEDIA_PREVIOUSTRACK: key = Qt::Key_MediaPrevious; name = "Media Previous"; break;
 
-				case APPCOMMAND_MEDIA_FAST_FORWARD: key = Qt::Key_F; modifier = Qt::ShiftModifier | Qt::ControlModifier;
-				case APPCOMMAND_MEDIA_REWIND: key = Qt::Key_B; modifier = Qt::ShiftModifier | Qt::ControlModifier;
+				case APPCOMMAND_MEDIA_FAST_FORWARD: key = Qt::Key_F; modifier = Qt::ShiftModifier | Qt::ControlModifier; break;
+				case APPCOMMAND_MEDIA_REWIND: key = Qt::Key_B; modifier = Qt::ShiftModifier | Qt::ControlModifier; break;
 			}
+			
 			if (key != 0) {
+				last_appcommand = cmd;
+				
 				QKeyEvent event(QEvent::KeyPress, key, modifier, name);
-				QCoreApplication::sendEvent(QApplication::focusWidget(), &event);
+				QWidget * w = QApplication::focusWidget();
+				if (w) QCoreApplication::sendEvent(w, &event);
 				*result = true;
 				return true;
 			}
-		}
+		//}
 	}
 #endif
 	return false;
