@@ -11,7 +11,7 @@ Version 0.8.7.
    a remote control.
  * The option "Move the window when the video area is dragged" has been fixed.
  * (Windows) Now it's possible to open Windows shortcuts (symlinks).
- * Better support for Youtube encrypted signatures.
+ * Better support for Youtube.
  * (Windows) Better screensaver disabling.
  * Many bugfixes.
  * Possibility to compile with Qt 5.
