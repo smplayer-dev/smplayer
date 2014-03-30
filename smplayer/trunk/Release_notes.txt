@@ -1,14 +1,14 @@
 Version 0.8.7.
 
- * Possibility to play (non-encrypted) bluray discs.
+ * Possibility to play (non-protected) blu-ray discs.
  * The control for fullscreen mode has been rewritten and improved.
    Now it is displayed over the video.
  * (Windows) New option in Preferences -> Subtitles to enable or
    disable the use of the Windows font directory. Disabling this option
    prevents the annoying font scanning.
  * Some presets have been added to the audio equalizer.
- * More media keys have been added as shortcuts. This can help to control
-   SMPlayer with a remote control.
+ * Better support for multimedia keys. This can help control SMPlayer with
+   a remote control.
  * The option "Move the window when the video area is dragged" has been fixed.
  * (Windows) Now it's possible to open Windows shortcuts (symlinks).
  * Better support for Youtube encrypted signatures.
