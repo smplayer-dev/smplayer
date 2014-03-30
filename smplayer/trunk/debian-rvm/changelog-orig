@@ -1,3 +1,23 @@
+smplayer (14.3.0) precise; urgency=low
+
+  * Possibility to play (non-protected) blu-ray discs.
+  * The control for fullscreen mode has been rewritten and improved.
+    Now it is displayed over the video.
+  * (Windows) New option in Preferences -> Subtitles to enable or
+    disable the use of the Windows font directory. Disabling this option
+    prevents the annoying font scanning.
+  * Some presets have been added to the audio equalizer.
+  * Better support for multimedia keys. This can help control SMPlayer with
+    a remote control.
+  * The option "Move the window when the video area is dragged" has been fixed.
+  * (Windows) Now it's possible to open Windows shortcuts (symlinks).
+  * Better support for Youtube.
+  * (Windows) Better screensaver disabling.
+  * Many bugfixes.
+  * Possibility to compile with Qt 5.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 30 Mar 2014 23:51:29 +0200
+
 smplayer (0.8.6) precise; urgency=low
 
   * SMPlayer can now update its internal Youtube code so it's not necessary
