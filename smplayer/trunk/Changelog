@@ -1,4 +1,16 @@
-[b]Version 0.8.7[/b]:
+[b]Version 14.3.0[/b]:
+
+(2014-03-29)
+ * (Windows) Try to catch multimedia keys sent by the appcommand
+   message.
+
+(2014-03-17)
+ * If no file is opened, the Play option will play a file from the
+   playlist.
+
+(2014-03-15)
+ * Possibility to automatically add other media files to the
+   the playlist when playing a file.
 
 (2014-03-12)
  * New translation: British English.
