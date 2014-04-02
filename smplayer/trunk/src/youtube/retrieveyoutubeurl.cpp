@@ -228,6 +228,8 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 			q->removeAllQueryItems("fallback_host");
 			q->removeAllQueryItems("type");
 
+			if (!q->hasQueryItem("ratebypass")) q->addQueryItem("ratebypass", "yes");
+
 			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
 				QString itag = q->queryItemValue("itag");
 				q->removeAllQueryItems("itag"); // Remove duplicated itag
@@ -418,6 +420,9 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 			}
 			q->removeAllQueryItems("fallback_host");
 			q->removeAllQueryItems("type");
+
+			if (!q->hasQueryItem("ratebypass")) q->addQueryItem("ratebypass", "yes");
+
 			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
 				QString itag = q->queryItemValue("itag");
 				q->removeAllQueryItems("itag"); // Remove duplicated itag
