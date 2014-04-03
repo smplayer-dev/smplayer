@@ -415,8 +415,8 @@ void FindSubtitlesWindow::parseInfo() {
 		status->setText( tr("%1 files available").arg(l.count()) );
 		applyCurrentFilter();
 
-		qDebug("sort column: %d", view->header()->sortIndicatorSection());
-		qDebug("sort indicator: %d", view->header()->sortIndicatorOrder());
+		qDebug("FindSubtitlesWindow::parseInfo: sort column: %d", view->header()->sortIndicatorSection());
+		qDebug("FindSubtitlesWindow::parseInfo: sort indicator: %d", view->header()->sortIndicatorOrder());
 
 		table->sort( view->header()->sortIndicatorSection(),
                      view->header()->sortIndicatorOrder() );
