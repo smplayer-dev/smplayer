@@ -19,7 +19,14 @@
 #include "osclient.h"
 #include "version.h"
 
-OSClient::OSClient(QObject* parent) : QObject(parent), logged_in(false), search_size(0) {
+OSClient::OSClient(QObject* parent) : 
+	QObject(parent)
+	, logged_in(false)
+	, search_size(0) 
+#ifdef OS_SEARCH_WORKAROUND
+	, append_times(0)
+#endif
+{
 	rpc = new MaiaXmlRpcClient(QUrl("http://api.opensubtitles.org/xml-rpc"), this);
 }
 
@@ -52,6 +59,10 @@ void OSClient::search(const QString & hash, qint64 file_size) {
 	search_hash = hash;
 	search_size = file_size;
 
+#ifdef OS_SEARCH_WORKAROUND
+	append_times = 5;
+#endif
+
 	#if 0
 	if (logged_in) {
 		doSearch();
@@ -73,20 +84,16 @@ void OSClient::doSearch() {
 	m["moviehash"] = search_hash;
 	m["moviebytesize"] = QString::number(search_size);
 
-	// For some reason it seems opensubtitles fails
-	// sometimes if there's only one item in the list.
-	// So as workaround, the item is appended twice.
-
-	// Update: and the opposite, sometimes it doesn't return any 
-	// result with 2 items but it does with 1.
-	// Workaround: use 3 items... Seems to work in all cases.
 	QVariantList list;
+#ifdef OS_SEARCH_WORKAROUND
+	// Sometimes opensubtitles return 0 subtitles
+	// A workaround seems to add the query several times
+	if (append_times < 1) append_times = 1;
+	qDebug("OSClient::doSearch: append_times: %d", append_times);
+	for (int count = 0; count < append_times; count++) list.append(m);
+#else
 	list.append(m);
-	list.append(m);
-	list.append(m);
-	list.append(m);
-	//list.append(m);
-	list.append(m); // Adding more, sometimes it keeps failing...
+#endif
 
 	QVariantList args;
 	args << token << QVariant(list);
@@ -147,6 +154,17 @@ void OSClient::responseSearch(QVariant &arg) {
 
 	QVariantList data = m["data"].toList();
 	qDebug("OSClient::responseSearch: data count: %d", data.count());
+
+#ifdef OS_SEARCH_WORKAROUND
+	if (data.count() == 0) {
+		append_times--;
+		qDebug("OSClient::responseSearch: no data. Trying again.");
+		if (append_times > 0) {
+			doSearch();
+			return;
+		}
+	}
+#endif
 
 	for (int n = 0; n < data.count(); n++) {
 		OSSubtitle sub;
