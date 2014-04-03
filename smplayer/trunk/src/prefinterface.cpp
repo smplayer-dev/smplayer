@@ -80,7 +80,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		QString css_file = Paths::themesPath() + "/" + iconsets[n] + "/main.css";
 		bool is_skin = QFile::exists(css_file);
 		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
-		if ((is_skin) && (iconset_combo->findText( iconsets[n] ) == -1)) {
+		if ((is_skin) && (skin_combo->findText( iconsets[n] ) == -1)) {
 			skin_combo->addItem( iconsets[n] );
 			n_skins++;
 		}
