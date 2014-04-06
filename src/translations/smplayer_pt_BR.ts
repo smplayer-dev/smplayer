@@ -1240,7 +1240,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="1703"/>
         <source>Exit fullscreen</source>
-        <translation>Sair de Tela cheia</translation>
+        <translation>Sair da tela cheia</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
@@ -1720,7 +1720,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="4369"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>A versão MPlayer (%1) instalada no sistema é obsoleta. O SMPlayer não funcionará correctamente: algumas opções não funcionam, legendas podem falhar...</translation>
+        <translation>A versão MPlayer (%1) instalada no sistema é obsoleta. O SMPlayer não funcionará corretamente: algumas opções não funcionam, legendas podem falhar...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4374"/>
@@ -2807,7 +2807,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation>&amp;Refrescar</translation>
+        <translation>&amp;Recarregar</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
@@ -4650,7 +4650,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Selecionando esta opção pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja apresentado correctamente.</translation>
+        <translation>Selecionando esta opção pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja apresentado corretamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
@@ -4930,7 +4930,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Se selecionada, o SMPlayer irá guardar a informação de saída do MPlayer (pode visualiza-la em&lt;b&gt; Opções-&gt;Ver registos-&gt;MPlayer&lt;/b&gt;). Em caso de problemas, este registo poderá conter informação importante, por isso recomenda-se manter a opção ativa.</translation>
+        <translation>Se selecionada, o SMPlayer irá guardar a informação de saída do MPlayer (pode visualizá-la em&lt;b&gt; Opções-&gt;Ver registos-&gt;MPlayer&lt;/b&gt;). Em caso de problemas, este registo poderá conter informação importante, por isso recomenda-se manter a opção ativa.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
@@ -4945,7 +4945,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="471"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Muda MPlayer para o modo experimental em que as imagens para os quadros de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novos quadros ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativadas. Sem os corretos pts, estas legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
+        <translation>Muda o MPlayer para um modo experimental em que as marcas de tempo para os quadros de vídeo são calculadas de forma diferente e os filtros de vídeo que adicionam novos quadros ou modificam as marcas de tempo dos existentes são suportados. As marcas de tempo mais precisas podem ser vistas, por exemplo, na exibição de legendas sincronizadas com mudanças de cena com a biblioteca SSA/ASS ativada. Sem o pts correto, a legenda geralmente ficará dessincronizada por alguns quadros. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="480"/>
@@ -5172,7 +5172,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation>&lt;b&gt;Nota 1&lt;/b&gt;: a cache será desactivada podendo afectar o desempenho.</translation>
+        <translation>&lt;b&gt;Nota 1&lt;/b&gt;: o cache será desativado podendo afetar o desempenho.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
@@ -5216,7 +5216,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="975"/>
         <source>Start videos in fullscreen</source>
-        <translation>Iniciar vídeos em modo de tela completo</translation>
+        <translation>Iniciar vídeos em modo de tela cheia</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1004"/>
@@ -5306,7 +5306,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="976"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Se selecionar esta opção, todos os vídeos serão iniciados no modo de tela completo.</translation>
+        <translation>Se selecionar esta opção, todos os vídeos serão iniciados no modo de tela cheia.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1036"/>
@@ -5366,7 +5366,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="477"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Iniciar vídeos em modo de tela &amp;completo</translation>
+        <translation>Iniciar vídeos em modo de tela &amp;cheia</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="491"/>
@@ -5501,7 +5501,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Define a amplificação máxima em percentagem (padrão: 110). Um valor de 200 permiter-lhe-á ajustar o volume para um valor que, no máximo, será o dobro do actual. Para valores inferiores a 0, o OSD não será mostrado correctamente.</translation>
+        <translation>Define a amplificação máxima em percentagem (padrão: 110). Um valor de 200 lhe permitirá ajustar o volume para um valor que, no máximo, será o dobro do atual. Para valores inferiores a 100, o volume inicial (que é 100%) ficará abaixo do máximo e pode não ser exibido corretamente.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5688,7 +5688,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Ativar/Desativar criação de vídeo em partes de 16 pixeis. Se desativado, todo o quadro será criada de uma só vez. A velocidade vai depender da placa de vídeo e cache disponível. Apenas afeta os codecs libmpeg2 e libavcodec.</translation>
+        <translation>Ativar/Desativar criação de vídeo em partes de 16 pixeis. Se desativado, todo o quadro será criada de uma só vez. A velocidade vai depender da placa de vídeo e cache disponível. Afeta apenas os codecs libmpeg2 e libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="457"/>
@@ -5793,17 +5793,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="979"/>
         <source>Add black borders on fullscreen</source>
-        <translation>Adicionar contornos negros em tela completo</translation>
+        <translation>Adicionar contornos negros em tela cheia</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="980"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation>Se ativar esta opção, serão adicionados contornos negros ás imagens no modo de tela completo. Isto permite que as legendas sejam apresentadas nessas margens.</translation>
+        <translation>Se ativar esta opção, serão adicionados contornos negros às imagens no modo de tela cheia. Isto permite que as legendas sejam apresentadas nessas margens.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="484"/>
         <source>&amp;Add black borders on fullscreen</source>
-        <translation>&amp;Adicionar contornos negros em tela completo</translation>
+        <translation>&amp;Adicionar contornos negros em tela cheia</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="121"/>
@@ -6129,7 +6129,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="312"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Esta tabela lhe permite alterar as teclas de atalho para as maioria das ações disponíveis. Duplo clique com o mouse, ENTER num item ou &lt;b&gt;Alterar atalho...&lt;/b&gt; para abrir a janela &lt;i&gt;Modificar atalho&lt;/i&gt;. Existem duas maneiras para alterar um atalho: se o botão &lt;b&gt;Captura&lt;/b&gt; estiver ligado, introduza a nova tecla ou combinação que pretende registar para a ação (não funciona com todas as teclas). Se o botão &lt;b&gt;Captura&lt;/b&gt; estiver desligado pode introduzir o nome completo da tecla.</translation>
+        <translation>Esta tabela lhe permite alterar as teclas de atalho para a maioria das ações disponíveis. Clique duplo, pressionar ENTER num item ou clicar em &lt;b&gt;Alterar atalho...&lt;/b&gt; para abrir a janela &lt;i&gt;Modificar atalho&lt;/i&gt;. Existem duas maneiras para alterar um atalho: se o botão &lt;b&gt;Captura&lt;/b&gt; estiver ligado, introduza a nova tecla ou combinação que pretende registar para a ação (não funciona com todas as teclas). Se o botão &lt;b&gt;Captura&lt;/b&gt; estiver desligado pode introduzir o nome completo da tecla.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="324"/>
@@ -6179,7 +6179,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="67"/>
         <source>Fullscreen</source>
-        <translation>Ecrã Completo</translation>
+        <translation>Tela cheia</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="68"/>
@@ -6209,7 +6209,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="77"/>
         <source>Exit fullscreen</source>
-        <translation>Sair do Modo de Ecrã Completo</translation>
+        <translation>Sair do modo de tela cheia</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
@@ -7054,7 +7054,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Esta opção define o número de pixeis de afastamento do controlo flutuante em relação ao fundo da tela. Útil quando a tela for uma TV, permitindo assim a correta visualização do controle.</translation>
+        <translation>Esta opção define o número de pixeis entre o controle flutuante e a parte inferior da tela. Útil quando a tela for uma TV, permitindo assim a correta visualização do controle.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="760"/>
@@ -7200,7 +7200,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="343"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Definir uma cache pode melhorar o desempenho em vídeos lentos</translation>
+        <translation>Definir um cache pode melhorar o desempenho em mídias lentas</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
@@ -7285,7 +7285,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation>Esta opção especifica a quantidade de memória (em kBytes) a ser usado ao pôr em cache um arquivo.</translation>
+        <translation>Esta opção especifica a quantidade de memória (em KBytes) a se usar ao colocar um arquivo em cache.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
@@ -7295,7 +7295,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>Esta opção especifica a quantidade de memória (em kBytes) a ser usada ao pôr em cache uma URL.</translation>
+        <translation>Esta opção especifica a quantidade de memória (em KB) a se usar ao colocar uma URL em cache.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="348"/>
@@ -7305,7 +7305,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="349"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Esta opção especifica a quantidade de memória (em kBytes) a ser usada ao pôr um DVD em cache. &lt;br&gt; &lt;b&gt; AVISO: &lt;/b&gt; Procura pode não funcionar correctamente (incluindo alteração de capítulo) ao usar cache para DVDs.</translation>
+        <translation>Esta opção especifica a quantidade de memória (em KB) a ser usada ao se colocar um DVD no cache. &lt;br&gt;&lt;b&gt; AVISO:&lt;/b&gt; A procura pode não funcionar corretamente (incluindo alteração de capítulo) ao usar cache para DVDs.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="337"/>
@@ -7588,7 +7588,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="144"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Selecione esta opção para adicionar à lista de reprodução as informações constantes do arquivo. Isto permite-lhe mostrar o título (se existente) e a duração dos arquivos. Caso contrário, esta informação não estará disponível. Atenção: esta ação pode ser demorada, principalmente se adicionar muitos arquivos.</translation>
+        <translation>Selecione esta opção para adicionar à lista de reprodução as informações contidas no arquivo. Isto permite-lhe mostrar o título (se existente) e a duração dos arquivos. Caso contrário, esta informação não estará disponível. Atenção: esta ação pode ser demorada, principalmente se adicionar muitos arquivos.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
@@ -7683,7 +7683,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="609"/>
         <source>Bottom</source>
-        <translation>Fundo</translation>
+        <translation>Parte inferior</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="322"/>
@@ -7732,7 +7732,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="527"/>
         <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation>Esta opção especifica a posição das legendas sobre a janela de vídeo. &lt;i&gt;100&lt;/i&gt; significa o fundo, enquanto &lt;i&gt;0&lt;/i&gt; é o topo.</translation>
+        <translation>Esta opção especifica a posição das legendas sobre a janela de vídeo. &lt;i&gt;100&lt;/i&gt; significa a parte inferior, enquanto &lt;i&gt;0&lt;/i&gt; é o topo.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -8499,7 +8499,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>action_list é uma lista de ações separadas por espaços. As ações serão executadas após carregar o arquivo (se existente) na mesma ordem que introduzir. Para ações verificáveis, você pode passar verdadeiro ou falso como parâmetro. Exemplo:-actions &quot;fullscreen compact true&quot;. Aspas serão necessárias se quiser passar mais que uma ação.</translation>
+        <translation>action_list é uma lista de ações separadas por espaços. As ações serão executadas após carregar o arquivo (se existente) na mesma ordem que foi introduzido. Para ações verificáveis, você pode passar verdadeiro ou falso como parâmetro. Exemplo:-actions &quot;fullscreen compact true&quot;. Aspas serão necessárias se quiser passar mais de uma ação.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="98"/>
@@ -8520,7 +8520,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="153"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation>o vídeo será reproduzido em tela completo.</translation>
+        <translation>o vídeo será reproduzido em tela cheia.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="156"/>
@@ -9205,7 +9205,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation>Se marcar esta opção, o tempo de reprodução será apresentado no fundo de cada miniatura.</translation>
+        <translation>Se marcar esta opção, o tempo de reprodução será apresentado na parte inferior de cada miniatura.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
@@ -9268,7 +9268,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation>Tela cheia ligado/desligado</translation>
+        <translation>Tela cheia ligada/desligada</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>

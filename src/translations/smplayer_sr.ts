@@ -633,7 +633,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1487"/>
         <source>D&amp;irectory...</source>
-        <translation>Ф&amp;олдер...</translation>
+        <translation>Ф&amp;асцикла...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1488"/>

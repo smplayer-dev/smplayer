@@ -8530,7 +8530,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../winfileassoc.cpp" line="254"/>
         <source>Enqueue in SMPlayer</source>
-        <translation>Добавить в SMPlayer</translation>
+        <translation>Добавить в очередь SMPlayer</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="114"/>
