@@ -4697,6 +4697,9 @@ void BaseGui::playlistHasFinished() {
 				if ( d.exec() == QDialog::Accepted ) {
 					qDebug("BaseGui::playlistHasFinished: the PC will shut down");
 					// Do something
+					#ifdef Q_OS_WIN
+					QProcess::startDetached("shutdown -s -f");
+					#endif
 					#ifdef Q_OS_LINUX
 					QProcess::startDetached("xmessage", QStringList() << "-center" << 
 						"The computer should shut down now.\nHowever shutting down hasn't been implemented yet in SMPlayer.");
