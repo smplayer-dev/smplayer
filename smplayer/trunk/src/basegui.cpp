@@ -116,6 +116,10 @@
 #include "sharedialog.h"
 #endif
 
+#ifdef AUTO_SHUTDOWN_PC
+#include "shutdowndialog.h"
+#endif
+
 using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
@@ -4689,8 +4693,13 @@ void BaseGui::playlistHasFinished() {
 		if ((arg_close_on_finish == 1) || (pref->close_on_finish)) {
 			#ifdef AUTO_SHUTDOWN_PC
 			if (pref->auto_shutdown_pc) {
-				// Do something
-				qDebug("BaseGui::playlistHasFinished: the PC will shut down");
+				ShutdownDialog d(this);
+				if ( d.exec() == QDialog::Accepted ) {
+					qDebug("BaseGui::playlistHasFinished: the PC will shut down");
+					// Do something
+				} else {
+					qDebug("BaseGui::playlistHasFinished: shutdown aborted");
+				}
 			}
 			#endif
 			exitAct->trigger();
