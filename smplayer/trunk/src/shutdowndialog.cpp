@@ -29,7 +29,7 @@ ShutdownDialog::ShutdownDialog( QWidget* parent, Qt::WindowFlags f )
 
 	setMinimumSize(QSize(500, 100));
 
-	icon_label->setPixmap(Images::icon("logo", 64));
+	icon_label->setPixmap(Images::icon("shutdown"));
 
 	text = tr("The computer will shut down in %1 seconds.<br>Press <b>Cancel</b> to abort.");
 	text_label->setText(text.arg(countdown));
