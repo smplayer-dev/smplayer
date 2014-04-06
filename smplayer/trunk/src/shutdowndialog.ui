@@ -27,12 +27,6 @@
        <property name="toolTip">
         <string/>
        </property>
-       <property name="frameShape">
-        <enum>QFrame::WinPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Sunken</enum>
-       </property>
        <property name="text">
         <string notr="true">icon</string>
        </property>
