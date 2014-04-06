@@ -26,7 +26,7 @@
       <attribute name="title">
        <string>&amp;General</string>
       </attribute>
-      <layout class="QVBoxLayout">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
         <layout class="QHBoxLayout">
          <item>
@@ -176,9 +176,9 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="close_on_finish_check">
-         <property name="text">
-          <string>&amp;Close when finished playback</string>
+        <widget class="Line" name="line_7">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
          </property>
         </widget>
        </item>
@@ -187,6 +187,61 @@
          <property name="text">
           <string>&amp;Pause when minimized</string>
          </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="close_on_finish_check">
+         <property name="text">
+          <string>&amp;Close when finished playback</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="shutdown_widget" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="margin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Preferred</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="shutdown_check">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>S&amp;hutdown computer</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -1189,8 +1244,9 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>filesettings_method_combo</tabstop>
   <tabstop>use_screenshots_check</tabstop>
   <tabstop>screenshot_edit</tabstop>
-  <tabstop>close_on_finish_check</tabstop>
   <tabstop>pause_if_hidden_check</tabstop>
+  <tabstop>close_on_finish_check</tabstop>
+  <tabstop>shutdown_check</tabstop>
   <tabstop>vo_combo</tabstop>
   <tabstop>vo_user_defined_edit</tabstop>
   <tabstop>vdpau_button</tabstop>
@@ -1418,6 +1474,22 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel">
      <x>389</x>
      <y>95</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>close_on_finish_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>shutdown_check</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>352</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>380</y>
     </hint>
    </hints>
   </connection>

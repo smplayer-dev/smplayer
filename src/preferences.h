@@ -392,6 +392,10 @@ public:
 	//! Close the main window when a file or playlist finish
 	bool close_on_finish;
 
+#ifdef AUTO_SHUTDOWN_PC
+	bool auto_shutdown_pc;
+#endif
+
 	QString default_font;
 
 	//!< Pause the current file when the main window is not visible

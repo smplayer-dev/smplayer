@@ -390,6 +390,10 @@ void Preferences::reset() {
 
 	close_on_finish = false;
 
+#ifdef AUTO_SHUTDOWN_PC
+	auto_shutdown_pc = false;
+#endif
+
 	default_font = "";
 
 	pause_when_hidden = false;
@@ -845,6 +849,10 @@ void Preferences::save() {
 	set->setValue("save_window_size_on_exit", save_window_size_on_exit);
 
 	set->setValue("close_on_finish", close_on_finish);
+
+#ifdef AUTO_SHUTDOWN_PC
+	set->setValue("auto_shutdown_pc", auto_shutdown_pc);
+#endif
 
 	set->setValue("default_font", default_font);
 
@@ -1341,6 +1349,10 @@ void Preferences::load() {
 	save_window_size_on_exit = 	set->value("save_window_size_on_exit", save_window_size_on_exit).toBool();
 
 	close_on_finish = set->value("close_on_finish", close_on_finish).toBool();
+
+#ifdef AUTO_SHUTDOWN_PC
+	auto_shutdown_pc = set->value("auto_shutdown_pc", auto_shutdown_pc).toBool();
+#endif
 
 	default_font = set->value("default_font", default_font).toString();
 
