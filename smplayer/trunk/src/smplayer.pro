@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-CONFIG += release
-#CONFIG += debug
+#CONFIG += release
+CONFIG += debug
 
 QT += network xml
 
@@ -25,6 +25,7 @@ DEFINES += UPDATE_CHECKER
 DEFINES += CHECK_UPGRADED
 DEFINES += REMINDER_ACTIONS
 #DEFINES += USE_FONTCONFIG_OPTIONS
+#DEFINES += AUTO_SHUTDOWN_PC
 
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += widgets gui

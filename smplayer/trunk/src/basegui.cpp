@@ -4686,7 +4686,15 @@ void BaseGui::playlistHasFinished() {
 	qDebug("BaseGui::playlistHasFinished: arg_close_on_finish: %d, pref->close_on_finish: %d", arg_close_on_finish, pref->close_on_finish);
 
 	if (arg_close_on_finish != 0) {
-		if ((arg_close_on_finish == 1) || (pref->close_on_finish)) exitAct->trigger();
+		if ((arg_close_on_finish == 1) || (pref->close_on_finish)) {
+			#ifdef AUTO_SHUTDOWN_PC
+			if (pref->auto_shutdown_pc) {
+				// Do something
+				qDebug("BaseGui::playlistHasFinished: the PC will shut down");
+			}
+			#endif
+			exitAct->trigger();
+		}
 	}
 }
 
