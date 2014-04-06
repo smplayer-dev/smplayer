@@ -25,7 +25,7 @@ DEFINES += UPDATE_CHECKER
 DEFINES += CHECK_UPGRADED
 DEFINES += REMINDER_ACTIONS
 #DEFINES += USE_FONTCONFIG_OPTIONS
-#DEFINES += AUTO_SHUTDOWN_PC
+DEFINES += AUTO_SHUTDOWN_PC
 
 isEqual(QT_MAJOR_VERSION, 5) {
 	QT += widgets gui
@@ -396,6 +396,12 @@ contains( DEFINES, REMINDER_ACTIONS ) {
 	HEADERS += sharedialog.h
 	SOURCES += sharedialog.cpp
 	FORMS += sharedialog.ui
+}
+
+contains( DEFINES, AUTO_SHUTDOWN_PC ) {
+	HEADERS += shutdowndialog.h
+	SOURCES += shutdowndialog.cpp
+	FORMS += shutdowndialog.ui
 }
 
 unix {
