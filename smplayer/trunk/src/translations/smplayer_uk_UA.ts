@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="uk">
 <context>
     <name>About</name>
     <message>
@@ -515,12 +517,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="210"/>
         <source>Live</source>
-        <translation type="unfinished"/>
+        <translation>Живий</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="211"/>
         <source>Party</source>
-        <translation type="unfinished"/>
+        <translation>Вечірка</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -560,7 +562,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Custom</source>
-        <translation type="unfinished"/>
+        <translation>Вручну</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
@@ -1194,7 +1196,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>Генератор &amp;мініатюр</translation>
+        <translation>Генератор &amp;мініатюр...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1587"/>
@@ -1204,7 +1206,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1630"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"/>
+        <translation>П&amp;ошук субтитрів на OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1640"/>
@@ -1427,7 +1429,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1936"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation>Поділитися SMPlayer(ом) з друзями</translation>
+        <translation>По&amp;ділитися SMPlayer(ом) з друзями</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2923"/>
@@ -2638,7 +2640,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"/>
+        <translation>Сервер &amp;OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -2736,7 +2738,11 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
+        <translation>
+            <numerusform>%n субтитр витягнутий</numerusform>
+            <numerusform>%n субтитра витягнуті</numerusform>
+            <numerusform>%n субтитрів витягнуто</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2834,7 +2840,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти звантажений
@@ -3099,7 +3105,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"/>
+        <translation>Ви можете відтворювати DVD з жорсткого диску. Просто вкажіть теку, яка містить директорії VIDEO_TS і AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -4541,7 +4547,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="317"/>
         <source>Add &amp;URL(s)</source>
-        <translation>Додати URL-адресу (и)</translation>
+        <translation>Додати &amp;URL-адресу (и)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="320"/>
@@ -5132,7 +5138,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо ця опція активована, SMPlayer буде відтворювати DVD за допомогою dvdnav. Необхідна оновлена версія MPlayer, зкомпільована з підтримкою dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
@@ -5316,12 +5322,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо ця опція активована, всі медіа-файли будуть використовувати аудіоеквалайзер.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо не активована, налаштування аудіоеквалайзера будуть збережені разом з кожним файлом і будуть завантажуватись пізніше при кожному відтворенні файлу.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1067"/>
@@ -5562,7 +5568,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefgeneral.ui" line="958"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation>&lt;Here it goes an explanation text&gt;</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="685"/>
@@ -6070,7 +6076,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation>Забороняється застосовувати дію лівого клацання миші разом з подвійним клацанням</translation>
+        <translation>За&amp;бороняється застосовувати дію лівого клацання миші разом з подвійним клацанням</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6684,7 +6690,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation>Спливаюча панель керування з&apos;являється при переміщенні миші в повноекранному режимі.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6694,7 +6700,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="750"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Час (у мілісекундах) до ховання панелі:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="856"/>
@@ -6760,27 +6766,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Виберіть бажаний графічний інтерфейс для додатка.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Базовий інтерфейс&lt;/b&gt; надає традиційний інтерфейс з панеллю інструментів та контрольною панеллю.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Міні-інтерфейс&lt;/b&gt; надає більш простий інтерфейс без панелі інструментів, але з контрольною панеллю з кількома кнопками.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Інтерфейс зі шкурками&lt;/b&gt; надає інтерфейс, в якому можна міняти шкурки.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;MPC інтерфейс&lt;/b&gt; схожий на інтерфейс Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
@@ -6932,7 +6938,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо ця опція активована, спливаюча панель буде показуватися тілько коли миша переміщена униз экрану. Інакше панель буде з&apos;являтися при будь-якому руху миші, незалежно від її позиції.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
@@ -6952,12 +6958,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"/>
+        <translation>Час до ховання панелі</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"/>
+        <translation>Вказує час (в мілісекундах) до ховання після виходу миші за межі панелі.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="777"/>
@@ -7512,32 +7518,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Ця опція дозволяє автоматично додавати файли до переліку:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Нічого&lt;/b&gt;: ніякі файли не будуть додані</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Відео-файли&lt;/b&gt;: всі відео-файли, знайдені в теці, будуть додані</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Аудіо-файли&lt;/b&gt;: всі аудіо-файли, знайдені в теці, будуть додані</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Відео- та аудіо-файли&lt;/b&gt;: всі відео- та аудіо-файли, знайдені в теці, будуть додані</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Послідовні файли&lt;/b&gt;: послідовні файли (такі як video_1.avi, video_2.avi) будуть додані</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7592,7 +7598,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>Додати файли з &amp;теки:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -7896,12 +7902,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо ця опція активована, системні шрифти Windows будуть доступні для субтитрів. Але є незручність: повинен бути створений кеш шрифтів, це може зайняти деякий час.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо ця опція активована, буде використано тільки декілька шрифтів, що входять до складу SMPlayer, але це швидше.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="511"/>
@@ -8581,13 +8587,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform></translation>
+        <translation>
+            <numerusform>%n секунда</numerusform>
+            <numerusform>%n секунди</numerusform>
+            <numerusform>%n секунд</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform></translation>
+        <translation>
+            <numerusform>%n хвилина</numerusform>
+            <numerusform>%n хвилини</numerusform>
+            <numerusform>%n хвилин</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8658,22 +8672,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Підтримати SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Нагадати пізніше</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"/>
+        <translation>Пожертвувати з Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"/>
+        <translatorcomment>Ви можете підтримати SMPlayer пожертвуванням або поширенням серед друзів.</translatorcomment>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -8986,7 +9001,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Обнулити</translation>
+        <translation>Обнулити.</translation>
     </message>
 </context>
 <context>
