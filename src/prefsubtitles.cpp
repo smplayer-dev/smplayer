@@ -429,7 +429,13 @@ void PrefSubtitles::on_windowsfontdir_check_toggled(bool b) {
 		QString fontdir = Paths::fontPath();
 		//QString fontdir = "/tmp/fonts/";
 		style_font_combo->setFontsFromDir(fontdir);
-		fontCombo->setFontsFromDir(fontdir);
+
+		// Calling setFontsFromDir resets the fonts in other comboboxes!
+		// So the font list is copied from the previous combobox
+		fontCombo->clear();
+		for (int n=0; n < style_font_combo->count(); n++) {
+			fontCombo->addItem( style_font_combo->itemText(n) );
+		}
 	}
 #endif
 }
