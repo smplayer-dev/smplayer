@@ -199,17 +199,17 @@
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Slovak</source>
-        <translation type="unfinished"/>
+        <translation>סלובקית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>British English</source>
-        <translation type="unfinished"/>
+        <translation>אנגלית בריטית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>Albanian</source>
-        <translation type="unfinished"/>
+        <translation>אלבנית</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="217"/>
@@ -475,52 +475,52 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="202"/>
         <source>Classical</source>
-        <translation type="unfinished"/>
+        <translation>קלאסי</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>Club</source>
-        <translation type="unfinished"/>
+        <translation>מועדון</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
         <source>Dance</source>
-        <translation type="unfinished"/>
+        <translation>דאנס</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>Full bass</source>
-        <translation type="unfinished"/>
+        <translation>באס מלא</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>Full bass and treble</source>
-        <translation type="unfinished"/>
+        <translation>באס וגם טרבל מלאים</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>Full treble</source>
-        <translation type="unfinished"/>
+        <translation>טרבל מלא</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
         <source>Headphones</source>
-        <translation type="unfinished"/>
+        <translation>אוזניות</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="209"/>
         <source>Large hall</source>
-        <translation type="unfinished"/>
+        <translation>אולם גדול</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="210"/>
         <source>Live</source>
-        <translation type="unfinished"/>
+        <translation>חי</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="211"/>
         <source>Party</source>
-        <translation type="unfinished"/>
+        <translation>מסיבה</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -530,7 +530,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
         <source>Reggae</source>
-        <translation type="unfinished"/>
+        <translation>רגיי</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
@@ -540,27 +540,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
         <source>Ska</source>
-        <translation type="unfinished"/>
+        <translation>סקה</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="216"/>
         <source>Soft</source>
-        <translation type="unfinished"/>
+        <translation>עדין</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="217"/>
         <source>Soft rock</source>
-        <translation type="unfinished"/>
+        <translation>רוק עדין</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="218"/>
         <source>Techno</source>
-        <translation type="unfinished"/>
+        <translation>טכנו</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Custom</source>
-        <translation type="unfinished"/>
+        <translation>מותאם</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
@@ -1189,7 +1189,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1545"/>
         <source>&amp;Half speed</source>
-        <translation type="unfinished"/>
+        <translation>מהירות &amp;חצויה</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1561"/>
@@ -1204,7 +1204,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1630"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"/>
+        <translation>מציאת כתוביות אצל &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1640"/>
@@ -1230,7 +1230,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1676"/>
         <source>&amp;Donate</source>
-        <translation>&amp;תרומות</translation>
+        <translation>&amp;תרום</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1700"/>
@@ -1427,7 +1427,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1936"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation>ש&amp;תפו את SMPlayer עם חברים</translation>
+        <translation>ש&amp;תף את SMPlayer עם חברים</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2923"/>
@@ -2136,7 +2136,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="550"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"/>
+        <translation>אין אפשרות לאתר כתובת URL של וידאו</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3287"/>
@@ -2638,7 +2638,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"/>
+        <translation>שרת &amp;OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -3104,7 +3104,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
         <source>Choose a directory...</source>
-        <translation>בחר מדור...</translation>
+        <translation>בחירת מדור...</translation>
     </message>
 </context>
 <context>
@@ -7481,62 +7481,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>כלום</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"/>
+        <translation>קבצי וידאו</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"/>
+        <translation>קבצי אודיו</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"/>
+        <translation>קבצי וידאו וגם אודיו</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"/>
+        <translation>קבצים עוקבים</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"/>
+        <translation>הוספת קבצים מתוך תיקייה</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>אפשרות זו מתירה לך להוסיף קבצים אוטומטית אל רשימת הנגינה:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;כלום&lt;/b&gt;: לא יתווספו קבצים</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;קבצי וידאו&lt;/b&gt;: כל קבצי הוידאו אשר מצויים בתוך התיקייה יתווספו</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;קבצי אודיו&lt;/b&gt;: כל קבצי האודיו אשר מצויים בתוך התיקייה יתווספו</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;קבצי וידאו וגם אודיו&lt;/b&gt;: כל קבצי הוידאו וגם האודיו אשר מצויים בתוך התיקייה יתווספו</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;קבצים עוקבים&lt;/b&gt;: קבצים עוקבים (כגון video_1.avi, video_2.avi) יתווספו</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7591,7 +7591,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>הוסף קבצים מתוך &amp;תיקייה:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -7661,7 +7661,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="234"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>אפשר גופני &amp;Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="505"/>
@@ -7890,7 +7890,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>אפשור גופנים של Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
@@ -8657,22 +8657,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>תמכו בפרויקט SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"/>
+        <translation>&amp;תזכר אותי מאוחר יותר</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"/>
+        <translation>תרמו בעזרת Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"/>
+        <translation>ביכולתך לתמוך בפרויקט SMPlayer על ידי מסירת תרומה או שיתוף פרויקט זה עם חברים.</translation>
     </message>
 </context>
 <context>

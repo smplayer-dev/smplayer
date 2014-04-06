@@ -322,7 +322,7 @@
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation>SMPlayer benutzt den preisgekrönten MPlayer als Wiedergabe-Engine. Siehe %1</translation>
+        <translation>SMPlayer benutzt den preisgekrönten MPlayer als Wiedergabemaschine. Siehe %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -570,7 +570,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="226"/>
         <source>Set all controls to zero.</source>
-        <translation>Setzt alle Regler auf Null.</translation>
+        <translation>Alle Regler auf Null stellen.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="244"/>
@@ -1869,7 +1869,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1627"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>&amp;Untertitel-Sichtbarkeit</translation>
+        <translation>&amp;Untertitelsichtbarkeit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
@@ -1935,12 +1935,12 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1536"/>
         <source>Set &amp;A marker</source>
-        <translation>&amp;A-Markierung setzen</translation>
+        <translation>&amp;A-Markierung einstellen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1537"/>
         <source>Set &amp;B marker</source>
-        <translation>&amp;B-Markierung setzen</translation>
+        <translation>&amp;B-Markierung einstellen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1538"/>
@@ -4777,7 +4777,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="426"/>
         <source>Monitor aspect</source>
-        <translation>Monitor-Seitenverhältnis</translation>
+        <translation>Monitorseitenverhältnis</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="427"/>
@@ -4897,7 +4897,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="491"/>
         <source>Network Connection</source>
-        <translation>Netzwerk-Verbindung</translation>
+        <translation>Netzwerkverbindung</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="503"/>
@@ -5871,12 +5871,12 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="895"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>Mit dieser Option können Sie die Bildschirmfoto-Funktion aktivieren oder deaktivieren.</translation>
+        <translation>Mit dieser Option können Sie die Bildschirmfotofunktion aktivieren oder deaktivieren.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="899"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Hier kann der Speicherort für die von SMPlayer aufgenommenen Bildschirmfotos bestimmt werden. Wenn dieser Ordner nicht vorhanden ist, wird die Bildschirmfoto-Funktion deaktiviert.</translation>
+        <translation>Hier kann der Speicherort für die von SMPlayer aufgenommenen Bildschirmfotos bestimmt werden. Wenn dieser Ordner nicht vorhanden ist, wird die Bildschirmfotofunktion deaktiviert.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
@@ -6069,7 +6069,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.ui" line="138"/>
         <source>Button functions:</source>
-        <translation>Tasten-Funktionen:</translation>
+        <translation>Tastenfunktionen:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="340"/>
@@ -6764,7 +6764,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation>Wählen Sie die bevorzugte grafische Oberfläche für das Programm.</translation>
+        <translation>Die bevorzugte grafische Oberfläche für die Anwendung auswählen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -6774,17 +6774,17 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="667"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>Die &lt;b&gt;Mini-Benutzeroberfläche&lt;/b&gt; bietet eine einfache Oberfläche, ohne einer Werkzeugleiste und einer Steuerungsleiste mit wenigen Tasten.</translation>
+        <translation>Die &lt;b&gt;Mini-Benutzeroberfläche&lt;/b&gt; bietet eine einfache Oberfläche, ohne Werkzeugleiste, Steuerungsleiste und mit wenigen Knöpfen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation>Die &lt;b&gt;Anpassbare Benutzeroberfläche&lt;/b&gt; bietet eine Oberfläche, wo mehrere Oberflächen zur Verfügung stehen.</translation>
+        <translation>Die &lt;b&gt;Anpassbare Benutzeroberfläche&lt;/b&gt; bietet eine Oberfläche, in der mehrere Oberflächen zur Verfügung stehen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation>Die &lt;b&gt;MPC-Benutzeroberfläche&lt;/b&gt; sieht wie die Oberfläche im Media Player Classic aus.</translation>
+        <translation>Die &lt;b&gt;MPC-Benutzeroberfläche&lt;/b&gt; sieht wie die Oberfläche des „Media Player Classic“ aus.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
@@ -7607,7 +7607,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="110"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation>Dateien in Ordnern &amp;rekursiv einfügen</translation>
+        <translation>Dateien in Ordner &amp;rekursiv einfügen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="117"/>
