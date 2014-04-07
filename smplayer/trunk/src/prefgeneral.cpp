@@ -911,14 +911,19 @@ void PrefGeneral::createHelp() {
            "SMPlayer will be stored. If the folder is not valid the "
            "screenshot feature will be disabled.") );
 
-	setWhatsThis(close_on_finish_check, tr("Close when finished"),
-		tr("If this option is checked, the main window will be automatically "
-		   "closed when the current file/playlist finishes.") );
-
 	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
 		tr("If this option is enabled, the file will be paused when the "
            "main window is hidden. When the window is restored, playback "
            "will be resumed.") );
+
+	setWhatsThis(close_on_finish_check, tr("Close when finished"),
+		tr("If this option is checked, the main window will be automatically "
+		   "closed when the current file/playlist finishes.") );
+
+#ifdef AUTO_SHUTDOWN_PC
+	setWhatsThis(shutdown_check, tr("Shutdown computer"),
+		tr("If this option is enabled, the computer will shut down just after SMPlayer is closed.") );
+#endif
 
 	// Video tab
 	addSectionTitle(tr("Video"));
