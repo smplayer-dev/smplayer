@@ -4702,7 +4702,7 @@ void BaseGui::playlistHasFinished() {
 					#endif
 					#ifdef Q_OS_LINUX
 					QProcess::startDetached("xmessage", QStringList() << "-center" << 
-						"The computer should shut down now.\nHowever shutting down hasn't been implemented yet in SMPlayer.");
+						"The computer should shut down now.\nHowever shutdown hasn't been implemented yet in SMPlayer.");
 					#endif
 				} else {
 					qDebug("BaseGui::playlistHasFinished: shutdown aborted");
