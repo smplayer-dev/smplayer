@@ -21,7 +21,7 @@
 
 void Shutdown::shutdown() {
 #ifdef Q_OS_WIN
-	QProcess::startDetached("shutdown -s -f");
+	QProcess::startDetached("shutdown -s -f -t 10");
 #endif
 
 #ifdef Q_OS_LINUX
