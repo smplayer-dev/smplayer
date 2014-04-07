@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-#CONFIG += release
-CONFIG += debug
+CONFIG += release
+#CONFIG += debug
 
 QT += network xml
 
@@ -399,8 +399,8 @@ contains( DEFINES, REMINDER_ACTIONS ) {
 }
 
 contains( DEFINES, AUTO_SHUTDOWN_PC ) {
-	HEADERS += shutdowndialog.h
-	SOURCES += shutdowndialog.cpp
+	HEADERS += shutdowndialog.h shutdown.h
+	SOURCES += shutdowndialog.cpp shutdown.cpp
 	FORMS += shutdowndialog.ui
 }
 
