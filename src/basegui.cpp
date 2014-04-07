@@ -118,6 +118,7 @@
 
 #ifdef AUTO_SHUTDOWN_PC
 #include "shutdowndialog.h"
+#include "shutdown.h"
 #endif
 
 using namespace Global;
@@ -4694,16 +4695,9 @@ void BaseGui::playlistHasFinished() {
 			#ifdef AUTO_SHUTDOWN_PC
 			if (pref->auto_shutdown_pc) {
 				ShutdownDialog d(this);
-				if ( d.exec() == QDialog::Accepted ) {
+				if (d.exec() == QDialog::Accepted) {
 					qDebug("BaseGui::playlistHasFinished: the PC will shut down");
-					// Do something
-					#ifdef Q_OS_WIN
-					QProcess::startDetached("shutdown -s -f");
-					#endif
-					#ifdef Q_OS_LINUX
-					QProcess::startDetached("xmessage", QStringList() << "-center" << 
-						"The computer should shut down now.\nHowever shutdown hasn't been implemented yet in SMPlayer.");
-					#endif
+					Shutdown::shutdown();
 				} else {
 					qDebug("BaseGui::playlistHasFinished: shutdown aborted");
 				}
