@@ -24,7 +24,7 @@ OSClient::OSClient(QObject* parent) :
 	, logged_in(false)
 	, search_size(0) 
 #ifdef OS_SEARCH_WORKAROUND
-	, append_times(0)
+	, best_search_count(0)
 #endif
 {
 	rpc = new MaiaXmlRpcClient(QUrl("http://api.opensubtitles.org/xml-rpc"), this);
@@ -59,10 +59,6 @@ void OSClient::search(const QString & hash, qint64 file_size) {
 	search_hash = hash;
 	search_size = file_size;
 
-#ifdef OS_SEARCH_WORKAROUND
-	append_times = 5;
-#endif
-
 	#if 0
 	if (logged_in) {
 		doSearch();
@@ -76,7 +72,16 @@ void OSClient::search(const QString & hash, qint64 file_size) {
 	#endif
 }
 
+#ifdef OS_SEARCH_WORKAROUND
 void OSClient::doSearch() {
+	best_search_count = 0;
+	for (int n = 1; n < 6; n++) doSearch(n);
+}
+
+void OSClient::doSearch(int nqueries) {
+#else
+void OSClient::doSearch() {
+#endif
 	qDebug("OSClient::doSearch");
 
 	QVariantMap m;
@@ -88,9 +93,9 @@ void OSClient::doSearch() {
 #ifdef OS_SEARCH_WORKAROUND
 	// Sometimes opensubtitles return 0 subtitles
 	// A workaround seems to add the query several times
-	if (append_times < 1) append_times = 1;
-	qDebug("OSClient::doSearch: append_times: %d", append_times);
-	for (int count = 0; count < append_times; count++) list.append(m);
+	qDebug("OSClient::doSearch: nqueries: %d", nqueries);
+	for (int count = 0; count < nqueries; count++) list.append(m);
+	//qDebug("OSClient::doSearch: list count: %d", list.count());
 #else
 	list.append(m);
 #endif
@@ -156,14 +161,11 @@ void OSClient::responseSearch(QVariant &arg) {
 	qDebug("OSClient::responseSearch: data count: %d", data.count());
 
 #ifdef OS_SEARCH_WORKAROUND
-	if (data.count() == 0) {
-		append_times--;
-		qDebug("OSClient::responseSearch: no data. Trying again.");
-		if (append_times > 0) {
-			doSearch();
-			return;
-		}
+	if (best_search_count >= data.count()) {
+		qDebug("OSClient::responseSearch: we already have a better search (%d). Ignoring this one.", best_search_count);
+		return;
 	}
+	best_search_count = data.count();
 #endif
 
 	for (int n = 0; n < data.count(); n++) {
