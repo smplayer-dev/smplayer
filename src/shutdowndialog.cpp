@@ -32,7 +32,7 @@ ShutdownDialog::ShutdownDialog( QWidget* parent, Qt::WindowFlags f )
 	icon_label->setPixmap(Images::icon("shutdown"));
 
 	text = tr("Playback has finished. SMPlayer is about to exit.") +"<br>"+
-	       tr("The computer will shut down in %1 seconds.") +"<br>"+ tr("Press <b>Cancel</b> to abort.");
+	       tr("The computer will shut down in %1 seconds.") +"<br>"+ tr("Press <b>Cancel</b> to abort shutdown.");
 	text_label->setText(text.arg(countdown));
 
 	adjustSize();
