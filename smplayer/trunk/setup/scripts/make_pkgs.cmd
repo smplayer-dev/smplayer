@@ -60,15 +60,19 @@ if "%USER_CHOICE%" == "11"  goto pkgver
 goto reask
 
 :pkgver
+if exist "pkg_version" (
+  for /f "tokens=*" %%i in ('type pkg_version') do set ALL_PKG_VER=%%i
+  goto parse_version
+)
 
 echo Format: VER_MAJOR.VER_MINOR.VER_BUILD[.VER_REVISION]
 echo VER_REVISION is optional (set to 0 if blank)
 echo.
-
-:pkgver_again
-Set /p ALL_PKG_VER="Version: "
+:pkgver_manual
+set /p ALL_PKG_VER="Version: "
 echo.
 
+:parse_version
 for /f "tokens=1 delims=." %%j in ("%ALL_PKG_VER%")  do set VER_MAJOR=%%j
 for /f "tokens=2 delims=." %%k in ("%ALL_PKG_VER%")  do set VER_MINOR=%%k
 for /f "tokens=3 delims=." %%l in ("%ALL_PKG_VER%")  do set VER_BUILD=%%l
@@ -77,19 +81,19 @@ for /f "tokens=4 delims=." %%m in ("%ALL_PKG_VER%")  do set VER_REVISION=%%m
 if [%VER_MAJOR%]==[] (
   echo Major Version # must be specified [#.x.x]
   echo.
-  goto pkgver_again
+  goto pkgver_manual
 )
 
 if [%VER_MINOR%]==[] (
   echo Minor Version # must be specified [x.#.x]
   echo.
-  goto pkgver_again
+  goto pkgver_manual
 )
 
 if [%VER_BUILD%]==[] (
   echo Build Version # must be specified [x.x.#]
   echo.
-  goto pkgver_again
+  goto pkgver_manual
 )
 
 if [%VER_REVISION%]==[] (
