@@ -5273,7 +5273,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird der Rechner heruntergefahren, sobald der SMPlayer beendet wird. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5313,7 +5313,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechner herunterfahren</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5383,7 +5383,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rechner herunterfahren</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8740,22 +8740,22 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Rechner wird heruntergefahren</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe wurde beendet. SMPlayer ist dabei zu beenden.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Rechner wird in %1 Sekunden heruntergefahren.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Abbrechen&lt;/b&gt; klicken, um das Herunterfahren abzubrechen.</translation>
     </message>
 </context>
 <context>

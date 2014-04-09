@@ -5270,7 +5270,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効な場合、コンピューターは SMPlayer が閉じた直後にシャットダウンします。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5310,7 +5310,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>コンピューターをシャットダウンする</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5380,7 +5380,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>コンピューターをシャットダウンする(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8733,22 +8733,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>コンピューターをシャットダウンしています</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>再生が完了しました。SMPlayer は終了します。</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>コンピューターは %1 秒後にシャットダウンします。</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>シャットダウンを中止するには [&lt;b&gt;キャンセル&lt;/b&gt;] を押します。</translation>
     </message>
 </context>
 <context>

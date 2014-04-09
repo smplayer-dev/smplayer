@@ -5270,7 +5270,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 SMPlayer 종료 후 즉시 컴퓨터를 종료합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5310,7 +5310,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>컴퓨터 종료하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5380,7 +5380,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>컴퓨터 종료하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8733,22 +8733,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>컴퓨터를 종료중입니다</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>재생이 끝났습니다. SMPlayer를 종료할 것입니다.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 초 후 컴퓨터를 종료합니다.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>종료를 취소하려면 &lt;b&gt;취소&lt;/b&gt;  를 누르세요.</translation>
     </message>
 </context>
 <context>

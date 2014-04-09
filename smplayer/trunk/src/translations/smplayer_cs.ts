@@ -5272,7 +5272,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokud je tato možnost povolena, počítač se po zavření SMPlayeru vypne.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5312,7 +5312,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnout počítač</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5382,7 +5382,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;ypnout počítač</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8739,22 +8739,22 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Počítač se vypíná</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Přehrávání je ukončeno. SMPlayer bude ukončen.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Počítač se vypne během %1 sekund.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmáčkněte &lt;b&gt;Zrušit&lt;/b&gt; pro přerušení vypnutí.</translation>
     </message>
 </context>
 <context>

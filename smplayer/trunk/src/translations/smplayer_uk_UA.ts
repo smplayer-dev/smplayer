@@ -5583,7 +5583,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefgeneral.ui" line="1013"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation></translation>
+        <translation>&lt;Here it goes an explanation text&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="740"/>
@@ -8702,8 +8702,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translatorcomment>Ви можете підтримати SMPlayer пожертвуванням або поширенням серед друзів.</translatorcomment>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

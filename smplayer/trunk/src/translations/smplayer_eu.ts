@@ -5271,7 +5271,7 @@ Adibidez: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaituta badago, ordenagailua itzali egingo da SMPlayer itxi ondoren.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5311,7 +5311,7 @@ Adibidez: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzali ordenagailua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5381,7 +5381,7 @@ Adibidez: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Itzali &amp;ordenagailua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8736,22 +8736,22 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenagailua itzaltzen</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurketa amaitu da. SMPlayer irtetzear dago.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenagailua %1 segundu barru itzaliko da.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sakatu &lt;b&gt;Ezeztatu&lt;/b&gt; itzalketa uzteko.</translation>
     </message>
 </context>
 <context>
