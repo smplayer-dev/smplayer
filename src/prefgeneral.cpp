@@ -921,7 +921,7 @@ void PrefGeneral::createHelp() {
 		   "closed when the current file/playlist finishes.") );
 
 #ifdef AUTO_SHUTDOWN_PC
-	setWhatsThis(shutdown_check, tr("Shutdown computer"),
+	setWhatsThis(shutdown_check, tr("Shut down computer"),
 		tr("If this option is enabled, the computer will shut down just after SMPlayer is closed.") );
 #endif
 
