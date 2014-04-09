@@ -56,11 +56,11 @@ ${LangFileString} Section_ResetSettings_Desc "Удаляет настройки 
 ${LangFileString} MPlayer_Codec_Msg "Пакеты с бинарными кодеками добавляют поддержку кодеков, не встроенных в mplayer, например, RealVideo и других нестандартных форматов.$\nОбратите внимание, что эти кодеки не нужны для воспроизведения большинства обычных форматов вроде DVD, MPEG-1/2/4 и т.п."
 
 ; Upgrade/Reinstall Page
-${LangFileString} Reinstall_Header_Text "Выберите тип установки"
-${LangFileString} Reinstall_Header_SubText "Выберите режим установки поверх или удаления."
+${LangFileString} Reinstall_Header_Text "Выбор типа установки"
+${LangFileString} Reinstall_Header_SubText "Выберите установку поверх или удаление."
 
 ${LangFileString} Reinstall_Msg1 "Существует установка SMPlayer в следующем каталоге:"
-${LangFileString} Reinstall_Msg2 "Выберите метод для продолжения:"
+${LangFileString} Reinstall_Msg2 "Выберите метод:"
 ${LangFileString} Reinstall_Overwrite "Перезаписать ($Inst_Type) существующую установку"
 ${LangFileString} Reinstall_Uninstall "Удалить существующую установку"
 ${LangFileString} Reinstall_Msg3_1 "Нажмите Старт для продолжения."
