@@ -1,145 +1,146 @@
-# Section_MPlayerCodecs_Desc 
-msgid "Binary codecs are not supported in this version."
-msgstr ""
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr ""
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr ""
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr ""
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr ""
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr ""
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr ""
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr ""
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr ""
-
-# Application_Description
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# GenghisKhan <genghiskhan@gmx.ca>, 2014
 msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
 msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2014-04-05 06:44+0000\n"
+"Last-Translator: GenghisKhan <genghiskhan@gmx.ca>\n"
+"Language-Team: Hebrew (http://www.transifex.com/projects/p/smplayer/language/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "המתקין כבר מורץ."
 
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr ""
-
-# Uninstaller_NotInstalled
+# Installer_No_Admin
 msgid ""
-"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
-"r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
+"You must be logged in as an administrator when installing this program."
+msgstr "עליך להתחבר בתור מנהל בעת התקנת יישום זה."
 
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr ""
-
-# Uninstaller_No_Admin
+# SMPlayer_Is_Running
 msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "תהליך של SMPlayer הינו מורץ כעת. אנא צא מתוך SMPlayer ונסה שוב."
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "מערכת הפעלה לא נתמכת.[:n:]SMPlayer ${SMPLAYER_VERSION} מצריך לפחות Windows XP ועשוי שלא לעבוד כראוי על המערכת הנוכחית.[:n:]האם אתה בטוח כי ברצונך להמשיך עם ההתקנה?"
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "מערכת הפעלה Windows מטיפוס  64-ביט נדרשת לשם התקנת תוכנה זו."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "התקנה קיימת מטיפוס 32-ביט של SMPlayer זמינה. עליך לבטל התקנת SMPlayer מטיפוס 32-ביט תחילה."
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "התקנה קיימת מטיפוס 64-ביט של SMPlayer זמינה. עליך לבטל התקנת SMPlayer מטיפוס 64-ביט תחילה."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "התקנת $(^NameDA)"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
 
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr ""
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "קיצורי דרך"
 
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr ""
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "רכיבי MPlayer"
 
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr ""
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (חובה)"
 
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "Downloading MPlayer codecs..."
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, ספריות משותפות, ותיעוד."
 
-# StartBtn
-msgid "Start"
-msgstr ""
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "שולחן עבודה"
 
-# Type_Upgrade
-msgid "upgrade"
-msgstr ""
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "צור קיצור דרך אל SMPlayer על שולחן העבודה."
 
-# Type_Downgrade
-msgid "downgrade"
-msgstr ""
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "תפריט התחלה"
 
-# Type_Reinstall
-msgid "reinstall"
-msgstr ""
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "צור רשומת תפריט התחלה עבור SMPlayer."
 
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr ""
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (חובה)"
 
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr ""
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; נדרש לשם נגינה."
 
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr ""
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "קודקים של בינארי"
 
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr ""
+# Section_MPlayerCodecs_Desc
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "קודקי לא מחייבים (רשות) עבור MPlayer. (חיבור אינטרנט נדרש לשם התקנה)"
 
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr ""
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "תוכנית משותפת ליישום MPlayer אשר מסוגלת לשמש כדי לקודד או לשנות זרמי אודיו או וידאו נתמכים."
 
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr ""
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "סמלי ערכות נושא"
 
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr ""
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "סמלי ערכות נושא נוספים עבור SMPlayer."
 
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr ""
+# Section_Translations
+msgid "Languages"
+msgstr "שפות"
 
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr ""
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "קבצים של שפות לא-אנגליות עבור SMPlayer."
 
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr ""
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr ""
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "מחיקת העדפות SMPlayer אשר נותרו מתוך התקנות קודמות."
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -149,135 +150,145 @@ msgid ""
 "like DVDs, MPEG-1/2/4, etc."
 msgstr ""
 
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr ""
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "בחר טיפוס התקנה"
 
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr ""
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "בחר צורת שכתוב או ביטול התקנת"
 
-# Section_Translations
-msgid "Languages"
-msgstr ""
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "יש לך התקנה קיימת של SMPlayer בתוך התיקייה הבאה:"
 
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr ""
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "אנא בחר כיצד להמשיך:"
 
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr ""
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "שכתב ($Inst_Type) את ההתקנה הקיימת"
 
-# Section_MEncoder_Desc
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "בטל התקנה (הסר) את ההתקנה הקיימת"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "לחץ התחל כאשר אתה מוכן להמשיך."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "לחץ הבא כאשר אתה מוכן להמשיך."
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "לחץ בטל התקנה כאשר אתה מוכן להמשיך."
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "שנה הגדרות התקנה"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "אפס תצורת SMPlayer"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "התקן מחדש"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "הנמך"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "שדרג"
+
+# StartBtn
+msgid "Start"
+msgstr "התחל"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "מוריד קודקים של MPlayer..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "קודקי MPlayer לא הותקנו בהצלחה. לנסות שוב?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "נכשל להוריד קודקי MPlayer. סיבה: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "נכשל להתקין קודקי MPlayer."
+
+# Uninstaller_No_Admin
 msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "התקנה זו ניתנת לביטול על ידי משתמש עם הרשאות מנהל."
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "ביטל התקנת ננטש על ידי משתמש."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "לא נראה כי SMPlayer הינו מותקן בתוך התיקייה '$INSTDIR'.[:r:][:n:]להמשיך בכל זאת (לא מומלץ)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "התקנת SMPlayer לא נמצאה."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "התקנה זו ניתנת לביטול רק על Windows מטיפוס 64-ביט."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer הינו מגשר-חזיתי מקיף עבור MPlayer, מתכונות בסיסיות כגון נגינת סרטוני וידאו, DVD, VCD לתכונות יותר מתקדמות כגון תמיכה עבור מסנני MPlayer, רשימות edl, ועוד."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "מגבה קודקים מתוך ההתקנה הקודמת..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "משחזר קודקים מתוך ההתקנה הקודמת..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "מוחק קבצים..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "מוחק מפתחות Registry..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "מוחק קיצורי דרך..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "משחזר שיוכי קובץ..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "משחזר שינויים..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "מחלץ קבצים..."
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr ""
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr ""
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr ""
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr ""
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr ""
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr ""
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr ""
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr ""
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr ""
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr ""
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr ""
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr ""
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMPlayer before "
-"starting setup. This will make it possible to update relevant program files "
-"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr ""
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
-"bit SMPlayer first."
-msgstr ""
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
-"bit SMPlayer first."
-msgstr ""
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr ""
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr ""
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: SMPlayer\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+msgid "Binary codecs are not supported in this version."
+msgstr "קודקים של בינארי אינם נתמכים בגרסא זו."

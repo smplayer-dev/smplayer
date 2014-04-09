@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# adem4ik, 2014
 # angry_snake <blackpoint200@gmail.com>, 2014
 # adem4ik, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-03-12 10:27+0000\n"
+"PO-Revision-Date: 2014-04-02 03:58+0000\n"
 "Last-Translator: adem4ik\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/smplayer/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -153,11 +154,11 @@ msgstr "Пакеты с бинарными кодеками добавляют �
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
-msgstr "Выберите тип установки"
+msgstr "Выбор типа установки"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr "Выберите режим установки поверх или удаления."
+msgstr "Выберите установку поверх или удаление."
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
@@ -165,7 +166,7 @@ msgstr "Существует установка SMPlayer в следующем �
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
-msgstr "Выберите метод для продолжения:"
+msgstr "Выберите метод:"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
