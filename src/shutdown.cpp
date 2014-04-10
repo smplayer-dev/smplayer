@@ -19,16 +19,58 @@
 #include "shutdown.h"
 #include <QProcess>
 
+#ifdef Q_OS_LINUX
+#include <QtDBus>
+#include <QDebug>
+#endif
+
 void Shutdown::shutdown() {
 #ifdef Q_OS_WIN
 	QProcess::startDetached("shutdown -s -f -t 10");
 #endif
 
 #ifdef Q_OS_LINUX
+	/*
 	QProcess::startDetached("xmessage", QStringList() << "-buttons" << "Accept:0" << "-center" <<
 		"This is a message from SMPlayer\n"
 		"The computer should shut down now.\n"
 		"However shutdown hasn't been implemented yet.");
+	*/
+
+	bool works = false;
+
+	QDBusMessage response;
+
+	QDBusInterface gnomeSessionManager("org.gnome.SessionManager", "/org/gnome/SessionManager", "org.gnome.SessionManager", QDBusConnection::sessionBus());
+	response = gnomeSessionManager.call("RequestShutdown");
+	qDebug("Shutdown::shutdown: response.type: %d", response.type());
+	if (response.type() == QDBusMessage::ErrorMessage) {
+		qDebug() << "Shutdown::shutdown: error:" << response.errorName() << ":" << response.errorMessage();
+	} else {
+		works = true;
+	}
+
+	if (!works) {
+		QDBusInterface powermanagement("org.freedesktop.Hal", "/org/freedesktop/Hal/devices/computer", 
+			"org.freedesktop.Hal.Device.SystemPowerManagement", QDBusConnection::systemBus());
+		response = powermanagement.call("Shutdown");
+		if (response.type() == QDBusMessage::ErrorMessage) {
+			qDebug() << "Shutdown::shutdown: error:" << response.errorName() << ":" << response.errorMessage();
+		} else {
+			works = true;
+		}
+	}
+
+	if (!works) {
+		QDBusInterface powermanagement("org.freedesktop.ConsoleKit", "/org/freedesktop/ConsoleKit/Manager", "org.freedesktop.ConsoleKit.Manager",
+			QDBusConnection::systemBus());
+		response = powermanagement.call("Stop");
+		if (response.type() == QDBusMessage::ErrorMessage) {
+			qDebug() << "Shutdown::shutdown: error:" << response.errorName() << ":" << response.errorMessage();
+		} else {
+			works = true;
+		}
+	}
 #endif
 }
 
