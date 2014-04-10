@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="en_GB">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en_GB" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2739,10 +2737,7 @@ Example: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitle(s) extracted</numerusform>
-            <numerusform>%n subtitle(s) extracted</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitle(s) extracted</numerusform><numerusform>%n subtitle(s) extracted</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2840,7 +2835,7 @@ Example: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>It wasn&apos;t possible to save the downloaded
@@ -5272,7 +5267,7 @@ Example: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>If this option is enabled, the computer will shut down just after SMPlayer is closed.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5312,7 +5307,7 @@ Example: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Shut down computer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5382,7 +5377,7 @@ Example: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;hut down computer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8603,19 +8598,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n second(s)</numerusform>
-            <numerusform>%n second(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n second(s)</numerusform><numerusform>%n second(s)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minute(s)</numerusform>
-            <numerusform>%n minute(s)</numerusform>
-        </translation>
+        <translation><numerusform>%n minute(s)</numerusform><numerusform>%n minute(s)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8686,22 +8675,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Support SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Remind me later</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donate using Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"></translation>
+        <translation>You can support SMPlayer by sending a donation or sharing it with your friends.</translation>
     </message>
 </context>
 <context>
@@ -8737,22 +8726,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Shutting down computer</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Playback has finished. SMPlayer is about to exit.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>The computer will shut down in %1 seconds.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</translation>
     </message>
 </context>
 <context>
