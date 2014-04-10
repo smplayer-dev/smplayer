@@ -30,13 +30,6 @@ void Shutdown::shutdown() {
 #endif
 
 #ifdef Q_OS_LINUX
-	/*
-	QProcess::startDetached("xmessage", QStringList() << "-buttons" << "Accept:0" << "-center" <<
-		"This is a message from SMPlayer\n"
-		"The computer should shut down now.\n"
-		"However shutdown hasn't been implemented yet.");
-	*/
-
 	bool works = false;
 
 	QDBusMessage response;
@@ -83,6 +76,11 @@ void Shutdown::shutdown() {
 
 	if (!works) {
 		qDebug("Shutdown::shutdown: shutdown failed");
+
+		QProcess::startDetached("xmessage", QStringList() << "-buttons" << "Accept:0" << "-center" <<
+			"This is a message from SMPlayer\n"
+			"The computer should shut down now.\n"
+			"However shutdown failed.");
 	}
 #endif
 }
