@@ -402,6 +402,8 @@ contains( DEFINES, AUTO_SHUTDOWN_PC ) {
 	HEADERS += shutdowndialog.h shutdown.h
 	SOURCES += shutdowndialog.cpp shutdown.cpp
 	FORMS += shutdowndialog.ui
+
+	unix { QT += dbus }
 }
 
 unix {

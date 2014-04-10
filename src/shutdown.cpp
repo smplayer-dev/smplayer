@@ -43,11 +43,20 @@ void Shutdown::shutdown() {
 
 	QDBusInterface gnomeSessionManager("org.gnome.SessionManager", "/org/gnome/SessionManager", "org.gnome.SessionManager", QDBusConnection::sessionBus());
 	response = gnomeSessionManager.call("RequestShutdown");
-	qDebug("Shutdown::shutdown: response.type: %d", response.type());
 	if (response.type() == QDBusMessage::ErrorMessage) {
 		qDebug() << "Shutdown::shutdown: error:" << response.errorName() << ":" << response.errorMessage();
 	} else {
 		works = true;
+	}
+
+	if (!works) {
+		QDBusInterface kdeSessionManager("org.kde.ksmserver", "/KSMServer", "org.kde.KSMServerInterface", QDBusConnection::sessionBus());
+		response = kdeSessionManager.call("logout", 0, 2, 2);
+		if (response.type() == QDBusMessage::ErrorMessage) {
+			qDebug() << "Shutdown::shutdown: error:" << response.errorName() << ":" << response.errorMessage();
+		} else {
+			works = true;
+		}
 	}
 
 	if (!works) {
@@ -70,6 +79,10 @@ void Shutdown::shutdown() {
 		} else {
 			works = true;
 		}
+	}
+
+	if (!works) {
+		qDebug("Shutdown::shutdown: shutdown failed");
 	}
 #endif
 }
