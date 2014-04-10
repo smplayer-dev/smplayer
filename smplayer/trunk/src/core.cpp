@@ -4244,8 +4244,18 @@ void Core::sendMediaInfo() {
 
 //!  Called when the state changes
 void Core::watchState(Core::State state) {
-	if ((state == Playing) && (change_volume_after_unpause)) 
-	{
+#ifdef SCREENSAVER_OFF
+	qDebug("Core::watchState: %d", state);
+	//qDebug("Core::watchState: has video: %d", !mdat.novideo);
+
+	if ((state == Playing) /* && (!mdat.novideo) */) {
+		disableScreensaver();
+	} else {
+		enableScreensaver();
+	}
+#endif
+
+	if ((state == Playing) && (change_volume_after_unpause)) {
 		// Delayed volume change
 		qDebug("Core::watchState: delayed volume change");
 		int volume = (pref->global_volume ? pref->volume : mset.volume);
