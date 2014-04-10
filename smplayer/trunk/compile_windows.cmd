@@ -50,17 +50,6 @@ goto arg_loop
 
 call getrev.cmd
 
-:: Get value of #define USE_SVN_VERSIONS
-for /f "tokens=3" %%j in ('type src\version.cpp ^| find "USE_SVN_VERSIONS"') do set use_svn_revision=%%j
-
-if exist src\svn_revision.h (
-  if [%use_svn_revision%]==[1] (
-
-    set qmake_defs=%qmake_defs% HAVE_SVN_REVISION_H
-
-  )
-)
-
 cd zlib
 mingw32-make -fwin32\makefile.gcc
 
