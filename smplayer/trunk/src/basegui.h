@@ -29,8 +29,10 @@
 #include "guiconfig.h"
 
 #ifdef Q_OS_WIN
+#ifdef AVOID_SCREENSAVER
 /* Disable screensaver by event */
 #include <windows.h>
+#endif
 #endif
 
 //#define SHARE_MENU
