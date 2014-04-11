@@ -4245,6 +4245,7 @@ void Core::sendMediaInfo() {
 //!  Called when the state changes
 void Core::watchState(Core::State state) {
 #ifdef SCREENSAVER_OFF
+	#if 0
 	qDebug("Core::watchState: %d", state);
 	//qDebug("Core::watchState: has video: %d", !mdat.novideo);
 
@@ -4253,6 +4254,7 @@ void Core::watchState(Core::State state) {
 	} else {
 		enableScreensaver();
 	}
+	#endif
 #endif
 
 	if ((state == Playing) && (change_volume_after_unpause)) {
