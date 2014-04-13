@@ -117,6 +117,9 @@ QWidget * TimeSliderAction::createWidget ( QWidget * parent ) {
 	         this, SIGNAL(delayedDraggingPos(int)) );
 #endif
 
+	connect(t, SIGNAL(wheelUp()), this, SIGNAL(wheelUp()));
+	connect(t, SIGNAL(wheelDown()), this, SIGNAL(wheelDown()));
+
 	return t;
 }
 

@@ -138,10 +138,20 @@ int TimeSlider::pos() {
 	return position;
 }
 
-/*
-void TimeSlider::wheelEvent( QWheelEvent * e ) {
-	e->ignore();
+void TimeSlider::wheelEvent(QWheelEvent * e) {
+	//e->ignore();
+
+	qDebug("TimeSlider::wheelEvent: delta: %d", e->delta());
+	e->accept();
+
+	if (e->orientation() == Qt::Vertical) {
+	    if (e->delta() >= 0)
+	        emit wheelUp();
+	    else
+	        emit wheelDown();
+	} else {
+		qDebug("Timeslider::wheelEvent: horizontal event received, doing nothing");
+	}
 }
-*/
 
 #include "moc_timeslider.cpp"

@@ -45,6 +45,8 @@ signals:
 	//! Emitted with a few ms of delay
 	void delayedDraggingPos(int);
 #endif
+	void wheelUp();
+	void wheelDown();
 
 protected slots:
 	void stopUpdate();
@@ -56,7 +58,7 @@ protected slots:
 	void sendDelayedPos();
 #endif
 
-	/* virtual void wheelEvent( QWheelEvent * e ); */
+	virtual void wheelEvent(QWheelEvent * e);
 
 private:
 	bool dont_update;
