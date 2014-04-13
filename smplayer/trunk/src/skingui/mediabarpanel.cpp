@@ -101,6 +101,8 @@ void MediaBarPanel::setCore(Core *c)
     connect(core, SIGNAL(showTime(double)), this, SLOT(gotCurrentTime(double)));
     connect(core, SIGNAL(mediaInfoChanged()), this, SLOT(updateMediaInfo()));
     connect(core, SIGNAL(buffering()), this, SLOT(setBuffering()));
+	connect(mediaPanel, SIGNAL(seekerWheelUp()), core, SLOT(wheelUp()));
+	connect(mediaPanel, SIGNAL(seekerWheelDown()), core, SLOT(wheelDown()));
 }
 
 void MediaBarPanel::setDuration()

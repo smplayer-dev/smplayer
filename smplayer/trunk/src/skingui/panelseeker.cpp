@@ -353,4 +353,18 @@ void PanelSeeker::wheelEvent(QWheelEvent *e)
 
 }
 
+void PanelTimeSeeker::wheelEvent(QWheelEvent *e) {
+	qDebug("PanelTimeSeeker::wheelEvent: delta: %d", e->delta());
+	e->accept();
+
+	if (e->orientation() == Qt::Vertical) {
+		if (e->delta() >= 0)
+			emit wheelUp();
+		else
+			emit wheelDown();
+	} else {
+		qDebug("PanelTimeSeeker::wheelEvent: horizontal event received, doing nothing");
+	}
+}
+
 #include "moc_panelseeker.cpp"
