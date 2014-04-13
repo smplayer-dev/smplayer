@@ -96,7 +96,7 @@ MediaPanel::MediaPanel(QWidget *parent)
 	timer->setSingleShot(true);
 	timer->setInterval(2000);
 	connect(timer, SIGNAL(timeout()), this, SLOT(reverseStatus()));
-	/* connect(seeker, SIGNAL(valueChanged(int)), this, SIGNAL(seekerChanged(int))); */
+	connect(seeker, SIGNAL(valueChanged(int)), this, SIGNAL(seekerChanged(int)));
 	connect(seeker, SIGNAL(wheelUp()), this, SIGNAL(seekerWheelUp()));
 	connect(seeker, SIGNAL(wheelDown()), this, SIGNAL(seekerWheelDown()));
 }
