@@ -128,4 +128,16 @@ protected:
 };
 Q_DECLARE_OPERATORS_FOR_FLAGS(PanelSeeker::States)
 
+
+class PanelTimeSeeker : public PanelSeeker {
+	Q_OBJECT
+
+signals:
+	void wheelUp();
+	void wheelDown();
+
+protected:
+    void wheelEvent(QWheelEvent *e);
+};
+
 #endif // PANELSEEKER_H

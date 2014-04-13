@@ -103,7 +103,7 @@ private:
     QPixmap rightBackground;
     ScrollingLabel* mediaLabel;
     QLabel *resolutionLabel;
-    PanelSeeker* seeker;
+    PanelTimeSeeker* seeker;
     MyButton* repeatButton;
     MyButton* shuffleButton;
     QLabel* elapsedLabel;
@@ -123,6 +123,8 @@ protected:
 
 signals:
 	void seekerChanged(int);
+	void seekerWheelUp();
+	void seekerWheelDown();
 
 public:
     friend class IconSetter;
