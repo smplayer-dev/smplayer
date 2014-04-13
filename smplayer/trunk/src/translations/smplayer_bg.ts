@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="bg">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="bg" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2739,10 +2737,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитри са извлечени</numerusform>
-            <numerusform>%n субтитри са извлечени</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитри са извлечени</numerusform><numerusform>%n субтитри са извлечени</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2840,7 +2835,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Немовъзможно е запазването на сваления
@@ -5273,7 +5268,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази възможност е активирана, компютърът ще се изключва след затваряне на SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5313,7 +5308,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Изключване на компютъра</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5383,7 +5378,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Из&amp;ключване на компютъра</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -5584,7 +5579,7 @@ Example: resample=44100:0:0,volnorm</source>
         <location filename="../prefgeneral.ui" line="1013"/>
         <source>&lt;Here it goes an explanation text&gt;
 For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="740"/>
@@ -8603,19 +8598,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минути</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минути</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8737,22 +8726,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Компютърът се изключва</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Възпроизведането приключи. SMPlayer ще се затвори.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Компютърът ще се изключи след %1 секунди.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Натиснете &lt;b&gt;Отказ&lt;/b&gt;, за да прекратите изключването.</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -71,7 +69,7 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation>Moitas persoas constribuíron con traducións.</translation>
+        <translation>Moitas persoas contribuíron con traducións.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
@@ -176,7 +174,7 @@
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Estonian</source>
-        <translation>Estonio</translation>
+        <translation>estonio</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
@@ -1016,7 +1014,7 @@ Seguro que desexas sobrescribilo?</translation>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>As unidades de CDROM / DVD aínda non foron configuradas.￼
-Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</translation>
+Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3911"/>
@@ -1051,7 +1049,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="4397"/>
         <source>Available version: %1</source>
-        <translation>Versión dispoñíble: %1</translation>
+        <translation>Versión dispoñible: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4398"/>
@@ -1142,12 +1140,12 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="1581"/>
         <source>Move &amp;up</source>
-        <translation>Desprazar cara a a &amp;rriba</translation>
+        <translation>Desprazar cara a a&amp;rriba</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1582"/>
         <source>Move &amp;down</source>
-        <translation>&amp;Desprazar cara a a baixo</translation>
+        <translation>&amp;Desprazar cara a abaixo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1628"/>
@@ -1962,7 +1960,7 @@ Vaise mostrar o diálogo de configuración agor, para que o poidsa facer.</trans
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>&amp;Closed captions</source>
-        <translation>Subtítulado &amp;oculto (CC)</translation>
+        <translation>Subtitulado &amp;oculto (CC)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1772"/>
@@ -2738,10 +2736,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2839,7 +2834,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -4650,7 +4645,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="672"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>Esta opción está pensada para depurar os aplicativos.</translation>
+        <translation>Esta opción está pensada para depurar as aplicacións.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
@@ -4745,7 +4740,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Se esta opción está marcada, o rexistro do MPlayer gardarase no ficheiro especificado cada vez que se reproduza un novo ficheiro. Está destinado aos aplicativos externos que queiran obter información sobre o ficheiro que se está reproducindo. </translation>
+        <translation>Se esta opción está marcada, o rexistro do MPlayer gardarase no ficheiro especificado cada vez que se reproduza un novo ficheiro. Está destinado as aplicacións externas que queiran obter información sobre o ficheiro que se está reproducindo. </translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
@@ -5271,7 +5266,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cando se activa esta opción, o computador apágase candos e peche o SMPlayer,</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5311,7 +5306,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Apagar o computador</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5381,7 +5376,7 @@ Por exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;pagar o computador</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -6600,7 +6595,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Here you can change the language of the application.</source>
-        <translation>Pode cambiar o idioma do aplicativo aquí.</translation>
+        <translation>Pode cambiar a lingua da aplicación aquí.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="174"/>
@@ -6781,7 +6776,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="664"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation>Seleccionar a interface gráfica que prefire para este aplicativo.</translation>
+        <translation>Seleccionar a interface gráfica que prefire para esta aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -6841,7 +6836,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation>Seleccionar o xogo de iconas que prefire para este aplicativo.</translation>
+        <translation>Seleccionar o xogo de iconas que prefire para esta aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="680"/>
@@ -6851,7 +6846,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="681"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation>Escolla un tema visual para o aplicativo. Non todas as interfaces son compatíbeis con eles.</translation>
+        <translation>Escolla un tema visual para a aplicación. Non todas as interfaces son compatíbeis con eles.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="684"/>
@@ -6861,7 +6856,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
         <source>Select the style you prefer for the application.</source>
-        <translation>Seleccionar o estilo que prefire para o aplicativo.</translation>
+        <translation>Seleccionar o estilo que prefire para a aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="688"/>
@@ -6871,7 +6866,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation>Aquí pode cambiar o tipo de letra do aplicativo.</translation>
+        <translation>Aquí pode cambiar o tipo de letra da aplicación.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
@@ -6953,7 +6948,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Marque esta opción para que o control flotante só se mostre ao mover o cursor á parte inferior da pantalla. Se non marca esta opción, o control aparecerá sempre que se mova o cursor, independemente da súa posición.</translation>
+        <translation>Marque esta opción para que o control flotante só se mostre ao mover o cursor á parte inferior da pantalla. Se non marca esta opción, o control aparecerá sempre que se mova o cursor, independentemente da súa posición.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
@@ -7370,7 +7365,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation>Intentar usar o códec privativo CoreAVC cando non haxa outro códec especificado e non haxa saídas de vídeo VDPAU seleccionadas. Precisa dunha compilaciónm de MPlayer con soporte para CoreAVC.</translation>
+        <translation>Intentar usar o códec privativo CoreAVC cando non haxa outro códec especificado e non haxa saídas de vídeo VDPAU seleccionadas. Precisa dunha compilación de MPlayer con soporte para CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
@@ -8437,7 +8432,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>Cando se activa esta opcion, SMPlayer busca actualizacións e mostra notificacións se houber unha nova versión.</translation>
+        <translation>Cando se activa esta opción, SMPlayer busca actualizacións e mostra notificacións se houber unha nova versión.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -8514,7 +8509,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>tenta conectarse a outra instancia e enviar a acción especificada. Exemplo: send-action pause. O resto das opcións, no caso de que houber, serán ignoradas e o aplicativo rematará. Devolverá 0 se todo foi ben ou -1 se houbo un fallo.</translation>
+        <translation>tenta conectarse a outra instancia e enviar a acción especificada. Exemplo: send-action pause. O resto das opcións, no caso de que houber, serán ignoradas e a aplicación rematará. Devolverá 0 se todo foi ben ou -1 se houbo un fallo.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="139"/>
@@ -8602,19 +8597,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8736,22 +8725,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Apagando o computador</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rematou a reprodución. SMPlayer está a se pechar.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>O computador vaise apagar en %1 segundos.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Preme &lt;b&gt;Cancelar&lt;/b&gt; para cancelar o apagado.</translation>
     </message>
 </context>
 <context>
