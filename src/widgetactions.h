@@ -78,6 +78,8 @@ signals:
 #if ENABLE_DELAYED_DRAGGING
 	void delayedDraggingPos(int);
 #endif
+	void wheelUp();
+	void wheelDown();
 
 protected:
 	virtual QWidget * createWidget ( QWidget * parent );
