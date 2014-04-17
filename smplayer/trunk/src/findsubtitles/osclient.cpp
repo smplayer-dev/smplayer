@@ -74,7 +74,7 @@ void OSClient::search(const QString & hash, qint64 file_size) {
 
 #ifdef OS_SEARCH_WORKAROUND
 void OSClient::doSearch() {
-	best_search_count = 0;
+	best_search_count = -1;
 	for (int n = 1; n < 6; n++) doSearch(n);
 }
 
