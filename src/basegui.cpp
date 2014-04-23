@@ -4573,6 +4573,7 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 		#ifdef Q_OS_WIN
 		files = Helper::resolveSymlinks(files); // Check for Windows shortcuts
 		#endif
+		files.sort();
 
 		if (files.count() == 1) {
 			QFileInfo fi( files[0] );
