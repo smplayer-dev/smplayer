@@ -1179,12 +1179,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1501"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"/>
+        <translation>從光碟機開啟 &amp;Blu-ray</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1502"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"/>
+        <translation>從光碟機開啟 Blu-&amp;ray...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1552"/>
@@ -1194,7 +1194,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1568"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"/>
+        <translation>縮圖產生器(&amp;N)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
@@ -1204,7 +1204,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"/>
+        <translation>在 &amp;OpenSubtitles.org 尋找字幕...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1647"/>
@@ -2274,7 +2274,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit &amp;floating control</source>
-        <translation>編輯浮動控制(&amp;F)</translation>
+        <translation>編輯浮動控制列(&amp;F)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="571"/>
@@ -2638,7 +2638,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OpenSubtitles 伺服器：</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -5321,17 +5321,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"/>
+        <translation>總體音訊等化器</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1053"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"/>
+        <translation>如果這個選項被勾選，所有媒體檔案將共享音訊等化器。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1054"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"/>
+        <translation>如果未勾選，音訊等化器值會保存於各自的檔案，並且在之後要播放時，重新載入回來。 </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1083"/>
@@ -5391,7 +5391,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="680"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation type="unfinished"/>
+        <translation>總體音訊等化器(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="799"/>
@@ -5406,7 +5406,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="689"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished"/>
+        <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="975"/>
@@ -5496,7 +5496,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished"/>
+        <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1094"/>
@@ -5516,7 +5516,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1088"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"/>
+        <translation>以百分比形式設置最大擴音級別 (預設是：110)。數值200允許您調整的音量最高可達雙倍目前的水平。對於數值低於100的值，初始音量(為100％)會高於最大值，如OSD不能正確顯示。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="953"/>
@@ -5593,7 +5593,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1074"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="unfinished"/>
+        <translation>允許改變播放速度而不改變音調。需要至少 MPlayer dev-SVN-r24924。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="267"/>
@@ -5918,7 +5918,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1078"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"/>
+        <translation>如果這個選項被勾選，所有您播放的檔案將使用相同的音量。若未勾選，每個檔案都將使用各自的音量。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
@@ -5973,7 +5973,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1098"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished"/>
+        <translation>基於音訊延遲檢測，逐步調整影音同步。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1101"/>
@@ -5998,7 +5998,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="897"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"/>
+        <translation>係數(&amp;F)：</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="933"/>
@@ -6008,7 +6008,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="956"/>
         <source>&amp;Max. correction:</source>
-        <translation type="unfinished"/>
+        <translation>最大修正(&amp;M)：</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="963"/>
@@ -6023,7 +6023,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1058"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"/>
+        <translation>使用硬體 AC3 passthrough。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
@@ -6660,7 +6660,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation>移動視窗當視訊區被拖曳時(&amp;M)</translation>
+        <translation>移動視窗，當視訊區被拖曳時(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6826,7 +6826,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
         <source>Move the window when the video area is dragged</source>
-        <translation>移動視窗當視訊區被拖曳時</translation>
+        <translation>移動視窗，當視訊區被拖曳時</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
@@ -7115,17 +7115,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="654"/>
         <source>Hide video window when playing audio files</source>
-        <translation>撥放音訊檔時，影藏視訊視窗</translation>
+        <translation>撥放音訊檔時，隱藏視訊視窗</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="655"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>選擇此選項後，撥放音訊檔會影藏視訊視窗</translation>
+        <translation>如果這個選項被啟用，撥放音訊檔時會隱藏視訊視窗</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>撥放音訊檔時，影藏視訊視窗 (&amp;H)</translation>
+        <translation>撥放音訊檔時，隱藏視訊視窗(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="719"/>
@@ -7450,12 +7450,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="298"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"/>
+        <translation>使用 CoreAVC，如果沒有指定其他的解碼器</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="233"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"/>
+        <translation>使用 CoreAVC，如果沒有指定其他的解碼器(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="538"/>
@@ -7498,22 +7498,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>無</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"/>
+        <translation>影片檔</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"/>
+        <translation>音訊檔</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"/>
+        <translation>影片和音訊檔</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
@@ -7523,7 +7523,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"/>
+        <translation>從資料夾加入的檔案</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
@@ -7533,27 +7533,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;無&lt;/b&gt;：沒有檔案將被加入</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;影片檔&lt;/b&gt;：在資料夾中找到的所有影片檔將被加入</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;音訊檔&lt;/b&gt;：在資料夾中找到的所有音訊檔將被加入</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;影片和音訊檔&lt;/b&gt;：在資料夾中找到的所有影片和音訊檔將被加入</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;連續的檔案&lt;/b&gt;: 連續的檔案 (例如 video_1.avi，video_2.avi) 將被加入</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7608,7 +7608,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>從資料夾加入的檔案(&amp;F)：</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -7847,7 +7847,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation>如果有一個或多個字幕軌可用，其中一個將被自動選用，通常是第一個，但如果他們中的一個和使用者偏好的語言相匹配，則那一個會被使用。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="523"/>
@@ -7867,7 +7867,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="462"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation>當此選項開啟時，字幕編碼將會嘗試根據給定的語言進行自動檢測。如果自動檢測失敗，它會退回到預設的編碼方式。此選項需要 MPlayer 編譯為 包含 ENCA 支援。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="468"/>
@@ -7912,12 +7912,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation>如果啟用此選項，Windows 系統字型將可用於字幕。但有一個不便的地方：字型緩存必須建立，而這可能需要花費一些時間。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="488"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation>如果未勾選此選項，則只有和 SMPlayer 捆綁的少數字型可以使用，但是這樣速度會更快。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="519"/>
@@ -8160,7 +8160,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="494"/>
         <source>Enable normal subtitles</source>
-        <translation type="unfinished"/>
+        <translation>啟用正常的字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8256,7 +8256,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>您通常不應該停用此選項。停用它，只有在您的 MPlayer 被編譯為不含 freetype 支援的情況下。 &lt;b&gt;停用此選項可能使字幕無法運作！ &lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="227"/>
@@ -8891,7 +8891,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation type="unfinished"/>
+        <translation>音量滑桿</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
@@ -9043,7 +9043,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="134"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"/>
+        <translation>縮圖產生器</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="137"/>
@@ -9053,7 +9053,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="226"/>
         <source>Creating thumbnails...</source>
-        <translation>製作縮圖中...</translation>
+        <translation>建立縮圖中...</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="379"/>
@@ -9192,7 +9192,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"/>
+        <translation>縮圖產生器</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
