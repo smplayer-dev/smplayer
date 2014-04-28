@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2741,14 +2739,7 @@ resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>استخرجت %n ترجمة</numerusform>
-            <numerusform>استُخرجت ترجمة وحيدة</numerusform>
-            <numerusform>استُخرجت ترجمتان</numerusform>
-            <numerusform>استُخرجت %n ترجمات</numerusform>
-            <numerusform>استُخرجت %n ترجمةً</numerusform>
-            <numerusform>استُخرجت %n ترجمة</numerusform>
-        </translation>
+        <translation><numerusform>استخرجت %n ترجمة</numerusform><numerusform>استُخرجت ترجمة وحيدة</numerusform><numerusform>استُخرجت ترجمتان</numerusform><numerusform>استُخرجت %n ترجمات</numerusform><numerusform>استُخرجت %n ترجمةً</numerusform><numerusform>استُخرجت %n ترجمة</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2846,7 +2837,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -5279,7 +5270,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا مُكِّن هذا الخيار، فإن الحاسوب سيُطفأ فور إغلاق SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5319,7 +5310,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>إطفاء الحاسوب</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5389,7 +5380,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>إ&amp;طفاء الحاسوب</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -5671,7 +5662,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="120"/>
         <source>Kerndeint</source>
-        <translation>Kerndeint</translation>
+        <translation>مرشِّح Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="960"/>
@@ -7368,7 +7359,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="91"/>
         <source>Skip only on HD videos</source>
-        <translation>متخطاة في المقاطع عالية التحديد HD فقط</translation>
+        <translation>مُتخطّى في المقاطع عالية التحديد HD فقط</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="205"/>
@@ -8372,7 +8363,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation>Kerndeint</translation>
+        <translation>مرشِّح Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -8610,27 +8601,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8752,22 +8729,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>إطفاء الحاسوب</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>انتهى التشغيل. SMPlayer على وشك الخروج.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>سيُطفَأ الحاسوب في غضون %1 ثانية.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>اضغط &lt;b&gt;إلغاء&lt;/b&gt; لإجهاض الإطفاء.</translation>
     </message>
 </context>
 <context>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="lt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="lt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2738,11 +2736,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrai išgauti</numerusform>
-            <numerusform>%n subtitrų išgauta</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrai išgauti</numerusform><numerusform>%n subtitrų išgauta</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2840,7 +2834,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Neįmanoma išsaugoti atsiųstą failą kataloge
@@ -5272,7 +5266,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jei ši parinktis įjungta, uždarius SMPlayer, kompiuteris išsijungs.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5312,7 +5306,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Išjungti kompiuterį</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5382,7 +5376,7 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Išjungti ko&amp;mpiuterį</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8602,21 +8596,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundė</numerusform>
-            <numerusform>%n sekundės</numerusform>
-            <numerusform>%n sekundžių</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundė</numerusform><numerusform>%n sekundės</numerusform><numerusform>%n sekundžių</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutė</numerusform>
-            <numerusform>%n minutės</numerusform>
-            <numerusform>%n minučių</numerusform>
-        </translation>
+        <translation><numerusform>%n minutė</numerusform><numerusform>%n minutės</numerusform><numerusform>%n minučių</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8738,22 +8724,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Išjungiamas kompiuteris</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Atkūrimas baigtas. SMPlayer tuoj išeis.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompiuteris išsijungs po %1 sekundžių.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Paspauskite &lt;b&gt;Atšaukti&lt;/b&gt; norėdami nutraukti išjungimą.</translation>
     </message>
 </context>
 <context>
