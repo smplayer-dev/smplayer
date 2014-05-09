@@ -2136,7 +2136,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../core.cpp" line="550"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"/>
+        <translation>Video bağlantısı bulunamadı</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3287"/>
@@ -2638,7 +2638,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Opensubtitles sunucusu:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -5266,7 +5266,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"/>
+        <translation>Eğer bu seçenek aktif edilirse, bilgisayar SMPlayer kapandıktan hemen sonra kapanacaktır.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -6967,7 +6967,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"/>
+        <translation>Denetim kaybolma zamanı</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
@@ -7497,7 +7497,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>Hiçbiri</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
@@ -7517,12 +7517,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"/>
+        <translation>Peşpeşe dosyalar</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"/>
+        <translation>Klasörden dosya ekle</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
@@ -7532,27 +7532,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Yok&lt;/b&gt;: dosyalar eklenemedi</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Video dosyaları&lt;/b&gt;: klasörde bulunan tüm video dosyaları eklenecek</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Ses dosyaları&lt;/b&gt;: klasörde bulunan tüm ses dosyaları eklenecek</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Video ve ses dosyaları&lt;/b&gt;:klasörde bulunan tüm video ve ses dosyaları eklenecek</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Peşpeşe dosyalar&lt;/b&gt;: peşpeşe dosyalar (video_1.avi, video_2.avi gibi) eklenecek</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7607,7 +7607,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>Klasörden dosya &amp;ekle</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -7677,7 +7677,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="234"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Windows yazıtipleri aktif</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="505"/>
@@ -7906,7 +7906,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="484"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Windows yazıtipleri aktif</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
@@ -8678,7 +8678,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Beni sonra hatırla</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
@@ -8724,7 +8724,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"/>
+        <translation>Bilgisayar kapanıyor</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
@@ -8734,7 +8734,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"/>
+        <translation>Bilgisayar %1 saniye sonra kapanacak.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
