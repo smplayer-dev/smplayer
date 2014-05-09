@@ -565,7 +565,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>將當前值做為新視訊的預設值。</translation>
+        <translation>使用目前的值作為新視訊的預設值。</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="226"/>
@@ -2101,7 +2101,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../core.cpp" line="3232"/>
         <location filename="../core.cpp" line="3244"/>
         <source>Font scale: %1</source>
-        <translation>字體縮放大小：%1</translation>
+        <translation>字體縮放：%1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3791"/>
@@ -2869,7 +2869,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation>建立字體緩存...</translation>
+        <translation>建立字型快取...</translation>
     </message>
 </context>
 <context>
@@ -6670,7 +6670,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="373"/>
         <source>Default font:</source>
-        <translation>預設字體：</translation>
+        <translation>預設字型：</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="387"/>
@@ -6861,7 +6861,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="688"/>
         <source>Default font</source>
-        <translation>預設字體</translation>
+        <translation>預設字型</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
@@ -7647,7 +7647,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="99"/>
         <source>Truetype Fonts</source>
-        <translation>Truetype 字體</translation>
+        <translation>Truetype 字型</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="27"/>
@@ -7706,12 +7706,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="492"/>
         <location filename="../prefsubtitles.cpp" line="554"/>
         <source>Font</source>
-        <translation>字體</translation>
+        <translation>字型</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="354"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation>選擇字幕 (和 OSD) 的字體：</translation>
+        <translation>選擇字幕 (和 OSD) 的字型：</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="394"/>
@@ -7777,12 +7777,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="384"/>
         <source>&amp;TTF font:</source>
-        <translation>&amp;TTF 字體：</translation>
+        <translation>&amp;TTF 字型：</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="364"/>
         <source>S&amp;ystem font:</source>
-        <translation>系統字體(&amp;Y)：</translation>
+        <translation>系統字型(&amp;Y)：</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="414"/>
@@ -7807,12 +7807,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="504"/>
         <source>TTF font</source>
-        <translation>TTF 字體</translation>
+        <translation>TTF 字型</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="518"/>
         <source>System font</source>
-        <translation>系統字體</translation>
+        <translation>系統字型</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="522"/>
@@ -7877,7 +7877,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="469"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"/>
+        <translation>選擇您想要用於自動推測編碼的語言。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="106"/>
@@ -7892,7 +7892,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="505"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="unfinished"/>
+        <translation>在這裡您可以選擇要用於字幕的 TTF 字型。通常您會在 %1 中發現很多 TTF 字型</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="596"/>
@@ -7927,7 +7927,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="558"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"/>
+        <translation>以像素為單位的大小。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="560"/>
@@ -8007,7 +8007,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="593"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"/>
+        <translation>指定邊框樣式。可允許的值: 輪廓和不透明框。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="600"/>
@@ -8097,7 +8097,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="551"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"/>
+        <translation>下面的選項允許您定義用於無樣式字幕(srt、sub...)的樣式。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="104"/>
@@ -8145,7 +8145,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"/>
+        <translation>不透明框</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="597"/>
@@ -8165,7 +8165,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="unfinished"/>
+        <translation>點擊此按鈕以選擇普通/傳統字幕。這種字幕只能顯示白色字幕。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
@@ -8175,12 +8175,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Normal subtitles</source>
-        <translation>一般字幕</translation>
+        <translation>普通字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"/>
+        <translation>此選項不會更改目前視訊的字幕大小。要執行此操作，請使用字幕選單中的 &lt;i&gt;大小+&lt;/i&gt; 和 &lt;i&gt;大小-&lt;/i&gt; 選項。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="529"/>
@@ -8191,7 +8191,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="530"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation>這個選項指定一般字幕預設字型的大小，其將被用於新開啟的檔案。</translation>
+        <translation>這個選項指定普通字幕預設字型的大小，其將被用於新開啟的檔案。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="539"/>
@@ -8221,7 +8221,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="264"/>
         <source>Enable &amp;normal subtitles</source>
-        <translation>啟用一般字幕(&amp;N)</translation>
+        <translation>啟用普通字幕(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="277"/>
@@ -8246,7 +8246,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"/>
+        <translation>點擊此按鈕以啟用新式的 SSA/ASS 庫。這允許字幕顯示多種顏色、字型...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
@@ -8271,12 +8271,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"/>
+        <translation>自訂 SSA/ASS 樣式</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"/>
+        <translation>在這裡您可以輸入您的自訂 SSA/ASS 樣式。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="396"/>
@@ -8286,7 +8286,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="550"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"/>
+        <translation>SSA/ASS 樣式</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="572"/>
@@ -8316,7 +8316,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="605"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"/>
+        <translation>如果勾選此選項，上面定義的樣式也將被套用到 ASS 字幕。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="1084"/>
@@ -9020,7 +9020,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"/>
+        <translation>使用目前的值作為新視訊的預設值。</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
