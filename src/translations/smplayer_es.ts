@@ -4523,12 +4523,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="307"/>
         <source>Move &amp;up</source>
-        <translation>&amp;Bajar</translation>
+        <translation>&amp;Subir</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="308"/>
         <source>Move &amp;down</source>
-        <translation>&amp;Subir</translation>
+        <translation>&amp;Bajar</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="310"/>
@@ -4646,7 +4646,7 @@ Ejemplo: scale=512:-2,eq2=1.1</translation>
         <location filename="../prefadvanced.ui" line="431"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Y finalmente los filtros de audio. Misma norma que para los filtros de audio.
+        <translation>Y finalmente los filtros de audio. Misma norma que para los filtros de vídeo.
 Ejemplo: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
