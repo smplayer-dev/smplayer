@@ -199,7 +199,7 @@ copy /y %PORTABLE_EXE_DIR%\smtube-portable.exe %SMPLAYER_PORTABLE_DIR%\smtube.ex
 
 ::
 echo Finalizing package...
-7za a -t7z %OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -mx9 >nul
+7za a -t7z %OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!buildinfo -xr!buildinfo64 -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
@@ -283,7 +283,7 @@ copy /y %PORTABLE_EXE_DIR%\smtube-portable64.exe %SMPLAYER_PORTABLE_DIR%\smtube.
 
 ::
 echo Finalizing package...
-7za a -t7z %OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe -xr!codecs -mx9 >nul
+7za a -t7z %OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe  -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!codecs -xr!buildinfo -xr!buildinfo64 -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
