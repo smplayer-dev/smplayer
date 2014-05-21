@@ -67,6 +67,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
 	w_contents = new QWidget(this);
+	w_contents->setContentsMargins(0, 0, 0, 0);
 	QPalette p = w_contents->palette();
 	p.setColor(w_contents->backgroundRole(), Qt::white);
 	p.setColor(w_contents->foregroundRole(), Qt::black);
@@ -79,13 +80,16 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 
 	grid_layout = new QGridLayout;
 	grid_layout->setSpacing(2);
+	grid_layout->setContentsMargins(0, 0, 0, 0);
 
 	QVBoxLayout * l = new QVBoxLayout;
+	l->setContentsMargins(4, 4, 4, 4);
+	l->setSpacing(0);
 	l->setSizeConstraint(QLayout::SetFixedSize);
 	l->addWidget(info);
 	l->addLayout(grid_layout);
 	l->addWidget(foot);
-	
+
 	w_contents->setLayout(l);
 
 	scroll_area = new QScrollArea(this);
@@ -324,7 +328,11 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 	}
 
 	if (run.thumbnail_width == 0) {
+		qDebug("VideoPreview::addPicture: horizontalSpacing: %d", grid_layout->horizontalSpacing());
 		int spacing = grid_layout->horizontalSpacing() * (prop.n_cols-1);
+		QMargins m = w_contents->layout()->contentsMargins();
+		qDebug("VideoPreview::addPicture: contentsMargins: %d, %d", m.left(), m.right());
+		spacing += (m.left() + m.right());
 		if (spacing < 0) spacing = 0;
 		qDebug("VideoPreview::addPicture: spacing: %d", spacing);
 		run.thumbnail_width = (prop.max_width - spacing) / prop.n_cols;
@@ -525,6 +533,11 @@ void VideoPreview::saveImage() {
 
 	if (!filename.isEmpty()) {
 		QPixmap image = QPixmap::grabWidget(w_contents);
+		qDebug("VideoPreview::saveImage: size: %d %d", image.size().width(), image.size().height());
+		if (image.size().width() > prop.max_width) {
+			image = image.scaledToWidth(prop.max_width, Qt::SmoothTransformation);
+			qDebug("VideoPreview::saveImage: image scaled to : %d %d", image.size().width(), image.size().height());
+		}
 		if (!image.save(filename)) {
 			// Failed!!!
 			qDebug("VideoPreview::saveImage: error saving '%s'", filename.toUtf8().constData());
