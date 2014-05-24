@@ -1682,7 +1682,7 @@ void BaseGui::retranslateStrings() {
 
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
 #ifdef REMINDER_ACTIONS
-	donateAct->change( Images::icon("donate"), tr("&Donate") );
+	donateAct->change( Images::icon("donate"), tr("&Donate / Share with your friends") );
 #endif
 	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
 

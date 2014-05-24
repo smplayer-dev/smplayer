@@ -49,7 +49,7 @@ ShareDialog::ShareDialog( QWidget* parent, Qt::WindowFlags f )
 	adjustSize();
 	//layout()->setSizeConstraint(QLayout::SetFixedSize);
 
-	share_text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
+	share_text = tr("Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.").replace(" ","+");
 	share_url = "http://smplayer.sourceforge.net";
 }
 
@@ -80,7 +80,7 @@ void ShareDialog::on_facebook_button_clicked() {
 void ShareDialog::on_twitter_button_clicked() {
 	qDebug("ShareDialog::on_twitter_button_clicked");
 	actions_taken |= Twitter;
-	QDesktopServices::openUrl(QUrl("http://twitter.com/intent/tweet?text=" + share_text + "&url=" + share_url + "/&via=smplayer_dev"));
+	QDesktopServices::openUrl(QUrl("http://twitter.com/intent/tweet?text=" + share_text + "&url=" + share_url + "/"));
 }
 
 #include "moc_sharedialog.cpp"
