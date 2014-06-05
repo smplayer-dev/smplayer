@@ -70,6 +70,9 @@ signals:
 	void gotUrls(const QMap<int, QString>&);
 	void gotPreferredUrl(const QString &);
 	void gotEmptyList();
+#ifdef YT_GET_VIDEOINFO
+	void gotVideoInfo(const QMap<int, QString>&, QString, QString);
+#endif
 
 	void connecting(QString host);
 	void errorOcurred(int error_number, QString error_str);

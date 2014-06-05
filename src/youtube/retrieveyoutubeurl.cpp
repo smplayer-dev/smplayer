@@ -232,13 +232,20 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 
 			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
 				QString itag = q->queryItemValue("itag");
-				q->removeAllQueryItems("itag"); // Remove duplicated itag
-				q->addQueryItem("itag", itag);
+
+				// Remove duplicated queries
+				QPair <QString,QString> item;
+				QList<QPair<QString, QString> > items = q->queryItems();
+				foreach(item, items) {
+					q->removeAllQueryItems(item.first);
+					q->addQueryItem(item.first, item.second);
+				}
+
 				#if QT_VERSION >= 0x050000
 				line.setQuery(q->query(QUrl::FullyDecoded));
 				#endif
 				urlMap[itag.toInt()] = line.toString();
-				//qDebug("line: %s", line.toString().toLatin1().constData());
+				//qDebug("itag: %s line: %s", itag.toLatin1().constData(), line.toString().toLatin1().constData());
 			}
 		}
 	}
@@ -269,6 +276,9 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
 		emit gotPreferredUrl(p_url);
+		#ifdef YT_GET_VIDEOINFO
+		emit gotVideoInfo(urlMap, url_title, video_id);
+		#endif
 	} else {
 		 emit gotEmptyList();
 	}
@@ -425,13 +435,20 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 
 			if ((q->hasQueryItem("itag")) && (q->hasQueryItem("signature"))) {
 				QString itag = q->queryItemValue("itag");
-				q->removeAllQueryItems("itag"); // Remove duplicated itag
-				q->addQueryItem("itag", itag);
+
+				// Remove duplicated queries
+				QPair <QString,QString> item;
+				QList<QPair<QString, QString> > items = q->queryItems();
+				foreach(item, items) {
+					q->removeAllQueryItems(item.first);
+					q->addQueryItem(item.first, item.second);
+				}
+
 				#if QT_VERSION >= 0x050000
 				line.setQuery(q->query(QUrl::FullyDecoded));
 				#endif
 				urlMap[itag.toInt()] = line.toString();
-				//qDebug("line: %s", line.toString().toLatin1().constData());
+				//qDebug("itag: %s line: %s", itag.toLatin1().constData(), line.toString().toLatin1().constData());
 			}
 		}
 	}
@@ -454,6 +471,9 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 	if (!p_url.isNull()) {
 		emit gotUrls(urlMap);
 		emit gotPreferredUrl(p_url);
+		#ifdef YT_GET_VIDEOINFO
+		emit gotVideoInfo(urlMap, url_title, video_id);
+		#endif
 	} else {
 		 emit gotEmptyList();
 	}
