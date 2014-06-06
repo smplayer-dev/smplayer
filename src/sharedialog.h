@@ -43,7 +43,6 @@ private slots:
 
 private:
 	int actions_taken;
-	QString share_text;
 	QString share_url;
 };
 

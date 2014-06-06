@@ -49,7 +49,6 @@ ShareDialog::ShareDialog( QWidget* parent, Qt::WindowFlags f )
 	adjustSize();
 	//layout()->setSizeConstraint(QLayout::SetFixedSize);
 
-	share_text = tr("Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.").replace(" ","+");
 	share_url = "http://smplayer.sourceforge.net";
 }
 
@@ -74,13 +73,23 @@ void ShareDialog::on_donate_button_clicked() {
 void ShareDialog::on_facebook_button_clicked() {
 	qDebug("ShareDialog::on_facebook_button_clicked");
 	actions_taken |= Facebook;
-	QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + share_url + "&t=" + share_text));
+	QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + share_url /* + "&t=" + share_text */ ));
 }
 
 void ShareDialog::on_twitter_button_clicked() {
 	qDebug("ShareDialog::on_twitter_button_clicked");
 	actions_taken |= Twitter;
-	QDesktopServices::openUrl(QUrl("http://twitter.com/intent/tweet?text=" + share_text + "&url=" + share_url + "/"));
+
+	QString text = tr("Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.",
+					  "This text is to be published on twitter and the translation should not be more than 117 characters long");
+	if (text.length() > 117) {
+		qDebug("ShareDialog::on_twitter_button_clicked: translation is too long. Using original text");
+		text = "Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.";
+	}
+	text = text.replace("SMPlayer", "#SMPlayer");
+	text = QUrl::toPercentEncoding(text);
+	QString url = "http://twitter.com/intent/tweet?text=" + text + "&url=" + QUrl::toPercentEncoding(share_url) /* + "/&via=smplayer_dev" */; 
+	QDesktopServices::openUrl(QUrl::fromEncoded(url.toLatin1()));
 }
 
 #include "moc_sharedialog.cpp"
