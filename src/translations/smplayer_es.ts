@@ -8784,8 +8784,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.cpp" line="83"/>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 117 characters long</comment>
+        <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
         <translation>SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos y puede descargar vídeos de Youtube.</translation>
+    </message>
+    <message>
+        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
+        <comment>This text is to be published on twitter and the translation should not be more than 117 characters long</comment>
+        <translation type="obsolete">SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos y puede descargar vídeos de Youtube.</translation>
     </message>
     <message>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
