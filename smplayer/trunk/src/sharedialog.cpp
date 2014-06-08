@@ -81,8 +81,9 @@ void ShareDialog::on_twitter_button_clicked() {
 	actions_taken |= Twitter;
 
 	QString text = tr("Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.",
-					  "This text is to be published on twitter and the translation should not be more than 117 characters long");
-	if (text.length() > 117) {
+					  "This text is to be published on twitter and the translation should not be more than 116 characters long");
+
+	if (text.length() > 116) {
 		qDebug("ShareDialog::on_twitter_button_clicked: translation is too long. Using original text");
 		text = "Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.";
 	}
