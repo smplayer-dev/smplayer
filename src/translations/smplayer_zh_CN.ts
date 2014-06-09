@@ -216,22 +216,22 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">荷兰语</translation>
+        <translation>荷兰语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">罗马尼亚语</translation>
+        <translation>罗马尼亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">高棉语</translation>
+        <translation>高棉语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">泰卢固语</translation>
+        <translation>泰卢固语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="221"/>
@@ -1029,7 +1029,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>捐赠 / 分享给您的朋友 (&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -1449,7 +1449,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1945"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation>和朋友分享SMPlayer(&amp;H)</translation>
+        <translation>和朋友分享 SMPlayer(&amp;h)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2932"/>
@@ -8722,7 +8722,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">探索 SMPlayer，它是一个免费的多媒体播放器。支持所有格式媒体文件，还能下载 Youtube 视频</translation>
+    </message>
+    <message>
+        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
+        <comment>This text is to be published on twitter and the translation should not be more than 117 characters long</comment>
+        <translation type="obsolete">探索 SMPlayer，它是一个免费的多媒体播放器。支持所有格式媒体文件，还能下载 Youtube 视频</translation>
     </message>
 </context>
 <context>
