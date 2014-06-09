@@ -162,11 +162,11 @@ QString About::getTranslators() {
 		trad(tr("Malay"), QStringList() << "Abuyop" << "inashdeen") +
 		trad(tr("Portuguese - Brazil"), QStringList() << QString::fromUtf8("Maico Sertório") << "Vinicius" << "Ronnie Dilli" << QString::fromUtf8("Lucas Simões")) +
 		trad(tr("Hebrew"), "GenghisKhan") +
-		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "Zhangzheliuli" << "Zhnagmin" << "wwj402" << "775405984") +
+		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "Zhangzheliuli" << "Zhangmin" << "wwj402" << "775405984" << "DefineFC") +
 		trad(tr("Vietnamese"), QStringList() << "Anh Phan" << "Biz Over" << "Thu Thao Nguyen Ngoc" << "Duy Truong Nguyen") +
 		trad(tr("Polish"), QStringList() <<"Filux" << QString::fromUtf8("Łukasz Hryniuk") << QString::fromUtf8("Piotr Strębski") << QString::fromUtf8("Michał Trzebiatowski") << "Grzegorz Pruchniakowski") +
 		trad(tr("Russian"), QStringList() << "WiseLord" << "Viktor" << "DmitryKX" << "Gleb Mekhrenin" << "ElFrio" << "Semen V. Dubina" << "Denis" << "angry_snake" << "Andrei Stepanov") +
-		trad(tr("French"), QStringList() << "Olivier Devineau" << "Ybsar" << "Janmaro" << "Guillaume 'zzd10h' Boesel" << "tneskovic" << "Calinou") +
+		trad(tr("French"), QStringList() << "Olivier Devineau" << "Ybsar" << "Janmaro" << "Guillaume 'zzd10h' Boesel" << "tneskovic" << "Calinou" << "Cajetan Bouchard") +
 		trad(tr("Indonesian"), QStringList() << "Mohamad Hasan Al Banna" << "Aulia Firdaus Simbolon" << "Muhammad Fikri Hariri") +
 		trad(tr("Danish"), "Michael Larsen") +
 		trad(tr("Hungarian"), QStringList() << "Gojko" << QString::fromUtf8("Zsolt Péter Basák") << "chris020891") +
@@ -177,7 +177,7 @@ QString About::getTranslators() {
 		trad(tr("Bulgarian"), QStringList() << "Ivailo Monev" << QString::fromUtf8("Радослав") << "Elusiv_man") +
 		trad(tr("Norwegian Nynorsk"), QStringList() << "Bjorni" << "F_Sauce") +
 		trad(tr("Swedish"), QStringList() << "XC" << "Andreas Gustafsson" << "Patrik Nilsson") +
-		trad(tr("Arabic"), QStringList() << "Riyadh" << "Muhammad Fawwaz Orabi" << "Mohamed Sakhri") +
+		trad(tr("Arabic"), QStringList() << "Riyadh" << "Muhammad Fawwaz Orabi" << "Mohamed Sakhri" << QString::fromUtf8("طاهر")) +
 		trad(tr("Georgian"), "George Machitidze") +
 		trad(tr("Arabic - Saudi Arabia"), "Mohamed") +
 		trad(tr("Sinhala"), "Rathnayake") +
@@ -190,7 +190,7 @@ QString About::getTranslators() {
 		trad(tr("Slovak"), QString::fromUtf8("Ján Ďanovský")) +
 		trad(tr("British English"), "F_Sauce") +
 		trad(tr("Albanian"), "rigels.gordani") +
-		trad(tr("Dutch"), "CecilWesterhof") +
+		trad(tr("Dutch"), QStringList() << "CecilWesterhof" << "meijdam") +
 		trad(tr("Romanian"), "msalajan") +
 		trad(tr("Khmer"), "Sovichet Tep") +
 		trad(tr("Telugu"), "Praveen_Illa") +
