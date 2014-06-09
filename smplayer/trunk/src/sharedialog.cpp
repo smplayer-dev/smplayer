@@ -84,7 +84,7 @@ void ShareDialog::on_twitter_button_clicked() {
 					  "This text is to be published on twitter and the translation should not be more than 116 characters long");
 
 	if (text.length() > 116) {
-		qDebug("ShareDialog::on_twitter_button_clicked: translation is too long. Using original text");
+		qDebug("ShareDialog::on_twitter_button_clicked: the translation text is too long (%d), it shouldn't be longer than 116 characters. Using the English text.", text.length());
 		text = "Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.";
 	}
 	text = text.replace("SMPlayer", "#SMPlayer");
