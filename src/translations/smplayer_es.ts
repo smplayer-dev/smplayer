@@ -1255,10 +1255,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Abrir directorio de configuración</translation>
     </message>
     <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">&amp;Donar</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1709"/>
         <source>Inc volume (2)</source>
         <translation>Subir volumen (2)</translation>
@@ -1413,18 +1409,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="1962"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer - SMPlayer log</translation>
-    </message>
-    <message>
-        <source>Donate</source>
-        <translation type="obsolete">Donar</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Si te gusta SMPlayer, una buena manera de incentivar su desarrollo es haciendo una donación, incluso la más pequeña se agradece enormemente.</translation>
-    </message>
-    <message>
-        <source>Yes, I want to donate</source>
-        <translation type="obsolete">Sí, quiero donar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4483"/>
@@ -7537,14 +7521,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Si esta opción está activada, cada vez que se abra un fichero, SMPlayer borrará la lista de reproducción y añadirá el fichero a la lista. En caso de DVDs, CDs y VCDs, se añadirán todos los títulos del disco.</translation>
     </message>
     <message>
-        <source>Add consecutive files</source>
-        <translation type="obsolete">Añadir ficheros consecutivos</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, SMPlayer will look for consecutive files (e.g. video_1.avi, video_2.avi...) and if found, they&apos;ll be added to the playlist.</source>
-        <translation type="obsolete">Si está opción está activada, SMPlayer buscará ficheros consecutivos (video_1.avi, video_2.avi...) y si los encuentra se añadirán a la lista.</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
         <translation>Ninguno</translation>
@@ -7638,10 +7614,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefplaylist.ui" line="30"/>
         <source>&amp;Automatically add files to playlist</source>
         <translation>&amp;Añadir automáticamente ficheros a la lista de reproducción</translation>
-    </message>
-    <message>
-        <source>Add &amp;consecutive files</source>
-        <translation type="obsolete">Añadir ficheros &amp;consecutivos</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="138"/>
@@ -8729,37 +8701,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
 </context>
 <context>
-    <name>ReminderDialog</name>
-    <message>
-        <source>Help SMPlayer</source>
-        <translation type="obsolete">Ayudar a SMPlayer</translation>
-    </message>
-    <message>
-        <source>&amp;Remind me later</source>
-        <translation type="obsolete">Recordármelo más &amp;tarde</translation>
-    </message>
-    <message>
-        <source>If you like SMPlayer and want to support its development, you can send a donation. Even the smallest one is highly appreciated.</source>
-        <translation type="obsolete">Si te gusta SMPlayer, una buena manera de incentivar su desarrollo es haciendo una donación, incluso la más pequeña se agradece enormemente.</translation>
-    </message>
-    <message>
-        <source>Or you maybe you want to share SMPlayer with your friends in Facebook.</source>
-        <translation type="obsolete">O quizás quieras recomendar el SMPlayer a tus amigos de Facebook.</translation>
-    </message>
-    <message>
-        <source>What would you like to do?</source>
-        <translation type="obsolete">¿Qué prefieres hacer?</translation>
-    </message>
-    <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">&amp;Donar</translation>
-    </message>
-    <message>
-        <source>&amp;Share with my friends</source>
-        <translation type="obsolete">&amp;Recomendar a mis amigos</translation>
-    </message>
-</context>
-<context>
     <name>ShareDialog</name>
     <message>
         <location filename="../sharedialog.ui" line="14"/>
@@ -8786,20 +8727,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
         <translation>SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos y puede descargar vídeos de Youtube.</translation>
-    </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 117 characters long</comment>
-        <translation type="obsolete">SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos y puede descargar vídeos de Youtube.</translation>
-    </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <translation type="obsolete">SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos y puede descargar vídeos de Youtube.</translation>
-    </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>The translation string should not be more than 117 characters long</comment>
-        <translation type="obsolete">SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos y puede descargar vídeos de Youtube.</translation>
     </message>
 </context>
 <context>

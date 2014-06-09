@@ -216,22 +216,22 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">Holandês</translation>
+        <translation>Holandês</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">Romeno</translation>
+        <translation>Romeno</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">Khmer</translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">Telugu</translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="221"/>
@@ -1029,7 +1029,7 @@ Substituir?</translation>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Donativos/Publicitar o SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -8725,7 +8725,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>Descobre o SMPlayer, o reprodutor multimédia livre para ti. O SMPlayer reproduz todos os formatos multimédia conhecidos e também consegue transferir os vídeos do Youtube.</translation>
     </message>
 </context>
 <context>

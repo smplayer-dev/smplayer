@@ -216,22 +216,22 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">네덜란드어</translation>
+        <translation>네덜란드어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">루마니아어</translation>
+        <translation>루마니아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">크메르어</translation>
+        <translation>크메르어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">텔루구어</translation>
+        <translation>텔루구어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="221"/>
@@ -1029,7 +1029,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>기부 / 친구들과 공유하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -8723,7 +8723,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer는 PC용 무료 미디어 재생기입니다. 모든 형식을 재생하고 유투브 동영상도 볼 수 있습니다.</translation>
     </message>
 </context>
 <context>

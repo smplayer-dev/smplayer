@@ -8728,12 +8728,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="unfinished">Atraskite SMPlayer, nemokamas media grotuvas jūsų kompiuteriui. Jis atkuria visus formatus ir netgi parsiunčia video iš Youtube.</translation>
-    </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 117 characters long</comment>
-        <translation type="obsolete">Atraskite SMPlayer, nemokamas media grotuvas jūsų kompiuteriui. Jis atkuria visus formatus ir netgi parsiunčia video iš Youtube.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
