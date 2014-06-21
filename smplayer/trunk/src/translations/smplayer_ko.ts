@@ -8721,9 +8721,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="83"/>
+        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
+        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation>SMPlayer는 PC용 무료 미디어 재생기입니다. 모든 형식을 재생하고 유투브 동영상도 볼 수 있습니다.</translation>
+        <translation type="obsolete">SMPlayer는 PC용 무료 미디어 재생기입니다. 모든 형식을 재생하고 유투브 동영상도 볼 수 있습니다.</translation>
     </message>
 </context>
 <context>

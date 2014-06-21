@@ -8724,9 +8724,14 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="83"/>
+        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
+        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation>Ezagutu SMPlayer, zure PC-rako multimedia irakurgailu askea. Heuskarri guztiak irakurtzen ditu eta Youtube bideoak ere jeitsi ditzake.</translation>
+        <translation type="obsolete">Ezagutu SMPlayer, zure PC-rako multimedia irakurgailu askea. Heuskarri guztiak irakurtzen ditu eta Youtube bideoak ere jeitsi ditzake.</translation>
     </message>
 </context>
 <context>
