@@ -8723,12 +8723,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="obsolete">Temui SMPlayer, merupakan pemain media percuma untuk PC anda. Ia dapat memainkan semua format dan juga memuat turun video Youtube.</translation>
+        <translation>SMPlayer merupakan pemain media percuma untuk PC. Ia dapat memainkan semua format dan juga memuat turun video Youtube.</translation>
     </message>
 </context>
 <context>

@@ -1255,10 +1255,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Відкрити &amp;теку налаштувань</translation>
     </message>
     <message>
-        <source>&amp;Donate</source>
-        <translation type="obsolete">&amp;Пожертвувати</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1709"/>
         <source>Inc volume (2)</source>
         <translation>Збільшення гучності (2)</translation>
@@ -5296,7 +5292,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation>При увімкненні цієї опції комп&apos;ютер буде вимкнено відразу по закритті SMPayer.</translation>
+        <translation>Якщо цю опцію увімкнено, комп&apos;ютер вимикається одразу після закриття SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5406,7 +5402,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation>В&amp;имкнути комп&apos;ютер</translation>
+        <translation>&amp;Вимкнути комп&apos;ютер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -8726,7 +8722,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation>Ви можете підтримати SMPlayer через пожертвування або порадивши його друзям.</translation>
+        <translation>Ви можете підтримати SMPlayer, відправивши пожертву або поділитися ним з друзями.</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="83"/>
@@ -8773,17 +8769,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation>Відтворення завершено. SMPlayer буде закрито.</translation>
+        <translation>Відтворення закінчив. SMPlayer збирається вийти.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation>Комп&apos;ютер буде вимкнено через %1 сек.</translation>
+        <translation>Комп&apos;ютер вимкнеться через %1 секунд.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation>Натисніть &lt;b&gt;Скасувати&lt;/b&gt; щоб перервати вимкнення.</translation>
+        <translation>Натисніть &lt;b&gt;Скасувати&lt;/b&gt;, щоб перервати вимкнення.</translation>
     </message>
 </context>
 <context>
