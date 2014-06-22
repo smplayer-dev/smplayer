@@ -8731,11 +8731,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="obsolete">Objevte SMPlayer, svobodný přehrávač medií pro vaše PC. Přehrává všechny formáty a dokonce můžete stahovat YouTube videa.</translation>
-    </message>
 </context>
 <context>
     <name>ShortcutGetter</name>

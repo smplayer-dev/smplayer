@@ -8732,11 +8732,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="obsolete">Den SMPlayer entdecken, eine kostenlose Medienwiedergabe für Ihren PC. Es spielt alle Formate und können sogar Youtube-Videos herunterladen.</translation>
-    </message>
 </context>
 <context>
     <name>ShortcutGetter</name>

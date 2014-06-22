@@ -216,22 +216,22 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">Belanda</translation>
+        <translation>Bahasa Jerman</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">Romania</translation>
+        <translation>Bahasa Romania</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">Khmer</translation>
+        <translation>Bahasa Kamboja</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">Telugu</translation>
+        <translation>Bahasa Telugu</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="221"/>
@@ -903,7 +903,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../basegui.cpp" line="1609"/>
         <source>D&amp;elay +</source>
-        <translation>Perlam&amp;batan +</translation>
+        <translation>P&amp;erlambatan +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
@@ -1029,7 +1029,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Donasi / Bagikan dengan teman anda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -1302,7 +1302,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1721"/>
         <source>Dec saturation</source>
-        <translation>Kurangi kejenuhan</translation>
+        <translation>Kurangi kejenuhan warna</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1723"/>
@@ -5291,7 +5291,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="925"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini diaktifkan, komputer akan dimatikan tepat setelah SMPlayer ditutup.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
@@ -5331,7 +5331,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Matikan komputer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="970"/>
@@ -5401,7 +5401,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Matikan k&amp;omputer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -6111,7 +6111,7 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Jangan picu &amp;tindakan klik kiri dengan klik ganda</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6470,17 +6470,17 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefinput.cpp" line="342"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Jangan picu tidakan klik kiri dengan klik ganda</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="343"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan aktif ketika klik ganda dilakukan di area video hanya ketika fungsi klik ganda dipicu. Tindakan klik kiri tidak akan bekerja.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="346"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dengan mengaktifkan pilihan ini klik kiri diperlambat %1 milidetik karena hal ini diperlukan untuk menunggu berapa lama waktu yang diketahui jika ada tindakan klik ganda dilakukan atau tidak.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -7553,32 +7553,32 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan ini memperbolehkan untuk menambah berkas secara otomatis ke dalam daftar putar:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Nihil&lt;/b&gt;: tidak ada berkas yang akan ditambah</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="128"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Berkas video&lt;/b&gt;: semua berkas video yang ditemukan di direktori akan ditambahkan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Berkas audio&lt;/b&gt;: semua berkas audio yang ditemukan di direktori akan ditambahkan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Berkas video dan audio&lt;/b&gt;: semua berkas video dan audio yang ditemukan di direktori akan ditambahkan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Berkas berurutan&lt;/b&gt;: berkas berurutan (seperti video_1.avi, video_2.avi) akan ditambahkan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
@@ -7633,7 +7633,7 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tambah berkas dari direktori</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -8703,28 +8703,28 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Dukungan SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanyakan sa&amp;ya nanti</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donasi dengan Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda dapat mendukung SMPlayer dengan mengirim donasi atau membagikannya dengan teman anda.</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer adalah media player gratis untuk PC. Player ini bekerja pada semua format dan juga bisa mengunduh video Youtube</translation>
     </message>
 </context>
 <context>
@@ -8760,22 +8760,22 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Mematikan komputer</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pemutaran telah selesai. SMPlayer akan ditutup.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Komputer akan dimatikan dalam %1 detik.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tekan &lt;b&gt;Batal&lt;b.&gt; untuk membatalkan pematian.</translation>
     </message>
 </context>
 <context>
