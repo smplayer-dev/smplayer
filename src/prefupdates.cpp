@@ -92,9 +92,9 @@ void PrefUpdates::createHelp() {
 #endif
 
 #ifdef CHECK_UPGRADED
-	setWhatsThis(open_page_check, tr("Open the first steps guide after an upgrade"),
-		tr("If this option is enabled, the first steps guide with info and tips about "
-           "how to use SMPlayer will be opened after an upgrade.") );
+	setWhatsThis(open_page_check, tr("Open an informative page after an upgrade"),
+		tr("If this option is enabled, an informative page about SMPlayer "
+           "will be opened after an upgrade.") );
 #endif
 }
 
