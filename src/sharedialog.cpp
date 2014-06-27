@@ -67,7 +67,7 @@ void ShareDialog::showRemindCheck(bool b) {
 void ShareDialog::on_donate_button_clicked() {
 	qDebug("ShareDialog::on_donate_button_clicked");
 	actions_taken |= Donate;
-	QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=185512"));
+	QDesktopServices::openUrl(QUrl("http://smplayer.sourceforge.net/donate.php"));
 }
 
 void ShareDialog::on_facebook_button_clicked() {
