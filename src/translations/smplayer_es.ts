@@ -8441,8 +8441,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation>A&amp;brir una página informativa tras una actualización</translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>A&amp;brir la guía de primeros pasos tras una actualización</translation>
+        <translation type="obsolete">A&amp;brir la guía de primeros pasos tras una actualización</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8471,13 +8475,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>Abrir la guía de primeros pasos tras una actualización</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation>Abrir una página informativa tras una actualización</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation>Si se activa esta opción, se mostrará una página con información interesante sobre SMPlayer tras una actualización.</translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Abrir la guía de primeros pasos tras una actualización</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Si se activa esta opción, se mostrará la guía de primeros pasos con información y consejos sobre cómo usar SMPlayer después de cada actualización.</translation>
+        <translation type="obsolete">Si se activa esta opción, se mostrará la guía de primeros pasos con información y consejos sobre cómo usar SMPlayer después de cada actualización.</translation>
     </message>
 </context>
 <context>

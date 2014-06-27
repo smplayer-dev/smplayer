@@ -8440,8 +8440,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>업그레이드 후 첫걸음 가이드 열기</translation>
+        <translation type="obsolete">업그레이드 후 첫걸음 가이드 열기</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8470,13 +8474,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>업그레이드 후 첫걸음 가이드 열기</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">업그레이드 후 첫걸음 가이드 열기</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>이 옵션 사용시, 업그레이드 후에 SMPlayer 정보와 사용팁에 대한 첫걸음 가이드가 제공될 것입니다.</translation>
+        <translation type="obsolete">이 옵션 사용시, 업그레이드 후에 SMPlayer 정보와 사용팁에 대한 첫걸음 가이드가 제공될 것입니다.</translation>
     </message>
 </context>
 <context>

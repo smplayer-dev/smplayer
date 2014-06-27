@@ -8447,8 +8447,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;Отвори прве кораке водича после надоградње</translation>
+        <translation type="obsolete">&amp;Отвори прве кораке водича после надоградње</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8477,13 +8481,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>Отвори прве кораке водича после надоградње</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Отвори прве кораке водича после надоградње</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Ако је ова опција омогућена, први кораци водича са информацијама и саветима како користити СМПлејер ће се отворити после надоградње.</translation>
+        <translation type="obsolete">Ако је ова опција омогућена, први кораци водича са информацијама и саветима како користити СМПлејер ће се отворити после надоградње.</translation>
     </message>
 </context>
 <context>

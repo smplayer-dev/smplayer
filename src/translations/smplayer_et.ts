@@ -8441,7 +8441,7 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
-        <source>&amp;Open the first steps guide after an upgrade</source>
+        <source>&amp;Open an informative page after an upgrade</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8471,12 +8471,12 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
+        <source>Open an informative page after an upgrade</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

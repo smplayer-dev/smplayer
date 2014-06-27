@@ -8440,8 +8440,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;buka panduan langkah pertama selepas penataran</translation>
+        <translation type="obsolete">&amp;buka panduan langkah pertama selepas penataran</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8470,13 +8474,21 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>Buka panduan langkah pertama selepas penataran</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Buka panduan langkah pertama selepas penataran</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Jika pilihan ini dibenarkan, panduan langkah pertama dengan maklumat dan tip mengenai penggunaan SMPlayer akan dibuka selepas penataran.</translation>
+        <translation type="obsolete">Jika pilihan ini dibenarkan, panduan langkah pertama dengan maklumat dan tip mengenai penggunaan SMPlayer akan dibuka selepas penataran.</translation>
     </message>
 </context>
 <context>

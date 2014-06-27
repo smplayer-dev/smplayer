@@ -8443,8 +8443,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
+        <translation type="obsolete">&amp;Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8473,13 +8477,21 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Jeśli ta opcja jest zaznaczona, to po aktualizacji zostanie otworzony przewodnik pierwszych kroków z informacjami i wskazówkami na temat, jak używać SMPlayera.</translation>
+        <translation type="obsolete">Jeśli ta opcja jest zaznaczona, to po aktualizacji zostanie otworzony przewodnik pierwszych kroków z informacjami i wskazówkami na temat, jak używać SMPlayera.</translation>
     </message>
 </context>
 <context>
