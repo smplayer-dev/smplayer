@@ -8442,8 +8442,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;Otevřít průvodce prvními kroky po aktualizaci</translation>
+        <translation type="obsolete">&amp;Otevřít průvodce prvními kroky po aktualizaci</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8472,13 +8476,21 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>Otevřít průvodce prvními kroky po aktualizaci</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Otevřít průvodce prvními kroky po aktualizaci</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Pokud je tato volba zapnuta, bude po aktualizaci otevřen průvodce prvními kroky s informacemi a tipy o tom jak používat SMPlayer.</translation>
+        <translation type="obsolete">Pokud je tato volba zapnuta, bude po aktualizaci otevřen průvodce prvními kroky s informacemi a tipy o tom jak používat SMPlayer.</translation>
     </message>
 </context>
 <context>

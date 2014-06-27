@@ -8441,8 +8441,12 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;Ireki lehen urratsak gida eguneratu ondoren</translation>
+        <translation type="obsolete">&amp;Ireki lehen urratsak gida eguneratu ondoren</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8471,13 +8475,21 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>Ireki lehen urratsak gida eguneratu ondoren</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Ireki lehen urratsak gida eguneratu ondoren</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Aukera hau gaituta badago, eguneratu ondoren lehen urratsak gida irekiko da SMPlayer nola erabili argibideekin eta aholkuekin.</translation>
+        <translation type="obsolete">Aukera hau gaituta badago, eguneratu ondoren lehen urratsak gida irekiko da SMPlayer nola erabili argibideekin eta aholkuekin.</translation>
     </message>
 </context>
 <context>

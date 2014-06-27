@@ -8442,8 +8442,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
+        <source>&amp;Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation>&amp;Otvori upute početnog postvljanja nakon ažuriranja</translation>
+        <translation type="obsolete">&amp;Otvori upute početnog postvljanja nakon ažuriranja</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8472,13 +8476,21 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation>Otvori upute početnog postavljanja nakon ažuriranja</translation>
+        <source>Open an informative page after an upgrade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
+        <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Otvori upute početnog postavljanja nakon ažuriranja</translation>
+    </message>
+    <message>
         <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation>Ako je ova mogućnost odabrana, upute početnog postavljanja sa informacijama i savjetima o korištenju SMPlayera će se otvoriti nakon ažuriranja.</translation>
+        <translation type="obsolete">Ako je ova mogućnost odabrana, upute početnog postavljanja sa informacijama i savjetima o korištenju SMPlayera će se otvoriti nakon ažuriranja.</translation>
     </message>
 </context>
 <context>
