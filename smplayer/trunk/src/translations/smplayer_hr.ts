@@ -216,22 +216,22 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">Nizozemski</translation>
+        <translation>Nizozemski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">Rumunjski</translation>
+        <translation>Rumunjski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">Kmerski</translation>
+        <translation>Kmerski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">Teluški</translation>
+        <translation>Teluški</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="221"/>
@@ -1029,7 +1029,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Donirajte / Podijelite sa svojim prijateljima</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -8446,10 +8446,6 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Otvori upute početnog postvljanja nakon ažuriranja</translation>
-    </message>
-    <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
         <translation>Ažuriranja</translation>
@@ -8483,14 +8479,6 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Otvori upute početnog postavljanja nakon ažuriranja</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Ako je ova mogućnost odabrana, upute početnog postavljanja sa informacijama i savjetima o korištenju SMPlayera će se otvoriti nakon ažuriranja.</translation>
     </message>
 </context>
 <context>
@@ -8741,7 +8729,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer je besplatan medijski reproduktor za PC. Reproducira sve formate i čak može preuzimati Youtube video snimke.</translation>
     </message>
 </context>
 <context>

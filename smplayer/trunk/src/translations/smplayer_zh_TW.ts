@@ -8444,10 +8444,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">在升級之後，開啟首次操作指南(&amp;O)</translation>
-    </message>
-    <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
         <translation>更新</translation>
@@ -8481,14 +8477,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">在升級之後，開啟首次操作指南</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">如果啟用這個選項，有關如何使用 SMPlayer 的資訊和提示訊息之首次操作指南，將在升級之後打開。</translation>
     </message>
 </context>
 <context>

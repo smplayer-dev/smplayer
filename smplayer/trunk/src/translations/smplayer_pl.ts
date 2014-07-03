@@ -216,22 +216,22 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">Holenderski</translation>
+        <translation>Holenderski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">Rumuński</translation>
+        <translation>Rumuński</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">Khmerski</translation>
+        <translation>Khmerski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">&gt;Telugu</translation>
+        <translation>Telugu</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="221"/>
@@ -472,7 +472,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="193"/>
         <source>&amp;Preset</source>
-        <translation>&amp;Ustawienia wstępne</translation>
+        <translation>Ustawienia wstę&amp;pne</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="194"/>
@@ -1029,7 +1029,7 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Wesprzyj / Po&amp;dziel się ze znajomymi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -1216,7 +1216,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1554"/>
         <source>&amp;Half speed</source>
-        <translation>&amp;Połowa prędkości</translation>
+        <translation>Połowa prędkości (&amp;h)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1570"/>
@@ -1242,7 +1242,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1674"/>
         <source>First Steps &amp;Guide</source>
-        <translation>&amp;Pierwsze kroki</translation>
+        <translation>Pierwsze kroki (&amp;g)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
@@ -2193,12 +2193,12 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../core.cpp" line="1361"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Zrzut ekranu NIE został zrobiony, nie skonfigurowano katalogu</translation>
+        <translation>Zrzut ekranu NIE został wykonany, nie skonfigurowano katalogu</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1374"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Zrzuty ekranu NIE zostały zrobione, nie skonfigurowano katalogu</translation>
+        <translation>Zrzuty ekranu NIE zostały wykonane, nie skonfigurowano katalogu</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2665"/>
@@ -2246,7 +2246,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Language toolbar</source>
-        <translation>Pasek wyboru języka dla napisów i ścieżki audio (&amp;l)</translation>
+        <translation>Pasek wyboru języka dla napisów i ścieżki audio (&amp;L)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="517"/>
@@ -2695,7 +2695,7 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
         <source>&amp;Type:</source>
-        <translation>&amp;Rodzaj:</translation>
+        <translation>Rodzaj (&amp;t):</translation>
     </message>
 </context>
 <context>
@@ -2778,7 +2778,7 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
-        <translation>&amp;Kopiuj link do schowka</translation>
+        <translation>Kopiuj link do s&amp;chowka</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
@@ -2828,7 +2828,7 @@ Przykład: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
         <source>&amp;Language:</source>
-        <translation>Język (&amp;l):</translation>
+        <translation>Język (&amp;L):</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
@@ -4513,7 +4513,7 @@ odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="295"/>
         <source>&amp;Load</source>
-        <translation>Wczytaj (&amp;l)</translation>
+        <translation>Wczytaj (&amp;L)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="296"/>
@@ -5398,12 +5398,12 @@ Przykład: resample=44100:0:0,</translation>
     <message>
         <location filename="../prefgeneral.ui" line="367"/>
         <source>&amp;Quality:</source>
-        <translation>Jakość (&amp;q):</translation>
+        <translation>Jakość (&amp;Q):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="227"/>
         <source>S&amp;hut down computer</source>
-        <translation>W&amp;yłącz komputer</translation>
+        <translation>Wyłącz komputer (&amp;h)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
@@ -5418,7 +5418,7 @@ Przykład: resample=44100:0:0,</translation>
     <message>
         <location filename="../prefgeneral.ui" line="680"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation>Globalny &amp;korektor audio</translation>
+        <translation>Globalny korektor audio (&amp;Q)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="799"/>
@@ -6113,7 +6113,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation>Nie &amp;wywołuj funkcji lewego kliknięcia podwójnym kliknięciem</translation>
+        <translation>Nie wywołuj funkcji lewego kliknięcia podwójnym kliknięciem (&amp;t)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="143"/>
@@ -6637,7 +6637,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.cpp" line="176"/>
         <source>&amp;Long jump</source>
-        <translation>Duży skok (&amp;l)</translation>
+        <translation>Duży skok (&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="177"/>
@@ -6687,7 +6687,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation>&amp;Przesuń okno, kiedy obszar obrazu jest przeciągany</translation>
+        <translation>Przesuń okno, kiedy obszar obrazu jest przeciągany (&amp;m)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -6732,12 +6732,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinterface.ui" line="734"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation>Pokaż gdy wskaźnik myszy zostanie przesunięty na &amp;dół ekranu</translation>
+        <translation>Pokaż gdy wskaźnik myszy zostanie przesunięty na dół ekranu (&amp;b)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="750"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation>Czas (w milisekundach), aby ukryć panel kontrolny:</translation>
+        <translation>Czas (w milis&amp;ekundach), aby ukryć panel kontrolny:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="856"/>
@@ -7914,7 +7914,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="169"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation>Spróbuj &amp;autodetekcji dla tego języka:</translation>
+        <translation>Spróbuj a&amp;utodetekcji dla tego języka:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
@@ -8044,17 +8044,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="731"/>
         <source>Si&amp;ze:</source>
-        <translation>Roz&amp;miar:</translation>
+        <translation>Ro&amp;zmiar:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="773"/>
         <source>Bol&amp;d</source>
-        <translation>Po&amp;grubiony</translation>
+        <translation>Pogrubiony (&amp;d)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="780"/>
         <source>&amp;Italic</source>
-        <translation>&amp;Kursywa</translation>
+        <translation>Kursywa (&amp;i)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="792"/>
@@ -8069,7 +8069,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="827"/>
         <source>&amp;Border:</source>
-        <translation>&amp;Ramka:</translation>
+        <translation>Ramka (&amp;b):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="879"/>
@@ -8089,7 +8089,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="920"/>
         <source>Verti&amp;cal:</source>
-        <translation>Pion&amp;owy:</translation>
+        <translation>Pionowy (&amp;c):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="952"/>
@@ -8099,12 +8099,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="961"/>
         <source>&amp;Horizontal:</source>
-        <translation>&amp;Poziomo:</translation>
+        <translation>Poziomo (&amp;h):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="977"/>
         <source>&amp;Vertical:</source>
-        <translation>P&amp;ionowe:</translation>
+        <translation>Pionowe (&amp;v):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="998"/>
@@ -8119,7 +8119,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="1044"/>
         <source>Shado&amp;w:</source>
-        <translation>Ci&amp;eń:</translation>
+        <translation>Cień (&amp;w):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="553"/>
@@ -8243,7 +8243,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="258"/>
         <source>&amp;Font and colors</source>
-        <translation>Czc&amp;ionki i kolory</translation>
+        <translation>Czcionki i kolory (&amp;f)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="264"/>
@@ -8258,17 +8258,17 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="489"/>
         <source>Default s&amp;cale:</source>
-        <translation>Domyślna &amp;skala:</translation>
+        <translation>Domyślna skala (&amp;c):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="643"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>Domyślna &amp;skala:</translation>
+        <translation>Domyślna skala (&amp;u):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
         <source>&amp;Line spacing:</source>
-        <translation>Odstęp &amp;między wierszami:</translation>
+        <translation>Odstęp między wierszami (&amp;L):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
@@ -8333,7 +8333,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="1107"/>
         <source>Custo&amp;mize...</source>
-        <translation>Dos&amp;tosuj...</translation>
+        <translation>Dostosuj (&amp;m)...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="606"/>
@@ -8348,7 +8348,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="1084"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>Zast&amp;osuj style również dla plików ASS</translation>
+        <translation>Zastosuj style również dla &amp;plików ASS</translation>
     </message>
 </context>
 <context>
@@ -8421,7 +8421,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation>&amp;Szukaj nowych kanałów podczas uruchamiania</translation>
+        <translation>Szukaj nowy&amp;ch kanałów podczas uruchamiania</translation>
     </message>
 </context>
 <context>
@@ -8444,11 +8444,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
+        <translation>&amp;Otwórz stronę informacyjną po aktualizacji</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8478,20 +8474,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz stronę informacyjną po aktualizacji</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Otwórz po aktualizacji przewodnika pierwszych kroków</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Jeśli ta opcja jest zaznaczona, to po aktualizacji zostanie otworzony przewodnik pierwszych kroków z informacjami i wskazówkami na temat, jak używać SMPlayera.</translation>
+        <translation>Jeśli ta opcja jest zaznaczona, to po aktualizacji zostanie otworzona strona informacyjna o SMPlayerze.</translation>
     </message>
 </context>
 <context>
@@ -8726,7 +8714,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation>&amp;Przypomnij mi później</translation>
+        <translation>P&amp;rzypomnij mi później</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="31"/>
@@ -8742,7 +8730,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer to darmowy odtwarzacz mediów dla komputerów PC. Odtwarza wszelkie formaty i potrafi nawet pobierać filmy z Youtube.</translation>
     </message>
 </context>
 <context>
@@ -8793,7 +8781,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation>Naciśnij &lt;b&gt;Anuluj&lt;/b&gt;, aby przerwać zamknięcie.</translation>
+        <translation>Naciśnij &lt;b&gt;Anuluj&lt;/b&gt;, aby przerwać zamykanie.</translation>
     </message>
 </context>
 <context>
@@ -8801,7 +8789,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../skingui/skingui.cpp" line="400"/>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Paski narzędzi</translation>
+        <translation>Paski narzędzi (&amp;t)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
@@ -8811,12 +8799,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../skingui/skingui.cpp" line="406"/>
         <source>&amp;Main toolbar</source>
-        <translation>&amp;Główny pasek narzędzi</translation>
+        <translation>Główny pasek narzędzi (&amp;m)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="410"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Edycja głó&amp;wnego paska narzędzi</translation>
+        <translation>Edycja głównego paska narzędzi (&amp;t)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
@@ -8885,7 +8873,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
-        <translation>&amp;Skocz do:</translation>
+        <translation>Skocz do (&amp;j):</translation>
     </message>
 </context>
 <context>
@@ -8898,7 +8886,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation>&amp;Dostępne działania:</translation>
+        <translation>Dostępne dzi&amp;ałania:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
@@ -8908,7 +8896,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation>&amp;Prawo</translation>
+        <translation>P&amp;rawo</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
@@ -8918,7 +8906,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation>&amp;Góra</translation>
+        <translation>Góra (&amp;u)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
@@ -8928,7 +8916,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
-        <translation>Dodaj &amp;odstęp</translation>
+        <translation>Dodaj od&amp;stęp</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="87"/>
@@ -9020,7 +9008,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation>Wyłącz pro&amp;gramowe filtry obrazu</translation>
+        <translation>Wyłącz programowe filtry obrazu (&amp;d)</translation>
     </message>
 </context>
 <context>
@@ -9033,22 +9021,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation>&amp;Kontrast</translation>
+        <translation>Kontrast (&amp;c)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation>&amp;Jasność</translation>
+        <translation>Jasność (&amp;b)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation>&amp;Odcień</translation>
+        <translation>Odcień (&amp;h)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation>&amp;Nasycenie</translation>
+        <translation>Na&amp;sycenie</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
@@ -9250,22 +9238,22 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
         <source>&amp;File:</source>
-        <translation>&amp;Plik:</translation>
+        <translation>Plik (&amp;f):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="56"/>
         <source>&amp;Columns:</source>
-        <translation>&amp;Kolumny:</translation>
+        <translation>Kolumny (&amp;c):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="92"/>
         <source>&amp;Rows:</source>
-        <translation>&amp;Wiersze:</translation>
+        <translation>Wie&amp;rsze:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="136"/>
         <source>&amp;Aspect ratio:</source>
-        <translation>&amp;Współczynnik proporcji:</translation>
+        <translation>Współczynnik proporcji (&amp;a):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="200"/>
@@ -9321,7 +9309,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation>Dodaj &amp;czas odtwarzania do miniaturek</translation>
+        <translation>Dodaj czas od&amp;twarzania do miniaturek</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
@@ -9331,7 +9319,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
-        <translation>&amp;Zapisz klatki jako</translation>
+        <translation>Zapisz klatki jako (&amp;e)</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
@@ -9346,7 +9334,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation>Zapamiętaj katalog użyty do za&amp;pisu podglądu</translation>
+        <translation>Zapamiętaj katalog użyty do zapi&amp;su podglądu</translation>
     </message>
 </context>
 <context>

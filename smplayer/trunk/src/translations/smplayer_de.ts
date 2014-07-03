@@ -8446,11 +8446,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Den Erste-Schritte-Leitfaden nach einer Aktualisierung öffnen</translation>
+        <translation>Eine &amp;Informationsseite nach einer Aktualisierung öffnen</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8480,20 +8476,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Informationsseite nach einer Aktualisierung öffnen</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Den Erste-Schritte-Leitfaden nach einer Aktualisierung öffnen</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Wenn diese Option aktiviert ist, wird nach einer Aktualisierung der Erste-Schritte-Leitfaden mit Informationen und Tipps, wie Sie den SMPlayer verwenden, geöffnet werden.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird nach einer Aktualisierung eine Informationsseite über den SMPlayer geöffnet werden.</translation>
     </message>
 </context>
 <context>
@@ -8742,7 +8730,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ist eine kostenlose Medienwiedergabe für den PC. Es spielt alle Formate und kann ebenfalls Youtube-Filme herunterladen.</translation>
     </message>
 </context>
 <context>

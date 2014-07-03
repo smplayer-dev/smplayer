@@ -8443,11 +8443,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Otevřít průvodce prvními kroky po aktualizaci</translation>
+        <translation>&amp;Otevřít infromační stránku po aktualizaci</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8477,20 +8473,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít infromační stránku po aktualizaci</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Otevřít průvodce prvními kroky po aktualizaci</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Pokud je tato volba zapnuta, bude po aktualizaci otevřen průvodce prvními kroky s informacemi a tipy o tom jak používat SMPlayer.</translation>
+        <translation>Pokud je tato volba zapnuta, bude po aktualizaci otevřena informační stránka o SMPlayeru.</translation>
     </message>
 </context>
 <context>
@@ -8741,7 +8729,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer je svobodný multimediální přehrávač pro počítač. Přehrává všechny formáty a dokonce umí stáhnout videa z Youtube.</translation>
     </message>
 </context>
 <context>
