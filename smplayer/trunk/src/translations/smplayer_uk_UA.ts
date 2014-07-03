@@ -216,22 +216,22 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">Голландська</translation>
+        <translation>Голландська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">Румунська</translation>
+        <translation>Румунська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">Кхмерська</translation>
+        <translation>Кхмерська</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">Телугу</translation>
+        <translation>Телугу</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="221"/>
@@ -1029,7 +1029,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Пожертвувати / Поділитися з друзями</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -8445,6 +8445,10 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&amp;Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">&amp;Відкрити путівник перший кроки після оновлення</translation>
+    </message>
+    <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
         <translation>Оновлення</translation>
@@ -8478,6 +8482,14 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the first steps guide after an upgrade</source>
+        <translation type="obsolete">Відкрийте путівник перший кроки після оновлення</translation>
+    </message>
+    <message>
+        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
+        <translation type="obsolete">Якщо ця опція ввімкнена, перші кроки керівництва з інформацією та порадами про те, як використовувати SMPlayer буде відкрито після оновлення.</translation>
     </message>
 </context>
 <context>
@@ -8728,7 +8740,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer є вільним медіапрогравачем для ПК. Він відтворює всі формати і навіть може завантажити відео Youtube.</translation>
     </message>
 </context>
 <context>
