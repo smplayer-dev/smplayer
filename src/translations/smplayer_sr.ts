@@ -8448,11 +8448,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Отвори прве кораке водича после надоградње</translation>
+        <translation>&amp;Отвори информативну страницу након надоградње</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8482,20 +8478,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Отвори информативну страницу након надоградње</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Отвори прве кораке водича после надоградње</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Ако је ова опција омогућена, први кораци водича са информацијама и саветима како користити СМПлејер ће се отворити после надоградње.</translation>
+        <translation>Ако је ова опција означена, информативна страница о СМПлејеру ће бити отворена након надоградње.</translation>
     </message>
 </context>
 <context>
@@ -8746,7 +8734,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>СМПлејер је бесплатан медија плејер за ваш рачунар. Он емитује све формате и може чак преузети Youtube видео.</translation>
     </message>
 </context>
 <context>

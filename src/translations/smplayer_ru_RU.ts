@@ -8443,11 +8443,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Открыть руководство по первым шагам после обновления</translation>
+        <translation>&amp;Открыть страницу с информацией после обновления</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8477,20 +8473,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть страницу с информацией после обновления</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Открыть руководство по первым шагам после обновления</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Если эта опция включена, то руководство по первым шагам с информацией и советами о том, как использовать SMPlayer, будет открыто после обновления.</translation>
+        <translation>Если включено, после обновления будет открыта страницу с информацией об SMPlayer.</translation>
     </message>
 </context>
 <context>

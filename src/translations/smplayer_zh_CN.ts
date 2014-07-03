@@ -8440,11 +8440,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">每次更新后打开第一步指南(&amp;O)</translation>
+        <translation>更新后打开介绍信息页面(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8474,20 +8470,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>更新后打开介绍信息页面</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">更新后打开第一步指南</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">如果此项开启，更新后会打开第一步指南，教您如何使用SMPlayer</translation>
+        <translation>如果启用此项，在更新后会打开一个关于 SMPLayer 的信息页面。</translation>
     </message>
 </context>
 <context>

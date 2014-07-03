@@ -8445,10 +8445,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Abrir os primeiros pasos despois dunha actualización</translation>
-    </message>
-    <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
         <translation>Actualizacións</translation>
@@ -8482,14 +8478,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Abrir a guía dos primeiros pasos despois dunha actualización</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Cando se activa esta opción, ábrese a guía dos primeiros pasos, coa información e os consellos de como empregar o SMPlayer trala actualización.</translation>
     </message>
 </context>
 <context>
