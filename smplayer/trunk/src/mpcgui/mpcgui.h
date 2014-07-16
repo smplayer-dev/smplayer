@@ -84,9 +84,11 @@ protected:
 	QToolBar* controlwidget;
     QToolBar* timeslidewidget;
 
-    QLabel * audiochannel_display;
+	QLabel * audiochannel_display;
 	QLabel * time_display;
 	QLabel * frame_display;
+
+	QLabel * floating_control_time;
 
 	AutohideWidget * floating_control;
 	QSpacerItem * spacer;

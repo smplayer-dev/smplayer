@@ -134,6 +134,13 @@ void MpcGui::createFloatingControl() {
 	floating_control->setAutoHide(true);
 	floating_control->hide();
 	spacer = new QSpacerItem(10,10);
+
+	floating_control_time = new QLabel(floating_control);
+	floating_control_time->setAlignment(Qt::AlignRight);
+	floating_control_time->setAutoFillBackground(true);
+	ColorUtils::setBackgroundColor( floating_control_time, QColor(0,0,0) );
+	ColorUtils::setForegroundColor( floating_control_time, QColor(255,255,255) );
+
 }
 
 void MpcGui::retranslateStrings() {
@@ -176,6 +183,7 @@ void MpcGui::aboutToEnterFullscreen() {
 	floating_control->layout()->addWidget(timeslidewidget);
 	floating_control->layout()->addItem(spacer);
 	floating_control->layout()->addWidget(controlwidget);
+	floating_control->layout()->addWidget(floating_control_time);
 	controlwidget->show();
 	timeslidewidget->show();
 	floating_control->adjustSize();
@@ -203,6 +211,7 @@ void MpcGui::aboutToExitFullscreen() {
 	floating_control->layout()->removeWidget(controlwidget);
 	floating_control->layout()->removeWidget(timeslidewidget);
 	floating_control->layout()->removeItem(spacer);
+	floating_control->layout()->removeWidget(floating_control_time);
 	addToolBar(Qt::BottomToolBarArea, controlwidget);
 	addToolBarBreak(Qt::BottomToolBarArea);
 	addToolBar(Qt::BottomToolBarArea, timeslidewidget);
@@ -417,6 +426,7 @@ void MpcGui::createStatusBar() {
 void MpcGui::displayTime(QString text) {
 	time_display->setText( text );
 	time_label_action->setText(text );
+	floating_control_time->setText(text);
 }
 
 void MpcGui::displayFrame(int frame) {
