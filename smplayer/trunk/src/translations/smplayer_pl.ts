@@ -234,7 +234,17 @@
         <translation>Telugu</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="221"/>
+        <location filename="../about.cpp" line="197"/>
+        <source>Tamil</source>
+        <translation type="unfinished">Tamilski</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="198"/>
+        <source>Malayalam</source>
+        <translation type="unfinished">&gt;Malayalam</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="223"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -512,17 +522,17 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>Full bass</source>
-        <translation>Pełne tony niskie</translation>
+        <translation>Pełne basy</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>Full bass and treble</source>
-        <translation>Pełne tony niskie i wysokie</translation>
+        <translation>Pełne basy i wysokie tony</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>Full treble</source>
-        <translation>Pełne tony wysokie</translation>
+        <translation>Pełne wysokie tony</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -2246,7 +2256,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="526"/>
         <source>&amp;Language toolbar</source>
-        <translation>Pasek wyboru języka dla napisów i ścieżki audio (&amp;L)</translation>
+        <translation>Menu wyboru języka napisów i ścieżki audio (&amp;L)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="517"/>
@@ -3870,7 +3880,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../languages.cpp" line="301"/>
         <source>South-Eastern European</source>
-        <translation>Południowo-wschodnio europejski</translation>
+        <translation>Południowo-wschodni europejski</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="302"/>
@@ -4359,26 +4369,26 @@ Czy chcesz go zastąpić?</translation>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="142"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="149"/>
         <source>Control bar</source>
         <translation>Pasek kontroli</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="143"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Seek bar</source>
         <translation>Pasek wyszukiwania</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="459"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="460"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="461"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="469"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="470"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="463"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="464"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="465"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="473"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="474"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -7690,7 +7700,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="69"/>
         <source>Same name as movie</source>
-        <translation>Taka sama nazwa jak film</translation>
+        <translation>Taka sama nazwa jak filmu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="74"/>
@@ -8288,7 +8298,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefsubtitles.ui" line="227"/>
         <source>Freet&amp;ype support</source>
-        <translation>Wsparcie dla czcionek Free&amp;type</translation>
+        <translation>Wsparcie dla czcionek Freet&amp;ype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
@@ -8724,7 +8734,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation>Możesz wesprzeć SMPlayer wysyłając darowiznę lub udostępnić go twoim przyjaciołom.</translation>
+        <translation>Możesz wesprzeć SMPlayer wysyłając darowiznę lub udostępniając go twoim przyjaciołom.</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="83"/>
@@ -8771,7 +8781,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation>Zakończenie odtwarzania. SMPlayer za chwilę się zamknie.</translation>
+        <translation>Odtwarzanie zakończyło się. SMPlayer za chwilę się zamknie.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>

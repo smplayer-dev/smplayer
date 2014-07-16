@@ -234,7 +234,17 @@
         <translation>泰卢固语</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="221"/>
+        <location filename="../about.cpp" line="197"/>
+        <source>Tamil</source>
+        <translation type="unfinished">泰米尔语</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="198"/>
+        <source>Malayalam</source>
+        <translation type="unfinished">马拉雅拉姆语</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="223"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -4357,26 +4367,26 @@ Do you want to overwrite?</source>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="142"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="149"/>
         <source>Control bar</source>
         <translation>控制条</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="143"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Seek bar</source>
         <translation>定位栏</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="459"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="460"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="461"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="469"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="470"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="463"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="464"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="465"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="473"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="474"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>

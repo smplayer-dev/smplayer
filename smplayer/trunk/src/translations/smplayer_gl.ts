@@ -234,7 +234,17 @@
         <translation>Telugu</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="221"/>
+        <location filename="../about.cpp" line="197"/>
+        <source>Tamil</source>
+        <translation type="unfinished">tamil</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="198"/>
+        <source>Malayalam</source>
+        <translation type="unfinished">malaialam</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="223"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -4358,26 +4368,26 @@ Desexas sobrescribilo?</translation>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="142"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="149"/>
         <source>Control bar</source>
         <translation>Barra de control</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="143"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Seek bar</source>
         <translation>Barra de localización</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="459"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="460"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="461"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="469"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="470"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="463"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="464"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="465"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="473"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="474"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -8442,7 +8452,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abrir unha páxina de informe despois da cada actualización</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8472,12 +8482,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir unha páxina de informe despois da cada actualización</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cando se activa esta opción, despois de cada actualización ábrese un informe onde se detallan todos os cambios en SMPlayer.</translation>
     </message>
 </context>
 <context>
@@ -8726,7 +8736,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer é un reprodutor de son e vídeo para o PC. Acepta todos os formatos e mesmo descarga vídeos desde o Youtube.</translation>
     </message>
 </context>
 <context>

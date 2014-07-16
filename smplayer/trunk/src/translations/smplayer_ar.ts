@@ -216,25 +216,35 @@
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Dutch</source>
-        <translation type="unfinished">الهولندية</translation>
+        <translation>الهولندية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Romanian</source>
-        <translation type="unfinished">الرومانية</translation>
+        <translation>الرومانية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Khmer</source>
-        <translation type="unfinished">الخميرية</translation>
+        <translation>الخميرية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Telugu</source>
-        <translation type="unfinished">التلوگوية</translation>
+        <translation>التلوگوية</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="221"/>
+        <location filename="../about.cpp" line="197"/>
+        <source>Tamil</source>
+        <translation type="unfinished">التاميلية</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="198"/>
+        <source>Malayalam</source>
+        <translation type="unfinished">الملايلامية</translation>
+    </message>
+    <message>
+        <location filename="../about.cpp" line="223"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -1029,7 +1039,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>تبرّع / &amp;شارك مع أصدقائك</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3803"/>
@@ -4363,26 +4373,26 @@ Do you want to overwrite?</source>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="142"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="149"/>
         <source>Control bar</source>
         <translation>شريط التحكم</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="143"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Seek bar</source>
         <translation>شريط التنقّل</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="459"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="460"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="461"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="469"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="470"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="463"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="464"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="465"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="473"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="474"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -8450,7 +8460,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;فتح صفحة المعلومات بعد كل ترقية</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8480,12 +8490,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>افتح صفحة المعلومات بعد كل ترقية</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكن هذا الخيار فستُفتح صفحة معلومات عن استخدام SMPlayer بعد الترقية.</translation>
     </message>
 </context>
 <context>
@@ -8742,7 +8752,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer مشغل وسائط مجاني للحاسوب، يُشغّل كل صيغ الوسائط ويمكنه تنزيل مقاطع الفيديو من YouTube.</translation>
     </message>
 </context>
 <context>
