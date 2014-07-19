@@ -3040,9 +3040,17 @@ void BaseGui::updateMediaInfo() {
 }
 
 void BaseGui::newMediaLoaded() {
-    qDebug("BaseGui::newMediaLoaded");
+	qDebug("BaseGui::newMediaLoaded");
 
-	pref->history_recents->addItem( core->mdat.filename );
+	QString stream_title = core->mdat.stream_title;
+	qDebug("BaseGui::newMediaLoaded: mdat.stream_title: %s", stream_title.toUtf8().constData());
+
+	if (!stream_title.isEmpty()) {
+		pref->history_recents->addItem( core->mdat.filename, stream_title );
+		//pref->history_recents->list();
+	} else {
+		pref->history_recents->addItem( core->mdat.filename );
+	}
 	updateRecents();
 
 	// If a VCD, Audio CD or DVD, add items to playlist
@@ -3329,7 +3337,11 @@ void BaseGui::updateRecents() {
 				filename = filename.left(80) + "...";
 			}
 
-			QAction * a = recentfiles_menu->addAction( QString("%1. " + filename ).arg( i.insert( i.size()-1, '&' ), 3, ' ' ));
+			QString show_name = filename;
+			QString title = pref->history_recents->title(n);
+			if (!title.isEmpty()) show_name = title;
+
+			QAction * a = recentfiles_menu->addAction( QString("%1. " + show_name ).arg( i.insert( i.size()-1, '&' ), 3, ' ' ));
 			a->setStatusTip(fullname);
 			a->setData(n);
 			connect(a, SIGNAL(triggered()), this, SLOT(openRecent()));
