@@ -31,7 +31,10 @@ public:
 	virtual void clear();
 
 	virtual void addItem(QString s);
+	virtual void addItem(QString s, QString title);
+
 	virtual QString item(int n);
+	virtual QString title(int n);
 
 	virtual int count();
 

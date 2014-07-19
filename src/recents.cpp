@@ -50,8 +50,27 @@ void Recents::addItem(QString s) {
 	if (l.count() > max_items) l.removeLast();
 }
 
+void Recents::addItem(QString s, QString title) {
+	s += "|title]=" + title;
+	addItem(s);
+}
+
 QString Recents::item(int n) {
-	return l[n];
+	QString res;
+
+	QStringList s = l[n].split("|title]=");
+	if (s.count() > 0) res = s[0];
+
+	return res;
+}
+
+QString Recents::title(int n) {
+	QString res;
+
+	QStringList s = l[n].split("|title]=");
+	if (s.count() > 1) res = s[1];
+
+	return res;
 }
 
 void Recents::list() {
