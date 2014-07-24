@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -234,17 +232,7 @@
         <translation>Telugu</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
-        <source>Tamil</source>
-        <translation type="unfinished">Tamil</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="198"/>
-        <source>Malayalam</source>
-        <translation type="unfinished">Malayalam</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="223"/>
+        <location filename="../about.cpp" line="221"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -2768,9 +2756,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2868,7 +2854,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -4367,26 +4353,26 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="149"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="142"/>
         <source>Control bar</source>
         <translation>Palang kawalan</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="150"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="143"/>
         <source>Seek bar</source>
         <translation>Palang jangkau</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="469"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="470"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="459"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="460"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="461"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="473"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="474"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="463"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="464"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="465"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -8451,7 +8437,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Buka halaman bermaklumat selepas ditatar</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8481,12 +8467,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Buka halaman bermaklumat selepas ditatar</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini dibenarkan, satu halaman bermaklumat mengenai SMPlayer akan dibuka selepas ditatar.</translation>
     </message>
 </context>
 <context>
@@ -8631,17 +8617,13 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
