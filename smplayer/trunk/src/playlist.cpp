@@ -971,8 +971,10 @@ void Playlist::getMediaInfo() {
 
 	QString filename = core->mdat.filename;
 	double duration = core->mdat.duration;
-	QString name = core->mdat.clip_name;
 	QString artist = core->mdat.clip_artist;
+
+	QString name = core->mdat.clip_name;
+	if (name.isEmpty()) name = core->mdat.stream_title;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
@@ -993,7 +995,9 @@ void Playlist::getMediaInfo() {
 	int pos=0;
 	PlaylistItemList::iterator it;
 	for ( it = pl.begin(); it != pl.end(); ++it ) {
+		/* qDebug("Playlist:: getMediaInfo: f1: %s f2: %s", (*it).filename().toUtf8().constData(), filename.toUtf8().constData()); */
 		if ( (*it).filename() == filename ) {
+			/* qDebug("Playlist:: getMediaInfo: duration: %f", (*it).duration()); */
 			if ((*it).duration()<1) {
 				if (!name.isEmpty()) {
 					(*it).setName(name);
