@@ -239,6 +239,7 @@
   !insertmacro MUI_LANGUAGE "Spanish"
   !insertmacro MUI_LANGUAGE "Thai"
   !insertmacro MUI_LANGUAGE "TradChinese"
+  !insertmacro MUI_LANGUAGE "Ukrainian"
 
 ;Custom translations for setup
 
@@ -273,6 +274,7 @@
   !insertmacro LANGFILE_INCLUDE "translations\spanish.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\thai.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\tradchinese.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\ukrainian.nsh"
 
 ;--------------------------------
 ;Reserve Files
