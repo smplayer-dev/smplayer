@@ -7,79 +7,79 @@
 !insertmacro LANGFILE "Dutch" "Nederlands"
 
 ; Startup
-${LangFileString} Installer_Is_Running "The installer is already running."
-${LangFileString} Installer_No_Admin "You must be logged in as an administrator when installing this program."
-${LangFileString} SMPlayer_Is_Running "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+${LangFileString} Installer_Is_Running "Het installatiepakket draait al."
+${LangFileString} Installer_No_Admin "U moet ingelogd zijn als een administrator tijdens het installeren van het programma."
+${LangFileString} SMPlayer_Is_Running "Een venster van SMPlayer is draaiende. Sluit alstublieft SMPlayer af en probeer het opnieuw."
 
-${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
-${LangFileString} Win64_Required "A 64-bit Windows operating system is required to install this software."
-${LangFileString} Existing_32bitInst "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-${LangFileString} Existing_64bitInst "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+${LangFileString} OS_Not_Supported "Niet-ondersteund besturingssysteem.$\nSMPlayer ${SMPLAYER_VERSION} vereist minimaal Windows XP en zal mogelijk niet juist werken op uw systeem.$\nWeet u zeker dat u de installatie wilt voortzetten?"
+${LangFileString} Win64_Required "Een 64-bits-versie van Windows is benodigd om deze software te installeren."
+${LangFileString} Existing_32bitInst "Een bestaande 32-bits-installatie van SMPlayer bestaat reeds. U moet deze eerst deïnstalleren."
+${LangFileString} Existing_64bitInst "Een bestaande 64-bits-installatie van SMPlayer bestaat reeds. U moet deze eerst deïnstalleren."
 
 ; Welcome page
-${LangFileString} WelcomePage_Title "$(^NameDA) Setup"
+${LangFileString} WelcomePage_Title "$(^NameDA) Installatie"
 ${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} ShortcutGroupTitle "Shortcuts"
-${LangFileString} MPlayerGroupTitle "MPlayer Components"
+${LangFileString} ShortcutGroupTitle "Sneltoetsen"
+${LangFileString} MPlayerGroupTitle "MPlayer-componenten"
 
-${LangFileString} Section_SMPlayer "SMPlayer (required)"
-${LangFileString} Section_SMPlayer_Desc "SMPlayer, shared libraries, and documentation."
+${LangFileString} Section_SMPlayer "SMPlayer (vereist)"
+${LangFileString} Section_SMPlayer_Desc "SMPlayer, gedeelde bibliotheken en documentatie."
 
-${LangFileString} Section_DesktopShortcut "Desktop"
-${LangFileString} Section_DesktopShortcut_Desc "Creates a shortcut to SMPlayer on the desktop."
+${LangFileString} Section_DesktopShortcut "Bureablad"
+${LangFileString} Section_DesktopShortcut_Desc "Maakt een snelkoppeling van SMPlayer aan op het bureaublad."
 
-${LangFileString} Section_StartMenu "Start Menu"
-${LangFileString} Section_StartMenu_Desc "Create a Start Menu entry for SMPlayer."
+${LangFileString} Section_StartMenu "Start-menu"
+${LangFileString} Section_StartMenu_Desc "Maakt een Start-menu-verwijzing aan voor SMPlayer."
 
-${LangFileString} Section_MPlayer "MPlayer (required)"
-${LangFileString} Section_MPlayer_Desc "MPlayer; required for playback."
+${LangFileString} Section_MPlayer "MPlayer (vereist)"
+${LangFileString} Section_MPlayer_Desc "MPlayer; vereist voor afspelen."
 
-${LangFileString} Section_MPlayerCodecs "Binary Codecs"
+${LangFileString} Section_MPlayerCodecs "Binary-codecs"
 !ifdef WIN64
 ${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} Section_MPlayerCodecs_Desc "Optionele codecs voor MPlayer. (Internetverbinding vereist voor installatie)"
 !endif
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
-${LangFileString} Section_IconThemes "Icon Themes"
-${LangFileString} Section_IconThemes_Desc "Additional icon themes for SMPlayer."
+${LangFileString} Section_IconThemes "Pictogram-thema's"
+${LangFileString} Section_IconThemes_Desc "Extra pictogramthema's voor SMPlayer."
 
-${LangFileString} Section_Translations "Languages"
-${LangFileString} Section_Translations_Desc "Non-English language files for SMPlayer."
+${LangFileString} Section_Translations "Talen"
+${LangFileString} Section_Translations_Desc "Niet-Engelse taalbestanden voor SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Deletes SMPlayer preferences leftover from previous installations."
+${LangFileString} Section_ResetSettings_Desc "Verwijdert SMPlayer-voorkeuren die overgebleven zijn van vorige installaties."
 
 ${LangFileString} MPlayer_Codec_Msg "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 
 ; Upgrade/Reinstall Page
-${LangFileString} Reinstall_Header_Text "Select Install Type"
-${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
+${LangFileString} Reinstall_Header_Text "Installatietype selecteren"
+${LangFileString} Reinstall_Header_SubText "Overschrijven- of Deïnstallatie-modus selecteren"
 
-${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
-${LangFileString} Reinstall_Msg2 "Please select how to proceed:"
-${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
-${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
-${LangFileString} Reinstall_Msg3_1 "Click Start when ready to proceed."
-${LangFileString} Reinstall_Msg3_2 "Click Next when ready to proceed."
-${LangFileString} Reinstall_Msg3_3 "Click Uninstall when ready to proceed."
-${LangFileString} Reinstall_Msg4 "Change Installation Settings"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg1 "U heeft een bestaande installatie van SMPlayer in de volgende map:"
+${LangFileString} Reinstall_Msg2 "Selecteer hoe verder te verder te gaan:"
+${LangFileString} Reinstall_Overwrite "Overschrijf ($Inst_Type) de huidige installatie"
+${LangFileString} Reinstall_Uninstall "Deïnstalleer (verwijder) de huidige installatie"
+${LangFileString} Reinstall_Msg3_1 "Klik op Beginnen wanneer u klaar bent om door te gaan."
+${LangFileString} Reinstall_Msg3_2 "Klik op Volgende wanneer u klaar bent om door te gaan."
+${LangFileString} Reinstall_Msg3_3 "Klik op Deïnstalleren wanneer u klaar bent om door te gaan."
+${LangFileString} Reinstall_Msg4 "Installatie-voorkeuren wijzigen"
+${LangFileString} Reinstall_Msg5 "Standaardwaarden voor mijn SMPlayer-configuratie"
 
-${LangFileString} Type_Reinstall "reinstall"
-${LangFileString} Type_Downgrade "downgrade"
-${LangFileString} Type_Upgrade "upgrade"
+${LangFileString} Type_Reinstall "herinstalleren"
+${LangFileString} Type_Downgrade "versie verlagen"
+${LangFileString} Type_Upgrade "versie opwaarderen"
 
-${LangFileString} StartBtn "Start"
+${LangFileString} StartBtn "Beginnen"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "Downloading MPlayer codecs..."
-${LangFileString} Codecs_DL_Retry "MPlayer codecs were not successfully installed. Retry?"
-${LangFileString} Codecs_DL_Failed "Failed to download MPlayer codecs: '$R0'."
-${LangFileString} Codecs_Inst_Failed "Failed to install MPlayer codecs."
+${LangFileString} Codecs_DL_Msg "Downloaden van MPlayer-codecs..."
+${LangFileString} Codecs_DL_Retry "MPlayer-codecs waren niet succesvol geïnstalleerd. Opnieuw proberen?"
+${LangFileString} Codecs_DL_Failed "Mislukt om MPlayer-codecs te downloaden: '$R0'."
+${LangFileString} Codecs_Inst_Failed "Mislukt om MPlayer-codecs te installeren."
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "This installation can only be uninstalled by a user with administrator privileges."
