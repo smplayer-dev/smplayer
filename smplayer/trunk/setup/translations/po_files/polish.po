@@ -4,11 +4,12 @@
 # 
 # Translators:
 # M T <michtrz@gmail.com>, 2014
+# filux <smartadminpl@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-27 00:45+0000\n"
-"Last-Translator: M T <michtrz@gmail.com>\n"
+"PO-Revision-Date: 2014-07-04 03:40+0000\n"
+"Last-Translator: filux <smartadminpl@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/smplayer/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,24 +36,24 @@ msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr "Nieobsługiwany system operacyjny.[:n:]SMPlayer ${SMPLAYER_VERSION} wymaga co najmniej wersji Windows XP i może nie działać poprawnie na twoim systemie.[:n:]Czy naprawdę chcesz kontynuować instalację?"
+msgstr "Nieobsługiwany system operacyjny.[:n:]SMPlayer ${SMPLAYER_VERSION} wymaga co najmniej Windows XP i może nie działać poprawnie na twoim systemie.[:n:]Czy naprawdę chcesz kontynuować instalację?"
 
 # Win64_Required
 msgid ""
 "A 64-bit Windows operating system is required to install this software."
-msgstr "Wymagany jest system operacyjny Windows w wersji 64-bitowej w celu zainstalowania programu."
+msgstr "Do zainstalowania tego programu wymagany jest system operacyjny Windows w wersji 64-bitowej."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall "
 "32-bit SMPlayer first."
-msgstr "Istnieje instalacja 32-bitowej wersji SMPlayera. Najpierw należy odinstalować tą 32-bitową wersję SMPlayera."
+msgstr "W systemie jest już zainstalowany SMPlayer w wersji 32-bitowej. Aby kontynuować należy najpierw odinstalować 32-bitową wersję SMPlayera."
 
 # Existing_64bitInst
 msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall "
 "64-bit SMPlayer first."
-msgstr "Istnieje instalacja 64-bitowej wersji SMPlayera. Najpierw należy odinstalować tą 64-bitową wersję SMPlayera."
+msgstr "W systemie jest już zainstalowany SMPlayer w wersji 64-bitowej. Aby kontynuować należy najpierw odinstalować 64-bitową wersję SMPlayera."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
@@ -65,7 +66,7 @@ msgid ""
 "instances of SMPlayer before starting setup. This will make it possible to "
 "update relevant program files without having to reboot your "
 "computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "Instalator poprowadzi Cię przez proces instalacji $(^NameDA).[:r:][:n:][:r:][:n:]Zalecane jest zamknięcie wszystkich instancji SMPlayera przed rozpoczęciem instalacji. Dzięki temu będzie można zaktualizować odpowiednie pliki programu, bez konieczności ponownego uruchamiania komputera.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Instalator poprowadzi Cię przez proces instalacji $(^NameDA).[:r:][:n:][:r:][:n:]Zalecane jest zamknięcie SMPlayera przed rozpoczęciem instalacji. Dzięki temu możliwe będzie zaktualizowanie odpowiednich plików programu, bez konieczności ponownego uruchamiania komputera.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
@@ -77,7 +78,7 @@ msgstr "Komponenty MPlayera"
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
-msgstr "SMPlayer (wymagane)"
+msgstr "SMPlayer (wymagany)"
 
 # Section_SMPlayer_Desc
 msgid "SMPlayer, shared libraries, and documentation."
@@ -101,7 +102,7 @@ msgstr "Tworzy skrót do programu w Menu Start."
 
 # Section_MPlayer
 msgid "MPlayer (required)"
-msgstr "MPlayer (wymagane)"
+msgstr "MPlayer (wymagany)"
 
 # Section_MPlayer_Desc
 msgid "MPlayer; required for playback."
@@ -148,7 +149,7 @@ msgid ""
 "implemented natively, like newer RealVideo variants and a lot of uncommon "
 "formats.[:n:]Note that they are not necessary to play most common formats "
 "like DVDs, MPEG-1/2/4, etc."
-msgstr "Paczka z kodekami dodaje wsparcie dla kodeków, które nie są jeszcze natywnie wspierane, np. nowsze warianty RealVideo, oraz wiele mniej znanych formatów.[:n:]Proszę mieć na uwadze, że paczka nie jest wymagana do odtworzenia popularnych formatów, takich jak DVD, MPEG-1/2/4, itp."
+msgstr "Paczka z kodekami dodaje wsparcie dla formatów, które nie są jeszcze natywnie wspierane, np. nowsze warianty RealVideo, oraz dla wielu mniej znanych formatów.[:n:]Miej na uwadze, że dodatkowe kodeki nie są wymagane do odtwarzania najpopularniejszych formatów, takich jak DVD, MPEG-1/2/4, itp."
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
@@ -160,11 +161,11 @@ msgstr "Wybierz tryb nadpisywania lub odinstalowywania."
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Posiadasz już zainstalowaną wersję SMPlayera w folderze:"
+msgstr "Posiadasz już zainstalowanego SMPlayera w folderze:"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
-msgstr "Wybierz co mam dalej zrobić:"
+msgstr "Wybierz, co następnie zrobić:"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
@@ -200,7 +201,7 @@ msgstr "zainstaluj ponownie"
 
 # Type_Downgrade
 msgid "downgrade"
-msgstr "zrób downgrade"
+msgstr "aktualizuj do starszej wersji"
 
 # Type_Upgrade
 msgid "upgrade"
@@ -230,7 +231,7 @@ msgstr "Nie udało się zainstalować Kodeków MPlayera."
 msgid ""
 "This installation can only be uninstalled by a user with administrator "
 "privileges."
-msgstr "Aplikacja może być usunięta tylko przez osobe z uprawnieniami Administratora."
+msgstr "Aplikacja może być usunięta tylko przez osobę z uprawnieniami Administratora."
 
 # Uninstaller_Aborted
 msgid "Uninstall aborted by user."
@@ -244,7 +245,7 @@ msgstr "Wygląda na to, że SMPlayer nie został zainstalowany w katalogu '$INST
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
-msgstr "Nie znaleziono instalacji SMPlayera."
+msgstr "Nie znaleziono śladów instalacji SMPlayera."
 
 # Uninstaller_64bitOnly
 msgid "This installation can only be uninstalled on 64-bit Windows."
@@ -283,7 +284,7 @@ msgstr "Przywracanie skojarzeń plików..."
 
 # Info_RollBack
 msgid "Rolling back changes..."
-msgstr "Trwa wycofywanie zmian..."
+msgstr "Cofanie zmian..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
