@@ -86,7 +86,7 @@ void YTSig::reloadScriptFile() {
 		QRegExp rx("D: ([\\d,a-z,A-Z-]+)");
 		if (rx.indexIn(bytes)) {
 			QByteArray d = rx.cap(1).toLatin1();
-			qDebug("YTSig::reloadScriptFile: d: %s", d.constData());
+			//qDebug("YTSig::reloadScriptFile: d: %s", d.constData());
 			parsed_ts = QByteArray::fromBase64(d);
 		}
 
