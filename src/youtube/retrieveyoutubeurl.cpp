@@ -93,6 +93,7 @@ void RetrieveYoutubeUrl::gotResponse() {
 			case 302:
 			case 307:
 				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
+				r_url = r_url.replace("https", "http");
 				qDebug("RetrieveYoutubeUrl::gotResponse: redirected: %s", r_url.toLatin1().constData());
 				fetchPage(r_url);
 				return;
