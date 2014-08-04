@@ -85,7 +85,7 @@ protected slots:
 #ifdef YT_GET_VIDEOINFO
 	void gotVideoInfoResponse();
 	void parseVideoInfo(QByteArray text);
-	void fetchVideoInfoPage();
+	void fetchVideoInfoPage(QString url = QString::null);
 #endif
 
 protected:

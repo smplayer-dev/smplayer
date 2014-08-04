@@ -44,6 +44,8 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
+	//qDebug("RetrieveYoutubeUrl::fetchPage: url: %s", url.toUtf8().constData());
+
 	QString agent = user_agent;
 	if (agent.isEmpty()) agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
 	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: %s", agent.toLatin1().constData());
@@ -63,8 +65,10 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 }
 
 #ifdef YT_GET_VIDEOINFO
-void RetrieveYoutubeUrl::fetchVideoInfoPage() {
-	QString url = QString("http://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id);
+void RetrieveYoutubeUrl::fetchVideoInfoPage(QString url) {
+	if (url.isEmpty()) {
+		url = QString("http://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id);
+	}
 	//qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s", url.toUtf8().constData());
 
 	YTSig::check(url);
@@ -93,10 +97,11 @@ void RetrieveYoutubeUrl::gotResponse() {
 			case 302:
 			case 307:
 				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
-				r_url = r_url.replace("https", "http");
 				qDebug("RetrieveYoutubeUrl::gotResponse: redirected: %s", r_url.toLatin1().constData());
-				fetchPage(r_url);
-				return;
+				if (!r_url.contains("https")) {
+					fetchPage(r_url);
+					return;
+				}
 		}
 	} else {
 		emit errorOcurred((int)reply->error(), reply->errorString());
@@ -111,7 +116,19 @@ void RetrieveYoutubeUrl::gotVideoInfoResponse() {
 
 	QNetworkReply *reply = qobject_cast<QNetworkReply*>(sender());
 
-	if (reply->error() != QNetworkReply::NoError) {
+	if (reply->error() == QNetworkReply::NoError) {
+		int status = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
+		qDebug("RetrieveYoutubeUrl::gotVideoInfoResponse: status: %d", status);
+		switch (status) {
+			case 301:
+			case 302:
+			case 307:
+				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
+				//qDebug("RetrieveYoutubeUrl::gotVideoInfoResponse: redirected: %s", r_url.toLatin1().constData());
+				fetchVideoInfoPage(r_url);
+				return;
+		}
+	} else {
 		emit errorOcurred((int)reply->error(), reply->errorString());
 		return;
 	}
