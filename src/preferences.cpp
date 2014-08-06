@@ -215,7 +215,8 @@ void Preferences::reset() {
 
 #ifdef YOUTUBE_SUPPORT
 	yt_quality = RetrieveYoutubeUrl::MP4_720p;
-	yt_user_agent = QString::null;
+	//yt_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
+	yt_user_agent = "";
 #endif
 
 

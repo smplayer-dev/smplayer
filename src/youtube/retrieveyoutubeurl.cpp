@@ -46,12 +46,10 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 	//qDebug("RetrieveYoutubeUrl::fetchPage: url: %s", url.toUtf8().constData());
 
-	QString agent = user_agent;
-	if (agent.isEmpty()) agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
-	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: %s", agent.toLatin1().constData());
+	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: '%s'", user_agent.toLatin1().constData());
 
 	QNetworkRequest req(url);
-	req.setRawHeader("User-Agent", agent.toLatin1());
+	req.setRawHeader("User-Agent", user_agent.toLatin1());
 	req.setRawHeader("Accept-Language", "en-us,en;q=0.5");
 	reply = manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotResponse()));
@@ -70,6 +68,8 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(QString url) {
 		url = QString("http://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id);
 	}
 	//qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s", url.toUtf8().constData());
+
+	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: '%s'", user_agent.toLatin1().constData());
 
 	YTSig::check(url);
 	QNetworkRequest req(url);

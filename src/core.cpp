@@ -896,7 +896,8 @@ void Core::openStream(QString name) {
 		name = yt_full_url;
 		yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
 		qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
-		if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent);
+		/*if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent); */
+		yt->setUserAgent(pref->yt_user_agent);
 		#ifdef YT_USE_SCRIPT
 		YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
 		#endif
