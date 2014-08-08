@@ -98,10 +98,8 @@ void RetrieveYoutubeUrl::gotResponse() {
 			case 307:
 				QString r_url = reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl().toString();
 				qDebug("RetrieveYoutubeUrl::gotResponse: redirected: %s", r_url.toLatin1().constData());
-				if (!r_url.contains("https")) {
-					fetchPage(r_url);
-					return;
-				}
+				fetchPage(r_url);
+				return;
 		}
 	} else {
 		emit errorOcurred((int)reply->error(), reply->errorString());
@@ -262,7 +260,15 @@ void RetrieveYoutubeUrl::parse(QByteArray text) {
 				#if QT_VERSION >= 0x050000
 				line.setQuery(q->query(QUrl::FullyDecoded));
 				#endif
+
+				#ifdef YT_GET_VIDEOINFO
+				if (!line.toString().startsWith("https")) {
+					urlMap[itag.toInt()] = line.toString();
+				}
+				#else
 				urlMap[itag.toInt()] = line.toString();
+				#endif
+
 				//qDebug("itag: %s line: %s", itag.toLatin1().constData(), line.toString().toLatin1().constData());
 			}
 		}
