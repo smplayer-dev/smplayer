@@ -1684,7 +1684,7 @@ void BaseGui::retranslateStrings() {
 #ifdef REMINDER_ACTIONS
 	donateAct->change( Images::icon("donate"), tr("&Donate / Share with your friends") );
 #endif
-	aboutThisAct->change( Images::icon("logo_small"), tr("About &SMPlayer") );
+	aboutThisAct->change( Images::icon("logo"), tr("About &SMPlayer") );
 
 #ifdef SHARE_MENU
 	facebookAct->change("&Facebook");
