@@ -53,6 +53,7 @@ QString InfoFile::getInfo(MediaData md) {
 #endif
 		default 		: 	icon = "type_unknown.png";
 	}
+	icon = icon.replace(".png", ""); // FIXME
 	icon = "<img src=\"" + Images::file(icon) + "\"> ";
 
 #ifdef BLURAY_SUPPORT
