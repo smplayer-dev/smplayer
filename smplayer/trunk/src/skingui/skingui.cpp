@@ -101,12 +101,17 @@ void SkinGui::changeStyleSheet(QString style) {
 	} 
 	else {
 		QString qss = Images::styleSheet();
+#ifdef USE_RESOURCES
+		Images::setTheme(pref->iconset);
+		QString path = ":/" + pref->iconset;
+#else
 		QDir current = QDir::current();
 		QString td = Images::themesDirectory();
-		QString relativePath = current.relativeFilePath(td);
+		QString path = current.relativeFilePath(td);
+#endif
 		qss.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
-							QString("url(%1\\1)").arg(relativePath + "/"));
-		//qDebug("qss: %s", qss.toLatin1().constData());
+							QString("url(%1\\1)").arg(path + "/"));
+		qDebug("SkinGui::changeStyleSheet: qss: %s", qss.toLatin1().constData());
 		qApp->setStyleSheet(qss);
 	}
 }
