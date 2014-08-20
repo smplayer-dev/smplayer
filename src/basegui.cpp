@@ -5001,13 +5001,17 @@ void BaseGui::loadQss(QString filename) {
 	file.open(QFile::ReadOnly);
 	QString styleSheet = QLatin1String(file.readAll());
 
+#ifdef USE_RESOURCES
+	Images::setTheme(pref->iconset);
+	QString path = ":/" + pref->iconset;
+#else
 	QDir current = QDir::current();
 	QString td = Images::themesDirectory();
-	QString relativePath = current.relativeFilePath(td);
+	QString path = current.relativeFilePath(td);
+#endif
 	styleSheet.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
-						QString("url(%1\\1)").arg(relativePath + "/"));
-	qDebug("styeSheet: %s", styleSheet.toUtf8().constData());
-
+						QString("url(%1\\1)").arg(path + "/"));
+	//qDebug("BaseGui::loadQss: styeSheet: %s", styleSheet.toUtf8().constData());
 	qApp->setStyleSheet(styleSheet);
 }
 
