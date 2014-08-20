@@ -23,7 +23,7 @@
 #include <QPixmap>
 #include <QIcon>
 
-//#define USE_RESOURCES
+#define USE_RESOURCES
 #define SMCODE
 
 class Images
