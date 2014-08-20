@@ -111,7 +111,7 @@ void SkinGui::changeStyleSheet(QString style) {
 #endif
 		qss.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
 							QString("url(%1\\1)").arg(path + "/"));
-		qDebug("SkinGui::changeStyleSheet: qss: %s", qss.toLatin1().constData());
+		//qDebug("SkinGui::changeStyleSheet: qss: %s", qss.toLatin1().constData());
 		qApp->setStyleSheet(qss);
 	}
 }
