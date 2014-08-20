@@ -653,6 +653,8 @@ ${MementoSectionDone}
   Delete "$INSTDIR\mingwm10.dll"
   Delete "$INSTDIR\zlib1.dll"
   Delete "$INSTDIR\Qt*.dll"
+  Delete "$INSTDIR\libeay32.dll"
+  Delete "$INSTDIR\ssleay32.dll"
   Delete "$INSTDIR\sample.avi"
   Delete "$INSTDIR\smplayer.exe"
   Delete "$INSTDIR\smtube.exe"
