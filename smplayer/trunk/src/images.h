@@ -33,10 +33,8 @@ public:
 	static void setThemesPath(const QString & folder);
 	static void setTheme(const QString & name);
 
-	static QPixmap icon(QString name, int size=-1, bool png = true);
-	static QPixmap flippedIcon(QString name, int size=-1, bool png = true);
-
-	static QIcon multiIcon(QString name, QString fallback_icon);
+	static QPixmap icon(QString name, int size=-1);
+	static QPixmap flippedIcon(QString name, int size=-1);
 
 	//! Returns the filename of the icon
 	static QString file(const QString & icon_name);
