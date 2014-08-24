@@ -104,7 +104,7 @@ QString Images::file(const QString & name) {
 }
 
 
-QPixmap Images::icon(QString name, int size, bool png) {
+QPixmap Images::icon(QString name, int size) {
 	QString icon_name = file(name);
 	QPixmap p(icon_name);
 
@@ -125,24 +125,10 @@ QPixmap Images::flip(QPixmap *p) {
 	return QPixmap::fromImage( (*p).toImage().mirrored(true, false) );
 }
 
-QPixmap Images::flippedIcon(QString name, int size, bool png) {
-	QPixmap p = icon(name, size, png);
+QPixmap Images::flippedIcon(QString name, int size) {
+	QPixmap p = icon(name, size);
 	p = flip(&p);
 	return p;
-}
-
-QIcon Images::multiIcon(QString name, QString fallback_icon) {
-	QPixmap pix = Images::icon(name);
-	if (pix.isNull()) return Images::icon(fallback_icon);
-
-	QIcon icon;
-	int w = pix.width();
-	int h = pix.height();
-	icon.addPixmap(pix.copy(0, 0, w, h/4 ), QIcon::Normal, QIcon::Off);
-	//icon.setPixmap(pix.copy(0, h/4, w, h/4 ), MyIcon::MouseOver, MyIcon::Off);
-	//icon.setPixmap(pix.copy(0, h/2, w, h/4 ), MyIcon::MouseDown, MyIcon::Off);
-	icon.addPixmap(pix.copy(0, 3*h/4, w, h/4 ), QIcon::Disabled, QIcon::Off);
-	return icon;
 }
 
 #ifdef SMCODE
