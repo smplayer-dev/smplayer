@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -16,7 +14,7 @@
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>Official website:</source>
-        <translation>Offizielle Webseite:</translation>
+        <translation>Offizielle Internetseite:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -81,12 +79,12 @@
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Besuchen Sie %1 und treten Sie einem Übersetzungsteam bei.</translation>
+        <translation>%1 besuchen und einer Übersetzungsgruppe beitreten.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Aktuelle Übersetzer aus den Transifex-Teams:</translation>
+        <translation>Aktuelle Übersetzer aus den Transifex-Gruppen:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -234,17 +232,7 @@
         <translation>Telugu</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
-        <source>Tamil</source>
-        <translation type="unfinished">Tamilisch</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="198"/>
-        <source>Malayalam</source>
-        <translation type="unfinished">Malayalam</translation>
-    </message>
-    <message>
-        <location filename="../about.cpp" line="223"/>
+        <location filename="../about.cpp" line="221"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -408,7 +396,7 @@
         <location filename="../actionseditor.cpp" line="435"/>
         <location filename="../actionseditor.cpp" line="485"/>
         <source>Key files</source>
-        <translation>Kurzbefehl-Dateien</translation>
+        <translation>Kurzbefehldateien</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="433"/>
@@ -888,7 +876,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1887"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;Stereo-Modus</translation>
+        <translation>&amp;Stereomodus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1605"/>
@@ -1050,13 +1038,13 @@ Möchten Sie sie Überschreiben?</translation>
         <location filename="../basegui.cpp" line="3804"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>Die CD/DVD-Laufwerke sind noch nicht konfiguriert worden.
-Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
+        <translation>Die CD/DVD-Laufwerke wurden noch nicht konfiguriert.
+Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3913"/>
         <source>Select the Blu-ray folder</source>
-        <translation>Wählen Sie den Blu-ray-Ordner aus</translation>
+        <translation>Den Blu-ray-Ordner auswählen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3926"/>
@@ -1515,7 +1503,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1850"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (Doppelte Framerate)</translation>
+        <translation>Y&amp;adif (Doppelte Bildfrequenz)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1698"/>
@@ -2143,7 +2131,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../core.cpp" line="4166"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>Der Schriftarten-Zwischenspeicher wird aktualisiert. Dies kann einige Sekunden dauern …</translation>
+        <translation>Der Schriftzwischenspeicher wird aktualisiert. Das kann einige Sekunden dauern …</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3158"/>
@@ -2163,7 +2151,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../core.cpp" line="540"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation>Kann die Youtube-Seite nicht aufrufen</translation>
+        <translation>Die Youtube-Seite kann nicht abgerufen werden</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="550"/>
@@ -2306,7 +2294,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="539"/>
         <source>Edit &amp;floating control</source>
-        <translation>Schwebendes &amp;Kontrollelement bearbeiten</translation>
+        <translation>Schwebende Steuerungsleiste &amp;bearbeiten</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="571"/>
@@ -2378,7 +2366,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="111"/>
         <source>Favorite editor</source>
-        <translation>Favoriten-Editor</translation>
+        <translation>Favoritenbearbeitung</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -2396,7 +2384,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="345"/>
         <source>Select an icon file</source>
-        <translation>Wählen Sie eine Symbol-Datei aus</translation>
+        <translation>Eine Symboldatei auswählen</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="347"/>
@@ -2505,7 +2493,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="14"/>
         <source>SMPlayer - File properties</source>
-        <translation>SMPlayer – Datei-Eigenschaften</translation>
+        <translation>SMPlayer – Dateieigenschaften</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="33"/>
@@ -2537,7 +2525,7 @@ Dies kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="127"/>
         <source>&amp;Select the video codec:</source>
-        <translation>Wählen &amp;Sie den Video-Codec aus:</translation>
+        <translation>&amp;Video-Codec auswählen:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="177"/>
@@ -2769,10 +2757,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
@@ -2870,7 +2855,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -2905,7 +2890,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation>Zwischenspeichers für Schriftarten wird erstellt …</translation>
+        <translation>Schriftzwischenspeicher wird erstellt …</translation>
     </message>
 </context>
 <context>
@@ -2980,7 +2965,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infofile.cpp" line="93"/>
         <source>Copyright</source>
-        <translation>Copyright</translation>
+        <translation>Urheberrecht</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="94"/>
@@ -3107,12 +3092,12 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infofile.cpp" line="96"/>
         <source>Stream title</source>
-        <translation>Stream-Titel</translation>
+        <translation>Titel des Datenstroms</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="97"/>
         <source>Stream URL</source>
-        <translation>Stream-Adresse</translation>
+        <translation>Datenstromsadresse</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="73"/>
@@ -3835,17 +3820,17 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../languages.cpp" line="290"/>
         <source>Western European Languages</source>
-        <translation>West-Europäische Sprachen</translation>
+        <translation>Westeuropäische Sprachen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="291"/>
         <source>Western European Languages with Euro</source>
-        <translation>West-Europäische Sprachen mit Euro</translation>
+        <translation>Westeuropäische Sprachen mit Euro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="292"/>
         <source>Slavic/Central European Languages</source>
-        <translation>Slavische/Zentral-Europäische Sprachen</translation>
+        <translation>Slavisch/Zentraleuropäische Sprachen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="293"/>
@@ -3925,7 +3910,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../languages.cpp" line="311"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Slavisch/Zentral-Europäisches Windows</translation>
+        <translation>Slavisch/Zentraleuropäisches Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="312"/>
@@ -4363,32 +4348,32 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../minigui.cpp" line="166"/>
         <source>Edit &amp;floating control</source>
-        <translation>Schwebendes &amp;Kontrollelement bearbeiten</translation>
+        <translation>Schwebende Steuerungsleiste &amp;bearbeiten</translation>
     </message>
 </context>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="149"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="142"/>
         <source>Control bar</source>
         <translation>Steuerungsleiste</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="150"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="143"/>
         <source>Seek bar</source>
-        <translation>Spulen-Leiste</translation>
+        <translation>Spulleiste</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="469"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="470"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="459"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="460"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="461"/>
         <source>-%1</source>
         <translation>−%1</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="473"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="474"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="463"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="464"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="465"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -4917,7 +4902,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation>IPv4 bei Netzwerk-Verbindungen verwenden. Weicht automatisch auf IPv6 aus.</translation>
+        <translation>IPv4 bei Netzwerkverbindungen verwenden. Weicht automatisch auf IPv6 aus.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="523"/>
@@ -4927,7 +4912,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation>IPv6 bei Netzwerk-Verbindungen verwenden. Weicht automatisch auf IPv4 aus.</translation>
+        <translation>IPv6 bei Netzwerkverbindungen verwenden. Weicht automatisch auf IPv4 aus.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="491"/>
@@ -4962,7 +4947,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Wenn diese Option aktiviert ist, wird SMPlayer die Debugging-Ausgabe von SMPlayer speichern (Zu finden unter &lt;b&gt;Optionen → Protokolle einsehen → SMPlayer&lt;/b&gt;). Diese Informationen können für die Entwickler, im Falle von Fehlern, hilfreich sein.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird SMPlayer die Fehlerbeseitigungsausgabe von SMPlayer speichern (Zu finden unter &lt;b&gt;Optionen → Protokolle einsehen → SMPlayer&lt;/b&gt;). Diese Informationen können für die Entwickler, im Falle von Fehlern, hilfreich sein.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
@@ -4992,7 +4977,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="481"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Hier kann eine Liste der &lt;i&gt;Aktionen&lt;/i&gt; angegeben werden, die jedes mal ausgeführt werden, wenn eine Datei geöffnet wird. Alle verfügbaren Aktionen können im Bereich &lt;b&gt;Tastatur and Maus&lt;/b&gt;des Tastaturkurzbefehl-Editors gefunden werden. Die Aktionen müssen durch Leerzeichen getrennt sein. Mit &lt;i&gt;wahr&lt;/i&gt; oder &lt;i&gt;falsch&lt;/i&gt; werden Aktionen aktiviert oder deaktiviert.</translation>
+        <translation>Hier kann eine Liste der &lt;i&gt;Aktionen&lt;/i&gt; angegeben werden, die jedes mal ausgeführt werden, wenn eine Datei geöffnet wird. Alle verfügbaren Aktionen können im Bereich &lt;b&gt;Tastatur und Maus&lt;/b&gt;der Tastaturkurzbefehlbearbeitung gefunden werden. Die Aktionen müssen durch Leerzeichen getrennt sein. Mit &lt;i&gt;wahr&lt;/i&gt; oder &lt;i&gt;falsch&lt;/i&gt; werden Aktionen aktiviert oder deaktiviert.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5125,7 +5110,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Wählen Sie die Mediendateien aus, die von SMPlayer verarbeitet werden sollen. Wenn Sie auf Anwenden klicken, werden die ausgewählten Dateien mit SMPlayer assoziiert. Wenn Sie einen Medientyp deaktvieren, wird die ursprüngliche Datei-Verknüpfung wiederhergestellt.</translation>
+        <translation>Wählen Sie die Mediendateien aus, die von SMPlayer verarbeitet werden sollen. Wenn Sie auf Anwenden klicken, werden die ausgewählten Dateien mit dem SMPlayer assoziiert. Wenn Sie einen Medientyp deaktivieren, wird die ursprüngliche Dateiverknüpfung wiederhergestellt.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5229,7 +5214,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation>Nach CD/DVD-Laufwerken &amp;scannen</translation>
+        <translation>Nach CD/DVD-Laufwerken &amp;suchen</translation>
     </message>
 </context>
 <context>
@@ -5333,7 +5318,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1116"/>
         <source>Preferred subtitle language</source>
-        <translation>Bevorzugte Untertitel-Sprache</translation>
+        <translation>Bevorzugte Untertitelsprache</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="969"/>
@@ -5373,7 +5358,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Software volume control</source>
-        <translation>Software-Lautstärkenkontrolle</translation>
+        <translation>Anwendungslautstärkeregelung</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1084"/>
@@ -5438,7 +5423,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="822"/>
         <source>Ma&amp;x. Amplification:</source>
-        <translation>&amp;Max. Verstärkung:</translation>
+        <translation>Größte Verstärk&amp;ung:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="689"/>
@@ -5513,12 +5498,12 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="188"/>
         <source>&amp;Pause when minimized</source>
-        <translation>&amp;Pause wenn minimiert</translation>
+        <translation>&amp;Pause wenn verkleinert</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="914"/>
         <source>Pause when minimized</source>
-        <translation>Pause wenn minimiert</translation>
+        <translation>Pause wenn verkleinert</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="952"/>
@@ -5528,7 +5513,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Max. Amplification</source>
-        <translation>Max. Verstärkung</translation>
+        <translation>Größte Verstärkung</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
@@ -5578,7 +5563,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Gibt die die Standard-Untertitelspur an, die bei neuen Dateien abgespielt wird. Falls die Spur nicht existiert, wird die erste Spur gewählt. &lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; die &lt;i&gt;„bevorzugte Untertitelsprache“&lt;/i&gt; hat Vorrang vor dieser Option.</translation>
+        <translation>Gibt die Standarduntertitelspur an, die bei neuen Dateien abgespielt wird. Falls die Spur nicht existiert, wird die erste Spur gewählt. &lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; die &lt;i&gt;„bevorzugte Untertitelsprache“&lt;/i&gt; hat Vorrang vor dieser Option.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1202"/>
@@ -5686,7 +5671,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="118"/>
         <source>Yadif (double framerate)</source>
-        <translation>Yadif (Doppelte Framerate)</translation>
+        <translation>Yadif (Doppelte Bildfrequenz)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="119"/>
@@ -5871,12 +5856,12 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="896"/>
         <source>Method to store the file settings</source>
-        <translation>Methode zum Speichern der Datei-Einstellungen</translation>
+        <translation>Methode zum Speichern der Dateieinstellungen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="897"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>Diese Option ermöglicht die Art zu ändern, wie die Datei-Einstellungen gespeichert werden. Die folgenden Optionen stehen zur Verfügung:</translation>
+        <translation>Diese Option ermöglicht die Art zu ändern, wie die Dateieinstellungen gespeichert werden. Die folgenden Optionen stehen zur Verfügung:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="899"/>
@@ -5961,7 +5946,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
         <source>This option also applies for the mute control.</source>
-        <translation>Diese Option gilt auch für den Stumm-Regler.</translation>
+        <translation>Diese Option gilt auch für die Stummsteuerung.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="784"/>
@@ -6177,7 +6162,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="311"/>
         <source>Shortcut editor</source>
-        <translation>Tastaturkurzbefehl-Editor</translation>
+        <translation>Tastenkombinationbearbeitung</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="312"/>
@@ -6403,7 +6388,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="334"/>
         <source>Select the action for the X button 1.</source>
-        <translation>Wählen Sie die Aktion für die X-Taste 1 aus.</translation>
+        <translation>Die Aktion für die X-Taste 1 auswählen.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
@@ -6413,7 +6398,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="337"/>
         <source>Select the action for the X button 2.</source>
-        <translation>Wählen Sie die Aktion für die X-Taste 2 aus.</translation>
+        <translation>Die Aktion für die X-Taste 2 auswählen.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
@@ -6458,22 +6443,22 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
         <source>Move cursor up in DVD menus</source>
-        <translation>Cursor in DVD-Menüs nach oben bewegen</translation>
+        <translation>Mauszeiger in DVD-Menüs nach oben bewegen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Move cursor down in DVD menus</source>
-        <translation>Cursor in DVD-Menüs nach unten bewegen</translation>
+        <translation>Mauszeiger in DVD-Menüs nach unten bewegen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor left in DVD menus</source>
-        <translation>Cursor in DVD-Menüs nach links bewegen</translation>
+        <translation>Mauszeiger in DVD-Menüs nach links bewegen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor right in DVD menus</source>
-        <translation>Cursor in DVD-Menüs nach rechts bewegen</translation>
+        <translation>Mauszeiger in DVD-Menüs nach rechts bewegen</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="94"/>
@@ -6703,7 +6688,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
         <source>S&amp;kin:</source>
-        <translation>S&amp;kin:</translation>
+        <translation>Oberflä&amp;che:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="373"/>
@@ -6733,12 +6718,12 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="582"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>&amp;Einmaliges Drücken der Stopp-Taste setzt die Zeitposition zurück</translation>
+        <translation>&amp;Einmaliges drücken der Stopptaste stellt die Zeitposition zurück</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="647"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>Das schwebende Kontrollelement erscheint im Vollbildmodus, wenn der Mauszeiger bewegt wird.</translation>
+        <translation>Die schwebende Steuerungsleiste erscheint im Vollbildmodus, wenn der Mauszeiger bewegt wird.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="734"/>
@@ -6905,7 +6890,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation>Hier kann die Schriftart des Programms geändert werden.</translation>
+        <translation>Hier kann die Anwendungschrift geändert werden.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
@@ -6977,7 +6962,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="725"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation>Standardmäßig wird die Abspielposition gespeichert, wenn die Wiedergabe angehalten wird, und das Abspielen wird beim nächsten Start dann an dem Punkt fortgesetzt. Um die Abspielposition auf 0 zurückzusetzen, muss die Stopp-Taste zweimal gedrückt werden; ist diese Option aktiviert, reicht ein einfaches Betätigen der Stopp-Taste.</translation>
+        <translation>Standardmäßig wird die Abspielposition gespeichert, wenn die Wiedergabe angehalten wird, und das Abspielen wird beim nächsten Start dann an dem Punkt fortgesetzt. Um die Abspielposition auf 0 zurückzusetzen, muss die Stopptaste zweimal gedrückt werden; ist diese Option aktiviert, reicht ein einfaches Betätigen der Stopptaste.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="755"/>
@@ -6987,12 +6972,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Wenn diese Option aktiviert ist, wird das schwebende Kontrollelement nur angezeigt, wenn die Maus an den unteren Rand des Bildschirms verschoben wird. Ansonsten erscheint die Steuerung, wenn die Maus bewegt wird, unabhängig von ihrer Position.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird die schwebende Steuerungsleiste nur angezeigt, wenn die Maus an den unteren Rand des Bildschirms verschoben wird. Ansonsten erscheint die Steuerung, wenn die Maus bewegt wird, unabhängig von ihrer Position.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation>Wenn diese Option aktiviert ist, wird das schwebende Kontrollelement auch im Kompaktmodus dargestellt.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird die schwebende Steuerungsleiste auch im Kompaktmodus dargestellt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
@@ -7002,7 +6987,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;Warnung:&lt;/b&gt; Das schwebende Kontrollelement ist nicht für den Kompaktmodus gedacht und wird möglicherweise nicht richtig funktionieren.</translation>
+        <translation>&lt;b&gt;Achtung:&lt;/b&gt; Die schwebende Steuerungsleiste ist nicht für den Kompaktmodus gedacht und wird möglicherweise nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
@@ -7038,12 +7023,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefinterface.ui" line="520"/>
         <location filename="../prefinterface.cpp" line="713"/>
         <source>Seeking method</source>
-        <translation>Spul-Methode</translation>
+        <translation>Spulmethode</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="714"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Legt die Spul-Methode des Schiebereglers fest. Absolutes Spulen ist eventuell etwas genauer, während relatives Spulen bei Dateien mit falscher Laufzeit eventuell besser arbeitet.</translation>
+        <translation>Legt die Spulmethode des Schiebereglers fest. Absolutes Spulen ist eventuell etwas genauer, während relatives Spulen bei Dateien mit falscher Laufzeit eventuell besser arbeitet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
@@ -7078,7 +7063,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="740"/>
         <source>Floating control</source>
-        <translation>Schwebendes Kontrollelement</translation>
+        <translation>Schwebende Steuerungsleiste</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
@@ -7088,7 +7073,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>Wenn diese Option aktiviert ist, wird das schwebende Kontrollelement animiert dargestellt.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird die schwebende Steuerungsleiste animiert dargestellt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
@@ -7098,7 +7083,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation>Gibt die Breite des Kontrollelements an (als Prozentsatz).</translation>
+        <translation>Gibt die Breite der Steuerung an (als Prozentsatz).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
@@ -7108,7 +7093,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Diese Option bestimmt die Anzahl an Pixeln, die das schwebende Kontrollelement vom unterem Bildschirmrand als Abstand haben wird. Dies ist nützlich, wenn der Bildschirm ein TV ist, da Overscan verhindern könnte, dass das Kontrollelement sichtbar ist.</translation>
+        <translation>Diese Option bestimmt die Anzahl an Pixeln, die die schwebende Steuerungsleiste vom unterem Bildschirmrand als Abstand haben wird. Das ist nützlich, wenn der Bildschirm ein Fernseher ist, da Übertastung verhindern könnte, dass die Steuerung sichtbar ist.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="760"/>
@@ -7118,7 +7103,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.ui" line="641"/>
         <source>&amp;Floating control</source>
-        <translation>Schwebendes &amp;Kontrollelement</translation>
+        <translation>Sch&amp;webende Steuerungsleiste</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="657"/>
@@ -7209,7 +7194,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation>Wählen Sie die Priorität des MPlayer-Prozesses aus.</translation>
+        <translation>Die Priorität des MPlayer-Prozesses auswählen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="77"/>
@@ -7319,7 +7304,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
         <source>Skip loop filter</source>
-        <translation>Loop-Filter überspringen</translation>
+        <translation>Schleifenfilter überspringen</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="191"/>
@@ -7344,7 +7329,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for streams</source>
-        <translation>Zwischenspeicher für Streams</translation>
+        <translation>Zwischenspeicher für Datenströme</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
@@ -7379,7 +7364,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.ui" line="390"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Zwischenspeicher für &amp;Streams:</translation>
+        <translation>Zwischenspeicher für &amp;Datenströme:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="89"/>
@@ -7399,7 +7384,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.ui" line="205"/>
         <source>Loop &amp;filter</source>
-        <translation>Loop-&amp;Filter</translation>
+        <translation>Schleifen&amp;filter</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
@@ -7409,7 +7394,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Diese Option ermöglicht das Überspringen des Loop-Filters (auch bekannt als Deblocking) während der H.264-Dekodierung. Da bei den gefilterten Einzelbildern davon ausgegangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden, hat dies einen schlechteren Effekt auf die Qualität, als beispielsweise das Übersrpingen des Loop-Filters bei MPEG-2-Videos. Jedoch ergibt sich zumindest bei HDTV mit hohen Bitraten, eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
+        <translation>Diese Option ermöglicht das Überspringen des Schleifenfilters (auch bekannt als Deblocking) während der H.264-Dekodierung. Da bei den gefilterten Einzelbildern davon ausgegangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden, hat dies einen schlechteren Effekt auf die Qualität, als beispielsweise das Übersrpingen des Schleifenfilters bei MPEG-2-Videos. Jedoch ergibt sich zumindest bei HDTV mit hohen Bitraten, eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
@@ -7419,17 +7404,17 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation>&lt;b&gt;Eingeschaltet&lt;/b&gt;: der Loop-Filter wird nicht überspringen</translation>
+        <translation>&lt;b&gt;Eingeschaltet&lt;/b&gt;: der Schleifenfilter wird nicht überspringen</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;Überspringen (immer)&lt;/b&gt;: Der Loop-Filter wird, unabhängig von der Videoauflösung, übersprungen</translation>
+        <translation>&lt;b&gt;Überspringen (immer)&lt;/b&gt;: Der Schleifenfilter wird, unabhängig von der Videoauflösung, übersprungen</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="314"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation>&lt;b&gt;Überspringen nur bei HD-Videos&lt;/b&gt;: der Loop-Filter wird nur bei Videos, deren Höhe %1 oder größer ist, übersprungen.</translation>
+        <translation>&lt;b&gt;Überspringen nur bei HD-Videos&lt;/b&gt;: der Schleifenfilter wird nur bei Videos, deren Höhe %1 oder größer ist, übersprungen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="338"/>
@@ -7509,7 +7494,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>Wählen Sie die bevorzugte Qualität für Youtube-Videos aus.</translation>
+        <translation>Die bevorzugte Qualität für Youtube-Videos auswählen.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="295"/>
@@ -7686,7 +7671,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="99"/>
         <source>Truetype Fonts</source>
-        <translation>Truetype-Schriftarten (*.ttf)</translation>
+        <translation>Truetype-Schriften (*.ttf)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="27"/>
@@ -7717,7 +7702,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="234"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation>&amp;Windows-Schriftarten aktivieren</translation>
+        <translation>&amp;Windows-Schriften aktivieren</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="505"/>
@@ -7750,7 +7735,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="354"/>
         <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation>Die Schriftart wählen, welche für die Untertitel und die Bildschirmanzeige verwendet werden soll:</translation>
+        <translation>Die Schriften auswählen, welche für die Untertitel und die Bildschirmanzeige verwendet werden soll:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="394"/>
@@ -7801,7 +7786,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="120"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation>&amp;Standard-Untertitel-Enkodierung:</translation>
+        <translation>&amp;Vorgegebene Untertitelcodierung:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="517"/>
@@ -7821,7 +7806,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="364"/>
         <source>S&amp;ystem font:</source>
-        <translation>S&amp;ystemschriftart:</translation>
+        <translation>S&amp;ystemschrift:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="414"/>
@@ -7836,7 +7821,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="459"/>
         <source>Default subtitle encoding</source>
-        <translation>Standard-Untertitel-Enkodierung</translation>
+        <translation>Vorgegebene Untertitelcodierung</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
@@ -7851,7 +7836,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="520"/>
         <source>System font</source>
-        <translation>System-Schriftart</translation>
+        <translation>Systemschrift</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="524"/>
@@ -7896,7 +7881,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation>Wählen Sie die Kodierung aus, die standardmäßig für Untertiteldateien verwendet wird.</translation>
+        <translation>Die Kodierung auswählen, die standardmäßig für Untertiteldateien verwendet werden soll.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
@@ -7906,7 +7891,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="464"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation>Wenn diese Option aktiviert ist, wird versucht die Kodierung der Untertitel automatisch zu erkennen. Sollte dies nicht gelingen, wird die Standard-Untertitel-Kodierung verwendet. Diese Option erfordert MPlayer mit eingebauter ENCA-Unterstützung.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird versucht die Kodierung der Untertitel automatisch zu erkennen. Sollte dieses nicht gelingen, wird die Standarduntertitelkodierung verwendet. Diese Option erfordert MPlayer mit eingebauter ENCA-Unterstützung.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
@@ -7916,7 +7901,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="471"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation>Wählen Sie die Sprache, für die die automatische Erkennung der Kodierung geschehen soll.</translation>
+        <translation>Die Sprache auswählen, für die die automatische Erkennung der Kodierung geschehen soll.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="106"/>
@@ -7931,7 +7916,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation>Wählen Sie eine TTF-Schriftart, die für die Untertitel verwendet werden soll. Üblicherweise befinden sich viele TTF-Schriftarten in %1</translation>
+        <translation>Hier können Sie eine TTF-Schrift auswählen, die für die Untertitel verwendet werden soll. Üblicherweise befinden sich viele TTF-Schriften in %1</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="598"/>
@@ -7941,12 +7926,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="557"/>
         <source>Select the font for the subtitles.</source>
-        <translation>Wählen Sie die Schriftart für die Untertitel.</translation>
+        <translation>Die Schrift für die Untertitel auswählen.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Enable Windows fonts</source>
-        <translation>Windows-Schriftarten aktivieren</translation>
+        <translation>Windows-Schriften aktivieren</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
@@ -7961,7 +7946,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="521"/>
         <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation>Hier können Sie eine Systemschriftart auswählen, die für die Untertitel und Bildschirmanzeige verwendet wird.</translation>
+        <translation>Hier können Sie eine Systemschrift auswählen, die für die Untertitel und Bildschirmanzeige verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="560"/>
@@ -8225,12 +8210,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefsubtitles.cpp" line="531"/>
         <location filename="../prefsubtitles.cpp" line="543"/>
         <source>Default scale</source>
-        <translation>Standard-Skalierung</translation>
+        <translation>Standardskalierung</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="532"/>
         <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation>Diese Option gibt die Skalierung der Standard-Schriftart bei normalen Untertiteln an, welche bei neu geöffneten Dateien angewendet wird.</translation>
+        <translation>Diese Option gibt die Skalierung der Standardschrift bei normalen Untertiteln an, welche bei neu geöffneten Dateien angewendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="541"/>
@@ -8240,7 +8225,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="544"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation>Diese Option gibt die Skalierung der Standard-Schriftart bei SSA/ASS-Untertiteln an, welche bei neu geöffneten Dateien angewendet wird.</translation>
+        <translation>Diese Option gibt die Skalierung der Standardschrift bei SSA/ASS-Untertiteln an, welche bei neu geöffneten Dateien angewendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="548"/>
@@ -8255,7 +8240,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="258"/>
         <source>&amp;Font and colors</source>
-        <translation>&amp;Schriftart und Farben</translation>
+        <translation>&amp;Schrift und Farben</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="264"/>
@@ -8270,12 +8255,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="489"/>
         <source>Default s&amp;cale:</source>
-        <translation>&amp;Standard Skalierung:</translation>
+        <translation>&amp;Standardskalierung:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="643"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>&amp;Standard Skalierung:</translation>
+        <translation>&amp;Standardskalierung:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="682"/>
@@ -8285,7 +8270,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Klicken Sie auf diesen Knopf, um die neue SSA/ASS-Bibliothek zu aktivieren. Diese erlaubt die Anzeige von Untertiteln mit mehreren Farben, Schriftarten, …</translation>
+        <translation>Bitte auf diesen Knopf klicken, um die neue SSA/ASS-Bibliothek zu aktivieren. Diese erlaubt die Anzeige von Untertiteln mit mehreren Farben, Schriften, …</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
@@ -8388,7 +8373,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation>Yadif (Doppelte Framerate)</translation>
+        <translation>Yadif (Doppelte Bildfrequenz)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
@@ -8636,19 +8621,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8711,7 +8690,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>»Medien« sind alle Dateien, die SMPlayer öffnen kann. Es kann eine lokale Datei, eine DVD (z. B. dvd://1), ein Internet-Stream (z. B. mms://...) oder eine lokale Wiedergabeliste in den Formaten m3u oder pls sein.</translation>
+        <translation>»Medien« sind alle Dateien, die SMPlayer öffnen kann. Es kann eine lokale Datei, eine DVD (z. B. dvd://1), ein Internetdatenstrom (z. B. mms://…) oder eine lokale Wiedergabeliste in den Formaten m3u oder pls sein.</translation>
     </message>
 </context>
 <context>
@@ -8819,7 +8798,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
         <source>Edit &amp;floating control</source>
-        <translation>Schwebendes &amp;Kontrollelement bearbeiten</translation>
+        <translation>Schwebende Steuerungsleiste &amp;bearbeiten</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="416"/>
@@ -8870,7 +8849,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
-        <translation>Sender-Editor</translation>
+        <translation>Kanalbearbeitung</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="95"/>
@@ -8891,7 +8870,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation>Werkzeugleisteneditor</translation>
+        <translation>Werkzeugleistenbearbeitung</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
