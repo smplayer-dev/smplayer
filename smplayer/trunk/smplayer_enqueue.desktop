@@ -4,35 +4,93 @@ Exec=smplayer -add-to-playlist %U
 Icon=smplayer
 MimeType=audio/ac3;audio/mp4;audio/mpeg;audio/vnd.rn-realaudio;audio/vorbis;audio/x-adpcm;audio/x-matroska;audio/x-mp2;audio/x-mp3;audio/x-ms-wma;audio/x-vorbis;audio/x-wav;audio/mpegurl;audio/x-mpegurl;audio/x-pn-realaudio;audio/x-scpls;audio/aac;audio/flac;audio/ogg;video/avi;video/mp4;video/flv;video/mpeg;video/quicktime;video/vnd.rn-realvideo;video/x-matroska;video/x-ms-asf;video/x-msvideo;video/x-ms-wmv;video/x-ogm;video/x-theora;video/webm;
 Name=Enqueue in SMPlayer
-Name[cs]=Přidat do fronty SMplayeru
-Name[es]=Añadir a la lista de reproducción de SMPlayer
-Name[fr]=Ajouter à la liste de lecture de SMPlayer
-Name[hu]=Felvétel az SMPlayer lejátszólistára
-Name[ja]=SMPlayer でエンキュー
-Name[it]=In coda in SMPlayer
-Name[nl]=In wachtrij van SMPlayer
-Name[pt]=Colocar na fila do SMPlayer
-Name[ru]=Добавить в очередь SMPlayer
-Name[uk]=Додати до черги SMPlayer
-Name[de]=In SMPlayer einreihen
-Name[eu]=Lerrokatu SMPlayerren
-Name[zh_CN]=添加到 SMPlayer 队列
-Name[lt]=Pridėti į SMPlayer eilę
 Comment=Add file(s) to the SMPlayer playlist
-Comment[cs]=Přidá soubor(y) do přehrávací fronty SMPlayeru
-Comment[es]=Añade ficheros a la lista de reproducción de SMPlayer
-Comment[fr]=Ajouter un/des fichier(s) à la liste de lecture de SMPlayer
-Comment[hu]=Fájl(ok) hozzáadása az SMPlayer lejátszólistájához
-Comment[ja]=ファイルを SMPlayer のプレイリストに追加します
-Comment[it]=Aggiungi alla lista di riproduzione di SMPlayer
-Comment[nl]=Bestanden toevoegen aan de afspeellijst van SMPlayer
-Comment[pt]=Adicionar ficheiros à lista de reprodução do SMPlayer
-Comment[ru]=Добавить файл(ы) в конец списка воспроизведения SMPlayer
-Comment[uk]=Додати файл(и) до переліку програвання SMPlayer
-Comment[de]=Datei(en) zur SMPlayer Wiedergabeliste hinzufügen
-Comment[eu]=Gehitu agiria(k) SMPlayer irakur-zerrendara
-Comment[zh_CN]=添加文件到 SMPlayer 播放列表
-Comment[lt]=Prideda failą(-us) į SMPlayer grojaraštį
 Type=Application
 X-KDE-StartupNotify=false
 NoDisplay=true
+
+# Translations
+Comment[ar]=أضف ملف (ملفات) الى قائمة تشغيل SMPlayer
+Name[ar]=ضع في طابور SMPlayer
+
+Comment[bg]=Добави файл(ове) към списъка на SMPlayer
+Name[bg]=На опашка в SMPlayer
+
+Comment[cs]=Přidat soubor(y) do playlistu SMPlayeru
+Name[cs]=Zařadit do SMPlayeru
+
+Comment[de]=Datei(en) zur SMPlayer Wiedergabeliste hinzufügen
+Name[de]=Im SMPlayer einreihen
+
+Comment[en_GB]=Add file(s) to the SMPlayer playlist
+Name[en_GB]=Enqueue in SMPlayer
+
+Comment[es]=Añade fichero(s) a la lista de reproducción de SMPlayer
+Name[es]=Añadir a la lista de reproducción de SMPlayer
+
+Comment[eu]=Gehitu agiria(k) SMPlayer irakur-zerrendara
+Name[eu]=Lerrokatu SMPlayer-en
+
+Comment[fr]=Ajouter le(s) fichier(s) dans la liste de lecture de SMPlayer
+Name[fr]=En queue dans SMPlayer
+
+Comment[gl]=Engadir ficheiro(s) á lista de reprodución de SMPlayer
+Name[gl]=Poñer na cola de SMPlayer
+
+Comment[he]=הוסף קובץ אל רשימת נגינה של SMPlayer
+Name[he]=הוסף אל SMPlayer
+
+Comment[hr]=Dodaj dadoteku(e) na SMplayer popis izvođenja
+Name[hr]=Dodaj na SMPlayer popis izvođenja
+
+Comment[id]=Tambah berkas ke daftar main SMPlayer
+Name[id]=Antrikan di SMPlayer
+
+Comment[ja]=ファイルを SMPlayer のプレイリストに追加
+Name[ja]=SMPlayer でエンキュー
+
+Comment[ko]=파일을 SMPlayer 재생목록에 추가하기
+Name[ko]=SMPlayer의 재생대기열에 넣기
+
+Comment[lt]=Pridėti failą(-us) į SMPlayer grojaraštį
+Name[lt]=Pridėti į SMPlayer
+
+Comment[sq_AL]=Shto file-in(at) tek playlist-a e SMPlayer
+Name[sq_AL]=Shto tek playlista e SMPlayer
+
+Comment[nl]=Voeg bestand(en) toe aan de SMPlayer-afspeellijst
+Name[nl]=Aan SMPlayer-wachtrij toevoegen
+
+Comment[pl]=Dodaj plik(i) do listy odtwarzania SMPlayera
+Name[pl]=Kolejkuj w SMPlayer
+
+Comment[pt]=Adicionar ficheiro(s) à lista de reprodução do SMPlayer
+Name[pt]=Colocar na fila do SMPlayer
+
+Comment[pt_BR]=Adicionar arquivo(s) à lista de reprodução do SMPlayer
+Name[pt_BR]=Adicionar à lista do SMPlayer
+
+Comment[ru]=Добавить файл(ы) в плейлист SMPlayer
+Name[ru]=Добавить в очередь SMPlayer
+
+Comment[sr]=Додај фајл(ове) на СМПлејер плејлисту
+Name[sr]=Додај на СМПлејер попис извођења
+
+Comment[tr]=Dosya(ları) SMPlayer oynatma listesine ekle
+Name[tr]=SMPlayer'da kuyruğa ekle
+
+Comment[uk]=Додати файл(и) в список відтворення SMPlayer
+Name[uk]=Додати в чергу SMPlayer'а
+
+Comment[zh_CN]=添加文件到 SMPlayer 播放列表
+Name[zh_CN]=添加到 SMPlayer 队列
+
+Comment[zh_TW]=加入檔案到 SMPlayer 的播放清單
+Name[zh_TW]=加入到 SMPlayer 佇列
+
+Comment[ms_MY]=Tambah fail(s) ke dalam senarai main SMPlayer
+Name[ms_MY]=Baris gilir dalam SMPlayer
+
+Comment[nn_NO]=Legg fil(er) i SMPlayer-spelelista
+Name[nn_NO]=Legg i kø i SMPlayer
+
