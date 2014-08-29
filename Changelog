@@ -1,7 +1,7 @@
 [b]Version 14.9.0[/b]:
 
 (2014-08-20)
- * New the themes and skin icons are loaded from resource files (*.rcc).
+ * Now the themes and skin icons are loaded from resource files (*.rcc).
 
 (2014-08-12)
  * Set recents max to 100.
