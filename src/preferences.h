@@ -202,6 +202,8 @@ public:
 #ifdef YOUTUBE_SUPPORT
 	int yt_quality;
 	QString yt_user_agent;
+	bool yt_use_https_main;
+	bool yt_use_https_vi;
 #endif
 
 
