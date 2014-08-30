@@ -46,8 +46,7 @@ RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
 }
 
 void RetrieveYoutubeUrl::fetchPage(const QString & url) {
-	//qDebug("RetrieveYoutubeUrl::fetchPage: url: %s", url.toUtf8().constData());
-
+	qDebug("RetrieveYoutubeUrl::fetchPage: url: %s", url.toUtf8().constData());
 	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: '%s'", user_agent.toLatin1().constData());
 
 	QNetworkRequest req(url);
@@ -70,7 +69,7 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(QString url) {
 		QString scheme = use_https_vi ? "https" : "http";
 		url = QString("%2://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id).arg(scheme);
 	}
-	//qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s", url.toUtf8().constData());
+	qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s...", url.left(20).toUtf8().constData());
 
 	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: '%s'", user_agent.toLatin1().constData());
 
