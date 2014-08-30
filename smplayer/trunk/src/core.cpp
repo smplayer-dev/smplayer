@@ -267,6 +267,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 #ifdef YOUTUBE_SUPPORT
 	yt = new RetrieveYoutubeUrl(this);
+	yt->setUseHttpsMain(pref->yt_use_https_main);
+	yt->setUseHttpsVi(pref->yt_use_https_vi);
+
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
 	connect(yt, SIGNAL(errorOcurred(int,QString)), this, SLOT(YTFailed(int,QString)));

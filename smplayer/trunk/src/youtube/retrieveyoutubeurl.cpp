@@ -31,6 +31,8 @@
 #define USE_PLAYER_NAME
 
 QString RetrieveYoutubeUrl::user_agent;
+bool RetrieveYoutubeUrl::use_https_main = false;
+bool RetrieveYoutubeUrl::use_https_vi = false;
 
 RetrieveYoutubeUrl::RetrieveYoutubeUrl( QObject* parent ) : QObject(parent)
 {
@@ -65,7 +67,8 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 #ifdef YT_GET_VIDEOINFO
 void RetrieveYoutubeUrl::fetchVideoInfoPage(QString url) {
 	if (url.isEmpty()) {
-		url = QString("http://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id);
+		QString scheme = use_https_vi ? "https" : "http";
+		url = QString("%2://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id).arg(scheme);
 	}
 	//qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s", url.toUtf8().constData());
 
@@ -366,7 +369,10 @@ bool RetrieveYoutubeUrl::isUrlSupported(const QString & url) {
 QString RetrieveYoutubeUrl::fullUrl(const QString & url) {
 	QString r;
 	QString ID = getVideoID(url);
-	if (!ID.isEmpty()) r = "http://www.youtube.com/watch?v=" + ID;
+	if (!ID.isEmpty()) {
+		QString scheme = use_https_main ? "https" : "http";
+		r = scheme + "://www.youtube.com/watch?v=" + ID;
+	}
 	return r;
 }
 
