@@ -256,7 +256,7 @@ void Favorites::addCurrentPlaying() {
 		qDebug("Favorites::addCurrentPlaying: received file is empty, doing nothing");
 	} else {
 		Favorite fav;
-		fav.setName(received_title);
+		fav.setName(received_title.replace(",", ""));
 		fav.setFile(received_file_playing);
 		f_list.append(fav);
 		save();
