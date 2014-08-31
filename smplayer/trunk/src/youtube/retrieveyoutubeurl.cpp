@@ -89,6 +89,8 @@ void RetrieveYoutubeUrl::close() {
 }
 
 void RetrieveYoutubeUrl::gotResponse() {
+	qDebug("RetrieveYoutubeUrl::gotResponse");
+
 	QNetworkReply *reply = qobject_cast<QNetworkReply*>(sender());
 
 	if (reply->error() == QNetworkReply::NoError) {
@@ -104,6 +106,7 @@ void RetrieveYoutubeUrl::gotResponse() {
 				return;
 		}
 	} else {
+		qDebug("RetrieveYoutubeUrl::gotResponse: error %d: '%s'", (int)reply->error(), reply->errorString().toUtf8().constData());
 		emit errorOcurred((int)reply->error(), reply->errorString());
 		return;
 	}
@@ -129,6 +132,7 @@ void RetrieveYoutubeUrl::gotVideoInfoResponse() {
 				return;
 		}
 	} else {
+		qDebug("RetrieveYoutubeUrl::gotVideoInfoResponse: error %d: '%s'", (int)reply->error(), reply->errorString().toUtf8().constData());
 		emit errorOcurred((int)reply->error(), reply->errorString());
 		return;
 	}
