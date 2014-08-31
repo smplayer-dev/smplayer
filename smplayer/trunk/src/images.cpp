@@ -99,7 +99,7 @@ QString Images::file(const QString & name) {
 		icon_name = ":/icons-png/" + name + ".png";
 	}
 
-	qDebug() << "Images::file:" << icon_name;
+	//qDebug() << "Images::file:" << icon_name;
 	return icon_name;
 }
 
