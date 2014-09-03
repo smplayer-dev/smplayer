@@ -304,6 +304,8 @@ void PanelSeeker::changeEvent(QEvent *e)
 
 void PanelSeeker::timerEvent(QTimerEvent *t)
 {
+    if (bufferingPix.width() < 1) return;
+
     if(!state.testFlag(Buffering))
     {
         killTimer(t->timerId());
