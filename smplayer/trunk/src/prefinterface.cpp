@@ -60,8 +60,14 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	QStringList iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
 		#ifdef SKINS
-		QString css_file = Paths::configPath() + "/themes/" + iconsets[n] + "/main.css";
+		QString skin_dir = Paths::configPath() + "/themes/" + iconsets[n];
+		QString css_file = skin_dir + "/main.css";
 		bool is_skin = QFile::exists(css_file);
+		#ifdef USE_RESOURCES
+		if (is_skin) {
+			if (!QFile::exists(skin_dir + "/" + iconsets[n] + ".rcc")) is_skin = false;
+		}
+		#endif
 		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
 		if (is_skin) {
 			skin_combo->addItem( iconsets[n] );
@@ -77,8 +83,14 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	iconsets = icon_dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
 	for (int n=0; n < iconsets.count(); n++) {
 		#ifdef SKINS
-		QString css_file = Paths::themesPath() + "/" + iconsets[n] + "/main.css";
+		QString skin_dir = Paths::themesPath() + "/" + iconsets[n];
+		QString css_file = skin_dir + "/main.css";
 		bool is_skin = QFile::exists(css_file);
+		#ifdef USE_RESOURCES
+		if (is_skin) {
+			if (!QFile::exists(skin_dir + "/" + iconsets[n] + ".rcc")) is_skin = false;
+		}
+		#endif
 		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
 		if ((is_skin) && (skin_combo->findText( iconsets[n] ) == -1)) {
 			skin_combo->addItem( iconsets[n] );
