@@ -27,6 +27,7 @@
 #include "clhelp.h"
 #include "cleanconfig.h"
 #include "myapplication.h"
+#include "images.h"
 
 #ifdef MPCGUI
 #include "mpcgui.h"
@@ -119,10 +120,22 @@ BaseGui * SMPlayer::gui() {
 			QString theme_dir = Paths::themesPath() + "/" + theme;
 			qDebug("SMPlayer::gui: user_theme_dir: %s", user_theme_dir.toUtf8().constData());
 			qDebug("SMPlayer::gui: theme_dir: %s", theme_dir.toUtf8().constData());
+			#ifdef USE_RESOURCES
+			QString user_theme_resource = user_theme_dir +"/"+ theme +".rcc";
+			QString theme_resource = theme_dir +"/"+ theme +".rcc";
+			qDebug("SMPlayer::gui: user_theme_resource: %s", user_theme_resource.toUtf8().constData());
+			qDebug("SMPlayer::gui: theme_resource: %s", theme_resource.toUtf8().constData());
+			if ((QFile::exists(user_theme_resource)) || (QFile::exists(theme_resource))) {
+			#else
 			if ((QDir(theme_dir).exists()) || (QDir(user_theme_dir).exists())) {
+			#endif
 				if (pref->iconset.isEmpty()) pref->iconset = theme;
 			} else {
+				#ifdef USE_RESOURCES
+				qDebug("SMPlayer::gui: skin resource file doesn't exist. Falling back to default gui.");
+				#else
 				qDebug("SMPlayer::gui: skin folder doesn't exist. Falling back to default gui.");
+				#endif
 				gui_to_use = "DefaultGUI";
 				pref->iconset = "";
 				pref->gui = gui_to_use;
