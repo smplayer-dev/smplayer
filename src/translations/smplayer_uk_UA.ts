@@ -236,12 +236,12 @@
     <message>
         <location filename="../about.cpp" line="197"/>
         <source>Tamil</source>
-        <translation type="unfinished">Таміл</translation>
+        <translation>Таміл</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="198"/>
         <source>Malayalam</source>
-        <translation type="unfinished">Малаялам</translation>
+        <translation>Малаялам</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="223"/>
@@ -8452,7 +8452,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Відкрити інформаційну сторінку після оновлення</translation>
     </message>
     <message>
         <source>&amp;Open the first steps guide after an upgrade</source>
@@ -8486,12 +8486,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити інформаційну сторінку після оновлення</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, після оновлення буде відкрито інформаційну сторінку про SMPlayer.</translation>
     </message>
     <message>
         <source>Open the first steps guide after an upgrade</source>
