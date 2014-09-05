@@ -1,3 +1,13 @@
+smplayer (14.9.0) precise; urgency=low
+
+  * Fix for Youtube.
+  * New option to shut down the computer when playback has finished.
+  * The themes and skin icons are loaded from resource files (*.rcc).
+  * New fix for searching subtitles from opensubtitles.org that should
+    return more results.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 06 Sep 2014 01:03:22 +0200
+
 smplayer (14.3.0) precise; urgency=low
 
   * Possibility to play (non-protected) blu-ray discs.
