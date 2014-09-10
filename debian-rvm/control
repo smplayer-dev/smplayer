@@ -10,8 +10,8 @@ Architecture: any
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: ${shlibs:Depends}, mplayer | mplayer-nogui | mplayer-mt | mplayer2
 Recommends: smplayer-themes, smplayer-skins, smtube, alsa-utils, x11-utils
-Replaces: smplayer-translations
-Provides: smplayer-translations
+Replaces: smplayer-translations, smplayer-l10n
+Provides: smplayer-translations, smplayer-l10n
 Description: A great front-end for MPlayer
  SMPlayer intends to be a complete front-end for MPlayer, from basic features
  like playing videos, DVDs, and VCDs to more advanced features like support
