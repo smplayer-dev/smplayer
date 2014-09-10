@@ -2500,6 +2500,10 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument(Helper::shortPathName(file));
 	else
 #endif
+
+	// Open https URLs with ffmpeg
+	if (file.startsWith("https")) file = "ffmpeg://" + file;
+
 	proc->addArgument( file );
 
 	// It seems the loop option must be after the filename
