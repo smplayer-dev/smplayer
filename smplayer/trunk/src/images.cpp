@@ -36,6 +36,7 @@ QString Images::themes_path;
 
 #ifdef USE_RESOURCES
 QString Images::last_resource_loaded;
+bool Images::has_rcc = false;
 
 QString Images::resourceFilename() {
 	QString filename = QString::null;
@@ -74,7 +75,11 @@ void Images::setTheme(const QString & name) {
 		qDebug() << "Images::setTheme: loading" << rs_file;
 		QResource::registerResource(rs_file);
 		last_resource_loaded = rs_file;
+		has_rcc = true;
+	} else {
+		has_rcc = false;
 	}
+	qDebug() << "Images::setTheme: has_rcc:" << has_rcc;
 #endif
 }
 
@@ -91,7 +96,12 @@ QString Images::file(const QString & name) {
 #endif
 
 #ifdef USE_RESOURCES
-	QString icon_name = ":/" + current_theme + "/"+ name + ".png";
+	QString icon_name;
+	if (has_rcc) {
+		icon_name = ":/" + current_theme + "/"+ name + ".png";
+	} else {
+		icon_name = themes_path +"/"+ current_theme + "/"+ name + ".png";
+	}
 #else
 	QString icon_name = themes_path +"/"+ current_theme + "/"+ name + ".png";
 #endif
@@ -99,7 +109,7 @@ QString Images::file(const QString & name) {
 		icon_name = ":/icons-png/" + name + ".png";
 	}
 
-	//qDebug() << "Images::file:" << icon_name;
+	qDebug() << "Images::file:" << icon_name;
 	return icon_name;
 }
 

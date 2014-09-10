@@ -103,7 +103,14 @@ void SkinGui::changeStyleSheet(QString style) {
 		QString qss = Images::styleSheet();
 #ifdef USE_RESOURCES
 		Images::setTheme(pref->iconset);
-		QString path = ":/" + pref->iconset;
+		QString path;
+		if (Images::has_rcc) {
+			path = ":/" + pref->iconset;
+		} else {
+			QDir current = QDir::current();
+			QString td = Images::themesDirectory();
+			path = current.relativeFilePath(td);
+		}
 #else
 		QDir current = QDir::current();
 		QString td = Images::themesDirectory();

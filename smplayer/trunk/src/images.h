@@ -44,6 +44,10 @@ public:
 	static QString themesDirectory();
 #endif
 
+#ifdef USE_RESOURCES
+	static bool has_rcc;
+#endif
+
 private:
 	static QPixmap resize(QPixmap *p, int size=20);
 	static QPixmap flip(QPixmap *p);
