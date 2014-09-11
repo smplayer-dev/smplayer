@@ -37,6 +37,10 @@ copy %QT_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
 if %QTVER% geq 4.6.0 (
 copy %QT_DIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
 )
+if %QTVER% geq 4.8.0 (
+copy %QT_DIR%\bin\libwinpthread-1.dll %OUTPUT_DIR%
+copy "%QT_DIR%\bin\libstdc++-6.dll" %OUTPUT_DIR%
+)
 copy openssl\*.dll %OUTPUT_DIR%
 
 mkdir %OUTPUT_DIR%\imageformats
