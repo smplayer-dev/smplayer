@@ -5,8 +5,8 @@ echo.
 echo Warning: it will only work with sources from the SVN and the command svn has to be in the path
 echo.
 
-set /P QTVER="Qt Version (Default: 4.8.4): "
-if "%QTVER%"=="" set QTVER=4.8.4
+set /P QTVER="Qt Version (Default: 4.8.6): "
+if "%QTVER%"=="" set QTVER=4.8.6
 
 set OUTPUT_DIR=smplayer-build
 
