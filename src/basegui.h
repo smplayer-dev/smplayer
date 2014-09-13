@@ -348,8 +348,12 @@ signals:
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
+#if QT_VERSION < 0x050000
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
+#else
+	virtual bool event(QEvent * e);
+#endif
 #ifdef Q_OS_WIN
 	#ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */
