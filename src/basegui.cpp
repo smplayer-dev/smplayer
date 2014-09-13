@@ -125,6 +125,9 @@ using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
 	: QMainWindow( parent, flags )
+#if QT_VERSION >= 0x050000
+	, was_minimized(false)
+#endif
 {
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef AVOID_SCREENSAVER
@@ -5131,6 +5134,7 @@ bool BaseGui::event(QEvent * e) {
 		qDebug("BaseGui::event: WindowStateChange");
 
 		if (isMinimized()) {
+			was_minimized = true;
 			if (core->state() == Core::Playing) {
 				qDebug("BaseGui::event: pausing");
 				core->pause();
@@ -5138,10 +5142,11 @@ bool BaseGui::event(QEvent * e) {
 		}
 	}
 
-	if (e->type() == QEvent::ActivationChange) {
-		qDebug("BaseGui::event: ActivationChange");
+	if ((e->type() == QEvent::ActivationChange) && (isActiveWindow())) {
+		qDebug("BaseGui::event: ActivationChange: %d", was_minimized);
 
-		if (!isMinimized()) {
+		if ((!isMinimized()) && (was_minimized)) {
+			was_minimized = false;
 			if (core->state() == Core::Paused) {
 				qDebug("BaseGui::showEvent: unpausing");
 				core->pause(); // Unpauses

@@ -353,6 +353,7 @@ protected:
 	virtual void showEvent( QShowEvent * );
 #else
 	virtual bool event(QEvent * e);
+	bool was_minimized;
 #endif
 #ifdef Q_OS_WIN
 	#ifdef AVOID_SCREENSAVER
