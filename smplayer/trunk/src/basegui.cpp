@@ -5095,6 +5095,7 @@ void BaseGui::moveWindowDiff(QPoint diff) {
 #endif
 }
 
+#if QT_VERSION < 0x050000
 void BaseGui::showEvent( QShowEvent * ) {
 	qDebug("BaseGui::showEvent");
 
@@ -5118,6 +5119,39 @@ void BaseGui::hideEvent( QHideEvent * ) {
 		core->pause();
 	}
 }
+#else
+// Qt 5 doesn't call showEvent / hideEvent when the window is minimized or unminimized
+bool BaseGui::event(QEvent * e) {
+	//qDebug("BaseGui::event: %d", e->type());
+
+	bool result = QWidget::event(e);
+	if ((ignore_show_hide_events) || (!pref->pause_when_hidden)) return result;
+
+	if (e->type() == QEvent::WindowStateChange) {
+		qDebug("BaseGui::event: WindowStateChange");
+
+		if (isMinimized()) {
+			if (core->state() == Core::Playing) {
+				qDebug("BaseGui::event: pausing");
+				core->pause();
+			}
+		}
+	}
+
+	if (e->type() == QEvent::ActivationChange) {
+		qDebug("BaseGui::event: ActivationChange");
+
+		if (!isMinimized()) {
+			if (core->state() == Core::Paused) {
+				qDebug("BaseGui::showEvent: unpausing");
+				core->pause(); // Unpauses
+			}
+		}
+	}
+
+	return result;
+}
+#endif
 
 void BaseGui::askForMplayerVersion(QString line) {
 	qDebug("BaseGui::askForMplayerVersion: %s", line.toUtf8().data());
