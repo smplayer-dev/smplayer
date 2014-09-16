@@ -196,6 +196,8 @@ QString About::getTranslators() {
 		trad(tr("Telugu"), "Praveen_Illa") +
 		trad(tr("Tamil"), "vithushanth123") +
 		trad(tr("Malayalam"), "Akhilan") +
+		trad(tr("Thai"), "M. Somsak") +
+		trad(tr("Persian"), "Hessam Shahpouri") +
 		"");
 }
 
