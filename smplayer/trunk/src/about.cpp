@@ -197,7 +197,7 @@ QString About::getTranslators() {
 		trad(tr("Tamil"), "vithushanth123") +
 		trad(tr("Malayalam"), "Akhilan") +
 		trad(tr("Thai"), "M. Somsak") +
-		trad(tr("Persian"), "Hessam Shahpouri") +
+		trad(tr("Persian"), QStringList() << "Hessam Shahpouri" << "Behrooz Ramezani") +
 		"");
 }
 
