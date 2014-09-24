@@ -385,6 +385,7 @@ protected:
 	void createMenus();
 	void updateRecents();
 	void configureDiscDevices();
+	void setupNetworkProxy();
 	/* virtual void closeEvent( QCloseEvent * e ); */
 
 protected:

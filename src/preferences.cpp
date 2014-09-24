@@ -30,6 +30,7 @@
 #include <QRegExp>
 #include <QDir>
 #include <QLocale>
+#include <QNetworkProxy>
 
 #if QT_VERSION >= 0x050000
 #include <QStandardPaths>
@@ -442,6 +443,19 @@ void Preferences::reset() {
 	initial_tv_deinterlace = MediaSettings::Yadif_1;
 	last_dvb_channel = "";
 	last_tv_channel = "";
+
+
+    /* ********
+       Network
+       ******** */
+
+	// Proxy
+	use_proxy = false;
+	proxy_type = QNetworkProxy::HttpProxy;
+	proxy_host = "";
+	proxy_port = 0;
+	proxy_username = "";
+	proxy_password = "";
 
 
     /* ***********
@@ -902,6 +916,21 @@ void Preferences::save() {
 	set->setValue("last_dvb_channel", last_dvb_channel);
 	set->setValue("last_tv_channel", last_tv_channel);
 	set->endGroup(); // tv
+
+
+    /* ********
+       Network
+       ******** */
+
+	set->beginGroup("proxy");
+	set->setValue("use_proxy", use_proxy);
+	set->setValue("type", proxy_type);
+	set->setValue("host", proxy_host);
+	set->setValue("port", proxy_port);
+	set->setValue("username", proxy_username);
+	set->setValue("password", proxy_password);
+	set->endGroup(); // proxy
+
 
     /* ***********
        Directories
@@ -1404,6 +1433,20 @@ void Preferences::load() {
 	last_dvb_channel = set->value("last_dvb_channel", last_dvb_channel).toString();
 	last_tv_channel = set->value("last_tv_channel", last_tv_channel).toString();
 	set->endGroup(); // tv
+
+
+    /* ********
+       Network
+       ******** */
+
+	set->beginGroup("proxy");
+	use_proxy = set->value("use_proxy", use_proxy).toBool();
+	proxy_type = set->value("type", proxy_type).toInt();
+	proxy_host = set->value("host", proxy_host).toString();
+	proxy_port = set->value("port", proxy_port).toInt();
+	proxy_username = set->value("username", proxy_username).toString();
+	proxy_password = set->value("password", proxy_password).toString();
+	set->endGroup(); // proxy
 
 
     /* ***********
