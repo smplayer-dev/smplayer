@@ -2846,6 +2846,9 @@ void BaseGui::applyNewPreferences() {
 
 	pref_dialog->getData(pref);
 
+	// Setup proxy
+	setupNetworkProxy();
+
 	// Change application font
 	if (!pref->default_font.isEmpty()) {
 		QFont f;
