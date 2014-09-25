@@ -41,6 +41,7 @@ class PrefAdvanced;
 class PrefPlaylist;
 class PrefTV;
 class PrefUpdates;
+class PrefNetwork;
 class PrefAssociations;
 
 class Preferences;
@@ -63,6 +64,7 @@ public:
 	PrefAdvanced * mod_advanced() { return page_advanced; };
 	PrefPlaylist * mod_playlist() { return page_playlist; };
 	PrefUpdates * mod_updtes() { return page_updates; };
+	PrefNetwork * mod_network() { return page_network; };
 
 	void addSection(PrefWidget *w);
 
@@ -102,6 +104,7 @@ protected:
 	PrefPlaylist * page_playlist;
 	PrefTV * page_tv;
 	PrefUpdates * page_updates;
+	PrefNetwork * page_network;
 	PrefAdvanced * page_advanced;
 
 #if USE_ASSOCIATIONS

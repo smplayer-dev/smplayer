@@ -127,6 +127,7 @@ HEADERS += guiconfig.h \
 	prefplaylist.h \
 	preftv.h \
 	prefupdates.h \
+	prefnetwork.h \
 	filepropertiesdialog.h \
 	multilineinputdialog.h \
 	playlist.h \
@@ -223,6 +224,7 @@ SOURCES	+= version.cpp \
 	prefplaylist.cpp \
 	preftv.cpp \
 	prefupdates.cpp \
+	prefnetwork.cpp \
 	filepropertiesdialog.cpp \
 	multilineinputdialog.cpp \
 	playlist.cpp \
@@ -263,7 +265,7 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui videoequalizer.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
-        prefplaylist.ui preftv.ui prefupdates.ui favoriteeditor.ui \
+        prefplaylist.ui preftv.ui prefupdates.ui prefnetwork.ui favoriteeditor.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui \
         toolbareditor.ui multilineinputdialog.ui
 
