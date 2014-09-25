@@ -86,11 +86,25 @@ int PrefNetwork::proxyType() {
 void PrefNetwork::createHelp() {
 	clearHelp();
 
-/*
-	setWhatsThis(open_page_check, tr("Open an informative page after an upgrade"),
-		tr("If this option is enabled, an informative page about SMPlayer "
-           "will be opened after an upgrade.") );
-*/
+	setWhatsThis(use_proxy_check, tr("Enable proxy"),
+		tr("Enable/disable the use of the proxy.") );
+
+	setWhatsThis(proxy_hostname_edit, tr("Host"),
+		tr("The host name of the proxy.") );
+
+	setWhatsThis(proxy_port_spin, tr("Port"),
+		tr("The port of the proxy.") );
+
+	setWhatsThis(proxy_username_edit, tr("Username"),
+		tr("If the proxy requires authentication, this sets the username.") );
+
+	setWhatsThis(proxy_password_edit, tr("Password"),
+		tr("The password for the proxy. <b>Warning:</b> the password will be saved "
+           "as plain text in the configuration file.") );
+
+	setWhatsThis(proxy_type_combo, tr("Type"),
+		tr("Select the proxy type to be used.") );
+
 }
 
 #include "moc_prefnetwork.cpp"
