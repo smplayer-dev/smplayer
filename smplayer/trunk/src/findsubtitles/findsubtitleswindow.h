@@ -20,7 +20,10 @@
 #define _FINDSUBTITLESWINDOW_H_
 
 #include "ui_findsubtitleswindow.h"
+
+#ifdef FS_USE_PROXY
 #include <QNetworkProxy>
+#endif
 
 class OSClient;
 class QStandardItemModel;
@@ -93,8 +96,10 @@ protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
 
+#ifdef FS_USE_PROXY
 	void setProxy(QNetworkProxy proxy);
 	void setupProxy();
+#endif
 
 	void saveSettings();
 	void loadSettings();
@@ -133,6 +138,7 @@ protected:
 	// Opensubtitles server
 	QString os_server;
 
+#ifdef FS_USE_PROXY
 	// Proxy
 	bool use_proxy;
 	int proxy_type;
@@ -140,6 +146,7 @@ protected:
 	int proxy_port;
 	QString proxy_username;
 	QString proxy_password;
+#endif
 
 	QSettings * set;
 };

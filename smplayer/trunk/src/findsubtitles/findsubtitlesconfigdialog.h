@@ -33,6 +33,7 @@ public:
 	void setServer(QString server);
 	QString server();
 
+#ifdef FS_USE_PROXY
 	// Proxy
 	void setUseProxy(bool b);
 	bool useProxy();
@@ -51,6 +52,7 @@ public:
 
 	void setProxyType(int type);
 	int proxyType();
+#endif
 };
 
 #endif
