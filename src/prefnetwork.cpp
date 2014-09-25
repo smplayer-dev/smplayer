@@ -41,7 +41,7 @@ QString PrefNetwork::sectionName() {
 }
 
 QPixmap PrefNetwork::sectionIcon() {
-	return Images::icon("pref_updates", 22); // FIXME
+	return Images::icon("pref_network", 22);
 }
 
 void PrefNetwork::retranslateStrings() {
