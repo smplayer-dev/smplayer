@@ -63,7 +63,7 @@ public:
 	PrefInput * mod_input() { return page_input; };
 	PrefAdvanced * mod_advanced() { return page_advanced; };
 	PrefPlaylist * mod_playlist() { return page_playlist; };
-	PrefUpdates * mod_updtes() { return page_updates; };
+	PrefUpdates * mod_updates() { return page_updates; };
 	PrefNetwork * mod_network() { return page_network; };
 
 	void addSection(PrefWidget *w);
@@ -114,10 +114,10 @@ protected:
 	QTextBrowser * help_window;
 
 private:
-    QPushButton * okButton;
-    QPushButton * cancelButton;
+	QPushButton * okButton;
+	QPushButton * cancelButton;
 	QPushButton * applyButton;
-    QPushButton * helpButton;
+	QPushButton * helpButton;
 };
 
 #endif
