@@ -2631,42 +2631,42 @@ resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>مكّن/عطّل استخدام الخادوم الوسيط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The host name of the proxy.</source>
         <translation>اسم مضيف الوسيط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>The port of the proxy.</source>
         <translation>منفذ الوسيط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>إن احتاج الوسيط إلى استيثاق، فهذا يعيّن اسم المستخدم.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>كلمة المرور إلى الخادوم الوسيط. &lt;b&gt;تحذير:&lt;/b&gt; ستُخزن كلمة المرور كنص مجرّد بلا تشفير في ملف الضبط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
         <translation>اختر نوع الوسيط المُستعمل.</translation>
     </message>
@@ -2724,62 +2724,62 @@ resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Language</source>
         <translation>اللغة</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Name</source>
         <translation>الاسم</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Format</source>
         <translation>الصيغة</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Files</source>
         <translation>الملفات</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Date</source>
         <translation>التاريخ</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Uploaded by</source>
         <translation>رفعها</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Portuguese - Brasil</source>
         <translation>البرتغالية - البرازيل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
         <source>All</source>
         <translation>الكل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Close</source>
         <translation>أغلق</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>فشل الدخول إلى opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
         <source>Search has failed</source>
         <translation>فشل البحث</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>استخرجت %n ترجمة</numerusform>
@@ -2791,53 +2791,53 @@ resample=44100:0:0,volnorm</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
         <source>Error fixing the subtitle lines</source>
         <translation>وقع خطأ أثناء إصلاح سطور الترجمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
         <source>&amp;Download</source>
         <translation>&amp;نزِّل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>ان&amp;سخ الرابط إلى الحافظة</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Error</source>
         <translation>الخطأ</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
         <source>Download failed: %1.</source>
         <translation>فشل التنزيل: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
         <source>Connecting to %1...</source>
         <translation>يتصل بـ%1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
         <source>Downloading...</source>
         <translation>يُنزّل...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
         <source>Done.</source>
         <translation>تمّ.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
         <source>%1 files available</source>
         <translation>الملفات المتوفرة: %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
         <source>Failed to parse the received data.</source>
         <translation>فشلَ في تفسير البيانات المُستلَمة.</translation>
     </message>
@@ -2862,30 +2862,30 @@ resample=44100:0:0,volnorm</translation>
         <translation>&amp;حدِّث</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="672"/>
         <source>Subtitle saved as %1</source>
         <translation>حُفظت الترجمة بالاسم %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
         <source>Overwrite?</source>
         <translation>أتريد الكتابة عليه؟</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="710"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>الملف %1 مُوجَد من قبل. أتريد الكتابة عليه؟</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="520"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
         <source>Error saving file</source>
         <translation>وقع خطأ أثناء حفظ الملف</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2893,14 +2893,14 @@ Please check the permissions of that folder.</source>
 رجاء افحص صلاحيات هذا المجلد.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="493"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>Download failed</source>
         <translation>فشل التنزيل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="605"/>
         <source>Temporary file %1</source>
         <translation>الملف المؤقت %1</translation>
     </message>

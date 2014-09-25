@@ -236,12 +236,12 @@
     <message>
         <location filename="../about.cpp" line="197"/>
         <source>Tamil</source>
-        <translation>Таміл</translation>
+        <translation type="unfinished">Таміл</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="198"/>
         <source>Malayalam</source>
-        <translation>Малаялам</translation>
+        <translation type="unfinished">Малаялам</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="199"/>
@@ -2628,42 +2628,42 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Увімкнути/вимкнути використання проксі.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The host name of the proxy.</source>
         <translation>Назва серверу проксі.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>The port of the proxy.</source>
         <translation>Порт проксі.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Якщо проксі портебую автентифікації, це встановлює ім&apos;я користувача.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Пароль для проксі. &lt;b&gt;Застереження:&lt;/b&gt; пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
         <translation>Виберіть, який використовувати тип проксі.</translation>
     </message>
@@ -2721,62 +2721,62 @@ Example: resample=44100:0:0,volnorm</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Language</source>
         <translation>Мова</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Name</source>
         <translation>Назва</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Format</source>
         <translation>Формат</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Files</source>
         <translation>Файли</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Uploaded by</source>
         <translation>Вивантажено</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Portuguese - Brasil</source>
         <translation>Португальський (Бразилія)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
         <source>All</source>
         <translation>Всі</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Close</source>
         <translation>Закрити</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Не вдалося увійти до opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
         <source>Search has failed</source>
         <translation>Пошук не дав результатів</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n субтитр витягнутий</numerusform>
@@ -2785,53 +2785,53 @@ Example: resample=44100:0:0,volnorm</source>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Помилка виправлення рядків субтитрів</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
         <source>&amp;Download</source>
         <translation>&amp;Звантажити</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Скопіювати посилання до буферу обміну</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
         <source>Download failed: %1.</source>
         <translation>Звантаження невдале: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
         <source>Connecting to %1...</source>
         <translation>З&apos;єднуюсь з %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
         <source>Downloading...</source>
         <translation>Звантажується...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
         <source>Done.</source>
         <translation>Виконано.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
         <source>%1 files available</source>
         <translation>%1 файлів доступні</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
         <source>Failed to parse the received data.</source>
         <translation>Неможливо обробити прийняті дані.</translation>
     </message>
@@ -2856,30 +2856,30 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Оновити</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="672"/>
         <source>Subtitle saved as %1</source>
         <translation>Субтитри збережені як %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
         <source>Overwrite?</source>
         <translation>Перезаписати?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="710"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Файл %1 вже існує, перезаписати?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="520"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
         <source>Error saving file</source>
         <translation>Помилка збереження файлу</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2888,14 +2888,14 @@ Please check the permissions of that folder.</source>
 Будь ласка, перевірте права доступу до цієї теки.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="493"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>Download failed</source>
         <translation>Звантаження невдале</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="605"/>
         <source>Temporary file %1</source>
         <translation>Тимчасовий файл %1</translation>
     </message>
@@ -8578,10 +8578,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Відкрити інформаційну сторінку після оновлення</translation>
     </message>
     <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">&amp;Відкрити путівник перший кроки після оновлення</translation>
-    </message>
-    <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
         <translation>Оновлення</translation>
@@ -8615,14 +8611,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
         <translation>Якщо ця опція увімкнена, після оновлення буде відкрито інформаційну сторінку про SMPlayer.</translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Відкрийте путівник перший кроки після оновлення</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Якщо ця опція ввімкнена, перші кроки керівництва з інформацією та порадами про те, як використовувати SMPlayer буде відкрито після оновлення.</translation>
     </message>
 </context>
 <context>

@@ -236,22 +236,22 @@
     <message>
         <location filename="../about.cpp" line="197"/>
         <source>Tamil</source>
-        <translation type="unfinished">Tamilisch</translation>
+        <translation>Tamil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="198"/>
         <source>Malayalam</source>
-        <translation type="unfinished">Malayalam</translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="199"/>
         <source>Thai</source>
-        <translation type="unfinished">Thailändisch</translation>
+        <translation>Thai</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="200"/>
         <source>Persian</source>
-        <translation type="unfinished">Persisch</translation>
+        <translation>Persisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="225"/>
@@ -2629,42 +2629,42 @@ Beispiel: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Verwendung des Proxys aktivieren/deaktivieren.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The host name of the proxy.</source>
         <translation>Der Hostname des Proxys.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>The port of the proxy.</source>
         <translation>Der Port des Proxys.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Geben Sie hier den Benutzernamen für den Proxy ein, falls dieser eine Authentifizierung benötigt.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Das Passwort für den Proxy-Server. &lt;b&gt;Achtung:&lt;/b&gt; Das Passwort wird als einfacher Text in der Konfigurationsdatei gespeichert.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
         <translation>Wählen Sie die zu verwendende Art des Proxys.</translation>
     </message>
@@ -2722,62 +2722,62 @@ Beispiel: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Language</source>
         <translation>Sprache</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Files</source>
         <translation>Dateien</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
         <source>Uploaded by</source>
         <translation>Hochgeladen von</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Portuguese - Brasil</source>
         <translation>Portugiesisch - Brasilien</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
         <source>All</source>
         <translation>Alle</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
         <source>Close</source>
         <translation>Schließen</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Das Anmelden bei opensubtitles.org ist fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
         <source>Search has failed</source>
         <translation>Die Suche ist fehlgeschlagen</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>%n Untertitel extrahiert</numerusform>
@@ -2785,53 +2785,53 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Fehler beim Reparieren der Untertitelzeilen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
         <source>&amp;Download</source>
         <translation>&amp;Herunterladen</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Verknüpfung in die Zwischenablage kopieren</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
         <source>Download failed: %1.</source>
         <translation>Herunterladen fehlgeschlagen: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
         <source>Connecting to %1...</source>
         <translation>Verbindung zu %1 wird hergestellt …</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
         <source>Downloading...</source>
         <translation>Herunterladen …</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
         <source>Done.</source>
         <translation>Erledigt.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
         <source>%1 files available</source>
         <translation>%1 Dateien verfügbar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
         <source>Failed to parse the received data.</source>
         <translation>Fehler beim Analysieren der empfangenen Daten.</translation>
     </message>
@@ -2856,30 +2856,30 @@ Beispiel: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Aktualisieren</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="672"/>
         <source>Subtitle saved as %1</source>
         <translation>Untertitel gespeichert als %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
         <source>Overwrite?</source>
         <translation>Überschreiben?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="710"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Die Datei %1 existiert bereits, überschreiben?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="520"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
         <source>Error saving file</source>
         <translation>Fehler beim Speichern der Datei</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2888,14 +2888,14 @@ im Order %1 zu speichern.
 Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="493"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>Download failed</source>
         <translation>Herunterladen fehlgeschlagen</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="605"/>
         <source>Temporary file %1</source>
         <translation>Temporäre Datei %1</translation>
     </message>
@@ -7202,112 +7202,112 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vermittlungsserver</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">&amp;Proxy aktivieren</translation>
+        <translation>Vermittlungsserver &amp;aktivieren</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="43"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Host:</translation>
+        <translation>&amp;Zentralrechner:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="56"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Port:</translation>
+        <translation>&amp;Anschluss:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="76"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">&amp;Benutzername:</translation>
+        <translation>&amp;Benutzername:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">Pa&amp;sswort:</translation>
+        <translation>&amp;Passwort:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="106"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Art:</translation>
+        <translation>&amp;Art:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="29"/>
         <source>HTTP</source>
-        <translation type="unfinished">HTTP</translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="30"/>
         <source>SOCKS5</source>
-        <translation type="unfinished">SOCKS5</translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="40"/>
         <source>Network</source>
-        <translation type="unfinished">Netzwerk</translation>
+        <translation>Netzwerk</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="89"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Vermittlungsserver aktivieren</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="90"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Verwendung des Proxys aktivieren/deaktivieren.</translation>
+        <translation>Die Verwendung des Vermittlungsservers (Proxy) aktivieren/deaktivieren.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="92"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Zentralrechner</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="93"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">Der Hostname des Proxys.</translation>
+        <translation>Der Rechnername des Vermittlungsservers</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="95"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Anschluss</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="96"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">Der Port des Proxys.</translation>
+        <translation>Der Anschluss des Vermittlungsservers.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="98"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzername</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="99"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Geben Sie hier den Benutzernamen für den Proxy ein, falls dieser eine Authentifizierung benötigt.</translation>
+        <translation>Wenn der Vermittlungsserver eine Legitimierung benötigt, stellt dieses den Benutzernamen ein.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="101"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Passwort</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="102"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">Das Passwort für den Proxy-Server. &lt;b&gt;Achtung:&lt;/b&gt; Das Passwort wird als einfacher Text in der Konfigurationsdatei gespeichert.</translation>
+        <translation>Das Passwort des Vermittlungsservers. &lt;b&gt;Achtung:&lt;/b&gt; das Passwort wird als einfacher Text, in der Konfigurationsdatei, gespeichert.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="105"/>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Art</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="106"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Wählen Sie die zu verwendende Art des Proxys.</translation>
+        <translation>Bitte den Typ des Vermittlungsservers auswählen, der benutzt werden soll.</translation>
     </message>
 </context>
 <context>
