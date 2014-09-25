@@ -34,7 +34,10 @@ class OSClient : public QObject {
 
 public:
 	OSClient(QObject* parent = 0);
+
+#ifdef FS_USE_PROXY
 	void setProxy(const QNetworkProxy & proxy);
+#endif
 
 public slots:
 	void setServer(const QString & server);

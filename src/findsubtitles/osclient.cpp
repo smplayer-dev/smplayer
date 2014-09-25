@@ -34,9 +34,11 @@ void OSClient::setServer(const QString & server) {
 	rpc->setUrl(QUrl(server));
 }
 
+#ifdef FS_USE_PROXY
 void OSClient::setProxy(const QNetworkProxy & proxy) {
 	rpc->setProxy(proxy);
 }
+#endif
 
 void OSClient::login() {
 	qDebug("OSClient::login");

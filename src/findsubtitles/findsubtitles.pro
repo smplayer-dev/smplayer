@@ -41,6 +41,7 @@ FORMS += findsubtitleswindow.ui findsubtitlesconfigdialog.ui
 DEFINES += NO_SMPLAYER_SUPPORT
 DEFINES += DOWNLOAD_SUBS
 #DEFINES += USE_QUAZIP
+#DEFINES += FS_USE_PROXY
 
 contains( DEFINES, DOWNLOAD_SUBS ) {
 	INCLUDEPATH += filedownloader

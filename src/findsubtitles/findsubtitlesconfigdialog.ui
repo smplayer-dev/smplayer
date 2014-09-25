@@ -37,7 +37,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QGroupBox" name="groupBox">
+    <widget class="QGroupBox" name="proxy_group">
      <property name="title">
       <string>Proxy</string>
      </property>
