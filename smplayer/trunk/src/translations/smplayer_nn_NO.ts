@@ -613,7 +613,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <source>&amp;Play</source>
-        <translation>&amp;Spel</translation>
+        <translation>&amp;Spel av</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1751"/>
@@ -1396,7 +1396,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"/>
+        <translation>B&amp;ilete per sekund</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1959"/>
@@ -1411,7 +1411,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4483"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"/>
+        <translation>Uheldigvis, grunna endringar på YouTube kan ikkje videoen spelast av.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4490"/>
@@ -1422,32 +1422,33 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4486"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"/>
+        <translation>Uheldigvis, grunna endringar på YouTube kan ikkje video &apos;%1&apos; spelast av.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4492"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>Vil du oppdatera YouTube koden? 
+Dette kan løyse problemet. </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>Oppdatering av SMPlayer kan, kanskje, løyse problemet.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5226"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="unfinished"/>
+        <translation>YouTube lesaren ville ikkje starta.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5227"/>
         <source>Be sure %1 is installed.</source>
-        <translation type="unfinished"/>
+        <translation>Skjekk at %1 er installert.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1945"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"/>
+        <translation>D&amp;el SMPlayer med vener.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2932"/>
@@ -1473,7 +1474,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="3567"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"/>
+        <translation>Gjeldande verdiar er lagra for å brukast som standardverdiar.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
@@ -1583,7 +1584,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4530"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"/>
+        <translation>Tenaren returnerte &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5125"/>
@@ -2046,7 +2047,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"/>
+        <translation>YouTube koden har blitt oppdatert.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
@@ -2072,7 +2073,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation>Ein feil oppstod ved nedlasting av fila:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2151,12 +2152,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../core.cpp" line="540"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"/>
+        <translation>Ikkje mogleg å laste YouTube sida</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="550"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"/>
+        <translation>Kunne ikkje finne videoen sin URL</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3287"/>
@@ -2338,7 +2339,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"/>
+        <translation>Ein feil oppstod</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2760,7 +2761,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"/>
+        <translation>Feil ved retting av undertekst line.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2806,7 +2807,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"/>
+        <translation>Kunne ikkje separera motteken data.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
@@ -2842,7 +2843,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"/>
+        <translation>Fila %1 finst allereie. Vil du skrive over?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
@@ -2856,7 +2857,8 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation type="unfinished"/>
+        <translation>Kunne ikkje skriva til nedlating område %1
+Skjekk om du har skrive rettar for plasseringa. </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
@@ -2886,7 +2888,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"/>
+        <translation>Lagar eit mellomlager for tegnsett...</translation>
     </message>
 </context>
 <context>
@@ -6169,7 +6171,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="325"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation type="unfinished"/>
+        <translation>Vel handling for venstre-klikk på musa</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="327"/>
@@ -6179,7 +6181,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="328"/>
         <source>Select the action for double click on the mouse.</source>
-        <translation type="unfinished"/>
+        <translation>Vel ei handling for dobbel-klikk på musa.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="339"/>
@@ -6189,12 +6191,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="340"/>
         <source>Select the action for the mouse wheel.</source>
-        <translation type="unfinished"/>
+        <translation>Vel ei handling for musehjulet.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="54"/>
         <source>Play</source>
-        <translation>Spel</translation>
+        <translation>Spel av</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="56"/>
@@ -6219,7 +6221,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="69"/>
         <source>Screenshot</source>
-        <translation type="unfinished"/>
+        <translation>Skjermbilde</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
@@ -6244,12 +6246,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="81"/>
         <source>Double size</source>
-        <translation>Dobbel størrelse</translation>
+        <translation>Dobbel storleik</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
-        <translation>Spel/Pause</translation>
+        <translation>Spel av/Pause</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
@@ -6259,7 +6261,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="75"/>
         <source>Playlist</source>
-        <translation>Spleliste</translation>
+        <translation>Speleliste</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="80"/>
@@ -6320,7 +6322,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="59"/>
         <source>Go backward (short)</source>
-        <translation>Gå bakover kort)</translation>
+        <translation>Gå bakover (kort)</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="60"/>
@@ -6350,12 +6352,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="74"/>
         <source>OSD - Next level</source>
-        <translation type="unfinished"/>
+        <translation>Skjermmeldingar - Neste nivå</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
         <source>Show context menu</source>
-        <translation type="unfinished"/>
+        <translation>Vis lokalmeny</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="194"/>
@@ -6380,7 +6382,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="334"/>
         <source>Select the action for the X button 1.</source>
-        <translation type="unfinished"/>
+        <translation>Vel handling for X-knapp 1.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
@@ -6390,12 +6392,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="337"/>
         <source>Select the action for the X button 2.</source>
-        <translation>Vel ei handling for X-knappen 2.</translation>
+        <translation>Vel ei handling for X-knapp 2.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Show video equalizer</source>
-        <translation>Vis video-kontrollar</translation>
+        <translation>Vis videokontrollar</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
@@ -6420,7 +6422,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Activate option under mouse in DVD menus</source>
-        <translation type="unfinished"/>
+        <translation>Slå på innstillinga under mus i DVD-menyar</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
@@ -6455,7 +6457,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="94"/>
         <source>Activate highlighted option in DVD menus</source>
-        <translation type="unfinished"/>
+        <translation>Slå på framheva innstilling i DVD-menyar</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
@@ -6563,7 +6565,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="145"/>
         <source>&lt;Autodetect&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;Autodetect&gt;</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="196"/>
@@ -6600,7 +6602,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
         <location filename="../prefinterface.ui" line="805"/>
         <location filename="../prefinterface.cpp" line="772"/>
         <source>Recent files</source>
-        <translation>NYleg brukte filer</translation>
+        <translation>Nyleg brukte filer</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="660"/>
@@ -6635,7 +6637,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="605"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bruk berre ein køyrande versjon av SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="817"/>
@@ -7922,7 +7924,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Slå på Windows-skrifter</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
