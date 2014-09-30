@@ -33,6 +33,11 @@ public:
 	void setServer(QString server);
 	QString server();
 
+#ifdef OS_SEARCH_WORKAROUND
+	void setRetries(int n);
+	int retries();
+#endif
+
 #ifdef FS_USE_PROXY
 	// Proxy
 	void setUseProxy(bool b);

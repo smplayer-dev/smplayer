@@ -21,8 +21,6 @@
 
 #include "maiaXmlRpcClient.h"
 
-#define OS_SEARCH_WORKAROUND
-
 class OSSubtitle {
 public:
 	QString movie, releasename, link, iso639, language, date;
