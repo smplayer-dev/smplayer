@@ -35,14 +35,20 @@ class OSClient : public QObject {
 public:
 	OSClient(QObject* parent = 0);
 
+	QList<OSSubtitle> subtitleList() { return s_list; };
+
 #ifdef FS_USE_PROXY
 	void setProxy(const QNetworkProxy & proxy);
+#endif
+
+#ifdef OS_SEARCH_WORKAROUND
+	void setRetries(int n) { search_retries = n; };
+	int retries() { return search_retries; };
 #endif
 
 public slots:
 	void setServer(const QString & server);
 	void search(const QString & hash, qint64 file_size);
-	QList<OSSubtitle> subtitleList() { return s_list; };
 
 private slots:
 	void login();
@@ -71,6 +77,7 @@ private:
 	qint64 search_size;
 #ifdef OS_SEARCH_WORKAROUND
 	int best_search_count;
+	int search_retries;
 #endif
 	QList <OSSubtitle> s_list;
 };
