@@ -823,6 +823,10 @@ void FindSubtitlesWindow::saveSettings() {
 	set->beginGroup("findsubtitles");
 
 	set->setValue("xmlrpc_server", os_server);
+#ifdef OS_SEARCH_WORKAROUND
+	set->setValue("retries", osclient->retries());
+#endif
+
 	set->setValue("language", language());
 #ifdef DOWNLOAD_SUBS
 	set->setValue("include_lang_on_filename", includeLangOnFilename());
@@ -846,6 +850,10 @@ void FindSubtitlesWindow::loadSettings() {
 	set->beginGroup("findsubtitles");
 
 	os_server = set->value("xmlrpc_server", os_server).toString();
+#ifdef OS_SEARCH_WORKAROUND
+	osclient->setRetries( set->value("retries", osclient->retries()).toInt() );
+#endif
+
 	setLanguage( set->value("language", language()).toString() );
 #ifdef DOWNLOAD_SUBS
 	setIncludeLangOnFilename( set->value("include_lang_on_filename", includeLangOnFilename()).toBool() );
