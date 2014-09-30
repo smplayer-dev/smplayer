@@ -766,6 +766,9 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 	FindSubtitlesConfigDialog d(this);
 
 	d.setServer( os_server );
+	#ifdef OS_SEARCH_WORKAROUND
+	d.setRetries(osclient->retries());
+	#endif
 	#ifdef FS_USE_PROXY
 	d.setUseProxy( use_proxy );
 	d.setProxyHostname( proxy_host );
@@ -777,6 +780,9 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 
 	if (d.exec() == QDialog::Accepted) {
 		os_server = d.server();
+		#ifdef OS_SEARCH_WORKAROUND
+		osclient->setRetries( d.retries() );
+		#endif
 		#ifdef FS_USE_PROXY
 		use_proxy = d.useProxy();
 		proxy_host = d.proxyHostname();

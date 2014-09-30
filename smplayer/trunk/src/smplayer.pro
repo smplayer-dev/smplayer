@@ -281,6 +281,7 @@ contains( DEFINES, SINGLE_INSTANCE ) {
 # Find subtitles dialog
 contains( DEFINES, FIND_SUBTITLES ) {
 	DEFINES += DOWNLOAD_SUBS
+	DEFINES += OS_SEARCH_WORKAROUND
 	#DEFINES += USE_QUAZIP
 
 	INCLUDEPATH += findsubtitles

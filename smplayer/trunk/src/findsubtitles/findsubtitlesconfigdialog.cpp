@@ -40,6 +40,10 @@ FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::Windo
 	proxy_group->hide();
 #endif
 
+#ifndef OS_SEARCH_WORKAROUND
+	misc_group->hide();
+#endif
+
 	layout()->setSizeConstraint(QLayout::SetFixedSize);
 }
 
@@ -53,6 +57,16 @@ void FindSubtitlesConfigDialog::setServer(QString server) {
 QString FindSubtitlesConfigDialog::server() {
 	return server_edit->text();
 }
+
+#ifdef OS_SEARCH_WORKAROUND
+void FindSubtitlesConfigDialog::setRetries(int n) {
+	retries_spin->setValue(n);
+}
+
+int FindSubtitlesConfigDialog::retries() {
+	return retries_spin->value();
+}
+#endif
 
 #ifdef FS_USE_PROXY
 void FindSubtitlesConfigDialog::setUseProxy(bool b) {
