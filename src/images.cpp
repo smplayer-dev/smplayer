@@ -71,7 +71,7 @@ void Images::setTheme(const QString & name) {
 	}
 
 	QString rs_file = resourceFilename();
-	if (QFile::exists(rs_file)) {
+	if ((!rs_file.isEmpty()) && (QFile::exists(rs_file))) {
 		qDebug() << "Images::setTheme: loading" << rs_file;
 		QResource::registerResource(rs_file);
 		last_resource_loaded = rs_file;
@@ -90,26 +90,26 @@ void Images::setThemesPath(const QString & folder) {
 
 QString Images::file(const QString & name) {
 #ifdef SMCODE
-	if (pref->iconset.isEmpty()) {
-		return ":/icons-png/" + name + ".png";
-	}
-
 	if (current_theme != pref->iconset) {
 		setTheme(pref->iconset);
 	}
 #endif
 
-#ifdef USE_RESOURCES
 	QString icon_name;
-	if (has_rcc) {
-		icon_name = ":/" + current_theme + "/"+ name + ".png";
-	} else {
+	if (!current_theme.isEmpty()) {
+	#ifdef USE_RESOURCES
+		if (has_rcc) {
+			icon_name = ":/" + current_theme + "/"+ name + ".png";
+		} else {
+			icon_name = themes_path +"/"+ current_theme + "/"+ name + ".png";
+		}
+	#else
 		icon_name = themes_path +"/"+ current_theme + "/"+ name + ".png";
+	#endif
 	}
-#else
-	QString icon_name = themes_path +"/"+ current_theme + "/"+ name + ".png";
-#endif
-	if (!QFile::exists(icon_name)) {
+
+	//qDebug() << "Images::file:" << icon_name;
+	if ((icon_name.isEmpty()) || (!QFile::exists(icon_name))) {
 		icon_name = ":/icons-png/" + name + ".png";
 	}
 
