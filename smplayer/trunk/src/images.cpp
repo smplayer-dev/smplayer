@@ -90,6 +90,10 @@ void Images::setThemesPath(const QString & folder) {
 
 QString Images::file(const QString & name) {
 #ifdef SMCODE
+	if (pref->iconset.isEmpty()) {
+		return ":/icons-png/" + name + ".png";
+	}
+
 	if (current_theme != pref->iconset) {
 		setTheme(pref->iconset);
 	}
