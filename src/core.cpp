@@ -22,6 +22,7 @@
 #include <QRegExp>
 #include <QTextStream>
 #include <QUrl>
+#include <QNetworkProxy>
 
 #ifdef Q_OS_OS2
 #include <QEventLoop>
@@ -2521,13 +2522,19 @@ void Core::startMplayer( QString file, double seek ) {
 	QString line_for_log = commandline + "\n";
 	emit logLineAvailable(line_for_log);
 
-#ifdef Q_OS_WIN
 	QProcessEnvironment env = QProcessEnvironment::systemEnvironment();
+	if ((pref->use_proxy) && (pref->proxy_type == QNetworkProxy::HttpProxy) && (!pref->proxy_host.isEmpty())) {
+		QString proxy = QString("http://%1:%2@%3:%4").arg(pref->proxy_username).arg(pref->proxy_password).arg(pref->proxy_host).arg(pref->proxy_port);
+		env.insert("http_proxy", proxy);
+	}
+	//qDebug("Core::startMplayer: env: %s", env.toStringList().join(",").toUtf8().constData());
+	#ifdef Q_OS_WIN
 	if (!pref->use_windowsfontdir) {
 		env.insert("FONTCONFIG_FILE", Paths::configPath() + "/fonts.conf");
 	}
+	#endif
 	proc->setProcessEnvironment(env);
-#endif
+
 	if ( !proc->start() ) {
 	    // error handling
 		qWarning("Core::startMplayer: mplayer process didn't start");
