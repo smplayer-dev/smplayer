@@ -69,7 +69,10 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		tr("Support forum:") +" "+  link("http://smplayer.sourceforge.net/forum/") +"<br>"+
         "<br>" + 
 		tr("SMPlayer uses the award-winning MPlayer as playback engine. See %1")
-		   .arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">http://www.mplayerhq.hu</a>")
+		   .arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">http://www.mplayerhq.hu</a>") +
+        "<br><br>" +
+		tr("Subtitles service powered by %1").arg("<a href=\"http://www.opensubtitles.org\">www.OpenSubtitles.org</a>")
+        /* + "<br><a href=\"http://www.opensubtitles.org\"><img src=\":icons-png/opensubtitles-logo.png\"></a>" */
 	);
 
 
