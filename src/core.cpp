@@ -2496,16 +2496,18 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-playlist");
 	}
 
-#ifdef Q_OS_WIN
-	if (pref->use_short_pathnames)
-		proc->addArgument(Helper::shortPathName(file));
-	else
-#endif
-
 	// Open https URLs with ffmpeg
 	if (file.startsWith("https")) file = "ffmpeg://" + file;
 
-	proc->addArgument( file );
+#ifdef Q_OS_WIN
+	if (pref->use_short_pathnames) {
+		proc->addArgument(Helper::shortPathName(file));
+	}
+	else
+#endif
+	{
+		proc->addArgument( file );
+	}
 
 	// It seems the loop option must be after the filename
 	if (mset.loop) {
