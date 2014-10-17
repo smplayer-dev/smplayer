@@ -42,6 +42,9 @@
 
 #define RENAME_PICTURES 0
 
+// MPlayer2 doesn't support png outdir
+/* #define VP_USE_PNG_OUTDIR */
+
 VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(parent, Qt::Window)
 {
 	setMplayerPath(mplayer_path);
@@ -273,7 +276,11 @@ bool VideoPreview::runMplayer(int seek, double aspect_ratio) {
 
 	if (prop.extract_format == PNG) {
 		args << "-vo"
+		#ifdef VP_USE_PNG_OUTDIR
 		<< "png:outdir=\""+full_output_dir+"\"";
+		#else
+		<< "png";
+		#endif
 	} else {
 		args << "-vo"
 		<< "jpeg:outdir=\""+full_output_dir+"\"";
@@ -302,6 +309,9 @@ bool VideoPreview::runMplayer(int seek, double aspect_ratio) {
 	qDebug("VideoPreview::runMplayer: command: %s", command.toUtf8().constData());
 
 	QProcess p;
+	#ifndef VP_USE_PNG_OUTDIR
+	p.setWorkingDirectory(full_output_dir);
+	#endif
 	p.start(mplayer_bin, args);
 	if (!p.waitForFinished()) {
 		qDebug("VideoPreview::runMplayer: error running process");
