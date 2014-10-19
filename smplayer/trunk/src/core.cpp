@@ -2082,6 +2082,12 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mdat.type==TYPE_DVD) {
 		if (!dvd_folder.isEmpty()) {
 			proc->addArgument("-dvd-device");
+			#ifdef Q_OS_WIN
+			if (pref->use_short_pathnames) {
+				proc->addArgument(Helper::shortPathName(dvd_folder));
+			}
+			else
+			#endif
 			proc->addArgument( dvd_folder );
 		} else {
 			qWarning("Core::startMplayer: dvd device is empty!");
