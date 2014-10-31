@@ -1559,8 +1559,8 @@ void Preferences::load() {
        SMPlayer info
        ********* */
 
-#ifdef CHECK_UPGRADED
 	set->beginGroup("smplayer");
+#ifdef CHECK_UPGRADED
 	smplayer_stable_version = set->value("stable_version", smplayer_stable_version).toString();
 	check_if_upgraded = set->value("check_if_upgraded", check_if_upgraded).toBool();
 #endif
