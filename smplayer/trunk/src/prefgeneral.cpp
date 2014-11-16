@@ -39,6 +39,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 
 	// Read driver info from InfoReader:
 	InfoReader * i = InfoReader::obj();
+	i->getInfo();
 	vo_list = i->voList();
 	ao_list = i->aoList();
 
@@ -259,15 +260,12 @@ void PrefGeneral::getData(Preferences * pref) {
 
 		qDebug("PrefGeneral::getData: mplayer binary has changed, getting version number");
 		// Forces to get info from mplayer to update version number
-		InfoReader i( pref->mplayer_bin );
-		i.getInfo(); 
+		InfoReader * i = InfoReader::obj();
+		i->getInfo();
 		// Update the drivers list at the same time
-		//setDrivers( i.voList(), i.aoList() );
-#ifdef Q_OS_OS2
-		vo_list = i.voList();
-		ao_list = i.aoList();
+		vo_list = i->voList();
+		ao_list = i->aoList();
 		updateDriverCombos();
-#endif
 	}
 
 	TEST_AND_SET(pref->use_screenshot, useScreenshots());

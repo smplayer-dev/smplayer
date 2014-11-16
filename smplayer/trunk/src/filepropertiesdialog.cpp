@@ -38,10 +38,6 @@ FilePropertiesDialog::FilePropertiesDialog( QWidget* parent, Qt::WindowFlags f )
 
 	codecs_set = false;
 
-	// Read codec info from InfoReader:
-	InfoReader *i = InfoReader::obj();
-	setCodecs( i->vcList(), i->acList(), i->demuxerList() );
-
 	retranslateStrings();
 }
 
@@ -94,6 +90,10 @@ void FilePropertiesDialog::setCodecs(InfoList vc, InfoList ac, InfoList demuxer)
 	vclist = vc;
 	aclist = ac;
 	demuxerlist = demuxer;
+
+	vc_listbox->clear();
+	ac_listbox->clear();
+	demuxer_listbox->clear();
 
 	InfoList::iterator it;
 

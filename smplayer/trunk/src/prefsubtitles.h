@@ -45,21 +45,6 @@ public:
 protected:
 	virtual void createHelp();
 
-	void setFontName(QString font_name);
-	QString fontName();
-
-	void setFontFile(QString font_file);
-	QString fontFile();
-
-	void setUseFontconfig(bool b);
-	bool useFontconfig();
-
-	void setFontAutoscale(int n);
-	int fontAutoscale();
-
-	void setFontTextscale(double n);
-	double fontTextscale();
-
 	void setAssFontScale(double n);
 	double assFontScale();
 
@@ -74,12 +59,6 @@ protected:
 
 	void setEncaLang(QString s);
 	QString encaLang();
-
-	void setSubPos(int pos);
-	int subPos();
-
-	void setUseFontASS(bool v);
-	bool useFontASS();
 
 	void setAssLineSpacing(int spacing);
 	int assLineSpacing();
@@ -100,7 +79,7 @@ protected:
 	bool freetypeSupport();
 
 protected slots:
-	void on_ass_subs_button_toggled(bool b);
+	/* void on_ass_subs_button_toggled(bool b); */
 	void on_ass_customize_button_clicked();
 	void on_freetype_check_toggled(bool b);
 	void on_windowsfontdir_check_toggled(bool b);

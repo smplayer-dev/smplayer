@@ -29,9 +29,9 @@ public:
 
 	virtual bool existSettingsFor(QString filename);
 
-	virtual void loadSettingsFor(QString filename, MediaSettings & mset);
+	virtual void loadSettingsFor(QString filename, MediaSettings & mset, int player);
 
-	virtual void saveSettingsFor(QString filename, MediaSettings & mset);
+	virtual void saveSettingsFor(QString filename, MediaSettings & mset, int player);
 
 private:
 	QString configFile(const QString & filename, QString * output_dir = 0);

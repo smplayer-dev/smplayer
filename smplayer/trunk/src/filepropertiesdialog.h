@@ -35,6 +35,9 @@ public:
 
 	void setMediaData(MediaData md);
 
+	// Call it as soon as possible
+	void setCodecs(InfoList vc, InfoList ac, InfoList demuxer);
+
 	void setDemuxer(QString demuxer, QString original_demuxer="");
 	QString demuxer();
 
@@ -66,8 +69,6 @@ protected slots:
 	virtual void on_resetVCButton_clicked();
 
 protected:
-	// Call it as soon as possible
-	void setCodecs(InfoList vc, InfoList ac, InfoList demuxer);
 	bool hasCodecsList() { return codecs_set; };
 
 	int find(QString s, InfoList &list);

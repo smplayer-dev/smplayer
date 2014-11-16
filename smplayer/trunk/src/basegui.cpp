@@ -2277,6 +2277,7 @@ void BaseGui::createPreferencesDialog() {
 }
 
 void BaseGui::createFilePropertiesDialog() {
+	qDebug("BaseGui::createFilePropertiesDialog");
 	QApplication::setOverrideCursor(Qt::WaitCursor);
 	file_dialog = new FilePropertiesDialog(this);
 	file_dialog->setModal(false);
@@ -2844,6 +2845,8 @@ void BaseGui::applyNewPreferences() {
 
 	bool need_update_language = false;
 
+	PlayerID::Player old_player_type = PlayerID::player(pref->mplayer_bin);
+
 	pref_dialog->getData(pref);
 
 	// Setup proxy
@@ -2964,6 +2967,16 @@ void BaseGui::applyNewPreferences() {
 			tr("You need to restart SMPlayer to use the new GUI.") );
 #endif
 	}
+
+	if (old_player_type != PlayerID::player(pref->mplayer_bin)) {
+		qDebug("BaseGui::applyNewPreferences: player changed!");
+		// Hack, simulate a change of GUI to restart the interface
+		// FIXME: try to create a new Core::proc in the future
+		#ifdef GUI_CHANGE_ON_RUNTIME
+		core->stop();
+		emit guiChanged(pref->gui);
+		#endif
+	}
 }
 
 
@@ -2982,6 +2995,10 @@ void BaseGui::showFilePropertiesDialog() {
 }
 
 void BaseGui::setDataToFileProperties() {
+	InfoReader *i = InfoReader::obj();
+	i->getInfo();
+	file_dialog->setCodecs( i->vcList(), i->acList(), i->demuxerList() );
+
 	// Save a copy of the original values
 	if (core->mset.original_demuxer.isEmpty()) 
 		core->mset.original_demuxer = core->mdat.demuxer;
@@ -3297,10 +3314,12 @@ void BaseGui::initializeMenus() {
 
 	// Chapters
 	chapterGroup->clear(true);
+	//qDebug("BaseGui::initializeMenus: mdat.chapters.numItems: %d", core->mdat.chapters.numItems());
 	if (core->mdat.chapters.numItems() > 0) {
 		for (n=0; n < core->mdat.chapters.numItems(); n++) {
 			QAction *a = new QAction(chapterGroup);
 			//a->setCheckable(true);
+			//qDebug("BaseGui::initializeMenus: chapter %d name: %s", n, core->mdat.chapters.itemAt(n).name().toUtf8().constData());
 			a->setText(core->mdat.chapters.itemAt(n).name());
 			a->setData(core->mdat.chapters.itemAt(n).ID());
 		}
@@ -3890,9 +3909,11 @@ void BaseGui::openDVD() {
 	} else {
 		if (playlist->maybeSave()) {
 #if DVDNAV_SUPPORT
-			core->openDVD( DiscName::joinDVD(pref->use_dvdnav ? 0: 1, pref->dvd_device, pref->use_dvdnav) );
+			int first_title = 0;
+			if (!pref->use_dvdnav) first_title = core->firstDVDTitle();
+			core->openDVD( DiscName::joinDVD(first_title, pref->dvd_device, pref->use_dvdnav) );
 #else
-			core->openDVD( DiscName::joinDVD(1, pref->dvd_device, false) );
+			core->openDVD( DiscName::joinDVD(core->firstDVDTitle(), pref->dvd_device, false) );
 #endif
 		}
 	}
@@ -3917,9 +3938,11 @@ void BaseGui::openDVDFromFolder() {
 void BaseGui::openDVDFromFolder(QString directory) {
 	pref->last_dvd_directory = directory;
 #if DVDNAV_SUPPORT
-	core->openDVD( DiscName::joinDVD(pref->use_dvdnav ? 0: 1, directory, pref->use_dvdnav) );
+	int first_title = 0;
+	if (!pref->use_dvdnav) first_title = core->firstDVDTitle();
+	core->openDVD( DiscName::joinDVD(first_title, directory, pref->use_dvdnav) );
 #else
-	core->openDVD( DiscName::joinDVD(1, directory, false) );
+	core->openDVD( DiscName::joinDVD(core->firstDVDTitle(), directory, false) );
 #endif
 }
 
@@ -3930,7 +3953,7 @@ void BaseGui::openDVDFromFolder(QString directory) {
  */
 void BaseGui::openBluRayFromFolder(QString directory) {
 	pref->last_dvd_directory = directory;
-	core->openBluRay( DiscName::join(DiscName::BLURAY, 1, directory) );
+	core->openBluRay( DiscName::join(DiscName::BLURAY, core->firstBlurayTitle(), directory) );
 }
 
 /**
@@ -3945,7 +3968,7 @@ void BaseGui::openBluRay() {
 	{
 		configureDiscDevices();
 	} else {
-		core->openBluRay( DiscName::join(DiscName::BLURAY, 1, pref->bluray_device) );
+		core->openBluRay( DiscName::join(DiscName::BLURAY, core->firstBlurayTitle(), pref->bluray_device) );
 	}
 }
 

@@ -18,6 +18,7 @@
 
 #include "videopreview.h"
 #include "videopreviewconfigdialog.h"
+#include "playerid.h"
 #include <QProcess>
 #include <QRegExp>
 #include <QDir>
@@ -244,7 +245,7 @@ bool VideoPreview::extractImages() {
 
 		if (canceled) return false;
 
-		if (!runMplayer(current_time, aspect_ratio)) return false;
+		if (!runPlayer(current_time, aspect_ratio)) return false;
 
 		QString frame_picture = full_output_dir + "/" + framePicture();
 		if (!QFile::exists(frame_picture)) {
@@ -270,37 +271,52 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
-bool VideoPreview::runMplayer(int seek, double aspect_ratio) {
+bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 	QStringList args;
-	args << "-nosound";
 
-	if (prop.extract_format == PNG) {
-		args << "-vo"
-		#ifdef VP_USE_PNG_OUTDIR
-		<< "png:outdir=\""+full_output_dir+"\"";
-		#else
-		<< "png";
-		#endif
-	} else {
-		args << "-vo"
-		<< "jpeg:outdir=\""+full_output_dir+"\"";
+	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
+		// MPV
+		args << "-no-audio" << "--no-cache";
+		args << "--frames=6" << "--start=" + QString::number(seek);
+		if (aspect_ratio != 0) {
+			args << "--video-aspect=" + QString::number(aspect_ratio);
+		}
+		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
+		QString format = (prop.extract_format == PNG) ? "png" : "jpg";
+		args << QString("--vo=image=format=%1:outdir=\"%2\"").arg(format).arg(full_output_dir);
 	}
+	else {
+		// MPlayer
+		args << "-nosound" << "-nocache";
 
-	args << "-frames" << "6" << "-ss" << QString::number(seek);
+		if (prop.extract_format == PNG) {
+			args << "-vo"
+			#ifdef VP_USE_PNG_OUTDIR
+			<< "png:outdir=\""+full_output_dir+"\"";
+			#else
+			<< "png";
+			#endif
+		} else {
+			args << "-vo"
+			<< "jpeg:outdir=\""+full_output_dir+"\"";
+		}
 
-	if (aspect_ratio != 0) {
-		args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
+		args << "-frames" << "6" << "-ss" << QString::number(seek);
+
+		if (aspect_ratio != 0) {
+			args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
+		}
+
+		if (!prop.dvd_device.isEmpty()) {
+			args << "-dvd-device" << prop.dvd_device;
+		}
+
+		/*
+		if (display_osd) {
+			args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
+		}
+		*/
 	}
-
-	if (!prop.dvd_device.isEmpty()) {
-		args << "-dvd-device" << prop.dvd_device;
-	}
-
-	/*
-	if (display_osd) {
-		args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
-	}
-	*/
 
 	args << prop.input_video;
 
@@ -452,10 +468,29 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	p.setProcessChannelMode( QProcess::MergedChannels );
 
 	QStringList args;
-	args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet" << filename;
 
-	if (!prop.dvd_device.isEmpty()) {
-		args << "-dvd-device" << prop.dvd_device;
+	if (PlayerID::player(mplayer_path) == PlayerID::MPV) {
+		// MPV
+		args << "--term-playing-msg="
+                "ID_LENGTH=${=length}\n"
+                "ID_VIDEO_WIDTH=${=width}\n"
+                "ID_VIDEO_HEIGHT=${=height}\n"
+                "ID_VIDEO_FPS=${=fps}\n"
+                "ID_VIDEO_ASPECT=${=video-aspect}\n"
+                "ID_VIDEO_BITRATE=${=video-bitrate}\n"
+                "ID_AUDIO_BITRATE=${=audio-bitrate}\n"
+                "ID_AUDIO_RATE=${=audio-samplerate}\n"
+                "ID_VIDEO_FORMAT=${=video-format}";
+
+		args << "--vo=null" << "-ao=null" << "--frames=1" << "--no-quiet" << "--no-cache" << "--no-config";
+		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
+		args << filename;
+	}
+	else {
+		// MPlayer
+		args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet";
+		if (!prop.dvd_device.isEmpty()) args << "-dvd-device" << prop.dvd_device;
+		args << filename;
 	}
 
 	p.start(mplayer_path, args);

@@ -41,11 +41,18 @@ public:
 
 	static bool isMplayer2() { return is_mplayer2; };
 
+	static bool isMPV() { return is_mpv; };
+
 	static QString toString(int mplayer_svn);
+
+	static QString mplayer2Version() { return mplayer2_version; };
+	static QString mpvVersion() { return mpv_version; };
 
 protected:
 	static QString mplayer2_version;
-	static bool is_mplayer2; 
+	static QString mpv_version;
+	static bool is_mplayer2;
+	static bool is_mpv;
 };
 
 #endif

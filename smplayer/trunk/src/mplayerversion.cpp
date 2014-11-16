@@ -25,7 +25,9 @@
 using namespace Global;
 
 QString MplayerVersion::mplayer2_version;
+QString MplayerVersion::mpv_version;
 bool MplayerVersion::is_mplayer2 = false;
+bool MplayerVersion::is_mpv = false;
 
 int MplayerVersion::mplayerVersion(QString string) {
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
@@ -34,6 +36,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 	static QRegExp rx_mplayer_git("^MPlayer GIT(.*)", Qt::CaseInsensitive);
 	static QRegExp rx_mplayer_version_final("1.0rc([0-9])");
 	static QRegExp rx_mplayer2_version("^MPlayer2 (.*) \\(C\\).*", Qt::CaseInsensitive);
+	static QRegExp rx_mpv_version("^mpv (.*) \\(C\\).*", Qt::CaseInsensitive);
 #ifndef Q_OS_WIN
 	static QRegExp rx_mplayer_version_ubuntu("^MPlayer (\\d):(\\d)\\.(\\d)~(.*)");
 	static QRegExp rx_mplayer_revision_ubuntu("^MPlayer svn r(\\d+) (.*)");
@@ -43,6 +46,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 	int mplayer_svn = 0;
 	mplayer2_version = QString::null;
 	is_mplayer2 = false;
+	is_mpv = false;
 
 #ifdef Q_OS_WIN
 	// Hack to recognize mplayer 1.0rc2 from CCCP:
@@ -114,6 +118,14 @@ int MplayerVersion::mplayerVersion(QString string) {
 	if (rx_mplayer2_version.indexIn(string) > -1) {
 		mplayer2_version = rx_mplayer2_version.cap(1);
 		qDebug("MplayerVersion::mplayerVersion: MPlayer2 version found: %s", mplayer2_version.toUtf8().data());
+		is_mplayer2 = true;
+		mplayer_svn = MPLAYER_1_0_RC4_SVN; // simulates mplayer 1.0rc4
+	}
+	else
+	if (rx_mpv_version.indexIn(string) > -1) {
+		mpv_version = rx_mpv_version.cap(1);
+		qDebug("MplayerVersion::mplayerVersion: mpv version found: %s", mpv_version.toUtf8().data());
+		is_mpv = true;
 		is_mplayer2 = true;
 		mplayer_svn = MPLAYER_1_0_RC4_SVN; // simulates mplayer 1.0rc4
 	}

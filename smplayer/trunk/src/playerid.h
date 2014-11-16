@@ -16,43 +16,16 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "videopreview.h"
-#include <QApplication>
-#include <QWidget>
-#include <QSettings>
-#include <stdio.h>
+#ifndef PLAYERID_H
+#define PLAYERID_H
 
-int main( int argc, char ** argv ) 
+#include <QString>
+
+class PlayerID
 {
-	QApplication a( argc, argv );
+public:
+	enum Player { MPLAYER = 0, MPV = 1 };
+	static Player player(const QString & player_bin);
+};
 
-	QString filename;
-
-	if (a.arguments().count() > 1) {
-		filename = a.arguments()[1];
-	}
-
-	QSettings set(QSettings::IniFormat, QSettings::UserScope, "RVM", "videopreview");
-
-	//VideoPreview vp("mplayer");
-	VideoPreview vp("mpv");
-	vp.setSettings(&set);
-
-	if (!filename.isEmpty())
-		vp.setVideoFile(filename);
-
-	/*
-	vp.setGrid(4,5);
-	vp.setMaxWidth(800);
-	vp.setDisplayOSD(true);
-	*/
-	//vp.setAspectRatio( 2.35 );
-
-	if ( (vp.showConfigDialog(&vp)) && (vp.createThumbnails()) ) {
-		vp.show();
-		vp.adjustWindowSize();
-		return a.exec();
-	}
-
-	return 0;
-}
+#endif

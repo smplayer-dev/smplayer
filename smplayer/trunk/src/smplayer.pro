@@ -81,7 +81,10 @@ HEADERS += guiconfig.h \
 	desktopinfo.h \
 	myprocess.h \
 	mplayerversion.h \
+	playerid.h \
+	playerprocess.h \
 	mplayerprocess.h \
+	mpvprocess.h \
 	infoprovider.h \
 	mplayerwindow.h \
 	mediadata.h \
@@ -97,6 +100,8 @@ HEADERS += guiconfig.h \
 	tvsettings.h \
 	images.h \
 	inforeader.h \
+	inforeadermplayer.h \
+	inforeadermpv.h \
 	deviceinfo.h \
 	recents.h \
 	urlhistory.h \
@@ -179,7 +184,10 @@ SOURCES	+= version.cpp \
 	desktopinfo.cpp \
 	myprocess.cpp \
 	mplayerversion.cpp \
+	playerid.cpp \
+	playerprocess.cpp \
 	mplayerprocess.cpp \
+	mpvprocess.cpp \
 	infoprovider.cpp \
 	mplayerwindow.cpp \
 	mediadata.cpp \
@@ -194,6 +202,8 @@ SOURCES	+= version.cpp \
 	tvsettings.cpp \
 	images.cpp \
 	inforeader.cpp \
+	inforeadermplayer.cpp \
+	inforeadermpv.cpp \
 	deviceinfo.cpp \
 	recents.cpp \
 	urlhistory.cpp \

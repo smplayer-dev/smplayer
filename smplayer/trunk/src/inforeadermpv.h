@@ -16,30 +16,50 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TV_SETTINGS_H_
-#define _TV_SETTINGS_H_
 
-#include "filesettingsbase.h"
+#ifndef INFOREADER_MPV_H
+#define INFOREADER_MPV_H
 
-class QSettings;
+#include "inforeader.h"
+#include <QObject>
+#include <QList>
 
-class TVSettings : public FileSettingsBase
-{
+class QProcess;
+
+class InfoReaderMPV : QObject {
+	Q_OBJECT
+
 public:
-	TVSettings(QString directory);
-	virtual ~TVSettings();
+	InfoReaderMPV( QString mplayer_bin, QObject * parent = 0);
+	~InfoReaderMPV();
 
-	virtual bool existSettingsFor(QString filename);
+	void getInfo();
 
-	virtual void loadSettingsFor(QString filename, MediaSettings & mset, int player);
+	InfoList voList() { return vo_list; };
+	InfoList aoList() { return ao_list; };
+	InfoList demuxerList() { return demuxer_list; };
+	InfoList vcList() { return vc_list; };
+	InfoList acList() { return ac_list; };
 
-	virtual void saveSettingsFor(QString filename, MediaSettings & mset, int player);
+	int mplayerSVN() { return mplayer_svn; };
+	QString mpvVersion() { return mpv_version; };
 
-	static QString filenameToGroupname(const QString & filename);
+protected:
+	InfoList run(QString options);
+	void list();
 
-private:
-	QSettings * my_settings;
+protected:
+	QProcess * proc;
+	QString mplayerbin;
+
+	InfoList vo_list;
+	InfoList ao_list;
+	InfoList demuxer_list;
+	InfoList vc_list;
+	InfoList ac_list;
+
+	int mplayer_svn;
+	QString mpv_version;
 };
 
 #endif
-

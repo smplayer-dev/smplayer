@@ -21,6 +21,11 @@
 
 #include <Qt>
 
+#define NOTIFY_SUB_CHANGES 1
+#define NOTIFY_AUDIO_CHANGES 1
+#define NOTIFY_VIDEO_CHANGES 0
+#define NOTIFY_CHAPTER_CHANGES 1
+
 
 // STYLE_SWITCHING
 // if 1, the preferences dialog will have an option to switch

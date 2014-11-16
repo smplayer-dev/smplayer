@@ -53,7 +53,7 @@ bool FileSettingsHash::existSettingsFor(QString filename) {
 	return QFile::exists(config_file);
 }
 
-void FileSettingsHash::loadSettingsFor(QString filename, MediaSettings & mset) {
+void FileSettingsHash::loadSettingsFor(QString filename, MediaSettings & mset, int player) {
 	qDebug("FileSettings::loadSettingsFor: '%s'", filename.toUtf8().constData());
 
 	QString config_file = configFile(filename);
@@ -66,12 +66,12 @@ void FileSettingsHash::loadSettingsFor(QString filename, MediaSettings & mset) {
 		QSettings settings(config_file, QSettings::IniFormat);
 
 		settings.beginGroup("file_settings");
-		mset.load(&settings);
+		mset.load(&settings, player);
 		settings.endGroup();
 	}
 }
 
-void FileSettingsHash::saveSettingsFor(QString filename, MediaSettings & mset) {
+void FileSettingsHash::saveSettingsFor(QString filename, MediaSettings & mset, int player) {
 	qDebug("FileSettingsHash::saveSettingsFor: '%s'", filename.toUtf8().constData());
 
 	QString output_dir;
@@ -94,7 +94,7 @@ void FileSettingsHash::saveSettingsFor(QString filename, MediaSettings & mset) {
 		/* settings.setValue("filename", filename); */
 
 		settings.beginGroup("file_settings");
-		mset.save(&settings);
+		mset.save(&settings, player);
 		settings.endGroup();
 		settings.sync();
 	}

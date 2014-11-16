@@ -42,7 +42,10 @@ class MyProcess : public QProcess
 public:
 	MyProcess ( QObject * parent = 0 );
 
-	void addArgument(const QString & a); 	//!< Add an argument
+	virtual void setExecutable(const QString & p) { program = p; };
+	QString executable() { return program; };
+
+	virtual void addArgument(const QString & a); 	//!< Add an argument
 
 	void clearArguments(); 		//!< Clear the list of arguments
 	QStringList arguments(); 	//!< Return the list of arguments
@@ -68,7 +71,7 @@ protected:
 	//! Called from readStdOut() and readTmpFile() to do all the work
 	void genericRead(QByteArray buffer);
 
-private:
+protected:
 	QString program;
 	QStringList arg;
 

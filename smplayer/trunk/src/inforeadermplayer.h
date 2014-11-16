@@ -17,45 +17,22 @@
 */
 
 
-#ifndef INFOREADER_H
-#define INFOREADER_H
+#ifndef INFOREADER_MPLAYER_H
+#define INFOREADER_MPLAYER_H
 
+#include "inforeader.h"
 #include <QObject>
 #include <QList>
 
-class InfoData {
-
-public:
-	InfoData() {};
-	InfoData( QString name, QString desc) {
-		_name = name;
-		_desc = desc;
-	};
-	~InfoData() {};
-
-	void setName(QString name) { _name = name; };
-	void setDesc(QString desc) { _desc = desc; };
-
-	QString name() { return _name; };
-	QString desc() { return _desc; };
-
-private:
-	QString _name, _desc;
-};
+class QProcess;
 
 
-typedef QList<InfoData> InfoList;
-
-
-class InfoReader : QObject {
+class InfoReaderMplayer : QObject {
 	Q_OBJECT
 
 public:
-	InfoReader( QString mplayer_bin, QObject * parent = 0 );
-	~InfoReader();
-
-	void setPlayerBin(const QString & bin);
-	QString playerBin() { return mplayerbin; }
+	InfoReaderMplayer( QString mplayer_bin, QObject * parent = 0);
+	~InfoReaderMplayer();
 
 	void getInfo();
 
@@ -66,18 +43,18 @@ public:
 	InfoList acList() { return ac_list; };
 
 	int mplayerSVN() { return mplayer_svn; };
-	QString mpvVersion() { return mpv_version; };
 	QString mplayer2Version() { return mplayer2_version; };
 	bool isMplayer2() { return is_mplayer2; };
-	bool isMPV() { return is_mpv; };
 
-	QString playerVersion();
-
-	//! Returns an InfoReader object. If it didn't exist before, one
-	//! is created.
-	static InfoReader * obj(const QString & mplayer_bin = QString::null);
+protected slots:
+	virtual void readLine(QByteArray);
 
 protected:
+	bool run(QString options);
+	void list();
+
+protected:
+	QProcess * proc;
 	QString mplayerbin;
 
 	InfoList vo_list;
@@ -87,18 +64,12 @@ protected:
 	InfoList ac_list;
 
 	int mplayer_svn;
-	QString mpv_version;
 	QString mplayer2_version;
-	bool is_mplayer2, is_mpv;
+	bool is_mplayer2;
 
 private:
-	static InfoReader * static_obj;
-	static QStringList convertInfoListToList(InfoList l);
-	static InfoList convertListToInfoList(QStringList l);
-
-#ifdef Q_OS_LINUX
-	static QString findApp(const QString & appname);
-#endif
+	bool waiting_for_key;
+	int reading_type;
 };
 
 #endif
