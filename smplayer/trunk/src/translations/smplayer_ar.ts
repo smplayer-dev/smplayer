@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -236,22 +234,22 @@
     <message>
         <location filename="../about.cpp" line="197"/>
         <source>Tamil</source>
-        <translation type="unfinished">التاميلية</translation>
+        <translation>التاميلية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="198"/>
         <source>Malayalam</source>
-        <translation type="unfinished">الملايلامية</translation>
+        <translation>الملايلامية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="199"/>
         <source>Thai</source>
-        <translation type="unfinished">التايلاندية</translation>
+        <translation>التايلاندية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="200"/>
         <source>Persian</source>
-        <translation type="unfinished">الفارسية</translation>
+        <translation>الفارسية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="225"/>
@@ -2631,42 +2629,42 @@ resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>مكّن/عطّل استخدام الخادوم الوسيط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
         <translation>اسم مضيف الوسيط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
         <translation>منفذ الوسيط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>إن احتاج الوسيط إلى استيثاق، فهذا يعيّن اسم المستخدم.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>كلمة المرور إلى الخادوم الوسيط. &lt;b&gt;تحذير:&lt;/b&gt; ستُخزن كلمة المرور كنص مجرّد بلا تشفير في ملف الضبط.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
         <translation>اختر نوع الوسيط المُستعمل.</translation>
     </message>
@@ -2724,120 +2722,113 @@ resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
         <translation>اللغة</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
         <translation>الاسم</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
         <translation>الصيغة</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
         <translation>الملفات</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
         <translation>التاريخ</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
         <translation>رفعها</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
         <translation>البرتغالية - البرازيل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
         <translation>الكل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
         <translation>أغلق</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>فشل الدخول إلى opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
         <translation>فشل البحث</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>استخرجت %n ترجمة</numerusform>
-            <numerusform>استُخرجت ترجمة وحيدة</numerusform>
-            <numerusform>استُخرجت ترجمتان</numerusform>
-            <numerusform>استُخرجت %n ترجمات</numerusform>
-            <numerusform>استُخرجت %n ترجمةً</numerusform>
-            <numerusform>استُخرجت %n ترجمة</numerusform>
-        </translation>
+        <translation><numerusform>استخرجت %n ترجمة</numerusform><numerusform>استُخرجت ترجمة وحيدة</numerusform><numerusform>استُخرجت ترجمتان</numerusform><numerusform>استُخرجت %n ترجمات</numerusform><numerusform>استُخرجت %n ترجمةً</numerusform><numerusform>استُخرجت %n ترجمة</numerusform></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
         <source>Error fixing the subtitle lines</source>
         <translation>وقع خطأ أثناء إصلاح سطور الترجمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
         <translation>&amp;نزِّل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>ان&amp;سخ الرابط إلى الحافظة</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
         <translation>الخطأ</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
         <translation>فشل التنزيل: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
         <translation>يتصل بـ%1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
         <translation>يُنزّل...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
         <translation>تمّ.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
         <translation>الملفات المتوفرة: %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
         <translation>فشلَ في تفسير البيانات المُستلَمة.</translation>
     </message>
@@ -2862,45 +2853,45 @@ resample=44100:0:0,volnorm</translation>
         <translation>&amp;حدِّث</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="672"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>حُفظت الترجمة بالاسم %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>Overwrite?</source>
         <translation>أتريد الكتابة عليه؟</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="710"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>الملف %1 مُوجَد من قبل. أتريد الكتابة عليه؟</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="520"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>Error saving file</source>
         <translation>وقع خطأ أثناء حفظ الملف</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
 رجاء افحص صلاحيات هذا المجلد.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="493"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
         <source>Download failed</source>
         <translation>فشل التنزيل</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="605"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
         <source>Temporary file %1</source>
         <translation>الملف المؤقت %1</translation>
     </message>
@@ -7206,112 +7197,112 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>الخادوم الو&amp;سيط</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">م&amp;كّن الخادوم الوسيط</translation>
+        <translation>م&amp;كن الخادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="43"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">المُ&amp;ضيف:</translation>
+        <translation>المُ&amp;ضيف:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="56"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">المن&amp;فذ:</translation>
+        <translation>المن&amp;فذ:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="76"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">ا&amp;سم المستخدم:</translation>
+        <translation>ا&amp;سم المستخدم:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">كلمة الم&amp;رور:</translation>
+        <translation>كلمة الم&amp;رور:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="106"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">ال&amp;نوع:</translation>
+        <translation>ال&amp;نوع:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="29"/>
         <source>HTTP</source>
-        <translation type="unfinished">HTTP</translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="30"/>
         <source>SOCKS5</source>
-        <translation type="unfinished">SOCKS5</translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="40"/>
         <source>Network</source>
-        <translation type="unfinished">الشبكة</translation>
+        <translation>الشبكة</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="89"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن الخادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="90"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">مكّن/عطّل استخدام الخادوم الوسيط.</translation>
+        <translation>مكن/عطل استخدام الخادوم الوسيط.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="92"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>المُضيف:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="93"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">اسم مضيف الوسيط.</translation>
+        <translation>اسم مضيف الوسيط.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="95"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>المنفذ:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="96"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">منفذ الوسيط.</translation>
+        <translation>منفذ الوسيط.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="98"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;سم المستخدم:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="99"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">إن احتاج الوسيط إلى استيثاق، فهذا يعيّن اسم المستخدم.</translation>
+        <translation>إن احتاج الوسيط إلى استيثاق، فهذا يعين اسم المستخدم.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="101"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>كلمة المرور</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="102"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">كلمة المرور إلى الخادوم الوسيط. &lt;b&gt;تحذير:&lt;/b&gt; ستُخزن كلمة المرور كنص مجرّد بلا تشفير في ملف الضبط.</translation>
+        <translation>كلمة المرور إلى الخادم الوسيط. &lt;b&gt;تحذير:&lt;/b&gt; ستُخزن كلمة المرور كنص مجرّد بلا تشفير ضمن ملف الضبط.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="105"/>
         <source>Type</source>
-        <translation type="unfinished">النوع</translation>
+        <translation>النوع</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="106"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">اختر نوع الوسيط المُستعمل.</translation>
+        <translation>اختر نوع الوسيط المُستعمل.</translation>
     </message>
 </context>
 <context>
@@ -8763,27 +8754,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>

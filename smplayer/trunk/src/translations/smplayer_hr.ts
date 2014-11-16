@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -236,22 +234,22 @@
     <message>
         <location filename="../about.cpp" line="197"/>
         <source>Tamil</source>
-        <translation type="unfinished">Tamilski</translation>
+        <translation>Tamilski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="198"/>
         <source>Malayalam</source>
-        <translation type="unfinished">Malajalamski</translation>
+        <translation>Malajalamski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="199"/>
         <source>Thai</source>
-        <translation type="unfinished">Tajlandski</translation>
+        <translation>Tajlandski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="200"/>
         <source>Persian</source>
-        <translation type="unfinished">Perzijski</translation>
+        <translation>Perzijski</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="225"/>
@@ -2628,42 +2626,42 @@ Npr: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Omogući/Onemogući korištenje proxsija.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
         <translation>Naziv računala proxsija.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
         <translation>Ulaz proxsija.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Ako proxy zahtijeva autentifikaciju, ovdje se postavlja korisničko ime.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Lozinka za proxy. &lt;b&gt;Upozorenje:&lt;/b&gt; lozinka će biti spremljena kao običan tekst u datoteci podešavanja.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
         <translation>Odaberi vrstu proxya koji će se koristiti.</translation>
     </message>
@@ -2721,117 +2719,113 @@ Npr: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
         <translation>Jezik</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
         <translation>Naziv</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
         <translation>Datoteke</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
         <translation>Postavio</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
         <translation>Portugalski - Brazil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
         <translation>Svi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
         <translation>Zatvori</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Neuspjela prijava na opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
         <translation>Neuspjelo pretraživanje</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Greška pri namještanju redaka podnaslova</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
         <translation>&amp;Preuzmi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Kopiraj poveznicu u međuspremnik</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
         <translation>Greška</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
         <translation>Neuspjelo preuzimanje: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
         <translation>Povezivanje s %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
         <translation>Preuzimanje...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
         <translation>Završeno.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
         <translation>%1 datoteka dostupno</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
         <translation>Neuspjelo rasčlanjivanje primljenih podataka.</translation>
     </message>
@@ -2856,31 +2850,31 @@ Npr: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Osvježi</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="672"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>Podnsalov je spremljen kao %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>Overwrite?</source>
         <translation>Prepiši?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="710"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>Datoteka %1 već postoji, prepiši?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="520"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>Error saving file</source>
         <translation>Greška pri spremanju datoteke</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -2888,14 +2882,14 @@ datoteke u mapu %1
 Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="493"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
         <source>Download failed</source>
         <translation>Neuspjelo preuzimanje</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="605"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
         <source>Temporary file %1</source>
         <translation>Privremena datoteka %1</translation>
     </message>
@@ -7199,112 +7193,112 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">&amp;Omogući proxy</translation>
+        <translation>&amp;Omogući proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="43"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Računalo:</translation>
+        <translation>&amp;Računalo:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="56"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Ulaz:</translation>
+        <translation>&amp;Ulaz:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="76"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">&amp;Korisničko ime:</translation>
+        <translation>&amp;Korisničko ime:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="89"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">Lo&amp;zinka:</translation>
+        <translation>Lo&amp;zinka:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="106"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Vrsta:</translation>
+        <translation>&amp;Vrsta:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="29"/>
         <source>HTTP</source>
-        <translation type="unfinished">HTTP</translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="30"/>
         <source>SOCKS5</source>
-        <translation type="unfinished">SOCKS5</translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="40"/>
         <source>Network</source>
-        <translation type="unfinished">Mreža</translation>
+        <translation>Mreža</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="89"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogući proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="90"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Omogući/Onemogući korištenje proxsija.</translation>
+        <translation>Omogući/Onemogući korištenje proxya.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="92"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Računalo</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="93"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">Naziv računala proxsija.</translation>
+        <translation>Naziv računala proxya.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="95"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Ulaz</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="96"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">Ulaz proxsija.</translation>
+        <translation>Ulaz proxya.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="98"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Korisničko ime</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="99"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Ako proxy zahtijeva autentifikaciju, ovdje se postavlja korisničko ime.</translation>
+        <translation>Ako proxy zahtijeva autentifikaciju, ovdje upišite korisničko ime.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="101"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Lozinka</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="102"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">Lozinka za proxy. &lt;b&gt;Upozorenje:&lt;/b&gt; lozinka će biti spremljena kao običan tekst u datoteci podešavanja.</translation>
+        <translation>Lozinka za proxy. &lt;b&gt;Upozorenje:&lt;/b&gt; lozinka će biti spremljena kao običan tekst u datoteci podešavanja.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="105"/>
         <source>Type</source>
-        <translation type="unfinished">Vrsta</translation>
+        <translation>Vrsta</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="106"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Odaberi vrstu proxya koji će se koristiti.</translation>
+        <translation>Odaberite vrstu proxya koji će se koristiti.</translation>
     </message>
 </context>
 <context>
@@ -8756,21 +8750,13 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
