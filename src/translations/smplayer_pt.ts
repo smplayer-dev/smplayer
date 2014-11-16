@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2628,42 +2626,42 @@ Exemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesConfigDialog</name>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="27"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="30"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Ativar/desativar utilização de proxy.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>The host name of the proxy.</source>
         <translation>O nome do proxy.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The port of the proxy.</source>
         <translation>A porta do proxy.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Se o proxy necessitar de autenticação, isto define o nome de utilizador.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="35"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>A senha do proxy. &lt;b&gt;Aviso:&lt;/b&gt; a senha será guardada em texto simples no ficheiro de configurações.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="37"/>
         <source>Select the proxy type to be used.</source>
         <translation>Selecione o tipo de proxy utilizado.</translation>
     </message>
@@ -2721,116 +2719,113 @@ Exemplo: resample=44100:0:0,volnorm</translation>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="219"/>
         <source>Format</source>
         <translation>Formato</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Files</source>
         <translation>Ficheiros</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="220"/>
         <source>Uploaded by</source>
         <translation>Enviado por</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Portuguese - Brasil</source>
         <translation>Português - Brasil</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="250"/>
         <source>All</source>
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="259"/>
         <source>Close</source>
         <translation>Fechar</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="348"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>Erro ao iniciar sessão no opensubtitles.org</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Search has failed</source>
         <translation>Erro ao procurar</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="689"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="749"/>
         <source>Error fixing the subtitle lines</source>
         <translation>Ocorreu um erro ao corrigir as legendas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="263"/>
         <source>&amp;Download</source>
         <translation>&amp;Transferir</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="264"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>&amp;Copiar ligação para área de transferência</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="338"/>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="339"/>
         <source>Download failed: %1.</source>
-        <translation>Falha ao transferir:%1.</translation>
+        <translation>Falha ao transferir: %1.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
         <source>Connecting to %1...</source>
         <translation>A ligar a %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="362"/>
         <source>Downloading...</source>
         <translation>A transferir...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Done.</source>
         <translation>Concluído.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="415"/>
         <source>%1 files available</source>
         <translation>%1 ficheiros disponíveis</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="424"/>
         <source>Failed to parse the received data.</source>
         <translation>Falha ao analisar os dados recebidos.</translation>
     </message>
@@ -2855,46 +2850,46 @@ Exemplo: resample=44100:0:0,volnorm</translation>
         <translation>Atualiza&amp;r</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="672"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="519"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="666"/>
         <source>Subtitle saved as %1</source>
         <translation>Legenda gravada como %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="703"/>
         <source>Overwrite?</source>
         <translation>Substituir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="710"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="704"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>O ficheiro %1 já existe, substituir?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="520"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="514"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
         <source>Error saving file</source>
         <translation>Erro ao gravar o ficheiro</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="515"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="622"/>
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro transferido
-na pasta %1
+na pasta %1.
 Verifique as permissões da pasta.</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="493"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="336"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="487"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
         <source>Download failed</source>
         <translation>Falha ao transferir</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="605"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="599"/>
         <source>Temporary file %1</source>
         <translation>Ficheiro temporário %1</translation>
     </message>
@@ -3172,12 +3167,12 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation>Por favor, &amp;selecione a versão correta:</translation>
+        <translation>Por favor &amp;selecione a versão correta:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
         <source>1.0rc1 or older</source>
-        <translation>1.0rc1 ou mais recente</translation>
+        <translation>1.0rc1 ou mais antiga</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="118"/>
@@ -3244,7 +3239,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Azerbaijani</source>
-        <translation>Azerbaijani</translation>
+        <translation>Azerbaijanês </translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
@@ -3269,7 +3264,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="42"/>
         <source>Bengali</source>
-        <translation>Bengali</translation>
+        <translation>Bengalês</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
@@ -3461,7 +3456,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Javanese</source>
-        <translation>Javanese</translation>
+        <translation>Javanês</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
@@ -3471,12 +3466,12 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Kazakh</source>
-        <translation>Kazakh</translation>
+        <translation>Cazaque</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="105"/>
         <source>Greenlandic</source>
-        <translation>Greenlandic</translation>
+        <translation>Gronelandês</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
@@ -3603,7 +3598,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="146"/>
         <source>Occitan</source>
-        <translation>Occitan</translation>
+        <translation>Occitano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="149"/>
@@ -3904,7 +3899,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>Simplified Chinese charset</source>
-        <translation>Caracteres chineses simplificado</translation>
+        <translation>Caracteres chineses simplificados</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
@@ -3934,7 +3929,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="311"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Idiomas da europa ocidental</translation>
+        <translation>Idiomas da Europa central</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="312"/>
@@ -3959,7 +3954,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation>Avaric</translation>
+        <translation>Avárico</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
@@ -3979,7 +3974,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation>Tcheceno</translation>
+        <translation>Tchetcheno</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
@@ -4019,7 +4014,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation>Fijian</translation>
+        <translation>Fijiano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
@@ -4074,7 +4069,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation>Kongo</translation>
+        <translation>Congo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
@@ -4119,12 +4114,12 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation>Limburgan</translation>
+        <translation>Limburgano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation>Lao</translation>
+        <translation>Laos</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
@@ -4571,7 +4566,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="314"/>
         <source>Add &amp;current file</source>
-        <translation>Adi&amp;cionar ficheiro a&amp;tual</translation>
+        <translation>Adi&amp;cionar ficheiro atual</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="315"/>
@@ -4621,7 +4616,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="863"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Existem alterações por gravar, deseja guardar a lista de reprodução?</translation>
+        <translation>Existem alterações por gravar. Deseja guardar a lista de reprodução?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1035"/>
@@ -4695,7 +4690,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Se ativar esta opção, pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja exibido correctamente.</translation>
+        <translation>Se ativar esta opção pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja exibido corretamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
@@ -4785,7 +4780,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Se ativar esta opção, os registos do MPlayer serão gravados no ficheiro, cada vez que reproduzir um novo ficheiro. A opção é útil para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
+        <translation>Se ativar esta opção, os registos do MPlayer serão gravados no ficheiro especificado, sempre que reproduzir um novo ficheiro. A opção é útil para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
@@ -4870,7 +4865,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="494"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation>Se verificar que existem partes do vídeo noutra janela, pode alterar o conjunto de cores para reparar. Tente uma cor próxima de preto.</translation>
+        <translation>Se verificar que existem partes do vídeo noutra janela, pode alterar o conjunto de cores para tentar reparar. Tente uma cor próxima de preto.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
@@ -4885,7 +4880,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="507"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation>Aqui, pode digitar as opções do MPlayer. Escreva-as separadas por espaços.</translation>
+        <translation>Aqui, pode escrever as opções do MPlayer. Escreva-as separadas por espaços.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
@@ -4895,7 +4890,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Aqui, pode adicionar os filtros de vídeo do MPlayer.Escreva-as separadas por vírgulas. Não utilize espaços!</translation>
+        <translation>Aqui, pode adicionar os filtros de vídeo do MPlayer. Escreva-os separados por vírgulas. Não utilize espaços!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="514"/>
@@ -4905,7 +4900,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Aqui, pode adicionar os filtros áudio do MPlayer.Escreva-as separadas por vírgulas. Não utilize espaços!</translation>
+        <translation>Aqui, pode adicionar os filtros áudio do MPlayer. Escreva-os separados por vírgulas. Não utilize espaços!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="459"/>
@@ -4980,7 +4975,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>Esta opção permite filtrar as mensagens do SMPlayer que vão ser gravadas no registo. Aqui, pode escrever uma expressão normal. &lt;br&gt;Por exemplo: &lt;i&gt;^Core::.*&lt;/i&gt; mostra as linhas que começem com &lt;i&gt;Core::&lt;/i&gt;</translation>
+        <translation>Esta opção permite filtrar as mensagens do SMPlayer que vão ser gravadas no registo. Aqui, pode escrever uma expressão regular. &lt;br&gt;Por exemplo: &lt;i&gt;^Core::.*&lt;/i&gt; mostra as linhas que começem com &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="470"/>
@@ -5030,7 +5025,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="438"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Reconstrói o índice de ficheiros se nenhum for encontrado, permitindo a procura. Útil com transferências corrompidas/incompletas ou ficheiros mal criados. Esta opção só funciona se o vídeo subjacente suportar busca (i.e., não com stdin, pipe, etc.). &lt;br&gt; &lt;b&gt;Nota:&lt;/b&gt; a criação do índice pode levar algum tempo.</translation>
+        <translation>Recria o índice de ficheiros se nenhum for encontrado, permitindo a procura. Útil com transferências corrompidas/incompletas ou ficheiros mal criados. Esta opção só funciona se o vídeo subjacente suportar busca (i.e., não com stdin, pipe, etc.).&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a criação do índice pode levar algum tempo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="149"/>
@@ -5098,7 +5093,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.cpp" line="225"/>
         <source>Check all file types in the list</source>
-        <translation>Selecionar todos os tipos de ficheiros na lista</translation>
+        <translation>Marcar todos os tipos de ficheiros da lista</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="228"/>
@@ -5133,7 +5128,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Selecione as extensões dos ficheiros que pretende que sejam controladas pelo SMPlayer. Ao aplicar, todos os ficheiros marcados serão associados ao SMPlayer. Se desmarcar algum tipo, a associação original será restaurada.</translation>
+        <translation>Selecione as extensões dos ficheiros que pretende que sejam controlados pelo SMPlayer. Ao aplicar, todos os ficheiros marcados serão associados ao SMPlayer. Se desmarcar algum tipo, a associação original será restaurada.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5396,7 +5391,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="956"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>Altera dinamicamente o nível de pós-processamento, de acordo com otempo de CPU disponível. O número especificado é o nível máximo a utilizar. Normalmente pode escolher um número elevado.</translation>
+        <translation>Altera dinamicamente o nível de pós-processamento, de acordo com o tempo de CPU disponível. O número especificado é o nível máximo a utilizar. Normalmente pode escolher um número elevado.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1074"/>
@@ -5426,7 +5421,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Iniciar vídeos em modo de ecrã &amp;completo</translation>
+        <translation>Iniciar vídeos em ecrã &amp;completo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="546"/>
@@ -5496,7 +5491,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="920"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Se ativar esta opção, a janela principal será fechada automaticamente ao terminar o ficheiro/lista de reprodução atual.</translation>
+        <translation>Se ativar esta opção, a janela principal será fechada automaticamente ao terminar o ficheiro/lista de reprodução.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="107"/>
@@ -5576,7 +5571,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1127"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Especifica a faixa áudio a utilizar ao reproduzir novos ficheiros. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a opção &lt;i&gt;&quot;Idioma preferencial de áudio&quot;&lt;/i&gt; tem prioridade sobre esta opção.</translation>
+        <translation>Especifica a faixa áudio predefinida ao reproduzir novos ficheiros. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a opção &lt;i&gt;Idioma preferido para áudio&lt;/i&gt; tem prioridade sobre esta opção.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
@@ -5616,7 +5611,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="146"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui, pode introduzir o idioma preferencial para as emissões de áudio e de legendas. Quando um ficheiro com múltiplas legendas ou áudio for encontrado, o SMPlayer irá tenta utilizar o seu idioma preferido. Isto só funciona com ficheiros que ofereçam informação sobre os idiomas ou legendas, como os DVDs ou MKVs.&lt;br&gt;Estes ficheiros aceitam expressões normais. Exemplo: Se inserir &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as faixas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui, pode introduzir o idioma preferencial para as emissões de áudio e de legendas. Quando um ficheiro com múltiplas legendas ou áudio for encontrado, o SMPlayer tentará utilizar o seu idioma preferido. Apenas funciona com ficheiros que ofereçam informação sobre os idiomas ou legendas, como os DVDs ou MKVs.&lt;br&gt;Estes ficheiros aceitam expressões regulares. Exemplo: se inserir &lt;b&gt;pt|por|pt_PT&lt;/b&gt;, selecionará as faixas que coincidam com &lt;i&gt;pt&lt;/i&gt;, &lt;i&gt;por&lt;/i&gt; ou &lt;i&gt;pt_PT&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1013"/>
@@ -5747,7 +5742,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Ativar/desativar criação de vídeo em partes de 16 pixeis. Se inativa, toda a frame será criada de uma só vez. A velocidade depende da placa gráfica e cache disponível. Só afeta os codificadores libmpeg2 e libavcodec.</translation>
+        <translation>Ativa/desativa a criação de vídeo em partes de 16 pixeis. Se inativa, toda a frame será criada de uma só vez. A velocidade depende da placa gráfica e cache disponível. Só afeta os codificadores libmpeg2 e libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="512"/>
@@ -5821,27 +5816,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="887"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Normalmente, o SMPlayer irá lembrar-se das definições para cada ficheiro que reproduza (áudio, posição, filtros...). Desative esta opção se não gostar desta funcionalidade.</translation>
+        <translation>Normalmente, o SMPlayer irá lembrar-se das definições para cada ficheiro que reproduza (áudio, posição, filtros...). Desative a opção se não gostar desta funcionalidade.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="915"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation>Se ativar esta opção,, o ficheiro será parado ao ocultar a janela principal. Quando restaurar a janela, a reprodução continuará.</translation>
+        <translation>Se ativar esta opção, o ficheiro será parado ao ocultar a janela principal. Quando restaurar a janela, a reprodução continuará.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1021"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation>Ative  esta opção para desativar a proteção de ecrã ao reproduzir.&lt;br&gt;A proteção de ecrã será reativada ao terminar a reprodução.</translation>
+        <translation>Ative esta opção para desativar a proteção de ecrã ao reproduzir.&lt;br&gt;A proteção de ecrã será reativada ao terminar a reprodução.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui, pode introduzir o idioma preferido para as emissões áudio. Quando um vídeo com múltiplas emissões de áudio for encontrado, o SMPlayer tenta utilizar o seu idioma preferido.&lt;br&gt;Isto só funciona com ficheiros que ofereçam informação sobre o idioma das emissões áudio, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões normais. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as faixas áudio que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui, pode introduzir o idioma preferido para as emissões áudio. Quando um vídeo com múltiplas emissões áudio for encontrado, o SMPlayer tenta utilizar o seu idioma preferido.&lt;br&gt;Apenas funciona com ficheiros que ofereçam informação sobre o idioma das emissões áudio, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões regulares. Exemplo: se escrever &lt;b&gt;pt|por|pt_PT&lt;/b&gt;, selecionará as faixas áudio que coincidam com &lt;i&gt;pt&lt;/i&gt;, &lt;i&gt;por&lt;/i&gt; ou &lt;i&gt;pt_PT&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Aqui, pode introduzir o idioma preferido para as legendas. Quando um vídeo com múltiplas legendas é encontrado, o SMPlayer tenta utilizar o seu idioma preferido.&lt;br&gt;Isto só funciona com ficheiros que ofereçam informação sobre o idioma das legendas, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões normais. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as legendas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Aqui, pode introduzir o idioma preferido para as legendas. Quando um vídeo com múltiplas legendas for encontrado, o SMPlayer tenta utilizar o seu idioma preferido.&lt;br&gt;Isto só funciona com ficheiros que ofereçam informação sobre o idioma das legendas, tais como DVDs ou ficheiros mkv&lt;br&gt; Este campo aceita expressões regulares. Exemplo: se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as legendas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="275"/>
@@ -5882,7 +5877,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="897"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>Esta opção permite-lhe alterar a maneira como as definições do ficheiro devem ser gravadas. Estão disponíveis as seguintes opções:</translation>
+        <translation>Esta opção permite-lhe alterar o método de gravação das definições. Estão disponíveis as seguintes opções:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="899"/>
@@ -5982,7 +5977,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1006"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation>Esta opção desliga a proteção de ecrã antes de iniciar a reprodução do ficheiro e volta a ligá-la ao acabar. Se ativar esta opção, a proteção não aparecerá, mesmo que esteja a reproduzir áudio ou se pausar o ficheiro.</translation>
+        <translation>Esta opção desliga a proteção de ecrã antes de iniciar a reprodução do ficheiro e volta a ligá-la ao acabar. Se ativar esta opção a proteção não aparecerá, mesmo que esteja a reproduzir áudio ou se pausar o ficheiro.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1012"/>
@@ -6072,7 +6067,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation>&lt;b&gt;Nota:&lt;/b&gt;nenhum dos filtros áudio será utilizado se esta opção estiver ativa.</translation>
+        <translation>&lt;b&gt;Nota:&lt;/b&gt; nenhum dos filtros áudio será utilizado se esta opção estiver ativa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="368"/>
@@ -6158,12 +6153,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui, pode alterar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente, pode guardar a lista para a partilhar com outras pessoas ou utilizar noutro computador.</translation>
+        <translation>Aqui, pode mudar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente, pode guardar a lista para a partilhar com outras pessoas ou utilizar noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui, pode alterar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente também pode guardar a lista para a partilhar com outras pessoas ou utilizá-la noutro computador.</translation>
+        <translation>Aqui, pode mudar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente também pode guardar a lista para a partilhar com outras pessoas ou utilizá-la noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="148"/>
@@ -6404,12 +6399,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="333"/>
         <source>X Button 1</source>
-        <translation>X Botão 1</translation>
+        <translation>Botão X 1</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="334"/>
         <source>Select the action for the X button 1.</source>
-        <translation>Selecione uma ação para X Botão 1.</translation>
+        <translation>Selecione uma ação para botão X 1.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="336"/>
@@ -6419,7 +6414,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="337"/>
         <source>Select the action for the X button 2.</source>
-        <translation>Selecione uma ação para o Botão X 2.</translation>
+        <translation>Selecione uma ação para o botão X 2.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
@@ -6429,7 +6424,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Show audio equalizer</source>
-        <translation>Mostrar equalizador de áudio</translation>
+        <translation>Mostrar equalizador áudio</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="70"/>
@@ -6454,12 +6449,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Return to main DVD menu</source>
-        <translation>Voltar ao menu principal</translation>
+        <translation>Voltar ao menu principal do DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Return to previous menu in DVD menus</source>
-        <translation>Voltar ao menu anterior</translation>
+        <translation>Voltar ao menu anterior nos menus DVD</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="90"/>
@@ -6504,7 +6499,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="85"/>
         <source>Change function of wheel</source>
-        <translation>Alterar a função da roda do rato</translation>
+        <translation>Mudar função da roda do rato</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="395"/>
@@ -6528,7 +6523,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="416"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
-        <translation>&amp;Alterar a velocidade</translation>
+        <translation>&amp;Alterar velocidade</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="352"/>
@@ -6618,7 +6613,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="87"/>
         <source>Only after loading a new video</source>
-        <translation>Só depois de carregar novo vídeo</translation>
+        <translation>Só depois de carregar um novo vídeo</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="799"/>
@@ -6699,7 +6694,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="95"/>
         <source>R&amp;emember position and size</source>
-        <translation>L&amp;embrar posição e tamanho de vídeo</translation>
+        <translation>L&amp;embrar posição e tamanho</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="109"/>
@@ -6729,7 +6724,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="492"/>
         <source>Seek to position while dragging</source>
-        <translation>Procurar posicão ao arrastar</translation>
+        <translation>Procurar posição ao arrastar</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="497"/>
@@ -6962,12 +6957,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="706"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation>Selecione o intervalos de tempo a recuar ou avançar ao mover a roda do rato.</translation>
+        <translation>Selecione o intervalo de tempo a recuar ou avançar ao mover a roda do rato.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="709"/>
         <source>Behaviour of time slider</source>
-        <translation>Comportamento do controle de tempo</translation>
+        <translation>Comportamento do controlo de tempo</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="710"/>
@@ -7027,7 +7022,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="778"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Selecione o número máximo de itens a receordar pelo diálogo&lt;b&gt;Abrir-&gt;URL&lt;/b&gt;. Se definir 0, nenhum UR será guardado.</translation>
+        <translation>Selecione o número máximo de itens a memorizar pelo diálogo&lt;b&gt;Abrir-&gt;URL&lt;/b&gt;. Se definir 0, nenhum URL será guardado.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7063,7 +7058,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="736"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation>Ative esta opção, se pretende utilizar a instância do SMPlayer em execução ao abrir outros ficheiros.</translation>
+        <translation>Ative esta opção se pretende utilizar apenas uma instância do SMPlayer ao abrir outros ficheiros.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="205"/>
@@ -7118,7 +7113,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="760"/>
         <source>Display in compact mode too</source>
-        <translation>Exibir também em modo compacto</translation>
+        <translation>Mostrar também em modo compacto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="641"/>
@@ -7149,7 +7144,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="741"/>
         <source>Display in &amp;compact mode too</source>
-        <translation>Exibir também em modo &amp;compacto</translation>
+        <translation>Mostrar também em modo &amp;compacto</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
@@ -7417,7 +7412,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="279"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>Procura rápida de capítulo&amp;s em dvds</translation>
+        <translation>Procura rápida de capítulo&amp;s em DVDs</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
@@ -7427,7 +7422,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="328"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>Procura rápida de capítulos em dvds</translation>
+        <translation>Procura rápida de capítulos em DVDs</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
@@ -7477,7 +7472,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="349"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Esta opção especifica a quantidade de memória (em kBytes) a utilizar para colocar um DVD em cache. &lt;br&gt;&lt;b&gt;Aviso: &lt;/b&gt; a procura pode não funcionar corretamente (incluindo alteração de capítulo) ao utilizar esta opção.</translation>
+        <translation>Esta opção especifica a quantidade de memória (em kBytes) a utilizar para colocar um DVD em cache. &lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; a procura pode não funcionar corretamente (incluindo alteração de capítulo) ao utilizar esta opção.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="337"/>
@@ -7487,7 +7482,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>Cahe para &amp;DVDs:</translation>
+        <translation>Cache para &amp;DVDs:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="353"/>
@@ -7542,7 +7537,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt; Ignorar (sempre) &lt;/b&gt;: o filtro de ciclos é ignorado independentemente da resolução</translation>
+        <translation>&lt;b&gt; Ignorar (sempre)&lt;/b&gt;: o filtro de ciclos é ignorado independentemente da resolução</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="314"/>
@@ -7562,12 +7557,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation>Esta opção especifica a quantidade de memória (em KB) a usar, para carregar em cache um CD Áudio.</translation>
+        <translation>Esta opção especifica a quantidade de memória a usar (em kB), para carregar em cache um CD áudio.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="464"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Cache para CDs &amp;Áudio:</translation>
+        <translation>C&amp;ache para CDs áudio:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="357"/>
@@ -7577,7 +7572,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="358"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation>Esta opção especifica a quantidade de memória (em KB) a utilizar para colocar em cache um VCD.</translation>
+        <translation>Esta opção especifica a quantidade de memória (em kBytes) a utilizar para colocar em cache um VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="501"/>
@@ -7650,7 +7645,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="120"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Se ativar esta opção, de cada vez que abrir um ficheiro, o SMPlayer apaga a lista de reprodução e só depois o adicionará. No caso de DVDs, CDs e VCDs, os títulos do disco serão adicionados à lista de reprodução.</translation>
+        <translation>Se ativar esta opção, sempre que abrir um ficheiro, o SMPlayer apaga a lista de reprodução e só depois o adicionará. No caso de DVDs, CDs e VCDs, os títulos do disco serão adicionados à lista de reprodução.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
@@ -7705,7 +7700,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="130"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Ficheiros de vídeoe áudio&lt;/b&gt;: todos os ficheiros de vídeo e áudio encontrados na pasta serão adicionados</translation>
+        <translation>&lt;b&gt;Ficheiros de vídeo e áudio&lt;/b&gt;: todos os ficheiros de vídeo e áudio encontrados na pasta serão adicionados</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
@@ -7755,7 +7750,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Ative esta opção se pretende adicionar um diretório e subdiretórios. Caso contrário, só os ficheiros do dirctório principal serão adicionados.</translation>
+        <translation>Ative esta opção se quiser adicionar um diretório e subdiretórios. Caso contrário, só os ficheiros do diretório principal serão adicionados.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="144"/>
@@ -8004,12 +7999,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>Se houver uma ou mais faixas de legendas disponíveis, uma delas será selecionada automaticamente, geralmente a primeira, mas se uma delas corresponder ao idioma preferencial do utilizador, esta será a utilizada.</translation>
+        <translation>Se houver uma ou mais legendas disponíveis, uma delas será selecionada automaticamente, geralmente a primeira, mas se uma delas corresponder ao idioma preferencial do utilizador, esta será a utilizada.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="525"/>
         <source>Select the subtitle autoscaling method.</source>
-        <translation>Selecione o método descala automática das legendas.</translation>
+        <translation>Selecione o método de escala automática das legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
@@ -8049,7 +8044,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="507"/>
         <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation>Aqui, pode selecionar o tipo de letra TTF a utilizar nas legendas. Geralmente, você encontra muitas em %1</translation>
+        <translation>Aqui, pode selecionar o tipo de letra TTF a utilizar nas legendas. Geralmente, encontra muitas em %1</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="598"/>
@@ -8368,7 +8363,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="549"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation>Isto especifica o espaço a utililizar para a separação das linhas. Pode assumir valores negativos.</translation>
+        <translation>Aqui especifica o espaço a utilizar para a separação das linhas. Pode assumir valores negativos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="258"/>
@@ -8413,7 +8408,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation>De um modo geral, não deve desativar esta opção. Só deve desativar a opção, se o MPlayer for compilado sem suporte freetype.&lt;b&gt;Desativar esta opção pode implicar a não exibição das legendas!&lt;/b&gt;</translation>
+        <translation>De um modo geral, não deve desativar esta opção. Só deve desativar a opção, se o MPlayer for compilado sem suporte freetype. &lt;b&gt;Desativar esta opção pode implicar a não exibição das legendas!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="227"/>
@@ -8433,7 +8428,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation>Aqui, pode introduzir o estilo SSA/ASS personalizado.</translation>
+        <translation>Aqui pode introduzir o estilo SSA/ASS personalizado.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="396"/>
@@ -8661,7 +8656,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../smplayer.cpp" line="511"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation>SMPlayer v.%1 executando em %2</translation>
+        <translation>SMPlayer v. %1 executando em %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="132"/>
@@ -8671,7 +8666,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>lista_ações é uma lista de ações separadas por espaços. As ações serão executadas após carregar o ficheiro (se existente) na mesma ordem que as  introduzir. Para ações verificáveis, pode enviar verdadeiro ou falso como parâmetro. Exemplo:-actions &quot;fullscreen compact true&quot;. As aspas serão necessárias se quiser passar mais do que uma ação.</translation>
+        <translation>lista_ações é uma lista de ações separadas por espaços. As ações serão executadas após carregar o ficheiro (se existente) na mesma ordem que as introduzir. Para ações verificáveis, pode enviar verdadeiro ou falso como parâmetro. Exemplo: -actions &quot;fullscreen compact true&quot;. As aspas serão necessárias se quiser passar mais do que uma ação.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="98"/>
@@ -8712,7 +8707,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="111"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation>restaura as associações antigas e limpa o registo.</translation>
+        <translation>Restaura as associações antigas e limpa o registo.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="103"/>
@@ -8754,19 +8749,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="79"/>
         <location filename="../helper.cpp" line="85"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="82"/>
         <location filename="../helper.cpp" line="84"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="86"/>
@@ -8970,7 +8959,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation>Este arquivo contém mais que 1 ficheiro de legendas. Por favor, escolha o que quer extrair.</translation>
+        <translation>Este arquivo contém mais do que 1 ficheiro de legendas. Por favor escolha o que quer extrair.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -9060,12 +9049,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
-        <translation>Curso de volume</translation>
+        <translation>Cursor de volume</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation>Exibir tempo</translation>
+        <translation>Mostrar tempo</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
@@ -9287,7 +9276,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="394"/>
         <source>Aspect ratio: %1</source>
-        <translation>Tamanho de vídeo : %1</translation>
+        <translation>Tamanho de vídeo: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="326"/>
@@ -9412,7 +9401,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation>Se ativar esta opção, o tempo de reprodução será exibido no fundo de cada miniatura.</translation>
+        <translation>Se ativar esta opção, o tempo de reprodução será mostrado no fundo de cada miniatura.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
@@ -9432,7 +9421,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>Algumas frames serão extraídas do vídeo de modo a criar a visualização. Aqui, pode escolher o formato da imagem para as frames extraídas. PNG poderá fornecer uma melhor qualidade.</translation>
+        <translation>Algumas frames serão extraídas do vídeo de modo a criar a visualização. Aqui pode escolher o formato da imagem para as frames extraídas. PNG poderá fornecer uma melhor qualidade.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
