@@ -504,4 +504,5 @@ TRANSLATIONS = translations/smplayer_es.ts translations/smplayer_de.ts \
                translations/smplayer_he_IL.ts translations/smplayer_th.ts \
                translations/smplayer_ms_MY.ts translations/smplayer_uz.ts \
                translations/smplayer_nn_NO.ts translations/smplayer_id.ts \
-               translations/smplayer_ar.ts translations/smplayer_en_GB.ts
+               translations/smplayer_ar.ts translations/smplayer_en_GB.ts \
+               translations/smplayer_sq_AL.ts

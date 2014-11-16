@@ -269,6 +269,7 @@ QMap<QString,QString> Languages::translations() {
 	m["ru_RU"] = QString::fromUtf8("Русский"); //tr("Russian");
 	m["sk"] = "Slovensky"; //tr("Slovak");
 	m["sl_SI"] = "Slovenski"; //tr("Slovenian");
+	m["sq_AL"] = "Shqip"; //tr("Albanian");
 	m["sr"] = QString::fromUtf8("Српски"); //tr("Serbian");
 	m["sv"] = "Svenska"; //tr("Swedish");
 	m["th"] = QString::fromUtf8("ไทย"); //tr("Thai");
