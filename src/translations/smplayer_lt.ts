@@ -327,10 +327,6 @@
         <translation>Baskų</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Naudojamas MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Nešiojama versija</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Kroatų</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Naudojama MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer naudoja pasižymėjusį MPlayer kaip atkūrimo variklį. Pažiūrėkite %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7825,14 +7813,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Subtitrai</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Pasirinkti ttf failą</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">TrueType šriftai</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Subtitrai</translation>
@@ -7864,22 +7844,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Įjungti &amp;Windows šriftus</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Pozicija</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Viršuje</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Apačioje</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7887,37 +7851,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Šriftas</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Parinkite šriftą subtitrams (ir OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Dydis</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Be automatinio padėties nustatymo</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Proporcingai filmo aukščiui</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Proporcingai filmo pločiui</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Proporcingai filmo įstrižainei</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Subtitrų pozicija</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Ši parinktis nustato subtitrų padėtį lango atžvilgiu. &lt;i&gt;100&lt;/i&gt;  reiškia apačioje, &lt;i&gt;0&lt;/i&gt; - viršuje.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7935,25 +7871,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Numatytoji subtitrų koduotė:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">Numatytoji subtitrų &amp;pozicija ekrane</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Įtraukti subtitrus į momentinius vaizdus</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF šriftas:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">S&amp;isteminis šriftas:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">A&amp;utomatinis padėties nustatymas:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7969,18 +7889,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Įtraukti subtitrus į momentinius vaizdus</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF šriftas</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Sisteminis šriftas</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Automatinis padėties nustatymas</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8011,10 +7919,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Jei yra vienas ar daugiau subtitrų takelių, vienas iš jų bus automatiškai parinktas, dažniausiai pirmas, tačiau jei vienas iš subtitrų takelių atitinka vartotojo pasirinktą kalbą, tai bus parinktas būtent tas subtitrų takelis.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Pasirinkite subtitrų automatinio dydžio nustatymo metodą.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8052,10 +7956,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Automatiškai nustatyti šiai kalbai:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Čia galima parinkti ttf šriftą subtitrams. Paprastai daug ttf šriftų galima rasti %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Kontūras</translation>
@@ -8079,10 +7979,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Jei ši parinktis nepažymėta galėsite rinktis tik iš kelių šriftų kurie yra SMPlayer, bet taip bus greičiau.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Čia galima pasirinkti sisteminį šriftą, kuris bus naudojamas subtitrams ir OSD. </translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8323,22 +8219,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Jei rėmelio stilius nustatytas &lt;i&gt;neperšviečiamas&lt;/i&gt;, ši parinktis nustato teksto metamo šešėlio ilgį (pikseliais).</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Įjungti normalius subtitrus</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Paspauskite šį mygtuką normalių/tradicinių subtitrų parinkimui. Ši subtitrų rūšis gali vaizduoti tik baltus subtitrus.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Įjungti SSA/ASS subtitrus</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Normalūs subtitrai</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Ši parinktis NEPAKEIČIA atkuriamo video subtitrų dydžio. Tam naudokite &lt;i&gt;Dydis+&lt;/i&gt; ir &lt;i&gt;Dydis-&lt;/i&gt; nuostatas subtitrų meniu.</translation>
@@ -8347,14 +8227,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Numatytasis dydis</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Ši parinktis apibūdina pradinį subtitrų šrifto dydį, kuris bus naudojamas naujai atveriamiems failams.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS subtitrai</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8377,18 +8249,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Šriftas ir spalvos</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">Įjungti &amp;normalius subtitrus</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Įjungti SSA/&amp;ASS subtitrus</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">Numatytasis &amp;dydis:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>N&amp;umatytasis dydis:</translation>
@@ -8397,10 +8257,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>&amp;Tarpas tarp eilučių:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Šis mygtukas įjungia naują SSA/ASS biblioteką. Tai įgalina naudoti skirtingų spalvų ir šriftų subtitrus...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

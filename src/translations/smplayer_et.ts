@@ -327,10 +327,6 @@
         <translation>Baski</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Kasutades MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Kaasaskantav väljaanne</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Horvaatia</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Kasutades MPlayer2 %1-te</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer kasutab funktsioneerimiseks autasustatud lahendust MPlayer. Uurige lähemalt: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7825,14 +7813,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation>Subtiitrid</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Vali ttf fail</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype fondid</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Subtiitrid</translation>
@@ -7864,22 +7844,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Asukoht</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Peal</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">All</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7887,17 +7851,9 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation>Font</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">vali font mida kasutatakse subtiitrite jaoks (ja OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Suurus</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Subtiitri asukoht</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7920,14 +7876,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation>&amp;Sisalda subtiitreid ekraanivõttel</translation>
     </message>
     <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF font:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">S&amp;üsteem font:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
         <source>Select first available subtitle</source>
         <translation>Vali esimene saadalolev subtiiter</translation>
@@ -7941,14 +7889,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF font</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Süsteemi font</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8279,18 +8219,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Võimalda normaalsd subtiitrid</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Võimalda SSA/ASS subtiitrid</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Normaalsed subtiitrid</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation type="unfinished"></translation>
@@ -8299,10 +8227,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS subtiitrid</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8323,14 +8247,6 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <location filename="../prefsubtitles.ui" line="258"/>
         <source>&amp;Font and colors</source>
         <translation>&amp;Fondid ja värvid</translation>
-    </message>
-    <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">Võimalda &amp;normaalsed subtiitrid</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Võimalda SSA/&amp;ASS subtiitrid</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="285"/>

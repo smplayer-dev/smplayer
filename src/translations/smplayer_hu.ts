@@ -327,10 +327,6 @@
         <translation>Baszk</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Használt MPlayer: %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Hordozható változat</translation>
@@ -7813,14 +7809,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Feliratok</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Válasszon egy TTF fájlt</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype fontok (*.ttf)</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Feliratok</translation>
@@ -7852,22 +7840,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Pozíció</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Fent</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Lent</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7875,37 +7847,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Betűtípus</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Válasszon egy betűtípust a feliratokhoz (és OSD-hez ):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Méret</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Nincs automatikus méretezés</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">A film magasságához megfelelő</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">A film szélességéhez megfelelő</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">A film átlójához megfelelő</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Felirat pozíciója</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Ez az opció meghatározza a felirat pozícióját a videó ablakban. &lt;i&gt;100&lt;/i&gt; az alját, míg &lt;i&gt;0&lt;/i&gt; a tetejét jelenti.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7923,25 +7867,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Alapértelmezett felirat kódolás:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">A feliratok alapértelmezett &amp;pozíciója a képernyőn</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>Feliratok beépítése a &amp;pillanatképekbe</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF betűtípus:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">&amp;Rendszer betűtípus:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">A&amp;utomatikus méret:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7957,18 +7885,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Feliratok beépítése a pillanatképekbe</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF betűtípus</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Rendszer betűtípus</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Automatikus méret</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -7999,10 +7915,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Ha egy vagy több feliratsáv érhető el, akkor automatikusan ki lesz választva az egyik, általában az első, bár ha valamelyik egyezik a felhasználó preferált nyelvével, akkor az lesz használva.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Válassza ki a felirat automata méretezés módját.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8038,10 +7950,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="169"/>
         <source>Try to a&amp;utodetect for this language:</source>
         <translation>A&amp;utomatikus felismerés ehhez a nyelvhez:</translation>
-    </message>
-    <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Itt kiválaszthatja a feliratokhoz használt TTF betűtípust. Általában sok TTF betűtípust találhat itt: %1</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8307,22 +8215,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ha a szegély stílusa &lt;i&gt;körvonal&lt;/i&gt;, ez az opció meghatározza a szöveg mögötti árnyék mélységét pixelekben.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Normál feliratok engedélyezése</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Kattintson erre a gombra a normál/hagyományos feliratok kiválasztásához. Az ilyen feliratok csak fehér szöveget tudnak megjeleníteni.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS feliratok engedélyezése</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Normál feliratok</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Ez az opció NEM változtatja meg a feliratok méretét a jelenlegi videóban. Ahhoz használja a &lt;i&gt;Méret+&lt;/i&gt; és &lt;i&gt;Méret-&lt;/i&gt; parancsokat a felirat menüben.</translation>
@@ -8331,14 +8223,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Alap méret</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Ez az opció meghatározza a normál feliratokhoz használt alap betűméretet újonnan megnyitott fájloknál.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS feliratok</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8361,18 +8245,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Betűtípus és színek</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">&amp;Normál feliratok engedélyezése</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">SSA/&amp;ASS feliratok engedélyezése</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">Alap &amp;méret:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Ala&amp;p &amp;méret:</translation>
@@ -8381,10 +8253,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>So&amp;rköz:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Kattintson erre a gombra az új SSA/ASS könyvtár engedélyezéséhez. Ez lehetővé teszi a feliratok megjelenítését több színnel, betűtípussal...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

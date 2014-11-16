@@ -327,10 +327,6 @@
         <translation>巴斯克文</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">使用 MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>可攜式版本</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>克羅埃西亞語</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">使用 MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer 使用屢獲殊榮的 MPlayer 播放引擎。請看 %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7824,14 +7812,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>字幕</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">選取一個 ttf 檔案</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype 字型</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>字幕(&amp;S)</translation>
@@ -7863,22 +7843,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>啟用 &amp;Windows 字型</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">位置</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">上方</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">下方</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7886,37 +7850,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>字型</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">選擇字幕 (和 OSD) 的字型：</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>大小</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">無自動縮放</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">相對於影片的高度</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">相對於影片的寬度</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">相對於影片的對角線</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">字幕位置</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">這個選項指定字幕在視訊視窗裡的位置。&lt;i&gt;100&lt;/i&gt;表示底部, &lt;i&gt;0&lt;/i&gt;表示頂部。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7934,25 +7870,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>預設的字幕編碼(&amp;D)：</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">螢幕上字幕的預設位置(&amp;P)</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>擷取影像包含字幕(&amp;I)</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF 字型：</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">系統字型(&amp;Y)：</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">自動縮放(&amp;U)：</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7968,18 +7888,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>擷取影像包含字幕</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF 字型</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">系統字型</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">自動縮放</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8010,10 +7918,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>如果有一個或多個字幕軌可用，其中一個將被自動選用，通常是第一個，但如果他們中的一個和使用者偏好的語言相匹配，則那一個會被使用。</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">選擇字幕自動縮放方法。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8049,10 +7953,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="169"/>
         <source>Try to a&amp;utodetect for this language:</source>
         <translation>嘗試對這個語言自動檢測(&amp;U)：</translation>
-    </message>
-    <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">在這裡您可以選擇要用於字幕的 TTF 字型。通常您會在 %1 中發現很多 TTF 字型</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8318,22 +8218,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">啟用正常的字幕</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">點擊此按鈕以選擇普通/傳統字幕。這種字幕只能顯示白色字幕。</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">啟用 SSA/ASS 字幕</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">普通字幕</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>此選項不會更改目前視訊的字幕大小。要執行此操作，請使用字幕選單中的 &lt;i&gt;大小+&lt;/i&gt; 和 &lt;i&gt;大小-&lt;/i&gt; 選項。</translation>
@@ -8342,14 +8226,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>預設大小</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">這個選項指定普通字幕預設字型的大小，其將被用於新開啟的檔案。</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS 字幕</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8372,18 +8248,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>字型和顏色(&amp;F)</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">啟用普通字幕(&amp;N)</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">啟用 SSA/&amp;ASS 字幕</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">預設大小(&amp;C)：</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>預設大小(&amp;U)：</translation>
@@ -8392,10 +8256,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>行間距(&amp;L)：</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">點擊此按鈕以啟用新式的 SSA/ASS 庫。這允許字幕顯示多種顏色、字型...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

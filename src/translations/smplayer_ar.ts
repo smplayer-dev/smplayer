@@ -327,10 +327,6 @@
         <translation>الباسكية</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">يستخدم MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>النسخة المحمولة</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>الكرواتية</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">يستخدم MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">يستخدم SMPlayer محرك التشغيل MPlayer الحائز على جوائز. انظر %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7833,14 +7821,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>الترجمات</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">إختر ملف ttf</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">خطوط Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>التر&amp;جمات</translation>
@@ -7872,22 +7852,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>مكّن خطوط &amp;ويندوز Windows</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">الموضع</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">أعلى</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">أسفل</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7895,37 +7859,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>الخط</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">اختر الخط الذي سيُستخدَم للترجمات (و لوحة الأدوات على الشاشة):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>الحجم</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete"> بلا تحجيم تلقائي</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">متناسب مع إرتفاع الفيلم</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">متناسب مع عُرض الفيلم</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">متناسب مع قُطر الفيلم</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">موضع الترجمة</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">هذا الخيار يعيِّن موضع الترجمات فوق نافذة الفيديو. &lt;i&gt;100&lt;/i&gt; تعني الأسفل، بينما  &lt;i&gt;0&lt;/i&gt; تعني الأعلى.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7943,25 +7879,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>الترميز المبد&amp;ئي للترجمات:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">المو&amp;ضع المبدئي للترجمات على الشاشة</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;ضمِّن الترجمات في عروض ملئ الشاشة</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;خط TTF:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">خط من ال&amp;نظام:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">تحجيم تل&amp;قائي:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7977,18 +7897,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>ضمِّن الترجمات في عروض ملئ الشاشة</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">خط TTF</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">خط النظام</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">تحجيم تلقائي</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8019,10 +7927,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>إن وُجد مسار أو أكثر للترجمات، فأحدهما سيُختار تلقائياً، و هو الأول في أغلب الأحيان، ولكن إن طابق أحدها اللغة التي يُفضلها المستخدم، فسُيعتمد هذا الأخير بدلاً عن الأول.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">اختر طريقة التحجيم التلقائي للترجمة.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8060,10 +7964,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;حاول أن تكشفه تلقائياً لهذه اللغة:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">هنا يمكنك اختيار خط ttf لإستخدامه للترجمات. عادة تجد الكثير من خطوط ttf في %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>خطوط حول النص</translation>
@@ -8087,10 +7987,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>اذا لم يمكَّن هذا الخيار فلا يمكن استخدام سوى خطوط قليلة مرزومة مع SMPlayer، الا ان هذا أسرع.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">هنا يمكنك اختيار خط من خطوط النظام لإستخدامه للترجمات و لوحة الأدوات على الشاشة.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8331,22 +8227,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>اذا عُيّنت الحدود الى &lt;i&gt;خطوط حول النص&lt;/i&gt;، فان هذا الخيار يعيِّن عُمق الظِلّ خلف النص، بالبكسل.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">مكِّن الترجمات الإعتيادية</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">انقر على هذا الزر لإختيار الترجمات الإعتيادية/التقليدية. هذا النوع من الترجمات يمكن ان يعرض ترجمات بيضاء فقط.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">مكِّن ترجمات SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">ترجمات إعتيادية</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>هذا الخيار &lt;b&gt;لا&lt;/b&gt; يغيّر حجم الترجمات في الفيديو الحالي. اذا اردت ذلك فاستخدم الخيارات &lt;i&gt;حجم +&lt;/i&gt; و &lt;i&gt;حجم -&lt;/i&gt; في قائمة الترجمات.</translation>
@@ -8355,14 +8235,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>التحجيم المبدئي</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">يعيّن هذا الخيار التحجيم المبدئي للحروف للترجمات الإعتيادية التي ستُستخدم للملفات المفتوحة جديداً.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">ترجمات SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8385,18 +8257,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>الخ&amp;ط و الألوان</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">&amp;مكِّن الترجمات الإعتيادية</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">م&amp;كِّن ترجمات SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">التحجيم الم&amp;بدئي:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>الت&amp;حجيم المبدئي:</translation>
@@ -8405,10 +8265,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>تب&amp;اعد الأسطر:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">انقر هذا الزر لتمكين مكتبة SSA/ASS الجديدة. هذا يسمح بعرض الترجمات بألوان و خطوط و ... متعددة.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

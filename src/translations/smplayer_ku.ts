@@ -327,10 +327,6 @@
         <translation>Basque</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">MPlayer bi kar tîne %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Guhertoya Portatîf</translation>
@@ -7157,7 +7153,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="692"/>
         <location filename="../prefinterface.ui" line="725"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="699"/>
@@ -7815,14 +7811,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Binnivîs</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Pelekî ttf hilbijêre</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Fontên Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Binnivîs</translation>
@@ -7854,22 +7842,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Pozîsyon</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Serî</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Jêr</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7877,37 +7849,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Font</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Ji bo binnivîsan fonta nivîsê hilbijêre (û OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Mezinahî</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Mezinahiya bixweber tune</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Li gor bilindahiya vîdyoyê</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Li gor firehiya vîdyoyê</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Li gor dûrahiya quncên vîdyoyê</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Pozîsyona binnivîsê</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Ev vebijêrk pozîsyona binnivîsan diguhere. Wateya &lt;i&gt;100&lt;/i&gt; herî jêr, wateya &lt;i&gt;0&lt;/i&gt; jî herî jor e.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7925,25 +7869,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Kodkirina bixweber a binnivîsan:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">&amp;Pozîsyona bixweber a binnivîsan</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Bila binnivîs li ser wêneyên kişandî hebin</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF font:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">Fonata p&amp;ergalê:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">Mezinahiya b&amp;ixweber:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7959,18 +7887,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Bila binnivîs li ser wêneyên kişandî bê dîtin</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">Fontên TTF</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Fontên Pergalê</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Mezinahiya bixweber</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8001,10 +7917,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Metoda mezinahiya bixweber hilbijrin.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8268,7 +8180,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="103"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Jêr</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="104"/>
@@ -8280,7 +8192,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="105"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
-        <translation type="unfinished">Serî</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="110"/>

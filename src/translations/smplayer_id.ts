@@ -327,10 +327,6 @@
         <translation>Basque</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Menggunakan MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Edisi Portabel</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Kroasia</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Menggunakan MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer menggunakan MPlayer --pemenang penghargaan-- sebagai mesin pemutar. Lihat %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7825,14 +7813,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Subtitle</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Pilih berkas .ttf</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Font Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Subtitle</translation>
@@ -7864,22 +7844,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Nyalakan font &amp;Windows</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Posisi</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Puncak</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Dasar</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7887,37 +7851,9 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Font</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Pilih font yang akan digunakan untuk subtitler (dan OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Ukuran:</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Tidak ada skala otomati</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Atur panjang film secara proporsional</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Atur lebar film secara proporsional</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Atur diagonal film secara proporsional</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Posisi subtitle</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Opsi ini menunjukkan posisi dari subtitle diatas jendela video. &lt;i&gt;100&lt;/i&gt; berarti didasar, sedangkan &lt;i&gt;0&lt;/i&gt; berarti di puncak.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7935,25 +7871,9 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Enko&amp;ding subtitle bawaan:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">&amp;Posisi bawaaan subtitle pada layar</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>Masukkan subt&amp;itle pada screenshot</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">Font &amp;TTF:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">Font sist&amp;em:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">Skala otoma&amp;tis:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7969,18 +7889,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Masukkan subtitle pada screenshot</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">Font TTF</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Font Sistem</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Skala otomatis</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8011,10 +7919,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Jika disana ada satu atau lebih trek subtitle, salah satunya akan otomatis dipilih, umumnya yang urutan pertama, walaupun jika salah satu tersebut dicocokkan dengan pengaturan bahasa pengguna yang salah satunya akan digunakan secara langsung.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Pilih metode skala otomatis subtitle.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8052,10 +7956,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Coba &amp;untuk deteksi otomatis bahasa ini:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Disini anda dapat memilih font .ttf untuk digunakan pada subtitle. Biasanya anda akan menemukan banyak font .ttf pada %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Garis luar</translation>
@@ -8079,10 +7979,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Jika pilihan ini tidak dipilih hanya font yang dibawa oleh SMPlayer saja yang digunakan, namun lebih cepat.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Disini anda dapat memilih font sistem untuk digunakan pada subtitle dan OSD.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8323,22 +8219,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Jika gaya batas diatur ke &lt;i&gt;garis luar&lt;/i&gt;, opsi ini menjelaskan kedalaman bayangan dibelakang teks dalam piksel.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Nyalakan subtitle normal</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Klik tombol ini untuk memilih subtitle normal/tradisional. Jenis subtitle ini hanya dapat menampilkan subtitle berwarna putih.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Nyalakan subtitl SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Subtitle normal</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Opsi ini TIDAK mengubah ukuran dari subtitle pada video yang diputar. Untuk melakukannya, gunakan opsi &lt;i&gt;Ukuran+&lt;/i&gt; dan &lt;i&gt;Ukuran-&lt;/i&gt; pada menu subtitle.</translation>
@@ -8347,14 +8227,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Skala bawaan</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Opsi ini menjelaskan skala font bawaan untuk subtitle normal yang akan digunakan untuk membuka berkas baru.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">Subtitle SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8377,18 +8249,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>&amp;Font dan warna</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">&amp;Nyalakan subtitle normal</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Nyalakan subtitle SSA/&amp;ASS</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">Skala ba&amp;waan:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Skala bawaa&amp;n:</translation>
@@ -8397,10 +8257,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>Garis s&amp;pasi:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Klik tombol ini untuk menyalakan library SSA/ASS yang baru. Hal ini mengijinkan anda untuk dapat melihat subtitle dengan berbagai warna dan font yang tersimpan untuk ditampilkan...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

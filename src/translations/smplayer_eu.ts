@@ -161,17 +161,17 @@
     <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabiltzen %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer interfaze grafiko bat da %1 eta %2-rako.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Azpidatzi zerbitzua %1-ek hornitua</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -181,7 +181,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished">Arabiera - Siria</translation>
+        <translation>Arabiera - Siria</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -327,10 +327,6 @@
         <translation>Euskara</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">MPlayer %1 erabiltzen </translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Edizio Eramangarria</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Kroaziera</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">MPlayer2 %1 erabiltzen</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer-ek MPlayer sari-irabazlea erabiltzen du irakurketa gailu bezala. Ikusi: %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -2737,12 +2725,12 @@ Adibidea: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="156"/>
         <source>Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>Askotarikoa</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="162"/>
         <source>Number of &amp;retries:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saiakera zenbatekoa:</translation>
     </message>
 </context>
 <context>
@@ -7825,14 +7813,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Azpidatziak</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Hautatu ttf agiri bat</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype Hizkiak</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>Az&amp;pidatziak</translation>
@@ -7864,22 +7844,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Gaitu &amp;Windows hizkiak</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Kokapena</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Goian</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Behean</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7887,37 +7851,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Hizkia</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Hautatu azpidatzietan (eta IGE-an) erabiliko den hizki mota:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Neurria</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Ez berezneurriratu</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Filmaren garaieraren araberakoa</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Filmaren zabaleraren araberakoa</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Filmaren diagonalaren araberakoa</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Azpidatzien kokapena</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Aukera honek azpidatziek bideo leihoan hartzen duten kokapena ezartzen du. &lt;i&gt;100&lt;/i&gt;-ek behean esan nahi du eta &lt;i&gt;0&lt;/i&gt;-ek goian.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7935,25 +7871,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Berezko azpidatzi ko&amp;deaketa:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">&amp;Azpidatzien berezko kokapena ikusleihoan </translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>Barnera&amp;tu azpidatziak ikusleiho-argazkietan</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF hizki mota:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">&amp;Sistemako hizkia:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">Berez&amp;neurriratu:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7969,18 +7889,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Barneratu azpidatziak ikusleiho-argazkietan</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF hizkia</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Sistemako hizkia</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Berez-neurriratu</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8011,10 +7919,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Azpidatzi bide bat edo gehiago eskuragarri badira, beraietako bat berezgaitasunez hautatuko da, arrunt lehena, nahiz eta beraietako bat erabiltzaileak hobetsitako hizkuntza izan.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Hautatu azpidatzien berez-neurriratze metodoa.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8052,10 +7956,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>&amp;Saiatu berez-atzematen hizkuntza hau:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Hemen hautatu dezakezu ttf hizki mota bat azpidatzietan erabiltzeko. Arrunt ttf hizki mota pilo bat aurkitu dezakezu hemen: %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Ingurua</translation>
@@ -8079,10 +7979,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Aukera hau ez bada hautatzen SMPlayer-ekin datozen hizki gutxi batzuk bakarrik erabili daitezke, baina azkarra da.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Hemen azpidatzietan eta IGE-an erabiltzeko sistemako hizkia hautatu dezakezu.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8257,7 +8153,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.ui" line="775"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;rabili norbere estiloa</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
@@ -8323,22 +8219,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Hertz estiloa &lt;i&gt;ingurua&lt;/i&gt; bezala ezarrita badago, aukera honek adierazten du itzalaren sakontasuna idazkiaren atzean pixeletan.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Gaitu azpidatzi arruntak</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Klikatu botoi hau hautatzeko azpidatzi arrunt/tradizionalak. Honek azpidatzi zuriak bakarrik azaldu ditzake.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Gaitu SSA/ASS azpidatziak</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Azpidatzi arruntak</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Aukera honek Ez du aldatzen uneko bideoaren azpidatzi neurria. Hori egiteko, erabili &lt;i&gt;Neurria+&lt;/i&gt; eta &lt;i&gt;Neurria-&lt;/i&gt; azpidatzien menuan.</translation>
@@ -8347,14 +8227,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Berezko neurriratzea</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Aukera honek agiri berriak irekitzerakoan azpidatzi arruntentzako erabiliko den hizki neurria adierazten du.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS azpidatziak</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8377,18 +8249,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Hizkiak eta &amp;margoak</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">Gaitu azpidatzi ar&amp;runtak</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Gaitu SSA&amp;/ASS azpidatziak</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">&amp;Berezko neurriratzea:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>&amp;Berezko neurriratzea:</translation>
@@ -8397,10 +8257,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>&amp;Lerro tartea:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Klikatu botoi hau SSA/ASS liburutegi berria gaitzeko. Honek ahalbidetzen du azpidatziak erakustea anitz margoetan, hizkietan...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

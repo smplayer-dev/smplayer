@@ -161,17 +161,17 @@
     <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 wird verwendet</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ist eine grafische Oberfläche für %1 und %2.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Untertiteldienst betrieben von %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -181,7 +181,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished">Arabisch - Syrien</translation>
+        <translation>Arabisch - Syrien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -327,10 +327,6 @@
         <translation>Baskisch</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Unter Einsatz von MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Tragbare Version</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Kroatisch</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Basierend auf MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer benutzt den preisgekrönten MPlayer als Wiedergabemaschine. Siehe %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -2738,12 +2726,12 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="156"/>
         <source>Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>Sonstiges</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="162"/>
         <source>Number of &amp;retries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl an e&amp;rneuten Versuchen:</translation>
     </message>
 </context>
 <context>
@@ -7829,14 +7817,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Untertitel</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">TTF-Datei wählen</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype-Schriften (*.ttf)</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Untertitel</translation>
@@ -7868,22 +7848,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Windows-Schriften aktivieren</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Position</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Oben</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Unten</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7891,37 +7855,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Schrift</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Die Schriften auswählen, welche für die Untertitel und die Bildschirmanzeige verwendet werden soll:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Größe</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Keine automatische Skalierung</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Proportional zur Filmhöhe</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Proportional zur Fimbreite</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Proportional zur Filmdiagonale</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Position der Untertitel</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Diese Option bestimmt die Position der Untertitel über dem Videofenster. &lt;i&gt;100&lt;/i&gt; bedeutet Unten, während &lt;i&gt;0&lt;/i&gt; Oben bedeutet.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7939,25 +7875,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Vorgegebene Untertitelcodierung:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">&amp;Standard Position der Untertitel auf dem Bildschirm</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>Untertitel auf &amp;Bildschirmfotos miteinbeziehen</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF-Schrift:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">S&amp;ystemschrift:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">&amp;Automatische Skalierung:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7973,18 +7893,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Untertitel auf Bidschirmfotos miteinbeziehen</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF-Schrift</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Systemschrift</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Automatische Skalierung</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8015,10 +7923,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Wenn mehr als eine Untertitelspur zur Verfügung steht, wird eine davon automatisch gewählt (üblicherweise die erste), es sei denn eine der Untertitelspuren gehört zu den bevorzugten Sprachen. Dann wird diese verwendet.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Wählen Sie die Methode für das automatische Skalieren der Untertitel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8056,10 +7960,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Versuchen für folgende Sprache automatisch zu erkennen:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Hier können Sie eine TTF-Schrift auswählen, die für die Untertitel verwendet werden soll. Üblicherweise befinden sich viele TTF-Schriften in %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Kontur</translation>
@@ -8083,10 +7983,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Wenn diese Option nicht aktiviert ist, dann können nur einige Schriften, welche im SMPlayer enthalten sind, benutzt werden. Aber das ist schneller.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Hier können Sie eine Systemschrift auswählen, die für die Untertitel und Bildschirmanzeige verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8261,7 +8157,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="775"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Benutzerdefinierten Stil verwenden</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="433"/>
@@ -8327,22 +8223,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Wenn der Rahmenstil auf &lt;i&gt;Kontur&lt;/i&gt; gesetzt ist, gibt diese Option gibt die Tiefe der Schatten hinter dem Text in Pixel an.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Normale Untertitel aktivieren</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Klicken Sie auf diesen Knopf, um die normalen/herkömmliche nUntertitel zu wählen. Diese können nur in weiß dargestellt werden.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS-Untertitel aktivieren</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Normale Untertitel</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Diese Option ändert nicht die Größe der Untertitel im aktuellen Video. Verwenden Sie dazu die Optionen &lt;i&gt;Größe +&lt;/i&gt; und &lt;i&gt;Größe −&lt;/i&gt; im Untertitelmenü.</translation>
@@ -8351,14 +8231,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Standardskalierung</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Diese Option gibt die Skalierung der Standardschrift bei normalen Untertiteln an, welche bei neu geöffneten Dateien angewendet wird.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS-Untertitel</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8381,18 +8253,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Schrift und Farben</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">&amp;Normale Untertitel aktivieren</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">SSA/&amp;ASS-Untertitel aktivieren</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">&amp;Standardskalierung:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>&amp;Standardskalierung:</translation>
@@ -8401,10 +8261,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>&amp;Zeilenabstand:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Bitte auf diesen Knopf klicken, um die neue SSA/ASS-Bibliothek zu aktivieren. Diese erlaubt die Anzeige von Untertiteln mit mehreren Farben, Schriften, …</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

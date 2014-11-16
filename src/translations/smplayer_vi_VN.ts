@@ -327,10 +327,6 @@
         <translation>Tiếng Xứ Basque</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Dùng Mplayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Phiên bản không cần cài đặt</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Croatian</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Sử dụng MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer sử dụng bộ phận engine phát lại đã đạt được nhiều giải thưởng là MPlayer. Xem %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7825,14 +7813,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Các phụ đề</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Chọn một tập tin ttf</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Phông chữ dạng Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Phụ đề</translation>
@@ -7864,22 +7844,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Vị trí</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Trên cùng</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Dưới cùng</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7887,37 +7851,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Phông chữ</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Chọn phông chữ sẽ dùng cho phụ đề (và hiển thị trên hình ảnh):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Kích thước</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Không tự động chỉnh cỡ</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Tỷ lệ với chiều cao phim</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Tỷ lệ với chiều rộng phim</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Tỷ lệ với đường chéo của phim</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Vị trí phụ đề</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Lựa chọn này xác định vị trí của phụ đề trên cửa sổ video. &lt;i&gt;100&lt;/i&gt; nghĩa là dưới cùng, trong khi &lt;i&gt;0&lt;/i&gt; nghĩa là trên cùng.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7935,25 +7871,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mã phụ đề &amp;mặc định:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">Vị trí mặc định của &amp;phụ đề trên màn hình</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Kèm theo phụ đề khi chụp màn hình</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">Phông chữ &amp;TTF:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">Phông chữ của &amp;hệ thống:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">&amp;Tự động chỉnh cỡ:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7969,18 +7889,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Kèm theo phụ đề khi chụp màn hình</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">Phông chữ TTF</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Phông chữ của hệ thống</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Tự động chỉnh cỡ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8011,10 +7919,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Nếu như có một hay nhiều hơn phụ đề, một trong số chúng sẽ được tự động dùng, thường là cái đầu tiên, tuy nhiên nếu như một trong số chúng hợp với ngôn ngữ của người dùng thì cái đó sẽ được dùng.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Chọn cách nạp tự động phụ đề.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8052,10 +7956,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Thử tự động &amp;dò với ngôn ngữ này:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Bạn có thể chọn một phông chữ ttf để dùng cho phụ đề. Thông thường bạn sẽ tìm thấy nhiều phông chữ ttf trong %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Bao ngoài</translation>
@@ -8079,10 +7979,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Bạn có thể chọn phông chữ hệ thống để dùng cho phụ đề và hiển thị trên màn hình.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8323,22 +8219,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nếu như kiểu lề được đặt là &lt;i&gt;đường bao&lt;/i&gt;, lựa chọn này chỉ ra độ rộng của bóng đổ phía sau chữ tính theo điểm ảnh.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Cho phép phụ đề bình thường</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Bấm vào nút này đề chọn phụ đề bình thường/truyền thống. Loại phụ đề này chỉ có thể hiển thị phụ đề màu trắng.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Cho phép phụ đề SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Phụ đề bình thường</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Lựa chọn này KHÔNG thay đổi kích thước của phụ đề trong video hiện thời. Để làm vậy, dùng lựa chọn &lt;i&gt;Cỡ+&lt;/i&gt; và &lt;i&gt;Cỡ-&lt;/i&gt; trong trình đơn phụ đề.</translation>
@@ -8347,14 +8227,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Tỷ lệ mặc định</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Lựa chọn này chỉ ra tỷ lệ mặc định cho phông chữ cho phụ đề bình thường dùng cho tập tin mới mở lần đầu.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">Phụ đề dạng SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8377,18 +8249,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mầu và &amp;phông chữ</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">Dùng phụ đề &amp;bình thường</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Dùng phụ đề SSA/&amp;ASS</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">&amp;Tỷ lệ mặc định:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Tỷ lệ &amp;mặc định:</translation>
@@ -8397,10 +8257,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>Khoảng &amp;cách dòng:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Bấm vào nút này để dùng thư viện SSA/ASS mới. Cái này cho phép hiển thị phụ đề với nhiều màu và phông chữ...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>
