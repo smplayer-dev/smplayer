@@ -1,0 +1,24 @@
+This version supports mpv (http://mpv.io).
+
+To use mpv instead of mplayer, open the smplayer preferences dialog,
+and enter "mpv" instead of "mplayer" in the mplayer binary field.
+Only mpv 0.6.2 has been tested, it may not work with older versions.
+
+While the most usual functions work, there are some known problems:
+
+* the options in the DVD menus can't be selected with the mouse. Reason:
+  there's no slave command to pass the mouse position to mpv.
+* the audio equalizer works, but adjusting it with the controls is not
+  smooth. Reason: the slave command "af_cmdline equalizer" is missing.
+* it's not possible to change the hue when using the software video
+  equalizer. Reason: the hue filter is missing.
+* the postprocessing filter won't work. Reason: the -autoq option
+  is missing.
+* the filter kerndeint won't work. Reason: this filter is missing.
+  If you select it, smplayer will use yadif instead.
+* Thumbnail generator. It's very slow if you select to extract png files. It
+  works fine with jpg.
+* Audio CD. The first title is 1 instead of 0 (as opposite to DVD or bluray).
+  Track 0 and 1 plays the same track. I guess this is a bug, and I didn't
+  added a workaround. That means that the last track can't be played.
+* VCD and DVB haven't been tested yet.
