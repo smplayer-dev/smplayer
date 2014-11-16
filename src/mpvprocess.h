@@ -16,27 +16,27 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _MPLAYERPROCESS_H_
-#define _MPLAYERPROCESS_H_
+#ifndef MPVPROCESS_H
+#define MPVPROCESS_H
 
 #include <QString>
 #include "playerprocess.h"
-#include "mediadata.h"
 #include "config.h"
 
 class QStringList;
 
-class MplayerProcess : public PlayerProcess
+class MPVProcess : public PlayerProcess
 {
 	Q_OBJECT
 
 public:
-	MplayerProcess(QObject * parent = 0);
-	~MplayerProcess();
+	MPVProcess(QObject * parent = 0);
+	~MPVProcess();
 
 	bool start();
 
 	// Command line options
+	void addArgument(const QString & a);
 	void setMedia(const QString & media);
 	void setFixedOptions();
 	void setOption(const QString & option_name, const QVariant & value = QVariant());
@@ -89,6 +89,15 @@ protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
 	void gotError(QProcess::ProcessError);
+	void requestChapterInfo();
+
+protected:
+#if NOTIFY_AUDIO_CHANGES
+	void updateAudioTrack(int ID, const QString & name, const QString & lang);
+#endif
+#if NOTIFY_SUB_CHANGES
+	void updateSubtitleTrack(int ID, const QString & name, const QString & lang);
+#endif
 
 private:
 	bool notified_mplayer_is_running;
@@ -110,8 +119,20 @@ private:
 	bool audio_info_changed;
 #endif
 
+#if NOTIFY_VIDEO_CHANGES
+	Tracks videos;
+	bool video_info_changed;
+#endif
+
+#if NOTIFY_CHAPTER_CHANGES
+	Chapters chapters;
+	bool chapter_info_changed;
+#endif
+
 	int dvd_current_title;
 	int br_current_title;
+
+	QString previous_eq;
 };
 
 #endif

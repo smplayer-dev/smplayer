@@ -23,14 +23,15 @@
 #include <QProcess> // For QProcess::ProcessError
 #include "mediadata.h"
 #include "mediasettings.h"
-#include "mplayerprocess.h"
+#include "playerprocess.h"
+
 #include "config.h"
 
 #ifndef NO_USE_INI_FILES
 class FileSettingsBase;
 #endif
 
-class MplayerProcess;
+class PlayerProcess;
 class MplayerWindow;
 class QSettings;
 
@@ -340,6 +341,8 @@ public:
 	//! Returns the number of the first chapter in 
 	//! files. In some versions of mplayer is 0, in others 1
 	static int firstChapter();
+	int firstDVDTitle();
+	int firstBlurayTitle();
 
 #ifndef NO_USE_INI_FILES
 	void changeFileSettingsMethod(QString method);
@@ -348,7 +351,7 @@ public:
 protected:
 	//! Returns the prefix to keep pausing on slave commands
 	QString pausing_prefix();
-	QString seek_cmd(double secs, int mode);
+	void seek_cmd(double secs, int mode);
 
 protected slots:
     void changeCurrentSec(double sec);
@@ -387,10 +390,17 @@ protected slots:
 #if NOTIFY_AUDIO_CHANGES
 	void initAudioTrack(const Tracks &);
 #endif
+#if NOTIFY_VIDEO_CHANGES
+	void initVideoTrack(const Tracks &);
+#endif
 #if NOTIFY_SUB_CHANGES
 	void initSubtitleTrack(const SubTracks &);
 	void setSubtitleTrackAgain(const SubTracks &);
 #endif
+#if NOTIFY_CHAPTER_CHANGES
+	void updateChapterInfo(const Chapters &);
+#endif
+
 #if DVDNAV_SUPPORT
 	void dvdTitleChanged(int);
 	void durationChanged(double);
@@ -490,8 +500,8 @@ signals:
 	void receivedForbidden();
 
 protected:
-    MplayerProcess * proc;
-    MplayerWindow * mplayerwindow;
+	PlayerProcess * proc;
+	MplayerWindow * mplayerwindow;
 
 #ifndef NO_USE_INI_FILES
 	FileSettingsBase * file_settings;

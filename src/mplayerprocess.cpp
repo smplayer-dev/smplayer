@@ -30,15 +30,23 @@ using namespace Global;
 
 #define TOO_CHAPTERS_WORKAROUND
 
-MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent) 
-{
+MplayerProcess::MplayerProcess(QObject * parent)
+	: PlayerProcess(parent)
+	, notified_mplayer_is_running(false)
+	, received_end_of_file(false)
+	, last_sub_id(-1)
+	, mplayer_svn(-1) // Not found yet
 #if NOTIFY_SUB_CHANGES
-	qRegisterMetaType<SubTracks>("SubTracks");
+	, subtitle_info_received(false)
+	, subtitle_info_changed(false)
 #endif
-
 #if NOTIFY_AUDIO_CHANGES
-	qRegisterMetaType<Tracks>("Tracks");
+	, audio_info_changed(false)
 #endif
+	, dvd_current_title(-1)
+	, br_current_title(-1)
+{
+	player_id = PlayerID::MPLAYER;
 
 	connect( this, SIGNAL(lineAvailable(QByteArray)),
 			 this, SLOT(parseLine(QByteArray)) );
@@ -48,10 +56,6 @@ MplayerProcess::MplayerProcess(QObject * parent) : MyProcess(parent)
 
 	connect( this, SIGNAL(error(QProcess::ProcessError)),
              this, SLOT(gotError(QProcess::ProcessError)) );
-
-	notified_mplayer_is_running = false;
-	last_sub_id = -1;
-	mplayer_svn = -1; // Not found yet
 }
 
 MplayerProcess::~MplayerProcess() {
@@ -80,77 +84,9 @@ bool MplayerProcess::start() {
 
 	MyProcess::start();
 
-#if !defined(Q_OS_OS2)
 	return waitForStarted();
-#else
-	bool r = waitForStarted();
-	if (r) {
-		pidMP = QProcess::pid();
-		qDebug("MPlayer PID %i", pidMP);
-		MPpipeOpen();
-	}
-	return r;
-#endif
 }
 
-void MplayerProcess::writeToStdin(QString text) {
-	if (isRunning()) {
-		//qDebug("MplayerProcess::writeToStdin");
-#if !defined(Q_OS_OS2)
-		#ifdef Q_OS_WIN
-		write( text.toUtf8() + "\n");
-		#else
-		write( text.toLocal8Bit() + "\n");
-		#endif
-#else
-		MPpipeWrite( text.toLocal8Bit() + "\n");
-#endif
-	} else {
-		qWarning("MplayerProcess::writeToStdin: process not running");
-	}
-#ifdef Q_OS_OS2
-	if (text == "quit" || text == "quit\n") {
-		MPpipeClose();
-	}
-#endif
-}
-
-#ifdef Q_OS_OS2
-void MplayerProcess::MPpipeOpen() {
-	char szPipeName[ 100 ];
-	sprintf( szPipeName, "\\PIPE\\MPLAYER\\%x", pidMP );
-	DosCreateNPipe( szPipeName, &hpipe, NP_ACCESS_DUPLEX, 1, 1024, 1024, 0 );
-}
-
-void MplayerProcess::MPpipeClose( void ) {
-	DosClose( hpipe );
-}
-
-void MplayerProcess::MPpipeWrite( const QByteArray text ) {
-	// MPlayer quitted ?
-	if ( !isRunning() )
-		return;
-
-// as things could hang when pipe communication is done direct here, i do a seperate thread for it
-	pipeThread = new PipeThread(text, hpipe);
-    
-	pipeThread->start();
-	while (!pipeThread->isRunning() && !pipeThread->isFinished()) {
-		qDebug("we sleep");
-		DosSleep(10);
-	}
-// we wait for max 2 seconds for the thread to be ended (we to this with max 20 loops)
-	int count = 0;
-	while (!pipeThread->wait(100) && count < 20) {
-		count ++;
-	}
-	if (count >= 20) {
-		pipeThread->terminate();
-		qDebug("pipe communication terminated");
-	}
-	delete pipeThread;
-}
-#endif
 
 static QRegExp rx_av("^[AV]: *([0-9,:.-]+)");
 static QRegExp rx_frame("^[AV]:.* (\\d+)\\/.\\d+");// [0-9,.]+");
@@ -926,31 +862,5 @@ void MplayerProcess::gotError(QProcess::ProcessError error) {
 	qDebug("MplayerProcess::gotError: %d", (int) error);
 }
 
-#ifdef Q_OS_OS2
-PipeThread::PipeThread(const QByteArray t, const HPIPE pipe) {
-	text = t;
-	hpipe = pipe;
-}
-
-PipeThread::~PipeThread() {
-}
-
-void PipeThread::run() {
-	ULONG cbActual;
-	APIRET rc = NO_ERROR; 
-
-	rc = DosConnectNPipe( hpipe );
-	if (rc != NO_ERROR) 
-		return;
-
-//	qDebug("pipe connected");    
-	DosWrite( hpipe, text.data(), strlen( text.data() ), &cbActual );
-
-	// Wait for ACK
-	DosRead( hpipe, &cbActual, sizeof( ULONG ), &cbActual );
-	DosDisConnectNPipe( hpipe );
-	return;
-}
-#endif
-
+#include "mplayeroptions.cpp"
 #include "moc_mplayerprocess.cpp"

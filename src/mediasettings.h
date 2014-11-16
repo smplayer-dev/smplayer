@@ -142,6 +142,8 @@ public:
 	//! The codec of the video is ffh264 and it's high definition
 	bool is264andHD;
 
+	QString current_demuxer;
+
 	// Advanced settings
 	QString forced_demuxer;
 	QString forced_video_codec;
@@ -174,8 +176,8 @@ public:
 	void list();
 
 #ifndef NO_USE_INI_FILES
-	void save(QSettings * set);
-	void load(QSettings * set);
+	void save(QSettings * set, int player_id);
+	void load(QSettings * set, int player_id);
 #endif
 };
 

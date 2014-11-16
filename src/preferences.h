@@ -211,17 +211,14 @@ public:
 	   Subtitles
 	   ********* */
 
-	QString font_file;
-	QString font_name;
-	bool use_fontconfig;
 	QString subcp; // -subcp
 	bool use_enca;
 	QString enca_lang;
-	int font_autoscale; // -subfont-autoscale
 	int subfuzziness;
 	bool autoload_sub;
 
 	bool use_ass_subtitles;
+	bool enable_ass_styles;
 	int ass_line_spacing;
 
 	bool use_forced_subs_only;

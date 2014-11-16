@@ -17,288 +17,193 @@
 */
 
 #include "inforeader.h"
-#include <QStringList>
-#include <QApplication>
-#include <QRegExp>
-
-#include "colorutils.h"
 #include "global.h"
 #include "preferences.h"
-#include "mplayerversion.h"
-
-#if USE_QPROCESS
-#include <QProcess>
-#else
-#include "myprocess.h"
-#endif
+#include "inforeadermplayer.h"
+#include "inforeadermpv.h"
+#include "playerprocess.h"
+#include "paths.h"
+#include <QFileInfo>
+#include <QDateTime>
+#include <QSettings>
+#include <QDebug>
 
 using namespace Global;
 
-#define NOME 0
-#define VO 1
-#define AO 2
-#define DEMUXER 3
-#define VC 4
-#define AC 5
-
 InfoReader * InfoReader::static_obj = 0;
 
-InfoReader * InfoReader::obj() {
+InfoReader * InfoReader::obj(const QString & mplayer_bin) {
+	QString player_bin = mplayer_bin;
+	if (player_bin.isEmpty()) {
+		player_bin = pref->mplayer_bin;
+	}
 	if (!static_obj) {
-		static_obj = new InfoReader( pref->mplayer_bin );
-		static_obj->getInfo();
+		static_obj = new InfoReader(player_bin);
+	} else {
+		static_obj->setPlayerBin(player_bin);
 	}
 	return static_obj;
 }
 
-InfoReader::InfoReader( QString mplayer_bin, QObject * parent )
+InfoReader::InfoReader(QString mplayer_bin, QObject * parent)
 	: QObject(parent)
+	, mplayer_svn(0)
+	, is_mplayer2(false)
+	, is_mpv(false)
 {
-	mplayerbin = mplayer_bin;
-
-#if USE_QPROCESS
-	proc = new QProcess(this);
-	proc->setProcessChannelMode( QProcess::MergedChannels );
-#else
-	proc = new MyProcess(this);
-
-	connect( proc, SIGNAL(lineAvailable(QByteArray)), 
-             this, SLOT(readLine(QByteArray)) );
-#endif
+	setPlayerBin(mplayer_bin);
 }
 
 InfoReader::~InfoReader() {
 }
 
-void InfoReader::getInfo() {
-	waiting_for_key = true;
-	vo_list.clear();
-	ao_list.clear();
-	demuxer_list.clear();
-	mplayer_svn = -1;
+void InfoReader::setPlayerBin(const QString & bin) {
+	mplayerbin = bin;
 
-	run("-identify -vo help -ao help -demuxer help -vc help -ac help");
-
-	//list();
-}
-
-void InfoReader::list() {
-	qDebug("InfoReader::list");
-
-	InfoList::iterator it;
-
-	qDebug(" vo_list:");
-	for ( it = vo_list.begin(); it != vo_list.end(); ++it ) {
-		qDebug( "driver: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
+	QFileInfo fi(mplayerbin);
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		// mplayerbin = fi.absoluteFilePath();
 	}
-
-	qDebug(" ao_list:");
-	for ( it = ao_list.begin(); it != ao_list.end(); ++it ) {
-		qDebug( "driver: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
+#ifdef Q_OS_LINUX
+	else {
+		QString fplayer = findApp(mplayerbin);
+		qDebug() << "InfoReader::setPlayerBin: fplayer:" << fplayer;
+		if (!fplayer.isEmpty()) mplayerbin = fplayer;
 	}
-
-	qDebug(" demuxer_list:");
-	for ( it = demuxer_list.begin(); it != demuxer_list.end(); ++it ) {
-		qDebug( "demuxer: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
-	}
-
-	qDebug(" vc_list:");
-	for ( it = vc_list.begin(); it != vc_list.end(); ++it ) {
-		qDebug( "codec: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
-	}
-
-	qDebug(" ac_list:");
-	for ( it = ac_list.begin(); it != ac_list.end(); ++it ) {
-		qDebug( "codec: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
-	}
-
-}
-
-static QRegExp rx_vo_key("^ID_VIDEO_OUTPUTS");
-static QRegExp rx_ao_key("^ID_AUDIO_OUTPUTS");
-static QRegExp rx_demuxer_key("^ID_DEMUXERS");
-static QRegExp rx_ac_key("^ID_AUDIO_CODECS");
-static QRegExp rx_vc_key("^ID_VIDEO_CODECS");
-
-static QRegExp rx_driver("\\t(.*)\\t(.*)");
-static QRegExp rx_demuxer("^\\s+([A-Z,a-z,0-9]+)\\s+(\\d+)\\s+(\\S.*)");
-static QRegExp rx_demuxer2("^\\s+([A-Z,a-z,0-9]+)\\s+(\\S.*)");
-static QRegExp rx_codec("^([A-Z,a-z,0-9]+)\\s+([A-Z,a-z,0-9]+)\\s+([A-Z,a-z,0-9]+)\\s+(\\S.*)");
-
-void InfoReader::readLine(QByteArray ba) {
-#if COLOR_OUTPUT_SUPPORT
-    QString line = ColorUtils::stripColorsTags(QString::fromLocal8Bit(ba));
-#else
-	QString line = QString::fromLocal8Bit(ba);
 #endif
+	qDebug() << "InfoReader::setPlayerBin: mplayerbin:" << mplayerbin;
+}
 
-	if (line.isEmpty()) return;
+void InfoReader::getInfo() {
+	QString inifile = Paths::configPath() + "/player_info.ini";
+	QSettings set(inifile, QSettings::IniFormat);
 
-	qDebug("InfoReader::readLine: line: '%s'", line.toUtf8().data());
-	//qDebug("waiting_for_key: %d", waiting_for_key);
+	QString sname = mplayerbin;
+	sname = sname.replace("/", "_").replace("\\", "_").replace(".", "_").replace(":", "_");
+	QFileInfo fi(mplayerbin);
+	if (fi.exists()) {
+		sname += "_" + QString::number(fi.size());
 
-	if (!waiting_for_key) {
-		if ((reading_type == VO) || (reading_type == AO)) {
-			if ( rx_driver.indexIn(line) > -1 ) {
-				QString name = rx_driver.cap(1);
-				QString desc = rx_driver.cap(2);
-				qDebug("InfoReader::readLine: found driver: '%s' '%s'", name.toUtf8().data(), desc.toUtf8().data());
-				if (reading_type==VO) {
-					vo_list.append( InfoData(name, desc) );
-				} 
-				else
-				if (reading_type==AO) {
-					ao_list.append( InfoData(name, desc) );
-				}
-			} else {
-				qWarning("InfoReader::readLine: can't parse output driver from line '%s'", line.toUtf8().constData());
-			}
+		qDebug() << "InfoReader::getInfo: sname:" << sname;
+
+		// Check if we already have info about the player in the ini file
+		bool got_info = false;
+		set.beginGroup(sname);
+		if (set.value("size", -1).toInt() == fi.size()) {
+			got_info = true;
+			vo_list = convertListToInfoList(set.value("vo_list").toStringList());
+			ao_list = convertListToInfoList(set.value("ao_list").toStringList());
+			demuxer_list = convertListToInfoList(set.value("demuxer_list").toStringList());
+			vc_list = convertListToInfoList(set.value("vc_list").toStringList());
+			ac_list = convertListToInfoList(set.value("ac_list").toStringList());
+			mplayer_svn = set.value("mplayer_svn").toInt();
+			mpv_version = set.value("mpv_version").toString();
+			mplayer2_version = set.value("mplayer2_version").toString();
+			is_mplayer2 = set.value("is_mplayer2").toBool();
+			is_mpv = set.value("is_mpv").toBool();
 		}
-		else
-		if (reading_type == DEMUXER) {
-			if ( rx_demuxer.indexIn(line) > -1 ) {
-				QString name = rx_demuxer.cap(1);
-				QString desc = rx_demuxer.cap(3);
-				qDebug("InfoReader::readLine: found demuxer: '%s' '%s'", name.toUtf8().data(), desc.toUtf8().data());
-				demuxer_list.append( InfoData(name, desc) );
-			}
-			else 
-			if ( rx_demuxer2.indexIn(line) > -1 ) {
-				QString name = rx_demuxer2.cap(1);
-				QString desc = rx_demuxer2.cap(2);
-				qDebug("InfoReader::readLine: found demuxer: '%s' '%s'", name.toUtf8().data(), desc.toUtf8().data());
-				demuxer_list.append( InfoData(name, desc) );
-			}
-			else {
-				qWarning("InfoReader::readLine: can't parse demuxer from line '%s'", line.toUtf8().constData());
-			}
-		}
-		else
-		if ((reading_type == VC) || (reading_type == AC)) {
-			if ( rx_codec.indexIn(line) > -1 ) {
-				QString name = rx_codec.cap(1);
-				QString desc = rx_codec.cap(4);
-				qDebug("InfoReader::readLine: found codec: '%s' '%s'", name.toUtf8().data(), desc.toUtf8().data());
-				if (reading_type==VC) {
-					vc_list.append( InfoData(name, desc) );
-				} 
-				else
-				if (reading_type==AC) {
-					ac_list.append( InfoData(name, desc) );
-				}
-			} else {
-				qWarning("InfoReader::readLine: can't parse codec from line '%s'", line.toUtf8().constData());
-			}
+		set.endGroup();
+		if (got_info) {
+			qDebug() << "InfoReader::getInfo: loaded info from" << inifile;
+			return;
 		}
 	}
 
-	if ( rx_vo_key.indexIn(line) > -1 ) {
-		reading_type = VO;
-		waiting_for_key = false;
-		qDebug("InfoReader::readLine: found key: vo");
+	if (PlayerID::player(mplayerbin) == PlayerID::MPV) {
+		qDebug("InfoReader::getInfo: mpv");
+		InfoReaderMPV ir(mplayerbin, this);
+		ir.getInfo();
+		vo_list = ir.voList();
+		ao_list = ir.aoList();
+		demuxer_list = ir.demuxerList();
+		vc_list = ir.vcList();
+		ac_list = ir.acList();
+		mplayer_svn = ir.mplayerSVN();
+		mpv_version = ir.mpvVersion();
+		mplayer2_version = "";
+		is_mplayer2 = false;
+		is_mpv = true;
+	} else {
+		qDebug("InfoReader::getInfo: mplayer");
+		InfoReaderMplayer ir(mplayerbin, this);
+		ir.getInfo();
+		vo_list = ir.voList();
+		ao_list = ir.aoList();
+		demuxer_list = ir.demuxerList();
+		vc_list = ir.vcList();
+		ac_list = ir.acList();
+		mplayer_svn = ir.mplayerSVN();
+		mpv_version = "";
+		mplayer2_version = ir.mplayer2Version();
+		is_mplayer2 = ir.isMplayer2();
+		is_mpv = false;
 	}
 
-	if ( rx_ao_key.indexIn(line) > -1 ) {
-		reading_type = AO;
-		waiting_for_key = false;
-		qDebug("InfoReader::readLine: found key: ao");
-	}
-
-	if ( rx_demuxer_key.indexIn(line) > -1 ) {
-		reading_type = DEMUXER;
-		waiting_for_key = false;
-		qDebug("InfoReader::readLine: found key: demuxer");
-	}
-
-	if ( rx_ac_key.indexIn(line) > -1 ) {
-		reading_type = AC;
-		waiting_for_key = false;
-		qDebug("InfoReader::readLine: found key: ac");
-	}
-
-	if ( rx_vc_key.indexIn(line) > -1 ) {
-		reading_type = VC;
-		waiting_for_key = false;
-		qDebug("InfoReader::readLines: found key: vc");
-	}
-
-	if (line.startsWith("MPlayer ")) {
-		mplayer_svn = MplayerVersion::mplayerVersion(line);
+	if (fi.exists()) {
+		qDebug() << "InfoReader::getInfo: saving info to" << inifile;
+		set.beginGroup(sname);
+		set.setValue("size", fi.size());
+		set.setValue("date", fi.lastModified());
+		set.setValue("vo_list", convertInfoListToList(vo_list));
+		set.setValue("ao_list", convertInfoListToList(ao_list));
+		set.setValue("demuxer_list", convertInfoListToList(demuxer_list));
+		set.setValue("vc_list", convertInfoListToList(vc_list));
+		set.setValue("ac_list", convertInfoListToList(ac_list));
+		set.setValue("mplayer_svn", mplayer_svn);
+		set.setValue("mpv_version", mpv_version);
+		set.setValue("mplayer2_version", mplayer2_version);
+		set.setValue("is_mplayer2", is_mplayer2);
+		set.setValue("is_mpv", is_mpv);
+		set.endGroup();
 	}
 }
 
-#if USE_QPROCESS
-bool InfoReader::run(QString options) {
-	qDebug("InfoReader::run: '%s'", options.toUtf8().data());
-	qDebug("InfoReader::run: using QProcess");
+QString InfoReader::playerVersion() {
+	QString player = QString("MPlayer SVN r%1").arg(mplayer_svn);
 
-	if (proc->state() == QProcess::Running) {
-		qWarning("InfoReader::run: process already running");
-		return false;
+	if (is_mplayer2) {
+		player = "MPlayer2 " + mplayer2_version;
+	}
+	else
+	if (is_mpv) {
+		player = "MPV " + mpv_version;
 	}
 
-	QStringList args = options.split(" ");
-
-	proc->start(mplayerbin, args);
-	if (!proc->waitForStarted()) {
-		qWarning("InfoReader::run: process can't start!");
-		return false;
-	}
-
-	//Wait until finish
-	if (!proc->waitForFinished()) {
-		qWarning("InfoReader::run: process didn't finish. Killing it...");
-		proc->kill();
-	}
-
-	qDebug("InfoReader::run : terminating");
-
-	QByteArray ba;
-	while (proc->canReadLine()) {
-		ba = proc->readLine();
-		ba.replace("\n", "");
-		ba.replace("\r", "");
-		readLine( ba );
-	}
-
-	return true;
+	return player;
 }
-#else
-bool InfoReader::run(QString options) {
-	qDebug("InfoReader::run: '%s'", options.toUtf8().data());
-	qDebug("InfoReader::run: using myprocess");
 
-	if (proc->isRunning()) {
-		qWarning("InfoReader::run: process already running");
-		return false;
+QStringList InfoReader::convertInfoListToList(InfoList l) {
+	QStringList r;
+	for (int n = 0; n < l.count(); n++) {
+		r << l[n].name() + "|" + l[n].desc();
+	}
+	return r;
+}
+
+InfoList InfoReader::convertListToInfoList(QStringList l) {
+	InfoList r;
+	for (int n = 0; n < l.count(); n++) {
+		QStringList s = l[n].split("|");
+		if (s.count() >= 2) {
+			r.append(InfoData(s[0], s[1]));
+		}
+	}
+	return r;
+}
+
+#ifdef Q_OS_LINUX
+QString InfoReader::findApp(const QString & appname) {
+	QString res;
+
+	QProcess p;
+	p.start("which", QStringList() << appname);
+	bool success = p.waitForFinished();
+	if (success) {
+		res = p.readAll();
+		res = res.trimmed();
 	}
 
-	proc->clearArguments();
-
-	proc->addArgument(mplayerbin);
-
-	QStringList args = options.split(" ");
-	QStringList::Iterator it = args.begin();
-	while( it != args.end() ) {
-		proc->addArgument( (*it) );
-		++it;
-	}
-
-	proc->start();
-	if (!proc->waitForStarted()) {
-		qWarning("InfoReader::run: process can't start!");
-		return false;
-	}
-
-	//Wait until finish
-	if (!proc->waitForFinished()) {
-		qWarning("InfoReader::run: process didn't finish. Killing it...");
-		proc->kill();
-	}
-
-	qDebug("InfoReader::run : terminating");
-
-	return true;
+	return res;
 }
 #endif
 

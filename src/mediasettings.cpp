@@ -31,6 +31,8 @@ MediaSettings::~MediaSettings() {
 }
 
 void MediaSettings::reset() {
+	qDebug("MediaSettings::reset");
+
 	current_sec = 0;
 	//current_sub_id = SubNone; 
 	current_sub_id = NoneSelected;
@@ -108,6 +110,8 @@ void MediaSettings::reset() {
 	B_marker = -1;
 
 	is264andHD = false;
+
+	current_demuxer = "unknown";
 
 	forced_demuxer="";
 	if (pref->use_lavf_demuxer) forced_demuxer = "lavf";
@@ -248,6 +252,8 @@ void MediaSettings::list() {
 	qDebug("  A_marker: %d", A_marker);
 	qDebug("  B_marker: %d", B_marker);
 
+	qDebug("  current_demuxer: '%s'", current_demuxer.toUtf8().data());
+
 	qDebug("  forced_demuxer: '%s'", forced_demuxer.toUtf8().data());
 	qDebug("  forced_video_codec: '%s'", forced_video_codec.toUtf8().data());
 	qDebug("  forced_audio_codec: '%s'", forced_video_codec.toUtf8().data());
@@ -269,17 +275,26 @@ void MediaSettings::list() {
 }
 
 #ifndef NO_USE_INI_FILES
-void MediaSettings::save(QSettings * set) {
+void MediaSettings::save(QSettings * set, int player_id) {
 	qDebug("MediaSettings::save");
 
-	//QSettings * set = settings;
+	set->beginGroup("player_" + QString::number(player_id));
 
-	/*set->beginGroup( "mediasettings" );*/
+	set->setValue( "current_demuxer", current_demuxer);
+	set->setValue( "forced_demuxer", forced_demuxer);
+	set->setValue( "forced_video_codec", forced_video_codec);
+	set->setValue( "forced_audio_codec", forced_audio_codec);
+	set->setValue( "original_demuxer", original_demuxer);
+	set->setValue( "original_video_codec", original_video_codec);
+	set->setValue( "original_audio_codec", original_audio_codec);
 
-	set->setValue( "current_sec", current_sec );
-
-	QString demuxer_section = "demuxer_default";
-	if (!forced_demuxer.isEmpty()) demuxer_section = "demuxer_" + forced_demuxer;
+	// Save the tracks ID in a demuxer section
+	QString demuxer_section;
+	if (forced_demuxer.isEmpty()) {
+		demuxer_section = QString("demuxer_%1").arg(current_demuxer);
+	} else {
+		demuxer_section = QString("demuxer_%1").arg(forced_demuxer);
+	}
 
 	set->beginGroup(demuxer_section);
 	set->setValue( "current_sub_id", current_sub_id );
@@ -289,6 +304,11 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "current_video_id", current_video_id );
 	set->setValue( "current_audio_id", current_audio_id );
 	set->endGroup();
+
+	set->endGroup(); // player
+
+
+	set->setValue( "current_sec", current_sec );
 
 	set->setValue( "current_title_id", current_title_id );
 	set->setValue( "current_chapter_id", current_chapter_id );
@@ -354,14 +374,6 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "A_marker", A_marker);
 	set->setValue( "B_marker", B_marker);
 
-	set->setValue( "forced_demuxer", forced_demuxer);
-	set->setValue( "forced_video_codec", forced_video_codec);
-	set->setValue( "forced_audio_codec", forced_audio_codec);
-
-	set->setValue( "original_demuxer", original_demuxer);
-	set->setValue( "original_video_codec", original_video_codec);
-	set->setValue( "original_audio_codec", original_audio_codec);
-
 	set->setValue( "mplayer_additional_options", mplayer_additional_options);
 	set->setValue( "mplayer_additional_video_filters", mplayer_additional_video_filters);
 	set->setValue( "mplayer_additional_audio_filters", mplayer_additional_audio_filters);
@@ -372,33 +384,44 @@ void MediaSettings::save(QSettings * set) {
 	set->setValue( "starting_time", starting_time );
 
 	set->setValue( "is264andHD", is264andHD );
-
-	/*set->endGroup();*/
 }
 
-void MediaSettings::load(QSettings * set) {
+void MediaSettings::load(QSettings * set, int player_id) {
 	qDebug("MediaSettings::load");
 
-	//QSettings * set = settings;
+	set->beginGroup("player_" + QString::number(player_id));
 
-	/*set->beginGroup( "mediasettings" );*/
-
-	current_sec = set->value( "current_sec", current_sec).toDouble();
-
+	current_demuxer = set->value( "current_demuxer", current_demuxer).toString();
 	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
 	if (pref->use_lavf_demuxer) forced_demuxer = "lavf";
+	forced_video_codec = set->value( "forced_video_codec", forced_video_codec).toString();
+	forced_audio_codec = set->value( "forced_audio_codec", forced_audio_codec).toString();
+	original_demuxer = set->value( "original_demuxer", original_demuxer).toString();
+	original_video_codec = set->value( "original_video_codec", original_video_codec).toString();
+	original_audio_codec = set->value( "original_audio_codec", original_audio_codec).toString();
 
-	QString demuxer_section = "demuxer_default";
-	if (!forced_demuxer.isEmpty()) demuxer_section = "demuxer_" + forced_demuxer;
+	// Load the tracks ID from a demuxer section
+	QString demuxer_section;
+	if (forced_demuxer.isEmpty()) {
+		demuxer_section = QString("demuxer_%1").arg(current_demuxer);
+	} else {
+		demuxer_section = QString("demuxer_%1").arg(forced_demuxer);
+	}
+	qDebug("MediaSettings::load: demuxer_section: %s", demuxer_section.toUtf8().constData());
 
 	set->beginGroup(demuxer_section);
-	current_sub_id = set->value( "current_sub_id", current_sub_id ).toInt();
+	current_sub_id = set->value( "current_sub_id", NoneSelected ).toInt();
 	#if PROGRAM_SWITCH
-	current_program_id = set->value( "current_program_id", current_program_id ).toInt();
+	current_program_id = set->value( "current_program_id", NoneSelected ).toInt();
 	#endif
-	current_video_id = set->value( "current_video_id", current_video_id ).toInt();
-	current_audio_id = set->value( "current_audio_id", current_audio_id ).toInt();
+	current_video_id = set->value( "current_video_id", NoneSelected ).toInt();
+	current_audio_id = set->value( "current_audio_id", NoneSelected ).toInt();
 	set->endGroup();
+
+	set->endGroup(); // player
+
+
+	current_sec = set->value( "current_sec", current_sec).toDouble();
 
 	current_title_id = set->value( "current_title_id", current_title_id ).toInt();
 	current_chapter_id = set->value( "current_chapter_id", current_chapter_id ).toInt();
@@ -464,12 +487,6 @@ void MediaSettings::load(QSettings * set) {
 	A_marker = set->value( "A_marker", A_marker).toInt();
 	B_marker = set->value( "B_marker", B_marker).toInt();
 
-	forced_video_codec = set->value( "forced_video_codec", forced_video_codec).toString();
-	forced_audio_codec = set->value( "forced_audio_codec", forced_audio_codec).toString();
-
-	original_demuxer = set->value( "original_demuxer", original_demuxer).toString();
-	original_video_codec = set->value( "original_video_codec", original_video_codec).toString();
-	original_audio_codec = set->value( "original_audio_codec", original_audio_codec).toString();
 
 	mplayer_additional_options = set->value( "mplayer_additional_options", mplayer_additional_options).toString();
 	mplayer_additional_video_filters = set->value( "mplayer_additional_video_filters", mplayer_additional_video_filters).toString();
@@ -481,8 +498,6 @@ void MediaSettings::load(QSettings * set) {
 	starting_time = set->value( "starting_time", starting_time ).toDouble();
 
 	is264andHD = set->value( "is264andHD", is264andHD ).toBool();
-
-	/*set->endGroup();*/
 
 	// ChDefault not used anymore
 	if (audio_use_channels == ChDefault) audio_use_channels = ChStereo;

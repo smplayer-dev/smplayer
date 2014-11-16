@@ -31,9 +31,9 @@ public:
 
 	virtual bool existSettingsFor(QString filename) = 0;
 
-	virtual void loadSettingsFor(QString filename, MediaSettings & mset) = 0;
+	virtual void loadSettingsFor(QString filename, MediaSettings & mset, int player) = 0;
 
-	virtual void saveSettingsFor(QString filename, MediaSettings & mset) = 0;
+	virtual void saveSettingsFor(QString filename, MediaSettings & mset, int player) = 0;
 
 protected:
 	QString output_directory;

@@ -16,43 +16,28 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#include "videopreview.h"
-#include <QApplication>
-#include <QWidget>
-#include <QSettings>
-#include <stdio.h>
+#include "playerid.h"
+#include <QFileInfo>
+#include <QDebug>
 
-int main( int argc, char ** argv ) 
-{
-	QApplication a( argc, argv );
+PlayerID::Player PlayerID::player(const QString & player_bin) {
+	Player p;
+	QString bin_name;
 
-	QString filename;
-
-	if (a.arguments().count() > 1) {
-		filename = a.arguments()[1];
+	QFileInfo fi(player_bin);
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		bin_name = fi.fileName();
+	} else {
+		bin_name = player_bin;
 	}
 
-	QSettings set(QSettings::IniFormat, QSettings::UserScope, "RVM", "videopreview");
+	qDebug() << "PlayerID::Player: player_bin:" << player_bin << "filename:" << bin_name;
 
-	//VideoPreview vp("mplayer");
-	VideoPreview vp("mpv");
-	vp.setSettings(&set);
-
-	if (!filename.isEmpty())
-		vp.setVideoFile(filename);
-
-	/*
-	vp.setGrid(4,5);
-	vp.setMaxWidth(800);
-	vp.setDisplayOSD(true);
-	*/
-	//vp.setAspectRatio( 2.35 );
-
-	if ( (vp.showConfigDialog(&vp)) && (vp.createThumbnails()) ) {
-		vp.show();
-		vp.adjustWindowSize();
-		return a.exec();
+	if (bin_name.toLower().startsWith("mplayer")) {
+		p = MPLAYER;
+	} else {
+		p = MPV;
 	}
 
-	return 0;
+	return p;
 }

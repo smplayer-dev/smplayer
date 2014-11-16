@@ -227,17 +227,14 @@ void Preferences::reset() {
        Subtitles
        ********* */
 
-	font_file = "";
-	font_name = "";
-	use_fontconfig = false;
 	subcp = "ISO-8859-1";
 	use_enca = false;
 	enca_lang = QString(QLocale::system().name()).section("_",0,0);
-	font_autoscale = 1;
 	subfuzziness = 1;
 	autoload_sub = true;
 
 	use_ass_subtitles = true;
+	enable_ass_styles = false;
 	ass_line_spacing = 0;
 
 	use_forced_subs_only = false;
@@ -713,18 +710,14 @@ void Preferences::save() {
 
 	set->beginGroup("subtitles");
 
-	set->setValue("font_file", font_file);
-	set->setValue("font_name", font_name);
-
-	set->setValue("use_fontconfig", use_fontconfig);
 	set->setValue("subcp", subcp);
 	set->setValue("use_enca", use_enca);
 	set->setValue("enca_lang", enca_lang);
-	set->setValue("font_autoscale", font_autoscale);
 	set->setValue("subfuzziness", subfuzziness);
 	set->setValue("autoload_sub", autoload_sub);
 
 	set->setValue("use_ass_subtitles", use_ass_subtitles);
+	set->setValue("enable_ass_styles", enable_ass_styles);
 	set->setValue("ass_line_spacing", ass_line_spacing);
 	set->setValue("use_forced_subs_only", use_forced_subs_only);
 
@@ -1223,18 +1216,14 @@ void Preferences::load() {
 
 	set->beginGroup("subtitles");
 
-	font_file = set->value("font_file", font_file).toString();
-	font_name = set->value("font_name", font_name).toString();
-
-	use_fontconfig = set->value("use_fontconfig", use_fontconfig).toBool();
 	subcp = set->value("subcp", subcp).toString();
 	use_enca = set->value("use_enca", use_enca).toBool();
 	enca_lang = set->value("enca_lang", enca_lang).toString();
-	font_autoscale = set->value("font_autoscale", font_autoscale).toInt();
 	subfuzziness = set->value("subfuzziness", subfuzziness).toInt();
 	autoload_sub = set->value("autoload_sub", autoload_sub).toBool();
 
 	use_ass_subtitles = set->value("use_ass_subtitles", use_ass_subtitles).toBool();
+	enable_ass_styles = set->value("enable_ass_styles", enable_ass_styles).toBool();
 	ass_line_spacing = set->value("ass_line_spacing", ass_line_spacing).toInt();
 
 	use_forced_subs_only = set->value("use_forced_subs_only", use_forced_subs_only).toBool();

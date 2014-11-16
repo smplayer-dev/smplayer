@@ -22,7 +22,7 @@
 #include "global.h"
 #include "preferences.h"
 #include "paths.h"
-#include "mplayerversion.h"
+#include "inforeader.h"
 
 #include <QFile>
 #include <QDesktopServices>
@@ -40,17 +40,9 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	translators_icon->setPixmap( Images::icon("translators" ) );
 	license_icon->setPixmap( Images::icon("license" ) );
 
-	QString mplayer_version;
-	if (pref->mplayer_detected_version > 0) {
-		if (pref->mplayer_is_mplayer2) {
-			mplayer_version = tr("Using MPlayer2 %1").arg(pref->mplayer2_detected_version);
-		} else {
-			mplayer_version = tr("Using MPlayer %1").arg(MplayerVersion::toString(pref->mplayer_detected_version));
-		}
-		mplayer_version += "<br><br>";
-	} else {
-	mplayer_version += "<br>";
-	}
+	InfoReader * i = InfoReader::obj(pref->mplayer_bin);
+	i->getInfo();
+	QString mplayer_version = tr("Using %1").arg(i->playerVersion());
 
 	info->setText(
 		"<b>SMPlayer</b> &copy; 2006-2014 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;<br><br>"
@@ -63,13 +55,18 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 #endif
         "<br>" +
         tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br>" +
-		mplayer_version +
+		mplayer_version + "<br><br>" +
 		"<b>"+ tr("Links:") +"</b><br>"+
 		tr("Official website:") +" "+  link("http://smplayer.sourceforge.net") +"<br>"+
 		tr("Support forum:") +" "+  link("http://smplayer.sourceforge.net/forum/") +"<br>"+
-        "<br>" + 
+        "<br>" +
+		/*
 		tr("SMPlayer uses the award-winning MPlayer as playback engine. See %1")
 		   .arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">http://www.mplayerhq.hu</a>") +
+		*/
+		tr("SMPlayer is a graphical interface for %1 and %2.")
+			.arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">MPlayer</a>")
+			.arg("<a href=\"http://www.mpv.io\">MPV</a>") +
         "<br><br>" +
 		tr("Subtitles service powered by %1").arg("<a href=\"http://www.opensubtitles.org\">www.OpenSubtitles.org</a>")
         /* + "<br><a href=\"http://www.opensubtitles.org\"><img src=\":icons-png/opensubtitles-logo.png\"></a>" */
@@ -79,9 +76,9 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	QString license_text =
 		"<i>"
 		"This program is free software; you can redistribute it and/or modify "
-	    "it under the terms of the GNU General Public License as published by "
-	    "the Free Software Foundation; either version 2 of the License, or "
-  	    "(at your option) any later version."  "</i><br><br>";
+		"it under the terms of the GNU General Public License as published by "
+		"the Free Software Foundation; either version 2 of the License, or "
+		"(at your option) any later version."  "</i><br><br>";
 		
 	QString license_file = Paths::doc("gpl.html", "en");
 	if (QFile::exists(license_file)) {
