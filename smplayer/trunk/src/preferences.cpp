@@ -234,7 +234,7 @@ void Preferences::reset() {
 	autoload_sub = true;
 
 	use_ass_subtitles = true;
-	enable_ass_styles = false;
+	enable_ass_styles = true;
 	ass_line_spacing = 0;
 
 	use_forced_subs_only = false;
