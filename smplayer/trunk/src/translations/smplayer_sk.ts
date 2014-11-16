@@ -327,10 +327,6 @@
         <translation>Baskicky</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Používa MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Prenosná edícia</translation>
@@ -374,10 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Používa MPlayer2 %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7821,14 +7813,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Titulky</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Vybrať TTF súbor</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype fonty (*.ttf)</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Titulky</translation>
@@ -7860,22 +7844,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Pozícia</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Navrchu</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Naspodu</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7883,37 +7851,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Písmo</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Font, ktorý bude použitý pre titulky (a OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Veľkosť</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Žiadne automatické škálovanie</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Proporcionálne k výške videa</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Proporcionálne k šírke videa</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Proporcionálne k diagonále videa</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Pozícia titulkov</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Toto nastavenie špcifikuje pozíciu titulkov v okne s videom. &lt;i&gt;100&lt;/i&gt; znamená úplne naspodu, &lt;i&gt;0&lt;/i&gt; úplne navrchu.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7931,25 +7871,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Štandardné &amp;kódovanie titulkov:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">Štandardná &amp;pozícia titulkov na obrazovke</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>Zobraziť titulky na &amp;snímkoch obrazovky</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF písmo:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">Sy&amp;stémové písmo:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">Automatické š&amp;kálovanie:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7965,14 +7889,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Zobraziť titulky na snímkoch obrazovky</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF písmo</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Systémové písmo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>

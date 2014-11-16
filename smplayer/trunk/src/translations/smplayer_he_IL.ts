@@ -327,10 +327,6 @@
         <translation>בסקית</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Using MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>מהדורה ניידת</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>קרואטית</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Using MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer uses the award-winning MPlayer as playback engine. See %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7823,14 +7811,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>כתוביות</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">בחירת קובץ ttf</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">גופני Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;כתוביות</translation>
@@ -7862,22 +7842,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>אפשר גופני &amp;Windows</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">מיקום</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">עליון</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">תחתון</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7885,37 +7849,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>גופן</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">בחר את הגופן אשר ינוצל עבור כתוביות (וגם OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>גודל</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">אל תתאים אוטומטית</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">ביחס מתאים לגובה סרטון</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">ביחס מתאים לרוחב סרטון</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">ביחס מתאים לאלכסון סרטון</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">מיקום כתובית</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">אפשרות זו מציינת את המיקום של הכתוביות על חלון הוידאו. &lt;i&gt;100&lt;/i&gt; מפנה אל התחתית, ואילו &lt;i&gt;0&lt;/i&gt; מפנה אל השיא.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7933,25 +7869,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;קידוד כתובית משתמט:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">&amp;מיקום משתמט של כתוביות על מרקע</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;כלול כתוביות בתצלומי מסך</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">גופן &amp;TTF:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">גופן &amp;מערכת:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">&amp;קנה מידה אוטומטי:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7967,18 +7887,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>כלול כתוביות בתצלומי מסך</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">גופן TTF</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">גופן מערכת</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">קנה מידה אוטומטי</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8009,10 +7917,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>במידה וקיימות יותר מרצועת כתובית אחת, אחת מהן תבחר אוטומטית, בדרך כלל זו הראשונה, אולם כאשר אחת מהן תואמת את השפה המועדפת על המשתמש זו תהיה בשימוש במקום.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">בחר שיטת קנה מידה אוטומטי של כתובית.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8050,10 +7954,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>נסה לאתר או&amp;טומית עבור שפה זו:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">כאן ביכולתך לבחור גופן ttf לשימוש יחד עם הכתוביות. בדרך כלל אתה תמצא גופני ttf רבים בתוך ‎%1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>מתאר</translation>
@@ -8077,10 +7977,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">כאן באפשרותך לבחור את גופן המערכת לשימוש עבור וכתוביות וכן עבור OSD.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8321,22 +8217,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>במידה וסגנון גבור קבוע אל &lt;i&gt;מתאר&lt;/i&gt;, אפשרות זו מציינת את העומק של הטלת האפלולית מאחורי התמליל בפיקסל.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">אפשר כתוביות רגילות</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">הקלק על לחצן זה כדי לבחור כתוביות רגילות/מסורתיות. סוג זה של כתוביות יכול להציג רק כתוביות לבנות.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">אפשר כתוביות SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">כתוביות רגילות</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>אפשרות זו &lt;b&gt;לא&lt;/b&gt; משנה גודל/מידת כתוביות בוידאו נתון. כדי לעשות כן, השתמש באפשרויות &lt;i&gt;גודל+&lt;/i&gt; וגם &lt;i&gt;גודל-&lt;/i&gt; בתפריט כתוביות.</translation>
@@ -8345,14 +8225,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>קנה מידה משתמט</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">אפשרות זו מציינת קנה מידה ברירת מחדל עבור כתוביות רגילות שתנוצל עבור קבצים פתוחים חדשים.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">כתוביות SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8375,18 +8247,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;גופן וצבעים</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">אפשר כתוביות &amp;רגילות</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">אפשר כתוביות SSA/&amp;ASS</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">קנה מידה משתמ&amp;ט:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>קנה מידה משתמ&amp;ט:</translation>
@@ -8395,10 +8255,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>ריווח &amp;שורה:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">הקלק על לחצן זה כדי לאפשר את הספרייה SSA/ASS החדשה. זו מתירה להציג כתוביות מרובות צבעים, גופנים...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

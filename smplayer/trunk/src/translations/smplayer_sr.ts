@@ -327,10 +327,6 @@
         <translation>Баскијски</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Коришћенје МПлејера %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Преносива едиција</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Хрватски</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Користи се МПлејер2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">СМПлејер користи награђивани МПлејер као погон репродукције. Погледајте %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7831,14 +7819,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Преводи</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Одаберите ttf  фајл</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype фонтови</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Преводи</translation>
@@ -7870,22 +7850,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Омогући &amp;Windows фонтове</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Позиција</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Врх</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Дно</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7893,37 +7857,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Фонт</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Одабери фонт који ће бити коришћен за преводе (и ОСД):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Величина</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Без аутоматске промене величине</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Пропорционално са висином филма</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Пропорционално са ширином филма</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Пропорционално са дијагоналом филма</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Позиција превода</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Ова опција одређује место превода на екрану. &lt;i&gt;100&lt;/i&gt; значи на дну, док  &lt;i&gt;0&lt;/i&gt; значи на врху.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7941,25 +7877,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Подразумевано кодирање превода:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">Подразумевана &amp;позиција превода на екрану</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;укључи преводе на снимке екрана</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF фонт:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">С&amp;истемски фонт:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">А&amp;утоматска промена величине:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7975,18 +7895,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Укључи преводе на снимцима екрана</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF фонт</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Системски фонт</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Аутоматска промена величине</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8017,10 +7925,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Ако постоји један или више доступних превода, један од њих ће аутоматски бити одабран, обично први, ако се један од њих подудара са корисниковим жељеним језиком, тај ће бити одабран.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Одаберите начин аутоматске промене величине превода.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8058,10 +7962,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Пробај ау&amp;томатски открити за овај језик:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Овде можете одабрати ttf фонт који ће користити преводи. Обично ћете пронаћи много ttf фонтова у %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Спољна линија</translation>
@@ -8085,10 +7985,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Ако ова опција није означена, онда може да се користи само неколико фонтова из СМПлејер пакета, али ово ради брже.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Овде можете одабрати системски фонт који ће бити коришћен за преводе и ОСД.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8329,22 +8225,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ако је изглед оквира постављен на&lt;i&gt;Спољна линија&lt;/i&gt;, та могућност одређује дубину сенке иза текста у пикселима.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Омогући нормалне преводе</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Кликните на ово дугме за одабир нормалних/традиционалних превода. Ова врста превода може само приказивати беле преводе.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Омогући SSA/ASS преводе</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Нормални преводи</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Ова могућност НЕ мења величину превода у тренутном видео запису. За то користите могућност &lt;i&gt;Величина+&lt;/i&gt; i &lt;i&gt;Величина-&lt;/i&gt; у менију превода.</translation>
@@ -8353,14 +8233,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Подразумевани однос</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Ова могућност одређује подразумевани однос слова за нормалне преводе који ће се користити код ново отворених фајлова.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS преводи</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8383,18 +8255,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Фонт и боје</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">Омогући &amp;нормалне преводе</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Омогући SSA/&amp;ASS преводе</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">Подразумевани од&amp;нос:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Подр&amp;азумевани однос:</translation>
@@ -8403,10 +8263,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>&amp;Размак редова:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Кликните на ово дугме за омогућавање нове SSA/ASS  библиотеке. Ово омогућује приказ превода са вишеструким бојама, словима...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

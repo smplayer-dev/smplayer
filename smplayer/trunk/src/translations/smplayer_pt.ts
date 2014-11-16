@@ -327,10 +327,6 @@
         <translation>Basco</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">A utilizar o MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Edição portátil</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Croata</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">A utilizar o MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">O SMPlayer utiliza o MPlayer para reproduzir os ficheiros multimédia. Consulte %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7824,14 +7812,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Legendas</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Escolha um ficheiro ttf</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Letras Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>Legenda&amp;s</translation>
@@ -7863,22 +7843,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ativar tipos de letra &amp;Windows</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Posição</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Topo</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Fundo</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7886,37 +7850,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tipo de letra</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Selecione o tipo de letra das legendas (e OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Tamanho</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Sem escala automática</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Proporcional à altura do filme</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Proporcional à largura do filme</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Proporcional à diagonal do filme</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Posição das legendas</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Esta opção especifica a posição das legendas na janela de vídeo. &lt;i&gt;100&lt;/i&gt; significa no fundo e &lt;i&gt;0&lt;/i&gt; no topo.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7934,25 +7870,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Co&amp;dificação padrão das legendas:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">Posição &amp;padrão das legendas no ecrã</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Incluir legendas nas capturas de ecrã</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">Tipo de letra &amp;TTF:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">Tipo de letra do &amp;sistema:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">Escala a&amp;utomática:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7968,18 +7888,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Incluir legendas nas capturas de ecrã</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">Tipo de letra TTF</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Tipo de letra do sistema</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Escala automática</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8010,10 +7918,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Se houver uma ou mais legendas disponíveis, uma delas será selecionada automaticamente, geralmente a primeira, mas se uma delas corresponder ao idioma preferencial do utilizador, esta será a utilizada.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Selecione o método de escala automática das legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8051,10 +7955,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tentar deteção a&amp;utomática para este idioma:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Aqui, pode selecionar o tipo de letra TTF a utilizar nas legendas. Geralmente, encontra muitas em %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Linha externa</translation>
@@ -8078,10 +7978,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Se esta opção não estiver ativa, apenas os tipos de letra disponibilizados com o SMPlayer estarão disponíveis.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Aqui pode escolher o tipo de letra do sistema para utilizar nas legendas e OSD.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8322,22 +8218,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Se o contorno estiver definido como &lt;i&gt;linha externa&lt;/i&gt;, esta opção especifica a profundidade da sombra atrás do texto.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Ativar legendas normais</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Clique neste botão para selecionar legendas tradicionais. Esta opção só exibe as legendas em branco, sem qualquer efeito.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Ativar legendas SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Legendas normais</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Esta opção não altera o tamanho das legendas no vídeo atual. Para o fazer, utilize as opções &lt;i&gt;Tamanho+&lt;/i&gt; e &lt;i&gt;Tamanho-&lt;/i&gt; no menu de legendas.</translation>
@@ -8346,14 +8226,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Escala padrão</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Esta opção especifica a escala das letras das legendas normais, utilizadas para novos vídeos abertos.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">Legendas SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8376,18 +8248,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Tipo de letras e cores</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">Ativar legendas &amp;normais</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Ativar legendas SS&amp;A/ASS</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">Es&amp;cala padrão:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Escala pa&amp;drão:</translation>
@@ -8396,10 +8256,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>Espaço entre &amp;linhas:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Clique neste botão para ativar as bibliotecas SSA/ASS. Isto permite-lhe exibir legendas em vários tipos de letras, cores, entre outras...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>

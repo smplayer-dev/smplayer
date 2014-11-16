@@ -327,10 +327,6 @@
         <translation>Baskisk</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Brukar MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Berbar versjon</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Kroatisk</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Brukar MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer brukar den prisvinnande MPlayer som bakomliggjande avspelar. Sjå %1 </translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7826,14 +7814,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation>Undertekstar</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Vel ei ttf-fil</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype-skrifter</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Undertekstar</translation>
@@ -7865,22 +7845,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Posisjon</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Topp</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Botn</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7891,10 +7855,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Størrelse</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Undertekstplassering</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7917,18 +7877,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF-skrift:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">S&amp;ystem-skrift:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">A&amp;utoskalering:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
         <source>Select first available subtitle</source>
         <translation type="unfinished"></translation>
@@ -7942,18 +7890,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF-skrift</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">System-skrift</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Autoskalering</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8284,14 +8220,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Slå på SSA/ASS-undertekstar</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Vanlege undertekstar</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation type="unfinished"></translation>
@@ -8300,10 +8228,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS-undertekstar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>

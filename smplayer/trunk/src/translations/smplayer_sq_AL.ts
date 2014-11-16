@@ -327,10 +327,6 @@
         <translation>Baske</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Duke përdorur MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Edizioni Portable</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Kroate</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Duke përdorur MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer perdor motorin MPlayer vitues the shume cmimeve, Shiko %1 </translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7842,22 +7830,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Pozicioni</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Sipër</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Poshtë</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7890,10 +7862,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF font:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
         <source>Select first available subtitle</source>
         <translation type="unfinished"></translation>
@@ -7907,10 +7875,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF font</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>

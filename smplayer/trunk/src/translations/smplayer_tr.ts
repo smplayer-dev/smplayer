@@ -327,10 +327,6 @@
         <translation>Baskça</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">MPlayer %1 sürümünü kullanıyor</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Taşınabilir Sürüm</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Hırvat</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">MPlayer2 %1 kullanıyor</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer oynatma motoru olarak ödüllü MPlayer&apos;ı kullanır. %1&apos;e bakınız</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7823,14 +7811,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Altyazılar</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Bir ttf dosyası seçin</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Truetype Yazıtipleri</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>Alt&amp;yazı</translation>
@@ -7862,22 +7842,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Windows yazıtipleri aktif</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Konum</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">En üst</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">En alt</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7885,37 +7849,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Yazıtipi</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Altyazılar (ve OSD) için kullanılacak yazıtipini seçin:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>Boyut</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">Otomatik orantılama yok</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Filmin yüksekliğiyle orantılı</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Filmin genişliğiyle orantılı</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Filmin köşegen uzunluğuyla orantılı</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Altyazının konumu</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Bu seçenek altyazıların ekranda bulunacağı yeri belirlemenizi sağlar. En alt için &lt;i&gt;100&lt;/i&gt; , en üst için &lt;i&gt;0&lt;/i&gt;&apos;ı seçin.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7933,25 +7869,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Öntanımlı altyazı ko&amp;dlaması:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">Ekrandaki altyazılar için öntanımlı &amp;konum</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>Altyazılar &amp;yakalanan ekranlarda gözüksün</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;TTF yazıtipi:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">Sistem &amp;yazıtipi:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">&amp;Otomatik orantılama:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7967,18 +7887,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>Altyazılar yakalanan ekranlarda gözüksün</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">TTF yazıtipi</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Sistem yazıtipi</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Otomatik orantılama</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8009,10 +7917,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Eğer bir veya daha fazla altyazı izi mevcutsa, içlerinden biri (genellikle birincisi) otomatik olarak seçilecektir. Eğer izlerden biri kullanıcının tercih ettiği dille uyuşuyorsa o iz seçilecektir.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Altyazıları orantılamak için kullanılacak yöntemi seçin.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8050,10 +7954,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Bu dil için otomatik olarak b&amp;ulmaya çalış:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Burada altyazılar için kullanılacak ttf yazıtipini seçebilirsiniz. Genellikle %1 adresinde birçok ttf yazıtipi bulabilirsiniz</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>Anahat</translation>
@@ -8077,10 +7977,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Buradan altyazılarda ve OSD de kullanılacak sistem yazıtipini seçebilirsin.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8321,18 +8217,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Eğer kenarlık sitili  &lt;i&gt;anahat&lt;/i&gt; olarak ayarlanırsa, bu seçenekle arkasındaki gölgenin derinliği belirlenecek.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Normal altyazıları etkinleştir</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS altyazıları etkinleştir</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Normal altyazılar</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation type="unfinished"></translation>
@@ -8341,10 +8225,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>Öntanımlı ölçekleme</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">SSA/ASS altyazılar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8365,18 +8245,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="258"/>
         <source>&amp;Font and colors</source>
         <translation>&amp;Yazıtipleri ve renkler</translation>
-    </message>
-    <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">&amp;Normal altyazıları etkinleştir</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">&amp;SSA/ASS altyazıları etkinleştir</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">Öntanımlı &amp;ölçekleme:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="285"/>

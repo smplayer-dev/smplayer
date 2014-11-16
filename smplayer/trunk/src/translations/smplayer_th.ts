@@ -327,10 +327,6 @@
         <translation>Basque</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">ใช้ MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>รุ่นพกพา</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Croatian</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">ใช้ MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer ใช้ MPlayer ซึ่งได้รับรางวัลชนะเลิศเป็นตัวทำการเล่น ดู %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -7824,14 +7812,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ศัพท์บรรยาย</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">เลือกไฟล์ ttf</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">แบบอักษร Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="27"/>
         <source>&amp;Subtitles</source>
         <translation>ศัพท์&amp;บรรยาย</translation>
@@ -7863,22 +7843,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ใช้งานแบบ&amp;อักษรของ Windows</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">ตำแหน่ง</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">บน</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">ล่าง</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="355"/>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <location filename="../prefsubtitles.cpp" line="436"/>
@@ -7886,37 +7850,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>อักษร</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">เลือกอักษรที่จะใช้สำหรับศัพท์บรรยาย (และสิ่งแสดงบนจอ):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Size</source>
         <translation>ขนาด</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">ไม่มีสเกลอัตโนมัติ</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">เป็นสัดส่วนกับความสูงของภาพยนตร์</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">เป็นสัดส่วนกับความกว้างของภาพยนตร์</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">เป็นสัดส่วนกับแนวทแยงของภาพยนตร์</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">ตำแหน่งศัพท์บรรยาย</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">ตัวเลือกนี้จะระบุตำแหน่งของศัพท์บรรยายบนหน้าต่างวิดีโอ &lt;i&gt;100&lt;/i&gt; หมายถึงล่างสุด, ส่วน &lt;i&gt;0&lt;/i&gt; หมายถึงบนสุด</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="48"/>
@@ -7934,25 +7870,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>การเข้ารหัสศัพท์บรรยาย&amp;ตั้งต้น:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">ตำแหน่งตั้งต้นของศััพท์บรรยายบน&amp;จอ</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="207"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>ร&amp;วมศัพท์บรรยายไว้บนภาพหน้าจอด้วย</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">อักษร &amp;TTF:</translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">อักษร&amp;ระบบ:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">&amp;สเกลอัตโนมัติ:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="376"/>
@@ -7968,18 +7888,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Include subtitles on screenshots</source>
         <translation>รวมศัพท์บรรยายไว้บนภาพหน้าจอด้วย</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">อักษร TTF</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">อักษรระบบ</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">สเกลอัตโนมัติ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8010,10 +7918,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="377"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>ถ้ามีศัพท์บรรยายหนึ่งแทร็คหรือมากกว่า หนึ่งในนั้นจะถูกเลือกอัตโนมัติ โดยปกติคืออันแรก เว้นแต่มีหนึ่งในนั้นที่สอดคล้องกับการตั้งค่าภาษาที่ชอบของผู้ใช้ ซึ่งอันนั้นจะถูกเลือกแทน.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">เลือกวิธีสเกลอัตโนมัติศัพท์บรรยาย.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="383"/>
@@ -8051,10 +7955,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>พยายาม&amp;ตรวจสอบอัตโนมัติ สำหรับภาษานี้:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">ที่นี่คุณสามารถเลือกแบบอักษรชนิด ttf เพื่อใช้กับศัพท์บรรยาย โดยปกติคุณจะพบแบบอักษร ttf จำนวนมากใน %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Outline</source>
         <translation>เส้นร่าง</translation>
@@ -8078,10 +7978,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>ถ้าไม่เลือกตัวเลือกนี้ จะมีจำนวนแบบอักษรไม่มากที่ SMPlayer จะใช้ได้ แต่ก็จะทำงานได้เร็วขึ้นมาก</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">ที่นี่คุณสามารถเลือกแบบอักษรของระบบสำหรับใช้กับศัพท์บรรยายและสิ่งที่ปรากฏบนจอหรือ OSD</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8322,22 +8218,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ถ้าตั้งลักษณะขอบเป็น &lt;i&gt;เส้นร่าง&lt;/i&gt; ตัวเลือกนี้จะระบุความลึกของเงาที่ตกอยู่หลังตัวอักษรในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">ใช้งานศัพท์บรรยายปกติ</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">คลิกปุ่มนี้เพื่อเลือก ศัพท์บรรยายแบบปกติ/ดั้งเดิม ศัพท์บรรยายชนิดเหล่านี้นี้จะแสดงผลเป็นสีขาวเท่านั้น</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">ใช้งานศัพท์บรรยาย SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">ศัพท์บรรยายปกติ</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>ตัวเลือกนี้ไม่ได้เปลี่ยนขนาดของศัพท์บรรยายในวิดีโอปัจจุบัน เพื่อทำสิ่งดังกล่าวให้ใช้ตัวเลือก &lt;i&gt;ขนาด+&lt;/i&gt; และ &lt;i&gt;ขนาด-&lt;/i&gt; ในเมนูศัพท์บรรยาย</translation>
@@ -8346,14 +8226,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="423"/>
         <source>Default scale</source>
         <translation>มาตราตั้งต้น</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">ตัวเลือกนี้จะระบุสเกลหรือมาตราแบบอักษรตั้งต้นสำหรับศัพท์บรรยายแบบปกติ ซึ่งจะถูกใช้สำหรับไฟล์ที่ถูกเปิดใหม่</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">ศัพท์บรรยาย SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8376,18 +8248,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;อักษรและสี</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">ใช้งานศัพท์บรรยาย&amp;ปกติ</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">ใช้ศัพท์บรรยาย SSA/&amp;ASS</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">&amp;มาตราตั้งต้น:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="285"/>
         <source>Defa&amp;ult scale:</source>
         <translation>มา&amp;ตราตั้งต้น:</translation>
@@ -8396,10 +8256,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="324"/>
         <source>&amp;Line spacing:</source>
         <translation>ระยะ&amp;ห่างบรรทัด:</translation>
-    </message>
-    <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">คลิกปุ่มนี้เพื่อใช้ไลบรารี่ใหม่ของ SSA/ASS ซึ่งอนุญาตการแสดงผลศัพท์บรรยายที่มีหลายสีหรือแบบอักษร...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="402"/>
