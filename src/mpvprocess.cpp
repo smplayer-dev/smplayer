@@ -541,8 +541,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 			else
 			if (tag == "INFO_TITLES") {
 				int n_titles = value.toInt();
-				for (int n = 0; n < n_titles; n++) {
-					md.titles.addID(n);
+				for (int ID = 0; ID < n_titles; ID++) {
+					md.titles.addName(ID, QString::number(ID+1));
 				}
 			}
 			else

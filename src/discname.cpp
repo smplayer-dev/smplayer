@@ -25,7 +25,7 @@ QString DiscName::joinDVD(int title, const QString & device, bool use_dvdnav) {
 
 QString DiscName::join(const DiscData & d) {
 	QString s = d.protocol + "://";
-	if (d.title > 0) s += QString::number(d.title);
+	/* if (d.title > 0) s += QString::number(d.title); */
 	if (!d.device.isEmpty()) s+= "/" + removeTrailingSlash(d.device);
 
 	qDebug("DiscName::join: result: '%s'", s.toUtf8().constData());

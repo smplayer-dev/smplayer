@@ -1493,7 +1493,7 @@ void Core::startMplayer( QString file, double seek ) {
 		if (dvd_folder.isEmpty()) dvd_folder = pref->dvd_device;
 		dvd_title = disc_data.title;
 		file = disc_data.protocol + "://";
-		if (dvd_title > 0) file += QString::number(dvd_title);
+		if (dvd_title > -1) file += QString::number(dvd_title);
 	}
 
 	// Check URL playlist
