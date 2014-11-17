@@ -390,7 +390,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 		if (rx_mpv_chaptername.indexIn(line) > -1) {
 			int ID = rx_mpv_chaptername.cap(1).toInt();
 			QString title = rx_mpv_chaptername.cap(2);
-			if (title.isEmpty()) title = QString::number(ID);
+			if (title.isEmpty()) title = QString::number(ID + 1);
 			#if NOTIFY_CHAPTER_CHANGES
 			chapters.addName(ID, title);
 			chapter_info_changed = true;
