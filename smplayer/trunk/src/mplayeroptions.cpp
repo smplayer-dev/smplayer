@@ -175,6 +175,11 @@ void MplayerProcess::frameStep() {
 	writeToStdin("frame_step");
 }
 
+void MplayerProcess::frameBackStep() {
+	qDebug("MplayerProcess::frameBackStep: function not supported in mplayer");
+}
+
+
 void MplayerProcess::showOSDText(const QString & text, int duration, int level) {
 	QString str = QString("osd_show_text \"%1\" %2 %3").arg(text).arg(duration).arg(level);
 	if (!pausing_prefix.isEmpty()) str = pausing_prefix + " " + str;

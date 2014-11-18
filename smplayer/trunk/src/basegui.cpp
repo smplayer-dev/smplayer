@@ -480,6 +480,10 @@ void BaseGui::createActions() {
 	connect( frameStepAct, SIGNAL(triggered()),
              core, SLOT(frameStep()) );
 
+	frameBackStepAct = new MyAction( Qt::Key_Colon, this, "frame_back_step" );
+	connect( frameBackStepAct, SIGNAL(triggered()),
+             core, SLOT(frameBackStep()) );
+
 	rewind1Act = new MyAction( Qt::Key_Left, this, "rewind1" );
 	rewind1Act->addShortcut(QKeySequence("Shift+Ctrl+B")); // MCE remote key
 	connect( rewind1Act, SIGNAL(triggered()),
@@ -1254,6 +1258,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	pauseAndStepAct->setEnabled(b);
 	stopAct->setEnabled(b);
 	frameStepAct->setEnabled(b);
+	frameBackStepAct->setEnabled(b);
 	rewind1Act->setEnabled(b);
 	rewind2Act->setEnabled(b);
 	rewind3Act->setEnabled(b);
@@ -1561,6 +1566,7 @@ void BaseGui::retranslateStrings() {
 	pauseAct->change( Images::icon("pause"), tr("&Pause"));
 	stopAct->change( Images::icon("stop"), tr("&Stop") );
 	frameStepAct->change( Images::icon("frame_step"), tr("&Frame step") );
+	frameBackStepAct->change( Images::icon("frame_back_step"), tr("Fra&me back step") );
 
 	playOrPauseAct->change( tr("Play / Pause") );
 	playOrPauseAct->setIcon( Images::icon("play_pause") );
@@ -2339,6 +2345,7 @@ void BaseGui::createMenus() {
 	/* playMenu->addAction(playOrPauseAct); */
 	playMenu->addAction(stopAct);
 	playMenu->addAction(frameStepAct);
+	playMenu->addAction(frameBackStepAct);
 	playMenu->addSeparator();
 	playMenu->addAction(rewind1Act);
 	playMenu->addAction(forward1Act);

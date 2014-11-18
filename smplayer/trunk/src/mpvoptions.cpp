@@ -423,6 +423,10 @@ void MPVProcess::frameStep() {
 	writeToStdin("frame_step");
 }
 
+void MPVProcess::frameBackStep() {
+	writeToStdin("frame_back_step");
+}
+
 void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 	QString str = QString("show_text \"%1\" %2 %3").arg(text).arg(duration).arg(level);
 	writeToStdin(str);
