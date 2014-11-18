@@ -172,6 +172,26 @@
             </property>
            </widget>
           </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="screenshot_template_label">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Temp&amp;late:</string>
+            </property>
+            <property name="buddy">
+             <cstring>screenshot_template_edit</cstring>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="screenshot_template_edit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
          </layout>
         </widget>
        </item>
@@ -1244,6 +1264,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>filesettings_method_combo</tabstop>
   <tabstop>use_screenshots_check</tabstop>
   <tabstop>screenshot_edit</tabstop>
+  <tabstop>screenshot_template_edit</tabstop>
   <tabstop>pause_if_hidden_check</tabstop>
   <tabstop>close_on_finish_check</tabstop>
   <tabstop>shutdown_check</tabstop>
@@ -1490,6 +1511,38 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel">
      <x>120</x>
      <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>use_screenshots_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>screenshot_template_label</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>61</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>use_screenshots_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>screenshot_template_edit</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>285</x>
+     <y>307</y>
     </hint>
    </hints>
   </connection>
