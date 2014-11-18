@@ -87,6 +87,7 @@ void Preferences::reset() {
 	ao = "";
 
 	use_screenshot = true;
+	screenshot_template = "cap_%F_%p_%02n";
 	screenshot_directory="";
 #ifdef PORTABLE_APP
 	screenshot_directory= "./screenshots";
@@ -571,6 +572,7 @@ void Preferences::save() {
 	set->setValue("driver/audio_output", ao);
 
 	set->setValue("use_screenshot", use_screenshot);
+	set->setValue("screenshot_template", screenshot_template);
 	#if QT_VERSION >= 0x040400
 	set->setValue("screenshot_folder", screenshot_directory);
 	#else
@@ -1075,6 +1077,7 @@ void Preferences::load() {
 	ao = set->value("driver/audio_output", ao).toString();
 
 	use_screenshot = set->value("use_screenshot", use_screenshot).toBool();
+	screenshot_template = set->value("screenshot_template", screenshot_template).toString();
 	#if QT_VERSION >= 0x040400
 	screenshot_directory = set->value("screenshot_folder", screenshot_directory).toString();
 	setupScreenshotFolder();

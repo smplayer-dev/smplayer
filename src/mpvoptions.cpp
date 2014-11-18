@@ -222,6 +222,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		*/
 	}
 	else
+	if (option_name == "screenshot_template") {
+		arg << "--screenshot-template=" + value.toString();
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
