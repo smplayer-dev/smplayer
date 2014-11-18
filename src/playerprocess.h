@@ -64,6 +64,7 @@ public:
 	virtual void mute(bool b) = 0;
 	virtual void setPause(bool b) = 0;
 	virtual void frameStep() = 0;
+	virtual void frameBackStep() = 0;
 	virtual void showOSDText(const QString & text, int duration, int level) = 0;
 	virtual void setContrast(int value) = 0;
 	virtual void setBrightness(int value) = 0;

@@ -57,6 +57,7 @@ public:
 	void mute(bool b);
 	void setPause(bool b);
 	void frameStep();
+	void frameBackStep();
 	void showOSDText(const QString & text, int duration, int level);
 	void setContrast(int value);
 	void setBrightness(int value);

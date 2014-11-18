@@ -417,6 +417,7 @@ protected:
 	MyAction * pauseAndStepAct;
 	MyAction * stopAct;
 	MyAction * frameStepAct;
+	MyAction * frameBackStepAct;
 	MyAction * rewind1Act;
 	MyAction * rewind2Act;
 	MyAction * rewind3Act;

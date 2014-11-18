@@ -1367,6 +1367,14 @@ void Core::frameStep() {
 	}
 }
 
+void Core::frameBackStep() {
+	qDebug("Core::frameBackStep");
+
+	if (proc->isRunning()) {
+		proc->frameBackStep();
+	}
+}
+
 void Core::screenshot() {
 	qDebug("Core::screenshot");
 
