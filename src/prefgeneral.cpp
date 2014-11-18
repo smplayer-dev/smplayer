@@ -161,6 +161,7 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setUseScreenshots( pref->use_screenshot );
 	setScreenshotDir( pref->screenshot_directory );
+	screenshot_template_edit->setText( pref->screenshot_template );
 
 	QString vo = pref->vo;
 	if (vo.isEmpty()) {
@@ -270,14 +271,16 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->use_screenshot, useScreenshots());
 	TEST_AND_SET(pref->screenshot_directory, screenshotDir());
+	TEST_AND_SET(pref->screenshot_template, screenshot_template_edit->text());
+
 	TEST_AND_SET(pref->vo, VO());
-    TEST_AND_SET(pref->ao, AO());
+	TEST_AND_SET(pref->ao, AO());
 
 	bool dont_remember_ms = !rememberSettings();
     TEST_AND_SET(pref->dont_remember_media_settings, dont_remember_ms);
 
 	bool dont_remember_time = !rememberTimePos();
-    TEST_AND_SET(pref->dont_remember_time_pos, dont_remember_time);
+	TEST_AND_SET(pref->dont_remember_time_pos, dont_remember_time);
 
 	if (pref->file_settings_method != fileSettingsMethod()) {
 		pref->file_settings_method = fileSettingsMethod();
@@ -285,7 +288,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	}
 
 	pref->audio_lang = audioLang();
-    pref->subtitle_lang = subtitleLang();
+	pref->subtitle_lang = subtitleLang();
 
 	pref->initial_audio_track = audioTrack();
 	pref->initial_subtitle_track = subtitleTrack();
@@ -908,6 +911,9 @@ void PrefGeneral::createHelp() {
 		tr("Here you can specify a folder where the screenshots taken by "
            "SMPlayer will be stored. If the folder is not valid the "
            "screenshot feature will be disabled.") );
+
+	setWhatsThis(screenshot_template_edit, tr("Template for screenshots"),
+		"TO DO: explain this option (works only with mpv)" );
 
 	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
 		tr("If this option is enabled, the file will be paused when the "
