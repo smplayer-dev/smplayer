@@ -56,6 +56,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		if (o.contains("vo"))  arg << "-framedrop";
 		if (o.contains("decoder")) arg << "-hardframedrop";
 	}
+	else
+	if (option_name == "screenshot_template") {
+		// Not supported
+	}
 	else {
 		arg << "-" + option_name;
 		if (!value.isNull()) arg << value.toString();
