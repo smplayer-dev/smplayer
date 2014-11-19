@@ -13,7 +13,7 @@ echo 7zip command-line (http://7zip.org) is required by this script.
 echo.
 echo 1 - NSIS                          10 - NSIS [32-bit/64-bit]
 echo 2 - NSIS [64-bit]                 11 - Portable [32-bit/64-bit]
-echo 3 - Portable
+echo 3 - Portable                      20 - Portable SFX [32-bit/64-bit]
 echo 4 - Portable [64-bit]
 echo 5 - Without MPlayer
 echo 6 - Without MPlayer [64-bit]
@@ -57,6 +57,7 @@ if "%USER_CHOICE%" == "5"  goto pkgver
 if "%USER_CHOICE%" == "6"  goto pkgver
 if "%USER_CHOICE%" == "10"  goto pkgver
 if "%USER_CHOICE%" == "11"  goto pkgver
+if "%USER_CHOICE%" == "20"  goto pkgver
 goto reask
 
 :pkgver
@@ -110,6 +111,7 @@ if "%USER_CHOICE%" == "5"  goto nomplayer
 if "%USER_CHOICE%" == "6"  goto nomplayer64
 if "%USER_CHOICE%" == "10"  goto nsispkg
 if "%USER_CHOICE%" == "11"  goto portable
+if "%USER_CHOICE%" == "20"  goto portablesfx
 :: Should not happen
 goto end
 
@@ -145,8 +147,7 @@ if not exist %PORTABLE_EXE_DIR%\smplayer-portable.exe (
 )
 
 if not exist %PORTABLE_EXE_DIR%\smtube-portable.exe (
-  echo SMTube portable EXE not found!
-  goto end
+  echo Warning: SMTube portable EXE not found!
 )
 
 ren %SMPLAYER_DIR% smplayer-portable-%ALL_PKG_VER%
@@ -227,8 +228,7 @@ if not exist %PORTABLE_EXE_DIR%\smplayer-portable64.exe (
 )
 
 if not exist %PORTABLE_EXE_DIR%\smtube-portable64.exe (
-  echo SMTube portable EXE not found!
-  goto end
+  echo Warning: SMTube portable EXE not found!
 )
 
 ren %SMPLAYER_DIR64% smplayer-portable-%ALL_PKG_VER%-x64
@@ -299,6 +299,21 @@ del %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
 ren %SMPLAYER_PORTABLE_DIR%\smplayer.bak smplayer.exe
 ren %SMPLAYER_PORTABLE_DIR%\smtube.bak smtube.exe
 ren %SMPLAYER_PORTABLE_DIR% smplayer-build64
+
+goto end
+
+:portablesfx
+if exist %PORTABLE_EXE_DIR%\smplayer-portable.exe (
+  if exist %TOP_LEVEL_DIR%\smplayer-build (
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smportable.nsi
+  )
+)
+
+if exist %PORTABLE_EXE_DIR%\smplayer-portable64.exe (
+  if exist %TOP_LEVEL_DIR%\smplayer-build64 (
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smportable.nsi
+  )
+)
 
 goto end
 
