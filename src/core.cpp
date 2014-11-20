@@ -3733,7 +3733,7 @@ void Core::changeAspectRatio( int ID ) {
 	} else {
 		// Using mplayer own window
 		if (!mdat.novideo) {
-			tellmp("switch_ratio " + QString::number(asp));
+			proc->setAspect(asp);
 		}
 	}
 

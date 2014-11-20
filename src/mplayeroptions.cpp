@@ -298,3 +298,8 @@ void MplayerProcess::discButtonPressed(const QString & button_name) {
 	writeToStdin("dvdnav " + button_name);
 }
 #endif
+
+void MplayerProcess::setAspect(double aspect) {
+	writeToStdin("switch_ratio " + QString::number(aspect));
+}
+

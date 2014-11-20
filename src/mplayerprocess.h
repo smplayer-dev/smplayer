@@ -81,6 +81,7 @@ public:
 	void setLoop(int v);
 	void takeScreenshot(ScreenshotType t, bool include_subtitles = false);
 	void setTitle(int ID);
+	void setAspect(double aspect);
 
 #if DVDNAV_SUPPORT
 	void discSetMousePos(int x, int y);
