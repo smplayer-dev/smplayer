@@ -38,6 +38,7 @@ public:
 	// Command line options
 	void addArgument(const QString & a);
 	void setMedia(const QString & media);
+	void disableInput();
 	void setFixedOptions();
 	void setOption(const QString & option_name, const QVariant & value = QVariant());
 	void addUserOption(const QString & option);

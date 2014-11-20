@@ -1781,22 +1781,14 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-nodouble");
 	}
 
-#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
-	if (!pref->use_mplayer_window) {
-		proc->addArgument( "-input" );
-		if (MplayerVersion::isMplayerAtLeast(29058)) {
-			proc->addArgument( "nodefault-bindings:conf=/dev/null" );
-		} else {
-			proc->addArgument( "conf=" + Paths::dataPath() +"/input.conf" );
-		}
-	}
-#endif
-
 #ifdef Q_WS_X11
 	proc->setOption("stop-xscreensaver", pref->disable_screensaver);
 #endif
 
 	if (!pref->use_mplayer_window) {
+		proc->disableInput();
+		proc->setOption("keepaspect", false);
+
 #if defined(Q_OS_OS2)
 		#define WINIDFROMHWND(hwnd) ( ( hwnd ) - 0x80000000UL )
 		proc->setOption("wid", QString::number( WINIDFROMHWND( (int) mplayerwindow->videoLayer()->winId() ) ));
@@ -1825,9 +1817,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("monitorpixelaspect", "1");
 	} else {
 		// no -wid
+		proc->setOption("keepaspect", true);
 		if (!pref->monitor_aspect.isEmpty()) {
-			proc->addArgument("-monitoraspect");
-			proc->addArgument( pref->monitor_aspect );
+			proc->setOption("monitoraspect", pref->monitor_aspect);
 		}
 	}
 
