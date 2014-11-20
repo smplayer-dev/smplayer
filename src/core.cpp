@@ -1636,24 +1636,39 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 
-	QString lavdopts;
+	if (proc->isMPlayer()) {
+		// MPlayer
+		QString lavdopts;
 
-	if ( (pref->h264_skip_loop_filter == Preferences::LoopDisabled) || 
-         ((pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) && 
-          (mset.is264andHD)) )
-	{
-		if (!lavdopts.isEmpty()) lavdopts += ":";
-		lavdopts += "skiploopfilter=all";
+		if ( (pref->h264_skip_loop_filter == Preferences::LoopDisabled) || 
+	         ((pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) && 
+	          (mset.is264andHD)) )
+		{
+			if (!lavdopts.isEmpty()) lavdopts += ":";
+			lavdopts += "skiploopfilter=all";
+		}
+
+		if (pref->threads > 1) {
+			if (!lavdopts.isEmpty()) lavdopts += ":";
+			lavdopts += "threads=" + QString::number(pref->threads);
+		}
+
+		if (!lavdopts.isEmpty()) {
+			proc->setOption("lavdopts", lavdopts);
+		}
 	}
+	else {
+		// MPV
+		if ( (pref->h264_skip_loop_filter == Preferences::LoopDisabled) || 
+	         ((pref->h264_skip_loop_filter == Preferences::LoopDisabledOnHD) && 
+	          (mset.is264andHD)) )
+		{
+			proc->setOption("skiploopfilter");
+		}
 
-	if (pref->threads > 1) {
-		if (!lavdopts.isEmpty()) lavdopts += ":";
-		lavdopts += "threads=" + QString::number(pref->threads);
-	}
-
-	if (!lavdopts.isEmpty()) {
-		proc->addArgument("-lavdopts");
-		proc->addArgument(lavdopts);
+		if (pref->threads > 1) {
+			proc->setOption("threads", QString::number(pref->threads));
+		}
 	}
 
 	proc->setOption("sub-fuzziness", pref->subfuzziness);

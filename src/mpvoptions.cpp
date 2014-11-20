@@ -226,6 +226,14 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--screenshot-template=" + value.toString();
 	}
 	else
+	if (option_name == "threads") {
+		arg << "--vd-lavc-threads=" + value.toString();
+	}
+	else
+	if (option_name == "skiploopfilter") {
+		arg << "--vd-lavc-skiploopfilter=all";
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
