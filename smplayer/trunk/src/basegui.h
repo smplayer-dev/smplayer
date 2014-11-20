@@ -487,7 +487,7 @@ protected:
 	MyAction * decSubStepAct;
 	MyAction * incSubScaleAct;
 	MyAction * decSubScaleAct;
-	MyAction * useAssAct;
+	MyAction * useCustomSubStyleAct;
 	MyAction * useForcedSubsOnlyAct;
 	MyAction * subVisibilityAct;
 #ifdef FIND_SUBTITLES

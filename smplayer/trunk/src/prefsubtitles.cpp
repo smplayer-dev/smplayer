@@ -414,7 +414,7 @@ void PrefSubtitles::createHelp() {
 	setWhatsThis(freetype_check, tr("Freetype support"), 
 		tr("You should normally not disable this option. Do it only if your "
            "MPlayer is compiled without freetype support. "
-           "<b>Disabling this option could make that subtitles won't work "
+           "<b>Disabling this option could make subtitles not to work "
            "at all!</b>") );
 
 #ifdef Q_OS_WIN

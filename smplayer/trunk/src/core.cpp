@@ -3983,11 +3983,11 @@ void Core::toggleDeinterlace() {
 	tellmp("step_property deinterlace");
 }
 
-void Core::changeUseAss(bool b) {
-	qDebug("Core::changeUseAss: %d", b);
+void Core::changeUseCustomSubStyle(bool b) {
+	qDebug("Core::changeUseCustomSubStyle: %d", b);
 
-	if (pref->use_ass_subtitles != b) {
-		pref->use_ass_subtitles = b;
+	if (pref->enable_ass_styles != b) {
+		pref->enable_ass_styles = b;
 		if (proc->isRunning()) restartPlay();
 	}
 }

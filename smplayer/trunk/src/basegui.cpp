@@ -770,9 +770,9 @@ void BaseGui::createActions() {
 	connect( incSubStepAct, SIGNAL(triggered()),
              core, SLOT(incSubStep()) );
 
-	useAssAct = new MyAction(this, "use_ass_lib");
-	useAssAct->setCheckable(true);
-	connect( useAssAct, SIGNAL(toggled(bool)), core, SLOT(changeUseAss(bool)) );
+	useCustomSubStyleAct = new MyAction(this, "use_custom_sub_style");
+	useCustomSubStyleAct->setCheckable(true);
+	connect( useCustomSubStyleAct, SIGNAL(toggled(bool)), core, SLOT(changeUseCustomSubStyle(bool)) );
 
 	useForcedSubsOnlyAct = new MyAction(this, "use_forced_subs_only");
 	useForcedSubsOnlyAct->setCheckable(true);
@@ -1664,7 +1664,7 @@ void BaseGui::retranslateStrings() {
                            tr("&Previous line in subtitles") );
 	incSubStepAct->change( Images::icon("inc_sub_step"), 
                            tr("N&ext line in subtitles") );
-	useAssAct->change( Images::icon("use_ass_lib"), tr("Use SSA/&ASS library") );
+	useCustomSubStyleAct->change( Images::icon("use_custom_sub_style"), tr("Use custo&m style") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
 	subVisibilityAct->change( Images::icon("sub_visibility"), tr("Subtitle &visibility") );
@@ -2605,7 +2605,7 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(subVisibilityAct);
 	subtitlesMenu->addSeparator();
-	subtitlesMenu->addAction(useAssAct);
+	subtitlesMenu->addAction(useCustomSubStyleAct);
 #ifdef FIND_SUBTITLES
 	subtitlesMenu->addSeparator(); //turbos
 	subtitlesMenu->addAction(showFindSubtitlesDialogAct);
@@ -3582,8 +3582,8 @@ void BaseGui::updateWidgets() {
 	// Mirror
 	mirrorAct->setChecked( core->mset.mirror );
 
-	// Use ass lib
-	useAssAct->setChecked( pref->use_ass_subtitles );
+	// Use custom style
+	useCustomSubStyleAct->setChecked( pref->enable_ass_styles );
 
 	// Forced subs
 	useForcedSubsOnlyAct->setChecked( pref->use_forced_subs_only );

@@ -310,7 +310,7 @@ public slots:
 	void showFilenameOnOSD();
 	void toggleDeinterlace();
 
-	void changeUseAss(bool);
+	void changeUseCustomSubStyle(bool);
 	void toggleForcedSubsOnly(bool);
 
 	void changeClosedCaptionChannel(int);
