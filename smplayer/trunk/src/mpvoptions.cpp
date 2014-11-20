@@ -560,3 +560,7 @@ void MPVProcess::discButtonPressed(const QString & button_name) {
 	writeToStdin("discnav " + button_name);
 }
 #endif
+
+void MPVProcess::setAspect(double aspect) {
+	writeToStdin("set video-aspect " + QString::number(aspect));
+}
