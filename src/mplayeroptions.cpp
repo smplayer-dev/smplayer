@@ -25,10 +25,16 @@ void MplayerProcess::setMedia(const QString & media) {
 
 void MplayerProcess::setFixedOptions() {
 	addArgument("-noquiet");
-	addArgument("-nomouseinput");
 	addArgument("-slave");
-	addArgument("-nokeepaspect");
 	addArgument("-identify");
+}
+
+void MplayerProcess::disableInput() {
+	arg << "-nomouseinput";
+
+#if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
+	arg << "-input" << "nodefault-bindings:conf=/dev/null";
+#endif
 }
 
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {
@@ -59,6 +65,11 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	else
 	if (option_name == "screenshot_template") {
 		// Not supported
+	}
+	else
+	if (option_name == "keepaspect") {
+		bool b = value.toBool();
+		if (b) arg << "-keepaspect"; else arg << "-nokeepaspect";
 	}
 	else {
 		arg << "-" + option_name;

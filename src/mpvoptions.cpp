@@ -89,13 +89,15 @@ void MPVProcess::setFixedOptions() {
 	arg << "--terminal";
 	arg << "--no-msg-color";
 	arg << "--slave-broken";
-	arg << "--no-keepaspect";
+	//arg << "--no-osc";
+	//arg << "--msg-level=vd=v";
+}
+
+void MPVProcess::disableInput() {
 	arg << "--no-input-default-bindings";
 	arg << "--input-x11-keyboard=no";
 	arg << "--no-input-cursor";
 	arg << "--cursor-autohide=no";
-	arg << "--no-osc";
-	//arg << "--msg-level=vd=v";
 }
 
 void MPVProcess::setOption(const QString & option_name, const QVariant & value) {
@@ -234,6 +236,11 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--vd-lavc-skiploopfilter=all";
 	}
 	else
+	if (option_name == "keepaspect") {
+		bool b = value.toBool();
+		if (b) arg << "--keepaspect"; else arg << "--no-keepaspect";
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
@@ -252,7 +259,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "speed" ||
 	    option_name == "contrast" || option_name == "brightness" ||
 	    option_name == "hue" || option_name == "saturation" || option_name == "gamma" ||
-	    option_name == "monitorpixelaspect" ||
+	    option_name == "monitorpixelaspect" || option_name == "monitoraspect" ||
 	    option_name == "mc" ||
 	    option_name == "softvol-max" ||
 	    option_name == "framedrop" ||

@@ -39,6 +39,7 @@ public:
 	// Command line options
 	void setMedia(const QString & media);
 	void setFixedOptions();
+	void disableInput();
 	void setOption(const QString & option_name, const QVariant & value = QVariant());
 	void addUserOption(const QString & option);
 	void addVF(const QString & filter_name, const QVariant & value = QVariant());
