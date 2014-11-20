@@ -19,6 +19,9 @@
    </property>
    <item>
     <widget class="QTabWidget" name="subtitles_tab">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
@@ -222,6 +225,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="use_ass_check">
+         <property name="text">
+          <string>Use the &amp;ASS library</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="freetype_check">
          <property name="text">
           <string>Freet&amp;ype support</string>
@@ -254,6 +264,9 @@
       </layout>
      </widget>
      <widget class="QWidget" name="tab2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <attribute name="title">
        <string>&amp;Font and colors</string>
       </attribute>
@@ -802,6 +815,7 @@
   <tabstop>use_enca_check</tabstop>
   <tabstop>enca_lang_combo</tabstop>
   <tabstop>subtitles_on_screeshots_check</tabstop>
+  <tabstop>use_ass_check</tabstop>
   <tabstop>freetype_check</tabstop>
   <tabstop>windowsfontdir_check</tabstop>
   <tabstop>ass_custom_check</tabstop>

@@ -33,8 +33,14 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	setupUi(this);
 
 	ass_subs->setEnabled(false);
+
 	connect(ass_custom_check, SIGNAL(toggled(bool)),
             ass_subs, SLOT(setEnabled(bool)));
+
+	/*
+	connect(use_ass_check, SIGNAL(toggled(bool)),
+            tab2, SLOT(setEnabled(bool)));
+	*/
 
 	connect( style_border_style_combo, SIGNAL(currentIndexChanged(int)),
              this, SLOT(checkBorderStyleCombo(int)) );
@@ -124,6 +130,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 	setAssLineSpacing( pref->ass_line_spacing );
 	setSubtitlesOnScreenshots( pref->subtitles_on_screenshots );
 	setFreetypeSupport( pref->freetype_support );
+	use_ass_check->setChecked( pref->use_ass_subtitles );
 
 	// Load ass styles
 	style_font_combo->setCurrentText(pref->ass_styles.fontname);
@@ -165,6 +172,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 	TEST_AND_SET(pref->ass_line_spacing, assLineSpacing());
 	TEST_AND_SET(pref->subtitles_on_screenshots, subtitlesOnScreenshots());
 	TEST_AND_SET(pref->freetype_support, freetypeSupport());
+	TEST_AND_SET(pref->use_ass_subtitles, use_ass_check->isChecked());
 
 	// Save ass styles
 	TEST_AND_SET(pref->ass_styles.fontname, style_font_combo->currentText());
@@ -398,6 +406,10 @@ void PrefSubtitles::createHelp() {
         tr("Include subtitles on screenshots"), 
         tr("If this option is checked, the subtitles will appear in the "
            "screenshots. <b>Note:</b> it may cause some troubles sometimes." ) );
+
+	setWhatsThis(use_ass_check, tr("Use the ASS library"),
+		tr("This option enables the ASS library, which allows to display "
+           "subtitles with multiple colors, fonts...") );
 
 	setWhatsThis(freetype_check, tr("Freetype support"), 
 		tr("You should normally not disable this option. Do it only if your "
