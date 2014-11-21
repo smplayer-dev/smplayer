@@ -107,7 +107,8 @@ bool MPVProcess::start() {
 }
 
 static QRegExp rx_mpv_av("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
-static QRegExp rx_mpv_winresolution("^VO: \\[(.*)\\] (\\d+)x(\\d+) => (\\d+)x(\\d+)");
+static QRegExp rx_mpv_dsize("^INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
+static QRegExp rx_mpv_vo("^VO: \\[(.*)\\]");
 static QRegExp rx_mpv_ao("^AO: \\[(.*)\\]");
 static QRegExp rx_mpv_paused("^\\(Paused\\)");
 static QRegExp rx_mpv_endoffile("^Exiting... \\(End of file\\)");
@@ -296,15 +297,20 @@ void MPVProcess::parseLine(QByteArray ba) {
 		}
 		else
 
-		if (rx_mpv_winresolution.indexIn(line) > -1) {
-			int w = rx_mpv_winresolution.cap(4).toInt();
-			int h = rx_mpv_winresolution.cap(5).toInt();
-
-			emit receivedVO( rx_mpv_winresolution.cap(1) );
+		// Window resolution
+		if (rx_mpv_dsize.indexIn(line) > -1) {
+			int w = rx_mpv_dsize.cap(1).toInt();
+			int h = rx_mpv_dsize.cap(2).toInt();
 			emit receivedWindowResolution( w, h );
 		}
 		else
-
+	
+		// VO
+		if (rx_mpv_vo.indexIn(line) > -1) {
+			emit receivedVO( rx_mpv_vo.cap(1) );
+		}
+		else
+		
 		// AO
 		if (rx_mpv_ao.indexIn(line) > -1) {
 			emit receivedAO( rx_mpv_ao.cap(1) );
