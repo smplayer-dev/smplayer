@@ -3729,10 +3729,13 @@ void Core::changeAspectRatio( int ID ) {
 	double asp = mset.aspectToNum( (MediaSettings::Aspect) ID);
 
 	if (!pref->use_mplayer_window) {
-		mplayerwindow->setAspect( asp );
+		mplayerwindow->setAspect(asp);
 	} else {
 		// Using mplayer own window
 		if (!mdat.novideo) {
+			if (ID == MediaSettings::AspectAuto) {
+				asp = mdat.video_aspect;
+			}
 			proc->setAspect(asp);
 		}
 	}
