@@ -2413,9 +2413,11 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Open https URLs with ffmpeg
-	if (file.startsWith("https")) file = "ffmpeg://" + file;
+	if (proc->isMPlayer() && file.startsWith("https")) {
+		file = "ffmpeg://" + file;
+	}
 
-	if (file.startsWith("dvdnav:") && proc->isMPV()) {
+	if (proc->isMPV() && file.startsWith("dvdnav:")) {
 		// Hack to open the DVD menu with MPV
 		file = "dvd://menu";
 	}
