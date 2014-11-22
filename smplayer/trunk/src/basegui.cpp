@@ -4212,7 +4212,7 @@ void BaseGui::toggleFullscreen(bool b) {
 
 	// If using mplayer window
 	if (pref->use_mplayer_window) {
-		core->tellmp("vo_fullscreen " + QString::number(b) );
+		core->changeFullscreenMode(b);
 		updateWidgets();
 		return;
 	}

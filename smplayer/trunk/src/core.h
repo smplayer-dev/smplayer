@@ -331,8 +331,8 @@ public slots:
 	void dvdnavMouse();
 #endif
 
-    // Pass a command to mplayer by stdin:
-    void tellmp(const QString & command);
+	//! Change fullscreen when using the player own window
+	void changeFullscreenMode(bool b);
 
 	//! Wrapper for the osd_show_text slave command
 	void displayTextOnOSD(QString text, int duration = 3000, int level = 1, 
@@ -350,6 +350,9 @@ public:
 #endif
 
 protected:
+	// Pass a command to mplayer by stdin:
+	 void tellmp(const QString & command);
+
 	//! Returns the prefix to keep pausing on slave commands
 	QString pausing_prefix();
 	void seek_cmd(double secs, int mode);

@@ -303,3 +303,7 @@ void MplayerProcess::setAspect(double aspect) {
 	writeToStdin("switch_ratio " + QString::number(aspect));
 }
 
+void MplayerProcess::setFullscreen(bool b) {
+	writeToStdin(QString("vo_fullscreen %1").arg(b ? "1" : "0"));
+}
+

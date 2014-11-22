@@ -565,3 +565,8 @@ void MPVProcess::discButtonPressed(const QString & button_name) {
 void MPVProcess::setAspect(double aspect) {
 	writeToStdin("set video-aspect " + QString::number(aspect));
 }
+
+void MPVProcess::setFullscreen(bool b) {
+	writeToStdin(QString("set fullscreen %1").arg(b ? "yes" : "no"));
+}
+
