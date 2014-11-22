@@ -95,6 +95,9 @@ public:
 #endif
 	virtual void setAspect(double aspect) = 0;
 	virtual void setFullscreen(bool b) = 0;
+#if PROGRAM_SWITCH
+	virtual void setTSProgram(int ID) = 0;
+#endif
 
 	void setPausingPrefix(const QString & prefix) { pausing_prefix = prefix; };
 

@@ -3551,10 +3551,7 @@ void Core::changeProgram(int ID) {
 
 	if (ID != mset.current_program_id) {
 		mset.current_program_id = ID;
-		tellmp("set_property switch_program " + QString::number(ID) );
-
-		tellmp("get_property switch_audio");
-		tellmp("get_property switch_video");
+		proc->setTSProgram(ID);
 
 		/*
 		mset.current_video_id = MediaSettings::NoneSelected;

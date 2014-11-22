@@ -574,3 +574,8 @@ void MPVProcess::setFullscreen(bool b) {
 	writeToStdin(QString("set fullscreen %1").arg(b ? "yes" : "no"));
 }
 
+#if PROGRAM_SWITCH
+void MPVProcess::setTSProgram(int ID) {
+	qDebug("MPVProcess::setTSProgram: function not supported");
+}
+#endif
