@@ -452,6 +452,10 @@ void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 	writeToStdin(str);
 }
 
+void MPVProcess::showFilenameOnOSD() {
+	writeToStdin("show_text \"${filename}\" 5000 0");
+}
+
 void MPVProcess::setContrast(int value) {
 	writeToStdin("set contrast " + QString::number(value));
 }

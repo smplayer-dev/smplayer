@@ -201,6 +201,10 @@ void MplayerProcess::showOSDText(const QString & text, int duration, int level) 
 	writeToStdin(str);
 }
 
+void MplayerProcess::showFilenameOnOSD() {
+	writeToStdin("osd_show_property_text \"${filename}\" 5000 0");
+}
+
 void MplayerProcess::setContrast(int value) {
 	writeToStdin(pausing_prefix + " contrast " + QString::number(value) + " 1");
 }
