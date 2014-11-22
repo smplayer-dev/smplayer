@@ -412,6 +412,10 @@ void Core::tellmp(const QString & command) {
     }
 }
 
+void Core::changeFullscreenMode(bool b) {
+	proc->setFullscreen(b);
+}
+
 void Core::displayTextOnOSD(QString text, int duration, int level, QString prefix) {
 	qDebug("Core::displayTextOnOSD: '%s'", text.toUtf8().constData());
 
