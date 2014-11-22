@@ -219,6 +219,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		// Ignore
 	}
 	else
+	if (option_name == "tsprog") {
+		// Unsupported
+	}
+	else
 	if (option_name == "dvdangle") {
 		/*
 		arg << "--dvd-angle=" + value.toString();
