@@ -311,3 +311,11 @@ void MplayerProcess::setFullscreen(bool b) {
 	writeToStdin(QString("vo_fullscreen %1").arg(b ? "1" : "0"));
 }
 
+#if PROGRAM_SWITCH
+void MplayerProcess::setTSProgram(int ID) {
+	writeToStdin("set_property switch_program " + QString::number(ID) );
+	writeToStdin("get_property switch_audio");
+	writeToStdin("get_property switch_video");
+}
+#endif
+

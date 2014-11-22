@@ -88,6 +88,9 @@ public:
 #endif
 	void setAspect(double aspect);
 	void setFullscreen(bool b);
+#if PROGRAM_SWITCH
+	void setTSProgram(int ID);
+#endif
 
 protected slots:
 	void parseLine(QByteArray ba);
