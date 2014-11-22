@@ -2523,14 +2523,6 @@ void Core::seek(int secs) {
 }
 
 void Core::seek_cmd(double secs, int mode) {
-	/*
-	QString s = QString("seek %1 %2").arg(secs).arg(mode);
-	if (MplayerVersion::isMplayer2()) {
-		//hr-seek
-		if (pref->precise_seeking) s += " 1"; else s += " -1";
-	}
-	tellmp(s);
-	*/
 	proc->seek(secs, mode, pref->precise_seeking);
 }
 
