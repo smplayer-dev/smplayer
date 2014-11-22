@@ -308,6 +308,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 		// VO
 		if (rx_mpv_vo.indexIn(line) > -1) {
 			emit receivedVO( rx_mpv_vo.cap(1) );
+			// Ask for window resolution
+			writeToStdin("print_text INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}");
 		}
 		else
 		
