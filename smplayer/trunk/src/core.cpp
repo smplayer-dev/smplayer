@@ -1908,8 +1908,7 @@ void Core::startMplayer( QString file, double seek ) {
          (mset.current_video_id == MediaSettings::NoneSelected) && 
          (mset.current_audio_id == MediaSettings::NoneSelected)*/ )
 	{
-		proc->addArgument("-tsprog");
-		proc->addArgument( QString::number( mset.current_program_id ) );
+		proc->setOption("tsprog", QString::number(mset.current_program_id));
 	}
 	// Don't set video and audio track if using -tsprog
 	else {
