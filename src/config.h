@@ -109,13 +109,13 @@
 // PROGRAM_SWITCH
 // support for program switch in ts files
 
-#define PROGRAM_SWITCH 1
+#define PROGRAM_SWITCH 0
 
 
 // ALLOW_DEMUXER_CODE_CHANGE
 // support changing of demuxer and video and audio codecs
 
-#define ALLOW_DEMUXER_CODEC_CHANGE 1
+#define ALLOW_DEMUXER_CODEC_CHANGE 0
 
 
 // Adds or not the "Repaint the background of the video window" option.
