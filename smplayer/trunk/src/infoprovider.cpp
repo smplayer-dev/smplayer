@@ -20,10 +20,16 @@
 #include "global.h"
 #include "preferences.h"
 #include "mplayerprocess.h"
+#include "playerid.h"
 #include <QFileInfo>
 
 MediaData InfoProvider::getInfo(QString mplayer_bin, QString filename) {
 	qDebug("InfoProvider::getInfo: %s", filename.toUtf8().data());
+
+	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
+		qDebug("InfoProvider::getInfo: mpv not supported yet");
+		return MediaData();
+	}
 
 	MplayerProcess proc;
 
