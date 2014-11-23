@@ -270,7 +270,8 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "framedrop" ||
 	    option_name == "priority" ||
 	    option_name == "autosync" ||
-	    option_name == "dvd-device" || option_name == "cdrom-device")
+	    option_name == "dvd-device" || option_name == "cdrom-device" ||
+	    option_name == "demuxer")
 	{
 		QString s = "--" + option_name;
 		if (!value.isNull()) s += "=" + value.toString();

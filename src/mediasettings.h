@@ -144,6 +144,7 @@ public:
 
 	QString current_demuxer;
 
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	// Advanced settings
 	QString forced_demuxer;
 	QString forced_video_codec;
@@ -153,6 +154,7 @@ public:
 	QString original_demuxer;
 	QString original_video_codec;
 	QString original_audio_codec;
+#endif
 
 	// Options to mplayer (for this file only)
 	QString mplayer_additional_options;
