@@ -36,7 +36,17 @@ FilePropertiesDialog::FilePropertiesDialog( QWidget* parent, Qt::WindowFlags f )
 	applyButton = buttonBox->button(QDialogButtonBox::Apply);
 	connect( applyButton, SIGNAL(clicked()), this, SLOT(apply()) );
 
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	codecs_set = false;
+#else
+	// Hide unused tabs
+	int i = tabWidget->indexOf(demuxer_page);
+	if (i != -1) tabWidget->removeTab(i);
+	i = tabWidget->indexOf(vc_page);
+	if (i != -1) tabWidget->removeTab(i);
+	i = tabWidget->indexOf(ac_page);
+	if (i != -1) tabWidget->removeTab(i);
+#endif
 
 	retranslateStrings();
 }
@@ -85,6 +95,7 @@ void FilePropertiesDialog::apply() {
 	emit applied();
 }
 
+#if ALLOW_DEMUXER_CODEC_CHANGE
 void FilePropertiesDialog::setCodecs(InfoList vc, InfoList ac, InfoList demuxer) 
 {
 	vclist = vc;
@@ -188,6 +199,7 @@ int FilePropertiesDialog::find(QString s, InfoList &list) {
 	}
 	return -1;
 }
+#endif
 
 void FilePropertiesDialog::setMplayerAdditionalArguments(QString args) {
 	mplayer_args_edit->setText(args);

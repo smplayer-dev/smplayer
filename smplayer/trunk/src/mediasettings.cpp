@@ -113,6 +113,7 @@ void MediaSettings::reset() {
 
 	current_demuxer = "unknown";
 
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	forced_demuxer="";
 	if (pref->use_lavf_demuxer) forced_demuxer = "lavf";
 
@@ -122,6 +123,7 @@ void MediaSettings::reset() {
 	original_demuxer="";
 	original_video_codec="";
 	original_audio_codec="";
+#endif
 
 	mplayer_additional_options="";
 	mplayer_additional_video_filters="";
@@ -254,6 +256,7 @@ void MediaSettings::list() {
 
 	qDebug("  current_demuxer: '%s'", current_demuxer.toUtf8().data());
 
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	qDebug("  forced_demuxer: '%s'", forced_demuxer.toUtf8().data());
 	qDebug("  forced_video_codec: '%s'", forced_video_codec.toUtf8().data());
 	qDebug("  forced_audio_codec: '%s'", forced_video_codec.toUtf8().data());
@@ -261,6 +264,7 @@ void MediaSettings::list() {
 	qDebug("  original_demuxer: '%s'", original_demuxer.toUtf8().data());
 	qDebug("  original_video_codec: '%s'", original_video_codec.toUtf8().data());
 	qDebug("  original_audio_codec: '%s'", original_video_codec.toUtf8().data());
+#endif
 
 	qDebug("  mplayer_additional_options: '%s'", mplayer_additional_options.toUtf8().data());
 	qDebug("  mplayer_additional_video_filters: '%s'", mplayer_additional_video_filters.toUtf8().data());
@@ -281,20 +285,22 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->beginGroup("player_" + QString::number(player_id));
 
 	set->setValue( "current_demuxer", current_demuxer);
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	set->setValue( "forced_demuxer", forced_demuxer);
 	set->setValue( "forced_video_codec", forced_video_codec);
 	set->setValue( "forced_audio_codec", forced_audio_codec);
 	set->setValue( "original_demuxer", original_demuxer);
 	set->setValue( "original_video_codec", original_video_codec);
 	set->setValue( "original_audio_codec", original_audio_codec);
+#endif
 
 	// Save the tracks ID in a demuxer section
-	QString demuxer_section;
-	if (forced_demuxer.isEmpty()) {
-		demuxer_section = QString("demuxer_%1").arg(current_demuxer);
-	} else {
+	QString demuxer_section = QString("demuxer_%1").arg(current_demuxer);
+#if ALLOW_DEMUXER_CODEC_CHANGE
+	if (!forced_demuxer.isEmpty()) {
 		demuxer_section = QString("demuxer_%1").arg(forced_demuxer);
 	}
+#endif
 
 	set->beginGroup(demuxer_section);
 	set->setValue( "current_sub_id", current_sub_id );
@@ -392,6 +398,7 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	set->beginGroup("player_" + QString::number(player_id));
 
 	current_demuxer = set->value( "current_demuxer", current_demuxer).toString();
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	forced_demuxer = set->value( "forced_demuxer", forced_demuxer).toString();
 	if (pref->use_lavf_demuxer) forced_demuxer = "lavf";
 	forced_video_codec = set->value( "forced_video_codec", forced_video_codec).toString();
@@ -399,14 +406,15 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	original_demuxer = set->value( "original_demuxer", original_demuxer).toString();
 	original_video_codec = set->value( "original_video_codec", original_video_codec).toString();
 	original_audio_codec = set->value( "original_audio_codec", original_audio_codec).toString();
+#endif
 
 	// Load the tracks ID from a demuxer section
-	QString demuxer_section;
-	if (forced_demuxer.isEmpty()) {
-		demuxer_section = QString("demuxer_%1").arg(current_demuxer);
-	} else {
+	QString demuxer_section = QString("demuxer_%1").arg(current_demuxer);
+#if ALLOW_DEMUXER_CODEC_CHANGE
+	if (!forced_demuxer.isEmpty()) {
 		demuxer_section = QString("demuxer_%1").arg(forced_demuxer);
 	}
+#endif
 	qDebug("MediaSettings::load: demuxer_section: %s", demuxer_section.toUtf8().constData());
 
 	set->beginGroup(demuxer_section);

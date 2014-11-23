@@ -1595,6 +1595,11 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 	}
 
+#if !ALLOW_DEMUXER_CODEC_CHANGE
+	if (pref->use_lavf_demuxer) {
+		proc->setOption("demuxer", "lavf");
+	}
+#else
 	// Demuxer and audio and video codecs:
 	if (!mset.forced_demuxer.isEmpty()) {
 		proc->addArgument("-demuxer");
@@ -1608,8 +1613,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->addArgument("-vc");
 		proc->addArgument(mset.forced_video_codec);
 	}
-#ifndef Q_OS_WIN
-	else {
+	else
+#endif
+	{
 		/* if (pref->vo.startsWith("x11")) { */ // My card doesn't support vdpau, I use x11 to test
 		if (pref->vo.startsWith("vdpau")) {
 			QString c;
@@ -1623,16 +1629,13 @@ void Core::startMplayer( QString file, double seek ) {
 				proc->addArgument(c);
 			}
 		}
-#endif	
 		else {
 			if (pref->coreavc) {
 				proc->addArgument("-vc");
 				proc->addArgument("coreserve,");
 			}
 		}
-#ifndef Q_OS_WIN
 	}
-#endif
 
 	if (pref->use_hwac3) {
 		proc->addArgument("-afm");
