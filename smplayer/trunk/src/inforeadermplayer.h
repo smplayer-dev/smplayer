@@ -38,9 +38,11 @@ public:
 
 	InfoList voList() { return vo_list; };
 	InfoList aoList() { return ao_list; };
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	InfoList demuxerList() { return demuxer_list; };
 	InfoList vcList() { return vc_list; };
 	InfoList acList() { return ac_list; };
+#endif
 
 	int mplayerSVN() { return mplayer_svn; };
 	QString mplayer2Version() { return mplayer2_version; };
@@ -59,9 +61,12 @@ protected:
 
 	InfoList vo_list;
 	InfoList ao_list;
+
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	InfoList demuxer_list;
 	InfoList vc_list;
 	InfoList ac_list;
+#endif
 
 	int mplayer_svn;
 	QString mplayer2_version;

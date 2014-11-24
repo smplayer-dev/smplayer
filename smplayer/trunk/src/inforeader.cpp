@@ -93,9 +93,11 @@ void InfoReader::getInfo() {
 			got_info = true;
 			vo_list = convertListToInfoList(set.value("vo_list").toStringList());
 			ao_list = convertListToInfoList(set.value("ao_list").toStringList());
+			#if ALLOW_DEMUXER_CODEC_CHANGE
 			demuxer_list = convertListToInfoList(set.value("demuxer_list").toStringList());
 			vc_list = convertListToInfoList(set.value("vc_list").toStringList());
 			ac_list = convertListToInfoList(set.value("ac_list").toStringList());
+			#endif
 			mplayer_svn = set.value("mplayer_svn").toInt();
 			mpv_version = set.value("mpv_version").toString();
 			mplayer2_version = set.value("mplayer2_version").toString();
@@ -115,9 +117,11 @@ void InfoReader::getInfo() {
 		ir.getInfo();
 		vo_list = ir.voList();
 		ao_list = ir.aoList();
+		#if ALLOW_DEMUXER_CODEC_CHANGE
 		demuxer_list = ir.demuxerList();
 		vc_list = ir.vcList();
 		ac_list = ir.acList();
+		#endif
 		mplayer_svn = ir.mplayerSVN();
 		mpv_version = ir.mpvVersion();
 		mplayer2_version = "";
@@ -129,9 +133,11 @@ void InfoReader::getInfo() {
 		ir.getInfo();
 		vo_list = ir.voList();
 		ao_list = ir.aoList();
+		#if ALLOW_DEMUXER_CODEC_CHANGE
 		demuxer_list = ir.demuxerList();
 		vc_list = ir.vcList();
 		ac_list = ir.acList();
+		#endif
 		mplayer_svn = ir.mplayerSVN();
 		mpv_version = "";
 		mplayer2_version = ir.mplayer2Version();
@@ -146,9 +152,11 @@ void InfoReader::getInfo() {
 		set.setValue("date", fi.lastModified());
 		set.setValue("vo_list", convertInfoListToList(vo_list));
 		set.setValue("ao_list", convertInfoListToList(ao_list));
+		#if ALLOW_DEMUXER_CODEC_CHANGE
 		set.setValue("demuxer_list", convertInfoListToList(demuxer_list));
 		set.setValue("vc_list", convertInfoListToList(vc_list));
 		set.setValue("ac_list", convertInfoListToList(ac_list));
+		#endif
 		set.setValue("mplayer_svn", mplayer_svn);
 		set.setValue("mpv_version", mpv_version);
 		set.setValue("mplayer2_version", mplayer2_version);

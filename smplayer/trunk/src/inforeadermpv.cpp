@@ -40,16 +40,20 @@ InfoReaderMPV::~InfoReaderMPV() {
 void InfoReaderMPV::getInfo() {
 	vo_list.clear();
 	ao_list.clear();
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	demuxer_list.clear();
 	vc_list.clear();
 	ac_list.clear();
+#endif
 	mplayer_svn = -1;
 
 	vo_list = run("--vo help");
 	ao_list = run("--ao help");
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	demuxer_list = run("--demuxer help");
 	vc_list = run("--vd help");
 	ac_list = run("--ad help");
+#endif
 
 	InfoList i = run("--version");
 	QString mpv_version_line;
@@ -80,6 +84,7 @@ void InfoReaderMPV::list() {
 		qDebug( "driver: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
 	}
 
+#if ALLOW_DEMUXER_CODEC_CHANGE
 	qDebug(" demuxer_list:");
 	for ( it = demuxer_list.begin(); it != demuxer_list.end(); ++it ) {
 		qDebug( "demuxer: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
@@ -94,6 +99,7 @@ void InfoReaderMPV::list() {
 	for ( it = ac_list.begin(); it != ac_list.end(); ++it ) {
 		qDebug( "codec: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
 	}
+#endif
 
 }
 
