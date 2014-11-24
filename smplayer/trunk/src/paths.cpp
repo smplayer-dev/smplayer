@@ -162,6 +162,6 @@ QString Paths::subtitleStyleFile() {
 
 #ifdef Q_OS_WIN
 QString Paths::fontPath() {
-	return appPath() + "/mplayer/open-fonts";
+	return appPath() + "/open-fonts";
 }
 #endif

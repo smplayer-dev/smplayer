@@ -47,6 +47,13 @@ mkdir %OUTPUT_DIR%\imageformats
 copy %QT_DIR%\plugins\imageformats\qjpeg4.dll %OUTPUT_DIR%\imageformats\
 
 echo.
+echo ######            Fonts            #######
+echo.
+
+mkdir %OUTPUT_DIR%\open-fonts
+copy open-fonts\*.* %OUTPUT_DIR%\open-fonts\
+
+echo.
 echo ######        Translations         #######
 echo.
 
