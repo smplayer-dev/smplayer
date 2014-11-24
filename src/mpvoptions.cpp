@@ -246,6 +246,17 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		if (b) arg << "--keepaspect"; else arg << "--no-keepaspect";
 	}
 	else
+	if (option_name == "ao") {
+		QString o = value.toString();
+		if (o.startsWith("alsa:device=")) {
+			QString device = o.mid(12);
+			//qDebug() << "MPVProcess::setOption: alsa device:" << device;
+			device = device.replace("=", ":").replace(".", ",");
+			o = "alsa:device=[" + device + "]";
+		}
+		arg << "--ao=" + o;
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
@@ -255,7 +266,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "wid" ||
-	    option_name == "vo" || option_name == "ao" ||
+	    option_name == "vo" ||
 	    option_name == "aid" || option_name == "vid" ||
 	    option_name == "volume" ||
 	    option_name == "ass-styles" || option_name == "ass-force-style" ||
