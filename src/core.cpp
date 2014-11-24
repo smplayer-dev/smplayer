@@ -1616,6 +1616,7 @@ void Core::startMplayer( QString file, double seek ) {
 	else
 #endif
 	{
+		#ifndef Q_OS_WIN
 		/* if (pref->vo.startsWith("x11")) { */ // My card doesn't support vdpau, I use x11 to test
 		if (pref->vo.startsWith("vdpau")) {
 			QString c;
@@ -1630,11 +1631,14 @@ void Core::startMplayer( QString file, double seek ) {
 			}
 		}
 		else {
+		#endif
 			if (pref->coreavc) {
 				proc->addArgument("-vc");
 				proc->addArgument("coreserve,");
 			}
+		#ifndef Q_OS_WIN
 		}
+		#endif
 	}
 
 	if (pref->use_hwac3) {
