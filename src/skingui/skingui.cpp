@@ -159,6 +159,9 @@ void SkinGui::createActions() {
 
 	viewVideoInfoAct = new MyAction(this, "toggle_video_info_skingui" );
 	viewVideoInfoAct->setCheckable(true);
+
+	scrollTitleAct = new MyAction(this, "toggle_scroll_title_skingui" );
+	scrollTitleAct->setCheckable(true);
 }
 
 #if AUTODISABLE_ACTIONS
@@ -212,6 +215,7 @@ void SkinGui::createMenus() {
 
 	statusbar_menu = new QMenu(this);
 	statusbar_menu->addAction(viewVideoInfoAct);
+	statusbar_menu->addAction(scrollTitleAct);
 	optionsMenu->addMenu(statusbar_menu);
 }
 
@@ -323,6 +327,9 @@ void SkinGui::createControlWidget() {
 	connect( viewVideoInfoAct, SIGNAL(toggled(bool)),
              mediaBarPanel, SLOT(setResolutionVisible(bool)) );
 
+	connect( scrollTitleAct, SIGNAL(toggled(bool)),
+             mediaBarPanel, SLOT(setScrollingEnabled(bool)) );
+
 	mediaBarPanelAction = controlwidget->addWidget(mediaBarPanel);
 }
 
@@ -426,6 +433,7 @@ void SkinGui::retranslateStrings() {
 #endif
 
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
+	scrollTitleAct->change(Images::icon("scroll_title"), tr("&Scroll title") );
 }
 
 void SkinGui::displayTime(QString text) {
@@ -546,6 +554,7 @@ void SkinGui::saveConfig() {
 	set->beginGroup( "skin_gui");
 
 	set->setValue("video_info", viewVideoInfoAct->isChecked());
+	set->setValue("scroll_title", scrollTitleAct->isChecked());
 
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
@@ -581,6 +590,7 @@ void SkinGui::loadConfig() {
 	set->beginGroup( "skin_gui");
 
 	viewVideoInfoAct->setChecked(set->value("video_info", false).toBool());
+	scrollTitleAct->setChecked(set->value("scroll_title", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	compact_toolbar1_was_visible = set->value("compact_toolbar1_was_visible", compact_toolbar1_was_visible).toBool();
