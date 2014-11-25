@@ -1183,8 +1183,13 @@ void BaseGui::createActions() {
 
 	// Subtitle track
 	subtitleTrackGroup = new MyActionGroup(this);
-    connect( subtitleTrackGroup, SIGNAL(activated(int)), 
+	connect( subtitleTrackGroup, SIGNAL(activated(int)), 
 	         core, SLOT(changeSubtitle(int)) );
+
+	// Secondary subtitle track
+	secondarySubtitleTrackGroup = new MyActionGroup(this);
+	connect( secondarySubtitleTrackGroup, SIGNAL(activated(int)), 
+	         core, SLOT(changeSecondarySubtitle(int)) );
 
 	ccGroup = new MyActionGroup(this);
 	ccNoneAct = new MyActionGroupItem(this, ccGroup, "cc_none", 0);
@@ -1938,6 +1943,9 @@ void BaseGui::retranslateStrings() {
 	subtitlestrack_menu->menuAction()->setText( tr("&Select") );
 	subtitlestrack_menu->menuAction()->setIcon( Images::icon("sub") );
 
+	secondary_subtitles_track_menu->menuAction()->setText( tr("Secondary trac&k") );
+	secondary_subtitles_track_menu->menuAction()->setIcon( Images::icon("secondary_sub") );
+
 	closed_captions_menu->menuAction()->setText( tr("&Closed captions") );
 	closed_captions_menu->menuAction()->setIcon( Images::icon("closed_caption") );
 
@@ -2559,7 +2567,11 @@ void BaseGui::createMenus() {
 	subtitlestrack_menu = new QMenu(this);
 	subtitlestrack_menu->menuAction()->setObjectName("subtitlestrack_menu");
 
+	secondary_subtitles_track_menu = new QMenu(this);
+	secondary_subtitles_track_menu->menuAction()->setObjectName("secondary_subtitles_track_menu");
+
 	subtitlesMenu->addMenu(subtitlestrack_menu);
+	subtitlesMenu->addMenu(secondary_subtitles_track_menu);
 	subtitlesMenu->addSeparator();
 
 	subtitlesMenu->addAction(loadSubsAct);
@@ -3258,6 +3270,19 @@ void BaseGui::initializeMenus() {
 	}
 	subtitlestrack_menu->addActions( subtitleTrackGroup->actions() );
 
+	// Secondary Subtitles
+	secondarySubtitleTrackGroup->clear(true);
+	QAction * subSecNoneAct = secondarySubtitleTrackGroup->addAction( tr("&None") );
+	subSecNoneAct->setData(MediaSettings::SubNone);
+	subSecNoneAct->setCheckable(true);
+	for (n=0; n < core->mdat.subs.numItems(); n++) {
+		QAction *a = new QAction(secondarySubtitleTrackGroup);
+		a->setCheckable(true);
+		a->setText(core->mdat.subs.itemAt(n).displayName());
+		a->setData(n);
+	}
+	secondary_subtitles_track_menu->addActions( secondarySubtitleTrackGroup->actions() );
+
 	// Audio
 	audioTrackGroup->clear(true);
 	// If using an external audio file, show the file in the menu, but disabled.
@@ -3438,6 +3463,9 @@ void BaseGui::updateWidgets() {
 
 	// Subtitles menu
 	subtitleTrackGroup->setChecked( core->mset.current_sub_id );
+
+	// Secondary subtitles menu
+	secondarySubtitleTrackGroup->setChecked( core->mset.current_secondary_sub_id );
 
 	// Disable the unload subs action if there's no external subtitles
 	unloadSubsAct->setEnabled( !core->mset.external_subtitles.isEmpty() );

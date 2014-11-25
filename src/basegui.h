@@ -702,6 +702,7 @@ protected:
 	MyActionGroup * videoTrackGroup;
 	MyActionGroup * audioTrackGroup;
 	MyActionGroup * subtitleTrackGroup;
+	MyActionGroup * secondarySubtitleTrackGroup;
 	MyActionGroup * titleGroup;
 	MyActionGroup * angleGroup;
 	MyActionGroup * chapterGroup;
@@ -729,6 +730,7 @@ protected:
 
 	QMenu * disc_menu;
 	QMenu * subtitlestrack_menu;
+	QMenu * secondary_subtitles_track_menu;
 #if PROGRAM_SWITCH
 	QMenu * programtrack_menu;
 #endif

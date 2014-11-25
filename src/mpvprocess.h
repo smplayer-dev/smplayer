@@ -53,6 +53,8 @@ public:
 	void setVideo(int ID);
 	void setSubtitle(int type, int ID);
 	void disableSubtitles();
+	void setSecondarySubtitle(int ID);
+	void disableSecondarySubtitles();
 	void setSubtitlesVisibility(bool b);
 	void seek(double secs, int mode, bool precise);
 	void mute(bool b);

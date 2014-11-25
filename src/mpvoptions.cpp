@@ -432,6 +432,14 @@ void MPVProcess::disableSubtitles() {
 	writeToStdin("set sid no");
 }
 
+void MPVProcess::setSecondarySubtitle(int ID) {
+	writeToStdin("set secondary-sid " + QString::number(ID));
+}
+
+void MPVProcess::disableSecondarySubtitles() {
+	writeToStdin("set secondary-sid no");
+}
+
 void MPVProcess::setSubtitlesVisibility(bool b) {
 	writeToStdin(QString("set sub-visibility %1").arg(b ? "yes" : "no"));
 }

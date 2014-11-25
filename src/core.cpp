@@ -3452,6 +3452,31 @@ void Core::nextSubtitle() {
 	}
 }
 
+void Core::changeSecondarySubtitle(int ID) {
+	// MPV only
+	qDebug("Core::changeSecondarySubtitle: %d", ID);
+
+	mset.current_secondary_sub_id = ID;
+	if (ID == MediaSettings::SubNone) {
+		ID = -1;
+	}
+	if (ID == MediaSettings::NoneSelected) {
+		ID = -1;
+	}
+
+	if (ID == -1) {
+		proc->disableSecondarySubtitles();
+	} else {
+		int real_id = -1;
+		bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
+		if (!valid_item) qWarning("Core::changeSecondarySubtitle: ID: %d is not valid!", ID);
+		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
+			real_id = mdat.subs.itemAt(ID).ID();
+			proc->setSecondarySubtitle(real_id);
+		}
+	}
+}
+
 void Core::changeAudio(int ID, bool allow_restart) {
 	qDebug("Core::changeAudio: ID: %d, allow_restart: %d", ID, allow_restart);
 
@@ -4421,6 +4446,8 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 		}
 	}
 end:
+
+	changeSecondarySubtitle(mset.current_secondary_sub_id);
 	updateWidgets();
 }
 
