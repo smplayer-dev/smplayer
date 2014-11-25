@@ -40,13 +40,17 @@ public:
     QString text() { return mText; }
     void setText( QString text);
 
+    void setScrollingEnabled(bool b);
+    bool scrollingEnabled() { return scrolling_enabled; };
+
 private:
     QString mText;
     void updateLabel();
     int scrollPos;
     int timerId;
     QRect textRect;
-    static const int gap = 10;        
+    static const int gap = 10;
+    bool scrolling_enabled;
 
 protected:
     void paintEvent(QPaintEvent *);
@@ -94,6 +98,7 @@ public:
 public slots:
 	void setSeeker(int v);
 	void setResolutionVisible(bool b);
+	void setScrollingEnabled(bool b);
 
 private:
     Ui::MediaPanelClass ui;

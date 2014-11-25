@@ -112,6 +112,7 @@ protected:
 #endif
 
 	MyAction * viewVideoInfoAct;
+	MyAction * scrollTitleAct;
 
 	QMenu * toolbar_menu;
 	QMenu * statusbar_menu;

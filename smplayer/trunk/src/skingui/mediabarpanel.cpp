@@ -171,5 +171,10 @@ void MediaBarPanel::setResolutionVisible(bool b) {
 	mediaPanel->setResolutionVisible(b); 
 }
 
+void MediaBarPanel::setScrollingEnabled(bool b) { 
+	qDebug("MediaBarPanel::setScrollingEnabled: %d", b);
+	mediaPanel->setScrollingEnabled(b);
+}
+
 #include "moc_mediabarpanel.cpp"
 

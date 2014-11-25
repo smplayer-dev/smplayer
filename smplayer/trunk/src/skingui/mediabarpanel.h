@@ -71,6 +71,7 @@ public slots:
 	void setVolume(int v);
 	void setSeeker(int v);
 	void setResolutionVisible(bool b);
+	void setScrollingEnabled(bool b);
 
 signals:
 	void volumeChanged(int);

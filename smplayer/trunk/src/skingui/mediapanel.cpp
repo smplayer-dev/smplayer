@@ -129,6 +129,10 @@ void MediaPanel::setResolutionVisible(bool b) {
 	rearrangeWidgets(b);
 }
 
+void MediaPanel::setScrollingEnabled(bool b) {
+	mediaLabel->setScrollingEnabled(b);
+}
+
 void MediaPanel::paintEvent(QPaintEvent * e) {
 	QPainter p(this);
 	p.drawPixmap(0,0,leftBackground.width(), 53, leftBackground);
@@ -281,8 +285,10 @@ void ScrollingLabel::updateLabel() {
 		scrollPos = 0;
 	}
 
-	if (rect.width() > width()) {
-		timerId = startTimer(20);
+	if (scrolling_enabled) {
+		if (rect.width() > width()) {
+			timerId = startTimer(20);
+		}
 	}
 }
 
@@ -292,13 +298,19 @@ void ScrollingLabel::timerEvent(QTimerEvent * t) {
 	update();
 }
 
-
 ScrollingLabel::ScrollingLabel(QWidget* parent ) {
 	scrollPos =0;
 	timerId = -1;
+	scrolling_enabled = false;
 	textRect = QRect();
 	setAttribute(Qt::WA_StyledBackground, true);
 	setText("SMPlayer");
+}
+
+void ScrollingLabel::setScrollingEnabled(bool b) {
+	scrolling_enabled = b;
+	updateLabel();
+	repaint();
 }
 
 void ScrollingLabel::resizeEvent(QResizeEvent *) {
