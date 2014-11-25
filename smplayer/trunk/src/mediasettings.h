@@ -58,6 +58,7 @@ public:
 
 	double current_sec;
 	int current_sub_id;
+	int current_secondary_sub_id;
 
 #if PROGRAM_SWITCH
 	int current_program_id;

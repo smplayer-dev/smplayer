@@ -260,8 +260,9 @@ public slots:
 	void setAudioEq9(int value);
 
 	void changeDeinterlace(int);
-    void changeSubtitle(int);
+	void changeSubtitle(int);
 	void nextSubtitle();
+	void changeSecondarySubtitle(int);
 	void changeAudio(int ID, bool allow_restart = true);
 	void nextAudio();
 	void changeVideo(int ID, bool allow_restart = true);
