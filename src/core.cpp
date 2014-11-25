@@ -2480,7 +2480,7 @@ void Core::stopMplayer() {
 	qDebug("Core::stopMplayer");
 
 	if (!proc->isRunning()) {
-		qWarning("Core::stopMplayer: mplayer in not running!");
+		qWarning("Core::stopMplayer: mplayer is not running!");
 		return;
 	}
 
