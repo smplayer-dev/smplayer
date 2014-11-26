@@ -1603,16 +1603,13 @@ void Core::startMplayer( QString file, double seek ) {
 #else
 	// Demuxer and audio and video codecs:
 	if (!mset.forced_demuxer.isEmpty()) {
-		proc->addArgument("-demuxer");
-		proc->addArgument(mset.forced_demuxer);
+		proc->setOption("demuxer", mset.forced_demuxer);
 	}
 	if (!mset.forced_audio_codec.isEmpty()) {
-		proc->addArgument("-ac");
-		proc->addArgument(mset.forced_audio_codec);
+		proc->setOption("ac", mset.forced_audio_codec);
 	}
 	if (!mset.forced_video_codec.isEmpty()) {
-		proc->addArgument("-vc");
-		proc->addArgument(mset.forced_video_codec);
+		proc->setOption("vc", mset.forced_video_codec);
 	}
 	else
 #endif
@@ -1627,15 +1624,13 @@ void Core::startMplayer( QString file, double seek ) {
 			if (pref->vdpau.ffvc1vdpau) c += "ffvc1vdpau,";
 			if (pref->vdpau.ffodivxvdpau) c += "ffodivxvdpau,";
 			if (!c.isEmpty()) {
-				proc->addArgument("-vc");
-				proc->addArgument(c);
+				proc->setOption("vc", c);
 			}
 		}
 		else {
 		#endif
 			if (pref->coreavc) {
-				proc->addArgument("-vc");
-				proc->addArgument("coreserve,");
+				proc->setOption("vc", "coreserve,");
 			}
 		#ifndef Q_OS_WIN
 		}
