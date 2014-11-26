@@ -256,7 +256,7 @@ void DefaultGui::createMainToolBars() {
 	toolbar2->addWidget(select_audio);
 
 	select_subtitle = new QPushButton( this );
-	select_subtitle->setMenu( subtitlestrack_menu );
+	select_subtitle->setMenu( subtitles_track_menu );
 	toolbar2->addWidget(select_subtitle);
 
 	/*

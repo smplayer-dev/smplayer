@@ -729,7 +729,7 @@ protected:
 	QMenu *helpMenu;
 
 	QMenu * disc_menu;
-	QMenu * subtitlestrack_menu;
+	QMenu * subtitles_track_menu;
 	QMenu * secondary_subtitles_track_menu;
 #if PROGRAM_SWITCH
 	QMenu * programtrack_menu;
