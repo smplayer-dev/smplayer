@@ -257,6 +257,14 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--ao=" + o;
 	}
 	else
+	if (option_name == "vc") {
+		qDebug() << "MPVProcess::setOption: video codec ignored";
+	}
+	else
+	if (option_name == "ac") {
+		qDebug() << "MPVProcess::setOption: audio codec ignored";
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
