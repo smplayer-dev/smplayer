@@ -1638,8 +1638,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	if (pref->use_hwac3) {
-		proc->addArgument("-afm");
-		proc->addArgument("hwac3");
+		proc->setOption("afm", "hwac3");
 	}
 
 

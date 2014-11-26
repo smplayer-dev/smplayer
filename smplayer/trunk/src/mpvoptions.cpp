@@ -265,6 +265,11 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		qDebug() << "MPVProcess::setOption: audio codec ignored";
 	}
 	else
+	if (option_name == "afm") {
+		QString s = value.toString();
+		if (s == "hwac3") arg << "--ad=spdif:ac3,lavc:*"; // not sure if this is correct
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
