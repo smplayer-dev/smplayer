@@ -1218,6 +1218,7 @@ void Core::finishRestart() {
 		// Normal restart, subtitles haven't changed
 		// Recover current subtitle
 		changeSubtitle( mset.current_sub_id );
+		changeSecondarySubtitle( mset.current_secondary_sub_id );
 	}
 #endif
 
