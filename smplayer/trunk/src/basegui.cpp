@@ -1940,8 +1940,8 @@ void BaseGui::retranslateStrings() {
 	reverseAct->change( tr("Re&verse") );
 
 	// Menu Subtitle
-	subtitlestrack_menu->menuAction()->setText( tr("&Select") );
-	subtitlestrack_menu->menuAction()->setIcon( Images::icon("sub") );
+	subtitles_track_menu->menuAction()->setText( tr("&Select") );
+	subtitles_track_menu->menuAction()->setIcon( Images::icon("sub") );
 
 	secondary_subtitles_track_menu->menuAction()->setText( tr("Secondary trac&k") );
 	secondary_subtitles_track_menu->menuAction()->setIcon( Images::icon("secondary_sub") );
@@ -2564,13 +2564,13 @@ void BaseGui::createMenus() {
 
 	// SUBTITLES MENU
 	// Track submenu
-	subtitlestrack_menu = new QMenu(this);
-	subtitlestrack_menu->menuAction()->setObjectName("subtitlestrack_menu");
+	subtitles_track_menu = new QMenu(this);
+	subtitles_track_menu->menuAction()->setObjectName("subtitlestrack_menu");
 
 	secondary_subtitles_track_menu = new QMenu(this);
 	secondary_subtitles_track_menu->menuAction()->setObjectName("secondary_subtitles_track_menu");
 
-	subtitlesMenu->addMenu(subtitlestrack_menu);
+	subtitlesMenu->addMenu(subtitles_track_menu);
 	subtitlesMenu->addMenu(secondary_subtitles_track_menu);
 	subtitlesMenu->addSeparator();
 
@@ -3268,7 +3268,7 @@ void BaseGui::initializeMenus() {
 		a->setText(core->mdat.subs.itemAt(n).displayName());
 		a->setData(n);
 	}
-	subtitlestrack_menu->addActions( subtitleTrackGroup->actions() );
+	subtitles_track_menu->addActions( subtitleTrackGroup->actions() );
 
 	// Secondary Subtitles
 	secondarySubtitleTrackGroup->clear(true);
