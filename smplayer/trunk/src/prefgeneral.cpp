@@ -347,8 +347,8 @@ void PrefGeneral::getData(Preferences * pref) {
 }
 
 void PrefGeneral::updateDriverCombos() {
-	int vo_current = vo_combo->currentIndex();
-	int ao_current = ao_combo->currentIndex();
+	QString current_vo = VO();
+	QString current_ao = AO();
 
 	vo_combo->clear();
 	ao_combo->clear();
@@ -445,8 +445,8 @@ void PrefGeneral::updateDriverCombos() {
 	}
 	ao_combo->addItem( tr("User defined..."), "user_defined" );
 
-	vo_combo->setCurrentIndex( vo_current );
-	ao_combo->setCurrentIndex( ao_current );
+	setVO(current_vo);
+	setAO(current_ao);
 }
 
 void PrefGeneral::setMplayerPath( QString path ) {
