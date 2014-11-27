@@ -89,11 +89,6 @@ protected:
 	void setCoreavcUsage(bool b);
 	bool coreavcUsage();
 
-#ifdef YOUTUBE_SUPPORT
-	void setYTQuality(int q);
-	int YTQuality();
-#endif
-
 protected:
 	virtual void retranslateStrings();
 };
