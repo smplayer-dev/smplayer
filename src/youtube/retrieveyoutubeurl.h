@@ -84,6 +84,8 @@ signals:
 
 	void signatureNotFound(const QString & title);
 
+	void noSslSupport();
+
 protected slots:
 	void gotResponse();
 	void parse(QByteArray text);
