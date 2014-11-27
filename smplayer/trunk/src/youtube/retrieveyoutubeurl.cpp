@@ -22,6 +22,7 @@
 #include <QRegExp>
 #include <QStringList>
 #include <QFile>
+#include <QSslSocket>
 #include "ytsig.h"
 
 #if QT_VERSION >= 0x050000
@@ -49,6 +50,12 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 	qDebug("RetrieveYoutubeUrl::fetchPage: url: %s", url.toUtf8().constData());
 	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: '%s'", user_agent.toLatin1().constData());
 
+	if (url.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {
+		qDebug("RetrieveYoutubeUrl::fetchPage: no support for ssl");
+		emit noSslSupport();
+		return;
+	}
+
 	QNetworkRequest req(url);
 	req.setRawHeader("User-Agent", user_agent.toLatin1());
 	req.setRawHeader("Accept-Language", "en-us,en;q=0.5");
@@ -72,6 +79,12 @@ void RetrieveYoutubeUrl::fetchVideoInfoPage(QString url) {
 	qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s...", url.left(20).toUtf8().constData());
 
 	qDebug("RetrieveYoutubeUrl::fetchPage: user agent: '%s'", user_agent.toLatin1().constData());
+
+	if (url.toLower().startsWith("https") && !QSslSocket::supportsSsl()) {
+		qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: no support for ssl");
+		emit noSslSupport();
+		return;
+	}
 
 	YTSig::check(url);
 	QNetworkRequest req(url);
