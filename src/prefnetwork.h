@@ -21,6 +21,7 @@
 
 #include "ui_prefnetwork.h"
 #include "prefwidget.h"
+#include "config.h"
 
 class Preferences;
 
@@ -46,6 +47,11 @@ protected:
 
 	void setProxyType(int type);
 	int proxyType();
+
+#ifdef YOUTUBE_SUPPORT
+	void setYTQuality(int q);
+	int YTQuality();
+#endif
 
 protected:
 	virtual void retranslateStrings();
