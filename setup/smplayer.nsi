@@ -398,7 +398,7 @@ SectionGroup $(MPlayerGroupTitle)
 !ifdef WIN64
     File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
 !else
-    File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
+    File "${SMPLAYER_BUILD_DIR}\mplayer\mp*.exe"
 !endif
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
