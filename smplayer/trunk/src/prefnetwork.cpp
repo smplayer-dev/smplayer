@@ -21,6 +21,10 @@
 #include "images.h"
 #include <QNetworkProxy>
 
+#ifdef YOUTUBE_SUPPORT
+#include "retrieveyoutubeurl.h"
+#endif
+
 PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
@@ -28,6 +32,26 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 
 	proxy_type_combo->addItem( tr("HTTP"), QNetworkProxy::HttpProxy);
 	proxy_type_combo->addItem( tr("SOCKS5"), QNetworkProxy::Socks5Proxy);
+
+#ifdef YOUTUBE_SUPPORT
+	yt_quality_combo->addItem( "240p (flv)", RetrieveYoutubeUrl::FLV_240p );
+
+	yt_quality_combo->addItem( "360p (flv)", RetrieveYoutubeUrl::FLV_360p );
+	yt_quality_combo->addItem( "360p (mp4)", RetrieveYoutubeUrl::MP4_360p );
+	yt_quality_combo->addItem( "360p (webm)", RetrieveYoutubeUrl::WEBM_360p );
+
+	yt_quality_combo->addItem( "480p (flv)", RetrieveYoutubeUrl::FLV_480p );
+	yt_quality_combo->addItem( "480p (webm)", RetrieveYoutubeUrl::WEBM_480p );
+
+	yt_quality_combo->addItem( "720p (mp4)", RetrieveYoutubeUrl::MP4_720p );
+	yt_quality_combo->addItem( "720p (webm)", RetrieveYoutubeUrl::WEBM_720p );
+
+	yt_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
+	yt_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
+#else
+	int i = tab_widget->indexOf(youtube_page);
+	if (i != -1) tab_widget->removeTab(i);
+#endif
 
 	createHelp();
 }
@@ -57,6 +81,10 @@ void PrefNetwork::setData(Preferences * pref) {
 	proxy_password_edit->setText(pref->proxy_password);
 
 	setProxyType(pref->proxy_type);
+
+#ifdef YOUTUBE_SUPPORT
+	setYTQuality( pref->yt_quality );
+#endif
 }
 
 void PrefNetwork::getData(Preferences * pref) {
@@ -69,6 +97,10 @@ void PrefNetwork::getData(Preferences * pref) {
 	pref->proxy_password = proxy_password_edit->text();
 
 	pref->proxy_type = proxyType();
+
+#ifdef YOUTUBE_SUPPORT
+	pref->yt_quality = YTQuality();
+#endif
 }
 
 void PrefNetwork::setProxyType(int type) {
@@ -82,9 +114,28 @@ int PrefNetwork::proxyType() {
 	return proxy_type_combo->itemData(index).toInt();
 }
 
+#ifdef YOUTUBE_SUPPORT
+void PrefNetwork::setYTQuality(int q) {
+	yt_quality_combo->setCurrentIndex(yt_quality_combo->findData(q));
+}
+
+int PrefNetwork::YTQuality() {
+	int index = yt_quality_combo->currentIndex();
+    return yt_quality_combo->itemData(index).toInt();
+}
+#endif
 
 void PrefNetwork::createHelp() {
 	clearHelp();
+
+#ifdef YOUTUBE_SUPPORT
+	addSectionTitle(tr("Youtube"));
+
+	setWhatsThis(yt_quality_combo, tr("Youtube quality"),
+		tr("Select the preferred quality for youtube videos.") );
+#endif
+
+	addSectionTitle(tr("Proxy"));
 
 	setWhatsThis(use_proxy_check, tr("Enable proxy"),
 		tr("Enable/disable the use of the proxy.") );
