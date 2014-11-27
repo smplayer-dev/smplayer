@@ -2140,6 +2140,8 @@ void BaseGui::createCore() {
 #ifdef YOUTUBE_SUPPORT
 	connect(core, SIGNAL(signatureNotFound(const QString &)),
             this, SLOT(YTNoSignature(const QString &)));
+	connect(core, SIGNAL(noSslSupport()),
+            this, SLOT(YTNoSslSupport()));
 #endif
 	connect(core, SIGNAL(receivedForbidden()), this, SLOT(gotForbidden()));
 }
@@ -4583,6 +4585,15 @@ void BaseGui::checkReminder() {
 #endif
 
 #ifdef YOUTUBE_SUPPORT
+void BaseGui::YTNoSslSupport() {
+	qDebug("BaseGui::YTNoSslSupport");
+	QMessageBox::warning(this, tr("Connection failed"),
+		tr("The video you requested needs to open a HTTPS connection.") +"<br>"+
+		tr("Unfortunately the openssl component, required for it, it's not available in your system.") +"<br>"+
+		tr("Please, visit %1 to know how to fix this problem.")
+			.arg("<a href=\"http://smplayer.sourceforge.net/openssl.php\">" + tr("this link") + "</a>") );
+}
+
 void BaseGui::YTNoSignature(const QString & title) {
 	qDebug("BaseGui::YTNoSignature: %s", title.toUtf8().constData());
 

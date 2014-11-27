@@ -286,8 +286,7 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
 	connect(yt, SIGNAL(errorOcurred(int,QString)), this, SLOT(YTFailed(int,QString)));
-	connect(yt, SIGNAL(noSslSupport()), this, SLOT(YTNoSslSupport()));
-	/* connect(yt, SIGNAL(signatureNotFound()), this, SLOT(YTNoSignature())); */
+	connect(yt, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
 	connect(yt, SIGNAL(signatureNotFound(const QString&)), this, SIGNAL(signatureNotFound(const QString&)));
 	connect(yt, SIGNAL(gotEmptyList()), this, SLOT(YTNoVideoUrl()));
 #endif
@@ -558,16 +557,6 @@ void Core::connectingToYT(QString host) {
 void Core::YTFailed(int /*error_number*/, QString /*error_str*/) {
 	emit showMessage( tr("Unable to retrieve the Youtube page") );
 }
-
-void Core::YTNoSslSupport() {
-	emit showMessage(tr("Failed to open URL. SSL support is missing"));
-}
-
-/*
-void Core::YTNoSignature() {
-	emit showMessage( tr("Video protected. It can't be played."), 5000 );
-}
-*/
 
 void Core::YTNoVideoUrl() {
 	emit showMessage( tr("Unable to locate the URL of the video") );

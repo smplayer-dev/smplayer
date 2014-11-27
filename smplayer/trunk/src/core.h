@@ -420,8 +420,6 @@ protected slots:
 #ifdef YOUTUBE_SUPPORT
 	void connectingToYT(QString host);
 	void YTFailed(int error_number, QString error_str);
-	void YTNoSslSupport();
-	/* void YTNoSignature(); */
 	void YTNoVideoUrl();
 #endif
 
@@ -501,6 +499,7 @@ signals:
 
 #ifdef YOUTUBE_SUPPORT
 	void signatureNotFound(const QString &);
+	void noSslSupport();
 #endif
 
 	void receivedForbidden();
