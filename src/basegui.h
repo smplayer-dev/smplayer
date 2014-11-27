@@ -230,6 +230,7 @@ protected slots:
 #endif
 
 #ifdef YOUTUBE_SUPPORT
+	void YTNoSslSupport();
 	void YTNoSignature(const QString &);
 	#ifdef YT_USE_SCRIPT
 	void YTUpdateScript();
