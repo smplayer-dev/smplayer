@@ -84,6 +84,7 @@ void PrefNetwork::setData(Preferences * pref) {
 
 #ifdef YOUTUBE_SUPPORT
 	setYTQuality( pref->yt_quality );
+	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
 }
 
@@ -100,6 +101,7 @@ void PrefNetwork::getData(Preferences * pref) {
 
 #ifdef YOUTUBE_SUPPORT
 	pref->yt_quality = YTQuality();
+	pref->yt_user_agent = yt_user_agent_edit->text();
 #endif
 }
 
@@ -133,6 +135,9 @@ void PrefNetwork::createHelp() {
 
 	setWhatsThis(yt_quality_combo, tr("Youtube quality"),
 		tr("Select the preferred quality for youtube videos.") );
+
+	setWhatsThis(yt_user_agent_edit, tr("User agent"),
+		tr("Set the user agent that SMPlayer will use when connecting to Youtube.") );
 #endif
 
 	addSectionTitle(tr("Proxy"));
