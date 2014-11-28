@@ -23,7 +23,7 @@
 !define !defineifexist "!insertmacro !defineifexist"
 
 !ifdef WIN64
-${!defineifexist} USE_MPV smplayer-build64\mplayer\mpv.exe
+${!defineifexist} USE_MPV smplayer-build64\mplayer\mpv64.exe
 !else
 ${!defineifexist} USE_MPV smplayer-build\mplayer\mpv.exe
 !endif
