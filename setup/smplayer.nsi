@@ -6,7 +6,29 @@
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
 !endif
 
+; See http://nsis.sourceforge.net/Check_if_a_file_exists_at_compile_time for documentation
+!macro !defineifexist _VAR_NAME _FILE_NAME
+  !tempfile _TEMPFILE
+  !ifdef NSIS_WIN32_MAKENSIS
+    ; Windows - cmd.exe
+    !system 'if exist "${_FILE_NAME}" echo !define ${_VAR_NAME} > "${_TEMPFILE}"'
+  !else
+    ; Posix - sh
+    !system 'if [ -e "${_FILE_NAME}" ]; then echo "!define ${_VAR_NAME}" > "${_TEMPFILE}"; fi'
+  !endif
+  !include '${_TEMPFILE}'
+  !delfile '${_TEMPFILE}'
+  !undef _TEMPFILE
+!macroend
+!define !defineifexist "!insertmacro !defineifexist"
+
 !ifdef WIN64
+${!defineifexist} USE_MPV smplayer-build64\mplayer\mpv.exe
+!else
+${!defineifexist} USE_MPV smplayer-build\mplayer\mpv.exe
+!endif
+
+!ifdef WIN64 | USE_MPV
   !define DISABLE_CODECS
 !endif
 
@@ -55,9 +77,17 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
-  OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
+  !ifdef USE_MPV
+    OutFile "output\smplayer-mpv-${SMPLAYER_VERSION}-x64.exe"
+  !else
+    OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
+  !endif
 !else
-  OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
+  !ifdef USE_MPV
+    OutFile "output\smplayer-mpv-${SMPLAYER_VERSION}-win32.exe"
+  !else
+    OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
+  !endif
 !endif
 
   ;Version tab properties
@@ -328,7 +358,7 @@ Section $(Section_SMPlayer) SecSMPlayer
   ;Qt imageformats
   SetOutPath "$INSTDIR\imageformats"
   File /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
-  
+
   ;Open fonts
   SetOutPath "$INSTDIR\open-fonts"
   File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
@@ -394,11 +424,21 @@ SectionGroup $(MPlayerGroupTitle)
     SectionIn RO
 
     SetOutPath "$INSTDIR\mplayer"
-    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x buildinfo /x buildinfo64 "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
+    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x buildinfo /x buildinfo64 /x mpv.exe /x mpv64.exe /x mpv.com /x mpv64.com "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 !ifdef WIN64
-    File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
+    !ifdef USE_MPV
+      File /oname=mpv.exe "${SMPLAYER_BUILD_DIR}\mplayer\mpv64.exe"
+      File /oname=mpv.com "${SMPLAYER_BUILD_DIR}\mplayer\mpv64.com"
+    !else
+      File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
+    !endif
 !else
-    File "${SMPLAYER_BUILD_DIR}\mplayer\mp*.exe"
+    !ifdef USE_MPV
+      File "${SMPLAYER_BUILD_DIR}\mplayer\mpv.exe"
+      File "${SMPLAYER_BUILD_DIR}\mplayer\mpv.com"
+    !else
+      File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
+    !endif
 !endif
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
@@ -643,6 +683,7 @@ ${MementoSectionDone}
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
+  RMDir /r "$INSTDIR\open-fonts"
   RMDir /r "$INSTDIR\platforms"
   RMDir /r "$INSTDIR\shortcuts"
   RMDir /r "$INSTDIR\themes"
