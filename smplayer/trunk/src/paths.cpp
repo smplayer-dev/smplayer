@@ -162,6 +162,14 @@ QString Paths::subtitleStyleFile() {
 
 #ifdef Q_OS_WIN
 QString Paths::fontPath() {
-	return appPath() + "/open-fonts";
+	QString path = appPath() + "/mplayer/fonts";
+	QDir font_dir(path);
+	QStringList files = font_dir.entryList(QStringList() << "*.ttf" << "*.otf", QDir::Files);
+	//qDebug("Paths:fontPath: files in %s: %d", path.toUtf8().constData(), files.count());
+	if (files.count() > 0) {
+		return path;
+	} else {
+		return appPath() + "/open-fonts";
+	}
 }
 #endif
