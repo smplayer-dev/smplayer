@@ -216,6 +216,7 @@ void Preferences::reset() {
 	cache_for_tv = 3000;
 
 #ifdef YOUTUBE_SUPPORT
+	enable_yt_support = true;
 	yt_quality = RetrieveYoutubeUrl::MP4_720p;
 	//yt_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
 	yt_user_agent = "";
@@ -698,6 +699,7 @@ void Preferences::save() {
 
 #ifdef YOUTUBE_SUPPORT
 	set->beginGroup("youtube");
+	set->setValue("enable_yt_support", enable_yt_support);
 	set->setValue("quality", yt_quality);
 	set->setValue("user_agent", yt_user_agent);
 	set->setValue("yt_use_https_main", yt_use_https_main);
@@ -1205,6 +1207,7 @@ void Preferences::load() {
 
 #ifdef YOUTUBE_SUPPORT
 	set->beginGroup("youtube");
+	enable_yt_support = set->value("enable_yt_support", enable_yt_support).toBool();
 	yt_quality = set->value("quality", yt_quality).toInt();
 	yt_user_agent = set->value("user_agent", yt_user_agent).toString();
 	yt_use_https_main = set->value("yt_use_https_main", yt_use_https_main).toBool();

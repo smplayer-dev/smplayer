@@ -901,20 +901,22 @@ void Core::openStream(QString name) {
 	qDebug("Core::openStream: '%s'", name.toUtf8().data());
 
 #ifdef YOUTUBE_SUPPORT
-	// Check if the stream is a youtube url
-	QString yt_full_url = yt->fullUrl(name);
-	if (!yt_full_url.isEmpty()) {
-		qDebug("Core::openStream: youtube url detected: %s", yt_full_url.toLatin1().constData());
-		name = yt_full_url;
-		yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
-		qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
-		/*if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent); */
-		yt->setUserAgent(pref->yt_user_agent);
-		#ifdef YT_USE_SCRIPT
-		YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
-		#endif
-		yt->fetchPage(name);
-		return;
+	if (pref->enable_yt_support) {
+		// Check if the stream is a youtube url
+		QString yt_full_url = yt->fullUrl(name);
+		if (!yt_full_url.isEmpty()) {
+			qDebug("Core::openStream: youtube url detected: %s", yt_full_url.toLatin1().constData());
+			name = yt_full_url;
+			yt->setPreferredQuality( (RetrieveYoutubeUrl::Quality) pref->yt_quality );
+			qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
+			/*if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent); */
+			yt->setUserAgent(pref->yt_user_agent);
+			#ifdef YT_USE_SCRIPT
+			YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
+			#endif
+			yt->fetchPage(name);
+			return;
+		}
 	}
 #endif
 

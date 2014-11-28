@@ -83,6 +83,7 @@ void PrefNetwork::setData(Preferences * pref) {
 	setProxyType(pref->proxy_type);
 
 #ifdef YOUTUBE_SUPPORT
+	yt_support_check->setChecked(pref->enable_yt_support);
 	setYTQuality( pref->yt_quality );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
@@ -100,6 +101,7 @@ void PrefNetwork::getData(Preferences * pref) {
 	pref->proxy_type = proxyType();
 
 #ifdef YOUTUBE_SUPPORT
+	pref->enable_yt_support = yt_support_check->isChecked();
 	pref->yt_quality = YTQuality();
 	pref->yt_user_agent = yt_user_agent_edit->text();
 #endif

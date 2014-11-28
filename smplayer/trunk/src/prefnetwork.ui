@@ -23,53 +23,69 @@
       <attribute name="title">
        <string>&amp;Youtube</string>
       </attribute>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
-        <layout class="QHBoxLayout" name="_3">
-         <item>
-          <widget class="QLabel" name="yt_label">
-           <property name="text">
-            <string>Playback &amp;quality</string>
-           </property>
-           <property name="buddy">
-            <cstring>yt_quality_combo</cstring>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QComboBox" name="yt_quality_combo"/>
-         </item>
-         <item>
-          <spacer>
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-        </layout>
+        <widget class="QCheckBox" name="yt_support_check">
+         <property name="text">
+          <string>&amp;Enable Youtube support</string>
+         </property>
+        </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout">
-         <item>
-          <widget class="QLabel" name="yt_user_agent_label">
-           <property name="text">
-            <string>&amp;User agent</string>
-           </property>
-           <property name="buddy">
-            <cstring>yt_user_agent_edit</cstring>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLineEdit" name="yt_user_agent_edit"/>
-         </item>
-        </layout>
+        <widget class="QWidget" name="youtube_widget" native="true">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <layout class="QHBoxLayout" name="_3">
+            <item>
+             <widget class="QLabel" name="yt_label">
+              <property name="text">
+               <string>Playback &amp;quality</string>
+              </property>
+              <property name="buddy">
+               <cstring>yt_quality_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="yt_quality_combo"/>
+            </item>
+            <item>
+             <spacer>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="yt_user_agent_label">
+              <property name="text">
+               <string>&amp;User agent</string>
+              </property>
+              <property name="buddy">
+               <cstring>yt_user_agent_edit</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="yt_user_agent_edit"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
        </item>
        <item>
         <spacer name="verticalSpacer_2">
@@ -217,6 +233,7 @@
  </widget>
  <tabstops>
   <tabstop>tab_widget</tabstop>
+  <tabstop>yt_support_check</tabstop>
   <tabstop>yt_quality_combo</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
   <tabstop>use_proxy_check</tabstop>
@@ -241,6 +258,22 @@
     <hint type="destinationlabel">
      <x>239</x>
      <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>yt_support_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>youtube_widget</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>108</y>
     </hint>
    </hints>
   </connection>
