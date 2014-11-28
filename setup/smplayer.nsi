@@ -360,8 +360,10 @@ Section $(Section_SMPlayer) SecSMPlayer
   File /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
 
   ;Open fonts
+  !ifndef USE_MPV
   SetOutPath "$INSTDIR\open-fonts"
   File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
+  !endif
 
   ;Qt platforms (Qt 5+)
   SetOutPath "$INSTDIR\platforms"
