@@ -79,7 +79,9 @@ void MPVProcess::setMedia(const QString & media) {
 			"METADATA_GENRE=${metadata/by-key/genre:}\n"
 			"METADATA_DATE=${metadata/by-key/date:}\n"
 			"METADATA_TRACK=${metadata/by-key/track:}\n"
-			"METADATA_COPYRIGHT=${metadata/by-key/copyright:}\n";
+			"METADATA_COPYRIGHT=${metadata/by-key/copyright:}\n"
+
+			"INFO_MEDIA_TITLE=${=media-title:}\n";
 
 	arg << media;
 }
