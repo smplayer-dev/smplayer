@@ -581,6 +581,12 @@ void MPVProcess::parseLine(QByteArray ba) {
 			if (tag == "METADATA_GENRE") {
 				if (!value.isEmpty()) md.clip_genre = value;
 			}
+			else
+			if (tag == "INFO_MEDIA_TITLE") {
+				if (!value.isEmpty() && md.clip_name.isEmpty()) {
+					md.clip_name = value;
+				}
+			}
 #if NOTIFY_VIDEO_CHANGES || NOTIFY_AUDIO_CHANGES || NOTIFY_SUB_CHANGES
 			else
 			if (tag == "INFO_TRACKS_COUNT") {
