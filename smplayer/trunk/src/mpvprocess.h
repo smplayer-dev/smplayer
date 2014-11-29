@@ -94,6 +94,8 @@ public:
 	void setTSProgram(int ID);
 #endif
 
+	QString mpvVersion() { return mpv_version; };
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
@@ -115,6 +117,8 @@ private:
 	int last_sub_id;
 
 	int mplayer_svn;
+
+	QString mpv_version;
 
 #if NOTIFY_SUB_CHANGES
 	SubTracks subs;
