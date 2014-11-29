@@ -587,6 +587,11 @@ void MPVProcess::parseLine(QByteArray ba) {
 					md.clip_name = value;
 				}
 			}
+			else
+			if (tag == "MPV_VERSION") {
+				mpv_version = value;
+				//qDebug("MPVProcess::parseLine: mpv version: %s", mpv_version.toUtf8().constData());
+			}
 #if NOTIFY_VIDEO_CHANGES || NOTIFY_AUDIO_CHANGES || NOTIFY_SUB_CHANGES
 			else
 			if (tag == "INFO_TRACKS_COUNT") {

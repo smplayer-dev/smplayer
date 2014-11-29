@@ -54,6 +54,7 @@ sub=${=sub}
 
 void MPVProcess::setMedia(const QString & media) {
 	arg << "--term-playing-msg="
+			"MPV_VERSION=${=mpv-version:}\n"
 			"INFO_VIDEO_WIDTH=${=width}\nINFO_VIDEO_HEIGHT=${=height}\n"
 			"INFO_VIDEO_ASPECT=${=video-aspect}\n"
 //			"INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}\n"
