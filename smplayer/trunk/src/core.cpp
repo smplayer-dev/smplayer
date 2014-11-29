@@ -2356,6 +2356,8 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("softvol-max", QString::number(pref->softvol_max));
 	}
 
+	proc->setOption("enable_streaming_sites_support", pref->enable_streaming_sites);
+
 	// Load edl file
 	if (pref->use_edl_files) {
 		QString edl_f;
