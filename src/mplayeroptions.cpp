@@ -67,6 +67,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		// Not supported
 	}
 	else
+	if (option_name == "enable_streaming_sites_support") {
+		// Not supported
+	}
+	else
 	if (option_name == "keepaspect") {
 		bool b = value.toBool();
 		if (b) arg << "-keepaspect"; else arg << "-nokeepaspect";

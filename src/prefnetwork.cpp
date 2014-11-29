@@ -87,6 +87,7 @@ void PrefNetwork::setData(Preferences * pref) {
 	setYTQuality( pref->yt_quality );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
+	streaming_check->setChecked(pref->enable_streaming_sites);
 }
 
 void PrefNetwork::getData(Preferences * pref) {
@@ -105,6 +106,7 @@ void PrefNetwork::getData(Preferences * pref) {
 	pref->yt_quality = YTQuality();
 	pref->yt_user_agent = yt_user_agent_edit->text();
 #endif
+	pref->enable_streaming_sites = streaming_check->isChecked();
 }
 
 void PrefNetwork::setProxyType(int type) {
@@ -135,12 +137,20 @@ void PrefNetwork::createHelp() {
 #ifdef YOUTUBE_SUPPORT
 	addSectionTitle(tr("Youtube"));
 
+	setWhatsThis(yt_support_check, tr("Enable Youtube internal support"),
+		tr("If this option is checked, SMPlayer will try to play videos from Youtube URLs.") );
+
 	setWhatsThis(yt_quality_combo, tr("Youtube quality"),
 		tr("Select the preferred quality for youtube videos.") );
 
 	setWhatsThis(yt_user_agent_edit, tr("User agent"),
 		tr("Set the user agent that SMPlayer will use when connecting to Youtube.") );
 #endif
+
+	setWhatsThis(streaming_check, tr("Play videos from streaming sites"),
+		tr("If this option is checked, SMPlayer will try to play videos from "
+           "streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.") + "<br>"+
+		tr("Requires mpv and youtube-dl.") );
 
 	addSectionTitle(tr("Proxy"));
 

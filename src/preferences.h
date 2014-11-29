@@ -207,6 +207,7 @@ public:
 	bool yt_use_https_main;
 	bool yt_use_https_vi;
 #endif
+	bool enable_streaming_sites;
 
 
 	/* *********

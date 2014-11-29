@@ -21,13 +21,13 @@
      </property>
      <widget class="QWidget" name="youtube_page">
       <attribute name="title">
-       <string>&amp;Youtube</string>
+       <string>&amp;Youtube (and other sites)</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
         <widget class="QCheckBox" name="yt_support_check">
          <property name="text">
-          <string>&amp;Enable Youtube support</string>
+          <string>&amp;Enable Youtube internal support</string>
          </property>
         </widget>
        </item>
@@ -85,6 +85,13 @@
            </layout>
           </item>
          </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="streaming_check">
+         <property name="text">
+          <string>&amp;Play videos from streaming sites</string>
+         </property>
         </widget>
        </item>
        <item>
@@ -236,6 +243,7 @@
   <tabstop>yt_support_check</tabstop>
   <tabstop>yt_quality_combo</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
+  <tabstop>streaming_check</tabstop>
   <tabstop>use_proxy_check</tabstop>
   <tabstop>proxy_hostname_edit</tabstop>
   <tabstop>proxy_port_spin</tabstop>

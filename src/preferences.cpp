@@ -223,6 +223,7 @@ void Preferences::reset() {
 	yt_use_https_main = false;
 	yt_use_https_vi = false;
 #endif
+	enable_streaming_sites = false;
 
 
     /* *********
@@ -706,6 +707,11 @@ void Preferences::save() {
 	set->setValue("yt_use_https_vi", yt_use_https_vi);
 	set->endGroup();
 #endif
+
+	set->beginGroup("streaming");
+	set->setValue("enable_streaming_sites", enable_streaming_sites);
+	set->endGroup();
+
 
 
     /* *********
@@ -1214,6 +1220,10 @@ void Preferences::load() {
 	yt_use_https_vi = set->value("yt_use_https_vi", yt_use_https_vi).toBool();
 	set->endGroup();
 #endif
+
+	set->beginGroup("streaming");
+	enable_streaming_sites = set->value("enable_streaming_sites", enable_streaming_sites).toBool();
+	set->endGroup();
 
 
     /* *********
