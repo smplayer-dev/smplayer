@@ -3305,6 +3305,7 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
+        <location filename="../languages.cpp" line="323"/>
         <source>Bulgarian</source>
         <translation>Bugarski</translation>
     </message>
@@ -3345,6 +3346,7 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
+        <location filename="../languages.cpp" line="324"/>
         <source>Czech</source>
         <translation>Češki</translation>
     </message>
@@ -3388,6 +3390,7 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
+        <location filename="../languages.cpp" line="325"/>
         <source>Estonian</source>
         <translation>Estonski</translation>
     </message>
@@ -3460,11 +3463,13 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Croatian</source>
         <translation>Hrvatski</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Hungarian</source>
         <translation>Mađarski</translation>
     </message>
@@ -3567,11 +3572,13 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Lithuanian</source>
         <translation>Litvanski</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Latvian</source>
         <translation>Letonski</translation>
     </message>
@@ -3664,6 +3671,7 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Polish</source>
         <translation>Poljski</translation>
     </message>
@@ -3687,6 +3695,7 @@ Molim, provjerite dozvole te mape.</translation>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
         <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Russian</source>
         <translation>Ruski</translation>
     </message>
@@ -3707,13 +3716,13 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>Slovački</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="169"/>
         <source>Slovenian</source>
-        <translation>Slovenski</translation>
+        <translation type="obsolete">Slovenski</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -3824,6 +3833,7 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Ukrainian</source>
         <translation>Ukrajinski</translation>
     </message>
@@ -3870,6 +3880,7 @@ Molim, provjerite dozvole te mape.</translation>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Chinese</source>
         <translation>Kineski</translation>
     </message>
@@ -4015,6 +4026,7 @@ Molim, provjerite dozvole te mape.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
+        <location filename="../languages.cpp" line="322"/>
         <source>Belarusian</source>
         <translation>Bjeloruski</translation>
     </message>
@@ -4273,6 +4285,12 @@ Molim, provjerite dozvole te mape.</translation>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
         <translation>Sinhalski</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="169"/>
+        <location filename="../languages.cpp" line="333"/>
+        <source>Slovene</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -7932,7 +7950,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <name>PrefSubtitles</name>
     <message>
         <location filename="../prefsubtitles.cpp" line="60"/>
-        <location filename="../prefsubtitles.cpp" line="379"/>
+        <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Subtitles</source>
         <translation>Podnaslovi</translation>
     </message>
@@ -7943,7 +7961,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="384"/>
         <source>Autoload</source>
         <translation>Automatsko učitavanje</translation>
     </message>
@@ -7974,13 +7992,13 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
-        <location filename="../prefsubtitles.cpp" line="429"/>
-        <location filename="../prefsubtitles.cpp" line="448"/>
+        <location filename="../prefsubtitles.cpp" line="432"/>
+        <location filename="../prefsubtitles.cpp" line="451"/>
         <source>Font</source>
         <translation>Slova</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Size</source>
         <translation>Veličina</translation>
     </message>
@@ -8005,72 +8023,72 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>&amp;Uključi podnaslove sa snimki zaslona</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="387"/>
         <source>Select first available subtitle</source>
         <translation>Odaberi prvi dostupni podnaslov</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="390"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Default subtitle encoding</source>
         <translation>Zadano kôdiranje podnaslova</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="406"/>
+        <location filename="../prefsubtitles.cpp" line="409"/>
         <source>Include subtitles on screenshots</source>
         <translation>Uključi podnaslove sa snimki zaslona</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="463"/>
         <source>Text color</source>
         <translation>Boja teksta</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="464"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Odaberite boju teksta podnaslova.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="463"/>
+        <location filename="../prefsubtitles.cpp" line="466"/>
         <source>Border color</source>
         <translation>Boja obruba</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="467"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Odaberite boju obruba podnaslova.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="385"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Odaberite način automatskog učitavanja podnaslova.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="385"/>
+        <location filename="../prefsubtitles.cpp" line="388"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Ako postoji jedan ili više dostupnih zapisa podnaslova, jedan od njih će automatski biti odabran, obično prvi podnaslov, ako se jedan od njih podudara sa korisnikovim željenim jezikom, taj će biti odabran.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="391"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Odaberite način kôdiranja koji će biti zadan pri korištenju podnaslova.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="397"/>
         <source>Try to autodetect for this language</source>
         <translation>Probaj automatski otkriti za ovaj jezik</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="395"/>
+        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Kada je ova mogućnost odabrana, kôdiranje podnaslova probat će se automatski otkriti za zadani jezik. Vratit će se na zadano kôdiranje ako automatsko otkrivanje ne uspije. Ova mogućnost zahtijeva MPlayer kompajliran sa ENCA podrškom.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="401"/>
+        <location filename="../prefsubtitles.cpp" line="404"/>
         <source>Subtitle language</source>
         <translation>Jezik podnaslova</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="402"/>
+        <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Odaberite jezik za koji želite da se kôdiranje odabere automatski.</translation>
     </message>
@@ -8085,132 +8103,132 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Probaj a&amp;utomatski otkriti za ovaj jezik:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Outline</source>
         <translation>Vanjska linija</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Select the font for the subtitles.</source>
         <translation>Odaberite slova za podnslove.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
         <translation>Koristi ASS knjižnicu</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>Ova mogućnost omogućuje ASS knjižnicu, koja omogućuje prikaz podnaslova u više boja, slova...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="415"/>
+        <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
         <translation>Uobičajeno ne bi trebali onemogućiti ovu mogućnost. Učinite to samo ako je vaš MPlayer kompajliran bez freetype podrške. &lt;b&gt;Onemogućavanje ove mogućnosti može dovesti do toga da podnaslovi neće uopće više raditi&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="421"/>
+        <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Enable Windows fonts</source>
         <translation>Omogući Windows slova</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="422"/>
+        <location filename="../prefsubtitles.cpp" line="425"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
         <translation>Ako je ova mogućnost odabrana slova Windows sustava biti će dostupna podnaslovima. Postoji mala smetnja: međuspremnik slova mora biti stvoren, što može malo duže potrajati.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="425"/>
+        <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Ako ova mogućnost nije odabrana, samo će se koristiti nekoliko vrsta slova koja dolaze sa SMPlayerom, što je ujedno i brže.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="452"/>
+        <location filename="../prefsubtitles.cpp" line="455"/>
         <source>The size in pixels.</source>
         <translation>Veličina u pikselima.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="454"/>
+        <location filename="../prefsubtitles.cpp" line="457"/>
         <source>Bold</source>
         <translation>Podebljano</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="458"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>Ako je odabrano, tekst će biti prikazan &lt;b&gt;podebljan&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="457"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>Italic</source>
         <translation>Ukošeno</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="461"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>Ako je odabrano, tekst će biti prikazan &lt;b&gt;ukošeno&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="469"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Left margin</source>
         <translation>Lijevi rub</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>Određuje lijevi rub u pikselima.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Right margin</source>
         <translation>Desni rub</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>Određuje desni rub u pikselima.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Vertical margin</source>
         <translation>Okomiti rub</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>Određuje okomiti rub u pikselima.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="481"/>
         <source>Horizontal alignment</source>
         <translation>Vodoravno poravnanje</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>Određuje vodoravno poravnanje. Moguće vrijednosti su lijevo, sredina i desno.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Vertical alignment</source>
         <translation>Okomito poravnanje</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>Određuje okomito poravnanje. Moguće vrijednosti su dno, sredina i vrh.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>Border style</source>
         <translation>Stil obruba</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>Određuje stil obruba. Moguće vrijednosti su vanjska linija i neprozirna linija.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="494"/>
+        <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Shadow</source>
         <translation>Sjenka</translation>
     </message>
@@ -8300,90 +8318,90 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Koristi prilagođen&amp;i izgled</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="445"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>Sljedeća mogućnost vam dopušta određivanje stila koji će se koristiti za nestilizirane podnaslove (srt, sub...).</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="102"/>
+        <location filename="../prefsubtitles.cpp" line="105"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation>Lijevo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="103"/>
+        <location filename="../prefsubtitles.cpp" line="106"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation>Sredina</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="104"/>
+        <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation>Desno</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="109"/>
+        <location filename="../prefsubtitles.cpp" line="112"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation>Dno</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="110"/>
+        <location filename="../prefsubtitles.cpp" line="113"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation>Sredina</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="111"/>
+        <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation>Vrh</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="116"/>
+        <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation>Vanjska linija</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="117"/>
+        <location filename="../prefsubtitles.cpp" line="120"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation>Neprozirna linija</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="494"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Ako je stil obruba postavljen na &lt;i&gt;Vanjska linija&lt;/i&gt;, ta mogućnost određuje širinu vanjske linije oko teksta u pikselima.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>Ako je stil obruba postavljen na &lt;i&gt;Vanjska linija&lt;/i&gt;, ta mogućnost određuje dubinu sjenke iza teksta u pikselima.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="431"/>
+        <location filename="../prefsubtitles.cpp" line="434"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Ova mogućnost NE mijenja veličinu podnaslova u trenutnom video zapisu. Za to koristite mogućnosti &lt;i&gt;Veličina+&lt;/i&gt; i &lt;i&gt;Veličina-&lt;/i&gt; u izborniku podnaslova.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="435"/>
+        <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Default scale</source>
         <translation>Zadani razmjer</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="436"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>Ova mogućnost određuje zadani razmjer slova za SSA/ASS podnaslove koji će se koristiti kod novo otvorenih datoteka.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>Line spacing</source>
         <translation>Razmak redaka</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="441"/>
+        <location filename="../prefsubtitles.cpp" line="444"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>Ova mogućnost određuje razmak koji će se koristiti za razdvajanje višestrukih redaka. Može imati negativne vrijednosti.</translation>
     </message>
@@ -8403,7 +8421,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>&amp;Razmak redaka:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="417"/>
         <source>Freetype support</source>
         <translation>Freetype podrška</translation>
     </message>
@@ -8413,37 +8431,37 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Freet&amp;ype podrška</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="407"/>
+        <location filename="../prefsubtitles.cpp" line="410"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>Ako je ova mogućnost odabrana, podnaslovi će se pojaviti u snimkama zaslona. &lt;b&gt;Napomena:&lt;/b&gt; to može ponekada prouzročiti neke probleme.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="328"/>
+        <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Customize SSA/ASS style</source>
         <translation>Prilagodi SSA/ASS stil</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="329"/>
+        <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>Ovdje možete upisati vaš prilagođeni SSA/ASS stil.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="330"/>
+        <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>Očisti uređivani redak za onemogućavanje prilagođenog stila.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="447"/>
         <source>SSA/ASS style</source>
         <translation>SSA/ASS stil</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="466"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>Shadow color</source>
         <translation>Boja sjenke</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>Ova boja će se koristiti u sjenkama podnaslova.</translation>
     </message>
@@ -8458,12 +8476,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Pril&amp;agdi...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
         <translation>Primijeni stil i na ASS datoteke</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Ako je ova mogućnost odabrana, stil određen iznad biti će primijenjen i na ass podnaslove.</translation>
     </message>

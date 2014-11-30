@@ -3305,6 +3305,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
+        <location filename="../languages.cpp" line="323"/>
         <source>Bulgarian</source>
         <translation>Болгарский</translation>
     </message>
@@ -3345,6 +3346,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
+        <location filename="../languages.cpp" line="324"/>
         <source>Czech</source>
         <translation>Чешский</translation>
     </message>
@@ -3388,6 +3390,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
+        <location filename="../languages.cpp" line="325"/>
         <source>Estonian</source>
         <translation>Эстонский</translation>
     </message>
@@ -3460,11 +3463,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Croatian</source>
         <translation>Хорватский</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Hungarian</source>
         <translation>Венгерский</translation>
     </message>
@@ -3567,11 +3572,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Lithuanian</source>
         <translation>Литовский</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Latvian</source>
         <translation>Латвийский</translation>
     </message>
@@ -3664,6 +3671,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Polish</source>
         <translation>Польский</translation>
     </message>
@@ -3687,6 +3695,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
         <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Russian</source>
         <translation>Русский</translation>
     </message>
@@ -3707,13 +3716,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>Словацкий</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="169"/>
         <source>Slovenian</source>
-        <translation>Словенский</translation>
+        <translation type="obsolete">Словенский</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -3824,6 +3833,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Ukrainian</source>
         <translation>Украинский</translation>
     </message>
@@ -3870,6 +3880,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Chinese</source>
         <translation>Китайский</translation>
     </message>
@@ -4015,6 +4026,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
+        <location filename="../languages.cpp" line="322"/>
         <source>Belarusian</source>
         <translation>Белорусский</translation>
     </message>
@@ -4273,6 +4285,12 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
         <translation>Сингальский</translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="169"/>
+        <location filename="../languages.cpp" line="333"/>
+        <source>Slovene</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -7932,7 +7950,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefSubtitles</name>
     <message>
         <location filename="../prefsubtitles.cpp" line="60"/>
-        <location filename="../prefsubtitles.cpp" line="379"/>
+        <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Subtitles</source>
         <translation>Субтитры</translation>
     </message>
@@ -7943,7 +7961,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="384"/>
         <source>Autoload</source>
         <translation>Автозагрузка</translation>
     </message>
@@ -7974,13 +7992,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
-        <location filename="../prefsubtitles.cpp" line="429"/>
-        <location filename="../prefsubtitles.cpp" line="448"/>
+        <location filename="../prefsubtitles.cpp" line="432"/>
+        <location filename="../prefsubtitles.cpp" line="451"/>
         <source>Font</source>
         <translation>Шрифт</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Size</source>
         <translation>Размер</translation>
     </message>
@@ -8005,72 +8023,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Сохранять субтитры на снимках экрана</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="387"/>
         <source>Select first available subtitle</source>
         <translation>Выберите первые доступные субтитры</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="390"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Default subtitle encoding</source>
         <translation>Кодировка субтитров по умолчанию</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="406"/>
+        <location filename="../prefsubtitles.cpp" line="409"/>
         <source>Include subtitles on screenshots</source>
         <translation>Сохранять субтитры на снимках экрана</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="463"/>
         <source>Text color</source>
         <translation>Цвет текста</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="464"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Выберите цвет текста субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="463"/>
+        <location filename="../prefsubtitles.cpp" line="466"/>
         <source>Border color</source>
         <translation>Цвет кромки</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="467"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Выберите цвет кромки субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="385"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Выберите метод автозагрузки субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="385"/>
+        <location filename="../prefsubtitles.cpp" line="388"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Если доступно более одной дорожки субтитров, одна из них будет автоматически выбрана, обычно первая, хотя если одна из дорожек удовлетворяет выбранному пользователем предпочтительному языку, то будет выбрана именно она.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="391"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Выберите кодировку, которая будет использована для файлов субтитров по умолчанию.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="397"/>
         <source>Try to autodetect for this language</source>
         <translation>Автоматически определить для языка</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="395"/>
+        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Если опция отмечена, будет произведена попытка автоматически определить кодировку для указанного языка. При ошибке будет использована кодировка по умолчанию. Опция требует MPlayer, скомпилированный с поддержкой ENCA.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="401"/>
+        <location filename="../prefsubtitles.cpp" line="404"/>
         <source>Subtitle language</source>
         <translation>Язык субтитров</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="402"/>
+        <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Выберите язык, для которого будет производиться автоматическое определение кодировки субтитров.</translation>
     </message>
@@ -8085,132 +8103,132 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>А&amp;втоматически определить для языка:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Outline</source>
         <translation>Контур</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Select the font for the subtitles.</source>
         <translation>Выберите шрифт для субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
         <translation>Использовать библиотеку ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>Данная опция активирует библиотеку ASS, что позволяет использовать субтитры с разными цветами, шрифтами...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="415"/>
+        <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
         <translation>Обычно отключение данной опции не требуется. Отключайте её только если MPlayer собран без поддержки freetype. &lt;b&gt;Отключение этой опции может привести к неработоспособности субтитров!&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="421"/>
+        <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Enable Windows fonts</source>
         <translation>Разрешить шрифты Windows</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="422"/>
+        <location filename="../prefsubtitles.cpp" line="425"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
         <translation>Если эта опция включена, системные шрифты Windows будут доступны для субтитров. Но есть неудобство: должен быть создан кэш шрифтов, это может занять некоторое время.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="425"/>
+        <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Если эта опция включена, будет использоваться только несколько шрифтов, входящих в состав SMPlayer, но это быстрее. </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="452"/>
+        <location filename="../prefsubtitles.cpp" line="455"/>
         <source>The size in pixels.</source>
         <translation>Размер в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="454"/>
+        <location filename="../prefsubtitles.cpp" line="457"/>
         <source>Bold</source>
         <translation>Жирный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="458"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>Если отмечено, текст будет отображаться &lt;b&gt;жирным&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="457"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>Italic</source>
         <translation>Наклонный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="461"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>Если отмечено, текст будет отображаться &lt;b&gt;наклонным&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="469"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Left margin</source>
         <translation>Поле слева</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>Определяет размер поля слева в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Right margin</source>
         <translation>Поле справа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>Определяет размер поля справа в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Vertical margin</source>
         <translation>Вертикальное поле</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>Определяет размер поля по вертикали в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="481"/>
         <source>Horizontal alignment</source>
         <translation>Выравнивание по горизонтали</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>Определяет тип выравнивания по горизонтали. Возможные значения – слева, по центру и справа.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Vertical alignment</source>
         <translation>Выравнивание по вертикали</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>Определяет тип выравнивания по вертикали. Возможные значения – снизу, по середине и сверху.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>Border style</source>
         <translation>Стиль границы</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>Определяет стиль границы. Возможные значения: контур и непрозрачный.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="494"/>
+        <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Shadow</source>
         <translation>Тень</translation>
     </message>
@@ -8300,90 +8318,90 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Использовать &amp;другой стиль</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="445"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>Следующие опции позволяют вам определить стиль, который будет использован для нестилизованных субтитров (srt, sub...).</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="102"/>
+        <location filename="../prefsubtitles.cpp" line="105"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation>Слева</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="103"/>
+        <location filename="../prefsubtitles.cpp" line="106"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation>По центру</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="104"/>
+        <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation>Справа</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="109"/>
+        <location filename="../prefsubtitles.cpp" line="112"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation>Снизу</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="110"/>
+        <location filename="../prefsubtitles.cpp" line="113"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation>По середине</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="111"/>
+        <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation>Сверху</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="116"/>
+        <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation>Контур</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="117"/>
+        <location filename="../prefsubtitles.cpp" line="120"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation>Непрозрачный</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="494"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Если стиль границы установлен в &lt;i&gt;контур&lt;/i&gt;, эта опция определяет ширину контура вокруг текста в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>Если стиль границы установлен в &lt;i&gt;непрозрачный&lt;/i&gt;, эта опция определяет длину тени за текстом в пикселах.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="431"/>
+        <location filename="../prefsubtitles.cpp" line="434"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Эта опция не изменяет размер субтитров для текущего видео. Чтобы сделать это, используйте опции &lt;i&gt;Размер +&lt;/i&gt; и &lt;i&gt;Размер –&lt;/i&gt; в меню субтитров.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="435"/>
+        <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Default scale</source>
         <translation>Увеличение по умолчанию</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="436"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>Эта настройка определяет размер шрифта для субтитров SSA/ASS, который будет использоваться для новых видеофайлов.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>Line spacing</source>
         <translation>Междустрочный интервал</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="441"/>
+        <location filename="../prefsubtitles.cpp" line="444"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>Здесь указывается интервал, который будет использоваться для разделения строк. Он может иметь отрицательные значения.</translation>
     </message>
@@ -8403,7 +8421,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Междустрочный &amp;интервал:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="417"/>
         <source>Freetype support</source>
         <translation>Поддержка Freetype</translation>
     </message>
@@ -8413,37 +8431,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Под&amp;держка Freetype</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="407"/>
+        <location filename="../prefsubtitles.cpp" line="410"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>Если выбрано, субтитры будут появляться на снимках экрана.&lt;b&gt; Примечание:&lt;/b&gt; иногда это может вызвать некоторые проблемы.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="328"/>
+        <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Customize SSA/ASS style</source>
         <translation>Настроить стиль субтитров SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="329"/>
+        <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>Здесь можно указать предпочитаемый стиль субтитров SSA/ASS.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="330"/>
+        <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>Очистите поле ввода, чтобы отменить настройки стиля.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="447"/>
         <source>SSA/ASS style</source>
         <translation>Стиль SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="466"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>Shadow color</source>
         <translation>Цвет тени</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>Этот цвет будет использован для тени субтитров.</translation>
     </message>
@@ -8458,12 +8476,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Настроить...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
         <translation>Применить стили также и для файлов ass</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Если эта опция выбрана, указанные стили будут также применены и к субтитрам в формате ass.</translation>
     </message>

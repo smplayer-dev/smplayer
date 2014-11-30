@@ -3368,6 +3368,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
+        <location filename="../languages.cpp" line="323"/>
         <source>Bulgarian</source>
         <translation type="unfinished">Βουλγαρικά</translation>
     </message>
@@ -3408,6 +3409,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
+        <location filename="../languages.cpp" line="324"/>
         <source>Czech</source>
         <translation type="unfinished">Τσεχικά</translation>
     </message>
@@ -3451,6 +3453,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
+        <location filename="../languages.cpp" line="325"/>
         <source>Estonian</source>
         <translation type="unfinished">Εσθονικά</translation>
     </message>
@@ -3523,11 +3526,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Croatian</source>
         <translation type="unfinished">Κροατικά</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Hungarian</source>
         <translation type="unfinished">Ουγγρικά</translation>
     </message>
@@ -3630,11 +3635,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Lithuanian</source>
         <translation type="unfinished">Λιθουανικά</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Latvian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3732,6 +3739,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Polish</source>
         <translation type="unfinished">Πολωνικά</translation>
     </message>
@@ -3755,6 +3763,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
         <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Russian</source>
         <translation type="unfinished">Ρώσικα</translation>
     </message>
@@ -3775,13 +3784,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation type="unfinished">Σλοβάκικα</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="169"/>
         <source>Slovenian</source>
-        <translation type="unfinished">Σλοβένικα</translation>
+        <translation type="obsolete">Σλοβένικα</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -3892,6 +3901,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Ukrainian</source>
         <translation type="unfinished">Ουκρανικά</translation>
     </message>
@@ -3943,6 +3953,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Chinese</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4104,6 +4115,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
+        <location filename="../languages.cpp" line="322"/>
         <source>Belarusian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4356,6 +4368,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../languages.cpp" line="169"/>
+        <location filename="../languages.cpp" line="333"/>
+        <source>Slovene</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8062,7 +8080,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefSubtitles</name>
     <message>
         <location filename="../prefsubtitles.cpp" line="60"/>
-        <location filename="../prefsubtitles.cpp" line="379"/>
+        <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Subtitles</source>
         <translation>Υπότιτλοι</translation>
     </message>
@@ -8081,7 +8099,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
-        <location filename="../prefsubtitles.cpp" line="381"/>
+        <location filename="../prefsubtitles.cpp" line="384"/>
         <source>Autoload</source>
         <translation>Αυτόματη φόρτωση</translation>
     </message>
@@ -8128,8 +8146,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
-        <location filename="../prefsubtitles.cpp" line="429"/>
-        <location filename="../prefsubtitles.cpp" line="448"/>
+        <location filename="../prefsubtitles.cpp" line="432"/>
+        <location filename="../prefsubtitles.cpp" line="451"/>
         <source>Font</source>
         <translation>Γραμματοσειρά</translation>
     </message>
@@ -8138,7 +8156,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Επιλέξτε γραμματοσειρά για υπότιτλους (και OSD):</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Size</source>
         <translation>Μέγεθος</translation>
     </message>
@@ -8203,17 +8221,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">&amp;Αυτόματο μέγεθος:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="387"/>
         <source>Select first available subtitle</source>
         <translation>Επιλογή του πρώτου διαθέσιμου υπότιτλου</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="390"/>
+        <location filename="../prefsubtitles.cpp" line="393"/>
         <source>Default subtitle encoding</source>
         <translation>Προεπιλεγμένη κωδικοποίηση υποτίτλων</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="406"/>
+        <location filename="../prefsubtitles.cpp" line="409"/>
         <source>Include subtitles on screenshots</source>
         <translation>Συμπεριλάβετε τους υποτίτλους στα στιγμιότυπα</translation>
     </message>
@@ -8230,32 +8248,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Αυτόματη κλίμακα</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="463"/>
         <source>Text color</source>
         <translation>Χρώμα κειμένου</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="464"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>Επιλέξτε το χρώμα για το κείμενο των υποτίτλων.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="463"/>
+        <location filename="../prefsubtitles.cpp" line="466"/>
         <source>Border color</source>
         <translation>Χρώμα περιγράμματος</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="467"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>Επιλέξτε το χρώμα για το περίγραμμα των υποτίτλων.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="385"/>
         <source>Select the subtitle autoload method.</source>
         <translation>Επιλέξτε τη μέθοδο αυτόματης φόρτωσης υποτίτλων.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="385"/>
+        <location filename="../prefsubtitles.cpp" line="388"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Αν υπάρχουν ένα ή περισσότερα κομμάτια υποτίτλων διαθέσιμα, ένας από αυτούς θα επιλεγεί αυτόματα, συνήθως το πρώτο, αν ένας από αυτούς ταιριάζει στη προτιμώμενη γλώσσα αυτός θα χρησιμοποιηθεί αντ &apos;αυτού.</translation>
     </message>
@@ -8264,27 +8282,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Επιλογή μεθόδου αυτόματης κλίμακας υποτίτλων.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="391"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>Επιλογή κωδικοποίησης που θα χρησιμοποιηθεί για αρχεία υποτίτλων ως προεπιλογή.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="397"/>
         <source>Try to autodetect for this language</source>
         <translation>Προσπάθεια αυτόματης αναγνωρίσης για αυτή τη γλώσσα</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="395"/>
+        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
         <translation>Όταν αυτή η επιλογή είναι ενεργοποιημένη, η κωδικοποίηση των υποτίτλων θα προσπαθήσει να ανιχνευτεί αυτόματα για τη συγκεκριμένη γλώσσα. Θα πέσει πίσω στην προεπιλεγμένη κωδικοποίηση, αν η αυτόματη ανίχνευση αποτύχει. Αυτή η επιλογή απαιτεί MPlayer έκδοση με υποστήριξη ENCA.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="401"/>
+        <location filename="../prefsubtitles.cpp" line="404"/>
         <source>Subtitle language</source>
         <translation>Γλώσσα υπότιτλων</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="402"/>
+        <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>Επιλογή της γλώσσας που θέλετε η αποκωδικοποίηση να μαντεύει αυτόματα.</translation>
     </message>
@@ -8303,132 +8321,132 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Εδώ μπορείτε να επιλέξετε μια γραμματοσειρά TTF που θα χρησιμοποιείται για τους υποτίτλους. Συνήθως θα βρείτε πολλές γραμματοσειρές TTF στο %1</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Outline</source>
         <translation>Περίγραμμα</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="449"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Select the font for the subtitles.</source>
         <translation>Επιλογή γραμματοσειράς για τους υπότιτλους.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="411"/>
+        <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="415"/>
+        <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="421"/>
+        <location filename="../prefsubtitles.cpp" line="424"/>
         <source>Enable Windows fonts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="422"/>
+        <location filename="../prefsubtitles.cpp" line="425"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="425"/>
+        <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="452"/>
+        <location filename="../prefsubtitles.cpp" line="455"/>
         <source>The size in pixels.</source>
         <translation>Το μέγεθος σε pixels.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="454"/>
+        <location filename="../prefsubtitles.cpp" line="457"/>
         <source>Bold</source>
         <translation>Έντονα</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="458"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>Αν τσεκαριστεί, το κείμενο θα εμφανίζεται με &lt;b&gt;έντονα&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="457"/>
+        <location filename="../prefsubtitles.cpp" line="460"/>
         <source>Italic</source>
         <translation>Πλάγια</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="461"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>Αν τσεκαριστεί, το κείμενο θα εμφανίζεται με &lt;b&gt;πλάγια&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="469"/>
+        <location filename="../prefsubtitles.cpp" line="472"/>
         <source>Left margin</source>
         <translation>Αριστερό περιθώριο</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>Ορίζει το αριστερό περιθώριο σε pixel.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="475"/>
         <source>Right margin</source>
         <translation>Δεξί περιθώριο</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>Ορίζει το δεξί περιθώριο σε pixel.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="478"/>
         <source>Vertical margin</source>
         <translation>Κάθετο περιθώριο</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>Ορίζει το κάθετο περιθώριο σε pixel.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="481"/>
         <source>Horizontal alignment</source>
         <translation>Οριζόντια στοίχιση</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>Καθορίζει την οριζόντια στοίχιση. Πιθανές τιμές είναι αριστερά, κέντρο και δεξιά.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="485"/>
         <source>Vertical alignment</source>
         <translation>Κάθετη στοίχιση</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="483"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>Καθορίζει την κάθετη στοίχιση. Πιθανές τιμές είναι τέλος, κέντρο και κορυφή.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="489"/>
         <source>Border style</source>
         <translation>Ύφος περιγράμματος</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="487"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>Καθορίζει το ύφος περιγράμματος. Πιθανές τιμές: περίγραμμα και αδιαφανές κουτί.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="494"/>
+        <location filename="../prefsubtitles.cpp" line="497"/>
         <source>Shadow</source>
         <translation>Σκιά</translation>
     </message>
@@ -8518,65 +8536,65 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="445"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>Οι ακόλουθες επιλογές σας επιτρέπουν να καθορίσετε το ύφος που χρησιμοποιούν οι απλοί υπότιτλοι (srt, sub...).</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="102"/>
+        <location filename="../prefsubtitles.cpp" line="105"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation>Αριστερά</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="103"/>
+        <location filename="../prefsubtitles.cpp" line="106"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation>Στο κέντρο</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="104"/>
+        <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation>Δεξιά</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="109"/>
+        <location filename="../prefsubtitles.cpp" line="112"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation>Τέλος</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="110"/>
+        <location filename="../prefsubtitles.cpp" line="113"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation>Μέση</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="111"/>
+        <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation>Κορυφή</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="116"/>
+        <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation>Περίγραμμα</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="117"/>
+        <location filename="../prefsubtitles.cpp" line="120"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation>Αδιαφανές κουτί</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="491"/>
+        <location filename="../prefsubtitles.cpp" line="494"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Αν το ύφος περιγράμματος έχει οριστεί σε &lt;i&gt;περίγραμμα&lt;/i&gt;, αυτή η επιλογή καθορίζει το πλάτος του περιγράμματος γύρω από το κείμενο σε pixels.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="495"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>Αν το ύφος περιγράμματος έχει οριστεί σε &lt;i&gt;περίγραμμα&lt;/i&gt;, αυτή η επιλογή καθορίζει το βάθος της σκιάς πίσω από το κείμενο σε pixels.</translation>
     </message>
@@ -8597,12 +8615,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Κανονικοί υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="431"/>
+        <location filename="../prefsubtitles.cpp" line="434"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Αυτή η επιλογή δεν αλλάζει το μέγεθος των υποτίτλων στο τρέχον βίντεο. Για να το κάνετε αυτό, χρησιμοποιήστε τις επιλογές  &lt;i&gt; Μέγεθος+&lt;/i&gt; και &lt;i&gt;Μέγεθος-&lt;/i&gt; στο μενού υπότιτλοι.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="435"/>
+        <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Default scale</source>
         <translation>Προεπιλεγμένη κλίμακα</translation>
     </message>
@@ -8615,17 +8633,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">SSA/ASS υπότιτλοι</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="436"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>Αυτή η επιλογή καθορίζει την προεπιλεγμένη κλίμακα της γραμματοσειράς για τους SSA/ASS υποτίτλους που θα χρησιμοποιηθεί για τα νέα ανοιγμένα αρχεία.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="440"/>
+        <location filename="../prefsubtitles.cpp" line="443"/>
         <source>Line spacing</source>
         <translation>Διάστημα γραμμών</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="441"/>
+        <location filename="../prefsubtitles.cpp" line="444"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>Αυτό καθορίζει το διάστημα που θα χρησιμοποιηθεί για να διαχωρίσετε πολλαπλές γραμμές. Μπορεί να έχει αρνητικές τιμές.</translation>
     </message>
@@ -8661,7 +8679,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="obsolete">Κάντε κλικ στο κουμπί για να ενεργοποιηθεί η νέα βιβλιοθήκη SSA/ASS. Αυτό επιτρέπει να εμφανίσετε υπότιτλους με πολλά χρώματα, γραμματοσειρές...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="417"/>
         <source>Freetype support</source>
         <translation>FreeType υποστήριξη</translation>
     </message>
@@ -8675,37 +8693,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Free&amp;Type υποστήριξη</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="407"/>
+        <location filename="../prefsubtitles.cpp" line="410"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>Αν αυτή η επιλογή είναι τσεκαρισμένη, οι υπότιτλοι θα εμφανίζονται στα στιγμιότυπα. &lt;b&gt;Σημείωση:&lt;/b&gt; αυτό μπορεί να προκαλέσει κάποια προβλήματα μερικές φορές.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="328"/>
+        <location filename="../prefsubtitles.cpp" line="331"/>
         <source>Customize SSA/ASS style</source>
         <translation>Προσαρμογή SSA/ASS ύφους</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="329"/>
+        <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>Εδώ μπορείτε να εισαγάγετε το προσαρμοσμένο σας  SSA/ASS ύφος.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="330"/>
+        <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>Καθάρισμα της γραμμής επεξεργασίας για να απενεργοποιήσετε το προσαρμοσμένο ύφος.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="447"/>
         <source>SSA/ASS style</source>
         <translation>SSA/ASS ύφος</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="466"/>
+        <location filename="../prefsubtitles.cpp" line="469"/>
         <source>Shadow color</source>
         <translation>Χρώμα σκιάς</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>Αυτό το χρώμα θα χρησιμοποιείται για την σκιά των υποτίτλων.</translation>
     </message>
@@ -8720,12 +8738,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Προσαρμογή...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
         <translation>Εφαρμογή ύφους και στο ass αρχείο</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="499"/>
+        <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Αν αυτή η επιλογή είναι τσεκαρισμένη, το ύφος που καθορίζεται ανωτέρω θα εφαρμοστεί και στους υποτίτλους ass επίσης.</translation>
     </message>
