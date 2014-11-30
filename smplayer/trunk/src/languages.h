@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _LANGUAGES_H_
-#define _LANGUAGES_H_
+#ifndef LANGUAGES_H
+#define LANGUAGES_H
 
 #include <QObject>
 #include <QMap>
@@ -38,6 +38,8 @@ public:
 	static QMap<QString,QString> translations();
 
 	static QMap<QString,QString> encodings();
+
+	static QMap<QString,QString> enca();
 };
 
 #endif
