@@ -1434,7 +1434,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>두번째 트랙(&amp;K)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -3717,10 +3717,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>슬로바키아어</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">슬로베니아어</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -7366,12 +7362,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">유투브 품질</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">선호하는 유투브 동영상 품질을 선택하세요.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7777,18 +7773,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>TV 캐쉬</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">유투브 품질</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">선호하는 유투브 동영상 품질을 선택하세요.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">유투브 품질</translation>
     </message>
 </context>
 <context>

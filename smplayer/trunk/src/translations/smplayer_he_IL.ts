@@ -76,12 +76,12 @@
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>גם ביכולתך לעזור לתרגם את SMPlayer אל שפתך.</translation>
+        <translation>באפשרותך לסייע לתרגם את SMPlayer אל שפתך.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>אפשר לבקר ב %1 ולהצטרף אל קבוצת תרגום.</translation>
+        <translation>בקרו בכתובת %1 ולהצטרפו לקבוצת תרגום.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
@@ -181,7 +181,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished">ערבית - סוריה</translation>
+        <translation>ערבית - סוריה</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -1067,7 +1067,7 @@ Do you want to overwrite?</source>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>התקליטורים CDROM / DVD אינם מוגדרים עדיין.
-דו שיח התצורה יוצג כעת, כך שתהיה לך היכולת לעשות זאת.</translation>
+דו שיח התצורה יוצג כעת, כך שתהיה לך האפשרות לעשות זאת.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4025"/>
@@ -1262,7 +1262,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1672"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished">השתמש בסגנון &amp;מותאם</translation>
+        <translation>השתמש בסגנון &amp;מותאם</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
@@ -2442,7 +2442,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="114"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>ביכולתך לערוך, למחוק, למיין או להוסיף פריטים חדשים. הקלקה כפולה על תא תאפשר לך לערוך את תכניו.</translation>
+        <translation>באפשרותך לערוך, למחוק, למיין או להוסיף פריטים חדשים. הקלקה כפולה על תא תאפשר לך לערוך את תכניו.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="345"/>
@@ -2615,7 +2615,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>כאן ביכולתך להעביר אפשרויות נוספות אל MPlayer.
+        <translation>כאן באפשרותך להעביר אפשרויות נוספות אל MPlayer.
 רשום אותן בנפרד בעזרת רווחים.
 דוגמא: ‎-flip -nosound</translation>
     </message>
@@ -2629,7 +2629,7 @@ Example: -flip -nosound</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>ביכולתך גם להעביר מסנני וידאו נוספים.
+        <translation>באפשרותך גם להעביר מסנני וידאו נוספים.
 הפרד אותן בעזרת &quot;,&quot;. אל תשתמש ברווחים!
 דוגמא: scale=512:-2,eq2=1.1</translation>
     </message>
@@ -2761,7 +2761,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="156"/>
         <source>Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>שונות</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="162"/>
@@ -3718,10 +3718,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>סלובקית</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">סלובנית</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -4725,7 +4721,7 @@ Do you want to overwrite?</source>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>כאן ביכולתך להעביר אפשרויות נוספות אל MPlayer.
+        <translation>כאן באפשרותך להעביר אפשרויות נוספות אל MPlayer.
 רשום אותן בנפרד בעזרת רווחים.
 דוגמא: ‎-flip -nosound</translation>
     </message>
@@ -4734,7 +4730,7 @@ Example: -flip -nosound</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>ביכולתך גם להעביר מסנני וידאו נוספים.
+        <translation>באפשרותך גם להעביר מסנני וידאו נוספים.
 הפרד אותן בעזרת &quot;,&quot;. אל תשתמש ברווחים!
 דוגמא: scale=512:-2,eq2=1.1</translation>
     </message>
@@ -4938,7 +4934,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="494"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation>היה ואתה רואה חלקים של הוידאו על פני כל חלון אחר, ביכולתך לשנות מפתח צבע כדי לתקן זאת. נסה לברור צבע קרוב לשחור.</translation>
+        <translation>היה ואתה רואה חלקים של הוידאו על פני כל חלון אחר, באפשרותך לשנות מפתח צבע כדי לתקן זאת. נסה לברור צבע קרוב לשחור.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
@@ -4953,7 +4949,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="507"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation>כאן ביכולתך להקליד אפשרויות עבור MPlayer. רשום אותן בנפרד בעזרת רווחים.</translation>
+        <translation>כאן באפשרותך להקליד אפשרויות עבור MPlayer. רשום אותן בנפרד בעזרת רווחים.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
@@ -4963,7 +4959,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>כאן ביכולתך להוסיף מסנני וידאו עבור MPlayer. רשום אותם בנפרד בעזרת פסיקים. אל תשתמש ברווחים!</translation>
+        <translation>כאן באפשרותך להוסיף מסנני וידאו עבור MPlayer. רשום אותם בנפרד בעזרת פסיקים. אל תשתמש ברווחים!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="514"/>
@@ -4973,7 +4969,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>כאן ביכולתך להוסיף מסנני אודיו עבור MPlayer. רשום אותם בנפרד בעזרת פסיקים. אל תשתמש ברווחים!</translation>
+        <translation>כאן באפשרותך להוסיף מסנני אודיו עבור MPlayer. רשום אותם בנפרד בעזרת פסיקים. אל תשתמש ברווחים!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="459"/>
@@ -5038,17 +5034,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>במידה ואפשרות זו מסומנת, SMPlayer יאחסן הודעות debugging שפולט SMPlayer (ביכולתך לראות את היומן בתוך &lt;b&gt;אפשרויות -&gt; ראה יומנים -&gt; SMPlayer&lt;/b&gt;). מידע זה עשוי להיות שימושי מאוד עבור המפתח במקרה ותמצא באג.</translation>
+        <translation>במידה ואפשרות זו מסומנת, SMPlayer יאחסן הודעות debugging שפולט SMPlayer (באפשרותך לראות את היומן בתוך &lt;b&gt;אפשרויות -&gt; ראה יומנים -&gt; SMPlayer&lt;/b&gt;). מידע זה עשוי להיות שימושי מאוד עבור המפתח במקרה ותמצא באג.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>במידה ומסומנת, SMPlayer יאחסן את הפלט של MPlayer (ביכולתך לראות זאת בתוך &lt;b&gt;אפשרויות -&gt; ראה יומנים -&gt; MPlayer&lt;/b&gt;). במקרה של בעיה יומן זה עשוי להכיל מידע חשוב, כך שזה מומלץ לשמור את אפשרות זו מסומנת.</translation>
+        <translation>במידה ומסומנת, SMPlayer יאחסן את הפלט של MPlayer (באפשרותך לראות זאת בתוך &lt;b&gt;אפשרויות -&gt; ראה יומנים -&gt; MPlayer&lt;/b&gt;). במקרה של בעיה יומן זה עשוי להכיל מידע חשוב, כך שזה מומלץ לשמור את אפשרות זו מסומנת.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>אפשרות זו מתירה לסנן את ההודעות של SMPlayer שיאוחסנו בתוך היומן. כאן ביכולתך לכתוב כל ביטוי רגולרי.&lt;br&gt;למשל: &lt;i&gt;‎^Core::.*‎&lt;/i&gt; יציג רק את השורות שמתחילות עם &lt;i&gt;Core::‎&lt;/i&gt;</translation>
+        <translation>אפשרות זו מתירה לסנן את ההודעות של SMPlayer שיאוחסנו בתוך היומן. כאן באפשרותך לכתוב כל ביטוי רגולרי.&lt;br&gt;למשל: &lt;i&gt;‎^Core::.*‎&lt;/i&gt; יציג רק את השורות שמתחילות עם &lt;i&gt;Core::‎&lt;/i&gt;</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="470"/>
@@ -5068,7 +5064,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="481"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>כאן ביכולתך למנות רשימה של &lt;i&gt;פעולות&lt;/i&gt; שירוצו בכל פעם בה קובץ נפתח. אתה תמצא את כל הפעולות הזמינות בתוך עורך קיצורי דרך בחתך &lt;b&gt;מקלדת ועכבר&lt;/b&gt;. על הפעולות להיות מופרדות בעזרת רווחים. פעולות ברות סימון יכולות לבוא אחרי &lt;i&gt;true&lt;/i&gt; או &lt;i&gt;false&lt;/i&gt; כדי לאפשר או לנטרל את הפעולה.</translation>
+        <translation>כאן באפשרותך למנות רשימה של &lt;i&gt;פעולות&lt;/i&gt; שירוצו בכל פעם בה קובץ נפתח. אתה תמצא את כל הפעולות הזמינות בתוך עורך קיצורי דרך בחתך &lt;b&gt;מקלדת ועכבר&lt;/b&gt;. על הפעולות להיות מופרדות בעזרת רווחים. פעולות ברות סימון יכולות לבוא אחרי &lt;i&gt;true&lt;/i&gt; או &lt;i&gt;false&lt;/i&gt; כדי לאפשר או לנטרל את הפעולה.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="488"/>
@@ -5265,7 +5261,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>באופן רגיל, SMPlayer לא בורר שום התקן CDROM או DVD. כך שלפני שתעמוד לרשותך היכולת למעשה לנגן CD או DVD עליך לבחור את ההתקנים בהם ברצונך להשתמש (הם יכולים להיות זהים).</translation>
+        <translation>באופן רגיל, SMPlayer לא בורר שום התקן CDROM או DVD. כך שלפני שתעמוד לרשותך האפשרות למעשה לנגן CD או DVD עליך לבחור את ההתקנים בהם ברצונך להשתמש (הם יכולים להיות זהים).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
@@ -5429,7 +5425,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="974"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>ביכולתך לסמן את אפשרות זו אם מאזן וידאו אינו נתמך על ידי כרטיס המסך שלך או על ידי התקן פלט הוידאו הנבחר.&lt;br&gt;&lt;b&gt;הערה:&lt;/b&gt; אפשרות זו עשויה שלא להתאים עם התקני פלט וידאו מסוימים .</translation>
+        <translation>באפשרותך לסמן את אפשרות זו אם מאזן וידאו אינו נתמך על ידי כרטיס המסך שלך או על ידי התקן פלט הוידאו הנבחר.&lt;br&gt;&lt;b&gt;הערה:&lt;/b&gt; אפשרות זו עשויה שלא להתאים עם התקני פלט וידאו מסוימים .</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="996"/>
@@ -5469,7 +5465,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="960"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>משנה באופן עובר-עיבוד באופן נמרץ בהתאם לרזרבה הזמינה של זמן CPU. המספר שתציין יהיה הרמה הגבוהה ביותר שתנוצל. לרוב ביכולתך להשתמש במספר גדול במידת מה.</translation>
+        <translation>משנה באופן עובר-עיבוד באופן נמרץ בהתאם לרזרבה הזמינה של זמן CPU. המספר שתציין יהיה הרמה הגבוהה ביותר שתנוצל. לרוב באפשרותך להשתמש במספר גדול במידת מה.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1094"/>
@@ -5694,7 +5690,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="147"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>כאן ביכולתך להקליד את השפה המועדפת עליך עבור זרמי אודיו וכתובית. כאשר מצויה מדיה בעלת זרמים מרובים של אודיו או כתובית, SMPlayer ינסה להשתמש בשפה המועדפת עליך. זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי האודיו או הכתובית, כמו תקליטי DVD או קבצי mkv.&lt;br&gt;שדות אלו מקבלות ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את הרצועה אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>כאן באפשרותך להקליד את השפה המועדפת עליך עבור זרמי אודיו וכתובית. כאשר מצויה מדיה בעלת זרמים מרובים של אודיו או כתובית, SMPlayer ינסה להשתמש בשפה המועדפת עליך. זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי האודיו או הכתובית, כמו תקליטי DVD או קבצי mkv.&lt;br&gt;שדות אלו מקבלות ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את הרצועה אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1033"/>
@@ -5914,12 +5910,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1111"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>כאן ביכולתך להקליד את השפה המועדפת עליך עבור זרמי אודיו. כאשר מצויה מדיה בעלת זרמי אודיו מרובים, SMPlayer ינסה להשתמש בשפה המועדפת עליך.&lt;br&gt;זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי האודיו, כגון DVD או קבצי mkv.&lt;br&gt;שדה זה מקבל ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את רצועת האודיו אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>כאן באפשרותך להקליד את השפה המועדפת עליך עבור זרמי אודיו. כאשר מצויה מדיה בעלת זרמי אודיו מרובים, SMPlayer ינסה להשתמש בשפה המועדפת עליך.&lt;br&gt;זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי האודיו, כגון DVD או קבצי mkv.&lt;br&gt;שדה זה מקבל ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את רצועת האודיו אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>כאן ביכולתך להקליד את השפה המועדפת עליך עבור זרמי כתובית. כאשר מצויה מדיה בעלת זרמי כתובית מרובים, SMPlayer ינסה להשתמש בשפה המועדפת עליך.&lt;br&gt;זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי הכתובית, כגון DVD או קבצי mkv.&lt;br&gt;שדה זה מקבל ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את רצועת הכתובית אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>כאן באפשרותך להקליד את השפה המועדפת עליך עבור זרמי כתובית. כאשר מצויה מדיה בעלת זרמי כתובית מרובים, SMPlayer ינסה להשתמש בשפה המועדפת עליך.&lt;br&gt;זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי הכתובית, כגון DVD או קבצי mkv.&lt;br&gt;שדה זה מקבל ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את רצועת הכתובית אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="295"/>
@@ -6005,12 +6001,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="907"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>ביכולתך להשתמש באפשרות זט כדי לאפשר או לנטרל את האפשרות לקחת תצלומי מסך.</translation>
+        <translation>באפשרותך להשתמש באפשרות זו כדי לאפשר או לנטרל את האפשרות לקחת תצלומי מסך.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>כאן ביכולתך לציין תיקייה בה תצלומי מסך שנלקחים בעזרת SMPlayer יאוחסנו. במידה והתיקייה אינה ברת תוקף תכונת תצלום מסך תנוטרל.</translation>
+        <translation>כאן באפשרותך לציין תיקייה בה תצלומי מסך שנלקחים בעזרת SMPlayer יאוחסנו. במידה והתיקייה אינה ברת תוקף תכונת תצלום מסך תנוטרל.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
@@ -6236,12 +6232,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>כאן ביכולתך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או לחץ Enter על תא קיצור דרך. כאופציה ביכולתךגם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
+        <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או לחץ Enter על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>כאן ביכולתך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או התחל להקליד על תא קיצור דרך. כאופציה ביכולתךגם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
+        <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או התחל להקליד על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="148"/>
@@ -6717,7 +6713,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Here you can change the language of the application.</source>
-        <translation>כאן ביכולתך לשנות את השפה של היישום.</translation>
+        <translation>כאן באפשרותך לשנות את השפה של היישום.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="174"/>
@@ -6988,7 +6984,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation>ביכולתך לשנות כאן את גופן היישום.</translation>
+        <translation>באפשרותך לשנות כאן את גופן היישום.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
@@ -7365,12 +7361,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">איכות Youtube</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">בחר את האיכות המועדפת עליך עבור סרטוני youtube.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7777,18 +7773,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Cache for &amp;TV:</source>
         <translation>מטמון של &amp;טלוויזיה:</translation>
     </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">איכות Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">בחר את האיכות המועדפת עליך עבור סרטוני youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">איכות &amp;Youtube</translation>
-    </message>
 </context>
 <context>
     <name>PrefPlaylist</name>
@@ -7980,7 +7964,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>השתמש בספריית &amp;ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
@@ -8112,7 +8096,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>השתמש בספריית ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
@@ -8440,7 +8424,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation>כאן ביכולתך להזין סגנון SSA/ASS מותאם.</translation>
+        <translation>כאן באפשרותך להזין סגנון SSA/ASS מותאם.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
@@ -8859,7 +8843,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.cpp" line="45"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation>ביכולתך לתמוך בפרויקט SMPlayer על ידי מסירת תרומה או שיתוף פרויקט זה עם חברים.</translation>
+        <translation>באפשרותך לתמוך בפרויקט SMPlayer על ידי מסירת תרומה או שיתוף פרויקט זה עם חברים.</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="83"/>
@@ -8954,7 +8938,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="436"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;גלגל כותרת</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="447"/>
@@ -9429,7 +9413,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation>כאשר יחס רוחב גובה של וידאו נתון אינו מדויק, ביכולתך לציין יחס אחר כאן.</translation>
+        <translation>כאשר יחס רוחב גובה של וידאו נתון אינו מדויק, באפשרותך לציין יחס אחר כאן.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
@@ -9444,7 +9428,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>מסגרות מסויות ייחלצו מהוידאו על מנת ליצור תצוגה מקדימה. כאן ביכולתך לבחור פורמט תמונה עבור המסגרות המחולצות. PNG עשוי להביא לאיכות טובה יותר.</translation>
+        <translation>מסגרות מסויות ייחלצו מהוידאו על מנת ליצור תצוגה מקדימה. כאן באפשרותך לבחור פורמט תמונה עבור המסגרות המחולצות. PNG עשוי להביא לאיכות טובה יותר.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>

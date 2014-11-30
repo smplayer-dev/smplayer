@@ -1435,7 +1435,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Секундарна нум&amp;ера</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -3720,10 +3720,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>Словачки</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Словеначки</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -7372,12 +7368,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Youtube квалитет</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Одаберите квалитет за приказивање youtube видеа.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7784,18 +7780,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Кеш за &amp;ТВ:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube квалитет</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Одаберите квалитет за приказивање youtube видеа.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Youtube &amp;квалитет</translation>
     </message>
 </context>
 <context>

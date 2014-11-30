@@ -171,7 +171,7 @@
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>خدمة الترجمات توفرها %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -181,7 +181,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished">العربية - سوريا</translation>
+        <translation>العربية - سوريا</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -1242,7 +1242,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1574"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"></translation>
+        <translation>خط&amp;وة إطار للخلف</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
@@ -1262,7 +1262,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1672"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم نمطًا مُخ&amp;صّصًا</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
@@ -3724,10 +3724,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>السلوفاكية</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">السلوفينية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -7375,12 +7371,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">جودة مقاطع YouTube</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">اختر الجودة المفضلة لمقاطع فيديو YouTube.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7786,18 +7782,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>ذاكرة خبيئة لل&amp;تلفاز:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">جودة مقاطع YouTube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">اختر الجودة المفضلة لمقاطع فيديو YouTube.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">&amp;جودة مقاطع YouTube</translation>
     </message>
 </context>
 <context>
@@ -8322,7 +8306,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">استخدم نمطًا مُخ&amp;صّصًا</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
