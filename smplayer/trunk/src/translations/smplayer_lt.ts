@@ -790,8 +790,8 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
-        <location filename="../basegui.cpp" line="3262"/>
-        <location filename="../basegui.cpp" line="3275"/>
+        <location filename="../basegui.cpp" line="3264"/>
+        <location filename="../basegui.cpp" line="3277"/>
         <source>&amp;None</source>
         <translation>&amp;Nieko</translation>
     </message>
@@ -1007,43 +1007,43 @@ Norite perrašyti?</translation>
         <translation>Apie &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3297"/>
-        <location filename="../basegui.cpp" line="3313"/>
-        <location filename="../basegui.cpp" line="3329"/>
-        <location filename="../basegui.cpp" line="3344"/>
-        <location filename="../basegui.cpp" line="3378"/>
-        <location filename="../basegui.cpp" line="3398"/>
-        <location filename="../basegui.cpp" line="3442"/>
+        <location filename="../basegui.cpp" line="3299"/>
+        <location filename="../basegui.cpp" line="3315"/>
+        <location filename="../basegui.cpp" line="3331"/>
+        <location filename="../basegui.cpp" line="3346"/>
+        <location filename="../basegui.cpp" line="3380"/>
+        <location filename="../basegui.cpp" line="3400"/>
+        <location filename="../basegui.cpp" line="3444"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tuščia&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3859"/>
+        <location filename="../basegui.cpp" line="3861"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3860"/>
-        <location filename="../basegui.cpp" line="4093"/>
+        <location filename="../basegui.cpp" line="3862"/>
+        <location filename="../basegui.cpp" line="4095"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3861"/>
+        <location filename="../basegui.cpp" line="3863"/>
         <source>Playlists</source>
         <translation>Grojaraščiai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3862"/>
-        <location filename="../basegui.cpp" line="4073"/>
-        <location filename="../basegui.cpp" line="4094"/>
+        <location filename="../basegui.cpp" line="3864"/>
+        <location filename="../basegui.cpp" line="4075"/>
+        <location filename="../basegui.cpp" line="4096"/>
         <source>All files</source>
         <translation>Visi failai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3857"/>
-        <location filename="../basegui.cpp" line="4070"/>
-        <location filename="../basegui.cpp" line="4091"/>
+        <location filename="../basegui.cpp" line="3859"/>
+        <location filename="../basegui.cpp" line="4072"/>
+        <location filename="../basegui.cpp" line="4093"/>
         <source>Choose a file</source>
         <translation>Pasirinkite failą</translation>
     </message>
@@ -1058,79 +1058,79 @@ Norite perrašyti?</translation>
         <translation>&amp;Paaukokite / Pasidalinkite su draugais</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3911"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - informacija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3910"/>
+        <location filename="../basegui.cpp" line="3912"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM/DVD įrenginiai nesukonfigūruoti.
 Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4023"/>
+        <location filename="../basegui.cpp" line="4025"/>
         <source>Select the Blu-ray folder</source>
         <translation>Pasirinkite Blu-ray aplanką</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4036"/>
+        <location filename="../basegui.cpp" line="4038"/>
         <source>Choose a directory</source>
         <translation>Pasirinkti katalogą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4072"/>
+        <location filename="../basegui.cpp" line="4074"/>
         <source>Subtitles</source>
         <translation>Subtitrai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4506"/>
+        <location filename="../basegui.cpp" line="4508"/>
         <source>New version available</source>
         <translation>Prieinama nauja versija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4507"/>
+        <location filename="../basegui.cpp" line="4509"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Prieinama nauja SMPlayer versija.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4508"/>
+        <location filename="../basegui.cpp" line="4510"/>
         <source>Installed version: %1</source>
         <translation>Įdiegta versija: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4509"/>
+        <location filename="../basegui.cpp" line="4511"/>
         <source>Available version: %1</source>
         <translation>Prieinama versija: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4510"/>
+        <location filename="../basegui.cpp" line="4512"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Ar norėtumėte daugiau sužinoti apie naują versiją?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4638"/>
+        <location filename="../basegui.cpp" line="4649"/>
         <source>Error detected</source>
         <translation>Aptikta klaida</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4639"/>
+        <location filename="../basegui.cpp" line="4650"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Deja šio video atkurti nepavyks.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4827"/>
+        <location filename="../basegui.cpp" line="4838"/>
         <source>Playing %1</source>
         <translation>Rodomas %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4828"/>
+        <location filename="../basegui.cpp" line="4839"/>
         <source>Pause</source>
         <translation>Pauzė</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4829"/>
+        <location filename="../basegui.cpp" line="4840"/>
         <source>Stop</source>
         <translation>Stabdyti</translation>
     </message>
@@ -1452,38 +1452,63 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>SMPlayer - SMPlayer žurnalas</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4590"/>
+        <source>Connection failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4591"/>
+        <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4592"/>
+        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4593"/>
+        <source>Please, visit %1 to know how to fix this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4594"/>
+        <source>this link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4604"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>Dėl pakeitimų Youtube puslapyje, neįmanoma parodyti video.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4600"/>
-        <location filename="../basegui.cpp" line="4608"/>
+        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4619"/>
         <source>Problems with Youtube</source>
         <translation>Problemos su Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4596"/>
+        <location filename="../basegui.cpp" line="4607"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Dėl pakeitimų jūsų Youtube puslapyje, neįmanoma parodyti video &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4602"/>
+        <location filename="../basegui.cpp" line="4613"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Ar norite atnaujinti Youtube kodą? Tai gali išspręsti problemą.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4610"/>
+        <location filename="../basegui.cpp" line="4621"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Gali būti jog SMPlayer atnaujinimas padėtų.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5383"/>
+        <location filename="../basegui.cpp" line="5394"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>Paleisti YouTube naršyklės nepavyko.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5384"/>
+        <location filename="../basegui.cpp" line="5395"/>
         <source>Be sure %1 is installed.</source>
         <translation>Įsitikinkite jog įdiegėte %1.</translation>
     </message>
@@ -1493,28 +1518,28 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Dalinkitės SMPlaye su savo draugais</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2987"/>
-        <location filename="../basegui.cpp" line="3672"/>
+        <location filename="../basegui.cpp" line="2989"/>
+        <location filename="../basegui.cpp" line="3674"/>
         <source>Information</source>
         <translation>Informacija</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2988"/>
+        <location filename="../basegui.cpp" line="2990"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Naujos grafinės sąsajos naudojimui reikia iš naujo paleisti SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3450"/>
+        <location filename="../basegui.cpp" line="3452"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Patvirtinkite šalinimą - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3451"/>
+        <location filename="../basegui.cpp" line="3453"/>
         <source>Delete the list of recent files?</source>
         <translation>Išvalyti paskutinių atvertų failų sąrašą?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3673"/>
+        <location filename="../basegui.cpp" line="3675"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Dabartiniai parametrai buvo išsaugoti kaip pradiniai.</translation>
     </message>
@@ -1604,7 +1629,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Komandinės eilutės nuostatos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4113"/>
+        <location filename="../basegui.cpp" line="4115"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer komandinės eilutės nuostatos</translation>
     </message>
@@ -1619,37 +1644,37 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Atstatyti video ekvalaizerį</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4640"/>
+        <location filename="../basegui.cpp" line="4651"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Serveris atsakė „%1“</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5282"/>
+        <location filename="../basegui.cpp" line="5293"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>Netikėta MPLayer pabaiga.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5283"/>
+        <location filename="../basegui.cpp" line="5294"/>
         <source>Exit code: %1</source>
         <translation>Klaidos kodas: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5302"/>
+        <location filename="../basegui.cpp" line="5313"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer paleidimo klaida.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5303"/>
+        <location filename="../basegui.cpp" line="5314"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Patikrinkite kelią iki MPlayer parinktyse.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5305"/>
+        <location filename="../basegui.cpp" line="5316"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer užlūžo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5306"/>
+        <location filename="../basegui.cpp" line="5317"/>
         <source>See the log for more info.</source>
         <translation>Daugiau informacijos žurnale.</translation>
     </message>
@@ -1694,7 +1719,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Rodyti kontekstinį meniu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3858"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>Multimedia</source>
         <translation>Daugialypė terpė</translation>
     </message>
@@ -1771,22 +1796,22 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>&amp;Takelis</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4487"/>
+        <location filename="../basegui.cpp" line="4489"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Dėmesio - naudojamas senas MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4488"/>
+        <location filename="../basegui.cpp" line="4490"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Įdegta MPlayer (%1) versija yra pasenusi. SMPlayer negali su ja gerai dirbti - kai kurios parinktys gali neveikti, subtitrų parinkimas gali nepasisekti...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4493"/>
+        <location filename="../basegui.cpp" line="4495"/>
         <source>Please, update your MPlayer.</source>
         <translation>Atnaujinkite MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4495"/>
+        <location filename="../basegui.cpp" line="4497"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Šis perspėjimas daugiau nebus rodomas)</translation>
     </message>
@@ -1876,36 +1901,36 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Nus&amp;tatyti užlaikymą...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4186"/>
+        <location filename="../basegui.cpp" line="4188"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Peršokti į:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4187"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - prasukimas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4198"/>
-        <location filename="../basegui.cpp" line="4202"/>
+        <location filename="../basegui.cpp" line="4200"/>
+        <location filename="../basegui.cpp" line="4204"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - audio užlaikymas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4199"/>
-        <location filename="../basegui.cpp" line="4203"/>
+        <location filename="../basegui.cpp" line="4201"/>
+        <location filename="../basegui.cpp" line="4205"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Audio užlaikymas (milisekundėmis):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4214"/>
-        <location filename="../basegui.cpp" line="4218"/>
+        <location filename="../basegui.cpp" line="4216"/>
+        <location filename="../basegui.cpp" line="4220"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - subtitrų užlaikymas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4215"/>
-        <location filename="../basegui.cpp" line="4219"/>
+        <location filename="../basegui.cpp" line="4217"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Subtitrų užlaikymas (milisekundėmis):</translation>
     </message>
@@ -1915,7 +1940,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Perjungti visada viršuje režimą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4973"/>
+        <location filename="../basegui.cpp" line="4984"/>
         <source>Jump to %1</source>
         <translation>Peršokti į %1</translation>
     </message>
@@ -2116,73 +2141,73 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2876"/>
+        <location filename="../core.cpp" line="2868"/>
         <source>Brightness: %1</source>
         <translation>Ryškumas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2884"/>
         <source>Contrast: %1</source>
         <translation>Kontrastas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2907"/>
+        <location filename="../core.cpp" line="2899"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2922"/>
+        <location filename="../core.cpp" line="2914"/>
         <source>Hue: %1</source>
         <translation>Atspalvis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2937"/>
+        <location filename="../core.cpp" line="2929"/>
         <source>Saturation: %1</source>
         <translation>Sodrumas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3066"/>
+        <location filename="../core.cpp" line="3058"/>
         <source>Volume: %1</source>
         <translation>Garsas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3906"/>
+        <location filename="../core.cpp" line="3898"/>
         <source>Zoom: %1</source>
         <translation>Mastelis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4149"/>
+        <location filename="../core.cpp" line="4141"/>
         <source>Buffering...</source>
         <translation>Buferiuojama...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3184"/>
-        <location filename="../core.cpp" line="3195"/>
+        <location filename="../core.cpp" line="3176"/>
+        <location filename="../core.cpp" line="3187"/>
         <source>Font scale: %1</source>
         <translation>Šrifto dydis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3771"/>
+        <location filename="../core.cpp" line="3763"/>
         <source>Aspect ratio: %1</source>
         <translation>Kraštinių santykis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4137"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Atnaujinama šriftų atmintinė. Tai gali užtrukti keletą sekundžių...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3109"/>
+        <location filename="../core.cpp" line="3101"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Subtitrų užlaikymas: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3127"/>
+        <location filename="../core.cpp" line="3119"/>
         <source>Audio delay: %1 ms</source>
         <translation>Audio užlaikymas: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2991"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Speed: %1</source>
         <translation>Greitis %1</translation>
     </message>
@@ -2192,62 +2217,62 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Nepavyko gauti Youtube puslapio</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="568"/>
+        <location filename="../core.cpp" line="562"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Nepavyko rasti video url</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3238"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Subtitrai įjungti</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3240"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Subtitrai išjungti</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3819"/>
+        <location filename="../core.cpp" line="3811"/>
         <source>Mouse wheel seeks now</source>
         <translation>Dabar pelės ratukas veikia prasukimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3822"/>
+        <location filename="../core.cpp" line="3814"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Dabar pelės ratukas veikia garso reguliavimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3825"/>
+        <location filename="../core.cpp" line="3817"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Dabar pelės ratukas veikia vaizdo didinimo/mažinimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3828"/>
+        <location filename="../core.cpp" line="3820"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Dabar pelės ratukas veikia greičio didinimo/mažinimo režimu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1394"/>
+        <location filename="../core.cpp" line="1390"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Momentinis vaizdas NEpadarytas, neparinktas katalogas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1407"/>
+        <location filename="../core.cpp" line="1403"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Momentiniai vaizdai NEpadaryti, neparinktas katalogas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2610"/>
+        <location filename="../core.cpp" line="2602"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Žymė „A“ nustatyta %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2627"/>
+        <location filename="../core.cpp" line="2619"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Žymė „B“ nustatyta %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2642"/>
+        <location filename="../core.cpp" line="2634"/>
         <source>A-B markers cleared</source>
         <translation>A-B žymės išvalytos</translation>
     </message>
@@ -7233,111 +7258,191 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefNetwork</name>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
+        <source>&amp;Youtube (and other sites)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="30"/>
+        <source>&amp;Enable Youtube internal support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="45"/>
+        <source>Playback &amp;quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="75"/>
+        <source>&amp;User agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="93"/>
+        <source>&amp;Play videos from streaming sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="114"/>
         <source>&amp;Proxy</source>
         <translation>&amp;Tarpinis serveris</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="30"/>
+        <location filename="../prefnetwork.ui" line="120"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Įjungti tarpinį serverį</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="43"/>
+        <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
         <translation>&amp;Mazgas:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="56"/>
+        <location filename="../prefnetwork.ui" line="146"/>
         <source>&amp;Port:</source>
         <translation>&amp;Prievadas</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="76"/>
+        <location filename="../prefnetwork.ui" line="166"/>
         <source>&amp;Username:</source>
         <translation>&amp;Naudotojo vardas:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="89"/>
+        <location filename="../prefnetwork.ui" line="179"/>
         <source>Pa&amp;ssword:</source>
         <translation>&amp;Slaptažodis:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="106"/>
+        <location filename="../prefnetwork.ui" line="196"/>
         <source>&amp;Type:</source>
         <translation>&amp;Tipas:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="29"/>
+        <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="30"/>
+        <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="40"/>
+        <location filename="../prefnetwork.cpp" line="64"/>
         <source>Network</source>
         <translation>Tinklas</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="89"/>
+        <location filename="../prefnetwork.cpp" line="138"/>
+        <source>Youtube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="140"/>
+        <source>Enable Youtube internal support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="141"/>
+        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="143"/>
+        <source>Youtube quality</source>
+        <translation type="unfinished">Youtube kokybė</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="144"/>
+        <source>Select the preferred quality for youtube videos.</source>
+        <translation type="unfinished">Pasirinkite youtube vaizdelių kokybę.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="146"/>
+        <source>User agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="147"/>
+        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="150"/>
+        <source>Play videos from streaming sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="151"/>
+        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="153"/>
+        <source>Requires mpv and youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="155"/>
+        <source>Proxy</source>
+        <translation type="unfinished">Tarpinis serveris</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="157"/>
         <source>Enable proxy</source>
         <translation>Įjungti tarpinį serverį</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="90"/>
+        <location filename="../prefnetwork.cpp" line="158"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Įjungti/išjungti tarpinio serverio naudojimą.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="92"/>
+        <location filename="../prefnetwork.cpp" line="160"/>
         <source>Host</source>
         <translation>Mazgas</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="93"/>
+        <location filename="../prefnetwork.cpp" line="161"/>
         <source>The host name of the proxy.</source>
         <translation>Tarpinio serverio kompiuterio vardas.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="95"/>
+        <location filename="../prefnetwork.cpp" line="163"/>
         <source>Port</source>
         <translation>Prievadas</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="96"/>
+        <location filename="../prefnetwork.cpp" line="164"/>
         <source>The port of the proxy.</source>
         <translation>Tarpinio serverio prievadas.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="98"/>
+        <location filename="../prefnetwork.cpp" line="166"/>
         <source>Username</source>
         <translation>Naudotojo vardas</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="99"/>
+        <location filename="../prefnetwork.cpp" line="167"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Jei tarpinis serveris reikalauja tapatybės nustatymo, čia nustatomas naudotojo vardas.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="101"/>
+        <location filename="../prefnetwork.cpp" line="169"/>
         <source>Password</source>
         <translation>Slaptažodis</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="102"/>
+        <location filename="../prefnetwork.cpp" line="170"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Slaptažodis tarpiniam serveriui. &lt;b&gt;Dėmesio:&lt;/b&gt; slaptažodis konfigūracijos faile išsaugomas neužšifruotas.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="105"/>
+        <location filename="../prefnetwork.cpp" line="173"/>
         <source>Type</source>
         <translation>Tipas</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="106"/>
+        <location filename="../prefnetwork.cpp" line="174"/>
         <source>Select the proxy type to be used.</source>
         <translation>Parinkite naudojamo tarpinio serverio tipą.</translation>
     </message>
@@ -7345,8 +7450,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="74"/>
-        <location filename="../prefperformance.cpp" line="277"/>
+        <location filename="../prefperformance.cpp" line="49"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Performance</source>
         <translation>Greitaveika</translation>
     </message>
@@ -7357,7 +7462,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="281"/>
+        <location filename="../prefperformance.cpp" line="238"/>
         <source>Priority</source>
         <translation>Prioritetas</translation>
     </message>
@@ -7397,37 +7502,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>žemas</translation>
     </message>
     <message>
+        <location filename="../prefperformance.ui" line="333"/>
         <location filename="../prefperformance.ui" line="370"/>
         <location filename="../prefperformance.ui" line="407"/>
         <location filename="../prefperformance.ui" line="444"/>
         <location filename="../prefperformance.ui" line="481"/>
         <location filename="../prefperformance.ui" line="518"/>
-        <location filename="../prefperformance.ui" line="555"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="343"/>
+        <location filename="../prefperformance.ui" line="306"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Talpyklos nustatymas gali pagerinti arba pabloginti greitaveiką</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="287"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Allow frame drop</source>
         <translation>Leisti praleisti kadrus</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="288"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Praleisti kai kuriuos kadrus audio/video sinchronizacijai lėtose sistemose.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Allow hard frame drop</source>
         <translation>Leisti kietą kadrų praleidimą</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Kietesnis kadrų praleidimas (plėšytas atkūrimas) sukelia vaizdo iškraipymus!</translation>
     </message>
@@ -7457,22 +7562,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Greita DVD &amp;skyrių paieška</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
+        <location filename="../prefperformance.cpp" line="275"/>
         <source>Fast audio track switching</source>
         <translation>Greitas audio takelių perjungimas</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="285"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Greita DVD skyrių paieška</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Jei pažymėta, bus pabandytas spartesnis skyrių paieškos metodas, bet gali neveikti kai kuriuose diskuose.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="259"/>
         <source>Skip loop filter</source>
         <translation>Praleisti kilpinį filtrą</translation>
     </message>
@@ -7482,72 +7587,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="276"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Galimos reikšmės:&lt;br&gt; &lt;b&gt;Taip&lt;/b&gt;: Bus naudojamas greičiausias audio takelių perjungimo metodas (gali neveikti su kai kuriais formatais).&lt;br&gt; &lt;b&gt;Ne&lt;/b&gt;: Pakeitus audio takelį, MPlayer procesas bus perleistas.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: Priklausomai nuo MPlayer versijos, SMPlayer pats nuspręs ką daryti.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="292"/>
         <source>Cache for files</source>
         <translation>Failų podėlis</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam failų talpinimui.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>Cache for streams</source>
         <translation>Srautų talpykla</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam URL talpinimui.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="348"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>Cache for DVDs</source>
         <translation>Laikina DVD talpykla</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="349"/>
+        <location filename="../prefperformance.cpp" line="301"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam DVD talpinimui. &lt;br&gt;&lt;b&gt;Dėmesio:&lt;/b&gt; Naudojant išankstinį DVD talpinimą, prasukimas gali blogai veikti (įskaitant ir skyrių perjungimą).</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="337"/>
+        <location filename="../prefperformance.ui" line="300"/>
         <source>&amp;Cache</source>
         <translation>&amp;Podėlis</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="390"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>&amp;DVD podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="316"/>
         <source>Cache for &amp;local files:</source>
         <translation>Vietinių &amp;failų podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="353"/>
         <source>Cache for &amp;streams:</source>
         <translation>&amp;Srautų podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="89"/>
+        <location filename="../prefperformance.cpp" line="64"/>
         <source>Enabled</source>
         <translation>Įjungta</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="90"/>
+        <location filename="../prefperformance.cpp" line="65"/>
         <source>Skip (always)</source>
         <translation>Praleisti (visada)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="91"/>
+        <location filename="../prefperformance.cpp" line="66"/>
         <source>Skip only on HD videos</source>
         <translation>Praleisti tik HD video</translation>
     </message>
@@ -7557,77 +7662,77 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kilpinis &amp;filtras</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation>Jei nenurodytas joks kodekas ir pasirinkta ne VDPAU video išvestis, pabandyti naudoti nelaisvą CoreAVC kodeką. Reikalingas MPlayer sukurtas su CoreAVC palaikymu.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="303"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Ši parinktis įgalina praleisti kilpinį filtrą (deblokingą) dekoduojant H.264. Kadangi filtruotą kadrą numatoma naudoti kaip priklausomų kadrų dekodavimo nuorodą, tai, pavyzdžiui MPEG-2, video kokybė bus prastesnė, negu deblokingas nebūtų iš viso vykdomas. Bet aukštos kokybės HDTV tai duoda ryškų darbingumo padidėjimą be įžvelgiamo kokybės suprastėjimo.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="267"/>
         <source>Possible values:</source>
         <translation>Galimos reikšmės:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="311"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Įjungtas&lt;/b&gt;: kilpinis filtras nepraleidžiamas</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Praleisti (visada)&lt;/b&gt;: kilpinis filtras nenaudojamas nepriklausomai nuo video raiškos</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="314"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Praleisti tik HD video&lt;/b&gt;: kilpinis filtras bus praleistas tik  %1 aukščio ar geresniam video.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="338"/>
+        <location filename="../prefperformance.cpp" line="290"/>
         <source>Cache</source>
         <translation>Laikina atmintinė</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="305"/>
         <source>Cache for audio CDs</source>
         <translation>Audio CD podėlis</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam audio CD talpinimui.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>&amp;Audio CD podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="357"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>Cache for VCDs</source>
         <translation>VCD podėlis</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="358"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam VCD talpinimui.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="464"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>&amp;VCD podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="251"/>
         <source>Threads for decoding</source>
         <translation>Srautai dekodavimui</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Nustato srautų dekodavimui skaičių (tik MPEG-1/2 ir H.264)</translation>
     </message>
@@ -7637,12 +7742,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Srau&amp;tai dekodavimui (tik MPEG-1/2 ir H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="239"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Nustato MPlayer prioritetą sutinkamai su Windows nustatytais procesų prioritetais. &lt;br&gt;&lt;b&gt;Dėmesio:&lt;/b&gt; Realaus laiko prioriteto naudojimas, gali sulėtinti sistemos darbą.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="298"/>
+        <location filename="../prefperformance.cpp" line="255"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Jei nenurodytas joks kitas kodekas, naudoti &lt;i&gt;CoreAVC&lt;/i&gt;</translation>
     </message>
@@ -7652,24 +7757,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Jei nen&amp;urodytas joks kitas kodekas, naudoti CoreAVC</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="538"/>
+        <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>&amp;TV podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation>Youtube kokybė</translation>
+        <translation type="obsolete">Youtube kokybė</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>Pasirinkite youtube vaizdelių kokybę.</translation>
+        <translation type="obsolete">Pasirinkite youtube vaizdelių kokybę.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="295"/>
         <source>Youtube &amp;quality</source>
-        <translation>Youtube &amp;kokybė</translation>
+        <translation type="obsolete">Youtube &amp;kokybė</translation>
     </message>
 </context>
 <context>

@@ -790,8 +790,8 @@ Opravdu jej chcete přepsat?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
-        <location filename="../basegui.cpp" line="3262"/>
-        <location filename="../basegui.cpp" line="3275"/>
+        <location filename="../basegui.cpp" line="3264"/>
+        <location filename="../basegui.cpp" line="3277"/>
         <source>&amp;None</source>
         <translation>Žá&amp;dné</translation>
     </message>
@@ -1007,43 +1007,43 @@ Opravdu jej chcete přepsat?</translation>
         <translation>O &amp;SMplayeru</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3297"/>
-        <location filename="../basegui.cpp" line="3313"/>
-        <location filename="../basegui.cpp" line="3329"/>
-        <location filename="../basegui.cpp" line="3344"/>
-        <location filename="../basegui.cpp" line="3378"/>
-        <location filename="../basegui.cpp" line="3398"/>
-        <location filename="../basegui.cpp" line="3442"/>
+        <location filename="../basegui.cpp" line="3299"/>
+        <location filename="../basegui.cpp" line="3315"/>
+        <location filename="../basegui.cpp" line="3331"/>
+        <location filename="../basegui.cpp" line="3346"/>
+        <location filename="../basegui.cpp" line="3380"/>
+        <location filename="../basegui.cpp" line="3400"/>
+        <location filename="../basegui.cpp" line="3444"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;prázdné&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3859"/>
+        <location filename="../basegui.cpp" line="3861"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3860"/>
-        <location filename="../basegui.cpp" line="4093"/>
+        <location filename="../basegui.cpp" line="3862"/>
+        <location filename="../basegui.cpp" line="4095"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3861"/>
+        <location filename="../basegui.cpp" line="3863"/>
         <source>Playlists</source>
         <translation>Playlisty</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3862"/>
-        <location filename="../basegui.cpp" line="4073"/>
-        <location filename="../basegui.cpp" line="4094"/>
+        <location filename="../basegui.cpp" line="3864"/>
+        <location filename="../basegui.cpp" line="4075"/>
+        <location filename="../basegui.cpp" line="4096"/>
         <source>All files</source>
         <translation>Všechny soubory</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3857"/>
-        <location filename="../basegui.cpp" line="4070"/>
-        <location filename="../basegui.cpp" line="4091"/>
+        <location filename="../basegui.cpp" line="3859"/>
+        <location filename="../basegui.cpp" line="4072"/>
+        <location filename="../basegui.cpp" line="4093"/>
         <source>Choose a file</source>
         <translation>Zvolte soubor</translation>
     </message>
@@ -1058,79 +1058,79 @@ Opravdu jej chcete přepsat?</translation>
         <translation>&amp;Darovat / Sdílet s přáteli</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3911"/>
         <source>SMPlayer - Information</source>
         <translation>SMplayer - informace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3910"/>
+        <location filename="../basegui.cpp" line="3912"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Mechaniky CDROM / DVD nejsou nastaveny.
 Bude zobrazeno konfigurační okno.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4023"/>
+        <location filename="../basegui.cpp" line="4025"/>
         <source>Select the Blu-ray folder</source>
         <translation>Vybrat složku pro Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4036"/>
+        <location filename="../basegui.cpp" line="4038"/>
         <source>Choose a directory</source>
         <translation>Zvolte adresář</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4072"/>
+        <location filename="../basegui.cpp" line="4074"/>
         <source>Subtitles</source>
         <translation>Titulky</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4506"/>
+        <location filename="../basegui.cpp" line="4508"/>
         <source>New version available</source>
         <translation>Je k dispozici nová verze</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4507"/>
+        <location filename="../basegui.cpp" line="4509"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Je k dispozici nová verze SMPlayeru.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4508"/>
+        <location filename="../basegui.cpp" line="4510"/>
         <source>Installed version: %1</source>
         <translation>Nainstalovaná verze: 1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4509"/>
+        <location filename="../basegui.cpp" line="4511"/>
         <source>Available version: %1</source>
         <translation>K dispozici verze: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4510"/>
+        <location filename="../basegui.cpp" line="4512"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Chcete vědět víc o této nové verzi?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4638"/>
+        <location filename="../basegui.cpp" line="4649"/>
         <source>Error detected</source>
         <translation>Byla zaznamenána chyba</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4639"/>
+        <location filename="../basegui.cpp" line="4650"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Bohužel, toto video nelze přehrát.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4827"/>
+        <location filename="../basegui.cpp" line="4838"/>
         <source>Playing %1</source>
         <translation>Přehrávám %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4828"/>
+        <location filename="../basegui.cpp" line="4839"/>
         <source>Pause</source>
         <translation>Pozastaveno</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4829"/>
+        <location filename="../basegui.cpp" line="4840"/>
         <source>Stop</source>
         <translation>Zastaveno</translation>
     </message>
@@ -1452,38 +1452,63 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>SMPlayer - log SMPlayeru</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4590"/>
+        <source>Connection failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4591"/>
+        <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4592"/>
+        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4593"/>
+        <source>Please, visit %1 to know how to fix this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4594"/>
+        <source>this link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4604"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>Kvůli změnám na Youtube nelze video přehrát.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4600"/>
-        <location filename="../basegui.cpp" line="4608"/>
+        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4619"/>
         <source>Problems with Youtube</source>
         <translation>Problémy s Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4596"/>
+        <location filename="../basegui.cpp" line="4607"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Kvůli změnám na stránce Youtube nelze video &apos;%1&apos; přehrát.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4602"/>
+        <location filename="../basegui.cpp" line="4613"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Chcete aktualizovat kód Youtube? To může problém vyřešit.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4610"/>
+        <location filename="../basegui.cpp" line="4621"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Vyřešení problému by mohlo pomoci aktualizování SMPlayeru.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5383"/>
+        <location filename="../basegui.cpp" line="5394"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>Prohlížeč YouTube nebylo možné spustit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5384"/>
+        <location filename="../basegui.cpp" line="5395"/>
         <source>Be sure %1 is installed.</source>
         <translation>Opravdu je %1 nainstalován?</translation>
     </message>
@@ -1493,28 +1518,28 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>S&amp;dílet SMPlayer s přáteli</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2987"/>
-        <location filename="../basegui.cpp" line="3672"/>
+        <location filename="../basegui.cpp" line="2989"/>
+        <location filename="../basegui.cpp" line="3674"/>
         <source>Information</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2988"/>
+        <location filename="../basegui.cpp" line="2990"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>K zobrazení nového GUI musíte restartovat SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3450"/>
+        <location filename="../basegui.cpp" line="3452"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Potvrdit vymazání - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3451"/>
+        <location filename="../basegui.cpp" line="3453"/>
         <source>Delete the list of recent files?</source>
         <translation>Vymazat seznam </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3673"/>
+        <location filename="../basegui.cpp" line="3675"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Dané hodnoty byly uloženy jako výchozí.</translation>
     </message>
@@ -1604,7 +1629,7 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>&amp;Argumenty příkazového řádku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4113"/>
+        <location filename="../basegui.cpp" line="4115"/>
         <source>SMPlayer command line options</source>
         <translation>Argumenty příkazového řádku</translation>
     </message>
@@ -1619,37 +1644,37 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Vynulovat video-ekvalizér</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4640"/>
+        <location filename="../basegui.cpp" line="4651"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Server vrátil &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5282"/>
+        <location filename="../basegui.cpp" line="5293"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer skončil chybou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5283"/>
+        <location filename="../basegui.cpp" line="5294"/>
         <source>Exit code: %1</source>
         <translation>Návratová hodnota: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5302"/>
+        <location filename="../basegui.cpp" line="5313"/>
         <source>MPlayer failed to start.</source>
         <translation>Nelze spustit MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5303"/>
+        <location filename="../basegui.cpp" line="5314"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Zkontrolujte cestu k MPlayeru v nastavení.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5305"/>
+        <location filename="../basegui.cpp" line="5316"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer havaroval.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5306"/>
+        <location filename="../basegui.cpp" line="5317"/>
         <source>See the log for more info.</source>
         <translation>Více informací je v logu.</translation>
     </message>
@@ -1694,7 +1719,7 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Zobraz kontextové menu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3858"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>Multimedia</source>
         <translation>Multimédia</translation>
     </message>
@@ -1771,22 +1796,22 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>S&amp;topa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4487"/>
+        <location filename="../basegui.cpp" line="4489"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Varování - Použit starý MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4488"/>
+        <location filename="../basegui.cpp" line="4490"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Nainstalovaná verze MPlayeru (%1) je zastaralá. SMPlayer nebude pracovat správně: ne všechna nastavení budou funkční, výběr titulků může selhat, ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4493"/>
+        <location filename="../basegui.cpp" line="4495"/>
         <source>Please, update your MPlayer.</source>
         <translation>Prosím, updatujte si MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4495"/>
+        <location filename="../basegui.cpp" line="4497"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Toto varování dále nebude zobrazeno)</translation>
     </message>
@@ -1876,36 +1901,36 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Nastav&amp;it zpoždění...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4186"/>
+        <location filename="../basegui.cpp" line="4188"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Jdi na:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4187"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Pozice</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4198"/>
-        <location filename="../basegui.cpp" line="4202"/>
+        <location filename="../basegui.cpp" line="4200"/>
+        <location filename="../basegui.cpp" line="4204"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Zpoždění audia</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4199"/>
-        <location filename="../basegui.cpp" line="4203"/>
+        <location filename="../basegui.cpp" line="4201"/>
+        <location filename="../basegui.cpp" line="4205"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Zpoždění audia (v ms):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4214"/>
-        <location filename="../basegui.cpp" line="4218"/>
+        <location filename="../basegui.cpp" line="4216"/>
+        <location filename="../basegui.cpp" line="4220"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Zpoždění titulků</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4215"/>
-        <location filename="../basegui.cpp" line="4219"/>
+        <location filename="../basegui.cpp" line="4217"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Zpoždění titulků (v ms):</translation>
     </message>
@@ -1915,7 +1940,7 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Přepni vždy nahoře</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4973"/>
+        <location filename="../basegui.cpp" line="4984"/>
         <source>Jump to %1</source>
         <translation>Jdi na %1</translation>
     </message>
@@ -2116,73 +2141,73 @@ Bude zobrazeno konfigurační okno.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2876"/>
+        <location filename="../core.cpp" line="2868"/>
         <source>Brightness: %1</source>
         <translation>Jas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2884"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2907"/>
+        <location filename="../core.cpp" line="2899"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2922"/>
+        <location filename="../core.cpp" line="2914"/>
         <source>Hue: %1</source>
         <translation>Odstín: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2937"/>
+        <location filename="../core.cpp" line="2929"/>
         <source>Saturation: %1</source>
         <translation>Saturace: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3066"/>
+        <location filename="../core.cpp" line="3058"/>
         <source>Volume: %1</source>
         <translation>Hlasitost: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3906"/>
+        <location filename="../core.cpp" line="3898"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4149"/>
+        <location filename="../core.cpp" line="4141"/>
         <source>Buffering...</source>
         <translation>Ukládání do vyrovnávací paměti...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3184"/>
-        <location filename="../core.cpp" line="3195"/>
+        <location filename="../core.cpp" line="3176"/>
+        <location filename="../core.cpp" line="3187"/>
         <source>Font scale: %1</source>
         <translation>Velikost písma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3771"/>
+        <location filename="../core.cpp" line="3763"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4137"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Obnovuji paměť fontů. Může to chvíli trvat...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3109"/>
+        <location filename="../core.cpp" line="3101"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Zpoždění titulků: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3127"/>
+        <location filename="../core.cpp" line="3119"/>
         <source>Audio delay: %1 ms</source>
         <translation>Zpoždění zvuku: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2991"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Speed: %1</source>
         <translation>Rychlost: %1</translation>
     </message>
@@ -2192,62 +2217,62 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Nepodařilo se načíst stránku youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="568"/>
+        <location filename="../core.cpp" line="562"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Nepodařilo se získat url videa</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3238"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Titulky zapnuty</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3240"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Titulky vypnuty</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3819"/>
+        <location filename="../core.cpp" line="3811"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kolečko myši nyní seekuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3822"/>
+        <location filename="../core.cpp" line="3814"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kolečko myši nyní mění hlasitost</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3825"/>
+        <location filename="../core.cpp" line="3817"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kolečko myši nyní zoomuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3828"/>
+        <location filename="../core.cpp" line="3820"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kolečko myši nyní mění rychlost</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1394"/>
+        <location filename="../core.cpp" line="1390"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Snímek nepořízen! Není nastaven adresář</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1407"/>
+        <location filename="../core.cpp" line="1403"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Snímky nepořízeny! Není nastaven adresář</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2610"/>
+        <location filename="../core.cpp" line="2602"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Značka &quot;A&quot; je na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2627"/>
+        <location filename="../core.cpp" line="2619"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Značka &quot;B&quot; je na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2642"/>
+        <location filename="../core.cpp" line="2634"/>
         <source>A-B markers cleared</source>
         <translation>A-B značky smazány</translation>
     </message>
@@ -7234,111 +7259,191 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <name>PrefNetwork</name>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
+        <source>&amp;Youtube (and other sites)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="30"/>
+        <source>&amp;Enable Youtube internal support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="45"/>
+        <source>Playback &amp;quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="75"/>
+        <source>&amp;User agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="93"/>
+        <source>&amp;Play videos from streaming sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="114"/>
         <source>&amp;Proxy</source>
         <translation>&amp;Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="30"/>
+        <location filename="../prefnetwork.ui" line="120"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Povolit proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="43"/>
+        <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
         <translation>&amp;Server:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="56"/>
+        <location filename="../prefnetwork.ui" line="146"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="76"/>
+        <location filename="../prefnetwork.ui" line="166"/>
         <source>&amp;Username:</source>
         <translation>&amp;Uživatelské jméno:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="89"/>
+        <location filename="../prefnetwork.ui" line="179"/>
         <source>Pa&amp;ssword:</source>
         <translation>He&amp;slo:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="106"/>
+        <location filename="../prefnetwork.ui" line="196"/>
         <source>&amp;Type:</source>
         <translation>&amp;Typ:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="29"/>
+        <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="30"/>
+        <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="40"/>
+        <location filename="../prefnetwork.cpp" line="64"/>
         <source>Network</source>
         <translation>Síť</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="89"/>
+        <location filename="../prefnetwork.cpp" line="138"/>
+        <source>Youtube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="140"/>
+        <source>Enable Youtube internal support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="141"/>
+        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="143"/>
+        <source>Youtube quality</source>
+        <translation type="unfinished">Kvalita YouTube</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="144"/>
+        <source>Select the preferred quality for youtube videos.</source>
+        <translation type="unfinished">Vyberte preferovanou kvalitu videí z YouTube.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="146"/>
+        <source>User agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="147"/>
+        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="150"/>
+        <source>Play videos from streaming sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="151"/>
+        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="153"/>
+        <source>Requires mpv and youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="155"/>
+        <source>Proxy</source>
+        <translation type="unfinished">Proxy</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="157"/>
         <source>Enable proxy</source>
         <translation>Povolit proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="90"/>
+        <location filename="../prefnetwork.cpp" line="158"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Povolit/zakázat použití proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="92"/>
+        <location filename="../prefnetwork.cpp" line="160"/>
         <source>Host</source>
         <translation>Server</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="93"/>
+        <location filename="../prefnetwork.cpp" line="161"/>
         <source>The host name of the proxy.</source>
         <translation>Název proxy serveru.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="95"/>
+        <location filename="../prefnetwork.cpp" line="163"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="96"/>
+        <location filename="../prefnetwork.cpp" line="164"/>
         <source>The port of the proxy.</source>
         <translation>Port na proxy serveru.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="98"/>
+        <location filename="../prefnetwork.cpp" line="166"/>
         <source>Username</source>
         <translation>Uživatelské jméno</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="99"/>
+        <location filename="../prefnetwork.cpp" line="167"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Pokud proxy server vyžaduje přihlášení, toto nastaví uživatelské jméno.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="101"/>
+        <location filename="../prefnetwork.cpp" line="169"/>
         <source>Password</source>
         <translation>Heslo</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="102"/>
+        <location filename="../prefnetwork.cpp" line="170"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Heslo pro připojení k proxy. &lt;b&gt;Varování:&lt;/b&gt; heslo bude uloženo v konfiguračním souboru jako čistý text.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="105"/>
+        <location filename="../prefnetwork.cpp" line="173"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="106"/>
+        <location filename="../prefnetwork.cpp" line="174"/>
         <source>Select the proxy type to be used.</source>
         <translation>Vybrat typ proxy serveru.</translation>
     </message>
@@ -7346,8 +7451,8 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="74"/>
-        <location filename="../prefperformance.cpp" line="277"/>
+        <location filename="../prefperformance.cpp" line="49"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Performance</source>
         <translation>Výkon</translation>
     </message>
@@ -7358,7 +7463,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="281"/>
+        <location filename="../prefperformance.cpp" line="238"/>
         <source>Priority</source>
         <translation>Priorita</translation>
     </message>
@@ -7398,37 +7503,37 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>nízká</translation>
     </message>
     <message>
+        <location filename="../prefperformance.ui" line="333"/>
         <location filename="../prefperformance.ui" line="370"/>
         <location filename="../prefperformance.ui" line="407"/>
         <location filename="../prefperformance.ui" line="444"/>
         <location filename="../prefperformance.ui" line="481"/>
         <location filename="../prefperformance.ui" line="518"/>
-        <location filename="../prefperformance.ui" line="555"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="343"/>
+        <location filename="../prefperformance.ui" line="306"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Nastavením vyrovnávací paměti lze zvýšit výkon přehrávání z pomalých médií</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="287"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Allow frame drop</source>
         <translation>Povolit vypuštění snímku</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="288"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Přeskočí zobrazování některých snímků potřebných pro A/V synchronizaci na pomalých systémech.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Allow hard frame drop</source>
         <translation>Povolit tvrdé vypuštění snímku</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenzivnější vypouštění snímků (přeruší dekódování). Způsobuje zkreslení obrazu!</translation>
     </message>
@@ -7458,22 +7563,22 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Rychlé &amp;přepínání kapitol na DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
+        <location filename="../prefperformance.cpp" line="275"/>
         <source>Fast audio track switching</source>
         <translation>Rychlé přepínání audio stop</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="285"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Rychlé přeskakování kapitol u DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Je-li zaškrtnuto, použije se nejrychlejší metoda přepínání kapitol, ale nemusí správně fungovat pro všechny disky.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="259"/>
         <source>Skip loop filter</source>
         <translation>Přeskočit filtr smyček</translation>
     </message>
@@ -7483,72 +7588,72 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="276"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Možné hodnoty:&lt;br&gt; &lt;b&gt;Ano&lt;/b&gt;: použije nejrychlejší metodu přepínání zvukových stop (nemusí fungovat se všemi formáty).&lt;br&gt; &lt;b&gt;Ne&lt;/b&gt;: MPlayer se restartuje při každé změně zvukové stopy.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer určí metodu podle verze MPlayeru.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="292"/>
         <source>Cache for files</source>
         <translation>Cache pro soubory</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení souborů.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>Cache for streams</source>
         <translation>Cache pro streamy</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="348"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>Cache for DVDs</source>
         <translation>Cache pro DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="349"/>
+        <location filename="../prefperformance.cpp" line="301"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení DVD.&lt;br&gt; &lt;b&gt;Varování:&lt;/b&gt; Posouvání (včetně přepínání kapitol) nemusí fungovat správně.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="337"/>
+        <location filename="../prefperformance.ui" line="300"/>
         <source>&amp;Cache</source>
         <translation>&amp;Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="390"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Cache pro &amp;DVD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="316"/>
         <source>Cache for &amp;local files:</source>
         <translation>Cache pro s&amp;oubory:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="353"/>
         <source>Cache for &amp;streams:</source>
         <translation>Cache pro &amp;streamy:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="89"/>
+        <location filename="../prefperformance.cpp" line="64"/>
         <source>Enabled</source>
         <translation>Povolen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="90"/>
+        <location filename="../prefperformance.cpp" line="65"/>
         <source>Skip (always)</source>
         <translation>Přeskočit (vždy)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="91"/>
+        <location filename="../prefperformance.cpp" line="66"/>
         <source>Skip only on HD videos</source>
         <translation>Přeskočit u HD videí</translation>
     </message>
@@ -7558,77 +7663,77 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>&amp;Filtr smyček</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation>Použije proprietární kodek CoreAVC, není-li zvolen jiný kodek a je zapnutý jiný video výstup než VDPAU. Vyžaduje Mplayer s podporou CoreAVC.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="303"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Toto nastavení umožňuje přeskočit filtr smyčky (loop filter, deblocking) při přehrávání H.264. Jelikož filtrované snímky se používají jako reference pro další závislé snímky, má tato možnost vyšší doapd na kvalitu než např. u MPEG-2. Ale dosáhne se tak mnohem vyšší propustnosti HDTV videa za poměrně malého snížení kvality.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="267"/>
         <source>Possible values:</source>
         <translation>Možné hodnoty:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="311"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Povolen&lt;/b&gt;: filtr smyčky se nebude přeskakovat</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Přeskočit (vždy)&lt;/b&gt;: filtr smyčky se přeskočí při jakémkoli rozlišení videa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="314"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Přeskočit u HD videí&lt;/b&gt;: filtr smyčky se přeskočí pouze u videí, jejichž výška přesáhne %1.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="338"/>
+        <location filename="../prefperformance.cpp" line="290"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="305"/>
         <source>Cache for audio CDs</source>
         <translation>Cache pro audio CD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení audio CD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>Cache pro &amp;audio CD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="357"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>Cache for VCDs</source>
         <translation>Cache pro VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="358"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení VCD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="464"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>Cache pro &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="251"/>
         <source>Threads for decoding</source>
         <translation>Počet vláken pro dekódování</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Nastavte počet vláken pro dekódování. Pouze pro MPEG-1/2 a H.264</translation>
     </message>
@@ -7638,12 +7743,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Počet v&amp;láken pro dekódování (pouze MPEG-1/2 a H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="239"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Nastavení priority pro proces MPlayeru pod Windows .&lt;br&gt;&lt;b&gt;Varování:&lt;/b&gt; Použití priority reálného času může způsobit zablokování systému.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="298"/>
+        <location filename="../prefperformance.cpp" line="255"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Použít CoreAVC, není-li zvolen jiný kodek</translation>
     </message>
@@ -7653,24 +7758,21 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>&amp;Použít CoreAVC, není-li zvolen jiný kodek</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="538"/>
+        <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Cache pro &amp;TV:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation>Kvalita YouTube</translation>
+        <translation type="obsolete">Kvalita YouTube</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>Vyberte preferovanou kvalitu videí z YouTube.</translation>
+        <translation type="obsolete">Vyberte preferovanou kvalitu videí z YouTube.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="295"/>
         <source>Youtube &amp;quality</source>
-        <translation>Kvalita &amp;YouTube</translation>
+        <translation type="obsolete">Kvalita &amp;YouTube</translation>
     </message>
 </context>
 <context>

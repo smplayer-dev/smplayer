@@ -790,8 +790,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
-        <location filename="../basegui.cpp" line="3262"/>
-        <location filename="../basegui.cpp" line="3275"/>
+        <location filename="../basegui.cpp" line="3264"/>
+        <location filename="../basegui.cpp" line="3277"/>
         <source>&amp;None</source>
         <translation>없음(&amp;N)</translation>
     </message>
@@ -1007,43 +1007,43 @@ Do you want to overwrite?</source>
         <translation>&amp;SMPlayer 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3297"/>
-        <location filename="../basegui.cpp" line="3313"/>
-        <location filename="../basegui.cpp" line="3329"/>
-        <location filename="../basegui.cpp" line="3344"/>
-        <location filename="../basegui.cpp" line="3378"/>
-        <location filename="../basegui.cpp" line="3398"/>
-        <location filename="../basegui.cpp" line="3442"/>
+        <location filename="../basegui.cpp" line="3299"/>
+        <location filename="../basegui.cpp" line="3315"/>
+        <location filename="../basegui.cpp" line="3331"/>
+        <location filename="../basegui.cpp" line="3346"/>
+        <location filename="../basegui.cpp" line="3380"/>
+        <location filename="../basegui.cpp" line="3400"/>
+        <location filename="../basegui.cpp" line="3444"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;비어 있음&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3859"/>
+        <location filename="../basegui.cpp" line="3861"/>
         <source>Video</source>
         <translation>비디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3860"/>
-        <location filename="../basegui.cpp" line="4093"/>
+        <location filename="../basegui.cpp" line="3862"/>
+        <location filename="../basegui.cpp" line="4095"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3861"/>
+        <location filename="../basegui.cpp" line="3863"/>
         <source>Playlists</source>
         <translation>재생 목록</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3862"/>
-        <location filename="../basegui.cpp" line="4073"/>
-        <location filename="../basegui.cpp" line="4094"/>
+        <location filename="../basegui.cpp" line="3864"/>
+        <location filename="../basegui.cpp" line="4075"/>
+        <location filename="../basegui.cpp" line="4096"/>
         <source>All files</source>
         <translation>모든 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3857"/>
-        <location filename="../basegui.cpp" line="4070"/>
-        <location filename="../basegui.cpp" line="4091"/>
+        <location filename="../basegui.cpp" line="3859"/>
+        <location filename="../basegui.cpp" line="4072"/>
+        <location filename="../basegui.cpp" line="4093"/>
         <source>Choose a file</source>
         <translation>파일을 선택하세요</translation>
     </message>
@@ -1058,79 +1058,79 @@ Do you want to overwrite?</source>
         <translation>기부 / 친구들과 공유하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="3911"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3910"/>
+        <location filename="../basegui.cpp" line="3912"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM / DVD 드라이브를 지정하지 않았습니다.
 드라이브 설정을 위한 대화 상자가 표시될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4023"/>
+        <location filename="../basegui.cpp" line="4025"/>
         <source>Select the Blu-ray folder</source>
         <translation>Blu-ray 폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4036"/>
+        <location filename="../basegui.cpp" line="4038"/>
         <source>Choose a directory</source>
         <translation>폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4072"/>
+        <location filename="../basegui.cpp" line="4074"/>
         <source>Subtitles</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4506"/>
+        <location filename="../basegui.cpp" line="4508"/>
         <source>New version available</source>
         <translation>새 버전이 나왔습니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4507"/>
+        <location filename="../basegui.cpp" line="4509"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>새 버전의 SMPlayer가 있습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4508"/>
+        <location filename="../basegui.cpp" line="4510"/>
         <source>Installed version: %1</source>
         <translation>설치된 버전: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4509"/>
+        <location filename="../basegui.cpp" line="4511"/>
         <source>Available version: %1</source>
         <translation>사용 가능한 버전: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4510"/>
+        <location filename="../basegui.cpp" line="4512"/>
         <source>Would you like to know more about this new version?</source>
         <translation>이 새 버전에 대해 더 알고 싶으신가요?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4638"/>
+        <location filename="../basegui.cpp" line="4649"/>
         <source>Error detected</source>
         <translation>오류를 발견했습니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4639"/>
+        <location filename="../basegui.cpp" line="4650"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>유감스럽게도 이 비디오는 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4827"/>
+        <location filename="../basegui.cpp" line="4838"/>
         <source>Playing %1</source>
         <translation>%1 재생 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4828"/>
+        <location filename="../basegui.cpp" line="4839"/>
         <source>Pause</source>
         <translation>일시 중지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4829"/>
+        <location filename="../basegui.cpp" line="4840"/>
         <source>Stop</source>
         <translation>정지</translation>
     </message>
@@ -1452,38 +1452,63 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>SMPlayer - SMPlayer 로그</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4590"/>
+        <source>Connection failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4591"/>
+        <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4592"/>
+        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4593"/>
+        <source>Please, visit %1 to know how to fix this problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4594"/>
+        <source>this link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4604"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, 이 동영상을 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4600"/>
-        <location filename="../basegui.cpp" line="4608"/>
+        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4619"/>
         <source>Problems with Youtube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4596"/>
+        <location filename="../basegui.cpp" line="4607"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4602"/>
+        <location filename="../basegui.cpp" line="4613"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4610"/>
+        <location filename="../basegui.cpp" line="4621"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>SMPlayer를 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5383"/>
+        <location filename="../basegui.cpp" line="5394"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>유투브 브라우저를 실행하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5384"/>
+        <location filename="../basegui.cpp" line="5395"/>
         <source>Be sure %1 is installed.</source>
         <translation>%1 이 설치되어 있는지 확인하세요.</translation>
     </message>
@@ -1493,28 +1518,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>친구들과 SMPlayer를 공유하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2987"/>
-        <location filename="../basegui.cpp" line="3672"/>
+        <location filename="../basegui.cpp" line="2989"/>
+        <location filename="../basegui.cpp" line="3674"/>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2988"/>
+        <location filename="../basegui.cpp" line="2990"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>새 GUI를 사용하려면 SMPlayer를 재시작해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3450"/>
+        <location filename="../basegui.cpp" line="3452"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>삭제 확인 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3451"/>
+        <location filename="../basegui.cpp" line="3453"/>
         <source>Delete the list of recent files?</source>
         <translation>최근 파일 목록을 삭제할까요?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3673"/>
+        <location filename="../basegui.cpp" line="3675"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>현재 설정을 기본으로 사용하도록 저장했습니다.</translation>
     </message>
@@ -1604,7 +1629,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>명령행 옵션(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4113"/>
+        <location filename="../basegui.cpp" line="4115"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer 명령행 옵션</translation>
     </message>
@@ -1619,37 +1644,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>비디오 이퀄라이저 초기화</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4640"/>
+        <location filename="../basegui.cpp" line="4651"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>서버 응답: &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5282"/>
+        <location filename="../basegui.cpp" line="5293"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer가 갑자기 종료되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5283"/>
+        <location filename="../basegui.cpp" line="5294"/>
         <source>Exit code: %1</source>
         <translation>종료 코드: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5302"/>
+        <location filename="../basegui.cpp" line="5313"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer를 시작하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5303"/>
+        <location filename="../basegui.cpp" line="5314"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>환경설정에서 MPlayer 경로를 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5305"/>
+        <location filename="../basegui.cpp" line="5316"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer가 다운되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5306"/>
+        <location filename="../basegui.cpp" line="5317"/>
         <source>See the log for more info.</source>
         <translation>더 보려면 로그를 확인하세요.</translation>
     </message>
@@ -1694,7 +1719,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>컨텍스트 메뉴 보기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3858"/>
+        <location filename="../basegui.cpp" line="3860"/>
         <source>Multimedia</source>
         <translation>멀티미디어</translation>
     </message>
@@ -1771,22 +1796,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>트랙(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4487"/>
+        <location filename="../basegui.cpp" line="4489"/>
         <source>Warning - Using old MPlayer</source>
         <translation>경고 - 오래된 MPlayer 사용 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4488"/>
+        <location filename="../basegui.cpp" line="4490"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>당신의 시스템에 설치된 MPlayer (%1) 버전은 너무 오래 돼서 SMPlayer가 잘 동작하지 않을 것입니다: 작동하지 않는 옵션이 있을 수 있고, 자막 선택도 잘 되지 않을 것입니다...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4493"/>
+        <location filename="../basegui.cpp" line="4495"/>
         <source>Please, update your MPlayer.</source>
         <translation>MPlayer를 업데이트 하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4495"/>
+        <location filename="../basegui.cpp" line="4497"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(이 주의사항은 더 이상  표시되지 않습니다)</translation>
     </message>
@@ -1876,36 +1901,36 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>싱크 조절하기...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4186"/>
+        <location filename="../basegui.cpp" line="4188"/>
         <source>&amp;Jump to:</source>
         <translation>이동하기:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4187"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - 탐색</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4198"/>
-        <location filename="../basegui.cpp" line="4202"/>
+        <location filename="../basegui.cpp" line="4200"/>
+        <location filename="../basegui.cpp" line="4204"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - 오디오 싱크</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4199"/>
-        <location filename="../basegui.cpp" line="4203"/>
+        <location filename="../basegui.cpp" line="4201"/>
+        <location filename="../basegui.cpp" line="4205"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>오디오 싱크 (밀리세컨드 단위):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4214"/>
-        <location filename="../basegui.cpp" line="4218"/>
+        <location filename="../basegui.cpp" line="4216"/>
+        <location filename="../basegui.cpp" line="4220"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - 자막 싱크</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4215"/>
-        <location filename="../basegui.cpp" line="4219"/>
+        <location filename="../basegui.cpp" line="4217"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>자막 싱크 (밀리세컨드 단위):</translation>
     </message>
@@ -1915,7 +1940,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>항상 위에 토글하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4973"/>
+        <location filename="../basegui.cpp" line="4984"/>
         <source>Jump to %1</source>
         <translation>%1 으로 이동하기</translation>
     </message>
@@ -2116,73 +2141,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2876"/>
+        <location filename="../core.cpp" line="2868"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2884"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2907"/>
+        <location filename="../core.cpp" line="2899"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2922"/>
+        <location filename="../core.cpp" line="2914"/>
         <source>Hue: %1</source>
         <translation>색상: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2937"/>
+        <location filename="../core.cpp" line="2929"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3066"/>
+        <location filename="../core.cpp" line="3058"/>
         <source>Volume: %1</source>
         <translation>볼륨: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3906"/>
+        <location filename="../core.cpp" line="3898"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4149"/>
+        <location filename="../core.cpp" line="4141"/>
         <source>Buffering...</source>
         <translation>버퍼링...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3184"/>
-        <location filename="../core.cpp" line="3195"/>
+        <location filename="../core.cpp" line="3176"/>
+        <location filename="../core.cpp" line="3187"/>
         <source>Font scale: %1</source>
         <translation>글꼴 크기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3771"/>
+        <location filename="../core.cpp" line="3763"/>
         <source>Aspect ratio: %1</source>
         <translation>화면 비율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4137"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3109"/>
+        <location filename="../core.cpp" line="3101"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>자막 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3127"/>
+        <location filename="../core.cpp" line="3119"/>
         <source>Audio delay: %1 ms</source>
         <translation>음성 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2991"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Speed: %1</source>
         <translation>속도: %1</translation>
     </message>
@@ -2192,62 +2217,62 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>유투브 페이지를 검색할 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="568"/>
+        <location filename="../core.cpp" line="562"/>
         <source>Unable to locate the URL of the video</source>
         <translation>동영상의 주소를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3238"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>자막 보이기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3240"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>자막 끄기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3819"/>
+        <location filename="../core.cpp" line="3811"/>
         <source>Mouse wheel seeks now</source>
         <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3822"/>
+        <location filename="../core.cpp" line="3814"/>
         <source>Mouse wheel changes volume now</source>
         <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3825"/>
+        <location filename="../core.cpp" line="3817"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3828"/>
+        <location filename="../core.cpp" line="3820"/>
         <source>Mouse wheel changes speed now</source>
         <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1394"/>
+        <location filename="../core.cpp" line="1390"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1407"/>
+        <location filename="../core.cpp" line="1403"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2610"/>
+        <location filename="../core.cpp" line="2602"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2627"/>
+        <location filename="../core.cpp" line="2619"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2642"/>
+        <location filename="../core.cpp" line="2634"/>
         <source>A-B markers cleared</source>
         <translation>A-B 표시를 지웠습니다</translation>
     </message>
@@ -7232,111 +7257,191 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PrefNetwork</name>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
+        <source>&amp;Youtube (and other sites)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="30"/>
+        <source>&amp;Enable Youtube internal support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="45"/>
+        <source>Playback &amp;quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="75"/>
+        <source>&amp;User agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="93"/>
+        <source>&amp;Play videos from streaming sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="114"/>
         <source>&amp;Proxy</source>
         <translation>프록시</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="30"/>
+        <location filename="../prefnetwork.ui" line="120"/>
         <source>&amp;Enable proxy</source>
         <translation>프록시 사용하기(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="43"/>
+        <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
         <translation>호스트(&amp;H):</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="56"/>
+        <location filename="../prefnetwork.ui" line="146"/>
         <source>&amp;Port:</source>
         <translation>포트(&amp;P):</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="76"/>
+        <location filename="../prefnetwork.ui" line="166"/>
         <source>&amp;Username:</source>
         <translation>사용자명(&amp;U):</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="89"/>
+        <location filename="../prefnetwork.ui" line="179"/>
         <source>Pa&amp;ssword:</source>
         <translation>비밀번호(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="106"/>
+        <location filename="../prefnetwork.ui" line="196"/>
         <source>&amp;Type:</source>
         <translation>형식(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="29"/>
+        <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
         <translation>HTTP</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="30"/>
+        <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="40"/>
+        <location filename="../prefnetwork.cpp" line="64"/>
         <source>Network</source>
         <translation>네트워크</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="89"/>
+        <location filename="../prefnetwork.cpp" line="138"/>
+        <source>Youtube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="140"/>
+        <source>Enable Youtube internal support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="141"/>
+        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="143"/>
+        <source>Youtube quality</source>
+        <translation type="unfinished">유투브 품질</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="144"/>
+        <source>Select the preferred quality for youtube videos.</source>
+        <translation type="unfinished">선호하는 유투브 동영상 품질을 선택하세요.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="146"/>
+        <source>User agent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="147"/>
+        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="150"/>
+        <source>Play videos from streaming sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="151"/>
+        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="153"/>
+        <source>Requires mpv and youtube-dl.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="155"/>
+        <source>Proxy</source>
+        <translation type="unfinished">프락시</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="157"/>
         <source>Enable proxy</source>
         <translation>프록시 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="90"/>
+        <location filename="../prefnetwork.cpp" line="158"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>프록시 사용하기/사용하지 않기.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="92"/>
+        <location filename="../prefnetwork.cpp" line="160"/>
         <source>Host</source>
         <translation>호스트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="93"/>
+        <location filename="../prefnetwork.cpp" line="161"/>
         <source>The host name of the proxy.</source>
         <translation>프록시의 호스트명.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="95"/>
+        <location filename="../prefnetwork.cpp" line="163"/>
         <source>Port</source>
         <translation>포트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="96"/>
+        <location filename="../prefnetwork.cpp" line="164"/>
         <source>The port of the proxy.</source>
         <translation>프록시의 포트</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="98"/>
+        <location filename="../prefnetwork.cpp" line="166"/>
         <source>Username</source>
         <translation>사용자명</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="99"/>
+        <location filename="../prefnetwork.cpp" line="167"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>프록시가 인증이 필요하면, 여기에 사용자명을 정하세요.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="101"/>
+        <location filename="../prefnetwork.cpp" line="169"/>
         <source>Password</source>
         <translation>비밀번호</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="102"/>
+        <location filename="../prefnetwork.cpp" line="170"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>프록시의 비밀번호. &lt;b&gt;경고:&lt;/b&gt; 비밀번호는 설정 파일에 일반적인 텍스트로 저장됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="105"/>
+        <location filename="../prefnetwork.cpp" line="173"/>
         <source>Type</source>
         <translation>형식</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="106"/>
+        <location filename="../prefnetwork.cpp" line="174"/>
         <source>Select the proxy type to be used.</source>
         <translation>사용할 프록시 형식을 선택하세요.</translation>
     </message>
@@ -7344,8 +7449,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="74"/>
-        <location filename="../prefperformance.cpp" line="277"/>
+        <location filename="../prefperformance.cpp" line="49"/>
+        <location filename="../prefperformance.cpp" line="234"/>
         <source>Performance</source>
         <translation>성능</translation>
     </message>
@@ -7356,7 +7461,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="281"/>
+        <location filename="../prefperformance.cpp" line="238"/>
         <source>Priority</source>
         <translation>우선 순위</translation>
     </message>
@@ -7396,37 +7501,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>매우 낮음</translation>
     </message>
     <message>
+        <location filename="../prefperformance.ui" line="333"/>
         <location filename="../prefperformance.ui" line="370"/>
         <location filename="../prefperformance.ui" line="407"/>
         <location filename="../prefperformance.ui" line="444"/>
         <location filename="../prefperformance.ui" line="481"/>
         <location filename="../prefperformance.ui" line="518"/>
-        <location filename="../prefperformance.ui" line="555"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="343"/>
+        <location filename="../prefperformance.ui" line="306"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>캐쉬를 설정하면 느린 미디어에서 성능 향상을 기대할 수 있습니다</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="287"/>
+        <location filename="../prefperformance.cpp" line="244"/>
         <source>Allow frame drop</source>
         <translation>프레임 드롭 허용하기</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="288"/>
+        <location filename="../prefperformance.cpp" line="245"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>오디오와 영상을 맞추기 위해 느린 시스템에서 일부 프레임을 건너뜁니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="247"/>
         <source>Allow hard frame drop</source>
         <translation>강제 프레임 드롭 허용하기</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="248"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>더 강제적인 프레임 드롭(디코딩 끊기)을 적용합니다. 이미지 왜곡을 가져올 수 있습니다!</translation>
     </message>
@@ -7456,22 +7561,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>DVD에서 빠른 챕터 찾기</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
+        <location filename="../prefperformance.cpp" line="275"/>
         <source>Fast audio track switching</source>
         <translation>오디오 트랙 빠르게 변경하기</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="328"/>
+        <location filename="../prefperformance.cpp" line="285"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>DVD에서 빠른 챕터 찾기</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>만약 선택되면, 챕터를 이동하는 가장 빠른 방법을 시도하지만, 일부 디스크에서는 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="259"/>
         <source>Skip loop filter</source>
         <translation>루프 필터 건너뛰기</translation>
     </message>
@@ -7481,72 +7586,72 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="319"/>
+        <location filename="../prefperformance.cpp" line="276"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>사용할 수 있는 값:&lt;br&gt; &lt;b&gt;예&lt;/b&gt;: 오디오 트랙을 변경하는 가장 빠른 방법을 사용합니다 (일부 형식에서는 지원되지 않습니다).&lt;br&gt; &lt;b&gt;아니요&lt;/b&gt;: MPlayer 프로세스를 오디오 트랙이 바뀔 때마다 다시 시작합니다.&lt;br&gt; &lt;b&gt;자동&lt;/b&gt;: SMPlayer가 MPlayer의 버전에 따라 자동으로 결정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="340"/>
+        <location filename="../prefperformance.cpp" line="292"/>
         <source>Cache for files</source>
         <translation>파일 캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>이 옵션은 파일을 미리 캐쉬할 때 얼마나 많은 메모리를 사용할 것인지를 정합니다. (kBytes)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="344"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>Cache for streams</source>
         <translation>스트림 캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="297"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>이 옵션은 주소를 미리 캐쉬할 때 얼마나 많은 메모리를 사용할 것인지를 정합니다. (kBytes)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="348"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>Cache for DVDs</source>
         <translation>DVD 캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="349"/>
+        <location filename="../prefperformance.cpp" line="301"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>이 옵션은 DVD를 미리 캐쉬할 때 얼마나 많은 메모리를 이용할 것인지를 정합니다. (kBytes)&lt;br&gt;경고: DVD에 캐쉬를 사용하면 탐색(챕터 전환 포함)이 잘 되지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="337"/>
+        <location filename="../prefperformance.ui" line="300"/>
         <source>&amp;Cache</source>
         <translation>캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="390"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>DVD 캐쉬:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="316"/>
         <source>Cache for &amp;local files:</source>
         <translation>로컬 파일 캐쉬:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="353"/>
         <source>Cache for &amp;streams:</source>
         <translation>스트림 캐쉬:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="89"/>
+        <location filename="../prefperformance.cpp" line="64"/>
         <source>Enabled</source>
         <translation>사용하기</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="90"/>
+        <location filename="../prefperformance.cpp" line="65"/>
         <source>Skip (always)</source>
         <translation>건너뛰기 (항상)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="91"/>
+        <location filename="../prefperformance.cpp" line="66"/>
         <source>Skip only on HD videos</source>
         <translation>HD 비디오에서만 건너뛰기</translation>
     </message>
@@ -7556,77 +7661,77 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>루프 필터</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
+        <location filename="../prefperformance.cpp" line="256"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation>다른 코덱을 지정하지 않고 VDPAU 비디오 출력이 아닐 때 상용 코덱인 CoreAVC를 사용합니다. CoreAVC를 지원하는 MPlayer가 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="303"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>이 옵션은 H.264 디코딩시 루프 필터 (깍두기를 제거하는 디블럭킹이라고 알려진) 를 건너뛰게 합니다. 필터된 프레임은 디코딩에 의존적인 프레임에 레퍼런스로 사용하기로 되어 있기 때문에 이 옵션은 MPEG-2 비디오에서 디블럭킹을 하지 않는 것보다 더 품질이 저하됩니다. 그러나 적어도 고비트레이트 HDTV에서 이 옵션은 눈에 띄는 품질 저하 없이 디코딩 성능을 향상시켜 줍니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="267"/>
         <source>Possible values:</source>
         <translation>가능한 값:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="311"/>
+        <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>사용함: 루프 필터를 건너뛰지 않습니다</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="269"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>건너뛰기 (항상): 비디오의 해상도에 관계없이 루프 필터를 건너뜁니다</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="314"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>HD 비디오에서만 건너뛰기: 비디오의 세로크기가 %1 이상인 경우만 루프 필터를 건너뜁니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="338"/>
+        <location filename="../prefperformance.cpp" line="290"/>
         <source>Cache</source>
         <translation>캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="353"/>
+        <location filename="../prefperformance.cpp" line="305"/>
         <source>Cache for audio CDs</source>
         <translation>오디오 CD 캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>이 옵션은 오디오 CD를 미리 캐쉬할 때 얼마나 많은 메모리를 사용할지를 정합니다. (kBytes)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="427"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>오디오 CD 캐쉬:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="357"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>Cache for VCDs</source>
         <translation>비디오 CD 캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="358"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>이 옵션은 비디오 CD를 미리 읽을 때 얼마나 많은 메모리를 사용할 것인지를 정합니다. (kBytes)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="464"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>비디오 CD 캐쉬:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="251"/>
         <source>Threads for decoding</source>
         <translation>디코딩 쓰레드</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="252"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>디코딩시 사용할 쓰레드 개수를 정하세요. MPEG-1/2와 H.264에서만 동작합니다.</translation>
     </message>
@@ -7636,12 +7741,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>디코딩 쓰레드 (MPEG-1/2와 H.264만):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="239"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>윈도우에서 사용 가능한 MPlayer 프로세스 우선순위를 정합니다. 경고: 실시간 우선순위를 사용하면 시스템 응답이 없는 상태가 될 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="298"/>
+        <location filename="../prefperformance.cpp" line="255"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>다른 코덱을 지정하지 않으면 CoreAVC 사용하기</translation>
     </message>
@@ -7651,24 +7756,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>다른 코덱을 지정하지 않으면 CoreAVC 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="538"/>
+        <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>TV 캐쉬</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="334"/>
         <source>Youtube quality</source>
-        <translation>유투브 품질</translation>
+        <translation type="obsolete">유투브 품질</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="335"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>선호하는 유투브 동영상 품질을 선택하세요.</translation>
+        <translation type="obsolete">선호하는 유투브 동영상 품질을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="295"/>
         <source>Youtube &amp;quality</source>
-        <translation>유투브 품질</translation>
+        <translation type="obsolete">유투브 품질</translation>
     </message>
 </context>
 <context>
