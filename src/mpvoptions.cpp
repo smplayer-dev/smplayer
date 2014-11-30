@@ -69,6 +69,8 @@ void MPVProcess::setMedia(const QString & media) {
 			"INFO_AUDIO_RATE=${=audio-samplerate}\n"
 			"INFO_AUDIO_NCH=${=audio-channels}\n"
 
+			"INFO_LENGTH=${=length}\n"
+
 			"INFO_DEMUXER=${=demuxer}\n"
 			"INFO_TITLES=${=disc-titles}\n"
 			"INFO_CHAPTERS=${=chapters}\n"
@@ -302,7 +304,8 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "priority" ||
 	    option_name == "autosync" ||
 	    option_name == "dvd-device" || option_name == "cdrom-device" ||
-	    option_name == "demuxer")
+	    option_name == "demuxer" ||
+	    option_name == "frames")
 	{
 		QString s = "--" + option_name;
 		if (!value.isNull()) s += "=" + value.toString();

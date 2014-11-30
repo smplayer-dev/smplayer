@@ -498,6 +498,11 @@ void MPVProcess::parseLine(QByteArray ba) {
 				md.video_bitrate = value.toInt();
 			}
 			else
+			if (tag == "INFO_LENGTH") {
+				md.duration = value.toDouble();
+				qDebug("MPVProcess::parseLine: md.duration set to %f", md.duration);
+			}
+			else
 			if (tag == "INFO_DEMUXER") {
 				md.demuxer = value;
 			}

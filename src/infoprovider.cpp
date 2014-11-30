@@ -19,42 +19,40 @@
 #include "infoprovider.h"
 #include "global.h"
 #include "preferences.h"
-#include "mplayerprocess.h"
+#include "playerprocess.h"
 #include "playerid.h"
 #include <QFileInfo>
 
 MediaData InfoProvider::getInfo(QString mplayer_bin, QString filename) {
 	qDebug("InfoProvider::getInfo: %s", filename.toUtf8().data());
 
-	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
-		qDebug("InfoProvider::getInfo: mpv not supported yet");
-		return MediaData();
-	}
-
-	MplayerProcess proc;
-
 	QFileInfo fi(mplayer_bin);
-    if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
-        mplayer_bin = fi.absoluteFilePath();
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		mplayer_bin = fi.absoluteFilePath();
 	}
 
-	proc.addArgument(mplayer_bin);
-	proc.addArgument("-identify");
-	proc.addArgument("-frames");
-	proc.addArgument("0");
-	proc.addArgument("-vo");
-	proc.addArgument("null");
-	proc.addArgument("-ao");
-	proc.addArgument("null");
-	proc.addArgument(filename);
+	PlayerProcess * proc = PlayerProcess::createPlayerProcess(mplayer_bin, 0);
 
-	proc.start();
-	if (!proc.waitForFinished()) {
+	proc->setExecutable(mplayer_bin);
+	proc->setFixedOptions();
+	proc->setOption("frames", "1");
+	proc->setOption("vo", "null");
+	proc->setOption("ao", "null");
+	proc->setMedia(filename);
+
+	QString commandline = proc->arguments().join(" ");
+	qDebug("InfoProvider::getInfo: command: '%s'", commandline.toUtf8().data());
+
+	proc->start();
+	if (!proc->waitForFinished()) {
 		qWarning("InfoProvider::getInfo: process didn't finish. Killing it...");
-		proc.kill();
+		proc->kill();
 	}
 
-	return proc.mediaData();
+	MediaData md = proc->mediaData();
+	delete proc;
+
+	return md;
 }
 
 MediaData InfoProvider::getInfo(QString filename) {
