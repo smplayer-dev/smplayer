@@ -166,7 +166,7 @@ QMap<QString,QString> Languages::list() {
 	l["sg"] = tr("Sango");
 	l["si"] = tr("Sinhala");
 	l["sk"] = tr("Slovak");
-	l["sl"] = tr("Slovenian");
+	l["sl"] = tr("Slovene");
 	l["sm"] = tr("Samoan");
 	l["sn"] = tr("Shona");
 	l["so"] = tr("Somali");
@@ -268,7 +268,7 @@ QMap<QString,QString> Languages::translations() {
 	m["ro_RO"] = QString::fromUtf8("Română"); //tr("Romanian");
 	m["ru_RU"] = QString::fromUtf8("Русский"); //tr("Russian");
 	m["sk"] = "Slovensky"; //tr("Slovak");
-	m["sl_SI"] = "Slovenski"; //tr("Slovenian");
+	m["sl_SI"] = "Slovenski"; //tr("Slovene");
 	m["sq_AL"] = "Shqip"; //tr("Albanian");
 	m["sr"] = QString::fromUtf8("Српски"); //tr("Serbian");
 	m["sv"] = "Svenska"; //tr("Swedish");
@@ -312,6 +312,27 @@ QMap<QString,QString> Languages::encodings() {
 	l["CP1250"] = tr( "Slavic/Central European Windows");
 	l["CP1256"] = tr( "Arabic Windows");
 	l["CP1253"] = tr("Modern Greek Windows");
+
+	return l;
+}
+
+QMap<QString,QString> Languages::enca() {
+	QMap<QString,QString> l;
+
+	l["be"] = tr("Belarusian");
+	l["bg"] = tr("Bulgarian");
+	l["cs"] = tr("Czech");
+	l["et"] = tr("Estonian");
+	l["hr"] = tr("Croatian");
+	l["hu"] = tr("Hungarian");
+	l["lt"] = tr("Lithuanian");
+	l["lv"] = tr("Latvian");
+	l["pl"] = tr("Polish");
+	l["ru"] = tr("Russian");
+	l["sk"] = tr("Slovak");
+	l["sl"] = tr("Slovene");
+	l["uk"] = tr("Ukrainian");
+	l["zh"] = tr("Chinese");
 
 	return l;
 }

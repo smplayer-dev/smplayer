@@ -85,11 +85,14 @@ void PrefSubtitles::retranslateStrings() {
 		i.next();
 		font_encoding_combo->addItem( i.value() + " (" + i.key() + ")", i.key() );
 	}
-	l = Languages::list(); i = l;
+
+	l = Languages::enca(); 
+	i = l;
 	while (i.hasNext()) {
 		i.next();
 		enca_lang_combo->addItem( i.value() + " (" + i.key() + ")", i.key() );
 	}
+
 	font_encoding_combo->model()->sort(0);
 	enca_lang_combo->model()->sort(0);
 	//font_encoding_combo->setCurrentIndex(font_encoding_item);
